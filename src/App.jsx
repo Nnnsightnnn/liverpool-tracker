@@ -1,5 +1,6 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import _ from "lodash";
+import { PLAYERS, RSS_FEEDS } from "./playerData.js";
 
 // ─── Liverpool FC Player Tracker ────────────────────────────────────────────
 // Current 2025-26 squad data, form ratings, stats, and RSS news feeds
@@ -73,73 +74,6 @@ function PlayerAvatar({ player, size = 64 }) {
   );
 }
 
-// ─── Player Data (2025-26 Season · Updated Mar 18, 2026) ────────────────────
-// Statuses: "fit" | "injured" | "doubtful" | "recovering"
-// injuryNote: short description shown on card when not fit
-const PLAYERS = [
-  // ── Goalkeepers ───────────────────────────────────────────────────────────
-  { id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 26, goals: 0, assists: 0, cleanSheets: 9, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 7.2, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p116535.png" },
-  { id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 12, goals: 0, assists: 0, cleanSheets: 4, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.9, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p491199.png" },
-
-  // ── Defenders ─────────────────────────────────────────────────────────────
-  { id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 34, appearances: 29, goals: 3, assists: 1, cleanSheets: 9, xG: 2.4, tacklesPer90: 1.1, passCompletion: 92, progressiveCarries: 1.8, form: 7.8, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p97032.png" },
-  { id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 26, appearances: 28, goals: 2, assists: 0, cleanSheets: 8, xG: 1.6, tacklesPer90: 1.4, passCompletion: 89, progressiveCarries: 2.1, form: 7.5, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p223340.png" },
-  { id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 22, goals: 0, assists: 1, cleanSheets: 6, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 6.8, status: "doubtful", injuryNote: "Missed training — fitness test ahead of Galatasaray", image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p171314.png" },
-  { id: 6, name: "Andy Robertson", number: 26, position: "DEF", nationality: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland", age: 32, appearances: 21, goals: 1, assists: 4, cleanSheets: 6, xG: 0.5, tacklesPer90: 2.3, passCompletion: 83, progressiveCarries: 4.2, form: 6.9, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p122798.png" },
-  { id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 21, appearances: 24, goals: 0, assists: 3, cleanSheets: 7, xG: 0.3, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 7.1, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p493007.png" },
-  { id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 15, goals: 1, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", injuryNote: "Knee surgery — out for season, aiming for pre-season July return", image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p493399.png" },
-  { id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 23, goals: 2, assists: 5, cleanSheets: 6, xG: 1.9, tacklesPer90: 1.8, passCompletion: 81, progressiveCarries: 6.3, form: 7.4, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p455592.png" },
-  { id: 10, name: "Giovanni Leoni", number: 33, position: "DEF", nationality: "🇮🇹 Italy", age: 18, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", injuryNote: "Torn ACL (Sep) — out for season, targeting 2026-27 return", image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p578138.png" },
-  { id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 6, goals: 0, assists: 0, cleanSheets: 2, xG: 0.1, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.6, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p578140.png" },
-  { id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p578142.png" },
-
-  // ── Midfielders ───────────────────────────────────────────────────────────
-  { id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 28, goals: 3, assists: 4, cleanSheets: null, xG: 2.8, tacklesPer90: 2.1, passCompletion: 90, progressiveCarries: 3.4, form: 7.6, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p225902.png" },
-  { id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 27, goals: 4, assists: 3, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 88, progressiveCarries: 4.7, form: 7.9, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p468745.png" },
-  { id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 26, goals: 4, assists: 3, cleanSheets: null, xG: 3.5, tacklesPer90: 1.9, passCompletion: 85, progressiveCarries: 5.2, form: 7.3, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p450211.png" },
-  { id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 20, goals: 2, assists: 2, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.8, form: 6.9, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p448360.png" },
-  { id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 12, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.5, status: "injured", injuryNote: "Foot injury (Feb 11 vs Sunderland) — out long-term", image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p218907.png" },
-  { id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 22, appearances: 22, goals: 4, assists: 5, cleanSheets: null, xG: 4.2, tacklesPer90: 0.9, passCompletion: 87, progressiveCarries: 6.8, form: 7.7, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p498097.png" },
-  { id: 19, name: "Stefan Bajcetic", number: 43, position: "MID", nationality: "🇪🇸 Spain", age: 21, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", injuryNote: "Recurring hamstring issues — yet to play this season", image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p493397.png" },
-  { id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 6, goals: 0, assists: 1, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 7.0, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p578136.png" },
-
-  // ── Forwards ──────────────────────────────────────────────────────────────
-  { id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 26, goals: 5, assists: 6, cleanSheets: null, xG: 6.8, tacklesPer90: 0.5, passCompletion: 79, progressiveCarries: 5.9, form: 7.1, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p118748.png" },
-  { id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 25, goals: 6, assists: 3, cleanSheets: null, xG: 5.4, tacklesPer90: 0.7, passCompletion: 80, progressiveCarries: 4.1, form: 7.2, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p222690.png" },
-  { id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 16, goals: 11, assists: 4, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 8.3, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — running outdoors, nearing return after int'l break", image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p467169.png" },
-  { id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 22, appearances: 25, goals: 11, assists: 4, cleanSheets: null, xG: 8.8, tacklesPer90: 0.5, passCompletion: 77, progressiveCarries: 3.9, form: 8.1, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p500015.png" },
-  { id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 8, goals: 2, assists: 1, cleanSheets: null, xG: 1.2, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p578134.png" },
-];
-
-// ─── RSS Feed Sources ───────────────────────────────────────────────────────
-const RSS_FEEDS = [
-  { name: "Liverpool FC Official", url: "https://www.liverpoolfc.com/news/feed", category: "official", color: "#C8102E" },
-  { name: "BBC Sport - Liverpool", url: "http://feeds.bbci.co.uk/sport/football/teams/liverpool/rss.xml", category: "major", color: "#BB1919" },
-  { name: "Sky Sports - Liverpool", url: "https://www.skysports.com/rss/12040", category: "major", color: "#E10600" },
-  { name: "This Is Anfield", url: "https://www.thisisanfield.com/feed/", category: "fan", color: "#D4213D" },
-  { name: "Empire of the Kop", url: "https://www.empireofthekop.com/feed/", category: "fan", color: "#8B0000" },
-  { name: "The Anfield Wrap", url: "https://www.theanfieldwrap.com/feed/", category: "fan", color: "#B22222" },
-  { name: "ESPN FC - Liverpool", url: "https://www.espn.com/espn/rss/soccer/news", category: "major", color: "#CC0000" },
-];
-
-// ─── Simulated RSS items (since we can't fetch cross-origin in JSX) ────────
-const MOCK_NEWS = [
-  { source: "Liverpool FC Official", title: "Team news vs Galatasaray: Gomez doubtful, Konaté fully fit", time: "2h ago", category: "official" },
-  { source: "Liverpool.com", title: "Alexander Isak injury update: running outdoors, return date hint", time: "4h ago", category: "major" },
-  { source: "BBC Sport", title: "Liverpool in strong position ahead of Champions League QF", time: "5h ago", category: "major" },
-  { source: "Sky Sports", title: "Ekitike and Isak: Liverpool's £200m strike force analysed", time: "6h ago", category: "major" },
-  { source: "This Is Anfield", title: "Trey Nyoni had seven 100% stats vs Wolves — the kid is ready", time: "8h ago", category: "fan" },
-  { source: "Liverpool FC Official", title: "Slot on Bradley & Leoni: 'Aiming for pre-season return'", time: "1d ago", category: "official" },
-  { source: "Sky Sports", title: "Wirtz, Frimpong & Kerkez settling in — Slot's new-look Reds", time: "1d ago", category: "major" },
-  { source: "This Is Anfield", title: "Gravenberch showing why he's the best #6 in Europe", time: "1d ago", category: "fan" },
-  { source: "Empire of the Kop", title: "Van Dijk extension: What it means for the squad", time: "1d ago", category: "fan" },
-  { source: "The Anfield Wrap", title: "Podcast: Champions League QF draw reaction", time: "2d ago", category: "fan" },
-  { source: "Empire of the Kop", title: "Ngumoha proving doubters wrong with fearless displays", time: "2d ago", category: "fan" },
-  { source: "BBC Sport", title: "Premier League title race: Liverpool's credentials examined", time: "2d ago", category: "major" },
-  { source: "Liverpool FC Official", title: "Jacquet & Ndukwe: January signings settling into life at LFC", time: "3d ago", category: "official" },
-  { source: "The Anfield Wrap", title: "Subscriber: The case for Gakpo as LFC's most improved", time: "3d ago", category: "fan" },
-  { source: "This Is Anfield", title: "Endo stretchered off at Sunderland — Slot confirms long-term absence", time: "5w ago", category: "fan" },
-];
 
 // ─── Helper Components ──────────────────────────────────────────────────────
 
@@ -212,9 +146,88 @@ function StatusBadge({ status }) {
   );
 }
 
+// ─── Physical Profile ────────────────────────────────────────────────────────
+
+function PhysicalProfile({ physical }) {
+  const totalInches = Math.round(physical.height / 2.54);
+  const ft = Math.floor(totalInches / 12);
+  const inches = totalInches % 12;
+  const lbs = Math.round(physical.weight * 2.205);
+  return (
+    <div>
+      <div style={{ display: "flex", gap: 12, marginBottom: 14 }}>
+        <div style={{
+          flex: 1, background: "#252548", borderRadius: 10, padding: "12px 16px", textAlign: "center",
+        }}>
+          <div style={{ color: "#fff", fontWeight: 800, fontSize: 22 }}>{ft}<span style={{ fontSize: 12, color: "#888", fontWeight: 400 }}>'</span>{inches}<span style={{ fontSize: 12, color: "#888", fontWeight: 400 }}>"</span></div>
+          <div style={{ color: "#777", fontSize: 10, textTransform: "uppercase", letterSpacing: 1, marginTop: 2 }}>Height</div>
+        </div>
+        <div style={{
+          flex: 1, background: "#252548", borderRadius: 10, padding: "12px 16px", textAlign: "center",
+        }}>
+          <div style={{ color: "#fff", fontWeight: 800, fontSize: 22 }}>{lbs}<span style={{ fontSize: 12, color: "#888", fontWeight: 400 }}> lbs</span></div>
+          <div style={{ color: "#777", fontSize: 10, textTransform: "uppercase", letterSpacing: 1, marginTop: 2 }}>Weight</div>
+        </div>
+      </div>
+      <StatBar label="Pace" value={physical.pace} max={99} />
+      <StatBar label="Acceleration" value={physical.acceleration} max={99} />
+      <StatBar label="Sprint Speed" value={physical.sprintSpeed} max={99} />
+    </div>
+  );
+}
+
+// ─── Career Timeline ─────────────────────────────────────────────────────────
+
+function CareerTimeline({ career }) {
+  const reversed = [...career].reverse();
+  return (
+    <div style={{ position: "relative", paddingLeft: 20 }}>
+      <div style={{ position: "absolute", left: 7, top: 4, bottom: 4, width: 2, background: "#333" }} />
+      {reversed.map((entry, i) => {
+        const isCurrent = entry.years.endsWith("-");
+        const isYouth = entry.type === "youth";
+        return (
+          <div key={i} style={{ position: "relative", marginBottom: i < reversed.length - 1 ? 16 : 0 }}>
+            <div style={{
+              position: "absolute", left: -17, top: 4,
+              width: 12, height: 12, borderRadius: "50%",
+              background: isCurrent ? LFC_RED : isYouth ? "transparent" : "#555",
+              border: isYouth ? "2px solid #555" : isCurrent ? `2px solid ${LFC_RED}` : "2px solid #555",
+              boxShadow: isCurrent ? `0 0 8px ${LFC_RED}66` : "none",
+            }} />
+            <div style={{ opacity: isYouth ? 0.6 : 1 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
+                <span style={{
+                  color: isCurrent ? LFC_RED : "#fff", fontWeight: 700, fontSize: 13,
+                }}>{entry.club}</span>
+                {entry.fee ? (
+                  <span style={{
+                    fontSize: 10, padding: "2px 8px", borderRadius: 8, fontWeight: 600,
+                    background: "#ffffff12", color: "#aaa", border: "1px solid #ffffff15",
+                  }}>{entry.fee}</span>
+                ) : (
+                  <span style={{
+                    fontSize: 10, padding: "2px 8px", borderRadius: 8, fontWeight: 600,
+                    background: isYouth ? "#ffc10712" : "#ffffff08",
+                    color: isYouth ? "#ffc107" : "#666",
+                    border: isYouth ? "1px solid #ffc10722" : "1px solid #ffffff08",
+                  }}>{isYouth ? "Youth" : "Academy"}</span>
+                )}
+              </div>
+              <div style={{ fontSize: 11, color: "#666", marginTop: 2 }}>{entry.years}</div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
 // ─── Player Card ────────────────────────────────────────────────────────────
 
 function PlayerCard({ player, expanded, onToggle }) {
+  const [activeTab, setActiveTab] = useState("stats");
+  useEffect(() => { if (!expanded) setActiveTab("stats"); }, [expanded]);
   return (
     <div
       onClick={onToggle}
@@ -284,44 +297,167 @@ function PlayerCard({ player, expanded, onToggle }) {
         ))}
       </div>
 
-      {/* Expanded Stats */}
+      {/* Expanded Tabs */}
       {expanded && (
         <div style={{ padding: "4px 18px 18px", borderTop: "1px solid #ffffff08" }}>
-          <div style={{ fontSize: 11, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 10 }}>
-            Advanced Stats
+          {/* Tab Bar */}
+          <div style={{ display: "flex", gap: 4, marginBottom: 14, background: "#ffffff08", borderRadius: 8, padding: 3 }}>
+            {[
+              { key: "stats", label: "Stats" },
+              { key: "physical", label: "Physical" },
+              { key: "career", label: "Career" },
+            ].map((t) => (
+              <button
+                key={t.key}
+                onClick={(e) => { e.stopPropagation(); setActiveTab(t.key); }}
+                style={{
+                  flex: 1, padding: "7px 0", borderRadius: 6, border: "none", cursor: "pointer",
+                  fontWeight: 700, fontSize: 11, textTransform: "uppercase", letterSpacing: 1,
+                  background: activeTab === t.key ? LFC_RED : "transparent",
+                  color: activeTab === t.key ? "#fff" : "#888",
+                  transition: "all 0.2s",
+                }}
+              >
+                {t.label}
+              </button>
+            ))}
           </div>
-          <StatBar label="Expected Goals (xG)" value={player.xG} max={12} />
-          <StatBar label="Pass Completion" value={player.passCompletion} max={100} unit="%" />
-          <StatBar label="Tackles per 90" value={player.tacklesPer90} max={4} />
-          <StatBar label="Progressive Carries per 90" value={player.progressiveCarries} max={8} />
+
+          {/* Stats Tab */}
+          {activeTab === "stats" && (
+            <div>
+              <div style={{ fontSize: 11, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 10 }}>
+                Advanced Stats
+              </div>
+              <StatBar label="Expected Goals (xG)" value={player.xG} max={12} />
+              <StatBar label="Pass Completion" value={player.passCompletion} max={100} unit="%" />
+              <StatBar label="Tackles per 90" value={player.tacklesPer90} max={4} />
+              <StatBar label="Progressive Carries per 90" value={player.progressiveCarries} max={8} />
+            </div>
+          )}
+
+          {/* Physical Tab */}
+          {activeTab === "physical" && player.physical && (
+            <PhysicalProfile physical={player.physical} />
+          )}
+
+          {/* Career Tab */}
+          {activeTab === "career" && player.career && (
+            <CareerTimeline career={player.career} />
+          )}
         </div>
       )}
     </div>
   );
 }
 
-// ─── News Feed ──────────────────────────────────────────────────────────────
+// ─── Live RSS News Feed ──────────────────────────────────────────────────────
 
-function NewsFeed({ filter }) {
-  const filtered = filter === "all" ? MOCK_NEWS : MOCK_NEWS.filter((n) => n.category === filter);
+function timeAgo(dateStr) {
+  const diff = Date.now() - new Date(dateStr).getTime();
+  const mins = Math.floor(diff / 60000);
+  if (mins < 60) return `${mins}m ago`;
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24) return `${hrs}h ago`;
+  const days = Math.floor(hrs / 24);
+  if (days < 7) return `${days}d ago`;
+  const weeks = Math.floor(days / 7);
+  return `${weeks}w ago`;
+}
+
+function parseRSSItems(xmlText, feedMeta) {
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(xmlText, "text/xml");
+  const items = doc.querySelectorAll("item");
+  return Array.from(items).map((item) => ({
+    title: item.querySelector("title")?.textContent || "",
+    link: item.querySelector("link")?.textContent || "",
+    pubDate: item.querySelector("pubDate")?.textContent || "",
+    source: feedMeta.name,
+    category: feedMeta.category,
+    color: feedMeta.color,
+  }));
+}
+
+function LiveNewsFeed({ filter }) {
+  const [articles, setArticles] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    setLoading(true);
+    setError(null);
+
+    Promise.allSettled(
+      RSS_FEEDS.map((feed) =>
+        fetch("/api/rss?url=" + encodeURIComponent(feed.url))
+          .then((r) => { if (!r.ok) throw new Error(r.status); return r.text(); })
+          .then((xml) => parseRSSItems(xml, feed))
+      )
+    ).then((results) => {
+      if (cancelled) return;
+      const all = results
+        .filter((r) => r.status === "fulfilled")
+        .flatMap((r) => r.value)
+        .filter((a) => a.title && a.pubDate)
+        .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+      if (all.length === 0) {
+        setError("Could not load any feeds. CORS proxy may be unavailable.");
+      }
+      setArticles(all);
+      setLoading(false);
+    });
+
+    return () => { cancelled = true; };
+  }, []);
+
+  const filtered = filter === "all" ? articles : articles.filter((a) => a.category === filter);
+
+  if (loading) {
+    return (
+      <div style={{ textAlign: "center", padding: 40, color: "#888" }}>
+        Loading live news feeds...
+      </div>
+    );
+  }
+
+  if (error && articles.length === 0) {
+    return (
+      <div style={{ textAlign: "center", padding: 40, color: "#ff6b6b" }}>
+        {error}
+      </div>
+    );
+  }
+
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
-      {filtered.map((item, i) => (
-        <div key={i} style={{
-          padding: "12px 16px", borderRadius: 10, background: "#1e1e3a",
-          borderLeft: `3px solid ${item.category === "official" ? LFC_RED : item.category === "major" ? "#e67e22" : "#8e44ad"}`,
-          transition: "background 0.2s", cursor: "pointer",
-        }}
+      {filtered.slice(0, 30).map((item, i) => (
+        <a
+          key={i}
+          href={item.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            padding: "12px 16px", borderRadius: 10, background: "#1e1e3a",
+            borderLeft: `3px solid ${item.category === "official" ? LFC_RED : item.category === "major" ? "#e67e22" : "#8e44ad"}`,
+            transition: "background 0.2s", cursor: "pointer", textDecoration: "none",
+          }}
           onMouseEnter={(e) => e.currentTarget.style.background = "#252548"}
           onMouseLeave={(e) => e.currentTarget.style.background = "#1e1e3a"}
         >
           <div style={{ color: "#fff", fontSize: 13, fontWeight: 600, lineHeight: 1.4 }}>{item.title}</div>
           <div style={{ display: "flex", gap: 12, marginTop: 4 }}>
             <span style={{ fontSize: 10, color: LFC_RED, fontWeight: 600 }}>{item.source}</span>
-            <span style={{ fontSize: 10, color: "#666" }}>{item.time}</span>
+            <span style={{ fontSize: 10, color: "#666" }}>{timeAgo(item.pubDate)}</span>
           </div>
-        </div>
+        </a>
       ))}
+      {filtered.length === 0 && (
+        <div style={{ textAlign: "center", padding: 40, color: "#666" }}>
+          No articles found for this filter.
+        </div>
+      )}
     </div>
   );
 }
@@ -596,7 +732,7 @@ export default function LiverpoolTracker() {
               ))}
             </div>
 
-            <NewsFeed filter={newsFilter} />
+            <LiveNewsFeed filter={newsFilter} />
 
             {/* RSS How-To */}
             <div style={{
