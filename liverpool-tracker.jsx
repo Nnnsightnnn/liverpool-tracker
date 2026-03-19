@@ -142,6 +142,26 @@ const LATEST_NEWS = [
   { source: "Liverpool FC Official", title: "Every Liverpool FC contract expiry date: 3 players free agents in 2026", time: "1w ago", category: "official" },
 ];
 
+// ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
+// result: "W" | "D" | "L"
+const RESULTS = [
+  { date: "2026-03-18", opponent: "Galatasaray", home: true,  score: "4-0", competition: "UCL",  result: "W", scorers: "Szoboszlai, Ekitike, Gravenberch, Salah" },
+  { date: "2026-03-15", opponent: "Tottenham",   home: true,  score: "1-1", competition: "PL",   result: "D", scorers: "Gakpo" },
+  { date: "2026-03-10", opponent: "Galatasaray", home: false, score: "0-1", competition: "UCL",  result: "L", scorers: "" },
+  { date: "2026-03-06", opponent: "Wolves",      home: false, score: "3-1", competition: "FA",   result: "W", scorers: "Ekitike 2, Wirtz" },
+  { date: "2026-03-03", opponent: "Wolves",      home: false, score: "1-2", competition: "PL",   result: "L", scorers: "Szoboszlai" },
+  { date: "2026-02-28", opponent: "West Ham",     home: true,  score: "5-2", competition: "PL",   result: "W", scorers: "Ekitike 2, Salah, Gakpo, Szoboszlai" },
+  { date: "2026-02-22", opponent: "Nott'm Forest",home: false, score: "1-0", competition: "PL",   result: "W", scorers: "Mac Allister" },
+  { date: "2026-02-14", opponent: "Brighton",     home: true,  score: "3-0", competition: "FA",   result: "W", scorers: "Ekitike 2, Gakpo" },
+  { date: "2026-02-11", opponent: "Sunderland",   home: false, score: "1-0", competition: "PL",   result: "W", scorers: "Gravenberch" },
+  { date: "2026-02-08", opponent: "Man City",     home: false, score: "1-2", competition: "PL",   result: "L", scorers: "Salah" },
+  { date: "2026-01-31", opponent: "Newcastle",    home: true,  score: "4-1", competition: "PL",   result: "W", scorers: "Ekitike 2, Wirtz, Salah" },
+  { date: "2026-01-24", opponent: "Bournemouth",  home: false, score: "2-3", competition: "PL",   result: "L", scorers: "Gakpo, Szoboszlai" },
+  { date: "2026-01-17", opponent: "Burnley",      home: true,  score: "1-1", competition: "PL",   result: "D", scorers: "Van Dijk" },
+  { date: "2026-01-12", opponent: "Barnsley",     home: true,  score: "4-1", competition: "FA",   result: "W", scorers: "Ngumoha, Gakpo, Jones, Wirtz" },
+  { date: "2026-01-08", opponent: "Arsenal",      home: false, score: "0-0", competition: "PL",   result: "D", scorers: "" },
+];
+
 // ─── Helper Components ──────────────────────────────────────────────────────
 
 function FormBadge({ form }) {
@@ -327,6 +347,125 @@ function NewsFeed({ filter }) {
   );
 }
 
+// ─── Form Guide ─────────────────────────────────────────────────────────────
+
+function FormGuide({ results, count = 5 }) {
+  const recent = results.slice(0, count);
+  const wins = recent.filter(r => r.result === "W").length;
+  const draws = recent.filter(r => r.result === "D").length;
+  const losses = recent.filter(r => r.result === "L").length;
+  const colors = { W: "#28a745", D: "#ffc107", L: "#dc3545" };
+  const labels = { W: "Win", D: "Draw", L: "Loss" };
+
+  return (
+    <div style={{ background: "#1e1e3a", borderRadius: 12, padding: 16, marginBottom: 16 }}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 }}>
+        <div style={{ fontSize: 12, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5 }}>
+          Last {count} Form
+        </div>
+        <div style={{ display: "flex", gap: 12, fontSize: 11, color: "#aaa" }}>
+          <span><span style={{ color: "#28a745", fontWeight: 700 }}>{wins}</span> W</span>
+          <span><span style={{ color: "#ffc107", fontWeight: 700 }}>{draws}</span> D</span>
+          <span><span style={{ color: "#dc3545", fontWeight: 700 }}>{losses}</span> L</span>
+        </div>
+      </div>
+      <div style={{ display: "flex", gap: 6 }}>
+        {recent.map((r, i) => (
+          <div key={i} style={{ flex: 1, textAlign: "center" }}>
+            <div style={{
+              width: "100%", aspectRatio: "1", borderRadius: 10,
+              background: colors[r.result], display: "flex",
+              alignItems: "center", justifyContent: "center",
+              color: r.result === "D" ? "#000" : "#fff",
+              fontWeight: 800, fontSize: 16,
+              boxShadow: `0 2px 8px ${colors[r.result]}44`,
+            }}>
+              {r.result}
+            </div>
+            <div style={{ fontSize: 9, color: "#666", marginTop: 4, lineHeight: 1.2 }}>
+              {r.score}
+            </div>
+            <div style={{ fontSize: 8, color: "#555", lineHeight: 1.2, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+              {r.opponent}
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ─── Recent Results ─────────────────────────────────────────────────────────
+
+function RecentResults({ results }) {
+  const compColors = { PL: "#3d195b", UCL: "#091442", FA: "#6c0d31" };
+  const compLabels = { PL: "Premier League", UCL: "Champions League", FA: "FA Cup" };
+
+  const formatDate = (dateStr) => {
+    const d = new Date(dateStr + "T12:00:00");
+    return d.toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" });
+  };
+
+  return (
+    <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+      {results.map((r, i) => {
+        const resultColor = r.result === "W" ? "#28a745" : r.result === "D" ? "#ffc107" : "#dc3545";
+        return (
+          <div key={i} style={{
+            display: "flex", alignItems: "center", gap: 12,
+            padding: "12px 16px", borderRadius: 10, background: "#1e1e3a",
+            borderLeft: `3px solid ${resultColor}`,
+          }}>
+            {/* Result badge */}
+            <div style={{
+              width: 36, height: 36, borderRadius: 8,
+              background: resultColor, display: "flex",
+              alignItems: "center", justifyContent: "center",
+              color: r.result === "D" ? "#000" : "#fff",
+              fontWeight: 800, fontSize: 14, flexShrink: 0,
+            }}>
+              {r.result}
+            </div>
+
+            {/* Match info */}
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
+                <span style={{ color: "#fff", fontWeight: 700, fontSize: 14 }}>
+                  {r.home ? "Liverpool" : r.opponent}
+                  <span style={{ color: resultColor, fontWeight: 800, margin: "0 6px" }}>{r.score}</span>
+                  {r.home ? r.opponent : "Liverpool"}
+                </span>
+              </div>
+              {r.scorers && (
+                <div style={{ fontSize: 11, color: "#888", marginTop: 2, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
+                  {r.scorers}
+                </div>
+              )}
+            </div>
+
+            {/* Meta */}
+            <div style={{ textAlign: "right", flexShrink: 0 }}>
+              <div style={{
+                fontSize: 9, fontWeight: 700, textTransform: "uppercase",
+                color: "#fff", background: (compColors[r.competition] || "#333") + "cc",
+                padding: "2px 8px", borderRadius: 6, letterSpacing: 0.5, marginBottom: 2,
+              }}>
+                {r.competition}
+              </div>
+              <div style={{ fontSize: 10, color: "#666" }}>
+                {formatDate(r.date)}
+              </div>
+              <div style={{ fontSize: 9, color: "#555" }}>
+                {r.home ? "Home" : "Away"}
+              </div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
 // ─── RSS Feed Sources Panel ─────────────────────────────────────────────────
 
 function RSSSourcesPanel() {
@@ -418,7 +557,7 @@ export default function LiverpoolTracker() {
 
           {/* View Toggle */}
           <div style={{ display: "flex", gap: 4, background: "#ffffff15", borderRadius: 10, padding: 3, width: "fit-content" }}>
-            {["squad", "news"].map((v) => (
+            {["squad", "results", "news"].map((v) => (
               <button
                 key={v}
                 onClick={() => setView(v)}
@@ -430,7 +569,7 @@ export default function LiverpoolTracker() {
                   transition: "all 0.2s",
                 }}
               >
-                {v === "squad" ? "Squad" : "News Feed"}
+                {v === "squad" ? "Squad" : v === "results" ? "Results" : "News Feed"}
               </button>
             ))}
           </div>
@@ -564,6 +703,38 @@ export default function LiverpoolTracker() {
                 </div>
               )}
             </div>
+          </>
+        )}
+
+        {/* ─── RESULTS VIEW ─── */}
+        {view === "results" && (
+          <>
+            <FormGuide results={RESULTS} count={5} />
+
+            {/* Season summary strip */}
+            <div style={{
+              display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(100px, 1fr))",
+              gap: 10, marginBottom: 16,
+            }}>
+              {[
+                { label: "Played", value: RESULTS.length, color: "#fff" },
+                { label: "Won", value: RESULTS.filter(r => r.result === "W").length, color: "#28a745" },
+                { label: "Drawn", value: RESULTS.filter(r => r.result === "D").length, color: "#ffc107" },
+                { label: "Lost", value: RESULTS.filter(r => r.result === "L").length, color: "#dc3545" },
+                { label: "Goals For", value: RESULTS.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? h : a); }, 0), color: LFC_GOLD },
+                { label: "Goals Against", value: RESULTS.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? a : h); }, 0), color: "#ff6b6b" },
+              ].map((s) => (
+                <div key={s.label} style={{ background: "#1e1e3a", borderRadius: 12, padding: "14px 12px", textAlign: "center" }}>
+                  <div style={{ color: s.color, fontWeight: 800, fontSize: 20 }}>{s.value}</div>
+                  <div style={{ color: "#777", fontSize: 10, textTransform: "uppercase", letterSpacing: 1, marginTop: 2 }}>{s.label}</div>
+                </div>
+              ))}
+            </div>
+
+            <div style={{ fontSize: 12, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 10 }}>
+              All Results
+            </div>
+            <RecentResults results={RESULTS} />
           </>
         )}
 
