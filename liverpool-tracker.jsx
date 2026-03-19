@@ -123,8 +123,8 @@ const RSS_FEEDS = [
   { name: "ESPN FC - Liverpool", url: "https://www.espn.com/espn/rss/soccer/news", category: "major", color: "#CC0000" },
 ];
 
-// ─── Simulated RSS items (since we can't fetch cross-origin in JSX) ────────
-const MOCK_NEWS = [
+// ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
+const LATEST_NEWS = [
   { source: "Liverpool FC Official", title: "Liverpool 4-0 Galatasaray: Reds advance to Champions League quarter-finals", time: "1h ago", category: "official" },
   { source: "BBC Sport", title: "Salah scores 50th Champions League goal in dominant Anfield display", time: "2h ago", category: "major" },
   { source: "Sky Sports", title: "Slot provides Salah injury update after star limps off vs Galatasaray", time: "3h ago", category: "major" },
@@ -304,7 +304,7 @@ function PlayerCard({ player, expanded, onToggle }) {
 // ─── News Feed ──────────────────────────────────────────────────────────────
 
 function NewsFeed({ filter }) {
-  const filtered = filter === "all" ? MOCK_NEWS : MOCK_NEWS.filter((n) => n.category === filter);
+  const filtered = filter === "all" ? LATEST_NEWS : LATEST_NEWS.filter((n) => n.category === filter);
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
       {filtered.map((item, i) => (
