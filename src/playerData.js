@@ -273,6 +273,27 @@ export const RSS_FEEDS = [
   { name: "ESPN FC - Liverpool", url: "https://www.espn.com/espn/rss/soccer/news", category: "major", color: "#CC0000" },
 ];
 
+// ─── Team Logos ────────────────────────────────────────────────────────────
+// PL crests via premierleague.com CDN, UCL teams via img.uefa.com
+export const TEAM_LOGOS = {
+  "Liverpool":      "https://resources.premierleague.com/premierleague/badges/50/t14.png",
+  "Galatasaray":    "https://img.uefa.com/imgml/TP/teams/logos/50x50/50137.png",
+  "Tottenham":      "https://resources.premierleague.com/premierleague/badges/50/t6.png",
+  "Wolves":         "https://resources.premierleague.com/premierleague/badges/50/t39.png",
+  "West Ham":       "https://resources.premierleague.com/premierleague/badges/50/t21.png",
+  "Nott'm Forest":  "https://resources.premierleague.com/premierleague/badges/50/t17.png",
+  "Brighton":       "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+  "Sunderland":     "https://resources.premierleague.com/premierleague/badges/50/t56.png",
+  "Man City":       "https://resources.premierleague.com/premierleague/badges/50/t43.png",
+  "Newcastle":      "https://resources.premierleague.com/premierleague/badges/50/t4.png",
+  "Bournemouth":    "https://resources.premierleague.com/premierleague/badges/50/t91.png",
+  "Burnley":        "https://resources.premierleague.com/premierleague/badges/50/t90.png",
+  "Barnsley":       "https://upload.wikimedia.org/wikipedia/en/c/c9/Barnsley_FC.svg",
+  "Arsenal":        "https://resources.premierleague.com/premierleague/badges/50/t3.png",
+  "PSG":            "https://img.uefa.com/imgml/TP/teams/logos/50x50/52747.png",
+  "Brighton & Hove Albion": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+};
+
 // ─── Next Fixture ──────────────────────────────────────────────────────────
 export const NEXT_MATCH = {
   opponent: "Brighton & Hove Albion",

@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from "react";
 import _ from "lodash";
-import { PLAYERS, RSS_FEEDS, RESULTS, NEXT_MATCH } from "./playerData.js";
+import { PLAYERS, RSS_FEEDS, RESULTS, NEXT_MATCH, TEAM_LOGOS } from "./playerData.js";
 
 // ─── Liverpool FC Player Tracker ────────────────────────────────────────────
 // Current 2025-26 squad data, form ratings, stats, and RSS news feeds
@@ -497,7 +497,10 @@ function FormGuide({ results, count = 5 }) {
               {r.result}
             </div>
             <div style={{ fontSize: 9, color: "#666", marginTop: 4, lineHeight: 1.2 }}>{r.score}</div>
-            <div style={{ fontSize: 8, color: "#555", lineHeight: 1.2, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{r.opponent}</div>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 3, marginTop: 1 }}>
+              {TEAM_LOGOS[r.opponent] && <img src={TEAM_LOGOS[r.opponent]} alt="" style={{ width: 12, height: 12, objectFit: "contain" }} />}
+              <span style={{ fontSize: 8, color: "#555", lineHeight: 1.2, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{r.opponent}</span>
+            </div>
           </div>
         ))}
       </div>
@@ -532,10 +535,14 @@ function RecentResults({ results }) {
               fontWeight: 800, fontSize: 14, flexShrink: 0,
             }}>{r.result}</div>
             <div style={{ flex: 1, minWidth: 0 }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
+                {TEAM_LOGOS[r.home ? "Liverpool" : r.opponent] && <img src={TEAM_LOGOS[r.home ? "Liverpool" : r.opponent]} alt="" style={{ width: 20, height: 20, objectFit: "contain" }} />}
                 <span style={{ color: "#fff", fontWeight: 700, fontSize: 14 }}>
                   {r.home ? "Liverpool" : r.opponent}
-                  <span style={{ color: resultColor, fontWeight: 800, margin: "0 6px" }}>{r.score}</span>
+                </span>
+                <span style={{ color: resultColor, fontWeight: 800, fontSize: 14 }}>{r.score}</span>
+                {TEAM_LOGOS[r.home ? r.opponent : "Liverpool"] && <img src={TEAM_LOGOS[r.home ? r.opponent : "Liverpool"]} alt="" style={{ width: 20, height: 20, objectFit: "contain" }} />}
+                <span style={{ color: "#fff", fontWeight: 700, fontSize: 14 }}>
                   {r.home ? r.opponent : "Liverpool"}
                 </span>
               </div>
@@ -593,11 +600,12 @@ function NextMatchBanner({ match }) {
       <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 20, marginBottom: 14 }}>
         <div style={{ textAlign: "center", flex: 1 }}>
           <div style={{
-            width: 56, height: 56, borderRadius: "50%", background: "#fff",
+            width: 60, height: 60, borderRadius: "50%", background: "#fff",
             display: "flex", alignItems: "center", justifyContent: "center",
-            fontSize: 18, fontWeight: 900, color: LFC_RED, margin: "0 auto 6px",
-            boxShadow: "0 2px 12px #0003",
-          }}>LFC</div>
+            margin: "0 auto 6px", boxShadow: "0 2px 12px #0003", overflow: "hidden",
+          }}>
+            <img src={TEAM_LOGOS["Liverpool"]} alt="Liverpool" style={{ width: 44, height: 44, objectFit: "contain" }} />
+          </div>
           <div style={{ color: "#fff", fontWeight: 700, fontSize: 14 }}>Liverpool</div>
           {match.home && <div style={{ fontSize: 9, color: "#ffffffaa" }}>HOME</div>}
         </div>
@@ -607,11 +615,12 @@ function NextMatchBanner({ match }) {
         </div>
         <div style={{ textAlign: "center", flex: 1 }}>
           <div style={{
-            width: 56, height: 56, borderRadius: "50%", background: "#ffffff22",
+            width: 60, height: 60, borderRadius: "50%", background: "#ffffff15",
             display: "flex", alignItems: "center", justifyContent: "center",
-            fontSize: 11, fontWeight: 700, color: "#fff", margin: "0 auto 6px",
-            border: "2px solid #ffffff33",
-          }}>{match.shortName.slice(0, 3).toUpperCase()}</div>
+            margin: "0 auto 6px", border: "2px solid #ffffff33", overflow: "hidden",
+          }}>
+            <img src={TEAM_LOGOS[match.shortName] || TEAM_LOGOS[match.opponent]} alt={match.shortName} style={{ width: 44, height: 44, objectFit: "contain" }} onError={(e) => { e.target.style.display = "none"; e.target.parentElement.textContent = match.shortName.slice(0, 3).toUpperCase(); }} />
+          </div>
           <div style={{ color: "#fff", fontWeight: 700, fontSize: 14 }}>{match.shortName}</div>
           {!match.home && <div style={{ fontSize: 9, color: "#ffffffaa" }}>AWAY</div>}
         </div>
