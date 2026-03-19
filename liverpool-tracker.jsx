@@ -142,6 +142,17 @@ const LATEST_NEWS = [
   { source: "Liverpool FC Official", title: "Every Liverpool FC contract expiry date: 3 players free agents in 2026", time: "1w ago", category: "official" },
 ];
 
+// ─── Next Fixture ──────────────────────────────────────────────────────────
+const NEXT_MATCH = {
+  opponent: "Brighton & Hove Albion",
+  shortName: "Brighton",
+  home: false,
+  date: "2026-03-21T12:30:00",
+  competition: "PL",
+  venue: "Amex Stadium",
+  broadcast: "TNT Sports",
+};
+
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
 // result: "W" | "D" | "L"
 const RESULTS = [
@@ -466,6 +477,100 @@ function RecentResults({ results }) {
   );
 }
 
+// ─── Next Match Banner ──────────────────────────────────────────────────────
+
+function NextMatchBanner({ match }) {
+  const compColors = { PL: "#3d195b", UCL: "#091442", FA: "#6c0d31" };
+  const compLabels = { PL: "Premier League", UCL: "Champions League", FA: "FA Cup" };
+  const d = new Date(match.date);
+  const day = d.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" });
+  const time = d.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
+
+  // Countdown
+  const now = new Date();
+  const diff = d - now;
+  let countdown = "";
+  if (diff > 0) {
+    const days = Math.floor(diff / 86400000);
+    const hours = Math.floor((diff % 86400000) / 3600000);
+    countdown = days > 0 ? `${days}d ${hours}h` : `${hours}h`;
+  } else {
+    countdown = "NOW";
+  }
+
+  return (
+    <div style={{
+      background: `linear-gradient(135deg, ${LFC_RED}dd, #8B0000ee)`,
+      borderRadius: 16, padding: 20, marginBottom: 16,
+      border: "1px solid #ffffff15",
+      boxShadow: `0 4px 24px ${LFC_RED}33`,
+    }}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 }}>
+        <div style={{ fontSize: 11, color: "#ffffffaa", fontWeight: 700, textTransform: "uppercase", letterSpacing: 2 }}>
+          Next Match
+        </div>
+        <div style={{
+          fontSize: 10, fontWeight: 700, textTransform: "uppercase",
+          color: "#fff", background: (compColors[match.competition] || "#333"),
+          padding: "3px 10px", borderRadius: 6, letterSpacing: 0.5,
+        }}>
+          {compLabels[match.competition] || match.competition}
+        </div>
+      </div>
+
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 20, marginBottom: 14 }}>
+        {/* Liverpool */}
+        <div style={{ textAlign: "center", flex: 1 }}>
+          <div style={{
+            width: 56, height: 56, borderRadius: "50%", background: "#fff",
+            display: "flex", alignItems: "center", justifyContent: "center",
+            fontSize: 18, fontWeight: 900, color: LFC_RED, margin: "0 auto 6px",
+            boxShadow: "0 2px 12px #0003",
+          }}>LFC</div>
+          <div style={{ color: "#fff", fontWeight: 700, fontSize: 14 }}>Liverpool</div>
+          {match.home && <div style={{ fontSize: 9, color: "#ffffffaa" }}>HOME</div>}
+        </div>
+
+        {/* VS + countdown */}
+        <div style={{ textAlign: "center" }}>
+          <div style={{ color: LFC_GOLD, fontWeight: 800, fontSize: 22, lineHeight: 1 }}>VS</div>
+          <div style={{
+            marginTop: 6, background: "#00000044", borderRadius: 8, padding: "4px 12px",
+            color: LFC_GOLD, fontWeight: 700, fontSize: 13,
+          }}>
+            {countdown}
+          </div>
+        </div>
+
+        {/* Opponent */}
+        <div style={{ textAlign: "center", flex: 1 }}>
+          <div style={{
+            width: 56, height: 56, borderRadius: "50%", background: "#ffffff22",
+            display: "flex", alignItems: "center", justifyContent: "center",
+            fontSize: 11, fontWeight: 700, color: "#fff", margin: "0 auto 6px",
+            border: "2px solid #ffffff33",
+          }}>
+            {match.shortName.slice(0, 3).toUpperCase()}
+          </div>
+          <div style={{ color: "#fff", fontWeight: 700, fontSize: 14 }}>{match.shortName}</div>
+          {!match.home && <div style={{ fontSize: 9, color: "#ffffffaa" }}>AWAY</div>}
+        </div>
+      </div>
+
+      {/* Details row */}
+      <div style={{
+        display: "flex", justifyContent: "center", gap: 20, flexWrap: "wrap",
+        fontSize: 11, color: "#ffffffbb",
+      }}>
+        <span>{day}</span>
+        <span style={{ color: LFC_GOLD, fontWeight: 700 }}>{time}</span>
+        <span>{match.venue}</span>
+        {match.broadcast && <span style={{ color: "#ffffffaa" }}>{match.broadcast}</span>}
+      </div>
+    </div>
+  );
+}
+
 // ─── RSS Feed Sources Panel ─────────────────────────────────────────────────
 
 function RSSSourcesPanel() {
@@ -709,6 +814,7 @@ export default function LiverpoolTracker() {
         {/* ─── RESULTS VIEW ─── */}
         {view === "results" && (
           <>
+            <NextMatchBanner match={NEXT_MATCH} />
             <FormGuide results={RESULTS} count={5} />
 
             {/* Season summary strip */}
