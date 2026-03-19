@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from "react";
 import _ from "lodash";
-import { PLAYERS, RSS_FEEDS } from "./playerData.js";
+import { PLAYERS, RSS_FEEDS, RESULTS, NEXT_MATCH } from "./playerData.js";
 
 // ─── Liverpool FC Player Tracker ────────────────────────────────────────────
 // Current 2025-26 squad data, form ratings, stats, and RSS news feeds
@@ -462,6 +462,170 @@ function LiveNewsFeed({ filter }) {
   );
 }
 
+// ─── Form Guide ─────────────────────────────────────────────────────────────
+
+function FormGuide({ results, count = 5 }) {
+  const recent = results.slice(0, count);
+  const wins = recent.filter(r => r.result === "W").length;
+  const draws = recent.filter(r => r.result === "D").length;
+  const losses = recent.filter(r => r.result === "L").length;
+  const colors = { W: "#28a745", D: "#ffc107", L: "#dc3545" };
+
+  return (
+    <div style={{ background: "#1e1e3a", borderRadius: 12, padding: 16, marginBottom: 16 }}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 }}>
+        <div style={{ fontSize: 12, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5 }}>
+          Last {count} Form
+        </div>
+        <div style={{ display: "flex", gap: 12, fontSize: 11, color: "#aaa" }}>
+          <span><span style={{ color: "#28a745", fontWeight: 700 }}>{wins}</span> W</span>
+          <span><span style={{ color: "#ffc107", fontWeight: 700 }}>{draws}</span> D</span>
+          <span><span style={{ color: "#dc3545", fontWeight: 700 }}>{losses}</span> L</span>
+        </div>
+      </div>
+      <div style={{ display: "flex", gap: 6 }}>
+        {recent.map((r, i) => (
+          <div key={i} style={{ flex: 1, textAlign: "center" }}>
+            <div style={{
+              width: "100%", aspectRatio: "1", borderRadius: 10,
+              background: colors[r.result], display: "flex",
+              alignItems: "center", justifyContent: "center",
+              color: r.result === "D" ? "#000" : "#fff",
+              fontWeight: 800, fontSize: 16,
+              boxShadow: `0 2px 8px ${colors[r.result]}44`,
+            }}>
+              {r.result}
+            </div>
+            <div style={{ fontSize: 9, color: "#666", marginTop: 4, lineHeight: 1.2 }}>{r.score}</div>
+            <div style={{ fontSize: 8, color: "#555", lineHeight: 1.2, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{r.opponent}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ─── Recent Results ─────────────────────────────────────────────────────────
+
+function RecentResults({ results }) {
+  const compColors = { PL: "#3d195b", UCL: "#091442", FA: "#6c0d31" };
+  const formatDate = (dateStr) => {
+    const d = new Date(dateStr + "T12:00:00");
+    return d.toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" });
+  };
+
+  return (
+    <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
+      {results.map((r, i) => {
+        const resultColor = r.result === "W" ? "#28a745" : r.result === "D" ? "#ffc107" : "#dc3545";
+        return (
+          <div key={i} style={{
+            display: "flex", alignItems: "center", gap: 12,
+            padding: "12px 16px", borderRadius: 10, background: "#1e1e3a",
+            borderLeft: `3px solid ${resultColor}`,
+          }}>
+            <div style={{
+              width: 36, height: 36, borderRadius: 8,
+              background: resultColor, display: "flex",
+              alignItems: "center", justifyContent: "center",
+              color: r.result === "D" ? "#000" : "#fff",
+              fontWeight: 800, fontSize: 14, flexShrink: 0,
+            }}>{r.result}</div>
+            <div style={{ flex: 1, minWidth: 0 }}>
+              <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
+                <span style={{ color: "#fff", fontWeight: 700, fontSize: 14 }}>
+                  {r.home ? "Liverpool" : r.opponent}
+                  <span style={{ color: resultColor, fontWeight: 800, margin: "0 6px" }}>{r.score}</span>
+                  {r.home ? r.opponent : "Liverpool"}
+                </span>
+              </div>
+              {r.scorers && (
+                <div style={{ fontSize: 11, color: "#888", marginTop: 2, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{r.scorers}</div>
+              )}
+            </div>
+            <div style={{ textAlign: "right", flexShrink: 0 }}>
+              <div style={{
+                fontSize: 9, fontWeight: 700, textTransform: "uppercase",
+                color: "#fff", background: (compColors[r.competition] || "#333") + "cc",
+                padding: "2px 8px", borderRadius: 6, letterSpacing: 0.5, marginBottom: 2,
+              }}>{r.competition}</div>
+              <div style={{ fontSize: 10, color: "#666" }}>{formatDate(r.date)}</div>
+              <div style={{ fontSize: 9, color: "#555" }}>{r.home ? "Home" : "Away"}</div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+// ─── Next Match Banner ──────────────────────────────────────────────────────
+
+function NextMatchBanner({ match }) {
+  const compColors = { PL: "#3d195b", UCL: "#091442", FA: "#6c0d31" };
+  const compLabels = { PL: "Premier League", UCL: "Champions League", FA: "FA Cup" };
+  const d = new Date(match.date);
+  const day = d.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" });
+  const time = d.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
+  const now = new Date();
+  const diff = d - now;
+  let countdown = "";
+  if (diff > 0) {
+    const days = Math.floor(diff / 86400000);
+    const hours = Math.floor((diff % 86400000) / 3600000);
+    countdown = days > 0 ? `${days}d ${hours}h` : `${hours}h`;
+  } else { countdown = "NOW"; }
+
+  return (
+    <div style={{
+      background: `linear-gradient(135deg, ${LFC_RED}dd, #8B0000ee)`,
+      borderRadius: 16, padding: 20, marginBottom: 16,
+      border: "1px solid #ffffff15", boxShadow: `0 4px 24px ${LFC_RED}33`,
+    }}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 }}>
+        <div style={{ fontSize: 11, color: "#ffffffaa", fontWeight: 700, textTransform: "uppercase", letterSpacing: 2 }}>Next Match</div>
+        <div style={{
+          fontSize: 10, fontWeight: 700, textTransform: "uppercase",
+          color: "#fff", background: (compColors[match.competition] || "#333"),
+          padding: "3px 10px", borderRadius: 6, letterSpacing: 0.5,
+        }}>{compLabels[match.competition] || match.competition}</div>
+      </div>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 20, marginBottom: 14 }}>
+        <div style={{ textAlign: "center", flex: 1 }}>
+          <div style={{
+            width: 56, height: 56, borderRadius: "50%", background: "#fff",
+            display: "flex", alignItems: "center", justifyContent: "center",
+            fontSize: 18, fontWeight: 900, color: LFC_RED, margin: "0 auto 6px",
+            boxShadow: "0 2px 12px #0003",
+          }}>LFC</div>
+          <div style={{ color: "#fff", fontWeight: 700, fontSize: 14 }}>Liverpool</div>
+          {match.home && <div style={{ fontSize: 9, color: "#ffffffaa" }}>HOME</div>}
+        </div>
+        <div style={{ textAlign: "center" }}>
+          <div style={{ color: LFC_GOLD, fontWeight: 800, fontSize: 22, lineHeight: 1 }}>VS</div>
+          <div style={{ marginTop: 6, background: "#00000044", borderRadius: 8, padding: "4px 12px", color: LFC_GOLD, fontWeight: 700, fontSize: 13 }}>{countdown}</div>
+        </div>
+        <div style={{ textAlign: "center", flex: 1 }}>
+          <div style={{
+            width: 56, height: 56, borderRadius: "50%", background: "#ffffff22",
+            display: "flex", alignItems: "center", justifyContent: "center",
+            fontSize: 11, fontWeight: 700, color: "#fff", margin: "0 auto 6px",
+            border: "2px solid #ffffff33",
+          }}>{match.shortName.slice(0, 3).toUpperCase()}</div>
+          <div style={{ color: "#fff", fontWeight: 700, fontSize: 14 }}>{match.shortName}</div>
+          {!match.home && <div style={{ fontSize: 9, color: "#ffffffaa" }}>AWAY</div>}
+        </div>
+      </div>
+      <div style={{ display: "flex", justifyContent: "center", gap: 20, flexWrap: "wrap", fontSize: 11, color: "#ffffffbb" }}>
+        <span>{day}</span>
+        <span style={{ color: LFC_GOLD, fontWeight: 700 }}>{time}</span>
+        <span>{match.venue}</span>
+        {match.broadcast && <span style={{ color: "#ffffffaa" }}>{match.broadcast}</span>}
+      </div>
+    </div>
+  );
+}
+
 // ─── RSS Feed Sources Panel ─────────────────────────────────────────────────
 
 function RSSSourcesPanel() {
@@ -502,7 +666,7 @@ export default function LiverpoolTracker() {
   const [sortBy, setSortBy] = useState("form");
   const [expandedId, setExpandedId] = useState(null);
   const [newsFilter, setNewsFilter] = useState("all");
-  const [view, setView] = useState("squad"); // "squad" | "news"
+  const [view, setView] = useState("squad"); // "squad" | "results" | "news"
   const [search, setSearch] = useState("");
   const [statusFilter, setStatusFilter] = useState("all"); // "all" | "fit" | "injured"
 
@@ -553,7 +717,7 @@ export default function LiverpoolTracker() {
 
           {/* View Toggle */}
           <div style={{ display: "flex", gap: 4, background: "#ffffff15", borderRadius: 10, padding: 3, width: "fit-content" }}>
-            {["squad", "news"].map((v) => (
+            {["squad", "results", "news"].map((v) => (
               <button
                 key={v}
                 onClick={() => setView(v)}
@@ -565,7 +729,7 @@ export default function LiverpoolTracker() {
                   transition: "all 0.2s",
                 }}
               >
-                {v === "squad" ? "Squad" : "News Feed"}
+                {v === "squad" ? "Squad" : v === "results" ? "Results" : "News Feed"}
               </button>
             ))}
           </div>
@@ -699,6 +863,39 @@ export default function LiverpoolTracker() {
                 </div>
               )}
             </div>
+          </>
+        )}
+
+        {/* ─── RESULTS VIEW ─── */}
+        {view === "results" && (
+          <>
+            <NextMatchBanner match={NEXT_MATCH} />
+            <FormGuide results={RESULTS} count={5} />
+
+            {/* Season summary strip */}
+            <div style={{
+              display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(100px, 1fr))",
+              gap: 10, marginBottom: 16,
+            }}>
+              {[
+                { label: "Played", value: RESULTS.length, color: "#fff" },
+                { label: "Won", value: RESULTS.filter(r => r.result === "W").length, color: "#28a745" },
+                { label: "Drawn", value: RESULTS.filter(r => r.result === "D").length, color: "#ffc107" },
+                { label: "Lost", value: RESULTS.filter(r => r.result === "L").length, color: "#dc3545" },
+                { label: "Goals For", value: RESULTS.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? h : a); }, 0), color: LFC_GOLD },
+                { label: "Goals Against", value: RESULTS.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? a : h); }, 0), color: "#ff6b6b" },
+              ].map((s) => (
+                <div key={s.label} style={{ background: "#1e1e3a", borderRadius: 12, padding: "14px 12px", textAlign: "center" }}>
+                  <div style={{ color: s.color, fontWeight: 800, fontSize: 20 }}>{s.value}</div>
+                  <div style={{ color: "#777", fontSize: 10, textTransform: "uppercase", letterSpacing: 1, marginTop: 2 }}>{s.label}</div>
+                </div>
+              ))}
+            </div>
+
+            <div style={{ fontSize: 12, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 10 }}>
+              All Results
+            </div>
+            <RecentResults results={RESULTS} />
           </>
         )}
 
