@@ -247,61 +247,77 @@ function StatusBadge({ status }) {
 // ─── Player Card ────────────────────────────────────────────────────────────
 
 function PlayerCard({ player, expanded, onToggle }) {
+  const formColor = player.form >= 8.0 ? "#28a745"
+    : player.form >= 7.5 ? "#5cb85c"
+    : player.form >= 7.0 ? "#ffc107"
+    : player.form >= 6.5 ? "#fd7e14"
+    : "#dc3545";
+
   return (
     <div
       onClick={onToggle}
       style={{
         background: expanded ? "linear-gradient(135deg, #1e1e3a, #2a1525)" : "#1e1e3a",
-        borderRadius: 16, padding: 0, cursor: "pointer",
+        borderRadius: 14, padding: 0, cursor: "pointer",
         border: expanded ? `2px solid ${LFC_RED}` : "2px solid transparent",
         transition: "all 0.3s ease", overflow: "hidden",
         boxShadow: expanded ? `0 8px 32px ${LFC_RED}22` : "0 2px 12px #0005",
+        display: "flex", flexDirection: "column",
       }}
     >
-      {/* Header */}
-      <div style={{ display: "flex", alignItems: "center", gap: 14, padding: "16px 18px 12px" }}>
-        <PlayerAvatar player={player} size={64} />
+      {/* Header — compact */}
+      <div style={{ display: "flex", alignItems: "center", gap: 10, padding: "12px 14px 8px" }}>
+        <PlayerAvatar player={player} size={44} />
         <div style={{ flex: 1, minWidth: 0 }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
-            <span style={{ color: LFC_RED, fontWeight: 800, fontSize: 13 }}>#{player.number}</span>
-            <span style={{ color: "#fff", fontWeight: 700, fontSize: 15 }}>{player.name}</span>
+          <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "nowrap", overflow: "hidden" }}>
+            <span style={{ color: LFC_RED, fontWeight: 800, fontSize: 11 }}>#{player.number}</span>
+            <span style={{ color: "#fff", fontWeight: 700, fontSize: 13, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{player.name}</span>
           </div>
-          <div style={{ display: "flex", alignItems: "center", gap: 8, marginTop: 4, flexWrap: "wrap" }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 6, marginTop: 3, flexWrap: "wrap" }}>
             <PositionTag position={player.position} />
             <StatusBadge status={player.status} />
-            <span style={{ fontSize: 11, color: "#888" }}>{player.nationality}</span>
           </div>
         </div>
+        {/* Compact form circle */}
         {(player.status === "fit" || player.status === "doubtful") && player.form > 0 ? (
-          <FormBadge form={player.form} />
+          <div style={{
+            width: 36, height: 36, borderRadius: "50%", background: formColor,
+            display: "flex", alignItems: "center", justifyContent: "center",
+            color: "#fff", fontWeight: 700, fontSize: 13, flexShrink: 0,
+            boxShadow: `0 0 8px ${formColor}55`,
+          }}>
+            {player.form.toFixed(1)}
+          </div>
         ) : player.status !== "fit" ? (
           <div style={{
-            fontSize: 10, color: "#ff6b6b", fontWeight: 700, textAlign: "center",
-            background: "#dc354515", padding: "6px 10px", borderRadius: 8,
-            border: "1px solid #dc354533", lineHeight: 1.3,
+            fontSize: 9, color: "#ff6b6b", fontWeight: 700, textAlign: "center",
+            background: "#dc354515", padding: "4px 8px", borderRadius: 6,
+            border: "1px solid #dc354533", lineHeight: 1.2, flexShrink: 0,
           }}>
             OUT
           </div>
         ) : null}
       </div>
 
-      {/* Injury Note */}
+      {/* Injury Note — condensed */}
       {player.injuryNote && (
         <div style={{
-          margin: "0 18px 10px", padding: "8px 12px", borderRadius: 8,
+          margin: "0 14px 6px", padding: "5px 8px", borderRadius: 6,
           background: player.status === "recovering" ? "#fd7e1412" : player.status === "doubtful" ? "#ffc10712" : "#dc354512",
           border: `1px solid ${player.status === "recovering" ? "#fd7e1433" : player.status === "doubtful" ? "#ffc10733" : "#dc354533"}`,
-          fontSize: 11, color: player.status === "recovering" ? "#ffa94d" : player.status === "doubtful" ? "#ffe066" : "#ff6b6b",
-          lineHeight: 1.4,
+          fontSize: 10, color: player.status === "recovering" ? "#ffa94d" : player.status === "doubtful" ? "#ffe066" : "#ff6b6b",
+          lineHeight: 1.3, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis",
         }}>
           {player.injuryNote}
         </div>
       )}
 
-      {/* Quick Stats Row */}
+      {/* Quick Stats — compact 2x2 or row */}
       <div style={{
-        display: "flex", justifyContent: "space-around", padding: "8px 18px 12px",
-        borderTop: "1px solid #ffffff0a"
+        display: "grid",
+        gridTemplateColumns: player.cleanSheets !== null ? "repeat(4, 1fr)" : "repeat(3, 1fr)",
+        gap: 0, padding: "6px 14px 10px",
+        borderTop: "1px solid #ffffff0a", marginTop: "auto",
       }}>
         {[
           { label: "Apps", value: player.appearances },
@@ -310,22 +326,22 @@ function PlayerCard({ player, expanded, onToggle }) {
           ...(player.cleanSheets !== null ? [{ label: "CS", value: player.cleanSheets }] : []),
         ].map((s) => (
           <div key={s.label} style={{ textAlign: "center" }}>
-            <div style={{ color: "#fff", fontWeight: 700, fontSize: 16 }}>{s.value}</div>
-            <div style={{ color: "#777", fontSize: 10, textTransform: "uppercase", letterSpacing: 1 }}>{s.label}</div>
+            <div style={{ color: "#fff", fontWeight: 700, fontSize: 14 }}>{s.value}</div>
+            <div style={{ color: "#777", fontSize: 9, textTransform: "uppercase", letterSpacing: 0.8 }}>{s.label}</div>
           </div>
         ))}
       </div>
 
       {/* Expanded Stats */}
       {expanded && (
-        <div style={{ padding: "4px 18px 18px", borderTop: "1px solid #ffffff08" }}>
-          <div style={{ fontSize: 11, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 10 }}>
+        <div style={{ padding: "4px 14px 14px", borderTop: "1px solid #ffffff08" }}>
+          <div style={{ fontSize: 10, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 8 }}>
             Advanced Stats
           </div>
-          <StatBar label="Expected Goals (xG)" value={player.xG} max={12} />
-          <StatBar label="Pass Completion" value={player.passCompletion} max={100} unit="%" />
-          <StatBar label="Tackles per 90" value={player.tacklesPer90} max={4} />
-          <StatBar label="Progressive Carries per 90" value={player.progressiveCarries} max={8} />
+          <StatBar label="xG" value={player.xG} max={12} />
+          <StatBar label="Pass %" value={player.passCompletion} max={100} unit="%" />
+          <StatBar label="Tackles/90" value={player.tacklesPer90} max={4} />
+          <StatBar label="Prog. Carries/90" value={player.progressiveCarries} max={8} />
         </div>
       )}
     </div>
@@ -366,41 +382,32 @@ function FormGuide({ results, count = 5 }) {
   const draws = recent.filter(r => r.result === "D").length;
   const losses = recent.filter(r => r.result === "L").length;
   const colors = { W: "#28a745", D: "#ffc107", L: "#dc3545" };
-  const labels = { W: "Win", D: "Draw", L: "Loss" };
 
   return (
-    <div style={{ background: "#1e1e3a", borderRadius: 12, padding: 16, marginBottom: 16 }}>
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 }}>
-        <div style={{ fontSize: 12, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5 }}>
-          Last {count} Form
-        </div>
-        <div style={{ display: "flex", gap: 12, fontSize: 11, color: "#aaa" }}>
-          <span><span style={{ color: "#28a745", fontWeight: 700 }}>{wins}</span> W</span>
-          <span><span style={{ color: "#ffc107", fontWeight: 700 }}>{draws}</span> D</span>
-          <span><span style={{ color: "#dc3545", fontWeight: 700 }}>{losses}</span> L</span>
-        </div>
+    <div style={{
+      background: "#1e1e3a", borderRadius: 12, padding: 10, marginBottom: 16,
+      maxWidth: "calc(8.33% * 2)", minWidth: 120,
+    }}>
+      <div style={{ fontSize: 9, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1, marginBottom: 6 }}>
+        Form
       </div>
-      <div style={{ display: "flex", gap: 6 }}>
+      <div style={{ display: "flex", gap: 3, marginBottom: 4 }}>
         {recent.map((r, i) => (
-          <div key={i} style={{ flex: 1, textAlign: "center" }}>
-            <div style={{
-              width: "100%", aspectRatio: "1", borderRadius: 10,
-              background: colors[r.result], display: "flex",
-              alignItems: "center", justifyContent: "center",
-              color: r.result === "D" ? "#000" : "#fff",
-              fontWeight: 800, fontSize: 16,
-              boxShadow: `0 2px 8px ${colors[r.result]}44`,
-            }}>
-              {r.result}
-            </div>
-            <div style={{ fontSize: 9, color: "#666", marginTop: 4, lineHeight: 1.2 }}>
-              {r.score}
-            </div>
-            <div style={{ fontSize: 8, color: "#555", lineHeight: 1.2, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>
-              {r.opponent}
-            </div>
+          <div key={i} style={{
+            width: 22, height: 22, borderRadius: 5,
+            background: colors[r.result], display: "flex",
+            alignItems: "center", justifyContent: "center",
+            color: r.result === "D" ? "#000" : "#fff",
+            fontWeight: 800, fontSize: 10,
+          }}>
+            {r.result}
           </div>
         ))}
+      </div>
+      <div style={{ display: "flex", gap: 8, fontSize: 9, color: "#aaa" }}>
+        <span><span style={{ color: "#28a745", fontWeight: 700 }}>{wins}</span>W</span>
+        <span><span style={{ color: "#ffc107", fontWeight: 700 }}>{draws}</span>D</span>
+        <span><span style={{ color: "#dc3545", fontWeight: 700 }}>{losses}</span>L</span>
       </div>
     </div>
   );
@@ -645,7 +652,7 @@ export default function LiverpoolTracker() {
         background: `linear-gradient(135deg, ${LFC_RED} 0%, #8B0000 100%)`,
         padding: "24px 24px 20px", boxShadow: "0 4px 24px #0008"
       }}>
-        <div style={{ maxWidth: 900, margin: "0 auto" }}>
+        <div style={{ maxWidth: 1400, margin: "0 auto" }}>
           <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 12 }}>
             <div style={{
               width: 48, height: 48, borderRadius: "50%", background: "#fff",
@@ -681,7 +688,7 @@ export default function LiverpoolTracker() {
         </div>
       </div>
 
-      <div style={{ maxWidth: 900, margin: "0 auto", padding: "20px 16px 40px" }}>
+      <div style={{ maxWidth: 1400, margin: "0 auto", padding: "20px 16px 40px" }}>
 
         {/* ─── SQUAD VIEW ─── */}
         {view === "squad" && (
@@ -792,8 +799,8 @@ export default function LiverpoolTracker() {
               ))}
             </div>
 
-            {/* Player Cards */}
-            <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
+            {/* Player Cards — Bento Grid */}
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: 10 }}>
               {filtered.map((player) => (
                 <PlayerCard
                   key={player.id}
