@@ -43,7 +43,7 @@ function PlayerAvatar({ player, size = 64 }) {
           <img
             src={player.image}
             alt={player.name}
-            style={{ width: "100%", height: "100%", objectFit: "cover" }}
+            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top" }}
             onError={() => setImgFailed(true)}
           />
         ) : (
@@ -479,106 +479,55 @@ function LiveNewsFeed({ filter }) {
   );
 }
 
-// ─── Form Guide ─────────────────────────────────────────────────────────────
+// ─── Result Card (bento grid) ───────────────────────────────────────────────
 
-function FormGuide({ results, count = 5 }) {
-  const recent = results.slice(0, count);
-  const wins = recent.filter(r => r.result === "W").length;
-  const draws = recent.filter(r => r.result === "D").length;
-  const losses = recent.filter(r => r.result === "L").length;
-  const colors = { W: "#28a745", D: "#ffc107", L: "#dc3545" };
-
-  return (
-    <div style={{
-      background: "#1e1e3a", borderRadius: 12, padding: 10, marginBottom: 16,
-      maxWidth: "calc(8.33% * 2)", minWidth: 120,
-    }}>
-      <div style={{ fontSize: 9, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1, marginBottom: 6 }}>
-        Form
-      </div>
-      <div style={{ display: "flex", gap: 3, marginBottom: 4 }}>
-        {recent.map((r, i) => (
-          <div key={i} style={{
-            width: 22, height: 22, borderRadius: 5,
-            background: colors[r.result], display: "flex",
-            alignItems: "center", justifyContent: "center",
-            color: r.result === "D" ? "#000" : "#fff",
-            fontWeight: 800, fontSize: 10,
-          }}>
-            {r.result}
-          </div>
-        ))}
-      </div>
-      <div style={{ display: "flex", gap: 8, fontSize: 9, color: "#aaa" }}>
-        <span><span style={{ color: "#28a745", fontWeight: 700 }}>{wins}</span>W</span>
-        <span><span style={{ color: "#ffc107", fontWeight: 700 }}>{draws}</span>D</span>
-        <span><span style={{ color: "#dc3545", fontWeight: 700 }}>{losses}</span>L</span>
-      </div>
-    </div>
-  );
-}
-
-// ─── Recent Results ─────────────────────────────────────────────────────────
-
-function RecentResults({ results }) {
+function ResultCard({ result }) {
   const compColors = { PL: "#3d195b", UCL: "#091442", FA: "#6c0d31" };
+  const resultColor = result.result === "W" ? "#28a745" : result.result === "D" ? "#ffc107" : "#dc3545";
   const formatDate = (dateStr) => {
     const d = new Date(dateStr + "T12:00:00");
-    return d.toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" });
+    return d.toLocaleDateString("en-GB", { day: "numeric", month: "short" });
   };
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
-      {results.map((r, i) => {
-        const resultColor = r.result === "W" ? "#28a745" : r.result === "D" ? "#ffc107" : "#dc3545";
-        return (
-          <div key={i} style={{
-            display: "flex", alignItems: "center", gap: 12,
-            padding: "12px 16px", borderRadius: 10, background: "#1e1e3a",
-            borderLeft: `3px solid ${resultColor}`,
-          }}>
-            <div style={{
-              width: 36, height: 36, borderRadius: 8,
-              background: resultColor, display: "flex",
-              alignItems: "center", justifyContent: "center",
-              color: r.result === "D" ? "#000" : "#fff",
-              fontWeight: 800, fontSize: 14, flexShrink: 0,
-            }}>{r.result}</div>
-            <div style={{ flex: 1, minWidth: 0 }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "wrap" }}>
-                {TEAM_LOGOS[r.home ? "Liverpool" : r.opponent] && <img src={TEAM_LOGOS[r.home ? "Liverpool" : r.opponent]} alt="" style={{ width: 20, height: 20, objectFit: "contain" }} />}
-                <span style={{ color: "#fff", fontWeight: 700, fontSize: 14 }}>
-                  {r.home ? "Liverpool" : r.opponent}
-                </span>
-                <span style={{ color: resultColor, fontWeight: 800, fontSize: 14 }}>{r.score}</span>
-                {TEAM_LOGOS[r.home ? r.opponent : "Liverpool"] && <img src={TEAM_LOGOS[r.home ? r.opponent : "Liverpool"]} alt="" style={{ width: 20, height: 20, objectFit: "contain" }} />}
-                <span style={{ color: "#fff", fontWeight: 700, fontSize: 14 }}>
-                  {r.home ? r.opponent : "Liverpool"}
-                </span>
-              </div>
-              {r.scorers && (
-                <div style={{ fontSize: 11, color: "#888", marginTop: 2, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{r.scorers}</div>
-              )}
-            </div>
-            <div style={{ textAlign: "right", flexShrink: 0 }}>
-              <div style={{
-                fontSize: 9, fontWeight: 700, textTransform: "uppercase",
-                color: "#fff", background: (compColors[r.competition] || "#333") + "cc",
-                padding: "2px 8px", borderRadius: 6, letterSpacing: 0.5, marginBottom: 2,
-              }}>{r.competition}</div>
-              <div style={{ fontSize: 10, color: "#666" }}>{formatDate(r.date)}</div>
-              <div style={{ fontSize: 9, color: "#555" }}>{r.home ? "Home" : "Away"}</div>
-            </div>
-          </div>
-        );
-      })}
+    <div style={{
+      background: "#1e1e3a", borderRadius: 14, padding: "14px 16px",
+      borderLeft: `4px solid ${resultColor}`, minWidth: 260,
+      display: "flex", flexDirection: "column", gap: 8,
+      boxShadow: "0 2px 12px #0005",
+    }}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+        <div style={{
+          width: 30, height: 30, borderRadius: 7, background: resultColor,
+          display: "flex", alignItems: "center", justifyContent: "center",
+          color: result.result === "D" ? "#000" : "#fff", fontWeight: 800, fontSize: 13, flexShrink: 0,
+        }}>{result.result}</div>
+        <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
+          <span style={{
+            fontSize: 9, fontWeight: 700, textTransform: "uppercase", color: "#fff",
+            background: (compColors[result.competition] || "#333") + "cc",
+            padding: "2px 8px", borderRadius: 6, letterSpacing: 0.5,
+          }}>{result.competition}</span>
+          <span style={{ fontSize: 10, color: "#666" }}>{formatDate(result.date)}</span>
+        </div>
+      </div>
+      <div style={{ display: "flex", alignItems: "center", gap: 8, justifyContent: "center" }}>
+        {TEAM_LOGOS[result.home ? "Liverpool" : result.opponent] && <img src={TEAM_LOGOS[result.home ? "Liverpool" : result.opponent]} alt="" style={{ width: 22, height: 22, objectFit: "contain" }} />}
+        <span style={{ color: "#fff", fontWeight: 700, fontSize: 13 }}>{result.home ? "Liverpool" : result.opponent}</span>
+        <span style={{ color: resultColor, fontWeight: 800, fontSize: 16 }}>{result.score}</span>
+        {TEAM_LOGOS[result.home ? result.opponent : "Liverpool"] && <img src={TEAM_LOGOS[result.home ? result.opponent : "Liverpool"]} alt="" style={{ width: 22, height: 22, objectFit: "contain" }} />}
+        <span style={{ color: "#fff", fontWeight: 700, fontSize: 13 }}>{result.home ? result.opponent : "Liverpool"}</span>
+      </div>
+      {result.scorers && (
+        <div style={{ fontSize: 10, color: "#888", textAlign: "center", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{result.scorers}</div>
+      )}
     </div>
   );
 }
 
 // ─── Next Match Banner ──────────────────────────────────────────────────────
 
-function NextMatchBanner({ match }) {
+function NextMatchBanner({ match, results }) {
   const compColors = { PL: "#3d195b", UCL: "#091442", FA: "#6c0d31" };
   const compLabels = { PL: "Premier League", UCL: "Champions League", FA: "FA Cup" };
   const d = new Date(match.date);
@@ -641,6 +590,36 @@ function NextMatchBanner({ match }) {
         <span>{match.venue}</span>
         {match.broadcast && <span style={{ color: "#ffffffaa" }}>{match.broadcast}</span>}
       </div>
+      {results && results.length > 0 && (() => {
+        const recent = results.slice(0, 5);
+        const formColors = { W: "#28a745", D: "#ffc107", L: "#dc3545" };
+        const wins = recent.filter(r => r.result === "W").length;
+        const draws = recent.filter(r => r.result === "D").length;
+        const losses = recent.filter(r => r.result === "L").length;
+        return (
+          <div style={{ borderTop: "1px solid #ffffff22", marginTop: 14, paddingTop: 12, display: "flex", alignItems: "center", justifyContent: "center", gap: 14, flexWrap: "wrap" }}>
+            <span style={{ fontSize: 10, color: "#ffffffaa", fontWeight: 700, textTransform: "uppercase", letterSpacing: 1 }}>Form</span>
+            <div style={{ display: "flex", gap: 4 }}>
+              {recent.map((r, i) => (
+                <div key={i} style={{
+                  width: 26, height: 26, borderRadius: 6,
+                  background: formColors[r.result], display: "flex",
+                  alignItems: "center", justifyContent: "center",
+                  color: r.result === "D" ? "#000" : "#fff",
+                  fontWeight: 800, fontSize: 11,
+                }}>
+                  {r.result}
+                </div>
+              ))}
+            </div>
+            <div style={{ display: "flex", gap: 10, fontSize: 11, color: "#ffffffbb" }}>
+              <span><span style={{ color: "#28a745", fontWeight: 700 }}>{wins}</span>W</span>
+              <span><span style={{ color: "#ffc107", fontWeight: 700 }}>{draws}</span>D</span>
+              <span><span style={{ color: "#dc3545", fontWeight: 700 }}>{losses}</span>L</span>
+            </div>
+          </div>
+        );
+      })()}
     </div>
   );
 }
@@ -685,9 +664,15 @@ export default function LiverpoolTracker() {
   const [sortBy, setSortBy] = useState("form");
   const [expandedId, setExpandedId] = useState(null);
   const [newsFilter, setNewsFilter] = useState("all");
-  const [view, setView] = useState("squad"); // "squad" | "results" | "news"
+  const [view, setView] = useState("dashboard"); // "dashboard" | "news"
   const [search, setSearch] = useState("");
   const [statusFilter, setStatusFilter] = useState("all"); // "all" | "fit" | "injured"
+  const [compFilter, setCompFilter] = useState("All"); // "All" | "PL" | "UCL" | "FA"
+
+  const filteredResults = useMemo(() => {
+    if (compFilter === "All") return RESULTS;
+    return RESULTS.filter(r => r.competition === compFilter);
+  }, [compFilter]);
 
   const filtered = useMemo(() => {
     let list = [...PLAYERS];
@@ -711,6 +696,7 @@ export default function LiverpoolTracker() {
     PLAYERS.forEach((p) => { counts[p.position] = (counts[p.position] || 0) + 1; });
     return counts;
   }, []);
+
 
   return (
     <div style={{ minHeight: "100vh", background: LFC_DARK, color: "#fff", fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif" }}>
@@ -736,19 +722,22 @@ export default function LiverpoolTracker() {
 
           {/* View Toggle */}
           <div style={{ display: "flex", gap: 4, background: "#ffffff15", borderRadius: 10, padding: 3, width: "fit-content" }}>
-            {["squad", "results", "news"].map((v) => (
+            {[
+              { key: "dashboard", label: "Dashboard" },
+              { key: "news", label: "News Feed" },
+            ].map((v) => (
               <button
-                key={v}
-                onClick={() => setView(v)}
+                key={v.key}
+                onClick={() => setView(v.key)}
                 style={{
                   padding: "8px 20px", borderRadius: 8, border: "none", cursor: "pointer",
                   fontWeight: 700, fontSize: 13, textTransform: "uppercase", letterSpacing: 1,
-                  background: view === v ? "#fff" : "transparent",
-                  color: view === v ? LFC_RED : "#fffc",
+                  background: view === v.key ? "#fff" : "transparent",
+                  color: view === v.key ? LFC_RED : "#fffc",
                   transition: "all 0.2s",
                 }}
               >
-                {v === "squad" ? "Squad" : v === "results" ? "Results" : "News Feed"}
+                {v.label}
               </button>
             ))}
           </div>
@@ -757,164 +746,177 @@ export default function LiverpoolTracker() {
 
       <div style={{ maxWidth: 1400, margin: "0 auto", padding: "20px 16px 40px" }}>
 
-        {/* ─── SQUAD VIEW ─── */}
-        {view === "squad" && (
+        {/* ─── DASHBOARD VIEW ─── */}
+        {view === "dashboard" && (
           <>
-            {/* Search */}
-            <div style={{ marginBottom: 16 }}>
+            {/* Score Card — Next Match */}
+            <NextMatchBanner match={NEXT_MATCH} results={RESULTS} />
+
+            {/* Merged Stats Row — 10 tiles */}
+            <div style={{
+              display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(100px, 1fr))",
+              gap: 10, marginBottom: 20,
+            }}>
+              {[
+                { label: "Played", value: filteredResults.length, color: "#fff" },
+                { label: "Won", value: filteredResults.filter(r => r.result === "W").length, color: "#28a745" },
+                { label: "Drawn", value: filteredResults.filter(r => r.result === "D").length, color: "#ffc107" },
+                { label: "Lost", value: filteredResults.filter(r => r.result === "L").length, color: "#dc3545" },
+                { label: "Goals For", value: filteredResults.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? h : a); }, 0), color: LFC_GOLD },
+                { label: "Goals Against", value: filteredResults.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? a : h); }, 0), color: "#ff6b6b" },
+                { label: "Goals", value: _.sumBy(PLAYERS, "goals"), color: LFC_GOLD },
+                { label: "Assists", value: _.sumBy(PLAYERS, "assists"), color: "#3498db" },
+                { label: "Avg Form", value: _.meanBy(PLAYERS, "form").toFixed(1), color: "#2ecc71" },
+                { label: "Injured", value: PLAYERS.filter(p => p.status !== "fit").length, color: "#dc3545" },
+              ].map((s) => (
+                <div key={s.label} style={{ background: "#1e1e3a", borderRadius: 12, padding: "12px 10px", textAlign: "center" }}>
+                  <div style={{ color: s.color, fontWeight: 800, fontSize: 18 }}>{s.value}</div>
+                  <div style={{ color: "#777", fontSize: 9, textTransform: "uppercase", letterSpacing: 1, marginTop: 2 }}>{s.label}</div>
+                </div>
+              ))}
+            </div>
+
+            {/* Results Strip — horizontal scroll */}
+            <div style={{ marginBottom: 20 }}>
+              <div style={{ fontSize: 11, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 8 }}>
+                {compFilter === "All" ? "Recent Results" : `${compFilter} Results`}
+              </div>
+              <div style={{
+                display: "flex", gap: 10, overflowX: "auto", paddingBottom: 8,
+                scrollbarWidth: "thin", scrollbarColor: "#333 transparent",
+              }}>
+                {filteredResults.map((r, i) => (
+                  <div key={i} style={{ flex: "0 0 auto" }}>
+                    <ResultCard result={r} />
+                  </div>
+                ))}
+                {filteredResults.length === 0 && (
+                  <div style={{ padding: "20px 40px", color: "#666", fontSize: 12 }}>No results for this filter.</div>
+                )}
+              </div>
+            </div>
+
+            {/* Unified Filter Bar */}
+            <div style={{
+              display: "flex", flexWrap: "wrap", gap: 12, background: "#1e1e3a",
+              borderRadius: 14, padding: "12px 16px", marginBottom: 16, alignItems: "center",
+            }}>
               <input
                 type="text"
                 placeholder="Search players..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 style={{
-                  width: "100%", padding: "12px 16px", borderRadius: 12,
-                  background: "#1e1e3a", border: "1px solid #333", color: "#fff",
-                  fontSize: 14, outline: "none", boxSizing: "border-box",
+                  width: 200, padding: "8px 12px", borderRadius: 8,
+                  background: "#252548", border: "1px solid #333", color: "#fff",
+                  fontSize: 12, outline: "none", boxSizing: "border-box",
                 }}
               />
-            </div>
-
-            {/* Filters Row */}
-            <div style={{ display: "flex", gap: 8, marginBottom: 12, flexWrap: "wrap", alignItems: "center" }}>
-              <span style={{ fontSize: 11, color: "#888", fontWeight: 600, textTransform: "uppercase", letterSpacing: 1 }}>Position:</span>
-              {["ALL", "GK", "DEF", "MID", "FWD"].map((pos) => (
-                <button
-                  key={pos}
-                  onClick={() => setPosFilter(pos)}
-                  style={{
-                    padding: "6px 14px", borderRadius: 8, border: "none", cursor: "pointer",
-                    fontWeight: 700, fontSize: 11,
-                    background: posFilter === pos ? LFC_RED : "#1e1e3a",
-                    color: posFilter === pos ? "#fff" : "#999",
+              <div style={{ display: "flex", gap: 4, alignItems: "center" }}>
+                {["ALL", "GK", "DEF", "MID", "FWD"].map((pos) => (
+                  <button
+                    key={pos}
+                    onClick={() => setPosFilter(pos)}
+                    style={{
+                      padding: "5px 10px", borderRadius: 6, border: "none", cursor: "pointer",
+                      fontWeight: 700, fontSize: 10,
+                      background: posFilter === pos ? LFC_RED : "#252548",
+                      color: posFilter === pos ? "#fff" : "#999",
+                      transition: "all 0.2s",
+                    }}
+                  >
+                    {pos}
+                  </button>
+                ))}
+              </div>
+              <div style={{ display: "flex", gap: 4, alignItems: "center" }}>
+                {[
+                  { key: "All", label: "All", bg: "#ffffff22" },
+                  { key: "PL", label: "PL", bg: "#3d195b" },
+                  { key: "UCL", label: "UCL", bg: "#091442" },
+                  { key: "FA", label: "FA", bg: "#6c0d31" },
+                ].map((tab) => (
+                  <button key={tab.key} onClick={() => setCompFilter(tab.key)} style={{
+                    padding: "5px 12px", borderRadius: 14, border: "none", cursor: "pointer",
+                    fontSize: 10, fontWeight: 700, textTransform: "uppercase", letterSpacing: 0.5,
+                    color: compFilter === tab.key ? "#fff" : "#888",
+                    background: compFilter === tab.key ? tab.bg : "#252548",
                     transition: "all 0.2s",
-                  }}
-                >
-                  {pos} <span style={{ opacity: 0.5, marginLeft: 2 }}>({positionCounts[pos] || 0})</span>
-                </button>
-              ))}
+                  }}>
+                    {tab.label}
+                  </button>
+                ))}
+              </div>
+              <div style={{ display: "flex", gap: 4, alignItems: "center" }}>
+                {[
+                  { key: "all", label: "All" },
+                  { key: "fit", label: "Fit" },
+                  { key: "injured", label: "Out" },
+                ].map((f) => (
+                  <button
+                    key={f.key}
+                    onClick={() => setStatusFilter(f.key)}
+                    style={{
+                      padding: "5px 10px", borderRadius: 6, border: "none", cursor: "pointer",
+                      fontWeight: 700, fontSize: 10,
+                      background: statusFilter === f.key ? (f.key === "injured" ? "#dc3545" : f.key === "fit" ? "#28a745" : "#252548") : "#252548",
+                      color: statusFilter === f.key ? "#fff" : "#999",
+                      transition: "all 0.2s",
+                    }}
+                  >
+                    {f.label}
+                  </button>
+                ))}
+              </div>
+              <div style={{ display: "flex", gap: 4, alignItems: "center", marginLeft: "auto" }}>
+                <span style={{ fontSize: 9, color: "#666", textTransform: "uppercase", letterSpacing: 1 }}>Sort:</span>
+                {[
+                  { key: "form", label: "Form" },
+                  { key: "goals", label: "Goals" },
+                  { key: "assists", label: "Assists" },
+                  { key: "xG", label: "xG" },
+                  { key: "appearances", label: "Apps" },
+                  { key: "number", label: "#" },
+                ].map((s) => (
+                  <button
+                    key={s.key}
+                    onClick={() => setSortBy(s.key)}
+                    style={{
+                      padding: "5px 10px", borderRadius: 6, border: "none", cursor: "pointer",
+                      fontWeight: 700, fontSize: 10,
+                      background: sortBy === s.key ? LFC_GOLD : "#252548",
+                      color: sortBy === s.key ? "#000" : "#999",
+                      transition: "all 0.2s",
+                    }}
+                  >
+                    {s.label}
+                  </button>
+                ))}
+              </div>
             </div>
 
-            {/* Status Filter */}
-            <div style={{ display: "flex", gap: 8, marginBottom: 12, flexWrap: "wrap", alignItems: "center" }}>
-              <span style={{ fontSize: 11, color: "#888", fontWeight: 600, textTransform: "uppercase", letterSpacing: 1 }}>Fitness:</span>
-              {[
-                { key: "all", label: "All Players", count: PLAYERS.length },
-                { key: "fit", label: "Available", count: PLAYERS.filter(p => p.status === "fit").length },
-                { key: "injured", label: "Unavailable", count: PLAYERS.filter(p => p.status !== "fit").length },
-              ].map((f) => (
-                <button
-                  key={f.key}
-                  onClick={() => setStatusFilter(f.key)}
-                  style={{
-                    padding: "6px 14px", borderRadius: 8, border: "none", cursor: "pointer",
-                    fontWeight: 700, fontSize: 11,
-                    background: statusFilter === f.key ? (f.key === "injured" ? "#dc3545" : f.key === "fit" ? "#28a745" : LFC_RED) : "#1e1e3a",
-                    color: statusFilter === f.key ? "#fff" : "#999",
-                    transition: "all 0.2s",
-                  }}
-                >
-                  {f.label} <span style={{ opacity: 0.5, marginLeft: 2 }}>({f.count})</span>
-                </button>
-              ))}
-            </div>
-
-            {/* Sort Row */}
-            <div style={{ display: "flex", gap: 8, marginBottom: 20, flexWrap: "wrap", alignItems: "center" }}>
-              <span style={{ fontSize: 11, color: "#888", fontWeight: 600, textTransform: "uppercase", letterSpacing: 1 }}>Sort by:</span>
-              {[
-                { key: "form", label: "Form" },
-                { key: "goals", label: "Goals" },
-                { key: "assists", label: "Assists" },
-                { key: "xG", label: "xG" },
-                { key: "appearances", label: "Apps" },
-                { key: "number", label: "#" },
-              ].map((s) => (
-                <button
-                  key={s.key}
-                  onClick={() => setSortBy(s.key)}
-                  style={{
-                    padding: "6px 14px", borderRadius: 8, border: "none", cursor: "pointer",
-                    fontWeight: 700, fontSize: 11,
-                    background: sortBy === s.key ? LFC_GOLD : "#1e1e3a",
-                    color: sortBy === s.key ? "#000" : "#999",
-                    transition: "all 0.2s",
-                  }}
-                >
-                  {s.label}
-                </button>
-              ))}
-            </div>
-
-            {/* Squad Stats Summary */}
-            <div style={{
-              display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(120px, 1fr))",
-              gap: 10, marginBottom: 20
-            }}>
-              {[
-                { label: "Total Goals", value: _.sumBy(PLAYERS, "goals") },
-                { label: "Total Assists", value: _.sumBy(PLAYERS, "assists") },
-                { label: "Avg Form", value: _.meanBy(PLAYERS, "form").toFixed(1) },
-                { label: "Clean Sheets", value: _.sumBy(PLAYERS.filter(p => p.cleanSheets !== null), "cleanSheets") },
-                { label: "Top Scorer", value: _.maxBy(PLAYERS, "goals")?.name.split(" ").pop() },
-                { label: "Injured", value: PLAYERS.filter(p => p.status !== "fit").length },
-              ].map((s) => (
-                <div key={s.label} style={{ background: "#1e1e3a", borderRadius: 12, padding: "14px 16px", textAlign: "center" }}>
-                  <div style={{ color: LFC_GOLD, fontWeight: 800, fontSize: 20 }}>{s.value}</div>
-                  <div style={{ color: "#777", fontSize: 10, textTransform: "uppercase", letterSpacing: 1, marginTop: 2 }}>{s.label}</div>
-                </div>
-              ))}
+            {/* Squad Section Header */}
+            <div style={{ fontSize: 11, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 8 }}>
+              Squad
             </div>
 
             {/* Player Cards — Bento Grid */}
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: 10 }}>
               {filtered.map((player) => (
-                <PlayerCard
-                  key={player.id}
-                  player={player}
-                  expanded={expandedId === player.id}
-                  onToggle={() => setExpandedId(expandedId === player.id ? null : player.id)}
-                />
+                <div key={player.id} style={{ gridColumn: expandedId === player.id ? "span 2" : "span 1" }}>
+                  <PlayerCard
+                    player={player}
+                    expanded={expandedId === player.id}
+                    onToggle={() => setExpandedId(expandedId === player.id ? null : player.id)}
+                  />
+                </div>
               ))}
               {filtered.length === 0 && (
-                <div style={{ textAlign: "center", padding: 40, color: "#666" }}>
+                <div style={{ textAlign: "center", padding: 40, color: "#666", gridColumn: "1 / -1" }}>
                   No players found matching your criteria.
                 </div>
               )}
             </div>
-          </>
-        )}
-
-        {/* ─── RESULTS VIEW ─── */}
-        {view === "results" && (
-          <>
-            <NextMatchBanner match={NEXT_MATCH} />
-            <FormGuide results={RESULTS} count={5} />
-
-            {/* Season summary strip */}
-            <div style={{
-              display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(100px, 1fr))",
-              gap: 10, marginBottom: 16,
-            }}>
-              {[
-                { label: "Played", value: RESULTS.length, color: "#fff" },
-                { label: "Won", value: RESULTS.filter(r => r.result === "W").length, color: "#28a745" },
-                { label: "Drawn", value: RESULTS.filter(r => r.result === "D").length, color: "#ffc107" },
-                { label: "Lost", value: RESULTS.filter(r => r.result === "L").length, color: "#dc3545" },
-                { label: "Goals For", value: RESULTS.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? h : a); }, 0), color: LFC_GOLD },
-                { label: "Goals Against", value: RESULTS.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? a : h); }, 0), color: "#ff6b6b" },
-              ].map((s) => (
-                <div key={s.label} style={{ background: "#1e1e3a", borderRadius: 12, padding: "14px 12px", textAlign: "center" }}>
-                  <div style={{ color: s.color, fontWeight: 800, fontSize: 20 }}>{s.value}</div>
-                  <div style={{ color: "#777", fontSize: 10, textTransform: "uppercase", letterSpacing: 1, marginTop: 2 }}>{s.label}</div>
-                </div>
-              ))}
-            </div>
-
-            <div style={{ fontSize: 12, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 10 }}>
-              All Results
-            </div>
-            <RecentResults results={RESULTS} />
           </>
         )}
 

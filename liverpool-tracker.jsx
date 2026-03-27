@@ -109,7 +109,7 @@ const PLAYERS = [
   { id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — running on pitch, omitted from Sweden squad, targeting mid-April return", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png" },
   { id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 33, goals: 17, assists: 5, cleanSheets: null, xG: 13.5, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "doubtful", injuryNote: "Dead leg at Brighton (Mar 21) — minor, expected fit after international break", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p510663.png" },
   { id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 8, goals: 1, assists: 0, cleanSheets: null, xG: 1.2, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 6.3, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p611922.png" },
-  { id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 5.8, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p230621.png" },
+  { id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 5.8, status: "doubtful", injuryNote: "Withdrew from Italy squad — assessed as unavailable, fitness concern", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p230621.png" },
 ];
 
 // ─── RSS Feed Sources ───────────────────────────────────────────────────────
@@ -125,21 +125,21 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Sky Sports", title: "Brighton 2-1 Liverpool: Hugo Ekitike injured as Danny Welbeck inflicts 10th defeat on Reds", time: "2h ago", category: "major" },
-  { source: "This Is Anfield", title: "Brighton 2-1 Liverpool: 10th league defeat of the season", time: "2h ago", category: "fan" },
-  { source: "This Is Anfield", title: "Mo Salah ruled OUT vs Brighton as Arne Slot explains injury", time: "1d ago", category: "fan" },
-  { source: "This Is Anfield", title: "Alisson suffers new injury: OUT vs Brighton", time: "1d ago", category: "fan" },
-  { source: "Liverpool FC Official", title: "Liverpool 4-0 Galatasaray: Reds advance to Champions League quarter-finals", time: "4d ago", category: "official" },
-  { source: "BBC Sport", title: "Salah scores 50th Champions League goal in dominant Anfield display", time: "4d ago", category: "major" },
-  { source: "Liverpool FC Official", title: "Champions League: Confirmed fixture details for Liverpool's quarter-final v PSG", time: "3d ago", category: "official" },
-  { source: "This Is Anfield", title: "Liverpool vs PSG: Quarter-final dates and kickoff times confirmed", time: "3d ago", category: "fan" },
-  { source: "CaughtOffside", title: "Liverpool in talks over Eduardo Camavinga transfer from Real Madrid", time: "1d ago", category: "major" },
-  { source: "Sky Sports", title: "Liverpool to rival Barcelona for Inter Milan defender Alessandro Bastoni", time: "3d ago", category: "major" },
-  { source: "Liverpool FC Official", title: "Gravenberch signs new six-year Liverpool contract extension until 2032", time: "2w ago", category: "official" },
-  { source: "Empire of the Kop", title: "Liverpool's mammoth Ryan Gravenberch deal forces teammates to leave", time: "2w ago", category: "fan" },
-  { source: "This Is Anfield", title: "Alexander Isak spotted training on pitch — return date edges closer", time: "5d ago", category: "major" },
-  { source: "BBC Sport", title: "Liverpool drawn away to Man City in FA Cup quarter-finals", time: "2w ago", category: "major" },
-  { source: "Liverpool FC Official", title: "Every Liverpool FC contract expiry date: 3 players free agents in 2026", time: "2w ago", category: "official" },
+  { source: "Empire of the Kop", title: "Liverpool injury update shows extent of squad problems", time: "1d ago", category: "fan" },
+  { source: "Sky Sports", title: "Arne Slot blames latest Liverpool defeat on injury problems, fixture pile-up and club's transfer policy", time: "2d ago", category: "major" },
+  { source: "ESPN", title: "Arne Slot: Liverpool's defeat to Brighton 'hurts a lot'", time: "3d ago", category: "major" },
+  { source: "This Is Anfield", title: "Federico Chiesa withdrawal explained & PSG request postponement", time: "2d ago", category: "fan" },
+  { source: "Sky Sports", title: "Brighton 2-1 Liverpool: Hugo Ekitike injured as Danny Welbeck inflicts 10th defeat on Reds", time: "3d ago", category: "major" },
+  { source: "Sky Sports", title: "Jamie Carragher: Arne Slot has a 'really difficult' task to win Reds fans back", time: "3d ago", category: "major" },
+  { source: "CaughtOffside", title: "Federico Chiesa 'almost certain' to leave Liverpool as summer overhaul begins", time: "4d ago", category: "major" },
+  { source: "This Is Anfield", title: "Liverpool 4-0 Galatasaray: Into Champions League quarter-finals!", time: "6d ago", category: "fan" },
+  { source: "Liverpool FC Official", title: "Champions League: Confirmed fixture details for Liverpool's quarter-final v PSG", time: "5d ago", category: "official" },
+  { source: "Empire of the Kop", title: "Liverpool discover brutal April schedule as PSG fixtures confirmed", time: "5d ago", category: "fan" },
+  { source: "Empire of the Kop", title: "Forget Xabi Alonso: FSG already know the head coach they want to manage Liverpool after 2025/26", time: "12d ago", category: "fan" },
+  { source: "Liverpool FC Official", title: "Gravenberch signs new six-year Liverpool contract extension until 2032", time: "3w ago", category: "official" },
+  { source: "This Is Anfield", title: "Man City vs. Liverpool FA Cup date confirmed — Early kickoff!", time: "5d ago", category: "fan" },
+  { source: "This Is Anfield", title: "Alexander Isak spotted training on pitch — return date edges closer", time: "1w ago", category: "fan" },
+  { source: "Liverpool FC Official", title: "Every Liverpool FC contract expiry date: 3 players free agents in 2026", time: "3w ago", category: "official" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
