@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2025-26 Season · Updated Mar 24, 2026) ───────
+// ─── Liverpool FC Player Data (2025-26 Season · Updated Mar 30, 2026) ───────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -6,7 +6,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "injured", injuryNote: "New injury — ruled out for international break, reassessed in April", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "injured", injuryNote: "Muscle injury — out 'for a while', return date uncertain", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -201,7 +201,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 34, goals: 8, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.5, passCompletion: 82, progressiveCarries: 3.5, form: 6.8, status: "injured", injuryNote: "Muscle injury (Mar 18 vs Galatasaray) — expected back after international break", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 34, goals: 8, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.5, passCompletion: 82, progressiveCarries: 3.5, form: 6.8, status: "doubtful", injuryNote: "Muscle injury (Mar 18) — set to return for Man City FA Cup; confirmed leaving Liverpool at end of season", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -233,7 +233,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 33, goals: 17, assists: 5, cleanSheets: null, xG: 13.5, tacklesPer90: 0.5, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "doubtful", injuryNote: "Dead leg at Brighton (Mar 21) — minor, expected fit after international break", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 33, goals: 17, assists: 5, cleanSheets: null, xG: 13.5, tacklesPer90: 0.5, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "fit", injuryNote: null, image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -292,6 +292,10 @@ export const TEAM_LOGOS = {
   "Arsenal":        "https://resources.premierleague.com/premierleague/badges/50/t3.png",
   "PSG":            "https://img.uefa.com/imgml/TP/teams/logos/50x50/52747.png",
   "Brighton & Hove Albion": "https://resources.premierleague.com/premierleague/badges/50/t36.png",
+  "Fulham":         "https://resources.premierleague.com/premierleague/badges/50/t54.png",
+  "Everton":        "https://resources.premierleague.com/premierleague/badges/50/t11.png",
+  "Crystal Palace":  "https://resources.premierleague.com/premierleague/badges/50/t31.png",
+  "Manchester City": "https://resources.premierleague.com/premierleague/badges/50/t43.png",
 };
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
@@ -299,7 +303,7 @@ export const NEXT_MATCH = {
   opponent: "Manchester City",
   shortName: "Man City",
   home: false,
-  date: "2026-04-04T15:00:00",
+  date: "2026-04-04T12:45:00",
   competition: "FA",
   venue: "Etihad Stadium",
   broadcast: "BBC One",

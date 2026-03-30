@@ -73,18 +73,18 @@ function PlayerAvatar({ player, size = 64 }) {
   );
 }
 
-// ─── Player Data (2025-26 Season · Updated Mar 22, 2026) ────────────────────
+// ─── Player Data (2025-26 Season · Updated Mar 30, 2026) ────────────────────
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
 // injuryNote: short description shown on card when not fit
 const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
-  { id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "injured", injuryNote: "New injury — ruled out for international break, reassessed in April", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p116535.png" },
+  { id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "injured", injuryNote: "Muscle injury — out 'for a while', return date uncertain", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p116535.png" },
   { id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 15, goals: 0, assists: 0, cleanSheets: 4, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 7.0, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p449027.png" },
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   { id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 34, appearances: 37, goals: 3, assists: 1, cleanSheets: 10, xG: 2.8, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.1, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png" },
   { id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 34, goals: 2, assists: 0, cleanSheets: 9, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 7.1, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png" },
-  { id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 18, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 6.0, status: "doubtful", injuryNote: "Recurring fitness issues — limited availability since Feb", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png" },
+  { id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 18, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 6.0, status: "injured", injuryNote: "Recurring fitness issues — limited availability since Feb", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png" },
   { id: 6, name: "Andy Robertson", number: 26, position: "DEF", nationality: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland", age: 32, appearances: 24, goals: 0, assists: 3, cleanSheets: 7, xG: 0.5, tacklesPer90: 2.3, passCompletion: 83, progressiveCarries: 4.2, form: 6.5, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p122798.png" },
   { id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 27, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 7.0, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png" },
   { id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", injuryNote: "Knee surgery (Jan) — out for season, aiming for pre-season return", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png" },
@@ -104,10 +104,10 @@ const PLAYERS = [
   { id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p591386.png" },
 
   // ── Forwards ──────────────────────────────────────────────────────────────
-  { id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 34, goals: 8, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 6.8, status: "injured", injuryNote: "Muscle injury (Mar 18 vs Galatasaray) — expected back after international break", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png" },
+  { id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 34, goals: 8, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 6.8, status: "doubtful", injuryNote: "Muscle injury (Mar 18) — set to return for Man City FA Cup; confirmed leaving Liverpool at end of season", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png" },
   { id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 33, goals: 8, assists: 4, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.2, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png" },
   { id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — running on pitch, omitted from Sweden squad, targeting mid-April return", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png" },
-  { id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 33, goals: 17, assists: 5, cleanSheets: null, xG: 13.5, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "doubtful", injuryNote: "Dead leg at Brighton (Mar 21) — minor, expected fit after international break", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p510663.png" },
+  { id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 33, goals: 17, assists: 5, cleanSheets: null, xG: 13.5, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p510663.png" },
   { id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 8, goals: 1, assists: 0, cleanSheets: null, xG: 1.2, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 6.3, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p611922.png" },
   { id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 5.8, status: "doubtful", injuryNote: "Withdrew from Italy squad — assessed as unavailable, fitness concern", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p230621.png" },
 ];
@@ -125,21 +125,21 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Empire of the Kop", title: "Liverpool injury update shows extent of squad problems", time: "1d ago", category: "fan" },
-  { source: "Sky Sports", title: "Arne Slot blames latest Liverpool defeat on injury problems, fixture pile-up and club's transfer policy", time: "2d ago", category: "major" },
-  { source: "ESPN", title: "Arne Slot: Liverpool's defeat to Brighton 'hurts a lot'", time: "3d ago", category: "major" },
-  { source: "This Is Anfield", title: "Federico Chiesa withdrawal explained & PSG request postponement", time: "2d ago", category: "fan" },
-  { source: "Sky Sports", title: "Brighton 2-1 Liverpool: Hugo Ekitike injured as Danny Welbeck inflicts 10th defeat on Reds", time: "3d ago", category: "major" },
-  { source: "Sky Sports", title: "Jamie Carragher: Arne Slot has a 'really difficult' task to win Reds fans back", time: "3d ago", category: "major" },
-  { source: "CaughtOffside", title: "Federico Chiesa 'almost certain' to leave Liverpool as summer overhaul begins", time: "4d ago", category: "major" },
-  { source: "This Is Anfield", title: "Liverpool 4-0 Galatasaray: Into Champions League quarter-finals!", time: "6d ago", category: "fan" },
-  { source: "Liverpool FC Official", title: "Champions League: Confirmed fixture details for Liverpool's quarter-final v PSG", time: "5d ago", category: "official" },
-  { source: "Empire of the Kop", title: "Liverpool discover brutal April schedule as PSG fixtures confirmed", time: "5d ago", category: "fan" },
-  { source: "Empire of the Kop", title: "Forget Xabi Alonso: FSG already know the head coach they want to manage Liverpool after 2025/26", time: "12d ago", category: "fan" },
-  { source: "Liverpool FC Official", title: "Gravenberch signs new six-year Liverpool contract extension until 2032", time: "3w ago", category: "official" },
-  { source: "This Is Anfield", title: "Man City vs. Liverpool FA Cup date confirmed — Early kickoff!", time: "5d ago", category: "fan" },
-  { source: "This Is Anfield", title: "Alexander Isak spotted training on pitch — return date edges closer", time: "1w ago", category: "fan" },
-  { source: "Liverpool FC Official", title: "Every Liverpool FC contract expiry date: 3 players free agents in 2026", time: "3w ago", category: "official" },
+  { source: "Liverpool FC Official", title: "Mohamed Salah to leave Liverpool at the end of the season", time: "6d ago", category: "official" },
+  { source: "Sky Sports", title: "Mohamed Salah: Liverpool forward to leave Premier League club at end of season", time: "6d ago", category: "major" },
+  { source: "Empire of the Kop", title: "Former CEO reveals key Anfield changes that never happened", time: "1d ago", category: "fan" },
+  { source: "Empire of the Kop", title: "'No other club can do it' — Liverpool legends react after special Anfield day", time: "1d ago", category: "fan" },
+  { source: "Empire of the Kop", title: "Jurgen Klopp breaks silence after Liverpool Legends game at Anfield", time: "1d ago", category: "fan" },
+  { source: "This Is Anfield", title: "Ibrahima Konate contract: 'Constructive' talks ongoing — player wants agreement", time: "2d ago", category: "fan" },
+  { source: "Empire of the Kop", title: "Fans kicked to the kerb as Liverpool announce ticket price increases from next season", time: "1d ago", category: "fan" },
+  { source: "This Is Anfield", title: "Alisson reveals he will be out 'for a while' after latest injury blow", time: "4d ago", category: "fan" },
+  { source: "Sky Sports", title: "Brighton 2-1 Liverpool: Hugo Ekitike injured as Danny Welbeck inflicts 10th defeat on Reds", time: "9d ago", category: "major" },
+  { source: "This Is Anfield", title: "Jurgen Klopp back in Liverpool & Mo Salah replacement monitored — Latest LFC News", time: "3d ago", category: "fan" },
+  { source: "Liverpool FC Official", title: "Champions League: Confirmed fixture details for Liverpool's quarter-final v PSG", time: "1w ago", category: "official" },
+  { source: "This Is Anfield", title: "Liverpool 4-0 Galatasaray: Into Champions League quarter-finals!", time: "12d ago", category: "fan" },
+  { source: "Empire of the Kop", title: "Liverpool discover brutal April schedule as PSG fixtures confirmed", time: "1w ago", category: "fan" },
+  { source: "Liverpool FC Official", title: "Gravenberch signs new six-year Liverpool contract extension until 2032", time: "4w ago", category: "official" },
+  { source: "This Is Anfield", title: "Alexander Isak spotted training on pitch — return date edges closer", time: "2w ago", category: "fan" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
@@ -147,7 +147,7 @@ const NEXT_MATCH = {
   opponent: "Manchester City",
   shortName: "Man City",
   home: false,
-  date: "2026-04-04T15:00:00",
+  date: "2026-04-04T12:45:00",
   competition: "FA",
   venue: "Etihad Stadium",
   broadcast: "BBC One",
