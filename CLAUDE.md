@@ -57,6 +57,16 @@ React 18.3 • Vite 6.0 • Lodash • Inline CSS • No backend/DB
 
 ---
 
+## 📰 AI News Digest [DIGEST]
+**[DIGEST-00001]** The News Feed view has an AI News Digest section powered by Perplexity
+- Data lives in `src/playerData.js` as the `NEWS_DIGEST` export
+- To refresh: use `mcp__perplexity__search` to pull latest Liverpool FC news, then update the `NEWS_DIGEST` object with ~12 key topics
+- Each topic has: `title`, `detail` (1-2 sentences), `category` ("transfers" | "injuries" | "matches" | "tactics" | "general")
+- Update `generatedAt` timestamp and `sources` array when refreshing
+> TRIGGER: When user asks to update/refresh the news digest
+
+---
+
 ## ⚠️ Important Reminders
 Do what is asked; nothing more, nothing less.
 Verify assumptions before acting.

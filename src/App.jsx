@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from "react";
 import _ from "lodash";
-import { PLAYERS, RSS_FEEDS, RESULTS, NEXT_MATCH, TEAM_LOGOS } from "./playerData.js";
+import { PLAYERS, RSS_FEEDS, RESULTS, NEXT_MATCH, TEAM_LOGOS, NEWS_DIGEST } from "./playerData.js";
 
 // ─── Liverpool FC Player Tracker ────────────────────────────────────────────
 // Current 2025-26 squad data, form ratings, stats, and RSS news feeds
@@ -368,6 +368,108 @@ function PlayerCard({ player, expanded, onToggle }) {
   );
 }
 
+// ─── AI News Digest ──────────────────────────────────────────────────────────
+
+const CATEGORY_COLORS = {
+  transfers: LFC_RED,
+  injuries: "#fd7e14",
+  matches: "#3498db",
+  tactics: "#2ecc71",
+  general: "#888",
+};
+
+function NewsDigestSection() {
+  if (!NEWS_DIGEST) return null;
+
+  const timeAgoStr = (() => {
+    const diff = Date.now() - new Date(NEWS_DIGEST.generatedAt).getTime();
+    const mins = Math.floor(diff / 60000);
+    if (mins < 60) return `${mins}m ago`;
+    const hrs = Math.floor(mins / 60);
+    if (hrs < 24) return `${hrs}h ago`;
+    const days = Math.floor(hrs / 24);
+    return `${days}d ago`;
+  })();
+
+  return (
+    <div style={{
+      background: "linear-gradient(135deg, #1e1e3a, #1a1530)",
+      borderRadius: 14,
+      padding: 20,
+      marginBottom: 16,
+      border: `1px solid ${LFC_RED}33`,
+    }}>
+      {/* Header */}
+      <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
+        <span style={{
+          fontSize: 12, color: LFC_GOLD, fontWeight: 700,
+          textTransform: "uppercase", letterSpacing: 1.5,
+        }}>
+          AI News Digest
+        </span>
+        <span style={{
+          fontSize: 9, color: "#777", background: "#252548",
+          padding: "3px 8px", borderRadius: 6, fontWeight: 600,
+        }}>
+          Powered by Perplexity
+        </span>
+        <span style={{ fontSize: 10, color: "#555", marginLeft: "auto" }}>
+          Updated {timeAgoStr}
+        </span>
+      </div>
+
+      {/* Summary */}
+      <p style={{
+        fontSize: 14, color: "#ccc", lineHeight: 1.7,
+        margin: "0 0 16px 0",
+      }}>
+        {NEWS_DIGEST.summary}
+      </p>
+
+      {/* Key Topics Grid */}
+      <div style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+        gap: 10,
+      }}>
+        {NEWS_DIGEST.keyTopics.map((topic, i) => (
+          <div
+            key={i}
+            style={{
+              background: "#252548",
+              borderRadius: 10,
+              padding: 14,
+              borderLeft: `3px solid ${CATEGORY_COLORS[topic.category] || "#888"}`,
+            }}
+          >
+            <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
+              <span style={{ color: "#fff", fontWeight: 700, fontSize: 13, flex: 1 }}>
+                {topic.title}
+              </span>
+              <span style={{
+                fontSize: 9, fontWeight: 700, textTransform: "uppercase",
+                color: CATEGORY_COLORS[topic.category] || "#888",
+                background: `${CATEGORY_COLORS[topic.category] || "#888"}22`,
+                padding: "2px 7px", borderRadius: 4, letterSpacing: 0.5,
+              }}>
+                {topic.category}
+              </span>
+            </div>
+            <div style={{ color: "#aaa", fontSize: 12, lineHeight: 1.5 }}>
+              {topic.detail}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {/* Sources footer */}
+      <div style={{ marginTop: 12, fontSize: 10, color: "#555" }}>
+        Sources: {NEWS_DIGEST.sources.join(" · ")}
+      </div>
+    </div>
+  );
+}
+
 // ─── Live RSS News Feed ──────────────────────────────────────────────────────
 
 function timeAgo(dateStr) {
@@ -429,7 +531,7 @@ function LiveNewsFeed({ filter }) {
     return () => { cancelled = true; };
   }, []);
 
-  const filtered = filter === "all" ? articles : articles.filter((a) => a.category === filter);
+  const filtered = filter === "all" ? articles : articles.filter((a) => a.source === filter);
 
   if (loading) {
     return (
@@ -447,31 +549,65 @@ function LiveNewsFeed({ filter }) {
     );
   }
 
+  const isWide = (i, title) => i === 0 || title.length > 70 || i % 5 === 0;
+
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
-      {filtered.slice(0, 30).map((item, i) => (
-        <a
-          key={i}
-          href={item.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            padding: "12px 16px", borderRadius: 10, background: "#1e1e3a",
-            borderLeft: `3px solid ${item.category === "official" ? LFC_RED : item.category === "major" ? "#e67e22" : "#8e44ad"}`,
-            transition: "background 0.2s", cursor: "pointer", textDecoration: "none",
-          }}
-          onMouseEnter={(e) => e.currentTarget.style.background = "#252548"}
-          onMouseLeave={(e) => e.currentTarget.style.background = "#1e1e3a"}
-        >
-          <div style={{ color: "#fff", fontSize: 13, fontWeight: 600, lineHeight: 1.4 }}>{item.title}</div>
-          <div style={{ display: "flex", gap: 12, marginTop: 4 }}>
-            <span style={{ fontSize: 10, color: LFC_RED, fontWeight: 600 }}>{item.source}</span>
-            <span style={{ fontSize: 10, color: "#666" }}>{timeAgo(item.pubDate)}</span>
-          </div>
-        </a>
-      ))}
+    <div style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
+      gap: 10,
+    }}>
+      {filtered.slice(0, 30).map((item, i) => {
+        const wide = isWide(i, item.title);
+        return (
+          <a
+            key={i}
+            href={item.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              gridColumn: wide ? "span 2" : "span 1",
+              padding: wide ? "16px 20px" : "14px 16px",
+              borderRadius: 12,
+              background: "#1e1e3a",
+              borderTop: `3px solid ${item.color || LFC_RED}`,
+              transition: "all 0.2s",
+              cursor: "pointer",
+              textDecoration: "none",
+              boxShadow: "0 2px 8px #0003",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background = "#252548";
+              e.currentTarget.style.transform = "translateY(-2px)";
+              e.currentTarget.style.boxShadow = "0 6px 20px #0005";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background = "#1e1e3a";
+              e.currentTarget.style.transform = "translateY(0)";
+              e.currentTarget.style.boxShadow = "0 2px 8px #0003";
+            }}
+          >
+            <div style={{
+              color: "#fff",
+              fontSize: wide ? 15 : 13,
+              fontWeight: 600,
+              lineHeight: 1.4,
+            }}>
+              {item.title}
+            </div>
+            <div style={{ display: "flex", gap: 8, marginTop: 8, alignItems: "center" }}>
+              <span style={{
+                width: 6, height: 6, borderRadius: "50%",
+                background: item.color || LFC_RED, flexShrink: 0,
+              }} />
+              <span style={{ fontSize: 10, color: item.color || LFC_RED, fontWeight: 600 }}>{item.source}</span>
+              <span style={{ fontSize: 10, color: "#555" }}>{timeAgo(item.pubDate)}</span>
+            </div>
+          </a>
+        );
+      })}
       {filtered.length === 0 && (
-        <div style={{ textAlign: "center", padding: 40, color: "#666" }}>
+        <div style={{ textAlign: "center", padding: 40, color: "#666", gridColumn: "1 / -1" }}>
           No articles found for this filter.
         </div>
       )}
@@ -924,15 +1060,14 @@ export default function LiverpoolTracker() {
         {view === "news" && (
           <>
             <RSSSourcesPanel />
+            <NewsDigestSection />
 
             {/* News Filter */}
             <div style={{ display: "flex", gap: 8, marginBottom: 16, flexWrap: "wrap", alignItems: "center" }}>
               <span style={{ fontSize: 11, color: "#888", fontWeight: 600, textTransform: "uppercase", letterSpacing: 1 }}>Filter:</span>
               {[
-                { key: "all", label: "All News" },
-                { key: "official", label: "Official" },
-                { key: "major", label: "Major Outlets" },
-                { key: "fan", label: "Fan Sites" },
+                { key: "all", label: "All News", color: LFC_RED },
+                ...RSS_FEEDS.map((f) => ({ key: f.name, label: f.name, color: f.color })),
               ].map((f) => (
                 <button
                   key={f.key}
@@ -940,7 +1075,7 @@ export default function LiverpoolTracker() {
                   style={{
                     padding: "6px 14px", borderRadius: 8, border: "none", cursor: "pointer",
                     fontWeight: 700, fontSize: 11,
-                    background: newsFilter === f.key ? LFC_RED : "#1e1e3a",
+                    background: newsFilter === f.key ? f.color : "#1e1e3a",
                     color: newsFilter === f.key ? "#fff" : "#999",
                     transition: "all 0.2s",
                   }}

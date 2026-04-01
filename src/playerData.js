@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2025-26 Season · Updated Mar 30, 2026) ───────
+// ─── Liverpool FC Player Data (2025-26 Season · Updated Apr 1, 2026) ────────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -47,7 +47,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 18, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 6.0, status: "injured", injuryNote: "Recurring fitness issues — limited availability since Feb", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 18, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 6.0, status: "doubtful", injuryNote: "Fitness concern — played 90 mins vs Spurs (Mar 15) but recurring issues, late fitness tests needed", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 27, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 7.0, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 36, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 7.0, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -85,7 +85,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 31, goals: 1, assists: 4, cleanSheets: 6, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.9, status: "fit", injuryNote: null, image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 31, goals: 1, assists: 4, cleanSheets: 6, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.9, status: "injured", injuryNote: "Hamstring injury on international duty (Apr 1) — fourth injury this season, assessment pending", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -133,7 +133,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 35, goals: 5, assists: 4, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.4, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 35, goals: 5, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.4, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -143,7 +143,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 35, goals: 6, assists: 4, cleanSheets: null, xG: 4.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.5, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 42, goals: 11, assists: 7, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.5, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -201,7 +201,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 34, goals: 8, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.5, passCompletion: 82, progressiveCarries: 3.5, form: 6.8, status: "doubtful", injuryNote: "Muscle injury (Mar 18) — set to return for Man City FA Cup; confirmed leaving Liverpool at end of season", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 34, goals: 8, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 6.8, status: "doubtful", injuryNote: "Recovering at AXA Training Centre over intl break — expected fit for Man City FA Cup (Apr 4); confirmed leaving Liverpool end of season", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -233,7 +233,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 33, goals: 17, assists: 5, cleanSheets: null, xG: 13.5, tacklesPer90: 0.5, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "fit", injuryNote: null, image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "fit", injuryNote: null, image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -264,7 +264,7 @@ export const PLAYERS = [
 
 // ─── RSS Feed Sources ───────────────────────────────────────────────────────
 export const RSS_FEEDS = [
-  { name: "Liverpool FC Official", url: "https://www.liverpoolfc.com/news/feed", category: "official", color: "#C8102E" },
+  { name: "Rousing The Kop", url: "https://www.rousingthekop.com/feed/", category: "fan", color: "#C8102E" },
   { name: "BBC Sport - Liverpool", url: "http://feeds.bbci.co.uk/sport/football/teams/liverpool/rss.xml", category: "major", color: "#BB1919" },
   { name: "Sky Sports - Liverpool", url: "https://www.skysports.com/rss/12040", category: "major", color: "#E10600" },
   { name: "This Is Anfield", url: "https://www.thisisanfield.com/feed/", category: "fan", color: "#D4213D" },
@@ -329,4 +329,95 @@ export const RESULTS = [
   { date: "2026-01-12", opponent: "Barnsley",     home: true,  score: "4-1", competition: "FA",   result: "W", scorers: "Ngumoha, Gakpo, Jones, Wirtz" },
   { date: "2026-01-08", opponent: "Arsenal",      home: false, score: "0-0", competition: "PL",   result: "D", scorers: "" },
 ];
+
+// ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
+export const NEWS_DIGEST = {
+  generatedAt: "2026-04-01T12:00:00Z",
+  summary:
+    "Liverpool's turbulent 2025-26 season reaches a critical juncture. The defending champions sit 5th in the Premier League, yet remain alive in the Champions League quarter-finals against PSG and face Manchester City in the FA Cup on April 4. Salah's confirmed departure at season's end overshadows everything, with the club already lining up replacements. Salah is expected fit for City, but Frimpong has picked up his fourth injury of the season on international duty. Alisson's setback and a leaky defence — 42 goals conceded — have piled pressure on Arne Slot.",
+  keyTopics: [
+    {
+      title: "Salah Departure Confirmed",
+      detail:
+        "Mohamed Salah has officially confirmed he will leave Liverpool at the end of the season, closing out a 255-goal, 9-year era. His relationship with Slot reportedly broke down after being dropped earlier in the campaign.",
+      category: "transfers",
+    },
+    {
+      title: "Title Defence in Tatters — 5th Place",
+      detail:
+        "Liverpool have fallen from champions to 5th in the Premier League, with 42 goals conceded and a gauntlet of fixtures remaining including Chelsea and Man United at Old Trafford.",
+      category: "matches",
+    },
+    {
+      title: "UCL Quarter-Final vs PSG",
+      detail:
+        "Liverpool face defending champions PSG in the Champions League quarters after a dominant 4-0 home win over Galatasaray. The Reds have won 6 of their last 8 QF ties — and the 2nd leg is at Anfield.",
+      category: "matches",
+    },
+    {
+      title: "Salah Expected Fit, Frimpong New Blow",
+      detail:
+        "Salah has been recovering at AXA Training Centre and is expected fit for the FA Cup quarter-final at the Etihad. However, Frimpong suffered his fourth injury of the season — a suspected hamstring issue — after just 13 minutes for the Netherlands vs Ecuador. Isak continues his return from ankle fracture and is targeting mid-April.",
+      category: "injuries",
+    },
+    {
+      title: "Alisson Setback",
+      detail:
+        "Goalkeeper Alisson Becker faces uncertainty after a recent setback. There is reduced optimism about his availability for the Manchester City and PSG fixtures.",
+      category: "injuries",
+    },
+    {
+      title: "Slot Under Pressure",
+      detail:
+        "Despite public backing from the board, speculation around Xabi Alonso replacing Slot has intensified. David Ornstein reports the club intends to stick with Slot — for now.",
+      category: "tactics",
+    },
+    {
+      title: "Post-Salah Tactical Shift",
+      detail:
+        "Liverpool are reportedly considering a 4-2-2-2 formation next season, pairing Isak and Ekitike up front with Wirtz and Szoboszlai as creative 10s behind them.",
+      category: "tactics",
+    },
+    {
+      title: "Anthony Gordon Eyed as Salah Replacement",
+      detail:
+        "Liverpool are targeting Newcastle's Anthony Gordon, who may be forced out this summer. Interest in RB Leipzig's Yan Diomande also reported, though Leipzig plan to block the move.",
+      category: "transfers",
+    },
+    {
+      title: "Camara & Schlotterbeck on Radar",
+      detail:
+        "Monaco midfielder Lamine Camara (~€65-75M) and Dortmund centre-back Nico Schlotterbeck are being monitored to address midfield and defensive depth concerns.",
+      category: "transfers",
+    },
+    {
+      title: "Konate Hints at New Deal",
+      detail:
+        "Ibrahima Konate hinted at a new Liverpool contract in an ESPN interview, stating 'We have to stay together' — a positive signal for the defensive core.",
+      category: "general",
+    },
+    {
+      title: "Youth Academy Breakthroughs",
+      detail:
+        "Rio Ngumoha, 17, became Liverpool's youngest-ever scorer. Trey Nyoni is drawing Pogba comparisons. The club also signed Celtic teenager Dara Jikiemi as their 4th academy pickup of 2026.",
+      category: "general",
+    },
+    {
+      title: "Ticket Price Backlash",
+      detail:
+        "Spirit of Shankly slammed Liverpool's multi-year ticket price increases despite £703M record revenue. Season tickets are approaching £1,000 — the price hikes equal just 3 weeks of Salah's wages.",
+      category: "general",
+    },
+  ],
+  sources: [
+    "This Is Anfield",
+    "BBC Sport",
+    "ESPN FC",
+    "Liverpool FC Official",
+    "Sky Sports",
+    "Empire of the Kop",
+    "The Anfield Wrap",
+    "Spirit of Shankly",
+  ],
+};
 
