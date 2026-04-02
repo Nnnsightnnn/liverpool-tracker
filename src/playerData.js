@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2025-26 Season · Updated Apr 1, 2026) ────────
+// ─── Liverpool FC Player Data (2025-26 Season · Updated Apr 2, 2026) ────────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -201,7 +201,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 34, goals: 8, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 6.8, status: "doubtful", injuryNote: "Recovering at AXA Training Centre over intl break — expected fit for Man City FA Cup (Apr 4); confirmed leaving Liverpool end of season", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 34, goals: 8, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Confirmed fit for Man City FA Cup (Apr 4) — Slot: 'very close, I think he will be available'; confirmed leaving Liverpool end of season", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -222,7 +222,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — running on pitch, omitted from Sweden squad, targeting mid-April return", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — returned to team training Apr 2; bench option vs Man City FA Cup (Apr 4), more likely UCL return vs PSG (Apr 8)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -252,7 +252,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 5.8, status: "doubtful", injuryNote: "Withdrew from Italy squad — assessed as unavailable, fitness concern", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Returned to training and confirmed available for Man City FA Cup (Apr 4) after withdrawing from Italy duty", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -332,9 +332,9 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-01T12:00:00Z",
+  generatedAt: "2026-04-02T08:00:00Z",
   summary:
-    "Liverpool's turbulent 2025-26 season reaches a critical juncture. The defending champions sit 5th in the Premier League, yet remain alive in the Champions League quarter-finals against PSG and face Manchester City in the FA Cup on April 4. Salah's confirmed departure at season's end overshadows everything, with the club already lining up replacements. Salah is expected fit for City, but Frimpong has picked up his fourth injury of the season on international duty. Alisson's setback and a leaky defence — 42 goals conceded — have piled pressure on Arne Slot.",
+    "Liverpool's turbulent 2025-26 season reaches a critical juncture. The defending champions sit 5th in the Premier League, yet remain alive in the Champions League quarter-finals against PSG and face Manchester City in the FA Cup on April 4. Salah has been confirmed fit by Slot ('very close, I think he will be available') and Chiesa is also cleared, while Alexander Isak returned to team training on April 2 — a potential bench option vs City. Alisson and Frimpong remain sidelined. Salah's confirmed departure at season's end overshadows everything, with the club reportedly in 'strong position' to complete a £68m double transfer raid.",
   keyTopics: [
     {
       title: "Salah Departure Confirmed",
@@ -355,9 +355,9 @@ export const NEWS_DIGEST = {
       category: "matches",
     },
     {
-      title: "Salah Expected Fit, Frimpong New Blow",
+      title: "Salah & Chiesa Confirmed Fit; Isak Back in Training",
       detail:
-        "Salah has been recovering at AXA Training Centre and is expected fit for the FA Cup quarter-final at the Etihad. However, Frimpong suffered his fourth injury of the season — a suspected hamstring issue — after just 13 minutes for the Netherlands vs Ecuador. Isak continues his return from ankle fracture and is targeting mid-April.",
+        "Arne Slot confirmed on April 2 that Mohamed Salah ('very close, I think he will be available') and Federico Chiesa are both fit for the Man City FA Cup quarter-final. Alexander Isak returned to full team training on April 2 — a possible late bench option vs City, with a more realistic return vs PSG on April 8. Frimpong and Alisson remain out.",
       category: "injuries",
     },
     {

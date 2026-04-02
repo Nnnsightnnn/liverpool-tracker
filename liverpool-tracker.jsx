@@ -73,7 +73,7 @@ function PlayerAvatar({ player, size = 64 }) {
   );
 }
 
-// ─── Player Data (2025-26 Season · Updated Apr 1, 2026) ─────────────────────
+// ─── Player Data (2025-26 Season · Updated Apr 2, 2026) ─────────────────────
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
 // injuryNote: short description shown on card when not fit
 const PLAYERS = [
@@ -104,12 +104,12 @@ const PLAYERS = [
   { id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p591386.png" },
 
   // ── Forwards ──────────────────────────────────────────────────────────────
-  { id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 34, goals: 8, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 6.8, status: "doubtful", injuryNote: "Recovering at AXA Training Centre over intl break — expected fit for Man City FA Cup (Apr 4); confirmed leaving Liverpool end of season", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png" },
+  { id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 34, goals: 8, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Confirmed fit for Man City FA Cup (Apr 4) — Slot: 'very close, I think he will be available'; confirmed leaving Liverpool end of season", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png" },
   { id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 33, goals: 8, assists: 4, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.2, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png" },
-  { id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — running on pitch, omitted from Sweden squad, targeting mid-April return", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png" },
+  { id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — returned to team training Apr 2; bench option vs Man City FA Cup (Apr 4), more likely UCL return vs PSG (Apr 8)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png" },
   { id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p510663.png" },
   { id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 8, goals: 1, assists: 0, cleanSheets: null, xG: 1.2, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 6.3, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p611922.png" },
-  { id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 5.8, status: "doubtful", injuryNote: "Withdrew from Italy squad — assessed as unavailable, fitness concern", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p230621.png" },
+  { id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Returned to training and confirmed available for Man City FA Cup (Apr 4) after withdrawing from Italy duty", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p230621.png" },
 ];
 
 // ─── RSS Feed Sources ───────────────────────────────────────────────────────
@@ -125,20 +125,20 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "This Is Anfield", title: "Jeremie Frimpong new injury nightmare: Subbed after 13 minutes for Netherlands", time: "today", category: "fan" },
-  { source: "This Is Anfield", title: "Liverpool Fixtures April 2026: Arne Slot's 6 Trophy-Defining Games", time: "today", category: "fan" },
-  { source: "Liverpool.com", title: "Jeremie Frimpong suffers fourth injury of season as Liverpool gets update", time: "today", category: "fan" },
-  { source: "This Is Anfield", title: "Salah boost, worry for Alisson: Early Liverpool FC injury news ahead of Man City FA Cup", time: "1d ago", category: "fan" },
-  { source: "Liverpool FC Official", title: "Liverpool to face Sunderland, Wrexham and Leeds on 2026 pre-season tour", time: "2d ago", category: "official" },
-  { source: "Empire of the Kop", title: "Fans kicked to the kerb as Liverpool announce ticket price increases from next season", time: "2d ago", category: "fan" },
-  { source: "ESPN", title: "Transfer rumors: Salah eyes Roma after Liverpool exit", time: "3d ago", category: "major" },
-  { source: "Liverpool FC Official", title: "Peter Crouch completes LFC Legends squad for Anfield charity match", time: "4d ago", category: "official" },
-  { source: "This Is Anfield", title: "Liverpool vs. PSG: Quarter-final dates and KO times confirmed", time: "5d ago", category: "fan" },
-  { source: "Liverpool FC Official", title: "Fixtures update: Two Premier League changes for Liverpool in April", time: "5d ago", category: "official" },
-  { source: "Empire of the Kop", title: "Liverpool's April fixture schedule has become a bit clearer after UEFA announcement", time: "5d ago", category: "fan" },
-  { source: "Liverpool FC Official", title: "Manchester City v Liverpool: FA Cup fixture details confirmed", time: "6d ago", category: "official" },
-  { source: "This Is Anfield", title: "Alisson reveals he will be out 'for a while' after latest injury blow", time: "8d ago", category: "fan" },
-  { source: "Sky Sports", title: "Brighton 2-1 Liverpool: Ekitike injured as Danny Welbeck inflicts 10th defeat on Reds", time: "10d ago", category: "major" },
+  { source: "Empire of the Kop", title: "Slot says upcoming weeks will define Liverpool's season", time: "today", category: "fan" },
+  { source: "Read Liverpool FC", title: "Arne Slot has triple injury boost but two certain to miss Manchester City clash", time: "today", category: "fan" },
+  { source: "Liverpool FC Official", title: "LFC injury update: Alisson ruled out, Salah and Chiesa confirmed fit vs Man City", time: "today", category: "official" },
+  { source: "Anfield Index", title: "Liverpool in 'strong position' to wrap up £68m double transfer raid", time: "today", category: "fan" },
+  { source: "This Is Anfield", title: "Every Liverpool player qualified for 2026 World Cup: 13 to miss pre-season start", time: "today", category: "fan" },
+  { source: "This Is Anfield", title: "Jeremie Frimpong new injury nightmare: Subbed after 13 minutes for Netherlands", time: "1d ago", category: "fan" },
+  { source: "This Is Anfield", title: "Liverpool Fixtures April 2026: Arne Slot's 6 Trophy-Defining Games", time: "1d ago", category: "fan" },
+  { source: "Liverpool FC Official", title: "Liverpool to face Sunderland, Wrexham and Leeds on 2026 pre-season tour", time: "3d ago", category: "official" },
+  { source: "Empire of the Kop", title: "Fans kicked to the kerb as Liverpool announce ticket price increases from next season", time: "3d ago", category: "fan" },
+  { source: "ESPN", title: "Transfer rumors: Salah eyes Roma after Liverpool exit", time: "4d ago", category: "major" },
+  { source: "Liverpool FC Official", title: "Peter Crouch completes LFC Legends squad for Anfield charity match", time: "5d ago", category: "official" },
+  { source: "This Is Anfield", title: "Liverpool vs. PSG: Quarter-final dates and KO times confirmed", time: "6d ago", category: "fan" },
+  { source: "Liverpool FC Official", title: "Fixtures update: Two Premier League changes for Liverpool in April", time: "6d ago", category: "official" },
+  { source: "Sky Sports", title: "Brighton 2-1 Liverpool: Danny Welbeck double inflicts another defeat on Reds", time: "11d ago", category: "major" },
   { source: "Sky Sports", title: "Mohamed Salah: Liverpool forward to leave Premier League club at end of season", time: "2w ago", category: "major" },
 ];
 
