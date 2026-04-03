@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2025-26 Season · Updated Apr 2, 2026) ────────
+// ─── Liverpool FC Player Data (2025-26 Season · Updated Apr 3, 2026) ────────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -332,80 +332,80 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-02T08:00:00Z",
+  generatedAt: "2026-04-03T12:00:00Z",
   summary:
-    "Liverpool's turbulent 2025-26 season reaches a critical juncture. The defending champions sit 5th in the Premier League, yet remain alive in the Champions League quarter-finals against PSG and face Manchester City in the FA Cup on April 4. Salah has been confirmed fit by Slot ('very close, I think he will be available') and Chiesa is also cleared, while Alexander Isak returned to team training on April 2 — a potential bench option vs City. Alisson and Frimpong remain sidelined. Salah's confirmed departure at season's end overshadows everything, with the club reportedly in 'strong position' to complete a £68m double transfer raid.",
+    "As of April 3, FSG have confirmed they are 'steadfastly behind' Arne Slot despite Liverpool's worst title defence on record, with Xabi Alonso reportedly not in the club's internal thinking despite fan demand. Alexander Isak returned to full team training on April 2, giving Slot a potential bench option for tomorrow's FA Cup quarter-final at Manchester City. Liverpool also face PSG in the Champions League quarter-finals next week, making April a season-defining month. Off the pitch, agents of RB Leipzig's Yan Diomande are in active contact with Liverpool as the club searches for a Salah replacement, though the €100m asking price remains a hurdle.",
   keyTopics: [
     {
-      title: "Salah Departure Confirmed",
+      title: "FSG Back Slot — Xabi Alonso Not in Frame",
       detail:
-        "Mohamed Salah has officially confirmed he will leave Liverpool at the end of the season, closing out a 255-goal, 9-year era. His relationship with Slot reportedly broke down after being dropped earlier in the campaign.",
-      category: "transfers",
-    },
-    {
-      title: "Title Defence in Tatters — 5th Place",
-      detail:
-        "Liverpool have fallen from champions to 5th in the Premier League, with 42 goals conceded and a gauntlet of fixtures remaining including Chelsea and Man United at Old Trafford.",
-      category: "matches",
-    },
-    {
-      title: "UCL Quarter-Final vs PSG",
-      detail:
-        "Liverpool face defending champions PSG in the Champions League quarters after a dominant 4-0 home win over Galatasaray. The Reds have won 6 of their last 8 QF ties — and the 2nd leg is at Anfield.",
-      category: "matches",
-    },
-    {
-      title: "Salah & Chiesa Confirmed Fit; Isak Back in Training",
-      detail:
-        "Arne Slot confirmed on April 2 that Mohamed Salah ('very close, I think he will be available') and Federico Chiesa are both fit for the Man City FA Cup quarter-final. Alexander Isak returned to full team training on April 2 — a possible late bench option vs City, with a more realistic return vs PSG on April 8. Frimpong and Alisson remain out.",
-      category: "injuries",
-    },
-    {
-      title: "Alisson Setback",
-      detail:
-        "Goalkeeper Alisson Becker faces uncertainty after a recent setback. There is reduced optimism about his availability for the Manchester City and PSG fixtures.",
-      category: "injuries",
-    },
-    {
-      title: "Slot Under Pressure",
-      detail:
-        "Despite public backing from the board, speculation around Xabi Alonso replacing Slot has intensified. David Ornstein reports the club intends to stick with Slot — for now.",
-      category: "tactics",
-    },
-    {
-      title: "Post-Salah Tactical Shift",
-      detail:
-        "Liverpool are reportedly considering a 4-2-2-2 formation next season, pairing Isak and Ekitike up front with Wirtz and Szoboszlai as creative 10s behind them.",
-      category: "tactics",
-    },
-    {
-      title: "Anthony Gordon Eyed as Salah Replacement",
-      detail:
-        "Liverpool are targeting Newcastle's Anthony Gordon, who may be forced out this summer. Interest in RB Leipzig's Yan Diomande also reported, though Leipzig plan to block the move.",
-      category: "transfers",
-    },
-    {
-      title: "Camara & Schlotterbeck on Radar",
-      detail:
-        "Monaco midfielder Lamine Camara (~€65-75M) and Dortmund centre-back Nico Schlotterbeck are being monitored to address midfield and defensive depth concerns.",
-      category: "transfers",
-    },
-    {
-      title: "Konate Hints at New Deal",
-      detail:
-        "Ibrahima Konate hinted at a new Liverpool contract in an ESPN interview, stating 'We have to stay together' — a positive signal for the defensive core.",
+        "Reported on April 2 by Paul Joyce: FSG remain 'steadfastly behind' Arne Slot and want him to 'emerge from the turbulence'. Despite widespread fan calls for Xabi Alonso, sources say this does not align with internal thinking. FSG cite mitigating factors including key injuries to Isak and Frimpong.",
       category: "general",
     },
     {
-      title: "Youth Academy Breakthroughs",
+      title: "Isak Back in Training — Bench Option Tomorrow",
       detail:
-        "Rio Ngumoha, 17, became Liverpool's youngest-ever scorer. Trey Nyoni is drawing Pogba comparisons. The club also signed Celtic teenager Dara Jikiemi as their 4th academy pickup of 2026.",
+        "Alexander Isak returned to full team training on April 2 after his broken leg in December. He is a possible bench option for Man City FA Cup QF tomorrow (Apr 4) but more likely to feature in the UCL QF vs PSG on April 8. First time in almost 15 weeks he could make a matchday squad.",
+      category: "injuries",
+    },
+    {
+      title: "FA Cup QF: Liverpool at Etihad — Saturday 12:45",
+      detail:
+        "Liverpool travel to Manchester City tomorrow in an FA Cup quarter-final (12:45 kick-off). City won both PL meetings this season and haven't lost at home to an English side since August. Salah and Chiesa confirmed fit; City missing Dias, Gvardiol, and Stones in defence.",
+      category: "matches",
+    },
+    {
+      title: "Yan Diomande Agents in Contact — €100m Price Tag",
+      detail:
+        "Reported on April 2 by Sky Sports' Florian Plettenberg: Liverpool remain in active contact with Yan Diomande's agents ahead of a potential summer move. Leipzig want €100m for the 19-year-old winger. Man City also working on a deal, creating a bidding war.",
+      category: "transfers",
+    },
+    {
+      title: "Frimpong Suffers 4th Injury of Season on International Duty",
+      detail:
+        "Reported April 1: Jeremie Frimpong was forced off after just 13 minutes in Netherlands' 1-1 draw with Ecuador. It's his fourth injury of the campaign. Assessment pending — likely to miss the Man City and PSG fixtures.",
+      category: "injuries",
+    },
+    {
+      title: "Konaté Expected to Stay Despite Chelsea & Man City Talks",
+      detail:
+        "Reported April 2-3: Despite both Chelsea and Man City opening exploratory contract talks with Konaté's camp, dressing room sources believe the centre-back is 'more likely to stay than leave'. Konaté himself hinted at staying by saying Liverpool will win trophies again.",
+      category: "transfers",
+    },
+    {
+      title: "UCL QF vs PSG: Leg 1 in Paris on April 8",
+      detail:
+        "Liverpool face holders PSG in the Champions League quarter-finals — first leg at the Parc des Princes (Apr 8, 8pm), second leg at Anfield (Apr 14). PSG demolished Chelsea 8-2 in the last 16 and had their Lens fixture postponed to gain extra rest.",
+      category: "matches",
+    },
+    {
+      title: "Conceição Shortlisted as Salah Replacement — €65m",
+      detail:
+        "Reported in recent days by Gazzetta dello Sport and ESPN: Liverpool have shortlisted Juventus winger Francisco Conceição as a potential Salah replacement, though he's not the top target. Juventus want around €65m. Diomande remains the leading name on the shortlist.",
+      category: "transfers",
+    },
+    {
+      title: "Liverpool Slip to 6th — 16 Points Off Arsenal",
+      detail:
+        "Liverpool have 45 points from 27 Premier League games, sitting 6th and 16 points behind leaders Arsenal (61 pts). Ten league defeats this season — their worst title-defence on record. Chelsea and Man United sit above them on the same points.",
+      category: "matches",
+    },
+    {
+      title: "Salah's Final UCL Campaign — 50-Goal Milestone",
+      detail:
+        "Salah became the first African player to reach 50 Champions League goals during the Galatasaray win in March. With his Liverpool exit confirmed, the PSG tie is likely his last European knockout campaign in red. Saudi Arabia move widely reported as most likely destination.",
       category: "general",
     },
     {
-      title: "Ticket Price Backlash",
+      title: "Pre-Season Tour: Sunderland, Wrexham & Leeds Confirmed",
       detail:
-        "Spirit of Shankly slammed Liverpool's multi-year ticket price increases despite £703M record revenue. Season tickets are approaching £1,000 — the price hikes equal just 3 weeks of Salah's wages.",
+        "Liverpool officially announced their 2026 summer pre-season tour. However, at least 13 first-team players are set to miss the start of pre-season due to 2026 World Cup participation, with the final on July 19.",
+      category: "general",
+    },
+    {
+      title: "Ticket Price Backlash Continues",
+      detail:
+        "Spirit of Shankly condemned Liverpool's multi-year season ticket price increases, announced amid a record £703m revenue year. Prices approaching £1,000 — fans point out this equals just 3 weeks of Salah's wages.",
       category: "general",
     },
   ],
@@ -416,8 +416,9 @@ export const NEWS_DIGEST = {
     "Liverpool FC Official",
     "Sky Sports",
     "Empire of the Kop",
-    "The Anfield Wrap",
-    "Spirit of Shankly",
+    "Liverpool.com",
+    "CaughtOffside",
+    "Football365",
   ],
 };
 

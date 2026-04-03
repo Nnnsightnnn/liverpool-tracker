@@ -125,21 +125,21 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Empire of the Kop", title: "Slot says upcoming weeks will define Liverpool's season", time: "today", category: "fan" },
-  { source: "Read Liverpool FC", title: "Arne Slot has triple injury boost but two certain to miss Manchester City clash", time: "today", category: "fan" },
-  { source: "Liverpool FC Official", title: "LFC injury update: Alisson ruled out, Salah and Chiesa confirmed fit vs Man City", time: "today", category: "official" },
-  { source: "Anfield Index", title: "Liverpool in 'strong position' to wrap up £68m double transfer raid", time: "today", category: "fan" },
-  { source: "This Is Anfield", title: "Every Liverpool player qualified for 2026 World Cup: 13 to miss pre-season start", time: "today", category: "fan" },
-  { source: "This Is Anfield", title: "Jeremie Frimpong new injury nightmare: Subbed after 13 minutes for Netherlands", time: "1d ago", category: "fan" },
-  { source: "This Is Anfield", title: "Liverpool Fixtures April 2026: Arne Slot's 6 Trophy-Defining Games", time: "1d ago", category: "fan" },
-  { source: "Liverpool FC Official", title: "Liverpool to face Sunderland, Wrexham and Leeds on 2026 pre-season tour", time: "3d ago", category: "official" },
-  { source: "Empire of the Kop", title: "Fans kicked to the kerb as Liverpool announce ticket price increases from next season", time: "3d ago", category: "fan" },
-  { source: "ESPN", title: "Transfer rumors: Salah eyes Roma after Liverpool exit", time: "4d ago", category: "major" },
-  { source: "Liverpool FC Official", title: "Peter Crouch completes LFC Legends squad for Anfield charity match", time: "5d ago", category: "official" },
-  { source: "This Is Anfield", title: "Liverpool vs. PSG: Quarter-final dates and KO times confirmed", time: "6d ago", category: "fan" },
-  { source: "Liverpool FC Official", title: "Fixtures update: Two Premier League changes for Liverpool in April", time: "6d ago", category: "official" },
-  { source: "Sky Sports", title: "Brighton 2-1 Liverpool: Danny Welbeck double inflicts another defeat on Reds", time: "11d ago", category: "major" },
-  { source: "Sky Sports", title: "Mohamed Salah: Liverpool forward to leave Premier League club at end of season", time: "2w ago", category: "major" },
+  { source: "This Is Anfield", title: "FSG 'steadfastly behind' Arne Slot despite turbulent season — Xabi Alonso not in internal thinking", time: "today", category: "fan" },
+  { source: "Empire of the Kop", title: "FSG now want one thing from Arne Slot as Liverpool sack decision made", time: "today", category: "fan" },
+  { source: "This Is Anfield", title: "Alexander Isak returns to team training — bench option vs Man City, more likely for PSG", time: "today", category: "fan" },
+  { source: "Liverpool.com", title: "Liverpool international break injury news: Isak returns but 5 could miss Man City", time: "today", category: "fan" },
+  { source: "Sky Sports", title: "Liverpool remain in contact with Yan Diomande's agents — €100m Leipzig price tag", time: "today", category: "major" },
+  { source: "This Is Anfield", title: "Mac Allister training absence explained, Isak and Frimpong latest — LFC news roundup", time: "today", category: "fan" },
+  { source: "CaughtOffside", title: "Liverpool given Yan Diomande transfer update as Man City also enter race", time: "1d ago", category: "fan" },
+  { source: "Empire of the Kop", title: "Paul Joyce drops massive Xabi Alonso update as Arne Slot sack future takes surprise turn", time: "1d ago", category: "fan" },
+  { source: "This Is Anfield", title: "Ibrahima Konaté contract talks: Sources expect him to stay despite Chelsea and Man City interest", time: "1d ago", category: "fan" },
+  { source: "ESPN", title: "Transfer rumors: Liverpool eye Conceição as Salah replacement — Juve want €65m", time: "2d ago", category: "major" },
+  { source: "Liverpool.com", title: "Arne Slot's true feelings on Liverpool future emerge as private admission made", time: "2d ago", category: "fan" },
+  { source: "This Is Anfield", title: "Jeremie Frimpong injury nightmare: Subbed after 13 minutes for Netherlands", time: "2d ago", category: "fan" },
+  { source: "Liverpool FC Official", title: "Liverpool to face Sunderland, Wrexham and Leeds on 2026 pre-season tour", time: "4d ago", category: "official" },
+  { source: "Sky Sports", title: "Brighton 2-1 Liverpool: Welbeck double inflicts another defeat on Reds", time: "2w ago", category: "major" },
+  { source: "Sky Sports", title: "Mohamed Salah: Liverpool forward confirms he will leave club at end of season", time: "2w ago", category: "major" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
