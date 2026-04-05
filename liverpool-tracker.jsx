@@ -125,37 +125,38 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "This Is Anfield", title: "FSG 'steadfastly behind' Arne Slot despite turbulent season — Xabi Alonso not in internal thinking", time: "today", category: "fan" },
-  { source: "Empire of the Kop", title: "FSG now want one thing from Arne Slot as Liverpool sack decision made", time: "today", category: "fan" },
-  { source: "This Is Anfield", title: "Alexander Isak returns to team training — bench option vs Man City, more likely for PSG", time: "today", category: "fan" },
-  { source: "Liverpool.com", title: "Liverpool international break injury news: Isak returns but 5 could miss Man City", time: "today", category: "fan" },
-  { source: "Sky Sports", title: "Liverpool remain in contact with Yan Diomande's agents — €100m Leipzig price tag", time: "today", category: "major" },
-  { source: "This Is Anfield", title: "Mac Allister training absence explained, Isak and Frimpong latest — LFC news roundup", time: "today", category: "fan" },
-  { source: "CaughtOffside", title: "Liverpool given Yan Diomande transfer update as Man City also enter race", time: "1d ago", category: "fan" },
-  { source: "Empire of the Kop", title: "Paul Joyce drops massive Xabi Alonso update as Arne Slot sack future takes surprise turn", time: "1d ago", category: "fan" },
-  { source: "This Is Anfield", title: "Ibrahima Konaté contract talks: Sources expect him to stay despite Chelsea and Man City interest", time: "1d ago", category: "fan" },
-  { source: "ESPN", title: "Transfer rumors: Liverpool eye Conceição as Salah replacement — Juve want €65m", time: "2d ago", category: "major" },
-  { source: "Liverpool.com", title: "Arne Slot's true feelings on Liverpool future emerge as private admission made", time: "2d ago", category: "fan" },
-  { source: "This Is Anfield", title: "Jeremie Frimpong injury nightmare: Subbed after 13 minutes for Netherlands", time: "2d ago", category: "fan" },
-  { source: "Liverpool FC Official", title: "Liverpool to face Sunderland, Wrexham and Leeds on 2026 pre-season tour", time: "4d ago", category: "official" },
-  { source: "Sky Sports", title: "Brighton 2-1 Liverpool: Welbeck double inflicts another defeat on Reds", time: "2w ago", category: "major" },
+  { source: "This Is Anfield", title: "Man City 4-0 Liverpool: FA Cup humiliation as Haaland hat-trick ends Reds' last domestic hope", time: "today", category: "fan" },
+  { source: "Sky Sports", title: "Man City 4-0 Liverpool: Haaland scores FA Cup hat-trick as Salah misses penalty in big quarter-final defeat", time: "today", category: "major" },
+  { source: "Al Jazeera", title: "Man City hammer Liverpool 4-0 in FA Cup as Haaland bags hat-trick — Semenyo also scores", time: "today", category: "major" },
+  { source: "NBC Sports", title: "Haaland's hat trick leads City to FA Cup semifinal as Liverpool's domestic campaign ends", time: "today", category: "major" },
+  { source: "ESPN", title: "Man City 4-0 Liverpool: Salah returns from injury but misses penalty in humbling defeat", time: "today", category: "major" },
+  { source: "This Is Anfield", title: "Alisson long-term injury confirmed: Out vs PSG, back 'towards end of season'", time: "1d ago", category: "fan" },
+  { source: "Liverpool FC Official", title: "LFC injury update: Alisson, Chiesa, Frimpong and Salah latest ahead of Man City", time: "1d ago", category: "official" },
+  { source: "This Is Anfield", title: "FSG 'steadfastly behind' Arne Slot despite turbulent season — Xabi Alonso not in internal thinking", time: "2d ago", category: "fan" },
+  { source: "Sky Sports", title: "Liverpool remain in contact with Yan Diomande's agents — €100m Leipzig price tag", time: "2d ago", category: "major" },
+  { source: "This Is Anfield", title: "Konaté expected to stay despite Chelsea and Man City interest — contract talks ongoing", time: "2d ago", category: "fan" },
+  { source: "Empire of the Kop", title: "Liverpool discover brutal April schedule as PSG Champions League QF fixtures confirmed", time: "3d ago", category: "fan" },
+  { source: "ESPN", title: "Transfer rumors: Liverpool eye Conceição as Salah replacement — Juve want €65m", time: "4d ago", category: "major" },
+  { source: "This Is Anfield", title: "Jeremie Frimpong injury nightmare: Subbed after 13 minutes for Netherlands", time: "4d ago", category: "fan" },
   { source: "Sky Sports", title: "Mohamed Salah: Liverpool forward confirms he will leave club at end of season", time: "2w ago", category: "major" },
+  { source: "Liverpool FC Official", title: "Liverpool to face Sunderland, Wrexham and Leeds on 2026 pre-season tour", time: "5d ago", category: "official" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
 const NEXT_MATCH = {
-  opponent: "Manchester City",
-  shortName: "Man City",
+  opponent: "Paris Saint-Germain",
+  shortName: "PSG",
   home: false,
-  date: "2026-04-04T12:45:00",
-  competition: "FA",
-  venue: "Etihad Stadium",
-  broadcast: "BBC One",
+  date: "2026-04-08T20:00:00",
+  competition: "UCL",
+  venue: "Parc des Princes",
+  broadcast: "TNT Sports",
 };
 
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
 // result: "W" | "D" | "L"
 const RESULTS = [
+  { date: "2026-04-04", opponent: "Man City",     home: false, score: "0-4", competition: "FA",   result: "L", scorers: "" },
   { date: "2026-03-21", opponent: "Brighton",     home: false, score: "1-2", competition: "PL",   result: "L", scorers: "Kerkez" },
   { date: "2026-03-18", opponent: "Galatasaray", home: true,  score: "4-0", competition: "UCL",  result: "W", scorers: "Szoboszlai, Ekitike, Gravenberch, Salah" },
   { date: "2026-03-15", opponent: "Tottenham",   home: true,  score: "1-1", competition: "PL",   result: "D", scorers: "Gakpo" },

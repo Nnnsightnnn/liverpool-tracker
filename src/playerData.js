@@ -6,7 +6,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "injured", injuryNote: "Muscle injury — out 'for a while', return date uncertain", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "injured", injuryNote: "Hamstring injury — ruled out of PSG ties, return expected 'towards end of season'", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -85,7 +85,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 31, goals: 1, assists: 4, cleanSheets: 6, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.9, status: "injured", injuryNote: "Hamstring injury on international duty (Apr 1) — fourth injury this season, assessment pending", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 31, goals: 1, assists: 4, cleanSheets: 6, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.9, status: "fit", injuryNote: "Returned from international duty scare (Apr 1) — cleared to play, available for selection", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -222,7 +222,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — returned to team training Apr 2; bench option vs Man City FA Cup (Apr 4), more likely UCL return vs PSG (Apr 8)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — unused sub vs Man City FA Cup (Apr 4); expected to feature vs PSG UCL QF (Apr 8)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -300,18 +300,19 @@ export const TEAM_LOGOS = {
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
 export const NEXT_MATCH = {
-  opponent: "Manchester City",
-  shortName: "Man City",
+  opponent: "Paris Saint-Germain",
+  shortName: "PSG",
   home: false,
-  date: "2026-04-04T12:45:00",
-  competition: "FA",
-  venue: "Etihad Stadium",
-  broadcast: "BBC One",
+  date: "2026-04-08T20:00:00",
+  competition: "UCL",
+  venue: "Parc des Princes",
+  broadcast: "TNT Sports",
 };
 
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
 // result: "W" | "D" | "L"
 export const RESULTS = [
+  { date: "2026-04-04", opponent: "Man City",     home: false, score: "0-4", competition: "FA",   result: "L", scorers: "" },
   { date: "2026-03-21", opponent: "Brighton",     home: false, score: "1-2", competition: "PL",   result: "L", scorers: "Kerkez" },
   { date: "2026-03-18", opponent: "Galatasaray", home: true,  score: "4-0", competition: "UCL",  result: "W", scorers: "Szoboszlai, Ekitike, Gravenberch, Salah" },
   { date: "2026-03-15", opponent: "Tottenham",   home: true,  score: "1-1", competition: "PL",   result: "D", scorers: "Gakpo" },
@@ -332,10 +333,40 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-03T12:00:00Z",
+  generatedAt: "2026-04-05T12:00:00Z",
   summary:
-    "As of April 3, FSG have confirmed they are 'steadfastly behind' Arne Slot despite Liverpool's worst title defence on record, with Xabi Alonso reportedly not in the club's internal thinking despite fan demand. Alexander Isak returned to full team training on April 2, giving Slot a potential bench option for tomorrow's FA Cup quarter-final at Manchester City. Liverpool also face PSG in the Champions League quarter-finals next week, making April a season-defining month. Off the pitch, agents of RB Leipzig's Yan Diomande are in active contact with Liverpool as the club searches for a Salah replacement, though the €100m asking price remains a hurdle.",
+    "As of April 5, Liverpool's domestic cup hopes are over after a humiliating 4-0 defeat at Manchester City in the FA Cup quarter-final yesterday, with Erling Haaland scoring a hat-trick and Mohamed Salah missing a penalty on his return from injury. Attention now turns entirely to the Champions League, with Liverpool travelling to Paris to face defending champions PSG in the quarter-final first leg on Wednesday April 8. Alisson has been ruled out long-term with a hamstring injury, leaving Mamardashvili in goal for the foreseeable future. Alexander Isak was an unused substitute at the Etihad but could feature against PSG as he nears full fitness after his broken leg in December.",
   keyTopics: [
+    {
+      title: "FA Cup Humiliation: Man City 4-0 Liverpool",
+      detail:
+        "Played April 4: Liverpool suffered their heaviest defeat of the season as Erling Haaland scored a hat-trick (39' pen, 45+2', 57') and Antoine Semenyo added a fourth (50') in the FA Cup quarter-final at the Etihad. Mohamed Salah returned from injury but had a penalty saved by James Trafford in the 64th minute. Virgil van Dijk conceded the penalty for the opener after fouling Nico O'Reilly. Liverpool's last domestic trophy hope is now gone.",
+      category: "matches",
+    },
+    {
+      title: "UCL QF vs PSG: First Leg Wednesday April 8",
+      detail:
+        "Liverpool's season now hinges entirely on the Champions League. The first leg is away at the Parc des Princes on Wednesday April 8 (8pm BST), with the second leg at Anfield on April 14. PSG are the defending champions and thrashed Chelsea 8-2 in the last 16. The winner faces Real Madrid or Bayern Munich in the semis.",
+      category: "matches",
+    },
+    {
+      title: "Alisson Ruled Out Long-Term — Hamstring Injury",
+      detail:
+        "Confirmed April 3-4: Alisson has suffered another hamstring injury following the 4-0 win over Galatasaray on March 18. Arne Slot confirmed he will miss the PSG ties and is not expected back until 'towards the end of the season'. Mamardashvili will deputise for the foreseeable future.",
+      category: "injuries",
+    },
+    {
+      title: "Isak Unused Sub at Etihad — PSG Return Likely",
+      detail:
+        "Alexander Isak was named on the bench for the Man City FA Cup tie on April 4 but was not brought on during the 4-0 defeat. Having returned to team training on April 2 after more than 100 days out with a broken leg, he is more likely to feature in the UCL quarter-final against PSG on April 8.",
+      category: "injuries",
+    },
+    {
+      title: "Salah Returns but Misses Penalty at Etihad",
+      detail:
+        "Mohamed Salah made his first appearance since announcing his departure from the club in the summer, starting in the FA Cup quarter-final at Man City. However, his penalty in the 64th minute was saved by James Trafford. Salah had missed the Brighton defeat with a muscle injury prior to the international break.",
+      category: "matches",
+    },
     {
       title: "FSG Back Slot — Xabi Alonso Not in Frame",
       detail:
@@ -343,57 +374,39 @@ export const NEWS_DIGEST = {
       category: "general",
     },
     {
-      title: "Isak Back in Training — Bench Option Tomorrow",
-      detail:
-        "Alexander Isak returned to full team training on April 2 after his broken leg in December. He is a possible bench option for Man City FA Cup QF tomorrow (Apr 4) but more likely to feature in the UCL QF vs PSG on April 8. First time in almost 15 weeks he could make a matchday squad.",
-      category: "injuries",
-    },
-    {
-      title: "FA Cup QF: Liverpool at Etihad — Saturday 12:45",
-      detail:
-        "Liverpool travel to Manchester City tomorrow in an FA Cup quarter-final (12:45 kick-off). City won both PL meetings this season and haven't lost at home to an English side since August. Salah and Chiesa confirmed fit; City missing Dias, Gvardiol, and Stones in defence.",
-      category: "matches",
-    },
-    {
       title: "Yan Diomande Agents in Contact — €100m Price Tag",
       detail:
-        "Reported on April 2 by Sky Sports' Florian Plettenberg: Liverpool remain in active contact with Yan Diomande's agents ahead of a potential summer move. Leipzig want €100m for the 19-year-old winger. Man City also working on a deal, creating a bidding war.",
+        "Reported April 2 by Sky Sports: Liverpool remain in active contact with Yan Diomande's agents ahead of a potential summer move. Leipzig want €100m for the 19-year-old. Man City also working on a deal. Other targets include Barcelona's Alejandro Balde and PSG's Khvicha Kvaratskhelia.",
       category: "transfers",
-    },
-    {
-      title: "Frimpong Suffers 4th Injury of Season on International Duty",
-      detail:
-        "Reported April 1: Jeremie Frimpong was forced off after just 13 minutes in Netherlands' 1-1 draw with Ecuador. It's his fourth injury of the campaign. Assessment pending — likely to miss the Man City and PSG fixtures.",
-      category: "injuries",
     },
     {
       title: "Konaté Expected to Stay Despite Chelsea & Man City Talks",
       detail:
-        "Reported April 2-3: Despite both Chelsea and Man City opening exploratory contract talks with Konaté's camp, dressing room sources believe the centre-back is 'more likely to stay than leave'. Konaté himself hinted at staying by saying Liverpool will win trophies again.",
+        "Reported April 2-3: Despite both Chelsea and Man City opening exploratory contract talks with Konaté's camp, dressing room sources believe the centre-back is 'more likely to stay than leave'. Szoboszlai's extension is also progressing well.",
       category: "transfers",
     },
     {
-      title: "UCL QF vs PSG: Leg 1 in Paris on April 8",
+      title: "Frimpong Back Available After International Scare",
       detail:
-        "Liverpool face holders PSG in the Champions League quarter-finals — first leg at the Parc des Princes (Apr 8, 8pm), second leg at Anfield (Apr 14). PSG demolished Chelsea 8-2 in the last 16 and had their Lens fixture postponed to gain extra rest.",
-      category: "matches",
+        "Reported April 3-4: Jeremie Frimpong, who was subbed off after just 13 minutes for Netherlands on April 1, has been cleared to play. He was available for the Man City FA Cup tie. His fourth injury scare of the season proved to be minor.",
+      category: "injuries",
     },
     {
       title: "Conceição Shortlisted as Salah Replacement — €65m",
       detail:
-        "Reported in recent days by Gazzetta dello Sport and ESPN: Liverpool have shortlisted Juventus winger Francisco Conceição as a potential Salah replacement, though he's not the top target. Juventus want around €65m. Diomande remains the leading name on the shortlist.",
+        "Reported in recent days by ESPN: Liverpool have shortlisted Juventus winger Francisco Conceição as a potential Salah replacement. Juventus want around €65m. Diomande and Kvaratskhelia also on the shortlist as Liverpool plan life after Salah.",
       category: "transfers",
     },
     {
-      title: "Liverpool Slip to 6th — 16 Points Off Arsenal",
+      title: "Liverpool 5th in PL — 49 Points from 31 Games",
       detail:
-        "Liverpool have 45 points from 27 Premier League games, sitting 6th and 16 points behind leaders Arsenal (61 pts). Ten league defeats this season — their worst title-defence on record. Chelsea and Man United sit above them on the same points.",
+        "Liverpool sit 5th in the Premier League with 49 points from 31 matches (14W 7D 10L). The FA Cup and Champions League were the Reds' only remaining hopes of silverware — now only the UCL remains. Next PL fixture is Fulham at home on April 11.",
       category: "matches",
     },
     {
       title: "Salah's Final UCL Campaign — 50-Goal Milestone",
       detail:
-        "Salah became the first African player to reach 50 Champions League goals during the Galatasaray win in March. With his Liverpool exit confirmed, the PSG tie is likely his last European knockout campaign in red. Saudi Arabia move widely reported as most likely destination.",
+        "Salah became the first African player to reach 50 Champions League goals during the Galatasaray win in March. With his Liverpool exit confirmed for this summer, the PSG tie is likely his last European knockout campaign in red.",
       category: "general",
     },
     {
@@ -411,14 +424,14 @@ export const NEWS_DIGEST = {
   ],
   sources: [
     "This Is Anfield",
-    "BBC Sport",
-    "ESPN FC",
-    "Liverpool FC Official",
     "Sky Sports",
+    "ESPN",
+    "Liverpool FC Official",
+    "Al Jazeera",
+    "NBC Sports",
     "Empire of the Kop",
     "Liverpool.com",
-    "CaughtOffside",
-    "Football365",
+    "The FA",
   ],
 };
 
