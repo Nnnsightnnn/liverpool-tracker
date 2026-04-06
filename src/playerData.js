@@ -333,105 +333,94 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-05T12:00:00Z",
+  generatedAt: "2026-04-06T13:00:00Z",
   summary:
-    "As of April 5, Liverpool's domestic cup hopes are over after a humiliating 4-0 defeat at Manchester City in the FA Cup quarter-final yesterday, with Erling Haaland scoring a hat-trick and Mohamed Salah missing a penalty on his return from injury. Attention now turns entirely to the Champions League, with Liverpool travelling to Paris to face defending champions PSG in the quarter-final first leg on Wednesday April 8. Alisson has been ruled out long-term with a hamstring injury, leaving Mamardashvili in goal for the foreseeable future. Alexander Isak was an unused substitute at the Etihad but could feature against PSG as he nears full fitness after his broken leg in December.",
+    "As of Monday April 6, the biggest Liverpool story is the dramatic shift on Arne Slot's future: TeamTalk and Football365 both report overnight that FSG have brought forward a 'review' of the Dutchman after Saturday's 4-0 humiliation at Manchester City, with Xabi Alonso now openly named the 'favourite' to take over and Jurgen Klopp reportedly 'waiting in the wings' for a sensational return. Attention on the pitch turns entirely to Wednesday's Champions League quarter-final first leg at the Parc des Princes against defending champions PSG (8pm BST), with Liverpool's away allocation officially increased to 2,376 after Paris aligned with UEFA rules. Alisson remains ruled out long-term and Mamardashvili will start in goal, while Alexander Isak — an unused sub at the Etihad — is in contention to feature in Paris. Liverpool's season now hinges on a single competition.",
   keyTopics: [
+    {
+      title: "FSG Bring Forward Slot 'Review' — Pressure At All-Time High",
+      detail:
+        "Reported overnight April 5-6 by TeamTalk: Fenway Sports Group have brought forward an internal review of Arne Slot's future after Saturday's 4-0 humiliation at the Etihad. Pressure on the Dutchman is described as 'all-time high' following 10 Premier League defeats this season. This is a sharp reversal from last week's 'steadfastly behind' briefing — and is the biggest story of the day.",
+      category: "general",
+    },
+    {
+      title: "Klopp 'Waiting' For Liverpool Return as Alonso Tipped as Favourite",
+      detail:
+        "Reported today April 6 by Football365 and Liverpool.com: Jurgen Klopp is reportedly 'waiting in the wings' for a sensational Anfield return, while Xabi Alonso — currently out of work after his Real Madrid sacking earlier this year — has been named the 'favourite' to take over. Sky Sports' Paul Joyce gave a live on-air update on Slot's future following the Man City defeat.",
+      category: "general",
+    },
+    {
+      title: "Etihad Fallout: Fans Sing Alonso's Name as Supporters Walk Out",
+      detail:
+        "Reported April 5: Large numbers of Liverpool supporters left Saturday's 4-0 defeat at Manchester City early, with travelling fans audibly chanting Xabi Alonso's name in the away end during the second half. The mood among the fanbase has shifted decisively against Slot in the past 48 hours.",
+      category: "general",
+    },
+    {
+      title: "PSG Quarter-Final First Leg Wednesday — Away Allocation Boosted",
+      detail:
+        "Confirmed today April 6 by Liverpool FC and Anfield Index: Paris authorities have aligned with UEFA regulations and increased Liverpool's away allocation at the Parc des Princes to 2,376 (up from roughly 2,000). The first leg kicks off Wednesday April 8 at 8pm BST, with the return at Anfield on Tuesday April 14. PSG eliminated Liverpool on penalties at this same stage last season.",
+      category: "matches",
+    },
+    {
+      title: "UEFA Match Preview: Kvaratskhelia and Szoboszlai the Key Men",
+      detail:
+        "Published April 5 by UEFA.com: The official preview highlights Khvicha Kvaratskhelia (4 goals in his last 3 UCL knockout games for PSG) as the chief threat. Liverpool will lean on Mohamed Salah — first African player to 50 UCL goals — and in-form Dominik Szoboszlai, who has scored in five of his last eight UCL appearances. Slot can take heart from Liverpool winning six of their last eight UCL quarter-final ties.",
+      category: "matches",
+    },
     {
       title: "FA Cup Humiliation: Man City 4-0 Liverpool",
       detail:
-        "Played April 4: Liverpool suffered their heaviest defeat of the season as Erling Haaland scored a hat-trick (39' pen, 45+2', 57') and Antoine Semenyo added a fourth (50') in the FA Cup quarter-final at the Etihad. Mohamed Salah returned from injury but had a penalty saved by James Trafford in the 64th minute. Virgil van Dijk conceded the penalty for the opener after fouling Nico O'Reilly. Liverpool's last domestic trophy hope is now gone.",
+        "Played Saturday April 4: Liverpool suffered their heaviest defeat of the season as Erling Haaland scored a hat-trick and Antoine Semenyo added a fourth in the FA Cup quarter-final at the Etihad. Mohamed Salah returned from injury but had his 64th-minute penalty saved by James Trafford. Liverpool's last domestic trophy hope is gone — only the Champions League remains.",
       category: "matches",
     },
     {
-      title: "UCL QF vs PSG: First Leg Wednesday April 8",
+      title: "Alisson 'In Treatment Phase' — Targeting Late-April Return",
       detail:
-        "Liverpool's season now hinges entirely on the Champions League. The first leg is away at the Parc des Princes on Wednesday April 8 (8pm BST), with the second leg at Anfield on April 14. PSG are the defending champions and thrashed Chelsea 8-2 in the last 16. The winner faces Real Madrid or Bayern Munich in the semis.",
-      category: "matches",
-    },
-    {
-      title: "Alisson Ruled Out Long-Term — Hamstring Injury",
-      detail:
-        "Confirmed April 3-4: Alisson has suffered another hamstring injury following the 4-0 win over Galatasaray on March 18. Arne Slot confirmed he will miss the PSG ties and is not expected back until 'towards the end of the season'. Mamardashvili will deputise for the foreseeable future.",
+        "Update April 4-5: Alisson posted on social media confirming 'I didn't suffer a new injury. I'm in the treatment phase, and the plan is to be in full playing condition by the end of April.' He will miss both legs against PSG. Mamardashvili will continue to deputise.",
       category: "injuries",
     },
     {
-      title: "Isak Unused Sub at Etihad — PSG Return Likely",
+      title: "Isak Pushing for PSG Return After Etihad Bench Role",
       detail:
-        "Alexander Isak was named on the bench for the Man City FA Cup tie on April 4 but was not brought on during the 4-0 defeat. Having returned to team training on April 2 after more than 100 days out with a broken leg, he is more likely to feature in the UCL quarter-final against PSG on April 8.",
+        "Reported April 4-5: Alexander Isak was an unused substitute at Manchester City but is back in full training after more than 100 days out with a broken leg suffered against Tottenham in December. He is firmly in contention for a comeback role against PSG on Wednesday and could provide a much-needed attacking spark.",
       category: "injuries",
     },
     {
-      title: "Salah Returns but Misses Penalty at Etihad",
+      title: "Conceição Shortlisted as Salah Replacement",
       detail:
-        "Mohamed Salah made his first appearance since announcing his departure from the club in the summer, starting in the FA Cup quarter-final at Man City. However, his penalty in the 64th minute was saved by James Trafford. Salah had missed the Brighton defeat with a muscle injury prior to the international break.",
+        "Reported this week by ESPN: Liverpool have shortlisted 23-year-old Juventus winger Francisco Conceição as a potential replacement for the departing Mohamed Salah. The Portugal international has six Serie A goal involvements this season and is under contract until 2030 after a €32m move from Porto last summer.",
+      category: "transfers",
+    },
+    {
+      title: "Diomande Agent Contact Continues — Summer Target",
+      detail:
+        "Reported this week by Sky Sports: Liverpool remain in active contact with the agents of RB Leipzig's 19-year-old Yan Diomande ahead of a potential summer move. The Reds are also said to be monitoring Inter Milan's Nicolò Barella as part of a wider midfield refresh.",
+      category: "transfers",
+    },
+    {
+      title: "Gakpo, Mac Allister, Gomez & Chiesa on Summer Exit List",
+      detail:
+        "Reported April 2-3 by Liverpool.com: With Salah's exit already confirmed, club bosses are preparing to offload at least four further first-team players this summer. Cody Gakpo and Alexis Mac Allister are reportedly available, alongside long-serving defender Joe Gomez and Italian winger Federico Chiesa, as part of a major rebuild.",
+      category: "transfers",
+    },
+    {
+      title: "Liverpool 5th in PL — Title Defence Long Over",
+      detail:
+        "Liverpool remain 5th in the Premier League with 49 points from 31 matches and 10 league defeats — the worst points-per-game tally for a defending champion in the modern era. The Champions League is now the only realistic route to silverware. Next PL fixture: Fulham at home on April 11.",
       category: "matches",
-    },
-    {
-      title: "FSG Back Slot — Xabi Alonso Not in Frame",
-      detail:
-        "Reported on April 2 by Paul Joyce: FSG remain 'steadfastly behind' Arne Slot and want him to 'emerge from the turbulence'. Despite widespread fan calls for Xabi Alonso, sources say this does not align with internal thinking. FSG cite mitigating factors including key injuries to Isak and Frimpong.",
-      category: "general",
-    },
-    {
-      title: "Yan Diomande Agents in Contact — €100m Price Tag",
-      detail:
-        "Reported April 2 by Sky Sports: Liverpool remain in active contact with Yan Diomande's agents ahead of a potential summer move. Leipzig want €100m for the 19-year-old. Man City also working on a deal. Other targets include Barcelona's Alejandro Balde and PSG's Khvicha Kvaratskhelia.",
-      category: "transfers",
-    },
-    {
-      title: "Konaté Expected to Stay Despite Chelsea & Man City Talks",
-      detail:
-        "Reported April 2-3: Despite both Chelsea and Man City opening exploratory contract talks with Konaté's camp, dressing room sources believe the centre-back is 'more likely to stay than leave'. Szoboszlai's extension is also progressing well.",
-      category: "transfers",
-    },
-    {
-      title: "Frimpong Back Available After International Scare",
-      detail:
-        "Reported April 3-4: Jeremie Frimpong, who was subbed off after just 13 minutes for Netherlands on April 1, has been cleared to play. He was available for the Man City FA Cup tie. His fourth injury scare of the season proved to be minor.",
-      category: "injuries",
-    },
-    {
-      title: "Conceição Shortlisted as Salah Replacement — €65m",
-      detail:
-        "Reported in recent days by ESPN: Liverpool have shortlisted Juventus winger Francisco Conceição as a potential Salah replacement. Juventus want around €65m. Diomande and Kvaratskhelia also on the shortlist as Liverpool plan life after Salah.",
-      category: "transfers",
-    },
-    {
-      title: "Liverpool 5th in PL — 49 Points from 31 Games",
-      detail:
-        "Liverpool sit 5th in the Premier League with 49 points from 31 matches (14W 7D 10L). The FA Cup and Champions League were the Reds' only remaining hopes of silverware — now only the UCL remains. Next PL fixture is Fulham at home on April 11.",
-      category: "matches",
-    },
-    {
-      title: "Salah's Final UCL Campaign — 50-Goal Milestone",
-      detail:
-        "Salah became the first African player to reach 50 Champions League goals during the Galatasaray win in March. With his Liverpool exit confirmed for this summer, the PSG tie is likely his last European knockout campaign in red.",
-      category: "general",
-    },
-    {
-      title: "Pre-Season Tour: Sunderland, Wrexham & Leeds Confirmed",
-      detail:
-        "Liverpool officially announced their 2026 summer pre-season tour. However, at least 13 first-team players are set to miss the start of pre-season due to 2026 World Cup participation, with the final on July 19.",
-      category: "general",
-    },
-    {
-      title: "Ticket Price Backlash Continues",
-      detail:
-        "Spirit of Shankly condemned Liverpool's multi-year season ticket price increases, announced amid a record £703m revenue year. Prices approaching £1,000 — fans point out this equals just 3 weeks of Salah's wages.",
-      category: "general",
     },
   ],
   sources: [
+    "TeamTalk",
+    "Football365",
+    "Liverpool.com",
+    "GiveMeSport",
+    "Anfield Index",
+    "UEFA.com",
     "This Is Anfield",
     "Sky Sports",
     "ESPN",
     "Liverpool FC Official",
-    "Al Jazeera",
-    "NBC Sports",
-    "Empire of the Kop",
-    "Liverpool.com",
-    "The FA",
   ],
 };
 

@@ -125,21 +125,21 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "This Is Anfield", title: "Man City 4-0 Liverpool: FA Cup humiliation as Haaland hat-trick ends Reds' last domestic hope", time: "today", category: "fan" },
-  { source: "Sky Sports", title: "Man City 4-0 Liverpool: Haaland scores FA Cup hat-trick as Salah misses penalty in big quarter-final defeat", time: "today", category: "major" },
-  { source: "Al Jazeera", title: "Man City hammer Liverpool 4-0 in FA Cup as Haaland bags hat-trick — Semenyo also scores", time: "today", category: "major" },
-  { source: "NBC Sports", title: "Haaland's hat trick leads City to FA Cup semifinal as Liverpool's domestic campaign ends", time: "today", category: "major" },
-  { source: "ESPN", title: "Man City 4-0 Liverpool: Salah returns from injury but misses penalty in humbling defeat", time: "today", category: "major" },
-  { source: "This Is Anfield", title: "Alisson long-term injury confirmed: Out vs PSG, back 'towards end of season'", time: "1d ago", category: "fan" },
-  { source: "Liverpool FC Official", title: "LFC injury update: Alisson, Chiesa, Frimpong and Salah latest ahead of Man City", time: "1d ago", category: "official" },
-  { source: "This Is Anfield", title: "FSG 'steadfastly behind' Arne Slot despite turbulent season — Xabi Alonso not in internal thinking", time: "2d ago", category: "fan" },
-  { source: "Sky Sports", title: "Liverpool remain in contact with Yan Diomande's agents — €100m Leipzig price tag", time: "2d ago", category: "major" },
-  { source: "This Is Anfield", title: "Konaté expected to stay despite Chelsea and Man City interest — contract talks ongoing", time: "2d ago", category: "fan" },
-  { source: "Empire of the Kop", title: "Liverpool discover brutal April schedule as PSG Champions League QF fixtures confirmed", time: "3d ago", category: "fan" },
-  { source: "ESPN", title: "Transfer rumors: Liverpool eye Conceição as Salah replacement — Juve want €65m", time: "4d ago", category: "major" },
-  { source: "This Is Anfield", title: "Jeremie Frimpong injury nightmare: Subbed after 13 minutes for Netherlands", time: "4d ago", category: "fan" },
+  { source: "TeamTalk", title: "FSG bring forward Arne Slot 'review' as pressure hits all-time high after Etihad humiliation", time: "today", category: "major" },
+  { source: "Football365", title: "Liverpool make Slot sack decision as Xabi Alonso named 'favourite' with Klopp 'waiting' to return", time: "today", category: "major" },
+  { source: "Liverpool.com", title: "Jurgen Klopp 'waiting' for Liverpool return as pressure grows on Arne Slot", time: "today", category: "fan" },
+  { source: "GiveMeSport", title: "Sky Sports journalist shares Arne Slot future update live on air after Man City defeat", time: "today", category: "major" },
+  { source: "Anfield Index", title: "Unprecedented number of Liverpool fans set to watch Champions League tie with PSG", time: "today", category: "fan" },
+  { source: "Liverpool FC Official", title: "Away allocation increased to 2,376 for PSG quarter-final as Paris aligns with UEFA rules", time: "today", category: "official" },
+  { source: "UEFA.com", title: "Paris vs Liverpool Champions League preview: Where to watch, predicted line-ups, key men", time: "1d ago", category: "major" },
+  { source: "This Is Anfield", title: "Etihad fallout: Liverpool fans sing Xabi Alonso's name as supporters leave Man City rout early", time: "1d ago", category: "fan" },
+  { source: "Liverpool.com", title: "Xabi Alonso 'demands three signings' to take Liverpool job as agent addresses links", time: "1d ago", category: "fan" },
+  { source: "This Is Anfield", title: "Alisson long-term injury confirmed: Out vs PSG, back 'towards end of season'", time: "2d ago", category: "fan" },
+  { source: "Sky Sports", title: "Alisson 'in treatment phase' — Brazil keeper targets late-April return", time: "2d ago", category: "major" },
+  { source: "ESPN", title: "Transfer rumors: Liverpool eye Juventus winger Conceição as Salah replacement", time: "3d ago", category: "major" },
+  { source: "Sky Sports", title: "Liverpool remain in contact with Yan Diomande's agents ahead of summer window", time: "3d ago", category: "major" },
+  { source: "Liverpool.com", title: "Gakpo, Mac Allister, Gomez and Chiesa on Liverpool's summer exit list as squad rebuild looms", time: "4d ago", category: "fan" },
   { source: "Sky Sports", title: "Mohamed Salah: Liverpool forward confirms he will leave club at end of season", time: "2w ago", category: "major" },
-  { source: "Liverpool FC Official", title: "Liverpool to face Sunderland, Wrexham and Leeds on 2026 pre-season tour", time: "5d ago", category: "official" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
