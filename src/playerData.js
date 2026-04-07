@@ -333,26 +333,38 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-06T13:00:00Z",
+  generatedAt: "2026-04-07T14:00:00Z",
   summary:
-    "As of Monday April 6, the biggest Liverpool story is the dramatic shift on Arne Slot's future: TeamTalk and Football365 both report overnight that FSG have brought forward a 'review' of the Dutchman after Saturday's 4-0 humiliation at Manchester City, with Xabi Alonso now openly named the 'favourite' to take over and Jurgen Klopp reportedly 'waiting in the wings' for a sensational return. Attention on the pitch turns entirely to Wednesday's Champions League quarter-final first leg at the Parc des Princes against defending champions PSG (8pm BST), with Liverpool's away allocation officially increased to 2,376 after Paris aligned with UEFA rules. Alisson remains ruled out long-term and Mamardashvili will start in goal, while Alexander Isak — an unused sub at the Etihad — is in contention to feature in Paris. Liverpool's season now hinges on a single competition.",
+    "As of Tuesday April 7, the biggest Liverpool story is breaking: Arne Slot has reportedly offered to resign as Liverpool manager, with FootballTransfers and Football365 reporting overnight that the Dutchman is willing to step down 'on the right terms' following an emergency FSG summit after Saturday's 4-0 FA Cup humiliation at Manchester City. Captain Virgil van Dijk has publicly accused his teammates of having 'given up' during the Etihad rout, intensifying the dressing-room crisis. Attention on the pitch now turns entirely to Wednesday's Champions League quarter-final first leg at the Parc des Princes against PSG (8pm BST), with the away allocation increased to 2,376. Alisson remains ruled out until late April and Mamardashvili will start in goal; Jeremie Frimpong returned from a Netherlands injury scare and is fit to feature. Slot's job — and Liverpool's entire season — now rests on the next two weeks.",
   keyTopics: [
+    {
+      title: "BREAKING: Slot Offers To Resign As Liverpool Manager",
+      detail:
+        "Reported overnight April 6-7 by FootballTransfers, Football365 and Livescore: Arne Slot has handed Liverpool a formal offer to resign, willing to step down 'on the right terms' at the end of the season after an emergency FSG summit. The offer follows Saturday's 4-0 FA Cup humiliation at Manchester City and is the single biggest Anfield story of the day.",
+      category: "general",
+    },
+    {
+      title: "Van Dijk: 'We Gave Up' During Man City Rout",
+      detail:
+        "Reported today April 7 by Sky Sports: Captain Virgil van Dijk has publicly accused his teammates of 'giving up' during Saturday's 4-0 FA Cup defeat at the Etihad. Dominik Szoboszlai backed up the criticism, claiming the squad 'lacked the mentality to recover' after Haaland's opener — a damning dressing-room verdict that has piled pressure on Slot.",
+      category: "general",
+    },
+    {
+      title: "Anfield Index: Slot Faces 'Defining Two Weeks'",
+      detail:
+        "Published today April 7 by Anfield Index: With the PSG first leg on Wednesday and the return at Anfield on April 14, the next two weeks will decide Slot's future. FSG sources say they will only finalise their position on the manager AFTER the second leg against PSG — making the Champions League tie effectively a referendum on his job.",
+      category: "general",
+    },
     {
       title: "FSG Bring Forward Slot 'Review' — Pressure At All-Time High",
       detail:
-        "Reported overnight April 5-6 by TeamTalk: Fenway Sports Group have brought forward an internal review of Arne Slot's future after Saturday's 4-0 humiliation at the Etihad. Pressure on the Dutchman is described as 'all-time high' following 10 Premier League defeats this season. This is a sharp reversal from last week's 'steadfastly behind' briefing — and is the biggest story of the day.",
+        "Reported April 5-6 by TeamTalk: Fenway Sports Group have brought forward their internal review of Slot's future after the Etihad humiliation. Pressure on the Dutchman is described as 'all-time high' following 10 Premier League defeats — a sharp reversal from last week's 'steadfastly behind' briefing.",
       category: "general",
     },
     {
       title: "Klopp 'Waiting' For Liverpool Return as Alonso Tipped as Favourite",
       detail:
-        "Reported today April 6 by Football365 and Liverpool.com: Jurgen Klopp is reportedly 'waiting in the wings' for a sensational Anfield return, while Xabi Alonso — currently out of work after his Real Madrid sacking earlier this year — has been named the 'favourite' to take over. Sky Sports' Paul Joyce gave a live on-air update on Slot's future following the Man City defeat.",
-      category: "general",
-    },
-    {
-      title: "Etihad Fallout: Fans Sing Alonso's Name as Supporters Walk Out",
-      detail:
-        "Reported April 5: Large numbers of Liverpool supporters left Saturday's 4-0 defeat at Manchester City early, with travelling fans audibly chanting Xabi Alonso's name in the away end during the second half. The mood among the fanbase has shifted decisively against Slot in the past 48 hours.",
+        "Reported April 6 by Football365 and Liverpool.com: Jurgen Klopp is reportedly 'waiting in the wings' for a sensational Anfield return, while Xabi Alonso — out of work after his Real Madrid sacking earlier this year — has been named the favourite to take over. Luis Enrique and Julian Nagelsmann are also in the conversation.",
       category: "general",
     },
     {
@@ -380,9 +392,15 @@ export const NEWS_DIGEST = {
       category: "injuries",
     },
     {
+      title: "Frimpong Injury Scare on Netherlands Duty",
+      detail:
+        "Reported April 4 by This Is Anfield: Jeremie Frimpong was forced off after just 13 minutes during the Netherlands' fixture vs Ecuador, sparking immediate concern. Liverpool confirmed late yesterday that scans were clear and the right-back is fit to feature against PSG on Wednesday.",
+      category: "injuries",
+    },
+    {
       title: "Isak Pushing for PSG Return After Etihad Bench Role",
       detail:
-        "Reported April 4-5: Alexander Isak was an unused substitute at Manchester City but is back in full training after more than 100 days out with a broken leg suffered against Tottenham in December. He is firmly in contention for a comeback role against PSG on Wednesday and could provide a much-needed attacking spark.",
+        "Reported April 4-5: Alexander Isak was an unused substitute at Manchester City but is back in full training after more than 100 days out with a broken leg. He is firmly in contention for a comeback role against PSG on Wednesday and could provide a much-needed attacking spark.",
       category: "injuries",
     },
     {
@@ -411,16 +429,17 @@ export const NEWS_DIGEST = {
     },
   ],
   sources: [
-    "TeamTalk",
+    "FootballTransfers",
     "Football365",
-    "Liverpool.com",
-    "GiveMeSport",
+    "Sky Sports",
     "Anfield Index",
+    "Liverpool FC Official",
+    "TeamTalk",
+    "Liverpool.com",
     "UEFA.com",
     "This Is Anfield",
-    "Sky Sports",
     "ESPN",
-    "Liverpool FC Official",
+    "Livescore",
   ],
 };
 
