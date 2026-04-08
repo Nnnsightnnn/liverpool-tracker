@@ -333,14 +333,26 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-07T14:00:00Z",
+  generatedAt: "2026-04-08T09:30:00Z",
   summary:
-    "As of Tuesday April 7, the biggest Liverpool story is breaking: Arne Slot has reportedly offered to resign as Liverpool manager, with FootballTransfers and Football365 reporting overnight that the Dutchman is willing to step down 'on the right terms' following an emergency FSG summit after Saturday's 4-0 FA Cup humiliation at Manchester City. Captain Virgil van Dijk has publicly accused his teammates of having 'given up' during the Etihad rout, intensifying the dressing-room crisis. Attention on the pitch now turns entirely to Wednesday's Champions League quarter-final first leg at the Parc des Princes against PSG (8pm BST), with the away allocation increased to 2,376. Alisson remains ruled out until late April and Mamardashvili will start in goal; Jeremie Frimpong returned from a Netherlands injury scare and is fit to feature. Slot's job — and Liverpool's entire season — now rests on the next two weeks.",
+    "Matchday: Wednesday April 8 — Liverpool travel to the Parc des Princes tonight (8pm BST) for the Champions League quarter-final first leg against PSG, with Arne Slot's job effectively on the line. Reports overnight from The Athletic walked back the most dramatic claims, insisting Liverpool are NOT planning to part ways with Slot despite his reported offer to resign earlier this week — but FSG's review remains active and a heavy defeat in Paris could change everything. Captain Virgil van Dijk's 'we gave up' verdict from Saturday's 4-0 FA Cup humiliation still hangs over the dressing room. Alexander Isak is back in the squad after returning to training and is in contention for a comeback role; Alisson misses out (Mamardashvili starts), while Frimpong and Salah are fit. The Champions League is now Liverpool's only realistic route to silverware.",
   keyTopics: [
     {
-      title: "BREAKING: Slot Offers To Resign As Liverpool Manager",
+      title: "MATCHDAY: PSG vs Liverpool — Slot's Job On The Line Tonight",
       detail:
-        "Reported overnight April 6-7 by FootballTransfers, Football365 and Livescore: Arne Slot has handed Liverpool a formal offer to resign, willing to step down 'on the right terms' at the end of the season after an emergency FSG summit. The offer follows Saturday's 4-0 FA Cup humiliation at Manchester City and is the single biggest Anfield story of the day.",
+        "Confirmed for tonight Wednesday April 8, 8pm BST at the Parc des Princes: Champions League quarter-final first leg. UEFA preview published yesterday tips Kvaratskhelia as PSG's chief threat, with Salah and Szoboszlai Liverpool's key men. Alisson out, Mamardashvili starts; Isak in contention for a return cameo. A heavy defeat could trigger Slot's exit before the second leg.",
+      category: "matches",
+    },
+    {
+      title: "The Athletic: Liverpool NOT Planning To Sack Slot — Yet",
+      detail:
+        "Reported overnight April 7-8 by The Athletic: Despite the swirl of resignation reports, Liverpool are not currently planning to part ways with Arne Slot. FSG's review remains active and the PSG tie is still seen internally as the moment of truth, but the club is pushing back on the most dramatic 'Slot offers to resign' framings from earlier in the week.",
+      category: "general",
+    },
+    {
+      title: "Slot Offers To Resign As Liverpool Manager (Earlier This Week)",
+      detail:
+        "Reported April 6-7 by FootballTransfers, Football365 and Livescore: Arne Slot reportedly handed Liverpool a formal offer to resign, willing to step down 'on the right terms' at the end of the season after an emergency FSG summit. The offer followed Saturday's 4-0 FA Cup humiliation at Manchester City and remains one of the defining stories of the week despite The Athletic's pushback.",
       category: "general",
     },
     {
