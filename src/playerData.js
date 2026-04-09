@@ -222,7 +222,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — unused sub vs Man City FA Cup (Apr 4); expected to feature vs PSG UCL QF (Apr 8)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — bench vs PSG (Apr 8, unused); pushing for first start vs Fulham (Apr 11)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -300,18 +300,19 @@ export const TEAM_LOGOS = {
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
 export const NEXT_MATCH = {
-  opponent: "Paris Saint-Germain",
-  shortName: "PSG",
-  home: false,
-  date: "2026-04-08T20:00:00",
-  competition: "UCL",
-  venue: "Parc des Princes",
-  broadcast: "TNT Sports",
+  opponent: "Fulham",
+  shortName: "FUL",
+  home: true,
+  date: "2026-04-11T16:30:00",
+  competition: "PL",
+  venue: "Anfield",
+  broadcast: "NBC",
 };
 
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
 // result: "W" | "D" | "L"
 export const RESULTS = [
+  { date: "2026-04-08", opponent: "PSG",          home: false, score: "0-2", competition: "UCL",  result: "L", scorers: "" },
   { date: "2026-04-04", opponent: "Man City",     home: false, score: "0-4", competition: "FA",   result: "L", scorers: "" },
   { date: "2026-03-21", opponent: "Brighton",     home: false, score: "1-2", competition: "PL",   result: "L", scorers: "Kerkez" },
   { date: "2026-03-18", opponent: "Galatasaray", home: true,  score: "4-0", competition: "UCL",  result: "W", scorers: "Szoboszlai, Ekitike, Gravenberch, Salah" },
@@ -333,125 +334,96 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-08T09:30:00Z",
+  generatedAt: "2026-04-09T14:00:00Z",
   summary:
-    "Matchday: Wednesday April 8 — Liverpool travel to the Parc des Princes tonight (8pm BST) for the Champions League quarter-final first leg against PSG, with Arne Slot's job effectively on the line. Reports overnight from The Athletic walked back the most dramatic claims, insisting Liverpool are NOT planning to part ways with Slot despite his reported offer to resign earlier this week — but FSG's review remains active and a heavy defeat in Paris could change everything. Captain Virgil van Dijk's 'we gave up' verdict from Saturday's 4-0 FA Cup humiliation still hangs over the dressing room. Alexander Isak is back in the squad after returning to training and is in contention for a comeback role; Alisson misses out (Mamardashvili starts), while Frimpong and Salah are fit. The Champions League is now Liverpool's only realistic route to silverware.",
+    "As of April 9: Liverpool's Champions League hopes are hanging by a thread after a dismal 2-0 first-leg defeat to PSG at the Parc des Princes last night, with goals from Désiré Doué (11') and Khvicha Kvaratskhelia (65') leaving the Reds facing an uphill battle at Anfield on April 14. The fallout has been savage — Jamie Carragher called Slot's back-five tactics 'massively wrong', media outlets are calling his position 'untenable', and 91% of fans polled want him gone. Before the second leg, Liverpool host Fulham at Anfield on Saturday (4:30pm) looking to stop a run of three consecutive defeats. Ibrahima Konaté is close to signing a new long-term deal, providing a rare bright spot amid the chaos.",
   keyTopics: [
     {
-      title: "MATCHDAY: PSG vs Liverpool — Slot's Job On The Line Tonight",
+      title: "PSG 2-0 Liverpool: Toothless Reds Outclassed in Paris",
       detail:
-        "Confirmed for tonight Wednesday April 8, 8pm BST at the Parc des Princes: Champions League quarter-final first leg. UEFA preview published yesterday tips Kvaratskhelia as PSG's chief threat, with Salah and Szoboszlai Liverpool's key men. Alisson out, Mamardashvili starts; Isak in contention for a return cameo. A heavy defeat could trigger Slot's exit before the second leg.",
+        "Played last night April 8: Désiré Doué scored in the 11th minute (deflected off Gravenberch) and Kvaratskhelia added a second on 65 minutes after rounding Mamardashvili. Liverpool failed to register a single shot on target — the first time that has happened in a Champions League knockout game. Slot switched to a 3-4-2-1 formation with Frimpong and Kerkez as wing-backs, dropping Salah to the bench.",
       category: "matches",
     },
     {
-      title: "The Athletic: Liverpool NOT Planning To Sack Slot — Yet",
+      title: "Carragher Slams Slot: Tactics 'Massively Wrong' vs PSG",
       detail:
-        "Reported overnight April 7-8 by The Athletic: Despite the swirl of resignation reports, Liverpool are not currently planning to part ways with Arne Slot. FSG's review remains active and the PSG tie is still seen internally as the moment of truth, but the club is pushing back on the most dramatic 'Slot offers to resign' framings from earlier in the week.",
+        "Reported today April 9 by Sky Sports: Jamie Carragher delivered a scathing verdict on Slot's tactical decisions, saying the back five was 'massively wrong' and that Van Dijk will be 'pleading' not to play in that system again. Multiple pundits including Jermaine Pennant called the performance a 'disaster'.",
       category: "general",
     },
     {
-      title: "Slot Offers To Resign As Liverpool Manager (Earlier This Week)",
+      title: "Slot Position 'Untenable' — Media Consensus After PSG Loss",
       detail:
-        "Reported April 6-7 by FootballTransfers, Football365 and Livescore: Arne Slot reportedly handed Liverpool a formal offer to resign, willing to step down 'on the right terms' at the end of the season after an emergency FSG summit. The offer followed Saturday's 4-0 FA Cup humiliation at Manchester City and remains one of the defining stories of the week despite The Athletic's pushback.",
+        "Reported today April 9 by This Is Anfield, Football365, CaughtOffside: The media consensus is that Slot's position has become untenable. Football365 predicts a 'toxic' Anfield atmosphere for the second leg, while ESPN reports Slot admitted Liverpool were 'ripped apart' but said he was 'relieved' the deficit is only two goals.",
       category: "general",
     },
     {
-      title: "Van Dijk: 'We Gave Up' During Man City Rout",
+      title: "FSG Sack Decision: Champions League 'Or Bust' for Slot",
       detail:
-        "Reported today April 7 by Sky Sports: Captain Virgil van Dijk has publicly accused his teammates of 'giving up' during Saturday's 4-0 FA Cup defeat at the Etihad. Dominik Szoboszlai backed up the criticism, claiming the squad 'lacked the mentality to recover' after Haaland's opener — a damning dressing-room verdict that has piled pressure on Slot.",
+        "Reported April 8-9 by SportBible: Liverpool's owners want to give Slot the chance to turn things around but the Champions League is now 'or bust' — the second leg at Anfield on April 14 is effectively his last chance to save his job. A 91% majority of fans polled by Liverpool.com want him gone.",
       category: "general",
     },
     {
-      title: "Anfield Index: Slot Faces 'Defining Two Weeks'",
+      title: "Liverpool vs Fulham Preview: Reds Must Bounce Back Saturday",
       detail:
-        "Published today April 7 by Anfield Index: With the PSG first leg on Wednesday and the return at Anfield on April 14, the next two weeks will decide Slot's future. FSG sources say they will only finalise their position on the manager AFTER the second leg against PSG — making the Champions League tie effectively a referendum on his job.",
-      category: "general",
-    },
-    {
-      title: "FSG Bring Forward Slot 'Review' — Pressure At All-Time High",
-      detail:
-        "Reported April 5-6 by TeamTalk: Fenway Sports Group have brought forward their internal review of Slot's future after the Etihad humiliation. Pressure on the Dutchman is described as 'all-time high' following 10 Premier League defeats — a sharp reversal from last week's 'steadfastly behind' briefing.",
-      category: "general",
-    },
-    {
-      title: "Klopp 'Waiting' For Liverpool Return as Alonso Tipped as Favourite",
-      detail:
-        "Reported April 6 by Football365 and Liverpool.com: Jurgen Klopp is reportedly 'waiting in the wings' for a sensational Anfield return, while Xabi Alonso — out of work after his Real Madrid sacking earlier this year — has been named the favourite to take over. Luis Enrique and Julian Nagelsmann are also in the conversation.",
-      category: "general",
-    },
-    {
-      title: "PSG Quarter-Final First Leg Wednesday — Away Allocation Boosted",
-      detail:
-        "Confirmed today April 6 by Liverpool FC and Anfield Index: Paris authorities have aligned with UEFA regulations and increased Liverpool's away allocation at the Parc des Princes to 2,376 (up from roughly 2,000). The first leg kicks off Wednesday April 8 at 8pm BST, with the return at Anfield on Tuesday April 14. PSG eliminated Liverpool on penalties at this same stage last season.",
+        "Upcoming April 11, 4:30pm BST at Anfield: Liverpool host Fulham in the Premier League, needing to arrest a run of three straight defeats (Wolves 1-2 PL, Man City 0-4 FA, PSG 0-2 UCL). Isak could make his first start since December. Liverpool are 6th with 45 points, 16 behind leaders Arsenal.",
       category: "matches",
     },
     {
-      title: "UEFA Match Preview: Kvaratskhelia and Szoboszlai the Key Men",
+      title: "Isak On the Bench vs PSG — Could Start Against Fulham",
       detail:
-        "Published April 5 by UEFA.com: The official preview highlights Khvicha Kvaratskhelia (4 goals in his last 3 UCL knockout games for PSG) as the chief threat. Liverpool will lean on Mohamed Salah — first African player to 50 UCL goals — and in-form Dominik Szoboszlai, who has scored in five of his last eight UCL appearances. Slot can take heart from Liverpool winning six of their last eight UCL quarter-final ties.",
-      category: "matches",
-    },
-    {
-      title: "FA Cup Humiliation: Man City 4-0 Liverpool",
-      detail:
-        "Played Saturday April 4: Liverpool suffered their heaviest defeat of the season as Erling Haaland scored a hat-trick and Antoine Semenyo added a fourth in the FA Cup quarter-final at the Etihad. Mohamed Salah returned from injury but had his 64th-minute penalty saved by James Trafford. Liverpool's last domestic trophy hope is gone — only the Champions League remains.",
-      category: "matches",
-    },
-    {
-      title: "Alisson 'In Treatment Phase' — Targeting Late-April Return",
-      detail:
-        "Update April 4-5: Alisson posted on social media confirming 'I didn't suffer a new injury. I'm in the treatment phase, and the plan is to be in full playing condition by the end of April.' He will miss both legs against PSG. Mamardashvili will continue to deputise.",
+        "Update April 8-9: Alexander Isak made the 21-man travelling squad and was named on the bench for PSG, but did not feature. After 100+ days out with a fractured fibula, he is expected to push for his first start vs Fulham on Saturday as Slot looks to inject fresh attacking impetus.",
       category: "injuries",
     },
     {
-      title: "Frimpong Injury Scare on Netherlands Duty",
+      title: "Konaté 'Never Been Closer' to New Liverpool Contract",
       detail:
-        "Reported April 4 by This Is Anfield: Jeremie Frimpong was forced off after just 13 minutes during the Netherlands' fixture vs Ecuador, sparking immediate concern. Liverpool confirmed late yesterday that scans were clear and the right-back is fit to feature against PSG on Wednesday.",
+        "Reported April 7-8 by This Is Anfield and TeamTalk: Ibrahima Konaté and Liverpool have reached broad agreement on a new long-term deal, with only minor details to iron out. The club set an internal Easter deadline to finalise the extension — a major boost amid the wider squad turmoil.",
+      category: "transfers",
+    },
+    {
+      title: "Xabi Alonso and Klopp Linked as Slot Replacements",
+      detail:
+        "Reported this week by Football365 and Liverpool.com: Xabi Alonso remains the bookmakers' favourite to replace Slot, while Jurgen Klopp has also been linked with a sensational Anfield return. FSG sources say they will only finalise their position on the manager after the PSG second leg on April 14.",
+      category: "general",
+    },
+    {
+      title: "Salah Replacement Hunt: Ndiaye, Touré and £61m Target Shortlisted",
+      detail:
+        "Reported this week by Sky Sports and CaughtOffside: Liverpool view Iliman Ndiaye as a potential Salah successor, while Hoffenheim's Bazoumana Touré and a £61m unnamed target are also on the shortlist. Liverpool are also in talks for Bournemouth centre-back Marcos Senesi on a free transfer and have been linked with Real Madrid's Eduardo Camavinga.",
+      category: "transfers",
+    },
+    {
+      title: "Alisson Out Until Late April — Mamardashvili Continues",
+      detail:
+        "Confirmed April 7 by Liverpool FC: Alisson is in the 'treatment phase' of his hamstring injury and will miss both legs against PSG, with a return targeted for late April. Giorgi Mamardashvili will continue in goal. Despite the PSG loss, Mamardashvili earned an 8/10 rating from Liverpool.com.",
       category: "injuries",
     },
     {
-      title: "Isak Pushing for PSG Return After Etihad Bench Role",
+      title: "Liverpool 6th in PL — 45 Points, Season Unravelling",
       detail:
-        "Reported April 4-5: Alexander Isak was an unused substitute at Manchester City but is back in full training after more than 100 days out with a broken leg. He is firmly in contention for a comeback role against PSG on Wednesday and could provide a much-needed attacking spark.",
-      category: "injuries",
-    },
-    {
-      title: "Conceição Shortlisted as Salah Replacement",
-      detail:
-        "Reported this week by ESPN: Liverpool have shortlisted 23-year-old Juventus winger Francisco Conceição as a potential replacement for the departing Mohamed Salah. The Portugal international has six Serie A goal involvements this season and is under contract until 2030 after a €32m move from Porto last summer.",
-      category: "transfers",
-    },
-    {
-      title: "Diomande Agent Contact Continues — Summer Target",
-      detail:
-        "Reported this week by Sky Sports: Liverpool remain in active contact with the agents of RB Leipzig's 19-year-old Yan Diomande ahead of a potential summer move. The Reds are also said to be monitoring Inter Milan's Nicolò Barella as part of a wider midfield refresh.",
-      category: "transfers",
-    },
-    {
-      title: "Gakpo, Mac Allister, Gomez & Chiesa on Summer Exit List",
-      detail:
-        "Reported April 2-3 by Liverpool.com: With Salah's exit already confirmed, club bosses are preparing to offload at least four further first-team players this summer. Cody Gakpo and Alexis Mac Allister are reportedly available, alongside long-serving defender Joe Gomez and Italian winger Federico Chiesa, as part of a major rebuild.",
-      category: "transfers",
-    },
-    {
-      title: "Liverpool 5th in PL — Title Defence Long Over",
-      detail:
-        "Liverpool remain 5th in the Premier League with 49 points from 31 matches and 10 league defeats — the worst points-per-game tally for a defending champion in the modern era. The Champions League is now the only realistic route to silverware. Next PL fixture: Fulham at home on April 11.",
+        "Liverpool sit 6th in the Premier League with 45 points from 27 matches (13W 6D 8L), 16 points behind leaders Arsenal. The title defence is long over and the Champions League remains the only route to silverware. Next PL fixture: Fulham (H) on Saturday April 11.",
       category: "matches",
+    },
+    {
+      title: "Salah Exit Confirmed — Nine-Year Anfield Chapter Closing",
+      detail:
+        "Confirmed in March by Liverpool FC: Mohamed Salah will leave the club at the end of the season after a difficult campaign that saw him dropped and publicly fall out with Slot. He departs as the club's third all-time top scorer with 255 goals in 435 appearances.",
+      category: "transfers",
     },
   ],
   sources: [
-    "FootballTransfers",
-    "Football365",
     "Sky Sports",
-    "Anfield Index",
+    "ESPN",
+    "This Is Anfield",
+    "Football365",
+    "CaughtOffside",
+    "Empire of the Kop",
+    "SportBible",
+    "Liverpool.com",
     "Liverpool FC Official",
     "TeamTalk",
-    "Liverpool.com",
-    "UEFA.com",
-    "This Is Anfield",
-    "ESPN",
-    "Livescore",
+    "Premier League",
+    "NBC Sports",
   ],
 };
 

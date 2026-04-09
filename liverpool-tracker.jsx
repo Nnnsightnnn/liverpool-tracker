@@ -125,38 +125,38 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "UEFA.com", title: "MATCHDAY: PSG vs Liverpool — Champions League quarter-final first leg, 8pm BST tonight", time: "today", category: "major" },
-  { source: "The Athletic", title: "Liverpool NOT planning to part ways with Arne Slot despite resignation reports", time: "today", category: "major" },
-  { source: "Liverpool FC Official", title: "Pre-PSG team news: Alisson out, Mamardashvili starts, Isak in contention for return cameo", time: "today", category: "official" },
-  { source: "FootballTransfers", title: "Arne Slot offers to resign as Liverpool manager — would step down on 'right terms'", time: "1d ago", category: "major" },
-  { source: "Football365", title: "Slot 'offers' to resign on one condition as FSG sack U-turn revealed after 'emergency summit'", time: "1d ago", category: "major" },
-  { source: "Sky Sports", title: "Van Dijk: Liverpool 'gave up' during 4-0 FA Cup defeat to Manchester City", time: "2d ago", category: "major" },
-  { source: "TeamTalk", title: "Xabi Alonso ready for spectacular return as FSG 'review' Slot future", time: "2d ago", category: "fan" },
-  { source: "Liverpool.com", title: "Jurgen Klopp 'waiting' for Liverpool return as pressure grows on Arne Slot", time: "2d ago", category: "fan" },
-  { source: "Anfield Index", title: "Arne Slot faces defining two weeks as pressure mounts at Liverpool", time: "2d ago", category: "fan" },
-  { source: "UEFA.com", title: "Paris vs Liverpool Champions League preview: Where to watch, predicted line-ups, key men", time: "3d ago", category: "major" },
-  { source: "This Is Anfield", title: "Alisson long-term injury confirmed: Out vs PSG, back 'towards end of season'", time: "4d ago", category: "fan" },
-  { source: "This Is Anfield", title: "Frimpong injury nightmare: Subbed after 13 minutes for Netherlands vs Ecuador", time: "4d ago", category: "fan" },
-  { source: "ESPN", title: "Man City 4-0 Liverpool: Haaland hat-trick ends Reds' FA Cup hopes at the Etihad", time: "4d ago", category: "major" },
-  { source: "Sky Sports", title: "Liverpool remain in contact with Yan Diomande's agents ahead of summer window", time: "5d ago", category: "major" },
-  { source: "Liverpool.com", title: "Gakpo, Mac Allister, Gomez and Chiesa on Liverpool's summer exit list as rebuild looms", time: "5d ago", category: "fan" },
+  { source: "Sky Sports", title: "PSG 2-0 Liverpool: Doué and Kvaratskhelia condemn Reds to first-leg defeat in Paris", time: "today", category: "major" },
+  { source: "ESPN", title: "Slot relieved despite Liverpool being 'ripped apart' by dominant PSG in Champions League", time: "today", category: "major" },
+  { source: "Sky Sports", title: "Carragher slams Slot tactics: 'massively wrong' to play back five vs PSG", time: "today", category: "major" },
+  { source: "This Is Anfield", title: "Media warn Slot's position 'untenable' after PSG humiliation — excuses wearing thin", time: "today", category: "fan" },
+  { source: "Football365", title: "Slot sack coming as 'lucky' Liverpool set for 'toxic' European night at Anfield next week", time: "today", category: "fan" },
+  { source: "Empire of the Kop", title: "Pennant labels Liverpool display vs PSG a 'disaster' in scathing X rant", time: "today", category: "fan" },
+  { source: "CaughtOffside", title: "Slot slammed for 'defending weaknesses' as PSG defeat sparks major tactical concerns", time: "today", category: "fan" },
+  { source: "Premier League", title: "Liverpool vs Fulham preview: Reds look to bounce back at Anfield on Saturday", time: "today", category: "major" },
+  { source: "This Is Anfield", title: "Isak named on bench for PSG but yet to feature — could start vs Fulham", time: "1d ago", category: "fan" },
+  { source: "SportBible", title: "FSG want to give Slot the chance but Champions League is now 'or bust' for Dutchman", time: "1d ago", category: "major" },
+  { source: "Liverpool.com", title: "91% of fans polled want Slot sacked after dismal 2025-26 campaign", time: "1d ago", category: "fan" },
+  { source: "This Is Anfield", title: "Konaté and Liverpool 'never been closer' to agreeing new long-term contract", time: "4d ago", category: "official" },
+  { source: "Sky Sports", title: "Salah replacement hunt: Ndiaye, Touré, and £61m target on Liverpool shortlist", time: "1w ago", category: "major" },
+  { source: "TeamTalk", title: "Liverpool in talks for Bournemouth's Senesi on free transfer; Camavinga also targeted", time: "1w ago", category: "major" },
   { source: "Sky Sports", title: "Mohamed Salah: Liverpool forward confirms he will leave club at end of season", time: "2w ago", category: "major" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
 const NEXT_MATCH = {
-  opponent: "Paris Saint-Germain",
-  shortName: "PSG",
-  home: false,
-  date: "2026-04-08T20:00:00",
-  competition: "UCL",
-  venue: "Parc des Princes",
-  broadcast: "TNT Sports",
+  opponent: "Fulham",
+  shortName: "FUL",
+  home: true,
+  date: "2026-04-11T16:30:00",
+  competition: "PL",
+  venue: "Anfield",
+  broadcast: "NBC",
 };
 
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
 // result: "W" | "D" | "L"
 const RESULTS = [
+  { date: "2026-04-08", opponent: "PSG",          home: false, score: "0-2", competition: "UCL",  result: "L", scorers: "" },
   { date: "2026-04-04", opponent: "Man City",     home: false, score: "0-4", competition: "FA",   result: "L", scorers: "" },
   { date: "2026-03-21", opponent: "Brighton",     home: false, score: "1-2", competition: "PL",   result: "L", scorers: "Kerkez" },
   { date: "2026-03-18", opponent: "Galatasaray", home: true,  score: "4-0", competition: "UCL",  result: "W", scorers: "Szoboszlai, Ekitike, Gravenberch, Salah" },
