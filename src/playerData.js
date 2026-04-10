@@ -47,7 +47,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 18, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 6.0, status: "doubtful", injuryNote: "Fitness concern — played 90 mins vs Spurs (Mar 15) but recurring issues, late fitness tests needed", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 18, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 6.0, status: "fit", injuryNote: "Started in back-five vs PSG (Apr 8) — available for selection", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -85,7 +85,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 31, goals: 1, assists: 4, cleanSheets: 6, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.9, status: "fit", injuryNote: "Returned from international duty scare (Apr 1) — cleared to play, available for selection", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 31, goals: 1, assists: 4, cleanSheets: 6, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.9, status: "fit", injuryNote: "Started vs PSG (Apr 8) after 4th hamstring scare this season — available but fitness monitored closely", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -201,7 +201,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 34, goals: 8, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Confirmed fit for Man City FA Cup (Apr 4) — Slot: 'very close, I think he will be available'; confirmed leaving Liverpool end of season", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 34, goals: 8, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Fit but unused sub vs PSG (Apr 8) — Slot: 'better for Mo to save his energy'; confirmed leaving Liverpool end of season", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -222,7 +222,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — bench vs PSG (Apr 8, unused); pushing for first start vs Fulham (Apr 11)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — bench vs PSG (Apr 8, unused sub); pushing for first start vs Fulham (Apr 11) after 100+ days out", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -252,7 +252,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Returned to training and confirmed available for Man City FA Cup (Apr 4) after withdrawing from Italy duty", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Available — Slot confirmed fit for upcoming fixtures including Fulham (Apr 11)", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -334,80 +334,80 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-09T14:00:00Z",
+  generatedAt: "2026-04-10T12:00:00Z",
   summary:
-    "As of April 9: Liverpool's Champions League hopes are hanging by a thread after a dismal 2-0 first-leg defeat to PSG at the Parc des Princes last night, with goals from Désiré Doué (11') and Khvicha Kvaratskhelia (65') leaving the Reds facing an uphill battle at Anfield on April 14. The fallout has been savage — Jamie Carragher called Slot's back-five tactics 'massively wrong', media outlets are calling his position 'untenable', and 91% of fans polled want him gone. Before the second leg, Liverpool host Fulham at Anfield on Saturday (4:30pm) looking to stop a run of three consecutive defeats. Ibrahima Konaté is close to signing a new long-term deal, providing a rare bright spot amid the chaos.",
+    "As of April 10: FSG have officially backed Arne Slot to remain as Liverpool manager next season despite overwhelming fan pressure and the 2-0 first-leg defeat to PSG — senior figures including Michael Edwards and Richard Hughes believe Slot should continue the rebuild. Off the pitch, Alisson Becker has reportedly said yes to Juventus on a three-year deal worth around €8m/season, while Liverpool and Real Madrid are working on a sensational Camavinga–Mac Allister swap. Liverpool host Fulham at Anfield tomorrow (Saturday, 4:30pm) desperate to end a three-game losing streak, with Alexander Isak pushing for his first start since December.",
   keyTopics: [
     {
-      title: "PSG 2-0 Liverpool: Toothless Reds Outclassed in Paris",
+      title: "FSG Back Slot to Stay — Manager Confirmed for Next Season",
       detail:
-        "Played last night April 8: Désiré Doué scored in the 11th minute (deflected off Gravenberch) and Kvaratskhelia added a second on 65 minutes after rounding Mamardashvili. Liverpool failed to register a single shot on target — the first time that has happened in a Champions League knockout game. Slot switched to a 3-4-2-1 formation with Frimpong and Kerkez as wing-backs, dropping Salah to the bench.",
-      category: "matches",
-    },
-    {
-      title: "Carragher Slams Slot: Tactics 'Massively Wrong' vs PSG",
-      detail:
-        "Reported today April 9 by Sky Sports: Jamie Carragher delivered a scathing verdict on Slot's tactical decisions, saying the back five was 'massively wrong' and that Van Dijk will be 'pleading' not to play in that system again. Multiple pundits including Jermaine Pennant called the performance a 'disaster'.",
+        "Reported April 10 by CaughtOffside and The Telegraph: Fenway Sports Group have made the decision to retain Arne Slot as manager for the 2026-27 season. Senior figures including sporting director Richard Hughes and football CEO Michael Edwards believe Slot should be allowed to continue the rebuild despite Liverpool's disappointing campaign.",
       category: "general",
     },
     {
-      title: "Slot Position 'Untenable' — Media Consensus After PSG Loss",
+      title: "Alisson Says Yes to Juventus — Breakthrough in Transfer Talks",
       detail:
-        "Reported today April 9 by This Is Anfield, Football365, CaughtOffside: The media consensus is that Slot's position has become untenable. Football365 predicts a 'toxic' Anfield atmosphere for the second leg, while ESPN reports Slot admitted Liverpool were 'ripped apart' but said he was 'relieved' the deficit is only two goals.",
-      category: "general",
-    },
-    {
-      title: "FSG Sack Decision: Champions League 'Or Bust' for Slot",
-      detail:
-        "Reported April 8-9 by SportBible: Liverpool's owners want to give Slot the chance to turn things around but the Champions League is now 'or bust' — the second leg at Anfield on April 14 is effectively his last chance to save his job. A 91% majority of fans polled by Liverpool.com want him gone.",
-      category: "general",
-    },
-    {
-      title: "Liverpool vs Fulham Preview: Reds Must Bounce Back Saturday",
-      detail:
-        "Upcoming April 11, 4:30pm BST at Anfield: Liverpool host Fulham in the Premier League, needing to arrest a run of three straight defeats (Wolves 1-2 PL, Man City 0-4 FA, PSG 0-2 UCL). Isak could make his first start since December. Liverpool are 6th with 45 points, 16 behind leaders Arsenal.",
-      category: "matches",
-    },
-    {
-      title: "Isak On the Bench vs PSG — Could Start Against Fulham",
-      detail:
-        "Update April 8-9: Alexander Isak made the 21-man travelling squad and was named on the bench for PSG, but did not feature. After 100+ days out with a fractured fibula, he is expected to push for his first start vs Fulham on Saturday as Slot looks to inject fresh attacking impetus.",
-      category: "injuries",
-    },
-    {
-      title: "Konaté 'Never Been Closer' to New Liverpool Contract",
-      detail:
-        "Reported April 7-8 by This Is Anfield and TeamTalk: Ibrahima Konaté and Liverpool have reached broad agreement on a new long-term deal, with only minor details to iron out. The club set an internal Easter deadline to finalise the extension — a major boost amid the wider squad turmoil.",
+        "Reported April 9-10 by Anfield Watch and Rousing The Kop: Alisson Becker has opened the door to a move to Juventus, with the Brazilian described as 'intrigued' by the prospect of a return to Serie A. Juventus manager Spalletti has identified Alisson as a prime target, and a three-year deal worth €8m/season is on the table. Liverpool would seek €15-20m for the 33-year-old.",
       category: "transfers",
     },
     {
-      title: "Xabi Alonso and Klopp Linked as Slot Replacements",
+      title: "Liverpool & Real Madrid Working on Camavinga–Mac Allister Swap",
       detail:
-        "Reported this week by Football365 and Liverpool.com: Xabi Alonso remains the bookmakers' favourite to replace Slot, while Jurgen Klopp has also been linked with a sensational Anfield return. FSG sources say they will only finalise their position on the manager after the PSG second leg on April 14.",
+        "Reported April 9 by TeamTalk, The Hard Tackle, and multiple outlets: Intermediaries are working on a blockbuster deal that would see Eduardo Camavinga move to Anfield while Alexis Mac Allister heads to the Bernabéu. Liverpool see Camavinga as offering more defensive stability alongside Gravenberch. Financial Fair Play complications mean it may not be a direct swap.",
+      category: "transfers",
+    },
+    {
+      title: "Slot Explains Salah Snub: 'It Was About Surviving'",
+      detail:
+        "Reported April 9 by This Is Anfield and Liverpool.com: Slot defended his decision to leave Salah as an unused substitute in the 2-0 PSG defeat, saying it was 'better for him to save his energy' as Liverpool were merely 'surviving'. Liverpool were outshot 18-3 and had just 24% possession in Paris.",
       category: "general",
     },
     {
-      title: "Salah Replacement Hunt: Ndiaye, Touré and £61m Target Shortlisted",
+      title: "PSG 2-0 Liverpool: Reds Must Overturn Deficit at Anfield",
       detail:
-        "Reported this week by Sky Sports and CaughtOffside: Liverpool view Iliman Ndiaye as a potential Salah successor, while Hoffenheim's Bazoumana Touré and a £61m unnamed target are also on the shortlist. Liverpool are also in talks for Bournemouth centre-back Marcos Senesi on a free transfer and have been linked with Real Madrid's Eduardo Camavinga.",
+        "Played April 8: Désiré Doué scored in the 11th minute (deflected off Gravenberch) and Kvaratskhelia added a solo goal on 65 minutes. Liverpool had zero shots on target in a Champions League knockout game for the first time. The second leg at Anfield is on April 14 — Liverpool must overturn a two-goal deficit to reach the semi-finals.",
+      category: "matches",
+    },
+    {
+      title: "Liverpool vs Fulham Preview: Must-Win at Anfield Tomorrow",
+      detail:
+        "Upcoming April 11, 4:30pm BST at Anfield: Liverpool host Fulham in the Premier League needing to end a run of three consecutive defeats. Isak could make his first start since December. Alisson, Bradley, Leoni, Endo, and Bajcetic are all unavailable. Liverpool sit 6th with 45 points.",
+      category: "matches",
+    },
+    {
+      title: "Isak Pushing for First Start vs Fulham After 100+ Days Out",
+      detail:
+        "Update April 8-10: Alexander Isak was named on the bench for PSG but did not feature. After recovering from a fractured fibula suffered in December, the Swedish striker is expected to push for his first start vs Fulham on Saturday as Slot looks for fresh attacking impetus.",
+      category: "injuries",
+    },
+    {
+      title: "Konaté Contract Talks 'Advancing' — Deal Close",
+      detail:
+        "Reported April 7-10 by This Is Anfield: Ibrahima Konaté and Liverpool have 'never been closer' to agreeing a new long-term contract, with talks described as 'advancing' and only minor details remaining. The France defender's current deal expires June 2026.",
+      category: "transfers",
+    },
+    {
+      title: "Frimpong's Recurring Hamstring Issues Expose RB Dilemma",
+      detail:
+        "Reported April 1-2: Frimpong suffered his fourth hamstring injury of the season during Netherlands duty, subbed after just 13 minutes vs Ecuador. He returned for the PSG match but Liverpool's right-back depth remains a major concern with Bradley out for the season.",
+      category: "injuries",
+    },
+    {
+      title: "Robertson Confirmed Leaving — Kerkez Now First Choice",
+      detail:
+        "Confirmed in recent weeks: Andy Robertson will leave Liverpool at the end of the season when his contract expires. The Scotland captain has started just three PL matches this term with Milos Kerkez firmly established as the first-choice left-back. Liverpool are also targeting Barcelona's Alejandro Balde.",
       category: "transfers",
     },
     {
       title: "Alisson Out Until Late April — Mamardashvili Continues",
       detail:
-        "Confirmed April 7 by Liverpool FC: Alisson is in the 'treatment phase' of his hamstring injury and will miss both legs against PSG, with a return targeted for late April. Giorgi Mamardashvili will continue in goal. Despite the PSG loss, Mamardashvili earned an 8/10 rating from Liverpool.com.",
+        "Confirmed April 7 by Liverpool FC: Alisson remains in the treatment phase of his hamstring injury and will miss both legs against PSG, with a return targeted for late April. Giorgi Mamardashvili continues in goal and performed well despite the PSG defeat.",
       category: "injuries",
-    },
-    {
-      title: "Liverpool 6th in PL — 45 Points, Season Unravelling",
-      detail:
-        "Liverpool sit 6th in the Premier League with 45 points from 27 matches (13W 6D 8L), 16 points behind leaders Arsenal. The title defence is long over and the Champions League remains the only route to silverware. Next PL fixture: Fulham (H) on Saturday April 11.",
-      category: "matches",
     },
     {
       title: "Salah Exit Confirmed — Nine-Year Anfield Chapter Closing",
       detail:
-        "Confirmed in March by Liverpool FC: Mohamed Salah will leave the club at the end of the season after a difficult campaign that saw him dropped and publicly fall out with Slot. He departs as the club's third all-time top scorer with 255 goals in 435 appearances.",
+        "Confirmed in March: Mohamed Salah will leave Liverpool at the end of the season. He was left as an unused sub vs PSG with Slot citing energy conservation. Liverpool are actively scouting replacements including Ndiaye, Kofane (Leverkusen), and Bournemouth's Rayan.",
       category: "transfers",
     },
   ],
@@ -415,14 +415,13 @@ export const NEWS_DIGEST = {
     "Sky Sports",
     "ESPN",
     "This Is Anfield",
-    "Football365",
     "CaughtOffside",
-    "Empire of the Kop",
-    "SportBible",
+    "TeamTalk",
+    "Anfield Watch",
     "Liverpool.com",
     "Liverpool FC Official",
-    "TeamTalk",
-    "Premier League",
+    "Rousing The Kop",
+    "The Telegraph",
     "NBC Sports",
   ],
 };

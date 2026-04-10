@@ -125,21 +125,21 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Sky Sports", title: "PSG 2-0 Liverpool: Doué and Kvaratskhelia condemn Reds to first-leg defeat in Paris", time: "today", category: "major" },
-  { source: "ESPN", title: "Slot relieved despite Liverpool being 'ripped apart' by dominant PSG in Champions League", time: "today", category: "major" },
-  { source: "Sky Sports", title: "Carragher slams Slot tactics: 'massively wrong' to play back five vs PSG", time: "today", category: "major" },
-  { source: "This Is Anfield", title: "Media warn Slot's position 'untenable' after PSG humiliation — excuses wearing thin", time: "today", category: "fan" },
-  { source: "Football365", title: "Slot sack coming as 'lucky' Liverpool set for 'toxic' European night at Anfield next week", time: "today", category: "fan" },
-  { source: "Empire of the Kop", title: "Pennant labels Liverpool display vs PSG a 'disaster' in scathing X rant", time: "today", category: "fan" },
-  { source: "CaughtOffside", title: "Slot slammed for 'defending weaknesses' as PSG defeat sparks major tactical concerns", time: "today", category: "fan" },
-  { source: "Premier League", title: "Liverpool vs Fulham preview: Reds look to bounce back at Anfield on Saturday", time: "today", category: "major" },
-  { source: "This Is Anfield", title: "Isak named on bench for PSG but yet to feature — could start vs Fulham", time: "1d ago", category: "fan" },
-  { source: "SportBible", title: "FSG want to give Slot the chance but Champions League is now 'or bust' for Dutchman", time: "1d ago", category: "major" },
-  { source: "Liverpool.com", title: "91% of fans polled want Slot sacked after dismal 2025-26 campaign", time: "1d ago", category: "fan" },
-  { source: "This Is Anfield", title: "Konaté and Liverpool 'never been closer' to agreeing new long-term contract", time: "4d ago", category: "official" },
-  { source: "Sky Sports", title: "Salah replacement hunt: Ndiaye, Touré, and £61m target on Liverpool shortlist", time: "1w ago", category: "major" },
-  { source: "TeamTalk", title: "Liverpool in talks for Bournemouth's Senesi on free transfer; Camavinga also targeted", time: "1w ago", category: "major" },
-  { source: "Sky Sports", title: "Mohamed Salah: Liverpool forward confirms he will leave club at end of season", time: "2w ago", category: "major" },
+  { source: "CaughtOffside", title: "FSG back Arne Slot to stay as Liverpool manager next season despite fan fury and PSG defeat", time: "today", category: "major" },
+  { source: "Anfield Watch", title: "Alisson says yes to Juventus after breakthrough in transfer talks — three-year deal on table", time: "today", category: "major" },
+  { source: "TeamTalk", title: "Liverpool and Real Madrid working on blockbuster Camavinga–Mac Allister swap deal for summer", time: "today", category: "major" },
+  { source: "This Is Anfield", title: "Slot explains Salah snub vs PSG: 'It was about surviving, better for Mo to save his energy'", time: "1d ago", category: "fan" },
+  { source: "Liverpool.com", title: "French media slams 'timid' Liverpool with Slot and four players panned after PSG humiliation", time: "1d ago", category: "fan" },
+  { source: "ESPN", title: "Wasteful PSG leave door open for Liverpool despite dominant 2-0 first-leg win in Paris", time: "1d ago", category: "major" },
+  { source: "Sky Sports", title: "PSG 2-0 Liverpool: Doué and Kvaratskhelia condemn Reds to first-leg defeat in Champions League QF", time: "2d ago", category: "major" },
+  { source: "Liverpool.com", title: "Four Liverpool players missing vs PSG as Slot issues Alexander Isak fitness update", time: "2d ago", category: "fan" },
+  { source: "Liverpool FC", title: "Injury update: Alisson, Chiesa, Frimpong and Salah — latest return dates confirmed", time: "3d ago", category: "official" },
+  { source: "This Is Anfield", title: "Konaté contract talks 'advancing' — Liverpool defender closer than ever to new long-term deal", time: "3d ago", category: "official" },
+  { source: "This Is Anfield", title: "Frimpong injury nightmare: subbed after 13 mins for Netherlands — fourth hamstring issue this season", time: "1w ago", category: "fan" },
+  { source: "Sky Sports", title: "Salah replacement hunt: Ndiaye, Kofane, and Bournemouth's Rayan on Liverpool shortlist", time: "1w ago", category: "major" },
+  { source: "CaughtOffside", title: "Liverpool keen on Barcelona's Alejandro Balde as summer left-back target", time: "1w ago", category: "major" },
+  { source: "Anfield Watch", title: "Robertson confirmed to leave Liverpool at end of season — Kerkez now first-choice left-back", time: "2w ago", category: "official" },
+  { source: "Sky Sports", title: "Mohamed Salah: Liverpool forward confirms he will leave club at end of season", time: "3w ago", category: "major" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
