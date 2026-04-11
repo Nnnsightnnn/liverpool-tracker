@@ -85,7 +85,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 31, goals: 1, assists: 4, cleanSheets: 6, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.9, status: "fit", injuryNote: "Started vs PSG (Apr 8) after 4th hamstring scare this season — available but fitness monitored closely", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 31, goals: 1, assists: 4, cleanSheets: 6, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.9, status: "doubtful", injuryNote: "Fitness doubt for Fulham (Apr 11) alongside Gomez — started vs PSG (Apr 8) but managing 4th hamstring issue this season", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -222,7 +222,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — bench vs PSG (Apr 8, unused sub); pushing for first start vs Fulham (Apr 11) after 100+ days out", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — came off bench vs PSG (Apr 8) for first appearance in 4 months; bench again vs Fulham (Apr 11) as Slot builds fitness gradually", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -334,10 +334,22 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-10T12:00:00Z",
+  generatedAt: "2026-04-11T14:00:00Z",
   summary:
-    "As of April 10: FSG have officially backed Arne Slot to remain as Liverpool manager next season despite overwhelming fan pressure and the 2-0 first-leg defeat to PSG — senior figures including Michael Edwards and Richard Hughes believe Slot should continue the rebuild. Off the pitch, Alisson Becker has reportedly said yes to Juventus on a three-year deal worth around €8m/season, while Liverpool and Real Madrid are working on a sensational Camavinga–Mac Allister swap. Liverpool host Fulham at Anfield tomorrow (Saturday, 4:30pm) desperate to end a three-game losing streak, with Alexander Isak pushing for his first start since December.",
+    "As of April 11: It's matchday at Anfield — Liverpool host Fulham today (5:30pm BST) desperate to snap a three-game losing streak across all competitions. Salah is expected to return to the starting XI after being controversially benched for the entire PSG defeat, while Isak will again be on the bench as Slot manages his comeback. In transfer news, Liverpool have emerged as favourites to sign Wolves midfielder Joao Gomes for around £45-60m this summer, adding to a busy off-season that already includes talks over a Camavinga–Mac Allister swap with Real Madrid and Alisson's likely move to Juventus. The second leg vs PSG at Anfield on Tuesday looms large.",
   keyTopics: [
+    {
+      title: "Matchday: Liverpool vs Fulham — Salah Returns, Isak on Bench",
+      detail:
+        "Today, April 11, 5:30pm BST at Anfield: Liverpool host Fulham in Matchweek 32, needing to end three straight defeats. Slot is expected to restore Salah to the starting XI after the Egyptian was controversially unused vs PSG. Isak will be on the bench again as his match fitness builds. Frimpong and Gomez are both fitness doubts at right-back. Alisson, Bradley, Leoni, and Endo remain unavailable.",
+      category: "matches",
+    },
+    {
+      title: "Liverpool Favourites to Sign Joao Gomes — £45-60m Deal",
+      detail:
+        "Reported April 10-11 by Rousing The Kop, Anfield Index, and The Hard Tackle: Liverpool have emerged as front-runners to sign Wolves midfielder Joao Gomes this summer. The Brazilian, who has previously expressed his desire to play for Liverpool, is valued at £45-60m. Chelsea and Man United also interested but Liverpool are now in pole position.",
+      category: "transfers",
+    },
     {
       title: "FSG Back Slot to Stay — Manager Confirmed for Next Season",
       detail:
@@ -347,38 +359,26 @@ export const NEWS_DIGEST = {
     {
       title: "Alisson Says Yes to Juventus — Breakthrough in Transfer Talks",
       detail:
-        "Reported April 9-10 by Anfield Watch and Rousing The Kop: Alisson Becker has opened the door to a move to Juventus, with the Brazilian described as 'intrigued' by the prospect of a return to Serie A. Juventus manager Spalletti has identified Alisson as a prime target, and a three-year deal worth €8m/season is on the table. Liverpool would seek €15-20m for the 33-year-old.",
+        "Reported April 9-10 by Anfield Watch and Rousing The Kop: Alisson Becker has opened the door to a move to Juventus, with a three-year deal worth €8m/season on the table. Liverpool would seek €15-20m for the 33-year-old goalkeeper, who remains sidelined with a hamstring injury.",
       category: "transfers",
     },
     {
       title: "Liverpool & Real Madrid Working on Camavinga–Mac Allister Swap",
       detail:
-        "Reported April 9 by TeamTalk, The Hard Tackle, and multiple outlets: Intermediaries are working on a blockbuster deal that would see Eduardo Camavinga move to Anfield while Alexis Mac Allister heads to the Bernabéu. Liverpool see Camavinga as offering more defensive stability alongside Gravenberch. Financial Fair Play complications mean it may not be a direct swap.",
+        "Reported April 9 by TeamTalk, The Hard Tackle, and multiple outlets: Intermediaries are working on a blockbuster deal that would see Eduardo Camavinga move to Anfield while Alexis Mac Allister heads to the Bernabéu. Financial Fair Play complications mean it may not be a direct swap, but both clubs are actively working on the deal.",
       category: "transfers",
+    },
+    {
+      title: "PSG 2-0 Liverpool: Must Overturn Deficit Tuesday at Anfield",
+      detail:
+        "Played April 8: Désiré Doué scored in the 11th minute (deflected off Gravenberch) and Kvaratskhelia added a solo goal on 65 minutes. Liverpool had zero shots on target. The second leg at Anfield is Tuesday April 14 — Liverpool must overturn a two-goal deficit to reach the semi-finals against Bayern Munich or Real Madrid.",
+      category: "matches",
     },
     {
       title: "Slot Explains Salah Snub: 'It Was About Surviving'",
       detail:
-        "Reported April 9 by This Is Anfield and Liverpool.com: Slot defended his decision to leave Salah as an unused substitute in the 2-0 PSG defeat, saying it was 'better for him to save his energy' as Liverpool were merely 'surviving'. Liverpool were outshot 18-3 and had just 24% possession in Paris.",
+        "Reported April 9 by This Is Anfield and Liverpool.com: Slot defended his decision to leave Salah as an unused substitute in the PSG defeat, saying it was 'better for him to save his energy' as Liverpool were merely 'surviving'. Liverpool were outshot 18-3 and had just 24% possession in Paris.",
       category: "general",
-    },
-    {
-      title: "PSG 2-0 Liverpool: Reds Must Overturn Deficit at Anfield",
-      detail:
-        "Played April 8: Désiré Doué scored in the 11th minute (deflected off Gravenberch) and Kvaratskhelia added a solo goal on 65 minutes. Liverpool had zero shots on target in a Champions League knockout game for the first time. The second leg at Anfield is on April 14 — Liverpool must overturn a two-goal deficit to reach the semi-finals.",
-      category: "matches",
-    },
-    {
-      title: "Liverpool vs Fulham Preview: Must-Win at Anfield Tomorrow",
-      detail:
-        "Upcoming April 11, 4:30pm BST at Anfield: Liverpool host Fulham in the Premier League needing to end a run of three consecutive defeats. Isak could make his first start since December. Alisson, Bradley, Leoni, Endo, and Bajcetic are all unavailable. Liverpool sit 6th with 45 points.",
-      category: "matches",
-    },
-    {
-      title: "Isak Pushing for First Start vs Fulham After 100+ Days Out",
-      detail:
-        "Update April 8-10: Alexander Isak was named on the bench for PSG but did not feature. After recovering from a fractured fibula suffered in December, the Swedish striker is expected to push for his first start vs Fulham on Saturday as Slot looks for fresh attacking impetus.",
-      category: "injuries",
     },
     {
       title: "Konaté Contract Talks 'Advancing' — Deal Close",
@@ -387,27 +387,27 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "Frimpong's Recurring Hamstring Issues Expose RB Dilemma",
+      title: "Frimpong and Gomez Both Doubts — Right-Back Crisis Deepens",
       detail:
-        "Reported April 1-2: Frimpong suffered his fourth hamstring injury of the season during Netherlands duty, subbed after just 13 minutes vs Ecuador. He returned for the PSG match but Liverpool's right-back depth remains a major concern with Bradley out for the season.",
+        "Confirmed April 11: Both Jeremie Frimpong and Joe Gomez are fitness doubts for today's Fulham match, leaving Slot with a right-back headache. Frimpong suffered his fourth injury of the season during the international break but has been managed back. Bradley remains out for the season.",
       category: "injuries",
     },
     {
-      title: "Robertson Confirmed Leaving — Kerkez Now First Choice",
+      title: "Isak's Comeback: Returned Stronger After 100+ Days Out",
       detail:
-        "Confirmed in recent weeks: Andy Robertson will leave Liverpool at the end of the season when his contract expires. The Scotland captain has started just three PL matches this term with Milos Kerkez firmly established as the first-choice left-back. Liverpool are also targeting Barcelona's Alejandro Balde.",
+        "Update April 10-11: Isak came off the bench vs PSG (his first appearance since December's broken leg at Spurs). Slot says the Swede has returned 'stronger and fitter' and his game time will be gradually increased. Expected to feature off the bench again vs Fulham today.",
+      category: "injuries",
+    },
+    {
+      title: "Robertson Confirmed Leaving — Balde and Kerkez Future",
+      detail:
+        "Confirmed in recent weeks: Andy Robertson will leave Liverpool at the end of the season. Kerkez is firmly first-choice left-back. Liverpool are also targeting Barcelona's Alejandro Balde as additional cover for the summer.",
       category: "transfers",
-    },
-    {
-      title: "Alisson Out Until Late April — Mamardashvili Continues",
-      detail:
-        "Confirmed April 7 by Liverpool FC: Alisson remains in the treatment phase of his hamstring injury and will miss both legs against PSG, with a return targeted for late April. Giorgi Mamardashvili continues in goal and performed well despite the PSG defeat.",
-      category: "injuries",
     },
     {
       title: "Salah Exit Confirmed — Nine-Year Anfield Chapter Closing",
       detail:
-        "Confirmed in March: Mohamed Salah will leave Liverpool at the end of the season. He was left as an unused sub vs PSG with Slot citing energy conservation. Liverpool are actively scouting replacements including Ndiaye, Kofane (Leverkusen), and Bournemouth's Rayan.",
+        "Confirmed in March: Mohamed Salah will leave Liverpool at the end of the season on a free transfer despite having 12 months left on his contract. Liverpool are actively scouting replacements including Ndiaye, Kofane, and Bournemouth's Rayan. Saudi Arabian clubs are reportedly interested.",
       category: "transfers",
     },
   ],
@@ -421,7 +421,8 @@ export const NEWS_DIGEST = {
     "Liverpool.com",
     "Liverpool FC Official",
     "Rousing The Kop",
-    "The Telegraph",
+    "The Hard Tackle",
+    "Anfield Index",
     "NBC Sports",
   ],
 };
