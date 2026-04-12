@@ -125,37 +125,38 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "The Hard Tackle", title: "Predicted Liverpool lineup vs Fulham: Salah to return to starting XI, Isak on the bench again", time: "today", category: "fan" },
-  { source: "Liverpool.com", title: "Slot confirms injury status before Fulham — Frimpong and Gomez both fitness doubts at right-back", time: "today", category: "official" },
-  { source: "Rousing The Kop", title: "Liverpool emerge as favourites to land £60m Joao Gomes — Brazilian midfielder 'convinced' by Anfield move", time: "today", category: "major" },
-  { source: "Anfield Index", title: "Liverpool in pole position to sign Wolves' Joao Gomes this summer as price tag drops to £45m", time: "today", category: "major" },
-  { source: "CaughtOffside", title: "FSG back Arne Slot to stay as Liverpool manager next season despite fan fury and PSG defeat", time: "1d ago", category: "major" },
-  { source: "Anfield Watch", title: "Alisson says yes to Juventus after breakthrough in transfer talks — three-year deal on table", time: "1d ago", category: "major" },
-  { source: "TeamTalk", title: "Liverpool and Real Madrid working on blockbuster Camavinga–Mac Allister swap deal for summer", time: "1d ago", category: "major" },
-  { source: "This Is Anfield", title: "Slot explains Salah snub vs PSG: 'It was about surviving, better for Mo to save his energy'", time: "2d ago", category: "fan" },
-  { source: "ESPN", title: "Wasteful PSG leave door open for Liverpool despite dominant 2-0 first-leg win in Paris", time: "2d ago", category: "major" },
-  { source: "Sky Sports", title: "PSG 2-0 Liverpool: Doué and Kvaratskhelia condemn Reds to first-leg defeat in Champions League QF", time: "3d ago", category: "major" },
-  { source: "Liverpool FC", title: "Injury update: Alisson, Chiesa, Frimpong and Salah — latest return dates confirmed", time: "4d ago", category: "official" },
-  { source: "This Is Anfield", title: "Konaté contract talks 'advancing' — Liverpool defender closer than ever to new long-term deal", time: "4d ago", category: "official" },
-  { source: "This Is Anfield", title: "Frimpong injury nightmare: subbed after 13 mins for Netherlands — fourth hamstring issue this season", time: "1w ago", category: "fan" },
+  { source: "Sky Sports", title: "Liverpool 2-0 Fulham: Ngumoha breaks Sterling's Anfield record as youngest PL scorer, Salah adds second in crucial win", time: "today", category: "major" },
+  { source: "Liverpool.com", title: "Arne Slot finds winning formula — 5 talking points as Liverpool end three-game losing streak vs Fulham", time: "today", category: "fan" },
+  { source: "Opta Analyst", title: "Liverpool 2-0 Fulham stats: Reds' past and future lead the way as Salah and Ngumoha lighten the mood", time: "today", category: "major" },
+  { source: "This Is Anfield", title: "Liverpool 2-0 Fulham player ratings: Ngumoha electric, Wirtz pulls strings as Reds bounce back", time: "today", category: "fan" },
+  { source: "ESPN", title: "Slot relieved after Fulham win but admits Liverpool were 'ripped apart' by PSG — second leg Tuesday at Anfield", time: "today", category: "major" },
+  { source: "Rousing The Kop", title: "Liverpool emerge as favourites to land £60m Joao Gomes — Brazilian midfielder 'convinced' by Anfield move", time: "1d ago", category: "major" },
+  { source: "VAVEL", title: "Arne Slot says Liverpool 'can be much more competitive' as he cites club history ahead of PSG second leg", time: "1d ago", category: "fan" },
+  { source: "CaughtOffside", title: "FSG back Arne Slot to stay as Liverpool manager next season despite fan fury and PSG defeat", time: "2d ago", category: "major" },
+  { source: "TeamTalk", title: "Liverpool and Real Madrid working on blockbuster Camavinga–Mac Allister swap deal for summer", time: "3d ago", category: "major" },
+  { source: "Anfield Watch", title: "Alisson says yes to Juventus after breakthrough in transfer talks — three-year deal on table", time: "3d ago", category: "major" },
+  { source: "ESPN", title: "Wasteful PSG leave door open for Liverpool despite dominant 2-0 first-leg win in Paris", time: "4d ago", category: "major" },
+  { source: "This Is Anfield", title: "Konaté contract talks 'advancing' — Liverpool defender closer than ever to new long-term deal", time: "5d ago", category: "official" },
+  { source: "Liverpool.com", title: "Isak comeback: Slot says striker returned 'stronger and fitter' after 100+ days out with broken leg", time: "5d ago", category: "official" },
   { source: "Sky Sports", title: "Salah replacement hunt: Ndiaye, Kofane, and Bournemouth's Rayan on Liverpool shortlist", time: "1w ago", category: "major" },
   { source: "Sky Sports", title: "Mohamed Salah: Liverpool forward confirms he will leave club at end of season", time: "3w ago", category: "major" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
 const NEXT_MATCH = {
-  opponent: "Fulham",
-  shortName: "FUL",
+  opponent: "PSG",
+  shortName: "PSG",
   home: true,
-  date: "2026-04-11T16:30:00",
-  competition: "PL",
+  date: "2026-04-14T20:00:00",
+  competition: "UCL",
   venue: "Anfield",
-  broadcast: "NBC",
+  broadcast: "CBS",
 };
 
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
 // result: "W" | "D" | "L"
 const RESULTS = [
+  { date: "2026-04-11", opponent: "Fulham",        home: true,  score: "2-0", competition: "PL",   result: "W", scorers: "Ngumoha, Salah" },
   { date: "2026-04-08", opponent: "PSG",          home: false, score: "0-2", competition: "UCL",  result: "L", scorers: "" },
   { date: "2026-04-04", opponent: "Man City",     home: false, score: "0-4", competition: "FA",   result: "L", scorers: "" },
   { date: "2026-03-21", opponent: "Brighton",     home: false, score: "1-2", competition: "PL",   result: "L", scorers: "Kerkez" },

@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2025-26 Season · Updated Apr 3, 2026) ────────
+// ─── Liverpool FC Player Data (2025-26 Season · Updated Apr 12, 2026) ────────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -16,7 +16,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 15, goals: 0, assists: 0, cleanSheets: 4, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 7.0, status: "fit", injuryNote: null, image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 16, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 7.0, status: "fit", injuryNote: null, image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -28,7 +28,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 34, appearances: 37, goals: 3, assists: 1, cleanSheets: 10, xG: 2.8, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.1, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 34, appearances: 38, goals: 3, assists: 1, cleanSheets: 11, xG: 2.8, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.1, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -38,7 +38,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 34, goals: 2, assists: 0, cleanSheets: 9, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 7.1, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
+    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 35, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 7.1, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
     physical: { height: 194, weight: 95, pace: 78, acceleration: 76, sprintSpeed: 80 },
     career: [
       { years: "2014-2017", club: "Sochaux", fee: null, type: "youth" },
@@ -55,7 +55,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 6, name: "Andy Robertson", number: 26, position: "DEF", nationality: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland", age: 32, appearances: 24, goals: 0, assists: 3, cleanSheets: 7, xG: 0.5, tacklesPer90: 2.3, passCompletion: 83, progressiveCarries: 4.2, form: 6.5, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p122798.png",
+    id: 6, name: "Andy Robertson", number: 26, position: "DEF", nationality: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland", age: 32, appearances: 25, goals: 0, assists: 3, cleanSheets: 8, xG: 0.5, tacklesPer90: 2.3, passCompletion: 83, progressiveCarries: 4.2, form: 6.5, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p122798.png",
     physical: { height: 178, weight: 70, pace: 79, acceleration: 81, sprintSpeed: 77 },
     career: [
       { years: "2010-2013", club: "Queen's Park", fee: null, type: "senior" },
@@ -85,7 +85,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 31, goals: 1, assists: 4, cleanSheets: 6, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.9, status: "doubtful", injuryNote: "Fitness doubt for Fulham (Apr 11) alongside Gomez — started vs PSG (Apr 8) but managing 4th hamstring issue this season", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 32, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.9, status: "doubtful", injuryNote: "Started vs Fulham (Apr 11) despite fitness concerns — managing 4th hamstring issue this season; availability for PSG 2nd leg (Apr 14) TBD", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -124,7 +124,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 36, goals: 2, assists: 3, cleanSheets: null, xG: 1.8, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 7.0, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 37, goals: 2, assists: 3, cleanSheets: null, xG: 1.8, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 7.0, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -133,7 +133,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 35, goals: 5, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.4, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 36, goals: 5, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.4, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -143,7 +143,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 42, goals: 11, assists: 7, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.5, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 43, goals: 11, assists: 7, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.5, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -173,7 +173,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 28, goals: 5, assists: 6, cleanSheets: null, xG: 4.5, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.0, status: "fit", injuryNote: null, image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 29, goals: 5, assists: 6, cleanSheets: null, xG: 4.5, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.0, status: "fit", injuryNote: null, image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -201,7 +201,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 34, goals: 8, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Fit but unused sub vs PSG (Apr 8) — Slot: 'better for Mo to save his energy'; confirmed leaving Liverpool end of season", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 35, goals: 9, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Scored vs Fulham (Apr 11) after being unused sub vs PSG (Apr 8); confirmed leaving Liverpool end of season", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -213,7 +213,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 33, goals: 8, assists: 4, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.2, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 34, goals: 8, assists: 5, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.2, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -222,7 +222,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — came off bench vs PSG (Apr 8) for first appearance in 4 months; bench again vs Fulham (Apr 11) as Slot builds fitness gradually", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — returned vs PSG (Apr 8) after 4 months out; bench vs Fulham (Apr 11); fitness building ahead of PSG 2nd leg (Apr 14)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -244,7 +244,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 8, goals: 1, assists: 0, cleanSheets: null, xG: 1.2, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 6.3, status: "fit", injuryNote: null, image: "https://www.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 9, goals: 2, assists: 1, cleanSheets: null, xG: 1.2, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Youngest ever PL scorer at Anfield (17y 225d) — broke Sterling's record vs Fulham (Apr 11)", image: "https://www.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -300,18 +300,19 @@ export const TEAM_LOGOS = {
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
 export const NEXT_MATCH = {
-  opponent: "Fulham",
-  shortName: "FUL",
+  opponent: "PSG",
+  shortName: "PSG",
   home: true,
-  date: "2026-04-11T16:30:00",
-  competition: "PL",
+  date: "2026-04-14T20:00:00",
+  competition: "UCL",
   venue: "Anfield",
-  broadcast: "NBC",
+  broadcast: "CBS",
 };
 
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
 // result: "W" | "D" | "L"
 export const RESULTS = [
+  { date: "2026-04-11", opponent: "Fulham",        home: true,  score: "2-0", competition: "PL",   result: "W", scorers: "Ngumoha, Salah" },
   { date: "2026-04-08", opponent: "PSG",          home: false, score: "0-2", competition: "UCL",  result: "L", scorers: "" },
   { date: "2026-04-04", opponent: "Man City",     home: false, score: "0-4", competition: "FA",   result: "L", scorers: "" },
   { date: "2026-03-21", opponent: "Brighton",     home: false, score: "1-2", competition: "PL",   result: "L", scorers: "Kerkez" },
@@ -334,51 +335,57 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-11T14:00:00Z",
+  generatedAt: "2026-04-12T12:00:00Z",
   summary:
-    "As of April 11: It's matchday at Anfield — Liverpool host Fulham today (5:30pm BST) desperate to snap a three-game losing streak across all competitions. Salah is expected to return to the starting XI after being controversially benched for the entire PSG defeat, while Isak will again be on the bench as Slot manages his comeback. In transfer news, Liverpool have emerged as favourites to sign Wolves midfielder Joao Gomes for around £45-60m this summer, adding to a busy off-season that already includes talks over a Camavinga–Mac Allister swap with Real Madrid and Alisson's likely move to Juventus. The second leg vs PSG at Anfield on Tuesday looms large.",
+    "As of April 12: Liverpool snapped a three-game losing streak yesterday with a 2-0 win over Fulham at Anfield, goals from 17-year-old Rio Ngumoha — who broke Raheem Sterling's record as Liverpool's youngest ever PL scorer at Anfield — and Mohamed Salah. All eyes now turn to Tuesday's Champions League quarter-final second leg against PSG at Anfield, where Liverpool must overturn a 2-0 deficit. In transfer news, Liverpool are favourites to sign Wolves' Joao Gomes for £45-60m, while a sensational Camavinga–Mac Allister swap with Real Madrid is being explored. FSG have backed Arne Slot to continue as manager next season despite a turbulent campaign.",
   keyTopics: [
     {
-      title: "Matchday: Liverpool vs Fulham — Salah Returns, Isak on Bench",
+      title: "Liverpool 2-0 Fulham: Ngumoha Breaks Record, Salah Seals Win",
       detail:
-        "Today, April 11, 5:30pm BST at Anfield: Liverpool host Fulham in Matchweek 32, needing to end three straight defeats. Slot is expected to restore Salah to the starting XI after the Egyptian was controversially unused vs PSG. Isak will be on the bench again as his match fitness builds. Frimpong and Gomez are both fitness doubts at right-back. Alisson, Bradley, Leoni, and Endo remain unavailable.",
+        "Played April 11 at Anfield: Rio Ngumoha became Liverpool's youngest ever Premier League scorer at Anfield (17 years, 225 days), breaking Raheem Sterling's 2012 record, with a brilliant curled finish in the 36th minute after a driving Wirtz run. Salah added a second four minutes later. Liverpool ended a run of three consecutive defeats across all competitions.",
       category: "matches",
+    },
+    {
+      title: "PSG Second Leg Tuesday — Liverpool Must Overturn 2-0 Deficit",
+      detail:
+        "Liverpool host PSG at Anfield on Tuesday April 14 (8pm BST) needing to overturn a 2-0 first-leg deficit to reach the Champions League semi-finals. Slot cited Liverpool's famous 2019 Barcelona comeback as inspiration, saying Liverpool 'can be much more competitive' at Anfield. The winner faces Bayern Munich or Real Madrid.",
+      category: "matches",
+    },
+    {
+      title: "Slot Finds Winning Formula — Pressure Eased After Fulham",
+      detail:
+        "Reported April 11-12 by Liverpool.com and Sky Sports: Slot made five changes from the PSG defeat, restored Salah to the starting XI, and was rewarded with a much-improved display. Slot admitted he wanted more changes but was 'out of options' due to injuries. The win moves Liverpool four points clear of Chelsea in the race for a top-four finish.",
+      category: "general",
     },
     {
       title: "Liverpool Favourites to Sign Joao Gomes — £45-60m Deal",
       detail:
-        "Reported April 10-11 by Rousing The Kop, Anfield Index, and The Hard Tackle: Liverpool have emerged as front-runners to sign Wolves midfielder Joao Gomes this summer. The Brazilian, who has previously expressed his desire to play for Liverpool, is valued at £45-60m. Chelsea and Man United also interested but Liverpool are now in pole position.",
+        "Reported April 10-11 by Rousing The Kop, Anfield Index, and The Hard Tackle: Liverpool have emerged as front-runners to sign Wolves midfielder Joao Gomes this summer. The Brazilian has expressed his desire to play for Liverpool and Wolves are likely relegation-bound. Valued at £45-60m but price may drop. Chelsea and Man United also interested.",
       category: "transfers",
     },
     {
       title: "FSG Back Slot to Stay — Manager Confirmed for Next Season",
       detail:
-        "Reported April 10 by CaughtOffside and The Telegraph: Fenway Sports Group have made the decision to retain Arne Slot as manager for the 2026-27 season. Senior figures including sporting director Richard Hughes and football CEO Michael Edwards believe Slot should be allowed to continue the rebuild despite Liverpool's disappointing campaign.",
+        "Reported April 10 by CaughtOffside and The Telegraph: Despite conflicting reports, FSG have made the decision to retain Arne Slot for 2026-27. Senior figures including Richard Hughes and Michael Edwards believe Slot should continue the rebuild. Internal belief remains strong despite a campaign that has unraveled in recent months.",
       category: "general",
     },
     {
       title: "Alisson Says Yes to Juventus — Breakthrough in Transfer Talks",
       detail:
-        "Reported April 9-10 by Anfield Watch and Rousing The Kop: Alisson Becker has opened the door to a move to Juventus, with a three-year deal worth €8m/season on the table. Liverpool would seek €15-20m for the 33-year-old goalkeeper, who remains sidelined with a hamstring injury.",
+        "Reported April 9-10 by Anfield Watch and Rousing The Kop: Alisson Becker has opened the door to a move to Juventus, with a three-year deal worth €8m/season on the table. Liverpool would seek €15-20m for the 33-year-old goalkeeper, who remains sidelined with a hamstring injury and is not expected to play again this season.",
       category: "transfers",
     },
     {
       title: "Liverpool & Real Madrid Working on Camavinga–Mac Allister Swap",
       detail:
-        "Reported April 9 by TeamTalk, The Hard Tackle, and multiple outlets: Intermediaries are working on a blockbuster deal that would see Eduardo Camavinga move to Anfield while Alexis Mac Allister heads to the Bernabéu. Financial Fair Play complications mean it may not be a direct swap, but both clubs are actively working on the deal.",
+        "Reported April 9 by TeamTalk, The Hard Tackle, and ESPN: Intermediaries are working on a blockbuster deal that would see Eduardo Camavinga move to Anfield while Alexis Mac Allister heads to the Bernabéu. FFP complications mean it may not be a direct swap, but both clubs are actively exploring the deal for this summer.",
       category: "transfers",
     },
     {
-      title: "PSG 2-0 Liverpool: Must Overturn Deficit Tuesday at Anfield",
+      title: "Isak's Comeback Continues — Bench Role vs Fulham",
       detail:
-        "Played April 8: Désiré Doué scored in the 11th minute (deflected off Gravenberch) and Kvaratskhelia added a solo goal on 65 minutes. Liverpool had zero shots on target. The second leg at Anfield is Tuesday April 14 — Liverpool must overturn a two-goal deficit to reach the semi-finals against Bayern Munich or Real Madrid.",
-      category: "matches",
-    },
-    {
-      title: "Slot Explains Salah Snub: 'It Was About Surviving'",
-      detail:
-        "Reported April 9 by This Is Anfield and Liverpool.com: Slot defended his decision to leave Salah as an unused substitute in the PSG defeat, saying it was 'better for him to save his energy' as Liverpool were merely 'surviving'. Liverpool were outshot 18-3 and had just 24% possession in Paris.",
-      category: "general",
+        "Update April 11-12: Alexander Isak was again on the bench vs Fulham as Slot gradually builds his fitness after 100+ days out with a broken leg. Slot says the Swede has returned 'stronger and fitter' and his game time will be increased. Could feature more prominently vs PSG on Tuesday.",
+      category: "injuries",
     },
     {
       title: "Konaté Contract Talks 'Advancing' — Deal Close",
@@ -387,27 +394,21 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "Frimpong and Gomez Both Doubts — Right-Back Crisis Deepens",
+      title: "Frimpong Started vs Fulham Despite Fitness Concerns",
       detail:
-        "Confirmed April 11: Both Jeremie Frimpong and Joe Gomez are fitness doubts for today's Fulham match, leaving Slot with a right-back headache. Frimpong suffered his fourth injury of the season during the international break but has been managed back. Bradley remains out for the season.",
+        "Confirmed April 11: Jeremie Frimpong started at right-back vs Fulham despite being a pre-match fitness doubt with his fourth hamstring issue of the season. He was also forced off after 13 minutes for Netherlands during the international break. Bradley remains out for the season with a knee injury.",
       category: "injuries",
     },
     {
-      title: "Isak's Comeback: Returned Stronger After 100+ Days Out",
+      title: "Robertson Confirmed Leaving — Tottenham Frontrunners",
       detail:
-        "Update April 10-11: Isak came off the bench vs PSG (his first appearance since December's broken leg at Spurs). Slot says the Swede has returned 'stronger and fitter' and his game time will be gradually increased. Expected to feature off the bench again vs Fulham today.",
-      category: "injuries",
-    },
-    {
-      title: "Robertson Confirmed Leaving — Balde and Kerkez Future",
-      detail:
-        "Confirmed in recent weeks: Andy Robertson will leave Liverpool at the end of the season. Kerkez is firmly first-choice left-back. Liverpool are also targeting Barcelona's Alejandro Balde as additional cover for the summer.",
+        "Confirmed in recent weeks: Andy Robertson will leave Liverpool at the end of the season. Tottenham Hotspur have emerged as frontrunners to sign him. Kerkez is firmly first-choice left-back, and Liverpool are also targeting Barcelona's Alejandro Balde as summer cover.",
       category: "transfers",
     },
     {
       title: "Salah Exit Confirmed — Nine-Year Anfield Chapter Closing",
       detail:
-        "Confirmed in March: Mohamed Salah will leave Liverpool at the end of the season on a free transfer despite having 12 months left on his contract. Liverpool are actively scouting replacements including Ndiaye, Kofane, and Bournemouth's Rayan. Saudi Arabian clubs are reportedly interested.",
+        "Confirmed in March: Mohamed Salah will leave Liverpool at the end of the season. San Diego FC among the clubs most interested. Liverpool are actively scouting replacements including Iliman Ndiaye, who is viewed as a potential successor. Salah scored vs Fulham yesterday — still contributing in his final weeks.",
       category: "transfers",
     },
   ],
@@ -423,6 +424,8 @@ export const NEWS_DIGEST = {
     "Rousing The Kop",
     "The Hard Tackle",
     "Anfield Index",
+    "Opta Analyst",
+    "VAVEL",
     "NBC Sports",
   ],
 };
