@@ -335,99 +335,100 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-13T14:00:00Z",
+  generatedAt: "2026-04-14T10:00:00Z",
   summary:
-    "As of April 13: All eyes are on tomorrow's Champions League quarter-final second leg at Anfield, where Liverpool must overturn a 2-0 deficit against PSG — Slot is expected to revert to an aggressive 4-3-3 after the failed back-five experiment in Paris. Curtis Jones has been ruled out with a groin injury, joining Alisson, Endo, Bradley, and Leoni on the sidelines. The managerial situation remains a major talking point: Xabi Alonso's return is now described as 'a genuine possibility' by Football365, though FSG insist they are 'steadfastly behind' Slot. In transfer news, Joao Gomes has reportedly chosen Liverpool over Man United, while Yan Diomande is said to be 'close' to agreeing a move from RB Leipzig.",
+    "MATCH DAY — April 14: Tonight is the night. Liverpool host PSG at Anfield (8pm BST) for the Champions League quarter-final second leg, trailing 2-0 from Paris and in need of an Anfield miracle. Slot has vowed his side will 'take risks' and 'have the ball more' — a clear departure from the cautious back-five approach that backfired in the first leg. Curtis Jones is out with a groin injury; Alisson, Endo, Bradley and Leoni remain sidelined, with Isak likely starting on the bench as his fitness builds. Off the pitch, David Ornstein reported today that FSG are 'steadfastly behind' Slot and planning four summer signings, even as Xabi Alonso links refuse to die down. Saturday's 2-0 win over Fulham — lit up by 17-year-old Rio Ngumoha breaking Sterling's Anfield record — restored some confidence heading into tonight.",
   keyTopics: [
     {
-      title: "PSG Second Leg Tomorrow — Slot to Revert to 4-3-3 at Anfield",
+      title: "TONIGHT: Liverpool vs PSG, Champions League Second Leg at Anfield (8pm BST)",
       detail:
-        "Previewed April 13 by Sports Mole and Yahoo Sports: Liverpool host PSG at Anfield on Tuesday April 14 (8pm BST) needing to overturn a 2-0 first-leg deficit. Slot is expected to ditch the back-five and revert to an aggressive 4-3-3, citing Liverpool's famous 2019 Barcelona comeback as inspiration. Curtis Jones is confirmed out; Isak could feature off the bench. PSG have no new injury concerns and may welcome Barcola back.",
+        "Previewed today by Sky Sports, Sports Mole, Opta Analyst and SI: Liverpool host PSG tonight needing to overturn a 2-0 aggregate deficit. Slot this morning said 'That's the first thing we have to change tomorrow [now today], to have the ball more' and insisted the Reds will take risks to achieve 'special things.' Predicted XI: Mamardashvili; Gomez, Konaté, Van Dijk, Kerkez; Gravenberch, Mac Allister; Salah, Szoboszlai, Ngumoha; Ekitiké. Referee is Italy's Maurizio Mariani. PSG are boosted by Bradley Barcola's unexpected return to the travelling squad.",
       category: "matches",
     },
     {
-      title: "Xabi Alonso Return Now 'A Genuine Possibility' — Slot Reportedly Offered to Resign",
+      title: "Ornstein: FSG 'Steadfastly Behind' Slot — Four Summer Signings Being Planned",
       detail:
-        "Reported April 12-13 by Football365 and TeamTalk: Xabi Alonso's return to Liverpool is described as 'a genuine possibility' with Slot 'fully aware' of the situation after reportedly offering to resign. French journalist Romain Molina claims Slot is 'unlikely' to be in charge next season. However, FSG remain 'steadfastly behind' Slot according to The Telegraph, creating a tug-of-war of conflicting reports.",
+        "Reported this morning by David Ornstein (The Athletic) and TeamTalk: Fenway Sports Group are determined to stick with Arne Slot into next season, giving him another transfer window to shape the squad. The club believe three to four first-team additions are needed to return to title-challenging level. Targets reportedly include a Robertson replacement (David Raum named), Yan Diomande and Joao Gomes.",
       category: "general",
     },
     {
-      title: "Joao Gomes Chooses Liverpool Over Man United",
+      title: "Xabi Alonso Return Still 'A Genuine Possibility' — Conflicting Reports Continue",
       detail:
-        "Reported April 12 by The Peoples Person and Yahoo Sports: Brazilian midfielder Joao Gomes has made his preference clear, choosing Liverpool over Manchester United. Wolves' asking price of £60m is expected to drop to £40-45m with the club heading for relegation. Liverpool had explored a January move but held off; a summer deal now looks likely.",
+        "Reported yesterday by Football365: Despite Ornstein's FSG-backing story, the Alonso-to-Liverpool speculation persists. French journalist Romain Molina claims Slot is 'unlikely' to be in charge next season and has reportedly offered to resign. The tug-of-war between the two narratives remains the dominant off-pitch story heading into the PSG second leg.",
+      category: "general",
+    },
+    {
+      title: "Andy Robertson in Advanced Talks with Tottenham — Deal Waiting on Relegation Outcome",
+      detail:
+        "Reported yesterday by Empire of the Kop, BBC and Fabrizio Romano: Tottenham's verbal agreement with Andy Robertson is effectively done, with all financial terms in place for the free transfer this summer. The one hold-up: Spurs staying in the Premier League — they currently sit 18th. Liverpool confirmed Robertson's exit on April 9. De Zerbi has personally sanctioned the move.",
       category: "transfers",
     },
     {
-      title: "Robertson Verbal Agreement with Tottenham — Hinges on Relegation",
+      title: "Joao Gomes Picks Liverpool Over Man United",
       detail:
-        "Reported April 11-12 by CaughtOffside and Fabrizio Romano: Tottenham have secured a verbal agreement with Andy Robertson, with all terms in place. However, the deal hinges on Spurs avoiding relegation — they sit 18th in the table. Liverpool confirmed Robertson's departure on April 9. De Zerbi supports the signing.",
+        "Reported two days ago by The Peoples Person and Yahoo Sports: Brazilian midfielder Joao Gomes has made his preference clear, choosing Liverpool over Manchester United. Wolves' asking price of £60m is expected to drop to £40-45m with the club heading for relegation. Liverpool had explored a January move but held off; a summer deal now looks the priority.",
       category: "transfers",
+    },
+    {
+      title: "Curtis Jones Out of PSG — Groin Injury from Fulham Win",
+      detail:
+        "Confirmed two days ago by Liverpool.com: Curtis Jones came off at half time vs Fulham with a groin problem and Slot has ruled him out of tonight's PSG second leg. He joins Alisson (hamstring), Endo (ankle), Bradley (knee), and Leoni (ACL) on the injury list. Frimpong has ongoing hamstring concerns but started vs Fulham and is expected to be available tonight.",
+      category: "injuries",
     },
     {
       title: "Yan Diomande 'Close' to Liverpool Agreement — €100m Salah Replacement",
       detail:
-        "Reported April 11-12 by FootballTransfers and The Hard Tackle: RB Leipzig winger Yan Diomande is reportedly on the verge of agreeing a move to Liverpool for 2026-27. The 19-year-old Ivorian, valued at €100m, has scored 11 goals and provided 8 assists this season. Man United are also interested but Liverpool are frontrunners.",
+        "Reported three days ago by FootballTransfers and The Hard Tackle: RB Leipzig winger Yan Diomande is reportedly on the verge of agreeing a move to Liverpool for 2026-27. The 19-year-old Ivorian, valued at €100m, has scored 11 goals and provided 8 assists this season. Man United are also interested but Liverpool are frontrunners.",
       category: "transfers",
     },
     {
-      title: "Liverpool 2-0 Fulham: Ngumoha Breaks Record, Salah Seals Win",
+      title: "Ngumoha Breaks Sterling's Anfield Record — Liverpool 2-0 Fulham",
       detail:
-        "Played April 11 at Anfield: Rio Ngumoha became Liverpool's youngest ever Premier League scorer at Anfield (17 years, 225 days), breaking Raheem Sterling's 2012 record, with a brilliant curled finish in the 36th minute after a driving Wirtz run. Salah added a second four minutes later. Liverpool ended a run of three consecutive defeats.",
+        "Played Saturday (April 11) at Anfield: Rio Ngumoha became Liverpool's youngest ever Premier League scorer at Anfield (17 years, 225 days), breaking Raheem Sterling's 2012 record, with a brilliant curled finish in the 36th minute after a driving Wirtz run. Salah added a second four minutes later. Liverpool ended a run of three consecutive defeats and moved to 5th on 49 points, four points clear in the race for a Champions League spot.",
       category: "matches",
     },
     {
-      title: "Curtis Jones Ruled Out of PSG — Groin Injury",
+      title: "Isak Fitness Building — Bench Role Likely vs PSG",
       detail:
-        "Confirmed April 12 by Liverpool.com: Curtis Jones came off at half time vs Fulham with a groin problem and Slot has ruled him out of the PSG second leg. He joins Alisson (hamstring), Endo (ankle), Bradley (knee), and Leoni (ACL) on the injury list. Frimpong also has ongoing hamstring concerns but is expected to be available.",
+        "Update from Sunday (April 12): Alexander Isak was again on the bench vs Fulham as Slot gradually builds his fitness after 100+ days out with a broken leg/ankle. Slot says the Swede has returned 'stronger and fitter' after two full training weeks. Expected to be a game-changing substitute tonight rather than starter as the Reds chase the tie.",
       category: "injuries",
     },
     {
-      title: "Konaté Contract Extension 'Never Been Closer' — Deal Imminent",
+      title: "Konaté Contract Extension 'Never Been Closer'",
       detail:
-        "Reported April 10-13 by Fox Sports, This Is Anfield, and L'Équipe: Liverpool are 'optimistic' over Konaté's contract extension, with the financial package effectively agreed and only minor details remaining. The France defender wants to resolve his future before the World Cup. Real Madrid and PSG had been free to talk to him since January but there's little sign he'll leave.",
+        "Reported last week by Fox Sports, This Is Anfield and L'Équipe: Liverpool are 'optimistic' over Konaté's contract extension, with the financial package effectively agreed and only minor details remaining. The France defender wants to resolve his future before the World Cup. Real Madrid and PSG have been free to talk to him since January but there's little sign he'll leave.",
       category: "transfers",
-    },
-    {
-      title: "Isak Fitness Building — Could Play Bigger Role vs PSG",
-      detail:
-        "Update April 11-12: Alexander Isak was again on the bench vs Fulham as Slot gradually builds his fitness after 100+ days out with a broken leg. Slot says the Swede has returned 'stronger and fitter' and his game time will increase. Could feature more prominently vs PSG tomorrow.",
-      category: "injuries",
     },
     {
       title: "Liverpool & Real Madrid Working on Camavinga–Mac Allister Swap",
       detail:
-        "Reported April 9 by TeamTalk, The Hard Tackle, and ESPN: Intermediaries are working on a blockbuster deal that would see Eduardo Camavinga move to Anfield while Alexis Mac Allister heads to the Bernabéu. FFP complications mean it may not be a direct swap, but both clubs are actively exploring the deal for this summer.",
+        "Reported five days ago by TeamTalk, The Hard Tackle and ESPN: Intermediaries are working on a blockbuster deal that would see Eduardo Camavinga move to Anfield while Alexis Mac Allister heads to the Bernabéu. FFP complications mean it may not be a direct swap, but both clubs are actively exploring the deal for this summer.",
       category: "transfers",
     },
     {
       title: "Salah Exit Confirmed — MLS 'Most Attractive Choice'",
       detail:
-        "Confirmed in March, updated April: Mohamed Salah will leave Liverpool at the end of the season. Bayern Munich have denied approaching him. British media report MLS is currently seen as 'the most attractive choice' for the 33-year-old. Liverpool are scouting Ndiaye and Diomande as successors. Salah scored vs Fulham — still contributing in his final weeks.",
-      category: "transfers",
-    },
-    {
-      title: "Alisson Says Yes to Juventus — Breakthrough in Transfer Talks",
-      detail:
-        "Reported April 9-10 by Anfield Watch and Rousing The Kop: Alisson Becker has opened the door to a move to Juventus, with a three-year deal worth €8m/season on the table. Liverpool would seek €15-20m for the 33-year-old goalkeeper, who remains sidelined with a hamstring injury and is not expected to play again this season.",
+        "Confirmed in March, updated this week: Mohamed Salah will leave Liverpool at the end of the season. Bayern Munich have denied approaching him. British media report MLS is currently seen as 'the most attractive choice' for the 33-year-old. Liverpool are scouting Ndiaye and Diomande as successors. Salah scored vs Fulham — still contributing in his final weeks.",
       category: "transfers",
     },
   ],
   sources: [
     "Sky Sports",
+    "Sports Mole",
+    "Opta Analyst",
+    "Sports Illustrated",
+    "Yahoo Sports",
     "ESPN",
     "This Is Anfield",
-    "CaughtOffside",
+    "Empire of the Kop",
     "TeamTalk",
     "Liverpool.com",
-    "Liverpool FC Official",
-    "Rousing The Kop",
-    "The Hard Tackle",
     "Football365",
     "FootballTransfers",
     "Fox Sports",
-    "Sports Mole",
-    "NBC Sports",
     "The Peoples Person",
+    "The Hard Tackle",
+    "BBC Sport",
   ],
 };
 
