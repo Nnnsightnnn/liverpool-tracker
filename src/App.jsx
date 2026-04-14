@@ -508,17 +508,25 @@ function LiveNewsFeed({ filter }) {
     setLoading(true);
     setError(null);
 
+    const isDev = window.location.hostname === "localhost";
     Promise.allSettled(
       RSS_FEEDS.map((feed) => {
-        const isDev = window.location.hostname === "localhost";
-        const url = isDev
-          ? "/api/rss?url=" + encodeURIComponent(feed.url)
-          : "https://api.allorigins.win/raw?url=" + encodeURIComponent(feed.url);
-        return fetch(url)
-          .then((r) => { if (!r.ok) throw new Error(r.status); return r.text(); })
-          .then((xml) => parseRSSItems(xml, feed));
-      }
-      )
+        if (isDev) {
+          return fetch("/api/rss?url=" + encodeURIComponent(feed.url))
+            .then((r) => { if (!r.ok) throw new Error(r.status); return r.text(); })
+            .then((xml) => parseRSSItems(xml, feed));
+        }
+        return fetch("https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(feed.url))
+          .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+          .then((data) => (data.items || []).map((item) => ({
+            title: item.title || "",
+            link: item.link || "",
+            pubDate: item.pubDate || "",
+            source: feed.name,
+            category: feed.category,
+            color: feed.color,
+          })));
+      })
     ).then((results) => {
       if (cancelled) return;
       const all = results
