@@ -509,10 +509,15 @@ function LiveNewsFeed({ filter }) {
     setError(null);
 
     Promise.allSettled(
-      RSS_FEEDS.map((feed) =>
-        fetch("/api/rss?url=" + encodeURIComponent(feed.url))
+      RSS_FEEDS.map((feed) => {
+        const isDev = window.location.hostname === "localhost";
+        const url = isDev
+          ? "/api/rss?url=" + encodeURIComponent(feed.url)
+          : "https://api.allorigins.win/raw?url=" + encodeURIComponent(feed.url);
+        return fetch(url)
           .then((r) => { if (!r.ok) throw new Error(r.status); return r.text(); })
-          .then((xml) => parseRSSItems(xml, feed))
+          .then((xml) => parseRSSItems(xml, feed));
+      }
       )
     ).then((results) => {
       if (cancelled) return;
