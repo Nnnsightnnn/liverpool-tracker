@@ -125,39 +125,37 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Sky Sports", title: "Slot: Liverpool will take risks to achieve 'special things' vs PSG at Anfield tonight — 8pm BST kick-off", time: "today", category: "major" },
-  { source: "Sports Mole", title: "Liverpool vs PSG second leg preview: Reds must change approach, have the ball more to overturn 2-0 deficit", time: "today", category: "major" },
-  { source: "Opta Analyst", title: "Can Anfield host another famous Champions League turnaround? Liverpool vs PSG prediction and key stats", time: "today", category: "major" },
-  { source: "Sports Illustrated", title: "Liverpool vs PSG — predicted XIs: Mamardashvili to start, Ngumoha in attack, Gomez keeps place in back four", time: "today", category: "major" },
-  { source: "Yahoo Sports", title: "Predicted Liverpool lineup vs PSG: Slot to recall Salah and Gravenberch as Reds attack PSG's high line", time: "today", category: "fan" },
-  { source: "TeamTalk", title: "Ornstein: FSG 'steadfastly behind' Arne Slot — Liverpool plan FOUR signings this summer including Robertson replacement", time: "today", category: "major" },
-  { source: "Football365", title: "Xabi Alonso return to Liverpool now 'a genuine possibility' with Slot 'fully aware' after reportedly offering to resign", time: "1d ago", category: "major" },
-  { source: "Empire of the Kop", title: "Andy Robertson in advanced talks with Tottenham for free transfer — BBC confirm deal ready, one condition remains", time: "1d ago", category: "major" },
-  { source: "The Peoples Person", title: "Joao Gomes has made his choice between Man United and Liverpool — Brazilian midfielder picks Anfield", time: "2d ago", category: "major" },
-  { source: "Liverpool.com", title: "Curtis Jones ruled out of PSG second leg after groin injury sustained in Fulham win", time: "2d ago", category: "official" },
-  { source: "FootballTransfers", title: "Yan Diomande 'close' to transfer agreement with Liverpool — €100m Leipzig winger lined up as Salah replacement", time: "3d ago", category: "major" },
-  { source: "Sky Sports", title: "Liverpool 2-0 Fulham: Ngumoha breaks Sterling's Anfield record as youngest PL scorer, Salah adds second", time: "3d ago", category: "major" },
-  { source: "ESPN", title: "Slot: 'Special' Rio Ngumoha scored Salah-like goal — Liverpool boss hails 17-year-old's long-term future", time: "3d ago", category: "major" },
-  { source: "Fox Sports", title: "Liverpool 'optimistic' over Konaté contract extension — France defender eager to resolve future before World Cup", time: "4d ago", category: "official" },
-  { source: "TeamTalk", title: "Liverpool and Real Madrid working on blockbuster Camavinga–Mac Allister swap deal for summer", time: "5d ago", category: "major" },
-  { source: "ESPN", title: "PSG 2-0 Liverpool: Doué and Kvaratskhelia strike as Reds are played off the park in Paris first leg", time: "6d ago", category: "major" },
-  { source: "Sky Sports", title: "Mohamed Salah: Liverpool forward confirms he will leave club at end of season", time: "3w ago", category: "major" },
+  { source: "BBC Sport", title: "Liverpool 0-2 PSG (0-4 agg): Dembélé double ends Reds' Champions League campaign at Anfield", time: "today", category: "major" },
+  { source: "Sky Sports", title: "Slot breaks silence after UCL exit: 'I still believe in this team — we will come back stronger'", time: "today", category: "major" },
+  { source: "This Is Anfield", title: "How PSG's throw-ins exposed Liverpool's tactical naivety — Slot's decisions under scrutiny after UCL exit", time: "today", category: "fan" },
+  { source: "ESPN", title: "Julien Laurens: Slot's decisions vs PSG were indefensible — Liverpool's UCL exit was a tactical catastrophe", time: "today", category: "major" },
+  { source: "Football365", title: "Xabi Alonso now 'realistic option' as Liverpool board meets for post-PSG debrief after 4-0 aggregate humiliation", time: "today", category: "major" },
+  { source: "Liverpool.com", title: "Eduardo Camavinga transfer-listed by Real Madrid at €50m — Liverpool on red alert for summer move", time: "1d ago", category: "major" },
+  { source: "This Is Anfield", title: "Frimpong-Bradley crisis: Liverpool's right-back dilemma shapes summer transfer window after injury-hit season", time: "1d ago", category: "fan" },
+  { source: "Empire of the Kop", title: "Andy Robertson in advanced talks with Tottenham — BBC confirm free transfer deal virtually agreed for summer", time: "2d ago", category: "major" },
+  { source: "Liverpool.com", title: "Angelo Stiller: Stuttgart demand £81m as Liverpool weigh Endo replacement options this summer", time: "2d ago", category: "major" },
+  { source: "TeamTalk", title: "Joao Gomes picks Liverpool over Man United — £40-45m deal expected after Wolves relegation", time: "3d ago", category: "major" },
+  { source: "Sky Sports", title: "Liverpool 2-0 Fulham: Ngumoha breaks Sterling's Anfield record as youngest PL scorer, Salah adds second", time: "4d ago", category: "major" },
+  { source: "TeamTalk", title: "Ornstein: FSG 'steadfastly behind' Slot — Liverpool planning four summer signings including Robertson replacement", time: "4d ago", category: "official" },
+  { source: "Fox Sports", title: "Liverpool 'optimistic' over Konaté contract extension — France defender close to signing new deal before World Cup", time: "1w ago", category: "official" },
+  { source: "Sky Sports", title: "Mohamed Salah confirms Liverpool exit at end of 2025-26 season — MLS emerging as most likely destination", time: "3w ago", category: "major" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
 const NEXT_MATCH = {
-  opponent: "PSG",
-  shortName: "PSG",
-  home: true,
-  date: "2026-04-14T20:00:00",
-  competition: "UCL",
-  venue: "Anfield",
-  broadcast: "CBS",
+  opponent: "Everton",
+  shortName: "EFC",
+  home: false,
+  date: "2026-04-19T14:00:00",
+  competition: "PL",
+  venue: "Hill Dickinson Stadium",
+  broadcast: "Sky Sports",
 };
 
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
 // result: "W" | "D" | "L"
 const RESULTS = [
+  { date: "2026-04-14", opponent: "PSG",           home: true,  score: "0-2", competition: "UCL",  result: "L", scorers: "" },
   { date: "2026-04-11", opponent: "Fulham",        home: true,  score: "2-0", competition: "PL",   result: "W", scorers: "Ngumoha, Salah" },
   { date: "2026-04-08", opponent: "PSG",          home: false, score: "0-2", competition: "UCL",  result: "L", scorers: "" },
   { date: "2026-04-04", opponent: "Man City",     home: false, score: "0-4", competition: "FA",   result: "L", scorers: "" },

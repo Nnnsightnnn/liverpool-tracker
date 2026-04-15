@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2025-26 Season · Updated Apr 12, 2026) ────────
+// ─── Liverpool FC Player Data (2025-26 Season · Updated Apr 15, 2026) ────────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -6,7 +6,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "injured", injuryNote: "Hamstring injury — ruled out of PSG ties, return expected 'towards end of season'", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "injured", injuryNote: "Hamstring injury — return expected towards end of season, targeting final PL fixtures", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -47,7 +47,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 18, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 6.0, status: "fit", injuryNote: "Started in back-five vs PSG (Apr 8) — available for selection", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 18, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 6.0, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -85,7 +85,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 32, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.9, status: "doubtful", injuryNote: "Started vs Fulham (Apr 11) despite fitness concerns — managing 4th hamstring issue this season; availability for PSG 2nd leg (Apr 14) TBD", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 32, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.9, status: "doubtful", injuryNote: "4th hamstring issue this season — played vs PSG (Apr 14) as wing-back; being managed carefully ahead of Merseyside Derby (Apr 19)", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -153,7 +153,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 21, goals: 1, assists: 2, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.8, form: 6.5, status: "injured", injuryNote: "Groin injury sustained vs Fulham (Apr 11) — ruled out of PSG second leg (Apr 14)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 21, goals: 1, assists: 2, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.8, form: 6.5, status: "injured", injuryNote: "Groin injury sustained vs Fulham (Apr 11) — doubtful for Merseyside Derby (Apr 19)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -201,7 +201,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 35, goals: 9, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Scored vs Fulham (Apr 11) after being unused sub vs PSG (Apr 8); confirmed leaving Liverpool end of season", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 35, goals: 9, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Confirmed leaving Liverpool at end of season; scored vs Fulham (Apr 11); played vs PSG 2nd leg (Apr 14)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -222,7 +222,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — returned vs PSG (Apr 8) after 4 months out; bench vs Fulham (Apr 11); fitness building ahead of PSG 2nd leg (Apr 14)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — returned from 4 months out; played PSG games, fitness building steadily ahead of Merseyside Derby (Apr 19)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -300,18 +300,19 @@ export const TEAM_LOGOS = {
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
 export const NEXT_MATCH = {
-  opponent: "PSG",
-  shortName: "PSG",
-  home: true,
-  date: "2026-04-14T20:00:00",
-  competition: "UCL",
-  venue: "Anfield",
-  broadcast: "CBS",
+  opponent: "Everton",
+  shortName: "EFC",
+  home: false,
+  date: "2026-04-19T14:00:00",
+  competition: "PL",
+  venue: "Hill Dickinson Stadium",
+  broadcast: "Sky Sports",
 };
 
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
 // result: "W" | "D" | "L"
 export const RESULTS = [
+  { date: "2026-04-14", opponent: "PSG",           home: true,  score: "0-2", competition: "UCL",  result: "L", scorers: "" },
   { date: "2026-04-11", opponent: "Fulham",        home: true,  score: "2-0", competition: "PL",   result: "W", scorers: "Ngumoha, Salah" },
   { date: "2026-04-08", opponent: "PSG",          home: false, score: "0-2", competition: "UCL",  result: "L", scorers: "" },
   { date: "2026-04-04", opponent: "Man City",     home: false, score: "0-4", competition: "FA",   result: "L", scorers: "" },
@@ -335,100 +336,96 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-14T10:00:00Z",
+  generatedAt: "2026-04-15T09:00:00Z",
   summary:
-    "MATCH DAY — April 14: Tonight is the night. Liverpool host PSG at Anfield (8pm BST) for the Champions League quarter-final second leg, trailing 2-0 from Paris and in need of an Anfield miracle. Slot has vowed his side will 'take risks' and 'have the ball more' — a clear departure from the cautious back-five approach that backfired in the first leg. Curtis Jones is out with a groin injury; Alisson, Endo, Bradley and Leoni remain sidelined, with Isak likely starting on the bench as his fitness builds. Off the pitch, David Ornstein reported today that FSG are 'steadfastly behind' Slot and planning four summer signings, even as Xabi Alonso links refuse to die down. Saturday's 2-0 win over Fulham — lit up by 17-year-old Rio Ngumoha breaking Sterling's Anfield record — restored some confidence heading into tonight.",
+    "As of April 15, Liverpool are out of Europe — PSG eliminated the Reds with a 2-0 win at Anfield last night (0-4 aggregate), with Ousmane Dembélé scoring twice in the final 20 minutes to end Liverpool's Champions League campaign. Arne Slot's tactical approach is under fierce scrutiny, with analysis published today dissecting how the back-five gamble in Paris and throw-in vulnerabilities exposed the team. Football365 reports that Xabi Alonso is now a 'realistic option' as Liverpool's board convenes a post-PSG debrief. Off the pitch, Real Madrid have transfer-listed Eduardo Camavinga at ~€50m — Liverpool are on red alert — while Andy Robertson's free transfer to Tottenham is described as virtually agreed. Attention now turns to Sunday's historic first-ever Merseyside Derby at Everton's new Hill Dickinson Stadium (April 19, 2pm BST, Sky Sports).",
   keyTopics: [
     {
-      title: "TONIGHT: Liverpool vs PSG, Champions League Second Leg at Anfield (8pm BST)",
+      title: "Liverpool 0-2 PSG (0-4 agg) — UCL Exit: Dembélé Double Ends European Campaign",
       detail:
-        "Previewed today by Sky Sports, Sports Mole, Opta Analyst and SI: Liverpool host PSG tonight needing to overturn a 2-0 aggregate deficit. Slot this morning said 'That's the first thing we have to change tomorrow [now today], to have the ball more' and insisted the Reds will take risks to achieve 'special things.' Predicted XI: Mamardashvili; Gomez, Konaté, Van Dijk, Kerkez; Gravenberch, Mac Allister; Salah, Szoboszlai, Ngumoha; Ekitiké. Referee is Italy's Maurizio Mariani. PSG are boosted by Bradley Barcola's unexpected return to the travelling squad.",
+        "Confirmed last night (April 14): Ousmane Dembélé struck twice in the final 20 minutes to hand PSG a 2-0 win at Anfield and a 4-0 aggregate victory, sending the defending champions through to the semi-finals. Liverpool showed fight for 70 minutes but were ultimately unable to find the goals needed. PSG's UCL title defence remains on track.",
       category: "matches",
     },
     {
-      title: "Ornstein: FSG 'Steadfastly Behind' Slot — Four Summer Signings Being Planned",
+      title: "Slot Under Fire — Tactical Gamble Exposed Across Both UCL Legs",
       detail:
-        "Reported this morning by David Ornstein (The Athletic) and TeamTalk: Fenway Sports Group are determined to stick with Arne Slot into next season, giving him another transfer window to shape the squad. The club believe three to four first-team additions are needed to return to title-challenging level. Targets reportedly include a Robertson replacement (David Raum named), Yan Diomande and Joao Gomes.",
+        "Analysis published today by This Is Anfield and ESPN: Slot's back-five system in Paris (April 8) — with Salah benched and Frimpong/Kerkez as wing-backs — was widely condemned as 'a tactical surrender'. Footage emerged of three consecutive PSG throw-ins dismantling Liverpool's structure. French journalist Romain Molina has claimed Slot reportedly offered to resign after the Paris loss, though Slot denied this premise in his post-match conference last night.",
+      category: "tactics",
+    },
+    {
+      title: "Xabi Alonso Now 'Realistic Option' — Liverpool Board Meets Post-PSG",
+      detail:
+        "Reported today by Football365: Liverpool's board has convened a post-PSG debrief and Xabi Alonso is now being discussed as a genuine managerial option. This contradicts last week's Ornstein report that FSG were 'steadfastly behind' Slot, suggesting the 4-0 aggregate humiliation may have shifted internal thinking. A decision on Slot's future is expected within days.",
       category: "general",
     },
     {
-      title: "Xabi Alonso Return Still 'A Genuine Possibility' — Conflicting Reports Continue",
+      title: "NEXT: First-Ever Derby at Hill Dickinson Stadium — Sunday 19 April, 2pm BST",
       detail:
-        "Reported yesterday by Football365: Despite Ornstein's FSG-backing story, the Alonso-to-Liverpool speculation persists. French journalist Romain Molina claims Slot is 'unlikely' to be in charge next season and has reportedly offered to resign. The tug-of-war between the two narratives remains the dominant off-pitch story heading into the PSG second leg.",
-      category: "general",
+        "Following the UCL exit, Liverpool must regroup quickly for a historic occasion — the first competitive Merseyside Derby at Everton's new waterfront Hill Dickinson Stadium (April 19, 2pm BST, Sky Sports). After 131 years at Goodison Park, this marks a new chapter. Liverpool sit 5th in the PL, fighting to secure a Champions League spot for next season.",
+      category: "matches",
     },
     {
-      title: "Andy Robertson in Advanced Talks with Tottenham — Deal Waiting on Relegation Outcome",
+      title: "Camavinga Transfer-Listed by Real Madrid at ~€50m — Liverpool on Red Alert",
       detail:
-        "Reported yesterday by Empire of the Kop, BBC and Fabrizio Romano: Tottenham's verbal agreement with Andy Robertson is effectively done, with all financial terms in place for the free transfer this summer. The one hold-up: Spurs staying in the Premier League — they currently sit 18th. Liverpool confirmed Robertson's exit on April 9. De Zerbi has personally sanctioned the move.",
+        "Confirmed yesterday (April 14) by Liverpool.com and multiple sources: Real Madrid have placed Eduardo Camavinga on their transfer list. Liverpool have been in contact with his representatives for weeks and 'love' the player. A Camavinga–Mac Allister swap deal is also being explored. Real Madrid are not actively pushing the sale but will listen to offers this summer.",
+      category: "transfers",
+    },
+    {
+      title: "Andy Robertson in 'Advanced Talks' with Tottenham — Free Transfer Virtually Agreed",
+      detail:
+        "Reported two days ago by Empire of the Kop and BBC, confirmed by Fabrizio Romano: Tottenham's move for Robertson is described as virtually agreed, with all financial terms in place for a free transfer this summer. One remaining condition: Spurs avoiding relegation (currently 18th). Liverpool confirmed Robertson's departure on April 9.",
+      category: "transfers",
+    },
+    {
+      title: "Angelo Stiller: Stuttgart Demand £81m — Liverpool Weigh Summer Investment",
+      detail:
+        "Reported two days ago by Liverpool.com: Stuttgart have set an £81m asking price for German international midfielder Angelo Stiller, one of several midfield targets Liverpool are monitoring as a long-term Endo replacement. The 25-year-old has been one of the Bundesliga's standout players this season.",
       category: "transfers",
     },
     {
       title: "Joao Gomes Picks Liverpool Over Man United",
       detail:
-        "Reported two days ago by The Peoples Person and Yahoo Sports: Brazilian midfielder Joao Gomes has made his preference clear, choosing Liverpool over Manchester United. Wolves' asking price of £60m is expected to drop to £40-45m with the club heading for relegation. Liverpool had explored a January move but held off; a summer deal now looks the priority.",
+        "Reported three days ago by TeamTalk: Brazilian midfielder Joao Gomes has made his preference clear, choosing Liverpool over Manchester United. Wolves' asking price is expected to fall to £40-45m due to likely relegation. Liverpool explored a January move but held off; a summer deal is now the priority.",
       category: "transfers",
     },
     {
-      title: "Curtis Jones Out of PSG — Groin Injury from Fulham Win",
+      title: "Liverpool 2-0 Fulham — Ngumoha Breaks Sterling's Anfield Record",
       detail:
-        "Confirmed two days ago by Liverpool.com: Curtis Jones came off at half time vs Fulham with a groin problem and Slot has ruled him out of tonight's PSG second leg. He joins Alisson (hamstring), Endo (ankle), Bradley (knee), and Leoni (ACL) on the injury list. Frimpong has ongoing hamstring concerns but started vs Fulham and is expected to be available tonight.",
-      category: "injuries",
-    },
-    {
-      title: "Yan Diomande 'Close' to Liverpool Agreement — €100m Salah Replacement",
-      detail:
-        "Reported three days ago by FootballTransfers and The Hard Tackle: RB Leipzig winger Yan Diomande is reportedly on the verge of agreeing a move to Liverpool for 2026-27. The 19-year-old Ivorian, valued at €100m, has scored 11 goals and provided 8 assists this season. Man United are also interested but Liverpool are frontrunners.",
-      category: "transfers",
-    },
-    {
-      title: "Ngumoha Breaks Sterling's Anfield Record — Liverpool 2-0 Fulham",
-      detail:
-        "Played Saturday (April 11) at Anfield: Rio Ngumoha became Liverpool's youngest ever Premier League scorer at Anfield (17 years, 225 days), breaking Raheem Sterling's 2012 record, with a brilliant curled finish in the 36th minute after a driving Wirtz run. Salah added a second four minutes later. Liverpool ended a run of three consecutive defeats and moved to 5th on 49 points, four points clear in the race for a Champions League spot.",
+        "Played April 11: Rio Ngumoha (17y 225d) became Liverpool's youngest ever Premier League scorer at Anfield, breaking Raheem Sterling's 2012 record with a curling finish. Salah added a second. The win moved Liverpool to 5th on 49 PL points, four clear of the Champions League places chase.",
       category: "matches",
     },
     {
-      title: "Isak Fitness Building — Bench Role Likely vs PSG",
+      title: "Injury Bulletin: Alisson, Jones, Endo, Bradley, Leoni All Out",
       detail:
-        "Update from Sunday (April 12): Alexander Isak was again on the bench vs Fulham as Slot gradually builds his fitness after 100+ days out with a broken leg/ankle. Slot says the Swede has returned 'stronger and fitter' after two full training weeks. Expected to be a game-changing substitute tonight rather than starter as the Reds chase the tie.",
+        "As of April 15: Alisson (hamstring) remains out, targeting final PL fixtures; Curtis Jones (groin, April 11) is doubtful for the Merseyside Derby; Conor Bradley (knee surgery, January) is out for the season; Wataru Endo (ankle surgery, February) is out for the season; Giovanni Leoni (ACL, September) is out for the season. Frimpong has ongoing hamstring concerns but has been playing through them.",
       category: "injuries",
     },
     {
-      title: "Konaté Contract Extension 'Never Been Closer'",
+      title: "Konaté Contract Extension 'Optimistic' — Details Near Agreement",
       detail:
-        "Reported last week by Fox Sports, This Is Anfield and L'Équipe: Liverpool are 'optimistic' over Konaté's contract extension, with the financial package effectively agreed and only minor details remaining. The France defender wants to resolve his future before the World Cup. Real Madrid and PSG have been free to talk to him since January but there's little sign he'll leave.",
+        "Reported last week by Fox Sports and This Is Anfield: Liverpool are 'optimistic' over Konaté signing a new contract, with the financial package effectively agreed and only minor details remaining. The France centre-back wants to resolve his future before World Cup preparations. Real Madrid and PSG remain interested but have shown no signs of tabling a formal bid.",
       category: "transfers",
     },
     {
-      title: "Liverpool & Real Madrid Working on Camavinga–Mac Allister Swap",
+      title: "Salah Exit Confirmed — MLS Emerging as Most Likely Destination",
       detail:
-        "Reported five days ago by TeamTalk, The Hard Tackle and ESPN: Intermediaries are working on a blockbuster deal that would see Eduardo Camavinga move to Anfield while Alexis Mac Allister heads to the Bernabéu. FFP complications mean it may not be a direct swap, but both clubs are actively exploring the deal for this summer.",
-      category: "transfers",
-    },
-    {
-      title: "Salah Exit Confirmed — MLS 'Most Attractive Choice'",
-      detail:
-        "Confirmed in March, updated this week: Mohamed Salah will leave Liverpool at the end of the season. Bayern Munich have denied approaching him. British media report MLS is currently seen as 'the most attractive choice' for the 33-year-old. Liverpool are scouting Ndiaye and Diomande as successors. Salah scored vs Fulham — still contributing in his final weeks.",
+        "Confirmed in March: Mohamed Salah will leave Liverpool as a free agent at end of the 2025-26 season. His agent says no next club is decided yet, with MLS reported as the most attractive option for the 33-year-old. Liverpool are targeting Yan Diomande and others as successors. Salah scored vs Fulham (Apr 11) and played vs PSG — still contributing in his final weeks.",
       category: "transfers",
     },
   ],
   sources: [
+    "BBC Sport",
     "Sky Sports",
-    "Sports Mole",
-    "Opta Analyst",
-    "Sports Illustrated",
-    "Yahoo Sports",
     "ESPN",
     "This Is Anfield",
-    "Empire of the Kop",
-    "TeamTalk",
-    "Liverpool.com",
     "Football365",
-    "FootballTransfers",
+    "Empire of the Kop",
+    "Liverpool.com",
+    "TeamTalk",
     "Fox Sports",
-    "The Peoples Person",
-    "The Hard Tackle",
-    "BBC Sport",
+    "Caught Offside",
+    "NBC Sports",
+    "Al Jazeera",
   ],
 };
 
