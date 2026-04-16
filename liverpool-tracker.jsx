@@ -107,7 +107,7 @@ const PLAYERS = [
   { id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 34, goals: 8, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Confirmed fit for Man City FA Cup (Apr 4) — Slot: 'very close, I think he will be available'; confirmed leaving Liverpool end of season", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png" },
   { id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 33, goals: 8, assists: 4, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.2, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png" },
   { id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — came off bench vs PSG (Apr 8) for first appearance in 4 months; bench again vs Fulham (Apr 11) as Slot builds fitness gradually", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png" },
-  { id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p510663.png" },
+  { id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", injuryNote: "Ruptured Achilles tendon (April 14 vs PSG) — scan confirmed 9-12 month absence; misses remainder of 2025-26 season and 2026 World Cup with France per Deschamps", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p510663.png" },
   { id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 8, goals: 1, assists: 0, cleanSheets: null, xG: 1.2, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 6.3, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p611922.png" },
   { id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Returned to training and confirmed available for Man City FA Cup (Apr 4) after withdrawing from Italy duty", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p230621.png" },
 ];
@@ -125,19 +125,20 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "BBC Sport", title: "Liverpool 0-2 PSG (0-4 agg): Dembélé double ends Reds' Champions League campaign at Anfield", time: "today", category: "major" },
-  { source: "Sky Sports", title: "Slot breaks silence after UCL exit: 'I still believe in this team — we will come back stronger'", time: "today", category: "major" },
-  { source: "This Is Anfield", title: "How PSG's throw-ins exposed Liverpool's tactical naivety — Slot's decisions under scrutiny after UCL exit", time: "today", category: "fan" },
-  { source: "ESPN", title: "Julien Laurens: Slot's decisions vs PSG were indefensible — Liverpool's UCL exit was a tactical catastrophe", time: "today", category: "major" },
-  { source: "Football365", title: "Xabi Alonso now 'realistic option' as Liverpool board meets for post-PSG debrief after 4-0 aggregate humiliation", time: "today", category: "major" },
-  { source: "Liverpool.com", title: "Eduardo Camavinga transfer-listed by Real Madrid at €50m — Liverpool on red alert for summer move", time: "1d ago", category: "major" },
-  { source: "This Is Anfield", title: "Frimpong-Bradley crisis: Liverpool's right-back dilemma shapes summer transfer window after injury-hit season", time: "1d ago", category: "fan" },
-  { source: "Empire of the Kop", title: "Andy Robertson in advanced talks with Tottenham — BBC confirm free transfer deal virtually agreed for summer", time: "2d ago", category: "major" },
-  { source: "Liverpool.com", title: "Angelo Stiller: Stuttgart demand £81m as Liverpool weigh Endo replacement options this summer", time: "2d ago", category: "major" },
-  { source: "TeamTalk", title: "Joao Gomes picks Liverpool over Man United — £40-45m deal expected after Wolves relegation", time: "3d ago", category: "major" },
-  { source: "Sky Sports", title: "Liverpool 2-0 Fulham: Ngumoha breaks Sterling's Anfield record as youngest PL scorer, Salah adds second", time: "4d ago", category: "major" },
-  { source: "TeamTalk", title: "Ornstein: FSG 'steadfastly behind' Slot — Liverpool planning four summer signings including Robertson replacement", time: "4d ago", category: "official" },
-  { source: "Fox Sports", title: "Liverpool 'optimistic' over Konaté contract extension — France defender close to signing new deal before World Cup", time: "1w ago", category: "official" },
+  { source: "ESPN", title: "Hugo Ekitike ruptures Achilles, ruled out 9 months — will miss World Cup with France in devastating blow for Liverpool", time: "today", category: "major" },
+  { source: "Sky Sports", title: "Hugo Ekitike injury: Liverpool striker suffers Achilles rupture — scan confirms 9-12 month absence", time: "today", category: "major" },
+  { source: "Liverpool FC", title: "Arne Slot provides Hugo Ekitike injury update: 'It didn't look good' — France boss Deschamps confirms World Cup ruled out", time: "today", category: "official" },
+  { source: "Sky Sports", title: "Liverpool need to sell before buying this summer, says Slot as pressure mounts after Champions League exit", time: "today", category: "major" },
+  { source: "Liverpool.com", title: "Latest Arne Slot sack odds: Dutchman 2/1 to remain Liverpool manager at start of 2026-27 season after UCL exit", time: "today", category: "major" },
+  { source: "This Is Anfield", title: "Arne Slot sack update: Conflicting reports emerge on FSG's stance after 4-0 aggregate humiliation vs PSG", time: "today", category: "fan" },
+  { source: "Anfield Watch", title: "Liverpool transfer news: Reds have confirmed 'dream forward' Michael Olise in mind to replace Mo Salah", time: "1d ago", category: "fan" },
+  { source: "ESPN", title: "Transfer rumors: Liverpool eye Juventus winger Francisco Conceição as short-listed Salah replacement", time: "1d ago", category: "major" },
+  { source: "Anfield Watch", title: "Liverpool must spend £66m on 'perfect' Mohamed Salah replacement — Brighton's Yankuba Minteh emerges as realistic target", time: "1d ago", category: "fan" },
+  { source: "Liverpool.com", title: "Wayne Rooney perfectly sums up Liverpool VAR controversy after 'wrong decision' — overturned Mac Allister penalty vs PSG", time: "2d ago", category: "major" },
+  { source: "BBC Sport", title: "Liverpool 0-2 PSG (0-4 agg): Dembélé double ends Reds' Champions League campaign at Anfield", time: "2d ago", category: "major" },
+  { source: "This Is Anfield", title: "Arne Slot on replacing Salah and Robertson: 'Our model is completely clear' — transfer strategy outlined", time: "4d ago", category: "fan" },
+  { source: "Sky Sports", title: "Liverpool striker Alexander Isak has returned from long lay-off 'stronger and fitter', says Arne Slot", time: "5d ago", category: "major" },
+  { source: "Sky Sports", title: "Andy Robertson to leave Liverpool at the end of the season — Scotland captain confirms exit after 9 years", time: "1w ago", category: "official" },
   { source: "Sky Sports", title: "Mohamed Salah confirms Liverpool exit at end of 2025-26 season — MLS emerging as most likely destination", time: "3w ago", category: "major" },
 ];
 

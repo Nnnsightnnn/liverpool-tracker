@@ -233,7 +233,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "fit", injuryNote: null, image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", injuryNote: "Ruptured Achilles tendon (April 14 vs PSG) — scan confirmed 9-12 month absence; misses remainder of 2025-26 season and 2026 World Cup with France per Deschamps", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -336,80 +336,80 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-15T09:00:00Z",
+  generatedAt: "2026-04-16T09:00:00Z",
   summary:
-    "As of April 15, Liverpool are out of Europe — PSG eliminated the Reds with a 2-0 win at Anfield last night (0-4 aggregate), with Ousmane Dembélé scoring twice in the final 20 minutes to end Liverpool's Champions League campaign. Arne Slot's tactical approach is under fierce scrutiny, with analysis published today dissecting how the back-five gamble in Paris and throw-in vulnerabilities exposed the team. Football365 reports that Xabi Alonso is now a 'realistic option' as Liverpool's board convenes a post-PSG debrief. Off the pitch, Real Madrid have transfer-listed Eduardo Camavinga at ~€50m — Liverpool are on red alert — while Andy Robertson's free transfer to Tottenham is described as virtually agreed. Attention now turns to Sunday's historic first-ever Merseyside Derby at Everton's new Hill Dickinson Stadium (April 19, 2pm BST, Sky Sports).",
+    "Heading into the weekend, the story dominating Anfield is Hugo Ekitike's ruptured Achilles — scans confirmed today that Liverpool's 18-goal top scorer will miss 9-12 months and is ruled out of the 2026 World Cup with France, a devastating blow compounding Tuesday's 0-2 home defeat to PSG (0-4 aggregate) that ended the Reds' Champions League campaign. Arne Slot is under mounting pressure after the UCL exit, telling reporters today that Liverpool 'need to sell before buying' this summer; conflicting reports swirl about FSG's stance, with Slot currently 2/1 to remain as manager at the start of 2026-27. With Ekitike gone and Salah departing, Liverpool's Salah-replacement hunt is accelerating — Michael Olise is the 'dream target', though a Bayern exit is considered near-impossible, while Brighton's Yankuba Minteh (~£66m) and Juventus winger Francisco Conceição are shortlisted as realistic alternatives. Attention now turns to Sunday's first-ever Merseyside Derby at Everton's new Hill Dickinson Stadium (April 19, 2pm BST), with Liverpool 5th in the PL and three points clear of Chelsea in the top-five race.",
   keyTopics: [
     {
-      title: "Liverpool 0-2 PSG (0-4 agg) — UCL Exit: Dembélé Double Ends European Campaign",
+      title: "BREAKING: Hugo Ekitike Ruptures Achilles — Out 9-12 Months, Misses World Cup",
       detail:
-        "Confirmed last night (April 14): Ousmane Dembélé struck twice in the final 20 minutes to hand PSG a 2-0 win at Anfield and a 4-0 aggregate victory, sending the defending champions through to the semi-finals. Liverpool showed fight for 70 minutes but were ultimately unable to find the goals needed. PSG's UCL title defence remains on track.",
-      category: "matches",
-    },
-    {
-      title: "Slot Under Fire — Tactical Gamble Exposed Across Both UCL Legs",
-      detail:
-        "Analysis published today by This Is Anfield and ESPN: Slot's back-five system in Paris (April 8) — with Salah benched and Frimpong/Kerkez as wing-backs — was widely condemned as 'a tactical surrender'. Footage emerged of three consecutive PSG throw-ins dismantling Liverpool's structure. French journalist Romain Molina has claimed Slot reportedly offered to resign after the Paris loss, though Slot denied this premise in his post-match conference last night.",
-      category: "tactics",
-    },
-    {
-      title: "Xabi Alonso Now 'Realistic Option' — Liverpool Board Meets Post-PSG",
-      detail:
-        "Reported today by Football365: Liverpool's board has convened a post-PSG debrief and Xabi Alonso is now being discussed as a genuine managerial option. This contradicts last week's Ornstein report that FSG were 'steadfastly behind' Slot, suggesting the 4-0 aggregate humiliation may have shifted internal thinking. A decision on Slot's future is expected within days.",
-      category: "general",
-    },
-    {
-      title: "NEXT: First-Ever Derby at Hill Dickinson Stadium — Sunday 19 April, 2pm BST",
-      detail:
-        "Following the UCL exit, Liverpool must regroup quickly for a historic occasion — the first competitive Merseyside Derby at Everton's new waterfront Hill Dickinson Stadium (April 19, 2pm BST, Sky Sports). After 131 years at Goodison Park, this marks a new chapter. Liverpool sit 5th in the PL, fighting to secure a Champions League spot for next season.",
-      category: "matches",
-    },
-    {
-      title: "Camavinga Transfer-Listed by Real Madrid at ~€50m — Liverpool on Red Alert",
-      detail:
-        "Confirmed yesterday (April 14) by Liverpool.com and multiple sources: Real Madrid have placed Eduardo Camavinga on their transfer list. Liverpool have been in contact with his representatives for weeks and 'love' the player. A Camavinga–Mac Allister swap deal is also being explored. Real Madrid are not actively pushing the sale but will listen to offers this summer.",
-      category: "transfers",
-    },
-    {
-      title: "Andy Robertson in 'Advanced Talks' with Tottenham — Free Transfer Virtually Agreed",
-      detail:
-        "Reported two days ago by Empire of the Kop and BBC, confirmed by Fabrizio Romano: Tottenham's move for Robertson is described as virtually agreed, with all financial terms in place for a free transfer this summer. One remaining condition: Spurs avoiding relegation (currently 18th). Liverpool confirmed Robertson's departure on April 9.",
-      category: "transfers",
-    },
-    {
-      title: "Angelo Stiller: Stuttgart Demand £81m — Liverpool Weigh Summer Investment",
-      detail:
-        "Reported two days ago by Liverpool.com: Stuttgart have set an £81m asking price for German international midfielder Angelo Stiller, one of several midfield targets Liverpool are monitoring as a long-term Endo replacement. The 25-year-old has been one of the Bundesliga's standout players this season.",
-      category: "transfers",
-    },
-    {
-      title: "Joao Gomes Picks Liverpool Over Man United",
-      detail:
-        "Reported three days ago by TeamTalk: Brazilian midfielder Joao Gomes has made his preference clear, choosing Liverpool over Manchester United. Wolves' asking price is expected to fall to £40-45m due to likely relegation. Liverpool explored a January move but held off; a summer deal is now the priority.",
-      category: "transfers",
-    },
-    {
-      title: "Liverpool 2-0 Fulham — Ngumoha Breaks Sterling's Anfield Record",
-      detail:
-        "Played April 11: Rio Ngumoha (17y 225d) became Liverpool's youngest ever Premier League scorer at Anfield, breaking Raheem Sterling's 2012 record with a curling finish. Salah added a second. The win moved Liverpool to 5th on 49 PL points, four clear of the Champions League places chase.",
-      category: "matches",
-    },
-    {
-      title: "Injury Bulletin: Alisson, Jones, Endo, Bradley, Leoni All Out",
-      detail:
-        "As of April 15: Alisson (hamstring) remains out, targeting final PL fixtures; Curtis Jones (groin, April 11) is doubtful for the Merseyside Derby; Conor Bradley (knee surgery, January) is out for the season; Wataru Endo (ankle surgery, February) is out for the season; Giovanni Leoni (ACL, September) is out for the season. Frimpong has ongoing hamstring concerns but has been playing through them.",
+        "Scans confirmed today (April 16) that Hugo Ekitike suffered a ruptured Achilles tendon after slipping on the turf during Tuesday's Champions League second leg vs PSG. Liverpool FC confirmed the severity this morning; France manager Didier Deschamps issued a statement ruling him out of the 2026 World Cup. The 23-year-old — Liverpool's top scorer with 18 goals in 41 appearances this season — faces a 9-12 month recovery and will not play again until 2027. Slot told reporters 'it didn't look good' the moment Ekitike went down.",
       category: "injuries",
     },
     {
-      title: "Konaté Contract Extension 'Optimistic' — Details Near Agreement",
+      title: "Slot: 'We Need to Sell Before We Buy' — Pressure Mounts After UCL Exit",
       detail:
-        "Reported last week by Fox Sports and This Is Anfield: Liverpool are 'optimistic' over Konaté signing a new contract, with the financial package effectively agreed and only minor details remaining. The France centre-back wants to resolve his future before World Cup preparations. Real Madrid and PSG remain interested but have shown no signs of tabling a formal bid.",
+        "Reported today by Sky Sports: Arne Slot has outlined an austere summer transfer plan following the Champions League elimination, stating Liverpool 'need to sell before buying'. Speaking after Tuesday's defeat, Slot acknowledged the financial reality of FSG's model while pressure grows on his position. He denied reports from French journalist Romain Molina that he had offered to resign after the Paris first leg.",
+      category: "transfers",
+    },
+    {
+      title: "Slot Sack Odds: Dutchman 2/1 to Remain Manager at Start of 2026-27",
+      detail:
+        "Updated today (April 16) by Liverpool.com: Arne Slot is priced at 2/1 to still be Liverpool manager at the start of the 2026-27 Premier League season — his shortest-ever odds. Reports conflict: Anfield Index suggests FSG still back him citing last season's title; others claim the 4-0 aggregate humiliation vs PSG has shifted internal thinking. A decision is expected in the coming weeks. Slot has a contract until the end of next season.",
+      category: "general",
+    },
+    {
+      title: "Olise the 'Dream' Salah Replacement — But Bayern Won't Budge",
+      detail:
+        "Reported yesterday (April 15) by Anfield Watch and Liverpool.com: Michael Olise has been confirmed as Liverpool's dream target to replace Mohamed Salah, but Bayern Munich have 'no intention' of selling. The France international is contracted until 2029 and in outstanding form. With Olise deemed near-impossible, attention has shifted to realistic alternatives.",
+      category: "transfers",
+    },
+    {
+      title: "Minteh (£66m) and Conceição Shortlisted as Salah Replacements",
+      detail:
+        "Reported yesterday (April 15): Brighton's Yankuba Minteh — whom Slot coached at Feyenoord — is seen as a realistic £66m option and has 'stepped up' in the last 18 months at the Amex. Juventus winger Francisco Conceição, 23, is also on Liverpool's shortlist per ESPN; the Portugal international has six goal involvements in Serie A this season and is under contract through 2030.",
+      category: "transfers",
+    },
+    {
+      title: "Rooney: VAR 'Wrong' to Overturn Liverpool Penalty vs PSG",
+      detail:
+        "Reported two days ago: Wayne Rooney told Amazon Prime Video the VAR decision to overturn Liverpool's second-half penalty for a foul on Alexis Mac Allister vs PSG 'should have stood' and was 'the wrong decision'. UEFA defended referee Maurizio Mariani's pitch-side review, stating the challenge was 'fair'. The overturned penalty proved a pivotal moment in the 0-2 defeat.",
+      category: "matches",
+    },
+    {
+      title: "Liverpool 0-2 PSG (0-4 agg) — Dembélé Double Ends UCL Campaign",
+      detail:
+        "Played Tuesday (April 14): Ousmane Dembélé struck twice in the final 20 minutes at Anfield to seal a 2-0 win and a 4-0 aggregate victory for the defending champions. PSG now face either Real Madrid or Bayern Munich in the semi-final. It's five straight wins for PSG over English clubs in UCL knockouts.",
+      category: "matches",
+    },
+    {
+      title: "NEXT: First-Ever Merseyside Derby at Hill Dickinson Stadium — Sunday 2pm BST",
+      detail:
+        "Liverpool travel to Everton's new waterfront Hill Dickinson Stadium on Sunday April 19 (2pm BST, Sky Sports) for the first-ever competitive Merseyside Derby at the venue after 131 years at Goodison Park. Liverpool sit 5th on 49 PL points — three clear of Chelsea, with Brentford and Everton just three adrift — and need a win to bolster their Champions League qualification push. Everton drew 2-2 at Brentford last time out.",
+      category: "matches",
+    },
+    {
+      title: "Isak 'Stronger and Fitter' After Long Lay-off — Slot Building Minutes",
+      detail:
+        "Reported five days ago by Sky Sports: Arne Slot says Alexander Isak has returned from his four-month ankle/fibula injury 'stronger and fitter' physically. The Sweden striker came off the bench in both PSG legs and vs Fulham, with Slot gradually building his match fitness. With Ekitike now out for the season, Isak will be leaned on heavily down the stretch.",
+      category: "injuries",
+    },
+    {
+      title: "Slot on Replacing Salah and Robertson: 'Our Model is Completely Clear'",
+      detail:
+        "Reported earlier this week by This Is Anfield: Arne Slot addressed Liverpool's summer transfer approach, saying the club's replacement model for the departing Salah and Robertson is 'completely clear'. With just Alisson and Van Dijk likely to remain from last season's title-winning starting XI, the rebuild is substantial. At least two new wingers are required, per the reporting.",
+      category: "transfers",
+    },
+    {
+      title: "Andy Robertson to Leave Liverpool — Tottenham Frontrunner for Free Transfer",
+      detail:
+        "Confirmed one week ago by Liverpool FC and Sky Sports: Andy Robertson will leave Liverpool at the end of the season after nine years, with the club never tabling a new contract. The 32-year-old Scotland captain says he 'wants to play' after being second choice behind £40m signing Milos Kerkez. Tottenham are frontrunners; Atletico Madrid, Napoli, Juventus and Saudi clubs are also interested.",
       category: "transfers",
     },
     {
       title: "Salah Exit Confirmed — MLS Emerging as Most Likely Destination",
       detail:
-        "Confirmed in March: Mohamed Salah will leave Liverpool as a free agent at end of the 2025-26 season. His agent says no next club is decided yet, with MLS reported as the most attractive option for the 33-year-old. Liverpool are targeting Yan Diomande and others as successors. Salah scored vs Fulham (Apr 11) and played vs PSG — still contributing in his final weeks.",
+        "Confirmed in March: Mohamed Salah will leave Liverpool as a free agent at end of the 2025-26 season. MLS is reported as the most attractive destination for the 33-year-old. Salah scored vs Fulham (Apr 11) and played vs PSG — still contributing in his final weeks at Anfield.",
       category: "transfers",
     },
   ],
@@ -418,14 +418,14 @@ export const NEWS_DIGEST = {
     "Sky Sports",
     "ESPN",
     "This Is Anfield",
-    "Football365",
-    "Empire of the Kop",
+    "Liverpool FC",
     "Liverpool.com",
-    "TeamTalk",
-    "Fox Sports",
+    "Anfield Watch",
     "Caught Offside",
-    "NBC Sports",
-    "Al Jazeera",
+    "Anfield Index",
+    "Premier League",
+    "Rousing The Kop",
+    "Empire of the Kop",
   ],
 };
 
