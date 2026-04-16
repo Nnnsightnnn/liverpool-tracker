@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect } from "react";
 import _ from "lodash";
 import { PLAYERS, RSS_FEEDS, RESULTS, NEXT_MATCH, TEAM_LOGOS, NEWS_DIGEST } from "./playerData.js";
+import LineupView from "./LineupView.jsx";
 
 // ─── Liverpool FC Player Tracker ────────────────────────────────────────────
 // Current 2025-26 squad data, form ratings, stats, and RSS news feeds
@@ -813,7 +814,7 @@ export default function LiverpoolTracker() {
   const [sortBy, setSortBy] = useState("form");
   const [expandedId, setExpandedId] = useState(null);
   const [newsFilter, setNewsFilter] = useState("all");
-  const [view, setView] = useState("dashboard"); // "dashboard" | "news"
+  const [view, setView] = useState("dashboard"); // "dashboard" | "lineup" | "news"
   const [search, setSearch] = useState("");
   const [statusFilter, setStatusFilter] = useState("all"); // "all" | "fit" | "injured"
   const [compFilter, setCompFilter] = useState("All"); // "All" | "PL" | "UCL" | "FA"
@@ -873,6 +874,7 @@ export default function LiverpoolTracker() {
           <div style={{ display: "flex", gap: 4, background: "#ffffff15", borderRadius: 10, padding: 3, width: "fit-content" }}>
             {[
               { key: "dashboard", label: "Dashboard" },
+              { key: "lineup", label: "Lineup" },
               { key: "news", label: "News Feed" },
             ].map((v) => (
               <button
@@ -1067,6 +1069,11 @@ export default function LiverpoolTracker() {
               )}
             </div>
           </>
+        )}
+
+        {/* ─── LINEUP VIEW ─── */}
+        {view === "lineup" && (
+          <LineupView players={PLAYERS} nextMatch={NEXT_MATCH} />
         )}
 
         {/* ─── NEWS VIEW ─── */}
