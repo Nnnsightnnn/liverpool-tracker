@@ -97,32 +97,32 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-04-16.
+// Hand-curated from RESULTS array + injuryNote context as of 2026-04-17.
 export const PLAYER_EVIDENCE = {
   1:  "Hamstring · returns end of season",          // Alisson
   2:  "#1 since Alisson injury · Form 7.0",         // Mamardashvili
-  3:  "Captain · Form 7.1",                         // Van Dijk
+  3:  "Captain · Started vs PSG · Form 7.1",        // Van Dijk
   4:  "Started vs PSG · Form 7.1",                  // Konaté
-  5:  "Rotation option · Form 6.0",                 // Gomez
+  5:  "Rotation CB · Form 6.0",                     // Gomez
   6:  "Backup LB to Kerkez · Form 6.5",             // Robertson
   7:  "First-choice LB · Form 7.0",                 // Kerkez
   8:  "Knee surgery · out for season",              // Bradley
-  9:  "Played vs PSG as wing-back · managed",       // Frimpong
+  9:  "Scan cleared · available, managed",          // Frimpong
   10: "Torn ACL · out for season",                  // Leoni
   11: "Squad depth · Form 6.6",                     // Jacquet
   12: "Academy depth · 2 senior apps",              // Ndukwe
   13: "Started vs PSG · Form 7.0",                  // Mac Allister
   14: "Started vs PSG · Form 7.4",                  // Gravenberch
   15: "Started vs PSG · Form 7.5",                  // Szoboszlai
-  16: "Groin injury · doubt for derby",             // Jones
+  16: "Returned to training (Apr 13) · doubt",      // Jones
   17: "Ankle surgery · out for season",             // Endo
   18: "5g/6a in 29 apps · Form 7.0",                // Wirtz
   19: "Hamstring · yet to play this season",        // Bajcetic
   20: "Academy prospect · 5 senior apps",           // Nyoni
   21: "Scored vs Fulham · final LFC weeks",         // Salah
   22: "Started vs PSG · Form 7.2",                  // Gakpo
-  23: "Returned from ankle · building minutes",     // Isak
-  24: "Ruptured Achilles · out for 9-12 months",    // Ekitike
+  23: "Back from ankle · not yet 90 min fit",       // Isak
+  24: "Ruptured Achilles · out 9-12 months",        // Ekitike
   25: "Youngest PL Anfield scorer (Apr 11)",        // Ngumoha
   26: "Available · rotation winger",                // Chiesa
 };
@@ -134,5 +134,5 @@ export const DEFAULT_FORMATION = "4-3-3";
 // XI started the most recent competitive match. Hand-set for now.
 export const PREDICTION_NOTE = {
   level: "High",
-  reason: "9 of 11 started vs PSG (Apr 14) · Isak in for injured Ekitike",
+  reason: "10 of 11 started vs PSG (Apr 14) · Isak expected to start with minutes managed (Slot: 'not ready for 90')",
 };
