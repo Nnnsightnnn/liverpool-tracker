@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2025-26 Season · Updated Apr 15, 2026) ────────
+// ─── Liverpool FC Player Data (2025-26 Season · Updated Apr 18, 2026) ────────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -47,7 +47,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 18, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 6.0, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 18, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 6.0, status: "injured", injuryNote: "Muscle injury sustained after 22min cameo vs PSG (Apr 14) — Slot confirmed Friday (Apr 17) he misses Merseyside Derby; 6th player ruled out", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -336,69 +336,69 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-17T12:00:00Z",
+  generatedAt: "2026-04-18T10:00:00Z",
   summary:
-    "Two days before Sunday's first-ever Merseyside Derby at Everton's Hill Dickinson Stadium, Arne Slot used today's pre-match press conference to confirm Hugo Ekitike has not yet undergone surgery on his ruptured Achilles and that Alexander Isak — though likely to start — still can't play a full 90 minutes. Behind the scenes, Caught Offside reports 'tension' at board level over Slot's future even as FSG publicly backs him: Sky Sports confirmed today that transfer chiefs Richard Hughes and Michael Edwards will remain in post for what looms as a pivotal summer, while TEAMtalk casts the final six league fixtures as Slot's audition — a top-five finish is the non-negotiable. The Ekitike blow has accelerated the Salah-replacement hunt: Anthony Gordon has reportedly told his camp to 'make the move happen' at ~£80m, with Caught Offside and Liverpool.com reporting the boyhood Red is 'desperate' to leave Newcastle. Elsewhere, Olise remains the 'dream' (Bayern won't budge), Minteh (£66m) and Yan Diomande lead the realistic shortlist. As of April 17, Liverpool sit 5th on 52 PL points, four clear of Chelsea, with Crystal Palace, Man United and Chelsea still to come.",
+    "One day before Sunday's first-ever Merseyside Derby at Everton's Hill Dickinson Stadium, Liverpool's injury list has grown to six: Arne Slot confirmed at Friday's pre-match press conference that Joe Gomez has been ruled out with the muscle issue that forced him off against PSG, joining Alisson, Bradley, Leoni, Endo and Ekitike on the sidelines. Slot also confirmed Hugo Ekitike has not yet undergone surgery on his ruptured Achilles, and that Alexander Isak — though likely to start — still cannot play a full 90 minutes. Transfer news is accelerating alongside the derby build-up: Caught Offside reported this morning (Apr 18) that Liverpool are now actively pursuing Anthony Gordon, with Newcastle needing a big sale and the 25-year-old boyhood Red 'desperate' to make the move happen at ~£80m. Behind the scenes Caught Offside earlier reported 'tension' at board level over Slot's future even as FSG publicly backs him; Sky Sports confirmed this week that transfer chiefs Hughes and Edwards will remain in post, while TEAMtalk casts the final six league fixtures as Slot's audition — a top-five finish is non-negotiable. As of April 18, Liverpool sit 5th on 52 PL points, four clear of Chelsea, with Crystal Palace, Man United and Chelsea still to come.",
   keyTopics: [
     {
-      title: "Slot Pre-Derby Presser: Ekitike Awaiting Surgery, Isak Can't Do 90 Minutes Yet",
+      title: "Liverpool Actively Pursuing Anthony Gordon — Deal Gathering Pace",
       detail:
-        "At this morning's pre-Merseyside Derby press conference (Apr 17) Arne Slot confirmed Hugo Ekitike has not yet undergone surgery on his ruptured Achilles and backed the striker to 'come back even stronger'. Crucially, Slot said Alexander Isak is 'not yet able to play for a full 90 minutes' — meaning a likely start vs Everton with minutes managed. Slot described Ekitike's situation as 'devastating for him, coming to a new club and having such an impact straight away'.",
+        "Reported this morning (Apr 18) by Caught Offside: Liverpool are actively looking to sign Anthony Gordon from Newcastle, with the Magpies needing another big sale. The 25-year-old boyhood Red has told his camp to 'make the move happen' at around £80m, and the Ekitike blow has accelerated the pursuit. Ornstein remains cautious but Fabrizio Romano has said the deal is 'on'. Arsenal and Bayern Munich provide competition, with Bayern identifying Gordon as their top left-wing target (€60-70m).",
+      category: "transfers",
+    },
+    {
+      title: "Joe Gomez Ruled OUT of Merseyside Derby — 6th Player on Injury List",
+      detail:
+        "Confirmed by Slot at yesterday's (Apr 17) press conference: Joe Gomez misses Sunday's derby with the muscle injury that forced him off during his 22-minute cameo vs PSG (Apr 14). He joins Alisson, Bradley, Leoni, Endo and Ekitike on the sidelines, making six senior players ruled out. Liverpool.com reports Gomez's latest setback continues a frustrating campaign of knee, hamstring and now muscle issues.",
+      category: "injuries",
+    },
+    {
+      title: "'Definitely' — David Lynch Urges Liverpool to Sign Multiple Wingers Incl. Diomande",
+      detail:
+        "Reported today (Apr 18) by Empire of the Kop: journalist David Lynch made a 'definite' Yan Diomande claim, urging Liverpool to sign multiple wingers this summer. RB Leipzig's €100m asking price for the Ivorian is considered 'excessive' but he remains the reported first choice. Diomande plans to delay his decision until after the 2026 World Cup, with Arsenal, Man Utd and Bayern also tracking.",
+      category: "transfers",
+    },
+    {
+      title: "'A Very Special Game' — Slot's Derby Presser, Ekitike Awaiting Surgery, Isak Can't Do 90",
+      detail:
+        "At yesterday's (Apr 17) pre-Merseyside Derby press conference Arne Slot called it 'a very special game' — the 248th meeting and first at Hill Dickinson — and confirmed Hugo Ekitike has not yet undergone Achilles surgery. Crucially, Slot said Alexander Isak is 'not yet able to play for a full 90 minutes' — meaning a likely start vs Everton with minutes managed. Slot also joked Liverpool look 'smart' for signing two No 9s.",
       category: "injuries",
     },
     {
       title: "'Tension' at Board Level Over Slot's Future Despite Public FSG Backing",
       detail:
-        "Reported today (Apr 17) by Caught Offside: key figures inside the Liverpool hierarchy are 'split' on Arne Slot. The public line from FSG — reiterated by This Is Anfield yesterday — is that they intend to stick with Slot even without Champions League football, but Caught Offside's sources describe internal tension following the 4-0 aggregate humiliation by PSG. A full end-of-season review from Edwards and Hughes is already scheduled.",
+        "Reported yesterday (Apr 17) by Caught Offside: key figures inside the Liverpool hierarchy are 'split' on Arne Slot. Richard Hughes is reportedly 'all in' on Slot with plans to bring in two pacey wingers, while Michael Edwards is said to be 'on the fence'. FSG's public line is they intend to stick with Slot even without UCL football, but the final six games are seen as decisive.",
       category: "general",
     },
     {
-      title: "Hughes & Edwards Confirmed to Stay — Transfer Chiefs Locked In Until 2027",
+      title: "Hughes & Edwards Confirmed to Stay — Transfer Chiefs Locked In Through Summer",
       detail:
-        "Sky Sports confirmed today (Apr 17) that sporting director Richard Hughes and FSG's head of football Michael Edwards will both remain in post for the summer window. Both are contracted until 2027 and will lead what is shaping up to be a pivotal rebuild — at least four signings are being planned, with wingers, a left-back and a Salah replacement as priorities.",
+        "Sky Sports confirmed yesterday (Apr 17) that sporting director Richard Hughes and FSG's head of football Michael Edwards will both remain in post for the summer window. Both are contracted until 2027 and will lead what is shaping up to be a pivotal rebuild — at least four signings are being planned, with wingers, a left-back and a Salah replacement as priorities.",
       category: "transfers",
     },
     {
-      title: "Anthony Gordon 'Desperate' to Join Liverpool — Move Now 'Inevitable'",
+      title: "Slot Facing Six-Game Audition — Top-Five Finish Non-Negotiable",
       detail:
-        "Reported today (Apr 17) by Caught Offside and Rousing The Kop: Anthony Gordon has told his representatives to 'make the move happen' to Liverpool. The 25-year-old is a lifelong Red, and with Ekitike now sidelined the £80m move is described as 'beginning to look inevitable'. Liverpool.com's Apr 16 story added that Gordon 'would jump at the chance'. Arsenal and Bayern Munich provide competition.",
-      category: "transfers",
-    },
-    {
-      title: "Slot Facing Six-Game Audition — Top-Five Finish Now Non-Negotiable",
-      detail:
-        "Reported today (Apr 17) by TEAMtalk: Slot's job is tied to securing a top-five Premier League finish over the final six fixtures, starting with Sunday's derby. Liverpool sit 5th on 52 points, four clear of Chelsea. The remaining run-in features Everton (A), Crystal Palace (H), Man United (A), Chelsea (H), Aston Villa (A) and Brentford (H) — every fixture bar Palace is against a top-eight side.",
+        "Reported yesterday (Apr 17) by TEAMtalk: Slot's job is tied to securing a top-five Premier League finish over the final six fixtures, starting with Sunday's derby. Liverpool sit 5th on 52 points, four clear of Chelsea. The run-in features Everton (A), Crystal Palace (H), Man United (A), Chelsea (H), Aston Villa (A) and Brentford (H) — every fixture bar Palace is against a top-eight side.",
       category: "general",
     },
     {
-      title: "Ekitike Ruptured Achilles — Misses Rest of Season AND 2026 World Cup",
+      title: "FSG 'Intend to Stick' With Slot — But Iraola Mentioned as Potential Replacement",
       detail:
-        "Confirmed yesterday (Apr 16) by Liverpool FC and the French Football Federation: Hugo Ekitike suffered a ruptured Achilles tendon after a non-contact slip in Tuesday's UCL defeat to PSG. The 23-year-old faces 9-12 months out, ending his season and removing him from Deschamps' summer World Cup squad. Ekitike leaves as Liverpool's top scorer with 18 goals in 41 appearances.",
-      category: "injuries",
-    },
-    {
-      title: "FSG 'Intend to Stick' With Slot Even Without Champions League Football",
-      detail:
-        "Reported yesterday (Apr 16) by This Is Anfield: despite the UCL exit, FSG have signalled their intent to back Arne Slot through the summer — with four signings on the planning board. TEAMtalk frames the same story differently: Slot retains the full backing of the hierarchy for now, but the players' on-pitch reaction over the next six games will shape the final verdict.",
+        "Reported two days ago (Apr 16) by This Is Anfield: despite the UCL exit, FSG have signalled their intent to back Slot through the summer — with four signings on the planning board. However, Empire of the Kop reported three days ago (Apr 15) that FSG have been 'mesmerised' by Andoni Iraola's Bournemouth transformation, and he is being mentioned as a potential Slot replacement if results collapse.",
       category: "general",
     },
     {
       title: "NEXT: First Merseyside Derby at Hill Dickinson Stadium — Sunday 2pm BST",
       detail:
-        "Liverpool travel to Everton's new waterfront Hill Dickinson Stadium on Sunday April 19 (2pm BST, Sky Sports) for the first competitive Merseyside Derby at the venue. Everton are in strong form — only Brighton have more points across the last five PL games. Liverpool have lost four of their last five in all competitions. Jack Grealish misses out for Everton; Carlos Alcaraz could return.",
+        "Liverpool travel to Everton's new waterfront Hill Dickinson Stadium tomorrow (Sunday Apr 19, 2pm BST, Sky Sports) for the first competitive Merseyside Derby at the venue. Everton sit 8th on 47 points, have won 3 of their last 5, and Carlos Alcaraz could return from injury. Jack Grealish (foot fracture) misses out until June. Liverpool have lost four of their last five in all competitions.",
       category: "matches",
     },
     {
-      title: "Frimpong & Jones Return to Training — Isak Available Off The Bench",
+      title: "Ekitike Ruptured Achilles — Misses Rest of Season AND 2026 World Cup",
       detail:
-        "Reported this week by Liverpool.com and The Football Faithful: Jeremie Frimpong is available for selection after a brief hamstring scare sustained on Netherlands duty — he trained Thursday after a scan. Curtis Jones also returned to training on Monday. Alisson Becker remains out, along with Conor Bradley, Giovanni Leoni, Wataru Endo and Stefan Bajcetic.",
+        "Confirmed two days ago (Apr 16) by Liverpool FC and the French Football Federation: Hugo Ekitike suffered a ruptured Achilles tendon after a non-contact slip in Tuesday's UCL defeat to PSG. The 23-year-old faces 9-12 months out, ending his season and removing him from Deschamps' summer World Cup squad. Ekitike leaves as Liverpool's top scorer with 18 goals in 41 appearances.",
       category: "injuries",
-    },
-    {
-      title: "7-Man Winger Shortlist: Olise Dream, Diomande First Choice, Minteh Realistic",
-      detail:
-        "Reported two days ago by This Is Anfield and FootballTransfers: Liverpool have a shortlist of seven wingers. Michael Olise remains the 'dream' but Bayern won't sell (contract to 2029). RB Leipzig's Yan Diomande is the reported first choice (~€90m). Brighton's Yankuba Minteh (£66m, Feyenoord link to Slot) and Juventus's Francisco Conceição are the realistic fallbacks.",
-      category: "transfers",
     },
     {
       title: "Liverpool 0-2 PSG (0-4 agg) — Dembélé Double Ends UCL Campaign",
@@ -420,19 +420,19 @@ export const NEWS_DIGEST = {
     },
   ],
   sources: [
-    "Liverpool FC",
-    "Sky Sports",
-    "BBC Sport",
-    "ESPN",
-    "This Is Anfield",
-    "Liverpool.com",
     "Caught Offside",
-    "TEAMtalk",
+    "Liverpool FC",
+    "Liverpool.com",
+    "Sky Sports",
+    "This Is Anfield",
+    "Empire of the Kop",
     "Rousing The Kop",
-    "Anfield Watch",
-    "NBC Sports",
+    "Anfield Index",
+    "TEAMtalk",
+    "ESPN",
+    "BBC Sport",
+    "Yahoo Sports",
     "FootballTransfers",
-    "The Football Faithful",
     "Premier League",
   ],
 };
