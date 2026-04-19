@@ -5,3 +5,4 @@ dist
 *.local
 SKILL.md
 CLAUDE.md
+src/lineupLog.json

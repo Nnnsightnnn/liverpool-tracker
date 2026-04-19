@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from "react";
-import { FORMATIONS, PLAYER_EVIDENCE, DEFAULT_FORMATION, PREDICTION_NOTE } from "./lineupData.js";
+import { FORMATIONS, PLAYER_EVIDENCE, DEFAULT_FORMATION, PREDICTION_NOTE, SLOT_CONFIDENCE, SLOT_RATIONALE, ALTERNATIVES } from "./lineupData.js";
 
 const LFC_RED = "#C8102E";
 const LFC_DARK = "#1a1a2e";
@@ -100,9 +100,16 @@ function PitchLines() {
   );
 }
 
+// ─── Confidence dot color ───────────────────────────────────────────────────
+const CONF_COLORS = { High: "#28a745", Medium: "#ffc107", Low: "#dc3545" };
+
 // ─── Player token on the pitch ──────────────────────────────────────────────
-function PitchPlayerToken({ slotKey, slot, player, onClick, isSwapMode, isCandidateMatch, isHovered, onHover }) {
+function PitchPlayerToken({ slotKey, slot, player, onClick, isSwapMode, isCandidateMatch, isHovered, onHover, playersById }) {
   const lastName = player.name.split(" ").slice(-1)[0];
+  const slotConf = SLOT_CONFIDENCE[slotKey];
+  const confColor = CONF_COLORS[slotConf] || CONF_COLORS.Medium;
+  const rationale = SLOT_RATIONALE[slotKey];
+  const alts = ALTERNATIVES[slotKey] || [];
   const halo = isHovered
     ? `0 0 0 3px ${LFC_RED}, 0 0 36px 8px ${LFC_RED}cc, 0 0 80px 16px ${LFC_RED}66, 0 18px 48px ${LFC_RED}44`
     : `0 0 0 2px ${LFC_RED}cc, 0 0 22px 4px ${LFC_RED}88, 0 0 50px 8px ${LFC_RED}33, 0 12px 32px #0008`;
@@ -128,6 +135,14 @@ function PitchPlayerToken({ slotKey, slot, player, onClick, isSwapMode, isCandid
         gap: 4,
       }}
     >
+      {/* Confidence dot — always visible */}
+      <div style={{
+        width: 8, height: 8, borderRadius: "50%",
+        background: confColor,
+        boxShadow: `0 0 6px ${confColor}88`,
+        marginBottom: -2,
+      }} />
+
       {/* Halo + avatar wrapped together so the glow tracks the avatar */}
       <div style={{ borderRadius: "50%", boxShadow: halo, transition: "box-shadow 0.25s ease", ...swapPulse }}>
         <Avatar player={player} size={54} ring="#fff" />
@@ -154,7 +169,7 @@ function PitchPlayerToken({ slotKey, slot, player, onClick, isSwapMode, isCandid
         <span>{lastName}</span>
       </div>
 
-      {/* Evidence chip — appears on hover */}
+      {/* Evidence + rationale chip — appears on hover */}
       <div style={{
         background: "linear-gradient(135deg, #1e1e3a, #2a1525)",
         border: `1px solid ${LFC_GOLD}55`,
@@ -163,15 +178,34 @@ function PitchPlayerToken({ slotKey, slot, player, onClick, isSwapMode, isCandid
         fontSize: 10,
         fontWeight: 600,
         color: LFC_GOLD,
-        whiteSpace: "nowrap",
         opacity: isHovered ? 1 : 0,
         transform: isHovered ? "translateY(0)" : "translateY(-4px)",
         transition: "opacity 0.2s ease, transform 0.2s ease",
         pointerEvents: "none",
         boxShadow: "0 6px 16px #000a",
         marginTop: 2,
+        maxWidth: 220,
+        textAlign: "center",
       }}>
-        {PLAYER_EVIDENCE[player.id] || "Recent starter"}
+        <div style={{ display: "flex", alignItems: "center", gap: 5, justifyContent: "center" }}>
+          <span style={{
+            width: 6, height: 6, borderRadius: "50%",
+            background: confColor, flexShrink: 0,
+          }} />
+          <span>{rationale || PLAYER_EVIDENCE[player.id] || "Recent starter"}</span>
+        </div>
+        {alts.length > 0 && (
+          <div style={{
+            marginTop: 4, paddingTop: 4,
+            borderTop: "1px solid #ffffff15",
+            fontSize: 9, color: "#aaa", whiteSpace: "normal", lineHeight: 1.3,
+          }}>
+            Also considered: {alts.map(a => {
+              const altPlayer = playersById?.[a.playerId];
+              return altPlayer ? altPlayer.name.split(" ").slice(-1)[0] : `#${a.playerId}`;
+            }).join(", ")}
+          </div>
+        )}
       </div>
     </div>
   );
@@ -226,6 +260,7 @@ function PitchDiagram({ formation, lineup, playersById, onSlotClick, isSwapMode,
             isCandidateMatch={candidateId === player.id}
             isHovered={hoveredSlot === slotKey}
             onHover={(h) => setHoveredSlot(h ? slotKey : null)}
+            playersById={playersById}
           />
         );
       })}
@@ -464,14 +499,45 @@ export default function LineupView({ players, nextMatch }) {
             fontSize: 12, color: "#aaa", marginTop: 4, lineHeight: 1.4,
           }}>
             <span style={{
-              color: "#fff", fontWeight: 700, background: "#28a74522",
-              border: "1px solid #28a74555", padding: "2px 8px",
+              color: "#fff", fontWeight: 700,
+              background: `${CONF_COLORS[PREDICTION_NOTE.level] || "#28a745"}22`,
+              border: `1px solid ${CONF_COLORS[PREDICTION_NOTE.level] || "#28a745"}55`,
+              padding: "2px 8px",
               borderRadius: 5, marginRight: 8, fontSize: 11,
             }}>
               Confidence: {PREDICTION_NOTE.level}
             </span>
+            {PREDICTION_NOTE.agreement_rate != null && (
+              <span style={{
+                color: "#fff", fontWeight: 600,
+                background: "#ffffff10",
+                border: "1px solid #ffffff22",
+                padding: "2px 7px", borderRadius: 5, marginRight: 8, fontSize: 10,
+              }}>
+                {Math.round(PREDICTION_NOTE.agreement_rate * 100)}% agreement
+              </span>
+            )}
             {PREDICTION_NOTE.reason}
           </div>
+          {PREDICTION_NOTE.pundit_sources?.length > 0 && (
+            <div style={{ display: "flex", alignItems: "center", gap: 4, marginTop: 6, flexWrap: "wrap" }}>
+              <span style={{ fontSize: 9, color: "#666", textTransform: "uppercase", letterSpacing: 0.8 }}>Sources:</span>
+              {PREDICTION_NOTE.pundit_sources.map((src, i) => (
+                <span key={i} style={{
+                  fontSize: 9, fontWeight: 600, color: "#ccc",
+                  background: "#ffffff0a", border: "1px solid #ffffff15",
+                  padding: "1px 6px", borderRadius: 4,
+                }}>
+                  {src}
+                </span>
+              ))}
+              {PREDICTION_NOTE.generated_at && (
+                <span style={{ fontSize: 9, color: "#555", marginLeft: 4 }}>
+                  {new Date(PREDICTION_NOTE.generated_at).toLocaleDateString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" })}
+                </span>
+              )}
+            </div>
+          )}
         </div>
         <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 12, flexWrap: "wrap" }}>
           <span style={{ fontSize: 10, color: "#777", textTransform: "uppercase", letterSpacing: 1 }}>Formation</span>

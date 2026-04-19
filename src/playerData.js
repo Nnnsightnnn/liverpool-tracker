@@ -3,6 +3,8 @@
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
 // injuryNote: short description shown on card when not fit
+// Optional: returningFromInjury: { matchesBackIncludingThis: 1|2 }
+//   — added by skill when a player returns from 3+ week absence, removed after 2 matches back
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
