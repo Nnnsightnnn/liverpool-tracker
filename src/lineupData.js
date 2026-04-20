@@ -19,19 +19,19 @@ export const FORMATIONS = {
       ST:  { x: 50, y: 14, role: "FWD" },
       RW:  { x: 82, y: 22, role: "FWD" },
     },
-    // IDs from playerData.js — Slot's likely XI for Merseyside Derby (Apr 19)
+    // IDs from playerData.js — Slot's likely XI for Crystal Palace (H), Apr 25
     defaultXI: {
-      GK: 2,    // Mamardashvili (Alisson injured)
-      LB: 7,    // Kerkez
-      LCB: 3,   // Van Dijk
+      GK: 2,    // Mamardashvili/Woodman (Alisson still out, Mamardashvili head wound Apr 19)
+      LB: 6,    // Robertson (kept after starting the derby win)
+      LCB: 3,   // Van Dijk (100' winner vs Everton)
       RCB: 4,   // Konaté
-      RB: 9,    // Frimpong (managed but expected to start)
+      RB: 16,   // Jones as inverted RB (stellar 8.4 rating vs Everton — Slot's new wrinkle)
       LCM: 14,  // Gravenberch
-      CM: 13,   // Mac Allister
-      RCM: 15,  // Szoboszlai
+      CM: 13,   // Mac Allister (recalled at home after derby rotation)
+      RCM: 15,  // Szoboszlai (assisted Van Dijk winner)
       LW: 22,   // Gakpo
-      ST: 23,   // Isak (back from injury, Ekitike out)
-      RW: 21,   // Salah
+      ST: 23,   // Isak
+      RW: 21,   // Salah (equalled Gerrard's PL derby record)
     },
   },
 
@@ -50,17 +50,18 @@ export const FORMATIONS = {
       RAM: { x: 78, y: 36, role: "MID" },
       ST:  { x: 50, y: 14, role: "FWD" },
     },
+    // The exact shape Slot used to win the Hill Dickinson Derby 2-1 (Apr 19)
     defaultXI: {
-      GK: 2,
-      LB: 7,    // Kerkez
-      LCB: 3,   // Van Dijk
+      GK: 2,    // Mamardashvili/Woodman (derby head wound)
+      LB: 6,    // Robertson (derby starter over Kerkez)
+      LCB: 3,   // Van Dijk (100' winner)
       RCB: 4,   // Konaté
-      RB: 9,    // Frimpong
+      RB: 16,   // Jones as inverted RB (8.4 match rating vs Everton)
       LDM: 14,  // Gravenberch
-      RDM: 13,  // Mac Allister
+      RDM: 15,  // Szoboszlai (corner-delivery assist for VVD winner)
       LAM: 22,  // Gakpo
-      CAM: 18,  // Wirtz (the #10 role suits him perfectly)
-      RAM: 21,  // Salah
+      CAM: 18,  // Wirtz (derby #10 role)
+      RAM: 21,  // Salah (equalled Gerrard's PL derby record)
       ST: 23,   // Isak
     },
   },
@@ -81,14 +82,14 @@ export const FORMATIONS = {
       RW:  { x: 78, y: 22, role: "FWD" },
     },
     defaultXI: {
-      GK: 2,
-      LCB: 7,   // Kerkez tucking in
-      CCB: 3,   // Van Dijk
+      GK: 2,    // Mamardashvili/Woodman
+      LCB: 6,   // Robertson tucking in
+      CCB: 3,   // Van Dijk (captain, derby match-winner)
       RCB: 4,   // Konaté
-      LWB: 6,   // Robertson as left wing-back
+      LWB: 7,   // Kerkez as left wing-back
       LCM: 14,  // Gravenberch
-      RCM: 13,  // Mac Allister
-      RWB: 9,   // Frimpong as right wing-back (his recent role)
+      RCM: 15,  // Szoboszlai
+      RWB: 9,   // Frimpong as right wing-back
       LW: 22,   // Gakpo
       ST: 23,   // Isak
       RW: 21,   // Salah
@@ -97,97 +98,98 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-04-18.
+// Hand-curated from RESULTS array + injuryNote context as of 2026-04-20 (post-derby).
 export const PLAYER_EVIDENCE = {
-  1:  "Hamstring · returns end of season",          // Alisson
-  2:  "#1 since Alisson injury · Form 7.0",         // Mamardashvili
-  3:  "Captain · Started vs PSG · Form 7.1",        // Van Dijk
-  4:  "Started vs PSG · Form 7.1",                  // Konaté
-  5:  "Muscle injury (Apr 14) · out vs Everton",    // Gomez
-  6:  "Backup LB to Kerkez · Form 6.5",             // Robertson
-  7:  "First-choice LB · Form 7.0",                 // Kerkez
+  1:  "Targets Man Utd (A, May 2) — NOT Palace",    // Alisson
+  2:  "Head wound 59' vs Everton · stretchered off", // Mamardashvili
+  3:  "100' header won the derby · 7.8 rating",     // Van Dijk
+  4:  "Full 100' in derby win · Form 7.2",          // Konaté
+  5:  "Muscle injury (Apr 14) · Palace TBC",        // Gomez
+  6:  "Started LB in derby win · kept over Kerkez", // Robertson
+  7:  "Benched for derby · rotation LB option",     // Kerkez
   8:  "Knee surgery · out for season",              // Bradley
-  9:  "Scan cleared · to start, managed",           // Frimpong
+  9:  "Derby sub for Jones · RB rotation",          // Frimpong
   10: "Torn ACL · out for season",                  // Leoni
   11: "Deputy CB with Gomez out · Form 6.6",        // Jacquet
   12: "Academy depth · 2 senior apps",              // Ndukwe
-  13: "Started vs PSG · Form 7.0",                  // Mac Allister
-  14: "Started vs PSG · Form 7.4",                  // Gravenberch
-  15: "Started vs PSG · Form 7.5",                  // Szoboszlai
-  16: "Back in training (Apr 13) · in contention",  // Jones
+  13: "Benched for derby · likely returns at home", // Mac Allister
+  14: "Full derby shift · double pivot · 7.5 form", // Gravenberch
+  15: "Corner assist for VVD winner · 7.6 form",    // Szoboszlai
+  16: "Stellar 8.4 rating at inverted RB vs Everton", // Jones
   17: "Ankle surgery · out for season",             // Endo
-  18: "5g/6a · 50 PL chances created · Form 7.0",   // Wirtz
+  18: "Derby #10 · creator-in-chief · 7.3 form",    // Wirtz
   19: "Hamstring · yet to play this season",        // Bajcetic
   20: "Academy prospect · 5 senior apps",           // Nyoni
-  21: "Scored vs Fulham · final LFC weeks",         // Salah
-  22: "Started vs PSG · Form 7.2",                  // Gakpo
-  23: "Back from ankle · not yet 90min fit",        // Isak
+  21: "Equalled Gerrard's 9 PL derby goals (Apr 19)", // Salah
+  22: "Started derby · kept LW ahead of Ngumoha",   // Gakpo
+  23: "Full 90 in derby win · fully fit",           // Isak
   24: "Ruptured Achilles · out 9-12 months",        // Ekitike
   25: "Youngest PL Anfield scorer (Apr 11)",        // Ngumoha
   26: "Available · rotation winger",                // Chiesa
 };
 
-// Default formation when entering the view
-export const DEFAULT_FORMATION = "4-3-3";
+// Default formation when entering the view — matched Slot's derby-winning shape
+export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by formation's
 // slot keys. The UI renders these as colored dots on each pitch token.
+// Keys match DEFAULT_FORMATION (4-2-3-1).
 export const SLOT_CONFIDENCE = {
-  GK:  "High",   // Mamardashvili undisputed while Alisson is out
-  LB:  "High",   // Kerkez first-choice
-  LCB: "High",   // Van Dijk nailed on
+  GK:  "Low",    // Mamardashvili stretchered off Apr 19 · Woodman likely starts
+  LB:  "Medium", // Robertson kept derby spot but Kerkez still push
+  LCB: "High",   // Van Dijk captain & derby match-winner
   RCB: "High",   // Konaté nailed on
-  RB:  "Medium", // Frimpong expected but managed
-  LCM: "High",   // Gravenberch locked in
-  CM:  "High",   // Mac Allister locked in
-  RCM: "Medium", // Szoboszlai vs Jones
-  LW:  "Medium", // Gakpo vs Ngumoha
-  ST:  "Medium", // Isak back but minutes-managed
-  RW:  "High",   // Salah nailed on
+  RB:  "Medium", // Jones inverted-RB gambit worked vs Everton
+  LDM: "High",   // Gravenberch anchor
+  RDM: "High",   // Szoboszlai (corner assist for VVD winner)
+  LAM: "High",   // Gakpo
+  CAM: "High",   // Wirtz as the #10 (derby shape)
+  RAM: "High",   // Salah's final weeks
+  ST:  "High",   // Isak full 90 vs Everton
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
 // Explains why the predicted starter won their slot. Populated by the predictor;
-// hand-set initially. Keyed by slot key (for the active formation).
+// hand-set initially. Keyed by slot key (for the active formation — 4-2-3-1).
 export const SLOT_RATIONALE = {
-  GK:  "Only fit senior GK · Started last 16",
-  LB:  "First-choice since January · Started vs PSG",
-  LCB: "Captain · Every PL start this season",
-  RCB: "Preferred partner · Started vs PSG",
-  RB:  "Scan cleared · Expected to start but will be managed",
-  LCM: "Started vs PSG · Highest-rated midfielder (7.4)",
-  CM:  "Started vs PSG · Anchor of the midfield",
-  RCM: "Started vs PSG · Form 7.5 · Jones only just back in training",
-  LW:  "Started vs PSG · Form 7.2 · Ngumoha still a rotation option",
-  ST:  "Back from ankle · Slot: 'not ready for 90' · Only fit senior striker",
-  RW:  "Final weeks at LFC · Started every PL match since January",
+  GK:  "Head wound vs Everton · Slot 'fears the worst' for next week",
+  LB:  "Recalled for derby win · Slot trusted him over Kerkez",
+  LCB: "Captain · 100' header won the derby 2-1",
+  RCB: "Full 100' in derby win · every PL start this season",
+  RB:  "Jones inverted RB · 8.4 rating vs Everton, highest on pitch",
+  LDM: "Derby double-pivot · progressive passer",
+  RDM: "Corner-delivery assist for VVD winner · form 7.6",
+  LAM: "Derby starter · kept LW over Ngumoha",
+  CAM: "The derby #10 role — creator-in-chief",
+  RAM: "Equalled Gerrard's 9 PL derby goals · final LFC weeks",
+  ST:  "Full 90 vs Everton · Ekitike long-term out · fully fit",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
 // Top 1-2 alternatives for each slot. Populated by the predictor; hand-set
-// initially. The UI shows these on hover as "Also considered".
+// initially. The UI shows these on hover as "Also considered". Keyed to 4-2-3-1.
 export const ALTERNATIVES = {
-  GK:  [],  // No realistic alternative
-  LB:  [{ playerId: 6, reason: "Backup LB · Form 6.5" }],
+  GK:  [{ playerId: 1, reason: "Alisson targets Man Utd (A) May 2, NOT Palace" }],
+  LB:  [{ playerId: 7, reason: "Kerkez on the bench vs Everton · rotation push" }],
   LCB: [],
   RCB: [{ playerId: 11, reason: "Deputy CB with Gomez out" }],
-  RB:  [],  // Bradley out for season, no other natural RB
-  LCM: [],
-  CM:  [],
-  RCM: [{ playerId: 16, reason: "Back in training Apr 13 · match fitness uncertain" }],
-  LW:  [{ playerId: 25, reason: "Youngest PL Anfield scorer · rotation option" }, { playerId: 26, reason: "Available but limited minutes" }],
-  ST:  [{ playerId: 22, reason: "Can play false 9 if Isak can't start" }],
-  RW:  [{ playerId: 26, reason: "Chiesa available for rotation" }],
+  RB:  [{ playerId: 9, reason: "Frimpong derby sub · natural RB if Slot reverts" }],
+  LDM: [{ playerId: 13, reason: "Mac Allister benched vs Everton · likely returns at home" }],
+  RDM: [{ playerId: 13, reason: "Mac Allister can shuttle into any central role" }],
+  LAM: [{ playerId: 25, reason: "Ngumoha · youngest PL Anfield scorer" }, { playerId: 26, reason: "Chiesa rotation option" }],
+  CAM: [{ playerId: 13, reason: "Mac Allister as a slightly deeper #10" }],
+  RAM: [{ playerId: 26, reason: "Chiesa rotation option" }],
+  ST:  [{ playerId: 22, reason: "Gakpo can play false 9 if Isak rests" }],
 };
 
 // ─── Prediction confidence & metadata ───────────────────────────────────────
 // Overall prediction confidence chip shown above the pitch. Enriched with
 // predictor metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
-  level: "High",
-  reason: "10 of 11 started vs PSG (Apr 14) · Isak to start vs Everton with minutes managed (Slot Fri: 'not ready for 90'), Gomez ruled out",
-  pundit_sources: ["This Is Anfield", "Empire of the Kop"],
-  agreement_rate: 0.82,
-  generated_at: "2026-04-18T22:00:00Z",
+  level: "Medium",
+  reason: "10 of 11 started the Hill Dickinson Derby 2-1 win (Apr 19) · Mamardashvili head wound ('we fear the worst — for next week') pushes Woodman toward a PL debut start, Alisson targets Man Utd (May 2). Slot may reward derby winners at home; Mac Allister on call to return for a benched Kerkez or rotation midfielder.",
+  pundit_sources: ["This Is Anfield", "Empire of the Kop", "Liverpool.com"],
+  agreement_rate: 0.74,
+  generated_at: "2026-04-20T09:00:00Z",
 };

@@ -8,7 +8,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "injured", injuryNote: "Hamstring injury — return expected towards end of season, targeting final PL fixtures", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "injured", injuryNote: "Hamstring — still not back in team training; Slot (Apr 19) targets Man Utd (A, May 2) for return, NOT this weekend's Crystal Palace fixture", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -18,7 +18,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 16, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 7.0, status: "fit", injuryNote: null, image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 17, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.8, status: "injured", injuryNote: "Head/facial wound from Beto-Robertson collision (59' vs Everton, Apr 19) — stretchered off to hospital; Slot post-match: 'big wound... we fear the worst for next week' — expected to miss Crystal Palace (Apr 25)", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -30,7 +30,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 34, appearances: 38, goals: 3, assists: 1, cleanSheets: 11, xG: 2.8, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.1, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 34, appearances: 39, goals: 4, assists: 1, cleanSheets: 11, xG: 2.8, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Scored 100th-minute header from Szoboszlai corner vs Everton (Apr 19) in first-ever Hill Dickinson derby — 7.8 match rating, captain's goal moved Liverpool 7 clear of 6th", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -40,7 +40,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 35, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 7.1, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
+    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 36, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 7.1, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
     physical: { height: 194, weight: 95, pace: 78, acceleration: 76, sprintSpeed: 80 },
     career: [
       { years: "2014-2017", club: "Sochaux", fee: null, type: "youth" },
@@ -49,7 +49,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 18, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 6.0, status: "injured", injuryNote: "Muscle injury sustained after 22min cameo vs PSG (Apr 14) — Slot confirmed Friday (Apr 17) he misses Merseyside Derby; 6th player ruled out", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 18, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 6.0, status: "injured", injuryNote: "Muscle injury from 22min PSG cameo (Apr 14) — missed Merseyside Derby; no firm return date, fit-again status still TBC for Crystal Palace week", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -57,7 +57,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 6, name: "Andy Robertson", number: 26, position: "DEF", nationality: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland", age: 32, appearances: 25, goals: 0, assists: 3, cleanSheets: 8, xG: 0.5, tacklesPer90: 2.3, passCompletion: 83, progressiveCarries: 4.2, form: 6.5, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p122798.png",
+    id: 6, name: "Andy Robertson", number: 26, position: "DEF", nationality: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland", age: 32, appearances: 26, goals: 0, assists: 3, cleanSheets: 8, xG: 0.5, tacklesPer90: 2.3, passCompletion: 83, progressiveCarries: 4.2, form: 6.8, status: "fit", injuryNote: "Started at LB vs Everton (Apr 19) in the first derby win at Hill Dickinson — recalled with Kerkez on the bench", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p122798.png",
     physical: { height: 178, weight: 70, pace: 79, acceleration: 81, sprintSpeed: 77 },
     career: [
       { years: "2010-2013", club: "Queen's Park", fee: null, type: "senior" },
@@ -87,7 +87,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 32, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.9, status: "fit", injuryNote: "Scan on minor hamstring issue came back clear — trained Thursday, available for Merseyside Derby (Apr 19) but will be managed", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 32, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.9, status: "fit", injuryNote: "Benched vs Everton (Apr 19) as Slot opted for Jones in an inverted RB role — available for Crystal Palace (Apr 25)", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -126,7 +126,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 37, goals: 2, assists: 3, cleanSheets: null, xG: 1.8, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 7.0, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 37, goals: 2, assists: 3, cleanSheets: null, xG: 1.8, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 7.0, status: "fit", injuryNote: "Benched for derby (Apr 19); Slot went with a Gravenberch-Szoboszlai double pivot in a 4-2-3-1 shape", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -135,7 +135,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 36, goals: 5, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.4, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 37, goals: 5, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -145,7 +145,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 43, goals: 11, assists: 7, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.5, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 44, goals: 11, assists: 8, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Delivered the 100th-minute corner Van Dijk headed home vs Everton (Apr 19) — 93% pass completion on derby day, 7.1 rating", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -155,7 +155,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 21, goals: 1, assists: 2, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.8, form: 6.5, status: "doubtful", injuryNote: "Returned to training Monday (Apr 13) after groin injury vs Fulham — in contention for Merseyside Derby (Apr 19)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 22, goals: 1, assists: 2, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.8, form: 7.2, status: "fit", injuryNote: "Started as an inverted RB vs Everton (Apr 19) — 8.4 match rating (Liverpool's highest on the day); full fitness restored", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -175,7 +175,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 29, goals: 5, assists: 6, cleanSheets: null, xG: 4.5, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.0, status: "fit", injuryNote: null, image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 30, goals: 5, assists: 6, cleanSheets: null, xG: 4.5, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.0, status: "fit", injuryNote: null, image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -203,7 +203,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 35, goals: 9, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Confirmed leaving Liverpool at end of season; scored vs Fulham (Apr 11); played vs PSG 2nd leg (Apr 14)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 36, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.3, status: "fit", injuryNote: "Scored 29' in his final-ever Merseyside Derby (Apr 19) — 9th PL goal vs Everton, equalling Steven Gerrard's all-time record; 7.9 match rating", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -215,7 +215,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 34, goals: 8, assists: 5, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.2, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 8, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.3, status: "fit", injuryNote: "Pinpoint assist for Salah's opener vs Everton (Apr 19) — 7.9 match rating on derby day", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -224,7 +224,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 15, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "recovering", injuryNote: "Ankle/fibula fracture (Dec 22) — returned from 4 months out; played PSG games, fitness building steadily ahead of Merseyside Derby (Apr 19)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 14, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 16, goals: 8, assists: 2, cleanSheets: null, xG: 9.2, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.4, status: "recovering", injuryNote: "Started Merseyside Derby (Apr 19) but subbed around HT as planned — minutes still being managed; expected to start again vs Crystal Palace (Apr 25)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -246,7 +246,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 9, goals: 2, assists: 1, cleanSheets: null, xG: 1.2, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Youngest ever PL scorer at Anfield (17y 225d) — broke Sterling's record vs Fulham (Apr 11)", image: "https://www.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 10, goals: 2, assists: 1, cleanSheets: null, xG: 1.2, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "On the derby bench (Apr 19) — primary rotation option with Isak's minutes managed; youngest-ever PL Anfield scorer (17y 225d)", image: "https://www.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -302,18 +302,19 @@ export const TEAM_LOGOS = {
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
 export const NEXT_MATCH = {
-  opponent: "Everton",
-  shortName: "EFC",
-  home: false,
-  date: "2026-04-19T14:00:00",
+  opponent: "Crystal Palace",
+  shortName: "CRY",
+  home: true,
+  date: "2026-04-25T14:00:00",
   competition: "PL",
-  venue: "Hill Dickinson Stadium",
+  venue: "Anfield",
   broadcast: "Sky Sports",
 };
 
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
 // result: "W" | "D" | "L"
 export const RESULTS = [
+  { date: "2026-04-19", opponent: "Everton",       home: false, score: "2-1", competition: "PL",   result: "W", scorers: "Salah, Van Dijk 90+10'" },
   { date: "2026-04-14", opponent: "PSG",           home: true,  score: "0-2", competition: "UCL",  result: "L", scorers: "" },
   { date: "2026-04-11", opponent: "Fulham",        home: true,  score: "2-0", competition: "PL",   result: "W", scorers: "Ngumoha, Salah" },
   { date: "2026-04-08", opponent: "PSG",          home: false, score: "0-2", competition: "UCL",  result: "L", scorers: "" },
@@ -338,103 +339,99 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-18T10:00:00Z",
+  generatedAt: "2026-04-20T09:00:00Z",
   summary:
-    "One day before Sunday's first-ever Merseyside Derby at Everton's Hill Dickinson Stadium, Liverpool's injury list has grown to six: Arne Slot confirmed at Friday's pre-match press conference that Joe Gomez has been ruled out with the muscle issue that forced him off against PSG, joining Alisson, Bradley, Leoni, Endo and Ekitike on the sidelines. Slot also confirmed Hugo Ekitike has not yet undergone surgery on his ruptured Achilles, and that Alexander Isak — though likely to start — still cannot play a full 90 minutes. Transfer news is accelerating alongside the derby build-up: Caught Offside reported this morning (Apr 18) that Liverpool are now actively pursuing Anthony Gordon, with Newcastle needing a big sale and the 25-year-old boyhood Red 'desperate' to make the move happen at ~£80m. Behind the scenes Caught Offside earlier reported 'tension' at board level over Slot's future even as FSG publicly backs him; Sky Sports confirmed this week that transfer chiefs Hughes and Edwards will remain in post, while TEAMtalk casts the final six league fixtures as Slot's audition — a top-five finish is non-negotiable. As of April 18, Liverpool sit 5th on 52 PL points, four clear of Chelsea, with Crystal Palace, Man United and Chelsea still to come.",
+    "Virgil van Dijk's 100th-minute header off a Szoboszlai corner snatched a dramatic 2-1 win at Everton on Sunday (Apr 19) — the first Merseyside Derby ever played at Hill Dickinson Stadium, and a seismic result that moves Liverpool 7 points clear of 6th-placed Chelsea with five PL games to go. Mohamed Salah opened the scoring in the 29th minute, equalling Steven Gerrard's all-time record of 9 PL Merseyside Derby goals in his final-ever derby as a Liverpool player; Beto equalised on 54 before Van Dijk's late heroics flipped the narrative on Arne Slot's season. The celebrations were tempered by a worrying injury blow: No.1 goalkeeper Giorgi Mamardashvili suffered a serious head/facial wound in a Robertson-Beto collision at 59', leaving on a stretcher and heading 'straight to hospital'; Slot post-match said 'we fear the worst — not for a long-term injury but for next week,' meaning 29-year-old Freddie Woodman (making his PL debut after coming on for Mamardashvili) is now in line to start Saturday's Crystal Palace fixture at Anfield, with Alisson now targeting the Man Utd trip on May 2 rather than this weekend. Off the pitch, PSG have opened talks with Yan Diomande's camp to hijack Liverpool's long-standing pursuit, while Bayern's heavy push for Anthony Gordon may ironically clear the Diomande lane. As of April 20, Liverpool sit 5th on 55 points, with Opta's supercomputer putting UCL qualification at 69%.",
   keyTopics: [
     {
-      title: "Liverpool Actively Pursuing Anthony Gordon — Deal Gathering Pace",
+      title: "Van Dijk's 100th-Minute Header Wins Historic Hill Dickinson Derby 2-1",
       detail:
-        "Reported this morning (Apr 18) by Caught Offside: Liverpool are actively looking to sign Anthony Gordon from Newcastle, with the Magpies needing another big sale. The 25-year-old boyhood Red has told his camp to 'make the move happen' at around £80m, and the Ekitike blow has accelerated the pursuit. Ornstein remains cautious but Fabrizio Romano has said the deal is 'on'. Arsenal and Bayern Munich provide competition, with Bayern identifying Gordon as their top left-wing target (€60-70m).",
-      category: "transfers",
-    },
-    {
-      title: "Joe Gomez Ruled OUT of Merseyside Derby — 6th Player on Injury List",
-      detail:
-        "Confirmed by Slot at yesterday's (Apr 17) press conference: Joe Gomez misses Sunday's derby with the muscle injury that forced him off during his 22-minute cameo vs PSG (Apr 14). He joins Alisson, Bradley, Leoni, Endo and Ekitike on the sidelines, making six senior players ruled out. Liverpool.com reports Gomez's latest setback continues a frustrating campaign of knee, hamstring and now muscle issues.",
-      category: "injuries",
-    },
-    {
-      title: "'Definitely' — David Lynch Urges Liverpool to Sign Multiple Wingers Incl. Diomande",
-      detail:
-        "Reported today (Apr 18) by Empire of the Kop: journalist David Lynch made a 'definite' Yan Diomande claim, urging Liverpool to sign multiple wingers this summer. RB Leipzig's €100m asking price for the Ivorian is considered 'excessive' but he remains the reported first choice. Diomande plans to delay his decision until after the 2026 World Cup, with Arsenal, Man Utd and Bayern also tracking.",
-      category: "transfers",
-    },
-    {
-      title: "'A Very Special Game' — Slot's Derby Presser, Ekitike Awaiting Surgery, Isak Can't Do 90",
-      detail:
-        "At yesterday's (Apr 17) pre-Merseyside Derby press conference Arne Slot called it 'a very special game' — the 248th meeting and first at Hill Dickinson — and confirmed Hugo Ekitike has not yet undergone Achilles surgery. Crucially, Slot said Alexander Isak is 'not yet able to play for a full 90 minutes' — meaning a likely start vs Everton with minutes managed. Slot also joked Liverpool look 'smart' for signing two No 9s.",
-      category: "injuries",
-    },
-    {
-      title: "'Tension' at Board Level Over Slot's Future Despite Public FSG Backing",
-      detail:
-        "Reported yesterday (Apr 17) by Caught Offside: key figures inside the Liverpool hierarchy are 'split' on Arne Slot. Richard Hughes is reportedly 'all in' on Slot with plans to bring in two pacey wingers, while Michael Edwards is said to be 'on the fence'. FSG's public line is they intend to stick with Slot even without UCL football, but the final six games are seen as decisive.",
-      category: "general",
-    },
-    {
-      title: "Hughes & Edwards Confirmed to Stay — Transfer Chiefs Locked In Through Summer",
-      detail:
-        "Sky Sports confirmed yesterday (Apr 17) that sporting director Richard Hughes and FSG's head of football Michael Edwards will both remain in post for the summer window. Both are contracted until 2027 and will lead what is shaping up to be a pivotal rebuild — at least four signings are being planned, with wingers, a left-back and a Salah replacement as priorities.",
-      category: "transfers",
-    },
-    {
-      title: "Slot Facing Six-Game Audition — Top-Five Finish Non-Negotiable",
-      detail:
-        "Reported yesterday (Apr 17) by TEAMtalk: Slot's job is tied to securing a top-five Premier League finish over the final six fixtures, starting with Sunday's derby. Liverpool sit 5th on 52 points, four clear of Chelsea. The run-in features Everton (A), Crystal Palace (H), Man United (A), Chelsea (H), Aston Villa (A) and Brentford (H) — every fixture bar Palace is against a top-eight side.",
-      category: "general",
-    },
-    {
-      title: "FSG 'Intend to Stick' With Slot — But Iraola Mentioned as Potential Replacement",
-      detail:
-        "Reported two days ago (Apr 16) by This Is Anfield: despite the UCL exit, FSG have signalled their intent to back Slot through the summer — with four signings on the planning board. However, Empire of the Kop reported three days ago (Apr 15) that FSG have been 'mesmerised' by Andoni Iraola's Bournemouth transformation, and he is being mentioned as a potential Slot replacement if results collapse.",
-      category: "general",
-    },
-    {
-      title: "NEXT: First Merseyside Derby at Hill Dickinson Stadium — Sunday 2pm BST",
-      detail:
-        "Liverpool travel to Everton's new waterfront Hill Dickinson Stadium tomorrow (Sunday Apr 19, 2pm BST, Sky Sports) for the first competitive Merseyside Derby at the venue. Everton sit 8th on 47 points, have won 3 of their last 5, and Carlos Alcaraz could return from injury. Jack Grealish (foot fracture) misses out until June. Liverpool have lost four of their last five in all competitions.",
+        "Played yesterday (Sunday Apr 19) and reported across all outlets: Virgil van Dijk rose to head home Dominik Szoboszlai's corner in the 10th minute of stoppage time to seal a 2-1 win at Everton's brand-new Hill Dickinson Stadium. Salah had opened the scoring on 29 before Beto equalised on 54. The result lifts Liverpool 7 points clear of 6th-placed Chelsea with five PL games remaining, and is Liverpool's 6th PL stoppage-time winner vs Everton.",
       category: "matches",
     },
     {
-      title: "Ekitike Ruptured Achilles — Misses Rest of Season AND 2026 World Cup",
+      title: "Mamardashvili Stretchered Off With Head Wound — Woodman Starts vs Crystal Palace",
       detail:
-        "Confirmed two days ago (Apr 16) by Liverpool FC and the French Football Federation: Hugo Ekitike suffered a ruptured Achilles tendon after a non-contact slip in Tuesday's UCL defeat to PSG. The 23-year-old faces 9-12 months out, ending his season and removing him from Deschamps' summer World Cup squad. Ekitike leaves as Liverpool's top scorer with 18 goals in 41 appearances.",
+        "Breaking yesterday (Apr 19): Giorgi Mamardashvili suffered a serious head/facial wound at 59' in the Beto-Robertson-Mamardashvili collision, went to hospital on a stretcher, and was replaced by 29-year-old Freddie Woodman for his Premier League debut. Arne Slot's post-match verdict: 'a big wound... we fear the worst — not for a long-term injury but for next week.' This Is Anfield now reports Woodman will start Saturday's Crystal Palace (H) fixture at Anfield, with Alisson NOT expected back until the Man Utd trip on May 2.",
       category: "injuries",
     },
     {
-      title: "Liverpool 0-2 PSG (0-4 agg) — Dembélé Double Ends UCL Campaign",
+      title: "Salah Equals Gerrard's Merseyside Derby Record in His Final-Ever Clash",
       detail:
-        "Played Tuesday (Apr 14): Ousmane Dembélé struck twice in the final 20 minutes at Anfield to seal a 2-0 win and 4-0 aggregate victory for the defending champions. Wayne Rooney labelled the overturned Mac Allister penalty 'the wrong decision'. It's five straight UCL knockout wins for PSG over English opposition.",
+        "Confirmed by Liverpool FC and Goal.com yesterday (Apr 19): Mohamed Salah's 29th-minute opener vs Everton was his 9th Premier League Merseyside Derby goal — equalling the all-time record held by Steven Gerrard. With his Liverpool exit confirmed for the end of the season, Sunday was Salah's last ever Merseyside Derby. 7.9 match rating from This Is Anfield's player-ratings panel.",
       category: "matches",
     },
     {
-      title: "Andy Robertson to Leave Liverpool — Tottenham Frontrunner for Free",
+      title: "Curtis Jones (8.4) Shines in Inverted RB Role — Signals Tactical Twist",
       detail:
-        "Confirmed over a week ago by Liverpool FC and Sky Sports: Andy Robertson will leave Liverpool at season's end after nine years, with no contract offer tabled. The 32-year-old Scotland captain 'wants to play' after being second choice behind £40m Milos Kerkez. Tottenham lead the race; Atletico, Napoli, Juventus and Saudi clubs are also in.",
+        "Reported yesterday (Apr 19) by This Is Anfield, Liverpool.com and Anfield Index: Curtis Jones started at right-back in an inverted role vs Everton and earned Liverpool's highest match rating of 8.4, often stationing himself centrally in the build-up. Robertson got the LB nod over Kerkez, and the midfield shape was a Gravenberch-Szoboszlai double pivot behind a Salah-Wirtz-Gakpo attacking trio supporting Isak.",
+      category: "tactics",
+    },
+    {
+      title: "PSG Open Talks With Diomande Camp — Liverpool's Long Pursuit Complicated",
+      detail:
+        "Reported earlier this week (Apr 17-18) by Anfield Index and OneFootball: Paris Saint-Germain have stepped decisively into the Yan Diomande chase, opening talks with his representatives. The 19-year-old Ivorian remains Liverpool's top Salah-replacement target at around £85m, but PSG's push — combined with Bayern-Liverpool-Arsenal interest — is crowding the field. Diomande plans to defer his choice to after the 2026 World Cup.",
       category: "transfers",
     },
     {
-      title: "Salah Exit Confirmed — MLS Emerging as Most Likely Destination",
+      title: "Anthony Gordon: £80m Move Still Live — Bayern Competition Could Help Liverpool",
       detail:
-        "Confirmed in March: Mohamed Salah will leave Liverpool as a free agent at end of the 2025-26 season. MLS is reported as the most attractive destination for the 33-year-old. Salah scored vs Fulham (Apr 11) and played vs PSG — still contributing in his final weeks at Anfield.",
+        "Reported three days ago (Apr 17) by Caught Offside and Empire of the Kop: Liverpool remain actively interested in Newcastle's Anthony Gordon at around £80m, with the 25-year-old boyhood Red pushing for the move. Bayern Munich have however identified Gordon as their top left-wing target (€60-70m) — paradoxically, if Bayern lands Gordon it frees Liverpool's route to Diomande, per Rousing The Kop's Apr 15 piece.",
+      category: "transfers",
+    },
+    {
+      title: "Isak Lasts ~45 Mins on Derby Day — Expected to Start vs Crystal Palace Again",
+      detail:
+        "Confirmed by pre-match quotes Apr 17 and post-match reports yesterday (Apr 19): Alexander Isak started the Merseyside Derby but was subbed off around half-time as planned, with Slot having flagged on Friday that he was 'not yet able to play for a full 90 minutes.' Isak is on track to start again vs Crystal Palace (Apr 25) with his minutes still being tapered. Ngumoha / Gakpo remain rotation options.",
+      category: "injuries",
+    },
+    {
+      title: "Top-Five Chase: Opta Now Has Liverpool at 69% for UCL Qualification",
+      detail:
+        "Reported yesterday (Apr 19) by Liverpool.com and Football365: Sunday's derby win materially boosts Liverpool's UCL qualification odds. Opta's supercomputer now has Liverpool at 69% to finish in the top five. The remaining fixtures: Crystal Palace (H, Apr 25), Man United (A, May 2), Chelsea (H, May 9), Aston Villa (A, May 16), Brentford (H, May 23). Ange-Postecoglou-led Tottenham and Villa are now the primary pursuers.",
+      category: "matches",
+    },
+    {
+      title: "'Tension' at Board Level Over Slot — Now Dialed Down by Derby Heroics",
+      detail:
+        "Reported earlier this week (Apr 17) by Caught Offside: key figures inside Liverpool's hierarchy had been 'split' on Arne Slot, with Hughes 'all in' and Edwards 'on the fence.' The derby win — with Slot shown on Sky Sports footage singling out one of his stars in a passionate dressing-room team talk — has eased immediate pressure, though TEAMtalk reiterated yesterday that a top-five finish remains non-negotiable.",
+      category: "general",
+    },
+    {
+      title: "Hughes & Edwards Confirmed to Stay — Summer Rebuild Led by Existing Chiefs",
+      detail:
+        "Sky Sports confirmed earlier this week (Apr 17): sporting director Richard Hughes and FSG football head Michael Edwards will both remain in post. Both are contracted through 2027. Planning already targets wingers (Diomande, Gordon), a left-back, a centre-back, and a Salah replacement — with Anfield Index reporting yesterday that Liverpool are bracing for a 'nine-player fire sale' on the exit side.",
+      category: "transfers",
+    },
+    {
+      title: "Ekitike Ruptured Achilles — Out 9-12 Months, Misses 2026 World Cup",
+      detail:
+        "Confirmed six days ago (Apr 14) by Liverpool FC and FFF: Hugo Ekitike suffered a ruptured Achilles tendon after a non-contact slip in Tuesday's UCL defeat to PSG. The 23-year-old faces 9-12 months out, ending his season and removing him from Deschamps' summer World Cup squad. Ekitike ends the season as Liverpool's top scorer with 18 goals in 41 apps. Surgery still not yet performed as of Slot's Apr 17 update.",
+      category: "injuries",
+    },
+    {
+      title: "Robertson & Salah Exits Confirmed — End of an Era at Anfield",
+      detail:
+        "Confirmed over a week ago by Liverpool FC and Sky Sports: Andy Robertson (9 seasons, 32) will leave as a free agent with Tottenham leading a Scotland-captain race that also includes Atletico, Napoli, Juventus and Saudi clubs. Mohamed Salah's free-agent departure was confirmed in March with MLS the most likely destination. Both played large parts of Sunday's derby win — Salah scored to equal Gerrard, Robertson started at LB.",
       category: "transfers",
     },
   ],
   sources: [
-    "Caught Offside",
     "Liverpool FC",
     "Liverpool.com",
-    "Sky Sports",
     "This Is Anfield",
     "Empire of the Kop",
     "Rousing The Kop",
     "Anfield Index",
-    "TEAMtalk",
-    "ESPN",
+    "Sky Sports",
     "BBC Sport",
-    "Yahoo Sports",
-    "FootballTransfers",
+    "ESPN",
+    "Goal.com",
+    "Football365",
+    "Caught Offside",
+    "TEAMtalk",
+    "OneFootball",
+    "Outlook India",
     "Premier League",
   ],
 };
