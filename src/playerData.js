@@ -8,7 +8,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "injured", injuryNote: "Hamstring — still not back in team training; Slot (Apr 19) targets Man Utd (A, May 2) for return, NOT this weekend's Crystal Palace fixture", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "injured", injuryNote: "Recurring hamstring — missed last 6 games; Alisson has now set Man Utd (A, May 2/3) as his targeted comeback date (reported Apr 20-21). NOT in contention for Crystal Palace this weekend — Woodman in line to start", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -18,7 +18,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 17, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.8, status: "injured", injuryNote: "Head/facial wound from Beto-Robertson collision (59' vs Everton, Apr 19) — stretchered off to hospital; Slot post-match: 'big wound... we fear the worst for next week' — expected to miss Crystal Palace (Apr 25)", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 17, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.8, status: "injured", injuryNote: "Deep open wound just below left knee from Beto collision (59' vs Everton, Apr 19) — discharged from hospital; The Athletic reports 2-4 weeks out, certain to miss Crystal Palace (Apr 25) and Man Utd (A, May 2/3). Instagram: 'be back soon'", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -40,7 +40,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 36, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 7.1, status: "fit", injuryNote: null, image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
+    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 36, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 7.1, status: "fit", injuryNote: "All but confirmed new Liverpool contract (Apr 20-21): 'For sure there is a big chance I'm here next season' — U-turn on Real Madrid free-transfer speculation", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
     physical: { height: 194, weight: 95, pace: 78, acceleration: 76, sprintSpeed: 80 },
     career: [
       { years: "2014-2017", club: "Sochaux", fee: null, type: "youth" },
@@ -339,80 +339,86 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-20T09:00:00Z",
+  generatedAt: "2026-04-21T14:00:00Z",
   summary:
-    "Virgil van Dijk's 100th-minute header off a Szoboszlai corner snatched a dramatic 2-1 win at Everton on Sunday (Apr 19) — the first Merseyside Derby ever played at Hill Dickinson Stadium, and a seismic result that moves Liverpool 7 points clear of 6th-placed Chelsea with five PL games to go. Mohamed Salah opened the scoring in the 29th minute, equalling Steven Gerrard's all-time record of 9 PL Merseyside Derby goals in his final-ever derby as a Liverpool player; Beto equalised on 54 before Van Dijk's late heroics flipped the narrative on Arne Slot's season. The celebrations were tempered by a worrying injury blow: No.1 goalkeeper Giorgi Mamardashvili suffered a serious head/facial wound in a Robertson-Beto collision at 59', leaving on a stretcher and heading 'straight to hospital'; Slot post-match said 'we fear the worst — not for a long-term injury but for next week,' meaning 29-year-old Freddie Woodman (making his PL debut after coming on for Mamardashvili) is now in line to start Saturday's Crystal Palace fixture at Anfield, with Alisson now targeting the Man Utd trip on May 2 rather than this weekend. Off the pitch, PSG have opened talks with Yan Diomande's camp to hijack Liverpool's long-standing pursuit, while Bayern's heavy push for Anthony Gordon may ironically clear the Diomande lane. As of April 20, Liverpool sit 5th on 55 points, with Opta's supercomputer putting UCL qualification at 69%.",
+    "Heading into the Crystal Palace (H) build-up on Tuesday April 21, two fresh storylines are dominating the Liverpool news cycle. First: the Mamardashvili diagnosis has been clarified — what looked at first like a head/facial wound is in fact a deep open wound just below the LEFT KNEE from the Beto collision at 59' in Sunday's Merseyside Derby, with The Athletic now reporting a 2-4 week absence (Liverpool.com, Caught Offside, Sports Mole confirm). Mamardashvili is certain to miss Crystal Palace and the Man Utd trip, with Alisson himself now setting Man Utd (A, May 2/3) as his own targeted comeback date — meaning 29-year-old Freddie Woodman will make his first Premier League start for Liverpool on Saturday. Second: Ibrahima Konaté has all-but-confirmed he is staying, telling reporters post-derby 'For sure there is a big chance I'm here next season' in a significant U-turn on the Real Madrid free-transfer narrative. On the transfer front, Caught Offside reports Liverpool may have to pay 'more than €100m' to prise Yan Diomande from RB Leipzig (with concrete talks already ongoing via Roc Nation), while Anthony Gordon's preference for a Liverpool move over Bayern Munich is re-emerging. Sunday's 2-1 win at Hill Dickinson — Van Dijk 100th-minute header, Salah equalling Gerrard's 9 PL derby goals — has Liverpool 7 points clear of 6th, with Opta at 69% for UCL qualification. The Xabi Alonso rumour mill is also back, with Romain Molina claiming he's the priority replacement for Slot (Ornstein insists Slot is safe).",
   keyTopics: [
+    {
+      title: "Mamardashvili Diagnosis Clarified — KNEE Wound, 2-4 Weeks Out, Woodman to Start vs Palace",
+      detail:
+        "Breaking today (Apr 21): what first looked like a head/facial wound is actually a deep open wound just below Mamardashvili's LEFT KNEE from the Beto collision at 59' on Sunday. The Athletic reports a 2-4 week absence (per Caught Offside and Sports Mole); he is out of hospital after an Instagram post saying 'be back soon' and is CERTAIN to miss Crystal Palace (Apr 25) AND the Man Utd trip. Freddie Woodman will make his first Premier League start at Anfield on Saturday.",
+      category: "injuries",
+    },
+    {
+      title: "Alisson Sets Man Utd (May 2/3) as His Own Target Return Date",
+      detail:
+        "Emerged overnight (Apr 20-21) via Empire of the Kop and Liverpool.com: Alisson — missing the last 6 games with a recurring hamstring — has now personally earmarked the Manchester United trip on May 2/3 as his targeted comeback. He remains OUT of team training and is definitively unavailable vs Crystal Palace this weekend.",
+      category: "injuries",
+    },
+    {
+      title: "Konaté All-But-Confirms New Liverpool Deal: 'Big Chance I'm Here Next Season'",
+      detail:
+        "Reported today (Apr 20-21) across Liverpool.com, ESPN and Caught Offside: Ibrahima Konaté told reporters after the derby that 'for a long time we have spoken with the club and we are close to an agreement... For sure there is a big chance I'm here next season.' This is a significant U-turn on months of speculation that had him leaving for Real Madrid on a free. A huge boost to continuity ahead of the summer rebuild.",
+      category: "transfers",
+    },
+    {
+      title: "Diomande Fee Could Exceed €100m — Concrete Talks Ongoing With Roc Nation",
+      detail:
+        "Reported today (Apr 21) by Caught Offside and Anfield Index: RB Leipzig will demand 'well north of €100 million' for 19-year-old Yan Diomande, with PSG competing. FSG have 'given the green light' and concrete talks with Diomande's new agency Roc Nation Sports are ongoing. Diomande has 13 goals and 8 assists in 31 apps this season; the decision may be deferred until after the 2026 World Cup.",
+      category: "transfers",
+    },
+    {
+      title: "Anthony Gordon Prefers Liverpool Over Bayern — German Interest Emerges",
+      detail:
+        "Reported today (Apr 21) by Liverpool.com and TEAMtalk: Florian Plettenberg confirmed agreeing personal terms would not be an issue for Bayern, but Anthony Gordon would prefer a Liverpool move. Arsenal also circling the 25-year-old boyhood Red. Gordon missed Newcastle's latest fixture, fuelling summer-move speculation.",
+      category: "transfers",
+    },
+    {
+      title: "Xabi Alonso Manager-Rumour Mill Reignites — Ornstein: 'Slot Is Safe'",
+      detail:
+        "Reported across This Is Anfield, FourFourTwo and Yahoo over the last 24 hours: Romain Molina claims Liverpool have identified Xabi Alonso (fired by Real Madrid earlier this year) as their priority Slot replacement. David Ornstein has directly pushed back — 'Alonso not on Liverpool's agenda, even if Slot is sacked.' TEAMtalk: top-five finish still non-negotiable for Slot.",
+      category: "general",
+    },
+    {
+      title: "Liverpool Target Sunderland's Enzo Le Fée — €25m Valuation",
+      detail:
+        "Reported two days ago (Apr 19-20) by Sports Mole and SI: Liverpool are 'plotting' a summer move for Sunderland midfielder Enzo Le Fée. The France international has 4 goals and 5 assists in 31 PL apps this season, valued at €25m. Sunderland triggered their obligation-to-purchase after promotion; several UCL-chasing clubs also interested.",
+      category: "transfers",
+    },
     {
       title: "Van Dijk's 100th-Minute Header Wins Historic Hill Dickinson Derby 2-1",
       detail:
-        "Played yesterday (Sunday Apr 19) and reported across all outlets: Virgil van Dijk rose to head home Dominik Szoboszlai's corner in the 10th minute of stoppage time to seal a 2-1 win at Everton's brand-new Hill Dickinson Stadium. Salah had opened the scoring on 29 before Beto equalised on 54. The result lifts Liverpool 7 points clear of 6th-placed Chelsea with five PL games remaining, and is Liverpool's 6th PL stoppage-time winner vs Everton.",
+        "Played Sunday (Apr 19) and still dominating the weekend analysis: Virgil van Dijk rose to head home Dominik Szoboszlai's corner in the 10th minute of stoppage time to seal a 2-1 win at Everton's brand-new Hill Dickinson Stadium. Salah had opened on 29 before Beto equalised on 54. Lifts Liverpool 7 points clear of 6th-placed Chelsea; Liverpool's 6th PL stoppage-time winner vs Everton.",
       category: "matches",
     },
     {
-      title: "Mamardashvili Stretchered Off With Head Wound — Woodman Starts vs Crystal Palace",
+      title: "Salah Equals Gerrard's Merseyside Derby Record in Final-Ever Clash",
       detail:
-        "Breaking yesterday (Apr 19): Giorgi Mamardashvili suffered a serious head/facial wound at 59' in the Beto-Robertson-Mamardashvili collision, went to hospital on a stretcher, and was replaced by 29-year-old Freddie Woodman for his Premier League debut. Arne Slot's post-match verdict: 'a big wound... we fear the worst — not for a long-term injury but for next week.' This Is Anfield now reports Woodman will start Saturday's Crystal Palace (H) fixture at Anfield, with Alisson NOT expected back until the Man Utd trip on May 2.",
-      category: "injuries",
-    },
-    {
-      title: "Salah Equals Gerrard's Merseyside Derby Record in His Final-Ever Clash",
-      detail:
-        "Confirmed by Liverpool FC and Goal.com yesterday (Apr 19): Mohamed Salah's 29th-minute opener vs Everton was his 9th Premier League Merseyside Derby goal — equalling the all-time record held by Steven Gerrard. With his Liverpool exit confirmed for the end of the season, Sunday was Salah's last ever Merseyside Derby. 7.9 match rating from This Is Anfield's player-ratings panel.",
+        "Confirmed Sunday (Apr 19): Mohamed Salah's 29th-minute opener was his 9th Premier League Merseyside Derby goal — equalling the all-time record held by Steven Gerrard. With his Liverpool exit locked in for the end of the season, Sunday was Salah's last derby. 7.9 match rating and the This Is Anfield Man of the Match.",
       category: "matches",
     },
     {
-      title: "Curtis Jones (8.4) Shines in Inverted RB Role — Signals Tactical Twist",
+      title: "Curtis Jones (8.4) Shines in Inverted RB Role — Slot's Tactical Twist",
       detail:
-        "Reported yesterday (Apr 19) by This Is Anfield, Liverpool.com and Anfield Index: Curtis Jones started at right-back in an inverted role vs Everton and earned Liverpool's highest match rating of 8.4, often stationing himself centrally in the build-up. Robertson got the LB nod over Kerkez, and the midfield shape was a Gravenberch-Szoboszlai double pivot behind a Salah-Wirtz-Gakpo attacking trio supporting Isak.",
+        "Reported Sunday (Apr 19) by This Is Anfield, Liverpool.com and Anfield Index: Curtis Jones started at right-back in an inverted role vs Everton and earned Liverpool's highest match rating of 8.4. Robertson got the LB nod over Kerkez; midfield shape was a Gravenberch-Szoboszlai double pivot with Wirtz at #10, behind Salah-Gakpo supporting Isak.",
       category: "tactics",
-    },
-    {
-      title: "PSG Open Talks With Diomande Camp — Liverpool's Long Pursuit Complicated",
-      detail:
-        "Reported earlier this week (Apr 17-18) by Anfield Index and OneFootball: Paris Saint-Germain have stepped decisively into the Yan Diomande chase, opening talks with his representatives. The 19-year-old Ivorian remains Liverpool's top Salah-replacement target at around £85m, but PSG's push — combined with Bayern-Liverpool-Arsenal interest — is crowding the field. Diomande plans to defer his choice to after the 2026 World Cup.",
-      category: "transfers",
-    },
-    {
-      title: "Anthony Gordon: £80m Move Still Live — Bayern Competition Could Help Liverpool",
-      detail:
-        "Reported three days ago (Apr 17) by Caught Offside and Empire of the Kop: Liverpool remain actively interested in Newcastle's Anthony Gordon at around £80m, with the 25-year-old boyhood Red pushing for the move. Bayern Munich have however identified Gordon as their top left-wing target (€60-70m) — paradoxically, if Bayern lands Gordon it frees Liverpool's route to Diomande, per Rousing The Kop's Apr 15 piece.",
-      category: "transfers",
-    },
-    {
-      title: "Isak Lasts ~45 Mins on Derby Day — Expected to Start vs Crystal Palace Again",
-      detail:
-        "Confirmed by pre-match quotes Apr 17 and post-match reports yesterday (Apr 19): Alexander Isak started the Merseyside Derby but was subbed off around half-time as planned, with Slot having flagged on Friday that he was 'not yet able to play for a full 90 minutes.' Isak is on track to start again vs Crystal Palace (Apr 25) with his minutes still being tapered. Ngumoha / Gakpo remain rotation options.",
-      category: "injuries",
     },
     {
       title: "Top-Five Chase: Opta Now Has Liverpool at 69% for UCL Qualification",
       detail:
-        "Reported yesterday (Apr 19) by Liverpool.com and Football365: Sunday's derby win materially boosts Liverpool's UCL qualification odds. Opta's supercomputer now has Liverpool at 69% to finish in the top five. The remaining fixtures: Crystal Palace (H, Apr 25), Man United (A, May 2), Chelsea (H, May 9), Aston Villa (A, May 16), Brentford (H, May 23). Ange-Postecoglou-led Tottenham and Villa are now the primary pursuers.",
+        "Reported Sunday (Apr 19) by Liverpool.com and Football365: derby-win Opta now has Liverpool at 69% to finish in the top five. Remaining fixtures: Crystal Palace (H, Apr 25), Man United (A, May 2/3), Chelsea (H, May 9), Aston Villa (A, May 16), Brentford (H, May 23). Tottenham and Villa are the primary chasers.",
       category: "matches",
     },
     {
-      title: "'Tension' at Board Level Over Slot — Now Dialed Down by Derby Heroics",
+      title: "Ekitiké Ruptured Achilles — Out 9-12 Months, Misses 2026 World Cup",
       detail:
-        "Reported earlier this week (Apr 17) by Caught Offside: key figures inside Liverpool's hierarchy had been 'split' on Arne Slot, with Hughes 'all in' and Edwards 'on the fence.' The derby win — with Slot shown on Sky Sports footage singling out one of his stars in a passionate dressing-room team talk — has eased immediate pressure, though TEAMtalk reiterated yesterday that a top-five finish remains non-negotiable.",
-      category: "general",
-    },
-    {
-      title: "Hughes & Edwards Confirmed to Stay — Summer Rebuild Led by Existing Chiefs",
-      detail:
-        "Sky Sports confirmed earlier this week (Apr 17): sporting director Richard Hughes and FSG football head Michael Edwards will both remain in post. Both are contracted through 2027. Planning already targets wingers (Diomande, Gordon), a left-back, a centre-back, and a Salah replacement — with Anfield Index reporting yesterday that Liverpool are bracing for a 'nine-player fire sale' on the exit side.",
-      category: "transfers",
-    },
-    {
-      title: "Ekitike Ruptured Achilles — Out 9-12 Months, Misses 2026 World Cup",
-      detail:
-        "Confirmed six days ago (Apr 14) by Liverpool FC and FFF: Hugo Ekitike suffered a ruptured Achilles tendon after a non-contact slip in Tuesday's UCL defeat to PSG. The 23-year-old faces 9-12 months out, ending his season and removing him from Deschamps' summer World Cup squad. Ekitike ends the season as Liverpool's top scorer with 18 goals in 41 apps. Surgery still not yet performed as of Slot's Apr 17 update.",
+        "Confirmed one week ago (Apr 14) by Liverpool FC and FFF: Hugo Ekitiké suffered a ruptured Achilles tendon after a non-contact slip in the UCL defeat to PSG. The 23-year-old faces 9-12 months out, ending his season and removing him from Deschamps' summer World Cup squad. Ekitiké ends the season as Liverpool's top scorer with 18 goals in 41 apps.",
       category: "injuries",
     },
     {
       title: "Robertson & Salah Exits Confirmed — End of an Era at Anfield",
       detail:
-        "Confirmed over a week ago by Liverpool FC and Sky Sports: Andy Robertson (9 seasons, 32) will leave as a free agent with Tottenham leading a Scotland-captain race that also includes Atletico, Napoli, Juventus and Saudi clubs. Mohamed Salah's free-agent departure was confirmed in March with MLS the most likely destination. Both played large parts of Sunday's derby win — Salah scored to equal Gerrard, Robertson started at LB.",
+        "Confirmed over a week ago by Liverpool FC and Sky Sports: Andy Robertson (9 seasons) will leave as a free agent with Tottenham leading a Scotland-captain race. Mohamed Salah's free-agent departure was confirmed in March (MLS most likely). Both played large parts of Sunday's derby win — Salah scored to equal Gerrard, Robertson started at LB.",
       category: "transfers",
     },
   ],
@@ -424,14 +430,16 @@ export const NEWS_DIGEST = {
     "Rousing The Kop",
     "Anfield Index",
     "Sky Sports",
-    "BBC Sport",
     "ESPN",
-    "Goal.com",
     "Football365",
+    "FourFourTwo",
     "Caught Offside",
     "TEAMtalk",
-    "OneFootball",
-    "Outlook India",
+    "Sports Mole",
+    "The Athletic",
+    "Yahoo Sports",
+    "Sports Illustrated",
+    "Read Liverpool FC",
     "Premier League",
   ],
 };
