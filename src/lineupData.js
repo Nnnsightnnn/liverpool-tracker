@@ -100,34 +100,34 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-04-21.
+// Hand-curated from RESULTS array + injuryNote context as of 2026-04-22.
 export const PLAYER_EVIDENCE = {
-  1:  "Hamstring · self-targeting Man Utd May 2/3", // Alisson
-  2:  "Deep knee wound 59' vs Everton · 2-4 wks",   // Mamardashvili
-  3:  "100' header won the derby · 7.8 rating",     // Van Dijk
-  4:  "New deal close · 'big chance I stay' (Apr 21)", // Konaté
-  5:  "Muscle injury (Apr 14) · Palace still TBC",  // Gomez
-  6:  "Started LB in derby win · kept over Kerkez", // Robertson
-  7:  "Benched for derby · rotation LB option",     // Kerkez
-  8:  "Knee surgery · out for season",              // Bradley
-  9:  "Derby sub for Jones · RB rotation",          // Frimpong
-  10: "Torn ACL · out for season",                  // Leoni
-  11: "Deputy CB with Gomez out · Form 6.6",        // Jacquet
-  12: "Academy depth · 2 senior apps",              // Ndukwe
-  13: "Benched for derby · likely returns at home", // Mac Allister
-  14: "Full derby shift · double pivot · 7.5 form", // Gravenberch
-  15: "Corner assist for VVD winner · 7.6 form",    // Szoboszlai
-  16: "Stellar 8.4 rating at inverted RB vs Everton", // Jones
-  17: "Ankle surgery · out for season",             // Endo
-  18: "Derby #10 · creator-in-chief · 7.3 form",    // Wirtz
-  19: "Hamstring · yet to play this season",        // Bajcetic
-  20: "Academy prospect · 5 senior apps",           // Nyoni
-  21: "Equalled Gerrard's 9 PL derby goals (Apr 19)", // Salah
-  22: "Started derby · kept LW ahead of Ngumoha",   // Gakpo
-  23: "Subbed ~HT in derby · starts again vs Palace", // Isak
-  24: "Ruptured Achilles · out 9-12 months",        // Ekitike
-  25: "Youngest PL Anfield scorer (Apr 11)",        // Ngumoha
-  26: "Available · rotation winger",                // Chiesa
+  1:  "Back in training (Apr 22) · Man Utd May 3 target", // Alisson
+  2:  "Knee wound 59' vs Everton · 2-4 wks out",   // Mamardashvili
+  3:  "Captain · 100' header won the derby",       // Van Dijk
+  4:  "'Big chance I stay' · new deal close",      // Konaté
+  5:  "Muscle injury (Apr 14) · doubt for Palace", // Gomez
+  6:  "Derby LB starter · Robertson praises Woodman", // Robertson
+  7:  "Fotmob predict LB recall vs Palace",        // Kerkez
+  8:  "Knee surgery · out for season",             // Bradley
+  9:  "Fotmob predict RB recall vs Palace",        // Frimpong
+  10: "Torn ACL · out for season",                 // Leoni
+  11: "Deputy CB with Gomez doubt · Form 6.6",     // Jacquet
+  12: "Academy depth · 2 senior apps",             // Ndukwe
+  13: "Benched for derby · home-rotation recall",  // Mac Allister
+  14: "Derby double-pivot shift · form 7.5",       // Gravenberch
+  15: "Corner assist for VVD winner · form 7.6",   // Szoboszlai
+  16: "8.4 rating at inverted RB vs Everton",      // Jones
+  17: "Ankle surgery · out for season",            // Endo
+  18: "Derby #10 · creator-in-chief · form 7.0",   // Wirtz
+  19: "Hamstring · yet to play this season",       // Bajcetic
+  20: "Academy prospect · 5 senior apps",          // Nyoni
+  21: "Equalled Gerrard's 9 PL derby goals",       // Salah
+  22: "Derby assist + 7.9 rating · locked-in LW",  // Gakpo
+  23: "Derby 45 mins · starts again vs Palace",    // Isak
+  24: "Ruptured Achilles · out 9-12 months",       // Ekitike
+  25: "Youngest PL Anfield scorer (Apr 11)",       // Ngumoha
+  26: "Rotation winger · form 6.0",                // Chiesa
 };
 
 // Default formation when entering the view — matched Slot's derby-winning shape
@@ -155,17 +155,17 @@ export const SLOT_CONFIDENCE = {
 // Explains why the predicted starter won their slot. Populated by the predictor;
 // hand-set initially. Keyed by slot key (for the active formation — 4-2-3-1).
 export const SLOT_RATIONALE = {
-  GK:  "Deep knee wound 2-4 wks (The Athletic) · Ali targets Man Utd May 2/3 · Woodman PL debut start",
-  LB:  "Recalled for derby win · Slot trusted him over Kerkez",
+  GK:  "Woodman PL debut start vs boyhood Palace · Mama 2-4 wks, Ali trains this week but Man Utd is target",
+  LB:  "Derby LB starter · Robertson public backing of Woodman · Kerkez push still live per Fotmob",
   LCB: "Captain · 100' header won the derby 2-1",
   RCB: "'Big chance I stay' — new deal close · every PL start",
   RB:  "Jones inverted RB · 8.4 rating vs Everton, highest on pitch",
   LDM: "Derby double-pivot · progressive passer",
   RDM: "Corner-delivery assist for VVD winner · form 7.6",
-  LAM: "Derby starter · kept LW over Ngumoha",
+  LAM: "Derby starter · kept LW over Ngumoha · 7.9 rating",
   CAM: "The derby #10 role — creator-in-chief",
   RAM: "Equalled Gerrard's 9 PL derby goals · final LFC weeks",
-  ST:  "Subbed ~HT vs Everton as planned · minutes taper continues",
+  ST:  "Played 45 mins vs Everton · starts again vs Palace",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -190,8 +190,8 @@ export const ALTERNATIVES = {
 // predictor metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "High",
-  reason: "10 of 11 started the Hill Dickinson Derby 2-1 win (Apr 19) · Mamardashvili's deep knee wound now confirmed 2-4 weeks (The Athletic), Alisson himself targets Man Utd (A, May 2/3) — Woodman locked in for his first PL start. Slot likely to reward the derby XI at home; Mac Allister on call for the benched Kerkez or a rotation midfielder slot.",
-  pundit_sources: ["This Is Anfield", "Liverpool.com", "Caught Offside", "Sports Mole", "Empire of the Kop"],
-  agreement_rate: 0.82,
-  generated_at: "2026-04-21T14:00:00Z",
+  reason: "Derby XI (Apr 19) the base; Woodman locked in for his PL debut start vs boyhood club Palace after Mamardashvili's 2-4 wk knee wound — Alisson's hamstring has healed (Slot presser Apr 22) but Man Utd May 3 is the firm target, not this weekend. Fotmob consensus has Kerkez/Frimpong recalled at FBs with Mac Allister back in midfield; we keep Slot's derby-winning 4-2-3-1 with Jones at inverted RB and Robertson LB as the slightly higher-confidence pick.",
+  pundit_sources: ["ESPN", "Tribuna", "This Is Anfield", "Liverpool.com", "Fotmob"],
+  agreement_rate: 0.78,
+  generated_at: "2026-04-22T14:00:00Z",
 };
