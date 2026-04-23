@@ -8,7 +8,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "injured", injuryNote: "Hamstring fully healed per Slot's Apr 22 pre-Palace presser — back in team training this week, but NOT being rushed; Man Utd (A, May 3) confirmed as return target. Woodman starts vs Crystal Palace", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "injured", injuryNote: "Hamstring nearly back — Man Utd (A, May 3) the return target, NOT Palace. BUT today (Apr 23) Romano: 'Alisson likes the idea' of a Juventus return — Bianconeri have made a verbal offer; Reds triggered 1-yr extension to 2027 so any move on Reds' terms", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -40,7 +40,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 36, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 7.1, status: "fit", injuryNote: "All but confirmed new Liverpool contract: 'For sure there is a big chance I'm here next season' — U-turn on Real Madrid speculation (post-derby, still lead story Apr 22)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
+    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 36, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 7.1, status: "fit", injuryNote: "Romano (Apr 20): new Liverpool deal 'nears completion' — only contract length & bonus structure left. Konaté to BBC: 'we are close to an agreement'. Massive U-turn on Real Madrid free-transfer chatter", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
     physical: { height: 194, weight: 95, pace: 78, acceleration: 76, sprintSpeed: 80 },
     career: [
       { years: "2014-2017", club: "Sochaux", fee: null, type: "youth" },
@@ -339,86 +339,98 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-22T14:00:00Z",
+  generatedAt: "2026-04-23T14:00:00Z",
   summary:
-    "Heading into Wednesday Apr 22 — Crystal Palace (H) build-up day, Slot's pre-match presser on — the Liverpool news cycle is dominated by Freddie Woodman's looming Premier League debut. The 29-year-old, who grew up a Palace fan and was a ball-boy at Selhurst, told ESPN and Tribuna it would be 'unreal' to make his full LFC bow against his boyhood club on Saturday, with Andy Robertson backing him publicly ('he has been unbelievable'). Behind him, Alisson is expected back in team training THIS WEEK (Slot, Apr 20) — hamstring fully healed, with Man Utd (A, May 3) now the firm target — while Mamardashvili's deep knee wound from the Beto collision keeps him 2-4 weeks out. On the manager front, David Ornstein has pushed back hard on the Alonso-to-Anfield reports (Diario AS: 'no doubts his future lies at Anfield'), insisting FSG 'intend to stick with Slot' after the derby win locked in a 7-point cushion for fifth. On the transfer side, World Soccer Talk today reports Randal Kolo Muani — currently on loan at Tottenham from PSG — is Liverpool's chosen Ekitiké replacement (€35m+ permanent deal required); Yan Diomande still €100m+ from Leipzig as the top Salah heir; Konaté's 'big chance I stay' comments from Sunday have been reinforced; and Anthony Gordon prefers Liverpool over Bayern. Sunday's 2-1 Hill Dickinson derby win — Van Dijk 100' header, Salah equalling Gerrard's 9 PL derby goals — remains the backdrop, with Opta now at 69% for UCL qualification.",
+    "Thursday Apr 23 — Crystal Palace (H) -2 days — and the Liverpool news cycle has lurched in a brand-new direction overnight. Liverpool FC's own website confirms Liverpool and Chelsea have declared formal interest in Manchester City's James Trafford, with Goal/Sports Mole adding Tottenham, Newcastle and Aston Villa to a five-club race for the 23-year-old who lost his starting spot to Donnarumma in September. That story landed alongside a worrying Fabrizio Romano bombshell on Empire of the Kop and Yardbarker: 'Alisson likes the idea' of a Juventus return, with the Bianconeri having reached a verbal agreement and Alisson's Liverpool future now openly in question despite the recently-triggered 2027 extension. On the in-squad front, This Is Anfield says Liverpool are now the 'most likely' destination for free-agent Marcos Senesi (Slot's left-footed Feyenoord favourite), while a longer This Is Anfield piece argues Liverpool need SIX summer signings to get back on top. Slot's job, meanwhile, is locked in for 2026-27 per Sky Sports News (Apr 22) — Champions League qualification effectively sealing it. Yan Diomande remains the £87m+ top target with PSG now the rival; Konaté's new deal is 'nearing completion' per Romano (Apr 20). Sunday's 2-1 Hill Dickinson derby win — Van Dijk's 100th-minute header, Salah equalling Gerrard's 9 PL derby goals — is the backdrop, and Opta still has Liverpool at ~69% for top-five UCL qualification with Wharton fit to face them at Anfield.",
   keyTopics: [
     {
-      title: "'Unreal' — Woodman Eyes First PL Start vs Boyhood Club Palace; Robertson: 'He Has Been Unbelievable'",
+      title: "BREAKING — Liverpool & Chelsea Declare Formal Interest in James Trafford as 5-Club PL Race Builds",
       detail:
-        "Breaking today (Apr 22) via ESPN and Tribuna: Freddie Woodman — who grew up a Palace fan and was a ball-boy at Selhurst Park — said it would be 'unreal' to make his full Liverpool debut on Saturday against his boyhood club. Robertson publicly backed him: 'He has been unbelievable.' Woodman came off the bench in the derby after the Beto collision to help close out the 2-1 win and was applauded off at full-time. Third-choice signing from Preston last summer now first-choice on derby-week bounce.",
-      category: "injuries",
+        "Confirmed today (Apr 23) on Liverpool FC's own website, with Goal/Sports Mole/CityXtra adding Tottenham, Newcastle and Aston Villa to the chase. The 23-year-old keeper hasn't started a PL game since Donnarumma's deadline-day arrival from PSG and is set for a summer departure. City want to keep him into 2026-27 but won't block an exit if he asks. With Alisson now openly linked to Juventus, Trafford represents Liverpool's potential clean-slate No.1 alongside Mamardashvili.",
+      category: "transfers",
     },
     {
-      title: "Slot's Pre-Palace Press Conference — Alisson Back in Training This Week, Gomez & Wirtz Updates",
+      title: "Romano Bombshell — 'Alisson Likes the Idea' of Juventus Return; Verbal Agreement Reportedly Reached",
       detail:
-        "Held today (Apr 22) at the AXA Training Centre: Arne Slot confirmed Alisson — hamstring fully healed — is expected back in team training during the week, with Man Utd (A, May 3) still the target for a full return. Mamardashvili's knee remains 2-4 weeks, Wirtz's back complaint still monitored, and Joe Gomez's muscle problem from the PSG cameo leaves him a doubt. Nine players now on the growing injury list per Liverpool.com.",
+        "Broken today (Apr 23) by Fabrizio Romano on X and amplified by Empire of the Kop, Yardbarker and FourFourTwo: Alisson is open to a Serie A return with Juventus making a world-class GK their summer priority. Liverpool recently triggered a one-year extension to June 2027, so any move would be on Reds' terms — but the 33-year-old's own willingness to consider Italy ('huge respect for Liverpool, but likes the idea') has shifted the long-term GK plan overnight. Caught Offside calls Alisson Juventus's 'dream target.'",
+      category: "transfers",
+    },
+    {
+      title: "Senesi Free Transfer — This Is Anfield: Liverpool 'Most Likely' Destination for Bournemouth CB",
+      detail:
+        "Reported today (Apr 23) by This Is Anfield with Goal and TEAMtalk corroborating: Marcos Senesi will leave Bournemouth on a free in the summer and Liverpool are now the clear frontrunners. The 28-year-old left-footed CB played 49 times under Slot at Feyenoord and Hughes drove his original Cherries move. Chelsea, Man Utd, Aston Villa and Tottenham all in the contact group but Italy interest has cooled — pointing the deal toward Anfield.",
+      category: "transfers",
+    },
+    {
+      title: "This Is Anfield Analysis: Liverpool Need 6 Summer Signings to Get Back on Top",
+      detail:
+        "Published today (Apr 23): a deep-dive piece arguing Liverpool need a NEW No.1 GK, a left-footed CB, a starting RB, a midfielder, and TWO wide forwards (one each side) to rebuild the squad after a transitional season. The piece dovetails with the Trafford and Senesi stories landing the same morning, plus the ongoing Diomande/Gordon search.",
       category: "general",
     },
     {
-      title: "Ornstein Shuts Down Alonso-To-Liverpool Reports: 'Not On The Agenda, Even If Slot Is Sacked'",
+      title: "Crystal Palace Build-up — Wharton Fit for 'Anfield Audition'; Liverpool Favourites at 1/2",
       detail:
-        "Reignited today (Apr 22) on This Is Anfield: David Ornstein has directly pushed back on Diario AS's 'no doubts his future lies at Anfield' claim about Xabi Alonso, saying the out-of-work ex-Real Madrid boss is 'not on Liverpool's agenda, even if Slot is sacked.' Sky Sports' Vinny O'Connor adds Slot 'is set to retain the support of the hierarchy' for a third season.",
+        "Confirmed Apr 21-22 (and echoing into Apr 23): Oliver Glasner has confirmed Adam Wharton, a Liverpool summer transfer target, returns from injury for Saturday. Liverpool are 1/2 favourites at home, but Palace have already beaten them three times this season (Community Shield on pens, 2-1 at Selhurst, 3-0 in Carabao Cup at Anfield). With Trafford in the headlines, Woodman still locked in for his PL debut between the sticks.",
+      category: "matches",
+    },
+    {
+      title: "Sky Sports News: Slot 'Expected to Continue' as Liverpool Manager for 2026-27",
+      detail:
+        "Reported Apr 22 by Sky Sports News and reinforced Apr 23 by Empire of the Kop and This Is Anfield: Champions League qualification has effectively sealed Slot's job. The 7-point cushion in 5th has flipped FSG's stance — Yahoo Sports/CaughtOffside both say Liverpool 'have made the final decision to keep Arne Slot' for a third season, ending hopes of a Xabi Alonso swoop.",
       category: "general",
     },
     {
-      title: "Randal Kolo Muani Emerging as Chosen Ekitiké Replacement — PSG Want €35m+",
+      title: "Diomande Saga — PSG Now a Concrete Threat; Liverpool Hold 'Clear Lead' at £87m+",
       detail:
-        "Reported today (Apr 22) by World Soccer Talk, Anfield Watch and SI: Liverpool have decided Randal Kolo Muani is their preferred summer cover for Hugo Ekitiké (9-12 months out with a ruptured Achilles). PSG owns him; he's currently on loan at Spurs and PSG are reportedly NOT open to another loan — meaning at least €35m for a permanent. A second emerging alternative: Hoffenheim 20-year-old Bazoumana Touré (per TEAMtalk).",
+        "Reported Apr 21-22 by Liverpool FC's own site and FootballTransfers.com: PSG (Luis Campos) have officially entered the race for RB Leipzig's 19-year-old Yan Diomande after meeting his Roc Nation reps. Liverpool still hold a 'clear lead' but Leipzig have edged the price beyond €100m. Empire of the Kop adds: 'transfer insider claims Liverpool have set a target date for completion' — pre-World Cup deal sought.",
       category: "transfers",
     },
     {
-      title: "Alisson Back Training This Week — Man Utd (May 3) Confirmed Target, Not Palace",
+      title: "Romano: Konaté's New Liverpool Deal 'Nears Completion' — Only Length & Bonuses Left",
       detail:
-        "Confirmed Apr 20-22 by Liverpool.com, This Is Anfield and the pre-match presser: Slot expects Alisson back in team training during the week, but the Brazilian has NOT been rushed for Saturday — Man Utd away on May 3 is the firm target. Alisson's own X post earlier in April: 'I didn't suffer a new injury, I'll be in full playing condition by the end of April.' That's slipped by a few days, with Man Utd now the realistic return.",
+        "Reported Apr 20 by Tribuna (Fabrizio Romano) and reinforced Apr 22-23 by TeamTalk and Football Today: 'Both sides already aligned on the main salary structure' — only contract duration and performance-related bonuses remain. Konaté himself confirmed to BBC: 'we are close to an agreement.' A massive relief after months of Real Madrid free-transfer chatter; Konaté locks in alongside Van Dijk's captaincy.",
+      category: "transfers",
+    },
+    {
+      title: "Kolo Muani Emerging as Chosen Ekitiké Replacement — PSG Want €35m+ Permanent",
+      detail:
+        "Reported Apr 21-22 by World Soccer Talk, Rousing The Kop, SI and TeamTalk: Slot has personally 'approved' Kolo Muani's profile in a meeting with the hierarchy. The Frenchman is on loan at Spurs from PSG (5G/4A in 36 apps — only 1 PL goal); PSG are reportedly NOT open to another loan, meaning ~€35m for a permanent. Some scepticism: Football Insider says the move 'poses questions about Liverpool's recruitment strategy.'",
+      category: "transfers",
+    },
+    {
+      title: "Anthony Gordon — Newcastle Set $100M Price; Bayern Munich Now No.1 Suitor",
+      detail:
+        "Reported Apr 20-22 across Liverpool.com, GeordieBootBoys and Football365: Newcastle have set Gordon's fee at ~£75m ($100M), the same figure Liverpool agreed in the failed 2024 deal. Bayern have made him their No.1 left-wing target and Liverpool/Arsenal also tracking. McCoist on talkSPORT: 'crazy' valuation. Gordon (17 goals this season) likely needs a sale-to-buy departure for Newcastle's PSR.",
+      category: "transfers",
+    },
+    {
+      title: "Liverpool Injury List Now 8 — Woodman to Start Vs Palace, Alisson Targeting Man Utd (May 3)",
+      detail:
+        "Per Sports Mole and Liverpool.com (Apr 22-23): Mamardashvili, Alisson, Bradley, Leoni, Gomez, Bajcetic, Endo and Ekitike all out for Crystal Palace. Slot's Apr 22 presser: Alisson back in team training this week but the Brazilian is NOT being rushed — Old Trafford on May 3 is the firm return target. Joe Gomez's PSG-cameo muscle issue keeps him out alongside Mamardashvili's 2-4 wk knee laceration.",
       category: "injuries",
     },
     {
-      title: "Konaté All-But-Confirms New Liverpool Deal: 'Big Chance I'm Here Next Season'",
+      title: "Van Dijk's 100' Header Wins Historic Hill Dickinson Derby — Salah Equals Gerrard's PL Derby Record",
       detail:
-        "Reported Apr 20-21 (and echoing today, Apr 22) across Liverpool.com, ESPN and Caught Offside: Ibrahima Konaté told reporters post-derby 'for a long time we have spoken with the club and we are close to an agreement... for sure there is a big chance I'm here next season.' A significant U-turn on the Real Madrid free-transfer narrative, giving FSG continuity at CB alongside Van Dijk's captaincy.",
-      category: "transfers",
-    },
-    {
-      title: "Diomande Fee Now £100m+ / ~€117m — Gordon the Cheaper Second Prong",
-      detail:
-        "Reported Apr 21-22 by FootballTransfers.com and Liverpool.com: RB Leipzig now want 'well north of €100m / £87m' for 19-year-old Yan Diomande — up from the earlier £70-85m range — with concrete talks still running via Roc Nation. Anthony Gordon, meanwhile, is projected at ~£70m and prefers a Liverpool move over Bayern per Florian Plettenberg. Combined, the Salah-replacement spend could top $212m.",
-      category: "transfers",
-    },
-    {
-      title: "Michael Olise NOT For Sale — Bayern's Hard Line Cools a Liverpool Summer Push",
-      detail:
-        "Reported Apr 21-22 by Liverpool.com: Bayern Munich have insisted Michael Olise is not for sale this summer. Seen as a dream wide target but Bayern's stance likely ends Liverpool's interest before it starts. Reds shifting focus back to the Diomande/Gordon axis.",
-      category: "transfers",
-    },
-    {
-      title: "Van Dijk's 100th-Minute Header Wins Historic Hill Dickinson Derby 2-1",
-      detail:
-        "Played Sunday (Apr 19): Virgil van Dijk headed home Dominik Szoboszlai's corner in the 10th minute of stoppage time to seal a 2-1 win at Everton's brand-new Hill Dickinson Stadium. Salah had opened on 29 before Beto equalised on 54. Lifts Liverpool 7 points clear of 6th-placed Chelsea; Opta now at 69% for top-five UCL qualification.",
+        "Played Sunday (Apr 19): Van Dijk headed home Szoboszlai's corner in the 10th minute of stoppage time to seal a 2-1 win at Everton's new Hill Dickinson Stadium. Salah's 29th-minute opener was his 9th PL Merseyside Derby goal, equalling Gerrard's all-time record in his final-ever derby. Liverpool now 7 clear of 6th-placed Chelsea; Opta UCL probability ~69%.",
       category: "matches",
     },
     {
-      title: "Salah Equals Gerrard's Merseyside Derby Record in Final-Ever Clash",
+      title: "Curtis Jones (8.4) Shines in Inverted RB Role — Slot's Tactical Twist Likely to Stay vs Palace",
       detail:
-        "Confirmed Sunday (Apr 19): Mohamed Salah's 29th-minute opener was his 9th Premier League Merseyside Derby goal — equalling the all-time record held by Steven Gerrard. With his Liverpool exit locked in for the end of the season, Sunday was Salah's last derby. 7.9 match rating and the This Is Anfield Man of the Match.",
-      category: "matches",
-    },
-    {
-      title: "Curtis Jones (8.4) Shines in Inverted RB Role — Slot's Tactical Twist Likely to Stay",
-      detail:
-        "Reported Sunday (Apr 19) and reinforced in Apr 22 previews: Curtis Jones started at right-back in an inverted role vs Everton and earned Liverpool's highest match rating of 8.4. Robertson got the LB nod over Kerkez; midfield shape was a Gravenberch-Szoboszlai double pivot with Wirtz at #10, behind Salah-Gakpo supporting Isak. Fotmob's predicted XI has that same shape vs Palace.",
+        "Confirmed Apr 19 and re-circulated Apr 22-23 ahead of Palace: Curtis Jones started at right-back in an inverted role vs Everton and earned Liverpool's highest match rating of 8.4. Robertson got LB over Kerkez; midfield was a Gravenberch-Szoboszlai double pivot with Wirtz at #10. Fotmob/OneFootball predicted XIs have Slot likely sticking with the same 4-2-3-1 shape Saturday.",
       category: "tactics",
     },
     {
       title: "Ekitiké Ruptured Achilles — Out 9-12 Months, Misses 2026 World Cup",
       detail:
-        "Confirmed Apr 14 by Liverpool FC and FFF: Hugo Ekitiké suffered a ruptured Achilles after a non-contact slip in the UCL defeat to PSG. The 23-year-old faces 9-12 months out, ending his season and removing him from Deschamps' summer World Cup squad. Ekitiké ends the campaign as Liverpool's top scorer (18 goals in 41 apps) and is the key reason Kolo Muani is being chased today.",
+        "Confirmed Apr 14 by Liverpool FC and FFF: Hugo Ekitiké suffered a ruptured Achilles after a non-contact slip in the UCL defeat to PSG. The 23-year-old faces 9-12 months out, ending his season and removing him from Deschamps' World Cup squad. Ekitiké ends the campaign as Liverpool's top scorer (18 goals in 41 apps) and is the key reason Kolo Muani and others are being chased.",
       category: "injuries",
     },
     {
-      title: "Robertson & Salah Exits Confirmed — End of an Era at Anfield",
+      title: "Robertson & Salah Exits Still Confirmed — End of an Era at Anfield",
       detail:
-        "Confirmed over a week ago by Liverpool FC and Sky Sports: Andy Robertson (9 seasons) will leave as a free agent with Tottenham leading a Scotland-captain race. Mohamed Salah's free-agent departure was confirmed in March (MLS most likely). Both started Sunday's derby win — Salah equalled Gerrard, Robertson was restored at LB ahead of Kerkez.",
+        "Both starting Sunday's derby win: Andy Robertson (9 seasons) will leave as a free agent with Tottenham leading the Scotland-captain race; Salah's free-agent departure (MLS most likely) was confirmed in March. With Alisson now also openly linked to Juventus today, the summer rebuild scope keeps growing.",
       category: "transfers",
     },
   ],
@@ -426,23 +438,28 @@ export const NEWS_DIGEST = {
     "Liverpool FC",
     "Liverpool.com",
     "This Is Anfield",
-    "ESPN",
+    "Empire of the Kop",
+    "Goal.com",
+    "Sports Mole",
     "Tribuna",
+    "FourFourTwo",
+    "Yardbarker",
+    "Sky Sports",
     "World Soccer Talk",
-    "Anfield Watch",
+    "Rousing The Kop",
     "Sports Illustrated",
     "FootballTransfers.com",
-    "Sky Sports",
     "TEAMtalk",
     "Caught Offside",
-    "Sports Mole",
-    "The Athletic",
-    "Goal.com",
-    "Fotmob",
     "Football365",
-    "Daily Sports",
-    "Read Liverpool FC",
-    "Premier League",
+    "Football Today",
+    "Yahoo Sports",
+    "Fotmob",
+    "OneFootball",
+    "ESPN",
+    "Football Insider",
+    "GeordieBootBoys",
+    "CityXtra",
   ],
 };
 
