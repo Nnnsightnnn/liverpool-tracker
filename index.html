@@ -20,9 +20,6 @@
     <div id="score-box" style="max-width: 900px; margin: 1rem auto; padding: 0 1rem;"></div>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-    <script type="module">
-      import { trackLiveScore } from "https://nnnsightnnn.github.io/tracker-shared/live-scores.js";
-      trackLiveScore({ team: "liverpool", target: document.getElementById("score-box") });
-    </script>
+    <script type="module" src="/live-scores-init.js"></script>
   </body>
 </html>
