@@ -125,22 +125,22 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Liverpool FC", title: "Arne Slot press conference: Crystal Palace challenge, Woodman faith, attackers and more — laughing & relaxed Dutchman ahead of Anfield clash", time: "today", category: "official" },
-  { source: "lfcglobe", title: "Arne Slot Press Conference: Salah \"Back To Normal\" Ahead of Palace Clash — Joe Gomez available, Woodman set for full PL debut", time: "today", category: "fan" },
-  { source: "Liverpool.com", title: "How to watch Liverpool vs Crystal Palace in US and UK — Anfield 14:00, three more wins seal top-five UCL spot", time: "today", category: "major" },
-  { source: "This Is Anfield", title: "Liverpool Predicted XI vs. Crystal Palace: Alisson wait and big striker decision — Woodman, Frimpong recall, Mac Allister back", time: "today", category: "fan" },
-  { source: "Caught Offside", title: "12 G/A star cleared to move for £60m: Man United & Liverpool on alert for Rafael Leao bargain transfer", time: "today", category: "fan" },
-  { source: "Anfield Watch", title: "Liverpool weigh up crazy €25m transfer to replace homegrown talent — Dumfries' Inter release clause far below market value", time: "today", category: "fan" },
+  { source: "Sports Mole", title: "Liverpool lineup vs. Crystal Palace: Predicted XI for PL clash as 29-year-old Woodman makes full debut — 'Robbo out', Frimpong & Mac Allister recalled", time: "today", category: "fan" },
+  { source: "This Is Anfield", title: "Liverpool Team News vs. Crystal Palace: 2 GKs Out, 18 Outfielders — Mamardashvili 3 wks, Alisson too soon, Bradley/Endo/Leoni still season-out", time: "today", category: "fan" },
+  { source: "Liverpool FC", title: "Injury news: Updates on Alisson, Mamardashvili, Gomez and Endo — Slot says Ali is 'close to returning' but Crystal Palace likely too soon, Old Trafford May 3 the realistic return", time: "today", category: "official" },
+  { source: "Liverpool.com", title: "How to watch Liverpool vs Crystal Palace in US and UK — Anfield 14:00, three more wins from five seal top-five Champions League spot", time: "today", category: "major" },
+  { source: "Caught Offside", title: "Liverpool intensifying Yan Diomande transfer efforts — but Leipzig wanting to keep him another year may push deal to summer 2027", time: "today", category: "fan" },
+  { source: "Anfield Watch", title: "Liverpool FC News: European giants to offer Arne Slot escape route — Ajax chief Jordi Cruyff lining up Slot or Ten Hag for summer reset", time: "today", category: "fan" },
+  { source: "Sky Sports", title: "Arne Slot future: Liverpool boss expected to stay at Anfield next season — FSG 'intend to stick' with Slot as club close in on UCL qualification", time: "1d ago", category: "major" },
+  { source: "This Is Anfield", title: "Slot future update: FSG 'intend' to stick — even without Champions League — but doubts \"subsiding rapidly\" as top-five looms", time: "1d ago", category: "fan" },
+  { source: "lfcglobe", title: "Arne Slot Press Conference: Salah \"back to normal\" ahead of Palace clash — Joe Gomez available, Woodman set for full PL debut", time: "1d ago", category: "fan" },
   { source: "Liverpool.com", title: "Arne Slot delivers clear Alisson verdict as Juventus transfer rumors addressed: 'Only focused on his recovery'", time: "1d ago", category: "major" },
-  { source: "This Is Anfield", title: "Curtis Jones 'seriously considering' Liverpool exit — Aston Villa and Tottenham circle frustrated 25-year-old", time: "1d ago", category: "fan" },
-  { source: "Empire of the Kop", title: "Spirit of Shankly confirm new Liverpool protest plans vs Crystal Palace — yellow cards to fly in 13th minute over ticket-price hike", time: "1d ago", category: "fan" },
-  { source: "Yahoo Sports", title: "Liverpool nearing agreement for Yan Diomande deal, with winger set to be first summer buy: report", time: "1d ago", category: "major" },
-  { source: "Tribuna", title: "Slot delivers update on Isak ahead of World Cup summer — minutes managed plan continues vs Crystal Palace", time: "1d ago", category: "fan" },
-  { source: "Sky Sports", title: "Arne Slot future: Liverpool boss expected to stay at Anfield next season as club close in on Champions League qualification", time: "3d ago", category: "major" },
-  { source: "Liverpool FC", title: "Liverpool and Chelsea declare interest in James Trafford — Man City keeper among five PL clubs eyeing summer move", time: "3d ago", category: "official" },
-  { source: "Tribuna", title: "Romano: Ibrahima Konaté's Liverpool deal nears completion — contract length and bonus structure all that's left to finalise", time: "5d ago", category: "fan" },
+  { source: "This Is Anfield", title: "Curtis Jones 'strongly considering' Liverpool exit — Aston Villa lead Tottenham, Inter still circling frustrated 25-year-old", time: "2d ago", category: "fan" },
+  { source: "Yahoo Sports", title: "Liverpool nearing agreement for Yan Diomande deal, with winger set to be first summer buy: report", time: "2d ago", category: "major" },
+  { source: "Empire of the Kop", title: "Spirit of Shankly confirm new Liverpool protest plans vs Crystal Palace — yellow cards to fly in 13th minute over 13% ticket-price hike", time: "2d ago", category: "fan" },
+  { source: "TEAMtalk", title: "Liverpool: France int'l Konaté confirms he'll sign with deal AGREED — 'It's Liverpool', massive U-turn on Real Madrid free-transfer chatter", time: "5d ago", category: "fan" },
   { source: "Liverpool FC", title: "Van Dijk scores 100th-minute winner as Liverpool beat Everton 2-1 in first Merseyside derby at Hill Dickinson Stadium", time: "6d ago", category: "official" },
-  { source: "ESPN", title: "Mohamed Salah equals Steven Gerrard's record for most Premier League Merseyside derby goals (9) in his final-ever clash with Everton", time: "6d ago", category: "major" },
+  { source: "Al Jazeera", title: "Salah scores in Merseyside derby as Liverpool win to boost European hopes — equals Gerrard's PL Merseyside Derby record (9 goals) in his final clash", time: "6d ago", category: "major" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────

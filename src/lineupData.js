@@ -108,28 +108,28 @@ export const FORMATIONS = {
 // One-line evidence string per player, surfaced under the token on hover.
 // Hand-curated from RESULTS array + injuryNote context as of 2026-04-25 matchday.
 export const PLAYER_EVIDENCE = {
-  1:  "Late fitness test · Man Utd May 3 likelier",  // Alisson
-  2:  "Knee wound · ~3 wks out per LFC.com",         // Mamardashvili
+  1:  "Slot: 'too soon' for Palace · May 3 target",  // Alisson
+  2:  "Knee wound · ~3 wks out · stitches",          // Mamardashvili
   3:  "Captain · 100' header won the derby",         // Van Dijk
-  4:  "Romano: new deal 'nears completion'",         // Konaté
+  4:  "TEAMtalk: 'It's Liverpool' — sign confirmed", // Konaté
   5:  "Back in training · available, likely bench",  // Gomez
-  6:  "'Robbo Out' (Sports Mole) vs Palace XI",      // Robertson
-  7:  "TIA/Sports Mole predict LB recall today",     // Kerkez
+  6:  "'Robbo Out' · Spurs lead summer free move",   // Robertson
+  7:  "Pundit consensus: LB recall today",           // Kerkez
   8:  "Knee surgery · out for season",               // Bradley
-  9:  "TIA predict RB recall over Jones-RB",         // Frimpong
+  9:  "Pundit consensus: RB recall today",           // Frimpong
   10: "Torn ACL · out for season",                   // Leoni
   11: "Deputy CB · Form 6.6",                        // Jacquet
   12: "Academy depth · 2 senior apps",               // Ndukwe
-  13: "TIA Apr 24 XI: central #10 return today",     // Mac Allister
+  13: "Apr 25 consensus XI: central #10 return",     // Mac Allister
   14: "Double-pivot anchor · form 7.5",              // Gravenberch
-  15: "Corner assist for VVD winner · form 7.6",     // Szoboszlai
-  16: "Villa/Spurs interest · 'considering exit'",   // Jones
+  15: "Corner assist for VVD winner · form 7.6",    // Szoboszlai
+  16: "Villa lead Spurs/Inter · summer exit talk",   // Jones
   17: "Ankle surgery · out for season",              // Endo
-  18: "TIA Apr 24 XI: LAM today vs Palace",          // Wirtz
+  18: "Apr 25 consensus XI: LAM today",              // Wirtz
   19: "Hamstring · yet to play this season",         // Bajcetic
   20: "Academy prospect · 5 senior apps",            // Nyoni
   21: "Slot: 'back to normal' · final LFC weeks",    // Salah
-  22: "TIA Apr 24 XI: tipped at ST today",           // Gakpo
+  22: "Apr 25 consensus XI: tipped at ST today",     // Gakpo
   23: "Managed minutes · 'big striker decision'",    // Isak
   24: "Ruptured Achilles · out 9-12 months",         // Ekitike
   25: "Bench rotation · youngest PL Anfield scorer", // Ngumoha
@@ -144,15 +144,15 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys. The UI renders these as colored dots on each pitch token.
 // Keys match DEFAULT_FORMATION (4-2-3-1).
 export const SLOT_CONFIDENCE = {
-  GK:  "High",   // Woodman locked in — Mama ~3w, Ali 'late fitness test' but Man Utd May 3 target
-  LB:  "Medium", // TIA/Sports Mole Apr 24 predict Kerkez recall over Robertson's derby 90'
+  GK:  "High",   // Woodman locked in — Mama ~3w, Slot Apr 24: Ali 'too soon' for Palace, May 3 target
+  LB:  "High",   // TIA/Sports Mole/Hard Tackle Apr 25 converge on Kerkez over Robertson's derby 90'
   LCB: "High",   // Van Dijk captain & derby match-winner
-  RCB: "High",   // Konaté nailed on · Romano: deal nears completion
-  RB:  "Medium", // TIA/Sports Mole Apr 24 predict Frimpong recall over Jones-RB
+  RCB: "High",   // Konaté nailed on · TEAMtalk: 'It's Liverpool' — new deal confirmed
+  RB:  "High",   // TIA/Sports Mole/Hard Tackle Apr 25 all predict Frimpong recall
   LDM: "High",   // Gravenberch double-pivot anchor
-  RDM: "High",   // Szoboszlai · derby corner assist · TIA tip he stays in pivot
-  LAM: "High",   // Wirtz as the LAM per TIA Apr 24 XI
-  CAM: "Medium", // Mac Allister return after derby bench (TIA prediction)
+  RDM: "High",   // Szoboszlai · derby corner assist · stays in pivot
+  LAM: "High",   // Wirtz as the LAM per consensus predicted XI
+  CAM: "High",   // Mac Allister return after derby bench (consensus across 4 outlets)
   RAM: "High",   // Salah · 'back to normal' per Slot · final LFC weeks
   ST:  "Medium", // 'Big striker decision' — TIA tip Gakpo, but Isak started derby
 };
@@ -161,17 +161,17 @@ export const SLOT_CONFIDENCE = {
 // Explains why the predicted starter won their slot. Populated by the predictor;
 // hand-set initially. Keyed by slot key (for the active formation — 4-2-3-1).
 export const SLOT_RATIONALE = {
-  GK:  "Woodman makes full PL debut vs boyhood Palace · Slot Apr 24: Alisson 'late fitness test' but more likely Man Utd May 3 return · Mama out ~3 wks (LFC.com)",
-  LB:  "TIA/Sports Mole Apr 24 XI: Kerkez recalled at home for natural shape · Robertson 'out' headline after his derby 90'",
+  GK:  "Woodman makes full PL debut vs boyhood Palace · Slot Apr 24: Alisson 'close to returning' but 'too soon' for Palace · May 3 Man Utd target · Mama out ~3 wks",
+  LB:  "Consensus pundit XI Apr 25 (TIA/Sports Mole/Hard Tackle/Yahoo): Kerkez recalled at home · Robertson 'out' headline after his derby 90'",
   LCB: "Captain · 100' header won the derby 2-1 · 7.4 form",
-  RCB: "Romano: new deal 'nears completion' (Apr 20) · BBC: 'we are close to an agreement' · Konaté lock-in",
-  RB:  "TIA/Sports Mole Apr 24 XI: Frimpong recalled · home shape favours natural FBs over derby's inverted-Jones experiment",
+  RCB: "TEAMtalk Apr 23: Konaté confirms he WILL sign — 'It's Liverpool' · Real Madrid U-turn sealed",
+  RB:  "Consensus pundit XI Apr 25: Frimpong recalled · home shape favours natural FBs over derby's inverted-Jones experiment",
   LDM: "Derby double-pivot · progressive passer · form 7.5",
-  RDM: "Szoboszlai stays in the pivot per TIA Apr 24 XI · corner assist for VVD winner · form 7.6",
-  LAM: "Wirtz LAM per TIA Apr 24 predicted XI · #10 form continues vs Palace",
-  CAM: "Mac Allister return after derby bench (TIA Apr 24 prediction) · controls midfield tempo at Anfield",
+  RDM: "Szoboszlai stays in the pivot · corner assist for VVD derby winner · form 7.6",
+  LAM: "Wirtz LAM per Apr 25 consensus XI · #10 form continues vs Palace",
+  CAM: "Mac Allister return after derby bench (consensus across 4 outlets) · controls midfield tempo at Anfield",
   RAM: "Slot Apr 24: Salah 'back to normal' · equalled Gerrard's 9 PL derby goals · final LFC weeks",
-  ST:  "TIA Apr 24 'big striker decision' tips Gakpo · Isak's minutes still managed ahead of Sweden's WC summer",
+  ST:  "Apr 25 'big striker decision' tips Gakpo · Isak's minutes still managed ahead of Sweden's WC summer",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -195,9 +195,9 @@ export const ALTERNATIVES = {
 // Overall prediction confidence chip shown above the pitch. Enriched with
 // predictor metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
-  level: "Medium",
-  reason: "Apr 25 matchday: Slot's pre-Palace presser confirmed Woodman starts (full PL debut vs his boyhood club), Salah is 'back to normal,' and Gomez is available — Alisson a 'late fitness test' but Man Utd May 3 is the realistic return. TIA & Sports Mole Apr 24 predicted XI: natural FBs recalled (Kerkez/Frimpong), Mac Allister back at CAM, Wirtz LAM, Szoboszlai stays in pivot, and the 'big striker decision' tips Gakpo at ST as Isak's minutes are managed. 7 players still injured. Confidence Medium because the ST and CAM calls are coin-flips.",
-  pundit_sources: ["This Is Anfield", "Sports Mole", "Liverpool.com", "Liverpool FC", "lfcglobe", "Tribuna"],
-  agreement_rate: 0.70,
-  generated_at: "2026-04-25T09:00:00Z",
+  level: "High",
+  reason: "Apr 25 matchday: Sports Mole, This Is Anfield, The Hard Tackle and Yahoo Sports all converge on the same 4-2-3-1 — Woodman (full PL debut vs boyhood Palace), Frimpong-Konaté-Van Dijk-Kerkez behind a Gravenberch-Szoboszlai pivot, Wirtz LAM, Mac Allister CAM, Salah RAM and Gakpo at ST as Slot's 'big striker decision' (Isak's minutes managed). Alisson 'close to returning' but 'too soon' — Old Trafford May 3 the target. 7 players still injured, but pundit consensus is unusually tight today; only the ST call is a real coin-flip.",
+  pundit_sources: ["This Is Anfield", "Sports Mole", "The Hard Tackle", "Yahoo Sports", "Liverpool.com", "Liverpool FC", "lfcglobe"],
+  agreement_rate: 0.85,
+  generated_at: "2026-04-25T12:30:00Z",
 };

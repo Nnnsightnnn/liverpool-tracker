@@ -339,20 +339,32 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-25T09:00:00Z",
+  generatedAt: "2026-04-25T12:30:00Z",
   summary:
-    "Saturday Apr 25 — MATCHDAY at Anfield, 14:00 vs Crystal Palace, and Slot's pre-match presser (Apr 24) was the lightest he's been all season. Mohamed Salah is 'back to normal,' Joe Gomez has returned to outdoor training and is available, and Freddie Woodman is poised to make his full PL debut against his boyhood club because Mamardashvili is out ~3 weeks with a stitched knee wound and Alisson — who Slot called a late fitness test but more likely an Old Trafford May 3 return — is staying focused on recovery, NOT on the Juventus chatter. Spirit of Shankly will run a 13th-minute yellow-card protest inside Anfield over a 13% three-year ticket-price rise. Off-pitch the headline overnight is Curtis Jones — TIA, Tribuna and Rousing The Kop all reporting he is 'strongly considering' a summer exit with Aston Villa now leading Tottenham (and Inter still circling) for the 25-year-old. Yan Diomande is reportedly nearing agreement and is set to be Liverpool's first summer buy per Yahoo Sports, while Caught Offside add Rafael Leao to the £60m forward shortlist alongside Man Utd. Konaté's new deal is still 'close,' Wharton (Liverpool's £80m midfield target) is fit and lining up for an 'Anfield audition' for Palace, and Liverpool sit 7 clear of 6th with three more wins likely sealing the top-five spot.",
+    "Saturday Apr 25 — MATCHDAY at Anfield, 14:00 vs Crystal Palace, and the headline overnight is Slot himself: Sky Sports report FSG 'intend to stick' with him next season even without Champions League, with This Is Anfield adding doubts are 'subsiding rapidly' as Liverpool close on a top-five spot. The counter-story is just as live — Anfield Watch and TribalFootball say Ajax sporting director Jordi Cruyff is lining up Slot (or Ten Hag) for a summer Eredivisie return, an 'open secret' per Mike Verweij. On the pitch Slot's presser (Apr 24) was his lightest of the season: Mohamed Salah is 'back to normal,' Joe Gomez is available, and Freddie Woodman makes his full PL debut against his boyhood club because Mamardashvili is out ~3 weeks with a stitched knee wound and Alisson — 'close to returning' but 'too soon' for today — targets Old Trafford on May 3. Spirit of Shankly will run a 13th-minute yellow-card protest inside Anfield over a 13% three-year ticket-price rise. Off-pitch: Curtis Jones is 'strongly considering' a summer exit (Villa leading Spurs, Inter still in); Yan Diomande remains the No.1 winger target but Caught Offside (Apr 24) warn Leipzig may push the deal to summer 2027; Konaté has confirmed to TEAMtalk he WILL sign — 'It's Liverpool'. Three more wins from five seal the top-five UCL spot.",
   keyTopics: [
     {
-      title: "MATCHDAY — Crystal Palace (H), 14:00 · Slot's Most Relaxed Presser of the Season",
+      title: "Sky Sports: FSG 'Intend to Stick' With Slot Next Season — Even Without CL",
       detail:
-        "Reported Apr 24 across Liverpool FC, lfcglobe and theredmentv: Arne Slot was 'laughing and joking' with reporters in his pre-Palace presser — the lightest he's been all year — with UCL qualification effectively a done deal. He praised Palace's 'discipline' and Glasner directly; Palace have beaten Liverpool three times already this season. Liverpool are 1/2 favourites; Opta still has Reds top-five at ~69%.",
+        "Reported overnight Apr 24 by Sky Sports and amplified Apr 25 by This Is Anfield: 'doubts subsiding rapidly' over Slot's future as Liverpool close in on the top-five UCL spot. FSG and the sporting hierarchy 'intend to stick' with him through the summer rebuild even if Champions League slips. Slot is 22 months into his 36-month deal that runs to June 2027.",
+      category: "general",
+    },
+    {
+      title: "Counter-Story: Ajax's Cruyff 'Lining Up' Slot for Summer Eredivisie Return",
+      detail:
+        "Reported overnight Apr 24-25 by Anfield Watch, Yahoo Sports and TribalFootball: Ajax technical director Jordi Cruyff sees Slot or Erik ten Hag as the 'only two Dutch candidates' for the Ajax job per De Telegraaf's Mike Verweij — 'an open secret.' Cruyff also worked with Slot at Alkmaar. Liverpool aren't budging publicly but the escape route is suddenly real on the eve of matchday.",
+      category: "general",
+    },
+    {
+      title: "MATCHDAY — Crystal Palace (H), 14:00 · Three Wins From Top-Five UCL Spot",
+      detail:
+        "Anfield kickoff today; Liverpool 1/2 favourites with five matches left and three wins enough to lock UCL. Slot was 'laughing and joking' in Friday's presser — lightest he's been all year — and praised Palace's 'discipline' under Glasner directly (Palace have beaten Liverpool three times this season). Spirit of Shankly will run a 13th-minute yellow-card protest inside Anfield over a 13% three-year ticket-price rise.",
       category: "matches",
     },
     {
       title: "Slot Confirms: Salah 'Back to Normal,' Gomez Available, Woodman to Start vs Palace",
       detail:
-        "From Slot's Apr 24 pre-match presser (Liverpool FC, Liverpool.com): Mohamed Salah is 'back to normal' — chances both falling to him and being created by him; Joe Gomez has returned to outdoor training and is available for selection; Freddie Woodman is poised for his full PL debut against his boyhood club because Mamardashvili is out ~3 weeks and Alisson — a 'late fitness test' — more realistically returns at Old Trafford on May 3.",
+        "From Slot's Apr 24 pre-match presser (Liverpool FC, Liverpool.com): Mohamed Salah is 'back to normal' — chances both falling to him and being created by him; Joe Gomez has returned to outdoor training and is available for selection; Freddie Woodman is poised for his full PL debut against his boyhood club because Mamardashvili is out ~3 weeks and Alisson — 'close to returning' but Crystal Palace likely 'too soon' — targets Old Trafford May 3.",
       category: "tactics",
     },
     {
@@ -362,15 +374,15 @@ export const NEWS_DIGEST = {
       category: "general",
     },
     {
-      title: "Curtis Jones 'Strongly Considering' Liverpool Exit — Aston Villa Leading Tottenham",
+      title: "Curtis Jones 'Strongly Considering' Liverpool Exit — Aston Villa Leading Tottenham, Inter Still In",
       detail:
-        "Reported Apr 22-23 by This Is Anfield, Tribuna, Caught Offside, Yahoo Sports and Rousing The Kop: Aston Villa have moved ahead of Tottenham (and Inter, who tried in January) for the 25-year-old, who has started just 23 of 44 apps and 'just six in the last three months.' Final year of his deal in 2026-27 — Liverpool now face the buy-or-cash-in call. Empire of the Kop today (Apr 24) adds Liverpool 'open to' the move.",
+        "Reported Apr 18-25 across This Is Anfield, Tribuna, Read Aston Villa, Spurs Web and Football Insider: Aston Villa preparing a 'concrete move,' ahead of Tottenham (and January's Inter approach) for the 25-year-old, who has started just 23 of 44 apps and 'just six in the last three months.' Just over 12 months on his deal — contract talks have stalled. TEAMtalk add Jones is 'preparing to leave' Anfield.",
       category: "transfers",
     },
     {
-      title: "Yahoo: Yan Diomande Set to be Liverpool's First Summer Buy — Agreement 'Nearing'",
+      title: "Diomande Talks Intensify — But Caught Offside (Apr 24) Warn 2027 Delay Risk",
       detail:
-        "Yahoo Sports (Apr 24) and Anfield Watch say Liverpool have a 'green light' for the £87m+ Leipzig winger, with talks at advanced stage. Caught Offside (Apr 24) caution that Leipzig may push the deal to summer 2027, which Rousing The Kop (Apr 23) flagged as a 'slight worry.' This Is Anfield calls Diomande the 'unicorn Salah successor' from Florida-via-Leipzig.",
+        "Updated overnight Apr 24-25 across Caught Offside, Yahoo Sports, Football Transfers and This Is Anfield: Liverpool stepping up the Diomande pursuit with concrete talks at his representatives, but Leipzig 'wanting to keep him at least one more year' raises a real summer-2027 risk. Price tag €100m / £87m+; Arsenal also tracking. 19-yr-old has 13G/6A this season — TIA call him the 'unicorn Salah successor.'",
       category: "transfers",
     },
     {
@@ -392,9 +404,9 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "Romano: Konaté's New Liverpool Deal 'Nears Completion' — Only Length & Bonuses Left",
+      title: "Konaté CONFIRMS He'll Sign New Deal: 'It's Liverpool' — Real Madrid U-turn Sealed",
       detail:
-        "Reported Apr 20 by Tribuna (Fabrizio Romano), reinforced Apr 22-24 by ESPN, TeamTalk, Sports Illustrated and Yahoo Sports: 'Both sides already aligned on the main salary structure' — only contract duration and performance-related bonuses remain. Konaté himself confirmed to BBC: 'we are close to an agreement.' Critical relief after months of Real Madrid free-transfer chatter; locks Liverpool's 26-year-old CB beyond June 2026.",
+        "Reported Apr 20-25 by Tribuna (Fabrizio Romano), TEAMtalk, This Is Anfield and Managing Madrid: 'Both sides already aligned on the main salary structure' — only contract duration and performance-related bonuses remain. Konaté himself, asked direct: 'It's Liverpool' — full U-turn on free-transfer Real Madrid speculation. TIA call it 'a massive relief'; locks the 26-year-old CB beyond June 2026.",
       category: "transfers",
     },
     {
@@ -439,26 +451,26 @@ export const NEWS_DIGEST = {
     "Liverpool.com",
     "This Is Anfield",
     "Empire of the Kop",
-    "Goal.com",
     "Sports Mole",
     "Tribuna",
     "Sky Sports",
     "Rousing The Kop",
-    "Sports Illustrated",
     "TEAMtalk",
     "Caught Offside",
     "Yahoo Sports",
-    "Fotmob",
+    "Football Transfers",
     "ESPN",
     "Anfield Watch",
-    "Anfield Index",
     "GiveMeSport",
     "TribalFootball",
     "lfcglobe",
-    "The Redmen TV",
-    "BeIN Sports",
-    "VAVEL",
     "Al Jazeera",
+    "Read Aston Villa",
+    "Spurs Web",
+    "Football Insider",
+    "Managing Madrid",
+    "BeIN Sports",
+    "Goal.com",
   ],
 };
 
