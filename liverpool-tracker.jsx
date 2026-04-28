@@ -125,21 +125,21 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "beIN Sports", title: "Salah doing everything possible to partake in Anfield farewell, says Van Dijk — 'he'll get the goodbye his time at the club deserves'", time: "today", category: "major" },
-  { source: "Liverpool.com", title: "Virgil van Dijk issues Mohamed Salah send-off message as Liverpool waits for injury update — captain confirms farewell plan", time: "today", category: "major" },
-  { source: "CaughtOffside", title: "Michael Olise transfer ruled out by Bayern chief Rummenigge — 'absolutely untouchable', no €200m offer would be considered", time: "today", category: "fan" },
-  { source: "Liverpool FC", title: "Liverpool sent clear Michael Olise transfer message by Bayern Munich chief — 2009 precedent cited", time: "today", category: "official" },
-  { source: "Empire of the Kop", title: "Curtis Jones should start vs Manchester United after 8/10 Crystal Palace display — criminally underused at right-back", time: "today", category: "fan" },
-  { source: "Liverpool.com", title: "Arne Slot addresses Curtis Jones game time amid exit rumors — compares Jones' 'comfort on the ball' at RB to Trent Alexander-Arnold", time: "today", category: "major" },
-  { source: "TEAMtalk", title: "FSG plan FOUR signings after making Arne Slot sack decision — Robertson, Salah replacements identified", time: "today", category: "fan" },
-  { source: "Sky Sports", title: "Mohamed Salah injury: Liverpool legend may have played final game for club after hamstring strain in Crystal Palace win", time: "1d ago", category: "major" },
-  { source: "Al Jazeera", title: "Injured Salah has played his last game for Liverpool, says Egypt FA director — 4 weeks out, fit for World Cup", time: "1d ago", category: "major" },
-  { source: "FOX Sports", title: "Mo Salah's Liverpool career likely over; Egypt director provides injury update", time: "1d ago", category: "major" },
-  { source: "Liverpool FC", title: "Isak, Robertson and Wirtz score as Liverpool beat Crystal Palace 3-1 — Reds climb to fourth", time: "2d ago", category: "official" },
-  { source: "This Is Anfield", title: "Liverpool 3-1 Crystal Palace: Up to 4th as Isak scores first goal after injury — Curtis Jones 8/10 at RB", time: "2d ago", category: "fan" },
-  { source: "Goal.com", title: "Liverpool player ratings vs Crystal Palace: Woodman 8/10 instant Anfield hero, Salah's farewell tour cruelly cut short", time: "2d ago", category: "major" },
-  { source: "This Is Anfield", title: "Diomande to Liverpool: Concrete Talks for €100m Salah Successor — Reds 'hold clear lead' over PSG, Arsenal", time: "3d ago", category: "fan" },
-  { source: "TEAMtalk", title: "Andy Robertson 'agreement on everything' with Tottenham — verbal deal contingent on Spurs avoiding relegation, says Romano", time: "5d ago", category: "fan" },
+  { source: "Liverpool.com", title: "Caoimhin Kelleher wants to apologize to Mohamed Salah at Liverpool farewell — Brentford goodbye taking shape regardless of fitness", time: "today", category: "major" },
+  { source: "ESPN", title: "Transfer rumors: Liverpool eye Adam Wharton amid Manchester United, Real Madrid interest — £80m Crystal Palace midfielder leads Mac Allister-replacement shortlist", time: "today", category: "major" },
+  { source: "TEAMtalk", title: "Liverpool transfer news: £92m double deal accelerates with 'dream' signing ON — Wharton + Caleb Yirenkyi the Hughes summer plan", time: "today", category: "fan" },
+  { source: "Liverpool.com", title: "Liverpool will emerge battered and bruised from this season — but with clear reason for optimism, writes Liverpool.com", time: "today", category: "major" },
+  { source: "Liverpool.com", title: "Steven Gerrard offered 'enticing' Bristol City project to replace Roy Hodgson — Reds icon weighs Championship return", time: "today", category: "major" },
+  { source: "This Is Anfield", title: "Why Konaté's contract update is a massive relief for Liverpool — defender confirms 'big chance I'm here next season'", time: "today", category: "fan" },
+  { source: "Empire of the Kop", title: "'Enticing project' — Gerrard targeted by EFL club for new manager role, report claims", time: "today", category: "fan" },
+  { source: "beIN Sports", title: "Salah doing everything possible to partake in Anfield farewell, says Van Dijk — 'he'll get the goodbye his time at the club deserves'", time: "1d ago", category: "major" },
+  { source: "CaughtOffside", title: "Michael Olise transfer ruled out by Bayern chief Rummenigge — 'absolutely untouchable', no €200m offer would be considered", time: "1d ago", category: "fan" },
+  { source: "Liverpool.com", title: "Arne Slot addresses Curtis Jones game time amid exit rumors — compares Jones' 'comfort on the ball' at RB to Trent Alexander-Arnold", time: "1d ago", category: "major" },
+  { source: "Sky Sports", title: "Mohamed Salah injury: Liverpool legend may have played final game for club after hamstring strain in Crystal Palace win", time: "2d ago", category: "major" },
+  { source: "Al Jazeera", title: "Injured Salah has played his last game for Liverpool, says Egypt FA director — 4 weeks out, fit for World Cup", time: "2d ago", category: "major" },
+  { source: "Liverpool FC", title: "Isak, Robertson and Wirtz score as Liverpool beat Crystal Palace 3-1 — Reds climb to fourth, 97.9% UCL chance per Opta", time: "3d ago", category: "official" },
+  { source: "This Is Anfield", title: "Diomande to Liverpool: Concrete Talks for €100m Salah Successor — Reds 'hold clear lead' over PSG, Arsenal", time: "4d ago", category: "fan" },
+  { source: "TEAMtalk", title: "Andy Robertson 'agreement on everything' with Tottenham — verbal deal contingent on Spurs avoiding relegation, says Romano", time: "1w ago", category: "fan" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
