@@ -262,6 +262,25 @@ export const PLAYERS = [
       { years: "2024-", club: "Liverpool", fee: "€12M", type: "senior" },
     ],
   },
+
+  // ── Late additions ────────────────────────────────────────────────────────
+  {
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 8.0, status: "fit", injuryNote: "Made full Liverpool debut in the 3-1 win vs Crystal Palace (Apr 25) — 8/10 across TIA, Liverpool.com and Goal.com after stepping in for the injured Mama. Drops to the bench when Alisson returns at Old Trafford May 3 but proved Liverpool's third-choice depth ahead of summer rebuild", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
+    career: [
+      { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
+      { years: "2013-2015", club: "Newcastle Academy", fee: null, type: "youth" },
+      { years: "2015-2022", club: "Newcastle United", fee: null, type: "senior" },
+      { years: "2015-2016", club: "Hartlepool (loan)", fee: null, type: "senior" },
+      { years: "2016", club: "Crawley Town (loan)", fee: null, type: "senior" },
+      { years: "2017", club: "Kilmarnock (loan)", fee: null, type: "senior" },
+      { years: "2017-2018", club: "Aberdeen (loan)", fee: null, type: "senior" },
+      { years: "2018-2021", club: "Swansea City (loan)", fee: null, type: "senior" },
+      { years: "2021-2022", club: "AFC Bournemouth (loan)", fee: null, type: "senior" },
+      { years: "2022-2025", club: "Preston North End", fee: null, type: "senior" },
+      { years: "2025-", club: "Liverpool", fee: "Free", type: "senior" },
+    ],
+  },
 ];
 
 // ─── RSS Feed Sources ───────────────────────────────────────────────────────

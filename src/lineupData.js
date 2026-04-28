@@ -138,6 +138,7 @@ export const PLAYER_EVIDENCE = {
   24: "Ruptured Achilles · out 9-12 months",         // Ekitike
   25: "Palace bench · youngest PL Anfield scorer",   // Ngumoha
   26: "Palace bench · rotation winger · likely exit",// Chiesa
+  27: "8/10 LFC debut vs Palace · 3rd-choice depth", // Woodman
 };
 
 // Default formation when entering the view — matched Slot's derby-winning shape
@@ -182,7 +183,7 @@ export const SLOT_RATIONALE = {
 // Top 1-2 alternatives for each slot. Populated by the predictor; hand-set
 // initially. The UI shows these on hover as "Also considered". Keyed to 4-2-3-1.
 export const ALTERNATIVES = {
-  GK:  [{ playerId: 2, reason: "Woodman keeps gloves if Alisson fails late fitness test" }],
+  GK:  [{ playerId: 27, reason: "Woodman · 8/10 debut vs Palace · keeps gloves if Alisson fails late fitness test" }, { playerId: 2, reason: "Mamardashvili · stitched knee wound · ~3 wks out" }],
   LB:  [{ playerId: 7, reason: "Kerkez · rotation option if Robertson's minutes managed" }],
   LCB: [{ playerId: 5, reason: "Gomez back in PL squad · Palace bench · cover after PSG-cameo lay-off" }],
   RCB: [{ playerId: 11, reason: "Jacquet · deputy CB with Konaté/VVD nailed on" }],
