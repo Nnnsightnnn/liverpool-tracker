@@ -95,7 +95,7 @@ function SmallCaps({ children, color = T.ivoryDim, style = {} }) {
 
 function Chapter({ children, style = {} }) {
   return (
-    <h2 style={{
+    <h2 className="chapter-h2" style={{
       fontFamily: T.serif, fontStyle: "italic", fontWeight: 500,
       fontSize: 54, letterSpacing: "-0.02em", color: T.ivory, lineHeight: 1, ...style,
     }}>
@@ -133,7 +133,7 @@ function SectionHead({ title, meta }) {
 function StatStrip({ stats }) {
   const cols = stats.length;
   return (
-    <div style={{
+    <div className="stat-strip-grid" style={{
       display: "grid",
       gridTemplateColumns: `repeat(${cols}, 1fr)`,
       borderTop: `1px solid ${T.ruleStrong}`,
@@ -184,7 +184,7 @@ function Masthead({ view, onChange }) {
       position: "sticky", top: 0, background: T.ink, zIndex: 50,
       backdropFilter: "blur(6px)", WebkitBackdropFilter: "blur(6px)",
     }}>
-      <div style={{
+      <div className="masthead-bar anfield-page" style={{
         maxWidth: 1280, margin: "0 auto", padding: "0 56px",
         display: "flex", alignItems: "center", justifyContent: "space-between", gap: 24,
       }}>
@@ -237,7 +237,7 @@ function Masthead({ view, onChange }) {
         </nav>
 
         {/* Issue date */}
-        <div style={{
+        <div className="masthead-date" style={{
           fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
           color: T.ivoryFaint, textAlign: "right", lineHeight: 1.5,
           fontFamily: T.sans, fontWeight: 500, minWidth: 140,
@@ -284,21 +284,21 @@ function CoverView({ onJump }) {
 
   return (
     <section style={{ animation: `pageTurn .55s ${T.ease} both` }}>
-      <div style={{ padding: "72px 0 56px", borderBottom: `1px solid ${T.rule}` }}>
+      <div className="cover-section-pad" style={{ padding: "72px 0 56px", borderBottom: `1px solid ${T.rule}` }}>
         <div style={{
           fontFamily: T.serif, fontStyle: "italic", fontWeight: 500,
           fontSize: 14, color: T.red, marginBottom: 28, letterSpacing: "0.02em",
         }}>
           — A Matchday Programme, in print and pixels.
         </div>
-        <h1 style={{
+        <h1 className="cover-hero" style={{
           fontFamily: T.serif, fontWeight: 500, fontSize: 148,
           lineHeight: 0.92, letterSpacing: "-0.04em", marginBottom: 32, color: T.ivory,
         }}>
           Anfield.<br /><em style={{ fontStyle: "italic", color: T.red }}>May 2026.</em>
         </h1>
         <GoldRule style={{ marginBottom: 12 }} />
-        <p style={{
+        <p className="cover-deck" style={{
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
@@ -313,9 +313,9 @@ function CoverView({ onJump }) {
       {/* Editor's letter + featured */}
       <div style={{ padding: "72px 0" }}>
         <SectionHead title="In this issue" meta={<>Editor's letter<br />{new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}</>} />
-        <div style={{ display: "grid", gridTemplateColumns: "1.4fr 1px 1fr", gap: "0 56px" }}>
+        <div className="cover-issue-grid" style={{ display: "grid", gridTemplateColumns: "1.4fr 1px 1fr", gap: "0 56px" }}>
           <div>
-            <p style={{
+            <p className="cover-letter-lead" style={{
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
@@ -325,7 +325,7 @@ function CoverView({ onJump }) {
               not travel. The club, in a sentence calibrated for both reassurance and the second
               leg, called the issue <em>minor</em>.
             </p>
-            <p style={{
+            <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
@@ -389,7 +389,7 @@ function Countdown({ targetIso }) {
     </div>
   );
   return (
-    <div style={{
+    <div className="countdown-grid" style={{
       display: "flex", gap: 18, marginTop: 32, alignItems: "flex-end",
       borderTop: `1px solid ${T.rule}`, paddingTop: 20,
     }}>
@@ -402,7 +402,7 @@ function FormBlock({ results }) {
   const last5 = results.slice(0, 5).map(r => r.result).reverse();
   const colorFor = (r) => r === "W" ? T.ivory : r === "D" ? T.gold : T.red;
   return (
-    <div style={{
+    <div className="form-block" style={{
       background: T.surface, padding: 32, border: `1px solid ${T.rule}`,
     }}>
       <div style={{
@@ -502,7 +502,8 @@ function ResultsLedger({ results, compFilter, onCompChange }) {
       </div>
 
       {/* Ledger grid */}
-      <div style={{
+      <div className="ledger-wrap">
+      <div className="ledger-grid" style={{
         display: "grid",
         gridTemplateColumns: "80px 32px 1.4fr 80px 70px 1.6fr",
         columnGap: 18,
@@ -573,6 +574,7 @@ function ResultsLedger({ results, compFilter, onCompChange }) {
           </div>
         )}
       </div>
+      </div>
     </div>
   );
 }
@@ -617,7 +619,7 @@ function MatchdayView() {
           }}>
             — Premier League · Round 35
           </div>
-          <div style={{
+          <div className="matchday-fixture" style={{
             fontFamily: T.serif, fontWeight: 500, fontSize: 64, lineHeight: 1,
             letterSpacing: "-0.02em", marginBottom: 24, color: T.ivory,
             display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap",
@@ -683,7 +685,7 @@ function Portrait({ player }) {
     : player.status === "doubtful" ? "doubtful" : "fit";
   const hasImage = player.image && !imgFailed;
   return (
-    <div style={{
+    <div className="player-portrait" style={{
       width: 88, height: 108,
       // Striped placeholder lives behind the photo — visible if image fails or whilst loading
       background: `repeating-linear-gradient(45deg, #F4EBD008 0, #F4EBD008 4px, transparent 4px, transparent 8px), ${T.surface}`,
@@ -922,6 +924,7 @@ function PlayerCard({ player, expanded, onToggle, last5 }) {
   return (
     <article
       onClick={onToggle}
+      className="player-card"
       style={{
         display: "grid", gridTemplateColumns: "88px 1fr",
         gap: 20, padding: "24px 0",
@@ -935,7 +938,7 @@ function PlayerCard({ player, expanded, onToggle, last5 }) {
       <Portrait player={player} />
 
       <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
-        <div style={{
+        <div className="player-name" style={{
           fontFamily: T.serif, fontWeight: 500, fontSize: 22,
           lineHeight: 1.1, letterSpacing: "-0.01em", color: T.ivory,
         }}>
@@ -1102,7 +1105,7 @@ function SquadView() {
       <SectionHead title="Squad" meta={<>{PLAYERS.length} players<br />2025–26 first team</>} />
 
       {/* Position bar */}
-      <div style={{
+      <div className="squad-pos-bar" style={{
         display: "flex", borderTop: `1px solid ${T.ruleStrong}`,
         borderBottom: `1px solid ${T.ruleStrong}`, marginBottom: 28,
       }}>
@@ -1143,7 +1146,7 @@ function SquadView() {
       </div>
 
       {/* Editorial filter row — search + status + sort */}
-      <div style={{
+      <div className="squad-filter-row" style={{
         display: "flex", gap: 32, marginBottom: 40, flexWrap: "wrap",
         alignItems: "flex-end", justifyContent: "space-between",
       }}>
@@ -1285,6 +1288,7 @@ function StandingsView() {
   return (
     <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
       <SectionHead title="Standings" meta={<>Premier League<br />after Round 34</>} />
+      <div className="standings-wrap">
       <table style={{
         width: "100%", borderCollapse: "collapse",
         fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
@@ -1348,6 +1352,7 @@ function StandingsView() {
           })}
         </tbody>
       </table>
+      </div>
       <div style={{
         display: "flex", gap: 24, marginTop: 24,
         fontSize: 13, color: T.ivoryDim,
@@ -1454,7 +1459,7 @@ function NewsDigestLede() {
       </div>
 
       {/* Italic deck paragraph in Playfair */}
-      <p style={{
+      <p className="digest-deck" style={{
         fontFamily: T.serif, fontStyle: "italic", fontWeight: 400,
         fontSize: 22, lineHeight: 1.5, color: T.ivory,
         maxWidth: "62ch", marginBottom: 32,
@@ -1463,7 +1468,7 @@ function NewsDigestLede() {
       </p>
 
       {/* Categorised topics — each w/ red small-caps category kicker */}
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: 0 }}>
+      <div className="digest-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: 0 }}>
         {NEWS_DIGEST.keyTopics.map((topic, i) => (
           <div key={i} style={{
             padding: "18px 20px 18px 0",
@@ -1578,6 +1583,7 @@ function LiveNewsColumn({ filter }) {
           href={item.link}
           target="_blank"
           rel="noopener noreferrer"
+          className="wire-row"
           style={{
             display: "grid",
             gridTemplateColumns: "140px 1fr 80px",
@@ -1719,12 +1725,12 @@ function NewsView() {
 
 function Footer() {
   return (
-    <footer style={{
+    <footer className="footer-bar" style={{
       borderTop: `1px solid ${T.ruleStrong}`, padding: "48px 0", marginTop: 32,
       display: "flex", justifyContent: "space-between", alignItems: "flex-end",
       gap: 24, flexWrap: "wrap",
     }}>
-      <div style={{
+      <div className="footer-quote" style={{
         fontFamily: T.serif, fontStyle: "italic", fontWeight: 400,
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
@@ -1776,8 +1782,99 @@ export default function LiverpoolTracker() {
           .dispatches-cols { column-count: 1 !important; }
         }
         @media (max-width: 720px) {
-          .anfield-page { padding: 0 24px !important; }
+          .anfield-page { padding: 0 18px !important; }
+
+          /* Masthead — stack brand / nav / date, hide subtitle date on smallest screens */
+          .masthead-bar { flex-wrap: wrap !important; gap: 12px 14px !important; justify-content: flex-start !important; }
+          .masthead-bar > nav { order: 3; width: 100%; justify-content: flex-start !important; gap: 0 !important; flex-wrap: wrap !important; }
+          .masthead-bar > nav button { padding: 6px 10px !important; font-size: 10px !important; letter-spacing: 0.16em !important; }
+          .masthead-date { display: none !important; }
+
+          /* Section padding — pull 72px down to 40px */
+          .anfield-page section { padding: 40px 0 !important; }
+
+          /* Chapter / SectionHead title */
+          .chapter-h2 { font-size: 36px !important; }
+
+          /* Cover hero */
+          .cover-hero { font-size: 64px !important; line-height: 0.95 !important; margin-bottom: 20px !important; letter-spacing: -0.03em !important; }
+          .cover-deck { font-size: 18px !important; margin-bottom: 32px !important; }
+          .cover-section-pad { padding: 48px 0 36px !important; }
+
+          /* Cover "in this issue" 2-col → stack */
+          .cover-issue-grid { grid-template-columns: 1fr !important; gap: 32px !important; }
+          .cover-issue-grid > div:nth-child(2) { display: none !important; }
+          .cover-letter-lead { font-size: 18px !important; }
+          .cover-letter-body { font-size: 16px !important; }
+
+          /* Stat strip — wrap to 2 cols on mobile */
+          .stat-strip-grid { grid-template-columns: repeat(2, 1fr) !important; }
+          .stat-strip-grid > div { border-right: none !important; border-bottom: 1px solid ${T.rule}; padding: 12px 0 !important; }
+          .stat-strip-grid > div:nth-child(odd) { border-right: 1px solid ${T.rule} !important; padding-right: 14px !important; }
+          .stat-strip-grid > div:nth-last-child(-n+2) { border-bottom: none !important; }
+          .stat-strip-grid > div > div:first-child { font-size: 24px !important; }
+
+          /* Matchday fixture title */
+          .matchday-fixture { font-size: 32px !important; gap: 10px !important; }
+          .matchday-fixture > em { font-size: 20px !important; }
+          .matchday-fixture img { width: 28px !important; height: 28px !important; }
+
+          /* Countdown */
+          .countdown-grid { gap: 8px !important; }
+          .countdown-grid > div > div:first-child { font-size: 36px !important; }
+
+          /* Form block */
+          .form-block { padding: 22px !important; }
+          .form-block > div:first-child { font-size: 22px !important; }
+
+          /* Results ledger — horizontal scroll */
+          .ledger-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 -18px; padding: 0 18px; }
+          .ledger-grid { min-width: 640px; }
+
+          /* Standings table — horizontal scroll */
+          .standings-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 0 -18px; padding: 0 18px; }
+          .standings-wrap table { min-width: 580px; }
+          .standings-wrap th, .standings-wrap td { padding: 12px 8px !important; }
+
+          /* Squad position bar — tighter, allow wrap */
+          .squad-pos-bar button { padding: 10px 6px !important; font-size: 9px !important; letter-spacing: 0.16em !important; }
+          .squad-pos-bar button > span:first-child { font-size: 15px !important; margin-bottom: 2px !important; }
+
+          /* Squad filter row */
+          .squad-filter-row { gap: 18px !important; }
+
+          /* Player card — keep portrait but tighter */
+          .player-card { grid-template-columns: 72px 1fr !important; gap: 14px !important; padding: 18px 0 !important; }
+          .player-card .player-portrait { width: 72px !important; height: 92px !important; }
+          .player-card .player-name { font-size: 18px !important; }
+
+          /* News wire row — stack into vertical card */
+          .wire-row { grid-template-columns: 1fr !important; gap: 8px !important; padding: 16px 0 !important; }
+          .wire-row > div:nth-child(3) { text-align: left !important; padding-top: 0 !important; }
+          .wire-row > div:nth-child(2) { font-size: 17px !important; }
+
+          /* News digest topics */
+          .digest-grid { grid-template-columns: 1fr !important; }
+          .digest-deck { font-size: 18px !important; }
+
+          /* Dispatches headlines */
+          .dispatches-cols h3 { font-size: 24px !important; }
+
+          /* Footer */
+          .footer-bar { padding: 32px 0 !important; }
+          .footer-quote { font-size: 22px !important; }
         }
+
+        @media (max-width: 480px) {
+          .anfield-page { padding: 0 14px !important; }
+          .cover-hero { font-size: 52px !important; }
+          .chapter-h2 { font-size: 30px !important; }
+          .matchday-fixture { font-size: 26px !important; }
+          .matchday-fixture > em { font-size: 16px !important; }
+          .stat-strip-grid > div > div:first-child { font-size: 20px !important; }
+          .countdown-grid > div > div:first-child { font-size: 30px !important; }
+        }
+
         .dispatch-body::first-letter {
           font-family: 'Playfair Display', Georgia, serif;
           font-weight: 600; font-size: 64px; line-height: 0.85; float: left;
