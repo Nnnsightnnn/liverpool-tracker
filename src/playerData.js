@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2025-26 Season · Updated Apr 27, 2026) ────────
+// ─── Liverpool FC Player Data (2025-26 Season · Updated May 1, 2026) ────────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -203,7 +203,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 37, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.2, status: "injured", injuryNote: "Hamstring complaint vs Palace (Apr 25, 59'). Liverpool issued an official update Apr 30 calling the issue 'minor' — Egyptian 'expected to return before end of season' (Sky Sports, Liverpool.com, SI, EOTK). Out for Old Trafford May 3 but Brentford home finale May 24 farewell now firmly back on. Egypt FA director's earlier 4-week verdict walked back", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 37, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.2, status: "injured", injuryNote: "Officially ruled OUT of Old Trafford trip Sun May 3 (Sky Sports, Goal.com Fri May 1) with hamstring picked up vs Palace (Apr 25, 59'). LFC's Apr 30 statement called the issue 'minor' and said the Egyptian is expected back before season's end — Brentford home finale May 24 farewell still on. FourFourTwo today: Egypt staff say Salah will announce his next club 'within days'; SportBible flags Juventus over Saudi pressure", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -363,124 +363,117 @@ export const RESULTS = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-04-30T09:00:00Z",
+  generatedAt: "2026-05-01T10:00:00Z",
   summary:
-    "Thursday Apr 30 — Salah farewell back ON: Liverpool officially walked back Tuesday's gloomy Egypt FA prognosis with a club-issued update (relayed by Sky Sports, Liverpool.com, Sports Illustrated and Empire of the Kop) confirming the hamstring issue is 'minor' and the Egyptian is expected back before season's end for the May 24 Anfield farewell vs Brentford. The statement softens Ibrahim Hassan's '4 weeks / has played his last game' verdict and gives Slot four games to manage Salah in. Anfield Watch followed up by reporting Richard Hughes' summer striker shortlist has narrowed to five — Barcola, Doué, Olise, Diomande and Akliouche — even after Bayern's Eberl/Rummenigge pair slammed the Olise door shut on Tuesday. Yesterday's Curtis Jones thunderbolt (Romano, via EOTK & Rousing The Kop: Inter Milan eyeing a McTominay-at-Napoli reset on the 14-months-left deal) is still live, as is Slot's blunt Robertson exit explanation ('as a result, he's leaving'). Slot 'expected to continue' as head coach (TIA Apr 29) anchors the rebuild. Six points from four still secures top-five UCL; Opta 97.9%, Man Utd (A) Sun May 3.",
+    "Friday May 1 (matchday-2) — Slot's pre-Manchester United press conference goes live at 9am BST from the AXA Training Centre (Liverpool FC), the next confirmation point on Salah, Alisson and Sunday's selection. Goal.com and Sky Sports both confirmed overnight that Mohamed Salah is now officially ruled out of the Old Trafford trip, though the club still 'expect him back' before season's end after yesterday's 'minor' muscle-injury statement. Egypt staffers — relayed by FourFourTwo and SportBible — say Salah is set to announce his next club 'within days', with Saudi pressure cooling and Juventus (with old boss Spalletti) emerging as the European left-field option. NBC Sports' predicted XI vs Man Utd has Frimpong starting RW for Salah, Robertson keeping LB ahead of Kerkez, and Wirtz central with Gakpo on the left flank. Six points from four still secures top-five UCL (Opta 96.92%); Slot 'expected to continue' for 2026-27 anchors the summer rebuild around Konaté's near-done extension and the Diomande-or-Barcola attack rebuild.",
   keyTopics: [
     {
-      title: "BREAKING — Liverpool Walk Back Salah 'Last Game' Verdict: 'Minor' Injury, Expected Back This Season",
+      title: "TODAY — Slot's Pre-Man Utd Press Conference Live 9am BST from AXA Training Centre",
       detail:
-        "Released this morning (Thu Apr 30) via the LFC official channels and amplified by Sky Sports, Liverpool.com, Sports Illustrated and Empire of the Kop: Liverpool have officially issued a fresh Salah update — the Palace hamstring complaint is 'minor' and the Egyptian is expected back before season's end. Read Liverpool FC frames it as 'one last dance'; Sky says the club 'expect Salah to be available' before his Anfield exit. The statement directly contradicts Ibrahim Hassan's Apr 26 '4 weeks / has played his last game' line and puts the Brentford home finale May 24 firmly back on the table for the farewell.",
+        "Streaming this morning (Fri May 1) on Liverpool FC's official channels: Slot answers reporters at the AXA to preview the Old Trafford trip Sunday — first inflection point on Alisson's return from absence, an updated Salah timeline after yesterday's 'minor' muscle statement, and whether Curtis Jones, Frimpong or Szoboszlai gets the right-side nod with Salah ruled out. Liverpool.com is running the live blog.",
+      category: "matches",
+    },
+    {
+      title: "BREAKING — Salah Officially Ruled Out of Old Trafford Sunday, Liverpool 'Expect Him Back' This Season",
+      detail:
+        "Confirmed overnight (Fri May 1) by Sky Sports and Goal.com: Mohamed Salah will miss Sunday's trip to Manchester United with the hamstring issue picked up vs Palace, but Liverpool have publicly stated they expect him back before season's end for the Anfield farewell vs Brentford May 24. Sky Sports framing: 'Liverpool expect Salah to be available' for his exit. The Egyptian's last competitive Liverpool match remains the Old Trafford-less May 10 / 17 / 24 trio.",
       category: "injuries",
     },
     {
-      title: "Sports Illustrated: 'Concerns Over Farewell' Drove the Salah Statement",
+      title: "FourFourTwo: Salah Set to Announce Next Club 'Within Days' — Egypt Staffer Confirms",
       detail:
-        "Published this morning (Apr 30): Sports Illustrated frames today's official update as Liverpool acting to calm fan concerns after 48 hours of headlines suggesting Salah had played his last LFC game. New Arab and Yahoo Sports echo the line — 'Liverpool expect Salah to be available' before his Anfield exit. Slot's pre-Man Utd presser tomorrow (Friday May 1) is now the next inflection point.",
-      category: "general",
+        "Reported today (Fri May 1) by FourFourTwo with the original source being an Egypt national-team staff member: Salah will reveal his next destination 'in a few days' once the contract decision is locked in. SportBible adds today that the Egyptian is 'prepared to reject Saudi millions' for a shock European move; Juventus (Spalletti reunion, UCL football) the dark-horse name floating in British media. Saudi Pro League pressure 'cooling'.",
+      category: "transfers",
+    },
+    {
+      title: "ESPN — 'Saudi, MLS or Elsewhere': Al-Ittihad Front-Run for Salah, San Diego FC the MLS Card",
+      detail:
+        "Published today (Fri May 1) by ESPN: their Saudi Arabia sources name Al-Ittihad as the most likely SPL destination, while in MLS the Mohamed Mansour-owned San Diego FC is the natural fit (British-Egyptian ownership). Juventus also flagged for a Spalletti reunion. Final decision expected within days per FourFourTwo.",
+      category: "transfers",
+    },
+    {
+      title: "NBC Sports Predicted XI vs Man Utd: Frimpong RW for Salah, Robertson LB, Wirtz Central",
+      detail:
+        "Published today (Fri May 1) by NBC Sports and Yahoo Sports: with Salah out Slot is expected to start Frimpong on the right (Szoboszlai needed in midfield), keep Robertson at LB ahead of an out-of-form Kerkez, and shift Wirtz centrally with Gakpo on the left and Isak through the middle. Gravenberch fit and starting alongside Szoboszlai. Goal at Old Trafford is 'avoiding defeat as much as chasing victory' to lock the UCL spot (Opta 96.92%).",
+      category: "tactics",
+    },
+    {
+      title: "Liverpool Walk Back Salah 'Last Game' Verdict: 'Minor' Muscle Injury, Expected Back This Season",
+      detail:
+        "Released yesterday (Thu Apr 30) via LFC's official channels and amplified by Sky Sports, Liverpool.com, Sports Illustrated and Empire of the Kop: the Palace hamstring complaint is 'minor' and the Egyptian is expected back before the season ends. The statement directly contradicted Egypt FA director Ibrahim Hassan's Apr 26 '4 weeks / played his last game' verdict and put the Brentford home finale May 24 back on the table as the Anfield farewell.",
+      category: "injuries",
     },
     {
       title: "Anfield Watch: Five Forwards on Hughes' Summer Shortlist — Barcola, Doué, Olise, Diomande, Akliouche",
       detail:
-        "Reported today (Thu Apr 30) by Anfield Watch and Football Fancast: sporting director Richard Hughes has narrowed the Salah-replacement search to five — Bradley Barcola (PSG), Désiré Doué (PSG), Michael Olise (Bayern), Yan Diomande (RB Leipzig) and Maghnes Akliouche (Monaco). The Olise route is essentially shut after Tuesday's Eberl/Rummenigge double rejection, but Hughes is keeping options open as PSG's incoming Diomande move forces the priority list to rotate.",
+        "Reported yesterday (Thu Apr 30) by Anfield Watch and Football Fancast: sporting director Richard Hughes has narrowed the Salah-replacement search to five — Bradley Barcola (PSG), Désiré Doué (PSG), Michael Olise (Bayern), Yan Diomande (RB Leipzig) and Maghnes Akliouche (Monaco). The Olise route is essentially shut after the Eberl/Rummenigge double rejection, with TEAMtalk's Apr 29 report flagging Barcola as the new No.1 priority after PSG joined the Diomande race.",
       category: "transfers",
     },
     {
       title: "TIA: 'Alisson's Future & Salah's Goodbye' — 9 Things We Want From Liverpool's Final Four Games",
       detail:
-        "Published this morning (Apr 30) by This Is Anfield: a run-in wishlist headlined by Alisson's Old Trafford return Sunday and a fitting Salah send-off after today's 'minor' update. Other items: top-five lockdown (Opta 97.9%), Konaté contract over the line, Isak rhythm before the World Cup, and one more Wirtz Anfield masterpiece. Frames the four games (Man Utd, Chelsea, Villa, Brentford) as the bridge into the summer rebuild.",
+        "Published yesterday (Apr 30) by This Is Anfield: a run-in wishlist headlined by Alisson's Old Trafford return Sunday and a fitting Salah send-off after the 'minor' update. Other items: top-five lockdown (Opta 96.92%), Konaté contract over the line, Isak rhythm before the World Cup, and one more Wirtz Anfield masterpiece. Frames the four games (Man Utd, Chelsea, Villa, Brentford) as the bridge into the summer rebuild.",
       category: "matches",
     },
     {
       title: "Romano: Curtis Jones Could Leave Liverpool, Inter Milan Eyeing 'McTominay-at-Napoli' Reset",
       detail:
-        "Reported yesterday (Wed Apr 29) by Empire of the Kop and Rousing The Kop, original Romano line dropped Apr 28: the academy graduate has just 14 months left on his deal and could be available this summer. Inter Milan are explicitly named as the lead suitor; Aston Villa also monitoring. Slot has Gravenberch, Szoboszlai and Mac Allister ahead in the pivot — Times' Paul Joyce countered with three stats arguing the Reds must fight to keep the No.17.",
+        "Reported Wed Apr 29 by Empire of the Kop and Rousing The Kop, original Romano line dropped Apr 28: the academy graduate has just 14 months left on his deal and could be available this summer. Inter Milan are explicitly named as the lead suitor; Aston Villa also monitoring. Slot has Gravenberch, Szoboszlai and Mac Allister ahead in the pivot — Times' Paul Joyce countered with three stats arguing the Reds must fight to keep the No.17.",
       category: "transfers",
     },
     {
-      title: "TEAMtalk: Barcola (PSG) Becomes Liverpool's TOP Priority After Cruel Diomande Twist",
+      title: "Konaté Contract 'Never Closer to Agreement' — Salary Aligned, Length & Bonuses Outstanding",
       detail:
-        "Reported yesterday (Apr 29) by TEAMtalk, OneFootball and Football Fancast: PSG have officially joined the Yan Diomande race, forcing the French champions to consider sacrificing Barcola — and Liverpool are reportedly preparing a €100m blockbuster bid as the No.1 alternative. Anfield Watch flags the Frenchman as 'sensational' if the door opens. Today's Anfield Watch shortlist puts both names in the top five.",
-      category: "transfers",
-    },
-    {
-      title: "Slot Explains Robertson Liverpool Exit: 'As a Result, He's Leaving'",
-      detail:
-        "Reported yesterday (Apr 29) by This Is Anfield: Slot directly addressed why Robertson chose not to renew, conceding the Scotland captain lost his first-choice spot to Kerkez and 'as a result' is leaving. Juventus, Atletico Madrid, Napoli and Tottenham now leading the free-agent chase. Robertson started Saturday's 3-1 Palace win (8.0/10, assist) but the run-in is openly framed as a farewell tour.",
+        "Reported Apr 30 by ESPN and This Is Anfield (echoing Romano Apr 20): the France international and Liverpool have 'never been closer' on a new deal, with main salary structure agreed and only contract length and performance-related bonuses left to settle. Konaté himself: 'we are close to an agreement... it's what I always wanted' — full Real Madrid U-turn. He wants a rise on the current £150k/wk to bring him in line with the top earners.",
       category: "transfers",
     },
     {
       title: "Slot 'Expected to Continue' as Liverpool Head Coach for 2026-27",
       detail:
-        "Reported yesterday (Apr 29) by This Is Anfield, Sky Sports and TeamTalk: doubts over Slot's future are 'subsiding rapidly' with FSG support locked in for a third season. UCL qualification (Opta 97.9%) and the £100m Wirtz signing are the levers; the Dutchman will lead the summer rebuild around Konaté's new deal, the Diomande/Barcola pursuit and the Wharton No.6 hunt.",
+        "Reported Tue Apr 29 by Sky Sports, This Is Anfield and TeamTalk: doubts over Slot's future are 'subsiding rapidly' with FSG support locked in for a third season. UCL qualification (Opta 96.92%) is the explicit lever; the Dutchman will lead the summer rebuild around Konaté's new deal, the Diomande/Barcola pursuit and the Wharton No.6 hunt. Current contract runs to 30 June 2027.",
       category: "general",
     },
     {
-      title: "CaughtOffside: Liverpool 'Have the Advantage' in Yan Diomande Race Despite PSG Push",
+      title: "Slot Explains Robertson Exit: 'As a Result, He's Leaving' — Tottenham Have 'Agreement on Everything'",
       detail:
-        "Reported yesterday (Apr 29) by CaughtOffside, Football Transfers and This Is Anfield: Liverpool's standing relationship with RB Leipzig (Szoboszlai and Konaté's selling club) is the edge over PSG and Arsenal for the 19-year-old. €100m / £87m valuation; the Reds want the deal wrapped early in the window before a bidding war erupts. Szoboszlai still the in-house lobbyist.",
+        "Reported Tue Apr 29 by This Is Anfield and Romano (via TEAMtalk): Slot conceded the Scotland captain lost his first-choice spot to Kerkez and 'as a result' is leaving as a free agent. Romano: Tottenham have 'an agreement on everything' subject to Premier League survival; Atletico Madrid still hovering as a hijack option. Robertson started Saturday's 3-1 Palace win (8.0/10 + assist) but the run-in is openly framed as a farewell tour.",
       category: "transfers",
-    },
-    {
-      title: "Aston Villa (A) Officially Moved to Sun May 17 12:30pm — Could Slip to Friday May 15",
-      detail:
-        "Confirmed Tuesday (Apr 28) by James Pearce (The Athletic), Liverpool.com, Liverpool FC and Read Aston Villa: the Premier League rescheduled the Villa Park trip for TV. New kick-off 12:30pm BST Sunday May 17 — but if Villa beat Forest in the Europa League semi, the game brings forward to Friday May 15 8pm BST so they can prep for the Istanbul final May 20.",
-      category: "matches",
-    },
-    {
-      title: "Bayern Slam the Olise Door — Eberl & Rummenigge Rule Out Any Sale",
-      detail:
-        "Confirmed Apr 27-28 by Liverpool FC, CaughtOffside, Liverpool.com and FOX Sports: SD Max Eberl told reporters Tuesday that Olise will remain at Bayern despite Liverpool & Real Madrid interest. Rummenigge: 'no price tag would make us cringe.' Football365 today (Apr 30) labels the move 'most ridiculous 2026 transfer rumour' — pushing Diomande and Barcola further up Hughes' five-man shortlist.",
-      category: "transfers",
-    },
-    {
-      title: "Alisson Targeting Old Trafford Return — Slot: 'Close But Not Close Enough' Last Time",
-      detail:
-        "Reported Apr 25-27 by Empire of the Kop, OneFootball, DaveOCKOP, Liverpool.com and This Is Anfield: Alisson missed the Palace 3-1 win for caution but is on track for Old Trafford May 3 — Slot's pre-Man Utd presser tomorrow (Fri May 1) is the next confirmation point. Mamardashvili remains out ~3 wks with the stitched knee wound; Woodman keeps gloves only if Alisson fails a late fitness test.",
-      category: "injuries",
-    },
-    {
-      title: "Slot's Striker Crisis (Eased): Isak Plus Returning Salah, Lone Senior No.9 No More?",
-      detail:
-        "Reframed today (Apr 30) by today's 'minor' Salah update: Ekitike is still out 9-12 months (Achilles, season over) but Salah's expected return shifts the burden off Isak's shoulders for at least the Brentford finale. For Old Trafford Sunday, Isak remains the lone fit senior No.9; Gakpo can deputise centrally as he started LW Saturday, with Frimpong, Chiesa and 17-year-old Ngumoha the wide options.",
-      category: "tactics",
     },
     {
       title: "MATCH REPORT — Liverpool 3-1 Crystal Palace: Up to 4th, 6 Points From UCL",
       detail:
-        "Played Saturday Apr 25 at Anfield: Isak (29') controlled Mac Allister's skewed long shot for his first Anfield league goal; Robertson (44') finished a Curtis Jones counter; Munoz (71') pulled one back; Wirtz drove home in added time to seal it. Curtis Jones at RB and Mac Allister in the pivot (Gravenberch rested). Liverpool jumped above Aston Villa into 4th — Opta now has them 97.9% to qualify for the UCL.",
+        "Played Sat Apr 25 at Anfield: Isak (29') controlled Mac Allister's skewed long shot for his first Anfield league goal; Robertson (44') finished a Curtis Jones counter; Munoz (71') pulled one back; Wirtz drove home in added time to seal it. Curtis Jones at RB and Mac Allister in the pivot (Gravenberch rested). Liverpool jumped above Aston Villa into 4th — Opta now has them 96.92% to qualify for the UCL.",
       category: "matches",
     },
     {
       title: "Run-In: Man Utd (A) May 3, Chelsea (H) May 10, Villa (A) May 15 or 17, Brentford (H) May 24",
       detail:
-        "Per the Premier League fixture list (rescheduled Apr 28): Liverpool's four remaining games are Man Utd at Old Trafford Sun May 3 (14:30 UTC, Sky), then Chelsea, Villa (Sun May 17 12:30pm or Fri May 15 8pm if Villa reach Europa final) and the Brentford home finale where Salah is now expected to take his Anfield bow following today's 'minor' injury update. Six points secures top-five UCL.",
+        "Per the Premier League fixture list (Villa rescheduled Apr 28): Liverpool's four remaining games are Man Utd at Old Trafford Sun May 3 (14:30 UK, Sky), then Chelsea, Villa (Sun May 17 12:30pm or Fri May 15 8pm if Villa reach Europa final) and the Brentford home finale where Salah is expected to take his Anfield bow following yesterday's 'minor' injury update. Six points secures top-five UCL.",
       category: "matches",
     },
   ],
   sources: [
     "Liverpool FC",
     "Sky Sports",
+    "Goal.com",
+    "FourFourTwo",
+    "SportBible",
+    "ESPN",
+    "NBC Sports",
+    "Yahoo Sports",
     "Liverpool.com",
     "Sports Illustrated",
     "Empire of the Kop",
-    "Read Liverpool FC",
-    "Yahoo Sports",
-    "New Arab",
-    "GB News",
     "Anfield Watch",
     "Football Fancast",
-    "Football365",
+    "TEAMtalk",
     "This Is Anfield",
     "Rousing The Kop",
-    "TEAMtalk",
     "OneFootball",
     "CaughtOffside",
     "Football Transfers",
     "FOX Sports",
-    "Goal.com",
     "Al Jazeera",
-    "DaveOCKOP",
     "Read Aston Villa",
     "James Pearce (The Athletic)",
     "Premier League",

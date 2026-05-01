@@ -128,21 +128,21 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Liverpool FC", title: "Mohamed Salah injury update — Liverpool confirm 'minor' muscle issue, expect Egyptian back before end of season for Anfield farewell", time: "today", category: "official" },
-  { source: "Sky Sports", title: "Mohamed Salah expected to return before end of season after 'minor' muscle injury — Egypt FA's '4 weeks out' verdict walked back", time: "today", category: "major" },
-  { source: "Empire of the Kop", title: "Salah boost as Liverpool confirm timeline after injury scare — 'one last dance' at Anfield back in play for Brentford finale May 24", time: "today", category: "fan" },
-  { source: "Sports Illustrated", title: "Liverpool give fresh Mohamed Salah injury update amid concerns over Anfield farewell — club statement softens Egypt FA director's prognosis", time: "today", category: "major" },
-  { source: "Anfield Watch", title: "Liverpool transfer news: Five forwards on Richard Hughes' summer shortlist — Barcola, Doué, Olise, Diomande and Akliouche all monitored", time: "today", category: "fan" },
-  { source: "This Is Anfield", title: "Alisson's future & Salah's goodbye — 9 things we want from Liverpool's final four Premier League games", time: "today", category: "fan" },
-  { source: "Empire of the Kop", title: "Romano: Curtis Jones could copy McTominay's Napoli playbook if he leaves Liverpool — Inter Milan circling, 14 months left on deal", time: "1d ago", category: "fan" },
-  { source: "TEAMtalk", title: "Liverpool transfer news: €100m PSG ace Bradley Barcola becomes TOP priority after cruel Diomande twist — PSG join race for Leipzig forward", time: "1d ago", category: "major" },
-  { source: "This Is Anfield", title: "Slot 'expected to continue' as Liverpool head coach — FSG support locked in heading into 2026-27 with UCL spot now realistic", time: "1d ago", category: "fan" },
-  { source: "This Is Anfield", title: "Slot explains Robertson Liverpool exit: 'As a result, he's leaving' — left-back lost first-choice spot to Kerkez, Juve & Atletico join Spurs in summer chase", time: "1d ago", category: "fan" },
-  { source: "CaughtOffside", title: "Liverpool feel they have advantage in Yan Diomande race — Reds' relationship with RB Leipzig the edge over PSG, Arsenal", time: "1d ago", category: "fan" },
-  { source: "Liverpool.com", title: "Aston Villa v Liverpool kick-off time announced — Sun May 17 12:30pm BST, but fixture moves to Friday May 15 (8pm) if Villa reach Europa League final", time: "2d ago", category: "major" },
-  { source: "Liverpool FC", title: "Liverpool sent clear Michael Olise transfer message by Bayern chief — Rummenigge: 'no price tag would make us cringe', Eberl confirms he stays", time: "2d ago", category: "official" },
-  { source: "Liverpool.com", title: "Slot praises Curtis Jones at RB: 'comfort on the ball, like Trent' — back-to-back 8/10s vs Everton & Palace earn the Old Trafford starting nod", time: "3d ago", category: "major" },
-  { source: "Liverpool FC", title: "Isak, Robertson and Wirtz score as Liverpool beat Crystal Palace 3-1 — Reds climb to fourth, 97.9% UCL chance per Opta", time: "5d ago", category: "official" },
+  { source: "Liverpool FC", title: "Friday: Watch Arne Slot's pre-Manchester United press conference live from AXA Training Centre at 9am BST", time: "today", category: "official" },
+  { source: "Sky Sports", title: "Mohamed Salah ruled out of Man Utd clash with hamstring injury — club expect Egyptian back before end of season for Anfield farewell", time: "today", category: "major" },
+  { source: "Goal.com", title: "Mohamed Salah injury update: Liverpool 'expect him back' — Egyptian King ruled out of final Old Trafford clash before free transfer away from Anfield", time: "today", category: "major" },
+  { source: "FourFourTwo", title: "Mohamed Salah set to announce next club within days, Egypt national team staff member reveals", time: "today", category: "major" },
+  { source: "SportBible", title: "Mo Salah 'prepared to reject millions' and make shock move to European giants — Saudi pursuit cooling, Juventus and Spalletti in frame", time: "today", category: "major" },
+  { source: "NBC Sports", title: "Manchester United v Liverpool predicted lineups: Frimpong starts at RW for Salah, Robertson keeps LB nod, Wirtz central", time: "today", category: "major" },
+  { source: "Yahoo Sports", title: "Match preview: Liverpool seeking revenge against Manchester United at Old Trafford with Champions League qualification on the line", time: "today", category: "major" },
+  { source: "ESPN", title: "Saudi Pro League, MLS or elsewhere: Where could Salah go next? Al-Ittihad emerge as Saudi front-runner; San Diego FC the MLS option", time: "today", category: "major" },
+  { source: "Liverpool FC", title: "Mohamed Salah injury update — Liverpool confirm 'minor' muscle issue, expect Egyptian back before end of season for Anfield farewell", time: "1d ago", category: "official" },
+  { source: "Anfield Watch", title: "Liverpool transfer news: Five forwards on Richard Hughes' summer shortlist — Barcola, Doué, Olise, Diomande and Akliouche all monitored", time: "1d ago", category: "fan" },
+  { source: "This Is Anfield", title: "Alisson's future & Salah's goodbye — 9 things we want from Liverpool's final four Premier League games", time: "1d ago", category: "fan" },
+  { source: "Empire of the Kop", title: "Romano: Curtis Jones could copy McTominay's Napoli playbook if he leaves Liverpool — Inter Milan circling, 14 months left on deal", time: "2d ago", category: "fan" },
+  { source: "TEAMtalk", title: "Liverpool transfer news: €100m PSG ace Bradley Barcola becomes TOP priority after cruel Diomande twist — PSG join race for Leipzig forward", time: "2d ago", category: "major" },
+  { source: "This Is Anfield", title: "Slot 'expected to continue' as Liverpool head coach — FSG support locked in heading into 2026-27 with UCL spot now realistic", time: "2d ago", category: "fan" },
+  { source: "This Is Anfield", title: "Slot explains Robertson Liverpool exit: 'As a result, he's leaving' — left-back lost first-choice spot to Kerkez, Juve & Atletico join Spurs in summer chase", time: "2d ago", category: "fan" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
