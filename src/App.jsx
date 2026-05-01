@@ -307,40 +307,6 @@ function CoverView({ onJump }) {
           like Saturday's.
         </p>
 
-        {/* Hero plate — Anfield, in two-tone */}
-        <figure style={{
-          margin: "0 0 48px",
-          borderTop: `1px solid ${T.ruleStrong}`,
-          borderBottom: `1px solid ${T.ruleStrong}`,
-          padding: "20px 0",
-        }}>
-          <img
-            src={`${import.meta.env.BASE_URL}background.png`}
-            alt="Anfield, in red and ink"
-            style={{
-              display: "block", width: "100%", height: "auto",
-              objectFit: "cover",
-            }}
-          />
-          <figcaption style={{
-            display: "flex", justifyContent: "space-between", alignItems: "baseline",
-            gap: 16, marginTop: 14, flexWrap: "wrap",
-          }}>
-            <span style={{
-              fontFamily: T.serif, fontStyle: "italic", fontWeight: 400,
-              fontSize: 14, color: T.ivoryDim, lineHeight: 1.4,
-            }}>
-              — The Kop, in May light. The ground waits, as it always does.
-            </span>
-            <span style={{
-              fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
-              color: T.ivoryFaint, fontFamily: T.sans, fontWeight: 500,
-            }}>
-              Plate I · Anfield · MMXXVI
-            </span>
-          </figcaption>
-        </figure>
-
         <StatStrip stats={stats} />
       </div>
 
@@ -763,20 +729,6 @@ function Portrait({ player }) {
           zIndex: 2,
         }} />
       )}
-
-      {/* Number watermark — large, faint, top-right */}
-      <div style={{
-        fontFamily: T.serif, fontWeight: 600, fontSize: 64, lineHeight: 0.85,
-        color: T.ivory,
-        opacity: hasImage ? 0.32 : 0.18,
-        textShadow: hasImage ? `0 1px 2px ${T.ink}` : "none",
-        position: "absolute", top: -2, right: 8,
-        letterSpacing: "-0.04em",
-        fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
-        zIndex: 2,
-      }}>
-        {String(player.number).padStart(2, "0")}
-      </div>
 
       {/* Initials caption — only shown when the photo isn't there */}
       {!hasImage && (
