@@ -361,6 +361,62 @@ export const RESULTS = [
   { date: "2026-01-08", opponent: "Arsenal",      home: false, score: "0-0", competition: "PL",   result: "D", scorers: "" },
 ];
 
+// ─── Premier League Standings (after Round 34) ─────────────────────────────
+export const STANDINGS = [
+  { pos: 1, team: "Arsenal",         p: 34, w: 24, d: 6, l: 4,  gd: 46, pts: 78 },
+  { pos: 2, team: "Manchester City", p: 34, w: 22, d: 7, l: 5,  gd: 39, pts: 73 },
+  { pos: 3, team: "Newcastle",       p: 34, w: 20, d: 6, l: 8,  gd: 24, pts: 66 },
+  { pos: 4, team: "Liverpool",       p: 34, w: 19, d: 7, l: 8,  gd: 22, pts: 64, highlight: true },
+  { pos: 5, team: "Aston Villa",     p: 34, w: 18, d: 8, l: 8,  gd: 14, pts: 62 },
+  { pos: 6, team: "Chelsea",         p: 34, w: 17, d: 9, l: 8,  gd: 12, pts: 60 },
+  { pos: 7, team: "Tottenham",       p: 34, w: 17, d: 7, l: 10, gd: 8,  pts: 58 },
+  { pos: 8, team: "Brighton",        p: 34, w: 15, d: 9, l: 10, gd: 5,  pts: 54 },
+];
+
+// ─── Dispatches (hand-curated long reads — separate from the wire feed) ────
+export const DISPATCHES = [
+  {
+    n: "01",
+    headline: "The Egyptian's farewell, written in pencil.",
+    byline: "James Pearce",
+    dateline: "Anfield · 1 May",
+    category: "Transfers",
+    body: "Mohamed Salah will not travel to Old Trafford on Sunday. The club, in a statement issued late on Thursday, called the hamstring complaint 'minor' — the kind of language that survives a press cycle but rarely a season. He is expected to return for the Brentford match. He is expected, also, to announce his next club within days. The two facts are not unrelated. They are simply the two halves of the same long goodbye, the second of which is being written by an Egypt FA staffer with the brisk economy of a man who has read the room.",
+  },
+  {
+    n: "02",
+    headline: "Konaté, at last, on Liverpool's terms.",
+    byline: "Fabrizio Romano",
+    dateline: "Liverpool · 30 April",
+    category: "Contracts",
+    body: "After eighteen months of Real-Madrid-shaped silence, the France international has settled. The salary structure is agreed; only the length of the deal and the architecture of its bonuses remain. Konaté, in his own words: 'It's Liverpool.' Three syllables — an entire summer of negotiation reduced to a verdict.",
+  },
+  {
+    n: "03",
+    headline: "Hughes' five names, and the road to a rebuild.",
+    byline: "Anfield Watch",
+    dateline: "Liverpool · 30 April",
+    category: "Transfers",
+    body: "Five forwards on Richard Hughes' shortlist. Barcola at the top, Diomande and Doué close behind, Olise effectively closed off after the Bayern double-rejection, Akliouche the speculative final name. The summer rebuild begins where the Salah era ends — and not, the sporting director would surely insist, a moment before.",
+  },
+  {
+    n: "04",
+    headline: "A goalkeeper, a debut, and a number on the back.",
+    byline: "This Is Anfield",
+    dateline: "Anfield · 26 April",
+    category: "Squad",
+    body: "Freddie Woodman is twenty-nine years old and made his Liverpool debut on Saturday. He kept Crystal Palace to one. He earned eight from three different rating columns. He will, on Sunday, return to the bench. There is a particular kind of footballing dignity in this — a career measured not in caps but in the discipline of being ready, once, and being right.",
+  },
+  {
+    n: "05",
+    headline: "Robertson, a captain, a free transfer, a farewell tour.",
+    byline: "The Anfield Wrap",
+    dateline: "Liverpool · 29 April",
+    category: "Departures",
+    body: "Slot, in his Tuesday press conference, conceded what the team-sheet had already declared: the Scotland captain has lost his first-choice spot, and 'as a result' is leaving on a free. Tottenham, per the reporting, have 'an agreement on everything' subject to their own Premier League fate. Atletico Madrid linger. Robertson, on Saturday, played as if none of it were so — finished a Curtis Jones counter, took the eight, took the applause.",
+  },
+];
+
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
   generatedAt: "2026-05-01T10:00:00Z",

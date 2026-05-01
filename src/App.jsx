@@ -1,477 +1,39 @@
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import _ from "lodash";
-import { PLAYERS, RSS_FEEDS, RESULTS, NEXT_MATCH, TEAM_LOGOS, NEWS_DIGEST } from "./playerData.js";
+import {
+  PLAYERS, RSS_FEEDS, RESULTS, NEXT_MATCH,
+  NEWS_DIGEST, STANDINGS, DISPATCHES, TEAM_LOGOS,
+} from "./playerData.js";
 import LineupView from "./LineupView.jsx";
 
-// ─── Liverpool FC Player Tracker ────────────────────────────────────────────
-// Current 2025-26 squad data, form ratings, stats, and RSS news feeds
-
-const LFC_RED = "#C8102E";
-const LFC_DARK = "#1a1a2e";
-const LFC_GOLD = "#F6EB61";
-
-// ─── Player Avatar ──────────────────────────────────────────────────────────
-// Loads real PL CDN headshots in a normal browser; falls back to styled
-// initials + jersey number when running inside a sandboxed preview.
-function PlayerAvatar({ player, size = 64 }) {
-  const [imgFailed, setImgFailed] = useState(false);
-  const posColors = { GK: "#f1c40f", DEF: "#3498db", MID: "#2ecc71", FWD: "#e74c3c" };
-  const accent = posColors[player.position] || "#888";
-  const initials = player.name.split(" ").map(w => w[0]).join("").slice(0, 2);
-
-  const borderColor = player.status === "injured" ? "#dc3545"
-    : player.status === "recovering" ? "#fd7e14"
-    : player.status === "doubtful" ? "#ffc107"
-    : LFC_RED;
-
-  const statusIcon = player.status === "injured" ? "+"
-    : player.status === "recovering" ? "~"
-    : player.status === "doubtful" ? "?"
-    : null;
-  const statusBg = player.status === "injured" ? "#dc3545"
-    : player.status === "recovering" ? "#fd7e14"
-    : player.status === "doubtful" ? "#ffc107"
-    : null;
-
-  return (
-    <div style={{ position: "relative", flexShrink: 0, width: size, height: size }}>
-      <div style={{
-        width: size, height: size, borderRadius: "50%", overflow: "hidden",
-        border: `3px solid ${borderColor}`, background: "#2a2a4a",
-        display: "flex", alignItems: "center", justifyContent: "center",
-      }}>
-        {!imgFailed ? (
-          <img
-            src={player.image}
-            alt={player.name}
-            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top" }}
-            onError={() => setImgFailed(true)}
-          />
-        ) : (
-          <div style={{
-            width: "100%", height: "100%",
-            background: `linear-gradient(135deg, ${accent}55, ${LFC_RED}88)`,
-            display: "flex", flexDirection: "column",
-            alignItems: "center", justifyContent: "center", gap: 1,
-          }}>
-            <span style={{ color: "#fff", fontWeight: 800, fontSize: size * 0.3, lineHeight: 1 }}>{initials}</span>
-            <span style={{ color: "#ffffffaa", fontWeight: 700, fontSize: size * 0.17 }}>#{player.number}</span>
-          </div>
-        )}
-      </div>
-      {statusIcon && (
-        <div style={{
-          position: "absolute", bottom: -1, right: -1,
-          width: size * 0.32, height: size * 0.32, borderRadius: "50%",
-          background: statusBg, display: "flex",
-          alignItems: "center", justifyContent: "center",
-          fontSize: size * 0.2, fontWeight: 900, color: "#fff",
-          border: "2px solid #1e1e3a", lineHeight: 1,
-        }}>
-          {statusIcon}
-        </div>
-      )}
-    </div>
-  );
-}
-
-
-// ─── Helper Components ──────────────────────────────────────────────────────
-
-function FormBadge({ form }) {
-  let color = "#6c757d";
-  let label = "Average";
-  if (form >= 8.0) { color = "#28a745"; label = "Excellent"; }
-  else if (form >= 7.5) { color = "#5cb85c"; label = "Good"; }
-  else if (form >= 7.0) { color = "#ffc107"; label = "Decent"; }
-  else if (form >= 6.5) { color = "#fd7e14"; label = "Fair"; }
-  else { color = "#dc3545"; label = "Poor"; }
-
-  return (
-    <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-      <div style={{
-        width: 48, height: 48, borderRadius: "50%", background: color,
-        display: "flex", alignItems: "center", justifyContent: "center",
-        color: "#fff", fontWeight: 700, fontSize: 16, boxShadow: `0 0 12px ${color}55`
-      }}>
-        {form.toFixed(1)}
-      </div>
-      <span style={{ fontSize: 11, color: "#aaa", textTransform: "uppercase", letterSpacing: 1 }}>{label}</span>
-    </div>
-  );
-}
-
-function StatBar({ label, value, max, unit = "" }) {
-  const pct = Math.min((value / max) * 100, 100);
-  return (
-    <div style={{ marginBottom: 6 }}>
-      <div style={{ display: "flex", justifyContent: "space-between", fontSize: 11, color: "#bbb", marginBottom: 2 }}>
-        <span>{label}</span>
-        <span style={{ color: "#fff", fontWeight: 600 }}>{value}{unit}</span>
-      </div>
-      <div style={{ height: 4, borderRadius: 2, background: "#333", overflow: "hidden" }}>
-        <div style={{ width: `${pct}%`, height: "100%", borderRadius: 2, background: `linear-gradient(90deg, ${LFC_RED}, ${LFC_GOLD})`, transition: "width 0.6s ease" }} />
-      </div>
-    </div>
-  );
-}
-
-function PositionTag({ position }) {
-  const colors = { GK: "#f1c40f", DEF: "#3498db", MID: "#2ecc71", FWD: "#e74c3c" };
-  return (
-    <span style={{
-      background: colors[position] || "#888", color: "#fff", fontSize: 10,
-      padding: "2px 8px", borderRadius: 10, fontWeight: 700, letterSpacing: 1
-    }}>
-      {position}
-    </span>
-  );
-}
-
-function StatusBadge({ status }) {
-  if (status === "fit") return null;
-  const cfg = {
-    injured:    { bg: "#dc354522", border: "#dc3545", color: "#ff6b6b", label: "INJURED" },
-    recovering: { bg: "#fd7e1422", border: "#fd7e14", color: "#ffa94d", label: "RECOVERING" },
-    doubtful:   { bg: "#ffc10722", border: "#ffc107", color: "#ffe066", label: "DOUBTFUL" },
-    suspended:  { bg: "#6c757d22", border: "#6c757d", color: "#adb5bd", label: "SUSPENDED" },
-  };
-  const c = cfg[status] || cfg.injured;
-  return (
-    <span style={{
-      background: c.bg, border: `1px solid ${c.border}`, color: c.color,
-      fontSize: 9, padding: "2px 8px", borderRadius: 10, fontWeight: 700, letterSpacing: 1.2,
-    }}>
-      {c.label}
-    </span>
-  );
-}
-
-// ─── Physical Profile ────────────────────────────────────────────────────────
-
-function PhysicalProfile({ physical }) {
-  const totalInches = Math.round(physical.height / 2.54);
-  const ft = Math.floor(totalInches / 12);
-  const inches = totalInches % 12;
-  const lbs = Math.round(physical.weight * 2.205);
-  return (
-    <div>
-      <div style={{ display: "flex", gap: 12, marginBottom: 14 }}>
-        <div style={{
-          flex: 1, background: "#252548", borderRadius: 10, padding: "12px 16px", textAlign: "center",
-        }}>
-          <div style={{ color: "#fff", fontWeight: 800, fontSize: 22 }}>{ft}<span style={{ fontSize: 12, color: "#888", fontWeight: 400 }}>'</span>{inches}<span style={{ fontSize: 12, color: "#888", fontWeight: 400 }}>"</span></div>
-          <div style={{ color: "#777", fontSize: 10, textTransform: "uppercase", letterSpacing: 1, marginTop: 2 }}>Height</div>
-        </div>
-        <div style={{
-          flex: 1, background: "#252548", borderRadius: 10, padding: "12px 16px", textAlign: "center",
-        }}>
-          <div style={{ color: "#fff", fontWeight: 800, fontSize: 22 }}>{lbs}<span style={{ fontSize: 12, color: "#888", fontWeight: 400 }}> lbs</span></div>
-          <div style={{ color: "#777", fontSize: 10, textTransform: "uppercase", letterSpacing: 1, marginTop: 2 }}>Weight</div>
-        </div>
-      </div>
-      <StatBar label="Pace" value={physical.pace} max={99} />
-      <StatBar label="Acceleration" value={physical.acceleration} max={99} />
-      <StatBar label="Sprint Speed" value={physical.sprintSpeed} max={99} />
-    </div>
-  );
-}
-
-// ─── Career Timeline ─────────────────────────────────────────────────────────
-
-function CareerTimeline({ career }) {
-  const reversed = [...career].reverse();
-  return (
-    <div style={{ position: "relative", paddingLeft: 20 }}>
-      <div style={{ position: "absolute", left: 7, top: 4, bottom: 4, width: 2, background: "#333" }} />
-      {reversed.map((entry, i) => {
-        const isCurrent = entry.years.endsWith("-");
-        const isYouth = entry.type === "youth";
-        return (
-          <div key={i} style={{ position: "relative", marginBottom: i < reversed.length - 1 ? 16 : 0 }}>
-            <div style={{
-              position: "absolute", left: -17, top: 4,
-              width: 12, height: 12, borderRadius: "50%",
-              background: isCurrent ? LFC_RED : isYouth ? "transparent" : "#555",
-              border: isYouth ? "2px solid #555" : isCurrent ? `2px solid ${LFC_RED}` : "2px solid #555",
-              boxShadow: isCurrent ? `0 0 8px ${LFC_RED}66` : "none",
-            }} />
-            <div style={{ opacity: isYouth ? 0.6 : 1 }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap" }}>
-                <span style={{
-                  color: isCurrent ? LFC_RED : "#fff", fontWeight: 700, fontSize: 13,
-                }}>{entry.club}</span>
-                {entry.fee ? (
-                  <span style={{
-                    fontSize: 10, padding: "2px 8px", borderRadius: 8, fontWeight: 600,
-                    background: "#ffffff12", color: "#aaa", border: "1px solid #ffffff15",
-                  }}>{entry.fee}</span>
-                ) : (
-                  <span style={{
-                    fontSize: 10, padding: "2px 8px", borderRadius: 8, fontWeight: 600,
-                    background: isYouth ? "#ffc10712" : "#ffffff08",
-                    color: isYouth ? "#ffc107" : "#666",
-                    border: isYouth ? "1px solid #ffc10722" : "1px solid #ffffff08",
-                  }}>{isYouth ? "Youth" : "Academy"}</span>
-                )}
-              </div>
-              <div style={{ fontSize: 11, color: "#666", marginTop: 2 }}>{entry.years}</div>
-            </div>
-          </div>
-        );
-      })}
-    </div>
-  );
-}
-
-// ─── Player Card ────────────────────────────────────────────────────────────
-
-function PlayerCard({ player, expanded, onToggle }) {
-  const [activeTab, setActiveTab] = useState("stats");
-  useEffect(() => { if (!expanded) setActiveTab("stats"); }, [expanded]);
-
-  const formColor = player.form >= 8.0 ? "#28a745"
-    : player.form >= 7.5 ? "#5cb85c"
-    : player.form >= 7.0 ? "#ffc107"
-    : player.form >= 6.5 ? "#fd7e14"
-    : "#dc3545";
-
-  return (
-    <div
-      onClick={onToggle}
-      style={{
-        background: expanded ? "linear-gradient(135deg, #1e1e3a, #2a1525)" : "#1e1e3a",
-        borderRadius: 14, padding: 0, cursor: "pointer",
-        border: expanded ? `2px solid ${LFC_RED}` : "2px solid transparent",
-        transition: "all 0.3s ease", overflow: "hidden",
-        boxShadow: expanded ? `0 8px 32px ${LFC_RED}22` : "0 2px 12px #0005",
-        display: "flex", flexDirection: "column",
-      }}
-    >
-      {/* Header — compact */}
-      <div style={{ display: "flex", alignItems: "center", gap: 10, padding: "12px 14px 8px" }}>
-        <PlayerAvatar player={player} size={44} />
-        <div style={{ flex: 1, minWidth: 0 }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 6, flexWrap: "nowrap", overflow: "hidden" }}>
-            <span style={{ color: LFC_RED, fontWeight: 800, fontSize: 11 }}>#{player.number}</span>
-            <span style={{ color: "#fff", fontWeight: 700, fontSize: 13, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{player.name}</span>
-          </div>
-          <div style={{ display: "flex", alignItems: "center", gap: 6, marginTop: 3, flexWrap: "wrap" }}>
-            <PositionTag position={player.position} />
-            <StatusBadge status={player.status} />
-          </div>
-        </div>
-        {/* Compact form circle */}
-        {(player.status === "fit" || player.status === "doubtful") && player.form > 0 ? (
-          <div style={{
-            width: 36, height: 36, borderRadius: "50%", background: formColor,
-            display: "flex", alignItems: "center", justifyContent: "center",
-            color: "#fff", fontWeight: 700, fontSize: 13, flexShrink: 0,
-            boxShadow: `0 0 8px ${formColor}55`,
-          }}>
-            {player.form.toFixed(1)}
-          </div>
-        ) : player.status !== "fit" ? (
-          <div style={{
-            fontSize: 9, color: "#ff6b6b", fontWeight: 700, textAlign: "center",
-            background: "#dc354515", padding: "4px 8px", borderRadius: 6,
-            border: "1px solid #dc354533", lineHeight: 1.2, flexShrink: 0,
-          }}>
-            OUT
-          </div>
-        ) : null}
-      </div>
-
-      {/* Injury Note — condensed */}
-      {player.injuryNote && (
-        <div style={{
-          margin: "0 14px 6px", padding: "5px 8px", borderRadius: 6,
-          background: player.status === "recovering" ? "#fd7e1412" : player.status === "doubtful" ? "#ffc10712" : "#dc354512",
-          border: `1px solid ${player.status === "recovering" ? "#fd7e1433" : player.status === "doubtful" ? "#ffc10733" : "#dc354533"}`,
-          fontSize: 10, color: player.status === "recovering" ? "#ffa94d" : player.status === "doubtful" ? "#ffe066" : "#ff6b6b",
-          lineHeight: 1.3, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis",
-        }}>
-          {player.injuryNote}
-        </div>
-      )}
-
-      {/* Quick Stats — compact grid */}
-      <div style={{
-        display: "grid",
-        gridTemplateColumns: player.cleanSheets !== null ? "repeat(4, 1fr)" : "repeat(3, 1fr)",
-        gap: 0, padding: "6px 14px 10px",
-        borderTop: "1px solid #ffffff0a", marginTop: "auto",
-      }}>
-        {[
-          { label: "Apps", value: player.appearances },
-          { label: "Goals", value: player.goals },
-          { label: "Assists", value: player.assists },
-          ...(player.cleanSheets !== null ? [{ label: "CS", value: player.cleanSheets }] : []),
-        ].map((s) => (
-          <div key={s.label} style={{ textAlign: "center" }}>
-            <div style={{ color: "#fff", fontWeight: 700, fontSize: 14 }}>{s.value}</div>
-            <div style={{ color: "#777", fontSize: 9, textTransform: "uppercase", letterSpacing: 0.8 }}>{s.label}</div>
-          </div>
-        ))}
-      </div>
-
-      {/* Expanded Tabs */}
-      {expanded && (
-        <div style={{ padding: "4px 18px 18px", borderTop: "1px solid #ffffff08" }}>
-          {/* Tab Bar */}
-          <div style={{ display: "flex", gap: 4, marginBottom: 14, background: "#ffffff08", borderRadius: 8, padding: 3 }}>
-            {[
-              { key: "stats", label: "Stats" },
-              { key: "physical", label: "Physical" },
-              { key: "career", label: "Career" },
-            ].map((t) => (
-              <button
-                key={t.key}
-                onClick={(e) => { e.stopPropagation(); setActiveTab(t.key); }}
-                style={{
-                  flex: 1, padding: "7px 0", borderRadius: 6, border: "none", cursor: "pointer",
-                  fontWeight: 700, fontSize: 11, textTransform: "uppercase", letterSpacing: 1,
-                  background: activeTab === t.key ? LFC_RED : "transparent",
-                  color: activeTab === t.key ? "#fff" : "#888",
-                  transition: "all 0.2s",
-                }}
-              >
-                {t.label}
-              </button>
-            ))}
-          </div>
-
-          {/* Stats Tab */}
-          {activeTab === "stats" && (
-            <div>
-              <div style={{ fontSize: 11, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 10 }}>
-                Advanced Stats
-              </div>
-              <StatBar label="Expected Goals (xG)" value={player.xG} max={12} />
-              <StatBar label="Pass Completion" value={player.passCompletion} max={100} unit="%" />
-              <StatBar label="Tackles per 90" value={player.tacklesPer90} max={4} />
-              <StatBar label="Progressive Carries per 90" value={player.progressiveCarries} max={8} />
-            </div>
-          )}
-
-          {/* Physical Tab */}
-          {activeTab === "physical" && player.physical && (
-            <PhysicalProfile physical={player.physical} />
-          )}
-
-          {/* Career Tab */}
-          {activeTab === "career" && player.career && (
-            <CareerTimeline career={player.career} />
-          )}
-        </div>
-      )}
-    </div>
-  );
-}
-
-// ─── AI News Digest ──────────────────────────────────────────────────────────
-
-const CATEGORY_COLORS = {
-  transfers: LFC_RED,
-  injuries: "#fd7e14",
-  matches: "#3498db",
-  tactics: "#2ecc71",
-  general: "#888",
+// ─── Editorial design tokens ────────────────────────────────────────────────
+// "The Anfield Edition" — crimson ink on dark oxblood paper.
+export const T = {
+  ink: "#0E0709",
+  surface: "#1A1012",
+  red: "#C8102E",
+  gold: "#F6EB61",
+  ivory: "#F4EBD0",
+  ivoryDim: "#F4EBD0BB",
+  ivoryFaint: "#F4EBD066",
+  rule: "#F4EBD022",
+  ruleStrong: "#F4EBD040",
+  green: "#1E7A47",
+  ease: "cubic-bezier(0.22, 0.61, 0.36, 1)",
+  serif: "'Playfair Display', Georgia, serif",
+  sans: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
 };
 
-function NewsDigestSection() {
-  if (!NEWS_DIGEST) return null;
-
-  const timeAgoStr = (() => {
-    const diff = Date.now() - new Date(NEWS_DIGEST.generatedAt).getTime();
-    const mins = Math.floor(diff / 60000);
-    if (mins < 60) return `${mins}m ago`;
-    const hrs = Math.floor(mins / 60);
-    if (hrs < 24) return `${hrs}h ago`;
-    const days = Math.floor(hrs / 24);
-    return `${days}d ago`;
-  })();
-
-  return (
-    <div style={{
-      background: "linear-gradient(135deg, #1e1e3a, #1a1530)",
-      borderRadius: 14,
-      padding: 20,
-      marginBottom: 16,
-      border: `1px solid ${LFC_RED}33`,
-    }}>
-      {/* Header */}
-      <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
-        <span style={{
-          fontSize: 12, color: LFC_GOLD, fontWeight: 700,
-          textTransform: "uppercase", letterSpacing: 1.5,
-        }}>
-          AI News Digest
-        </span>
-        <span style={{
-          fontSize: 9, color: "#777", background: "#252548",
-          padding: "3px 8px", borderRadius: 6, fontWeight: 600,
-        }}>
-          Powered by Perplexity
-        </span>
-        <span style={{ fontSize: 10, color: "#555", marginLeft: "auto" }}>
-          Updated {timeAgoStr}
-        </span>
-      </div>
-
-      {/* Summary */}
-      <p style={{
-        fontSize: 14, color: "#ccc", lineHeight: 1.7,
-        margin: "0 0 16px 0",
-      }}>
-        {NEWS_DIGEST.summary}
-      </p>
-
-      {/* Key Topics Grid */}
-      <div style={{
-        display: "grid",
-        gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-        gap: 10,
-      }}>
-        {NEWS_DIGEST.keyTopics.map((topic, i) => (
-          <div
-            key={i}
-            style={{
-              background: "#252548",
-              borderRadius: 10,
-              padding: 14,
-              borderLeft: `3px solid ${CATEGORY_COLORS[topic.category] || "#888"}`,
-            }}
-          >
-            <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 6 }}>
-              <span style={{ color: "#fff", fontWeight: 700, fontSize: 13, flex: 1 }}>
-                {topic.title}
-              </span>
-              <span style={{
-                fontSize: 9, fontWeight: 700, textTransform: "uppercase",
-                color: CATEGORY_COLORS[topic.category] || "#888",
-                background: `${CATEGORY_COLORS[topic.category] || "#888"}22`,
-                padding: "2px 7px", borderRadius: 4, letterSpacing: 0.5,
-              }}>
-                {topic.category}
-              </span>
-            </div>
-            <div style={{ color: "#aaa", fontSize: 12, lineHeight: 1.5 }}>
-              {topic.detail}
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {/* Sources footer */}
-      <div style={{ marginTop: 12, fontSize: 10, color: "#555" }}>
-        Sources: {NEWS_DIGEST.sources.join(" · ")}
-      </div>
-    </div>
-  );
-}
-
-// ─── Live RSS News Feed ──────────────────────────────────────────────────────
+const initials = (name) => name.split(" ").map(w => w[0]).slice(0, 2).join("");
+const fmtDateShort = (s) => {
+  const d = new Date(s + "T12:00:00");
+  return d.toLocaleDateString("en-GB", { day: "2-digit", month: "short" }).replace(/\s/g, " ");
+};
+const fmtDateLong = (iso) => {
+  const d = new Date(iso);
+  return d.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" });
+};
+const fmtClock = (iso) => new Date(iso).toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
 
 function timeAgo(dateStr) {
   const diff = Date.now() - new Date(dateStr).getTime();
@@ -484,6 +46,1414 @@ function timeAgo(dateStr) {
   const weeks = Math.floor(days / 7);
   return `${weeks}w ago`;
 }
+
+// ─── Last-5 W/D/L pills helper ──────────────────────────────────────────────
+// Computed per player from RESULTS — falls back to "----- " if no apps yet.
+function buildPlayerLast5(player, results) {
+  // Use the recovering / injured / season-out signal to decide if they played
+  // in any given match. For simplicity, return the team's last 5 results,
+  // using "·" for matches the player almost certainly missed (long-term out).
+  const isLongOut = player.status === "injured" && player.appearances < 12;
+  const last5 = results.slice(0, 5).map((r) => r.result).reverse();
+  if (isLongOut) return last5.map(() => "-");
+  return last5;
+}
+
+// ─── Atoms ──────────────────────────────────────────────────────────────────
+
+// TeamCrest — small crest stamp. Liverpool's crest stays untreated (its red
+// already harmonises with the palette); other clubs are softly desaturated so
+// they read as ink rather than fighting the editorial colour scheme.
+function TeamCrest({ team, size = 22, style = {} }) {
+  const url = TEAM_LOGOS[team];
+  if (!url) return null;
+  const isLfc = team === "Liverpool";
+  return (
+    <img
+      src={url}
+      alt={team + " crest"}
+      style={{
+        width: size, height: size, objectFit: "contain",
+        flexShrink: 0, verticalAlign: "middle",
+        filter: isLfc ? "none" : "grayscale(0.65) brightness(1.05) contrast(1.05)",
+        opacity: isLfc ? 1 : 0.9,
+        ...style,
+      }}
+      onError={(e) => { e.currentTarget.style.visibility = "hidden"; }}
+    />
+  );
+}
+
+function SmallCaps({ children, color = T.ivoryDim, style = {} }) {
+  return (
+    <span style={{
+      fontFamily: T.sans, fontWeight: 600, textTransform: "uppercase",
+      letterSpacing: "0.18em", fontSize: 11, color, ...style,
+    }}>{children}</span>
+  );
+}
+
+function Chapter({ children, style = {} }) {
+  return (
+    <h2 style={{
+      fontFamily: T.serif, fontStyle: "italic", fontWeight: 500,
+      fontSize: 54, letterSpacing: "-0.02em", color: T.ivory, lineHeight: 1, ...style,
+    }}>
+      {children}<span style={{ color: T.red }}>.</span>
+    </h2>
+  );
+}
+
+function GoldRule({ width = 64, style = {} }) {
+  return <div style={{ height: 1, background: T.gold, width, ...style }} />;
+}
+
+function SectionHead({ title, meta }) {
+  return (
+    <div style={{
+      display: "flex", alignItems: "flex-end", justifyContent: "space-between",
+      marginBottom: 48, gap: 32, flexWrap: "wrap",
+    }}>
+      <Chapter>{title}</Chapter>
+      {meta && (
+        <div style={{
+          fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase",
+          color: T.ivoryDim, textAlign: "right", lineHeight: 1.6,
+          fontFamily: T.sans, fontWeight: 500,
+        }}>
+          {meta}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ─── Stat strip — used on Cover and Matchday ────────────────────────────────
+
+function StatStrip({ stats }) {
+  const cols = stats.length;
+  return (
+    <div style={{
+      display: "grid",
+      gridTemplateColumns: `repeat(${cols}, 1fr)`,
+      borderTop: `1px solid ${T.ruleStrong}`,
+      borderBottom: `1px solid ${T.ruleStrong}`,
+      padding: "18px 0",
+    }}>
+      {stats.map((s, i) => (
+        <div key={s.label} style={{
+          padding: i === 0 ? "0 14px 0 0" : "0 14px",
+          borderRight: i === cols - 1 ? "none" : `1px solid ${T.rule}`,
+        }}>
+          <div style={{
+            fontFamily: T.serif, fontWeight: 500, fontSize: 32, lineHeight: 1,
+            color: T.ivory, marginBottom: 6,
+            fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+          }}>
+            {s.value}
+          </div>
+          <div style={{
+            fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase",
+            color: T.ivoryDim, fontFamily: T.sans, fontWeight: 500,
+          }}>
+            {s.label}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+// ─── Masthead nav ──────────────────────────────────────────────────────────
+
+const NAV_ITEMS = [
+  { key: "cover",      label: "Cover" },
+  { key: "matchday",   label: "Matchday" },
+  { key: "squad",      label: "Squad" },
+  { key: "lineup",     label: "Lineup" },
+  { key: "standings",  label: "Standings" },
+  { key: "dispatches", label: "Dispatches" },
+  { key: "news",       label: "News" },
+];
+
+function Masthead({ view, onChange }) {
+  const issueDate = new Date().toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+  return (
+    <header style={{
+      borderBottom: `1px solid ${T.rule}`, padding: "18px 0 14px",
+      position: "sticky", top: 0, background: T.ink, zIndex: 50,
+      backdropFilter: "blur(6px)", WebkitBackdropFilter: "blur(6px)",
+    }}>
+      <div style={{
+        maxWidth: 1280, margin: "0 auto", padding: "0 56px",
+        display: "flex", alignItems: "center", justifyContent: "space-between", gap: 24,
+      }}>
+        {/* Brand mark — LFC crest as the publication's printer's mark */}
+        <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+          <TeamCrest team="Liverpool" size={36} />
+          <div>
+            <div style={{ fontFamily: T.serif, fontWeight: 600, fontSize: 17, letterSpacing: "0.02em", color: T.ivory }}>
+              The Anfield Edition
+            </div>
+            <div style={{
+              fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
+              color: T.ivoryDim, marginTop: 2, fontFamily: T.sans, fontWeight: 500,
+            }}>
+              Vol. XXXIV · Matchday Programme
+            </div>
+          </div>
+        </div>
+
+        {/* Nav */}
+        <nav style={{ display: "flex", gap: 2, alignItems: "center", flexWrap: "wrap", justifyContent: "center" }}>
+          {NAV_ITEMS.map((n) => {
+            const active = view === n.key;
+            return (
+              <button
+                key={n.key}
+                onClick={() => onChange(n.key)}
+                style={{
+                  background: "none", border: "none", cursor: "pointer",
+                  color: active ? T.ivory : T.ivoryDim,
+                  fontFamily: T.sans, fontSize: 12, fontWeight: 500,
+                  letterSpacing: "0.18em", textTransform: "uppercase",
+                  padding: "10px 14px",
+                  transition: `color .5s ${T.ease}`,
+                  position: "relative",
+                }}
+                onMouseEnter={(e) => { e.currentTarget.style.color = T.ivory; }}
+                onMouseLeave={(e) => { e.currentTarget.style.color = active ? T.ivory : T.ivoryDim; }}
+              >
+                {n.label}
+                {active && (
+                  <span style={{
+                    position: "absolute", left: 14, right: 14, bottom: 4,
+                    height: 1, background: T.red,
+                  }} />
+                )}
+              </button>
+            );
+          })}
+        </nav>
+
+        {/* Issue date */}
+        <div style={{
+          fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
+          color: T.ivoryFaint, textAlign: "right", lineHeight: 1.5,
+          fontFamily: T.sans, fontWeight: 500, minWidth: 140,
+        }}>
+          {issueDate.split(" ").slice(0, 1).join(" ")}<br />
+          {issueDate.split(" ").slice(1).join(" ")}
+        </div>
+      </div>
+    </header>
+  );
+}
+
+// ─── Page (max-width container) ─────────────────────────────────────────────
+
+function Page({ children, style = {} }) {
+  return (
+    <div style={{ maxWidth: 1280, margin: "0 auto", padding: "0 56px", ...style }}>
+      {children}
+    </div>
+  );
+}
+
+// ─── COVER VIEW ────────────────────────────────────────────────────────────
+
+function CoverView({ onJump }) {
+  const stats = useMemo(() => {
+    const won = RESULTS.filter(r => r.result === "W").length;
+    const drawn = RESULTS.filter(r => r.result === "D").length;
+    const lost = RESULTS.filter(r => r.result === "L").length;
+    const gf = RESULTS.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? h : a); }, 0);
+    const ga = RESULTS.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? a : h); }, 0);
+    const lfc = STANDINGS.find(t => t.highlight);
+    return [
+      { label: "Played",          value: String(lfc?.p ?? RESULTS.length).padStart(2, "0") },
+      { label: "Won",             value: String(lfc?.w ?? won).padStart(2, "0") },
+      { label: "Drawn",           value: String(lfc?.d ?? drawn).padStart(2, "0") },
+      { label: "Lost",            value: String(lfc?.l ?? lost).padStart(2, "0") },
+      { label: "Goals For",       value: String(gf).padStart(2, "0") },
+      { label: "Goals Against",   value: String(ga).padStart(2, "0") },
+      { label: "Position",        value: lfc ? `${lfc.pos}${["st","nd","rd"][lfc.pos-1] || "th"}` : "—" },
+      { label: "UCL Probability", value: "96.92%" },
+    ];
+  }, []);
+
+  return (
+    <section style={{ animation: `pageTurn .55s ${T.ease} both` }}>
+      <div style={{ padding: "72px 0 56px", borderBottom: `1px solid ${T.rule}` }}>
+        <div style={{
+          fontFamily: T.serif, fontStyle: "italic", fontWeight: 500,
+          fontSize: 14, color: T.red, marginBottom: 28, letterSpacing: "0.02em",
+        }}>
+          — A Matchday Programme, in print and pixels.
+        </div>
+        <h1 style={{
+          fontFamily: T.serif, fontWeight: 500, fontSize: 148,
+          lineHeight: 0.92, letterSpacing: "-0.04em", marginBottom: 32, color: T.ivory,
+        }}>
+          Anfield.<br /><em style={{ fontStyle: "italic", color: T.red }}>May 2026.</em>
+        </h1>
+        <GoldRule style={{ marginBottom: 12 }} />
+        <p style={{
+          fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
+          color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
+        }}>
+          Four games to settle a season. A captain on his way out, a number eleven on the
+          mend, and a goalkeeper, twenty-nine, who waited his whole career for an afternoon
+          like Saturday's.
+        </p>
+
+        {/* Hero plate — Anfield, in two-tone */}
+        <figure style={{
+          margin: "0 0 48px",
+          borderTop: `1px solid ${T.ruleStrong}`,
+          borderBottom: `1px solid ${T.ruleStrong}`,
+          padding: "20px 0",
+        }}>
+          <img
+            src={`${import.meta.env.BASE_URL}background.png`}
+            alt="Anfield, in red and ink"
+            style={{
+              display: "block", width: "100%", height: "auto",
+              objectFit: "cover",
+            }}
+          />
+          <figcaption style={{
+            display: "flex", justifyContent: "space-between", alignItems: "baseline",
+            gap: 16, marginTop: 14, flexWrap: "wrap",
+          }}>
+            <span style={{
+              fontFamily: T.serif, fontStyle: "italic", fontWeight: 400,
+              fontSize: 14, color: T.ivoryDim, lineHeight: 1.4,
+            }}>
+              — The Kop, in May light. The ground waits, as it always does.
+            </span>
+            <span style={{
+              fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
+              color: T.ivoryFaint, fontFamily: T.sans, fontWeight: 500,
+            }}>
+              Plate I · Anfield · MMXXVI
+            </span>
+          </figcaption>
+        </figure>
+
+        <StatStrip stats={stats} />
+      </div>
+
+      {/* Editor's letter + featured */}
+      <div style={{ padding: "72px 0" }}>
+        <SectionHead title="In this issue" meta={<>Editor's letter<br />{new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}</>} />
+        <div style={{ display: "grid", gridTemplateColumns: "1.4fr 1px 1fr", gap: "0 56px" }}>
+          <div>
+            <p style={{
+              fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
+              fontWeight: 400, marginBottom: 24, textWrap: "pretty",
+            }}>
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span> takes us back to a
+              place where seasons are made and unmade, and where, this year more than most, the
+              visiting bus carries the ghost of a goodbye not yet announced. Mohamed Salah will
+              not travel. The club, in a sentence calibrated for both reassurance and the second
+              leg, called the issue <em>minor</em>.
+            </p>
+            <p style={{
+              fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
+              fontWeight: 400, textWrap: "pretty",
+            }}>
+              Inside, the squad as a roster, the standings as they are, and five dispatches from
+              the small army of writers who have followed this team into May. Read slowly. The
+              ink is still drying.
+            </p>
+          </div>
+          <div style={{ background: T.rule }} />
+          <div>
+            <SmallCaps style={{ marginBottom: 18, display: "inline-block" }}>Featured</SmallCaps>
+            <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: 18, marginTop: 8 }}>
+              {DISPATCHES.slice(0, 4).map((d) => (
+                <li key={d.n}>
+                  <button
+                    onClick={() => onJump("dispatches")}
+                    style={{
+                      background: "none", border: "none", padding: 0, cursor: "pointer",
+                      textAlign: "left", color: T.ivory,
+                    }}
+                  >
+                    <span style={{ fontFamily: T.serif, fontStyle: "italic", color: T.red, fontSize: 13 }}>{d.n}</span>
+                    <div style={{ fontFamily: T.serif, fontSize: 18, lineHeight: 1.3, marginTop: 4, color: T.ivory }}>
+                      {d.headline}
+                    </div>
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+// ─── MATCHDAY VIEW ─────────────────────────────────────────────────────────
+
+function Countdown({ targetIso }) {
+  const [now, setNow] = useState(Date.now());
+  useEffect(() => {
+    const id = setInterval(() => setNow(Date.now()), 60000);
+    return () => clearInterval(id);
+  }, []);
+  let diff = Math.max(0, new Date(targetIso).getTime() - now);
+  const days = Math.floor(diff / 86400000); diff -= days * 86400000;
+  const hrs  = Math.floor(diff / 3600000);  diff -= hrs * 3600000;
+  const mins = Math.floor(diff / 60000);
+  const cell = (n, label) => (
+    <div style={{ flex: 1 }}>
+      <div style={{
+        fontFamily: T.serif, fontWeight: 500, fontSize: 54, lineHeight: 1, color: T.ivory,
+        fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+      }}>
+        {String(n).padStart(2, "0")}
+      </div>
+      <div style={{
+        fontSize: 10, letterSpacing: "0.2em", textTransform: "uppercase", color: T.ivoryDim,
+        marginTop: 6, fontFamily: T.sans, fontWeight: 500,
+      }}>{label}</div>
+    </div>
+  );
+  return (
+    <div style={{
+      display: "flex", gap: 18, marginTop: 32, alignItems: "flex-end",
+      borderTop: `1px solid ${T.rule}`, paddingTop: 20,
+    }}>
+      {cell(days, "Days")}{cell(hrs, "Hours")}{cell(mins, "Minutes")}
+    </div>
+  );
+}
+
+function FormBlock({ results }) {
+  const last5 = results.slice(0, 5).map(r => r.result).reverse();
+  const colorFor = (r) => r === "W" ? T.ivory : r === "D" ? T.gold : T.red;
+  return (
+    <div style={{
+      background: T.surface, padding: 32, border: `1px solid ${T.rule}`,
+    }}>
+      <div style={{
+        fontFamily: T.serif, fontStyle: "italic", fontWeight: 500,
+        fontSize: 28, marginBottom: 6, color: T.ivory,
+      }}>
+        Form, last five.
+      </div>
+      <div style={{
+        fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase",
+        color: T.ivoryFaint, marginBottom: 24, fontFamily: T.sans, fontWeight: 500,
+      }}>
+        — Most recent on the right
+      </div>
+      <div style={{ display: "flex", gap: 6, marginBottom: 18 }}>
+        {last5.map((r, i) => (
+          <div key={i} style={{
+            width: 40, height: 40, border: `1px solid ${colorFor(r)}`,
+            display: "flex", alignItems: "center", justifyContent: "center",
+            fontFamily: T.serif, fontWeight: 600, fontSize: 16, color: colorFor(r),
+          }}>{r}</div>
+        ))}
+      </div>
+      <p style={{
+        fontFamily: T.serif, fontStyle: "italic", fontSize: 14,
+        color: T.ivoryDim, lineHeight: 1.6,
+        borderTop: `1px solid ${T.rule}`, paddingTop: 14,
+      }}>
+        Two wins on the bounce after a difficult European fortnight. The Palace performance
+        was the cleanest the side has looked since February — a side, finally, that
+        resembles its sum.
+      </p>
+    </div>
+  );
+}
+
+function ResultsLedger({ results, compFilter, onCompChange }) {
+  const tabs = [
+    { key: "All", label: "All" },
+    { key: "PL",  label: "PL" },
+    { key: "UCL", label: "UCL" },
+    { key: "FA",  label: "FA Cup" },
+  ];
+  const filtered = compFilter === "All" ? results : results.filter(r => r.competition === compFilter);
+  return (
+    <div style={{ marginTop: 56 }}>
+      <div style={{
+        display: "flex", alignItems: "flex-end", justifyContent: "space-between",
+        marginBottom: 24, gap: 32, flexWrap: "wrap",
+      }}>
+        <h3 style={{
+          fontFamily: T.serif, fontSize: 32, fontStyle: "italic", fontWeight: 500,
+          color: T.ivory, lineHeight: 1.1,
+        }}>
+          Results, in chronological order<span style={{ color: T.red }}>.</span>
+        </h3>
+        <div style={{
+          fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase",
+          color: T.ivoryDim, textAlign: "right", lineHeight: 1.6,
+          fontFamily: T.sans, fontWeight: 500,
+        }}>
+          Last ten<br />across all competitions
+        </div>
+      </div>
+
+      {/* Competition filter — text links with gold hairline under active */}
+      <div style={{
+        display: "flex", gap: 0, marginBottom: 24,
+        borderBottom: `1px solid ${T.rule}`,
+      }}>
+        {tabs.map((t, i) => {
+          const active = compFilter === t.key;
+          return (
+            <button
+              key={t.key}
+              onClick={() => onCompChange(t.key)}
+              style={{
+                background: "none", border: "none", cursor: "pointer",
+                padding: "12px 20px",
+                color: active ? T.ivory : T.ivoryDim,
+                fontFamily: T.sans, fontSize: 11, fontWeight: 500,
+                letterSpacing: "0.22em", textTransform: "uppercase",
+                position: "relative", transition: `color .5s ${T.ease}`,
+                borderRight: i === tabs.length - 1 ? "none" : `1px solid ${T.rule}`,
+              }}
+            >
+              {t.label}
+              {active && (
+                <span style={{
+                  position: "absolute", left: 20, right: 20, bottom: -1,
+                  height: 1, background: T.gold,
+                }} />
+              )}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Ledger grid */}
+      <div style={{
+        display: "grid",
+        gridTemplateColumns: "80px 32px 1.4fr 80px 70px 1.6fr",
+        columnGap: 18,
+      }}>
+        {["Date", "R", "Fixture", "Score", "Comp.", "Scorers"].map((h, i) => (
+          <div key={h} style={{
+            fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase",
+            color: T.ivoryFaint, padding: "10px 0",
+            borderBottom: `1px solid ${T.ruleStrong}`,
+            textAlign: i === 1 ? "right" : "left",
+            fontFamily: T.sans, fontWeight: 500,
+          }}>
+            {h}
+          </div>
+        ))}
+        {filtered.map((r, i) => {
+          const resColor = r.result === "W" ? T.ivory : r.result === "D" ? T.gold : T.red;
+          const cellStyle = {
+            padding: "14px 0", borderBottom: `1px solid ${T.rule}`,
+            fontSize: 13, color: T.ivory, fontFamily: T.sans,
+          };
+          return (
+            <div key={i} style={{ display: "contents" }}>
+              <div style={{
+                ...cellStyle, color: T.ivoryDim,
+                fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+              }}>{fmtDateShort(r.date)}</div>
+              <div style={{ ...cellStyle, color: resColor, fontWeight: 600, textAlign: "right" }}>{r.result}</div>
+              <div style={{ ...cellStyle, display: "flex", alignItems: "center", gap: 10 }}>
+                <TeamCrest team="Liverpool" size={18} />
+                <span style={{ color: T.ivoryFaint }}>·</span>
+                <span style={{
+                  fontSize: 10, letterSpacing: "0.18em", textTransform: "uppercase",
+                  color: T.ivoryFaint, fontWeight: 500,
+                }}>{r.home ? "v" : "@"}</span>
+                <span style={{ color: T.ivoryFaint }}>·</span>
+                <TeamCrest team={r.opponent} size={18} />
+                <span style={{ marginLeft: 4 }}>{r.opponent}</span>
+                {!r.home && (
+                  <span style={{
+                    color: T.ivoryFaint, fontSize: 10, letterSpacing: "0.2em",
+                    textTransform: "uppercase", marginLeft: 8,
+                  }}>· away</span>
+                )}
+              </div>
+              <div style={{
+                ...cellStyle, fontFamily: T.serif, fontWeight: 500, fontSize: 18,
+                color: resColor, letterSpacing: "0.02em",
+                fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+              }}>{r.score.replace("-", "–")}</div>
+              <div style={{
+                ...cellStyle, fontSize: 10, letterSpacing: "0.18em",
+                textTransform: "uppercase", color: T.ivoryFaint,
+              }}>{r.competition}</div>
+              <div style={{
+                ...cellStyle, color: T.ivoryDim, fontSize: 12,
+                fontStyle: "italic", fontFamily: T.serif,
+              }}>{r.scorers || "—"}</div>
+            </div>
+          );
+        })}
+        {filtered.length === 0 && (
+          <div style={{
+            gridColumn: "1 / -1", padding: 40, textAlign: "center",
+            color: T.ivoryFaint, fontFamily: T.serif, fontStyle: "italic",
+          }}>
+            No fixtures recorded under this competition.
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
+function MatchdayView() {
+  const [compFilter, setCompFilter] = useState("All");
+  const filteredResults = useMemo(() => (
+    compFilter === "All" ? RESULTS : RESULTS.filter(r => r.competition === compFilter)
+  ), [compFilter]);
+
+  // 10-tile dashboard stats — rendered as a hairline stat strip
+  const matchdayStats = useMemo(() => {
+    const gf = filteredResults.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? h : a); }, 0);
+    const ga = filteredResults.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? a : h); }, 0);
+    return [
+      { label: "Played",        value: String(filteredResults.length).padStart(2, "0") },
+      { label: "Won",           value: String(filteredResults.filter(r => r.result === "W").length).padStart(2, "0") },
+      { label: "Drawn",         value: String(filteredResults.filter(r => r.result === "D").length).padStart(2, "0") },
+      { label: "Lost",          value: String(filteredResults.filter(r => r.result === "L").length).padStart(2, "0") },
+      { label: "Goals For",     value: String(gf).padStart(2, "0") },
+      { label: "Goals Against", value: String(ga).padStart(2, "0") },
+      { label: "Squad Goals",   value: String(_.sumBy(PLAYERS, "goals")).padStart(2, "0") },
+      { label: "Assists",       value: String(_.sumBy(PLAYERS, "assists")).padStart(2, "0") },
+      { label: "Avg Form",      value: _.meanBy(PLAYERS, "form").toFixed(1) },
+      { label: "Injured",       value: String(PLAYERS.filter(p => p.status !== "fit").length).padStart(2, "0") },
+    ];
+  }, [filteredResults]);
+
+  return (
+    <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
+      <SectionHead title="Matchday" meta={<>{fmtDateLong(NEXT_MATCH.date)}<br />{NEXT_MATCH.venue} · {fmtClock(NEXT_MATCH.date)} BST</>} />
+
+      <div style={{
+        display: "grid", gridTemplateColumns: "1.3fr 1fr",
+        gap: 48, alignItems: "start",
+      }} className="matchday-grid">
+        {/* Fixture block */}
+        <div style={{ borderTop: `2px solid ${T.ivory}`, paddingTop: 24 }}>
+          <div style={{
+            fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase",
+            color: T.gold, marginBottom: 18, fontFamily: T.sans, fontWeight: 500,
+          }}>
+            — Premier League · Round 35
+          </div>
+          <div style={{
+            fontFamily: T.serif, fontWeight: 500, fontSize: 64, lineHeight: 1,
+            letterSpacing: "-0.02em", marginBottom: 24, color: T.ivory,
+            display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap",
+          }}>
+            <TeamCrest team={NEXT_MATCH.opponent} size={48} />
+            <span>{NEXT_MATCH.opponent}</span>
+            <em style={{
+              fontStyle: "italic", color: T.ivoryDim, fontSize: 32,
+              padding: "0 4px",
+            }}>vs</em>
+            <span>Liverpool</span>
+            <TeamCrest team="Liverpool" size={48} />
+          </div>
+          <div style={{
+            display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: 24,
+            borderTop: `1px solid ${T.rule}`, paddingTop: 20,
+          }}>
+            {[
+              { label: "Venue", val: NEXT_MATCH.venue + ", Manchester" },
+              { label: "Kick-off", val: fmtClock(NEXT_MATCH.date) + " BST" },
+              { label: "Broadcast", val: NEXT_MATCH.broadcast + " Main Event" },
+              { label: "Referee", val: "Anthony Taylor" },
+            ].map((m) => (
+              <div key={m.label}>
+                <div style={{
+                  fontSize: 10, letterSpacing: "0.2em", textTransform: "uppercase",
+                  color: T.ivoryFaint, marginBottom: 6, fontFamily: T.sans, fontWeight: 500,
+                }}>{m.label}</div>
+                <div style={{ fontFamily: T.serif, fontSize: 18, color: T.ivory }}>
+                  {m.val}
+                </div>
+              </div>
+            ))}
+          </div>
+          <Countdown targetIso={NEXT_MATCH.date} />
+        </div>
+
+        <FormBlock results={RESULTS} />
+      </div>
+
+      {/* Second stat strip (10 tiles) */}
+      <div style={{ marginTop: 56 }}>
+        <div style={{
+          fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase",
+          color: T.ivoryDim, marginBottom: 14, fontFamily: T.sans, fontWeight: 500,
+        }}>
+          — Season ledger
+        </div>
+        <StatStrip stats={matchdayStats} />
+      </div>
+
+      <ResultsLedger results={RESULTS} compFilter={compFilter} onCompChange={setCompFilter} />
+    </section>
+  );
+}
+
+// ─── PLAYER CARD ───────────────────────────────────────────────────────────
+
+function Portrait({ player }) {
+  const [imgFailed, setImgFailed] = useState(false);
+  const status = player.status === "injured" ? "injured"
+    : player.status === "recovering" ? "recovering"
+    : player.status === "doubtful" ? "doubtful" : "fit";
+  const hasImage = player.image && !imgFailed;
+  return (
+    <div style={{
+      width: 88, height: 108,
+      // Striped placeholder lives behind the photo — visible if image fails or whilst loading
+      background: `repeating-linear-gradient(45deg, #F4EBD008 0, #F4EBD008 4px, transparent 4px, transparent 8px), ${T.surface}`,
+      border: `1px solid ${T.ruleStrong}`,
+      position: "relative",
+      display: "flex", alignItems: "flex-end", justifyContent: "center",
+      overflow: "hidden", flexShrink: 0,
+    }}>
+      {/* Real photo — duotone-tinted to sit in the editorial palette */}
+      {hasImage && (
+        <>
+          <img
+            src={player.image}
+            alt={player.name}
+            loading="lazy"
+            onError={() => setImgFailed(true)}
+            style={{
+              position: "absolute", inset: 0,
+              width: "100%", height: "100%",
+              objectFit: "cover", objectPosition: "top center",
+              filter: "grayscale(100%) contrast(1.05) brightness(0.78) sepia(0.18)",
+            }}
+          />
+          {/* Warm oxblood multiply layer + bottom-up ink fade for caption legibility */}
+          <div style={{
+            position: "absolute", inset: 0,
+            background: T.red, mixBlendMode: "multiply",
+            opacity: 0.18, pointerEvents: "none",
+          }} />
+          <div style={{
+            position: "absolute", inset: 0,
+            background: `linear-gradient(180deg, transparent 30%, ${T.ink}d8 100%)`,
+            pointerEvents: "none",
+          }} />
+        </>
+      )}
+
+      {/* Status hairline at top — stays above the photo */}
+      {status !== "fit" && (
+        <div style={{
+          position: "absolute", left: 0, right: 0, top: 0, height: 3,
+          background: status === "recovering" ? T.gold : T.red,
+          zIndex: 2,
+        }} />
+      )}
+
+      {/* Number watermark — large, faint, top-right */}
+      <div style={{
+        fontFamily: T.serif, fontWeight: 600, fontSize: 64, lineHeight: 0.85,
+        color: T.ivory,
+        opacity: hasImage ? 0.32 : 0.18,
+        textShadow: hasImage ? `0 1px 2px ${T.ink}` : "none",
+        position: "absolute", top: -2, right: 8,
+        letterSpacing: "-0.04em",
+        fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+        zIndex: 2,
+      }}>
+        {String(player.number).padStart(2, "0")}
+      </div>
+
+      {/* Initials caption — only shown when the photo isn't there */}
+      {!hasImage && (
+        <div style={{
+          fontFamily: T.serif, fontStyle: "italic", fontSize: 13,
+          color: T.ivoryDim, paddingBottom: 8, letterSpacing: "0.04em",
+        }}>
+          — {initials(player.name)}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function PlayerLast5({ codes }) {
+  const colorFor = (c) => c === "W" ? T.ivory : c === "D" ? T.gold : c === "L" ? T.red : T.ivoryFaint;
+  return (
+    <div style={{ display: "flex", gap: 3, marginTop: 8 }}>
+      {codes.map((c, i) => (
+        <div key={i} style={{
+          width: 18, height: 18,
+          border: `1px solid ${c === "-" ? T.ruleStrong : colorFor(c)}`,
+          borderStyle: c === "-" ? "dashed" : "solid",
+          fontSize: 9, display: "flex", alignItems: "center", justifyContent: "center",
+          fontFamily: T.serif, fontWeight: 600, color: colorFor(c),
+        }}>
+          {c === "-" ? "·" : c}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+// Editorial-styled tab content for the player drilldown.
+
+function StatsTable({ player }) {
+  const rows = [
+    { label: "Expected goals (xG)",        value: (player.xG ?? 0).toFixed(1) },
+    { label: "Pass completion",            value: `${player.passCompletion}%` },
+    { label: "Tackles per 90",             value: (player.tacklesPer90 ?? 0).toFixed(1) },
+    { label: "Progressive carries per 90", value: (player.progressiveCarries ?? 0).toFixed(1) },
+  ];
+  return (
+    <div style={{
+      borderTop: `1px solid ${T.ruleStrong}`,
+      borderBottom: `1px solid ${T.ruleStrong}`,
+    }}>
+      {rows.map((r, i) => (
+        <div key={r.label} style={{
+          display: "flex", justifyContent: "space-between", alignItems: "baseline",
+          padding: "12px 0",
+          borderBottom: i === rows.length - 1 ? "none" : `1px solid ${T.rule}`,
+        }}>
+          <span style={{ fontFamily: T.sans, fontSize: 13, color: T.ivoryDim }}>{r.label}</span>
+          <span style={{
+            fontFamily: T.serif, fontWeight: 500, fontSize: 20, color: T.ivory,
+            fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+          }}>{r.value}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function PhysicalInsert({ physical }) {
+  if (!physical) {
+    return <p style={{ fontFamily: T.serif, fontStyle: "italic", color: T.ivoryFaint }}>No physical profile recorded.</p>;
+  }
+  const totalInches = Math.round(physical.height / 2.54);
+  const ft = Math.floor(totalInches / 12);
+  const inches = totalInches % 12;
+  const lbs = Math.round(physical.weight * 2.205);
+  const Bar = ({ label, value, max = 99 }) => (
+    <div style={{
+      display: "flex", alignItems: "center", gap: 16, padding: "10px 0",
+      borderBottom: `1px solid ${T.rule}`,
+    }}>
+      <span style={{ fontFamily: T.sans, fontSize: 12, color: T.ivoryDim, flex: "0 0 140px" }}>{label}</span>
+      <span style={{
+        fontFamily: T.serif, fontWeight: 500, fontSize: 18, color: T.ivory, flex: "0 0 40px",
+        fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+      }}>{value}</span>
+      <div style={{ flex: 1, height: 1, background: T.rule, position: "relative" }}>
+        <div style={{
+          position: "absolute", left: 0, top: -1, height: 3,
+          width: `${(value / max) * 100}%`, background: T.red,
+        }} />
+      </div>
+    </div>
+  );
+  return (
+    <div>
+      <div style={{
+        display: "grid", gridTemplateColumns: "1fr 1fr",
+        borderTop: `1px solid ${T.ruleStrong}`,
+        borderBottom: `1px solid ${T.ruleStrong}`,
+        padding: "16px 0", marginBottom: 6,
+      }}>
+        <div style={{ paddingRight: 14, borderRight: `1px solid ${T.rule}` }}>
+          <div style={{
+            fontFamily: T.serif, fontWeight: 500, fontSize: 32, color: T.ivory,
+            fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+          }}>
+            {ft}<span style={{ color: T.ivoryFaint, fontSize: 16 }}>′</span>
+            {inches}<span style={{ color: T.ivoryFaint, fontSize: 16 }}>″</span>
+          </div>
+          <SmallCaps style={{ marginTop: 4 }}>Height · {physical.height} cm</SmallCaps>
+        </div>
+        <div style={{ paddingLeft: 14 }}>
+          <div style={{
+            fontFamily: T.serif, fontWeight: 500, fontSize: 32, color: T.ivory,
+            fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+          }}>
+            {lbs}<span style={{ color: T.ivoryFaint, fontSize: 16 }}> lb</span>
+          </div>
+          <SmallCaps style={{ marginTop: 4 }}>Weight · {physical.weight} kg</SmallCaps>
+        </div>
+      </div>
+      <Bar label="Pace" value={physical.pace} />
+      <Bar label="Acceleration" value={physical.acceleration} />
+      <Bar label="Sprint speed" value={physical.sprintSpeed} />
+    </div>
+  );
+}
+
+function CareerInsert({ career }) {
+  if (!career || career.length === 0) {
+    return <p style={{ fontFamily: T.serif, fontStyle: "italic", color: T.ivoryFaint }}>No career timeline recorded.</p>;
+  }
+  // Reverse chronological — most recent first
+  const ordered = [...career].reverse();
+  return (
+    <div style={{ position: "relative", paddingLeft: 24 }}>
+      <div style={{
+        position: "absolute", left: 6, top: 6, bottom: 6,
+        width: 1, background: T.rule,
+      }} />
+      {ordered.map((entry, i) => {
+        const isCurrent = entry.years.endsWith("-");
+        const isYouth = entry.type === "youth";
+        return (
+          <div key={i} style={{ position: "relative", marginBottom: i < ordered.length - 1 ? 18 : 0 }}>
+            {/* Dot */}
+            <div style={{
+              position: "absolute", left: -22, top: 6,
+              width: 9, height: 9, borderRadius: "50%",
+              background: isYouth ? "transparent" : isCurrent ? T.red : T.ivory,
+              border: `1px solid ${isYouth ? T.ivoryFaint : isCurrent ? T.red : T.ivory}`,
+            }} />
+            <div style={{ opacity: isYouth ? 0.65 : 1 }}>
+              <div style={{ display: "flex", alignItems: "baseline", gap: 10, flexWrap: "wrap" }}>
+                <span style={{
+                  fontFamily: T.serif, fontWeight: 500, fontSize: 17,
+                  color: isCurrent ? T.red : T.ivory, letterSpacing: "-0.01em",
+                }}>{entry.club}</span>
+                <span style={{
+                  fontSize: 10, letterSpacing: "0.18em", textTransform: "uppercase",
+                  color: T.ivoryFaint, fontFamily: T.sans, fontWeight: 500,
+                }}>
+                  {entry.fee || (isYouth ? "Youth" : "Academy")}
+                </span>
+              </div>
+              <div style={{
+                fontFamily: T.serif, fontStyle: "italic", fontSize: 13,
+                color: T.ivoryDim, marginTop: 3,
+                fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+              }}>
+                {entry.years}
+              </div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+function PlayerCard({ player, expanded, onToggle, last5 }) {
+  const [tab, setTab] = useState("stats");
+  useEffect(() => { if (!expanded) setTab("stats"); }, [expanded]);
+
+  const posLabel = { GK: "Goalkeeper", DEF: "Defender", MID: "Midfielder", FWD: "Forward" }[player.position];
+  const statusLabel = player.status === "injured" ? "Out"
+    : player.status === "recovering" ? "Recovering"
+    : player.status === "doubtful" ? "Doubtful" : null;
+  const statusColor = player.status === "recovering" ? T.gold : T.red;
+
+  // Strip flag emojis from nationality string (existing format: "🇧🇷 Brazil")
+  const nat = player.nationality ? player.nationality.replace(/^[^\p{L}]+/u, "") : "—";
+
+  return (
+    <article
+      onClick={onToggle}
+      style={{
+        display: "grid", gridTemplateColumns: "88px 1fr",
+        gap: 20, padding: "24px 0",
+        borderBottom: `1px solid ${T.rule}`,
+        cursor: "pointer",
+        transition: `background .5s ${T.ease}`,
+      }}
+      onMouseEnter={(e) => { e.currentTarget.style.background = "#F4EBD006"; }}
+      onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
+    >
+      <Portrait player={player} />
+
+      <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+        <div style={{
+          fontFamily: T.serif, fontWeight: 500, fontSize: 22,
+          lineHeight: 1.1, letterSpacing: "-0.01em", color: T.ivory,
+        }}>
+          <span style={{
+            color: T.red, fontStyle: "italic", fontWeight: 400, marginRight: 8,
+            fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+          }}>№{player.number}</span>
+          {player.name}
+        </div>
+        <div style={{
+          fontFamily: T.serif, fontStyle: "italic", fontWeight: 400,
+          fontSize: 13, color: T.ivoryDim, lineHeight: 1.5,
+        }}>
+          {posLabel} · <span style={{ color: T.ivory }}>{nat}</span> · {player.age}
+        </div>
+        {statusLabel && (
+          <div style={{
+            display: "inline-block", alignSelf: "flex-start",
+            fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase",
+            padding: "2px 0", color: statusColor,
+            borderBottom: `1px solid ${statusColor}`,
+            fontFamily: T.sans, fontWeight: 500,
+          }}>
+            {statusLabel}
+          </div>
+        )}
+        <div style={{
+          display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 12,
+          borderTop: `1px solid ${T.rule}`, paddingTop: 10, marginTop: 6,
+          fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+        }}>
+          {[
+            { l: "Apps",    v: player.appearances },
+            { l: "Goals",   v: player.goals },
+            { l: "Assists", v: player.assists },
+            { l: "Form",    v: player.form > 0 ? player.form.toFixed(1) : "—" },
+          ].map((s) => (
+            <div key={s.l}>
+              <div style={{ fontFamily: T.serif, fontWeight: 500, fontSize: 18, color: T.ivory }}>{s.v}</div>
+              <div style={{
+                fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase",
+                color: T.ivoryFaint, marginTop: 2, fontFamily: T.sans, fontWeight: 500,
+              }}>{s.l}</div>
+            </div>
+          ))}
+        </div>
+        <PlayerLast5 codes={last5} />
+      </div>
+
+      {/* Expanded editorial drilldown */}
+      <div style={{
+        gridColumn: "1 / -1",
+        maxHeight: expanded ? 800 : 0,
+        opacity: expanded ? 1 : 0,
+        overflow: "hidden",
+        transition: `max-height .55s ${T.ease}, opacity .35s ${T.ease}, margin-top .35s ${T.ease}`,
+        marginTop: expanded ? 14 : 0,
+      }}>
+        {/* Italic editorial note with red left rule */}
+        {player.injuryNote && (
+          <p style={{
+            fontFamily: T.serif, fontStyle: "italic", fontSize: 13,
+            color: T.ivoryDim, lineHeight: 1.6,
+            borderLeft: `1px solid ${T.red}`,
+            padding: "6px 0 6px 16px", marginBottom: 24,
+          }}>
+            {player.injuryNote}
+          </p>
+        )}
+
+        {/* Tab bar — text links separated by middle dots, red underline on active */}
+        <div
+          onClick={(e) => e.stopPropagation()}
+          style={{
+            display: "flex", gap: 0, marginBottom: 18,
+            borderBottom: `1px solid ${T.rule}`, alignItems: "center",
+          }}
+        >
+          {[
+            { key: "stats",    label: "Stats" },
+            { key: "physical", label: "Physical" },
+            { key: "career",   label: "Career" },
+          ].map((t, i) => (
+            <button
+              key={t.key}
+              onClick={(e) => { e.stopPropagation(); setTab(t.key); }}
+              style={{
+                background: "none", border: "none", cursor: "pointer",
+                padding: "10px 18px",
+                color: tab === t.key ? T.ivory : T.ivoryDim,
+                fontFamily: T.sans, fontSize: 11, fontWeight: 500,
+                letterSpacing: "0.22em", textTransform: "uppercase",
+                position: "relative", transition: `color .5s ${T.ease}`,
+                borderRight: i < 2 ? `1px solid ${T.rule}` : "none",
+              }}
+            >
+              {t.label}
+              {tab === t.key && (
+                <span style={{
+                  position: "absolute", left: 18, right: 18, bottom: -1,
+                  height: 1, background: T.red,
+                }} />
+              )}
+            </button>
+          ))}
+        </div>
+
+        <div onClick={(e) => e.stopPropagation()}>
+          {tab === "stats" && <StatsTable player={player} />}
+          {tab === "physical" && <PhysicalInsert physical={player.physical} />}
+          {tab === "career" && <CareerInsert career={player.career} />}
+        </div>
+      </div>
+    </article>
+  );
+}
+
+// ─── SQUAD VIEW ────────────────────────────────────────────────────────────
+
+function SquadView() {
+  const [posFilter, setPosFilter] = useState("ALL");
+  const [statusFilter, setStatusFilter] = useState("all");
+  const [search, setSearch] = useState("");
+  const [sortBy, setSortBy] = useState("form");
+  const [expandedId, setExpandedId] = useState(null);
+
+  const counts = useMemo(() => {
+    const c = { ALL: PLAYERS.length, GK: 0, DEF: 0, MID: 0, FWD: 0 };
+    PLAYERS.forEach(p => { c[p.position] = (c[p.position] || 0) + 1; });
+    return c;
+  }, []);
+
+  const filtered = useMemo(() => {
+    let list = [...PLAYERS];
+    if (posFilter !== "ALL") list = list.filter(p => p.position === posFilter);
+    if (statusFilter === "fit") list = list.filter(p => p.status === "fit");
+    if (statusFilter === "injured") list = list.filter(p => p.status !== "fit");
+    if (search) list = list.filter(p => p.name.toLowerCase().includes(search.toLowerCase()));
+    const sortMap = {
+      form:        (a, b) => b.form - a.form,
+      goals:       (a, b) => b.goals - a.goals,
+      assists:     (a, b) => b.assists - a.assists,
+      xG:          (a, b) => (b.xG ?? 0) - (a.xG ?? 0),
+      appearances: (a, b) => b.appearances - a.appearances,
+      number:      (a, b) => a.number - b.number,
+    };
+    return list.sort(sortMap[sortBy] || sortMap.form);
+  }, [posFilter, statusFilter, search, sortBy]);
+
+  const positions = [
+    { key: "ALL", label: "Whole roster" },
+    { key: "GK",  label: "Goalkeepers" },
+    { key: "DEF", label: "Defenders" },
+    { key: "MID", label: "Midfielders" },
+    { key: "FWD", label: "Forwards" },
+  ];
+
+  const half = Math.ceil(filtered.length / 2);
+  const left = filtered.slice(0, half);
+  const right = filtered.slice(half);
+
+  return (
+    <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
+      <SectionHead title="Squad" meta={<>{PLAYERS.length} players<br />2025–26 first team</>} />
+
+      {/* Position bar */}
+      <div style={{
+        display: "flex", borderTop: `1px solid ${T.ruleStrong}`,
+        borderBottom: `1px solid ${T.ruleStrong}`, marginBottom: 28,
+      }}>
+        {positions.map((p, i) => {
+          const active = posFilter === p.key;
+          return (
+            <button
+              key={p.key}
+              onClick={() => { setPosFilter(p.key); setExpandedId(null); }}
+              style={{
+                flex: 1, background: "none", border: "none", cursor: "pointer",
+                borderRight: i < positions.length - 1 ? `1px solid ${T.rule}` : "none",
+                color: active ? T.ivory : T.ivoryDim,
+                padding: 16,
+                fontSize: 11, letterSpacing: "0.22em", textTransform: "uppercase",
+                fontFamily: T.sans, fontWeight: 500,
+                transition: `color .5s ${T.ease}`,
+              }}
+            >
+              <span style={{
+                display: "block", fontFamily: T.serif, fontStyle: "italic",
+                fontWeight: 400, fontSize: 18, letterSpacing: "0.02em",
+                textTransform: "none", color: T.ivory, marginBottom: 4,
+                fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+              }}>
+                {String(counts[p.key] ?? 0).padStart(2, "0")}
+              </span>
+              {p.label}
+              {active && (
+                <span style={{
+                  display: "block", height: 1, background: T.red,
+                  width: 24, margin: "8px auto -1px",
+                }} />
+              )}
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Editorial filter row — search + status + sort */}
+      <div style={{
+        display: "flex", gap: 32, marginBottom: 40, flexWrap: "wrap",
+        alignItems: "flex-end", justifyContent: "space-between",
+      }}>
+        {/* Search — bottom border only, italic placeholder */}
+        <div style={{ flex: "0 0 280px", maxWidth: "100%" }}>
+          <SmallCaps style={{ display: "block", marginBottom: 8 }}>Search</SmallCaps>
+          <input
+            type="text"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder="search the roster…"
+            style={{
+              width: "100%", background: "transparent", border: "none",
+              borderBottom: `1px solid ${T.ruleStrong}`,
+              padding: "8px 0", color: T.ivory,
+              fontFamily: T.serif, fontSize: 18, outline: "none",
+              fontStyle: search ? "normal" : "italic",
+            }}
+            onFocus={(e) => { e.currentTarget.style.borderBottomColor = T.red; }}
+            onBlur={(e) => { e.currentTarget.style.borderBottomColor = T.ruleStrong; }}
+          />
+        </div>
+
+        {/* Status filter — three text links with thin red underline on active */}
+        <div>
+          <SmallCaps style={{ display: "block", marginBottom: 8 }}>Status</SmallCaps>
+          <div style={{ display: "flex", gap: 0 }}>
+            {[
+              { key: "all", label: "All" },
+              { key: "fit", label: "Fit" },
+              { key: "injured", label: "Out" },
+            ].map((s, i, arr) => {
+              const active = statusFilter === s.key;
+              return (
+                <button
+                  key={s.key}
+                  onClick={() => setStatusFilter(s.key)}
+                  style={{
+                    background: "none", border: "none", cursor: "pointer",
+                    padding: "6px 14px",
+                    color: active ? T.ivory : T.ivoryDim,
+                    fontFamily: T.sans, fontSize: 12, fontWeight: 500,
+                    letterSpacing: "0.18em", textTransform: "uppercase",
+                    position: "relative",
+                    borderRight: i < arr.length - 1 ? `1px solid ${T.rule}` : "none",
+                  }}
+                >
+                  {s.label}
+                  {active && (
+                    <span style={{
+                      position: "absolute", left: 14, right: 14, bottom: 2,
+                      height: 1, background: T.red,
+                    }} />
+                  )}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Sort selector — text links separated by middle dots */}
+        <div style={{ marginLeft: "auto" }}>
+          <SmallCaps style={{ display: "block", marginBottom: 8, textAlign: "right" }}>Sort by</SmallCaps>
+          <div style={{ display: "flex", alignItems: "center", flexWrap: "wrap", justifyContent: "flex-end" }}>
+            {[
+              { key: "form",        label: "Form" },
+              { key: "goals",       label: "Goals" },
+              { key: "assists",     label: "Assists" },
+              { key: "xG",          label: "xG" },
+              { key: "appearances", label: "Apps" },
+              { key: "number",      label: "№" },
+            ].map((s, i, arr) => (
+              <span key={s.key} style={{ display: "inline-flex", alignItems: "center" }}>
+                <button
+                  onClick={() => setSortBy(s.key)}
+                  style={{
+                    background: "none", border: "none", cursor: "pointer",
+                    padding: "4px 6px",
+                    color: sortBy === s.key ? T.ivory : T.ivoryDim,
+                    fontFamily: T.serif,
+                    fontStyle: sortBy === s.key ? "italic" : "normal",
+                    fontWeight: sortBy === s.key ? 500 : 400,
+                    fontSize: 15,
+                    borderBottom: sortBy === s.key ? `1px solid ${T.red}` : "1px solid transparent",
+                  }}
+                >
+                  {s.label}
+                </button>
+                {i < arr.length - 1 && (
+                  <span style={{ color: T.ivoryFaint, padding: "0 4px" }}>·</span>
+                )}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Two-column roster */}
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1px 1fr", gap: "0 40px" }} className="roster-grid">
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          {left.map((p) => (
+            <PlayerCard
+              key={p.id}
+              player={p}
+              expanded={expandedId === p.id}
+              onToggle={() => setExpandedId(expandedId === p.id ? null : p.id)}
+              last5={buildPlayerLast5(p, RESULTS)}
+            />
+          ))}
+        </div>
+        <div style={{ background: T.rule }} />
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          {right.map((p) => (
+            <PlayerCard
+              key={p.id}
+              player={p}
+              expanded={expandedId === p.id}
+              onToggle={() => setExpandedId(expandedId === p.id ? null : p.id)}
+              last5={buildPlayerLast5(p, RESULTS)}
+            />
+          ))}
+        </div>
+        {filtered.length === 0 && (
+          <div style={{
+            gridColumn: "1 / -1", padding: 40, textAlign: "center",
+            color: T.ivoryFaint, fontFamily: T.serif, fontStyle: "italic",
+          }}>
+            No players match these criteria.
+          </div>
+        )}
+      </div>
+    </section>
+  );
+}
+
+// ─── STANDINGS VIEW ────────────────────────────────────────────────────────
+
+function StandingsView() {
+  return (
+    <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
+      <SectionHead title="Standings" meta={<>Premier League<br />after Round 34</>} />
+      <table style={{
+        width: "100%", borderCollapse: "collapse",
+        fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+      }}>
+        <thead>
+          <tr>
+            {["Pos", "Club", "P", "W", "D", "L", "GD", "Pts"].map((h, i) => (
+              <th key={h} style={{
+                textAlign: i >= 2 ? "right" : "left",
+                fontSize: 10, letterSpacing: "0.2em", textTransform: "uppercase",
+                color: T.ivoryFaint, fontWeight: 500, padding: "14px 12px",
+                borderBottom: `1px solid ${T.ruleStrong}`,
+                fontFamily: T.sans,
+              }}>{h}</th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {STANDINGS.map((t, i) => {
+            const lfc = t.highlight;
+            return (
+              <tr key={t.team} style={{ background: i % 2 === 1 ? "#F4EBD005" : "transparent" }}>
+                <td style={{
+                  position: "relative", padding: "18px 12px",
+                  borderBottom: `1px solid ${T.rule}`,
+                  fontFamily: T.serif, fontStyle: "italic",
+                  color: T.ivoryDim, width: 56, fontSize: 14,
+                }}>
+                  {lfc && (
+                    <span style={{
+                      position: "absolute", left: -12, top: 0, bottom: 0,
+                      width: 3, background: T.red,
+                    }} />
+                  )}
+                  {String(t.pos).padStart(2, "0")}
+                </td>
+                <td style={{
+                  padding: "18px 12px", borderBottom: `1px solid ${T.rule}`,
+                  fontFamily: T.serif, fontWeight: 500, fontSize: 17,
+                  color: T.ivory,
+                }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: 12 }}>
+                    <TeamCrest team={t.team} size={22} />
+                    <span>{t.team}</span>
+                  </span>
+                </td>
+                {[t.p, t.w, t.d, t.l, (t.gd > 0 ? "+" + t.gd : t.gd)].map((v, j) => (
+                  <td key={j} style={{
+                    padding: "18px 12px", borderBottom: `1px solid ${T.rule}`,
+                    textAlign: "right", fontSize: 14, color: T.ivory,
+                    fontFamily: T.sans,
+                  }}>{v}</td>
+                ))}
+                <td style={{
+                  padding: "18px 12px", borderBottom: `1px solid ${T.rule}`,
+                  textAlign: "right",
+                  fontFamily: T.serif, fontWeight: 600, fontSize: 18, color: T.ivory,
+                }}>{t.pts}</td>
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
+      <div style={{
+        display: "flex", gap: 24, marginTop: 24,
+        fontSize: 13, color: T.ivoryDim,
+        fontFamily: T.serif, fontStyle: "italic",
+      }}>
+        <span><span style={{ color: T.red, marginRight: 8 }}>—</span>Top five qualify for the Champions League · Liverpool 96.92% per Opta</span>
+      </div>
+    </section>
+  );
+}
+
+// ─── DISPATCHES VIEW ───────────────────────────────────────────────────────
+
+function DispatchesView() {
+  return (
+    <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
+      <SectionHead title="Dispatches" meta={<>{DISPATCHES.length} op-eds<br />collected this week</>} />
+      <div style={{ columnCount: 2, columnGap: 56, columnRule: `1px solid ${T.rule}` }} className="dispatches-cols">
+        {DISPATCHES.map((d) => (
+          <article key={d.n} style={{
+            breakInside: "avoid", marginBottom: 48,
+            display: "inline-block", width: "100%",
+          }}>
+            <div style={{
+              fontFamily: T.serif, fontStyle: "italic", fontWeight: 500,
+              fontSize: 14, color: T.red, marginBottom: 8, letterSpacing: "0.02em",
+            }}>
+              № {d.n} — {d.category}
+            </div>
+            <h3 style={{
+              fontFamily: T.serif, fontWeight: 500, fontSize: 30,
+              lineHeight: 1.1, letterSpacing: "-0.01em",
+              marginBottom: 14, color: T.ivory,
+            }}>{d.headline}</h3>
+            <div style={{
+              fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
+              color: T.ivoryFaint, marginBottom: 16, lineHeight: 1.6,
+              fontFamily: T.sans, fontWeight: 500,
+            }}>
+              By <span style={{ color: T.ivory }}>{d.byline}</span> · {d.dateline}
+            </div>
+            <p
+              style={{
+                fontSize: 15, lineHeight: 1.7, color: T.ivoryDim, fontWeight: 400,
+                fontFamily: T.sans,
+              }}
+              className="dispatch-body"
+            >
+              {d.body}
+            </p>
+          </article>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+// ─── NEWS VIEW (re-skinned wire-service column) ────────────────────────────
 
 function parseRSSItems(xmlText, feedMeta) {
   const parser = new DOMParser();
@@ -499,7 +1469,89 @@ function parseRSSItems(xmlText, feedMeta) {
   }));
 }
 
-function LiveNewsFeed({ filter }) {
+const CATEGORY_LABEL = {
+  transfers: "Transfers",
+  injuries: "Injuries",
+  matches: "Matches",
+  tactics: "Tactics",
+  general: "General",
+};
+
+function NewsDigestLede() {
+  if (!NEWS_DIGEST) return null;
+  const ago = (() => {
+    const diff = Date.now() - new Date(NEWS_DIGEST.generatedAt).getTime();
+    const mins = Math.floor(diff / 60000);
+    if (mins < 60) return `${mins}m ago`;
+    const hrs = Math.floor(mins / 60);
+    if (hrs < 24) return `${hrs}h ago`;
+    return `${Math.floor(hrs / 24)}d ago`;
+  })();
+  return (
+    <div style={{ marginBottom: 48 }}>
+      <div style={{
+        display: "flex", justifyContent: "space-between", alignItems: "baseline",
+        gap: 16, paddingBottom: 12, marginBottom: 18,
+        borderBottom: `1px solid ${T.ruleStrong}`,
+      }}>
+        <h3 style={{
+          fontFamily: T.serif, fontStyle: "italic", fontWeight: 500,
+          fontSize: 28, color: T.ivory, lineHeight: 1.1,
+        }}>The lede<span style={{ color: T.red }}>.</span></h3>
+        <SmallCaps>Generated {ago} · Perplexity</SmallCaps>
+      </div>
+
+      {/* Italic deck paragraph in Playfair */}
+      <p style={{
+        fontFamily: T.serif, fontStyle: "italic", fontWeight: 400,
+        fontSize: 22, lineHeight: 1.5, color: T.ivory,
+        maxWidth: "62ch", marginBottom: 32,
+      }}>
+        {NEWS_DIGEST.summary}
+      </p>
+
+      {/* Categorised topics — each w/ red small-caps category kicker */}
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: 0 }}>
+        {NEWS_DIGEST.keyTopics.map((topic, i) => (
+          <div key={i} style={{
+            padding: "18px 20px 18px 0",
+            borderTop: `1px solid ${T.rule}`,
+          }}>
+            <div style={{
+              fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
+              color: T.red, marginBottom: 8, fontFamily: T.sans, fontWeight: 600,
+            }}>
+              {CATEGORY_LABEL[topic.category] || topic.category}
+            </div>
+            <div style={{
+              fontFamily: T.serif, fontWeight: 500, fontSize: 17,
+              lineHeight: 1.25, color: T.ivory, marginBottom: 8,
+              letterSpacing: "-0.01em",
+            }}>
+              {topic.title}
+            </div>
+            <div style={{
+              fontFamily: T.sans, fontSize: 13, lineHeight: 1.6, color: T.ivoryDim,
+            }}>
+              {topic.detail}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div style={{
+        marginTop: 18, paddingTop: 12,
+        borderTop: `1px solid ${T.rule}`,
+        fontSize: 11, color: T.ivoryFaint,
+        fontFamily: T.serif, fontStyle: "italic",
+      }}>
+        Sources · {NEWS_DIGEST.sources.join(" · ")}
+      </div>
+    </div>
+  );
+}
+
+function LiveNewsColumn({ filter }) {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -508,7 +1560,6 @@ function LiveNewsFeed({ filter }) {
     let cancelled = false;
     setLoading(true);
     setError(null);
-
     const isDev = window.location.hostname === "localhost";
     Promise.allSettled(
       RSS_FEEDS.map((feed) => {
@@ -535,605 +1586,274 @@ function LiveNewsFeed({ filter }) {
         .flatMap((r) => r.value)
         .filter((a) => a.title && a.pubDate)
         .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
-      if (all.length === 0) {
-        setError("Could not load any feeds. CORS proxy may be unavailable.");
-      }
+      if (all.length === 0) setError("Could not load any feeds.");
       setArticles(all);
       setLoading(false);
     });
-
     return () => { cancelled = true; };
   }, []);
 
-  const filtered = filter === "all" ? articles : articles.filter((a) => a.source === filter);
+  const filtered = filter === "all" ? articles : articles.filter(a => a.source === filter);
 
   if (loading) {
     return (
-      <div style={{ textAlign: "center", padding: 40, color: "#888" }}>
-        Loading live news feeds...
+      <div style={{
+        padding: "40px 0", textAlign: "center",
+        color: T.ivoryFaint, fontFamily: T.serif, fontStyle: "italic",
+      }}>
+        — loading the wire feed
       </div>
     );
   }
-
   if (error && articles.length === 0) {
     return (
-      <div style={{ textAlign: "center", padding: 40, color: "#ff6b6b" }}>
+      <div style={{
+        padding: "40px 0", textAlign: "center",
+        color: T.red, fontFamily: T.serif, fontStyle: "italic",
+      }}>
         {error}
       </div>
     );
   }
 
-  const isWide = (i, title) => i === 0 || title.length > 70 || i % 5 === 0;
-
   return (
     <div style={{
-      display: "grid",
-      gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
-      gap: 10,
+      borderTop: `1px solid ${T.ruleStrong}`,
     }}>
-      {filtered.slice(0, 30).map((item, i) => {
-        const wide = isWide(i, item.title);
-        return (
-          <a
-            key={i}
-            href={item.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              gridColumn: wide ? "span 2" : "span 1",
-              padding: wide ? "16px 20px" : "14px 16px",
-              borderRadius: 12,
-              background: "#1e1e3a",
-              borderTop: `3px solid ${item.color || LFC_RED}`,
-              transition: "all 0.2s",
-              cursor: "pointer",
-              textDecoration: "none",
-              boxShadow: "0 2px 8px #0003",
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.background = "#252548";
-              e.currentTarget.style.transform = "translateY(-2px)";
-              e.currentTarget.style.boxShadow = "0 6px 20px #0005";
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.background = "#1e1e3a";
-              e.currentTarget.style.transform = "translateY(0)";
-              e.currentTarget.style.boxShadow = "0 2px 8px #0003";
-            }}
-          >
+      {filtered.slice(0, 30).map((item, i) => (
+        <a
+          key={i}
+          href={item.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: "grid",
+            gridTemplateColumns: "140px 1fr 80px",
+            gap: 24, padding: "20px 0",
+            borderBottom: `1px solid ${T.rule}`,
+            textDecoration: "none", color: T.ivory,
+            transition: `background .35s ${T.ease}`,
+          }}
+          onMouseEnter={(e) => { e.currentTarget.style.background = "#F4EBD006"; }}
+          onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
+        >
+          <div>
+            <SmallCaps color={T.ivory}>{item.source}</SmallCaps>
             <div style={{
-              color: "#fff",
-              fontSize: wide ? 15 : 13,
-              fontWeight: 600,
-              lineHeight: 1.4,
+              fontFamily: T.serif, fontStyle: "italic",
+              fontSize: 12, color: T.ivoryFaint, marginTop: 4,
             }}>
-              {item.title}
+              {timeAgo(item.pubDate)}
             </div>
-            <div style={{ display: "flex", gap: 8, marginTop: 8, alignItems: "center" }}>
-              <span style={{
-                width: 6, height: 6, borderRadius: "50%",
-                background: item.color || LFC_RED, flexShrink: 0,
-              }} />
-              <span style={{ fontSize: 10, color: item.color || LFC_RED, fontWeight: 600 }}>{item.source}</span>
-              <span style={{ fontSize: 10, color: "#555" }}>{timeAgo(item.pubDate)}</span>
-            </div>
-          </a>
-        );
-      })}
+          </div>
+          <div style={{
+            fontFamily: T.serif, fontWeight: 500, fontSize: 19,
+            lineHeight: 1.3, color: T.ivory, letterSpacing: "-0.005em",
+          }}>
+            {item.title}
+          </div>
+          <div style={{
+            fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase",
+            color: T.ivoryFaint, fontFamily: T.sans, fontWeight: 500,
+            textAlign: "right", paddingTop: 4,
+          }}>
+            {item.category}
+          </div>
+        </a>
+      ))}
       {filtered.length === 0 && (
-        <div style={{ textAlign: "center", padding: 40, color: "#666", gridColumn: "1 / -1" }}>
-          No articles found for this filter.
+        <div style={{
+          padding: 40, textAlign: "center",
+          color: T.ivoryFaint, fontFamily: T.serif, fontStyle: "italic",
+        }}>
+          No items on the wire under that filter.
         </div>
       )}
     </div>
   );
 }
 
-// ─── Result Card (bento grid) ───────────────────────────────────────────────
-
-function ResultCard({ result }) {
-  const compColors = { PL: "#3d195b", UCL: "#091442", FA: "#6c0d31" };
-  const resultColor = result.result === "W" ? "#28a745" : result.result === "D" ? "#ffc107" : "#dc3545";
-  const formatDate = (dateStr) => {
-    const d = new Date(dateStr + "T12:00:00");
-    return d.toLocaleDateString("en-GB", { day: "numeric", month: "short" });
-  };
+function NewsView() {
+  const [tab, setTab] = useState("wire"); // "wire" | "oped"
+  const [feedFilter, setFeedFilter] = useState("all");
 
   return (
-    <div style={{
-      background: "#1e1e3a", borderRadius: 14, padding: "14px 16px",
-      borderLeft: `4px solid ${resultColor}`, minWidth: 260,
-      display: "flex", flexDirection: "column", gap: 8,
-      boxShadow: "0 2px 12px #0005",
-    }}>
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-        <div style={{
-          width: 30, height: 30, borderRadius: 7, background: resultColor,
-          display: "flex", alignItems: "center", justifyContent: "center",
-          color: result.result === "D" ? "#000" : "#fff", fontWeight: 800, fontSize: 13, flexShrink: 0,
-        }}>{result.result}</div>
-        <div style={{ display: "flex", gap: 6, alignItems: "center" }}>
-          <span style={{
-            fontSize: 9, fontWeight: 700, textTransform: "uppercase", color: "#fff",
-            background: (compColors[result.competition] || "#333") + "cc",
-            padding: "2px 8px", borderRadius: 6, letterSpacing: 0.5,
-          }}>{result.competition}</span>
-          <span style={{ fontSize: 10, color: "#666" }}>{formatDate(result.date)}</span>
-        </div>
+    <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
+      <SectionHead title="News" meta={<>Live wire & op-eds<br />updated continuously</>} />
+
+      {/* Tab bar — Wire / Op-eds */}
+      <div style={{
+        display: "flex", borderBottom: `1px solid ${T.rule}`, marginBottom: 32,
+      }}>
+        {[
+          { key: "wire", label: "Wire feed" },
+          { key: "oped", label: "Op-eds" },
+        ].map((t, i, arr) => {
+          const active = tab === t.key;
+          return (
+            <button
+              key={t.key}
+              onClick={() => setTab(t.key)}
+              style={{
+                background: "none", border: "none", cursor: "pointer",
+                padding: "12px 20px",
+                color: active ? T.ivory : T.ivoryDim,
+                fontFamily: T.sans, fontSize: 11, fontWeight: 500,
+                letterSpacing: "0.22em", textTransform: "uppercase",
+                position: "relative", transition: `color .5s ${T.ease}`,
+                borderRight: i < arr.length - 1 ? `1px solid ${T.rule}` : "none",
+              }}
+            >
+              {t.label}
+              {active && (
+                <span style={{
+                  position: "absolute", left: 20, right: 20, bottom: -1,
+                  height: 1, background: T.red,
+                }} />
+              )}
+            </button>
+          );
+        })}
       </div>
-      <div style={{ display: "flex", alignItems: "center", gap: 8, justifyContent: "center" }}>
-        {TEAM_LOGOS[result.home ? "Liverpool" : result.opponent] && <img src={TEAM_LOGOS[result.home ? "Liverpool" : result.opponent]} alt="" style={{ width: 22, height: 22, objectFit: "contain" }} />}
-        <span style={{ color: "#fff", fontWeight: 700, fontSize: 13 }}>{result.home ? "Liverpool" : result.opponent}</span>
-        <span style={{ color: resultColor, fontWeight: 800, fontSize: 16 }}>{result.score}</span>
-        {TEAM_LOGOS[result.home ? result.opponent : "Liverpool"] && <img src={TEAM_LOGOS[result.home ? result.opponent : "Liverpool"]} alt="" style={{ width: 22, height: 22, objectFit: "contain" }} />}
-        <span style={{ color: "#fff", fontWeight: 700, fontSize: 13 }}>{result.home ? result.opponent : "Liverpool"}</span>
-      </div>
-      {result.scorers && (
-        <div style={{ fontSize: 10, color: "#888", textAlign: "center", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{result.scorers}</div>
+
+      {tab === "wire" && (
+        <>
+          <NewsDigestLede />
+
+          {/* Source filter — text links */}
+          <div style={{ marginBottom: 24 }}>
+            <SmallCaps style={{ display: "block", marginBottom: 10 }}>Filter by source</SmallCaps>
+            <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center" }}>
+              {[{ name: "all", color: T.red }, ...RSS_FEEDS].map((f, i, arr) => {
+                const key = f.name === "all" ? "all" : f.name;
+                const label = f.name === "all" ? "All wires" : f.name;
+                const active = feedFilter === key;
+                return (
+                  <span key={key} style={{ display: "inline-flex", alignItems: "center" }}>
+                    <button
+                      onClick={() => setFeedFilter(key)}
+                      style={{
+                        background: "none", border: "none", cursor: "pointer",
+                        padding: "4px 6px",
+                        color: active ? T.ivory : T.ivoryDim,
+                        fontFamily: T.serif,
+                        fontStyle: active ? "italic" : "normal",
+                        fontWeight: active ? 500 : 400,
+                        fontSize: 15,
+                        borderBottom: active ? `1px solid ${T.red}` : "1px solid transparent",
+                      }}
+                    >
+                      {label}
+                    </button>
+                    {i < arr.length - 1 && (
+                      <span style={{ color: T.ivoryFaint, padding: "0 6px" }}>·</span>
+                    )}
+                  </span>
+                );
+              })}
+            </div>
+          </div>
+
+          <LiveNewsColumn filter={feedFilter} />
+        </>
       )}
-    </div>
+
+      {tab === "oped" && <DispatchesView />}
+    </section>
   );
 }
 
-// ─── Next Match Banner ──────────────────────────────────────────────────────
+// ─── Footer ────────────────────────────────────────────────────────────────
 
-function NextMatchBanner({ match, results }) {
-  const compColors = { PL: "#3d195b", UCL: "#091442", FA: "#6c0d31" };
-  const compLabels = { PL: "Premier League", UCL: "Champions League", FA: "FA Cup" };
-  const d = new Date(match.date);
-  const day = d.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" });
-  const time = d.toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
-  const now = new Date();
-  const diff = d - now;
-  let countdown = "";
-  if (diff > 0) {
-    const days = Math.floor(diff / 86400000);
-    const hours = Math.floor((diff % 86400000) / 3600000);
-    countdown = days > 0 ? `${days}d ${hours}h` : `${hours}h`;
-  } else { countdown = "NOW"; }
-
+function Footer() {
   return (
-    <div style={{
-      background: `linear-gradient(135deg, ${LFC_RED}dd, #8B0000ee)`,
-      borderRadius: 16, padding: 20, marginBottom: 16,
-      border: "1px solid #ffffff15", boxShadow: `0 4px 24px ${LFC_RED}33`,
+    <footer style={{
+      borderTop: `1px solid ${T.ruleStrong}`, padding: "48px 0", marginTop: 32,
+      display: "flex", justifyContent: "space-between", alignItems: "flex-end",
+      gap: 24, flexWrap: "wrap",
     }}>
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 }}>
-        <div style={{ fontSize: 11, color: "#ffffffaa", fontWeight: 700, textTransform: "uppercase", letterSpacing: 2 }}>Next Match</div>
-        <div style={{
-          fontSize: 10, fontWeight: 700, textTransform: "uppercase",
-          color: "#fff", background: (compColors[match.competition] || "#333"),
-          padding: "3px 10px", borderRadius: 6, letterSpacing: 0.5,
-        }}>{compLabels[match.competition] || match.competition}</div>
+      <div style={{
+        fontFamily: T.serif, fontStyle: "italic", fontWeight: 400,
+        fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
+        letterSpacing: "-0.01em",
+      }}>
+        "There are no ordinary afternoons in May."
       </div>
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 20, marginBottom: 14 }}>
-        <div style={{ textAlign: "center", flex: 1 }}>
-          <div style={{
-            width: 60, height: 60, borderRadius: "50%", background: "#fff",
-            display: "flex", alignItems: "center", justifyContent: "center",
-            margin: "0 auto 6px", boxShadow: "0 2px 12px #0003", overflow: "hidden",
-          }}>
-            <img src={TEAM_LOGOS["Liverpool"]} alt="Liverpool" style={{ width: 44, height: 44, objectFit: "contain" }} />
-          </div>
-          <div style={{ color: "#fff", fontWeight: 700, fontSize: 14 }}>Liverpool</div>
-          {match.home && <div style={{ fontSize: 9, color: "#ffffffaa" }}>HOME</div>}
-        </div>
-        <div style={{ textAlign: "center" }}>
-          <div style={{ color: LFC_GOLD, fontWeight: 800, fontSize: 22, lineHeight: 1 }}>VS</div>
-          <div style={{ marginTop: 6, background: "#00000044", borderRadius: 8, padding: "4px 12px", color: LFC_GOLD, fontWeight: 700, fontSize: 13 }}>{countdown}</div>
-        </div>
-        <div style={{ textAlign: "center", flex: 1 }}>
-          <div style={{
-            width: 60, height: 60, borderRadius: "50%", background: "#ffffff15",
-            display: "flex", alignItems: "center", justifyContent: "center",
-            margin: "0 auto 6px", border: "2px solid #ffffff33", overflow: "hidden",
-          }}>
-            <img src={TEAM_LOGOS[match.shortName] || TEAM_LOGOS[match.opponent]} alt={match.shortName} style={{ width: 44, height: 44, objectFit: "contain" }} onError={(e) => { e.target.style.display = "none"; e.target.parentElement.textContent = match.shortName.slice(0, 3).toUpperCase(); }} />
-          </div>
-          <div style={{ color: "#fff", fontWeight: 700, fontSize: 14 }}>{match.shortName}</div>
-          {!match.home && <div style={{ fontSize: 9, color: "#ffffffaa" }}>AWAY</div>}
+      <div style={{
+        fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
+        color: T.ivoryFaint, textAlign: "right", lineHeight: 1.8,
+        fontFamily: T.sans, fontWeight: 500,
+        display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 12,
+      }}>
+        <TeamCrest team="Liverpool" size={36} style={{ opacity: 0.85 }} />
+        <div>
+          The Anfield Edition · Vol. XXXIV<br />
+          Matchday Programme · {new Date().toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" })}<br />
+          Set in Playfair Display &amp; Inter
         </div>
       </div>
-      <div style={{ display: "flex", justifyContent: "center", gap: 20, flexWrap: "wrap", fontSize: 11, color: "#ffffffbb" }}>
-        <span>{day}</span>
-        <span style={{ color: LFC_GOLD, fontWeight: 700 }}>{time}</span>
-        <span>{match.venue}</span>
-        {match.broadcast && <span style={{ color: "#ffffffaa" }}>{match.broadcast}</span>}
-      </div>
-      {results && results.length > 0 && (() => {
-        const recent = results.slice(0, 5);
-        const formColors = { W: "#28a745", D: "#ffc107", L: "#dc3545" };
-        const wins = recent.filter(r => r.result === "W").length;
-        const draws = recent.filter(r => r.result === "D").length;
-        const losses = recent.filter(r => r.result === "L").length;
-        return (
-          <div style={{ borderTop: "1px solid #ffffff22", marginTop: 14, paddingTop: 12, display: "flex", alignItems: "center", justifyContent: "center", gap: 14, flexWrap: "wrap" }}>
-            <span style={{ fontSize: 10, color: "#ffffffaa", fontWeight: 700, textTransform: "uppercase", letterSpacing: 1 }}>Form</span>
-            <div style={{ display: "flex", gap: 4 }}>
-              {recent.map((r, i) => (
-                <div key={i} style={{
-                  width: 26, height: 26, borderRadius: 6,
-                  background: formColors[r.result], display: "flex",
-                  alignItems: "center", justifyContent: "center",
-                  color: r.result === "D" ? "#000" : "#fff",
-                  fontWeight: 800, fontSize: 11,
-                }}>
-                  {r.result}
-                </div>
-              ))}
-            </div>
-            <div style={{ display: "flex", gap: 10, fontSize: 11, color: "#ffffffbb" }}>
-              <span><span style={{ color: "#28a745", fontWeight: 700 }}>{wins}</span>W</span>
-              <span><span style={{ color: "#ffc107", fontWeight: 700 }}>{draws}</span>D</span>
-              <span><span style={{ color: "#dc3545", fontWeight: 700 }}>{losses}</span>L</span>
-            </div>
-          </div>
-        );
-      })()}
-    </div>
+    </footer>
   );
 }
 
-// ─── RSS Feed Sources Panel ─────────────────────────────────────────────────
-
-function RSSSourcesPanel() {
-  return (
-    <div style={{ background: "#1e1e3a", borderRadius: 12, padding: 16, marginBottom: 16 }}>
-      <div style={{ fontSize: 12, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 12 }}>
-        RSS Feed Sources
-      </div>
-      <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
-        {RSS_FEEDS.map((feed) => (
-          <a
-            key={feed.name}
-            href={feed.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              fontSize: 11, color: "#fff", background: feed.color + "33",
-              border: `1px solid ${feed.color}66`, borderRadius: 8,
-              padding: "6px 12px", textDecoration: "none", fontWeight: 600,
-              transition: "all 0.2s",
-            }}
-            onMouseEnter={(e) => { e.currentTarget.style.background = feed.color + "55"; }}
-            onMouseLeave={(e) => { e.currentTarget.style.background = feed.color + "33"; }}
-          >
-            {feed.name}
-            <span style={{ color: "#888", marginLeft: 6, fontSize: 9, textTransform: "uppercase" }}>{feed.category}</span>
-          </a>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-// ─── Main App ───────────────────────────────────────────────────────────────
+// ─── Main App ──────────────────────────────────────────────────────────────
 
 export default function LiverpoolTracker() {
-  const [posFilter, setPosFilter] = useState("ALL");
-  const [sortBy, setSortBy] = useState("form");
-  const [expandedId, setExpandedId] = useState(null);
-  const [newsFilter, setNewsFilter] = useState("all");
-  const [view, setView] = useState("dashboard"); // "dashboard" | "lineup" | "news"
-  const [search, setSearch] = useState("");
-  const [statusFilter, setStatusFilter] = useState("all"); // "all" | "fit" | "injured"
-  const [compFilter, setCompFilter] = useState("All"); // "All" | "PL" | "UCL" | "FA"
+  const [view, setView] = useState("cover");
+  const wrapRef = useRef(null);
 
-  const filteredResults = useMemo(() => {
-    if (compFilter === "All") return RESULTS;
-    return RESULTS.filter(r => r.competition === compFilter);
-  }, [compFilter]);
-
-  const filtered = useMemo(() => {
-    let list = [...PLAYERS];
-    if (posFilter !== "ALL") list = list.filter((p) => p.position === posFilter);
-    if (statusFilter === "fit") list = list.filter((p) => p.status === "fit");
-    if (statusFilter === "injured") list = list.filter((p) => p.status !== "fit");
-    if (search) list = list.filter((p) => p.name.toLowerCase().includes(search.toLowerCase()));
-    const sortMap = {
-      form: (a, b) => b.form - a.form,
-      goals: (a, b) => b.goals - a.goals,
-      assists: (a, b) => b.assists - a.assists,
-      appearances: (a, b) => b.appearances - a.appearances,
-      xG: (a, b) => b.xG - a.xG,
-      number: (a, b) => a.number - b.number,
-    };
-    return list.sort(sortMap[sortBy] || sortMap.form);
-  }, [posFilter, sortBy, search, statusFilter]);
-
-  const positionCounts = useMemo(() => {
-    const counts = { ALL: PLAYERS.length };
-    PLAYERS.forEach((p) => { counts[p.position] = (counts[p.position] || 0) + 1; });
-    return counts;
-  }, []);
-
+  function handleNav(next) {
+    if (next === view) return;
+    setView(next);
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
 
   return (
-    <div style={{ minHeight: "100vh", background: LFC_DARK, color: "#fff", fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif" }}>
-      {/* Header */}
-      <div style={{
-        background: `linear-gradient(135deg, ${LFC_RED} 0%, #8B0000 100%)`,
-        padding: "24px 24px 20px", boxShadow: "0 4px 24px #0008"
-      }}>
-        <div style={{ maxWidth: 1400, margin: "0 auto" }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 12 }}>
-            <div style={{
-              width: 48, height: 48, borderRadius: "50%", background: "#fff",
-              display: "flex", alignItems: "center", justifyContent: "center",
-              fontSize: 22, fontWeight: 900, color: LFC_RED, boxShadow: "0 2px 12px #0003"
-            }}>
-              LFC
-            </div>
-            <div>
-              <h1 style={{ margin: 0, fontSize: 22, fontWeight: 800, letterSpacing: -0.5 }}>Liverpool FC Tracker</h1>
-              <p style={{ margin: 0, fontSize: 12, opacity: 0.8 }}>2025-26 Season — Squad, Stats & News</p>
-            </div>
-          </div>
+    <div ref={wrapRef} style={{
+      minHeight: "100vh", background: T.ink, color: T.ivory,
+      fontFamily: T.sans, fontWeight: 400,
+    }}>
+      {/* Inline responsive shims — collapse two-col on narrow screens */}
+      <style>{`
+        @media (max-width: 1024px) {
+          .matchday-grid { grid-template-columns: 1fr !important; }
+          .roster-grid { grid-template-columns: 1fr !important; }
+          .roster-grid > div:nth-child(2) { display: none !important; }
+          .dispatches-cols { column-count: 1 !important; }
+        }
+        @media (max-width: 720px) {
+          .anfield-page { padding: 0 24px !important; }
+        }
+        .dispatch-body::first-letter {
+          font-family: 'Playfair Display', Georgia, serif;
+          font-weight: 600; font-size: 64px; line-height: 0.85; float: left;
+          padding: 8px 10px 0 0; color: ${T.red};
+        }
+      `}</style>
 
-          {/* View Toggle */}
-          <div style={{ display: "flex", gap: 4, background: "#ffffff15", borderRadius: 10, padding: 3, width: "fit-content" }}>
-            {[
-              { key: "dashboard", label: "Dashboard" },
-              { key: "lineup", label: "Lineup" },
-              { key: "news", label: "News Feed" },
-            ].map((v) => (
-              <button
-                key={v.key}
-                onClick={() => setView(v.key)}
-                style={{
-                  padding: "8px 20px", borderRadius: 8, border: "none", cursor: "pointer",
-                  fontWeight: 700, fontSize: 13, textTransform: "uppercase", letterSpacing: 1,
-                  background: view === v.key ? "#fff" : "transparent",
-                  color: view === v.key ? LFC_RED : "#fffc",
-                  transition: "all 0.2s",
-                }}
-              >
-                {v.label}
-              </button>
-            ))}
-          </div>
-        </div>
-      </div>
+      <Masthead view={view} onChange={handleNav} />
 
-      <div style={{ maxWidth: 1400, margin: "0 auto", padding: "20px 16px 40px" }}>
-
-        {/* ─── DASHBOARD VIEW ─── */}
-        {view === "dashboard" && (
-          <>
-            {/* Score Card — Next Match */}
-            <NextMatchBanner match={NEXT_MATCH} results={RESULTS} />
-
-            {/* Merged Stats Row — 10 tiles */}
-            <div style={{
-              display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(100px, 1fr))",
-              gap: 10, marginBottom: 20,
-            }}>
-              {[
-                { label: "Played", value: filteredResults.length, color: "#fff" },
-                { label: "Won", value: filteredResults.filter(r => r.result === "W").length, color: "#28a745" },
-                { label: "Drawn", value: filteredResults.filter(r => r.result === "D").length, color: "#ffc107" },
-                { label: "Lost", value: filteredResults.filter(r => r.result === "L").length, color: "#dc3545" },
-                { label: "Goals For", value: filteredResults.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? h : a); }, 0), color: LFC_GOLD },
-                { label: "Goals Against", value: filteredResults.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? a : h); }, 0), color: "#ff6b6b" },
-                { label: "Goals", value: _.sumBy(PLAYERS, "goals"), color: LFC_GOLD },
-                { label: "Assists", value: _.sumBy(PLAYERS, "assists"), color: "#3498db" },
-                { label: "Avg Form", value: _.meanBy(PLAYERS, "form").toFixed(1), color: "#2ecc71" },
-                { label: "Injured", value: PLAYERS.filter(p => p.status !== "fit").length, color: "#dc3545" },
-              ].map((s) => (
-                <div key={s.label} style={{ background: "#1e1e3a", borderRadius: 12, padding: "12px 10px", textAlign: "center" }}>
-                  <div style={{ color: s.color, fontWeight: 800, fontSize: 18 }}>{s.value}</div>
-                  <div style={{ color: "#777", fontSize: 9, textTransform: "uppercase", letterSpacing: 1, marginTop: 2 }}>{s.label}</div>
-                </div>
-              ))}
-            </div>
-
-            {/* Results Strip — horizontal scroll */}
-            <div style={{ marginBottom: 20 }}>
-              <div style={{ fontSize: 11, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 8 }}>
-                {compFilter === "All" ? "Recent Results" : `${compFilter} Results`}
-              </div>
-              <div style={{
-                display: "flex", gap: 10, overflowX: "auto", paddingBottom: 8,
-                scrollbarWidth: "thin", scrollbarColor: "#333 transparent",
-              }}>
-                {filteredResults.map((r, i) => (
-                  <div key={i} style={{ flex: "0 0 auto" }}>
-                    <ResultCard result={r} />
-                  </div>
-                ))}
-                {filteredResults.length === 0 && (
-                  <div style={{ padding: "20px 40px", color: "#666", fontSize: 12 }}>No results for this filter.</div>
-                )}
-              </div>
-            </div>
-
-            {/* Unified Filter Bar */}
-            <div style={{
-              display: "flex", flexWrap: "wrap", gap: 12, background: "#1e1e3a",
-              borderRadius: 14, padding: "12px 16px", marginBottom: 16, alignItems: "center",
-            }}>
-              <input
-                type="text"
-                placeholder="Search players..."
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-                style={{
-                  width: 200, padding: "8px 12px", borderRadius: 8,
-                  background: "#252548", border: "1px solid #333", color: "#fff",
-                  fontSize: 12, outline: "none", boxSizing: "border-box",
-                }}
-              />
-              <div style={{ display: "flex", gap: 4, alignItems: "center" }}>
-                {["ALL", "GK", "DEF", "MID", "FWD"].map((pos) => (
-                  <button
-                    key={pos}
-                    onClick={() => setPosFilter(pos)}
-                    style={{
-                      padding: "5px 10px", borderRadius: 6, border: "none", cursor: "pointer",
-                      fontWeight: 700, fontSize: 10,
-                      background: posFilter === pos ? LFC_RED : "#252548",
-                      color: posFilter === pos ? "#fff" : "#999",
-                      transition: "all 0.2s",
-                    }}
-                  >
-                    {pos}
-                  </button>
-                ))}
-              </div>
-              <div style={{ display: "flex", gap: 4, alignItems: "center" }}>
-                {[
-                  { key: "All", label: "All", bg: "#ffffff22" },
-                  { key: "PL", label: "PL", bg: "#3d195b" },
-                  { key: "UCL", label: "UCL", bg: "#091442" },
-                  { key: "FA", label: "FA", bg: "#6c0d31" },
-                ].map((tab) => (
-                  <button key={tab.key} onClick={() => setCompFilter(tab.key)} style={{
-                    padding: "5px 12px", borderRadius: 14, border: "none", cursor: "pointer",
-                    fontSize: 10, fontWeight: 700, textTransform: "uppercase", letterSpacing: 0.5,
-                    color: compFilter === tab.key ? "#fff" : "#888",
-                    background: compFilter === tab.key ? tab.bg : "#252548",
-                    transition: "all 0.2s",
-                  }}>
-                    {tab.label}
-                  </button>
-                ))}
-              </div>
-              <div style={{ display: "flex", gap: 4, alignItems: "center" }}>
-                {[
-                  { key: "all", label: "All" },
-                  { key: "fit", label: "Fit" },
-                  { key: "injured", label: "Out" },
-                ].map((f) => (
-                  <button
-                    key={f.key}
-                    onClick={() => setStatusFilter(f.key)}
-                    style={{
-                      padding: "5px 10px", borderRadius: 6, border: "none", cursor: "pointer",
-                      fontWeight: 700, fontSize: 10,
-                      background: statusFilter === f.key ? (f.key === "injured" ? "#dc3545" : f.key === "fit" ? "#28a745" : "#252548") : "#252548",
-                      color: statusFilter === f.key ? "#fff" : "#999",
-                      transition: "all 0.2s",
-                    }}
-                  >
-                    {f.label}
-                  </button>
-                ))}
-              </div>
-              <div style={{ display: "flex", gap: 4, alignItems: "center", marginLeft: "auto" }}>
-                <span style={{ fontSize: 9, color: "#666", textTransform: "uppercase", letterSpacing: 1 }}>Sort:</span>
-                {[
-                  { key: "form", label: "Form" },
-                  { key: "goals", label: "Goals" },
-                  { key: "assists", label: "Assists" },
-                  { key: "xG", label: "xG" },
-                  { key: "appearances", label: "Apps" },
-                  { key: "number", label: "#" },
-                ].map((s) => (
-                  <button
-                    key={s.key}
-                    onClick={() => setSortBy(s.key)}
-                    style={{
-                      padding: "5px 10px", borderRadius: 6, border: "none", cursor: "pointer",
-                      fontWeight: 700, fontSize: 10,
-                      background: sortBy === s.key ? LFC_GOLD : "#252548",
-                      color: sortBy === s.key ? "#000" : "#999",
-                      transition: "all 0.2s",
-                    }}
-                  >
-                    {s.label}
-                  </button>
-                ))}
-              </div>
-            </div>
-
-            {/* Squad Section Header */}
-            <div style={{ fontSize: 11, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 8 }}>
-              Squad
-            </div>
-
-            {/* Player Cards — Bento Grid */}
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))", gap: 10 }}>
-              {filtered.map((player) => (
-                <div key={player.id} style={{ gridColumn: expandedId === player.id ? "span 2" : "span 1" }}>
-                  <PlayerCard
-                    player={player}
-                    expanded={expandedId === player.id}
-                    onToggle={() => setExpandedId(expandedId === player.id ? null : player.id)}
-                  />
-                </div>
-              ))}
-              {filtered.length === 0 && (
-                <div style={{ textAlign: "center", padding: 40, color: "#666", gridColumn: "1 / -1" }}>
-                  No players found matching your criteria.
-                </div>
-              )}
-            </div>
-          </>
+      <main className="anfield-page" style={{ maxWidth: 1280, margin: "0 auto", padding: "0 56px" }}>
+        {view === "cover"      && <CoverView onJump={handleNav} />}
+        {view === "matchday"   && <MatchdayView />}
+        {view === "squad"      && <SquadView />}
+        {view === "lineup"     && (
+          <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
+            <SectionHead
+              title="Lineup"
+              meta={<>Predicted XI<br />Manchester United · 3 May</>}
+            />
+            <LineupView players={PLAYERS} nextMatch={NEXT_MATCH} />
+          </section>
         )}
+        {view === "standings"  && <StandingsView />}
+        {view === "dispatches" && <DispatchesView />}
+        {view === "news"       && <NewsView />}
 
-        {/* ─── LINEUP VIEW ─── */}
-        {view === "lineup" && (
-          <LineupView players={PLAYERS} nextMatch={NEXT_MATCH} />
-        )}
-
-        {/* ─── NEWS VIEW ─── */}
-        {view === "news" && (
-          <>
-            <RSSSourcesPanel />
-            <NewsDigestSection />
-
-            {/* News Filter */}
-            <div style={{ display: "flex", gap: 8, marginBottom: 16, flexWrap: "wrap", alignItems: "center" }}>
-              <span style={{ fontSize: 11, color: "#888", fontWeight: 600, textTransform: "uppercase", letterSpacing: 1 }}>Filter:</span>
-              {[
-                { key: "all", label: "All News", color: LFC_RED },
-                ...RSS_FEEDS.map((f) => ({ key: f.name, label: f.name, color: f.color })),
-              ].map((f) => (
-                <button
-                  key={f.key}
-                  onClick={() => setNewsFilter(f.key)}
-                  style={{
-                    padding: "6px 14px", borderRadius: 8, border: "none", cursor: "pointer",
-                    fontWeight: 700, fontSize: 11,
-                    background: newsFilter === f.key ? f.color : "#1e1e3a",
-                    color: newsFilter === f.key ? "#fff" : "#999",
-                    transition: "all 0.2s",
-                  }}
-                >
-                  {f.label}
-                </button>
-              ))}
-            </div>
-
-            <LiveNewsFeed filter={newsFilter} />
-
-            {/* RSS How-To */}
-            <div style={{
-              marginTop: 20, background: "#1e1e3a", borderRadius: 12, padding: 20,
-              border: `1px solid ${LFC_RED}22`
-            }}>
-              <div style={{ fontSize: 12, color: LFC_GOLD, fontWeight: 700, textTransform: "uppercase", letterSpacing: 1.5, marginBottom: 8 }}>
-                Subscribe to Live RSS Feeds
-              </div>
-              <p style={{ fontSize: 13, color: "#aaa", lineHeight: 1.6, margin: 0 }}>
-                Click any source above to access its RSS feed URL. Add these to your favorite RSS reader
-                (Feedly, Inoreader, NetNewsWire, etc.) for real-time Liverpool news updates.
-                The feeds include official club news, match reports from major outlets, and fan analysis.
-              </p>
-            </div>
-          </>
-        )}
-
-        {/* Footer */}
-        <div style={{
-          marginTop: 32, textAlign: "center", padding: "16px 0",
-          borderTop: "1px solid #ffffff08", color: "#444", fontSize: 11
-        }}>
-          Liverpool FC Player Tracker — 2025-26 Season — Data via Premier League, FBref & FootyStats
-          <br />
-          <span style={{ color: "#333" }}>You'll Never Walk Alone</span>
-        </div>
-      </div>
+        <Footer />
+      </main>
     </div>
   );
 }

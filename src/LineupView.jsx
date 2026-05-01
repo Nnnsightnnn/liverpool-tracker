@@ -1,69 +1,25 @@
 import { useState, useMemo, useEffect } from "react";
-import { FORMATIONS, PLAYER_EVIDENCE, DEFAULT_FORMATION, PREDICTION_NOTE, SLOT_CONFIDENCE, SLOT_RATIONALE, ALTERNATIVES } from "./lineupData.js";
+import {
+  FORMATIONS, PLAYER_EVIDENCE, DEFAULT_FORMATION,
+  PREDICTION_NOTE, SLOT_CONFIDENCE, SLOT_RATIONALE, ALTERNATIVES,
+} from "./lineupData.js";
+import { T } from "./App.jsx";
 
-const LFC_RED = "#C8102E";
-const LFC_DARK = "#1a1a2e";
-const LFC_GOLD = "#F6EB61";
-const POS_COLORS = { GK: "#f1c40f", DEF: "#3498db", MID: "#2ecc71", FWD: "#e74c3c" };
-
-// ─── Tiny self-contained avatar (avoids circular import with App.jsx) ────────
-function Avatar({ player, size, ring = LFC_RED, showStatus = false }) {
-  const [imgFailed, setImgFailed] = useState(false);
-  const initials = player.name.split(" ").map(w => w[0]).join("").slice(0, 2);
-  const accent = POS_COLORS[player.position] || "#888";
-  const statusColor = player.status === "injured" ? "#dc3545"
-    : player.status === "recovering" ? "#fd7e14"
-    : player.status === "doubtful" ? "#ffc107"
-    : null;
-  const statusIcon = player.status === "injured" ? "+"
-    : player.status === "recovering" ? "~"
-    : player.status === "doubtful" ? "?" : null;
+// ─── Confidence indicator ──────────────────────────────────────────────────
+// Hollow circle (Low) / half-tinted (Medium) / filled (High) — all in ivory.
+function ConfidenceMark({ level, size = 8 }) {
+  const fill = level === "High" ? T.ivory : level === "Medium" ? T.gold : "transparent";
   return (
-    <div style={{ position: "relative", width: size, height: size, flexShrink: 0 }}>
-      <div style={{
-        width: size, height: size, borderRadius: "50%", overflow: "hidden",
-        border: `${Math.max(2, size * 0.05)}px solid ${ring}`,
-        background: "#2a2a4a", display: "flex", alignItems: "center", justifyContent: "center",
-      }}>
-        {!imgFailed ? (
-          <img
-            src={player.image}
-            alt={player.name}
-            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top" }}
-            onError={() => setImgFailed(true)}
-          />
-        ) : (
-          <div style={{
-            width: "100%", height: "100%",
-            background: `linear-gradient(135deg, ${accent}55, ${LFC_RED}88)`,
-            display: "flex", flexDirection: "column",
-            alignItems: "center", justifyContent: "center", gap: 1,
-          }}>
-            <span style={{ color: "#fff", fontWeight: 800, fontSize: size * 0.3, lineHeight: 1 }}>{initials}</span>
-            <span style={{ color: "#ffffffaa", fontWeight: 700, fontSize: size * 0.16 }}>#{player.number}</span>
-          </div>
-        )}
-      </div>
-      {showStatus && statusIcon && (
-        <div style={{
-          position: "absolute", bottom: -1, right: -1,
-          width: size * 0.36, height: size * 0.36, borderRadius: "50%",
-          background: statusColor, display: "flex",
-          alignItems: "center", justifyContent: "center",
-          fontSize: size * 0.22, fontWeight: 900, color: "#fff",
-          border: "2px solid #1e1e3a", lineHeight: 1,
-        }}>
-          {statusIcon}
-        </div>
-      )}
-    </div>
+    <span style={{
+      display: "inline-block", width: size, height: size, borderRadius: "50%",
+      border: `1px solid ${T.ivory}`, background: fill, flexShrink: 0,
+    }} />
   );
 }
 
-// ─── Pitch markings (SVG) ───────────────────────────────────────────────────
-// viewBox 100x150, attack up. Lines at low opacity, soft white.
+// ─── Pitch markings — single hairline weight, cream/ivory on dark surface ──
 function PitchLines() {
-  const stroke = "rgba(255,255,255,0.22)";
+  const stroke = T.ivoryFaint;
   const sw = 0.35;
   return (
     <svg
@@ -72,23 +28,19 @@ function PitchLines() {
       style={{ position: "absolute", inset: 0, width: "100%", height: "100%", pointerEvents: "none" }}
     >
       <g fill="none" stroke={stroke} strokeWidth={sw}>
-        {/* Outer touchlines */}
         <rect x="1" y="1" width="98" height="148" />
-        {/* Halfway line */}
         <line x1="1" y1="75" x2="99" y2="75" />
-        {/* Center circle + spot */}
         <circle cx="50" cy="75" r="9.5" />
-        <circle cx="50" cy="75" r="0.7" fill={stroke} />
-        {/* Top penalty area (attacking goal) */}
+        <circle cx="50" cy="75" r="0.4" fill={stroke} />
+        {/* Top penalty area */}
         <rect x="22" y="1" width="56" height="20" />
         <rect x="37" y="1" width="26" height="8" />
-        <circle cx="50" cy="13" r="0.7" fill={stroke} />
-        {/* Top penalty arc (D) */}
+        <circle cx="50" cy="13" r="0.4" fill={stroke} />
         <path d="M 41 21 A 9.5 9.5 0 0 0 59 21" />
         {/* Bottom penalty area */}
         <rect x="22" y="129" width="56" height="20" />
         <rect x="37" y="141" width="26" height="8" />
-        <circle cx="50" cy="137" r="0.7" fill={stroke} />
+        <circle cx="50" cy="137" r="0.4" fill={stroke} />
         <path d="M 41 129 A 9.5 9.5 0 0 1 59 129" />
         {/* Corner arcs */}
         <path d="M 1 3 A 2 2 0 0 0 3 1" />
@@ -100,22 +52,20 @@ function PitchLines() {
   );
 }
 
-// ─── Confidence dot color ───────────────────────────────────────────────────
-const CONF_COLORS = { High: "#28a745", Medium: "#ffc107", Low: "#dc3545" };
-
-// ─── Player token on the pitch ──────────────────────────────────────────────
-function PitchPlayerToken({ slotKey, slot, player, onClick, isSwapMode, isCandidateMatch, isHovered, onHover, playersById }) {
+// ─── Player token — small numbered serif circle ────────────────────────────
+function PitchPlayerToken({
+  slotKey, slot, player, onClick, isSwapMode, isCandidateMatch,
+  isHovered, onHover, playersById,
+}) {
   const lastName = player.name.split(" ").slice(-1)[0];
-  const slotConf = SLOT_CONFIDENCE[slotKey];
-  const confColor = CONF_COLORS[slotConf] || CONF_COLORS.Medium;
+  const slotConf = SLOT_CONFIDENCE[slotKey] || "Medium";
   const rationale = SLOT_RATIONALE[slotKey];
   const alts = ALTERNATIVES[slotKey] || [];
-  const halo = isHovered
-    ? `0 0 0 3px ${LFC_RED}, 0 0 36px 8px ${LFC_RED}cc, 0 0 80px 16px ${LFC_RED}66, 0 18px 48px ${LFC_RED}44`
-    : `0 0 0 2px ${LFC_RED}cc, 0 0 22px 4px ${LFC_RED}88, 0 0 50px 8px ${LFC_RED}33, 0 12px 32px #0008`;
-  const swapPulse = isSwapMode
-    ? { animation: "lineupPulse 1.4s ease-in-out infinite", outline: `2px dashed ${LFC_GOLD}`, outlineOffset: 4 }
-    : {};
+
+  const ringColor = isCandidateMatch
+    ? T.gold
+    : isHovered ? T.red : T.ivory;
+
   return (
     <div
       onClick={(e) => { e.stopPropagation(); onClick(); }}
@@ -125,84 +75,79 @@ function PitchPlayerToken({ slotKey, slot, player, onClick, isSwapMode, isCandid
         position: "absolute",
         left: `${slot.x}%`,
         top: `${slot.y}%`,
-        transform: `translate(-50%, -50%) ${isHovered ? "scale(1.06)" : "scale(1)"}`,
-        transition: "left 0.45s cubic-bezier(0.4, 0, 0.2, 1), top 0.45s cubic-bezier(0.4, 0, 0.2, 1), transform 0.18s ease",
+        transform: `translate(-50%, -50%)`,
         cursor: "pointer",
         zIndex: isHovered ? 30 : 10,
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        gap: 4,
+        display: "flex", flexDirection: "column", alignItems: "center", gap: 6,
+        transition: `left .55s ${T.ease}, top .55s ${T.ease}`,
       }}
     >
-      {/* Confidence dot — always visible */}
+      {/* Numbered serif circle */}
       <div style={{
-        width: 8, height: 8, borderRadius: "50%",
-        background: confColor,
-        boxShadow: `0 0 6px ${confColor}88`,
-        marginBottom: -2,
-      }} />
-
-      {/* Halo + avatar wrapped together so the glow tracks the avatar */}
-      <div style={{ borderRadius: "50%", boxShadow: halo, transition: "box-shadow 0.25s ease", ...swapPulse }}>
-        <Avatar player={player} size={54} ring="#fff" />
-      </div>
-
-      {/* Name pill */}
-      <div style={{
-        background: "rgba(10, 10, 30, 0.88)",
-        border: `1px solid ${LFC_RED}55`,
-        borderRadius: 8,
-        padding: "3px 8px",
-        fontSize: 11,
-        fontWeight: 700,
-        color: "#fff",
-        whiteSpace: "nowrap",
-        display: "flex",
-        alignItems: "center",
-        gap: 5,
-        backdropFilter: "blur(6px)",
-        WebkitBackdropFilter: "blur(6px)",
-        boxShadow: "0 4px 14px #0009",
+        width: 44, height: 44, borderRadius: "50%",
+        border: `1px solid ${ringColor}`,
+        background: T.ink,
+        display: "flex", alignItems: "center", justifyContent: "center",
+        fontFamily: T.serif, fontWeight: 500, fontSize: 18, color: T.ivory,
+        letterSpacing: "-0.02em",
+        fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+        transition: `border-color .35s ${T.ease}, transform .25s ${T.ease}`,
+        transform: isHovered ? "scale(1.04)" : "scale(1)",
+        outline: isSwapMode ? `1px dashed ${T.gold}` : "none",
+        outlineOffset: 4,
       }}>
-        <span style={{ color: LFC_GOLD }}>#{player.number}</span>
-        <span>{lastName}</span>
+        {player.number}
       </div>
 
-      {/* Evidence + rationale chip — appears on hover */}
+      {/* Name caption */}
       <div style={{
-        background: "linear-gradient(135deg, #1e1e3a, #2a1525)",
-        border: `1px solid ${LFC_GOLD}55`,
-        borderRadius: 8,
-        padding: "5px 10px",
-        fontSize: 10,
-        fontWeight: 600,
-        color: LFC_GOLD,
+        fontFamily: T.serif, fontWeight: 500, fontSize: 13,
+        color: T.ivory, letterSpacing: "-0.01em",
+        whiteSpace: "nowrap", textAlign: "center",
+        textShadow: `0 1px 0 ${T.ink}, 0 0 8px ${T.ink}`,
+      }}>
+        {lastName}
+      </div>
+
+      {/* Confidence dot */}
+      <ConfidenceMark level={slotConf} />
+
+      {/* Hover rationale callout — hairline-ruled */}
+      <div style={{
+        position: "absolute", top: "calc(100% + 8px)",
+        left: "50%", transform: "translateX(-50%)",
+        background: T.surface,
+        border: `1px solid ${T.rule}`,
+        padding: "10px 14px",
         opacity: isHovered ? 1 : 0,
-        transform: isHovered ? "translateY(0)" : "translateY(-4px)",
-        transition: "opacity 0.2s ease, transform 0.2s ease",
         pointerEvents: "none",
-        boxShadow: "0 6px 16px #000a",
-        marginTop: 2,
-        maxWidth: 220,
-        textAlign: "center",
+        width: 240, maxWidth: "60vw",
+        transition: `opacity .25s ${T.ease}`,
+        zIndex: 40,
       }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 5, justifyContent: "center" }}>
-          <span style={{
-            width: 6, height: 6, borderRadius: "50%",
-            background: confColor, flexShrink: 0,
-          }} />
-          <span>{rationale || PLAYER_EVIDENCE[player.id] || "Recent starter"}</span>
+        <div style={{
+          fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase",
+          color: T.ivoryFaint, marginBottom: 6,
+          fontFamily: T.sans, fontWeight: 500,
+        }}>
+          {slotKey} · Confidence {slotConf}
+        </div>
+        <div style={{
+          fontFamily: T.serif, fontStyle: "italic", fontSize: 13,
+          color: T.ivoryDim, lineHeight: 1.5,
+        }}>
+          {rationale || PLAYER_EVIDENCE[player.id] || "Recent starter"}
         </div>
         {alts.length > 0 && (
           <div style={{
-            marginTop: 4, paddingTop: 4,
-            borderTop: "1px solid #ffffff15",
-            fontSize: 9, color: "#aaa", whiteSpace: "normal", lineHeight: 1.3,
+            marginTop: 8, paddingTop: 8,
+            borderTop: `1px solid ${T.rule}`,
+            fontSize: 11, color: T.ivoryFaint,
+            fontFamily: T.serif, fontStyle: "italic",
           }}>
-            Also considered: {alts.map(a => {
-              const altPlayer = playersById?.[a.playerId];
-              return altPlayer ? altPlayer.name.split(" ").slice(-1)[0] : `#${a.playerId}`;
+            Also considered · {alts.map(a => {
+              const ap = playersById?.[a.playerId];
+              return ap ? ap.name.split(" ").slice(-1)[0] : `#${a.playerId}`;
             }).join(", ")}
           </div>
         )}
@@ -211,40 +156,16 @@ function PitchPlayerToken({ slotKey, slot, player, onClick, isSwapMode, isCandid
   );
 }
 
-// ─── Pitch container ────────────────────────────────────────────────────────
+// ─── Pitch container — printed tactics-board diagram ───────────────────────
 function PitchDiagram({ formation, lineup, playersById, onSlotClick, isSwapMode, candidateId }) {
   const [hoveredSlot, setHoveredSlot] = useState(null);
   return (
     <div style={{
-      position: "relative",
-      width: "100%",
-      aspectRatio: "2 / 3",
-      borderRadius: 18,
-      overflow: "hidden",
-      // Layered turf: vertical depth gradient + horizontal mowed stripes
-      background: `
-        repeating-linear-gradient(
-          0deg,
-          rgba(255,255,255,0.03) 0px,
-          rgba(255,255,255,0.03) 6%,
-          rgba(0,0,0,0.06) 6%,
-          rgba(0,0,0,0.06) 12%
-        ),
-        linear-gradient(180deg, #1f4720 0%, #143015 50%, #0a1f0c 100%)
-      `,
-      border: `1px solid ${LFC_RED}33`,
-      boxShadow: `0 16px 48px #000a, inset 0 0 80px #0008, inset 0 0 120px ${LFC_RED}11`,
+      position: "relative", width: "100%", aspectRatio: "2 / 3",
+      background: T.surface,
+      border: `1px solid ${T.rule}`,
     }}>
-      {/* Anfield glow at attacking goal */}
-      <div style={{
-        position: "absolute", inset: 0, pointerEvents: "none",
-        background: `radial-gradient(ellipse 60% 14% at 50% 0%, ${LFC_RED}33, transparent 70%),
-                     radial-gradient(ellipse 60% 14% at 50% 100%, ${LFC_RED}1a, transparent 70%)`,
-      }} />
-
       <PitchLines />
-
-      {/* Player tokens */}
       {Object.entries(formation.slots).map(([slotKey, slot]) => {
         const playerId = lineup[slotKey];
         const player = playersById[playerId];
@@ -268,76 +189,102 @@ function PitchDiagram({ formation, lineup, playersById, onSlotClick, isSwapMode,
   );
 }
 
-// ─── Squad rail row ─────────────────────────────────────────────────────────
-function RailRow({ player, onPitch, isCandidate, onClick }) {
-  const [hover, setHover] = useState(false);
-  const formColor = player.form >= 8.0 ? "#28a745"
-    : player.form >= 7.5 ? "#5cb85c"
-    : player.form >= 7.0 ? "#ffc107"
-    : player.form >= 6.5 ? "#fd7e14"
-    : player.form > 0 ? "#dc3545"
-    : "#555";
-  const disabled = onPitch;
+// ─── Formation chips — text buttons in chapter-title font ──────────────────
+function FormationChips({ value, onChange }) {
   return (
-    <div
-      onClick={disabled ? undefined : onClick}
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
-      style={{
-        display: "flex", alignItems: "center", gap: 10,
-        padding: "8px 10px", borderRadius: 10,
-        background: isCandidate ? `${LFC_RED}22` : (hover && !disabled) ? "#252548" : "transparent",
-        border: isCandidate ? `1.5px solid ${LFC_RED}` : "1.5px solid transparent",
-        cursor: disabled ? "default" : "pointer",
-        opacity: disabled ? 0.45 : 1,
-        transition: "all 0.18s ease",
-      }}
-    >
-      <Avatar player={player} size={32} ring={onPitch ? "#555" : LFC_RED} showStatus={true} />
-      <div style={{ flex: 1, minWidth: 0 }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 6 }}>
-          <span style={{ color: LFC_RED, fontWeight: 800, fontSize: 10 }}>#{player.number}</span>
-          <span style={{
-            color: "#fff", fontWeight: 700, fontSize: 12,
-            whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis",
-          }}>{player.name}</span>
-        </div>
-        <div style={{ display: "flex", alignItems: "center", gap: 6, marginTop: 2 }}>
-          {player.form > 0 && (
-            <span style={{
-              fontSize: 9, fontWeight: 800, color: formColor,
-              background: `${formColor}22`, padding: "1px 5px", borderRadius: 4,
-            }}>
-              {player.form.toFixed(1)}
-            </span>
+    <div style={{ display: "flex", alignItems: "baseline" }}>
+      {Object.keys(FORMATIONS).map((k, i, arr) => (
+        <span key={k} style={{ display: "inline-flex", alignItems: "baseline" }}>
+          <button
+            onClick={() => onChange(k)}
+            style={{
+              background: "none", border: "none", cursor: "pointer",
+              padding: "4px 8px",
+              color: value === k ? T.ivory : T.ivoryDim,
+              fontFamily: T.serif,
+              fontStyle: value === k ? "italic" : "normal",
+              fontWeight: value === k ? 500 : 400,
+              fontSize: 22,
+              letterSpacing: "-0.01em",
+              borderBottom: value === k ? `1px solid ${T.red}` : "1px solid transparent",
+              transition: `all .35s ${T.ease}`,
+            }}
+          >
+            {FORMATIONS[k].label}
+          </button>
+          {i < arr.length - 1 && (
+            <span style={{ color: T.ivoryFaint, padding: "0 4px", fontFamily: T.serif, fontSize: 18 }}>·</span>
           )}
-          {player.status !== "fit" && (
-            <span style={{
-              fontSize: 8, fontWeight: 700, letterSpacing: 0.8,
-              color: player.status === "injured" ? "#ff6b6b"
-                : player.status === "recovering" ? "#ffa94d"
-                : "#ffe066",
-              textTransform: "uppercase",
-            }}>
-              {player.status}
-            </span>
-          )}
-        </div>
-      </div>
-      {onPitch && (
-        <span style={{
-          fontSize: 8, fontWeight: 800, color: LFC_GOLD, letterSpacing: 1,
-          background: `${LFC_GOLD}15`, border: `1px solid ${LFC_GOLD}40`,
-          padding: "3px 6px", borderRadius: 5,
-        }}>
-          ON PITCH
         </span>
-      )}
+      ))}
     </div>
   );
 }
 
-// ─── Squad rail ─────────────────────────────────────────────────────────────
+// ─── Squad rail — editorial roster strip ───────────────────────────────────
+function RailRow({ player, onPitch, isCandidate, onClick }) {
+  const statusColor = player.status === "injured" ? T.red
+    : player.status === "recovering" ? T.gold
+    : null;
+  return (
+    <div
+      onClick={onPitch ? undefined : onClick}
+      style={{
+        display: "grid", gridTemplateColumns: "32px 1fr auto",
+        gap: 10, alignItems: "center",
+        padding: "10px 0",
+        borderBottom: `1px solid ${T.rule}`,
+        cursor: onPitch ? "default" : "pointer",
+        opacity: onPitch ? 0.4 : 1,
+        background: isCandidate ? "#F4EBD008" : "transparent",
+        transition: `background .35s ${T.ease}`,
+      }}
+    >
+      <div style={{
+        fontFamily: T.serif, fontStyle: "italic", color: T.red,
+        fontSize: 14, fontWeight: 400,
+        fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+      }}>
+        №{player.number}
+      </div>
+      <div style={{
+        fontFamily: T.serif, fontWeight: 500, fontSize: 15,
+        color: T.ivory, letterSpacing: "-0.01em",
+        whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis",
+      }}>
+        {player.name}
+      </div>
+      <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+        {player.form > 0 && (
+          <span style={{
+            fontFamily: T.serif, fontWeight: 500, fontSize: 14, color: T.ivory,
+            fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+          }}>
+            {player.form.toFixed(1)}
+          </span>
+        )}
+        {statusColor && (
+          <span style={{
+            fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase",
+            color: statusColor, fontFamily: T.sans, fontWeight: 500,
+            borderBottom: `1px solid ${statusColor}`, paddingBottom: 1,
+          }}>
+            {player.status === "injured" ? "Out" : "Rec."}
+          </span>
+        )}
+        {onPitch && (
+          <span style={{
+            fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase",
+            color: T.gold, fontFamily: T.sans, fontWeight: 500,
+          }}>
+            On pitch
+          </span>
+        )}
+      </div>
+    </div>
+  );
+}
+
 function SquadRail({ players, lineup, candidateId, onPlayerClick }) {
   const onPitchIds = useMemo(() => new Set(Object.values(lineup)), [lineup]);
   const groups = useMemo(() => ({
@@ -349,36 +296,42 @@ function SquadRail({ players, lineup, candidateId, onPlayerClick }) {
   const labels = { GK: "Goalkeepers", DEF: "Defenders", MID: "Midfielders", FWD: "Forwards" };
 
   return (
-    <div style={{
-      background: "linear-gradient(180deg, #1e1e3a, #1a1530)",
-      borderRadius: 14,
-      padding: 12,
-      border: `1px solid ${LFC_RED}22`,
-      boxShadow: "0 8px 24px #0006",
-      maxHeight: "calc(100vh - 220px)",
-      overflowY: "auto",
-    }}>
+    <div>
       <div style={{
-        fontSize: 11, color: LFC_GOLD, fontWeight: 800, textTransform: "uppercase",
-        letterSpacing: 1.5, padding: "4px 8px 10px", display: "flex", alignItems: "center", gap: 8,
+        display: "flex", justifyContent: "space-between", alignItems: "baseline",
+        paddingBottom: 12, borderBottom: `1px solid ${T.ruleStrong}`,
       }}>
-        Squad
+        <h3 style={{
+          fontFamily: T.serif, fontStyle: "italic", fontWeight: 500,
+          fontSize: 22, color: T.ivory, lineHeight: 1.1,
+        }}>The bench<span style={{ color: T.red }}>.</span></h3>
         {candidateId != null && (
           <span style={{
-            marginLeft: "auto", fontSize: 9, color: LFC_RED, fontWeight: 700,
-            background: `${LFC_RED}22`, padding: "3px 8px", borderRadius: 5, letterSpacing: 0.5,
+            fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
+            color: T.red, fontFamily: T.sans, fontWeight: 500,
           }}>
-            PICK A PITCH PLAYER →
+            Pick a pitch player →
           </span>
         )}
       </div>
-      {Object.keys(groups).map((pos) => (
-        <div key={pos} style={{ marginBottom: 10 }}>
+      {Object.keys(groups).map(pos => (
+        <div key={pos} style={{ marginTop: 18 }}>
           <div style={{
-            fontSize: 9, color: POS_COLORS[pos], fontWeight: 800, textTransform: "uppercase",
-            letterSpacing: 1.2, padding: "4px 10px",
+            display: "flex", justifyContent: "space-between", alignItems: "baseline",
+            marginBottom: 4,
           }}>
-            {labels[pos]} · {groups[pos].length}
+            <span style={{
+              fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
+              color: T.ivoryDim, fontFamily: T.sans, fontWeight: 600,
+            }}>
+              {labels[pos]}
+            </span>
+            <span style={{
+              fontFamily: T.serif, fontStyle: "italic", color: T.ivoryFaint, fontSize: 13,
+              fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+            }}>
+              {String(groups[pos].length).padStart(2, "0")}
+            </span>
           </div>
           {groups[pos].map((p) => (
             <RailRow
@@ -395,30 +348,7 @@ function SquadRail({ players, lineup, candidateId, onPlayerClick }) {
   );
 }
 
-// ─── Formation chips ────────────────────────────────────────────────────────
-function FormationChips({ value, onChange }) {
-  return (
-    <div style={{ display: "flex", gap: 4, background: "#ffffff10", borderRadius: 10, padding: 3, width: "fit-content" }}>
-      {Object.keys(FORMATIONS).map((k) => (
-        <button
-          key={k}
-          onClick={() => onChange(k)}
-          style={{
-            padding: "7px 14px", borderRadius: 8, border: "none", cursor: "pointer",
-            fontWeight: 800, fontSize: 12, letterSpacing: 0.5,
-            background: value === k ? LFC_RED : "transparent",
-            color: value === k ? "#fff" : "#bbb",
-            transition: "all 0.18s ease",
-          }}
-        >
-          {FORMATIONS[k].label}
-        </button>
-      ))}
-    </div>
-  );
-}
-
-// ─── Main view ──────────────────────────────────────────────────────────────
+// ─── Main view ─────────────────────────────────────────────────────────────
 export default function LineupView({ players, nextMatch }) {
   const [formationKey, setFormationKey] = useState(DEFAULT_FORMATION);
   const [lineup, setLineup] = useState(() => ({ ...FORMATIONS[DEFAULT_FORMATION].defaultXI }));
@@ -426,12 +356,7 @@ export default function LineupView({ players, nextMatch }) {
 
   const formation = FORMATIONS[formationKey];
   const playersById = useMemo(() => Object.fromEntries(players.map(p => [p.id, p])), [players]);
-
-  // Sort squad by jersey number within each position group
-  const sortedPlayers = useMemo(
-    () => [...players].sort((a, b) => a.number - b.number),
-    [players]
-  );
+  const sortedPlayers = useMemo(() => [...players].sort((a, b) => a.number - b.number), [players]);
 
   function handleFormationChange(k) {
     if (k === formationKey) return;
@@ -457,7 +382,6 @@ export default function LineupView({ players, nextMatch }) {
     setCandidateId(candidateId === playerId ? null : playerId);
   }
 
-  // Escape cancels swap
   useEffect(() => {
     function onKey(e) { if (e.key === "Escape") setCandidateId(null); }
     window.addEventListener("keydown", onKey);
@@ -468,89 +392,84 @@ export default function LineupView({ players, nextMatch }) {
     ? `${nextMatch.home ? "vs" : "@"} ${nextMatch.shortName || nextMatch.opponent}`
     : "Next match";
 
+  const generatedAt = PREDICTION_NOTE.generated_at
+    ? new Date(PREDICTION_NOTE.generated_at).toLocaleDateString("en-GB", { day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" })
+    : null;
+
   return (
     <div onClick={() => setCandidateId(null)}>
-      {/* Inline keyframes for the swap-mode pulse */}
-      <style>{`
-        @keyframes lineupPulse {
-          0%, 100% { outline-color: ${LFC_GOLD}; outline-width: 2px; }
-          50%      { outline-color: ${LFC_RED};  outline-width: 3px; }
-        }
-      `}</style>
-
-      {/* Top bar: title, prediction note, formation chips */}
+      {/* Editorial header — prediction note as deck paragraph */}
       <div
         onClick={(e) => e.stopPropagation()}
-        style={{
-          display: "flex", alignItems: "center", gap: 14, flexWrap: "wrap",
-          background: "linear-gradient(135deg, #1e1e3a, #1a1530)",
-          borderRadius: 14, padding: "14px 18px", marginBottom: 16,
-          border: `1px solid ${LFC_RED}33`,
-        }}
+        style={{ marginBottom: 32 }}
       >
-        <div>
-          <div style={{
-            fontSize: 11, color: LFC_GOLD, fontWeight: 800,
-            textTransform: "uppercase", letterSpacing: 1.5,
-          }}>
-            Predicted Starting XI · {matchLabel}
-          </div>
-          <div style={{
-            fontSize: 12, color: "#aaa", marginTop: 4, lineHeight: 1.4,
-          }}>
-            <span style={{
-              color: "#fff", fontWeight: 700,
-              background: `${CONF_COLORS[PREDICTION_NOTE.level] || "#28a745"}22`,
-              border: `1px solid ${CONF_COLORS[PREDICTION_NOTE.level] || "#28a745"}55`,
-              padding: "2px 8px",
-              borderRadius: 5, marginRight: 8, fontSize: 11,
+        <div style={{
+          display: "flex", justifyContent: "space-between", alignItems: "flex-start",
+          gap: 32, flexWrap: "wrap",
+          paddingBottom: 24, borderBottom: `1px solid ${T.ruleStrong}`, marginBottom: 24,
+        }}>
+          <div style={{ flex: "1 1 360px", minWidth: 0 }}>
+            <div style={{
+              fontFamily: T.serif, fontStyle: "italic", fontWeight: 500,
+              fontSize: 14, color: T.red, letterSpacing: "0.02em", marginBottom: 6,
             }}>
-              Confidence: {PREDICTION_NOTE.level}
-            </span>
-            {PREDICTION_NOTE.agreement_rate != null && (
+              — Predicted XI {matchLabel}
+            </div>
+            <div style={{ display: "flex", alignItems: "center", gap: 14, flexWrap: "wrap", marginBottom: 12 }}>
               <span style={{
-                color: "#fff", fontWeight: 600,
-                background: "#ffffff10",
-                border: "1px solid #ffffff22",
-                padding: "2px 7px", borderRadius: 5, marginRight: 8, fontSize: 10,
+                fontFamily: T.serif, fontStyle: "italic", fontSize: 28, color: T.ivory,
               }}>
-                {Math.round(PREDICTION_NOTE.agreement_rate * 100)}% agreement
+                Confidence{" "}
+                <span style={{ color: T.red }}>{PREDICTION_NOTE.level}</span>
               </span>
-            )}
-            {PREDICTION_NOTE.reason}
-          </div>
-          {PREDICTION_NOTE.pundit_sources?.length > 0 && (
-            <div style={{ display: "flex", alignItems: "center", gap: 4, marginTop: 6, flexWrap: "wrap" }}>
-              <span style={{ fontSize: 9, color: "#666", textTransform: "uppercase", letterSpacing: 0.8 }}>Sources:</span>
-              {PREDICTION_NOTE.pundit_sources.map((src, i) => (
-                <span key={i} style={{
-                  fontSize: 9, fontWeight: 600, color: "#ccc",
-                  background: "#ffffff0a", border: "1px solid #ffffff15",
-                  padding: "1px 6px", borderRadius: 4,
+              {PREDICTION_NOTE.agreement_rate != null && (
+                <span style={{
+                  fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase",
+                  color: T.ivoryDim, fontFamily: T.sans, fontWeight: 500,
                 }}>
-                  {src}
-                </span>
-              ))}
-              {PREDICTION_NOTE.generated_at && (
-                <span style={{ fontSize: 9, color: "#555", marginLeft: 4 }}>
-                  {new Date(PREDICTION_NOTE.generated_at).toLocaleDateString("en-GB", { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" })}
+                  · {Math.round(PREDICTION_NOTE.agreement_rate * 100)}% pundit agreement
                 </span>
               )}
             </div>
-          )}
+          </div>
+
+          <div style={{ flex: "0 0 auto" }}>
+            <div style={{
+              fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
+              color: T.ivoryFaint, marginBottom: 8, fontFamily: T.sans, fontWeight: 500,
+              textAlign: "right",
+            }}>
+              Formation
+            </div>
+            <FormationChips value={formationKey} onChange={handleFormationChange} />
+          </div>
         </div>
-        <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 12, flexWrap: "wrap" }}>
-          <span style={{ fontSize: 10, color: "#777", textTransform: "uppercase", letterSpacing: 1 }}>Formation</span>
-          <FormationChips value={formationKey} onChange={handleFormationChange} />
-        </div>
+
+        <p style={{
+          fontFamily: T.serif, fontWeight: 400, fontSize: 17,
+          lineHeight: 1.6, color: T.ivoryDim, maxWidth: "72ch",
+        }}>
+          {PREDICTION_NOTE.reason}
+        </p>
+
+        {PREDICTION_NOTE.pundit_sources?.length > 0 && (
+          <div style={{
+            marginTop: 14, fontSize: 11, color: T.ivoryFaint,
+            fontFamily: T.serif, fontStyle: "italic",
+          }}>
+            Sources · {PREDICTION_NOTE.pundit_sources.join(" · ")}
+            {generatedAt && <> · {generatedAt}</>}
+          </div>
+        )}
       </div>
 
-      {/* Pitch + Squad rail */}
+      {/* Pitch + bench, side-by-side w/ visible column rule */}
       <div
         onClick={(e) => e.stopPropagation()}
-        style={{ display: "flex", gap: 16, flexWrap: "wrap", alignItems: "flex-start" }}
+        style={{ display: "grid", gridTemplateColumns: "1.4fr 1px 1fr", gap: "0 40px" }}
+        className="lineup-grid"
       >
-        <div style={{ flex: "1 1 420px", minWidth: 0 }}>
+        <div>
           <PitchDiagram
             formation={formation}
             lineup={lineup}
@@ -560,13 +479,19 @@ export default function LineupView({ players, nextMatch }) {
             candidateId={candidateId}
           />
           <div style={{
-            marginTop: 10, fontSize: 11, color: "#888",
-            textAlign: "center", lineHeight: 1.5,
+            marginTop: 14, paddingTop: 12,
+            borderTop: `1px solid ${T.rule}`,
+            fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase",
+            color: T.ivoryFaint, fontFamily: T.sans, fontWeight: 500,
+            display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: 12,
           }}>
-            Hover a player to see why they're in the XI · Click a bench player then a pitch player to swap · Esc to cancel
+            <span>Hover a player for rationale</span>
+            <span>Pick a bench player · click a pitch slot to swap</span>
+            <span>Esc cancels</span>
           </div>
         </div>
-        <div style={{ flex: "0 1 340px", minWidth: 280, width: "100%" }}>
+        <div style={{ background: T.rule }} />
+        <div>
           <SquadRail
             players={sortedPlayers}
             lineup={lineup}
@@ -575,6 +500,13 @@ export default function LineupView({ players, nextMatch }) {
           />
         </div>
       </div>
+
+      <style>{`
+        @media (max-width: 1024px) {
+          .lineup-grid { grid-template-columns: 1fr !important; }
+          .lineup-grid > div:nth-child(2) { display: none !important; }
+        }
+      `}</style>
     </div>
   );
 }
