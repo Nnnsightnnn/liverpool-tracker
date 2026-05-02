@@ -181,8 +181,7 @@ function Masthead({ view, onChange }) {
   return (
     <header style={{
       borderBottom: `1px solid ${T.rule}`, padding: "18px 0 14px",
-      position: "sticky", top: 0, background: T.ink, zIndex: 50,
-      backdropFilter: "blur(6px)", WebkitBackdropFilter: "blur(6px)",
+      background: T.ink,
     }}>
       <div className="masthead-bar anfield-page" style={{
         maxWidth: 1280, margin: "0 auto", padding: "0 56px",
