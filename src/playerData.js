@@ -5,10 +5,16 @@
 // injuryNote: short description shown on card when not fit
 // Optional: returningFromInjury: { matchesBackIncludingThis: 1|2 }
 //   — added by skill when a player returns from 3+ week absence, removed after 2 matches back
+// Optional: outSince: "YYYY-MM-DD"
+//   — earliest date the player has been unavailable; used by buildPlayerLast5
+//     to flag missed matches as "-" instead of inheriting the team's W/D/L
+// Optional: recentPlayedDates: ["YYYY-MM-DD", ...]
+//   — for fringe/academy players (≤6 senior apps) who DID start a recent match
+//     and should show that result instead of a blanket "-"
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "recovering", injuryNote: "Missed past 8 PL matches with hamstring complaint. Slot's pre-Man Utd presser (Fri May 1): 'close but not certain' for Old Trafford. NOT pictured during Friday's outdoor session (TIA Sat May 2) — Woodman primed to keep gloves; Sports Mole's Saturday predicted XI now reads 'no Mo and no Alisson'", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "recovering", outSince: "2026-03-22", injuryNote: "Missed past 8 PL matches with hamstring complaint. Slot's pre-Man Utd presser (Fri May 1): 'close but not certain' for Old Trafford. NOT pictured during Friday's outdoor session (TIA Sat May 2) — Woodman primed to keep gloves; Sports Mole's Saturday predicted XI now reads 'no Mo and no Alisson'", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -18,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 17, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.8, status: "injured", injuryNote: "Out ~3 weeks with the stitched knee wound from Beto collision (Apr 19) — missed Palace 3-1 with Woodman starring on debut. Earliest realistic return is the Aston Villa trip on May 17, with Alisson set to reclaim the gloves first", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 17, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.8, status: "injured", outSince: "2026-04-20", injuryNote: "Out ~3 weeks with the stitched knee wound from Beto collision (Apr 19) — missed Palace 3-1 with Woodman starring on debut. Earliest realistic return is the Aston Villa trip on May 17, with Alisson set to reclaim the gloves first", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -78,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", injuryNote: "Knee surgery (Jan) — out for season, aiming for pre-season return", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Knee surgery (Jan) — out for season, aiming for pre-season return", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -97,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 33, position: "DEF", nationality: "🇮🇹 Italy", age: 18, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", injuryNote: "Torn ACL (Sep) — out for season, targeting 2026-27 return", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 33, position: "DEF", nationality: "🇮🇹 Italy", age: 18, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-15", injuryNote: "Torn ACL (Sep) — out for season, targeting 2026-27 return", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -163,7 +169,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "injured", injuryNote: "Ankle surgery (Feb 11 vs Sunderland) — out for season, targeting World Cup", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "injured", outSince: "2026-02-12", injuryNote: "Ankle surgery (Feb 11 vs Sunderland) — out for season, targeting World Cup", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -184,7 +190,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 19, name: "Stefan Bajcetic", number: 43, position: "MID", nationality: "🇪🇸 Spain", age: 21, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", injuryNote: "Recurring hamstring issues — yet to play this season", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p535928.png",
+    id: 19, name: "Stefan Bajcetic", number: 43, position: "MID", nationality: "🇪🇸 Spain", age: 21, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-08-01", injuryNote: "Recurring hamstring issues — yet to play this season", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p535928.png",
     physical: { height: 185, weight: 75, pace: 68, acceleration: 66, sprintSpeed: 70 },
     career: [
       { years: "2017-2020", club: "Celta Vigo Academy", fee: null, type: "youth" },
@@ -203,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 37, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.2, status: "injured", injuryNote: "Officially ruled OUT of Old Trafford trip Sun May 3 (Sky Sports, Goal.com Fri May 1) with hamstring picked up vs Palace (Apr 25, 59'). Slot's Fri May 1 presser confirmed: 'expected back before the season is out'. LFC's Apr 30 'minor' statement keeps the May 24 Brentford home finale on as the Anfield farewell. FourFourTwo (May 1): Egypt staff say Salah will announce his next club 'within days'; Liverpool.com flags Juventus (Spalletti) as the dark-horse over cooling Saudi pressure", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 37, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.2, status: "injured", outSince: "2026-04-26", injuryNote: "Officially ruled OUT of Old Trafford trip Sun May 3 (Sky Sports, Goal.com Fri May 1) with hamstring picked up vs Palace (Apr 25, 59'). Slot's Fri May 1 presser confirmed: 'expected back before the season is out'. LFC's Apr 30 'minor' statement keeps the May 24 Brentford home finale on as the Anfield farewell. FourFourTwo (May 1): Egypt staff say Salah will announce his next club 'within days'; Liverpool.com flags Juventus (Spalletti) as the dark-horse over cooling Saudi pressure", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -235,7 +241,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", injuryNote: "Ruptured Achilles tendon (April 14 vs PSG) — scan confirmed 9-12 month absence; misses remainder of 2025-26 season and 2026 World Cup with France per Deschamps", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Ruptured Achilles tendon (April 14 vs PSG) — scan confirmed 9-12 month absence; misses remainder of 2025-26 season and 2026 World Cup with France per Deschamps", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -265,7 +271,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 8.0, status: "fit", injuryNote: "Made full Liverpool debut in the 3-1 win vs Crystal Palace (Apr 25) — 8/10 across TIA, Liverpool.com and Goal.com after stepping in for the injured Mama. Drops to the bench when Alisson returns at Old Trafford May 3 but proved Liverpool's third-choice depth ahead of summer rebuild", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 8.0, status: "fit", recentPlayedDates: ["2026-04-25"], injuryNote: "Made full Liverpool debut in the 3-1 win vs Crystal Palace (Apr 25) — 8/10 across TIA, Liverpool.com and Goal.com after stepping in for the injured Mama. Drops to the bench when Alisson returns at Old Trafford May 3 but proved Liverpool's third-choice depth ahead of summer rebuild", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },

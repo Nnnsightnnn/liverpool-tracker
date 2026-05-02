@@ -48,15 +48,37 @@ function timeAgo(dateStr) {
 }
 
 // ─── Last-5 W/D/L pills helper ──────────────────────────────────────────────
-// Computed per player from RESULTS — falls back to "----- " if no apps yet.
+// Computed PER PLAYER from RESULTS — uses per-player signals so the pills
+// reflect the player's own participation, not the team's blanket form:
+//   1. If the player is in the match's scorers list → they played (team result)
+//   2. If the match date ≥ player.outSince → they missed it ("-")
+//   3. Fringe/deep-bench players (≤6 senior apps) → "-" unless explicitly
+//      whitelisted via player.recentPlayedDates
+//   4. Otherwise default to the team result (regular squad member)
+// UI renders oldest → newest, so we reverse the newest-first slice.
 function buildPlayerLast5(player, results) {
-  // Use the recovering / injured / season-out signal to decide if they played
-  // in any given match. For simplicity, return the team's last 5 results,
-  // using "·" for matches the player almost certainly missed (long-term out).
-  const isLongOut = player.status === "injured" && player.appearances < 12;
-  const last5 = results.slice(0, 5).map((r) => r.result).reverse();
-  if (isLongOut) return last5.map(() => "-");
-  return last5;
+  const last5 = results.slice(0, 5); // newest-first
+  const surname = player.name.split(" ").slice(-1)[0];
+
+  const codes = last5.map((r) => {
+    // Scorer signal — definitive: if they're in the scorers string, they played
+    if (r.scorers && surname && r.scorers.includes(surname)) return r.result;
+
+    // Out-since cutoff: any match on/after this ISO date was missed
+    if (player.outSince && r.date >= player.outSince) return "-";
+
+    // Fringe/depth players: assume they didn't feature unless we explicitly
+    // whitelist a date (e.g. Woodman's Palace debut)
+    if ((player.appearances ?? 0) <= 6) {
+      if (player.recentPlayedDates && player.recentPlayedDates.includes(r.date)) return r.result;
+      return "-";
+    }
+
+    // Regular squad member with no out-since flag → default to team result
+    return r.result;
+  });
+
+  return codes.reverse();
 }
 
 // ─── Atoms ──────────────────────────────────────────────────────────────────
