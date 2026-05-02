@@ -47,16 +47,10 @@ function timeAgo(dateStr) {
   return `${weeks}w ago`;
 }
 
-// ─── Per-player form ratings for last 5 matches ─────────────────────────────
-// Returns the PLAYER'S individual rating in each of the last 5 matches —
-// NOT the team's W/D/L. Each entry is a number (e.g. 7.5) or null if the
-// player didn't feature in that match.
-//
-// Per-match rating priority:
-//   1. Explicit override:   player.last5Forms[idx] (hand-curated when known)
-//   2. Derived from signals: baseline form ± result modifier ± scorer bonus
-//   3. null  →  player did not play (outSince cutoff, fringe with no
-//                whitelisted date, or any other signal that they were absent)
+// ─── Per-player form rating for the most recent match ───────────────────────
+// Returns { rating, match, played } where rating is the player's individual
+// rating in their most recent match (number 5.0-9.5), or null if they
+// didn't feature. `match` is the RESULTS row, `played` is the boolean.
 //
 // "Did they play?" signals (in priority order):
 //   a. Scored in match           → played
@@ -64,44 +58,48 @@ function timeAgo(dateStr) {
 //   c. ≤6 senior apps & no recentPlayedDates match → missed
 //   d. otherwise                 → played (regular squad member)
 //
-// UI renders oldest → newest, so we reverse the newest-first slice.
-function buildPlayerForm5(player, results) {
-  const last5 = results.slice(0, 5); // newest-first
+// Rating priority:
+//   1. Explicit override:    player.last5Forms[0] (hand-curated when known)
+//   2. Derived from signals: baseline form ± result modifier ± scorer bonus
+function buildPlayerLastMatchForm(player, results) {
+  const match = results[0]; // newest-first
+  if (!match) return { rating: null, match: null, played: false };
+
   const surname = player.name.split(" ").slice(-1)[0];
+  const scoredHere = !!(match.scorers && surname && match.scorers.includes(surname));
 
-  const ratings = last5.map((r, idx) => {
-    const scoredHere = !!(r.scorers && surname && r.scorers.includes(surname));
+  let played;
+  if (scoredHere) {
+    played = true;
+  } else if (player.outSince && match.date >= player.outSince) {
+    played = false;
+  } else if ((player.appearances ?? 0) <= 6) {
+    played = !!(player.recentPlayedDates && player.recentPlayedDates.includes(match.date));
+  } else {
+    played = true;
+  }
 
-    // Determine if the player played this match
-    let didPlay;
-    if (scoredHere) {
-      didPlay = true;
-    } else if (player.outSince && r.date >= player.outSince) {
-      didPlay = false;
-    } else if ((player.appearances ?? 0) <= 6) {
-      didPlay = !!(player.recentPlayedDates && player.recentPlayedDates.includes(r.date));
-    } else {
-      didPlay = true;
-    }
+  if (!played) return { rating: null, match, played: false };
 
-    if (!didPlay) return null;
+  // Hand-curated override
+  if (Array.isArray(player.last5Forms) && typeof player.last5Forms[0] === "number") {
+    return {
+      rating: Math.max(5.0, Math.min(9.5, Math.round(player.last5Forms[0] * 10) / 10)),
+      match, played: true,
+    };
+  }
 
-    // Hand-curated rating (allows authors to override the derived value)
-    if (Array.isArray(player.last5Forms) && typeof player.last5Forms[idx] === "number") {
-      return Math.max(5.0, Math.min(9.5, Math.round(player.last5Forms[idx] * 10) / 10));
-    }
+  // Derive rating from baseline form + match modifiers
+  const baseline = player.form > 0 ? player.form : 6.5;
+  let rating = baseline;
+  if (match.result === "W") rating += 0.2;
+  else if (match.result === "L") rating -= 0.4;
+  if (scoredHere) rating += 0.7;
 
-    // Derive rating from baseline form + match modifiers
-    const baseline = player.form > 0 ? player.form : 6.5;
-    let rating = baseline;
-    if (r.result === "W") rating += 0.2;
-    else if (r.result === "L") rating -= 0.4;
-    if (scoredHere) rating += 0.7;
-
-    return Math.max(5.0, Math.min(9.5, Math.round(rating * 10) / 10));
-  });
-
-  return ratings.reverse();
+  return {
+    rating: Math.max(5.0, Math.min(9.5, Math.round(rating * 10) / 10)),
+    match, played: true,
+  };
 }
 
 // ─── Atoms ──────────────────────────────────────────────────────────────────
@@ -789,10 +787,11 @@ function Portrait({ player }) {
   );
 }
 
-// Last-5 PLAYER form pills — numeric per-match ratings (not team W/D/L).
-// `ratings` is an array of numbers (oldest → newest) or null where the
-// player did not feature.
-function PlayerForm5({ ratings }) {
+// Most-recent-match player form — single labelled pill showing the player's
+// rating in the latest match alongside the opponent (so it's obvious which
+// match the rating refers to). Dashed "·" tile + "Did not play" caption
+// when the player was absent.
+function PlayerLastMatchForm({ rating, match, played }) {
   const colorFor = (r) => {
     if (r == null) return T.ivoryFaint;
     if (r >= 8.0) return "#28a745"; // excellent
@@ -801,23 +800,28 @@ function PlayerForm5({ ratings }) {
     if (r >= 6.5) return "#fd7e14"; // fair
     return T.red;                   // poor
   };
+  const color = colorFor(rating);
+  const opponent = match ? match.opponent : "—";
+  const venue = match ? (match.home ? "vs" : "@") : "";
+
   return (
-    <div style={{ display: "flex", gap: 3, marginTop: 8 }}>
-      {ratings.map((r, i) => {
-        const color = colorFor(r);
-        return (
-          <div key={i} style={{
-            minWidth: 26, height: 18, padding: "0 4px",
-            border: `1px solid ${r == null ? T.ruleStrong : color}`,
-            borderStyle: r == null ? "dashed" : "solid",
-            fontSize: 10, display: "flex", alignItems: "center", justifyContent: "center",
-            fontFamily: T.serif, fontWeight: 600, color,
-            fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
-          }}>
-            {r == null ? "·" : r.toFixed(1)}
-          </div>
-        );
-      })}
+    <div style={{ display: "flex", alignItems: "center", gap: 10, marginTop: 8 }}>
+      <div style={{
+        minWidth: 36, height: 24, padding: "0 6px",
+        border: `1px solid ${rating == null ? T.ruleStrong : color}`,
+        borderStyle: rating == null ? "dashed" : "solid",
+        fontSize: 13, display: "flex", alignItems: "center", justifyContent: "center",
+        fontFamily: T.serif, fontWeight: 600, color,
+        fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+      }}>
+        {rating == null ? "·" : rating.toFixed(1)}
+      </div>
+      <div style={{
+        fontFamily: T.sans, fontSize: 9, letterSpacing: "0.18em", textTransform: "uppercase",
+        color: T.ivoryFaint, fontWeight: 500,
+      }}>
+        {played ? `Last match · ${venue} ${opponent}` : (match ? `Did not play · ${venue} ${opponent}` : "No matches yet")}
+      </div>
     </div>
   );
 }
@@ -966,7 +970,7 @@ function CareerInsert({ career }) {
   );
 }
 
-function PlayerCard({ player, expanded, onToggle, form5 }) {
+function PlayerCard({ player, expanded, onToggle, lastMatch }) {
   const [tab, setTab] = useState("stats");
   useEffect(() => { if (!expanded) setTab("stats"); }, [expanded]);
 
@@ -1043,7 +1047,7 @@ function PlayerCard({ player, expanded, onToggle, form5 }) {
             </div>
           ))}
         </div>
-        <PlayerForm5 ratings={form5} />
+        <PlayerLastMatchForm rating={lastMatch.rating} match={lastMatch.match} played={lastMatch.played} />
       </div>
 
       {/* Expanded editorial drilldown */}
@@ -1311,7 +1315,7 @@ function SquadView() {
               player={p}
               expanded={expandedId === p.id}
               onToggle={() => setExpandedId(expandedId === p.id ? null : p.id)}
-              form5={buildPlayerForm5(p, RESULTS)}
+              lastMatch={buildPlayerLastMatchForm(p, RESULTS)}
             />
           ))}
         </div>
@@ -1323,7 +1327,7 @@ function SquadView() {
               player={p}
               expanded={expandedId === p.id}
               onToggle={() => setExpandedId(expandedId === p.id ? null : p.id)}
-              form5={buildPlayerForm5(p, RESULTS)}
+              lastMatch={buildPlayerLastMatchForm(p, RESULTS)}
             />
           ))}
         </div>
