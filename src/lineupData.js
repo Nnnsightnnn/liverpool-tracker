@@ -20,22 +20,23 @@ export const FORMATIONS = {
       RW:  { x: 82, y: 22, role: "FWD" },
     },
     // IDs from playerData.js — Slot's likely XI for Manchester United (A), May 3.
-    // Updated Apr 27: Salah out 4 weeks (hamstring), Ekitike out 9-12 months
-    // (Achilles), Alisson targeting Old Trafford return. Curtis Jones earned
-    // RB minutes per Slot's Apr 27 'comfort on the ball, like Trent' praise after
-    // back-to-back 8/10s vs Everton & Palace. Mac Allister returned to pivot
-    // alongside Szoboszlai vs Palace; Gravenberch rested but expected to start
-    // at MUN. Frimpong shifts to RW to cover Salah; Gakpo stays LW; Isak is
-    // Liverpool's only fit senior No.9.
+    // Updated Sat May 2 (matchday-1): Saturday training reports (TIA, 3 Added
+    // Minutes) — Kerkez back on the grass after midweek niggle but Alisson NOT
+    // pictured outdoors at AXA Friday. Slot's Fri May 1 presser: Alisson 'close
+    // but not certain'; Salah officially out (Sky Sports, Goal.com). Curtis
+    // Jones holds RB after Slot's 'comfort on the ball, like Trent' line and
+    // back-to-back 8/10s. Mac Allister + Gravenberch in the pivot, Wirtz/Gakpo
+    // wide of Isak. Frimpong covers Salah's RW vacancy; Woodman is the bench
+    // GK option if Alisson fails his late fitness test.
     defaultXI: {
-      GK: 1,    // Alisson (targeting Old Trafford return per Slot Apr 24-26)
+      GK: 1,    // Alisson (Slot May 1: 'close but not certain' · Woodman ready)
       LB: 6,    // Robertson (started Palace 8/10 · Tottenham agreement live)
-      LCB: 3,   // Van Dijk (captain · derby winner · Salah farewell briefer Apr 27)
+      LCB: 3,   // Van Dijk (captain · derby winner · Salah farewell briefer)
       RCB: 4,   // Konaté (Romano: new deal nears completion)
-      RB: 16,   // Curtis Jones (Slot Apr 27: 'comfort on the ball, like Trent had at RB')
-      LCM: 14,  // Gravenberch (rested Saturday · expected back at MUN)
+      RB: 16,   // Curtis Jones (Slot: 'comfort on the ball, like Trent had at RB')
+      LCM: 14,  // Gravenberch (rested vs Palace · expected back at MUN)
       CM: 13,   // Mac Allister (started Palace · stays in pivot)
-      RCM: 15,  // Szoboszlai (started Palace double pivot · in-house Diomande lobbyist)
+      RCM: 15,  // Szoboszlai (started Palace pivot · drives right with Salah out)
       LW: 22,   // Gakpo (started LW vs Palace · primary wide threat with Salah out)
       ST: 23,   // Isak (Anfield league opener vs Palace · Liverpool's lone senior No.9)
       RW: 9,    // Frimpong (came on for Salah at 59' · primary RW deputy)
@@ -58,17 +59,19 @@ export const FORMATIONS = {
       ST:  { x: 50, y: 14, role: "FWD" },
     },
     // Slot's likely XI for Man Utd (A) May 3 in his preferred 4-2-3-1 shape.
-    // Apr 27 update: NBC Sports/RotoWire/FotMob predicted XI converges around
-    // Alisson back · Robertson LB · Curtis Jones at RB (Slot 'comfort on the
-    // ball, like Trent') · Mac Allister + Gravenberch double pivot ·
-    // Wirtz/Szoboszlai/Gakpo behind Isak. Salah's 4-week hamstring has flipped
-    // selection logic — Frimpong is the natural RW deputy off the bench.
+    // Sat May 2 (matchday-1) update: Saturday predicted-XI consensus (This Is
+    // Anfield, Sports Mole, FotMob, NBC Sports, 3 Added Minutes) lands on
+    // Alisson-if-fit / Woodman-if-not, Curtis Jones at RB (Slot's 'comfort on
+    // the ball, like Trent' line), Robertson keeping LB ahead of a managed
+    // Kerkez (back from niggle), Mac Allister + Gravenberch double pivot, and
+    // Wirtz at the 10 with Gakpo wide-left and Isak the lone No.9. Frimpong
+    // is the natural RW deputy with Salah ruled out.
     defaultXI: {
-      GK: 1,    // Alisson (targeting Old Trafford May 3 return)
+      GK: 1,    // Alisson (Slot May 1: 'close but not certain' · Woodman ready)
       LB: 6,    // Robertson (started Palace 8/10 · Tottenham agreement live)
       LCB: 3,   // Van Dijk (captain · led Salah farewell briefing Apr 27)
       RCB: 4,   // Konaté (Romano: new deal nears completion)
-      RB: 16,   // Curtis Jones (Slot Apr 27: Trent-like 'comfort on the ball' at RB)
+      RB: 16,   // Curtis Jones (Slot: Trent-like 'comfort on the ball' at RB)
       LDM: 14,  // Gravenberch (rested Saturday · expected back vs MUN)
       RDM: 13,  // Mac Allister (started Palace · steadier double-pivot for away day)
       LAM: 22,  // Gakpo (LW vs Palace; shifts inside as a 10 if needed)
@@ -110,15 +113,15 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-04-30.
+// Hand-curated from RESULTS array + injuryNote context as of 2026-05-02.
 export const PLAYER_EVIDENCE = {
-  1:  "Targeting Old Trafford return · May 3",       // Alisson
+  1:  "Slot Fri: 'close but not certain' · Sat absent", // Alisson
   2:  "Stitched knee wound · ~3 wks out",            // Mamardashvili
   3:  "Captain · led Salah farewell briefer",        // Van Dijk
   4:  "Romano: new deal nears completion",           // Konaté
   5:  "Back in PL squad · cover at Old Trafford",    // Gomez
   6:  "8/10 vs Palace · Slot: 'leaving' summer",     // Robertson
-  7:  "Bench vs Palace · rotation option",           // Kerkez
+  7:  "Back from niggle Fri · bench cover at MUN",   // Kerkez
   8:  "Knee surgery · out for season",               // Bradley
   9:  "On for Salah at 59' · RW deputy at MUN",      // Frimpong
   10: "Torn ACL · out for season",                   // Leoni
@@ -132,13 +135,13 @@ export const PLAYER_EVIDENCE = {
   18: "Sealed 3-1 vs Palace · top creator now",      // Wirtz
   19: "Hamstring · yet to play this season",         // Bajcetic
   20: "Academy prospect · 5 senior apps",            // Nyoni
-  21: "'Minor' hamstring · back this season (Apr 30)", // Salah
+  21: "Out vs MUN · Brentford May 24 farewell on",   // Salah
   22: "Started LW vs Palace · go-to wide threat",    // Gakpo
   23: "First Anfield league goal · lone No.9 vs MUN",// Isak
   24: "Ruptured Achilles · out 9-12 months",         // Ekitike
   25: "Palace bench · youngest PL Anfield scorer",   // Ngumoha
   26: "Palace bench · rotation winger · likely exit",// Chiesa
-  27: "8/10 LFC debut vs Palace · 3rd-choice depth", // Woodman
+  27: "8/10 LFC debut · primed to keep MUN gloves",  // Woodman
 };
 
 // Default formation when entering the view — matched Slot's derby-winning shape
@@ -149,7 +152,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys. The UI renders these as colored dots on each pitch token.
 // Keys match DEFAULT_FORMATION (4-2-3-1).
 export const SLOT_CONFIDENCE = {
-  GK:  "High",   // Alisson on track for Old Trafford return per Slot Apr 24-26
+  GK:  "Medium", // Slot Fri May 1: 'close but not certain' · Alisson NOT pictured outdoors Sat May 2 (TIA) · Woodman primed
   LB:  "High",   // Robertson started Palace 8/10 · expected to keep place
   LCB: "High",   // Van Dijk captain · led Salah farewell briefing Apr 27
   RCB: "High",   // Konaté nailed on · Romano: new deal nears completion
@@ -166,7 +169,7 @@ export const SLOT_CONFIDENCE = {
 // Explains why the predicted starter won their slot. Populated by the predictor;
 // hand-set initially. Keyed by slot key (for the active formation — 4-2-3-1).
 export const SLOT_RATIONALE = {
-  GK:  "Slot Apr 24-26: Alisson 'close to returning' and targeting Old Trafford May 3 · Woodman drops to bench unless late fitness test fails · Mama still out ~3 wks",
+  GK:  "Slot Fri May 1 presser: 'close but not certain' for Old Trafford · Alisson NOT pictured during Friday's outdoor session at AXA (TIA Sat May 2) — Woodman primed to keep gloves; Sports Mole's Sat XI reads 'no Mo and no Alisson' · Mama still out ~3 wks",
   LB:  "Robertson started Palace 3-1 (8.0/10 sportsdunia) and assisted on the counter · Spurs verbal agreement is summer-conditional only",
   LCB: "Captain · led Salah farewell presser Apr 27 · controlled the Palace win · 7.5 form",
   RCB: "Romano (Apr 20): new Liverpool deal nears completion · Konaté: 'It's Liverpool' · started Palace 3-1",
@@ -201,8 +204,8 @@ export const ALTERNATIVES = {
 // predictor metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  reason: "Apr 30, three days out from Old Trafford (A) May 3: today's official 'minor' Salah update (LFC via Sky Sports, Liverpool.com, SI, EOTK) doesn't change the Sunday XI — he's still out for Old Trafford — but pushes the runs-in question to Chelsea/Villa. NBC Sports, FotMob, Sports Mole and OneFootball converge on a 4-2-3-1 with Alisson back (targeting his return), Curtis Jones at RB (Slot Apr 27: 'comfort on the ball, like Trent') and Mac Allister + Gravenberch in pivot. The post-Salah right channel still belongs to Frimpong (came on for him at 59' Saturday) with Szoboszlai pushed wider and Wirtz at the 10. Isak remains the lone fit senior No.9 for this game (Ekitike Achilles, season). Slot's pre-Man Utd presser tomorrow (Fri May 1) is the next confirmation point. Confidence Medium because the post-Salah right side is still fluid and Woodman could keep gloves if Alisson fails his late fitness test.",
-  pundit_sources: ["NBC Sports", "FotMob", "Sports Mole", "OneFootball", "Liverpool.com", "This Is Anfield", "Empire of the Kop", "Rousing The Kop", "Liverpool FC", "Sky Sports", "Sports Illustrated"],
-  agreement_rate: 0.7,
-  generated_at: "2026-04-30T09:00:00Z",
+  reason: "Sat May 2 (matchday-1) ahead of Old Trafford (A) May 3: Slot's Fri May 1 presser ruled out Salah (Sky Sports, Goal.com) and called Alisson 'close but not certain' — TIA's Sat training piece confirms the Brazilian was NOT pictured outdoors at AXA Friday, with Sports Mole's Saturday XI now openly going 'no Mo and no Alisson' (Woodman keeps gloves). Sat predicted-XI consensus across This Is Anfield, FotMob, Sports Mole, NBC Sports and 3 Added Minutes converges on Curtis Jones at RB (Slot's 'comfort on the ball, like Trent' line), Robertson keeping LB ahead of a managed Kerkez (back from niggle), Mac Allister + Gravenberch pivot, Wirtz at the 10, Gakpo wide-left and Isak the lone No.9. Frimpong covers Salah's RW vacancy with Szoboszlai an alternative wider option. Confidence Medium because the GK is a genuine 50/50 right up to the team-sheet drop and the right side (Frimpong vs Szoboszlai-wide) remains fluid.",
+  pundit_sources: ["This Is Anfield", "Sports Mole", "FotMob", "NBC Sports", "3 Added Minutes", "Liverpool.com", "Empire of the Kop", "Rousing The Kop", "Liverpool FC", "Sky Sports", "Sports Illustrated"],
+  agreement_rate: 0.75,
+  generated_at: "2026-05-02T10:00:00Z",
 };
