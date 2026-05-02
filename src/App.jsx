@@ -47,38 +47,61 @@ function timeAgo(dateStr) {
   return `${weeks}w ago`;
 }
 
-// ─── Last-5 W/D/L pills helper ──────────────────────────────────────────────
-// Computed PER PLAYER from RESULTS — uses per-player signals so the pills
-// reflect the player's own participation, not the team's blanket form:
-//   1. If the player is in the match's scorers list → they played (team result)
-//   2. If the match date ≥ player.outSince → they missed it ("-")
-//   3. Fringe/deep-bench players (≤6 senior apps) → "-" unless explicitly
-//      whitelisted via player.recentPlayedDates
-//   4. Otherwise default to the team result (regular squad member)
+// ─── Per-player form ratings for last 5 matches ─────────────────────────────
+// Returns the PLAYER'S individual rating in each of the last 5 matches —
+// NOT the team's W/D/L. Each entry is a number (e.g. 7.5) or null if the
+// player didn't feature in that match.
+//
+// Per-match rating priority:
+//   1. Explicit override:   player.last5Forms[idx] (hand-curated when known)
+//   2. Derived from signals: baseline form ± result modifier ± scorer bonus
+//   3. null  →  player did not play (outSince cutoff, fringe with no
+//                whitelisted date, or any other signal that they were absent)
+//
+// "Did they play?" signals (in priority order):
+//   a. Scored in match           → played
+//   b. match.date ≥ outSince     → missed
+//   c. ≤6 senior apps & no recentPlayedDates match → missed
+//   d. otherwise                 → played (regular squad member)
+//
 // UI renders oldest → newest, so we reverse the newest-first slice.
-function buildPlayerLast5(player, results) {
+function buildPlayerForm5(player, results) {
   const last5 = results.slice(0, 5); // newest-first
   const surname = player.name.split(" ").slice(-1)[0];
 
-  const codes = last5.map((r) => {
-    // Scorer signal — definitive: if they're in the scorers string, they played
-    if (r.scorers && surname && r.scorers.includes(surname)) return r.result;
+  const ratings = last5.map((r, idx) => {
+    const scoredHere = !!(r.scorers && surname && r.scorers.includes(surname));
 
-    // Out-since cutoff: any match on/after this ISO date was missed
-    if (player.outSince && r.date >= player.outSince) return "-";
-
-    // Fringe/depth players: assume they didn't feature unless we explicitly
-    // whitelist a date (e.g. Woodman's Palace debut)
-    if ((player.appearances ?? 0) <= 6) {
-      if (player.recentPlayedDates && player.recentPlayedDates.includes(r.date)) return r.result;
-      return "-";
+    // Determine if the player played this match
+    let didPlay;
+    if (scoredHere) {
+      didPlay = true;
+    } else if (player.outSince && r.date >= player.outSince) {
+      didPlay = false;
+    } else if ((player.appearances ?? 0) <= 6) {
+      didPlay = !!(player.recentPlayedDates && player.recentPlayedDates.includes(r.date));
+    } else {
+      didPlay = true;
     }
 
-    // Regular squad member with no out-since flag → default to team result
-    return r.result;
+    if (!didPlay) return null;
+
+    // Hand-curated rating (allows authors to override the derived value)
+    if (Array.isArray(player.last5Forms) && typeof player.last5Forms[idx] === "number") {
+      return Math.max(5.0, Math.min(9.5, Math.round(player.last5Forms[idx] * 10) / 10));
+    }
+
+    // Derive rating from baseline form + match modifiers
+    const baseline = player.form > 0 ? player.form : 6.5;
+    let rating = baseline;
+    if (r.result === "W") rating += 0.2;
+    else if (r.result === "L") rating -= 0.4;
+    if (scoredHere) rating += 0.7;
+
+    return Math.max(5.0, Math.min(9.5, Math.round(rating * 10) / 10));
   });
 
-  return codes.reverse();
+  return ratings.reverse();
 }
 
 // ─── Atoms ──────────────────────────────────────────────────────────────────
@@ -766,21 +789,35 @@ function Portrait({ player }) {
   );
 }
 
-function PlayerLast5({ codes }) {
-  const colorFor = (c) => c === "W" ? T.ivory : c === "D" ? T.gold : c === "L" ? T.red : T.ivoryFaint;
+// Last-5 PLAYER form pills — numeric per-match ratings (not team W/D/L).
+// `ratings` is an array of numbers (oldest → newest) or null where the
+// player did not feature.
+function PlayerForm5({ ratings }) {
+  const colorFor = (r) => {
+    if (r == null) return T.ivoryFaint;
+    if (r >= 8.0) return "#28a745"; // excellent
+    if (r >= 7.5) return "#5cb85c"; // good
+    if (r >= 7.0) return T.gold;    // decent
+    if (r >= 6.5) return "#fd7e14"; // fair
+    return T.red;                   // poor
+  };
   return (
     <div style={{ display: "flex", gap: 3, marginTop: 8 }}>
-      {codes.map((c, i) => (
-        <div key={i} style={{
-          width: 18, height: 18,
-          border: `1px solid ${c === "-" ? T.ruleStrong : colorFor(c)}`,
-          borderStyle: c === "-" ? "dashed" : "solid",
-          fontSize: 9, display: "flex", alignItems: "center", justifyContent: "center",
-          fontFamily: T.serif, fontWeight: 600, color: colorFor(c),
-        }}>
-          {c === "-" ? "·" : c}
-        </div>
-      ))}
+      {ratings.map((r, i) => {
+        const color = colorFor(r);
+        return (
+          <div key={i} style={{
+            minWidth: 26, height: 18, padding: "0 4px",
+            border: `1px solid ${r == null ? T.ruleStrong : color}`,
+            borderStyle: r == null ? "dashed" : "solid",
+            fontSize: 10, display: "flex", alignItems: "center", justifyContent: "center",
+            fontFamily: T.serif, fontWeight: 600, color,
+            fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+          }}>
+            {r == null ? "·" : r.toFixed(1)}
+          </div>
+        );
+      })}
     </div>
   );
 }
@@ -929,7 +966,7 @@ function CareerInsert({ career }) {
   );
 }
 
-function PlayerCard({ player, expanded, onToggle, last5 }) {
+function PlayerCard({ player, expanded, onToggle, form5 }) {
   const [tab, setTab] = useState("stats");
   useEffect(() => { if (!expanded) setTab("stats"); }, [expanded]);
 
@@ -1006,7 +1043,7 @@ function PlayerCard({ player, expanded, onToggle, last5 }) {
             </div>
           ))}
         </div>
-        <PlayerLast5 codes={last5} />
+        <PlayerForm5 ratings={form5} />
       </div>
 
       {/* Expanded editorial drilldown */}
@@ -1274,7 +1311,7 @@ function SquadView() {
               player={p}
               expanded={expandedId === p.id}
               onToggle={() => setExpandedId(expandedId === p.id ? null : p.id)}
-              last5={buildPlayerLast5(p, RESULTS)}
+              form5={buildPlayerForm5(p, RESULTS)}
             />
           ))}
         </div>
@@ -1286,7 +1323,7 @@ function SquadView() {
               player={p}
               expanded={expandedId === p.id}
               onToggle={() => setExpandedId(expandedId === p.id ? null : p.id)}
-              last5={buildPlayerLast5(p, RESULTS)}
+              form5={buildPlayerForm5(p, RESULTS)}
             />
           ))}
         </div>
