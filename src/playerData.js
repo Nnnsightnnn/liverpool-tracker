@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2025-26 Season · Updated May 3, 2026) ────────
+// ─── Liverpool FC Player Data (2025-26 Season · Updated May 4, 2026) ────────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "recovering", outSince: "2026-03-22", injuryNote: "Hasn't featured since March 18 — eight-week hamstring layoff. Slot's pre-Man Utd presser (Fri May 1): 'very close to' training but yet to do so; Liverpool.com Sat May 3 update keeps him sidelined for Old Trafford with Woodman retaining the gloves. Earliest realistic return is the Chelsea home tie May 9", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "recovering", outSince: "2026-03-22", injuryNote: "Watched the 3-2 Old Trafford defeat (Sun May 3) from the bench as Woodman started for the second match in a row — eight-week hamstring layoff still active. LFC's Mon May 4 outlook now flags the Chelsea home tie May 9 as a realistic return after Slot's pre-Man Utd 'very close to training' line on Apr 30. Could keep his Anfield farewell to Salah arc alive vs Brentford if back this week", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 17, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.8, status: "injured", outSince: "2026-04-20", injuryNote: "Out ~3 weeks with the stitched knee wound from Beto collision (Apr 19) — missed Palace 3-1 with Woodman starring on debut. Earliest realistic return is the Aston Villa trip on May 17, with Alisson set to reclaim the gloves first", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 17, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.8, status: "injured", outSince: "2026-04-20", injuryNote: "Two weeks into the ~3-week stitched-knee layoff (Beto collision Apr 19) — Aston Villa trip May 17 still the earliest realistic return per LFC's run-in injury rundown. Alisson is now ahead of him in the queue for Chelsea (May 9) once cleared", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 34, appearances: 40, goals: 4, assists: 1, cleanSheets: 11, xG: 2.8, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.5, status: "fit", injuryNote: "Captained the 3-1 Palace win (Apr 25) that lifted Liverpool to 4th — back-line conceded once (Munoz, 71') but defending was largely controlled. Six points away from sealing top-five UCL with four games left", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 34, appearances: 41, goals: 4, assists: 1, cleanSheets: 11, xG: 2.8, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.2, status: "fit", injuryNote: "Captained Liverpool to a 19th defeat of the season at Old Trafford (Sun May 3, 3-2) — caught Mac Allister with an elbow in the build-up to Cunha's 6' opener. The Athletic (Apr 30) reports VVD now expected to leave at the end of the 2026-27 season, but Liverpool still 6 pts ahead of Bournemouth with three to play (Opta 97.14% top-five)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 37, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 7.2, status: "fit", injuryNote: "Started 3-1 Palace win (Apr 25) alongside VVD. Romano (Apr 20): new Liverpool deal 'nears completion' — only contract length & bonus structure left; both sides aligned on salary. Konaté himself: 'It's Liverpool' — full Real Madrid U-turn", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
+    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 38, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 7.0, status: "fit", injuryNote: "Started Old Trafford defeat (Sun May 3, L 3-2) alongside VVD — caught out by United's quick start (Cunha 6', Sesko 14') before Liverpool's second-half comeback fell short. Romano (Apr 20) and ESPN (Apr 30): new Liverpool deal 'never been closer' — salary aligned, contract length and bonus structure the only remaining items. 'It's Liverpool'", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
     physical: { height: 194, weight: 95, pace: 78, acceleration: 76, sprintSpeed: 80 },
     career: [
       { years: "2014-2017", club: "Sochaux", fee: null, type: "youth" },
@@ -55,7 +55,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 18, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 6.2, status: "fit", injuryNote: "On the bench for Palace 3-1 (Apr 25) — Slot kept Konaté/VVD pairing intact. First squad inclusion since the PSG cameo muscle issue; rotation option for Old Trafford on May 3", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 18, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 6.2, status: "fit", injuryNote: "Unused Old Trafford bench (Sun May 3, L 3-2) — Slot stuck with the Konaté/VVD pairing throughout. Beukema's £24m link from TeamTalk Sat May 2 a clear hint Hughes views Gomez as a likely summer departure", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -63,7 +63,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 6, name: "Andy Robertson", number: 26, position: "DEF", nationality: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland", age: 32, appearances: 27, goals: 1, assists: 3, cleanSheets: 8, xG: 0.6, tacklesPer90: 2.3, passCompletion: 83, progressiveCarries: 4.4, form: 7.4, status: "fit", injuryNote: "Standout 8.0/10 vs Palace (Apr 25) — 'composed finishing and energetic display' said sportsdunia. Composed finish off Curtis Jones counter-attack release for 2-0; defied 'Robbo Out' presser predictions to start. Scotland captain still set for free-agent summer move (Tottenham leading)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p122798.png",
+    id: 6, name: "Andy Robertson", number: 26, position: "DEF", nationality: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland", age: 32, appearances: 28, goals: 1, assists: 3, cleanSheets: 8, xG: 0.6, tacklesPer90: 2.3, passCompletion: 83, progressiveCarries: 4.4, form: 6.8, status: "fit", injuryNote: "Hooked at 59' for Kerkez at Old Trafford (Sun May 3, L 3-2) — 5-6.5 ratings as 'beaten too easily by Mbeumo'. Goal.com listed him among the Reds 'flops'. Tottenham agreement still summer-conditional on their PL fate — Liverpool linked with Dortmund's Daniel Svensson as the long-term LB heir", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p122798.png",
     physical: { height: 178, weight: 70, pace: 79, acceleration: 81, sprintSpeed: 77 },
     career: [
       { years: "2010-2013", club: "Queen's Park", fee: null, type: "senior" },
@@ -73,7 +73,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 36, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 7.0, status: "fit", injuryNote: "Dropped out of a midweek session managing a niggle but pictured back on the grass at AXA Friday (TIA Sat May 2). Bench vs Palace 3-1 (Apr 25) — Robertson keeps the LB nod for Old Trafford May 3 in the consensus predicted XI", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 37, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 7.0, status: "fit", injuryNote: "Came on at 59' for Robertson at Old Trafford (Sun May 3, L 3-2) — niggle managed and back-up to deputise immediately. Likely starts at LB vs Chelsea (H) May 9 with Robertson having flopped per Goal.com ratings, freeing the Scotland captain for a controlled May rotation through the run-in", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -93,7 +93,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 33, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 7.0, status: "fit", injuryNote: "Came off bench in 59' for the injured Salah vs Palace 3-1 (Apr 25) — Slot kept Curtis Jones at RB. Leading candidate for the RW vacancy at Old Trafford May 3; today's 'minor' Salah update (Apr 30) means Frimpong may not have to carry the slot for the full run-in", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 34, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Started Old Trafford (Sun May 3, L 3-2) on the right wing as Salah/Isak cover — pulled at 75' for Ngumoha after a 5.5 outing per This Is Anfield: 'no end product, lost 8 of 10 duels with Luke Shaw'. Likely back to RB cameo role for Chelsea (H) May 9 with Curtis Jones currently nailed-on at right-back", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -132,7 +132,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 38, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 7.2, status: "fit", injuryNote: "Started Palace 3-1 (Apr 25) in the double pivot alongside Szoboszlai with Gravenberch rested; his skewed long shot was the lay-off Isak controlled and finished for the opener. Locks the central role for Old Trafford May 3", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 39, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 7.2, status: "fit", injuryNote: "Caught by VVD's elbow in the build-up to Cunha's 6' opener at Old Trafford (Sun May 3, L 3-2) — bandaged, played through 'epic midfield battle' for a 7/10. Premier League's social channels showed him in the protective head cap for the second half. Expected fit for Chelsea (H) May 9", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 38, goals: 5, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Rested on bench for Palace 3-1 (Apr 25) — Mac Allister returned alongside Szoboszlai in the double pivot. Slot's rotation call ahead of Old Trafford; nailed-on starter at MUN with a Salah-less attack to balance", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 39, goals: 5, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.4, status: "fit", injuryNote: "Returned to start at Old Trafford (Sun May 3, L 3-2) — 7/10 with 'nine passes into the final third' per This Is Anfield. NBC Sports flagged him as one of the few Liverpool 'players who could use a rest' but he plays through the run-in regardless. Locks midfield for Chelsea (H) May 9", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 45, goals: 11, assists: 8, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.5, status: "fit", injuryNote: "Started Palace 3-1 (Apr 25) — quieter outing than the derby corner-winner but kept the engine ticking. Liverpool.com flagged him as the potential 'major player' in the Diomande pursuit (RB Leipzig connection)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 46, goals: 12, assists: 8, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.8, status: "fit", injuryNote: "Pulled the goal back to start the comeback at Old Trafford (Sun May 3, L 3-2) — 8.5/10 from Goal.com: 'what a read to take the ball off Amad Diallo and drive for the goal'. The 47' strike sparked Liverpool's response but Mainoo had the final word. Engine of the run-in", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -161,7 +161,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 24, goals: 1, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 7.5, status: "fit", injuryNote: "Started at RB vs Palace 3-1 (Apr 25) — TIA & Liverpool.com 8/10, assisted Robertson's 44' goal. Slot (Apr 27): 'comfort on the ball, like Trent had at right-back.' BUT Romano (Apr 28-29 via EOTK & Rousing): could leave this summer — Inter Milan eyeing a McTominay-at-Napoli reset, 14 months left on deal. Aston Villa also monitoring", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 25, goals: 1, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 7.6, status: "fit", injuryNote: "Started at RB at Old Trafford (Sun May 3, L 3-2) — Goal.com 8/10, led the game in touches with over 100 heading into stoppage time. Slot's Trent-redux RB experiment continues to thrive. Inter Milan still circling per Romano this week — McTominay-style summer reset on the table with 14 months left on deal", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -181,7 +181,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 31, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.4, status: "fit", injuryNote: "Sealed 3-1 vs Palace (Apr 25) with a driven added-time strike — Liverpool.com noted 'linked play excellently' as the £100m signing's form ticks upward. With Salah out, Wirtz now Liverpool's most reliable creator", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 32, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.3, status: "fit", injuryNote: "Started Old Trafford (Sun May 3, L 3-2) on the right of the front three — couldn't repeat his Palace winner from added time, but linked play around the comeback. Slot's most reliable creator with Salah and Isak both unavailable; central role likely vs Chelsea (H) May 9", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 37, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.2, status: "injured", outSince: "2026-04-26", injuryNote: "Officially OUT of Old Trafford (Sun May 3, hamstring picked up vs Palace Apr 25, 59'). Slot reiterated in his Fri May 1 presser the Egyptian is 'expected back before the season is out'; LFC's Apr 30 'minor' statement keeps the May 24 Brentford home finale on as the Anfield farewell. FourFourTwo (May 1): next-club announcement 'within days' — Saudi pressure cooling, Juventus a Spalletti-led dark-horse", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 37, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.2, status: "injured", outSince: "2026-04-26", injuryNote: "Watched the 3-2 Old Trafford defeat from afar (Sun May 3) — hamstring picked up vs Palace still active. Made headlines Sat May 2 by publicly urging fans to give Jordan Henderson 'the farewell he deserved' when Brentford visit Anfield May 24 — Salah's own Liverpool exit also on for that day. The National (May 2): Salah 'has a lot of good options' with Saudi pressure cooling", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 36, goals: 8, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.2, status: "fit", injuryNote: "Started LW vs Palace 3-1 (Apr 25). With BOTH Isak (groin, Sat May 3) AND Salah (hamstring) out, Gakpo is now Slot's leading false-9 candidate at Old Trafford per Sports Mole and Rousing The Kop — Liverpool's most experienced senior forward heading to Manchester", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 37, goals: 9, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.4, status: "fit", injuryNote: "Levelled it at 2-2 in the 56' at Old Trafford (Sun May 3, L 3-2) — second-half goal that briefly looked like rescuing a draw before Mainoo's 77' winner. Carried the front line as a false 9 with Isak and Salah out; nailed-on to lead again vs Chelsea (H) May 9", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -230,7 +230,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 17, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.7, status: "injured", outSince: "2026-05-03", injuryNote: "BREAKING (Sat May 3, Sky Sports/Daily Mail/Goal.com) — suspected groin strain picked up in Friday's training has ruled the £130m forward out of Sunday's Old Trafford trip. Liverpool now travel WITHOUT a fit recognised senior No.9 (Ekitike, Salah also out). Scan this weekend will confirm timeline; even a minor groin tear is a 1-2 week absence putting Chelsea (May 9) and the Aston Villa trip (May 17) at risk", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 17, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.7, status: "injured", outSince: "2026-05-02", injuryNote: "Missed the 3-2 Old Trafford defeat (Sun May 3) with the groin strain picked up in Friday's training. Yahoo Sports (Sun): Slot confirmed pre-match the £130m forward 'wasn't ready' — even a minor groin tear is typically 1-2 weeks, putting Chelsea (May 9) on the doubt list and Aston Villa (A) May 17 the realistic comeback target", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -252,7 +252,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 10, goals: 2, assists: 1, cleanSheets: null, xG: 1.2, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.0, status: "fit", recentPlayedDates: ["2026-04-25"], injuryNote: "Pushed straight into matchday-1 contention after Isak's groin injury (Sat May 3) — Sports Mole's revised XI has the 17-year-old starting on the wing with Gakpo at false 9. Youngest-ever PL Anfield scorer still stands; biggest senior outing of his career awaits at Old Trafford", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 11, goals: 2, assists: 1, cleanSheets: null, xG: 1.2, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.0, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Came on at 75' for Frimpong at Old Trafford (Sun May 3, L 3-2) — Slot's first attacking change as the comeback fizzled. Now firmly on the matchday squad list as Isak's groin keeps the senior striker pool thin; live in contention to start vs Chelsea (H) May 9", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -260,7 +260,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "On Palace bench (Apr 25) — rotation winger option ahead of Old Trafford May 3 with Salah out. Likely summer exit per April reporting", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Unused substitute at Old Trafford (Sun May 3, L 3-2) — Slot turned to Ngumoha and Kerkez instead. Rotation winger option for Chelsea (H) May 9; April reporting still has the Italian likely to exit this summer", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -271,7 +271,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 8.0, status: "fit", recentPlayedDates: ["2026-04-25"], injuryNote: "Made full Liverpool debut in the 3-1 win vs Crystal Palace (Apr 25) — 8/10 across TIA, Liverpool.com and Goal.com after stepping in for the injured Mama. Drops to the bench when Alisson returns at Old Trafford May 3 but proved Liverpool's third-choice depth ahead of summer rebuild", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Second consecutive league start at Old Trafford (Sun May 3, L 3-2) with Alisson and Mama still out — beaten by Cunha 6', Sesko 14' and Mainoo 77' but ratings 6-7 across TIA & Liverpool.com on a tough afternoon. Drops back to the bench once Alisson is cleared for Chelsea (H) May 9", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -331,18 +331,19 @@ export const TEAM_LOGOS = {
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
 export const NEXT_MATCH = {
-  opponent: "Manchester United",
-  shortName: "MUN",
-  home: false,
-  date: "2026-05-03T14:30:00",
+  opponent: "Chelsea",
+  shortName: "CHE",
+  home: true,
+  date: "2026-05-09T11:30:00",
   competition: "PL",
-  venue: "Old Trafford",
-  broadcast: "Sky Sports",
+  venue: "Anfield",
+  broadcast: "TNT Sports",
 };
 
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
 // result: "W" | "D" | "L"
 export const RESULTS = [
+  { date: "2026-05-03", opponent: "Manchester United", home: false, score: "2-3", competition: "PL", result: "L", scorers: "Szoboszlai 47', Gakpo 56'" },
   { date: "2026-04-25", opponent: "Crystal Palace",home: true,  score: "3-1", competition: "PL",   result: "W", scorers: "Isak, Robertson, Wirtz 90+" },
   { date: "2026-04-19", opponent: "Everton",       home: false, score: "2-1", competition: "PL",   result: "W", scorers: "Salah, Van Dijk 90+10'" },
   { date: "2026-04-14", opponent: "PSG",           home: true,  score: "0-2", competition: "UCL",  result: "L", scorers: "" },
@@ -367,12 +368,14 @@ export const RESULTS = [
   { date: "2026-01-08", opponent: "Arsenal",      home: false, score: "0-0", competition: "PL",   result: "D", scorers: "" },
 ];
 
-// ─── Premier League Standings (after Round 34) ─────────────────────────────
+// ─── Premier League Standings (after Round 35) ─────────────────────────────
+// Liverpool fixed after the Sun May 3 Old Trafford defeat — other rows held
+// at their pre-MW35 positions (full league round still rolling).
 export const STANDINGS = [
   { pos: 1, team: "Arsenal",         p: 34, w: 24, d: 6, l: 4,  gd: 46, pts: 78 },
   { pos: 2, team: "Manchester City", p: 34, w: 22, d: 7, l: 5,  gd: 39, pts: 73 },
   { pos: 3, team: "Newcastle",       p: 34, w: 20, d: 6, l: 8,  gd: 24, pts: 66 },
-  { pos: 4, team: "Liverpool",       p: 34, w: 19, d: 7, l: 8,  gd: 22, pts: 64, highlight: true },
+  { pos: 4, team: "Liverpool",       p: 35, w: 19, d: 7, l: 9,  gd: 21, pts: 64, highlight: true },
   { pos: 5, team: "Aston Villa",     p: 34, w: 18, d: 8, l: 8,  gd: 14, pts: 62 },
   { pos: 6, team: "Chelsea",         p: 34, w: 17, d: 9, l: 8,  gd: 12, pts: 60 },
   { pos: 7, team: "Tottenham",       p: 34, w: 17, d: 7, l: 10, gd: 8,  pts: 58 },
@@ -383,162 +386,163 @@ export const STANDINGS = [
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "The Egyptian's farewell, written in pencil.",
-    byline: "James Pearce",
-    dateline: "Anfield · 1 May",
-    category: "Transfers",
-    body: "Mohamed Salah will not travel to Old Trafford on Sunday. The club, in a statement issued late on Thursday, called the hamstring complaint 'minor' — the kind of language that survives a press cycle but rarely a season. He is expected to return for the Brentford match. He is expected, also, to announce his next club within days. The two facts are not unrelated. They are simply the two halves of the same long goodbye, the second of which is being written by an Egypt FA staffer with the brisk economy of a man who has read the room.",
+    headline: "Mainoo, at the death, and a 19th defeat.",
+    byline: "Sky Sports",
+    dateline: "Old Trafford · 3 May",
+    category: "Match Report",
+    body: "Two down inside fourteen minutes — Cunha, then Sesko, the second one waved through by a VAR shrug Slot would later spend forty minutes denouncing. Two-all by the hour through Szoboszlai and Gakpo, the comeback pulled together in the kind of second-half stretch that flatters a season. Then, on seventy-seven, Kobbie Mainoo finds the corner. The win secures United's place in next season's Champions League. Liverpool's nineteenth defeat is the kind of number that sits, unmoved, on the page.",
   },
   {
     n: "02",
-    headline: "Konaté, at last, on Liverpool's terms.",
-    byline: "Fabrizio Romano",
-    dateline: "Liverpool · 30 April",
-    category: "Contracts",
-    body: "After eighteen months of Real-Madrid-shaped silence, the France international has settled. The salary structure is agreed; only the length of the deal and the architecture of its bonuses remain. Konaté, in his own words: 'It's Liverpool.' Three syllables — an entire summer of negotiation reduced to a verdict.",
+    headline: "Slot's VAR rant, three months too late.",
+    byline: "Goal.com",
+    dateline: "Old Trafford · 3 May",
+    category: "Manager",
+    body: "'I remember PSG at home — a soft touch on Mac Allister, VAR intervenes, no penalty. The other week, PSG gets one. This time, the referee stops play when a United player is injured off the pitch. Last week, play continues when our goalkeeper is on the floor needing treatment.' The list went on. The pattern, the manager said, was complete. So too, by this point, was the season's reservoir of grievance — against officials, against luck, against, finally, fate. He acknowledged that United were the better side. The two thoughts, in a Slot post-match, do not contradict each other.",
   },
   {
     n: "03",
-    headline: "Hughes' five names, and the road to a rebuild.",
-    byline: "Anfield Watch",
-    dateline: "Liverpool · 30 April",
-    category: "Transfers",
-    body: "Five forwards on Richard Hughes' shortlist. Barcola at the top, Diomande and Doué close behind, Olise effectively closed off after the Bayern double-rejection, Akliouche the speculative final name. The summer rebuild begins where the Salah era ends — and not, the sporting director would surely insist, a moment before.",
+    headline: "Salah's gesture: 'The farewell Henderson deserves.'",
+    byline: "TNT Sports",
+    dateline: "Anfield · 2 May",
+    category: "Farewells",
+    body: "On May 24, Brentford visit Anfield. Mohamed Salah may be fit to play; he may not. Either way, he is the headline. But on the eve of his own departure, the Egyptian asked the club, the supporters, the room, to do something for the man returning in the away kit: Jordan Henderson, returning to the Anfield turf for the first time since the summer of 2023. 'He didn't get the send-off he deserved,' Salah said. The gesture — generous, unprompted, the captain's instinct surfacing in the No. 11 — was reported on Saturday. The response was immediate.",
   },
   {
     n: "04",
-    headline: "A goalkeeper, a debut, and a number on the back.",
-    byline: "This Is Anfield",
-    dateline: "Anfield · 26 April",
-    category: "Squad",
-    body: "Freddie Woodman is twenty-nine years old and made his Liverpool debut on Saturday. He kept Crystal Palace to one. He earned eight from three different rating columns. He will, on Sunday, return to the bench. There is a particular kind of footballing dignity in this — a career measured not in caps but in the discipline of being ready, once, and being right.",
+    headline: "Sir Alex, taken to hospital, and a ground that paused.",
+    byline: "BBC Sport",
+    dateline: "Old Trafford · 3 May",
+    category: "Football News",
+    body: "He had been in the directors' box, as he always is. Then, in the tunnel area shortly before kick-off, the eighty-four-year-old felt unwell, was helped from the building, and was taken to hospital. The Athletic, citing the club, was at pains to call it not an emergency. BBC Sport relayed an optimism around his quick return home. Sky Sports's coverage broke from the match itself to deliver the update at half-time. It was, in the end, the second story to come out of Old Trafford — but for an hour, before the second half began, it was the first.",
   },
   {
     n: "05",
-    headline: "Robertson, a captain, a free transfer, a farewell tour.",
-    byline: "The Anfield Wrap",
-    dateline: "Liverpool · 29 April",
-    category: "Departures",
-    body: "Slot, in his Tuesday press conference, conceded what the team-sheet had already declared: the Scotland captain has lost his first-choice spot, and 'as a result' is leaving on a free. Tottenham, per the reporting, have 'an agreement on everything' subject to their own Premier League fate. Atletico Madrid linger. Robertson, on Saturday, played as if none of it were so — finished a Curtis Jones counter, took the eight, took the applause.",
+    headline: "Wharton, advanced, and the Real Madrid pre-empt.",
+    byline: "Caught Offside",
+    dateline: "Liverpool · 2 May",
+    category: "Transfers",
+    body: "Adam Wharton: twenty-two, Crystal Palace, England, Real Madrid's reported summer target. Liverpool, per Matteo Moretto on Saturday, are now in advanced talks. Anfield Index, Football365, GiveMeSport, FootballTransfers all picked up the line within hours. The asking price floats around seventy million; the deal, if it lands, would be the second-most expensive midfield acquisition in the club's history after Wirtz. The midfielder himself is reportedly keen on a Champions League club. Liverpool's qualification — Opta has it at 97.14 percent — is the second contractual lever after the move itself.",
   },
 ];
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-05-03T11:30:00Z",
+  generatedAt: "2026-05-04T09:30:00Z",
   summary:
-    "Sunday May 3 (matchday) — Liverpool's striker crisis just deepened: Sky Sports, Goal.com and the Daily Mail report this morning that Alexander Isak picked up a suspected groin strain in Friday's training and will miss the 14:30 Old Trafford trip, leaving Slot's side without ANY fit recognised senior No.9 (Ekitike out for the season, Salah hamstring). The Saturday predicted-XI consensus (Sports Mole, Rousing The Kop, Sports Illustrated) is now overhauled — Gakpo expected to lead the line as a false-9 with 17-year-old Rio Ngumoha primed for his biggest start in red. Alisson remains sidelined per Liverpool.com's Sat May 3 update, so Woodman keeps the gloves on his second senior LFC start. Off the pitch the transfer window opened a notch on Friday: Matteo Moretto reports Liverpool are in 'advanced talks' for Crystal Palace's Adam Wharton (~£70-80m) with the deal accelerated to preempt Real Madrid, and TeamTalk says a £24m offer is in for Napoli's Sam Beukema after Slot 'told Hughes' to do the deal. Six points from four still secures top-five UCL (Opta 96.92%) — but today's striker situation makes that look harder than it did 24 hours ago.",
+    "Monday May 4 — Liverpool wake up to a 19th defeat of the season after Kobbie Mainoo's 77' winner sealed Manchester United 3-2 at Old Trafford on Sunday, the result that secured United's own Champions League return for 2026-27. Slot's post-match took a hard turn: an impassioned, on-record VAR rant ('a recurring pattern'), specifically calling out Sesko's allowed second goal that 'should have been disallowed' for handball — Sky Sports, Goal.com, FOX, This Is Anfield and Empire of the Kop all led with it Sun night. Mac Allister bandaged a head wound from a stray Van Dijk elbow in the build-up to Cunha's 6' opener and played through; Szoboszlai (47', 8.5/10) and Gakpo (56') hauled the comeback to 2-2 before Mainoo struck. Off the pitch, the human story of the day: 84-year-old Sir Alex Ferguson was taken to hospital from the directors' box pre-match — BBC Sport and The Athletic confirmed late Sun it was 'not an emergency' and he was expected home soon. With Chelsea (H) Sat May 9 next, Opta still has Liverpool top-five at 97.14% — but Salah, Isak, Alisson, Mama, Bradley, Ekitike and Endo all remain on the absentee list.",
   keyTopics: [
     {
-      title: "BREAKING — Alexander Isak Ruled OUT of Old Trafford with Groin Strain (Sun May 3)",
+      title: "MATCH REPORT — Manchester United 3-2 Liverpool: Mainoo Winner Ends Comeback (Sun May 3)",
       detail:
-        "Broke this morning (Sun May 3) via Sky Sports, Goal.com, the Daily Mail and Foxsports: the £130m Sweden international suffered a suspected groin injury in Friday's session and will not travel to Old Trafford. Liverpool head into the 14:30 kick-off WITHOUT a fit recognised senior No.9 (Ekitike — ruptured Achilles, season over; Salah — hamstring). A scan this weekend will confirm timeline; even a minor groin issue is typically a 1-2 week absence putting Chelsea (May 9) and the Aston Villa trip (May 17) at risk.",
-      category: "injuries",
+        "Played Sun May 3, 14:30 UK at Old Trafford. Cunha 6' and Sesko 14' had United two up by quarter hour; Szoboszlai 47' and Gakpo 56' levelled it after the break; Kobbie Mainoo's 77' strike won it. Slot's confirmed XI: Woodman; Jones, Konate, Van Dijk, Robertson; Szoboszlai, Gravenberch, Mac Allister; Frimpong, Gakpo, Wirtz. Subs: Kerkez 59' (Robertson), Ngumoha 75' (Frimpong). The defeat was Liverpool's 19th of the season — and the win confirmed United's return to the Champions League for 2026-27.",
+      category: "matches",
     },
     {
-      title: "BREAKING — Gakpo Expected at False 9, Ngumoha Primed for Biggest Start",
+      title: "Slot's VAR Rant: 'A Recurring Pattern' — Calls Out Sesko Goal as Handball (Sun May 3)",
       detail:
-        "Published this morning (Sun May 3) by Sports Mole, Rousing The Kop and Sports Illustrated as the post-Isak XI consensus settled: Cody Gakpo shifts centrally as a false 9 with 17-year-old Rio Ngumoha drafted in to start on the left, Wirtz at the 10 and Szoboszlai pushed wider on the right. The youngest-ever PL Anfield scorer is now in line for the biggest start of his career.",
+        "Issued Sun May 3 post-match and amplified Mon morning across Sky Sports, Goal.com, FOX, This Is Anfield, Empire of the Kop, TeamTalk and Read Liverpool: Slot launched an impassioned VAR critique, claiming Sesko's allowed second goal at Old Trafford 'should have been disallowed' for handball ('if a ball has a certain curve and the curve changes, there must have been contact'). He listed prior decisions ('PSG at home, soft touch on Mac Allister, no penalty', 'last week play continued when our goalkeeper needed treatment') as a 'complete pattern' against Liverpool this season — while still acknowledging United were the better side.",
       category: "tactics",
     },
     {
-      title: "BREAKING — Liverpool 'Advanced Talks' for Adam Wharton, Real Madrid Preempted (Sat May 2)",
+      title: "Sir Alex Ferguson Taken to Hospital Pre-Match — 'Not an Emergency' (Sun May 3)",
       detail:
-        "Reported Sat May 2 by Matteo Moretto, picked up by CaughtOffside, FootballTransfers, RushHourSport and Anfield Index: Liverpool have 'preempted' Real Madrid's interest by accelerating talks for Crystal Palace's Adam Wharton, the 22-year-old midfielder who has 46 appearances this season. Fee floated at ~£70-80m. Wharton is reportedly keen to join a Champions League club this summer — Liverpool's qualification (Opta 96.92%) is now the second contractual lever after the move itself.",
-      category: "transfers",
-    },
-    {
-      title: "TODAY — Alisson Still Sidelined for Old Trafford, Woodman Keeps the Gloves",
-      detail:
-        "Liverpool.com's Sun May 3 injury rundown confirms what Slot's Friday presser hinted: Alisson 'has yet to train' and will not feature against Manchester United, despite the manager calling him 'very close to' returning. The Brazilian hasn't played since March 18. Freddie Woodman accordingly retains the gloves after his 8/10 LFC debut vs Palace; Mama (knee) is also out for ~3 more weeks.",
-      category: "injuries",
-    },
-    {
-      title: "Slot's Pre-Man Utd Presser: Every Word on Salah, Alisson, Isak Form (Fri May 1)",
-      detail:
-        "Liverpool.com transcribed the full pre-Man Utd press conference Friday May 1: Slot confirmed Salah is out, called Alisson 'very close to' training, and pushed back on the Isak narrative — 'we will need more from him next season' framed alongside Salah's exit. Slot also defended Wirtz's adaptation period and confirmed Kerkez had returned to training after the midweek niggle. Within 24 hours the Isak narrative became academic — see top item.",
-      category: "matches",
-    },
-    {
-      title: "TeamTalk: Liverpool Make £24m 'Offer' for Napoli's Sam Beukema (Sat May 2)",
-      detail:
-        "Reported Sat May 2 by TeamTalk: Liverpool have made a £24m approach for Napoli's Dutch centre-back Sam Beukema after Slot reportedly 'told Hughes' to push the deal through. Considered cover/competition for Konaté or as an early move ahead of Joe Gomez's likely summer departure. The fee at the lower end of Italian valuations.",
-      category: "transfers",
-    },
-    {
-      title: "FSG Publicly Back Arne Slot for 'Third Season' Amid 'Harsh' Criticism (Sat May 2)",
-      detail:
-        "Reported Sat May 2 by This Is Anfield and Sky Sports News: FSG view Slot as having earned 'the opportunity of a third season in charge' after 'unforeseen challenges' (Slot in his Fri May 1 presser called some of the criticism 'harsh'). UCL qualification is the explicit lever; Slot's contract runs to 30 June 2027. Carragher (Liverpool.com) added he 'can't wait for the season to end' so the Reds can reset under Slot.",
+        "Reported Sun May 3 first by Sky Sports, BBC Sport, ESPN and The Athletic, then confirmed late evening: the 84-year-old former Manchester United manager felt unwell in the tunnel area pre-kick-off and was escorted by ambulance to hospital. United later said the situation was 'not a medical emergency' and BBC Sport reported officials were 'optimistic' he would soon be 'fit enough' to return home. Sky Sports interrupted half-time coverage for the update.",
       category: "general",
     },
     {
-      title: "Salah Officially Ruled Out of Old Trafford, Liverpool 'Expect Him Back' This Season (Fri May 1)",
+      title: "Mac Allister Plays Through Head Wound After VVD Elbow in Cunha Goal Build-Up (Sun May 3)",
       detail:
-        "Confirmed Friday May 1 by Sky Sports and Goal.com after Slot's presser: Salah will miss Sunday's trip with the hamstring issue picked up vs Palace, but Liverpool publicly state they expect him back before season's end for the Anfield farewell vs Brentford May 24. Salah's Liverpool farewell is now firmly tied to the home finale rather than the Old Trafford trip.",
+        "Captured live on Sun May 3 broadcast: Van Dijk caught Mac Allister with an elbow while contesting a header against Mbeumo seconds before Cunha's opener; the Argentine required bandaging and wore a protective head cap for the second half. Premier League's social channels showed the cap; This Is Anfield and Liverpool.com listed him as a 7/10 for the 'pretty epic midfield battle'. He is expected fit for Chelsea (H) May 9.",
       category: "injuries",
     },
     {
-      title: "FourFourTwo: Salah Set to Announce Next Club 'Within Days' — Egypt Staffer Confirms (Fri May 1)",
+      title: "Salah's Gesture: 'The Farewell Henderson Deserves' on May 24 (Sat May 2)",
       detail:
-        "Reported Friday May 1 by FourFourTwo, beIN Sports and SportBible, original source an Egypt national-team staff member: Salah will reveal his next destination 'in a few days' once the contract decision is locked in. Saudi Pro League pressure cooling per ESPN and Sky Sports — Al-Ittihad still leading the SPL field, with San Diego FC the natural MLS landing spot, and Juventus (Spalletti reunion) the European dark-horse Liverpool.com flagged.",
-      category: "transfers",
-    },
-    {
-      title: "Etienne Reijnen Closing on Liverpool Backroom Reunion — Set-Piece Coach for 2026-27 (Fri May 1)",
-      detail:
-        "Reported Friday May 1 by This Is Anfield, Empire of the Kop and Anfield Index: Slot is 'on the verge' of finally landing Etienne Reijnen, his old Feyenoord set-piece assistant blocked by a UK work permit two years ago. Reijnen, 39 (former PEC Zwolle teammate), will fill the set-piece coach vacancy left by Aaron Briggs' December exit — Feyenoord conceded only four set-piece goals this season, Liverpool 16. Move expected once his coaching qualifications complete this summer.",
+        "Reported Sat May 2 by TNT Sports, This Is Anfield and Rousing The Kop: ahead of his own Anfield exit Mohamed Salah publicly urged Liverpool fans to give Jordan Henderson 'the farewell he deserved' when Brentford visit on May 24. Henderson — who left Anfield in summer 2023 — will return for the first time in red-and-white away kit; the Brentford home finale is now also expected to be Salah's Liverpool send-off (he is targeting that game after the 'minor' hamstring).",
       category: "general",
     },
     {
-      title: "Liverpool Walk Back Salah 'Last Game' Verdict: 'Minor' Muscle Injury (Thu Apr 30)",
+      title: "Liverpool Player Ratings vs Man Utd: Szoboszlai 8.5, Frimpong 5.5 (Sun May 3)",
       detail:
-        "Released Thu Apr 30 via LFC's official channels and amplified by Sky Sports, Liverpool.com, Sports Illustrated and Empire of the Kop: the Palace hamstring complaint is 'minor' and the Egyptian is expected back before the season ends. The statement directly contradicted Egypt FA director Ibrahim Hassan's Apr 26 '4 weeks / played his last game' verdict and put the Brentford home finale May 24 back on the table as the Anfield farewell.",
-      category: "injuries",
-    },
-    {
-      title: "Konaté Contract 'Never Closer to Agreement' — Salary Aligned (Wed Apr 30)",
-      detail:
-        "Reported Wed Apr 30 by ESPN and This Is Anfield (echoing Romano Apr 20): the France international and Liverpool have 'never been closer' on a new deal, with main salary structure agreed and only contract length and performance-related bonuses left to settle. Konaté himself: 'It's Liverpool' — full Real Madrid U-turn. He wants a rise on the current £150k/wk.",
-      category: "transfers",
-    },
-    {
-      title: "Run-In: Man Utd (A) May 3, Chelsea (H) May 9, Villa (A) May 17, Brentford (H) May 24",
-      detail:
-        "Per the Premier League fixture list: Liverpool's four remaining games are Man Utd at Old Trafford Sun May 3 (14:30 UK, Sky), Chelsea (H), Villa (A) and the Brentford home finale where Salah is expected to take his Anfield bow following the 'minor' injury update. Six points secures top-five UCL — Opta 96.92% as of Saturday.",
+        "Published Sun May 3 across Goal.com, This Is Anfield, NBC Sports, Sports Illustrated, Read Liverpool and Rousing The Kop: Szoboszlai 8.5 ('what a read to take the ball off Amad Diallo'), Curtis Jones 8 (over 100 touches), Gravenberch 7, Mac Allister 7, Robertson 5-6.5 ('beaten too easily by Mbeumo'), Frimpong 5.5 ('no end product, lost 8 of 10 duels with Luke Shaw'). Goal.com's headline: 'Robertson and Mac Allister among Reds flops as another standout Szoboszlai display goes to waste.'",
       category: "matches",
     },
     {
-      title: "MATCH REPORT — Liverpool 3-1 Crystal Palace: Up to 4th (Sat Apr 25)",
+      title: "Champions League Race: Opta 97.14%, Liverpool 6 Pts Clear of Bournemouth (Mon May 4)",
       detail:
-        "Played Sat Apr 25 at Anfield: Isak (29') controlled Mac Allister's skewed long shot for his first Anfield league goal; Robertson (44') finished a Curtis Jones counter; Munoz (71') pulled one back; Wirtz drove home in added time. Curtis Jones at RB and Mac Allister in the pivot (Gravenberch rested). Liverpool jumped above Aston Villa into 4th.",
+        "Updated Mon May 4 across Football365, Al Jazeera, This Is Anfield and the Premier League site: Liverpool sit 4th with 64 points after 35 games, six clear of Bournemouth in 6th and three games to play. Top-five secures the 2026-27 Champions League slot (PL keeps the fifth spot for a second straight year). Opta supercomputer: Liverpool 97.14% to qualify; even a single point in any of the three remaining games clinches it depending on Bournemouth's form vs Fulham.",
+      category: "matches",
+    },
+    {
+      title: "Adam Wharton — Liverpool 'Advanced Talks' for £70m Crystal Palace Midfielder (Sat May 2)",
+      detail:
+        "Reported Sat May 2 by Matteo Moretto and amplified by CaughtOffside, FootballTransfers, GiveMeSport, Football365, SportBible and Anfield Index: Liverpool are in 'advanced talks' to sign the 22-year-old England midfielder, accelerating the deal to preempt Real Madrid's interest. Asking price ~£70m; Wharton himself told reporters Sat he 'won't be distracted' by the speculation. Champions League qualification (Opta 97.14%) the second contractual lever.",
+      category: "transfers",
+    },
+    {
+      title: "Daniel Svensson Linked — Dortmund LB on Liverpool's Robertson-Replacement List (Sat May 2)",
+      detail:
+        "Reported Sat May 2 by Liverpool.com (citing Fussball Daten) and picked up across Sky Sports' transfer ticker: Liverpool and Arsenal both keen on Borussia Dortmund's Sweden left-back Daniel Svensson. With Robertson set for a free-agent summer move (Tottenham still leading), the 23-year-old is positioned as the longer-term LB heir alongside Kerkez. A $33m bid is reportedly on the table.",
+      category: "transfers",
+    },
+    {
+      title: "Sam Beukema — £24m Offer for Napoli's Dutch CB Confirmed (Sat May 2)",
+      detail:
+        "Reported Sat May 2 by TeamTalk and Liverpool.com: Liverpool have lodged a £24m approach for Napoli's 27-year-old Dutch centre-back after Slot reportedly 'told Hughes' to push the deal. Cover/competition for Konaté and an early move ahead of Joe Gomez's likely summer exit; the fee at the lower end of Italian valuations.",
+      category: "transfers",
+    },
+    {
+      title: "Van Dijk Expected to Leave at End of 2026-27 — The Athletic Report (Wed Apr 30)",
+      detail:
+        "Reported Wed Apr 30 by The Athletic and amplified across Sky Sports' Liverpool transfer feed Sat May 2: club captain Virgil van Dijk is expected to leave Liverpool at the end of next season, his current contract concluding then. Source on the Bayern, MLS and Saudi tracks; the Anfield era of the 2018-2025 spine continues to wind down after Salah and Robertson's confirmed exits.",
+      category: "transfers",
+    },
+    {
+      title: "Konaté Contract 'Never Been Closer' — Salary Aligned, Length the Final Detail (Wed Apr 30)",
+      detail:
+        "Reported Wed Apr 30 by ESPN and This Is Anfield (echoing Romano Apr 20): the France international and Liverpool 'have never been closer' to agreement on the new deal, with main salary structure aligned and only contract length and bonus mechanics still to settle. Konaté himself: 'It's Liverpool' — full Real Madrid U-turn after eighteen months of speculation.",
+      category: "transfers",
+    },
+    {
+      title: "FSG Publicly Back Arne Slot for 'Third Season' Amid Difficult Campaign (Sat May 2)",
+      detail:
+        "Reported Sat May 2 by FootballTransfers, This Is Anfield and Sky Sports News: FSG retain firm faith in Slot, viewing 'unforeseen challenges' (Diogo Jota's pre-season death cited explicitly) as having warranted the difficult run. Slot's contract runs to 30 June 2027; UCL qualification the explicit lever. He himself called some of the criticism 'harsh' in his Fri May 1 presser.",
+      category: "general",
+    },
+    {
+      title: "Run-In: Chelsea (H) May 9, Aston Villa (A) May 17, Brentford (H) May 24",
+      detail:
+        "Confirmed by the Premier League fixture list as of Mon May 4: Liverpool's three remaining games are Chelsea at Anfield Sat May 9 (11:30 UK, TNT Sports), Aston Villa at Villa Park Sun May 17, and the Brentford home finale Sun May 24 — Salah's projected Anfield farewell and Henderson's first return to the Anfield turf since summer 2023. Six points (or two with Bournemouth slips) secures top-five UCL.",
       category: "matches",
     },
   ],
   sources: [
     "Sky Sports",
     "Goal.com",
-    "Daily Mail",
-    "Foxsports",
-    "Sports Mole",
-    "Rousing The Kop",
-    "Sports Illustrated",
-    "Liverpool.com",
+    "BBC Sport",
+    "ESPN",
+    "FOX Sports",
+    "The Athletic",
+    "TNT Sports",
     "This Is Anfield",
-    "FotMob",
+    "Liverpool.com",
+    "NBC Sports",
+    "Empire of the Kop",
+    "TeamTalk",
+    "Sports Illustrated",
+    "Read Liverpool",
+    "Rousing The Kop",
     "CaughtOffside",
     "FootballTransfers",
-    "Liverpool FC",
-    "TeamTalk",
-    "FourFourTwo",
-    "beIN Sports",
-    "ESPN",
-    "NBC Sports",
-    "3 Added Minutes",
-    "Empire of the Kop",
-    "Anfield Watch",
+    "Football365",
+    "GiveMeSport",
+    "SportBible",
     "Anfield Index",
     "Premier League",
+    "Al Jazeera",
     "Opta",
+    "FotMob",
   ],
 };
 
