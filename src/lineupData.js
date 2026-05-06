@@ -20,15 +20,16 @@ export const FORMATIONS = {
       RW:  { x: 82, y: 22, role: "FWD" },
     },
     // IDs from playerData.js — Slot's likely XI for Chelsea (H), Sat May 9 11:30.
-    // Updated Mon May 4 after the 3-2 Old Trafford defeat (Sun May 3): Frimpong
-    // (5.5) and Robertson (5-6.5) flopped per Goal.com & TIA ratings — Slot
-    // will likely revert to Curtis Jones at RB (8/10, 100+ touches at MUN) and
-    // give Kerkez the LB nod after the Hungarian came on at 59' for Robbo.
-    // Alisson now expected back from his hamstring per LFC Mon May 4 outlook;
-    // Mac Allister played through head wound (VVD elbow) — fit. Gakpo continues
-    // as false-9 with Isak still out (groin, 1-2 wks), Salah hamstring keeps
-    // him out until Brentford May 24. Ngumoha came on at 75' vs MUN; live in
-    // contention to start with Frimpong's display likely costing him.
+    // Updated Wed May 6: Romano via Tribuna confirmed Tue May 5 Curtis Jones
+    // has given his 'full approval' to Inter Milan — but he still keeps the RB
+    // slot for Sat off his 8/10 MUN display. Frimpong (5.5) and Robertson
+    // (5-6.5) flopped per Goal.com & TIA — Kerkez at LB after his 59' cameo
+    // cleared the niggle, Ngumoha LW after his 75' sub. Alisson 'very close'
+    // to training per Anfield Index Wed but hadn't trained as of Friday — keep
+    // him pencilled in but Woodman is the live fallback. Mac Allister fit (head
+    // cap from VVD elbow). Gakpo continues as false-9 with Isak still out
+    // (groin — but Anfield Index Wed: 'genuine belief' he features), Salah
+    // hamstring (TNT 'injury is fine' but Brentford the firm return).
     defaultXI: {
       GK: 1,    // Alisson (returns after eight-week hamstring layoff · 'very close' Apr 30)
       LB: 7,    // Kerkez (came on for Robertson 59' at MUN · niggle clear)
@@ -60,12 +61,15 @@ export const FORMATIONS = {
       ST:  { x: 50, y: 14, role: "FWD" },
     },
     // Slot's likely XI for Chelsea (H) Sat May 9 11:30 in his preferred 4-2-3-1.
-    // Updated Mon May 4 after the 3-2 Old Trafford defeat: Slot will likely
-    // restore Alisson (LFC Mon May 4 outlook), bring Kerkez in at LB after
-    // Robertson's 5-6.5 outing, keep Curtis Jones at RB (8/10 vs MUN), pair
-    // Gravenberch + Mac Allister in the double pivot (Mac Allister played
-    // through the head wound), float Wirtz at the 10 (top creator with Salah
-    // and Isak out), Szoboszlai right and Ngumoha left after Frimpong's 5.5.
+    // Updated Wed May 6 (3 days out): Alisson penciled in with Woodman the
+    // live fallback ('very close' to training but hadn't trained as of Friday's
+    // presser per Anfield Index). Kerkez at LB after Robertson's 5-6.5 outing,
+    // Curtis Jones at RB despite the Romano/Tribuna 'full approval' to Inter
+    // story Tue May 5 (8/10 MUN display secures the slot). Gravenberch + Mac
+    // Allister double pivot (head cap fit). Wirtz at the 10 — top creator with
+    // Salah AND Isak both out (Anfield Index Wed: 'genuine belief' Isak could
+    // feature changes the calculus). Szoboszlai right, Ngumoha left after
+    // Frimpong's 5.5 vs MUN.
     defaultXI: {
       GK: 1,    // Alisson (returns from eight-week hamstring layoff)
       LB: 7,    // Kerkez (came on at 59' vs MUN · gets LB nod over Robertson)
@@ -113,12 +117,12 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-05-05.
+// Hand-curated from RESULTS array + injuryNote context as of 2026-05-06.
 export const PLAYER_EVIDENCE = {
-  1:  "Back in training Mon · Chelsea return target",  // Alisson
+  1:  "'Very close' to training · Chelsea target",    // Alisson
   2:  "Stitched knee · Aston Villa target return",    // Mamardashvili
   3:  "'We are not kids' · defends Slot Tue",         // Van Dijk
-  4:  "Started MUN · contract 'never closer'",        // Konaté
+  4:  "Crook 'mixed messages' · 50/50 contract",      // Konaté
   5:  "Unused MUN bench · likely summer exit",        // Gomez
   6:  "Hooked 59' MUN · Goal.com 'flop' rating",      // Robertson
   7:  "Came on 59' MUN · LB nod for Chelsea",         // Kerkez
@@ -130,14 +134,14 @@ export const PLAYER_EVIDENCE = {
   13: "Head-cap warrior at MUN · 7/10",               // Mac Allister
   14: "Returned to start MUN · 7/10",                 // Gravenberch
   15: "8.5/10 vs MUN · pulled goal back",             // Szoboszlai
-  16: "8/10 RB at MUN · 100+ touches",                // Jones
+  16: "Romano: 'full approval' to Inter Milan",       // Jones
   17: "Ankle surgery · out for season",               // Endo
   18: "Started right vs MUN · top creator",           // Wirtz
   19: "Hamstring · yet to play this season",          // Bajcetic
   20: "Academy prospect · 5 senior apps",             // Nyoni
-  21: "Hamstring · 'For sure' Brentford return",      // Salah
+  21: "TNT: 'injury is fine' · Chelsea targeted",     // Salah
   22: "Scored 56' vs MUN · false-9 lead",             // Gakpo
-  23: "Groin strain · 1-2 wks · Villa target",        // Isak
+  23: "'Genuine belief' he features vs Chelsea",      // Isak
   24: "Ruptured Achilles · out 9-12 months",          // Ekitike
   25: "Came on 75' MUN · live for Chelsea start",     // Ngumoha
   26: "Unused MUN bench · likely summer exit",        // Chiesa
@@ -152,34 +156,34 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys. The UI renders these as colored dots on each pitch token.
 // Keys match DEFAULT_FORMATION (4-2-3-1).
 export const SLOT_CONFIDENCE = {
-  GK:  "Medium", // Alisson 'very close' (Apr 30) · could miss again — Woodman fallback
+  GK:  "Medium", // Alisson 'very close' but hadn't trained as of Friday presser · Woodman fallback live
   LB:  "High",   // Kerkez came on at 59' for Robertson at MUN · gets the LB nod
   LCB: "High",   // Van Dijk captain · 19th defeat skipper · anchor
-  RCB: "High",   // Konaté started MUN · new deal 'never been closer' (ESPN Apr 30)
-  RB:  "High",   // Curtis Jones 8/10, 100+ touches at MUN · Trent-redux RB nailed on
+  RCB: "High",   // Konaté started MUN · contract '50/50' but he plays through
+  RB:  "High",   // Curtis Jones 8/10 at MUN despite Inter approval · still nailed on
   LDM: "High",   // Gravenberch returned to start MUN · 7/10 · plays through
   RDM: "Medium", // Mac Allister fit (head cap) but VVD elbow caution · pivot pairing fluid
   LAM: "Medium", // Ngumoha came on 75' MUN · ahead of Frimpong but Chiesa option live
   CAM: "High",   // Wirtz · top creator with Salah AND Isak out · drives the No.10 channel
   RAM: "High",   // Szoboszlai 8.5/10 vs MUN · engine of run-in · drives right channel
-  ST:  "Medium", // Gakpo as false-9 · scored 56' MUN · Wirtz central also possible
+  ST:  "Medium", // Gakpo as false-9 · scored 56' MUN · Isak return chase keeps it open
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
 // Explains why the predicted starter won their slot. Populated by the predictor;
 // hand-set initially. Keyed by slot key (for the active formation — 4-2-3-1).
 export const SLOT_RATIONALE = {
-  GK:  "Tue May 5 ReadLiverpool roundup: Alisson back in full training Mon May 4 and tracking Chelsea (H) May 9 as the realistic return after his eight-week hamstring layoff. Woodman drops back to bench after two consecutive starts; Mama still ~1 week away",
+  GK:  "Wed May 6 Anfield Index/Liverpool.com roundup: Alisson 'very close' to training but per Slot's Friday presser still 'hasn't trained with us yet — hopefully today, tomorrow or start of next week.' Tracking Chelsea (May 9) as the realistic return after his eight-week hamstring layoff. Woodman drops back to bench if Alisson is cleared in time; Mama still ~1 week away",
   LB:  "Came on at 59' for Robertson at Old Trafford (Sun May 3) — niggle clear, gets the LB start back after Robertson's 5-6.5 'flop' rating per Goal.com",
   LCB: "Captain · 19th defeat skipper · still anchors the line · The Athletic (Apr 30) reports VVD now expected to leave end of 2026-27",
-  RCB: "Started Old Trafford defeat (Sun May 3) · Romano + ESPN (Apr 30): new Liverpool deal 'never been closer' — only length and bonuses left to settle. 'It's Liverpool'",
-  RB:  "Goal.com 8/10 at Old Trafford with over 100 touches · Slot Apr 27 'comfort on the ball, like Trent had at right-back' · Trent-redux RB experiment continues to thrive",
+  RCB: "Started Old Trafford defeat (Sun May 3) · Wed May 6 frame more cautious: Apr 21 he himself said 'we are close' but Apr 25 Crook reported insiders see it as '50/50.' Decision expected before the World Cup",
+  RB:  "Goal.com 8/10 at Old Trafford with over 100 touches despite Tue May 5 Romano report he's given his 'full approval' to Inter Milan · Slot Apr 27 'comfort on the ball, like Trent had at right-back' · still nailed on for the run-in",
   LDM: "Returned to start MUN — 7/10, nine passes into the final third (TIA) · ball-winning anchor · plays through the run-in despite NBC Sports flagging him for a rest",
   RDM: "Played through head wound after VVD elbow at MUN (head cap second half) · Goal.com 7/10 'pretty epic midfield battle' · expected fit for Chelsea (May 9)",
   LAM: "Came on at 75' for Frimpong at MUN — first attacking change as the comeback fizzled. Ahead of Frimpong (5.5) and Chiesa for the LW start with Isak still out",
   CAM: "Started right vs MUN · top creator with Salah AND Isak both unavailable · could play centrally vs Chelsea with Wirtz the No.10 link",
   RAM: "Pulled the goal back at MUN (47', 8.5/10 Goal.com) · drives the right channel · engine of the run-in",
-  ST:  "Scored 56' at Old Trafford to make it 2-2 · false-9 only senior No.9 standing with Isak (groin) and Salah (hamstring) both out for Chelsea · nailed-on lead",
+  ST:  "Scored 56' at Old Trafford to make it 2-2 · false-9 only senior No.9 standing with Isak (groin) and Salah (hamstring) both out · Wed May 6 Anfield Index says there's 'genuine belief' Isak could feature, so Gakpo's lock weakens slightly",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -204,8 +208,8 @@ export const ALTERNATIVES = {
 // predictor metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  reason: "Tue May 5 — Four days out from Chelsea (H) Sat May 9. Squad picture unchanged from the post-MUN read but reaction-cycle has hardened: VVD's Tue 'we are not kids — it's a city trip' rebuttal of the post-Palace mini-break criticism (Yahoo, TIA, Goal, theScore, Rousing The Kop) and Carragher's Tue 'it's on the manager · style is a choice' identity worry now frame the run-in. On the pitch the read is the same as Monday: Robertson (5-6.5 vs MUN per Goal.com) and Frimpong (5.5 'no end product') are likely OUT of the Chelsea XI; Kerkez gets the LB nod after his 59' cameo cleared the niggle, and Ngumoha — Sun's 75' sub for Frimpong — is the live LW favourite over Chiesa. Alisson is back in training Mon May 4 per ReadLiverpool's Tue roundup and tracking a Chelsea return. Mac Allister played through a VVD-elbow head wound (head cap second half) and is expected fit. Curtis Jones (8/10, 100+ touches) keeps RB. Confidence Medium because GK return (Alisson vs Woodman) and the LW slot (Ngumoha vs Chiesa) remain the two open calls — both could flip after Slot's Friday presser.",
-  pundit_sources: ["Sky Sports", "Goal.com", "BBC Sport", "ESPN", "Yahoo Sports", "TNT Sports", "The Athletic", "This Is Anfield", "Liverpool.com", "Empire of the Kop", "TeamTalk", "Read Liverpool", "Rousing The Kop", "Click Liverpool", "Anfield Watch", "theScore", "DaveOCKOP"],
+  reason: "Wed May 6 — Three days out from Chelsea (H) Sat May 9. Wed's lead is the Curtis Jones story: Romano (via Tribuna, Tue May 5) confirmed Jones has given his 'full approval' to Inter Milan, with Liverpool's contract talks 'stalled' (EOTK/Sky May 1). Sports Mole Wed: Liverpool 'preparing £34m bid' for Wharton as the named replacement. On the pitch nothing about Jones changes for Sat — he keeps the RB slot off his 8/10, 100+-touches MUN display. Squad picture otherwise unchanged from Monday's read: Robertson (5-6.5 per Goal.com) and Frimpong (5.5 'no end product') likely OUT, Kerkez at LB after his 59' cameo cleared the niggle, Ngumoha the live LW favourite over Chiesa. Alisson 'very close' to training but hadn't trained as of Slot's Friday presser per Anfield Index/Liverpool.com — Woodman remains the live fallback. Anfield Index Wed: 'genuine belief' Isak could feature vs Chelsea after Slot called the groin minor. Mac Allister played through a VVD-elbow head wound and is expected fit. Confidence Medium because GK (Alisson vs Woodman), LAM (Ngumoha vs Chiesa) and ST (Gakpo with possible Isak return) remain the three open calls — all three could flip after Slot's Friday presser.",
+  pundit_sources: ["Tribuna / Romano", "Sky Sports", "Goal.com", "BBC Sport", "ESPN", "Yahoo Sports", "TNT Sports", "The Athletic", "This Is Anfield", "Liverpool.com", "Empire of the Kop", "TeamTalk", "Read Liverpool", "Rousing The Kop", "Anfield Index", "Anfield Watch", "Sports Mole", "DaveOCKOP"],
   agreement_rate: 0.72,
-  generated_at: "2026-05-05T09:30:00Z",
+  generated_at: "2026-05-06T09:00:00Z",
 };

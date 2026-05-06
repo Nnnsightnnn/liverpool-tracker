@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 38, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 7.0, status: "fit", injuryNote: "Started Old Trafford defeat (Sun May 3, L 3-2) alongside VVD — caught out by United's quick start (Cunha 6', Sesko 14'). Liverpool.com (Mon May 4) flagged him among the players who took post-Palace family city-trips before the slow start; VVD pushed back on the criticism Tue May 5 ('we are not kids'). Romano + ESPN (Apr 30): new Liverpool deal 'never been closer' — salary aligned, only length and bonuses outstanding. 'It's Liverpool'", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
+    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 38, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 7.0, status: "fit", injuryNote: "Started Old Trafford defeat (Sun May 3, L 3-2) alongside VVD — caught out by United's quick start (Cunha 6', Sesko 14'). Wed May 6 frame more cautious than last week: Apr 21 he himself said 'we are close to an agreement,' but Apr 25 Alex Crook reported insiders see it as '50/50' — could still leave on a free. Liverpool.com (Mon May 4) flagged him among the players who took post-Palace family city-trips; VVD's Tue May 5 'we are not kids' rebuttal applied. Contract expires 30 June 2026; decision expected before the World Cup", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
     physical: { height: 194, weight: 95, pace: 78, acceleration: 76, sprintSpeed: 80 },
     career: [
       { years: "2014-2017", club: "Sochaux", fee: null, type: "youth" },
@@ -161,7 +161,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 25, goals: 1, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 7.6, status: "fit", injuryNote: "Started at RB at Old Trafford (Sun May 3, L 3-2) — Goal.com 8/10, led the game in touches with over 100 heading into stoppage time. Slot's Trent-redux RB experiment continues to thrive. Inter Milan still circling per Romano this week — McTominay-style summer reset on the table with 14 months left on deal", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 25, goals: 1, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 7.6, status: "fit", injuryNote: "Headline story Wed May 6: Romano via Tribuna confirmed Tue May 5 that Jones has given his 'full approval' to Inter Milan ahead of a summer move — only Liverpool's valuation remains. EOTK/Sky (May 1): contract extension talks 'stalled' with one year left. Aston Villa, Newcastle and Inter all in. On the pitch he's still locking down RB — Goal.com 8/10 at Old Trafford (Sun May 3) with 100+ touches; Slot's Trent-redux RB experiment continues to thrive. Sports Mole Wed: Liverpool 'preparing £34m bid' for the Wharton replacement", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 37, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.2, status: "injured", outSince: "2026-04-26", injuryNote: "Watched the 3-2 Old Trafford defeat from afar (Sun May 3) — hamstring picked up vs Palace still active. Made headlines Sat May 2 by publicly urging fans to give Jordan Henderson 'the farewell he deserved' when Brentford visit Anfield May 24 — Salah's own Liverpool exit also on for that day. The National (May 2): Salah 'has a lot of good options' with Saudi pressure cooling", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 37, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.2, status: "injured", outSince: "2026-04-26", injuryNote: "Wed May 6 Anfield Index/Liverpool.com roundup: Salah told TNT Sports the hamstring 'is fine' and is also targeting Chelsea (May 9), though 'for sure I will be back for the final game' (Brentford May 24) remains the firm public commitment. Made headlines Sat May 2 by urging fans to give Jordan Henderson 'the farewell he deserved' when Brentford visit Anfield — Salah's own Liverpool exit also on for that day. The National (May 2): Salah 'has a lot of good options' with Saudi pressure cooling", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -230,7 +230,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 17, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.7, status: "injured", outSince: "2026-05-02", injuryNote: "Missed the 3-2 Old Trafford defeat (Sun May 3) with the groin strain picked up in Friday's training. Yahoo Sports (Sun): Slot confirmed pre-match the £130m forward 'wasn't ready' — even a minor groin tear is typically 1-2 weeks, putting Chelsea (May 9) on the doubt list and Aston Villa (A) May 17 the realistic comeback target", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 17, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.7, status: "injured", outSince: "2026-05-02", injuryNote: "Wed May 6 Anfield Index roundup: 'genuine belief' he could feature vs Chelsea after Slot insisted the groin issue is minor and Liverpool 'will be cautious' but won't lose him for the season. Missed the 3-2 Old Trafford defeat (Sun May 3) with the strain picked up in Friday's training. Aston Villa (A) May 17 still the firmer comeback target", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -428,74 +428,74 @@ export const DISPATCHES = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-05-05T09:30:00Z",
+  generatedAt: "2026-05-06T09:00:00Z",
   summary:
-    "Tuesday May 5 — Two days after the 3-2 Old Trafford defeat, the post-mortem has hardened into a full-blown identity debate. Virgil van Dijk took the lead defending Slot in a Tuesday-morning interview tour amplified by Yahoo Sports, This Is Anfield, Goal.com, theScore and Rousing The Kop: 'We are not kids — it's a city trip,' rejecting reports that several Liverpool players (Wirtz, Konaté, Frimpong among those flagged by Liverpool.com) used the post-Palace mini-break to head abroad with their families before falling 2-0 down inside fourteen minutes at United. He simultaneously called the season 'unacceptable.' Jamie Carragher widened the critique on Sky Sports and TIA Tuesday: 'It's on the manager — Liverpool's style is a choice, not a mistake,' worrying about identity drift away from the Klopp model. This Is Anfield's Tuesday lead-of-the-day is a damning fotmob stat: zero wins in eight away trips to PL top-10 sides this season. On the constructive side, Slot 'confirmed' the summer Reijnen reunion as the set-piece coach finally clears his UK work-permit hurdle. Chelsea visit Anfield Sat May 9 (11:30 UK, TNT) — Salah (hamstring), Isak (groin), Bradley, Ekitike, Endo all out; Alisson back in training and tracking a return; Opta still has Liverpool top-five at 97.14%.",
+    "Wednesday May 6 — Three days out from Chelsea (H), the lead story has shifted to Curtis Jones. Fabrizio Romano confirmed Tue May 5 (via Tribuna) that the 25-year-old has given his 'full approval' to Inter Milan ahead of a summer move; Liverpool's contract talks have stalled with one year left on his deal, and the Wharton chase from Crystal Palace is now openly being framed as Jones' replacement. Sports Mole this morning has Liverpool 'preparing a £34m bid' for an 'unbelievable' alternative midfielder. Off the pitch, FSG owner John Henry broke a rare silence Wed responding to dual Red Sox and Liverpool fan unrest: 'Don't settle for mediocrity. You have to win' — picked up across This Is Anfield and Liverpool.com. Liverpool.com also report that the Adidas 2026/27 'Candy throwback' home kit is already on sale at a Foot Locker after a leak. Yesterday's storylines hold: VVD's 'we are not kids — it's a city trip' rebuttal of the post-Palace mini-break criticism, Carragher's identity worry on MNF, the Reijnen summer reunion, and the Wharton/Senesi/Beukema transfer tracks. Chelsea visit Anfield Sat May 9 (11:30 UK, TNT) — Salah (hamstring), Isak (groin), Bradley, Ekitike, Endo, Mama all out; Alisson 'very close' to returning to training per Slot's Friday presser; Opta still has Liverpool top-five at 97.14%.",
   keyTopics: [
+    {
+      title: "Curtis Jones Gives 'Full Approval' to Inter Move — Liverpool Valuation Now the Only Obstacle (Tue May 5 / refreshed Wed May 6)",
+      detail:
+        "Reported Tue May 5 by Fabrizio Romano via Tribuna, headlining Wed May 6 across TeamTalk, Liverpool.com and The Hard Tackle: Curtis Jones has given his 'total openness' / full approval to Inter Milan, opening the door to a summer departure. Contract talks at Liverpool have officially 'stalled' (Sky Sports/EOTK May 1) with one year left on his deal. Aston Villa, Newcastle and Inter all in. Liverpool.com Wed: 'transfer problem it cannot ignore.' Sports Mole Wed: Liverpool now 'preparing £34m bid for unbelievable Curtis Jones replacement' — Wharton openly framed as the heir.",
+      category: "transfers",
+    },
+    {
+      title: "FSG Break Silence: 'Don't Settle for Mediocrity, You Have to Win' (Wed May 6)",
+      detail:
+        "Reported Wed May 6 by This Is Anfield and Liverpool.com: in an email shared by the Sports Business Journal, owner John W. Henry broke a near six-year media silence to address dual Red Sox and Liverpool fan unrest. 'It doesn't mean you ignore them — it means you work harder. You don't settle for mediocrity. You have to win.' The message landed as Front Office Sports flagged 'mounting pressure on FSG' across both clubs after the Cora sacking and the 19th-defeat campaign at Anfield.",
+      category: "general",
+    },
+    {
+      title: "2026/27 Adidas Home Kit Already 'On Sale' After Foot Locker Leak (Wed May 6)",
+      detail:
+        "Reported Wed May 6 by Liverpool.com and SportBible: the Candy 1989-91 throwback Adidas home kit for 2026/27 — Active Maroon body with white sponsor blocks on the player-issue version — has already been spotted hanging on rails at a Foot Locker store before its official May/June launch. Footy Headlines and TeamTalk had previewed the leak Sun May 3; Wed's escalation is the first 'in-store' photo. Reaction split: nostalgia for the Candy era, complaints about the all-over pattern obscuring the crest.",
+      category: "general",
+    },
+    {
+      title: "Adam Wharton — Liverpool Now 'Preparing £34m Bid' as Replacement Plan Hardens (Wed May 6)",
+      detail:
+        "Reported Wed May 6 by Sports Mole: Liverpool 'preparing £34m bid for unbelievable Curtis Jones replacement' — though that figure undersells Crystal Palace's actual £80m demand confirmed by FootballTransfers and ESPN over the weekend. Matteo Moretto (Sat May 2): Liverpool 'in advanced talks,' preempting Real Madrid. Empire of the Kop Wed: Ben Jacobs hearing the deal 'could get advanced very quickly.' The 22-year-old England midfielder reportedly keen on a Champions League club — Opta 97.14%.",
+      category: "transfers",
+    },
+    {
+      title: "Senesi Free-Transfer Race: Spurs Now 'Have Agreement in Principle' (Tue May 5)",
+      detail:
+        "Reported Tue May 5 across This Is Anfield, Goal.com and TheHardTackle: Liverpool 'lead the race' for Bournemouth's Marcos Senesi on a free transfer, with Slot's Feyenoord-era admiration the lever. But Tottenham have now reportedly struck an 'agreement in principle' to sign the Argentina international ahead of the rest of the field — a Wed May 6 escalation that complicates Liverpool's pursuit. Beukema (€28m Napoli bid) remains the parallel paid track for the post-Robertson/Salah defensive rebuild.",
+      category: "transfers",
+    },
     {
       title: "Van Dijk: 'We Are Not Kids — It's a City Trip,' Defends Slot's Pre-Man Utd Days Off (Tue May 5)",
       detail:
-        "Lead Tue May 5 across This Is Anfield, Yahoo Sports, Goal.com, Rousing The Kop, Click Liverpool, theScore, BritBrief and DaveOCKOP: VVD pushed back firmly on reports — surfaced over the weekend, sharpened Mon May 4 by Liverpool.com — that Liverpool players' family 'mini breaks' to European cities the week before Old Trafford contributed to the 2-0 hole inside 14 minutes. 'We are not kids,' VVD said, 'it's a city trip — these guys can manage themselves.' He also branded the season 'unacceptable' and explicitly defended Slot's permission for the breaks. Rousing The Kop's Tue May 5 follow-up: 'What Liverpool staff now think about players going on holiday after Virgil van Dijk comments.'",
+        "Lead Tue May 5 across This Is Anfield, Yahoo Sports, Goal.com, Rousing The Kop, theScore and DaveOCKOP, still echoing Wed: VVD pushed back firmly on reports — sharpened Mon May 4 by Liverpool.com — that Liverpool players' family 'mini-breaks' to European cities the week before Old Trafford contributed to the 2-0 hole inside 14 minutes. 'We are not kids,' VVD said, 'it's a city trip.' He also branded the season 'unacceptable' and explicitly defended Slot. Rousing The Kop follow-up: 'What Liverpool staff now think about players going on holiday after Van Dijk comments.'",
       category: "general",
     },
     {
       title: "Carragher: 'It's on the Manager' — Liverpool's Style Is a Choice, Not a Mistake (Tue May 5)",
       detail:
-        "Published Tue May 5 by This Is Anfield citing Sky Sports' Monday Night Football: Jamie Carragher widened his post-MUN critique into a full identity worry — 'Slot's slow, technical, possession-based style will make Liverpool worse in the long run' versus the Klopp identity. TeamTalk: 'Slot loses the plot over Man Utd defeat as Carragher cites massive identity concern.' Sports Mole picked up the Xabi Alonso 'question emerging' angle. The pundit-class consensus on Tue: it's not just personnel — it's a stylistic crossroads.",
-        category: "tactics",
-    },
-    {
-      title: "0 Wins in 8 — Liverpool's Damning Away Record vs PL Top 10 (Tue May 5)",
-      detail:
-        "Published Tue May 5 by This Is Anfield citing FotMob: Liverpool have failed to win a single one of their 8 league away trips to PL top-10 opposition this season — two draws, six defeats, conceding 2.25 goals per game. The Old Trafford 3-2 loss was the eighth such fixture. The stat hardened a Tuesday-morning narrative around Slot's road struggles against quality opposition. Liverpool's last three remaining games include only one such test — Aston Villa (A) May 17.",
-      category: "matches",
+        "Published Tue May 5 by This Is Anfield citing Sky Sports' Monday Night Football: Jamie Carragher widened his post-MUN critique into a full identity worry — 'Slot's slow, technical, possession-based style will make Liverpool worse in the long run' versus the Klopp identity. TeamTalk: 'Slot loses the plot over Man Utd defeat as Carragher cites massive identity concern.' SportsMole picked up an Xabi Alonso 'question emerging' angle. The pundit-class Wed consensus: it's not just personnel — it's a stylistic crossroads.",
+      category: "tactics",
     },
     {
       title: "Slot 'Confirms' Reijnen Reunion — Set-Piece Coach Finally Cleared After Work-Permit Hurdle (Tue May 5)",
       detail:
-        "Reported Tue May 5 by This Is Anfield, Liverpool.com, Anfield Watch and Anfield Index: Slot has 'all but confirmed' Etienne Reijnen will join the backroom this summer after the 39-year-old former CB, who served as Slot's analyst/technical advisor at Feyenoord, finally completed the qualification path that had blocked his UK work permit. Reijnen oversees set-pieces — Liverpool conceded 16 such goals this season vs Feyenoord's 4. Slot Tue: 'We lost a member of staff during the season. We always look around to see how we can strengthen.' Sets up speculation about Heitinga's possible return alongside.",
+        "Reported Tue May 5 by This Is Anfield, Liverpool.com, Anfield Watch and Anfield Index: Slot has 'all but confirmed' Etienne Reijnen will join the backroom this summer after the 39-year-old former CB completed the qualification path that had blocked his UK work permit. Reijnen oversees set-pieces — Liverpool conceded 16 such goals this season vs Feyenoord's 4. Slot Tue: 'We lost a member of staff during the season. We always look around to see how we can strengthen.' Sets up speculation about Heitinga's possible return alongside.",
       category: "general",
     },
     {
-      title: "Marcos Senesi 'Very Interested' in Free-Transfer Liverpool Move (Tue May 5)",
+      title: "0 Wins in 8 — Liverpool's Damning Away Record vs PL Top 10 (Tue May 5)",
       detail:
-        "Surfaced Tue May 5 by This Is Anfield ('Liverpool Very Interested in Free Transfer') and Goal.com (Liverpool 'leads' the race over Man Utd and Chelsea): the Argentina CB has decided against a Bournemouth extension and is now the most coveted free agent in the PL. Slot's Feyenoord-era admiration is the lever. The Hard Tackle Tue: 'Slot wants reunion with Marcos Senesi.' Lines up alongside the Beukema (Napoli) and Svensson (Dortmund) tracks for the post-Salah/Robertson defensive rebuild.",
-      category: "transfers",
+        "Published Tue May 5 by This Is Anfield citing FotMob, still resurfacing Wed: Liverpool have failed to win a single one of their 8 league away trips to PL top-10 opposition this season — two draws, six defeats, conceding 2.25 goals per game. The Old Trafford 3-2 loss was the eighth such fixture. Liverpool's last three remaining games include only one such test — Aston Villa (A) May 17.",
+      category: "matches",
     },
     {
-      title: "Liverpool Journalists Question Slot's 'Mini Breaks': 'Too Much Time Off?' (Tue May 5)",
+      title: "Konaté Contract 'Mixed Messages' — Could Still Leave Per Crook (Apr 25 / refreshed)",
       detail:
-        "Published Tue May 5 by This Is Anfield: a wave of LFC beat writers — citing the Liverpool.com Mon May 4 piece on player travel and the slow Old Trafford start — openly questioned whether Slot's permission for mid-week city trips ahead of a Champions-League-spot away game was the right call. The frame: 'Too much time off?' This Tue piece was the trigger for VVD's 'we are not kids' rebuttal hours later — the two stories now run alongside each other across the Liverpool media.",
-      category: "general",
-    },
-    {
-      title: "Slot 'Reviewing' Staff Changes 'In the Event of Him Staying' (Tue May 5)",
-      detail:
-        "Reported Tue May 5 by This Is Anfield: alongside the Reijnen reunion, Slot has begun a wider staff-review with FSG's continued backing implicit in the language ('in the event of him staying'). Van Bronckhorst's potential return to Feyenoord as technical director is in the mix; John Heitinga, who left Anfield last summer, is named as a candidate for a return. Slot's contract runs to 30 June 2027; UCL qualification (Opta 97.14%) remains the explicit lever for next season.",
-      category: "general",
-    },
-    {
-      title: "Slot's VAR Rant Still Echoing Mon-Tue: 'A Recurring Pattern' (Mon May 4)",
-      detail:
-        "Continued Mon May 4 across Sky Sports, Goal.com, FOX, This Is Anfield, Empire of the Kop, TeamTalk and Read Liverpool: Sun's post-match VAR critique by Slot — claiming Sesko's allowed second goal at Old Trafford 'should have been disallowed' for handball, listing prior decisions as a 'complete pattern' against Liverpool — was still leading much of Mon's editorial line. Slot acknowledged United were the better side, but the pattern complaint became Tue's debate fodder.",
-      category: "tactics",
-    },
-    {
-      title: "Adam Wharton — Liverpool 'Advanced Talks' for £70m Crystal Palace Midfielder (Sat May 2)",
-      detail:
-        "Reported Sat May 2 by Matteo Moretto and amplified by CaughtOffside, FootballTransfers, GiveMeSport, Football365, SportBible and Anfield Index: Liverpool are in 'advanced talks' to sign the 22-year-old England midfielder, accelerating the deal to preempt Real Madrid's interest. OneFootball Tue May 5: 'Liverpool pushing hard to sign £70m midfielder.' Asking price ~£70-80m; Wharton 'won't be distracted' by the speculation per his own quotes Sat. Champions League qualification (Opta 97.14%) the second contractual lever.",
-      category: "transfers",
-    },
-    {
-      title: "Sam Beukema — Liverpool's £28m/€28m Bid for Napoli's Dutch CB (Sat May 2)",
-      detail:
-        "Reported Sat May 2 by TeamTalk and Liverpool.com, refreshed Tue May 5 across The Hard Tackle ('€28m bid tabled') and SportsMole: Liverpool have lodged a formal offer for Napoli's 27-year-old Dutch centre-back after Slot reportedly 'told Hughes' to push the deal. Napoli's asking price stands at ~€31m; Conte 'not opposed' to the move. Cover/competition for Konaté and an early move ahead of Joe Gomez's likely summer exit.",
+        "Apr 21: Konaté himself said 'we are close to an agreement.' But Apr 25 Rousing The Kop and Liverpool.com surfaced Alex Crook reporting from Anfield insiders that the situation is 'a bit more 50/50' — could still leave on a free in the summer. ESPN/Romano Wed Apr 30 line ('never been closer') still in play but the Wed May 6 frame is more cautious: contract expires 30 June 2026, decision expected before the World Cup. The Real Madrid U-turn isn't yet definitive.",
       category: "transfers",
     },
     {
       title: "Salah's Gesture: 'The Farewell Henderson Deserves' on May 24 (Sat May 2)",
       detail:
-        "Reported Sat May 2 by TNT Sports, This Is Anfield and Rousing The Kop: ahead of his own Anfield exit Mohamed Salah publicly urged Liverpool fans to give Jordan Henderson 'the farewell he deserved' when Brentford visit on May 24. Henderson — who left Anfield in summer 2023 — will return for the first time in red-and-white away kit; the Brentford home finale is now also expected to be Salah's Liverpool send-off. Salah told TNT Sports of the 'minor' hamstring: 'For sure I will be back for the final game.'",
+        "Reported Sat May 2 by TNT Sports, This Is Anfield and Rousing The Kop, still threading through this week's previews: ahead of his own Anfield exit Mohamed Salah publicly urged Liverpool fans to give Jordan Henderson 'the farewell he deserved' when Brentford visit on May 24. Henderson — who left Anfield in summer 2023 — will return for the first time in red-and-white away kit; the Brentford home finale is now also expected to be Salah's Liverpool send-off. Salah on the 'minor' hamstring: 'For sure I will be back for the final game.'",
       category: "general",
     },
     {
@@ -505,52 +505,54 @@ export const NEWS_DIGEST = {
       category: "matches",
     },
     {
-      title: "Champions League Race: Opta 97.14%, Liverpool 6 Pts Clear of Bournemouth (Mon May 4)",
+      title: "Injury Roundup Wed May 6: Alisson 'Very Close' to Training, Salah/Isak Targeting Chelsea Return",
       detail:
-        "Held Mon May 4 across Football365, Al Jazeera, This Is Anfield and the Premier League site: Liverpool sit 4th with 64 points after 35 games, six clear of Bournemouth in 6th with three to play. Top-five secures the 2026-27 Champions League slot. Opta supercomputer: Liverpool 97.14% to qualify; even a single point at home to Chelsea or Brentford may clinch it depending on Bournemouth's run.",
-      category: "matches",
+        "Latest from Slot's Friday presser (echoed Wed May 6 across Liverpool.com, AnfieldIndex, NewsBreak): Alisson 'very close' to returning to training but hasn't trained yet — Chelsea (May 9) the realistic target if cleared this week. Isak's groin 'minor' — 'genuine belief he could feature' vs Chelsea per Anfield Index. Salah told TNT Sports the hamstring 'is fine' and is also targeting Chelsea, though Brentford remains the 'for sure' return. Mama (knee), Bradley (knee), Ekitike (Achilles), Endo (ankle) all out for the season.",
+      category: "injuries",
     },
     {
-      title: "Konaté Contract 'Never Been Closer' — 'It's Liverpool' (Wed Apr 30)",
+      title: "Champions League Race: Opta 97.14%, Liverpool 6 Pts Clear of Bournemouth (Mon May 4)",
       detail:
-        "Reported Wed Apr 30 by ESPN and This Is Anfield (echoing Romano Apr 20) and still active Tue May 5: the France international and Liverpool 'have never been closer' to agreement on the new deal, with main salary structure aligned and only contract length and bonus mechanics still to settle. Konaté himself: 'It's Liverpool' — full Real Madrid U-turn after eighteen months of speculation.",
-      category: "transfers",
+        "Held Mon May 4 across Football365, Al Jazeera, This Is Anfield and the Premier League site: Liverpool sit 4th with 64 points after 35 games, six clear of Bournemouth in 6th with three to play. Top-five secures the 2026-27 Champions League slot. Opta supercomputer: Liverpool 97.14% to qualify; a single point at home to Chelsea or Brentford may clinch it depending on Bournemouth's run.",
+      category: "matches",
     },
     {
       title: "Run-In: Chelsea (H) May 9, Aston Villa (A) May 17, Brentford (H) May 24",
       detail:
-        "Confirmed by the Premier League fixture list as of Tue May 5: Liverpool's three remaining games are Chelsea at Anfield Sat May 9 (11:30 UK, TNT Sports), Aston Villa at Villa Park Sun May 17, and the Brentford home finale Sun May 24 — Salah's projected Anfield farewell and Henderson's first return to the Anfield turf since summer 2023. Six points (or two with Bournemouth slips) secures top-five UCL.",
+        "Confirmed by the Premier League fixture list as of Wed May 6: Liverpool's three remaining games are Chelsea at Anfield Sat May 9 (11:30 UK, TNT Sports), Aston Villa at Villa Park Sun May 17, and the Brentford home finale Sun May 24 — Salah's projected Anfield farewell and Henderson's first return to the Anfield turf since summer 2023. Six points (or two with Bournemouth slips) secures top-five UCL.",
       category: "matches",
     },
   ],
   sources: [
+    "Tribuna / Fabrizio Romano",
     "This Is Anfield",
+    "Liverpool.com",
     "Sky Sports",
+    "TeamTalk",
     "Yahoo Sports",
     "Goal.com",
-    "BBC Sport",
     "ESPN",
-    "The Athletic",
-    "Liverpool.com",
-    "Anfield Watch",
+    "TNT Sports",
+    "Sports Mole",
+    "FootballTransfers",
+    "Empire of the Kop",
     "Anfield Index",
     "Rousing The Kop",
-    "Empire of the Kop",
-    "Click Liverpool",
-    "TeamTalk",
+    "The Hard Tackle",
     "OneFootball",
-    "TheScore",
-    "DaveOCKOP",
-    "BritBrief",
+    "BetMGM",
+    "Front Office Sports",
+    "SportBible",
+    "Footy Headlines",
     "FotMob",
     "Football365",
     "CaughtOffside",
     "GiveMeSport",
-    "SportBible",
-    "SportsMole",
-    "The Hard Tackle",
     "Premier League",
-    "Al Jazeera",
+    "Sports Business Journal",
+    "Anfield Watch",
+    "DaveOCKOP",
+    "TheScore",
     "Opta",
   ],
 };
