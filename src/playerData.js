@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "recovering", outSince: "2026-03-22", injuryNote: "Watched the 3-2 Old Trafford defeat (Sun May 3) from the bench as Woodman started for the second straight match — eight-week hamstring still active but back in training Mon May 4. Tue May 5 ReadLiverpool roundup of Slot's run-in injury notes still flags Chelsea (H) May 9 as the realistic return target. Likely back in goal for Salah's projected Anfield farewell vs Brentford May 24 if not before", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "recovering", outSince: "2026-03-22", injuryNote: "Thu May 7 lead — Liverpool.com (citing Nicolo Schira): Alisson has 'agreed personal terms with Juventus' on a €5m-a-year deal; Juve still need to convince Liverpool to sell and the keeper isn't agitating. Sky Sports' Liverpool rumours blog also leads with the development. On the pitch he remains 'very close' to training per Slot's Thursday Read Liverpool/Anfield Index update — Chelsea (May 9) still the realistic return target after the eight-week hamstring layoff. Watched the 3-2 Old Trafford defeat (Sun May 3) from the bench", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -161,7 +161,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 25, goals: 1, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 7.6, status: "fit", injuryNote: "Headline story Wed May 6: Romano via Tribuna confirmed Tue May 5 that Jones has given his 'full approval' to Inter Milan ahead of a summer move — only Liverpool's valuation remains. EOTK/Sky (May 1): contract extension talks 'stalled' with one year left. Aston Villa, Newcastle and Inter all in. On the pitch he's still locking down RB — Goal.com 8/10 at Old Trafford (Sun May 3) with 100+ touches; Slot's Trent-redux RB experiment continues to thrive. Sports Mole Wed: Liverpool 'preparing £34m bid' for the Wharton replacement", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 25, goals: 1, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 7.6, status: "fit", injuryNote: "Thu May 7 escalation — Empire of the Kop and Yahoo Sports report Wed May 6 that contract talks at Liverpool have 'effectively ceased' and an Inter Milan exit 'now seems likely.' Builds on Tue May 5 Romano (Tribuna) line that Jones has given his 'full approval' to the Inter switch. Aston Villa, Newcastle and Inter all in. On the pitch he's still locking down RB — Goal.com 8/10 at Old Trafford (Sun May 3) with 100+ touches; Slot's Trent-redux RB experiment continues to thrive. Sports Mole Wed: Liverpool 'preparing £34m bid' for the Wharton replacement", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -428,14 +428,44 @@ export const DISPATCHES = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-05-06T09:00:00Z",
+  generatedAt: "2026-05-07T09:00:00Z",
   summary:
-    "Wednesday May 6 — Three days out from Chelsea (H), the lead story has shifted to Curtis Jones. Fabrizio Romano confirmed Tue May 5 (via Tribuna) that the 25-year-old has given his 'full approval' to Inter Milan ahead of a summer move; Liverpool's contract talks have stalled with one year left on his deal, and the Wharton chase from Crystal Palace is now openly being framed as Jones' replacement. Sports Mole this morning has Liverpool 'preparing a £34m bid' for an 'unbelievable' alternative midfielder. Off the pitch, FSG owner John Henry broke a rare silence Wed responding to dual Red Sox and Liverpool fan unrest: 'Don't settle for mediocrity. You have to win' — picked up across This Is Anfield and Liverpool.com. Liverpool.com also report that the Adidas 2026/27 'Candy throwback' home kit is already on sale at a Foot Locker after a leak. Yesterday's storylines hold: VVD's 'we are not kids — it's a city trip' rebuttal of the post-Palace mini-break criticism, Carragher's identity worry on MNF, the Reijnen summer reunion, and the Wharton/Senesi/Beukema transfer tracks. Chelsea visit Anfield Sat May 9 (11:30 UK, TNT) — Salah (hamstring), Isak (groin), Bradley, Ekitike, Endo, Mama all out; Alisson 'very close' to returning to training per Slot's Friday presser; Opta still has Liverpool top-five at 97.14%.",
+    "Thursday May 7 — Two days out from Chelsea (H). Today's lead is Alisson: Liverpool.com (citing Italian journalist Nicolo Schira) reported overnight that the Brazilian has 'agreed personal terms with Juventus' on a €5m-a-year deal — Juve still need to convince Liverpool to sell, but the keeper isn't agitating, and the timing turns the Curtis Jones noise into a wider transfer headache. Empire of the Kop has the second escalation: Yahoo Sports/EOTK confirmed Wed May 6 that Curtis Jones contract talks at Liverpool have 'effectively ceased' — Inter Milan exit 'now seems likely' after Tuesday's Romano 'full approval' line. Liverpool.com Thursday morning: 'Liverpool has 3 players who could be sold this summer as scale of rebuild emerges' (Slot's mid-tier names — Jones, Mac Allister, Gomez/Elliott — face the door alongside Salah and Robertson). On the pitch, Empire of the Kop's Wed analysis lays out how Liverpool can clinch top-five at Anfield Saturday vs Chelsea even WITHOUT winning if Bournemouth slip at Fulham. Slot's Read Liverpool/Anfield Index update: Isak's groin and Alisson's hamstring still being 'managed,' both targeting Saturday with 'small margins' — but Liverpool.com's '16 players face missing' Thursday roundup keeps the absentee list long. Wednesday's storylines hold: Romano's Curtis Jones 'full approval' to Inter, John Henry's 'don't settle for mediocrity' FSG email, the Foot Locker kit leak, the Wharton/Senesi/Beukema tracks, and VVD's Tue 'we are not kids' city-trip rebuttal. Chelsea Anfield 11:30 BST Saturday on TNT.",
   keyTopics: [
     {
-      title: "Curtis Jones Gives 'Full Approval' to Inter Move — Liverpool Valuation Now the Only Obstacle (Tue May 5 / refreshed Wed May 6)",
+      title: "Alisson 'Agrees Personal Terms with Juventus' — Schira Reports €5m-a-Year Deal Pending Liverpool Approval (Thu May 7)",
       detail:
-        "Reported Tue May 5 by Fabrizio Romano via Tribuna, headlining Wed May 6 across TeamTalk, Liverpool.com and The Hard Tackle: Curtis Jones has given his 'total openness' / full approval to Inter Milan, opening the door to a summer departure. Contract talks at Liverpool have officially 'stalled' (Sky Sports/EOTK May 1) with one year left on his deal. Aston Villa, Newcastle and Inter all in. Liverpool.com Wed: 'transfer problem it cannot ignore.' Sports Mole Wed: Liverpool now 'preparing £34m bid for unbelievable Curtis Jones replacement' — Wharton openly framed as the heir.",
+        "Reported overnight Thu May 7 by Liverpool.com citing Italian journalist Nicolo Schira: Alisson Becker has agreed a contract worth €5m ($5.9m) per year with Juventus ahead of a possible summer move. Juve still face the task of convincing Liverpool to sell and the Brazilian is NOT agitating for the exit, but the timing — with the keeper 'very close' to returning from his eight-week hamstring layoff in time for Chelsea — turns Liverpool's 'transfer headache' from a Curtis Jones-only story into a wider summer rebuild question. Sky Sports' rumours blog and Liverpool.com both lead with the development this morning.",
+      category: "transfers",
+    },
+    {
+      title: "Curtis Jones Contract Talks 'Effectively Ceased' — Inter Exit 'Now Seems Likely' (Wed May 6 / refreshed Thu May 7)",
+      detail:
+        "Confirmed Wed May 6 by Empire of the Kop and Yahoo Sports, leading again Thu May 7: Curtis Jones contract talks with Liverpool have 'effectively ceased,' and the Inter Milan exit 'now seems likely' after Tuesday's Romano 'full approval' report (via Tribuna). EOTK headline Wed: 'Liverpool exit now seems likely — contract talks effectively ceased.' Aston Villa, Newcastle and Inter all in; Liverpool.com Thu still flag the situation as a 'transfer problem it cannot ignore.' Sports Mole's £34m bid for Wharton from Wednesday remains the named replacement plan.",
+      category: "transfers",
+    },
+    {
+      title: "Liverpool.com: 'Liverpool Has 3 Players Who Could Be Sold This Summer' — Scale of Rebuild Emerges (Thu May 7)",
+      detail:
+        "Published Thu May 7 by Liverpool.com under the headline 'Liverpool has 3 players who could be sold this summer as scale of rebuild emerges': Slot's mid-tier names — Curtis Jones, Alexis Mac Allister and the Gomez/Elliott back-end of the squad — face the door alongside the already-confirmed Salah and Robertson exits. The piece reframes Wednesday's individual stories (Jones to Inter, Alisson to Juve, Wharton in advance talks) as a single coordinated summer overhaul rather than isolated departures.",
+      category: "transfers",
+    },
+    {
+      title: "Run-In Maths: Liverpool Can Clinch Champions League at Anfield Saturday — Even Without Winning (Wed May 6)",
+      detail:
+        "Published Wed May 6 by Empire of the Kop: Liverpool can secure their 2026-27 Champions League place vs Chelsea on Saturday WITHOUT winning, provided Bournemouth fail to win at Fulham earlier in the day. The Reds sit 4th on 64 pts after 35; Bournemouth 6th on 58. A point at Anfield combined with any Cherries slip closes it. Opta still has Liverpool at 97.14% top-five (Football365, This Is Anfield); the Premier League site Wed had it at 98.35% with three games to play.",
+      category: "matches",
+    },
+    {
+      title: "Slot's Thursday Update: Alisson & Isak 'Small Margins' for Chelsea — But Liverpool.com '16 Players Could Miss' Saturday (Thu May 7)",
+      detail:
+        "Read Liverpool / Anfield Index this morning Thu May 7: Slot delivered a fresh Alisson-and-Isak update saying both are being managed with 'small margins' and could feature vs Chelsea after coming through this week. Liverpool.com Thu countered with '16 players face missing Liverpool vs Chelsea' — the long absentee list (Mama knee, Bradley knee, Ekitike Achilles, Endo ankle, Bajcetic hamstring, Leoni ACL etc.) plus Salah's hamstring and the Alisson/Isak doubts. Final calls expected at Slot's Friday presser.",
+      category: "injuries",
+    },
+    {
+      title: "Curtis Jones Gives 'Full Approval' to Inter Move — Romano via Tribuna (Tue May 5 / refreshed Wed-Thu)",
+      detail:
+        "Reported Tue May 5 by Fabrizio Romano via Tribuna, headlining Wed May 6 across TeamTalk, Liverpool.com and The Hard Tackle and still threading through Thu's coverage: Curtis Jones has given his 'total openness' / full approval to Inter Milan, opening the door to a summer departure. Romano's Tuesday line is the foundation Wednesday's 'effectively ceased' contract escalation built on. Aston Villa, Newcastle and Inter all in.",
       category: "transfers",
     },
     {
@@ -505,28 +535,25 @@ export const NEWS_DIGEST = {
       category: "matches",
     },
     {
-      title: "Injury Roundup Wed May 6: Alisson 'Very Close' to Training, Salah/Isak Targeting Chelsea Return",
-      detail:
-        "Latest from Slot's Friday presser (echoed Wed May 6 across Liverpool.com, AnfieldIndex, NewsBreak): Alisson 'very close' to returning to training but hasn't trained yet — Chelsea (May 9) the realistic target if cleared this week. Isak's groin 'minor' — 'genuine belief he could feature' vs Chelsea per Anfield Index. Salah told TNT Sports the hamstring 'is fine' and is also targeting Chelsea, though Brentford remains the 'for sure' return. Mama (knee), Bradley (knee), Ekitike (Achilles), Endo (ankle) all out for the season.",
-      category: "injuries",
-    },
-    {
       title: "Champions League Race: Opta 97.14%, Liverpool 6 Pts Clear of Bournemouth (Mon May 4)",
       detail:
-        "Held Mon May 4 across Football365, Al Jazeera, This Is Anfield and the Premier League site: Liverpool sit 4th with 64 points after 35 games, six clear of Bournemouth in 6th with three to play. Top-five secures the 2026-27 Champions League slot. Opta supercomputer: Liverpool 97.14% to qualify; a single point at home to Chelsea or Brentford may clinch it depending on Bournemouth's run.",
+        "Held Mon May 4 across Football365, Al Jazeera, This Is Anfield and the Premier League site, refreshed by Wed May 6 EOTK and Thu May 7 Premier League site to 98.35%: Liverpool sit 4th with 64 points after 35 games, six clear of Bournemouth in 6th with three to play. Top-five secures the 2026-27 Champions League slot.",
       category: "matches",
     },
     {
       title: "Run-In: Chelsea (H) May 9, Aston Villa (A) May 17, Brentford (H) May 24",
       detail:
-        "Confirmed by the Premier League fixture list as of Wed May 6: Liverpool's three remaining games are Chelsea at Anfield Sat May 9 (11:30 UK, TNT Sports), Aston Villa at Villa Park Sun May 17, and the Brentford home finale Sun May 24 — Salah's projected Anfield farewell and Henderson's first return to the Anfield turf since summer 2023. Six points (or two with Bournemouth slips) secures top-five UCL.",
+        "Confirmed by the Premier League fixture list as of Thu May 7: Liverpool's three remaining games are Chelsea at Anfield Sat May 9 (11:30 UK, TNT Sports), Aston Villa at Villa Park Sun May 17, and the Brentford home finale Sun May 24 — Salah's projected Anfield farewell and Henderson's first return to the Anfield turf since summer 2023.",
       category: "matches",
     },
   ],
   sources: [
     "Tribuna / Fabrizio Romano",
-    "This Is Anfield",
+    "Nicolo Schira",
     "Liverpool.com",
+    "Empire of the Kop",
+    "Read Liverpool",
+    "This Is Anfield",
     "Sky Sports",
     "TeamTalk",
     "Yahoo Sports",
@@ -535,7 +562,6 @@ export const NEWS_DIGEST = {
     "TNT Sports",
     "Sports Mole",
     "FootballTransfers",
-    "Empire of the Kop",
     "Anfield Index",
     "Rousing The Kop",
     "The Hard Tackle",
@@ -546,6 +572,7 @@ export const NEWS_DIGEST = {
     "Footy Headlines",
     "FotMob",
     "Football365",
+    "Al Jazeera",
     "CaughtOffside",
     "GiveMeSport",
     "Premier League",
