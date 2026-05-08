@@ -453,7 +453,7 @@ export const NEWS_DIGEST = {
     {
       title: "Champions League Race: 'Only 3 Clubs Can Now Catch Liverpool' — Top-Five Available Saturday (Fri May 8)",
       detail:
-        "This Is Anfield this morning Fri May 8: 'Only 3 Clubs Can Now Catch Liverpool' — Bournemouth, Brentford and Brighton are the last challengers for the fifth spot. Liverpool sit 4th on 58 pts (per the Premier League site update) with three to play; a win vs Chelsea Saturday OR any Bournemouth slip at Fulham seals top-five. Opta probability now 98.35% per the Premier League site. Empire of the Kop's Wed May 6 piece — 'Liverpool can clinch Champions League place on Saturday even without winning' — still threads through Friday previews.",
+        "This Is Anfield this morning Fri May 8: 'Only 3 Clubs Can Now Catch Liverpool' — Bournemouth, Brentford and Brighton are the last challengers for the fifth spot. Liverpool sit 4th on 64 pts after 35 games with three to play; a win vs Chelsea Saturday OR any Bournemouth slip at Fulham seals top-five. Opta probability now 98.35% per the Premier League site. Empire of the Kop's Wed May 6 piece — 'Liverpool can clinch Champions League place on Saturday even without winning' — still threads through Friday previews.",
       category: "matches",
     },
     {
@@ -550,7 +550,6 @@ export const NEWS_DIGEST = {
     "Sports Business Journal",
     "Footy Headlines",
     "Football365",
-    "Al Jazeera",
     "Premier League",
     "DaveOCKOP",
     "Calciomercato24",
