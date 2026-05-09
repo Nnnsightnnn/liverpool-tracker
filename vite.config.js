@@ -1,10 +1,24 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import apiExtract from './vite-plugin-api-extract.js'
 
 export default defineConfig({
   base: '/liverpool-tracker/',
   plugins: [
     react(),
+    apiExtract({
+      tracker: 'liverpool',
+      team: { name: 'Liverpool FC', abbreviation: 'LIV' },
+      league: 'EPL',
+      sources: [
+        { from: './src/playerData.js', exportName: 'PLAYERS',      resource: 'squad' },
+        { from: './src/playerData.js', exportName: 'NEWS_DIGEST',  resource: 'news-digest' },
+        { from: './src/playerData.js', exportName: 'RESULTS',      resource: 'results' },
+        { from: './src/playerData.js', exportName: 'NEXT_MATCH',   resource: 'next-match' },
+        { from: './src/playerData.js', exportName: 'STANDINGS',    resource: 'standings' },
+        { from: './src/lineupData.js', exportName: ['FORMATIONS', 'ALTERNATIVES', 'PREDICTION_NOTE', 'SLOT_CONFIDENCE', 'SLOT_RATIONALE', 'DEFAULT_FORMATION'], resource: 'lineup' },
+      ],
+    }),
     {
       name: 'rss-proxy',
       configureServer(server) {
