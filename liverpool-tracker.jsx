@@ -140,11 +140,11 @@ const LATEST_NEWS = [
   { source: "TNT Sports", title: "Mohamed Salah reveals Steven Gerrard dinner that shaped his Liverpool summer exit — Salah promises return for Brentford finale May 24", time: "1d ago", category: "major" },
   { source: "Sports Mole", title: "Liverpool transfer news: Five signings Reds could make as £85m winger Yan Diomande becomes top summer 'priority' — pace in attack the new lever", time: "1d ago", category: "major" },
   { source: "Liverpool.com", title: "Alisson 'agrees personal terms with Juventus' as transfer headache grows — Schira reports €5m-a-year deal, Liverpool yet to be convinced", time: "2d ago", category: "major" },
-  { source: "FootballTransfers", title: "Liverpool compile shortlist of FIVE goalkeepers to replace Alisson — Lucas Chevalier the long-term name as €15m Juve agreement nears", time: "2d ago", category: "major" },
+  { source: "FootballTransfers", title: "Liverpool compile shortlist of FIVE goalkeepers to replace Alisson — Lucas Chevalier the long-term name as €15m Juve agreement nears", time: "1d ago", category: "major" },
+  { source: "This Is Anfield", title: "Champions League Race: Only 3 Clubs Can Now Catch Liverpool — top-five lock-in available at Anfield TODAY with permutations explained", time: "1d ago", category: "fan" },
   { source: "Empire of the Kop", title: "Curtis Jones contract talks with Liverpool 'effectively ceased' — Inter Milan exit 'now seems likely' off Romano 'full approval' report", time: "3d ago", category: "fan" },
-  { source: "This Is Anfield", title: "Champions League Race: Only 3 Clubs Can Now Catch Liverpool — top-five lock-in available at Anfield TODAY with permutations explained", time: "3d ago", category: "fan" },
-  { source: "This Is Anfield", title: "FSG break silence: 'Don't settle for mediocrity, you have to win' — John Henry email addresses dual Red Sox & Liverpool fan unrest", time: "4d ago", category: "fan" },
-  { source: "This Is Anfield", title: "'We are not kids', 'It's a city trip': Virgil van Dijk rejects Liverpool 'days off' criticism as captain defends Slot post-Old Trafford", time: "5d ago", category: "fan" },
+  { source: "This Is Anfield", title: "FSG break silence: 'Don't settle for mediocrity, you have to win' — John Henry email addresses dual Red Sox & Liverpool fan unrest", time: "3d ago", category: "fan" },
+  { source: "This Is Anfield", title: "'We are not kids', 'It's a city trip': Virgil van Dijk rejects Liverpool 'days off' criticism as captain defends Slot post-Old Trafford", time: "4d ago", category: "fan" },
   { source: "Sky Sports", title: "Man Utd 3-2 Liverpool recap: Mainoo's 77' winner sinks Liverpool comeback as Cunha and Sesko's 14-minute opening proves decisive", time: "6d ago", category: "major" },
 ];
 

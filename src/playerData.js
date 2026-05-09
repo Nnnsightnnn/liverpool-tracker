@@ -457,18 +457,6 @@ export const NEWS_DIGEST = {
       category: "injuries",
     },
     {
-      title: "Salah's Steven Gerrard Sit-Down: 'I'm Glad I'm Leaving Through a Big Door' (TNT Sports, Thu May 7)",
-      detail:
-        "Published Thu May 7 by TNT Sports / SI / FOX Sports / Goal.com: Mohamed Salah revealed Steven Gerrard had dinner at his house in January warning him off a 'back or side door' exit. Salah told Gerrard: 'I'm glad I'm leaving now from a big door.' On the Brentford finale, Gerrard pushed and Salah replied 'Yeah, yeah, for sure' on his own farewell appearance. Daily Beirut splash Fri: 'Salah delivers good news — I will return to the pitch before the farewell match.' The Henderson farewell request from Sat May 2 still threads through coverage.",
-      category: "general",
-    },
-    {
-      title: "Mac Allister's Father Breaks Cover: Contract Talks 'Have Not Taken Place' (Reported Thu May 7)",
-      detail:
-        "Caught Offside, Liverpool.com, This Is Anfield and DaveOCKOP all carried the line Thu May 7: Carlos Mac Allister, Alexis's father and agent, said no contract talks have taken place with Liverpool — and 'no talks will take place during the season as the fans deserve commitment.' The midfielder enters the final two years of his deal this summer. Gravenberch already signed long-term; Szoboszlai's extension 'expected in the near future.' Real Madrid credited with interest. EOTK's Fri May 8 piece: 'Telling Mac Allister contract detail spotted by journalist.'",
-      category: "transfers",
-    },
-    {
       title: "Yan Diomande (€100m Leipzig) Becomes Liverpool's £85m Summer Attack Priority (Sports Mole, Fri May 8)",
       detail:
         "Sports Mole headline Fri May 8: 'Five signings Liverpool could make as £85m winger becomes top summer priority.' This Is Anfield Apr 30: 'Concrete talks for €100m Salah successor.' The 19-year-old Ivorian RB Leipzig winger — 12 goals, 6 assists in the Bundesliga this season — is now Slot's named first-pick attacking acquisition. Anfield Watch Fri-Sat: Liverpool 'leading the charge' over Manchester United, who are also tracking. Football365: 'Diomande wants to join Liverpool from RB Leipzig.'",
@@ -487,15 +475,15 @@ export const NEWS_DIGEST = {
       category: "matches",
     },
     {
-      title: "Curtis Jones Contract Talks 'Effectively Ceased' — Inter Exit 'Now Seems Likely' (Wed May 6)",
+      title: "Salah's Steven Gerrard Sit-Down: 'I'm Glad I'm Leaving Through a Big Door' (TNT Sports, Thu May 7)",
       detail:
-        "Confirmed Wed May 6 by Empire of the Kop and Yahoo Sports, still threading through Sat May 9 coverage: Curtis Jones contract talks with Liverpool have 'effectively ceased,' and the Inter Milan exit 'now seems likely' after Tuesday's Romano 'full approval' report (via Tribuna). Aston Villa, Newcastle and Inter all in; Liverpool.com flag the situation as a 'transfer problem it cannot ignore.' Sports Mole's £34m Wharton bid remains the named replacement plan; the actual Palace ask is £80m per FootballTransfers.",
-      category: "transfers",
+        "Published Thu May 7 by TNT Sports / SI / FOX Sports / Goal.com: Mohamed Salah revealed Steven Gerrard had dinner at his house in January warning him off a 'back or side door' exit. Salah told Gerrard: 'I'm glad I'm leaving now from a big door.' On the Brentford finale, Gerrard pushed and Salah replied 'Yeah, yeah, for sure' on his own farewell appearance. Daily Beirut splash Fri: 'Salah delivers good news — I will return to the pitch before the farewell match.' The Henderson farewell request from Sat May 2 still threads through coverage.",
+      category: "general",
     },
     {
-      title: "Adam Wharton — Liverpool 'In Advanced Talks,' Palace Asking £80m (Wed-Thu May 6-7)",
+      title: "Mac Allister's Father Breaks Cover: Contract Talks 'Have Not Taken Place' (Reported Thu May 7)",
       detail:
-        "Reported across the week — Wed May 6 Sports Mole '£34m bid' headline, Thu May 7 Liverpool.com transfer-news live, refreshed Sat May 9: Liverpool 'in advanced talks' for Crystal Palace's Adam Wharton. Liverpool.com Sat May 9 'Liverpool eyeing midfield rebuild' — market value £57m (€66.8m) but Palace asking £80m. Manchester United and Real Madrid in the chase, but the 22-year-old is reportedly keen on a Champions League club. Ben Jacobs (EOTK): the deal 'could get advanced very quickly.'",
+        "Caught Offside, Liverpool.com, This Is Anfield and DaveOCKOP all carried the line Thu May 7: Carlos Mac Allister, Alexis's father and agent, said no contract talks have taken place with Liverpool — and 'no talks will take place during the season as the fans deserve commitment.' The midfielder enters the final two years of his deal this summer. Gravenberch already signed long-term; Szoboszlai's extension 'expected in the near future.' Real Madrid credited with interest. EOTK's Fri May 8 piece: 'Telling Mac Allister contract detail spotted by journalist.'",
       category: "transfers",
     },
     {
@@ -515,6 +503,18 @@ export const NEWS_DIGEST = {
       detail:
         "Confirmed Thu May 7 by This Is Anfield, Liverpool.com, Empire of the Kop and Sky Sports: the Premier League officially rescheduled the Aston Villa (A) trip from Sun May 17 to FRIDAY May 15, 8pm BST after Villa booked the Europa League final in Istanbul on Wed May 20. The reshuffle gives Liverpool eight clear days between Villa and the Brentford home finale May 24, with Sky Sports broadcasting.",
       category: "matches",
+    },
+    {
+      title: "Adam Wharton — Liverpool 'In Advanced Talks,' Palace Asking £80m (Wed-Thu May 6-7)",
+      detail:
+        "Reported across the week — Wed May 6 Sports Mole '£34m bid' headline, Thu May 7 Liverpool.com transfer-news live, refreshed Sat May 9: Liverpool 'in advanced talks' for Crystal Palace's Adam Wharton. Liverpool.com Sat May 9 'Liverpool eyeing midfield rebuild' — market value £57m (€66.8m) but Palace asking £80m. Manchester United and Real Madrid in the chase, but the 22-year-old is reportedly keen on a Champions League club. Ben Jacobs (EOTK): the deal 'could get advanced very quickly.'",
+      category: "transfers",
+    },
+    {
+      title: "Curtis Jones Contract Talks 'Effectively Ceased' — Inter Exit 'Now Seems Likely' (Wed May 6)",
+      detail:
+        "Confirmed Wed May 6 by Empire of the Kop and Yahoo Sports, still threading through Sat May 9 coverage: Curtis Jones contract talks with Liverpool have 'effectively ceased,' and the Inter Milan exit 'now seems likely' after Tuesday's Romano 'full approval' report (via Tribuna). Aston Villa, Newcastle and Inter all in; Liverpool.com flag the situation as a 'transfer problem it cannot ignore.' Sports Mole's £34m Wharton bid remains the named replacement plan; the actual Palace ask is £80m per FootballTransfers.",
+      category: "transfers",
     },
     {
       title: "Match Recap — Manchester United 3-2 Liverpool: Mainoo Winner, 19th Defeat (Sun May 3)",
@@ -556,7 +556,6 @@ export const NEWS_DIGEST = {
     "The Athletic",
     "Opta",
     "ESPN",
-    "Liverpoolworld",
   ],
 };
 
