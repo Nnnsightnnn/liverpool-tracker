@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Anfield Edition — Matchday Programme</title>
+    <link rel="icon" type="image/svg+xml" href="/liverpool-tracker/favicon.svg" />
+    <link rel="icon" href="/liverpool-tracker/favicon.ico" sizes="any" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://nnnsightnnn.github.io/tracker-shared/live-scores.css" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        background: #0E0709;
+        color: #F4EBD0;
+        font-feature-settings: "kern", "liga", "tnum";
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+      ::selection { background: #C8102E; color: #F4EBD0; }
+      ::-webkit-scrollbar { width: 8px; }
+      ::-webkit-scrollbar-track { background: #0E0709; }
+      ::-webkit-scrollbar-thumb { background: #C8102E55; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #C8102E88; }
+      /* Paper-grain noise overlay — 3% opacity SVG fractal noise on top of everything */
+      body::before {
+        content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 200;
+        background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1 0 0 0 0 0.92 0 0 0 0 0.81 0 0 0 0.6 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/></svg>");
+        opacity: .03; mix-blend-mode: overlay;
+      }
+      @keyframes pageTurn {
+        from { opacity: 0; transform: translateY(8px); }
+        to   { opacity: 1; transform: translateY(0); }
+      }
+
+      /* ── Live score box — editorial overrides for tracker-shared/live-scores.css ── */
+      /* No card fill, hairline rules only — matches "The Anfield Edition" palette */
+      #score-box .ls-card {
+        background: transparent;
+        border: none;
+        border-top: 1px solid #F4EBD040;
+        border-bottom: 1px solid #F4EBD040;
+        border-radius: 0;
+        padding: 14px 0;
+        color: #F4EBD0;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        box-shadow: none;
+      }
+      #score-box .ls-card[data-state="in"] { border-top-color: #C8102E; }
+      #score-box .ls-card[data-state="post"] { border-top-color: #F6EB61; }
+      #score-box .ls-status {
+        font-size: 10px;
+        color: #F4EBD066;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.22em;
+        margin-bottom: 10px;
+      }
+      #score-box .ls-card[data-state="in"] .ls-status { color: #C8102E; }
+      #score-box .ls-teams { display: flex; flex-direction: column; gap: 6px; }
+      #score-box .ls-team {
+        display: flex; justify-content: space-between; align-items: center;
+        padding: 6px 0; background: transparent;
+        border-radius: 0;
+      }
+      #score-box .ls-abbr {
+        font-family: 'Playfair Display', Georgia, serif;
+        font-weight: 500;
+        font-size: 17px;
+        color: #F4EBD0;
+        letter-spacing: -0.01em;
+      }
+      #score-box .ls-score {
+        font-variant-numeric: tabular-nums;
+        font-feature-settings: "tnum";
+        font-family: 'Playfair Display', Georgia, serif;
+        font-weight: 500;
+        font-size: 22px;
+        color: #F4EBD0;
+      }
+      #score-box .ls-card[data-state="pre"] .ls-score { color: #F4EBD066; font-size: 16px; }
+      #score-box .ls-live {
+        display: inline-block; width: 7px; height: 7px;
+        background: #1E7A47; border-radius: 50%;
+        margin-right: 6px;
+        animation: ls-pulse 1.2s infinite;
+        box-shadow: 0 0 6px #1E7A4788;
+      }
+      #score-box .ls-events {
+        list-style: none; padding: 10px 0 0; margin-top: 12px;
+        border-top: 1px solid #F4EBD022;
+        font-size: 12px; color: #F4EBD0BB;
+        font-family: 'Playfair Display', Georgia, serif; font-style: italic;
+      }
+      #score-box .ls-events li { padding: 3px 0; }
+      #score-box .ls-empty {
+        color: #F4EBD066; font-size: 11px;
+        text-align: left; padding: 10px 0;
+        background: transparent;
+        border-radius: 0;
+        border: none;
+        border-top: 1px solid #F4EBD022;
+        border-bottom: 1px solid #F4EBD022;
+        font-family: 'Inter', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.22em;
+        font-weight: 500;
+      }
+      @media (max-width: 720px) {
+        #score-box { padding: 0 18px !important; margin-top: 10px !important; }
+        #score-box .ls-abbr { font-size: 15px; }
+        #score-box .ls-score { font-size: 18px; }
+      }
+      @media (max-width: 480px) {
+        #score-box { padding: 0 14px !important; }
+      }
+    </style>
+    <script type="module" crossorigin src="/liverpool-tracker/assets/index-BRb6cpAB.js"></script>
+  </head>
+  <body>
+    <div id="score-box" style="max-width: 1280px; margin: 16px auto 0; padding: 0 56px;"></div>
+    <div id="root"></div>
+    <script type="module" src="/liverpool-tracker/live-scores-init.js"></script>
+  </body>
+</html>

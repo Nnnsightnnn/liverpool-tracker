@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "injured", outSince: "2026-03-22", injuryNote: "Fri May 8 — This Is Anfield/Liverpool.com confirmed Wed May 6 that Alisson missed training again, and Liverpoolworld now lists him as NOT expected back for Chelsea (May 9) — eight consecutive league matches missed with the hamstring. Off the pitch, Liverpool.com (Schira) reports the Brazilian has 'agreed personal terms with Juventus' on a €5m-a-year deal; Reds still need convincing to sell. Slot's Friday 1:15pm presser will give the firm call but Aston Villa (A) Fri May 15 the more realistic return", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "injured", outSince: "2026-03-22", injuryNote: "Sat May 9 (matchday) — Slot confirmed in Friday's presser: 'Salah and Alisson won't play on Saturday.' Eight consecutive PL matches missed with the hamstring; has not yet resumed team sessions per Liverpool FC's official injury list. Off the pitch, Liverpool.com (Schira) and FootballTransfers report Alisson has 'agreed personal terms with Juventus' on a €5m-a-year deal; €15m fee mooted. Reds drawing up a five-keeper shortlist headed by Chevalier (PSG) — Aston Villa (A) Fri May 15 the more realistic return", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 17, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.8, status: "injured", outSince: "2026-04-20", injuryNote: "Missed Wednesday training again per Tribuna/Sky Sports — knee stitches from Beto collision (Apr 19) still keeping him out. Aston Villa trip Fri May 15 (rescheduled from May 17 after Villa's Europa League final booking) the earliest realistic return per LFC's run-in injury rundown. With Alisson also missing Wed training Woodman set for a third consecutive PL start vs Chelsea Saturday", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 17, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.8, status: "fit", returningFromInjury: { matchesBackIncludingThis: 1 }, injuryNote: "Sat May 9 (matchday) — surprise early return: Slot confirmed in Friday's presser the Georgia keeper is back a week ahead of schedule, with Romano (EOTK) reporting Liverpool 'confident' he STARTS vs Chelsea today. Beto's Apr 19 boot-stud knee wound finally healed, displacing Woodman from the XI. Liverpool.com lead: 'Mamardashvili surprise.' Could be the first-choice for the Aston Villa trip Fri May 15 too with Alisson still hamstrung", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 38, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 7.0, status: "doubtful", injuryNote: "Fri May 8 — fresh fitness scare: Sky Sports/Tribuna and This Is Anfield report Konaté trained AWAY from the main group on Wednesday after being substituted late at Old Trafford (Sun May 3, L 3-2); 'severity still unclear.' Liverpool.com headline: 'Five Liverpool stars miss training as Slot faces injury worry.' Slot's Friday 1:15pm presser will give the firm call. Off the pitch the contract is still '50/50' per Crook (Apr 25) — Real Madrid in chase, Liverpool tracking Bremer/Bastoni/Schlotterbeck shortlist", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
+    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 38, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 7.0, status: "fit", injuryNote: "Sat May 9 (matchday) — false alarm: Slot confirmed Friday that Konaté skipped Wednesday's session for 'a personal reason,' NOT an injury, and 'was yesterday and today again.' Sports Mole/Liverpool.com headline: 'Slot calms Konaté and Wirtz injury fears.' Back in the XI for Chelsea (H) 12:30 BST today; Goal.com/SI/TIA all pencil him in alongside VVD. Off the pitch the contract is still '50/50' per Crook (Apr 25) — Real Madrid in chase, Liverpool tracking Bremer/Bastoni/Schlotterbeck shortlist", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
     physical: { height: 194, weight: 95, pace: 78, acceleration: 76, sprintSpeed: 80 },
     career: [
       { years: "2014-2017", club: "Sochaux", fee: null, type: "youth" },
@@ -161,7 +161,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 25, goals: 1, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 7.6, status: "fit", injuryNote: "Thu May 7 escalation — Empire of the Kop and Yahoo Sports report Wed May 6 that contract talks at Liverpool have 'effectively ceased' and an Inter Milan exit 'now seems likely.' Builds on Tue May 5 Romano (Tribuna) line that Jones has given his 'full approval' to the Inter switch. Aston Villa, Newcastle and Inter all in. On the pitch he's still locking down RB — Goal.com 8/10 at Old Trafford (Sun May 3) with 100+ touches; Slot's Trent-redux RB experiment continues to thrive. Sports Mole Wed: Liverpool 'preparing £34m bid' for the Wharton replacement", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 25, goals: 1, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 7.6, status: "fit", injuryNote: "Sat May 9 — TIA/Sports Mole both pencil him in at RB for Chelsea (H) 12:30 BST today, Slot's Trent-redux RB experiment continues. EOTK/Yahoo Sports stand: contract talks 'effectively ceased,' Inter Milan exit 'now seems likely' after Romano's 'full approval' line. Aston Villa, Newcastle, Inter all in; Liverpool 'preparing £34m bid' for the Wharton replacement (Palace asking £80m)", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -181,7 +181,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 32, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.3, status: "doubtful", injuryNote: "Fri May 8 — fresh fitness doubt: This Is Anfield/Sky Sports/Liverpool.com confirmed Wed May 6 that Wirtz trained AWAY from the main group on Wednesday — 'severity still unclear' per Sky's Tribuna roundup. Liverpool.com 'Five Liverpool stars miss training' lead. Started Old Trafford (Sun May 3, L 3-2) on the right of the front three. Awaiting Slot's Friday 1:15pm BST presser for the firm Chelsea (H) call — uncapped Tommy Pilling drafted into training in his absence per TIA", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 32, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.3, status: "fit", injuryNote: "Sat May 9 (matchday) — false alarm: Slot in Friday's presser confirmed Wirtz missed Wednesday training because he was 'feeling unwell,' a minor illness now shaken off. Sports Mole/Liverpool.com headline: 'Slot calms Konaté and Wirtz injury fears.' Back in the XI for Chelsea (H) 12:30 BST today; TIA's predicted XI lists him in the front three alongside Frimpong and Gakpo", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 37, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.2, status: "injured", outSince: "2026-04-26", injuryNote: "Fri May 8 — Salah missed Wednesday training again per Tribuna/Sky Sports. Probably won't feature vs Chelsea Saturday — back in the gym but not full team training. Slot Apr 30: Salah will return 'in the final part of the season, but not Manchester United.' Aston Villa (A) Fri May 15 the more realistic comeback target; Salah's own line via TNT — 'for sure I will be back for the final game' (Brentford May 24) — still holds. Sat May 2 publicly asked Anfield to give Henderson 'the farewell he deserved'", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 37, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.2, status: "injured", outSince: "2026-04-26", injuryNote: "Sat May 9 — Slot confirmed Friday: 'Salah and Alisson won't play on Saturday.' Hamstring picked up vs Crystal Palace (Apr 25) still keeping him out of full team training. TNT Sports Wed-Thu published the Steven Gerrard sit-down: Salah told the former skipper he'd 'definitely return before the final fixture' against Brentford (May 24). Aston Villa (A) Fri May 15 the more realistic comeback target. Henderson farewell request from Sat May 2 still threading through coverage", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -230,7 +230,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 17, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.7, status: "doubtful", outSince: "2026-05-02", injuryNote: "Fri May 8 — late fitness test for Chelsea (H) per Liverpool.com/Yahoo Sports. Slot Mon May 4 described the groin strain as 'really small' but Isak missed Wednesday training along with Salah/Alisson/Mama. Anfield Index Wed: 'genuine belief' he could feature; SI's Thursday lead — 'Isak Decision Made.' Slot's Friday 1:15pm presser is the firm call. Aston Villa (A) Fri May 15 the firmer secondary target after the rescheduling", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 17, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.7, status: "doubtful", outSince: "2026-05-02", injuryNote: "Sat May 9 (matchday) — Slot confirmed Friday Isak rejoined training Thursday for the first time since the Apr 25 Crystal Palace groin strain. Set to return to the matchday squad vs Chelsea but a bench role 'the best possible outcome' (Goal.com). Some predicted XIs (Last Word) still pencil him in to start; Liverpool.com expects bench. Sat May 9 12:30 BST kick-off the firm call", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -271,7 +271,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Second consecutive league start at Old Trafford (Sun May 3, L 3-2) with Alisson and Mama still out — beaten by Cunha 6', Sesko 14' and Mainoo 77' but ratings 6-7 across TIA & Liverpool.com on a tough afternoon. Drops back to the bench once Alisson is cleared for Chelsea (H) May 9", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Drops back to the bench for Chelsea (H) May 9 — Mamardashvili surprisingly fit again a week ahead of schedule per Slot's Friday presser, replacing Woodman in the XI. Two PL starts this season (Crystal Palace and Old Trafford) ratings 6-7; serviceable cover for the run-in", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -428,33 +428,81 @@ export const DISPATCHES = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-05-08T11:00:00Z",
+  generatedAt: "2026-05-09T08:00:00Z",
   summary:
-    "Friday May 8 — One day out from Chelsea (H) Sat May 9 11:30 BST. Today's lead is the FRESH injury scare: This Is Anfield, Sky Sports and Liverpool.com confirmed overnight Wed-Thu that Ibrahima Konaté and Florian Wirtz BOTH trained separately from the main group on Wednesday — adding two new doubts to a Salah/Isak/Alisson/Mamardashvili trio that was already absent altogether. Slot's pre-Chelsea presser at the AXA at 1:15pm BST today is the moment of truth: Liverpool.com's 'Five Liverpool stars miss training' headline and the Sky Sports 'severity still unclear' line both put Konaté and Wirtz as live fitness tests. Second escalation: Premier League officially rescheduled the Aston Villa trip from Sun May 17 to FRIDAY May 15 8pm BST after Villa booked the Europa League final — Liverpool now have an eight-day break between Villa and the Brentford home finale May 24. Champions League maths held overnight: This Is Anfield this morning — 'Only 3 Clubs Can Now Catch Liverpool' (Bournemouth, Brentford, Brighton). A win or a Bournemouth slip at Fulham seals top-five at Anfield Saturday; Opta has it at 98.35%. Yesterday's Alisson-to-Juventus story (Schira, Liverpool.com) and the Curtis Jones 'contract talks effectively ceased' (EOTK/Yahoo Sports) both still threading through coverage; Slot's agent Pimenta gave ESPN 'many changes' tea-leaves Wed evening. Wirtz/Konaté being the fresh worry tilts the predicted XI from earlier in the week — Jacquet and Frimpong now back in live contention.",
+    "Saturday May 9 — MATCHDAY. Liverpool host Chelsea at Anfield 12:30 BST with the Champions League sealer in their hands. Slot's Friday presser flipped the picture from Wednesday's training scare: BOTH Konaté and Wirtz are CLEARED to start (Konaté missed training for a 'personal reason,' Wirtz for a minor illness — neither was injured), Mamardashvili has surprisingly returned a week ahead of schedule and is 'confident' to start in goal per Romano (EOTK), and Isak rejoined training Thursday and returns to the matchday squad. The flip side: Slot confirmed 'Salah and Alisson won't play on Saturday' — Salah's hamstring (Crystal Palace, Apr 25) keeps him in the gym, Alisson still hasn't resumed team sessions. TIA's predicted XI: Mamardashvili; Jones, Konate, Van Dijk, Robertson; Szoboszlai, Gravenberch, Mac Allister; Frimpong, Gakpo, Wirtz. Top-five maths: a win vs Chelsea OR any Bournemouth slip at Fulham seals it; Opta has Liverpool 4th on 98.35%. Behind the scenes Friday: TNT Sports dropped the Salah/Gerrard sit-down — Salah promised the captain he'd return for the Brentford finale May 24 to face Henderson. Mac Allister's father Carlos broke cover Thursday: contract talks 'have not taken place' and won't until the season is over. Yan Diomande (€100m Leipzig) firms as the £85m summer attack priority per Sports Mole.",
   keyTopics: [
     {
-      title: "Konaté & Wirtz Train Separately — New Injury Doubts Emerge for Chelsea (Reported Wed May 6, leading Fri May 8)",
+      title: "MATCHDAY — Liverpool v Chelsea, 12:30 BST at Anfield (Sat May 9)",
       detail:
-        "Confirmed by This Is Anfield, Sky Sports and Liverpool.com Wed May 6 evening, leading Fri May 8 coverage: Ibrahima Konaté and Florian Wirtz BOTH worked away from the main group on Wednesday — neither completely absent but neither training fully — adding two new fitness tests to the Salah/Isak/Alisson/Mamardashvili group that missed Wednesday altogether. Sky Sports' Tribuna line: 'severity still unclear.' Slot's Friday May 8 1:15pm BST AXA presser is the moment of truth — Liverpool.com's headline: 'Five Liverpool stars miss training as Slot faces injury worry.' Konaté was substituted late at Old Trafford and never trained fully since.",
+        "Confirmed kick-off TODAY Sat May 9 12:30 BST: Liverpool host Chelsea at Anfield in the Premier League's early Saturday slot, broadcast by TNT Sports. A Liverpool win — OR a Bournemouth slip at Fulham — seals top-five and Champions League qualification for 2026-27. TIA's preview lead this morning: 'Mamardashvili, Konate and Wirtz back, Salah and Alisson out.' Slot has named Wirtz/Konaté/Mamardashvili in the matchday group; the predicted XI (TIA, Sports Mole, OneFootball): Mamardashvili; Jones, Konate, Van Dijk, Robertson; Szoboszlai, Gravenberch, Mac Allister; Frimpong, Gakpo, Wirtz. Chelsea arrive on a six-match league losing run.",
+      category: "matches",
+    },
+    {
+      title: "Slot Calms Konaté and Wirtz Injury Fears — BOTH Cleared to Start (Reported Fri May 8 presser)",
+      detail:
+        "Sports Mole, Goal.com, Liverpool.com and Yahoo Sports all led with the line out of Slot's Friday 1:15pm BST AXA presser: Wirtz missed Wednesday training because he was 'feeling unwell' (a minor illness, not an injury) and Konaté was absent 'for a personal reason' — neither is hurt. 'Ibou had a personal reason for not training on Wednesday but was yesterday and today again,' Slot confirmed. Both back in the XI for Chelsea. The Wednesday 'severity still unclear' Tribuna/Sky Sports scare from earlier in the week is fully neutralised.",
       category: "injuries",
     },
     {
-      title: "Aston Villa vs Liverpool Officially Moved AGAIN to Friday May 15, 8pm BST (Reported Thu May 7)",
+      title: "Mamardashvili Surprise Early Return — Set to Start in Goal vs Chelsea (Reported Fri May 8)",
       detail:
-        "Confirmed Thu May 7 by This Is Anfield, Liverpool.com, Empire of the Kop and Sky Sports: the Premier League has officially rescheduled the Aston Villa (A) trip from Sun May 17 to FRIDAY May 15, 8pm BST after Villa booked the Europa League final in Istanbul on Wed May 20 by overturning their first-leg defeat to Nottingham Forest. The reshuffle gives Liverpool eight clear days between Villa and the Brentford home finale May 24, and Sky Sports take the broadcast.",
-      category: "matches",
+        "Liverpool.com headline Fri May 8: 'Mamardashvili surprise.' The Georgia keeper is back a week ahead of schedule, having recovered from the Beto-stud knee wound suffered in the Apr 19 Merseyside derby. Romano (via EOTK Sat May 9 morning): Liverpool 'confident' Mamardashvili STARTS vs Chelsea, displacing Woodman from the XI. Slot's official line: 'Mama is back to training.' With Alisson out for an eighth consecutive PL match, Mamardashvili could carry the gloves through the run-in.",
+      category: "injuries",
     },
     {
-      title: "Slot's Pre-Chelsea Press Conference TODAY — 1:15pm BST AXA Stream (Fri May 8)",
+      title: "Slot Confirms Salah and Alisson OUT for Chelsea (Reported Fri May 8 presser)",
       detail:
-        "Liverpool FC and Sky Sports confirmed Fri May 8 1:15pm BST: Arne Slot speaks ahead of Saturday's Premier League match vs Chelsea, with Konaté/Wirtz fitness tests, Alisson/Isak update and Salah's hamstring all on the agenda. Reported by Read Liverpool yesterday that Slot expects 'small margins' on Alisson and Isak; Liverpool.com still tracking '16 players face missing' the Anfield game. Stream live via the official YouTube channel.",
+        "Empire of the Kop, Liverpool.com, Goal.com and FOX Sports all carried the headline Fri May 8: 'Salah and Alisson won't play on Saturday.' Salah's hamstring (suffered vs Crystal Palace Apr 25) still keeps him out of team training; Alisson has not yet resumed sessions per Liverpool FC's official injury list. Aston Villa (A) Fri May 15 the more realistic comeback target for both; Salah's TNT Sports interview promises a Brentford May 24 return to face Henderson.",
+      category: "injuries",
+    },
+    {
+      title: "Salah's Steven Gerrard Sit-Down: 'I'm Glad I'm Leaving Through a Big Door' (TNT Sports, Thu May 7)",
+      detail:
+        "Published Thu May 7 by TNT Sports / SI / FOX Sports / Goal.com: Mohamed Salah revealed Steven Gerrard had dinner at his house in January warning him off a 'back or side door' exit. Salah told Gerrard: 'I'm glad I'm leaving now from a big door.' On the Brentford finale, Gerrard pushed and Salah replied 'Yeah, yeah, for sure' on his own farewell appearance. Daily Beirut splash Fri: 'Salah delivers good news — I will return to the pitch before the farewell match.' The Henderson farewell request from Sat May 2 still threads through coverage.",
       category: "general",
     },
     {
-      title: "Champions League Race: 'Only 3 Clubs Can Now Catch Liverpool' — Top-Five Available Saturday (Fri May 8)",
+      title: "Mac Allister's Father Breaks Cover: Contract Talks 'Have Not Taken Place' (Reported Thu May 7)",
       detail:
-        "This Is Anfield this morning Fri May 8: 'Only 3 Clubs Can Now Catch Liverpool' — Bournemouth, Brentford and Brighton are the last challengers for the fifth spot. Liverpool sit 4th on 64 pts after 35 games with three to play; a win vs Chelsea Saturday OR any Bournemouth slip at Fulham seals top-five. Opta probability now 98.35% per the Premier League site. Empire of the Kop's Wed May 6 piece — 'Liverpool can clinch Champions League place on Saturday even without winning' — still threads through Friday previews.",
+        "Caught Offside, Liverpool.com, This Is Anfield and DaveOCKOP all carried the line Thu May 7: Carlos Mac Allister, Alexis's father and agent, said no contract talks have taken place with Liverpool — and 'no talks will take place during the season as the fans deserve commitment.' The midfielder enters the final two years of his deal this summer. Gravenberch already signed long-term; Szoboszlai's extension 'expected in the near future.' Real Madrid credited with interest. EOTK's Fri May 8 piece: 'Telling Mac Allister contract detail spotted by journalist.'",
+      category: "transfers",
+    },
+    {
+      title: "Yan Diomande (€100m Leipzig) Becomes Liverpool's £85m Summer Attack Priority (Sports Mole, Fri May 8)",
+      detail:
+        "Sports Mole headline Fri May 8: 'Five signings Liverpool could make as £85m winger becomes top summer priority.' This Is Anfield Apr 30: 'Concrete talks for €100m Salah successor.' The 19-year-old Ivorian RB Leipzig winger — 12 goals, 6 assists in the Bundesliga this season — is now Slot's named first-pick attacking acquisition. Anfield Watch Fri-Sat: Liverpool 'leading the charge' over Manchester United, who are also tracking. Football365: 'Diomande wants to join Liverpool from RB Leipzig.'",
+      category: "transfers",
+    },
+    {
+      title: "Alisson €15m Juventus Agreement Nears — Five-Keeper Replacement Shortlist Drawn Up (Fri May 8)",
+      detail:
+        "FootballTransfers Fri May 8: 'Alisson reaches Juventus agreement in €15m deal.' Builds on Schira's Wed-Thu line that the Brazilian has 'agreed personal terms' on a €5m-a-year contract. This Is Anfield Fri: 'Alisson top target for Juventus — Liverpool consider new goalkeeper signing.' The Reds have compiled a five-keeper shortlist; PSG's Lucas Chevalier (24, lost his Paris spot to Safonov in January) is the named long-term option. Alisson is NOT agitating for the move — final say rests with the club.",
+      category: "transfers",
+    },
+    {
+      title: "Champions League Race: Top-Five Available TODAY at Anfield (Fri May 8)",
+      detail:
+        "This Is Anfield Fri May 8: 'Only 3 Clubs Can Now Catch Liverpool' — Bournemouth, Brentford and Brighton are the last challengers for the fifth spot. Liverpool sit 4th on 64 pts after 35 games with three to play; a win vs Chelsea today OR any Bournemouth slip at Fulham seals top-five. Opta probability now 98.35% per the Premier League site. EOTK Wed: 'Liverpool can clinch Champions League place on Saturday even without winning.'",
       category: "matches",
+    },
+    {
+      title: "Curtis Jones Contract Talks 'Effectively Ceased' — Inter Exit 'Now Seems Likely' (Wed May 6)",
+      detail:
+        "Confirmed Wed May 6 by Empire of the Kop and Yahoo Sports, still threading through Sat May 9 coverage: Curtis Jones contract talks with Liverpool have 'effectively ceased,' and the Inter Milan exit 'now seems likely' after Tuesday's Romano 'full approval' report (via Tribuna). Aston Villa, Newcastle and Inter all in; Liverpool.com flag the situation as a 'transfer problem it cannot ignore.' Sports Mole's £34m Wharton bid remains the named replacement plan; the actual Palace ask is £80m per FootballTransfers.",
+      category: "transfers",
+    },
+    {
+      title: "Adam Wharton — Liverpool 'In Advanced Talks,' Palace Asking £80m (Wed-Thu May 6-7)",
+      detail:
+        "Reported across the week — Wed May 6 Sports Mole '£34m bid' headline, Thu May 7 Liverpool.com transfer-news live, refreshed Sat May 9: Liverpool 'in advanced talks' for Crystal Palace's Adam Wharton. Liverpool.com Sat May 9 'Liverpool eyeing midfield rebuild' — market value £57m (€66.8m) but Palace asking £80m. Manchester United and Real Madrid in the chase, but the 22-year-old is reportedly keen on a Champions League club. Ben Jacobs (EOTK): the deal 'could get advanced very quickly.'",
+      category: "transfers",
+    },
+    {
+      title: "James Pearce: FSG Standing Behind Slot Despite Xabi Alonso Links (Thu May 7)",
+      detail:
+        "Anfield Index lead Thu May 7 citing The Athletic's James Pearce: FSG continue to back Arne Slot despite mounting fan pressure and Xabi Alonso media speculation. David Ornstein has Alonso 'not on the agenda' for FSG, and Sky Sports News reports Slot is expected to continue as head coach next season. Football365's Fri May 8 'Alonso agreement complete' piece kept the continental angle alive — Romain Molina claims Liverpool have identified Alonso as the 'priority replacement,' but English sources lean stability.",
+      category: "general",
     },
     {
       title: "Slot's Agent Pimenta Hints at 'Many Changes' This Summer — ESPN (Thu May 7)",
@@ -463,58 +511,10 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "James Pearce: FSG Standing Behind Slot Despite Xabi Alonso Links (Thu May 7)",
+      title: "Aston Villa vs Liverpool Officially Moved to Friday May 15, 8pm BST (Reported Thu May 7)",
       detail:
-        "Anfield Index lead Thu May 7 citing The Athletic's James Pearce: FSG continue to back Arne Slot despite mounting fan pressure and Xabi Alonso media speculation. David Ornstein has Alonso 'not on the agenda' for FSG, and Sky Sports News reports Slot is expected to continue as head coach next season. This Is Anfield Thu May 7 also flagged Andoni Iraola as 'among candidates' should the situation change — Iraola's Bournemouth project a recurring reference point.",
-      category: "general",
-    },
-    {
-      title: "Alisson 'Agrees Personal Terms with Juventus' — Schira Reports €5m-a-Year Deal (Thu May 7)",
-      detail:
-        "Reported overnight Wed-Thu May 7 by Liverpool.com citing Italian journalist Nicolo Schira: Alisson Becker has agreed a contract worth €5m ($5.9m) per year with Juventus ahead of a possible summer move. Juve still face the task of convincing Liverpool to sell and the Brazilian is NOT agitating for the exit. Sky Sports' rumours blog leads with the development; Calciomercato24 and Sportmediaset frame it alongside the Inter approach for Curtis Jones as a 'Serie A double knock' on Anfield's door. Alisson missed Wednesday training again — Chelsea return now in real doubt.",
-      category: "transfers",
-    },
-    {
-      title: "Curtis Jones Contract Talks 'Effectively Ceased' — Inter Exit 'Now Seems Likely' (Wed May 6)",
-      detail:
-        "Confirmed Wed May 6 by Empire of the Kop and Yahoo Sports, still leading Fri May 8 previews: Curtis Jones contract talks with Liverpool have 'effectively ceased,' and the Inter Milan exit 'now seems likely' after Tuesday's Romano 'full approval' report (via Tribuna). EOTK headline Wed: 'Liverpool exit now seems likely — contract talks effectively ceased.' Aston Villa, Newcastle and Inter all in; Liverpool.com flag the situation as a 'transfer problem it cannot ignore.' Sports Mole's £34m Wharton bid remains the named replacement plan; the actual Palace ask is £80m per FootballTransfers and ESPN.",
-      category: "transfers",
-    },
-    {
-      title: "Liverpool.com: 'Liverpool Has 3 Players Who Could Be Sold This Summer' — Scale of Rebuild Emerges (Thu May 7)",
-      detail:
-        "Published Thu May 7 by Liverpool.com under the headline 'Liverpool has 3 players who could be sold this summer as scale of rebuild emerges': Slot's mid-tier names — Curtis Jones, Alexis Mac Allister and Joe Gomez — face the door alongside the already-confirmed Salah and Robertson exits. The piece reframes Wednesday's individual stories (Jones to Inter, Alisson to Juve, Wharton in advance talks) as a single coordinated summer overhaul rather than isolated departures. Liverpool also linked with Bremer (Juventus, $68m clause) and Bastoni/Schlotterbeck for the VVD-replacement shortlist.",
-      category: "transfers",
-    },
-    {
-      title: "FSG Break Silence: 'Don't Settle for Mediocrity, You Have to Win' (Wed May 6)",
-      detail:
-        "Reported Wed May 6 by This Is Anfield and Liverpool.com via the Sports Business Journal: owner John W. Henry broke a near six-year media silence to address dual Red Sox and Liverpool fan unrest. 'I remember a plane flying overhead when we were beating Manchester United 7-0 that read FSG OUT! It doesn't mean you ignore them — it means you work harder. You don't settle for mediocrity. You have to win.' Front Office Sports flagged 'mounting pressure on FSG' across both clubs after the Cora sacking and the 19th-defeat campaign at Anfield.",
-      category: "general",
-    },
-    {
-      title: "Adam Wharton — Liverpool 'In Advanced Talks' as Replacement Plan Hardens (Wed-Thu May 6-7)",
-      detail:
-        "Reported across the week — Wed May 6 Sports Mole '£34m bid' headline, Thu May 7 Liverpool.com transfer-news live: Liverpool 'in advanced talks' for Crystal Palace's Adam Wharton, with Palace demanding £80m. Manchester United and Real Madrid in the chase, but the player is reportedly keen on a Champions League club. Ben Jacobs (EOTK Wed): the deal 'could get advanced very quickly.' The 22-year-old England midfielder is contracted to Selhurst Park until June 2029 — Palace 'determined' to keep him, but with an understanding he can leave for the right offer.",
-      category: "transfers",
-    },
-    {
-      title: "Senesi Free-Transfer Race: Spurs Lead, Liverpool 'Could Hijack' If Konaté Leaves (Wed-Thu May 6-7)",
-      detail:
-        "Liverpool.com's Thu May 7 'Senesi agreement, Wharton interest, Jones latest' transfer-news live: Liverpool could hijack Tottenham's move for Bournemouth's Marcos Senesi if Konaté departs as a free agent. Senesi already verbally agreed to Spurs but Liverpool now considering an offer; Slot's Feyenoord-era familiarity is the lever. Beukema (€28m Napoli bid) parallel paid track. Konaté's '50/50' contract picture (Crook Apr 25) remains the trigger.",
-      category: "transfers",
-    },
-    {
-      title: "2026/27 Adidas Home Kit Already 'On Sale' After Foot Locker Leak (Wed May 6)",
-      detail:
-        "Reported Wed May 6 by Liverpool.com and SportBible: the Candy 1989-91 throwback Adidas home kit for 2026/27 — Active Maroon body with white sponsor blocks — has already been spotted hanging on rails at a Foot Locker store before its official May/June launch. Footy Headlines and TeamTalk had previewed the leak Sun May 3; Wed's escalation is the first 'in-store' photo. Reaction split: nostalgia for the Candy era, complaints about the all-over pattern obscuring the crest.",
-      category: "general",
-    },
-    {
-      title: "Van Dijk: 'We Are Not Kids — It's a City Trip,' Defends Slot's Pre-MUN Days Off (Tue May 5)",
-      detail:
-        "Lead Tue May 5 across This Is Anfield, Yahoo Sports, Goal.com, Rousing The Kop and DaveOCKOP: VVD pushed back firmly on reports — sharpened Mon May 4 by Liverpool.com — that Liverpool players' family 'mini-breaks' to European cities the week before Old Trafford contributed to the 2-0 hole inside 14 minutes. 'We are not kids,' VVD said, 'it's a city trip.' He branded the season 'unacceptable' and explicitly defended Slot. Rousing The Kop follow-up: 'What Liverpool staff now think about players going on holiday after Van Dijk comments.'",
-      category: "general",
+        "Confirmed Thu May 7 by This Is Anfield, Liverpool.com, Empire of the Kop and Sky Sports: the Premier League officially rescheduled the Aston Villa (A) trip from Sun May 17 to FRIDAY May 15, 8pm BST after Villa booked the Europa League final in Istanbul on Wed May 20. The reshuffle gives Liverpool eight clear days between Villa and the Brentford home finale May 24, with Sky Sports broadcasting.",
+      category: "matches",
     },
     {
       title: "Match Recap — Manchester United 3-2 Liverpool: Mainoo Winner, 19th Defeat (Sun May 3)",
@@ -523,41 +523,40 @@ export const NEWS_DIGEST = {
       category: "matches",
     },
     {
-      title: "Run-In: Chelsea (H) May 9, Aston Villa (A) May 15, Brentford (H) May 24",
+      title: "Run-In: Chelsea (H) TODAY May 9, Aston Villa (A) May 15, Brentford (H) May 24",
       detail:
-        "Confirmed by the Premier League fixture list as of Thu May 7: Liverpool's three remaining games are Chelsea at Anfield Sat May 9 (11:30 UK, TNT Sports), Aston Villa at Villa Park FRIDAY May 15 8pm BST (rescheduled from Sun May 17 due to Villa's Europa League final on May 20), and the Brentford home finale Sun May 24 — Salah's projected Anfield farewell and Henderson's first return to the Anfield turf since summer 2023.",
+        "Confirmed by the Premier League fixture list: Liverpool's three remaining games are Chelsea at Anfield TODAY Sat May 9 (12:30 UK, TNT Sports), Aston Villa at Villa Park FRIDAY May 15 8pm BST (rescheduled from Sun May 17 due to Villa's Europa League final on May 20), and the Brentford home finale Sun May 24 — Salah's projected Anfield farewell and Henderson's first return to the Anfield turf since summer 2023.",
       category: "matches",
     },
   ],
   sources: [
     "Liverpool FC",
-    "Tribuna / Fabrizio Romano",
-    "Nicolo Schira",
     "Liverpool.com",
-    "Empire of the Kop",
-    "Read Liverpool",
     "This Is Anfield",
-    "Sky Sports",
-    "TeamTalk",
-    "Yahoo Sports",
-    "Goal.com",
-    "ESPN",
-    "TNT Sports",
+    "Empire of the Kop",
     "Sports Mole",
+    "Goal.com",
+    "FOX Sports",
+    "Yahoo Sports",
+    "Sky Sports",
+    "TNT Sports",
     "FootballTransfers",
     "Anfield Index",
-    "Rousing The Kop",
-    "Sports Business Journal",
-    "Footy Headlines",
+    "OneFootball",
+    "Last Word On Sports",
+    "Caught Offside",
+    "DaveOCKOP",
+    "Tribuna / Fabrizio Romano",
+    "Nicolo Schira",
+    "Anfield Watch",
+    "SI",
     "Football365",
     "Premier League",
-    "DaveOCKOP",
-    "Calciomercato24",
-    "Sportmediaset",
-    "SportBible",
-    "Front Office Sports",
+    "Daily Beirut",
     "The Athletic",
     "Opta",
+    "ESPN",
+    "Liverpoolworld",
   ],
 };
 
