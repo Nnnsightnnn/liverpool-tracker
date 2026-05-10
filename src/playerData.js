@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2025-26 Season · Updated May 4, 2026) ────────
+// ─── Liverpool FC Player Data (2025-26 Season · Updated May 10, 2026) ──────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -524,9 +524,7 @@ export const NEWS_DIGEST = {
     "Premier League",
     "TeamTalk",
     "TNT Sports",
-    "FOX Sports",
     "Football365",
-    "Anfield Watch",
   ],
 };
 

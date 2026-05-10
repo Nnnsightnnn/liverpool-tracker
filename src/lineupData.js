@@ -24,12 +24,11 @@ export const FORMATIONS = {
     // Mamardashvili kept the gloves yesterday and is set to retain (Alisson
     // 'close' to a return per Liverpool.com but not yet matchday-fit). Konaté
     // and VVD start; Jones still at RB (Trent-redux); Robertson at LB. Wirtz
-    // was OUT yesterday with a stomach infection but Slot 'hopeful' he returns
-    // at Villa Park — pencilled back in on the right of the front three. Isak
-    // played 30+ minutes off the bench yesterday — first XI start expected for
-    // his confidence-builder. Salah 'close to coming back' but Brentford May 24
-    // is the firmer target — Ngumoha continues on the LW after his Anfield
-    // assist + 75' boos cameo.
+    // was OUT yesterday with a stomach infection — listed doubtful, so Frimpong
+    // holds the right of the front three (Saturday's starter). Isak played 30+
+    // minutes off the bench yesterday — first XI start expected. Salah 'close
+    // to coming back' but Brentford May 24 is the firmer target — Ngumoha
+    // continues on the LW after his Anfield assist + 75' boos cameo.
     defaultXI: {
       GK: 2,    // Mamardashvili (started Chelsea · keeps the gloves while Alisson builds back)
       LB: 6,    // Robertson (started Chelsea · LB anchor for the away trip)
@@ -41,7 +40,7 @@ export const FORMATIONS = {
       RCM: 15,  // Szoboszlai (90 mins vs Chelsea · engine of run-in)
       LW: 25,   // Ngumoha (started + assisted Gravenberch's opener · hooked at 75' to boos)
       ST: 23,   // Isak (off the bench Saturday for first minutes since Apr 25 · expected start)
-      RW: 18,   // Wirtz (out vs Chelsea — stomach infection · Slot 'hopeful' for Villa Park)
+      RW: 9,    // Frimpong (started Chelsea on the right · safer pick than doubtful Wirtz)
     },
   },
 
@@ -73,8 +72,8 @@ export const FORMATIONS = {
       LDM: 14,  // Gravenberch (scored 6' vs Chelsea · ball-winner)
       RDM: 13,  // Mac Allister (90 mins Chelsea · contract noise but starts)
       LAM: 25,  // Ngumoha (started + assisted Chelsea opener)
-      CAM: 18,  // Wirtz (back from stomach infection, Slot 'hopeful')
-      RAM: 15,  // Szoboszlai (engine of run-in)
+      CAM: 15,  // Szoboszlai pulled centrally (Wirtz doubtful with stomach infection)
+      RAM: 9,   // Frimpong (started Chelsea right · cover for Wirtz absence)
       ST: 23,   // Isak (cameo Sat · first start back vs Villa)
     },
   },
@@ -107,7 +106,7 @@ export const FORMATIONS = {
       RWB: 16,  // Curtis Jones at RWB (RB Sat · still in role)
       LW: 25,   // Ngumoha (started + assisted Sat)
       ST: 23,   // Isak (first start back from Apr 25 muscle issue)
-      RW: 18,   // Wirtz (back from stomach infection · Slot 'hopeful')
+      RW: 9,    // Frimpong (started Chelsea right · cover for doubtful Wirtz)
     },
   },
 };
@@ -163,7 +162,7 @@ export const SLOT_CONFIDENCE = {
   RCM: "High",   // Szoboszlai · 90 mins · engine of run-in
   LW:  "Medium", // Ngumoha after his Anfield boos cameo · could yield to Salah/Wirtz
   ST:  "Medium", // Isak first start back · could be Gakpo if Slot wants safer pick
-  RW:  "Low",    // Wirtz return contingent on stomach infection clearing · Frimpong fallback
+  RW:  "Medium", // Frimpong settled · Wirtz return from stomach infection still doubtful
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
@@ -180,7 +179,7 @@ export const SLOT_RATIONALE = {
   RCM: "Sun May 10 — completed 90 minutes in yesterday's 1-1 Chelsea Anfield draw, drifting between right-mid and the No. 10 pocket as Wirtz absented with a stomach infection. Engine of the run-in.",
   LW:  "Sun May 10 — STARTED yesterday's 1-1 Chelsea Anfield draw and supplied the assist for Gravenberch's 6' opener. Liverpool.com headline: 'Rio Ngumoha stars.' Hooked at 75' with cramp; the substitution drew loud boos from the Anfield crowd. Slot post-match: 'He said it was enough.' Pushes for another start at Villa Park if Salah isn't ready.",
   ST:  "Sun May 10 — came off the bench in the second half of yesterday's 1-1 Chelsea Anfield draw, his first minutes since the Apr 25 Crystal Palace muscle issue. Liverpool.com expects Isak to start at Villa Park as the confidence-builder cashes in.",
-  RW:  "Sun May 10 — Wirtz missed the Chelsea squad with a stomach infection (AP/Washington Post). Slot post-match: 'hopeful' he returns at Villa Park. If the infection lingers, Frimpong slots in on the right per his Saturday role.",
+  RW:  "Sun May 10 — Frimpong started yesterday's 1-1 Chelsea Anfield draw on the right side of the front three and is the safer pick for Villa Park. Wirtz remains doubtful with the stomach infection; Slot was 'hopeful' but until he clears, Frimpong holds the slot.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -197,7 +196,7 @@ export const ALTERNATIVES = {
   RCM: [{ playerId: 13, reason: "Mac Allister · could shift right if Szoboszlai is rested" }],
   LW:  [{ playerId: 21, reason: "Salah · 'close to coming back' — chance for Villa Park return on his preferred side" }, { playerId: 26, reason: "Chiesa · senior winger option if Slot rests Ngumoha" }],
   ST:  [{ playerId: 22, reason: "Gakpo · played as false-9 vs Chelsea but 'goes missing' per Goal.com" }, { playerId: 25, reason: "Ngumoha · youngest-ever PL Anfield scorer · could play centrally" }],
-  RW:  [{ playerId: 9, reason: "Frimpong · started Chelsea on the right · obvious fallback if Wirtz's stomach infection lingers" }, { playerId: 21, reason: "Salah · 'close' return · but more likely on the left if/when he plays" }],
+  RW:  [{ playerId: 18, reason: "Wirtz · Slot 'hopeful' he returns from the stomach infection — would push Frimpong out if cleared" }, { playerId: 21, reason: "Salah · 'close' return · but more likely on the left if/when he plays" }],
 };
 
 // ─── Prediction confidence & metadata ───────────────────────────────────────
