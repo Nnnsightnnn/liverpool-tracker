@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2025-26 Season · Updated May 10, 2026) ──────
+// ─── Liverpool FC Player Data (2025-26 Season · Updated May 11, 2026) ──────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 34, appearances: 42, goals: 4, assists: 1, cleanSheets: 11, xG: 2.8, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.1, status: "doubtful", outSince: "2026-05-09", injuryNote: "Mon May 11 — CRAMP SCARE: limped off in the second half of Sat's 1-1 Chelsea Anfield draw. Slot post-match (Liverpool.com / Sky Sports): 'The way he limped off, he told me it was cramp. Let's hope he is right in his assessment, but we have to wait and see tomorrow how he feels.' Doubt for Villa Park Fri May 15 pending Mon-Wed assessment. Booed at full-time alongside Slot. The Athletic still reports him expected to leave end of 2026-27", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 34, appearances: 42, goals: 4, assists: 1, cleanSheets: 11, xG: 2.8, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.1, status: "doubtful", injuryNote: "Mon May 11 — CRAMP SCARE: limped off in the second half of Sat's 1-1 Chelsea Anfield draw. Slot post-match (Liverpool.com / Sky Sports): 'The way he limped off, he told me it was cramp. Let's hope he is right in his assessment, but we have to wait and see tomorrow how he feels.' Doubt for Villa Park Fri May 15 pending Mon-Wed assessment. Booed at full-time alongside Slot. The Athletic still reports him expected to leave end of 2026-27", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -440,28 +440,40 @@ export const NEWS_DIGEST = {
       category: "general",
     },
     {
-      title: "Van Dijk Cramp Scare — Slot Has To 'Wait And See' Before Villa Park (Liverpool.com, reported Sun May 10)",
-      detail:
-        "Liverpool.com referee-decision recap published Sun May 10: 'Liverpool gets referee verdict on Virgil van Dijk incident during Chelsea draw' — but the bigger story is the captain limped off in the second half. Slot post-match: 'The way he limped off, he told me it was cramp. Let's hope he is right in his assessment, but we have to wait and see tomorrow how he feels and how that will work out.' VVD a major doubt monitoring through Mon-Wed before Villa Park Fri May 15.",
-      category: "injuries",
-    },
-    {
       title: "Slot Job Safe — Telegraph Confirms FSG Faith, Reds Have NOT Contacted Alonso In May (FootballTransfers, today Mon May 11)",
       detail:
         "FootballTransfers and Telegraph round-up early Mon May 11: 'Liverpool news: Arne Slot set to stay after rejecting move to European giants.' The clearest message from the latest FSG discussions: Liverpool are NOT preparing another managerial reset and have made NO contact with Xabi Alonso or his agents in May. Slot is understood to retain the faith of Liverpool's hierarchy ahead of 2026-27, despite the Anfield boos. Anfield Index also confirms the stance.",
       category: "general",
     },
     {
-      title: "Iraola 'Among Candidates' If Liverpool Pivot — Bournemouth Boss Free This Summer (This Is Anfield, Sat May 9)",
+      title: "Alisson to Juventus Edges Closer — €15m Fee, €5m-Per-Year Terms Reported (Liverpool.com transfer live, today Mon May 11)",
       detail:
-        "This Is Anfield headline Sat May 9: 'Andoni Iraola among candidates to replace Arne Slot at Liverpool.' Iraola's Bournemouth contract expires this summer after three years at the Vitality. Caveat baked into the same piece: it remains the contingency, not the active plan — FSG's preferred path is still Slot + a transformative window. Lineker on Caught Offside Tue: 'I wouldn't be surprised' to see Alonso at Liverpool next season.",
-      category: "general",
+        "Liverpool.com transfer-news LIVE blog Mon May 11: 'Juventus advances on Alisson' — the Brazilian goalkeeper has 'agreed personal terms with Juventus' on a €5m-a-year deal, with a €15m fee mooted (Schira / FootballTransfers). Mamardashvili expected to inherit the No. 1 shirt next season; Reds drawing up a five-keeper shortlist headed by PSG's Lucas Chevalier as long-term cover/competition.",
+      category: "transfers",
+    },
+    {
+      title: "Van Dijk Cramp Scare — Slot Has To 'Wait And See' Before Villa Park (Liverpool.com, reported Sun May 10)",
+      detail:
+        "Liverpool.com referee-decision recap published Sun May 10: 'Liverpool gets referee verdict on Virgil van Dijk incident during Chelsea draw' — but the bigger story is the captain limped off in the second half. Slot post-match: 'The way he limped off, he told me it was cramp. Let's hope he is right in his assessment, but we have to wait and see tomorrow how he feels and how that will work out.' VVD a major doubt monitoring through Mon-Wed before Villa Park Fri May 15.",
+      category: "injuries",
     },
     {
       title: "Salah and Alisson Not Yet In Training — Villa Park Friday Still Touch-And-Go (Liverpool.com, Sun May 10)",
       detail:
         "Liverpool.com injury round-up Sun May 10 morning: Slot's post-Chelsea line — 'Mo is close to returning, Ali is close to returning' — but Alisson 'doesn't train with us yet, very close to.' Same for Salah's hamstring (suffered vs Crystal Palace Apr 25) — third PL match missed Saturday. Both target Aston Villa (A) Fri May 15, but with neither in full team sessions Mon-Wed look critical. Salah's projected Anfield farewell remains Brentford (H) Sun May 24.",
       category: "injuries",
+    },
+    {
+      title: "Champions League Maths — Reds Need One Win From Two After Sat Draw (Liverpool.com / The National, Sun May 10)",
+      detail:
+        "Liverpool.com / The National lead Sun May 10: 'Liverpool's wait for Champions League spot continues after Chelsea draw.' Reds 4th on 65 pts after 36 games, four clear of 6th-place Bournemouth (Bournemouth beat Fulham Sat to keep the hunt alive). Two PL games left: Villa (A) Fri May 15 and Brentford (H) Sun May 24. A win at Villa Park OR a Bournemouth slip at Man City (Mon May 19) seals top-five.",
+      category: "matches",
+    },
+    {
+      title: "Iraola 'Among Candidates' If Liverpool Pivot — Bournemouth Boss Free This Summer (This Is Anfield, Sat May 9)",
+      detail:
+        "This Is Anfield headline Sat May 9: 'Andoni Iraola among candidates to replace Arne Slot at Liverpool.' Iraola's Bournemouth contract expires this summer after three years at the Vitality. Caveat baked into the same piece: it remains the contingency, not the active plan — FSG's preferred path is still Slot + a transformative window. Lineker on Caught Offside Tue: 'I wouldn't be surprised' to see Alonso at Liverpool next season.",
+      category: "general",
     },
     {
       title: "Wirtz Stomach Infection Update — Slot 'Hopeful' For Villa Park (AP / This Is Anfield, Sat May 9)",
@@ -476,33 +488,21 @@ export const NEWS_DIGEST = {
       category: "tactics",
     },
     {
-      title: "Champions League Maths — Reds Need One Win From Two After Sat Draw (Liverpool.com / The National, Sun May 10)",
-      detail:
-        "Liverpool.com / The National lead Sun May 10: 'Liverpool's wait for Champions League spot continues after Chelsea draw.' Reds 4th on 65 pts after 36 games, four clear of 6th-place Bournemouth (Bournemouth beat Fulham Sat to keep the hunt alive). Two PL games left: Villa (A) Fri May 15 and Brentford (H) Sun May 24. A win at Villa Park OR a Bournemouth slip at Man City (Mon May 19) seals top-five.",
-      category: "matches",
-    },
-    {
-      title: "Alisson to Juventus Edges Closer — €15m Fee, €5m-Per-Year Terms Reported (Liverpool.com transfer live, today Mon May 11)",
-      detail:
-        "Liverpool.com transfer-news LIVE blog Mon May 11: 'Juventus advances on Alisson' — the Brazilian goalkeeper has 'agreed personal terms with Juventus' on a €5m-a-year deal, with a €15m fee mooted (Schira / FootballTransfers). Mamardashvili expected to inherit the No. 1 shirt next season; Reds drawing up a five-keeper shortlist headed by PSG's Lucas Chevalier as long-term cover/competition.",
-      category: "transfers",
-    },
-    {
       title: "Aston Villa (A) Friday May 15, 8pm BST — Sky Sports (avfc.co.uk / Premier League)",
       detail:
         "Confirmed Premier League / avfc.co.uk fixture entry: Aston Villa vs Liverpool, Fri May 15, 8pm BST kickoff, Villa Park, Sky Sports. Match moved off Sun May 17 to accommodate Villa's Europa League final vs Freiburg in Istanbul Wed May 20. Liverpool unbeaten in last 11 vs Villa (8W, 3D). Slot's side and Emery's in 'a straight shootout for fourth' per This Is Anfield Friday preview.",
       category: "matches",
     },
     {
-      title: "Diomande 'Concrete Talks' — Reds' Top Salah-Successor Target At €86-100m (This Is Anfield, Apr / Liverpool.com, May 11)",
+      title: "Adam Wharton 'Favours' Anfield Move — Liverpool in Advanced Talks at £80m (GiveMeSport / Liverpool.com, week of May 6)",
       detail:
-        "This Is Anfield April piece still circulating Mon May 11: 'Diomande to Liverpool — Concrete talks for €100m Salah successor.' The 19-year-old Ivorian Leipzig winger has 22 goal contributions this season and Roc Nation agency contacted by Liverpool. Leipzig valuation ~£86m / $116m. Diomande remains the named priority over Anthony Gordon (Liverpool.com Sat reframe: Bayern now in pole on £73m+ Gordon as Reds may have cooled).",
+        "GiveMeSport mid-week (May 6): 'Liverpool in advanced talks to sign Crystal Palace star Adam Wharton.' Liverpool.com follow-up: Wharton 'understood to favour a move to Liverpool over other interested clubs' (Man United, Real Madrid, Arsenal, City, Chelsea also tracking). Palace ask £80m. Curtis Jones' stalled contract talks (Inter, Newcastle, Villa monitoring) leave the midfield-rebuild slot open.",
       category: "transfers",
     },
     {
-      title: "Adam Wharton 'Favours' Anfield Move — Liverpool in Advanced Talks at £80m (GiveMeSport / Liverpool.com, week of May 6)",
+      title: "Diomande 'Concrete Talks' — Reds' Top Salah-Successor Target At €86-100m (This Is Anfield, Apr / Liverpool.com, May 11)",
       detail:
-        "GiveMeSport mid-week: 'Liverpool in advanced talks to sign Crystal Palace star Adam Wharton.' Liverpool.com follow-up: Wharton 'understood to favour a move to Liverpool over other interested clubs' (Man United, Real Madrid, Arsenal, City, Chelsea also tracking). Palace ask £80m. Curtis Jones' stalled contract talks (Inter, Newcastle, Villa monitoring) leave the midfield-rebuild slot open.",
+        "This Is Anfield April piece still circulating Mon May 11: 'Diomande to Liverpool — Concrete talks for €100m Salah successor.' The 19-year-old Ivorian Leipzig winger has 22 goal contributions this season and Roc Nation agency contacted by Liverpool. Leipzig valuation ~£86m / $116m. Diomande remains the named priority over Anthony Gordon (Liverpool.com Sat reframe: Bayern now in pole on £73m+ Gordon as Reds may have cooled).",
       category: "transfers",
     },
   ],
@@ -524,7 +524,6 @@ export const NEWS_DIGEST = {
     "The National",
     "Premier League",
     "avfc.co.uk",
-    "TNT Sports",
   ],
 };
 

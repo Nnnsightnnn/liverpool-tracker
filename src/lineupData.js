@@ -93,8 +93,10 @@ export const FORMATIONS = {
       RW:  { x: 78, y: 22, role: "FWD" },
     },
     // Hypothetical 3-4-3 alternative for Villa Park if Slot wants extra cover
-    // away from home: Robertson tucks back in as LCB if VVD cramp keeps him out;
-    // Kerkez and Jones as wing-backs.
+    // away from home. With VVD a cramp doubt, Gomez slides in as LCB alongside
+    // VVD (still in as CCB if cleared) and Konaté at RCB. Kerkez and Jones as
+    // wing-backs. If VVD fails his late fitness test, Konaté shifts to CCB and
+    // Jacquet enters at RCB.
     defaultXI: {
       GK: 2,    // Mamardashvili (started Chelsea · keeps the gloves)
       LCB: 5,   // Gomez tucking in (cover for VVD cramp doubt)
