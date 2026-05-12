@@ -361,11 +361,15 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span> takes us back to a
-              place where seasons are made and unmade, and where, this year more than most, the
-              visiting bus carries the ghost of a goodbye not yet announced. Mohamed Salah will
-              not travel. The club, in a sentence calibrated for both reassurance and the second
-              leg, called the issue <em>minor</em>.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span> at Villa Park
+              is a Champions League sealer dressed as a league fixture, and the dressing room is
+              missing its talisman again. Mohamed Salah, with twelve days left on his Liverpool
+              contract and a hamstring he hasn't trained on since the twenty-fifth of April, may
+              not travel. The club, in a sentence calibrated for both reassurance and the run-in,
+              calls him <em>very, very, very close</em>. The bigger news arrived Tuesday: Jürgen
+              Klopp will be in the Brentford suite on the twenty-fourth, and Salah has asked, on
+              the record, that Jordan Henderson receive the farewell he was never given. Three
+              goodbyes, one fortnight.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -1797,7 +1801,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "There are no ordinary afternoons in May."
+        "Every farewell makes room for a return."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
