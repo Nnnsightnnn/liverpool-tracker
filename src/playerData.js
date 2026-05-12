@@ -429,104 +429,104 @@ export const DISPATCHES = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-05-12T13:30:00Z",
+  generatedAt: "2026-05-12T18:00:00Z",
   summary:
-    "Tuesday May 12 — Three days on from Saturday's frustrating 1-1 Chelsea Anfield draw, Arne Slot fronts the media at 9am BST from the AXA Training Centre for his pre-Aston Villa press conference (Liverpool FC), with Liverpool.com reporting the manager said Mohamed Salah is 'very, very, very close to training' but neither he nor Alisson Becker has yet rejoined full team sessions — both touch-and-go for Villa Park Fri May 15, 8pm BST on Sky Sports. Off the pitch, SportBible and Tribuna confirm overnight that an 'Arne Slot Out' fan petition has rocketed past 1 million signatures in under 24 hours — even as Anfield Index, FootballTransfers and the Telegraph reiterate Liverpool's hierarchy is standing by Slot and has made NO contact with Xabi Alonso or his agents in May. The transfer market is moving fast: L'Équipe report Liverpool 'formally preparing' a €50m Akliouche (Monaco) bid as a Salah replacement, Caught Offside has Liverpool taking 'concrete steps' for Trincão (Sporting, €60m release clause), and the Wharton / Diomande / Gordon threads roll on. Van Dijk's Saturday cramp appears to have cleared overnight; Wirtz still being managed back from the stomach infection. Reds 4th on 65 pts, four clear of 6th — a win at Villa Park OR a Bournemouth slip seals top-five.",
+    "Tuesday May 12 evening — This Is Anfield breaks the run-in's most sentimental thread: Jürgen Klopp is in line for an Anfield return on the final day, with the German understood to be in the Brentford suite for Sun May 24's Salah farewell — and Salah himself has gone on record (TIA / Liverpool.com Tue) asking Liverpool to give Jordan Henderson 'the farewell he deserved' alongside his own. On the pitch the build-up to Villa Park (Fri May 15, 8pm BST, Sky Sports) tightened: Slot's AXA presser confirmed Konaté trained without restriction Tue and Van Dijk has shaken off Saturday's cramp; Salah remains in solo work and Alisson 'doesn't train with the team yet.' In the boardroom The Athletic's James Pearce hinted Liverpool need 'at least five summer signings' and Anfield Watch named the eight-name clear-out Hughes will sanction. The L'Équipe-led Akliouche €50m chase, the Caught Offside Trincão 'concrete steps' lead and the viral 'Arne Slot Out' petition (now past 1.2m) round out the day's bigger picture. Reds 4th on 65 pts — a win at Villa Park OR a Bournemouth slip seals top-five.",
   keyTopics: [
     {
-      title: "Slot's Pre-Villa Press Conference — Salah 'Very, Very, Very Close To Training' But Still Not Back In Full Sessions (Liverpool FC / Liverpool.com, today Tue May 12, 9am BST)",
+      title: "Klopp In Line For Anfield Return On Final Day — Brentford Salah Farewell To Become A Reunion (This Is Anfield, breaking today Tue May 12)",
       detail:
-        "Liverpool FC posted Slot's pre-Aston Villa press conference live from the AXA Training Centre this morning Tue May 12, 9am BST. Liverpool.com's accompanying injury read confirms the headline takeaway: Slot says Mohamed Salah is 'very, very, very close to training' — a hairsbreadth shy of full team work — but the Egyptian and Alisson Becker have NOT yet rejoined first-team sessions on the eve of the Villa Park trip Fri May 15. Both targeting that game but with Mon-Wed training still decisive. Salah's hamstring (Apr 25 Palace) third PL match missed.",
-      category: "injuries",
-    },
-    {
-      title: "'Arne Slot Out' Fan Petition Tops 1 Million Signatures In 24 Hours (SportBible / Tribuna, overnight Mon-Tue May 11-12)",
-      detail:
-        "Confirmed overnight Mon May 11 by SportBible, Tribuna and IPetitions: A viral fan-driven 'Arne Slot Out' petition has surged past one million signatures in under 24 hours after Saturday's 1-1 Chelsea Anfield draw. SportBible headline today: 'Liverpool fans demand Arne Slot is sacked with millions signing viral petition.' The campaign caveat: it has no contractual force, and Liverpool's hierarchy stance (per Anfield Index / Telegraph) remains 'absolutely in the direction of continuing with Slot.' Still — clearest fan-revolt signal of the Slot era.",
+        "This Is Anfield headline emerged Tue afternoon: 'Jurgen Klopp could be set for another Anfield return on last day of the season.' The German, now in his Red Bull global-football role, is understood to have accepted a Brentford-suite invitation to watch Sun May 24's final-day fixture — already lined up as Salah's Anfield farewell, now a likely Klopp reunion too. Carragher and Henderson among the ex-Reds expected on the night. Reds and Brentford both confirm Klopp will be a guest of the club. Sentimental thread of the run-in.",
       category: "general",
     },
     {
-      title: "Akliouche Bid Stepped Up — Liverpool 'Formally Preparing' €50m Move For Monaco Playmaker (L'Équipe / This Is Anfield, today Tue May 12)",
+      title: "Salah Asks Liverpool To Give Henderson 'The Farewell He Deserved' (This Is Anfield / Liverpool.com, today Tue May 12)",
       detail:
-        "L'Équipe-driven reporting picked up across This Is Anfield, CaughtOffside, Heavy and ESPN this morning: Liverpool are 'formally preparing a €50m push' for Monaco's 24-year-old French international playmaker Maghnes Akliouche as a Salah replacement. 7 goals + 11 assists in 41 apps this term, primarily off the right. PSG retain long-standing aggressive interest. Monaco understood to have softened to ~€50m valuation. Liverpool.com today: Akliouche one of seven named replacements alongside Diomande, Barcola, Gordon.",
-      category: "transfers",
-    },
-    {
-      title: "Trincão Talks Take 'Concrete Steps' — Liverpool In On €60m Sporting Winger (Caught Offside / TeamTalk / Anfield Index, today Tue May 12)",
-      detail:
-        "Caught Offside lead today Tue May 12: 'Liverpool hold concrete interest in Sporting's Francisco Trincão.' The 26-year-old Portuguese (6G + 11A Liga Portugal, Liga-leading 13 assists overall) has a €60m release clause running to 2030. Versatile RW / AM. Chelsea and Arsenal joining the chase but Caught Offside reports Liverpool 'pushing the hardest at the moment.' TeamTalk frames the move as 'Salah repeat on' with the €60m valuation pegged.",
-      category: "transfers",
-    },
-    {
-      title: "Liverpool Stand By Slot — NO May Contact With Alonso, Hughes Funding 'One Or Two' Wingers (Anfield Index / Liverpool.com, today Tue May 12)",
-      detail:
-        "Anfield Index this morning: 'Journalist confirms Liverpool's stance on Arne Slot's future' — Liverpool hierarchy 'absolutely in the direction' of continuing with Slot and have made NO contact with Xabi Alonso or any other manager during May. Liverpool.com follow-up: Hughes will fund 'one or two' wingers in the summer rebuild (Salah departing) plus midfield reinforcement. Slot has already promised '100 percent' his side will look different next season.",
+        "This Is Anfield Tue May 12 quotes Mohamed Salah on what he wants from his Anfield send-off: 'Hendo deserves to be given the farewell he deserved.' Henderson left Liverpool for the Saudi Pro League in 2023 without a proper Anfield goodbye; he is now in Brentford's matchday squad for May 24 alongside Kelleher, Carvalho and van den Berg. Salah's framing — making his own farewell partly about his old captain's — has reframed the day from valedictory to communal. Slot 'completely fine' with the plan per Liverpool.com.",
       category: "general",
     },
     {
-      title: "Latest Injury Round-Up — Van Dijk's Cramp Passes But Wirtz Still A Doubt (Liverpool.com / AP / Washington Post, today Tue May 12)",
+      title: "Pearce: Liverpool Need 'At Least Five Summer Signings' — Anfield Watch Names The Eight-Player Clear-Out (The Athletic / Anfield Watch / Empire of the Kop, today Tue May 12)",
       detail:
-        "Liverpool.com injury read this morning Tue May 12 names every body on the treatment table: Konaté (precautionary check after Chelsea — fit), Salah and Alisson 'very close' but still not in team training, Wirtz (stomach infection from Friday) still being managed back per AP / Washington Post — Slot's line stands: 'He tried everything to be in it ... in the end things got worse and he wasn't able to train.' Van Dijk's Saturday cramp now considered to have passed. Isak's Sat bench cameo trails a first start back.",
-      category: "injuries",
-    },
-    {
-      title: "Joe Gomez Breaks Dressing-Room Silence — 'Hurt' By Anfield Boos But Accepts Fan Frustration (Liverpool.com / ESPN / This Is Anfield, Mon May 11)",
-      detail:
-        "Confirmed yesterday Mon May 11 across Liverpool.com, ESPN, This Is Anfield, Yahoo Sports and Goal.com: Joe Gomez became the first senior player to address Saturday's full-time boos. 'We feel it. It's the last thing we want. For us older boys who have experienced so many good times here it does hurt,' Gomez said. He defended Slot's Ngumoha cramp substitution: 'Rio's young, played in a high-intense game ... physically, he was tired.' Sky Sports / Liverpool.com framing: 'Hurt' Gomez accepts fans entitled to voice frustration.",
-      category: "general",
-    },
-    {
-      title: "Alisson to Juventus Edges Closer — €15m Fee, €5m-Per-Year Terms Reported (Liverpool.com transfer live, Mon May 11)",
-      detail:
-        "Liverpool.com transfer-news LIVE blog Mon May 11: 'Juventus advances on Alisson' — the Brazilian goalkeeper has 'agreed personal terms with Juventus' on a €5m-a-year deal, with a €15m fee mooted (Schira / FootballTransfers). Mamardashvili expected to inherit the No. 1 shirt next season; Reds drawing up a five-keeper shortlist headed by PSG's Lucas Chevalier as long-term cover/competition. The story sits in the background as the run-in plays out.",
+        "Empire of the Kop, Tue May 12, surfacing James Pearce's Athletic column: Liverpool 'could need at least five summer signings' to be properly competitive next term, on top of the four 2025 marquee arrivals. Anfield Watch went further the same day: 'Richard Hughes has seen enough, these eight players will go in summer clear-out' — naming Salah and Robertson (already confirmed exits), plus Chiesa, Tsimikas, Endo, and three fringe players. David Ornstein's same-day note: 'Liverpool will want to recruit ... in particular in the winger position.'",
       category: "transfers",
     },
     {
-      title: "Champions League Maths — Reds Need One Win From Two After Sat Draw (Liverpool.com / The National, Sun May 10)",
+      title: "Slot's AXA Presser Tuesday Morning — 'I See It As 13 Games' Reframe Ahead Of Villa (Liverpool FC, today Tue May 12 9am BST)",
       detail:
-        "Liverpool.com / The National lead Sun May 10 still standing: 'Liverpool's wait for Champions League spot continues after Chelsea draw.' Reds 4th on 65 pts after 36 games, four clear of 6th-place Bournemouth. Two PL games left: Villa (A) Fri May 15 and Brentford (H) Sun May 24. A win at Villa Park OR a Bournemouth slip seals top-five. Villa themselves are level with Liverpool in some pundit framings — straight shootout for fourth.",
+        "Liverpool FC's transcript of Slot's 9am pre-Aston Villa presser at the AXA published Tue May 12. The line landing in fan timelines: 'I see it as 13 games to be played and the next game to be the most important one, starting with Villa away — which is, like Wolves at home, again a difficult game for us but for everyone.' Slot also offered fresh injury context: Salah is in solo work and 'getting closer' but is not yet back in team training; Alisson 'doesn't train with the team yet'; Konaté trained without restriction Tuesday; Wirtz being managed back from the stomach infection.",
       category: "matches",
     },
     {
-      title: "Aston Villa (A) Friday May 15, 8pm BST — Sky Sports (avfc.co.uk / Premier League)",
+      title: "Akliouche Bid Goes Concrete — Reds 'Formally Preparing' €50m Move For Monaco Playmaker (L'Équipe / This Is Anfield, today Tue May 12)",
       detail:
-        "Confirmed Premier League / avfc.co.uk fixture entry: Aston Villa vs Liverpool, Fri May 15, 8pm BST kickoff, Villa Park, Sky Sports. Match moved off Sun May 17 to accommodate Villa's Europa League final vs Freiburg in Istanbul Wed May 20. Liverpool unbeaten in last 11 vs Villa (8W, 3D). Slot's side and Emery's in 'a straight shootout for fourth' per This Is Anfield Friday preview.",
+        "L'Équipe-driven reporting picked up across This Is Anfield, CaughtOffside, Heavy and ESPN Tuesday: Liverpool are 'formally preparing a €50m push' for Monaco's 24-year-old French international playmaker Maghnes Akliouche as a Salah successor. 7 goals + 11 assists in 41 apps this term, primarily off the right. PSG retain a long-standing aggressive interest. Monaco understood to have softened to ~€50m. The Times had Diomande and Barcola assessed alongside; Akliouche now appears the lead lever.",
+      category: "transfers",
+    },
+    {
+      title: "Trincão Pursuit Goes 'Concrete' — €60m Release Clause At Sporting (Caught Offside / TeamTalk / Anfield Index, today Tue May 12)",
+      detail:
+        "Caught Offside's Tue May 12 lead: 'Liverpool hold concrete interest in Sporting's Francisco Trincão.' The 26-year-old Portuguese (Liga-leading 13 assists overall, 6G in Liga Portugal) has a €60m release clause to 2030 — versatile RW / AM. Chelsea and Arsenal also in the chase but Caught Offside reports Liverpool 'pushing the hardest at the moment.' TeamTalk frames the move as 'Salah repeat on'; Anfield Index pegs the same €60m valuation.",
+      category: "transfers",
+    },
+    {
+      title: "'Arne Slot Out' Petition Crosses 1.2 Million — Hierarchy Still Standing By The Boss (SportBible / Tribuna / Anfield Index, Mon-Tue May 11-12)",
+      detail:
+        "SportBible reported overnight Mon May 11 that the fan-driven 'Arne Slot Out' Change.org petition had crossed 1 million signatures in 24 hours; Tribuna's Tue check has it past 1.2m. The campaign has no contractual force and the hierarchy stance — confirmed by Anfield Index and the Telegraph Tue — remains 'absolutely in the direction' of Slot. NO May contact with Alonso or any other manager. The numerical scale of the fan revolt is still the loudest data point of the season.",
+      category: "general",
+    },
+    {
+      title: "Konaté Trains Without Restriction — VVD Cramp Cleared, CB Pair Restored For Villa Park (Liverpool.com, today Tue May 12)",
+      detail:
+        "Liverpool.com Tue injury read: Konaté came through Tuesday's session without a flag after the precautionary post-Chelsea check, and Van Dijk's Saturday cramp episode has fully cleared. CB pair restored for Villa Park Fri May 15. Off-pitch, the Konaté 50-50 contract situation has new context — Crook reports Real Madrid still in the chase with Bastoni, Schlotterbeck and van Hecke as Liverpool's shortlisted alternatives if the Frenchman walks.",
+      category: "injuries",
+    },
+    {
+      title: "Alisson To Juventus — €15m Fee Closing, Mamardashvili Now The Anointed No. 1 (Liverpool.com / Schira, ongoing Mon May 11)",
+      detail:
+        "Schira-led transfer line carried by Liverpool.com's Mon May 11 LIVE blog: Juventus 'advances on Alisson' with a €15m fee mooted and €5m-a-year personal terms agreed. The footnote that matters Tuesday: Liverpool's keeper rebuild starts with Mamardashvili anointed as next season's No. 1, and a five-keeper shortlist headed by PSG's Lucas Chevalier ready for the long-term cover/competition slot.",
+      category: "transfers",
+    },
+    {
+      title: "Race For Top Five — One Win Or A Bournemouth Slip Closes It Friday (Liverpool.com / Premier League race-for-Europe page, ongoing)",
+      detail:
+        "After Sat's 1-1 Chelsea draw Liverpool sit 4th on 65 pts from 36 — four clear of 6th-placed Bournemouth, with Villa themselves levels-or-near in some pundit framings. Two PL games left: Villa (A) Fri May 15 and Brentford (H) Sun May 24. A win at Villa Park OR a Bournemouth slip on the weekend settles the Champions League qualification question. Villa play in Istanbul's Europa League final five days after Friday's fixture.",
       category: "matches",
     },
     {
-      title: "Liverpool's Set-Piece Crisis Hits Top-Five-Leagues Worst — Slot 'Annoyed' (Opta Analyst / Empire of the Kop, weekend May 9-10)",
+      title: "Aston Villa (A) Fri May 15, 8pm BST — Sky Sports Live, Villa Park Atmosphere Set To Be Loud (avfc.co.uk / Premier League)",
       detail:
-        "Opta Analyst piece doing the rounds across Empire of the Kop and ESPN over the weekend May 9-10: Liverpool's non-penalty set-piece difference of -9 is the worst in Europe's top five leagues this season. The Reds have conceded 11 set-piece goals — seven from corners (only West Ham worse) and three from throw-ins (joint-most). Slot 'annoyed' by the record; Fofana's deflection of Enzo Fernandez's free-kick Saturday extended the run.",
-      category: "tactics",
+        "Premier League / avfc.co.uk fixture entry locked: Aston Villa vs Liverpool, Fri May 15, 8pm BST kickoff, Villa Park, Sky Sports. Match moved off the original Sun May 17 slot to accommodate Villa's Europa League final vs Freiburg in Istanbul Wed May 20. Liverpool unbeaten in their last 11 vs Villa (8W, 3D); Emery's side and Slot's framed by This Is Anfield's Tue preview as 'a straight shootout for fourth.'",
+      category: "matches",
     },
     {
-      title: "Wharton 'Advanced Talks' / Diomande 'Concrete' / Gordon Drifting To Bayern — Midfield + RW Rebuild Forming (FootballTransfers / TIA / Liverpool.com, ongoing May 6-12)",
+      title: "Wharton, Diomande, Gordon Threads Roll On — Midfield + RW Rebuild Forming Beneath The Marquee Stories (FootballTransfers / TIA / Liverpool.com, ongoing)",
       detail:
-        "Two ongoing transfer threads: FootballTransfers and GiveMeSport's mid-week (May 6) lead — 'Liverpool in advanced talks to sign Crystal Palace's Adam Wharton.' Palace ask £80m; Wharton 'understood to favour a move to Liverpool.' Separately, This Is Anfield's still-circulating 'concrete talks' headline for Yan Diomande (€100m, RB Leipzig, 22 goal contributions) and Liverpool.com flagging that Bayern Munich may now be in pole position for Newcastle's Anthony Gordon (£73m+). Curtis Jones contract talks still stalled with Inter, Newcastle and Villa monitoring.",
+        "Under the day's Akliouche / Trincão lead stories, the longer-running pursuits stay live: FootballTransfers and GiveMeSport's mid-week 'advanced talks' line for Adam Wharton (£80m, Crystal Palace, said to favour Anfield); This Is Anfield's still-circulating Yan Diomande 'concrete talks' note (€100m, RB Leipzig, 22 goal contributions); Liverpool.com's note Tuesday that Bayern Munich now look in pole on Newcastle's Anthony Gordon (£73m+). Curtis Jones' stalled contract leaves the midfield slot open.",
       category: "transfers",
     },
   ],
   sources: [
+    "This Is Anfield",
     "Liverpool FC",
     "Liverpool.com",
-    "This Is Anfield",
+    "Empire of the Kop",
+    "The Athletic (James Pearce)",
+    "Anfield Watch",
     "Caught Offside",
-    "SportBible",
-    "Tribuna",
-    "Anfield Index",
     "L'Équipe",
     "TeamTalk",
+    "Anfield Index",
+    "SportBible",
+    "Tribuna",
     "Telegraph",
-    "ESPN",
-    "Sky Sports",
-    "Empire of the Kop",
-    "Goal.com",
     "FootballTransfers",
-    "Heavy.com",
-    "Opta Analyst",
-    "AP / Washington Post",
     "GiveMeSport",
-    "The National",
+    "Sky Sports",
+    "Schira",
+    "Heavy.com",
+    "ESPN",
+    "The Times (David Ornstein note)",
     "Premier League",
     "avfc.co.uk",
   ],

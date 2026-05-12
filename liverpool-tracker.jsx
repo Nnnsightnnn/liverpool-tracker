@@ -128,21 +128,21 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Liverpool FC", title: "On demand: Arne Slot's pre-Aston Villa press conference live from AXA Training Centre — boss addresses Salah, Alisson and Van Dijk fitness ahead of Villa Park (Tue 9am BST)", time: "today", category: "official" },
-  { source: "Liverpool.com", title: "Arne Slot offers Mohamed Salah and Alisson Becker injury update — Egyptian 'very, very, very close to training' but BOTH still not in full team sessions on the eve of Villa Park", time: "today", category: "major" },
-  { source: "SportBible", title: "Liverpool fans demand Arne Slot is sacked with viral petition — 'Arne Slot Out' campaign tops 1 million signatures in under 24 hours after Chelsea draw", time: "today", category: "fan" },
+  { source: "This Is Anfield", title: "Jürgen Klopp could be set for another Anfield return on the last day of the season — Brentford's May 24 visit to double as Salah farewell and a Klopp reunion", time: "today", category: "fan" },
+  { source: "This Is Anfield", title: "'The farewell he deserved': Mohamed Salah asks Liverpool to give Jordan Henderson a proper send-off too — old captain back at Anfield in Brentford colours on May 24", time: "today", category: "fan" },
+  { source: "Empire of the Kop / The Athletic", title: "Pearce hints Liverpool could need at least FIVE summer signings to be competitive next term — Anfield Watch names the eight-man clear-out Hughes will sanction", time: "today", category: "fan" },
+  { source: "Liverpool FC", title: "Arne Slot's pre-Aston Villa press conference: 'I see it as 13 games to be played and the next game to be the most important one, starting with Villa away'", time: "today", category: "official" },
   { source: "L'Équipe / This Is Anfield", title: "Maghnes Akliouche bid stepped up — Liverpool 'formally preparing €50m push' for Monaco playmaker as Salah replacement, but PSG retain long-standing interest", time: "today", category: "fan" },
   { source: "Caught Offside", title: "Liverpool hold concrete interest in Sporting's Francisco Trincão — €60m release-clause winger linked with Salah successor role, Chelsea and Arsenal also keen", time: "today", category: "fan" },
-  { source: "Liverpool.com", title: "Liverpool transfer plans announced as Arne Slot role confirmed for next season — Hughes to fund 'one or two' wingers plus a midfield rebuild after $600m 2025 spend", time: "today", category: "major" },
-  { source: "Anfield Index", title: "Journalist confirms Liverpool's stance on Arne Slot's future — Reds standing by Dutchman, NO contact made with Xabi Alonso or any other manager in May", time: "today", category: "fan" },
-  { source: "Liverpool.com", title: "Latest Liverpool injury news and return dates including Konaté, Salah, Wirtz, Alisson — Van Dijk's cramp passes but Wirtz's stomach infection still touch-and-go", time: "today", category: "major" },
+  { source: "Tribuna", title: "'Arne Slot Out' petition surges past 1.2 million signatures — viral campaign caveated by Anfield Index / Telegraph note: hierarchy 'absolutely' continuing with Slot", time: "today", category: "major" },
+  { source: "Liverpool.com", title: "Konaté trains without restriction Tuesday and Van Dijk's Saturday cramp cleared — CB pair restored for Villa Park as Wirtz still managed back from stomach infection", time: "today", category: "major" },
+  { source: "Anfield Watch", title: "Liverpool Transfer News: Richard Hughes has seen enough — these EIGHT players will go in summer clear-out, alongside Salah and Robertson departures already confirmed", time: "today", category: "fan" },
   { source: "Liverpool.com", title: "Joe Gomez reveals Liverpool dressing-room feelings on Anfield boos: 'For us older boys who have experienced so many good times here, it does hurt' — accepts fans 'entitled' to show frustration", time: "1d ago", category: "major" },
   { source: "FootballTransfers", title: "Liverpool transfer news: Reds in 'advanced' Adam Wharton talks as summer planning goes into overdrive — Palace ask £80m, Wharton said to favour Anfield", time: "1d ago", category: "major" },
-  { source: "Liverpool.com", title: "Liverpool transfer news LIVE: Juventus advances on Alisson on €5m-a-year terms, €15m fee mooted — Reds drawing up Chevalier-led five-keeper shortlist", time: "1d ago", category: "major" },
+  { source: "Liverpool.com", title: "Liverpool transfer news LIVE: Juventus advances on Alisson on €5m-a-year terms, €15m fee mooted — Mamardashvili anointed as next season's No. 1", time: "1d ago", category: "major" },
   { source: "Sky Sports", title: "Liverpool 1-1 Chelsea: Boos for Arne Slot at Anfield as Blues end six-game Premier League losing streak — Gravenberch 6', Enzo Fernandez 35'", time: "3d ago", category: "major" },
   { source: "Liverpool FC", title: "Liverpool 1-1 Chelsea: Every word from Arne Slot's post-match press conference — boss says Reds 'shouldn't be happy' and Champions League wait goes on", time: "3d ago", category: "official" },
-  { source: "Washington Post (AP)", title: "Wirtz misses Liverpool's game against Chelsea because of stomach infection — Slot: 'He tried everything to be in it', will be reassessed for Villa Park", time: "3d ago", category: "major" },
-  { source: "Empire of the Kop", title: "Liverpool hit unwanted Premier League record as Slot's set-piece problem exposed — Opta: Reds' non-penalty set-piece difference of -9 is worst in Europe's top five leagues", time: "3d ago", category: "fan" },
+  { source: "Liverpool.com", title: "Liverpool's final fixtures compared to Aston Villa and Bournemouth — exactly how many points Slot's side need to confirm Champions League with two to play", time: "3d ago", category: "major" },
   { source: "This Is Anfield", title: "Diomande to Liverpool: Concrete talks for €100m Salah successor as Reds' top transfer target — 22 goal contributions for Leipzig, Roc Nation agency contacted", time: "4d ago", category: "fan" },
 ];
 
