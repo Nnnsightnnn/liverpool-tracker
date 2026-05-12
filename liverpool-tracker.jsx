@@ -73,7 +73,7 @@ function PlayerAvatar({ player, size = 64 }) {
   );
 }
 
-// ─── Player Data (2025-26 Season · Updated May 10, 2026) ──────────────────
+// ─── Player Data (2025-26 Season · Updated May 12, 2026) ──────────────────
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
 // injuryNote: short description shown on card when not fit
 const PLAYERS = [

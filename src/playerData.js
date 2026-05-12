@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2025-26 Season · Updated May 11, 2026) ──────
+// ─── Liverpool FC Player Data (2025-26 Season · Updated May 12, 2026) ──────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -464,9 +464,9 @@ export const NEWS_DIGEST = {
       category: "general",
     },
     {
-      title: "Latest Injury Round-Up — Van Dijk's Cramp Passes But Wirtz Still A Doubt (Liverpool.com, today Tue May 12)",
+      title: "Latest Injury Round-Up — Van Dijk's Cramp Passes But Wirtz Still A Doubt (Liverpool.com / AP / Washington Post, today Tue May 12)",
       detail:
-        "Liverpool.com injury read this morning Tue May 12 names every body on the treatment table: Konaté (precautionary check after Chelsea — fit), Salah and Alisson 'very close' but still not in team training, Wirtz (stomach infection from Friday) still being managed back, Van Dijk's Saturday cramp now considered to have passed. Slot expected to confirm specifics at his afternoon press availability. Isak's Sat bench cameo trails a first start back.",
+        "Liverpool.com injury read this morning Tue May 12 names every body on the treatment table: Konaté (precautionary check after Chelsea — fit), Salah and Alisson 'very close' but still not in team training, Wirtz (stomach infection from Friday) still being managed back per AP / Washington Post — Slot's line stands: 'He tried everything to be in it ... in the end things got worse and he wasn't able to train.' Van Dijk's Saturday cramp now considered to have passed. Isak's Sat bench cameo trails a first start back.",
       category: "injuries",
     },
     {
@@ -516,6 +516,7 @@ export const NEWS_DIGEST = {
     "Anfield Index",
     "L'Équipe",
     "TeamTalk",
+    "Telegraph",
     "ESPN",
     "Sky Sports",
     "Empire of the Kop",
