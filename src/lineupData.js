@@ -210,7 +210,7 @@ export const ALTERNATIVES = {
 export const PREDICTION_NOTE = {
   level: "High",
   reason: "Wed May 13 — two days from Villa Park kickoff, Liverpool.com's Wed lead 'Liverpool could be without EIGHT players against Aston Villa' confirms the shape of the XI: Salah, Alisson, Wirtz (doubtful) all still NOT in full team training, on top of long-term injuries to Ekitike, Bradley, Endo, Leoni, Bajcetic. With 10 of the 11 effectively forced (back four locked, Mamardashvili the obvious GK, midfield three settled, Isak the only natural No. 9 fit, Ngumoha and Frimpong covering the wings), confidence stays HIGH. Only the RW slot (Wirtz late-call) carries genuine variance.",
-  pundit_sources: ["Liverpool FC", "Liverpool.com", "This Is Anfield", "Caught Offside", "Sky Sports", "Goal.com", "AP / Washington Post", "Empire of the Kop", "ESPN", "FootballTransfers", "GiveMeSport", "SportBible", "Anfield Index", "Premier League", "Anfield Index", "Yahoo Sports", "RTÉ", "Football365", "TeamTalk", "OneFootball"],
+  pundit_sources: ["Liverpool FC", "Liverpool.com", "This Is Anfield", "Caught Offside", "Sky Sports", "Goal.com", "AP / Washington Post", "Empire of the Kop", "ESPN", "FootballTransfers", "GiveMeSport", "SportBible", "Anfield Index", "Premier League", "Yahoo Sports", "RTÉ", "Football365", "TeamTalk", "OneFootball"],
   agreement_rate: 0.84,
   generated_at: "2026-05-13T18:00:00Z",
 };

@@ -260,7 +260,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Mon May 11 — bench role Sat in the 1-1 Chelsea Anfield draw and Slot turned to Isak and Kerkez first off the pine. Rotation winger option for Villa Park Fri May 15; April reporting still has the Italian likely to exit this summer", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Wed May 13 — bench role Sat in the 1-1 Chelsea Anfield draw and Slot turned to Isak and Kerkez first off the pine. Rotation winger option for Villa Park Fri May 15; Anfield Watch's Tue 8-man clear-out list still has the Italian likely to exit this summer", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -423,7 +423,7 @@ export const DISPATCHES = [
     byline: "Sky Sports",
     dateline: "London · 13 May",
     category: "Officiating",
-    body: "On Wednesday afternoon, Howard Webb sat down with Sky Sports and conceded the thing every Liverpool supporter had been saying since the third of May: Benjamin Šeško did handle the ball before scoring Manchester United's third at Old Trafford. VAR, he added, could not disallow it because the available angles were not conclusive enough. The retrospective admission does not change the score, the standings, or the four-point cushion over Bournemouth heading into Villa Park. It joins, instead, the file of things the league has acknowledged after they stopped mattering. The Liverpool internet, on Wednesday evening, did not file it gently.",
+    body: "On Wednesday afternoon, Howard Webb sat down with Sky Sports and conceded the thing every Liverpool supporter had been saying since the third of May: Benjamin Šeško did handle the ball before scoring Manchester United's third at Old Trafford. VAR, he added, could not disallow it because the available angles were not conclusive enough. The retrospective admission does not change the score, the standings, or the four-point cushion over sixth-placed Chelsea heading into Villa Park. It joins, instead, the file of things the league has acknowledged after they stopped mattering. The Liverpool internet, on Wednesday evening, did not file it gently.",
   },
 ];
 
@@ -431,7 +431,7 @@ export const DISPATCHES = [
 export const NEWS_DIGEST = {
   generatedAt: "2026-05-13T18:00:00Z",
   summary:
-    "Wednesday May 13 evening — the run-in's emotional weather turned heavier overnight. ESPN, Anfield Index and Yahoo Sports led Wed with Joe Gomez breaking his silence on his Liverpool future: 'Anything can happen. I don't know is the honest answer. I've only got a year left … all I can do is be thankful and we'll see' — an exit interview that puts a third 11-year servant alongside Salah and Robertson on the summer departures board. Two days from Villa Park (Fri May 15, 8pm BST, Sky Sports), Liverpool.com's Wed lead 'Liverpool could be without EIGHT players against Aston Villa' confirmed Salah, Alisson, Wirtz still NOT in full team training, on top of long-term injuries to Ekitike, Bradley, Endo, Leoni and Bajcetic. The Caught Offside Murphy quote — 'Slot's time is surely up, Xabi Alonso the obvious candidate' — landed on the same Wed cycle as David Bentley's 'the fans have disconnected from the manager' broadside, and Liverpool.com's Wed Konaté contract update ('STALEMATE … not looking positive'). Howard Webb publicly conceded Wed that Benjamin Šeško DID handle vs Liverpool at Old Trafford but VAR couldn't disallow. Reds 4th on 65 pts — a win at Villa Park OR a Bournemouth slip seals top-five.",
+    "Wednesday May 13 evening — the run-in's emotional weather turned heavier overnight. ESPN, Anfield Index and Yahoo Sports led Wed with Joe Gomez breaking his silence on his Liverpool future: 'Anything can happen. I don't know is the honest answer. I've only got a year left … all I can do is be thankful and we'll see' — an exit interview that puts a third 11-year servant alongside Salah and Robertson on the summer departures board. Two days from Villa Park (Fri May 15, 8pm BST, Sky Sports), Liverpool.com's Wed lead 'Liverpool could be without EIGHT players against Aston Villa' confirmed Salah, Alisson, Wirtz still NOT in full team training, on top of long-term injuries to Ekitike, Bradley, Endo, Leoni and Bajcetic. The Caught Offside Murphy quote — 'Slot's time is surely up, Xabi Alonso the obvious candidate' — landed on the same Wed cycle as David Bentley's 'the fans have disconnected from the manager' broadside, and Liverpool.com's Wed Konaté contract update ('STALEMATE … not looking positive'). Howard Webb publicly conceded Wed that Benjamin Šeško DID handle vs Liverpool at Old Trafford but VAR couldn't disallow. Reds 4th on 65 pts — a win at Villa Park OR a Chelsea slip on the weekend seals top-five.",
   keyTopics: [
     {
       title: "'Anything Can Happen … We'll See' — Joe Gomez Breaks Silence On Liverpool Exit Talk, Final Year Of Deal Looming (ESPN / Anfield Index / Yahoo / RTÉ, breaking today Wed May 13)",
@@ -500,9 +500,9 @@ export const NEWS_DIGEST = {
       category: "general",
     },
     {
-      title: "Race For Top Five — One Win Or A Bournemouth Slip On The Weekend Closes It (Liverpool.com / Premier League race-for-Europe page, ongoing)",
+      title: "Race For Top Five — One Win Or A Chelsea Slip On The Weekend Closes It (Liverpool.com / Premier League race-for-Europe page, ongoing)",
       detail:
-        "After Sat's 1-1 Chelsea draw Liverpool sit 4th on 65 pts from 36 — four clear of 6th-placed Bournemouth, with Villa themselves levels-or-near in some pundit framings. Two PL games left: Villa (A) Fri May 15 and Brentford (H) Sun May 24. A win at Villa Park OR a Bournemouth slip on the weekend settles the Champions League qualification question. Villa play in Istanbul's Europa League final five days after Friday's fixture and so will be balancing.",
+        "After Sat's 1-1 Chelsea draw Liverpool sit 4th on 65 pts from 36 — four clear of 6th-placed Chelsea (61), with 5th-placed Aston Villa (62) themselves still in the chase. Two PL games left: Villa (A) Fri May 15 and Brentford (H) Sun May 24. A win at Villa Park OR a Chelsea slip on the weekend settles the Champions League qualification question. Villa play in Istanbul's Europa League final five days after Friday's fixture and so will be balancing.",
       category: "matches",
     },
   ],
@@ -519,18 +519,13 @@ export const NEWS_DIGEST = {
     "L'Équipe",
     "TeamTalk",
     "This Is Anfield",
-    "Liverpool FC",
     "Empire of the Kop",
     "The Athletic (James Pearce)",
     "Anfield Watch",
     "SportBible",
     "Tribuna",
     "Telegraph",
-    "FootballTransfers",
-    "GiveMeSport",
     "Premier League",
-    "avfc.co.uk",
-    "Schira",
   ],
 };
 
