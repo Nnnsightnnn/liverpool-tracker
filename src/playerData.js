@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "recovering", outSince: "2026-03-22", injuryNote: "Wed May 13 — Liverpool.com's Wed injury read 'Liverpool could be without EIGHT players against Aston Villa' confirms Alisson STILL not in full team training Wednesday morning, 48 hours from Villa Park kickoff. Slot's pre-Villa wording stands — 'doesn't train with the team yet.' Brentford home finale May 24 looks the realistic earliest return. Off the pitch the Juventus story has hardened on Wed — €15m fee mooted with €5m-a-year personal terms (Schira), Mamardashvili anointed next season's No. 1", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "recovering", outSince: "2026-03-22", injuryNote: "Thu May 14 — Liverpool.com's Thursday lead 'Alisson Becker injury hint dropped as Liverpool awaits goalkeeper's return' notes Brazil have INCLUDED Alisson in the World Cup provisional squad — read by Liverpool.com as a 'very close' fitness signal — but the keeper is STILL not in full team training Thursday morning, 24h from Villa Park kickoff. Mamardashvili keeps the gloves Fri May 15. Off the pitch Anfield Watch / FootballTransfers Thursday: Alisson has 'agreed a €15m deal' to Juventus, €5m-a-year personal terms (Schira)", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -93,7 +93,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Wed May 13 — likely to retain his RW/makeshift-attacker slot for Villa Park Fri May 15 with Salah, Wirtz, Isak and Ekitike all variously sidelined per Liverpool.com's Wed '8 out' update. Started Sat's 1-1 Chelsea draw on the right as Wirtz cover; modest 6/10 ratings. Could revert to RB if Curtis Jones drops out", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Thu May 14 — likely to vacate the RW slot at Villa Park Fri May 15 now Wirtz has TRAINED Thu (Pearce / Empire of the Kop), with Frimpong dropping to the bench or shifting to RB if Slot wants Curtis Jones rested. Started Sat's 1-1 Chelsea draw on the right as Wirtz cover; modest 6/10 ratings. Still a key squad option if Salah is held back for Brentford farewell", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -181,7 +181,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 32, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.3, status: "doubtful", outSince: "2026-05-09", injuryNote: "Wed May 13 — Liverpool.com's Wed '8 out vs Villa' rundown lists Wirtz among the doubts: still being managed back from the stomach infection that forced him out of Sat's 1-1 Chelsea draw. AP/Washington Post quote stands: 'He tried everything to be in it ... in the end things got worse and he wasn't able to train.' Late call for Aston Villa (A) Fri May 15", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 32, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.3, status: "fit", returningFromInjury: { matchesBackIncludingThis: 1 }, injuryNote: "Thu May 14 — BACK IN FULL TRAINING at the AXA Thursday morning per James Pearce (Empire of the Kop / The Athletic): 'He has trained.' The stomach infection that forced him out of Sat's 1-1 Chelsea draw is behind him, and Slot expected to confirm availability at the 9am pre-Villa presser. Likely returns to the No. 10/right-mid pocket at Villa Park Fri May 15, pushing Frimpong back to RB or to the bench", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 37, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.2, status: "recovering", outSince: "2026-04-26", injuryNote: "Wed May 13 — Liverpool.com's Wed 'Liverpool could be without 8 players against Aston Villa' has Salah in the unavailable column: still 'very, very close' per Slot but NOT in full team training Wed — fourth straight game in jeopardy after the Apr 25 Palace hamstring. The Brentford home finale May 24 now firmly the projected Anfield farewell, with Henderson returning in the away kit and Klopp expected in the Brentford suite", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 37, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.2, status: "doubtful", outSince: "2026-04-26", injuryNote: "Thu May 14 — Sky Sports breaks Thursday: Mohamed Salah is SET TO RETURN for Liverpool's Villa Park trip Friday after Liverpool issued a formal statement that the Egyptian will feature again before end of season. Slot's pre-Chelsea wording — 'getting very, very, very close to training with us' — firms into matchday-squad inclusion likely as a sub at Villa Park Fri May 15. Brentford home finale May 24 still the projected Anfield farewell, with Henderson returning in Brentford kit and Klopp guest of the club", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -429,102 +429,105 @@ export const DISPATCHES = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-05-13T18:00:00Z",
+  generatedAt: "2026-05-14T16:00:00Z",
   summary:
-    "Wednesday May 13 evening — the run-in's emotional weather turned heavier overnight. ESPN, Anfield Index and Yahoo Sports led Wed with Joe Gomez breaking his silence on his Liverpool future: 'Anything can happen. I don't know is the honest answer. I've only got a year left … all I can do is be thankful and we'll see' — an exit interview that puts a third 11-year servant alongside Salah and Robertson on the summer departures board. Two days from Villa Park (Fri May 15, 8pm BST, Sky Sports), Liverpool.com's Wed lead 'Liverpool could be without EIGHT players against Aston Villa' confirmed Salah, Alisson, Wirtz still NOT in full team training, on top of long-term injuries to Ekitike, Bradley, Endo, Leoni and Bajcetic. The Caught Offside Murphy quote — 'Slot's time is surely up, Xabi Alonso the obvious candidate' — landed on the same Wed cycle as David Bentley's 'the fans have disconnected from the manager' broadside, and Liverpool.com's Wed Konaté contract update ('STALEMATE … not looking positive'). Howard Webb publicly conceded Wed that Benjamin Šeško DID handle vs Liverpool at Old Trafford but VAR couldn't disallow. Reds 4th on 65 pts — a win at Villa Park OR a Chelsea slip on the weekend seals top-five.",
+    "Thursday May 14 — team news boost: James Pearce broke at midday (Empire of the Kop, The Athletic) that Florian Wirtz HAS TRAINED at the AXA Thursday morning after the stomach infection that forced him out of Sat's 1-1 Chelsea draw, and Sky Sports report Mohamed Salah is set to return for Friday's Villa Park trip after Liverpool issued a formal statement that the Egyptian will feature again before the end of the season — Slot calling him 'very, very close' at the 9am pre-match presser. Twenty-four hours from Villa Park (Fri May 15, 8pm BST, Sky Sports), the casualty list has thinned: Alisson 'very close' but the Brentford home finale May 24 still the realistic earliest return per Liverpool.com's Thursday Brazil-squad-tease piece. Off-pitch the noise rolled on: Anfield Watch / FootballTransfers reported Alisson has 'agreed a €15m deal' to leave for Juventus on €5m-a-year terms; David Lynch (via Tribuna) said Liverpool are 'not absolutely convinced' by Xabi Alonso as his Chelsea move nears, while Iraola was named 'among candidates' to replace Slot. Liverpool.com also said Van Dijk's Galatasaray exit is RULED OUT under a new rule. Reds 4th on 65 pts — a win at Villa Park OR a Chelsea slip on the weekend seals top-five.",
   keyTopics: [
     {
-      title: "'Anything Can Happen … We'll See' — Joe Gomez Breaks Silence On Liverpool Exit Talk, Final Year Of Deal Looming (ESPN / Anfield Index / Yahoo / RTÉ, breaking today Wed May 13)",
+      title: "'He Has Trained' — James Pearce Drops Liverpool Team News Boost: Wirtz BACK In Training Thursday Ahead Of Villa Park (Empire of the Kop / The Athletic, breaking today Thu May 14)",
       detail:
-        "Reported across ESPN, Anfield Index, Yahoo Sports and RTÉ on Wed May 13: 11-year servant Joe Gomez has admitted he doesn't know if he'll still be a Liverpool player next season. 'No. I think anything can happen. I don't know is the honest answer. I've only got a year left so I don't know, but whatever is meant to be will be, I guess … all I can do is be thankful and we'll see.' Gomez turns 29 on the final weekend and has made 15 starts in 31 apps this term. ESPN's Wed framing: 'could be set for an Anfield exit amid uncertain future.' Adds to Salah and Robertson on the confirmed departures list.",
-      category: "transfers",
-    },
-    {
-      title: "'Liverpool Could Be Without EIGHT Players Vs Aston Villa' — Salah, Alisson, Wirtz Still Out Of Full Training Wed (Liverpool.com, breaking today Wed May 13)",
-      detail:
-        "Liverpool.com's Wed May 13 lead 'Liverpool could be without eight players against Aston Villa as Arne Slot faces more decisions' has Salah and Alisson STILL not in full team training, Wirtz a doubt with the stomach infection, plus long-term absentees Ekitike (Achilles), Bradley (knee), Leoni (ACL), Endo (ankle) and Bajcetic (hamstring). The Reds head to Villa Park Fri May 15 with the thinnest matchday squad of the season. Isak (back from cameo) and Mamardashvili (locked in) are the only confidence-builders in the build-up.",
+        "Empire of the Kop surfaced James Pearce's Athletic line at midday Thursday May 14: 'He has trained' — Florian Wirtz is BACK in full training at the AXA on Thursday morning after the stomach infection that ruled him out of Sat's 1-1 Chelsea Anfield draw. The Germany playmaker had 'tried everything to be in it' for the Chelsea game per AP / Washington Post, but things 'got worse' on Saturday morning. Slot expected to confirm Wirtz's availability at the 9am pre-Villa press conference. Single biggest team news swing of the week heading to Villa Park Fri May 15.",
       category: "injuries",
     },
     {
-      title: "Murphy: 'Slot's Time Is Surely Up' — Xabi Alonso The 'Obvious' Replacement After Chelsea Boos (Caught Offside, today Wed May 13)",
+      title: "Salah Set For Villa Park Return — Liverpool Issue Statement, Slot Says 'Very, Very Close' (Sky Sports / Liverpool FC, breaking today Thu May 14)",
       detail:
-        "Caught Offside Wed May 13: 'Arne Slot's time is up and there is obvious candidate to replace him, says ex-Liverpool star.' Former Reds midfielder Danny Murphy goes on record that Slot's tenure is over and that Xabi Alonso — out of Real Madrid since January, also linked with Chelsea — should be the next man in. Fabrizio Romano's same-day counterweight via TeamTalk: Liverpool 'never made any direct approach with Alonso or with his agents' and the hierarchy stance remains 'absolutely in the direction' of Slot. The narrative gap between the fanbase and the boardroom widened again Wed.",
-      category: "general",
+        "Sky Sports broke Thursday May 14 that Mohamed Salah is expected to return for Liverpool's Friday-night trip to Villa Park after the club issued a formal statement confirming the Egyptian will feature again before the end of the season. Slot's pre-Chelsea wording — 'not trained with us yet but is getting very, very, very close to training with us' — has firmed up into a likely matchday-squad inclusion at Villa Park Fri May 15. The Apr 25 Crystal Palace hamstring kept him out of three games; the projected farewell remains the Brentford home finale on May 24 but the Egyptian could now feature in both run-in fixtures.",
+      category: "injuries",
     },
     {
-      title: "Bentley: 'The Fans Have Disconnected From The Manager' — Pundits Pile In On Slot After Anfield Boos (Yahoo / OneFootball / Anfield Index, today Wed May 13)",
+      title: "Slot's Pre-Aston Villa Press Conference Live At 9am BST Thursday — 'A Game For Everyone To Look Forward To' (Liverpool FC, today Thu May 14)",
       detail:
-        "Former Premier League player David Bentley on Wed May 13 (carried by Yahoo, OneFootball and Anfield Index): 'I think the fans have just disconnected from the manager and that's so hard specifically at Liverpool. The whole place needs to be alive and a part of it.' Wayne Rooney on Wed's Match of the Day cycle added that Liverpool 'haven't got an identity of how they play, with players not looking interested.' Rio Ngumoha's 75' substitution Sat vs Chelsea now the cited flashpoint of the disconnect.",
-      category: "general",
-    },
-    {
-      title: "Konaté Contract Reaches 'Stalemate' — Sticking Points On Signing-On Package, Real Madrid Still Circling (Liverpool.com, today Wed May 13)",
-      detail:
-        "Liverpool.com's Wed May 13 lead: 'Ibrahima Konaté reaches stalemate with Liverpool as contract update issued.' Negotiations have stalled over the structure of the signing-on package and the associated agent commissions. Konaté had told reporters earlier in the spring 'we have spoken with the club and we are close to an agreement,' but the situation is 'not looking particularly positive' as the season closes. Real Madrid remain in the chase; Liverpool tracking Bastoni / Schlotterbeck / van Hecke as alternatives.",
-      category: "transfers",
-    },
-    {
-      title: "Howard Webb Concedes Šeško Handball Vs Liverpool — VAR Could Not Disallow Due To Lack Of Evidence (Sky Sports, today Wed May 13)",
-      detail:
-        "Sky Sports Wed May 13: PGMOL chief Howard Webb has now publicly conceded Benjamin Šeško did handle the ball before scoring for Manchester United against Liverpool at Old Trafford on May 3 (a 3-2 United win), but VAR could not disallow the goal due to lack of conclusive evidence. The retrospective admission ends Liverpool's two-week protest and is unlikely to change the league standings — Liverpool sit 4th on 65 pts after the Chelsea draw, still 4 clear of 6th — but it lands as another pressure point of the run-in.",
+        "Liverpool FC streamed Arne Slot's pre-Aston Villa press conference live from 9am BST Thursday May 14 at the AXA. The Dutchman fronted up the morning before the team-coach to Birmingham with Wirtz and Salah fitness updates the main agenda; LFC's own readout headed 'A game for everyone to look forward to.' Friday's trip is Liverpool's final away fixture of the season and the chance to lock in top-five with a win.",
       category: "matches",
     },
     {
-      title: "Akliouche 'Almost Certain' To Leave Monaco — Liverpool Prepping €50m Bid, Gakpo Sale 'Green-Lit' (L'Équipe / Football365 / TeamTalk, today Wed May 13)",
+      title: "Alisson 'Agrees €15m Deal' To Leave Liverpool — Three-Year Juventus Contract Worth €5m/year, Schira Reports (Anfield Watch / FootballTransfers, today Thu May 14)",
       detail:
-        "L'Équipe-driven update carried by Football365, TeamTalk and ESPN on Wed May 13: Maghnes Akliouche is now 'almost certain' to change clubs this summer and his €50m / £43m price tag 'will not deter Liverpool from sanctioning a swoop.' Football365's Wed framing: 'FSG prep €50m bid for French winger after shock Gakpo sale greenlit.' TeamTalk: 'FSG want to sign French winger after Gakpo sale approved — it's NOT Barcola.' PSG retain long-standing interest; Liverpool reported as 'pushing the hardest' on the right-wing rebuild.",
+        "Anfield Watch and FootballTransfers reported Thursday May 14 that Alisson Becker has 'agreed a €15m deal' to leave Liverpool for Juventus, with Italian journalist Nicolò Schira putting the personal terms at €5m a year on a two- or three-year contract. Liverpool are said to want £13–17m as a fee, with negotiations between the clubs continuing into the week. The 33-year-old still hasn't featured since the mid-March Galatasaray win — Liverpool.com's Thursday Brazil-WC-squad-tease piece flags him as 'very close' to a return but slots Mamardashvili in for Villa Park.",
       category: "transfers",
     },
     {
-      title: "Klopp In Line For Anfield Return On Final Day — Brentford Salah Farewell To Become A Reunion (This Is Anfield, Tue May 12)",
+      title: "Liverpool 'Not Absolutely Convinced' By Xabi Alonso As Chelsea Move Nears — David Lynch (Tribuna, breaking today Thu May 14)",
       detail:
-        "This Is Anfield broke Tue afternoon: 'Jurgen Klopp could be set for another Anfield return on last day of the season.' The German, now in his Red Bull global-football role, is understood to have accepted a Brentford-suite invitation to watch Sun May 24's final-day fixture — already lined up as Salah's Anfield farewell, now a likely Klopp reunion too. Carragher and Henderson among the ex-Reds expected on the night. Reds and Brentford both confirm Klopp will be a guest of the club. The sentimental thread of the run-in still ran Wed.",
+        "Tribuna carried journalist David Lynch's Thursday May 14 line that Liverpool remain 'not absolutely convinced' by Xabi Alonso — despite his status as a fan favourite — as the ex-Real Madrid coach edges closer to a Chelsea appointment. Sky Sports' separate Thursday piece had Alonso facing a personal dilemma between 'moving to Chelsea or waiting for the dream Liverpool job.' Romano had already framed Liverpool's stance Wed: never any direct approach, hierarchy 'absolutely in the direction' of continuing with Slot.",
       category: "general",
     },
     {
-      title: "Salah Asks Liverpool To Give Henderson 'The Farewell He Deserved' (This Is Anfield / Liverpool.com, Tue May 12)",
+      title: "Iraola 'Among Candidates' To Replace Slot — Bournemouth Boss Linked, Hughes Relationship The Driver (This Is Anfield / Caught Offside, today Thu May 14)",
       detail:
-        "This Is Anfield Tue May 12 quotes Mohamed Salah on what he wants from his Anfield send-off: 'Hendo deserves to be given the farewell he deserved.' Henderson left Liverpool for the Saudi Pro League in 2023 without a proper Anfield goodbye; he is now in Brentford's matchday squad for May 24 alongside Kelleher, Carvalho and van den Berg. Salah's framing — making his own farewell partly about his old captain's — has reframed the day from valedictory to communal. Slot 'completely fine' with the plan per Liverpool.com.",
+        "This Is Anfield and Caught Offside flagged Andoni Iraola Thursday May 14 as 'among the candidates' to replace Slot if Liverpool change tack this summer. Reports describe the Bournemouth manager as Sporting Director Richard Hughes's top target — the pair worked together at Bournemouth and Iraola's contract on the South Coast expires this summer. Crystal Palace, Chelsea and Man United also chasing. Iraola himself said Saturday (Tribuna): 'I will not talk about my future.'",
       category: "general",
     },
     {
-      title: "Pearce: Liverpool Need 'At Least Five Summer Signings' — Anfield Watch Names The Eight-Player Clear-Out (The Athletic / Anfield Watch, Tue May 12)",
+      title: "Van Dijk Transfer To Galatasaray RULED OUT — New Rule Could Prevent Liverpool Exit (Liverpool.com, today Thu May 14)",
       detail:
-        "Empire of the Kop, Tue May 12, surfacing James Pearce's Athletic column: Liverpool 'could need at least five summer signings' to be properly competitive next term, on top of the four 2025 marquee arrivals. Anfield Watch went further the same day: 'Richard Hughes has seen enough, these eight players will go in summer clear-out' — naming Salah and Robertson (already confirmed exits), plus Chiesa, Tsimikas, Endo, and three fringe players. Gomez's Wed exit interview now strengthens the second list further.",
+        "Liverpool.com Thursday May 14: 'Virgil van Dijk transfer ruled out as new rule could prevent Liverpool exit.' Recent reports had linked the captain with a sentimental late-career move to Galatasaray; the Dutchman is now expected to see out his current Liverpool deal, which The Athletic still has running to end of 2026-27. Liverpool tracking Bastoni / Schlotterbeck / van Hecke as long-term centre-back succession candidates.",
       category: "transfers",
     },
     {
-      title: "'Arne Slot Out' Petition Past 1.2 Million — Hierarchy Still Standing By The Boss (SportBible / Tribuna / Anfield Index, ongoing)",
+      title: "'Anything Can Happen … We'll See' — Joe Gomez Breaks Silence On Liverpool Exit Talk (ESPN / Anfield Index / Yahoo / RTÉ, broke yesterday Wed May 13)",
       detail:
-        "SportBible reported overnight Mon May 11 that the fan-driven 'Arne Slot Out' Change.org petition had crossed 1 million signatures in 24 hours; Tribuna's Tue check has it past 1.2m and Wed's totals continue climbing. The campaign has no contractual force and the hierarchy stance — confirmed by Anfield Index and the Telegraph — remains 'absolutely in the direction' of Slot. Murphy and Bentley Wed quotes push the public-facing case against Slot louder, but ownership has not blinked.",
-      category: "general",
+        "Reported across ESPN, Anfield Index, Yahoo Sports and RTÉ on Wed May 13 and still echoing through Thursday's coverage: 11-year servant Joe Gomez has admitted he doesn't know if he'll still be a Liverpool player next season. 'No. I think anything can happen. I don't know is the honest answer. I've only got a year left so I don't know, but whatever is meant to be will be, I guess … all I can do is be thankful and we'll see.' Gomez turns 29 on the final weekend and has made 15 starts in 31 apps. Adds to Salah and Robertson on confirmed departures.",
+      category: "transfers",
+    },
+    {
+      title: "Konaté Contract Reaches 'Stalemate' — Sticking Points On Signing-On Package, Real Madrid Still Circling (Liverpool.com, broke yesterday Wed May 13)",
+      detail:
+        "Liverpool.com's Wed May 13 lead: 'Ibrahima Konaté reaches stalemate with Liverpool as contract update issued.' Negotiations have stalled over the structure of the signing-on package and associated agent commissions. Konaté had told reporters earlier in the spring 'we are close to an agreement,' but the situation is 'not looking particularly positive.' Real Madrid in the background. Tracking Bastoni / Schlotterbeck / van Hecke as alternatives.",
+      category: "transfers",
+    },
+    {
+      title: "Howard Webb Concedes Šeško Handball vs Liverpool — VAR Could Not Disallow Due To Lack Of Evidence (Sky Sports, broke yesterday Wed May 13)",
+      detail:
+        "Sky Sports Wed May 13: PGMOL chief Howard Webb publicly conceded Benjamin Šeško did handle the ball before scoring for Manchester United against Liverpool at Old Trafford on May 3 (a 3-2 United win), but VAR could not disallow due to lack of conclusive evidence. Liverpool sit 4th on 65 pts after the Chelsea draw, still 4 clear of 6th — but the file of officiating grievances grew through midweek.",
+      category: "matches",
+    },
+    {
+      title: "Akliouche €50m Bid Prepped, Gakpo Sale 'Green-Lit' (L'Équipe / Football365 / TeamTalk, broke yesterday Wed May 13)",
+      detail:
+        "L'Équipe-driven update carried by Football365, TeamTalk and ESPN on Wed May 13: Maghnes Akliouche is now 'almost certain' to change clubs this summer and his €50m / £43m price tag 'will not deter Liverpool from sanctioning a swoop.' Football365: 'FSG prep €50m bid for French winger after shock Gakpo sale greenlit.' PSG also in chase; Liverpool reported as 'pushing the hardest' on the right-wing rebuild.",
+      category: "transfers",
     },
     {
       title: "Race For Top Five — One Win Or A Chelsea Slip On The Weekend Closes It (Liverpool.com / Premier League race-for-Europe page, ongoing)",
       detail:
-        "After Sat's 1-1 Chelsea draw Liverpool sit 4th on 65 pts from 36 — four clear of 6th-placed Chelsea (61), with 5th-placed Aston Villa (62) themselves still in the chase. Two PL games left: Villa (A) Fri May 15 and Brentford (H) Sun May 24. A win at Villa Park OR a Chelsea slip on the weekend settles the Champions League qualification question. Villa play in Istanbul's Europa League final five days after Friday's fixture and so will be balancing.",
+        "Liverpool sit 4th on 65 pts from 36 after Sat's 1-1 Chelsea draw — four clear of 6th-placed Chelsea (61), with 5th-placed Aston Villa (62) themselves in the chase. Two PL games left: Villa (A) Fri May 15 and Brentford (H) Sun May 24. A win at Villa Park OR a Chelsea slip on the weekend settles Champions League qualification. Villa play in the Europa League final five days after Friday's fixture and so will be balancing.",
       category: "matches",
     },
   ],
   sources: [
+    "Empire of the Kop",
+    "The Athletic (James Pearce)",
+    "Sky Sports",
+    "Liverpool FC",
+    "Liverpool.com",
+    "Anfield Watch",
+    "FootballTransfers",
+    "Tribuna",
+    "This Is Anfield",
+    "Caught Offside",
     "ESPN",
     "Anfield Index",
     "Yahoo Sports",
     "RTÉ",
-    "Liverpool.com",
-    "Caught Offside",
     "OneFootball",
-    "Sky Sports",
     "Football365",
     "L'Équipe",
     "TeamTalk",
-    "This Is Anfield",
-    "Empire of the Kop",
-    "The Athletic (James Pearce)",
-    "Anfield Watch",
     "SportBible",
-    "Tribuna",
     "Telegraph",
+    "AP / Washington Post",
     "Premier League",
   ],
 };
