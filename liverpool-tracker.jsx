@@ -73,7 +73,7 @@ function PlayerAvatar({ player, size = 64 }) {
   );
 }
 
-// ─── Player Data (2025-26 Season · Updated May 13, 2026) ──────────────────
+// ─── Player Data (2025-26 Season · Updated May 14, 2026) ──────────────────
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
 // injuryNote: short description shown on card when not fit
 const PLAYERS = [
@@ -128,23 +128,23 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Empire of the Kop / The Athletic", title: "'He has trained' — James Pearce drops Liverpool team news boost: Florian Wirtz BACK in training Thursday ahead of Villa Park showdown after the stomach infection that forced him out vs Chelsea", time: "today", category: "major" },
-  { source: "Sky Sports", title: "Mohamed Salah set for Villa Park return — Liverpool confirm Egyptian will feature again before end of season as Slot says winger is 'very, very close' to full training", time: "today", category: "major" },
-  { source: "Liverpool FC", title: "Arne Slot's pre-Aston Villa press conference live from 9am BST Thursday — Salah and Wirtz fitness updates expected before the team-coach leaves AXA for Birmingham", time: "today", category: "official" },
-  { source: "Liverpool.com", title: "Alisson Becker injury hint dropped as Liverpool awaits goalkeeper's return — Brazil World Cup provisional-squad inclusion a fitness signal, with Brentford home finale May 24 the realistic earliest return date", time: "today", category: "major" },
-  { source: "Tribuna / David Lynch", title: "Liverpool 'not absolutely convinced' by Xabi Alonso as Chelsea move nears — journalist David Lynch reports FSG hierarchy still backs Slot despite mounting fan pressure", time: "today", category: "major" },
-  { source: "Liverpool.com", title: "Virgil van Dijk transfer to Galatasaray RULED OUT as new rule could prevent Liverpool exit — captain locked in for the captaincy through 2026-27", time: "today", category: "major" },
-  { source: "Anfield Watch / FootballTransfers", title: "Alisson Becker 'agrees €15m deal' to leave Liverpool — Juventus close on three-year contract worth €5m/year as Reds prepare to do business this summer", time: "today", category: "fan" },
-  { source: "This Is Anfield / Caught Offside", title: "Andoni Iraola 'among candidates' to replace Arne Slot at Liverpool — Bournemouth boss with pre-existing relationship to Sporting Director Richard Hughes, contract at Bournemouth expires this summer", time: "today", category: "fan" },
-  { source: "ESPN / Anfield Index", title: "'Anything can happen … we'll see' — Joe Gomez breaks silence on his Liverpool future, admits he doesn't know if he'll still be at Anfield next season as he enters the final year of his deal", time: "1d ago", category: "major" },
-  { source: "Caught Offside", title: "Liverpool tipped to replace Arne Slot with Xabi Alonso — Danny Murphy says Slot's time is 'surely up' with the ex-Real Madrid boss the 'obvious' candidate after Chelsea boos", time: "1d ago", category: "fan" },
-  { source: "Liverpool.com", title: "Liverpool could be WITHOUT EIGHT PLAYERS at Villa Park as Slot faces more decisions — Salah, Alisson, Ekitike, Bradley, Endo, Leoni, Bajcetic and Wirtz (doubtful) on the casualty list", time: "1d ago", category: "major" },
-  { source: "Liverpool.com", title: "Ibrahima Konaté contract 'stalemate' with Liverpool — sticking points over signing-on package and agent commissions, Real Madrid still circling", time: "1d ago", category: "major" },
-  { source: "Sky Sports", title: "Howard Webb says Benjamin Šeško DID handle the ball before scoring vs Liverpool at Old Trafford on May 3 — VAR could not disallow due to lack of conclusive evidence", time: "1d ago", category: "major" },
-  { source: "L'Équipe / Football365", title: "Akliouche 'almost certain' to leave Monaco this summer per L'Équipe — Liverpool prepping €50m bid as FSG green-lights potential Gakpo sale to fund the wide rebuild", time: "1d ago", category: "fan" },
-  { source: "This Is Anfield", title: "Jürgen Klopp could be set for another Anfield return on the last day of the season — Brentford's May 24 visit to double as Salah farewell and a Klopp reunion in the Brentford suite", time: "2d ago", category: "fan" },
-  { source: "Tribuna / SportBible", title: "'Arne Slot Out' petition surges past 1.2 million signatures — viral campaign caveated by Anfield Index / Telegraph note: hierarchy 'absolutely' continuing with Slot", time: "2d ago", category: "major" },
-  { source: "Sky Sports", title: "Liverpool 1-1 Chelsea: Boos for Arne Slot at Anfield as Blues end six-game Premier League losing streak — Gravenberch 6', Enzo Fernandez 35'", time: "5d ago", category: "major" },
+  { source: "This Is Anfield / Per Second News", title: "'I have every reason to believe I'm the Liverpool manager next season' — Arne Slot fronts up at the AXA on Thursday and explicitly rules himself in for 2026-27 hours before the team-coach leaves for Birmingham", time: "today", category: "major" },
+  { source: "Sky Sports", title: "Aston Villa vs Liverpool, 8pm BST tonight at Villa Park — a win, or a Chelsea slip across the weekend, books Liverpool's Champions League place before the Brentford finale May 24", time: "today", category: "major" },
+  { source: "FOX Sports / Goal.com", title: "Slot confirms Mohamed Salah's limited Villa Park return — Liverpool boss says winger 'will be available tomorrow for only a few minutes, but hopefully can come in' as bench cameo lines up before Brentford farewell", time: "today", category: "major" },
+  { source: "Liverpool.com / RotoWire", title: "Florian Wirtz a doubt at Villa Park — Slot says the Germany playmaker is 'on antibiotics' for the stomach infection that ruled him out vs Chelsea, fitness call goes right to kickoff", time: "today", category: "major" },
+  { source: "Liverpool.com", title: "'Alisson Becker injury hint dropped as Liverpool awaits goalkeeper's return' — Brazilian back in training and pushing to feature, but Slot says he may still 'have to wait one more week' before the Brentford home finale", time: "today", category: "major" },
+  { source: "Liverpool FC", title: "LFC injury update: Salah to return, latest on Alisson, Konate and Wirtz — Liverpool's official channel mirrors the matchday briefing as Konaté 'trained with us' after coming off vs Chelsea", time: "today", category: "official" },
+  { source: "beIN Sports", title: "Arne Slot feels secure at Liverpool despite his disastrous season — Dutchman cites contract status and ongoing FSG talks as the GiveMeSport line emerges that the club has 'no plans to complete a summer review'", time: "today", category: "major" },
+  { source: "Sportsmole / Sports Illustrated", title: "Aston Villa vs Liverpool predicted XI: Mamardashvili in goal, Jones at RB, Wirtz a late call — Liverpool could be without up to nine players at Villa Park with Salah, Alisson and Wirtz all to be assessed", time: "today", category: "major" },
+  { source: "Sky Sports / Inside World Football", title: "Xabi Alonso 'frontrunner' for Chelsea manager job — talks 'progress positively' as the ex-Bayer boss weighs the Stamford Bridge offer against waiting for Liverpool, FSG decision to stick with Slot puts him on the spot", time: "1d ago", category: "major" },
+  { source: "This Is Anfield / Caught Offside", title: "Andoni Iraola 'among candidates' to replace Arne Slot — Bournemouth boss linked at Liverpool with pre-existing Richard Hughes relationship, Chelsea also holding in-person talks with the Spaniard", time: "1d ago", category: "fan" },
+  { source: "Anfield Watch / FootballTransfers", title: "Alisson Becker 'agrees €15m deal' to leave Liverpool — Nicolò Schira pegs the personal terms at €5m a year on a three-year Juventus contract as the Brazilian's Anfield exit firms up", time: "1d ago", category: "fan" },
+  { source: "Liverpool.com", title: "Virgil van Dijk transfer to Galatasaray RULED OUT as new rule could prevent Liverpool exit — captain set to see out his current deal as Bastoni / Schlotterbeck / van Hecke are tracked as long-term succession candidates", time: "1d ago", category: "major" },
+  { source: "ESPN / Anfield Index / Yahoo / RTÉ", title: "'Anything can happen … we'll see' — Joe Gomez breaks silence on his Liverpool future, admits he doesn't know if he'll still be at Anfield next season as he enters the final year of his deal", time: "2d ago", category: "major" },
+  { source: "Liverpool.com", title: "Ibrahima Konaté contract 'stalemate' with Liverpool — sticking points over signing-on package and agent commissions, Real Madrid still circling as the Frenchman starts at Villa Park", time: "2d ago", category: "major" },
+  { source: "Sky Sports", title: "Howard Webb says Benjamin Šeško DID handle the ball before scoring vs Liverpool at Old Trafford on May 3 — VAR could not disallow due to lack of conclusive evidence", time: "2d ago", category: "major" },
+  { source: "L'Équipe / Football365 / TeamTalk", title: "Akliouche 'almost certain' to leave Monaco this summer — Liverpool prepping €50m bid as FSG 'green-lights' a potential Gakpo sale to fund the wide rebuild around Wirtz and the Egyptian's successor", time: "2d ago", category: "fan" },
+  { source: "Sky Sports", title: "Liverpool 1-1 Chelsea: Boos for Arne Slot at Anfield as Blues end six-game Premier League losing streak — Gravenberch 6', Enzo Fernandez 35'", time: "6d ago", category: "major" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
