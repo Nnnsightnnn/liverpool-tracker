@@ -533,8 +533,6 @@ export const NEWS_DIGEST = {
     "Anfield Index",
     "Yahoo Sports",
     "RTÉ",
-    "Football365",
-    "L'Équipe",
     "TeamTalk",
     "GiveMeSport",
     "Premier League",
