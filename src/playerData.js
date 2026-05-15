@@ -55,7 +55,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 18, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 6.2, status: "fit", injuryNote: "Fri May 15 — bench cover at Villa Park tonight with VVD/Konaté cleared and locked in. Wed's exit comments (ESPN, Anfield Index, Yahoo, RTÉ) still echoing into Friday: 'Anything can happen. I don't know is the honest answer. I've only got a year left so I don't know … all I can do is be thankful and we'll see.' Turns 29 the final weekend; 15 starts in 31 apps this term", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 18, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 6.2, status: "fit", injuryNote: "Fri May 15 — CONFIRMED XI: starts at RB at Villa Park tonight after Frimpong joined Isak on the late injury list (Liverpool.com / This Is Anfield, kickoff teamsheet). First start since Wed's 'we'll see' exit-interview cycle (ESPN, Anfield Index, Yahoo, RTÉ) — turns 29 the final weekend and ends up with the most consequential 90 minutes of his run-in", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -93,7 +93,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Fri May 15 — back into the predicted XI at Villa Park tonight after Slot confirmed Wirtz remains 'on antibiotics' for the stomach infection; This Is Anfield's predicted-XI piece headlined 'Frimpong decision & right wing dilemma.' Started last Sat's 1-1 Chelsea draw on the right (6/10 ratings) and now the safer RW cover with Wirtz a kickoff call and Salah only a fleeting sub", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "doubtful", injuryNote: "Fri May 15 — RULED OUT of the Villa Park squad with a 'minor injury' picked up since Sat (This Is Anfield / RotoWire / DaveOCKOP kickoff cycle). Joe Gomez moves into the RB slot; Slot hopeful Frimpong recovers in time for the Brentford home finale May 24. Adds to a Liverpool match-day inventory already light on attacking width with Salah only a sub", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -161,7 +161,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 26, goals: 1, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 7.4, status: "fit", injuryNote: "Fri May 15 — set to start again at RB at Villa Park tonight per Sportsmole's and SI's previews (Bradley still injured, no other natural RB available). Was 'hung out to dry' per Goal.com player ratings in last Sat's 1-1 Chelsea draw as Cucurella found space. Off-pitch: Sky Sports has Inter Milan still keen and Premier League clubs involved as contract talks remain stalled", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 26, goals: 1, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 7.4, status: "fit", injuryNote: "Fri May 15 — CONFIRMED XI: pushed UP from RB to the right of the attacking three at Villa Park tonight (Liverpool.com / Liverpool FC official: 'Curtis Jones moves further forward in the team after a stint at full-back'). Gomez takes the RB spot now Frimpong is out. Off-pitch: Sky Sports still has Inter Milan keen, contract talks stalled", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -181,7 +181,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 32, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.3, status: "doubtful", injuryNote: "Fri May 15 — DOUBT for Villa Park tonight per RotoWire, Liverpool.com and FOX Sports' match-day rollups: Slot at the Thursday presser confirmed Wirtz is still 'on antibiotics' for the stomach infection that ruled him out of Sat's 1-1 Chelsea draw — 'let's see how fit he is for tomorrow.' Spotted in the AXA gym Thursday with teammates; fitness call goes right to kickoff. If late-cut, Frimpong shifts back to RW", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 32, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.3, status: "doubtful", injuryNote: "Fri May 15 — CONFIRMED on the BENCH at Villa Park tonight (Liverpool FC official teamsheet). Slot's Thursday presser had him 'on antibiotics' for the stomach infection that ruled him out of the Chelsea draw, but the German playmaker recovered enough to be a sub option. Available for a cameo if the game is settled, but not deemed fit enough to start", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 37, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.2, status: "doubtful", outSince: "2026-04-26", injuryNote: "Fri May 15 — Slot at the Thursday presser, picked up everywhere (FOX Sports, Goal.com, Liverpool FC): 'Mo will be available tomorrow for only a few minutes, but hopefully can come in.' Bench cameo at Villa Park tonight after missing three games with the Apr 25 Crystal Palace muscle issue. The Brentford home finale May 24 is the projected Anfield farewell, with Henderson returning in Brentford kit and Klopp tipped as a guest of the club", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 37, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.2, status: "doubtful", outSince: "2026-04-26", injuryNote: "Fri May 15 — CONFIRMED on the BENCH at Villa Park tonight (Liverpool FC official teamsheet); Slot at the Thursday presser: 'Mo will be available tomorrow for only a few minutes.' First squad inclusion since the Apr 25 Crystal Palace muscle issue, cameo expected. The Brentford home finale May 24 stays the projected Anfield farewell with Henderson back in Brentford kit and Klopp tipped as a guest", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 38, goals: 9, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.2, status: "fit", injuryNote: "Fri May 15 — slots into LW at Villa Park tonight per the Sportsmole / SI predicted XI as Isak returns up top. Led the line as false 9 in last Sat's 1-1 Chelsea Anfield draw — Liverpool.com's verdict 'Cody Gakpo goes missing' (5-6/10 ratings). Liverpool.com's Wed transfer note still in the cycle: FSG has 'green-lit' a potential Gakpo sale to fund the Akliouche / wide rebuild", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 38, goals: 9, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.2, status: "fit", injuryNote: "Fri May 15 — CONFIRMED XI: starts on the left of the attacking three at Villa Park tonight in Slot's 4-2-3-1 (Liverpool.com / Liverpool FC official). With Isak out late and Ngumoha promoted to the No. 9 role, Gakpo keeps his LW slot. Liverpool.com's transfer-cycle note still hovers: FSG has 'green-lit' a potential summer sale to fund the wide rebuild", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -230,7 +230,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 18, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", returningFromInjury: { matchesBackIncludingThis: 1 }, injuryNote: "Fri May 15 — expected to start at Villa Park tonight per the Sportsmole / SI predicted XI after last Sat's bench cameo in the 1-1 Chelsea draw (his first minutes since the Apr 25 Crystal Palace muscle issue). With Salah only a brief sub and Ekitike out for the season, Isak is the only natural No. 9 fit; Gakpo drops back to LW", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 18, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "doubtful", outSince: "2026-05-15", injuryNote: "Fri May 15 — RULED OUT of the Villa Park squad with a 'minor injury' (ESPN / Sports Mole / SI). Slot at kickoff: 'Indeed, Alex is out — minor injury,' citing his missed pre-season and broken-leg recovery as reasons to be cautious. Fourth injury of a fragmented debut season; Liverpool 'hopeful' he's fit for the Brentford home finale May 24. Ngumoha leads the line in his absence", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -252,7 +252,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 12, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09"], injuryNote: "Fri May 15 — bench / impact-sub option at Villa Park tonight per the Sportsmole / SI predicted XI as Gakpo slides to LW alongside Isak up top. The teen STARTED last Sat's 1-1 Chelsea Anfield draw and supplied the assist for Gravenberch's 6' opener (Liverpool.com: 'Rio Ngumoha stars'). His 75' substitution drew loud boos and remains a flashpoint of the fan-Slot disconnect this week", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 12, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09"], injuryNote: "Fri May 15 — CONFIRMED XI: the 17-year-old PROMOTED to the No. 9 role at Villa Park tonight after Isak was ruled out with a minor injury (This Is Anfield: 'Rio Ngumoha starts again, NO Isak'). Started last Sat's Chelsea draw and assisted Gravenberch's 6' opener; now asked to lead the line in a Champions-League-shaping fixture. The teen's substitution drew loud boos last week — Slot leaning into the fans' favourite", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -429,44 +429,56 @@ export const DISPATCHES = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-05-15T11:00:00Z",
+  generatedAt: "2026-05-15T18:30:00Z",
   summary:
-    "Match-day Friday — Liverpool fly to Birmingham for an 8pm kickoff at Villa Park (Sky Sports Main Event) knowing a win locks Champions League qualification with the Brentford finale May 24 still to come. Reverberating into Friday: Arne Slot's Thursday-presser line that he has 'every reason to believe I'm the Liverpool manager next season' (Per Second News, This Is Anfield) and the GiveMeSport read that the club is 'not under pressure to sack' him. Team news from the same presser cuts both ways — Slot confirmed Mo Salah will be 'available tomorrow for only a few minutes, but hopefully can come in' (Goal.com, FOX Sports) for a bench cameo, but Florian Wirtz is still on antibiotics for the stomach infection that forced him out of last Saturday's 1-1 Chelsea draw and goes to a kickoff fitness call. Alisson is 'back in training' but Slot conceded the keeper may 'have to wait one more week' before the Brentford finale, leaving Mamardashvili to start a third straight match; Konaté trained and is OK. Off-pitch the next-manager carousel rolled on overnight (Sky Sports: Alonso 'frontrunner' for Chelsea, Iraola 'in-person talks' with both clubs) and the Alisson-to-Juventus 'agreed €15m deal' story refused to die.",
+    "Match-day Friday, ninety minutes from kickoff — Liverpool's confirmed XI at Villa Park (Liverpool FC / Liverpool.com) reads Mamardashvili; Gomez, Konate, Van Dijk, Kerkez; Gravenberch, Mac Allister; Jones, Szoboszlai, Gakpo; Ngumoha, with Slot shifting to a 4-2-3-1 after late injury blows to BOTH Alexander Isak and Jeremie Frimpong. Slot at the team-news drop: 'Indeed, Alex is out — minor injury' (ESPN / Sports Mole), citing the broken-leg recovery as reason to be cautious; Frimpong joins him with a 'minor issue,' opening the door for Joe Gomez to start at RB days after his 'we'll see' exit-interview cycle. Salah, Wirtz and Chiesa all named on the bench; Alisson still not in the squad, Mamardashvili keeps the gloves for a third straight match. The Champions-League math is unchanged: Liverpool and Villa enter Matchweek 37 level on 59 points, and a win at Villa Park OR a Chelsea slip across the weekend confirms the top-five finish before the Brentford home finale May 24. Off-pitch the next-manager carousel is still spinning (Sky Sports: Alonso 'frontrunner' for Chelsea, Iraola in 'in-person talks' with both clubs) and the Alisson-to-Juventus 'agreed €15m deal' line refuses to die.",
   keyTopics: [
     {
-      title: "Match Day — Aston Villa vs Liverpool, 8pm BST At Villa Park (Sky Sports, today Fri May 15)",
+      title: "CONFIRMED Liverpool XI vs Aston Villa — Slot Goes 4-2-3-1 With Gomez At RB, Ngumoha Up Top (Liverpool FC / Liverpool.com, breaking today Fri May 15)",
       detail:
-        "Sky Sports' Friday May 15 build-up: Liverpool travel to Villa Park tonight (8pm BST kickoff, Sky Sports Main Event) for the penultimate game of the campaign. Per Sportsmole and SI's matchday preview, a win confirms Champions League qualification and all-but secures fourth place before the visit of Brentford May 24; a Chelsea slip on the weekend would do the same job. Villa themselves are 5th on 62 pts and chasing — but balance a Europa League final five days later. Predicted Liverpool XI: Mamardashvili; Jones, Konate, Van Dijk, Kerkez; Gravenberch, Mac Allister; Wirtz/Frimpong, Szoboszlai, Gakpo; Isak.",
+        "Liverpool FC's official teamsheet and Liverpool.com's matchday tracker, Friday May 15: Mamardashvili; Gomez, Konate, Van Dijk, Kerkez; Gravenberch, Mac Allister; Jones, Szoboszlai, Gakpo; Ngumoha. Slot rolls out a 4-2-3-1 — Gomez in at RB after Frimpong's late injury, Curtis Jones pushed FORWARD into the attacking three, and the 17-year-old Rio Ngumoha promoted to the No. 9 role with Isak ruled out. Salah, Wirtz and Chiesa all on the bench. This Is Anfield's tagline: 'Rio Ngumoha starts again, NO Isak.'",
       category: "matches",
     },
     {
-      title: "'I'm The Liverpool Manager Next Season' — Arne Slot Rules Himself In For 2026-27 (Per Second News / This Is Anfield, breaking today Fri May 15)",
+      title: "Alexander Isak RULED OUT With 'Minor Injury' — Brentford Finale The Hope (ESPN / Sports Mole / Liverpool.com, breaking today Fri May 15)",
       detail:
-        "Per Second News and This Is Anfield carried Slot's Thursday-presser line reverberating into Friday's match-day coverage: 'I don't think I'm deciding that alone, but I have every reason to believe I'm the Liverpool manager next season.' beIN Sports' Thursday read framed it as 'Slot feels secure at Liverpool despite his disastrous season,' and GiveMeSport's accompanying line — Liverpool have 'no plans to complete a summer review' — backs the FSG-stick-with-Slot narrative against the petition, the boos and the Alonso/Iraola noise.",
+        "ESPN, Sports Mole, SI and Liverpool.com all carried Slot's match-day update Friday May 15: 'Indeed, Alex is out — minor injury,' the manager added that Liverpool 'have to be careful because if you miss pre-season, if you then have a broken leg, when you are coming back.' Isak's fourth injury of a fragmented debut season; Liverpool 'hopeful' he's fit for the Brentford home finale May 24. Ngumoha leads the line in his absence.",
+      category: "injuries",
+    },
+    {
+      title: "Jeremie Frimpong Added To The Injury List — Gomez Steps In At RB (This Is Anfield / RotoWire / DaveOCKOP, breaking today Fri May 15)",
+      detail:
+        "This Is Anfield, RotoWire and DaveOCKOP's Friday match-day rollups: Frimpong joins Isak in missing the Villa Park squad with a 'minor issue.' Joe Gomez moves into the RB slot — his first start since Wed's 'anything can happen … we'll see' exit-interview cycle (ESPN / Anfield Index). Slot hopeful Frimpong recovers in time for the Brentford home finale May 24.",
+      category: "injuries",
+    },
+    {
+      title: "Match Day — Aston Villa vs Liverpool, 8pm BST At Villa Park (Sky Sports, today Fri May 15)",
+      detail:
+        "Sky Sports' Friday May 15 build-up: Liverpool travel to Villa Park tonight (8pm BST kickoff, Sky Sports Main Event) for the penultimate game of the campaign. Both clubs enter Matchweek 37 LEVEL on 59 points, Liverpool 4th on goal difference. A win confirms Champions League qualification and all-but secures fourth place before the visit of Brentford May 24; a Chelsea slip on the weekend would do the same job. Villa balance a Europa League final five days later.",
+      category: "matches",
+    },
+    {
+      title: "Slot Confirms Mo Salah's Villa Park Cameo — Bench Inclusion Confirmed (FOX Sports / Goal.com / Liverpool FC, breaking today Fri May 15)",
+      detail:
+        "FOX Sports, Goal.com US and Liverpool FC's official Friday May 15 readout: Slot at Thursday's presser confirmed Salah would feature against Aston Villa, 'available tomorrow for only a few minutes, but hopefully can come in.' The Egyptian was duly named on the bench at kickoff — first squad inclusion since the Apr 25 Crystal Palace muscle issue, a late cameo expected before the Anfield farewell against Brentford May 24.",
+      category: "injuries",
+    },
+    {
+      title: "Florian Wirtz On The Bench — Antibiotics-Recovered But Not Fit To Start (Liverpool FC / RotoWire, today Fri May 15)",
+      detail:
+        "Liverpool FC's official teamsheet and RotoWire, Friday May 15: Wirtz recovered enough from the stomach infection (Slot Thursday: 'on antibiotics') to be a sub option at Villa Park but was not deemed fit enough to start. Available for a cameo if the game is settled; Jones-Szoboszlai-Gakpo behind Ngumoha covers the attacking-mid trio in his absence.",
+      category: "injuries",
+    },
+    {
+      title: "'I'm The Liverpool Manager Next Season' — Arne Slot Rules Himself In For 2026-27 (Per Second News / This Is Anfield, today Fri May 15)",
+      detail:
+        "Per Second News and This Is Anfield carried Slot's Thursday-presser line reverberating into Friday's match-day coverage: 'I don't think I'm deciding that alone, but I have every reason to believe I'm the Liverpool manager next season.' beIN Sports' read framed it as 'Slot feels secure at Liverpool despite his disastrous season,' and GiveMeSport's accompanying line — Liverpool have 'no plans to complete a summer review' — backs the FSG-stick-with-Slot narrative against the petition, the boos and the Alonso/Iraola noise.",
       category: "general",
     },
     {
-      title: "Slot Confirms Mo Salah's Villa Park Cameo — 'Available For Only A Few Minutes' (FOX Sports / Goal.com, breaking today Fri May 15)",
+      title: "Alisson Still Not In The Matchday Squad — Mamardashvili Starts A Third Straight (Liverpool FC / Liverpool.com, today Fri May 15)",
       detail:
-        "FOX Sports and Goal.com US, Friday May 15: Slot at the Thursday presser confirmed Salah would feature against Aston Villa, 'available tomorrow for only a few minutes, but hopefully can come in.' The Egyptian's first appearance since the Apr 25 Crystal Palace muscle issue points to a late substitute role at Villa Park before the Anfield farewell against Brentford May 24. Liverpool.com still has Mamardashvili keeping the gloves and the front three built around Wirtz/Frimpong, Szoboszlai, Gakpo and Isak.",
-      category: "injuries",
-    },
-    {
-      title: "Wirtz On Antibiotics, Fitness Call Goes To Kickoff (Liverpool.com / RotoWire, breaking today Fri May 15)",
-      detail:
-        "RotoWire and Liverpool.com, Friday May 15: Florian Wirtz remains a doubt at Villa Park after Slot's Thursday confirmation that the German playmaker is 'on antibiotics' for the stomach infection that ruled him out of Sat's 1-1 Chelsea draw. He's since been spotted in the AXA gym with teammates — fitness pleaded right to kickoff. If he's late-cut, Frimpong shifts back to RW and the predicted XI runs Mamardashvili; Jones, Konate, Van Dijk, Kerkez; Gravenberch, Mac Allister; Frimpong, Szoboszlai, Gakpo; Isak.",
-      category: "injuries",
-    },
-    {
-      title: "Alisson 'Back In Training' But Brentford Finale Still The Realistic Return (Liverpool FC / Liverpool.com, today Fri May 15)",
-      detail:
-        "Liverpool FC's own injury readout Friday May 15: 'Alisson trains with us again, let's see where he is tomorrow, if he is ready already or has to wait one more week' (Slot, Thursday). Brazilian keeper has missed Liverpool's last 10 games; Mamardashvili keeps the gloves at Villa Park for a third straight start. Liverpool.com's accompanying piece treats the Brentford home finale May 24 as the realistic earliest return — and notes Brazil have INCLUDED Alisson in the World Cup provisional squad. Anfield Watch / FootballTransfers' Thursday 'agreed €15m Juventus deal' line still alive on the same news cycle.",
-      category: "injuries",
-    },
-    {
-      title: "Konaté Trained Thursday — French CB Locked In Alongside VVD For Villa Park (Liverpool FC, today Fri May 15)",
-      detail:
-        "Slot at the Thursday presser, picked up by Liverpool FC's official Friday readout: 'Ibou is OK, [he] trained with us.' Konaté had departed last Saturday's 1-1 Chelsea Anfield draw with a thigh complaint but came through Thursday's session unrestricted. The Athletic / Liverpool.com still flag the underlying contract 'stalemate' (sticking points on signing-on package and agent commissions, Real Madrid in the background) — but on the pitch the CB pairing with VVD is settled for Friday night.",
+        "Liverpool FC's own injury readout, Friday May 15: 'Alisson trains with us again, let's see where he is tomorrow, if he is ready already or has to wait one more week' (Slot, Thursday). Brazilian keeper has missed Liverpool's last 10 games and is again left out of the matchday squad at Villa Park; Mamardashvili keeps the gloves for a third straight match. Liverpool.com treats the Brentford home finale May 24 as the realistic earliest return. Anfield Watch / FootballTransfers' Thursday 'agreed €15m Juventus deal' line still alive.",
       category: "injuries",
     },
     {
