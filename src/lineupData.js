@@ -19,27 +19,24 @@ export const FORMATIONS = {
       ST:  { x: 50, y: 14, role: "FWD" },
       RW:  { x: 82, y: 22, role: "FWD" },
     },
-    // IDs from playerData.js — 4-3-3 ALTERNATIVE read of Slot's confirmed XI
-    // for Aston Villa (A), Fri May 15 8pm BST. Slot has gone 4-2-3-1 (see
-    // below) but the same eleven also reads as a 4-3-3 with Curtis Jones as
-    // an inverted RW and Szoboszlai as the central No. 8: Mamardashvili;
-    // Gomez, Konate, Van Dijk, Kerkez; Mac Allister, Gravenberch, Szoboszlai;
-    // Gakpo, Ngumoha, Jones (Liverpool FC official / Liverpool.com confirmed
-    // teamsheet). Joe Gomez starts at RB after Frimpong joined Isak on the
-    // late injury list; Curtis Jones pushed forward; Ngumoha promoted to the
-    // No. 9 role. Salah, Wirtz, Chiesa all on the bench. Alisson still out.
+    // IDs from playerData.js — PREDICTED 4-3-3 read for the Brentford home
+    // finale on Sun May 24 (must-win for Champions League after last night's
+    // 4-2 Villa Park defeat). Salah expected to start (Anfield farewell), Isak
+    // back in if fit (fourth absence of the season per Slot Friday). 4-3-3 is
+    // a backup look — Slot's been preferring 4-2-3-1 of late but a return to
+    // 4-3-3 for a home must-win is plausible.
     defaultXI: {
-      GK: 2,    // Mamardashvili (3rd straight start · Alisson out of squad)
-      LB: 7,    // Kerkez (confirmed XI · LB)
-      LCB: 3,   // Van Dijk (captain · CONFIRMED start)
-      RCB: 4,   // Konaté (Slot Thu: 'Ibou is OK' · CONFIRMED start)
-      RB: 5,    // Gomez (CONFIRMED at RB · Frimpong's minor injury opens the door)
-      LCM: 13,  // Mac Allister (90 mins Chelsea · CONFIRMED start)
-      CM: 14,   // Gravenberch (SCORED 6' vs Chelsea · double-pivot partner)
-      RCM: 15,  // Szoboszlai (engine of run-in · CONFIRMED start)
-      LW: 22,   // Gakpo (CONFIRMED LW · keeps slot with Isak out)
-      ST: 25,   // Ngumoha (PROMOTED to No. 9 · 17yo · 'starts again, NO Isak')
-      RW: 16,   // Curtis Jones (pushed UP from RB · LFC: 'further forward')
+      GK: 1,    // Alisson (projected return for the finale per Liverpool.com)
+      LB: 7,    // Kerkez (first-pick LB · Robertson farewell on bench)
+      LCB: 3,   // Van Dijk (captain · brace at Villa Park)
+      RCB: 4,   // Konaté (locked in alongside VVD)
+      RB: 9,    // Frimpong (projected return from 'minor injury')
+      LCM: 13,  // Mac Allister (90 mins Villa · double-pivot)
+      CM: 14,   // Gravenberch (control of midfield · 6.5/10 vs Villa)
+      RCM: 15,  // Szoboszlai (assist for VVD 52' · engine)
+      LW: 22,   // Gakpo (kept slot at Villa Park)
+      ST: 23,   // Isak (projected return if fit · Slot 'hopeful')
+      RW: 21,   // Salah (ANFIELD FAREWELL start expected)
     },
   },
 
@@ -58,25 +55,24 @@ export const FORMATIONS = {
       RAM: { x: 78, y: 36, role: "MID" },
       ST:  { x: 50, y: 14, role: "FWD" },
     },
-    // Slot's CONFIRMED 4-2-3-1 for Villa Park, Fri May 15 (match day) per
-    // Liverpool FC official teamsheet and Liverpool.com:
-    // Mamardashvili; Gomez, Konate, Van Dijk, Kerkez; Gravenberch, Mac
-    // Allister; Jones, Szoboszlai, Gakpo; Ngumoha. Double pivot of
-    // Gravenberch + Mac Allister; Jones-Szoboszlai-Gakpo behind the
-    // 17-year-old Ngumoha. Gomez at RB after Frimpong joined Isak on the
-    // late injury list. Salah, Wirtz, Chiesa on the bench. Alisson still out.
+    // PREDICTED 4-2-3-1 for the Brentford home finale on Sun May 24
+    // (must-win for Champions League after last night's 4-2 Villa Park
+    // defeat). Slot has favored 4-2-3-1 in recent matches and is likely to
+    // stick with it for a home must-win. Salah expected to start his Anfield
+    // farewell, Wirtz returns from antibiotics, Isak back if fit. Frimpong
+    // and Alisson both targeted to return per Slot's Friday-night line.
     defaultXI: {
-      GK: 2,    // Mamardashvili (3rd straight start · Alisson still out)
-      LB: 7,    // Kerkez (CONFIRMED LB)
-      LCB: 3,   // Van Dijk (captain · CONFIRMED start)
-      RCB: 4,   // Konaté (Slot Thu: 'Ibou is OK' · CONFIRMED)
-      RB: 5,    // Gomez (CONFIRMED at RB · Frimpong out, Gomez in)
-      LDM: 14,  // Gravenberch (double pivot · scored 6' vs Chelsea)
-      RDM: 13,  // Mac Allister (double pivot · 90 mins Chelsea)
-      LAM: 22,  // Gakpo (CONFIRMED LW · keeps slot with Isak out)
-      CAM: 15,  // Szoboszlai (CONFIRMED No. 10 · Wirtz benched)
-      RAM: 16,  // Curtis Jones (CONFIRMED · pushed UP from RB into attacking three)
-      ST: 25,   // Ngumoha (PROMOTED to No. 9 · 17yo · Isak ruled out late)
+      GK: 1,    // Alisson (projected return · Slot Fri: 'see if he's ready')
+      LB: 7,    // Kerkez (first-pick LB · Robertson on bench for farewell)
+      LCB: 3,   // Van Dijk (captain · scored 2 vs Villa)
+      RCB: 4,   // Konaté (locked in alongside VVD)
+      RB: 9,    // Frimpong (projected return from 'minor injury')
+      LDM: 14,  // Gravenberch (double-pivot · most reliable midfielder)
+      RDM: 13,  // Mac Allister (double-pivot · 90 mins Villa)
+      LAM: 22,  // Gakpo (LW · likely keeps slot)
+      CAM: 18,  // Wirtz (returns after antibiotics + Villa cameo)
+      RAM: 21,  // Salah (Anfield farewell start expected)
+      ST: 23,   // Isak (projected return if fit · Slot 'hopeful')
     },
   },
 
@@ -95,128 +91,133 @@ export const FORMATIONS = {
       ST:  { x: 50, y: 14, role: "FWD" },
       RW:  { x: 78, y: 22, role: "FWD" },
     },
-    // Hypothetical 3-4-3 alternative if Slot had wanted extra cover away from
-    // home (he didn't — confirmed 4-2-3-1 above). Built from the same
-    // available pool: VVD/Konaté/Gomez as the back three, Kerkez and Jones as
-    // wing-backs, Gravenberch + Mac Allister in midfield, Gakpo-Ngumoha-Szobo
-    // as the front three. Both Isak AND Frimpong ruled out late (minor
-    // injuries); Alisson and the long-term outs (Ekitike, Bradley, Leoni,
-    // Endo, Bajcetic) unchanged.
+    // Hypothetical 3-4-3 alternative for the Brentford home finale. Slot is
+    // unlikely to deploy a three at the back for a home must-win, but if he
+    // wants extra defensive cover behind a Salah-led front three this is the
+    // shape that fits: VVD/Konaté/Gomez at the back, Kerkez and Frimpong as
+    // wing-backs, Gravenberch + Mac Allister in midfield, Gakpo-Isak-Salah
+    // up top. Default is 4-2-3-1 above.
     defaultXI: {
-      GK: 2,    // Mamardashvili (3rd straight start · Alisson still out)
-      LCB: 5,   // Gomez (CONFIRMED start in real XI · slots into back three here)
-      CCB: 3,   // Van Dijk (captain · anchors the back three)
-      RCB: 4,   // Konaté (Slot Thu: 'Ibou is OK')
-      LWB: 7,   // Kerkez (slides up as LWB from confirmed LB)
-      LCM: 14,  // Gravenberch (scored 6' Chelsea · 7/10)
-      RCM: 13,  // Mac Allister (90 mins Chelsea)
-      RWB: 16,  // Curtis Jones at RWB (RB-cum-RW in real XI · wing-back fit)
-      LW: 22,   // Gakpo (CONFIRMED LW · keeps slot)
-      ST: 25,   // Ngumoha (PROMOTED No. 9 · 17yo · Isak ruled out late)
-      RW: 15,   // Szoboszlai (slides right in 3-4-3 with Jones at RWB)
+      GK: 1,    // Alisson (projected return)
+      LCB: 5,   // Gomez (slots into the back three)
+      CCB: 3,   // Van Dijk (captain · anchors back three)
+      RCB: 4,   // Konaté (locked in alongside VVD)
+      LWB: 7,   // Kerkez (slides up as LWB)
+      LCM: 14,  // Gravenberch (most reliable midfielder)
+      RCM: 13,  // Mac Allister (anchors double pivot)
+      RWB: 9,   // Frimpong (projected return · ideal wing-back)
+      LW: 22,   // Gakpo (LW · likely keeps slot)
+      ST: 23,   // Isak (No. 9 if fit · Slot 'hopeful')
+      RW: 21,   // Salah (Anfield farewell start expected)
     },
   },
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-05-15.
+// Hand-curated from RESULTS array + injuryNote context as of 2026-05-16
+// (morning after the 4-2 Villa Park defeat).
 export const PLAYER_EVIDENCE = {
-  1:  "Still out of squad · Brentford the realistic return", // Alisson
-  2:  "CONFIRMED · 3rd straight start at Villa Park",     // Mamardashvili
-  3:  "CONFIRMED · captain in back four · 4-2-3-1",       // Van Dijk
-  4:  "CONFIRMED · Slot: 'Ibou is OK' · alongside VVD",   // Konaté
-  5:  "CONFIRMED at RB · Frimpong out, Gomez in",         // Gomez
-  6:  "Bench at Villa · Brentford farewell looms",        // Robertson
-  7:  "CONFIRMED LB · 90 mins Sat · locked in",           // Kerkez
+  1:  "Out of squad 11 straight · target Brentford return", // Alisson
+  2:  "Conceded 4 at Villa Park · Form 6.2",              // Mamardashvili
+  3:  "Brace at Villa · 8/10 ratings · Form 7.4",         // Van Dijk
+  4:  "Exposed on set pieces vs Villa · Form 6.4",        // Konaté
+  5:  "Started RB at Villa · 5/10 · Form 5.9",            // Gomez
+  6:  "Unused sub at Villa · Brentford farewell looms",   // Robertson
+  7:  "Started LB at Villa · 6/10 · Form 6.8",            // Kerkez
   8:  "Knee surgery · out for season",                    // Bradley
-  9:  "Out · 'minor injury' · hopeful for Brentford",     // Frimpong
+  9:  "Missed Villa · 'minor injury' · Brentford hope",   // Frimpong
   10: "Torn ACL · out for season",                        // Leoni
   11: "Deputy CB · cover only",                           // Jacquet
   12: "Academy depth · 2 senior apps",                    // Ndukwe
-  13: "CONFIRMED · double-pivot · 90 mins Chelsea",       // Mac Allister
-  14: "CONFIRMED · double-pivot · scored 6' vs Chelsea",  // Gravenberch
-  15: "CONFIRMED No. 10 · engine of run-in",              // Szoboszlai
-  16: "CONFIRMED · pushed UP from RB · LFC: 'further forward'", // Jones
+  13: "90 mins Villa · double-pivot · Form 6.7",          // Mac Allister
+  14: "Anchor in midfield at Villa · Form 7.2",           // Gravenberch
+  15: "Assist 52' VVD · turnover Watkins 57' · Form 7.3", // Szoboszlai
+  16: "Started attacking 3 vs Villa · 5.5/10",            // Jones
   17: "Ankle surgery · out for season",                   // Endo
-  18: "Bench at Villa · recovered from antibiotics",      // Wirtz
+  18: "Sub at Villa · recovered from antibiotics",        // Wirtz
   19: "Hamstring · yet to play this season",              // Bajcetic
   20: "Academy prospect · 5 senior apps",                 // Nyoni
-  21: "BENCH · Slot: 'available for a few minutes'",      // Salah
-  22: "CONFIRMED LW · keeps slot with Isak out",          // Gakpo
-  23: "Out · 'minor injury' · hopeful for Brentford",     // Isak
+  21: "Cameo at Villa · Brentford farewell next",         // Salah
+  22: "Started LW at Villa · quiet 5.5/10",               // Gakpo
+  23: "Missed Villa · 'minor injury' · Brentford hope",   // Isak
   24: "Ruptured Achilles · out 9-12 months",              // Ekitike
-  25: "CONFIRMED No. 9 · 17yo promoted with Isak out",    // Ngumoha
-  26: "Bench at Villa · summer exit list",                // Chiesa
-  27: "Bench at Villa · Mamard ahead of him",             // Woodman
+  25: "Led line at Villa · 'best of a bad night'",        // Ngumoha
+  26: "Unused sub at Villa · summer exit list",           // Chiesa
+  27: "3rd-choice GK · Mamard ahead",                     // Woodman
 };
 
-// Default formation when entering the view — Slot has CONFIRMED a 4-2-3-1 at
-// Villa Park (Fri May 15) with Gomez at RB, Curtis Jones pushed forward into
-// the attacking three and 17-year-old Rio Ngumoha leading the line after
-// Isak's late minor-injury withdrawal.
+// Default formation when entering the view — projecting the Brentford home
+// finale on Sun May 24, a must-win for Champions League after last night's
+// 4-2 Villa Park defeat. Slot has favoured 4-2-3-1 of late; expect Salah to
+// start his Anfield farewell, Isak back if fit, Wirtz returning from
+// antibiotics, Alisson and Frimpong both targeted to return.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by formation's
 // slot keys. The UI renders these as colored dots on each pitch token.
-// Keys match DEFAULT_FORMATION (4-2-3-1) — all High because the XI is
-// CONFIRMED by Liverpool FC's official teamsheet, not predicted.
+// Keys match DEFAULT_FORMATION (4-2-3-1) — confidence Medium across most
+// slots because the Brentford XI is PREDICTED, not confirmed: team news
+// won't drop until Slot's Friday/Saturday presser the week of the match.
 export const SLOT_CONFIDENCE = {
-  GK:  "High",   // Mamardashvili · CONFIRMED · Alisson still out
-  LB:  "High",   // Kerkez · CONFIRMED · 90 mins Chelsea
-  LCB: "High",   // Van Dijk · CONFIRMED captain
-  RCB: "High",   // Konaté · CONFIRMED · Slot Thu: 'Ibou is OK'
-  RB:  "High",   // Gomez · CONFIRMED · Frimpong out late
-  LDM: "High",   // Gravenberch · CONFIRMED double-pivot
-  RDM: "High",   // Mac Allister · CONFIRMED double-pivot
-  LAM: "High",   // Gakpo · CONFIRMED LW
-  CAM: "High",   // Szoboszlai · CONFIRMED No. 10
-  RAM: "High",   // Curtis Jones · CONFIRMED · pushed UP from RB
-  ST:  "High",   // Ngumoha · CONFIRMED No. 9 · Isak out late
+  GK:  "Medium", // Alisson projected return · Mamard alternative
+  LB:  "High",   // Kerkez · first-pick LB · Robertson farewell on bench
+  LCB: "High",   // Van Dijk · captain · scored 2 vs Villa
+  RCB: "High",   // Konaté · locked in alongside VVD
+  RB:  "Medium", // Frimpong projected return · Gomez backup
+  LDM: "High",   // Gravenberch · most reliable midfielder
+  RDM: "High",   // Mac Allister · double-pivot
+  LAM: "Medium", // Gakpo · LW likely · could rotate
+  CAM: "Medium", // Wirtz return projected · Szobo could shift
+  RAM: "High",   // Salah · Anfield FAREWELL start expected
+  ST:  "Medium", // Isak if fit · else Ngumoha
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
 // Explains why the predicted starter won their slot. Populated by the predictor;
 // hand-set initially. Keyed by slot key (for the active formation — 4-2-3-1).
+// Brentford home finale on Sun May 24 is the projected fixture — a must-win
+// for Champions League after Friday's 4-2 Villa Park defeat dropped Liverpool
+// to 5th.
 export const SLOT_RATIONALE = {
-  GK:  "Fri May 15 (match day) — CONFIRMED · Mamardashvili keeps the gloves at Villa Park for a third straight start. Alisson again left out of the matchday squad despite returning to training Thursday; Slot at the presser warned the Brazilian may need 'one more week' before the Brentford finale.",
-  LB:  "Fri May 15 (match day) — CONFIRMED · Kerkez retains the LB shirt at Villa Park after a 90-minute display in Sat's 1-1 Chelsea Anfield draw. Robertson on the bench, summer exit still looming.",
-  LCB: "Fri May 15 (match day) — CONFIRMED · Van Dijk through full Wed and Thu sessions with Saturday's cramp episode behind him. Liverpool.com Thursday: VVD's Galatasaray exit RULED OUT under a new rule — captain locked in alongside Konaté.",
-  RCB: "Fri May 15 (match day) — CONFIRMED · Slot at Thursday's presser, picked up by Liverpool FC's official readout: 'Ibou is OK, [he] trained with us.' Konaté came off Sat's Chelsea draw with a thigh complaint but cleared. Off-pitch contract 'stalemate' hovers but doesn't move the XI.",
-  RB:  "Fri May 15 (match day) — CONFIRMED · Joe Gomez starts at RB after Frimpong joined Isak on the late injury list (RotoWire / This Is Anfield). First start since Wednesday's 'anything can happen … we'll see' exit-interview cycle and the most consequential 90 of his run-in.",
-  LDM: "Fri May 15 (match day) — CONFIRMED · Gravenberch in the double-pivot at Villa Park after SCORING Sat's 6th-minute opener vs Chelsea (curled finish off Ngumoha's left-wing assist · 7/10 across This Is Anfield / Liverpool.com / Sky Sports).",
-  RDM: "Fri May 15 (match day) — CONFIRMED · Mac Allister completed 90 minutes in Sat's 1-1 Chelsea draw and partners Gravenberch in the double-pivot. Father Carlos last week: 'No contract talks have taken place.' Argentine locks the No. 6 berth.",
-  LAM: "Fri May 15 (match day) — CONFIRMED · Gakpo keeps his LW slot in the 4-2-3-1 after leading the line as a false 9 vs Chelsea ('goes missing' per Liverpool.com, 5-6/10 ratings). With Ngumoha promoted centrally, the natural shift wide may suit him better.",
-  CAM: "Fri May 15 (match day) — CONFIRMED · Szoboszlai takes the No. 10 berth at Villa Park, drifting between attacking-mid and right after a 90-minute Chelsea display. Wirtz on the bench (recovered from antibiotics for the stomach infection but not deemed fit to start).",
-  RAM: "Fri May 15 (match day) — CONFIRMED · Curtis Jones pushed FORWARD into the attacking three from his previous RB berth (Liverpool FC / Liverpool.com: 'moves further forward after a stint at full-back'). Gomez takes RB; Jones drops into right-attacking mid alongside Szoboszlai and Gakpo.",
-  ST:  "Fri May 15 (match day) — CONFIRMED · 17-year-old Rio Ngumoha PROMOTED to the No. 9 role after Slot ruled Isak out at kickoff with a 'minor injury' (ESPN / Sports Mole). This Is Anfield's headline: 'Rio Ngumoha starts again, NO Isak.' The teen who assisted Gravenberch's opener vs Chelsea now asked to lead the line in a Champions-League-shaping fixture.",
+  GK:  "Sat May 16 — Alisson projected to return for Brentford finale after 11 straight games out (Liverpool.com: 'Slot will see if he's ready'). Brazilian on grass since Thursday; Mamardashvili conceded 4 at Villa Park, a backwards step. If Alisson isn't fit, Mamard keeps the shirt for a fourth straight.",
+  LB:  "Sat May 16 — Kerkez locks the LB shirt for the Brentford finale after a 6/10 90-minute display at Villa Park. Robertson lined up for a bench role in his Anfield farewell.",
+  LCB: "Sat May 16 — Van Dijk indisputable after his TWO headers in the 4-2 Villa Park defeat (52' equaliser, 90+ consolation · 8/10 ratings). The captain remains the rock; Liverpool.com has ruled out the Galatasaray exit.",
+  RCB: "Sat May 16 — Konaté locks in alongside VVD despite a 5/10 at Villa where set-piece tracking failed three times. Off-pitch contract 'stalemate' rumbles on; Real Madrid still in the background.",
+  RB:  "Sat May 16 — Frimpong projected to return for the Brentford finale after missing Villa Park with a 'minor injury' (Slot's match-day disclosure). Gomez deputised at RB and struggled; Slot 'hopeful' the Dutchman is fit for the must-win.",
+  LDM: "Sat May 16 — Gravenberch continues as the most reliable midfielder Liverpool have after a 6.5/10 Villa Park display. The Dutchman has anchored midfield through the run-in; partners Mac Allister in the double-pivot.",
+  RDM: "Sat May 16 — Mac Allister completed 90 minutes at Villa and partners Gravenberch in the double-pivot. Father Carlos's 'no talks until the season is over' line still alive in the background.",
+  LAM: "Sat May 16 — Gakpo expected to keep LW after a quiet 5.5/10 at Villa Park; FSG has reportedly green-lit a summer sale to fund the wide rebuild but the Dutchman still starts the finale ahead of Chiesa.",
+  CAM: "Sat May 16 — Wirtz projected to start the Brentford finale after a Villa Park cameo off the bench, finally recovered from the antibiotics course for the stomach infection. Slot likely to want the German's creativity for the must-win.",
+  RAM: "Sat May 16 — Mohamed Salah's ANFIELD FAREWELL start expected after a cameo at Villa Park. The Egyptian has been linked with both the Saudi Pro League (Al-Ittihad / Al-Hilal) and MLS; Liverpool's must-win for Champions League makes his last home outing one of the season's most emotional fixtures.",
+  ST:  "Sat May 16 — Alexander Isak's projected return after missing Villa Park with a 'minor injury' (Slot's match-day disclosure). The Swede's broken-leg recovery makes minutes-management still a concern; if not fit, 17-year-old Rio Ngumoha — Slot's bright young find — would lead the line again.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
 // Top 1-2 alternatives for each slot. Populated by the predictor; hand-set
 // initially. The UI shows these on hover as "Also considered". Keyed to
-// 4-2-3-1 (the confirmed shape at Villa Park).
+// 4-2-3-1 (the projected shape for the Brentford home finale May 24).
 export const ALTERNATIVES = {
-  GK:  [{ playerId: 1, reason: "Alisson · still out of the matchday squad · Slot Thu: 'may have to wait one more week' before the Brentford finale" }, { playerId: 27, reason: "Woodman · bench cover" }],
-  LB:  [{ playerId: 6, reason: "Robertson · bench at Villa · projected Brentford farewell · summer exit looms" }],
-  LCB: [{ playerId: 5, reason: "Gomez · CONFIRMED at RB, could shuffle to LCB in extremis" }],
+  GK:  [{ playerId: 2, reason: "Mamardashvili · 3 straight starts including Villa Park · in line if Alisson isn't ready" }, { playerId: 27, reason: "Woodman · third-choice cover" }],
+  LB:  [{ playerId: 6, reason: "Robertson · projected farewell · could start on the day if Slot wants to send him off as a starter" }],
+  LCB: [{ playerId: 5, reason: "Gomez · deputised at RB vs Villa · could shuffle to LCB in extremis" }],
   RCB: [{ playerId: 11, reason: "Jacquet · deputy CB · live starter only if Konaté has a setback" }],
-  RB:  [{ playerId: 9, reason: "Frimpong · OUT at Villa with a 'minor issue' · hopeful for Brentford May 24" }],
-  LDM: [{ playerId: 13, reason: "Mac Allister · CONFIRMED RDM in the double-pivot · could swap with Gravenberch" }],
-  RDM: [{ playerId: 14, reason: "Gravenberch · CONFIRMED LDM · could swap depths with Mac Allister" }],
-  LAM: [{ playerId: 25, reason: "Ngumoha · CONFIRMED ST in real XI · natural LW alternative if Slot shifts" }, { playerId: 26, reason: "Chiesa · senior winger option · on the bench" }],
-  CAM: [{ playerId: 18, reason: "Wirtz · BENCH at Villa · recovered from the antibiotics course but not fit to start" }, { playerId: 13, reason: "Mac Allister · could push up to CAM if Slot wants extra creativity" }],
-  RAM: [{ playerId: 18, reason: "Wirtz · BENCH · natural No. 10/right-attacking-mid if introduced as a sub" }, { playerId: 21, reason: "Salah · BENCH · Slot: 'available for a few minutes' before Brentford farewell" }],
-  ST:  [{ playerId: 22, reason: "Gakpo · CONFIRMED LW · false-9 option from Chelsea but 'goes missing' per LFC.com" }, { playerId: 21, reason: "Salah · BENCH · short cameo if game is settled · Brentford the farewell" }],
+  RB:  [{ playerId: 5, reason: "Gomez · backup if Frimpong isn't fit · started at RB at Villa" }],
+  LDM: [{ playerId: 13, reason: "Mac Allister · could swap with Gravenberch in the double-pivot" }],
+  RDM: [{ playerId: 14, reason: "Gravenberch · could swap depths with Mac Allister" }],
+  LAM: [{ playerId: 25, reason: "Ngumoha · led the line at Villa · could shift wide if Isak starts" }, { playerId: 26, reason: "Chiesa · senior winger option · possible Anfield farewell" }],
+  CAM: [{ playerId: 15, reason: "Szoboszlai · could shift centrally if Wirtz isn't ready · 9 league assists this term" }, { playerId: 16, reason: "Curtis Jones · started attacking three at Villa · alternative #10" }],
+  RAM: [{ playerId: 16, reason: "Curtis Jones · started attacking three at Villa · could keep the spot if Salah isn't deemed match-fit" }, { playerId: 26, reason: "Chiesa · possible Anfield farewell winger option" }],
+  ST:  [{ playerId: 25, reason: "Ngumoha · led the line at Villa · plug-and-play replacement if Isak isn't fit" }, { playerId: 22, reason: "Gakpo · false-9 option · used by Slot in earlier matches" }],
 };
 
 // ─── Prediction confidence & metadata ───────────────────────────────────────
 // Overall prediction confidence chip shown above the pitch. Enriched with
 // predictor metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
-  level: "High",
-  reason: "Fri May 15 (match day) — CONFIRMED Liverpool XI vs Aston Villa (Liverpool FC official teamsheet, Liverpool.com): Mamardashvili; Gomez, Konate, Van Dijk, Kerkez; Gravenberch, Mac Allister; Jones, Szoboszlai, Gakpo; Ngumoha. Slot has gone 4-2-3-1. Two late minor-injury withdrawals — Isak ('Indeed, Alex is out — minor injury' per Slot at kickoff, ESPN / Sports Mole) and Frimpong (RotoWire / This Is Anfield kickoff cycle) — forced Gomez into RB and Ngumoha to the No. 9 role with Curtis Jones pushed forward from his previous full-back berth. Salah, Wirtz and Chiesa on the bench; Alisson still out of the squad. Confidence HIGH because every slot is now CONFIRMED rather than predicted.",
-  pundit_sources: ["Liverpool FC", "Liverpool.com", "This Is Anfield", "Sportsmole", "Sports Illustrated", "Sky Sports", "FOX Sports", "Goal.com", "RotoWire", "Per Second News", "beIN Sports", "Caught Offside", "ESPN", "FootballTransfers", "Anfield Watch", "Inside World Football", "Football FanCast", "Anfield Index", "Yahoo Sports", "RTÉ", "TeamTalk", "GiveMeSport", "Premier League", "DaveOCKOP", "Sports Mole"],
-  agreement_rate: 1.0,
-  generated_at: "2026-05-15T18:30:00Z",
+  level: "Medium",
+  reason: "Sat May 16 — projected Liverpool XI for the Brentford home finale on Sun May 24, a must-win for Champions League after Friday night's 4-2 Villa Park defeat dropped Liverpool to 5th. Salah is expected to START his Anfield farewell (cameo at Villa, first action since April 25); Isak's return depends on his 'minor injury' clearing (ESPN / Sports Mole — Slot 'hopeful' at kickoff); Alisson targeted for his first start since March 19 after 11 straight absences; Frimpong projected to return from a 'minor issue.' Wirtz returns from antibiotics. Confidence is MEDIUM because Slot's team news typically only firms up in the Friday/Saturday presser the week of the match — multiple slots (GK, RB, CAM, ST) hinge on fitness updates that haven't yet broken.",
+  pundit_sources: ["Liverpool FC", "Liverpool.com", "This Is Anfield", "Sky Sports", "NBC Sports", "ESPN", "FOX Sports", "Goal.com", "Sports Illustrated", "Al Jazeera", "Per Second News", "RotoWire", "FootballTransfers", "Anfield Watch", "Inside World Football", "Football FanCast", "Caught Offside", "Anfield Index", "Yahoo Sports", "RTÉ", "TeamTalk", "GiveMeSport", "Premier League", "Football365", "Sports Mole"],
+  agreement_rate: 0.7,
+  generated_at: "2026-05-16T08:00:00Z",
 };
