@@ -128,6 +128,8 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
+  { source: "SportBible / Football365", title: "Liverpool fans demand Arne Slot is sacked with viral petition crossing hundreds of thousands of signatures — Saturday-morning surge after the 4-2 Villa Park defeat as Anfield mood reaches breaking point", time: "today", category: "fan" },
+  { source: "Tribuna / TeamTalk", title: "FSG to hold 'no summer review' into Arne Slot's position — owners' three mitigating factors (Salah decline, Jota tragedy, summer reshuffle) keep the Dutchman in post despite 'intolerable' pressure as the Brentford home finale looms", time: "today", category: "major" },
   { source: "Sky Sports / NBC Sports", title: "Aston Villa 4-2 Liverpool: Ollie Watkins brace fires Unai Emery's side to Champions League as Slot's team ripped apart — Rogers 43', Watkins 57' & 73', McGinn for Villa; Van Dijk 52', 90+ for the Reds", time: "today", category: "major" },
   { source: "Goal.com / SI", title: "Liverpool player ratings vs Aston Villa: 'Wretched Reds routed by Watkins & Co. despite best efforts of teenager Rio Ngumoha' — Van Dijk's 8/10 the lone bright spot in a 4-2 defeat that drops Liverpool to 5th", time: "today", category: "major" },
   { source: "Liverpool.com / ESPN", title: "Liverpool's Champions League path narrows: must beat Brentford May 24 to guarantee top five — Bournemouth and Chelsea both still in reach with two games left of their own", time: "today", category: "major" },

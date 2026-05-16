@@ -431,10 +431,16 @@ export const DISPATCHES = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-05-16T08:00:00Z",
+  generatedAt: "2026-05-16T12:10:00Z",
   summary:
-    "Saturday morning after the night before — Aston Villa 4-2 Liverpool at Villa Park ripped a Champions League place out of Slot's hands and dropped the Reds from 4th to 5th in the Premier League table (ESPN / Sky Sports / NBC Sports). Ollie Watkins scored a brace (57', 73'), Morgan Rogers opened the scoring with a curling 43' finish from a Digne short-corner routine, and John McGinn lashed in a fourth from outside the box; Virgil van Dijk's TWO headers (52' equaliser off a Szoboszlai free-kick, and a 90+ consolation) were Liverpool's only reply in a wretched team performance. Slot in the post-match presser called it 'damaging' and conceded the central failing: 'three out of four from set pieces' — Liverpool's set-piece haemorrhage from the season writ large. With Villa now on 68 pts and Liverpool on 65, the Reds must beat Brentford at Anfield next Sunday May 24 to guarantee top five; a Bournemouth or Chelsea stumble across the weekend would also help. Off-pitch the pressure on Slot ratchets up (Murphy on Sky: 'his time is up'; Carragher: 'showing signs of buckling') even as the manager again insisted 'I have every reason to believe I am the Liverpool manager next season.' Salah came off the bench for a cameo in his first action since April 25, with the Anfield farewell vs Brentford now both a tribute night AND a must-win.",
+    "Saturday lunchtime, Anfield: the back pages are still raw from Friday night. Aston Villa 4-2 Liverpool at Villa Park ripped a Champions League place out of Slot's hands, dropped the Reds from 4th to 5th, and turned next Sunday's Brentford home finale into a must-win (ESPN / Sky Sports / NBC Sports). Ollie Watkins scored a brace (57', 73'); Morgan Rogers curled in the 43' opener from a Digne short-corner; John McGinn lashed home a fourth from outside the box. Virgil van Dijk's TWO headers (52' equaliser, 90+ consolation) were the only reply. Slot's post-match line — 'damaging — three out of four from set pieces' — is on every front page; Carragher's 'showing signs of a man buckling' on every back. Saturday morning brought a viral fan petition demanding the manager's removal (SportBible), Tribuna's confirmation that FSG will hold 'no summer review' into Slot's position, and Romano's repeat that the club is 'absolutely in the direction' of continuing with the Dutchman. Bournemouth host Manchester City this weekend; Chelsea also play; the math is permeable on every side. Salah's brief Villa Park cameo (his first action since April 25) makes the Brentford home finale both a tribute night and a final.",
   keyTopics: [
+    {
+      title: "Fan Petition Demanding Slot's Removal Goes Viral — Hundreds Of Thousands Signed Overnight (SportBible / Football365, broke today Sat May 16)",
+      detail:
+        "Saturday morning, post-Villa Park: SportBible reports a fan petition demanding Arne Slot be sacked has gone viral, with the signature count climbing through the night and Football365 framing it as the 'fans' message' after a 4-2 capitulation. The petition lands while FSG, per Tribuna's Thursday read, plan 'no summer review' of the manager's position — the gap between the Anfield boardroom and the Anfield Road End is now the loudest sub-plot of the run-in.",
+      category: "general",
+    },
     {
       title: "Aston Villa 4-2 Liverpool — Watkins Brace Drops Reds To 5th, Champions League On The Line At Brentford (Sky Sports / ESPN / NBC Sports, broke last night Fri May 15)",
       detail:
@@ -550,6 +556,9 @@ export const NEWS_DIGEST = {
     "RTÉ",
     "TeamTalk",
     "GiveMeSport",
+    "SportBible",
+    "Football365",
+    "Tribuna",
   ],
 };
 

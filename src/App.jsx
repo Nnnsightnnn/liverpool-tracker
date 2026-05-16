@@ -344,9 +344,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          One game to settle a season. A 4-2 wreckage at Villa Park, a captain who refused
-          to lose alone, and a number eleven who finally made it back onto the grass — for
-          eleven minutes — with the Anfield farewell now both a tribute night and a final.
+          Saturday morning, fifth in the league, one game to play. Villa Park is in the
+          rear-view; Bournemouth and Chelsea are in the wing-mirrors; Brentford is in
+          the windscreen. Eight days until Anfield, until Salah, until the season ends —
+          and a top-five seat decides itself ninety minutes from now.
         </p>
 
         <StatStrip stats={stats} />
@@ -361,22 +362,25 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span> at Villa Park
-              was not a Champions League sealer; it was a Champions League sender-off. Four-two,
-              three of the four from set pieces, fifth in the table on Saturday morning. Virgil
-              van Dijk headed in two and nobody else found a way past Martínez. Mohamed Salah
-              came on for the closing eleven, his first action since April, and could not change
-              the night. The math is suddenly very simple: beat Brentford on the twenty-fourth
-              or watch Bournemouth and Chelsea decide what to do with the last seat at the
-              continental table. Three goodbyes, one finale.
+              The papers landed on Saturday morning the way the corners landed at Villa
+              Park: heavy, undefended, three out of four. <span style={{ fontStyle: "italic", color: T.red }}>Slot</span>{" "}
+              called it damaging and meant the season; Carragher called it buckling and
+              meant the manager; Murphy used the three words FSG keep saying they won't
+              use. Virgil van Dijk headed in two and headed alone. Mohamed Salah took eleven
+              minutes from the bench, his first since April. Now there is one fixture left
+              and the math has narrowed to a sentence: beat Brentford a week Sunday, or
+              watch Bournemouth and Chelsea decide which of them takes the last seat at the
+              continental table.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
-              Inside, the squad as a roster, the standings as they are, and five dispatches from
-              the small army of writers who have followed this team into May. Read slowly. The
-              ink is still drying.
+              Inside, the squad as a roster, the standings as they stand on Saturday afternoon,
+              and five dispatches from the small army of writers who have followed this team
+              into May. There is a petition online; there is a Spaniard at Bournemouth; there
+              is a long Anfield goodbye eight days from now. Read slowly. The ink is still
+              drying.
             </p>
           </div>
           <div style={{ background: T.rule }} />
