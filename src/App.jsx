@@ -344,9 +344,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Four games to settle a season. A captain on his way out, a number eleven on the
-          mend, and a goalkeeper, twenty-nine, who waited his whole career for an afternoon
-          like Saturday's.
+          One game to settle a season. A 4-2 wreckage at Villa Park, a captain who refused
+          to lose alone, and a number eleven who finally made it back onto the grass — for
+          eleven minutes — with the Anfield farewell now both a tribute night and a final.
         </p>
 
         <StatStrip stats={stats} />
@@ -362,14 +362,13 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Friday</span> at Villa Park
-              is a Champions League sealer dressed as a league fixture, and the dressing room is
-              missing its talisman again. Mohamed Salah, with twelve days left on his Liverpool
-              contract and a hamstring he hasn't trained on since the twenty-fifth of April, may
-              not travel. The club, in a sentence calibrated for both reassurance and the run-in,
-              calls him <em>very, very, very close</em>. The bigger news arrived Tuesday: Jürgen
-              Klopp will be in the Brentford suite on the twenty-fourth, and Salah has asked, on
-              the record, that Jordan Henderson receive the farewell he was never given. Three
-              goodbyes, one fortnight.
+              was not a Champions League sealer; it was a Champions League sender-off. Four-two,
+              three of the four from set pieces, fifth in the table on Saturday morning. Virgil
+              van Dijk headed in two and nobody else found a way past Martínez. Mohamed Salah
+              came on for the closing eleven, his first action since April, and could not change
+              the night. The math is suddenly very simple: beat Brentford on the twenty-fourth
+              or watch Bournemouth and Chelsea decide what to do with the last seat at the
+              continental table. Three goodbyes, one finale.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -1353,7 +1352,7 @@ function SquadView() {
 function StandingsView() {
   return (
     <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
-      <SectionHead title="Standings" meta={<>Premier League<br />after Round 34</>} />
+      <SectionHead title="Standings" meta={<>Premier League<br />after Round 37</>} />
       <div className="standings-wrap">
       <table style={{
         width: "100%", borderCollapse: "collapse",

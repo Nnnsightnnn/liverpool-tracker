@@ -378,7 +378,7 @@ export const STANDINGS = [
   { pos: 1, team: "Arsenal",         p: 36, w: 25, d: 6, l: 5,  gd: 47, pts: 81 },
   { pos: 2, team: "Manchester City", p: 36, w: 22, d: 8, l: 6,  gd: 38, pts: 74 },
   { pos: 3, team: "Newcastle",       p: 36, w: 20, d: 7, l: 9,  gd: 23, pts: 67 },
-  { pos: 4, team: "Aston Villa",     p: 36, w: 19, d: 8, l: 9,  gd: 18, pts: 66 },
+  { pos: 4, team: "Aston Villa",     p: 37, w: 20, d: 8, l: 9,  gd: 20, pts: 68 },
   { pos: 5, team: "Liverpool",       p: 37, w: 19, d: 8, l: 10, gd: 19, pts: 65, highlight: true },
   { pos: 6, team: "Chelsea",         p: 36, w: 17, d: 10, l: 9, gd: 11, pts: 61 },
   { pos: 7, team: "Bournemouth",     p: 36, w: 17, d: 10, l: 9, gd: 9,  pts: 61 },
@@ -433,7 +433,7 @@ export const DISPATCHES = [
 export const NEWS_DIGEST = {
   generatedAt: "2026-05-16T08:00:00Z",
   summary:
-    "Saturday morning after the night before — Aston Villa 4-2 Liverpool at Villa Park ripped a Champions League place out of Slot's hands and dropped the Reds from 4th to 5th in the Premier League table (ESPN / Sky Sports / NBC Sports). Ollie Watkins scored a brace (57', 73'), Morgan Rogers opened the scoring with a curling 43' finish from a Digne short-corner routine, and John McGinn lashed in a fourth from outside the box; Virgil van Dijk's TWO headers (52' equaliser off a Szoboszlai free-kick, and a 90+ consolation) were Liverpool's only reply in a wretched team performance. Slot in the post-match presser called it 'damaging' and conceded the central failing: 'three out of four from set pieces' — Liverpool's set-piece haemorrhage from the season writ large. With Villa now on 66 pts and Liverpool on 65, the Reds must beat Brentford at Anfield next Sunday May 24 to guarantee top five; a Bournemouth or Chelsea stumble across the weekend would also help. Off-pitch the pressure on Slot ratchets up (Murphy on Sky: 'his time is up'; Carragher: 'showing signs of buckling') even as the manager again insisted 'I have every reason to believe I am the Liverpool manager next season.' Salah came off the bench for a cameo in his first action since April 25, with the Anfield farewell vs Brentford now both a tribute night AND a must-win.",
+    "Saturday morning after the night before — Aston Villa 4-2 Liverpool at Villa Park ripped a Champions League place out of Slot's hands and dropped the Reds from 4th to 5th in the Premier League table (ESPN / Sky Sports / NBC Sports). Ollie Watkins scored a brace (57', 73'), Morgan Rogers opened the scoring with a curling 43' finish from a Digne short-corner routine, and John McGinn lashed in a fourth from outside the box; Virgil van Dijk's TWO headers (52' equaliser off a Szoboszlai free-kick, and a 90+ consolation) were Liverpool's only reply in a wretched team performance. Slot in the post-match presser called it 'damaging' and conceded the central failing: 'three out of four from set pieces' — Liverpool's set-piece haemorrhage from the season writ large. With Villa now on 68 pts and Liverpool on 65, the Reds must beat Brentford at Anfield next Sunday May 24 to guarantee top five; a Bournemouth or Chelsea stumble across the weekend would also help. Off-pitch the pressure on Slot ratchets up (Murphy on Sky: 'his time is up'; Carragher: 'showing signs of buckling') even as the manager again insisted 'I have every reason to believe I am the Liverpool manager next season.' Salah came off the bench for a cameo in his first action since April 25, with the Anfield farewell vs Brentford now both a tribute night AND a must-win.",
   keyTopics: [
     {
       title: "Aston Villa 4-2 Liverpool — Watkins Brace Drops Reds To 5th, Champions League On The Line At Brentford (Sky Sports / ESPN / NBC Sports, broke last night Fri May 15)",
@@ -550,7 +550,6 @@ export const NEWS_DIGEST = {
     "RTÉ",
     "TeamTalk",
     "GiveMeSport",
-    "Premier League",
   ],
 };
 
