@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 48, goals: 12, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.3, status: "fit", injuryNote: "Sat May 16 — 90 mins in last night's 4-2 Villa Park defeat; ASSISTED Van Dijk's 52' equaliser from a teasing deep free-kick. But it was Szoboszlai's midfield turnover that led directly to Watkins's 57' Villa restorer (Sky Sports), turning a fine evening sour. 6/10 ratings — contract extension still expected 'in the near future' per Liverpool.com", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 48, goals: 12, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.3, status: "fit", injuryNote: "Sun May 17 — LIKED Salah's anti-Slot Instagram post Saturday alongside 8 other teammates (SportBible / JOE roundup) — the most senior outfield endorser of the bombshell statement. On Friday: 90 mins at Villa Park, ASSISTED Van Dijk's 52' equaliser from a deep free-kick, but his midfield turnover led directly to Watkins's 57' restorer. 6/10 ratings; contract extension still expected 'in the near future' per Liverpool.com", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -161,7 +161,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 27, goals: 1, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Sat May 16 — started in the attacking three at Villa Park last night (4-2 defeat) after his shift to RB earlier in the run-in; couldn't make the No. 10 role click against Tielemans/Konsa and was withdrawn mid-second-half. 5.5/10 ratings (Goal.com / SI). Off-pitch: Sky Sports still has Inter Milan keen for the summer, contract talks stalled", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 27, goals: 1, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Sun May 17 — left a 🙌 emoji on Salah's anti-Slot Instagram post Saturday, then posted his own statement: 'Thank you for your continued support in a disappointing season. It's way off the standards expected at this football club.' Most senior English voice in the dressing-room rebellion (Liverpool.com / SportBible). On-pitch: started in the attacking three at Villa Park, 5.5/10 ratings (Goal.com / SI), withdrawn mid-second-half. Inter Milan still circling per Sky Sports", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 38, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Sat May 16 — Slot's Friday-evening readout (Liverpool FC official) confirmed Salah's late cameo at Villa Park: minutes off the bench in the 4-2 defeat, his first action since the Apr 25 Crystal Palace muscle issue. Couldn't influence the result. The Brentford home finale Sun May 24 stays the Anfield farewell — Henderson back in Brentford kit, Klopp tipped as a guest, and now a must-win for Champions League", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 38, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Sun May 17 — BOMBSHELL Instagram statement Saturday evening: 'I want to see Liverpool go back to being the heavy metal attacking team that opponents fear' — barely veiled rebuke of Slot's 'ponderous' style (Liverpool.com / This Is Anfield). 324k+ likes inc. 9 teammates (Szoboszlai, Robertson, Kerkez, Ekitike, Endo, Leoni, Frimpong, Ramsay, Elliott) and Trent's 🐐 emoji from Madrid. Earlier Friday: Villa Park bench cameo (first action since Apr 25 Palace muscle issue). Brentford May 24 farewell is now tribute, must-win AND manager-vs-talisman tableau", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -431,105 +431,105 @@ export const DISPATCHES = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-05-16T12:10:00Z",
+  generatedAt: "2026-05-17T11:30:00Z",
   summary:
-    "Saturday lunchtime, Anfield: the back pages are still raw from Friday night. Aston Villa 4-2 Liverpool at Villa Park ripped a Champions League place out of Slot's hands, dropped the Reds from 4th to 5th, and turned next Sunday's Brentford home finale into a must-win (ESPN / Sky Sports / NBC Sports). Ollie Watkins scored a brace (57', 73'); Morgan Rogers curled in the 43' opener from a Digne short-corner; John McGinn lashed home a fourth from outside the box. Virgil van Dijk's TWO headers (52' equaliser, 90+ consolation) were the only reply. Slot's post-match line — 'damaging — three out of four from set pieces' — is on every front page; Carragher's 'showing signs of a man buckling' on every back. Saturday morning brought a viral fan petition demanding the manager's removal (SportBible), Tribuna's confirmation that FSG will hold 'no summer review' into Slot's position, and Romano's repeat that the club is 'absolutely in the direction' of continuing with the Dutchman. Bournemouth host Manchester City this weekend; Chelsea also play; the math is permeable on every side. Salah's brief Villa Park cameo (his first action since April 25) makes the Brentford home finale both a tribute night and a final.",
+    "Sunday morning, Anfield: the back pages are no longer about Friday's defeat — they're about an Instagram post that's blown the dressing room open. Mohamed Salah, a week from his Anfield farewell, used a lengthy Saturday-evening post on X and Instagram to publicly demand Liverpool 'go back to being the heavy metal attacking team that opponents fear' — a barely-veiled rebuke of Arne Slot's 'ponderous' style (Liverpool.com / This Is Anfield). The Sunday-paper shock isn't the message but the co-signers: Szoboszlai, Robertson, Kerkez, Ekitike, Endo, Leoni, Frimpong, Calvin Ramsay and Harvey Elliott all LIKED the post; Curtis Jones left a clapping emoji then posted his own 'way off the standards' statement; Trent Alexander-Arnold dropped a 🐐 emoji from Madrid (SportBible / JOE / Liverpool.com). The Villa Park 4-2 defeat that triggered all of this — Watkins brace 57' & 73', Rogers 43', McGinn 89'; Van Dijk's two headers in reply — is now a backdrop story. Slot enters Sunday under siege on two fronts (FSG above, dressing room beside) with Carragher's 'the dressing room has lost him' line dominating the Sunday Supplement. Bournemouth host Manchester City this afternoon; if either side drops points, Liverpool's top-five fate could be sealed before kickoff next Sunday against Brentford.",
   keyTopics: [
     {
-      title: "Fan Petition Demanding Slot's Removal Goes Viral — Hundreds Of Thousands Signed Overnight (SportBible / Football365, broke today Sat May 16)",
+      title: "Salah's Anti-Slot Instagram BOMBSHELL — Calls For Return To Klopp's 'Heavy Metal Football' (Liverpool.com / This Is Anfield / Goal.com, broke yesterday Sat May 16)",
       detail:
-        "Saturday morning, post-Villa Park: SportBible reports a fan petition demanding Arne Slot be sacked has gone viral, with the signature count climbing through the night and Football365 framing it as the 'fans' message' after a 4-2 capitulation. The petition lands while FSG, per Tribuna's Thursday read, plan 'no summer review' of the manager's position — the gap between the Anfield boardroom and the Anfield Road End is now the loudest sub-plot of the run-in.",
+        "Posted on X and Instagram Saturday evening after the 4-2 Villa Park defeat: a lengthy statement from Mohamed Salah, a week from his Anfield farewell, declaring 'I want to see Liverpool go back to being the heavy metal attacking team that opponents fear and back to being a team that wins trophies.' The phrase 'heavy metal football' is synonymous with Jürgen Klopp; the post (per Liverpool.com) takes direct aim at the 'ponderous' Slot style and the season's failure. Sunday papers lead with it; pundits read it as a public ultimatum on the manager's tactics from a player with nothing left to lose.",
       category: "general",
     },
     {
-      title: "Aston Villa 4-2 Liverpool — Watkins Brace Drops Reds To 5th, Champions League On The Line At Brentford (Sky Sports / ESPN / NBC Sports, broke last night Fri May 15)",
+      title: "DRESSING-ROOM REVOLT: 9 Liverpool Players Endorse Salah's Post — Szoboszlai, Robertson, Kerkez, Ekitike, Endo, Leoni, Frimpong, Ramsay, Elliott Hit Like (SportBible / JOE / SportsJoe, broke yesterday Sat May 16)",
       detail:
-        "Aston Villa scored four times to relegate Liverpool's Champions-League fate to the final day: Morgan Rogers 43' off a Digne short-corner, Watkins 57' (open-play, off a Szoboszlai turnover) and Watkins 73' (reacting to a Pau Torres header), John McGinn outside the box for the fourth. Three of four came from set pieces. Van Dijk replied with TWO headers (52', 90+) but Liverpool's 12th PL loss of the season dropped Slot's side from 4th to 5th. The Brentford home finale Sun May 24 is now a must-win.",
-      category: "matches",
+        "By Sunday lunchtime the trace had been done: Dominik Szoboszlai, Andy Robertson, Milos Kerkez, Hugo Ekitike, Wataru Endo, Giovanni Leoni, Jeremie Frimpong, Calvin Ramsay and Harvey Elliott all liked Salah's anti-Slot post (SportBible's screenshot-roundup, also carried by JOE and SportsJoe). The signature line is Curtis Jones, who left a 🙌 emoji in the comments then posted his own statement: 'Thank you for your continued support in a disappointing season. It's way off the standards expected at this football club.' First public sign of a dressing-room split with the manager.",
+      category: "general",
     },
     {
-      title: "'Damaging — Three Out Of Four From Set Pieces' — Slot's Post-Match Reaction (Liverpool FC / NBC / Yahoo, broke last night Fri May 15)",
+      title: "Trent Alexander-Arnold's 🐐 Emoji — Madrid Solidarity For Salah's Stand (Liverpool.com, broke yesterday Sat May 16)",
       detail:
-        "Slot at the post-match presser, carried by Liverpool FC's official readout and NBC Sports: 'we conceded far too many goals — three out of four from set pieces.' He called the result 'damaging' and acknowledged 'we needed a win, or maybe two draws.' Asked if he expects to be the manager next season: 'I have every reason to believe I am the Liverpool manager next season.' Carragher on Sky said the manager was 'showing signs of a man buckling'; Murphy: 'his time is up.'",
+        "Trent Alexander-Arnold, now at Real Madrid after his summer departure, commented on Salah's Instagram post with a single 🐐 emoji — interpreted across Liverpool.com and the Sunday papers as a solidarity message for his ex-team-mate of eight years. The ex-Liverpool No. 66's intervention, even from outside the building, is among the most-shared images on Anfield Twitter/X this weekend and lifts the post's significance: Salah's nearest dressing-room ally publicly co-signs the critique.",
+      category: "general",
+    },
+    {
+      title: "Steven Gerrard's Bleak Verdict — 'This Isn't The Way' To Leave (SportBible / TalkSPORT, broke yesterday Sat May 16)",
+      detail:
+        "Steven Gerrard, asked on Saturday-night television about Salah's Instagram statement (SportBible carries the clip), offered a notably downbeat read: 'this isn't the way' for a player of Salah's stature to walk away from Anfield. The Liverpool icon's intervention adds a former-captain voice to the Sunday-papers cycle and undercuts the wave of teammate endorsements — pundit-class consensus splitting from dressing-room consensus on the same morning.",
+      category: "general",
+    },
+    {
+      title: "Slot Under Siege On Two Fronts — FSG Above, Dressing Room Beside (Liverpool.com / Per Second News, today Sun May 17)",
+      detail:
+        "Sunday-morning state-of-play: Arne Slot, who told the Villa Park presser Friday 'I have every reason to believe I am the Liverpool manager next season,' is now defending himself on TWO fronts. FSG's reported 'no summer review' (Tribuna, Thu May 14) keeps him in post; the Salah-Trent-Jones cascade exposes a dressing room publicly aligning AGAINST his tactics. Liverpool.com's Sunday read frames it as 'crumbling Liverpool' — the manager's authority and his XI's allegiance both up for question heading into the Brentford finale.",
       category: "tactics",
     },
     {
-      title: "Liverpool's Champions League Path Narrows — Must Beat Brentford To Guarantee Top Five (Liverpool.com / ESPN, today Sat May 16)",
+      title: "Champions League Math Tightens — Bournemouth vs Man City This Afternoon Could Settle It Early (Liverpool.com / ESPN, today Sun May 17)",
       detail:
-        "Liverpool.com and ESPN's Saturday-morning Champions-League read: Liverpool, 5th on 65 pts after last night's defeat, now must beat Brentford at home on Sun May 24 to guarantee a top-five finish. Bournemouth (61) and Chelsea (61) both have two games left and can overtake the Reds. A Bournemouth defeat to Man City this weekend or a Chelsea loss would do half the job. Slot: 'we know we need a win next week.'",
+        "Sunday afternoon stakes: Bournemouth host Manchester City and Chelsea play later in the round; if Bournemouth lose, Liverpool's top-five fate is essentially sealed BEFORE kickoff vs Brentford next Sunday. Liverpool (5th, 65 pts) need a win OR for Bournemouth (61) and Chelsea (61) to drop points. Slot's Friday line — 'we know we need a win next week' — still applies, but the run-around afternoon could remove the uncertainty.",
       category: "matches",
     },
     {
-      title: "Van Dijk's Lone Bright Spot — Captain Heads In TWO Goals In Vain (ESPN / SI / Goal.com, last night Fri May 15)",
+      title: "Carragher On Sunday Supplement — 'The Dressing Room Has Lost Him' (Football365 / Sky Sports, today Sun May 17)",
       detail:
-        "Virgil van Dijk's brace of headers was Liverpool's only redeemable note from Villa Park: the 52nd-minute equaliser drifted in from a Szoboszlai free-kick beating Martínez at the near post, and a 90+ consolation came from a corner. 8/10 ratings across SI and Goal.com. The captain remains the rock his team-mates couldn't be — Liverpool.com had ruled out his Galatasaray exit on Thursday, with the Dutchman expected to see out his current deal to end-2026-27.",
+        "Jamie Carragher reignited his Slot critique on Sunday Supplement after the Salah-Trent-Jones cascade: 'showing signs of a man buckling' (his Friday line) has graduated to 'the dressing room has lost him.' Football365's Sunday-morning summary frames it as the moment punditry consensus crossed over — a quorum of Carragher, Murphy and Neville now openly pricing in a coaching change despite FSG's reported stance.",
+      category: "tactics",
+    },
+    {
+      title: "Aston Villa 4-2 Liverpool — Watkins Brace Drops Reds To 5th (Sky Sports / ESPN / NBC Sports, broke Fri May 15)",
+      detail:
+        "Friday's defeat at Villa Park, which triggered the Salah Instagram cascade: Morgan Rogers 43' off a Digne short-corner, Watkins 57' (open-play, off a Szoboszlai turnover) and Watkins 73' (reacting to a Pau Torres header), John McGinn outside the box for the fourth. Three of four came from set pieces. Van Dijk replied with TWO headers (52', 90+) but Liverpool's 12th PL loss of the season dropped Slot's side from 4th to 5th. The Brentford home finale Sun May 24 is now a must-win.",
       category: "matches",
     },
     {
-      title: "Salah Cameos Off The Bench — First Action Since April As Brentford Farewell Looms (FOX Sports / Goal.com / Liverpool FC, broke last night Fri May 15)",
+      title: "'Damaging — Three Out Of Four From Set Pieces' — Slot's Post-Match Reaction (Liverpool FC / NBC / Yahoo, broke Fri May 15)",
       detail:
-        "Mohamed Salah came off the Liverpool bench at Villa Park for his first action since the April 25 Crystal Palace muscle issue, a brief cameo as the game was already gone (Liverpool FC official). His Anfield farewell on Sun May 24 against Brentford is now BOTH the projected tribute night AND a must-win for Champions League. Henderson back in Brentford kit; Klopp tipped as a guest.",
+        "Slot at the Villa Park post-match presser Friday, carried by Liverpool FC's official readout and NBC Sports: 'we conceded far too many goals — three out of four from set pieces.' He called the result 'damaging' and acknowledged 'we needed a win, or maybe two draws.' Asked if he expects to be the manager next season: 'I have every reason to believe I am the Liverpool manager next season.' That line has aged less well across 48 hours.",
+      category: "tactics",
+    },
+    {
+      title: "Van Dijk's Lone Bright Spot — Captain Heads In TWO Goals In Vain (ESPN / SI / Goal.com, broke Fri May 15)",
+      detail:
+        "Virgil van Dijk's brace of headers was Liverpool's only redeemable note from Villa Park: the 52nd-minute equaliser drifted in from a Szoboszlai free-kick beating Martínez at the near post, and a 90+ consolation came from a corner. 8/10 ratings across SI and Goal.com. The captain notably did NOT engage with Salah's Saturday Instagram post — one of the few senior pros to abstain — and remains the rock his team-mates couldn't be. Liverpool.com had ruled out his Galatasaray exit on Thursday.",
       category: "matches",
     },
     {
-      title: "Aston Villa Confirm Champions League Return — Emery's Side Past Liverpool Into 4th (Al Jazeera / Sky Sports, broke last night Fri May 15)",
+      title: "Salah Cameos Off The Bench At Villa — First Action Since April As Brentford Farewell Looms (FOX Sports / Goal.com / Liverpool FC, broke Fri May 15)",
       detail:
-        "The other side of the same scoreline: Villa Park sealed Champions League qualification with last night's 4-2 win over Liverpool, with Watkins's brace and Rogers/McGinn goals lifting Unai Emery's side above the Reds and into the top four. Villa now have a Europa League final to navigate (five days after the Liverpool win) but the league job is done — and Liverpool's is not.",
+        "Mohamed Salah came off the Liverpool bench at Villa Park for his first action since the April 25 Crystal Palace muscle issue, a brief cameo as the game was already gone (Liverpool FC official). That cameo — and the public booing of Slot afterwards — set up the Saturday Instagram post. His Anfield farewell on Sun May 24 against Brentford is now BOTH the projected tribute night AND a must-win for Champions League AND a manager-vs-talisman tableau.",
       category: "matches",
-    },
-    {
-      title: "Florian Wirtz Returns Off The Bench — Recovered From Stomach Infection (Liverpool FC / RotoWire, last night Fri May 15)",
-      detail:
-        "Wirtz, who'd been on antibiotics for a stomach infection that ruled him out of the May 9 Chelsea draw and a starting place at Villa Park, came off the bench in the second half of last night's 4-2 defeat. Couldn't conjure a third for Liverpool but expected to start at home against Brentford May 24 with Liverpool needing all three points.",
-      category: "injuries",
-    },
-    {
-      title: "'I Am The Liverpool Manager Next Season' — Slot Doubles Down Despite Boos (Per Second News / This Is Anfield / Liverpool.com, today Sat May 16)",
-      detail:
-        "Slot, asked again after last night's 4-2 defeat: 'I have every reason to believe I am the Liverpool manager next season.' GiveMeSport's accompanying line — Liverpool have 'no plans to complete a summer review' — backs the FSG-stick-with-Slot narrative against Murphy's televised 'his time is up' and Carragher's 'showing signs of buckling.' Romano (TeamTalk): Liverpool 'absolutely in the direction' of continuing with the Dutchman.",
-      category: "general",
     },
     {
       title: "Isak Misses Villa Park With 'Minor Injury' — Brentford Fitness The New Question (ESPN / Sports Mole / SI, broke Fri May 15)",
       detail:
-        "Slot's match-day disclosure at Villa Park, Friday May 15: 'Indeed, Alex is out — minor injury,' citing missed pre-season and broken-leg recovery as reasons to be cautious with Isak. The Swede missed last night's defeat with what the club described as a 'minor injury' — his fourth absence of a fragmented debut season. Liverpool 'hopeful' he's fit for the Brentford home finale May 24.",
+        "Slot's match-day disclosure at Villa Park, Friday May 15: 'Indeed, Alex is out — minor injury,' citing missed pre-season and broken-leg recovery as reasons to be cautious with Isak. The Swede missed Friday's defeat with what the club described as a 'minor injury' — his fourth absence of a fragmented debut season. Liverpool 'hopeful' he's fit for the Brentford home finale May 24; if not, 17-year-old Rio Ngumoha leads the line again.",
       category: "injuries",
     },
     {
-      title: "Alisson Still Not In The Matchday Squad — Mamardashvili Beaten Four Times (Liverpool FC / Liverpool.com, last night Fri May 15)",
+      title: "Alisson Still Not In The Matchday Squad — Mamardashvili Beaten Four Times (Liverpool FC / Liverpool.com, broke Fri May 15)",
       detail:
-        "Alisson Becker missed an 11th straight game on Friday night, still not deemed fit for the matchday squad despite returning to training Thursday. Mamardashvili made a third straight start and conceded four. Anfield Watch / FootballTransfers' Thursday line — Alisson has 'agreed €15m deal' to Juventus on €5m-a-year personal terms (Schira) — refuses to die.",
+        "Alisson Becker missed an 11th straight game on Friday night, still not deemed fit for the matchday squad despite returning to training Thursday. Mamardashvili made a third straight start and conceded four. Anfield Watch / FootballTransfers' Thursday line — Alisson has 'agreed €15m deal' to Juventus on €5m-a-year personal terms (Schira) — refuses to die; Brentford finale could be the Brazilian's last chance for an Anfield send-off.",
       category: "injuries",
     },
     {
       title: "Xabi Alonso 'Frontrunner' For Chelsea Job As Liverpool Stand By Slot (Sky Sports / Inside World Football / FootballTransfers, broke Thu May 14)",
       detail:
-        "Sky Sports' Thursday May 14 framing — Alonso facing a dilemma between 'moving to Chelsea or waiting for the dream Liverpool job' — firmed up by FootballTransfers: 'Xabi Alonso frontrunner for next Chelsea manager job as talks progress positively after Liverpool twist.' Inside World Football, same cycle: Chelsea have 'turned attention to Alonso' as their manager search continues. Liverpool.com Thursday: FSG decided to 'stick with Slot' and 'will not hire Alonso' despite fan desire.",
+        "Thursday's framing — Alonso facing a dilemma between 'moving to Chelsea or waiting for the dream Liverpool job' — firmed up by FootballTransfers: 'Xabi Alonso frontrunner for next Chelsea manager job as talks progress positively after Liverpool twist.' Liverpool.com Thursday: FSG decided to 'stick with Slot' and 'will not hire Alonso' despite fan desire. That FSG decision now looks more fragile after the weekend's dressing-room rebellion than it did 72 hours ago.",
       category: "general",
     },
     {
       title: "Iraola 'Among Candidates' To Replace Slot — Hughes Relationship The Driver (This Is Anfield / Caught Offside / Football FanCast, broke Thu May 14)",
       detail:
-        "This Is Anfield and Caught Offside on Thursday May 14 flagged Andoni Iraola as 'among the candidates' to replace Slot if Liverpool change tack this summer; Football FanCast same day reported Chelsea have held 'in-person talks' with the Spaniard. The Liverpool angle: Iraola is described as Sporting Director Richard Hughes's top target — the pair worked together at Bournemouth, and Iraola's contract there expires this summer.",
+        "This Is Anfield and Caught Offside on Thursday May 14 flagged Andoni Iraola as 'among the candidates' to replace Slot if Liverpool change tack this summer; Football FanCast same day reported Chelsea have held 'in-person talks' with the Spaniard. The Liverpool angle: Iraola is described as Sporting Director Richard Hughes's top target — the pair worked together at Bournemouth, and Iraola's contract there expires this summer. Live again after this weekend.",
       category: "general",
     },
     {
       title: "Konaté Contract 'Stalemate' — Real Madrid In The Background (Liverpool.com, broke Wed May 13)",
       detail:
-        "Liverpool.com on Wednesday May 13 used the word that had hung unspoken over Ibrahima Konaté's contract talks: 'stalemate.' Signing-on package and agent commissions the sticking points; Real Madrid still in the background. The French defender, who said in the spring 'we are close to an agreement,' was exposed by Villa's set-piece play on Friday night and is now playing through what may be his last spring at the club.",
+        "Liverpool.com on Wednesday May 13 used the word that had hung unspoken over Ibrahima Konaté's contract talks: 'stalemate.' Signing-on package and agent commissions the sticking points; Real Madrid still in the background. The French defender, who said in the spring 'we are close to an agreement,' was exposed by Villa's set-piece play on Friday night and notably did NOT publicly endorse Salah's Saturday post.",
       category: "transfers",
-    },
-    {
-      title: "'Anything Can Happen … We'll See' — Joe Gomez Breaks Silence On His Liverpool Future (ESPN / Anfield Index / Yahoo / RTÉ, broke Wed May 13)",
-      detail:
-        "ESPN, Anfield Index, Yahoo Sports and RTÉ on Wed May 13 carried 11-year servant Joe Gomez's resigned summer-exit comments: 'No. I think anything can happen. I don't know is the honest answer.' He started at RB on Friday night in last night's 4-2 defeat (Frimpong's late withdrawal); his Liverpool career may end at Brentford next Sunday alongside Salah and Robertson.",
-      category: "transfers",
-    },
-    {
-      title: "Howard Webb Concedes Šeško Handball vs Liverpool At Old Trafford (Sky Sports, broke Wed May 13)",
-      detail:
-        "Sky Sports, Wed May 13: PGMOL chief Howard Webb publicly conceded Benjamin Šeško did handle the ball before scoring for Manchester United against Liverpool at Old Trafford on May 3 (a 3-2 United win), but VAR could not disallow due to lack of conclusive evidence. Joins the file of officiating grievances acknowledged after they stopped mattering — Liverpool's CL bid hangs by a thread after Friday.",
-      category: "matches",
     },
   ],
   sources: [
@@ -537,7 +537,6 @@ export const NEWS_DIGEST = {
     "NBC Sports",
     "ESPN",
     "Goal.com",
-    "Al Jazeera",
     "Liverpool FC",
     "Liverpool.com",
     "This Is Anfield",
@@ -545,19 +544,18 @@ export const NEWS_DIGEST = {
     "Sports Illustrated",
     "Sports Mole",
     "FOX Sports",
-    "RotoWire",
     "FootballTransfers",
     "Anfield Watch",
     "Inside World Football",
     "Football FanCast",
     "Caught Offside",
-    "Anfield Index",
-    "Yahoo Sports",
-    "RTÉ",
     "TeamTalk",
     "GiveMeSport",
     "SportBible",
+    "JOE",
+    "SportsJoe",
     "Football365",
+    "TalkSPORT",
     "Tribuna",
   ],
 };
