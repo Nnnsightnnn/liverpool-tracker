@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 48, goals: 12, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.3, status: "fit", injuryNote: "Sun May 17 — LIKED Salah's anti-Slot Instagram post Saturday alongside 8 other teammates (SportBible / JOE roundup) — the most senior outfield endorser of the bombshell statement. On Friday: 90 mins at Villa Park, ASSISTED Van Dijk's 52' equaliser from a deep free-kick, but his midfield turnover led directly to Watkins's 57' restorer. 6/10 ratings; contract extension still expected 'in the near future' per Liverpool.com", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 48, goals: 12, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.3, status: "fit", injuryNote: "Mon May 18 — among the original SportBible nine who liked Salah's Saturday anti-Slot Instagram post; tally has since grown to 17 past/present Reds per Caught Offside Monday. The Hungarian remains the most senior outfield endorser of the bombshell statement. On Friday: 90 mins at Villa Park, ASSISTED Van Dijk's 52' equaliser from a deep free-kick, but his midfield turnover led directly to Watkins's 57' restorer. 6/10 ratings; contract extension still expected 'in the near future' per Liverpool.com", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -161,7 +161,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 27, goals: 1, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Sun May 17 — left a 🙌 emoji on Salah's anti-Slot Instagram post Saturday, then posted his own statement: 'Thank you for your continued support in a disappointing season. It's way off the standards expected at this football club.' Most senior English voice in the dressing-room rebellion (Liverpool.com / SportBible). On-pitch: started in the attacking three at Villa Park, 5.5/10 ratings (Goal.com / SI), withdrawn mid-second-half. Inter Milan still circling per Sky Sports", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 27, goals: 1, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Mon May 18 — Saturday's 🙌 emoji on Salah's post + own 'way off standards' statement still dominating Monday's wire: 'Thank you for your continued support in a disappointing season. It's way off the standards expected at this football club.' Most senior English voice in the 17-strong dressing-room rebellion per Caught Offside Monday. On Friday: started attacking three at Villa Park, 5.5/10, withdrawn mid-second-half. Inter Milan still circling per Sky Sports", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -539,17 +539,13 @@ export const NEWS_DIGEST = {
     "This Is Anfield",
     "Per Second News",
     "Sports Illustrated",
-    "Sports Mole",
-    "FOX Sports",
     "FootballTransfers",
     "Anfield Watch",
     "Football FanCast",
     "Caught Offside",
     "SportBible",
     "JOE",
-    "SportsJoe",
     "Football365",
-    "TalkSPORT",
     "TNT Sports",
     "beIN Sports",
     "Tribuna",
