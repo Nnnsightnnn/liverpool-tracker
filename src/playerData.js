@@ -460,18 +460,6 @@ export const NEWS_DIGEST = {
       category: "general",
     },
     {
-      title: "Caught Offside: 17 Past And Present Liverpool Players Have Now Liked Salah's Anti-Slot Post (Caught Offside / SI / beIN Sports, expanded Mon May 18, holds Tuesday)",
-      detail:
-        "Monday's Caught Offside tally — 17 past and present Liverpool players liking Salah's Saturday-evening anti-Slot Instagram post — was carried into Tuesday's papers unchanged. The original SportBible nine (Szoboszlai, Robertson, Kerkez, Ekitike, Endo, Leoni, Frimpong, Ramsay, Elliott) joined Monday by Konaté, Wirtz and Gakpo, and ex-Reds including Trent Alexander-Arnold. SI's framing — 'a brutal swipe that pits players, fans, and legends against each other' — still leads social-media chatter on Tuesday morning.",
-      category: "general",
-    },
-    {
-      title: "Gerrard On TNT: Salah Statement Is 'Damning' For Slot — 'Identity's Gone' (TNT Sports / This Is Anfield / Tribuna, broke Sun May 17, holds Tuesday)",
-      detail:
-        "Steven Gerrard's TNT Sports verdict still leads the punditry stack: 'that's quite damning to the manager' (Tribuna); 'identity's gone' (This Is Anfield). On Tuesday morning, columnists across UK and US wires lean on Gerrard's line to frame Slot's predicament. Unlike his Saturday 'this isn't the way' caveat about Salah, Sunday-night Gerrard pivoted from criticising the player to backing the player's diagnosis of the team — the comment Tuesday's writers describe as the punditry-class turning point.",
-      category: "tactics",
-    },
-    {
       title: "Slot Defending On TWO Fronts — Tuesday Wires Lead With 'Crumbling Liverpool' For The Fourth Day (Liverpool.com / Per Second News, today Tue May 19)",
       detail:
         "Tuesday state-of-play: 96 hours after Villa Park, FSG has still not publicly backed Slot and the dressing-room mutiny is being treated as front-page news. Liverpool.com's 'crumbling Liverpool' headline now four days running; the framing of the Brentford finale has shifted from Champions League referendum to managerial referendum. TeamTalk Tuesday: FSG's 'sack U-turn' position is intact but Bournemouth's result tonight could reframe everything.",
@@ -482,6 +470,18 @@ export const NEWS_DIGEST = {
       detail:
         "Liverpool.com's Tuesday tracker keeps Slot 'hopeful' on all three Villa Park absentees: Alisson Becker (now 11 straight games out, back in light training Monday and stepping up Tuesday), Alexander Isak (the 'minor injury' from Friday) and Jeremie Frimpong (also a 'minor issue'). All three were spotted at Kirkby Tuesday morning per the club's official tracker. Team news doesn't firm until Slot's Friday presser; Ngumoha leads the line again if Isak doesn't clear, Mamardashvili keeps the gloves until Alisson is signed off.",
       category: "injuries",
+    },
+    {
+      title: "Caught Offside: 17 Past And Present Liverpool Players Have Now Liked Salah's Anti-Slot Post (Caught Offside / SI / beIN Sports, expanded Mon May 18, holds Tuesday)",
+      detail:
+        "Monday's Caught Offside tally — 17 past and present Liverpool players liking Salah's Saturday-evening anti-Slot Instagram post — was carried into Tuesday's papers unchanged. The original SportBible nine (Szoboszlai, Robertson, Kerkez, Ekitike, Endo, Leoni, Frimpong, Ramsay, Elliott) joined Monday by Konaté, Wirtz and Gakpo, and ex-Reds including Trent Alexander-Arnold. SI's framing — 'a brutal swipe that pits players, fans, and legends against each other' — still leads social-media chatter on Tuesday morning.",
+      category: "general",
+    },
+    {
+      title: "Gerrard On TNT: Salah Statement Is 'Damning' For Slot — 'Identity's Gone' (TNT Sports / This Is Anfield / Tribuna, broke Sun May 17, holds Tuesday)",
+      detail:
+        "Steven Gerrard's TNT Sports verdict still leads the punditry stack: 'that's quite damning to the manager' (Tribuna); 'identity's gone' (This Is Anfield). On Tuesday morning, columnists across UK and US wires lean on Gerrard's line to frame Slot's predicament. Unlike his Saturday 'this isn't the way' caveat about Salah, Sunday-night Gerrard pivoted from criticising the player to backing the player's diagnosis of the team — the comment Tuesday's writers describe as the punditry-class turning point.",
+      category: "tactics",
     },
     {
       title: "Chelsea Confirm Xabi Alonso As New Manager On Four-Year Deal — Liverpool's Plan B Gone (Al Jazeera / ITV / Euronews / Liverpool.com, confirmed Sun May 17)",
@@ -537,7 +537,6 @@ export const NEWS_DIGEST = {
     "Caught Offside",
     "SportBible",
     "TeamTalk",
-    "Football365",
     "TNT Sports",
     "beIN Sports",
   ],
