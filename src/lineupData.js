@@ -114,11 +114,12 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-05-19
-// (Tue: new adidas 26-27 kit drops 9am; Bournemouth-City tonight; Rooney
-// tells Slot to bench Salah for the farewell).
+// Hand-curated from RESULTS array + injuryNote context as of 2026-05-20
+// (Wed: Bournemouth 1-1 Man City overnight effectively seals top five; FSG
+// 'U-turn' confirmed — four Slot replacements 'discussed'; Conte to Liverpool
+// chatter enters frame after his Napoli exit).
 export const PLAYER_EVIDENCE = {
-  1:  "Stepped up training Tue · finale targeted",         // Alisson
+  1:  "Full training Wed · finale targeted",               // Alisson
   2:  "Conceded 4 at Villa Park · Form 6.2",               // Mamardashvili
   3:  "Brace at Villa · 8/10 ratings · Form 7.4",          // Van Dijk
   4:  "On Salah's 17-strong list · contract stalemate",    // Konaté
@@ -126,7 +127,7 @@ export const PLAYER_EVIDENCE = {
   6:  "Liked Salah anti-Slot post · Sun farewell",         // Robertson
   7:  "Liked Salah post · LB starter · Form 6.8",          // Kerkez
   8:  "Knee surgery · out for season",                     // Bradley
-  9:  "Training Tue · finale return targeted",             // Frimpong
+  9:  "Full training Wed · finale return likely",          // Frimpong
   10: "Torn ACL · out for season · liked Salah post",      // Leoni
   11: "Deputy CB · cover only",                            // Jacquet
   12: "Academy depth · 2 senior apps",                     // Ndukwe
@@ -138,9 +139,9 @@ export const PLAYER_EVIDENCE = {
   18: "On Salah's 17-strong list · Brentford starter",     // Wirtz
   19: "Hamstring · yet to play this season",               // Bajcetic
   20: "Academy prospect · 5 senior apps",                  // Nyoni
-  21: "Rooney: 'I'd bench him' · 17 endorsers · farewell", // Salah
+  21: "FSG U-turn 'triggered' by post · farewell start",   // Salah
   22: "On Salah's 17-strong list · LW at Villa",           // Gakpo
-  23: "Stepped up training Tue · finale targeted",         // Isak
+  23: "Full training Wed · finale targeted",               // Isak
   24: "Ruptured Achilles · out 9-12 months · liked Salah", // Ekitike
   25: "Led line at Villa · 'best of a bad night'",         // Ngumoha
   26: "Unused sub at Villa · summer exit list",            // Chiesa
@@ -148,54 +149,56 @@ export const PLAYER_EVIDENCE = {
 };
 
 // Default formation when entering the view — projecting the Brentford home
-// finale on Sun May 24, a must-win for Champions League after last night's
-// 4-2 Villa Park defeat. Slot has favoured 4-2-3-1 of late; expect Salah to
-// start his Anfield farewell, Isak back if fit, Wirtz returning from
-// antibiotics, Alisson and Frimpong both targeted to return.
+// finale on Sun May 24. Top-five essentially sealed by last night's Bournemouth
+// 1-1 Man City draw at the Vitality, so the match is now a farewell + manager-
+// vs-talisman tableau more than a survival fixture. Slot has favoured 4-2-3-1
+// of late; expect Salah to start his Anfield farewell, Isak back if fit, Wirtz
+// returning from antibiotics, Alisson and Frimpong both targeted to return.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by formation's
 // slot keys. The UI renders these as colored dots on each pitch token.
-// Keys match DEFAULT_FORMATION (4-2-3-1) — confidence Medium across most
-// slots because the Brentford XI is PREDICTED, not confirmed: team news
-// won't drop until Slot's Friday/Saturday presser the week of the match.
-// (Refreshed Tue May 19: adidas 26-27 kit drops 9am; Bournemouth-City
-// tonight is referendum-by-proxy; Rooney tells Slot to bench Salah.)
+// Keys match DEFAULT_FORMATION (4-2-3-1) — confidence ticks up slightly with
+// Wed AM's positive fitness tracker (Alisson, Isak, Frimpong all in full
+// training); team news firms at Slot's Friday presser. (Refreshed Wed May 20:
+// Bournemouth 1-1 Man City overnight; FSG 'U-turn' confirmed; Conte enters
+// the replacement frame.)
 export const SLOT_CONFIDENCE = {
   GK:  "Medium", // Alisson projected return · Mamard alternative
   LB:  "High",   // Kerkez · first-pick LB · Robertson farewell on bench
   LCB: "High",   // Van Dijk · captain · scored 2 vs Villa
   RCB: "High",   // Konaté · locked in alongside VVD
-  RB:  "Medium", // Frimpong projected return · Gomez backup
+  RB:  "High",   // Frimpong full training Wed · Gomez backup
   LDM: "High",   // Gravenberch · most reliable midfielder
   RDM: "High",   // Mac Allister · double-pivot
   LAM: "Medium", // Gakpo · LW likely · could rotate
   CAM: "Medium", // Wirtz return projected · Szobo could shift
   RAM: "High",   // Salah · Anfield FAREWELL start expected
-  ST:  "Medium", // Isak if fit · else Ngumoha
+  ST:  "Medium", // Isak full training Wed · else Ngumoha
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
 // Explains why the predicted starter won their slot. Populated by the predictor;
 // hand-set initially. Keyed by slot key (for the active formation — 4-2-3-1).
-// Brentford home finale on Sun May 24 is the projected fixture — a must-win
-// for Champions League after Friday's 4-2 Villa Park defeat dropped Liverpool
-// to 5th. Salah's Saturday Instagram bombshell adds a manager-vs-talisman layer
-// to selection: Slot has to start the publicly critical talisman in front of
-// the Kop or face open mutiny.
+// Brentford home finale on Sun May 24 is the projected fixture. Top-five is
+// essentially sealed after last night's Bournemouth 1-1 Manchester City draw
+// at the Vitality, which leaves the Cherries on 62 to Liverpool's 65 with
+// only one match each remaining. Salah's Saturday Instagram bombshell — now
+// confirmed Wed AM as having 'triggered' an FSG U-turn on Slot — adds a
+// manager-vs-talisman layer to selection.
 export const SLOT_RATIONALE = {
-  GK:  "Tue May 19 — Alisson projected to return for the Brentford finale; Liverpool.com's Tuesday-morning pre-Brentford tracker has the Brazilian stepping up training after 11 straight games out. Mamardashvili conceded 4 at Villa Park — a backwards step. If Alisson isn't cleared at Slot's Friday presser, Mamard keeps the shirt for a fourth straight.",
-  LB:  "Tue May 19 — Kerkez locks the LB shirt for the Brentford finale after a 6/10 90-minute display at Villa Park. Liked Salah's anti-Slot post Saturday but starts again on merit. Robertson lined up for a bench role in his Anfield farewell.",
-  LCB: "Tue May 19 — Van Dijk indisputable after his TWO headers in the 4-2 Villa Park defeat (52' equaliser, 90+ consolation · 8/10 ratings). The captain notably has NOT publicly endorsed Salah's Saturday post — still abstaining as the 17-player tally holds — and remains the rock. Liverpool.com has ruled out the Galatasaray exit.",
-  RCB: "Tue May 19 — Konaté locks in alongside VVD despite a 5/10 at Villa where set-piece tracking failed three times. Caught Offside's Monday tally added him to the 17-strong list of Salah backers — a reversal of the weekend's 'abstained' read. Contract 'stalemate' rumbles on into Tuesday; Real Madrid still in the background.",
-  RB:  "Tue May 19 — Frimpong projected to return for the Brentford finale; Liverpool.com's Tuesday tracker has the Dutchman stepping up training after missing Villa Park with a 'minor injury'. Liked Salah's Saturday post; Gomez deputised at RB at Villa and struggled.",
-  LDM: "Tue May 19 — Gravenberch continues as the most reliable midfielder Liverpool have after a 6.5/10 Villa Park display. The Dutchman has anchored midfield through the run-in; partners Mac Allister in the double-pivot.",
-  RDM: "Tue May 19 — Mac Allister completed 90 minutes at Villa and partners Gravenberch in the double-pivot. Father Carlos's 'no talks until the season is over' line still alive in the background; reportedly abstained from Salah's Saturday post.",
-  LAM: "Tue May 19 — Gakpo expected to keep LW; Caught Offside's Monday tally added the Dutchman to the 17-strong list of Reds liking Salah's anti-Slot post. FSG has reportedly green-lit a summer sale to fund the wide rebuild but he still starts the finale ahead of Chiesa.",
-  CAM: "Tue May 19 — Wirtz projected to start the Brentford finale after a Villa Park cameo off the bench, recovered from antibiotics. Also added to the 17-strong list of Salah backers per Caught Offside Monday. Slot likely to want the German's creativity for the must-win.",
-  RAM: "Tue May 19 — Mohamed Salah's ANFIELD FAREWELL start STILL EXPECTED, even after Wayne Rooney told SportBible on Sunday (carried into Tuesday's papers) Slot should 'put him on the bench'. beIN Sports' overnight Sun line — Salah's 'another swipe' second post — still echoes; the 17-player tally holds. Manager-vs-talisman frame hardens by the hour.",
-  ST:  "Tue May 19 — Alexander Isak's projected return; Liverpool.com's Tuesday tracker has the Swede stepping up training after missing Villa Park with a 'minor injury' (Slot cited missed pre-season + broken-leg recovery). If not cleared at Friday's presser, 17-year-old Rio Ngumoha — Slot's bright young find — would lead the line again.",
+  GK:  "Wed May 20 — Alisson back in FULL training at Kirkby today per the club's official tracker; Slot 'hopeful' for the Brentford finale after 11 straight games out. Mamardashvili conceded 4 at Villa Park — a backwards step. If Alisson isn't cleared at Slot's Friday presser, Mamard keeps the shirt for a fourth straight.",
+  LB:  "Wed May 20 — Kerkez locks the LB shirt for the Brentford finale after a 6/10 90-minute display at Villa Park. Liked Salah's anti-Slot post Saturday but starts again on merit. Robertson lined up for a bench role in his Anfield farewell.",
+  LCB: "Wed May 20 — Van Dijk indisputable after his TWO headers in the 4-2 Villa Park defeat (52' equaliser, 90+ consolation · 8/10 ratings). The captain notably has NOT publicly endorsed Salah's Saturday post — still abstaining as the 17-player tally holds into Wed — and remains the rock. Liverpool.com has ruled out the Galatasaray exit.",
+  RCB: "Wed May 20 — Konaté locks in alongside VVD despite a 5/10 at Villa where set-piece tracking failed three times. Caught Offside's Monday tally added him to the 17-strong list of Salah backers — a reversal of the weekend's 'abstained' read. Contract 'stalemate' rumbles on into Wed; Real Madrid still in the background.",
+  RB:  "Wed May 20 — Frimpong back in FULL training at Kirkby today per the club's official tracker; 'minor injury' that kept him out of Villa Park is considered cleared. Liked Salah's Saturday post; Gomez deputised at RB at Villa and struggled.",
+  LDM: "Wed May 20 — Gravenberch continues as the most reliable midfielder Liverpool have after a 6.5/10 Villa Park display. The Dutchman has anchored midfield through the run-in; partners Mac Allister in the double-pivot.",
+  RDM: "Wed May 20 — Mac Allister completed 90 minutes at Villa and partners Gravenberch in the double-pivot. Father Carlos's 'no talks until the season is over' line still alive in the background; reportedly abstained from Salah's Saturday post.",
+  LAM: "Wed May 20 — Gakpo expected to keep LW; Caught Offside's Monday tally added the Dutchman to the 17-strong list of Reds liking Salah's anti-Slot post. FSG has reportedly green-lit a summer sale to fund the wide rebuild but he still starts the finale ahead of Chiesa.",
+  CAM: "Wed May 20 — Wirtz projected to start the Brentford finale after a Villa Park cameo off the bench, recovered from antibiotics. Also added to the 17-strong list of Salah backers per Caught Offside Monday. Slot likely to want the German's creativity for the farewell occasion.",
+  RAM: "Wed May 20 — Mohamed Salah's ANFIELD FAREWELL start STILL EXPECTED. Football365/TeamTalk lead Wed AM with confirmation that the Egyptian's weekend post 'triggered' an FSG U-turn — Liverpool now 'discussing' four Slot replacements. Rooney's 'I'd bench him' line still echoes through selection-debate columns; Slot expected to start him anyway with the Kop mosaic primed.",
+  ST:  "Wed May 20 — Alexander Isak back in FULL training at Kirkby today per the club's official tracker; Slot 'hopeful' for the finale after Friday's late 'minor injury' (Slot cited missed pre-season + broken-leg recovery). If not cleared at Friday's presser, 17-year-old Rio Ngumoha — Slot's bright young find — would lead the line again.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -221,8 +224,8 @@ export const ALTERNATIVES = {
 // predictor metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  reason: "Tue May 19 (Tuesday-morning refresh) — projected Liverpool XI for the Brentford home finale on Sun May 24, a must-win for Champions League after Friday's 4-2 Villa Park defeat dropped Liverpool to 5th. Three Tuesday beats: (1) the adidas 2026-27 home kit dropped at 9am BST — heritage 1989-90 design with a green keeper kit — softening the news cycle for one day; (2) Bournemouth vs Manchester City tonight (18:30 UK) is referendum-by-proxy: a Pep win essentially seals Liverpool top-five before Sunday; (3) Wayne Rooney told SportBible Sunday Slot should bench Salah for the Anfield farewell — a line still echoing through Tuesday's papers. Caught Offside's 17-player anti-Slot tally holds. Isak, Alisson and Frimpong all stepped up training Tue at Kirkby per Liverpool.com; team news firms up at Slot's Friday presser. Confidence stays MEDIUM because GK, RB and ST hinge on fitness — and the manager himself is defending on TWO fronts (FSG above, dressing room beside).",
-  pundit_sources: ["Al Jazeera", "ITV News", "Euronews", "Liverpool FC", "Liverpool.com", "This Is Anfield", "DaveOCKOP", "Anfield Index", "Sky Sports", "NBC Sports", "ESPN", "FOX Sports", "Goal.com", "GiveMeSport", "Sports Illustrated", "Per Second News", "RotoWire", "FootballTransfers", "Anfield Watch", "Football FanCast", "Caught Offside", "TeamTalk", "Premier League", "Football365", "Sports Mole", "SportBible", "JOE", "SportsJoe", "TalkSPORT", "TNT Sports", "beIN Sports", "Tribuna"],
+  reason: "Wed May 20 (Wednesday-morning refresh) — projected Liverpool XI for the Brentford home finale on Sun May 24. Three Wed beats reshape the picture: (1) Bournemouth could only draw 1-1 with Man City at the Vitality last night (Kroupi 39', Haaland 90+5'), confirming Arsenal champions and leaving Bournemouth on 62 to Liverpool's 65 — top five essentially sealed before kick-off Sunday; (2) Football365/TeamTalk lead Wed AM with FSG 'U-turn' confirmed — four Slot replacements 'discussed' (Iraola, Nagelsmann, Hoeness, Jaissle), with Salah's outburst credited as the trigger; (3) Conte enters the replacement frame overnight after his abrupt Napoli exit. Three big Wed positives on fitness: Alisson, Isak AND Frimpong are all in FULL training at Kirkby this morning per the club's own tracker; team news firms at Slot's Friday presser. Confidence stays MEDIUM because GK and ST still need Friday's clearance and the manager himself is defending on TWO fronts (FSG above, dressing room beside).",
+  pundit_sources: ["Al Jazeera", "ITV News", "Euronews", "Liverpool FC", "Liverpool.com", "This Is Anfield", "Empire of the Kop", "Anfield Index", "Sky Sports", "NBC Sports", "ESPN", "FOX Sports", "Goal.com", "GiveMeSport", "Sports Illustrated", "Per Second News", "RotoWire", "FootballTransfers", "Anfield Watch", "Football FanCast", "Caught Offside", "TeamTalk", "Premier League", "Football365", "Sports Mole", "SportBible", "JOE", "SportsJoe", "TalkSPORT", "TNT Sports", "beIN Sports", "Tribuna", "Yahoo Sports", "The Athletic", "VAVEL", "BBC Match of the Day"],
   agreement_rate: 0.7,
-  generated_at: "2026-05-19T11:00:00Z",
+  generated_at: "2026-05-20T10:30:00Z",
 };
