@@ -1,8 +1,8 @@
-import { useState, useMemo, useEffect, useRef } from "react";
+import { useState, useMemo, useEffect, useRef, Fragment } from "react";
 import _ from "lodash";
 import {
   PLAYERS, RSS_FEEDS, RESULTS, NEXT_MATCH,
-  NEWS_DIGEST, STANDINGS, DISPATCHES, TEAM_LOGOS,
+  NEWS_DIGEST, STANDINGS, STANDINGS_COMMENTARY, DISPATCHES, TEAM_LOGOS,
 } from "./playerData.js";
 import LineupView from "./LineupView.jsx";
 
@@ -1353,10 +1353,65 @@ function SquadView() {
 
 // ─── STANDINGS VIEW ────────────────────────────────────────────────────────
 
+// Color stripe for the left edge based on UCL/UEL/UECL/REL qualification.
+const QUAL_COLORS = {
+  UCL:  "#81D6AC", // green — Champions League
+  UEL:  "#FFB343", // amber — Europa
+  UECL: "#7FB6FF", // pale blue — Conference
+  REL:  "#E94B5C", // red — relegation
+};
+const QUAL_LABELS = {
+  UCL: "Champions League",
+  UEL: "Europa League",
+  UECL: "Conference League",
+  REL: "Relegation",
+};
+
 function StandingsView() {
+  const c = STANDINGS_COMMENTARY || {};
+  const teamNotes = c.teams || {};
+  const refreshedLabel = c.generatedAt
+    ? new Date(c.generatedAt).toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" })
+    : null;
+
   return (
     <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
-      <SectionHead title="Standings" meta={<>Premier League<br />after Round 37</>} />
+      <SectionHead
+        title="Standings"
+        meta={<>Premier League<br />after Round {c.matchweek ?? 37}{refreshedLabel ? <><br /><span style={{ color: T.ivoryFaint, fontSize: 11 }}>Refreshed {refreshedLabel}</span></> : null}</>}
+      />
+
+      {/* Overall commentary block */}
+      {c.overview && (
+        <div style={{
+          marginBottom: 36, padding: "24px 0",
+          borderTop: `1px solid ${T.rule}`, borderBottom: `1px solid ${T.rule}`,
+          display: "grid", gridTemplateColumns: "140px 1fr", gap: 32,
+        }} className="standings-commentary">
+          <div style={{
+            fontSize: 10, letterSpacing: "0.2em", textTransform: "uppercase",
+            color: T.ivoryFaint, fontFamily: T.sans, fontWeight: 600, paddingTop: 4,
+          }}>
+            The Table,<br />in Brief
+          </div>
+          <div style={{
+            fontFamily: T.serif, fontStyle: "italic", fontSize: 17, lineHeight: 1.55,
+            color: T.ivoryDim, textWrap: "pretty",
+          }}>
+            {c.overview}
+            {c.source && (
+              <div style={{
+                marginTop: 14, fontSize: 11, color: T.ivoryFaint,
+                fontFamily: T.sans, fontStyle: "normal",
+                letterSpacing: "0.15em", textTransform: "uppercase",
+              }}>
+                Source · {c.source}
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
       <div className="standings-wrap">
       <table style={{
         width: "100%", borderCollapse: "collapse",
@@ -1378,25 +1433,30 @@ function StandingsView() {
         <tbody>
           {STANDINGS.map((t, i) => {
             const lfc = t.highlight;
+            const qualColor = QUAL_COLORS[t.qualification];
+            const note = teamNotes[t.team];
+            const stripeColor = lfc ? T.red : qualColor;
             return (
-              <tr key={t.team} style={{ background: i % 2 === 1 ? "#F4EBD005" : "transparent" }}>
+              <Fragment key={t.team}>
+              <tr style={{ background: i % 2 === 1 ? "#F4EBD005" : "transparent" }}>
                 <td style={{
-                  position: "relative", padding: "18px 12px",
-                  borderBottom: `1px solid ${T.rule}`,
+                  position: "relative", padding: "16px 12px",
+                  borderBottom: note ? "none" : `1px solid ${T.rule}`,
                   fontFamily: T.serif, fontStyle: "italic",
                   color: T.ivoryDim, width: 56, fontSize: 14,
                 }}>
-                  {lfc && (
+                  {stripeColor && (
                     <span style={{
                       position: "absolute", left: -12, top: 0, bottom: 0,
-                      width: 3, background: T.red,
+                      width: 3, background: stripeColor,
                     }} />
                   )}
                   {String(t.pos).padStart(2, "0")}
                 </td>
                 <td style={{
-                  padding: "18px 12px", borderBottom: `1px solid ${T.rule}`,
-                  fontFamily: T.serif, fontWeight: 500, fontSize: 17,
+                  padding: "16px 12px",
+                  borderBottom: note ? "none" : `1px solid ${T.rule}`,
+                  fontFamily: T.serif, fontWeight: lfc ? 600 : 500, fontSize: 17,
                   color: T.ivory,
                 }}>
                   <span style={{ display: "inline-flex", alignItems: "center", gap: 12 }}>
@@ -1406,28 +1466,68 @@ function StandingsView() {
                 </td>
                 {[t.p, t.w, t.d, t.l, (t.gd > 0 ? "+" + t.gd : t.gd)].map((v, j) => (
                   <td key={j} style={{
-                    padding: "18px 12px", borderBottom: `1px solid ${T.rule}`,
+                    padding: "16px 12px",
+                    borderBottom: note ? "none" : `1px solid ${T.rule}`,
                     textAlign: "right", fontSize: 14, color: T.ivory,
                     fontFamily: T.sans,
                   }}>{v}</td>
                 ))}
                 <td style={{
-                  padding: "18px 12px", borderBottom: `1px solid ${T.rule}`,
+                  padding: "16px 12px",
+                  borderBottom: note ? "none" : `1px solid ${T.rule}`,
                   textAlign: "right",
                   fontFamily: T.serif, fontWeight: 600, fontSize: 18, color: T.ivory,
                 }}>{t.pts}</td>
               </tr>
+              {note && (
+                <tr style={{ background: i % 2 === 1 ? "#F4EBD005" : "transparent" }}>
+                  <td style={{
+                    padding: "0 12px 14px",
+                    borderBottom: `1px solid ${T.rule}`,
+                    position: "relative",
+                  }}>
+                    {stripeColor && (
+                      <span style={{
+                        position: "absolute", left: -12, top: -16, bottom: 0,
+                        width: 3, background: stripeColor,
+                      }} />
+                    )}
+                  </td>
+                  <td colSpan={7} style={{
+                    padding: "0 12px 14px",
+                    borderBottom: `1px solid ${T.rule}`,
+                    fontFamily: T.serif, fontStyle: "italic",
+                    fontSize: 13, color: lfc ? T.ivory : T.ivoryDim,
+                    lineHeight: 1.5,
+                    maxWidth: 800,
+                  }}>
+                    — {note}
+                  </td>
+                </tr>
+              )}
+              </Fragment>
             );
           })}
         </tbody>
       </table>
       </div>
+
+      {/* Legend */}
       <div style={{
-        display: "flex", gap: 24, marginTop: 24,
-        fontSize: 13, color: T.ivoryDim,
-        fontFamily: T.serif, fontStyle: "italic",
+        display: "flex", flexWrap: "wrap", gap: 18, marginTop: 24,
+        fontSize: 12, color: T.ivoryDim,
+        fontFamily: T.sans, fontWeight: 500,
       }}>
-        <span><span style={{ color: T.red, marginRight: 8 }}>—</span>Top five qualify for the Champions League · Liverpool 96.92% per Opta</span>
+        {Object.entries(QUAL_LABELS).map(([k, lbl]) => (
+          <span key={k} style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
+            <span style={{ width: 3, height: 12, background: QUAL_COLORS[k] }} />
+            {lbl}
+          </span>
+        ))}
+        <span style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
+          <span style={{ width: 3, height: 12, background: T.red }} />
+          Liverpool
+        </span>
       </div>
     </section>
   );

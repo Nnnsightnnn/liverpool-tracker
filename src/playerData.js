@@ -370,20 +370,65 @@ export const RESULTS = [
   { date: "2026-01-08", opponent: "Arsenal",      home: false, score: "0-0", competition: "PL",   result: "D", scorers: "" },
 ];
 
-// ─── Premier League Standings (after MW37 — Fri May 15 Villa 4-2 Liverpool) ──
-// Liverpool drop to 5th after last night's 4-2 defeat at Villa Park; Villa
-// clinch a Champions League spot and leapfrog the Reds. Other rows held at
-// their pre-MW37 positions pending the rest of the round.
+// ─── Premier League Standings (LIVE — sourced from ESPN site.api) ──────────
+// Fetched daily by the liverpool-tracker-update skill from:
+//   http://site.api.espn.com/apis/v2/sports/soccer/eng.1/standings
+// `qualification` is derived from ESPN's note.description field:
+//   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
+//   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
+// Last refresh: 2026-05-20 — full 20-team table after MW37.
 export const STANDINGS = [
-  { pos: 1, team: "Arsenal",         p: 36, w: 25, d: 6, l: 5,  gd: 47, pts: 81 },
-  { pos: 2, team: "Manchester City", p: 36, w: 22, d: 8, l: 6,  gd: 38, pts: 74 },
-  { pos: 3, team: "Newcastle",       p: 36, w: 20, d: 7, l: 9,  gd: 23, pts: 67 },
-  { pos: 4, team: "Aston Villa",     p: 37, w: 20, d: 8, l: 9,  gd: 20, pts: 68 },
-  { pos: 5, team: "Liverpool",       p: 37, w: 19, d: 8, l: 10, gd: 19, pts: 65, highlight: true },
-  { pos: 6, team: "Chelsea",         p: 36, w: 17, d: 10, l: 9, gd: 11, pts: 61 },
-  { pos: 7, team: "Bournemouth",     p: 36, w: 17, d: 10, l: 9, gd: 9,  pts: 61 },
-  { pos: 8, team: "Tottenham",       p: 36, w: 17, d: 7, l: 12, gd: 7,  pts: 58 },
+  { pos: 1, team: "Arsenal", p: 37, w: 25, d: 7, l: 5, gd: 43, pts: 82, qualification: "UCL" },
+  { pos: 2, team: "Manchester City", p: 37, w: 23, d: 9, l: 5, gd: 43, pts: 78, qualification: "UCL" },
+  { pos: 3, team: "Manchester United", p: 37, w: 19, d: 11, l: 7, gd: 16, pts: 68, qualification: "UCL" },
+  { pos: 4, team: "Aston Villa", p: 37, w: 18, d: 8, l: 11, gd: 6, pts: 62, qualification: "UCL" },
+  { pos: 5, team: "Liverpool", p: 37, w: 17, d: 8, l: 12, gd: 10, pts: 59, qualification: "UCL", highlight: true },
+  { pos: 6, team: "Bournemouth", p: 37, w: 13, d: 17, l: 7, gd: 4, pts: 56, qualification: "UEL" },
+  { pos: 7, team: "Brighton", p: 37, w: 14, d: 11, l: 12, gd: 9, pts: 53, qualification: "UECL" },
+  { pos: 8, team: "Chelsea", p: 37, w: 14, d: 10, l: 13, gd: 7, pts: 52 },
+  { pos: 9, team: "Brentford", p: 37, w: 14, d: 10, l: 13, gd: 3, pts: 52 },
+  { pos: 10, team: "Sunderland", p: 37, w: 13, d: 12, l: 12, gd: -7, pts: 51 },
+  { pos: 11, team: "Newcastle", p: 37, w: 14, d: 7, l: 16, gd: 0, pts: 49 },
+  { pos: 12, team: "Everton", p: 37, w: 13, d: 10, l: 14, gd: -2, pts: 49 },
+  { pos: 13, team: "Fulham", p: 37, w: 14, d: 7, l: 16, gd: -6, pts: 49 },
+  { pos: 14, team: "Leeds", p: 37, w: 11, d: 14, l: 12, gd: -4, pts: 47 },
+  { pos: 15, team: "Crystal Palace", p: 37, w: 11, d: 12, l: 14, gd: -9, pts: 45 },
+  { pos: 16, team: "Nott'm Forest", p: 37, w: 11, d: 10, l: 16, gd: -3, pts: 43 },
+  { pos: 17, team: "Tottenham", p: 37, w: 9, d: 11, l: 17, gd: -10, pts: 38 },
+  { pos: 18, team: "West Ham", p: 37, w: 9, d: 9, l: 19, gd: -22, pts: 36, qualification: "REL" },
+  { pos: 19, team: "Burnley", p: 37, w: 4, d: 9, l: 24, gd: -37, pts: 21, qualification: "REL" },
+  { pos: 20, team: "Wolves", p: 37, w: 3, d: 10, l: 24, gd: -41, pts: 19, qualification: "REL" },
 ];
+
+// ─── Standings Commentary (refreshed alongside STANDINGS by the skill) ─────
+// Hand-written by the skill on each daily run. `overview` is a 3-5 sentence
+// paragraph that frames the table as a whole; `teams` is keyed by team name
+// (matching STANDINGS[].team) and holds an optional one-line note per row.
+// Only Liverpool + the most newsworthy rows need a note — empty teams render
+// nothing beneath their row.
+export const STANDINGS_COMMENTARY = {
+  source: "ESPN",
+  sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
+  matchweek: 37,
+  generatedAt: "2026-05-20T10:30:00Z",
+  overview:
+    "Arsenal lift the title for the first time in 22 years — Tuesday night's 1-1 draw with Bournemouth at the Vitality was the result that confirmed it, with second-placed Manchester City unable to close a four-point gap with one match to play. Liverpool sit fifth on 59 points, three clear of Bournemouth and effectively safe in the top five (and the UCL spot that comes with it) before Sunday's Brentford finale. Aston Villa's 4-2 win over the Reds five days back is what put Unai Emery's side fourth on 62, with the European-football line now drawn between sixth (Bournemouth, Europa League) and seventh (Brighton, Conference League). Sunderland's promotion-debut campaign is in tenth, ahead of Newcastle and Everton on goal difference. Burnley and Wolves are already down; West Ham's final-day fixture decides the third relegation place.",
+  teams: {
+    "Arsenal": "Champions for the first time since 2003-04 — confirmed Tue night by Bournemouth's 1-1 draw with Man City.",
+    "Manchester City": "Pep's gap to Arsenal stayed at four with one to play; Haaland's 90+5 against Bournemouth a consolation, not a rescue.",
+    "Manchester United": "Quietly the season's third-best team — 68 points and a +16 GD secures UCL football and pressure off Amorim.",
+    "Aston Villa": "Friday's 4-2 win over Liverpool at Villa Park was the result that confirmed top four — Watkins's brace effectively booked Champions League.",
+    "Liverpool": "Fifth on 59 pts with one to play — top five (and the UCL spot) essentially sealed by Bournemouth's draw last night. Brentford finale Sunday is the farewell occasion, not a survival fixture.",
+    "Bournemouth": "Sixth and Europa-League-bound after Iraola's overachieving season; the Vitality 1-1 also confirmed Arsenal as champions.",
+    "Brighton": "Conference League play-off via seventh — De Zerbi's successor (Hürzeler) keeps Brighton in Europe for a third straight year.",
+    "Chelsea": "Eighth and out of Europe — Maresca's first season ends below pre-season expectations; Xabi Alonso arrives July 1.",
+    "Brentford": "Trip to Anfield Sunday is mid-table dead-rubber for them; Salah-and-Robertson farewell for the hosts.",
+    "Tottenham": "Seventeenth — Spurs's worst Premier League finish since 2003-04 and the structural reason Postecoglou won't see year three.",
+    "West Ham": "Eighteenth and one defeat from the drop — final-day at home to Forest now a relegation play-off in everything but name.",
+    "Burnley": "Relegated weeks ago; only Wolves stop them being the league's worst team.",
+    "Wolves": "Bottom on 19 points — the worst Premier League season any side has had since Derby's 2007-08.",
+  },
+};
 
 // ─── Dispatches (hand-curated long reads — separate from the wire feed) ────
 export const DISPATCHES = [
