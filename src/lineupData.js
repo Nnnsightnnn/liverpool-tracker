@@ -20,11 +20,12 @@ export const FORMATIONS = {
       RW:  { x: 82, y: 22, role: "FWD" },
     },
     // IDs from playerData.js — PREDICTED 4-3-3 read for the Brentford home
-    // finale on Sun May 24 (must-win for Champions League after last night's
-    // 4-2 Villa Park defeat). Salah expected to start (Anfield farewell), Isak
-    // back in if fit (fourth absence of the season per Slot Friday). 4-3-3 is
-    // a backup look — Slot's been preferring 4-2-3-1 of late but a return to
-    // 4-3-3 for a home must-win is plausible.
+    // finale on Sun May 24. Top-five is essentially sealed after Bournemouth's
+    // 1-1 draw with Man City overnight Tue (Cherries on 62 to Liverpool's 65
+    // with one each to play). Salah expected to start (Anfield farewell), Isak
+    // back in if fit (back in full training Wed). 4-3-3 is a backup look —
+    // Slot's been preferring 4-2-3-1 of late, but a return to 4-3-3 for a
+    // home farewell occasion is plausible.
     defaultXI: {
       GK: 1,    // Alisson (projected return for the finale per Liverpool.com)
       LB: 7,    // Kerkez (first-pick LB · Robertson farewell on bench)
@@ -55,14 +56,15 @@ export const FORMATIONS = {
       RAM: { x: 78, y: 36, role: "MID" },
       ST:  { x: 50, y: 14, role: "FWD" },
     },
-    // PREDICTED 4-2-3-1 for the Brentford home finale on Sun May 24
-    // (must-win for Champions League after last night's 4-2 Villa Park
-    // defeat). Slot has favored 4-2-3-1 in recent matches and is likely to
-    // stick with it for a home must-win. Salah expected to start his Anfield
-    // farewell, Wirtz returns from antibiotics, Isak back if fit. Frimpong
-    // and Alisson both targeted to return per Slot's Friday-night line.
+    // PREDICTED 4-2-3-1 for the Brentford home finale on Sun May 24. Top-five
+    // is essentially sealed after Bournemouth 1-1 Man City overnight Tue (62
+    // vs Liverpool's 65 with one each to play). Slot has favored 4-2-3-1 in
+    // recent matches and is likely to stick with it for the home farewell.
+    // Salah expected to start his Anfield farewell, Wirtz returns from
+    // antibiotics, Isak back in full training Wed. Frimpong and Alisson both
+    // back in full training Wed per the club's official tracker.
     defaultXI: {
-      GK: 1,    // Alisson (projected return · Slot Fri: 'see if he's ready')
+      GK: 1,    // Alisson (full training Wed · Slot 'hopeful')
       LB: 7,    // Kerkez (first-pick LB · Robertson on bench for farewell)
       LCB: 3,   // Van Dijk (captain · scored 2 vs Villa)
       RCB: 4,   // Konaté (locked in alongside VVD)
@@ -92,11 +94,11 @@ export const FORMATIONS = {
       RW:  { x: 78, y: 22, role: "FWD" },
     },
     // Hypothetical 3-4-3 alternative for the Brentford home finale. Slot is
-    // unlikely to deploy a three at the back for a home must-win, but if he
-    // wants extra defensive cover behind a Salah-led front three this is the
-    // shape that fits: VVD/Konaté/Gomez at the back, Kerkez and Frimpong as
-    // wing-backs, Gravenberch + Mac Allister in midfield, Gakpo-Isak-Salah
-    // up top. Default is 4-2-3-1 above.
+    // unlikely to deploy a three at the back for a home farewell occasion,
+    // but if he wants extra defensive cover behind a Salah-led front three
+    // this is the shape that fits: VVD/Konaté/Gomez at the back, Kerkez and
+    // Frimpong as wing-backs, Gravenberch + Mac Allister in midfield,
+    // Gakpo-Isak-Salah up top. Default is 4-2-3-1 above.
     defaultXI: {
       GK: 1,    // Alisson (projected return)
       LCB: 5,   // Gomez (slots into the back three)

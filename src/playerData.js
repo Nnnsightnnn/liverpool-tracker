@@ -490,6 +490,12 @@ export const NEWS_DIGEST = {
       category: "general",
     },
     {
+      title: "Gerrard On TNT: Salah Statement Is 'Damning' For Slot — 'Identity's Gone' (TNT Sports / Tribuna / This Is Anfield, broke Sun May 17, holds Wed)",
+      detail:
+        "Steven Gerrard's TNT Sports verdict still leads the punditry stack into Wed: 'that's quite damning to the manager' (Tribuna's Sunday-night carry); 'identity's gone' (This Is Anfield). Wednesday morning columnists across UK and US wires lean on the Gerrard line to frame Slot's predicament. Unlike his Saturday 'this isn't the way' caveat about Salah, Sunday-night Gerrard pivoted from criticising the player to backing the player's diagnosis of the team.",
+      category: "tactics",
+    },
+    {
       title: "Chelsea Confirm Xabi Alonso As New Manager On Four-Year Deal — Liverpool's Plan B Gone (Al Jazeera / ITV / Euronews / Liverpool.com, confirmed Sun May 17)",
       detail:
         "Sunday's announcement still rippling: Chelsea have appointed Xabi Alonso as their new manager on a four-year contract starting July 1. Liverpool.com Monday read — 'Why Xabi Alonso turned down Liverpool' — explained the call: Alonso's camp wanted certainty NOW, FSG would not move on Slot in-season, and BlueCo offered four years plus full footballing control. The most-named Slot Plan B is off the board four days from the Brentford finale.",
