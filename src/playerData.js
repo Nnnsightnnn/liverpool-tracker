@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "recovering", outSince: "2026-03-19", injuryNote: "Wed May 20 — Liverpool FC official Wed-morning fitness tracker has the Brazilian back in FULL training at Kirkby after stepping up Tuesday; Slot 'hopeful' for the Sun May 24 finale after 11 straight games out. Schira's Thursday line — 'agreed €15m deal' to Juventus on €5m-a-year personal terms — holds into Wed alongside Sky Sports' fresh Lucas Chevalier scouting line. Brentford could be his Anfield send-off if he passes Friday's fitness check", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "doubtful", outSince: "2026-03-19", injuryNote: "Thu May 21 — back in full training at Kirkby and in line for an Anfield send-off against Brentford on Sun May 24 after roughly three months out (last played mid-March). Slot: 'Alisson trains with us again, let's see where he is tomorrow.' Schira's line that the Brazilian has 'agreed a €15m deal' to join Juventus on €5m-a-year personal terms still holds — Sunday could be his Liverpool farewell", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -93,7 +93,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "doubtful", injuryNote: "Wed May 20 — Liverpool FC's Wed-morning fitness tracker has the Dutchman back in FULL training at Kirkby; 'minor injury' from Villa Park absence considered cleared in time for the Sun May 24 finale. Liked Salah's anti-Slot post Saturday — among the original SportBible nine, expanded to 17 endorsers Monday and unchanged into Wed", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "doubtful", injuryNote: "Thu May 21 — back in training after the 'minor injury' that kept him out at Villa Park; in line to return for the Sun May 24 Brentford finale. Liked Salah's anti-Slot Instagram post — among the squad members flagged in Caught Offside's tally of endorsers", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 38, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Wed May 20 — Football365/TeamTalk lead Wed AM with confirmation FSG have performed a U-turn and are 'discussing' four Slot replacements, with Graeme Bailey reporting Salah's outburst 'triggered' the rethink. Rooney's Sun 'I'd bench him' line still echoes; Caught Offside's 17-endorser tally from Mon holds. With top-five all but secured by last night's Bournemouth-City draw, Brentford May 24 farewell becomes tribute + manager-vs-talisman tableau", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 38, goals: 10, assists: 9, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Thu May 21 — fit and set to start his Anfield farewell against Brentford on Sun May 24. In a fresh statement the Egyptian vowed to 'give everything' to secure Champions League qualification, calling it 'the bare minimum'. His weekend outburst is credited with hardening FSG's rethink on Slot, with a 'world-class' replacement (Luis Enrique the bookies' favourite) now linked. Salah is reported 'open to joining Fenerbahce' once he leaves as a free agent", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -230,7 +230,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 18, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "doubtful", outSince: "2026-05-15", injuryNote: "Wed May 20 — Liverpool FC official Wed-morning tracker has the Swede back in FULL training at Kirkby after stepping up Tue; Slot 'hopeful' for the Sun May 24 home finale after Friday's late 'minor injury' (cited missed pre-season + broken-leg recovery). If not cleared at Slot's Friday presser, 17-year-old Rio Ngumoha — who led the line at Villa — starts again", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 18, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "doubtful", outSince: "2026-05-15", injuryNote: "Thu May 21 — back in training after the 'minor injury' that ruled him out at Villa Park; Slot says the Swede 'definitely has a chance' to feature against Brentford on Sun May 24 but offers no guarantees with him being managed carefully after a disrupted season. If not cleared at Friday's presser, 17-year-old Rio Ngumoha — who led the line at Villa — starts again", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -476,124 +476,104 @@ export const DISPATCHES = [
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-05-20T10:30:00Z",
+  generatedAt: "2026-05-21T08:30:00Z",
   summary:
-    "Wednesday morning, Anfield: the overnight news is overwhelmingly positive — Bournemouth could only draw 1-1 with Manchester City at the Vitality on Tuesday night (Kroupi 39', Haaland 90+5'), leaving the Cherries on 62 points with one to play and Liverpool's 65 essentially locked into the top five before a ball is kicked Sunday. Arsenal were confirmed champions by the same result. Underneath that breath of relief sits the harder Wed-AM story: Football365 and TeamTalk lead with a confirmed FSG 'U-turn' — the owners are now 'discussing' four Slot replacements (Iraola, Nagelsmann, Hoeness, Jaissle), with Antonio Conte's abrupt Napoli exit overnight Tuesday adding a fifth name. Fabrizio Romano holds the line: no sack before the Brentford finale, but a review thereafter. Slot remains 'hopeful' on Alisson, Isak and Frimpong, all back in full training at Kirkby this morning; team news firms at Friday's presser. Yesterday's Tuesday adidas 2026-27 kit launch has receded; Mark Schwarzer on Match of the Day overnight — 'things are not right at the club' — leads Wed's punditry stack.",
+    "Thursday morning, Anfield, three days from the Salah and Robertson farewell: the headline number this morning is 99.65% — Opta's updated odds on Liverpool finishing in the Champions League places, with a single point at home to Brentford on Sunday enough to make it certain after Tuesday's Bournemouth-City draw. The bigger ongoing story remains Arne Slot's future: Wednesday-into-Thursday wires have FSG with a 'world-class boss lined up' and ready to 'pounce', Luis Enrique installed as the bookies' favourite ahead of Andoni Iraola and Sebastian Hoeness, while Antonio Conte's abrupt Napoli exit adds another name (with a back-three caveat) to the shortlist. Mohamed Salah has issued a fresh statement vowing to 'give everything' for Champions League qualification, and the club has confirmed pre-match tributes for the two departing nine-year servants. On fitness, Alisson is back in full training and in line for an Anfield send-off, while Slot says Isak 'definitely has a chance' for Sunday without guaranteeing it. Steve Nicol's blast at Salah's timing — 'he doesn't have the class' — leads Thursday's punditry stack.",
   keyTopics: [
     {
-      title: "OVERNIGHT: Bournemouth 1-1 Man City At The Vitality — Liverpool's Top Five Essentially Sealed (ESPN / Sky Sports / VAVEL, broke late Tue May 19 / leads Wed AM)",
+      title: "Champions League Math: Opta Now Has Liverpool At 99.65% — A Point vs Brentford Seals It (Liverpool.com / Heavy Sport, updated Wed-Thu May 20-21)",
       detail:
-        "Reported overnight Tuesday into Wednesday: Junior Kroupi's 39th-minute opener for Bournemouth was matched only in the 90+5 by Erling Haaland — the 1-1 draw confirms Arsenal as Premier League champions for the first time in 22 years AND, critically for Liverpool, leaves Bournemouth on 62 points with one game remaining. Liverpool sit on 65 with their own match to come; the Cherries can match but not pass that total, and Liverpool's far superior goal difference is the only other lever. Sky Sports' Wed AM line: 'top five is essentially Liverpool's to lose now.'",
+        "Carried into Thursday's coverage: after Tuesday's Bournemouth 1-1 Manchester City draw left the Reds three points clear of the Cherries with one game to play, Opta's model now gives Liverpool a 99.65% chance of a top-five finish and the Champions League place that comes with it, against Bournemouth's 0.35%. A draw or win at home to Brentford on Sunday guarantees it regardless of other results; only a Liverpool defeat combined with a heavy Bournemouth win could even open a play-off scenario.",
       category: "matches",
     },
     {
-      title: "BREAKING WED AM: FSG 'U-Turn' Confirmed — Liverpool Now 'Discussing' Four Slot Replacements (Football365 / TeamTalk / Yahoo Sports, broke Tue PM, leads Wed)",
+      title: "'World-Class Boss Lined Up' To Replace Slot As Talks Loom — Luis Enrique The Bookies' Favourite (Football365 / Liverpool.com / Anfield Watch, broke Wed, leads Thu May 21)",
       detail:
-        "Reported overnight by Graeme Bailey and amplified across TeamTalk and Yahoo Wed morning: Fenway Sports Group have performed a U-turn on Slot's future and are 'discussing' four potential replacements (Iraola, Nagelsmann, Hoeness, Jaissle). Salah's weekend outburst is described as having 'triggered' the rethink; FSG executives Michael Edwards and Richard Hughes are reportedly 'divided.' Fabrizio Romano's Wed AM line holds: no sack before the Brentford finale on Sunday, but a 'review thereafter, which will be important.'",
+        "Reported Wednesday and leading Thursday's wires: with the situation around Slot 'escalating at a pace', FSG are said to have a 'world-class' replacement lined up and to be ready to 'pounce' after the Brentford finale. Luis Enrique has been installed as the bookmakers' favourite for the job ahead of Andoni Iraola and Sebastian Hoeness; sporting director Richard Hughes and CEO Michael Edwards reportedly have 'serious thinking and talking to do'. Salah's weekend comments are described as having 'hit home in a massive way'.",
       category: "tactics",
     },
     {
-      title: "Conte Enters Slot-Replacement Frame After Abrupt Napoli Exit (Liverpool.com / This Is Anfield, broke overnight Tue, leads Wed AM)",
+      title: "Conte Enters The Slot-Replacement Frame After Abrupt Napoli Exit — With A Catch (Liverpool.com / Yahoo Sports, broke Wed, develops Thu May 21)",
       detail:
-        "Reported overnight Tuesday: Antonio Conte will leave Napoli at the end of the campaign, cutting short his contract. Wed AM Liverpool.com adds him to FSG's discussed shortlist as a fifth name alongside Iraola, Nagelsmann, Hoeness and Jaissle. Conte has previously been linked with the Anfield job and brings serial Italian title-winning credentials, though his squad-management style runs against the FSG profile.",
+        "Reported overnight Wednesday and still moving Thursday: Antonio Conte's abrupt Napoli departure makes him one of the most experienced coaches on the market and a name now linked with Liverpool. Liverpool.com flags the catch — Conte's trademark back three doesn't suit the current squad, and the vacant Italy job (which cannot be filled until June 22) is also calling — meaning Conte realistically only enters the picture if things deteriorate fast with Slot before a preferred candidate is secured.",
       category: "general",
     },
     {
-      title: "Pre-Brentford Fitness Tracker (Wed): Alisson, Isak And Frimpong All Back In Full Training (Liverpool FC / Liverpool.com, today Wed May 20)",
+      title: "Club Confirms Salah & Robertson Farewell Tributes — Salah Vows To 'Give Everything' For The Champions League (Liverpool FC / Liverpool.com, confirmed Thu May 21)",
       detail:
-        "The club's official Wednesday-morning tracker has Slot 'hopeful' on all three Villa Park absentees: Alisson Becker (11 straight games out, in full training from Wed morning), Alexander Isak (Friday's 'minor injury' considered cleared) and Jeremie Frimpong (also a 'minor issue'). All three were spotted at Kirkby this morning per the club. Team news firms at Slot's Friday presser; Ngumoha leads the line again if Isak doesn't clear, Mamardashvili keeps the gloves until Alisson is signed off.",
+        "Confirmed this week and firmed up Thursday: Liverpool will stage pre-match tributes for the departing Mohamed Salah and Andy Robertson before Sunday's Brentford finale, closing nine-year Anfield tenures. In a fresh statement Salah said he will 'give everything' to help Liverpool secure Champions League qualification — calling it 'the bare minimum' — while reiterating the call for a return to a fearless 'heavy metal' attacking identity that ran through his weekend post.",
+      category: "general",
+    },
+    {
+      title: "Fitness Update: Alisson Back In Training And In Line For An Anfield Send-Off; Isak 'Definitely Has A Chance' (Liverpool FC / Liverpool.com, updated Wed-Thu May 20-21)",
+      detail:
+        "The club's injury picture as of Thursday: Alisson Becker is back in full training after roughly three months out and is in line for a farewell appearance against Brentford — Slot's line, 'let's see where he is tomorrow.' Alexander Isak, absent at Villa Park with a minor injury, 'definitely has a chance' to return Sunday per Slot, though the Swede is being managed carefully and there are no guarantees. Frimpong is also back in training; Ekitike, Bradley, Leoni, Endo and Bajcetic remain out.",
       category: "injuries",
     },
     {
-      title: "Schwarzer On Match Of The Day: 'Things Are Not Right At The Club' (BBC MOTD / Liverpool.com / Per Second News, broke late Tue, leads Wed AM)",
+      title: "Steve Nicol Furious With Salah's Statement: 'He Doesn't Have The Class' (ESPN / Read Liverpool FC, broke Thu May 21)",
       detail:
-        "Overnight from BBC Match of the Day: former Premier League keeper Mark Schwarzer added to the pundit chorus questioning the dressing room. 'It just shows you things are not right at the club,' Schwarzer said of the Salah ultimatum. Wed AM Liverpool.com adds it to a stack that already includes Gerrard ('damning … identity's gone'), Carragher ('signs of a man buckling') and Murphy ('his time is up') — the most coherent pundit-class verdict on Slot since the Villa Park defeat.",
-      category: "tactics",
+        "Leading Thursday's punditry reaction: former Liverpool defender Steve Nicol blasted the timing of Mohamed Salah's social-media outburst days before his Anfield farewell, saying the Egyptian 'doesn't have the class' to air the criticism publicly on his way out of the club. The intervention splits the pundit class — set against Steven Gerrard's reading of the post as a legitimate diagnosis of a lost dressing-room identity.",
+      category: "general",
     },
     {
-      title: "Liverpool 'Most Interested' In PSG's Lucas Chevalier As Alisson Heir (Sky Sports / The Athletic, broke Tue PM, holds Wed)",
+      title: "Transfer: Liverpool 'Red-Hot' On Bradley Barcola — PSG Winger 'Strongly Tempted' (Liverpool.com / Sky Sports, reported Wed-Thu May 20-21)",
       detail:
-        "Sky Sports Tuesday evening, carried into Wed AM transfer round-ups: Liverpool are 'most interested' in PSG's 24-year-old keeper Lucas Chevalier, described as 'long monitored' by Liverpool scouts. The story sits alongside Schira's still-active Juventus-Alisson €15m / €5m-a-year personal-terms line and reinforces that the Mamardashvili era is set to formalise this summer regardless.",
+        "Moving through Wednesday and Thursday's transfer wires: Liverpool are described as 'red-hot' on PSG's Bradley Barcola, with the France winger said to be 'strongly tempted' by a move to Anfield after slipping down the Paris pecking order behind Khvicha Kvaratskhelia and Désiré Doué. The pursuit sits alongside Liverpool's wider hunt for wide reinforcements as they plan for life after Salah.",
       category: "transfers",
     },
     {
-      title: "YESTERDAY: adidas 2026-27 Home Kit Dropped 9am BST — 1989-90 Tribute, Green Heritage Keeper Set (Liverpool FC / This Is Anfield / Liverpool.com, dropped Tue May 19)",
+      title: "Transfer: Yan Diomande Confirms He Plans To Stay At RB Leipzig (Liverpool.com / This Is Anfield, reported Wed May 20)",
       detail:
-        "Tuesday morning's release, already receding from Wed's news stack: adidas's 2026-27 home kit, an explicit homage to the 1989-90 title-winning strip with the geometric pattern restored, deep-red shorts and socks, and a green goalkeeper kit. On sale via the LFC Store app, online and in stores. Liverpool FC official: 'inspired by an iconic title-winning season.' For one news cycle it was the most-shared Liverpool story; by Wed AM it sits beneath the FSG and finale headlines.",
+        "Reported Wednesday: RB Leipzig winger Yan Diomande, long linked with Liverpool as a possible Salah-area signing, has confirmed he plans to stay in Germany next season. Leipzig would still listen to a big-enough summer offer, but the player's stated intent cools one of Liverpool's most-cited wide-forward targets and pushes focus toward alternatives such as Barcola.",
+      category: "transfers",
+    },
+    {
+      title: "Gerrard's 'Damning' Verdict On Salah's Statement — 'The Identity's Gone' (TNT Sports / Liverpool.com / This Is Anfield, broke Sun May 17, holds Thu)",
+      detail:
+        "Steven Gerrard's reading of Salah's post — that it is 'damning' for Slot and a sign 'the identity's gone' from the dressing room — broke Sunday and still anchors Thursday's columns. Gerrard, who said he was left 'hurt' watching the Villa defeat, questioned whether Salah speaks for himself or the wider squad. Separately, the Liverpool icon — out of work for 15 months — has been linked with the vacant Burnley job for 2026-27.",
       category: "general",
     },
     {
-      title: "Rooney's Sunday Verdict Still Echoing: 'I'd Bench Salah' For The Anfield Farewell (SportBible / This Is Anfield, broke Sun May 17, runs through Wed)",
+      title: "adidas 2026-27 Home Kit Unveiled — A 1989-90 Title Tribute With Green Heritage Keeper Set (Liverpool FC / This Is Anfield, dropped Tue May 19)",
       detail:
-        "Wayne Rooney's Stick To Football line told Slot to drop Mohamed Salah for Sunday's Anfield farewell — 'I'd be putting him on the bench.' SportBible carries the full quotes; This Is Anfield treats it as an outside intervention adding pressure to the manager-vs-talisman tableau. Wednesday's selection-debate columns still lean on the line. Selection still expected to favour Salah starting in front of the Kop.",
+        "Released Tuesday and still circulating: adidas's 2026-27 Liverpool home kit, an explicit homage to the 1989-90 title-winning strip with the geometric pattern restored, deep-red shorts and socks, and a green 'heritage' goalkeeper kit. Liverpool FC's line: 'inspired by an iconic title-winning season.' On sale now via the LFC Store, online and in stores.",
+      category: "transfers",
+    },
+    {
+      title: "Chelsea Confirm Xabi Alonso As Manager On A Four-Year Deal — Liverpool's Plan B Gone (Al Jazeera / ITV News / Liverpool.com, confirmed Sun May 17)",
+      detail:
+        "Sunday's announcement still shapes the Slot saga: Chelsea appointed Xabi Alonso on a four-year contract from July 1. Liverpool.com's read — 'Why Xabi Alonso turned down Liverpool' — explained that Alonso's camp wanted certainty immediately while FSG would not move on Slot in-season. The most-named Slot 'Plan B' is off the board, which is why the FSG shortlist has widened to Iraola, Hoeness, Nagelsmann, Jaissle and now Conte and Luis Enrique.",
+      category: "general",
+    },
+    {
+      title: "Aston Villa 4-2 Liverpool — Watkins Brace And A Set-Piece Collapse Dropped The Reds To 5th (Sky Sports / ESPN / NBC Sports, broke Fri May 15)",
+      detail:
+        "The defeat behind every headline of the past week: at Villa Park on Friday May 15, Morgan Rogers (43'), Ollie Watkins (57', 73') and John McGinn struck as three of Villa's four goals came from set pieces. Van Dijk replied with two headers (52', 90+) but Liverpool's 12th league loss of the season dropped Slot's side from 4th to 5th. The Brentford home finale on Sunday May 24 is the season's last 90 minutes.",
       category: "tactics",
-    },
-    {
-      title: "Caught Offside: 17 Past And Present Liverpool Players Have Liked Salah's Anti-Slot Post (Caught Offside / SI / beIN Sports, expanded Mon May 18, holds Wed)",
-      detail:
-        "Monday's Caught Offside tally — 17 past and present Liverpool players liking Salah's Saturday-evening anti-Slot Instagram post — is still unchanged on Wednesday. The original SportBible nine (Szoboszlai, Robertson, Kerkez, Ekitike, Endo, Leoni, Frimpong, Ramsay, Elliott) joined Monday by Konaté, Wirtz and Gakpo, plus ex-Reds including Trent Alexander-Arnold. SI's framing — 'a brutal swipe that pits players, fans, and legends against each other' — still leads social-media chatter.",
-      category: "general",
-    },
-    {
-      title: "Gerrard On TNT: Salah Statement Is 'Damning' For Slot — 'Identity's Gone' (TNT Sports / Tribuna / This Is Anfield, broke Sun May 17, holds Wed)",
-      detail:
-        "Steven Gerrard's TNT Sports verdict still leads the punditry stack into Wed: 'that's quite damning to the manager' (Tribuna's Sunday-night carry); 'identity's gone' (This Is Anfield). Wednesday morning columnists across UK and US wires lean on the Gerrard line to frame Slot's predicament. Unlike his Saturday 'this isn't the way' caveat about Salah, Sunday-night Gerrard pivoted from criticising the player to backing the player's diagnosis of the team.",
-      category: "tactics",
-    },
-    {
-      title: "Chelsea Confirm Xabi Alonso As New Manager On Four-Year Deal — Liverpool's Plan B Gone (Al Jazeera / ITV / Euronews / Liverpool.com, confirmed Sun May 17)",
-      detail:
-        "Sunday's announcement still rippling: Chelsea have appointed Xabi Alonso as their new manager on a four-year contract starting July 1. Liverpool.com Monday read — 'Why Xabi Alonso turned down Liverpool' — explained the call: Alonso's camp wanted certainty NOW, FSG would not move on Slot in-season, and BlueCo offered four years plus full footballing control. The most-named Slot Plan B is off the board four days from the Brentford finale.",
-      category: "general",
-    },
-    {
-      title: "Salah's Anti-Slot Instagram BOMBSHELL — Calls For Return To Klopp's 'Heavy Metal Football' (Liverpool.com / This Is Anfield / Goal.com, broke Sat May 16)",
-      detail:
-        "Posted Saturday evening after the 4-2 Villa Park defeat: a lengthy statement from Mohamed Salah, days from his Anfield farewell, declaring 'I want to see Liverpool go back to being the heavy metal attacking team that opponents fear and back to being a team that wins trophies.' The phrase 'heavy metal football' is synonymous with Jürgen Klopp; the post takes direct aim at Slot's style. beIN Sports Sunday: Salah doubled down with a second post. The manager-vs-talisman frame for Sunday's farewell continues to harden.",
-      category: "general",
-    },
-    {
-      title: "Aston Villa 4-2 Liverpool — Watkins Brace Drops Reds To 5th (Sky Sports / ESPN / NBC Sports, broke Fri May 15)",
-      detail:
-        "Friday's defeat at Villa Park, five days back and still the structural cause of every Wed headline: Morgan Rogers 43' off a Digne short-corner, Watkins 57' (open play, off a Szoboszlai turnover) and 73' (reacting to a Pau Torres header), John McGinn from outside the box for the fourth. Three of four came from set pieces. Van Dijk replied with TWO headers (52', 90+) but Liverpool's 12th PL loss of the season dropped Slot's side from 4th to 5th. Brentford home finale Sun May 24 is the season's last 90 minutes.",
-      category: "matches",
-    },
-    {
-      title: "Anfield Mosaics Confirmed For Sunday — Kop For Salah, Lower Kenny Dalglish Stand For Robertson (Liverpool FC / Empire of the Kop, broke Mon May 18)",
-      detail:
-        "The club confirmed Monday that mosaics will be displayed at Anfield before kick-off Sunday for the departing Mohamed Salah and Andy Robertson. The Kop leads the Salah tribute; the lower Sir Kenny Dalglish Stand honours Robertson. Volunteers were invited Saturday to help prepare the displays. With FSG's Wed AM 'U-turn' framing the build-up, the dual farewell now carries a heavier weight than the original tribute.",
-      category: "general",
     },
   ],
   sources: [
     "Liverpool FC",
     "Liverpool.com",
     "This Is Anfield",
+    "Sky Sports",
+    "ESPN",
+    "Heavy Sport",
+    "Football365",
+    "Anfield Watch",
+    "Yahoo Sports",
+    "Caught Offside",
     "Empire of the Kop",
-    "Tribuna",
+    "Read Liverpool FC",
+    "Goal.com",
+    "Sports Illustrated",
+    "TNT Sports",
+    "NBC Sports",
     "Al Jazeera",
     "ITV News",
-    "Euronews",
-    "Sky Sports",
-    "NBC Sports",
-    "ESPN",
-    "Goal.com",
-    "GiveMeSport",
-    "Per Second News",
-    "Sports Illustrated",
-    "FootballTransfers",
-    "Anfield Watch",
-    "Football FanCast",
-    "Caught Offside",
-    "SportBible",
-    "TeamTalk",
-    "TNT Sports",
-    "beIN Sports",
-    "Football365",
-    "Yahoo Sports",
-    "The Athletic",
     "VAVEL",
-    "BBC Match of the Day",
+    "Opta Analyst",
   ],
 };
 
