@@ -1,5 +1,7 @@
+// built by nnnsightnnn — signal from noise
 import { useState, useMemo, useEffect, useRef, Fragment } from "react";
 import _ from "lodash";
+import BrandCredit from "./components/BrandCredit.jsx";
 import {
   PLAYERS, RSS_FEEDS, RESULTS, NEXT_MATCH,
   NEWS_DIGEST, STANDINGS, STANDINGS_COMMENTARY, DISPATCHES, TEAM_LOGOS,
@@ -2071,6 +2073,7 @@ export default function LiverpoolTracker() {
         {view === "news"       && <NewsView />}
 
         <Footer />
+        <BrandCredit />
       </main>
     </div>
   );
