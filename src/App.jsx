@@ -346,10 +346,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday morning, fifth in the league, one game to play. Villa Park is in the
-          rear-view; Bournemouth and Chelsea are in the wing-mirrors; Brentford is in
-          the windscreen. Eight days until Anfield, until Salah, until the season ends —
-          and a top-five seat decides itself ninety minutes from now.
+          Sunday, the final morning. Fifth in the league, one game to play. Villa Park is
+          in the rear-view; Bournemouth and Chelsea are in the wing-mirrors; Brentford
+          fills the windscreen. This is the day — the last at Anfield for Salah and
+          Robertson, the last of the season — and a top-five seat decides itself this afternoon.
         </p>
 
         <StatStrip stats={stats} />
@@ -364,13 +364,13 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              The papers landed on Saturday morning the way the corners landed at Villa
-              Park: heavy, undefended, three out of four. <span style={{ fontStyle: "italic", color: T.red }}>Slot</span>{" "}
+              It is nine days since the corners landed at Villa Park the way bad news
+              lands: heavy, undefended, three out of four. <span style={{ fontStyle: "italic", color: T.red }}>Slot</span>{" "}
               called it damaging and meant the season; Carragher called it buckling and
               meant the manager; Murphy used the three words FSG keep saying they won't
               use. Virgil van Dijk headed in two and headed alone. Mohamed Salah took eleven
               minutes from the bench, his first since April. Now there is one fixture left
-              and the math has narrowed to a sentence: beat Brentford a week Sunday, or
+              and the math has narrowed to a sentence: beat Brentford this afternoon, or
               watch Bournemouth and Chelsea decide which of them takes the last seat at the
               continental table.
             </p>
@@ -378,11 +378,11 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
-              Inside, the squad as a roster, the standings as they stand on Saturday afternoon,
+              Inside, the squad as a roster, the standings as they stand on the final morning,
               and five dispatches from the small army of writers who have followed this team
               into May. There is a petition online; there is a Spaniard at Bournemouth; there
-              is a long Anfield goodbye eight days from now. Read slowly. The ink is still
-              drying.
+              is a long Anfield goodbye that arrives this afternoon. Read slowly. The ink is
+              still drying.
             </p>
           </div>
           <div style={{ background: T.rule }} />
