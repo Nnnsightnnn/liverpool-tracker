@@ -322,7 +322,7 @@ function CoverView({ onJump }) {
       { label: "Goals For",       value: String(gf).padStart(2, "0") },
       { label: "Goals Against",   value: String(ga).padStart(2, "0") },
       { label: "Position",        value: lfc ? `${lfc.pos}${["st","nd","rd"][lfc.pos-1] || "th"}` : "—" },
-      { label: "UCL Probability", value: "96.92%" },
+      { label: "Champions League", value: "Secured" },
     ];
   }, []);
 
@@ -346,10 +346,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday, the final morning. Fifth in the league, one game to play. Villa Park is
-          in the rear-view; Bournemouth and Chelsea are in the wing-mirrors; Brentford
-          fills the windscreen. This is the day — the last at Anfield for Salah and
-          Robertson, the last of the season — and a top-five seat decides itself this afternoon.
+          Monday, the morning after. Fifth in the league, the season closed — a one-all
+          draw with Brentford on Sunday, and the Champions League kept. Salah has gone,
+          Robertson with him; the lap of honour is walked. What fills the windscreen now
+          is summer: a review, a rebuild, and the long, quiet road to Nashville in July.
         </p>
 
         <StatStrip stats={stats} />
@@ -364,25 +364,26 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              It is nine days since the corners landed at Villa Park the way bad news
-              lands: heavy, undefended, three out of four. <span style={{ fontStyle: "italic", color: T.red }}>Slot</span>{" "}
-              called it damaging and meant the season; Carragher called it buckling and
-              meant the manager; Murphy used the three words FSG keep saying they won't
-              use. Virgil van Dijk headed in two and headed alone. Mohamed Salah took eleven
-              minutes from the bench, his first since April. Now there is one fixture left
-              and the math has narrowed to a sentence: beat Brentford this afternoon, or
-              watch Bournemouth and Chelsea decide which of them takes the last seat at the
-              continental table.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>{" "}
+              closed it. A one-all draw with Brentford — Curtis Jones turning in a Mohamed
+              Salah cross, Kevin Schade levelling soon after — and a season folded shut on
+              sixty points and fifth place. The Champions League survived; little else
+              about the year did. Salah kissed the pitch and went; Robertson walked his
+              three-hundred-and-seventy-eighth and last; the Kop sang both of them out of
+              the building. What is left is an end-of-season review that, in Fabrizio
+              Romano's phrase, will cover absolutely everything — Arne Slot's name among
+              the lines on its agenda. A title defence, finished twenty-five points behind
+              the title.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
-              Inside, the squad as a roster, the standings as they stand on the final morning,
-              and five dispatches from the small army of writers who have followed this team
-              into May. There is a petition online; there is a Spaniard at Bournemouth; there
-              is a long Anfield goodbye that arrives this afternoon. Read slowly. The ink is
-              still drying.
+              Inside, the squad as a roster, the standings as they finished, and five
+              dispatches from the small army of writers who followed this team into May.
+              There is a manager awaiting a verdict; there is a Spaniard at Bournemouth
+              whose name keeps surfacing; there is a goodbye, now complete, that Anfield
+              will not soon forget. Read slowly. The ink is still drying.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -668,7 +669,7 @@ function MatchdayView() {
             fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase",
             color: T.gold, marginBottom: 18, fontFamily: T.sans, fontWeight: 500,
           }}>
-            — Premier League · Round 35
+            — {NEXT_MATCH.competition === "PL" ? "Premier League" : NEXT_MATCH.competition === "UCL" ? "Champions League" : NEXT_MATCH.competition === "FA" ? "FA Cup" : "Pre-Season Friendly · USA Tour"}
           </div>
           <div className="matchday-fixture" style={{
             fontFamily: T.serif, fontWeight: 500, fontSize: 64, lineHeight: 1,
@@ -689,10 +690,10 @@ function MatchdayView() {
             borderTop: `1px solid ${T.rule}`, paddingTop: 20,
           }}>
             {[
-              { label: "Venue", val: NEXT_MATCH.venue + ", Manchester" },
+              { label: "Venue", val: NEXT_MATCH.venue },
               { label: "Kick-off", val: fmtClock(NEXT_MATCH.date) + " BST" },
-              { label: "Broadcast", val: NEXT_MATCH.broadcast + " Main Event" },
-              { label: "Referee", val: "Anthony Taylor" },
+              { label: "Broadcast", val: NEXT_MATCH.broadcast },
+              { label: "Referee", val: "TBC" },
             ].map((m) => (
               <div key={m.label}>
                 <div style={{
@@ -1906,7 +1907,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Every farewell makes room for a return."
+        "He kissed the pitch, and left."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
