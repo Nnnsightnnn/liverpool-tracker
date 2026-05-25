@@ -128,37 +128,38 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Liverpool FC / Al Jazeera", title: "Matchday: Anfield says goodbye — Mohamed Salah and Andy Robertson play their final Liverpool games against Brentford (4pm BST), the club rolling out fan mosaics, a tribute film and an emotional video of Salah's daughters on the pitch", time: "today", category: "official" },
-  { source: "Yahoo Sports / The Hard Tackle", title: "Predicted XI: Alisson and Isak back in contention after training all week — Liverpool tipped to line up 4-2-3-1 with Curtis Jones at right-back, Salah and Robertson starting their farewells", time: "today", category: "major" },
-  { source: "beIN Sports / Sports Mole", title: "Arne Slot still refuses to guarantee Mohamed Salah a start in his Anfield farewell, days after the Egyptian's social-media outburst — a cloud over the send-off", time: "today", category: "major" },
-  { source: "Sky Sports / Goal.com", title: "Champions League math: a draw or win at home to Brentford seals a top-five finish — Liverpool sit 5th on 59 points, three clear of Bournemouth, with Opta rating qualification near-certain", time: "today", category: "major" },
-  { source: "Liverpool.com / This Is Anfield", title: "Alisson Becker eyes a possible Anfield farewell of his own amid the Juventus saga — Schira reports personal terms agreed at €5m a year, while a source close to the keeper insists he will stay", time: "today", category: "major" },
-  { source: "Anfield Watch / Rousing The Kop", title: "Virgil van Dijk's emotional Instagram farewell to Salah and Robertson read by fans as a hint that more Anfield exits could follow this summer", time: "1d ago", category: "fan" },
-  { source: "Empire of the Kop", title: "Curtis Jones sends an emotional message to Mohamed Salah and Andy Robertson on the eve of their Liverpool farewell", time: "1d ago", category: "fan" },
-  { source: "Irish Times / This Is Anfield", title: "Liverpool closing in on appointing Etienne Reijnen — Slot's former Feyenoord set-piece specialist — to the coaching staff, read as a 'strong show of support' for the manager", time: "2d ago", category: "major" },
-  { source: "Liverpool.com", title: "Slot reiterates he has 'every reason to believe' he will be Liverpool manager next season, with reporter Lewis Steel now rating the Dutchman '96%' likely to stay", time: "2d ago", category: "major" },
-  { source: "3 Added Minutes / GiveMeSport", title: "Liverpool's 2026/27 third kit 'leaked' online — fans slam the black-and-crimson Adidas design as 'awful' and 'disappointing'", time: "2d ago", category: "fan" },
-  { source: "TEAMtalk / This Is Anfield", title: "Transfer: Mohamed Salah reportedly 'open to' joining Fenerbahce after his Liverpool exit, with Juventus also said to be monitoring the free agent", time: "2d ago", category: "major" },
-  { source: "Liverpool.com / Sky Sports", title: "Transfer: Liverpool target RB Leipzig's Yan Diomande and Sporting's Francisco Trincao as Salah replacements, with PSG's Bradley Barcola also said to be open to a move", time: "2d ago", category: "major" },
-  { source: "Football365 / TeamTalk", title: "Unverified sack saga rumbles on: reports claim FSG have 'decided' to move on from Slot with Andoni Iraola lined up — a story The Athletic's James Pearce has denied", time: "3d ago", category: "major" },
-  { source: "This Is Anfield", title: "Transfer: Liverpool agree a deal for highly-rated 16-year-old Celtic defender Dara Jikiemi, who will join the academy on July 1", time: "3d ago", category: "fan" },
-  { source: "Sky Sports / NBC Sports / ESPN", title: "Aston Villa 4-2 Liverpool: Watkins's brace plus Rogers and McGinn punish a set-piece collapse — Van Dijk's two headers the lone reply on a night that dropped the Reds to 5th", time: "1w ago", category: "major" },
+  { source: "Sky Sports / This Is Anfield", title: "Liverpool 1-1 Brentford: Mohamed Salah and Andy Robertson say goodbye to Anfield as the Reds finish 5th and secure a return to the Champions League", time: "today", category: "major" },
+  { source: "Liverpool FC", title: "Anfield's farewell to Mohamed Salah and Andy Robertson — fan mosaics, a giant tifo and a tribute film mark the end of two Liverpool eras", time: "today", category: "official" },
+  { source: "Liverpool.com", title: "Mohamed Salah leaves the Anfield pitch in tears and kisses the turf — his final assist carrying him past Steven Gerrard's club record for Premier League assists", time: "today", category: "major" },
+  { source: "NBC Sports / ESPN", title: "Champions League secured: Liverpool finish 5th on 60 points, though a winless final four games closes the bleakest title defence in decades", time: "today", category: "major" },
+  { source: "The Scotsman / Liverpool.com", title: "Andy Robertson given an emotional Anfield send-off with a giant tifo — a free transfer to Tottenham now expected after Spurs' final-day survival", time: "today", category: "major" },
+  { source: "Fabrizio Romano / Football365", title: "Arne Slot's future heads to an end-of-season review 'about absolutely everything' — the board still inclined to keep him, Andoni Iraola the fallback", time: "today", category: "major" },
+  { source: "NBC Sports / BBC Sport", title: "Final day: Arsenal crowned champions, West Ham relegated despite a 3-0 win at Leeds as Tottenham beat Everton to survive", time: "today", category: "major" },
+  { source: "beIN Sports / The National", title: "Mohamed Salah to announce his next club 'within days' — Al-Ittihad cast as the Saudi front-runner, with Fenerbahce and Inter Miami also linked", time: "today", category: "major" },
+  { source: "Sky Sports", title: "Why Mohamed Salah and Andy Robertson will both leave Anfield as all-time Liverpool greats", time: "1d ago", category: "major" },
+  { source: "TEAMtalk / Anfield Watch", title: "Liverpool's rebuild: RB Leipzig winger Yan Diomande the lead target, with Porto midfielder Victor Froholdt added to an £85m-rated shortlist", time: "1d ago", category: "major" },
+  { source: "Football365 / Sports Mole", title: "Goalkeeper crossroads: Alisson drawn to Juventus while doubts grow over Mamardashvili — Porto's Diogo Costa emerges as Liverpool's preferred option", time: "1d ago", category: "major" },
+  { source: "This Is Anfield", title: "Transfer: Liverpool finalising a deal for highly-rated 17-year-old Atlético Nacional attacking midfielder Samuel Martinez", time: "2d ago", category: "fan" },
+  { source: "Anfield Index / The Anfield Wrap", title: "Season review: what went wrong — Wirtz, Ekitike and Isak shared just 117 minutes on the pitch together as injuries wrecked Slot's first-choice XI", time: "2d ago", category: "fan" },
+  { source: "This Is Anfield", title: "Liverpool closing in on confirming set-piece coach Etienne Reijnen, with the appointment expected shortly after the season ends", time: "2d ago", category: "fan" },
+  { source: "Sky Sports / NBC Sports", title: "Aston Villa 4-2 Liverpool: Watkins's brace and a set-piece collapse — the night the Reds' hopes of the top four effectively ended", time: "1w ago", category: "major" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
 const NEXT_MATCH = {
-  opponent: "Brentford",
-  shortName: "BRE",
-  home: true,
-  date: "2026-05-24T16:00:00",
-  competition: "PL",
-  venue: "Anfield",
-  broadcast: "Sky Sports+",
+  opponent: "Sunderland",
+  shortName: "SUN",
+  home: false,
+  date: "2026-07-25T23:00:00",
+  competition: "PSF",
+  venue: "Geodis Park, Nashville",
+  broadcast: "LFCTV GO",
 };
 
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
 // result: "W" | "D" | "L"
 const RESULTS = [
+  { date: "2026-05-24", opponent: "Brentford",          home: true,  score: "1-1", competition: "PL", result: "D", scorers: "Jones 58'" },
   { date: "2026-05-15", opponent: "Aston Villa",        home: false, score: "2-4", competition: "PL", result: "L", scorers: "Van Dijk 52', 90+" },
   { date: "2026-05-09", opponent: "Chelsea",            home: true,  score: "1-1", competition: "PL", result: "D", scorers: "Gravenberch 6'" },
   { date: "2026-05-03", opponent: "Manchester United", home: false, score: "2-3", competition: "PL", result: "L", scorers: "Szoboszlai 47', Gakpo 56'" },
