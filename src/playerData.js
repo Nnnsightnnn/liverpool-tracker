@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Mon May 25 — season over: started Sunday's 1-1 with Brentford, an Anfield outing that may yet prove his last in red. With the campaign closed, the Juventus saga moves centre-stage — Schira reported agreed personal terms (€5m/yr) on a €15m deal — and he is named Brazil's No. 1 for the 2026 World Cup", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Tue May 26 — saga flipped: Fabrizio Romano reports Liverpool have told the Brazilian directly they want him to stay, and the Juventus move (personal terms agreed at €5m/yr on a €15m deal) is now reported to be off the table, the call shifted back to the player. Brazil's No. 1 for the 2026 World Cup", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Mon May 25 — season over: deputised through Alisson's long absence and ends the campaign as understudy again. His own future is suddenly a live question — four conceded at Villa Park fed doubts, and reports say Liverpool are weighing Porto's Diogo Costa rather than simply handing him the No. 1 shirt", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Tue May 26 — shuffled back in the queue: with Liverpool now actively asking Alisson to stay, the Georgian's path to the No. 1 shirt has lengthened again. Reports say the club's longer-term preference remains Porto's Diogo Costa (€60m release clause), and Liverpool are not yet ready to hand him the gloves outright", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 40, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 6.4, status: "fit", injuryNote: "Mon May 25 — season over: a stop-start year ends with his contract still unresolved and Real Madrid hovering in the background. One of the defining calls of Liverpool's summer — extend, sell, or risk losing him on a free in 2027", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
+    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 40, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 6.4, status: "fit", injuryNote: "Tue May 26 — drifting toward yes: the Frenchman, contract running to 2027, told reporters 'there's a good chance I'll still be here next season — I'm just waiting for everything to be completed.' Real Madrid have cooled their pursuit; Konaté wants the question settled before the World Cup", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
     physical: { height: 194, weight: 95, pace: 78, acceleration: 76, sprintSpeed: 80 },
     career: [
       { years: "2014-2017", club: "Sochaux", fee: null, type: "youth" },
@@ -63,7 +63,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 6, name: "Andy Robertson", number: 26, position: "DEF", nationality: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland", age: 32, appearances: 30, goals: 1, assists: 3, cleanSheets: 8, xG: 0.6, tacklesPer90: 2.3, passCompletion: 83, progressiveCarries: 4.4, form: 6.7, status: "fit", injuryNote: "Mon May 25 — season over: played his 378th and final Liverpool game in Sunday's farewell, marked by a giant Anfield tifo. A free transfer to Tottenham — agreed in principle once Spurs secured survival — is now the expected next step", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p122798.png",
+    id: 6, name: "Andy Robertson", number: 26, position: "DEF", nationality: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland", age: 32, appearances: 30, goals: 1, assists: 3, cleanSheets: 8, xG: 0.6, tacklesPer90: 2.3, passCompletion: 83, progressiveCarries: 4.4, form: 6.7, status: "fit", injuryNote: "Tue May 26 — Spurs move 'agreed on everything' (Romano): with Tottenham's survival sealed, Roberto De Zerbi's appointment as head coach has accelerated the free transfer, and Ben Jacobs reports the Scotland captain wanted clarity on the project — and got it. Paperwork only now", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p122798.png",
     physical: { height: 178, weight: 70, pace: 79, acceleration: 81, sprintSpeed: 77 },
     career: [
       { years: "2010-2013", club: "Queen's Park", fee: null, type: "senior" },
@@ -161,7 +161,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Mon May 25 — season over: scored Liverpool's goal in Sunday's 1-1 with Brentford, possibly his Anfield send-off — reports link the academy graduate strongly with Inter Milan as new-deal talks remain stuck", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Tue May 26 — two sentences, one player: Inter Milan have returned with concrete intent (a £35m switch mooted, Aston Villa snubbed in favour of Serie A), and contract talks at Anfield are shelved. Yet after Sunday's finale he told All Red Video he's 'excited [for] next season — we can put everything behind us and just go and enjoy it'", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Mon May 25 — Liverpool career over: bowed out in Sunday's 1-1 with Brentford, assisting Curtis Jones to move past Steven Gerrard's club record for Premier League assists, then kissing the pitch in tears. Nine years, 441 games, 257 goals. His camp says a new club — Al-Ittihad and Fenerbahce among the suitors — will be announced within days", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Tue May 26 — the parting speech surfaces: at Kirkby on Sunday morning, Salah told his team-mates 'this is the best club in the world when you win something and the worst when you lose. So you better win next year.' Of his own goodbye: 'I cried more than in my whole life.' His next club — Al-Ittihad cast as favourite, Fenerbahce and a European option still live — expected in days", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -378,7 +378,7 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-05-25 — FINAL 20-team table, 2025-26 season complete (MW38).
+// Last refresh: 2026-05-26 — FINAL 20-team table, 2025-26 season complete (MW38).
 export const STANDINGS = [
   { pos: 1, team: "Arsenal", p: 38, w: 26, d: 7, l: 5, gd: 44, pts: 85, qualification: "UCL" },
   { pos: 2, team: "Manchester City", p: 38, w: 23, d: 9, l: 6, gd: 42, pts: 78, qualification: "UCL" },
@@ -412,23 +412,23 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-05-25T09:00:00Z",
+  generatedAt: "2026-05-26T09:00:00Z",
   overview:
-    "The 2025-26 Premier League table is final. Liverpool finished fifth on 60 points — Sunday's 1-1 draw with Brentford enough to confirm the Champions League place — closing a title defence that ended twenty-five points adrift of the side that took the trophy. Arsenal are champions for the first time since 2003-04, finishing on 85 points, seven clear of Manchester City, with Manchester United's quietly strong third and Aston Villa's fourth completing the automatic Champions League berths. Below Liverpool, Bournemouth and a remarkable promotion-season Sunderland claimed Europa League football, Brighton the Conference League play-off place. At the foot, West Ham went down on the final day despite a 3-0 win at Leeds — Tottenham's 1-0 defeat of Everton kept Spurs up — sending the Hammers to the Championship for the first time since 2012 alongside long-relegated Burnley and Wolves.",
+    "Two days on, the final table reads as a verdict on what the season actually was. Liverpool's fifth on sixty points stands as the headline: a Champions League place earned by a single point against Brentford, twenty-five points behind the team that took the trophy a year after the Reds themselves did. Arsenal — eighty-five points, a first title since 2003-04 — became the first English champion since 2017 to do it without a domestic cup. Manchester City's drift to a distant second, Manchester United's quiet third under Amorim, and Aston Villa's hold on fourth complete the automatic Champions League quartet. Beneath the line, Bournemouth and a remarkable promotion-season Sunderland take Europa football, Brighton the Conference play-off; at the floor, West Ham's late surge to 3-0 at Leeds came on the same afternoon João Palhinha kept Tottenham up, sending the Hammers down with Burnley and Wolves — and arriving at Spurs is Andy Robertson, on a free.",
   teams: {
-    "Arsenal": "Champions — a first title since 2003-04, finishing on 85 points, seven clear of Manchester City.",
-    "Manchester City": "Second on 78 — into the Champions League, but Pep's side never seriously threatened Arsenal.",
-    "Manchester United": "Third on 71 and the season's quiet success story — a return to the Champions League under Amorim.",
-    "Aston Villa": "Fourth on 65 — Emery takes the last automatic UCL place, the 4-2 win over Liverpool on May 15 decisive.",
-    "Liverpool": "Fifth on 60 — Sunday's 1-1 with Brentford sealed the Champions League place. A title defence that finished 25 points adrift.",
-    "Bournemouth": "Sixth and Europa League football — Iraola's overachievement complete, even as his own future is debated.",
+    "Arsenal": "Champions — 85 points, the first English title-winner since 2017 to do it without lifting a domestic cup.",
+    "Manchester City": "Second on 78 — back in the Champions League, but never within touching distance of Arsenal.",
+    "Manchester United": "Third on 71 — the season's quiet success, Amorim's first full year delivering a return to Europe's top tier.",
+    "Aston Villa": "Fourth on 65 — Emery secures the last automatic UCL berth; the 4-2 over Liverpool on May 15 the night that sealed it.",
+    "Liverpool": "Fifth on 60 — Sunday's 1-1 with Brentford locked in the Champions League. A title defence finishing 25 points adrift; an end-of-season review now in motion.",
+    "Bournemouth": "Sixth and Europa League — Iraola's overachievement complete, even as his name is kept warm at Anfield.",
     "Sunderland": "Seventh and into Europe in their promotion season — 54 points and the story of the bottom half.",
-    "Brighton": "Eighth — a Conference League play-off place keeps Brighton in Europe for a third straight year.",
-    "Brentford": "Ninth on 53 — the draw at Anfield left the Bees out of Europe for the first time in the club's history.",
-    "Tottenham": "Survived in 17th — Palhinha's goal beat Everton on the final day; Andy Robertson now arrives on a free.",
+    "Brighton": "Eighth — a Conference League play-off place keeps Brighton in Europe for a third straight summer.",
+    "Brentford": "Ninth on 53 — the draw at Anfield left the Bees out of Europe for the first time in their history.",
+    "Tottenham": "Survived in 17th — Palhinha's goal beat Everton; De Zerbi arrives as head coach, Andy Robertson on a free.",
     "West Ham": "Relegated in 18th — a 3-0 win at Leeds not enough; down to the Championship for the first time since 2012.",
     "Burnley": "Relegated weeks ago — 22 points and an immediate return to the Championship.",
-    "Wolves": "Bottom on 20 points — comfortably the season's worst side, relegated by a distance.",
+    "Wolves": "Bottom on 20 — comfortably the season's worst side, relegated by a distance.",
   },
 };
 
@@ -436,132 +436,134 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "One-All, And The Whole Ground Crying.",
-    byline: "Sky Sports / This Is Anfield / NBC Sports",
-    dateline: "Anfield · 24 May",
-    category: "Match Report",
-    body: "Liverpool ended the season the way they had spent most of it — without a win, and without much certainty about anything except the noise. Curtis Jones turned in a Mohamed Salah cross on fifty-eight minutes; Kevin Schade levelled it five minutes later; Dango Ouattara headed over in stoppage time, and the 1-1 stood. It was enough: fifth place, sixty points, the Champions League retained, a title defence concluded twenty-five points behind the team that won it. Nobody at Anfield on Sunday was counting points. They were watching two men walk a lap they would not walk again.",
+    headline: "Alisson's Suitcase, Half-Unpacked.",
+    byline: "Fabrizio Romano / Liverpool.com / Sky Sports",
+    dateline: "Liverpool · 26 May",
+    category: "Transfers",
+    body: "By Tuesday morning the goalkeeper saga had bent the other way. Liverpool, Fabrizio Romano reports, have told Alisson Becker directly that they would like him to stay — and a Juventus move that had felt structurally agreed (personal terms at five million a year, a fifteen-million fee) is now reported off the table. The Brazilian was only ever leaving with the club's blessing; the blessing has not come. Giorgi Mamardashvili shuffles back into the queue, Porto's Diogo Costa back into the long file. For the first time this summer a star Liverpool feared losing might simply stay.",
   },
   {
     n: "02",
-    headline: "Salah, On All Fours, Kissed The Grass.",
-    byline: "Liverpool.com / Sky Sports",
-    dateline: "Anfield · 24 May",
-    category: "Farewells",
-    body: "He had cried in the training ground that morning, he said afterwards, and then he cried again in front of the Kop. Mohamed Salah's last act in a Liverpool shirt was an assist — the cross Curtis Jones turned home — and it carried him, in his final ninety minutes, past Steven Gerrard's club record for Premier League assists. Substituted late, he walked the touchline in tears; at the whistle he dropped to all fours and kissed the pitch. Nine years, four hundred and forty-one games, two hundred and fifty-seven goals. 'We left our youth here,' he said. The number eleven now belongs to the archive.",
+    headline: "A Sixteen-Year-Old, A Release Clause, A Plan.",
+    byline: "This Is Anfield / TEAMtalk / Get German Football News",
+    dateline: "Berlin → Liverpool · 25 May",
+    category: "Transfers",
+    body: "Florian Plettenberg broke it Monday and the day did not let go: Liverpool are in 'concrete talks' for Kennet Eichhorn, the sixteen-year-old Hertha Berlin defensive midfielder with a twelve-million-euro release clause and nineteen 2.Bundesliga appearances already in his pocket. The comparisons reach for Toni Kroos. The pitch from Anfield includes a written career plan — sign now, loan out for a season or two, return ready. Manchester City, Bayern and Leverkusen are circling. The Reds, the reporting goes, are the one club Eichhorn has dreamed of joining.",
   },
   {
     n: "03",
-    headline: "Now The Review. About, Slot Was Told, Everything.",
-    byline: "Fabrizio Romano / Football365 / Sky Sports",
-    dateline: "Liverpool · 25 May",
-    category: "Manager",
-    body: "With the Champions League place secured, the inquest can begin without an asterisk. Liverpool will hold an end-of-season review — 'about absolutely everything,' in Fabrizio Romano's phrase — and Arne Slot's future is one line on its agenda. The board, by most accounts, would prefer to keep him; one difficult season after a title is not, in the FSG ledger, a sacking offence. Andoni Iraola's name is kept warm in case the meeting goes the other way. Slot, for his part, says he has no doubt the club will be back on track. The fortnight ahead will test the sentence.",
+    headline: "'The Best Club, And The Worst.'",
+    byline: "Goal.com / The National / beIN Sports",
+    dateline: "Kirkby · 24 May",
+    category: "Farewells",
+    body: "He had said his goodbye on the pitch; the speech that surfaced after the weekend was the one he gave inside. At the training ground on Sunday morning, alongside Andy Robertson, Mohamed Salah told his team-mates: 'This is the best club in the world when you win something, and the worst club in the world when you lose. So you better win next year.' Of his own ninety minutes he said simply that he had cried more than in his whole life, and that what marked him most, in the end, was the affection of the fans. He left a sentence in the room for them to carry.",
   },
   {
     n: "04",
-    headline: "A King To Replace, A Goalkeeper's Suitcase.",
-    byline: "TEAMtalk / This Is Anfield / beIN Sports",
+    headline: "Konaté, And A Drift Toward Yes.",
+    byline: "Goal / FOX Sports / Liverpool.com",
     dateline: "Liverpool · 25 May",
-    category: "Transfers",
-    body: "The rebuild does not wait for grief. Liverpool need two attackers at pace: RB Leipzig's Yan Diomande is the lead, with Sporting's Francisco Trincao and PSG's Bradley Barcola behind him and Bournemouth's teenage Rayan watched closely. Porto's Victor Froholdt, an £85m midfielder, sits on the same list; a seventeen-year-old, Samuel Martinez, is close from Atlético Nacional. Andy Robertson is bound for Tottenham on a free. And in goal, Alisson Becker is drawn to Juventus while doubts gather around Giorgi Mamardashvili — Porto's Diogo Costa is the name Liverpool keep returning to. Salah's own next club, his camp says, arrives within days.",
+    category: "Football News",
+    body: "Tucked inside the louder stories, Ibrahima Konaté has drifted, quietly, toward staying. The Frenchman — contract running to June 2027, Real Madrid waiting for two years — told reporters after the Everton derby that 'there's a good chance I'll still be here next season,' adding that he is just waiting for everything to be completed. Real have cooled their interest in recent months. Konaté wants the question settled before the World Cup. One of the central calls of Liverpool's summer, in the Salah-Robertson aftermath, may now turn out to be the easy one.",
   },
   {
     n: "05",
-    headline: "The Last Day Sorted Everyone Out.",
-    byline: "NBC Sports / BBC Sport",
-    dateline: "England · 24 May",
-    category: "Race for Europe",
-    body: "The final Sunday did what final Sundays do. Arsenal were already champions; they finished as champions, eighty-five points, a first title since 2003-04. Aston Villa's fourth place — built, in part, on that 4-2 over Liverpool nine days earlier — held firm. Below Liverpool's fifth, Bournemouth and a promoted Sunderland took Europa League places, Brighton the Conference play-off. At the bottom, West Ham won 3-0 at Leeds and went down anyway, because Tottenham beat Everton through João Palhinha and stayed up. Brentford, for the draw at Anfield, finished ninth — and out of Europe for the first time in the club's history.",
+    headline: "Curtis Jones, Excited And Open.",
+    byline: "This Is Anfield / Liverpool.com / TEAMtalk",
+    dateline: "Liverpool · 26 May",
+    category: "Transfers",
+    body: "Two sentences, by two people who happen to be the same person. Inter Milan have returned for Curtis Jones — contract talks at Anfield shelved, a £35m switch mooted, Aston Villa snubbed in favour of San Siro. And yet on Sunday, immediately after the Brentford draw, the academy graduate told All Red Video he is 'excited [for] next season — it should be great, we can put everything behind us and just go and enjoy it.' He scored Liverpool's goal in the finale. He may or may not be its right-back come August. Both lines, for now, are true.",
   },
 ];
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-05-25T09:00:00Z",
+  generatedAt: "2026-05-26T09:00:00Z",
   summary:
-    "Monday, May 25 — the morning after. Liverpool's 2025-26 season closed at Anfield on Sunday with a 1-1 draw against Brentford: Curtis Jones turned in a Mohamed Salah cross before Kevin Schade levelled, the point enough to confirm fifth place and Champions League football. The afternoon belonged to the farewells — Salah, in tears, kissed the pitch after the Kop's send-off, his assist carrying him past Steven Gerrard's club record for Premier League assists, while Andy Robertson played his 378th and final game before an expected free transfer to Tottenham. Now the post-season begins in earnest: an end-of-season review 'about absolutely everything' will weigh Arne Slot's future within a fortnight. And the rebuild starts — a forward search led by Yan Diomande, a goalkeeping question over both Alisson and Giorgi Mamardashvili, and a Salah replacement to find for a title defence that finished twenty-five points adrift.",
+    "Tuesday, May 26 — and the first big tremor of the post-season is at the back. Fabrizio Romano reports Liverpool have told Alisson Becker directly that they want him to stay, with the Juventus move — personal terms long agreed at €5m a year — now off the table, the call shifted back to the player. The shift puts the No. 1 shirt back on Alisson's foot and leaves Giorgi Mamardashvili and Porto's Diogo Costa in a longer queue. Around it the rebuild keeps moving: Liverpool are in 'concrete talks' for Hertha Berlin's sixteen-year-old defensive midfielder Kennet Eichhorn — €12m release clause, Toni Kroos comparisons; Ibrahima Konaté has hinted he will sign on, telling reporters there is 'a good chance' he stays; and Curtis Jones, contract talks shelved, is open to Inter Milan even as he told All Red Video on Sunday he is 'excited' for next season. Mohamed Salah's farewell speech to the dressing room — 'the best club in the world when you win, the worst when you lose; so you better win next year' — frames the summer the review will now begin.",
   keyTopics: [
     {
-      title: "Anfield's Long Goodbye: Liverpool 1-1 Brentford Closes The Season (Sky Sports / This Is Anfield / NBC Sports, Sun May 24)",
+      title: "Alisson Stays? Liverpool Tell The Brazilian Directly They Want Him To Remain (Fabrizio Romano / Liverpool.com / Football365, reported Tue May 26)",
       detail:
-        "Liverpool's 2025-26 season ended at Anfield on Sunday with a 1-1 draw. Curtis Jones turned in a Mohamed Salah cross on 58 minutes; Kevin Schade equalised five minutes later; Brentford's Dango Ouattara headed over deep in stoppage time. It was the Reds' fourth game without a win to end the campaign — but the point was enough, and the afternoon was always about the send-off rather than the scoreline.",
-      category: "matches",
-    },
-    {
-      title: "Salah Signs Off Past Gerrard — A Final Assist, And A Record (Liverpool.com / Sky Sports, Sun May 24)",
-      detail:
-        "Mohamed Salah's last act in a Liverpool shirt, reported across Sunday evening, was the assist for Jones's goal — a contribution that carried him beyond Steven Gerrard's club record for Premier League assists. Substituted late, he walked the touchline in tears, then dropped to all fours and kissed the pitch. 'We left our youth here,' he said afterwards, closing a nine-year stay of 441 games and 257 goals.",
-      category: "general",
-    },
-    {
-      title: "Champions League Secured: Fifth Place Confirmed On The Final Day (Opta / ESPN / NBC Sports, confirmed Sun May 24)",
-      detail:
-        "Confirmed Sunday: Liverpool finished fifth on 60 points, the draw against Brentford enough to lock in a Champions League return. It caps a jarring title defence — 25 points behind champions Arsenal, knocked out in the FA Cup and Champions League quarter-finals, and a run several reviews have called the club's worst since 1953-54.",
-      category: "matches",
-    },
-    {
-      title: "Robertson's Farewell, And A Tottenham Move Now In View (Sky Sports / The Scotsman / Liverpool.com, reported Sun-Mon May 24-25)",
-      detail:
-        "Andy Robertson played his 378th and final Liverpool game on Sunday, sent off by a giant Anfield tifo. A free transfer to Tottenham — agreed in principle on the condition Spurs avoided relegation — is now expected to be completed, after Tottenham secured their survival on the same final day.",
-      category: "general",
-    },
-    {
-      title: "Slot's Future Goes To An End-Of-Season Review 'About Everything' (Fabrizio Romano / Football365 / Sky Sports, reported Mon May 25)",
-      detail:
-        "With the Champions League verdict in, Liverpool's end-of-season review can begin — a process Fabrizio Romano says will cover 'absolutely everything,' Arne Slot's position included. The board is reported to favour keeping him after one difficult season, with Andoni Iraola the name held in reserve; Slot insists he has no doubt the club will be back on track.",
-      category: "general",
-    },
-    {
-      title: "The Last Day Settled The Rest: Arsenal Crowned, West Ham Relegated (NBC Sports / BBC Sport, Sun May 24)",
-      detail:
-        "Sunday's closing round resolved both ends of the table: Arsenal finished as champions for the first time since 2003-04, while West Ham were relegated despite a 3-0 win at Leeds — Tottenham's 1-0 defeat of Everton, through João Palhinha, kept Spurs up and sent the Hammers down with Burnley and Wolves.",
-      category: "matches",
-    },
-    {
-      title: "The Post-Mortem: A Front Three That Shared Just 117 Minutes (ESPN / Anfield Index / The Anfield Wrap, this week)",
-      detail:
-        "The season reviews emerging this week point to the same wreckage: Florian Wirtz, Hugo Ekitike and Alexander Isak were on the pitch together for only 117 minutes all season, an injury crisis (Leoni, Bradley, Endo, Isak) compounding a defence that conceded 1.4 goals a game — up from 1.1 in the title season. Integrating so many signings at once, the analysts agree, was always going to strain.",
-      category: "tactics",
-    },
-    {
-      title: "Salah's Next Club: An Announcement Expected 'Within Days' (beIN Sports / Gulf News / The National, reported this week)",
-      detail:
-        "Reported through this week: Salah is expected to name his next club within days, with his camp indicating the decision is already made. Saudi Pro League side Al-Ittihad is cast as front-runner, but Fenerbahce and clubs in Italy and France are pressing, and Inter Miami have been linked; his agent, Ramy Abbas Issa, will only say 'no one knows.'",
+        "The morning's biggest story: Fabrizio Romano reports Liverpool have told Alisson Becker this week that they would like him to stay for a further season. Juventus had personal terms agreed (€5m/year over two years plus an option) on a €15m deal; the call now sits with the player. Coverage frames Alisson as having only ever considered leaving if Liverpool waved him off, and the club has not.",
       category: "transfers",
     },
     {
-      title: "Rebuilding The Attack: Diomande Leads, Froholdt And A Teenager Added (TEAMtalk / Sky Sports / Anfield Watch, reported May 22-25)",
+      title: "'Concrete Talks' For A Sixteen-Year-Old: Kennet Eichhorn Enters The Picture (This Is Anfield / TEAMtalk / Get German Football News, reported Mon-Tue May 25-26)",
       detail:
-        "Moving through the week's wires: Liverpool need 'at least two attackers' and want to move at pace. RB Leipzig's Yan Diomande is the priority — though PSG hover — with Sporting's Francisco Trincao, PSG's Bradley Barcola and Bournemouth's teenage Rayan also tracked. Porto midfielder Victor Froholdt, an £85m-rated target, is on the list, and 17-year-old Samuel Martinez is closing in from Atlético Nacional.",
+        "Florian Plettenberg, the German transfer reporter, broke 'concrete talks' between Liverpool and Hertha Berlin for sixteen-year-old defensive midfielder Kennet Eichhorn — a €12m release clause, nineteen 2.Bundesliga starts already, and comparisons to Toni Kroos. The pitch to the player includes a career plan with a loan-out for one or two years; Manchester City, Bayern Munich and Leverkusen are circling.",
       category: "transfers",
     },
     {
-      title: "Goalkeeping Crossroads: Alisson Drawn To Juventus, Doubts Over Mamardashvili (This Is Anfield / Football365 / Sports Mole, reported this week)",
+      title: "Salah's Parting Words To The Dressing Room (Goal.com / The National / beIN Sports, surfaced Mon-Tue May 25-26)",
       detail:
-        "The goalkeeping picture turned open this week: Alisson Becker is said to be receptive to a Juventus move even if they only reach the Europa League. Giorgi Mamardashvili would inherit the No. 1 shirt, but four goals conceded at Villa Park have fed doubts — and reports claim Liverpool's preferred long-term option is Porto's Diogo Costa.",
+        "The line emerging from Sunday's pre-match presentation at the training ground: Mohamed Salah, addressing his team-mates alongside Andy Robertson, told them 'this is the best club in the world when you win something and the worst club in the world when you lose. So you better win next year.' Of the goodbye itself he said: 'I cried a lot — more than in my whole life. The affection of the fans is what matters most to me.'",
+      category: "general",
+    },
+    {
+      title: "'A Good Chance I'll Still Be Here Next Season' — Konaté Hints At Staying (Goal / FOX Sports / Liverpool.com, reported this week)",
+      detail:
+        "Ibrahima Konaté, contract running down to June 2027, has indicated a deal is close. After the Everton derby earlier this month he told reporters 'there's a good chance I'll still be here next season — I'm just waiting for everything to be completed.' Real Madrid have cooled their pursuit; the Frenchman wants the question resolved before the 2026 World Cup.",
       category: "transfers",
+    },
+    {
+      title: "Curtis Jones, Inter Milan And A Sunday Hint (This Is Anfield / Liverpool.com / TEAMtalk, reported Mon-Tue May 25-26)",
+      detail:
+        "Inter Milan have returned for Curtis Jones, with the academy graduate's contract talks shelved and his current deal running just over a year. Aston Villa have been snubbed; a £35m switch is mooted. Yet on Sunday, the midfielder told All Red Video he is 'excited [for] next season — it should be great, we can put everything behind us.' Both sides of that sentence will need to find each other in June.",
+      category: "transfers",
+    },
+    {
+      title: "Robertson To Spurs: De Zerbi's Arrival Accelerates Everything (Sky Sports / Tothelaneandback / Anfield Central, reported Mon-Tue May 25-26)",
+      detail:
+        "With Tottenham's survival sealed on the final day, Andy Robertson's free transfer to north London is, in Fabrizio Romano's phrase, 'agreed on everything.' Roberto De Zerbi's appointment as Spurs head coach has accelerated the process; Ben Jacobs reports the Scotland captain wanted clarity on the new project before signing, and got it.",
+      category: "transfers",
+    },
+    {
+      title: "Diomande's Twist: 'Yes' To Staying At Leipzig (Kicker / Caught Offside / This Is Anfield, reported Mon May 25)",
+      detail:
+        "A complication for the Salah-replacement search: Yan Diomande, asked by Kicker whether he would stay at RB Leipzig next season, answered 'Yes.' Liverpool are said to have a bid worth around €120m on the table, with PSG monitoring; Bayern are also reported to be preparing a serious offer. The signal from the player himself is the new wrinkle the rebuild must read.",
+      category: "transfers",
+    },
+    {
+      title: "Reijnen On The Brink: Slot's Feyenoord Set-Piece Coach To Be Confirmed (This Is Anfield / Football365 / Anfield Watch, reported this week)",
+      detail:
+        "Etienne Reijnen, the 39-year-old former centre-back who worked with Arne Slot at Feyenoord, is set to be confirmed as Liverpool's new set-piece coach shortly after the season's official close. A UK work permit, the obstacle that blocked an earlier move, has now been resolved; he replaces Aaron Briggs, whose departure in December left the gap.",
+      category: "general",
+    },
+    {
+      title: "A Celtic Raid Confirmed: Dara Jikiemi Joins July 1 (This Is Anfield / GiveMeSport / OneFootball, reported through this week)",
+      detail:
+        "Liverpool's academy-pipeline work continues: sixteen-year-old Dara Jikiemi, a Scotland youth captain and Celtic centre-back, formally joins on July 1 after rejecting a three-year Parkhead deal. Capable in midfield as well as defence, he agrees a scholarship with a professional contract triggered when he turns seventeen in January.",
+      category: "general",
+    },
+    {
+      title: "Slot Survives The First Cut — Iraola Held In Reserve (Tribuna / Football365 / TEAMtalk, reported through this week)",
+      detail:
+        "FSG's posture, per the latest round of reporting, is that Champions League qualification was the line Slot needed to clear, and he cleared it. The end-of-season review proceeds with him in post; Andoni Iraola's name is kept warm in case the meeting reaches a different conclusion. Slot, asked about the noise, says he has no doubt the club will be back on track.",
+      category: "general",
     },
   ],
   sources: [
-    "Sky Sports",
-    "This Is Anfield",
-    "NBC Sports",
-    "Liverpool.com",
-    "ESPN",
-    "Opta",
-    "BBC Sport",
-    "The Scotsman",
     "Fabrizio Romano",
+    "Liverpool.com",
     "Football365",
-    "Anfield Index",
-    "The Anfield Wrap",
-    "beIN Sports",
-    "Gulf News",
-    "The National",
+    "This Is Anfield",
     "TEAMtalk",
+    "Get German Football News",
+    "Goal.com",
+    "The National",
+    "beIN Sports",
+    "Goal",
+    "FOX Sports",
+    "Sky Sports",
+    "Tothelaneandback",
+    "Anfield Central",
+    "Kicker",
+    "Caught Offside",
     "Anfield Watch",
-    "Sports Mole",
+    "GiveMeSport",
+    "OneFootball",
+    "Tribuna",
   ],
 };
 

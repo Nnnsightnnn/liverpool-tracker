@@ -346,10 +346,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, the morning after. Fifth in the league, the season closed — a one-all
-          draw with Brentford on Sunday, and the Champions League kept. Salah has gone,
-          Robertson with him; the lap of honour is walked. What fills the windscreen now
-          is summer: a review, a rebuild, and the long, quiet road to Nashville in July.
+          Tuesday, and the first wire of the post-season bends inward. Alisson, by
+          Romano's account, has been told the club would like him to stay; the Juventus
+          move pauses. A sixteen-year-old in Berlin is the day's other name. The season,
+          fifth and finished, recedes; the summer steps forward — review, rebuild, and a
+          long quiet road to a friendly in Nashville come July.
         </p>
 
         <StatStrip stats={stats} />
@@ -364,26 +365,26 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>{" "}
-              closed it. A one-all draw with Brentford — Curtis Jones turning in a Mohamed
-              Salah cross, Kevin Schade levelling soon after — and a season folded shut on
-              sixty points and fifth place. The Champions League survived; little else
-              about the year did. Salah kissed the pitch and went; Robertson walked his
-              three-hundred-and-seventy-eighth and last; the Kop sang both of them out of
-              the building. What is left is an end-of-season review that, in Fabrizio
-              Romano's phrase, will cover absolutely everything — Arne Slot's name among
-              the lines on its agenda. A title defence, finished twenty-five points behind
-              the title.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>{" "}
+              brings the first reversal. Liverpool, by Fabrizio Romano, have told Alisson
+              Becker that they would like him to stay, and the Juventus move — personal
+              terms once long agreed at five million a year — pauses on the player's foot.
+              In Berlin a sixteen-year-old defensive midfielder named Kennet Eichhorn,
+              with a twelve-million release clause and comparisons to Toni Kroos, has
+              entered the conversation in earnest. Ibrahima Konaté has hinted, quietly,
+              that he will stay. Curtis Jones is open to Inter Milan and also, in his own
+              words on Sunday, excited for next season. The summer is two days old and
+              already double-jointed.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
-              dispatches from the small army of writers who followed this team into May.
-              There is a manager awaiting a verdict; there is a Spaniard at Bournemouth
-              whose name keeps surfacing; there is a goodbye, now complete, that Anfield
-              will not soon forget. Read slowly. The ink is still drying.
+              dispatches from the small army of writers chasing this team through the
+              week. There is a goalkeeper whose suitcase is half-unpacked; a Frenchman
+              drifting toward yes; a parting speech in a training-ground room. Read
+              slowly. The ink is still drying.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -1907,7 +1908,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "He kissed the pitch, and left."
+        "The best when you win. The worst when you lose."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
