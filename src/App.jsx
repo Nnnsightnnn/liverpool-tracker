@@ -346,11 +346,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, and the first wire of the post-season bends inward. Alisson, by
-          Romano's account, has been told the club would like him to stay; the Juventus
-          move pauses. A sixteen-year-old in Berlin is the day's other name. The season,
-          fifth and finished, recedes; the summer steps forward — review, rebuild, and a
-          long quiet road to a friendly in Nashville come July.
+          Wednesday, and the second wire of the post-season clarifies. The Berlin file
+          pauses — a Brexit clause closes the door until 2027 — and the Medellín file
+          closes with a Romano 'here we go.' In Portugal, a Danish midfielder's
+          release clause sharpens into the summer's first real headline. Inside the
+          review room, two FSG voices already disagree.
         </p>
 
         <StatStrip stats={stats} />
@@ -365,16 +365,18 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>{" "}
-              brings the first reversal. Liverpool, by Fabrizio Romano, have told Alisson
-              Becker that they would like him to stay, and the Juventus move — personal
-              terms once long agreed at five million a year — pauses on the player's foot.
-              In Berlin a sixteen-year-old defensive midfielder named Kennet Eichhorn,
-              with a twelve-million release clause and comparisons to Toni Kroos, has
-              entered the conversation in earnest. Ibrahima Konaté has hinted, quietly,
-              that he will stay. Curtis Jones is open to Inter Milan and also, in his own
-              words on Sunday, excited for next season. The summer is two days old and
-              already double-jointed.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>{" "}
+              brings the small print. The Hertha midfielder Liverpool spent yesterday
+              talking about is not allowed to come — post-Brexit rules block any English
+              registration of a player under eighteen, and Kennet Eichhorn does not turn
+              of age until July 2027. A pre-contract is the only ink available now. In
+              the same daybook, Fabrizio Romano has called 'here we go' on Samuel
+              Martinez, seventeen, the Colombian attacking midfielder out of Atletico
+              Nacional, on a five-year deal that also waits a year. The midfield headline
+              has hardened around Victor Froholdt, the Danish twenty-year-old at Porto
+              with a £73.5m release clause. Alisson has been told, in the club's own
+              words, that they want him to stay. Inside the review room, two FSG voices
+              already disagree.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -382,9 +384,9 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a goalkeeper whose suitcase is half-unpacked; a Frenchman
-              drifting toward yes; a parting speech in a training-ground room. Read
-              slowly. The ink is still drying.
+              week. There is a Brexit wall in front of a sixteen-year-old; a Danish
+              release clause sharpening into view; a sentence the club has used to keep
+              a goalkeeper. Read slowly. The ink is still drying.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -1908,7 +1910,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The best when you win. The worst when you lose."
+        "The cheque waits a year. The plan does not."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

@@ -23,9 +23,10 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the first-choice XI Liverpool closed the
     // campaign with, the baseline a summer rebuild will reshape. 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Tue May 26: Alisson now
-    // asked to stay (Juventus move paused); Robertson 'agreed on everything'
-    // with Spurs; Konaté drifting toward a renewal; Curtis Jones open to Inter.
+    // backup look — Slot favoured 4-2-3-1. Refreshed Wed May 27: Liverpool have
+    // told Alisson 'we want you to stay'; the Eichhorn move has hit a Brexit
+    // block (pre-contract only until 2027); Samuel Martinez is 'here we go';
+    // Froholdt is the sharpening midfield target.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -60,9 +61,11 @@ export const FORMATIONS = {
     // through the run-in — is shown as the first-choice XI Liverpool finished
     // the campaign with after Sunday's 1-1 with Brentford, NOT as a prediction
     // for a coming fixture (the next match is a pre-season friendly on July
-    // 25). Refreshed Tue May 26: the goalkeeping picture has flipped (Liverpool
-    // have asked Alisson to stay, Juventus paused), Robertson's Spurs move is
-    // 'agreed on everything,' and Curtis Jones is open to Inter Milan.
+    // 25). Refreshed Wed May 27: Liverpool's stance on Alisson has hardened
+    // into a quoted sentence; Juventus's late move for Robertson was rebuffed;
+    // Curtis Jones is now described as Inter Milan-bound in pole-position
+    // language. The Berlin file is paused by Brexit; Samuel Martinez is signed
+    // for 2027.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -115,39 +118,40 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-05-26
-// (Tue, post-season: the first ripples of the summer have arrived — Alisson
-// asked to stay (Juventus paused), Konaté drifting toward a renewal, Curtis
-// Jones open to Inter, Robertson agreed with Spurs. Salah and Robertson have
-// played their final Liverpool games; the end-of-season review now follows.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-05-27
+// (Wed, post-season: Liverpool have told Alisson 'we want you to stay';
+// Mamardashvili tracking toward a loan; Konaté contract close; Robertson's
+// Spurs deal survived a late Juventus tilt; Jones now in pole-position
+// language toward Inter; Salah replacement domino has Barcola rising as
+// Diomande resists. End-of-season review formally opens this week.)
 export const PLAYER_EVIDENCE = {
-  1:  "Asked to stay · Juventus paused",      // Alisson
-  2:  "Queue lengthens · Costa preferred",    // Mamardashvili
-  3:  "Captain · contracted to 2027",         // Van Dijk
-  4:  "Drifting toward staying · Real cool",  // Konaté
-  5:  "Injury-hit year · depth option",       // Gomez
-  6:  "Spurs 'agreed on everything' · gone",  // Robertson
-  7:  "Tough debut · now first-pick LB",      // Kerkez
-  8:  "Knee surgery · pre-season return",     // Bradley
-  9:  "Stop-start year · muscular knocks",    // Frimpong
-  10: "Torn ACL · out into 2026-27",          // Leoni
-  11: "Deputy centre-back · 6 senior apps",   // Jacquet
-  12: "Academy depth · 2 senior apps",        // Ndukwe
-  13: "Key MID · contract talks stalled",     // Mac Allister
-  14: "Most consistent midfielder · 7.2",     // Gravenberch
-  15: "48 apps · extension expected",         // Szoboszlai
-  16: "Inter open · 'excited for next season'",// Jones
-  17: "Ankle surgery · World Cup race",       // Endo
-  18: "Injury-hit £115m debut · 'untouchable'", // Wirtz
-  19: "Hamstring · missed all season",        // Bajcetic
-  20: "Academy prospect · 5 senior apps",     // Nyoni
-  21: "LFC career over · parting speech",     // Salah
-  22: "Quiet end to season · sale possible",  // Gakpo
-  23: "Injury-wrecked £100m debut year",      // Isak
-  24: "Ruptured Achilles · out 9-12 months",  // Ekitike
-  25: "Breakout teen · first pro contract",   // Ngumoha
-  26: "Bit-part year · summer exit likely",   // Chiesa
-  27: "3rd-choice GK · 2 PL starts",          // Woodman
+  1:  "'We want you to stay' · told by club",  // Alisson
+  2:  "Loan likely · backup again",            // Mamardashvili
+  3:  "Captain · contracted to 2027",          // Van Dijk
+  4:  "Contract close · Real cooled",          // Konaté
+  5:  "Injury-hit year · depth option",        // Gomez
+  6:  "Spurs paperwork · Juve rebuffed",       // Robertson
+  7:  "Tough debut · now first-pick LB",       // Kerkez
+  8:  "Knee surgery · pre-season return",      // Bradley
+  9:  "Stop-start year · muscular knocks",     // Frimpong
+  10: "Torn ACL · out into 2026-27",           // Leoni
+  11: "Deputy centre-back · 6 senior apps",    // Jacquet
+  12: "Academy depth · 2 senior apps",         // Ndukwe
+  13: "Key MID · talks stalled · Real eye",    // Mac Allister
+  14: "Most consistent midfielder · 7.2",      // Gravenberch
+  15: "48 apps · extension expected",          // Szoboszlai
+  16: "Inter Milan pole · £35m mooted",        // Jones
+  17: "Ankle surgery · World Cup race",        // Endo
+  18: "Injury-hit £115m debut · 'untouchable'",// Wirtz
+  19: "Hamstring · missed all season",         // Bajcetic
+  20: "Academy prospect · 5 senior apps",      // Nyoni
+  21: "LFC career closed · next club soon",    // Salah
+  22: "Quiet end · sale considered",           // Gakpo
+  23: "Injury-wrecked £100m debut year",       // Isak
+  24: "Ruptured Achilles · out 9-12 months",   // Ekitike
+  25: "Breakout teen · first pro contract",    // Ngumoha
+  26: "Bit-part year · summer exit likely",    // Chiesa
+  27: "3rd-choice GK · 2 PL starts",           // Woodman
 };
 
 // Default formation when entering the view — the 4-2-3-1 Slot favoured through
@@ -161,37 +165,37 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys (4-2-3-1). With the season over these now read as confidence that
 // the slot's occupant remains a first-choice starter into 2026-27 — LOW where
 // the player is leaving (Salah, Robertson) or whose future is open (Jones at
-// a makeshift RB). (Refreshed Tue May 26 — Alisson saga has flipped.)
+// a makeshift RB). (Refreshed Wed May 27 — Alisson stance hardened.)
 export const SLOT_CONFIDENCE = {
-  GK:  "High",   // Alisson asked to stay · Juventus paused
-  LB:  "Low",    // Robertson gone (Spurs agreed) · Kerkez inherits
+  GK:  "High",   // Alisson · club has said directly 'we want you to stay'
+  LB:  "Low",    // Robertson gone (Spurs paperwork only) · Kerkez inherits
   LCB: "High",   // Van Dijk · captain · contracted to 2027
-  RCB: "High",   // Konaté drifting toward a new deal · Real cool
-  RB:  "Low",    // Jones open to Inter · the makeshift pick may go
+  RCB: "High",   // Konaté · contract close · Real Madrid cooled
+  RB:  "Low",    // Jones now in pole position to leave for Inter Milan
   LDM: "High",   // Gravenberch · the season's most reliable midfielder
   RDM: "Medium", // Szoboszlai · mainstay, extension still to be signed
   LAM: "Medium", // Wirtz · injury-hit debut season · 'untouchable' per club
   CAM: "Medium", // Mac Allister · key, but contract talks have stalled
-  RAM: "Low",    // Salah has left · a replacement is the summer's priority
+  RAM: "Low",    // Salah has left · Barcola is the new lead replacement
   ST:  "Medium", // Isak · £100m striker · injury-wrecked first season
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
 // Explains the season-closing pick for each slot of the 4-2-3-1. The 2025-26
 // season is complete; these read as a retrospective on the first-choice XI
-// rather than a prediction for a coming fixture. (Refreshed Tue May 26.)
+// rather than a prediction for a coming fixture. (Refreshed Wed May 27.)
 export const SLOT_RATIONALE = {
-  GK:  "Tue May 26 — the goalkeeping picture has flipped. Fabrizio Romano reports Liverpool have told Alisson directly that they want him to stay, and the Juventus move — personal terms long agreed — is now off the table, the decision back with the Brazilian. He is also named Brazil's No. 1 for the 2026 World Cup.",
-  LB:  "Tue May 26 — Andy Robertson to Tottenham is 'agreed on everything' (Romano) following Spurs' survival and Roberto De Zerbi's appointment; the slot, going forward, is unambiguously Milos Kerkez's, the £45m signing inheriting it after a tough first season.",
-  LCB: "Tue May 26 — Van Dijk closes a hard campaign as captain with his standards intact, contracted to June 2027. He anchors the back line and will be central to whatever the summer rebuild constructs around him.",
-  RCB: "Tue May 26 — Konaté has drifted toward staying: 'a good chance I'll still be here next season,' he told reporters earlier this month. Real Madrid have cooled their pursuit; the Frenchman wants the question settled before the World Cup.",
-  LDM: "Tue May 26 — Gravenberch finished the season as the most consistent midfielder Liverpool had, the obvious building block at the base of the 4-2-3-1 going into 2026-27.",
-  RDM: "Tue May 26 — Szoboszlai closes a heavy-minutes season of 48 appearances as a midfield mainstay; a contract extension is still expected to be agreed over the summer.",
-  LAM: "Tue May 26 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. Club insiders describe him as 'untouchable' in the window.",
-  CAM: "Tue May 26 — Alexis Mac Allister finished the season as a key No. 10, but contract talks have reportedly stalled with Real Madrid credited with interest — a negotiation the end-of-season review must resolve.",
-  RAM: "Tue May 26 — Mohamed Salah's parting speech surfaced this week: 'the best club in the world when you win, the worst when you lose.' Replacing him — Yan Diomande the lead target, though Kicker reports the Leipzig forward intends to stay — is the summer's priority.",
-  RB:  "Tue May 26 — Curtis Jones is open to Inter Milan (£35m switch mooted, contract talks shelved), even as he told All Red Video he is 'excited [for] next season.' Jeremie Frimpong is the natural first-choice once fit; Conor Bradley returns from knee surgery in pre-season.",
-  ST:  "Tue May 26 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
+  GK:  "Wed May 27 — Liverpool's stance has hardened into a quoted sentence. Per Liverpool.com, the club has told Alisson 'we want you to stay, we want you to be our goalkeeper, we believe in you.' Comolli's €5m Juventus offer came in well short of the €20m asking; the Brazilian is also named Brazil's No. 1 for the 2026 World Cup.",
+  LB:  "Wed May 27 — Andy Robertson to Tottenham is paperwork only after a brief Juventus intervention was rebuffed. Roberto De Zerbi's appointment as Spurs head coach sealed the move; the Liverpool left-back slot is now unambiguously Milos Kerkez's after a tough first season at £45m.",
+  LCB: "Wed May 27 — Van Dijk closes a hard campaign as captain with his standards intact, contracted to June 2027. He will anchor the back line through whatever shape the summer rebuild constructs around him.",
+  RCB: "Wed May 27 — Konaté's contract talks are now described as one of the few easy decisions of the summer. Real Madrid's two-year pursuit has cooled; the Frenchman wants the question settled before the World Cup.",
+  LDM: "Wed May 27 — Gravenberch finished the season as the most consistent midfielder Liverpool had, the obvious building block at the base of the 4-2-3-1 going into 2026-27.",
+  RDM: "Wed May 27 — Szoboszlai closes a heavy-minutes season of 48 appearances as a midfield mainstay; a contract extension is still expected to be agreed over the summer.",
+  LAM: "Wed May 27 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. Club insiders describe him as 'untouchable' in the window.",
+  CAM: "Wed May 27 — Alexis Mac Allister finished the season as a key No. 10, but contract talks have reportedly stalled with Real Madrid credited with interest — a negotiation the end-of-season review must resolve.",
+  RAM: "Wed May 27 — Mohamed Salah has played his last Liverpool match. The replacement file has hardened around PSG's Bradley Barcola after Yan Diomande told Kicker he intends to stay at Leipzig; Romano flags Arsenal's 'genuine interest' alongside.",
+  RB:  "Wed May 27 — Curtis Jones is now described as Inter Milan-bound in pole-position language (£35m switch mooted, contract talks shelved). Jeremie Frimpong is the natural first-choice once fit; Conor Bradley returns from knee surgery in pre-season.",
+  ST:  "Wed May 27 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -217,8 +221,8 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  reason: "Tue May 26 (post-season refresh) — the 2025-26 season is over (Liverpool 5th, 60 pts, Champions League secured by Sunday's 1-1 with Brentford). This is a snapshot of the first-choice XI Liverpool closed the campaign with, not a matchday prediction. The first ripple of the summer arrived today: Fabrizio Romano reports Liverpool have told Alisson directly they want him to stay, and the Juventus move is reported off the table — a real shift on the GK slot. Robertson's Spurs move is 'agreed on everything,' Konaté is drifting toward a renewal, and Curtis Jones is open to Inter Milan even as he says he is 'excited' for next season. Salah's parting speech surfaced this week. Next competitive fixture: not until 2026-27 (a pre-season friendly against Sunderland in Nashville on July 25 comes first).",
-  pundit_sources: ["Fabrizio Romano", "Liverpool.com", "Football365", "Sky Sports", "This Is Anfield", "TEAMtalk", "Get German Football News", "Goal.com", "The National", "beIN Sports", "FOX Sports", "Tothelaneandback", "Kicker", "Anfield Watch", "GiveMeSport"],
+  reason: "Wed May 27 (post-season refresh) — the 2025-26 season is over (Liverpool 5th, 60 pts, Champions League secured by Sunday's 1-1 with Brentford). This is a snapshot of the first-choice XI Liverpool closed the campaign with, not a matchday prediction. Today's reporting hardens the Alisson stance into a quoted club sentence ('we want you to stay, we want you to be our goalkeeper, we believe in you') with Mamardashvili now expected to be loaned. The Eichhorn move has hit a Brexit wall — pre-contract only until July 2027 — but Samuel Martinez (Atletico Nacional, 17) is 'here we go' on a five-year deal that also waits a year. The summer's headline midfield target sharpens around Porto's Victor Froholdt (£73.5m). The end-of-season review formally opens this week, with Edwards and Hughes reported split on Slot. Next competitive fixture: not until 2026-27 (a pre-season friendly against Sunderland in Nashville on July 25 comes first).",
+  pundit_sources: ["Fabrizio Romano", "Liverpool.com", "Sportbible", "Rousing The Kop", "TEAMtalk", "This Is Anfield", "Live4Liverpool", "OneFootball", "Goal.com", "Yahoo Sports", "Goal", "Football365", "Anfield Index", "Anfield Watch", "Liverpool FC", "SI", "DaveOCKOP", "Sky Sports", "The Hard Tackle", "Footy Headlines"],
   agreement_rate: 0.7,
-  generated_at: "2026-05-26T09:00:00Z",
+  generated_at: "2026-05-27T09:00:00Z",
 };
