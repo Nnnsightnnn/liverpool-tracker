@@ -565,6 +565,7 @@ export const NEWS_DIGEST = {
     "Sky Sports",
     "The Hard Tackle",
     "Footy Headlines",
+    "Kicker",
   ],
 };
 
