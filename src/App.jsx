@@ -346,11 +346,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday, and the second wire of the post-season clarifies. The Berlin file
-          pauses — a Brexit clause closes the door until 2027 — and the Medellín file
-          closes with a Romano 'here we go.' In Portugal, a Danish midfielder's
-          release clause sharpens into the summer's first real headline. Inside the
-          review room, two FSG voices already disagree.
+          Thursday morning, and the manager has spoken. Arne Slot tells the media room
+          he has every reason to believe he is the Liverpool manager next season.
+          Inter put twenty million on Curtis Jones and are told thirty. Liverpool will
+          let the Quansah clause drop to next summer. Eight weeks until Nashville, and
+          the rebuild is being priced in public.
         </p>
 
         <StatStrip stats={stats} />
@@ -365,18 +365,17 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>{" "}
-              brings the small print. The Hertha midfielder Liverpool spent yesterday
-              talking about is not allowed to come — post-Brexit rules block any English
-              registration of a player under eighteen, and Kennet Eichhorn does not turn
-              of age until July 2027. A pre-contract is the only ink available now. In
-              the same daybook, Fabrizio Romano has called 'here we go' on Samuel
-              Martinez, seventeen, the Colombian attacking midfielder out of Atletico
-              Nacional, on a five-year deal that also waits a year. The midfield headline
-              has hardened around Victor Froholdt, the Danish twenty-year-old at Porto
-              with a £73.5m release clause. Alisson has been told, in the club's own
-              words, that they want him to stay. Inside the review room, two FSG voices
-              already disagree.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>{" "}
+              the manager spoke, and the speculation that had lived on the back pages
+              for a fortnight closed in a single sentence. Slot, at his end-of-season
+              media briefing, said he does not decide alone but has every reason to
+              believe he is in the Anfield dugout when pre-season opens. Sky Sports led
+              with the line; Liverpool.com framed it as the position FSG endorsed by
+              silence. Sky Sport Italia, meanwhile, put the first number on the Curtis
+              Jones file — twenty million from Inter, thirty the answer from Anfield —
+              while Liverpool.com's column warned of ten more outgoings to fund the
+              second phase of the Wirtz-and-Isak rebuild. The Quansah buy-back will
+              wait twelve months for the cheaper window.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -384,9 +383,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a Brexit wall in front of a sixteen-year-old; a Danish
-              release clause sharpening into view; a sentence the club has used to keep
-              a goalkeeper. Read slowly. The ink is still drying.
+              week. There is a manager who has said he is staying; an Italian price
+              tag on a midfielder who is willing to go; a centre-back deferred to
+              next summer; a father, in Argentina, holding the line for his son.
+              Read slowly. The ink is still drying.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -1910,7 +1910,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The cheque waits a year. The plan does not."
+        "Every reason to believe."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
