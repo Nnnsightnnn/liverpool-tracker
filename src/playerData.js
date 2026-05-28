@@ -63,7 +63,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 6, name: "Andy Robertson", number: 26, position: "DEF", nationality: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland", age: 32, appearances: 30, goals: 1, assists: 3, cleanSheets: 8, xG: 0.6, tacklesPer90: 2.3, passCompletion: 83, progressiveCarries: 4.4, form: 6.7, status: "fit", injuryNote: "Wed May 27 — a late Juventus intervention rebuffed: Anfield Watch and The Hard Tackle this week note the Italians tried, briefly, to break the Tottenham move, and were waved off. The Scotland captain's free transfer to north London under De Zerbi stands, conditional only on paperwork; his 378 Liverpool appearances close", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p122798.png",
+    id: 6, name: "Andy Robertson", number: 26, position: "DEF", nationality: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland", age: 32, appearances: 30, goals: 1, assists: 3, cleanSheets: 8, xG: 0.6, tacklesPer90: 2.3, passCompletion: 83, progressiveCarries: 4.4, form: 6.7, status: "fit", injuryNote: "Thu May 28 — out the door and looking forward already: in his Rousing The Kop / RTE outgoing interview the Scotland captain has backed Florian Wirtz and Alexander Isak to have 'unbelievable' Liverpool careers despite their disappointing first seasons, the kind of departing-elder line that lands as half-prediction, half-blessing. The Tottenham paperwork under De Zerbi is the last administrative step", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p122798.png",
     physical: { height: 178, weight: 70, pace: 79, acceleration: 81, sprintSpeed: 77 },
     career: [
       { years: "2010-2013", club: "Queen's Park", fee: null, type: "senior" },
@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Wed May 27 — the replacement file fills around the empty seat: with Yan Diomande's 'yes' to staying at Leipzig pushing his price unreasonable, PSG's Bradley Barcola has moved into pole position as the right-wing replacement, Romano flagging Arsenal as 'genuine interest' alongside. Salah's own next club, Al-Ittihad cast as favourite, expected within days", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Thu May 28 — The National's Thursday round-up still lists Al-Ittihad as the most likely landing spot, but throws in two complicating notes: Saudi journalist Majed Hood has briefed that the SPL champions are now trying to reduce their squad's average age, and Salah's family are reported genuinely interested in San Diego FC. Fenerbahce remain in the picture at around €13m a year. The Anfield career, officially, has closed; the next paragraph has not yet been written", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -566,6 +566,13 @@ export const NEWS_DIGEST = {
     "RTE",
     "Goal",
     "Rousing The Kop",
+    "ESPN",
+    "Fabrizio Romano",
+    "Sportbible",
+    "TEAMtalk",
+    "The Hard Tackle",
+    "Anfield Watch",
+    "The National",
   ],
 };
 
