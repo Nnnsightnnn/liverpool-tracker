@@ -146,7 +146,7 @@ echo "new commit: $NEW_SHA"
 echo "pushing $NEW_SHA -> $REMOTE/$BRANCH ..."
 git push "$REMOTE" "$NEW_SHA:refs/heads/$BRANCH"
 
-# ── SELF-HEAL: overwrite local ref in place (no rename, no unlink) ──────────
+# ── SELF-HEAL part 1: overwrite local ref in place (no rename, no unlink) ──
 # This is the line that makes the script "no manual housekeeping needed."
 # `>` opens with O_TRUNC and writes; no unlink syscall is involved, so the
 # Cowork mount allows it. The newline at the end matches git's own format.
@@ -159,6 +159,13 @@ else
   git update-ref "refs/heads/$BRANCH" "$NEW_SHA" 2>&1 \
     | grep -v "unable to unlink" || true
 fi
+
+# ── SELF-HEAL part 2: sync .git/index with the new tree ─────────────────────
+# Without this, `git status` would show the just-committed files as either
+# modified or deleted because the real .git/index still reflects HEAD's old
+# tree. The temp index ($TMPIDX) already has the correct post-commit state
+# — copy it over. cp does O_TRUNC + write, no unlink, so the mount allows it.
+cp "$TMPIDX" .git/index
 
 # ── verify ─────────────────────────────────────────────────────────────────
 echo "── post-publish state ───────────────────────────────────────────────"
