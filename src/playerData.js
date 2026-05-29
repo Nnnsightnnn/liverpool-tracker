@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Thu May 28 — Sky Sports' Thursday round-up now formally lists him under 'set to stay,' three days after Liverpool delivered their direct message. Personal terms with Juventus had been agreed at around €5m a year, but the Italians missing Champions League qualification has weakened their hand and Anfield has not budged. The Brazilian was never the one driving the move. Brazil's No. 1 for the 2026 World Cup", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Fri May 29 — the picture firms up around the Brazilian remaining: Juventus had agreed personal terms near €5m a year, but the Italians missing out on Champions League football has drained the move of momentum and Anfield has held its line. He was never the one pushing to leave. Brazil's No. 1 heading into the 2026 World Cup", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Thu May 28 — Sky's Thursday transfer round-up cements the picture: with Alisson now formally framed as staying, the £29m Valencia signing is likeliest to go out on loan rather than start in 2026-27. The club's longer-term plan is still drawn around a future move for Porto's Diogo Costa, the €60m release clause held in mind", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Fri May 29 — with Alisson now expected to remain, the £29m Valencia signing is likeliest to go out on loan rather than start in 2026-27, in search of the minutes a season as understudy would deny him. The club's longer-term thinking is still drawn around a future move for Porto's Diogo Costa, the €60m release clause kept in mind", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 40, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 6.4, status: "fit", injuryNote: "Thu May 28 — Sky Sports' transfer round-up flags his future as 'unclear' even now: Real Madrid, PSG and Bayern continue to circle the Frenchman with twelve months to run, and Liverpool have put multiple deals on the table without lock. The Quansah buy-back deferred to 2027 makes settling him this summer one of the heavier items on Edwards's desk", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
+    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 40, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 6.4, status: "fit", injuryNote: "Fri May 29 — now expected to leave for nothing: Football Today report the extension talks have collapsed over trophy-linked bonus clauses, and Goal say Real Madrid have abruptly pulled out over an 'alarming dip in form.' The first-choice centre-back all season could walk on a free with twelve months left, and Hughes is already canvassing Lacroix, van Hecke and Diomande as replacements", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
     physical: { height: 194, weight: 95, pace: 78, acceleration: 76, sprintSpeed: 80 },
     career: [
       { years: "2014-2017", club: "Sochaux", fee: null, type: "youth" },
@@ -55,7 +55,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Thu May 28 — Liverpool.com's morning column lists him among the ten possible departures Slot is bracing the support for: twelve months left on his contract, a Serie A move now openly canvassed in the reporting, the academy product likely to be among the names that fund the second phase of the Wirtz-and-Isak rebuild", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Fri May 29 — the Konaté situation only sharpens his own: with two centre-backs now being hunted, the academy product remains among the likeliest sell-to-buy departures, twelve months left on his deal and a Serie A move openly canvassed. A hard call for Hughes — sell the depth he may suddenly need, or bank the fee", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -63,7 +63,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 6, name: "Andy Robertson", number: 26, position: "DEF", nationality: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland", age: 32, appearances: 30, goals: 1, assists: 3, cleanSheets: 8, xG: 0.6, tacklesPer90: 2.3, passCompletion: 83, progressiveCarries: 4.4, form: 6.7, status: "fit", injuryNote: "Thu May 28 — out the door and looking forward already: in his Rousing The Kop / RTE outgoing interview the Scotland captain has backed Florian Wirtz and Alexander Isak to have 'unbelievable' Liverpool careers despite their disappointing first seasons, the kind of departing-elder line that lands as half-prediction, half-blessing. The Tottenham paperwork under De Zerbi is the last administrative step", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p122798.png",
+    id: 6, name: "Andy Robertson", number: 26, position: "DEF", nationality: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland", age: 32, appearances: 30, goals: 1, assists: 3, cleanSheets: 8, xG: 0.6, tacklesPer90: 2.3, passCompletion: 83, progressiveCarries: 4.4, form: 6.7, status: "fit", injuryNote: "Fri May 29 — gone in all but signature: Fabrizio Romano's 'here we go' confirms the free transfer to Roberto De Zerbi's Tottenham, a late Juventus attempt to hijack the deal rebuffed. Nine years, two title runs and one of the great value signings of the modern era; with the captain bound for London the left-back slot now passes unarguably to Milos Kerkez", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p122798.png",
     physical: { height: 178, weight: 70, pace: 79, acceleration: 81, sprintSpeed: 77 },
     career: [
       { years: "2010-2013", club: "Queen's Park", fee: null, type: "senior" },
@@ -132,7 +132,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Thu May 28 — his father and agent Carlos Mac Allister has told reporting outlets this week no contract talks will open yet 'out of respect' for supporters during the run-in. The midfielder enters the final two years of his deal; Real Madrid's interest remains live; Football365 puts Liverpool's internal sale valuation at €120m if July passes without movement", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Fri May 29 — the contract stand-off holds: no talks have opened, the midfielder now into the final two years of his deal, his camp content to let the summer breathe. Real Madrid's interest remains live; Football365 puts Liverpool's internal sale valuation at €120m if July passes without movement — a number the hierarchy will eventually have to act on or abandon", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -161,7 +161,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Thu May 28 — the file becomes a number: Sky Sport Italia's Gianluca Di Marzio reports Inter Milan have tabled €20m, with Liverpool's response set at €30m. Richard Hughes and Piero Ausilio met in Monte Conte earlier this week; the Anfield-born midfielder is willing to go, the negotiation now entirely on price", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Fri May 29 — the cleanest sale on the board: Inter Milan keen around €20m, Liverpool valuing the Anfield-born midfielder at €30m. Hughes and Piero Ausilio have met; Jones is willing to go, and the fee is one of the surer 'sell-to-buy' levers to help fund a defence that suddenly needs two new faces", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Thu May 28 — The National's Thursday round-up still lists Al-Ittihad as the most likely landing spot, but throws in two complicating notes: Saudi journalist Majed Hood has briefed that the SPL champions are now trying to reduce their squad's average age, and Salah's family are reported genuinely interested in San Diego FC. Fenerbahce remain in the picture at around €13m a year. The Anfield career, officially, has closed; the next paragraph has not yet been written", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Fri May 29 — the destination question hardens with the Anfield career closed: The National still has Al-Ittihad likeliest, though Saudi journalist Majed Hood briefs that the SPL champions now want to lower their squad's average age. MLS side San Diego FC are reported to hold genuine appeal to Salah's family, with Fenerbahce lingering at around €13m a year. No decision yet; the 33-year-old is taking his time", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -421,22 +421,22 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-05-28T09:00:00Z",
+  generatedAt: "2026-05-29T08:00:00Z",
   overview:
-    "Four days past the final whistle and the table reads now as a brief for next season, not a verdict on the last one. Arsenal's 85 points sit above a Champions League quartet that crystallised on the final weekend — City 78, United 71, Villa 65 — and a Liverpool fifth on 60, the result Arne Slot named on Thursday as the line he was asked to clear. ESPN today adds a small but consequential update at the bottom of Europe: Crystal Palace's FA Cup, won earlier this month, has now been ratified as Europa League qualification at fifteenth, alongside Bournemouth and a promoted Sunderland. Brighton hold the Conference League play-off in eighth, with Brentford on the same 53 points but missing out on Europe for the first time in their history. West Ham, Burnley and Wolves close the year exactly where they had been heading for two months.",
+    "A week past the final whistle and the table now reads less as a record of the season than as a map of the summer's intrigue. Arsenal's 85 points crown a Champions League quartet — City 78, United 71, Villa 65 — above a Liverpool fifth on 60, the European place secured and not much else to show for a hard year. The most loaded row is the sixth: Bournemouth's Europa League finish under Andoni Iraola, who has now left the club and let it be known he is interested in the Liverpool job, even as Anfield insists Slot stays. Crystal Palace's FA Cup carries them into Europe from fifteenth, Brighton hold the Conference League play-off in eighth, and Brentford sit a cruel point adrift of them on the same 53. West Ham, Burnley and Wolves go down.",
   teams: {
     "Arsenal": "Champions — 85 points, the first English title-winner since 2017 to do it without lifting a domestic cup.",
     "Manchester City": "Second on 78 — Pep restored to the Champions League, never within reach of Arsenal across the run-in.",
     "Manchester United": "Third on 71 — Amorim's first full season delivers a quiet return to Europe's top table.",
     "Aston Villa": "Fourth on 65 — Emery takes the last automatic UCL berth; the 4-2 over Liverpool on May 15 the night that sealed it.",
-    "Liverpool": "Fifth on 60 — twenty-five points behind Arsenal; Slot named the Champions League finish on Thursday as the brief FSG asked him to deliver, and said he had every reason to believe he stays.",
-    "Bournemouth": "Sixth and Europa League — Iraola's overachievement complete, his name still kept warm at Anfield by the outside reporting.",
+    "Liverpool": "Fifth on 60 — twenty-five points behind Arsenal; the Champions League place was the floor FSG set, and a sell-to-buy window now headlined by a possible Konaté free transfer defines the rebuild.",
+    "Bournemouth": "Sixth and Europa League — Iraola's overachievement complete; he has since departed, and reporting has him interested in the Liverpool job.",
     "Sunderland": "Seventh and into Europe in their promotion season — first up at Nashville for Liverpool's pre-season opener on July 25.",
     "Brighton": "Eighth — a Conference League play-off place keeps Brighton in Europe for a third straight summer.",
     "Brentford": "Ninth on 53 — level with Brighton on points but out of Europe for the first time in their top-flight history.",
     "Chelsea": "Tenth on 52 — Champions League absent for a third successive year; the close-season repair work continues.",
     "Crystal Palace": "Fifteenth on points, but the FA Cup carries them into Europe — Glasner takes Palace to the Europa League group stage for the first time.",
-    "Tottenham": "Survived in 17th — De Zerbi has arrived as head coach, Andy Robertson incoming on a free; the squad shape will look very different by August.",
+    "Tottenham": "Survived in 17th — De Zerbi installed as head coach, Andy Robertson's free transfer given its 'here we go'; the squad reshapes fast.",
     "West Ham": "Relegated in 18th — a 3-0 win at Leeds on the final day not enough; down to the Championship for the first time since 2012.",
     "Burnley": "Relegated — 22 points and an immediate return to the Championship.",
     "Wolves": "Bottom on 20 — comfortably the season's worst side, relegated by a distance.",
@@ -447,141 +447,138 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "The Manager Puts A Sentence Around It.",
-    byline: "Sky Sports / Empire Of The Kop / Liverpool.com",
-    dateline: "Liverpool · 28 May",
-    category: "Manager",
-    body: "Ten days of speculation closed, for the moment, in twenty-eight words. At Thursday morning's end-of-season media availability Arne Slot, asked directly whether he expects to be in the dugout when pre-season starts, gave a sentence Sky Sports immediately led with: he does not decide alone, but he has every reason to believe he will be the Liverpool manager next season. Liverpool.com reads it as the line FSG have endorsed by not contradicting. A year remains on the deal he signed in 2024. The renewal, the club has indicated, is a separate conversation for later.",
+    headline: "The Centre-Back Walks Toward The Door.",
+    byline: "Football Today / TeamTalk / Goal",
+    dateline: "Liverpool · 29 May",
+    category: "Transfers",
+    body: "In April it read like a formality; by Friday it reads like a loss. Ibrahima Konaté, Liverpool's first-choice centre-back through the whole hard season, is now expected to leave for nothing, his extension foundered on the kind of detail that sinks these things — bonus clauses tied to trophies a fifth-placed side did not win. The crueller note arrives from Madrid, where the club that loomed over the talks for a year have quietly removed him from their list, citing a dip in form. A defender of his standing, leaving on a free, says more about the summer than any incoming fee will.",
   },
   {
     n: "02",
-    headline: "Inter Put A Number On Curtis Jones.",
-    byline: "Sky Sport Italia / Football Italia / Get Italian Football News",
-    dateline: "Milan → Liverpool · 27 May",
-    category: "Transfers",
-    body: "Gianluca Di Marzio carries the first hard figure on the file. Inter Milan have lodged twenty million euros for the Anfield-born midfielder; Liverpool have set the floor at thirty. Richard Hughes and Piero Ausilio met for preliminary talks in Monte Conte earlier this week, the kind of meeting that does not happen unless the principal parties expect to do business by July. Jones is willing, his contract running into its final year, the bargaining all on the price. Anfield, this time, is the side waiting to be answered.",
+    headline: "Iraola Leaves A Door Ajar.",
+    byline: "Sky Sports / The Hard Tackle / This Is Anfield",
+    dateline: "Bournemouth · 29 May",
+    category: "Manager",
+    body: "He has just finished the best work of his managerial life — a sixth-place Bournemouth, a first European campaign in the club's history — and then let it be known he would listen to Liverpool. Sky Sports report Andoni Iraola's talks with AC Milan are not progressing and that Anfield, or Leverkusen, is where his interest sits. The official line holds that Slot stays. But Iraola's bond with Richard Hughes, forged on the south coast, keeps the name in circulation, and the bookmakers have already made him the second name on the list. A subplot, for now. Subplots have a way of growing in a quiet summer.",
   },
   {
     n: "03",
-    headline: "Sell To Buy, Again.",
-    byline: "Liverpool.com / OneFootball / This Is Anfield",
-    dateline: "Liverpool · 28 May",
-    category: "Transfers",
-    body: "The headline on Liverpool.com's morning column is a manager's warning, dressed as procedure: as many as ten players may leave Anfield this summer to fund the second phase of the Wirtz-and-Isak rebuild. Federico Chiesa, Wataru Endo, Konstantinos Tsimikas, Calvin Ramsay and Harvey Elliott are named most often. Joe Gomez, with twelve months to run, drifts toward Italy. Mac Allister's situation remains open. Salah and Robertson have already gone. The £446m of last summer is held up by the same hand that will deliver this one's outgoings — a financial choreography Slot now has to defend without the title that paid for it.",
+    headline: "Robertson, And Nine Years, Get Their 'Here We Go'.",
+    byline: "Fabrizio Romano / Empire Of The Kop / Goal",
+    dateline: "London · 28 May",
+    category: "Farewells",
+    body: "Fabrizio Romano spent the three syllables on Thursday — here we go — and a nine-year Anfield story turned administrative. Andy Robertson will join Tottenham on a free, choosing De Zerbi and the Premier League over a late Juventus push, the move pre-agreed months ago and unlocked only by Spurs surviving on the final day. He arrives in London as the thing De Zerbi keeps demanding: a winner's temperament, a dressing-room voice. He leaves Merseyside as one of the great value signings of the modern era, £8m once, priceless across two title runs. The full-back position he owned now belongs, unarguably, to Milos Kerkez.",
   },
   {
     n: "04",
-    headline: "Quansah Stays In Leverkusen, By Choice.",
-    byline: "Liverpool.com / Yahoo Sports / OneFootball",
-    dateline: "Leverkusen · 27 May",
+    headline: "The Whole Front Line Hangs On A Teenager In Leipzig.",
+    byline: "This Is Anfield / Caught Offside / Liverpool.com",
+    dateline: "Leipzig · 28 May",
     category: "Transfers",
-    body: "The clause was always there. Eighty million euros this summer, sixty-five next — the buy-back the club kept when it sold Jarell Quansah a year ago. The reporting at Liverpool.com today is that Anfield will let the cheaper window arrive: another Bundesliga season for the centre-back, a saving of roughly twenty-three million dollars, the slot held back for when the wage and fee picture around Wirtz and Isak is clearer. A defender who left for £52.5m to make the books work returns, in the plan, for less than he was sold for.",
+    body: "Replacing Mohamed Salah was always going to be less a signing than a negotiation with reality. Liverpool's chosen answer is Yan Diomande, RB Leipzig's 19-year-old Ivorian, and every obstacle is in place: a release clause near £86m, a Leipzig board with Champions League money and no reason to sell, and an agency dispute between Roc Nation and Maxidel that has somehow reached the Court of Arbitration for Sport. Behind him wait Bradley Barcola, gettable only if Diomande comes first, and Anthony Gordon, the homegrown fallback. The plan is bold. The plan is also, for now, entirely contingent.",
   },
   {
     n: "05",
-    headline: "Mac Allister, And A Father Who Holds The Line.",
-    byline: "This Is Anfield / Sports Mole / Football Transfers",
-    dateline: "Liverpool · 27 May",
-    category: "Transfers",
-    body: "The other side of the contract page: Carlos Mac Allister, the World Cup winner's father and agent, has told reporters this week that no negotiation will open yet — 'out of respect for the supporters,' a courtesy phrased as restraint. The midfielder enters the last two years of his deal. Real Madrid's interest, first reported in February, has not gone away; Football365 has Liverpool's internal valuation at one hundred and twenty million euros if the talks slip past the World Cup. Mac Allister says he is not in a rush. Anfield, gently, will need to put a date on the next move.",
+    headline: "The Only Signings Confirmed Are Sixteen And Seventeen.",
+    byline: "Sky Germany / Fabrizio Romano / Liverpool.com",
+    dateline: "Liverpool · 28 May",
+    category: "Football News",
+    body: "While the senior squad empties, the future quietly fills. Sky Germany call the capture of Samuel Martinez — a 17-year-old Colombian from Atletico Nacional — a done deal: a medical, a five-year contract, a season in the academy before first-team training is even discussed. The other name, Hertha's Kennet Eichhorn, is a study in patience: at sixteen he cannot legally sign for an English club until July 2027, the Brexit wall on under-18 moves unbothered by how good he is. Liverpool can only shake hands on a pre-contract and wait. It is a strange portrait of a giant — losing internationals for free, banking teenagers for 2027.",
   },
 ];
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-05-28T09:00:00Z",
+  generatedAt: "2026-05-29T08:00:00Z",
   summary:
-    "Thursday morning, and the manager has spoken. At his end-of-season media availability Arne Slot put a sentence around the question that had dominated the back pages for ten days: 'I don't think I am deciding that alone by myself, but I have every reason to believe I am the Liverpool manager next season.' Sky Sports carry it as the headline, Liverpool.com as the line FSG has effectively confirmed by silence. The Curtis Jones file moves with him: Sky Sport Italia's Gianluca Di Marzio reports Inter Milan have tabled €20m and been told €30m is the floor, with Richard Hughes and Piero Ausilio's preliminary talks held earlier in the week. Liverpool.com's morning lead is the sober one — Slot is bracing the support for a 'sell-to-buy' summer in which as many as ten players could leave, the Quansah buy-back held over to 2027 when the €80m clause drops to €65m. Alexis Mac Allister's representatives have publicly declined to open contract talks 'out of respect for supporters,' Real Madrid still hovering. Alisson, told this week the club wants him to stay, is now widely framed as set to remain.",
+    "Friday, and the defence has become the story. Liverpool are now braced to lose Ibrahima Konaté for nothing: Football Today and TeamTalk report this week that extension talks have collapsed over trophy-bonus clauses, and that Real Madrid — long the shadow over the file — have abruptly walked away, spooked by the Frenchman's dip in form. Richard Hughes is consequently said to want two centre-backs, with Crystal Palace's Maxence Lacroix, Brighton's Jan Paul van Hecke and Sporting's Ousmane Diomande among the names canvassed. The manager file reopened too: Sky Sports and The Hard Tackle report Andoni Iraola, freshly out of a Bournemouth side he carried into Europe, is 'interested' in Anfield even as the club insists Arne Slot stays. And the long goodbyes firm up — Fabrizio Romano's 'here we go' lands on Andy Robertson's free transfer to Roberto De Zerbi's Tottenham, while RB Leipzig's Yan Diomande is now framed as the priority to replace Mohamed Salah, an £86m release clause and a Court of Arbitration agency dispute both in the way.",
   keyTopics: [
     {
-      title: "Slot Speaks: 'Every Reason To Believe I Am The Liverpool Manager Next Season' (Sky Sports / Empire Of The Kop / Liverpool.com, reported Thu May 28)",
+      title: "Konaté Set To Leave For Nothing As Talks Collapse, Real Madrid Pull Out (Football Today / TeamTalk / Goal, reported Thu-Fri May 28-29)",
       detail:
-        "The first definitive line of the summer arrives this morning from the manager himself. Slot, asked at his media briefing whether he expects to be in the dugout when pre-season opens, said he is not the only one deciding, but has every reason to believe he is. Sky Sports carry the quote; Liverpool.com frame it as the line FSG have effectively confirmed by not contradicting. He has a year left on the three-year deal he signed in 2024 and now expects to see it out, with the renewal a separate conversation later.",
+        "The summer's biggest swing emerged this week: Ibrahima Konaté, whose extension looked all but agreed in April, is now expected to leave Anfield as a free agent. Football Today reports the talks foundered on the small print — trophy-linked bonus clauses — while Goal carries Real Madrid abruptly removing him from their shortlist over an 'alarming dip in form.' The Frenchman has twelve months left and no extension on the table; the player who was Liverpool's first-choice centre-back all season may walk for free.",
+      category: "transfers",
+    },
+    {
+      title: "Hughes Wants Two Centre-Backs: Lacroix, Van Hecke, Diomande On The Board (TeamTalk / Sky Sports / Liverpool World, reported Thu-Fri May 28-29)",
+      detail:
+        "Konaté's drift toward the exit reframes the whole window. TeamTalk reports sporting director Richard Hughes wants at least two new centre-backs this summer, with Crystal Palace's Maxence Lacroix (26, approaching his peak), Brighton's Jan Paul van Hecke (refusing a new deal with 18 months left) and Sporting's Ousmane Diomande (a £70m buyout, tied to Lisbon until 2030) the names most credibly linked. Bastoni, Schlotterbeck and Malick Thiaw also feature. Marc Guehi, last winter's target, is long gone to Manchester City.",
+      category: "transfers",
+    },
+    {
+      title: "Iraola 'Interested' In Liverpool As AC Milan Talks Stall (Sky Sports / The Hard Tackle / This Is Anfield, reported Fri May 29)",
+      detail:
+        "The manager file refuses to close. Sky Sports report this week that talks between Andoni Iraola and AC Milan are 'not progressing,' and that the Spaniard — who has just left a Bournemouth side he carried to a sixth-place Europa League finish — is instead interested in Liverpool or Bayer Leverkusen. The club's line is that Slot stays, but Iraola's strong relationship with Hughes from their Bournemouth years keeps his name warm; bookmakers make him second-favourite should the dugout ever come open.",
       category: "general",
     },
     {
-      title: "Inter Make It Formal: €20m Offer For Curtis Jones, Liverpool Hold At €30m (Sky Sport Italia / Football Italia / Get Italian Football News, reported Wed-Thu May 27-28)",
+      title: "'Here We Go': Robertson's Free Transfer To De Zerbi's Tottenham (Fabrizio Romano / Empire Of The Kop / Goal, reported Thu May 28)",
       detail:
-        "Gianluca Di Marzio puts the first hard number on the file: Inter Milan have lodged a €20m offer for Curtis Jones, and Liverpool's response is €30m — and that for a midfielder with a year left on his deal and no extension on the table. Richard Hughes and Piero Ausilio held preliminary talks in Monte Conte earlier this week. Jones is willing; Inter are hesitating at the price. The January loan-to-buy attempt was blocked by Liverpool; this time Anfield has set the floor and is waiting.",
+        "Fabrizio Romano gave it the formula on Thursday — 'here we go' — for Andy Robertson's free transfer to Tottenham. The Scotland captain leaves after nine years and chooses to stay in the Premier League with Roberto De Zerbi, who convinced him after Spurs' late survival; a Juventus attempt to hijack the deal was rebuffed. Robertson and Bournemouth's Marcos Senesi were pre-agreed earlier in the year, both contingent on Tottenham staying up. A nine-year Anfield chapter closes administratively.",
       category: "transfers",
     },
     {
-      title: "'Sell To Buy' — Slot Braces Support For Ten More Departures (Liverpool.com / This Is Anfield / OneFootball, reported Thu May 28)",
+      title: "Diomande The Priority To Replace Salah — £86m Clause, A CAS Agency Row In The Way (This Is Anfield / Caught Offside / Liverpool.com, reported this week)",
       detail:
-        "The morning's sober lead at Liverpool.com: as many as ten players may leave this summer as FSG run a second consecutive 'sell-to-buy' window, the manager preparing the support for the size of the turnover. Federico Chiesa, Wataru Endo, Konstantinos Tsimikas, Calvin Ramsay and Harvey Elliott head the list of likely exits beyond Salah and Robertson; Joe Gomez, with twelve months to run, is now linked with Italy; Mac Allister's situation remains live. The Wirtz-and-Isak rebuild needs to be funded a second time.",
+        "Liverpool have made RB Leipzig's 19-year-old Ivorian Yan Diomande their top target to succeed Mohamed Salah. The complications stack up: a release clause near £86m, a Leipzig side with little appetite to sell after securing Champions League football, and a contractual tug-of-war between Roc Nation and rival agency Maxidel that has reached the Court of Arbitration for Sport. Romano confirms talks are live; PSG, needing a Barcola replacement themselves, lurk as the obvious rival.",
       category: "transfers",
     },
     {
-      title: "Quansah Buy-Back Held Over: Liverpool Wait For 2027 €65m Drop (Liverpool.com / Yahoo Sports / OneFootball, reported this week)",
+      title: "If Not Diomande: Barcola And Gordon As The Fallbacks (This Is Anfield / AOL / Football Transfers, reported this week)",
       detail:
-        "Liverpool can re-sign Jarell Quansah from Bayer Leverkusen this summer for the €80m written into last summer's sale — or wait twelve months for the clause to drop to €65m, a $23m saving. The reporting at Liverpool.com today is that Liverpool have no plans to trigger it now; the centre-back will play another season in Germany, the cheque deferred. The decision tells you something about how the wage and fee picture is being arranged around Wirtz and Isak.",
+        "Reporting this week confirms Liverpool's interest in two elite alternatives behind Diomande. PSG's Bradley Barcola, 23 and out of favour under Luis Enrique, becomes gettable only if Liverpool land Diomande first — PSG would then move for the Ivorian as Barcola's own replacement. Newcastle's Anthony Gordon, 25, is the homegrown option, with a bid mooted. Hoffenheim's Bazoumana Toure and Leipzig's Antonio Nusa round out the longer list as the post-Salah wing is rebuilt.",
       category: "transfers",
     },
     {
-      title: "Mac Allister Agent Publicly Declines Contract Talks 'Out Of Respect' (This Is Anfield / Sports Mole / Football Transfers, reported Wed May 27)",
+      title: "Salah's Next Chapter: Al-Ittihad Lead, San Diego And Fenerbahce In The Mix (The National / Liverpool.com / Goal, reported this week)",
       detail:
-        "Carlos Mac Allister, the player's father and agent, has told reporting outlets that contract talks were not yet ongoing 'out of respect' for Liverpool's supporters during the run-in. The midfielder enters the final two years of his deal this summer. Real Madrid are still credited with interest; Football365 has Liverpool internally pricing a sale at €120m if the talks slip past July. Mac Allister himself has said he is 'not in a rush' — a line Liverpool's hierarchy will need to put a deadline on.",
+        "With the Anfield career officially closed, the destination question hardens. The National's round-up still lists Saudi Pro League champions Al-Ittihad as the likeliest landing spot, though Saudi journalist Majed Hood briefs that the club are trying to reduce their squad's average age. MLS side San Diego FC are reported to hold genuine appeal to Salah's family, and Fenerbahce remain in the picture at around €13m a year. No decision yet; the 33-year-old is taking his time.",
       category: "transfers",
     },
     {
-      title: "Alisson 'Set To Stay' — Personal Terms With Juventus, But No Move (Sky Sports / Liverpool.com / Crunch Sports, reported Wed-Thu May 27-28)",
+      title: "First Of The Intake: Martinez A 'Done Deal', Eichhorn Blocked By Brexit (Sky Germany / Fabrizio Romano / Liverpool.com, reported this week)",
       detail:
-        "Sky Sports' Thursday transfer round-up now lists Alisson Becker under 'set to stay,' three days after Liverpool delivered their direct message that they wanted him to keep the No. 1 shirt. Personal terms with Juventus had been agreed at around €5m a year, but Juventus missing Champions League qualification has weakened their hand, and the Brazilian was never the one pushing the move. Mamardashvili, signed for £29m last summer, is now likeliest to be loaned.",
-      category: "transfers",
-    },
-    {
-      title: "Etienne Reijnen Closing On Liverpool Move — Set-Piece Brief In Hand (Sky Sports / This Is Anfield / Liverpool.com, reported this week)",
-      detail:
-        "The set-piece coach Liverpool tried and failed to bring in last summer is on his way after all. Etienne Reijnen, 39 — a former Zwolle centre-back who has worked alongside Slot in Rotterdam since late 2023 — has, per Sky Sports' Thursday round-up, told colleagues at Feyenoord he is joining Anfield once the season closes. His Dutch outfit have scored eleven set-piece goals this season and conceded four. The work-permit issue that blocked him in 2025 is resolved.",
+        "The academy pipeline is where the only signings are confirmed. Sky Germany call 17-year-old Colombian Samuel Martinez (Atletico Nacional) a 'done deal,' flying in for a medical before a five-year contract; he joins the academy first, first-team training pencilled for next summer. By contrast, Hertha Berlin's 16-year-old Kennet Eichhorn cannot officially sign until July 2027 — the Brexit wall on under-18 moves holds — so Liverpool may only agree a pre-contract this summer.",
       category: "general",
     },
     {
-      title: "Pre-Season Tour: Sunderland, Nashville, July 25 (Liverpool FC / NBC Sports / SI, confirmed this week)",
+      title: "Jones Still The Live Sale: Inter Keen At €20m, Liverpool Want €30m (Sky Sport Italia / Football Italia / Get Italian Football News, reported this week)",
       detail:
-        "Liverpool's first full preparation week begins around the Geodis Park opener against Sunderland on July 25, the club's first visit to Nashville. New York's Yankee Stadium hosts Wrexham on July 29; Chicago's Soldier Field, Leeds on August 2. NBC Sports note 26 million Liverpool supporters live in the United States, the fastest-growing fan base of any Premier League club here. World Cup returnees will be staged in late; academy minutes will be heavy throughout.",
+        "The Curtis Jones file rolls on beneath the bigger stories. Inter Milan's interest is concrete — a figure around €20m floated — but Liverpool's valuation sits at €30m for an Anfield-born midfielder entering the final year of his deal. Hughes and Piero Ausilio met earlier in the window; Jones is open to the move. It is one of the cleaner 'sell-to-buy' levers available to fund a defence that suddenly needs two new faces.",
+      category: "transfers",
+    },
+    {
+      title: "Pre-Season Opens In Nashville: Sunderland, July 25 (Liverpool FC / NBC Sports / SI, confirmed this week)",
+      detail:
+        "Eight competitive-free weeks stretch ahead before the first whistle. Liverpool's US tour opens against newly promoted Sunderland at Nashville's Geodis Park on July 25 — a first visit to the city — with Wrexham at Yankee Stadium on July 29 and Leeds at Soldier Field on August 2. World Cup returnees will be eased in late, academy minutes heavy throughout. It is the first proper look at whatever shape the rebuilt squad takes.",
       category: "matches",
-    },
-    {
-      title: "Edwards And Hughes Stay In Post For The Summer (Sky Sports / Liverpool.com / DaveOCKOP, reported this week)",
-      detail:
-        "Sky Sports' separate Thursday confirmation lands quietly: Michael Edwards and Richard Hughes will both remain in post for this summer's transfer window, despite the noise earlier in the spring around Saudi interest in Hughes and the wider FSG review. Edwards is contracted until 2027 as CEO of football and is reported to remain the figure with whom the long-term Slot conversation will rest. The review continues; the chairs do not move yet.",
-      category: "general",
-    },
-    {
-      title: "Wirtz And Isak: The Most Expensive Rebuild In Premier League History, Year Two (RTE / Goal / Rousing The Kop, reported this week)",
-      detail:
-        "Robertson, asked about the £241m pair on his way out, told reporting outlets both will have 'unbelievable careers' at Anfield — a vote, not a verdict. Wirtz's debut season was disrupted by Premier League physicality; Isak's by injury. Slot insists their integration will 'only continue.' How quickly the partnership delivers is now the single largest variable in next season's title chase — and the answer the Edwards-Hughes review really wants.",
-      category: "tactics",
     },
   ],
   sources: [
+    "Football Today",
+    "TEAMtalk",
+    "Goal",
     "Sky Sports",
+    "The Hard Tackle",
+    "This Is Anfield",
+    "Fabrizio Romano",
     "Empire Of The Kop",
+    "Caught Offside",
     "Liverpool.com",
+    "AOL",
+    "Football Transfers",
+    "The National",
+    "Sky Germany",
+    "Liverpool World",
     "Sky Sport Italia",
     "Football Italia",
     "Get Italian Football News",
-    "This Is Anfield",
-    "OneFootball",
-    "Yahoo Sports",
-    "Sports Mole",
-    "Football Transfers",
-    "Football365",
-    "Crunch Sports",
     "Liverpool FC",
     "NBC Sports",
     "SI",
-    "DaveOCKOP",
-    "RTE",
-    "Goal",
+    "Football365",
     "Rousing The Kop",
-    "ESPN",
-    "Fabrizio Romano",
-    "Sportbible",
-    "TEAMtalk",
-    "The Hard Tackle",
-    "Anfield Watch",
-    "The National",
+    "Anfield Index",
   ],
 };
 

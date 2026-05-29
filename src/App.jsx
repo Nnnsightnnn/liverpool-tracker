@@ -348,11 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday morning, and the manager has spoken. Arne Slot tells the media room
-          he has every reason to believe he is the Liverpool manager next season.
-          Inter put twenty million on Curtis Jones and are told thirty. Liverpool will
-          let the Quansah clause drop to next summer. Eight weeks until Nashville, and
-          the rebuild is being priced in public.
+          Friday, and the rebuild has turned defensive. Ibrahima Konaté is on course
+          to leave for nothing, his contract talks collapsed and Real Madrid suddenly
+          cool; Richard Hughes now wants two centre-backs. Andoni Iraola lets it be
+          known he would come. Robertson's free transfer to Tottenham gets its 'here
+          we go.' Nashville, and the first whistle, are still two months away.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,17 +367,18 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>{" "}
-              the manager spoke, and the speculation that had lived on the back pages
-              for a fortnight closed in a single sentence. Slot, at his end-of-season
-              media briefing, said he does not decide alone but has every reason to
-              believe he is in the Anfield dugout when pre-season opens. Sky Sports led
-              with the line; Liverpool.com framed it as the position FSG endorsed by
-              silence. Sky Sport Italia, meanwhile, put the first number on the Curtis
-              Jones file — twenty million from Inter, thirty the answer from Anfield —
-              while Liverpool.com's column warned of ten more outgoings to fund the
-              second phase of the Wirtz-and-Isak rebuild. The Quansah buy-back will
-              wait twelve months for the cheaper window.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>{" "}
+              and the noise has moved from the dugout to the back four. Ibrahima
+              Konaté, whose extension looked all but agreed in April, is now expected
+              to leave Anfield as a free agent — the talks foundered on trophy-bonus
+              clauses, and Real Madrid, long the deal's shadow, walked away citing his
+              form. Richard Hughes wants two centre-backs in response, with Maxence
+              Lacroix, Jan Paul van Hecke and Ousmane Diomande among the names. The
+              manager's chair stayed warm in the gossip too: Andoni Iraola, freshly
+              out of Bournemouth and a European place, has let it be known he is
+              interested, even as the club insists Slot is staying. Fabrizio Romano's
+              'here we go,' meanwhile, lands on Robertson's move to De Zerbi's
+              Tottenham. The farewells keep coming; the replacements arrive more slowly.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -385,9 +386,9 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a manager who has said he is staying; an Italian price
-              tag on a midfielder who is willing to go; a centre-back deferred to
-              next summer; a father, in Argentina, holding the line for his son.
+              week. There is a defender walking toward the exit for nothing; a manager
+              freshly available who would happily come; a captain of nine years bound
+              for London; a teenager in Leipzig the whole front line now hinges on.
               Read slowly. The ink is still drying.
             </p>
           </div>
@@ -2867,7 +2868,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Every reason to believe."
+        "Leaving for nothing, again."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
