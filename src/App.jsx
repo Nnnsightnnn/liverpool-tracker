@@ -5,6 +5,7 @@ import BrandCredit from "./components/BrandCredit.jsx";
 import {
   PLAYERS, RSS_FEEDS, RESULTS, NEXT_MATCH,
   NEWS_DIGEST, STANDINGS, STANDINGS_COMMENTARY, DISPATCHES, TEAM_LOGOS,
+  TRANSFER_TARGETS,
 } from "./playerData.js";
 import LineupView from "./LineupView.jsx";
 
@@ -217,6 +218,7 @@ const NAV_ITEMS = [
   { key: "squad",      label: "Squad" },
   { key: "lineup",     label: "Lineup" },
   { key: "standings",  label: "Standings" },
+  { key: "targets",    label: "Targets" },
   { key: "dispatches", label: "Dispatches" },
   { key: "news",       label: "News" },
 ];
@@ -1539,6 +1541,961 @@ function StandingsView() {
   );
 }
 
+// ─── TARGETS VIEW ──────────────────────────────────────────────────────────
+// Transfer-window view: lead-story hero + 2-col grid of editorial cards,
+// with a ledger toggle and a closing "On the way out" block.
+
+const HEAT_COLOR = (tier) => (
+  tier === "hot"  ? T.red :
+  tier === "warm" ? T.gold :
+  tier === "done" ? T.green :
+  tier === "dead" ? "#7a7a7a" :
+                    T.ivoryFaint
+);
+const HEAT_LABEL = (tier) => (
+  tier === "hot"  ? "Hot"  :
+  tier === "warm" ? "Warm" :
+  tier === "cool" ? "Cool" :
+  tier === "done" ? "Done" :
+  tier === "dead" ? "Dead" : "—"
+);
+
+function HeatPill({ probability, heatTier, width = 120 }) {
+  const color = HEAT_COLOR(heatTier);
+  const fillPct = Math.max(0, Math.min(100, probability ?? 0));
+  return (
+    <div style={{ display: "inline-flex", flexDirection: "column", gap: 4, minWidth: width }}>
+      <div style={{
+        display: "flex", justifyContent: "space-between", alignItems: "baseline",
+        gap: 12,
+      }}>
+        <span style={{
+          fontFamily: T.sans, fontSize: 9, fontWeight: 600,
+          letterSpacing: "0.22em", textTransform: "uppercase", color,
+        }}>{HEAT_LABEL(heatTier)}</span>
+        <span style={{
+          fontFamily: T.serif, fontWeight: 500, fontSize: 16, color: T.ivory,
+          fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+        }}>{probability}%</span>
+      </div>
+      <div style={{
+        height: 3, width: "100%", background: `${T.ivory}14`, position: "relative",
+      }}>
+        <div style={{
+          position: "absolute", inset: 0, width: `${fillPct}%`,
+          background: color, transition: `width .5s ${T.ease}`,
+        }} />
+      </div>
+    </div>
+  );
+}
+
+function SourceBadges({ sources = [], lastUpdated, compact = false }) {
+  return (
+    <div style={{
+      display: "flex", flexWrap: "wrap", alignItems: "center",
+      gap: compact ? 8 : 12,
+      fontFamily: T.sans, fontSize: 11, fontWeight: 500,
+      color: T.ivoryDim, letterSpacing: "0.04em",
+    }}>
+      {sources.map((s, i) => {
+        const tier = s.tier || "B";
+        const isS = tier === "S";
+        const isA = tier === "A";
+        const glyph = isS ? "◆" : isA ? "◇" : "·";
+        const color = isS ? T.red : isA ? T.ivory : T.ivoryFaint;
+        return (
+          <span key={s.name + i} style={{
+            display: "inline-flex", alignItems: "center", gap: 4,
+            color: tier === "C" ? T.ivoryFaint : T.ivoryDim,
+          }}>
+            <span style={{ color, fontSize: 10 }}>{glyph}</span>
+            {s.name}
+          </span>
+        );
+      })}
+      {lastUpdated && (
+        <span style={{
+          color: T.ivoryFaint, fontSize: 10, letterSpacing: "0.18em",
+          textTransform: "uppercase", marginLeft: compact ? 0 : 4,
+        }}>
+          · {lastUpdated}
+        </span>
+      )}
+    </div>
+  );
+}
+
+// Target portrait — same duotone treatment as the squad Portrait, sized.
+function TargetPortrait({ target, width = 88, height = 108 }) {
+  const [imgFailed, setImgFailed] = useState(false);
+  const hasImage = target.image && !imgFailed;
+  return (
+    <div style={{
+      width, height,
+      background: `repeating-linear-gradient(45deg, #F4EBD008 0, #F4EBD008 4px, transparent 4px, transparent 8px), ${T.surface}`,
+      border: `1px solid ${T.ruleStrong}`,
+      position: "relative",
+      display: "flex", alignItems: "flex-end", justifyContent: "center",
+      overflow: "hidden", flexShrink: 0,
+    }}>
+      {hasImage && (
+        <>
+          <img
+            src={target.image}
+            alt={target.name}
+            loading="lazy"
+            onError={() => setImgFailed(true)}
+            style={{
+              position: "absolute", inset: 0,
+              width: "100%", height: "100%",
+              objectFit: "cover", objectPosition: "top center",
+              filter: "grayscale(100%) contrast(1.05) brightness(0.78) sepia(0.18)",
+            }}
+          />
+          <div style={{
+            position: "absolute", inset: 0,
+            background: T.red, mixBlendMode: "multiply",
+            opacity: 0.18, pointerEvents: "none",
+          }} />
+          <div style={{
+            position: "absolute", inset: 0,
+            background: `linear-gradient(180deg, transparent 30%, ${T.ink}d8 100%)`,
+            pointerEvents: "none",
+          }} />
+        </>
+      )}
+      {!hasImage && (
+        <div style={{
+          fontFamily: T.serif, fontStyle: "italic",
+          fontSize: Math.max(11, Math.round(width / 7)),
+          color: T.ivoryDim, paddingBottom: 8, letterSpacing: "0.04em",
+        }}>
+          — {initials(target.name)}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// Months remaining for contract — small derived label.
+function monthsRemaining(expiryIso) {
+  if (!expiryIso) return null;
+  const now = new Date();
+  const exp = new Date(expiryIso);
+  const ms = exp - now;
+  if (ms <= 0) return "expired";
+  const mo = Math.round(ms / (1000 * 60 * 60 * 24 * 30.44));
+  if (mo >= 12) {
+    const yr = (mo / 12);
+    return `${yr.toFixed(yr >= 2 ? 0 : 1)} yr left`;
+  }
+  return `${mo} mo left`;
+}
+
+// Drilldown body — shared by lead, secondary card, and ledger expansions.
+function TargetDrilldown({ target }) {
+  const [tab, setTab] = useState("profile");
+  const tabs = [
+    { key: "profile",  label: "Profile" },
+    { key: "stats",    label: "Stats" },
+    { key: "contract", label: "Contract" },
+    { key: "sources",  label: "Sources" },
+  ];
+  return (
+    <div onClick={(e) => e.stopPropagation()}>
+      {/* Tab bar — mirrors PlayerCard pattern */}
+      <div style={{
+        display: "flex", gap: 0, marginBottom: 18,
+        borderBottom: `1px solid ${T.rule}`, alignItems: "center",
+      }}>
+        {tabs.map((t, i) => (
+          <button
+            key={t.key}
+            onClick={(e) => { e.stopPropagation(); setTab(t.key); }}
+            style={{
+              background: "none", border: "none", cursor: "pointer",
+              padding: "10px 18px",
+              color: tab === t.key ? T.ivory : T.ivoryDim,
+              fontFamily: T.sans, fontSize: 11, fontWeight: 500,
+              letterSpacing: "0.22em", textTransform: "uppercase",
+              position: "relative", transition: `color .5s ${T.ease}`,
+              borderRight: i < tabs.length - 1 ? `1px solid ${T.rule}` : "none",
+            }}
+          >
+            {t.label}
+            {tab === t.key && (
+              <span style={{
+                position: "absolute", left: 18, right: 18, bottom: -1,
+                height: 1, background: T.red,
+              }} />
+            )}
+          </button>
+        ))}
+      </div>
+
+      {tab === "profile" && <TargetProfile target={target} />}
+      {tab === "stats"    && <TargetStats target={target} />}
+      {tab === "contract" && <TargetContract target={target} />}
+      {tab === "sources"  && <TargetSources target={target} />}
+    </div>
+  );
+}
+
+function TargetProfile({ target }) {
+  const fit = target.positionFit || {};
+  return (
+    <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 32 }}>
+      {/* Left: position fit */}
+      <div>
+        <div style={{
+          fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
+          color: T.ivoryFaint, marginBottom: 12, fontFamily: T.sans, fontWeight: 500,
+        }}>Position Fit</div>
+        {fit.replaces && (
+          <div style={{ marginBottom: 10 }}>
+            <span style={{ color: T.ivoryFaint, fontFamily: T.sans, fontSize: 11, letterSpacing: "0.12em", textTransform: "uppercase", marginRight: 8 }}>Replaces</span>
+            <span style={{ color: T.ivory, fontFamily: T.serif, fontStyle: "italic", fontSize: 14 }}>{fit.replaces}</span>
+          </div>
+        )}
+        {Array.isArray(fit.competesWith) && fit.competesWith.length > 0 && (
+          <div style={{ marginBottom: 10 }}>
+            <span style={{ color: T.ivoryFaint, fontFamily: T.sans, fontSize: 11, letterSpacing: "0.12em", textTransform: "uppercase", marginRight: 8 }}>Competes With</span>
+            <span style={{ color: T.ivory, fontFamily: T.serif, fontStyle: "italic", fontSize: 14 }}>{fit.competesWith.join(" · ")}</span>
+          </div>
+        )}
+        {fit.depthAfter && (
+          <div>
+            <span style={{ color: T.ivoryFaint, fontFamily: T.sans, fontSize: 11, letterSpacing: "0.12em", textTransform: "uppercase", marginRight: 8 }}>Depth Chart After</span>
+            <div style={{ color: T.ivoryDim, fontFamily: T.serif, fontStyle: "italic", fontSize: 13, marginTop: 4 }}>
+              {fit.depthAfter}
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* Right: club + identity meta */}
+      <div>
+        <div style={{
+          fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
+          color: T.ivoryFaint, marginBottom: 12, fontFamily: T.sans, fontWeight: 500,
+        }}>Identity</div>
+        <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <TeamCrest team={target.currentClub} size={20} />
+            <span style={{ fontFamily: T.serif, fontSize: 14, color: T.ivory }}>{target.currentClub}</span>
+            <span style={{ fontFamily: T.sans, fontSize: 11, color: T.ivoryFaint, letterSpacing: "0.1em", textTransform: "uppercase" }}>
+              · {target.currentLeague}
+            </span>
+          </div>
+          <div style={{ fontFamily: T.serif, fontStyle: "italic", fontSize: 13, color: T.ivoryDim }}>
+            {target.role} · {target.nationality} · age {target.age}
+            {target.foot && ` · ${target.foot}-footed`}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TargetStats({ target }) {
+  const s = target.stats || {};
+  const rows = [
+    { label: "Appearances",                value: s.apps ?? "—" },
+    { label: "Goals · Assists",            value: `${s.goals ?? 0} · ${s.assists ?? 0}` },
+    { label: "Expected goals (xG)",        value: (s.xG ?? 0).toFixed(1) },
+    { label: "Pass completion",            value: s.passCompletion != null ? `${s.passCompletion}%` : "—" },
+    { label: "Tackles per 90",             value: (s.tacklesPer90 ?? 0).toFixed(1) },
+    { label: "Progressive carries per 90", value: (s.progressiveCarries ?? 0).toFixed(1) },
+    ...(target.position === "GK" || target.position === "DEF"
+      ? [{ label: "Clean sheets", value: s.cleanSheets ?? 0 }]
+      : []),
+  ];
+  return (
+    <div style={{
+      borderTop: `1px solid ${T.ruleStrong}`,
+      borderBottom: `1px solid ${T.ruleStrong}`,
+    }}>
+      {rows.map((r, i) => (
+        <div key={r.label} style={{
+          display: "flex", justifyContent: "space-between", alignItems: "baseline",
+          padding: "12px 0",
+          borderBottom: i === rows.length - 1 ? "none" : `1px solid ${T.rule}`,
+        }}>
+          <span style={{ fontFamily: T.sans, fontSize: 13, color: T.ivoryDim }}>{r.label}</span>
+          <span style={{
+            fontFamily: T.serif, fontWeight: 500, fontSize: 20, color: T.ivory,
+            fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+          }}>{r.value}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function TargetContract({ target }) {
+  const remain = monthsRemaining(target.contractExpiry);
+  const expiryYear = target.contractExpiry ? new Date(target.contractExpiry).getFullYear() : "—";
+  const fee = target.feeMin != null
+    ? `${target.feeCurrency || ""}${target.feeMin}–${target.feeMax}`
+    : "—";
+  const mv = target.marketValue != null
+    ? `${target.feeCurrency || ""}${target.marketValue}` : "—";
+  const rows = [
+    { label: "Contract expires",  value: `${expiryYear} · ${remain || "—"}` },
+    { label: "Release clause",
+      value: target.releaseClause
+        ? `${target.releaseClause.currency}${target.releaseClause.amount}`
+        : "None" },
+    { label: "Liverpool's range", value: fee },
+    { label: "Market value",      value: mv },
+    { label: "Wage band",         value: target.wageBand ? `Band ${target.wageBand}` : "—" },
+  ];
+  return (
+    <div>
+      {/* Timeline bar — today → expiry */}
+      <div style={{ marginBottom: 18 }}>
+        <div style={{
+          height: 3, background: `${T.ivory}14`, position: "relative", width: "100%",
+        }}>
+          <div style={{
+            position: "absolute", left: 0, top: -4, width: 1, height: 11,
+            background: T.gold,
+          }} />
+          <div style={{
+            position: "absolute", right: 0, top: -4, width: 1, height: 11,
+            background: T.red,
+          }} />
+          <div style={{
+            position: "absolute", left: 0, top: 0, height: 3, width: "100%",
+            background: `linear-gradient(90deg, ${T.gold} 0%, ${T.red} 100%)`,
+            opacity: 0.55,
+          }} />
+        </div>
+        <div style={{
+          display: "flex", justifyContent: "space-between", marginTop: 6,
+          fontFamily: T.sans, fontSize: 10, letterSpacing: "0.18em",
+          textTransform: "uppercase", color: T.ivoryFaint,
+        }}>
+          <span>Today</span>
+          <span>{expiryYear}</span>
+        </div>
+      </div>
+
+      {target.contractNote && (
+        <p style={{
+          fontFamily: T.serif, fontStyle: "italic", fontSize: 13,
+          color: T.ivoryDim, lineHeight: 1.6,
+          borderLeft: `1px solid ${T.gold}`,
+          padding: "4px 0 4px 14px", marginBottom: 18,
+        }}>{target.contractNote}</p>
+      )}
+
+      <div style={{
+        borderTop: `1px solid ${T.ruleStrong}`,
+        borderBottom: `1px solid ${T.ruleStrong}`,
+      }}>
+        {rows.map((r, i) => (
+          <div key={r.label} style={{
+            display: "flex", justifyContent: "space-between", alignItems: "baseline",
+            padding: "12px 0",
+            borderBottom: i === rows.length - 1 ? "none" : `1px solid ${T.rule}`,
+          }}>
+            <span style={{ fontFamily: T.sans, fontSize: 13, color: T.ivoryDim }}>{r.label}</span>
+            <span style={{
+              fontFamily: T.serif, fontWeight: 500, fontSize: 18, color: T.ivory,
+              fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+            }}>{r.value}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function TargetSources({ target }) {
+  const tierLabel = { S: "S — Romano-class", A: "A — Major outlet", B: "B — Beat reporter", C: "C — Aggregator" };
+  return (
+    <div>
+      <div style={{
+        fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
+        color: T.ivoryFaint, marginBottom: 12, fontFamily: T.sans, fontWeight: 500,
+      }}>Cited Sources · Last update {target.lastUpdated || "—"}</div>
+      <div style={{
+        borderTop: `1px solid ${T.ruleStrong}`,
+        borderBottom: `1px solid ${T.ruleStrong}`,
+      }}>
+        {(target.sources || []).map((s, i) => {
+          const tier = s.tier || "B";
+          const glyph = tier === "S" ? "◆" : tier === "A" ? "◇" : "·";
+          const color = tier === "S" ? T.red : tier === "A" ? T.ivory : T.ivoryFaint;
+          return (
+            <div key={s.name + i} style={{
+              display: "flex", justifyContent: "space-between", alignItems: "baseline",
+              padding: "12px 0",
+              borderBottom: i === (target.sources || []).length - 1 ? "none" : `1px solid ${T.rule}`,
+            }}>
+              <span style={{ display: "inline-flex", alignItems: "center", gap: 10 }}>
+                <span style={{ color, fontSize: 14, width: 14, display: "inline-block", textAlign: "center" }}>{glyph}</span>
+                <span style={{ fontFamily: T.serif, fontSize: 15, color: T.ivory }}>{s.name}</span>
+              </span>
+              <span style={{
+                fontFamily: T.sans, fontSize: 10, letterSpacing: "0.2em",
+                textTransform: "uppercase", color: T.ivoryFaint,
+              }}>{tierLabel[tier] || tier}</span>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+// LEAD STORY CARD — full-width hero with 220-wide portrait + drop-cap lede.
+function LeadTargetCard({ target, expanded, onToggle }) {
+  return (
+    <article
+      onClick={onToggle}
+      style={{
+        display: "grid", gridTemplateColumns: "220px 1fr", gap: 32,
+        padding: "28px 0 32px",
+        borderTop: `1px solid ${T.ruleStrong}`,
+        borderBottom: `1px solid ${T.rule}`,
+        cursor: "pointer", marginBottom: 40,
+      }}
+    >
+      <TargetPortrait target={target} width={220} height={280} />
+
+      <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+        {/* Folio + chapter */}
+        <div style={{
+          fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
+          color: T.red, fontFamily: T.sans, fontWeight: 600,
+        }}>
+          Lead Story · {target.role}
+        </div>
+        <h3 style={{
+          fontFamily: T.serif, fontStyle: "italic", fontWeight: 500,
+          fontSize: 42, lineHeight: 1, letterSpacing: "-0.02em",
+          color: T.ivory, margin: 0,
+        }}>
+          {target.name}<span style={{ color: T.red }}>.</span>
+        </h3>
+        <div style={{
+          fontFamily: T.serif, fontStyle: "italic", fontWeight: 400,
+          fontSize: 14, color: T.ivoryDim,
+        }}>
+          {target.nationality} · age {target.age}
+          {target.foot && ` · ${target.foot}-footed`}
+        </div>
+
+        {/* Crest arrow */}
+        <div style={{
+          display: "inline-flex", alignItems: "center", gap: 12,
+          marginTop: 4,
+        }}>
+          <TeamCrest team={target.currentClub} size={28} />
+          <span style={{ color: T.ivoryFaint, fontFamily: T.serif, fontSize: 18 }}>→</span>
+          <TeamCrest team="Liverpool" size={28} />
+          <span style={{
+            fontFamily: T.sans, fontSize: 11, color: T.ivoryFaint,
+            letterSpacing: "0.18em", textTransform: "uppercase", marginLeft: 6,
+          }}>
+            {target.currentClub} · {target.currentLeague}
+          </span>
+        </div>
+
+        {/* Numbers strip — fee / contract / heat */}
+        <div style={{
+          display: "grid", gridTemplateColumns: "1fr 1fr 1.2fr",
+          gap: 24, marginTop: 14,
+          borderTop: `1px solid ${T.ruleStrong}`,
+          borderBottom: `1px solid ${T.ruleStrong}`,
+          padding: "16px 0",
+          fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+        }}>
+          <div>
+            <div style={{ fontFamily: T.serif, fontWeight: 500, fontSize: 26, color: T.ivory, lineHeight: 1 }}>
+              {target.feeCurrency}{target.feeMin}–{target.feeMax}
+            </div>
+            <div style={{
+              fontSize: 9, letterSpacing: "0.22em", textTransform: "uppercase",
+              color: T.ivoryFaint, marginTop: 6, fontFamily: T.sans, fontWeight: 500,
+            }}>Fee range · MV {target.feeCurrency}{target.marketValue}</div>
+          </div>
+          <div>
+            <div style={{ fontFamily: T.serif, fontWeight: 500, fontSize: 26, color: T.ivory, lineHeight: 1 }}>
+              {new Date(target.contractExpiry).getFullYear()}
+            </div>
+            <div style={{
+              fontSize: 9, letterSpacing: "0.22em", textTransform: "uppercase",
+              color: T.ivoryFaint, marginTop: 6, fontFamily: T.sans, fontWeight: 500,
+            }}>Contract · {monthsRemaining(target.contractExpiry)}</div>
+          </div>
+          <div>
+            <HeatPill probability={target.probability} heatTier={target.heatTier} width={160} />
+          </div>
+        </div>
+
+        {/* Editorial lede — drop-cap red, italic serif, red left rule */}
+        {target.rumorNote && (
+          <p style={{
+            fontFamily: T.serif, fontStyle: "italic", fontSize: 15,
+            color: T.ivoryDim, lineHeight: 1.65,
+            borderLeft: `1px solid ${T.red}`,
+            padding: "6px 0 6px 18px", margin: "8px 0 6px",
+          }}>
+            <span style={{
+              float: "left", fontFamily: T.serif, fontStyle: "italic",
+              fontSize: 38, lineHeight: 0.95, color: T.red, fontWeight: 500,
+              marginRight: 8, marginTop: 2,
+            }}>{target.rumorNote.slice(0, 1)}</span>
+            {target.rumorNote.slice(1)}
+          </p>
+        )}
+
+        {/* Source badges */}
+        <SourceBadges sources={target.sources} lastUpdated={target.lastUpdated} />
+
+        {/* Expand cue */}
+        {!expanded && (
+          <div style={{
+            fontFamily: T.sans, fontSize: 10, letterSpacing: "0.22em",
+            textTransform: "uppercase", color: T.ivoryFaint, marginTop: 4,
+          }}>
+            ▸ Tap for Profile · Stats · Contract · Sources
+          </div>
+        )}
+      </div>
+
+      {/* Expanded drilldown — full width below */}
+      <div style={{
+        gridColumn: "1 / -1",
+        maxHeight: expanded ? 900 : 0,
+        opacity: expanded ? 1 : 0,
+        overflow: "hidden",
+        transition: `max-height .55s ${T.ease}, opacity .35s ${T.ease}, margin-top .35s ${T.ease}`,
+        marginTop: expanded ? 18 : 0,
+      }}>
+        <TargetDrilldown target={target} />
+      </div>
+    </article>
+  );
+}
+
+// SECONDARY CARD — used in the 2-col grid.
+function TargetCard({ target, expanded, onToggle }) {
+  return (
+    <article
+      onClick={onToggle}
+      style={{
+        display: "grid", gridTemplateColumns: "88px 1fr",
+        gap: 18, padding: "24px 0",
+        borderBottom: `1px solid ${T.rule}`,
+        cursor: "pointer",
+        transition: `background .5s ${T.ease}`,
+      }}
+      onMouseEnter={(e) => { e.currentTarget.style.background = "#F4EBD006"; }}
+      onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
+    >
+      <TargetPortrait target={target} width={88} height={108} />
+
+      <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+        <div style={{
+          fontFamily: T.serif, fontWeight: 500, fontSize: 20,
+          lineHeight: 1.1, letterSpacing: "-0.01em", color: T.ivory,
+        }}>
+          {target.name}
+        </div>
+        <div style={{
+          fontFamily: T.serif, fontStyle: "italic", fontWeight: 400,
+          fontSize: 12, color: T.ivoryDim, lineHeight: 1.5,
+          display: "flex", alignItems: "center", gap: 8, flexWrap: "wrap",
+        }}>
+          <TeamCrest team={target.currentClub} size={14} />
+          <span>{target.currentClub} · {target.role} · {target.age}</span>
+        </div>
+
+        {/* Numbers row */}
+        <div style={{
+          display: "grid", gridTemplateColumns: "auto auto 1fr",
+          gap: 18, alignItems: "center",
+          borderTop: `1px solid ${T.rule}`, paddingTop: 8, marginTop: 2,
+          fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+        }}>
+          <div>
+            <div style={{ fontFamily: T.serif, fontWeight: 500, fontSize: 16, color: T.ivory }}>
+              {target.feeCurrency}{target.feeMin}–{target.feeMax}
+            </div>
+            <div style={{ fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: T.ivoryFaint, marginTop: 2, fontFamily: T.sans }}>Fee</div>
+          </div>
+          <div>
+            <div style={{ fontFamily: T.serif, fontWeight: 500, fontSize: 16, color: T.ivory }}>
+              {new Date(target.contractExpiry).getFullYear()}
+            </div>
+            <div style={{ fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase", color: T.ivoryFaint, marginTop: 2, fontFamily: T.sans }}>Contract</div>
+          </div>
+          <HeatPill probability={target.probability} heatTier={target.heatTier} width={120} />
+        </div>
+
+        {/* Two-line rumor lede */}
+        {target.rumorNote && (
+          <p style={{
+            fontFamily: T.serif, fontStyle: "italic", fontSize: 12.5,
+            color: T.ivoryDim, lineHeight: 1.55,
+            borderLeft: `1px solid ${T.red}`,
+            padding: "2px 0 2px 12px", margin: "6px 0 4px",
+            display: "-webkit-box", WebkitLineClamp: expanded ? "unset" : 3,
+            WebkitBoxOrient: "vertical", overflow: "hidden",
+          }}>
+            {target.rumorNote}
+          </p>
+        )}
+
+        <SourceBadges sources={target.sources} lastUpdated={target.lastUpdated} compact />
+      </div>
+
+      {/* Expansion */}
+      <div style={{
+        gridColumn: "1 / -1",
+        maxHeight: expanded ? 900 : 0,
+        opacity: expanded ? 1 : 0,
+        overflow: "hidden",
+        transition: `max-height .55s ${T.ease}, opacity .35s ${T.ease}, margin-top .35s ${T.ease}`,
+        marginTop: expanded ? 14 : 0,
+      }}>
+        <TargetDrilldown target={target} />
+      </div>
+    </article>
+  );
+}
+
+// LEDGER ROW — used in the table view.
+function TargetLedgerRow({ target, expanded, onToggle }) {
+  return (
+    <>
+      <tr
+        onClick={onToggle}
+        style={{
+          cursor: "pointer", borderBottom: `1px solid ${T.rule}`,
+          transition: `background .3s ${T.ease}`,
+        }}
+        onMouseEnter={(e) => { e.currentTarget.style.background = "#F4EBD006"; }}
+        onMouseLeave={(e) => { e.currentTarget.style.background = "transparent"; }}
+      >
+        <td style={{ padding: "10px 8px 10px 0" }}>
+          <TargetPortrait target={target} width={42} height={52} />
+        </td>
+        <td style={{ padding: "10px 12px" }}>
+          <div style={{ fontFamily: T.serif, fontSize: 15, color: T.ivory }}>{target.name}</div>
+          <div style={{ fontFamily: T.serif, fontStyle: "italic", fontSize: 11, color: T.ivoryFaint }}>
+            {target.role} · age {target.age}
+          </div>
+        </td>
+        <td style={{ padding: "10px 12px", color: T.ivoryDim, fontFamily: T.sans, fontSize: 11, letterSpacing: "0.12em", textTransform: "uppercase" }}>
+          {target.position}
+        </td>
+        <td style={{ padding: "10px 12px" }}>
+          <span style={{ display: "inline-flex", alignItems: "center", gap: 8 }}>
+            <TeamCrest team={target.currentClub} size={16} />
+            <span style={{ fontFamily: T.serif, fontSize: 13, color: T.ivory }}>{target.currentClub}</span>
+          </span>
+        </td>
+        <td style={{
+          padding: "10px 12px", textAlign: "right",
+          fontFamily: T.serif, fontSize: 14, color: T.ivory,
+          fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+        }}>
+          {target.feeCurrency}{target.feeMin}–{target.feeMax}
+        </td>
+        <td style={{
+          padding: "10px 12px", textAlign: "right",
+          fontFamily: T.serif, fontSize: 14, color: T.ivory,
+          fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+        }}>
+          {new Date(target.contractExpiry).getFullYear()}
+        </td>
+        <td style={{ padding: "10px 12px" }}>
+          <HeatPill probability={target.probability} heatTier={target.heatTier} width={110} />
+        </td>
+        <td style={{ padding: "10px 0 10px 12px" }}>
+          <SourceBadges sources={(target.sources || []).slice(0, 3)} compact />
+        </td>
+      </tr>
+      {expanded && (
+        <tr style={{ borderBottom: `1px solid ${T.rule}` }}>
+          <td colSpan={8} style={{ padding: "18px 0 24px" }} onClick={(e) => e.stopPropagation()}>
+            <TargetDrilldown target={target} />
+          </td>
+        </tr>
+      )}
+    </>
+  );
+}
+
+function OutgoingLedger({ outgoing }) {
+  if (!outgoing || outgoing.length === 0) return null;
+  return (
+    <section style={{ marginTop: 48 }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 16, marginBottom: 18 }}>
+        <GoldRule width={40} />
+        <SmallCaps>On the way out · {outgoing.length} departures tracked</SmallCaps>
+        <GoldRule width={40} style={{ flex: 1 }} />
+      </div>
+      <table style={{
+        width: "100%", borderCollapse: "collapse",
+        fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+      }}>
+        <tbody>
+          {outgoing.map((o) => (
+            <tr key={o.id} style={{ borderBottom: `1px solid ${T.rule}` }}>
+              <td style={{
+                padding: "12px 12px 12px 0",
+                fontFamily: T.sans, fontSize: 10, letterSpacing: "0.2em",
+                textTransform: "uppercase", color: T.ivoryFaint, width: 36,
+              }}>{o.position}</td>
+              <td style={{ padding: "12px 12px", fontFamily: T.serif, fontSize: 15, color: T.ivory }}>
+                {o.name}
+              </td>
+              <td style={{
+                padding: "12px 12px", fontFamily: T.serif, fontStyle: "italic",
+                fontSize: 13, color: T.ivoryDim,
+              }}>→ {o.destination}</td>
+              <td style={{
+                padding: "12px 12px", textAlign: "right",
+                fontFamily: T.serif, fontSize: 14, color: T.ivory, minWidth: 100,
+              }}>
+                {o.feeAsk.min === o.feeAsk.max
+                  ? `${o.feeAsk.currency}${o.feeAsk.min}`
+                  : `${o.feeAsk.currency}${o.feeAsk.min}–${o.feeAsk.max}`}
+              </td>
+              <td style={{ padding: "12px 12px", width: 150 }}>
+                <HeatPill probability={o.probability} heatTier={o.heatTier} width={130} />
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+  );
+}
+
+const POSITION_TABS = [
+  { key: "All", label: "All" },
+  { key: "GK",  label: "Goalkeepers" },
+  { key: "DEF", label: "Defenders" },
+  { key: "MID", label: "Midfielders" },
+  { key: "FWD", label: "Forwards" },
+];
+
+function TargetsView() {
+  const [posFilter, setPosFilter] = useState("All");
+  const [viewMode, setViewMode]   = useState("editorial"); // editorial | ledger
+  const [expandedId, setExpandedId] = useState(null);
+
+  const incoming = TRANSFER_TARGETS.incoming || [];
+  const outgoing = TRANSFER_TARGETS.outgoing || [];
+
+  // Filtered + sorted (heat tier then probability)
+  const filtered = useMemo(() => {
+    const tierRank = { hot: 0, warm: 1, cool: 2, done: 3, dead: 4 };
+    return incoming
+      .filter((t) => posFilter === "All" || t.position === posFilter)
+      .sort((a, b) => {
+        const dt = (tierRank[a.heatTier] ?? 9) - (tierRank[b.heatTier] ?? 9);
+        if (dt !== 0) return dt;
+        return (b.probability ?? 0) - (a.probability ?? 0);
+      });
+  }, [posFilter, incoming]);
+
+  const lead = filtered[0];
+  const rest = filtered.slice(1);
+
+  // Stat-strip aggregates
+  const aggregates = useMemo(() => {
+    const hot = incoming.filter((t) => t.heatTier === "hot").length;
+    const expSoon = incoming.filter((t) => {
+      if (!t.contractExpiry) return false;
+      const y = new Date(t.contractExpiry).getFullYear();
+      return y <= new Date().getFullYear() + 1;
+    }).length;
+    const totalProjected = incoming.reduce((acc, t) => acc + (t.feeMax || 0), 0);
+    return { hot, expSoon, totalProjected, count: incoming.length };
+  }, [incoming]);
+
+  const toggle = (id) => setExpandedId((cur) => (cur === id ? null : id));
+
+  return (
+    <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
+      <SectionHead
+        title="Transfer Targets"
+        meta={<>
+          {fmtDateLong(TRANSFER_TARGETS.generatedAt)}<br />
+          {aggregates.count} incoming · {outgoing.length} outgoing
+        </>}
+      />
+
+      {/* KPI stat-strip */}
+      <StatStrip stats={[
+        { label: "Tracked",       value: aggregates.count },
+        { label: "€m projected",  value: aggregates.totalProjected },
+        { label: "Hot",           value: aggregates.hot },
+        { label: "Expiring 2026", value: aggregates.expSoon },
+        { label: "Sources cited", value: (TRANSFER_TARGETS.sources || []).length },
+      ]} />
+
+      {/* Editorial lede */}
+      {TRANSFER_TARGETS.summary && (
+        <p style={{
+          fontFamily: T.serif, fontStyle: "italic", fontSize: 17,
+          lineHeight: 1.65, color: T.ivoryDim,
+          maxWidth: 820, margin: "32px 0 36px",
+        }}>
+          <span style={{
+            float: "left", fontFamily: T.serif, fontStyle: "italic",
+            fontSize: 56, lineHeight: 0.92, color: T.red, fontWeight: 500,
+            marginRight: 10, marginTop: 4,
+          }}>{TRANSFER_TARGETS.summary.slice(0, 1)}</span>
+          {TRANSFER_TARGETS.summary.slice(1)}
+        </p>
+      )}
+
+      {/* Position tabs + view toggle */}
+      <div style={{
+        display: "flex", justifyContent: "space-between", alignItems: "center",
+        marginBottom: 28, gap: 24, flexWrap: "wrap",
+        borderBottom: `1px solid ${T.rule}`,
+      }}>
+        {/* Position filter */}
+        <div style={{ display: "flex", alignItems: "center" }}>
+          {POSITION_TABS.map((t, i) => {
+            const active = posFilter === t.key;
+            return (
+              <button
+                key={t.key}
+                onClick={() => { setPosFilter(t.key); setExpandedId(null); }}
+                style={{
+                  background: "none", border: "none", cursor: "pointer",
+                  padding: "10px 16px",
+                  color: active ? T.ivory : T.ivoryDim,
+                  fontFamily: T.sans, fontSize: 11, fontWeight: 500,
+                  letterSpacing: "0.22em", textTransform: "uppercase",
+                  position: "relative", transition: `color .5s ${T.ease}`,
+                  borderRight: i < POSITION_TABS.length - 1 ? `1px solid ${T.rule}` : "none",
+                }}
+              >
+                {t.label}
+                {active && (
+                  <span style={{
+                    position: "absolute", left: 16, right: 16, bottom: -1,
+                    height: 1, background: T.red,
+                  }} />
+                )}
+              </button>
+            );
+          })}
+        </div>
+        {/* View toggle */}
+        <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+          {[
+            { key: "editorial", label: "Editorial" },
+            { key: "ledger",    label: "Ledger" },
+          ].map((m) => {
+            const active = viewMode === m.key;
+            return (
+              <button
+                key={m.key}
+                onClick={() => { setViewMode(m.key); setExpandedId(null); }}
+                style={{
+                  background: "none", border: "none", cursor: "pointer",
+                  padding: "10px 0",
+                  color: active ? T.ivory : T.ivoryFaint,
+                  fontFamily: T.sans, fontSize: 11, fontWeight: 500,
+                  letterSpacing: "0.22em", textTransform: "uppercase",
+                  borderBottom: active ? `1px solid ${T.red}` : "1px solid transparent",
+                  transition: `color .3s ${T.ease}, border-color .3s ${T.ease}`,
+                }}
+              >
+                {m.label}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Body */}
+      {filtered.length === 0 ? (
+        <p style={{
+          fontFamily: T.serif, fontStyle: "italic", fontSize: 15,
+          color: T.ivoryFaint, padding: "32px 0",
+        }}>
+          No targets tracked at this position.
+        </p>
+      ) : viewMode === "editorial" ? (
+        <>
+          {lead && (
+            <LeadTargetCard
+              target={lead}
+              expanded={expandedId === lead.id}
+              onToggle={() => toggle(lead.id)}
+            />
+          )}
+          {rest.length > 0 && (
+            <div style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(360px, 1fr))",
+              columnGap: 48, rowGap: 0,
+            }}>
+              {rest.map((t) => (
+                <TargetCard
+                  key={t.id}
+                  target={t}
+                  expanded={expandedId === t.id}
+                  onToggle={() => toggle(t.id)}
+                />
+              ))}
+            </div>
+          )}
+        </>
+      ) : (
+        <div style={{ overflowX: "auto" }}>
+          <table style={{ width: "100%", borderCollapse: "collapse", minWidth: 880 }}>
+            <thead>
+              <tr style={{
+                borderBottom: `1px solid ${T.ruleStrong}`,
+                fontFamily: T.sans, fontSize: 10, fontWeight: 600,
+                letterSpacing: "0.22em", textTransform: "uppercase",
+                color: T.ivoryFaint, textAlign: "left",
+              }}>
+                <th style={{ padding: "10px 8px 10px 0" }}></th>
+                <th style={{ padding: "10px 12px" }}>Player</th>
+                <th style={{ padding: "10px 12px" }}>Pos</th>
+                <th style={{ padding: "10px 12px" }}>Current club</th>
+                <th style={{ padding: "10px 12px", textAlign: "right" }}>Fee</th>
+                <th style={{ padding: "10px 12px", textAlign: "right" }}>Cnt</th>
+                <th style={{ padding: "10px 12px" }}>Heat</th>
+                <th style={{ padding: "10px 0 10px 12px" }}>Sources</th>
+              </tr>
+            </thead>
+            <tbody>
+              {filtered.map((t) => (
+                <TargetLedgerRow
+                  key={t.id}
+                  target={t}
+                  expanded={expandedId === t.id}
+                  onToggle={() => toggle(t.id)}
+                />
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+
+      <OutgoingLedger outgoing={outgoing} />
+    </section>
+  );
+}
+
 // ─── DISPATCHES VIEW ───────────────────────────────────────────────────────
 
 function DispatchesView() {
@@ -2073,6 +3030,7 @@ export default function LiverpoolTracker() {
           </section>
         )}
         {view === "standings"  && <StandingsView />}
+        {view === "targets"    && <TargetsView />}
         {view === "dispatches" && <DispatchesView />}
         {view === "news"       && <NewsView />}
 
