@@ -602,7 +602,7 @@ export const TRANSFER_TARGETS = {
       role: "Right winger",
       nationality: "🇨🇮 Ivory Coast",
       foot: "Two-footed",
-      image: "",
+      image: "https://assets.bundesliga.com/contender/2025/11/2526_MD10_TSGRBL_SW_151.jpg?crop=338px,0px,1352px,1080px&fit=540,540",
       currentClub: "RB Leipzig",
       currentLeague: "Bundesliga",
       feeMin: 90, feeMax: 100, feeCurrency: "€m",
