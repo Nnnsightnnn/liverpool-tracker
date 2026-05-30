@@ -348,11 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday, and the rebuild has turned defensive. Ibrahima Konaté is on course
-          to leave for nothing, his contract talks collapsed and Real Madrid suddenly
-          cool; Richard Hughes now wants two centre-backs. Andoni Iraola lets it be
-          known he would come. Robertson's free transfer to Tottenham gets its 'here
-          we go.' Nashville, and the first whistle, are still two months away.
+          Saturday, and the summer keeps subtracting. Jeremie Frimpong is left out of
+          the Netherlands' World Cup squad; Anthony Gordon, the winger Liverpool might
+          have signed, goes to Barcelona instead. The season finished fifth, and
+          finished a week ago. Nashville, and the first whistle of the next one, are
+          still eight weeks away.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,18 +367,19 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>{" "}
-              and the noise has moved from the dugout to the back four. Ibrahima
-              Konaté, whose extension looked all but agreed in April, is now expected
-              to leave Anfield as a free agent — the talks foundered on trophy-bonus
-              clauses, and Real Madrid, long the deal's shadow, walked away citing his
-              form. Richard Hughes wants two centre-backs in response, with Maxence
-              Lacroix, Jan Paul van Hecke and Ousmane Diomande among the names. The
-              manager's chair stayed warm in the gossip too: Andoni Iraola, freshly
-              out of Bournemouth and a European place, has let it be known he is
-              interested, even as the club insists Slot is staying. Fabrizio Romano's
-              'here we go,' meanwhile, lands on Robertson's move to De Zerbi's
-              Tottenham. The farewells keep coming; the replacements arrive more slowly.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>{" "}
+              and the week's losses were quieter than transfer fees — a squad list, a
+              medical in Catalonia, a name carved in marble. Jeremie Frimpong has been
+              left out of the Netherlands' World Cup squad, Ronald Koeman blunt about
+              the injuries that thinned his season, while Van Dijk, Gravenberch and
+              Gakpo pack for North America. Anthony Gordon, the homegrown winger
+              Liverpool kept in reserve, completed a Barcelona medical instead, and so
+              the whole attacking summer leans now on a teenager in Leipzig. Conor
+              Bradley's knee carries no timeline into pre-season; Ibrahima Konaté
+              drifts toward a free exit. And on the forty-first anniversary of Heysel,
+              the club unveiled a new memorial — two scarves knotted in Carrara marble,
+              thirty-nine names, Juventus in attendance. The football is gone for now;
+              the grief, and the rebuild, are not.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -386,10 +387,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a defender walking toward the exit for nothing; a manager
-              freshly available who would happily come; a captain of nine years bound
-              for London; a teenager in Leipzig the whole front line now hinges on.
-              Read slowly. The ink is still drying.
+              week. There is an international left off a World Cup list; a winger lost
+              to Barcelona; thirty-nine names cut into marble by the Anfield Road
+              Stand; a striker who will name his next club only when the tournament is
+              over. Read slowly. The ink is still drying.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -2868,7 +2869,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Leaving for nothing, again."
+        "Two scarves, knotted in marble."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
