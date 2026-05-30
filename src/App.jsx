@@ -348,11 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday, and the summer keeps subtracting. Jeremie Frimpong is left out of
-          the Netherlands' World Cup squad; Anthony Gordon, the winger Liverpool might
-          have signed, goes to Barcelona instead. The season finished fifth, and
-          finished a week ago. Nashville, and the first whistle of the next one, are
-          still eight weeks away.
+          Saturday, and the title-winner is gone. Liverpool have sacked Arne Slot,
+          eleven months after he lifted the trophy and one bruising season after —
+          fifth, twenty defeats, the crown surrendered. Andoni Iraola is the early
+          favourite to follow him. Nashville, and whoever takes the first whistle
+          there, is eight weeks away.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,18 +368,18 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>{" "}
-              and the week's losses were quieter than transfer fees — a squad list, a
-              medical in Catalonia, a name carved in marble. Jeremie Frimpong has been
-              left out of the Netherlands' World Cup squad, Ronald Koeman blunt about
-              the injuries that thinned his season, while Van Dijk, Gravenberch and
-              Gakpo pack for North America. Anthony Gordon, the homegrown winger
-              Liverpool kept in reserve, completed a Barcelona medical instead, and so
-              the whole attacking summer leans now on a teenager in Leipzig. Conor
-              Bradley's knee carries no timeline into pre-season; Ibrahima Konaté
-              drifts toward a free exit. And on the forty-first anniversary of Heysel,
-              the club unveiled a new memorial — two scarves knotted in Carrara marble,
-              thirty-nine names, Juventus in attendance. The football is gone for now;
-              the grief, and the rebuild, are not.
+              and the reckoning came at lunchtime. Liverpool have sacked Arne Slot, the
+              man who won the title in his first season and lost the dressing room in
+              his second; the owners spoke of a 'different approach' after twenty
+              defeats, fifty-two goals conceded and a fifth place that held only on the
+              final day. Andoni Iraola, who carried Bournemouth into Europe and then
+              walked, is the early favourite to replace him, Nagelsmann and Luis
+              Enrique behind. The rest of a heavy week now reads as prologue: Jeremie
+              Frimpong left off a World Cup list, Anthony Gordon gone to Barcelona,
+              thirty-nine names freshly cut into Carrara marble for Heysel. Ibrahima
+              Konaté drifts toward a free exit; Mohamed Salah will name his next club
+              only when the tournament is done. A club between managers, and between
+              eras.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -387,10 +387,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is an international left off a World Cup list; a winger lost
-              to Barcelona; thirty-nine names cut into marble by the Anfield Road
-              Stand; a striker who will name his next club only when the tournament is
-              over. Read slowly. The ink is still drying.
+              week. There is a champion manager sacked a year after the title; an
+              international left off a World Cup list; a winger lost to Barcelona;
+              thirty-nine names cut into marble by the Anfield Road Stand. Read slowly.
+              The ink is still drying.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -2869,7 +2869,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Two scarves, knotted in marble."
+        "Eleven months ago, they sang his name."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

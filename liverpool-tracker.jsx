@@ -128,6 +128,8 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
+  { source: "Sports Mole / The Irish Times", title: "Liverpool SACK Arne Slot 'with immediate effect' — the title-winner gone after a 20-defeat defence, the owners citing a need for a 'different approach'", time: "today", category: "official" },
+  { source: "Sky Sports / Sports Mole", title: "Andoni Iraola the clear favourite to replace Slot at Anfield, with Julian Nagelsmann and Luis Enrique also on the bookmakers' list", time: "today", category: "major" },
   { source: "ESPN / Liverpool.com", title: "Jeremie Frimpong axed from Netherlands' World Cup squad — Koeman cites 'the pattern of this season that he has been injured regularly' as Van Dijk, Gravenberch and Gakpo travel", time: "today", category: "major" },
   { source: "SportBible / Yahoo Sports", title: "Frimpong breaks silence on the snub: 'It wasn't meant to be this time, but I'll be supporting the boys every step of the way this summer'", time: "today", category: "fan" },
   { source: "Sky Sports / RTÉ", title: "Anthony Gordon completes Barcelona medical — Catalans agree ~£70m with Newcastle and beat Bayern as Liverpool step aside to focus on Diomande", time: "today", category: "major" },
@@ -137,10 +139,8 @@ const LATEST_NEWS = [
   { source: "This Is Anfield / Caught Offside", title: "Why Liverpool walked away from Konaté's renewal — an impasse over wages, the Frenchman now set to leave for nothing; a '£43.2m bargain' floated as the fix", time: "1d ago", category: "major" },
   { source: "Liverpool.com / This Is Anfield", title: "Diomande the priority and Leipzig's €100m valuation holds — 'a sense Liverpool will sign more than one versatile attacker' to fill the Salah hole", time: "2d ago", category: "major" },
   { source: "Liverpool.com", title: "Liverpool enquire on PSG's Warren Zaire-Emery — but the 20-year-old is highly rated in Paris and neither player nor club seems open to a deal", time: "2d ago", category: "fan" },
-  { source: "Liverpool.com / NewsNow", title: "Slot stays — but under pressure: FSG satisfied to keep the Dutchman after 20 defeats and fifth, with the caveat a poor start brings the heat early", time: "2d ago", category: "major" },
   { source: "Sky Sport Italia / Get Italian Football News", title: "Curtis Jones the cleanest live sale — Inter keen around €20m, Liverpool value the Anfield-born midfielder at €30m to help fund the rebuild", time: "2d ago", category: "major" },
   { source: "Liverpool FC / NBC Sports", title: "Pre-season opens at Nashville's Geodis Park against Sunderland on July 25, Wrexham at Yankee Stadium July 29, Leeds at Soldier Field August 2", time: "3d ago", category: "official" },
-  { source: "Sky Germany / Fabrizio Romano", title: "Samuel Martinez a 'done deal' — 17-year-old Colombian flying in for a medical and a five-year contract, academy first", time: "3d ago", category: "official" },
   { source: "Sky Sports / ESPN", title: "Liverpool 1-1 Brentford: Curtis Jones turns in a Salah cross before Kevin Schade levels — the Champions League place sealed amid the long farewell", time: "6d ago", category: "major" },
 ];
 

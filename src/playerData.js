@@ -424,14 +424,14 @@ export const STANDINGS_COMMENTARY = {
   matchweek: 38,
   generatedAt: "2026-05-30T08:00:00Z",
   overview:
-    "Almost a week past the final whistle, the table has stopped being a record and become a backdrop — the fixed frame against which the summer's moves are read. Arsenal's 85 points head a Champions League quartet — City 78, United 71, Villa 65 — above a Liverpool fifth on 60, the European place banked and a heavy rebuild now underway beneath it. The fault lines run through the European rows: Newcastle, twelfth and out of the top flight's continental places, have just sold Anthony Gordon to Barcelona for around £70m; Tottenham, survivors in seventeenth under Roberto De Zerbi, have landed Andy Robertson on a free. Bournemouth's sixth-place Europa League finish stands as the season's best story, Crystal Palace ride the FA Cup into Europe from fifteenth, and Brighton hold the Conference League play-off in eighth. West Ham, Burnley and Wolves are down.",
+    "Almost a week past the final whistle, the table reads as the indictment that cost Arne Slot his job: Liverpool sacked the title-winner on Saturday after a fifth-place defence of the crown, twenty defeats and a club-record fifty-two league goals conceded. Arsenal's 85 points head a Champions League quartet — City 78, United 71, Villa 65 — above a Liverpool fifth on 60, the European place banked and now a managerial search layered on top of a heavy rebuild. The fault lines run through the European rows too: Newcastle, twelfth and out of the continental places, have sold Anthony Gordon to Barcelona for around £70m; Tottenham, survivors in seventeenth under De Zerbi, have landed Andy Robertson on a free. Bournemouth's sixth-place Europa League finish stands as the season's best story — and its manager, Andoni Iraola, is now the favourite for the Anfield job. West Ham, Burnley and Wolves are down.",
   teams: {
     "Arsenal": "Champions — 85 points, the first English title-winner since 2017 to do it without lifting a domestic cup.",
     "Manchester City": "Second on 78 — Pep restored to the Champions League, never within reach of Arsenal across the run-in.",
     "Manchester United": "Third on 71 — Amorim's first full season delivers a quiet return to Europe's top table.",
     "Aston Villa": "Fourth on 65 — Emery takes the last automatic UCL berth; the 4-2 over Liverpool on May 15 the night that sealed it.",
-    "Liverpool": "Fifth on 60 — twenty-five points behind Arsenal; the Champions League place was the floor FSG set, and a sell-to-buy summer now defined by a likely Konaté free exit and the hunt for a Salah heir.",
-    "Bournemouth": "Sixth and Europa League — the season's overachievers, the standout campaign in the bottom half of the table.",
+    "Liverpool": "Fifth on 60 — twenty-five points behind Arsenal; the finish that cost Arne Slot his job on May 30, leaving a managerial search on top of a sell-to-buy rebuild headlined by Konaté's likely free exit and the hunt for a Salah heir.",
+    "Bournemouth": "Sixth and Europa League — the season's overachievers, and their departing manager Andoni Iraola is now the favourite to replace Slot at Anfield.",
     "Sunderland": "Seventh and into Europe in their promotion season — first up at Nashville for Liverpool's pre-season opener on July 25.",
     "Brighton": "Eighth — a Conference League play-off place keeps Brighton in Europe for a third straight summer.",
     "Brentford": "Ninth on 53 — level with Brighton on points but out of Europe for the first time in their top-flight history.",
@@ -449,6 +449,14 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
+    headline: "Champions In May, Sacked The Next.",
+    byline: "Sports Mole / The Irish Times / Al Arabiya",
+    dateline: "Anfield · 30 May",
+    category: "Manager",
+    body: "A title in his first season; a P45 in his second. Liverpool sacked Arne Slot on Saturday lunchtime, 'with immediate effect,' the ownership wrapping the decision in the language of an end-of-season review and a need for a 'different approach.' The numbers made the verdict for them: twenty defeats, fifty-two league goals conceded — a club Premier League worst — and a fifth place that wobbled until the final day, with a dressing room Salah did not always keep quiet. Andoni Iraola is the clear favourite to follow him, Nagelsmann and Luis Enrique behind. Eleven months ago they sang his name. Football keeps no diary.",
+  },
+  {
+    n: "02",
     headline: "A World Cup Squad, And The Name That Isn't On It.",
     byline: "ESPN / Liverpool.com / This Is Anfield",
     dateline: "Zeist · 29 May",
@@ -456,7 +464,7 @@ export const DISPATCHES = [
     body: "Ronald Koeman read out twenty-six names and Jeremie Frimpong's was not among them, and so a season of small injuries acquired a final, public verdict. 'It is the pattern of this season that he has been injured regularly,' the Netherlands manager said, plainly, of a wing-back who had answered every fit call-up since 2023. Van Dijk, Gravenberch and Gakpo will go to North America; Frimpong will watch. His reply came not in a press room but on Instagram, in the register of a man trying to be gracious: it wasn't meant to be this time. A hamstring took thirty-five appearances. It has now taken a summer too.",
   },
   {
-    n: "02",
+    n: "03",
     headline: "The Winger Liverpool Could Have Had Goes To Barcelona.",
     byline: "Sky Sports / RTÉ / ESPN",
     dateline: "Barcelona · 28 May",
@@ -464,20 +472,12 @@ export const DISPATCHES = [
     body: "For two windows Anthony Gordon was the homegrown answer Liverpool kept in their back pocket — the Scouser who fancied the move, the safe fallback if the exotic target slipped. This week the pocket emptied. Gordon completed a Barcelona medical after the Catalans agreed roughly £70m with Newcastle, fending off Bayern, and Hansi Flick is said to be picturing him as a striker now Lewandowski has gone. Liverpool, the reporting agrees, simply chose not to re-enter the room. It is a clarifying kind of loss: the fallback is gone, and the whole attacking summer now leans, undisguised, on a teenager in Leipzig.",
   },
   {
-    n: "03",
+    n: "04",
     headline: "Two Scarves, Knotted In Marble.",
     byline: "Liverpool FC / ESPN / The Guide Liverpool",
     dateline: "Anfield · 29 May",
     category: "Football News",
     body: "Forty-one years on, the club gave Heysel a more honest home. By the Anfield Road Stand, where more people will pass it, stands 'Forever Bound' — two scarves carved from Carrara marble and knotted together, the thirty-nine names cut into the stone. Representatives of Juventus came to see it, because the bond the sculpture describes is between two clubs that grief made permanent. It replaces the small plaque on the Dalglish Stand wall, the one you had to know was there. Some memorials are built to be found. This one was built to be unavoidable, which is the point.",
-  },
-  {
-    n: "04",
-    headline: "Bradley, The Gym, And A Date Nobody Will Name.",
-    byline: "This Is Anfield / Liverpool.com / Empire Of The Kop",
-    dateline: "Liverpool · 28 May",
-    category: "Injuries",
-    body: "Four and a half months after his knee gave way in the goalless afternoon at the Emirates, Conor Bradley is doing the unglamorous work — load-bearing reps in the AXA gym, the early architecture of a return. Michael O'Neill, his country's manager, called him 'doing well' on Thursday and then declined to say more, the detail 'confidential.' Arne Slot had been blunter weeks earlier: complicated, the player still 'quite far away of already going outside.' Jacquet and Leoni are spoken of with more confidence for pre-season. Bradley, the right-back the season was supposed to belong to, is spoken of with hope and a shrug.",
   },
   {
     n: "05",
@@ -493,8 +493,14 @@ export const DISPATCHES = [
 export const NEWS_DIGEST = {
   generatedAt: "2026-05-30T08:00:00Z",
   summary:
-    "Saturday, and the cruellest blow of the week landed on a player, not a contract. Ronald Koeman has left Jeremie Frimpong out of the Netherlands' World Cup squad, the manager blunt about why — 'it is the pattern of this season that he has been injured regularly' — even as Virgil van Dijk, Ryan Gravenberch and Cody Gakpo all made the cut; Frimpong's reply, posted to Instagram, was a quiet 'it wasn't meant to be this time.' The transfer board moved hard too: Anthony Gordon, floated only days ago as Liverpool's homegrown wing fallback, has completed a medical at Barcelona on a deal worth around £70m, the Reds having stepped aside to keep their resources aimed at RB Leipzig's Yan Diomandé. Off the pitch, the club unveiled 'Forever Bound,' a new Carrara-marble memorial to the thirty-nine who died at Heysel, on the disaster's forty-first anniversary, with Juventus present. Ibrahima Konaté's drift toward a free exit and Conor Bradley's uncertain pre-season fitness round out a heavy week; Mohamed Salah, gone from Anfield, says only that he will decide his next club 'after the World Cup.'",
+    "Saturday, and the season's reckoning arrived at lunchtime: Liverpool have sacked Arne Slot. Two years after his appointment and barely twelve months after he won the title at the first attempt, the club acted 'with immediate effect' following an end-of-season review, the ownership citing a need for a 'different approach' after a defence of the crown that brought twenty defeats, a club-record fifty-two league goals conceded and a fifth-place finish secured only on the final day. Andoni Iraola, freshly out of Bournemouth, is the clear favourite to replace him, with Julian Nagelsmann and Luis Enrique also on the bookmakers' list. The week's other blows now read as prelude: Jeremie Frimpong left out of the Netherlands' World Cup squad, Anthony Gordon gone to Barcelona on a ~£70m medical as Liverpool stepped aside, and a new Carrara-marble Heysel memorial unveiled on the disaster's forty-first anniversary. Ibrahima Konaté still drifts toward a free exit; Mohamed Salah, gone from Anfield, will name his next club 'after the World Cup.'",
   keyTopics: [
+    {
+      title: "Liverpool Sack Arne Slot — Title-Winner Gone After A 20-Defeat Defence (Sports Mole / The Irish Times / Al Arabiya, reported Sat May 30)",
+      detail:
+        "The biggest call of the summer came at Saturday lunchtime: Liverpool sacked Arne Slot 'with immediate effect' after an end-of-season review, two years into his reign and twelve months after he won the title in his first campaign. The ownership spoke of needing a 'different approach' following a season of twenty defeats, a club-record fifty-two league goals conceded and a fifth place secured only on the final day, with dressing-room disharmony — Salah its most outspoken voice — part of the backdrop. Andoni Iraola is the clear favourite to succeed him; Julian Nagelsmann and Luis Enrique are also linked.",
+      category: "general",
+    },
     {
       title: "Frimpong Axed From Netherlands' World Cup Squad — Koeman Cites 'The Pattern Of This Season' (ESPN / Liverpool.com / This Is Anfield, reported Thu-Fri May 28-29)",
       detail:
@@ -520,9 +526,9 @@ export const NEWS_DIGEST = {
       category: "injuries",
     },
     {
-      title: "Slot Stays — But Under Pressure: FSG Satisfied, Speculation Won't Die (Liverpool.com / NewsNow, reported this week)",
+      title: "Iraola The Clear Favourite For The Anfield Job — Nagelsmann, Luis Enrique Also Listed (Sports Mole / Sky Sports, reported Sat May 30)",
       detail:
-        "The manager question reframed itself this week, away from outside candidates and toward the incumbent. FSG are reported satisfied to keep Arne Slot, who won the title in year one before a defence-of-the-crown that brought twenty defeats, a fifth-place finish and roughly $600m of spending. The caveat in every briefing is the same: a poor start to 2026-27 would bring the pressure early. The vote of confidence is real, and conditional.",
+        "Slot's dismissal turned a subplot into the headline. Andoni Iraola — freshly out of a Bournemouth side he carried to a sixth-place Europa League finish, and long tied to sporting director Richard Hughes from their south-coast years — is the clear bookmakers' favourite to take over. Germany's Julian Nagelsmann and PSG's Luis Enrique sit high on the list behind him. The search is under way 'with immediate effect'; whoever arrives inherits a rebuild already in motion and a squad shedding senior names by the week.",
       category: "general",
     },
     {
@@ -557,6 +563,10 @@ export const NEWS_DIGEST = {
     },
   ],
   sources: [
+    "Sports Mole",
+    "The Irish Times",
+    "Al Arabiya",
+    "OneFootball",
     "ESPN",
     "Liverpool.com",
     "This Is Anfield",
@@ -572,10 +582,7 @@ export const NEWS_DIGEST = {
     "The Guide Liverpool",
     "Yahoo Sports",
     "SportBible",
-    "NewsNow",
     "NBC Sports",
-    "TEAMtalk",
-    "Fabrizio Romano",
   ],
 };
 
