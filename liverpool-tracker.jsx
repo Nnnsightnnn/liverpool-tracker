@@ -128,20 +128,20 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Sports Mole / The Irish Times", title: "Liverpool SACK Arne Slot 'with immediate effect' — the title-winner gone after a 20-defeat defence, the owners citing a need for a 'different approach'", time: "today", category: "official" },
-  { source: "Sky Sports / Sports Mole", title: "Andoni Iraola the clear favourite to replace Slot at Anfield, with Julian Nagelsmann and Luis Enrique also on the bookmakers' list", time: "today", category: "major" },
-  { source: "ESPN / Liverpool.com", title: "Jeremie Frimpong axed from Netherlands' World Cup squad — Koeman cites 'the pattern of this season that he has been injured regularly' as Van Dijk, Gravenberch and Gakpo travel", time: "today", category: "major" },
-  { source: "SportBible / Yahoo Sports", title: "Frimpong breaks silence on the snub: 'It wasn't meant to be this time, but I'll be supporting the boys every step of the way this summer'", time: "today", category: "fan" },
-  { source: "Sky Sports / RTÉ", title: "Anthony Gordon completes Barcelona medical — Catalans agree ~£70m with Newcastle and beat Bayern as Liverpool step aside to focus on Diomande", time: "today", category: "major" },
-  { source: "Liverpool FC / ESPN", title: "'Forever Bound': Liverpool unveil new Carrara-marble Heysel memorial by the Anfield Road Stand on the disaster's 41st anniversary, Juventus present", time: "1d ago", category: "official" },
-  { source: "This Is Anfield / Empire Of The Kop", title: "Conor Bradley a pre-season doubt — O'Neill 'encouraged' but the knee carries 'no timeline'; Slot had already called the case 'complicated'", time: "1d ago", category: "major" },
-  { source: "beIN Sports / The National", title: "Salah on his next club: 'I am still assessing things. I'm going to the World Cup and then everything will become clear' — Al-Hilal now join Al-Ittihad in the race", time: "1d ago", category: "fan" },
-  { source: "This Is Anfield / Caught Offside", title: "Why Liverpool walked away from Konaté's renewal — an impasse over wages, the Frenchman now set to leave for nothing; a '£43.2m bargain' floated as the fix", time: "1d ago", category: "major" },
-  { source: "Liverpool.com / This Is Anfield", title: "Diomande the priority and Leipzig's €100m valuation holds — 'a sense Liverpool will sign more than one versatile attacker' to fill the Salah hole", time: "2d ago", category: "major" },
-  { source: "Liverpool.com", title: "Liverpool enquire on PSG's Warren Zaire-Emery — but the 20-year-old is highly rated in Paris and neither player nor club seems open to a deal", time: "2d ago", category: "fan" },
-  { source: "Sky Sport Italia / Get Italian Football News", title: "Curtis Jones the cleanest live sale — Inter keen around €20m, Liverpool value the Anfield-born midfielder at €30m to help fund the rebuild", time: "2d ago", category: "major" },
-  { source: "Liverpool FC / NBC Sports", title: "Pre-season opens at Nashville's Geodis Park against Sunderland on July 25, Wrexham at Yankee Stadium July 29, Leeds at Soldier Field August 2", time: "3d ago", category: "official" },
-  { source: "Sky Sports / ESPN", title: "Liverpool 1-1 Brentford: Curtis Jones turns in a Salah cross before Kevin Schade levels — the Champions League place sealed amid the long farewell", time: "6d ago", category: "major" },
+  { source: "Fabrizio Romano / Football365", title: "'Iraola and Iraola only' — Romano says Liverpool's decision is made, no chance for other candidates, with personal terms set to be agreed within days", time: "today", category: "official" },
+  { source: "The Irish News / GB News", title: "Steven Gerrard backs the hire: 'Andoni Iraola's style suits Liverpool' — a return to high-pressing, vertical football after a flat title defence", time: "today", category: "major" },
+  { source: "This Is Anfield / Opta Analyst", title: "The man Liverpool are hiring: a 'no days off' disciplinarian with a ferocious press Opta calls 'so suited' to this squad — and a high-wire risk to manage", time: "today", category: "major" },
+  { source: "GB News", title: "Supporters split on the Slot call — 'he should have been given more time,' say some; others point to 19 defeats and a dressing room Salah didn't keep quiet", time: "today", category: "fan" },
+  { source: "Sky Sports / Liverpool.com", title: "Alisson Becker set to stay and rebuff Juventus — WinWin reports the 33-year-old remains, giving the new manager a settled spine to build in front of", time: "1d ago", category: "major" },
+  { source: "Liverpool.com / Sky Sports", title: "Leipzig push the Diomande price toward £150m as Manchester City and United join the chase — the teenager himself casting doubt on a summer move", time: "1d ago", category: "major" },
+  { source: "Sky Sports / This Is Anfield", title: "Konaté's exit now set after renewal talks running since November 2023 collapse — a back line of a 34-year-old Van Dijk, Gomez, Leoni and Jacquet left behind", time: "1d ago", category: "major" },
+  { source: "beIN Sports / The National", title: "Salah on his next club: 'I have time now. I'm going to the World Cup and then everything will become clear' — Al-Ittihad lead, Al-Hilal in it", time: "1d ago", category: "fan" },
+  { source: "Sky Sports / Fabrizio Romano", title: "Andy Robertson's free move to De Zerbi's Tottenham is done — the Scotland captain joins Salah out of the door as the old title-winning core thins", time: "2d ago", category: "major" },
+  { source: "Sky Sports / RTÉ", title: "Anthony Gordon completes his Barcelona medical at ~£70m — Liverpool had stepped aside, narrowing the winger rebuild to Diomande and Barcola", time: "2d ago", category: "major" },
+  { source: "ESPN / Liverpool.com", title: "Frimpong left out of the Netherlands' World Cup 26 — Koeman cites a stop-start, injury-hit season; Van Dijk, Gravenberch and Gakpo all travel", time: "2d ago", category: "major" },
+  { source: "Liverpool FC / ESPN", title: "'Forever Bound': Liverpool's new Carrara-marble Heysel memorial stands by the Anfield Road Stand on the disaster's 41st anniversary, Juventus present", time: "2d ago", category: "official" },
+  { source: "Liverpool FC / NBC Sports", title: "Pre-season opens at Nashville's Geodis Park against Sunderland on July 25, Wrexham at Yankee Stadium July 29, Leeds at Soldier Field August 2", time: "4d ago", category: "official" },
+  { source: "Sky Sports / ESPN", title: "Liverpool 1-1 Brentford: Curtis Jones turns in a Salah cross before Kevin Schade levels — the Champions League place sealed amid the long farewell", time: "1w ago", category: "major" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────

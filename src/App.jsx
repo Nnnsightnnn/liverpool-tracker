@@ -348,11 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday, and the title-winner is gone. Liverpool have sacked Arne Slot,
-          eleven months after he lifted the trophy and one bruising season after —
-          fifth, twenty defeats, the crown surrendered. Andoni Iraola is the early
-          favourite to follow him. Nashville, and whoever takes the first whistle
-          there, is eight weeks away.
+          Sunday, and the succession is all but settled. Two days after sacking
+          Arne Slot, Liverpool have decided on Andoni Iraola — 'Iraola and Iraola
+          only,' terms to be agreed within days. He inherits a fifth-place finish,
+          a thinning squad, and a rebuild already underway. Nashville, and the
+          first sight of his team, is eight weeks away.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,19 +367,17 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>{" "}
-              and the reckoning came at lunchtime. Liverpool have sacked Arne Slot, the
-              man who won the title in his first season and lost the dressing room in
-              his second; the owners spoke of a 'different approach' after twenty
-              defeats, fifty-two goals conceded and a fifth place that held only on the
-              final day. Andoni Iraola, who carried Bournemouth into Europe and then
-              walked, is the early favourite to replace him, Nagelsmann and Luis
-              Enrique behind. The rest of a heavy week now reads as prologue: Jeremie
-              Frimpong left off a World Cup list, Anthony Gordon gone to Barcelona,
-              thirty-nine names freshly cut into Carrara marble for Heysel. Ibrahima
-              Konaté drifts toward a free exit; Mohamed Salah will name his next club
-              only when the tournament is done. A club between managers, and between
-              eras.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>{" "}
+              and the next era already has a name. Forty-eight hours after sacking the
+              man who won the title in his first season, Liverpool have made their
+              choice — Andoni Iraola, 'number one, two and three on the list,' with
+              personal terms to be agreed within days. Steven Gerrard says the Basque's
+              high-pressing football suits the squad; the profile that travels with him
+              says 'no days off.' He arrives into a market that will not wait: Leipzig
+              have pushed the price of Salah's heir, Yan Diomandé, toward £150m with
+              City and United now circling, Ibrahima Konaté is bound for a free exit,
+              and Alisson, at least, is staying. A club that spent eleven months
+              deciding it had erred, and a weekend deciding how to mend it.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -387,10 +385,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a champion manager sacked a year after the title; an
-              international left off a World Cup list; a winger lost to Barcelona;
-              thirty-nine names cut into marble by the Anfield Road Stand. Read slowly.
-              The ink is still drying.
+              week. There is a manager all but appointed two days after the last one
+              was sacked; a winger whose price is climbing out of reach; a defence
+              thinned to a single uneasy sentence; and a fanbase arguing with itself.
+              Read slowly. The ink is still drying.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -2869,7 +2867,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Eleven months ago, they sang his name."
+        "A weekend to choose the next era."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
