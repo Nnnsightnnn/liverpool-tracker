@@ -338,6 +338,8 @@ export const TEAM_LOGOS = {
   "Inter Milan":      "https://img.uefa.com/imgml/TP/teams/logos/50x50/50138.png",
   "Juventus":         "https://img.uefa.com/imgml/TP/teams/logos/50x50/50139.png",
   "Atlético Madrid":  "https://img.uefa.com/imgml/TP/teams/logos/50x50/50124.png",
+  "Rennes":           "https://img.uefa.com/imgml/TP/teams/logos/50x50/50097.png",
+  "Rennes (loan)":    "https://img.uefa.com/imgml/TP/teams/logos/50x50/50097.png",
 };
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
