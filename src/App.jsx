@@ -353,7 +353,7 @@ function CoverView({ onJump }) {
           personal terms — the last details of an appointment nearly done. He
           inherits a fifth-place finish, a thinning squad, and a midfield plan
           already missing its first target. The first sight of his team, in
-          Nashville, is still seven weeks off.
+          Nashville, is still eight weeks off.
         </p>
 
         <StatStrip stats={stats} />

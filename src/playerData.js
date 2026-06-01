@@ -641,7 +641,7 @@ export const TRANSFER_TARGETS = {
       image: "https://assets.bundesliga.com/contender/2025/11/2526_MD10_TSGRBL_SW_151.jpg?crop=338px,0px,1352px,1080px&fit=540,540",
       currentClub: "RB Leipzig",
       currentLeague: "Bundesliga",
-      feeMin: 120, feeMax: 175, feeCurrency: "€m",
+      feeMin: 120, feeMax: 150, feeCurrency: "£m",
       marketValue: 75,
       wageBand: "C",
       contractExpiry: "2029-06-30",
