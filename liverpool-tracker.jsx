@@ -128,19 +128,19 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Fabrizio Romano / Football365", title: "'Iraola and Iraola only' — Romano says Liverpool's decision is made, no chance for other candidates, with personal terms set to be agreed within days", time: "today", category: "official" },
-  { source: "The Irish News / GB News", title: "Steven Gerrard backs the hire: 'Andoni Iraola's style suits Liverpool' — a return to high-pressing, vertical football after a flat title defence", time: "today", category: "major" },
-  { source: "This Is Anfield / Opta Analyst", title: "The man Liverpool are hiring: a 'no days off' disciplinarian with a ferocious press Opta calls 'so suited' to this squad — and a high-wire risk to manage", time: "today", category: "major" },
-  { source: "GB News", title: "Supporters split on the Slot call — 'he should have been given more time,' say some; others point to 19 defeats and a dressing room Salah didn't keep quiet", time: "today", category: "fan" },
-  { source: "Sky Sports / Liverpool.com", title: "Alisson Becker set to stay and rebuff Juventus — WinWin reports the 33-year-old remains, giving the new manager a settled spine to build in front of", time: "1d ago", category: "major" },
-  { source: "Liverpool.com / Sky Sports", title: "Leipzig push the Diomande price toward £150m as Manchester City and United join the chase — the teenager himself casting doubt on a summer move", time: "1d ago", category: "major" },
-  { source: "Sky Sports / This Is Anfield", title: "Konaté's exit now set after renewal talks running since November 2023 collapse — a back line of a 34-year-old Van Dijk, Gomez, Leoni and Jacquet left behind", time: "1d ago", category: "major" },
-  { source: "beIN Sports / The National", title: "Salah on his next club: 'I have time now. I'm going to the World Cup and then everything will become clear' — Al-Ittihad lead, Al-Hilal in it", time: "1d ago", category: "fan" },
-  { source: "Sky Sports / Fabrizio Romano", title: "Andy Robertson's free move to De Zerbi's Tottenham is done — the Scotland captain joins Salah out of the door as the old title-winning core thins", time: "2d ago", category: "major" },
-  { source: "Sky Sports / RTÉ", title: "Anthony Gordon completes his Barcelona medical at ~£70m — Liverpool had stepped aside, narrowing the winger rebuild to Diomande and Barcola", time: "2d ago", category: "major" },
-  { source: "ESPN / Liverpool.com", title: "Frimpong left out of the Netherlands' World Cup 26 — Koeman cites a stop-start, injury-hit season; Van Dijk, Gravenberch and Gakpo all travel", time: "2d ago", category: "major" },
-  { source: "Liverpool FC / ESPN", title: "'Forever Bound': Liverpool's new Carrara-marble Heysel memorial stands by the Anfield Road Stand on the disaster's 41st anniversary, Juventus present", time: "2d ago", category: "official" },
-  { source: "Liverpool FC / NBC Sports", title: "Pre-season opens at Nashville's Geodis Park against Sunderland on July 25, Wrexham at Yankee Stadium July 29, Leeds at Soldier Field August 2", time: "4d ago", category: "official" },
+  { source: "Sky Sports / GB News", title: "Liverpool in 'advanced' talks with Andoni Iraola over personal terms — three clubs braced to miss out as the Basque homes in on the Anfield job", time: "today", category: "official" },
+  { source: "Liverpool.com", title: "Pep Guardiola's seal of approval: City boss calls incoming Liverpool manager Iraola 'an incredible, well-respected manager in Spain'", time: "today", category: "major" },
+  { source: "Sky Sports", title: "Jamie Redknapp claims 'player power' contributed to Arne Slot's sacking — but backs Iraola to handle the pressure of the Anfield dressing room", time: "today", category: "major" },
+  { source: "TeamTalk / This Is Anfield", title: "Liverpool set to miss £80m 'dream' midfielder Adam Wharton — Crystal Palace, fresh from a Conference League win, plan to offer a new deal instead", time: "today", category: "major" },
+  { source: "This Is Anfield / Sky Sports", title: "Archie Gray and Kees Smit move up the No. 6 shortlist as Wharton drifts away — younger, cheaper fallbacks for a midfield that lacked a base all year", time: "1d ago", category: "major" },
+  { source: "Sky Sports / TransferFeed", title: "Jarrod Bowen floated as a ready-made winger option after West Ham's relegation — senior cover behind the £150m Diomandé pursuit", time: "1d ago", category: "fan" },
+  { source: "This Is Anfield / Liverpool.com", title: "Alisson to stay: top journalists report the keeper remains as Juventus interest fades, the Turin club's Champions League miss draining the move", time: "1d ago", category: "major" },
+  { source: "Liverpool.com / Sky Sports", title: "Leipzig hold Diomandé at as much as £150m — the Ivorian 'leaning towards' Liverpool, cast as Iraola's possible first signing, City and United circling", time: "1d ago", category: "major" },
+  { source: "Sky Sports / This Is Anfield", title: "Konaté's free exit holds — renewal talks running since November 2023 collapsed; Lacroix and van Hecke on an increasingly urgent centre-back list", time: "2d ago", category: "major" },
+  { source: "beIN Sports / The National", title: "Salah on his next club: 'I have time now' — the departed forward will decide only after the World Cup, Al-Ittihad leading, Al-Hilal in it", time: "2d ago", category: "fan" },
+  { source: "Sky Sports / Fabrizio Romano", title: "Andy Robertson's free move to De Zerbi's Tottenham is done; Curtis Jones the cleanest live sale with Inter Milan keen around €20m", time: "2d ago", category: "major" },
+  { source: "Liverpool FC / ESPN", title: "'Forever Bound': Liverpool's new Carrara-marble Heysel memorial stands by the Anfield Road Stand on the disaster's 41st anniversary, Juventus present", time: "3d ago", category: "official" },
+  { source: "Liverpool FC / NBC Sports", title: "Pre-season opens at Nashville's Geodis Park against Sunderland on July 25, Wrexham at Yankee Stadium July 29, Leeds at Soldier Field August 2", time: "5d ago", category: "official" },
   { source: "Sky Sports / ESPN", title: "Liverpool 1-1 Brentford: Curtis Jones turns in a Salah cross before Kevin Schade levels — the Champions League place sealed amid the long farewell", time: "1w ago", category: "major" },
 ];
 

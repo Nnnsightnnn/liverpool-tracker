@@ -348,11 +348,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday, and the succession is all but settled. Two days after sacking
-          Arne Slot, Liverpool have decided on Andoni Iraola — 'Iraola and Iraola
-          only,' terms to be agreed within days. He inherits a fifth-place finish,
-          a thinning squad, and a rebuild already underway. Nashville, and the
-          first sight of his team, is eight weeks away.
+          Monday, and the search has all but ended. Three days after sacking
+          Arne Slot, Liverpool are in advanced talks with Andoni Iraola over
+          personal terms — the last details of an appointment nearly done. He
+          inherits a fifth-place finish, a thinning squad, and a midfield plan
+          already missing its first target. The first sight of his team, in
+          Nashville, is still seven weeks off.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,17 +368,18 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>{" "}
-              and the next era already has a name. Forty-eight hours after sacking the
-              man who won the title in his first season, Liverpool have made their
-              choice — Andoni Iraola, 'number one, two and three on the list,' with
-              personal terms to be agreed within days. Steven Gerrard says the Basque's
-              high-pressing football suits the squad; the profile that travels with him
-              says 'no days off.' He arrives into a market that will not wait: Leipzig
-              have pushed the price of Salah's heir, Yan Diomandé, toward £150m with
-              City and United now circling, Ibrahima Konaté is bound for a free exit,
-              and Alisson, at least, is staying. A club that spent eleven months
-              deciding it had erred, and a weekend deciding how to mend it.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>{" "}
+              and the next era is a contract away. Three days after sacking the man
+              who won the title in his first season, Liverpool are deep in talks with
+              Andoni Iraola over personal terms — a Sky reporter calls them
+              'advanced,' three rival suitors braced to miss out. The endorsements
+              arrive ahead of him: Pep Guardiola calls the Basque 'an incredible,
+              well-respected manager'; Jamie Redknapp, blaming player power for Slot's
+              fall, backs him to handle the heat. The market will not wait — the
+              'dream' £80m midfielder Adam Wharton looks set to stay at Palace, Leipzig
+              hold Salah's heir Yan Diomandé at £150m, and Alisson, at least, is
+              staying. A club that needed eleven months to admit one mistake, and a
+              long weekend to choose how to mend it.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -385,10 +387,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a manager all but appointed two days after the last one
-              was sacked; a winger whose price is climbing out of reach; a defence
-              thinned to a single uneasy sentence; and a fanbase arguing with itself.
-              Read slowly. The ink is still drying.
+              week. There is a manager a handshake from appointment; a verdict from the
+              pundits on how the last one fell; a 'dream' midfielder slipping back to
+              south London; a marquee winger priced like a marquee; and a suspended
+              summer that points to Nashville. Read slowly. The ink is still drying.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -2867,7 +2869,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A weekend to choose the next era."
+        "The next era, one signature away."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
