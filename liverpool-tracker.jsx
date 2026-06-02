@@ -128,19 +128,19 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Sky Sports / GB News", title: "Liverpool in 'advanced' talks with Andoni Iraola over personal terms — three clubs braced to miss out as the Basque homes in on the Anfield job", time: "today", category: "official" },
-  { source: "Liverpool.com", title: "Pep Guardiola's seal of approval: City boss calls incoming Liverpool manager Iraola 'an incredible, well-respected manager in Spain'", time: "today", category: "major" },
-  { source: "Sky Sports", title: "Jamie Redknapp claims 'player power' contributed to Arne Slot's sacking — but backs Iraola to handle the pressure of the Anfield dressing room", time: "today", category: "major" },
-  { source: "TeamTalk / This Is Anfield", title: "Liverpool set to miss £80m 'dream' midfielder Adam Wharton — Crystal Palace, fresh from a Conference League win, plan to offer a new deal instead", time: "today", category: "major" },
-  { source: "This Is Anfield / Sky Sports", title: "Archie Gray and Kees Smit move up the No. 6 shortlist as Wharton drifts away — younger, cheaper fallbacks for a midfield that lacked a base all year", time: "1d ago", category: "major" },
-  { source: "Sky Sports / TransferFeed", title: "Jarrod Bowen floated as a ready-made winger option after West Ham's relegation — senior cover behind the £150m Diomandé pursuit", time: "1d ago", category: "fan" },
-  { source: "This Is Anfield / Liverpool.com", title: "Alisson to stay: top journalists report the keeper remains as Juventus interest fades, the Turin club's Champions League miss draining the move", time: "1d ago", category: "major" },
-  { source: "Liverpool.com / Sky Sports", title: "Leipzig hold Diomandé at as much as £150m — the Ivorian 'leaning towards' Liverpool, cast as Iraola's possible first signing, City and United circling", time: "1d ago", category: "major" },
-  { source: "Sky Sports / This Is Anfield", title: "Konaté's free exit holds — renewal talks running since November 2023 collapsed; Lacroix and van Hecke on an increasingly urgent centre-back list", time: "2d ago", category: "major" },
-  { source: "beIN Sports / The National", title: "Salah on his next club: 'I have time now' — the departed forward will decide only after the World Cup, Al-Ittihad leading, Al-Hilal in it", time: "2d ago", category: "fan" },
-  { source: "Sky Sports / Fabrizio Romano", title: "Andy Robertson's free move to De Zerbi's Tottenham is done; Curtis Jones the cleanest live sale with Inter Milan keen around €20m", time: "2d ago", category: "major" },
+  { source: "Fabrizio Romano / This Is Anfield", title: "Here we go: Andoni Iraola agrees to become Liverpool head coach — agreement in principle reached, formal announcement targeted before the World Cup", time: "today", category: "official" },
+  { source: "Goal / Empire Of The Kop", title: "Liverpool want the Iraola appointment rubber-stamped before June 11 — Richard Hughes, who first brought him to Bournemouth, drove the deal", time: "today", category: "official" },
+  { source: "TeamTalk / SportBible", title: "Iraola hands the board a five-signing shopping list — four more exits flagged beyond Salah, Robertson and Konaté, with Curtis Jones the likeliest to go", time: "today", category: "major" },
+  { source: "This Is Anfield", title: "'That's real coaching' — Jürgen Klopp's old praise for Iraola's Bournemouth resurfaces, and Liverpool fans are told to be excited", time: "today", category: "fan" },
+  { source: "Anfield Watch / Liverpool.com", title: "Reds reignite chase for €75m Porto midfielder Alan Varela — the Argentine title-winner now framed as Iraola's first-choice No. 6, United and City also in", time: "today", category: "major" },
+  { source: "This Is Anfield", title: "Iraola's emotional Anfield night recalled: 'You feel the pressure when they are pushing' — a manager who already knows the place from the touchline", time: "1d ago", category: "fan" },
+  { source: "Liverpool.com / OneFootball", title: "Konaté replacements ranked: a Jarell Quansah buy-back, Wolfsburg's Koulierakis and Dortmund's Schlotterbeck all in the centre-back mix", time: "1d ago", category: "major" },
+  { source: "Liverpool.com / Sky Sports", title: "Leipzig still hold Diomandé at up to £150m as Iraola's marquee winger — Barcola and a relegated West Ham's Jarrod Bowen the fallback names", time: "1d ago", category: "major" },
+  { source: "The National / beIN Sports", title: "Salah's next move: Fenerbahçe now rated the likeliest at 2/1 ahead of Saudi's Al-Ittihad and MLS — his agent insists 'no one knows'", time: "2d ago", category: "fan" },
+  { source: "This Is Anfield / Liverpool.com", title: "One pillar holds: Alisson Becker set to stay as the Juventus move fades, even as the reset puts four senior names in the shop window", time: "2d ago", category: "major" },
+  { source: "Sky Sports / Fabrizio Romano", title: "Andy Robertson's free transfer to De Zerbi's Tottenham is done; Inter Milan keen on Curtis Jones around €20m", time: "2d ago", category: "major" },
   { source: "Liverpool FC / ESPN", title: "'Forever Bound': Liverpool's new Carrara-marble Heysel memorial stands by the Anfield Road Stand on the disaster's 41st anniversary, Juventus present", time: "3d ago", category: "official" },
-  { source: "Liverpool FC / NBC Sports", title: "Pre-season opens at Nashville's Geodis Park against Sunderland on July 25, Wrexham at Yankee Stadium July 29, Leeds at Soldier Field August 2", time: "5d ago", category: "official" },
+  { source: "Liverpool FC / NBC Sports", title: "Pre-season opens at Nashville's Geodis Park against Sunderland on July 25, Wrexham at Yankee Stadium July 29, Leeds at Soldier Field August 2", time: "1w ago", category: "official" },
   { source: "Sky Sports / ESPN", title: "Liverpool 1-1 Brentford: Curtis Jones turns in a Salah cross before Kevin Schade levels — the Champions League place sealed amid the long farewell", time: "1w ago", category: "major" },
 ];
 

@@ -348,12 +348,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, and the search has all but ended. Three days after sacking
-          Arne Slot, Liverpool are in advanced talks with Andoni Iraola over
-          personal terms — the last details of an appointment nearly done. He
-          inherits a fifth-place finish, a thinning squad, and a midfield plan
-          already missing its first target. The first sight of his team, in
-          Nashville, is still eight weeks off.
+          Tuesday, and the search is over. Five days after sacking Arne Slot,
+          Liverpool have agreed terms with Andoni Iraola to take the job — the
+          announcement expected before the World Cup. He inherits a fifth-place
+          finish and a thinning squad, and already arrives with a five-signing
+          list in his own hand. The first sight of his team, in Nashville, is
+          still seven weeks off.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,18 +368,17 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>{" "}
-              and the next era is a contract away. Three days after sacking the man
-              who won the title in his first season, Liverpool are deep in talks with
-              Andoni Iraola over personal terms — a Sky reporter calls them
-              'advanced,' three rival suitors braced to miss out. The endorsements
-              arrive ahead of him: Pep Guardiola calls the Basque 'an incredible,
-              well-respected manager'; Jamie Redknapp, blaming player power for Slot's
-              fall, backs him to handle the heat. The market will not wait — the
-              'dream' £80m midfielder Adam Wharton looks set to stay at Palace, Leipzig
-              hold Salah's heir Yan Diomandé at £150m, and Alisson, at least, is
-              staying. A club that needed eleven months to admit one mistake, and a
-              long weekend to choose how to mend it.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>{" "}
+              and the next era has a name. Five days after sacking the man who won the
+              title in his first season, Liverpool have agreed terms with Andoni Iraola
+              to become head coach — 'here we go,' as Romano put it, the announcement
+              expected before the World Cup. He does not wait to begin: reports say he
+              has handed the board a five-signing list and marked four more for the
+              door, Curtis Jones the likeliest to follow Salah, Robertson and Konaté
+              out. The midfield search reignites around Porto's €75m Alan Varela; the
+              warmest welcome comes from the past, an old line of Klopp's — 'that's
+              real coaching' — travelling fast. A club that needed eleven months to
+              admit one mistake has needed five days to choose how to mend it.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -387,10 +386,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a manager a handshake from appointment; a verdict from the
-              pundits on how the last one fell; a 'dream' midfielder slipping back to
-              south London; a marquee winger priced like a marquee; and a suspended
-              summer that points to Nashville. Read slowly. The ink is still drying.
+              week. There is a manager agreed and a squad already being rebuilt around
+              him; a title-winner from Porto moving to the front of the midfield queue;
+              an old benediction from Klopp; and a farewell that now points to Istanbul.
+              Read slowly. The ink is still drying.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -2869,7 +2868,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The next era, one signature away."
+        "The search is over. The work begins."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
