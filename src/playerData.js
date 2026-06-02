@@ -906,7 +906,7 @@ export const TRANSFER_TARGETS = {
       probability: 62,
       heatTier: "warm",
       sources: [{ name: "Liverpool.com", tier: "B" }, { name: "Sports Mole", tier: "C" }],
-      note: "Twelve months left; named in Slot's sell-to-buy ten.",
+      note: "Twelve months left; among the four further exits flagged in Iraola's squad reset.",
     },
     {
       id: "chiesa-out",

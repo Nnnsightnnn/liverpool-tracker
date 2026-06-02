@@ -23,7 +23,7 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the first-choice XI Liverpool closed the
     // campaign with, the baseline a summer rebuild will reshape. 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Mon Jun 1: Frimpong axed
+    // backup look — Slot favoured 4-2-3-1. Refreshed Tue Jun 2: Frimpong axed
     // from the Netherlands' World Cup squad; Gordon gone to Barcelona (Liverpool
     // step aside); Konaté still set to leave for nothing; Robertson's free move
     // to Spurs is done; Diomandé the narrowed Salah heir.
@@ -61,7 +61,7 @@ export const FORMATIONS = {
     // through the run-in — is shown as the first-choice XI Liverpool finished
     // the campaign with after Sunday's 1-1 with Brentford, NOT as a prediction
     // for a coming fixture (the next match is a pre-season friendly on July
-    // 25). Refreshed Mon Jun 1: Frimpong left out of the Dutch World Cup squad;
+    // 25). Refreshed Tue Jun 2: Frimpong left out of the Dutch World Cup squad;
     // Anthony Gordon completes a Barcelona medical as Liverpool step aside;
     // Konaté on course to leave as a free agent; Robertson's free move to
     // De Zerbi's Tottenham done; Diomandé the narrowed priority to replace
@@ -164,7 +164,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys (4-2-3-1). With the season over these now read as confidence that
 // the slot's occupant remains a first-choice starter into 2026-27 — LOW where
 // the player is leaving (Salah, Robertson, now Konaté) or whose future is open
-// (Jones, Mac Allister). (Refreshed Mon Jun 1 — Konaté set to leave free;
+// (Jones, Mac Allister). (Refreshed Tue Jun 2 — Konaté set to leave free;
 // Alisson expected to stay; Robertson's free move to Spurs done; Frimpong
 // missed the Dutch World Cup squad.)
 export const SLOT_CONFIDENCE = {
@@ -184,19 +184,19 @@ export const SLOT_CONFIDENCE = {
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
 // Explains the season-closing pick for each slot of the 4-2-3-1. The 2025-26
 // season is complete; these read as a retrospective on the first-choice XI
-// rather than a prediction for a coming fixture. (Refreshed Mon Jun 1.)
+// rather than a prediction for a coming fixture. (Refreshed Tue Jun 2.)
 export const SLOT_RATIONALE = {
-  GK:  "Mon Jun 1 — Alisson is now widely expected to remain. Juventus had agreed personal terms near €5m a year, but the Italians missing out on Champions League football drained the move of momentum, and the Brazilian was never the one pushing it. Mamardashvili waits, likeliest to go out on loan.",
-  LB:  "Mon Jun 1 — with Andy Robertson's free transfer to De Zerbi's Tottenham now done, the Liverpool left-back slot is unambiguously Milos Kerkez's after a tough first season at £45m. Nine years of cover at the position have walked out the door in a single window.",
-  LCB: "Mon Jun 1 — Van Dijk closes a hard campaign as captain with his standards intact, named in Koeman's World Cup squad and contracted to June 2027 — the one fixed point as the back line is rebuilt around him, and the senior leader of a suddenly thin centre-back group.",
+  GK:  "Tue Jun 2 — Alisson is now widely expected to remain. Juventus had agreed personal terms near €5m a year, but the Italians missing out on Champions League football drained the move of momentum, and the Brazilian was never the one pushing it. Mamardashvili waits, likeliest to go out on loan.",
+  LB:  "Tue Jun 2 — with Andy Robertson's free transfer to De Zerbi's Tottenham now done, the Liverpool left-back slot is unambiguously Milos Kerkez's after a tough first season at £45m. Nine years of cover at the position have walked out the door in a single window.",
+  LCB: "Tue Jun 2 — Van Dijk closes a hard campaign as captain with his standards intact, named in Koeman's World Cup squad and contracted to June 2027 — the one fixed point as the back line is rebuilt around him, and the senior leader of a suddenly thin centre-back group.",
   RCB: "Tue Jun 2 — the slot stays cracked open: Konaté is leaving for nothing, the breakdown pinned on a wage-and-bonus impasse. A Jarell Quansah buy-back now heads the centre-back list, with Wolfsburg's Koulierakis, Dortmund's Schlotterbeck and Palace's Lacroix also in the frame and Jacquet the in-house cover — one of the new manager's five requested signings.",
-  LDM: "Mon Jun 1 — Gravenberch finished the season as the most consistent midfielder Liverpool had and is in the Dutch World Cup squad; the obvious building block at the base of the 4-2-3-1 going into 2026-27.",
-  RDM: "Mon Jun 1 — Szoboszlai closes a heavy-minutes season of 48 appearances as a midfield mainstay; a contract extension is still expected to be agreed over the summer.",
-  LAM: "Mon Jun 1 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
-  CAM: "Mon Jun 1 — Alexis Mac Allister's contract stand-off holds: no talks have opened, the midfielder now into the final two years of his deal. Real Madrid's interest remains live; Football365 has Liverpool's internal sale valuation at €120m if July passes without movement.",
-  RAM: "Mon Jun 1 — Mohamed Salah, who says he will choose his next club only after the World Cup, has played his last Liverpool match. The replacement file is led by RB Leipzig's Yan Diomandé, but the price has been pushed toward £150m with Manchester City and United joining the chase — leaving PSG's Barcola as the realistic fallback after Anthony Gordon's switch to Barcelona.",
-  RB:  "Mon Jun 1 — Curtis Jones remains the cleanest sale available: Inter Milan keen around €20m, Liverpool valuing the Anfield-born midfielder at €30m. He is willing to go, and the fee would help fund a defence that suddenly needs two new faces.",
-  ST:  "Mon Jun 1 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
+  LDM: "Tue Jun 2 — Gravenberch finished the season as the most consistent midfielder Liverpool had and is in the Dutch World Cup squad; the obvious building block at the base of the 4-2-3-1 going into 2026-27.",
+  RDM: "Tue Jun 2 — Szoboszlai closes a heavy-minutes season of 48 appearances as a midfield mainstay; a contract extension is still expected to be agreed over the summer.",
+  LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
+  CAM: "Tue Jun 2 — Alexis Mac Allister's contract stand-off holds: no talks have opened, the midfielder now into the final two years of his deal. Real Madrid's interest remains live; Football365 has Liverpool's internal sale valuation at €120m if July passes without movement.",
+  RAM: "Tue Jun 2 — Mohamed Salah, who says he will choose his next club only after the World Cup, has played his last Liverpool match. The replacement file is led by RB Leipzig's Yan Diomandé, but the price has been pushed toward £150m with Manchester City and United joining the chase — leaving PSG's Barcola as the realistic fallback after Anthony Gordon's switch to Barcelona.",
+  RB:  "Tue Jun 2 — Curtis Jones remains the cleanest sale available: Inter Milan keen around €20m, Liverpool valuing the Anfield-born midfielder at €30m. He is willing to go, and the fee would help fund a defence that suddenly needs two new faces.",
+  ST:  "Tue Jun 2 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -204,10 +204,10 @@ export const SLOT_RATIONALE = {
 // initially. The UI shows these on hover as "Also considered". Keyed to
 // 4-2-3-1 (the season-closing baseline shape).
 export const ALTERNATIVES = {
-  GK:  [{ playerId: 2, reason: "Mamardashvili · in line to inherit the No. 1 shirt if Alisson joins Juventus" }, { playerId: 27, reason: "Woodman · third-choice cover" }],
+  GK:  [{ playerId: 2, reason: "Mamardashvili · likeliest out on loan now Alisson is set to stay" }, { playerId: 27, reason: "Woodman · third-choice cover" }],
   LB:  [{ playerId: 7, reason: "Kerkez · the first-choice left-back going forward now Robertson has left" }],
   LCB: [{ playerId: 5, reason: "Gomez · can shuffle infield to centre-back in extremis" }],
-  RCB: [{ playerId: 11, reason: "Jacquet · in line to inherit the slot if Konaté leaves" }],
+  RCB: [{ playerId: 11, reason: "Jacquet · in line to inherit the slot with Konaté now leaving for free" }],
   RB:  [{ playerId: 9, reason: "Frimpong · the natural first-choice right-back once fully fit" }, { playerId: 5, reason: "Gomez · the other right-back cover option" }],
   LDM: [{ playerId: 13, reason: "Mac Allister · could swap depths with Gravenberch in the double-pivot" }],
   RDM: [{ playerId: 14, reason: "Gravenberch · could swap depths with Szoboszlai" }],
