@@ -25,13 +25,13 @@ export const FORMATIONS = {
     // campaign with, the baseline a summer rebuild will reshape. 4-3-3 is the
     // backup look — Slot favoured 4-2-3-1. Refreshed Tue Jun 2: Frimpong axed
     // from the Netherlands' World Cup squad; Gordon gone to Barcelona (Liverpool
-    // step aside); Konaté still set to leave for nothing; Robertson's free move
+    // step aside); Konaté agreeing a free move to Real Madrid; Robertson's free move
     // to Spurs is done; Diomandé the narrowed Salah heir.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
       LCB: 3,   // Van Dijk (captain · contracted to 2027)
-      RCB: 4,   // Konaté (first-choice · contract unresolved)
+      RCB: 4,   // Konaté (first-choice · now Real Madrid-bound)
       RB: 16,   // Jones (deputised at RB late in the season)
       LCM: 13,  // Mac Allister (midfield three)
       CM: 14,   // Gravenberch (control of midfield · most reliable MID)
@@ -63,14 +63,14 @@ export const FORMATIONS = {
     // for a coming fixture (the next match is a pre-season friendly on July
     // 25). Refreshed Tue Jun 2: Frimpong left out of the Dutch World Cup squad;
     // Anthony Gordon completes a Barcelona medical as Liverpool step aside;
-    // Konaté on course to leave as a free agent; Robertson's free move to
+    // Konaté agreeing a free move to Real Madrid; Robertson's free move to
     // De Zerbi's Tottenham done; Diomandé the narrowed priority to replace
     // Salah, with Barcola the alternative.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
       LCB: 3,   // Van Dijk (captain · contracted to 2027)
-      RCB: 4,   // Konaté (first-choice · contract unresolved)
+      RCB: 4,   // Konaté (first-choice · now Real Madrid-bound)
       RB: 16,   // Jones (deputised at RB · Inter Milan keen)
       LDM: 14,  // Gravenberch (double-pivot · most reliable midfielder)
       RDM: 15,  // Szoboszlai (the season's heaviest-minutes midfielder)
@@ -120,14 +120,14 @@ export const FORMATIONS = {
 // One-line evidence string per player, surfaced under the token on hover.
 // Hand-curated from RESULTS array + injuryNote context as of 2026-06-01
 // (Mon, post-season: Frimpong axed from the Dutch World Cup squad; Gordon gone
-// to Barcelona as Liverpool step aside; Konaté on course to leave for nothing;
+// to Barcelona as Liverpool step aside; Konaté agreeing a free move to Real Madrid;
 // Bradley a pre-season doubt; Robertson's free move to Spurs done; Diomandé
 // the narrowed priority to succeed Salah, Barcola the alternative.)
 export const PLAYER_EVIDENCE = {
   1:  "Now expected to stay · Juve cooled",    // Alisson
   2:  "Loan-out likely · No. 1 still Ali",     // Mamardashvili
   3:  "Captain · NL World Cup squad",          // Van Dijk
-  4:  "Talks collapsed · leaving for free",    // Konaté
+  4:  "Verbal deal · Real Madrid free",        // Konaté
   5:  "12mo left · Italy openly canvassed",    // Gomez
   6:  "Gone to Spurs · free transfer done",    // Robertson
   7:  "Tough debut · now first-pick LB",       // Kerkez
@@ -144,7 +144,7 @@ export const PLAYER_EVIDENCE = {
   18: "Injury-hit £115m first year",           // Wirtz
   19: "Hamstring · missed all season",         // Bajcetic
   20: "Academy prospect · 5 senior apps",      // Nyoni
-  21: "Gone · Fenerbahçe now favourite",        // Salah
+  21: "Gone · to name club within days",        // Salah
   22: "Dutch WC squad · sale still mooted",    // Gakpo
   23: "Injury-wrecked £100m debut year",       // Isak
   24: "Ruptured Achilles · out 9-12 months",   // Ekitike
@@ -171,7 +171,7 @@ export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · now expected to stay · Juve cooled
   LB:  "Low",    // Robertson gone (free to Spurs, done) · Kerkez inherits
   LCB: "High",   // Van Dijk · captain · contracted to 2027
-  RCB: "Low",    // Konaté · talks collapsed, leaving for free · Hughes hunts 2
+  RCB: "Low",    // Konaté · verbal deal to Real Madrid (free) · Hughes hunts 2
   RB:  "Low",    // Jones · Inter keen €20m, LFC value €30m · willing to leave
   LDM: "High",   // Gravenberch · the season's most reliable midfielder
   RDM: "Medium", // Szoboszlai · mainstay, extension still pending
@@ -189,12 +189,12 @@ export const SLOT_RATIONALE = {
   GK:  "Tue Jun 2 — Alisson is now widely expected to remain. Juventus had agreed personal terms near €5m a year, but the Italians missing out on Champions League football drained the move of momentum, and the Brazilian was never the one pushing it. Mamardashvili waits, likeliest to go out on loan.",
   LB:  "Tue Jun 2 — with Andy Robertson's free transfer to De Zerbi's Tottenham now done, the Liverpool left-back slot is unambiguously Milos Kerkez's after a tough first season at £45m. Nine years of cover at the position have walked out the door in a single window.",
   LCB: "Tue Jun 2 — Van Dijk closes a hard campaign as captain with his standards intact, named in Koeman's World Cup squad and contracted to June 2027 — the one fixed point as the back line is rebuilt around him, and the senior leader of a suddenly thin centre-back group.",
-  RCB: "Tue Jun 2 — the slot stays cracked open: Konaté is leaving for nothing, the breakdown pinned on a wage-and-bonus impasse. A Jarell Quansah buy-back now heads the centre-back list, with Wolfsburg's Koulierakis, Dortmund's Schlotterbeck and Palace's Lacroix also in the frame and Jacquet the in-house cover — one of the new manager's five requested signings.",
+  RCB: "Wed Jun 3 — the slot is now empty in all but name: Fabrizio Romano reports Konaté has reached a verbal agreement to join Real Madrid on a free, following Trent Alexander-Arnold to the Bernabéu, only formalities outstanding. A Jarell Quansah buy-back now heads the centre-back list, with Wolfsburg's Koulierakis, Dortmund's Schlotterbeck and Palace's Lacroix also in the frame and Jacquet the in-house cover — the most urgent of the new manager's requested signings.",
   LDM: "Tue Jun 2 — Gravenberch finished the season as the most consistent midfielder Liverpool had and is in the Dutch World Cup squad; the obvious building block at the base of the 4-2-3-1 going into 2026-27.",
   RDM: "Tue Jun 2 — Szoboszlai closes a heavy-minutes season of 48 appearances as a midfield mainstay; a contract extension is still expected to be agreed over the summer.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
   CAM: "Tue Jun 2 — Alexis Mac Allister's contract stand-off holds: no talks have opened, the midfielder now into the final two years of his deal. Real Madrid's interest remains live; Football365 has Liverpool's internal sale valuation at €120m if July passes without movement.",
-  RAM: "Tue Jun 2 — Mohamed Salah, who says he will choose his next club only after the World Cup, has played his last Liverpool match. The replacement file is led by RB Leipzig's Yan Diomandé, but the price has been pushed toward £150m with Manchester City and United joining the chase — leaving PSG's Barcola as the realistic fallback after Anthony Gordon's switch to Barcelona.",
+  RAM: "Wed Jun 3 — Mohamed Salah has played his last Liverpool match and may name his next club within days, an Egypt staff member claims, with Juventus now joining a free-transfer race in which Turkey stays the bookmakers' favourite. The replacement file is led by RB Leipzig's Yan Diomandé at around €120m, a seven-man winger shortlist behind him spanning Yildiz, Olise, Rodrygo, Barcola and a relegated West Ham's Bowen.",
   RB:  "Tue Jun 2 — Curtis Jones remains the cleanest sale available: Inter Milan keen around €20m, Liverpool valuing the Anfield-born midfielder at €30m. He is willing to go, and the fee would help fund a defence that suddenly needs two new faces.",
   ST:  "Tue Jun 2 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
 };
@@ -207,7 +207,7 @@ export const ALTERNATIVES = {
   GK:  [{ playerId: 2, reason: "Mamardashvili · likeliest out on loan now Alisson is set to stay" }, { playerId: 27, reason: "Woodman · third-choice cover" }],
   LB:  [{ playerId: 7, reason: "Kerkez · the first-choice left-back going forward now Robertson has left" }],
   LCB: [{ playerId: 5, reason: "Gomez · can shuffle infield to centre-back in extremis" }],
-  RCB: [{ playerId: 11, reason: "Jacquet · in line to inherit the slot with Konaté now leaving for free" }],
+  RCB: [{ playerId: 11, reason: "Jacquet · in line to inherit the slot with Konaté agreeing a Real Madrid move" }],
   RB:  [{ playerId: 9, reason: "Frimpong · the natural first-choice right-back once fully fit" }, { playerId: 5, reason: "Gomez · the other right-back cover option" }],
   LDM: [{ playerId: 13, reason: "Mac Allister · could swap depths with Gravenberch in the double-pivot" }],
   RDM: [{ playerId: 14, reason: "Gravenberch · could swap depths with Szoboszlai" }],
@@ -222,8 +222,8 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  reason: "Tue Jun 2 (post-season refresh) — the dugout now has a name: Andoni Iraola has agreed to become Liverpool head coach, an agreement in principle reached and the announcement expected before the World Cup opens on June 11, five days after Arne Slot was sacked. This XI is only a snapshot of the first-choice side Slot closed the 2025-26 campaign with after the May 24 1-1 with Brentford — confidence is Low because the incoming head coach, a high-press disciplinarian, may reshape it entirely before a competitive ball is kicked, and reports say he has already handed the board a five-signing list and flagged four further exits (Alisson, Jones, Chiesa and Gomez named, Jones likeliest to go). This week's other headlines: the midfield search reignites around Porto's €75m Alan Varela; Klopp's old 'that's real coaching' praise resurfaces as a welcome; Leipzig hold Diomandé at up to £150m as the marquee winger; a Jarell Quansah buy-back leads the centre-back list after Konaté's free exit; Alisson set to stay; Salah, now tipped toward Fenerbahçe, to decide after the World Cup. Next competitive fixture: not until 2026-27 (pre-season friendly vs Sunderland in Nashville, July 25).",
-  pundit_sources: ["Fabrizio Romano", "This Is Anfield", "Goal", "Empire Of The Kop", "TeamTalk", "SportBible", "Football365", "Anfield Watch", "Liverpool.com", "OneFootball", "Sky Sports", "The National", "beIN Sports", "NBC Sports", "Liverpool FC"],
+  reason: "Wed Jun 3 (post-season refresh) — the back line just lost its first-choice centre-back: Fabrizio Romano reports Ibrahima Konaté has reached a verbal agreement to join Real Madrid on a free, following Trent Alexander-Arnold to the Bernabéu, only formalities left. This XI is only a snapshot of the first-choice side Slot closed the 2025-26 campaign with after the May 24 1-1 with Brentford — confidence is Low because the incoming head coach, Andoni Iraola (who has given FSG his 'yes,' with the announcement hoped for by the weekend), may reshape it entirely before a competitive ball is kicked. This week's other headlines: Iraola building a lean backroom around Bournemouth's Elphick and Cooper; Alexander Isak admitting he felt 'disconnected' after Slot's sacking; the window opening June 15 with Liverpool holding fire on Wharton to let the new boss pick his No. 6, Porto's Varela 'calm and focused'; Diomandé the marquee winger at around €120m atop a widened shortlist; and Salah, Juventus now circling, expected to name his next club within days. Next competitive fixture: not until 2026-27 (pre-season friendly vs Sunderland in Nashville, July 25).",
+  pundit_sources: ["Fabrizio Romano", "Caught Offside", "FootballTransfers", "This Is Anfield", "TeamTalk", "FourFourTwo", "Yahoo Sports", "Goal", "Liverpool.com", "Rousing The Kop", "Football365", "OneFootball", "Sky Sports", "Sky Sport Italia", "NBC Sports", "Liverpool FC"],
   agreement_rate: 0.65,
-  generated_at: "2026-06-02T08:00:00Z",
+  generated_at: "2026-06-03T08:00:00Z",
 };

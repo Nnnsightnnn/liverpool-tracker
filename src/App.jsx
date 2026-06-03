@@ -348,12 +348,13 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, and the search is over. Five days after sacking Arne Slot,
-          Liverpool have agreed terms with Andoni Iraola to take the job — the
-          announcement expected before the World Cup. He inherits a fifth-place
-          finish and a thinning squad, and already arrives with a five-signing
-          list in his own hand. The first sight of his team, in Nashville, is
-          still seven weeks off.
+          Wednesday, and Madrid come back for more. Ibrahima Konaté has reached
+          a verbal agreement to leave for Real Madrid on a free, the second
+          summer running the Spanish champions take an Anfield defender for
+          nothing. Andoni Iraola, his appointment all but confirmed, inherits a
+          fifth-place finish and a back line one body lighter than it was
+          yesterday. The first sight of his team, in Nashville, is the better
+          part of two months away.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,17 +369,17 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>{" "}
-              and the next era has a name. Five days after sacking the man who won the
-              title in his first season, Liverpool have agreed terms with Andoni Iraola
-              to become head coach — 'here we go,' as Romano put it, the announcement
-              expected before the World Cup. He does not wait to begin: reports say he
-              has handed the board a five-signing list and marked four more for the
-              door, Curtis Jones the likeliest to follow Salah, Robertson and Konaté
-              out. The midfield search reignites around Porto's €75m Alan Varela; the
-              warmest welcome comes from the past, an old line of Klopp's — 'that's
-              real coaching' — travelling fast. A club that needed eleven months to
-              admit one mistake has needed five days to choose how to mend it.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>{" "}
+              and Madrid help themselves again. Ibrahima Konaté has reached a verbal
+              agreement to join Real Madrid on a free transfer, a four-year deal that
+              follows Trent Alexander-Arnold to the Bernabéu — a first-choice centre-back
+              of three seasons lost not to a bid but to a stalled talk over wages. Behind
+              it, the dugout settles: Andoni Iraola has said yes, the announcement hoped
+              for by the weekend, and he travels light, Bournemouth's Elphick and Cooper
+              the lean circle he wants around him. The mood inside is rawer than the
+              league position suggests — Alexander Isak, the £125m striker, admits he
+              felt 'disconnected' after Slot's exit. The window opens June 15; the
+              decisions, for once, wait for the manager.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -386,9 +387,9 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a manager agreed and a squad already being rebuilt around
-              him; a title-winner from Porto moving to the front of the midfield queue;
-              an old benediction from Klopp; and a farewell that now points to Istanbul.
+              week. There is a manager all but agreed and a squad already being rebuilt
+              around him; a defender bound for Madrid for nothing; a centre-back hunt
+              turned urgent; and a long goodbye that may, at last, be days from its end.
               Read slowly. The ink is still drying.
             </p>
           </div>
@@ -2868,7 +2869,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The search is over. The work begins."
+        "Madrid takes another. Anfield builds on."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
