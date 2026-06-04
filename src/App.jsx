@@ -341,20 +341,20 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 500, fontSize: 148,
           lineHeight: 0.92, letterSpacing: "-0.04em", marginBottom: 32, color: T.ivory,
         }}>
-          Anfield.<br /><em style={{ fontStyle: "italic", color: T.red }}>May 2026.</em>
+          Anfield.<br /><em style={{ fontStyle: "italic", color: T.red }}>June 2026.</em>
         </h1>
         <GoldRule style={{ marginBottom: 12 }} />
         <p className="cover-deck" style={{
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday, and Madrid come back for more. Ibrahima Konaté has reached
-          a verbal agreement to leave for Real Madrid on a free, the second
-          summer running the Spanish champions take an Anfield defender for
-          nothing. Andoni Iraola, his appointment all but confirmed, inherits a
-          fifth-place finish and a back line one body lighter than it was
-          yesterday. The first sight of his team, in Nashville, is the better
-          part of two months away.
+          Thursday, and the waiting ends in ink. Andoni Iraola travels to
+          Merseyside today to sign a two-year contract as Liverpool's head
+          coach, the announcement expected within days and comfortably before
+          the World Cup opens. His first deal is already a duel — Diomandé has
+          said yes to Liverpool and to PSG alike, and Leipzig will sell to
+          whichever club pays. Seven weeks from now, in Nashville, we see what
+          he makes of it.
         </p>
 
         <StatStrip stats={stats} />
@@ -369,17 +369,19 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>{" "}
-              and Madrid help themselves again. Ibrahima Konaté has reached a verbal
-              agreement to join Real Madrid on a free transfer, a four-year deal that
-              follows Trent Alexander-Arnold to the Bernabéu — a first-choice centre-back
-              of three seasons lost not to a bid but to a stalled talk over wages. Behind
-              it, the dugout settles: Andoni Iraola has said yes, the announcement hoped
-              for by the weekend, and he travels light, Bournemouth's Elphick and Cooper
-              the lean circle he wants around him. The mood inside is rawer than the
-              league position suggests — Alexander Isak, the £125m striker, admits he
-              felt 'disconnected' after Slot's exit. The window opens June 15; the
-              decisions, for once, wait for the manager.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>{" "}
+              is signing day. Somewhere on the M62 this morning is a Basque coach with
+              a pen, travelling to put his name on a contract that runs precisely two
+              years — Andoni Iraola has never signed longer, and did not start now.
+              The first business of his era is already live: Yan Diomandé, nineteen and
+              the Bundesliga's young player of the season, has said yes to Liverpool
+              and to PSG both, leaving Leipzig to auction the difference, while a £170m
+              double with Club Brugge's Ordóñez is said to be approved and Romano
+              teases a Kroupi reunion at striker. The leavings continue around the
+              arrivals — Konaté's exit is formal now, his Madrid unveiling parked
+              behind a presidential election; Curtis Jones has chosen Inter and waits
+              on the fee. At Kirkby, meanwhile, a fifteen-year-old turned down half
+              of England's riches to stay. The rebuild has a signature at last.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -387,10 +389,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a manager all but agreed and a squad already being rebuilt
-              around him; a defender bound for Madrid for nothing; a centre-back hunt
-              turned urgent; and a long goodbye that may, at last, be days from its end.
-              Read slowly. The ink is still drying.
+              week. There is a manager signing his contract and a squad already being
+              rebuilt around him; a winger who said yes twice; a centre-back vacancy
+              with a Belgian answer; and a long goodbye whose ending, the agent
+              insists, no one yet knows. Read slowly. The ink is still wet.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -2869,7 +2871,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Madrid takes another. Anfield builds on."
+        "Two years. One signature. Begin."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
