@@ -164,20 +164,20 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys (4-2-3-1). With the season over these now read as confidence that
 // the slot's occupant remains a first-choice starter into 2026-27 — LOW where
 // the player is leaving (Salah, Robertson, now Konaté) or whose future is open
-// (Jones, Mac Allister). (Refreshed Tue Jun 2 — Konaté set to leave free;
-// Alisson expected to stay; Robertson's free move to Spurs done; Frimpong
-// missed the Dutch World Cup squad.)
+// (Jones, Mac Allister). (Refreshed Thu Jun 4 — Konaté's exit formally
+// confirmed; Alisson expected to stay; Robertson's free move to Spurs done;
+// Jones prioritising Inter.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · now expected to stay · Juve cooled
   LB:  "Low",    // Robertson gone (free to Spurs, done) · Kerkez inherits
   LCB: "High",   // Van Dijk · captain · contracted to 2027
-  RCB: "Low",    // Konaté · verbal deal to Real Madrid (free) · Hughes hunts 2
+  RCB: "Low",    // Konaté · exit formally confirmed · Ordóñez heads the list
   RB:  "Low",    // Jones · Inter keen €20m, LFC value €30m · willing to leave
   LDM: "High",   // Gravenberch · the season's most reliable midfielder
   RDM: "Medium", // Szoboszlai · mainstay, extension still pending
   LAM: "Medium", // Wirtz · injury-hit debut season · 'untouchable' per club
   CAM: "Low",    // Mac Allister · father declines talks · Real circling
-  RAM: "Low",    // Salah has left · Barcola is the lead replacement
+  RAM: "Low",    // Salah has left · Diomandé a two-club race with PSG
   ST:  "Medium", // Isak · £100m striker · injury-wrecked first season
 };
 

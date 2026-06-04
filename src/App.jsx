@@ -370,7 +370,7 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>{" "}
-              is signing day. Somewhere on the M62 this morning is a Basque coach with
+              is signing day. Somewhere on the M6 this morning is a Basque coach with
               a pen, travelling to put his name on a contract that runs precisely two
               years — Andoni Iraola has never signed longer, and did not start now.
               The first business of his era is already live: Yan Diomandé, nineteen and

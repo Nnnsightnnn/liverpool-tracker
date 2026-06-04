@@ -332,7 +332,7 @@ export const TEAM_LOGOS = {
   "Bayer Leverkusen": "https://img.uefa.com/imgml/TP/teams/logos/50x50/52867.png",
   "RB Leipzig":       "https://img.uefa.com/imgml/TP/teams/logos/50x50/2603790.png",
   "Real Sociedad":    "https://img.uefa.com/imgml/TP/teams/logos/50x50/50080.png",
-  "Porto":            "https://img.uefa.com/imgml/TP/teams/logos/50x50/50037.png",
+  "Porto":            "https://upload.wikimedia.org/wikipedia/en/f/f1/FC_Porto.svg",
   "Bayern Munich":    "https://img.uefa.com/imgml/TP/teams/logos/50x50/50037.png",
   "Real Madrid":      "https://img.uefa.com/imgml/TP/teams/logos/50x50/50051.png",
   "Inter Milan":      "https://img.uefa.com/imgml/TP/teams/logos/50x50/50138.png",
@@ -553,9 +553,9 @@ export const NEWS_DIGEST = {
       category: "injuries",
     },
     {
-      title: "Pre-Season In America: The First Iraola Teamsheet Lands July 25 (Liverpool FC / NBC Sports, confirmed this week)",
+      title: "Seven Weeks Of Runway: What Iraola Has Between The Pen And Nashville (Liverpool FC / NBC Sports)",
       detail:
-        "The new man's first XI is seven weeks out. The US tour opens against Sunderland at Nashville's Geodis Park on July 25, then Wrexham at Yankee Stadium on July 29 and Leeds at Soldier Field on August 2 — with World Cup returnees staggered, expect academy names alongside whichever signings the early-moving window has delivered by then.",
+        "Signing today buys the new manager an unusual luxury: seven competition-free weeks before his first teamsheet, against Sunderland at Nashville's Geodis Park on July 25 (then Wrexham at Yankee Stadium and Leeds at Soldier Field). The window opens June 15, the World Cup swallows his internationals until deep in July — so the tour will be built on academy names and whichever early signings the approved £170m double delivers.",
       category: "matches",
     },
   ],
@@ -693,8 +693,8 @@ export const TRANSFER_TARGETS = {
         "Thu 4 Jun — a two-club sprint now, and the player has scratched himself from the deciding vote: Foot Mercato's Santi Aouna reports Diomandé has said yes to BOTH Liverpool and PSG, content to join whichever strikes a club-to-club agreement with Leipzig — though Sky Germany reads the momentum as Parisian. Romano counters that the deal could land next week and that the Bundesliga's young player of the season (13 goals, 9 assists) wants his future fixed before the World Cup starts June 11. Leipzig, with a 2030 contract and Champions League football, simply hold the door and name the toll.",
       positionFit: {
         replaces: "Salah (right wing)",
-        competesWith: ["Díaz", "Gakpo"],
-        depthAfter: "Diomandé · Díaz · Gakpo",
+        competesWith: ["Gakpo", "Ngumoha"],
+        depthAfter: "Diomandé · Gakpo · Ngumoha",
       },
       stats: {
         apps: 31, goals: 13, assists: 10,
@@ -882,8 +882,8 @@ export const TRANSFER_TARGETS = {
         "Thu 4 Jun — the circular market has begun to turn: PSG now hold a verbal yes from Diomandé themselves, and if Paris land the Ivorian it is Barcola's wing they will hand him — at which point the Frenchman, already outside Luis Enrique's preferred XI, becomes the most gettable elite winger in Europe. Liverpool's fallback file thus improves on the very news that complicates their first choice. A waiting game, but no longer an idle one.",
       positionFit: {
         replaces: "Salah (alternative)",
-        competesWith: ["Díaz", "Gakpo"],
-        depthAfter: "If not Diomandé: Barcola · Díaz · Gakpo",
+        competesWith: ["Gakpo", "Ngumoha"],
+        depthAfter: "If not Diomandé: Barcola · Gakpo · Ngumoha",
       },
       stats: {
         apps: 38, goals: 12, assists: 11,
