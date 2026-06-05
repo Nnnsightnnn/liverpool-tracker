@@ -348,13 +348,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday, and the waiting ends in ink. Andoni Iraola travels to
-          Merseyside today to sign a two-year contract as Liverpool's head
-          coach, the announcement expected within days and comfortably before
-          the World Cup opens. His first deal is already a duel — Diomandé has
-          said yes to Liverpool and to PSG alike, and Leipzig will sell to
-          whichever club pays. Seven weeks from now, in Nashville, we see what
-          he makes of it.
+          It is official. On Friday morning the club put out the statement,
+          and Andoni Iraola is Liverpool's head coach — two years, his terms,
+          his first words already a kind of creed: <em>Liverpool is Liverpool</em>.
+          Around him the summer accelerates, formal talks for Diomandé, a
+          wobble in Salah's goodbye, and the first teamsheet still seven
+          weeks off, in Nashville.
         </p>
 
         <StatStrip stats={stats} />
@@ -369,19 +368,18 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>{" "}
-              is signing day. Somewhere on the M6 this morning is a Basque coach with
-              a pen, travelling to put his name on a contract that runs precisely two
-              years — Andoni Iraola has never signed longer, and did not start now.
-              The first business of his era is already live: Yan Diomandé, nineteen and
-              the Bundesliga's young player of the season, has said yes to Liverpool
-              and to PSG both, leaving Leipzig to auction the difference, while a £170m
-              double with Club Brugge's Ordóñez is said to be approved and Romano
-              teases a Kroupi reunion at striker. The leavings continue around the
-              arrivals — Konaté's exit is formal now, his Madrid unveiling parked
-              behind a presidential election; Curtis Jones has chosen Inter and waits
-              on the fee. At Kirkby, meanwhile, a fifteen-year-old turned down half
-              of England's riches to stay. The rebuild has a signature at last.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>{" "}
+              brings the confirmation, and with it a voice. "You don't need a lot
+              of things to get attracted by Liverpool," said the club's new head
+              coach, officially appointed this morning, six days after the old one
+              was sacked. "Liverpool is Liverpool." With the manager settled, the
+              chase begins in earnest — formal talks opened with Leipzig for
+              Diomandé, Ornstein scoring the race for the Reds even as the boy
+              confesses a childhood love of Paris — and in Madrid a presidential
+              candidate campaigns on Konaté the way others campaign on roads.
+              The strangest line of the week, though, is the quietest: Salah,
+              whose farewell filled May, has called his agent to talk about
+              staying. Some goodbyes, it turns out, are written in pencil.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -389,10 +387,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a manager signing his contract and a squad already being
-              rebuilt around him; a winger who said yes twice; a centre-back vacancy
-              with a Belgian answer; and a long goodbye whose ending, the agent
-              insists, no one yet knows. Read slowly. The ink is still wet.
+              week. There is a manager confirmed and a squad being rebuilt to his
+              shape; a winger torn between his head and his childhood; a defender
+              turned campaign promise; and a farewell that may yet refuse to end.
+              Read slowly. The era is one day old.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -2871,7 +2869,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Two years. One signature. Begin."
+        "Liverpool is Liverpool."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
