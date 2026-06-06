@@ -348,12 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          It is official. On Friday morning the club put out the statement,
-          and Andoni Iraola is Liverpool's head coach — two years, his terms,
-          his first words already a kind of creed: <em>Liverpool is Liverpool</em>.
-          Around him the summer accelerates, formal talks for Diomandé, a
-          wobble in Salah's goodbye, and the first teamsheet still seven
-          weeks off, in Nashville.
+          It is the season of the ledger. On Saturday the marquee chase tilts
+          away — Diomandé leaning to Paris, Iraola already naming Sporting's
+          Trincão as the answer — while the club slams a door on Bayern to keep
+          a seventeen-year-old it calls <em>untouchable</em>. The window opens
+          June 15; the first whistle, in Nashville, is still seven weeks off.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,18 +367,18 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>{" "}
-              brings the confirmation, and with it a voice. "You don't need a lot
-              of things to get attracted by Liverpool," said the club's new head
-              coach, officially appointed this morning, six days after the old one
-              was sacked. "Liverpool is Liverpool." With the manager settled, the
-              chase begins in earnest — formal talks opened with Leipzig for
-              Diomandé, Ornstein scoring the race for the Reds even as the boy
-              confesses a childhood love of Paris — and in Madrid a presidential
-              candidate campaigns on Konaté the way others campaign on roads.
-              The strangest line of the week, though, is the quietest: Salah,
-              whose farewell filled May, has called his agent to talk about
-              staying. Some goodbyes, it turns out, are written in pencil.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>{" "}
+              brings a reversal. The winger meant to inherit Salah's flank is
+              drifting toward Paris instead — Goal, Fox and TribalFootball all
+              reporting Diomandé has told PSG yes — and Iraola, barely a day into
+              the job, has answered the only way a sensible new manager can: by
+              naming a cheaper Plan B in Sporting's Trincão. The counter-story is
+              louder for being shorter. Bayern came for Rio Ngumoha, seventeen and
+              suddenly untouchable, and left within hours empty-handed, the club
+              refusing even to name a price. Around it the reset hardens — as many
+              as eight told they can go, Alisson digging in to stay, a £40m bid
+              readied for a defender. Salah, asked once more, says only that
+              everything will become clear after the World Cup.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -387,10 +386,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a manager confirmed and a squad being rebuilt to his
-              shape; a winger torn between his head and his childhood; a defender
-              turned campaign promise; and a farewell that may yet refuse to end.
-              Read slowly. The era is one day old.
+              week. There is a manager remaking a squad to his shape; a marquee winger
+              slipping toward a rival; a defender turned campaign promise; a goalkeeper
+              who chose to stay; and a farewell still written in pencil.
+              Read slowly. The era is two days old.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -2869,7 +2868,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Liverpool is Liverpool."
+        "Untouchable — for once, the word held."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
