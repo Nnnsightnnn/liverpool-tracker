@@ -530,7 +530,7 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "Iraola Sets His Pre-Season Blueprint — A World-Cup-Thinned Tour, An Academy Audition (Liverpool FC / This Is Anfield / Empire of the Kop, reported Wed Jun 3-Sun Jun 7)",
+      title: "Monaco And Como Confirmed As Iraola's Pre-Season Takes Shape Around World Cup Absences (Liverpool FC / This Is Anfield / Empire of the Kop, reported Wed Jun 3-Sun Jun 7)",
       detail:
         "With the full schedule locked — Sunderland in Nashville (July 25), Wrexham at Yankee Stadium (July 29), Leeds at Soldier Field (August 2), then back-to-back Anfield friendlies against Monaco (Aug 9) and Cesc Fàbregas's Champions League-bound Como (Aug 16) — Iraola has framed his first weeks around absence. Eight inherited first-teamers report late from the World Cup, so the US tour leans on youth: 'We will have a chance to work especially with some of the young players,' he said, welcoming the look at academy and returning loan players before the league opens.",
       category: "matches",
@@ -688,7 +688,7 @@ export const TRANSFER_TARGETS = {
       wageBand: "C",
       contractExpiry: "2030-06-30",
       releaseClause: null,
-      contractNote: "Contract to 2030, no release clause; Leipzig minded to keep him and, per BILD, could demand up to €150m.",
+      contractNote: "Contract to 2030, no release clause; Leipzig minded to keep him and reported to want as much as €100m.",
       probability: 28,
       heatTier: "cool",
       sources: [
@@ -888,7 +888,7 @@ export const TRANSFER_TARGETS = {
       ],
       lastUpdated: "2026-06-04",
       rumorNote:
-        "Thu 4 Jun — the queue in front of him has re-ordered: with Konaté's exit now formally confirmed, the right centre-back slot is open, but Football365's reporting puts Club Brugge's Ordóñez at the head of an 'approved' double rather than Lacroix. A Jarell Quansah buy-back — the ~€80m clause on the Leverkusen man drops next summer — Koulierakis and Schlotterbeck round out the list. Lacroix stays a live, Premier-League-proven name entering his peak, but the momentum this week is Belgian.",
+        "Thu 4 Jun — the queue in front of him has re-ordered: with Konaté's exit all but confirmed — agreed and awaiting today's Madrid vote — the right centre-back slot is opening, but Football365's reporting puts Club Brugge's Ordóñez at the head of an 'approved' double rather than Lacroix. A Jarell Quansah buy-back — the ~€80m clause on the Leverkusen man drops next summer — Koulierakis and Schlotterbeck round out the list. Lacroix stays a live, Premier-League-proven name entering his peak, but the momentum this week is Belgian.",
       positionFit: {
         replaces: "Konaté (right centre-back)",
         competesWith: ["Van Dijk", "Jacquet"],
@@ -953,21 +953,21 @@ export const TRANSFER_TARGETS = {
       wageBand: "B",
       contractExpiry: "2028-06-30",
       releaseClause: null,
-      contractNote: "Out of favour under Luis Enrique; gettable only if Liverpool land Diomandé first.",
-      probability: 28,
+      contractNote: "Out of favour under Luis Enrique; a name on the wide-forward longlist rather than an active pursuit.",
+      probability: 22,
       heatTier: "cool",
       sources: [
         { name: "This Is Anfield",    tier: "A" },
         { name: "Football Transfers", tier: "B" },
         { name: "Liverpool.com",      tier: "B" },
       ],
-      lastUpdated: "2026-06-06",
+      lastUpdated: "2026-06-07",
       rumorNote:
-        "Paris · 6 Jun — the hedge inverts. With Diomandé now leaning toward PSG, the very deal that takes the Ivorian to Paris is the one most likely to free Barcola — a crowded Enrique front line cannot hold both. So Liverpool's two wide files have quietly swapped places: the closer Diomandé gets to PSG, the more available Barcola becomes, even as Iraola's stated Plan B becomes Sporting's Trincão. A fallback to the fallback, kept warm precisely because the first choice is cooling.",
+        "Paris · 7 Jun — a name kept on file, not chased. With the Diomandé pursuit cooled — no Liverpool offer, the Ivorian focused on his World Cup — and Sporting's Trincão the clearer Plan B, Barcola reads as a deeper contingency than an active target. The logic that once tied him to Anfield survives only loosely: a crowded Enrique front line could yet make the 23-year-old available, but nothing in this week's reporting puts Liverpool in the room. Warm only in the sense that a long list is always warm.",
       positionFit: {
         replaces: "Salah (alternative)",
         competesWith: ["Gakpo", "Ngumoha"],
-        depthAfter: "If not Diomandé: Barcola · Gakpo · Ngumoha",
+        depthAfter: "Deeper option: Barcola · Gakpo · Ngumoha",
       },
       stats: {
         apps: 38, goals: 12, assists: 11,
