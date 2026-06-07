@@ -348,11 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          It is the season of the ledger. On Saturday the marquee chase tilts
-          away — Diomandé leaning to Paris, Iraola already naming Sporting's
-          Trincão as the answer — while the club slams a door on Bayern to keep
-          a seventeen-year-old it calls <em>untouchable</em>. The window opens
-          June 15; the first whistle, in Nashville, is still seven weeks off.
+          It is the season of subtraction. This Sunday a Liverpool defender's
+          future is decided in a Madrid polling hall — Konaté's free transfer
+          waiting only on the Bernabéu vote — while Robertson's nine years close
+          with a free move to Spurs. Fifth place bought the Champions League; the
+          window opens June 15, the first whistle, in Nashville, seven weeks off.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,18 +367,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>{" "}
-              brings a reversal. The winger meant to inherit Salah's flank is
-              drifting toward Paris instead — Goal, Fox and TribalFootball all
-              reporting Diomandé has told PSG yes — and Iraola, barely a day into
-              the job, has answered the only way a sensible new manager can: by
-              naming a cheaper Plan B in Sporting's Trincão. The counter-story is
-              louder for being shorter. Bayern came for Rio Ngumoha, seventeen and
-              suddenly untouchable, and left within hours empty-handed, the club
-              refusing even to name a price. Around it the reset hardens — as many
-              as eight told they can go, Alisson digging in to stay, a £40m bid
-              readied for a defender. Salah, asked once more, says only that
-              everything will become clear after the World Cup.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>{" "}
+              settles a transfer at a ballot box. Ibrahima Konaté has agreed four
+              years at Real Madrid, a free transfer that completes the day his
+              Anfield deal lapses, and the last formality is the contested
+              Bernabéu election being held this afternoon. CaughtOffside calls the
+              package the bill for Liverpool's delay — a France international gone
+              for nothing. He is not the only pillar to fall: Andy Robertson's
+              free move to Tottenham is confirmed, nine years and a title-winning
+              spine thinning in a single window, while Alexis Mac Allister is now
+              spoken of as one who could be moved on, Real Madrid hovering and no
+              new deal on the table. The incoming file, by contrast, has gone
+              quiet — Diomandé cooled, Trincão the calmer name Iraola may have
+              wanted all along. The era is a week old, and already it is mostly
+              about who is leaving.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -386,10 +388,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a manager remaking a squad to his shape; a marquee winger
-              slipping toward a rival; a defender turned campaign promise; a goalkeeper
-              who chose to stay; and a farewell still written in pencil.
-              Read slowly. The era is two days old.
+              week. There is a defender whose move is settled by a vote; a nine-year
+              farewell handed over on a free; a midfielder no one is rushing to defend;
+              a manager turning an empty pre-season into an audition; and a marquee
+              chase gone suddenly quiet. Read slowly. The era is a week old.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -2868,7 +2870,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Untouchable — for once, the word held."
+        "Some farewells are settled by a vote."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
