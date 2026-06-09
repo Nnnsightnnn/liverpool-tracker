@@ -128,17 +128,17 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "TeamTalk / Fabrizio Romano", title: "Diomandé deal accelerates: club-to-club talks with Leipzig open after the 19-year-old says yes — both sides racing to close before the World Cup begins Thursday", time: "today", category: "major" },
-  { source: "Liverpool.com / TheHardTackle", title: "Inter line up a fresh meeting to seal Curtis Jones at ~€25m — the midfielder 'prioritising' San Siro and ready to snub Aston Villa", time: "today", category: "major" },
-  { source: "This Is Anfield / Rousing The Kop", title: "Darwin Núñez 'would like' an Anfield return and could arrive as a free agent if his Al-Hilal deal is torn up — Barcelona also circling", time: "today", category: "fan" },
-  { source: "ESPN / The Players' Tribune", title: "Divock Origi retires at 31: the Champions League hero bows out with an emotional letter — 'my purpose in the game as a player is fulfilled'", time: "1d ago", category: "major" },
-  { source: "Football365 / GiveMeSport", title: "Alex Scott emerges as a possible 'first Iraola signing' — Liverpool weigh a £40m bid against Bournemouth's £60m valuation, Man Utd and Spurs lurking", time: "1d ago", category: "major" },
-  { source: "TeamTalk / Liverpool.com", title: "Gakpo as Diomandé leverage? Reports float using the unhappy forward in a swap with Leipzig after his transfer request — Spurs still strongly keen", time: "1d ago", category: "major" },
-  { source: "Managing Madrid / This Is Anfield", title: "Konaté's free transfer to Real Madrid now sealed after Pérez's re-election — the four-year deal cleared for its unveiling within days", time: "1d ago", category: "major" },
-  { source: "Anfield Watch / Sportingpedia", title: "Mac Allister still caught between the two Madrids — Real and Atlético both circling as no new Anfield deal materialises", time: "2d ago", category: "fan" },
-  { source: "Al Jazeera / beIN Sports", title: "Salah captains Egypt into the World Cup — his Anfield decision held until the tournament ends, Turkey now ahead of Saudi and MLS in the betting", time: "2d ago", category: "fan" },
-  { source: "Sky Sports / Football365", title: "Ordóñez stays the defensive priority now Konaté is gone — a £40m bid for the Club Brugge man, with Chelsea and City watching the file", time: "2d ago", category: "major" },
-  { source: "Liverpool.com / Fabrizio Romano", title: "Ngumoha stays untouchable as Bayern linger — no formal contact, and the left wing Gakpo is vacating looks more the teenager's than ever", time: "2d ago", category: "fan" },
+  { source: "GiveMeSport / Caught Offside", title: "Iraola's centre-back rebuild takes shape: a four-man shortlist to replace Konaté, with Sporting's left-footed Gonçalo Inácio (~£52m clause) the marquee name", time: "today", category: "major" },
+  { source: "Football Insider / Football365", title: "The real reason Konaté walked: extension talks 'killed' over wage and agent-fee demands, not football, leaving the club to spend £40m-plus on a successor", time: "today", category: "major" },
+  { source: "Football365 / Fabrizio Romano", title: "Chiesa exit 'deal on,' says Romano, as the Italian admits 'I want to play. If I don't find consistency in the Premier League, I'll have to look elsewhere'", time: "today", category: "major" },
+  { source: "This Is Anfield / Liverpool.com", title: "Iraola's first words to the squad: 'For me, you are all new signings. I think we have a lot of quality'", time: "1d ago", category: "major" },
+  { source: "Sport Bible / Empire of the Kop", title: "Vuskovic, Murillo and Beukema join Inácio on Hughes's four-man centre-back list — a teenage project hedged against a Premier-League-proven option", time: "1d ago", category: "fan" },
+  { source: "Sky Sports / David Ornstein", title: "Diomandé pursuit cools a degree: Ornstein says no formal offer yet, Leipzig want north of €130m, and the 19-year-old's PSG affection resurfaces", time: "today", category: "major" },
+  { source: "Football Italia / Liverpool.com", title: "Jones edges to Inter after a dressing-room nudge from Chiesa — the midfielder asked 'what it's like living in Italy,' a San Siro yes near €25m reported", time: "today", category: "fan" },
+  { source: "Liverpool.com / Empire of the Kop", title: "Salah won't reconsider, says Lovren, as the goodbye hardens — the contract lapses June 30 with the forward set to captain Egypt at the World Cup", time: "1d ago", category: "fan" },
+  { source: "Football365 / World Soccer Talk", title: "Darwin Núñez free-agent return alerts five Premier League clubs — Liverpool among them with Chelsea, Spurs, Newcastle and Villa, Barcelona listening", time: "today", category: "fan" },
+  { source: "Anfield Watch / Sportingpedia", title: "Mac Allister still caught between the two Madrids — Real and Atlético both circling as no new Anfield deal materialises, sale value flagged near €120m", time: "2d ago", category: "fan" },
+  { source: "Managing Madrid / This Is Anfield", title: "Konaté's free transfer to Real Madrid sealed after Pérez's re-election — the four-year deal cleared for its unveiling within days", time: "2d ago", category: "major" },
   { source: "Sky Sports / Premier League", title: "Andy Robertson's free move to Tottenham confirmed — nine years and nine major trophies close, Kerkez inheriting the left", time: "4d ago", category: "official" },
   { source: "Empire of the Kop", title: "Pre-season set: Sunderland in Nashville (Jul 25), Wrexham at Yankee Stadium (Jul 29), Leeds at Soldier Field (Aug 2), then Monaco and Como at Anfield", time: "5d ago", category: "official" },
 ];

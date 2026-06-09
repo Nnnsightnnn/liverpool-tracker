@@ -127,29 +127,29 @@ export const PLAYER_EVIDENCE = {
   1:  "Snubs Juventus · staying as No. 1",     // Alisson
   2:  "Loan likely now Alisson stays",         // Mamardashvili
   3:  "Captain · NL World Cup squad",          // Van Dijk
-  4:  "Madrid move sealed · awaits unveiling", // Konaté
+  4:  "Madrid-bound · Inácio leads successors", // Konaté
   5:  "Among the squad's possible exits",      // Gomez
   6:  "Gone to Spurs · free transfer done",    // Robertson
   7:  "Tough debut · now first-pick LB",       // Kerkez
   8:  "Knee · pre-season doubt, no timeline",  // Bradley
   9:  "Axed from NL World Cup squad",          // Frimpong
   10: "Torn ACL · out into 2026-27",           // Leoni
-  11: "Deputy CB · may inherit Konaté slot",   // Jacquet
+  11: "Deputy CB · behind the 4-man shortlist", // Jacquet
   12: "Academy depth · 2 senior apps",         // Ndukwe
   13: "Two Madrids circling · ~€120m",         // Mac Allister
   14: "Dutch WC squad · most consistent MID",  // Gravenberch
   15: "48 apps · extension still pending",     // Szoboszlai
-  16: "Inter push fresh meeting · ~€25m",      // Jones
+  16: "Inter yes near €25m · Chiesa nudge",    // Jones
   17: "Fit · captains Japan at World Cup",     // Endo
   18: "Injury-hit £115m first year",           // Wirtz
   19: "Hamstring · missed all season",         // Bajcetic
   20: "Academy prospect · 5 senior apps",      // Nyoni
-  21: "Egypt captain · decides after WC",      // Salah
-  22: "Request in · floated in Diomandé swap", // Gakpo
+  21: "Lovren: no U-turn · WC then decides",   // Salah
+  22: "Request in · swap chip as Diomandé cools", // Gakpo
   23: "Injury-wrecked £100m debut year",       // Isak
   24: "Ruptured Achilles · out 9-12 months",   // Ekitike
   25: "Untouchable · Bayern rebuffed",         // Ngumoha
-  26: "Bit-part year · summer exit likely",    // Chiesa
+  26: "Romano: deal 'on' · Inter circling",    // Chiesa
   27: "3rd-choice GK · 2 PL starts",           // Woodman
 };
 
@@ -190,13 +190,13 @@ export const SLOT_RATIONALE = {
   GK:  "Tue Jun 2 — Alisson is now widely expected to remain. Juventus had agreed personal terms near €5m a year, but the Italians missing out on Champions League football drained the move of momentum, and the Brazilian was never the one pushing it. Mamardashvili waits, likeliest to go out on loan.",
   LB:  "Tue Jun 2 — with Andy Robertson's free transfer to De Zerbi's Tottenham now done, the Liverpool left-back slot is unambiguously Milos Kerkez's after a tough first season at £45m. Nine years of cover at the position have walked out the door in a single window.",
   LCB: "Tue Jun 2 — Van Dijk closes a hard campaign as captain with his standards intact, named in Koeman's World Cup squad and contracted to June 2027 — the one fixed point as the back line is rebuilt around him, and the senior leader of a suddenly thin centre-back group.",
-  RCB: "Tue Jun 9 — the vacancy is permanent and only a photograph from formal: Pérez's Bernabéu re-election cleared the last condition on Konaté's four-year free transfer to Real Madrid (~€24m gross a season), with the unveiling now imminent. The succession is one half of a possible £170m double — a £40m bid for Club Brugge's Ordóñez, with Chelsea and City circling and Jacquet the in-house cover.",
+  RCB: "Tue Jun 9 — the succession finally has names: with Konaté's free move to Madrid sealed (the extension collapsed over wage and agent-fee demands, not football), Hughes and Iraola have drawn up a four-man shortlist, Sporting's left-footed Gonçalo Inácio (~£52m clause) the marquee fit, with Tottenham's Vuskovic, Forest's Murillo and Napoli's Beukema alongside and Club Brugge's Ordóñez (~£40m) the standing bid. Jacquet is the in-house cover until one lands.",
   LDM: "Tue Jun 2 — Gravenberch finished the season as the most consistent midfielder Liverpool had and is in the Dutch World Cup squad; the obvious building block at the base of the 4-2-3-1 going into 2026-27.",
   RDM: "Tue Jun 2 — Szoboszlai closes a heavy-minutes season of 48 appearances as a midfield mainstay; a contract extension is still expected to be agreed over the summer.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
   CAM: "Tue Jun 9 — the Mac Allister question has not eased: Real Madrid and Atlético both remain linked, no new-contract talks open, the midfielder into the final two years of his deal. His father Carlos again denies a formal approach while allowing he views La Liga warmly; Football365 keeps Liverpool's internal sale valuation near €120m.",
-  RAM: "Tue Jun 9 — the succession is now a negotiation: with Yan Diomandé having said yes, club-to-club talks with Leipzig are open, both sides pushing to close before the World Cup begins Thursday, the gap purely the fee (Leipzig near €140m). The incumbent, Salah — Egypt's captain — still defers his own decision to after the tournament, leaving the most important attacking slot the least settled.",
-  RB:  "Tue Jun 9 — the exit picks up pace: Inter have lined up a fresh meeting with Hughes to push a Jones deal toward the line near €25m, after their €20m opener was rejected. The midfielder is reported to be prioritising San Siro and ready to snub Aston Villa — a sale that would, incidentally, vacate this very slot.",
+  RAM: "Tue Jun 9 — the winger search holds without breaking: Liverpool are still 'closing in' on Leipzig's Yan Diomandé and lead on personal terms, but Ornstein stresses no formal offer is in, Leipzig want north of €130m, and the 19-year-old's old love for PSG has resurfaced, with a Gakpo-plus-cash swap floated as the bridge. The incumbent, Salah, will not revisit his exit (per Lovren) and decides his own future only after the World Cup, leaving the most important attacking slot the least settled.",
+  RB:  "Tue Jun 9 — the exit has a matchmaker: Federico Chiesa revealed Jones asked him 'what it's like living in Italy' and that 'Inter are right to think about him,' and the midfielder is now reported to have said yes to San Siro near €25m, ready to snub Aston Villa. A sale that would, incidentally, vacate this very slot.",
   ST:  "Tue Jun 2 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
 };
 
@@ -223,8 +223,8 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  reason: "Tue Jun 9 (post-season refresh) — the XI shown here is the side that closed 2025-26 after the May 24 1-1 with Brentford, now in the hands of Andoni Iraola. Confidence stays Low because the squad is in open flux: for the first time this summer the rebuild is adding, club-to-club talks now open for Leipzig's Yan Diomandé (both sides racing to close before the World Cup begins Thursday, Gakpo even floated as swap leverage). The exits move with it — Inter press to seal Curtis Jones near €25m, Konaté's free move to Real Madrid is sealed and awaiting its unveiling (Ordóñez fronting the succession), and Robertson's free transfer to Tottenham is done, Kerkez inheriting the left. Mac Allister stays pulled between the two Madrids, Alisson digs in to stay (nudging Mamardashvili toward a loan), and Ngumoha remains untouchable. Salah, Egypt's captain, defers his call to after the tournament. Next fixture: pre-season vs Sunderland in Nashville, July 25, the first of five friendlies ending with Monaco and Como at Anfield.",
-  pundit_sources: ["Fabrizio Romano", "David Ornstein", "TeamTalk", "Football365", "FootballFanCast", "This Is Anfield", "ESPN", "The Players' Tribune", "Liverpool.com", "TheHardTackle", "Anfield Watch", "GiveMeSport", "Managing Madrid", "Sky Sports", "Al Jazeera"],
-  agreement_rate: 0.65,
-  generated_at: "2026-06-09T08:15:00Z",
+  reason: "Tue Jun 9 (post-season refresh) — the XI shown here is the side that closed 2025-26 after the May 24 1-1 with Brentford, now in the hands of Andoni Iraola. Confidence stays Low because the squad is in open flux, and this evening the defensive rebuild took its clearest shape yet: with Konaté's free move to Real Madrid sealed (the extension is said to have collapsed over wage and agent-fee demands), Hughes and Iraola have drawn up a four-man centre-back shortlist headed by Sporting's left-footed Gonçalo Inácio, with Vuskovic, Murillo and Beukema alongside and Brugge's Ordóñez the standing ~£40m bid. The exits keep pace: Romano calls the Chiesa deal 'on' and Curtis Jones edges to Inter near €25m after a dressing-room nudge from Chiesa, while Robertson's free move to Tottenham is done, Kerkez inheriting the left. Up top the Diomandé chase cools a degree (Ornstein flags no offer yet, the winger's PSG love resurfacing), Mac Allister stays between the two Madrids, Alisson digs in to stay (nudging Mamardashvili toward a loan), and Salah, per Lovren, will not reconsider his exit. Next fixture: pre-season vs Sunderland in Nashville, July 25, the first of five friendlies ending with Monaco and Como at Anfield.",
+  pundit_sources: ["GiveMeSport", "Caught Offside", "Football Insider", "Fabrizio Romano", "David Ornstein", "Football365", "Football Italia", "This Is Anfield", "Liverpool.com", "Sport Bible", "Empire of the Kop", "TeamTalk", "Sky Sports", "Anfield Watch", "World Soccer Talk"],
+  agreement_rate: 0.64,
+  generated_at: "2026-06-09T17:00:00Z",
 };

@@ -348,11 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          At last, the season of subtraction is trying to add. On Tuesday
-          Liverpool opened club-to-club talks with Leipzig for Yan Diomandé, the
-          19-year-old having said yes, both sides racing to close before the World
-          Cup begins Thursday. Fifth place bought the Champions League; the window
-          opens in six days, the first whistle, in Nashville, seven weeks off.
+          Tuesday, and the rebuild finally has a blueprint. With Konaté gone to
+          Madrid for nothing, Liverpool have drawn up a four-man centre-back
+          shortlist, Sporting's left-footed Inácio its marquee name. Fifth place
+          bought the Champions League; the window opens in six days, the first
+          whistle, a friendly in Nashville, still seven weeks off.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,17 +368,19 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>{" "}
-              turns a long admiration into a negotiation. Liverpool have opened
-              club-to-club talks with Leipzig for Yan Diomandé, the nineteen-year-old
-              having said yes, both sides pushing to finish before the World Cup
-              begins on Thursday — the first time all summer the Reds are bargaining
-              for someone rather than simply watching him. The week made its losses,
-              too: Divock Origi, the folk hero of 2019, retired at thirty-one with a
-              letter that read like a prayer, and Inter pressed to take Curtis Jones
-              to Milan. Even nostalgia knocked — Darwin Núñez, of all people, floated
-              for a return. Konaté's Madrid move waits only on a photograph; Salah
-              carries his goodbye into the tournament. An era a week old learns, at
-              last, to add even as it keeps subtracting.
+              gives the summer a spine. For weeks the loss of Ibrahima Konaté,
+              walking to Real Madrid for nothing after extension talks died over
+              money, was just a hole; now Richard Hughes and Andoni Iraola have a
+              four-man list to fill it, Sporting's left-footed Gonçalo Inácio the
+              name held above the rest. The exits keep their own rhythm: Fabrizio
+              Romano calls the Chiesa deal on as the Italian admits he needs to
+              play, and Curtis Jones edges to Inter, talked into Italy by a
+              teammate. Up top the search for a winger holds without breaking, the
+              Diomandé chase cooling a degree as the boy's old love for Paris
+              resurfaces. Even nostalgia lingers, Darwin Núñez floated for a
+              return. And through it all Salah, his mind made up, carries his
+              goodbye into a World Cup. An era a week old is learning, at last,
+              what it wants to become.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -386,10 +388,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a winger Liverpool are at last negotiating for, not merely
-              admiring; a folk hero retiring at thirty-one; a homegrown midfielder bound
-              for Milan; a manager reaching for the players he already knows; and a ghost
-              of a striker knocking to return. Read slowly. The era is a week old.
+              week. There is a defensive search that has finally found its names; a
+              manager calling the men he inherited his new signings; a homegrown
+              midfielder talked toward Milan by a teammate; a friend insisting Salah
+              will not turn back; and a ghost of a striker knocking to return. Read
+              slowly. The era is a week old.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -2868,7 +2871,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "At last, a name arriving, not leaving."
+        "Four names to fill one loss."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
