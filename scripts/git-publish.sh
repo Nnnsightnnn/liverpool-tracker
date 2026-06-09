@@ -107,7 +107,7 @@ GIT_INDEX_FILE="$TMPIDX" git read-tree HEAD
 
 # If no FILEs given, stage every currently-modified tracked file
 if [[ ${#FILES[@]} -eq 0 ]]; then
-  mapfile -t FILES < <(git diff --name-only HEAD)
+  while IFS= read -r _f; do [ -n "$_f" ] && FILES+=("$_f"); done < <(git diff --name-only HEAD)
 fi
 
 if [[ ${#FILES[@]} -eq 0 ]]; then
