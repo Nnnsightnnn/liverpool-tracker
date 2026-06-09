@@ -676,7 +676,7 @@ export const TRANSFER_TARGETS = {
       role: "Box-to-box midfielder",
       nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England",
       foot: "Right",
-      image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p465490.png",
+      image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p503139.png",
       currentClub: "Bournemouth",
       currentLeague: "Premier League",
       feeMin: 40, feeMax: 60, feeCurrency: "£m",
@@ -701,9 +701,9 @@ export const TRANSFER_TARGETS = {
         depthAfter: "Gravenberch · Scott · Szoboszlai",
       },
       stats: {
-        apps: 37, goals: 4, assists: 6,
+        apps: 34, goals: 3, assists: 1,
         tacklesPer90: 2.2, passCompletion: 85, progressiveCarries: 3.4,
-        cleanSheets: 0, xG: 3.1,
+        cleanSheets: 0, xG: 2.4,
       },
     },
     {
