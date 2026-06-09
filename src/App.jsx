@@ -348,11 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          It is the season of subtraction. On Monday a Liverpool defender's exit
-          is finally sealed — Konaté's free transfer to Madrid cleared by Pérez's
-          re-election — while Cody Gakpo asks to leave the manager who is already
-          gone. Fifth place bought the Champions League; the window opens in a
-          week, the first whistle, in Nashville, seven weeks off.
+          At last, the season of subtraction is trying to add. On Tuesday
+          Liverpool opened club-to-club talks with Leipzig for Yan Diomandé, the
+          19-year-old having said yes, both sides racing to close before the World
+          Cup begins Thursday. Fifth place bought the Champions League; the window
+          opens in six days, the first whistle, in Nashville, seven weeks off.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,20 +367,18 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>{" "}
-              settles a transfer that a ballot box had been holding. Florentino
-              Pérez has won his Bernabéu election in a landslide, and somewhere in
-              that two-thirds majority Ibrahima Konaté's Anfield career quietly
-              ended — a France international gone for nothing, the bill for an
-              extension that stalled too long. He is not the only one leaving by
-              his own hand: Cody Gakpo has handed in a transfer request, unwilling
-              to stay and fight for a wing he once owned now that the manager who
-              trusted him is gone. Alexis Mac Allister, too, is pulled toward
-              Madrid, Real and Atlético both circling a midfielder with no new
-              deal on the table. And yet, beneath the departures, a first arrival
-              stirs — Romano says Iraola's opening signing lands next week, the
-              Diomandé chase warm again. The era is a week old, and already it is
-              learning to add even as it subtracts.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>{" "}
+              turns a long admiration into a negotiation. Liverpool have opened
+              club-to-club talks with Leipzig for Yan Diomandé, the nineteen-year-old
+              having said yes, both sides pushing to finish before the World Cup
+              begins on Thursday — the first time all summer the Reds are bargaining
+              for someone rather than simply watching him. The week made its losses,
+              too: Divock Origi, the folk hero of 2019, retired at thirty-one with a
+              letter that read like a prayer, and Inter pressed to take Curtis Jones
+              to Milan. Even nostalgia knocked — Darwin Núñez, of all people, floated
+              for a return. Konaté's Madrid move waits only on a photograph; Salah
+              carries his goodbye into the tournament. An era a week old learns, at
+              last, to add even as it keeps subtracting.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -388,10 +386,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a defender whose exit was sealed by an election; a forward
-              who asked to leave the manager who made him; a midfielder pulled toward two
-              Madrids; a head coach quietly making his first signing; and a captain
-              carrying his goodbye into a World Cup. Read slowly. The era is a week old.
+              week. There is a winger Liverpool are at last negotiating for, not merely
+              admiring; a folk hero retiring at thirty-one; a homegrown midfielder bound
+              for Milan; a manager reaching for the players he already knows; and a ghost
+              of a striker knocking to return. Read slowly. The era is a week old.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -2870,7 +2868,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The ballot closed, and the defender was gone."
+        "At last, a name arriving, not leaving."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

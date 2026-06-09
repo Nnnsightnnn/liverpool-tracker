@@ -23,10 +23,10 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the first-choice XI Liverpool closed the
     // campaign with, the baseline a summer rebuild will reshape. 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Mon Jun 8: Konaté's free
-    // transfer to Madrid is now sealed (Pérez re-elected Sunday); Gakpo has handed
-    // in a transfer request; the Diomandé chase has warmed again (Trincão still the
-    // calmer route); Salah, named Egypt captain, defers his exit to after the World Cup.
+    // backup look — Slot favoured 4-2-3-1. Refreshed Tue Jun 9: club-to-club talks
+    // have opened for Diomandé as the rebuild's first attacking move; Inter press to
+    // seal Curtis Jones near €25m; Konaté's Madrid free transfer is sealed and awaiting
+    // unveiling; Salah, Egypt's captain, carries his exit decision into the World Cup.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -61,11 +61,11 @@ export const FORMATIONS = {
     // through the run-in — is shown as the first-choice XI Liverpool finished
     // the campaign with after Sunday's 1-1 with Brentford, NOT as a prediction
     // for a coming fixture (the next match is a pre-season friendly on July
-    // 25). Refreshed Mon Jun 8: Konaté's free transfer to Real Madrid is now
-    // sealed after Pérez's re-election (Ordóñez fronts the succession); Gakpo has
-    // asked to leave; the Diomandé chase has warmed again, with Sporting's Trincão
-    // still the calmer wide-forward alternative; Salah, named Egypt captain, defers
-    // his call to after the World Cup.
+    // 25). Refreshed Tue Jun 9: club-to-club talks have opened for Diomandé (the
+    // rebuild's first attacking thrust), with Gakpo floated as possible swap
+    // leverage; Inter press to seal Curtis Jones near €25m; Konaté's Madrid free
+    // transfer is sealed and awaiting unveiling, Ordóñez fronting the succession;
+    // Salah, Egypt's captain, carries his call into the World Cup.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -118,16 +118,16 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-06-08
-// (Mon, post-season: Konaté's Madrid free transfer sealed after Pérez's
-// re-election; Gakpo has handed in a transfer request; Diomandé chase warm
-// again, Trincão the calmer route; Mac Allister caught between Real and Atlético;
-// Salah named Egypt captain, deferring to after the World Cup.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-06-09
+// (Tue, post-season: club-to-club talks open for Diomandé as the rebuild's first
+// attacking move; Inter push to seal Curtis Jones near €25m; Konaté's Madrid free
+// transfer sealed and awaiting unveiling; Mac Allister still between the two
+// Madrids; Gakpo floated as swap leverage; Salah carries his call into the WC.)
 export const PLAYER_EVIDENCE = {
   1:  "Snubs Juventus · staying as No. 1",     // Alisson
   2:  "Loan likely now Alisson stays",         // Mamardashvili
   3:  "Captain · NL World Cup squad",          // Van Dijk
-  4:  "Madrid sealed · Pérez re-elected",      // Konaté
+  4:  "Madrid move sealed · awaits unveiling", // Konaté
   5:  "Among the squad's possible exits",      // Gomez
   6:  "Gone to Spurs · free transfer done",    // Robertson
   7:  "Tough debut · now first-pick LB",       // Kerkez
@@ -136,19 +136,19 @@ export const PLAYER_EVIDENCE = {
   10: "Torn ACL · out into 2026-27",           // Leoni
   11: "Deputy CB · may inherit Konaté slot",   // Jacquet
   12: "Academy depth · 2 senior apps",         // Ndukwe
-  13: "Real & Atlético both circling",         // Mac Allister
+  13: "Two Madrids circling · ~€120m",         // Mac Allister
   14: "Dutch WC squad · most consistent MID",  // Gravenberch
   15: "48 apps · extension still pending",     // Szoboszlai
-  16: "On the market · Inter's €20m rejected", // Jones
+  16: "Inter push fresh meeting · ~€25m",      // Jones
   17: "Fit · captains Japan at World Cup",     // Endo
   18: "Injury-hit £115m first year",           // Wirtz
   19: "Hamstring · missed all season",         // Bajcetic
   20: "Academy prospect · 5 senior apps",      // Nyoni
-  21: "Egypt captain · call after the WC",     // Salah
-  22: "Transfer request handed in",            // Gakpo
+  21: "Egypt captain · decides after WC",      // Salah
+  22: "Request in · floated in Diomandé swap", // Gakpo
   23: "Injury-wrecked £100m debut year",       // Isak
   24: "Ruptured Achilles · out 9-12 months",   // Ekitike
-  25: "Untouchable · 'no chance' of exit",     // Ngumoha
+  25: "Untouchable · Bayern rebuffed",         // Ngumoha
   26: "Bit-part year · summer exit likely",    // Chiesa
   27: "3rd-choice GK · 2 PL starts",           // Woodman
 };
@@ -164,39 +164,39 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys (4-2-3-1). With the season over these now read as confidence that
 // the slot's occupant remains a first-choice starter into 2026-27 — LOW where
 // the player is leaving (Salah, Robertson, now Konaté) or whose future is open
-// (Jones, Mac Allister). (Refreshed Mon Jun 8 — Konaté's Madrid free transfer
-// sealed after Pérez's re-election; Gakpo has asked to leave; Diomandé chase
-// warm again, Trincão still the calmer route.)
+// (Jones, Mac Allister). (Refreshed Tue Jun 9 — Diomandé club-to-club talks open
+// as the rebuild's first attacking move; Inter press to seal Jones near €25m;
+// Konaté's Madrid free transfer sealed and awaiting unveiling.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · snubs Juventus · staying as No. 1
   LB:  "Low",    // Robertson gone (free to Spurs, done) · Kerkez inherits
   LCB: "High",   // Van Dijk · captain · contracted to 2027
-  RCB: "Low",    // Konaté · Madrid move sealed (Pérez re-elected) · Ordóñez heads the list
-  RB:  "Low",    // Jones · on the market · Inter's €20m rejected
+  RCB: "Low",    // Konaté · Madrid move sealed · awaiting unveiling · Ordóñez heads the list
+  RB:  "Low",    // Jones · Inter push fresh meeting near €25m
   LDM: "High",   // Gravenberch · the season's most reliable midfielder
   RDM: "Medium", // Szoboszlai · mainstay, extension still pending
   LAM: "Medium", // Wirtz · injury-hit debut season · 'untouchable' per club
-  CAM: "Low",    // Mac Allister · Real and Atlético both circling
-  RAM: "Low",    // Salah departing (Egypt captain, call after WC) · Diomandé warm again
+  CAM: "Low",    // Mac Allister · still between the two Madrids
+  RAM: "Low",    // Salah departing (Egypt captain) · Diomandé talks now open
   ST:  "Medium", // Isak · £100m striker · injury-wrecked first season
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
 // Explains the season-closing pick for each slot of the 4-2-3-1. The 2025-26
 // season is complete; these read as a retrospective on the first-choice XI
-// rather than a prediction for a coming fixture. (Partially refreshed Sun
-// Jun 8 — RCB/RAM/CAM/RB rotated; remaining slots last touched Tue Jun 2.)
+// rather than a prediction for a coming fixture. (Partially refreshed Tue
+// Jun 9 — RCB/RAM/CAM/RB rotated; remaining slots last touched Tue Jun 2.)
 export const SLOT_RATIONALE = {
   GK:  "Tue Jun 2 — Alisson is now widely expected to remain. Juventus had agreed personal terms near €5m a year, but the Italians missing out on Champions League football drained the move of momentum, and the Brazilian was never the one pushing it. Mamardashvili waits, likeliest to go out on loan.",
   LB:  "Tue Jun 2 — with Andy Robertson's free transfer to De Zerbi's Tottenham now done, the Liverpool left-back slot is unambiguously Milos Kerkez's after a tough first season at £45m. Nine years of cover at the position have walked out the door in a single window.",
   LCB: "Tue Jun 2 — Van Dijk closes a hard campaign as captain with his standards intact, named in Koeman's World Cup squad and contracted to June 2027 — the one fixed point as the back line is rebuilt around him, and the senior leader of a suddenly thin centre-back group.",
-  RCB: "Mon Jun 8 — the vacancy is now permanent: Florentino Pérez's re-election at the Bernabéu on Sunday cleared the last condition on Konaté's four-year free transfer to Real Madrid (~€24m gross a season), freeing the unveiling within days. The succession is one half of a possible £170m double — a £40m bid for Club Brugge's Ordóñez, with Chelsea and City circling and Jacquet the in-house cover.",
+  RCB: "Tue Jun 9 — the vacancy is permanent and only a photograph from formal: Pérez's Bernabéu re-election cleared the last condition on Konaté's four-year free transfer to Real Madrid (~€24m gross a season), with the unveiling now imminent. The succession is one half of a possible £170m double — a £40m bid for Club Brugge's Ordóñez, with Chelsea and City circling and Jacquet the in-house cover.",
   LDM: "Tue Jun 2 — Gravenberch finished the season as the most consistent midfielder Liverpool had and is in the Dutch World Cup squad; the obvious building block at the base of the 4-2-3-1 going into 2026-27.",
   RDM: "Tue Jun 2 — Szoboszlai closes a heavy-minutes season of 48 appearances as a midfield mainstay; a contract extension is still expected to be agreed over the summer.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
-  CAM: "Mon Jun 8 — the Mac Allister stand-off has sharpened into a tug: both Real Madrid and Atlético are now reported to be circling, no new-contract talks open, the midfielder into the final two years of his deal. His father denies any formal approach while allowing he views La Liga warmly; Football365 keeps Liverpool's internal sale valuation near €120m.",
-  RAM: "Mon Jun 8 — the succession has flickered back: This Is Anfield now places Liverpool in the 'strongest position' for Diomandé, who wants his future settled before the World Cup, though Leipzig's ~€100m valuation keeps Sporting's €60m-clause Trincão the calmer alternative. The incumbent, Salah — named Egypt captain — still defers his own decision to after the tournament, leaving the most important attacking slot the least settled.",
-  RB:  "Mon Jun 8 — still on the market, still waiting on a second bid: Inter's €20m opener was rejected and hasn't been bettered, Liverpool holding at £30m-plus with the window not open until June 15. Jones stays among the names Iraola may move on and remains open to Milan, who rate him their top midfield target — a sale that would, incidentally, vacate this very slot.",
+  CAM: "Tue Jun 9 — the Mac Allister question has not eased: Real Madrid and Atlético both remain linked, no new-contract talks open, the midfielder into the final two years of his deal. His father Carlos again denies a formal approach while allowing he views La Liga warmly; Football365 keeps Liverpool's internal sale valuation near €120m.",
+  RAM: "Tue Jun 9 — the succession is now a negotiation: with Yan Diomandé having said yes, club-to-club talks with Leipzig are open, both sides pushing to close before the World Cup begins Thursday, the gap purely the fee (Leipzig near €140m). The incumbent, Salah — Egypt's captain — still defers his own decision to after the tournament, leaving the most important attacking slot the least settled.",
+  RB:  "Tue Jun 9 — the exit picks up pace: Inter have lined up a fresh meeting with Hughes to push a Jones deal toward the line near €25m, after their €20m opener was rejected. The midfielder is reported to be prioritising San Siro and ready to snub Aston Villa — a sale that would, incidentally, vacate this very slot.",
   ST:  "Tue Jun 2 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
 };
 
@@ -223,8 +223,8 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  reason: "Mon Jun 8 (post-season refresh) — the XI shown here is the side that closed 2025-26 after the May 24 1-1 with Brentford, now in the hands of Andoni Iraola. Confidence stays Low because the spine keeps dissolving: Ibrahima Konaté's free transfer to Real Madrid is now sealed after Florentino Pérez's re-election on Sunday, with a £40m Club Brugge bid for Ordóñez fronting the succession; Andy Robertson's free move to Tottenham is confirmed, the left-back job passing to Kerkez. Up front a new exit has opened — Cody Gakpo has handed in a transfer request, unwilling to fight for the left wing under a new manager — while the winger chase has warmed again (Liverpool in their 'strongest position' for Diomandé, Trincão the calmer alternative), Alexis Mac Allister is pulled between Real and Atlético, Alisson has chosen to stay (nudging Mamardashvili toward a loan), and Ngumoha stays untouchable. Salah, named Egypt captain, defers his call to after the World Cup. Next fixture: pre-season vs Sunderland in Nashville, July 25, the first of five friendlies ending with Monaco and Como at Anfield.",
-  pundit_sources: ["Liverpool FC", "ESPN", "Managing Madrid", "This Is Anfield", "beIN Sports", "Sky Sports", "Anfield Watch", "Football365", "GiveMeSport", "Rousing The Kop", "Sportingpedia", "Sports Mole", "Al Jazeera", "Liverpool.com", "Fabrizio Romano"],
+  reason: "Tue Jun 9 (post-season refresh) — the XI shown here is the side that closed 2025-26 after the May 24 1-1 with Brentford, now in the hands of Andoni Iraola. Confidence stays Low because the squad is in open flux: for the first time this summer the rebuild is adding, club-to-club talks now open for Leipzig's Yan Diomandé (both sides racing to close before the World Cup begins Thursday, Gakpo even floated as swap leverage). The exits move with it — Inter press to seal Curtis Jones near €25m, Konaté's free move to Real Madrid is sealed and awaiting its unveiling (Ordóñez fronting the succession), and Robertson's free transfer to Tottenham is done, Kerkez inheriting the left. Mac Allister stays pulled between the two Madrids, Alisson digs in to stay (nudging Mamardashvili toward a loan), and Ngumoha remains untouchable. Salah, Egypt's captain, defers his call to after the tournament. Next fixture: pre-season vs Sunderland in Nashville, July 25, the first of five friendlies ending with Monaco and Como at Anfield.",
+  pundit_sources: ["Fabrizio Romano", "David Ornstein", "TeamTalk", "Football365", "FootballFanCast", "This Is Anfield", "ESPN", "The Players' Tribune", "Liverpool.com", "TheHardTackle", "Anfield Watch", "GiveMeSport", "Managing Madrid", "Sky Sports", "Al Jazeera"],
   agreement_rate: 0.65,
-  generated_at: "2026-06-08T08:15:00Z",
+  generated_at: "2026-06-09T08:15:00Z",
 };
