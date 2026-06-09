@@ -23,10 +23,10 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the first-choice XI Liverpool closed the
     // campaign with, the baseline a summer rebuild will reshape. 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Tue Jun 9: club-to-club talks
-    // have opened for Diomandé as the rebuild's first attacking move; Inter press to
-    // seal Curtis Jones near €25m; Konaté's Madrid free transfer is sealed and awaiting
-    // unveiling; Salah, Egypt's captain, carries his exit decision into the World Cup.
+    // backup look — Slot favoured 4-2-3-1. Refreshed Tue Jun 9 (PM): the defensive
+    // rebuild crystallizes — a four-man centre-back shortlist (Inácio, Vuskovic,
+    // Murillo, Beukema) to replace the Madrid-bound Konaté; Chiesa's exit is 'on' and
+    // Jones edges to Inter; the Diomandé chase cools as Ornstein flags no offer yet.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -61,11 +61,10 @@ export const FORMATIONS = {
     // through the run-in — is shown as the first-choice XI Liverpool finished
     // the campaign with after Sunday's 1-1 with Brentford, NOT as a prediction
     // for a coming fixture (the next match is a pre-season friendly on July
-    // 25). Refreshed Tue Jun 9: club-to-club talks have opened for Diomandé (the
-    // rebuild's first attacking thrust), with Gakpo floated as possible swap
-    // leverage; Inter press to seal Curtis Jones near €25m; Konaté's Madrid free
-    // transfer is sealed and awaiting unveiling, Ordóñez fronting the succession;
-    // Salah, Egypt's captain, carries his call into the World Cup.
+    // 25). Refreshed Tue Jun 9 (PM): with Konaté's Madrid free transfer sealed, the
+    // succession now has a four-man shortlist (Inácio, Vuskovic, Murillo, Beukema),
+    // Ordóñez the standing £40m bid; Chiesa's exit is 'on' and Jones edges to Inter
+    // after a Chiesa nudge; the Diomandé chase cools as Ornstein flags no offer yet.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -119,10 +118,10 @@ export const FORMATIONS = {
 
 // One-line evidence string per player, surfaced under the token on hover.
 // Hand-curated from RESULTS array + injuryNote context as of 2026-06-09
-// (Tue, post-season: club-to-club talks open for Diomandé as the rebuild's first
-// attacking move; Inter push to seal Curtis Jones near €25m; Konaté's Madrid free
-// transfer sealed and awaiting unveiling; Mac Allister still between the two
-// Madrids; Gakpo floated as swap leverage; Salah carries his call into the WC.)
+// (Tue PM, post-season: with Konaté Madrid-bound, a four-man CB shortlist drawn up
+// — Inácio, Vuskovic, Murillo, Beukema; Chiesa's exit 'on' and Jones edging to Inter
+// after a Chiesa nudge; the Diomandé chase cools as Ornstein flags no offer; Mac
+// Allister still between the two Madrids; Salah, per Lovren, won't reconsider.)
 export const PLAYER_EVIDENCE = {
   1:  "Snubs Juventus · staying as No. 1",     // Alisson
   2:  "Loan likely now Alisson stays",         // Mamardashvili
