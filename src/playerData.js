@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Thu May 28 — a pre-season doubt now: four and a half months after the knee gave way at Arsenal, he is back on load-bearing gym work at the AXA centre, but Slot has called the case 'complicated' and there is 'no timeline.' Northern Ireland's Michael O'Neill says he is 'doing well' while keeping the detail confidential", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Thu May 28 — a pre-season doubt now: four and a half months after the knee gave way at Arsenal, he is back on load-bearing gym work at the AXA centre, but the case was labelled 'complicated' with 'no timeline' before the coaching change, and Iraola's staff inherit the file. Northern Ireland's Michael O'Neill says he is 'doing well' while keeping the detail confidential", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -683,7 +683,7 @@ export const TRANSFER_TARGETS = {
       releaseClause: null,
       contractNote: "Bournemouth value him near £60m; Liverpool's interest is pitched around £40m.",
       probability: 38,
-      heatTier: "warm",
+      heatTier: "cool",
       sources: [
         { name: "Football365",  tier: "B" },
         { name: "GiveMeSport",  tier: "B" },
@@ -719,8 +719,8 @@ export const TRANSFER_TARGETS = {
       wageBand: "C",
       contractExpiry: "2030-06-30",
       releaseClause: null,
-      contractNote: "Contract to 2030, no release clause; Leipzig holding near €140m (~£120m) as the asking price.",
-      probability: 64,
+      contractNote: "Contract to 2030, no release clause; Leipzig holding north of €130m (~£112m) as the asking price.",
+      probability: 68,
       heatTier: "hot",
       sources: [
         { name: "Sky Sports",      tier: "A" },
@@ -987,7 +987,7 @@ export const TRANSFER_TARGETS = {
       releaseClause: null,
       contractNote: "Settled in the Premier League since 2024; Palace would demand a premium.",
       probability: 32,
-      heatTier: "warm",
+      heatTier: "cool",
       sources: [
         { name: "TeamTalk",        tier: "B" },
         { name: "Liverpool World", tier: "C" },
@@ -1220,7 +1220,7 @@ export const TRANSFER_TARGETS = {
       destination: "Departure announced — decision after World Cup",
       feeAsk: { min: 0, max: 0, currency: "€" },
       probability: 75,
-      heatTier: "warm",
+      heatTier: "hot",
       sources: [{ name: "This Is Anfield", tier: "A" }, { name: "ESPN", tier: "A" }, { name: "GiveMeSport", tier: "B" }],
       note: "Wed 10 Jun — the exit is now club record: Tuesday's retained list confirmed his release alongside Konaté and Robertson, and he leads Egypt into a World Cup that opens tomorrow with the contract lapsing June 30, a free agent between group games. Turkey is reported ahead of Saudi Arabia and MLS in the queue for his next address; where, not whether, remains the only open question.",
     },

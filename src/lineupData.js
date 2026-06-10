@@ -23,10 +23,10 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the first-choice XI Liverpool closed the
     // campaign with, the baseline a summer rebuild will reshape. 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Tue Jun 9 (PM): the defensive
-    // rebuild crystallizes — a four-man centre-back shortlist (Inácio, Vuskovic,
-    // Murillo, Beukema) to replace the Madrid-bound Konaté; Chiesa's exit is 'on' and
-    // Jones edges to Inter; the Diomandé chase cools as Ornstein flags no offer yet.
+    // backup look — Slot favoured 4-2-3-1. Refreshed Wed Jun 10 (AM): Liverpool
+    // approach Leipzig for Diomandé as the ~£164m double winger plan with Trincão
+    // accelerates; Tuesday's retained list makes twelve exits official; Inter table
+    // €20m for Jones against a €30m ask; the Inácio chase steps up at centre-back.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -61,10 +61,10 @@ export const FORMATIONS = {
     // through the run-in — is shown as the first-choice XI Liverpool finished
     // the campaign with after Sunday's 1-1 with Brentford, NOT as a prediction
     // for a coming fixture (the next match is a pre-season friendly on July
-    // 25). Refreshed Tue Jun 9 (PM): with Konaté's Madrid free transfer sealed, the
-    // succession now has a four-man shortlist (Inácio, Vuskovic, Murillo, Beukema),
-    // Ordóñez the standing £40m bid; Chiesa's exit is 'on' and Jones edges to Inter
-    // after a Chiesa nudge; the Diomandé chase cools as Ornstein flags no offer yet.
+    // 25). Refreshed Wed Jun 10 (AM): the winger chase flips to push, Liverpool
+    // approaching Leipzig for Diomandé with Trincão the other half of a double plan;
+    // the retained list makes the Salah/Konaté/Robertson exits official; Inter's
+    // €20m Jones bid is on the table; the Inácio chase steps up at centre-back.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
