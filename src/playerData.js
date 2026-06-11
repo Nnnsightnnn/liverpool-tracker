@@ -1319,7 +1319,7 @@ export const TRANSFER_TARGETS = {
       feeAsk: { min: 30, max: 40, currency: "€m" },
       probability: 44,
       heatTier: "warm",
-      sources: [{ name: "Sky Sports", tier: "A" }, { name: "TEAMtalk", tier: "C" }],
+      sources: [{ name: "Sky Sports", tier: "A" }, { name: "TeamTalk", tier: "B" }],
       note: "Wirtz's arrival closed the No. 10 ladder behind him.",
     },
     {

@@ -23,10 +23,10 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the first-choice XI Liverpool closed the
     // campaign with, the baseline a summer rebuild will reshape. 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Wed Jun 10 (AM): Liverpool
-    // approach Leipzig for Diomandé as the ~£164m double winger plan with Trincão
-    // accelerates; Tuesday's retained list makes twelve exits official; Inter table
-    // €20m for Jones against a €30m ask; the Inácio chase steps up at centre-back.
+    // backup look — Slot favoured 4-2-3-1. Refreshed Thu Jun 11 (AM): Liverpool
+    // submit their opening bid to Leipzig for Diomandé; Jones says yes to Inter
+    // with ~€25m plus a sell-on forming; talks held over Leipzig right-back
+    // Geertruida; the World Cup opens this afternoon with eight current Reds.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -61,10 +61,10 @@ export const FORMATIONS = {
     // through the run-in — is shown as the first-choice XI Liverpool finished
     // the campaign with after Sunday's 1-1 with Brentford, NOT as a prediction
     // for a coming fixture (the next match is a pre-season friendly on July
-    // 25). Refreshed Wed Jun 10 (AM): the winger chase flips to push, Liverpool
-    // approaching Leipzig for Diomandé with Trincão the other half of a double plan;
-    // the retained list makes the Salah/Konaté/Robertson exits official; Inter's
-    // €20m Jones bid is on the table; the Inácio chase steps up at centre-back.
+    // 25). Refreshed Thu Jun 11 (AM): the opening bid for Diomandé is submitted
+    // to Leipzig against an ask hardening toward €140m; Jones says yes to Inter
+    // (~€25m plus sell-on forming); Geertruida talks open a right-back front;
+    // the World Cup kicks off this afternoon with eight current Reds inside it.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -176,15 +176,15 @@ export const SLOT_CONFIDENCE = {
   RDM: "Medium", // Szoboszlai · mainstay, extension still pending
   LAM: "Medium", // Wirtz · injury-hit debut season · 'untouchable' per club
   CAM: "Low",    // Mac Allister · still between the two Madrids
-  RAM: "Low",    // Salah departing (Egypt captain) · Diomandé talks now open
+  RAM: "Low",    // Salah departing (Egypt captain) · Diomandé opening bid submitted
   ST:  "Medium", // Isak · £100m striker · injury-wrecked first season
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
 // Explains the season-closing pick for each slot of the 4-2-3-1. The 2025-26
 // season is complete; these read as a retrospective on the first-choice XI
-// rather than a prediction for a coming fixture. (Partially refreshed Wed
-// Jun 10 — RAM/RB rotated; RCB/CAM Tue Jun 9; remaining slots Tue Jun 2.)
+// rather than a prediction for a coming fixture. (Partially refreshed Thu
+// Jun 11 — RAM/RB rotated; RCB/CAM Tue Jun 9; remaining slots Tue Jun 2.)
 export const SLOT_RATIONALE = {
   GK:  "Tue Jun 2 — Alisson is now widely expected to remain. Juventus had agreed personal terms near €5m a year, but the Italians missing out on Champions League football drained the move of momentum, and the Brazilian was never the one pushing it. Mamardashvili waits, likeliest to go out on loan.",
   LB:  "Tue Jun 2 — with Andy Robertson's free transfer to De Zerbi's Tottenham now done, the Liverpool left-back slot is unambiguously Milos Kerkez's after a tough first season at £45m. Nine years of cover at the position have walked out the door in a single window.",
