@@ -348,11 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday, and the chase has turned. A day after the Diomandé file
-          read cool, Liverpool have approached Leipzig, a £164m double winger
-          plan gathering behind it, while Tuesday's retained list turned the
-          goodbyes into club record. Tomorrow the World Cup opens with eleven
-          Reds inside it; the window opens Monday, five days away.
+          Thursday, and two openings share a date. The World Cup kicks off at
+          the Azteca this afternoon with eight current Reds inside it, and
+          Liverpool's first bid of the summer lands in Leipzig before the
+          window has even unlocked. The rebuild has a number on the table now;
+          Monday, the market opens to receive it.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,22 +367,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>{" "}
-              arrives with the sound of a door being pushed. Twenty-four hours
-              ago the pursuit of Yan Diomandé read like a caution, no offer, a
-              vast asking price, a teenager dreaming of Paris; this morning
-              Liverpool have approached Leipzig, Romano says they are really
-              pushing, and a £164m double winger plan, Trincão alongside, is
-              reported to be accelerating. The goodbyes, meanwhile, stopped
-              being stories and became a club statement: twelve released on
-              Tuesday's retained list, Salah, Konaté, Robertson and Rhys
-              Williams among them, a ballboy hero gone without an appearance.
-              In Milan, Inter put €20m on the table for Curtis Jones and were
-              told the number starts with three. And tomorrow, at the Azteca,
-              the World Cup opens with eleven of this squad scattered across
-              it, Salah leading Egypt while his contract counts itself down.
-              The rebuild's first real week begins with the world looking
-              elsewhere. Liverpool, for once, seem glad of the cover.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>{" "}
+              brings two beginnings at once. At the Azteca this afternoon,
+              Mexico and South Africa open a World Cup carrying eight current
+              Liverpool players and three just-released ones; in Leipzig this
+              morning, the club's first formal bid of the rebuild arrived, an
+              opening offer for Yan Diomandé lodged against an asking price
+              drifting toward €140m. The other files moved overnight too:
+              Curtis Jones has said his yes to Inter with the compromise
+              forming near €25m, talks have opened over a second Leipzig man
+              in the right-back Geertruida, and Darwin Núñez, suddenly a free
+              agent in waiting, finds eight clubs at his door and his old one
+              undecided. Even the coverage has a familiar voice: Klopp begins
+              the tournament not in a dugout but in a pundit's chair. A club
+              that spent last week saying goodbye has started, this week, to
+              say what comes next. The bid is the first sentence of it.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -390,11 +389,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a winger chase that flipped from cool to push overnight;
-              a retained list that turned an era into admin; eleven Reds carried off
-              to a World Cup; a manager writing house rules in his first week; and a
-              negotiation in Milan conducted twenty against thirty. Read slowly. The
-              window opens Monday.
+              week. There is a first bid lodged in Saxony before the window opens;
+              eight Reds carried off to a World Cup that began this afternoon; a
+              buy-back clause waiting patiently in Leverkusen; a new manager weighing
+              two very different receptions; and a negotiation in Milan settling near
+              twenty-five. Read slowly. The window opens Monday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -2873,7 +2872,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The window opens; the world kicks off."
+        "The first bid of the summer is in."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
