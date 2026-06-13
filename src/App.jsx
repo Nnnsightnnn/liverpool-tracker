@@ -348,11 +348,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday, and two openings share a date. The World Cup kicks off at
-          the Azteca this afternoon with eight current Reds inside it, and
-          Liverpool's first bid of the summer lands in Leipzig before the
-          window has even unlocked. The rebuild has a number on the table now;
-          Monday, the market opens to receive it.
+          Saturday, and the season that finished a fortnight ago feels a
+          continent away. The World Cup reaches Liverpool's eight this
+          afternoon, Alisson first in the Brazil goal, while the rebuild's
+          loudest noise arrives from Paris, where PSG have cracked the door on
+          Bradley Barcola. The window opens Monday, and the wing Salah vacated
+          is the question it must answer.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,21 +368,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>{" "}
-              brings two beginnings at once. At the Azteca this afternoon,
-              Mexico and South Africa open a World Cup carrying eight current
-              Liverpool players and three just-released ones; in Leipzig this
-              morning, the club's first formal bid of the rebuild arrived, an
-              opening offer for Yan Diomandé lodged against an asking price
-              drifting toward €140m. The other files moved overnight too:
-              Curtis Jones has said his yes to Inter with the compromise
-              forming near €25m, talks have opened over a second Leipzig man
-              in the right-back Geertruida, and Darwin Núñez, suddenly a free
-              agent in waiting, finds eight clubs at his door and his old one
-              undecided. Even the coverage has a familiar voice: Klopp begins
-              the tournament not in a dugout but in a pundit's chair. A club
-              that spent last week saying goodbye has started, this week, to
-              say what comes next. The bid is the first sentence of it.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>{" "}
+              brings the rebuild its loudest morning yet, and it speaks French.
+              Overnight, Fabrizio Romano lit his Bradley Barcola file with fire
+              and eyes, and L'Équipe reported that PSG, after a Champions League
+              final he watched from the bench, are no longer minded to keep him;
+              Liverpool, set against Arsenal, have the wing Salah left empty and
+              the means to fill it. The football itself is in North America now:
+              this afternoon Alisson takes the Brazil goal and Andy Robertson, a
+              fortnight past his goodbye, captains Scotland, the first of eight
+              Reds the new manager can only watch. Andoni Iraola has met them
+              with a line, that for him they are all new signings, and a
+              pre-season the seniors will largely miss. Curtis Jones drifts one
+              step from Milan, Mac Allister's future Romano files under
+              'interesting,' and the centre-back the club lost walks toward his
+              Madrid unveiling. The window opens Monday. The noise did not wait
+              for the door.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -389,11 +391,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a first bid lodged in Saxony before the window opens;
-              eight Reds carried off to a World Cup that began this afternoon; a
-              buy-back clause waiting patiently in Leverkusen; a new manager weighing
-              two very different receptions; and a negotiation in Milan settling near
-              twenty-five. Read slowly. The window opens Monday.
+              week. There is a door easing open in Paris before the window even
+              unlocks; eight Reds carried into a World Cup that reaches them this
+              afternoon; a new manager telling a tired squad they are all new
+              signings; a homegrown midfielder a step from Milan; and, at Kirkby, the
+              quiet ledger of who gets kept. Read slowly. The window opens Monday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -2872,7 +2874,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The first bid of the summer is in."
+        "In Paris, a door swings open."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

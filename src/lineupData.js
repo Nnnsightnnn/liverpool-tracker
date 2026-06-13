@@ -23,10 +23,10 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the first-choice XI Liverpool closed the
     // campaign with, the baseline a summer rebuild will reshape. 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Thu Jun 11 (AM): Liverpool
-    // submit their opening bid to Leipzig for Diomandé; Jones says yes to Inter
-    // with ~€25m plus a sell-on forming; talks held over Leipzig right-back
-    // Geertruida; the World Cup opens this afternoon with eight current Reds.
+    // backup look — Slot favoured 4-2-3-1. Refreshed Sat Jun 13: PSG crack the
+    // door on Barcola (Romano hint, L'Équipe report), now the live winger lead
+    // beside the still-unanswered Diomandé bid; Jones 'one step away' from a
+    // ~€25m Inter move; the World Cup reaches the Reds today (Alisson, Brazil).
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -61,10 +61,10 @@ export const FORMATIONS = {
     // through the run-in — is shown as the first-choice XI Liverpool finished
     // the campaign with after Sunday's 1-1 with Brentford, NOT as a prediction
     // for a coming fixture (the next match is a pre-season friendly on July
-    // 25). Refreshed Thu Jun 11 (AM): the opening bid for Diomandé is submitted
-    // to Leipzig against an ask hardening toward €140m; Jones says yes to Inter
-    // (~€25m plus sell-on forming); Geertruida talks open a right-back front;
-    // the World Cup kicks off this afternoon with eight current Reds inside it.
+    // 25). Refreshed Sat Jun 13: PSG open the door on Barcola, the week's live
+    // winger lead beside Thursday's still-unanswered Diomandé bid; Jones 'one
+    // step away' from a ~€25m Inter move; the World Cup reaches the Reds today,
+    // Alisson in the Brazil goal against Morocco, Robertson's Scotland to come.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -117,34 +117,34 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-06-11
-// (Thu AM, post-season: Liverpool submit their opening bid to Leipzig for
-// Diomandé; talks held over Leipzig right-back Geertruida; Jones says yes to
-// Inter with ~€25m + sell-on forming; the World Cup opens this afternoon at
-// the Azteca with eight current Reds in it.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-06-13
+// (Sat, post-season: PSG open the door on Barcola, the live winger lead beside
+// the still-unanswered Diomandé bid; Jones 'one step away' from a ~€25m Inter
+// move; Konaté's Madrid unveiling turns imminent; the World Cup reaches the
+// Reds today, Alisson first for Brazil against Morocco.)
 export const PLAYER_EVIDENCE = {
-  1:  "Snubs Juventus · staying as No. 1",     // Alisson
+  1:  "Starts for Brazil vs Morocco today",    // Alisson
   2:  "Loan likely now Alisson stays",         // Mamardashvili
   3:  "Captain · NL World Cup squad",          // Van Dijk
-  4:  "Released Jun 9 · France WC camp",        // Konaté
+  4:  "Madrid unveiling imminent · €230k/wk",  // Konaté
   5:  "Among the squad's possible exits",      // Gomez
-  6:  "Gone to Spurs · free transfer done",    // Robertson
+  6:  "Gone to Spurs · Scotland captain today", // Robertson
   7:  "Tough debut · now first-pick LB",       // Kerkez
   8:  "Knee · rehab still indoors at AXA",     // Bradley
   9:  "Axed from NL World Cup squad",          // Frimpong
   10: "Torn ACL · out into 2026-27",           // Leoni
   11: "Deputy CB · behind the 4-man shortlist", // Jacquet
   12: "Academy depth · 2 senior apps",         // Ndukwe
-  13: "Two Madrids circling · ~€120m",         // Mac Allister
+  13: "Romano: 'interesting' · Madrids circle", // Mac Allister
   14: "Dutch WC squad · most consistent MID",  // Gravenberch
   15: "48 apps · extension still pending",     // Szoboszlai
-  16: "Said yes to Inter · ~€25m forming",     // Jones
+  16: "'One step away' from Inter · ~€25m",     // Jones
   17: "Fit · captains Japan at World Cup",     // Endo
   18: "Injury-hit £115m first year",           // Wirtz
   19: "Hamstring · missed all season",         // Bajcetic
   20: "Academy prospect · 5 senior apps",      // Nyoni
   21: "Free agent Jun 30 · Egypt at WC",       // Salah
-  22: "Makeweight option in Diomandé bid",     // Gakpo
+  22: "Wants out · Barcola/Diomandé loom",     // Gakpo
   23: "Injury-wrecked £100m debut year",       // Isak
   24: "Ruptured Achilles · out 9-12 months",   // Ekitike
   25: "Untouchable · Bayern rebuffed",         // Ngumoha
@@ -163,9 +163,9 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys (4-2-3-1). With the season over these now read as confidence that
 // the slot's occupant remains a first-choice starter into 2026-27 — LOW where
 // the player is leaving (Salah, Robertson, now Konaté) or whose future is open
-// (Jones, Mac Allister). (Refreshed Thu Jun 11 — Liverpool's opening bid to
-// Leipzig for Diomandé is submitted; Jones has said yes to Inter with ~€25m
-// plus a sell-on forming; Geertruida talks open a second right-back front.)
+// (Jones, Mac Allister). (Refreshed Sat Jun 13 — PSG open the door on Barcola,
+// the live winger lead beside the still-unanswered Diomandé bid; Jones is 'one
+// step away' from a ~€25m Inter move; the World Cup reaches the Reds today.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · snubs Juventus · staying as No. 1
   LB:  "Low",    // Robertson gone (free to Spurs, done) · Kerkez inherits
@@ -176,7 +176,7 @@ export const SLOT_CONFIDENCE = {
   RDM: "Medium", // Szoboszlai · mainstay, extension still pending
   LAM: "Medium", // Wirtz · injury-hit debut season · 'untouchable' per club
   CAM: "Low",    // Mac Allister · still between the two Madrids
-  RAM: "Low",    // Salah departing (Egypt captain) · Diomandé opening bid submitted
+  RAM: "Low",    // Salah departing (Egypt captain) · Barcola/Diomandé the winger leads
   ST:  "Medium", // Isak · £100m striker · injury-wrecked first season
 };
 
@@ -194,8 +194,8 @@ export const SLOT_RATIONALE = {
   RDM: "Tue Jun 2 — Szoboszlai closes a heavy-minutes season of 48 appearances as a midfield mainstay; a contract extension is still expected to be agreed over the summer.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
   CAM: "Tue Jun 9 — the Mac Allister question has not eased: Real Madrid and Atlético both remain linked, no new-contract talks open, the midfielder into the final two years of his deal. His father Carlos again denies a formal approach while allowing he views La Liga warmly; Football365 keeps Liverpool's internal sale valuation near €120m.",
-  RAM: "Thu Jun 11 — the slot has a bid on it now: Liverpool submitted their opening offer to Leipzig for Yan Diomandé on Thursday morning, the formal start of a negotiation against an ask reported hardening from €130m toward €140m, the teenager's preference understood to be Anfield over PSG. Trincão's ~€60m clause waits behind it, parked until the World Cup ends at Sporting's insistence. The incumbent, Salah, opened his last act today, captaining Egypt at the Azteca tournament as his contract runs to June 30.",
-  RB:  "Thu Jun 11 — the slot empties and refills in the same week: Jones is reported to have said yes to Inter, the compromise forming near €25m plus a sell-on with a fresh meeting lined up, while talks have been held over Leipzig right-back Lutsharel Geertruida (~£26m), the natural specialist cover for a position where Bradley's rehab is still indoors and Frimpong's first season never settled.",
+  RAM: "Sat Jun 13 — the winger search has a second front: PSG are reported 'not completely opposed' to selling Bradley Barcola, his extension stalled over playing time after Champions League final omissions, and Romano's overnight hint frames Liverpool (against Arsenal) on a £86m-rated alternative to Thursday's still-unanswered Diomandé bid at Leipzig. Trincão's ~€50m clause waits on the World Cup ending. The incumbent, Salah, plays on at the tournament as Egypt's captain, his contract running to June 30.",
+  RB:  "Sat Jun 13 — the slot's exit edges to paperwork: Jones is now framed 'one step away' from Inter, a ~€25m fee with a sell-on clause forming and a closing meeting lined up, while talks have been held over Leipzig right-back Lutsharel Geertruida (~£26m), the natural specialist cover for a position where Bradley's rehab is still indoors and Frimpong's first season never settled.",
   ST:  "Tue Jun 2 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
 };
 
@@ -222,8 +222,8 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  reason: "Thu Jun 11 (post-season refresh) — this remains the side that closed 2025-26 after the May 24 1-1 with Brentford, held as the baseline while Andoni Iraola's rebuild moves around it. Confidence stays Low, and the reasons sharpened today: Liverpool submitted their opening bid to Leipzig for Yan Diomandé on Thursday morning, which would redraw the right side Salah vacates; Curtis Jones has said yes to Inter with a ~€25m compromise forming, which would vacate the right-back cover role; and talks are open over Leipzig's Geertruida, who would fill it. Eight current Reds left for the World Cup, which opened this afternoon at the Azteca; reintegration will be staggered. Next fixture: pre-season vs Sunderland in Nashville, July 25, the first of five friendlies ending with Monaco and Como at Anfield.",
-  pundit_sources: ["Empire of the Kop", "GiveMeSport", "Fabrizio Romano", "Football365", "CaughtOffside", "TeamTalk", "This Is Anfield", "Liverpool.com", "Liverpool FC", "Sky Sports", "Read Liverpool", "Yahoo Sport", "Sports Mole", "ESPN"],
+  reason: "Sat Jun 13 (post-season refresh) — this remains the side that closed 2025-26 after the May 24 1-1 with Brentford, held as the baseline while Andoni Iraola's rebuild moves around it. Confidence stays Low, and the winger picture widened this weekend: PSG are reported 'not completely opposed' to selling Bradley Barcola, who joins Thursday's still-unanswered Diomandé bid as a route to the right side Salah vacates; Curtis Jones is now 'one step away' from a ~€25m Inter move, which would vacate the right-back cover role Geertruida talks are aimed at filling. Eight current Reds are at the World Cup, which reaches them today (Alisson for Brazil, Robertson's Scotland to follow); reintegration will be staggered. Next fixture: pre-season vs Sunderland in Nashville, July 25, the first of five friendlies ending with Monaco and Como at Anfield.",
+  pundit_sources: ["Empire of the Kop", "L'Équipe", "Fabrizio Romano", "Football365", "Anfield Watch", "TeamTalk", "This Is Anfield", "Liverpool.com", "Liverpool FC", "Sky Sports", "Read Liverpool", "GiveMeSport", "Managing Madrid", "ESPN"],
   agreement_rate: 0.62,
-  generated_at: "2026-06-11T09:20:00Z",
+  generated_at: "2026-06-13T13:35:00Z",
 };
