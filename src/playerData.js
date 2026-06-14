@@ -55,7 +55,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Sat May 30 — caught between two truths: with Hughes hunting two centre-backs the academy product is depth Liverpool may suddenly need, yet at twelve months left and with a Serie A move openly canvassed he is also among the likeliest sell-to-buy departures. A hard call — keep the cover or bank the fee", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Sun Jun 14 — the tide turns toward staying: with Hughes hunting two centre-backs, the academy product is now reported likelier to remain and run his deal down toward a 2027 free than to leave this summer, even with a Serie A move having been canvassed. Useful cover in a thin back line, and the versatility that makes him sellable also makes him worth keeping", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -161,7 +161,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Sat Jun 13 — 'one step away,' per Anfield Watch: having said yes to Inter and rebuffed Aston Villa, Newcastle and Forest, the Scouser is now framed a single meeting from a ~€25m move, a sell-on clause forming as Hughes and Ausilio close the last of the gap to Liverpool's ask. The only Merseyside-born player in the squad looks the window's likeliest first exit; the reluctance has become paperwork", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Sun Jun 14 — 'locked in negotiations,' per Read Liverpool: committed to Inter and having rebuffed Aston Villa, Newcastle and Forest, the Scouser waits on a fresh meeting to bridge the fee gap toward a ~€25m move with a sell-on clause attached. The only Merseyside-born player in the squad looks the window's likeliest first departure; acceptance now, more than reluctance", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Sat Jun 13 — the last act reaches the pitch: Salah captains Egypt at the World Cup as his release stays official and his Liverpool contract lapses June 30, a free agent between group games. Turkey still heads the reported queue for his next address, ahead of Saudi Arabia and MLS; for now the stage is his, and it is enormous", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Sun Jun 14 — the goodbye narrows to a shortlist: a free agent on June 30, Salah is reported to have set three conditions on his next club (money matching his standing, a marketable stage, a side that can still win) and to have already turned down one Saudi offer. Juventus are willing to write a contract, Inter Miami dangle a reunion with Messi in MLS, and the Saudi league keeps circling. He says he is 'still assessing things' and will decide after the World Cup he is captaining Egypt at", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 39, goals: 9, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 6.8, status: "fit", injuryNote: "Sat Jun 13 — caught between two wings: with Barcola's PSG door now open beside the still-unanswered Diomandé bid, the Dutchman's mooted makeweight role reads as live arithmetic against an asking price near €140m, while Tottenham's interest in a straight sale near €45m holds. He joins the Netherlands' World Cup camp regardless, having asked to leave rather than fight Ngumoha for the left wing", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 39, goals: 9, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 6.8, status: "fit", injuryNote: "Sun Jun 14 — the makeweight in the deal built to replace him: with Diomandé's personal terms now agreed, Gakpo's mooted role in the Leipzig arithmetic hardens against an ask near €140m, while Tottenham's interest in a straight sale near €45m holds. He starts for the Netherlands against Endo's Japan in Dallas tonight, having asked to leave rather than fight Ngumoha for the left wing", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -393,7 +393,7 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-06-13 — FINAL 20-team table re-verified against ESPN, 2025-26 season complete (MW38).
+// Last refresh: 2026-06-14 — FINAL 20-team table re-verified against ESPN, 2025-26 season complete (MW38).
 export const STANDINGS = [
   { pos: 1, team: "Arsenal", p: 38, w: 26, d: 7, l: 5, gd: 44, pts: 85, qualification: "UCL" },
   { pos: 2, team: "Manchester City", p: 38, w: 23, d: 9, l: 6, gd: 42, pts: 78, qualification: "UCL" },
@@ -427,24 +427,24 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-06-13T13:35:00Z",
+  generatedAt: "2026-06-14T09:20:00Z",
   overview:
-    "The finished table is a museum piece now, the football all in North America: this weekend the World Cup reaches the eight Reds inside it, and the league it froze is pure ledger until Monday's window cracks open. Arsenal's 85 stands as champions; City, United and Villa hold the automatic Champions League places; Liverpool's fifth on 60 is the budget line beneath a rebuild whose loudest noise this morning came from Paris, where PSG cracked the door on Bradley Barcola. Below the UCL line the European ladder runs Bournemouth, Sunderland and Brighton, with Palace in by their Conference League silverware; West Ham, Burnley and Wolves go down. For the next two months this page does not move. Everything else does.",
+    "The table is frozen, the football all in North America, and the league it left behind is pure ledger until Monday, when the window opens onto Liverpool's rebuild. Arsenal's 85 stands as champions; City, United and Villa hold the automatic Champions League places; Liverpool's fifth on 60 is the budget line beneath a reset whose first move firmed up this weekend, personal terms agreed with Leipzig winger Yan Diomandé. Below the UCL line the European ladder runs Bournemouth, Sunderland and Brighton, with Palace in by their Conference League silverware; West Ham, Burnley and Wolves go down. For the next two months this page does not move. Everything else, from tomorrow, does.",
   teams: {
-    "Arsenal": "Champions on 85, and now Liverpool's rival in the room: both clubs are framed ready to move for PSG's Barcola as the door opens in Paris.",
-    "Manchester City": "Second on 78, and still in the Diomandé conversation at Leipzig alongside PSG as Liverpool's opening bid waits for an answer.",
-    "Manchester United": "Third on 71, the club Liverpool are reported racing to beat to Sporting's Inácio and his ~£52m clause.",
-    "Aston Villa": "Fourth on 65, the last automatic UCL berth, and the suitor Curtis Jones has already turned down as he edges toward Inter.",
-    "Liverpool": "Fifth on 60, Champions League secured; the rebuild's winger search is the live story, Barcola's PSG door open beside the still-unanswered Diomandé bid at Leipzig.",
-    "Bournemouth": "Sixth and into Europe, still the Merseyside shopping aisle: after Iraola and his staff, Alex Scott (now floated near £80m) remains the reunion file.",
+    "Arsenal": "Champions on 85, and the rival named alongside Liverpool whenever the Bradley Barcola file reopens later in the window.",
+    "Manchester City": "Second on 78, one of the clubs keeping tabs as Liverpool close on the player's side of a Diomandé deal at Leipzig.",
+    "Manchester United": "Third on 71, named among the suitors Liverpool must out-pace for the centre-backs on Iraola's list.",
+    "Aston Villa": "Fourth on 65, the last automatic UCL berth, and a suitor Curtis Jones waved off on his way to Inter.",
+    "Liverpool": "Fifth on 60, Champions League secured; the rebuild's first signing all but agreed on the player's side, Diomandé set to inherit the wing Salah vacated once the fee is settled.",
+    "Bournemouth": "Sixth and into Europe, still the Merseyside shopping aisle: after Iraola and his staff, Alex Scott (floated near £80m) remains the reunion file.",
     "Sunderland": "Seventh and into Europe in their promotion season, Iraola's first pre-season assignment, Nashville, July 25.",
     "Brighton": "Eighth, a Conference League play-off place extending the European streak; van Hecke remains a quiet Liverpool defensive file.",
     "Brentford": "Ninth on 53, level with Brighton but out of Europe for the first time in their top-flight era; hosts of the season's final-day 1-1 on May 24.",
-    "Chelsea": "Tenth on 52, a third straight year without the Champions League, and among the clubs sounded out on a free Darwin Núñez.",
+    "Chelsea": "Tenth on 52, a third straight year without the Champions League, and among the clubs monitoring Liverpool centre-back target Joël Ordóñez.",
     "Newcastle": "Twelfth on 49, outside Europe, another of the suitors Curtis Jones has waved off on his way to Milan.",
     "Crystal Palace": "Fifteenth on points, in Europe by silverware; their rejected £34.6m Ordóñez bid set the floor Liverpool's centre-back search must clear.",
-    "Nott'm Forest": "Sixteenth, home of Murillo, the Premier-League-proven name on the four-man Konaté-replacement shortlist, and another club Jones has declined.",
-    "Tottenham": "Survived in 17th, Robertson already landed on a free and captaining Scotland today, still keen on a straight ~€45m Gakpo sale.",
+    "Nott'm Forest": "Sixteenth, home of Murillo, a name on the Konaté-replacement shortlist, and another club Jones has declined.",
+    "Tottenham": "Survived in 17th, Robertson already landed on a free, still keen on a straight ~€45m Gakpo sale.",
     "West Ham": "Relegated in 18th, and a Liverpool shopping aisle: Summerville lingers on the wide-forward list as the fire sale nears.",
     "Burnley": "Relegated, 22 points and straight back down.",
     "Wolves": "Bottom on 20, the season's worst side by every measure.",
@@ -455,132 +455,132 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "The Door In Paris.",
-    byline: "Empire of the Kop / L'Équipe",
-    dateline: "Paris · 13 June",
+    headline: "The First Name Through The Door.",
+    byline: "GiveMeSport / Fabrizio Romano",
+    dateline: "Leipzig · 14 June",
     category: "Transfers",
-    body: "A transfer story rarely changes temperature on a Saturday morning, but this one did. Fabrizio Romano reposted his Bradley Barcola file overnight, fire and eyes attached, the modern semaphore for a deal warming, and L'Équipe followed with the substance: PSG are 'not completely opposed' to selling the France winger, his contract talks stalled over the playing time he stopped getting once Luis Enrique left him out of a Champions League semi-final and final. Liverpool have watched him for a year and are credited with the means; Arsenal are the rival in the room. At a valuation near £86m he reads as the cleaner, Premier-League-proven answer to the wing Salah vacated. The Diomandé bid, two days unanswered in Saxony, suddenly has company.",
+    body: "A window that opens tomorrow already has its opening line written. Sources close to Yan Diomandé say the 19-year-old has agreed personal terms with Liverpool and is ready to commit, won over by the promise of the wing Salah left empty and tilting to Anfield over a PSG that never got as far down the road. What is left is the part clubs argue about: Leipzig holding near €130m, the Reds pitched closer to €100m, an £87m midpoint floated as the place this lands. Romano calls it an approved priority, set to move next week. The teenager wants it sorted around the World Cup, and the rebuild wants its first yes.",
   },
   {
     n: "02",
-    headline: "Where The Reds Come In.",
-    byline: "Liverpool FC / ESPN",
-    dateline: "East Rutherford · 13 June",
-    category: "Football News",
-    body: "The tournament has been running since Thursday, but it reaches Liverpool only this afternoon. Alisson takes his place in the Brazil goal against Morocco in New Jersey, the first current Red on the pitch at a World Cup the club will spend the summer half-watching, half-scouting. Hours later in Foxborough, Andy Robertson, a fortnight removed from his Anfield goodbye, captains a Scotland side into Haiti. Sunday opens the floodgates: Wirtz with Germany, then a Netherlands-Japan tie that sets Van Dijk, Gravenberch and Gakpo against Wataru Endo's armband. Iraola inherits eight internationals and, for now, can only do what the rest of us do. Watch, and take notes.",
+    headline: "The Window And The List.",
+    byline: "Sky Sports / ESPN",
+    dateline: "Anfield · 14 June",
+    category: "Transfers",
+    body: "The Premier League's summer market unlocks at one minute past midnight on Monday and runs to the first of September, and it opens onto a job rather than a tidy plan. Salah, Konaté and Robertson have left or are leaving for nothing; the spine that won a title is thinning in real time. Iraola's brief reads like a recruiter's whiteboard: a winger, two centre-backs, midfield cover, paid for in part by the sales of Jones, Mac Allister and the fringe. The reporting frames the first strokes as a Diomandé-and-Ordóñez double near £170m. For a year the rebuild has been a noun. From tomorrow it has to be a verb.",
   },
   {
     n: "03",
-    headline: "All New Signings.",
-    byline: "This Is Anfield",
-    dateline: "AXA Training Centre · 12 June",
-    category: "Manager",
-    body: "Andoni Iraola gave his inherited squad a sentence to carry this week, and it was a generous one: 'For me, you're all new signings.' It is the line of a manager who would rather rebuild belief than apportion blame for the season that brought him here. The practical version is less romantic. With eight senior internationals scattered across North America, his United States tour at the end of July and the two Anfield friendlies that follow will lean heavily on the young, 'a lot of senior players will be out and arriving later,' he conceded. So the academy gets first run of the new ideas, and the stars learn them on landing. The reset starts with whoever is in the building.",
+    headline: "Reds On Two Continents.",
+    byline: "FIFA / BBC Sport",
+    dateline: "Dallas · 14 June",
+    category: "Football News",
+    body: "While the recruiters work the phones, the players themselves are scattered across a tournament. This evening at AT&T Stadium, Virgil van Dijk leads the Netherlands against a Japan side captained by Wataru Endo, the curious sight of two Liverpool men on opposite sidelines of the same fixture, both bound for very different summers. Ryan Gravenberch sits behind his captain; Cody Gakpo, who has asked to leave, takes a flank. Earlier, Florian Wirtz begins Germany's campaign against Curaçao. Iraola, still filling out his staff, watches the way the rest of us do, a notebook open and a squad he barely knows playing for other flags.",
   },
   {
     n: "04",
-    headline: "One Step From Milan.",
-    byline: "Anfield Watch / Football365",
-    dateline: "Milan · 12 June",
-    category: "Transfers",
-    body: "The exit closest to done stayed closest this week. Curtis Jones, the only Merseyside-born player in the squad, is now framed 'one step away' from Inter, a single meeting from a fee settling near €25m with a sell-on clause folded in. He has said his yes to the Nerazzurri and his no to Aston Villa, Newcastle and Forest, leaving Hughes and Ausilio to close a gap that was a standoff a week ago and is paperwork now. There is a melancholy to it, a homegrown midfielder priced and packaged while he is away at no tournament, but the rebuild needs the room and the fee. The reluctance has become a clause.",
+    headline: "The Goodbye's Shortlist.",
+    byline: "Goal / SportBible",
+    dateline: "Cairo · 13 June",
+    category: "Farewells",
+    body: "Mohamed Salah left Anfield by mutual consent after the Brentford finale, and the question of where he goes next has narrowed into something almost businesslike. He is said to have set three conditions: money that honours his standing, a stage that keeps him marketable, a team that can still win. He has already turned down one Saudi offer for falling short of the first. Juventus are willing to write a contract; Inter Miami dangle a reunion with Messi; the Saudi league keeps its chequebook open. He told beIN he is still assessing things and will decide after the World Cup, unless something compelling arrives first. The man who scored the goals now weighs the offers.",
   },
   {
     n: "05",
-    headline: "The Quiet Ledger At Kirkby.",
-    byline: "This Is Anfield / Liverpool FC",
-    dateline: "Kirkby · 11 June",
-    category: "Football News",
-    body: "Beneath the marquee files, the club did its housekeeping. New contracts went to eight academy players this week, among them the 17-year-old Prince Kobe Cisse and the forward Keyrol Figueroa, while a clutch of older prospects, Oakley Cannonier and James Balagizi among them, were released to find senior football elsewhere. In an ordinary summer it is back-page filler. In this one it carries weight: Iraola has promised the youngsters real minutes through a pre-season the senior internationals will miss, which makes the retained list a shortlist of who gets seen first. Every rebuild has a top line and a base. This is the base, tidied for inspection.",
+    headline: "Rebuilding The Spine.",
+    byline: "Football365 / TeamTalk",
+    dateline: "Bruges · 13 June",
+    category: "Manager",
+    body: "Iraola's first signings tell you what he thinks Liverpool lack, and the answer is a spine. The wing has its near-agreement in Diomandé; the centre of defence, gutted by Konaté's free walk to Madrid, has settled onto Club Brugge's Joël Ordóñez, a 22-year-old Ecuadorian framed as the second half of a £170m double. A rejected £34.6m Palace bid sets the floor, and Chelsea and City keep half an eye, but the Reds are reported the furthest down the road. Sporting's Inácio waits as the cleaner-clause alternative. Behind it all, the quieter call: Joe Gomez, once packing for Serie A, now tilts toward staying. Depth, it turns out, is a target too.",
   },
 ];
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-06-13T13:35:00Z",
+  generatedAt: "2026-06-14T09:20:00Z",
   summary:
-    "On Saturday morning June 13, the winger search found a louder gear than the one it began the week in: Fabrizio Romano reposted his own Bradley Barcola file with fire and eyes overnight, L'Équipe reported PSG are now 'not completely opposed' to selling the disenchanted France international after his Champions League final omission, and Liverpool are framed as ready to move against Arsenal for a wide forward rated near £86m. It sits above Thursday's still-open Diomandé bid at Leipzig, the two names reading now as alternatives rather than a pair. The day itself belongs to the World Cup, which reaches the Reds for the first time this afternoon: Alisson keeps goal as Brazil meet Morocco in New Jersey, and Andy Robertson's Scotland face Haiti hours later. On the way out, Curtis Jones is reported 'one step away' from a €25m Inter move, Mac Allister's situation Romano calls simply 'interesting,' and Iraola has greeted his inherited squad with a line, 'For me, you're all new signings.' The window opens Monday; the noise is not waiting for it.",
+    "On Sunday June 14, the eve of a transfer window that opens tomorrow, the rebuild's first signing has all but taken shape on the player's side. Liverpool are reported to have agreed personal terms with Yan Diomandé, the 19-year-old RB Leipzig winger now leaning to Anfield over PSG and promised the starting role Salah vacated, with only the club-to-club fee left to settle: Leipzig hold near €130m, the Reds are pitched closer to €100m, and an £87m midpoint has been floated. Alan Shearer called the pursuit 'a matter of time,' while Friday's louder name, Bradley Barcola, recedes into a later-window alternative Romano says 'movements are expected' around. The day belongs to the World Cup: this evening Virgil van Dijk captains the Netherlands against Wataru Endo's Japan in Dallas, with Florian Wirtz's Germany opening against Curaçao. On the way out, Curtis Jones and Inter stay 'locked in negotiations' over a ~€25m move, while Mohamed Salah, weighing a Juventus offer, an Inter Miami reunion with Messi and the Saudi money, will decide after the tournament. The window opens Monday; the first name is most of the way through the door.",
   keyTopics: [
     {
-      title: "PSG Open The Door: Romano's Overnight Hint Turns Barcola Into Liverpool's Live Winger Lead (Empire of the Kop / L'Équipe / Fabrizio Romano, reported Fri Jun 12-Sat Jun 13)",
+      title: "Diomandé Agrees Personal Terms: Iraola's First Signing Edges Past Barcola On The Eve Of The Window (GiveMeSport / Football365 / Liverpool.com, reported Sat-Sun Jun 13-14)",
       detail:
-        "The week's loudest escalation landed overnight into Saturday: Romano reposted his Barcola file with fire-and-eyes emojis, a hint the situation is heating, and L'Équipe reported PSG are 'not completely opposed' to a sale with the 23-year-old's extension talks stalled over playing-time guarantees after he was left out of the Champions League semi-final and final. Liverpool, who have tracked the France international for almost a year and are credited with 'the desire and financial means,' are framed against Arsenal for a player valued near £86m. A cleaner, Premier-League-ready alternative to the Diomandé saga, on a wing that needs filling.",
+        "The clearest escalation of the window arrived on its eve: sources close to the player report Liverpool have agreed personal terms with Yan Diomandé and that the Ivory Coast teenager is ready to commit, leaning to Anfield over PSG after being promised the wing Salah left empty. Only the fee divides the clubs now, Leipzig holding near €130m against a Liverpool offer pitched closer to €100m, with an £87m landing point touted. Romano frames the deal as an approved priority set to move 'next week,' the player keen to settle his future around the World Cup. The first signing of the rebuild is no longer a longlist name but a near-agreement.",
       category: "transfers",
     },
     {
-      title: "The World Cup Reaches The Reds Today: Alisson Starts For Brazil, Robertson's Scotland Follow (Liverpool FC / ESPN / FIFA, Sat Jun 13)",
+      title: "The Window Opens Tomorrow: What Iraola Has To Solve From Monday (Sky Sports / ESPN / Liverpool.com, Sun Jun 14)",
       detail:
-        "Two days after the Azteca opener, the tournament finally touches Liverpool this afternoon: Alisson is in goal as Brazil begin Group C against 2022 semi-finalists Morocco in New Jersey, the first current Red on the pitch, with the just-released Andy Robertson's Scotland meeting Haiti hours later in Foxborough. Sunday brings the deluge, Wirtz's Germany against Curaçao and a Netherlands-Japan tie that pits Van Dijk, Gravenberch and Gakpo against Endo's captaincy. Iraola, watching from afar, gets his first live look at eight of his inherited squad.",
+        "The Premier League's summer window opens Monday June 15 and runs to 11pm on Tuesday September 1, and it opens onto a to-do list rather than a tidy plan. Salah, Konaté and Robertson are gone or going for nothing; Iraola needs at least one winger, two centre-backs and midfield cover, funded in part by the sell-to-buy departures of Jones, Mac Allister and the fringe. Reports frame the first moves as a winger (Diomandé) and a centre-back (Ordóñez), a double pitched near £170m. The reset has a date now, and it is tomorrow.",
+      category: "transfers",
+    },
+    {
+      title: "World Cup Sunday: Van Dijk's Netherlands Meet Endo's Japan, Wirtz's Germany Open (FIFA / ESPN / BBC Sport, Sun Jun 14)",
+      detail:
+        "The tournament's heaviest Liverpool day so far falls today: this evening Virgil van Dijk captains the Netherlands against Wataru Endo's Japan at AT&T Stadium in Dallas, a fixture that also features Ryan Gravenberch and the departing-minded Cody Gakpo against the Japan skipper who himself is bound for a summer Anfield exit. Earlier, Florian Wirtz's Germany begin their Group E campaign against Curaçao. Iraola, still assembling his staff, scouts his own squad from afar as the reintegration timetable lengthens.",
       category: "general",
     },
     {
-      title: "'For Me, You're All New Signings': Iraola's Opening Line And A US Pre-Season Blueprint (This Is Anfield / ClickLiverpool, reported this week)",
+      title: "Salah Weighs His Next Act: A Juventus Offer, An Inter Miami Reunion With Messi, The Saudi Money (Goal / SportBible / ESPN, reported this week)",
       detail:
-        "The new manager's first message to the dressing room surfaced this week and it reframed everyone: 'For me, you're all new signings.' Iraola also sketched the summer, a United States tour at the end of July followed by two Anfield friendlies, and conceded the World Cup will skew his early work toward the youngsters, 'a lot of senior players will be out and arriving later.' Eight inherited internationals report late; the academy gets first run of the new ideas.",
+        "The farewell now has a shortlist. Reports say the free-agent Salah, who left by mutual consent after the Brentford finale, has set three conditions on his next club, money matching his Anfield valuation, a marketable platform and a side that can win, and has already rebuffed one Saudi offer. Juventus are prepared to table a contract, Inter Miami would pair him with Messi in MLS, and the Saudi Pro League still circles. He told beIN he is 'still assessing things' and will decide after the World Cup unless something compelling lands first.",
+      category: "transfers",
+    },
+    {
+      title: "Shearer's Verdict: Diomandé And Barcola 'Make Perfect Sense' For Iraola's Rebuild (Liverpool.com / Alan Shearer, reported this week)",
+      detail:
+        "The pundit weight landed behind the plan: Alan Shearer said Liverpool's twin winger links to Diomandé and Barcola 'make perfect sense' with Iraola short of fresh options out wide, and called a deal for the Leipzig teenager 'a matter of time.' It is endorsement rather than news, but it frames the recruitment logic cleanly, a young, direct, two-footed wide forward to inherit the right flank, with the Premier-League-proven Frenchman the fallback if the Leipzig fee proves immovable.",
+      category: "transfers",
+    },
+    {
+      title: "Ordóñez The Centre-Back Half Of A ~£170m Double As Konaté's Exit Bites (Football365 / TeamTalk / Sky Sports, reported this week)",
+      detail:
+        "With Konaté's free move to Madrid sealed, the defensive search has firmed into a target rather than a list: Club Brugge's Joël Ordóñez, the 22-year-old Ecuadorian, is framed as the centre-back half of an approved Iraola double alongside Diomandé, the pair pitched near £170m combined. A rejected £34.6m Crystal Palace bid sets the floor, and Chelsea and Manchester City keep tabs, but Liverpool are reported the furthest down the road at around £40m. Sporting's Inácio remains the cleaner-clause alternative.",
+      category: "transfers",
+    },
+    {
+      title: "Barcola Recedes To The Later-Window Option: Romano Says 'Movements Are Expected' (Empire of the Kop / Fabrizio Romano / L'Équipe, reported this week)",
+      detail:
+        "Friday's headline name cooled into a slower-burn file over the weekend: Romano maintains 'movements are expected' around Bradley Barcola, who is reported to have decided to leave PSG after his Champions League final omission, but adds that any Liverpool move would likely come later in the window, if at all, with the player's future still under consideration. The £86m France international stays the Premier-League-ready insurance behind Diomandé rather than the lead he briefly was.",
+      category: "transfers",
+    },
+    {
+      title: "Jones And Inter 'Locked In Negotiations' Over A ~€25m Move (Read Liverpool / Anfield Watch / ESPN, reported this week)",
+      detail:
+        "The exit closest to completion held its place: Inter and Liverpool remain described as 'locked in negotiations' over Curtis Jones, the England midfielder having accepted his Anfield time is ending and committed to the Serie A champions while a valuation gap is bridged. A fresh meeting between the clubs is lined up to close on a fee near €25m with a sell-on clause attached. The only Merseyside-born player in the squad looks the window's likeliest first departure.",
+      category: "transfers",
+    },
+    {
+      title: "Gomez Set To Stay: The Longest-Serving Defender Tilts Toward The Reds (Football365 / Sportskeeda, reported this week)",
+      detail:
+        "One reset decision tipped toward continuity: with Hughes hunting two centre-backs, Joe Gomez is now reported likelier to stay and run down his deal toward a 2027 free rather than leave this summer, a useful body in a suddenly thin back line even as a Serie A move had been canvassed. The versatility that makes him sellable also makes him worth keeping while the rebuild lands its targets.",
       category: "general",
     },
     {
-      title: "Jones 'One Step Away' From Inter: The €25m Compromise Edges Toward Signatures (Anfield Watch / Football365 / Read Liverpool, reported this week)",
+      title: "Mac Allister And The Madrid Tug: No Talks, Two Suitors, A €120m Internal Tag (This Is Anfield / Anfield Watch, reported this week)",
       detail:
-        "The exit nearest completion stayed nearest this week: Anfield Watch frames Curtis Jones as 'one step away' from a €25m Inter Milan deal, the Scouser having said yes to the Nerazzurri while turning down Aston Villa, Newcastle and Forest, with a sell-on clause forming and a fresh Hughes-Ausilio meeting lined up to close the gap to Liverpool's ask. The only Merseyside-born player in the squad looks set to leave; the reluctance is now a clause, not a barrier.",
-      category: "transfers",
-    },
-    {
-      title: "The Diomandé Bid Still Sits On Leipzig's Desk, Two Days On (Sky Sports / This Is Anfield / GiveMeSport, reported Thu Jun 11, still live)",
-      detail:
-        "Thursday's opening offer for the 19-year-old Ivorian has not yet been answered: Liverpool's bid, which Romano said carried 'important money,' is weighed against a Leipzig valuation around €130m and improved-contract overtures aimed at keeping the player, with PSG and Manchester City still in the conversation. The club stay 'relatively optimistic.' With Barcola surfacing as the cleaner option, the two wide files now read as rival paths to the same Salah-shaped vacancy rather than a double swoop.",
-      category: "transfers",
-    },
-    {
-      title: "Mac Allister 'Interesting' To Romano As The Two-Madrid Tug Holds (Fabrizio Romano / Sportskeeda / This Is Anfield, reported this week)",
-      detail:
-        "Romano put a single word on the Argentine's summer, 'interesting,' and suggested Liverpool's midfield could yet change shape. Real Madrid lead the pull with Atlético alongside, the 27-year-old into the last two years of a deal with no extension talks underway, pointed against Gravenberch's fresh terms. The internal sale valuation still floats near €120m; flagged as sellable, he remains the sell-to-buy fuel any reshape would burn.",
-      category: "transfers",
-    },
-    {
-      title: "Konaté's Real Madrid Unveiling Turns Imminent: €230k A Week, A €20m Signing Bonus (GiveMeSport / Liverpool.com / Managing Madrid, reported this week)",
-      detail:
-        "The free transfer that beat Liverpool moves to its ceremony: with Florentino Pérez re-elected, Konaté's four-year Real Madrid deal is reported finalised and its unveiling imminent, the terms a reported €230k per week and a €20m signing-on bonus, numbers Anfield declined to match. He reports first to France's World Cup camp. The vacancy heads the four-man centre-back shortlist Inácio tops.",
-      category: "transfers",
-    },
-    {
-      title: "The Academy Ledger: New Deals For Eight, A Clutch Of Releases (This Is Anfield / Liverpool FC, reported this week)",
-      detail:
-        "Beneath the marquee files the club tidied its base: new contracts were offered to eight academy players, among them Prince Kobe Cisse (17), Keyrol Figueroa (19), Kyle Kelly (20) and Lucas Pitt (19), while Oakley Cannonier, Kareem Ahmed, James Balagizi and goalkeeper Jacob Poytress were released. With Iraola promising the kids early minutes through a senior-thinned pre-season, the retained names are the ones likeliest to get a July look.",
-      category: "general",
-    },
-    {
-      title: "First-Signing Chatter Widens: Scott's £80m 'Noise,' Trincão's Clause, Huijsen's Reunion (Football365 / Anfield Watch, reported this week)",
-      detail:
-        "The 'who's first?' parlour game gained names: Football365's 'noise is growing' tag still hangs on Bournemouth's Alex Scott (now floated near £80m), Sporting's Trincão and his ~€50m clause waits on the World Cup ending, and reports add that Iraola has asked about Real Madrid's Dean Huijsen, another player he coached on the south coast. None is a negotiation yet; all sketch the manager's preference for the familiar.",
-      category: "transfers",
-    },
-    {
-      title: "Núñez's Free Agency Cools At Anfield: Liverpool Show 'Little Interest' As Others Circle (Liverpool.com / TeamTalk / Goal, reported this week)",
-      detail:
-        "The sentimental return lost heat where it mattered: with his Al-Hilal termination nearing, Darwin Núñez is reported to prefer Anfield and to draw interest from Chelsea and Barcelona, but Liverpool are now described as showing 'little interest' in re-signing him. A free striker is a spreadsheet temptation while Ekitike rehabs a ruptured Achilles, yet the recruitment staff appear to have looked and passed. Aware, and increasingly, declining.",
+        "The midfield's biggest sell-to-buy question stayed open without moving: Real Madrid and Atlético both remain linked with Alexis Mac Allister, who has no extension talks underway as he enters the final two years of his deal, pointed against Gravenberch's fresh terms. His father Carlos has again denied any formal approach while conceding the player views La Liga warmly. Flagged internally as sellable near €120m, he is the fuel any midfield reshape would burn.",
       category: "transfers",
     },
   ],
   sources: [
-    "Empire of the Kop",
-    "L'Équipe",
-    "Fabrizio Romano",
+    "GiveMeSport",
     "Football365",
-    "Anfield Watch",
     "Liverpool.com",
-    "This Is Anfield",
-    "Liverpool FC",
+    "Empire of the Kop",
+    "Fabrizio Romano",
+    "L'Équipe",
+    "Anfield Watch",
+    "Read Liverpool",
     "TeamTalk",
     "Sky Sports",
-    "Read Liverpool",
-    "ClickLiverpool",
-    "GiveMeSport",
-    "Managing Madrid",
-    "Sportskeeda",
-    "Goal",
+    "This Is Anfield",
     "ESPN",
+    "Goal",
+    "SportBible",
+    "Sportskeeda",
+    "BBC Sport",
     "FIFA",
+    "Managing Madrid",
   ],
 };
 
@@ -589,9 +589,9 @@ export const NEWS_DIGEST = {
 // heatTier: "hot" (≥65%) | "warm" (40-64%) | "cool" (<40%) | "done" | "dead"
 // sources[].tier: "S" (Romano-class) | "A" (major outlet) | "B" (beat) | "C" (aggregator)
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-06-13T13:35:00Z",
+  generatedAt: "2026-06-14T09:20:00Z",
   summary:
-    "Saturday's ledger leads with a door swinging open in Paris: L'Équipe report PSG are 'not completely opposed' to selling Bradley Barcola after his Champions League final omission soured stalled extension talks, and Romano's overnight repost (fire and eyes) reads as Liverpool's clearest winger escalation of the week, the Reds set against Arsenal for a £86m-rated France international they have tracked for a year. It reframes Thursday's still-unanswered Diomandé bid at Leipzig as the alternative path rather than the only one, the two wide files now rival routes to the same Salah-shaped gap. Beneath the wings the standing lines hold: the Quansah buy-back waits for its cheaper 2027 number, the centre-back shortlist still runs Inácio over Ordóñez with Konaté's Madrid unveiling now imminent, and a Geertruida-shaped right-back front sits behind Bradley's indoor rehab. On the way out, Curtis Jones is 'one step away' from a €25m Inter move, Chiesa's resolution is parked for the pre-season tour, Mac Allister's situation Romano calls 'interesting,' and Liverpool's interest in a free Núñez has cooled to 'little.' The window opens Monday; the noise arrived first.",
+    "Sunday's ledger, on the eve of a window that opens tomorrow, leads with the deal nearest to being a deal: Liverpool are reported to have agreed personal terms with Yan Diomandé, the 19-year-old Leipzig winger leaning to Anfield over PSG and promised the wing Salah vacated, with only the club-to-club fee dividing the parties, Leipzig near €130m against a Reds offer pitched closer to €100m and an £87m midpoint floated. Bradley Barcola, Friday's louder name, settles into the later-window alternative Romano says 'movements are expected' around, the cleaner Premier-League-ready fallback if Leipzig will not move. Behind the wing, the centre-back search has firmed onto Club Brugge's Ordóñez as the second half of an approved ~£170m double, with Sporting's Inácio the cleaner-clause option and the Quansah buy-back still waiting for its cheaper 2027 number. On the way out, Curtis Jones and Inter stay 'locked in negotiations' near €25m, Chiesa's resolution is parked for the pre-season tour, Mac Allister's two-Madrid tug holds, and Joe Gomez now tilts toward staying. The window opens Monday; the first name is most of the way through the door.",
   incoming: [
     {
       id: "varela-2026",
@@ -723,18 +723,18 @@ export const TRANSFER_TARGETS = {
       wageBand: "C",
       contractExpiry: "2030-06-30",
       releaseClause: null,
-      contractNote: "Contract to 2030, no release clause; Leipzig's stance reported hardening from €130m toward €140m (~£120m).",
-      probability: 72,
+      contractNote: "Contract to 2030, no release clause; personal terms agreed with Liverpool, club-to-club fee still a gap (Leipzig ~€130m vs Reds ~€100m, £87m floated).",
+      probability: 78,
       heatTier: "hot",
       sources: [
-        { name: "Empire of the Kop", tier: "B" },
-        { name: "Fabrizio Romano",   tier: "S" },
         { name: "GiveMeSport",       tier: "B" },
-        { name: "Sky Sports",        tier: "A" },
+        { name: "Fabrizio Romano",   tier: "S" },
+        { name: "Football365",       tier: "B" },
+        { name: "Liverpool.com",     tier: "B" },
       ],
-      lastUpdated: "2026-06-13",
+      lastUpdated: "2026-06-14",
       rumorNote:
-        "Leipzig · 13 Jun — two days on, the bid still sits unanswered. Thursday's opening offer, which Romano said carried 'important money,' is weighed against a Leipzig valuation around €130m and improved-contract overtures aimed at keeping the player, with PSG and Manchester City still circling. Liverpool stay 'relatively optimistic' and believe the teenager prefers Anfield, but Barcola's emergence this weekend reframes the wing: the two names now read as rival routes to the Salah vacancy rather than a guaranteed pair. Gakpo remains the mooted makeweight if the arithmetic needs help.",
+        "Leipzig · 14 Jun — the player's half is done. On the eve of the window, sources close to Diomandé report Liverpool have agreed personal terms and that the teenager is ready to commit, leaning to Anfield over PSG after being promised the wing Salah left empty. Only the fee now divides the clubs, Leipzig holding near €130m against a Liverpool offer pitched closer to €100m, with an £87m midpoint touted; Romano frames it as an approved priority set to move 'next week.' Barcola has slid behind him into the later-window insurance, and Gakpo remains the mooted makeweight if the arithmetic needs help.",
       positionFit: {
         replaces: "Salah (right wing)",
         competesWith: ["Gakpo", "Ngumoha"],
@@ -915,16 +915,16 @@ export const TRANSFER_TARGETS = {
       contractExpiry: "2028-06-30",
       releaseClause: null,
       contractNote: "105 Brugge appearances at 21; Palace had a £34.6m bid rejected, setting the floor.",
-      probability: 50,
+      probability: 55,
       heatTier: "warm",
       sources: [
-        { name: "Sky Sports",      tier: "A" },
+        { name: "Football365",     tier: "B" },
         { name: "TeamTalk",        tier: "B" },
-        { name: "CrunchSports",    tier: "C" },
+        { name: "Sky Sports",      tier: "A" },
       ],
-      lastUpdated: "2026-06-09",
+      lastUpdated: "2026-06-14",
       rumorNote:
-        "Bruges · 9 Jun — now one name on a four-man list, not the only one. With Konaté's exit sealed, Tuesday's reporting widens the defensive search to a Hughes-Iraola shortlist headed by Sporting's Inácio, with Vuskovic and Murillo alongside, yet Ordóñez remains the name Liverpool are furthest down on at ~£40m, pitched as half of an 'approved' double. Chelsea and Manchester City both monitor the 22-year-old Ecuadorian, and a rejected £34.6m Palace bid sets the floor. The grind option behind the cleaner clause-release of Inácio.",
+        "Bruges · 14 Jun — the centre-back the double is built around. On the eve of the window, the defensive search has firmed from a four-man list onto Ordóñez as the second half of an approved Iraola double alongside Diomandé, the pair framed near £170m combined, with Liverpool reported the furthest down the road at around £40m. A rejected £34.6m Crystal Palace bid sets the floor, and Chelsea and Manchester City keep tabs on the 22-year-old Ecuadorian. Sporting's Inácio stays the cleaner-clause alternative if the Brugge haggle drags.",
       positionFit: {
         replaces: "Konaté (right centre-back)",
         competesWith: ["Van Dijk", "Jacquet"],
@@ -1103,17 +1103,17 @@ export const TRANSFER_TARGETS = {
       wageBand: "B",
       contractExpiry: "2028-06-30",
       releaseClause: null,
-      contractNote: "Two years left, extension stalled over playing-time guarantees; PSG 'not completely opposed' to a sale near £86m.",
-      probability: 50,
+      contractNote: "Two years left, extension stalled over playing-time guarantees; reported to have decided to leave PSG, valued near £86m.",
+      probability: 45,
       heatTier: "warm",
       sources: [
         { name: "Fabrizio Romano",    tier: "S" },
         { name: "L'Équipe",           tier: "A" },
         { name: "Empire of the Kop",  tier: "B" },
       ],
-      lastUpdated: "2026-06-13",
+      lastUpdated: "2026-06-14",
       rumorNote:
-        "Paris · 13 Jun — the file that woke up. Overnight into Saturday, Romano reposted his Barcola dossier with fire-and-eyes emojis, and L'Équipe reported PSG are 'not completely opposed' to selling the France international, his extension stalled over playing-time guarantees after omissions from the Champions League semi-final and final convinced him to push. Liverpool, credited with the 'desire and financial means' and a year of tracking, are framed against Arsenal for a player valued near £86m. Cleaner than the Diomandé saga and Premier-League-proven, he is suddenly the wing's live lead rather than its longlist footnote.",
+        "Paris · 14 Jun — the lead that became the fallback. A weekend on from the file's flare-up, Romano holds that 'movements are expected' around Barcola, reported to have decided to leave PSG after his Champions League final omission, but tempers it: any Liverpool move would likely come later in the window, if at all, with the player's future still under review. As Diomandé's personal terms firm up, the £86m France international settles into the Premier-League-proven insurance behind him rather than the headline he briefly owned. Arsenal remain the rival in the room whenever the file reopens.",
       positionFit: {
         replaces: "Salah (alternative)",
         competesWith: ["Gakpo", "Ngumoha"],
@@ -1232,7 +1232,7 @@ export const TRANSFER_TARGETS = {
       probability: 75,
       heatTier: "hot",
       sources: [{ name: "Football365", tier: "B" }, { name: "Read Liverpool", tier: "B" }, { name: "MSN", tier: "C" }],
-      note: "Sat 13 Jun — 'one step away,' per Anfield Watch: the Scouser, having said yes to Inter and rebuffed Aston Villa, Newcastle and Forest, is now framed a single meeting from a ~€25m agreement, the sell-on clause forming as Hughes and Ausilio close the last of the gap to Liverpool's ask. The reluctance over the only Merseyside-born player in the squad has resolved into paperwork; the exit looks the window's likeliest first completion.",
+      note: "Sun 14 Jun — 'locked in negotiations,' per Read Liverpool: Inter and Liverpool are still working to bridge the valuation gap on the Scouser, who has committed to the Serie A champions and accepted his Anfield time is ending after rebuffing Aston Villa, Newcastle and Forest. A fresh meeting is lined up to close on a ~€25m fee with a sell-on clause attached. The only Merseyside-born player in the squad looks the window's likeliest first departure.",
     },
     {
       id: "gakpo-out",
@@ -1265,18 +1265,18 @@ export const TRANSFER_TARGETS = {
       probability: 75,
       heatTier: "hot",
       sources: [{ name: "This Is Anfield", tier: "A" }, { name: "ESPN", tier: "A" }, { name: "GiveMeSport", tier: "B" }],
-      note: "Thu 11 Jun — the goodbye goes global today: Salah captains Egypt at the World Cup that opened this afternoon at the Azteca, his contract lapsing June 30 to make him a free agent between group games. Turkey still heads the reported queue for his next address, ahead of Saudi Arabia and MLS; the destination remains the open question while the stage, for now, is the biggest in the sport.",
+      note: "Sun 14 Jun — the goodbye narrows to a shortlist: a free agent on June 30, Salah is reported to have set three conditions on his next club (money matching his standing, a marketable stage, a side that can still win) and to have rebuffed one Saudi offer already. Juventus are willing to write a contract, Inter Miami dangle a reunion with Messi in MLS, and the Saudi league keeps circling. He captains Egypt at the World Cup and says he will decide after it, unless something compelling lands first.",
     },
     {
       id: "gomez-out",
       name: "Joe Gomez",
       position: "DEF",
-      destination: "Serie A (Milan / Roma)",
+      destination: "Serie A (Milan / Roma) — but leaning to stay",
       feeAsk: { min: 18, max: 22, currency: "€m" },
-      probability: 62,
-      heatTier: "warm",
-      sources: [{ name: "Liverpool.com", tier: "B" }, { name: "Sports Mole", tier: "C" }],
-      note: "Twelve months left; among the four further exits flagged in Iraola's squad reset.",
+      probability: 40,
+      heatTier: "cool",
+      sources: [{ name: "Football365", tier: "B" }, { name: "Sportskeeda", tier: "C" }],
+      note: "Sun 14 Jun — the tide turns toward continuity: with Hughes hunting two centre-backs, the longest-serving defender is now reported likelier to stay and run his deal down toward a 2027 free than to leave this summer, even with a Serie A move having been canvassed. Useful cover in a thin back line; the versatility that makes him sellable also makes him worth keeping while the targets land.",
     },
     {
       id: "chiesa-out",

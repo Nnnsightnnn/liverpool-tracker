@@ -348,12 +348,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday, and the season that finished a fortnight ago feels a
-          continent away. The World Cup reaches Liverpool's eight this
-          afternoon, Alisson first in the Brazil goal, while the rebuild's
-          loudest noise arrives from Paris, where PSG have cracked the door on
-          Bradley Barcola. The window opens Monday, and the wing Salah vacated
-          is the question it must answer.
+          Sunday, and the window opens in the morning. The rebuild's first name
+          is most of the way through the door: Liverpool have agreed personal
+          terms with Yan Diomandé, the wing Salah vacated all but promised to
+          the teenager, only the fee left to settle with Leipzig. Tonight the
+          World Cup keeps the squad scattered, Van Dijk's Netherlands against
+          Endo's Japan in Dallas.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,22 +368,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>{" "}
-              brings the rebuild its loudest morning yet, and it speaks French.
-              Overnight, Fabrizio Romano lit his Bradley Barcola file with fire
-              and eyes, and L'Équipe reported that PSG, after a Champions League
-              final he watched from the bench, are no longer minded to keep him;
-              Liverpool, set against Arsenal, have the wing Salah left empty and
-              the means to fill it. The football itself is in North America now:
-              this afternoon Alisson takes the Brazil goal and Andy Robertson, a
-              fortnight past his goodbye, captains Scotland, the first of eight
-              Reds the new manager can only watch. Andoni Iraola has met them
-              with a line, that for him they are all new signings, and a
-              pre-season the seniors will largely miss. Curtis Jones drifts one
-              step from Milan, Mac Allister's future Romano files under
-              'interesting,' and the centre-back the club lost walks toward his
-              Madrid unveiling. The window opens Monday. The noise did not wait
-              for the door.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and the rebuild's first answer arrives a day before the question
+              is even allowed to be asked. Liverpool, sources say, have agreed
+              personal terms with Yan Diomandé; the 19-year-old leans to Anfield
+              over Paris, the wing Salah vacated all but his, and only the fee,
+              Leipzig near €130m, the Reds nearer €100m, keeps it from being a
+              deal. The window opens Monday, and Andoni Iraola's list reads like
+              a recruiter's whiteboard: a winger, two centre-backs, midfield
+              cover, funded by the men leaving. Tonight the football is in
+              Dallas, where Virgil van Dijk captains the Netherlands against
+              Wataru Endo's Japan, two Reds on opposite touchlines of the same
+              game. Mohamed Salah, a free agent weighing Juventus, an Inter
+              Miami reunion with Messi and the Saudi money, will choose after the
+              tournament. Curtis Jones drifts toward Milan. The noise, as ever,
+              did not wait for the door.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -391,11 +390,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a door easing open in Paris before the window even
-              unlocks; eight Reds carried into a World Cup that reaches them this
-              afternoon; a new manager telling a tired squad they are all new
-              signings; a homegrown midfielder a step from Milan; and, at Kirkby, the
-              quiet ledger of who gets kept. Read slowly. The window opens Monday.
+              week. There is a first signing all but agreed before the window even
+              unlocks; a recruiter's list of what a thinning spine still needs; eight
+              Reds scattered through a World Cup that keeps them in other colours;
+              a captain weighing his next club from afar; and a homegrown midfielder
+              drifting toward Milan. Read slowly. The window opens Monday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -2874,7 +2873,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "In Paris, a door swings open."
+        "The first name, halfway through the door."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
