@@ -55,7 +55,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Sun Jun 14 — the tide turns toward staying: with Hughes hunting two centre-backs, the academy product is now reported likelier to remain and run his deal down toward a 2027 free than to leave this summer, even with a Serie A move having been canvassed. Useful cover in a thin back line, and the versatility that makes him sellable also makes him worth keeping", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Mon Jun 15 — still set to stay: with Hughes hunting two centre-backs, the academy product is now reported likelier to remain and run his deal down toward a 2027 free than to leave this summer, even with a Serie A move having been canvassed. Useful cover in a thin back line, and the versatility that makes him sellable also makes him worth keeping", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -161,7 +161,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Sun Jun 14 — 'locked in negotiations,' per Read Liverpool: committed to Inter and having rebuffed Aston Villa, Newcastle and Forest, the Scouser waits on a fresh meeting to bridge the fee gap toward a ~€25m move with a sell-on clause attached. The only Merseyside-born player in the squad looks the window's likeliest first departure; acceptance now, more than reluctance", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Mon Jun 15 — the move edges closer, per Read Liverpool: committed to Inter and having rebuffed Aston Villa, Newcastle and Forest, the Scouser waits on a fresh meeting to bridge the fee gap toward a ~€25m move with a sell-on clause attached. The only Merseyside-born player in the squad looks the window's likeliest first departure; acceptance now, more than reluctance", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Sun Jun 14 — the goodbye narrows to a shortlist: a free agent on June 30, Salah is reported to have set three conditions on his next club (money matching his standing, a marketable stage, a side that can still win) and to have already turned down one Saudi offer. Juventus are willing to write a contract, Inter Miami dangle a reunion with Messi in MLS, and the Saudi league keeps circling. He says he is 'still assessing things' and will decide after the World Cup he is captaining Egypt at", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Mon Jun 15 — the market tilts to Turkey: a free agent on June 30, Salah now has a Turkish move rated his likeliest by bookmakers, ahead of the Saudi money, an Inter Miami reunion with Messi in MLS and a Juventus link reported as mostly wishful. At 33 he has set three conditions (money matching his standing, a marketable stage, a side that can win) and turned down one Saudi offer already. He will decide after the World Cup he is captaining Egypt at", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 39, goals: 9, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 6.8, status: "fit", injuryNote: "Sun Jun 14 — the makeweight in the deal built to replace him: with Diomandé's personal terms now agreed, Gakpo's mooted role in the Leipzig arithmetic hardens against an ask near €140m, while Tottenham's interest in a straight sale near €45m holds. He starts for the Netherlands against Endo's Japan in Dallas tonight, having asked to leave rather than fight Ngumoha for the left wing", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 39, goals: 9, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 6.8, status: "fit", injuryNote: "Mon Jun 15 — the makeweight in the deal built to replace him: with Liverpool's opening bid lodged for Diomandé (Leipzig holding near €130m), Gakpo's mooted role in the swap arithmetic hardens, while Tottenham's interest in a straight sale near €45m holds. He wants a Premier League exit rather than fight Ngumoha for the left wing, and started for the Netherlands in Sunday's 2-2 with Endo's Japan", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -1112,7 +1112,7 @@ export const TRANSFER_TARGETS = {
       ],
       lastUpdated: "2026-06-14",
       rumorNote:
-        "Paris · 14 Jun — the lead that became the fallback. A weekend on from the file's flare-up, Romano holds that 'movements are expected' around Barcola, reported to have decided to leave PSG after his Champions League final omission, but tempers it: any Liverpool move would likely come later in the window, if at all, with the player's future still under review. As Diomandé's personal terms firm up, the £86m France international settles into the Premier-League-proven insurance behind him rather than the headline he briefly owned. Arsenal remain the rival in the room whenever the file reopens.",
+        "Paris · 14 Jun — the lead that became the fallback. A weekend on from the file's flare-up, Romano holds that 'movements are expected' around Barcola, reported to have decided to leave PSG after his Champions League final omission, but tempers it: any Liverpool move would likely come later in the window, if at all, with the player's future still under review. As Liverpool's opening bid for Diomandé firms up the lead, the £86m France international settles into the Premier-League-proven insurance behind him rather than the headline he briefly owned. Arsenal remain the rival in the room whenever the file reopens.",
       positionFit: {
         replaces: "Salah (alternative)",
         competesWith: ["Gakpo", "Ngumoha"],

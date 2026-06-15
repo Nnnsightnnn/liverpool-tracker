@@ -23,11 +23,11 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the first-choice XI Liverpool closed the
     // campaign with, the baseline a summer rebuild will reshape. 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Sun Jun 14: on the eve of
-    // the window, Liverpool have agreed personal terms with Leipzig's Diomandé
-    // (fee still a gap), Barcola sliding to the later-window fallback; Jones and
-    // Inter 'locked in negotiations' near €25m; World Cup Sunday brings Van
-    // Dijk's Netherlands vs Endo's Japan and Wirtz's Germany.
+    // backup look — Slot favoured 4-2-3-1. Refreshed Mon Jun 15: window open,
+    // Liverpool's opening bid lodged for Leipzig's Diomandé (Leipzig holding
+    // ~€130m), Barcola the later-window fallback; Jones edging to Inter near
+    // €25m; World Cup Sunday saw Van Dijk and Summerville score in the
+    // Netherlands' 2-2 with Endo's Japan and Wirtz assist in Germany's 7-1.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -62,11 +62,11 @@ export const FORMATIONS = {
     // through the run-in — is shown as the first-choice XI Liverpool finished
     // the campaign with after Sunday's 1-1 with Brentford, NOT as a prediction
     // for a coming fixture (the next match is a pre-season friendly on July
-    // 25). Refreshed Sun Jun 14: on the eve of the window, Liverpool have
-    // agreed personal terms with Leipzig's Diomandé, only the fee unsettled,
-    // with Barcola the later-window fallback; Jones and Inter 'locked in
-    // negotiations' near €25m; World Cup Sunday brings Van Dijk's Netherlands
-    // against Endo's Japan in Dallas and Wirtz's Germany against Curaçao.
+    // 25). Refreshed Mon Jun 15: window open, Liverpool's opening bid lodged
+    // for Leipzig's Diomandé (Leipzig holding ~€130m, no release clause), with
+    // Barcola the later-window fallback; Jones edging to Inter near €25m; World
+    // Cup Sunday saw Van Dijk and Summerville score in the Netherlands' 2-2
+    // with Endo's Japan and Wirtz assist in Germany's 7-1 over Curaçao.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -119,30 +119,30 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-06-14
-// (Sun, post-season, eve of the window: personal terms agreed with Leipzig's
-// Diomandé as Iraola's first signing, fee still a gap, Barcola the later-window
-// fallback; Jones and Inter 'locked in negotiations' near €25m; World Cup
-// Sunday brings Van Dijk's Netherlands vs Endo's Japan and Wirtz's Germany.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-06-15
+// (Mon, post-season, window open: Liverpool's opening bid lodged for Leipzig's
+// Diomandé, Leipzig holding ~€130m, Barcola the later-window fallback; Jones
+// edging to Inter near €25m; World Cup Sunday saw Van Dijk and Summerville
+// score in NL's 2-2 with Endo's Japan and Wirtz assist in Germany's 7-1.)
 export const PLAYER_EVIDENCE = {
   1:  "Brazil's No. 1 · staying at Anfield",   // Alisson
   2:  "Loan likely now Alisson stays",         // Mamardashvili
-  3:  "Captain · NL vs Japan tonight",         // Van Dijk
-  4:  "Madrid unveiling imminent · €230k/wk",  // Konaté
+  3:  "Scored in NL's 2-2 with Japan",         // Van Dijk
+  4:  "Gone to Real Madrid on a free",         // Konaté
   5:  "Now tilting toward staying",            // Gomez
   6:  "Gone to Spurs on a free",               // Robertson
   7:  "Tough debut · now first-pick LB",       // Kerkez
   8:  "Knee · rehab still indoors at AXA",     // Bradley
   9:  "Axed from NL World Cup squad",          // Frimpong
   10: "Torn ACL · out into 2026-27",           // Leoni
-  11: "Deputy CB · behind Ordóñez/Inácio",     // Jacquet
+  11: "Deputy CB · behind new CB target",      // Jacquet
   12: "Academy depth · 2 senior apps",         // Ndukwe
   13: "No talks · two Madrids circle",         // Mac Allister
-  14: "NL vs Japan tonight · key MID",         // Gravenberch
+  14: "Assisted VVD in NL 2-2 Japan",          // Gravenberch
   15: "48 apps · extension still pending",     // Szoboszlai
   16: "Inter talks ongoing · ~€25m",           // Jones
-  17: "Captains Japan vs NL tonight",          // Endo
-  18: "Germany open vs Curaçao · £115m",       // Wirtz
+  17: "Captained Japan to 2-2 with NL",        // Endo
+  18: "Assist in Germany 7-1 · £115m",         // Wirtz
   19: "Hamstring · missed all season",         // Bajcetic
   20: "Academy prospect · 5 senior apps",      // Nyoni
   21: "Free Jun 30 · Juve, Miami, Saudi",      // Salah
@@ -165,9 +165,9 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys (4-2-3-1). With the season over these now read as confidence that
 // the slot's occupant remains a first-choice starter into 2026-27 — LOW where
 // the player is leaving (Salah, Robertson, now Konaté) or whose future is open
-// (Jones, Mac Allister). (Refreshed Sun Jun 14 — personal terms agreed with
-// Leipzig's Diomandé on the eve of the window, fee still a gap, Barcola the
-// later-window fallback; Jones and Inter 'locked in negotiations' near €25m.)
+// (Jones, Mac Allister). (Refreshed Mon Jun 15 — window open, Liverpool's
+// opening bid lodged for Leipzig's Diomandé, Leipzig holding ~€130m, Barcola
+// the later-window fallback; Jones edging to Inter near €25m.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · snubs Juventus · staying as No. 1
   LB:  "Low",    // Robertson gone (free to Spurs, done) · Kerkez inherits
@@ -196,8 +196,8 @@ export const SLOT_RATIONALE = {
   RDM: "Tue Jun 2 — Szoboszlai closes a heavy-minutes season of 48 appearances as a midfield mainstay; a contract extension is still expected to be agreed over the summer.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
   CAM: "Tue Jun 9 — the Mac Allister question has not eased: Real Madrid and Atlético both remain linked, no new-contract talks open, the midfielder into the final two years of his deal. His father Carlos again denies a formal approach while allowing he views La Liga warmly; Football365 keeps Liverpool's internal sale valuation near €120m.",
-  RAM: "Sun Jun 14 — the winger search has its near-agreement: on the eve of the window, Liverpool are reported to have agreed personal terms with Leipzig's Yan Diomandé, the 19-year-old leaning to Anfield over PSG and promised the right flank, only the club-to-club fee (Leipzig ~€130m, Reds ~€100m) still to settle. Bradley Barcola recedes to the later-window fallback Romano says 'movements are expected' around. The incumbent, Salah, plays on at the tournament as Egypt's captain, a free agent on June 30 weighing Juventus, Inter Miami and the Saudi money.",
-  RB:  "Sun Jun 14 — the slot's exit grinds on: Inter and Liverpool stay 'locked in negotiations' over Jones, a ~€25m fee with a sell-on clause and a fresh meeting lined up to bridge the gap, while talks have been held over Leipzig right-back Lutsharel Geertruida (~£26m), the natural specialist cover for a position where Bradley's rehab is still indoors and Frimpong's first season never settled.",
+  RAM: "Mon Jun 15 — the winger search is live but not won: with the window open, Liverpool's opening bid sits with Leipzig for Yan Diomandé, the 19-year-old rated a 'top priority' and promised the right flank, but Leipzig do not want to sell below ~€130m, there is no release clause on a deal to 2030, and PSG and City stay in the chase. Bradley Barcola is the later-window fallback. The incumbent, Salah, plays on as Egypt's captain, a free agent on June 30 whose market now tilts to Turkey ahead of the Saudi money, an Inter Miami reunion and Juventus.",
+  RB:  "Mon Jun 15 — the slot's exit grinds on: Inter and Liverpool edge toward a ~€25m deal for Jones with a sell-on clause and a fresh meeting lined up to bridge the gap, while talks have been held over Leipzig right-back Lutsharel Geertruida (~£26m), the natural specialist cover for a position where Bradley's rehab is still indoors and Frimpong's first season never settled.",
   ST:  "Tue Jun 2 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
 };
 
