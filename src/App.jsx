@@ -348,12 +348,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday, and the window opens in the morning. The rebuild's first name
-          is most of the way through the door: Liverpool have agreed personal
-          terms with Yan Diomandé, the wing Salah vacated all but promised to
-          the teenager, only the fee left to settle with Leipzig. Tonight the
-          World Cup keeps the squad scattered, Van Dijk's Netherlands against
-          Endo's Japan in Dallas.
+          Monday, and the window is finally open. Liverpool's rebuild can stop
+          being a list and start being a set of bids: an opening offer sits
+          with Leipzig for Yan Diomandé, the wing Salah vacated, against a club
+          unwilling to sell him cheaply. The squad is scattered across a World
+          Cup, Van Dijk and Summerville scoring in a Dutch draw on Sunday; the
+          football at home is now a matter of phone calls.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,21 +368,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and the rebuild's first answer arrives a day before the question
-              is even allowed to be asked. Liverpool, sources say, have agreed
-              personal terms with Yan Diomandé; the 19-year-old leans to Anfield
-              over Paris, the wing Salah vacated all but his, and only the fee,
-              Leipzig near €130m, the Reds nearer €100m, keeps it from being a
-              deal. The window opens Monday, and Andoni Iraola's list reads like
-              a recruiter's whiteboard: a winger, two centre-backs, midfield
-              cover, funded by the men leaving. Tonight the football is in
-              Dallas, where Virgil van Dijk captains the Netherlands against
-              Wataru Endo's Japan, two Reds on opposite touchlines of the same
-              game. Mohamed Salah, a free agent weighing Juventus, an Inter
-              Miami reunion with Messi and the Saudi money, will choose after the
-              tournament. Curtis Jones drifts toward Milan. The noise, as ever,
-              did not wait for the door.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and the question the club spent a year asking is finally allowed an
+              answer: the window is open, and Liverpool can buy. The first bid is
+              already in, an opening offer to Leipzig for Yan Diomandé, the
+              19-year-old promised the wing Salah vacated, against a seller
+              unwilling to let him go below €130m. Andoni Iraola's list reads
+              like a recruiter's whiteboard, a left-back, a right winger, a
+              holding midfielder, and now a centre-back search narrowed to four
+              after Konaté walked to Madrid for nothing. The football, meanwhile,
+              is in North America, where on Sunday Virgil van Dijk headed the
+              Netherlands ahead and Crysencio Summerville, himself a name on the
+              wide list, scored before Wataru Endo's Japan clawed it back to two
+              apiece. Mohamed Salah, a free agent at the end of the month, weighs
+              Turkey, the Saudi money and an Inter Miami reunion with Messi.
+              Curtis Jones drifts toward Milan. The door is open; now comes the
+              hard part, walking people through it.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -390,11 +391,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a first signing all but agreed before the window even
-              unlocks; a recruiter's list of what a thinning spine still needs; eight
-              Reds scattered through a World Cup that keeps them in other colours;
-              a captain weighing his next club from afar; and a homegrown midfielder
-              drifting toward Milan. Read slowly. The window opens Monday.
+              week. There is a first bid lodged the morning the window opens; a
+              recruiter's list of what a thinning spine still needs; eight Reds
+              scattered through a World Cup that keeps them in other colours; a
+              captain weighing his next club from afar; and a homegrown midfielder
+              drifting toward Milan. Read slowly. The window is open.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -2873,7 +2874,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The first name, halfway through the door."
+        "The gate is up. Now we trade."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

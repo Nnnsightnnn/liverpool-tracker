@@ -128,20 +128,20 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "GiveMeSport / Football365", title: "Diomandé agrees personal terms with Liverpool and leans to Anfield over PSG: only the fee divides the clubs, Leipzig near €130m against the Reds' ~€100m, an £87m midpoint floated", time: "today", category: "major" },
-  { source: "Sky Sports / ESPN", title: "The transfer window opens tomorrow: Iraola's first moves framed as a winger (Diomandé) and a centre-back (Ordóñez), a double pitched near £170m", time: "today", category: "major" },
-  { source: "FIFA / BBC Sport", title: "World Cup Sunday: Van Dijk captains the Netherlands against Endo's Japan in Dallas tonight, while Wirtz's Germany open against Curaçao", time: "today", category: "official" },
-  { source: "Goal / SportBible", title: "Salah weighs his next act: a Juventus offer, an Inter Miami reunion with Messi and the Saudi money, with a decision set for after the World Cup", time: "1d ago", category: "major" },
-  { source: "Liverpool.com", title: "Alan Shearer's verdict: Diomandé and Barcola 'make perfect sense' for Iraola, and a deal for the Leipzig teenager is 'a matter of time'", time: "1d ago", category: "fan" },
-  { source: "Empire of the Kop / Fabrizio Romano", title: "Barcola recedes to the later-window option: Romano says 'movements are expected' but any Liverpool move likely comes later, if at all", time: "1d ago", category: "fan" },
-  { source: "Read Liverpool / Anfield Watch", title: "Jones and Inter remain 'locked in negotiations' over a ~€25m move, the England midfielder committed as a fresh meeting is set to bridge the fee gap", time: "1d ago", category: "major" },
-  { source: "Football365 / Sportskeeda", title: "Gomez set to stay: the longest-serving defender tilts toward running down his deal as Hughes hunts two centre-backs", time: "1d ago", category: "fan" },
+  { source: "Sky Sports / Premier League", title: "The window opens today: Premier League summer trading runs from Monday June 15 to 11pm on Tuesday September 1, and Iraola's rebuild can finally start making bids", time: "today", category: "official" },
+  { source: "FIFA / ESPN / Yahoo Sports", title: "World Cup Sunday: Van Dijk heads the Netherlands ahead and Summerville scores on debut, but Endo's Japan rally to a 2-2 in Dallas", time: "today", category: "major" },
+  { source: "This Is Anfield / Sky Sports", title: "Diomandé latest: Liverpool's opening bid in and the club 'really pushing,' but Leipzig won't sell below ~€130m with PSG and City still circling", time: "today", category: "major" },
+  { source: "ESPN / NBC", title: "Diomandé stars and fellow Reds target Ordóñez heads over as Amad Diallo's late winner sends Ivory Coast past Ecuador 1-0", time: "today", category: "major" },
+  { source: "Anfield Watch / Yahoo Sports", title: "Hughes settles on a four-man centre-back shortlist after Konaté's exit: Vuskovic, Beukema, Inácio and Murillo", time: "today", category: "major" },
+  { source: "Liverpool.com / Goal", title: "Divock Origi retires at 31: the cult hero of Barcelona and Tottenham 2019 calls time on his career", time: "1d ago", category: "fan" },
+  { source: "TeamTalk / Football365", title: "Gakpo wants a Premier League exit with Villa and Spurs alert, and is floated as a player-plus-cash makeweight in the Diomandé swap", time: "1d ago", category: "fan" },
+  { source: "Read Liverpool / Anfield Watch", title: "Jones edges to Inter near €25m as the window's likeliest first departure, a fresh meeting lined up to bridge the fee gap", time: "1d ago", category: "major" },
+  { source: "Liverpool.com / The National", title: "Salah's next club: bookmakers now make a Turkish move likeliest, ahead of the Saudi money, an Inter Miami reunion with Messi and Juventus", time: "1d ago", category: "fan" },
+  { source: "FIFA / BBC Sport", title: "Wirtz assists Nmecha as Germany rout World Cup debutants Curaçao 7-1 in Group E", time: "1d ago", category: "official" },
+  { source: "TeamTalk / Football365", title: "Iraola backed to make as many as seven signings: a left-back, a right winger and a holding midfielder named the structural priorities", time: "2d ago", category: "fan" },
   { source: "This Is Anfield / Anfield Watch", title: "Mac Allister and the Madrid tug holds: no extension talks, Real and Atlético both linked, a ~€120m internal valuation", time: "2d ago", category: "fan" },
-  { source: "GiveMeSport / Managing Madrid", title: "Konaté's Real Madrid unveiling turns imminent after Pérez's re-election: a reported €230k a week and a €20m signing-on bonus", time: "2d ago", category: "major" },
-  { source: "This Is Anfield / Liverpool FC", title: "Academy ledger: new deals offered to eight youngsters including Cisse and Figueroa, with Cannonier and Balagizi among the releases", time: "3d ago", category: "official" },
-  { source: "This Is Anfield", title: "Bradley's rehab remains indoors with pre-season in doubt; the next step is still described as 'far away' after 24 matches missed", time: "3d ago", category: "fan" },
   { source: "Football365 / Football Italia", title: "Chiesa's future is parked until the pre-season tour, the Italian expected to sit down with Iraola as Inter's interest holds near €20m", time: "3d ago", category: "fan" },
-  { source: "Liverpool.com", title: "Premier League confirm the summer window opens Monday June 15 and closes at 11pm on Tuesday September 1", time: "3d ago", category: "official" },
+  { source: "GiveMeSport / Managing Madrid", title: "Konaté's Real Madrid switch confirmed on a free after Pérez's re-election, the centre-back vacancy now the spine of Hughes's search", time: "3d ago", category: "major" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
