@@ -348,12 +348,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, and the window is finally open. Liverpool's rebuild can stop
-          being a list and start being a set of bids: an opening offer sits
-          with Leipzig for Yan Diomandé, the wing Salah vacated, against a club
-          unwilling to sell him cheaply. The squad is scattered across a World
-          Cup, Van Dijk and Summerville scoring in a Dutch draw on Sunday; the
-          football at home is now a matter of phone calls.
+          Tuesday, and the rebuild has found a second gear. Liverpool moved
+          overnight into direct contact for Lille's Ayyoub Bouaddi, gatecrashing
+          Arsenal, while clearing the room a Diomandé deal still needs. In
+          Seattle, Mohamed Salah turned thirty-four on a World Cup pitch: a
+          clinical assist, then a substitution, the old Anfield argument playing
+          out now in green. The football at home is a matter of phone calls.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,22 +368,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and the question the club spent a year asking is finally allowed an
-              answer: the window is open, and Liverpool can buy. The first bid is
-              already in, an opening offer to Leipzig for Yan Diomandé, the
-              19-year-old promised the wing Salah vacated, against a seller
-              unwilling to let him go below €130m. Andoni Iraola's list reads
-              like a recruiter's whiteboard, a left-back, a right winger, a
-              holding midfielder, and now a centre-back search narrowed to four
-              after Konaté walked to Madrid for nothing. The football, meanwhile,
-              is in North America, where on Sunday Virgil van Dijk headed the
-              Netherlands ahead and Crysencio Summerville, himself a name on the
-              wide list, scored before Wataru Endo's Japan clawed it back to two
-              apiece. Mohamed Salah, a free agent at the end of the month, weighs
-              Turkey, the Saudi money and an Inter Miami reunion with Messi.
-              Curtis Jones drifts toward Milan. The door is open; now comes the
-              hard part, walking people through it.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and the question is no longer whether Liverpool will trade but how
+              fast. Overnight the club stepped into direct contact for Ayyoub
+              Bouaddi, the 18-year-old Lille midfielder Arsenal believed they
+              were closing on, while Fabrizio Romano reported the squad space for
+              Yan Diomandé had been cleared and the advantage over Paris taken.
+              At the back, Gonçalo Inácio's clause keeps him the cleanest of
+              four; in midfield, Monaco's Lamine Camara waits for a chair to
+              empty. The football, meanwhile, was in Seattle, where Mohamed Salah
+              marked his thirty-fourth birthday with a clinical assist for Egypt
+              before Romelu Lukaku's instant equaliser, and a seventy-fifth-minute
+              substitution, turned applause to debate. On Friday the fixtures
+              arrive and Andoni Iraola learns his first assignment. The window is
+              two days old, and already it has a tempo.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -2874,7 +2872,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The gate is up. Now we trade."
+        "Two days open, and already a tempo."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
