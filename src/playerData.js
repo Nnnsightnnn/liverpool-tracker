@@ -799,7 +799,7 @@ export const TRANSFER_TARGETS = {
       contractExpiry: "2030-06-30",
       releaseClause: null,
       contractNote: "Contract to 2030, no release clause; Liverpool 'closing in,' bid due this week, Leipzig pushing the ask from €100m toward €130m.",
-      probability: 63,
+      probability: 66,
       heatTier: "hot",
       sources: [
         { name: "Football365",       tier: "B" },
@@ -1348,7 +1348,7 @@ export const TRANSFER_TARGETS = {
       position: "DEF",
       destination: "Serie A (Milan / Roma) — but leaning to stay",
       feeAsk: { min: 18, max: 22, currency: "€m" },
-      probability: 40,
+      probability: 39,
       heatTier: "cool",
       sources: [{ name: "Football365", tier: "B" }, { name: "Sportskeeda", tier: "C" }],
       note: "Sun 14 Jun — the tide turns toward continuity: with Hughes hunting two centre-backs, the longest-serving defender is now reported likelier to stay and run his deal down toward a 2027 free than to leave this summer, even with a Serie A move having been canvassed. Useful cover in a thin back line; the versatility that makes him sellable also makes him worth keeping while the targets land.",
