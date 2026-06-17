@@ -23,11 +23,11 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the first-choice XI Liverpool closed the
     // campaign with, the baseline a summer rebuild will reshape. 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Tue Jun 16 (day two of
-    // the window): Liverpool in direct contact for Lille's Bouaddi (over
-    // Arsenal), room cleared for Leipzig's Diomandé with the edge over PSG,
-    // Inácio the cleanest CB on a ~€60m clause; Jones edging to Inter near
-    // €25m; Salah's WC opener brought a birthday assist in a 1-1 with Belgium.
+    // backup look — Slot favoured 4-2-3-1. Refreshed Wed Jun 17 (day three of
+    // the window): Liverpool 'closing in' on Leipzig's Diomandé, daily talks and
+    // a bid due this week with PSG needing to sell first; a free Darwin Núñez
+    // return whispered as a 'done deal'; Bouaddi's preference now tilts to PSG;
+    // Jones to Inter hinges on a €35m-to-€20m gap.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -62,11 +62,11 @@ export const FORMATIONS = {
     // through the run-in — is shown as the first-choice XI Liverpool finished
     // the campaign with after Sunday's 1-1 with Brentford, NOT as a prediction
     // for a coming fixture (the next match is a pre-season friendly on July
-    // 25). Refreshed Tue Jun 16 (day two of the window): Liverpool in direct
-    // contact for Lille's Bouaddi (over Arsenal), room cleared for Leipzig's
-    // Diomandé with the edge over PSG, Inácio the cleanest CB on a ~€60m
-    // clause, Monaco's Camara greenlit; Jones edging to Inter near €25m;
-    // Salah's WC opener brought a birthday assist in a 1-1 draw with Belgium.
+    // 25). Refreshed Wed Jun 17 (day three of the window): Liverpool 'closing
+    // in' on Leipzig's Diomandé, in daily talks with a bid due this week and PSG
+    // needing to sell first; a free Darwin Núñez return whispered as a 'done
+    // deal' (unconfirmed at Anfield); Bouaddi's head turned to PSG; Jones to
+    // Inter hinges on a €35m-to-€20m gap; Inácio still the cleanest CB fit.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -119,36 +119,36 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-06-16
-// (Tue, post-season, day two of the window: Liverpool in direct contact for
-// Lille's Bouaddi (over Arsenal), room cleared for Leipzig's Diomandé with the
-// edge over PSG, Inácio the cleanest CB on a ~€60m clause, Monaco's Camara
-// greenlit; Jones edging to Inter near €25m; Salah's WC opener brought a
-// birthday assist before Egypt drew Belgium 1-1.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-06-17
+// (Wed, post-season, day three of the window: Liverpool 'closing in' on
+// Leipzig's Diomandé with a bid due this week, PSG needing to sell first; a free
+// Darwin Núñez return whispered as a 'done deal'; Bouaddi's head turned to PSG;
+// Jones to Inter hinging on a €35m-to-€20m gap; Group F decider on Saturday
+// pits Van Dijk's NL against Isak's Sweden.)
 export const PLAYER_EVIDENCE = {
   1:  "Brazil's No. 1 · staying at Anfield",   // Alisson
   2:  "Loan likely now Alisson stays",         // Mamardashvili
-  3:  "Wants new deal · WC header for NL",     // Van Dijk
+  3:  "Wants new deal · NL v Sweden Sat",      // Van Dijk
   4:  "Gone to Real Madrid on a free",         // Konaté
   5:  "Now tilting toward staying",            // Gomez
   6:  "Gone to Spurs on a free",               // Robertson
   7:  "Tough debut · now first-pick LB",       // Kerkez
-  8:  "Knee · rehab still indoors at AXA",     // Bradley
+  8:  "Knee · out until next season",          // Bradley
   9:  "Axed from NL World Cup squad",          // Frimpong
   10: "Torn ACL · out into 2026-27",           // Leoni
   11: "Deputy CB · behind new CB target",      // Jacquet
   12: "Academy depth · 2 senior apps",         // Ndukwe
-  13: "Clubs 'starting to look' · ~€120m",     // Mac Allister
-  14: "Assisted VVD in NL 2-2 Japan",          // Gravenberch
+  13: "Agent calls exit talk 'false' · ~€120m", // Mac Allister
+  14: "NL face Sweden Sat · key in midfield",  // Gravenberch
   15: "48 apps · extension still pending",     // Szoboszlai
-  16: "Inter closing · ~€25m, sell-on",        // Jones
-  17: "Captained Japan to 2-2 with NL",        // Endo
-  18: "Assist in Germany 7-1 · £115m",         // Wirtz
+  16: "Inter keen · €35m-to-€20m gap",         // Jones
+  17: "Japan live in Group F · captain",       // Endo
+  18: "£115m playmaker · Germany at the WC",   // Wirtz
   19: "Hamstring · missed all season",         // Bajcetic
   20: "Academy prospect · 5 senior apps",      // Nyoni
-  21: "Birthday assist v Belgium · free Jun 30", // Salah
-  22: "Wants out · makeweight in Diomandé deal", // Gakpo
-  23: "Injury-wrecked £100m debut year",       // Isak
+  21: "No PL return · free agent Jun 30",      // Salah
+  22: "Wants out · floated in Diomandé swap",  // Gakpo
+  23: "Sweden v NL Sat · £100m, injury-hit",   // Isak
   24: "Ruptured Achilles · out 9-12 months",   // Ekitike
   25: "Untouchable · Bayern rebuffed",         // Ngumoha
   26: "Exit parked for pre-season tour",       // Chiesa
@@ -166,9 +166,9 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys (4-2-3-1). With the season over these now read as confidence that
 // the slot's occupant remains a first-choice starter into 2026-27 — LOW where
 // the player is leaving (Salah, Robertson, now Konaté) or whose future is open
-// (Jones, Mac Allister). (Refreshed Tue Jun 16 — day two of the window:
-// direct contact for Bouaddi over Arsenal, room cleared for Diomandé with the
-// edge over PSG, Inácio the cleanest CB; Jones edging to Inter near €25m.)
+// (Jones, Mac Allister). (Refreshed Wed Jun 17 — day three of the window:
+// Liverpool 'closing in' on Diomandé with a bid due this week, PSG needing to
+// sell first; a free Núñez return whispered; Jones to Inter on a €35m-€20m gap.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · snubs Juventus · staying as No. 1
   LB:  "Low",    // Robertson gone (free to Spurs, done) · Kerkez inherits
@@ -179,15 +179,15 @@ export const SLOT_CONFIDENCE = {
   RDM: "Medium", // Szoboszlai · mainstay, extension still pending
   LAM: "Medium", // Wirtz · injury-hit debut season · 'untouchable' per club
   CAM: "Low",    // Mac Allister · still between the two Madrids
-  RAM: "Low",    // Salah departing (Egypt captain) · Barcola/Diomandé the winger leads
+  RAM: "Low",    // Salah departing (Egypt captain) · Diomandé the winger lead, Liverpool closing in
   ST:  "Medium", // Isak · £100m striker · injury-wrecked first season
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
 // Explains the season-closing pick for each slot of the 4-2-3-1. The 2025-26
 // season is complete; these read as a retrospective on the first-choice XI
-// rather than a prediction for a coming fixture. (Partially refreshed Tue
-// Jun 16 — RAM/RB/CAM rotated; RCB Tue Jun 9; remaining slots Tue Jun 2.)
+// rather than a prediction for a coming fixture. (Partially refreshed Wed
+// Jun 17 — RAM/RB/CAM rotated; RCB Tue Jun 9; remaining slots Tue Jun 2.)
 export const SLOT_RATIONALE = {
   GK:  "Tue Jun 2 — Alisson is now widely expected to remain. Juventus had agreed personal terms near €5m a year, but the Italians missing out on Champions League football drained the move of momentum, and the Brazilian was never the one pushing it. Mamardashvili waits, likeliest to go out on loan.",
   LB:  "Tue Jun 2 — with Andy Robertson's free transfer to De Zerbi's Tottenham now done, the Liverpool left-back slot is unambiguously Milos Kerkez's after a tough first season at £45m. Nine years of cover at the position have walked out the door in a single window.",
@@ -196,9 +196,9 @@ export const SLOT_RATIONALE = {
   LDM: "Tue Jun 2 — Gravenberch finished the season as the most consistent midfielder Liverpool had and is in the Dutch World Cup squad; the obvious building block at the base of the 4-2-3-1 going into 2026-27.",
   RDM: "Tue Jun 2 — Szoboszlai closes a heavy-minutes season of 48 appearances as a midfield mainstay; a contract extension is still expected to be agreed over the summer.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
-  CAM: "Tue Jun 16 — the Mac Allister file stirs: Romano reports interested clubs are 'starting to look at the situation,' the midfielder into the final two years of his deal with no extension talks open. Real Madrid and Atlético hold the warmest interest; Liverpool's internal sale valuation sits near €120m, the sell-to-buy fuel for any midfield reshape.",
-  RAM: "Tue Jun 16 — the winger search tilts red: Romano reports Liverpool have cleared the squad space the Diomandé deal needs and now hold the advantage over a PSG side with 'many moving parts,' though Leipzig still will not sell the 19-year-old below ~€130m on a deal to 2030 with no clause. The incumbent, Salah, played on at the World Cup, assisting Egypt's opener on his 34th birthday before a 1-1 draw with Belgium; a free agent on June 30, his market still tilts to Turkey ahead of the Saudi money, an Inter Miami reunion and Juventus.",
-  RB:  "Tue Jun 16 — the slot's exit nears: Inter are closing on a ~€25m deal for Jones with a sell-on clause, the only Merseyside-born player having waved off Villa, Newcastle and Forest, while Leipzig right-back Lutsharel Geertruida (~£26m) is the specialist cover floated for a position where Bradley's rehab is still indoors and Frimpong's first season never settled.",
+  CAM: "Wed Jun 17 — the denial gets louder: Mac Allister's father and agent Carlos has again branded the exit talk 'false,' insisting no approaches were declined because none were made, even as Liverpool stay quietly open to a sale near €120m if funds are needed. Real Madrid hold the warmest interest in a midfielder with two years left and no extension talks open, a fork pointed against Gravenberch's fresh terms.",
+  RAM: "Wed Jun 17 — the winger search reaches its endgame: Liverpool are reported 'closing in' on Diomandé, in daily talks and readying a bid this week, with the 19-year-old hinting he is 'about to sign' and PSG unable to answer until they sell; Leipzig have lifted their ask from €100m toward €130m on a deal to 2030. The incumbent, Salah, a free agent on June 30, has been ruled out of a Premier League return as he weighs Turkey, Saudi money and an MLS reunion after the World Cup.",
+  RB:  "Wed Jun 17 — the slot's exit hinges on a number: Inter sporting director Ausilio has gone public on Jones and an opening proposal is in, but it sits short of Liverpool's ~€35m ask against Inter's near-€20m valuation; the only Merseyside-born player is 'totally open' to leaving. Leipzig right-back Lutsharel Geertruida (~£26m) remains the specialist cover floated for a position where Bradley is out until next season and Frimpong's first year never settled.",
   ST:  "Tue Jun 2 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
 };
 
@@ -225,8 +225,8 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  reason: "Tue Jun 16 (day-two refresh) — the XI is still the side that closed 2025-26 after the May 24 1-1 with Brentford, held as the baseline while Andoni Iraola's rebuild trades around it. Confidence stays Low and will until bodies arrive: overnight Liverpool stepped into direct contact for Lille's Ayyoub Bouaddi (over Arsenal) and, per Romano, cleared the squad room a Diomandé deal needs while taking the edge over PSG, with Sporting's Gonçalo Inácio held as the cleanest centre-back fix on a ~€60m clause and Monaco's Lamine Camara greenlit in midfield. Curtis Jones edges toward Inter near €25m as the sale that unlocks the reshape. The squad is scattered through the World Cup: Salah assisted Egypt's opener on his 34th birthday in a 1-1 with Belgium, and reintegration will be staggered. Next fixture: pre-season vs Sunderland in Nashville, July 25, the first of five friendlies; the 2026-27 fixtures drop Friday June 19.",
-  pundit_sources: ["Fabrizio Romano", "Sky Sports", "TeamTalk", "This Is Anfield", "Anfield Watch", "GiveMeSport", "OneFootball", "Al Jazeera", "Liverpool.com", "ClutchPoints", "Football365", "BBC Sport", "Premier League", "Goal"],
-  agreement_rate: 0.63,
-  generated_at: "2026-06-16T09:15:00Z",
+  reason: "Wed Jun 17 (day-three refresh) — the XI is still the side that closed 2025-26 after the May 24 1-1 with Brentford, held as the baseline while Andoni Iraola's rebuild trades around it. Confidence stays Low and will until bodies arrive: the marquee chase has tipped toward its endgame, with Liverpool reported 'closing in' on Leipzig's Yan Diomandé, in daily talks and readying a bid this week as PSG wait to sell and Leipzig push their ask toward €130m. The morning's wildcard is a free Darwin Núñez return whispered as a 'done deal' (unconfirmed at Anfield, Barcelona disputed), while Bouaddi's preference now tilts to PSG and Curtis Jones edges to Inter across a €35m-to-€20m gap. The squad is scattered through the World Cup, Saturday's Group F decider pitting Van Dijk's Netherlands against Isak's Sweden, so reintegration will be staggered. Next fixture: pre-season vs Sunderland in Nashville, July 25, the first of five friendlies; the 2026-27 fixtures drop Friday June 19.",
+  pundit_sources: ["Football365", "Liverpool.com", "This Is Anfield", "TeamTalk", "Goal", "OneFootball", "GiveMeSport", "Anfield Watch", "ClutchPoints", "Yahoo Sports", "Sky Sports", "Premier League"],
+  agreement_rate: 0.61,
+  generated_at: "2026-06-17T09:10:00Z",
 };

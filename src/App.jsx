@@ -348,12 +348,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, and the rebuild has found a second gear. Liverpool moved
-          overnight into direct contact for Lille's Ayyoub Bouaddi, gatecrashing
-          Arsenal, while clearing the room a Diomandé deal still needs. In
-          Seattle, Mohamed Salah turned thirty-four on a World Cup pitch: a
-          clinical assist, then a substitution, the old Anfield argument playing
-          out now in green. The football at home is a matter of phone calls.
+          Wednesday, and the window has found a clear front-runner. Liverpool
+          are closing in on Yan Diomandé, in daily talks and readying a bid, the
+          nineteen-year-old hinting he is about to sign. A stranger development
+          stirs behind it: a free Darwin Núñez return, whispered as a done deal,
+          unconfirmed at Anfield. On Friday the fixtures land. Everything else,
+          for now, is phone calls.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,20 +368,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and the question is no longer whether Liverpool will trade but how
-              fast. Overnight the club stepped into direct contact for Ayyoub
-              Bouaddi, the 18-year-old Lille midfielder Arsenal believed they
-              were closing on, while Fabrizio Romano reported the squad space for
-              Yan Diomandé had been cleared and the advantage over Paris taken.
-              At the back, Gonçalo Inácio's clause keeps him the cleanest of
-              four; in midfield, Monaco's Lamine Camara waits for a chair to
-              empty. The football, meanwhile, was in Seattle, where Mohamed Salah
-              marked his thirty-fourth birthday with a clinical assist for Egypt
-              before Romelu Lukaku's instant equaliser, and a seventy-fifth-minute
-              substitution, turned applause to debate. On Friday the fixtures
-              arrive and Andoni Iraola learns his first assignment. The window is
-              two days old, and already it has a tempo.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and the window has stopped feeling tentative. Liverpool are closing
+              in on Yan Diomandé, in daily contact with the 19-year-old's camp
+              and readying a bid this week, the Leipzig winger himself hinting he
+              is about to sign, with only a PSG side that must first sell standing
+              in the way. The morning's stranger note is a homecoming: a Uruguayan
+              journalist swears Darwin Núñez's free return is a done deal once
+              Uruguay leave the World Cup, a claim Anfield has not confirmed and
+              Barcelona dispute. Lower down, the ledger keeps its arithmetic,
+              Bouaddi's head turned to Paris, Curtis Jones edging to Inter across
+              a valuation gap, Mac Allister's father again calling the exit talk
+              false. On Friday the fixtures arrive and Andoni Iraola learns his
+              first assignment. Three days in, the rebuild already has a
+              front-runner, and a ghost.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -2872,7 +2872,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Two days open, and already a tempo."
+        "Some names refuse to stay gone."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
