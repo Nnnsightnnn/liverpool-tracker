@@ -348,12 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday, and the window has found a clear front-runner. Liverpool
-          are closing in on Yan Diomandé, in daily talks and readying a bid, the
-          nineteen-year-old hinting he is about to sign. A stranger development
-          stirs behind it: a free Darwin Núñez return, whispered as a done deal,
-          unconfirmed at Anfield. On Friday the fixtures land. Everything else,
-          for now, is phone calls.
+          Thursday, and the loudest news points at the exit. Mohamed Salah's
+          next club is settling on Turkey, Fenerbahce the name, a goodbye eight
+          years in the writing now down to a signature he is saving until the
+          World Cup ends. Behind it the Diomandé deal has stalled on a fee, and
+          tomorrow, at last, the fixtures arrive.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,20 +367,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and the window has stopped feeling tentative. Liverpool are closing
-              in on Yan Diomandé, in daily contact with the 19-year-old's camp
-              and readying a bid this week, the Leipzig winger himself hinting he
-              is about to sign, with only a PSG side that must first sell standing
-              in the way. The morning's stranger note is a homecoming: a Uruguayan
-              journalist swears Darwin Núñez's free return is a done deal once
-              Uruguay leave the World Cup, a claim Anfield has not confirmed and
-              Barcelona dispute. Lower down, the ledger keeps its arithmetic,
-              Bouaddi's head turned to Paris, Curtis Jones edging to Inter across
-              a valuation gap, Mac Allister's father again calling the exit talk
-              false. On Friday the fixtures arrive and Andoni Iraola learns his
-              first assignment. Three days in, the rebuild already has a
-              front-runner, and a ghost.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the window has turned its volume up on the way out. Mohamed
+              Salah's next move is hardening toward Turkey, Fenerbahce the firm
+              favourite, the club legend said to have approved a switch the
+              moment a real offer lands while keeping the final word for himself
+              until Egypt's World Cup is done. The marquee arrival has gone the
+              other way: a day after Liverpool seemed close on Yan Diomandé,
+              Leipzig dug in near eighty-seven million, Bayern arrived, and the
+              talk turned to a Plan B. The free Darwin Núñez homecoming met a flat
+              denial from his own camp. Lower down the ledger keeps its
+              arithmetic, Jones edging to Inter, Gakpo wanting out, Inácio the
+              cleanest answer at the back. At ten tomorrow the fixtures land and
+              Andoni Iraola learns his first assignment. Four days in, the rebuild
+              is selling before it can buy.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -389,10 +388,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a first bid lodged the morning the window opens; a
+              week. There is a marquee winger deal stalled on a fee; a
               recruiter's list of what a thinning spine still needs; eight Reds
               scattered through a World Cup that keeps them in other colours; a
-              captain weighing his next club from afar; and a homegrown midfielder
+              talisman weighing his next club from afar; and a homegrown midfielder
               drifting toward Milan. Read slowly. The window is open.
             </p>
           </div>
@@ -2872,7 +2871,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Some names refuse to stay gone."
+        "First the departures, then the dates."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
