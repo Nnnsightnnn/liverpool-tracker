@@ -591,7 +591,7 @@ export const NEWS_DIGEST = {
 export const TRANSFER_TARGETS = {
   generatedAt: "2026-06-19T08:35:00Z",
   summary:
-    "Friday's ledger turns on a rejection. Leipzig have knocked back Liverpool's club-record bid for Yan Diomandé, a €100m (£87m) proposal turned down by a side now asking north of €120m and reported content to keep the 19-year-old another year, with PSG still in the race; the deal to replace Salah's flank has hardened from a chase into a standoff. The departures, by contrast, gather pace: Fenerbahce's newly elected president has publicly insisted the club 'will sign' Mohamed Salah on a three-year, reported £77m package, though the free agent keeps the final word for after Egypt's World Cup. Curtis Jones nears the exit too, Inter readying a €25m bid with a sell-on clause against Liverpool's ~€30m ask and his decision called 'final.' At the back Sporting's left-footed Gonçalo Inácio stays the cleanest of Hughes's four centre-backs on a ~£52m clause, Brugge's Ordóñez the value alternative. Cody Gakpo's exit is now called 'highly improbable' from the club's side even as the swap idea lingers, and Chiesa waits to settle his future on the pre-season tour. Day five, and the rebuild is still selling before it can buy.",
+    "Friday's ledger turns on a rejection. Leipzig have knocked back Liverpool's club-record bid for Yan Diomandé, a €100m (£87m) proposal turned down by a side now asking north of €120m and reported content to keep the 19-year-old another year, with PSG still in the race; the deal to replace Salah's flank has hardened from a chase into a standoff. The departures, by contrast, gather pace: Fenerbahce's newly elected president has publicly insisted the club 'will sign' Mohamed Salah on a three-year, reported £77m package, though the free agent keeps the final word for after Egypt's World Cup. Curtis Jones nears the exit too, Inter readying a €25m bid with a sell-on clause against Liverpool's ~€30m ask and his decision called 'final.' At the back Sporting's left-footed Gonçalo Inácio stays the cleanest of Hughes's four centre-backs on a ~£52m clause, Brugge's Ordóñez the value alternative. Cody Gakpo's exit is now called 'highly improbable' from the club's side even as the swap idea lingers, and Chiesa waits to settle his future on the pre-season tour. Fixtures morning, and the rebuild is still selling before it can buy.",
   incoming: [
     {
       id: "bouaddi-2026",
@@ -915,16 +915,16 @@ export const TRANSFER_TARGETS = {
       contractExpiry: "2028-06-30",
       releaseClause: null,
       contractNote: "Mutual Al-Hilal termination done; offered to Liverpool as a free agent with Jorge Mendes involved, but the player's camp now denies any deal.",
-      probability: 33,
+      probability: 28,
       heatTier: "cool",
       sources: [
         { name: "This Is Anfield", tier: "A" },
-        { name: "OneFootball",    tier: "C" },
         { name: "Liverpool.com",  tier: "B" },
+        { name: "OneFootball",    tier: "C" },
       ],
-      lastUpdated: "2026-06-18",
+      lastUpdated: "2026-06-19",
       rumorNote:
-        "Montevideo · 18 Jun — the camp pours cold water. A day after a 'done deal' was trumpeted out of Uruguay, people close to Darwin Núñez have dismissed the free-return talk as 'not true,' insisting there is 'nothing ongoing' with Liverpool, while Liverpool.com reported the club being warned off the 'short-term fix.' The bones of the story survive, a free agent after the Al-Hilal split, Jorge Mendes involved, Ekitike sidelined into the winter, but Anfield has confirmed nothing and Barcelona stay level in the betting. A temptation the spreadsheet keeps re-opening, and the player's people keep closing.",
+        "Montevideo · 19 Jun — the file goes quiet. With the digest's attention back on the Diomandé impasse, the free-agent homecoming whisper has settled into background noise: the striker's people have not moved off their denial, the club has shown no concrete step, and the betting still has Barcelona level. The bones survive, a forward out of contract after the Al-Hilal split, Jorge Mendes within reach, Ekitike sidelined into the winter, so the name stays on the contingency board. Absent a fresh push, this is insurance the recruiters keep priced rather than a pursuit they are running.",
       positionFit: {
         replaces: "Ekitike (during 9-12 month rehab)",
         competesWith: ["Isak", "Kroupi (file)", "Gakpo"],
