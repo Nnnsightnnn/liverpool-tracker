@@ -348,11 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday, and the loudest news points at the exit. Mohamed Salah's
-          next club is settling on Turkey, Fenerbahce the name, a goodbye eight
-          years in the writing now down to a signature he is saving until the
-          World Cup ends. Behind it the Diomandé deal has stalled on a fee, and
-          tomorrow, at last, the fixtures arrive.
+          Friday, fixtures morning, and the signing the whole rebuild leans on
+          has run into a wall. Liverpool's club-record bid for Yan Diomandé has
+          come back rejected, Leipzig now wanting more than a hundred and twenty
+          million. At ten o'clock the 2026-27 calendar finally arrives, and
+          Andoni Iraola learns where his reign begins.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,20 +367,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and the window has turned its volume up on the way out. Mohamed
-              Salah's next move is hardening toward Turkey, Fenerbahce the firm
-              favourite, the club legend said to have approved a switch the
-              moment a real offer lands while keeping the final word for himself
-              until Egypt's World Cup is done. The marquee arrival has gone the
-              other way: a day after Liverpool seemed close on Yan Diomandé,
-              Leipzig dug in near eighty-seven million, Bayern arrived, and the
-              talk turned to a Plan B. The free Darwin Núñez homecoming met a flat
-              denial from his own camp. Lower down the ledger keeps its
-              arithmetic, Jones edging to Inter, Gakpo wanting out, Inácio the
-              cleanest answer at the back. At ten tomorrow the fixtures land and
-              Andoni Iraola learns his first assignment. Four days in, the rebuild
-              is selling before it can buy.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              and the morning the calendar was meant to be the story belongs
+              instead to a rejection. Liverpool put a club record on the table
+              for Yan Diomandé and Leipzig pushed it back, wanting north of a
+              hundred and twenty million and content, they say, to keep their
+              nineteen-year-old another year. At ten o'clock the 2026-27 fixtures
+              land and Andoni Iraola finally learns where his reign begins, the
+              first hard shape to a summer of rumour and rehab. The departures
+              gather pace beneath it: Fenerbahce's new president says out loud
+              that they will sign Mohamed Salah, and Curtis Jones edges toward
+              Inter on a bid sweetened with a sell-on clause, his decision called
+              final. On Saturday in Houston the squad plays a version of itself,
+              Van Dijk's Netherlands against Isak's Sweden. Five days in, the
+              rebuild is still selling before it can buy.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -2871,7 +2871,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "First the departures, then the dates."
+        "The dates arrive. The deal holds out."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
