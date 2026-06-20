@@ -348,11 +348,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday, fixtures morning, and the signing the whole rebuild leans on
-          has run into a wall. Liverpool's club-record bid for Yan Diomandé has
-          come back rejected, Leipzig now wanting more than a hundred and twenty
-          million. At ten o'clock the 2026-27 calendar finally arrives, and
-          Andoni Iraola learns where his reign begins.
+          Saturday, and the rebuild has its first body. The club-record chase
+          for Yan Diomandé still hangs on a fee, but the window's opening signing
+          is done: Victor Munoz, the Osasuna winger hijacked from Newcastle.
+          Friday's fixtures handed Andoni Iraola a daunting start, away at
+          Newcastle in August, and tonight in Houston the squad plays a version
+          of itself, Van Dijk against Isak.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,20 +368,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and the morning the calendar was meant to be the story belongs
-              instead to a rejection. Liverpool put a club record on the table
-              for Yan Diomandé and Leipzig pushed it back, wanting north of a
-              hundred and twenty million and content, they say, to keep their
-              nineteen-year-old another year. At ten o'clock the 2026-27 fixtures
-              land and Andoni Iraola finally learns where his reign begins, the
-              first hard shape to a summer of rumour and rehab. The departures
-              gather pace beneath it: Fenerbahce's new president says out loud
-              that they will sign Mohamed Salah, and Curtis Jones edges toward
-              Inter on a bid sweetened with a sell-on clause, his decision called
-              final. On Saturday in Houston the squad plays a version of itself,
-              Van Dijk's Netherlands against Isak's Sweden. Five days in, the
-              rebuild is still selling before it can buy.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and the summer that has been all rumour and rehab finally has an
+              arrival to show for it. Liverpool gatecrashed an advanced Newcastle
+              move and signed the Osasuna winger Victor Munoz, a six-year deal
+              and a triggered clause, the first body through the door of Iraola's
+              rebuild. The bigger chase goes on: the club-record bid for Yan
+              Diomandé came back rejected, but a second offer near a hundred and
+              twenty million is said to be loading, and a specialist winger is
+              still the brief. Friday's fixtures drew the season's first hard
+              line, a daunting opener away at Newcastle on the twenty-third of
+              August, the club's first campaign since 2017-18 without Salah and
+              Robertson. The departures keep their own rhythm beneath it, Salah
+              weighing Fenerbahce from afar, Curtis Jones edging toward Inter.
+              And tonight in Houston the squad watches two of its own, Van Dijk's
+              Netherlands against Isak's Sweden, settle a World Cup group between
+              them. One in, and still selling before it buys the rest.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -2871,7 +2874,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The dates arrive. The deal holds out."
+        "One in. The window does the rest."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
