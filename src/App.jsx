@@ -5,7 +5,7 @@ import BrandCredit from "./components/BrandCredit.jsx";
 import {
   PLAYERS, RSS_FEEDS, RESULTS, NEXT_MATCH,
   NEWS_DIGEST, STANDINGS, STANDINGS_COMMENTARY, DISPATCHES, TEAM_LOGOS,
-  TRANSFER_TARGETS,
+  TRANSFER_TARGETS, TARGET_SCOUTING,
 } from "./playerData.js";
 import LineupView from "./LineupView.jsx";
 
@@ -1705,7 +1705,8 @@ function TargetDrilldown({ target }) {
   const [tab, setTab] = useState("profile");
   const tabs = [
     { key: "profile",  label: "Profile" },
-    { key: "stats",    label: "Stats" },
+    { key: "stats",    label: "Scouting" },
+    { key: "film",     label: "Film" },
     { key: "contract", label: "Contract" },
     { key: "sources",  label: "Sources" },
   ];
@@ -1743,6 +1744,7 @@ function TargetDrilldown({ target }) {
 
       {tab === "profile" && <TargetProfile target={target} />}
       {tab === "stats"    && <TargetStats target={target} />}
+      {tab === "film"     && <TargetFilm target={target} />}
       {tab === "contract" && <TargetContract target={target} />}
       {tab === "sources"  && <TargetSources target={target} />}
     </div>
@@ -1805,37 +1807,250 @@ function TargetProfile({ target }) {
   );
 }
 
+// Section label — small uppercase eyebrow used across the scouting tab.
+function ScoutLabel({ children, style }) {
+  return (
+    <div style={{
+      fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
+      color: T.ivoryFaint, marginBottom: 12, fontFamily: T.sans, fontWeight: 500,
+      ...style,
+    }}>{children}</div>
+  );
+}
+
+// A single percentile bar — fills to `value` (0-100) vs position peers.
+function PercentileBar({ label, value }) {
+  const v = Math.max(0, Math.min(100, Number(value) || 0));
+  // Tier colour: elite >=80 red, strong >=60 gold, mid otherwise.
+  const fill = v >= 80 ? T.red : v >= 60 ? T.gold : `${T.ivory}66`;
+  const tier = v >= 80 ? "Elite" : v >= 60 ? "Strong" : v >= 40 ? "Average" : "Low";
+  return (
+    <div style={{ marginBottom: 12 }}>
+      <div style={{
+        display: "flex", justifyContent: "space-between", alignItems: "baseline",
+        marginBottom: 5,
+      }}>
+        <span style={{ fontFamily: T.sans, fontSize: 12, color: T.ivoryDim }}>{label}</span>
+        <span style={{
+          fontFamily: T.serif, fontWeight: 500, fontSize: 14, color: T.ivory,
+          fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+        }}>
+          {v}
+          <span style={{
+            fontFamily: T.sans, fontSize: 9, letterSpacing: "0.16em",
+            textTransform: "uppercase", color: T.ivoryFaint, marginLeft: 7,
+          }}>{tier}</span>
+        </span>
+      </div>
+      <div style={{ height: 4, background: `${T.ivory}12`, position: "relative", overflow: "hidden" }}>
+        <div style={{
+          position: "absolute", left: 0, top: 0, bottom: 0,
+          width: `${v}%`, background: fill,
+          transition: `width .6s ${T.ease}`,
+        }} />
+      </div>
+    </div>
+  );
+}
+
 function TargetStats({ target }) {
   const s = target.stats || {};
+  const dossier = (TARGET_SCOUTING && TARGET_SCOUTING[target.id]) || {};
+  const phys = dossier.physical || {};
+  const exp = dossier.expanded || {};
+  const percentiles = dossier.percentiles || [];
+  const keyMetrics = dossier.keyMetrics || [];
+
+  // Physical vitals strip.
+  const vitals = [
+    phys.heightCm  != null && { label: "Height",    value: `${phys.heightCm} cm` },
+    phys.weightKg  != null && { label: "Weight",    value: `${phys.weightKg} kg` },
+    phys.topSpeedKmh != null && { label: "Top speed", value: `${phys.topSpeedKmh} km/h` },
+    target.foot && { label: "Foot", value: target.foot },
+  ].filter(Boolean);
+
+  // Season totals + expanded per-90 numbers.
   const rows = [
     { label: "Appearances",                value: s.apps ?? "—" },
     { label: "Goals · Assists",            value: `${s.goals ?? 0} · ${s.assists ?? 0}` },
     { label: "Expected goals (xG)",        value: (s.xG ?? 0).toFixed(1) },
+    exp.shotsPer90    != null && { label: "Shots per 90",        value: exp.shotsPer90.toFixed(1) },
+    exp.keyPassesPer90 != null && { label: "Key passes per 90",  value: exp.keyPassesPer90.toFixed(1) },
+    exp.dribblesPer90 != null && { label: "Dribbles per 90",     value: exp.dribblesPer90.toFixed(1) },
     { label: "Pass completion",            value: s.passCompletion != null ? `${s.passCompletion}%` : "—" },
-    { label: "Tackles per 90",             value: (s.tacklesPer90 ?? 0).toFixed(1) },
     { label: "Progressive carries per 90", value: (s.progressiveCarries ?? 0).toFixed(1) },
+    { label: "Tackles per 90",             value: (s.tacklesPer90 ?? 0).toFixed(1) },
+    exp.interceptionsPer90 != null && { label: "Interceptions per 90", value: exp.interceptionsPer90.toFixed(1) },
+    exp.aerialWinPct  != null && { label: "Aerial duels won",    value: `${exp.aerialWinPct}%` },
     ...(target.position === "GK" || target.position === "DEF"
       ? [{ label: "Clean sheets", value: s.cleanSheets ?? 0 }]
       : []),
-  ];
+  ].filter(Boolean);
+
   return (
-    <div style={{
-      borderTop: `1px solid ${T.ruleStrong}`,
-      borderBottom: `1px solid ${T.ruleStrong}`,
-    }}>
-      {rows.map((r, i) => (
-        <div key={r.label} style={{
-          display: "flex", justifyContent: "space-between", alignItems: "baseline",
-          padding: "12px 0",
-          borderBottom: i === rows.length - 1 ? "none" : `1px solid ${T.rule}`,
-        }}>
-          <span style={{ fontFamily: T.sans, fontSize: 13, color: T.ivoryDim }}>{r.label}</span>
-          <span style={{
-            fontFamily: T.serif, fontWeight: 500, fontSize: 20, color: T.ivory,
-            fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
-          }}>{r.value}</span>
+    <div>
+      {/* Physical profile strip */}
+      {vitals.length > 0 && (
+        <div style={{ marginBottom: 24 }}>
+          <ScoutLabel>Physical profile</ScoutLabel>
+          <div style={{
+            display: "grid",
+            gridTemplateColumns: `repeat(${vitals.length}, 1fr)`,
+            gap: 1, background: T.rule,
+            border: `1px solid ${T.rule}`,
+          }}>
+            {vitals.map((v) => (
+              <div key={v.label} style={{ background: T.ink, padding: "12px 14px" }}>
+                <div style={{
+                  fontFamily: T.sans, fontSize: 9, letterSpacing: "0.16em",
+                  textTransform: "uppercase", color: T.ivoryFaint, marginBottom: 5,
+                }}>{v.label}</div>
+                <div style={{
+                  fontFamily: T.serif, fontWeight: 500, fontSize: 18, color: T.ivory,
+                  fontVariantNumeric: "tabular-nums",
+                }}>{v.value}</div>
+              </div>
+            ))}
+          </div>
         </div>
-      ))}
+      )}
+
+      <div style={{ display: "grid", gridTemplateColumns: percentiles.length ? "1fr 1fr" : "1fr", gap: 32 }}>
+        {/* Percentile rating vs position peers */}
+        {percentiles.length > 0 && (
+          <div>
+            <ScoutLabel>Rating vs {posPeerLabel(target.position)} peers · percentile</ScoutLabel>
+            {percentiles.map((p) => (
+              <PercentileBar key={p.label} label={p.label} value={p.value} />
+            ))}
+          </div>
+        )}
+
+        {/* Season measurables */}
+        <div>
+          <ScoutLabel>{keyMetrics.length ? "Measurables · 2025/26" : "Season measurables"}</ScoutLabel>
+          <div style={{
+            borderTop: `1px solid ${T.ruleStrong}`,
+            borderBottom: `1px solid ${T.ruleStrong}`,
+          }}>
+            {rows.map((r, i) => (
+              <div key={r.label} style={{
+                display: "flex", justifyContent: "space-between", alignItems: "baseline",
+                padding: "9px 0",
+                borderBottom: i === rows.length - 1 ? "none" : `1px solid ${T.rule}`,
+              }}>
+                <span style={{ fontFamily: T.sans, fontSize: 12, color: T.ivoryDim }}>{r.label}</span>
+                <span style={{
+                  fontFamily: T.serif, fontWeight: 500, fontSize: 17, color: T.ivory,
+                  fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+                }}>{r.value}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// Human label for the peer group a percentile is measured against.
+function posPeerLabel(pos) {
+  if (pos === "FWD") return "attacker";
+  if (pos === "MID") return "midfielder";
+  if (pos === "DEF") return "defender";
+  if (pos === "GK")  return "goalkeeper";
+  return "position";
+}
+
+// Resolve the highlight-film URL for a target: curated url if present, else a
+// YouTube highlights search (robust — never 404s).
+function filmHref(target) {
+  const film = (TARGET_SCOUTING && TARGET_SCOUTING[target.id] || {}).film;
+  if (film && film.url) return film.url;
+  const q = (film && film.query) || `${target.name} highlights`;
+  return `https://www.youtube.com/results?search_query=${encodeURIComponent(q)}`;
+}
+
+// FILM tab — clickable highlight thumbnail that opens a YouTube highlights
+// search (robust, never 404s) in a new tab, using the player's portrait as the
+// poster frame with a red play button overlay.
+function TargetFilm({ target }) {
+  const dossier = (TARGET_SCOUTING && TARGET_SCOUTING[target.id]) || {};
+  const film = dossier.film;
+  const href = filmHref(target);
+  return (
+    <div>
+      <ScoutLabel>Highlight film · {film?.provider || "YouTube"}</ScoutLabel>
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={(e) => e.stopPropagation()}
+        style={{
+          display: "block", position: "relative", textDecoration: "none",
+          border: `1px solid ${T.ruleStrong}`, overflow: "hidden",
+          aspectRatio: "16 / 9", background: T.surface,
+        }}
+      >
+        {target.image && (
+          <img
+            src={target.image}
+            alt={`${target.name} highlights`}
+            loading="lazy"
+            style={{
+              position: "absolute", inset: 0, width: "100%", height: "100%",
+              objectFit: "cover", objectPosition: "top center",
+              filter: "grayscale(100%) contrast(1.05) brightness(0.62) sepia(0.18)",
+            }}
+          />
+        )}
+        <div style={{
+          position: "absolute", inset: 0,
+          background: `linear-gradient(180deg, ${T.ink}33 0%, ${T.ink}cc 100%)`,
+        }} />
+        {/* Play button */}
+        <div style={{
+          position: "absolute", top: "50%", left: "50%",
+          transform: "translate(-50%, -50%)",
+          width: 64, height: 64, borderRadius: "50%",
+          background: `${T.red}e6`, display: "flex",
+          alignItems: "center", justifyContent: "center",
+          boxShadow: `0 6px 24px ${T.ink}aa`,
+        }}>
+          <div style={{
+            width: 0, height: 0, marginLeft: 5,
+            borderTop: "12px solid transparent",
+            borderBottom: "12px solid transparent",
+            borderLeft: `20px solid ${T.ivory}`,
+          }} />
+        </div>
+        {/* Caption */}
+        <div style={{
+          position: "absolute", left: 16, right: 16, bottom: 14,
+          display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: 12,
+        }}>
+          <div>
+            <div style={{ fontFamily: T.serif, fontWeight: 500, fontSize: 18, color: T.ivory }}>
+              {target.name}
+            </div>
+            <div style={{
+              fontFamily: T.sans, fontSize: 10, letterSpacing: "0.16em",
+              textTransform: "uppercase", color: T.ivoryDim, marginTop: 2,
+            }}>{film?.label || "Highlights"}</div>
+          </div>
+          <span style={{
+            fontFamily: T.sans, fontSize: 10, letterSpacing: "0.16em",
+            textTransform: "uppercase", color: T.ivory,
+            border: `1px solid ${T.ivory}55`, padding: "5px 10px",
+          }}>Watch ▶</span>
+        </div>
+      </a>
+      <p style={{
+        fontFamily: T.serif, fontStyle: "italic", fontSize: 12,
+        color: T.ivoryFaint, marginTop: 10, lineHeight: 1.5,
+      }}>
+        Opens a {film?.provider || "YouTube"} highlights search for {target.name} in a new tab.
+      </p>
     </div>
   );
 }
@@ -1971,7 +2186,31 @@ function LeadTargetCard({ target, expanded, onToggle }) {
         cursor: "pointer", marginBottom: 40,
       }}
     >
-      <TargetPortrait target={target} width={220} height={280} />
+      <div style={{ position: "relative", width: 220 }}>
+        <TargetPortrait target={target} width={220} height={280} />
+        <a
+          href={filmHref(target)}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={(e) => e.stopPropagation()}
+          title={`Watch ${target.name} highlights`}
+          style={{
+            position: "absolute", left: 0, right: 0, bottom: 0,
+            display: "flex", alignItems: "center", justifyContent: "center", gap: 8,
+            padding: "8px 0", textDecoration: "none",
+            background: `${T.red}e6`, color: T.ivory,
+            fontFamily: T.sans, fontSize: 10, letterSpacing: "0.2em",
+            textTransform: "uppercase", fontWeight: 600,
+          }}
+        >
+          <span style={{
+            width: 0, height: 0,
+            borderTop: "5px solid transparent", borderBottom: "5px solid transparent",
+            borderLeft: `8px solid ${T.ivory}`,
+          }} />
+          Watch film
+        </a>
+      </div>
 
       <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
         {/* Folio + chapter */}
