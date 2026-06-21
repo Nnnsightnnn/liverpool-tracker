@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 34, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Wed Jun 17 — the captain wants to stay, and has a Group F decider first: reported to be pushing for a fresh deal beyond his 2027 expiry, he leads the Netherlands against Isak's Sweden on Saturday with top spot in the pool at stake. At 34 he remains the fixed point Hughes is buying a partner for, not a problem to solve", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 34, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Sun Jun 21 — the captain wants to stay, and made a statement first: reported to be pushing for a fresh deal beyond his 2027 expiry, he marshalled the Netherlands' 5-1 rout of Isak's Sweden in Houston on Saturday to take top spot in Group F. At 34 he remains the fixed point Hughes is buying a partner for, not a problem to solve", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -625,9 +625,9 @@ export const TRANSFER_TARGETS = {
         { name: "This Is Anfield",  tier: "A" },
         { name: "Sky Sports",       tier: "A" },
       ],
-      lastUpdated: "2026-06-20",
+      lastUpdated: "2026-06-21",
       rumorNote:
-        "Anfield · 20 Jun — here we go, and the window opens with a hijack. Liverpool gatecrashed an advanced Newcastle move for the 22-year-old Spain winger and triggered his €40m (£34.7m) Osasuna release clause, agreeing personal terms, passing a medical and tying him to a six-year deal. Two Spain caps with a debut goal against Serbia, seven goals and five assists in 34 games last season: a versatile, direct wide forward who can fill in across the front line while the marquee right-wing chase goes on. Romano frames it as the start, not the end, the recruitment desk already at work on a specialist No. 7 to follow.",
+        "Anfield · 21 Jun — the first body, now bedding in. Liverpool's opening signing of the window is settled: the 22-year-old Spain winger arrived from Osasuna after the Reds gatecrashed an advanced Newcastle move and triggered his €40m (£34.7m) release clause, signing a six-year deal with the medical long behind him. Two Spain caps with a debut goal against Serbia, seven goals and five assists in 34 games last season: a versatile, direct wide forward who can fill in across the front line while the marquee right-wing chase for Diomandé rolls on, the recruitment desk still working a specialist No. 7 to follow.",
       positionFit: {
         replaces: "Salah / wide depth",
         competesWith: ["Gakpo", "Ngumoha"],
