@@ -348,12 +348,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday, and the rebuild has its first body. The club-record chase
-          for Yan Diomandé still hangs on a fee, but the window's opening signing
-          is done: Victor Munoz, the Osasuna winger hijacked from Newcastle.
-          Friday's fixtures handed Andoni Iraola a daunting start, away at
-          Newcastle in August, and tonight in Houston the squad plays a version
-          of itself, Van Dijk against Isak.
+          Sunday, and the rebuild's defining pursuit reaches its loudest pitch:
+          Liverpool are, in David Ornstein's word, firmly in the driving seat
+          for Yan Diomandé, a second bid near a hundred and fifteen million
+          loading and the player's yes already in. Beneath it the squad keeps
+          scoring in other shirts, Gakpo twice in Houston, and the window goes on
+          selling before it fully buys.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,22 +368,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and the summer that has been all rumour and rehab finally has an
-              arrival to show for it. Liverpool gatecrashed an advanced Newcastle
-              move and signed the Osasuna winger Victor Munoz, a six-year deal
-              and a triggered clause, the first body through the door of Iraola's
-              rebuild. The bigger chase goes on: the club-record bid for Yan
-              Diomandé came back rejected, but a second offer near a hundred and
-              twenty million is said to be loading, and a specialist winger is
-              still the brief. Friday's fixtures drew the season's first hard
-              line, a daunting opener away at Newcastle on the twenty-third of
-              August, the club's first campaign since 2017-18 without Salah and
-              Robertson. The departures keep their own rhythm beneath it, Salah
-              weighing Fenerbahce from afar, Curtis Jones edging toward Inter.
-              And tonight in Houston the squad watches two of its own, Van Dijk's
-              Netherlands against Isak's Sweden, settle a World Cup group between
-              them. One in, and still selling before it buys the rest.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and the chase that will define the summer has tipped Liverpool's
+              way. David Ornstein calls them firmly in the driving seat for Yan
+              Diomandé, a second offer near a hundred and fifteen million loading
+              after Friday's hundred-million bid was rejected, the nineteen-year-old's
+              eagerness to come now said to have the ownership in dreamland and
+              Paris-Saint-Germain drifting behind. The block is the fee, no longer
+              the will: Leipzig hold out nearer a hundred and thirty. Beneath it the
+              squad keeps colouring the tournament in borrowed shirts, Cody Gakpo
+              scoring twice as the Netherlands routed Sweden five-one in Houston,
+              while the exits firm, Curtis Jones agreeing terms with Inter, Salah's
+              Fenerbahce move framed as settled before the Istanbul vote. One in
+              already, with Victor Munoz through the door, and still selling before
+              it buys the rest.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3113,7 +3111,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "One in. The window does the rest."
+        "The yes is in. The fee resists."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
