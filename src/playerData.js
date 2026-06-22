@@ -330,7 +330,7 @@ export const TEAM_LOGOS = {
   "Aston Villa":     "https://resources.premierleague.com/premierleague/badges/50/t7.png",
   "Brentford":       "https://resources.premierleague.com/premierleague/badges/50/t94.png",
   // Transfer-target clubs
-  "Bayer Leverkusen": "https://img.uefa.com/imgml/TP/teams/logos/50x50/52867.png",
+  "Bayer Leverkusen": "https://r2.thesportsdb.com/images/media/team/badge/3x9k851726760113.png",
   "RB Leipzig":       "https://img.uefa.com/imgml/TP/teams/logos/50x50/2603790.png",
   "Real Sociedad":    "https://img.uefa.com/imgml/TP/teams/logos/50x50/50080.png",
   "Porto":            "https://upload.wikimedia.org/wikipedia/en/f/f1/FC_Porto.svg",
@@ -878,7 +878,7 @@ export const TRANSFER_TARGETS = {
       role: "Central / attacking midfielder",
       nationality: "🇩🇪 Germany",
       foot: "Right",
-      image: "https://img.a.transfermarkt.technology/portrait/header/394844-1693932218.jpg",
+      image: "https://r2.thesportsdb.com/images/media/player/cutout/g7bqrz1756326448.png",
       currentClub: "Borussia Dortmund",
       currentLeague: "Bundesliga",
       feeMin: 45, feeMax: 52, feeCurrency: "£m",
