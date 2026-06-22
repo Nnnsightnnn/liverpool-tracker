@@ -348,12 +348,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday, and the rebuild's defining pursuit reaches its loudest pitch:
-          Liverpool are, in David Ornstein's word, firmly in the driving seat
-          for Yan Diomandé, a second bid near a hundred and fifteen million
-          loading and the player's yes already in. Beneath it the squad keeps
-          scoring in other shirts, Gakpo twice in Houston, and the window goes on
-          selling before it fully buys.
+          Monday, and the summer's first real friction is between the clubs, not
+          within the squad: Liverpool have turned down Inter's lowball for Curtis
+          Jones and told Milan the talking is over. Above it the marquee chase
+          finds the player's own voice, Yan Diomandé asking why not the Premier
+          League, while Mohamed Salah keeps scoring his way out at a World Cup. A
+          month from Nashville, the rebuild haggles over every name but one.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,20 +368,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and the chase that will define the summer has tipped Liverpool's
-              way. David Ornstein calls them firmly in the driving seat for Yan
-              Diomandé, a second offer near a hundred and fifteen million loading
-              after Friday's hundred-million bid was rejected, the nineteen-year-old's
-              eagerness to come now said to have the ownership in dreamland and
-              Paris-Saint-Germain drifting behind. The block is the fee, no longer
-              the will: Leipzig hold out nearer a hundred and thirty. Beneath it the
-              squad keeps colouring the tournament in borrowed shirts, Cody Gakpo
-              scoring twice as the Netherlands routed Sweden five-one in Houston,
-              while the exits firm, Curtis Jones agreeing terms with Inter, Salah's
-              Fenerbahce move framed as settled before the Istanbul vote. One in
-              already, with Victor Munoz through the door, and still selling before
-              it buys the rest.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and the window has found its friction. Liverpool have rejected
+              Inter's second bid for Curtis Jones, a sum so far beneath their
+              valuation that the reply was not a counter but a closed door, and a
+              move once framed as a quiet goodbye is suddenly a club hoping he
+              stays. Above it the marquee pursuit acquired the rarest thing in a
+              transfer saga, the player's own words: asked about England, Yan
+              Diomandé said only, why not. Leipzig answered the rejected
+              hundred-million bid with a new contract and a release clause dated to
+              2027; a second Reds offer is loading, and Paris is expected to make
+              it a race. Elsewhere the farewell tour keeps scoring, Mohamed Salah a
+              goal and an assist to the good in Egypt's win over New Zealand, a
+              single strike now from his country's record. A new midfield name,
+              Dortmund's Felix Nmecha, lands on a thinning board. One in, Victor
+              Munoz, and a month still to Nashville.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -393,7 +394,7 @@ function CoverView({ onJump }) {
               recruiter's list of what a thinning spine still needs; eight Reds
               scattered through a World Cup that keeps them in other colours; a
               talisman weighing his next club from afar; and a homegrown midfielder
-              drifting toward Milan. Read slowly. The window is open.
+              a club now hopes to keep. Read slowly. The window is open.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3111,7 +3112,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The yes is in. The fee resists."
+        "Why not, he said. Anfield agrees."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

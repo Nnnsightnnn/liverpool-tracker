@@ -23,11 +23,10 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the first-choice XI Liverpool closed the
     // campaign with, the baseline a summer rebuild will reshape. 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Sun Jun 21: Munoz is in
-    // (Spain winger from Osasuna, €40m clause); Ornstein has Liverpool 'firmly
-    // in the driving seat' for Diomandé with a €115m second bid loading; Salah's
-    // Fenerbahce move framed as settled before the Istanbul vote; Jones has
-    // agreed Inter terms.
+    // backup look — Slot favoured 4-2-3-1. Refreshed Mon Jun 22: Liverpool
+    // rejected Inter's £21m second bid for Jones (want £40m, deal stalled);
+    // Diomandé hints at England as Leipzig hold for €120-130m; Salah scored +
+    // assisted vs New Zealand, Fenerbahce move hardening; Munoz already in.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -62,11 +61,10 @@ export const FORMATIONS = {
     // through the run-in — is shown as the first-choice XI Liverpool finished
     // the campaign with after Sunday's 1-1 with Brentford, NOT as a prediction
     // for a coming fixture (the next match is a pre-season friendly on July
-    // 25). Refreshed Sun Jun 21: Munoz is in (Spain winger from Osasuna, €40m
-    // clause, hijacked from Newcastle); Ornstein has Liverpool 'firmly in the
-    // driving seat' for Diomandé with a €115m second bid loading; Salah's
-    // Fenerbahce move framed as settled before the Istanbul vote; Jones has
-    // agreed Inter terms; Inácio still the cleanest CB fit.
+    // 25). Refreshed Mon Jun 22: Liverpool rejected Inter's £21m second bid for
+    // Jones (want £40m, deal stalled); Diomandé hints at England as Leipzig hold
+    // for €120-130m; Salah scored + assisted vs New Zealand, Fenerbahce move
+    // hardening; Munoz already in; Inácio still the cleanest CB fit.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -119,12 +117,11 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-06-21
-// (Sun, post-season: Ornstein has Liverpool 'firmly in the driving seat' for
-// Diomandé with a €115m second bid loading; Salah's Fenerbahce move is framed
-// as agreed before the Istanbul vote; Jones has agreed Inter terms; and in
-// Houston on Saturday Gakpo scored twice as Van Dijk's NL routed Isak's Sweden
-// 5-1, with Endo home injured and Szoboszlai absent from the finals.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-06-22
+// (Mon, post-season: Liverpool rejected Inter's £21m second bid for Jones and
+// want £40m, deal stalled; Diomandé hints publicly at England as Leipzig hold
+// for €120-130m; Salah scored + assisted in Egypt's 3-1 win over New Zealand on
+// Sunday; Dortmund's Felix Nmecha surfaces as a new midfield target.)
 export const PLAYER_EVIDENCE = {
   1:  "Brazil's No. 1 · staying at Anfield",   // Alisson
   2:  "Loan likely now Alisson stays",         // Mamardashvili
@@ -141,12 +138,12 @@ export const PLAYER_EVIDENCE = {
   13: "Camp denies exit talk · ~€120m tag",    // Mac Allister
   14: "Ran NL's 5-1 of Sweden from deep",      // Gravenberch
   15: "Left out of Hungary's WC squad",        // Szoboszlai
-  16: "Agreed Inter terms · clubs apart on fee",// Jones
+  16: "Inter's £21m bid rejected · LFC want £40m",// Jones
   17: "Out of the WC injured · Japan",         // Endo
-  18: "£115m playmaker · Germany at the WC",   // Wirtz
+  18: "Klopp: 'give him the ball' · WC",       // Wirtz
   19: "Hamstring · missed all season",         // Bajcetic
   20: "Academy prospect · 5 senior apps",      // Nyoni
-  21: "Fenerbahce framework · free Jun 30",    // Salah
+  21: "Goal + assist vs NZ · Fenerbahce next", // Salah
   22: "Scored twice in NL's 5-1 of Sweden",    // Gakpo
   23: "Sweden routed 5-1 by NL · 1 assist",    // Isak
   24: "Ruptured Achilles · out 9-12 months",   // Ekitike
@@ -166,20 +163,21 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys (4-2-3-1). With the season over these now read as confidence that
 // the slot's occupant remains a first-choice starter into 2026-27 — LOW where
 // the player is leaving (Salah, Robertson, now Konaté) or whose future is open
-// (Jones, Mac Allister). (Refreshed Sun Jun 21: Ornstein has Liverpool 'firmly in
-// the driving seat' for Diomandé with a €115m second bid loading; Salah's Fenerbahce
-// move framed as settled before the Istanbul vote; Jones has agreed Inter terms.)
+// (Jones, Mac Allister). (Refreshed Mon Jun 22: Liverpool rejected Inter's £21m
+// second bid for Jones and want £40m, deal stalled; Diomandé hints publicly at
+// England as Leipzig hold for €120-130m; Salah scored + assisted vs New Zealand,
+// Fenerbahce move hardening.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · snubs Juventus · staying as No. 1
   LB:  "Low",    // Robertson gone (free to Spurs, done) · Kerkez inherits
   LCB: "High",   // Van Dijk · captain · contracted to 2027
   RCB: "Low",    // Konaté · Madrid move sealed · awaiting unveiling · Ordóñez heads the list
-  RB:  "Low",    // Jones · Inter push fresh meeting near €25m
+  RB:  "Low",    // Jones · Inter's £21m bid rejected, deal stalled
   LDM: "High",   // Gravenberch · the season's most reliable midfielder
   RDM: "Medium", // Szoboszlai · mainstay, extension still pending
   LAM: "Medium", // Wirtz · injury-hit debut season · 'untouchable' per club
   CAM: "Low",    // Mac Allister · still between the two Madrids
-  RAM: "Low",    // Salah's exit firms (Fenerbahce) · Diomandé €115m bid loading, LFC in driving seat
+  RAM: "Low",    // Salah's exit firms (Fenerbahce) · Diomandé chase continues, player keen
   ST:  "Medium", // Isak · £100m striker · injury-wrecked first season
 };
 
@@ -197,8 +195,8 @@ export const SLOT_RATIONALE = {
   RDM: "Tue Jun 2 — Szoboszlai closes a heavy-minutes season of 48 appearances as a midfield mainstay; a contract extension is still expected to be agreed over the summer.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
   CAM: "Wed Jun 17 — the denial gets louder: Mac Allister's father and agent Carlos has again branded the exit talk 'false,' insisting no approaches were declined because none were made, even as Liverpool stay quietly open to a sale near €120m if funds are needed. Real Madrid hold the warmest interest in a midfielder with two years left and no extension talks open, a fork pointed against Gravenberch's fresh terms.",
-  RAM: "Sun Jun 21 — the marquee chase has tipped Liverpool's way. With Munoz already in from Osasuna to cover the wide areas, the specialist right-wing brief is Diomandé: Ornstein calls Liverpool 'firmly in the driving seat,' a second bid near €115m loading after the €100m rejection, personal terms (~£180k/week) no obstacle and PSG drifting behind. The incumbent, Salah, a free agent on June 30, edges nearer the door, his Fenerbahce switch framed as settled before the Istanbul vote, the signature saved for after the World Cup.",
-  RB:  "Sun Jun 21 — the slot's exit has its player half done: Jones has agreed personal terms with Inter on a five-year deal to 2031, leaving only a fee gap, the Italians at ~€25m plus a sell-on against Liverpool's ~€30m ask, a fresh meeting set for next week. Bournemouth's Alex Scott is lined up as the replacement, while Leipzig right-back Lutsharel Geertruida (~£26m) remains specialist cover for a position where Bradley is out until next season and Frimpong's first year never settled.",
+  RAM: "Mon Jun 22 — the incumbent keeps scoring as he leaves: Salah took a goal and an assist in Egypt's 3-1 win over New Zealand, moving within one of his country's record, his Fenerbahce switch (a ~£77m, three-year deal) hardening for after the World Cup. The specialist replacement brief is Diomandé, who told reporters 'why not' the Premier League as Leipzig held at €120-130m and answered with a 2027-release contract; Munoz is already in from Osasuna to cover the wide areas while the bigger deal runs.",
+  RB:  "Mon Jun 22 — the exit has stalled, not advanced: Liverpool rejected Inter's second bid (~£21m) as well short of their ~£40m valuation and told Milan they want no further talks, now content to keep Jones or see him re-sign. The slot's natural pieces remain Bradley (out until next season) and Frimpong (an unsettled first year), with Leipzig right-back Lutsharel Geertruida (~£26m) specialist cover should a right-back be added.",
   ST:  "Tue Jun 2 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
 };
 
@@ -225,8 +223,8 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  reason: "Sun Jun 21 — the XI is still the side that closed 2025-26 after the May 24 1-1 with Brentford, held as the baseline while Andoni Iraola's rebuild trades around it. The first body has already landed (Spain winger Victor Munoz, a €40m Osasuna hijack of Newcastle), and now the marquee chase has tipped Liverpool's way: David Ornstein has the Reds 'firmly in the driving seat' for Diomandé, a second bid near €115m loading after the €100m rejection, personal terms (~£180k/week) no obstacle and PSG drifting behind. Confidence stays Low until more bodies arrive and the World Cup contingent returns. On the way out, Curtis Jones has agreed personal terms with Inter (clubs still apart on a ~€25m-plus-sell-on fee) and Salah's Fenerbahce move is framed as settled before the Istanbul vote, the signature saved for after the tournament. The squad is scattered through the finals: in Houston on Saturday Gakpo scored twice and Summerville once as Van Dijk's Netherlands routed Isak's Sweden 5-1, with Endo home injured and Szoboszlai absent from the squad, so reintegration will be staggered. The opener is a daunting trip to Newcastle on August 23. Next fixture: pre-season vs Sunderland in Nashville, July 25.",
-  pundit_sources: ["David Ornstein", "The Athletic", "Fabrizio Romano", "This Is Anfield", "Sky Sports", "ESPN", "Football365", "TeamTalk", "Liverpool.com", "Read Liverpool", "GiveMeSport"],
+  reason: "Mon Jun 22 — the XI is still the side that closed 2025-26 after the May 24 1-1 with Brentford, held as the baseline while Andoni Iraola's rebuild trades around it. The window's first friction is between clubs: Liverpool have rejected Inter's second bid (~£21m) for Curtis Jones as well short of their ~£40m valuation, told Milan they want no further talks, and now would happily keep him. The marquee chase rolls on with the player talking, Yan Diomandé saying 'why not' the Premier League as Leipzig hold at €120-130m and counter with a 2027-release contract, a second Reds offer loading and PSG expected to enter. Confidence stays Low until more bodies arrive and the World Cup contingent returns: the first arrival, Munoz, is in from Osasuna, and a new midfield name (Dortmund's Felix Nmecha) has surfaced. Salah, a free agent on June 30 and Fenerbahce-bound, scored and assisted in Egypt's 3-1 win over New Zealand on Sunday. Endo is home injured and Szoboszlai absent from the finals, so reintegration will be staggered. The opener is a daunting trip to Newcastle on August 23. Next fixture: pre-season vs Sunderland in Nashville, July 25.",
+  pundit_sources: ["Paul Joyce / The Times", "Liverpool.com", "This Is Anfield", "Get French Football News", "Fabrizio Romano", "Yahoo Sports", "TeamTalk", "ESPN", "GiveMeSport", "Football365", "Sky Sports"],
   agreement_rate: 0.61,
-  generated_at: "2026-06-21T08:30:00Z",
+  generated_at: "2026-06-22T08:15:00Z",
 };
