@@ -348,12 +348,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, and the summer's first real friction is between the clubs, not
-          within the squad: Liverpool have turned down Inter's lowball for Curtis
-          Jones and told Milan the talking is over. Above it the marquee chase
-          finds the player's own voice, Yan Diomandé asking why not the Premier
-          League, while Mohamed Salah keeps scoring his way out at a World Cup. A
-          month from Nashville, the rebuild haggles over every name but one.
+          Tuesday, and the winger search has a new name in lights: Bradley
+          Barcola has asked to leave Paris, and Liverpool, with Arsenal alongside,
+          are on alert. The priority target stays Yan Diomandé, now on a deadline
+          and a possible British record, while Mohamed Salah tops his World Cup
+          group and Manchester City take the centre-back the Reds meant to wait
+          for. A month from Nashville, the rebuild moves on two fronts at once.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,21 +368,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and the window has found its friction. Liverpool have rejected
-              Inter's second bid for Curtis Jones, a sum so far beneath their
-              valuation that the reply was not a counter but a closed door, and a
-              move once framed as a quiet goodbye is suddenly a club hoping he
-              stays. Above it the marquee pursuit acquired the rarest thing in a
-              transfer saga, the player's own words: asked about England, Yan
-              Diomandé said only, why not. Leipzig answered the rejected
-              hundred-million bid with a new contract and a release clause dated to
-              2027; a second Reds offer is loading, and Paris is expected to make
-              it a race. Elsewhere the farewell tour keeps scoring, Mohamed Salah a
-              goal and an assist to the good in Egypt's win over New Zealand, a
-              single strike now from his country's record. A new midfield name,
-              Dortmund's Felix Nmecha, lands on a thinning board. One in, Victor
-              Munoz, and a month still to Nashville.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and the winger search has its loudest new name. Bradley Barcola,
+              squeezed at Paris behind Kvaratskhelia, Doué and a Ballon d'Or, has
+              told the club he wants to leave, and Liverpool, with Arsenal in the
+              same room, have a ready-made starting forward for the price of one
+              decision. The priority remains Yan Diomandé, but the patience has
+              run out: Richard Hughes has set a deadline and will, if pushed, break
+              the British record a third time rather than let the deal drift into
+              August. At the back the long game folded, Marc Guéhi gone to
+              Manchester City for twenty million, the free agent the Reds meant to
+              wait for collected by someone in a hurry. Elsewhere the farewell tops
+              its group, Mohamed Salah a record or two heavier and a single goal
+              from his country's all-time mark, Iran to come on Friday. One in,
+              Victor Munoz, and a month still to Nashville.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3112,7 +3111,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Why not, he said. Anfield agrees."
+        "He raised his hand. Anfield looked up."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
