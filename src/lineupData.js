@@ -23,10 +23,10 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the first-choice XI Liverpool closed the
     // campaign with, the baseline a summer rebuild will reshape. 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Tue Jun 23: Barcola asks
-    // to leave PSG (Liverpool + Arsenal alert, ~€100m); Hughes sets a Diomandé
-    // deadline, ready to break the British record (~£128m); Guéhi gone to Man
-    // City; Salah tops Group G; Jones stand-off holds after Inter's ~£21.7m bid.
+    // backup look — Slot favoured 4-2-3-1. Refreshed Wed Jun 24: Diomandé
+    // personal terms agreed, PSG step back, an aggressive 2nd bid above €100m
+    // loading after the €100m opener was rejected; contact made for West Ham's
+    // Mateus Fernandes; Salah tops Group G; Jones still 'totally open' to exit.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -61,10 +61,10 @@ export const FORMATIONS = {
     // through the run-in — is shown as the first-choice XI Liverpool finished
     // the campaign with after Sunday's 1-1 with Brentford, NOT as a prediction
     // for a coming fixture (the next match is a pre-season friendly on July
-    // 25). Refreshed Tue Jun 23: Barcola asks to leave PSG (~€100m, Liverpool +
-    // Arsenal); Hughes sets a Diomandé deadline, ready for a British record
-    // (~£128m); Guéhi gone to Man City; Salah tops Group G; Jones stand-off
-    // holds after Inter's rejected ~£21.7m bid; Inácio still the cleanest CB fit.
+    // 25). Refreshed Wed Jun 24: Diomandé personal terms agreed, PSG step back,
+    // an aggressive 2nd bid above €100m loading after the €100m opener was
+    // rejected; contact made for West Ham's Mateus Fernandes; Salah tops Group
+    // G; Jones still 'totally open' to exit; Inácio still the cleanest CB fit.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -117,11 +117,11 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-06-23
-// (Tue, post-season: Barcola asks to leave PSG with Liverpool + Arsenal keen
-// (~€100m); Hughes sets a Diomandé deadline and may break the British record
-// (~£128m); Marc Guéhi signs for Man City; Salah tops Group G with Egypt; the
-// Jones stand-off holds after Inter's rejected ~£21.7m second bid.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-06-24
+// (Wed, post-season: Diomandé personal terms agreed and PSG step back, an
+// aggressive 2nd bid above €100m loading after the €100m opener was rejected;
+// contact made for West Ham's Mateus Fernandes; Salah tops Group G with Egypt;
+// Jones still 'totally open' to exit; Konaté's Real Madrid unveiling nears.)
 export const PLAYER_EVIDENCE = {
   1:  "Brazil's No. 1 · staying at Anfield",   // Alisson
   2:  "Loan likely now Alisson stays",         // Mamardashvili
@@ -163,10 +163,10 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys (4-2-3-1). With the season over these now read as confidence that
 // the slot's occupant remains a first-choice starter into 2026-27 — LOW where
 // the player is leaving (Salah, Robertson, now Konaté) or whose future is open
-// (Jones, Mac Allister). (Refreshed Tue Jun 23: Barcola asks to leave PSG
-// (~€100m, Liverpool + Arsenal); Hughes sets a Diomandé deadline, ready for a
-// British record (~£128m); Guéhi gone to Man City; Salah tops Group G; Jones
-// stand-off holds after Inter's rejected ~£21.7m bid.)
+// (Jones, Mac Allister). (Refreshed Wed Jun 24: Diomandé personal terms agreed,
+// PSG step back, an aggressive 2nd bid above €100m loading after the €100m
+// opener was rejected; contact made for West Ham's Mateus Fernandes; Salah tops
+// Group G; Jones still 'totally open' to exit.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · snubs Juventus · staying as No. 1
   LB:  "Low",    // Robertson gone (free to Spurs, done) · Kerkez inherits
