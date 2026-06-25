@@ -348,12 +348,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday, and the chase that matters has tilted Liverpool's way: Yan
-          Diomandé has agreed personal terms and Paris have stepped back, leaving
-          only a fee to settle with Leipzig as a second bid loads. A new midfielder,
-          West Ham's Mateus Fernandes, joins the board, while Mohamed Salah tops his
-          World Cup group with Iran to come on Friday. A month from Nashville, the
-          rebuild moves on every front at once.
+          Thursday, and the rebuild has a new name to chase: Real Madrid will sell
+          Eduardo Camavinga, and Liverpool, done waiting, have made their call. The
+          Diomandé fee climbs past a hundred and thirty million as a second bid
+          loads, while the window's first arrival, Victor Munoz, limps out of the
+          World Cup. Mohamed Salah tops his group with Iran to come on Friday. A
+          month from Nashville, every front moves at once.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,19 +368,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and the winger chase has its breakthrough. Yan Diomandé has agreed
-              personal terms, and with Paris Saint-Germain stepping back Liverpool
-              have a clear road to the nineteen-year-old, the only thing unsettled
-              the fee a stubborn Leipzig still want nearer a hundred and four
-              million. A second bid loads this week. The midfield board grew
-              overnight too, a quiet call to West Ham about Mateus Fernandes
-              threatening to hijack a deal United and Spurs thought was theirs, while
-              Bradley Barcola waits in reserve, discussed every week. At the World
-              Cup the farewell rolls on, Mohamed Salah top of his group with Iran to
-              come on Friday, as Ibrahima Konaté is fitted for white and the June
-              thirtieth cliff edges closer. One deal nearly done, and a dozen
-              goodbyes.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the recruiters have stopped waiting. Real Madrid, raising funds of
+              their own, will let Eduardo Camavinga go for around fifty-two million,
+              and Michael Edwards has made the call Liverpool supporters assumed he
+              never would, though the Frenchman himself would rather stay and fight.
+              Above him the priority chase turns expensive: a second bid for Yan
+              Diomandé loads this week, Leipzig now wanting north of a hundred and
+              thirty, a teenage winger who said yes weeks ago growing tired of the
+              wait. The window's first arrival, Victor Munoz, limps out of the World
+              Cup group stage barely a week after signing, and Curtis Jones, it now
+              seems, may not be leaving at all. At the tournament the farewell keeps
+              its rhythm, Mohamed Salah top of his group with Iran to come on Friday,
+              Ibrahima Konaté fitted for Madrid white. One deal opening, another
+              climbing, and a dozen goodbyes.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3110,7 +3111,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "He chose Anfield. Now comes the fee."
+        "The recruiters have stopped waiting."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
