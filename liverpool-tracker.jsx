@@ -134,7 +134,7 @@ const LATEST_NEWS = [
   { source: "ESPN / This Is Anfield", title: "Victor Munoz hit by a fresh muscle injury, ruled out of Spain's remaining World Cup group games against Saudi Arabia and Uruguay", time: "today", category: "official" },
   { source: "Liverpool.com / The Telegraph", title: "Jones 'set to stay': Liverpool, 'irritated' by Inter, reject a second bid worth ~€25m and signal no interest in dealing", time: "today", category: "major" },
   { source: "ESPN / Liverpool.com", title: "Liverpool join Man Utd and Chelsea in the Camavinga race as the 23-year-old's value slides after two injury-bruised seasons", time: "1d ago", category: "fan" },
-  { source: "Al Jazeera / ESPN", title: "Salah scores and assists as Egypt beat New Zealand 3-1 to top Group G; Iran await on Friday in Seattle", time: "3d ago", category: "fan" },
+  { source: "Al Jazeera / ESPN", title: "Salah scores and assists as Egypt beat New Zealand 3-1 to top Group G; Iran await on Friday in Seattle", time: "4d ago", category: "fan" },
   { source: "Al Jazeera / ESPN", title: "Konaté switch confirmed: Real Madrid announce the centre-back to 2030 as their third signing, unveiling held until after the World Cup", time: "1d ago", category: "official" },
   { source: "TeamTalk", title: "Romano floats a ~£200m double: Liverpool could pursue both Barcola and Diomandé, with the PSG forward's situation 'absolutely open'", time: "1d ago", category: "fan" },
   { source: "TeamTalk / ESPN", title: "Nmecha on the shortlist: Liverpool and Man Utd ask Dortmund, but the Germany midfielder's ~£69m clause only opens next summer", time: "2d ago", category: "fan" },
