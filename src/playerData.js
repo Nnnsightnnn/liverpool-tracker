@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Thu Jun 25 — top of the group, Iran to come: Salah scored and assisted in Sunday's 3-1 of New Zealand to put Egypt first in Group G, the finale against Iran on Friday in Seattle with a knockout place within reach. Off the pitch his future stays open: alongside the framed Fenerbahce package (~£77m over three years), fresh reporting still floats Saudi Arabia as the likeliest landing spot, MLS and Europe circling. A free agent on June 30, the Anfield chapter is closed; the final word waits on the tournament", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Fri Jun 26 — the finale, then the decision: Salah, who scored and set one up in Sunday's 3-1 of New Zealand, faces Iran in Seattle with Egypt top of Group G and a knockout place on the line. Off the pitch the field narrows: The National now frames Saudi Arabia as the frontrunner, the captain said to have given conditional approval, while Fenerbahce keep a three-year offer framed. A free agent on June 30, the Anfield chapter closed, the final word waits on the tournament", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -348,6 +348,7 @@ export const TEAM_LOGOS = {
   "Monaco":           "https://img.uefa.com/imgml/TP/teams/logos/50x50/50023.png",
   "Osasuna":          "https://upload.wikimedia.org/wikipedia/en/d/db/Osasuna_logo.svg",
   "Borussia Dortmund":"https://img.uefa.com/imgml/TP/teams/logos/50x50/52758.png",
+  "Atalanta":         "https://img.uefa.com/imgml/TP/teams/logos/50x50/52816.png",
 };
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
@@ -434,20 +435,20 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-06-25T08:15:00Z",
+  generatedAt: "2026-06-26T08:15:00Z",
   overview:
-    "With the table frozen until August, the standings sit as a backdrop to a market that will not slow. Liverpool finished fifth on 60, a thin return on a season that drifted to a 1-1 at Brentford and cost Arne Slot his job, but enough to bank the Champions League the rebuild is funded toward. The week's noise is all recruitment: the Reds have opened talks for Real Madrid's Eduardo Camavinga, who Los Blancos will sell at around £52m, while a second, €130m-plus bid loads for Leipzig winger Yan Diomandé. Champions Arsenal signed off on 85, with City (who beat Liverpool to Marc Guéhi), United and Villa taking the other automatic berths, Bournemouth, Sunderland and Brighton filling the European ladder, and West Ham, Burnley and Wolves relegated. Iraola's Liverpool open away at twelfth-placed Newcastle on August 23.",
+    "The table is frozen until August, so the story sits in the market, and Liverpool's is now a record-breaking one. The Reds have agreed personal terms with RB Leipzig's Yan Diomandé and are reported a single step from a deal that, at the £128m Leipzig want, would beat Alexander Isak's £125m as the most expensive transfer in Premier League history. The final standings still frame why: a fifth-placed finish on 60, a thin return on a season that drifted to a 1-1 at Brentford and cost Arne Slot his job, but enough to bank the Champions League the rebuild is funded toward. Champions Arsenal signed off on 85, City (who beat Liverpool to Marc Guéhi), United and Villa took the other automatic berths, Bournemouth, Sunderland and Brighton filled the European ladder, and West Ham, Burnley and Wolves went down. Andoni Iraola's Liverpool open away at twelfth-placed Newcastle on August 23.",
   teams: {
     "Arsenal": "Champions on 85, opening the new season at home to promoted Coventry while Liverpool start on the road; also in the room for PSG's Bradley Barcola.",
     "Manchester City": "Second on 78, and the summer's mover: they have signed Marc Guéhi from Palace for £20m, beating Liverpool to the centre-back they meant to collect on a free.",
     "Manchester United": "Third on 71, and a rival again: United have joined Liverpool and Chelsea in the race for Real Madrid's Eduardo Camavinga, and remain among the suitors for West Ham's Mateus Fernandes.",
     "Aston Villa": "Fourth on 65, the last automatic UCL berth; Harvey Elliott returns to Liverpool after his season-long loan at Villa Park.",
-    "Liverpool": "Fifth on 60, Champions League secured; talks opened for Real Madrid's Eduardo Camavinga (~£52m) and a €130m-plus second bid loading for Leipzig's Yan Diomandé, the opener a daunting trip to Newcastle on August 23.",
+    "Liverpool": "Fifth on 60, Champions League secured; personal terms agreed with Leipzig's Yan Diomandé and one step from a potential British-record deal near £128m, with a right-back hunt now live too, the opener a daunting trip to Newcastle on August 23.",
     "Bournemouth": "Sixth and into Europe, still the Merseyside shopping aisle: Alex Scott lingers as a midfield option should the Jones picture change.",
     "Sunderland": "Seventh and into Europe in their promotion season, Iraola's first pre-season assignment, Nashville, July 25.",
     "Brighton": "Eighth, a Conference League play-off place extending the European streak; Beukema and van Hecke both linger on Liverpool defensive files.",
     "Brentford": "Ninth on 53, level with Brighton but out of Europe for the first time in their top-flight era; hosts of the season's final-day 1-1 on May 24.",
-    "Chelsea": "Tenth on 52, a third straight year without the Champions League, and now in the Camavinga chase with Liverpool and United even as Real Madrid eye their Enzo Fernandez.",
+    "Chelsea": "Tenth on 52, a third straight year without the Champions League; have moved first for Atalanta right-back Marco Palestra with a £47m-plus bid, the deal Liverpool are watching for a chance to hijack, and remain in the Camavinga conversation too.",
     "Newcastle": "Twelfth on 49, outside Europe last season, and now Iraola's opening-day hosts on August 23, fresh from losing the Victor Munoz race to Liverpool.",
     "Crystal Palace": "Fifteenth on points, in Europe by silverware; have now sold captain Marc Guéhi to Manchester City for £20m, closing the free-agent route Liverpool had hoped to wait out.",
     "Nott'm Forest": "Sixteenth, home of Murillo, who stays on Hughes's four-man centre-back shortlist as a Premier-League-ready option.",
@@ -462,126 +463,127 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Edwards Stops Waiting.",
-    byline: "Anfield Watch / TeamTalk",
-    dateline: "Madrid · 25 June",
+    headline: "The Yes Is Signed. The Price Is Not.",
+    byline: "Liverpool.com / Football365",
+    dateline: "Leipzig · 26 June",
     category: "Transfers",
-    body: "Some names arrive on the board fully formed. Real Madrid, needing to clear space and raise cash for Enzo Fernandez, are reported ready at last to sell Eduardo Camavinga for around fifty-two million, and Michael Edwards, the man Liverpool fans like to call patient, has decided he is done waiting. A call has gone to the Bernabeu. So have calls from Manchester United and Chelsea, and José Mourinho is said to have waved the Frenchman goodbye. The fee is almost the easy part. The hard part wears the player's own face: at twenty-three, two stop-start seasons behind him, Camavinga still wants to stay and fight. Willing seller, reluctant asset. The window's oldest puzzle.",
+    body: "A transfer dies or lives on two agreements, and Liverpool now hold one of them. Yan Diomandé, nineteen and two-footed, has agreed personal terms; the French reporting says the Reds are a single step from the deal. What that step costs is the whole story. Leipzig price him at a hundred and twenty-eight million, the kind of figure that would shove Alexander Isak off the top of the Premier League's all-time list barely a year after he climbed it. Liverpool's hundred-million opener was waved away, an improved bid toward a hundred and fifteen is being readied, and Leipzig will not name their number. The boy has chosen. The clubs have not.",
   },
   {
     n: "02",
-    headline: "Only The Cheque Is Missing.",
-    byline: "Sky Sports / TeamTalk",
-    dateline: "Leipzig · 25 June",
+    headline: "A Door Opens On The Right.",
+    byline: "This Is Anfield / Empire of the Kop",
+    dateline: "Bergamo · 26 June",
     category: "Transfers",
-    body: "The will was settled days ago. What climbs now is the price. Liverpool are said to be loading a second bid for Yan Diomandé, due quickly and built to be heard, after the opening hundred million was waved away by a Leipzig side that now wants north of a hundred and thirty. Behind the number sits a quieter obstacle: a private understanding between the sporting director and a Red Bull adviser named Jürgen Klopp, who would rather not sell at all. The teenager is reported frustrated the move drags, his camp pressing the Germans to take the money. Romano even floats a double, Barcola alongside him, near two hundred million. The deadlock is no longer about desire. It is about whether anyone will blink.",
+    body: "While the winger saga absorbs the headlines, a quieter need has gone unmet all summer. Conor Bradley is still in rehab; Jeremie Frimpong's first English season never quite caught. So when Marco Palestra, voted among Serie A's finest defenders, was reportedly offered to Liverpool, it landed on a sore spot. Chelsea moved first, more than forty-seven million on the table, and yet the deal is not sealed: Romano says the Italian has still to give his blessing. That hesitation is Liverpool's opening, if they want it. A right-back has been the rebuild's overlooked line, and a rival's near-done move is precisely the kind of thing this recruitment desk likes to gatecrash.",
   },
   {
     n: "03",
-    headline: "The First Arrival Limps.",
-    byline: "ESPN / This Is Anfield",
-    dateline: "Atlanta · 24 June",
-    category: "Injuries",
-    body: "A summer signing is supposed to begin with a photograph in a new shirt. Victor Munoz's begins in a treatment room. The twenty-two-year-old, in barely a week after Liverpool triggered his forty-million release clause, has picked up a fresh muscle injury during the careful work meant to bring him back, and Spain have ruled him out of the rest of the group stage, against Saudi Arabia and then Uruguay. He came to America already nursing a calf; this is the setback on top of the setback. There is no long-term alarm at Anfield, only a recalibration: the first look at the new number seven now waits for pre-season, and a tournament that might yet end before he kicks a ball.",
+    headline: "Ninety Minutes, Then The Decision.",
+    byline: "Al Jazeera / The National",
+    dateline: "Seattle · 26 June",
+    category: "Football News",
+    body: "Egypt sit top of their group, and Mohamed Salah, who scored and made one against New Zealand, walks out against Iran with a knockout place to win. He plays like a man counting down, because two clocks run at once. His Liverpool contract expires at the month's end; his next address is filling in around him while he is still in red, white and black. The National calls Saudi Arabia the frontrunner now, commercially and culturally aligned, the captain said to have given his conditional yes. Fenerbahce keep a three-year offer framed and a president promising to fund it. For one more match, none of it matters. He belongs to Egypt, and to the game in front of him.",
   },
   {
     n: "04",
-    headline: "Top Of The Group, And Counting.",
-    byline: "Al Jazeera / ESPN",
-    dateline: "Seattle · 24 June",
-    category: "Football News",
-    body: "Egypt rallied from a goal down against New Zealand, and Mohamed Salah did what he has always done, scored one and made another, dragging his country to the top of Group G and a first World Cup win in its history. Iran wait on Friday, a knockout place within reach. He plays now like a man aware of the clock, because he is one: out of contract at Liverpool on the last day of this month, the Anfield chapter already closed, the next still unwritten. Fenerbahce remains the tidy answer; Saudi Arabia is the louder one. For ninety minutes more, at least, the captain belongs only to Egypt, and the question of where he goes can wait its turn.",
+    headline: "Iraola's Summer Begins.",
+    byline: "Liverpool FC / This Is Anfield",
+    dateline: "Anfield · 25 June",
+    category: "Manager",
+    body: "Every era starts with a fixture list, and Andoni Iraola's now has one. The Basque who took Bournemouth into Europe inherits a champion's wreckage and a calendar: pre-season from early July, then America, Sunderland on the twenty-fifth, Wrexham on the thirtieth, Leeds on the second of August. The real thing opens at Newcastle on the twenty-third. His first task is not tactics but arithmetic of bodies. Eight Reds are scattered through a World Cup, some still playing, some hurt, all returning at different hours. He has spoken of a staggered reintegration, of patience before pattern. A new manager learns his squad twice: once on paper, once when they finally walk back through the door.",
   },
   {
     n: "05",
-    headline: "Confirmed, In Madrid White.",
-    byline: "Al Jazeera / ESPN",
-    dateline: "Madrid · 24 June",
+    headline: "The Spine Thins, Vertebra By Vertebra.",
+    byline: "ESPN / This Is Anfield",
+    dateline: "Anfield · 25 June",
     category: "Farewells",
-    body: "There is no drama left in it now, only paperwork and a date. Real Madrid have confirmed Ibrahima Konaté on a deal to 2030, their third arrival of the summer after Cucurella and Bernardo Silva, the presentation politely held back until the World Cup releases him. He leaves for nothing, the cost of an extension that stalled on small print, the latest name in a queue of twelve walking out of Anfield once June expires. Salah goes. Robertson is a Tottenham man already. A title-winning spine thins a vertebra at a time, and at the head of Hughes's defensive board sits the gap Konaté leaves, the one Inácio and Ordóñez are weighed to fill. Free transfer out, nine-figure search in. The arithmetic of an era ending.",
+    body: "Count the departures and the season's skeleton starts to show through. Konaté has gone to Madrid on a free, the bill for an extension that died over agent fees. Robertson is a Tottenham man, nine years folded into one signature. Salah leaves at the month's end for whoever wins the auction. A title-winning structure is being dismantled limb by limb, and the recruitment board reads like a map of the holes: a left-footed centre-back with Inácio at the top, a right-back suddenly urgent, a winger to fill the largest absence of all. Michael Edwards funds it by selling, Mac Allister flagged at a hundred and twenty million if the books demand. This is how dynasties end. Not in a single night, but in a column of goodbyes.",
   },
 ];
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-06-25T08:15:00Z",
+  generatedAt: "2026-06-26T08:15:00Z",
   summary:
-    "Thursday June 25, and the midfield board has a marquee new name. Real Madrid are now reported willing to sell Eduardo Camavinga for around £52m to bankroll their own rebuild, and Liverpool, with Michael Edwards said to be 'done waiting,' have opened contact for the 23-year-old France international alongside Manchester United and Chelsea; the snag is the player himself, who is reported keen to stay and fight for his place. The priority winger chase escalated in parallel: a 'blockbuster' second bid for Yan Diomandé is due to land 'quickly' this week, with Leipzig, who hold a Klopp-brokered understanding not to sell, now reported to want north of €130m and the teenager 'definitely' set on the move and frustrated at the wait. Two squad lines moved too: new signing Victor Munoz picked up a fresh muscle injury and will miss the rest of the World Cup group stage, while Curtis Jones is now reported 'set to stay' after Liverpool, 'irritated' by Inter's approach, rejected a second bid worth around €25m. Konaté's free transfer to Real Madrid is confirmed, the official unveiling to follow the tournament, and Mohamed Salah, top of Group G with Egypt, meets Iran on Friday in Seattle.",
+    "Friday June 26, and the priority deal has tipped from pursuit toward paperwork. Reporting now has Liverpool and Yan Diomandé agreed on personal terms, the 19-year-old Ivory Coast winger described as 'one step' from a switch that, at the £128m RB Leipzig value him at, would pass Alexander Isak's £125m to become the most expensive transfer in Premier League history; the Reds are said to be readying an improved package toward €115m, with Leipzig the lone obstacle after waving away the opening €100m. A second front opened down the right: with Conor Bradley still sidelined and Jeremie Frimpong yet to settle, Liverpool have been 'offered' Atalanta's Marco Palestra only for Chelsea to move first on a deal worth more than £47m, leaving the Reds weighing a hijack should the Italy defender hesitate. The standing board carries on, Real Madrid's Eduardo Camavinga available near £52m but reluctant to leave, Curtis Jones staying after a second Inter bid was knocked back. At the tournament the farewell reaches its hinge: Mohamed Salah, top of Group G with Egypt, meets Iran in Seattle with a knockout place on the line, his next club narrowing toward Saudi Arabia even as Fenerbahce keep a three-year offer framed. Andoni Iraola's first pre-season takes shape too, a United States tour against Sunderland, Wrexham and Leeds before an August 23 opener at Newcastle.",
   keyTopics: [
     {
-      title: "Edwards 'Done Waiting': Liverpool Open Talks As Real Madrid Ready To Sell Camavinga For ~£52m (Anfield Watch / TeamTalk / ESPN, reported Thursday)",
+      title: "Personal Terms Agreed: Liverpool 'One Step' From A Record-Breaking Diomandé Deal (Liverpool FC / TeamTalk / Football365, reported Friday)",
       detail:
-        "A genuinely new name leads the midfield board. Reporting on Thursday has Real Madrid finally willing to sell Eduardo Camavinga for around £52m (€50m), part of a Bernabeu reshape to fund the arrival of Enzo Fernandez, and Michael Edwards 'done waiting' has opened talks for the 23-year-old France international. Manchester United and Chelsea have made their own contact, so the race is three-deep already. Camavinga, left out of France's World Cup squad after two injury-bruised seasons, offers a ready-made Premier-League- age profile who can also fill in at left-back.",
+        "The priority chase has crossed its biggest line. Reporting on Friday, led by French outlet Media Foot, says Liverpool and Yan Diomandé have agreed personal terms and the Reds are 'one step' from a deal, with only an agreement with RB Leipzig on the fee left to settle. Leipzig value the 19-year-old Ivory Coast forward at around £128m, a figure that would beat Alexander Isak's £125m to make Diomandé the most expensive signing in Premier League history. Liverpool, having had a €100m package rejected, are said to be lining up an improved offer toward €115m, though the German club have yet to name a clear asking price.",
       category: "transfers",
     },
     {
-      title: "The Catch In The Camavinga Deal: The Player Wants To Stay And Fight (Anfield Watch / GiveMeSport, reported Thursday)",
+      title: "Right-Back Hunt Heats Up: Liverpool 'Offered' Palestra As Chelsea Move With A £47m Bid (This Is Anfield / Empire of the Kop, reported Friday)",
       detail:
-        "The selling club is willing; the player is not, yet. Even with Madrid open to offers and José Mourinho said to have signed off on the exit, those close to Camavinga insist he intends to fight for his place rather than leave, a stance reported as the central obstacle to any move. His value has slid by a reported €50m across two stop-start campaigns, which is exactly what puts him in Liverpool's bracket; convincing him to walk away from the European champions is the harder sell. A clean opening, then, but no green light.",
+        "A second front opened on the flank. With Conor Bradley still recovering and Jeremie Frimpong yet to translate his Bundesliga form to the Premier League, Liverpool have reportedly been 'offered' Atalanta right-back Marco Palestra, only for Chelsea to move first with a bid worth more than £47m. Romano notes the Italy defender, named among Serie A's best this season, still has to give Chelsea the green light, leaving Liverpool room to hijack the move if Palestra hesitates. Empire of the Kop pitched the package the Reds were told to pay nearer £38.8m earlier in the window.",
       category: "transfers",
     },
     {
-      title: "Blockbuster Second Diomandé Bid To Land 'Quickly' As Leipzig Push Past €130m (TeamTalk / Sky Sports / Liverpool.com, reported Thursday)",
+      title: "Salah Meets Iran In Seattle With A Knockout Place On The Line And Saudi Arabia Now Frontrunner (Al Jazeera / The National, reported Friday)",
       detail:
-        "The priority chase is about to get expensive. After the opening €100m proposal was turned away, Liverpool are reported to be readying a 'blockbuster' second offer due 'quickly' this week, with Leipzig now said to want a fee in excess of €130m and sporting director Marcel Schafer holding a private understanding with Red Bull's Jürgen Klopp not to sell at all. The teenager 'definitely' wants the move and is said to be frustrated it is dragging; his camp are pressing Leipzig to take the money. The will has not changed since midweek, only the size of the cheque.",
-      category: "transfers",
-    },
-    {
-      title: "Munoz Hit By Fresh Muscle Injury, Out For Rest Of World Cup Group Stage (ESPN / This Is Anfield / Liverpool.com, reported Thursday)",
-      detail:
-        "The window's first arrival has hit a snag. Victor Munoz, signed last week after Liverpool triggered his €40m release clause, suffered an additional muscle injury during his individualised recovery and will miss Spain's group games against Saudi Arabia and Uruguay, with Spanish reporting suggesting he only returns if Spain reach the knockouts. He came to the tournament nursing a calf problem and had only just rejoined group training. No long-term alarm for Liverpool, but the first sight of the new No. 7 in red now slips toward pre-season.",
-      category: "injuries",
-    },
-    {
-      title: "Jones Now 'Set To Stay' After Liverpool, 'Irritated' By Inter, Reject A Second Bid (Liverpool.com / The Telegraph, reported Thursday)",
-      detail:
-        "The stand-off has tilted toward continuity. The Telegraph now reports Curtis Jones is 'set to remain' at Anfield after Liverpool, described as 'irritated' by Inter's conduct, rejected a second offer worth around €25m and made clear they have no interest in dealing once Inter signalled €27m as their ceiling against a £35m valuation. The 25-year-old is into the final year of his deal with extension talks stalled, but the club's posture has hardened from cashing-in to keeping their only Merseyside-born player.",
-      category: "transfers",
-    },
-    {
-      title: "Salah Tops Group G And Meets Iran On Friday With His Next Club Unsettled (Al Jazeera / ESPN, reported this week)",
-      detail:
-        "Egypt sit top of Group G after Sunday's 3-1 win over New Zealand, Salah scoring and assisting to bag a first-ever World Cup victory, and a knockout berth is within reach before Friday's finale against Iran in Seattle. His club future is the looser thread: the framed Fenerbahce package sits alongside fresh whispers of Saudi Arabia as the likeliest destination, with MLS and European sides also circling. A free agent on June 30, the captain holds the final word until the tournament releases him.",
+        "The farewell reaches its hinge. Egypt, top of Group G after Salah scored and set one up in Sunday's 3-1 win over New Zealand, face Iran in Seattle with a first knockout berth within reach. His next club is narrowing: The National frames Saudi Arabia as the frontrunner aligning commercially and symbolically, with Salah said to have given initial approval to a Pro League move under his conditions, while Fenerbahce keep a three-year package framed after president Aziz Yildirim pledged to finance it. A free agent on June 30, the 34-year-old keeps the final word until the tournament lets him go.",
       category: "matches",
     },
     {
-      title: "Konaté Switch Confirmed As Madrid's Third Signing, Unveiling To Follow The World Cup (Al Jazeera / ESPN, reported this week)",
+      title: "Liverpool Pull The Plug On A Forward Pursuit After The Diomandé Agreement (Football365, reported Friday)",
       detail:
-        "The biggest free-transfer exit is now settled. Real Madrid have confirmed Ibrahima Konaté on a deal to 2030, the centre-back becoming their third summer signing after Marc Cucurella and Bernardo Silva, with president Florentino Pérez confirming the agreement and the formal presentation held back until after the World Cup. A France international walks for nothing once his contract lapses on June 30, leaving the vacancy at the head of Richard Hughes's defensive board that Inácio and Ordóñez are weighed to fill.",
+        "The breakthrough is already reshaping the board. With personal terms with Diomandé in place, Football365 reports Liverpool have stepped back from a separate attacking pursuit, the recruitment desk consolidating around the deal it is closest to landing rather than spreading bids across the market. Bradley Barcola, long framed as the ready-made standby for the Salah-shaped hole, stays a PSG-contingent fallback rather than a live negotiation, the Reds content to let the priority winger run its course before reopening any second front in attack.",
       category: "transfers",
     },
     {
-      title: "Barcola The Standby Option As PSG Talks Sit 'Absolutely Open' (Liverpool.com / TeamTalk, reported this week)",
+      title: "Iraola's First Pre-Season Confirmed: A United States Tour Before An August Opener At Newcastle (Liverpool FC / This Is Anfield, reported this week)",
       detail:
-        "The grown-up alternative idles in neutral. Reporting frames Bradley Barcola's situation as 'completely on standby' and 'absolutely open,' contingent on what PSG decide, even as Liverpool make fresh contact and the France forward is said to be tempted by the project. Romano floats the eye-watering possibility of Liverpool landing both Barcola and Diomandé in a roughly £200m double swoop. For now the teenager is the live deal and Barcola the insurance, held in reserve against the chance Paris finally open the door.",
+        "The new manager's calendar firmed up. Andoni Iraola, who left Bournemouth's sixth-placed finish to succeed Arne Slot, will take his first Liverpool pre-season from early July into a United States tour: friendlies against Sunderland on July 25, Wrexham on July 30 and Leeds on August 2. The competitive season then opens away at Newcastle on August 23. Iraola's Q&A flagged a staggered return for a heavy World Cup contingent, with reintegration the early theme before the rebuild's new arrivals bed in.",
+      category: "general",
+    },
+    {
+      title: "Bartishvili On The Radar: Liverpool And Arsenal Track The Georgian Teenager (NewsNow / TransferFeed, reported this week)",
+      detail:
+        "A name for the longer list. Liverpool are reported among the clubs keeping tabs on Andria Bartishvili, the young Georgian talent, with Arsenal tracking the same profile. It is early-stage interest rather than an active negotiation, the kind of speculative academy-to-first-team play the recruitment team logs while the marquee deals dominate. For now it sits well behind the Diomandé and right-back files, a contingency note more than a pursuit.",
       category: "transfers",
     },
     {
-      title: "Nmecha Joins The Reshape Shortlist As Liverpool And United Ask Dortmund (TeamTalk / ESPN, reported this week)",
+      title: "Camavinga Stays On The Midfield Board, Madrid Willing But The Player Reluctant (Anfield Watch / ESPN, reported this week)",
       detail:
-        "A cheaper midfield contingency stays live. Liverpool and Manchester United have both asked Borussia Dortmund about Felix Nmecha, the Germany international whose strong World Cup has his camp testing the market despite a contract signed in March. The complication is timing: his release clause of around £69m only activates next summer, so any 2026 move means negotiating with a club under no pressure to sell. A profile that fits the rebuild, but one filed behind the Camavinga and Diomandé pursuits for now.",
+        "The midfield option from earlier in the week has not gone away. Real Madrid remain willing to sell Eduardo Camavinga for around £52m to fund their own reshape, and Liverpool retain contact alongside Manchester United and Chelsea, but the obstacle is unchanged: the 23-year-old France international is reported to prefer staying and fighting for his place. His value softened by two injury-bruised seasons, he is a clean fit on price and profile, a press-resistant carrier who can cover left-back, yet no green light has come from the player.",
+      category: "transfers",
+    },
+    {
+      title: "Jones Staying After Liverpool Rebuff A Second Inter Bid (The Telegraph / Sky Sports, reported this week)",
+      detail:
+        "The stand-off has settled toward continuity. Liverpool turned down a second Inter offer of around €25m, well short of their £35m valuation, and the Italian club's conduct left the Reds unwilling to deal; Curtis Jones is now reported to be remaining at Anfield. The 25-year-old is into the final year of his contract with extension talks stalled, but the posture has hardened from cashing in to keeping the squad's only Merseyside-born player, a useful body in a midfield bracing for other exits.",
+      category: "transfers",
+    },
+    {
+      title: "Gakpo Exit 'Highly Improbable' Despite Tottenham Interest (Liverpool.com / Empire of the Kop, reported this week)",
+      detail:
+        "Tottenham want him; Liverpool are not selling. Roberto De Zerbi is reported keen on Cody Gakpo, but a departure for the Dutch forward is described as 'highly improbable,' with the club insistent they mean to add to the attack rather than thin it. The nine-goal forward has not asked to leave and stays firmly in Iraola's plans, an asset the rebuild would rather build around than cash, the lingering swap chatter notwithstanding.",
       category: "transfers",
     },
     {
       title: "Mac Allister The Sell-To-Buy Lever As Madrid Interest Lingers (Liverpool.com / Sportingpedia, reported this week)",
       detail:
-        "The funding mechanism for all of this has a name. Alexis Mac Allister has two years left and no extension talks open, and Real Madrid retain a genuine interest his camp keeps publicly waving away. Liverpool would listen near €120m if the books need balancing, a sale set against Gravenberch's fresh terms and the cash a Camavinga or Diomandé fee would demand. Nothing is imminent, but the Argentine remains the most valuable chip Iraola's reshape could cash to buy the players above him on this list.",
+        "The funding mechanism still has a name. Alexis Mac Allister has two years left and no extension talks open, and Real Madrid retain a genuine interest his camp keeps publicly waving away. Liverpool would listen near €120m if the books need balancing, a sale set against Gravenberch's fresh terms and the cash a Diomandé record fee would demand. Nothing is imminent, but the Argentine remains the most valuable chip Iraola's reshape could cash to fund the players above him on this list.",
       category: "transfers",
     },
   ],
   sources: [
-    "Anfield Watch",
+    "Liverpool FC",
     "TeamTalk",
+    "Football365",
+    "This Is Anfield",
+    "Empire of the Kop",
     "ESPN",
     "Sky Sports",
     "Liverpool.com",
-    "This Is Anfield",
     "Fabrizio Romano",
-    "GiveMeSport",
     "Al Jazeera",
-    "The Telegraph",
-    "Yahoo Sports",
-    "Managing Madrid",
+    "The National",
+    "Anfield Watch",
+    "Media Foot",
   ],
 };
 
@@ -590,9 +592,9 @@ export const NEWS_DIGEST = {
 // heatTier: "hot" (≥65%) | "warm" (40-64%) | "cool" (<40%) | "done" | "dead"
 // sources[].tier: "S" (Romano-class) | "A" (major outlet) | "B" (beat) | "C" (aggregator)
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-06-25T08:15:00Z",
+  generatedAt: "2026-06-26T08:15:00Z",
   summary:
-    "Thursday's ledger opens on a fresh name at the head of the midfield list. Real Madrid are now reported willing to sell Eduardo Camavinga for around £52m to fund their own window, and Michael Edwards 'done waiting' has opened contact for the 23-year-old France international, who Manchester United and Chelsea are also chasing; the catch is the player, said to prefer staying and fighting for his place. The priority winger chase ran hotter still: a 'blockbuster' second bid for Yan Diomandé is due 'quickly' this week with Leipzig now wanting north of €130m and Klopp's Red Bull holding a private no-sell understanding, the teenager 'definitely' set on Anfield and frustrated at the wait. Barcola idles as the standby, his PSG situation 'absolutely open,' with Romano floating a ~£200m Barcola-and-Diomandé double. Among exits the picture shifted: Konaté's free transfer to Real Madrid is confirmed with the unveiling held for after the tournament, Salah's destination stays open between Fenerbahce and Saudi interest, and the Jones stand-off has tilted toward staying after Liverpool, 'irritated' by Inter, rejected a second ~€25m bid. One in, the rest still bought on the proceeds of sales not yet made.",
+    "Friday's ledger leads on a breakthrough. Liverpool and Yan Diomandé are now reported to have agreed personal terms, the Reds said to be 'one step' from a deal that, at the £128m RB Leipzig value him at, would pass Alexander Isak's £125m to become the most expensive transfer in Premier League history; only the fee with Leipzig is left, an improved bid toward €115m being readied after the €100m opener was rejected. A second front opened down the right: with Bradley still sidelined and Frimpong unsettled, Liverpool have been 'offered' Atalanta's Marco Palestra, only for Chelsea to lodge a £47m-plus bid the Italy defender has yet to approve, leaving room to hijack. The standing board persists, Camavinga available near £52m but reluctant to leave, Trincão and Barcola the wider winger options, Inácio and Ordóñez carrying the centre-back search. Among exits Konaté's free move to Madrid is confirmed, Salah's destination narrows toward Saudi Arabia with Fenerbahce still framed, and the Jones stand-off has settled toward staying after a second Inter bid was knocked back. One deal almost over the line, the rest still funded by sales not yet made.",
   incoming: [
     {
       id: "camavinga-2026",
@@ -618,9 +620,9 @@ export const TRANSFER_TARGETS = {
         { name: "TeamTalk",      tier: "B" },
         { name: "ESPN",          tier: "A" },
       ],
-      lastUpdated: "2026-06-25",
+      lastUpdated: "2026-06-26",
       rumorNote:
-        "Madrid · 25 Jun — the new name at the top of the board. Thursday's reporting has Real Madrid finally ready to sell Eduardo Camavinga for around £52m to bankroll their own reshape, and Michael Edwards, 'done waiting,' has opened contact for the 23-year-old France international. It is a crowded doorway: Manchester United and Chelsea have made their own enquiries, and José Mourinho is said to have signed off on the exit. The fit is obvious, a press-resistant carrier who can double as left-back cover, his value softened to a Liverpool bracket by two injury-bruised seasons and a France World Cup snub. The catch is the player himself, who is reported to prefer staying and fighting for a place. A clean opening, then, but not yet a green light.",
+        "Madrid · 26 Jun — willing club, unwilling player, unchanged. Now the Diomandé winger deal has its agreement, the midfield line idles on the same stalemate it opened the week with: Real Madrid will sell Camavinga around £52m to fund their reshape, Liverpool keep contact alongside Manchester United and Chelsea, yet the 23-year-old is still said to prefer staying and fighting for his place. The fit is unarguable, a press-resistant carrier who can double as left-back cover, his price softened by two injury-bruised seasons and a France World Cup snub. The opening is clean. The green light, from the only person who can give it, has not arrived.",
       positionFit: {
         replaces: "Jones (if sold) / midfield depth",
         competesWith: ["Gravenberch", "Mac Allister", "Szoboszlai"],
@@ -947,23 +949,23 @@ export const TRANSFER_TARGETS = {
       image: "https://assets.bundesliga.com/contender/2025/11/2526_MD10_TSGRBL_SW_151.jpg?crop=338px,0px,1352px,1080px&fit=540,540",
       currentClub: "RB Leipzig",
       currentLeague: "Bundesliga",
-      feeMin: 100, feeMax: 130, feeCurrency: "£m",
+      feeMin: 100, feeMax: 128, feeCurrency: "£m",
       marketValue: 75,
       wageBand: "B",
       contractExpiry: "2030-06-30",
       releaseClause: null,
-      contractNote: "Contract to 2030; Leipzig dangling an improved deal to keep him. Personal terms agreed with Liverpool; opening €100m package rejected, Leipzig now reported to want in excess of €130m, with sporting director Marcel Schafer holding a private understanding with Red Bull's Jürgen Klopp not to sell. A 'blockbuster' second bid is due this week.",
-      probability: 66,
+      contractNote: "Contract to 2030. Personal terms agreed with Liverpool, who are reported 'one step' from the deal with only the fee left to settle; the €100m opener was rejected and Leipzig value him near £128m, a figure that would beat Isak's £125m as a Premier League record. An improved bid toward €115m is being prepared, though Leipzig have yet to name a clear asking price.",
+      probability: 72,
       heatTier: "hot",
       sources: [
+        { name: "Liverpool FC",             tier: "A" },
         { name: "TeamTalk",                 tier: "B" },
-        { name: "Sky Sports",               tier: "A" },
-        { name: "Liverpool.com",            tier: "B" },
+        { name: "Football365",              tier: "B" },
         { name: "Fabrizio Romano",          tier: "S" },
       ],
-      lastUpdated: "2026-06-25",
+      lastUpdated: "2026-06-26",
       rumorNote:
-        "Leipzig · 25 Jun — the price climbs, the resolve holds. With personal terms long agreed and the 19-year-old 'definitely' set on Anfield, the negotiation is now a staring contest over the fee: a 'blockbuster' second bid is due 'quickly' this week after Leipzig, reported to want north of €130m, dug in behind a private Schafer-Klopp understanding not to sell at all. The teenager is said to be frustrated the move is dragging, his camp pressing Leipzig to take the money. Romano even floats a ~£200m Barcola-and-Diomandé double. The will has not changed since midweek, only the size of the cheque Liverpool must write to break the deadlock.",
+        "Leipzig · 26 Jun — one agreement down, one to go. The French reporting led by Media Foot has Liverpool and the 19-year-old agreed on personal terms, the Reds described as a single step from a switch that would rewrite the Premier League's transfer record: Leipzig value him near £128m, enough to pass Isak's £125m. The €100m opener was rebuffed, an improved package toward €115m is being readied, and the German club have stopped short of naming a price. The will is settled. What is unresolved is the cheque, and whether Leipzig blink before the World Cup empties the calendar.",
       positionFit: {
         replaces: "Salah (right wing)",
         competesWith: ["Gakpo", "Ngumoha"],
@@ -1049,6 +1051,44 @@ export const TRANSFER_TARGETS = {
         apps: 29, goals: 2, assists: 3,
         tacklesPer90: 2.1, passCompletion: 87, progressiveCarries: 2.4,
         cleanSheets: 9, xG: 1.6,
+      },
+    },
+    {
+      id: "palestra-2026",
+      name: "Marco Palestra",
+      age: 21,
+      position: "DEF",
+      role: "Right-back / right wing-back",
+      nationality: "🇮🇹 Italy",
+      foot: "Right",
+      image: null,
+      currentClub: "Atalanta",
+      currentLeague: "Serie A",
+      feeMin: 38, feeMax: 47, feeCurrency: "£m",
+      marketValue: 35,
+      wageBand: "C",
+      contractExpiry: "2029-06-30",
+      releaseClause: null,
+      contractNote: "Atalanta-owned, voted among Serie A's best defenders this season; reportedly offered to Liverpool before Chelsea moved with a bid worth more than £47m. Earlier reporting had Liverpool told a package nearer £38.8m would do it. The Chelsea move is not finalised, with the player yet to give the green light.",
+      probability: 30,
+      heatTier: "cool",
+      sources: [
+        { name: "This Is Anfield",  tier: "A" },
+        { name: "Empire of the Kop", tier: "B" },
+        { name: "Fabrizio Romano",  tier: "S" },
+      ],
+      lastUpdated: "2026-06-26",
+      rumorNote:
+        "Bergamo · 26 Jun — the right-back line finally moves, if only for someone else. This Is Anfield reports Liverpool were 'offered' the 21-year-old Italy defender before Chelsea stepped in with a bid above £47m, and Romano stresses the move is not done, the player still to approve it. That gap is the Reds' opening. The need is real, Bradley's rehab indoors and Frimpong's first English season stop-start, and a recruitment desk that hijacked the Munoz deal will not flinch at gatecrashing a near-done one. For now the interest is real but second-hand, Chelsea ahead, Liverpool watching for the hesitation.",
+      positionFit: {
+        replaces: "Right-back depth (Bradley out, Frimpong unsettled)",
+        competesWith: ["Frimpong", "Bradley", "Geertruida"],
+        depthAfter: "Frimpong · Palestra · Bradley",
+      },
+      stats: {
+        apps: 33, goals: 2, assists: 5,
+        tacklesPer90: 2.3, passCompletion: 85, progressiveCarries: 4.1,
+        cleanSheets: 8, xG: 1.4,
       },
     },
     {
@@ -1494,7 +1534,7 @@ export const TRANSFER_TARGETS = {
       probability: 92,
       heatTier: "hot",
       sources: [{ name: "Al Jazeera", tier: "A" }, { name: "Football365", tier: "B" }, { name: "This Is Anfield", tier: "A" }],
-      note: "Thu 25 Jun — top of the group, with Iran to come. Egypt lead Group G after Sunday's 3-1 of New Zealand, Salah scoring and assisting for a first-ever World Cup win, a knockout berth within reach before Friday's finale against Iran in Seattle. His next club stays unsettled: alongside the framed Fenerbahce package (a three-year deal worth around €90m/£77m), fresh reporting still floats Saudi Arabia as the likeliest landing spot, with MLS and other European clubs circling. Out of contract on June 30, the captain keeps the final word for after the tournament.",
+      note: "Fri 26 Jun — the finale, and the field narrows. Egypt, top of Group G after Sunday's 3-1 of New Zealand with Salah scoring and assisting, face Iran in Seattle with a first knockout berth on the line. His next club is tilting: The National now frames Saudi Arabia as the frontrunner, commercially and symbolically aligned, with Salah said to have given initial approval under his conditions, while Fenerbahce keep a three-year package framed after president Aziz Yildirim pledged to finance it. Out of contract on June 30, the captain keeps the final word for after the tournament.",
     },
     {
       id: "gomez-out",
