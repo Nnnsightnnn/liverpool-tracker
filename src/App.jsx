@@ -348,12 +348,13 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday, and the rebuild has its record in sight. Liverpool and Yan
-          Diomandé have agreed personal terms, a fee near a hundred and twenty-eight
-          million the last thing between the teenager and Anfield, and a deal that
-          would pass Isak's as English football's most expensive. A right-back hunt
-          opens behind it. Mohamed Salah meets Iran today, the farewell nearing its
-          final act. A month from Nashville, every front moves at once.
+          Saturday, and the season's loudest news comes from Seattle. Mohamed
+          Salah, his hamstring strapped, watched Egypt draw Iran and reach a World
+          Cup knockout round for the first time in their history, Australia next. At
+          home the rebuild grinds on: the Diomandé record move stalled on a fee, a
+          right-back search suddenly urgent, and Andoni Iraola's calendar now set, a
+          daunting opener at Newcastle in August. A month from Nashville, every front
+          moves at once.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,19 +369,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and a pursuit has become a near-purchase. Liverpool and Yan Diomandé
-              have agreed personal terms; the French reporting calls it a single step
-              from done. The step is a number, near a hundred and twenty-eight
-              million, the figure that would lift the teenager past Alexander Isak as
-              the most expensive footballer England has ever bought. Leipzig will not
-              name their price, and so the staring contest holds. Behind it a quieter
-              need has surfaced, a right-back, with Chelsea moving first for Atalanta's
-              Marco Palestra and Liverpool watching for the hesitation that lets them
-              gatecrash. At the tournament the goodbye runs its course, Mohamed Salah
-              top of his group with Iran today and his next address narrowing toward
-              Saudi Arabia. One deal almost closed, one need newly open, and a captain
-              counting down.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and the season's biggest story is wearing another country's colours.
+              Mohamed Salah, withdrawn after an hour with his left hamstring strapped,
+              watched Egypt draw Iran 1-1 and reach the World Cup's last thirty-two for
+              the first time in their history, a knockout date with Australia to come
+              and his camp insisting the injury is only caution. Behind the tournament
+              the window will not quiet. Yan Diomandé's record move has hardened into a
+              staring contest over a fee, Leipzig dug in near a hundred and twelve
+              million while the teenager leans on his club to leave. A right-back search,
+              ignored all summer, is suddenly live. And the calendar for what comes next
+              is fixed: Andoni Iraola opens away at Newcastle in August and closes, in a
+              flourish the schedule could not resist, at home to the Bournemouth side he
+              left. A captain counting down to June the thirtieth, and a club counting up
+              to July.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3110,7 +3112,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The yes was the easy part."
+        "Some goodbyes come with a date."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
