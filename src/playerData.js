@@ -528,7 +528,7 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "Bouaddi On The Midfield Longlist As Liverpool And Arsenal Track The Lille Teenager (Liverpool.com / GiveMeSport, reported this week)",
+      title: "Bouaddi On The Midfield Longlist As Liverpool And Arsenal Track The Lille Teenager (Liverpool.com / GiveMeSport, tracked this window)",
       detail:
         "A name for the deeper rebuild. Liverpool are among the clubs monitoring Ayyoub Bouaddi, the 18-year-old Lille and Morocco holding midfielder, with Arsenal pushing the same profile after a roughly £60m bid was rebuffed. A December extension to 2029 hands Lille leverage at around €70m, and the player's own preference is reported to tilt toward PSG, leaving the Reds' interest real but well behind the Diomandé and right-back files. He impressed bossing midfield as Morocco held Brazil; the talent is not the question, the queue is.",
       category: "transfers",

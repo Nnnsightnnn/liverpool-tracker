@@ -140,7 +140,7 @@ export const PLAYER_EVIDENCE = {
   15: "Left out of Hungary's WC squad",        // Szoboszlai
   16: "Staying · 2nd Inter bid rejected",      // Jones
   17: "Out of the WC injured · Japan",         // Endo
-  18: "Caught the eye at the WC · £116m",      // Wirtz
+  18: "Caught the eye at the WC · £115m",      // Wirtz
   19: "Hamstring · missed all season",         // Bajcetic
   20: "Academy prospect · 5 senior apps",      // Nyoni
   21: "Egypt into last 32 · hamstring scare",  // Salah
