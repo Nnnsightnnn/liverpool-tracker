@@ -23,10 +23,10 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the first-choice XI Liverpool closed the
     // campaign with, the baseline a summer rebuild will reshape. 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Sat Jun 27: Salah and Egypt
-    // reach the World Cup last 32 for the first time (hamstring scare, subbed at
-    // 57'); the Diomandé deal hardens into a fee fight as Leipzig dig in near £112m;
-    // the right-back search moves with Dumfries and Geertruida floated; Jones staying.
+    // backup look — Slot favoured 4-2-3-1. Refreshed Sun Jun 28: the Diomandé deal
+    // wobbles as the winger is reported to favour Real Madrid and Leipzig push toward
+    // €148m, with Liverpool working alternatives (Fernandez-Pardo, El Mala, Minteh);
+    // Salah's muscle strain clouds Egypt's last-32 tie with Australia; Jones staying.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -61,10 +61,10 @@ export const FORMATIONS = {
     // through the run-in — is shown as the first-choice XI Liverpool finished
     // the campaign with after Sunday's 1-1 with Brentford, NOT as a prediction
     // for a coming fixture (the next match is a pre-season friendly on July
-    // 25). Refreshed Sat Jun 27: Salah and Egypt are through to the World Cup last
-    // 32 for the first time (he was subbed at 57' with his hamstring strapped); the
-    // Diomandé deal idles on a fee as Leipzig hold near £112m; the right-back search
-    // moves with Dumfries and Geertruida floated; Jones staying; Inácio leads at CB.
+    // 25). Refreshed Sun Jun 28: the marquee Diomandé deal wobbles as the winger is
+    // reported to favour Real Madrid and Leipzig push toward €148m, with Liverpool
+    // working alternatives; Salah's muscle strain clouds Egypt's last-32 tie with
+    // Australia; Jones staying; Inácio leads the centre-back board; Elliott back.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -117,11 +117,11 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-06-27
-// (Sat, post-season: Salah and Egypt reach the World Cup last 32 for the first
-// time, he was subbed at 57' with his hamstring strapped; the Diomandé deal
-// hardens into a fee fight as Leipzig hold near £112m; the right-back search
-// moves with Dumfries and Geertruida floated; Camavinga reluctant; Jones staying.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-06-28
+// (Sun, post-season: the Diomandé deal wobbles as the winger is reported to favour
+// Real Madrid and Leipzig push toward €148m, with Liverpool working alternatives;
+// Salah's muscle strain clouds Egypt's last-32 tie with Australia; the right-back
+// search runs on (Dumfries, Geertruida); Camavinga reluctant; Jones staying.)
 export const PLAYER_EVIDENCE = {
   1:  "Brazil's No. 1 · staying at Anfield",   // Alisson
   2:  "Loan likely now Alisson stays",         // Mamardashvili
@@ -143,7 +143,7 @@ export const PLAYER_EVIDENCE = {
   18: "Caught the eye at the WC · £115m",      // Wirtz
   19: "Hamstring · missed all season",         // Bajcetic
   20: "Academy prospect · 5 senior apps",      // Nyoni
-  21: "Egypt into last 32 · hamstring scare",  // Salah
+  21: "Egypt last 32 · muscle strain · doubt",  // Salah
   22: "Exit unlikely · stays in Iraola's plans", // Gakpo
   23: "WC boost for Iraola · fitness back",    // Isak
   24: "Ruptured Achilles · out 9-12 months",   // Ekitike
@@ -163,10 +163,10 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys (4-2-3-1). With the season over these now read as confidence that
 // the slot's occupant remains a first-choice starter into 2026-27 — LOW where
 // the player is leaving (Salah, Robertson, now Konaté) or whose future is open
-// (Mac Allister). (Refreshed Sat Jun 27: Salah and Egypt reach the World Cup last
-// 32 for the first time, he was subbed with a hamstring scare; the Diomandé deal
-// idles on a fee as Leipzig hold near £112m; the right-back search moves with
-// Dumfries and Geertruida floated; Jones staying; Konaté's Madrid move confirmed.)
+// (Mac Allister). (Refreshed Sun Jun 28: the Diomandé deal wobbles as the winger is
+// reported to favour Real Madrid and Leipzig push toward €148m, with Liverpool
+// working alternatives; Salah's muscle strain clouds Egypt's last-32 tie; the
+// right-back search runs on (Dumfries, Geertruida); Jones staying; Konaté gone.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · snubs Juventus · staying as No. 1
   LB:  "Low",    // Robertson gone (free to Spurs, done) · Kerkez inherits
@@ -177,7 +177,7 @@ export const SLOT_CONFIDENCE = {
   RDM: "Medium", // Szoboszlai · mainstay, extension still pending
   LAM: "Medium", // Wirtz · injury-hit debut season · 'untouchable' per club
   CAM: "Low",    // Mac Allister · still between the two Madrids · Camavinga eyed too
-  RAM: "Low",    // Salah departing (Egypt at WC) · Diomandé deal stalled on fee
+  RAM: "Low",    // Salah departing (Egypt at WC) · Diomandé now leaning Real Madrid
   ST:  "Medium", // Isak · £100m striker · injury-wrecked first season
 };
 
@@ -195,7 +195,7 @@ export const SLOT_RATIONALE = {
   RDM: "Tue Jun 2 — Szoboszlai closes a heavy-minutes season of 48 appearances as a midfield mainstay; a contract extension is still expected to be agreed over the summer.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
   CAM: "Wed Jun 17 — the denial gets louder: Mac Allister's father and agent Carlos has again branded the exit talk 'false,' insisting no approaches were declined because none were made, even as Liverpool stay quietly open to a sale near €120m if funds are needed. Real Madrid hold the warmest interest in a midfielder with two years left and no extension talks open, a fork pointed against Gravenberch's fresh terms.",
-  RAM: "Sat Jun 27 — the replacement idles on a number: personal terms are agreed with Yan Diomandé, but the deal has hardened into a fee fight, Leipzig digging in near £112m and content to keep the 19-year-old a year longer unless their figure arrives, while the player leans on his club and PSG hover. The incumbent leaves into the unknown: Salah was withdrawn at 57' with his hamstring strapped as Egypt drew Iran and reached the World Cup last 32 for the first time, a tie with Australia to come and his Anfield exit four days off. Trincão and Barcola idle as the wider winger options.",
+  RAM: "Sun Jun 28 — the replacement search wobbles: personal terms were agreed with Yan Diomandé, but the 19-year-old is now reported to favour Real Madrid over Liverpool and PSG, Leipzig's demand stretching toward €148m, and the Reds are working cheaper alternatives (Fernandez-Pardo, El Mala, Minteh) to keep their leverage. The incumbent leaves into the unknown: Salah's muscle strain, now confirmed, clouds his Egypt last-32 tie with Australia in Arlington on July 4, his Anfield exit two days off. Trincão and Barcola idle as the wider winger options.",
   RB:  "Sat Jun 27 — the search finally turns to names of its own: after watching Chelsea move first for Atalanta's Palestra, Liverpool are now sounding Inter's Denzel Dumfries, who carries a release clause, and Leipzig's Lutsharel Geertruida (as low as ~£17m), with an insider this week saying plainly that change is needed on the flank. Bradley's knee rehab is still indoors with no return date and Frimpong is cast as a backup. Jones, now staying after a second Inter bid was rejected, remains emergency cover here.",
   ST:  "Tue Jun 2 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
 };
@@ -223,8 +223,8 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  reason: "Sat Jun 27 — the XI is still the side that closed 2025-26 after the May 24 1-1 with Brentford, held as the baseline while Andoni Iraola's rebuild trades around it. The freshest news is at the World Cup: Salah was withdrawn at 57' with his hamstring strapped as Egypt drew Iran and reached the last 32 for the first time in their history, a tie with Australia next and his Anfield exit due on June 30 (the camp call the injury precautionary). In the market the priority deal has hardened into a fee fight: personal terms are agreed with Yan Diomandé, but Leipzig are digging in near £112m while the teenager leans on his club and PSG hover. The long-ignored right-back search finally moved, the Reds sounding Inter's Denzel Dumfries (release clause) and Leipzig's Geertruida after Chelsea got to Palestra first. Confidence stays Low until more bodies arrive and the World Cup contingent returns: the centre-back board has Inácio leading after Konaté's confirmed Madrid exit and the loss of Marc Guéhi to Manchester City, while Camavinga (~£52m) idles on the player's reluctance. Jones is staying after a second Inter bid was rejected; Endo is home injured and Szoboszlai absent from the finals, so reintegration will be staggered. The season's calendar is set: a daunting opener at Newcastle on August 23. Next fixture: pre-season vs Sunderland in Nashville, July 25.",
-  pundit_sources: ["Al Jazeera", "Sky Sports", "Football365", "TeamTalk", "This Is Anfield", "Anfield Watch", "Liverpool.com", "ESPN", "The Telegraph", "Fabrizio Romano"],
-  agreement_rate: 0.61,
-  generated_at: "2026-06-27T09:30:00Z",
+  reason: "Sun Jun 28 — the XI is still the side that closed 2025-26 after the May 24 1-1 with Brentford, held as the baseline while Andoni Iraola's rebuild trades around it. The freshest news is a setback: the marquee winger deal has wobbled, with Yan Diomandé now reported to favour Real Madrid over Liverpool and PSG and Leipzig's demand stretching toward €148m, so the Reds are 'actively working' on cheaper alternatives (Fernandez-Pardo, El Mala, Minteh) to keep their leverage. At the World Cup, Salah's muscle strain is now confirmed, leaving his Egypt last-32 tie with Australia in Arlington on July 4 in doubt as his Anfield exit nears on June 30. The right-back search runs on (Dumfries, Geertruida) with Bradley's rehab dragging; the centre-back board still leads with Inácio after Konaté's confirmed Madrid exit; Camavinga (~£52m) idles on the player's reluctance. Jones is staying after a second Inter bid was rejected, and Harvey Elliott returns from his Villa loan with Iraola 'willing to give him a chance.' Confidence stays Low until more bodies arrive and the World Cup contingent filters back. The season's calendar is set: a daunting opener at Newcastle on August 23. Next fixture: pre-season vs Sunderland in Nashville, July 25.",
+  pundit_sources: ["Football365", "Liverpool.com", "Ben Jacobs", "football360", "Sky Sports", "This Is Anfield", "Goal", "GiveMeSport", "ESPN", "Fabrizio Romano"],
+  agreement_rate: 0.59,
+  generated_at: "2026-06-28T08:40:00Z",
 };

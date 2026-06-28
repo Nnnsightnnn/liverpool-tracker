@@ -348,13 +348,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday, and the season's loudest news comes from Seattle. Mohamed
-          Salah, his hamstring strapped, watched Egypt draw Iran and reach a World
-          Cup knockout round for the first time in their history, Australia next. At
-          home the rebuild grinds on: the Diomandé record move stalled on a fee, a
-          right-back search suddenly urgent, and Andoni Iraola's calendar now set, a
-          daunting opener at Newcastle in August. A month from Nashville, every front
-          moves at once.
+          Sunday, and the rebuild's defining pursuit has hit a snag. Yan Diomandé,
+          the teenager picked to inherit Salah's wing, is now reported to favour Real
+          Madrid as Leipzig's price climbs toward a hundred and forty-eight million,
+          and Liverpool quietly line up alternatives. Salah, a muscle strain confirmed
+          and two days from free agency, waits on a World Cup in Texas. Four weeks
+          until Nashville, and the market will not sit still.
         </p>
 
         <StatStrip stats={stats} />
@@ -369,20 +368,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and the season's biggest story is wearing another country's colours.
-              Mohamed Salah, withdrawn after an hour with his left hamstring strapped,
-              watched Egypt draw Iran 1-1 and reach the World Cup's last thirty-two for
-              the first time in their history, a knockout date with Australia to come
-              and his camp insisting the injury is only caution. Behind the tournament
-              the window will not quiet. Yan Diomandé's record move has hardened into a
-              staring contest over a fee, Leipzig dug in near a hundred and twelve
-              million while the teenager leans on his club to leave. A right-back search,
-              ignored all summer, is suddenly live. And the calendar for what comes next
-              is fixed: Andoni Iraola opens away at Newcastle in August and closes, in a
-              flourish the schedule could not resist, at home to the Bournemouth side he
-              left. A captain counting down to June the thirtieth, and a club counting up
-              to July.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and the player Liverpool spent the summer chasing is looking the other
+              way. Yan Diomandé, nineteen and two-footed, was the chosen heir to Mohamed
+              Salah's right wing, but the reporting now has him dreaming of Real Madrid
+              while RB Leipzig push their valuation toward a hundred and forty-eight
+              million, and a recruitment desk that dislikes being cornered has begun
+              naming alternatives: Fernandez-Pardo, El Mala, Minteh, leverage made
+              visible. Behind the chase, the farewells keep their own clock. Salah, a
+              muscle strain now confirmed, waits to learn if he will face Australia in
+              Arlington next Saturday, his Anfield contract lapsing on Tuesday either
+              way. The centre-back board still leads with Inácio, the right-back file
+              stays open, and Curtis Jones, twice bid for and twice kept, reports for
+              pre-season after all. Four weeks before Nashville, the squad is a question
+              the manager has barely a month to answer.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -390,7 +389,7 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a marquee winger deal stalled on a fee; a
+              week. There is a marquee winger deal suddenly contested; a
               recruiter's list of what a thinning spine still needs; eight Reds
               scattered through a World Cup that keeps them in other colours; a
               talisman weighing his next club from afar; and a homegrown midfielder
@@ -3112,7 +3111,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Some goodbyes come with a date."
+        "The chosen heir is looking elsewhere."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
