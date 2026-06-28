@@ -607,9 +607,9 @@ export const TRANSFER_TARGETS = {
         { name: "TeamTalk",      tier: "B" },
         { name: "ESPN",          tier: "A" },
       ],
-      lastUpdated: "2026-06-26",
+      lastUpdated: "2026-06-28",
       rumorNote:
-        "Madrid · 26 Jun — willing club, unwilling player, unchanged. Now the Diomandé winger deal has its agreement, the midfield line idles on the same stalemate it opened the week with: Real Madrid will sell Camavinga around £52m to fund their reshape, Liverpool keep contact alongside Manchester United and Chelsea, yet the 23-year-old is still said to prefer staying and fighting for his place. The fit is unarguable, a press-resistant carrier who can double as left-back cover, his price softened by two injury-bruised seasons and a France World Cup snub. The opening is clean. The green light, from the only person who can give it, has not arrived.",
+        "Madrid · 28 Jun — willing club, unwilling player, unchanged. With the Diomandé winger deal now wobbling, the midfield line idles on the same stalemate it opened the week with: Real Madrid will sell Camavinga around £52m to fund their reshape, Liverpool keep contact alongside Manchester United and Chelsea, yet the 23-year-old is still said to prefer staying and fighting for his place. The fit is unarguable, a press-resistant carrier who can double as left-back cover, his price softened by two injury-bruised seasons and a France World Cup snub. The opening is clean. The green light, from the only person who can give it, has not arrived.",
       positionFit: {
         replaces: "Jones (if sold) / midfield depth",
         competesWith: ["Gravenberch", "Mac Allister", "Szoboszlai"],
