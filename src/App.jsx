@@ -348,11 +348,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday, and the rebuild's defining pursuit has hit a snag. Yan Diomandé,
-          the teenager picked to inherit Salah's wing, is now reported to favour Real
-          Madrid as Leipzig's price climbs toward a hundred and forty-eight million,
-          and Liverpool quietly line up alternatives. Salah, a muscle strain confirmed
-          and two days from free agency, waits on a World Cup in Texas. Four weeks
+          Monday, and the pursuit that shaped the summer is over. Yan Diomandé,
+          the teenager picked to inherit Salah's wing, has chosen Paris, and Liverpool
+          turn instead to Bradley Barcola. Salah, a hamstring strain now confirmed and
+          a day from free agency, waits on a World Cup knockout in Texas. Four weeks
           until Nashville, and the market will not sit still.
         </p>
 
@@ -368,20 +367,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and the player Liverpool spent the summer chasing is looking the other
-              way. Yan Diomandé, nineteen and two-footed, was the chosen heir to Mohamed
-              Salah's right wing, but the reporting now has him dreaming of Real Madrid
-              while RB Leipzig push their valuation toward a hundred and forty-eight
-              million, and a recruitment desk that dislikes being cornered has begun
-              naming alternatives: Fernandez-Pardo, El Mala, Minteh, leverage made
-              visible. Behind the chase, the farewells keep their own clock. Salah, a
-              muscle strain now confirmed, waits to learn if he will face Australia in
-              Arlington next Saturday, his Anfield contract lapsing on Tuesday either
-              way. The centre-back board still leads with Inácio, the right-back file
-              stays open, and Curtis Jones, twice bid for and twice kept, reports for
-              pre-season after all. Four weeks before Nashville, the squad is a question
-              the manager has barely a month to answer.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and the player Liverpool spent the summer chasing has chosen someone
+              else. Yan Diomandé, nineteen and two-footed, was the appointed heir to
+              Mohamed Salah's right wing; the reporting now has him bound for Paris
+              Saint-Germain, who have agreed a five-year deal and left only the fee to
+              settle with Leipzig. So the desk pivots, hard, onto Bradley Barcola, the
+              PSG forward who has asked to leave and is said to prefer Anfield. A second
+              door shut the same day, Maghnes Akliouche telling the Reds his priority is
+              also Paris. Behind the chase, the farewells keep their own clock: Salah, a
+              hamstring strain confirmed, waits to learn if he faces Australia in
+              Arlington on Friday, his Anfield contract lapsing on Tuesday either way.
+              The centre-back board still leads with Inácio, the right-back file stays
+              open, and Curtis Jones now has Forest as well as Inter to weigh. Four
+              weeks before Nashville, the squad is a question the manager has barely a
+              month to answer.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -389,11 +389,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a marquee winger deal suddenly contested; a
+              week. There is a marquee winger pursuit suddenly lost; a
               recruiter's list of what a thinning spine still needs; eight Reds
               scattered through a World Cup that keeps them in other colours; a
               talisman weighing his next club from afar; and a homegrown midfielder
-              a club now hopes to keep. Read slowly. The window is open.
+              now weighing whether to go. Read slowly. The window is open.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3111,7 +3111,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The chosen heir is looking elsewhere."
+        "The heir chose Paris; the plan changes."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

@@ -23,10 +23,10 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the first-choice XI Liverpool closed the
     // campaign with, the baseline a summer rebuild will reshape. 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Sun Jun 28: the Diomandé deal
-    // wobbles as the winger is reported to favour Real Madrid and Leipzig push toward
-    // €148m, with Liverpool working alternatives (Fernandez-Pardo, El Mala, Minteh);
-    // Salah's muscle strain clouds Egypt's last-32 tie with Australia; Jones staying.
+    // backup look — Slot favoured 4-2-3-1. Refreshed Mon Jun 29: the Diomandé chase
+    // collapsed as the winger chose PSG, sending Liverpool onto Bradley Barcola;
+    // Salah's hamstring strain clouds Egypt's last-32 tie with Australia (Fri Jul 3);
+    // Jones now draws Nottingham Forest interest alongside Inter's.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -61,10 +61,10 @@ export const FORMATIONS = {
     // through the run-in — is shown as the first-choice XI Liverpool finished
     // the campaign with after Sunday's 1-1 with Brentford, NOT as a prediction
     // for a coming fixture (the next match is a pre-season friendly on July
-    // 25). Refreshed Sun Jun 28: the marquee Diomandé deal wobbles as the winger is
-    // reported to favour Real Madrid and Leipzig push toward €148m, with Liverpool
-    // working alternatives; Salah's muscle strain clouds Egypt's last-32 tie with
-    // Australia; Jones staying; Inácio leads the centre-back board; Elliott back.
+    // 25). Refreshed Mon Jun 29: the marquee Diomandé chase collapsed as the winger
+    // chose PSG, sending Liverpool hard onto Bradley Barcola; Salah's hamstring strain
+    // clouds Egypt's last-32 tie with Australia (Fri Jul 3); Jones now draws Forest
+    // interest alongside Inter's; Inácio leads the centre-back board; Elliott back.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -117,11 +117,11 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-06-28
-// (Sun, post-season: the Diomandé deal wobbles as the winger is reported to favour
-// Real Madrid and Leipzig push toward €148m, with Liverpool working alternatives;
-// Salah's muscle strain clouds Egypt's last-32 tie with Australia; the right-back
-// search runs on (Dumfries, Geertruida); Camavinga reluctant; Jones staying.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-06-29
+// (Mon, post-season: the Diomandé chase collapsed as the winger chose PSG, sending
+// Liverpool onto Bradley Barcola; Salah's hamstring strain clouds Egypt's last-32 tie
+// with Australia (Fri Jul 3); the right-back search runs on (Dumfries, Geertruida);
+// Camavinga reluctant; Jones now draws Forest interest alongside Inter's.)
 export const PLAYER_EVIDENCE = {
   1:  "Brazil's No. 1 · staying at Anfield",   // Alisson
   2:  "Loan likely now Alisson stays",         // Mamardashvili
@@ -138,12 +138,12 @@ export const PLAYER_EVIDENCE = {
   13: "No extension talks · ~€120m tag",       // Mac Allister
   14: "Impressed at the WC · midfield base",   // Gravenberch
   15: "Left out of Hungary's WC squad",        // Szoboszlai
-  16: "Staying · 2nd Inter bid rejected",      // Jones
+  16: "Forest interest near £40m · Inter linger", // Jones
   17: "Out of the WC injured · Japan",         // Endo
   18: "Caught the eye at the WC · £115m",      // Wirtz
   19: "Hamstring · missed all season",         // Bajcetic
   20: "Academy prospect · 5 senior apps",      // Nyoni
-  21: "Egypt last 32 · muscle strain · doubt",  // Salah
+  21: "Egypt last 32 · hamstring · doubt",       // Salah
   22: "Exit unlikely · stays in Iraola's plans", // Gakpo
   23: "WC boost for Iraola · fitness back",    // Isak
   24: "Ruptured Achilles · out 9-12 months",   // Ekitike
@@ -163,10 +163,10 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys (4-2-3-1). With the season over these now read as confidence that
 // the slot's occupant remains a first-choice starter into 2026-27 — LOW where
 // the player is leaving (Salah, Robertson, now Konaté) or whose future is open
-// (Mac Allister). (Refreshed Sun Jun 28: the Diomandé deal wobbles as the winger is
-// reported to favour Real Madrid and Leipzig push toward €148m, with Liverpool
-// working alternatives; Salah's muscle strain clouds Egypt's last-32 tie; the
-// right-back search runs on (Dumfries, Geertruida); Jones staying; Konaté gone.)
+// (Mac Allister). (Refreshed Mon Jun 29: the Diomandé chase collapsed as the winger
+// chose PSG, sending Liverpool onto Bradley Barcola; Salah's hamstring strain clouds
+// Egypt's last-32 tie (Fri Jul 3); the right-back search runs on (Dumfries,
+// Geertruida); Jones draws Forest interest; Konaté gone.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · snubs Juventus · staying as No. 1
   LB:  "Low",    // Robertson gone (free to Spurs, done) · Kerkez inherits
@@ -177,7 +177,7 @@ export const SLOT_CONFIDENCE = {
   RDM: "Medium", // Szoboszlai · mainstay, extension still pending
   LAM: "Medium", // Wirtz · injury-hit debut season · 'untouchable' per club
   CAM: "Low",    // Mac Allister · still between the two Madrids · Camavinga eyed too
-  RAM: "Low",    // Salah departing (Egypt at WC) · Diomandé now leaning Real Madrid
+  RAM: "Low",    // Salah departing (Egypt at WC) · Diomandé gone to PSG · Barcola now the target
   ST:  "Medium", // Isak · £100m striker · injury-wrecked first season
 };
 
@@ -195,8 +195,8 @@ export const SLOT_RATIONALE = {
   RDM: "Tue Jun 2 — Szoboszlai closes a heavy-minutes season of 48 appearances as a midfield mainstay; a contract extension is still expected to be agreed over the summer.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
   CAM: "Wed Jun 17 — the denial gets louder: Mac Allister's father and agent Carlos has again branded the exit talk 'false,' insisting no approaches were declined because none were made, even as Liverpool stay quietly open to a sale near €120m if funds are needed. Real Madrid hold the warmest interest in a midfielder with two years left and no extension talks open, a fork pointed against Gravenberch's fresh terms.",
-  RAM: "Sun Jun 28 — the replacement search wobbles: personal terms were agreed with Yan Diomandé, but the 19-year-old is now reported to favour Real Madrid over Liverpool and PSG, Leipzig's demand stretching toward €148m, and the Reds are working cheaper alternatives (Fernandez-Pardo, El Mala, Minteh) to keep their leverage. The incumbent leaves into the unknown: Salah's muscle strain, now confirmed, clouds his Egypt last-32 tie with Australia in Arlington on July 4, his Anfield exit two days off. Trincão and Barcola idle as the wider winger options.",
-  RB:  "Sat Jun 27 — the search finally turns to names of its own: after watching Chelsea move first for Atalanta's Palestra, Liverpool are now sounding Inter's Denzel Dumfries, who carries a release clause, and Leipzig's Lutsharel Geertruida (as low as ~£17m), with an insider this week saying plainly that change is needed on the flank. Bradley's knee rehab is still indoors with no return date and Frimpong is cast as a backup. Jones, now staying after a second Inter bid was rejected, remains emergency cover here.",
+  RAM: "Mon Jun 29 — the replacement search loses its man: personal terms were agreed with Yan Diomandé, but the 19-year-old has chosen PSG over Liverpool and Real Madrid, the French champions reaching a verbal agreement on a five-year deal. So the Reds pivot hard onto Bradley Barcola, the PSG forward who has asked to leave and is said to favour Anfield over Arsenal. The incumbent leaves into the unknown: Salah's hamstring strain, now confirmed, clouds his Egypt last-32 tie with Australia in Arlington on Friday, his Anfield exit a day off. Trincão idles as a wider winger option.",
+  RB:  "Sat Jun 27 — the search finally turns to names of its own: after watching Chelsea move first for Atalanta's Palestra, Liverpool are now sounding Inter's Denzel Dumfries, who carries a release clause, and Leipzig's Lutsharel Geertruida (as low as ~£17m), with an insider this week saying plainly that change is needed on the flank. Bradley's knee rehab is still indoors with no return date and Frimpong is cast as a backup. Jones, now drawing Nottingham Forest interest near £40m alongside Inter's, remains emergency cover here.",
   ST:  "Tue Jun 2 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
 };
 
@@ -223,8 +223,8 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  reason: "Sun Jun 28 — the XI is still the side that closed 2025-26 after the May 24 1-1 with Brentford, held as the baseline while Andoni Iraola's rebuild trades around it. The freshest news is a setback: the marquee winger deal has wobbled, with Yan Diomandé now reported to favour Real Madrid over Liverpool and PSG and Leipzig's demand stretching toward €148m, so the Reds are 'actively working' on cheaper alternatives (Fernandez-Pardo, El Mala, Minteh) to keep their leverage. At the World Cup, Salah's muscle strain is now confirmed, leaving his Egypt last-32 tie with Australia in Arlington on July 4 in doubt as his Anfield exit nears on June 30. The right-back search runs on (Dumfries, Geertruida) with Bradley's rehab dragging; the centre-back board still leads with Inácio after Konaté's confirmed Madrid exit; Camavinga (~£52m) idles on the player's reluctance. Jones is staying after a second Inter bid was rejected, and Harvey Elliott returns from his Villa loan with Iraola 'willing to give him a chance.' Confidence stays Low until more bodies arrive and the World Cup contingent filters back. The season's calendar is set: a daunting opener at Newcastle on August 23. Next fixture: pre-season vs Sunderland in Nashville, July 25.",
-  pundit_sources: ["Football365", "Liverpool.com", "Ben Jacobs", "football360", "Sky Sports", "This Is Anfield", "Goal", "GiveMeSport", "ESPN", "Fabrizio Romano"],
-  agreement_rate: 0.59,
-  generated_at: "2026-06-28T08:40:00Z",
+  reason: "Mon Jun 29 — the XI is still the side that closed 2025-26 after the May 24 1-1 with Brentford, held as the baseline while Andoni Iraola's rebuild trades around it. The freshest news is a blow: the marquee winger chase has collapsed, with Yan Diomandé choosing PSG over Liverpool and Real Madrid (Paris agreeing a five-year deal), so the Reds pivot hard onto Bradley Barcola, the PSG forward who has asked to leave and is said to favour Anfield over Arsenal. A second wide option shut the same day, Monaco's Maghnes Akliouche telling Liverpool his priority is also Paris. At the World Cup, Salah's hamstring strain is now confirmed, leaving his Egypt last-32 tie with Australia in Arlington on Friday in doubt as his Anfield exit nears on Tuesday. The right-back search runs on (Dumfries, Geertruida) with Bradley's rehab dragging; the centre-back board still leads with Inácio after Konaté's confirmed Madrid exit; Camavinga (~£52m) idles on the player's reluctance. Curtis Jones now draws Nottingham Forest interest near £40m alongside Inter's. Confidence stays Low until more bodies arrive and the World Cup contingent filters back. The season's calendar is set: a daunting opener at Newcastle on August 23. Next fixture: pre-season vs Sunderland in Nashville, July 25.",
+  pundit_sources: ["The Athletic", "Fabrizio Romano", "This Is Anfield", "TeamTalk", "BBC Sport", "Talksport", "Goal", "GiveMeSport", "ESPN", "Liverpool.com"],
+  agreement_rate: 0.58,
+  generated_at: "2026-06-29T08:30:00Z",
 };
