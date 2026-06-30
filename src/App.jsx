@@ -348,11 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, and the pursuit that shaped the summer is over. Yan Diomandé,
-          the teenager picked to inherit Salah's wing, has chosen Paris, and Liverpool
-          turn instead to Bradley Barcola. Salah, a hamstring strain now confirmed and
-          a day from free agency, waits on a World Cup knockout in Texas. Four weeks
-          until Nashville, and the market will not sit still.
+          Tuesday, and a contract runs out where a career stood. Mohamed Salah
+          leaves Liverpool a free agent today, eight years closing by the calendar;
+          Konaté and Robertson walk on the same date. The desk looks forward all the
+          same, opening talks for Bradley Barcola and sounding out Bruno Guimarães.
+          Less than four weeks until Nashville, and the squad is half a question.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,21 +367,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and the player Liverpool spent the summer chasing has chosen someone
-              else. Yan Diomandé, nineteen and two-footed, was the appointed heir to
-              Mohamed Salah's right wing; the reporting now has him bound for Paris
-              Saint-Germain, who have agreed a five-year deal and left only the fee to
-              settle with Leipzig. So the desk pivots, hard, onto Bradley Barcola, the
-              PSG forward who has asked to leave and is said to prefer Anfield. A second
-              door shut the same day, Maghnes Akliouche telling the Reds his priority is
-              also Paris. Behind the chase, the farewells keep their own clock: Salah, a
-              hamstring strain confirmed, waits to learn if he faces Australia in
-              Arlington on Friday, his Anfield contract lapsing on Tuesday either way.
-              The centre-back board still leads with Inácio, the right-back file stays
-              open, and Curtis Jones now has Forest as well as Inter to weigh. Four
-              weeks before Nashville, the squad is a question the manager has barely a
-              month to answer.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and the date does what no ceremony did. Mohamed Salah's Liverpool
+              contract lapses today, eight years and a club's worth of goals ending in
+              the small print of an agreement struck back in March; on the same June
+              afternoon Ibrahima Konaté leaves for Madrid and Andy Robertson for
+              Tottenham, three of a title-winning spine gone for nothing at once. Salah
+              marks it from Texas, a hamstring strain leaving him a doubt for Egypt's
+              last-32 tie with Australia on Friday, his next club, he says through his
+              agent, still unchosen. The desk does not pause to mourn: with Diomandé
+              lost to Paris, Liverpool have opened talks for Bradley Barcola, sounded out
+              Bruno Guimarães and eyed a release clause ticking down on Dortmund's Nico
+              Schlotterbeck. The centre-back board still leads with Inácio; Curtis Jones
+              now has a moneyed Forest to weigh as well as Inter. Less than four weeks
+              before Nashville, the squad is a question the manager has barely a month to
+              answer.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3111,7 +3111,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The heir chose Paris; the plan changes."
+        "A date, not a goodbye."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
