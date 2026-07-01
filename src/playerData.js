@@ -453,7 +453,7 @@ export const STANDINGS_COMMENTARY = {
     "Newcastle": "Twelfth on 49, and the summer's seller: captain Bruno Guimarães draws Arsenal, while midfielder Sandro Tonali is chased by Tottenham with Liverpool briefly linked before cooling; the Magpies hold out for big fees. They host Iraola's Liverpool on opening day, August 23.",
     "Crystal Palace": "Fifteenth on points, in Europe by silverware; sold captain Marc Guéhi to Manchester City for £20m, closing the free-agent route Liverpool had hoped to wait out.",
     "Nott'm Forest": "Sixteenth, home of Murillo, who stays on Hughes's centre-back shortlist; flush with £116m from Anderson's sale to City, they are now readying a £40m move for Curtis Jones, though their lack of European football may give him pause.",
-    "Tottenham": "Survived in 17th, and Robertson's free transfer takes effect today; also pressing for West Ham's Mateus Fernandes, the midfielder Liverpool have sounded out.",
+    "Tottenham": "Survived in 17th, and Robertson's free transfer took effect on June 30; also pressing for West Ham's Mateus Fernandes and, now, Newcastle's Sandro Tonali.",
     "West Ham": "Relegated in 18th and the summer's busiest fire-sale aisle: Mateus Fernandes (Liverpool, United and Spurs all circling) and Crysencio Summerville both up for sale.",
     "Burnley": "Relegated, 22 points and straight back down.",
     "Wolves": "Bottom on 20, the season's worst side by every measure.",

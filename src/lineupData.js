@@ -23,10 +23,10 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the first-choice XI Liverpool closed the
     // campaign with, the baseline a summer rebuild will reshape. 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Mon Jun 29: the Diomandé chase
-    // collapsed as the winger chose PSG, sending Liverpool onto Bradley Barcola;
-    // Salah's hamstring strain clouds Egypt's last-32 tie with Australia (Fri Jul 3);
-    // Jones now draws Nottingham Forest interest alongside Inter's.
+    // backup look — Slot favoured 4-2-3-1. Refreshed Wed Jul 1: Galatasaray ready an
+    // official offer for captain Van Dijk (Reds insist he stays); Koundé becomes the
+    // ~£80m right-back target; Barcola now 'not for sale'; Salah a hamstring doubt for
+    // Egypt's last-32 tie with Australia (Fri Jul 3).
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -61,10 +61,10 @@ export const FORMATIONS = {
     // through the run-in — is shown as the first-choice XI Liverpool finished
     // the campaign with after Sunday's 1-1 with Brentford, NOT as a prediction
     // for a coming fixture (the next match is a pre-season friendly on July
-    // 25). Refreshed Mon Jun 29: the marquee Diomandé chase collapsed as the winger
-    // chose PSG, sending Liverpool hard onto Bradley Barcola; Salah's hamstring strain
-    // clouds Egypt's last-32 tie with Australia (Fri Jul 3); Jones now draws Forest
-    // interest alongside Inter's; Inácio leads the centre-back board; Elliott back.
+    // 25). Refreshed Wed Jul 1: Galatasaray ready an official offer for captain Van Dijk
+    // (Reds insist he stays); Koundé becomes the ~£80m right-back target; Barcola now
+    // 'not for sale'; Salah a hamstring doubt for Egypt's last-32 tie with Australia
+    // (Fri Jul 3); Inácio leads the centre-back board; Elliott back.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 6,    // Robertson (final LFC appearance · Spurs-bound)
@@ -117,11 +117,11 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-06-29
-// (Mon, post-season: the Diomandé chase collapsed as the winger chose PSG, sending
-// Liverpool onto Bradley Barcola; Salah's hamstring strain clouds Egypt's last-32 tie
-// with Australia (Fri Jul 3); the right-back search runs on (Dumfries, Geertruida);
-// Camavinga reluctant; Jones now draws Forest interest alongside Inter's.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-07-01
+// (Wed, post-season: Galatasaray ready an official offer for captain Van Dijk, who the
+// Reds insist stays; Koundé becomes the ~£80m right-back target; Barcola now 'not for
+// sale'; FSG tie Ngumoha to a new deal; Salah a hamstring doubt for Egypt's last-32 tie
+// with Australia (Fri Jul 3).)
 export const PLAYER_EVIDENCE = {
   1:  "Brazil's No. 1 · staying at Anfield",   // Alisson
   2:  "Loan likely now Alisson stays",         // Mamardashvili
@@ -163,16 +163,16 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys (4-2-3-1). With the season over these now read as confidence that
 // the slot's occupant remains a first-choice starter into 2026-27 — LOW where
 // the player is leaving (Salah, Robertson, now Konaté) or whose future is open
-// (Mac Allister). (Refreshed Mon Jun 29: the Diomandé chase collapsed as the winger
-// chose PSG, sending Liverpool onto Bradley Barcola; Salah's hamstring strain clouds
-// Egypt's last-32 tie (Fri Jul 3); the right-back search runs on (Dumfries,
-// Geertruida); Jones draws Forest interest; Konaté gone.)
+// (Mac Allister). (Refreshed Wed Jul 1: Galatasaray ready an official offer for captain
+// Van Dijk, who the Reds insist stays; Koundé becomes the ~£80m right-back target;
+// Barcola now 'not for sale'; Salah a hamstring doubt for Egypt's last-32 tie
+// (Fri Jul 3); Konaté and Robertson gone free.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · snubs Juventus · staying as No. 1
   LB:  "Low",    // Robertson gone (free to Spurs, done) · Kerkez inherits
   LCB: "Medium", // Van Dijk · Galatasaray exit talks · Reds insist he stays
   RCB: "Low",    // Konaté · Madrid move confirmed to 2030 · Inácio heads the list
-  RB:  "Medium", // Jones · now 'set to stay' after Inter's second bid rejected
+  RB:  "Medium", // Jones · Forest ready to meet £40m as he weighs the drop
   LDM: "High",   // Gravenberch · the season's most reliable midfielder
   RDM: "Medium", // Szoboszlai · mainstay, extension still pending
   LAM: "Medium", // Wirtz · injury-hit debut season · 'untouchable' per club
