@@ -341,18 +341,19 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 500, fontSize: 148,
           lineHeight: 0.92, letterSpacing: "-0.04em", marginBottom: 32, color: T.ivory,
         }}>
-          Anfield.<br /><em style={{ fontStyle: "italic", color: T.red }}>June 2026.</em>
+          Anfield.<br /><em style={{ fontStyle: "italic", color: T.red }}>July 2026.</em>
         </h1>
         <GoldRule style={{ marginBottom: 12 }} />
         <p className="cover-deck" style={{
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, and a contract runs out where a career stood. Mohamed Salah
-          leaves Liverpool a free agent today, eight years closing by the calendar;
-          Konaté and Robertson walk on the same date. The desk looks forward all the
-          same, opening talks for Bradley Barcola and sounding out Bruno Guimarães.
-          Less than four weeks until Nashville, and the squad is half a question.
+          Wednesday, and the summer finds a nerve nobody wanted pressed.
+          Galatasaray are courting Virgil van Dijk on a free, and Liverpool,
+          already shorn of Salah, Konaté and Robertson, swear their captain
+          stays. The desk answers the losses all the same, weighing an
+          eighty-million move for Barcelona's Jules Koundé. Three weeks and change
+          until Nashville, and the spine is a live question.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,21 +368,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and the date does what no ceremony did. Mohamed Salah's Liverpool
-              contract lapses today, eight years and a club's worth of goals ending in
-              the small print of an agreement struck back in March; on the same June
-              afternoon Ibrahima Konaté leaves for Madrid and Andy Robertson for
-              Tottenham, three of a title-winning spine gone for nothing at once. Salah
-              marks it from Texas, a hamstring strain leaving him a doubt for Egypt's
-              last-32 tie with Australia on Friday, his next club, he says through his
-              agent, still unchosen. The desk does not pause to mourn: with Diomandé
-              lost to Paris, Liverpool have opened talks for Bradley Barcola, sounded out
-              Bruno Guimarães and eyed a release clause ticking down on Dortmund's Nico
-              Schlotterbeck. The centre-back board still leads with Inácio; Curtis Jones
-              now has a moneyed Forest to weigh as well as Inter. Less than four weeks
-              before Nashville, the squad is a question the manager has barely a month to
-              answer.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and the one certainty wobbles. Galatasaray have made Virgil van Dijk
+              their priority, an official offer readying and an agent reported flown to
+              Istanbul, the 34-year-old captain said to be open to leaving on a free
+              even with a year still to run. Liverpool's reply is flat: after Salah,
+              Konaté and Robertson they will not lose a fourth pillar, and they mean to
+              add at the back, not subtract. The market moves around the argument. A
+              right-back search that trafficked in understudies has found a marquee name
+              in Barcelona's Jules Koundé, near eighty million; Bradley Barcola stays the
+              winger of choice though the reporting now calls him not for sale; a Tonali
+              hijack flared and cooled inside a day. Off the pitch, FSG moved to tie
+              teenager Rio Ngumoha to a new deal, one they mean to keep. And in Texas,
+              Salah nurses a hamstring that leaves Egypt sweating on him for Friday. Less
+              than four weeks before Nashville, the squad is a question the manager has
+              barely a month to answer.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3111,7 +3112,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A date, not a goodbye."
+        "Not the captain, too."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
