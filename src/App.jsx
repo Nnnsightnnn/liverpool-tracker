@@ -348,12 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday, and the summer finds a nerve nobody wanted pressed.
-          Galatasaray are courting Virgil van Dijk on a free, and Liverpool,
-          already shorn of Salah, Konaté and Robertson, swear their captain
-          stays. The desk answers the losses all the same, weighing an
-          eighty-million move for Barcelona's Jules Koundé. Three weeks and change
-          until Nashville, and the spine is a live question.
+Friday, and the rebuild has its first face: Jérémy Jacquet, sixty
+          million and twenty years old, unveiled midweek while the captain he
+          was bought to learn from is courted in Istanbul. Today Anfield marks
+          a year without Jota; tonight Salah, passed fit at last, leads Egypt
+          in Texas. Twenty-two days until Nashville.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,21 +367,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and the one certainty wobbles. Galatasaray have made Virgil van Dijk
-              their priority, an official offer readying and an agent reported flown to
-              Istanbul, the 34-year-old captain said to be open to leaving on a free
-              even with a year still to run. Liverpool's reply is flat: after Salah,
-              Konaté and Robertson they will not lose a fourth pillar, and they mean to
-              add at the back, not subtract. The market moves around the argument. A
-              right-back search that trafficked in understudies has found a marquee name
-              in Barcelona's Jules Koundé, near eighty million; Bradley Barcola stays the
-              winger of choice though the reporting now calls him not for sale; a Tonali
-              hijack flared and cooled inside a day. Off the pitch, FSG moved to tie
-              teenager Rio Ngumoha to a new deal, one they mean to keep. And in Texas,
-              Salah nurses a hamstring that leaves Egypt sweating on him for Friday. Less
-              than four weeks before Nashville, the squad is a question the manager has
-              barely a month to answer.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              and for once the window's news is signed rather than said. Jérémy Jacquet
+              became a Liverpool player on Wednesday, fifty-five million now and five
+              million later, a twenty-year-old handed the second-largest defensive fee
+              in the club's history and the small matter of a spine to help hold. The
+              argument above him continues: one country's press has Van Dijk 'very
+              close' to Galatasaray, the other's says a quota keeps him off the agenda
+              entirely, and Liverpool keep repeating that their captain is not leaving.
+              At Kirkby, Iraola's staff took their chairs on Thursday, four names from
+              Bournemouth, with the squad due back on the thirteenth. In Texas tonight,
+              Salah, passed fit, leads Egypt against Australia with his own future
+              parked until the tournament lets him go. And over all of it hangs the
+              date itself: one year since Diogo Jota and André Silva, marked now in
+              bronze and wax and Portuguese stone on 97 Avenue. Some weeks the window
+              matters less than the calendar.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3112,7 +3111,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Not the captain, too."
+        "Forever 20, on 97 Avenue."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
