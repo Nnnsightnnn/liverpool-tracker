@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 33, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Fri Jul 3 — passed fit: Hassan confirmed Thursday that Salah will feature 'in some capacity' in tonight's historic last-32 tie with Australia at AT&T Stadium, the hamstring cleared after a week of physio and a partial return to training Wednesday, though a start is not promised. A free agent since Tuesday, his destination call still waits for the tournament's end, Saudi Arabia the warmest pull", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 34, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Fri Jul 3 — passed fit: Hassan confirmed Thursday that Salah will feature 'in some capacity' in tonight's historic last-32 tie with Australia at AT&T Stadium, the hamstring cleared after a week of physio and a partial return to training Wednesday, though a start is not promised. A free agent since Tuesday, his destination call still waits for the tournament's end, Saudi Arabia the warmest pull", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -540,6 +540,12 @@ export const NEWS_DIGEST = {
       category: "general",
     },
     {
+      title: "'After That, My Future… I Don't Know': Barcola Leaves The Door Open (Liverpool.com / CaughtOffside, Friday)",
+      detail:
+        "The winger of choice spoke for himself on Friday, from France's World Cup camp: 'Focus on World Cup now. After that, my future… I don't know.' PSG remain reluctant sellers who have failed to agree a new contract with him and would move only for a big proposal, while Arsenal now weigh Barcola as an alternative to Morgan Rogers. The summer's premier winger file has become a two-club race conducted around a tournament.",
+      category: "transfers",
+    },
+    {
       title: "'Very Close', Says One Country's Press; Not On The Agenda, Says The Other's: The Van Dijk Tug Continues (Football365 / Anfield Watch, this week)",
       detail:
         "The Galatasaray pursuit escalated this week: Football365 relays Turkish reporting that Van Dijk is 'very close' after 'positive' talks, Anfield Watch has an official offer only days away, and Dutch press claim the 34-year-old has largely settled on a two-year deal. Against that, Turkish journalist Ali Naci Küçük insists the captain is not currently on Galatasaray's agenda at all, a foreign-player quota blocking the signing while Mauro Icardi stays. Liverpool's line is unchanged: the captain stays.",
@@ -555,12 +561,6 @@ export const NEWS_DIGEST = {
       title: "A Call To Guimarães' Camp: Contact Made, But Arsenal Are Ahead And The Age Gives Pause (TeamTalk / Liverpool.com, reported this week)",
       detail:
         "Liverpool made initial contact with Bruno Guimarães' representatives this week over a summer move for Newcastle's captain. The reporting cools it almost immediately: Arsenal's interest is at a more advanced stage, the conversation went no further than the agent, and Ben Jacobs suggests that at 28 the Brazilian may simply be older than the profile the recruitment desk wants for its midfield rebuild.",
-      category: "transfers",
-    },
-    {
-      title: "'After That, My Future… I Don't Know': Barcola Leaves The Door Open (Liverpool.com / CaughtOffside, Friday)",
-      detail:
-        "The winger of choice spoke for himself on Friday, from France's World Cup camp: 'Focus on World Cup now. After that, my future… I don't know.' PSG remain reluctant sellers who have failed to agree a new contract with him and would move only for a big proposal, while Arsenal now weigh Barcola as an alternative to Morgan Rogers. The summer's premier winger file has become a two-club race conducted around a tournament.",
       category: "transfers",
     },
     {

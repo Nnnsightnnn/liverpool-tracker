@@ -348,7 +348,7 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Friday, and the rebuild has its first face: Jérémy Jacquet, sixty
+Friday, and the rebuild has its first face: Jérémy Jacquet, fifty-five
           million and twenty years old, unveiled midweek while the captain he
           was bought to learn from is courted in Istanbul. Today Anfield marks
           a year without Jota; tonight Salah, passed fit at last, leads Egypt
