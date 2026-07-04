@@ -96,10 +96,10 @@ export const FORMATIONS = {
       RW:  { x: 78, y: 22, role: "FWD" },
     },
     // Hypothetical 3-4-3 alternative — a shape Slot rarely used in 2025-26.
-    // Shown for completeness alongside the season-closing baseline: VVD,
-    // Konaté and Gomez across a back three, Robertson and Jones as
-    // wing-backs, Gravenberch and Mac Allister in midfield, a Gakpo-Isak-
-    // Ngumoha front three. Default is 4-2-3-1 above.
+    // Shown for completeness alongside the season-closing baseline: Gomez,
+    // VVD and Jacquet across a back three, Kerkez and Jones as wing-backs,
+    // Gravenberch and Mac Allister in midfield, a Gakpo-Isak-Ngumoha front
+    // three. Default is 4-2-3-1 above.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LCB: 5,   // Gomez (slots into the back three)

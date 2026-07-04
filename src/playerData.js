@@ -1183,9 +1183,9 @@ export const TRANSFER_TARGETS = {
         { name: "Football365",   tier: "B" },
         { name: "Sports Mole",   tier: "C" },
       ],
-      lastUpdated: "2026-06-10",
+      lastUpdated: "2026-07-04",
       rumorNote:
-        "Lisbon · 10 Jun — no longer the fallback but half the plan. Wednesday's reporting recasts the Sporting man as one part of a ~£164m double winger swoop alongside Diomandé (since lost to PSG), with Liverpool described as the club 'closest' to triggering his ~€60m release clause and Iraola said to have green-lit the deal, sold on a 26-year-old arriving off 31 goal contributions. The calendar still rules: Sporting won't open talks until after the World Cup, where Trincão should feature for Portugal, so this lands in July, not June. The clause keeps it simple whenever the phone is finally answered.",
+        "Lisbon · 4 Jul — the clause-priced insurance behind the marquee files: with Diomande leaning toward PSG and the Barcola talks hostage to Paris, the Sporting man remains the board's simplest deal, a ~€60m release clause Liverpool were reported 'closest' to triggering in June, Iraola said to have approved the profile off 31 goal contributions. The calendar still rules: Sporting won't open talks until after the World Cup, where Trincão features for a Portugal squad still alive, so this stays a July decision that gets easier every day the top two files stall.",
       positionFit: {
         replaces: "Salah (right wing)",
         competesWith: ["Gakpo", "Ngumoha"],
