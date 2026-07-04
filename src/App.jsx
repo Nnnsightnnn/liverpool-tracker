@@ -348,11 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Friday, and the rebuild has its first face: Jérémy Jacquet, fifty-five
-          million and twenty years old, unveiled midweek while the captain he
-          was bought to learn from is courted in Istanbul. Today Anfield marks
-          a year without Jota; tonight Salah, passed fit at last, leads Egypt
-          in Texas. Twenty-two days until Nashville.
+Saturday, and the morning after the Panenka: Salah, all one hundred and
+          twenty minutes of him, chipped Egypt into the last sixteen in Arlington
+          and meets Messi in Atlanta on Tuesday. Back home the window chases an
+          £86m winger who prefers Paris, and the captain's Istanbul noise grows
+          louder without moving. Twenty-one days until Nashville.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,21 +367,21 @@ Friday, and the rebuild has its first face: Jérémy Jacquet, fifty-five
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and for once the window's news is signed rather than said. Jérémy Jacquet
-              became a Liverpool player on Wednesday, fifty-five million now and five
-              million later, a twenty-year-old handed the second-largest defensive fee
-              in the club's history and the small matter of a spine to help hold. The
-              argument above him continues: one country's press has Van Dijk 'very
-              close' to Galatasaray, the other's says a quota keeps him off the agenda
-              entirely, and Liverpool keep repeating that their captain is not leaving.
-              At Kirkby, Iraola's staff took their chairs on Thursday, four names from
-              Bournemouth, with the squad due back on the thirteenth. In Texas tonight,
-              Salah, passed fit, leads Egypt against Australia with his own future
-              parked until the tournament lets him go. And over all of it hangs the
-              date itself: one year since Diogo Jota and André Silva, marked now in
-              bronze and wax and Portuguese stone on 97 Avenue. Some weeks the window
-              matters less than the calendar.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and begin with the oldest free agent in Texas. Mohamed Salah was cleared
+              for a cameo and gave Egypt everything instead, one hundred and twenty
+              minutes against Australia and then, third in the shootout order, a
+              Panenka floated down the middle of the goal, the first knockout win in
+              his country's World Cup history bought with a touch of pure cheek. He
+              gets Messi and Argentina in Atlanta on Tuesday, and every round Egypt
+              survive defers the question of whose shirt he wears in August. The
+              window he left behind has found its plot: Liverpool will pay £86m for
+              Leipzig's Diomande, who would rather go to Paris; so the calls turn to
+              Barcola, whom Paris may then need to sell. Iraola, nine days from his
+              first session, has asked for Tillman by name, and Turkish papers spent
+              the week declaring the captain all but gone while Anfield declared him
+              not for sale. Somewhere in Frankfurt, Klopp's phone is ringing. It is
+              a strange summer that keeps this club's heart in other countries.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -389,7 +389,7 @@ Friday, and the rebuild has its first face: Jérémy Jacquet, fifty-five
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a marquee winger pursuit suddenly lost; a
+              week. There is a marquee winger pursuit leaning the wrong way; a
               recruiter's list of what a thinning spine still needs; eight Reds
               scattered through a World Cup that keeps them in other colours; a
               talisman weighing his next club from afar; and a homegrown midfielder
@@ -3111,7 +3111,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Forever 20, on 97 Avenue."
+        "I decided last minute. I had to do it."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
