@@ -348,11 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Saturday, and the morning after the Panenka: Salah, all one hundred and
-          twenty minutes of him, chipped Egypt into the last sixteen in Arlington
-          and meets Messi in Atlanta on Tuesday. Back home the window chases an
-          £86m winger who prefers Paris, and the captain's Istanbul noise grows
-          louder without moving. Twenty-one days until Nashville.
+Sunday, and the window has turned on its heel: Diomande has agreed his
+          five years in Paris, so Liverpool go to Barcola, who has already told
+          PSG he wants out. The captain turns thirty-five on Wednesday amid
+          reporting that cannot agree on him; Salah gets Messi at noon on
+          Tuesday. Twenty days until Nashville.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,21 +367,21 @@ Saturday, and the morning after the Panenka: Salah, all one hundred and
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and begin with the oldest free agent in Texas. Mohamed Salah was cleared
-              for a cameo and gave Egypt everything instead, one hundred and twenty
-              minutes against Australia and then, third in the shootout order, a
-              Panenka floated down the middle of the goal, the first knockout win in
-              his country's World Cup history bought with a touch of pure cheek. He
-              gets Messi and Argentina in Atlanta on Tuesday, and every round Egypt
-              survive defers the question of whose shirt he wears in August. The
-              window he left behind has found its plot: Liverpool will pay £86m for
-              Leipzig's Diomande, who would rather go to Paris; so the calls turn to
-              Barcola, whom Paris may then need to sell. Iraola, nine days from his
-              first session, has asked for Tillman by name, and Turkish papers spent
-              the week declaring the captain all but gone while Anfield declared him
-              not for sale. Somewhere in Frankfurt, Klopp's phone is ringing. It is
-              a strange summer that keeps this club's heart in other countries.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and the plot resolved itself overnight, the way windows do: not with
+              an announcement but with a preference. Yan Diomande agreed his five
+              years with PSG, the club his father always followed, and Liverpool's
+              £86m stopped mattering. Within a day the board had turned to Bradley
+              Barcola, and Barcola, it turns out, had already turned: he has told
+              Paris he intends to leave, and Liverpool's recruiters came away from
+              fresh talks encouraged, officials waiting in France in case the
+              Diomande deal snags. At home the captain approaches thirty-five on
+              Wednesday through a crossfire of reporting, very close to Istanbul in
+              one telling, going nowhere in Iraola's. Klopp said the quiet part
+              aloud, yes, the talks are real, New York next week. And at noon on
+              Tuesday in Atlanta, Salah meets Messi with Mac Allister stationed
+              between them, one club's past and present on opposite sides of a
+              knockout. The window takes; Tuesday we learn what it gives back.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -389,11 +389,11 @@ Saturday, and the morning after the Panenka: Salah, all one hundred and
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a marquee winger pursuit leaning the wrong way; a
-              recruiter's list of what a thinning spine still needs; eight Reds
-              scattered through a World Cup that keeps them in other colours; a
-              talisman weighing his next club from afar; and a homegrown midfielder
-              now weighing whether to go. Read slowly. The window is open.
+              week. There is a marquee winger pursuit that changed horses overnight;
+              a recruiter's list of what a thinning spine still needs; a World Cup
+              sending its Reds home one shootout at a time; a talisman weighing his
+              next club from afar; and a homegrown midfielder now weighing whether
+              to go. Read slowly. The window is open.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3111,7 +3111,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "I decided last minute. I had to do it."
+        "I'm ready."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

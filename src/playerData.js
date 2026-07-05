@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 34, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Sat Jul 4 — bombshell claimed, nothing landed: Fanatik says a Galatasaray deal is all but agreed and TeamTalk has an official offer incoming, yet no bid has reached Anfield, the foreign-player quota still complicates registration, and the club's line stays flat, no fourth pillar leaves after Salah, Konaté and Robertson. In Netherlands colours at the World Cup, he remains, for now, a Liverpool player", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 34, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Sun Jul 5 — claimed both ways in the week of his 35th: Turkish-sourced reports now have him 'very close' after positive talks with his agent, and one top source says the club would assess serious offers, while Liverpool.com counters that Iraola wants his captain and he is 'going nowhere.' Still no bid at Anfield, still the quota snag in Istanbul, and a 35th birthday on Wednesday spent, for now, a Liverpool player", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -161,7 +161,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Fri Jul 3 — the reluctance flips to the player: Forest have the Anderson money and would meet the £35m to £40m ask, but Jones is reported unconvinced this week by a club with no European football that could yet lose its manager; Inter appear done bidding, Villa and Arsenal linger. Into his final year, he reports for pre-season and talks with Iraola before anything is decided", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Sun Jul 5 — a pecking order emerges: reporting now says that if Jones leaves at all it would be for Inter, Arsenal or Villa rather than Forest, whose readiness to meet the £35m-40m ask has not moved him; Inter have already had two bids turned away this summer. Into his final year, he reports for pre-season and talks with Iraola before anything is decided", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -436,20 +436,20 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-07-04T08:15:00Z",
+  generatedAt: "2026-07-05T08:30:00Z",
   overview:
-    "Fifty days to opening day, and the finished table now reads like a shopping map: the summer's biggest stories all run through its rows. Liverpool, fifth on 60 and back in the Champions League, are chasing an £86m winger in Leipzig's Diomande and a £43m midfielder in Leverkusen's Tillman, the first name Iraola has personally requested. Champions Arsenal (85) shadow both of Liverpool's winger files, City (78) have already spent their £116m Anderson windfall's worth, and Aston Villa (65) hold the last automatic Champions League place. Below, Bournemouth, Sunderland and Brighton took the continental ladder while West Ham, Burnley and Wolves went down, their fire-sales feeding half the league's rumour columns. The 25-point gap to the top remains the number the new staff were hired to shrink; the first legal move against it comes at Newcastle on August 23.",
+    "Forty-nine days to opening day, and the finished table now explains the money in motion: Liverpool, fifth on 60 and back in the Champions League, spent the weekend watching an £86m winger agree terms in Paris and pivoting to a €120m one who wants to come. Champions Arsenal (85) hover over the same Barcola file, City (78) have banked Guéhi and spent the Anderson windfall's worth, and Villa (65) hold the last automatic Champions League place, the rows above Liverpool all busier than a 25-point gap suggests. Bournemouth, Sunderland and Brighton carried the continental places while West Ham, Burnley and Wolves went down, their fire-sales still feeding the rumour columns above. The first chance to move any of it comes at Newcastle on August 23.",
   teams: {
-    "Arsenal": "Champions on 85, and a threat in the market: the Gunners are among the clubs weighing PSG's Bradley Barcola, the winger Liverpool also court, and keep pressing Newcastle over captain Bruno Guimarães.",
+    "Arsenal": "Champions on 85 and rivals on the same corridor: the Gunners still hover over Barcola even as he tells PSG he wants out with Liverpool leading the chase, and keep pressing Newcastle over captain Bruno Guimarães.",
     "Manchester City": "Second on 78, and a mover again: having beaten Liverpool to Marc Guéhi, they have now paid Nottingham Forest £116m for Elliot Anderson, the windfall that funds Forest's run at Curtis Jones.",
     "Manchester United": "Third on 71, and a rival in the market: United have circled Real Madrid's Eduardo Camavinga alongside Liverpool and Chelsea, and are now reported 'determined' to land West Ham's Mateus Fernandes, a race Liverpool have drifted out of.",
     "Aston Villa": "Fourth on 65, the last automatic UCL berth; Harvey Elliott has returned to Liverpool after his season-long loan at Villa Park.",
-    "Liverpool": "Fifth on 60, Champions League secured, and the window now fights on the wings: £86m readied for Diomande, fresh contact with Barcola, Tillman requested by Iraola, while Turkish papers claim the captain's exit is agreed and Liverpool insist it is not. Pre-season opens July 13; the league, at Newcastle, on August 23.",
+    "Liverpool": "Fifth on 60, Champions League secured, and the wing rebuilt in real time: Diomande gone to agreed PSG terms, Barcola telling Paris he wants out with Liverpool top of his list, Neto the new hedge, while the captain's future is claimed both ways ahead of his 35th birthday on Wednesday. Pre-season opens July 13.",
     "Bournemouth": "Sixth and into Europe, still the Merseyside shopping aisle: Alex Scott lingers as a midfield option should the Jones picture change.",
     "Sunderland": "Seventh and into Europe in their promotion season, and Iraola's first pre-season assignment, Nashville on July 25.",
     "Brighton": "Eighth, a Conference League play-off place extending the European streak; Beukema and van Hecke both linger on Liverpool defensive files.",
     "Brentford": "Ninth on 53, level with Brighton but out of Europe for the first time in their top-flight era; hosts of the season's final-day 1-1 on May 24.",
-    "Chelsea": "Tenth on 52, a third straight year without the Champions League; have moved first for Atalanta right-back Marco Palestra, the deal Liverpool are watching for a chance to hijack, and remain in the Camavinga conversation too.",
+    "Chelsea": "Tenth on 52, a third straight year without the Champions League; moved first for Atalanta's Marco Palestra, remain in the Camavinga conversation, and now face the awkward question of Pedro Neto, their winger reported open to a Liverpool move.",
     "Newcastle": "Twelfth on 49, and the summer's seller: captain Bruno Guimarães draws Arsenal, while midfielder Sandro Tonali is chased by Tottenham with Liverpool briefly linked before cooling; the Magpies hold out for big fees. They host Iraola's Liverpool on opening day, August 23.",
     "Crystal Palace": "Fifteenth on points, in Europe by silverware; sold captain Marc Guéhi to Manchester City for £20m, closing the free-agent route Liverpool had hoped to wait out.",
     "Nott'm Forest": "Sixteenth, home of Murillo, who stays on Hughes's centre-back shortlist; flush with £116m from Anderson's sale to City, they are now readying a £40m move for Curtis Jones, though their lack of European football may give him pause.",
@@ -464,119 +464,134 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "The Panenka.",
-    byline: "Sky Sports / ESPN",
-    dateline: "Arlington · 3 July",
-    category: "Match Report",
+    headline: "The Pivot.",
+    byline: "Sky Sports / TeamTalk",
+    dateline: "Paris · 5 July",
+    category: "Transfers",
     body:
-      "He was supposed to be managed. Instead Mohamed Salah played every one of the 120 minutes Egypt needed against Australia at AT&T Stadium, a week removed from a hamstring scan, and when the shootout arrived he walked up third and chipped the ball down the middle of the goal, soft as an apology. Emam Ashour had headed Egypt ahead in the 13th minute; Mohamed Hany's own goal dragged Australia level; Souttar and Herrington missed from the spot, and Egypt converted all four to win 4-2, the first knockout victory in their World Cup history. 'I decided last minute,' Salah said afterwards. 'I had to do it.'",
+      "The winger Liverpool wanted most has chosen, and the winger who wants Liverpool most may already be packing. Yan Diomande agreed a five-year contract with PSG on personal terms, the club his father supported, leaving Paris and Leipzig to argue over a fee set above €100m; Liverpool's two bids, the second worth more than £86m, came back unopened. Within a day the board had turned to Bradley Barcola and found him at the door: after fresh talks with Liverpool's recruiters he has told PSG he intends to leave. Paris say €120m. Liverpool's officials remain in France, watching for a snag. Windows turn this quickly, and rarely this neatly.",
   },
   {
     n: "02",
-    headline: "The Winger Who Prefers Paris.",
-    byline: "The Athletic / Sky Sports",
-    dateline: "Leipzig · 29 June",
-    category: "Transfers",
+    headline: "Thirty-Five On Wednesday.",
+    byline: "Football365 / Liverpool.com",
+    dateline: "Anfield · 5 July",
+    category: "Farewells",
     body:
-      "Liverpool's summer has a top winger target, and the target may have other plans. The club are reported willing to put £86m on the table for RB Leipzig's Yan Diomande, twelve goals and eight assists in his debut Bundesliga season, but David Ornstein reports the Ivorian would rather join PSG, the Champions League holders, and Leipzig have gone public with a promise that he stays regardless. Every clause of that sentence is being tested at a World Cup. In the meantime Bradley Barcola moves up the alternatives board: fresh contact with his camp, Arsenal circling, and a fee that depends on what Paris does first.",
+      "Virgil van Dijk turns 35 on Wednesday, and the sport has arranged a peculiar birthday. One set of reports has him 'very close' to Galatasaray after positive talks with his agent; another has a top source claiming Liverpool would now assess serious offers for a captain no longer untouchable; Liverpool's own orbit insists Iraola wants him and he is going nowhere. His World Cup ended on penalties against Morocco, and his summer has become a referendum conducted entirely by other people. No bid has arrived. Nothing is signed. But when a club stops saying never and starts saying serious offers, the word that changed is doing a lot of work.",
   },
   {
     n: "03",
-    headline: "Iraola's First Ask.",
-    byline: "Football365 / kicker",
-    dateline: "Kirkby · 3 July",
+    headline: "Four From The South Coast.",
+    byline: "Liverpool FC / This Is Anfield",
+    dateline: "Kirkby · 4 July",
     category: "Manager",
     body:
-      "The new head coach has made his first named request. Andoni Iraola wants Malik Tillman, the Bayer Leverkusen midfielder whose World Cup with the United States has, in the reporting's phrase, completely changed the landscape: a fee that might have sat near £30m in May could now clear £43m before the tournament ends. Tillman is 24, two-footed between the lines, and precisely the profile of vertical runner Iraola's pressing game asks for. Nine days before his first training session, the manager has told the desk what he wants. The desk, mid-rebuild, now decides how much conviction costs.",
+      "The club confirmed Andoni Iraola's backroom staff on Saturday, and it reads like a removal van from Dorset: Tommy Elphick and Shaun Cooper, his Bournemouth assistants, arrive alongside fitness specialist Pablo de la Torre and analyst Tom Webber. The appointments signal a full tactical reset rather than a redecoration, four men fluent in the pressing grammar Iraola means to install from the first session on July 13, now eight days away. One footnote for the romantics: Thiago Alcântara, floated for a coaching role, does not join, for the most prosaic reason in football. He does not yet have the badges.",
   },
   {
     n: "04",
-    headline: "Germany Calls For Klopp.",
-    byline: "Liverpool.com / DFB",
-    dateline: "Frankfurt · 3 July",
+    headline: "Noon In Atlanta.",
+    byline: "FIFA / Squawka",
+    dateline: "Atlanta · 5 July",
     category: "Football News",
     body:
-      "Julian Nagelsmann resigned, and within a day the German federation confirmed what everyone on Merseyside felt in their chest: it will open talks with Jürgen Klopp. The man who swore he would never manage another English club never said anything about a country, and the DFB job, part talisman, part therapist, is the one role that always seemed drawn to his shape. At Anfield the news lands warmly and a little strangely, like hearing an old house has new owners who plan to keep the garden. If Egypt keep winning, and Germany keep calling, this World Cup is quietly full of Liverpool's past.",
+      "The bookmakers have already written Tuesday's story: Argentina at -275, Egypt at +850, Messi leading the Golden Boot on seven. The fine print is kinder to the Pharaohs. Egypt have conceded twice in five matches, Salah remains their likeliest route to a goal, and the last time everyone agreed on an Argentina result, Cape Verde came within an own goal of writing the tournament's greatest upset. There is a domestic subplot, too: Alexis Mac Allister, Liverpool's No. 10 for now, stands between his old teammate and a quarter-final in Kansas City. Noon kickoff, Mercedes-Benz Stadium. Two eras of one club, ninety minutes apart.",
   },
   {
     n: "05",
-    headline: "Nineteen For Day One.",
-    byline: "Empire of the Kop / This Is Anfield",
-    dateline: "Kirkby · 1 July",
+    headline: "The Tournament Empties Out.",
+    byline: "This Is Anfield / ESPN",
+    dateline: "Kirkby · 5 July",
     category: "Injuries",
     body:
-      "The first Iraola session, July 13, is expected to count roughly nineteen bodies, the World Cup having claimed the rest for as long as their nations keep winning. The good news arrived from France: Jérémy Jacquet says his surgeon has given him the go-ahead to rejoin group training, the dislocated shoulder healed, '100 per cent fit' promised for the season. The rest of the treatment room is quieter. Conor Bradley's knee remains a case without a date, Frimpong's muscles are still being managed, and Wataru Endo, his World Cup lost and his Japan career closed, reports back carrying a foot that must prove itself all over again.",
+      "The World Cup has begun returning Liverpool's players one heartbreak at a time. The Netherlands went out on penalties to Morocco, Gakpo scoring the goal that should have settled it, so he, Van Dijk and Gravenberch will be back before the Wrexham friendly; Wirtz's Germany fell to Paraguay and cost Nagelsmann his job on the way out. Mac Allister and Salah play on, on opposite sides of Tuesday. At Kirkby the treatment room holds its shape: Bradley's knee remains indoors with no date attached, Frimpong misses the first wave on July 13, and Endo reports back carrying the foot that closed his Japan career and must now justify his Liverpool one.",
   },
 ];
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-07-04T08:15:00Z",
+  generatedAt: "2026-07-05T08:30:00Z",
   summary:
-    "Saturday July 4, and the morning belongs to Mohamed Salah: he played all 120 minutes of Egypt's last-32 tie with Australia in Arlington, then chipped a Panenka down the middle of the shootout as the Pharaohs won 4-2 on penalties, the first knockout victory in their World Cup history. Argentina, and Messi, wait in Atlanta on Tuesday; the 34-year-old free agent's club decision stays parked until Egypt's run ends. Behind him the window turned toward the wings: Liverpool are reported willing to pay £86m for RB Leipzig's Yan Diomande, but David Ornstein has the winger preferring PSG, which pushes Bradley Barcola up the alternatives board, while Andoni Iraola has made Bayer Leverkusen's Malik Tillman his first named request at a fee heading past £43m. The Van Dijk noise refuses to settle, Turkish outlets now claiming a deal all but agreed while Liverpool's line stays flatly unmoved. And Jürgen Klopp edges toward the Germany job, the DFB confirming talks after Julian Nagelsmann's resignation.",
+    "Sunday July 5, and the winger chase has turned on its heel: Yan Diomande has agreed a five-year contract with PSG on personal terms, Paris and Leipzig are negotiating a fee the Germans set above €100m, and with two Liverpool bids already rejected the club have pivoted to Bradley Barcola, who has told PSG he intends to leave and now tops the list at a €120m valuation. Liverpool officials are reported in France regardless, positioned to pounce should the Paris deal snag. At the back, the noise around Virgil van Dijk sharpens ahead of his 35th birthday on Wednesday, Turkish-sourced reports claiming he is 'very close' to Galatasaray while Liverpool.com insists Iraola wants his captain and he is going nowhere. Jürgen Klopp has gone public on the Germany approach, 'Yes, I can confirm the talks,' with a New York meeting reported for next week; and Salah's Egypt meet Messi's Argentina in Atlanta at noon on Tuesday, the free agent's future parked for as long as the run lasts.",
   keyTopics: [
     {
-      title: "120 Minutes And A Panenka: Salah Carries Egypt To Their First Knockout Win (Sky Sports / ESPN, last night)",
+      title: "Diomande Agrees His Five Years In Paris; Liverpool's Two Bids Rejected (Sky Sports / OneFootball, overnight)",
       detail:
-        "The hamstring that was meant to limit him to a cameo lasted the full 120 minutes in Arlington last night: Emam Ashour headed Egypt in front on 13, Mohamed Hany's own goal levelled it, and the tie went to penalties at 1-1, where Salah stepped up third and dinked a Panenka as Egypt converted all four to win 4-2. It is the first knockout victory in Egyptian World Cup history. 'I am more experienced than others and I wanted to give them confidence,' he said. 'I decided last minute, I had to do it.'",
-      category: "matches",
-    },
-    {
-      title: "Next: Messi. Egypt Meet Argentina In Atlanta On Tuesday (World Soccer Talk / FOX, confirmed overnight)",
-      detail:
-        "The bracket resolved overnight: Argentina survived Cape Verde 3-2 after extra time, and the round-of-16 tie is set for Tuesday July 7, noon kickoff, at Atlanta Stadium. Salah against Messi in a knockout match is the kind of fixture this expanded World Cup was sold on, and every day Egypt survive is another day the 34-year-old free agent's club decision, Saudi interest and all, stays deferred.",
-      category: "matches",
-    },
-    {
-      title: "£86m On The Table, But Ornstein Says Diomande Prefers PSG (Sky Sports / The Athletic, this week)",
-      detail:
-        "The winger file reached its crux this week: Liverpool are reported willing to pay £86m for RB Leipzig's Yan Diomande after 12 goals and 8 assists in his debut Bundesliga season, but David Ornstein reported the Ivorian's preference is PSG, and Leipzig issued a public statement insisting he is not sold this summer at all. A £100m valuation, a reluctant seller and a hesitant player: the market's hardest deal, and Liverpool's most wanted.",
+        "The file that led the week closed in a day: reporting overnight confirmed Diomande has agreed a five-year contract with PSG on personal terms, the club his father always supported, and Paris are now in intensive talks with Leipzig over a fee set above €100m. Liverpool's two offers, the second worth more than £86m, were turned away. 'I expect to leave, of course,' the winger said of Leipzig, and nobody reads that as a hint toward Merseyside.",
       category: "transfers",
     },
     {
-      title: "Iraola's First Named Request: Tillman Of Leverkusen, At A Rising £43m (Football365 / kicker, reported Friday)",
+      title: "Barcola Has Told PSG He Intends To Leave, And Liverpool Lead (TeamTalk exclusive / This Is Anfield, this weekend)",
       detail:
-        "The first signing the new head coach has personally asked for emerged on Friday: Malik Tillman, Bayer Leverkusen's 24-year-old midfielder, whose World Cup with the USA has 'completely changed the landscape' and pushed a fee that could exceed €50m (£43m) in the coming weeks. A vertical, two-footed runner between the lines, he is the clearest early signal of the shape Iraola means to build.",
+        "The pivot found a willing partner: after fresh talks with Liverpool's recruiters this weekend, Barcola has informed PSG of his intention to leave, per TeamTalk, with contract talks stalled and the club setting the price near €120m. He is top of Liverpool's list, Arsenal work the same file, and the mechanics finally favour the buyer: a Paris squad absorbing Diomande can hardly chain its unhappy winger to the bench.",
       category: "transfers",
     },
     {
-      title: "Klopp And The Germany Job: DFB Confirms Talks After Nagelsmann Resigns (Liverpool.com, Friday)",
+      title: "Officials In France: Liverpool Positioned For A Diomande Hiccup (Football365, Sunday)",
       detail:
-        "Julian Nagelsmann resigned on Friday and the German federation confirmed it will open talks with Jürgen Klopp, immediately installed as favourite. The man who left Anfield promising never to manage another English club never ruled out a country; on Merseyside the story reads as blessing rather than betrayal, though it would put an old friend in a technical area at the next major tournament.",
+        "Reported on Sunday: Liverpool officials have travelled to France as the window's two biggest wing files converge there, ready to pounce should the PSG-Leipzig negotiation snag on the fee. The trip reads less as hope for Diomande and more as proximity to the Barcola endgame, but the desk is keeping both doors ajar until one shuts itself.",
+      category: "transfers",
+    },
+    {
+      title: "'Very Close' Or 'Going Nowhere': The Van Dijk File Splits In Two Before His 35th (Football365 / Liverpool.com, this weekend)",
+      detail:
+        "The weekend's reporting ran in opposite directions: Football365 relayed claims the captain is 'very close' to Galatasaray after positive talks with his agent, and a 'top source' had Liverpool willing to assess serious offers for a defender no longer untouchable, while Liverpool.com countered that Iraola wants him and he is going nowhere. No bid has reached Anfield, the Istanbul quota problem stands, and he turns 35 on Wednesday. One of these stories will not survive the week intact.",
+      category: "transfers",
+    },
+    {
+      title: "'Yes, I Can Confirm The Talks': Klopp Goes Public, New York Next Week (Goal / Sky Germany, Friday-Saturday)",
+      detail:
+        "Klopp confirmed the DFB approach in his own words on Friday, 'Julian resigned, and the DFB is working on a succession plan and over the course of these deliberations, they have reached out to me,' and by Saturday Sky in Germany reported he will meet federation officials in New York next week. His Red Bull contract to 2029 carries a specific exit clause for the Germany job; he says the time to return is 'better than it's ever been.'",
       category: "general",
     },
     {
-      title: "Fresh Contact With Barcola As The Alternatives Board Reshuffles (Sky Sports / Liverpool.com, this week)",
+      title: "Four From The South Coast: Iraola's Staff Confirmed (Liverpool FC / This Is Anfield, Saturday)",
       detail:
-        "With Diomande leaning toward Paris, Liverpool made fresh contact with Bradley Barcola's camp this week, the PSG winger now reported to top the alternatives list. Arsenal are working the same corridor, PSG's own move for Diomande could loosen their grip on Barcola, and the fee, floated north of £110m at its wildest, depends financially on what Liverpool can agree with Paris. The two winger files have become one negotiation with two exits.",
+        "Confirmed on Saturday: Tommy Elphick and Shaun Cooper, Iraola's Bournemouth assistants, join Liverpool alongside fitness specialist Pablo de la Torre and analyst Tom Webber, a four-man import read as the signal of a full tactical reset before the first session on July 13. The footnote is Thiago Alcântara, floated for a role but not appointed, for the most prosaic reason in coaching: he does not yet have the badges.",
+      category: "general",
+    },
+    {
+      title: "Noon On Tuesday: Egypt Get Argentina, And Mac Allister Stands Between Salah And The Quarters (FIFA / Squawka, preview)",
+      detail:
+        "The Atlanta tie priced up over the weekend: Argentina open at -275 with Messi leading the Golden Boot on seven goals, Egypt at +850 having conceded just twice all tournament. The domestic subplot is Alexis Mac Allister, Liverpool's No. 10 for now, standing between his old teammate and a quarter-final in Kansas City. Every round Egypt survive keeps the 34-year-old free agent's club decision parked.",
+      category: "matches",
+    },
+    {
+      title: "From Request To Paperwork: A First Tillman Bid Takes Shape (Football365 / football-talk, Saturday)",
+      detail:
+        "A day after Iraola asked for him by name, Saturday's reporting had Liverpool preparing a first bid for the Leverkusen midfielder, with the price accounts split unusually wide: a £25m opener in some tellings against a Leverkusen ask that clears £43m and climbs with every USA knockout game. The five-year contract Tillman signed in 2025 gives the Germans no reason to blink first.",
       category: "transfers",
     },
     {
-      title: "'Bombshell' Or Bluster: Turkish Press Now Claim A Van Dijk Deal Is All But Agreed (Fanatik / TeamTalk, this week)",
+      title: "The Surprise Branch: Pedro Neto Open To Anfield As Mendes Talks Are Held (Empire of the Kop / TeamTalk, Saturday)",
       detail:
-        "The Galatasaray story escalated again this week, Fanatik claiming a deal is agreed and the club 'about to drop the bombshell,' while TeamTalk reports the exit 'gaining momentum' with an official offer incoming. The counter-case has not moved: a foreign-player quota complicates registration, and Liverpool have repeated all week that the captain is not for sale. Nothing is signed; one side of this reporting will eventually have to apologise.",
+        "A genuinely new name surfaced on Saturday: Chelsea's Pedro Neto is reported open to a Liverpool move, 'would jump at it' in one account, with the club having talked to Jorge Mendes about viability. Scouted since 2024, left-footed, comfortable both flanks, he is the hedge if Barcola's fee will not move; the obstacle is Chelsea's historic allergy to selling to direct rivals.",
       category: "transfers",
     },
     {
-      title: "'Given Me The Go-Ahead': Jacquet's Surgeon Clears Him For Group Training (Empire of the Kop, this week)",
+      title: "If Not Forest, Then Who: Jones Reported To Prefer Inter, Arsenal Or Villa (DaveOCKOP / TalkSport, Saturday)",
       detail:
-        "A week after his unveiling, the £55m centre-back delivered his own fitness bulletin: Jacquet says his surgeon has cleared him to rejoin group training and that he will be '100 per cent fit' for the new season, the February shoulder dislocation that ended his Rennes loan now fully behind him. With roughly nineteen players expected at Iraola's first session on July 13, a fit Jacquet is the thin back line's best news of the month.",
-      category: "injuries",
+        "The Jones file re-ordered itself this weekend: reporting now says that if the midfielder leaves at all it would be for Inter, Arsenal or Aston Villa rather than Forest, whose readiness to meet the £35m-40m ask has not moved him, and Inter have already had two bids rejected. The likeliest sequence holds: report on July 13, talk with Iraola, then decide.",
+      category: "transfers",
     },
   ],
   sources: [
     "Sky Sports",
-    "ESPN",
-    "The Athletic",
-    "Football365",
-    "kicker",
     "TeamTalk",
-    "Fanatik",
+    "Football365",
     "Liverpool.com",
+    "This Is Anfield",
     "Empire of the Kop",
-    "World Soccer Talk",
-    "FOX Sports",
     "Goal",
+    "Sky Germany",
+    "OneFootball",
+    "Squawka",
+    "FIFA",
+    "DaveOCKOP",
+    "TalkSport",
+    "football-talk",
+    "Liverpool FC",
   ],
 };
 
@@ -585,9 +600,9 @@ export const NEWS_DIGEST = {
 // heatTier: "hot" (≥65%) | "warm" (40-64%) | "cool" (<40%) | "done" | "dead"
 // sources[].tier: "S" (Romano-class) | "A" (major outlet) | "B" (beat) | "C" (aggregator)
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-07-04T08:15:00Z",
+  generatedAt: "2026-07-05T08:30:00Z",
   summary:
-    "Saturday's ledger is about the winger Liverpool want and may not get: the club are reported willing to pay £86m for RB Leipzig's Yan Diomande, the £100m-rated Ivorian who scored 12 and assisted 8 in his debut Bundesliga season, but David Ornstein has the player preferring PSG and Leipzig have stated publicly that he stays. That tension reshuffles the board beneath him, fresh contact made with Bradley Barcola's camp as the top alternative while Arsenal work the same corridor. The week's genuinely new name is Malik Tillman: Andoni Iraola has personally requested the Leverkusen midfielder, whose USA World Cup has pushed the fee past £43m and climbing. At the back the Van Dijk file grows louder without moving, Fanatik claiming a deal all but agreed while Liverpool repeat that the captain is not for sale and a Turkish quota complicates everything. Salah, Konaté and Robertson remain the shape of the loss this window must answer, and the first of Iraola's sessions is now nine days away.",
+    "Sunday's ledger opens on the pivot: Diomande has agreed his five years in Paris on personal terms, PSG and Leipzig are negotiating a fee the Germans set above €100m, and Liverpool, two bids already rejected, have turned fully to Bradley Barcola, who has told PSG he intends to leave and tops the board at a €120m ask. Club officials are reported in France all the same, positioned to pounce if the Paris deal snags. The Tillman file firms a step, a first bid now being prepared while the price reporting runs anywhere from a £25m opener to beyond £43m, and a genuinely new name arrives in Chelsea's Pedro Neto, open to Anfield with Jorge Mendes already sounded out. The Van Dijk question sharpens rather than settles, 'very close' in the Turkish telling and going nowhere in Liverpool's, his 35th birthday falling on Wednesday. Iraola's first session is eight days away.",
   incoming: [
     {
       id: "diomande-2026",
@@ -605,17 +620,17 @@ export const TRANSFER_TARGETS = {
       wageBand: "B",
       contractExpiry: "2030-06-30",
       releaseClause: null,
-      contractNote: "Leipzig rate him at £100m and issued a public statement this week insisting he plays for them next season; there is no release clause, and the club sold Šeško and Openda in successive summers, so nobody in the market quite believes the 'not for sale'.",
-      probability: 32,
-      heatTier: "warm",
+      contractNote: "Leipzig hold out for more than €100m and have turned away bids from both suitors, but PSG hold the player: a five-year contract is agreed on personal terms, and only the fee now stands between Diomande and Paris.",
+      probability: 12,
+      heatTier: "cool",
       sources: [
         { name: "The Athletic",   tier: "A" },
         { name: "Sky Sports",     tier: "A" },
         { name: "Football365",    tier: "B" },
       ],
-      lastUpdated: "2026-07-04",
+      lastUpdated: "2026-07-05",
       rumorNote:
-        "Leipzig · 4 Jul — the top of the winger board, and the hardest file on it: Liverpool are reported willing to put £86m on the table for the 12-goal Bundesliga debutant, but Ornstein has Diomande preferring PSG, the Champions League holders, and Leipzig have gone public with a vow that he stays. A £100m valuation, a reluctant seller, a hesitant player, and a World Cup inflating all three by the round.",
+        "Leipzig · 5 Jul — the door all but closes: Diomande has agreed a five-year deal with PSG on personal terms, the club his father supported, and Paris are negotiating intensively with Leipzig over a fee set above €100m. Liverpool's two bids, the second worth more than £86m, were turned away, and the pivot to Barcola is already made; club officials linger in France regardless, positioned for a snag that may never come.",
       positionFit: {
         replaces: "Salah (wide forward)",
         competesWith: ["Barcola (alternative)", "Gakpo", "Ngumoha"],
@@ -638,22 +653,22 @@ export const TRANSFER_TARGETS = {
       image: null,
       currentClub: "Bayer Leverkusen",
       currentLeague: "Bundesliga",
-      feeMin: 43, feeMax: 52, feeCurrency: "£m",
+      feeMin: 25, feeMax: 52, feeCurrency: "£m",
       marketValue: 40,
       wageBand: "B",
       contractExpiry: "2029-06-30",
       releaseClause: null,
-      contractNote: "A regular for Leverkusen across 2025-26; his USA World Cup run is repricing him by the week, with the fee reported likely to exceed €50m before the tournament ends.",
-      probability: 35,
+      contractNote: "A regular for Leverkusen across 2025-26 on a five-year deal signed in 2025; his USA World Cup run is repricing him by the week, with accounts split between a £25m opener and an ask beyond £43m.",
+      probability: 42,
       heatTier: "warm",
       sources: [
         { name: "Football365", tier: "B" },
         { name: "kicker",      tier: "A" },
         { name: "TeamTalk",    tier: "B" },
       ],
-      lastUpdated: "2026-07-04",
+      lastUpdated: "2026-07-05",
       rumorNote:
-        "Kirkby · 4 Jul — the first name Iraola has asked for himself: reporting on Friday had the new head coach personally requesting the Leverkusen midfielder, a vertical, two-footed runner suited to the pressing game he means to install. The World Cup has 'completely changed the landscape' on price, from near £30m in May toward £43m and rising, which is what conviction costs in July.",
+        "Kirkby · 5 Jul — from request to paperwork: a first bid is being prepared for the midfielder Iraola asked for by name, Saturday's reporting split unusually wide on price, a £25m opener in some accounts against a Leverkusen ask that clears £43m and climbs with every USA knockout game. The five-year deal he signed in 2025 means the Germans need not blink first.",
       positionFit: {
         replaces: "Jones (if sold) / midfield depth",
         competesWith: ["Szoboszlai", "Mac Allister", "Gravenberch"],
@@ -752,22 +767,22 @@ export const TRANSFER_TARGETS = {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Barcola_asse_psg_2425.png/330px-Barcola_asse_psg_2425.png",
       currentClub: "Paris Saint-Germain",
       currentLeague: "Ligue 1",
-      feeMin: 85, feeMax: 100, feeCurrency: "€m",
+      feeMin: 100, feeMax: 120, feeCurrency: "€m",
       marketValue: 90,
       wageBand: "A",
       contractExpiry: "2028-06-30",
       releaseClause: null,
-      contractNote: "Contract talks with PSG have stalled; the player has formally asked to leave, and the club are reported open to a sale around €100m. He is represented by Gestifute, the Mendes agency Liverpool have long dealt with.",
-      probability: 48,
+      contractNote: "Contract talks with PSG have stalled and the player has told the club he intends to leave; Paris's condition is the fee, set near €120m. He is represented by Gestifute, the Mendes agency Liverpool have long dealt with.",
+      probability: 62,
       heatTier: "warm",
       sources: [
         { name: "Sky Sports",      tier: "A" },
         { name: "The Athletic",    tier: "A" },
         { name: "Liverpool.com",   tier: "B" },
       ],
-      lastUpdated: "2026-07-04",
+      lastUpdated: "2026-07-05",
       rumorNote:
-        "Paris · 4 Jul — up the board he goes: with Ornstein reporting Diomande's preference for PSG, Liverpool made fresh contact with Barcola's camp this week and he now tops the alternatives list. Arsenal work the same corridor, and the mechanics are circular: PSG's own pursuit of Diomande could loosen their grip on Barcola, so two winger files have become one negotiation with two exits. The fee still hinges on what Liverpool can agree with Paris; nothing signs while France keep winning.",
+        "Paris · 5 Jul — the decision is made: after fresh talks with Liverpool's recruiters this weekend, Barcola has told PSG he intends to leave, TeamTalk reporting the club's confidence growing by the day. Paris set the price near €120m and Arsenal still hover, but with Diomande's five years in Paris agreed the grip loosens exactly as Liverpool hoped: the champions can hardly buy one winger and chain up another. Top of the board, and for the first time this window, leaning in.",
       positionFit: {
         replaces: "Salah (wide forward)",
         competesWith: ["Gakpo", "Ngumoha", "Munoz"],
@@ -777,6 +792,44 @@ export const TRANSFER_TARGETS = {
         apps: 44, goals: 14, assists: 12,
         tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 6.1,
         cleanSheets: 0, xG: 12.4,
+      },
+    },
+    {
+      id: "neto-2026",
+      name: "Pedro Neto",
+      age: 26,
+      position: "FWD",
+      role: "Winger (right / left)",
+      nationality: "🇵🇹 Portugal",
+      foot: "Left",
+      image: null,
+      currentClub: "Chelsea",
+      currentLeague: "Premier League",
+      feeMin: 55, feeMax: 70, feeCurrency: "£m",
+      marketValue: 50,
+      wageBand: "B",
+      contractExpiry: "2031-06-30",
+      releaseClause: null,
+      contractNote: "Signed a seven-year Chelsea deal in 2024 after a ~£54m move from Wolves; Chelsea rarely sell important players to direct rivals unless the price is right, and his injury history argues for caution on the fee.",
+      probability: 22,
+      heatTier: "cool",
+      sources: [
+        { name: "TeamTalk",          tier: "B" },
+        { name: "Empire of the Kop", tier: "B" },
+        { name: "CaughtOffside",     tier: "C" },
+      ],
+      lastUpdated: "2026-07-05",
+      rumorNote:
+        "London · 5 Jul — the surprise branch on the winger tree: Neto is reported open to Anfield, 'would jump at it' in one account, and Liverpool have spoken with Jorge Mendes, who represents him, about what a deal would take. Scouted since 2024, left-footed and comfortable on either flank, he is the hedge the board keeps if Barcola's price will not move. Selling to a direct rival is the part Chelsea historically decline.",
+      positionFit: {
+        replaces: "Salah (wide forward)",
+        competesWith: ["Barcola (primary)", "Gakpo", "Munoz"],
+        depthAfter: "Neto · Munoz · Ngumoha",
+      },
+      stats: {
+        apps: 38, goals: 8, assists: 9,
+        tacklesPer90: 1.0, passCompletion: 81, progressiveCarries: 5.2,
+        cleanSheets: 0, xG: 6.7,
       },
     },
     {
@@ -1506,10 +1559,10 @@ export const TRANSFER_TARGETS = {
       position: "DEF",
       destination: "Galatasaray (interest, free)",
       feeAsk: { min: 0, max: 0, currency: "€" },
-      probability: 50,
+      probability: 55,
       heatTier: "warm",
       sources: [{ name: "TeamTalk", tier: "B" }, { name: "Fanatik", tier: "C" }, { name: "Football365", tier: "B" }],
-      note: "Sat 4 Jul — the volume rises again: Fanatik now claims a deal is all but agreed and Galatasaray 'about to drop the bombshell,' with TeamTalk reporting the exit 'gaining momentum' and an official offer incoming. Nothing has actually moved. The foreign-player quota still complicates registration while Icardi stays on the books, no offer has landed at Anfield, and Liverpool have spent the week repeating that no fourth pillar leaves after Salah, Konaté and Robertson. One side of this reporting is days from vindication; the other from an apology.",
+      note: "Sun Jul 5 — claimed both ways before the candles: Football365 relays 'very close' after positive talks with his agent, and a 'top source' says Liverpool would now assess serious offers for a captain no longer untouchable, while Liverpool.com counters that Iraola wants him and he is going nowhere. Still no bid at Anfield, still the quota snag in Istanbul, and a 35th birthday on Wednesday. Somebody's reporting is about to age very badly.",
     },
     {
       id: "konate-out",
@@ -1542,7 +1595,7 @@ export const TRANSFER_TARGETS = {
       probability: 38,
       heatTier: "warm",
       sources: [{ name: "OneFootball", tier: "B" }, { name: "Talksport", tier: "A" }, { name: "Football365", tier: "B" }],
-      note: "Fri 3 Jul — the reluctance is the player's. Forest arrive with the Anderson windfall and a readiness to meet the £35m to £40m ask, but Jones is reported unconvinced this week, wary of trading Champions League football for a club with no European place that could yet lose its manager; Inter's sporting director appears done bidding, with Villa and Arsenal lingering in the background. The likelier sequence now: report for pre-season, talk with Iraola, then decide.",
+      note: "Sun Jul 5 — the destination order clarifies: if Jones goes at all, reporting now has Inter, Arsenal or Villa ahead of Forest, whose Anderson money and readiness to meet the £35m-40m ask have not moved him; Inter have already had two bids turned away this summer. The likeliest sequence holds: report on July 13, talk with Iraola, then decide.",
     },
     {
       id: "gakpo-out",
