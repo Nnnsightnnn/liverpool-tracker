@@ -171,7 +171,7 @@ export const SLOT_CONFIDENCE = {
   LB:  "Low",    // Robertson gone (free to Spurs, done) · Kerkez inherits
   LCB: "Medium", // Van Dijk · Galatasaray exit talks · Reds insist he stays
   RCB: "Low",    // Konaté · Madrid move confirmed to 2030 · Inácio heads the list
-  RB:  "Medium", // Jones · Forest ready to meet £40m as he weighs the drop
+  RB:  "Medium", // Jones · Inter/Arsenal/Villa ahead of a cooled Forest interest
   LDM: "High",   // Gravenberch · the season's most reliable midfielder
   RDM: "Medium", // Szoboszlai · mainstay, extension still pending
   LAM: "Medium", // Wirtz · injury-hit debut season · 'untouchable' per club

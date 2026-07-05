@@ -487,7 +487,7 @@ export const DISPATCHES = [
     dateline: "Kirkby · 4 July",
     category: "Manager",
     body:
-      "The club confirmed Andoni Iraola's backroom staff on Saturday, and it reads like a removal van from Dorset: Tommy Elphick and Shaun Cooper, his Bournemouth assistants, arrive alongside fitness specialist Pablo de la Torre and analyst Tom Webber. The appointments signal a full tactical reset rather than a redecoration, four men fluent in the pressing grammar Iraola means to install from the first session on July 13, now eight days away. One footnote for the romantics: Thiago Alcântara, floated for a coaching role, does not join, for the most prosaic reason in football. He does not yet have the badges.",
+      "The club confirmed Andoni Iraola's backroom staff on Saturday, and it reads like a removal van from Dorset: Tommy Elphick and Shaun Cooper, his Bournemouth assistants, arrive alongside fitness specialist Pablo de la Torre and analyst Tom Webber. The appointments signal a full tactical reset rather than a redecoration, four men fluent in the pressing grammar Iraola means to install from the first session on July 13, nine days away. One footnote for the romantics: Thiago Alcântara, floated for a coaching role, does not join, for the most prosaic reason in football. He does not yet have the badges.",
   },
   {
     n: "04",
@@ -736,7 +736,7 @@ export const TRANSFER_TARGETS = {
       releaseClause: null,
       contractNote: "Real Madrid are reported willing to sell at around £52m (€50m) to free squad space and fund Enzo Fernandez; the obstacle is the player, said to want to stay and fight for his place.",
       probability: 35,
-      heatTier: "warm",
+      heatTier: "cool",
       sources: [
         { name: "Anfield Watch", tier: "B" },
         { name: "TeamTalk",      tier: "B" },
@@ -1593,7 +1593,7 @@ export const TRANSFER_TARGETS = {
       destination: "Nott'm Forest / Inter / Arsenal (interest)",
       feeAsk: { min: 35, max: 40, currency: "£m" },
       probability: 38,
-      heatTier: "warm",
+      heatTier: "cool",
       sources: [{ name: "OneFootball", tier: "B" }, { name: "Talksport", tier: "A" }, { name: "Football365", tier: "B" }],
       note: "Sun Jul 5 — the destination order clarifies: if Jones goes at all, reporting now has Inter, Arsenal or Villa ahead of Forest, whose Anderson money and readiness to meet the £35m-40m ask have not moved him; Inter have already had two bids turned away this summer. The likeliest sequence holds: report on July 13, talk with Iraola, then decide.",
     },
