@@ -484,7 +484,7 @@ export const DISPATCHES = [
     n: "03",
     headline: "Nineteen, Give Or Take.",
     byline: "Liverpool.com / SportBible",
-    dateline: "Kirkby · 5 July",
+    dateline: "Kirkby · 6 July",
     category: "Injuries",
     body:
       "A week from today the gates open and Iraola's Liverpool becomes an actual, countable thing: roughly nineteen players due for the first session on July 13. The absences tell the story. Van Dijk, Gravenberch and Gakpo serve out the Netherlands' three-week rest, Wirtz the same for Germany, Isak likewise, and the sports-science staff have reportedly 'blocked' early returns even from those who volunteered. The treatment room keeps its residents: Bradley's knee still has no date, Frimpong misses the first wave, Endo reports with the foot that ended his Japan career still on probation. Leoni, cleared for grass at last, may be the first day's best news.",

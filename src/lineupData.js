@@ -23,10 +23,10 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the XI that closed the campaign, adjusted for
     // the June 30 free-agent exits (Kerkez, Jacquet, Ngumoha step in). 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Sun Jul 5: Diomande agreed
-    // PSG terms so the winger board pivots to Barcola (who has told Paris he
-    // wants out); Van Dijk exit claims contested ahead of his 35th on Wednesday;
-    // Salah's Egypt meet Argentina at noon Tuesday; Iraola's staff confirmed.
+    // backup look — Slot favoured 4-2-3-1. Refreshed Mon Jul 6: Diomande formally
+    // dropped, Barcola sole plan A; Turkish reports claim Van Dijk agreed
+    // Galatasaray terms with an offer days away, club say nothing has arrived;
+    // Salah's Egypt meet Argentina at noon Tuesday; Klopp agrees the Germany job.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -61,10 +61,10 @@ export const FORMATIONS = {
     // through the run-in — is shown as the first-choice XI Liverpool finished
     // the campaign with (adjusted for the June 30 exits), NOT as a prediction
     // for a coming fixture (the next match is a pre-season friendly on July
-    // 25). Refreshed Sun Jul 5: the winger board pivoted, Diomande to agreed PSG
-    // terms and Barcola telling Paris he wants out with Liverpool leading; Van
-    // Dijk claimed 'very close' and 'going nowhere' in the same weekend, 35 on
-    // Wednesday; Salah's Egypt meet Argentina at noon Tuesday.
+    // 25). Refreshed Mon Jul 6: Diomande formally dropped and Barcola carries
+    // the winger file alone; Turkish reports claim Van Dijk agreed Galatasaray
+    // terms with an offer days away, the club say nothing has arrived; Salah's
+    // Egypt meet Argentina at noon Tuesday; Klopp agrees the Germany job.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -117,10 +117,10 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-07-05
-// (Sun, post-season: Diomande agreed PSG terms and the winger board pivoted to
-// Barcola, who has told Paris he wants out; Van Dijk exit claims contested
-// before his 35th on Wednesday; Salah's Egypt face Argentina at noon Tuesday.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-07-06
+// (Mon, post-season: Diomande formally dropped with Barcola sole plan A;
+// Turkish reports claim Van Dijk agreed Galatasaray terms, club say nothing
+// has arrived; Salah's Egypt face Argentina at noon Tuesday in Atlanta.)
 export const PLAYER_EVIDENCE = {
   1:  "Brazil's No. 1 · staying at Anfield",   // Alisson
   2:  "Loan likely now Alisson stays",         // Mamardashvili

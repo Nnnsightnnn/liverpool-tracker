@@ -391,11 +391,11 @@ Monday, and the morning's biggest word is Romano's smallest: here we go,
             }}>
               Inside, the squad as a roster, the standings as they finished, and five
               dispatches from the small army of writers chasing this team through the
-              week. There is a marquee winger pursuit that changed horses overnight;
-              a recruiter's list of what a thinning spine still needs; a World Cup
-              sending its Reds home one shootout at a time; a talisman weighing his
-              next club from afar; and a homegrown midfielder now weighing whether
-              to go. Read slowly. The window is open.
+              week. There is the old manager saying yes to his country; a captain's
+              file that has stopped being a mood and become a document; a first
+              headcount of the new regime, nineteen or so at the gates; an eve-of-match
+              letter from Atlanta; and a midfielder nobody can quite buy. Read slowly.
+              The window is open.
             </p>
           </div>
           <div style={{ background: T.rule }} />
