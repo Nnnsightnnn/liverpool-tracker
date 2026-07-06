@@ -348,11 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Sunday, and the window has turned on its heel: Diomande has agreed his
-          five years in Paris, so Liverpool go to Barcola, who has already told
-          PSG he wants out. The captain turns thirty-five on Wednesday amid
-          reporting that cannot agree on him; Salah gets Messi at noon on
-          Tuesday. Twenty days until Nashville.
+Monday, and the morning's biggest word is Romano's smallest: here we go,
+          Klopp to Germany, only the Red Bull release left to sign. In Istanbul
+          they draft an offer for the captain two days shy of thirty-five;
+          tomorrow at noon in Atlanta, Salah meets Messi with the quarters at
+          stake. Nineteen days until Nashville.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,21 +367,23 @@ Sunday, and the window has turned on its heel: Diomande has agreed his
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and the plot resolved itself overnight, the way windows do: not with
-              an announcement but with a preference. Yan Diomande agreed his five
-              years with PSG, the club his father always followed, and Liverpool's
-              £86m stopped mattering. Within a day the board had turned to Bradley
-              Barcola, and Barcola, it turns out, had already turned: he has told
-              Paris he intends to leave, and Liverpool's recruiters came away from
-              fresh talks encouraged, officials waiting in France in case the
-              Diomande deal snags. At home the captain approaches thirty-five on
-              Wednesday through a crossfire of reporting, very close to Istanbul in
-              one telling, going nowhere in Iraola's. Klopp said the quiet part
-              aloud, yes, the talks are real, New York next week. And at noon on
-              Tuesday in Atlanta, Salah meets Messi with Mac Allister stationed
-              between them, one club's past and present on opposite sides of a
-              knockout. The window takes; Tuesday we learn what it gives back.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and the man who built the last great Liverpool has a new country.
+              Jürgen Klopp has agreed to coach Germany, Romano attaching the three
+              words that end arguments, and what remains is lawyering: Red Bull
+              must let him go, a clause in his contract apparently drawn for
+              precisely this exit. At Anfield the noise around the captain has
+              hardened into mechanics, Turkish reporting claiming terms agreed and
+              an official Galatasaray offer days away, while the club repeats,
+              more quietly each time, that nothing has arrived. Barcola, the whole
+              of plan A now that Diomande is formally abandoned, answered the only
+              question that matters with a shrug: honestly, he does not know yet.
+              A week from today the gates at Kirkby open and Iraola's Liverpool
+              becomes countable, nineteen or so in the first group. And tomorrow
+              at noon in Atlanta, Salah plays Messi for a quarter-final, Mac
+              Allister stationed in between. Some mornings the club you support
+              is mostly a set of departures; this is one, and still the pull is
+              north.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3111,7 +3113,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Yes, I can confirm the talks."
+        "New Germany head coach, here we go."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
