@@ -129,9 +129,9 @@ const RSS_FEEDS = [
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
   { source: "Al Jazeera", title: "Salah against Messi at last: Egypt meet Argentina at noon in Atlanta with a first quarter-final the prize", time: "today", category: "major" },
+  { source: "Sports Mole", title: "Predicted lineups for Argentina v Egypt: Salah passed fit after the 120-minute night in Arlington", time: "today", category: "major" },
   { source: "TeamTalk", title: "Liverpool explore Elliott-for-Wharton swap as Palace hold their £70m line on the England midfielder", time: "1d ago", category: "major" },
   { source: "TeamTalk", title: "Liverpool 'make contact' over Gilberto Mora as Man Utd pull out of the race for Mexico's 17-year-old", time: "1d ago", category: "major" },
-  { source: "Sports Mole", title: "Predicted lineups for Argentina v Egypt: Salah passed fit after the 120-minute night in Arlington", time: "today", category: "major" },
   { source: "The Athletic", title: "Pearce: Van Dijk 'is going nowhere', on holiday and due back for pre-season with Iraola counting on him", time: "1d ago", category: "major" },
   { source: "Anfield Watch", title: "Turkish reports insist Galatasaray's talks with Van Dijk's camp were 'positive' as the promised offer stays unsent", time: "1d ago", category: "fan" },
   { source: "Empire of the Kop", title: "Romano confirms it: Celtic's U16 captain Dara Jikiemi signs, a five-year Liverpool path mapped at sixteen", time: "1d ago", category: "fan" },

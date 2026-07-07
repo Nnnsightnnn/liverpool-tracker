@@ -23,10 +23,10 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the XI that closed the campaign, adjusted for
     // the June 30 free-agent exits (Kerkez, Jacquet, Ngumoha step in). 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Mon Jul 6: Diomande formally
-    // dropped, Barcola sole plan A; Turkish reports claim Van Dijk agreed
-    // Galatasaray terms with an offer days away, club say nothing has arrived;
-    // Salah's Egypt meet Argentina at noon Tuesday; Klopp agrees the Germany job.
+    // backup look — Slot favoured 4-2-3-1. Refreshed Tue Jul 7: Van Dijk
+    // coverage split between Pearce's 'going nowhere' and Istanbul's warm
+    // talks, no bid arrived; Wharton swap explored with Palace; Salah's
+    // Egypt meet Argentina at noon today; Endo/Leoni/Bajcetic back early.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -61,10 +61,10 @@ export const FORMATIONS = {
     // through the run-in — is shown as the first-choice XI Liverpool finished
     // the campaign with (adjusted for the June 30 exits), NOT as a prediction
     // for a coming fixture (the next match is a pre-season friendly on July
-    // 25). Refreshed Mon Jul 6: Diomande formally dropped and Barcola carries
-    // the winger file alone; Turkish reports claim Van Dijk agreed Galatasaray
-    // terms with an offer days away, the club say nothing has arrived; Salah's
-    // Egypt meet Argentina at noon Tuesday; Klopp agrees the Germany job.
+    // 25). Refreshed Tue Jul 7: the Barcola file frozen until France exit the
+    // World Cup; Van Dijk coverage split between Pearce's 'going nowhere' and
+    // Istanbul's warm talks, no bid arrived; Salah's Egypt meet Argentina at
+    // noon today; Endo, Leoni and Bajcetic reported to Kirkby early Monday.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -176,7 +176,7 @@ export const SLOT_CONFIDENCE = {
   RDM: "Medium", // Szoboszlai · mainstay, extension still pending
   LAM: "Medium", // Wirtz · injury-hit debut season · 'untouchable' per club
   CAM: "Low",    // Mac Allister · still between the two Madrids · Camavinga eyed too
-  RAM: "Low",    // Salah gone (free agent, Egypt run live) · Diomande agreed PSG terms · Barcola now the priority, pushing to leave Paris
+  RAM: "Low",    // Salah gone (free agent, Egypt run live) · Barcola the priority, file frozen until France exit the World Cup
   ST:  "Medium", // Isak · £100m striker · injury-wrecked first season
 };
 
@@ -213,7 +213,7 @@ export const ALTERNATIVES = {
   RDM: [{ playerId: 14, reason: "Gravenberch · could swap depths with Szoboszlai" }],
   LAM: [{ playerId: 22, reason: "Gakpo · a wide-left option · exit now called unlikely" }, { playerId: 25, reason: "Ngumoha · breakout teenager · rotation option on the left" }],
   CAM: [{ playerId: 15, reason: "Szoboszlai · can push forward into the No. 10 with another midfielder in the pivot" }, { playerId: 16, reason: "Curtis Jones · alternative No. 10 if not used at right-back" }],
-  RAM: [{ playerId: 25, reason: "Ngumoha · teenage wide option · part of the post-Salah picture" }, { playerId: 26, reason: "Chiesa · rotation winger · summer exit likely" }],
+  RAM: [{ playerId: 25, reason: "Ngumoha · teenage wide option · part of the post-Salah picture" }, { playerId: 26, reason: "Chiesa · exit off after U-turn · staying to fight for a spot" }],
   ST:  [{ playerId: 25, reason: "Ngumoha · led the line in Isak's absences late in the season" }, { playerId: 22, reason: "Gakpo · false-9 option used by Slot earlier in the year" }],
 };
 

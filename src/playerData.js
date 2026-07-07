@@ -1203,7 +1203,7 @@ export const TRANSFER_TARGETS = {
       ],
       lastUpdated: "2026-06-25",
       rumorNote:
-        "Dortmund · 25 Jun — filed behind the bigger names. TeamTalk's Graeme Bailey confirms Liverpool and Manchester United have both asked Borussia Dortmund about Felix Nmecha, the Germany international whose strong World Cup has his camp testing the market despite a contract signed in March. The complication is timing: his release clause of around £69m only activates next summer, so a 2026 move means negotiating with a club under no pressure to sell. A profile that fits the reshape, but a cheaper contingency now sitting behind the Camavinga and Diomandé pursuits rather than at the front of them.",
+        "Dortmund · 25 Jun — filed behind the bigger names. TeamTalk's Graeme Bailey confirms Liverpool and Manchester United have both asked Borussia Dortmund about Felix Nmecha, the Germany international whose strong World Cup has his camp testing the market despite a contract signed in March. The complication is timing: his release clause of around £69m only activates next summer, so a 2026 move means negotiating with a club under no pressure to sell. A profile that fits the reshape, but a cheaper contingency now sitting behind the Camavinga and Wharton files rather than at the front of them.",
       positionFit: {
         replaces: "Jones (if sold)",
         competesWith: ["Mac Allister", "Szoboszlai", "Wirtz"],
