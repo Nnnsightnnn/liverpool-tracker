@@ -348,11 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Monday, and the morning's biggest word is Romano's smallest: here we go,
-          Klopp to Germany, only the Red Bull release left to sign. In Istanbul
-          they draft an offer for the captain two days shy of thirty-five;
-          tomorrow at noon in Atlanta, Salah meets Messi with the quarters at
-          stake. Nineteen days until Nashville.
+Tuesday, and at noon in Atlanta the summer holds its breath: Salah
+          against Messi, a first Egyptian quarter-final one win away. At home
+          the ledger churns, a swap floated for Wharton, a call placed on a
+          Tijuana teenager, the captain both staying and leaving depending on
+          which paper you read. Eighteen days until Nashville.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,35 +367,33 @@ Monday, and the morning's biggest word is Romano's smallest: here we go,
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and the man who built the last great Liverpool has a new country.
-              Jürgen Klopp has agreed to coach Germany, Romano attaching the three
-              words that end arguments, and what remains is lawyering: Red Bull
-              must let him go, a clause in his contract apparently drawn for
-              precisely this exit. At Anfield the noise around the captain has
-              hardened into mechanics, Turkish reporting claiming terms agreed and
-              an official Galatasaray offer days away, while the club repeats,
-              more quietly each time, that nothing has arrived. Barcola, the whole
-              of plan A now that Diomande is formally abandoned, answered the only
-              question that matters with a shrug: honestly, he does not know yet.
-              A week from today the gates at Kirkby open and Iraola's Liverpool
-              becomes countable, nineteen or so in the first group. And tomorrow
-              at noon in Atlanta, Salah plays Messi for a quarter-final, Mac
-              Allister stationed in between. Some mornings the club you support
-              is mostly a set of departures; this is one, and still the pull is
-              north.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and for once the club's biggest fixture involves nobody on its
+              books. At noon in Atlanta, Mohamed Salah, free agent, pharaoh,
+              ours in every way that still counts, leads Egypt against Messi's
+              Argentina with the country's first quarter-final one win away;
+              Mac Allister stands between him and it. Back home the machinery
+              grinds on: a swap explored that would trade Harvey Elliott
+              against Crystal Palace's £70m valuation of Adam Wharton, and a
+              call placed on Gilberto Mora, seventeen, the youngest knockout
+              starter at a World Cup since Pelé. The captain's file now reads
+              like two different newspapers, Pearce swearing he is going
+              nowhere while Istanbul reports warm talks, and he turns
+              thirty-five tomorrow. Klopp's unveiling waits on lawyers in
+              Salzburg; three players beat the pre-season bell to Kirkby by a
+              week. Watch the match. The rest is paperwork.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
-              Inside, the squad as a roster, the standings as they finished, and five
-              dispatches from the small army of writers chasing this team through the
-              week. There is the old manager saying yes to his country; a captain's
-              file that has stopped being a mood and become a document; a first
-              headcount of the new regime, nineteen or so at the gates; an eve-of-match
-              letter from Atlanta; and a midfielder nobody can quite buy. Read slowly.
-              The window is open.
+              Inside, the squad as a roster, the standings as they finished, and
+              five dispatches from the writers who never clock off. There is a
+              matchday letter from Atlanta, filed before the whistle; a swap
+              deal taking shape in south London; three players who came back to
+              Kirkby a week early; a seventeen-year-old in Tijuana with half of
+              Europe on the phone; and a sixteen-year-old from Celtic who
+              simply signed. Read them in order. The summer is speeding up.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3113,7 +3111,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "New Germany head coach, here we go."
+        "At noon, the pharaoh meets the king."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
