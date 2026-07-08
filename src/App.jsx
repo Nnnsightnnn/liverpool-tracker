@@ -348,11 +348,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Tuesday, and at noon in Atlanta the summer holds its breath: Salah
-          against Messi, a first Egyptian quarter-final one win away. At home
-          the ledger churns, a swap floated for Wharton, a call placed on a
-          Tijuana teenager, the captain both staying and leaving depending on
-          which paper you read. Eighteen days until Nashville.
+Wednesday, and the morning after Atlanta: Egypt led Argentina by two
+          and lost by one, Salah's World Cup, and perhaps his last great stage,
+          ending in stoppage time. At home the captain turns thirty-five with
+          Milan calling and Anfield saying no, the winger chase hits a wall in
+          Paris, and Iraola's first sessions begin quietly at Kirkby. Seventeen
+          days until Nashville.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,21 +368,21 @@ Tuesday, and at noon in Atlanta the summer holds its breath: Salah
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and for once the club's biggest fixture involves nobody on its
-              books. At noon in Atlanta, Mohamed Salah, free agent, pharaoh,
-              ours in every way that still counts, leads Egypt against Messi's
-              Argentina with the country's first quarter-final one win away;
-              Mac Allister stands between him and it. Back home the machinery
-              grinds on: a swap explored that would trade Harvey Elliott
-              against Crystal Palace's £70m valuation of Adam Wharton, and a
-              call placed on Gilberto Mora, seventeen, the youngest knockout
-              starter at a World Cup since Pelé. The captain's file now reads
-              like two different newspapers, Pearce swearing he is going
-              nowhere while Istanbul reports warm talks, and he turns
-              thirty-five tomorrow. Klopp's unveiling waits on lawyers in
-              Salzburg; three players beat the pre-season bell to Kirkby by a
-              week. Watch the match. The rest is paperwork.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and the pharaoh's tournament is over. In Atlanta on Tuesday night
+              Egypt led Argentina 2-0 and lost 3-2, Messi's late double and
+              Enzo Fernández's ninety-second-minute winner ending Mohamed
+              Salah's World Cup and, in all likelihood, the last big stage of a
+              career that has felt like one long farewell. A free agent now with
+              nothing left to wait for, he reopens a destination call that
+              Al-Ahli lead and MLS watches. The same morning brings a birthday:
+              Van Dijk turns thirty-five with Ibrahimović calling him Milan's
+              dream and Anfield answering, flatly, that he stays. The winger
+              chase hits a wall, Barcola leaning toward Arsenal while Paris name
+              a price nobody will pay until France are done. And at Kirkby,
+              unglamorously, Iraola's actual work begins: eight players, boots
+              on, a new signing among them. The stages empty. The building
+              starts.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -389,11 +390,12 @@ Tuesday, and at noon in Atlanta the summer holds its breath: Salah
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              matchday letter from Atlanta, filed before the whistle; a swap
-              deal taking shape in south London; three players who came back to
-              Kirkby a week early; a seventeen-year-old in Tijuana with half of
-              Europe on the phone; and a sixteen-year-old from Celtic who
-              simply signed. Read them in order. The summer is speeding up.
+              report from Atlanta, where Egypt led by two and lost by one; a
+              first morning of Iraola's work at the AXA; a captain who turns
+              thirty-five and finds Milan on the line; a free agent whose phone
+              starts ringing the moment his tournament ends; and a winger chase
+              that has run into a wall in Paris. Read them in order. The stages
+              are emptying and the building has begun.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3111,7 +3113,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "At noon, the pharaoh meets the king."
+        "The stages empty. The building starts."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

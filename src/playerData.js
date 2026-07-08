@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 34, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Tue Jul 7 — two papers, one captain: Pearce insists he is 'going nowhere' and due back for pre-season with Iraola counting on him, while Fotomac describes positive talks with his agent and fresh reporting claims FSG would listen to a serious offer. The promised bid has still not arrived at Anfield; he turns 35 tomorrow", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Wed Jul 8 — thirty-five today, and Milan want him: Zlatan Ibrahimović has made the captain AC Milan's 'dream' signing for Ruben Amorim's rebuild, with Fenerbahce also interested. Anfield dismisses it 'categorically,' with Van Dijk, out of the World Cup with the Netherlands and contracted to 2027, firmly in Iraola's plans. No bid has arrived and none is expected to shift him", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 34, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Tue Jul 7 — matchday: Argentina at noon in Atlanta, Messi opposite him at a World Cup for the first time and Egypt's first ever quarter-final one win away. Passed fit after the hamstring held through the Arlington marathon; Opta prices the champions at 69.1%, and every round survived keeps the free agent's destination call parked", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 34, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Wed Jul 8 — the tournament is over: Egypt led Argentina 2-0 in Atlanta and lost 3-2, Messi's late double and Enzo Fernández's 92nd-minute winner ending a run that had carried the feel of a farewell. A free agent since ending his Liverpool deal, his destination call now unparks in earnest, with Al-Ahli leading a Saudi race and MLS watching", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -437,22 +437,22 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-07-07T08:30:00Z",
+  generatedAt: "2026-07-08T08:30:00Z",
   overview:
-    "Forty-seven days to opening day, and Tuesday's most consequential football happens an ocean from any of these twenty clubs, Salah against Messi at noon in Atlanta. The finished table still writes the market's rules: fifth-place Liverpool (60 points, Champions League restored) are testing whether Harvey Elliott can be folded into fifteenth-place Palace's £70m ask for Adam Wharton, a fifth-versus-fifteenth trade that only silverware seasons make possible. Champions Arsenal on 85 have a number tabled for Newcastle's Guimarães, Villa's 65 still marks the last automatic Champions League line, and Forest, sixteenth, remain between managers with £116m unspent. Nothing in the table moves before Newcastle away on August 23; everything around it moved again on Monday.",
+    "Forty-six days to opening day, and the football that mattered most this week happened an ocean away and ended in heartbreak: Salah's Egypt led Argentina 2-0 in Atlanta on Tuesday and lost 3-2 in stoppage time, closing the tournament of the free agent this finished table can no longer hold. The 2025-26 order still writes the market's rules. Fifth-place Liverpool (60 points, Champions League restored) have let the Wharton swap with fifteenth-place Palace cool, Iraola signalling other priorities, while champions Arsenal on 85 keep a number tabled for Newcastle's Guimarães and now sit favourites for the same Barcola the Reds chased. Villa's 65 still marks the last automatic Champions League line, and Forest, sixteenth, remain between managers with £116m unspent. Nothing in the table moves before Newcastle away on August 23; everything around it moved again overnight.",
   teams: {
-    "Arsenal": "Champions on 85 and first to blink on Tyneside: per Ben Jacobs the Gunners have actually tabled a number for Bruno Guimarães in the last 48 hours, while Liverpool's contact with the same agents stays at the enquiry stage. The Barcola shadow race continues.",
+    "Arsenal": "Champions on 85 and winning the shadow races: per Ben Jacobs the Gunners keep a number tabled for Bruno Guimarães, and Bradley Barcola is now reported to favour a move to the Emirates over Liverpool's stalled winger pursuit.",
     "Manchester City": "Second on 78, and a mover again: having beaten Liverpool to Marc Guéhi, they have now paid Nottingham Forest £116m for Elliot Anderson, the windfall that funds Forest's run at Curtis Jones.",
     "Manchester United": "Third on 71, and a rival in the market: United have circled Real Madrid's Eduardo Camavinga alongside Liverpool and Chelsea, and are now reported 'determined' to land West Ham's Mateus Fernandes, a race Liverpool have drifted out of.",
     "Aston Villa": "Fourth on 65, the last automatic UCL berth; Harvey Elliott has returned to Liverpool after his season-long loan at Villa Park.",
-    "Liverpool": "Fifth on 60 and back in the Champions League, the to-do list growing arms: a Wharton swap explored with Palace, contact made on Tijuana's Mora, and the captain's file split between Pearce's 'going nowhere' and Istanbul's positive talks. Endo, Leoni and Bajcetic reported to Kirkby early on Monday; the rest arrive July 13.",
+    "Liverpool": "Fifth on 60 and back in the Champions League, the summer stalling at the top of the market: the Wharton swap has cooled, Barcola leans Arsenal, and the captain's file now runs through Milan, all of it dismissed at Anfield. Eight players trained at the AXA on Tuesday, Jacquet among them; pre-season proper begins July 14.",
     "Bournemouth": "Sixth and into Europe, still the Merseyside shopping aisle: Alex Scott lingers as a midfield option should the Jones picture change.",
     "Sunderland": "Seventh and into Europe in their promotion season, and Iraola's first pre-season assignment, Nashville on July 25.",
     "Brighton": "Eighth, a Conference League play-off place extending the European streak; Beukema and van Hecke both linger on Liverpool defensive files.",
     "Brentford": "Ninth on 53, level with Brighton but out of Europe for the first time in their top-flight era; hosts of the season's final-day 1-1 on May 24.",
     "Chelsea": "Tenth on 52, a third straight year without the Champions League; moved first for Atalanta's Marco Palestra, remain in the Camavinga conversation, and now face the awkward question of Pedro Neto, their winger reported open to a Liverpool move.",
     "Newcastle": "Twelfth on 49, and suddenly the market's centre of gravity: Arsenal have tabled a number for captain Bruno Guimarães and Liverpool have called his agents, though the Magpies insist he is not for sale. They host Iraola's Liverpool on opening day, August 23.",
-    "Crystal Palace": "Fifteenth on points, in Europe by silverware, and suddenly central to Liverpool's midfield summer: they hold a £70m line on Adam Wharton while Liverpool test whether Harvey Elliott can be folded into the price. Palace would still rather extend their No. 6 than sell him.",
+    "Crystal Palace": "Fifteenth on points, in Europe by silverware, and back off Liverpool's board for now: the Reds' interest in £70m Adam Wharton has cooled, Iraola not prioritising him, and Palace can keep the No. 6 they always preferred to extend rather than sell.",
     "Nott'm Forest": "Sixteenth and in chaos: Pereira sacked with Glasner expected in, the £116m Anderson windfall unspent, and their prime midfield target Curtis Jones reported 'reluctant' whoever takes the chair.",
     "Tottenham": "Survived in 17th, and Robertson's free transfer took effect on June 30; also pressing for West Ham's Mateus Fernandes and, now, Newcastle's Sandro Tonali.",
     "West Ham": "Relegated in 18th and the summer's busiest fire-sale aisle: Mateus Fernandes (Liverpool, United and Spurs all circling) and Crysencio Summerville both up for sale.",
@@ -465,136 +465,131 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Noon, Atlanta.",
-    byline: "Al Jazeera / FIFA / Opta",
+    headline: "Two Up, And Gone.",
+    byline: "Sky Sports / ESPN",
     dateline: "Atlanta · 7 July",
-    category: "Football News",
+    category: "Match Report",
     body:
-      "By lunchtime it will be decided. Egypt play Argentina at noon today at Mercedes-Benz Stadium, and for the first time at a World Cup, Salah plays Messi. The numbers lean one way: Opta prices the champions at 69.1%, and a Messi goal would put him level with Guillermo Stábile as the only Argentine to score eight in a single tournament. Egypt's rebuttal is quieter and harder: two goals conceded in five matches, a hamstring that survived 120 minutes in Arlington, a nation one win from its first quarter-final. Between the two icons stands Mac Allister, employed by the club that no longer employs either of them, in a sense. Whatever happens after the whistle, the summer's paperwork can wait until it blows.",
+      "It should have been the night Egypt outgrew its own history. Ibrahim headed them in front, Mostafa Zico made it two just past the hour, and for eighteen minutes a first World Cup quarter-final belonged to them. Then the reigning champions remembered who they were. Romero rose to Messi's cross, Messi rifled in his eighth of the tournament four minutes later, and Enzo Fernández won it in the ninety-second, a foul on the way to it that VAR never went back for. Salah gathered the players afterward and told them plainly it was over, God's decree. He walked to the tunnel with the look of a man who knows the last big stage has closed behind him.",
   },
   {
     n: "02",
-    headline: "The Elliott Clause.",
-    byline: "TeamTalk / GiveMeSport",
-    dateline: "Selhurst Park · 6 July",
-    category: "Transfers",
+    headline: "Boots On At The AXA.",
+    byline: "This Is Anfield / Liverpool.com",
+    dateline: "Kirkby · 7 July",
+    category: "Manager",
     body:
-      "Monday produced the summer's most elegant piece of accounting: Liverpool are exploring whether Harvey Elliott, freshly returned from a bruising loan at Aston Villa, can be folded into Crystal Palace's £70m asking price for Adam Wharton. The logic writes itself. Palace rate Elliott near £25m, Liverpool have wanted a left-footed No. 6 since the Endo decline, and Wharton has spent a year collecting winners' medals and superlatives in equal measure. The complications write themselves too: Iraola has not yet decided Elliott should leave at all, and Palace would still rather hand their midfielder a new contract than a farewell. Quick, all sides say, if it moves. The window has heard that before.",
+      "Andoni Iraola's Liverpool started for real on Tuesday, not with a fixture but with a fitness drill. Eight senior figures were on the grass at the training centre: Harvey Elliott, James McConnell and Jeremy Jacquet, the twenty-year-old signed from Rennes last week, going through preparatory work, while Conor Bradley, Hugo Ekitike, Giovanni Leoni, Stefan Bajcetic and Wataru Endo pushed through rehab. The World Cup men, Van Dijk, Gravenberch, Gakpo, will not surface until the American tour. It is the least glamorous kind of day, no crowd, no camera worth the name. It is also the first day of a new manager's actual work, and those tend to be worth watching.",
   },
   {
     n: "03",
-    headline: "Three Came Early.",
-    byline: "live4liverpool / Liverpool.com",
-    dateline: "Kirkby · 6 July",
-    category: "Manager",
+    headline: "Thirty-Five, And Wanted.",
+    byline: "Goal / Football Italia",
+    dateline: "Anfield · 8 July",
+    category: "Transfers",
     body:
-      "The Iraola era began on Monday, unofficially and in triplicate. Wataru Endo, Giovanni Leoni and Stefan Bajcetic reported to Kirkby a full week before the July 13 bell, three men with three different debts to the calendar. Endo carries a foot that ended his comeback in May and an international career he closed himself, 73 caps and out. Leoni is on the last mile of the ACL torn ten months ago, an eighteen-year-old whose Liverpool career so far is one appearance and one long corridor of rehab. Bajcetic simply lost a season and wants it back. New managers talk about clean slates; these three arrived early to write on it first.",
+      "Virgil van Dijk turns thirty-five today, and Milan sent a card. Zlatan Ibrahimović, the club's roving conscience and chief romantic, has decided the Liverpool captain is the defender Ruben Amorim's rebuild cannot do without, a 'dream' signing to anchor a new era at San Siro. Fenerbahce, too, keep half an eye on him. The Anfield reply carries no ambiguity: the links are dismissed 'categorically,' the contract runs to 2027, and Iraola wants his captain in the middle of everything he is about to build. There is a certain poetry to a thirty-fifth birthday spent being called irreplaceable by two clubs, one of which employs him. He is staying. The candles are the only new arrival.",
   },
   {
     n: "04",
-    headline: "The Kid From Tijuana.",
-    byline: "TeamTalk / This Is Anfield",
-    dateline: "Tijuana · 6 July",
-    category: "Football News",
+    headline: "The Call Reopens.",
+    byline: "Goal US / This Is Anfield",
+    dateline: "Atlanta · 8 July",
+    category: "Farewells",
     body:
-      "Gilberto Mora is seventeen, runs Mexico's midfield, and on Monday acquired the full apparatus of a modern transfer saga: Liverpool 'make contact,' Manchester United withdraw, Real Madrid admire from long habit, and a release-clause figure surfaces on cue. He is the youngest starter in a World Cup knockout round since Pelé, which is the kind of sentence that ends bidding restraint. The frictions are real: FIFA bars a foreign move until he turns 18 in October, Tijuana extended him to 2029, and the price is already past £34m and climbing with every touch in this tournament. Liverpool's recruiters, credited as 'very keen,' have seen him twice in person. So has everyone else.",
+      "For weeks the biggest question about Mohamed Salah had an answer that kept getting postponed: not yet, wait for Egypt. On Tuesday night Egypt ran out of tournament, and the question is live again. Al-Ahli are said to lead a Saudi chase that Al-Ittihad and Al-Hilal have joined, with Inter Miami and San Diego watching from a distance that money can shorten. Those close to him insist it is not only money: he wants a long deal, a genuine tilt at trophies, an ending that fits the size of the career. 'Everything will become clear,' he keeps saying. It always meant after the World Cup. After is now.",
   },
   {
     n: "05",
-    headline: "Sixteen, Signed.",
-    byline: "Empire of the Kop / Fabrizio Romano",
-    dateline: "Glasgow · 5 July",
-    category: "Transfers",
+    headline: "A Wall In Paris.",
+    byline: "Liverpool.com / Football365",
+    dateline: "Paris · 8 July",
+    category: "Race for Europe",
     body:
-      "While the front pages argued about captains and wingers, the club quietly completed its first defensive signing of the summer: Dara Jikiemi, captain of Scotland's under-16s, put his name to Liverpool paperwork on Sunday. Celtic developed him; Liverpool will finish the job, a scholarship now, a professional contract pre-agreed for his 17th birthday in January, a five-year path mapped before he can drive. He plays centre-back by trade and midfield by invitation, which is exactly the profile the analytics department has spent two windows praising. No fee headline, no unveiling video, no probability tier. Some of the best business of any window is the kind nobody argues about.",
+      "The winger file, plan A since Diomande was buried, has hit the one obstacle recruitment cannot negotiate around: the player might prefer somewhere else. Bradley Barcola is now reported to favour Arsenal, and even if he did not, Paris Saint-Germain will not open the conversation below €135m or before France leave a World Cup they have carried into the quarter-finals. Liverpool have spoken to his camp; the fee talk is frozen until the tournament frees him. Behind it all sits Pedro Neto, the held hedge, looking less like a fallback with each passing day and more like the plan the summer is quietly settling on. Salah's replacement is proving harder to sign than Salah was to lose.",
   },
 ];
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-07-07T08:30:00Z",
+  generatedAt: "2026-07-08T08:30:00Z",
   summary:
-    "Tuesday July 7, and by lunchtime it will be settled: Egypt meet Argentina at noon in Atlanta for a place in the quarter-finals, Salah against Messi at a World Cup for the first time, Opta pricing the champions at 69.1% and Egypt's two-goals-conceded tournament the counterargument. At home the midfield file sprouted a twist on Monday, Liverpool exploring a swap that would send Harvey Elliott to Crystal Palace against their £70m ask for Adam Wharton, while contact has been made over Tijuana's 17-year-old Gilberto Mora, the youngest World Cup knockout starter since Pelé. The captaincy question now runs on two contradictory tracks: James Pearce insists Van Dijk 'is going nowhere,' Turkish outlets describe positive talks with his agent, and fresh reporting claims FSG would listen to a serious offer. Klopp's Germany unveiling still waits on his Red Bull release, and the quieter wires carried a done deal: Celtic's under-16 captain Dara Jikiemi signed his Liverpool paperwork on Sunday.",
+    "Wednesday July 8, and Atlanta is where the summer turned. Egypt led Argentina 2-0 at Mercedes-Benz Stadium and lost 3-2, Romero and Messi levelling inside four minutes before Enzo Fernández won it in the 92nd, ending Salah's World Cup and, most likely, his last competitive tie in a shirt that still feels half ours; Hossam Hassan called it 'an injustice,' furious at a disallowed goal and an unchecked Mac Allister challenge in the buildup. The date also brings a birthday: Van Dijk turns 35, and Zlatan Ibrahimović has made him AC Milan's 'dream' target, a pursuit Anfield sources flatly dismiss with the captain 'firmly in their plans.' The winger file took a knock, Bradley Barcola now said to favour Arsenal with PSG holding out for €135m until France are eliminated. Closer to home the work has quietly started: eight players trained at the AXA on Tuesday, among them new £-heavy arrival Jeremy Jacquet, with pre-season proper beginning at Kirkby on July 14.",
   keyTopics: [
     {
-      title: "Noon In Atlanta: Egypt Meet Argentina With The Quarters At Stake (Al Jazeera / FIFA / Sports Mole, today)",
+      title: "Two Up And Out: Salah's World Cup Ends 3-2 In Atlanta (Sky Sports / ESPN, today)",
       detail:
-        "Kick-off is noon today at Mercedes-Benz Stadium, Salah against Messi at a World Cup for the first time and a first Egyptian quarter-final the prize. Opta prices Argentina at 69.1% after they needed extra time to shake Cabo Verde, while Egypt have conceded twice all tournament; the fitness caveat is Salah's hamstring, nursed through 120 minutes against Australia. A Messi goal would make him the first Argentine since Stábile in 1930 to score eight in one World Cup.",
+        "Egypt led through Ibrahim's header and Mostafa Zico's 67th-minute finish before it unravelled: Romero headed in Messi's cross on 79, Messi rifled home his eighth of the tournament four minutes later, and Enzo Fernández won it in the 92nd. Shobeir had earlier saved a Messi penalty. For Salah, a free agent since ending his Liverpool deal a year early, it was in all likelihood the final competitive match of a summer that began as a farewell tour.",
       category: "matches",
     },
     {
-      title: "Elliott For Wharton: Liverpool Explore A Swap With Crystal Palace (TeamTalk / GiveMeSport, Monday)",
+      title: "'An Injustice': Hossam Hassan Turns On FIFA And The Officials (ESPN / SI, today)",
       detail:
-        "Reported Monday: Liverpool are looking into sending Harvey Elliott to Selhurst Park as part of a deal for Adam Wharton, Palace's £70m England midfielder, with Elliott valued near £25m after a difficult Villa loan. Iraola is said to still be weighing whether Elliott leaves at all, and Palace's preference remains a new contract for their No. 6, but the structure could 'move quickly' if all parties agree.",
+        "Egypt's manager did not hide his fury after the final whistle, accusing FIFA of protecting their own 'interests' to keep Messi in the tournament. His grievances were specific: a Marmoush goal chalked off by VAR, then no review of an apparent Mac Allister foul in the immediate buildup to Fernández's stoppage-time winner. 'Hard luck, it's over,' Salah told the dressing room. 'It's God's decree.'",
+      category: "matches",
+    },
+    {
+      title: "Thirty-Five, And Milan's 'Dream': Ibrahimović Tests Anfield (Goal / Football Italia, today)",
+      detail:
+        "Van Dijk turns 35 today, and the date arrives with Zlatan Ibrahimović driving an AC Milan approach that names the captain Ruben Amorim's 'dream' defensive signing for their rebuild. Anfield's response has been unambiguous: sources dismiss the Milan and Fenerbahçe links 'categorically,' insisting Van Dijk, whose deal runs to 2027, remains firmly in Iraola's plans for the new campaign.",
       category: "transfers",
     },
     {
-      title: "'Very Keen': Contact Made Over Tijuana's Gilberto Mora (TeamTalk / This Is Anfield, Monday)",
+      title: "Barcola Leans Arsenal: The Winger Pursuit Hits A Wall (Liverpool.com, today)",
       detail:
-        "Liverpool have made contact to establish the conditions of a deal for the 17-year-old running Mexico's World Cup midfield, the youngest knockout-round starter since Pelé. FIFA rules bar a foreign move until he turns 18 in October, his Tijuana contract runs to 2029, and the valuation is set to clear £34m; Manchester United withdrew on Monday, leaving Real Madrid, Barcelona, City and Chelsea in the queue.",
+        "The pivot to Bradley Barcola has cooled overnight, with fresh reporting suggesting the PSG winger favours a move to Arsenal. Liverpool must in any case wait: France reached the quarter-finals, and Paris will not entertain a sale before their tournament ends, with a minimum of €135m attached. The player's camp has been contacted, but the fee conversation is frozen until the World Cup releases him.",
       category: "transfers",
     },
     {
-      title: "Two Tracks On The Captain: 'Going Nowhere' Meets 'Positive Talks' (The Athletic / Football365 / Fotomac, Monday)",
+      title: "First Sessions: Eight At The AXA, Jacquet Among Them (This Is Anfield / Liverpool.com, today)",
       detail:
-        "The Van Dijk file split cleanly on Monday: James Pearce reported the captain 'is going nowhere,' on holiday and due back for pre-season with Iraola counting on him, while Fotomac described positive contact between Galatasaray and his agent and Football365 relayed an FSG stance of listening to a 'serious' offer. No official bid has arrived at Anfield; he turns 35 tomorrow.",
-      category: "transfers",
-    },
-    {
-      title: "Done Deal At Sixteen: Celtic's U16 Captain Dara Jikiemi Signs (Empire of the Kop / Fabrizio Romano, Sunday-Monday)",
-      detail:
-        "Romano confirmed the Scotland U16 captain signed his Liverpool paperwork on Sunday, a scholarship now with a professional contract lined up for his 17th birthday in January and a five-year path mapped. Comfortable at centre-back and in midfield, he arrives from Celtic as the first defensive signing of the Iraola era, at academy level or any other.",
-      category: "transfers",
-    },
-    {
-      title: "A Call Curtailed: Everton Shut The Branthwaite Door In One Conversation (Daily Mail / Anfield Index, Monday)",
-      detail:
-        "Monday's reporting revealed Liverpool gauged Everton on the £75m centre-back and were rebuffed before valuations were discussed, the conversation never getting 'any further down the road.' Chelsea met the same wall. With Konaté gone free to Madrid, the search stays on Inácio and Ordóñez; Branthwaite becomes the name Liverpool would move first for if he ever agitates.",
-      category: "transfers",
-    },
-    {
-      title: "Chiesa's U-Turn: The Exit Is Off, He Wants To Fight (Football365 / TeamTalk, Monday)",
-      detail:
-        "A month after telling Italian media he would look elsewhere for minutes, Chiesa is now reported determined to stay and win a starting role under Iraola, the Napoli and Roma interest parked for the pre-season tour. The reversal complicates a squad-planning line that had pencilled his €20m-30m sale into the summer maths.",
-      category: "transfers",
-    },
-    {
-      title: "Three In Early: Endo, Leoni And Bajcetic Beat The July 13 Bell (live4liverpool, Monday)",
-      detail:
-        "Monday brought the first sighting of 2026-27: Endo, Leoni and Bajcetic have reported to Kirkby a week ahead of Iraola's first full session. For Leoni it is the last mile of an ACL rehab begun in September; for Endo, a foot injury and an international retirement to leave behind; for Bajcetic, a lost season to reclaim.",
+        "Eight senior figures were at the training centre on Tuesday under Iraola's eye: Harvey Elliott, James McConnell and new arrival Jeremy Jacquet doing preparatory fitness, with Conor Bradley, Hugo Ekitike, Giovanni Leoni, Stefan Bajcetic and Wataru Endo working through rehab. The World Cup contingent, Van Dijk, Gravenberch and Gakpo among them, will not appear until the US tour; pre-season proper begins July 14.",
       category: "general",
     },
     {
-      title: "Still No Ink: Klopp's Germany Unveiling Waits On Salzburg (Goal / Roundtable, Monday)",
+      title: "Jacquet Settles In: A £-Heavy Defender From Rennes (Liverpool.com, today)",
       detail:
-        "The agreement Romano reported on Sunday remains unannounced, the DFB preparing the formal unveiling once Red Bull settle the release of their Global Head of Soccer and the long-term contract's final details are completed. Nothing about the destination is in doubt, only the date on the press release.",
+        "The clearest sign of the Iraola era's shape stood on the Kirkby grass on Tuesday: Jeremy Jacquet, the 20-year-old centre-back signed from Rennes last week, linking up with new teammates. A ball-playing defender with Ligue 1 minutes behind him, he arrives as one for the present and the future, a marker of where the recruitment is pointed while the marquee names stall.",
+      category: "transfers",
+    },
+    {
+      title: "Salah's Three Conditions: Al-Ahli Lead A Race About To Accelerate (Goal US, today)",
+      detail:
+        "With Egypt out, the market for Salah reopens in earnest. Al-Ahli are said to be pushing hardest, with Al-Ittihad and Al-Hilal circling and Inter Miami and San Diego FC monitoring from MLS. Reports frame three conditions on his side: a long-term deal, genuine trophy ambition, and a project worthy of the ending, meaning money alone will not settle it. 'Everything will become clear,' he has said, once the summer stops.",
+      category: "transfers",
+    },
+    {
+      title: "Wharton Cools: Iraola Signals The Midfielder Is Not A Priority (Liverpool.com, today)",
+      detail:
+        "The Elliott-for-Wharton structure floated on Monday has lost its heat: Liverpool's interest in the £70m England midfielder is now reported to have 'cooled,' with Iraola not viewing his arrival as a priority for the coming weeks. Elliott, back in preparatory training at the AXA, stays part of the picture rather than a chip; the swap talk recedes without a formal offer ever landing.",
+      category: "transfers",
+    },
+    {
+      title: "Still No Ink On Germany: Klopp Waits On Salzburg (Goal, 2d ago)",
+      detail:
+        "The move remains agreed and unannounced. Klopp will replace Julian Nagelsmann, who resigned after Germany's shootout exit to Paraguay in the round of 32, but the DFB will not stage the unveiling until Red Bull settle the release of their Global Head of Soccer. The destination is not in doubt, only the date on the press release.",
       category: "general",
     },
     {
-      title: "The Barcola Clock: Nothing Moves Until France Do (Football365 / Liverpool.com, Monday)",
+      title: "The Kid From Tijuana: Mora Contact Holds (TeamTalk / This Is Anfield, 2d ago)",
       detail:
-        "Romano set the timeline on Monday: Liverpool's winger pursuit is frozen until France leave the World Cup, which could mean waiting for the July 19 final, with PSG wanting big money and Barcola 'not considered untouchable' in Paris. Fresh contact with the player's camp has been made; the fee conversation waits for the tournament to end.",
+        "Liverpool's contact over Gilberto Mora, the 17-year-old anchoring Mexico's midfield, remains live but constrained: FIFA rules bar a move abroad until his 18th birthday in October, his Tijuana deal runs to 2029, and the price is set to clear £34m. Real Madrid, Barcelona, City and Chelsea are the competition after Manchester United stepped away earlier in the week.",
       category: "transfers",
     },
   ],
   sources: [
-    "Al Jazeera",
-    "FIFA",
-    "Sports Mole",
-    "Opta Analyst",
-    "TeamTalk",
-    "GiveMeSport",
+    "Sky Sports",
+    "ESPN",
+    "Sports Illustrated",
+    "Goal",
+    "Goal US",
+    "Football Italia",
+    "Liverpool.com",
     "This Is Anfield",
-    "The Athletic",
+    "TeamTalk",
     "Football365",
-    "Fotomac",
     "Empire of the Kop",
     "Fabrizio Romano",
-    "Daily Mail",
-    "Anfield Index",
-    "live4liverpool",
-    "Goal",
-    "Liverpool.com",
   ],
 };
 
@@ -603,9 +598,9 @@ export const NEWS_DIGEST = {
 // heatTier: "hot" (≥65%) | "warm" (40-64%) | "cool" (<40%) | "done" | "dead"
 // sources[].tier: "S" (Romano-class) | "A" (major outlet) | "B" (beat) | "C" (aggregator)
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-07-07T08:30:00Z",
+  generatedAt: "2026-07-08T08:30:00Z",
   summary:
-    "Tuesday's ledger opens in midfield: Liverpool are exploring a swap that would fold Harvey Elliott into Crystal Palace's £70m ask for Adam Wharton, a structure reported Monday that could 'move quickly' if Iraola signs off on the Elliott half, while Palace still prefer a new contract to a sale. A second new thread runs through Mexico, contact made over Tijuana's 17-year-old Gilberto Mora, the World Cup's youngest knockout starter since Pelé, barred from moving abroad until his 18th birthday in October and already priced past £34m. At the back the week produced a curtailed call, Everton refusing to even discuss Branthwaite, and a completed one, Celtic's U16 captain Dara Jikiemi signing a five-year path on Sunday. The captain's file runs on two tracks, Pearce's 'going nowhere' against Fotomac's positive agent talks, no offer yet at Anfield; Chiesa has U-turned toward staying; and the Barcola clock is frozen until France leave the tournament.",
+    "Wednesday's ledger is a story of doors quietly closing. The winger pivot has cooled overnight, Bradley Barcola now reported to favour Arsenal with PSG unwilling to talk below €135m until France leave the World Cup, and the Adam Wharton track has cooled too, Iraola signalling the £70m England midfielder is not a priority and the Elliott swap receding without an offer. The date's other headline is a birthday: Van Dijk turns 35 as Zlatan Ibrahimović makes him AC Milan's 'dream' target, a pursuit Anfield dismisses 'categorically' with the captain staying. On the outgoing side the market for Salah reopens now that Egypt are eliminated, Al-Ahli leading a Saudi race set to accelerate. The one piece of concrete business remains Jeremy Jacquet, the Rennes defender who arrived last week and trained at Kirkby on Tuesday; contact over Tijuana's Gilberto Mora holds, constrained until his 18th birthday in October.",
   incoming: [
     {
       id: "diomande-2026",
@@ -814,16 +809,16 @@ export const TRANSFER_TARGETS = {
       contractExpiry: "2028-06-30",
       releaseClause: null,
       contractNote: "Contract talks with PSG have stalled and the player has told the club he intends to leave; Paris's condition is the fee, set near €120m. He is represented by Gestifute, the Mendes agency Liverpool have long dealt with.",
-      probability: 60,
+      probability: 42,
       heatTier: "warm",
       sources: [
+        { name: "Liverpool.com",   tier: "B" },
         { name: "This Is Anfield", tier: "A" },
         { name: "Sky Sports",      tier: "A" },
-        { name: "Liverpool.com",   tier: "B" },
       ],
-      lastUpdated: "2026-07-07",
+      lastUpdated: "2026-07-08",
       rumorNote:
-        "Paris · 7 Jul — the file is on a timer now: Romano set the timeline on Monday, nothing moves until France leave the World Cup, which could mean waiting for the July 19 final. Fresh contact has been made with the player's camp, PSG want big money for a winger 'not considered untouchable,' and with Diomande buried the board's plan A has no plan B beside it except Pedro Neto's held hedge.",
+        "Paris · 8 Jul — a wall where a plan A used to be: fresh reporting has Barcola favouring Arsenal, and Liverpool cannot even open the fee conversation until France exit a World Cup they have carried into the quarter-finals. PSG will not talk below €135m, the winger is 'not considered untouchable' but is drifting north London's way, and the board's held hedge in Pedro Neto suddenly looks less like insurance than like the actual policy.",
       positionFit: {
         replaces: "Salah (wide forward)",
         competesWith: ["Gakpo", "Ngumoha", "Munoz"],
@@ -1080,16 +1075,16 @@ export const TRANSFER_TARGETS = {
       contractExpiry: "2029-06-30",
       releaseClause: null,
       contractNote: "Palace hold a £70m line and would still rather extend than sell; a player-plus-cash structure is the route being tested.",
-      probability: 45,
-      heatTier: "warm",
+      probability: 28,
+      heatTier: "cool",
       sources: [
+        { name: "Liverpool.com",   tier: "B" },
         { name: "TeamTalk",        tier: "B" },
         { name: "GiveMeSport",     tier: "B" },
-        { name: "This Is Anfield",  tier: "A" },
       ],
-      lastUpdated: "2026-07-07",
+      lastUpdated: "2026-07-08",
       rumorNote:
-        "Selhurst Park · 7 Jul — the file reopened with a mechanism attached: Liverpool are exploring whether Harvey Elliott, valued near £25m after his Villa loan, can be folded into Palace's £70m ask, a structure Monday's reporting says could 'move quickly' if all parties agree. Iraola has not yet ruled on the Elliott half, and Palace still prefer a new contract to a farewell, but for the first time since June the romantic option has paperwork under it.",
+        "Selhurst Park · 8 Jul — cooled almost as fast as it warmed: a day after the Elliott swap was floated, Liverpool's interest in the £70m midfielder is reported to have gone off the boil, with Iraola not viewing his arrival as a priority for the coming weeks. Elliott is back in preparatory training at the AXA rather than being packed off as makeweight, and Palace, who always preferred a new contract to a sale, keep their No. 6 without a fight.",
       positionFit: {
         replaces: "Endo (defensive midfield)",
         competesWith: ["Gravenberch", "Mac Allister"],
@@ -1636,12 +1631,12 @@ export const TRANSFER_TARGETS = {
       id: "vvd-out",
       name: "Virgil van Dijk",
       position: "DEF",
-      destination: "Galatasaray (interest, free)",
+      destination: "AC Milan / Fenerbahce (interest, free)",
       feeAsk: { min: 0, max: 0, currency: "€" },
-      probability: 50,
-      heatTier: "warm",
-      sources: [{ name: "The Athletic", tier: "A" }, { name: "Football365", tier: "B" }, { name: "Fotomac", tier: "C" }],
-      note: "Tue 7 Jul — two papers, one captain: Pearce reports him 'going nowhere,' on holiday and due back for pre-season with Iraola counting on him, while Fotomac describes positive contact with his agent and Football365 relays an FSG willingness to listen to a serious offer. The promised official bid has still not arrived at Anfield; he turns 35 tomorrow, and every day without paperwork is a point for Pearce.",
+      probability: 20,
+      heatTier: "cool",
+      sources: [{ name: "Goal", tier: "A" }, { name: "Football Italia", tier: "B" }, { name: "TeamTalk", tier: "B" }],
+      note: "Wed 8 Jul — a birthday, and a rebuff: Van Dijk turns 35 as Zlatan Ibrahimović makes him AC Milan's 'dream' defensive signing for Ruben Amorim's rebuild, with Fenerbahce also circling. Anfield's answer is flat, sources dismissing the links 'categorically' and insisting the captain, contracted to 2027, is firmly in Iraola's plans. No bid has landed, and none is expected to move him.",
     },
     {
       id: "konate-out",
@@ -1702,12 +1697,12 @@ export const TRANSFER_TARGETS = {
       id: "salah-out",
       name: "Mohamed Salah",
       position: "FWD",
-      destination: "Free transfer (Fenerbahce / Saudi)",
+      destination: "Free transfer (Al-Ahli / Saudi / MLS)",
       feeAsk: { min: 0, max: 0, currency: "€" },
-      probability: 92,
+      probability: 94,
       heatTier: "hot",
-      sources: [{ name: "Al Jazeera", tier: "A" }, { name: "This Is Anfield", tier: "A" }, { name: "Spotrac", tier: "B" }],
-      note: "Tue 7 Jul — matchday: Argentina at noon in Atlanta, Messi opposite him at a World Cup for the first time and a first Egyptian quarter-final one win away. The hamstring held through the Arlington marathon and he starts; every round survived keeps the destination call parked, Saudi Arabia still the warmest pull ahead of a possible MLS turn. The suitors will still be there at suppertime. The quarter-finals might not.",
+      sources: [{ name: "Goal US", tier: "A" }, { name: "This Is Anfield", tier: "A" }, { name: "Sky Sports", tier: "A" }],
+      note: "Wed 8 Jul — the summer's parking brake is off. Egypt's 3-2 exit to Argentina ended his tournament, and with it the reason to keep the destination call parked; Al-Ahli are now said to lead a Saudi race, Al-Ittihad and Al-Hilal circling and Inter Miami and San Diego FC watching from MLS. Three conditions are attached on his side: a long-term deal, genuine trophy ambition, and a project worthy of the ending. 'Everything will become clear,' he has said, and now nothing is in the way of it becoming so.",
     },
     {
       id: "gomez-out",
@@ -1757,12 +1752,12 @@ export const TRANSFER_TARGETS = {
       id: "elliott-out",
       name: "Harvey Elliott",
       position: "MID",
-      destination: "Crystal Palace (Wharton swap explored)",
+      destination: "Stays for now (Wharton swap cooled)",
       feeAsk: { min: 20, max: 25, currency: "£m" },
-      probability: 55,
-      heatTier: "warm",
-      sources: [{ name: "TeamTalk", tier: "B" }, { name: "GiveMeSport", tier: "B" }, { name: "Empire of the Kop", tier: "B" }],
-      note: "Tue 7 Jul — a destination with a mechanism: Monday's reporting has Liverpool exploring whether Elliott, valued near £25m after the bruising Villa loan, can be folded into Crystal Palace's £70m ask for Adam Wharton. Iraola has not yet decided the No. 10 should go at all, and the tour remains his window to argue otherwise, but for the first time this summer the exit talk names a club and a structure.",
+      probability: 30,
+      heatTier: "cool",
+      sources: [{ name: "Liverpool.com", tier: "B" }, { name: "TeamTalk", tier: "B" }, { name: "This Is Anfield", tier: "A" }],
+      note: "Wed 8 Jul — the mechanism has been shelved: with Liverpool's interest in Adam Wharton reported to have cooled, the structure that would have folded Elliott into Palace's £70m ask has receded, and the midfielder was back in preparatory training at the AXA on Tuesday rather than being packed off as makeweight. Iraola never decided he should leave; the tour is now his window to argue he should stay.",
     },
     {
       id: "mamardashvili-out",
