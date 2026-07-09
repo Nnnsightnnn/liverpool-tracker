@@ -133,7 +133,7 @@ const LATEST_NEWS = [
   { source: "Football365", title: "Door opens in Paris: PSG's Akliouche agreement leaves Barcola 'no longer untouchable', says Romano", time: "today", category: "major" },
   { source: "This Is Anfield", title: "Three Reds still standing: Mac Allister, Konate and new boy Munoz reach the World Cup quarter-finals", time: "today", category: "fan" },
   { source: "SportBible", title: "Al-Ahli 'want Salah as Mahrez's replacement' after mutually terminating the winger's contract", time: "today", category: "major" },
-  { source: "Sky Sports", title: "Confirmed: Liverpool sign Victor Munoz for £34.5m, hijacking Newcastle's move for the Osasuna winger", time: "1d ago", category: "official" },
+  { source: "Sky Sports", title: "Confirmed: Liverpool sign Victor Munoz for £34.7m, hijacking Newcastle's move for the Osasuna winger", time: "1d ago", category: "official" },
   { source: "Football365", title: "Mainz sporting director Niko Bungert: a Liverpool bid for Sano 'will be considered' at €50-60m", time: "1d ago", category: "major" },
   { source: "Football Italia", title: "Van Dijk stays: Anfield keeps knocking back Milan's Ibrahimovic-driven interest as the captain turns 35", time: "1d ago", category: "fan" },
   { source: "Liverpool.com", title: "Only 8 met Iraola last week: up to 19 senior players report for pre-season on Tuesday July 14", time: "1d ago", category: "fan" },

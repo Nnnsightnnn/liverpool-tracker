@@ -553,7 +553,7 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "Nineteen In On Monday: Iraola's Pre-Season Opens (Liverpool.com / This Is Anfield, 1d ago)",
+      title: "Nineteen In On Tuesday: Iraola's Pre-Season Opens (Liverpool.com / This Is Anfield, 1d ago)",
       detail:
         "The official reconvening is set for Tuesday July 14, with up to 19 senior players in from day one, after only eight, Elliott, McConnell, Jacquet and five rehabbing players, met Iraola last week. The build carries a change behind the scenes too: reporting notes a goalkeeping coach has departed as the new manager's staff settles. First friendly: Sunderland in Nashville, July 25.",
       category: "general",
