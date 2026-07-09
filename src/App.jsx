@@ -348,12 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Wednesday, and the morning after Atlanta: Egypt led Argentina by two
-          and lost by one, Salah's World Cup, and perhaps his last great stage,
-          ending in stoppage time. At home the captain turns thirty-five with
-          Milan calling and Anfield saying no, the winger chase hits a wall in
-          Paris, and Iraola's first sessions begin quietly at Kirkby. Seventeen
-          days until Nashville.
+Thursday, and the window has turned to midfield: Liverpool move to the
+          front of the queue for Mainz's Kaishu Sano while PSG's business
+          quietly loosens Barcola in Paris. Three Reds, Mac Allister, Konaté
+          and the new boy Muñoz, are still standing at a World Cup that Salah
+          and Van Dijk have left behind. Sixteen days until Nashville.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,34 +367,33 @@ Wednesday, and the morning after Atlanta: Egypt led Argentina by two
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and the pharaoh's tournament is over. In Atlanta on Tuesday night
-              Egypt led Argentina 2-0 and lost 3-2, Messi's late double and
-              Enzo Fernández's ninety-second-minute winner ending Mohamed
-              Salah's World Cup and, in all likelihood, the last big stage of a
-              career that has felt like one long farewell. A free agent now with
-              nothing left to wait for, he reopens a destination call that
-              Al-Ahli lead and MLS watches. The same morning brings a birthday:
-              Van Dijk turns thirty-five with Ibrahimović calling him Milan's
-              dream and Anfield answering, flatly, that he stays. The winger
-              chase hits a wall, Barcola leaning toward Arsenal while Paris name
-              a price nobody will pay until France are done. And at Kirkby,
-              unglamorously, Iraola's actual work begins: eight players, boots
-              on, a new signing among them. The stages empty. The building
-              starts.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the summer has found its shape in midfield. Liverpool have
+              moved to the front of the queue for Kaishu Sano, the Japan
+              international Mainz will sell only for fifty-odd million, Richard
+              Hughes a step ahead of United and Arsenal to get there. In Paris
+              the winger file loosens: PSG's deal for Maghnes Akliouche has made
+              Bradley Barcola movable at last, even as Arsenal turn their eyes
+              to Morgan Rogers. Across America three of the club's own are still
+              in it, Mac Allister's Argentina, Konaté's France, the new boy
+              Muñoz with Spain, while Salah, a free agent Al-Ahli now court as
+              Mahrez's heir, watches from a summer with nowhere left to hide. At
+              Kirkby the real work waits five days off, when Iraola calls the
+              rest of them in. The market moves first; the football waits its
+              turn.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings as they finished, and
-              five dispatches from the writers who never clock off. There is a
-              report from Atlanta, where Egypt led by two and lost by one; a
-              first morning of Iraola's work at the AXA; a captain who turns
-              thirty-five and finds Milan on the line; a free agent whose phone
-              starts ringing the moment his tournament ends; and a winger chase
-              that has run into a wall in Paris. Read them in order. The stages
-              are emptying and the building has begun.
+              five dispatches from the writers who never clock off. There is the
+              midfield pursuit that has Liverpool in pole position for Sano;
+              three of the club's own still alive at the World Cup; the banked
+              deal for Muñoz that keeps looking shrewder; a free agent recast as
+              Mahrez's heir in Jeddah; and the near-empty grass at Kirkby before
+              nineteen report on Tuesday. Read them in order. The market moves;
+              the football waits.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3113,7 +3111,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The stages empty. The building starts."
+        "The desk works while the stars scatter."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
