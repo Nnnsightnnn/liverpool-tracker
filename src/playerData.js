@@ -480,7 +480,7 @@ export const DISPATCHES = [
     dateline: "Los Angeles · 10 July",
     category: "Football News",
     body:
-      "Fabian Ruiz put Spain ahead, De Ketelaere levelled it, and for an hour it looked like the sort of night that ends in penalties. Then, in the eighty-eighth minute, Senne Lammens could only push a shot back into the six-yard box and Mikel Merino was there. Spain 2, Belgium 1. Somewhere in that white shirt is Victor Munoz, a Liverpool player for eleven days and now a World Cup semi-finalist, and the tie he goes to is Spain against France, which is to say the winger Liverpool have just bought against the centre-back they just lost for nothing. Mac Allister plays Switzerland tonight in Kansas City. The club has no fixture and three men in the last eight.",
+      "Fabian Ruiz put Spain ahead, De Ketelaere levelled it, and for an hour it looked like the sort of night that ends in penalties. Then, in the eighty-eighth minute, Senne Lammens could only push a shot back into the six-yard box and Mikel Merino was there. Spain 2, Belgium 1. Somewhere in that white shirt is Victor Munoz, a Liverpool player for eleven days and now a World Cup semi-finalist, and the tie he goes to is Spain against France, which is to say the winger Liverpool have just bought against the centre-back they just lost for nothing. Mac Allister meets Switzerland in Kansas City on Saturday night, the last of them still playing. The club itself has no fixture at all, and a semi-final full of names it either just bought or just let go.",
   },
   {
     n: "03",
@@ -595,7 +595,7 @@ export const NEWS_DIGEST = {
     "CNN",
     "Sky Sports",
     "DaveOCKOP",
-    "Empire of the Kop",
+    "The Athletic",
   ],
 };
 
@@ -1651,7 +1651,7 @@ export const TRANSFER_TARGETS = {
       releaseClause: null,
       contractNote: "Relegation with West Ham opens the exit; no formal clause, but the club must sell to rebuild.",
       probability: 26,
-      heatTier: "warm",
+      heatTier: "cool",
       sources: [
         { name: "GiveMeSport",   tier: "B" },
         { name: "Liverpool.com", tier: "B" },

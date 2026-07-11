@@ -132,7 +132,7 @@ export const PLAYER_EVIDENCE = {
   8:  "Knee rehab · stepped up at the AXA",    // Bradley
   9:  "Not due back with first wave Jul 14",   // Frimpong
   10: "Rehab at Kirkby · ACL last mile",       // Leoni
-  11: "Signed from Rennes · in rehab",         // Jacquet
+  11: "Cleared to train · in for Konaté",      // Jacquet
   12: "Academy depth · 2 senior apps",         // Ndukwe
   13: "Argentina v Switzerland, KC tonight",   // Mac Allister
   14: "NED out on pens · back for tour",       // Gravenberch
@@ -184,19 +184,19 @@ export const SLOT_CONFIDENCE = {
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
 // Explains the season-closing pick for each slot of the 4-2-3-1. The 2025-26
 // season is complete; these read as a retrospective on the first-choice XI
-// rather than a prediction for a coming fixture. (Partially refreshed Wed
-// Jun 17 — RAM/RB/CAM rotated; RCB Tue Jun 9; remaining slots Tue Jun 2.)
+// rather than a prediction for a coming fixture. (RAM refreshed Sat Jul 11;
+// LCB Fri Jul 10; RB Fri Jul 3; CAM Wed Jun 17; RCB Tue Jun 9; rest Tue Jun 2.)
 export const SLOT_RATIONALE = {
   GK:  "Tue Jun 2 — Alisson is now widely expected to remain. Juventus had agreed personal terms near €5m a year, but the Italians missing out on Champions League football drained the move of momentum, and the Brazilian was never the one pushing it. Mamardashvili waits, likeliest to go out on loan.",
   LB:  "Tue Jun 2 — with Andy Robertson's free transfer to De Zerbi's Tottenham now done, the Liverpool left-back slot is unambiguously Milos Kerkez's after a tough first season at £45m. Nine years of cover at the position have walked out the door in a single window.",
-  LCB: "Fri Jul 10 — a fresh voice for the defence: John Barnes has urged Liverpool to extend Van Dijk beyond his 2027 deal even at 35, as the AC Milan interest driven by Ibrahimović, Fenerbahce lurking, keeps being knocked back at Anfield, no bid received and none expected to move him. The captain is central to Iraola's plans and the slot a thinning back line is being rebuilt around, Jacquet, working through rehab at the AXA, the in-house cover behind him.",
+  LCB: "Fri Jul 10 — a fresh voice for the defence: John Barnes has urged Liverpool to extend Van Dijk beyond his 2027 deal even at 35, as the AC Milan interest driven by Ibrahimović, Fenerbahce lurking, keeps being knocked back at Anfield, no bid received and none expected to move him. The captain is central to Iraola's plans and the slot a thinning back line is being rebuilt around, Jacquet, cleared by his surgeon to rejoin group training, the in-house cover behind him.",
   RCB: "Tue Jun 9 — the succession finally has names: with Konaté's free move to Madrid sealed (the extension collapsed over wage and agent-fee demands, not football), Hughes and Iraola have drawn up a four-man shortlist, Sporting's left-footed Gonçalo Inácio (~£52m clause) the marquee fit, with Tottenham's Vuskovic, Forest's Murillo and Napoli's Beukema alongside and Club Brugge's Ordóñez (~£40m) the standing bid. Jacquet is the in-house cover until one lands.",
   LDM: "Tue Jun 2 — Gravenberch finished the season as the most consistent midfielder Liverpool had and is in the Dutch World Cup squad; the obvious building block at the base of the 4-2-3-1 going into 2026-27.",
   RDM: "Tue Jun 2 — Szoboszlai closes a heavy-minutes season of 48 appearances as a midfield mainstay; a contract extension is still expected to be agreed over the summer.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
   CAM: "Wed Jun 17 — the denial gets louder: Mac Allister's father and agent Carlos has again branded the exit talk 'false,' insisting no approaches were declined because none were made, even as Liverpool stay quietly open to a sale near €120m if funds are needed. Real Madrid hold the warmest interest in a midfielder with two years left and no extension talks open, a fork pointed against Gravenberch's fresh terms.",
   RAM: "Sat Jul 11 — the slot's ghost picks a continent, and the market picks a cheaper door. Salah has all but ruled out a European stay, a deal in principle reported with the Saudi Pro League and Jeddah favoured because Cairo is a two-hour flight, with MLS the remaining alternative. Behind him the replacement file eased: PSG's floor for Barcola came down from €150m to a reported €135m (£116m) once Paris sealed personal terms with Akliouche, and Arsenal, closing on Morgan Rogers, are expected to step out. Brighton hold Minteh nearer £80m, with Köln's El Mala and Lille's Fernandez-Pardo behind him. Ngumoha holds the slot until one of them lands; the banked wide man, Victor Muñoz, is in a World Cup semi-final.",
-  RB:  "Fri Jul 3 — the search still wants a marquee name: reporting has Liverpool ready to offer around £80m for Barcelona's Jules Koundé, a right-back raised as a centre-back and cover for both. Bradley's knee rehab is still indoors with no return date, and Frimpong is not listed among those due back for the first day of pre-season on July 14. Jones, now reluctant on a moneyed Forest, remains emergency cover here.",
+  RB:  "Fri Jul 3 — the search still wants a marquee name: reporting has Liverpool ready to offer around £80m for Barcelona's Jules Koundé, a right-back raised as a centre-back and cover for both. Bradley's knee rehab is still indoors with no return date, and Frimpong is not listed among those due back for the first day of pre-season on July 14. Jones, whose two Inter bids (the last around £21.7m) Liverpool have rejected against a £40m valuation, remains emergency cover here.",
   ST:  "Tue Jun 2 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
 };
 
