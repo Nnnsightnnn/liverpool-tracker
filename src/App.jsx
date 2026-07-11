@@ -348,11 +348,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Friday, and the winger file has come to a head: PSG have set a
-          British record on Barcola, so Liverpool ready a concrete bid for
-          Brighton's Minteh instead. Across America, France reach the semis
-          and carry Konaté with them, while Mac Allister and Muñoz play for
-          the last four this weekend. Fifteen days until Nashville.
+Saturday, and the long goodbye finds its compass: Salah is
+          reported to have all but ruled out Europe, a Saudi deal in principle
+          in place, Jeddah two hours from Cairo. The market softens behind him,
+          PSG's price for Barcola down to a hundred and sixteen million. In Los
+          Angeles, Muñoz reaches the semis. Fourteen days until Nashville.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,21 +367,21 @@ Friday, and the winger file has come to a head: PSG have set a
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and the summer's loudest argument is a winger and a number. PSG
-              have put a British record on Bradley Barcola, around a hundred and
-              twenty-eight million, and though his camp have said yes, the fee is
-              a ceiling even a spending club can feel; so Liverpool have readied
-              a cheaper, deliverable bid for Brighton's Yankuba Minteh, and kept
-              Summerville warm as the fallback. In midfield the Sano pursuit
-              rolls on, Mainz holding their line. Across America the tournament
-              thins: France beat Morocco to reach the semis and take the
-              Madrid-bound Konaté with them, while Mac Allister's Argentina meet
-              Switzerland on Saturday and Muñoz's Spain face Belgium. Salah, a
-              free man now, is courted in Madrid as Griezmann's heir, the Gulf no
-              longer the only door. At Kirkby the real work waits four days off,
-              when Iraola calls the rest of them in. The market moves first; the
-              football waits its turn.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and the ending we have all been circling since spring finally picks
+              a direction. Mohamed Salah, a free man these eleven days, is now
+              reported to have all but closed the door on Europe: a deal in
+              principle with the Saudi Pro League, the club undecided, the
+              geography telling, Jeddah chosen because Cairo is a two-hour
+              flight. Nine years, and the deciding factor is how far it is home.
+              Behind him the market softens: PSG will now take a hundred and
+              sixteen million for Barcola rather than a British record, Arsenal
+              having turned toward Rogers, and Harvey Elliott, back from a lost
+              year at Villa, may be the makeweight that brings Adam Wharton the
+              other way. In Los Angeles on Friday, Merino's late rebound put
+              Muñoz into a semi-final against Konaté's France, the winger we
+              bought against the defender we let go. On Monday at eleven, Iraola
+              speaks. The market moves first; the football waits its turn.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -389,12 +389,12 @@ Friday, and the winger file has come to a head: PSG have set a
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is the
-              record price PSG have put on Barcola and the cheaper plan readied
-              in his place; Konaté into the last four with France; a vacancy in
-              Madrid recast around Salah; the near-empty grass at Kirkby before
-              nineteen report on Tuesday; and a quieter contest in Georgia for a
-              teenager Arsenal want too. Read them in order. The market moves;
-              the football waits.
+              two-hour flight that may decide where Salah spends his thirties;
+              Merino's eighty-eighth minute and what it puts Muñoz into; the
+              record price on Barcola coming down; the Elliott sacrifice being
+              weighed at Selhurst Park; and a manager who, at eleven on Monday
+              morning, stops watching and starts answering. Read them in order.
+              The market moves; the football waits.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3112,7 +3112,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Every ceiling has a cheaper door."
+        "Two hours from Cairo, and counting."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

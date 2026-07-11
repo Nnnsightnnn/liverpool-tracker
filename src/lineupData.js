@@ -23,10 +23,10 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the XI that closed the campaign, adjusted for
     // the June 30 free-agent exits (Kerkez, Jacquet, Ngumoha step in). 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Fri Jul 10: the winger
-    // file leads, PSG's British-record £128m for Barcola pushing Liverpool
-    // toward a concrete bid for Brighton's Minteh; the Sano midfield chase
-    // rolls on; Van Dijk's Milan interest still knocked back; nineteen in Jul 14.
+    // backup look — Slot favoured 4-2-3-1. Refreshed Sat Jul 11: Salah's exit
+    // narrows to Saudi Arabia or MLS with Europe all but ruled out; PSG's floor
+    // for Barcola drops to £116m; the Wharton swap is live again with Elliott as
+    // makeweight; Iraola's first press conference is 11am Monday July 13.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -61,10 +61,10 @@ export const FORMATIONS = {
     // through the run-in — is shown as the first-choice XI Liverpool finished
     // the campaign with (adjusted for the June 30 exits), NOT as a prediction
     // for a coming fixture (the next match is a pre-season friendly on July
-    // 25). Refreshed Fri Jul 10: the winger file leads, PSG's British-record
-    // £128m for Barcola pushing Liverpool to ready a concrete bid for Brighton's
-    // Minteh; the Sano midfield chase rolls on; Van Dijk's Milan interest still
-    // dismissed; Salah recast as Atlético's Griezmann heir; nineteen in July 14.
+    // 25). Refreshed Sat Jul 11: Salah has all but ruled out Europe, a Saudi
+    // deal in principle in place; PSG's Barcola floor falls to £116m as Arsenal
+    // turn to Rogers; the Wharton swap revives with Elliott as makeweight;
+    // Muñoz reaches the World Cup semis; Iraola faces the media 11am Monday.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -117,15 +117,15 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-07-10
-// (Fri: winger file leads, PSG's British-record £128m for Barcola pushing
-// Liverpool toward a concrete bid for Brighton's Minteh; France into the WC
-// semis with Konaté; Van Dijk's Milan interest still dismissed; nineteen Jul 14.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-07-11
+// (Sat: Salah all but rules out Europe, a Saudi deal in principle in place;
+// PSG's Barcola floor drops to £116m; the Wharton swap revives with Elliott as
+// makeweight; Muñoz into the WC semis with Spain; Iraola's presser 11am Monday.)
 export const PLAYER_EVIDENCE = {
   1:  "Brazil's No. 1 · staying at Anfield",   // Alisson
   2:  "Weighing future · club prefer loan",    // Mamardashvili
   3:  "35 · Barnes says extend him",           // Van Dijk
-  4:  "France in the semis · Madrid-bound",    // Konaté
+  4:  "Semis: France meet Muñoz's Spain",     // Konaté
   5:  "Now tilting toward staying",            // Gomez
   6:  "Tottenham · left free June 30",          // Robertson
   7:  "Tough debut · now first-pick LB",       // Kerkez
@@ -134,20 +134,20 @@ export const PLAYER_EVIDENCE = {
   10: "Rehab at Kirkby · ACL last mile",       // Leoni
   11: "Signed from Rennes · in rehab",         // Jacquet
   12: "Academy depth · 2 senior apps",         // Ndukwe
-  13: "Argentina v Switzerland Saturday",      // Mac Allister
+  13: "Argentina v Switzerland, KC tonight",   // Mac Allister
   14: "NED out on pens · back for tour",       // Gravenberch
   15: "Left out of Hungary's WC squad",        // Szoboszlai
-  16: "Galatasaray & Inter keen · final year", // Jones
-  17: "Rehab at the AXA · point to prove",     // Endo
+  16: "Inter's £21.7m bid rejected · £40m",    // Jones
+  17: "Back at the AXA · summer sale likely",  // Endo
   18: "Germany out · back for the tour",       // Wirtz
   19: "Back at Kirkby · lost year to reclaim", // Bajcetic
   20: "Academy prospect · 5 senior apps",      // Nyoni
-  21: "Free agent · Atlético eye Griezmann heir", // Salah
+  21: "Europe out · Saudi deal in principle",  // Salah
   22: "NED exit · stays, Iraola's plans",      // Gakpo
   23: "Isak · fit again · US tour next",       // Isak
   24: "Ruptured Achilles · out 9-12 months",   // Ekitike
   25: "New long-term deal prepared",           // Ngumoha
-  26: "U-turn: staying to fight for spot",     // Chiesa
+  26: "US tour first, then talks with Iraola", // Chiesa
   27: "3rd-choice GK · 2 PL starts",           // Woodman
 };
 
@@ -162,11 +162,11 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys (4-2-3-1). With the season over these now read as confidence that
 // the slot's occupant remains a first-choice starter into 2026-27 — LOW where
 // the player is leaving (Salah, Robertson, now Konaté) or whose future is open
-// (Mac Allister). (Refreshed Fri Jul 10: the winger file leads, PSG's
-// British-record £128m for Barcola pushing Liverpool to ready a concrete bid
-// for Brighton's Minteh; the Sano midfield chase rolls on; Van Dijk's Milan
-// interest still dismissed; Salah recast as Atlético's Griezmann heir; Konaté
-// and Robertson gone free; nineteen report July 14.)
+// (Mac Allister). (Refreshed Sat Jul 11: Salah has all but ruled out Europe,
+// a Saudi deal in principle in place and Jeddah favoured for its two-hour flight
+// to Cairo; PSG's Barcola floor drops to £116m as Arsenal turn to Rogers; the
+// Wharton swap revives with Elliott as makeweight; Konaté and Robertson gone
+// free; Iraola's first press conference is 11am Monday July 13.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · snubs Juventus · staying as No. 1
   LB:  "Low",    // Robertson gone (free to Spurs, done) · Kerkez inherits
@@ -177,7 +177,7 @@ export const SLOT_CONFIDENCE = {
   RDM: "Medium", // Szoboszlai · mainstay, extension still pending
   LAM: "Medium", // Wirtz · injury-hit debut season · 'untouchable' per club
   CAM: "Low",    // Mac Allister · still between the two Madrids · Camavinga eyed too
-  RAM: "Low",    // Salah gone (free agent) · PSG's record £128m for Barcola pushes the Reds to Minteh, no winger signed yet
+  RAM: "Low",    // Salah gone (Saudi/MLS, Europe out) · PSG's Barcola floor now £116m, Minteh at £80m, no winger signed yet
   ST:  "Medium", // Isak · £100m striker · injury-wrecked first season
 };
 
@@ -195,7 +195,7 @@ export const SLOT_RATIONALE = {
   RDM: "Tue Jun 2 — Szoboszlai closes a heavy-minutes season of 48 appearances as a midfield mainstay; a contract extension is still expected to be agreed over the summer.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
   CAM: "Wed Jun 17 — the denial gets louder: Mac Allister's father and agent Carlos has again branded the exit talk 'false,' insisting no approaches were declined because none were made, even as Liverpool stay quietly open to a sale near €120m if funds are needed. Real Madrid hold the warmest interest in a midfielder with two years left and no extension talks open, a fork pointed against Gravenberch's fresh terms.",
-  RAM: "Fri Jul 10 — the price is named, and it is a record: PSG want around €150m (£128m) for Barcola, a British-record fee, even as the player's camp signal yes. Unwilling to wait on that ceiling, Liverpool have readied a concrete bid for Brighton's Yankuba Minteh as the deliverable alternative, with Summerville a value fallback. Ngumoha holds the slot until a winger lands, Pedro Neto the held hedge; the banked wide man, Victor Muñoz, plays Belgium with Spain this weekend.",
+  RAM: "Sat Jul 11 — the slot's ghost picks a continent, and the market picks a cheaper door. Salah has all but ruled out a European stay, a deal in principle reported with the Saudi Pro League and Jeddah favoured because Cairo is a two-hour flight, with MLS the remaining alternative. Behind him the replacement file eased: PSG's floor for Barcola came down from €150m to a reported €135m (£116m) once Paris sealed personal terms with Akliouche, and Arsenal, closing on Morgan Rogers, are expected to step out. Brighton hold Minteh nearer £80m, with Köln's El Mala and Lille's Fernandez-Pardo behind him. Ngumoha holds the slot until one of them lands; the banked wide man, Victor Muñoz, is in a World Cup semi-final.",
   RB:  "Fri Jul 3 — the search still wants a marquee name: reporting has Liverpool ready to offer around £80m for Barcelona's Jules Koundé, a right-back raised as a centre-back and cover for both. Bradley's knee rehab is still indoors with no return date, and Frimpong is not listed among those due back for the first day of pre-season on July 14. Jones, now reluctant on a moneyed Forest, remains emergency cover here.",
   ST:  "Tue Jun 2 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
 };
@@ -214,7 +214,7 @@ export const ALTERNATIVES = {
   RDM: [{ playerId: 14, reason: "Gravenberch · could swap depths with Szoboszlai" }],
   LAM: [{ playerId: 22, reason: "Gakpo · a wide-left option · exit now called unlikely" }, { playerId: 25, reason: "Ngumoha · breakout teenager · rotation option on the left" }],
   CAM: [{ playerId: 15, reason: "Szoboszlai · can push forward into the No. 10 with another midfielder in the pivot" }, { playerId: 16, reason: "Curtis Jones · alternative No. 10 if not used at right-back" }],
-  RAM: [{ playerId: 25, reason: "Ngumoha · teenage wide option · part of the post-Salah picture" }, { playerId: 26, reason: "Chiesa · exit off after U-turn · staying to fight for a spot" }],
+  RAM: [{ playerId: 25, reason: "Ngumoha · teenage wide option · part of the post-Salah picture" }, { playerId: 26, reason: "Chiesa · travelling on the US tour, then talks with Iraola" }],
   ST:  [{ playerId: 25, reason: "Ngumoha · led the line in Isak's absences late in the season" }, { playerId: 22, reason: "Gakpo · false-9 option used by Slot earlier in the year" }],
 };
 
@@ -223,8 +223,8 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  reason: "Fri Jul 10 — the shape waits on the internationals: only eight met Iraola for last week's preparatory sessions, with up to nineteen due to reconvene on Tuesday July 14 and the World Cup contingent not back until the US tour. The XI stays the closing 2025-26 side adjusted for the free-agent exits (Kerkez for Robertson, Jacquet for Konaté, Ngumoha in the Salah slot). The market moved again overnight, PSG's British-record £128m for Barcola pushing Liverpool to ready a concrete bid for Brighton's Minteh, the Sano midfield chase rolling on, but none of it has changed the grass yet. Confidence Low until the squad is whole. Next fixture: pre-season vs Sunderland in Nashville, July 25; the league opener is Newcastle away, August 23.",
-  pundit_sources: ["This Is Anfield", "TeamTalk", "Liverpool.com", "GiveMeSport", "Football365", "Fabrizio Romano", "Yahoo Sport", "ESPN", "Goal", "Anfield Watch"],
+  reason: "Sat Jul 11 — the shape still waits on a squad that does not exist yet: Iraola takes his first press conference at 11am on Monday July 13, testing begins the day after, and the World Cup contingent will not be back until the American tour. The XI below stays the closing 2025-26 side adjusted for the free-agent exits (Kerkez for Robertson, Jacquet for Konaté, Ngumoha in the Salah slot). The market moved again overnight, Salah all but ruling out Europe with a Saudi deal in principle, PSG's Barcola floor falling to £116m, the Wharton swap reviving with Elliott as makeweight, but none of it has changed the grass. Confidence Low until the squad is whole. Next fixture: pre-season vs Sunderland in Nashville, July 25; the league opener is Newcastle away, August 23.",
+  pundit_sources: ["TeamTalk", "Football365", "Liverpool.com", "This Is Anfield", "GiveMeSport", "Anfield Watch", "ESPN", "Sky Sports", "DaveOCKOP"],
   agreement_rate: 0.57,
-  generated_at: "2026-07-10T09:00:00Z",
+  generated_at: "2026-07-11T08:00:00Z",
 };
