@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 33, position: "DEF", nationality: "🇮🇹 Italy", age: 18, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-15", injuryNote: "Tue Jul 7 — back in the building: reported to Kirkby early on Monday with Endo and Bajcetic, the last mile of the ACL rehab that began in September now running ahead of the group. A 2026-27 return stays the target", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 33, position: "DEF", nationality: "🇮🇹 Italy", age: 18, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-15", injuryNote: "Sun Jul 12 — nearing the end of it: ten months on from the ACL tear in September, he is reported to be closing on a comeback and is on site at the AXA with Endo, Bradley and Ekitike, none of whom have resumed outdoor work. Not for Nashville, but for the first time the timeline is being discussed in weeks rather than months", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -132,7 +132,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Wed Jun 17 — the denial gets louder: his father and agent Carlos has again branded the exit talk 'false,' insisting no approaches were declined because none were made, even as Liverpool stay quietly open to a sale near €120m if funds are needed. Real Madrid hold the warmest interest in a midfielder with two years left and no extension talks open, a fork pointed against Gravenberch's fresh terms", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sun Jul 12 — a World Cup goal, and a semi-final: he met Messi's corner in the tenth minute in Kansas City last night and headed Argentina in front, Switzerland beaten 3-1 after extra time once Embolo was sent off, Alvarez settling it on 112 and Lautaro adding a third in stoppage. England next, in Atlanta, in four days. The last Red still at the tournament, and the only one whose form this summer is being watched by his own club from an empty training ground", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -161,7 +161,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Thu Jul 9 — a new name in the file: Galatasaray have joined Inter Milan and a between-managers Nottingham Forest in the conversation, with Jones into his final year and reported reluctant on the Forest move whoever takes the chair. The £35m-40m valuation stands, but the quiet default hardens: report on the 14th, train, and let Iraola decide", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Sun Jul 12 — closer to the exit than at any point this summer: Italian reporting has Nottingham Forest reaching an agreement with Liverpool at around £40m, Glasner spending the £116m Manchester City paid for Elliot Anderson and picking the Scouser as the replacement. The English press has not corroborated it, Gazzetta claim Inter already hold agreed terms, and Jones himself is said not to want Forest. He reports to Kirkby tomorrow regardless, where Iraola gets a say on whether he is surplus or spine", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 34, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Sat Jul 11 — the continent is all but decided: a stay in Europe is now reported to be increasingly unlikely, with a deal in principle said to be in place with the Saudi Pro League and only the badge unresolved. Geography is doing the deciding, the Jeddah clubs (Al-Ahli, Al-Ittihad) favoured because Cairo is a two-hour flight, while MLS keeps genuine appeal. Saturday's gossip complicates it, claiming his contract demands have put the Saudi switch back in doubt", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 34, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Sun Jul 12 — Egypt are out, so the decision comes: beaten by the Argentina side Mac Allister has just carried into a semi-final, he has no tournament left to wait behind, and the choice is described as imminent. The continent he was reported to have ruled out a week ago is open again, Fenerbahce named as a genuine suitor able to match Gulf wages while still offering UEFA football, with Saudi Arabia and MLS unchanged behind them. John Barnes has urged him to take the pay cut and stay in Europe", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -438,26 +438,25 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-07-11T08:00:00Z",
+  generatedAt: "2026-07-12T09:00:00Z",
   overview:
-    "Forty-three days to the opener, and the finished table is a museum piece the market still consults every morning. Fifth-place Liverpool (60 points, Champions League restored) spent Saturday watching the two biggest files move at once: Salah's endgame narrowed to Saudi Arabia or MLS, with a European stay now called increasingly unlikely, and PSG's floor for Bradley Barcola dropped to a reported €135m (£116m) as Paris sealed personal terms with Akliouche and Arsenal turned toward Morgan Rogers. Champions Arsenal on 85 are the club easing out of that race, not into it. Villa's 65 still marks the last automatic Champions League line, and it is Villa's Rogers the Gunners want and Villa's loanee, Harvey Elliott, that Liverpool may now send to Crystal Palace to bring Adam Wharton the other way. Fifteenth-placed Palace, in Europe by silverware, are suddenly the most consequential club in Liverpool's summer. Nothing in the frozen 2025-26 order moves before Newcastle away on August 23; almost everything around it moved again overnight.",
+    "Forty-two days to Newcastle away, and the finished table is the only fixed thing at a club that has just lost both the men who were meant to improve on it. Michael Edwards resigned as FSG's chief executive of football this weekend and will not be replaced; Richard Hughes is expected at Al-Hilal once the window shuts. Fifth place and 60 points bought Liverpool the Champions League back, and it is worth remembering how thin that was: five points behind Villa, three clear of Bournemouth, a season rescued rather than won. Champions Arsenal on 85 have spent the summer prioritising Morgan Rogers and easing out of the Barcola race, which is the one piece of luck Liverpool have had. Below them the table keeps rewriting the market: Manchester City's £116m for Elliot Anderson made Nottingham Forest rich enough to buy Curtis Jones, and fifteenth-placed Crystal Palace, in Europe by silverware, have just priced Adam Wharton out of Anfield by offering him to Real Madrid. Nothing in the 2025-26 order moves again. Almost everything it produced is still moving.",
   teams: {
-    "Arsenal": "Champions on 85 and narrowing their aim: Berta is closing on an agreement in principle with Villa's Morgan Rogers and is expected to ease out of the Barcola race, which is the best news Liverpool had all week.",
-    "Manchester City": "Second on 78, and still the market's heaviest mover: after beating Liverpool to Marc Guéhi they paid Forest £116m for Elliot Anderson, the windfall that funded Forest's run at Curtis Jones.",
-    "Manchester United": "Third on 71 and a rival in the same aisles: United circle Camavinga, chase West Ham's Mateus Fernandes, and trail Liverpool for Mainz's Kaishu Sano.",
-    "Aston Villa": "Fourth on 65, the last automatic UCL berth, and the pivot of two Liverpool files: Arsenal want their Morgan Rogers, and Harvey Elliott is back at Anfield from a poor season-long loan at Villa Park, possibly to be traded on.",
-    "Liverpool": "Fifth on 60 and back in the Champions League. Salah's exit narrows to Saudi Arabia or MLS with Europe now unlikely; PSG's Barcola floor drops to £116m; the Wharton swap is alive again with Elliott as makeweight. Iraola's first press conference is 11am Monday, Nashville the first fixture on July 25.",
-    "Bournemouth": "Sixth and into Europe, and the club Iraola left: Alex Scott lingers as a midfield option should the Jones picture change.",
-    "Sunderland": "Seventh and into Europe in their promotion season, and Iraola's first assignment in a Liverpool dugout, Nashville on July 25.",
-    "Brighton": "Eighth, a Conference League play-off place extending the European streak, and the club holding the winger Liverpool can actually afford: Minteh, now valued nearer £80m than £70m.",
-    "Brentford": "Ninth on 53, out of Europe for the first time in their top-flight era; hosts of the season's final-day 1-1 on May 24.",
-    "Chelsea": "Tenth on 52, a third straight year without the Champions League; still in the Camavinga conversation, still facing questions over Pedro Neto, the winger reported open to Anfield.",
-    "Newcastle": "Twelfth on 49, and now a rival for Monaco's Lamine Camara as well as the holders of Bruno Guimarães. They host Iraola's Liverpool on opening day, August 23.",
-    "Crystal Palace": "Fifteenth on points, in Europe by silverware, and the summer's decisive counterparty: Liverpool are willing to send Harvey Elliott to Selhurst Park to cut £35-40m off the £70m ask for Adam Wharton, though Iraola wants pre-season before he signs anything off.",
-    "Nott'm Forest": "Sixteenth and in chaos: Pereira sacked with Glasner expected in, the £116m Anderson windfall unspent, and Curtis Jones reported reluctant whoever takes the chair.",
-    "Tottenham": "Survived in 17th; Robertson's free transfer took effect on June 30, and they remain in for West Ham's Mateus Fernandes and Newcastle's Sandro Tonali.",
-    "West Ham": "Relegated in 18th and the summer's busiest fire sale: Mateus Fernandes and Crysencio Summerville both up for sale, Summerville the value fallback on Liverpool's winger list.",
-    "Burnley": "Relegated, 22 points and straight back down.",
+    "Arsenal": "Champions on 85, and the best news of Liverpool's summer: Berta has prioritised Villa's Morgan Rogers and now treats Barcola as a fallback rather than a pursuit.",
+    "Manchester City": "Second on 78 and the unseen hand in Liverpool's window: the £116m they paid Forest for Elliot Anderson is the money Forest are now spending on Curtis Jones.",
+    "Manchester United": "Third on 71 and a rival in the same aisles, trailing Liverpool for Mainz's Kaishu Sano and still circling Camavinga.",
+    "Aston Villa": "Fourth on 65, the last automatic Champions League place and five points that still separate Liverpool from where they mean to be; Arsenal want their Rogers.",
+    "Liverpool": "Fifth on 60 and back in the Champions League, but the summer has turned executive: Edwards has resigned, Hughes is bound for Al-Hilal, and Iraola faces the media at 11am tomorrow with no CEO of football above him. Nashville, July 25, is the first evidence.",
+    "Bournemouth": "Sixth and into Europe, the club Iraola built and left; Alex Scott remains a cheaper midfield option if the Jones sale goes through.",
+    "Sunderland": "Seventh and in Europe in their promotion season, and Iraola's first assignment in a Liverpool dugout, Nashville on July 25.",
+    "Brighton": "Eighth and into the Conference League play-offs, still holding Yankuba Minteh at nearer £80m, the winger the accounts can actually reach.",
+    "Chelsea": "Tenth on 52, a third straight year outside the Champions League, and still in the Camavinga conversation.",
+    "Newcastle": "Twelfth on 49, a rival for Monaco's Lamine Camara, and the hosts of Iraola's first competitive match on August 23.",
+    "Crystal Palace": "Fifteenth on points, in Europe by silverware, and the club that just shut Liverpool's cheapest door: Wharton has been offered to Real Madrid at around £103m, and the Elliott makeweight route is dead.",
+    "Nott'm Forest": "Sixteenth, and suddenly the buyer: Glasner's side have City's £116m Anderson windfall and are reported to have agreed a deal for Curtis Jones, who is said not to want them.",
+    "Tottenham": "Survived in 17th, and Andy Robertson's free transfer took effect on June 30.",
+    "West Ham": "Relegated in 18th; Crysencio Summerville remains the value fallback at the bottom of Liverpool's winger list.",
+    "Burnley": "Relegated, 22 points, straight back down.",
     "Wolves": "Bottom on 20, the season's worst side by every measure.",
   },
 };
@@ -466,136 +465,143 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Two Hours From Cairo.",
-    byline: "TeamTalk / Football365",
-    dateline: "Anfield · 11 July",
-    category: "Farewells",
+    headline: "The Architect Walks.",
+    byline: "Sky Sports / ESPN",
+    dateline: "Boston · 11 July",
+    category: "Football News",
     body:
-      "For weeks the question was which European club would take him, and the answer, this weekend, appears to be none of them. A stay on the continent is now described as increasingly unlikely, with a deal in principle said to be in place with the Saudi Pro League and only the badge unresolved. What decides it, in the end, may not be the money or the trophies but the map. Salah is understood to favour Jeddah, where Al-Ahli and Al-Ittihad sit two hours from Cairo, close enough to go home. Saturday's gossip pages muddy it, claiming his demands have put the switch in doubt, and MLS has not gone away. But the direction is set, and it points away from the game that made him.",
+      "He came back for a reason, and the reason went away. Michael Edwards returned to Fenway Sports Group in March 2024 not for the sentiment of it but for a project: a second club, bought and built, an empire rather than a team. That plan has been shelved, and so, this weekend, has he. Edwards has resigned as chief executive of football with a year left to run, and FSG will not replace him; Mike Gordon simply takes the desk back. The statement speaks of a planned transition following the completion of key strategic priorities. The resignation of a man with twelve months on his contract speaks of something else. Liverpool have lost the best recruiter of the modern English game twice now, and the second time they did not even get a fee.",
   },
   {
     n: "02",
-    headline: "Merino, In The Eighty-Eighth.",
-    byline: "ESPN / CNN",
-    dateline: "Los Angeles · 10 July",
-    category: "Football News",
+    headline: "And The Recruiter, Too.",
+    byline: "The Athletic / This Is Anfield",
+    dateline: "Kirkby · 12 July",
+    category: "Manager",
     body:
-      "Fabian Ruiz put Spain ahead, De Ketelaere levelled it, and for an hour it looked like the sort of night that ends in penalties. Then, in the eighty-eighth minute, Senne Lammens could only push a shot back into the six-yard box and Mikel Merino was there. Spain 2, Belgium 1. Somewhere in that white shirt is Victor Munoz, a Liverpool player for eleven days and now a World Cup semi-finalist, and the tie he goes to is Spain against France, which is to say the winger Liverpool have just bought against the centre-back they just lost for nothing. Mac Allister meets Switzerland in Kansas City on Saturday night, the last of them still playing. The club itself has no fixture at all, and a semi-final full of names it either just bought or just let go.",
+      "The trouble with losing a chief executive is what it reveals about everybody else. Richard Hughes is expected to follow Edwards out, to Al-Hilal, to a reunion in Riyadh with Simon Francis, though not until the window shuts. Until then he is described as fully focused, which is the phrase clubs use for a man packing slowly. So Andoni Iraola will sit down at eleven tomorrow morning in front of the cameras with a squad he has not trained, a No. 6 he has not signed, a chief executive who has already gone, and a sporting director who has already chosen where he goes next. Jamie Carragher, on Sky, used the word impossible. It was not obvious he was exaggerating.",
   },
   {
     n: "03",
-    headline: "The Number Comes Down.",
-    byline: "Football365 / TeamTalk",
-    dateline: "Paris · 11 July",
-    category: "Transfers",
+    headline: "Ten Minutes, And Messi's Corner.",
+    byline: "ESPN / FIFA",
+    dateline: "Kansas City · 11 July",
+    category: "Football News",
     body:
-      "A record only lasts as long as the seller needs it to. On Thursday PSG wanted a hundred and fifty million euros for Bradley Barcola; by the weekend the reported minimum was a hundred and thirty-five, a hundred and sixteen in sterling, which is a great deal of money and no longer a British record. Two things moved it. Paris have agreed personal terms with Monaco's Maghnes Akliouche, and a club that has replaced a winger can afford to sell one. Arsenal, meanwhile, are closing on Morgan Rogers and will not fight two wars at once. The ceiling is lower and the room is emptier. What has not changed is that Liverpool still have to write the cheque.",
+      "The last Liverpool player still at the tournament decided he would not go quietly. Lionel Messi swung the corner in, Alexis Mac Allister rose above the Swiss, and after ten minutes the holders led. It should have been simpler than it became. Ndoye levelled just past the hour and for a while Argentina looked ordinary, until Breel Embolo collected a second yellow and the numbers told. Alvarez settled it on a hundred and twelve, Lautaro Martinez added the third in stoppage time of extra time, and it finished 3-1. England now, in Atlanta, in four days. Somewhere in an empty Kirkby, a club with no chief executive watched its midfielder head in a World Cup goal.",
   },
   {
     n: "04",
-    headline: "The Elliott Sacrifice.",
-    byline: "GiveMeSport / TeamTalk",
-    dateline: "Selhurst Park · 11 July",
+    headline: "Anderson's Money, Jones's Move.",
+    byline: "TeamTalk / Football365",
+    dateline: "Nottingham · 12 July",
     category: "Transfers",
     body:
-      "Harvey Elliott came back from a bad year at Villa Park to a club that had changed managers, and now he may be currency. Liverpool are reported willing to send him to Crystal Palace as part of a deal for Adam Wharton, a structure that would knock thirty-five or forty million off Palace's seventy-million valuation of the England midfielder and could be done quickly if everyone says yes. Not everyone has. Iraola wants to see the squad train before he decides who is surplus, and one strand of the reporting insists the interest went cold a week ago. So it sits there, half-alive, the cheapest route to the best young No. 6 in England, waiting on a manager who has not yet taken a session.",
+      "Follow the hundred and sixteen million. Manchester City paid it to Nottingham Forest for Elliot Anderson, which left Forest rich and one central midfielder short, and Oliver Glasner has decided the replacement is Curtis Jones. The Italian papers report an agreement reached with Liverpool, who will sanction the sale at around forty million with a year left on the contract. The English press has not confirmed it, and two threads pull the other way: Gazzetta insist Jones has already agreed terms with Inter, and Jones is said not to fancy Forest at all. A boyhood Red is being sold with money made from a boyhood rival. He has not yet said yes.",
   },
   {
     n: "05",
-    headline: "Eleven O'Clock, Monday.",
-    byline: "This Is Anfield / Liverpool.com",
-    dateline: "Kirkby · 10 July",
-    category: "Manager",
+    headline: "The Door To Europe, Unlatched.",
+    byline: "Liverpool.com / SportBible",
+    dateline: "Cairo · 12 July",
+    category: "Farewells",
     body:
-      "He has been in the building for a fortnight, watching Under-21s, taking early sessions with a handful of returners and a fifteen-year-old, learning names off a whiteboard. On Monday at eleven Andoni Iraola sits down in front of the cameras at the AXA and becomes, for the first time, accountable. Testing starts the day after. Then America: Nashville on the twenty-fifth, New York on the thirtieth, Chicago on the second of August, three stops to turn a squad missing half its internationals into a team. Everything he says on Monday will be a promise. Everything after it will be evidence.",
+      "Egypt are out, beaten by the Argentina of Mac Allister and Messi, and so the long postponement ends. Mohamed Salah said he would decide after the World Cup and the World Cup, for him, is over. A week ago the reporting had him closing the door on this continent altogether. It is ajar again. Fenerbahce can pay what the Gulf pays and still offer him European nights, which is the one thing the Gulf cannot, and John Barnes has publicly urged him to take the pay cut and stay where the football is. Saudi Arabia has not gone anywhere. Neither, quite, has he. Nine years at Anfield, and the last act is a man choosing between money and Tuesdays.",
   },
 ];
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-07-11T08:00:00Z",
+  generatedAt: "2026-07-12T09:00:00Z",
   summary:
-    "Saturday July 11, and the Salah endgame has narrowed to two continents, neither of them this one. A move within Europe is now reported to be increasingly unlikely, a deal in principle already in place with the Saudi Pro League, and geography is doing the deciding: the Jeddah clubs, Al-Ahli and Al-Ittihad, appeal because Cairo is a two-hour flight, though Saturday's gossip has his demands putting the switch back in doubt and MLS still holding genuine appeal. The winger file moved with him: PSG's floor for Bradley Barcola has come down to a reported minimum of €135m (£116m), Paris having sealed personal terms with Monaco's Maghnes Akliouche to open the exit door, while Arsenal close on an agreement in principle with Morgan Rogers and ease off the race. In midfield the Adam Wharton swap is alive again, Liverpool willing to send Harvey Elliott to Selhurst Park and save £35-40m on Palace's £70m ask, though Iraola wants pre-season to answer the question first. And in Los Angeles on Friday, Mikel Merino's 88th-minute rebound put Spain past Belgium 2-1 and carried Victor Muñoz into a semi-final against Konaté's France. Andoni Iraola faces the media for the first time at 11am Monday; Mac Allister plays Switzerland in Kansas City tonight.",
+    "Sunday July 12, and the biggest departure of Liverpool's summer is not a player. Michael Edwards has resigned as FSG's chief executive of football, walking a year early on a three-year deal, and the reason given is the one that brought him back in 2024: the promise of a second club to buy and build, which FSG have quietly shelved. There will be no direct replacement, group president Mike Gordon reabsorbing football operations, and the vacuum widens behind him, with sporting director Richard Hughes expected to leave for Al-Hilal once this window shuts. Andoni Iraola takes his first press conference at 11am tomorrow into a building that has lost its architect and is losing its recruiter, forty-two days before Newcastle away. On the grass it went better: Alexis Mac Allister headed in Messi's corner inside ten minutes in Kansas City last night, Argentina beat Switzerland 3-1 in extra time, and England wait in Atlanta. Curtis Jones, meanwhile, is reported to be close to Nottingham Forest, who have £116m of Elliot Anderson money to spend.",
   keyTopics: [
     {
-      title: "Salah Rules Out Europe: A Saudi Deal In Principle, And A Two-Hour Flight (TeamTalk / Football365, today)",
+      title: "Edwards Resigns: FSG Lose Their Architect, And Will Not Replace Him (Sky Sports / ESPN, today)",
       detail:
-        "The clearest reading yet of the free agent's endgame arrived this weekend: a European stay is now described as increasingly unlikely, with a deal in principle already in place with the Saudi Pro League and the destination narrowed to the Gulf or the United States. Geography is the tell. Salah is understood to favour the western Saudi clubs, Al-Ahli and Al-Ittihad in Jeddah, because Cairo sits two hours away. Saturday's gossip column complicates it, reporting that his contract demands have put the Saudi switch back in doubt, so treat the club as unsettled and the continent as close to settled.",
-      category: "transfers",
+        "Confirmed by FSG this weekend and the most consequential thing to happen to Liverpool this summer: Michael Edwards has left his post as chief executive of football, resigning with a year still to run. The stated cause is an impasse. Edwards returned in March 2024 chiefly to lead the acquisition of a second club, that plan has been shelved, and he has gone rather than sit with it. FSG's statement calls it a planned transition following the completion of key strategic priorities; Mike Gordon, who now retakes oversight of football operations himself, says the owners are naturally disappointed. Read the two sentences together and they do not quite agree.",
+      category: "general",
     },
     {
-      title: "Merino At The Death: Spain 2-1 Belgium Puts Munoz In The Semis (ESPN / CNN, today)",
+      title: "And Hughes Is Going Too: Al-Hilal Expected Once The Window Shuts (The Athletic / This Is Anfield, today)",
       detail:
-        "Friday in Los Angeles, Fabian Ruiz opened, Charles De Ketelaere levelled, and Mikel Merino turned in a rebound off Senne Lammens in the 88th minute to send Spain through 2-1. Victor Munoz, back involved after the muscle problem that stalled his group stage, is a World Cup semi-finalist eleven days after signing, and the tie he goes to is Spain against France, which means the winger Liverpool have just bought against the centre-back they have just lost for nothing.",
+        "The second half of the shake-up, and the reason the first half matters so much. David Ornstein reports that sporting director Richard Hughes is expected to join Al-Hilal, reuniting in Riyadh with his former Bournemouth colleague Simon Francis, though only after this transfer window closes. Hughes is said to remain fully focused on the summer's business in the meantime. So Liverpool enter the most important six weeks of their rebuild with a chief executive who has already left and a sporting director who has already agreed where he is going next.",
+      category: "general",
+    },
+    {
+      title: "Mac Allister Heads Messi's Corner: Argentina 3-1 Switzerland, England Next (ESPN / FIFA, today)",
+      detail:
+        "Kansas City, last night, and the last Red standing made it count. Alexis Mac Allister met Lionel Messi's corner in the tenth minute and headed the holders in front. Switzerland levelled through Ndoye just after the hour, Embolo was sent off for a second booking, and extra time did the rest: Alvarez on 112, Lautaro Martinez in the first minute of stoppage. Argentina 3, Switzerland 1. The semi-final is England, in Atlanta, in four days. In the other half of the draw, Victor Munoz's Spain meet Konate's France.",
       category: "matches",
     },
     {
-      title: "The Floor Drops: PSG Now Want €135m For Barcola, And Akliouche Opens The Door (Football365 / TeamTalk, today)",
+      title: "Forest Close On Jones, With City's £116m In Their Pocket (TeamTalk / Football365, today)",
       detail:
-        "Yesterday's British record has moved. Where the number was €150m, PSG are now reported to want a minimum of €135m (£116m) before green-lighting the sale, and they have sealed personal terms with Monaco's Maghnes Akliouche, the arrival that frees Barcola to go. Arsenal, the other suitor, are closing on an agreement in principle with Aston Villa's Morgan Rogers and are expected to ease off. The ceiling is lower and the field is thinner; the fee is still the whole argument.",
+        "The Italian press moved first and the English press has not yet caught it, so hold it loosely: Nottingham Forest are reported to have reached an agreement with Liverpool for Curtis Jones, whose exit FSG are willing to sanction at around £40m with a year left on his deal. The logic is Forest's, not Liverpool's. They sold Elliot Anderson to Manchester City for £116m and need a central midfielder to replace him, and Glasner has picked the Scouser. Two complications: Gazzetta claim Jones already has terms agreed with Inter, and Jones himself is said not to want Forest.",
       category: "transfers",
     },
     {
-      title: "The Elliott Sacrifice: Wharton Swap Back On The Table (GiveMeSport / TeamTalk, today)",
+      title: "Europe Reopens: Fenerbahce Enter The Salah Race As The Decision Nears (Liverpool.com / SportBible, today)",
       detail:
-        "The midfield file reopened at Selhurst Park. Liverpool are reported willing to send Harvey Elliott to Crystal Palace as a makeweight for Adam Wharton, a structure that would cut £35-40m off Palace's £70m valuation of the England No. 6 and could move quickly if all parties agree. The caveat is the manager: Iraola wants to run the rule over the squad in pre-season before sanctioning an exit, and Football Insider maintain the interest cooled. Live, contested, and cheaper than it was.",
+        "A week ago the reporting had him ruling Europe out. Now that Egypt's World Cup is over, ended by the Argentina side Mac Allister just won a quarter-final with, the decision is described as imminent and the map has widened again. Fenerbahce are named as a serious suitor, able to match the Gulf on salary while still offering UEFA football, with Saudi Arabia and MLS unchanged behind them and Italian and Turkish interest noted. John Barnes has told him to stay in Europe even at a pay cut. The one thing every version agrees on: he speaks soon.",
       category: "transfers",
     },
     {
-      title: "Iraola Faces The Room: First Press Conference, 11am Monday (This Is Anfield / Liverpool.com, today)",
+      title: "Iraola Faces The Room Tomorrow, Into A Building With No CEO (Liverpool.com / OneFootball, today)",
       detail:
-        "The date is set. Andoni Iraola takes his first Liverpool press conference at 11am on Monday July 13 at the AXA, with testing and fitness work starting the following day and the senior group filing back in through the week. Then it is America: Sunderland in Nashville on July 25, Wrexham in New York on July 30, Leeds in Chicago on August 2. Three stops, three weeks, and a manager who by then will need answers rather than assessments.",
+        "At 11am on Monday, at the AXA, Andoni Iraola gives his first Liverpool press conference, and the questions have changed shape in the last forty-eight hours. He was hired to succeed Arne Slot; he now inherits a club whose chief executive of football resigned before he had taken a single session and whose sporting director is bound for Riyadh. Jamie Carragher, on Sky, calls it close to an impossible task. Senior players report back today, testing begins at Kirkby on Tuesday, and roughly nineteen first-team figures will be there.",
       category: "general",
     },
     {
-      title: "Kansas City Tonight: Mac Allister And Argentina Meet Switzerland (Sky Sports, today)",
+      title: "Wharton Turns Away: Palace Offer Him To Real Madrid At £103m (Liverpool.com, today)",
       detail:
-        "The last Red still playing goes at 9pm Eastern in Kansas City. Alexis Mac Allister's holders, who came from three down in thirteen minutes against Egypt in the round of sixteen, meet a Switzerland side in their first quarter-final since 1954, through on penalties against Colombia. Win it and Liverpool have two men in the last four, in opposite halves of the draw, while the club they play for watches from an empty training ground.",
-      category: "matches",
-    },
-    {
-      title: "The Four-Man Shortlist: Minteh, El Mala, Fernandez-Pardo (Liverpool.com, 1d ago)",
-      detail:
-        "Behind Barcola sits a list, and it now has names. Brighton's Yankuba Minteh, whom the Seagulls value nearer £80m than the £70m first mooted, heads it, with Koln's Said El Mala and Lille's Matias Fernandez-Pardo alongside as the cheaper, younger alternatives. The concrete bid readied for Minteh this week is the practical end of the same idea: a wide man the accounts can actually reach.",
+        "Yesterday's swap is today's dead end. The reporting has now cooled Liverpool's interest in Adam Wharton and, more damagingly, has Crystal Palace offering the England midfielder to Real Madrid at around £103m, a number that makes the Harvey Elliott makeweight structure look like a fantasy of last week. A move to Anfield is now described as extremely unlikely. The engine room still needs a No. 6, and the cheapest route to the best one in England has just closed.",
       category: "transfers",
     },
     {
-      title: "Two Bids, Both Short: Inter's £21.7m For Jones Falls Well Under (Liverpool.com / The Athletic, 1d ago)",
+      title: "Barcola: Romano Calls It A Serious Possibility, PSG Say Not For Sale (Fabrizio Romano / Anfield Watch, 1d ago)",
       detail:
-        "The Curtis Jones file has numbers now. Inter Milan have made two bids this summer, the most recent around €25m (£21.7m), and both have been turned down: Liverpool value the midfielder near £40m and will not discount a player entering his final year. Jones, who has asked Chiesa about life in Italy, is due at Kirkby with everyone else next week, where Iraola gets first say.",
+        "The winger file holds its shape. Fabrizio Romano describes a summer exit for Bradley Barcola as a serious possibility, the player having declined to sign a new contract in Paris, with the number circling £116m. PSG's public position remains that he is not for sale. Arsenal, prioritising Morgan Rogers, are treating Barcola as a fallback rather than a pursuit, which leaves Liverpool with a thinner field and the same problem they started with, which is the fee.",
       category: "transfers",
     },
     {
-      title: "Chiesa Digs In: The Tour First, Then The Talk (Liverpool.com, 1d ago)",
+      title: "Jacquet Trains: A Pre-Season Boost In A Thin Back Line (This Is Anfield, 1d ago)",
       detail:
-        "The Italian is not going quietly. Federico Chiesa, told in June to find a club and linked back to Juventus, has said he will travel on the American tour, then sit down with Iraola and the club and see where he stands. He is one half of a pair, with Jones, that the reporting calls the two most likely departures; he is also the only one publicly refusing to accept it.",
+        "Some good news, quietly. Jeremy Jacquet, the £60m centre-back signed from Rennes and registered on July 1, is training at the AXA alongside Harvey Elliott, Stefan Bajcetic and James McConnell, all of them back early for preparatory work. With Konate gone for nothing and Van Dijk's own future being canvassed, a fit twenty-year-old centre-back in July is worth more than it sounds.",
+      category: "injuries",
+    },
+    {
+      title: "The Rehab Room: Leoni Nears A Comeback, Ekitike And Bradley Still Indoors (This Is Anfield, 1d ago)",
+      detail:
+        "The long-term list is thinning at one end only. Giovanni Leoni is reported to be nearing a return, ten months after tearing his ACL in September, and is on site. Hugo Ekitike, Conor Bradley and Wataru Endo are in the building but have not yet resumed outdoor work. None of the three will be ready for Nashville, and Bradley's absence in particular leaves the right back slot where it has been all year, which is unresolved.",
+      category: "injuries",
+    },
+    {
+      title: "The Returning Eight: No World Cup Players Until America (This Is Anfield, 2d ago)",
+      detail:
+        "Iraola's first fortnight will be a young man's pre-season. The eight players who went to the tournament will not be seen at Kirkby before the US tour, with Florian Wirtz, Virgil van Dijk, Ryan Gravenberch, Cody Gakpo and Alexander Isak, all beaten in the round of 32, expected to join up ahead of Wrexham in New York on July 30. Szoboszlai, Kerkez and Ngumoha walk in on day one. The manager gets his best players last and his first match, Sunderland in Nashville, on July 25.",
       category: "general",
     },
     {
-      title: "Edwards Is Done Waiting: Liverpool Extremely Keen On Lamine Camara (Anfield Watch, 2d ago)",
+      title: "Sano And Camara: The Midfield Board With Nobody Left To Run It (Football365 / Anfield Watch, 2d ago)",
       detail:
-        "Beneath the Sano pursuit, a second engine-room name is warming. Michael Edwards is reported to be working on a deal for Monaco's Lamine Camara, with the club described as extremely keen on the Senegal midfielder and Newcastle circling the same signature. Mainz, meanwhile, still hold their €50-60m line on Kaishu Sano. The midfield rebuild has three doors open and no signature on any of them.",
+        "The engine-room search predates this weekend and now outlives the men who started it. Mainz hold their €50-60m line on Kaishu Sano, whom Liverpool still lead Manchester United and Arsenal for, and Monaco's Lamine Camara remains warm with Newcastle in the same room. Hughes was said to be keen to close Sano before he leaves. Whether the deals survive the departure of the two executives who sourced them is the summer's open question.",
       category: "transfers",
-    },
-    {
-      title: "A Fifteen-Year-Old On The Grass: Iraola Joins The U21s (DaveOCKOP / This Is Anfield, 2d ago)",
-      detail:
-        "The quiet part of pre-season, reported this week: Iraola took part in an Under-21 session on Thursday with Richard Hughes watching from the touchline, and included a fifteen-year-old in the early first-team work. In Georgia the club's identical contract offer to seventeen-year-old Andria Bartishvili still sits alongside Arsenal's, undecided. A manager learning the building, from the youngest rooms up.",
-      category: "general",
     },
   ],
   sources: [
+    "Sky Sports",
+    "ESPN",
+    "The Athletic",
+    "This Is Anfield",
+    "Liverpool.com",
     "TeamTalk",
     "Football365",
-    "Liverpool.com",
-    "This Is Anfield",
-    "GiveMeSport",
+    "Fabrizio Romano",
     "Anfield Watch",
-    "ESPN",
-    "CNN",
-    "Sky Sports",
-    "DaveOCKOP",
-    "The Athletic",
+    "FIFA",
+    "OneFootball",
+    "SportBible",
   ],
 };
 
@@ -604,9 +610,9 @@ export const NEWS_DIGEST = {
 // heatTier: "hot" (≥65%) | "warm" (40-64%) | "cool" (<40%) | "done" | "dead"
 // sources[].tier: "S" (Romano-class) | "A" (major outlet) | "B" (beat) | "C" (aggregator)
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-07-11T08:00:00Z",
+  generatedAt: "2026-07-12T09:00:00Z",
   summary:
-    "Saturday's ledger opens on the departure lounge. Mohamed Salah's endgame has narrowed to Saudi Arabia or MLS, a European stay now called increasingly unlikely and a deal in principle reported to be in place with the Saudi Pro League, Jeddah's Al-Ahli and Al-Ittihad favoured because Cairo sits two hours away, though Saturday's gossip has his contract demands putting the switch back in doubt. Beneath it the incoming board got cheaper and busier: PSG's floor for Bradley Barcola has come down to a reported €135m (£116m) now that Paris have sealed personal terms with Maghnes Akliouche, while Arsenal close on Morgan Rogers and step out of the race. Brighton hold Yankuba Minteh nearer £80m, with Koln's Said El Mala and Lille's Matias Fernandez-Pardo behind him on a four-man shortlist. In midfield the Adam Wharton swap is alive again, Harvey Elliott the makeweight that would cut £35-40m off Palace's £70m ask, and Michael Edwards is reported extremely keen on Monaco's Lamine Camara with Newcastle in the same room. Inter's two bids for Curtis Jones, the last around £21.7m, have both been rejected against a £40m valuation.",
+    "Sunday's ledger has to open with the men who were meant to be writing it. Michael Edwards has resigned as FSG's chief executive of football, walking a year early because the second club he came back to buy will not now be bought, and Richard Hughes is expected to follow him to Al-Hilal once the window shuts. Liverpool will therefore do the most consequential business of the Iraola era with an empty executive floor and Mike Gordon back at the desk. The board moves anyway. Nottingham Forest, £116m richer for selling Elliot Anderson to Manchester City, are reported to have agreed a deal for Curtis Jones at around £40m, though the English press has not confirmed it, Gazzetta claim Inter already hold terms with him, and Jones is said not to want Forest. The Adam Wharton route has closed from the other side: Palace have offered him to Real Madrid at about £103m and a move to Anfield is now called extremely unlikely, which takes Harvey Elliott off the table as a makeweight. Bradley Barcola holds at roughly £116m, a serious possibility per Romano, a player PSG still publicly refuse to sell. And Mohamed Salah, freed by Egypt's exit, has Europe back in play, Fenerbahce able to match the Gulf on salary and offer UEFA nights on top.",
   incoming: [
     {
       id: "minteh-2026",
@@ -672,7 +678,7 @@ export const TRANSFER_TARGETS = {
       ],
       lastUpdated: "2026-07-10",
       rumorNote:
-        "Mainz · 10 Jul — front-runners, but the fee has not moved. Beneath the winger noise the midfield pursuit rolls on: Liverpool stay ahead of Manchester United and Arsenal for the Japan international, contact made with his camp over personal terms, Richard Hughes keen to close it. The block is Mainz's line, held firm at €50-60m for a No. 6 tied to 2028. With his World Cup over in the group stage the player is free to talk, and the read at Anfield is that a ball-winner remains the summer's most solvable problem, once the clubs meet on price.",
+        "Mainz · 12 Jul — the last file the outgoing regime may finish. Beneath the winger noise the midfield pursuit rolls on: Liverpool stay ahead of Manchester United and Arsenal for the Japan international, contact made with his camp over personal terms, Richard Hughes keen to close it before he goes. The block is Mainz's line, held firm at €50-60m for a No. 6 tied to 2028. With his World Cup over in the group stage the player is free to talk, and the read at Anfield is that a ball-winner remains the summer's most solvable problem, once the clubs meet on price.",
       positionFit: {
         replaces: "Endo (defensive midfield)",
         competesWith: ["Gravenberch", "Mac Allister", "Szoboszlai"],
@@ -853,16 +859,16 @@ export const TRANSFER_TARGETS = {
       contractExpiry: "2028-06-30",
       releaseClause: null,
       contractNote: "Contract talks with PSG have stalled and the player has told Paris he wants a bigger role elsewhere; the club's condition is the fee, and the reported minimum has now come down from €150m to €135m (£116m) after they sealed personal terms with Monaco's Maghnes Akliouche. He is represented by Gestifute, the Mendes agency Liverpool have long dealt with.",
-      probability: 52,
+      probability: 50,
       heatTier: "warm",
       sources: [
         { name: "Fabrizio Romano",  tier: "S" },
         { name: "This Is Anfield",  tier: "A" },
         { name: "TeamTalk",         tier: "B" },
       ],
-      lastUpdated: "2026-07-11",
+      lastUpdated: "2026-07-12",
       rumorNote:
-        "Paris · 11 Jul — the ceiling comes down. A day after PSG named a British-record €150m, the reported minimum is €135m (£116m): still enormous, no longer a record. Two things moved it. Paris have agreed personal terms with Monaco's Maghnes Akliouche, and a club that has replaced a winger can afford to sell one; Arsenal, closing on an agreement in principle with Morgan Rogers, are expected to step out of the race. Barcola has told PSG he wants a bigger role. The football case was always clean, a 23-year-old off either flank. The argument was only ever the fee, and the fee just blinked.",
+        "Paris · 12 Jul — two stories, one player, and they do not agree. Fabrizio Romano calls a summer exit a serious possibility: Barcola has declined to sign a new contract in Paris and has told the club he wants a bigger role, with the number circling £116m. PSG's public position is that he is not for sale, which is what a selling club says right up until it sells. The one thing that has moved in Liverpool's favour is the field: Arsenal have prioritised Morgan Rogers and now treat Barcola as a fallback rather than a pursuit. Fewer rivals, same fee, and a recruitment department that no longer has a chief executive to sign it off.",
       positionFit: {
         replaces: "Salah (wide forward)",
         competesWith: ["Gakpo", "Ngumoha", "Munoz"],
@@ -1052,7 +1058,7 @@ export const TRANSFER_TARGETS = {
       ],
       lastUpdated: "2026-07-11",
       rumorNote:
-        "Monaco · 11 Jul — Edwards is done waiting. Reporting this week has Liverpool working on a deal for the Senegal midfielder and describes the club as extremely keen, with Newcastle circling the same signature. He is the second door in an engine-room rebuild that has yet to close any of them: Sano at Mainz's €50-60m line, Wharton at Palace's £70m, Camara at Monaco. One of the three has to give before Nashville.",
+        "Monaco · 12 Jul — the file outlives the man who opened it. The push for the Senegal midfielder was Michael Edwards' work, and Edwards resigned this weekend; the club is still described as extremely keen, with Newcastle circling the same signature, but the executive who drove it has gone and the sporting director who backed it is bound for Riyadh. The engine room remains the summer's unsolved problem: Sano at Mainz's €50-60m line, Camara at Monaco, and the Wharton route now closed by Real Madrid. Three doors, no signature, and nobody obvious left to turn the handle.",
       positionFit: {
         replaces: "Jones / Endo (midfield depth)",
         competesWith: ["Gravenberch", "Szoboszlai"],
@@ -1113,22 +1119,22 @@ export const TRANSFER_TARGETS = {
       image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p496221.png",
       currentClub: "Crystal Palace",
       currentLeague: "Premier League",
-      feeMin: 70, feeMax: 90, feeCurrency: "£m",
+      feeMin: 90, feeMax: 103, feeCurrency: "£m",
       marketValue: 70,
       wageBand: "B",
       contractExpiry: "2029-06-30",
       releaseClause: null,
-      contractNote: "Palace hold a £70m line and would still rather extend than sell, but the player-plus-cash route is live again: Harvey Elliott heading to Selhurst Park would cut £35-40m off the ask.",
-      probability: 45,
-      heatTier: "warm",
+      contractNote: "Palace have moved the ask beyond Liverpool's reach, offering the England midfielder to Real Madrid at around £103m; the Elliott player-plus-cash route is no longer reported as live.",
+      probability: 12,
+      heatTier: "cool",
       sources: [
         { name: "Liverpool.com",   tier: "B" },
         { name: "TeamTalk",        tier: "B" },
         { name: "GiveMeSport",     tier: "B" },
       ],
-      lastUpdated: "2026-07-11",
+      lastUpdated: "2026-07-12",
       rumorNote:
-        "Selhurst Park · 11 Jul — warm again, and cheaper. Liverpool are reported willing to send Harvey Elliott to Palace as a makeweight in a deal for the England No. 6, a structure that would knock £35-40m off the £70m valuation and, per the reporting, could move quickly if all parties agree. The brake is the manager: Iraola wants to run the rule over his squad in pre-season before sanctioning an exit, and one strand of the reporting still insists the interest cooled a week ago. Contested, then, but back on the board, and the cheapest route to the best young holding midfielder in England.",
+        "Selhurst Park · 12 Jul — the door shuts, and it shuts from the other side. Twenty-four hours after the Elliott makeweight structure was reported back on, the picture has inverted: Liverpool's interest is now described as cooled, and Palace have offered Wharton to Real Madrid at a fee around £103m. At that number the player-plus-cash route is not a discount, it is a fiction, and a move to Anfield is being called extremely unlikely. The football case has not changed; the best young holding midfielder in England is still exactly that. The price simply found a bigger buyer, and Liverpool, who need a No. 6, have just lost the cheapest one.",
       positionFit: {
         replaces: "Endo (defensive midfield)",
         competesWith: ["Gravenberch", "Mac Allister"],
@@ -1710,12 +1716,12 @@ export const TRANSFER_TARGETS = {
       id: "jones-out",
       name: "Curtis Jones",
       position: "MID",
-      destination: "Galatasaray / Inter / Forest (interest)",
+      destination: "Nottingham Forest (agreement reported) / Inter",
       feeAsk: { min: 35, max: 40, currency: "£m" },
-      probability: 38,
-      heatTier: "cool",
-      sources: [{ name: "This Is Anfield", tier: "A" }, { name: "Football365", tier: "B" }, { name: "TeamTalk", tier: "B" }],
-      note: "Sat 11 Jul — the bids are on the record now. Inter Milan have made two offers this summer, the most recent around €25m (£21.7m), and Liverpool have rejected both against a valuation near £40m for a midfielder entering his final year. Galatasaray and a between-managers Forest hover behind them; Jones, who has been asking Chiesa about life in Italy, reports to Kirkby next week like everyone else, where Iraola gets the first say on whether he is surplus or spine.",
+      probability: 68,
+      heatTier: "warm",
+      sources: [{ name: "TeamTalk", tier: "B" }, { name: "Football365", tier: "B" }, { name: "This Is Anfield", tier: "A" }, { name: "Gazzetta dello Sport", tier: "B" }],
+      note: "Sun 12 Jul — follow the £116m. Manchester City paid it to Nottingham Forest for Elliot Anderson, and Forest, suddenly rich and one central midfielder short, have picked the Scouser as the replacement. Italian reporting says an agreement with Liverpool has been reached, with FSG willing to sanction the sale at around £40m for a player entering his final year; the English press has not corroborated it, so hold it loosely. Two threads pull the other way: Gazzetta claim Jones already has terms agreed with Inter, and Jones himself is said not to fancy Forest. He reports to Kirkby tomorrow either way, where Iraola gets a say.",
     },
     {
       id: "gakpo-out",
@@ -1743,12 +1749,12 @@ export const TRANSFER_TARGETS = {
       id: "salah-out",
       name: "Mohamed Salah",
       position: "FWD",
-      destination: "Free transfer (Saudi Pro League / MLS)",
+      destination: "Free transfer (Fenerbahce / Saudi Pro League / MLS)",
       feeAsk: { min: 0, max: 0, currency: "€" },
       probability: 96,
       heatTier: "hot",
-      sources: [{ name: "Goal US", tier: "A" }, { name: "This Is Anfield", tier: "A" }, { name: "Sky Sports", tier: "A" }],
-      note: "Sat 11 Jul — the continent is decided, the club is not. A stay in Europe is now reported to be increasingly unlikely, with a deal in principle said to be in place with the Saudi Pro League and the shortlist narrowed to the Gulf or the United States. Geography is doing the work: Salah is understood to favour the Jeddah clubs, Al-Ahli and Al-Ittihad, because Cairo is a two-hour flight, while Inter Miami and San Diego keep MLS alive. Saturday's gossip pages complicate it, claiming his contract demands have put the Saudi switch back in doubt. Yesterday's Atletico frame, the Griezmann succession, now looks like the road not taken.",
+      sources: [{ name: "Liverpool.com", tier: "B" }, { name: "SportBible", tier: "C" }, { name: "This Is Anfield", tier: "A" }],
+      note: "Sun 12 Jul — Egypt are out, so the clock starts. Beaten by the Argentina side Mac Allister has just carried into a semi-final, Salah has no tournament left to hide behind and said all along he would decide once it ended; the decision is now described as imminent. And the continent he was reported to have ruled out last week is back on the board. Fenerbahce are named as a genuine suitor, able to match Gulf money while still offering UEFA football, the one thing Saudi Arabia cannot sell him. Italian and Turkish interest is noted, the Saudi and MLS routes are unchanged, and John Barnes has publicly urged him to take the pay cut and stay in Europe. Nine years, and the last act is a choice between the money and the Tuesdays.",
     },
     {
       id: "gomez-out",
@@ -1798,12 +1804,12 @@ export const TRANSFER_TARGETS = {
       id: "elliott-out",
       name: "Harvey Elliott",
       position: "MID",
-      destination: "Crystal Palace (makeweight in Wharton swap)",
+      destination: "Stay likely (Wharton swap route closed)",
       feeAsk: { min: 30, max: 40, currency: "£m" },
-      probability: 45,
-      heatTier: "warm",
+      probability: 15,
+      heatTier: "cool",
       sources: [{ name: "GiveMeSport", tier: "B" }, { name: "TeamTalk", tier: "B" }, { name: "This Is Anfield", tier: "A" }],
-      note: "Sat 11 Jul — the mechanism is back. A week after the structure was reported shelved, Liverpool are said to be willing to send Elliott to Selhurst Park as the makeweight in a deal for Adam Wharton, a player-plus-cash route that would cut £35-40m off Palace's £70m ask and could move quickly if all parties agree. The counterweight is the manager: Iraola wants pre-season to tell him whether the exit is necessary, and one strand of the reporting still insists the interest cooled. Back from a lost loan year at Villa Park, Elliott has three weeks to argue he is spine rather than currency.",
+      note: "Sun 12 Jul — the mechanism is gone, and with it the reason to sell him. The Wharton deal that would have used Elliott as currency has collapsed at the far end: Palace have offered the England No. 6 to Real Madrid at around £103m and Liverpool's interest has cooled, so there is no longer a discount for anyone to part-fund. Elliott, back from a poor loan year at Villa Park, has been training outdoors at the AXA since 7 July, which means he will be among the handful of senior bodies in Iraola's first sessions while the internationals are away. Three weeks to argue he is spine rather than change.",
     },
     {
       id: "mamardashvili-out",

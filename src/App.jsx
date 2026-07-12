@@ -348,11 +348,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Saturday, and the long goodbye finds its compass: Salah is
-          reported to have all but ruled out Europe, a Saudi deal in principle
-          in place, Jeddah two hours from Cairo. The market softens behind him,
-          PSG's price for Barcola down to a hundred and sixteen million. In Los
-          Angeles, Muñoz reaches the semis. Fourteen days until Nashville.
+Sunday, and the summer's biggest departure is not a player.
+          Michael Edwards has resigned as chief executive of football, a year
+          early, and will not be replaced; Richard Hughes is bound for Riyadh
+          behind him. Iraola faces the cameras at eleven tomorrow with an empty
+          executive floor above him. In Kansas City, Mac Allister headed the
+          holders into a semi-final. Thirteen days until Nashville.
         </p>
 
         <StatStrip stats={stats} />
@@ -367,21 +368,21 @@ Saturday, and the long goodbye finds its compass: Salah is
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and the ending we have all been circling since spring finally picks
-              a direction. Mohamed Salah, a free man these eleven days, is now
-              reported to have all but closed the door on Europe: a deal in
-              principle with the Saudi Pro League, the club undecided, the
-              geography telling, Jeddah chosen because Cairo is a two-hour
-              flight. Nine years, and the deciding factor is how far it is home.
-              Behind him the market softens: PSG will now take a hundred and
-              sixteen million for Barcola rather than a British record, Arsenal
-              having turned toward Rogers, and Harvey Elliott, back from a lost
-              year at Villa, may be the makeweight that brings Adam Wharton the
-              other way. In Los Angeles on Friday, Merino's late rebound put
-              Muñoz into a semi-final against Konaté's France, the winger we
-              bought against the defender we let go. On Monday at eleven, Iraola
-              speaks. The market moves first; the football waits its turn.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and for once the man who left is not a footballer. Michael Edwards
+              has resigned as FSG's chief executive of football with a year still
+              to run, and the reason is the one that brought him back in 2024:
+              he returned to buy a second club and build something larger, and
+              the owners quietly shelved it. There will be no replacement. Mike
+              Gordon simply takes the desk back, and Richard Hughes, the sporting
+              director, is expected in Riyadh the moment the window shuts. So
+              Andoni Iraola will sit down at eleven tomorrow morning, before he
+              has taken a single senior session, and answer for a rebuild whose
+              two architects have both handed in their keys. Jamie Carragher used
+              the word <i>impossible</i>, and did not appear to be reaching. In
+              Kansas City last night, Alexis Mac Allister rose to Messi's corner
+              and headed the holders toward England. The football, at least, is
+              still keeping its appointments.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -389,12 +390,12 @@ Saturday, and the long goodbye finds its compass: Salah is
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is the
-              two-hour flight that may decide where Salah spends his thirties;
-              Merino's eighty-eighth minute and what it puts Muñoz into; the
-              record price on Barcola coming down; the Elliott sacrifice being
-              weighed at Selhurst Park; and a manager who, at eleven on Monday
-              morning, stops watching and starts answering. Read them in order.
-              The market moves; the football waits.
+              resignation that empties the executive floor; the sporting director
+              already packing for Al-Hilal; Mac Allister's header and the England
+              semi-final it earned; Curtis Jones being sold to Nottingham Forest
+              with Manchester City's money; and a door back to Europe, unlatched,
+              that Salah may yet walk through. Read them in order. The market
+              moves; the football waits.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3112,7 +3113,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Two hours from Cairo, and counting."
+        "The architects handed in their keys."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
