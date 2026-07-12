@@ -93,7 +93,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Fri Jul 3 — not due back with the first wave: this week's pre-season audits list Frimpong among those absent when training opens July 14, the debut season's recurring muscle trouble still being managed after the World Cup omission in May. An uninterrupted run into 2026-27 is everything, and it has not started yet", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Sun Jul 12 — the right back slot lands on him by elimination. With Conor Bradley's long-term knee rehab still indoors and Curtis Jones, the emergency cover, reported to have had a Forest move agreed, Frimpong is the only natural right back left available. That is not the same as being ready: the July pre-season audits listed him among those absent when training opens on the 14th, the debut season's recurring muscle trouble still being managed after the World Cup omission in May. An uninterrupted run into 2026-27 is everything, and it has not started yet", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -190,7 +190,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 19, name: "Stefan Bajcetic", number: 43, position: "MID", nationality: "🇪🇸 Spain", age: 21, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-08-01", injuryNote: "Tue Jul 7 — an early start on a make-or-break year: reported to Kirkby on Monday with Endo and Leoni, a week before the bell, after recurring hamstring trouble wiped out his entire 2025-26", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p535928.png",
+    id: 19, name: "Stefan Bajcetic", number: 43, position: "MID", nationality: "🇪🇸 Spain", age: 21, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "fit", outSince: "2025-08-01", injuryNote: "Tue Jul 7 — an early start on a make-or-break year: reported to Kirkby on Monday with Endo and Leoni, a week before the bell, after recurring hamstring trouble wiped out his entire 2025-26", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p535928.png",
     physical: { height: 185, weight: 75, pace: 68, acceleration: 66, sprintSpeed: 70 },
     career: [
       { years: "2017-2020", club: "Celta Vigo Academy", fee: null, type: "youth" },
@@ -252,7 +252,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Mon Jun 8 — still untouchable: Fabrizio Romano restates the 17-year-old has 'no chance' of leaving as Bayern keep him on their list after missing Anthony Gordon, with no formal contact made — Liverpool's position unmoved. With Salah gone and the wide rebuild still unsettled, the left flank the youngest goalscorer in the club's history would inherit looks more his than ever", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Mon Jun 8 — still untouchable: Fabrizio Romano restates the 17-year-old has 'no chance' of leaving as Bayern keep him on their list after missing Anthony Gordon, with no formal contact made — Liverpool's position unmoved. With Salah departed and the wide rebuild still unsettled, the left flank the youngest goalscorer in the club's history would inherit looks more his than ever", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },

@@ -23,10 +23,12 @@ export const FORMATIONS = {
     // fifth after Sunday's 1-1 with Brentford. This is no longer a matchday
     // prediction but a SNAPSHOT of the XI that closed the campaign, adjusted for
     // the June 30 free-agent exits (Kerkez, Jacquet, Ngumoha step in). 4-3-3 is the
-    // backup look — Slot favoured 4-2-3-1. Refreshed Sat Jul 11: Salah's exit
-    // narrows to Saudi Arabia or MLS with Europe all but ruled out; PSG's floor
-    // for Barcola drops to £116m; the Wharton swap is live again with Elliott as
-    // makeweight; Iraola's first press conference is 11am Monday July 13.
+    // backup look — Slot favoured 4-2-3-1. Refreshed Sun Jul 12: Michael Edwards
+    // resigns as FSG's chief executive of football and will not be replaced, with
+    // Richard Hughes expected at Al-Hilal after the window; Forest reported to have
+    // agreed a deal for Curtis Jones, so Frimpong takes RB; Palace price Wharton out
+    // at £103m, killing the Elliott makeweight; Egypt's exit reopens Europe for Salah
+    // via Fenerbahce; Iraola's first press conference is 11am Monday July 13.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -132,7 +134,7 @@ export const PLAYER_EVIDENCE = {
   6:  "Tottenham · left free June 30",          // Robertson
   7:  "First-pick LB · back day one",       // Kerkez
   8:  "Long-term knee · still indoors",    // Bradley
-  9:  "Natural RB · in for the exiting Jones",   // Frimpong
+  9:  "Only fit natural RB · muscle managed",   // Frimpong
   10: "ACL · nearing a comeback at last",       // Leoni
   11: "Training at the AXA · in for Konaté",      // Jacquet
   12: "Academy depth · 2 senior apps",         // Ndukwe
@@ -180,7 +182,7 @@ export const SLOT_CONFIDENCE = {
   RDM: "Medium", // Szoboszlai · mainstay, extension still pending
   LAM: "Medium", // Wirtz · injury-hit debut season · 'untouchable' per club
   CAM: "Low",    // Mac Allister · still between the two Madrids · Camavinga eyed too
-  RAM: "Low",    // Salah gone (decision imminent · Fenerbahce reopen Europe) · Barcola ~£116m, Minteh ~£80m, no winger signed yet
+  RAM: "Low",    // Salah departed (next club imminent · Fenerbahce reopen Europe) · Barcola ~£116m, Minteh ~£80m, no winger signed yet
   ST:  "Medium", // Isak · £100m striker · injury-wrecked first season
 };
 
@@ -200,7 +202,7 @@ export const SLOT_RATIONALE = {
   CAM: "Wed Jun 17 — the denial gets louder: Mac Allister's father and agent Carlos has again branded the exit talk 'false,' insisting no approaches were declined because none were made, even as Liverpool stay quietly open to a sale near €120m if funds are needed. Real Madrid hold the warmest interest in a midfielder with two years left and no extension talks open, a fork pointed against Gravenberch's fresh terms.",
   RAM: "Sun Jul 12 — the slot's ghost gets his deadline, and a door back to Europe. Egypt's World Cup ended against the Argentina side Mac Allister has just carried into a semi-final, so Salah has nothing left to wait behind and the decision is called imminent; the continent he was reported to have ruled out a week ago is open again, with Fenerbahce able to match Gulf wages while still offering UEFA football. The replacement file holds its shape without him. Fabrizio Romano calls a Barcola exit a serious possibility at around £116m, the player having declined fresh PSG terms, though Paris insist he is not for sale; Arsenal, prioritising Rogers, have stepped back. Brighton hold Minteh nearer £80m. Ngumoha keeps the shirt until one of them lands, and the executives who were sourcing them have resigned.",
 
-  RB:  "Sun Jul 12 — the slot changes hands by subtraction. Curtis Jones, who had been the emergency cover here, is now reported to have had a move to Nottingham Forest agreed at around £40m, Glasner spending the £116m Manchester City paid for Elliot Anderson; the English press has not corroborated it and Jones is said to resist the move, but he can no longer be the pick. Conor Bradley's long-term knee rehab is still indoors with no return date and Hugo Ekitike is alongside him, which leaves Jeremie Frimpong, fit and a natural right back, as the only real answer until the market provides one. The marquee search has not gone away: a bid near £80m for Barcelona's Jules Kounde, a right back raised as a centre-back, remains the reported ambition.",
+  RB:  "Sun Jul 12 — the slot changes hands by subtraction. Curtis Jones, who had been the emergency cover here, is now reported to have had a move to Nottingham Forest agreed at around £40m, Glasner spending the £116m Manchester City paid for Elliot Anderson; the English press has not corroborated it and Jones is said to resist the move, but he can no longer be the pick. Conor Bradley's long-term knee rehab is still indoors with no return date and Hugo Ekitike is alongside him, which leaves Jeremie Frimpong, the only natural right back left standing, as the default by elimination rather than by form: the pre-season audits had him absent when training opens on July 14, his debut season's recurring muscle trouble still being managed. The slot is cover, not a settled pick. The marquee search has not gone away: a bid near £80m for Barcelona's Jules Kounde, a right back raised as a centre-back, remains the reported ambition.",
 
   ST:  "Tue Jun 2 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
 };
