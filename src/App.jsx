@@ -348,12 +348,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Sunday, and the summer's biggest departure is not a player.
-          Michael Edwards has resigned as chief executive of football, a year
-          early, and will not be replaced; Richard Hughes is bound for Riyadh
-          behind him. Iraola faces the cameras at eleven tomorrow with an empty
-          executive floor above him. In Kansas City, Mac Allister headed the
-          holders into a semi-final. Thirteen days until Nashville.
+Monday, and at eleven this morning the new era has to speak.
+          Andoni Iraola takes his first Liverpool press conference as the summer
+          break ends beneath him, fifteen players reporting back, the executive
+          floor above him emptied of the two men who drew up this rebuild. Salah,
+          a free agent, has closed the door on Europe for good. Twelve days until
+          Nashville, and not one attacker signed.
         </p>
 
         <StatStrip stats={stats} />
@@ -368,21 +368,21 @@ Sunday, and the summer's biggest departure is not a player.
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and for once the man who left is not a footballer. Michael Edwards
-              has resigned as FSG's chief executive of football with a year still
-              to run, and the reason is the one that brought him back in 2024:
-              he returned to buy a second club and build something larger, and
-              the owners quietly shelved it. There will be no replacement. Mike
-              Gordon simply takes the desk back, and Richard Hughes, the sporting
-              director, is expected in Riyadh the moment the window shuts. So
-              Andoni Iraola will sit down at eleven tomorrow morning, before he
-              has taken a single senior session, and answer for a rebuild whose
-              two architects have both handed in their keys. Jamie Carragher used
-              the word <i>impossible</i>, and did not appear to be reaching. In
-              Kansas City last night, Alexis Mac Allister rose to Messi's corner
-              and headed the holders toward England. The football, at least, is
-              still keeping its appointments.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and the man who has been managing Liverpool for five weeks is
+              finally asked what he thinks. Andoni Iraola sits down at the AXA at
+              eleven o'clock this morning for the first press conference of his
+              tenure, and the timing is a small cruelty: the summer break ends
+              today, the first session is tomorrow, and the building he is being
+              introduced in has just lost its chief executive of football and is
+              losing its sporting director to Riyadh. They will ask him about a
+              winger he has not signed, a centre-back he does not have, and an
+              armband that needs a deputy now that Salah, Konate and Robertson
+              have all left in a single window. Fifteen players report back to
+              him. Behind them, in a hotel somewhere, Mohamed Salah has finally
+              closed the door on Europe, and is choosing between the Gulf and
+              America by flight time to Cairo. Iraola has been handed a squad and
+              a microphone. The microphone came first.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -390,12 +390,12 @@ Sunday, and the summer's biggest departure is not a player.
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is the
-              resignation that empties the executive floor; the sporting director
-              already packing for Al-Hilal; Mac Allister's header and the England
-              semi-final it earned; Curtis Jones being sold to Nottingham Forest
-              with Manchester City's money; and a door back to Europe, unlatched,
-              that Salah may yet walk through. Read them in order. The market
-              moves; the football waits.
+              room at eleven and the questions waiting in it; the door to Europe
+              that Salah has now closed himself; an eyebrow raised at a transfer
+              the Italian papers had already agreed; a cane at Wimbledon and a
+              striker who has picked Boxing Day; and three Liverpool names still
+              alive in the last four of a World Cup. Read them in order. The
+              market moves; the football waits.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3113,7 +3113,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The architects handed in their keys."
+        "A squad, and a microphone. The microphone came first."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
