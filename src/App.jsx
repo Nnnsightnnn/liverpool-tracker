@@ -351,7 +351,8 @@ function CoverView({ onJump }) {
 Monday, and at eleven this morning the new era has to speak.
           Andoni Iraola takes his first Liverpool press conference as the summer
           break ends beneath him, fifteen players reporting back, the executive
-          floor above him emptied of the two men who drew up this rebuild. Salah,
+          floor above him missing the man who drew up this rebuild and about to
+          lose the man who was recruiting for it. Salah,
           a free agent, has closed the door on Europe for good. Twelve days until
           Nashville, and not one attacker signed.
         </p>

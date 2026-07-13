@@ -34,7 +34,7 @@ export const FORMATIONS = {
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
       LCB: 3,   // Van Dijk (captain · contracted to 2027)
       RCB: 11,  // Jacquet (unveiled Jul 1 · steps in for Madrid-bound Konaté)
-      RB: 9,    // Frimpong (natural RB · Jones close to a Forest exit)
+      RB: 9,    // Frimpong (only natural RB · Jones's Forest move contested)
       LCM: 13,  // Mac Allister (midfield three)
       CM: 14,   // Gravenberch (control of midfield · most reliable MID)
       RCM: 15,  // Szoboszlai (engine · 48 apps)
@@ -73,7 +73,7 @@ export const FORMATIONS = {
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
       LCB: 3,   // Van Dijk (captain · contracted to 2027)
       RCB: 11,  // Jacquet (unveiled Jul 1 · steps in for Madrid-bound Konaté)
-      RB: 9,    // Frimpong (natural RB · Jones close to a Forest exit)
+      RB: 9,    // Frimpong (only natural RB · Jones's Forest move contested)
       LDM: 14,  // Gravenberch (double-pivot · most reliable midfielder)
       RDM: 15,  // Szoboszlai (the season's heaviest-minutes midfielder)
       LAM: 18,  // Wirtz (wide-left · injury-hit debut season)
@@ -111,7 +111,7 @@ export const FORMATIONS = {
       LWB: 7,   // Kerkez (LWB with Robertson gone to Spurs)
       LCM: 14,  // Gravenberch (most reliable midfielder)
       RCM: 13,  // Mac Allister (anchors double pivot)
-      RWB: 9,   // Frimpong (natural RB · Jones close to a Forest exit)
+      RWB: 9,   // Frimpong (only natural RB · Jones's Forest move contested)
       LW: 22,   // Gakpo (LW in the three-man attack)
       ST: 23,   // Isak (No. 9 when fit)
       RW: 25,   // Ngumoha (the post-Salah slot until a winger signs)
@@ -120,12 +120,13 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-07-12
-// (Sun: Michael Edwards resigns as FSG's chief executive of football and will
-// not be replaced; Richard Hughes expected at Al-Hilal once the window shuts;
-// Mac Allister heads Argentina past Switzerland 3-1 into an England semi-final;
-// Forest reported to have agreed a deal for Curtis Jones; Palace price Wharton
-// out of Anfield at £103m; Iraola's first press conference is 11am Monday.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-07-13
+// (Mon: Iraola takes his first press conference at 11am today as the summer
+// break ends, roughly fifteen seniors reporting back and the first session
+// tomorrow; Salah has closed the door on Europe, a Saudi deal in principle in
+// place with only MLS still arguing; Curtis Jones answers the reported Forest
+// agreement with a raised-eyebrow emoji, so it is contested rather than done;
+// Frimpong is named among the day-one defenders; Ekitike aims at Boxing Day.)
 export const PLAYER_EVIDENCE = {
   1:  "Brazil's No. 1 · staying at Anfield",       // Alisson
   2:  "Back day one · club prefer a loan",         // Mamardashvili
@@ -189,8 +190,8 @@ export const SLOT_CONFIDENCE = {
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
 // Explains the season-closing pick for each slot of the 4-2-3-1. The 2025-26
 // season is complete; these read as a retrospective on the first-choice XI
-// rather than a prediction for a coming fixture. (RAM and RB refreshed Sun Jul
-// 12; LCB Fri Jul 10; CAM Wed Jun 17; RCB Tue Jun 9; rest Tue Jun 2.)
+// rather than a prediction for a coming fixture. (RAM and RB refreshed Mon Jul
+// 13; LCB Fri Jul 10; CAM Wed Jun 17; RCB Tue Jun 9; rest Tue Jun 2.)
 export const SLOT_RATIONALE = {
   GK:  "Tue Jun 2 — Alisson is now widely expected to remain. Juventus had agreed personal terms near €5m a year, but the Italians missing out on Champions League football drained the move of momentum, and the Brazilian was never the one pushing it. Mamardashvili waits, likeliest to go out on loan.",
   LB:  "Tue Jun 2 — with Andy Robertson's free transfer to De Zerbi's Tottenham now done, the Liverpool left-back slot is unambiguously Milos Kerkez's after a tough first season at £45m. Nine years of cover at the position have walked out the door in a single window.",

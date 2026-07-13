@@ -350,6 +350,7 @@ export const TEAM_LOGOS = {
   "Lille":            "https://img.uefa.com/imgml/TP/teams/logos/50x50/50064.png",
   "Monaco":           "https://img.uefa.com/imgml/TP/teams/logos/50x50/50023.png",
   "Osasuna":          "https://upload.wikimedia.org/wikipedia/en/d/db/Osasuna_logo.svg",
+  "Almeria":          "https://upload.wikimedia.org/wikipedia/en/e/e4/UD_Almeria_logo.svg",
   "Borussia Dortmund":"https://img.uefa.com/imgml/TP/teams/logos/50x50/52758.png",
   "Atalanta":         "https://img.uefa.com/imgml/TP/teams/logos/50x50/52816.png",
 };
@@ -537,33 +538,15 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "Ekitike Aims At Boxing Day, And Walks Wimbledon With A Cane (This Is Anfield / Liverpool.com, 1d ago)",
-      detail:
-        "The best injury news of the week, and the most human. Hugo Ekitike, whose Achilles ruptured against PSG in April and whose surgery was performed by the specialist who repaired Jayson Tatum's, has set his sights on Boxing Day, December 26, away at newly promoted Hull. April's projection was nine to twelve months, which would have meant January 2027 at the earliest; eight and a half would be the floor of medical expectation. He has been rehabbing in the United States with physiotherapist Berengar Buschmann, juggling and passing without crutches, and was photographed at Wimbledon this week walking with a decorative cane instead of them.",
-      category: "injuries",
-    },
-    {
       title: "Konate Meets Munoz In Dallas Tomorrow, Mac Allister Meets England On Wednesday (ESPN / Al Jazeera, today)",
       detail:
         "The last four are set and Liverpool have a stake in three of them. France play Spain in Dallas on Tuesday at 3pm Eastern, which puts Ibrahima Konate, now Real Madrid's on a free, opposite Victor Munoz, whose £34m release clause Liverpool triggered at Osasuna this summer: a departing centre-back against an arriving winger. On Wednesday in Atlanta, Alexis Mac Allister's Argentina, the holders, face England. Whoever survives keeps a Liverpool player away from Iraola's grass for another week.",
       category: "matches",
     },
     {
-      title: "Jacquet Promises '100 Per Cent': The £60m Centre-Back Rejoins Group Training (This Is Anfield, 1d ago)",
-      detail:
-        "The February shoulder dislocation is healed and the surgeon has cleared him, so Jeremy Jacquet, signed from Rennes for £60m and registered on July 1, joined a session at the AXA alongside Harvey Elliott last week and says he will be '100 per cent fit' for the season. It matters more than a fitness note usually would: with Konate gone to Madrid for nothing and no replacement signed, the 20-year-old is currently the only senior centre-back available to Iraola until Van Dijk returns from the United States.",
-      category: "injuries",
-    },
-    {
       title: "The £21m Option: Liverpool Enter For Almeria's Sergio Arribas (TeamTalk / Football365, today)",
       detail:
         "A new and notably cheap name on the attacking board. Liverpool are reported to want Sergio Arribas, the 24-year-old Real Madrid academy graduate who scored 26 goals with seven assists in 47 games for Almeria in the Spanish second tier last season. The asking price is around €25m (£21.4m), of which Real Madrid would take roughly £11m, retaining 50 per cent of his economic rights. Sporting Lisbon have already had €20m rejected and Benfica are interested. No formal Liverpool offer has been made, so treat it as early.",
-      category: "transfers",
-    },
-    {
-      title: "Barcola: Arsenal Move To The Front, And PSG Want £128m (Football365 / Fabrizio Romano, 1d ago)",
-      detail:
-        "The winger endgame turns awkward. PSG have agreed personal terms with Monaco's Maghnes Akliouche, which was supposed to be the move that unlocked Bradley Barcola's exit, and Romano maintains the Frenchman is 'not untouchable' and that his camp is exploring a move. But Arsenal are now reported to be top of the race, and PSG's valuation has settled near a British-record £128m. There is a caveat worth holding: the Daily Mail believe Arsenal actually want Morgan Rogers. Liverpool still have no winger signed and, as of the weekend, no chief executive of football to sign one.",
       category: "transfers",
     },
     {
@@ -573,24 +556,40 @@ export const NEWS_DIGEST = {
       category: "injuries",
     },
     {
-      title: "Endo Reports Early, His World Cup Missed And His Future Unresolved (This Is Anfield, 2d ago)",
-      detail:
-        "Wataru Endo arrived at the AXA ahead of schedule, the 33-year-old having missed Japan's World Cup through the foot injury sustained in February and retired from international football in June on 73 caps. He is still expected to miss the opening day of full training, and a summer sale is still expected to be negotiated. The early return reads as a man making a point to a manager who has never picked him.",
-      category: "general",
-    },
-    {
       title: "The Vice-Captaincy Is Vacant, And Iraola Has To Fill It Today (Rousing The Kop / Liverpool.com, today)",
       detail:
         "A small item that tells you how much has left. With Salah gone as a free agent, Konate gone to Madrid and Andy Robertson gone to Tottenham, the leadership group behind Van Dijk has been stripped in a single window, and the naming of a new vice-captain is on the agenda for this morning's press conference. Szoboszlai and Gravenberch are the obvious candidates on minutes; Alisson, who turned down Juventus to stay, is the obvious one on seniority.",
+      category: "general",
+    },
+    {
+      title: "Ekitike Aims At Boxing Day, And Walks Wimbledon With A Cane (This Is Anfield / Liverpool.com, 1d ago)",
+      detail:
+        "The best injury news of the week, and the most human. Hugo Ekitike, whose Achilles ruptured against PSG in April and whose surgery was performed by the specialist who repaired Jayson Tatum's, has set his sights on Boxing Day, December 26, away at newly promoted Hull. April's projection was nine to twelve months, which would have meant January 2027 at the earliest; eight and a half would be the floor of medical expectation. He has been rehabbing in the United States with physiotherapist Berengar Buschmann, juggling and passing without crutches, and was photographed at Wimbledon this week walking with a decorative cane instead of them.",
+      category: "injuries",
+    },
+    {
+      title: "Jacquet Promises '100 Per Cent': The £60m Centre-Back Rejoins Group Training (This Is Anfield, 1d ago)",
+      detail:
+        "The February shoulder dislocation is healed and the surgeon has cleared him, so Jeremy Jacquet, signed from Rennes for £60m and registered on July 1, joined a session at the AXA alongside Harvey Elliott last week and says he will be '100 per cent fit' for the season. It matters more than a fitness note usually would: with Konate gone to Madrid for nothing and no replacement signed, the 20-year-old is currently the only senior centre-back available to Iraola until Van Dijk returns from the United States.",
+      category: "injuries",
+    },
+    {
+      title: "Barcola: Arsenal Move To The Front, And PSG Want £128m (Football365 / Fabrizio Romano, 1d ago)",
+      detail:
+        "The winger endgame turns awkward. PSG have agreed personal terms with Monaco's Maghnes Akliouche, which was supposed to be the move that unlocked Bradley Barcola's exit, and Romano maintains the Frenchman is 'not untouchable' and that his camp is exploring a move. But Arsenal are now reported to be top of the race, and PSG's valuation has settled near a British-record £128m. There is a caveat worth holding: the Daily Mail believe Arsenal actually want Morgan Rogers. Liverpool still have no winger signed and, as of the weekend, no chief executive of football to sign one.",
+      category: "transfers",
+    },
+    {
+      title: "Endo Reports Early, His World Cup Missed And His Future Unresolved (This Is Anfield, 2d ago)",
+      detail:
+        "Wataru Endo arrived at the AXA ahead of schedule, the 33-year-old having missed Japan's World Cup through the foot injury sustained in February and retired from international football in June on 73 caps. He is still expected to miss the opening day of full training, and a summer sale is still expected to be negotiated. The early return reads as a man making a point to a manager who has never picked him.",
       category: "general",
     },
   ],
   sources: [
     "Liverpool FC",
     "This Is Anfield",
-    "Sky Sports",
     "ESPN",
-    "The Athletic",
     "TeamTalk",
     "Football365",
     "Liverpool.com",
@@ -1740,7 +1739,7 @@ export const TRANSFER_TARGETS = {
       position: "MID",
       destination: "Nottingham Forest (agreement reported) / Inter",
       feeAsk: { min: 35, max: 40, currency: "£m" },
-      probability: 68,
+      probability: 55,
       heatTier: "warm",
       sources: [{ name: "TeamTalk", tier: "B" }, { name: "Football365", tier: "B" }, { name: "This Is Anfield", tier: "A" }, { name: "Gazzetta dello Sport", tier: "B" }],
       note: "Mon 13 Jul — the player answers the story himself. Reacting on Instagram to a post declaring his Forest move agreed, Jones replied with a single raised-eyebrow emoji, which is the closest thing to a denial July allows. The structure underneath is real: Liverpool have named £40m, FSG are willing to sell with two years left, and Forest are flush with the £116m Manchester City paid for Elliot Anderson. But Jones is reported to have no appetite for another English club, having preferred Inter, who bid twice in June, were refused twice, and withdrew. He reports to Kirkby this week, where a manager who has never coached him gets the casting vote. Contested, not closed."
@@ -1773,8 +1772,8 @@ export const TRANSFER_TARGETS = {
       position: "FWD",
       destination: "Free transfer (Saudi Pro League / MLS)",
       feeAsk: { min: 0, max: 0, currency: "€" },
-      probability: 96,
-      heatTier: "hot",
+      probability: 100,
+      heatTier: "done",
       sources: [{ name: "Liverpool.com", tier: "B" }, { name: "SportBible", tier: "C" }, { name: "This Is Anfield", tier: "A" }],
       note: "Mon 13 Jul — Europe is out, and only the ocean is still arguing. The clearest reporting of the summer has Salah, a free agent since July 1, narrowing his future to the Saudi Pro League or MLS, with a European stay now called increasingly unlikely: the weekend's Fenerbahce briefing has not survived the week. A deal in principle is described as in place in Saudi Arabia without a club attached, the Jeddah pair Al-Ittihad and Al-Ahli favoured for the two-hour flight to Cairo, Neom's base at Tabuk nearer still. In America, Kansas City have emerged as the leading suitor with San Diego pushing, while Inter Miami, having spent on Casemiro, look priced out. An announcement is reported to be imminent."
     },
