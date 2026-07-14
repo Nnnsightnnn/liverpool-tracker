@@ -348,13 +348,13 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Monday, and at eleven this morning the new era has to speak.
-          Andoni Iraola takes his first Liverpool press conference as the summer
-          break ends beneath him, fifteen players reporting back, the executive
-          floor above him missing the man who drew up this rebuild and about to
-          lose the man who was recruiting for it. Salah,
-          a free agent, has closed the door on Europe for good. Twelve days until
-          Nashville, and not one attacker signed.
+Tuesday, and the new era finally has grass under it. Pre-season
+          opened at the AXA this morning, and the first thing Andoni Iraola said
+          about his squad was that three of them are long gone from it: Ekitike,
+          Bradley, Leoni, a striker, a right back and a centre-back, a spine he
+          called a <em>difficult situation</em>. Academy boys filled the gaps.
+          Eleven days until Nashville, and the manager has asked, in public, for
+          more players.
         </p>
 
         <StatStrip stats={stats} />
@@ -369,21 +369,26 @@ Monday, and at eleven this morning the new era has to speak.
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and the man who has been managing Liverpool for five weeks is
-              finally asked what he thinks. Andoni Iraola sits down at the AXA at
-              eleven o'clock this morning for the first press conference of his
-              tenure, and the timing is a small cruelty: the summer break ends
-              today, the first session is tomorrow, and the building he is being
-              introduced in has just lost its chief executive of football and is
-              losing its sporting director to Riyadh. They will ask him about a
-              winger he has not signed, a centre-back he does not have, and an
-              armband that needs a deputy now that Salah, Konate and Robertson
-              have all left in a single window. Fifteen players report back to
-              him. Behind them, in a hotel somewhere, Mohamed Salah has finally
-              closed the door on Europe, and is choosing between the Gulf and
-              America by flight time to Cairo. Iraola has been handed a squad and
-              a microphone. The microphone came first.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and the talking stops. Pre-season opened at the AXA this morning,
+              the first session of Andoni Iraola's Liverpool, and the story of it
+              was who was not there. Hugo Ekitike, whose Achilles went against
+              PSG in April and who is quietly arguing with his own surgeon about
+              Boxing Day. Conor Bradley, whose knee went at Arsenal in January
+              and who reporting now places somewhere in 2027. Giovanni Leoni,
+              whose ACL went on his debut, ten months ago, and who was hinted at
+              again yesterday as further away than anyone wanted to hear. A
+              striker, a right back, a centre-back: Iraola named the three of
+              them and called it, without flinching, a difficult situation. He
+              filled the session with academy boys because there was nobody else
+              to fill it with, and he has told his owners, in a room full of
+              microphones, that fifteen players do not make a season. Behind him
+              the market answered in both directions on the same day: Inter's
+              third bid for Curtis Jones refused, because the manager wants him;
+              a call made to Wolves about a Brazilian whose move to Madrid an
+              agent broke out of spite. Eleven days to Nashville. The squad he
+              has is not the squad he needs, and now everyone has heard him say
+              so.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -391,12 +396,12 @@ Monday, and at eleven this morning the new era has to speak.
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is the
-              room at eleven and the questions waiting in it; the door to Europe
-              that Salah has now closed himself; an eyebrow raised at a transfer
-              the Italian papers had already agreed; a cane at Wimbledon and a
-              striker who has picked Boxing Day; and three Liverpool names still
-              alive in the last four of a World Cup. Read them in order. The
-              market moves; the football waits.
+              difficult situation and the three men inside it; two words the new
+              manager used that his predecessor never could; thirty-five million
+              from Milan, refused; a deal in Madrid broken by an agent in a mood;
+              and an afternoon in Dallas where a departing Liverpool centre-back
+              plays an arriving Liverpool winger. Read them in order. The market
+              moves; the football waits.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3114,7 +3119,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A squad, and a microphone. The microphone came first."
+        "You cannot do a season with fifteen."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

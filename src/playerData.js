@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Mon Jun 8 — the No. 1 question is settled: per Brazilian sources, Alisson has turned down Juventus to stay at Anfield at least another season, his extension already triggered. He heads to the World Cup as Brazil's first choice and returns as the unarguable starter — the knock-on falling on Mamardashvili, now the likelier to leave on loan", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Tue Jul 14 — absent for day one, and entitled to be. The goalkeeper is still on a post-World Cup break after Brazil's campaign and did not report for the opening session, leaving Mamardashvili, Freddie Woodman and the young Hungarian Armin Pecsi as the goalkeeping group Iraola actually had on the grass this morning, with Vitezslav Jaros still out after serious knee surgery. Nothing has changed in the substance: the extension is triggered, Juventus were turned down, and he returns as the unarguable No. 1", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Thu Jun 11 — still indoors: the rehab remains confined to gym work at the AXA, the next step described as 'far away,' and no assurances have been offered that he makes the start of pre-season, 24 matches and counting since the knee gave way at Arsenal in January. Iraola's staff inherit a case the previous regime would never put a date on; this week's Geertruida talks are the market reading that same timeline", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Tue Jul 14 — pre-season starts without him, and the horizon has moved the wrong way. Iraola named Bradley among the three long-term absentees at Monday's press conference, calling the set of them a 'difficult situation,' and fresh reporting now suggests the knee that gave way at Arsenal in January is worse than first thought, with a return possibly not arriving until 2027. That is a full calendar year of a 22-year-old right back's career. Frimpong holds the slot alone, and the market is being asked to cover a position Liverpool thought they had solved", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -93,7 +93,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Mon Jul 13 — he is on the grass, and he is the only one of his kind. The pre-season lists filed this morning place Frimpong among the defenders reporting for Iraola's first session, correcting last week's audits that had him down as absent. That makes him the only natural right back available: Conor Bradley's knee rehab is still indoors twenty-four matches on, and Curtis Jones, the emergency cover there last season, may yet be sold. The slot arrives by elimination rather than by form, and his debut year was broken up repeatedly by muscle trouble. An uninterrupted run is the whole ask", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Tue Jul 14 — the last man standing in his position, and pre-season has begun. With Bradley's knee now reported to be a 2027 problem rather than an autumn one, and Curtis Jones, last season's emergency cover, likelier to be kept in midfield than shifted, Frimpong is the only recognised right back Iraola can pick. The market is being asked to find a deputy. His own first year at Anfield was interrupted repeatedly by muscle trouble, so the ask is not brilliance, it is availability: thirty-eight league games, uninterrupted, for the first time", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 33, position: "DEF", nationality: "🇮🇹 Italy", age: 18, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-15", injuryNote: "Sun Jul 12 — nearing the end of it: ten months on from the ACL tear in September, he is reported to be closing on a comeback and is on site at the AXA with Endo, Bradley and Ekitike, none of whom have resumed outdoor work. Not for Nashville, but for the first time the timeline is being discussed in weeks rather than months", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 33, position: "DEF", nationality: "🇮🇹 Italy", age: 18, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-15", injuryNote: "Tue Jul 14 — the comeback slips again. Named by Iraola as one of the three long-term injuries the squad must plan around, the Italian is now hinted to be further away than the hopeful weekend briefings suggested, and he was not on the grass for the opening session. Ten months on from the ACL torn on his Liverpool debut last September, he is described as being in the final phase of recovery, which is a phrase that has been used about him before. Iraola calls him a long-term solution, which is another way of saying not yet", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -113,7 +113,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 6, goals: 0, assists: 0, cleanSheets: 2, xG: 0.1, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.6, status: "fit", injuryNote: "Mon Jul 13 — the last senior centre-back standing. Cleared by his surgeon after February's shoulder dislocation and back in group training, the £60m signing from Rennes promises he will be '100 per cent fit' for the season, and he is named among the defenders in Iraola's first session. With Konate gone to Madrid for nothing, no replacement signed and Van Dijk not back until the American tour, the 20-year-old is currently the only senior centre-back the head coach can pick", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 6, goals: 0, assists: 0, cleanSheets: 2, xG: 0.1, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.6, status: "fit", injuryNote: "Tue Jul 14 — on the grass, and carrying more than a 20-year-old should. Cleared by his surgeon after February's shoulder dislocation, the £60m signing from Rennes took part in the opening session of pre-season and is, for now, the only senior centre-back Iraola has: Konate walked to Madrid for nothing, Leoni is among the three long-term injuries named on Monday, and Van Dijk is not back until the American tour. Liverpool have not signed a replacement. Inacio and Ordonez remain the names on the board", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -132,7 +132,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Mon Jul 13 — England, in Atlanta, on Wednesday. The last Red still playing carries the holders into a World Cup semi-final after heading Messi's corner past Switzerland, and is now the only thing standing between an English final and an Argentine one. He will not report to Iraola until the American tour at the earliest, which is a strange way to begin a relationship with a new manager", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Tue Jul 14 — still the last Red playing, and still nowhere near Kirkby. Argentina, the holders, meet England in Atlanta tomorrow, the midfielder having headed Messi's corner past Switzerland to put them there. Pre-season opened this morning without him. Should Argentina reach Sunday's final in New Jersey he will not report to Iraola until the American tour is well under way, which is a peculiar way to begin with a manager rebuilding a midfield around whoever is actually available", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -161,7 +161,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Mon Jul 13 — he answered it himself, with an eyebrow. Sent an Instagram post declaring his £40m move to Nottingham Forest agreed, Jones replied with a single raised-eyebrow emoji, which in July is as close to a denial as a player gets. The structure underneath is unchanged: Liverpool have named the price, FSG are content to sell with two years left, and Forest hold the £116m Manchester City paid for Elliot Anderson. But he is reported to want no part of another English club, having preferred Inter, who bid twice in June and were twice refused. He reports to Kirkby this week and Iraola gets the casting vote", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Tue Jul 14 — the manager just made him hard to sell. Liverpool have rejected an improved €35m bid from Inter Milan, the third refused after £17.3m and £21.7m, and the reason is Iraola: he has told the club he wants Jones, and would keep him 'not only for this year.' Liverpool are now open to extending a deal with twelve months left, which is close to the reverse of the weekend's reporting that a £40m Forest move was agreed, a story Jones answered with a single raised eyebrow and nothing more. Inter are preparing a fourth bid with roughly €8m still between the clubs", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -169,7 +169,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "doubtful", outSince: "2026-02-12", injuryNote: "Mon Jul 13 — early through the door, still short of the grass: he arrived at the AXA ahead of schedule, the February foot injury and June's international retirement (73 caps) behind him, but the pre-season lists filed this morning still have him missing the opening day. A summer sale is expected to be negotiated. The early return reads as a point being made to a manager who has never picked him", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "doubtful", outSince: "2026-02-12", injuryNote: "Tue Jul 14 — in the building, not in the session. He reported to the AXA ahead of schedule and was still absent when the first group of Iraola's era trained this morning, the February foot injury not yet fully behind him and June's international retirement (73 caps, no World Cup) behind him for good. A sale is still expected to be negotiated. Coming back early to a manager who has never picked you is a form of argument, and it has not worked yet", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -190,7 +190,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 19, name: "Stefan Bajcetic", number: 43, position: "MID", nationality: "🇪🇸 Spain", age: 21, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "doubtful", outSince: "2025-08-01", injuryNote: "Mon Jul 13 — back in the building, not yet in the group: after reporting to Kirkby early, the pre-season lists filed this morning still place him among those expected to miss the opening day through injury, the recurring hamstring trouble that wiped out his entire 2025-26 not yet fully behind him. A make-or-break year that has not begun on the grass", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p535928.png",
+    id: 19, name: "Stefan Bajcetic", number: 43, position: "MID", nationality: "🇪🇸 Spain", age: 21, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "doubtful", outSince: "2025-08-01", injuryNote: "Tue Jul 14 — another pre-season watched from the side. He returned to Kirkby early and was again missing when the group trained this morning, the hamstring trouble that erased his entire 2025-26 still not cleanly resolved. He is 21, which sounds young until you count the seasons: this is the third in a row that has started with him working alone. Iraola has never seen him play a competitive match", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p535928.png",
     physical: { height: 185, weight: 75, pace: 68, acceleration: 66, sprintSpeed: 70 },
     career: [
       { years: "2017-2020", club: "Celta Vigo Academy", fee: null, type: "youth" },
@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 34, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Mon Jul 13 — Europe is out, and the choice is now an ocean wide. The clearest reporting of the summer has him narrowing his future to the Saudi Pro League or MLS, a European stay called increasingly unlikely: the Fenerbahce briefing of the weekend has not survived the week. A deal in principle is described as in place in Saudi Arabia with no club yet attached, the Jeddah pair Al-Ittihad and Al-Ahli favoured for the two-hour flight to Cairo and Neom's base at Tabuk nearer still, while Kansas City lead an MLS chase in which San Diego are pushing and Inter Miami, having signed Casemiro, look priced out. A free agent since July 1. An announcement is said to be imminent", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 34, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Tue Jul 14 — signed, and waiting on a press release. The reporting has hardened from a deal in principle to a deal agreed: a Saudi Pro League destination is settled, the announcement is all that remains, and Europe is gone for good. Al-Ittihad and Al-Ahli in Jeddah remain the likeliest names, with Neom an outsider; Sporting Kansas City and San Diego kept an MLS bid alive to the end and lost it. A free agent since June 30, having chosen to leave a year early. Ten goals and ten assists in his final season, and no statue yet", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -241,7 +241,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Mon Jul 13 — a cane, not crutches, and a date in mind. Photographed at Wimbledon this week walking with a decorative cane, close to unaided, the striker is rehabbing in the United States with physiotherapist Berengar Buschmann, juggling and passing without support. April's scan said nine to twelve months on the Achilles ruptured against PSG, which meant January 2027; he has told people he intends to play on Boxing Day, away at newly promoted Hull. Eight and a half months is the floor of medical expectation, and he has decided to stand on it. Misses the opening day of pre-season", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Tue Jul 14 — the club and the striker are no longer telling the same story. Ekitike has set his own sights on Boxing Day at Hull, and has been rehabbing in the United States without crutches, juggling and passing; Liverpool have now been warned his recovery from the Achilles ruptured against PSG in April could take 'longer than people expect,' and Iraola named him first among the three long-term absentees, a 'difficult situation' the squad has to be built around. He came back to the AXA this week for an assessment. April's scan said nine to twelve months. He is arguing with it", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -350,6 +350,8 @@ export const TEAM_LOGOS = {
   "Lille":            "https://img.uefa.com/imgml/TP/teams/logos/50x50/50064.png",
   "Monaco":           "https://img.uefa.com/imgml/TP/teams/logos/50x50/50023.png",
   "Osasuna":          "https://upload.wikimedia.org/wikipedia/en/d/db/Osasuna_logo.svg",
+  "Real Oviedo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Real_Oviedo_logo.svg/120px-Real_Oviedo_logo.svg.png",
+  "Al-Hilal": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Al_Hilal_SFC_logo.svg/120px-Al_Hilal_SFC_logo.svg.png",
   "Almeria":          "https://upload.wikimedia.org/wikipedia/en/e/e4/UD_Almeria_logo.svg",
   "Borussia Dortmund":"https://img.uefa.com/imgml/TP/teams/logos/50x50/52758.png",
   "Atalanta":         "https://img.uefa.com/imgml/TP/teams/logos/50x50/52816.png",
@@ -439,22 +441,22 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-07-13T09:00:00Z",
+  generatedAt: "2026-07-14T17:15:00Z",
   overview:
-    "The table below is now a historical document, and it will stay one until the middle of August. The 2025-26 season finished on May 24 with Arsenal champions on 85 points and Liverpool fifth on 60, a title defence that came apart in the winter and never found its feet again, though fifth was enough to hold the final Champions League place by five points from Bournemouth. ESPN's 2026-27 table has already reset to zero for all twenty clubs, Coventry, Hull and Ipswich replacing the relegated West Ham, Burnley and Wolves, so nothing meaningful can be read from it yet. What Liverpool carry into Andoni Iraola's first season is the arithmetic of the run-in they just endured: seventeen wins in thirty-eight, a goal difference of plus ten, and twelve defeats, the most by a defending champion in a decade. The league begins again at Newcastle on August 23.",
+    "Pre-season began at the AXA this morning, which makes the table below the last true thing anyone can say about Liverpool until August 23. It is a closed book: the 2025-26 season finished on May 24 with Arsenal champions on 85, their first title since 2004, and Liverpool fifth on 60, a title defence that lost its way in the winter and never got it back, though fifth held the final Champions League place by five points from an eighteen-times-drawing Bournemouth. ESPN's 2026-27 table has already reset every club to zero, with Coventry, Hull and Ipswich in for the relegated West Ham, Burnley and Wolves, so it reads nothing at all yet. The number Andoni Iraola actually inherits is not fifth: it is twelve defeats, the most by a defending champion in a decade, and a squad that begins his first session three long-term injuries short of itself. Liverpool open at Newcastle on August 23.",
   teams: {
-    "Liverpool": "Fifth, 60 points, and into the Champions League by five. The gap to Arsenal was twenty-five, which is the number Iraola inherits.",
-    "Arsenal": "Champions on 85 points, their first title since 2004, and the only side to take more than 80.",
-    "Manchester City": "Second on 78, then spent the summer selling Elliot Anderson's replacement money to Forest. Still the closest thing to a pace-setter.",
-    "Manchester United": "Third on 71 and back in the Champions League, a finish nobody forecast in August.",
-    "Aston Villa": "Fourth on 65, the side that beat Liverpool 4-2 at Villa Park in May and effectively settled the top-four order.",
-    "Bournemouth": "Sixth on 57 and five short of Liverpool, having drawn eighteen times, a Premier League oddity worth its own study.",
-    "Sunderland": "Seventh on 54 in their first season back, and Liverpool's opponents in Nashville on July 25.",
-    "Newcastle": "Twelfth on 49, which flatters nobody, and the opening fixture of Liverpool's league season on August 23.",
-    "Nott'm Forest": "Sixteenth on 44, and now the club spending £116m of Manchester City's money, some of it possibly on Curtis Jones.",
-    "West Ham": "Relegated on 39 points, the highest total to go down in six seasons.",
-    "Burnley": "Down on 22, having won four times all year.",
-    "Wolves": "Bottom on 20 with three wins, the worst campaign by any side in the competition since 2007-08.",
+    "Liverpool": "Fifth on 60, into the Champions League by five points. Twelve defeats and a plus-ten goal difference are what Iraola is actually being asked to fix.",
+    "Arsenal": "Champions on 85, the only side above 80, and now reported ahead of Liverpool in the race for Bradley Barcola.",
+    "Manchester City": "Second on 78, and the club whose £116m for Elliot Anderson is currently funding Nottingham Forest's summer.",
+    "Manchester United": "Third on 71, back in the Champions League, and now rivalling Liverpool for Wolves' Joao Gomes.",
+    "Aston Villa": "Fourth on 65, and the side that beat Liverpool 4-2 at Villa Park in May to settle the top-four order.",
+    "Bournemouth": "Sixth on 57 with eighteen draws, and the club Iraola left to take this job.",
+    "Sunderland": "Seventh on 54 in their first season back, and Liverpool's first pre-season opponent in Nashville on July 25.",
+    "Newcastle": "Twelfth on 49, and the opening fixture of Liverpool's league season on August 23.",
+    "Nott'm Forest": "Sixteenth on 44. Their reported agreement for Curtis Jones cooled sharply once Iraola said he wanted to keep him.",
+    "West Ham": "Relegated on 39, the highest total to go down in six seasons.",
+    "Burnley": "Down on 22, four wins all year.",
+    "Wolves": "Bottom on 20, and now selling Joao Gomes, their own player of the season, to whoever bids.",
   },
 };
 
@@ -462,140 +464,144 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "The Room At Eleven.",
-    byline: "Liverpool FC / This Is Anfield",
-    dateline: "AXA Training Centre · 13 July",
-    category: "Manager",
+    headline: "The Difficult Situation.",
+    byline: "Read Liverpool FC / This Is Anfield",
+    dateline: "AXA Training Centre · 14 July",
+    category: "Injuries",
     body:
-      "He has been the manager of Liverpool Football Club for five weeks and has not yet been asked a question about it. That ends at eleven o'clock this morning, when Andoni Iraola sits down in the media room at the AXA and begins the part of the job that cannot be delegated. The timing is a small cruelty: the summer break ends today, the first full session is tomorrow, and the building he is being introduced in has lost its chief executive of football and is losing its sporting director. They will ask him about the winger he has not signed, the centre-back he does not have, the captain's armband that now needs a deputy. He has been given a squad of fifteen and a microphone. The microphone came first.",
+      "Pre-season opened this morning, and the absences were louder than the arrivals. Andoni Iraola had already named them: Ekitike, Bradley, Leoni. An Achilles ruptured against PSG in April, a knee that gave way at Arsenal in January and which reporting now places somewhere in 2027, an ACL torn on a debut last September, on which he hinted at further delay. 'We have to accept there are difficult situations right now,' he said, a sentence with no self-pity in it and no plan either. He calls the three of them long-term solutions. A long-term solution is a player you cannot pick. Between them they are a striker, a right-back and a centre-back, which is to say a spine.",
   },
   {
     n: "02",
-    headline: "The Last Door Closes.",
-    byline: "TeamTalk / Football365",
-    dateline: "Cairo · 12 July",
-    category: "Farewells",
+    headline: "Two Words He Would Not Say.",
+    byline: "Liverpool.com / Sky Sports",
+    dateline: "AXA Training Centre · 13 July",
+    category: "Manager",
     body:
-      "For a week the story had a European ending available to it, and now it does not. Mohamed Salah, a free agent since the first of July, is reported to have ruled the continent out entirely: a deal in principle is in place in the Saudi Pro League, and the only argument left is with America. The Jeddah clubs make the sentimental case, Al-Ittihad and Al-Ahli both two hours from Cairo, with Neom nearer still. Kansas City lead in MLS, San Diego are pushing, Inter Miami spent their room on Casemiro. Nine years, and it comes down to flight times. An announcement, they say, is coming. He will be thirty-five before Liverpool play a league match without him that anybody notices.",
+      "Asked about his style, the new head coach said the phrase out loud, and in saying it disowned it. The low block. For a year and a half it had been the accusation levelled at Arne Slot's Liverpool, a team that dropped and dropped and could not find a way back up the pitch, and here was his replacement using the words as a thing to be avoided rather than defended. It was the first daylight between the two men, and it took him ninety seconds to find it. He also said he would not live in a bubble of training ground and home, that he wanted the city. They will hold him to the football first.",
   },
   {
     n: "03",
-    headline: "A Cane At Wimbledon.",
+    headline: "Thirty-Five Million, And Still No.",
     byline: "This Is Anfield / Liverpool.com",
-    dateline: "London · 11 July",
-    category: "Injuries",
+    dateline: "Kirkby · 14 July",
+    category: "Transfers",
     body:
-      "The photograph that cheered Liverpool this week was not taken at a football ground. Hugo Ekitike, whose Achilles tore against Paris Saint-Germain in April and who has spent the summer on crutches, was at Wimbledon holding a decorative cane instead, close to walking unaided. He has been in the United States with the physiotherapist Berengar Buschmann, juggling a ball, passing it back, doing the small unglamorous things that precede running. The surgeon who repaired him also repaired Jayson Tatum. April said nine to twelve months, which meant January. Ekitike has told people he intends to play on Boxing Day, away at Hull. Eight and a half months is the floor of what medicine expects. He has decided to stand on it.",
+      "Inter Milan came back a third time, with €35m, and Liverpool said no a third time. What is notable is not the number but the reason behind it. Iraola has told the club he wants Curtis Jones, and has said he would keep him not only for this year, and Liverpool are now willing to discuss a new contract for a player who has twelve months left and who, on Sunday, was being reported as an agreed Nottingham Forest signing. Jones answered that one himself, with a raised eyebrow and nothing else. Inter are readying a fourth bid. Eight million separates them. The manager's opinion may prove more expensive than the gap.",
   },
   {
     n: "04",
-    headline: "An Eyebrow, Raised.",
-    byline: "This Is Anfield / Liverpool.com",
-    dateline: "Kirkby · 12 July",
+    headline: "A Deal Broken By An Agent.",
+    byline: "Football365 / TeamTalk",
+    dateline: "Molineux · 14 July",
     category: "Transfers",
     body:
-      "The Italian papers had it agreed, forty million pounds, Nottingham Forest, done bar the medical. Curtis Jones read the post on Instagram and replied with a raised-eyebrow emoji, which in the modern game is a press release. The facts underneath survive the emoji: Liverpool have set the price, FSG are content to sell a midfielder with a year and a season left on his deal, and Forest have City's Anderson money burning a hole. But Jones does not fancy Forest, or anywhere in England. He fancied Inter, who bid twice in June, were refused twice, and went away. He reports to Kirkby this week, into a first session run by a manager who has never coached him, and the casting vote is now Basque.",
+      "Joao Gomes was going to Atletico Madrid. It was agreed. Then Jorge Mendes took Bernardo Silva to Real Madrid, and Atletico, who do not forgive that, cancelled the deal out of pure spite, leaving a 25-year-old Brazilian who had just been voted player of the season at a relegated club standing in an empty room. Globo Esporte report Liverpool and Manchester United have both since rung Wolves to ask what he costs. Around £34m, is the answer. There is a quote of his from 2022 doing the rounds, given to ESPN, in which he says Liverpool are a team he would play for. Football rarely arranges its ironies this neatly.",
   },
   {
     n: "05",
-    headline: "Three Of The Last Four.",
-    byline: "ESPN / Al Jazeera",
-    dateline: "Dallas · 13 July",
+    headline: "Dallas, And A Shirt Neither Will Wear.",
+    byline: "FIFA / ESPN",
+    dateline: "Dallas · 14 July",
     category: "Football News",
     body:
-      "France, Spain, England, Argentina, and Liverpool have a hand in three of them. In Dallas tomorrow afternoon Ibrahima Konate lines up against Victor Munoz, which is the whole summer in one duel: the centre-back who left Anfield for nothing against the winger whose release clause Liverpool paid to bring in. On Wednesday in Atlanta the holders meet England, and Alexis Mac Allister, who headed Messi's corner past Switzerland, will be the last man standing between an English final and an Argentine one. Iraola will watch all of it from a training ground where none of them are, taking his first sessions with fifteen players and a list of names he cannot yet call.",
+      "At three o'clock this afternoon in Dallas, France play Spain for a place in Sunday's final, and Liverpool have a man on each side of it. Ibrahima Konate, who left Anfield for nothing at the end of June and is Real Madrid's now, will line up against Victor Munoz, the winger Liverpool bought this summer by triggering a £34m clause at Osasuna and who has not yet worn the shirt. One is leaving, one is arriving, and they will spend ninety minutes trying to knock each other out of a World Cup. Whoever wins stays in America a week longer, and reports to Iraola a week later than he would like.",
   },
 ];
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-07-13T09:00:00Z",
+  generatedAt: "2026-07-14T17:15:00Z",
   summary:
-    "Monday July 13, and at eleven o'clock this morning the Iraola era stops being an abstraction. The new head coach takes his first press conference at the AXA Training Centre as the summer break formally ends, with roughly fifteen senior players reporting back and the first full session tomorrow. He does it into an emptied building: Michael Edwards resigned as FSG's chief executive of football at the weekend and will not be replaced, and Richard Hughes is expected at Al-Hilal once the window shuts, so the two men who designed this rebuild are gone before a ball has been kicked. Behind him, the summer's longest story is closing: Mohamed Salah, a free agent since July 1, is now reported to have ruled Europe out altogether, a deal in principle in place with the Saudi Pro League and only MLS still arguing, with Kansas City and San Diego the live American bids. Curtis Jones, meanwhile, answered Italian reports of an agreed Forest move with a single raised-eyebrow emoji, and reports to Kirkby this week regardless. Three Liverpool names remain at the World Cup: Konate and Munoz meet in Dallas tomorrow, Mac Allister faces England in Atlanta on Wednesday.",
+    "Tuesday July 14, and the Iraola era finally arrives on the grass. Pre-season opened at the AXA this morning, and the first thing the new head coach said about the squad he now owns was that it is short: Hugo Ekitike, Conor Bradley and Giovanni Leoni are all long-term absentees, a set of circumstances he called a 'difficult situation' at Monday's press conference, and one that leaves him without a first-choice striker, a natural right-back deputy and a centre-back all at once. He filled the gaps with academy names, Jayden Danns, Lewis Koumas, Kieran Morrison and Josh Abe among them, and told FSG plainly that fifteen players will not get a club through a season. The market answered in two directions on the same day: Liverpool rejected an improved €35m bid from Inter Milan for Curtis Jones, with Iraola saying he wants to keep him 'not only for this year,' and made contact with Wolves about Joao Gomes after Jorge Mendes blew up the Brazilian's agreed move to Atletico Madrid. Behind all of it, Mohamed Salah's deal is now reported signed and only the announcement is waiting, while France meet Spain in Dallas tonight with Ibrahima Konate on one side and Victor Munoz, Liverpool's own signing, on the other.",
   keyTopics: [
     {
-      title: "Eleven O'Clock: Iraola Faces The Room For The First Time (Liverpool FC / This Is Anfield, today)",
+      title: "'A Difficult Situation': Iraola Confirms Ekitike, Bradley And Leoni Are All Long-Term (Read Liverpool / This Is Anfield, today)",
       detail:
-        "Confirmed by the club for 11am BST this morning at the AXA Training Centre, and the first time the new head coach has answered a question in public since his appointment was confirmed in early June, after Arne Slot was dismissed at the end of a failed title defence. The agenda is not a gentle one: the shape of the transfer window, his reading of a squad he has not yet coached, the vacant vice-captaincy, and the remaining additions to his backroom staff. Pre-season begins around him as he speaks, the summer break having formally ended today.",
+        "The most consequential thing said in his first press conference, and it lands properly today as pre-season opens without any of the three. Asked about expectations, Iraola replied: 'I think we have to accept there are difficult situations right now in terms of both sides, a lot of senior players leaving, players who have achieved everything here and also some important players injured.' He named them: Ekitike, Bradley, Leoni. The Achilles ruptured against PSG in April; the knee that gave way at Arsenal in January, which reporting now suggests may keep Bradley out well into 2027; the ACL torn on a Liverpool debut last September, on which Iraola hinted at a further delay. He calls all three 'long-term solutions,' which is a manager's way of saying the market has to cover for them first.",
+      category: "injuries",
+    },
+    {
+      title: "Day One On The Grass: The Academy Fills The Gaps Iraola Cannot Sign His Way Out Of (This Is Anfield / Anfield Index, today)",
+      detail:
+        "Pre-season opened at the AXA this morning, roughly fifteen seniors reporting in, and the first session of the new era was padded out with the Kirkby intake: Jayden Danns, Lewis Koumas, Kieran Morrison, Josh Abe, Mor Talla Ndiaye and Will Wright all drafted in. Iraola has said the opening weeks will be 'basically with a lot of players from the academy,' which is presented as opportunity and reads as necessity. Alisson is still on a post-World Cup break, leaving Mamardashvili, Woodman and Armin Pecsi in goal, and Vitezslav Jaros remains out with a serious knee injury. The squad flies to the United States in eleven days.",
       category: "general",
     },
     {
-      title: "Fifteen Back, Five Missing: The Squad Iraola Actually Gets On Day One (This Is Anfield / Anfield Index, today)",
+      title: "Thirty-Five Million, And Still No: Liverpool Reject Inter's Third Bid For Curtis Jones (This Is Anfield / Liverpool.com, today)",
       detail:
-        "Reported this morning ahead of tomorrow's first session: roughly fifteen first-team players are expected on the grass. Mamardashvili, Woodman and Pecsi in goal; Jacquet, Gomez, Kerkez, Frimpong and a returning Kostas Tsimikas in defence; Szoboszlai, Curtis Jones, Trey Nyoni, James McConnell and Harvey Elliott, back from his Aston Villa loan, in midfield; Chiesa and Rio Ngumoha the only senior attackers. Conor Bradley, Giovanni Leoni, Wataru Endo, Stefan Bajcetic and Hugo Ekitike are all expected to miss the opening day injured. The World Cup contingent, Van Dijk, Gravenberch, Gakpo, Wirtz and Isak among them, will not appear until the American tour.",
-      category: "general",
-    },
-    {
-      title: "Salah Closes The Door On Europe: A Saudi Deal In Principle, And MLS Still Arguing (TeamTalk / Football365, today)",
-      detail:
-        "The clearest reporting yet, and it reverses the weekend's briefing that a European return had reopened. Salah, who terminated his contract a year early and left Anfield as a free agent on July 1, has now narrowed the choice to the Saudi Pro League or MLS, with a European stay described as increasingly unlikely. A deal in principle is said to be in place in Saudi Arabia, though not with a named club: the Jeddah pair, Al-Ittihad and Al-Ahli, appeal for the two-hour flight to Cairo, with Neom's base at Tabuk closer still. Across the Atlantic, Kansas City have emerged as the leading MLS suitor and San Diego are pushing; Inter Miami, having signed Casemiro, look priced out. An announcement is reported to be coming.",
+        "A clean reversal of the weekend's Forest story, and the player never had to say a word. Liverpool have turned down an improved €35m approach from Inter Milan, the third rejected offer after bids of £17.3m and £21.7m, holding at a valuation upwards of €40m. The reason given is not money: Iraola has told the club he wants Jones to stay, and has said so of a player he would keep 'not only for this year.' Liverpool are now reported to be open to extending a contract with twelve months left, which is close to the opposite of where this story stood on Monday morning. Inter are said to be readying a fourth bid, with roughly €8m separating the two clubs.",
       category: "transfers",
     },
     {
-      title: "An Eyebrow, Raised: Jones Answers The 'Agreed' Forest Deal Himself (This Is Anfield / Liverpool.com, today)",
+      title: "The Two Words Iraola Used That Slot Never Could (Liverpool.com / Sky Sports, today)",
       detail:
-        "Hold the Forest story loosely. Reacting on Instagram to a post claiming his move was agreed, Curtis Jones replied with a single raised-eyebrow emoji, which is as close to a denial as a player gets in July. The underlying facts are unchanged: Liverpool have told Forest the price is £40m, FSG are willing to sell a midfielder whose deal expires in 2027, and Forest are £116m richer for Elliot Anderson. But Jones is reported to have no appetite for another English club, having preferred Inter, who had two bids rejected in June before withdrawing. He reports back to Kirkby this week and Iraola gets the casting vote.",
+        "Reported out of Monday's press conference and chewed over all day since: pressed on his style, the new head coach reached for the two words Anfield had grown weary of hearing as an accusation, the low block, and made clear his Liverpool will not be sitting in one. It is the first real tactical daylight between him and his predecessor, whose final season was defined by a team that dropped deep and could not get out. Iraola signed a two-year deal in June, days after the club's decision to part with Arne Slot, and he arrives with a Bournemouth side's high-press reputation intact.",
+      category: "tactics",
+    },
+    {
+      title: "The Agent Who Broke A Deal: Liverpool Make Contact For Wolves' Joao Gomes (Football365 / TeamTalk, today)",
+      detail:
+        "A new midfield name, and a strange route to it. Joao Gomes, 25, relegated with Wolves and voted their player of the season, had an agreed move to Atletico Madrid until Jorge Mendes took Bernardo Silva to Real Madrid instead; Atletico, unamused, cancelled. Globo Esporte report that Liverpool and Manchester United have both since contacted Wolves about the cost and structure of a deal, with the Brazilian rated around £34m to £38m. Liverpool have a small piece of history here: in 2022 Gomes told ESPN that 'Liverpool are a team I'd play for.' No bid has been lodged.",
       category: "transfers",
     },
     {
-      title: "Konate Meets Munoz In Dallas Tomorrow, Mac Allister Meets England On Wednesday (ESPN / Al Jazeera, today)",
+      title: "Konate Meets Munoz In Dallas Tonight (FIFA / ESPN, today)",
       detail:
-        "The last four are set and Liverpool have a stake in three of them. France play Spain in Dallas on Tuesday at 3pm Eastern, which puts Ibrahima Konate, now Real Madrid's on a free, opposite Victor Munoz, whose £34m release clause Liverpool triggered at Osasuna this summer: a departing centre-back against an arriving winger. On Wednesday in Atlanta, Alexis Mac Allister's Argentina, the holders, face England. Whoever survives keeps a Liverpool player away from Iraola's grass for another week.",
+        "Kick-off is 3pm Eastern at Dallas Stadium, and it is the strangest fixture of Liverpool's summer: Ibrahima Konate, who left Anfield for nothing and is now Real Madrid's, lines up for France against a Spain side containing Victor Munoz, the winger Liverpool bought this summer by triggering his £34m release clause at Osasuna. A departing centre-back against an arriving one, in the same shirt colours neither will wear again. The winner takes the final in New Jersey on Sunday, and keeps a Liverpool name away from Iraola's grass another week.",
       category: "matches",
     },
     {
-      title: "The £21m Option: Liverpool Enter For Almeria's Sergio Arribas (TeamTalk / Football365, today)",
+      title: "'Impossible With Fifteen': Iraola Tells FSG The Squad Is Not Finished (Sky Sports / Sports Mole, 1d ago)",
       detail:
-        "A new and notably cheap name on the attacking board. Liverpool are reported to want Sergio Arribas, the 24-year-old Real Madrid academy graduate who scored 26 goals with seven assists in 47 games for Almeria in the Spanish second tier last season. The asking price is around €25m (£21.4m), of which Real Madrid would take roughly £11m, retaining 50 per cent of his economic rights. Sporting Lisbon have already had €20m rejected and Benfica are interested. No formal Liverpool offer has been made, so treat it as early.",
-      category: "transfers",
-    },
-    {
-      title: "Frimpong Is Back On Day One, And He Is The Only Natural Right Back In The Building (Liverpool.com / This Is Anfield, today)",
-      detail:
-        "A quiet correction to last week's audits, which had listed him as an absentee: Jeremie Frimpong appears among the defenders reporting for the first session. He inherits the right-back slot by elimination rather than by form. Conor Bradley's knee rehab, twenty-four matches old, is still confined to the gym with no return date offered, and Curtis Jones, the emergency cover there last season, may yet be sold. Frimpong's own debut year was interrupted repeatedly by muscle trouble. An uninterrupted run is the whole ask.",
-      category: "injuries",
-    },
-    {
-      title: "The Vice-Captaincy Is Vacant, And Iraola Has To Fill It Today (Rousing The Kop / Liverpool.com, today)",
-      detail:
-        "A small item that tells you how much has left. With Salah gone as a free agent, Konate gone to Madrid and Andy Robertson gone to Tottenham, the leadership group behind Van Dijk has been stripped in a single window, and the naming of a new vice-captain is on the agenda for this morning's press conference. Szoboszlai and Gravenberch are the obvious candidates on minutes; Alisson, who turned down Juventus to stay, is the obvious one on seniority.",
+        "The clearest public message a Liverpool head coach has sent his owners in some time, delivered at Monday's press conference and reported everywhere since. 'Obviously, we have signed two players already but we need more players. We know this. The club is working on this,' he said, before adding the line that did the damage: 'It is impossible to deal with this kind of season with 15 players. You need the squad.' The two signings are Victor Munoz and Jeremy Jacquet. No winger has been bought to replace Salah, and no centre-back to replace Konate.",
       category: "general",
     },
     {
-      title: "Ekitike Aims At Boxing Day, And Walks Wimbledon With A Cane (This Is Anfield / Liverpool.com, 1d ago)",
+      title: "Salah's Deal Is Signed, And Only The Announcement Is Waiting (Anfield Watch / TeamTalk, 1d ago)",
       detail:
-        "The best injury news of the week, and the most human. Hugo Ekitike, whose Achilles ruptured against PSG in April and whose surgery was performed by the specialist who repaired Jayson Tatum's, has set his sights on Boxing Day, December 26, away at newly promoted Hull. April's projection was nine to twelve months, which would have meant January 2027 at the earliest; eight and a half would be the floor of medical expectation. He has been rehabbing in the United States with physiotherapist Berengar Buschmann, juggling and passing without crutches, and was photographed at Wimbledon this week walking with a decorative cane instead of them.",
-      category: "injuries",
-    },
-    {
-      title: "Jacquet Promises '100 Per Cent': The £60m Centre-Back Rejoins Group Training (This Is Anfield, 1d ago)",
-      detail:
-        "The February shoulder dislocation is healed and the surgeon has cleared him, so Jeremy Jacquet, signed from Rennes for £60m and registered on July 1, joined a session at the AXA alongside Harvey Elliott last week and says he will be '100 per cent fit' for the season. It matters more than a fitness note usually would: with Konate gone to Madrid for nothing and no replacement signed, the 20-year-old is currently the only senior centre-back available to Iraola until Van Dijk returns from the United States.",
-      category: "injuries",
-    },
-    {
-      title: "Barcola: Arsenal Move To The Front, And PSG Want £128m (Football365 / Fabrizio Romano, 1d ago)",
-      detail:
-        "The winger endgame turns awkward. PSG have agreed personal terms with Monaco's Maghnes Akliouche, which was supposed to be the move that unlocked Bradley Barcola's exit, and Romano maintains the Frenchman is 'not untouchable' and that his camp is exploring a move. But Arsenal are now reported to be top of the race, and PSG's valuation has settled near a British-record £128m. There is a caveat worth holding: the Daily Mail believe Arsenal actually want Morgan Rogers. Liverpool still have no winger signed and, as of the weekend, no chief executive of football to sign one.",
+        "The reporting has hardened since the weekend: a deal is now described as agreed and signed, with a Saudi Pro League destination and only the club and the unveiling left to confirm. Al-Ittihad and Al-Ahli in Jeddah remain the likeliest names, Neom a live outsider, and while Sporting Kansas City and San Diego kept an MLS bid alive, Europe is gone. Salah has been a free agent since his contract lapsed on June 30, having chosen to leave a year early after a season of ten goals and ten assists. Egypt's World Cup exit removed the last reason to wait.",
       category: "transfers",
     },
     {
-      title: "Endo Reports Early, His World Cup Missed And His Future Unresolved (This Is Anfield, 2d ago)",
+      title: "The £10.2m Egyptian: Liverpool Accelerate For Real Oviedo's Hassan (TeamTalk / eyefootball, 1d ago)",
       detail:
-        "Wataru Endo arrived at the AXA ahead of schedule, the 33-year-old having missed Japan's World Cup through the foot injury sustained in February and retired from international football in June on 73 caps. He is still expected to miss the opening day of full training, and a summer sale is still expected to be negotiated. The early return reads as a man making a point to a manager who has never picked him.",
-      category: "general",
+        "A cheap and unglamorous answer to an expensive problem. With Bradley Barcola priced at a British-record £128m by PSG and Arsenal now reported ahead in that race, Liverpool are said to have accelerated their pursuit of the Egypt winger Hassan at Real Oviedo, a deal valued around £10.2m and described as one the club are now confident of completing. It is not a Salah replacement in any meaningful sense, and nobody is pretending it is; it is squad width, bought at a price a club with no chief executive of football can sign off.",
+      category: "transfers",
+    },
+    {
+      title: "Gilberto Mora, And The £20m Clause Hiding In A World Cup (TeamTalk / GiveMeSport, 2d ago)",
+      detail:
+        "The tournament's breakout teenager remains on the board. Gilberto Mora, the Tijuana forward who has spent this World Cup announcing himself, is reported to be available for around £20m via a release clause, a figure that looks increasingly like an error in someone's favour. Liverpool are one of several clubs monitoring. The counter-argument is the obvious one: a squad with three long-term injuries and no senior winger does not obviously need another teenager, and Iraola has just told the club he needs bodies who can play now.",
+      category: "transfers",
+    },
+    {
+      title: "Mac Allister Carries The Holders Into Atlanta Tomorrow (ESPN / Al Jazeera, 2d ago)",
+      detail:
+        "The other semi-final, and the last Red still playing. Alexis Mac Allister's Argentina, the defending champions, meet England in Atlanta on Wednesday, the midfielder having headed Messi's corner past Switzerland to get them there. He will not report to Iraola until the American tour at the earliest, and possibly not until after it: a strange way to begin a relationship with a manager who has never coached him, and who has a midfield to rebuild around whatever is left when the summer ends.",
+      category: "matches",
+    },
+    {
+      title: "Arribas Stays On The Board At £21m As The Winger Search Drags (Football365 / This Is Anfield, 2d ago)",
+      detail:
+        "Still live, still unbid-on. Sergio Arribas, the 24-year-old Real Madrid academy graduate who scored 26 with seven assists for Almeria in the Spanish second tier, remains a Liverpool interest at around €25m, roughly £21.4m, of which Madrid would take half through a 50 per cent sell-on. Sporting Lisbon have had €20m rejected and Benfica are circling. He is the cheap end of a board whose expensive end, Barcola, has now effectively priced itself out.",
+      category: "transfers",
     },
   ],
   sources: [
-    "Liverpool FC",
+    "Read Liverpool",
     "This Is Anfield",
-    "ESPN",
+    "Liverpool.com",
+    "Sky Sports",
     "TeamTalk",
     "Football365",
-    "Liverpool.com",
-    "Fabrizio Romano",
+    "Anfield Watch",
     "Anfield Index",
-    "Rousing The Kop",
+    "GiveMeSport",
+    "Sports Mole",
+    "eyefootball",
+    "ESPN",
+    "FIFA",
     "Al Jazeera",
   ],
 };
@@ -605,10 +611,83 @@ export const NEWS_DIGEST = {
 // heatTier: "hot" (≥65%) | "warm" (40-64%) | "cool" (<40%) | "done" | "dead"
 // sources[].tier: "S" (Romano-class) | "A" (major outlet) | "B" (beat) | "C" (aggregator)
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-07-13T09:00:00Z",
+  generatedAt: "2026-07-14T17:15:00Z",
   summary:
-    "Monday's ledger opens with the man who now has to defend it in public. Andoni Iraola takes his first Liverpool press conference at eleven this morning, and he does so with no chief executive of football above him, a sporting director bound for Riyadh, and not a single attacking signing made. The board has moved underneath him anyway. Mohamed Salah has closed the European option for good: a deal in principle is in place in the Saudi Pro League, MLS is the only rival bid left standing, and Kansas City and San Diego are the American names. Curtis Jones replied to Italian reports of an agreed £40m Forest move with a raised-eyebrow emoji, so treat that one as contested rather than closed; he wanted Inter, who were rejected twice in June. Bradley Barcola drifts further out of reach, PSG holding near a British-record £128m and Arsenal now reported top of the race, though the Daily Mail suspect the Gunners really want Morgan Rogers. A cheaper name arrives on the board in his place: Almeria's Sergio Arribas, 26 goals in the Spanish second tier, available at about £21m, half of which Real Madrid would take.",
+    "Tuesday's ledger turns on a rejection. Liverpool have knocked back an improved €35m bid from Inter Milan for Curtis Jones, the third offer they have refused, and the reason is not the fee: Andoni Iraola has told the club he wants to keep a midfielder he would hold on to 'not only for this year,' and Liverpool are now open to extending a contract that has twelve months left. That is very nearly the opposite of where this ledger stood on Monday, when an agreed Forest move was being reported as done. The board moved forward elsewhere on the same day: contact made with Wolves over Joao Gomes, whose agreed switch to Atletico Madrid collapsed when Jorge Mendes took Bernardo Silva to Real Madrid instead, and an accelerating, oddly cheap pursuit of the Egypt winger Hassan at Real Oviedo, valued near £10.2m. Bradley Barcola drifts further away, PSG holding at a British-record £128m with Arsenal in front. Mohamed Salah's own deal is now described as signed, a Saudi destination settled, the announcement all that is left.",
   incoming: [
+    {
+      id: "joaogomes-2026",
+      name: "Joao Gomes",
+      age: 25,
+      position: "MID",
+      role: "Ball-winning central midfielder",
+      nationality: "🇧🇷 Brazil",
+      foot: "Right",
+      image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p475557.png",
+      currentClub: "Wolves",
+      currentLeague: "Championship",
+      feeMin: 34, feeMax: 38, feeCurrency: "£m",
+      marketValue: 36,
+      wageBand: "B",
+      contractExpiry: "2029-06-30",
+      releaseClause: null,
+      contractNote: "Relegated with Wolves and expected to leave. An agreed move to Atletico Madrid collapsed when Jorge Mendes took Bernardo Silva to Real Madrid and Atletico cancelled the deal in response; Wolves are now open to selling to the highest bidder.",
+      probability: 33,
+      heatTier: "cool",
+      sources: [
+        { name: "Globo Esporte", tier: "B" },
+        { name: "Football365",   tier: "B" },
+        { name: "TeamTalk",      tier: "B" },
+        { name: "GiveMeSport",   tier: "B" },
+      ],
+      lastUpdated: "2026-07-14",
+      rumorNote:
+        "Molineux · 14 Jul — a deal broken by an agent, and Liverpool are one of the clubs picking through it. Joao Gomes had an agreed switch to Atletico Madrid until Jorge Mendes moved Bernardo Silva to Real Madrid; Atletico, insulted, tore the agreement up. Globo Esporte report that Liverpool and Manchester United have both since contacted Wolves to ask about cost and structure. He is 25, was voted Wolves' player of the season in a relegated side, and made 35 league starts on a sinking ship. There is a line in the file that will get quoted all week: in 2022 he told ESPN that 'Liverpool are a team I'd play for.' No bid has gone in, and Iraola's stated need is width, not another six.",
+      positionFit: {
+        replaces: "Endo (expected sale)",
+        competesWith: "Gravenberch, Mac Allister, Jones",
+        depthAfter: "Adds the aggressive ball-winner the midfield has lacked since Fabinho",
+      },
+      stats: {
+        appearances: 35, goals: 3, assists: 2, tacklesPer90: 3.4,
+      },
+    },
+    {
+      id: "hassan-2026",
+      name: "Hassan",
+      age: 23,
+      position: "FWD",
+      role: "Winger (right)",
+      nationality: "🇪🇬 Egypt",
+      foot: "Left",
+      image: "https://img.a.transfermarkt.technology/portrait/big/default.jpg",
+      currentClub: "Real Oviedo",
+      currentLeague: "LaLiga",
+      feeMin: 9, feeMax: 11, feeCurrency: "£m",
+      marketValue: 10,
+      wageBand: "D",
+      contractExpiry: "2029-06-30",
+      releaseClause: null,
+      contractNote: "A low-cost deal Real Oviedo are reported willing to do at around £10.2m; Liverpool are said to have accelerated and to be confident of completing.",
+      probability: 58,
+      heatTier: "warm",
+      sources: [
+        { name: "TeamTalk",    tier: "B" },
+        { name: "eyefootball", tier: "C" },
+        { name: "GiveMeSport", tier: "B" },
+      ],
+      lastUpdated: "2026-07-14",
+      rumorNote:
+        "Oviedo · 14 Jul — the answer to a £128m problem, bought for the price of a squad player. With Barcola priced out and Arsenal in front of that queue, Liverpool have accelerated for the Egypt winger Hassan and are now reported confident of getting it done at around £10.2m. Nobody is calling it a Salah replacement, least of all the club, and there is an obvious and slightly uncomfortable symmetry in replacing the greatest Egyptian in the club's history with a cheaper one. What it actually is: width, at a price a club with no chief executive of football can sign off without a board meeting.",
+      positionFit: {
+        replaces: "Salah (departed, free agent)",
+        competesWith: "Ngumoha, Chiesa, Munoz",
+        depthAfter: "Squad width on the right rather than a first-choice starter",
+      },
+      stats: {
+        appearances: 33, goals: 8, assists: 6, xG: 6.9,
+      },
+    },
     {
       id: "arribas-2026",
       name: "Sergio Arribas",
@@ -890,16 +969,16 @@ export const TRANSFER_TARGETS = {
       contractExpiry: "2028-06-30",
       releaseClause: null,
       contractNote: "Contract talks with PSG have stalled and the player has told Paris he wants a bigger role elsewhere; the club's condition is the fee, and the reported minimum has now come down from €150m to €135m (£116m) after they sealed personal terms with Monaco's Maghnes Akliouche. He is represented by Gestifute, the Mendes agency Liverpool have long dealt with.",
-      probability: 22,
+      probability: 12,
       heatTier: "cool",
       sources: [
         { name: "Fabrizio Romano",  tier: "S" },
         { name: "This Is Anfield",  tier: "A" },
         { name: "TeamTalk",         tier: "B" },
       ],
-      lastUpdated: "2026-07-12",
+      lastUpdated: "2026-07-14",
       rumorNote:
-        "Paris · 13 Jul — the move that was supposed to open, closing. PSG have agreed personal terms with Monaco's Maghnes Akliouche, the second arrival that was meant to license Barcola's exit, and Fabrizio Romano maintains the winger is 'not untouchable' with his camp exploring a move. Everything else has gone the wrong way. Paris have settled on a British-record valuation near £128m, and Arsenal are now reported top of the race, though the Daily Mail believe the Gunners are really chasing Morgan Rogers, which is the one thread Liverpool can still pull. Yan Diomande, the alternative, chose PSG over Anfield. No winger signed, and no chief executive of football left to sign one."
+        "Paris · 14 Jul — effectively priced out, and Liverpool have started shopping downstairs. The valuation has settled at a British-record £128m and Arsenal are reported ahead in the race; Liverpool, with no chief executive of football and a head coach who spent Monday asking publicly for bodies, are not the club that pays it. The tell is in what has happened around this entry in the last day: an accelerated move for a £10.2m winger at Real Oviedo, a £21m name at Almeria still on the board. Those are not the alternatives a club lines up when it expects to sign a £128m one. The single loose thread is the Daily Mail's reading that Arsenal actually want Morgan Rogers. It is a thin thread."
     },
     {
       id: "neto-2026",
@@ -1737,12 +1816,12 @@ export const TRANSFER_TARGETS = {
       id: "jones-out",
       name: "Curtis Jones",
       position: "MID",
-      destination: "Nottingham Forest (agreement reported) / Inter",
+      destination: "Inter (3 bids rejected) / Nottingham Forest (cooling)",
       feeAsk: { min: 35, max: 40, currency: "£m" },
-      probability: 55,
-      heatTier: "warm",
-      sources: [{ name: "TeamTalk", tier: "B" }, { name: "Football365", tier: "B" }, { name: "This Is Anfield", tier: "A" }, { name: "Gazzetta dello Sport", tier: "B" }],
-      note: "Mon 13 Jul — the player answers the story himself. Reacting on Instagram to a post declaring his Forest move agreed, Jones replied with a single raised-eyebrow emoji, which is the closest thing to a denial July allows. The structure underneath is real: Liverpool have named £40m, FSG are willing to sell with two years left, and Forest are flush with the £116m Manchester City paid for Elliot Anderson. But Jones is reported to have no appetite for another English club, having preferred Inter, who bid twice in June, were refused twice, and withdrew. He reports to Kirkby this week, where a manager who has never coached him gets the casting vote. Contested, not closed."
+      probability: 30,
+      heatTier: "cool",
+      sources: [{ name: "This Is Anfield", tier: "A" }, { name: "Liverpool.com", tier: "B" }, { name: "TeamTalk", tier: "B" }, { name: "Roundtable", tier: "C" }],
+      note: "Tue 14 Jul — the manager has spoken, and the exit has cooled with him. Liverpool have rejected an improved €35m offer from Inter Milan, the third they have refused after £17.3m and £21.7m, and the reporting is unanimous on why: Iraola wants Jones in his squad, has said he would keep him 'not only for this year,' and the club are now willing to open talks on a new contract rather than cash in on the final twelve months of the old one. The Forest story, briefed as agreed at the weekend and answered by the player with a raised eyebrow, has quietly gone away. Inter are said to be preparing a fourth bid with roughly €8m still between the clubs. For the first time this summer the likeliest outcome is that he stays.",
     },
     {
       id: "gakpo-out",
@@ -1775,7 +1854,7 @@ export const TRANSFER_TARGETS = {
       probability: 100,
       heatTier: "done",
       sources: [{ name: "Liverpool.com", tier: "B" }, { name: "SportBible", tier: "C" }, { name: "This Is Anfield", tier: "A" }],
-      note: "Mon 13 Jul — Europe is out, and only the ocean is still arguing. The clearest reporting of the summer has Salah, a free agent since July 1, narrowing his future to the Saudi Pro League or MLS, with a European stay now called increasingly unlikely: the weekend's Fenerbahce briefing has not survived the week. A deal in principle is described as in place in Saudi Arabia without a club attached, the Jeddah pair Al-Ittihad and Al-Ahli favoured for the two-hour flight to Cairo, Neom's base at Tabuk nearer still. In America, Kansas City have emerged as the leading suitor with San Diego pushing, while Inter Miami, having spent on Casemiro, look priced out. An announcement is reported to be imminent."
+      note: "Tue 14 Jul — signed, and waiting on a press release. The reporting has hardened from a deal in principle to a deal agreed: the destination is the Saudi Pro League, the announcement is the only thing outstanding, and Europe is gone for good. Al-Ittihad and Al-Ahli in Jeddah remain the likeliest names, with Neom an outsider; Sporting Kansas City and San Diego kept an MLS bid alive to the last and lost it, and Inter Miami, having spent on Casemiro, were priced out weeks ago. A free agent since June 30, having chosen to leave a year early after ten goals and ten assists in a final season nobody enjoyed. Only the club name is missing now."
     },
     {
       id: "gomez-out",
