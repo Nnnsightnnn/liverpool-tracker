@@ -143,7 +143,7 @@ export const PLAYER_EVIDENCE = {
   13: "Argentina v England · Atlanta tomorrow", // Mac Allister
   14: "WC exit · back for the US tour",         // Gravenberch
   15: "No Hungary WC · trained day one",        // Szoboszlai
-  16: "Inter's £30m refused · Iraola wants him",// Jones
+  16: "Inter's €35m refused · Iraola wants him",// Jones
   17: "Back early · still missed day one",      // Endo
   18: "Germany out · back for the tour",        // Wirtz
   19: "Hamstring · missed day one again",       // Bajcetic
@@ -180,7 +180,7 @@ export const SLOT_CONFIDENCE = {
   LB:  "Low",    // Robertson gone free to Spurs · Kerkez inherits, back day one
   LCB: "Medium", // Van Dijk · 35 · Milan interest knocked back · not back until the US tour
   RCB: "Low",    // Konate gone free to Madrid · Jacquet the only senior CB available · Inacio heads the list
-  RB:  "Low",    // Frimpong the only natural RB left · Bradley's knee still indoors · Jones may be sold
+  RB:  "Low",    // Frimpong the only recognised RB · Bradley's knee reported into 2027 · Jones now staying, Inter's third bid refused
   LDM: "High",   // Gravenberch · the season's most reliable midfielder
   RDM: "Medium", // Szoboszlai · mainstay, extension still pending · in day one
   LAM: "Medium", // Wirtz · injury-hit debut season · back for the tour
@@ -192,10 +192,10 @@ export const SLOT_CONFIDENCE = {
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
 // Explains the season-closing pick for each slot of the 4-2-3-1. The 2025-26
 // season is complete; these read as a retrospective on the first-choice XI
-// rather than a prediction for a coming fixture. (RAM and RB refreshed Mon Jul
-// 13; LCB Fri Jul 10; CAM Wed Jun 17; RCB Tue Jun 9; rest Tue Jun 2.)
+// rather than a prediction for a coming fixture. (GK, RB and RAM refreshed Tue
+// Jul 14; LCB Fri Jul 10; CAM Wed Jun 17; RCB Tue Jun 9; rest Tue Jun 2.)
 export const SLOT_RATIONALE = {
-  GK:  "Tue Jun 2 — Alisson is now widely expected to remain. Juventus had agreed personal terms near €5m a year, but the Italians missing out on Champions League football drained the move of momentum, and the Brazilian was never the one pushing it. Mamardashvili waits, likeliest to go out on loan.",
+  GK:  "Tue Jul 14 — the No. 1 was not on the grass, and it did not matter. Alisson missed the opening session of pre-season on a post-World Cup break after Brazil's campaign, leaving Giorgi Mamardashvili to lead a goalkeeping group of Freddie Woodman and the young Hungarian Armin Pecsi, with Vitezslav Jaros still out after serious knee surgery. Nothing underneath has moved: Alisson's extension is triggered, Juventus were turned down, and he returns as the unarguable starter. The knock-on is Mamardashvili's, and it has hardened rather than softened: a year of understudy minutes has him weighing his future, while Liverpool plan to reject offers and would prefer a loan that protects the asset.",
   LB:  "Tue Jun 2 — with Andy Robertson's free transfer to De Zerbi's Tottenham now done, the Liverpool left-back slot is unambiguously Milos Kerkez's after a tough first season at £45m. Nine years of cover at the position have walked out the door in a single window.",
   LCB: "Fri Jul 10 — a fresh voice for the defence: John Barnes has urged Liverpool to extend Van Dijk beyond his 2027 deal even at 35, as the AC Milan interest driven by Ibrahimović, Fenerbahce lurking, keeps being knocked back at Anfield, no bid received and none expected to move him. The captain is central to Iraola's plans and the slot a thinning back line is being rebuilt around, Jacquet, cleared by his surgeon to rejoin group training, the in-house cover behind him.",
   RCB: "Tue Jun 9 — the succession finally has names: with Konaté's free move to Madrid sealed (the extension collapsed over wage and agent-fee demands, not football), Hughes and Iraola have drawn up a four-man shortlist, Sporting's left-footed Gonçalo Inácio (~£52m clause) the marquee fit, with Tottenham's Vuskovic, Forest's Murillo and Napoli's Beukema alongside and Club Brugge's Ordóñez (~£40m) the standing bid. Jacquet is the in-house cover until one lands.",

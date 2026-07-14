@@ -443,9 +443,9 @@ export const STANDINGS_COMMENTARY = {
   matchweek: 38,
   generatedAt: "2026-07-14T17:15:00Z",
   overview:
-    "Pre-season began at the AXA this morning, which makes the table below the last true thing anyone can say about Liverpool until August 23. It is a closed book: the 2025-26 season finished on May 24 with Arsenal champions on 85, their first title since 2004, and Liverpool fifth on 60, a title defence that lost its way in the winter and never got it back, though fifth held the final Champions League place by five points from an eighteen-times-drawing Bournemouth. ESPN's 2026-27 table has already reset every club to zero, with Coventry, Hull and Ipswich in for the relegated West Ham, Burnley and Wolves, so it reads nothing at all yet. The number Andoni Iraola actually inherits is not fifth: it is twelve defeats, the most by a defending champion in a decade, and a squad that begins his first session three long-term injuries short of itself. Liverpool open at Newcastle on August 23.",
+    "Pre-season began at the AXA this morning, which makes the table below the last true thing anyone can say about Liverpool until August 23. It is a closed book: the 2025-26 season finished on May 24 with Arsenal champions on 85, their first title since 2004, and Liverpool fifth on 60, a title defence that lost its way in the winter and never got it back, though fifth held the final Champions League place by three points from an eighteen-times-drawing Bournemouth. ESPN's 2026-27 table has already reset every club to zero, with Coventry, Hull and Ipswich in for the relegated West Ham, Burnley and Wolves, so it reads nothing at all yet. The number Andoni Iraola actually inherits is not fifth: it is twelve defeats, the most by a defending champion in a decade, and a squad that begins his first session three long-term injuries short of itself. Liverpool open at Newcastle on August 23.",
   teams: {
-    "Liverpool": "Fifth on 60, into the Champions League by five points. Twelve defeats and a plus-ten goal difference are what Iraola is actually being asked to fix.",
+    "Liverpool": "Fifth on 60, into the Champions League by three points. Twelve defeats and a plus-ten goal difference are what Iraola is actually being asked to fix.",
     "Arsenal": "Champions on 85, the only side above 80, and now reported ahead of Liverpool in the race for Bradley Barcola.",
     "Manchester City": "Second on 78, and the club whose £116m for Elliot Anderson is currently funding Nottingham Forest's summer.",
     "Manchester United": "Third on 71, back in the Champions League, and now rivalling Liverpool for Wolves' Joao Gomes.",
@@ -513,7 +513,7 @@ export const DISPATCHES = [
 export const NEWS_DIGEST = {
   generatedAt: "2026-07-14T17:15:00Z",
   summary:
-    "Tuesday July 14, and the Iraola era finally arrives on the grass. Pre-season opened at the AXA this morning, and the first thing the new head coach said about the squad he now owns was that it is short: Hugo Ekitike, Conor Bradley and Giovanni Leoni are all long-term absentees, a set of circumstances he called a 'difficult situation' at Monday's press conference, and one that leaves him without a first-choice striker, a natural right-back deputy and a centre-back all at once. He filled the gaps with academy names, Jayden Danns, Lewis Koumas, Kieran Morrison and Josh Abe among them, and told FSG plainly that fifteen players will not get a club through a season. The market answered in two directions on the same day: Liverpool rejected an improved €35m bid from Inter Milan for Curtis Jones, with Iraola saying he wants to keep him 'not only for this year,' and made contact with Wolves about Joao Gomes after Jorge Mendes blew up the Brazilian's agreed move to Atletico Madrid. Behind all of it, Mohamed Salah's deal is now reported signed and only the announcement is waiting, while France meet Spain in Dallas tonight with Ibrahima Konate on one side and Victor Munoz, Liverpool's own signing, on the other.",
+    "Tuesday July 14, and the Iraola era finally arrives on the grass. Pre-season opened at the AXA this morning, and the first thing the new head coach said about the squad he now owns was that it is short: Hugo Ekitike, Conor Bradley and Giovanni Leoni are all long-term absentees, a set of circumstances he called a 'difficult situation' at Monday's press conference, and one that leaves him without a first-choice striker, a natural right-back deputy and a centre-back all at once. He filled the gaps with academy names, Jayden Danns, Lewis Koumas, Kieran Morrison and Josh Abe among them, and told FSG plainly that fifteen players will not get a club through a season. The market answered in two directions on the same day: Liverpool rejected an improved €35m bid from Inter Milan for Curtis Jones, with Iraola saying he wants to keep him 'not only for this year,' and made contact with Wolves about Joao Gomes after Jorge Mendes blew up the Brazilian's agreed move to Atletico Madrid. Behind all of it, Mohamed Salah's deal is now reported signed and only the announcement is waiting, while France meet Spain in Dallas this afternoon with Ibrahima Konate on one side and Victor Munoz, Liverpool's own signing, on the other.",
   keyTopics: [
     {
       title: "'A Difficult Situation': Iraola Confirms Ekitike, Bradley And Leoni Are All Long-Term (Read Liverpool / This Is Anfield, today)",
@@ -546,9 +546,9 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "Konate Meets Munoz In Dallas Tonight (FIFA / ESPN, today)",
+      title: "Konate Meets Munoz In Dallas This Afternoon (FIFA / ESPN, today)",
       detail:
-        "Kick-off is 3pm Eastern at Dallas Stadium, and it is the strangest fixture of Liverpool's summer: Ibrahima Konate, who left Anfield for nothing and is now Real Madrid's, lines up for France against a Spain side containing Victor Munoz, the winger Liverpool bought this summer by triggering his £34m release clause at Osasuna. A departing centre-back against an arriving one, in the same shirt colours neither will wear again. The winner takes the final in New Jersey on Sunday, and keeps a Liverpool name away from Iraola's grass another week.",
+        "Kick-off is 3pm Eastern at Dallas Stadium, and it is the strangest fixture of Liverpool's summer: Ibrahima Konate, who left Anfield for nothing and is now Real Madrid's, lines up for France against a Spain side containing Victor Munoz, the winger Liverpool bought this summer by triggering his £34m release clause at Osasuna. A departing centre-back against an arriving winger, in the same shirt colours neither will wear again. The winner takes the final in New Jersey on Sunday, and keeps a Liverpool name away from Iraola's grass another week.",
       category: "matches",
     },
     {
@@ -582,10 +582,10 @@ export const NEWS_DIGEST = {
       category: "matches",
     },
     {
-      title: "Arribas Stays On The Board At £21m As The Winger Search Drags (Football365 / This Is Anfield, 2d ago)",
+      title: "'I'm Not Going To Live In My Bubble': Iraola Starts By Talking About The City (Liverpool FC / This Is Anfield, 2d ago)",
       detail:
-        "Still live, still unbid-on. Sergio Arribas, the 24-year-old Real Madrid academy graduate who scored 26 with seven assists for Almeria in the Spanish second tier, remains a Liverpool interest at around €25m, roughly £21.4m, of which Madrid would take half through a 50 per cent sell-on. Sporting Lisbon have had €20m rejected and Benfica are circling. He is the cheap end of a board whose expensive end, Barcola, has now effectively priced itself out.",
-      category: "transfers",
+        "The part of Monday's press conference that had nothing to do with transfers, and the part most likely to be quoted back at him in April. Asked what he wanted to give supporters, the new head coach said he would like 'to give them a team that they can feel proud of,' and framed the job as a matter of connection: 'football, and especially Liverpool, for me is about connecting, connecting with the people, connecting with our supporters.' He then promised not to disappear into the trade's usual monasticism, saying he would not live in a bubble of training ground and home, and intended to get out into the city. Arne Slot, by the end, had stopped saying things like that.",
+      category: "general",
     },
   ],
   sources: [

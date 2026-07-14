@@ -349,12 +349,12 @@ function CoverView({ onJump }) {
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
 Tuesday, and the new era finally has grass under it. Pre-season
-          opened at the AXA this morning, and the first thing Andoni Iraola said
-          about his squad was that three of them are long gone from it: Ekitike,
-          Bradley, Leoni, a striker, a right back and a centre-back, a spine he
-          called a <em>difficult situation</em>. Academy boys filled the gaps.
-          Eleven days until Nashville, and the manager has asked, in public, for
-          more players.
+          opened at the AXA this morning, and three of the men Andoni Iraola
+          needs could not be picked for it: Ekitike, Bradley, Leoni, a striker, a
+          right back and a centre-back, a spine he had named the day before and
+          called, without flinching, a <em>difficult situation</em>. Academy boys
+          filled the gaps. Eleven days until Nashville, and the manager has
+          asked, in public, for more players.
         </p>
 
         <StatStrip stats={stats} />
@@ -3119,7 +3119,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "You cannot do a season with fifteen."
+        "Impossible, with fifteen players."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
