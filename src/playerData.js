@@ -592,7 +592,6 @@ export const NEWS_DIGEST = {
     "Anfield Watch",
     "RTE Sport",
     "Football365",
-    "GiveMeSport",
   ],
 };
 
@@ -650,7 +649,7 @@ export const TRANSFER_TARGETS = {
       role: "Box-to-box central midfielder",
       nationality: "🇫🇷 France",
       foot: "Right",
-      image: "https://img.a.transfermarkt.technology/portrait/big/357164-1690city.jpg",
+      image: "https://img.a.transfermarkt.technology/portrait/big/default.jpg",
       currentClub: "Roma",
       currentLeague: "Serie A",
       feeMin: 45, feeMax: 50, feeCurrency: "£m",
