@@ -348,13 +348,13 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Tuesday, and the new era finally has grass under it. Pre-season
-          opened at the AXA this morning, and three of the men Andoni Iraola
-          needs could not be picked for it: Ekitike, Bradley, Leoni, a striker, a
-          right back and a centre-back, a spine he had named the day before and
-          called, without flinching, a <em>difficult situation</em>. Academy boys
-          filled the gaps. Eleven days until Nashville, and the manager has
-          asked, in public, for more players.
+Wednesday, and the whole summer has narrowed to one empty flank.
+          Andoni Iraola has said it plainly, that Liverpool need <em>one more
+          winger</em>, and the man he wanted first, Yan Diomande, has just
+          chosen Paris over Anfield. So the search hardens around what is left,
+          Minteh, El Mala, a Barcola nobody can afford, while a midfield raid on
+          two of United's targets runs alongside it. Ten days until Nashville,
+          and the shape of the team is still the shape of a man who is gone.
         </p>
 
         <StatStrip stats={stats} />
@@ -369,26 +369,24 @@ Tuesday, and the new era finally has grass under it. Pre-season
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and the talking stops. Pre-season opened at the AXA this morning,
-              the first session of Andoni Iraola's Liverpool, and the story of it
-              was who was not there. Hugo Ekitike, whose Achilles went against
-              PSG in April and who is quietly arguing with his own surgeon about
-              Boxing Day. Conor Bradley, whose knee went at Arsenal in January
-              and who reporting now places somewhere in 2027. Giovanni Leoni,
-              whose ACL went on his debut, ten months ago, and who was hinted at
-              again yesterday as further away than anyone wanted to hear. A
-              striker, a right back, a centre-back: Iraola named the three of
-              them and called it, without flinching, a difficult situation. He
-              filled the session with academy boys because there was nobody else
-              to fill it with, and he has told his owners, in a room full of
-              microphones, that fifteen players do not make a season. Behind him
-              the market answered in both directions on the same day: Inter's
-              third bid for Curtis Jones refused, because the manager wants him;
-              a call made to Wolves about a Brazilian whose move to Madrid an
-              agent broke out of spite. Eleven days to Nashville. The squad he
-              has is not the squad he needs, and now everyone has heard him say
-              so.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and the summer has found its single question. Andoni Iraola stood
+              in front of the microphones and named it: Liverpool need one more
+              winger, and he was careful, almost tender, about the word he would
+              not use. Not to <em>replace</em> Mohamed Salah, he said, because
+              you do not replace a man who was the club's goals for eight years,
+              you only try to cover the space where he stood. The player they
+              wanted most to cover it, Yan Diomande, chose Paris this week and
+              left them holding a shortlist: Yankuba Minteh at a price that keeps
+              climbing, Said El Mala as the thriftier idea, Bradley Barcola a
+              hundred-million-pound daydream PSG will not sell. Around it the
+              midfield moves, a raid on two of Manchester United's targets at
+              once, Joao Gomes cheap now that Wolves are down, Manu Kone dearer
+              out of Rome. And out in America the tournament keeps a Liverpool
+              man on each hand: Victor Munoz into Sunday's final with Spain,
+              Alexis Mac Allister the last Red still running, this afternoon in
+              Atlanta. Ten days to Nashville. The squad he has is still not the
+              squad he needs.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -396,12 +394,12 @@ Tuesday, and the new era finally has grass under it. Pre-season
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is the
-              difficult situation and the three men inside it; two words the new
-              manager used that his predecessor never could; thirty-five million
-              from Milan, refused; a deal in Madrid broken by an agent in a mood;
-              and an afternoon in Dallas where a departing Liverpool centre-back
-              plays an arriving Liverpool winger. Read them in order. The market
-              moves; the football waits.
+              shape of the missing winger and the names lined up to fill it; a
+              double raid on Manchester United's midfield; two-nil in Dallas, and
+              what it did to a Liverpool arrival and a Liverpool departure at
+              once; the last Red left in the World Cup; and an executive floor
+              quietly emptying above the manager's head. Read them in order. The
+              market moves; the football waits.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3119,7 +3117,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Impossible, with fifteen players."
+        "One more winger, and a season."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

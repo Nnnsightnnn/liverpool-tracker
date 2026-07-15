@@ -120,41 +120,40 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-07-14
-// (Tue: pre-season opened at the AXA this morning, academy names drafted in to
-// fill it out; Iraola confirmed Ekitike, Bradley and Leoni as long-term
-// absentees, a "difficult situation"; Bradley's knee is now reported to run
-// into 2027; Alisson missed day one on a post-World Cup break; Inter's third
-// bid for Curtis Jones was rejected because Iraola wants to keep him; Salah's
-// Saudi deal is reported signed and only the announcement is outstanding.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-07-15
+// (Wed: the summer's story is the winger search, Iraola on the record that
+// Liverpool need "one more winger" after Yan Diomande chose PSG; France lost
+// 2-0 to Spain overnight, so Konate's tournament is over; Mac Allister plays
+// England in the Atlanta semi-final this afternoon; Curtis Jones looks likelier
+// to stay, Iraola to hold talks; Salah's Saudi deal reported signed.)
 export const PLAYER_EVIDENCE = {
-  1:  "Post-WC break · missed day one",         // Alisson
-  2:  "Led the GK group on day one",            // Mamardashvili
-  3:  "Captain, 35 · back for the US tour",     // Van Dijk
-  4:  "Madrid's now · France v Spain today",    // Konaté
-  5:  "Trained day one · tilting to stay",      // Gomez
-  6:  "Tottenham · left free June 30",          // Robertson
-  7:  "First-pick LB · trained day one",        // Kerkez
-  8:  "Knee · now reported out into 2027",      // Bradley
-  9:  "Only recognised RB in the building",     // Frimpong
-  10: "ACL · Iraola hints at more delay",       // Leoni
-  11: "Only senior CB fit · trained day one",   // Jacquet
-  12: "Academy depth · 2 senior apps",          // Ndukwe
-  13: "Argentina v England · Atlanta tomorrow", // Mac Allister
-  14: "WC exit · back for the US tour",         // Gravenberch
-  15: "No Hungary WC · trained day one",        // Szoboszlai
-  16: "Inter's €35m refused · Iraola wants him",// Jones
-  17: "Back early · still missed day one",      // Endo
-  18: "Germany out · back for the tour",        // Wirtz
-  19: "Hamstring · missed day one again",       // Bajcetic
-  20: "Academy prospect · trained day one",     // Nyoni
-  21: "Free agent · Saudi deal signed",         // Salah
-  22: "Stays · back for the US tour",           // Gakpo
-  23: "Fit again · rejoins for the US tour",    // Isak
-  24: "Achilles · 'longer than expected'",      // Ekitike
-  25: "Only senior forward on day one",         // Ngumoha
-  26: "Trained day one · fighting for a spot",  // Chiesa
-  27: "3rd-choice GK · trained day one",        // Woodman
+  1:  "Post-WC break · back for the tour",       // Alisson
+  2:  "Led the GK group on day one",             // Mamardashvili
+  3:  "Captain, 35 · back for the US tour",      // Van Dijk
+  4:  "Madrid's now · France out to Spain",      // Konaté
+  5:  "Trained day one · tilting to stay",       // Gomez
+  6:  "Tottenham · left free June 30",           // Robertson
+  7:  "First-pick LB · trained day one",         // Kerkez
+  8:  "Knee · now reported out into 2027",       // Bradley
+  9:  "Only recognised RB in the building",      // Frimpong
+  10: "ACL · Iraola hints at more delay",        // Leoni
+  11: "Only senior CB fit · trained day one",    // Jacquet
+  12: "Academy depth · 2 senior apps",           // Ndukwe
+  13: "England semi today · last Red in the WC", // Mac Allister
+  14: "WC exit · back for the US tour",          // Gravenberch
+  15: "No Hungary WC · trained day one",         // Szoboszlai
+  16: "Iraola to hold talks · likely stays",     // Jones
+  17: "Back early · still missed day one",       // Endo
+  18: "Germany out · back for the tour",         // Wirtz
+  19: "Hamstring · missed day one again",        // Bajcetic
+  20: "Academy prospect · trained day one",      // Nyoni
+  21: "Free agent · Saudi deal signed",          // Salah
+  22: "Stays · back for the US tour",            // Gakpo
+  23: "Fit again · rejoins for the US tour",     // Isak
+  24: "Achilles · eyes a Boxing Day return",     // Ekitike
+  25: "Salah slot until a winger signs",         // Ngumoha
+  26: "Trained day one · fighting for a spot",   // Chiesa
+  27: "3rd-choice GK · trained day one",         // Woodman
 };
 
 // Default formation when entering the view — the 4-2-3-1 Slot favoured through
@@ -180,12 +179,12 @@ export const SLOT_CONFIDENCE = {
   LB:  "Low",    // Robertson gone free to Spurs · Kerkez inherits, back day one
   LCB: "Medium", // Van Dijk · 35 · Milan interest knocked back · not back until the US tour
   RCB: "Low",    // Konate gone free to Madrid · Jacquet the only senior CB available · Inacio heads the list
-  RB:  "Low",    // Frimpong the only recognised RB · Bradley's knee reported into 2027 · Jones now staying, Inter's third bid refused
+  RB:  "Low",    // Frimpong the only recognised RB · Bradley's knee reported into 2027 · Jones likely staying, Iraola to hold talks
   LDM: "High",   // Gravenberch · the season's most reliable midfielder
   RDM: "Medium", // Szoboszlai · mainstay, extension still pending · in day one
   LAM: "Medium", // Wirtz · injury-hit debut season · back for the tour
   CAM: "Low",    // Mac Allister · in a World Cup semi-final · no extension talks open
-  RAM: "Low",    // Salah gone (Saudi deal signed, announcement pending) · Barcola priced out at £128m · Hassan accelerating
+  RAM: "Low",    // Salah gone (Saudi deal signed) · Diomande chose PSG · Minteh now the front-runner, El Mala the cheaper fallback
   ST:  "Medium", // Isak · £100m striker · injury-wrecked first season · back for the tour
 };
 
@@ -203,9 +202,9 @@ export const SLOT_RATIONALE = {
   RDM: "Tue Jun 2 — Szoboszlai closes a heavy-minutes season of 48 appearances as a midfield mainstay; a contract extension is still expected to be agreed over the summer.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
   CAM: "Wed Jun 17 — the denial gets louder: Mac Allister's father and agent Carlos has again branded the exit talk 'false,' insisting no approaches were declined because none were made, even as Liverpool stay quietly open to a sale near €120m if funds are needed. Real Madrid hold the warmest interest in a midfielder with two years left and no extension talks open, a fork pointed against Gravenberch's fresh terms.",
-  RAM: "Tue Jul 14 — the ghost of the slot has signed somewhere. Mohamed Salah's deal is now reported agreed rather than merely in principle: the Saudi Pro League is settled, the Jeddah pair Al-Ittihad and Al-Ahli lead for the short flight to Cairo, and only the announcement is outstanding. MLS lost. Europe never really had him. The replacement file has gone in the opposite direction to the one Liverpool wanted: PSG hold at a British-record £128m for Bradley Barcola with Arsenal now in front of the queue, so the club have gone shopping downstairs instead, accelerating for the Egypt winger Hassan at Real Oviedo (~£10.2m, and reportedly confident) with Almeria's Sergio Arribas still on the board at ~£21m. Rio Ngumoha, seventeen, keeps the shirt by default: he was one of only two senior forwards on the grass for day one.",
+  RAM: "Wed Jul 15 — this slot is the whole summer. With Salah gone (a Saudi move now reported signed, only the announcement left), Iraola has said plainly that Liverpool need 'one more winger,' careful not to hang the word replacement on anyone. The man they wanted most, RB Leipzig's Yan Diomande, has chosen PSG, so the shortlist hardens around Brighton's Yankuba Minteh, whom the manager is said to love at a valuation nearer £80m, Cologne's Said El Mala as the thriftier fallback, and a Bradley Barcola PSG will not sanction below £100m. Rio Ngumoha, seventeen, keeps the shirt by default until one of them arrives; he was one of only two senior forwards on the grass for day one.",
 
-  RB:  "Tue Jul 14 — the slot is now a one-man department. Pre-season opened at the AXA this morning with Jeremie Frimpong the only recognised right back on the grass, and Iraola confirmed at Monday's press conference that Conor Bradley is one of three long-term absentees, a \"difficult situation\"; fresh reporting suggests the knee that gave way at Arsenal in January is worse than first believed and may not release him until 2027. The emergency cover of last season has gone too, in the happiest way: Liverpool rejected Inter Milan's improved €35m for Curtis Jones because Iraola wants to keep him in midfield, not shuttle him to full-back. So Frimpong plays, by elimination rather than by form, and the market is being asked for a deputy. Marco Palestra and Lutsharel Geertruida are the names on the board; the £80m Kounde ambition looks like a different summer's idea.",
+  RB:  "Wed Jul 15 — still a one-man department, two days into pre-season. Jeremie Frimpong remains the only recognised right back on the grass, with Conor Bradley one of Iraola's three long-term absentees and reporting suggesting the knee that went at Arsenal in January may not release him until 2027. The emergency cover of last season is staying put in midfield rather than filling in here: Iraola is set to hold talks with Curtis Jones and is hopeful he stays, Inter twice rebuffed, so nobody is shuttling Jones to full-back. Frimpong plays by elimination rather than by form, and the market is being asked for a deputy, Marco Palestra and Lutsharel Geertruida the names on the board while the winger search swallows the budget.",
 
   ST:  "Tue Jun 2 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
 };
@@ -233,5 +232,5 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  reason: "Tue Jul 14 — pre-season opened at the AXA this morning, and the XI below is still a squad baseline rather than a matchday prediction. Roughly fifteen seniors trained, padded out with academy names (Danns, Koumas, Morrison, Abe, Ndiaye, Wright). Iraola confirmed three long-term absentees, Ekitike, Bradley and Leoni, calling it a 'difficult situation,' which leaves Frimpong as the only recognised right back and Jacquet as the only senior centre-back until Van Dijk returns. Alisson missed day one on a post-World Cup break, so Mamardashvili led a goalkeeping group of Woodman and Pecsi. The World Cup contingent (Van Dijk, Gravenberch, Gakpo, Wirtz, Isak, with Mac Allister and Munoz still playing) will not appear until the American tour. Curtis Jones stays in the picture: Inter's third bid, an improved €35m, was rejected because the head coach wants to keep him. The XI therefore remains the closing 2025-26 side adjusted for the summer exits: Kerkez for Robertson, Jacquet for Konate, Ngumoha in the Salah slot, Frimpong at right back. Confidence Low until the squad is whole. Next fixture: pre-season vs Sunderland in Nashville, July 25; the league opens at Newcastle on August 23.",
+  reason: "Wed Jul 15 — two days into pre-season, the XI below is still a squad baseline rather than a matchday prediction, and the shape of it is dominated by a slot Liverpool have not filled. Iraola has said on the record that the team needs 'one more winger,' and the man they wanted most, Yan Diomande, has chosen PSG, so Rio Ngumoha keeps the right-sided attacking berth by default until Minteh, El Mala or a Barcola nobody can afford arrives. The three long-term absentees, Ekitike, Bradley and Leoni, still leave Frimpong the only recognised right back and Jacquet the only senior centre-back until Van Dijk is back for the American tour. The World Cup contingent thins the grass further: France lost 2-0 to Spain overnight so Konate is done, but Mac Allister plays England in the Atlanta semi-final this afternoon and Munoz is a Spain finalist, both away for a while yet. Curtis Jones looks likelier to stay by the day, with Iraola set to hold talks and Inter twice rebuffed. The XI therefore remains the closing 2025-26 side adjusted for the summer exits: Kerkez for Robertson, Jacquet for Konate, Ngumoha in the Salah slot, Frimpong at right back. Confidence Low until the squad is whole. Next fixture: pre-season vs Sunderland in Nashville, July 25; the league opens at Newcastle on August 23.",
 };
