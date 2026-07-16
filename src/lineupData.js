@@ -120,12 +120,12 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-07-15
-// (Wed: the summer's story is the winger search, Iraola on the record that
-// Liverpool need "one more winger" after Yan Diomande chose PSG; France lost
-// 2-0 to Spain overnight, so Konate's tournament is over; Mac Allister plays
-// England in the Atlanta semi-final this afternoon; Curtis Jones looks likelier
-// to stay, Iraola to hold talks; Salah's Saudi deal reported signed.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-07-16
+// (Thu: Mac Allister beat England 2-1 on Wednesday to reach Sunday's World Cup
+// final, where he meets fellow Red Victor Munoz with Spain; the winger market
+// has turned, Arsenal ahead for Barcola and closing on Tzolis; Curtis Jones
+// stays likelier by the day, Inter's third bid (£27m) rejected and Iraola keen;
+// Konate's tournament is over with France; Salah's Saudi club still to be named.)
 export const PLAYER_EVIDENCE = {
   1:  "Post-WC break · back for the tour",       // Alisson
   2:  "Led the GK group on day one",             // Mamardashvili
@@ -183,7 +183,7 @@ export const SLOT_CONFIDENCE = {
   LDM: "High",   // Gravenberch · the season's most reliable midfielder
   RDM: "Medium", // Szoboszlai · mainstay, extension still pending · in day one
   LAM: "Medium", // Wirtz · injury-hit debut season · back for the tour
-  CAM: "Low",    // Mac Allister · in a World Cup semi-final · no extension talks open
+  CAM: "Low",    // Mac Allister · in Sunday's World Cup final · no extension talks open
   RAM: "Low",    // Salah gone (Saudi deal signed) · Diomande chose PSG · Minteh now the front-runner, El Mala the cheaper fallback
   ST:  "Medium", // Isak · £100m striker · injury-wrecked first season · back for the tour
 };
