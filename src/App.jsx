@@ -348,13 +348,13 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Wednesday, and the whole summer has narrowed to one empty flank.
-          Andoni Iraola has said it plainly, that Liverpool need <em>one more
-          winger</em>, and the man he wanted first, Yan Diomande, has just
-          chosen Paris over Anfield. So the search hardens around what is left,
-          Minteh, El Mala, a Barcola nobody can afford, while a midfield raid on
-          two of United's targets runs alongside it. Ten days until Nashville,
-          and the shape of the team is still the shape of a man who is gone.
+Thursday, and for once the summer's loudest news was made on a pitch.
+          Alexis Mac Allister is into the <em>World Cup final</em>, Argentina
+          beating England in Atlanta, and now both finalists carry a Liverpool
+          man. At home the winger market drifts the wrong way, Arsenal ahead for
+          Barcola and closing on a man who had wanted Anfield, while Inter's
+          third bid for Curtis Jones is turned away again. Nine days to
+          Nashville, and the team Iraola wants is still not the team he has.
         </p>
 
         <StatStrip stats={stats} />
@@ -369,37 +369,34 @@ Wednesday, and the whole summer has narrowed to one empty flank.
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and the summer has found its single question. Andoni Iraola stood
-              in front of the microphones and named it: Liverpool need one more
-              winger, and he was careful, almost tender, about the word he would
-              not use. Not to <em>replace</em> Mohamed Salah, he said, because
-              you do not replace a man who was the club's goals for eight years,
-              you only try to cover the space where he stood. The player they
-              wanted most to cover it, Yan Diomande, chose Paris this week and
-              left them holding a shortlist: Yankuba Minteh at a price that keeps
-              climbing, Said El Mala as the thriftier idea, Bradley Barcola a
-              hundred-million-pound daydream PSG will not sell. Around it the
-              midfield moves, a raid on two of Manchester United's targets at
-              once, Joao Gomes cheap now that Wolves are down, Manu Kone dearer
-              out of Rome. And out in America the tournament keeps a Liverpool
-              man on each hand: Victor Munoz into Sunday's final with Spain,
-              Alexis Mac Allister the last Red still running, this afternoon in
-              Atlanta. Ten days to Nashville. The squad he has is still not the
-              squad he needs.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the story finally moved onto the grass. Alexis Mac Allister
+              spent Wednesday night in Atlanta dragging Argentina back into a
+              semi-final England had led, and walked out of it a World Cup
+              finalist, bound for New Jersey on Sunday to meet Spain, which is to
+              say to meet <em>Victor Munoz</em>. Both of Andoni Iraola's
+              finalists now wear another country's shirt, both a week further
+              from the AXA. At home the news runs thinner. Arsenal have moved to
+              the front of the queue for Bradley Barcola and are closing on
+              Christos Tzolis, the winger who had said he would happily come to
+              Anfield, so the hunt for one more forward narrows toward Minteh
+              and a cheaper name beneath him. Inter came back a third time for
+              Curtis Jones, twenty-seven million pounds, and were sent away a
+              third time. Nine days to Nashville. The squad he has is still not
+              the squad he wants.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings as they finished, and
-              five dispatches from the writers who never clock off. There is the
-              shape of the missing winger and the names lined up to fill it; a
-              double raid on Manchester United's midfield; two-nil in Dallas, and
-              what it did to a Liverpool arrival and a Liverpool departure at
-              once; the last Red left in the World Cup; and an executive floor
-              quietly emptying above the manager's head. Read them in order. The
-              market moves; the football waits.
+              five dispatches from the writers who never clock off. There is a
+              Red in each World Cup final; a winger market drifting toward
+              Arsenal and away from Anfield; Inter turned away a third time for
+              Curtis Jones; an injury list that runs the manager's first
+              sessions shorthanded; and, above all the transfer noise, the
+              Hillsborough Law reaching the Commons at last. Read them in order.
+              The market moves; the football, for one night, did not wait.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3117,7 +3114,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "One more winger, and a season."
+        "A Red in each final, and a hole on the right."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

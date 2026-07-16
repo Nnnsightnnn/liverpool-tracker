@@ -161,7 +161,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Wed Jul 15 — the exit keeps cooling. Iraola has confirmed he will sit down with Jones about his future and is hopeful the midfielder stays, and the whole file now bends that way: Inter Milan have twice been rebuffed and a weekend Nottingham Forest 'agreement', which Jones answered with a single raised eyebrow, has not firmed up. Liverpool value him upwards of €40m and, with the head coach keen, are more inclined to open talks on a new contract than to cash in on the final year of the old one. For a departure briefed as done a week ago, the likeliest outcome now is that nothing happens", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Thu Jul 16 — three bids, three rejections. Inter Milan have returned with an improved offer around £27m, up from £21.7m, and Liverpool have turned it down again, holding to a £35m valuation that leaves the gap near £3m. Iraola wants to assess Jones in pre-season before sanctioning any exit and has said he would like to keep him, so the club are now as likely to open new-contract talks as to sell on the final year of his deal. The weekend's Nottingham Forest 'agreement' has quietly faded. For a departure briefed as done a week ago, staying put is now the likeliest outcome", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -442,9 +442,9 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-07-15T12:30:00Z",
+  generatedAt: "2026-07-16T09:10:00Z",
   overview:
-    "With pre-season two days old, the table below is still the last true thing anyone can say about Liverpool until August 23, and it is a closed book. The 2025-26 season finished on May 24 with Arsenal champions on 85, their first title since 2004, and Liverpool fifth on 60, a title defence that unravelled over the winter and never recovered, though fifth was enough to hold the final Champions League place by three points from an eighteen-times-drawing Bournemouth. ESPN's 2026-27 table has already reset every club to zero, with Coventry, Hull and Ipswich in for the relegated West Ham, Burnley and Wolves, so it reads nothing yet. What Andoni Iraola actually inherits is not a finishing position but a shopping list: no first-choice right winger since Salah left, no Konate at the back, and a squad three long-term injuries short of itself. The winger search, not the standings, is the real table this month. Liverpool open at Newcastle on August 23.",
+    "The table below is still the last settled thing anyone can say about Liverpool until August 23, because the real drama this week has been elsewhere: a Liverpool midfielder into the World Cup final and a winger market drifting toward Arsenal. The 2025-26 season closed on May 24 with Arsenal champions on 85, their first title since 2004, and Liverpool fifth on 60, a title defence that unravelled over the winter and never recovered, though fifth held the final Champions League place by three points from an eighteen-times-drawing Bournemouth. ESPN's 2026-27 table has already reset every club to zero, with Coventry, Hull and Ipswich in for the relegated West Ham, Burnley and Wolves, so it reads nothing yet. What Iraola actually inherits is not a finishing position but a shopping list: no first-choice right winger since Salah left, no Konate at the back, and a squad three long-term injuries short of itself. Liverpool open at Newcastle on August 23.",
   teams: {
     "Liverpool": "Fifth on 60, into the Champions League by three points. The fix Iraola is chasing is not points but a right winger to cover the hole Salah left.",
     "Arsenal": "Champions on 85, the only side above 80, and still the benchmark every winger Liverpool chase is measured against.",
@@ -465,133 +465,126 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "The Shape Of A Missing Man.",
-    byline: "This Is Anfield / Liverpool.com",
-    dateline: "AXA Training Centre · 15 July",
-    category: "Transfers",
-    body:
-      "The whole summer is an argument about one empty flank. 'It is clear we need a player there,' Iraola said of the right wing, 'I wouldn't say to replace Mo Salah, but we need one more winger,' and the caution in that phrasing is the point: nobody replaces a man who scored the club's goals for eight years, you only cover the hole he leaves. The one they wanted most, Yan Diomande, has chosen Paris over Anfield. So the list narrows to what remains, Brighton's Yankuba Minteh at a price that keeps climbing, Cologne's Said El Mala as the thriftier bet, Barcola a fantasy Paris will not fund. A winger is not a luxury here. It is the season.",
-  },
-  {
-    n: "02",
-    headline: "Two Off United's Table.",
-    byline: "TeamTalk / SportBible",
-    dateline: "Anfield · 15 July",
-    category: "Transfers",
-    body:
-      "There is a version of this window where Liverpool's midfield rebuild is also an act of sabotage. Both Joao Gomes and Manu Kone sit on Manchester United's shortlist, and both are now being chased down the East Lancs Road: contact made with a relegated Wolves for Gomes, whose fee has crumbled toward £30m, and interest reignited in Roma's Kone, gettable near €55m by a club that needs the cash. The likeliest ending is unglamorous arithmetic, Liverpool take one, United get the other, and everybody claims a win. But the manager's stated appetite is width, not another six, which makes even this a story about the winger they still have not signed.",
-  },
-  {
-    n: "03",
-    headline: "Two-Nil, And A Bench Seat.",
-    byline: "ESPN / NPR",
-    dateline: "Dallas · 15 July",
-    category: "Football News",
-    body:
-      "Spain settled it overnight, a penalty tucked away by Oyarzabal after Digne clipped Yamal, then Porro finishing a wall pass with Olmo, and France went home 2-0. For Liverpool the result cut two ways at once. Victor Munoz, the winger they have bought but not yet seen in red, is a World Cup finalist and now stays in America a week longer than his new manager would like. Ibrahima Konate, whom they lost for nothing to Real Madrid, watched the end of his tournament from the substitutes' bench, a spectator at his own elimination. A shirt arriving and a shirt departing, and the same scoreline for both.",
-  },
-  {
-    n: "04",
-    headline: "The Last Red In The Tournament.",
-    byline: "England Football / Al Jazeera",
+    headline: "A Red In Each Dressing Room.",
+    byline: "NPR / Al Jazeera",
     dateline: "Atlanta · 15 July",
     category: "Football News",
     body:
-      "At three o'clock this afternoon in Atlanta, Alexis Mac Allister is the only Liverpool player still standing in this World Cup, and he is standing in Argentina's midfield against England for a place in Sunday's final. He has started every game of the defence of the title, scored to see off Switzerland in extra time, and now runs at a Three Lions side that arrived on Bellingham's brace. For Iraola it is flattery and inconvenience braided together: the further Mac Allister goes, the later he reports to a manager who has never coached him, and a deep run could keep him off the American tour altogether. Some absences are the good kind.",
+      "Argentina do this on a loop now, to England and to everyone else. Anthony Gordon had put the Three Lions ahead just short of the hour, a clean volley from Morgan Rogers' cross, and for half an hour it held. Then Messi, deep into the night, floated one to the far post and Enzo Fernandez climbed to head the holders level, and from there the game belonged to the champions. Alexis Mac Allister, whose header off the inside of a post was the nearest England came to holding on, is into a second straight final. He meets Spain in New Jersey on Sunday, which is to say he meets Victor Munoz. Both of Iraola's finalists, one in each shirt.",
+  },
+  {
+    n: "02",
+    headline: "The Queue In Front Of The Manager.",
+    byline: "TeamTalk / Empire of the Kop",
+    dateline: "Anfield · 16 July",
+    category: "Transfers",
+    body:
+      "A week ago the winger question was which of the alternatives to take. This week it is whether any are still there to be taken. Arsenal have moved to the front of the Bradley Barcola race, the PSG forward Liverpool had only just re-contacted, and are closing on Christos Tzolis, the Brugge winger who had said, plainly, that he would come to Anfield. Both look like drifting north to London. What is left for Iraola is Brighton's Yankuba Minteh at £70-80m, a name the club rate as a concrete target, and a cheaper option beneath him. The hole on the right is the same size it was in May. The list of men to fill it keeps getting shorter.",
+  },
+  {
+    n: "03",
+    headline: "Three Times No.",
+    byline: "This Is Anfield / Football365",
+    dateline: "AXA Training Centre · 16 July",
+    category: "Manager",
+    body:
+      "Inter Milan keep knocking, and Liverpool keep not answering. Their third bid for Curtis Jones, around £27m, arrived and went back like the two before it, the club unmoved from a £35m valuation that now sits barely £3m north of the offer. The difference this summer is the man in the dugout. Andoni Iraola wants to look at Jones across pre-season before he lets anyone go, and he has said, more simply, that he would like to keep him. A player briefed as sold a fortnight ago is training as one who stays. The Nottingham Forest 'agreement' that was going to settle it has quietly dissolved.",
+  },
+  {
+    n: "04",
+    headline: "Shorthanded From The First Whistle.",
+    byline: "This Is Anfield / Liverpool.com",
+    dateline: "AXA Training Centre · 15 July",
+    category: "Injuries",
+    body:
+      "Iraola's first real week of work is being done with a thin deck. The long-term three are known: Ekitike's Achilles aiming hopefully at Boxing Day, Bradley's knee now spoken of as a 2027 problem, Leoni's ACL still in its final phase. But the opening sessions were lighter than even that. Wataru Endo and Stefan Bajcetic both reported early and then watched from the side, each carrying trouble not yet cleared, and goalkeeper Vitezslav Jaros is out with a serious knee injury of his own. Alexander Isak, home early from the World Cup, will meet the group on the American tour. The manager is learning his squad by the men who are not in it.",
   },
   {
     n: "05",
-    headline: "The Executive Floor Empties.",
-    byline: "RTE Sport / This Is Anfield",
-    dateline: "Anfield · 15 July",
+    headline: "The Families Reach The Commons.",
+    byline: "Liverpool FC / This Is Anfield",
+    dateline: "Westminster · 14 July",
     category: "Football News",
     body:
-      "Beneath the transfer noise, the building itself is losing people. Michael Edwards has resigned as FSG's CEO of football, gone a year early, worn down by the owners' failure to buy the second club that was the whole reason he came back after Klopp. There will be no direct replacement; Mike Gordon takes the day-to-day. And Richard Hughes, the sporting director actually running the window, is in talks over a move to Al-Hilal. Iraola, three weeks into the job, is conducting his first summer in a house where the lights on the top floor keep going out. He said he wanted the connection of the city. He may first have to supply the connection inside the club.",
+      "Some weeks the most important news at a football club is not football at all. On Tuesday the Public Office (Accountability) Bill, known everywhere on Merseyside as the Hillsborough Law, cleared its third reading in the House of Commons, backed unanimously by MPs. It would place a duty of candour on public officials, compelling honest evidence to inquiries, and better support families bereaved by disaster. It goes to the Lords in the autumn, with the hope of Royal Assent before the 38th anniversary next April. Thirty-seven years after ninety-seven people went to a match and did not come home, the ones who have carried it are still carrying it. This belongs above the transfer noise.",
   },
 ];
 
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-07-15T12:30:00Z",
+  generatedAt: "2026-07-16T09:10:00Z",
   summary:
-    "Wednesday July 15, and the hole where Mohamed Salah used to be is the story of Liverpool's summer. Andoni Iraola has put it on the record, carefully: 'It is clear we need a player there, I wouldn't say to replace Mo Salah, but we need one more winger.' The dream version of that player, RB Leipzig's Yan Diomande, has just chosen Paris Saint-Germain over Anfield, so the search has hardened around alternatives, Brighton's Yankuba Minteh, Cologne's Said El Mala and, still, a Bradley Barcola PSG will not sell below £100m. The midfield moved on the same day, with reports of an £85m double hijack of Manchester United: contact with Wolves over a relegation-discounted Joao Gomes, now nearer £30m, and fresh interest in Roma's Manu Kone at around €55m. Overnight in Dallas, Spain beat France 2-0 to reach Sunday's final, carrying Liverpool's new signing Victor Munoz further from the AXA and ending Ibrahima Konate's tournament on the bench, and this afternoon in Atlanta Alexis Mac Allister's Argentina face England with a place in the final at stake. Behind it all, Salah's Saudi move is now reported signed with only the announcement to come, and Ekitike, Bradley and Leoni remain the long-term absentees Iraola cannot pick.",
+    "Thursday July 16, and for once the biggest Liverpool story of the day was written on a pitch rather than in a transfer office. Alexis Mac Allister is into the World Cup final. Argentina came from behind to beat England 2-1 in Atlanta on Wednesday night, Enzo Fernandez heading in a Lionel Messi cross five minutes from time after Anthony Gordon had put the Three Lions ahead, and the holders travel to New Jersey on Sunday to face Spain. It leaves Andoni Iraola a strange symmetry: both finalists carry a Liverpool man, Mac Allister with Argentina and new signing Victor Munoz with Spain, which keeps two of his players in America and out of the AXA another week. Off the grass the winger market tightened against Liverpool, with Arsenal now reported to be leading the race for Bradley Barcola and closing on Christos Tzolis, the Brugge winger who had said he would happily join Liverpool; Inter's third bid for Curtis Jones, around £27m, was turned down with the gap now near £3m; and in the Commons on Tuesday the Hillsborough Law cleared its final hurdle, backed unanimously by MPs. Mohamed Salah, a free agent since June 30, is still expected to name his Saudi club imminently now Egypt are out.",
   keyTopics: [
     {
-      title: "'We Need One More Winger': Iraola Confirms The Salah Search Goes On As Diomande Picks PSG (This Is Anfield / Liverpool.com, today)",
+      title: "Mac Allister Into The Final: Argentina 2-1 England, And Now Both Finalists Carry A Red (NPR / Al Jazeera, today)",
       detail:
-        "The defining hole in the squad, and the manager naming it out loud today. 'It is clear we need a player there, I wouldn't say to replace Mo Salah, but we need one more winger,' Iraola said of the vacancy on the right, careful not to hang the word replacement on anyone. The player Liverpool wanted most, RB Leipzig's Yan Diomande, has now leaned to Paris Saint-Germain after a bid was turned down, so the shortlist has hardened around what is left: Brighton's Yankuba Minteh, whom Iraola is said to love, at a Seagulls valuation nearer £80m; Cologne's Said El Mala as the younger, cheaper option; and a Bradley Barcola PSG will not sanction below £100m. Victor Munoz, in from Osasuna, is the one wide signing already made.",
-      category: "transfers",
-    },
-    {
-      title: "The £85m Double Hijack: Liverpool Move On Joao Gomes And Manu Kone To Stun Man Utd (TeamTalk / SportBible, today)",
-      detail:
-        "Two of Manchester United's midfield targets, one summer, and Liverpool between them and both. Reporting today describes an £85m double swoop: contact already made with Wolves for Joao Gomes, whose fee has slid toward £30m after relegation from a working £38m, and reignited interest in Roma's Manu Kone, whom Roma would sell near €55m (£47m) to balance the books. The Kopite View put Liverpool in pole for Kone despite United's enquiries. The likeliest read is that Liverpool land one and leave United the other; Gomes is keen to stay in England and is said to favour neither club, which for once makes the fee the whole conversation.",
-      category: "transfers",
-    },
-    {
-      title: "France 0-2 Spain: Munoz Into The Final, Konate's Tournament Ends On The Bench (ESPN / NPR, today)",
-      detail:
-        "The strangest fixture of Liverpool's summer settled overnight, and not in France's favour. Spain beat them 2-0 at Dallas Stadium, Mikel Oyarzabal converting a penalty after Digne fouled Lamine Yamal and Pedro Porro finishing a give-and-go with Dani Olmo on 58 minutes, to reach a first World Cup final in sixteen years. Victor Munoz, the winger Liverpool have just bought, goes with them, which keeps him in America and away from the AXA another week at least. Ibrahima Konate, who left Anfield for nothing and is Real Madrid's now, watched the elimination as an unused substitute; his Bernabeu presentation waits a little longer, but his summer is over.",
+        "The one Liverpool story this week that lived on a pitch. Argentina came from behind in Atlanta on Wednesday night to beat England 2-1 and reach a second straight World Cup final, Anthony Gordon volleying the Three Lions ahead on 55 minutes before Enzo Fernandez bent in a Messi cross with five to play. Alexis Mac Allister, who thumped a header off the inside of the post during the comeback, has started every match of the defence. Sunday's final in New Jersey pits Messi against Lamine Yamal, and it also means Iraola has a player in each dressing room: Mac Allister with Argentina, Victor Munoz with Spain, both a week further from reporting to the rebuild.",
       category: "matches",
     },
     {
-      title: "England v Argentina In Atlanta This Afternoon, Mac Allister The Last Red Standing (England Football / Al Jazeera, today)",
+      title: "Arsenal Squeeze The Winger Board: Ahead For Barcola, Closing On Tzolis, The Man Who Wanted Liverpool (TeamTalk / Empire of the Kop, today)",
       detail:
-        "Kick-off is 3pm Eastern at Mercedes-Benz Stadium, and the survivor is a Liverpool midfielder. Alexis Mac Allister has started every game of Argentina's title defence and reached the last four by scoring in the extra-time win over Switzerland; England arrived via Jude Bellingham's brace against Norway in Miami. Whoever wins meets Spain in New Jersey on Sunday. For Iraola it is a scheduling headache dressed as a compliment: the deeper his players run in this tournament, the later a midfield he has never coached reports for the rebuild, and Mac Allister could yet miss the American tour entirely.",
-      category: "matches",
-    },
-    {
-      title: "Iraola To Hold Talks With Curtis Jones And Is 'Hopeful' He Stays (Liverpool.com / Corriere dello Sport, today)",
-      detail:
-        "The exit that keeps cooling. Iraola has confirmed he will sit down with Curtis Jones about his future and is hopeful the midfielder remains, even as Inter Milan, two bids already turned away, keep circling and a weekend Nottingham Forest 'agreement' the player answered with a raised eyebrow refuses to firm up. Liverpool value him upwards of €40m and, with the manager keen, are more inclined to discuss a new contract on the final twelve months of his deal than to cash in. For a story briefed as done a few days ago, the likeliest outcome now is that nothing happens at all.",
+        "The market moved against Liverpool overnight. Reporting today puts Arsenal top of the race for Bradley Barcola, the PSG forward Liverpool have made fresh contact over, and closing fast on Christos Tzolis, the Club Brugge winger who had openly said he would sign for Liverpool, a £30-35m deal the Gunners expect to wrap before pre-season. Liverpool's stated need for another wide man now runs through Brighton's Yankuba Minteh, described as a 'concrete bid' target at £70-80m, with a cheaper Plan C in the frame. Iraola inherited a hole on the right; this week the queue in front of him got longer.",
       category: "transfers",
     },
     {
-      title: "Front Foot From Day One: Iraola Gets The Ball Out Early As The Seniors Trickle In (This Is Anfield / Rush The Kop, 1d ago)",
+      title: "Third Bid, Third No: Liverpool Reject Inter's Improved £27m For Curtis Jones (This Is Anfield / Football365, today)",
       detail:
-        "The first real look at the new methods. Reporting from the AXA says Iraola cut the fitness testing short to get a ball involved quickly, drilling the front-foot, aggressive shape that carried his Bournemouth. Fifteen first-teamers were back for day one, Kostas Tsimikas returned from loan among them, with Harvey Elliott and Jeremy Jacquet reporting for testing and the Kirkby intake, Danns, Koumas, Morrison, Abe, Ndiaye and Wright, bulking out the numbers while Mac Allister and Munoz stay on World Cup duty and Alisson finishes his post-tournament break. The tour to the United States is ten days away.",
+        "The exit that keeps not happening. Inter Milan returned with a third offer for Jones, around £27m and up from £21.7m, and Liverpool turned it down again, holding to a £35m valuation that leaves the gap near £3m. Iraola has made clear he wants to run the rule over Jones in pre-season before sanctioning anything, having said he would like to keep him, and the club are now as likely to open new-contract talks as to sell. Reported as good as gone a week ago, the 25-year-old is, for the moment, staying put.",
+      category: "transfers",
+    },
+    {
+      title: "Hillsborough Law Clears The Commons, Backed Unanimously By MPs (Liverpool FC / This Is Anfield, Tuesday)",
+      detail:
+        "The most important thing to happen to the club's people this week had nothing to do with the window. On Tuesday the Public Office (Accountability) Bill, the Hillsborough Law, passed its third reading in the House of Commons, backed unanimously by MPs after a campaign that has run for decades. It would compel public officials to tell the truth to inquiries and better support bereaved families after national tragedies. The bill now goes to the Lords in the autumn; campaigners hope it is law before the 38th anniversary next April. Thirty-seven years on, the families are still doing the work.",
       category: "general",
     },
     {
-      title: "Ekitike Eyes Boxing Day As Bradley And Leoni Stay Long-Term Out (Read Liverpool / Liverpool.com, 1d ago)",
+      title: "Salah Still To Name His Club, Now Egypt Are Out And The Announcement Is Owed (Liverpool.com / Anfield Watch, today)",
       detail:
-        "The injury picture Iraola inherits, updated with a date. Hugo Ekitike, whose Achilles went against PSG in April, is said to have a return to action around Boxing Day in mind, an ambitious target the manager has softened by warning there will be a stretch without him. Conor Bradley, the knee wrecked at Arsenal in January, is unlikely to feature in the opening months, with the darker reporting stretching it toward 2027; Giovanni Leoni, an ACL torn on his debut last September, remains the longest-term of the three. A striker, a right-back and a centre-back, none of whom the head coach can pick.",
+        "The last thread of the eight-year story. Salah, a free agent since his Liverpool deal lapsed on June 30, has agreed in principle to the Saudi Pro League and, with Egypt now eliminated from the World Cup, is expected to confirm his destination imminently. Al-Ittihad and Al-Ahli in Jeddah lead the field, Neom an outsider, and he is understood to have asked for a two or three-year deal at a club that can compete for major honours. He left a year early after a final season of ten goals and ten assists. The winger hunt above is the negative space he left behind.",
+      category: "transfers",
+    },
+    {
+      title: "The Absentee List Widens: Endo, Bajcetic And Jaros Join The Long-Term Three At The AXA (This Is Anfield / Liverpool.com, 1d ago)",
+      detail:
+        "Iraola's first pre-season is being run shorthanded. Alongside the long-term trio of Hugo Ekitike (Achilles, eyeing Boxing Day), Conor Bradley (knee, now reported to run into 2027) and Giovanni Leoni (ACL, still in the final phase), the head coach was without Wataru Endo and Stefan Bajcetic, both of whom reported early but watched the opening sessions from the side, and goalkeeper Vitezslav Jaros, sidelined by a serious knee injury. Alexander Isak, knocked out in the round of 32, is due to join the tour of the United States, where Van Dijk, Wirtz, Gravenberch and Gakpo will also link up.",
       category: "injuries",
     },
     {
-      title: "Salah's Saudi Move Is Signed, And Only The Announcement Is Waiting (Anfield Watch / SportBible, 1d ago)",
+      title: "The Midfield Raid Rumbles On: Kone And Gomes Still In Play As United Watch (Corriere dello Sport / TeamTalk, 1d ago)",
       detail:
-        "The reporting has hardened from a deal in principle to a deal agreed: a Saudi Pro League destination is settled, only the club name and the unveiling outstanding, and Europe is gone for good. Al-Ittihad and Al-Ahli in Jeddah remain the likeliest homes, Neom an outsider, with the last MLS bids from Sporting Kansas City and San Diego beaten off. Salah has been a free agent since his contract lapsed on June 30, having chosen to leave a year early after a final season of ten goals and ten assists that nobody at Anfield enjoyed. The winger search above is the shape of the room he left.",
+        "The other half of the rebuild. Liverpool remain credited with interest in Roma's Manu Kone, who has spent this tournament in France's midfield, at a fee around €55m, and in Wolves' Joao Gomes, whose price has slid toward £30m after relegation, with Manchester United tracking both. The likeliest read is still that Liverpool land one of the two and leave United the other, the whole conversation now reduced to fees and timing rather than persuasion, since neither player is thought to have a strong preference between the clubs.",
       category: "transfers",
     },
     {
-      title: "A Building With No CEO Of Football: Edwards Gone, Gordon On Day-To-Day, Hughes Eyeing Al-Hilal (RTE / This Is Anfield, 2d ago)",
+      title: "Iraola's Methods, In From Day One: Ball Out Early, Front Foot, A Squad Trickling Back (Rush The Kop / AOL, 2d ago)",
       detail:
-        "The structure above the manager is thinning as fast as the squad beneath him. Michael Edwards has resigned as FSG's CEO of football, walking a year early, frustrated by the owners' failure to add a second club to their multi-club stable, the project that lured him back after Klopp. FSG do not intend a direct replacement, leaving president Mike Gordon on day-to-day duties, and sporting director Richard Hughes is now in discussions over a move to Al-Hilal. Iraola is running his first window in a building whose executive floor is emptying around him.",
+        "The first read on the new regime. Reporting from the AXA says Iraola cut the fitness testing short to get a ball involved quickly, drilling the aggressive, front-foot shape that defined his Bournemouth, with fifteen first-teamers back for day one including Kostas Tsimikas, returned from loan, and a clutch of Kirkby youngsters padding the numbers. Alisson finishes his post-tournament break before rejoining. Only a week at Kirkby remains before the plane to America, and the manager is still building a picture of players he has never coached.",
+      category: "tactics",
+    },
+    {
+      title: "An Executive Floor Still Emptying: Edwards Gone, Gordon Holding, Hughes Toward Al-Hilal (RTE / This Is Anfield, 3d ago)",
+      detail:
+        "The context behind the caution in the market. Michael Edwards has resigned as FSG's CEO of football a year early, frustrated by the owners' failure to add a second club to the group, and the ownership do not plan a direct replacement, leaving president Mike Gordon on day-to-day duties while sporting director Richard Hughes weighs a move to Al-Hilal. It is not the ideal structure from which to launch a nine-figure bid for a winger, which is one more reason the names in the frame are the affordable ones.",
       category: "general",
-    },
-    {
-      title: "Barcola Stays A Dream, Not A Plan: PSG Signal No Sale Even After Landing Diomande (Liverpool.com / Football365, 2d ago)",
-      detail:
-        "The name that will not go away, and the number that keeps it there. Bradley Barcola remains the winger Liverpool would take first, but PSG have shown no appetite to sanction his exit even with Diomande arriving to deepen their attack, holding at a valuation above £100m. That is the gap between the dream and the plan, and it is why Minteh and El Mala have moved up the board this week. The counsel around Anfield is blunt: a club currently without a chief executive of football is not the natural buyer of a nine-figure winger.",
-      category: "transfers",
     },
   ],
   sources: [
-    "This Is Anfield",
-    "Liverpool.com",
-    "TeamTalk",
-    "SportBible",
-    "ESPN",
     "NPR",
-    "England Football",
     "Al Jazeera",
+    "TeamTalk",
+    "Empire of the Kop",
+    "This Is Anfield",
+    "Football365",
+    "Liverpool FC",
+    "Liverpool.com",
+    "Anfield Watch",
     "Corriere dello Sport",
     "Rush The Kop",
-    "Read Liverpool",
-    "Anfield Watch",
+    "AOL",
     "RTE Sport",
-    "Football365",
   ],
 };
 
@@ -600,9 +593,9 @@ export const NEWS_DIGEST = {
 // heatTier: "hot" (≥65%) | "warm" (40-64%) | "cool" (<40%) | "done" | "dead"
 // sources[].tier: "S" (Romano-class) | "A" (major outlet) | "B" (beat) | "C" (aggregator)
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-07-15T12:30:00Z",
+  generatedAt: "2026-07-16T09:10:00Z",
   summary:
-    "Wednesday's ledger is about the right wing and the middle of the park. Liverpool's first-choice winger, RB Leipzig's Yan Diomande, has leaned to Paris Saint-Germain after a bid was rebuffed, so Iraola's stated need for 'one more winger' now runs through Brighton's Yankuba Minteh, valued nearer £80m, and the cheaper Said El Mala at Cologne, with Bradley Barcola still a PSG-priced dream north of £100m. In midfield the summer's boldest idea took shape: an £85m double move on two Manchester United targets, contact with Wolves over a relegation-discounted Joao Gomes now nearer £30m, and reignited interest in Roma's Manu Kone at around €55m, the likeliest read being that Liverpool take one and leave United the other. Curtis Jones, meanwhile, looks more like staying by the day: Iraola will hold talks and is hopeful, Inter twice rebuffed and the Forest 'agreement' fading. Mohamed Salah's Saudi move is now reported signed, the announcement all that is left.",
+    "Thursday's ledger is the sound of a market moving against Liverpool. Arsenal are now reported ahead in the race for PSG's Bradley Barcola, the winger the Reds have only just made fresh contact over, and closing fast on Christos Tzolis, the Brugge man who had openly said he would join Liverpool, so Iraola's need for another wide player narrows toward Brighton's Yankuba Minteh at £70-80m and a cheaper Plan C beneath him. In the middle Inter's third bid for Curtis Jones, around £27m, has been turned down with the gap now near £3m, and with the head coach keen to keep him the exit looks likelier to collapse than complete. The midfield rebuild still runs through Roma's Manu Kone at around €55m and a relegation-discounted Joao Gomes near £30m, Manchester United tracking both, the likeliest read being that Liverpool take one and leave United the other. Mohamed Salah, a free agent since June 30, is expected to name his Saudi club any day now that Egypt are out.",
   incoming: [
     {
       id: "joaogomes-2026",
@@ -1001,9 +994,9 @@ export const TRANSFER_TARGETS = {
         { name: "This Is Anfield",  tier: "A" },
         { name: "TeamTalk",         tier: "B" },
       ],
-      lastUpdated: "2026-07-14",
+      lastUpdated: "2026-07-16",
       rumorNote:
-        "Paris · 14 Jul — effectively priced out, and Liverpool have started shopping downstairs. The valuation has settled at a British-record £128m and Arsenal are reported ahead in the race; Liverpool, with no chief executive of football and a head coach who spent Monday asking publicly for bodies, are not the club that pays it. The tell is in what has happened around this entry in the last day: an accelerated move for a £10.2m winger at Real Oviedo, a £21m name at Almeria still on the board. Those are not the alternatives a club lines up when it expects to sign a £128m one. The single loose thread is the Daily Mail's reading that Arsenal actually want Morgan Rogers. It is a thin thread."
+        "Paris · 16 Jul — the dream is now a queue. Liverpool made fresh contact this week, but the overnight reporting has Arsenal at the front of the race and PSG, who have set a British-record ask, reluctant to sell even so. With no chief executive of football in the building and a head coach who used his first press day to ask plainly for bodies, Liverpool are not the club that writes a £128m cheque; the accelerated interest in far cheaper wingers is the tell for which shelf they are really shopping. The one loose thread is the Daily Mail's reading that Arsenal in fact want Morgan Rogers. It is a thin thread, and thinner now that Tzolis is going their way."
     },
     {
       id: "neto-2026",
@@ -1841,12 +1834,12 @@ export const TRANSFER_TARGETS = {
       id: "jones-out",
       name: "Curtis Jones",
       position: "MID",
-      destination: "Inter (bids rejected) / Nottingham Forest (fading)",
+      destination: "Inter (third bid rejected) / Nottingham Forest (faded)",
       feeAsk: { min: 35, max: 40, currency: "£m" },
-      probability: 25,
+      probability: 22,
       heatTier: "cool",
-      sources: [{ name: "Liverpool.com", tier: "B" }, { name: "Corriere dello Sport", tier: "B" }, { name: "This Is Anfield", tier: "A" }, { name: "TeamTalk", tier: "B" }],
-      note: "Wed 15 Jul — the talks are coming, and the mood has turned toward keeping him. Iraola has confirmed he will sit down with Jones about his future and is hopeful he stays, a shift the whole file now reflects: Inter Milan have twice been rebuffed and a weekend Nottingham Forest 'agreement', which the player greeted with a raised eyebrow and nothing more, has not firmed up. Liverpool value him upwards of €40m and, with the head coach keen, are more inclined to open new-contract talks on the final year of his deal than to sell. For a departure briefed as done a week ago, the likeliest outcome now is that nothing happens.",
+      sources: [{ name: "This Is Anfield", tier: "A" }, { name: "Football365", tier: "B" }, { name: "Liverpool.com", tier: "B" }, { name: "TeamTalk", tier: "B" }],
+      note: "Thu 16 Jul — three bids in, three times turned away. Inter Milan have gone again, an improved offer around £27m up from £21.7m, and Liverpool have said no again, holding to a £35m valuation that leaves the gap near £3m. Iraola wants to run the rule over Jones in pre-season before sanctioning anything and has said he would like to keep him, so the club are now as likely to open new-contract talks as to cash in on the final year of his deal. The weekend's Forest 'agreement' has quietly faded. For a departure briefed as done a week ago, staying put is now the likeliest outcome.",
     },
     {
       id: "gakpo-out",
