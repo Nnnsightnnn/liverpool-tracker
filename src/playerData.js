@@ -547,16 +547,16 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "Jacquet Unveiled, Van Dijk Off The Market: Milan Told To Wait Until 2027 (This Is Anfield / Liverpool.com, 1d ago)",
-      detail:
-        "The back line settles even as it thins. Rennes defender Jeremie Jacquet, a summer signing, has been unveiled with his shirt number confirmed, cover for a centre-back group that lost Ibrahima Konate to Real Madrid on a free. On the captain, Liverpool have told AC Milan plainly that Virgil van Dijk is not for sale; Milan, driven by Zlatan Ibrahimovic's interest, have redrawn their plan to target him on a free in 2027 when his Anfield deal expires. Iraola builds the rebuild around him, not from under him.",
-      category: "general",
-    },
-    {
       title: "Salah Still To Name His Club, The Announcement Now Owed (Liverpool.com / Anfield Watch, today)",
       detail:
         "The last thread of the eight-year story. Salah, a free agent since his contract lapsed on June 30, has agreed in principle to the Saudi Pro League and, knocked out of the World Cup by Messi's Argentina, is expected to confirm his destination imminently. Al-Ittihad and Al-Ahli in Jeddah lead, Neom an outsider, with a late MLS option in San Diego and Sporting Kansas City not yet dead. He left a year early after a final season of ten goals and ten assists. The winger names above are the shape of the hole he leaves.",
       category: "transfers",
+    },
+    {
+      title: "Jacquet Unveiled, Van Dijk Off The Market: Milan Told To Wait Until 2027 (This Is Anfield / Liverpool.com, 1d ago)",
+      detail:
+        "The back line settles even as it thins. Rennes defender Jeremie Jacquet, a summer signing, has been unveiled with his shirt number confirmed, cover for a centre-back group that lost Ibrahima Konate to Real Madrid on a free. On the captain, Liverpool have told AC Milan plainly that Virgil van Dijk is not for sale; Milan, driven by Zlatan Ibrahimovic's interest, have redrawn their plan to target him on a free in 2027 when his Anfield deal expires. Iraola builds the rebuild around him, not from under him.",
+      category: "general",
     },
     {
       title: "Szoboszlai Tied Down As The Squad Reshapes Around The Away Days (Liverpool.com / Sky Sports, 1d ago)",
