@@ -348,13 +348,13 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Thursday, and for once the summer's loudest news was made on a pitch.
-          Alexis Mac Allister is into the <em>World Cup final</em>, Argentina
-          beating England in Atlanta, and now both finalists carry a Liverpool
-          man. At home the winger market drifts the wrong way, Arsenal ahead for
-          Barcola and closing on a man who had wanted Anfield, while Inter's
-          third bid for Curtis Jones is turned away again. Nine days to
-          Nashville, and the team Iraola wants is still not the team he has.
+Friday, and the summer holds its breath for Sunday. Alexis Mac
+          Allister and Victor Munoz meet in the <em>World Cup final</em> in New
+          Jersey, a Red on each side, while at home the winger board turns back
+          toward Anfield: Arsenal drift to Rogers, Iraola sounds out a
+          Bournemouth teenager he once coached, and Inter are sent away a third
+          time for Curtis Jones. Eight days to Nashville, and the team Iraola
+          wants is still being built around the one he has.
         </p>
 
         <StatStrip stats={stats} />
@@ -369,21 +369,21 @@ Thursday, and for once the summer's loudest news was made on a pitch.
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and the story finally moved onto the grass. Alexis Mac Allister
-              spent Wednesday night in Atlanta dragging Argentina back into a
-              semi-final England had led, and walked out of it a World Cup
-              finalist, bound for New Jersey on Sunday to meet Spain, which is to
-              say to meet <em>Victor Munoz</em>. Both of Andoni Iraola's
-              finalists now wear another country's shirt, both a week further
-              from the AXA. At home the news runs thinner. Arsenal have moved to
-              the front of the queue for Bradley Barcola and are closing on
-              Christos Tzolis, the winger who had said he would happily come to
-              Anfield, so the hunt for one more forward narrows toward Minteh
-              and a cheaper name beneath him. Inter came back a third time for
-              Curtis Jones, twenty-seven million pounds, and were sent away a
-              third time. Nine days to Nashville. The squad he has is still not
-              the squad he wants.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              and the football stops to hold a final. On Sunday in New Jersey,
+              Argentina meet Spain, and Andoni Iraola will watch a player in
+              each XI: Alexis Mac Allister for the holders, <em>Victor Munoz</em>{" "}
+              for the champions of Europe, a Red on each side of the halfway
+              line. The pundits' combined team found room for Dani Olmo over
+              Mac Allister, the kind of verdict a man can overturn in ninety
+              minutes. At home the market, for once, turned Liverpool's way.
+              Arsenal are reported to be drifting toward Morgan Rogers, which
+              loosens their hold on Bradley Barcola, and Iraola has gone back for
+              one of his own, enquiring after the Bournemouth teenager Rayan
+              whose price is a wall until 2027. Inter came a third time for
+              Curtis Jones, and were sent away a third time. Eight days to
+              Nashville. The squad he wants is still being assembled around the
+              one he has.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -391,12 +391,13 @@ Thursday, and for once the summer's loudest news was made on a pitch.
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              Red in each World Cup final; a winger market drifting toward
-              Arsenal and away from Anfield; Inter turned away a third time for
-              Curtis Jones; an injury list that runs the manager's first
-              sessions shorthanded; and, above all the transfer noise, the
-              Hillsborough Law reaching the Commons at last. Read them in order.
-              The market moves; the football, for one night, did not wait.
+              Red in each World Cup final; a winger board that turned back toward
+              Anfield this week, Rayan and Minteh in the frame as Arsenal look
+              elsewhere; Inter turned away a third time for Curtis Jones; an
+              injury list that runs the manager's first sessions shorthanded;
+              and, above the transfer noise, the Hillsborough Law through the
+              Commons and bound for the Lords. Read them in order. The market
+              moves; on Sunday, the football stops to crown a champion.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3114,7 +3115,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A Red in each final, and a hole on the right."
+        "Two days out, a Red on each side."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

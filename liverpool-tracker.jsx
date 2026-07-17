@@ -128,20 +128,20 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "NPR", title: "Messi fuels Argentina's late rally past England 2-1: Mac Allister into the World Cup final, and both finalists carry a Liverpool man", time: "today", category: "major" },
-  { source: "TeamTalk", title: "Winger market turns: Arsenal move to the front of the Barcola race and close on Christos Tzolis, the man who said he'd join Liverpool", time: "today", category: "major" },
-  { source: "This Is Anfield", title: "Third time no: Liverpool reject Inter's improved £27m bid for Curtis Jones as the gap closes to £3m", time: "today", category: "major" },
-  { source: "Liverpool FC", title: "Hillsborough Law clears the House of Commons, backed unanimously by MPs at third reading", time: "today", category: "official" },
-  { source: "Football365", title: "Iraola wants to keep Curtis Jones: head coach to assess the midfielder across pre-season before any exit", time: "today", category: "fan" },
-  { source: "Empire of the Kop", title: "'Excellent' winger Tzolis set for Arsenal despite Liverpool interest as Gunners advance on multiple targets", time: "today", category: "fan" },
-  { source: "Liverpool.com", title: "Mo Salah expected to name his Saudi club imminently now Egypt are out of the World Cup", time: "today", category: "major" },
-  { source: "This Is Anfield", title: "Shorthanded start: Endo, Bajcetic and Jaros join Ekitike, Bradley and Leoni on Iraola's absentee list", time: "1d ago", category: "fan" },
-  { source: "Corriere dello Sport", title: "Liverpool stay in for Roma's Manu Kone near €55m as Manchester United track both him and Joao Gomes", time: "1d ago", category: "major" },
-  { source: "Anfield Watch", title: "Alexander Isak, out of the World Cup at the round of 32, set to join the squad for the pre-season tour of the USA", time: "1d ago", category: "fan" },
-  { source: "Rush The Kop", title: "Iraola gets the ball out early: front-foot first sessions as 15 first-teamers report to the AXA", time: "2d ago", category: "fan" },
-  { source: "TeamTalk", title: "FSG plan a 'concrete bid' for £70-80m Yankuba Minteh as the affordable answer to the winger question", time: "2d ago", category: "major" },
-  { source: "RTE Sport", title: "Michael Edwards' FSG exit leaves Mike Gordon on day-to-day duties as Richard Hughes eyes Al-Hilal", time: "3d ago", category: "major" },
-  { source: "Read Liverpool FC", title: "Ekitike targets a Boxing Day return as Bradley's knee is now reported to run into 2027", time: "3d ago", category: "fan" },
+  { source: "NBC Sports", title: "48 hours to the final: Argentina meet Spain in New Jersey on Sunday with Mac Allister and Munoz set to face off, a Red in each XI", time: "today", category: "major" },
+  { source: "TeamTalk", title: "Iraola goes back for his own: Liverpool open enquiries for Bournemouth's £130m-clause Brazilian Rayan, the teenager he coached", time: "today", category: "major" },
+  { source: "Read Liverpool", title: "Record for an Asian player: Liverpool ready a £51m bid for Mainz's Kaishu Sano to beat Arsenal, Spurs and Dortmund", time: "today", category: "major" },
+  { source: "Fabrizio Romano", title: "Barcola door reopens: Arsenal reported to pivot toward Morgan Rogers, easing the Gunners off the PSG winger", time: "today", category: "major" },
+  { source: "Liverpool.com", title: "'Not only for this year': Iraola wants Curtis Jones to stay as Liverpool reject Inter's third bid of ~£27m", time: "today", category: "fan" },
+  { source: "This Is Anfield", title: "Jeremie Jacquet unveiled with shirt number confirmed as AC Milan told Van Dijk is not for sale until 2027", time: "today", category: "fan" },
+  { source: "FOX Sports", title: "Combined XI snub: pundits pick Dani Olmo ahead of Mac Allister in their Argentina-Spain final team", time: "today", category: "fan" },
+  { source: "Liverpool.com", title: "Mo Salah expected to name his Saudi club any day after Egypt's World Cup exit, MLS thread still faintly alive", time: "1d ago", category: "major" },
+  { source: "Sky Sports", title: "Dominik Szoboszlai's contract situation resolved as Liverpool lock in a spine that has waved off Salah, Robertson and Konate", time: "1d ago", category: "official" },
+  { source: "This Is Anfield", title: "Shorthanded at Kirkby: Endo, Bajcetic and Jaros out as Iraola runs his first sessions a squad short", time: "1d ago", category: "fan" },
+  { source: "Yahoo Sports", title: "Minteh the deliverable one: Liverpool could lodge a 'concrete' £70m bid for the Brighton winger inside a fortnight", time: "2d ago", category: "fan" },
+  { source: "Liverpool FC", title: "Hillsborough Law clears the Commons and heads for the Lords, backed unanimously by MPs at third reading", time: "2d ago", category: "official" },
+  { source: "Anfield Watch", title: "Alexander Isak, out of the World Cup at the round of 32, set to join the pre-season tour of the USA", time: "2d ago", category: "fan" },
+  { source: "TeamTalk", title: "Kone and Joao Gomes remain the fallback sixes as Liverpool weigh a record move for Sano first", time: "3d ago", category: "major" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
