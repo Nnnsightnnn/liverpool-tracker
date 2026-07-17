@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="World Cup final night: two figures facing off under stadium floodlights">
+  <defs>
+    <radialGradient id="sky" cx="66%" cy="20%" r="90%">
+      <stop offset="0%" stop-color="#241318"/>
+      <stop offset="42%" stop-color="#160C10"/>
+      <stop offset="100%" stop-color="#0E0709"/>
+    </radialGradient>
+    <radialGradient id="flood" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F4EBD0" stop-opacity="0.9"/>
+      <stop offset="35%" stop-color="#F6EB61" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#F6EB61" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pitch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1E7A47" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#0E0709" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="redFig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#C8102E"/>
+      <stop offset="100%" stop-color="#7A0A1C"/>
+    </linearGradient>
+    <linearGradient id="coolFig" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3A5C88"/>
+      <stop offset="100%" stop-color="#16202E"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/>
+    </filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="7"/></filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky)"/>
+
+  <!-- floodlight glows, upper right -->
+  <ellipse cx="1180" cy="150" rx="520" ry="380" fill="url(#flood)"/>
+  <ellipse cx="1440" cy="90" rx="300" ry="240" fill="url(#flood)" opacity="0.7"/>
+
+  <!-- stand / crowd suggestion -->
+  <g opacity="0.5">
+    <rect x="0" y="250" width="1600" height="170" fill="#0E0709"/>
+    <g fill="#F4EBD0" opacity="0.10">
+      <rect x="40" y="300" width="1520" height="3"/>
+      <rect x="40" y="340" width="1520" height="3"/>
+      <rect x="40" y="380" width="1520" height="3"/>
+    </g>
+  </g>
+
+  <!-- pitch light wash + centre circle -->
+  <rect x="0" y="470" width="1600" height="430" fill="url(#pitch)"/>
+  <g stroke="#F4EBD0" stroke-opacity="0.16" fill="none" stroke-width="3">
+    <ellipse cx="800" cy="760" rx="360" ry="120"/>
+    <line x1="800" y1="470" x2="800" y2="900"/>
+    <circle cx="800" cy="760" r="6" fill="#F4EBD0" fill-opacity="0.3" stroke="none"/>
+  </g>
+
+  <!-- two figures facing off across the halfway line -->
+  <g filter="url(#soft)" opacity="0.28">
+    <ellipse cx="690" cy="800" rx="90" ry="26" fill="#000"/>
+    <ellipse cx="912" cy="800" rx="90" ry="26" fill="#000"/>
+  </g>
+  <!-- red (Argentina/Liverpool tint), left of centre -->
+  <g transform="translate(690,540)">
+    <circle cx="0" cy="0" r="34" fill="url(#redFig)"/>
+    <path d="M -46 250 C -52 120 -34 60 0 44 C 34 60 52 120 46 250 Z" fill="url(#redFig)"/>
+    <path d="M -44 90 L -96 180 -70 196 -30 120 Z" fill="url(#redFig)"/>
+    <path d="M 44 90 L 96 176 72 194 30 120 Z" fill="url(#redFig)"/>
+  </g>
+  <!-- cool (Spain), right of centre, mirrored -->
+  <g transform="translate(912,540) scale(-1,1)">
+    <circle cx="0" cy="0" r="34" fill="url(#coolFig)"/>
+    <path d="M -46 250 C -52 120 -34 60 0 44 C 34 60 52 120 46 250 Z" fill="url(#coolFig)"/>
+    <path d="M -44 90 L -96 180 -70 196 -30 120 Z" fill="url(#coolFig)"/>
+    <path d="M 44 90 L 96 176 72 194 30 120 Z" fill="url(#coolFig)"/>
+  </g>
+
+  <!-- gold rim light seam down the centre -->
+  <rect x="798" y="470" width="4" height="430" fill="#F6EB61" opacity="0.22"/>
+
+  <!-- vignette + grain -->
+  <rect width="1600" height="900" fill="url(#sky)" opacity="0.15"/>
+  <rect width="1600" height="900" filter="url(#grain)" opacity="0.5"/>
+</svg>

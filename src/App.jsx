@@ -5,7 +5,7 @@ import BrandCredit from "./components/BrandCredit.jsx";
 import {
   PLAYERS, RSS_FEEDS, RESULTS, NEXT_MATCH,
   NEWS_DIGEST, STANDINGS, STANDINGS_COMMENTARY, DISPATCHES, TEAM_LOGOS,
-  TRANSFER_TARGETS, TARGET_SCOUTING,
+  TRANSFER_TARGETS, TARGET_SCOUTING, COVER_IMAGE,
 } from "./playerData.js";
 import LineupView from "./LineupView.jsx";
 
@@ -328,9 +328,46 @@ function CoverView({ onJump }) {
     ];
   }, []);
 
+  // Edition hero image (see COVER_IMAGE in playerData.js). Full-bleed behind the
+  // masthead with a legibility scrim; falls back to the pure-type cover if the
+  // image is absent or fails to load. generatedAt doubles as a cache-buster.
+  const coverSrc = COVER_IMAGE?.src
+    ? `${import.meta.env.BASE_URL}${COVER_IMAGE.src.replace(/^\//, "")}${
+        COVER_IMAGE.generatedAt ? `?v=${encodeURIComponent(COVER_IMAGE.generatedAt)}` : ""
+      }`
+    : null;
+  const [heroOk, setHeroOk] = useState(false);
+
   return (
     <section style={{ animation: `pageTurn .55s ${T.ease} both` }}>
-      <div className="cover-section-pad" style={{ padding: "72px 0 56px", borderBottom: `1px solid ${T.rule}` }}>
+      <div className="cover-section-pad" style={{ position: "relative", padding: "72px 0 56px", borderBottom: `1px solid ${T.rule}` }}>
+        {coverSrc && (
+          <div
+            aria-hidden="true"
+            className="cover-hero-media"
+            style={{
+              position: "absolute", top: 0, bottom: 0,
+              overflow: "hidden", zIndex: 0,
+              opacity: heroOk ? 1 : 0, transition: "opacity .9s ease",
+            }}
+          >
+            <img
+              src={coverSrc}
+              alt=""
+              onLoad={() => setHeroOk(true)}
+              onError={() => setHeroOk(false)}
+              style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 32%" }}
+            />
+            {/* left-weighted + bottom scrim so the ivory masthead stays legible */}
+            <div style={{
+              position: "absolute", inset: 0,
+              background:
+                `linear-gradient(100deg, ${T.ink} 0%, ${T.ink}F2 38%, ${T.ink}A6 68%, ${T.ink}66 100%),` +
+                `linear-gradient(to top, ${T.ink} 2%, ${T.ink}00 55%)`,
+            }} />
+          </div>
+        )}
+        <div style={{ position: "relative", zIndex: 1 }}>
         <div style={{
           fontFamily: T.serif, fontStyle: "italic", fontWeight: 500,
           fontSize: 14, color: T.red, marginBottom: 28, letterSpacing: "0.02em",
@@ -358,6 +395,20 @@ Friday, and the summer holds its breath for Sunday. Alexis Mac
         </p>
 
         <StatStrip stats={stats} />
+
+        {coverSrc && heroOk && (COVER_IMAGE.focus || COVER_IMAGE.credit) && (
+          <div className="cover-hero-caption" style={{
+            marginTop: 28, display: "flex", alignItems: "center", gap: 12, flexWrap: "wrap",
+            fontFamily: T.sans, fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
+            color: T.ivoryFaint,
+          }}>
+            <span style={{ width: 22, height: 1, background: T.red, display: "inline-block" }} />
+            {COVER_IMAGE.focus && <span style={{ color: T.ivoryDim }}>{COVER_IMAGE.focus}</span>}
+            {COVER_IMAGE.focus && COVER_IMAGE.credit && <span aria-hidden="true">·</span>}
+            {COVER_IMAGE.credit && <span>{COVER_IMAGE.credit}</span>}
+          </div>
+        )}
+        </div>{/* /masthead content (above hero media) */}
       </div>
 
       {/* Editor's letter + featured */}
@@ -3155,6 +3206,8 @@ export default function LiverpoolTracker() {
     }}>
       {/* Inline responsive shims — collapse two-col on narrow screens */}
       <style>{`
+        /* Cover hero media bleeds to the page gutter (matches .anfield-page padding) */
+        .cover-hero-media { left: -56px; right: -56px; }
         @media (max-width: 1024px) {
           .matchday-grid { grid-template-columns: 1fr !important; }
           .roster-grid { grid-template-columns: 1fr !important; }
@@ -3180,6 +3233,8 @@ export default function LiverpoolTracker() {
           .cover-hero { font-size: 64px !important; line-height: 0.95 !important; margin-bottom: 20px !important; letter-spacing: -0.03em !important; }
           .cover-deck { font-size: 18px !important; margin-bottom: 32px !important; }
           .cover-section-pad { padding: 48px 0 36px !important; }
+          .cover-hero-media { left: -18px !important; right: -18px !important; }
+          .cover-hero-caption { font-size: 9px !important; letter-spacing: 0.16em !important; }
 
           /* Cover "in this issue" 2-col → stack */
           .cover-issue-grid { grid-template-columns: 1fr !important; gap: 32px !important; }
@@ -3247,6 +3302,7 @@ export default function LiverpoolTracker() {
 
         @media (max-width: 480px) {
           .anfield-page { padding: 0 14px !important; }
+          .cover-hero-media { left: -14px !important; right: -14px !important; }
           .cover-hero { font-size: 52px !important; }
           .chapter-h2 { font-size: 30px !important; }
           .matchday-fixture { font-size: 26px !important; }

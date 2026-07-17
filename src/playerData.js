@@ -358,6 +358,38 @@ export const TEAM_LOGOS = {
   "Roma":             "https://img.uefa.com/imgml/TP/teams/logos/50x50/50043.png",
 };
 
+// ─── Cover Image (edition hero — tied to the lead story) ────────────────────
+// The cover renders `src` full-bleed behind the masthead with a legibility
+// scrim; if `src` is null or the file fails to load, the cover falls back to
+// the pure-type masthead. `generatedAt` doubles as a cache-buster (?v=).
+//
+// TWO-TRACK PIPELINE (see docs/COVER-IMAGE-PIPELINE.md):
+//   • The daily liverpool-tracker-update run regenerates a deterministic SVG
+//     "editorial plate" (public/assets/cover/*.svg) from the lead story, so the
+//     cover always has a visual, and writes `brief` below.
+//   • Antigravity ("agy") reads `brief`, generates a premium photographic image
+//     when the lead is genuinely visual, drops the JPG in public/assets/cover/,
+//     and repoints `src` + `credit` + `generatedAt` at it.
+// `focus` is the one-line "most important focus of the latest edition."
+export const COVER_IMAGE = {
+  src: "/assets/cover/2026-07-17-world-cup-final.svg",
+  alt: "A Red in each World Cup final: Mac Allister for Argentina, Munoz for Spain, meeting in New Jersey on Sunday.",
+  focus: "The World Cup final — a Red in each XI",
+  credit: "Editorial plate · auto-generated",
+  generatedAt: "2026-07-17T09:00:00Z",
+  // Machine-readable handoff written by the daily run, consumed by Antigravity.
+  brief: {
+    leadStory:
+      "Forty-eight hours to the World Cup final in New Jersey, where Alexis Mac Allister (Argentina) and Victor Munoz (Spain) meet on opposite sides on Sunday, a Liverpool man in each XI.",
+    subject:
+      "Alexis Mac Allister and Victor Munoz facing each other across the halfway line under MetLife Stadium floodlights on World Cup final night, red and blue kits, packed stands behind",
+    prompt:
+      "Cinematic wide editorial sports photograph, two international footballers squaring up across the centre circle of a floodlit World Cup final at a vast modern stadium at night, dramatic rim lighting, shallow depth of field, film grain, muted teal-and-crimson palette, no on-image text, room on the left for a masthead headline",
+    aspectRatio: "landscape",
+    slug: "world-cup-final",
+  },
+};
+
 // ─── Next Fixture ──────────────────────────────────────────────────────────
 export const NEXT_MATCH = {
   opponent: "Sunderland",

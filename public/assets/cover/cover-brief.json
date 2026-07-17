@@ -1,0 +1,13 @@
+{
+  "edition": "2026-07-17",
+  "focus": "The World Cup final — a Red in each XI",
+  "leadStory": "Forty-eight hours to the World Cup final in New Jersey, where Alexis Mac Allister (Argentina) and Victor Munoz (Spain) meet on opposite sides on Sunday, a Liverpool man in each XI.",
+  "subject": "Alexis Mac Allister and Victor Munoz facing each other across the halfway line under MetLife Stadium floodlights on World Cup final night, red and blue kits, packed stands behind",
+  "prompt": "Cinematic wide editorial sports photograph, two international footballers squaring up across the centre circle of a floodlit World Cup final at a vast modern stadium at night, dramatic rim lighting, shallow depth of field, film grain, muted teal-and-crimson palette, no on-image text, room on the left for a masthead headline",
+  "aspectRatio": "landscape",
+  "slug": "world-cup-final",
+  "targetPath": "public/assets/cover/2026-07-17-world-cup-final.jpg",
+  "currentSrc": "/assets/cover/2026-07-17-world-cup-final.svg",
+  "visualLeadIsPhotoWorthy": true,
+  "notes": "Track 1 SVG plate is live. Antigravity may supersede it with a real photo per prompt, then repoint COVER_IMAGE.src and set credit 'Illustration · Antigravity'. Cap: one image per edition."
+}
