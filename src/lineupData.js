@@ -23,19 +23,19 @@ export const FORMATIONS = {
     // fifth. This is not a matchday prediction but a SNAPSHOT of the XI that
     // closed the campaign, adjusted for the summer exits (Kerkez, Jacquet and
     // Ngumoha step in for Robertson, Konate and Salah). 4-3-3 is the backup
-    // look. Refreshed Tue Jul 14: pre-season opened at the AXA this morning with
-    // roughly fifteen seniors plus academy cover; Iraola confirmed Ekitike,
-    // Bradley and Leoni as long-term absentees (a "difficult situation"), which
-    // leaves Frimpong the only recognised right back and Jacquet the only senior
-    // centre-back; Inter's third bid for Curtis Jones was rejected because the
-    // head coach wants to keep him; Salah is a free agent still without a
-    // confirmed club (Besiktas reported Jul 17, denied by his agent).
+    // look. Refreshed Sat Jul 18: Szoboszlai has signed to 2031; Ekitike and
+    // Leoni remain long-term absentees while Bradley is now reported to be
+    // targeting a return shortly after matchday one; Frimpong is still the only
+    // recognised right back and Jacquet the only senior centre-back; Curtis
+    // Jones shut down a reported Forest agreement himself and looks a stay;
+    // Salah is a free agent with no confirmed club (Besiktas reported Jul 17,
+    // denied by his agent hours later).
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
       LCB: 3,   // Van Dijk (captain · contracted to 2027)
       RCB: 11,  // Jacquet (unveiled Jul 1 · steps in for Madrid-bound Konaté)
-      RB: 9,    // Frimpong (only recognised RB · Bradley out into 2027)
+      RB: 9,    // Frimpong (only recognised RB · Bradley targets an early return)
       LCM: 13,  // Mac Allister (midfield three)
       CM: 14,   // Gravenberch (control of midfield · most reliable MID)
       RCM: 15,  // Szoboszlai (engine · 48 apps)
@@ -74,7 +74,7 @@ export const FORMATIONS = {
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
       LCB: 3,   // Van Dijk (captain · contracted to 2027)
       RCB: 11,  // Jacquet (unveiled Jul 1 · steps in for Madrid-bound Konaté)
-      RB: 9,    // Frimpong (only recognised RB · Bradley out into 2027)
+      RB: 9,    // Frimpong (only recognised RB · Bradley targets an early return)
       LDM: 14,  // Gravenberch (double-pivot · most reliable midfielder)
       RDM: 15,  // Szoboszlai (the season's heaviest-minutes midfielder)
       LAM: 18,  // Wirtz (wide-left · injury-hit debut season)
@@ -112,7 +112,7 @@ export const FORMATIONS = {
       LWB: 7,   // Kerkez (LWB with Robertson gone to Spurs)
       LCM: 14,  // Gravenberch (most reliable midfielder)
       RCM: 13,  // Mac Allister (anchors double pivot)
-      RWB: 9,   // Frimpong (only recognised RB · Bradley out into 2027)
+      RWB: 9,   // Frimpong (only recognised RB · Bradley targets an early return)
       LW: 22,   // Gakpo (LW in the three-man attack)
       ST: 23,   // Isak (No. 9 when fit)
       RW: 25,   // Ngumoha (the post-Salah slot until a winger signs)
@@ -182,11 +182,11 @@ export const SLOT_CONFIDENCE = {
   LB:  "Low",    // Robertson gone free to Spurs · Kerkez inherits, back day one
   LCB: "Medium", // Van Dijk · 35 · Milan interest knocked back · not back until the US tour
   RCB: "Low",    // Konate gone free to Madrid · Jacquet the only senior CB available · Inacio heads the list
-  RB:  "Low",    // Frimpong the only recognised RB · Bradley's knee reported into 2027 · Jones likely staying, Iraola to hold talks
+  RB:  "Low",    // Frimpong the only recognised RB · Bradley now targets a return soon after matchday one · Jones staying in midfield
   LDM: "High",   // Gravenberch · the season's most reliable midfielder
-  RDM: "Medium", // Szoboszlai · mainstay, extension still pending · in day one
+  RDM: "High",   // Szoboszlai · new five-year deal signed to 2031 · in day one
   LAM: "Medium", // Wirtz · injury-hit debut season · back for the tour
-  CAM: "Low",    // Mac Allister · in Sunday's World Cup final · no extension talks open
+  CAM: "Low",    // Mac Allister · starts tomorrow's World Cup final · no extension talks open
   RAM: "Low",    // Salah gone (Besiktas reported, agent denies) · PSG call Barcola 'off limits' at £127.5m · Minteh at £70m now the only deliverable name
   ST:  "Medium", // Isak · £100m striker · injury-wrecked first season · back for the tour
 };
@@ -221,11 +221,11 @@ export const ALTERNATIVES = {
   LB:  [{ playerId: 7, reason: "Kerkez · the first-choice left-back going forward now Robertson has left" }],
   LCB: [{ playerId: 5, reason: "Gomez · can shuffle infield to centre-back in extremis" }],
   RCB: [{ playerId: 11, reason: "Jacquet · the only senior centre-back Iraola can pick until Van Dijk is back; Leoni is long-term out" }],
-  RB:  [{ playerId: 9, reason: "Frimpong · the only recognised right-back in the building; Bradley's knee is now reported to run into 2027" }, { playerId: 5, reason: "Gomez · the emergency right-back cover now Jones looks likelier to stay in midfield" }],
+  RB:  [{ playerId: 9, reason: "Frimpong · the only recognised right-back in the building; Bradley targets a return soon after matchday one" }, { playerId: 5, reason: "Gomez · the emergency right-back cover now Jones looks likelier to stay in midfield" }],
   LDM: [{ playerId: 13, reason: "Mac Allister · could swap depths with Gravenberch in the double-pivot" }],
   RDM: [{ playerId: 14, reason: "Gravenberch · could swap depths with Szoboszlai" }],
   LAM: [{ playerId: 22, reason: "Gakpo · a wide-left option · exit now called unlikely" }, { playerId: 25, reason: "Ngumoha · breakout teenager · rotation option on the left" }],
-  CAM: [{ playerId: 15, reason: "Szoboszlai · can push forward into the No. 10 with another midfielder in the pivot" }, { playerId: 16, reason: "Curtis Jones · staying, on current evidence: Inter's third bid rejected because Iraola wants him" }],
+  CAM: [{ playerId: 15, reason: "Szoboszlai · signed to 2031, can push into the No. 10 with another midfielder in the pivot" }, { playerId: 16, reason: "Curtis Jones · staying, on current evidence: Inter's third bid rejected because Iraola wants him" }],
   RAM: [{ playerId: 25, reason: "Ngumoha · teenage wide option · part of the post-Salah picture" }, { playerId: 26, reason: "Chiesa · trained day one and staying to fight for a starting role" }],
   ST:  [{ playerId: 25, reason: "Ngumoha · led the line in Isak's absences late in the season" }, { playerId: 22, reason: "Gakpo · false-9 option used by Slot earlier in the year" }],
 };

@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Tue Jul 14 — pre-season starts without him, and the horizon has moved the wrong way. Iraola named Bradley among the three long-term absentees at Monday's press conference, calling the set of them a 'difficult situation,' and fresh reporting now suggests the knee that gave way at Arsenal in January is worse than first thought, with a return possibly not arriving until 2027. That is a full calendar year of a 22-year-old right back's career. Frimpong holds the slot alone, and the market is being asked to cover a position Liverpool thought they had solved", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Sat Jul 18 — the horizon moves back the right way. After a fortnight in which the knee that gave way at Arsenal in January was spoken of as a 2027 problem, David Lynch reported this week that Bradley is targeting a return shortly after the new campaign begins and is 'not a million miles away,' which he called a nice surprise for some of you. Liverpool will not lean on him and are planning the season without him, as they should with a 22-year-old and a serious knee. But the language around him has changed from lost year to a matter of weeks, and Frimpong has been holding the flank alone", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -93,7 +93,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Tue Jul 14 — the last man standing in his position, and pre-season has begun. With Bradley's knee now reported to be a 2027 problem rather than an autumn one, and Curtis Jones, last season's emergency cover, likelier to be kept in midfield than shifted, Frimpong is the only recognised right back Iraola can pick. The market is being asked to find a deputy. His own first year at Anfield was interrupted repeatedly by muscle trouble, so the ask is not brilliance, it is availability: thirty-eight league games, uninterrupted, for the first time", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Sat Jul 18 — the last man standing, with company on the horizon. Frimpong remains the only recognised right back Iraola can pick, but Bradley is now reported to be targeting a return shortly after the season opens rather than the 2027 date briefed a fortnight ago, and Curtis Jones, last season's emergency cover, is staying in midfield after answering a reported Forest agreement with a raised eyebrow. The market is still being asked for a deputy, Palestra and Geertruida the names. His own first year at Anfield was interrupted repeatedly by muscle trouble, so the ask is not brilliance, it is availability", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 48, goals: 12, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.3, status: "fit", injuryNote: "Mon May 25 — season over: closes a heavy-minutes season of 48 appearances as a midfield mainstay; a contract extension is still expected to be agreed over the summer", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 48, goals: 12, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.3, status: "fit", injuryNote: "Sat Jul 18 — signed, and for a long time. Szoboszlai has put his name to a new five-year contract running to 2031, three years on from arriving from RB Leipzig on a deal that ran only to 2028, with reported terms in the £200,000-£250,000 band. He closed last season with 48 appearances and was voted supporters' player of the season after filling in at right-back, at the eight and on the right wing without complaint. With Salah, Konate and Robertson all gone for nothing, this is the club choosing to keep", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -161,7 +161,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Thu Jul 16 — three bids, three rejections. Inter Milan have returned with an improved offer around £27m, up from £21.7m, and Liverpool have turned it down again, holding to a £35m valuation that leaves the gap near £3m. Iraola wants to assess Jones in pre-season before sanctioning any exit and has said he would like to keep him, so the club are now as likely to open new-contract talks as to sell on the final year of his deal. The weekend's Nottingham Forest 'agreement' has quietly faded. For a departure briefed as done a week ago, staying put is now the likeliest outcome", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Sat Jul 18 — one character, and the story stops. An Italian paper had Jones as good as agreed with Nottingham Forest, cutting across Inter's rejected bids; he answered on social media with a single raised-eyebrow emoji and left it there. He is separately reported to be reluctant about Forest, with Aston Villa also interested, while Liverpool hold a valuation north of £34m against Inter's £27m. Iraola wants to assess him in pre-season and has said he would like to keep him, so new terms now look likelier than a sale. He reports back to the AXA next week", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -351,7 +351,7 @@ export const TEAM_LOGOS = {
   "Monaco":           "https://img.uefa.com/imgml/TP/teams/logos/50x50/50023.png",
   "Osasuna":          "https://upload.wikimedia.org/wikipedia/en/d/db/Osasuna_logo.svg",
   "Real Oviedo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Real_Oviedo_logo.svg/120px-Real_Oviedo_logo.svg.png",
-  "Al-Hilal": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e6/Al_Hilal_SFC_logo.svg/120px-Al_Hilal_SFC_logo.svg.png",
+  "Besiktas": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Be%C5%9Fikta%C5%9F_JK_logo.svg/120px-Be%C5%9Fikta%C5%9F_JK_logo.svg.png",
   "Almeria":          "https://upload.wikimedia.org/wikipedia/en/e/e4/UD_Almeria_logo.svg",
   "Borussia Dortmund":"https://img.uefa.com/imgml/TP/teams/logos/50x50/52758.png",
   "Atalanta":         "https://img.uefa.com/imgml/TP/teams/logos/50x50/52816.png",
@@ -853,7 +853,7 @@ export const TRANSFER_TARGETS = {
       ],
       lastUpdated: "2026-07-17",
       rumorNote:
-        "Brighton · 17 Jul — the deliverable one, and the club could move inside a fortnight. Reporting frames Minteh as the credible alternative to Barcola, a 'concrete bid' Liverpool are said to be ready to lodge in the next two weeks at around £70m. He is the right-sided width Iraola wants without the £128m headache, twenty-one, contracted to 2029, three goals and four assists for Brighton last term. Brighton have set the valuation and see no reason to blink. With Arsenal reported to be turning toward Morgan Rogers, the Reds' path to a wide man is a little clearer this week than last, whether it ends at Barcola, Minteh or a Bournemouth teenager.",
+        "Brighton · 18 Jul — no longer the alternative, increasingly the answer. The board above him hardened this week: PSG called Barcola strictly off limits and priced a reversal at a British-record £127.5m with Arsenal now framed as top of that race, Koln grew confident of keeping Said El Mala, and Bournemouth will not be moved on Rayan. That leaves Minteh, twenty-one, contracted to 2029, three goals and four assists last term, as the right-sided width Iraola wants without the nine-figure headache. Reporting has Liverpool ready to lodge a concrete bid around £70m inside a fortnight. Brighton have set the number and see no reason to blink.",
       positionFit: {
         replaces: "Salah (wide forward)",
         competesWith: ["Barcola (primary target)", "Gakpo", "Munoz"],
@@ -1986,7 +1986,7 @@ export const TRANSFER_TARGETS = {
       id: "endo-out",
       name: "Wataru Endo",
       position: "MID",
-      destination: "Bundesliga / Saudi",
+      destination: "Unconfirmed (Besiktas reported, denied)",
       feeAsk: { min: 8, max: 12, currency: "€m" },
       probability: 58,
       heatTier: "warm",
