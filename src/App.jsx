@@ -385,13 +385,13 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Friday, and the summer holds its breath for Sunday. Alexis Mac
-          Allister and Victor Munoz meet in the <em>World Cup final</em> in New
-          Jersey, a Red on each side, while at home the winger board turns back
-          toward Anfield: Arsenal drift to Rogers, Iraola sounds out a
-          Bournemouth teenager he once coached, and Inter are sent away a third
-          time for Curtis Jones. Eight days to Nashville, and the team Iraola
-          wants is still being built around the one he has.
+Saturday, and the eight-year story swerves. Turkish reports put
+          Mohamed Salah at verbal terms with <em>Besiktas</em>, ten million a
+          year and an option on a second, before his agent denied that any club
+          had been agreed at all. Istanbul, of all places. At home Szoboszlai
+          signs to 2031; tomorrow at MetLife, Mac Allister plays for a second
+          star. A week to Nashville, and the squad is being kept as much as it
+          is being built.
         </p>
 
         <StatStrip stats={stats} />
@@ -420,21 +420,20 @@ Friday, and the summer holds its breath for Sunday. Alexis Mac
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and the football stops to hold a final. On Sunday in New Jersey,
-              Argentina meet Spain, and Andoni Iraola will watch a player in
-              each XI: Alexis Mac Allister for the holders, <em>Victor Munoz</em>{" "}
-              for the champions of Europe, a Red on each side of the halfway
-              line. The pundits' combined team found room for Dani Olmo over
-              Mac Allister, the kind of verdict a man can overturn in ninety
-              minutes. At home the market, for once, turned Liverpool's way.
-              Arsenal are reported to be drifting toward Morgan Rogers, which
-              loosens their hold on Bradley Barcola, and Iraola has gone back for
-              one of his own, enquiring after the Bournemouth teenager Rayan
-              whose price is a wall until 2027. Inter came a third time for
-              Curtis Jones, and were sent away a third time. Eight days to
-              Nashville. The squad he wants is still being assembled around the
-              one he has.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and the ending nobody wrote. For six weeks the assumption was
+              Jeddah, a short flight and a longer cheque; on Friday night
+              Turkish football woke believing <em>Besiktas</em> had reached
+              verbal terms with Mohamed Salah, ten million euros a year and two
+              in bonuses, one season with an option on another. Within hours his
+              agent denied that anything had been agreed with anyone, and said
+              he did not know where his client would play. Both things can be
+              true at once in a negotiation. Meanwhile the club made its own
+              news, tying Dominik Szoboszlai down to 2031, and Curtis Jones
+              answered a reported Forest deal with a raised eyebrow and nothing
+              else. Tomorrow at MetLife, Mac Allister goes for a second star. A
+              week to Nashville, and this rebuild is turning out to be about who
+              stays.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -442,13 +441,13 @@ Friday, and the summer holds its breath for Sunday. Alexis Mac
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              Red in each World Cup final; a winger board that turned back toward
-              Anfield this week, Rayan and Minteh in the frame as Arsenal look
-              elsewhere; Inter turned away a third time for Curtis Jones; an
-              injury list that runs the manager's first sessions shorthanded;
-              and, above the transfer noise, the Hillsborough Law through the
-              Commons and bound for the Lords. Read them in order. The market
-              moves; on Sunday, the football stops to crown a champion.
+              Red in each World Cup final; a winger board that hardened against
+              Liverpool this week, with PSG calling Barcola off limits and Koln
+              digging in on Said El Mala; a record bid readied for Mainz's
+              Kaishu Sano; better news on Conor Bradley's knee than anyone
+              expected; and an American tour that begins in Nashville with half
+              a squad. Read them in order. The market moves; tomorrow, the
+              football stops to crown a champion.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3166,7 +3165,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Two days out, a Red on each side."
+        "Istanbul, of all places."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
