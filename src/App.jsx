@@ -385,13 +385,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Saturday, and the eight-year story swerves. Turkish reports put
-          Mohamed Salah at verbal terms with <em>Besiktas</em>, ten million a
-          year and an option on a second, before his agent denied that any club
-          had been agreed at all. Istanbul, of all places. At home Szoboszlai
-          signs to 2031; tomorrow at MetLife, Mac Allister plays for a second
-          star. A week to Nashville, and the squad is being kept as much as it
-          is being built.
+Sunday, and the last football of the season is also the biggest.
+          Argentina meet Spain at MetLife tonight with Alexis Mac Allister in
+          the middle of three and Victor Munoz, three weeks a Red, on the other
+          bench: whichever way it falls, one of ours lifts it. Tomorrow the rest
+          of them fly to Chicago. Six days to Nashville, and a squad still short
+          of a winger.
         </p>
 
         <StatStrip stats={stats} />
@@ -420,20 +419,19 @@ Saturday, and the eight-year story swerves. Turkish reports put
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and the ending nobody wrote. For six weeks the assumption was
-              Jeddah, a short flight and a longer cheque; on Friday night
-              Turkish football woke believing <em>Besiktas</em> had reached
-              verbal terms with Mohamed Salah, ten million euros a year and two
-              in bonuses, one season with an option on another. Within hours his
-              agent denied that anything had been agreed with anyone, and said
-              he did not know where his client would play. Both things can be
-              true at once in a negotiation. Meanwhile the club made its own
-              news, tying Dominik Szoboszlai down to 2031, and Curtis Jones
-              answered a reported Forest deal with a raised eyebrow and nothing
-              else. Tomorrow at MetLife, Mac Allister goes for a second star. A
-              week to Nashville, and this rebuild is turning out to be about who
-              stays.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and the sport stops for one more evening. At seven o'clock, in a
+              stadium in New Jersey built for a different game, Argentina play
+              Spain, and Alexis Mac Allister will take his place in a midfield
+              three this tournament has spent five weeks calling Messi's
+              bodyguards, which is a peculiar promotion for a man who spent last
+              season being blamed at Anfield. Facing him, somewhere behind Rodri
+              and Yamal, is <em>Victor Munoz</em>, twenty-one days a Liverpool
+              player and not yet sure what that means. Spain have not trailed
+              for a single minute all summer. Argentina have Messi and a
+              stubbornness that has outlived four managers. Tomorrow, whoever
+              won and whoever did not, the rest of the squad flies to Chicago
+              without them.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -441,13 +439,14 @@ Saturday, and the eight-year story swerves. Turkish reports put
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              Red in each World Cup final; a winger board that hardened against
-              Liverpool this week, with PSG calling Barcola off limits and Koln
-              digging in on Said El Mala; a record bid readied for Mainz's
-              Kaishu Sano; better news on Conor Bradley's knee than anyone
-              expected; and an American tour that begins in Nashville with half
-              a squad. Read them in order. The market moves; tomorrow, the
-              football stops to crown a champion.
+              destination for Mohamed Salah that has now moved from Jeddah to
+              Istanbul to Kansas City in eight days; a seventeen-year-old flown
+              in from Medellin to sign a contract he cannot legally sign until
+              April; an Egypt winger at a relegated Real Oviedo who costs a
+              twelfth of what Bradley Barcola costs; and a game on Saturday that
+              nobody announced, won by nobody, scored in by a boy called Joe
+              Bradshaw. Read them in order. The market moves; tonight, briefly,
+              the football stops to crown a champion.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3165,7 +3164,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Istanbul, of all places."
+        "One of ours will lift it."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

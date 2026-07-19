@@ -64,10 +64,10 @@ export const FORMATIONS = {
     // through the run-in, is shown as the first-choice XI Liverpool finished the
     // campaign with (adjusted for the summer exits), NOT as a prediction for a
     // coming fixture (next up is a pre-season friendly on July 25). Refreshed
-    // Sat Jul 18: World Cup final tomorrow (Mac Allister v Munoz's Spain), most
-    // of the first team still in America; Ekitike and Leoni long-term out while
-    // Bradley now targets a return soon after matchday one; the winger board
-    // hardened, PSG calling Barcola 'off limits' at £127.5m and Koln digging in
+    // Sun Jul 19: World Cup final tonight (Mac Allister v Munoz's Spain), the
+    // rest of the squad flying to Chicago tomorrow; Ekitike, Leoni and Bradley
+    // named by Iraola as long-term absences taking no part in pre-season; the
+    // winger board now leads on Haissem Hassan at a relegated Real Oviedo
     // on El Mala, leaving Minteh at £70m; Jacquet the only senior CB fit.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
@@ -121,41 +121,42 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-07-18
-// (Sat: the World Cup final is tomorrow at MetLife, Mac Allister expected in
-// Argentina's midfield three against Munoz's Spain; Szoboszlai has signed to
-// 2031; Salah's destination turned to Besiktas in Turkish reports and was then
-// denied by his agent; PSG called Barcola 'off limits' at £127.5m and Koln dug
-// in on Said El Mala; Curtis Jones answered a reported Forest deal with a
-// raised eyebrow; Conor Bradley is targeting a return soon after the season
-// starts.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-07-19
+// (Sun: the World Cup final is tonight at MetLife, Mac Allister expected in
+// Argentina's midfield three against Munoz's Spain; the squad flies to Chicago
+// tomorrow; Salah's destination has moved from Istanbul to MLS, Sporting Kansas
+// City tabling a two-year offer as Besiktas call the Turkish reports fabricated;
+// Liverpool have accelerated for Haissem Hassan below his €12m clause and
+// restated they will not sell Gakpo; Thuram is committing to Juventus, leaving
+// Sano the live midfield deal; Ekitike, Leoni and Bradley take no part in
+// pre-season, though Bradley's return is targeted soon after matchday one.)
 export const PLAYER_EVIDENCE = {
-  1:  "Post-WC break · back for the tour",       // Alisson
-  2:  "Led the GK group on day one",             // Mamardashvili
-  3:  "Captain · Milan told: not for sale",      // Van Dijk
-  4:  "Madrid's now · France out to Spain",      // Konaté
-  5:  "Trained day one · tilting to stay",       // Gomez
+  1:  "Post-WC break · due for the tour",        // Alisson
+  2:  "Leads the GK group to Chicago",           // Mamardashvili
+  3:  "Captain · joins up for the tour",         // Van Dijk
+  4:  "Real Madrid's · left free June 30",       // Konaté
+  5:  "Staying · versatile cover, flies Mon",    // Gomez
   6:  "Tottenham · left free June 30",           // Robertson
-  7:  "First-pick LB · trained day one",         // Kerkez
-  8:  "Knee · return targeted soon after MD1",   // Bradley
-  9:  "Only recognised RB in the building",      // Frimpong
-  10: "ACL · Iraola hints at more delay",        // Leoni
-  11: "Unveiled · only senior CB fit",           // Jacquet
+  7:  "First-pick LB · flies Monday",            // Kerkez
+  8:  "Knee · out of pre-season entirely",       // Bradley
+  9:  "Only fit RB on the plane",                // Frimpong
+  10: "ACL · hinted further away still",         // Leoni
+  11: "Only senior CB until VVD returns",        // Jacquet
   12: "Academy depth · 2 senior apps",           // Ndukwe
-  13: "Starts tomorrow's final vs Munoz",        // Mac Allister
-  14: "WC exit · back for the US tour",          // Gravenberch
-  15: "Signed to 2031 · five-year deal",         // Szoboszlai
-  16: "Shut down the Forest report himself",     // Jones
-  17: "Back early · still missed day one",       // Endo
-  18: "Germany out · back for the tour",         // Wirtz
-  19: "Hamstring · missed day one again",        // Bajcetic
+  13: "Starts tonight's final vs Spain",         // Mac Allister
+  14: "WC exit · joins up for the tour",         // Gravenberch
+  15: "Signed to 2031 · leads the tour squad",   // Szoboszlai
+  16: "Staying · reports back for the tour",     // Jones
+  17: "Foot · back early, still not training",   // Endo
+  18: "Germany out · joins up for the tour",     // Wirtz
+  19: "Hamstring · a third lost pre-season",     // Bajcetic
   20: "Academy prospect · trained day one",      // Nyoni
-  21: "Free agent · Besiktas link, denied",      // Salah
-  22: "Stays · back for the US tour",            // Gakpo
-  23: "Fit again · rejoins for the US tour",     // Isak
-  24: "Achilles · eyes a Boxing Day return",     // Ekitike
-  25: "Salah slot · Minteh now the live name",   // Ngumoha
-  26: "Trained day one · fighting for a spot",   // Chiesa
+  21: "Free agent · Sporting KC table an offer", // Salah
+  22: "Not for sale · club restate it",          // Gakpo
+  23: "Fit again · home early from the WC",      // Isak
+  24: "Achilles · aiming at Boxing Day",         // Ekitike
+  25: "Salah slot · holds it by default",        // Ngumoha
+  26: "Staying to fight · trained day one",      // Chiesa
   27: "3rd-choice GK · trained day one",         // Woodman
 };
 
@@ -186,8 +187,8 @@ export const SLOT_CONFIDENCE = {
   LDM: "High",   // Gravenberch · the season's most reliable midfielder
   RDM: "High",   // Szoboszlai · new five-year deal signed to 2031 · in day one
   LAM: "Medium", // Wirtz · injury-hit debut season · back for the tour
-  CAM: "Low",    // Mac Allister · starts tomorrow's World Cup final · no extension talks open
-  RAM: "Low",    // Salah gone (Besiktas reported, agent denies) · PSG call Barcola 'off limits' at £127.5m · Minteh at £70m now the only deliverable name
+  CAM: "Low",    // Mac Allister · starts tonight's World Cup final · reports back late on tour
+  RAM: "Low",    // Salah gone (Sporting KC offer, decision close) · Barcola priced at a British record · Hassan at Oviedo now the live name
   ST:  "Medium", // Isak · £100m striker · injury-wrecked first season · back for the tour
 };
 
@@ -217,16 +218,16 @@ export const SLOT_RATIONALE = {
 // initially. The UI shows these on hover as "Also considered". Keyed to
 // 4-2-3-1 (the season-closing baseline shape).
 export const ALTERNATIVES = {
-  GK:  [{ playerId: 2, reason: "Mamardashvili · led the goalkeeping group on day one with Alisson still on a post-World Cup break" }, { playerId: 27, reason: "Woodman · third-choice cover, trained day one" }],
+  GK:  [{ playerId: 2, reason: "Mamardashvili · leads the goalkeeping group to Chicago with Alisson still on a post-World Cup break" }, { playerId: 27, reason: "Woodman · third-choice cover, trained day one" }],
   LB:  [{ playerId: 7, reason: "Kerkez · the first-choice left-back going forward now Robertson has left" }],
   LCB: [{ playerId: 5, reason: "Gomez · can shuffle infield to centre-back in extremis" }],
   RCB: [{ playerId: 11, reason: "Jacquet · the only senior centre-back Iraola can pick until Van Dijk is back; Leoni is long-term out" }],
-  RB:  [{ playerId: 9, reason: "Frimpong · the only recognised right-back in the building; Bradley targets a return soon after matchday one" }, { playerId: 5, reason: "Gomez · the emergency right-back cover now Jones looks likelier to stay in midfield" }],
+  RB:  [{ playerId: 9, reason: "Frimpong · the only fit recognised right-back; Bradley takes no part in pre-season but targets a return soon after matchday one" }, { playerId: 5, reason: "Gomez · the emergency right-back cover with Jones staying in midfield" }],
   LDM: [{ playerId: 13, reason: "Mac Allister · could swap depths with Gravenberch in the double-pivot" }],
   RDM: [{ playerId: 14, reason: "Gravenberch · could swap depths with Szoboszlai" }],
-  LAM: [{ playerId: 22, reason: "Gakpo · a wide-left option · exit now called unlikely" }, { playerId: 25, reason: "Ngumoha · breakout teenager · rotation option on the left" }],
-  CAM: [{ playerId: 15, reason: "Szoboszlai · signed to 2031, can push into the No. 10 with another midfielder in the pivot" }, { playerId: 16, reason: "Curtis Jones · staying, on current evidence: Inter's third bid rejected because Iraola wants him" }],
-  RAM: [{ playerId: 25, reason: "Ngumoha · teenage wide option · part of the post-Salah picture" }, { playerId: 26, reason: "Chiesa · trained day one and staying to fight for a starting role" }],
+  LAM: [{ playerId: 22, reason: "Gakpo · a wide-left option · club restate he is not for sale" }, { playerId: 25, reason: "Ngumoha · breakout teenager · rotation option on the left" }],
+  CAM: [{ playerId: 15, reason: "Szoboszlai · signed to 2031, can push into the No. 10 with another midfielder in the pivot" }, { playerId: 16, reason: "Curtis Jones · staying, on current evidence: Inter bids rejected and new terms likelier than a sale" }],
+  RAM: [{ playerId: 25, reason: "Ngumoha · holds the post-Salah right-sided berth until a winger signs" }, { playerId: 26, reason: "Chiesa · trained day one and staying to fight for a starting role" }],
   ST:  [{ playerId: 25, reason: "Ngumoha · led the line in Isak's absences late in the season" }, { playerId: 22, reason: "Gakpo · false-9 option used by Slot earlier in the year" }],
 };
 
@@ -235,5 +236,5 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  reason: "Sat Jul 18 — with the World Cup final tomorrow and most of the first team still in America, the XI below stays a squad baseline rather than a matchday prediction, its shape dominated by a slot Liverpool have not filled. The winger board hardened against them this week: PSG called Bradley Barcola strictly 'off limits' and priced any reversal at a British-record £127.5m, Arsenal are now framed as top of that race, and Koln are increasingly confident of keeping Said El Mala, leaving Brighton's Minteh at £70m as the one deliverable name. Until somebody lands, Rio Ngumoha keeps the right-sided berth by default. Dominik Szoboszlai has signed a new five-year deal to 2031, and Curtis Jones answered a reported Nottingham Forest agreement with a raised eyebrow and nothing else, so the middle is being kept rather than sold. Ekitike (Achilles, Boxing Day) and Leoni (ACL) remain long-term out, with Endo, Bajcetic and Jaros also sidelined, though David Lynch reports Conor Bradley is targeting a return shortly after matchday one. Frimpong is still the only recognised right back and Jacquet the only senior centre-back until Van Dijk, whom Milan have been told is not for sale, rejoins for the tour. Mac Allister is expected to start in Argentina's midfield three against Munoz's Spain tomorrow, so both are away a while yet. The XI therefore remains the closing 2025-26 side adjusted for the summer exits: Kerkez for Robertson, Jacquet for Konate, Ngumoha in the Salah slot, Frimpong at right back. Confidence Low until the squad is whole. Next fixture: pre-season vs Sunderland in Nashville, July 25; the league opens at Newcastle on August 23.",
+  reason: "Sun Jul 19 — the XI below is a squad baseline, not a matchday prediction, because on the day this was written the two most relevant Liverpool players are in New Jersey playing each other. Alexis Mac Allister is expected to start the World Cup final in Argentina's midfield three with Paredes and Enzo Fernandez; Victor Munoz is in the Spain squad. Both report to Iraola last of anyone, well into the American tour. The rest fly to Chicago on Monday, with Van Dijk, Isak, Wirtz, Gravenberch and Gakpo reported to join up around the Wrexham fixture rather than the Sunderland opener, so the team that actually starts in Nashville on Saturday will be younger and thinner than this. The winger slot is still unfilled and still decides the shape: Barcola is priced at a British record and called not for sale, El Mala is staying at Koln, and the live name is now Haissem Hassan at a relegated Real Oviedo, where Liverpool are reported confident of paying under his €12m release clause. Until somebody signs, Rio Ngumoha holds the right-sided berth by default, and the club have restated they do not plan to sell Gakpo. In midfield the field has thinned toward Mainz: Khephren Thuram is committing to Juventus and Adam Wharton is priced at £100m, leaving Kaishu Sano, with talks held and up to £51m readied, as the one deal with momentum. Ekitike (Achilles), Leoni (ACL) and Bradley (knee) were all named by Iraola as long-term absences taking no part in pre-season, though Bradley's return is now targeted soon after matchday one; Endo, Bajcetic and Jaros are also out. Frimpong remains the only fit recognised right back and Jacquet the only senior centre-back until Van Dijk lands. Confidence Low until the squad is whole. Next fixture: pre-season vs Sunderland in Nashville, July 25; the league opens at Newcastle on August 23.",
 };
