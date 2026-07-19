@@ -287,6 +287,16 @@ export const PLAYERS = [
       { years: "2025-", club: "Liverpool", fee: "Free", type: "senior" },
     ],
   },
+  {
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "fit", injuryNote: "Sun Jul 19 — a Liverpool player who has not yet been to Liverpool. The window's first signing, in since June on a six-year deal to 2032 after the club gatecrashed Newcastle and triggered the €40m (£34.7m) release clause at Osasuna, is tonight in a Spain squad contesting the World Cup final at MetLife against an Argentina midfield containing Alexis Mac Allister. He has not trained at Kirkby, has not worn the shirt, and will report last of anyone, well into the American tour. Seven goals and five assists in LaLiga last season at 22. The stats below are his Liverpool record, which is why they are empty", image: "https://img.a.transfermarkt.technology/portrait/big/935231-1747037145.jpg",
+    physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
+    career: [
+      { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
+      { years: "2023-2024", club: "Osasuna B", fee: null, type: "senior" },
+      { years: "2024-2026", club: "CA Osasuna", fee: null, type: "senior" },
+      { years: "2026-", club: "Liverpool", fee: "£34.7m", type: "senior" },
+    ],
+  },
 ];
 
 // ─── RSS Feed Sources ───────────────────────────────────────────────────────
@@ -511,7 +521,7 @@ export const DISPATCHES = [
     n: "02",
     headline: "Kansas City Calling.",
     byline: "ESPN / This Is Anfield",
-    dateline: "Kansas City · 18 July",
+    dateline: "Kansas City · 19 July",
     category: "Farewells",
     body:
       "The destinations keep arriving and none of them stay. Jeddah was the assumption for six weeks. Istanbul held for about eighteen hours before Besiktas called the whole thing entirely fabricated. Now it is Missouri: Sporting Kansas City, a two-year offer, an owner named Peter Mallouk whose family came from Egypt and who would rather like to change what his club is for. San Diego are interested for much the same reason. Ramy Abbas, who has spent a month denying things, says only that a decision is close and that Europe is still preferred. Somewhere a thirty-four-year-old is choosing the last chapter of a career, slowly, in public.",
@@ -520,7 +530,7 @@ export const DISPATCHES = [
     n: "03",
     headline: "Signed, And Then Sent Home.",
     byline: "This Is Anfield / Florian Plettenberg",
-    dateline: "Speke · 18 July",
+    dateline: "Speke · 19 July",
     category: "Transfers",
     body:
       "A boy got off a plane on Merseyside this weekend with his mother, his father and his agent, took a medical, and will now be sent back to Colombia for a year. Samuel Martinez is seventeen. He cannot legally sign for Liverpool until April 5, when he turns eighteen, so the club have paid Atletico Nacional a million dollars and a sell-on clause for the right to wait. In April he assisted in three consecutive matches as Colombia won the U-17 South American Championship, beating Brazil in the semi-final and Argentina in the final. The rebuild everybody is arguing about is happening in 2026. This one is for 2028.",
@@ -529,8 +539,8 @@ export const DISPATCHES = [
     n: "04",
     headline: "The Winger They Can Actually Afford.",
     byline: "El Gol Digital / Football365",
-    dateline: "Oviedo · 18 July",
-    category: "Manager",
+    dateline: "Oviedo · 19 July",
+    category: "Transfers",
     body:
       "Iraola has been honest about it since his first press conference: we need someone in that area, and he will have different skills to Mo. The names that fit the ambition have all hardened out of reach, Barcola priced at a British record, El Mala staying in Cologne, Diomande choosing Paris. So the search has gone somewhere less glamorous and considerably more available. Real Oviedo have been relegated to the Segunda and have a 24-year-old Egypt international with a 12m euro release clause and a World Cup assist against Argentina. Liverpool are said to be confident of paying less than that. Celtic are the competition. This is what a realistic summer looks like.",
   },
@@ -618,12 +628,13 @@ export const NEWS_DIGEST = {
     "This Is Anfield",
     "Football365",
     "TeamTalk",
-    "Liverpool.com",
     "GiveMeSport",
     "El Gol Digital",
     "Goal",
     "Read Liverpool FC",
-    "Anfield Watch",
+    "Liverpool FC",
+    "Florian Plettenberg",
+    "talkSPORT",
   ],
 };
 // ─── Transfer Targets (2026 summer window) ─────────────────────────────────
@@ -1175,9 +1186,9 @@ export const TRANSFER_TARGETS = {
         { name: "This Is Anfield",  tier: "A" },
         { name: "Sky Sports",       tier: "A" },
       ],
-      lastUpdated: "2026-07-10",
+      lastUpdated: "2026-07-19",
       rumorNote:
-        "Anfield · 10 Jul — a quarter-final to play. The window's first signing has been done since June, the 22-year-old winger in on a six-year deal after Liverpool gatecrashed Newcastle and triggered his €40m (£34.7m) release clause. The muscle injury that stalled his group stage has cleared, and he is back involved as Spain face Belgium this weekend, one of two Reds still to play their last-eight ties. The first sight of him in red still waits for pre-season; the desk keeps working a marquee wide man to sit above him.",
+        "East Rutherford · 19 Jul — a final to sit through. The window's first signing has been done since June, the 22-year-old winger in on a six-year deal after Liverpool gatecrashed Newcastle and triggered his €40m (£34.7m) release clause, and tonight he is in a Spain squad contesting the World Cup final at MetLife against a midfield containing Alexis Mac Allister. He has not yet trained at Kirkby, has not yet worn the shirt, and will report last of anyone, well into the American tour. The desk keeps working a marquee wide man to sit above him; the affordable one, Haissem Hassan, is the deal actually moving.",
       positionFit: {
         replaces: "Salah / wide depth",
         competesWith: ["Gakpo", "Ngumoha"],

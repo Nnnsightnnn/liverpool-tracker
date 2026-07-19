@@ -439,8 +439,8 @@ Sunday, and the last football of the season is also the biggest.
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              destination for Mohamed Salah that has now moved from Jeddah to
-              Istanbul to Kansas City in eight days; a seventeen-year-old flown
+              destination for Mohamed Salah that has moved from Jeddah to
+              Istanbul to Kansas City inside a weekend; a seventeen-year-old flown
               in from Medellin to sign a contract he cannot legally sign until
               April; an Egypt winger at a relegated Real Oviedo who costs a
               twelfth of what Bradley Barcola costs; and a game on Saturday that
@@ -3164,7 +3164,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "One of ours will lift it."
+        "Both benches, one badge."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

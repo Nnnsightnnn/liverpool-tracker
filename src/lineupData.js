@@ -23,13 +23,14 @@ export const FORMATIONS = {
     // fifth. This is not a matchday prediction but a SNAPSHOT of the XI that
     // closed the campaign, adjusted for the summer exits (Kerkez, Jacquet and
     // Ngumoha step in for Robertson, Konate and Salah). 4-3-3 is the backup
-    // look. Refreshed Sat Jul 18: Szoboszlai has signed to 2031; Ekitike and
-    // Leoni remain long-term absentees while Bradley is now reported to be
-    // targeting a return shortly after matchday one; Frimpong is still the only
-    // recognised right back and Jacquet the only senior centre-back; Curtis
-    // Jones shut down a reported Forest agreement himself and looks a stay;
-    // Salah is a free agent with no confirmed club (Besiktas reported Jul 17,
-    // denied by his agent hours later).
+    // look. Refreshed Sun Jul 19: the World Cup final is tonight, with Mac
+    // Allister expected to start against a Spain squad containing Victor Munoz;
+    // Ekitike, Leoni and Bradley take no part in pre-season, though Bradley's
+    // return is targeted soon after matchday one; Frimpong is the only fit
+    // recognised right back and Jacquet the only senior centre-back; Jones
+    // stays and reports back for the tour; Salah is a free agent with no club,
+    // Besiktas having called the Turkish reports fabricated and Sporting Kansas
+    // City having tabled a two-year offer.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -67,8 +68,9 @@ export const FORMATIONS = {
     // Sun Jul 19: World Cup final tonight (Mac Allister v Munoz's Spain), the
     // rest of the squad flying to Chicago tomorrow; Ekitike, Leoni and Bradley
     // named by Iraola as long-term absences taking no part in pre-season; the
-    // winger board now leads on Haissem Hassan at a relegated Real Oviedo
-    // on El Mala, leaving Minteh at £70m; Jacquet the only senior CB fit.
+    // winger board now leads on Haissem Hassan at a relegated Real Oviedo,
+    // with Barcola priced out and El Mala staying at Koln; Jacquet the only
+    // senior CB fit until Van Dijk joins up on tour.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -78,7 +80,7 @@ export const FORMATIONS = {
       LDM: 14,  // Gravenberch (double-pivot · most reliable midfielder)
       RDM: 15,  // Szoboszlai (the season's heaviest-minutes midfielder)
       LAM: 18,  // Wirtz (wide-left · injury-hit debut season)
-      CAM: 13,  // Mac Allister (No. 10 · contract talks stalled)
+      CAM: 13,  // Mac Allister (No. 10 · starts tonight's World Cup final)
       RAM: 25,  // Ngumoha (the post-Salah slot until a winger signs)
       ST: 23,   // Isak (No. 9 · injury-wrecked debut year)
     },
@@ -158,6 +160,7 @@ export const PLAYER_EVIDENCE = {
   25: "Salah slot · holds it by default",        // Ngumoha
   26: "Staying to fight · trained day one",      // Chiesa
   27: "3rd-choice GK · trained day one",         // Woodman
+  28: "In Spain's squad for tonight's final", // Munoz
 };
 
 // Default formation when entering the view — the 4-2-3-1 Slot favoured through
@@ -171,13 +174,14 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys. With the season over these read as confidence that the slot's
 // occupant remains a first-choice starter into 2026-27 — LOW where the player
 // has left (Salah, Robertson, Konate) or whose future is open (Mac Allister).
-// (Refreshed Sat Jul 18: Szoboszlai has signed a new five-year deal to 2031;
-// Salah remains a free agent with no confirmed club, Besiktas reported at
-// verbal terms on Jul 17 and his agent denying it hours later; Curtis Jones
-// publicly shut down a reported Nottingham Forest agreement and looks likelier
-// to sign new terms than to leave; Conor Bradley is targeting a return shortly
-// after the season starts; Frimpong is still the only recognised right back
-// and Jacquet the only senior centre-back available.)
+// (Refreshed Sun Jul 19: Mac Allister is expected to start tonight's World Cup
+// final against a Spain squad containing Victor Munoz, and both report back
+// last of anyone; Salah remains a free agent with no club, Besiktas having
+// called the reported Turkish agreement entirely fabricated and Sporting Kansas
+// City having tabled a two-year offer; Curtis Jones stays and flies with the
+// tour squad; Bradley takes no part in pre-season but targets a return soon
+// after matchday one; Frimpong is the only fit recognised right back and
+// Jacquet the only senior centre-back available.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · turned down Juventus · staying as No. 1
   LB:  "Low",    // Robertson gone free to Spurs · Kerkez inherits, back day one
@@ -195,8 +199,9 @@ export const SLOT_CONFIDENCE = {
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
 // Explains the season-closing pick for each slot of the 4-2-3-1. The 2025-26
 // season is complete; these read as a retrospective on the first-choice XI
-// rather than a prediction for a coming fixture. (GK, RB and RAM refreshed Tue
-// Jul 14; LCB Fri Jul 10; CAM Wed Jun 17; RCB Tue Jun 9; rest Tue Jun 2.)
+// rather than a prediction for a coming fixture. (RAM and CAM refreshed Sun
+// Jul 19; RDM and RB Sat Jul 18; GK Tue Jul 14; LCB Fri Jul 10; RCB Tue Jun 9;
+// rest Tue Jun 2.)
 export const SLOT_RATIONALE = {
   GK:  "Tue Jul 14 — the No. 1 was not on the grass, and it did not matter. Alisson missed the opening session of pre-season on a post-World Cup break after Brazil's campaign, leaving Giorgi Mamardashvili to lead a goalkeeping group of Freddie Woodman and the young Hungarian Armin Pecsi, with Vitezslav Jaros still out after serious knee surgery. Nothing underneath has moved: Alisson's extension is triggered, Juventus were turned down, and he returns as the unarguable starter. The knock-on is Mamardashvili's, and it has hardened rather than softened: a year of understudy minutes has him weighing his future, while Liverpool plan to reject offers and would prefer a loan that protects the asset.",
   LB:  "Tue Jun 2 — with Andy Robertson's free transfer to De Zerbi's Tottenham now done, the Liverpool left-back slot is unambiguously Milos Kerkez's after a tough first season at £45m. Nine years of cover at the position have walked out the door in a single window.",
@@ -205,8 +210,8 @@ export const SLOT_RATIONALE = {
   LDM: "Tue Jun 2 — Gravenberch finished the season as the most consistent midfielder Liverpool had and is in the Dutch World Cup squad; the obvious building block at the base of the 4-2-3-1 going into 2026-27.",
   RDM: "Sat Jul 18 — settled, and expensively so. Szoboszlai has signed a new five-year contract running to 2031, three years on from arriving from Leipzig on a deal that ran only to 2028, with reported terms in the £200,000-£250,000 band. He was voted supporters' player of the season after a campaign spent filling in at right-back, at the eight and on the right wing. With Salah, Konate and Robertson all gone for nothing, this is the club choosing to keep rather than to replace.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
-  CAM: "Wed Jun 17 — the denial gets louder: Mac Allister's father and agent Carlos has again branded the exit talk 'false,' insisting no approaches were declined because none were made, even as Liverpool stay quietly open to a sale near €120m if funds are needed. Real Madrid hold the warmest interest in a midfielder with two years left and no extension talks open, a fork pointed against Gravenberch's fresh terms.",
-  RAM: "Sat Jul 18 — the slot that defines the summer, and this week it got harder. Salah is gone and, as of Friday night, still without a confirmed club: Turkish reports had Besiktas at verbal terms, his agent Ramy Abbas denied any agreement, and Istanbul replaced Jeddah as the live thread. The replacements moved the wrong way. PSG publicly called Bradley Barcola 'off limits' and priced any reversal at a British-record £127.5m, with Arsenal now framed as top of that race and reporting that the player himself has cooled on Anfield; Koln are increasingly confident of keeping Said El Mala at around 50m euros; Bournemouth will not be moved on Rayan while his clause sleeps until 2027. Brighton's Yankuba Minteh at £70m is the one deliverable name left. Rio Ngumoha, seventeen, keeps the shirt by default, and is one of only two senior forwards available to the head coach.",
+  CAM: "Sun Jul 19 — the biggest night of his career, and it is not at Anfield. Mac Allister is expected to start the World Cup final at MetLife this evening in an Argentina midfield three with Paredes and Enzo Fernandez, the unit this tournament has taken to calling Messi's bodyguards, behind Messi, Julian Alvarez and Giuliano Simeone. A miserable club season has been comprehensively rewritten by five weeks in America. The exit talk his father and agent Carlos branded false in June has gone quiet with it; what is certain is scheduling rather than status, because he reports to Iraola last of anyone, well into the American tour.",
+  RAM: "Sun Jul 19 — the slot that defines the summer, and it has finally found a price it can pay. Salah is a free agent with no club: Besiktas have called Friday's reported Turkish agreement entirely fabricated, Sporting Kansas City have tabled a concrete two-year offer pushed by an owner with Egyptian roots, San Diego are circling, and Ramy Abbas says only that a decision is close and Europe is preferred. The marquee replacements all moved out of reach, Barcola priced at a British record and called not for sale, El Mala staying at Koln, Rayan untouchable at Bournemouth until his clause wakes in 2027. What is left is the realistic one: Haissem Hassan, 24, an Egypt international at a relegated Real Oviedo, with Liverpool reported confident of agreeing a fee below his €12m release clause and Celtic the only competition. Rio Ngumoha, seventeen, keeps the shirt until somebody lands.",
 
   RB:  "Sat Jul 18 — still a one-man department, but the horizon moved. Jeremie Frimpong remains the only recognised right back on the grass, and yet the most encouraging injury line of the summer landed this week: David Lynch reports that Conor Bradley, whose knee went at Arsenal in January and whose absence had been discussed as a 2027 problem, is targeting a return shortly after the new campaign begins and is 'not a million miles away.' Liverpool will not lean on him and are planning without him. Curtis Jones, the emergency cover of last season, stays in midfield and answered a reported Forest agreement with a raised eyebrow. Frimpong plays by elimination until then, with Marco Palestra and Lutsharel Geertruida the deputies on the board.",
 
