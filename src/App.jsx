@@ -385,12 +385,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Sunday, and the last football of the season is also the biggest.
-          Argentina meet Spain at MetLife tonight with Alexis Mac Allister in
-          the middle of three and Victor Munoz, three weeks a Red, on the other
-          bench: whichever way it falls, one of ours lifts it. Tomorrow the rest
-          of them fly to Chicago. Six days to Nashville, and a squad still short
-          of a winger.
+Monday, and there is a world champion on the books who has never
+          trained at Kirkby. Spain beat Argentina in extra time at MetLife last
+          night and Victor Munoz, twenty-two days a Red, has the medal;
+          Alexis Mac Allister has the runners-up one. Neither joins the tour.
+          The rest fly into Chicago today, into wildfire smoke and an air
+          quality alert. Five days to Nashville, and still no winger.
         </p>
 
         <StatStrip stats={stats} />
@@ -419,19 +419,20 @@ Sunday, and the last football of the season is also the biggest.
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and the sport stops for one more evening. At seven o'clock, in a
-              stadium in New Jersey built for a different game, Argentina play
-              Spain, and Alexis Mac Allister will take his place in a midfield
-              three this tournament has spent five weeks calling Messi's
-              bodyguards, which is a peculiar promotion for a man who spent last
-              season being blamed at Anfield. Facing him, somewhere behind Rodri
-              and Yamal, is <em>Victor Munoz</em>, twenty-one days a Liverpool
-              player and not yet sure what that means. Spain have not trailed
-              for a single minute all summer. Argentina have Messi and a
-              stubbornness that has outlived four managers. Tomorrow, whoever
-              won and whoever did not, the rest of the squad flies to Chicago
-              without them.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and Liverpool have a World Cup winner who has never worn the
+              shirt. Ferran Torres scored in the hundred and sixth minute in
+              New Jersey last night, against ten men, and Spain have a second
+              star to set beside 2010. Somewhere in the confetti was{" "}
+              <em>Victor Munoz</em>, twenty-two days into a six-year contract,
+              a footballer who has not trained at Kirkby and has not played a
+              minute for the club that owns him, holding something most Anfield
+              careers end without. Alexis Mac Allister played the whole of it
+              and lost, in a midfield cut to ten when Enzo Fernandez went late
+              into Pau Cubarsi three minutes into stoppage time. Neither of them
+              joins the tour. The rest land in Chicago today, in a city the
+              authorities have told people to stay indoors in, and begin the
+              Iraola era in borrowed air.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -439,14 +440,14 @@ Sunday, and the last football of the season is also the biggest.
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              destination for Mohamed Salah that has moved from Jeddah to
-              Istanbul to Kansas City inside a weekend; a seventeen-year-old flown
-              in from Medellin to sign a contract he cannot legally sign until
-              April; an Egypt winger at a relegated Real Oviedo who costs a
-              twelfth of what Bradley Barcola costs; and a game on Saturday that
-              nobody announced, won by nobody, scored in by a boy called Joe
-              Bradshaw. Read them in order. The market moves; tonight, briefly,
-              the football stops to crown a champion.
+              Besiktas president saying out loud that Mohamed Salah's people
+              asked for thirty-five per cent and calling it astronomical; a
+              report naming Chelsea, of all clubs, as where he would rather
+              stay; a winger file that has slid from Bradley Barcola to Yankuba
+              Minteh because one is admired and the other can actually be
+              bought; and eight hundred fires in Canada deciding when a Premier
+              League squad is allowed outside. Read them in order. The season is
+              five weeks away and the summer has not been quiet once.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3164,7 +3165,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Both benches, one badge."
+        "A medal before a training kit."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

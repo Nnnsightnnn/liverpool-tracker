@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Sun Jul 19 — planned around, but no longer written off. Iraola named the knee among his three long-term absences this week and confirmed Bradley will take no part in pre-season; the shift is in the horizon behind that, with David Lynch reporting a return targeted shortly after the season opens rather than the 2027 date briefed a fortnight ago, and describing him as 'not a million miles away.' The injury dates to the goalless afternoon against Arsenal in January. Liverpool will not lean on a 22-year-old and a serious knee, and are building the opening weeks without him. Frimpong has the flank alone until then", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Mon Jul 20 — the timeline hardens the wrong way again. Last week the briefing was a return shortly after the season opens; the reporting over this weekend suggests the knee he hurt against Arsenal in January is worse than first thought and that he may not feature until 2027. The club have committed to no date in either direction, which is usually its own answer. Iraola grouped him with Ekitike and Leoni as long-term absences and he takes no part in the American tour. Frimpong is the only fit senior right-back on the plane", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -93,7 +93,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Sun Jul 19 — the only fit right-back on a plane to Chicago tomorrow. Frimpong flies with the first tour group as the sole recognised option in the position, Bradley ruled out of pre-season entirely even with his return date moving nearer, and Jones staying in midfield. Palestra and Geertruida remain the names the market is being asked about, and no deputy has arrived. His own first year at Anfield was broken up repeatedly by muscle trouble, so the requirement is not brilliance. It is turning up for thirty-eight of them", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Mon Jul 20 — he boards today carrying the whole right side. With Bradley now credibly reported as a 2027 problem rather than an autumn one, Frimpong is the only fit senior right-back travelling to Chicago, and the three American fixtures give Iraola no realistic way to rest him beyond handing minutes to an academy full-back. A first pre-season under a coach whose Bournemouth sides asked their wing-backs to run the touchline for ninety minutes should suit him better than the last twelve months did. Fit, available, and short of competition", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -132,7 +132,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sun Jul 19 — the last day of his season is the biggest of his career. Mac Allister is expected to start the World Cup final at MetLife this evening in a midfield three with Paredes and Enzo Fernandez, the unit this tournament took to calling Messi's bodyguards, behind a front line of Messi, Julian Alvarez and Giuliano Simeone. Spain, unbeaten and never once behind in five weeks, stand in the way, and Victor Munoz is among them. A miserable club campaign has been comprehensively rewritten by a month in America. He will report to Iraola last of anyone, well into the tour", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Mon Jul 20 — a runner-up, and the best month he has had in a year. Mac Allister played the length of the World Cup final at MetLife and lost it in extra time, Argentina reduced to ten when Enzo Fernandez was sent off for a second yellow in the 93rd minute and Ferran Torres settling it on 106. Emi Martinez made eleven saves behind him, a record for a final, against twenty Spain shots. A club season in which he was among the most criticised players at Anfield has still been rewritten by five weeks in America. He misses the tour entirely and reports to Iraola last of anyone, around the middle of August", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 48, goals: 12, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.3, status: "fit", injuryNote: "Sun Jul 19 — the one they kept, boarding first. Szoboszlai travels to Chicago at the head of a tour squad missing its World Cup men, a week on from signing the five-year contract that runs to 2031 with terms reported in the £200,000-£250,000 band. He closed last season with 48 appearances and the supporters' player of the season award after filling in at right-back, at the eight and on the right wing without complaint. With Salah, Konate and Robertson all gone for nothing, Iraola builds the middle around him", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 48, goals: 12, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.3, status: "fit", injuryNote: "Mon Jul 20 — with Mac Allister and Munoz both absent for the entire tour, the senior midfield in Chicago is largely him. Szoboszlai signed his extension to 2031 earlier in the window and is among the group flying out today rather than joining late, which in a summer this thin makes him the closest thing Iraola has to a fixed point through Nashville and New York. Nyoni and the younger midfielders get their look around him. Fit, and first on the teamsheet by process of elimination", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -161,7 +161,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Sun Jul 19 — reporting back with the exit stories unwritten. Jones flies to the United States tomorrow after a summer spent being sold by other people: two Inter bids rejected, an Italian report of a Forest agreement answered with a single raised-eyebrow emoji, and interest from Aston Villa left unanswered. Liverpool value him north of £34m against Inter's £27m, he is reported reluctant about Forest, and Iraola has said he wants to assess him properly. New terms now look likelier than a sale. He is in the final year of his deal", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Mon Jul 20 — still here, and now needed. The Aston Villa and Nottingham Forest interest never turned into a bid the club had to think about, and with Mac Allister not expected before the Como friendly on August 16, Jones travels as one of the few midfielders with real senior mileage. Iraola has said nothing publicly about his role. The tour is the audition, and he is the one being auditioned by rather than for. Fit and in the travelling party", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -209,7 +209,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 34, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Sun Jul 19 — the map moves west. Besiktas have now called Friday's reported verbal agreement entirely fabricated, and the live thread runs to Missouri instead: Sporting Kansas City have tabled a concrete two-year offer, driven by majority owner Peter Mallouk, whose family has Egyptian roots, with San Diego FC interested for similar reasons and Fabrizio Romano confirming the MLS approach is real. Ramy Abbas says it is not their style to talk to clubs Mohamed would not want to play for just for the sake of noise, that he does not know where his client will play, and that a decision is close. Europe is still the stated preference. A free agent since June 30 after ten goals and ten assists", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
+    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 34, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Mon Jul 20 — no longer a Liverpool player, and the ending is turning ugly in public. Besiktas president Serdal Adali confirmed talks, said the club agreed with Salah on everything, then claimed the commission sought by his representatives climbed to about thirty-five per cent once the Turkish press printed that the deal was done, calling the figure astronomical and impossible to accept. Fenerbahce and Galatasaray have offers lodged, the MLS interest stands, and a separate report names Chelsea as his first choice if he stays in England. A free agent since June 30", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
     physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
     career: [
       { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
@@ -288,7 +288,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "fit", injuryNote: "Sun Jul 19 — a Liverpool player who has not yet been to Liverpool. The window's first signing, in since June on a six-year deal to 2032 after the club gatecrashed Newcastle and triggered the €40m (£34.7m) release clause at Osasuna, is tonight in a Spain squad contesting the World Cup final at MetLife against an Argentina midfield containing Alexis Mac Allister. He has not trained at Kirkby, has not worn the shirt, and will report last of anyone, well into the American tour. Seven goals and five assists in LaLiga last season at 22. The stats below are his Liverpool record, which is why they are empty", image: "https://img.a.transfermarkt.technology/portrait/big/935231-1747037145.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "fit", injuryNote: "Mon Jul 20 — he has a World Cup winner's medal and he does not yet have a Kirkby locker. Munoz came through the whole tournament with a Spain squad that never once trailed, and was in the group that beat Argentina 1-0 after extra time at MetLife on Sunday night, Ferran Torres finishing a Nico Williams pass in the 106th minute. The window's first signing, in since June on a six-year deal to 2032 after Liverpool gatecrashed Newcastle and met the €40m (£34.7m) release clause at Osasuna. He misses the American tour in its entirety and is not expected in an Iraola side before the Como friendly on August 16. Seven goals and five assists in LaLiga last season at 22. The stats below are his Liverpool record, which is why they are empty", image: "https://img.a.transfermarkt.technology/portrait/big/935231-1747037145.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -382,22 +382,22 @@ export const TEAM_LOGOS = {
 //     and repoints `src` + `credit` + `generatedAt` at it.
 // `focus` is the one-line "most important focus of the latest edition."
 export const COVER_IMAGE = {
-  src: "/assets/cover/2026-07-19-final-night.svg",
-  alt: "Two ranks of players face an empty trophy plinth under floodlights on the night of the World Cup final.",
-  focus: "Final night at MetLife — a Red on each side",
+  src: "/assets/cover/2026-07-20-munoz-champion.svg",
+  alt: "A lone figure raised on team-mates' shoulders under floodlights as confetti falls on a stadium night.",
+  focus: "Munoz lifts the World Cup before he lifts a Liverpool shirt",
   credit: "Editorial plate · auto-generated",
-  generatedAt: "2026-07-19T09:00:00Z",
+  generatedAt: "2026-07-20T09:00:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
   brief: {
     leadStory:
-      "Argentina meet Spain in the World Cup final at MetLife tonight, with Alexis Mac Allister expected to start in Argentina's midfield three and Victor Munoz, three weeks a Liverpool player, in the Spain squad.",
+      "Spain beat Argentina 1-0 after extra time at MetLife to win the 2026 World Cup, making Victor Munoz a world champion twenty-two days into a Liverpool career in which he has not yet trained or played.",
     subject:
-      "A floodlit final night in a vast stadium, an empty trophy plinth at the centre circle and two silhouetted ranks of players facing it from either side, a Liverpool man in each",
+      "Victor Munoz lifted on team-mates' shoulders in a Spain shirt under stadium floodlights, confetti falling, the trophy celebration behind him",
     prompt:
-      "Cinematic editorial illustration, wide view of a floodlit stadium at night before a World Cup final, two lines of silhouetted footballers facing each other across a centre circle with an empty trophy plinth between them, vast dark tiers of crowd above, muted crimson and deep teal palette, heavy atmosphere, film grain, no on-image text, space at the top for a masthead headline",
+      "Cinematic editorial photograph, night, a young footballer in a red-and-gold national shirt raised on the shoulders of team-mates after winning a World Cup final, arms flung wide, gold and crimson confetti suspended in floodlight, vast dark stadium tiers behind, shallow depth of field, muted crimson and deep teal palette, film grain, no on-image text, headroom at the top for a masthead headline",
     aspectRatio: "landscape",
-    slug: "final-night",
-    generatedAt: "2026-07-19T09:00:00Z",
+    slug: "munoz-champion",
+    generatedAt: "2026-07-20T09:00:00Z",
   },
 };
 
@@ -486,155 +486,156 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-07-19T09:00:00Z",
+  generatedAt: "2026-07-20T09:00:00Z",
   overview:
-    "Thirty-five days, and a table that cannot move. What is below is the settled 2025-26 record: fifth on 60 points, a title defence that came apart across the winter, Arsenal alone above eighty. ESPN's 2026-27 table has already reset every club to zero and swapped Coventry, Hull and Ipswich in for West Ham, Burnley and Wolves, so there is nothing live to read yet; the rows here are history rather than news. Two of the sides in them are on Liverpool's tour: Sunderland, seventh in their first season back up, in Nashville on Saturday, and Leeds at Soldier Field a week later. What Liverpool actually carry into August is not a position but a list, a right winger, a holding midfielder, two centre-backs of senior standing, and three long-term injuries. It restarts at St James' Park on August 23.",
+    "The last competitive football of the whole calendar was played last night in New Jersey, and it had nothing to do with this table. What sits below is still the settled 2025-26 record: Arsenal champions on 85, Liverpool fifth on 60, a title defence that came apart between November and February. ESPN's 2026-27 table has reset every club to zero and swapped Coventry, Hull and Ipswich in for West Ham, Burnley and Wolves, so there is no live position to read; these rows are archive. Two of the sides in them are on the American tour, Sunderland in Nashville on Saturday and Leeds at Soldier Field the week after. What Liverpool actually carry into August is not a league position but a shortfall: a right winger, a holding midfielder, senior cover at centre-back, and three long-term injuries. It restarts at St James' Park on August 23.",
   teams: {
-    "Liverpool": "Fifth on 60, the last Champions League place by three. Hassan and Sano are the two deals with momentum; the squad flies to Chicago on Monday.",
-    "Arsenal": "Champions on 85, and still in front of Liverpool in the queue for Barcola, who PSG say is not leaving at all.",
-    "Manchester City": "Second on 78, one of only two sides to finish with a goal difference above forty.",
-    "Manchester United": "Third on 71 and back in the Champions League, though braced alongside Liverpool for Thuram's extension at Juventus.",
-    "Aston Villa": "Fourth on 65, winners 4-2 over Liverpool at Villa Park in May, and still credited with interest in Curtis Jones.",
-    "Bournemouth": "Sixth on 57 with eighteen draws, the club Iraola left, and still refusing to be moved on the teenager Rayan.",
-    "Sunderland": "Seventh on 54 in their first season back, and the first opponent of the Iraola era at Geodis Park on July 25.",
-    "Leeds": "Fourteenth on 47, and the third fixture of Liverpool's American tour, at Soldier Field on August 2.",
-    "Newcastle": "Twelfth on 49, and the ground where the league season starts on August 23.",
-    "Crystal Palace": "Fifteenth on 45, now valuing Adam Wharton at £100m, which is why Liverpool are in Mainz instead.",
-    "Tottenham": "Seventeenth on 41, told again this week that Cody Gakpo is not for sale.",
-    "West Ham": "Relegated on 39, and keeping Jarrod Bowen after all: he has restructured rather than moved.",
-    "Burnley": "Down on 22, four wins in a whole campaign.",
-    "Wolves": "Bottom on 20, and selling their player of the season.",
+    "Liverpool": "Fifth on 60 and out of the picture until August 23. Munoz became a World Cup winner on Sunday; the rest of the squad lands in Chicago today.",
+    "Arsenal": "Champions on 85, and now ahead of Liverpool in the queue for Barcola too, which is why the file has moved to Minteh.",
+    "Manchester City": "Second on 78, one of only two sides to finish above forty on goal difference.",
+    "Manchester United": "Third on 71 and back in the Champions League after two seasons away.",
+    "Aston Villa": "Fourth on 65, and the side that beat Liverpool 4-2 at Villa Park in May.",
+    "Bournemouth": "Sixth on 57 with eighteen draws, the club Iraola left for Anfield in June.",
+    "Brighton": "Eighth on 53, and now the club Liverpool must negotiate with: Minteh is valued around £70m.",
+    "Sunderland": "Seventh on 54 in their first season back up, and the first opponent of the Iraola era at Geodis Park on July 25.",
+    "Leeds": "Fourteenth on 47, and the last of the three American fixtures, at Soldier Field on August 2.",
+    "Newcastle": "Twelfth on 49, beaten to Munoz in June, and the ground where the league season opens on August 23.",
+    "Chelsea": "Tenth on 52, and named this weekend as the club Mohamed Salah would choose if he stays in England at all.",
+    "Crystal Palace": "Fifteenth on 45, holding out for £100m for Adam Wharton, which is why the midfield search sits in Mainz.",
+    "Tottenham": "Seventeenth on 41, signed Robertson on a free, and told again that Gakpo is not for sale.",
+    "West Ham": "Relegated on 39, and keeping Jarrod Bowen, who restructured rather than moved.",
+    "Wolves": "Bottom on 20, a season that was over by Christmas.",
   },
 };
 // ─── Dispatches (hand-curated long reads — separate from the wire feed) ────
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "One Of Ours Will Lift It.",
-    byline: "ESPN / Sports Illustrated",
+    headline: "Twenty-Two Days A Red, And A World Champion.",
+    byline: "ESPN / FIFA",
     dateline: "East Rutherford · 19 July",
     category: "Match Report",
     body:
-      "It ends tonight, seven o'clock British time, in a stadium built for a different sport. Argentina have Alexis Mac Allister in the middle of three, with Paredes and Enzo Fernandez, a unit this tournament has taken to describing as Messi's bodyguards, which is a strange job description for a man who spent last season being blamed at Anfield. Spain have not trailed for a single minute in five weeks, and they have Victor Munoz, twenty-one days a Liverpool player, watching from a bench he has not earned the right to leave yet. Both fly to Chicago afterwards. Only one of them packs a medal.",
+      "Ferran Torres came off the bench and settled it in the hundred and sixth minute, running onto a ball from Nico Williams, and Spain had a second World Cup to set beside 2010. Somewhere in the pile of bodies afterwards was Victor Munoz, twenty-two days a Liverpool player, a footballer who has never trained at Kirkby and has never worn the shirt, holding a medal that the vast majority of Anfield careers end without. Emi Martinez made eleven saves, a record for a final, and it was not enough. Argentina finished with ten. The reign that began in Qatar ended in New Jersey, quietly, in the rain of a hundred camera flashes.",
   },
   {
     n: "02",
-    headline: "Kansas City Calling.",
-    byline: "ESPN / This Is Anfield",
-    dateline: "Kansas City · 19 July",
-    category: "Farewells",
+    headline: "Ninety-Three Minutes, And Then The Card.",
+    byline: "NBC News / ESPN",
+    dateline: "East Rutherford · 19 July",
+    category: "Tactics",
     body:
-      "The destinations keep arriving and none of them stay. Jeddah was the assumption for six weeks. Istanbul held for about eighteen hours before Besiktas called the whole thing entirely fabricated. Now it is Missouri: Sporting Kansas City, a two-year offer, an owner named Peter Mallouk whose family came from Egypt and who would rather like to change what his club is for. San Diego are interested for much the same reason. Ramy Abbas, who has spent a month denying things, says only that a decision is close and that Europe is still preferred. Somewhere a thirty-four-year-old is choosing the last chapter of a career, slowly, in public.",
+      "It was goalless and it was holding. Then Enzo Fernandez, already booked for arguing, went late and high into Pau Cubarsi in the ninety-third minute and the referee reached for a second yellow before the protests had properly started. Argentina played the whole of extra time a man short, and a tournament that had spent five weeks arguing about officials ended by arguing about one more. Beside him in that midfield, unbooked and unbeaten in the running, Alexis Mac Allister covered the ground of two men and finished the night a runner-up. He will report to Iraola last of anyone, sometime around the middle of August, carrying nothing.",
   },
   {
     n: "03",
-    headline: "Signed, And Then Sent Home.",
-    byline: "This Is Anfield / Florian Plettenberg",
-    dateline: "Speke · 19 July",
-    category: "Transfers",
+    headline: "Thirty-Five Per Cent.",
+    byline: "This Is Anfield / Liverpool.com",
+    dateline: "Istanbul · 20 July",
+    category: "Farewells",
     body:
-      "A boy got off a plane on Merseyside this weekend with his mother, his father and his agent, took a medical, and will now be sent back to Colombia for a year. Samuel Martinez is seventeen. He cannot legally sign for Liverpool until April 5, when he turns eighteen, so the club have paid Atletico Nacional a million dollars and a sell-on clause for the right to wait. In April he assisted in three consecutive matches as Colombia won the U-17 South American Championship, beating Brazil in the semi-final and Argentina in the final. The rebuild everybody is arguing about is happening in 2026. This one is for 2028.",
+      "Serdal Adali did not bother with the diplomacy. The Besiktas president says his club agreed with Mohamed Salah on everything, and then, the moment the Turkish press printed that the transfer was done, the commission being asked by the player's representatives climbed to something like thirty-five per cent. He used the word astronomical. He said it cannot be accepted under any circumstances. Fenerbahce and Galatasaray have offers of their own on the table, and a separate line of reporting has Chelsea as the one club that could keep him in England, which would be a strange sentence to read at Anfield. Six weeks of this now. Still no shirt.",
   },
   {
     n: "04",
-    headline: "The Winger They Can Actually Afford.",
-    byline: "El Gol Digital / Football365",
-    dateline: "Oviedo · 19 July",
-    category: "Transfers",
+    headline: "Into The Smoke.",
+    byline: "This Is Anfield / Chicago Sun-Times",
+    dateline: "Chicago · 20 July",
+    category: "Football News",
     body:
-      "Iraola has been honest about it since his first press conference: we need someone in that area, and he will have different skills to Mo. The names that fit the ambition have all hardened out of reach, Barcola priced at a British record, El Mala staying in Cologne, Diomande choosing Paris. So the search has gone somewhere less glamorous and considerably more available. Real Oviedo have been relegated to the Segunda and have a 24-year-old Egypt international with a 12m euro release clause and a World Cup assist against Argentina. Liverpool are said to be confident of paying less than that. Celtic are the competition. This is what a realistic summer looks like.",
+      "The squad lands today in a city under an air quality alert. More than eight hundred wildfires are burning across Canada, a good number of them uncontrolled, and for the last three days the wind has carried the smoke south until the Chicago skyline went the colour of weak tea. Forecasters expect the wind to swing on Monday, which is to say now, and the club will likely not train until Tuesday or Wednesday regardless. It is an odd overture to a new manager's first week: a group of footballers arriving to be looked at, in a city where the authorities are advising people to stay indoors.",
   },
   {
     n: "05",
-    headline: "The Match Nobody Announced.",
-    byline: "This Is Anfield",
-    dateline: "Kirkby · 18 July",
-    category: "Football News",
+    headline: "The Gambian, Because The Frenchman Is Gone.",
+    byline: "TeamTalk / Empire of the Kop",
+    dateline: "Anfield · 20 July",
+    category: "Transfers",
     body:
-      "While the first team packed for Chicago, Liverpool played a game on Saturday that was not on any fixture list. The U21s met Vauxhall Motors behind closed doors and drew 1-1, and the goal was scored by Joe Bradshaw, an eighteen-year-old winger whom most supporters could not pick out of a queue. Iraola was not there. No senior player featured. These afternoons are worth nothing at all until roughly eighteen months later, when a name from one of them is suddenly on a teamsheet in November and everybody claims to have known. Rio Ngumoha was on a list like this once.",
+      "Bradley Barcola was the plan, and the plan has Arsenal at the front of it and PSG insisting out loud that nobody is leaving at any price. So the file moves down a line. Yankuba Minteh is rated around seventy million at Brighton, is left-footed on the right, has two seasons of the league in his legs and, crucially, can be bought in July rather than admired in August. Said El Mala has been parked: Koln intend to keep him for the coming season and any move waits until 2027. This is the part of every window where a club finds out the difference between the winger it wants and the winger it can have.",
   },
 ];
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-07-19T09:00:00Z",
+  generatedAt: "2026-07-20T09:00:00Z",
   summary:
-    "Sunday July 19, and the sport stops at MetLife. Argentina meet Spain in the World Cup final at seven in the evening British time, Alexis Mac Allister expected to start in a midfield three with Leandro Paredes and Enzo Fernandez behind a front line of Messi, Julian Alvarez and Giuliano Simeone, while Victor Munoz, three weeks a Liverpool player, waits with a Spain squad that has not trailed for a minute of the tournament. Whichever way it goes, Anfield has a man in the last game of the season. The Salah destination story moved again overnight and moved west: Sporting Kansas City have tabled a two-year offer driven by an owner with Egyptian roots, San Diego are circling, and Besiktas have called the Turkish reports of an agreement entirely fabricated, with Ramy Abbas saying only that a decision is close and that Europe remains the preference. Elsewhere the club did quiet business, flying in the 17-year-old Colombian Samuel Martinez for a medical on a deal that will not complete until he turns 18, and accelerating talks with relegated Real Oviedo for the Egypt winger Haissem Hassan below his release clause.",
+    "Monday July 20, and Liverpool have a World Cup winner who has never trained at Kirkby. Spain beat Argentina 1-0 at MetLife on Sunday night, Ferran Torres finishing a Nico Williams pass in the hundred and sixth minute against ten men, and Victor Munoz, three weeks into a six-year contract he signed from Osasuna, collected a medal before collecting a training kit. Alexis Mac Allister ends the same tournament a runner-up, in a midfield reduced by Enzo Fernandez's second yellow card three minutes into stoppage time. Both now miss the whole American tour and are not expected in an Iraola team until the Como friendly on August 16. The rest of the squad flies into Chicago today, where an air quality alert from more than eight hundred Canadian wildfires has left the city's air rated unhealthy and may push the first training session to Tuesday or Wednesday. On the market the Salah endgame turned sour in public, Besiktas president Serdal Adali describing the commission sought by the player's representatives as astronomical and putting it near thirty-five per cent, while a separate strand has Chelsea as his first choice should he stay in England.",
   keyTopics: [
     {
-      title: "The Last Game Of The Season Is Today: Mac Allister Starts, Munoz Waits (ESPN / Sports Illustrated / Sports Mole, today)",
+      title: "Munoz Is A World Champion Before He Is A Liverpool Player (FIFA / ESPN / Liverpool FC, today)",
       detail:
-        "Kick-off is seven in the evening British time at MetLife Stadium in East Rutherford. Scaloni is expected to name Mac Allister alongside Paredes and Enzo Fernandez, a trio the tournament has taken to calling Messi's bodyguards, behind a front three of Messi, Julian Alvarez and Giuliano Simeone. Luis de la Fuente answers with Rodri, Fabian Ruiz and Dani Olmo, Lamine Yamal and Alex Baena wide of Mikel Oyarzabal, a side that has not gone a minute behind all summer. Munoz, signed from Osasuna for around 40m euros three weeks ago, is in the Spain squad. A miserable club season has been erased by five weeks of it for Mac Allister.",
+        "Spain won their second World Cup last night, sixteen years after the first, beating Argentina 1-0 after extra time at MetLife Stadium. Ferran Torres, on as a substitute, took a Nico Williams pass and finished in the 106th minute. Victor Munoz, 23, was in the squad that lifted it, twenty-two days after Liverpool met the €40m release clause at Osasuna to beat Newcastle to him. He has not trained at Kirkby, has not played a minute in the shirt, and is now one of a very small number of Liverpool players ever to own a World Cup winner's medal. The club marked it on their own channels within the hour.",
       category: "matches",
     },
     {
-      title: "Kansas City, Of All Places: MLS Enters The Salah Race As Besiktas Call The Turkish Reports Fabricated (ESPN / This Is Anfield, today)",
+      title: "Eleven Saves, Ten Men, And A Title Surrendered: Mac Allister Ends On The Wrong Side (NBC News / ESPN, today)",
       detail:
-        "The map redrew itself again overnight. Sporting Kansas City have made a concrete two-year offer, pushed by majority owner Peter Mallouk, whose family has Egyptian roots, with San Diego FC also credited with interest for the same reason. Fabrizio Romano has confirmed the approach as real rather than noise. Besiktas, meanwhile, dismissed Friday's reported agreement as entirely fabricated, and Ramy Abbas answered the week with a line about not holding discussions with clubs Mohamed would not want to play for just for the sake of noise. He says a decision is close. He also says Europe is still preferred, which makes Kansas a long shot rather than a landing.",
+        "Argentina's defence of the trophy ended a man down. Enzo Fernandez, booked for dissent, caught Pau Cubarsi late in the 93rd minute and was sent off for a second yellow with the game goalless, and Argentina played the whole of extra time short. Emi Martinez made eleven saves, a record for a World Cup final, against Spain's twenty shots. Alexis Mac Allister played the length of it and finished a runner-up, which still rewrites a club season in which he was among the most criticised players at Anfield. He and Munoz both miss the American tour entirely.",
+      category: "matches",
+    },
+    {
+      title: "'Astronomical': Besiktas President Says The Salah Commission Reached Thirty-Five Per Cent (This Is Anfield / Liverpool.com, today)",
+      detail:
+        "The most detailed account yet of why this has taken six weeks came from the other side of the table. Serdal Adali, the Besiktas president, confirmed the club held talks and said they agreed with Salah on everything, then claimed that as soon as the Turkish media reported the deal as completed, the representatives raised the financial demands until the commission approached thirty-five per cent. He called the figure astronomical and said it could not be accepted under any circumstances. Fenerbahce and Galatasaray are reported to have offers of their own lodged. Salah has been a free agent since the mutual cancellation of his final year.",
       category: "transfers",
     },
     {
-      title: "A Million Dollars And A Birthday To Wait For: Samuel Martinez Flies In For A Medical (This Is Anfield / Plettenberg, today)",
+      title: "The Stamford Bridge Clause: Chelsea Framed As Salah's First Choice If He Stays In England (Football365 / TeamTalk, today)",
       detail:
-        "Liverpool's quietest signing of the summer landed on Merseyside this weekend. Samuel Martinez, a 17-year-old attacking midfielder from Atletico Nacional, travelled in with his family and his agent Daniel Neumuller for a medical on a deal worth about a million dollars plus a sell-on clause, terms already agreed on a five-year contract. He cannot legally complete the move until he turns 18 on April 5, so he will spend next season in Medellin before joining in 2027. He made three consecutive assists on Colombia's run to the U-17 South American title in April, beating Brazil and then Argentina.",
+        "A separate strand of the same story, and a considerably more uncomfortable one for Anfield. Reporting this weekend has Chelsea as the only club who would persuade Mohamed Salah to remain in the Premier League, and describes a Chelsea offer as his first choice in that scenario. Nothing has been tabled and the weight of the interest is still Turkish and, at a distance, American and Saudi. But it is now on the record, in the same week that Besiktas accused his camp of moving the numbers, and it is the version of this ending that most supporters had not allowed themselves to imagine.",
       category: "transfers",
     },
     {
-      title: "Accelerating On Hassan: Liverpool Confident Of Beating A £10.4m Clause At A Relegated Oviedo (El Gol Digital / Football365, today)",
+      title: "Liverpool Land In Chicago Under An Air Quality Alert (This Is Anfield / Chicago Sun-Times, today)",
       detail:
-        "The winger search has found a price it can actually pay. El Gol Digital report Liverpool have accelerated talks with Real Oviedo over Haissem Hassan, the 24-year-old Egypt international, and are confident of agreeing a fee below his 12m euro release clause, roughly £10.4m, leaning on the fact that Oviedo have just been relegated to the Segunda. His stock rose at the World Cup, where he assisted in the defeat to Argentina. Celtic opened at 4m euros earlier in the window and are preparing to return at seven or eight. He is contracted to 2027.",
-      category: "transfers",
-    },
-    {
-      title: "No, Gakpo Has Not Left: Liverpool Restate They Do Not Plan To Sell (Football365 / talkSPORT, 1d ago)",
-      detail:
-        "A Spanish report on the Hassan story described Cody Gakpo's departure as settled, and it travelled further than it deserved. It is not. Liverpool have no intention of selling the Dutchman this summer, have told Tottenham as much despite a valuation around £70m being discussed in June, and Iraola is understood to want him tested on the left in pre-season with Salah's flank vacant. Only a bid the club regard as unignorable changes it. He scored nine and made six last season across 39 appearances. The rebuild is short of wingers, not long on them.",
-      category: "transfers",
-    },
-    {
-      title: "Bowen Stays: The West Ham Link Closes With A Restructured Contract (This Is Anfield / Goal, 1d ago)",
-      detail:
-        "One of the summer's longest-running Salah-replacement threads has been cut. Jarrod Bowen, linked to Anfield since West Ham's relegation was confirmed in May and courted by Aston Villa and Everton too, has agreed revised terms at the London Stadium, not an extension but a restructure of the deal he signed as a Premier League player. He has committed to the promotion push after eleven goals and twelve assists last season. Michael Owen had publicly urged Liverpool to move. The 29-year-old chose the Championship instead.",
-      category: "transfers",
-    },
-    {
-      title: "Thuram Commits To Juventus As Wharton Is Priced At £100m, Leaving Sano The Realistic One (TeamTalk / GiveMeSport, 1d ago)",
-      detail:
-        "Two midfield doors shut in the same week. Khephren Thuram, chased by Liverpool and Manchester United, is set to follow Kenan Yildiz in signing an extension in Turin, Juventus having moved decisively once they sensed his belief in the project. Adam Wharton would cost £100m from Crystal Palace and is reported not to be an Iraola priority. That leaves Kaishu Sano at Mainz, 25, a scorer against Brazil in the round of 32, with talks held and up to £51m readied; Arsenal, Tottenham and Dortmund have all made contact, but Sano's preference for England is the edge.",
-      category: "transfers",
-    },
-    {
-      title: "Joe Bradshaw Scores In A Friendly Nobody Announced (This Is Anfield, 1d ago)",
-      detail:
-        "There was a Liverpool match on Saturday, and almost nobody knew. The U21s played Vauxhall Motors behind closed doors and drew 1-1, the goal coming from Joe Bradshaw, an 18-year-old winger. Iraola was not on the touchline and no first-team player featured, the senior group having trained separately before flying to the United States. It is the sort of fixture that means nothing until a name from it appears on a teamsheet in November. Rio Ngumoha was on a list like this eighteen months ago.",
+        "The tour begins in smoke. The squad flies into Chicago today and bases itself there for the trip, arriving into air the authorities have rated unhealthy after three days of drift from more than eight hundred Canadian wildfires, many of them uncontrolled and some close to the northern border. Forecasters expect the wind to change direction today, which should ease things before the group is due on a training pitch on Tuesday or Wednesday. Sunderland at Geodis Park in Nashville on July 25 is the first sight of an Iraola side, followed by Wrexham at Yankee Stadium and Leeds at Soldier Field.",
       category: "general",
     },
     {
-      title: "Chicago First: The Tour Runs Nashville, Yankee Stadium, Soldier Field (Liverpool FC / Read Liverpool, 2d ago)",
+      title: "Minteh Becomes The Winger They Can Buy This Month As Arsenal Lead On Barcola (TeamTalk / Empire of the Kop, today)",
       detail:
-        "The squad flies to the United States on Monday and bases itself in Chicago for the duration, travelling out for each fixture. Sunderland at Geodis Park in Nashville on July 25 is the first sight of an Iraola team, then Wrexham at Yankee Stadium on July 29 and Leeds at Soldier Field on August 2. The club have spent the build-up on visibility, staging a meet-and-greet with the Chicago Bears at the Royal Albert Dock, Robbie Fowler hosting Charles Tillman and Josh Blackwell. Monaco on August 9 and Como on August 16 follow at home before Newcastle on August 23.",
+        "The attacking file has shifted down a name. Liverpool are reported to be preparing a concrete bid for Yankuba Minteh, valued around £70m at Brighton, having learned they trail Arsenal for Bradley Barcola and that PSG continue to say publicly that he is not for sale at all, with any move likely to require well beyond £100m. Minteh is left-footed on the right, is 21, and has two Premier League seasons behind him. The argument for him is availability in July rather than ceiling. Iraola has said since his first press conference that a right winger is the priority.",
+      category: "transfers",
+    },
+    {
+      title: "El Mala Parked Until 2027 As Koln Dig In (Anfield Watch / This Is Anfield, 1d ago)",
+      detail:
+        "One of the summer's more romantic options has been shelved rather than lost. Said El Mala, the Koln teenager valued around £43m and a confirmed Liverpool target through June, is now expected to stay in Germany for the 2026-27 season, with the club intending to keep him and any move realistically waiting until 2027. It removes a name from the July shortlist without removing it from the file. Combined with Yan Diomande choosing Paris after Leipzig rebuffed a nine-figure approach, the cheap-and-young route into the winger problem has narrowed sharply.",
+      category: "transfers",
+    },
+    {
+      title: "Nyoni Uses The Tour As An Audition (Liverpool FC, 1d ago)",
+      detail:
+        "With Munoz and Mac Allister absent for the whole trip and Van Dijk, Isak, Wirtz, Gravenberch and Gakpo not expected to join until the first week Stateside, the American fixtures fall to whoever is on the plane. Trey Nyoni, speaking to the club before departure, framed it plainly as an opportunity and said he wants to show what he can do. It is the kind of tour where a squad number changes hands. Alisson is not expected in until the second week, which leaves Mamardashvili leading the goalkeeping group through Nashville and New York.",
       category: "general",
     },
     {
-      title: "Three Long-Term Solutions, None Of Them Available (Read Liverpool / This Is Anfield, 3d ago)",
+      title: "Bradley's Timeline Slips Again In The Reporting (Liverpool.com / Read Liverpool, 1d ago)",
       detail:
-        "Iraola used a careful phrase for Hugo Ekitike, Conor Bradley and Giovanni Leoni: long-term solutions. None will take any part in pre-season. Ekitike's Achilles, ruptured against PSG in April, has been briefed as possibly taking longer than people expect even as the striker aims at Boxing Day; Bradley's knee is the one piece of good news, with David Lynch reporting a return targeted soon after the season opens; Leoni is ten months from the ACL he tore on debut and was hinted this week to be further away still. Endo, Bajcetic and the goalkeeper Vitezslav Jaros also missed the opening sessions.",
+        "The one piece of good injury news from last week has been muddied. Conor Bradley, hurt against Arsenal in January, was briefed as targeting a return shortly after the season opens; the reporting this weekend suggests the knee may be worse than first thought and that he may not feature until 2027. The club have not put a date on it either way. Hugo Ekitike's ruptured Achilles keeps him out of pre-season entirely with no return date confirmed, and Giovanni Leoni, ten months from the ACL he tore on debut, was hinted to be further away still.",
       category: "injuries",
+    },
+    {
+      title: "Hassan Still The Cheapest Live Name On The Board (El Gol Digital / Football365, 2d ago)",
+      detail:
+        "Beneath the Minteh and Barcola noise, the deal the board can most plausibly complete has not moved. Haissem Hassan, the 24-year-old Egypt international at a Real Oviedo side just relegated to the Segunda, carries a €12m release clause, roughly £10.4m, and Liverpool were reported at the weekend to be confident of agreeing a fee beneath it. Celtic opened at €4m earlier in the window and are expected back around seven or eight. He is contracted to 2027 and assisted against Argentina at the World Cup. It remains the one winger move priced for this squad's actual budget.",
+      category: "transfers",
     },
   ],
   sources: [
+    "FIFA",
     "ESPN",
-    "Sports Illustrated",
-    "Sports Mole",
+    "NBC News",
     "This Is Anfield",
+    "Liverpool.com",
+    "Liverpool FC",
     "Football365",
     "TeamTalk",
-    "GiveMeSport",
+    "Empire of the Kop",
+    "Anfield Watch",
+    "Chicago Sun-Times",
     "El Gol Digital",
-    "Goal",
     "Read Liverpool FC",
-    "Liverpool FC",
-    "Florian Plettenberg",
-    "talkSPORT",
   ],
 };
 // ─── Transfer Targets (2026 summer window) ─────────────────────────────────
@@ -642,9 +643,9 @@ export const NEWS_DIGEST = {
 // heatTier: "hot" (≥65%) | "warm" (40-64%) | "cool" (<40%) | "done" | "dead"
 // sources[].tier: "S" (Romano-class) | "A" (major outlet) | "B" (beat) | "C" (aggregator)
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-07-19T09:00:00Z",
+  generatedAt: "2026-07-20T09:00:00Z",
   summary:
-    "Sunday's ledger opens with the cheapest name on it looking like the likeliest. Liverpool have accelerated talks with a relegated Real Oviedo for the Egypt winger Haissem Hassan and are reported confident of paying less than his 12m euro release clause, roughly £10.4m, with Celtic preparing a rival package around seven or eight million; after a fortnight of doors closing, that is what the board can actually deliver. Above it the expensive names stayed shut: PSG hold Bradley Barcola at a British-record valuation with Arsenal framed in front, Koln are digging in on Said El Mala, and Khephren Thuram is set to commit his future to Juventus, while Adam Wharton would cost £100m and is not an Iraola priority. Kaishu Sano at Mainz remains the one midfield deal with momentum, talks held and up to £51m readied. On the outgoing board Salah's destination swung west overnight, Sporting Kansas City tabling a two-year offer and San Diego circling as Besiktas called Friday's reported agreement entirely fabricated. Jarrod Bowen, a Salah-replacement thread since May, closed himself off by restructuring at West Ham, and the club have restated they do not plan to sell Cody Gakpo.",
+    "Monday's ledger opens on the outgoing board, where the Salah endgame turned openly hostile over the weekend. Besiktas president Serdal Adali confirmed talks, said his club had agreed with the player on everything, and then claimed that once the Turkish press reported the deal as done the commission sought by Salah's representatives climbed toward thirty-five per cent, a figure he called astronomical and said could not be accepted under any circumstances; Fenerbahce and Galatasaray have offers lodged, and a separate strand names Chelsea as his first choice should he stay in England at all. On the incoming board the winger file has stepped down a rung: with Arsenal in front for Bradley Barcola and PSG still saying out loud that he is not for sale at any price, Liverpool are reported to be readying a concrete bid for Yankuba Minteh at around £70m, a deal doable in July rather than admired in August. Said El Mala has been parked, Koln intending to keep him through 2026-27 with any move waiting on 2027. Haissem Hassan at a relegated Real Oviedo remains the cheapest live name and the likeliest to complete, beneath a €12m clause with Celtic circling, and Kaishu Sano is still the one midfield deal carrying momentum. Victor Munoz, the window's first signing, spent Sunday night becoming a World Cup winner.",
   incoming: [
     {
       id: "rayan-2026",
@@ -846,7 +847,7 @@ export const TRANSFER_TARGETS = {
       contractExpiry: "2029-06-30",
       releaseClause: null,
       contractNote: "Under contract at Brighton to 2029; reports are split on a mooted £40m clause, but the Seagulls' working valuation is nearer £70-80m for a 21-year-old they rate among the league's brightest wide prospects.",
-      probability: 50,
+      probability: 62,
       heatTier: "warm",
       sources: [
         { name: "Liverpool.com", tier: "B" },
@@ -1074,7 +1075,7 @@ export const TRANSFER_TARGETS = {
       contractExpiry: "2028-06-30",
       releaseClause: null,
       contractNote: "Contract talks with PSG have stalled and the player has told Paris he wants a bigger role elsewhere; the club's condition is the fee, and the reported minimum has now come down from €150m to €135m (£116m) after they sealed personal terms with Monaco's Maghnes Akliouche. He is represented by Gestifute, the Mendes agency Liverpool have long dealt with.",
-      probability: 10,
+      probability: 7,
       heatTier: "cool",
       sources: [
         { name: "David Ornstein",   tier: "S" },
@@ -1917,12 +1918,12 @@ export const TRANSFER_TARGETS = {
       id: "salah-out",
       name: "Mohamed Salah",
       position: "FWD",
-      destination: "Free agent (Sporting KC offer, San Diego interest, Saudi standing)",
+      destination: "Free agent (Turkish offers lodged, Chelsea named first choice in England)",
       feeAsk: { min: 0, max: 0, currency: "€" },
       probability: 100,
       heatTier: "done",
       sources: [{ name: "Liverpool.com", tier: "B" }, { name: "SportBible", tier: "C" }, { name: "This Is Anfield", tier: "A" }],
-      note: "Sun 19 Jul — the map moves west. Sporting Kansas City have tabled a concrete two-year offer, pushed by majority owner Peter Mallouk, whose family has Egyptian roots and who wants to change what his club is for; San Diego FC are credited with interest for a similar reason, and Fabrizio Romano has confirmed the MLS approach is real rather than noise. Besiktas, whose reported verbal agreement led Friday night, have now called those Turkish claims entirely fabricated. Ramy Abbas says it is not their style to hold talks with clubs Mohamed would not want to play for just for the sake of noise, that he does not know where his client will play, and that a decision is close. Europe is still the stated preference, which makes Kansas a long shot. A free agent since June 30, after ten goals and ten assists in a final season."
+      note: "Mon 20 Jul — the negotiation goes public and it is not flattering. Serdal Adali, the Besiktas president, confirmed his club held talks and said they had agreed with Salah on everything, then claimed that the moment the Turkish media printed that the transfer was complete, the financial demands from his representatives rose until the commission reached about thirty-five per cent. Adali called the figure astronomical and said no club could accept it under any circumstances. Fenerbahce and Galatasaray are both reported to have offers on the table, the MLS interest from Sporting Kansas City and San Diego stands, and a separate strand of reporting names Chelsea as his first choice should he remain in the Premier League at all. A free agent since June 30 after ten goals and ten assists in a final season, and still, six weeks on, without a club."
     },
     {
       id: "gomez-out",
