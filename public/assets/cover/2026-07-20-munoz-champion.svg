@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Editorial plate: a lone figure raised above a floodlit night, confetti falling">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#080e18"/>
+      <stop offset="48%" stop-color="#14202e"/>
+      <stop offset="100%" stop-color="#210d14"/>
+    </linearGradient>
+    <radialGradient id="flood" cx="0.5" cy="0.10" r="0.86">
+      <stop offset="0%" stop-color="#f7e8c8" stop-opacity="0.40"/>
+      <stop offset="52%" stop-color="#f7e8c8" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#f7e8c8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.62"/>
+      <stop offset="44%" stop-color="#000" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.70"/>
+    </linearGradient>
+    <linearGradient id="turf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f2c20" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#05100b" stop-opacity="0.96"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#flood)"/>
+
+  <!-- crowd tiers -->
+  <g opacity="0.5">
+    <rect x="0" y="150" width="1600" height="132" fill="#0b1420"/>
+    <rect x="0" y="292" width="1600" height="118" fill="#0d1826"/>
+    <rect x="0" y="420" width="1600" height="96"  fill="#101d2c"/>
+  </g>
+  <g fill="#f7e8c8" opacity="0.16">
+    <circle cx="120" cy="212" r="3"/><circle cx="300" cy="238" r="3"/><circle cx="480" cy="200" r="3"/>
+    <circle cx="660" cy="246" r="3"/><circle cx="840" cy="206" r="3"/><circle cx="1020" cy="240" r="3"/>
+    <circle cx="1200" cy="204" r="3"/><circle cx="1380" cy="244" r="3"/><circle cx="1520" cy="214" r="3"/>
+    <circle cx="210" cy="352" r="3"/><circle cx="560" cy="366" r="3"/><circle cx="930" cy="348" r="3"/>
+    <circle cx="1290" cy="364" r="3"/><circle cx="1450" cy="344" r="3"/>
+  </g>
+
+  <!-- floodlight bloom -->
+  <g filter="url(#soft)" opacity="0.30">
+    <ellipse cx="800" cy="120" rx="520" ry="90" fill="#f7e8c8"/>
+  </g>
+
+  <!-- turf -->
+  <path d="M0 560 L1600 560 L1600 900 L0 900 Z" fill="url(#turf)"/>
+  <g stroke="#dfeadf" stroke-opacity="0.10" fill="none" stroke-width="2">
+    <ellipse cx="800" cy="742" rx="260" ry="74"/>
+    <path d="M0 604 L1600 604"/>
+  </g>
+
+  <!-- ring of celebrating silhouettes -->
+  <g fill="#04080c" opacity="0.95">
+    <g transform="translate(430,690)"><circle cx="0" cy="-46" r="16"/><path d="M-19 -30 h38 v70 h-38 z"/><path d="M-19 -30 l-24 -34 M19 -30 l24 -34"/></g>
+    <g transform="translate(530,706)"><circle cx="0" cy="-46" r="16"/><path d="M-19 -30 h38 v72 h-38 z"/><path d="M-19 -30 l-26 -30 M19 -30 l26 -30"/></g>
+    <g transform="translate(1070,706)"><circle cx="0" cy="-46" r="16"/><path d="M-19 -30 h38 v72 h-38 z"/><path d="M-19 -30 l-26 -30 M19 -30 l26 -30"/></g>
+    <g transform="translate(1170,690)"><circle cx="0" cy="-46" r="16"/><path d="M-19 -30 h38 v70 h-38 z"/><path d="M-19 -30 l-24 -34 M19 -30 l24 -34"/></g>
+    <g transform="translate(340,716)"><circle cx="0" cy="-42" r="14"/><path d="M-17 -28 h34 v66 h-34 z"/></g>
+    <g transform="translate(1262,716)"><circle cx="0" cy="-42" r="14"/><path d="M-17 -28 h34 v66 h-34 z"/></g>
+  </g>
+  <g stroke="#04080c" stroke-width="13" stroke-linecap="round" opacity="0.95">
+    <path d="M411 660 l-24 -34"/><path d="M449 660 l24 -34"/>
+    <path d="M1149 660 l-24 -34"/><path d="M1187 660 l24 -34"/>
+  </g>
+
+  <!-- the lifted figure, arms raised -->
+  <g transform="translate(800,556)" opacity="0.97">
+    <circle cx="0" cy="0" r="20" fill="#04080c"/>
+    <path d="M-24 18 h48 v96 h-48 z" fill="#04080c"/>
+    <g stroke="#04080c" stroke-width="15" stroke-linecap="round" fill="none">
+      <path d="M-24 22 L-70 -46"/>
+      <path d="M24 22 L70 -46"/>
+    </g>
+    <circle cx="-70" cy="-52" r="9" fill="#9a1c2e"/>
+    <circle cx="70" cy="-52" r="9" fill="#9a1c2e"/>
+  </g>
+  <!-- shoulders bearing him -->
+  <g fill="#04080c" opacity="0.95">
+    <path d="M700 664 q100 -34 200 0 v44 h-200 z"/>
+  </g>
+
+  <!-- confetti -->
+  <g opacity="0.62">
+    <g fill="#c8102e">
+      <rect x="250" y="180" width="7" height="16" transform="rotate(24 253 188)"/>
+      <rect x="640" y="120" width="7" height="16" transform="rotate(-36 643 128)"/>
+      <rect x="990" y="230" width="7" height="16" transform="rotate(52 993 238)"/>
+      <rect x="1340" y="160" width="7" height="16" transform="rotate(-18 1343 168)"/>
+      <rect x="470" y="330" width="7" height="16" transform="rotate(40 473 338)"/>
+      <rect x="1150" y="390" width="7" height="16" transform="rotate(-48 1153 398)"/>
+    </g>
+    <g fill="#f7e8c8">
+      <rect x="380" y="240" width="7" height="16" transform="rotate(-28 383 248)"/>
+      <rect x="820" y="180" width="7" height="16" transform="rotate(44 823 188)"/>
+      <rect x="1210" y="290" width="7" height="16" transform="rotate(-56 1213 298)"/>
+      <rect x="150" y="410" width="7" height="16" transform="rotate(32 153 418)"/>
+      <rect x="1470" y="360" width="7" height="16" transform="rotate(-22 1473 368)"/>
+      <rect x="700" y="420" width="7" height="16" transform="rotate(60 703 428)"/>
+    </g>
+  </g>
+
+  <rect width="1600" height="900" fill="url(#scrim)"/>
+  <rect width="1600" height="900" filter="url(#grain)" opacity="0.055"/>
+</svg>
