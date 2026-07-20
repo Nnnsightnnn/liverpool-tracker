@@ -30,14 +30,15 @@ export const FORMATIONS = {
     // possibly 2027 rather than early season; Frimpong is the only fit
     // recognised right back and Jacquet the only senior centre-back; Jones
     // stays and reports back for the tour; Salah is a free agent with no club,
-    // Besiktas having called the Turkish reports fabricated and Sporting Kansas
-    // City having tabled a two-year offer.
+    // the Besiktas president having called his camp's commission demand
+    // astronomical, with Chelsea named as his first choice if he stays in
+    // England.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
       LCB: 3,   // Van Dijk (captain · contracted to 2027)
       RCB: 11,  // Jacquet (unveiled Jul 1 · steps in for Madrid-bound Konaté)
-      RB: 9,    // Frimpong (only recognised RB · Bradley targets an early return)
+      RB: 9,    // Frimpong (only recognised RB · Bradley now reported out into 2027)
       LCM: 13,  // Mac Allister (midfield three)
       CM: 14,   // Gravenberch (control of midfield · most reliable MID)
       RCM: 15,  // Szoboszlai (engine · 48 apps)
@@ -79,11 +80,11 @@ export const FORMATIONS = {
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
       LCB: 3,   // Van Dijk (captain · contracted to 2027)
       RCB: 11,  // Jacquet (unveiled Jul 1 · steps in for Madrid-bound Konaté)
-      RB: 9,    // Frimpong (only recognised RB · Bradley targets an early return)
+      RB: 9,    // Frimpong (only recognised RB · Bradley now reported out into 2027)
       LDM: 14,  // Gravenberch (double-pivot · most reliable midfielder)
       RDM: 15,  // Szoboszlai (the season's heaviest-minutes midfielder)
       LAM: 18,  // Wirtz (wide-left · injury-hit debut season)
-      CAM: 13,  // Mac Allister (No. 10 · starts tonight's World Cup final)
+      CAM: 13,  // Mac Allister (No. 10 · World Cup runner-up · misses the American tour)
       RAM: 25,  // Ngumoha (the post-Salah slot until a winger signs)
       ST: 23,   // Isak (No. 9 · injury-wrecked debut year)
     },
@@ -117,7 +118,7 @@ export const FORMATIONS = {
       LWB: 7,   // Kerkez (LWB with Robertson gone to Spurs)
       LCM: 14,  // Gravenberch (most reliable midfielder)
       RCM: 13,  // Mac Allister (anchors double pivot)
-      RWB: 9,   // Frimpong (only recognised RB · Bradley targets an early return)
+      RWB: 9,   // Frimpong (only recognised RB · Bradley now reported out into 2027)
       LW: 22,   // Gakpo (LW in the three-man attack)
       ST: 23,   // Isak (No. 9 when fit)
       RW: 25,   // Ngumoha (the post-Salah slot until a winger signs)
@@ -126,15 +127,17 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-07-19
-// (Sun: the World Cup final is tonight at MetLife, Mac Allister expected in
-// Argentina's midfield three against Munoz's Spain; the squad flies to Chicago
-// tomorrow; Salah's destination has moved from Istanbul to MLS, Sporting Kansas
-// City tabling a two-year offer as Besiktas call the Turkish reports fabricated;
-// Liverpool have accelerated for Haissem Hassan below his €12m clause and
-// restated they will not sell Gakpo; Thuram is committing to Juventus, leaving
-// Sano the live midfield deal; Ekitike, Leoni and Bradley take no part in
-// pre-season, though Bradley's return is targeted soon after matchday one.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-07-20
+// (Mon: Spain beat Argentina 1-0 after extra time at MetLife last night, so
+// Munoz has a winner's medal and Mac Allister a runner-up one, and both miss
+// the American tour entirely; the rest of the squad landed in Chicago today
+// under a wildfire air quality alert; Salah is a free agent with no club, the
+// Besiktas president calling his camp's commission demand astronomical, with
+// Fenerbahce and Galatasaray holding offers and Chelsea named his first choice
+// in England; the winger board leads on Minteh at Brighton and Hassan at a
+// relegated Real Oviedo, with Arsenal ahead on Barcola and El Mala parked at
+// Koln until 2027; Ekitike, Leoni and Bradley take no part in pre-season, and
+// Bradley's return is now reported as possibly 2027.)
 export const PLAYER_EVIDENCE = {
   1:  "Post-WC break · joins in week two",        // Alisson
   2:  "Leads the GK group to Chicago",           // Mamardashvili
@@ -220,7 +223,7 @@ export const ALTERNATIVES = {
   LB:  [{ playerId: 7, reason: "Kerkez · the first-choice left-back going forward now Robertson has left" }],
   LCB: [{ playerId: 5, reason: "Gomez · can shuffle infield to centre-back in extremis" }],
   RCB: [{ playerId: 11, reason: "Jacquet · the only senior centre-back Iraola can pick until Van Dijk is back; Leoni is long-term out" }],
-  RB:  [{ playerId: 9, reason: "Frimpong · the only fit recognised right-back; Bradley takes no part in pre-season but targets a return soon after matchday one" }, { playerId: 5, reason: "Gomez · the emergency right-back cover with Jones staying in midfield" }],
+  RB:  [{ playerId: 9, reason: "Frimpong · the only fit recognised right-back; Bradley takes no part in pre-season and is now reported out into 2027" }, { playerId: 5, reason: "Gomez · the emergency right-back cover with Jones staying in midfield" }],
   LDM: [{ playerId: 13, reason: "Mac Allister · could swap depths with Gravenberch in the double-pivot" }],
   RDM: [{ playerId: 14, reason: "Gravenberch · could swap depths with Szoboszlai" }],
   LAM: [{ playerId: 22, reason: "Gakpo · a wide-left option · club restate he is not for sale" }, { playerId: 25, reason: "Ngumoha · breakout teenager · rotation option on the left" }],

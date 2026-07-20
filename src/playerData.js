@@ -635,7 +635,7 @@ export const NEWS_DIGEST = {
     "Anfield Watch",
     "Chicago Sun-Times",
     "El Gol Digital",
-    "Read Liverpool FC",
+    "Read Liverpool",
   ],
 };
 // ─── Transfer Targets (2026 summer window) ─────────────────────────────────
@@ -1189,7 +1189,7 @@ export const TRANSFER_TARGETS = {
       ],
       lastUpdated: "2026-07-19",
       rumorNote:
-        "East Rutherford · 19 Jul — a final to sit through. The window's first signing has been done since June, the 22-year-old winger in on a six-year deal after Liverpool gatecrashed Newcastle and triggered his €40m (£34.7m) release clause, and tonight he is in a Spain squad contesting the World Cup final at MetLife against a midfield containing Alexis Mac Allister. He has not yet trained at Kirkby, has not yet worn the shirt, and will report last of anyone, well into the American tour. The desk keeps working a marquee wide man to sit above him; the affordable one, Haissem Hassan, is the deal actually moving.",
+        "East Rutherford · 20 Jul — the medal arrives before the training kit. The window's first signing, done since June on a six-year deal after Liverpool gatecrashed Newcastle and met his €40m (£34.7m) release clause, was part of the Spain squad that beat Argentina 1-0 after extra time at MetLife last night, Ferran Torres finishing on 106 against ten men. He has still not trained at Kirkby, has still not worn the shirt, and now misses the American tour in its entirety, not expected in an Iraola side before the Como friendly on August 16. The desk keeps working a marquee wide man to sit above him; the affordable one, Haissem Hassan, is the deal actually moving.",
       positionFit: {
         replaces: "Salah / wide depth",
         competesWith: ["Gakpo", "Ngumoha"],
