@@ -1238,7 +1238,7 @@ function SquadView() {
 
   return (
     <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
-      <SectionHead title="Squad" meta={<>{PLAYERS.length} players<br />2025–26 first team</>} />
+      <SectionHead title="Squad" meta={<>{PLAYERS.length} players<br />Current first team · 2025–26 stats</>} />
 
       {/* Position bar */}
       <div className="squad-pos-bar" style={{

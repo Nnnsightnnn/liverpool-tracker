@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Tue Jul 14 — absent for day one, and entitled to be. The goalkeeper is still on a post-World Cup break after Brazil's campaign and did not report for the opening session, leaving Mamardashvili, Freddie Woodman and the young Hungarian Armin Pecsi as the goalkeeping group Iraola actually had on the grass this morning, with Vitezslav Jaros still out after serious knee surgery. Nothing has changed in the substance: the extension is triggered, Juventus were turned down, and he returns as the unarguable No. 1", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Tue Jul 21 — still on his post-World Cup break, not due until the second week of the tour. Brazil's campaign earned him the time, and it leaves Mamardashvili leading the goalkeeping group through Nashville and New York with Woodman behind him. Nothing has changed in the substance: he is the undisputed number one the moment he is back", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Tue Jul 7 — frustration on the record: fresh reporting says the Georgian is weighing his future after a year of understudy minutes, with Liverpool planning to reject offers and preferring a loan that protects the asset. The longer-horizon thinking still circles Porto's Diogo Costa and his €60m clause", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Tue Jul 21 — leads the goalkeeping group across the Atlantic. With Alisson taking a post-World Cup break until the second week of the tour, the Georgian is Iraola's senior keeper through Nashville and New York, a stopgap that doubles as an audition. Liverpool still prefer to protect the asset with a loan rather than sell, and the longer-horizon thinking has not moved off him as a genuine number one somewhere", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Thu Jul 9 — the day after, the answer holds: a birthday spent being courted by AC Milan (Ibrahimović driving it, Fenerbahce lurking) changes nothing at Anfield, where the interest is still knocked back and the captain, now 35 and contracted to 2027, is central to Iraola's plans. Eliminated with the Netherlands, he is due back only for the American tour. No bid, and none expected to move him", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Tue Jul 21 — the captain rejoins on the road. Milan's interest, driven by Ibrahimovic, keeps being knocked back at Anfield with no bid received and none expected to move him; at 35 and central to Iraola's plans, Van Dijk is due to link up with the squad in America around the Wrexham fixture. The defence is being rebuilt around him, with Jacquet the lone senior cover until he lands", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,16 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 4, name: "Ibrahima Konaté", number: 5, position: "DEF", nationality: "🇫🇷 France", age: 27, appearances: 40, goals: 2, assists: 0, cleanSheets: 10, xG: 1.5, tacklesPer90: 1.8, passCompletion: 88, progressiveCarries: 0.5, form: 6.4, status: "fit", injuryNote: "Thu Jun 25 — confirmed in white: Real Madrid have announced the centre-back on a deal to 2030, their third summer signing after Marc Cucurella and Bernardo Silva, the formal unveiling held back until after the World Cup. He walks for nothing once his contract lapses on June 30, the vacancy at the head of Hughes's defensive board heading a shortlist topped by Sporting's Inácio, with Club Brugge's Ordóñez behind", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p204716.png",
-    physical: { height: 194, weight: 95, pace: 78, acceleration: 76, sprintSpeed: 80 },
-    career: [
-      { years: "2014-2017", club: "Sochaux", fee: null, type: "youth" },
-      { years: "2017-2021", club: "RB Leipzig", fee: "€15M", type: "senior" },
-      { years: "2021-", club: "Liverpool", fee: "€40M", type: "senior" },
-    ],
-  },
-  {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Mon Jun 15 — still set to stay: with Hughes hunting two centre-backs, the academy product is now reported likelier to remain and run his deal down toward a 2027 free than to leave this summer, even with a Serie A move having been canvassed. Useful cover in a thin back line, and the versatility that makes him sellable also makes him worth keeping", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Tue Jul 21 — staying, and useful for it. Reported likelier to run his deal toward a 2027 free than to leave, the academy product is on the tour as versatile cover in a thin back line, able to fill in across a back three or at full-back. The flexibility that makes him sellable is also what makes him worth keeping", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -63,17 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 6, name: "Andy Robertson", number: 26, position: "DEF", nationality: "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland", age: 32, appearances: 30, goals: 1, assists: 3, cleanSheets: 8, xG: 0.6, tacklesPer90: 2.3, passCompletion: 83, progressiveCarries: 4.4, form: 6.7, status: "fit", injuryNote: "Sat May 30 — the Tottenham move is done bar the unveiling: a free transfer to De Zerbi's side, a late Juventus hijack rebuffed. Nine years, two title runs and one of the great value signings of the modern era walk out of Anfield; the left-back slot passes unarguably to Milos Kerkez after his tough first season", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p122798.png",
-    physical: { height: 178, weight: 70, pace: 79, acceleration: 81, sprintSpeed: 77 },
-    career: [
-      { years: "2010-2013", club: "Queen's Park", fee: null, type: "senior" },
-      { years: "2013-2014", club: "Dundee United", fee: "Free", type: "senior" },
-      { years: "2014-2017", club: "Hull City", fee: "€3.4M", type: "senior" },
-      { years: "2017-", club: "Liverpool", fee: "€9.3M", type: "senior" },
-    ],
-  },
-  {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Mon May 25 — season over: a difficult first season after his £45m move, the Hungarian drawing criticism for an uneasy adaptation at left-back. With Robertson gone, the left-back job is now unambiguously his to hold", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Tue Jul 21 — a first pre-season to reset. A difficult debut year after the £45m move drew criticism, but with Robertson gone to Tottenham the left-back job is unambiguously his, and a clean summer under a new coach is the reset he needs. He landed in Chicago with the group", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -113,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 6, goals: 0, assists: 0, cleanSheets: 2, xG: 0.1, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.6, status: "fit", injuryNote: "Tue Jul 14 — on the grass, and carrying more than a 20-year-old should. Cleared by his surgeon after February's shoulder dislocation, the £60m signing from Rennes took part in the opening session of pre-season and is, for now, the only senior centre-back Iraola has: Konate walked to Madrid for nothing, Leoni is among the three long-term injuries named on Monday, and Van Dijk is not back until the American tour. Liverpool have not signed a replacement. Inacio and Ordonez remain the names on the board", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 6, goals: 0, assists: 0, cleanSheets: 2, xG: 0.1, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.6, status: "fit", injuryNote: "Tue Jul 21 — carrying the back line to America. Cleared by his surgeon after February's shoulder dislocation, the £60m signing from Rennes is, with Konate gone to Madrid and Van Dijk not due until later in the tour, the only senior centre-back Iraola has on the plane. Liverpool have still not signed a replacement; Inacio and Ordonez remain the names on the board", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -141,7 +122,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Mon May 25 — season over: Liverpool's most consistent midfielder across a turbulent campaign, and an obvious building block for whatever the summer's decisions construct next", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Tue Jul 21 — the one certainty in the midfield. Liverpool's most consistent player across a turbulent 2025-26 is the fixed point at the base of whatever Iraola builds, and joins the tour around the Wrexham fixture after his own World Cup. Everything around him is a question; he is not one of them", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -161,7 +142,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Mon Jul 20 — still here, and now needed. The Aston Villa and Nottingham Forest interest never turned into a bid the club had to think about, and with Mac Allister not expected before the Como friendly on August 16, Jones travels as one of the few midfielders with real senior mileage. Iraola has said nothing publicly about his role. The tour is the audition, and he is the one being auditioned by rather than for. Fit and in the travelling party", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Tue Jul 21 — wanted in two places, and Liverpool are winning the argument. Inter have had a third bid, around €32m, rejected against a valuation near £35m; Jones has a year left and could talk to foreign clubs in January, but Iraola has been pointed about keeping him, and the club are weighing fresh terms rather than a sale. He is in Chicago, needed in midfield with Mac Allister away until mid-August", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -169,7 +150,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "doubtful", outSince: "2026-02-12", injuryNote: "Tue Jul 14 — in the building, not in the session. He reported to the AXA ahead of schedule and was still absent when the first group of Iraola's era trained this morning, the February foot injury not yet fully behind him and June's international retirement (73 caps, no World Cup) behind him for good. A sale is still expected to be negotiated. Coming back early to a manager who has never picked you is a form of argument, and it has not worked yet", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "doubtful", outSince: "2026-02-12", injuryNote: "Tue Jul 21 — travelled, but with his future unresolved. The February foot trouble is behind him and he made the plane to Chicago, though a sale is still expected to be negotiated before the window shuts. At 33, and having retired from Japan duty in June, he is deep squad rather than a first pick under a manager who has never selected him", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -181,7 +162,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Mon May 25 — season over: an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. A clean pre-season is everything now", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Tue Jul 21 — the clean pre-season he never had. The £115m playmaker shared just 117 minutes with Isak and Ekitike across an injury-disrupted first year; he joins the tour around the Wrexham game with a full summer, for once, ahead of him. Iraola's system is built to feed exactly his kind of player", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -190,7 +171,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 19, name: "Stefan Bajcetic", number: 43, position: "MID", nationality: "🇪🇸 Spain", age: 21, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "doubtful", outSince: "2025-08-01", injuryNote: "Tue Jul 14 — another pre-season watched from the side. He returned to Kirkby early and was again missing when the group trained this morning, the hamstring trouble that erased his entire 2025-26 still not cleanly resolved. He is 21, which sounds young until you count the seasons: this is the third in a row that has started with him working alone. Iraola has never seen him play a competitive match", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p535928.png",
+    id: 19, name: "Stefan Bajcetic", number: 43, position: "MID", nationality: "🇪🇸 Spain", age: 21, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "doubtful", outSince: "2025-08-01", injuryNote: "Tue Jul 21 — a rare clean start, and a chance to take. The hamstring trouble that erased his 2025-26 is finally behind him and he is on the tour, fit, in front of a manager who has never seen him play a competitive match. He is 21 with three interrupted seasons behind him; this is the first pre-season in a while he has begun with the group rather than alone", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p535928.png",
     physical: { height: 185, weight: 75, pace: 68, acceleration: 66, sprintSpeed: 70 },
     career: [
       { years: "2017-2020", club: "Celta Vigo Academy", fee: null, type: "youth" },
@@ -209,18 +190,6 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 21, name: "Mohamed Salah", number: 11, position: "FWD", nationality: "🇪🇬 Egypt", age: 34, appearances: 39, goals: 10, assists: 10, cleanSheets: null, xG: 7.0, tacklesPer90: 0.6, passCompletion: 82, progressiveCarries: 3.5, form: 7.0, status: "fit", injuryNote: "Mon Jul 20 — no longer a Liverpool player, and the ending is turning ugly in public. Besiktas president Serdal Adali confirmed talks, said the club agreed with Salah on everything, then claimed the commission sought by his representatives climbed to about thirty-five per cent once the Turkish press printed that the deal was done, calling the figure astronomical and impossible to accept. Fenerbahce and Galatasaray have offers lodged, the MLS interest stands, and a separate report names Chelsea as his first choice if he stays in England. A free agent since June 30", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p118748.png",
-    physical: { height: 175, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 85 },
-    career: [
-      { years: "2010-2012", club: "El Mokawloon", fee: null, type: "senior" },
-      { years: "2012-2016", club: "Basel", fee: "€2.5M", type: "senior" },
-      { years: "2014-2015", club: "Chelsea", fee: "€16M", type: "senior" },
-      { years: "2015-2016", club: "Fiorentina (loan)", fee: null, type: "senior" },
-      { years: "2016-2017", club: "Roma (loan/permanent)", fee: "€17M", type: "senior" },
-      { years: "2017-", club: "Liverpool", fee: "€42M", type: "senior" },
-    ],
-  },
-  {
     id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 39, goals: 9, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 6.8, status: "fit", injuryNote: "Sat Jul 18 — sold by everyone except his club. A Spanish report attached to the Hassan story described Gakpo's departure as settled; Liverpool have restated they do not plan to sell him this summer, to Tottenham or anybody, despite a £70m figure circulating in June. With Salah's flank vacant and the winger board mostly shut, Iraola wants him tested on the left in pre-season. Nine goals and six assists in 39 appearances last season. Only an offer the club consider unignorable changes it", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
@@ -230,7 +199,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 18, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Mon May 25 — season over: an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 18, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Tue Jul 21 — fit again, and out to justify the fee. An injury-wrecked debut season limited the £100m striker to a handful of starts; he came home early from the World Cup and is due to join the tour in its first week. A full pre-season is the reset the whole front line needs", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -252,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Mon Jun 8 — still untouchable: Fabrizio Romano restates the 17-year-old has 'no chance' of leaving as Bayern keep him on their list after missing Anthony Gordon, with no formal contact made — Liverpool's position unmoved. With Salah departed and the wide rebuild still unsettled, the left flank the youngest goalscorer in the club's history would inherit looks more his than ever", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Tue Jul 21 — the shirt is his until somebody lands. Restated by Romano as having 'no chance' of leaving, the 17-year-old holds the post-Salah right-sided berth by default while the winger board stays unresolved, and the tour is his stage. The youngest goalscorer in the club's history inherits a flank that looks more his by the week", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -260,7 +229,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Tue Jul 7 — the U-turn: a month after saying he would look elsewhere for minutes, Chiesa is now reported determined to stay and fight for a starting role under Iraola, the Napoli and Roma interest parked. The sale the summer maths had pencilled in is suddenly less certain; pre-season becomes his audition", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Tue Jul 21 — the audition is under way. A month after saying he would look for minutes elsewhere, Chiesa flew to Chicago among the senior forwards determined to stay and fight under Iraola, the Napoli and Roma interest parked. With the winger board unresolved above him, a strong fortnight in America is the argument he needs to make", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -271,7 +240,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Mon May 25 — season over: third-choice goalkeeper across the campaign, with two Premier League starts. A dependable squad option as the goalkeeping picture is reviewed", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Tue Jul 21 — third-choice, and dependable with it. Two Premier League starts across 2025-26 and a steady squad option, he is part of the goalkeeping group in America while Alisson takes his post-World Cup break. No drama, which at his position is the point", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },

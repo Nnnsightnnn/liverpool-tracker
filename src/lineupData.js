@@ -140,9 +140,7 @@ export const PLAYER_EVIDENCE = {
   1:  "Post-WC break · joins in week two",        // Alisson
   2:  "Leads the GK group to Chicago",           // Mamardashvili
   3:  "Captain · joins up for the tour",         // Van Dijk
-  4:  "Real Madrid's · left free June 30",       // Konaté
   5:  "Staying · versatile cover, in Chicago",    // Gomez
-  6:  "Tottenham · left free June 30",           // Robertson
   7:  "First-pick LB · landed in Chicago",            // Kerkez
   8:  "Knee · in USA for rehab only",            // Bradley
   9:  "Only fit senior RB on the tour",          // Frimpong
@@ -157,7 +155,6 @@ export const PLAYER_EVIDENCE = {
   18: "Germany out · joins up for the tour",     // Wirtz
   19: "Hamstring · a third lost pre-season",     // Bajcetic
   20: "New long-term deal · 11 academy on tour", // Nyoni
-  21: "Free agent · Besiktas deny a deal",       // Salah
   22: "Not for sale · club restate it",          // Gakpo
   23: "Fit again · home early from the WC",      // Isak
   24: "Achilles · out to the festive period",    // Ekitike
