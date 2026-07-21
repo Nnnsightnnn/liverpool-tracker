@@ -385,12 +385,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Monday, and there is a world champion on the books who has never
-          trained at Kirkby. Spain beat Argentina in extra time at MetLife last
-          night and Victor Munoz, twenty-two days a Red, has the medal;
-          Alexis Mac Allister has the runners-up one. Neither joins the tour.
-          The rest fly into Chicago today, into wildfire smoke and an air
-          quality alert. Five days to Nashville, and still no winger.
+Tuesday, and the club has finally written a number down. Eighty-five
+          million for Bradley Barcola, a fortnight after Paris said he was
+          strictly off limits and Arsenal were said to be in front. Paris still
+          want a hundred and sixteen at least, so this is an argument rather
+          than a signing. Thirty-one players are in Chicago, eleven of them out
+          of the academy. Four days to Nashville.
         </p>
 
         <StatStrip stats={stats} />
@@ -419,35 +419,35 @@ Monday, and there is a world champion on the books who has never
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and Liverpool have a World Cup winner who has never worn the
-              shirt. Ferran Torres scored in the hundred and sixth minute in
-              New Jersey last night, against ten men, and Spain have a second
-              star to set beside 2010. Somewhere in the confetti was{" "}
-              <em>Victor Munoz</em>, twenty-two days into a six-year contract,
-              a footballer who has not trained at Kirkby and has not played a
-              minute for the club that owns him, holding something most Anfield
-              careers end without. Alexis Mac Allister played the whole of it
-              and lost, in a midfield cut to ten when Enzo Fernandez went late
-              into Pau Cubarsi three minutes into stoppage time. Neither of them
-              joins the tour. The rest land in Chicago today, in a city the
-              authorities have told people to stay indoors in, and begin the
-              Iraola era in borrowed air.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and the winger file has come back from the dead. Two weeks ago
+              Paris Saint-Germain used the phrase <em>strictly off limits</em>{" "}
+              in public and the reporting had Arsenal in front; this week
+              France went out of the World Cup, the waiting stopped meaning
+              anything, and Liverpool put eighty-five million pounds on the
+              table for <em>Bradley Barcola</em>. Club-to-club talks are said to
+              be escalating. The distance is still the entire story, because
+              Paris want a hundred and sixteen at the very least and may want a
+              hundred and twenty-eight. Behind it, Yankuba Minteh has not been
+              withdrawn, which tells you the board is running two prices for one
+              shirt. Meanwhile Inter have been refused a third time over Curtis
+              Jones, and Mohamed Salah is simultaneously being unveiled next
+              week and denied outright by the club unveiling him.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings as they finished, and
-              five dispatches from the writers who never clock off. There is a
-              Besiktas president saying out loud that Mohamed Salah's people
-              asked for thirty-five per cent and calling it astronomical; a
-              report naming Chelsea, of all clubs, as where he would rather
-              stay; a winger file that has slid from Bradley Barcola to Yankuba
-              Minteh because one is admired and the other can actually be
-              bought; and eight hundred fires in Canada deciding when a Premier
-              League squad is allowed outside. Read them in order. The season is
-              five weeks away and the summer has not been quiet once.
+              five dispatches from the writers who never clock off. There is an
+              opening bid that reopens a door everyone had stopped knocking on;
+              a Turkish club denying the signing it is reported to be announcing
+              next week; a midfielder Liverpool could have had on his existing
+              terms, waved through to Aston Villa so the money can chase a
+              hundred-million-pound one instead; and eleven academy boys in
+              Chicago with a fortnight to make an argument. Read them in order.
+              The season is five weeks away and the summer has not been quiet
+              once.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3165,7 +3165,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A medal before a training kit."
+        "An opening bid is not a signing."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
