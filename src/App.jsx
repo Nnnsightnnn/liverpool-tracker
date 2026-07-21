@@ -385,7 +385,7 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-Tuesday, and the club has finally written a number down. Eighty-five
+          Tuesday, and the club has finally written a number down. Eighty-five
           million for Bradley Barcola, a fortnight after Paris said he was
           strictly off limits and Arsenal were said to be in front. Paris still
           want a hundred and sixteen at least, so this is an argument rather

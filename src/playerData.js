@@ -384,7 +384,7 @@ export const TEAM_LOGOS = {
 export const COVER_IMAGE = {
   src: "/assets/cover/2026-07-21-barcola-bid.svg",
   alt: "A solitary winger held in floodlight at the edge of a wide empty pitch, a second figure half-lit and out of focus far behind him.",
-  focus: "An opening bid is not a signing",
+  focus: "Eighty-five million, and a gap",
   credit: "Editorial plate · auto-generated",
   generatedAt: "2026-07-21T09:00:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
@@ -887,16 +887,16 @@ export const TRANSFER_TARGETS = {
       contractExpiry: "2028-06-30",
       releaseClause: null,
       contractNote: "Under contract at Mainz to 2028 with no release clause; the club's valuation sits at €50-60m and Liverpool are reported prepared to meet it, a fee that would set a record for an Asian player. Arsenal, Tottenham and Borussia Dortmund have also been in contact with his camp.",
-      probability: 66,
-      heatTier: "hot",
+      probability: 44,
+      heatTier: "warm",
       sources: [
         { name: "TeamTalk",       tier: "B" },
         { name: "Read Liverpool", tier: "B" },
         { name: "Football365",    tier: "B" },
       ],
-      lastUpdated: "2026-07-19",
+      lastUpdated: "2026-07-21",
       rumorNote:
-        "Mainz · 19 Jul — the one that is still moving while the others stop. Talks have now been held, with Liverpool reported ready to go to €60m, about £51m, a record for an Asian player, and the field around them has thinned in their favour: Khephren Thuram is set to sign an extension at Juventus, and Adam Wharton at £100m is not a priority for Iraola. Arsenal, Tottenham and Dortmund have all contacted Sano's representatives, but the 25-year-old is understood to want the Premier League, which is the edge Liverpool are leaning on. He scored against Brazil in the round of 32 and anchored the Japan side that beat expectations all summer. The six is the position this rebuild fixes first.",
+        "Mainz · 21 Jul — still moving, but no longer the only midfield file open. Talks have been held, with Liverpool reported ready to go to €60m, about £51m, a record for an Asian player, and Khephren Thuram signing an extension at Juventus thinned the field in their favour. What has changed this week is above him: reporting now installs Adam Wharton as the club's top midfield target despite a Palace ask beyond £100m, after Liverpool declined Joao Gomes, which reframes Sano as the achievable option rather than the chosen one. Arsenal, Tottenham and Dortmund have all contacted his representatives, but the 25-year-old is understood to want the Premier League, which is the edge Liverpool are leaning on. He scored against Brazil in the round of 32 and anchored the Japan side that beat expectations all summer. The six is the position this rebuild fixes first.",
       positionFit: {
         replaces: "Endo (defensive midfield)",
         competesWith: ["Gravenberch", "Mac Allister", "Szoboszlai"],

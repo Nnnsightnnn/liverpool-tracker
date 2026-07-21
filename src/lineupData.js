@@ -141,7 +141,7 @@ export const PLAYER_EVIDENCE = {
   2:  "Leads the GK group to Chicago",           // Mamardashvili
   3:  "Captain · joins up for the tour",         // Van Dijk
   4:  "Real Madrid's · left free June 30",       // Konaté
-  5:  "Staying · versatile cover, flew today",    // Gomez
+  5:  "Staying · versatile cover, in Chicago",    // Gomez
   6:  "Tottenham · left free June 30",           // Robertson
   7:  "First-pick LB · landed in Chicago",            // Kerkez
   8:  "Knee · in USA for rehab only",            // Bradley
@@ -164,7 +164,7 @@ export const PLAYER_EVIDENCE = {
   25: "Right-sided berth · his by default",        // Ngumoha
   26: "Staying to fight · trained day one",      // Chiesa
   27: "3rd-choice GK · trained day one",         // Woodman
-  28: "World champion · joins up this week",     // Munoz
+  28: "World champion · back for Como, Aug 16",   // Munoz
 };
 
 // Default formation when entering the view — the 4-2-3-1 Slot favoured through
@@ -193,6 +193,8 @@ export const SLOT_CONFIDENCE = {
   RDM: "High",   // Szoboszlai · new five-year deal signed to 2031 · in day one
   LAM: "Medium", // Wirtz · injury-hit debut season · back for the tour
   CAM: "Low",    // Mac Allister · World Cup runner-up · misses the entire American tour, back for Como on Aug 16
+  RAM: "Low",    // Salah gone · £85m bid lodged for Barcola, Minteh in reserve · Ngumoha holds it by default
+  ST:  "Medium", // Isak · injury-wrecked debut year · joins the tour around the Wrexham fixture
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
