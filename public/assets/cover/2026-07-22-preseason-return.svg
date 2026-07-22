@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Editorial plate: three figures walking onto an empty training pitch at first light, the squad reassembling before a season">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12161f"/>
+      <stop offset="44%" stop-color="#243141"/>
+      <stop offset="100%" stop-color="#3a2a1e"/>
+    </linearGradient>
+    <radialGradient id="dawn" cx="0.5" cy="0.20" r="0.80">
+      <stop offset="0%" stop-color="#f6d9a6" stop-opacity="0.42"/>
+      <stop offset="52%" stop-color="#f6d9a6" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#f6d9a6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.60"/>
+      <stop offset="42%" stop-color="#000" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.74"/>
+    </linearGradient>
+    <linearGradient id="turf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#16362a" stop-opacity="0.88"/>
+      <stop offset="100%" stop-color="#05110b" stop-opacity="0.97"/>
+    </linearGradient>
+    <linearGradient id="figure" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#20171b" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#0a0508" stop-opacity="0.99"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="softer"><feGaussianBlur stdDeviation="24"/></filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#dawn)"/>
+
+  <!-- low treeline / distant training-ground buildings dissolving into first light -->
+  <g opacity="0.26">
+    <rect x="0" y="300" width="1600" height="60" fill="#0d1a1a"/>
+    <rect x="120" y="268" width="150" height="92" fill="#0c1720"/>
+    <rect x="1180" y="276" width="210" height="84" fill="#0c1720"/>
+  </g>
+
+  <!-- the rising sun band: the season restarting -->
+  <g opacity="0.5" filter="url(#soft)">
+    <ellipse cx="800" cy="150" rx="360" ry="70" fill="#f6d9a6" opacity="0.16"/>
+  </g>
+
+  <!-- turf -->
+  <rect x="0" y="560" width="1600" height="340" fill="url(#turf)"/>
+  <g opacity="0.10" fill="#dfeee4">
+    <rect x="0" y="600" width="1600" height="2"/>
+    <rect x="0" y="672" width="1600" height="2"/>
+    <rect x="0" y="762" width="1600" height="2"/>
+  </g>
+  <!-- centre line, catching the light -->
+  <rect x="796" y="560" width="3" height="340" fill="#dfeee4" opacity="0.12"/>
+
+  <!-- three figures walking in from the left: the returnees rejoining -->
+  <g filter="url(#soft)" opacity="0.30">
+    <ellipse cx="560" cy="742" rx="88" ry="18" fill="#000"/>
+    <ellipse cx="712" cy="748" rx="80" ry="16" fill="#000"/>
+    <ellipse cx="452" cy="736" rx="76" ry="15" fill="#000"/>
+  </g>
+  <!-- lead figure -->
+  <g fill="url(#figure)">
+    <ellipse cx="560" cy="474" rx="24" ry="27"/>
+    <path d="M536 508 q24 -15 48 0 l16 90 q-40 14 -80 0 z"/>
+    <path d="M538 514 l-40 72 q-6 12 6 18 q11 5 18 -7 l33 -60 z"/>
+    <path d="M582 514 l42 68 q7 12 -5 19 q-11 5 -18 -7 l-34 -58 z"/>
+    <path d="M545 598 l-12 112 q-2 14 11 15 q12 1 15 -13 l13 -94 z"/>
+    <path d="M575 598 l15 108 q3 14 -9 16 q-12 2 -16 -12 l-15 -96 z"/>
+  </g>
+  <!-- second figure, slightly behind -->
+  <g fill="url(#figure)" opacity="0.92">
+    <ellipse cx="712" cy="486" rx="22" ry="25"/>
+    <path d="M690 518 q22 -14 44 0 l14 84 q-36 13 -73 0 z"/>
+    <path d="M694 594 l-11 104 q-2 13 10 14 q11 1 14 -12 l12 -88 z"/>
+    <path d="M728 594 l14 100 q3 13 -8 15 q-11 2 -15 -11 l-14 -90 z"/>
+  </g>
+  <!-- third figure, furthest, half-lit -->
+  <g fill="#0e1116" opacity="0.62" filter="url(#softer)">
+    <ellipse cx="452" cy="500" rx="19" ry="22"/>
+    <path d="M433 530 q19 -12 38 0 l12 74 q-31 11 -63 0 z"/>
+    <path d="M441 604 l-9 90 l21 0 l11 -76 z"/>
+    <path d="M465 604 l12 88 l20 -2 l-13 -84 z"/>
+  </g>
+
+  <!-- a few motes drifting in the low sun: morning, and the work beginning -->
+  <g fill="#f6d9a6" opacity="0.16">
+    <circle cx="900" cy="320" r="2.4"/><circle cx="980" cy="392" r="2"/>
+    <circle cx="1060" cy="260" r="1.8"/><circle cx="820" cy="300" r="2.1"/>
+    <circle cx="1180" cy="360" r="1.9"/><circle cx="700" cy="360" r="1.6"/>
+    <circle cx="1320" cy="320" r="2"/><circle cx="640" cy="300" r="1.5"/>
+  </g>
+
+  <rect width="1600" height="900" fill="url(#scrim)"/>
+  <rect width="1600" height="900" filter="url(#grain)" opacity="0.05"/>
+</svg>
