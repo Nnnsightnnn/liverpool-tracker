@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Tue Jul 21 — the captain rejoins on the road. Milan's interest, driven by Ibrahimovic, keeps being knocked back at Anfield with no bid received and none expected to move him; at 35 and central to Iraola's plans, Van Dijk is due to link up with the squad in America around the Wrexham fixture. The defence is being rebuilt around him, with Jacquet the lone senior cover until he lands", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Wed Jul 22 — held back for the Anfield friendlies. Iraola confirmed in his first pre-season briefing that the captain stays in Europe with Alisson and Gakpo and links up later in the trip, the bulk of his minutes reserved for the Como and Monaco games at Anfield in mid-August. Milan's interest, driven by Ibrahimovic, keeps being knocked back with no bid received and none expected to move him. Jacquet is the lone senior centre-back until he arrives", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -122,7 +122,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Tue Jul 21 — the one certainty in the midfield. Liverpool's most consistent player across a turbulent 2025-26 is the fixed point at the base of whatever Iraola builds, and joins the tour around the Wrexham fixture after his own World Cup. Everything around him is a question; he is not one of them", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Wed Jul 22 — confirmed among the returning trio. Iraola named him with Isak and Wirtz as rejoining the tour in the coming days after their World Cup summers, missing Sunderland but in the frame for Wrexham and Leeds. Liverpool's most consistent player across a turbulent 2025-26 is the fixed point at the base of whatever the manager builds. Everything around him is a question; he is not one of them", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -150,7 +150,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "doubtful", outSince: "2026-02-12", injuryNote: "Tue Jul 21 — travelled, but with his future unresolved. The February foot trouble is behind him and he made the plane to Chicago, though a sale is still expected to be negotiated before the window shuts. At 33, and having retired from Japan duty in June, he is deep squad rather than a first pick under a manager who has never selected him", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "doubtful", outSince: "2026-02-12", injuryNote: "Wed Jul 22 — named in the group building fitness, not featuring. Iraola's briefing placed Endo alongside Bajcetic and the long-term absentees as travelling to work rather than play, the February foot trouble behind him but a sale still expected before the window shuts. At 33, and retired from Japan duty in June, he is deep squad under a manager who has never selected him", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -162,7 +162,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Tue Jul 21 — the clean pre-season he never had. The £115m playmaker shared just 117 minutes with Isak and Ekitike across an injury-disrupted first year; he joins the tour around the Wrexham game with a full summer, for once, ahead of him. Iraola's system is built to feed exactly his kind of player", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Wed Jul 22 — one of the three Iraola confirmed are coming. The £115m playmaker rejoins the tour in the coming days with Isak and Gravenberch, missing Sunderland but in line for Wrexham and Leeds, and the manager finally gets an extended block of work with him. He shared barely 117 minutes on the pitch with Isak and Ekitike across an injury-disrupted first year; a clean summer, for once, is the reset", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -171,7 +171,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 19, name: "Stefan Bajcetic", number: 43, position: "MID", nationality: "🇪🇸 Spain", age: 21, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "doubtful", outSince: "2025-08-01", injuryNote: "Tue Jul 21 — a rare clean start, and a chance to take. The hamstring trouble that erased his 2025-26 is finally behind him and he is on the tour, fit, in front of a manager who has never seen him play a competitive match. He is 21 with three interrupted seasons behind him; this is the first pre-season in a while he has begun with the group rather than alone", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p535928.png",
+    id: 19, name: "Stefan Bajcetic", number: 43, position: "MID", nationality: "🇪🇸 Spain", age: 21, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "doubtful", outSince: "2025-08-01", injuryNote: "Wed Jul 22 — into the rehab group, but on the plane. Iraola named him with Endo among those using the American trip to build fitness inside the first-team environment rather than feature. The hamstring trouble that erased his 2025-26 is behind him; at 21, with three interrupted seasons done, this is a pre-season begun with the group rather than alone. A chance, if the body holds", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p535928.png",
     physical: { height: 185, weight: 75, pace: 68, acceleration: 66, sprintSpeed: 70 },
     career: [
       { years: "2017-2020", club: "Celta Vigo Academy", fee: null, type: "youth" },
@@ -190,7 +190,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 39, goals: 9, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 6.8, status: "fit", injuryNote: "Sat Jul 18 — sold by everyone except his club. A Spanish report attached to the Hassan story described Gakpo's departure as settled; Liverpool have restated they do not plan to sell him this summer, to Tottenham or anybody, despite a £70m figure circulating in June. With Salah's flank vacant and the winger board mostly shut, Iraola wants him tested on the left in pre-season. Nine goals and six assists in 39 appearances last season. Only an offer the club consider unignorable changes it", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 39, goals: 9, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 6.8, status: "fit", injuryNote: "Wed Jul 22 — staying in Europe a while longer. Iraola confirmed Gakpo links up later in the trip with Alisson and Van Dijk rather than fly out now. Liverpool have restated they do not plan to sell him this summer, to Tottenham or anybody, despite a £70m figure that circulated in June, and with Salah's flank vacant the manager wants him tested on the left. Nine goals and six assists in 39 appearances last season. Only an offer the club consider unignorable changes it", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -199,7 +199,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 18, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Tue Jul 21 — fit again, and out to justify the fee. An injury-wrecked debut season limited the £100m striker to a handful of starts; he came home early from the World Cup and is due to join the tour in its first week. A full pre-season is the reset the whole front line needs", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 18, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Wed Jul 22 — confirmed back, and eased in carefully. Iraola named Isak among the returning trio, in line for a few minutes against Wrexham on July 29 before a fuller role versus Leeds, having come home early from the World Cup. An injury-wrecked debut season limited the £100m striker to a handful of starts; a full pre-season under a new coach is the reset the whole front line needs", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -351,22 +351,22 @@ export const TEAM_LOGOS = {
 //     and repoints `src` + `credit` + `generatedAt` at it.
 // `focus` is the one-line "most important focus of the latest edition."
 export const COVER_IMAGE = {
-  src: "/assets/cover/2026-07-21-barcola-bid.svg",
-  alt: "A solitary winger held in floodlight at the edge of a wide empty pitch, a second figure half-lit and out of focus far behind him.",
-  focus: "Eighty-five million, and a gap",
+  src: "/assets/cover/2026-07-22-preseason-return.svg",
+  alt: "Three figures walking onto an empty training pitch at first light, one leading, two following into the frame.",
+  focus: "The squad reassembles at first light",
   credit: "Editorial plate · auto-generated",
-  generatedAt: "2026-07-21T09:00:00Z",
+  generatedAt: "2026-07-22T09:00:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
   brief: {
     leadStory:
-      "Liverpool have lodged an opening bid reported at £85m for Bradley Barcola, with club-to-club talks escalating since France's World Cup exit, reversing a fortnight in which PSG called him strictly off limits; Paris still want between £116m and £128m.",
+      "Andoni Iraola's first pre-season briefing confirms Isak, Wirtz and Gravenberch will rejoin the tour in the coming days, missing Sunderland but in for Wrexham and Leeds, as the World Cup returnees are phased back into a young squad in America.",
     subject:
-      "A lone winger standing in floodlight on an empty pitch at night, isolated in the frame, a second blurred figure far behind him in the dark",
+      "Three footballers in training kit walking onto an empty grass pitch at dawn, one ahead of the other two, seen at a distance in a wide frame",
     prompt:
-      "Cinematic editorial photograph, night, a single young footballer standing alone in a pool of floodlight at the edge of an empty pitch, seen from a distance so the figure is small in a wide frame, a second player far behind him blurred and half-lit, vast dark empty stands, shallow depth of field, muted crimson and deep teal palette, film grain, a sense of a decision suspended and unresolved, no on-image text, headroom at the top for a masthead headline",
+      "Cinematic editorial photograph, first light, three young footballers in plain training kit walking onto an empty grass pitch from the left, one leading and two following a few steps behind, seen from a distance so the figures are small in a wide frame, low training-ground buildings and a treeline dissolving into a soft dawn haze, long shadows, muted amber and deep teal palette, film grain, a quiet sense of a group reassembling before a season, no on-image text, headroom at the top for a masthead headline",
     aspectRatio: "landscape",
-    slug: "barcola-bid",
-    generatedAt: "2026-07-21T09:00:00Z",
+    slug: "preseason-return",
+    generatedAt: "2026-07-22T09:00:00Z",
   },
 };
 
@@ -455,14 +455,14 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-07-21T09:00:00Z",
+  generatedAt: "2026-07-22T09:00:00Z",
   overview:
-    "Nothing beneath this line has moved since May and nothing will until late August, which makes it a strange thing to read in the middle of the loudest week of the window. The settled 2025-26 record stands: Arsenal champions on 85, Liverpool fifth on 60, a title defence that came apart between November and February. ESPN's 2026-27 table has reset every club to zero and swapped Coventry, Hull and Ipswich in for West Ham, Burnley and Wolves, so there is no live position to read here; these rows are archive. What Liverpool carry into August is not a league position but a shortfall, and this week it acquired a price: £85m offered for a right winger against a valuation of £116m or more, a holding midfielder the club declined and another it cannot afford, senior cover still short at centre-back, three long-term injuries in rehabilitation in Chicago. It restarts at St James' Park on August 23.",
+    "For the first time in weeks the noise moved from the market to the training pitch, which only underlines how little this table now says. The settled 2025-26 record stands and will until late August: Arsenal champions on 85, Liverpool fifth on 60, a title defence that unravelled between November and February. ESPN's 2026-27 table has already reset every club to zero and swapped Coventry, Hull and Ipswich in for West Ham, Burnley and Wolves, so these rows are archive rather than live standings. What Liverpool carry into the new season is not a position but a to-do list, and this week it shifted from acquisition to assessment: a manager phasing his World Cup returnees back in, a £750,000 teenager signed for 2027, a Barcola pursuit priced back out at £127.5m, senior cover still short at centre-back. It restarts at St James' Park on August 23.",
   teams: {
-    "Liverpool": "Fifth on 60 and out of the picture until August 23. Thirty-one players are at the Chicago base, eleven of them from the academy, with Sunderland in Nashville on Saturday.",
-    "Arsenal": "Champions on 85, and framed a fortnight ago as favourites for Barcola, a race Liverpool have now re-entered with an £85m opening bid.",
+    "Liverpool": "Fifth on 60 and out of the picture until August 23. Iraola is phasing his World Cup returnees back in on tour, Isak, Wirtz and Gravenberch due in the coming days, with a young side to face Sunderland in Nashville on Saturday.",
+    "Arsenal": "Champions on 85, and still credited with interest in Barcola, though PSG's £127.5m valuation has cooled every suitor including Liverpool.",
     "Manchester City": "Second on 78, and the club whose £116m for Elliot Anderson set the price Palace are now quoting for Adam Wharton.",
-    "Manchester United": "Third on 71, back in the Champions League after two seasons away, and also credited with interest in Wharton.",
+    "Manchester United": "Third on 71, back in the Champions League after two seasons away, and openly invited by PSG to bid for Barcola.",
     "Aston Villa": "Fourth on 65, beat Liverpool 4-2 at Villa Park in May, and are closing on Joao Gomes for £35m after Liverpool declined him.",
     "Bournemouth": "Sixth on 57 with eighteen draws, the club Iraola left for Anfield in June.",
     "Brighton": "Eighth on 53, and the club at the deliverable end of the winger question: Minteh remains valued around £70m.",
@@ -480,132 +480,132 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Eighty-Five Million, And The Door Is Open Again.",
-    byline: "Empire of the Kop / FootballTransfers",
-    dateline: "Paris · 21 July",
-    category: "Transfers",
+    headline: "The Manager Finally Gets To Talk About Players.",
+    byline: "Liverpool.com / Yahoo Sports",
+    dateline: "Chicago · 22 July",
+    category: "Manager",
     body:
-      "A fortnight ago Paris Saint-Germain said the word off-limits in public and Football365 had Arsenal in front, and the Barcola file at Anfield read like a eulogy. Then France went out of the World Cup, the tournament stopped being a reason to wait, and Liverpool put eighty-five million pounds on the table. Club-to-club talks are described as escalating. What has not moved is the gap: Paris still want something between one hundred and sixteen and one hundred and twenty-eight million, and the player still wants a bigger role than the one he has. An opening bid is not a signing. It is, however, the first number anyone at Liverpool has actually written down.",
+      "Andoni Iraola sat down for his first proper pre-season briefing and, for once at this club this summer, the subject was football. Isak, Wirtz and Gravenberch are all coming, he confirmed, joining the tour in the next few days after their World Cup summers, missing Sunderland but in the frame for Wrexham and Leeds. Alisson, Van Dijk and Gakpo stay in Europe a while longer. It was the first time since he arrived that Iraola has spoken about who he will pick rather than who he might sign, and you could hear a coach quietly relieved to be measuring fitness instead of fees. The work, he said, starts with a ball, early.",
   },
   {
     n: "02",
-    headline: "Two Stories, One Egyptian, And They Do Not Agree.",
-    byline: "Turkiye Today / TribalFootball",
-    dateline: "Istanbul · 21 July",
-    category: "Farewells",
-    body:
-      "In one version he is unveiled next week. One guaranteed year, around ten million euros, two more in bonuses, an option for a second season, the whole thing waiting on a photograph in a black-and-white shirt. In the other version Besiktas have put out a statement naming a reporter, denouncing him, and denying that any contract exists at all. Both were published inside the same forty-eight hours. Underneath sits the commission row the club's president aired at the weekend, and above it all Ramy Abbas, the agent, posting that he does not personally know where his client will play next season and asking what that tells you. Seven weeks now. Still no club.",
-  },
-  {
-    n: "03",
-    headline: "Three Bids, Three Refusals, And A Manager Saying The Quiet Part.",
-    byline: "TeamTalk / Sports Mole",
+    headline: "The Quietest Signing Of The Loudest Summer.",
+    byline: "This Is Anfield / Empire of the Kop",
     dateline: "Anfield · 21 July",
     category: "Transfers",
     body:
-      "Inter Milan have now been told no three times about Curtis Jones, most recently over an offer around thirty-two million euros against a valuation nearer thirty-five million pounds. The Italians are not bidding blind: Jones has twelve months left, and from January he can talk to foreign clubs for nothing, which is the whole of their leverage and both sides know it. What complicates the arithmetic is Iraola, who has been conspicuously unwilling to play the diplomat. He called Jones a great, great player, said he liked the personality, and said he hoped to keep him not only for this year but for more time. Liverpool are now drawing up terms instead of a price.",
+      "While the market shouted about nine figures, Liverpool spent seven hundred and fifty thousand pounds and got a deal done. Samuel Martinez, seventeen, a Colombian playmaker out of Atletico Nacional, has signed a five-year contract, chosen over Bayern, Dortmund and Barcelona after a starring run at the U17 South American Championship. There is a catch that suits nobody's impatience: FIFA age rules mean he cannot formally join the academy until the summer of 2027, when he has turned eighteen. So this is a signing for the archive, not the teamsheet, a bet placed now on a player the club will not see in red for another year. The scouting department, at least, had a good week.",
+  },
+  {
+    n: "03",
+    headline: "One Hundred And Twenty-Seven And A Half.",
+    byline: "L'Equipe / The Athletic",
+    dateline: "Paris · 22 July",
+    category: "Race for Europe",
+    body:
+      "The number arrived from France and it did the Barcola file no favours. L'Equipe's Emery Taisne reports Paris Saint-Germain have priced the winger at a hundred and twenty-seven and a half million pounds, and David Ornstein adds the detail that hurts more, that the champions are simply not convinced they want to sell. PSG have gone as far as inviting Manchester United to bid, the behaviour of a club entirely relaxed. Liverpool's eighty-five million, a day old, already looks like a knock at a door nobody intends to answer. The player wants a bigger role than Paris offer him. It is the only card Liverpool hold, and against that valuation it is not close to enough.",
   },
   {
     n: "04",
-    headline: "The Midfielder They Said No To.",
-    byline: "Anfield Watch / Football365",
-    dateline: "Molineux · 20 July",
-    category: "Tactics",
+    headline: "The List Of The Watching Gets Longer.",
+    byline: "Liverpool.com / DaveOCKOP",
+    dateline: "Chicago · 22 July",
+    category: "Injuries",
     body:
-      "Joao Gomes wanted to come. He was prepared to move on his existing terms, his agent spoke to Liverpool, and Liverpool decided against it, and he is now closing on a thirty-five million pound move to Aston Villa instead. In his place at the top of the board sits Adam Wharton, who costs three times as much and may not be gettable at all: Palace want north of a hundred million and have watched Elliot Anderson go to Manchester City for a hundred and sixteen. The logic is not financial, it is stylistic. Gomes wins the ball. Wharton sets the tempo. Iraola, evidently, is building for the second thing.",
+      "Iraola's team news came with a longer casualty note than expected. Endo and Bajcetic have joined Ekitike, Bradley and Leoni in the group travelling to build fitness rather than to feature, five senior names who will watch the friendlies from the touchline. The one genuinely hopeful line concerns the youngest of them: Leoni, ten months on from the cruciate he tore on his debut, is back running on grass and further along than either of the other long-term absentees. Ekitike's Achilles is now spoken of around Christmas. What it leaves Iraola with in Nashville is a spine held together by academy players and the few seniors who spent June at home.",
   },
   {
     n: "05",
-    headline: "Eleven Academy Boys And Three Men On Exercise Bikes.",
-    byline: "Liverpool FC / This Is Anfield",
-    dateline: "Chicago · 21 July",
-    category: "Football News",
+    headline: "Astronomical, Says The President.",
+    byline: "Al Jazeera / This Is Anfield",
+    dateline: "Istanbul · 21 July",
+    category: "Farewells",
     body:
-      "The travelling party is thirty-one and a third of it has never started a Premier League match. Eleven academy players flew from John Lennon Airport on Monday, Ngumoha and Nyoni among them, the latter with a new long-term contract in his pocket and a fortnight to make an argument. Three others made the trip to do no football at all: Ekitike, Bradley and Leoni are in the United States purely for rehabilitation, with none expected to appear in a friendly. Jayden Danns stayed on Merseyside nursing a hamstring. Iraola says the first sessions are testing and assessment, but that he wants a ball involved early. Nashville is Saturday.",
+      "Seven weeks out of contract and the Salah endgame has curdled into an argument about money. Besiktas want him, their president Serdal Adali says so plainly, but he also says the agent Ramy Abbas has asked for terms he calls astronomical, and the club's own statement on Friday dismissed reports of an agreed deal as entirely fabricated. Al Jazeera reads the whole thing as the centre of gravity of the post-World Cup market. Salah, for his part, is understood to have turned down heavier Saudi money to chase a European ending, with Kansas City and San Diego watching from a distance. Everyone wants the photograph. Nobody can agree on the price of it.",
   },
 ];
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-07-21T09:00:00Z",
+  generatedAt: "2026-07-22T09:00:00Z",
   summary:
-    "Tuesday July 21, and the winger file has swung violently back to the top of the market. Liverpool have lodged an opening bid worth a reported £85m for Bradley Barcola, with club-to-club talks escalating in the days since France went out of the World Cup, which reverses a fortnight in which Paris had called him strictly off limits and Arsenal were framed as favourites. PSG still want somewhere between £116m and £128m, so this is an opening position rather than a deal, but it is the first time Liverpool have put a number on the table. The Salah endgame, meanwhile, has become genuinely contested: reporting out of Turkey has him being unveiled at Besiktas next week on a one-year deal worth around €10m plus €2m in bonuses, while Besiktas themselves have issued a statement denouncing a reporter and denying any contract is agreed. Inter have had a third bid for Curtis Jones, around €32m, rejected against a Liverpool valuation nearer £35m. The squad, 31 players including eleven from the academy, came through their first full day at the Chicago training base ahead of Sunderland in Nashville on Saturday.",
+    "Wednesday July 22, and for the first time this summer the news out of Chicago is about football rather than fees. Andoni Iraola has used his opening pre-season briefing to confirm that Alexander Isak, Florian Wirtz and Ryan Gravenberch will rejoin the tour in the coming days, all three missing Saturday's opener against Sunderland in Nashville but in line for minutes against Wrexham and Leeds after. He also drew the line on the absentees: Alisson, Virgil van Dijk and Cody Gakpo stay in Europe and link up later, while Alexis Mac Allister and Victor Munoz, a World Cup runner-up and a winner, are not expected before the Como friendly on August 16. The window has not gone quiet around him. Liverpool confirmed the £750,000 signing of the 17-year-old Colombian playmaker Samuel Martinez, their third addition of the summer, though FIFA age rules keep him out of the academy until 2027. The Barcola pursuit has meanwhile hit the wall everyone warned of: L'Equipe put PSG's price at £127.5m and David Ornstein reports the champions remain convinced they will not sell, which leaves the £85m opening bid a long way short.",
   keyTopics: [
     {
-      title: "Liverpool Put £85m On The Table For Barcola As The Paris Door Reopens (Empire of the Kop / FootballTransfers / CaughtOffside, today)",
+      title: "Iraola Confirms A Triple Boost: Isak, Wirtz And Gravenberch To Rejoin On Tour (Liverpool.com / Yahoo Sports / This Is Anfield, today)",
       detail:
-        "The file everybody had written off is suddenly the live one. Liverpool are reported to have submitted an opening bid worth around £85m for Bradley Barcola, with club-to-club talks escalating since France's World Cup exit removed the tournament as an obstacle. It is a straightforward reversal of the last fortnight, in which PSG publicly called the 23-year-old strictly off limits and Football365 had Arsenal top of the race. The caveat is the gap: Paris are still valuing him between £116m and £128m, and The Athletic's figure of roughly £116m sits in the middle of that. Barcola has told PSG he wants a bigger role elsewhere, which is the part of this that has not changed.",
-      category: "transfers",
-    },
-    {
-      title: "Besiktas Deny The Deal They Are Reported To Be Announcing Next Week (FootballTransfers / Turkiye Today / TribalFootball, today)",
-      detail:
-        "Two versions of the Salah ending are now running at once and they do not agree. One has him unveiled at Besiktas next week on a one guaranteed year at around €10m plus €2m in bonuses, with an option for a second. The other is Besiktas's own statement, issued in the last day, denouncing a named reporter and effectively denying that any contract has been agreed. Behind both sits the commission dispute the club's president aired at the weekend. His agent Ramy Abbas has added his own line to it, posting that he personally does not know where Salah will play next season and asking what that tells you. MLS and Saudi offers remain live. Nothing is signed.",
-      category: "transfers",
-    },
-    {
-      title: "Inter's Third Bid For Curtis Jones Is Turned Down Inside The Day (TeamTalk / Sports Mole / Liverpool.com, today)",
-      detail:
-        "Inter Milan have returned for a third time and been rebuffed for a third time. The Italian champions' latest offer, reported at around €32m, was dismissed immediately as still short of a Liverpool valuation put near £35m, after two lower bids last month topped out around €25m. Jones has twelve months left on the deal he signed in 2022 and would be free to open pre-contract talks with foreign clubs in January, which is the leverage Inter are working. Iraola has been unusually direct about wanting him to stay, calling him a great player and praising his character, and Liverpool are now weighing fresh terms rather than a sale.",
-      category: "transfers",
-    },
-    {
-      title: "Wharton Becomes The Midfield Priority After Liverpool Turn Joao Gomes Down (Anfield Watch / FootballTransfers / Football365, today)",
-      detail:
-        "A clean change of direction in the middle of the pitch. Liverpool are reported to have made Crystal Palace's Adam Wharton their top midfield target, having actively declined the chance to sign Joao Gomes, who was willing to move to Anfield on his existing terms and is now closing on a £35m switch to Aston Villa. The problem with Wharton is the same as it was: Palace want north of £100m, a number emboldened by Elliot Anderson's £116m move from Nottingham Forest to Manchester City. Wharton's press-and-playmake profile is the more obvious fit for how Iraola wants to set the tempo, which appears to be the reasoning.",
-      category: "transfers",
-    },
-    {
-      title: "First Full Day At The Chicago Base, With Eleven Academy Players In The Party (Liverpool FC / This Is Anfield, today)",
-      detail:
-        "Liverpool named an initial 31-player squad for the American tour and flew from John Lennon Airport on Monday afternoon, and are now settled at the Chicago training base they will use throughout, flying to Nashville and New York the day before each fixture and returning to Illinois after. Eleven of the 31 are academy players, among them Rio Ngumoha and Trey Nyoni, the latter having signed a new long-term deal this summer. Iraola has said the opening sessions are largely fitness testing and assessment but that he wants the ball involved quickly. Senior World Cup players join later this week and next.",
+        "The first pre-season briefing of the Iraola era, delivered this week from the Chicago base, was about bodies rather than budgets. The head coach confirmed that Alexander Isak, Florian Wirtz and Ryan Gravenberch will all link up with the tour in the coming days after their World Cup exertions, missing Saturday's opener against Sunderland but available for the Wrexham fixture in New York and the Leeds game back in Chicago. It is the clearest picture yet of how the manager intends to phase his returning internationals in, and the first genuine football news of a summer that has otherwise been all fees.",
       category: "general",
     },
     {
-      title: "Ekitike, Bradley And Leoni Fly Out To Rehabilitate, Danns Stays Behind (This Is Anfield / DaveOCKOP, today)",
+      title: "Liverpool Confirm The £750,000 Signing Of Samuel Martinez, Their Third Of The Summer (This Is Anfield / Empire of the Kop / Anfield Watch, today)",
       detail:
-        "Three of the six carrying injuries in the travelling party are there purely for medical reasons. Hugo Ekitike, Conor Bradley and Giovanni Leoni have flown to the United States to continue specialist rehabilitation programmes under the club's medical staff, and none of the three is expected to take any part in the friendlies. Jayden Danns has been left on Merseyside with a hamstring problem to manage his fitness instead. Ekitike's ruptured Achilles is now being reported as keeping him out until around the festive period, with the player himself hopeful of playing again before the end of 2026.",
-      category: "injuries",
-    },
-    {
-      title: "Leoni Is Running Outdoors Again And Is Closest Of The Three To Returning (This Is Anfield / Roundtable, today)",
-      detail:
-        "The most encouraging line in the injury briefing concerns the player who has waited longest. Giovanni Leoni, who tore an ACL on his debut last September and needed surgery, has resumed running on the outdoor pitches at the AXA Training Centre and is understood to be the nearest of the long-term absentees to a return. The caution is deliberate: Iraola had hoped to have him from day one of pre-season and has since hinted the wait for full training will be longer. Conor Bradley, hurt against Arsenal in January, is still framed as targeting availability around the start of the campaign proper.",
-      category: "injuries",
-    },
-    {
-      title: "Minteh Holds His Place As The Deal That Can Actually Be Done In July (TeamTalk / Empire of the Kop, 1d ago)",
-      detail:
-        "The Barcola bid does not retire the alternative, it reframes it. Yankuba Minteh, valued around £70m at Brighton and contracted to 2029, remains the winger Liverpool are reported able to sign inside the next fortnight rather than admire into August, and the concrete bid trailed at the weekend has not been withdrawn. He is 21, left-footed on the right, and returned three goals and four assists in 36 appearances last season. The read now is a two-track approach on the same position: the record fee if Paris will move, the deliverable fee if they will not.",
+        "Quietly, the club got a deal over the line. Liverpool have officially confirmed an agreement to sign Samuel Martinez, a 17-year-old attacking midfielder from Atletico Nacional, for a reported £750,000 on a five-year contract, seeing off interest from Bayern Munich, Dortmund and Barcelona. The Colombian was identified after starring in his country's U17 South American Championship win. The catch, per Liverpool.com, is FIFA age regulation: Martinez cannot formally join the academy set-up until ahead of the 2027-28 season, as he does not turn 18 until April 2027. A signing for the file, not the teamsheet.",
       category: "transfers",
     },
     {
-      title: "El Mala Stays In Germany, Narrowing The Cheap Route Further (Anfield Watch / This Is Anfield, 2d ago)",
+      title: "Barcola Hits The Wall: PSG Set £127.5m And Ornstein Says They Will Not Sell (L'Equipe / The Athletic / Football365, today)",
       detail:
-        "Said El Mala, the Koln teenager valued around £43m and tracked through June, is now expected to remain in Germany for 2026-27, with any move waiting on 2027. Set beside Yan Diomande choosing Paris after Leipzig rebuffed a nine-figure approach, the young-and-affordable path into the winger problem has essentially closed for this window, which is part of why the board has ended up choosing between an £85m opening bid and a £70m one rather than a £40m one.",
+        "The reset of yesterday's optimism came quickly. Emery Taisne of L'Equipe reports PSG have placed a £127.5m tag on Bradley Barcola, and The Athletic's David Ornstein writes that the champions remain convinced they do not want to sell at all, which together mean Liverpool's £85m opening bid would be flatly rejected. PSG have gone as far as openly inviting Manchester United to bid, a sign they are relaxed rather than pressured. The France winger still wants a bigger role than Paris offer him, but that is now the only lever Liverpool have, and it is not enough on its own.",
       category: "transfers",
     },
     {
-      title: "Hassan Remains The Cheapest Live Name On The Board (El Gol Digital / Football365, 3d ago)",
+      title: "The Return Plan In Detail: Isak Eyeing Wrexham Minutes, Van Dijk Held For Anfield (Liverpool.com / Yahoo Sports, today)",
       detail:
-        "Underneath the nine-figure noise, the move the accounts can most easily absorb has not shifted. Haissem Hassan, the 24-year-old Egypt international at a Real Oviedo side just relegated to the Segunda, carries a €12m release clause, roughly £10.4m, and Liverpool were reported last week as confident of agreeing a fee beneath it. Celtic opened at €4m earlier in the window and are expected to return nearer seven or eight. He is contracted to 2027 and assisted against Argentina at the World Cup.",
+        "Beneath the headline boost sits a careful schedule. Isak is expected to be eased in with a few minutes against Wrexham at Yankee Stadium on July 29 before a fuller role versus Leeds on August 2, while the bulk of Van Dijk's game time is being reserved for the two Anfield friendlies against Como and Monaco in mid-August. Iraola confirmed Alisson, Van Dijk and Gakpo will remain in Europe and meet the squad later in the trip. The manager gets his first extended block of work with Wirtz and Isak together, a pairing that shared barely two hours on the pitch all last season.",
+      category: "injuries",
+    },
+    {
+      title: "Diomande Talks Reopen As Liverpool Weigh A Harvey Elliott Makeweight (FootballTransfers / This Is Anfield / Liverpool.com, today)",
+      detail:
+        "The cheaper winger route is not quite dead. Liverpool have asked Yan Diomande's representatives about a deal, and while the RB Leipzig teenager is reported to prefer PSG, fresh messaging out of Leipzig suggests the move is not finished. The intrigue is the structure: Harvey Elliott, back at Anfield after a season on loan at Aston Villa that never triggered a permanent £35m clause, is being floated as a makeweight to lower the cash outlay. Iraola is said to be minded to assess Elliott himself across the tour before any decision is taken on his future.",
+      category: "transfers",
+    },
+    {
+      title: "Salah And Besiktas Still Do Not Agree, And The Numbers Are The Problem (Al Jazeera / This Is Anfield / Liverpool.com, 1d ago)",
+      detail:
+        "Seven weeks a free agent, and the Besiktas thread has knotted rather than loosened. President Serdal Adali says the Turkish club want Salah but that the agent Ramy Abbas has attached what he called astronomical demands to the deal, while Besiktas' own Friday-night statement dismissed reports of an agreement as entirely fabricated. Al Jazeera frames the saga as the centrepiece of the post-World Cup market. Salah is understood to have turned down larger Saudi money to push a European move, with MLS sides Sporting Kansas City and San Diego also circling. Still no club, still no signature.",
+      category: "transfers",
+    },
+    {
+      title: "Sunderland In Nashville: The First Sight Of An Iraola Side, And A Young One (Liverpool FC / Nashville SC / Yahoo Sports, today)",
+      detail:
+        "Saturday at Geodis Park is the first competitive glimpse of the new era, and it will be a callow team that starts it. With the World Cup contingent still arriving and five senior names held back, the XI against a Sunderland side comfortably safe in their first season back up will lean heavily on the eleven academy players in the travelling party. Kick-off is 5pm Central. It opens a three-game American swing, Wrexham at Yankee Stadium and Leeds at Soldier Field to follow, before the league begins at Newcastle on August 23.",
+      category: "matches",
+    },
+    {
+      title: "Endo And Bajcetic Join The Rehab Group As Five Seniors Sit The Tour Out (Liverpool.com / DaveOCKOP, today)",
+      detail:
+        "Iraola's briefing also widened the injury list. Alongside Ekitike, Bradley and Leoni, the manager named Wataru Endo and Stefan Bajcetic among those using the American trip to build fitness rather than feature, keeping them inside the first-team environment without match exposure. Leoni, ten months on from the ACL he tore on debut, is the furthest advanced and back running outdoors; Ekitike's ruptured Achilles is now framed around the festive period. The upshot is a thin senior spine in Nashville, and a fortnight of testing before the shape of the season starts to show.",
+      category: "injuries",
+    },
+    {
+      title: "Jones Stays In The Plans As Liverpool Draw Up Terms Rather Than A Price (TeamTalk / Sports Mole / Liverpool.com, 1d ago)",
+      detail:
+        "The Curtis Jones position has firmed since Inter's third rejected bid. Rather than entertain the roughly €32m the Italian champions offered against a valuation nearer £35m, Liverpool are now weighing improved terms to tie the midfielder down, with Iraola having made plain he wants to keep him. Jones has a year left, which hands Inter their only leverage, a potential free-agent move in 2027, but the club are treating him as a rotation asset they need through a thin pre-season rather than an exit to bank. Needed in Chicago with Mac Allister absent until mid-August.",
+      category: "transfers",
+    },
+    {
+      title: "Two Prices For One Shirt: Minteh And Hassan Sit Behind The Barcola Gamble (TeamTalk / El Gol Digital / Empire of the Kop, 2d ago)",
+      detail:
+        "With Barcola priced out for now, the fallbacks matter more. Yankuba Minteh, around £70m at Brighton and contracted to 2029, remains the winger Liverpool are reported able to close inside July rather than chase into August, while Haissem Hassan, sitting under a €12m clause at a relegated Real Oviedo, is the move the accounts can most easily absorb, with Celtic also circling. The read is unchanged even as the Paris door swings: a record fee if PSG blink, a deliverable one if they will not, and a bargain underneath both.",
       category: "transfers",
     },
   ],
   sources: [
+    "Liverpool.com",
+    "Yahoo Sports",
+    "This Is Anfield",
     "Empire of the Kop",
+    "Anfield Watch",
+    "L'Equipe",
+    "The Athletic",
+    "Football365",
     "FootballTransfers",
-    "CaughtOffside",
-    "Turkiye Today",
-    "TribalFootball",
+    "Al Jazeera",
     "TeamTalk",
     "Sports Mole",
-    "Liverpool.com",
-    "Anfield Watch",
-    "Football365",
-    "Liverpool FC",
-    "This Is Anfield",
+    "Nashville SC",
     "DaveOCKOP",
-    "Roundtable",
     "El Gol Digital",
   ],
 };
@@ -614,9 +614,9 @@ export const NEWS_DIGEST = {
 // heatTier: "hot" (≥65%) | "warm" (40-64%) | "cool" (<40%) | "done" | "dead"
 // sources[].tier: "S" (Romano-class) | "A" (major outlet) | "B" (beat) | "C" (aggregator)
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-07-21T09:00:00Z",
+  generatedAt: "2026-07-22T09:00:00Z",
   summary:
-    "Tuesday's ledger opens on a reversal. Liverpool have lodged an opening bid worth a reported £85m for Bradley Barcola, and club-to-club talks with PSG are described as escalating now that France's World Cup exit has removed the tournament from the calculation, which undoes a fortnight in which Paris called him strictly off limits and Arsenal were framed as favourites. Paris still want £116m to £128m, so the file moves from dead to expensive rather than from dead to done. Yankuba Minteh at around £70m has not been withdrawn behind it: the read now is two tracks on one position, the record fee if Paris blink and the deliverable fee if they do not. In midfield the board has changed its mind rather than its budget, declining Joao Gomes, who was willing to join on his existing terms and is now closing on £35m to Aston Villa, and installing Adam Wharton as the priority despite a Palace ask beyond £100m. On the outgoing board Inter's third bid for Curtis Jones, around €32m, was rejected inside the day against a £35m valuation, with Iraola publicly hoping to keep him. The Salah ending is now openly contested: an unveiling at Besiktas is briefed for next week while Besiktas themselves deny any contract is agreed.",
+    "Wednesday's ledger opens on the one thing that actually closed. Liverpool have confirmed the £750,000 signing of Samuel Martinez, a 17-year-old Colombian playmaker from Atletico Nacional, their third addition of the window, though FIFA age rules park him outside the academy until 2027. At the top of the market the Barcola file has cooled as fast as it heated: L'Equipe put PSG's price at £127.5m and Ornstein reports the champions still do not want to sell, which leaves the £85m opening bid a long way short and moves the tie back from expensive to unlikely. The cheaper wing routes stir again behind it, Liverpool asking about Yan Diomande with Harvey Elliott floated as a makeweight, while Minteh at around £70m and Hassan under a €12m clause hold their places as the deliverable alternatives. In midfield Adam Wharton stays the stated priority beyond £100m after the club declined Joao Gomes, now closing on £35m to Aston Villa. On the outgoing board Inter's third bid for Curtis Jones was rejected and the club are drawing up fresh terms instead, while the Salah ending stays openly contested, Besiktas wanting him but calling the agent's demands astronomical and denying any contract exists.",
   incoming: [
     {
       id: "rayan-2026",
@@ -818,16 +818,16 @@ export const TRANSFER_TARGETS = {
       contractExpiry: "2029-06-30",
       releaseClause: null,
       contractNote: "Under contract at Brighton to 2029; reports are split on a mooted £40m clause, but the Seagulls' working valuation is nearer £70-80m for a 21-year-old they rate among the league's brightest wide prospects.",
-      probability: 62,
+      probability: 64,
       heatTier: "warm",
       sources: [
         { name: "Liverpool.com", tier: "B" },
         { name: "TeamTalk",      tier: "B" },
         { name: "Yahoo Sports",  tier: "B" },
       ],
-      lastUpdated: "2026-07-17",
+      lastUpdated: "2026-07-22",
       rumorNote:
-        "Brighton · 21 Jul — the deliverable half of a two-track plan. Liverpool's £85m opening bid for Barcola has put the marquee option back in play, but it has not retired this one: the concrete bid around £70m trailed at the weekend stands, and the argument for Minteh is unchanged and unglamorous, that he can be signed inside a fortnight rather than negotiated into late August against a Paris valuation of £116m or more. Twenty-one, contracted to 2029, left-footed on the right, three goals and four assists in 36 appearances last season. Brighton have set their number and see no reason to blink. The likeliest outcome remains that Liverpool sign one of the two, not both.",
+        "Brighton · 22 Jul — the deliverable route just became the likelier one. With Barcola priced back out at £127.5m and PSG reported unwilling to sell, the unglamorous argument for Minteh has hardened rather than softened: he can be signed inside a fortnight rather than negotiated into late August, and the concrete bid around £70m trailed at the weekend still stands. Twenty-one, contracted to 2029, three goals and four assists in 36 appearances last season. Brighton have set their number and see no reason to blink. The likeliest outcome remains that Liverpool sign one winger this window, and this is the one they can actually close.",
       positionFit: {
         replaces: "Salah (wide forward)",
         competesWith: ["Barcola (primary target)", "Gakpo", "Munoz"],
@@ -1045,18 +1045,18 @@ export const TRANSFER_TARGETS = {
       wageBand: "A",
       contractExpiry: "2028-06-30",
       releaseClause: null,
-      contractNote: "Contract talks with PSG have stalled and the player has told Paris he wants a bigger role elsewhere. Liverpool have now lodged an opening bid reported at £85m; Paris are holding between £116m (The Athletic's valuation) and £128m. He is represented by Gestifute, the Mendes agency Liverpool have long dealt with.",
-      probability: 52,
-      heatTier: "warm",
+      contractNote: "Contract talks with PSG have stalled and the player has told Paris he wants a bigger role elsewhere. Liverpool's £85m opening bid has been met by a PSG valuation now reported by L'Equipe at £127.5m, with Ornstein writing that the champions remain unconvinced about selling at all. He is represented by Gestifute, the Mendes agency Liverpool have long dealt with.",
+      probability: 38,
+      heatTier: "cool",
       sources: [
         { name: "David Ornstein",     tier: "S" },
+        { name: "L'Equipe",           tier: "A" },
+        { name: "Football365",        tier: "B" },
         { name: "Empire of the Kop",  tier: "B" },
-        { name: "FootballTransfers",  tier: "B" },
-        { name: "CaughtOffside",      tier: "C" },
       ],
-      lastUpdated: "2026-07-21",
+      lastUpdated: "2026-07-22",
       rumorNote:
-        "Paris · 21 Jul — the door reopens, and this time with a number against it. Liverpool have submitted an opening bid reported at £85m, with club-to-club talks escalating in the days since France's World Cup exit removed the tournament as a reason to wait. That is a straight reversal of a fortnight in which PSG called him strictly off limits in public and Football365 had Arsenal top of the race. The distance is still the whole story: Paris want £116m to £128m, and £85m is an opening position, not a valuation either side recognises. What has not changed is the player, who has told Paris he wants a bigger role somewhere else."
+        "Paris · 22 Jul — the number that reopened the door is the number closing it again. A day after the £85m opening bid, L'Equipe's Emery Taisne reports PSG have set the price at £127.5m and Ornstein writes the champions are still convinced they do not want to sell, to the point of openly inviting Manchester United to bid instead. That gap is not an opening position either side can bridge quickly, and it turns a live pursuit back into a hopeful one. The only lever left is the player, who wants more football than Paris will promise him, and that has never on its own moved a nine-figure valuation."
     },
     {
       id: "neto-2026",

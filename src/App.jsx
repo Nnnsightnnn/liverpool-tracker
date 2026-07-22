@@ -385,12 +385,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, and the club has finally written a number down. Eighty-five
-          million for Bradley Barcola, a fortnight after Paris said he was
-          strictly off limits and Arsenal were said to be in front. Paris still
-          want a hundred and sixteen at least, so this is an argument rather
-          than a signing. Thirty-one players are in Chicago, eleven of them out
-          of the academy. Four days to Nashville.
+          Wednesday, and the manager finally has players to talk about. Isak,
+          Wirtz and Gravenberch are flying in to join the tour, three World Cup
+          summers folding back into the squad; Alisson, Van Dijk and Gakpo come
+          later, five seniors sit it out. Barcola, now priced at a hundred and
+          twenty-seven and a half, drifts back out of reach. Three days to
+          Nashville.
         </p>
 
         <StatStrip stats={stats} />
@@ -419,35 +419,33 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and the winger file has come back from the dead. Two weeks ago
-              Paris Saint-Germain used the phrase <em>strictly off limits</em>{" "}
-              in public and the reporting had Arsenal in front; this week
-              France went out of the World Cup, the waiting stopped meaning
-              anything, and Liverpool put eighty-five million pounds on the
-              table for <em>Bradley Barcola</em>. Club-to-club talks are said to
-              be escalating. The distance is still the entire story, because
-              Paris want a hundred and sixteen at the very least and may want a
-              hundred and twenty-eight. Behind it, Yankuba Minteh has not been
-              withdrawn, which tells you the board is running two prices for one
-              shirt. Meanwhile Inter have been refused a third time over Curtis
-              Jones, and Mohamed Salah is simultaneously being unveiled next
-              week and denied outright by the club unveiling him.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and for one morning the summer is about football. Andoni Iraola,
+              in his first pre-season briefing, confirmed that <em>Isak</em>,{" "}
+              <em>Wirtz</em> and <em>Gravenberch</em> will rejoin the tour in the
+              coming days, missing Sunderland in Nashville but in the frame for
+              Wrexham and Leeds; Alisson, Van Dijk and Gakpo follow from Europe,
+              and five seniors, Mac Allister and Munoz among them, sit the trip
+              out until Como on August 16. The window did not stay quiet around
+              him. The club confirmed a seven-hundred-and-fifty-thousand-pound
+              deal for the seventeen-year-old Colombian <em>Samuel Martinez</em>,
+              a signing for 2027 rather than Saturday, while at the other end of
+              the market Barcola drifted away again, PSG pricing him at a hundred
+              and twenty-seven and a half and Ornstein reporting they would
+              rather not sell at all.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings as they finished, and
-              five dispatches from the writers who never clock off. There is an
-              opening bid that reopens a door everyone had stopped knocking on;
-              a Turkish club denying the signing it is reported to be announcing
-              next week; a midfielder Liverpool could have had on his existing
-              terms, waved through to Aston Villa so the money can chase a
-              hundred-million-pound one instead; and eleven academy boys in
-              Chicago with a fortnight to make an argument. Read them in order.
-              The season is five weeks away and the summer has not been quiet
-              once.
+              five dispatches from the writers who never clock off. There is a
+              manager relieved to be counting bodies instead of millions; a
+              teenage playmaker signed for a summer two years from now; a French
+              winger priced back out of reach the day after the bid went in; and
+              a farewell in Istanbul stalled on a word the president chose,
+              astronomical. Read them in order. The season opens at Newcastle on
+              the twenty-third of August and the summer has not been quiet once.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3165,7 +3163,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "An opening bid is not a signing."
+        "First, a ball. Then the season."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
