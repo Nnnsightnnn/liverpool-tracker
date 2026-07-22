@@ -1304,14 +1304,14 @@ export const TRANSFER_TARGETS = {
       releaseClause: null,
       contractNote: "Palace want north of £100m, a position hardened by Elliot Anderson's £116m move from Nottingham Forest to Manchester City. Manchester United are also credited with interest. No structure involving an Anfield makeweight is currently reported as live.",
       probability: 34,
-      heatTier: "warm",
+      heatTier: "cool",
       sources: [
         { name: "Anfield Watch",     tier: "B" },
         { name: "FootballTransfers", tier: "B" },
         { name: "Football365",       tier: "B" },
         { name: "Liverpool.com",     tier: "B" },
       ],
-      lastUpdated: "2026-07-21",
+      lastUpdated: "2026-07-22",
       rumorNote:
         "Selhurst Park · 21 Jul — promoted to the top of the board, which is not the same as being affordable. Liverpool are now reported to have made Wharton their leading midfield target, and the way they got there is instructive: they declined Joao Gomes, who would have come on his existing terms and is off to Villa for £35m instead. Palace's ask remains beyond £100m and Elliot Anderson's £116m move to City has given them no reason to soften it. The case for paying it is Iraola's, a high-pressing playmaker who creates more than positional peers and who would set the tempo the new manager keeps describing.",
       positionFit: {
