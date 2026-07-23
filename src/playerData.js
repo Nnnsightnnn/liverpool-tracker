@@ -351,22 +351,22 @@ export const TEAM_LOGOS = {
 //     and repoints `src` + `credit` + `generatedAt` at it.
 // `focus` is the one-line "most important focus of the latest edition."
 export const COVER_IMAGE = {
-  src: "/assets/cover/2026-07-22-preseason-return.svg",
-  alt: "Three figures walking onto an empty training pitch at first light, one leading, two following into the frame.",
-  focus: "The squad reassembles at first light",
+  src: "/assets/cover/2026-07-23-winger-hunt.svg",
+  alt: "A single figure standing alone on the wing of an empty floodlit pitch at dusk, one shirt waiting to be filled.",
+  focus: "One shirt, still waiting to be filled",
   credit: "Editorial plate · auto-generated",
-  generatedAt: "2026-07-22T09:00:00Z",
+  generatedAt: "2026-07-23T09:00:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
   brief: {
     leadStory:
-      "Andoni Iraola's first pre-season briefing confirms Isak, Wirtz and Gravenberch will rejoin the tour in the coming days, missing Sunderland but in for Wrexham and Leeds, as the World Cup returnees are phased back into a young squad in America.",
+      "Liverpool make an initial approach to Monaco for the France winger Maghnes Akliouche, valued near £42.6m, the first deliverable heir to Salah's vacated right flank after Bradley Barcola was priced out at £127.5m.",
     subject:
-      "Three footballers in training kit walking onto an empty grass pitch at dawn, one ahead of the other two, seen at a distance in a wide frame",
+      "A lone footballer standing on the far wing of an empty floodlit pitch at dusk, small in a wide frame, the space around him unfilled",
     prompt:
-      "Cinematic editorial photograph, first light, three young footballers in plain training kit walking onto an empty grass pitch from the left, one leading and two following a few steps behind, seen from a distance so the figures are small in a wide frame, low training-ground buildings and a treeline dissolving into a soft dawn haze, long shadows, muted amber and deep teal palette, film grain, a quiet sense of a group reassembling before a season, no on-image text, headroom at the top for a masthead headline",
+      "Cinematic editorial photograph, dusk under fading floodlights, a single young footballer in plain kit standing alone on the far right wing of an empty grass pitch, small in a wide frame with the whole flank open beside him, a distant stand dissolving into soft amber haze, one long shadow cast across the turf, muted amber and deep teal palette, film grain, a quiet sense of a space waiting to be filled, no on-image text, headroom at the top for a masthead headline",
     aspectRatio: "landscape",
-    slug: "preseason-return",
-    generatedAt: "2026-07-22T09:00:00Z",
+    slug: "winger-hunt",
+    generatedAt: "2026-07-23T09:00:00Z",
   },
 };
 
