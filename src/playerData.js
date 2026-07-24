@@ -605,6 +605,43 @@ export const TRANSFER_TARGETS = {
     "Friday's ledger reopens the file the club had all but closed. Liverpool are now reported confident of signing Bradley Barcola, leading the race ahead of Arsenal and Bayern Munich and in club-to-club talks with PSG, prepared to move past a rejected £85m opening bid toward a fee near £100m even as the champions hold a valuation close to £128m. It reorders the whole winger board: the Monaco approach for Maghnes Akliouche, at a far gentler £42.6m, drops from lead to deliverable fallback, with Minteh at around £70m and Hassan under a €12m clause the cheaper alternatives behind both. In midfield Adam Wharton stays the stated priority beyond £100m after Joao Gomes, the name Liverpool declined, went to Aston Villa; Sano and Kone hold as the achievable options. On the outgoing side Inter's money has fallen short of Liverpool's valuation of Curtis Jones and the club are weighing fresh terms, Iraola has told Mac Allister he is central to the plan, and the Salah move to Besiktas stays a tangle of agreed terms and public denials his agent will not settle.",
   incoming: [
     {
+      id: "barcola-2026",
+      name: "Bradley Barcola",
+      age: 23,
+      position: "FWD",
+      role: "Winger (left / right)",
+      nationality: "🇫🇷 France",
+      foot: "Right",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Barcola_asse_psg_2425.png/330px-Barcola_asse_psg_2425.png",
+      currentClub: "Paris Saint-Germain",
+      currentLeague: "Ligue 1",
+      feeMin: 90, feeMax: 128, feeCurrency: "£m",
+      marketValue: 100,
+      wageBand: "A",
+      contractExpiry: "2028-06-30",
+      releaseClause: null,
+      contractNote: "Contracted to PSG until 2028, the France international is the club's No. 29 and their marquee saleable asset. PSG value him around £128m, benchmarked above the £116m Manchester City paid for Elliot Anderson, and Liverpool's £85m opening bid was rejected. Reporting now has the mood flipped, the Reds confident of a deal with the fee expected to settle near £100m. He is represented by Gestifute, the Mendes agency Liverpool have long dealt with.",
+      probability: 55,
+      heatTier: "warm",
+      sources: [
+        { name: "CaughtOffside",      tier: "B" },
+        { name: "Empire of the Kop",  tier: "B" },
+        { name: "Sky Sports",         tier: "A" },
+        { name: "David Ornstein",     tier: "S" },
+      ],
+      lastUpdated: "2026-07-24",
+      rumorNote:
+        "Parc des Princes · 24 Jul — the deal that would not die. A fortnight after the £85m bid was waved away and the pursuit written off at a £128m ask, the mood has flipped: Liverpool are now reported confident of beating Arsenal and Bayern to Barcola, in club-to-club talks with PSG and prepared to build toward roughly £100m. It is the statement signing the summer kept circling, twenty-three, left-footed, quick and direct, the first-choice right winger the accounts strained to justify and the ambition would not let go. If it lands, Akliouche becomes the plan that was not needed. If it stalls on price again, the fallbacks are still warm beneath it.",
+      positionFit: {
+        replaces: "Salah (departed, free agent)",
+        competesWith: ["Akliouche (deliverable fallback)", "Gakpo", "Ngumoha"],
+        depthAfter: "A first-choice right winger and the marquee end of the rebuild",
+      },
+      stats: {
+        apps: 47, goals: 14, assists: 12, xG: 11.6,
+      },
+    },
+    {
       id: "akliouche-2026",
       name: "Maghnes Akliouche",
       age: 24,
@@ -814,7 +851,7 @@ export const TRANSFER_TARGETS = {
       ],
       lastUpdated: "2026-07-13",
       rumorNote:
-        "Almeria · 13 Jul — the cheap door into the attack. With Barcola priced beyond £116m at the top of the board, Liverpool have looked down the market and found a 24-year-old who scored 26 goals and made seven assists in 47 games in the Spanish second tier. Arribas came through Real Madrid, who kept half his economic rights and would take about £11m of the roughly £21m Almeria want. Sporting Lisbon have already been rejected at €20m and Benfica are circling. No formal Liverpool offer has been made, which is the whole caveat: this is a name on a board, not a negotiation.",
+        "Almeria · 13 Jul — the cheap door into the attack. With Barcola priced around £128m at the top of the board, Liverpool have looked down the market and found a 24-year-old who scored 26 goals and made seven assists in 47 games in the Spanish second tier. Arribas came through Real Madrid, who kept half his economic rights and would take about £11m of the roughly £21m Almeria want. Sporting Lisbon have already been rejected at €20m and Benfica are circling. No formal Liverpool offer has been made, which is the whole caveat: this is a name on a board, not a negotiation.",
       positionFit: {
         replaces: "Salah (departed, free agent)",
         competesWith: "Wirtz, Szoboszlai, Elliott",
@@ -1051,35 +1088,6 @@ export const TRANSFER_TARGETS = {
         tacklesPer90: 2.5, passCompletion: 89, progressiveCarries: 2.1,
         cleanSheets: 0, xG: 0.9,
       },
-    },
-    {
-      id: "barcola-2026",
-      name: "Bradley Barcola",
-      age: 23,
-      position: "FWD",
-      role: "Winger (left / right)",
-      nationality: "🇫🇷 France",
-      foot: "Right",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Barcola_asse_psg_2425.png/330px-Barcola_asse_psg_2425.png",
-      currentClub: "Paris Saint-Germain",
-      currentLeague: "Ligue 1",
-      feeMin: 90, feeMax: 128, feeCurrency: "£m",
-      marketValue: 100,
-      wageBand: "A",
-      contractExpiry: "2028-06-30",
-      releaseClause: null,
-      contractNote: "Contracted to PSG until 2028, the France international is the club's No. 29 and their marquee saleable asset. PSG value him around £128m, benchmarked above the £116m Manchester City paid for Elliot Anderson, and Liverpool's £85m opening bid was rejected. Reporting now has the mood flipped, the Reds confident of a deal with the fee expected to settle near £100m. He is represented by Gestifute, the Mendes agency Liverpool have long dealt with.",
-      probability: 55,
-      heatTier: "warm",
-      sources: [
-        { name: "CaughtOffside",      tier: "B" },
-        { name: "Empire of the Kop",  tier: "B" },
-        { name: "Sky Sports",         tier: "A" },
-        { name: "David Ornstein",     tier: "S" },
-      ],
-      lastUpdated: "2026-07-24",
-      rumorNote:
-        "Parc des Princes · 24 Jul — the deal that would not die. A fortnight after the £85m bid was waved away and the pursuit written off at a £128m ask, the mood has flipped: Liverpool are now reported confident of beating Arsenal and Bayern to Barcola, in club-to-club talks with PSG and prepared to build toward roughly £100m. It is the statement signing the summer kept circling, twenty-three, left-footed, quick and direct, the first-choice right winger the accounts strained to justify and the ambition would not let go. If it lands, Akliouche becomes the plan that was not needed. If it stalls on price again, the fallbacks are still warm beneath it."
     },
     {
       id: "neto-2026",
