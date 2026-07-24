@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Editorial plate: a floodlit tunnel mouth reopening onto a dark pitch, a single figure walking back into the light, a door thought closed swinging open again">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1219"/>
+      <stop offset="52%" stop-color="#1c2836"/>
+      <stop offset="100%" stop-color="#33221b"/>
+    </linearGradient>
+    <radialGradient id="door" cx="0.5" cy="0.42" r="0.55">
+      <stop offset="0%" stop-color="#f6e2ac" stop-opacity="0.92"/>
+      <stop offset="42%" stop-color="#e9b25e" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#e9b25e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pitch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#26422e"/>
+      <stop offset="100%" stop-color="#111e14"/>
+    </linearGradient>
+    <linearGradient id="spill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6e2ac" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#f6e2ac" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0d12" stop-opacity="0.60"/>
+      <stop offset="40%" stop-color="#0a0d12" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0a0d12" stop-opacity="0.52"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky)"/>
+
+  <!-- the dark stand, a wall broken by one lit opening -->
+  <rect x="0" y="150" width="1600" height="360" fill="#141c27" opacity="0.86"/>
+
+  <!-- the tunnel mouth: the door thought closed, swinging open again -->
+  <g>
+    <rect x="690" y="196" width="220" height="300" rx="10" fill="#0a0e14"/>
+    <rect x="690" y="196" width="220" height="300" rx="10" fill="url(#door)"/>
+    <!-- the far wall of the tunnel, light deep inside -->
+    <rect x="742" y="232" width="116" height="228" rx="6" fill="#f6e2ac" opacity="0.55"/>
+    <rect x="770" y="262" width="60" height="170" rx="4" fill="#fff3d2" opacity="0.75"/>
+  </g>
+
+  <!-- light spilling out of the reopened door onto the turf -->
+  <polygon points="720,496 880,496 1080,900 520,900" fill="url(#spill)"/>
+
+  <!-- the pitch -->
+  <polygon points="0,496 1600,496 1600,900 0,900" fill="url(#pitch)"/>
+  <g opacity="0.10" fill="#3e6b47">
+    <polygon points="140,496 320,496 110,900 -220,900"/>
+    <polygon points="540,496 720,496 720,900 360,900"/>
+    <polygon points="940,496 1120,496 1260,900 800,900"/>
+    <polygon points="1340,496 1520,496 1860,900 1380,900"/>
+  </g>
+
+  <!-- a single figure walking back into the light -->
+  <g opacity="0.94">
+    <ellipse cx="800" cy="742" rx="58" ry="10" fill="#000" opacity="0.34"/>
+    <path d="M800 636
+             c-11 0 -18 9 -18 21
+             c0 10 4 16 4 25
+             l-10 47 c-1 9 12 11 14 2 l7 -36 6 0 7 36
+             c2 9 15 7 14 -2 l-10 -47 c0 -9 4 -15 4 -25
+             c0 -12 -7 -21 -18 -21 z" fill="#0b0e13"/>
+    <circle cx="800" cy="618" r="12" fill="#0b0e13"/>
+    <!-- his long shadow thrown forward, out of the light -->
+    <path d="M800 742 L560 772 L596 786 L820 754 Z" fill="#000" opacity="0.20"/>
+  </g>
+
+  <rect width="1600" height="900" fill="url(#scrim)"/>
+</svg>
