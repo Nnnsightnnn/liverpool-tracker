@@ -30,9 +30,9 @@ export const FORMATIONS = {
     // Frimpong the only fit recognised right back and Jacquet the only senior
     // centre-back; Inter's third bid for Jones was rejected and Iraola says he
     // hopes to keep him; Salah is still a free agent, Besiktas calling the
-    // agent's demands astronomical; and the Barcola pursuit has cooled, PSG
-    // pricing him at £127.5m with Ornstein reporting they will not sell, Minteh
-    // and Hassan the deliverable alternatives behind it.
+    // agent's demands astronomical; and the Barcola pursuit has revived, the
+    // club now confident of a deal near £100m ahead of Arsenal and Bayern, with
+    // Akliouche (~£42.6m) the fallback and Minteh the third option behind.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -70,10 +70,10 @@ export const FORMATIONS = {
     // Tue Jul 21: Munoz and Mac Allister miss the tour entirely after the World
     // Cup final; the squad is through its first full day at the Chicago base;
     // Ekitike, Leoni and Bradley travelled for rehabilitation only and take no
-    // part; the winger board has cooled at the top, PSG pricing Barcola at
-    // £127.5m and reported unwilling to sell after the £85m bid, with Minteh
-    // at around £70m and Hassan the deliverable alternatives, El Mala parked at
-    // Koln until 2027; Jacquet the only senior CB fit until Van Dijk joins up.
+    // part; the winger board has swung back to the top, Liverpool now confident
+    // of a Barcola deal near £100m ahead of Arsenal and Bayern after the £85m
+    // bid, with Akliouche (~£42.6m) the fallback and Minteh at around £70m the
+    // third option; Jacquet the only senior CB fit until Van Dijk joins up.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -131,8 +131,8 @@ export const FORMATIONS = {
 // rejoin the tour in the coming days, missing Sunderland but in for Wrexham and
 // Leeds, while Alisson, Van Dijk and Gakpo stay in Europe and link up later, and
 // Munoz and Mac Allister miss the tour entirely; Liverpool confirmed the £750k
-// signing of 17-year-old Samuel Martinez for 2027; the Barcola pursuit cooled as
-// PSG priced him at £127.5m with Ornstein reporting they will not sell; Inter's
+// signing of 17-year-old Samuel Martinez for 2027; the Barcola pursuit has since
+// revived, Liverpool confident of a deal near £100m ahead of Arsenal and Bayern; Inter's
 // third bid for Jones was rejected; Salah remains a free agent, Besiktas calling
 // the agent's demands astronomical; Ekitike, Leoni, Bradley, plus Endo and
 // Bajcetic travelled to build fitness and play no part, Leoni furthest advanced.)
@@ -142,24 +142,24 @@ export const PLAYER_EVIDENCE = {
   3:  "Captain · held for Anfield friendlies",   // Van Dijk
   5:  "Staying · versatile cover, in Chicago",    // Gomez
   7:  "First-pick LB · in Chicago",              // Kerkez
-  8:  "Knee · in USA for rehab only",            // Bradley
+  8:  "Knee · 'way off', months out",            // Bradley
   9:  "Only fit senior RB on the tour",          // Frimpong
-  10: "ACL · running outdoors, furthest along",  // Leoni
+  10: "ACL · running outdoors, closest of three",// Leoni
   11: "Only senior CB until VVD returns",        // Jacquet
   12: "Academy depth · 2 senior apps",           // Ndukwe
   13: "WC runner-up · misses the tour",         // Mac Allister
   14: "Confirmed back · in for Wrexham/Leeds",   // Gravenberch
-  15: "Signed to 2031 · leads the tour squad",   // Szoboszlai
+  15: "Vice-captaincy shortlist · new 5yr deal", // Szoboszlai
   16: "Inter's 3rd bid rejected · staying",      // Jones
   17: "Rehab group · sale still expected",       // Endo
   18: "Confirmed back · misses Sunderland only", // Wirtz
   19: "Rehab group · building fitness",          // Bajcetic
-  20: "New long-term deal · 11 academy on tour", // Nyoni
+  20: "11 academy on tour · Abe leads them",     // Nyoni
   22: "Not for sale · joins tour later",         // Gakpo
   23: "Confirmed back · Wrexham minutes eyed",   // Isak
-  24: "Achilles · out to the festive period",    // Ekitike
-  25: "Holds RW · Akliouche approach live",         // Ngumoha
-  26: "Staying to fight · trained day one",      // Chiesa
+  24: "Achilles · 'way off', months out",        // Ekitike
+  25: "Holds RW · Barcola push revived",         // Ngumoha
+  26: "Vice-captaincy shortlist · staying",      // Chiesa
   27: "3rd-choice GK · trained day one",         // Woodman
   28: "World champion · back for Como, Aug 16",   // Munoz
 };
@@ -175,8 +175,8 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys. With the season over these read as confidence that the slot's
 // occupant remains a first-choice starter into 2026-27 — LOW where the player
 // has left (Salah, Robertson, Konate) or whose future is open (Mac Allister).
-// (Refreshed Wed Jul 22: the Barcola pursuit cooled a day after the £85m bid, PSG
-// pricing him at £127.5m with Ornstein reporting they do not want to sell. Inter's
+// (Refreshed Fri Jul 24: the Barcola pursuit has revived, Liverpool now confident of
+// a deal near £100m ahead of Arsenal and Bayern after the £85m bid. Inter's
 // third bid for Curtis Jones was rejected and Liverpool are drawing up fresh terms.
 // Salah remains a free agent, Besiktas calling the agent's demands astronomical.
 // Iraola confirmed Isak, Wirtz and Gravenberch rejoin the tour in the coming days.)
@@ -190,7 +190,7 @@ export const SLOT_CONFIDENCE = {
   RDM: "High",   // Szoboszlai · new five-year deal signed to 2031 · in day one
   LAM: "Medium", // Wirtz · injury-hit debut season · back for the tour
   CAM: "Low",    // Mac Allister · World Cup runner-up · misses the entire American tour, back for Como on Aug 16
-  RAM: "Low",    // Salah gone · Akliouche approached (~£42.6m), Barcola priced out at £127.5m, Minteh/Hassan in reserve · Ngumoha holds it by default
+  RAM: "Low",    // Salah gone · Barcola pursuit revived (Liverpool confident, ~£100m), Akliouche (~£42.6m) the fallback, Minteh in reserve · Ngumoha holds it by default
   ST:  "Medium", // Isak · injury-wrecked debut year · joins the tour around the Wrexham fixture
 };
 
@@ -204,7 +204,7 @@ export const SLOT_RATIONALE = {
   RDM: "Sat Jul 18 — settled, and expensively so. Szoboszlai has signed a new five-year contract running to 2031, three years on from arriving from Leipzig on a deal that ran only to 2028, with reported terms in the £200,000-£250,000 band. He was voted supporters' player of the season after a campaign spent filling in at right-back, at the eight and on the right wing. With Salah, Konate and Robertson all gone for nothing, this is the club choosing to keep rather than to replace.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
   CAM: "Mon Jul 20 — the biggest night of his career, and it ended a man short. Mac Allister played the whole of the World Cup final at MetLife and lost it in extra time, Argentina reduced to ten when Enzo Fernandez was sent off for a second yellow in the 93rd minute and Ferran Torres finished it on 106. Emi Martinez made a final-record eleven saves behind him. A club season in which he was among the most criticised players at Anfield has still been rewritten by five weeks in America. He misses the American tour in its entirety and is not expected in an Iraola side before the Como friendly on August 16, which makes this slot a placeholder rather than a selection.",
-  RAM: "Thu Jul 23 — the slot that defines the summer finally has a name the ledger can bear. Liverpool have made an initial approach to Monaco for Maghnes Akliouche, a 24-year-old France international valued near £42.6m, stepping onto ground a PSG whose bids around £34m have been rebuffed thought was theirs. It is the first deliverable heir to Salah after weeks in which Barcola was priced out at £127.5m with Ornstein reporting PSG do not want to sell. Behind Akliouche, Yankuba Minteh at around £70m from Brighton and Haissem Hassan under a €12m clause hold as the alternatives, a Yan Diomande enquiry with a Harvey Elliott makeweight the cheaper hedge. Salah remains a free agent, the Besiktas move a standoff his agent will not confirm. Rio Ngumoha, seventeen, keeps the berth until somebody lands.",
+  RAM: "Fri Jul 24 — the slot that defines the summer has swung back to the statement name. Reporting now has Liverpool confident of beating Arsenal and Bayern to Bradley Barcola, in club-to-club talks with PSG and prepared to move past a rejected £85m bid toward roughly £100m, a fortnight after the pursuit was written off at a £128m ask. It reorders the board: Maghnes Akliouche, the £42.6m Monaco approach that led yesterday, drops to the deliverable fallback, with Yankuba Minteh at around £70m the third option and Haissem Hassan under a €12m clause the cheapest. Salah remains a free agent, the Besiktas move a tangle of agreed terms and denials. Rio Ngumoha, seventeen, keeps the berth until somebody lands.",
   RB:  "Tue Jul 21 — still a one-man department, though the horizon is less bleak than it read on Monday. Jeremie Frimpong is the only fit senior right back available across the American tour. Conor Bradley did travel, but purely to continue a specialist rehabilitation programme alongside Ekitike and Leoni, and will not appear in any of the three friendlies; today's reporting steps back from the weekend's 2027 framing and returns to the earlier line, that he is targeting availability around the start of the campaign proper. The club still set no date. Curtis Jones, last season's emergency cover, stays in midfield and is needed there with Mac Allister absent until mid-August. Frimpong plays by elimination, with Marco Palestra and Lutsharel Geertruida the deputies on the board.",
   ST:  "Tue Jun 2 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
 };
@@ -232,5 +232,5 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  reason: "Thu Jul 23 — the XI below is a squad baseline rather than a matchday prediction, and the gap between it and whatever starts in Nashville on Saturday is currently enormous. The phasing Iraola set out holds: Isak, Wirtz and Gravenberch link up in the coming days, sit out the Sunderland opener but chase minutes against Wrexham and Leeds, while Alisson, Van Dijk and Gakpo begin in Europe and join later, Van Dijk's minutes reserved for the Anfield friendlies. Victor Munoz and Alexis Mac Allister, a World Cup winner and a runner-up, miss the tour entirely and are not expected before the Como friendly on August 16; Iraola has told Mac Allister he is central to his plans. The team that plays Sunderland will therefore be younger and thinner than this one, leaning on the eleven academy players in the party. The winger slot still decides the shape and it moved today: Liverpool have made an initial approach to Monaco for Maghnes Akliouche near £42.6m, the first deliverable heir to Salah after Barcola was priced out at £127.5m, with Minteh at around £70m and Hassan under a €12m clause the alternatives behind him. Rio Ngumoha holds the right-sided berth by default. In midfield Adam Wharton stays the priority beyond £100m after Joao Gomes booked an Aston Villa medical, while Inter's money fell short of Liverpool's valuation of Curtis Jones and the club are weighing fresh terms. Ekitike (Achilles, to the festive period), Leoni (ACL, running outdoors and furthest advanced), Bradley (knee), plus Endo and Bajcetic all travelled to build fitness and play no part; Frimpong is the only fit senior right-back on the tour."
+  reason: "Fri Jul 24 — the XI below is a squad baseline rather than a matchday prediction, and the gap between it and whatever starts in Nashville tomorrow is currently enormous. The phasing Iraola set out holds: Isak, Wirtz and Gravenberch link up in the coming days, sit out the Sunderland opener but chase minutes against Wrexham and Leeds, while Alisson, Van Dijk and Gakpo begin in Europe and join later, Van Dijk's minutes reserved for the Anfield friendlies. Victor Munoz and Alexis Mac Allister, a World Cup winner and a runner-up, miss the tour entirely and are not expected before the Como friendly on August 16. The team that plays Sunderland will therefore be younger and thinner than this one, leaning on the eleven academy players in the party, Josh Abe among them. The winger slot still decides the shape and it moved overnight: reporting now has Liverpool confident of beating Arsenal and Bayern to Bradley Barcola, in talks with PSG and edging toward £100m, the £42.6m Akliouche approach dropping to the deliverable fallback with Minteh at around £70m the third option. Rio Ngumoha holds the right-sided berth by default. Off the pitch the vice-captaincy has narrowed to Szoboszlai and Chiesa, while Inter's money fell short of Liverpool's valuation of Curtis Jones and the club are weighing fresh terms. Iraola has confirmed a triple long-term blow: Ekitike (Achilles) and Bradley (knee) are both way off, Leoni (ACL) is running outdoors and furthest advanced; all three travelled to rehabilitate and play no part, leaving Frimpong the only fit senior right-back on the tour."
 };

@@ -385,12 +385,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday, and the winger hunt finally has a name it can afford.
-          Liverpool have gone to Monaco for Maghnes Akliouche, forty-odd million
-          rather than the hundred and twenty-seven Paris want for Barcola, the
-          first deliverable heir to Salah's empty shirt. Klopp takes the Germany
-          job; Joao Gomes goes to Villa. A young side flies to Nashville, and
-          Sunderland sits two days off.
+          Friday, and the move the club had all but buried is breathing
+          again. Liverpool are now confident of beating Arsenal and Bayern to
+          Bradley Barcola, in talks with Paris and edging toward a hundred
+          million, the Monaco fallback suddenly a rung down. Iraola counts his
+          wounded, Ekitike and Bradley months away, and names a young side for
+          Sunderland in Nashville tomorrow.
         </p>
 
         <StatStrip stats={stats} />
@@ -419,19 +419,19 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and the search for a Salah heir has a name the accounts can bear.
-              Liverpool have made an initial approach to Monaco for{" "}
-              <em>Maghnes Akliouche</em>, a France international of twenty-four,
-              valued near forty-three million, stepping onto ground a PSG whose
-              bids around thirty-four have been rebuffed thought was theirs. It
-              reframes a market that had priced <em>Barcola</em> out at a hundred
-              and twenty-seven and a half: not the marquee gamble now, but the
-              deliverable one. Around it the summer keeps turning, <em>Klopp</em>{" "}
-              back in a dugout with the Germany job, Joao Gomes off to Villa, and
-              Iraola telling Mac Allister he is central to the plan. A young side
-              flies to Nashville to meet Sunderland on Saturday, the World Cup
-              men still arriving.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              and the signing this summer could not stop wanting is alive
+              again. Two weeks after an eighty-five-million bid was waved away
+              and the pursuit written off at a hundred and twenty-eight,
+              Liverpool are reported confident of beating Arsenal and Bayern to{" "}
+              <em>Bradley Barcola</em>, in club-to-club talks with Paris and
+              prepared to build toward a hundred million. It drops{" "}
+              <em>Akliouche</em>, yesterday's deliverable lead, to insurance. The
+              rest of the morning is about the bodies Iraola does not have:{" "}
+              <em>Ekitike</em> and <em>Bradley</em> both months off, Leoni only
+              now running outdoors, and a manager saying plainly that the squad
+              still needs a winger and a centre-back. A young side, eleven
+              academy boys among them, meets Sunderland in Nashville tomorrow.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -439,11 +439,12 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              Monaco winger the ledger can finally afford; a midfielder let go to
-              Villa; a wanderer taking the Germany job two years after he left;
-              and a farewell in Istanbul that wants a signature and cannot get
-              one. Read them in order. The season opens at Newcastle on the
-              twenty-third of August and the summer has not been quiet once.
+              Paris winger the club cannot stop chasing; a treatment room the
+              size of a spine; an armband down to two men; a sixteen-year-old
+              handed a door held open by injury; and a farewell in Istanbul that
+              wants a signature and cannot get one. Read them in order. The
+              season opens at Newcastle on the twenty-third of August and the
+              summer has not been quiet once.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3161,7 +3162,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "An empty shirt starts a search."
+        "Some deals refuse to stay dead."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
