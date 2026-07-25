@@ -137,30 +137,30 @@ export const FORMATIONS = {
 // the agent's demands astronomical; Ekitike, Leoni, Bradley, plus Endo and
 // Bajcetic travelled to build fitness and play no part, Leoni furthest advanced.)
 export const PLAYER_EVIDENCE = {
-  1:  "Stays in Europe · joins tour later",       // Alisson
-  2:  "Leads the GK group in Chicago",           // Mamardashvili
-  3:  "Captain · held for Anfield friendlies",   // Van Dijk
-  5:  "Staying · versatile cover, in Chicago",    // Gomez
-  7:  "First-pick LB · in Chicago",              // Kerkez
-  8:  "Knee · 'way off', months out",            // Bradley
-  9:  "Only fit senior RB on the tour",          // Frimpong
-  10: "ACL · running outdoors, closest of three",// Leoni
-  11: "Only senior CB until VVD returns",        // Jacquet
-  12: "Academy depth · 2 senior apps",           // Ndukwe
-  13: "WC runner-up · misses the tour",         // Mac Allister
-  14: "Confirmed back · in for Wrexham/Leeds",   // Gravenberch
-  15: "Vice-captaincy shortlist · new 5yr deal", // Szoboszlai
-  16: "Inter's 3rd bid rejected · staying",      // Jones
-  17: "Rehab group · sale still expected",       // Endo
-  18: "Confirmed back · misses Sunderland only", // Wirtz
-  19: "Rehab group · building fitness",          // Bajcetic
-  20: "11 academy on tour · Abe leads them",     // Nyoni
-  22: "Not for sale · joins tour later",         // Gakpo
-  23: "Confirmed back · Wrexham minutes eyed",   // Isak
-  24: "Achilles · 'way off', months out",        // Ekitike
-  25: "Holds RW · Barcola push revived",         // Ngumoha
-  26: "Vice-captaincy shortlist · staying",      // Chiesa
-  27: "3rd-choice GK · trained day one",         // Woodman
+  1:  "On break · joins the tour later",          // Alisson
+  2:  "Starts vs Sunderland · leads GK group",    // Mamardashvili
+  3:  "Captain · held for Anfield friendlies",    // Van Dijk
+  5:  "Starts tonight · partners the debutant",   // Gomez
+  7:  "Starts tonight · first-pick LB",           // Kerkez
+  8:  "Knee · months out, rehab only",            // Bradley
+  9:  "Only fit senior RB on the tour",           // Frimpong
+  10: "ACL · running outdoors, closest of three", // Leoni
+  11: "Debut tonight · lone senior CB",           // Jacquet
+  12: "Academy depth · 2 senior apps",            // Ndukwe
+  13: "WC runner-up · back for Como Aug 16",      // Mac Allister
+  14: "Back within days · in for Wrexham/Leeds",  // Gravenberch
+  15: "Starts tonight · new deal to 2031",        // Szoboszlai
+  16: "Starts tonight · Inter bid rejected",      // Jones
+  17: "Building fitness · sale still expected",   // Endo
+  18: "Back within days · misses Sunderland",     // Wirtz
+  19: "Building fitness · on the tour",           // Bajcetic
+  20: "11 academy on tour · Abe leads them",      // Nyoni
+  22: "Not for sale · trains at the AXA",         // Gakpo
+  23: "Back within days · Wrexham minutes eyed",  // Isak
+  24: "Achilles · months out, rehab only",        // Ekitike
+  25: "Starts tonight · holds RW till a signing", // Ngumoha
+  26: "Staying to fight for a role",              // Chiesa
+  27: "New deal signed · 3rd-choice GK",          // Woodman
   28: "World champion · back for Como, Aug 16",   // Munoz
 };
 
@@ -204,7 +204,7 @@ export const SLOT_RATIONALE = {
   RDM: "Sat Jul 18 — settled, and expensively so. Szoboszlai has signed a new five-year contract running to 2031, three years on from arriving from Leipzig on a deal that ran only to 2028, with reported terms in the £200,000-£250,000 band. He was voted supporters' player of the season after a campaign spent filling in at right-back, at the eight and on the right wing. With Salah, Konate and Robertson all gone for nothing, this is the club choosing to keep rather than to replace.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
   CAM: "Mon Jul 20 — the biggest night of his career, and it ended a man short. Mac Allister played the whole of the World Cup final at MetLife and lost it in extra time, Argentina reduced to ten when Enzo Fernandez was sent off for a second yellow in the 93rd minute and Ferran Torres finished it on 106. Emi Martinez made a final-record eleven saves behind him. A club season in which he was among the most criticised players at Anfield has still been rewritten by five weeks in America. He misses the American tour in its entirety and is not expected in an Iraola side before the Como friendly on August 16, which makes this slot a placeholder rather than a selection.",
-  RAM: "Fri Jul 24 — the slot that defines the summer has swung back to the statement name. Reporting now has Liverpool confident of beating Arsenal and Bayern to Bradley Barcola, in club-to-club talks with PSG and prepared to move past a rejected £85m bid toward roughly £100m, a fortnight after the pursuit was written off at a £128m ask. It reorders the board: Maghnes Akliouche, the £42.6m Monaco approach that led yesterday, drops to the deliverable fallback, with Yankuba Minteh at around £70m the third option and Haissem Hassan under a €12m clause the cheapest. Salah remains a free agent, the Besiktas move a tangle of agreed terms and denials. Rio Ngumoha, seventeen, keeps the berth until somebody lands.",
+  RAM: "Sat Jul 25 — the slot that defines the summer starts the season empty, and tonight a teenager fills it. With Salah gone and no winger yet signed, Rio Ngumoha, seventeen, holds the right-sided berth for Iraola's opener in Nashville. The board behind him is set and unresolved: Liverpool confident of a Barcola deal near £100m, the £42.6m Akliouche approach the deliverable fallback, Yankuba Minteh (~£70m) the third option and Haissem Hassan under a €12m clause the cheapest. Iraola has been careful to say he wants a different profile to Salah, a winger who complements rather than replaces. Until one lands, the berth belongs to the academy.",
   RB:  "Tue Jul 21 — still a one-man department, though the horizon is less bleak than it read on Monday. Jeremie Frimpong is the only fit senior right back available across the American tour. Conor Bradley did travel, but purely to continue a specialist rehabilitation programme alongside Ekitike and Leoni, and will not appear in any of the three friendlies; today's reporting steps back from the weekend's 2027 framing and returns to the earlier line, that he is targeting availability around the start of the campaign proper. The club still set no date. Curtis Jones, last season's emergency cover, stays in midfield and is needed there with Mac Allister absent until mid-August. Frimpong plays by elimination, with Marco Palestra and Lutsharel Geertruida the deputies on the board.",
   ST:  "Tue Jun 2 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
 };
@@ -232,5 +232,5 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  reason: "Fri Jul 24 — the XI below is a squad baseline rather than a matchday prediction, and the gap between it and whatever starts in Nashville tomorrow is currently enormous. The phasing Iraola set out holds: Isak, Wirtz and Gravenberch link up in the coming days, sit out the Sunderland opener but chase minutes against Wrexham and Leeds, while Alisson, Van Dijk and Gakpo begin in Europe and join later, Van Dijk's minutes reserved for the Anfield friendlies. Victor Munoz and Alexis Mac Allister, a World Cup winner and a runner-up, miss the tour entirely and are not expected before the Como friendly on August 16. The team that plays Sunderland will therefore be younger and thinner than this one, leaning on the eleven academy players in the party, Josh Abe among them. The winger slot still decides the shape and it moved overnight: reporting now has Liverpool confident of beating Arsenal and Bayern to Bradley Barcola, in talks with PSG and edging toward £100m, the £42.6m Akliouche approach dropping to the deliverable fallback with Minteh at around £70m the third option. Rio Ngumoha holds the right-sided berth by default. Off the pitch the vice-captaincy has narrowed to Szoboszlai and Chiesa, while Inter's money fell short of Liverpool's valuation of Curtis Jones and the club are weighing fresh terms. Iraola has confirmed a triple long-term blow: Ekitike (Achilles) and Bradley (knee) are both way off, Leoni (ACL) is running outdoors and furthest advanced; all three travelled to rehabilitate and play no part, leaving Frimpong the only fit senior right-back on the tour."
+  reason: "Sat Jul 25 — matchday, and the XI below is a squad baseline rather than tonight's team. Iraola's first Liverpool side faces Sunderland in Nashville this evening, and it will be far younger and thinner than this projection: the predicted teamsheet has Mamardashvili in goal, the debutant Jeremy Jacquet alongside Joe Gomez, Szoboszlai and Curtis Jones in midfield, and Rio Ngumoha, Kieran Morrison and Harvey Elliott ahead of them, with the eleven academy players in the party filling the bench. The senior spine arrives in instalments: Isak, Wirtz and Gravenberch link up within days, sit out tonight after early World Cup exits and chase minutes against Wrexham and Leeds, while Alisson, Van Dijk and Gakpo train at the AXA Centre with their minutes saved for the Anfield friendlies. Victor Munoz and Alexis Mac Allister, a World Cup winner and a runner-up, miss the tour entirely and are not expected before Como on August 16. The winger slot still decides the shape and it holds where it was: Liverpool confident of a Barcola deal near £100m, the £42.6m Akliouche approach the deliverable fallback and Minteh (~£70m) behind, Iraola seeking a profile with different skills to Salah rather than a like-for-like heir. Off the pitch the midfield turned live, Chelsea's £85.6m for Alex Scott rejected by Bournemouth, while Ekitike (Achilles) and Bradley (knee) stay months away and Leoni (ACL) runs outdoors and is furthest advanced, leaving Frimpong the only fit senior right-back on the tour."
 };

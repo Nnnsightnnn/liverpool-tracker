@@ -385,12 +385,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday, and the move the club had all but buried is breathing
-          again. Liverpool are now confident of beating Arsenal and Bayern to
-          Bradley Barcola, in talks with Paris and edging toward a hundred
-          million, the Monaco fallback suddenly a rung down. Iraola counts his
-          wounded, Ekitike and Bradley months away, and names a young side for
-          Sunderland in Nashville tomorrow.
+          Saturday, and the new era gets its first light tonight. In
+          Nashville, Andoni Iraola names a Liverpool team for the first time,
+          young and half-assembled, against Sunderland. Fifth last May and
+          rebuilding on every line, the Reds carry a winger still unsigned, a
+          treatment room three deep, and, off the pitch, Bezos money circling
+          the ownership. Kickoff, and the questions, come after dark.
         </p>
 
         <StatStrip stats={stats} />
@@ -419,19 +419,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and the signing this summer could not stop wanting is alive
-              again. Two weeks after an eighty-five-million bid was waved away
-              and the pursuit written off at a hundred and twenty-eight,
-              Liverpool are reported confident of beating Arsenal and Bayern to{" "}
-              <em>Bradley Barcola</em>, in club-to-club talks with Paris and
-              prepared to build toward a hundred million. It drops{" "}
-              <em>Akliouche</em>, yesterday's deliverable lead, to insurance. The
-              rest of the morning is about the bodies Iraola does not have:{" "}
-              <em>Ekitike</em> and <em>Bradley</em> both months off, Leoni only
-              now running outdoors, and a manager saying plainly that the squad
-              still needs a winger and a centre-back. A young side, eleven
-              academy boys among them, meets Sunderland in Nashville tomorrow.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and Andoni Iraola names a Liverpool team for the first time,
+              tonight in Nashville, against a Sunderland side that finished
+              seventh. It is a thin, young XI, half the senior spine still in
+              Europe or drifting back from a World Cup, <em>Jeremy Jacquet</em>{" "}
+              handed a debut in a back line short of bodies and{" "}
+              <em>Harvey Elliott</em> handed the front of it. Off the pitch the
+              morning belongs to money: <em>Jeff Bezos</em>, no less, linked with
+              a consortium in talks over a minority Anfield stake, FSG insisting
+              they will not cede control. In the market the midfield has turned
+              live, Bournemouth rebuffing Chelsea's eighty-five million for{" "}
+              <em>Alex Scott</em>, the player Iraola once coached. Ekitike and
+              Bradley are months from fit, Leoni only now running outdoors, and
+              the winger the manager keeps asking for, one with different skills
+              to Salah, is still a name on a board. The season opens at Newcastle
+              on the twenty-third of August. Tonight is only the first breath.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -439,12 +442,13 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              Paris winger the club cannot stop chasing; a treatment room the
-              size of a spine; an armband down to two men; a sixteen-year-old
-              handed a door held open by injury; and a farewell in Istanbul that
-              wants a signature and cannot get one. Read them in order. The
-              season opens at Newcastle on the twenty-third of August and the
-              summer has not been quiet once.
+              manager taking his first breath in Nashville; the richest man in
+              the world circling a minority stake; a midfielder Iraola already
+              knows and Bournemouth will not sell; a squad landing in instalments
+              off the back of a World Cup; and a farewell in Istanbul that has
+              finally found a crack of light. Read them in order. The season
+              opens at Newcastle on the twenty-third of August, and the summer
+              has not been quiet once.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3162,7 +3166,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Some deals refuse to stay dead."
+        "Every era starts with a first breath."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
