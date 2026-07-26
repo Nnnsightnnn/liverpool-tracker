@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Editorial plate: a floodlit stadium at night, a ball caught in flight arcing toward the top corner of a goal, the first win of a new era">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1017"/>
+      <stop offset="48%" stop-color="#17222f"/>
+      <stop offset="100%" stop-color="#2a1d18"/>
+    </linearGradient>
+    <radialGradient id="flood" cx="0.5" cy="0.15" r="0.64">
+      <stop offset="0%" stop-color="#eef3ff" stop-opacity="0.9"/>
+      <stop offset="34%" stop-color="#cdd9f0" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#cdd9f0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pitch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#264330"/>
+      <stop offset="100%" stop-color="#0f1a13"/>
+    </linearGradient>
+    <radialGradient id="glory" cx="0.62" cy="0.30" r="0.5">
+      <stop offset="0%" stop-color="#e9a24e" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#e9a24e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ballglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#ffe9c6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffe9c6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- night sky over the bowl -->
+  <rect x="0" y="0" width="1600" height="900" fill="url(#sky)"/>
+
+  <!-- far grandstand, a dark mass flecked with crowd light -->
+  <rect x="0" y="150" width="1600" height="300" fill="#0e151d"/>
+  <g fill="#3a4a60" opacity="0.5">
+    <rect x="90" y="250" width="1420" height="2"/>
+    <rect x="120" y="300" width="1360" height="2"/>
+    <rect x="150" y="350" width="1300" height="2"/>
+  </g>
+
+  <!-- floodlight glow banks across the top -->
+  <ellipse cx="800" cy="120" rx="900" ry="260" fill="url(#flood)"/>
+  <g fill="#eef3ff" opacity="0.9">
+    <rect x="300" y="70" width="120" height="10" rx="3"/>
+    <rect x="740" y="52" width="120" height="10" rx="3"/>
+    <rect x="1180" y="70" width="120" height="10" rx="3"/>
+  </g>
+
+  <!-- the pitch, tilting up out of the dark -->
+  <path d="M0 470 L1600 470 L1600 900 L0 900 Z" fill="url(#pitch)"/>
+  <g opacity="0.14" fill="#eaf3ea">
+    <path d="M0 560 L1600 560 L1600 610 L0 610 Z"/>
+    <path d="M0 690 L1600 690 L1600 760 L0 760 Z"/>
+  </g>
+  <rect x="0" y="512" width="1600" height="3" fill="#dfe8df" opacity="0.3"/>
+
+  <!-- a warmth of the winning night rising toward the goal -->
+  <rect x="0" y="200" width="1600" height="700" fill="url(#glory)"/>
+
+  <!-- the goal frame, upper left, catching the ball in its top corner -->
+  <g stroke="#eef3ff" stroke-width="7" fill="none" opacity="0.9" stroke-linecap="round">
+    <path d="M300 250 L300 470"/>
+    <path d="M300 250 L620 250"/>
+    <path d="M620 250 L620 470"/>
+  </g>
+  <!-- net, faint mesh in the frame -->
+  <g stroke="#cdd9f0" stroke-width="1" opacity="0.20">
+    <path d="M320 258 L320 462 M360 258 L360 462 M400 258 L400 462 M440 258 L440 462 M480 258 L480 462 M520 258 L520 462 M560 258 L560 462 M600 258 L600 462"/>
+    <path d="M304 290 L616 290 M304 330 L616 330 M304 370 L616 370 M304 410 L616 410 M304 450 L616 450"/>
+  </g>
+
+  <!-- the ball's flight: a long arc from the near turf up into the top corner -->
+  <path d="M980 690 Q720 520 356 300" stroke="#ffe9c6" stroke-width="3" fill="none" opacity="0.45" stroke-dasharray="2 12" stroke-linecap="round"/>
+
+  <!-- the ball, glowing, just inside the top corner -->
+  <circle cx="356" cy="300" r="46" fill="url(#ballglow)"/>
+  <circle cx="356" cy="300" r="15" fill="#ffffff"/>
+  <circle cx="356" cy="300" r="15" fill="none" stroke="#c9d2df" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- lone striker, small, far side, follow-through of the strike -->
+  <g transform="translate(1000 470)" fill="#0a0f0c" opacity="0.95">
+    <ellipse cx="4" cy="66" rx="30" ry="6" fill="#000" opacity="0.5"/>
+    <rect x="-8" y="-44" width="16" height="44" rx="6"/>
+    <circle cx="0" cy="-52" r="8"/>
+    <rect x="4" y="-30" width="26" height="12" rx="6" transform="rotate(-18 4 -30)"/>
+    <rect x="-6" y="-2" width="12" height="30" rx="6" transform="rotate(24 -6 -2)"/>
+  </g>
+
+  <!-- faint vignette -->
+  <rect x="0" y="0" width="1600" height="900" fill="#000" opacity="0.10"/>
+  <radialGradient id="vig" cx="0.5" cy="0.46" r="0.75">
+    <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000" stop-opacity="0.45"/>
+  </radialGradient>
+  <rect x="0" y="0" width="1600" height="900" fill="url(#vig)"/>
+</svg>
