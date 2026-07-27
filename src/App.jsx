@@ -385,13 +385,14 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday, the morning after the first win. In Nashville on Saturday
-          night, Andoni Iraola's young, half-assembled Liverpool beat Sunderland
-          four-two, Szoboszlai's piledriver among four goals, before Joe Gomez
-          limped off inside eight minutes and turned the evening. Fifth last May
-          and rebuilding on every line, the Reds carry a winger still unsigned
-          and a back line down to its bones. Wrexham at Yankee Stadium comes
-          Wednesday.
+          Monday, and the longest goodbye is nearly over. Reporting from
+          Istanbul has Mohamed Salah's move to Besiktas at terms in principle,
+          an announcement braced for even as the Turkish club deny one report
+          calling it done. At home the winger board sharpened, Bradley Barcola
+          ending his PSG talks as Paris named a price near a hundred and
+          forty-six million, and Joe Gomez, hurt on Saturday, is not as badly
+          injured as feared. Fifth last May and rebuilding on every line, the
+          Reds meet Wrexham at Yankee Stadium on Wednesday.
         </p>
 
         <StatStrip stats={stats} />
@@ -420,22 +421,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and the morning after belongs to a win with a wound in it. In
-              Nashville on Saturday night, Andoni Iraola's first Liverpool team,
-              young and half-assembled, beat a Sunderland side that finished
-              seventh four-two, <em>Kieran Morrison</em>'s early goal and a{" "}
-              <em>Szoboszlai</em> piledriver among four, the academy repaying a
-              manager who trusted it. Then, inside eight minutes, <em>Joe Gomez</em>{" "}
-              pulled up, and Iraola reached for the bleakest phrase he had: the
-              worst news. With Konate gone to Madrid and Van Dijk not yet on
-              tour, <em>Jeremy Jacquet</em>, rested here as a precaution, is the
-              last fit senior centre-back, and the replacement the club keeps not
-              signing has never looked more overdue. Off the pitch the
-              frustration is transfers, not results, supporters restless at a
-              quiet window even as <em>Barcola</em> is briefed as a signing
-              Liverpool will make as a minimum. The season opens at Newcastle on
-              the twenty-third of August. The win was real; so was the limp.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and the summer's longest goodbye is a signature from over.
+              Reporting out of Istanbul has <em>Mohamed Salah</em>'s move to
+              Besiktas at terms in principle, his agent said to have accepted the
+              last condition and the club awaiting a final yes, though Besiktas
+              themselves pushed back on one report that called it done. The
+              greatest forward of the modern Anfield is a name away from a new
+              one. On the incoming board <em>Bradley Barcola</em> took his own
+              step, ending his contract talks in Paris while PSG set a price near
+              a hundred and forty-six million, the desire settled and only the fee
+              to argue. The pitch news softened: <em>Joe Gomez</em>, off inside
+              eight minutes on Saturday, is milder than feared and should feature
+              before the tour ends, while <em>Isak</em>, <em>Wirtz</em> and{" "}
+              <em>Gravenberch</em> have landed and trained, the spine reassembling
+              at last. Wrexham comes at Yankee Stadium on Wednesday; the league
+              opens at Newcastle on the twenty-third of August. A club saying
+              goodbye and hello in the same breath.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -443,12 +445,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              first verdict on ninety minutes in Nashville; an injury that took
-              eight minutes to land; a night the academy answered the call; a
-              restless Kop weighing patience against a quiet window; and a
-              farewell in Istanbul edging, at last, toward a door. Read them in
-              order. The season opens at Newcastle on the twenty-third of August,
-              and the summer has not been quiet once.
+              farewell in Istanbul a signature from done; a winger in Paris who
+              wants out; an injury that looked worse on Saturday than it reads
+              today; a spine flying in to reassemble; and a billionaire at the
+              door in Boston. Read them in order. The season opens at Newcastle on
+              the twenty-third of August, and the summer has not been quiet once.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3166,7 +3167,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A win, and a wound in it."
+        "A signature away from goodbye."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

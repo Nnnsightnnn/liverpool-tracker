@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "doubtful", injuryNote: "Sun Jul 26 — a muscle scare, and the worst sort of luck. Forced off inside eight minutes of the Sunderland win, the defender pulled up with a suspected muscle injury that Iraola called 'the worst news' after the game, the extent still being assessed with no risks to be taken. He walked off unaided, so the hope is it is minor, but in a back line already down to Jacquet it is the one absence Iraola could least afford", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "doubtful", injuryNote: "Mon Jul 27 — the scare eases. Two days after he limped off inside eight minutes of the Sunderland win with a muscle problem, Iraola offered a calmer read: the defender has trained very well, no risks will be taken, and the manager expects him back for the final match of the American tour. A back line down to Jacquet, with Van Dijk not yet on the trip, needed exactly this kind of reprieve, even if the search for a senior centre-back goes on regardless", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -122,7 +122,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Thu Jul 23 — due in Chicago within days. One of the returning trio with Isak and Wirtz, he sits out Sunderland after his World Cup summer but is in the frame for Wrexham and Leeds. Liverpool's most consistent player across a turbulent 2025-26 is the fixed point at the base of whatever the manager builds. Everything around him is a question; he is not one of them", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Sun Jul 26 — landed, and straight to work. One of the World Cup returnees, Gravenberch touched down in the United States and went into Sunday's session, in contention now for Wrexham on Wednesday and Leeds on August 2 after missing Sunderland. Liverpool's most consistent player across a turbulent 2025-26 is the fixed point at the base of whatever Iraola builds; everything around him is a question, he is not one of them", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -162,7 +162,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Thu Jul 23 — flying in with the returning trio. The £115m playmaker joins the tour in the coming days alongside Isak and Gravenberch, missing Sunderland but in line for Wrexham and Leeds, and Iraola finally gets an extended block of work with him. He shared barely 117 minutes on the pitch with Isak and Ekitike across an injury-disrupted first year; a clean summer, for once, is the reset", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Sun Jul 26 — in, and a timely boost. The £115m playmaker joined Isak and Gravenberch at the American base and trained on Sunday, one report calling his arrival exactly the lift Iraola needed, and he is in line for Wrexham and Leeds after sitting out Sunderland. He shared barely 117 minutes on the pitch with Isak and Ekitike across an injury-disrupted first year; a clean block of work, for once, is the reset", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -199,7 +199,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 18, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Thu Jul 23 — back within days, and eased in carefully. One of the returning trio, Isak is in line for a few minutes against Wrexham on July 29 before a fuller role versus Leeds, having come home early from the World Cup. An injury-wrecked debut season limited the £100m striker to a handful of starts; a full pre-season under a new coach is the reset the whole front line needs", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 18, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Sun Jul 26 — back in the building, eased in with care. Isak landed with the returning trio and trained on Sunday, in line for minutes against Wrexham on July 29 before a fuller role versus Leeds, having come home early from the World Cup. An injury-wrecked debut season limited the £100m striker to a handful of starts; a full pre-season under a new coach is the reset the whole front line needs", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -351,22 +351,22 @@ export const TEAM_LOGOS = {
 //     and repoints `src` + `credit` + `generatedAt` at it.
 // `focus` is the one-line "most important focus of the latest edition."
 export const COVER_IMAGE = {
-  src: "/assets/cover/2026-07-26-first-win.svg",
-  alt: "A floodlit stadium at night, a glowing ball caught in flight arcing into the top corner of a goal, a lone striker following through in the distance as the new era wins its first match.",
-  focus: "Iraola's first win, and its early cost",
+  src: "/assets/cover/2026-07-27-salah-farewell.svg",
+  alt: "A lone figure in a fading red shirt walks away across a darkened floodlit pitch toward a warm doorway of light at the mouth of the tunnel, a long shadow thrown back behind him, a farewell at the end of an era.",
+  focus: "The longest goodbye, a signature from over",
   credit: "Editorial plate · auto-generated",
-  generatedAt: "2026-07-26T11:00:00Z",
+  generatedAt: "2026-07-27T11:00:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
   brief: {
     leadStory:
-      "Andoni Iraola's first Liverpool team beat Sunderland 4-2 in Nashville, a Dominik Szoboszlai screamer among four goals from a young side, before Joe Gomez limped off injured inside eight minutes.",
+      "Mohamed Salah's move to Besiktas reached terms in principle, his agent said to have accepted the club's condition and a final offer awaiting his yes, though Besiktas pushed back on one report calling the deal done.",
     subject:
-      "A floodlit stadium at night, a ball caught in flight arcing toward the top corner of a goal, a lone player following through after a long-range strike",
+      "A lone footballer in a fading red shirt walking away across a darkened floodlit pitch toward the warm light of the tunnel, seen from behind, a long shadow trailing him",
     prompt:
-      "Cinematic editorial photograph, night, a vast dark grandstand under a bank of cold white floodlights, a green pitch tilting up and glowing, a football frozen in mid-flight arcing into the top corner of a goal net at the far post, a single player in the middle distance caught in the follow-through of a long-range strike, small in a wide frame, a warm glow of celebration rising against the cool floodlight, film grain, the charge of a decisive goal, no on-image text, headroom at the top for a masthead headline",
+      "Cinematic editorial photograph, night, a vast empty floodlit stadium after the crowd has gone, a green pitch tilting up out of the dark, a single player in a deep-red shirt walking away from the camera toward the warm glowing mouth of the players' tunnel, small in a wide frame, a long shadow thrown back across the turf away from the light, the cool white floodlights above dimmed, a mood of departure and quiet farewell, film grain, no on-image text, headroom at the top for a masthead headline",
     aspectRatio: "landscape",
-    slug: "first-win",
-    generatedAt: "2026-07-26T11:00:00Z",
+    slug: "salah-farewell",
+    generatedAt: "2026-07-27T11:00:00Z",
   },
 };
 
@@ -456,11 +456,11 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-07-26T11:00:00Z",
+  generatedAt: "2026-07-27T11:00:00Z",
   overview:
-    "The table is a keepsake now, its rows frozen where the 2025-26 season left them: Arsenal champions on 85, Liverpool fifth on 60, a title defence that unravelled between November and February. ESPN's 2026-27 table has reset every club to zero and swapped the promoted sides in for West Ham, Burnley and Wolves, so these numbers are memory rather than live standings until the new campaign kicks off. The living story moved to Nashville: on Saturday night Andoni Iraola's first Liverpool team beat a Sunderland side that finished seventh 4-2, a young group flashing the shape and running he built at Bournemouth, even as Joe Gomez limped off injured inside eight minutes. The rebuild that fifth place demands, a winger, a midfielder, a centre-back, now runs against the clock, the league restarting at St James' Park on August 23.",
+    "Still frozen in memory. These rows are the 2025-26 season as it finished, Arsenal champions on 85 and Liverpool fifth on 60, because ESPN's live 2026-27 table has reset every club to zero and swapped the promoted sides in for West Ham, Burnley and Wolves; there is nothing real to read here until Newcastle on August 23. The living Liverpool story is the rebuild that fifth place demanded and the farewell it is finishing: Mohamed Salah's Besiktas move reached terms in principle on Monday, Bradley Barcola sits atop the winger board at a PSG price near £146m, and Andoni Iraola's young side opened his reign with a 4-2 win over the Sunderland team that finished seventh. A summer that has banked one teenager and a goalkeeper's new deal now has under four weeks to become a squad.",
   teams: {
-    "Liverpool": "Fifth on 60 and dark until August 23. On Saturday a young side opened the Iraola era with a 4-2 win over Sunderland in Nashville, though Joe Gomez limped off injured inside eight minutes to thin a back line already down to its bones.",
+    "Liverpool": "Fifth on 60 and dark until August 23. Iraola's young side beat Sunderland 4-2 in Nashville to open his reign, and the picture brightened on Monday: Joe Gomez's muscle injury is milder than feared, Salah's Besiktas exit reached terms in principle, and Wrexham at Yankee Stadium comes Wednesday.",
     "Arsenal": "Champions on 85, and among the clubs tracking Alex Scott after Bournemouth rejected Chelsea's £85.6m bid for him.",
     "Manchester City": "Second on 78, the club whose £116m for Elliot Anderson set the benchmark PSG price Barcola above.",
     "Manchester United": "Third on 71, back in the Champions League, and one of the sides circling Alex Scott alongside Liverpool.",
@@ -481,124 +481,127 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Ninety Minutes, And A First Verdict.",
-    byline: "Sky Sports / Sports Mole",
-    dateline: "Nashville · 25 July",
-    category: "Match Report",
+    headline: "A Signature From The Door.",
+    byline: "Goal / Turkiye Today",
+    dateline: "Istanbul · 27 July",
+    category: "Farewells",
     body:
-      "Under the roof at Geodis Park, Andoni Iraola's Liverpool won the only way a pre-season side ever really can, in fits and flashes and finally on merit. Kieran Morrison cut inside and curled the opener after thirteen minutes; Sunderland answered through Enzo Le Fee and led at the break. Then the substitutes arrived and the game bent to them: a Szoboszlai piledriver, a Chiesa finish, a late Lewis Koumas goal, 4-2 in front of 24,897. Nothing here settles a team sheet for Newcastle. What it showed was the shape Iraola wants, the running he demands, and a bench of teenagers unafraid to take the moment. A friendly, yes. But a first sight of an idea.",
+      "For weeks the goodbye lived in the space between a number and a no. On Monday the space closed. Ramy Abbas, the agent, is reported to have accepted the commission Besiktas would not exceed; Serdal Adali, the president, has laid a final offer in front of Mohamed Salah and asked him to answer quickly; and a former Besiktas midfielder went on the record to say the thing is done and will be announced soon. Two years, ten million euros a season, bonuses. Only one thread frays the picture, a club statement swatting away a report that a contract had been signed, so this is agreement and not yet ink. The greatest forward of the club's modern era is a name away from a new one.",
   },
   {
     n: "02",
-    headline: "Eight Minutes Was All It Took.",
-    byline: "ESPN / Liverpool.com",
-    dateline: "Nashville · 25 July",
-    category: "Injuries",
+    headline: "The Fee, Not The Will.",
+    byline: "Liverpool.com / L'Equipe",
+    dateline: "Paris · 27 July",
+    category: "Transfers",
     body:
-      "The scoreline will be the memory; the injury is the story. Eight minutes into his first game in charge, Iraola watched Joe Gomez pull up and limp away with what looked like a muscle problem, and afterward the manager reached for the bleakest phrase available to him. The worst news. Gomez walked off unaided, which is the thin comfort, but the timing could hardly be crueller. Konate is a Real Madrid player now, Van Dijk is not due until later in the tour, and Jeremy Jacquet, rested here as a precaution, is the last fit senior centre-back standing. The market has been slow. The treatment room is not waiting for it.",
+      "The winger Liverpool have chased all summer took a step toward them without moving a muscle. L'Equipe reported that Bradley Barcola has told Paris Saint-Germain he will not sign a new deal, that he wants minutes a crowded PSG front line cannot guarantee, and that he is ready to weigh an exit. What stands between want and done is a price: Paris, reluctant sellers, have set his value near a hundred and seventy million euros, and Tottenham, City, Dortmund, Leverkusen and Chelsea have all made their calls. Liverpool still speak of him as the statement of the window. The desire was never the problem. The number is the negotiation now.",
   },
   {
     n: "03",
-    headline: "The Kids Answer The Call.",
-    byline: "Rousing the Kop / This Is Anfield",
+    headline: "Two Days Later, A Softer Word.",
+    byline: "beIN Sports / Liverpool.com",
     dateline: "Nashville · 26 July",
-    category: "Manager",
+    category: "Injuries",
     body:
-      "With half a squad in Europe or drifting home from a World Cup, Iraola handed the night to the academy, and the academy handed something back. Morrison, nineteen, took his goal like a man who had scored it a hundred times in his head. Koumas ran until the game frayed and finished when it counted. Calvin Ramsay, at right-back in a position the club has not addressed, played with the urgency of someone who knows the door is ajar. None of them will start at St James' Park. All of them made the case that Iraola's Liverpool might be a place where youth is used, not merely praised, and on a thin July evening that felt like the point.",
+      "The picture that looked bleak on Saturday night looked kinder by Sunday. Joe Gomez, off inside eight minutes of the Sunderland win with a muscle problem the manager had feared the worst of, is not, it turns out, as badly hurt as the moment suggested. Iraola said the defender has trained very well since, that no chances will be taken, and that he expects him back for the last match of the American tour. It is thin relief for a back line down to Jacquet, with Van Dijk yet to fly out and Leoni and Ekitike months from fitness. But relief is relief, and the centre-back the club still has not signed is one absence lighter than it seemed.",
   },
   {
     n: "04",
-    headline: "Patience, And A Restless Kop.",
-    byline: "Football365 / Liverpool FC",
-    dateline: "Anfield · 25 July",
-    category: "Transfers",
+    headline: "The Spine Comes Home.",
+    byline: "This Is Anfield / Liverpool FC",
+    dateline: "New York · 26 July",
+    category: "Manager",
     body:
-      "Winning starts do not silence a summer's anxiety, and this one has not. The banked business so far is a goalkeeper's new deal, a little academy housekeeping, and the £750,000 arrival of Samuel Martinez, a seventeen-year-old Colombian who will not truly join until 2027. The first team still waits. Reporting hardened this week that Barcola is a signing Liverpool will make as a minimum, the fee circling a hundred million, FSG briefed as ready to spend big. Supporters have heard soon before. With a winger and a centre-back still unresolved and a month until the league, the club preaches patience to a fanbase that has run out of the word.",
+      "Iraola won his first match with the bones of a team; on Sunday the flesh began to arrive. Alexander Isak, Florian Wirtz and Ryan Gravenberch, all sent home early from a World Cup, landed at the American base and went straight into the session, and one of them, Wirtz, was described as a timely boost the manager badly needed. None started against Sunderland. All three could feature against Wrexham on Wednesday. It is the first time this summer Iraola has had his intended midfield and his intended striker in the same building, and with Mac Allister and Munoz not due before mid-August, it is as close to whole as the squad will look until Anfield.",
   },
   {
     n: "05",
-    headline: "Closer To Somewhere.",
-    byline: "Goal / FootballTransfers",
-    dateline: "Istanbul · 25 July",
-    category: "Farewells",
+    headline: "A Billionaire At The Door.",
+    byline: "Sky Sports / This Is Anfield",
+    dateline: "Boston · 26 July",
+    category: "Football News",
     body:
-      "The longest goodbye in the club's modern history found another inch of movement this week. For weeks the Salah-to-Besiktas talks snagged on a single number, the commission his agent wanted off the top, and a Turkish president who would not meet it. Now Ramy Abbas is reported to have softened toward the club's figure, the kind of quiet concession that turns a standoff into a negotiation. Nothing is signed. Besiktas may wait until a Europa League qualifier is behind them before the last meeting. But the framing has changed from denial to detail, one guaranteed year near ten million euros, bonuses, an option beyond. Seven weeks a free man, and finally pointed at a door.",
+      "The quietest story of the summer may prove the largest. Fenway Sports Group, owners since 2010, are in talks with a consortium fronted by the former QPR co-owner Amit Bhatia over selling a strategic minority stake, up to one and a third billion pounds for around thirty percent, a deal that would value Liverpool near six billion dollars. Among those approached to join is Jeff Bezos, which would be the Amazon founder's first move into the game. FSG would keep control; the framing is partnership, not exit, and the timetable is months rather than weeks. For supporters restless at a slow window, it is a reminder that the biggest numbers this summer are not transfer fees.",
   },
 ];
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-07-26T11:00:00Z",
+  generatedAt: "2026-07-27T11:00:00Z",
   summary:
-    "Sunday July 26, the morning after the Iraola era's first win. Liverpool beat Sunderland 4-2 at Nashville's Geodis Park on Saturday night, Kieran Morrison's early opener and a Dominik Szoboszlai piledriver among four goals from a young, half-assembled side, but the evening turned on an eighth-minute blow: Joe Gomez limped off with a muscle injury Andoni Iraola called 'the worst news', leaving a back line already down to Jeremy Jacquet, himself rested as a precaution, thinner still. Off the pitch the frustration is transfers rather than results, supporters venting at a quiet window even as reports harden that Liverpool 'will sign' Bradley Barcola 'as a minimum', FSG braced to 'spend big' and the £750,000 signing of 17-year-old Colombian Samuel Martinez confirmed as the third arrival of the summer. The Alex Scott midfield reunion simmers on after Bournemouth waved away Chelsea's £85.6m bid, and the Salah move to Besiktas edges toward terms. The returning World Cup contingent, Isak, Wirtz and Gravenberch, are due into camp in the coming days before Wrexham at Yankee Stadium on Wednesday, then Leeds at Soldier Field on August 2 and the league at Newcastle on the 23rd.",
+    "Monday July 27, and the summer's longest goodbye is nearing its end. Reporting out of Istanbul has Mohamed Salah's move to Besiktas at the decisive stage: agent Ramy Abbas is said to have accepted the commission condition that stalled it for weeks, president Serdal Adali has put a final offer on the table and asked for a quick answer, and a former Besiktas midfielder has declared the deal done, though the club themselves pushed back on that report, so terms are agreed in principle rather than signed. The transfer board hardened with it: PSG now value Bradley Barcola around €170m (near £146m) and the winger is reported to have ended his contract talks in Paris, prising open the door Liverpool have leaned on for weeks. The pitch news softened, Iraola saying the muscle problem that took Joe Gomez off inside eight minutes against Sunderland is milder than feared, the defender training well and expected to feature in the final tour game. Isak, Wirtz and Gravenberch have landed in the United States and trained on Sunday, in the frame for Wrexham at Yankee Stadium on Wednesday, then Leeds at Soldier Field on August 2 and the league opener at Newcastle on the 23rd. Away from the football, FSG's talks over a £1.35bn minority stake, Jeff Bezos among those approached, rumble on in the background.",
   keyTopics: [
     {
-      title: "Iraola's Winning Start: Liverpool 4-2 Sunderland In Nashville (Sky Sports / Sports Mole, today)",
+      title: "Salah On The Brink Of Besiktas: Terms Agreed, A Denial, No Ink Yet (Goal / Turkiye Today / KingFut, today)",
       detail:
-        "Andoni Iraola's first match in charge ended in a 4-2 win over Sunderland at Geodis Park on Saturday night, a young, patched-together side turning around a 2-1 deficit after the break. Kieran Morrison cut in and finished off a fine team move inside 13 minutes, Enzo Le Fee levelled for Sunderland, and after the interval Szoboszlai's trademark piledriver, a Federico Chiesa finish and a late Lewis Koumas goal sealed it in front of 24,897. Iraola made his name at Bournemouth on shape and relentless running, and a threadbare July is close to the ideal laboratory for teaching it.",
+        "The farewell reached its endgame on Monday. Reporting from Istanbul says agent Ramy Abbas has accepted the commission condition that stalled the deal for weeks, Besiktas president Serdal Adali has put a final offer to Salah and asked for a swift answer, and former Besiktas midfielder Ahmed Hassan posted that the move is complete and will be announced shortly. The framework is two years near €10m a season plus bonuses. One caveat keeps it short of settled: Besiktas issued a statement rejecting one report that a contract was signed, so this is agreement in principle, not a done deal. Seven weeks a free agent, the greatest forward of Liverpool's modern era is a signature from a destination.",
+      category: "transfers",
+    },
+    {
+      title: "Barcola Ends His PSG Contract Talks As Paris Set A €170m Price (Liverpool.com / L'Equipe, today)",
+      detail:
+        "Liverpool's priority winger moved this week. L'Equipe report Bradley Barcola has told PSG he will not sign a new contract, wanting the regular minutes Paris cannot promise him, a stance that hands the initiative to his suitors. PSG will sell only at a premium, a valuation put around €170m (near £146m), and Tottenham, Manchester City, Dortmund, Leverkusen and Chelsea have all made contact. Liverpool remain the club framing him as the summer's statement signing, but the fee, not the willingness, is now the whole negotiation.",
+      category: "transfers",
+    },
+    {
+      title: "Gomez Injury Not As Feared: Iraola Expects Him Back For The Final Tour Game (Liverpool.com / beIN Sports, today)",
+      detail:
+        "The scare eased on Monday. Two days after Joe Gomez limped off inside eight minutes against Sunderland, Iraola offered a calmer update: the muscle problem is being managed without risk, the defender has trained very well, and the manager expects him to feature in Liverpool's last match of the American tour. It is welcome relief for a back line down to Jacquet, with Van Dijk not yet on the trip and Leoni and Ekitike still months from fitness, though the reprieve does nothing to slow the hunt for the senior centre-back the club has chased all summer.",
+      category: "injuries",
+    },
+    {
+      title: "Isak, Wirtz And Gravenberch Land In The States And Get To Work (This Is Anfield / Liverpool FC, today)",
+      detail:
+        "The senior spine began to reassemble. The three World Cup returnees arrived at the American base and went straight into Sunday's session, Wirtz handing Iraola what one report called a timely boost, and all three are in contention for Wrexham on Wednesday and Leeds on August 2. Alexis Mac Allister and Victor Munoz, whose nations went the distance in New Jersey, are not due back before the Como friendly on August 16, while Alisson, Van Dijk and Gakpo bank their minutes at the AXA Centre for the Anfield games.",
+      category: "injuries",
+    },
+    {
+      title: "Bezos Among Those Approached In A £1.35bn Minority-Stake Bid For Liverpool (Sky Sports / This Is Anfield, 1d ago)",
+      detail:
+        "The ownership story kept its slow burn. FSG are in talks with a consortium fronted by former QPR co-owner Amit Bhatia over selling a strategic minority stake, up to £1.35bn for roughly 30 percent, valuing the club near $6bn, and Amazon founder Jeff Bezos has been approached to join. FSG would remain the controlling shareholder, and sources stress this is a partnership rather than a prelude to a full sale, a process expected to run months rather than weeks. For a fanbase watching a quiet transfer window, the promise of fresh capital is its own kind of headline.",
+      category: "general",
+    },
+    {
+      title: "The Midfield Board Shifts: Diomande Hijack Weighed, Bouaddi Drifts To City (Football365 / FootballTransfers, today)",
+      detail:
+        "Two of Liverpool's midfield threads moved in opposite directions. Reports have the Reds weighing a late attempt to hijack Yan Diomande's move, with RB Leipzig wanting around €120m and the Ivorian said to favour PSG, where a deal to 2031 has been discussed. At the same time Ayyoub Bouaddi, long linked, appears to be drifting toward Manchester City, who are said to have made the running. Adam Wharton stays the club's stated priority in the position at an ask beyond £100m, with Alex Scott the Iraola-flavoured alternative.",
+      category: "transfers",
+    },
+    {
+      title: "Next Up, Wrexham At Yankee Stadium And A Makeshift Back Line (ESPN / MLB.com, today)",
+      detail:
+        "The tour rolls to the Bronx on Wednesday, Liverpool against Wrexham at Yankee Stadium in the second of three American fixtures. Iraola will again field a patched-together defence: Jacquet is not expected to be involved until the Leeds game on August 2, Van Dijk, Alisson and Gakpo are not on the trip, and Bradley and Ekitike are long-term absentees, so youth fills the gaps once more. The upside is that Isak, Wirtz and Gravenberch could all feature after joining training, a first sight of Iraola's intended spine.",
       category: "matches",
     },
     {
-      title: "Gomez Off In Eight Minutes: Iraola's 'Worst News' In A Back Line Down To The Bone (Sports Mole / ESPN, today)",
+      title: "Scott Stays In View As Bournemouth Hold The Line (TEAMtalk / Liverpool.com, 2d ago)",
       detail:
-        "The night's cost came early. Joe Gomez was forced off after just eight minutes with a suspected muscle injury, and Iraola, asked afterward, called it 'the worst news', though the extent is still being assessed and no risks will be taken. Gomez walked off unaided, so the hope is it is minor, but the timing is cruel: with Konate gone to Real Madrid and Van Dijk not due until later in the tour, Jeremy Jacquet, himself rested against Sunderland as a precaution, is the only fit senior centre-back Iraola has, and the club have still not signed the replacement the summer has demanded from the start.",
-      category: "injuries",
-    },
-    {
-      title: "Youngsters Shine: Morrison, Koumas And Ramsay Press Their Claims (Rousing the Kop / Liverpool.com, today)",
-      detail:
-        "The takeaway from Nashville was the academy. Nineteen-year-old Kieran Morrison took his goal excellently and looked a cut above, Lewis Koumas brought energy and a late finish, and Calvin Ramsay, rated a seven, made his case for a right-back berth Liverpool have yet to fill in the market. Iraola handed minutes across a threadbare group and several repaid him, the shape and pressing already visible even in a friendly. 'Five things learned', the local verdict ran on Sunday, and the loudest was that the youth can play, but a new centre-back is needed now more than ever.",
-      category: "tactics",
-    },
-    {
-      title: "'Spend Big': Barcola 'A Minimum' As Martinez Is Confirmed (Football365 / Liverpool FC, 1d ago)",
-      detail:
-        "The recruitment noise sharpened this week. Reports now frame Bradley Barcola as a signing Liverpool 'will make as a minimum', the Reds confident near £100m and said to lead Arsenal and Bayern, with FSG briefed as ready to 'spend big' on the rebuild. Beneath the marquee chase the club confirmed their third arrival of the summer: Samuel Martinez, a 17-year-old Colombian attacking midfielder bought from Atletico Nacional for around £750,000, fended off Bayern, Dortmund and Barcelona, and set to formally join in 2027. One statement target, one long-horizon gem, both threads of the same summer plan.",
+        "The reunion Iraola wants has not gone away. Bournemouth continue to bat back interest in Alex Scott, having rejected a new contract with a release clause and turned down Chelsea's reported £85.6m without naming their own figure. Liverpool watch alongside Chelsea, United and Arsenal, holding the card the others lack in Iraola, who coached the 22-year-old on the south coast. A summer that has banked Samuel Martinez and little else at first-team level still needs a midfielder, and this is the name the manager keeps returning to.",
       category: "transfers",
     },
     {
-      title: "The Frustration Is The Window: Supporters Vent Amid A Quiet July (Sports Mole / Empire of the Kop, today)",
+      title: "Chiesa Answers His Own Question With A Goal In Nashville (Football Italia / TeamTalk, 2d ago)",
       detail:
-        "A winning start has not quieted the mood. With the tour under way and only Martinez, a goalkeeper deal and academy business banked so far, supporters have grown vocal on Sunday about the pace of first-team recruitment, a winger and a centre-back still unresolved with a month until Newcastle. The club's line is patience, that talks on Barcola and others are live and the money is there. But a treatment room three deep and a back line down to one fit senior centre-back have turned 'soon' into an anxious word around the Kop.",
-      category: "transfers",
-    },
-    {
-      title: "The Scott Reunion Simmers After Chelsea's £85.6m Is Rejected (Liverpool.com / TEAMtalk, 1d ago)",
-      detail:
-        "Midfield stays a live front. Bournemouth this week rejected a fresh contract with a release clause for Alex Scott, then turned down a Chelsea bid reported at £85.6m and declined to place a valuation on him. Liverpool watch alongside United and Arsenal, holding the one card the others lack: Iraola coached the England-tipped 22-year-old on the south coast and is said to want the reunion. The Cherries' answer to all of them is a flat sentence, but rejected new deals have a way of softening flat sentences before deadline day.",
-      category: "transfers",
-    },
-    {
-      title: "The Returning Trio Near: Isak, Wirtz And Gravenberch Due On Tour (Empire of the Kop, 1d ago)",
-      detail:
-        "The senior spine keeps arriving in instalments. Alexander Isak, Florian Wirtz and Ryan Gravenberch, all knocked out of the World Cup at the round of 32, are reported due into the American camp in the coming days, too late for Sunderland but in the frame for Wrexham and Leeds. Alexis Mac Allister and Victor Munoz, whose nations reached the final in New Jersey, are not expected back until mid-August, while Alisson, Van Dijk and Gakpo train at the AXA Centre with their minutes saved for the Anfield friendlies.",
-      category: "injuries",
-    },
-    {
-      title: "Salah-Besiktas Edges Toward Terms (Goal / FootballTransfers, 2d ago)",
-      detail:
-        "The long farewell inched on. Reporting late this week had Salah's agent Ramy Abbas softening his commission demand toward the figure Besiktas president Serdal Adali had offered, a movement described as a breakthrough after a public standoff. The framework on the table is a single guaranteed year worth around €10m plus bonuses, with an option to extend, though the Turkish side may hold their final meeting until after a Europa League qualifier. Seven weeks a free agent, the greatest player of Liverpool's modern era is nearer a destination than at any point since he left.",
-      category: "transfers",
-    },
-    {
-      title: "Nallo To Helsinki: Academy Movement Around The Edges (This Is Anfield, today)",
-      detail:
-        "Beneath the first-team headlines, the fringe keeps moving. Young defender Amara Nallo has joined HJK Helsinki on loan for regular senior minutes, one of the quieter pieces of summer housekeeping as Liverpool trim and develop the edges of the squad. It follows the through-line of the window, a club balancing the marquee pursuits at the top with the patient shaping of its youngest players, even as the fanbase's attention stays fixed on the wingers and centre-backs still unsigned.",
+        "A month after saying he would seek minutes elsewhere, Federico Chiesa came off the bench against Sunderland and scored, the neatest argument for the stay-and-fight stance he has taken under Iraola. Napoli and Roma remain parked for the tour, and the modest sale the summer's maths pencilled in looks less certain by the week. With the winger board unresolved above him, pre-season is the Italian's audition, and Saturday night was a strong opening line.",
       category: "general",
     },
   ],
   sources: [
-    "Sky Sports",
-    "Sports Mole",
-    "ESPN",
-    "Rousing the Kop",
-    "Liverpool.com",
-    "Football365",
-    "Liverpool FC",
-    "TEAMtalk",
-    "Empire of the Kop",
     "Goal",
-    "FootballTransfers",
+    "Turkiye Today",
+    "KingFut",
+    "Liverpool.com",
+    "L'Equipe",
+    "beIN Sports",
     "This Is Anfield",
+    "Liverpool FC",
+    "Sky Sports",
+    "Football365",
+    "FootballTransfers",
+    "ESPN",
+    "MLB.com",
+    "TEAMtalk",
+    "Football Italia",
   ],
 };
 // ─── Transfer Targets (2026 summer window) ─────────────────────────────────
@@ -606,9 +609,9 @@ export const NEWS_DIGEST = {
 // heatTier: "hot" (≥65%) | "warm" (40-64%) | "cool" (<40%) | "done" | "dead"
 // sources[].tier: "S" (Romano-class) | "A" (major outlet) | "B" (beat) | "C" (aggregator)
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-07-26T11:00:00Z",
+  generatedAt: "2026-07-27T11:00:00Z",
   summary:
-    "Sunday, and the ledger's loudest line is a promise. Reporting now frames Bradley Barcola as a signing Liverpool 'will make as a minimum', the Reds held confident near £100m and said to lead Arsenal and Bayern, with FSG briefed as ready to spend big on the rebuild. It sits beside the summer's third confirmed arrival, Samuel Martinez, a £750,000 seventeen-year-old from Atletico Nacional bound for the academy in 2027 after the club fended off Bayern, Dortmund and Barcelona. Behind the marquee chase the winger board holds, Akliouche (~£42.6m) the deliverable fallback and Minteh (~£70m) the third option, while in midfield Iraola's pursuit of Alex Scott simmers on after Bournemouth waved away Chelsea's £85.6m and refused a valuation; Adam Wharton stays the stated priority beyond £100m. On the way out the Salah move to Besiktas edged toward terms as agent Ramy Abbas softened his commission demand, Chiesa has played his way back into the plan with a goal in Nashville, and Joe Gomez, hurt inside eight minutes of the Sunderland win, looks likelier than ever to stay. Amara Nallo has gone to HJK Helsinki on loan.",
+    "Monday, and the ledger's loudest line has moved to the exit. Mohamed Salah's Besiktas switch reached terms in principle over the weekend, agent Ramy Abbas said to have accepted the commission that stalled it and president Serdal Adali awaiting a final yes, though a club statement rejecting one done-deal report keeps it short of signed. At the head of the incoming board the Barcola picture sharpened: the winger is reported to have ended his PSG contract talks while Paris set an eye-watering price near €170m (about £146m), and Liverpool still lead the framing even as Tottenham, City, Dortmund, Leverkusen and Chelsea circle. Behind him Akliouche (~£42.6m) is the deliverable fallback and Minteh (~£70m) the third option, while in midfield the board shifts, a late Diomande hijack weighed against RB Leipzig's €120m ask, Bouaddi drifting toward City, and Adam Wharton still the stated priority beyond £100m with Alex Scott the Iraola-flavoured alternative. Elsewhere Chiesa has played his way back into the plan with a Nashville goal, and Joe Gomez, hurt against Sunderland but now expected back for the final tour game, looks likelier than ever to stay.",
   incoming: [
     {
       id: "barcola-2026",
@@ -621,23 +624,23 @@ export const TRANSFER_TARGETS = {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Barcola_asse_psg_2425.png/330px-Barcola_asse_psg_2425.png",
       currentClub: "Paris Saint-Germain",
       currentLeague: "Ligue 1",
-      feeMin: 90, feeMax: 128, feeCurrency: "£m",
+      feeMin: 90, feeMax: 146, feeCurrency: "£m",
       marketValue: 100,
       wageBand: "A",
       contractExpiry: "2028-06-30",
       releaseClause: null,
-      contractNote: "Contracted to PSG until 2028, the France international is the club's No. 29 and their marquee saleable asset. PSG value him around £128m, benchmarked above the £116m Manchester City paid for Elliot Anderson, and Liverpool's £85m opening bid was rejected. Reporting now has the mood flipped, the Reds confident of a deal with the fee expected to settle near £100m. He is represented by Gestifute, the Mendes agency Liverpool have long dealt with.",
+      contractNote: "Contracted to PSG until 2028, the France international is the club's No. 29 and their marquee saleable asset. L'Equipe report he has told Paris he will not sign a new deal, wanting the regular minutes a crowded front line cannot promise, which tilts the situation toward a sale. PSG, reluctant, have set his value near €170m (about £146m), benchmarked above the £116m Manchester City paid for Elliot Anderson. He is represented by Gestifute, the Mendes agency Liverpool have long dealt with.",
       probability: 62,
       heatTier: "warm",
       sources: [
-        { name: "Football365",        tier: "B" },
+        { name: "L'Equipe",           tier: "A" },
         { name: "Liverpool.com",      tier: "B" },
-        { name: "Sky Sports",         tier: "A" },
+        { name: "Ben Jacobs",         tier: "A" },
         { name: "David Ornstein",     tier: "S" },
       ],
-      lastUpdated: "2026-07-26",
+      lastUpdated: "2026-07-27",
       rumorNote:
-        "Parc des Princes · 26 Jul — from pursuit to promise. What was a fortnight ago a rejected £85m bid is now, in the latest reporting, a signing Liverpool intend to make 'as a minimum', the mood turned to confidence with FSG briefed as ready to spend big and the Reds said to lead Arsenal and Bayern. The fee is expected to build toward roughly £100m against PSG's £128m ask. It is the statement end of the rebuild, twenty-three, left-footed, quick and direct, the first-choice right winger the accounts strained to justify and the ambition would not let go. Land it and Akliouche becomes the plan that was not needed; stall again on price and the fallbacks stay warm beneath it.",
+        "Parc des Princes · 27 Jul — the player takes a step; the price does not move. Barcola is now reported to have ended his contract talks with PSG, unwilling to commit to a bench role, and that stance hands the initiative to his suitors. The problem shifts cleanly onto the fee: Paris will sell only at a premium set near €170m (about £146m), and Tottenham, City, Dortmund, Leverkusen and Chelsea have all made their calls. Liverpool still speak of him as the statement of the window, twenty-three, left-footed, quick and direct, the first-choice right winger the ambition would not let go. Land him and Akliouche becomes the plan that was not needed; balk at the number and the fallbacks stay warm beneath.",
       positionFit: {
         replaces: "Salah (departed, free agent)",
         competesWith: ["Akliouche (deliverable fallback)", "Gakpo", "Ngumoha"],
@@ -672,9 +675,9 @@ export const TRANSFER_TARGETS = {
         { name: "This Is Anfield",  tier: "A" },
         { name: "Yahoo Sports",     tier: "B" },
       ],
-      lastUpdated: "2026-07-26",
+      lastUpdated: "2026-07-27",
       rumorNote:
-        "Stade Louis II · 26 Jul — still the insurance policy. With Barcola now framed as the signing Liverpool will make 'as a minimum', Akliouche settles further into the role of deliverable fallback: the approach to Monaco stands, availability checked and a valuation near £42.6m the accounts can comfortably carry. He remains the heir the club could close before deadline day, seven goals and ten assists in 43 games last season, right-sided and direct, with PSG's own interest around £34m keeping a floor under the price. If the statement signing stalls on price, this is the one that gets done.",
+        "Stade Louis II · 27 Jul — still the insurance policy. With the Barcola pursuit sharpening, the PSG winger reported to have ended his contract talks in Paris against a steep €170m ask, Akliouche settles further into the role of deliverable fallback: the approach to Monaco stands, availability checked and a valuation near £42.6m the accounts can comfortably carry. He remains the heir the club could close before deadline day, seven goals and ten assists in 43 games last season, right-sided and direct, with PSG's own interest around £34m keeping a floor under the price. If the statement signing stalls on price, this is the one that gets done.",
       positionFit: {
         replaces: "Salah (departed, free agent)",
         competesWith: ["Barcola (primary target)", "Minteh", "Ngumoha"],
@@ -1225,17 +1228,17 @@ export const TRANSFER_TARGETS = {
       wageBand: "C",
       contractExpiry: "2029-06-30",
       releaseClause: null,
-      contractNote: "An extension signed in December 2025 to June 2029 hands Lille the leverage; they want around €70m, and the player's preference now tilts to PSG.",
-      probability: 28,
+      contractNote: "An extension signed in December 2025 to June 2029 hands Lille the leverage; they want around €70m, and the momentum has swung to Manchester City, said to have made the running.",
+      probability: 12,
       heatTier: "cool",
       sources: [
+        { name: "FootballTransfers", tier: "B" },
         { name: "Liverpool.com",    tier: "B" },
-        { name: "GiveMeSport",      tier: "B" },
         { name: "This Is Anfield",  tier: "A" },
       ],
-      lastUpdated: "2026-06-17",
+      lastUpdated: "2026-07-27",
       rumorNote:
-        "Lille · 17 Jun — the head turns to Paris. A day after Liverpool gatecrashed the race, the reporting cooled: the 18-year-old Morocco international is now said to prefer a move to PSG, with Liverpool and Arsenal still in a three-way scramble for a player Lille will not sell below around €70m. The Reds had stepped into direct contact after the Gunners' ~£60m bid was rebuffed, and the talent is not in doubt after he bossed midfield as Morocco held Brazil, but a player's preference is the heaviest currency in any window, and on this one it has drifted across the Channel.",
+        "Lille · 27 Jul — the race drifts to the champions' rivals. What was a three-way scramble now reads as City's to lose: the 18-year-old Morocco international is reported to be edging toward Manchester City, who are said to have made significant progress in talks, leaving Liverpool's long-standing interest looking increasingly like a lost cause. Lille still want around €70m off the back of the 2029 extension. The talent was never the doubt after he bossed a midfield against Brazil; the doubt was always whether Liverpool could win a preference, and on this one it has drifted to the Etihad.",
       positionFit: {
         replaces: "Endo (defensive midfield)",
         competesWith: ["Gravenberch", "Mac Allister"],
@@ -1927,12 +1930,12 @@ export const TRANSFER_TARGETS = {
       id: "salah-out",
       name: "Mohamed Salah",
       position: "FWD",
-      destination: "Free agent (Besiktas unveiling briefed, and denied by Besiktas)",
+      destination: "Free agent → Besiktas (terms agreed in principle; club denied one done-deal report)",
       feeAsk: { min: 0, max: 0, currency: "€" },
       probability: 100,
       heatTier: "done",
-      sources: [{ name: "Turkiye Today", tier: "B" }, { name: "TribalFootball", tier: "B" }, { name: "FootballTransfers", tier: "B" }, { name: "Liverpool.com", tier: "B" }],
-      note: "Sat 25 Jul — the standoff becomes a negotiation. For weeks the blockage was money off the top, a €7.5m commission his agent Ramy Abbas wanted and Besiktas president Serdal Adali would not meet. Reporting late this week has Abbas softening toward the club's figure, the kind of quiet concession that turns a deadlock into detail: a single guaranteed year worth around €10m plus bonuses, with an option to extend. Nothing is signed, and Besiktas may wait until after a Europa League qualifier for the last meeting, but the framing has turned from denial to advance. MLS and Saudi money stay in the wings. A free agent since June 30, seven weeks on, and nearer a destination than at any point since he left."
+      sources: [{ name: "Goal", tier: "B" }, { name: "Turkiye Today", tier: "B" }, { name: "KingFut", tier: "C" }, { name: "FootballTransfers", tier: "B" }],
+      note: "Mon 27 Jul — a signature from the door. The blockage was always money off the top, a commission his agent Ramy Abbas wanted and Besiktas president Serdal Adali would not exceed; over the weekend Abbas is reported to have accepted the club's condition, Adali has put a final offer to Salah and asked for a quick answer, and a former Besiktas midfielder said publicly the deal is done and will be announced soon. The framework is two years near €10m a season plus bonuses. One caveat keeps it short of settled: Besiktas issued a statement rejecting one report that a contract had been signed, so this is agreement in principle, not ink. MLS and Saudi money stay in the wings. A free agent since June 30, and nearer his next club than at any point since he left Anfield."
     },
     {
       id: "gomez-out",
@@ -1943,7 +1946,7 @@ export const TRANSFER_TARGETS = {
       probability: 39,
       heatTier: "cool",
       sources: [{ name: "Football365", tier: "B" }, { name: "Sportskeeda", tier: "C" }],
-      note: "Sun 26 Jul — a sale looks further away than ever. Hurt inside eight minutes of the Sunderland win with a muscle problem Iraola called 'the worst news', the longest-serving defender was already reported likelier to run his deal toward a 2027 free than to leave, and an injury in a back line down to Jacquet only hardens the case to keep him. The Serie A interest that was canvassed feels academic now; useful cover has become necessary cover.",
+      note: "Mon 27 Jul — the exit recedes further still. Hurt inside eight minutes of the Sunderland win, the longest-serving defender was already reported likelier to run his deal toward a 2027 free than to leave; now Iraola says the muscle problem is milder than feared and expects him back for the final tour game, and in a back line down to Jacquet a fit Gomez is a need, not a surplus. The Serie A interest that was canvassed feels academic; useful cover has become necessary cover.",
     },
     {
       id: "chiesa-out",

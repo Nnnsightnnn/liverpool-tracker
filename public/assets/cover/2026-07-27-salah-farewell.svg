@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Editorial plate: a lone figure at the mouth of a floodlit tunnel, walking away from a darkened pitch toward a doorway of warm light, a farewell at the end of an era">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0e14"/>
+      <stop offset="52%" stop-color="#141d29"/>
+      <stop offset="100%" stop-color="#241a16"/>
+    </linearGradient>
+    <radialGradient id="flood" cx="0.5" cy="0.14" r="0.66">
+      <stop offset="0%" stop-color="#e7eeff" stop-opacity="0.72"/>
+      <stop offset="36%" stop-color="#c6d3ec" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#c6d3ec" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pitch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#223c2c"/>
+      <stop offset="100%" stop-color="#0c150f"/>
+    </linearGradient>
+    <radialGradient id="doorway" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#ffdca0" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#e79a3f" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#e79a3f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.46" r="0.78">
+      <stop offset="58%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.5"/>
+    </radialGradient>
+  </defs>
+
+  <!-- night sky over the bowl -->
+  <rect x="0" y="0" width="1600" height="900" fill="url(#sky)"/>
+
+  <!-- far grandstand, a dark mass flecked with faint light -->
+  <rect x="0" y="150" width="1600" height="300" fill="#0c131b"/>
+  <g fill="#33425a" opacity="0.45">
+    <rect x="90" y="250" width="1420" height="2"/>
+    <rect x="120" y="300" width="1360" height="2"/>
+    <rect x="150" y="350" width="1300" height="2"/>
+  </g>
+
+  <!-- floodlight glow banks across the top, dimmed for a last night -->
+  <ellipse cx="800" cy="110" rx="900" ry="250" fill="url(#flood)"/>
+  <g fill="#e7eeff" opacity="0.72">
+    <rect x="300" y="70" width="120" height="10" rx="3"/>
+    <rect x="740" y="52" width="120" height="10" rx="3"/>
+    <rect x="1180" y="70" width="120" height="10" rx="3"/>
+  </g>
+
+  <!-- the pitch, tilting up out of the dark -->
+  <path d="M0 470 L1600 470 L1600 900 L0 900 Z" fill="url(#pitch)"/>
+  <g opacity="0.12" fill="#eaf3ea">
+    <path d="M0 560 L1600 560 L1600 610 L0 610 Z"/>
+    <path d="M0 690 L1600 690 L1600 760 L0 760 Z"/>
+  </g>
+  <rect x="0" y="512" width="1600" height="3" fill="#dfe8df" opacity="0.26"/>
+
+  <!-- the tunnel mouth, right of centre, a doorway of warm light he walks toward -->
+  <rect x="1120" y="360" width="230" height="300" rx="10" fill="#05080b"/>
+  <rect x="1150" y="392" width="170" height="240" rx="8" fill="url(#doorway)"/>
+  <rect x="1150" y="392" width="170" height="240" rx="8" fill="#ffdca0" opacity="0.14"/>
+  <!-- warm light spilling out across the turf toward the figure -->
+  <path d="M1150 632 L1320 632 L1520 900 L900 900 Z" fill="url(#doorway)" opacity="0.5"/>
+
+  <!-- the lone figure, mid-pitch, walking away toward the light, back to us -->
+  <g transform="translate(720 512)" opacity="0.97">
+    <ellipse cx="0" cy="118" rx="46" ry="9" fill="#000" opacity="0.5"/>
+    <!-- long shadow thrown back across the turf away from the doorway -->
+    <path d="M-14 112 L-360 150 L-320 172 L18 124 Z" fill="#000" opacity="0.28"/>
+    <g fill="#0a0f0c">
+      <rect x="-16" y="-6" width="34" height="86" rx="12"/>
+      <circle cx="1" cy="-24" r="17"/>
+      <rect x="-18" y="66" width="14" height="52" rx="6"/>
+      <rect x="6" y="66" width="14" height="52" rx="6"/>
+      <rect x="-30" y="4" width="14" height="50" rx="6" transform="rotate(10 -30 4)"/>
+      <rect x="18" y="4" width="14" height="50" rx="6" transform="rotate(-10 18 4)"/>
+    </g>
+    <!-- a single thread of red, the shirt, the only colour left on him -->
+    <rect x="-16" y="-6" width="34" height="40" rx="12" fill="#c8102e" opacity="0.9"/>
+  </g>
+
+  <!-- a warmth of the goodbye rising from the tunnel across the frame -->
+  <rect x="0" y="200" width="1600" height="700" fill="url(#doorway)" opacity="0.12"/>
+
+  <!-- faint vignette -->
+  <rect x="0" y="0" width="1600" height="900" fill="#000" opacity="0.10"/>
+  <rect x="0" y="0" width="1600" height="900" fill="url(#vig)"/>
+</svg>
