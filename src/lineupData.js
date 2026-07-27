@@ -23,16 +23,15 @@ export const FORMATIONS = {
     // fifth. This is not a matchday prediction but a SNAPSHOT of the XI that
     // closed the campaign, adjusted for the summer exits (Kerkez, Jacquet and
     // Ngumoha step in for Robertson, Konate and Salah). 4-3-3 is the backup
-    // look. Refreshed Tue Jul 21: the squad is settled at its Chicago base, 31
-    // players including eleven from the academy, with Munoz and Mac Allister
-    // missing the tour entirely after the World Cup final; Ekitike, Leoni and
-    // Bradley travelled purely for rehabilitation and play no part, leaving
-    // Frimpong the only fit recognised right back and Jacquet the only senior
-    // centre-back; Inter's third bid for Jones was rejected and Iraola says he
-    // hopes to keep him; Salah is still a free agent, Besiktas calling the
-    // agent's demands astronomical; and the Barcola pursuit has revived, the
-    // club now confident of a deal near £100m ahead of Arsenal and Bayern, with
-    // Akliouche (~£42.6m) the fallback and Minteh the third option behind.
+    // look. Refreshed Mon Jul 27: the squad is on the US tour after opening with
+    // a 4-2 win over Sunderland, with Munoz and Mac Allister missing the tour
+    // entirely after the World Cup final; Ekitike, Leoni and Bradley take no
+    // part (rehab only), leaving Frimpong the only fit recognised right back and
+    // Jacquet the only senior centre-back until Van Dijk joins up; Inter's third
+    // bid for Jones was rejected and Iraola hopes to keep him; Salah's Besiktas
+    // move has reached terms in principle; and Barcola has ended his PSG
+    // contract talks against a Paris ask near €170m (~£146m), with Akliouche
+    // (~£42.6m) the fallback and Minteh the third option behind.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -66,14 +65,14 @@ export const FORMATIONS = {
     // The 2025-26 season is COMPLETE. This 4-2-3-1, the shape Slot favoured
     // through the run-in, is shown as the first-choice XI Liverpool finished the
     // campaign with (adjusted for the summer exits), NOT as a prediction for a
-    // coming fixture (next up is a pre-season friendly on July 25). Refreshed
-    // Tue Jul 21: Munoz and Mac Allister miss the tour entirely after the World
-    // Cup final; the squad is through its first full day at the Chicago base;
+    // coming fixture (next up is Wrexham at Yankee Stadium on July 29). Refreshed
+    // Mon Jul 27: Munoz and Mac Allister miss the tour entirely after the World
+    // Cup final; the squad opened the tour with a 4-2 win over Sunderland;
     // Ekitike, Leoni and Bradley travelled for rehabilitation only and take no
-    // part; the winger board has swung back to the top, Liverpool now confident
-    // of a Barcola deal near £100m ahead of Arsenal and Bayern after the £85m
-    // bid, with Akliouche (~£42.6m) the fallback and Minteh at around £70m the
-    // third option; Jacquet the only senior CB fit until Van Dijk joins up.
+    // part; the winger board still leads with Barcola, who has ended his PSG
+    // contract talks against a Paris ask near €170m (~£146m), with Akliouche
+    // (~£42.6m) the fallback and Minteh at around £70m the third option; Jacquet
+    // the only senior CB fit until Van Dijk joins up.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -128,16 +127,16 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-07-22
-// (Wed: Iraola's first pre-season briefing confirms Isak, Wirtz and Gravenberch
-// rejoin the tour in the coming days, missing Sunderland but in for Wrexham and
-// Leeds, while Alisson, Van Dijk and Gakpo stay in Europe and link up later, and
-// Munoz and Mac Allister miss the tour entirely; Liverpool confirmed the £750k
-// signing of 17-year-old Samuel Martinez for 2027; the Barcola pursuit has since
-// revived, Liverpool confident of a deal near £100m ahead of Arsenal and Bayern; Inter's
-// third bid for Jones was rejected; Salah remains a free agent, Besiktas calling
-// the agent's demands astronomical; Ekitike, Leoni, Bradley, plus Endo and
-// Bajcetic travelled to build fitness and play no part, Leoni furthest advanced.)
+// Hand-curated from RESULTS array + injuryNote context as of 2026-07-27
+// (Mon: Isak, Wirtz and Gravenberch have landed in the US and trained on Sunday,
+// missing Sunderland but in for Wrexham and Leeds, while Alisson, Van Dijk and
+// Gakpo stay in Europe and link up later, and Munoz and Mac Allister miss the
+// tour entirely; Liverpool confirmed the £750k signing of 17-year-old Samuel
+// Martinez for 2027; Barcola has ended his PSG contract talks against a Paris
+// ask near €170m (~£146m); Inter's third bid for Jones was rejected; Salah's
+// Besiktas move has reached terms in principle; Gomez's muscle injury is milder
+// than feared, expected back for the final tour game; Ekitike, Leoni and Bradley
+// play no part, Leoni furthest advanced.)
 export const PLAYER_EVIDENCE = {
   1:  "On break · joins the tour later",          // Alisson
   2:  "Played vs Sunderland · leads GK group",    // Mamardashvili
@@ -166,10 +165,10 @@ export const PLAYER_EVIDENCE = {
   28: "World champion · back for Como, Aug 16",   // Munoz
 };
 
-// Default formation when entering the view — the 4-2-3-1 Slot favoured through
+// Default formation when entering the view: the 4-2-3-1 Slot favoured through
 // the run-in, shown as the first-choice XI Liverpool finished the 2025-26
-// season with (the campaign is over; next up is a pre-season friendly on July
-// 25). It is a squad baseline, not a matchday prediction.
+// season with (the campaign is over; next up is Wrexham at Yankee Stadium on
+// July 29). It is a squad baseline, not a matchday prediction.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────────────────────
