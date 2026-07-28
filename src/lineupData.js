@@ -176,10 +176,10 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // occupant remains a first-choice starter into 2026-27 — LOW where the player
 // has left (Salah, Robertson, Konate) or whose future is open (Mac Allister).
 // (Refreshed Mon Jul 27: Barcola has reportedly ended his PSG contract talks while
-// Paris set a price near €170m (~£146m); Liverpool still lead the framing. Inter's
-// third bid for Curtis Jones was rejected and Liverpool are drawing up fresh terms.
-// Salah's Besiktas move has reached terms in principle. Isak, Wirtz and Gravenberch
-// have landed in the States and trained on Sunday, in the frame for Wrexham.)
+// Liverpool have lodged a ~£102.6m opening bid for Barcola (PSG want ~£148m) after
+// agreeing personal terms, with the fallback Akliouche now steering to PSG himself.
+// Salah's Besiktas move is braced for announcement. Isak, Wirtz and Gravenberch are
+// eased in on the US tour, fully with the group only in its second week.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · turned down Juventus · staying as No. 1
   LB:  "Low",    // Robertson gone free to Spurs · Kerkez inherits, back day one

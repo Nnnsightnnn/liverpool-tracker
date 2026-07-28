@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Editorial plate: a lone red-shirted winger sprinting along a floodlit touchline toward a bright arc of light, poised and arriving, the pursuit of a summer condensed into one stride">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0c1119"/>
+      <stop offset="55%" stop-color="#182432"/>
+      <stop offset="100%" stop-color="#2a1c1a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.40" r="0.60">
+      <stop offset="0%" stop-color="#f6e2ac" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#e9b25e" stop-opacity="0.36"/>
+      <stop offset="100%" stop-color="#e9b25e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pitch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#274430"/>
+      <stop offset="100%" stop-color="#101d14"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6e2ac" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#f6e2ac" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="scrim" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0d12" stop-opacity="0.60"/>
+      <stop offset="40%" stop-color="#0a0d12" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0a0d12" stop-opacity="0.54"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky)"/>
+
+  <!-- the dark far stand -->
+  <rect x="0" y="150" width="1600" height="352" fill="#131b26" opacity="0.86"/>
+
+  <!-- the bright arc of light he is running toward: the destination, still ahead -->
+  <ellipse cx="1180" cy="360" rx="360" ry="300" fill="url(#glow)"/>
+
+  <!-- floodlight beams raking down -->
+  <polygon points="1120,150 1240,150 1360,502 1000,502" fill="url(#beam)"/>
+
+  <!-- the pitch -->
+  <polygon points="0,502 1600,502 1600,900 0,900" fill="url(#pitch)"/>
+  <g opacity="0.10" fill="#3e6b47">
+    <polygon points="120,502 300,502 70,900 -260,900"/>
+    <polygon points="520,502 700,502 690,900 320,900"/>
+    <polygon points="920,502 1100,502 1250,900 780,900"/>
+    <polygon points="1320,502 1500,502 1860,900 1360,900"/>
+  </g>
+
+  <!-- the touchline he attacks along -->
+  <polygon points="120,560 1470,470 1478,486 128,582" fill="#d7e2d8" opacity="0.16"/>
+
+  <!-- a single red-shirted winger, sprinting toward the light, mid-stride -->
+  <g opacity="0.96">
+    <ellipse cx="690" cy="760" rx="66" ry="11" fill="#000" opacity="0.34"/>
+    <!-- lean-forward torso in deep red, driving legs -->
+    <path d="M690 648
+             c-12 0 -20 9 -19 22
+             c1 11 6 17 4 27
+             l-16 42 c-3 9 10 14 14 5 l14 -34 8 3 -2 40
+             c0 10 14 10 15 0 l4 -46 c1 -10 8 -17 6 -28
+             c-2 -13 -10 -21 -22 -21 z" fill="#c8102e"/>
+    <!-- trailing arm and forward lean -->
+    <path d="M700 668 l30 -14 c8 -4 13 8 5 12 l-30 15 z" fill="#c8102e"/>
+    <circle cx="686" cy="628" r="12" fill="#0b0e13"/>
+    <!-- his shadow thrown back, away from the light he chases -->
+    <path d="M690 760 L470 792 L508 806 L712 772 Z" fill="#000" opacity="0.20"/>
+  </g>
+
+  <rect width="1600" height="900" fill="url(#scrim)"/>
+</svg>

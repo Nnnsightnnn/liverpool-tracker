@@ -351,22 +351,22 @@ export const TEAM_LOGOS = {
 //     and repoints `src` + `credit` + `generatedAt` at it.
 // `focus` is the one-line "most important focus of the latest edition."
 export const COVER_IMAGE = {
-  src: "/assets/cover/2026-07-27-salah-farewell.svg",
-  alt: "A lone figure in a fading red shirt walks away across a darkened floodlit pitch toward a warm doorway of light at the mouth of the tunnel, a long shadow thrown back behind him, a farewell at the end of an era.",
-  focus: "The longest goodbye, a signature from over",
+  src: "/assets/cover/2026-07-28-barcola-bid.svg",
+  alt: "A lone winger in a deep-red shirt sprints along a floodlit touchline toward a bright arc of light still ahead of him, poised and arriving, the pursuit of a summer condensed into a single stride.",
+  focus: "The chase becomes an offer",
   credit: "Editorial plate · auto-generated",
-  generatedAt: "2026-07-27T11:00:00Z",
+  generatedAt: "2026-07-28T11:00:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
   brief: {
     leadStory:
-      "Mohamed Salah's move to Besiktas reached terms in principle, his agent said to have accepted the club's condition and a final offer awaiting his yes, though Besiktas pushed back on one report calling the deal done.",
+      "Liverpool agreed personal terms with Bradley Barcola and lodged an opening bid near £102.6m, waiting on Paris Saint-Germain, who value the winger closer to £148m.",
     subject:
-      "A lone footballer in a fading red shirt walking away across a darkened floodlit pitch toward the warm light of the tunnel, seen from behind, a long shadow trailing him",
+      "A single red-shirted winger sprinting along a floodlit stadium touchline toward a bright glow of light ahead of him, seen side-on, mid-stride, arriving",
     prompt:
-      "Cinematic editorial photograph, night, a vast empty floodlit stadium after the crowd has gone, a green pitch tilting up out of the dark, a single player in a deep-red shirt walking away from the camera toward the warm glowing mouth of the players' tunnel, small in a wide frame, a long shadow thrown back across the turf away from the light, the cool white floodlights above dimmed, a mood of departure and quiet farewell, film grain, no on-image text, headroom at the top for a masthead headline",
+      "Cinematic editorial photograph, night, a vast floodlit stadium, a green pitch raking up out of the dark, a single player in a deep-red shirt sprinting along the touchline toward a bright warm glow of light ahead of him, seen side-on and mid-stride, small in a wide frame, cool white floodlights above, a long shadow thrown back behind him away from the light he chases, a mood of arrival and pursuit, film grain, no on-image text, headroom at the top for a masthead headline",
     aspectRatio: "landscape",
-    slug: "salah-farewell",
-    generatedAt: "2026-07-27T11:00:00Z",
+    slug: "barcola-bid",
+    generatedAt: "2026-07-28T11:00:00Z",
   },
 };
 
