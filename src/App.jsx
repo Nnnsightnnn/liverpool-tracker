@@ -385,13 +385,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, and the longest goodbye is nearly over. Reporting from
-          Istanbul has Mohamed Salah's move to Besiktas at terms in principle,
-          an announcement braced for even as the Turkish club deny one report
-          calling it done. At home the winger board sharpened, Bradley Barcola
-          ending his PSG talks as Paris named a price near a hundred and
-          forty-six million, and Joe Gomez, hurt on Saturday, is not as badly
-          injured as feared. Fifth last May and rebuilding on every line, the
+          Tuesday, and the chase becomes an offer. Liverpool have agreed
+          personal terms with Bradley Barcola and lodged an opening bid near a
+          hundred and two million, waiting now on a Paris valuation closer to a
+          hundred and forty-eight. Behind him the fallback thins, Akliouche
+          steering toward Paris himself and Salah's Besiktas farewell braced for
+          its announcement. Fifth last May and rebuilding on every line, the
           Reds meet Wrexham at Yankee Stadium on Wednesday.
         </p>
 
@@ -421,35 +420,33 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and the summer's longest goodbye is a signature from over.
-              Reporting out of Istanbul has <em>Mohamed Salah</em>'s move to
-              Besiktas at terms in principle, his agent said to have accepted the
-              last condition and the club awaiting a final yes, though Besiktas
-              themselves pushed back on one report that called it done. The
-              greatest forward of the modern Anfield is a name away from a new
-              one. On the incoming board <em>Bradley Barcola</em> took his own
-              step, ending his contract talks in Paris while PSG set a price near
-              a hundred and forty-six million, the desire settled and only the fee
-              to argue. The pitch news softened: <em>Joe Gomez</em>, off inside
-              eight minutes on Saturday, is milder than feared and should feature
-              before the tour ends, while <em>Isak</em>, <em>Wirtz</em> and{" "}
-              <em>Gravenberch</em> have landed and trained, the spine reassembling
-              at last. Wrexham comes at Yankee Stadium on Wednesday; the league
-              opens at Newcastle on the twenty-third of August. A club saying
-              goodbye and hello in the same breath.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and the winger the club has chased all summer is finally a bid, not
+              a wish. Reporting on Tuesday has Liverpool agreeing personal terms
+              with <em>Bradley Barcola</em> and lodging an opening package near a
+              hundred and two million, the wait now on Paris Saint-Germain, who
+              want closer to a hundred and forty-eight. The desire, on both sides,
+              is settled; the fee is the whole argument. Beneath him the board
+              thins, <em>Maghnes Akliouche</em> steering toward Paris himself, so
+              the marquee move is the plan that has to work rather than one of
+              two. The long goodbye nears its own end too, <em>Mohamed Salah</em>'s
+              Besiktas switch braced for announcement once a late commission
+              wrangle clears. On the pitch the tour rolls to the Bronx, Wrexham at
+              Yankee Stadium on Wednesday, <em>Joe Gomez</em> unlikely and a
+              patched back line again. A club buying and bidding and saying
+              goodbye in the same breath.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings as they finished, and
-              five dispatches from the writers who never clock off. There is a
-              farewell in Istanbul a signature from done; a winger in Paris who
-              wants out; an injury that looked worse on Saturday than it reads
-              today; a spine flying in to reassemble; and a billionaire at the
-              door in Boston. Read them in order. The season opens at Newcastle on
-              the twenty-third of August, and the summer has not been quiet once.
+              five dispatches from the writers who never clock off. There is a bid
+              on a desk in Paris; a manager coming home to the Bronx; a teenager
+              auditioning in the middle; a farewell in Istanbul a paper away; and
+              a former captain moving once more. Read them in order. The season
+              opens at Newcastle on the twenty-third of August, and the summer has
+              not been quiet once.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3167,7 +3164,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A signature away from goodbye."
+        "The bid is in; now they wait."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
