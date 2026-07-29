@@ -351,22 +351,22 @@ export const TEAM_LOGOS = {
 //     and repoints `src` + `credit` + `generatedAt` at it.
 // `focus` is the one-line "most important focus of the latest edition."
 export const COVER_IMAGE = {
-  src: "/assets/cover/2026-07-28-barcola-bid.svg",
-  alt: "A lone winger in a deep-red shirt sprints along a floodlit touchline toward a bright arc of light still ahead of him, poised and arriving, the pursuit of a summer condensed into a single stride.",
-  focus: "The chase becomes an offer",
+  src: "/assets/cover/2026-07-29-bronx-night.svg",
+  alt: "Three figures in deep-red walk out of the dark into a bright arc of light in a floodlit stadium bowl at night, a first appearance under the lights, the new signings stepping into view.",
+  focus: "First minutes under the lights",
   credit: "Editorial plate · auto-generated",
-  generatedAt: "2026-07-28T11:00:00Z",
+  generatedAt: "2026-07-29T09:00:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
   brief: {
     leadStory:
-      "Liverpool agreed personal terms with Bradley Barcola and lodged an opening bid near £102.6m, waiting on Paris Saint-Germain, who value the winger closer to £148m.",
+      "Liverpool meet Wrexham at Yankee Stadium tonight, with Isak, Wirtz and Gravenberch in line for their first minutes under Andoni Iraola after post-World Cup breaks.",
     subject:
-      "A single red-shirted winger sprinting along a floodlit stadium touchline toward a bright glow of light ahead of him, seen side-on, mid-stride, arriving",
+      "Three red-shirted players walking out of the dark into a bright arc of floodlight on a stadium pitch at night, seen from the touchline, small in a wide frame, stepping into view",
     prompt:
-      "Cinematic editorial photograph, night, a vast floodlit stadium, a green pitch raking up out of the dark, a single player in a deep-red shirt sprinting along the touchline toward a bright warm glow of light ahead of him, seen side-on and mid-stride, small in a wide frame, cool white floodlights above, a long shadow thrown back behind him away from the light he chases, a mood of arrival and pursuit, film grain, no on-image text, headroom at the top for a masthead headline",
+      "Cinematic editorial photograph, night, a vast floodlit stadium bowl, a green pitch raking up out of the dark, three players in deep-red shirts walking side by side out of shadow into a bright warm arc of light on the near turf, seen from the touchline, small in a wide frame, cool white floodlights above and a Bronx-stadium tier behind, long shadows thrown back behind them, a mood of arrival and anticipation before kickoff, film grain, no on-image text, headroom at the top for a masthead headline",
     aspectRatio: "landscape",
-    slug: "barcola-bid",
-    generatedAt: "2026-07-28T11:00:00Z",
+    slug: "bronx-night",
+    generatedAt: "2026-07-29T09:00:00Z",
   },
 };
 

@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Editorial plate: a floodlit stadium bowl at night, three figures in deep-red walking out of the dark into a bright arc of light, a first appearance under the lights">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0e15"/>
+      <stop offset="44%" stop-color="#16222f"/>
+      <stop offset="100%" stop-color="#241a18"/>
+    </linearGradient>
+    <radialGradient id="flood" cx="0.5" cy="0.14" r="0.66">
+      <stop offset="0%" stop-color="#eef3ff" stop-opacity="0.9"/>
+      <stop offset="32%" stop-color="#cdd9f0" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#cdd9f0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pitch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#264430"/>
+      <stop offset="100%" stop-color="#0e1912"/>
+    </linearGradient>
+    <linearGradient id="spill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eef3ff" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#eef3ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="arc" cx="0.5" cy="0.42" r="0.5">
+      <stop offset="0%" stop-color="#f2e2c2" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#f2e2c2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- night sky over the bowl -->
+  <rect x="0" y="0" width="1600" height="900" fill="url(#sky)"/>
+
+  <!-- far grandstand tiers, a dark mass flecked with crowd light -->
+  <rect x="0" y="150" width="1600" height="310" fill="#0d141c"/>
+  <g fill="#3a4a60" opacity="0.5">
+    <rect x="80" y="248" width="1440" height="2"/>
+    <rect x="110" y="300" width="1380" height="2"/>
+    <rect x="140" y="352" width="1320" height="2"/>
+    <rect x="170" y="404" width="1260" height="2"/>
+  </g>
+
+  <!-- floodlight glow banks across the top -->
+  <ellipse cx="800" cy="112" rx="940" ry="270" fill="url(#flood)"/>
+  <g fill="#eef3ff" opacity="0.9">
+    <rect x="250" y="66" width="120" height="10" rx="3"/>
+    <rect x="620" y="50" width="120" height="10" rx="3"/>
+    <rect x="980" y="50" width="120" height="10" rx="3"/>
+    <rect x="1350" y="66" width="120" height="10" rx="3"/>
+  </g>
+
+  <!-- the pitch, tilting up out of the dark -->
+  <path d="M0 470 L1600 470 L1600 900 L0 900 Z" fill="url(#pitch)"/>
+  <!-- mown stripes -->
+  <g opacity="0.14" fill="#eaf3ea">
+    <path d="M0 560 L1600 560 L1600 612 L0 612 Z"/>
+    <path d="M0 700 L1600 700 L1600 772 L0 772 Z"/>
+  </g>
+  <!-- touchline -->
+  <rect x="0" y="512" width="1600" height="3" fill="#dfe8df" opacity="0.35"/>
+
+  <!-- a bright arc of light on the near turf, where they emerge -->
+  <ellipse cx="800" cy="540" rx="520" ry="150" fill="url(#arc)"/>
+  <!-- soft light spill washing down onto the near turf -->
+  <path d="M470 470 L1130 470 L1330 900 L270 900 Z" fill="url(#spill)"/>
+
+  <!-- three figures in deep-red walking out of the dark into the light -->
+  <g fill="#7a1420" opacity="0.96">
+    <!-- left figure, a half-step back -->
+    <g transform="translate(690 476)">
+      <ellipse cx="4" cy="60" rx="26" ry="6" fill="#000" opacity="0.45"/>
+      <rect x="-8" y="-42" width="16" height="42" rx="6"/>
+      <circle cx="0" cy="-50" r="8"/>
+    </g>
+    <!-- centre figure, leading -->
+    <g transform="translate(800 470)">
+      <ellipse cx="6" cy="66" rx="30" ry="7" fill="#000" opacity="0.5"/>
+      <rect x="-9" y="-46" width="18" height="46" rx="7"/>
+      <circle cx="0" cy="-55" r="9"/>
+    </g>
+    <!-- right figure, a half-step back -->
+    <g transform="translate(910 478)">
+      <ellipse cx="4" cy="58" rx="26" ry="6" fill="#000" opacity="0.45"/>
+      <rect x="-8" y="-41" width="16" height="41" rx="6"/>
+      <circle cx="0" cy="-49" r="8"/>
+    </g>
+  </g>
+  <!-- their long shadows thrown back, away from the light ahead -->
+  <g fill="#050807" opacity="0.36">
+    <path d="M690 536 L676 900 L722 900 L710 536 Z"/>
+    <path d="M800 536 L784 900 L836 900 L820 536 Z"/>
+    <path d="M910 536 L900 900 L944 900 L930 536 Z"/>
+  </g>
+
+  <!-- faint vignette -->
+  <rect x="0" y="0" width="1600" height="900" fill="#000" opacity="0.10"/>
+  <radialGradient id="vig" cx="0.5" cy="0.46" r="0.75">
+    <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000" stop-opacity="0.45"/>
+  </radialGradient>
+  <rect x="0" y="0" width="1600" height="900" fill="url(#vig)"/>
+</svg>
