@@ -385,12 +385,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday night, and the tour reaches its brightest room. Liverpool
-          meet Wrexham at Yankee Stadium, and the draw is the team sheet: Isak,
-          Wirtz and Gravenberch in line for their first minutes under Iraola.
-          Behind them the record bid grows, Barcola's package climbing toward a
-          hundred and twenty-eight million as Paris soften. Fifth last May, and
-          rebuilding on every line.
+          Thursday morning, and the tour has a second win: Liverpool beat
+          Wrexham one-nil in the Bronx, Ngumoha's switch to the right settling it
+          before forty-two thousand. Iraola holds Isak, Wirtz and Gravenberch
+          back once more, the trio saved for Leeds in Chicago on Sunday. Behind
+          the friendly a hundred-and-twenty-million bid for Barcola sits on
+          Paris's table. Fifth last May, and rebuilding on every line.
         </p>
 
         <StatStrip stats={stats} />
@@ -419,31 +419,34 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and the tour keeps its brightest night for its biggest room. Liverpool
-              meet Wrexham at Yankee Stadium, and the interest is not the opponent
-              but the team sheet: <em>Alexander Isak</em>, <em>Florian Wirtz</em> and{" "}
-              <em>Ryan Gravenberch</em>, back from the World Cup, in line for their
-              first minutes under Andoni Iraola. Behind the friendly the board keeps
-              moving. The <em>Bradley Barcola</em> package has grown toward a
-              British-record hundred and twenty-eight million as Paris, at last,
-              soften; <em>Adam Wharton</em> hardens into the midfield the manager
-              actually wants, Joao Gomes declined and gone to Villa. The goodbye,
-              for once, waits: <em>Mohamed Salah</em>'s Besiktas move has cooled, his
-              agent damping the certainty from Istanbul. And the back line thins
-              again, <em>Joe Gomez</em> ruled out, one of eight. A club building,
-              bidding, and holding its breath in the same week.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the tour has quietly won again. Liverpool beat Wrexham one-nil
+              under the Yankee Stadium lights, <em>Rio Ngumoha</em> moved to the
+              right and finding the only goal, back-to-back victories for Andoni
+              Iraola without a single World Cup returnee on the pitch.{" "}
+              <em>Alexander Isak</em>, <em>Florian Wirtz</em> and{" "}
+              <em>Ryan Gravenberch</em> watched a second time, held for the finale
+              against Leeds in Chicago on Sunday, the expensive parts eased in a
+              week late by a manager in no hurry. Behind the friendly the board
+              churns. Liverpool have lodged an official package near a hundred and
+              twenty million for <em>Bradley Barcola</em> as Paris hold firm;{" "}
+              <em>Adam Wharton</em>, eager and courted by Chelsea, stays the
+              midfield the coach actually wants. And the goodbye moves the wrong
+              way: <em>Mohamed Salah</em>'s Besiktas switch has been shelved,
+              snagged on rights and commission in Istanbul. A club winning small,
+              spending big, and still short a centre-back.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings as they finished, and
-              five dispatches from the writers who never clock off. There is a night
-              under the Bronx lights; a record offer growing teeth in Paris; eight
-              men down and a back line of teenagers; a word from Istanbul that
-              slows a goodbye; and the kind of midfielder a manager reveals by whom
-              he declines. Read them in order. The season opens at Newcastle on the
+              five dispatches from the writers who never clock off. There is a
+              one-nil under the Bronx lights and a teenager who keeps deciding
+              things; a manager's patience with his most expensive men; a Besiktas
+              file pushed onto a shelf in Istanbul; a hundred-and-twenty-million bid
+              finally on a table in Paris; and the centre-back vacancy nobody has
+              filled. Read them in order. The season opens at Newcastle on the
               twenty-third of August, and the summer has not been quiet once.
             </p>
           </div>
@@ -3162,7 +3165,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "First minutes, under Bronx lights."
+        "The teenager keeps deciding things."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
