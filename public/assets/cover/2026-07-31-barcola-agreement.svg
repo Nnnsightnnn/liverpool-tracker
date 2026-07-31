@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Editorial plate: a lone figure in deep red stands at the edge of a floodlit pitch at dusk, arms low, a long shadow thrown across the turf, a stadium tier rising behind under cool white light">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0e15"/>
+      <stop offset="44%" stop-color="#16232f"/>
+      <stop offset="100%" stop-color="#2b1a16"/>
+    </linearGradient>
+    <radialGradient id="flood" cx="0.5" cy="0.1" r="0.75">
+      <stop offset="0%" stop-color="#eef3ff" stop-opacity="0.9"/>
+      <stop offset="34%" stop-color="#cdd9f0" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#cdd9f0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pitch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#274731"/>
+      <stop offset="100%" stop-color="#0d1711"/>
+    </linearGradient>
+    <linearGradient id="spill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eef3ff" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#eef3ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#ffd9b0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffd9b0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tier" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d2a38"/>
+      <stop offset="100%" stop-color="#0c141d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- night sky -->
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#flood)"/>
+
+  <!-- distant stadium tier -->
+  <path d="M0 300 L1600 250 L1600 470 L0 500 Z" fill="url(#tier)"/>
+  <g fill="#e8eefc" opacity="0.10">
+    <rect x="0" y="315" width="1600" height="4"/>
+    <rect x="0" y="345" width="1600" height="4"/>
+    <rect x="0" y="378" width="1600" height="4"/>
+  </g>
+  <!-- floodlight pylons -->
+  <g fill="#dfe8fb" opacity="0.5">
+    <circle cx="300" cy="120" r="5"/><circle cx="330" cy="118" r="5"/><circle cx="360" cy="122" r="5"/>
+    <circle cx="1240" cy="110" r="5"/><circle cx="1270" cy="108" r="5"/><circle cx="1300" cy="112" r="5"/>
+  </g>
+
+  <!-- pitch raking up out of the dark -->
+  <path d="M0 470 L1600 440 L1600 900 L0 900 Z" fill="url(#pitch)"/>
+  <path d="M0 470 L1600 440 L1600 560 L0 610 Z" fill="url(#spill)"/>
+  <!-- faint pitch lines -->
+  <g stroke="#c9e3cf" stroke-width="2" opacity="0.14" fill="none">
+    <path d="M-100 640 L1700 590"/>
+    <path d="M760 470 L620 900"/>
+  </g>
+
+  <!-- warm halo behind the lone figure -->
+  <ellipse cx="820" cy="600" rx="260" ry="170" fill="url(#halo)"/>
+
+  <!-- long shadow across the turf -->
+  <path d="M820 690 L1180 760 L1150 792 L806 712 Z" fill="#05090c" opacity="0.5"/>
+
+  <!-- lone figure in deep red, standing, arms low: the new arrival -->
+  <g fill="#8f1420">
+    <ellipse cx="820" cy="690" rx="34" ry="10" fill="#05090c" opacity="0.55"/>
+    <!-- legs -->
+    <path d="M806 612 L800 690 L814 690 L820 616 Z"/>
+    <path d="M834 612 L840 690 L826 690 L820 616 Z"/>
+    <!-- torso -->
+    <path d="M796 540 Q820 528 844 540 L840 616 L800 616 Z"/>
+    <!-- arms low at sides -->
+    <path d="M797 548 L784 606 L792 608 L806 552 Z"/>
+    <path d="M843 548 L856 606 L848 608 L834 552 Z"/>
+    <!-- head -->
+    <circle cx="820" cy="520" r="16" fill="#7a1019"/>
+  </g>
+  <!-- rim light on the figure -->
+  <path d="M844 540 L840 616 L835 616 L840 542 Z" fill="#ffd9b0" opacity="0.45"/>
+  <circle cx="826" cy="514" r="16" fill="none" stroke="#ffe3c2" stroke-width="2" opacity="0.4"/>
+
+  <!-- top vignette for masthead headroom -->
+  <rect width="1600" height="320" fill="#070b11" opacity="0.34"/>
+  <!-- film grain suggestion -->
+  <rect width="1600" height="900" fill="#000000" opacity="0.05"/>
+</svg>

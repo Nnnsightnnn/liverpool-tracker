@@ -385,12 +385,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday morning, and the tour has a second win: Liverpool beat
-          Wrexham one-nil in the Bronx, Ngumoha's switch to the right settling it
-          before forty-two thousand. Iraola holds Isak, Wirtz and Gravenberch
-          back once more, the trio saved for Leeds in Chicago on Sunday. Behind
-          the friendly a hundred-and-twenty-million bid for Barcola sits on
-          Paris's table. Fifth last May, and rebuilding on every line.
+          Friday, and the marquee move has cleared its first hurdle: Bradley
+          Barcola has agreed personal terms with Liverpool, a record-class
+          hundred-and-three-million bid now with Paris. On the grass the tour
+          ends Sunday in Chicago, where Iraola at last lets Isak, Wirtz,
+          Gravenberch and Jacquet loose against Leeds. Fifth last May, and
+          rebuilding on every line.
         </p>
 
         <StatStrip stats={stats} />
@@ -419,22 +419,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and the tour has quietly won again. Liverpool beat Wrexham one-nil
-              under the Yankee Stadium lights, <em>Rio Ngumoha</em> moved to the
-              right and finding the only goal, back-to-back victories for Andoni
-              Iraola without a single World Cup returnee on the pitch.{" "}
-              <em>Alexander Isak</em>, <em>Florian Wirtz</em> and{" "}
-              <em>Ryan Gravenberch</em> watched a second time, held for the finale
-              against Leeds in Chicago on Sunday, the expensive parts eased in a
-              week late by a manager in no hurry. Behind the friendly the board
-              churns. Liverpool have lodged an official package near a hundred and
-              twenty million for <em>Bradley Barcola</em> as Paris hold firm;{" "}
-              <em>Adam Wharton</em>, eager and courted by Chelsea, stays the
-              midfield the coach actually wants. And the goodbye moves the wrong
-              way: <em>Mohamed Salah</em>'s Besiktas switch has been shelved,
-              snagged on rights and commission in Istanbul. A club winning small,
-              spending big, and still short a centre-back.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              and the player has said yes. <em>Bradley Barcola</em> has agreed
+              personal terms with Liverpool, a contract to 2032, and the club
+              have answered with a record-class opening bid worth around a hundred
+              and three million as Paris hold out near a hundred and eighty. On
+              the grass the American tour reaches its finale on Sunday, when Andoni
+              Iraola finally unleashes his World Cup men, <em>Alexander Isak</em>,{" "}
+              <em>Florian Wirtz</em>, <em>Ryan Gravenberch</em> and the twenty-year-old{" "}
+              <em>Jeremie Jacquet</em>, against Leeds at Soldier Field. Behind them
+              the board keeps turning. <em>Adam Wharton</em>'s midfield move has
+              cooled as Chelsea firm and talks open for Lille's{" "}
+              <em>Ayyoub Bouaddi</em>. And the goodbye edges toward an answer,{" "}
+              <em>Mohamed Salah</em>'s agent promising a decision very soon while
+              Besiktas cools and Saudi money waits. A club winning small, spending
+              big, and still a centre-back short.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -442,12 +441,12 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              one-nil under the Bronx lights and a teenager who keeps deciding
-              things; a manager's patience with his most expensive men; a Besiktas
-              file pushed onto a shelf in Istanbul; a hundred-and-twenty-million bid
-              finally on a table in Paris; and the centre-back vacancy nobody has
-              filled. Read them in order. The season opens at Newcastle on the
-              twenty-third of August, and the summer has not been quiet once.
+              marquee winger who has finally said yes; the expensive parts
+              unleashed at last in Chicago on Sunday; a farewell edging toward its
+              answer; a defined home, behind the striker, for a
+              hundred-and-fifteen-million playmaker; and the centre-back vacancy
+              nobody has filled. Read them in order. The season opens at Newcastle
+              on the twenty-third of August, and the summer has not been quiet once.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3165,7 +3164,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The teenager keeps deciding things."
+        "The man is Liverpool's; the price is Paris's."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
