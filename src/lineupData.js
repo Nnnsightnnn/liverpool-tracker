@@ -186,7 +186,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · turned down Juventus · staying as No. 1
   LB:  "Low",    // Robertson gone free to Spurs · Kerkez inherits, back day one
-  LCB: "Medium", // Van Dijk · 35 · Milan interest knocked back · not back until the US tour
+  LCB: "Medium", // Van Dijk · 35 · Milan interest knocked back · held in Europe, plays first minutes vs Monaco Aug 9
   RCB: "Low",    // Konate gone free to Madrid · Jacquet the only senior CB available · Inacio heads the list
   RB:  "Low",    // Frimpong the only recognised RB · Bradley in the USA for rehab only · Jones staying in midfield
   LDM: "High",   // Gravenberch · the season's most reliable midfielder
