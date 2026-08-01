@@ -351,22 +351,22 @@ export const TEAM_LOGOS = {
 //     and repoints `src` + `credit` + `generatedAt` at it.
 // `focus` is the one-line "most important focus of the latest edition."
 export const COVER_IMAGE = {
-  src: "/assets/cover/2026-07-31-barcola-agreement.svg",
-  alt: "A lone figure in deep red stands at the edge of a floodlit pitch at dusk, arms low, a long shadow thrown across the turf, a stadium tier rising behind under cool white light.",
-  focus: "Barcola agrees terms; the fee is the fight",
+  src: "/assets/cover/2026-08-01-psg-reject-bid.svg",
+  alt: "A lone figure in deep red on one side of a floodlit pitch at dusk faces a cooler, distant figure across a widening band of light, a gulf of turf between them under a rising stadium tier.",
+  focus: "PSG reject the bid; a £45m gulf remains",
   credit: "Editorial plate · auto-generated",
-  generatedAt: "2026-07-31T12:00:00Z",
+  generatedAt: "2026-08-01T11:30:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
   brief: {
     leadStory:
-      "Bradley Barcola has agreed personal terms with Liverpool on a contract to 2032, and the club have tabled a record-class opening bid worth around £103m as PSG hold near €180m; on the grass Iraola's World Cup men finally play in Sunday's Leeds finale in Chicago.",
+      "PSG have rejected Liverpool's opening bid for Bradley Barcola, worth around £103m, and set their price near €170m, a gap of some £45m, even as the winger refuses a new Paris deal and asks for a Premier League move; on the grass Iraola's World Cup men and a 'ready' Jacquet finally play in Sunday's Leeds finale in Chicago.",
     subject:
-      "A single new signing figure in a deep-red shirt standing alone at the edge of a floodlit pitch at dusk, arms at his sides, a long shadow across the turf, a stadium tier behind",
+      "Two footballers apart on a floodlit pitch at dusk, a deep-red figure poised near, a cooler distant figure holding his ground, a luminous band of turf dividing them, a stadium tier behind",
     prompt:
-      "Cinematic editorial photograph, dusk into night, a lone footballer in a deep-red shirt standing still at the edge of a floodlit pitch, arms low at his sides, poised like a new arrival surveying a ground, a warm rim of floodlight catching one side of him, cool white floodlights and a shadowed upper tier behind, a green pitch raking up out of the dark, a long shadow thrown across the turf, a quiet expectant mood rather than celebration, film grain, no on-image text, headroom at the top for a masthead headline",
+      "Cinematic editorial photograph, dusk into night, a footballer in a deep-red shirt standing on one side of a floodlit pitch with a cooler, more distant figure across a wide band of green, a luminous gulf of turf separating them, a warm rim of floodlight on the near figure and cool white light on the far one, a shadowed upper tier and floodlight pylons behind, a green pitch raking up out of the dark, a tense standoff mood rather than celebration, film grain, no on-image text, headroom at the top for a masthead headline",
     aspectRatio: "landscape",
-    slug: "barcola-agreement",
-    generatedAt: "2026-07-31T12:00:00Z",
+    slug: "psg-reject-bid",
+    generatedAt: "2026-08-01T11:30:00Z",
   },
 };
 

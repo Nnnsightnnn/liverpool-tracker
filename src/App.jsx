@@ -378,7 +378,7 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 500, fontSize: 148,
           lineHeight: 0.92, letterSpacing: "-0.04em", marginBottom: 32, color: T.ivory,
         }}>
-          Anfield.<br /><em style={{ fontStyle: "italic", color: T.red }}>July 2026.</em>
+          Anfield.<br /><em style={{ fontStyle: "italic", color: T.red }}>August 2026.</em>
         </h1>
         <GoldRule style={{ marginBottom: 12 }} />
         <p className="cover-deck" style={{
