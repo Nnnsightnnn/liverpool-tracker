@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Editorial plate: a lone figure in deep red on one side of a floodlit pitch at dusk, a cooler distant figure across a widening band of light, a gulf of turf between them under a rising stadium tier">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0e15"/>
+      <stop offset="44%" stop-color="#15212d"/>
+      <stop offset="100%" stop-color="#2a1a17"/>
+    </linearGradient>
+    <radialGradient id="flood" cx="0.5" cy="0.08" r="0.8">
+      <stop offset="0%" stop-color="#eef3ff" stop-opacity="0.88"/>
+      <stop offset="34%" stop-color="#cdd9f0" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#cdd9f0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pitch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#264630"/>
+      <stop offset="100%" stop-color="#0d1711"/>
+    </linearGradient>
+    <linearGradient id="divide" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eef3ff" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#eef3ff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#ffd9b0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffd9b0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="haloCool" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#bcd0ff" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#bcd0ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tier" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1d2a38"/>
+      <stop offset="100%" stop-color="#0c141d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- night sky -->
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#flood)"/>
+
+  <!-- distant stadium tier -->
+  <path d="M0 300 L1600 250 L1600 470 L0 500 Z" fill="url(#tier)"/>
+  <g fill="#e8eefc" opacity="0.10">
+    <rect x="0" y="315" width="1600" height="4"/>
+    <rect x="0" y="345" width="1600" height="4"/>
+    <rect x="0" y="378" width="1600" height="4"/>
+  </g>
+  <!-- floodlight pylons -->
+  <g fill="#dfe8fb" opacity="0.5">
+    <circle cx="300" cy="120" r="5"/><circle cx="330" cy="118" r="5"/><circle cx="360" cy="122" r="5"/>
+    <circle cx="1240" cy="110" r="5"/><circle cx="1270" cy="108" r="5"/><circle cx="1300" cy="112" r="5"/>
+  </g>
+
+  <!-- pitch raking up out of the dark -->
+  <path d="M0 470 L1600 440 L1600 900 L0 900 Z" fill="url(#pitch)"/>
+
+  <!-- luminous divide down the middle: the gulf between want and price -->
+  <path d="M792 452 L868 452 L960 900 L700 900 Z" fill="url(#divide)"/>
+  <g stroke="#c9e3cf" stroke-width="2" opacity="0.16" fill="none">
+    <path d="M-100 640 L1700 590"/>
+    <path d="M828 452 L830 900"/>
+  </g>
+
+  <!-- near warm halo (Liverpool side) -->
+  <ellipse cx="470" cy="640" rx="240" ry="160" fill="url(#halo)"/>
+  <!-- far cool halo (Paris side) -->
+  <ellipse cx="1170" cy="560" rx="200" ry="130" fill="url(#haloCool)"/>
+
+  <!-- long shadow, near red figure -->
+  <path d="M470 720 L150 792 L182 824 L500 742 Z" fill="#05090c" opacity="0.5"/>
+
+  <!-- near figure in deep red: the buyer, arms low -->
+  <g fill="#8f1420">
+    <ellipse cx="470" cy="720" rx="34" ry="10" fill="#05090c" opacity="0.55"/>
+    <path d="M456 640 L450 720 L464 720 L470 644 Z"/>
+    <path d="M484 640 L490 720 L476 720 L470 644 Z"/>
+    <path d="M446 566 Q470 554 494 566 L490 644 L450 644 Z"/>
+    <path d="M447 574 L434 634 L442 636 L456 578 Z"/>
+    <path d="M493 574 L506 634 L498 636 L484 578 Z"/>
+    <circle cx="470" cy="546" r="16" fill="#7a1019"/>
+  </g>
+  <path d="M494 566 L490 644 L485 644 L490 568 Z" fill="#ffd9b0" opacity="0.45"/>
+
+  <!-- far figure, cooler, smaller: the seller holding out -->
+  <g fill="#33506f">
+    <ellipse cx="1170" cy="628" rx="22" ry="7" fill="#05090c" opacity="0.5"/>
+    <path d="M1161 576 L1157 628 L1167 628 L1170 578 Z"/>
+    <path d="M1179 576 L1183 628 L1173 628 L1170 578 Z"/>
+    <path d="M1154 528 Q1170 520 1186 528 L1183 578 L1157 578 Z"/>
+    <circle cx="1170" cy="512" r="11" fill="#2b4560"/>
+  </g>
+  <circle cx="1176" cy="508" r="11" fill="none" stroke="#cfe0ff" stroke-width="2" opacity="0.35"/>
+
+  <!-- top vignette for masthead headroom -->
+  <rect width="1600" height="320" fill="#070b11" opacity="0.34"/>
+  <!-- film grain suggestion -->
+  <rect width="1600" height="900" fill="#000000" opacity="0.05"/>
+</svg>
