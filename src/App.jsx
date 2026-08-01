@@ -385,12 +385,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday, and the marquee move has cleared its first hurdle: Bradley
-          Barcola has agreed personal terms with Liverpool, a record-class
-          hundred-and-three-million bid now with Paris. On the grass the tour
-          ends Sunday in Chicago, where Iraola at last lets Isak, Wirtz,
-          Gravenberch and Jacquet loose against Leeds. Fifth last May, and
-          rebuilding on every line.
+          Saturday, and the marquee move has met its first hard no: PSG have
+          rejected Liverpool's hundred-and-three-million bid for Bradley
+          Barcola and set their price near a hundred and seventy. Tomorrow the
+          tour ends in Chicago, where Iraola at last lets Jacquet and his World
+          Cup men loose against Leeds. Fifth last May, rebuilding on every line,
+          and two centre-backs deep.
         </p>
 
         <StatStrip stats={stats} />
@@ -419,21 +419,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and the player has said yes. <em>Bradley Barcola</em> has agreed
-              personal terms with Liverpool, a contract to 2032, and the club
-              have answered with a record-class opening bid worth around a hundred
-              and three million as Paris hold out near a hundred and eighty. On
-              the grass the American tour reaches its finale on Sunday, when Andoni
-              Iraola finally unleashes his World Cup men, <em>Alexander Isak</em>,{" "}
-              <em>Florian Wirtz</em>, <em>Ryan Gravenberch</em> and the twenty-year-old{" "}
-              <em>Jeremie Jacquet</em>, against Leeds at Soldier Field. Behind them
-              the board keeps turning. <em>Adam Wharton</em>'s midfield move has
-              cooled as Chelsea firm and talks open for Lille's{" "}
-              <em>Ayyoub Bouaddi</em>. And the goodbye edges toward an answer,{" "}
-              <em>Mohamed Salah</em>'s agent promising a decision very soon while
-              Besiktas cools and Saudi money waits. A club winning small, spending
-              big, and still a centre-back short.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and the first no has arrived. PSG have rejected Liverpool's opening
+              bid for <em>Bradley Barcola</em>, worth around a hundred and three
+              million, and set their own price near a hundred and seventy, a gap
+              of some forty-five. The player has done his part, refusing a new
+              Paris deal, asking for England, waving off Bayern; the fee is all
+              that is left. Tomorrow the American tour reaches its finale in
+              Chicago, when Andoni Iraola finally unleashes <em>Jeremie Jacquet</em>,
+              declared ready, alongside his World Cup men, <em>Alexander Isak</em>,{" "}
+              <em>Florian Wirtz</em> and <em>Ryan Gravenberch</em>, against Leeds
+              at Soldier Field. Behind them the board keeps turning. Mainz's{" "}
+              <em>Kaishu Sano</em> rises as the midfield priority, and{" "}
+              <em>Mohamed Salah</em>'s farewell edges toward Saudi Arabia. A club
+              spending big, waiting on a winger, and down to two fit centre-backs.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -441,12 +440,12 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              marquee winger who has finally said yes; the expensive parts
-              unleashed at last in Chicago on Sunday; a farewell edging toward its
-              answer; a defined home, behind the striker, for a
-              hundred-and-fifteen-million playmaker; and the centre-back vacancy
-              nobody has filled. Read them in order. The season opens at Newcastle
-              on the twenty-third of August, and the summer has not been quiet once.
+              marquee winger Paris will not yet sell; the expensive parts
+              unleashed at last in Chicago tomorrow; a farewell edging toward the
+              desert; the doubt, in Carragher's voice, under the whole deal; and
+              the centre-back vacancy nobody has filled. Read them in order. The
+              season opens at Newcastle on the twenty-third of August, and the
+              summer has not been quiet once.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3164,7 +3163,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The man is Liverpool's; the price is Paris's."
+        "Forty-five million pounds of daylight."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
