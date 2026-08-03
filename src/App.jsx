@@ -385,11 +385,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday, and in Chicago tonight the money finally meets the grass:
-          Iraola starts Isak, Wirtz, Gravenberch and the debutant Jacquet
-          together for the first time as the American tour ends against Leeds.
-          Fifth last May, rebuilding on every line, a centre-back hunt turning
-          at last to Milan's Tomori, and three weeks until Newcastle.
+          Monday, and the tour ends on a warning: two up on Leeds in Chicago
+          through Chambers and Wirtz, then four unanswered and a 2-4 that split
+          the night into a brilliant first eleven and a threadbare bench. Iraola
+          calls a centre-back the non-negotiable now. Salah's goodbye turns
+          Turkish, Inter push for Jones, and Monaco visit Anfield next Sunday.
         </p>
 
         <StatStrip stats={stats} />
@@ -418,20 +418,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and the parts finally become a team. Tonight at Soldier Field,
-              Andoni Iraola starts <em>Alexander Isak</em>, <em>Florian Wirtz</em>{" "}
-              and <em>Ryan Gravenberch</em> together for the first time and hands{" "}
-              <em>Jeremie Jacquet</em>, sixty million pounds of centre-back, his
-              debut, the American tour closing against Leeds three weeks before
-              the season opens. Behind the football the board keeps turning. The
-              centre-back vacancy that gaped all summer has a name at last,{" "}
-              <em>Fikayo Tomori</em>, with Liverpool in contact with AC Milan.{" "}
-              <em>Bradley Barcola</em> waits on Paris, who by closing on Akliouche
-              and Godts may be building the room to sell. And{" "}
-              <em>Mohamed Salah</em>'s farewell narrows to the desert, an agreement
-              in principle down to Al-Ahli or Al-Ittihad. A club spending big,
-              thin at the back, and about to see what it bought.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and the tour ends on a lesson. In Chicago the first eleven led{" "}
+              <em>Leeds</em> two-nil through <em>Luke Chambers</em> and{" "}
+              <em>Florian Wirtz</em>, football a season ahead of schedule, before
+              Andoni Iraola emptied his bench and four unanswered goals turned it
+              into a 2-4 defeat. Two teams in one night: the starters a level
+              above, the men behind them a level short. Iraola has named the
+              cure, calling a reliable centre-back the non-negotiable of the
+              window. Behind the football the board turns faster. <em>Mohamed
+              Salah</em>'s goodbye swings from the Gulf to Turkey, where{" "}
+              <em>Trabzonspor</em> now lead. <em>Inter</em> push at{" "}
+              <em>Curtis Jones</em>, Spurs are told <em>Cody Gakpo</em> starts
+              well beyond sixty million, and <em>Bradley Barcola</em> still waits
+              on Paris. A club that won the league, thin at the back, three weeks
+              from Newcastle.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -439,9 +440,9 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              spine assembled at last in Chicago tonight; a number ten Iraola has
-              waited a year to draw; a centre-back the club has finally moved for;
-              a farewell narrowing to the desert; and the marquee winger Paris
+              collapse in Chicago that made the case for depth; a centre-back the
+              club is being begged to sign; a farewell bending east to the Black
+              Sea; a homegrown midfielder Inter want; and the marquee winger Paris
               will not yet sell. Read them in order. The season opens at Newcastle
               on the twenty-third of August, and the summer has not been quiet once.
             </p>
@@ -3161,7 +3162,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Tonight, the money meets the grass."
+        "Two halves, two teams."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
