@@ -137,8 +137,8 @@ export const FORMATIONS = {
 // Sunderland; the centre-back hunt has a name at last, Liverpool in contact with
 // AC Milan over Fikayo Tomori; PSG accept Monaco's £42.7m bid for Akliouche and
 // open Godts talks, a path that could free Barcola (~£103m bid rejected, PSG want
-// ~€170m); Sano leads the midfield race at ~£51m; Salah's Saudi move narrows to
-// Al-Ahli and Al-Ittihad; Gomez out for weeks and misses the opener; Ekitike,
+// ~€170m); Sano leads the midfield race at ~£51m; Salah's exit swings to Turkey, Trabzonspor leading
+// with Trabzonspor now ahead of Besiktas; Gomez out for weeks and misses the opener; Ekitike,
 // Leoni and Bradley play no part, Leoni furthest advanced.)
 export const PLAYER_EVIDENCE = {
   1:  "Back for the Anfield friendlies",          // Alisson
@@ -184,7 +184,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // has a name at last, Liverpool in contact with Milan over Fikayo Tomori; PSG accept
 // Monaco's £42.7m Akliouche bid and open Godts talks, a path that could free Barcola
 // (~£103m bid rejected, PSG want ~€170m); Sano leads the midfield race at ~£51m;
-// Salah's Saudi move narrows to Al-Ahli and Al-Ittihad.)
+// Salah's exit swings to Turkey (Trabzonspor lead, Besiktas suspended talks).)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · turned down Juventus · staying as No. 1
   LB:  "Low",    // Robertson gone free to Spurs · Kerkez inherits, back day one
@@ -211,7 +211,7 @@ export const SLOT_RATIONALE = {
   CAM: "Mon Jul 20 — the biggest night of his career, and it ended a man short. Mac Allister played the whole of the World Cup final at MetLife and lost it in extra time, Argentina reduced to ten when Enzo Fernandez was sent off for a second yellow in the 93rd minute and Ferran Torres finished it on 106. Emi Martinez made a final-record eleven saves behind him. A club season in which he was among the most criticised players at Anfield has still been rewritten by five weeks in America. He misses the American tour in its entirety and is not expected in an Iraola side before the Como friendly on August 16, which makes this slot a placeholder rather than a selection.",
   RAM: "Mon Aug 3 — the slot that defines the summer, and the standoff holds. With Salah's exit now bending east to Trabzonspor rather than the Gulf, the left-of-front vacancy is real, and Bradley Barcola remains the marquee target: his ~£103m opening bid was rejected and PSG still price him near €170m, a gap of some £45m, the player asking for England but Paris unmoved on the number. Below him Rio Ngumoha, seventeen, holds the post-Salah berth by default after his Wrexham winner, Minteh (~£70-80m) the first name in reserve. Until a winger lands, the berth belongs to the academy.",
   RB:  "Tue Jul 21 — still a one-man department, though the horizon is less bleak than it read on Monday. Jeremie Frimpong is the only fit senior right back available across the American tour. Conor Bradley did travel, but purely to continue a specialist rehabilitation programme alongside Ekitike and Leoni, and will not appear in any of the three friendlies; today's reporting steps back from the weekend's 2027 framing and returns to the earlier line, that he is targeting availability around the start of the campaign proper. The club still set no date. Curtis Jones, last season's emergency cover, stays in midfield and is needed there with Mac Allister absent until mid-August. Frimpong plays by elimination, with Marco Palestra and Lutsharel Geertruida the deputies on the board.",
-  ST:  "Tue Jun 2 — Alexander Isak ends an injury-wrecked debut season — a string of setbacks limited the £100m striker to a handful of starts and never let Slot's intended front three settle. A full summer to reset before 2026-27.",
+  ST:  "Mon Aug 3 — Alexander Isak took his first pre-season minutes in Sunday's 2-4 loss to Leeds, lining up with Wirtz and Gravenberch for the first time. An injury-wrecked debut season limited the £100m striker to a handful of starts and never let the front three settle; a clean run under Iraola is the reset the whole attack needs, and the first-half fluency in Chicago was the early argument for it.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -219,11 +219,11 @@ export const SLOT_RATIONALE = {
 // initially. The UI shows these on hover as "Also considered". Keyed to
 // 4-2-3-1 (the season-closing baseline shape).
 export const ALTERNATIVES = {
-  GK:  [{ playerId: 2, reason: "Mamardashvili · leads the goalkeeping group to Chicago with Alisson still on a post-World Cup break" }, { playerId: 27, reason: "Woodman · third-choice cover, trained day one" }],
+  GK:  [{ playerId: 2, reason: "Mamardashvili · led the goalkeeping group on the tour with Alisson on a post-World Cup break; Alisson back for the Anfield friendlies" }, { playerId: 27, reason: "Woodman · third-choice cover, trained day one" }],
   LB:  [{ playerId: 7, reason: "Kerkez · the first-choice left-back going forward now Robertson has left" }],
   LCB: [{ playerId: 5, reason: "Gomez · can shuffle infield to centre-back if his muscle injury clears" }],
   RCB: [{ playerId: 11, reason: "Jacquet · the only senior centre-back Iraola can pick until Van Dijk is back; Leoni is long-term out" }],
-  RB:  [{ playerId: 9, reason: "Frimpong · the only fit recognised right-back; Bradley travelled for rehabilitation only and plays no part in the tour" }, { playerId: 5, reason: "Gomez · emergency right-back cover once his muscle injury clears, Jones kept in midfield not at full-back" }],
+  RB:  [{ playerId: 9, reason: "Frimpong · the only fit recognised right-back; Bradley travelled for rehabilitation only and took no part in the tour" }, { playerId: 5, reason: "Gomez · emergency right-back cover once his muscle injury clears, Jones kept in midfield not at full-back" }],
   LDM: [{ playerId: 13, reason: "Mac Allister · could swap depths with Gravenberch in the double-pivot" }],
   RDM: [{ playerId: 14, reason: "Gravenberch · could swap depths with Szoboszlai" }],
   LAM: [{ playerId: 22, reason: "Gakpo · a wide-left option · club restate he is not for sale" }, { playerId: 25, reason: "Ngumoha · breakout teenager · rotation option on the left" }],
