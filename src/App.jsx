@@ -385,11 +385,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, and the tour ends on a warning: two up on Leeds in Chicago
-          through Chambers and Wirtz, then four unanswered and a 2-4 that split
-          the night into a brilliant first eleven and a threadbare bench. Iraola
-          calls a centre-back the non-negotiable now. Salah's goodbye turns
-          Turkish, Inter push for Jones, and Monaco visit Anfield next Sunday.
+          Tuesday, and the summer's biggest move finally begins to move:
+          Liverpool have opened official talks with Paris and tabled a first bid
+          past eighty-five million for Bradley Barcola. Behind it, Iraola's
+          non-negotiable centre-back grows a name in Marc Guehi. Monaco visit
+          Anfield on Sunday; Newcastle waits three weeks out.
         </p>
 
         <StatStrip stats={stats} />
@@ -418,21 +418,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and the tour ends on a lesson. In Chicago the first eleven led{" "}
-              <em>Leeds</em> two-nil through <em>Luke Chambers</em> and{" "}
-              <em>Florian Wirtz</em>, football a season ahead of schedule, before
-              Andoni Iraola emptied his bench and four unanswered goals turned it
-              into a 2-4 defeat. Two teams in one night: the starters a level
-              above, the men behind them a level short. Iraola has named the
-              cure, calling a reliable centre-back the non-negotiable of the
-              window. Behind the football the board turns faster. <em>Mohamed
-              Salah</em>'s goodbye swings from the Gulf to Turkey, where{" "}
-              <em>Trabzonspor</em> now lead. <em>Inter</em> push at{" "}
-              <em>Curtis Jones</em>, Spurs are told <em>Cody Gakpo</em> starts
-              well beyond sixty million, and <em>Bradley Barcola</em> still waits
-              on Paris. A club that won the league, thin at the back, three weeks
-              from Newcastle.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and the summer's slow burn finally catches. Liverpool have opened
+              official talks with <em>Paris Saint-Germain</em> and put a first
+              written bid, north of eighty-five million, on the table for{" "}
+              <em>Bradley Barcola</em>, the winger who has wanted this since{" "}
+              <em>Salah</em> left. Paris still price him closer to a hundred and
+              seventy; the two clubs, at last, are talking. Behind the marquee
+              move Andoni Iraola's non-negotiable grows a name, the BBC reporting
+              a renewed push for <em>Marc Guehi</em>, the centre-back who keeps
+              slipping the net. <em>Victor Munoz</em>, a World Cup winner, flies
+              in early; <em>Curtis Jones</em> edges toward Inter; <em>Salah</em>{" "}
+              inches toward Trabzon on a deal no one will yet sign. A champion,
+              thin at the back, five days from Monaco and its first football
+              home.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -440,11 +439,12 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              collapse in Chicago that made the case for depth; a centre-back the
-              club is being begged to sign; a farewell bending east to the Black
-              Sea; a homegrown midfielder Inter want; and the marquee winger Paris
-              will not yet sell. Read them in order. The season opens at Newcastle
-              on the twenty-third of August, and the summer has not been quiet once.
+              bid finally tabled in Paris; a centre-back the club has chased for
+              two windows; a World Cup winner cutting his holiday short; a
+              farewell bending east that no one will yet sign; and the first
+              football back at Anfield on Sunday. Read them in order. The season
+              opens at Newcastle on the twenty-third of August, and the summer
+              has not been quiet once.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3162,7 +3162,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Two halves, two teams."
+        "Still under construction."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

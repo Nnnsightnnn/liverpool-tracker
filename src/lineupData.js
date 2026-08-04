@@ -23,16 +23,15 @@ export const FORMATIONS = {
     // fifth. This is not a matchday prediction but a SNAPSHOT of the XI that
     // closed the campaign, adjusted for the summer exits (Kerkez, Jacquet and
     // Ngumoha step in for Robertson, Konate and Salah). 4-3-3 is the backup
-    // look. Refreshed Sun Aug 2: two from two on the US tour, a 1-0 win over
-    // Wrexham (Ngumoha) after the 4-2 over Sunderland, with Munoz and Mac Allister
-    // missing the tour entirely after the World Cup final; Ekitike, Leoni and
-    // Bradley take no part (rehab only), and Gomez out for weeks and missing the
-    // season start, leaving Frimpong the only fit recognised right back and Jacquet
-    // the lone senior centre-back until Van Dijk is eased back. Iraola starts Isak,
-    // Wirtz, Gravenberch and the debutant Jacquet together for the first time in
-    // Sunday's Leeds finale (a 2-4 loss); the centre-back hunt turns to Milan's Tomori; Barcola
-    // opening bid (~£103m) was rejected as PSG hold near €170m and close on
-    // Akliouche and Godts, a path that could free him; Sano leads the six at ~£51m.
+    // look. Refreshed Tue Aug 4: the tour is over (a 2-4 Leeds finale after wins
+    // over Wrexham and Sunderland); next up is Monaco at Anfield on Sunday Aug 9,
+    // Iraola's first home dugout. Munoz flies in next week; Mac Allister back for Como
+    // (Aug 16); Ekitike, Leoni and Bradley take no part (rehab only); Gomez out for weeks
+    // and missing the season start, leaving Frimpong the only fit recognised right back
+    // and Jacquet the lone senior centre-back until Van Dijk is eased back. Liverpool have
+    // opened official PSG talks and tabled a first Barcola bid over £85m; the centre-back
+    // non-negotiable turns to Palace's Guehi (BBC) with Milan's Tomori the cheaper alt;
+    // Sano leads the six at ~£51m.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -66,16 +65,15 @@ export const FORMATIONS = {
     // The 2025-26 season is COMPLETE. This 4-2-3-1, the shape Slot favoured
     // through the run-in, is shown as the first-choice XI Liverpool finished the
     // campaign with (adjusted for the summer exits), NOT as a prediction for a
-    // coming fixture (next up is Leeds at Soldier Field, Chicago, today, Aug 2).
-    // Refreshed Sun Aug 2: Munoz and Mac Allister miss the tour entirely after
-    // the World Cup final; the squad is two from two after a 1-0 win over Wrexham
-    // (Ngumoha) and the 4-2 over Sunderland; Ekitike, Leoni and Bradley travelled
-    // for rehabilitation only and take no part, and Gomez is out for weeks and
-    // misses the season start; the winger board leads with Barcola, whose ~£103m
-    // opening bid PSG rejected (they hold near €170m) though by closing on Akliouche
-    // and Godts they may free him; Milan's Tomori is the centre-back pursuit; Jacquet
-    // the only senior CB fit until Van Dijk is eased back, and Iraola starts the
-    // World Cup men together for the first time in Sunday's Leeds finale (a 2-4 loss).
+    // coming fixture (the tour is over; next up is Monaco at Anfield on Sunday Aug 9).
+    // Refreshed Tue Aug 4: Munoz flies in next week and Mac Allister returns for Como
+    // (Aug 16) after the World Cup final; the tour finished on a 2-4 Leeds loss after
+    // wins over Wrexham and Sunderland; Ekitike, Leoni and Bradley travelled for
+    // rehabilitation only and take no part, and Gomez is out for weeks and misses the
+    // season start; the winger board leads with Barcola, Liverpool having opened official
+    // PSG talks and tabled a first bid over £85m (PSG hold near €170m but are expected to
+    // soften); the centre-back non-negotiable turns to Palace's Guehi (BBC) with Milan's
+    // Tomori the cheaper alt; Jacquet the only senior CB fit until Van Dijk is eased back.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -130,18 +128,18 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS array + injuryNote context as of 2026-08-02
-// (Sun: today's tour finale against Leeds at Soldier Field is where Iraola finally
-// starts Isak, Wirtz, Gravenberch and the debutant Jacquet together for the first
-// time, the squad two from two after a 1-0 win over Wrexham and the 4-2 at
-// Sunderland; the centre-back hunt has a name at last, Liverpool in contact with
-// AC Milan over Fikayo Tomori; PSG accept Monaco's £42.7m bid for Akliouche and
-// open Godts talks, a path that could free Barcola (~£103m bid rejected, PSG want
-// ~€170m); Sano leads the midfield race at ~£51m; Salah's exit swings to Turkey, Trabzonspor leading
-// with Trabzonspor now ahead of Besiktas; Gomez out for weeks and misses the opener; Ekitike,
+// Hand-curated from RESULTS array + injuryNote context as of 2026-08-04
+// (Tue: the tour is over, next up is Monaco at Anfield on Sunday Aug 9, Iraola's
+// first home dugout. Liverpool have opened official PSG talks and tabled a first
+// Barcola bid worth over £85m; the centre-back non-negotiable has a marquee name,
+// the BBC reporting a renewed push for Crystal Palace's Marc Guehi, with Milan's
+// Tomori (~£24.9m) the cheaper alternative; Victor Munoz cuts short his break to
+// fly in next week; Inter believe they are closing on Curtis Jones (£30m vs £35m);
+// Gakpo holds positive talks with Spurs but the club won't sell cheaply; Salah edges
+// toward Trabzonspor unsigned; Gomez out for weeks and misses the opener; Ekitike,
 // Leoni and Bradley play no part, Leoni furthest advanced.)
 export const PLAYER_EVIDENCE = {
-  1:  "Back for the Anfield friendlies",          // Alisson
+  1:  "Back for Anfield friendlies Aug 9",        // Alisson
   2:  "Started tour · leads GK group",            // Mamardashvili
   3:  "Back from WC · first minutes Aug 9",       // Van Dijk
   5:  "Muscle · out weeks, misses opener",        // Gomez
@@ -149,29 +147,29 @@ export const PLAYER_EVIDENCE = {
   8:  "Knee · months out, rehab only",            // Bradley
   9:  "Only fit senior RB on the tour",           // Frimpong
   10: "ACL · running outdoors, closest back",     // Leoni
-  11: "Started Leeds · £60m CB leaned on",         // Jacquet
+  11: "Started Leeds · Guehi eyed to help",       // Jacquet
   12: "Academy CB cover · 2 senior apps",         // Ndukwe
   13: "WC runner-up · back for Como Aug 16",      // Mac Allister
   14: "Played Leeds · the fixed point",           // Gravenberch
   15: "Deal to 2031 · captaincy shortlist",       // Szoboszlai
-  16: "Inter to £30m · ready to push exit",       // Jones
+  16: "Inter believe deal close · £30m",          // Jones
   17: "Nearing full training · sale likely",      // Endo
   18: "Scored vs Leeds · No. 10 role",            // Wirtz
   19: "Building fitness · on the tour",           // Bajcetic
   20: "Impressed on tour · Iraola audition",      // Nyoni
-  22: "Not for sale · Spurs told £60m+",          // Gakpo
+  22: "Spurs talks · club won't sell cheap",      // Gakpo
   23: "First tour minutes vs Leeds",              // Isak
   24: "Achilles · months out, rehab only",        // Ekitike
-  25: "Scored vs Wrexham · holds RW slot",        // Ngumoha
+  25: "Holds RW · Barcola bid tabled",            // Ngumoha
   26: "Back from illness · staying to fight",     // Chiesa
   27: "New deal · 3rd-choice GK",                 // Woodman
-  28: "World champion · back for Como Aug 16",    // Munoz
+  28: "World champion · flies in next week",      // Munoz
 };
 
 // Default formation when entering the view: the 4-2-3-1 Slot favoured through
 // the run-in, shown as the first-choice XI Liverpool finished the 2025-26
-// season with (the campaign is over; next up is Leeds at Soldier Field, Chicago,
-// on Aug 2). It is a squad baseline, not a matchday prediction.
+// season with (the campaign is over; next up is Monaco at Anfield on Sunday
+// Aug 9). It is a squad baseline, not a matchday prediction.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────────────────────
@@ -179,24 +177,24 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys. With the season over these read as confidence that the slot's
 // occupant remains a first-choice starter into 2026-27 — LOW where the player
 // has left (Salah, Robertson, Konate) or whose future is open (Mac Allister).
-// (Refreshed Sun Aug 2: Iraola starts Isak, Wirtz, Gravenberch and the debutant
-// Jacquet together for the first time in Sunday's Leeds finale (a 2-4 loss). The centre-back hunt
-// has a name at last, Liverpool in contact with Milan over Fikayo Tomori; PSG accept
-// Monaco's £42.7m Akliouche bid and open Godts talks, a path that could free Barcola
-// (~£103m bid rejected, PSG want ~€170m); Sano leads the midfield race at ~£51m;
-// Salah's exit swings to Turkey (Trabzonspor lead, Besiktas suspended talks).)
+// (Refreshed Tue Aug 4: tour over, Monaco at Anfield Sunday Aug 9 (Iraola's first
+// home dugout). Liverpool have opened official PSG talks and tabled a first Barcola
+// bid over £85m; the centre-back non-negotiable has a marquee name, the BBC reporting
+// a renewed push for Palace's Marc Guehi with Milan's Tomori (~£24.9m) the cheaper
+// alternative; Munoz flies in next week; Inter believe they are closing on Jones;
+// Salah edges toward Trabzonspor unsigned.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · turned down Juventus · staying as No. 1
   LB:  "Low",    // Robertson gone free to Spurs · Kerkez inherits, back day one
   LCB: "Medium", // Van Dijk · 35 · Milan interest knocked back · eased back, first minutes vs Monaco Aug 9
-  RCB: "Low",    // Konate gone free to Madrid · Jacquet the only senior CB available · Liverpool open contact with Milan's Tomori
+  RCB: "Low",    // Konate gone free to Madrid · Jacquet the only senior CB available · BBC: Liverpool step up for Palace's Guehi, Milan's Tomori the cheaper alt
   RB:  "Low",    // Frimpong the only recognised RB · Bradley in the USA for rehab only · Jones staying in midfield
   LDM: "High",   // Gravenberch · the season's most reliable midfielder
   RDM: "High",   // Szoboszlai · new five-year deal signed to 2031 · in day one
   LAM: "Medium", // Wirtz · injury-hit debut season · No. 10 role, played the Leeds finale
   CAM: "Low",    // Mac Allister · World Cup runner-up · misses the entire American tour, back for Como on Aug 16
-  RAM: "Low",    // Salah gone · PSG accept Monaco's Akliouche bid + open Godts talks (a path to free Barcola; ~£103m bid rejected, PSG want ~€170m) · Ngumoha holds it by default
-  ST:  "Medium", // Isak · injury-wrecked debut year · plays his first minutes vs Leeds today
+  RAM: "Low",    // Salah gone · Liverpool open official PSG talks + table first Barcola bid over £85m · Ngumoha holds it by default
+  ST:  "Medium", // Isak · injury-wrecked debut year · took first tour minutes vs Leeds
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
@@ -204,12 +202,12 @@ export const SLOT_CONFIDENCE = {
 export const SLOT_RATIONALE = {
   LB:  "Tue Jun 2 — with Andy Robertson's free transfer to De Zerbi's Tottenham now done, the Liverpool left-back slot is unambiguously Milos Kerkez's after a tough first season at £45m. Nine years of cover at the position have walked out the door in a single window.",
   LCB: "Fri Jul 10 — a fresh voice for the defence: John Barnes has urged Liverpool to extend Van Dijk beyond his 2027 deal even at 35, as the AC Milan interest driven by Ibrahimović, Fenerbahce lurking, keeps being knocked back at Anfield, no bid received and none expected to move him. The captain is central to Iraola's plans and the slot a thinning back line is being rebuilt around, Jacquet, cleared by his surgeon to rejoin group training, the in-house cover behind him.",
-  RCB: "Mon Aug 3 — the Leeds collapse turned a priority into a non-negotiable. Iraola watched his reserves ship four in Chicago and named the cure out loud: an experienced centre-back cannot wait. Milan's Fikayo Tomori, out of contract in 2027 and unlikely to be renewed, is the headline name available, but it is Newcastle who have moved with a first proposal, Liverpool's interest still at the level of a profile match. Jacquet, twenty, is the only senior partner Van Dijk has until the captain is eased back through the Anfield friendlies, so the body has to arrive before Newcastle on the 23rd.",
+  RCB: "Tue Aug 4 — the non-negotiable finds its marquee name. The BBC report Liverpool stepping up their pursuit of Crystal Palace's Marc Guehi, the England centre-back they have chased across two windows, with Milan's Fikayo Tomori (around £24.9m) held as the cheaper alternative after initial contact. Jacquet, twenty, is the only senior partner Van Dijk has until the captain is eased back through the Anfield friendlies, so a body has to arrive before Newcastle on the 23rd. After Chicago's second half, this is the slot the whole window turns on.",
   LDM: "Tue Jun 2 — Gravenberch finished the season as the most consistent midfielder Liverpool had and is in the Dutch World Cup squad; the obvious building block at the base of the 4-2-3-1 going into 2026-27.",
   RDM: "Sat Jul 18 — settled, and expensively so. Szoboszlai has signed a new five-year contract running to 2031, three years on from arriving from Leipzig on a deal that ran only to 2028, with reported terms in the £200,000-£250,000 band. He was voted supporters' player of the season after a campaign spent filling in at right-back, at the eight and on the right wing. With Salah, Konate and Robertson all gone for nothing, this is the club choosing to keep rather than to replace.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
   CAM: "Mon Jul 20 — the biggest night of his career, and it ended a man short. Mac Allister played the whole of the World Cup final at MetLife and lost it in extra time, Argentina reduced to ten when Enzo Fernandez was sent off for a second yellow in the 93rd minute and Ferran Torres finished it on 106. Emi Martinez made a final-record eleven saves behind him. A club season in which he was among the most criticised players at Anfield has still been rewritten by five weeks in America. He misses the American tour in its entirety and is not expected in an Iraola side before the Como friendly on August 16, which makes this slot a placeholder rather than a selection.",
-  RAM: "Mon Aug 3 — the slot that defines the summer, and the standoff holds. With Salah's exit now bending east to Trabzonspor rather than the Gulf, the left-of-front vacancy is real, and Bradley Barcola remains the marquee target: his ~£103m opening bid was rejected and PSG still price him near €170m, a gap of some £45m, the player asking for England but Paris unmoved on the number. Below him Rio Ngumoha, seventeen, holds the post-Salah berth by default after his Wrexham winner, Minteh (~£70-80m) the first name in reserve. Until a winger lands, the berth belongs to the academy.",
+  RAM: "Tue Aug 4 — the slot that defines the summer, and the talks are finally live. Liverpool have opened official club-to-club talks with PSG and tabled a first written Barcola bid worth more than £85m (over €100m); Paris still price him near €170m but are expected to soften, and the Reds are said to be ready to climb toward £128m, with the player asking for England. Below him Rio Ngumoha, seventeen, holds the post-Salah berth by default after his Wrexham winner, Minteh (~£70-80m) the first name in reserve. Until a winger lands, the berth belongs to the academy, but for the first time the marquee move is a negotiation, not a wait.",
   RB:  "Tue Jul 21 — still a one-man department, though the horizon is less bleak than it read on Monday. Jeremie Frimpong is the only fit senior right back available across the American tour. Conor Bradley did travel, but purely to continue a specialist rehabilitation programme alongside Ekitike and Leoni, and will not appear in any of the three friendlies; today's reporting steps back from the weekend's 2027 framing and returns to the earlier line, that he is targeting availability around the start of the campaign proper. The club still set no date. Curtis Jones, last season's emergency cover, stays in midfield and is needed there with Mac Allister absent until mid-August. Frimpong plays by elimination, with Marco Palestra and Lutsharel Geertruida the deputies on the board.",
   ST:  "Mon Aug 3 — Alexander Isak took his first pre-season minutes in Sunday's 2-4 loss to Leeds, lining up with Wirtz and Gravenberch for the first time. An injury-wrecked debut season limited the £100m striker to a handful of starts and never let the front three settle; a clean run under Iraola is the reset the whole attack needs, and the first-half fluency in Chicago was the early argument for it.",
 };
@@ -237,5 +235,5 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  reason: "Mon Aug 3 — the XI below stays a squad baseline rather than a matchday team, and Sunday's tour finale gave it a warning. Liverpool led Leeds 2-0 in Chicago through Luke Chambers and Florian Wirtz, then conceded four unanswered after Andoni Iraola's changes to lose 2-4, the starters a level above and the bench a level short. Iraola has since called a reliable centre-back the non-negotiable of the window: Joe Gomez is out for weeks and misses the Newcastle opener, Leoni (ACL) is still recovering, and only Van Dijk and the 20-year-old Jacquet are fit at the back, with Van Dijk eased in only through the Anfield friendlies (Monaco on Aug 9, Como on the 16th). Off the pitch the sell side has stirred, Inter lifting their Curtis Jones bid to £30m and Salah's exit swinging to Turkey with Trabzonspor, while Milan's Tomori is available but Newcastle lead, and Barcola still waits on a PSG price near €170m. Next up: Monaco at Anfield on August 9."
+  reason: "Tue Aug 4 — the XI below stays a squad baseline rather than a matchday team, with the tour over and Monaco visiting Anfield on Sunday for Iraola's first home dugout. The Leeds finale still frames the caution: a brilliant first eleven, a bench a level short, and a centre-back Iraola has called the non-negotiable of the window. Joe Gomez is out for weeks and misses the Newcastle opener, Leoni (ACL) is still recovering, and only Van Dijk and the 20-year-old Jacquet are fit at the back, Van Dijk eased in through the Anfield friendlies. Off the pitch the rebuild has quickened: Liverpool have opened official PSG talks and tabled a first Barcola bid over £85m, stepped up for Palace's Marc Guehi to fix the defence, and welcome Victor Munoz back early, while Inter believe they are closing on Curtis Jones. Next up: Monaco at Anfield on August 9."
 };
