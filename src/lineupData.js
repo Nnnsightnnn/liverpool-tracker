@@ -106,7 +106,7 @@ export const FORMATIONS = {
     },
     // Hypothetical 3-4-3 alternative, a shape Slot rarely used in 2025-26.
     // Shown for completeness alongside the season-closing baseline. Refreshed
-    // Sun Aug 2: Joe Gomez, hurt inside eight minutes of the Sunderland win and
+    // Tue Aug 4: Joe Gomez, hurt inside eight minutes of the Sunderland win and
     // out for weeks (missing the opener), has missed both tour games, so the
     // academy's Ndukwe steps into the left of a bare back three alongside VVD and
     // Jacquet; Kerkez and Jones as wing-backs, Gravenberch and Mac Allister in
