@@ -357,21 +357,22 @@ export const COVER_IMAGE = {
   alt: "Pure-type edition cover.",
   focus: null,
   credit: null,
-  generatedAt: "2026-08-04T10:30:00Z",
+  generatedAt: "2026-08-05T10:30:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
-  // Today's lead is a transfer negotiation (Barcola talks), not a single-still photo
-  // moment, so no cover image was queued; render falls back to the pure-type cover.
+  // Today's lead is a departure reaching terms (Salah agreeing a Trabzonspor deal),
+  // a transfer story with no Liverpool still-photo moment, so no cover image was
+  // queued; render falls back to the pure-type cover.
   brief: {
     leadStory:
-      "Liverpool have opened official club-to-club talks with PSG for Bradley Barcola and tabled a first written bid worth over £85m, while stepping up their pursuit of Crystal Palace's Marc Guehi to fix the centre-back need.",
+      "Mohamed Salah has agreed a two-year deal at Trabzonspor, one contractual clause from officially ending nine years at Anfield, while Iraola's defence thins to one fit senior right-back after Frimpong's Leeds scare and the Barcola bid stalls at PSG's £145m.",
     subject:
       "AS Monaco visit Anfield on Sunday for Andoni Iraola's first home game in charge, the first football back at Anfield this pre-season",
     prompt:
       "Cinematic editorial photograph, late afternoon at a historic English football stadium exterior, red brick and a modern stand, supporters arriving for a pre-season friendly, warm low sun, no on-image text, generous headroom at the top for a masthead headline",
     aspectRatio: "landscape",
     slug: "anfield-first-light",
-    generatedAt: "2026-08-04T10:30:00Z",
-    note: "Non-visual lead (transfer negotiation); no image queued this edition. Fallback to pure-type cover.",
+    generatedAt: "2026-08-05T10:30:00Z",
+    note: "Non-visual lead (a departure reaching terms); no image queued this edition. Fallback to pure-type cover.",
   },
 };
 
@@ -525,12 +526,12 @@ export const DISPATCHES = [
   },
   {
     n: "05",
-    headline: "First Light At Anfield.",
-    byline: "Liverpool FC / This Is Anfield",
+    headline: "The Home Lights Come Up.",
+    byline: "Liverpool FC / Anfield Watch",
     dateline: "Anfield · 5 August",
     category: "Football News",
     body:
-      "The football comes home on Sunday. Monaco visit for a two-thirty kick-off, Andoni Iraola's first afternoon in the Anfield dugout after a tour that beat Sunderland and Wrexham and unravelled against Leeds. It is the clubs' first meeting since a Champions League group stage in the season that ended in Istanbul, twenty-one years back, and the first of two home friendlies before Newcastle. Van Dijk and Alisson are due their first minutes, the returning World Cup men their rhythm. Around it the window will not quieten: a farewell agreed in Turkey, a bid stuck in Paris, a defence being counted and recounted. Eighteen days to the opener.",
+      "For the first time this summer the pre-season steps out of America and into L4. Sunday brings Monaco for a two-thirty kick-off, Andoni Iraola's first afternoon in the home dugout after a tour that beat Sunderland and Wrexham before unravelling against Leeds. The visitors are old acquaintances, unseen since a Champions League group stage in the season that ended in Istanbul, twenty-one years back; this is the first of two friendlies at the ground before the league begins. Van Dijk and Alisson are due their opening minutes, the returning World Cup men their rhythm. Around it the window will not settle: a farewell agreed in Turkey, a bid stuck in Paris, a back line counted and recounted. Eighteen days to Newcastle.",
   },
 ];
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
@@ -582,12 +583,6 @@ export const NEWS_DIGEST = {
       category: "general",
     },
     {
-      title: "Gakpo Stays Open To Tottenham As Spurs Push, But Liverpool Set No Selling Price (Yahoo Sports / Sports Mole, 2d ago)",
-      detail:
-        "The player is warmer than the club. Cody Gakpo and his camp are reported to have held positive talks with Tottenham and the Dutchman is said to be open to a move, yet Liverpool have received no bid and no wish to sell a forward central to Iraola's front line. With Salah's flank now vacant the manager wants Gakpo tested on the left through the Anfield friendlies, and it would take an offer well beyond £60m to move the club. For now it is interest that has hardened into conversation, not negotiation.",
-      category: "transfers",
-    },
-    {
       title: "World Cup Winner Munoz To Report Early As The Senior Spine Filters Back To Kirkby (Anfield Watch / Liverpool FC, 1d ago)",
       detail:
         "Reinforcement of a different kind. Victor Munoz, the £34.7m winger and newly crowned World Cup champion with Spain, will cut short his post-tournament break to report to the AXA Centre next week rather than wait for the Como friendly, giving Iraola an early look at the window's one signing so far. He joins Van Dijk and Alisson, both home from their own tournament breaks and building toward first minutes against Monaco, with Mac Allister due before Como on August 16. On a squad thinned by summer exits, every returning senior reads as its own small signing.",
@@ -598,6 +593,12 @@ export const NEWS_DIGEST = {
       detail:
         "The football returns to L4. Liverpool host AS Monaco this Sunday, August 9, a 2.30pm kick-off that hands Andoni Iraola his first afternoon in the Anfield dugout after beating Sunderland and Wrexham stateside and losing the Chicago finale to Leeds. It is the clubs' first meeting since the group stage of the 2004-05 Champions League run that ended in Istanbul, and the first of two home friendlies before Newcastle, the stage on which Van Dijk and Alisson find their rhythm and the returning World Cup men rejoin the group.",
       category: "matches",
+    },
+    {
+      title: "Gakpo Stays Open To Tottenham As Spurs Push, But Liverpool Set No Selling Price (Yahoo Sports / Sports Mole, 2d ago)",
+      detail:
+        "The player is warmer than the club. Cody Gakpo and his camp are reported to have held positive talks with Tottenham and the Dutchman is said to be open to a move, yet Liverpool have received no bid and no wish to sell a forward central to Iraola's front line. With Salah's flank now vacant the manager wants Gakpo tested on the left through the Anfield friendlies, and it would take an offer well beyond £60m to move the club. For now it is interest that has hardened into conversation, not negotiation.",
+      category: "transfers",
     },
   ],
   sources: [
@@ -715,7 +716,7 @@ export const TRANSFER_TARGETS = {
       releaseClause: null,
       contractNote: "Under contract at AC Milan until 2027 and unlikely to be offered fresh terms. Milan value him around £24.9m but would consider proposals between €15m (£12.8m) and €20m (£17m) on the single year remaining. Liverpool have made initial contact and opened early discussions, though talks are not yet advanced; he reads as the cheaper alternative to the marquee Guehi pursuit.",
       probability: 34,
-      heatTier: "warm",
+      heatTier: "cool",
       sources: [
         { name: "GiveMeSport",       tier: "B" },
         { name: "Rushthekop",        tier: "B" },
@@ -972,7 +973,7 @@ export const TRANSFER_TARGETS = {
       contractExpiry: "2029-06-30",
       releaseClause: null,
       contractNote: "Under contract at Brighton to 2029; reports are split on a mooted £40m clause, but the Seagulls' working valuation is nearer £70-80m for a 21-year-old they rate among the league's brightest wide prospects.",
-      probability: 66,
+      probability: 60,
       heatTier: "warm",
       sources: [
         { name: "Liverpool.com", tier: "B" },
