@@ -385,11 +385,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, and the summer's biggest move finally begins to move:
-          Liverpool have opened official talks with Paris and tabled a first bid
-          past eighty-five million for Bradley Barcola. Behind it, Iraola's
-          non-negotiable centre-back grows a name in Marc Guehi. Monaco visit
-          Anfield on Sunday; Newcastle waits three weeks out.
+          Wednesday, and a decade closes quietly: Mohamed Salah has agreed a
+          two-year Trabzonspor deal, a clause from official, ending nine years
+          at Anfield. Behind the farewell, Iraola counts a thinning defence,
+          Frimpong the lone fit right-back, and a Barcola bid stuck in Paris.
+          Monaco visit Anfield on Sunday; Newcastle waits eighteen days out.
         </p>
 
         <StatStrip stats={stats} />
@@ -418,20 +418,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and the summer's slow burn finally catches. Liverpool have opened
-              official talks with <em>Paris Saint-Germain</em> and put a first
-              written bid, north of eighty-five million, on the table for{" "}
-              <em>Bradley Barcola</em>, the winger who has wanted this since{" "}
-              <em>Salah</em> left. Paris still price him closer to a hundred and
-              seventy; the two clubs, at last, are talking. Behind the marquee
-              move Andoni Iraola's non-negotiable grows a name, the BBC reporting
-              a renewed push for <em>Marc Guehi</em>, the centre-back who keeps
-              slipping the net. <em>Victor Munoz</em>, a World Cup winner, flies
-              in early; <em>Curtis Jones</em> edges toward Inter; <em>Salah</em>{" "}
-              inches toward Trabzon on a deal no one will yet sign. A champion,
-              thin at the back, five days from Monaco and its first football
-              home.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and the decade that <em>Mohamed Salah</em> defined reaches its last
+              clause. Turkish reporting has the Egyptian agreeing a two-year deal
+              at <em>Trabzonspor</em>, a package near twenty-three million a year,
+              one signature from ending nine years and two hundred and fifty-seven
+              goals at Anfield. Beneath the farewell, Andoni Iraola counts a
+              defence worn thin: <em>Frimpong</em> limped off against Leeds, and
+              with Bradley and Gomez both out he is the only fit senior right-back
+              before Newcastle. The marquee move has stalled, a <em>Barcola</em>{" "}
+              bid stuck behind PSG's hundred-and-forty-five-million wall, while{" "}
+              <em>Marc Guehi</em> stays the name the back line needs.{" "}
+              <em>Curtis Jones</em> edges toward Inter; a World Cup winner in{" "}
+              <em>Victor Munoz</em> flies home early. A champion, thinner by the
+              week, four days from Monaco and its first football home.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -439,10 +439,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              bid finally tabled in Paris; a centre-back the club has chased for
+              bid stuck fast in Paris; a centre-back the club has chased for
               two windows; a World Cup winner cutting his holiday short; a
-              farewell bending east that no one will yet sign; and the first
-              football back at Anfield on Sunday. Read them in order. The season
+              farewell bending east, now agreed and a clause from done; and the
+              first football back at Anfield on Sunday. Read them in order. The season
               opens at Newcastle on the twenty-third of August, and the summer
               has not been quiet once.
             </p>
@@ -3162,7 +3162,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Still under construction."
+        "The number eleven, gone east."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

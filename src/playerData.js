@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Tue Jul 21 — settled in Chicago with the right flank to himself. Bradley travelled but only for rehabilitation and will not play a minute of the tour, which leaves Frimpong the sole fit senior right-back across three fixtures in twelve days and gives Iraola no way to rest him beyond promoting an academy full-back. A first pre-season under a coach whose Bournemouth sides asked their wing-backs to run the touchline for ninety minutes should suit him better than the last twelve months did. Fit, available, and short of competition", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Wed Aug 5 — a scare, quickly downplayed, on a flank with no cover. Frimpong limped out of Sunday's 2-4 loss to Leeds, but Iraola moved fast to soften it, 'I don't think it's an injury, just some overload,' and expects him available. The relief is thin: with Bradley still months from his knee injury and Gomez out for weeks with a muscle problem, the Dutchman is effectively the only fit senior right-back before Newcastle, an academy full-back the sole cover. Fit, if managed, and badly short of competition", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 6, goals: 0, assists: 0, cleanSheets: 2, xG: 0.1, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.6, status: "fit", injuryNote: "Tue Aug 4 — leaned on hard, and about to get help. Jacquet started the 2-4 loss to Leeds at Soldier Field, the £60m signing from Rennes carrying a young back line that shipped four after the break. With Gomez out for weeks, Leoni on his ACL and Van Dijk eased back only through the Anfield friendlies, the 20-year-old is the only senior partner available, which is why the BBC now have Liverpool stepping up for Crystal Palace's Marc Guehi. The non-negotiable centre-back only looks more urgent after Chicago", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 6, goals: 0, assists: 0, cleanSheets: 2, xG: 0.1, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.6, status: "fit", injuryNote: "Wed Aug 5 — nursed carefully where the squad can least afford it. Reporting has Jacquet feeling some discomfort, Liverpool taking a deliberately cautious approach to the 20-year-old's pre-season load as he shakes off the shoulder problem that ended his final Rennes season early. With Gomez out for weeks, Leoni still on his ACL and Van Dijk only eased back through the Anfield friendlies, the £60m Frenchman is the one senior centre-back Iraola can lean on, which is exactly why the Guehi and Tomori files stay open. The non-negotiable only looks more urgent", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -142,7 +142,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Tue Aug 4 — Inter believe it is theirs bar the fee. The Serie A side have gone to £30m against Liverpool's £35m and are reported to think they are signing him, with one account tying the change of tone to a dressing-room spat with Szoboszlai. Into the final year of his deal, the 25-year-old academy graduate is ready to push for the move where a month ago Iraola's warmth read as decisive. The distance is money, not will, and talks are set to run on. He played on the tour and is still needed in midfield with Mac Allister only back for the Como friendly", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Wed Aug 5 — Inter sense the breakthrough. The Serie A side, twice rebuffed, are reported to believe they have found a breakthrough, moving toward £30m against Liverpool's £35m-£40m demand, with the 25-year-old academy graduate into the final year of his deal and open to a bigger role at San Siro. The mood at Anfield has shifted from keep to sell as the price closes, though the clubs are not yet aligned on the fee. He played on the tour and is still needed in midfield with Mac Allister only back for the Como friendly", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -463,11 +463,11 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-08-04T10:30:00Z",
+  generatedAt: "2026-08-05T10:30:00Z",
   overview:
-    "The table stays frozen until Newcastle on August 23: these are 2025-26's final twenty rows, Arsenal champions on 85 and Liverpool fifth on 60, with ESPN's 2026-27 feed still reset to zero and the promoted sides swapped in for West Ham, Burnley and Wolves. The live story is the rebuild, and this week it quickened: Liverpool have opened official talks with PSG and tabled a first Barcola bid worth more than £85m, while Iraola's non-negotiable centre-back has grown a marquee name in Crystal Palace's Marc Guehi, the BBC reporting a renewed push. The Leeds collapse still frames the need, Gomez out for weeks and only Van Dijk and the 20-year-old Jacquet fit at the back. Off the grass the sell side hardens too, Inter believing they are closing on Curtis Jones and Tottenham warming to a Gakpo the club will not sell cheaply, with the opener at Newcastle now three weeks away.",
+    "The table stays frozen until Newcastle on August 23: these are 2025-26's final twenty rows, Arsenal champions on 85 and Liverpool fifth on 60, with ESPN's 2026-27 feed still reset to zero and the promoted sides yet to swap in for the relegated three. The live story is the rebuild, and this week it turned on a departure: Mohamed Salah has agreed a two-year Trabzonspor deal, one clause from ending nine years at Anfield, while Iraola's defence thins alarmingly, Frimpong limping off against Leeds to leave one fit senior right-back with Gomez and Bradley both out. Off the grass the marquee Barcola pursuit has stalled at PSG's £145m wall, the centre-back hunt still points at Palace's Marc Guehi, and Inter sense a breakthrough for Curtis Jones. The opener at Newcastle is now eighteen days away.",
   teams: {
-    "Liverpool": "Fifth on 60 and dark until August 23. The summer's live business is a Barcola bid now tabled in Paris and a renewed push for Palace's Marc Guehi to fix a back line down to Van Dijk and the 20-year-old Jacquet; Inter, meanwhile, believe they are closing on Curtis Jones.",
+    "Liverpool": "Fifth on 60 and dark until August 23. The summer's defining line is Salah's agreed Trabzonspor exit, one clause from official; behind it a defence cut to Van Dijk and the 20-year-old Jacquet, Frimpong the lone fit right-back, with Guehi chased and a stalled Barcola bid stuck at PSG's £145m.",
     "Arsenal": "Champions on 85, and among the clubs Liverpool have moved ahead of in the race for Mainz's Kaishu Sano.",
     "Manchester City": "Second on 78, whose £116m for Elliot Anderson set the benchmark PSG have priced Barcola above; their winter interest once cooled Liverpool's pursuit of Marc Guehi, now revived.",
     "Manchester United": "Third on 71, back in the Champions League, and a rival to Liverpool for Sano this summer.",
@@ -489,128 +489,127 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "The Table Is Set In Paris.",
-    byline: "Fabrizio Romano / Empire of the Kop",
-    dateline: "Paris · 4 August",
-    category: "Transfers",
+    headline: "The Number Eleven, Turned East.",
+    byline: "FootballTransfers / Transfermarkt",
+    dateline: "Anfield · 5 August",
+    category: "Farewells",
     body:
-      "For a summer the Barcola pursuit was a number quoted and a shrug returned. This week it became a conversation. Liverpool have opened official club-to-club talks with Paris Saint-Germain and put the first written offer on the table, a package reported above eighty-five million pounds, over a hundred million euros. Paris still want something near a hundred and seventy million; they are expected to come down, and Liverpool are said to be ready to climb toward a hundred and twenty-eight. The player wants it, personal terms are settled, and only Fabrizio Romano's caution remains, that this is not a here-we-go, not today and not tomorrow. But the two clubs are talking, and that alone is new.",
+      "A goodbye this large was always going to end far from home. Turkish reporting has Mohamed Salah agreeing a two-year deal at Trabzonspor, a package near twenty-three million euros a year with add-ons and a share of shirt sales, one contractual clause short of the announcement. Besiktas, once favourites, stepped away weeks ago. He leaves as a free agent, his contract allowed to lapse in June, the most decorated number eleven the club has known: two hundred and fifty-seven goals in four hundred and forty-two games, two titles, a Champions League. Nine years, and the Kop's greatest modern forward finds his last stage above the Black Sea.",
   },
   {
     n: "02",
-    headline: "The One That Got Away, Chased Again.",
-    byline: "BBC Sport / This Is Anfield",
-    dateline: "Selhurst Park · 4 August",
-    category: "Transfers",
+    headline: "One Fit Full-Back, And A Long Month.",
+    byline: "Sports Mole / This Is Anfield",
+    dateline: "Kirkby · 4 August",
+    category: "Injuries",
     body:
-      "Some names a club never quite stops wanting. The BBC report Liverpool stepping up their move for Marc Guehi, the England centre-back they lined up and lost on a deadline day a year ago and again to City's interest in the winter, and who is somehow still a Crystal Palace player as the window narrows. He is the marquee answer to the defence Chicago exposed, twenty-five, left-sided, Premier-League-proven, a natural partner for Van Dijk. Behind him sits the value route, initial contact with Milan over Fikayo Tomori at a quarter of the fee. Iraola called a centre-back the non-negotiable. This is the club, at last, negotiating.",
+      "The scare came late in Chicago, Jeremie Frimpong limping out of the Leeds defeat, and Andoni Iraola was quick to soften it, calling it overload rather than injury. The relief is thin. Behind Frimpong there is almost nothing: Conor Bradley is still months from the knee he hurt against Arsenal, and Joe Gomez, forced off inside eight minutes at Sunderland, is out for weeks and misses the opener. That leaves the Dutchman as effectively the only fit senior right-back before Newcastle, an academy body the only cover. A window built around a winger and a centre-back suddenly has a third hole to fill.",
   },
   {
     n: "03",
-    headline: "A World Champion Comes Home Early.",
-    byline: "Anfield Watch / Liverpool FC",
-    dateline: "Kirkby · 4 August",
-    category: "Manager",
+    headline: "The Wall In Paris.",
+    byline: "Liverpool.com / Sports Mole",
+    dateline: "Paris · 5 August",
+    category: "Transfers",
     body:
-      "Pre-season is a slow reassembly, and the pieces are arriving. Andoni Iraola confirmed that Victor Munoz, the summer's one signing and a newly minted World Cup winner with Spain, will cut short his break and fly in next week rather than wait for the Como friendly. He joins a squad filtering back to the AXA Centre, Van Dijk and Alisson home from their own tournament breaks, Mac Allister due before mid-August. For a manager who watched his reserves ship four in Chicago, and whose recruitment is still a bid rather than a body, every senior name walking through the door reads as its own small signing.",
+      "For a week the Barcola pursuit was a live negotiation. This week it became a standoff. Liverpool's opening bid of around eighty-six million pounds sits well short of PSG's hundred-and-forty-five-million valuation, and Paris, in no hurry, have not blinked. The Reds are said to be willing to climb toward ninety, and to have started sketching fallbacks, Bournemouth's teenage Brazilian Rayan and Brighton's Yankuba Minteh the names held in reserve. Barcola still wants Anfield, having refused a new deal in the capital; the obstacle is purely the fee. The statement signing of the summer is close enough to picture and far enough to doubt.",
   },
   {
     n: "04",
-    headline: "The Deal That Won't Be Named.",
-    byline: "Goal / TNT Sports",
-    dateline: "Trabzon · 3 August",
-    category: "Farewells",
+    headline: "A Manager In The Uncertain Month.",
+    byline: "This Is Anfield / Anfield Watch",
+    dateline: "AXA Centre · 5 August",
+    category: "Manager",
     body:
-      "A goodbye this large does not end quietly. Turkish reporting has Mohamed Salah closing on Trabzonspor, a preliminary agreement worth around seventeen million euros a year plus bonuses, complete with the ritual private-jet image that trails every Super Lig arrival. And yet nothing is signed: the length, the payment, the clauses are all still being argued, and the club's own president, Ertugrul Dogan, keeps saying it aloud, there is no such plan, there is nothing to it. Besiktas, once favourites, have stepped away. The most decorated number eleven in the club's history edges toward a stadium above the Black Sea, a month past his Anfield farewell and not quite gone.",
+      "Andoni Iraola does not pretend to enjoy August. You start the competition, he said this week, and you still do not know who will leave, who will come, there is a lot of uncertainty. It is an honest read of a squad still short a winger, a midfielder and a defender, its stars only now filtering back to Kirkby. Van Dijk and Alisson are home from the World Cup and building toward Sunday; Victor Munoz, a champion with Spain, will report early rather than wait for Como. The coach who beat Sunderland and Wrexham before the Leeds jolt is assembling his Liverpool in real time, out on the training pitches.",
   },
   {
     n: "05",
     headline: "First Light At Anfield.",
     byline: "Liverpool FC / This Is Anfield",
-    dateline: "Anfield · 4 August",
+    dateline: "Anfield · 5 August",
     category: "Football News",
     body:
-      "The football returns to L4 on Sunday. Monaco visit for a two-thirty kick-off, Andoni Iraola's first afternoon in the home dugout after beating Sunderland and Wrexham across the Atlantic, and the first meeting of these two since a Champions League group stage in the season Istanbul was won. It is the first of two Anfield friendlies, the runway on which Van Dijk and Alisson find their minutes and the returning World Cup men their rhythm. Around it the noise does not stop, a Barcola bid live in Paris, Guehi chased at Selhurst, even a stray, wistful murmur about bringing Trent home. Three weeks to Newcastle, and a champion still under construction.",
+      "The football comes home on Sunday. Monaco visit for a two-thirty kick-off, Andoni Iraola's first afternoon in the Anfield dugout after a tour that beat Sunderland and Wrexham and unravelled against Leeds. It is the clubs' first meeting since a Champions League group stage in the season that ended in Istanbul, twenty-one years back, and the first of two home friendlies before Newcastle. Van Dijk and Alisson are due their first minutes, the returning World Cup men their rhythm. Around it the window will not quieten: a farewell agreed in Turkey, a bid stuck in Paris, a defence being counted and recounted. Eighteen days to the opener.",
   },
 ];
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-08-04T10:30:00Z",
+  generatedAt: "2026-08-05T10:30:00Z",
   summary:
-    "Tuesday, and the summer's marquee move has finally quickened: Liverpool have opened official club-to-club talks with Paris Saint-Germain for Bradley Barcola and tabled an opening bid worth more than £85m (over €100m), the first written offer of a pursuit that has simmered since Salah left. PSG value the France winger near €170m (£145m) but are expected to soften, and Liverpool are prepared to move toward £128m in total, though Fabrizio Romano cautions this is no imminent deal, not today and not tomorrow. Iraola's hunt for his non-negotiable centre-back has meanwhile grown a bigger name, the BBC reporting Liverpool stepping up their move for Crystal Palace's Marc Guehi alongside the interest in Milan's Fikayo Tomori. World Cup winner Victor Munoz will cut short his break and fly in next week, while the sell side rumbles on: Inter believe they are closing on Curtis Jones, Tottenham have opened positive talks over Cody Gakpo, and Salah edges toward a Trabzonspor agreement neither side has yet signed. Monaco visit Anfield this Sunday, the runway to a Newcastle opener now three weeks out on August 23.",
+    "Wednesday, and the era that defined a decade is all but formally over: Mohamed Salah has agreed a two-year deal at Trabzonspor, Turkish reporting putting his package near €23m a year plus bonuses and a share of shirt sales, with only a single contractual clause still to clear before the most decorated No. 11 in the club's history is confirmed gone. Beneath the farewell, Iraola's defence is the live worry: Jeremie Frimpong limped out of Sunday's Leeds loss, and though the manager played it down as overload, it leaves a right-back department down to one fit senior, with Bradley and Gomez both sidelined into September. The Barcola pursuit has meanwhile stalled, PSG holding near £145m as Liverpool draw up contingencies in Bournemouth's Rayan and Brighton's Yankuba Minteh, while the centre-back hunt still points at Crystal Palace's Marc Guehi with Milan's Fikayo Tomori the value route. Inter believe they have found a breakthrough for Curtis Jones, and Cody Gakpo keeps warming to Tottenham. Monaco visit Anfield on Sunday for Iraola's first home dugout, the Newcastle opener now eighteen days out on August 23.",
   keyTopics: [
     {
-      title: "Liverpool Open Official PSG Talks And Table First Barcola Bid Worth Over £85m (Fabrizio Romano / Empire of the Kop, today)",
+      title: "Salah Agrees Two-Year Trabzonspor Deal, One Clause From Ending Nine Years At Anfield (FootballTransfers / Transfermarkt, today)",
       detail:
-        "The slow burn has caught. Confirmed on Monday and firming through Tuesday, Liverpool have opened official club-to-club talks with Paris Saint-Germain for Bradley Barcola and lodged their first written offer, a package reported at more than £85m (over €100m). PSG value the 23-year-old France winger near €170m (£145m) but are expected to compromise as talks progress, and Liverpool are said to be ready to move toward €150m (£128.5m) in total, roughly €110m of it up front. Barcola wants the move and personal terms are no obstacle; Fabrizio Romano's caveat is only pace, this is not an imminent deal, not today and not tomorrow.",
-      category: "transfers",
-    },
-    {
-      title: "BBC: Liverpool Step Up Move For Marc Guehi As The Centre-Back Hunt Finds Its Name (BBC Sport, today)",
-      detail:
-        "The non-negotiable now has a target. BBC Sport reported on Tuesday that Liverpool are stepping up their pursuit of Crystal Palace and England centre-back Marc Guehi, having held initial talks and wanting the 25-year-old in before the window shuts, a year after a deadline-day move for him collapsed and City pipped them in the winter. It reframes a defence laid bare in Chicago: Guehi is the marquee solution, Milan's Fikayo Tomori (valued near £24.9m) the cheaper alternative, and either would ease a back line down to Van Dijk and 20-year-old Jacquet.",
-      category: "transfers",
-    },
-    {
-      title: "Iraola Confirms Victor Munoz Will Cut Short His Break And Fly In Next Week (Anfield Watch / Yahoo Sports, today)",
-      detail:
-        "The one summer arrival is coming home early. Andoni Iraola confirmed on Tuesday that Victor Munoz, the £34.5m winger and newly crowned World Cup champion with Spain, will cut short his post-tournament break and report to the AXA Centre next week rather than wait for the Como friendly. The window's first and so far only signing, in since June on a six-year deal, gives Iraola a first look at the 22-year-old before the Newcastle opener, and a rare piece of good news on a right flank left thin by Salah's exit.",
+        "The long goodbye reaches its terms. Turkish journalist Yagiz Sabuncuoglu reports Mohamed Salah has agreed a two-year contract with Trabzonspor worth around €23m a year plus a further €20m in add-ons, a share of shirt sales built in, with only a single contractual clause still awaiting approval before the move can be made official. It closes a nine-year Anfield story of 257 goals in 442 games, two league titles and a Champions League, a month after his contract was allowed to lapse. Besiktas, once favourites, have long since stepped away; the 34-year-old's wish to stay in Europe has carried him to the Black Sea coast.",
       category: "general",
     },
     {
-      title: "Liverpool Decide Against Reviving The €100m Yan Diomande Deal (CaughtOffside / Sports Mole, 1d ago)",
+      title: "Frimpong Limps Off Against Leeds As Liverpool's Right-Back Cupboard Shrinks To One (Sports Mole / This Is Anfield, today)",
       detail:
-        "A door quietly closed. Reporting on Monday said Liverpool have decided not to revive their interest in RB Leipzig winger Yan Diomande, despite intermediaries testing whether the Reds would return to a deal worth around €100m. With the recruitment budget pointed squarely at Barcola on the left and the centre-back the priority behind him, the club were unwilling to reopen a pursuit that would splinter their spend. It trims the winger board to the names that matter, Barcola first, Minteh in reserve.",
+        "A fresh scare on an already bare flank. Jeremie Frimpong was withdrawn in the second half of Sunday's 2-4 loss to Leeds, and while Andoni Iraola moved quickly to play it down, 'I don't think it's an injury, just some overload,' the episode underlined how thin Liverpool are at right-back. Conor Bradley is still months from returning with the knee suffered against Arsenal, and Joe Gomez is out for weeks with a muscle problem and misses the opener, leaving Frimpong as effectively the only fit senior option before Newcastle. A defender arriving looks as urgent now as any winger.",
+      category: "injuries",
+    },
+    {
+      title: "Barcola Talks Stall As PSG Hold At £145m And Liverpool Sketch Rayan, Minteh As Plan B (Liverpool.com / Sports Mole, today)",
+      detail:
+        "The marquee move has hit its price wall. Liverpool's opening bid of around £86m for Bradley Barcola sits well short of PSG's £145m valuation, and with Paris showing no urgency to drop it, Wednesday's reporting has the Reds prepared to climb toward £90m while also drawing up contingencies, Bournemouth's Brazilian teenager Rayan and Brighton's Yankuba Minteh the most credible Premier League fallbacks. Barcola himself still wants Anfield, having refused a new deal in Paris, but the two clubs remain far apart on the fee that would make the summer's statement signing real.",
       category: "transfers",
     },
     {
-      title: "Pundits Urge Liverpool To Weigh A Trent Alexander-Arnold Reunion After One Madrid Year (This Is Anfield, 1d ago)",
+      title: "Liverpool Keep Guehi As The Marquee Centre-Back Target With Tomori The Value Route (BBC Sport / ESPN, today)",
       detail:
-        "The sentiment file reopens. With the right flank thinned and the rebuild still taking shape, voices around the club have urged Liverpool to put emotion aside and at least consider bringing Trent Alexander-Arnold back after a single season at Real Madrid. It is chatter rather than a live pursuit, no talks, no bid, but it is the kind of what-if a title defence with a stretched squad invites, and a reminder of how much the summer's departures still ache.",
+        "The board has a name and a fallback. Liverpool remain in the market for Crystal Palace and England centre-back Marc Guehi, the profile Iraola has made his non-negotiable, with Milan's Fikayo Tomori (valued near £25m) held as the cheaper alternative should Palace's price climb. The defence that shipped four after the break in Chicago is down to Van Dijk and the 20-year-old Jacquet, Gomez sidelined, and the club want a senior body in before the Newcastle opener. A year on from a deadline-day collapse, the chase for Guehi resumes.",
+      category: "transfers",
+    },
+    {
+      title: "Inter Sense A Breakthrough On Curtis Jones As The Valuation Gap Narrows (Goal / Liverpool.com, today)",
+      detail:
+        "The exit inches closer. Inter Milan, rebuffed twice this summer, believe they have reached a breakthrough for Curtis Jones, improving their offer toward £30m against Liverpool's £35m-£40m demand, with the England midfielder into the final year of his deal and said to be open to a bigger role at San Siro. Liverpool value the academy graduate but the mood has shifted toward a sale, and talks are expected to run deep into the window. Letting him go would thin a midfield already waiting on Mac Allister's return from the World Cup final.",
+      category: "transfers",
+    },
+    {
+      title: "Jacquet Managed Carefully With Discomfort As Liverpool Nurse Their Lone Senior Centre-Back (This Is Anfield, today)",
+      detail:
+        "Caution where the squad can least afford a setback. Reporting this week has Jeremy Jacquet feeling some discomfort, with Liverpool taking a deliberately careful approach to the 20-year-old's pre-season workload as he shakes off the shoulder problem that ended his final Rennes season early. With Gomez out for weeks, Leoni still on his ACL and Van Dijk only being eased back through the Anfield friendlies, the £60m Frenchman is the one senior centre-back Iraola can lean on, which is precisely why the Guehi and Tomori files stay open.",
+      category: "injuries",
+    },
+    {
+      title: "'I Hate August': Iraola On The Uncertainty Of A Window That Will Not Settle (This Is Anfield, today)",
+      detail:
+        "A rare flash of candour from the new man. Andoni Iraola admitted this week that August unsettles him, 'you start the competition, you still don't know if some of the players are going to leave, who is going to come, there is a lot of uncertainty,' a line that captures a Liverpool squad still short a winger, a midfielder and a defender with the opener closing in. The coach who beat Sunderland and Wrexham on tour before the Leeds jolt is building in real time, his first Anfield afternoon against Monaco days away and the shape of his side still forming.",
       category: "general",
     },
     {
-      title: "Salah Edges Toward Trabzonspor On A Reported €17m Salary, Both Sides Yet To Sign (Goal / TNT Sports, 1d ago)",
+      title: "Gakpo Stays Open To Tottenham As Spurs Push, But Liverpool Set No Selling Price (Yahoo Sports / Sports Mole, 2d ago)",
       detail:
-        "The farewell is close, not done. Turkish outlet Sabah reports a preliminary agreement handing Mohamed Salah around €17m a year plus bonuses at Trabzonspor, complete with the private-jet imagery, though the length of the deal, the payment structure and the remaining clauses are still being worked and no contract is signed. Trabzonspor president Ertugrul Dogan continues to deny it flatly, telling A Spor 'there is no such plan; there is nothing to it.' Besiktas, once favourites, have suspended their own talks. Liverpool, having let the contract lapse, can only watch.",
+        "The player is warmer than the club. Cody Gakpo and his camp are reported to have held positive talks with Tottenham and the Dutchman is said to be open to a move, yet Liverpool have received no bid and no wish to sell a forward central to Iraola's front line. With Salah's flank now vacant the manager wants Gakpo tested on the left through the Anfield friendlies, and it would take an offer well beyond £60m to move the club. For now it is interest that has hardened into conversation, not negotiation.",
+      category: "transfers",
+    },
+    {
+      title: "World Cup Winner Munoz To Report Early As The Senior Spine Filters Back To Kirkby (Anfield Watch / Liverpool FC, 1d ago)",
+      detail:
+        "Reinforcement of a different kind. Victor Munoz, the £34.7m winger and newly crowned World Cup champion with Spain, will cut short his post-tournament break to report to the AXA Centre next week rather than wait for the Como friendly, giving Iraola an early look at the window's one signing so far. He joins Van Dijk and Alisson, both home from their own tournament breaks and building toward first minutes against Monaco, with Mac Allister due before Como on August 16. On a squad thinned by summer exits, every returning senior reads as its own small signing.",
       category: "general",
     },
     {
-      title: "Inter Believe They Are Closing On Curtis Jones As The £30m-£35m Gap Narrows (This Is Anfield / TeamTalk, 1d ago)",
+      title: "Monaco Visit Anfield On Sunday For Iraola's First Home Dugout, 21 Years On (Liverpool FC, 1d ago)",
       detail:
-        "The mood has shifted toward the exit. Inter Milan, twice rebuffed this summer, have gone to £30m for Curtis Jones and are reported to believe they are signing him, though Liverpool still hold at a minimum of £35m for the academy graduate now into the final year of his deal. The distance is money, not will: reporting has the 25-year-old ready to push, with one account tying the change of tone to a dressing-room spat with Szoboszlai. Talks are set to run on through a busier second half of the window.",
-      category: "transfers",
-    },
-    {
-      title: "Gakpo Open To Tottenham As The Two Camps Hold Positive Talks, Liverpool Unmoved (Yahoo Sports / Sports Mole, 2d ago)",
-      detail:
-        "The interest has hardened into conversation. Cody Gakpo and his camp are reported to have held positive discussions with Tottenham and the Dutchman is said to be open to the move, though Liverpool are yet to receive a bid and have no plan to sell a forward central to Iraola's front line. It would take a figure well north of £60m to shift the club's stance, and with Salah's flank vacant the manager wants Gakpo tested on the left through the Anfield friendlies. For now it is a player warming to an idea the club has not entertained.",
-      category: "transfers",
-    },
-    {
-      title: "Monaco At Anfield On Sunday: Iraola's First Home Dugout, And A Reunion 21 Years On (Liverpool FC, 2d ago)",
-      detail:
-        "The next football is close. Liverpool host AS Monaco at Anfield this Sunday, August 9, a 2.30pm kick-off that gives Andoni Iraola his first appearance in the home dugout after beating Sunderland and Wrexham stateside, and marks the clubs' first meeting since the group stage of the 2004-05 Champions League run. It is the first of two Anfield friendlies before the opener, the stage on which Van Dijk and Alisson build their minutes and the returning World Cup men rejoin the group.",
+        "The football returns to L4. Liverpool host AS Monaco this Sunday, August 9, a 2.30pm kick-off that hands Andoni Iraola his first afternoon in the Anfield dugout after beating Sunderland and Wrexham stateside and losing the Chicago finale to Leeds. It is the clubs' first meeting since the group stage of the 2004-05 Champions League run that ended in Istanbul, and the first of two home friendlies before Newcastle, the stage on which Van Dijk and Alisson find their rhythm and the returning World Cup men rejoin the group.",
       category: "matches",
-    },
-    {
-      title: "The Squad Reassembles As Van Dijk, Alisson And The World Cup Men Filter Back To Kirkby (Liverpool FC, 3d ago)",
-      detail:
-        "The bodies are coming back. Virgil van Dijk and Alisson, both home from post-World Cup breaks, have filtered into training at Kirkby, with the captain's first minutes lined up for Monaco on Sunday rather than the American tour, while Mac Allister and Munoz are due to rejoin before Como on August 16. After a summer that thinned the squad and a Chicago night that exposed the depth behind the first eleven, returning senior legs matter as much as any incoming bid.",
-      category: "general",
     },
   ],
   sources: [
-    "Fabrizio Romano",
-    "Empire of the Kop",
-    "BBC Sport",
-    "This Is Anfield",
-    "Yahoo Sports",
-    "Goal",
-    "TNT Sports",
-    "TeamTalk",
+    "FootballTransfers",
+    "Transfermarkt",
     "Sports Mole",
-    "CaughtOffside",
+    "This Is Anfield",
+    "Liverpool.com",
+    "BBC Sport",
+    "ESPN",
+    "Goal",
+    "Yahoo Sports",
     "Anfield Watch",
     "Liverpool FC",
   ],
@@ -620,9 +619,9 @@ export const NEWS_DIGEST = {
 // heatTier: "hot" (≥65%) | "warm" (40-64%) | "cool" (<40%) | "done" | "dead"
 // sources[].tier: "S" (Romano-class) | "A" (major outlet) | "B" (beat) | "C" (aggregator)
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-08-04T10:30:00Z",
+  generatedAt: "2026-08-05T10:30:00Z",
   summary:
-    "Tuesday, and the marquee move is at last in motion: Liverpool have opened official club-to-club talks with PSG for Bradley Barcola and tabled a first written bid worth more than £85m (over €100m), with Paris valuing the winger near €170m (£145m) but expected to soften, and the Reds prepared to move toward €150m (£128.5m) in total. Behind it the centre-back board has grown a bigger name: the BBC report Liverpool stepping up their move for Crystal Palace's Marc Guehi, the marquee answer to Iraola's non-negotiable, with Milan's Fikayo Tomori (around £24.9m) the cheaper route. On the sell side Inter believe they are closing on Curtis Jones as the £30m-£35m gap narrows, Tottenham have opened positive talks over a Gakpo the club will not sell cheaply, and Salah edges toward a Trabzonspor agreement, a reported €17m salary, that neither side has yet signed. Liverpool have also decided against reviving the €100m Yan Diomande deal, trimming the winger board to Barcola and the reserve names behind him. In midfield the value Sano route still leads the pricier, cooling Wharton one.",
+    "Wednesday, and the ledger's biggest line is a departure at last near done: Mohamed Salah has agreed a two-year Trabzonspor deal worth around €23m a year plus bonuses, one contractual clause from making the most storied exit of the window official. The marquee arrival, by contrast, has stalled: Liverpool's opening bid of about £86m for Bradley Barcola sits well below PSG's £145m ask, and with Paris unmoved the Reds have begun sketching fallbacks in Bournemouth's Rayan and Brighton's Yankuba Minteh. The centre-back board holds firm on Crystal Palace's Marc Guehi as the marquee answer to Iraola's non-negotiable, with Milan's Fikayo Tomori (around £25m) the value route into a defence down to Van Dijk and the 20-year-old Jacquet. On the sell side Inter believe they have found a breakthrough for Curtis Jones as the £30m-£40m gap narrows, and Tottenham keep pushing on a Gakpo the club will not sell cheaply. In midfield the value Sano route still leads the pricier, cooling Wharton one.",
   incoming: [
     {
       id: "barcola-2026",
@@ -641,17 +640,17 @@ export const TRANSFER_TARGETS = {
       contractExpiry: "2028-06-30",
       releaseClause: null,
       contractNote: "Contracted to PSG until 2028, the France international is the club's marquee saleable asset. He has ceased negotiations over a new deal despite a substantial pay rise offered in Paris, agreed personal terms with Liverpool on a contract to 2032, and told PSG he wants a Premier League move. Liverpool have now opened official club-to-club talks and lodged a first written bid worth more than £85m (over €100m); PSG value him near €170m (about £145m) but are expected to compromise, with Liverpool reported ready to move toward €150m (£128.5m) in total, roughly €110m up front. He is represented by Gestifute, the Mendes agency Liverpool have long dealt with.",
-      probability: 78,
+      probability: 72,
       heatTier: "hot",
       sources: [
         { name: "Fabrizio Romano",    tier: "S" },
-        { name: "Empire of the Kop",  tier: "B" },
+        { name: "Liverpool.com",      tier: "B" },
+        { name: "Sports Mole",        tier: "B" },
         { name: "This Is Anfield",    tier: "A" },
-        { name: "ESPN",               tier: "A" },
       ],
-      lastUpdated: "2026-08-04",
+      lastUpdated: "2026-08-05",
       rumorNote:
-        "Paris · 4 Aug — the slow burn catches at last. Liverpool have opened official club-to-club talks with PSG and tabled their first written offer, a package reported above £85m (over €100m), turning a summer of price discovery into a live negotiation. Paris still value him near €170m (£145m) but are expected to soften, and Liverpool are said to be prepared to reach €150m (£128.5m) in total, about €110m of it up front. The player has done his part, refusing a new deal and asking for England; Fabrizio Romano's only caution is tempo, this is not an imminent deal, not today and not tomorrow. Twenty-three, quick and direct, he remains the statement signing of the window, and for the first time the two clubs are actually talking.",
+        "Paris · 5 Aug — the negotiation meets its wall. A summer of price discovery became live talks this week, but PSG are holding firm near £145m against Liverpool's opening bid of about £86m, and with Paris in no hurry the Reds are said to be ready to climb toward £90m while quietly sketching fallbacks, Bournemouth's Rayan and Brighton's Yankuba Minteh the names in reserve. The player has done his part, refusing a new deal and asking for England; the gap now is purely the fee. Twenty-three, quick and direct, he remains the statement signing of the window, but for the first time the pursuit reads as stuck rather than accelerating.",
       positionFit: {
         replaces: "Salah (departed, free agent)",
         competesWith: ["Minteh (Brighton fallback)", "Gakpo", "Ngumoha"],
@@ -685,9 +684,9 @@ export const TRANSFER_TARGETS = {
         { name: "This Is Anfield",   tier: "A" },
         { name: "TeamTalk",          tier: "B" },
       ],
-      lastUpdated: "2026-08-04",
+      lastUpdated: "2026-08-05",
       rumorNote:
-        "Selhurst Park · 4 Aug — the one that keeps getting away, chased again. The BBC report Liverpool stepping up their pursuit of Marc Guehi, holding initial talks and wanting the England centre-back in before deadline, the same profile they failed to land on a deadline day a year ago and lost in the winter to City's move. The Leeds collapse turned the centre-back need from priority to non-negotiable, and Guehi is the marquee name on the board, Premier-League-proven, 25, left-sided and a natural partner for Van Dijk. Palace hold his registration and set the price; whether Liverpool convert admiration into a closed deal is the question the back line needs answered before Newcastle.",
+        "Selhurst Park · 5 Aug — still the name the defence needs. Liverpool remain in for Marc Guehi, the England centre-back they have chased across two windows, the marquee answer to a back line the Leeds collapse cut to Van Dijk and the 20-year-old Jacquet with Gomez out for weeks. Palace hold his registration into the final year of his deal and set the price; Milan's Tomori sits behind him as the value route should the fee climb too high. Premier-League-proven, 25, left-sided and a natural partner for Van Dijk, he is the body Iraola wants in before Newcastle, if admiration can at last be converted into a closed deal.",
       positionFit: {
         replaces: "Konate (departed, free)",
         competesWith: ["Van Dijk", "Jacquet", "Tomori (alt target)"],
@@ -1983,12 +1982,12 @@ export const TRANSFER_TARGETS = {
       id: "jones-out",
       name: "Curtis Jones",
       position: "MID",
-      destination: "Inter (£30m offer; Liverpool hold at £35m)",
+      destination: "Inter (breakthrough sensed; £30m vs Liverpool's £35m-£40m)",
       feeAsk: { min: 35, max: 40, currency: "£m" },
-      probability: 40,
+      probability: 50,
       heatTier: "warm",
-      sources: [{ name: "Goal", tier: "A" }, { name: "Sports Mole", tier: "B" }, { name: "FootballPlace", tier: "B" }, { name: "This Is Anfield", tier: "A" }],
-      note: "Tue 4 Aug — Inter believe it is theirs to close. The Serie A side, twice rebuffed this summer, have gone to £30m and are reported to think they are signing him, though Liverpool still hold at a minimum of £35m (around €40m). What has hardened is the player: the 25-year-old academy graduate, into the final year of his deal, is ready to push, with one account tying the shift to a dressing-room spat with Szoboszlai. The distance is money, not will, and talks are set to run on across a busier second half of the window.",
+      sources: [{ name: "Goal", tier: "A" }, { name: "Liverpool.com", tier: "B" }, { name: "Sports Mole", tier: "B" }, { name: "This Is Anfield", tier: "A" }],
+      note: "Wed 5 Aug — Inter sense the breakthrough. The Serie A side, twice rebuffed, are reported to believe they have found a breakthrough for Curtis Jones, moving toward £30m against Liverpool's £35m-£40m demand, with the 25-year-old academy graduate into the final year of his deal and open to a bigger role at San Siro. The mood at Anfield has shifted from keep to sell as the price closes, though the clubs are not yet aligned on the fee. Talks are set to run deep into the window, and losing him would thin a midfield still waiting on Mac Allister's return from the World Cup final.",
     },
     {
       id: "gakpo-out",
@@ -2016,12 +2015,12 @@ export const TRANSFER_TARGETS = {
       id: "salah-out",
       name: "Mohamed Salah",
       position: "FWD",
-      destination: "Free agent (Turkey; Trabzonspor leading, Besiktas suspended talks)",
+      destination: "Trabzonspor (two-year deal agreed, awaiting final clause)",
       feeAsk: { min: 0, max: 0, currency: "€" },
-      probability: 70,
-      heatTier: "warm",
-      sources: [{ name: "Yahoo Sports", tier: "B" }, { name: "ESPN", tier: "A" }, { name: "Foot Mercato", tier: "B" }, { name: "Football365", tier: "B" }],
-      note: "Tue 4 Aug — close, not signed. Turkish outlet Sabah reports a preliminary agreement handing the 34-year-old around €17m a year plus bonuses at Trabzonspor, private jet and all, though the length, the payment structure and the remaining clauses are still being worked and no contract has been put to paper. Their president Ertugrul Dogan continues to deny it flatly: 'there is no such plan; there is nothing to it.' Besiktas, once favourites on a one-plus-one near €10m net, have suspended their own talks. A free agent since June 30, the most decorated No. 11 in the club's history edges toward a coastline further east than anyone expected."
+      probability: 88,
+      heatTier: "hot",
+      sources: [{ name: "FootballTransfers", tier: "A" }, { name: "Transfermarkt", tier: "B" }, { name: "ESPN", tier: "A" }, { name: "Vanguard", tier: "C" }],
+      note: "Wed 5 Aug — agreed, bar a clause. Turkish reporting has Mohamed Salah agreeing a two-year deal at Trabzonspor worth around €23m a year plus roughly €20m in add-ons and a share of shirt sales, with a single contractual clause the last thing standing between him and an official announcement. Besiktas, once favourites on a smaller package, walked away weeks ago. A free agent since June 30 after his contract was allowed to lapse, the most decorated No. 11 in the club's history, 257 goals in 442 games, ends nine years with a move east few saw coming."
     },
     {
       id: "gomez-out",
