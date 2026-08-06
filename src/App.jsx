@@ -385,11 +385,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday, and a decade closes quietly: Mohamed Salah has agreed a
-          two-year Trabzonspor deal, a clause from official, ending nine years
-          at Anfield. Behind the farewell, Iraola counts a thinning defence,
-          Frimpong the lone fit right-back, and a Barcola bid stuck in Paris.
-          Monaco visit Anfield on Sunday; Newcastle waits eighteen days out.
+          Thursday, and a decade is framed and hung in Turkey: Mohamed Salah
+          passes his medical and is unveiled at Trabzonspor tonight, nine years
+          at Anfield closed. Behind the farewell, Iraola counts a thinning
+          defence, Frimpong the lone fit right-back, and weighs a double PSG
+          raid in Barcola and Zabarnyi. Monaco visit Anfield on Sunday; Newcastle
+          waits seventeen days out.
         </p>
 
         <StatStrip stats={stats} />
@@ -418,20 +419,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and the decade that <em>Mohamed Salah</em> defined reaches its last
-              clause. Turkish reporting has the Egyptian agreeing a two-year deal
-              at <em>Trabzonspor</em>, a package near twenty-three million a year,
-              one signature from ending nine years and two hundred and fifty-seven
-              goals at Anfield. Beneath the farewell, Andoni Iraola counts a
-              defence worn thin: <em>Frimpong</em> limped off against Leeds, and
-              with Bradley and Gomez both out he is the only fit senior right-back
-              before Newcastle. The marquee move has stalled, a <em>Barcola</em>{" "}
-              bid stuck behind PSG's hundred-and-forty-five-million wall, while{" "}
-              <em>Marc Guehi</em> stays the name the back line needs.{" "}
-              <em>Curtis Jones</em> edges toward Inter; a World Cup winner in{" "}
-              <em>Victor Munoz</em> flies home early. A champion, thinner by the
-              week, four days from Monaco and its first football home.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the decade that <em>Mohamed Salah</em> defined is framed and
+              hung in Turkey. He landed in Trabzon to a wall of scarves, sat for
+              his medical, and by tonight is unveiled at <em>Trabzonspor</em> on a
+              two-year deal, nine years and two hundred and fifty-seven Anfield
+              goals closed. Beneath the farewell, Andoni Iraola counts a defence
+              worn thin: <em>Frimpong</em> is the only fit senior right-back with
+              Gomez given about a month, and the manager now weighs a double raid
+              on Paris, chasing <em>Barcola</em> behind PSG's
+              hundred-and-forty-five-million wall while a familiar face in{" "}
+              <em>Illia Zabarnyi</em>, once his at Bournemouth, is offered back.{" "}
+              <em>Curtis Jones</em> edges toward Inter; the armband sits waiting
+              for a hand. A champion, thinner by the week, three days from Monaco
+              and its first football home.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -441,7 +442,7 @@ function CoverView({ onJump }) {
               five dispatches from the writers who never clock off. There is a
               bid stuck fast in Paris; a centre-back the club has chased for
               two windows; a World Cup winner cutting his holiday short; a
-              farewell bending east, now agreed and a clause from done; and the
+              farewell bending east, unveiled tonight in Trabzon; and the
               first football back at Anfield on Sunday. Read them in order. The season
               opens at Newcastle on the twenty-third of August, and the summer
               has not been quiet once.
@@ -3162,7 +3163,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The number eleven, gone east."
+        "A decade, framed and hung."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
