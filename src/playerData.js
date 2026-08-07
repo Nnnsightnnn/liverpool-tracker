@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 6, goals: 0, assists: 0, cleanSheets: 2, xG: 0.1, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.6, status: "doubtful", injuryNote: "Fri Aug 7 — a doubt for Monaco, and the squad can least afford it. Jacquet has still not rejoined training and has yet to play a minute of pre-season, four days before Monaco, the shoulder problem that ended his Rennes loan lingering after he was pulled from the Leeds squad for missing sessions. As Van Dijk's only fit senior centre-back partner with Gomez out and Leoni long-term, a doubt here stretches an already-bare back line, and if he cannot go Sunday Iraola leans on an eased-in captain and the academy's Ndukwe. It is why the Guehi file stays open even as Sky cool the Zabarnyi talk", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 6, goals: 0, assists: 0, cleanSheets: 2, xG: 0.1, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.6, status: "doubtful", injuryNote: "Fri Aug 7 — a doubt for Monaco, and the squad can least afford it. Jacquet has still not rejoined training and has yet to play a minute of pre-season, two days before Monaco, the shoulder problem that ended his Rennes loan lingering after he was pulled from the Leeds squad for missing sessions. As Van Dijk's only fit senior centre-back partner with Gomez out and Leoni long-term, a doubt here stretches an already-bare back line, and if he cannot go Sunday Iraola leans on an eased-in captain and the academy's Ndukwe. It is why the Guehi file stays open even as Sky cool the Zabarnyi talk", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -257,7 +257,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "fit", injuryNote: "Tue Aug 4 — coming home early. Iraola has confirmed the £34.7m winger and newly crowned World Cup champion with Spain will cut short his post-tournament break and report to the AXA Centre next week rather than wait for the Como friendly. The window's first and so far only signing, in since June on a six-year deal to 2032 after Liverpool met the €40m release clause at Osasuna, he gives the manager an early look on a right flank left thin by Salah's exit. Seven goals and five assists in LaLiga last season at 22. The stats below are his Liverpool record, which is why they are empty", image: "https://img.a.transfermarkt.technology/portrait/big/935231-1747037145.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "fit", injuryNote: "Fri Aug 7 — home early, and already on the grass. The £34.7m winger and newly crowned World Cup champion with Spain has cut short his post-tournament break and reported to the AXA Centre this week rather than wait for the Como friendly, telling the club he wanted time to adapt and meet teammates first. The window's first and so far only signing, in since June on a six-year deal to 2032 after Liverpool met the €40m release clause at Osasuna, he gives the manager an early look on a right flank left thin by Salah's exit. Seven goals and five assists in LaLiga last season at 22. The stats below are his Liverpool record, which is why they are empty", image: "https://img.a.transfermarkt.technology/portrait/big/935231-1747037145.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -508,12 +508,12 @@ export const DISPATCHES = [
   },
   {
     n: "03",
-    headline: "Four Days Out, And The Cupboard Is Bare.",
+    headline: "Two Days Out, And The Cupboard Is Bare.",
     byline: "Liverpool.com / ESPN",
     dateline: "AXA Centre · 7 August",
     category: "Injuries",
     body:
-      "The nearest worry is not in Paris; it is on the training pitches at Kirkby. Jeremy Jacquet, the twenty-one-year-old left as Van Dijk's only fit senior centre-back partner, has not rejoined training and has yet to play a minute of pre-season, the shoulder trouble from his Rennes loan still lingering four days before Monaco. He was pulled from the Leeds squad after missing sessions. If he cannot go Sunday, Iraola leans on an eased-in captain and the academy's Ndukwe in the middle, with Gomez a month away and the opener already lost. A back line that reads thin on paper is thinner still on grass, and the market has not yet answered.",
+      "The nearest worry is not in Paris; it is on the training pitches at Kirkby. Jeremy Jacquet, the twenty-year-old left as Van Dijk's only fit senior centre-back partner, has not rejoined training and has yet to play a minute of pre-season, the shoulder trouble from his Rennes loan still lingering two days before Monaco. He was pulled from the Leeds squad after missing sessions. If he cannot go Sunday, Iraola leans on an eased-in captain and the academy's Ndukwe in the middle, with Gomez a month away and the opener already lost. A back line that reads thin on paper is thinner still on grass, and the market has not yet answered.",
   },
   {
     n: "04",
@@ -567,7 +567,7 @@ export const NEWS_DIGEST = {
     {
       title: "World Champion, Home Early: Munoz Cuts His Break Short To Report To Iraola (This Is Anfield / Liverpool.com, today)",
       detail:
-        "The summer's one arrival is already on the grass. Victor Munoz, the £34.5m winger who lifted the World Cup with Spain in New Jersey, has cut short the holiday he was owed to report early to pre-season, telling the club he wanted time to adapt and meet teammates before the season begins. Iraola had flagged him and Mac Allister as the hardest returns to manage after a long tournament, but the 21-year-old, who wears 'Victor M.V.' on his shirt, chose the work over the rest. With the squad thin and a front line short of Salah, his early rapport with a reshaping attack is no small thing.",
+        "The summer's one arrival is already on the grass. Victor Munoz, the £34.5m winger who lifted the World Cup with Spain in New Jersey, has cut short the holiday he was owed to report early to pre-season, telling the club he wanted time to adapt and meet teammates before the season begins. Iraola had flagged him and Mac Allister as the hardest returns to manage after a long tournament, but the 22-year-old, who wears 'Victor M.V.' on his shirt, chose the work over the rest. With the squad thin and a front line short of Salah, his early rapport with a reshaping attack is no small thing.",
       category: "general",
     },
     {
@@ -583,9 +583,9 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "Jacquet A Doubt For Monaco: Lone Senior Cover Yet To Train Four Days Out (Liverpool.com, today)",
+      title: "Jacquet A Doubt For Monaco: Lone Senior Cover Yet To Train Two Days Out (Liverpool.com, today)",
       detail:
-        "The defensive worry has a nearer edge than the transfer market. Jeremy Jacquet, the 21-year-old left as Van Dijk's only fit senior centre-back partner, has not returned to training and has yet to play a minute of pre-season, four days before Monaco visit Anfield, the shoulder injury from his Rennes loan spell still lingering. He was pulled from the Leeds squad after missing sessions. If he cannot feature Sunday, Iraola leans further on an eased-in Van Dijk and the academy's Ndukwe, and the case for a body before Newcastle sharpens again.",
+        "The defensive worry has a nearer edge than the transfer market. Jeremy Jacquet, the 20-year-old left as Van Dijk's only fit senior centre-back partner, has not returned to training and has yet to play a minute of pre-season, two days before Monaco visit Anfield, the shoulder injury from his Rennes loan spell still lingering. He was pulled from the Leeds squad after missing sessions. If he cannot feature Sunday, Iraola leans further on an eased-in Van Dijk and the academy's Ndukwe, and the case for a body before Newcastle sharpens again.",
       category: "injuries",
     },
     {

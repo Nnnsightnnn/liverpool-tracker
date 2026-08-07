@@ -427,8 +427,8 @@ function CoverView({ onJump }) {
               a fee away rather than a wish. Beneath it Andoni Iraola counts a
               defence worn thin: <em>Frimpong</em> is the only fit senior
               right-back, with Spurs' <em>Djed Spence</em> the newest name floated,
-              while Sky cool the talk of a centre-back and <em>Jacquet</em>, four
-              days from Monaco, has yet to train. The farewell is sealed east,{" "}
+              while Sky cool the talk of a centre-back and <em>Jacquet</em>, yet
+              to train, is a doubt for Sunday. The farewell is sealed east,{" "}
               <em>Mohamed Salah</em> unveiled at Trabzonspor under a laser show,
               five words for a decade: <em>I am here to win</em>. A champion
               reshapes, two days from Monaco and its first football home.

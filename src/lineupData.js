@@ -29,9 +29,9 @@ export const FORMATIONS = {
     // (Aug 16); Ekitike, Leoni and Bradley take no part (rehab only); Gomez out for weeks
     // and missing the season start, leaving Frimpong the only fit recognised right back
     // and Jacquet the lone senior centre-back until Van Dijk is eased back. Liverpool have
-    // opened official PSG talks and tabled a first Barcola bid over £85m; the centre-back
-    // non-negotiable turns to Palace's Guehi (BBC) with Milan's Tomori the cheaper alt;
-    // Sano leads the six at ~£51m.
+    // raised their Barcola bid to about £100m (rejected by PSG but bending toward £145m);
+    // the centre-back non-negotiable stays Palace's Guehi with Milan's Tomori the cheaper alt,
+    // Spurs' Djed Spence a new RB option and Sky cooling the Zabarnyi talk; Sano leads the six.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -70,10 +70,10 @@ export const FORMATIONS = {
     // (Aug 16) after the World Cup final; the tour finished on a 2-4 Leeds loss after
     // wins over Wrexham and Sunderland; Ekitike, Leoni and Bradley travelled for
     // rehabilitation only and take no part, and Gomez is out for weeks and misses the
-    // season start; the winger board leads with Barcola, Liverpool having opened official
-    // PSG talks and tabled a first bid over £85m (PSG hold near €170m but are expected to
-    // soften); the centre-back non-negotiable turns to Palace's Guehi (BBC) with Milan's
-    // Tomori the cheaper alt; Jacquet the only senior CB fit until Van Dijk is eased back.
+    // season start; the winger board leads with Barcola, Liverpool having raised their bid
+    // to about £100m (rejected by PSG, who hold near €170m, but bending toward £145m);
+    // the centre-back non-negotiable stays Palace's Guehi with Milan's Tomori the cheaper alt,
+    // Spurs' Djed Spence a new RB option; Jacquet a doubt for Monaco until Van Dijk is eased back.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
