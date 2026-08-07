@@ -385,12 +385,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday, and a decade is framed and hung in Turkey: Mohamed Salah
-          passes his medical and is unveiled at Trabzonspor tonight, nine years
-          at Anfield closed. Behind the farewell, Iraola counts a thinning
-          defence, Frimpong the lone fit right-back, and weighs a double PSG
-          raid in Barcola and Zabarnyi. Monaco visit Anfield on Sunday; Newcastle
-          waits seventeen days out.
+          Friday, and the marquee move at last carries a bigger number:
+          Liverpool raise their Barcola bid to a hundred million, rejected in
+          Paris but bending toward the wall. Behind it a defence worn thin,
+          Frimpong the lone fit right-back and Spurs' Djed Spence the newest name,
+          while Sky cool the talk of a centre-back. Monaco visit Anfield on
+          Sunday; Newcastle waits sixteen days out.
         </p>
 
         <StatStrip stats={stats} />
@@ -419,20 +419,19 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and the decade that <em>Mohamed Salah</em> defined is framed and
-              hung in Turkey. He landed in Trabzon to a wall of scarves, sat for
-              his medical, and by tonight is unveiled at <em>Trabzonspor</em> on a
-              two-year deal, nine years and two hundred and fifty-seven Anfield
-              goals closed. Beneath the farewell, Andoni Iraola counts a defence
-              worn thin: <em>Frimpong</em> is the only fit senior right-back with
-              Gomez given about a month, and the manager now weighs a double raid
-              on Paris, chasing <em>Barcola</em> behind PSG's
-              hundred-and-forty-five-million wall while a familiar face in{" "}
-              <em>Illia Zabarnyi</em>, once his at Bournemouth, is offered back.{" "}
-              <em>Curtis Jones</em> edges toward Inter; the armband sits waiting
-              for a hand. A champion, thinner by the week, three days from Monaco
-              and its first football home.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              and the number that has stalled the whole summer finally moves.
+              Liverpool lift their offer for <em>Bradley Barcola</em> to a hundred
+              million, rejected in Paris but the first crack in a
+              hundred-and-forty-five-million wall, the statement signing suddenly
+              a fee away rather than a wish. Beneath it Andoni Iraola counts a
+              defence worn thin: <em>Frimpong</em> is the only fit senior
+              right-back, with Spurs' <em>Djed Spence</em> the newest name floated,
+              while Sky cool the talk of a centre-back and <em>Jacquet</em>, four
+              days from Monaco, has yet to train. The farewell is sealed east,{" "}
+              <em>Mohamed Salah</em> unveiled at Trabzonspor under a laser show,
+              five words for a decade: <em>I am here to win</em>. A champion
+              reshapes, two days from Monaco and its first football home.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -440,9 +439,9 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              bid stuck fast in Paris; a centre-back the club has chased for
-              two windows; a World Cup winner cutting his holiday short; a
-              farewell bending east, unveiled tonight in Trabzon; and the
+              bid raised to a hundred million in Paris; a right-back surfacing at
+              Tottenham; a World Cup winner who cut his holiday short; a
+              farewell sealed east, unveiled in Trabzon; and the
               first football back at Anfield on Sunday. Read them in order. The season
               opens at Newcastle on the twenty-third of August, and the summer
               has not been quiet once.
@@ -3163,7 +3162,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A decade, framed and hung."
+        "A wall in Paris, beginning to bend."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
