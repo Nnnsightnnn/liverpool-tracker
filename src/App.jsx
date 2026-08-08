@@ -385,12 +385,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday, on the eve of the first football home, and the marquee move
-          edges toward its answer: reporting has Liverpool and Paris closing on
-          the frame of a Barcola deal near a hundred and twenty-eight million,
-          cooled only by Romano's word that nothing is signed. Behind it a back
-          line pared to Van Dijk, Frimpong the lone fit right-back and Jacquet a
-          doubt, while Monaco visit Anfield tomorrow for Iraola's first home
+          Saturday, and the crisis finds its answer at last: Liverpool agree a
+          season-long loan for Barcelona's Ronald Araujo, senior cover across
+          the back for a defence pared by Konate's exit and a run of injuries.
+          The marquee winger move edges on too, Liverpool and Paris near the
+          frame of a Barcola deal, cooled only by Romano's word that nothing is
+          signed. Monaco visit Anfield tomorrow for Iraola's first home
           afternoon. Newcastle waits, fifteen days out.
         </p>
 
@@ -421,20 +421,21 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and the number that has stalled the whole summer edges toward its
-              answer. Reporting has Liverpool and Paris closing on the frame of a{" "}
-              <em>Bradley Barcola</em> deal near a hundred and twenty-eight
-              million, about a hundred and ten across five years, though{" "}
-              <em>Fabrizio Romano</em> cautions that nothing is signed and a fee
-              gap still holds: advanced, not done. Beneath it Andoni Iraola
-              counts a defence worn thin, <em>Frimpong</em> the only fit senior
-              right-back with Spurs' <em>Djed Spence</em> still floated,{" "}
-              <em>Jacquet</em> yet to train and a doubt as the back line pares to
-              Van Dijk. On the sell side <em>Curtis Jones</em> has set his sights
+              and the story to lead with is not the winger but the defender.
+              Liverpool agree a season-long loan for Barcelona's{" "}
+              <em>Ronald Araujo</em>, Fabrizio Romano calling it done, a
+              fifty-five-million option to buy and no obligation, senior cover
+              across centre-back and right-back for a line that Konate's free
+              exit and injuries to <em>Gomez</em>, Leoni and a doubtful{" "}
+              <em>Jacquet</em> had cut to <em>Van Dijk</em> alone. The marquee
+              move edges alongside it, Liverpool and Paris near the frame of a{" "}
+              <em>Bradley Barcola</em> deal around a hundred and twenty-eight
+              million, though Romano cautions nothing there is signed: advanced,
+              not done. On the sell side <em>Curtis Jones</em> has set his sights
               on Inter and Tottenham ready a fresh push for Gakpo. Tomorrow brings
               the first football home, Monaco at Anfield and Iraola's opening
-              afternoon in the dugout, a champion reshaped and a season fifteen
-              days from Newcastle.
+              afternoon, a champion reshaped and a season fifteen days from
+              Newcastle.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -442,12 +443,12 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              deal taking shape near a hundred and twenty-eight million in Paris;
-              a back line down to its captain; a champion who reported early and
-              may debut; a farewell long since sealed east; and the first
-              football back at Anfield tomorrow. Read them in order. The season
-              opens at Newcastle on the twenty-third of August, and the summer
-              has not been quiet once.
+              defender landing on loan from Barcelona; a deal taking shape near a
+              hundred and twenty-eight million in Paris; a champion who reported
+              early and may debut; a farewell long since sealed east; and the
+              first football back at Anfield tomorrow. Read them in order. The
+              season opens at Newcastle on the twenty-third of August, and the
+              summer has not been quiet once.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3165,7 +3166,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "One number left between want and done."
+        "A body arrives, at last."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
