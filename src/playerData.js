@@ -357,22 +357,23 @@ export const COVER_IMAGE = {
   alt: "Pure-type edition cover.",
   focus: null,
   credit: null,
-  generatedAt: "2026-08-07T11:00:00Z",
+  generatedAt: "2026-08-08T10:30:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
-  // Today's lead is the Barcola bid raised to £100m, a transfer/fee story with no
-  // Liverpool still-photo moment, so no cover image was queued per the pipeline's
-  // "do not queue for fee speculation" rule; render falls back to the pure-type cover.
+  // Today's lead is the Barcola deal taking shape near €128m (Romano cools the 'done'
+  // talk), a transfer/fee story with no Liverpool still-photo moment, so no cover image
+  // was queued per the pipeline's "do not queue for fee speculation" rule; render falls
+  // back to the pure-type cover.
   brief: {
     leadStory:
-      "Liverpool have raised their offer for Bradley Barcola to about £100m, rejected by PSG but the first movement toward Paris's £145m valuation, as the marquee winger move finally bends; behind it the defence thins to one fit senior right-back with Spurs' Djed Spence surfacing and Sky cooling the Zabarnyi centre-back talk, while Salah, unveiled at Trabzonspor on Thursday, is now formally gone.",
+      "Reporting has Liverpool and PSG closing on the frame of a Bradley Barcola deal near €128m, about £109.7m across five years, the winger long agreed on personal terms, though Fabrizio Romano cautions nothing is signed and a fee gap still holds; behind it a back line pared to Van Dijk with Frimpong the lone fit right-back and Jacquet a doubt, while Monaco visit Anfield on Sunday for Andoni Iraola's first home game.",
     subject:
       "AS Monaco visit Anfield on Sunday for Andoni Iraola's first home game in charge, the first football back at Anfield this pre-season",
     prompt:
       "Cinematic editorial photograph, late afternoon at a historic English football stadium exterior, red brick and a modern stand, supporters arriving for a pre-season friendly, warm low sun, no on-image text, generous headroom at the top for a masthead headline",
     aspectRatio: "landscape",
     slug: "anfield-first-light",
-    generatedAt: "2026-08-07T11:00:00Z",
-    note: "Non-visual lead (a transfer bid/fee story); no image queued this edition. Fallback to pure-type cover.",
+    generatedAt: "2026-08-08T10:30:00Z",
+    note: "Non-visual lead (a transfer deal/fee story); no image queued this edition. Fallback to pure-type cover.",
   },
 };
 
@@ -553,7 +554,7 @@ export const NEWS_DIGEST = {
       category: "matches",
     },
     {
-      title: "Two Up, Then Four Down: The Leeds Collapse Iraola Must Answer (This Is Anfield / Sky Sports, 1d ago)",
+      title: "Two Up, Then Four Down: The Leeds Collapse Iraola Must Answer Against Monaco (This Is Anfield / Sky Sports, ahead of Sunday)",
       detail:
         "The tour finale is the tape Iraola will freeze. Liverpool led Leeds 2-0 at the interval through Luke Chambers and a curled Florian Wirtz finish, only for a wholesale second-half change to unravel into a 2-4 defeat, all four Leeds goals scored by substitutes, two from Dominic Calvert-Lewin. The manager pointed to the reset elevens and the long throws his side could not handle, calling it a lesson rather than a crisis. With the seniors due to start against Monaco, Sunday is his chance to show the collapse was a fixture of pre-season depth, not of the team he means to pick.",
       category: "tactics",

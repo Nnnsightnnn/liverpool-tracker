@@ -133,8 +133,8 @@ export const FORMATIONS = {
 // (Sat: the tour is over, next up is Monaco at Anfield on Sunday Aug 9, Iraola's
 // first home dugout. Salah was unveiled at Trabzonspor on Thursday;
 // the Barcola deal is nearing a €128m frame, cooled by Romano's caution that nothing is signed;
-// the centre-back file now weighs a Zabarnyi offer alongside Palace's Guehi and Milan's Tomori
-// (~£25m); Victor Munoz is home early and set to debut vs Monaco; Inter come to £30m for
+// Sky have cooled the Zabarnyi talk, leaving Palace's Guehi the standing centre-back target with Milan's Tomori
+// (~£25m) the cheaper route; Victor Munoz is home early and set to debut vs Monaco; Inter come to £30m for
 // a Curtis Jones who has set his sights on the move (Chivu eyes him wide); Tottenham ready a fresh push for Gakpo but only a 'huge'
 // fee moves the club; Frimpong the lone fit senior RB after his Leeds overload; Gomez given
 // about a month and misses the opener; Ekitike, Leoni and Bradley play no part.)
@@ -178,9 +178,8 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // occupant remains a first-choice starter into 2026-27 — LOW where the player
 // has left (Salah, Robertson, Konate) or whose future is open (Mac Allister).
 // (Refreshed Sat Aug 8: tour over, Monaco at Anfield Sunday Aug 9 (Iraola's first
-// home dugout). Salah was unveiled at Trabzonspor on Thursday; the Barcola deal nears a €128m frame (Romano cools it); the centre-back file
-// now weighs a Zabarnyi offer alongside Palace's Guehi with Milan's Tomori (~£25m) the
-// cheaper alternative; Munoz is home early and set to debut; Inter come to £30m for Jones; Frimpong
+// home dugout). Salah was unveiled at Trabzonspor on Thursday; the Barcola deal nears a €128m frame (Romano cools it); Sky have cooled the Zabarnyi talk, leaving Palace's Guehi the standing
+// centre-back target with Milan's Tomori (~£25m) the cheaper alternative; Munoz is home early and set to debut; Inter come to £30m for Jones; Frimpong
 // the lone fit senior RB after his Leeds overload.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · turned down Juventus · staying as No. 1
