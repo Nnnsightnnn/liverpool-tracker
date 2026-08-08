@@ -357,12 +357,12 @@ export const COVER_IMAGE = {
   alt: "Pure-type edition cover.",
   focus: null,
   credit: null,
-  generatedAt: "2026-08-08T10:30:00Z",
+  generatedAt: "2026-08-08T15:00:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
-  // Today's lead is the Barcola deal taking shape near €128m (Romano cools the 'done'
-  // talk), a transfer/fee story with no Liverpool still-photo moment, so no cover image
-  // was queued per the pipeline's "do not queue for fee speculation" rule; render falls
-  // back to the pure-type cover.
+  // Today's lead is Ronald Araujo's agreed season-long loan from Barcelona (Romano 'here
+  // we go'; non-obligatory €55m option to buy; medical pending), a transfer story with no
+  // Liverpool still-photo moment yet, so no cover image was queued per the pipeline's "do
+  // not queue for fee/loan paperwork" rule; render falls back to the pure-type cover.
   brief: {
     leadStory:
       "Liverpool have agreed a season-long loan for Barcelona's Ronald Araujo, Romano calling it done with a non-obligatory €55m (about £47m) option to buy, senior cover across centre-back and right-back for a defence cut by Konate's exit and injuries; alongside it the Bradley Barcola winger deal nears a €128m frame, cooled by Romano's caution that nothing is signed, as Monaco visit Anfield on Sunday for Andoni Iraola's first home game.",
@@ -765,7 +765,7 @@ export const TRANSFER_TARGETS = {
       ],
       lastUpdated: "2026-08-04",
       rumorNote:
-        "San Siro · 4 Aug — the value route into the back line. Liverpool have made initial contact with AC Milan over Fikayo Tomori, early discussions rather than an advanced deal, for a defender Milan value near £24.9m and might let go for as little as €15m-€20m with a single year left. He is the cheaper counterweight to the Guehi pursuit the BBC now have Liverpool stepping up: Premier-League-proven from his Chelsea and England years, the experienced body a two-man back line badly wants. Whether the Reds land the marquee name or the value one, the Leeds collapse made clear a senior centre-back has to arrive before Newcastle.",
+        "San Siro · 4 Aug — the value route into the back line. Liverpool have made initial contact with AC Milan over Fikayo Tomori, early discussions rather than an advanced deal, for a defender Milan value near £24.9m and might let go for as little as €15m-€20m with a single year left. He is the cheaper counterweight to the Guehi pursuit the BBC now have Liverpool stepping up: Premier-League-proven from his Chelsea and England years, the experienced body a two-man back line badly wants. Araujo's agreed loan now does the emergency job, but a permanent partner for Van Dijk is still the longer-term aim, and this stays the value route to it.",
       positionFit: {
         replaces: "Konate (departed, free)",
         competesWith: ["Van Dijk", "Jacquet", "Guehi (primary CB target)"],
@@ -792,7 +792,7 @@ export const TRANSFER_TARGETS = {
       wageBand: "B",
       contractExpiry: "2030-06-30",
       releaseClause: null,
-      contractNote: "Signed by PSG from Bournemouth in 2025 in a package worth around £57m. His representatives made Liverpool aware of his availability and held fresh discussions, but Sky Sports reporter Mark McAdam said this week the Reds do not plan to sign a new defender this summer, cooling the pursuit. PSG committed heavily to sign him and are unlikely to let him leave cheaply a year on. Any move would reunite him with Andoni Iraola, who coached him for two seasons on the south coast.",
+      contractNote: "Signed by PSG from Bournemouth in 2025 in a package worth around £57m. His representatives made Liverpool aware of his availability and held fresh discussions, but Sky's Mark McAdam cooled the talk, and Liverpool have since agreed Ronald Araujo's loan to fill the immediate need, which reads as no big-money permanent defender this window rather than no cover at all. PSG committed heavily to sign him and are unlikely to let him leave cheaply a year on. Any move would reunite him with Andoni Iraola, who coached him for two seasons on the south coast.",
       probability: 28,
       heatTier: "cool",
       sources: [
@@ -803,7 +803,7 @@ export const TRANSFER_TARGETS = {
       ],
       lastUpdated: "2026-08-07",
       rumorNote:
-        "Paris · 7 Aug — the reunion cools before it warms. Days after Zabarnyi's camp offered the Ukraine centre-back Iraola developed at Bournemouth, Sky's Mark McAdam has poured cold water on it, answering a flat 'No' when asked whether Liverpool plan to strengthen at the back this window. The fit was always obvious, physical, quick in recovery, trusted by the coach, and it could have been half of a double raid on Paris with Barcola. But the club line now reads as make-do with Van Dijk and the 20-year-old Jacquet until the captain is fully eased in. The offer sits on the table; Liverpool, for now, are not reaching for it.",
+        "Paris · 8 Aug — the reunion cools, and then is overtaken. Days after Zabarnyi's camp offered the Ukraine centre-back Iraola developed at Bournemouth, Sky's Mark McAdam poured cold water on it, and Liverpool have since answered the back line another way, agreeing a season-long loan for Barcelona's Ronald Araujo. The fit was always obvious, physical, quick in recovery, trusted by the coach, and it could have been half of a double raid on Paris with Barcola. But with Araujo in to add senior cover, this pursuit slides down the board. The offer sits on the table; Liverpool, for now, are not reaching for it.",
       positionFit: {
         replaces: "Konate (departed, free)",
         competesWith: ["Van Dijk", "Jacquet", "Guehi (marquee CB target)", "Tomori (value alt)"],
