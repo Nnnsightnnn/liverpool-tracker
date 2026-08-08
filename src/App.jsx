@@ -385,12 +385,13 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday, and the marquee move at last carries a bigger number:
-          Liverpool raise their Barcola bid to a hundred million, rejected in
-          Paris but bending toward the wall. Behind it a defence worn thin,
-          Frimpong the lone fit right-back and Spurs' Djed Spence the newest name,
-          while Sky cool the talk of a centre-back. Monaco visit Anfield on
-          Sunday; Newcastle waits sixteen days out.
+          Saturday, on the eve of the first football home, and the marquee move
+          edges toward its answer: reporting has Liverpool and Paris closing on
+          the frame of a Barcola deal near a hundred and twenty-eight million,
+          cooled only by Romano's word that nothing is signed. Behind it a back
+          line pared to Van Dijk, Frimpong the lone fit right-back and Jacquet a
+          doubt, while Monaco visit Anfield tomorrow for Iraola's first home
+          afternoon. Newcastle waits, fifteen days out.
         </p>
 
         <StatStrip stats={stats} />
@@ -419,19 +420,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and the number that has stalled the whole summer finally moves.
-              Liverpool lift their offer for <em>Bradley Barcola</em> to a hundred
-              million, rejected in Paris but the first crack in a
-              hundred-and-forty-five-million wall, the statement signing suddenly
-              a fee away rather than a wish. Beneath it Andoni Iraola counts a
-              defence worn thin: <em>Frimpong</em> is the only fit senior
-              right-back, with Spurs' <em>Djed Spence</em> the newest name floated,
-              while Sky cool the talk of a centre-back and <em>Jacquet</em>, yet
-              to train, is a doubt for Sunday. The farewell is sealed east,{" "}
-              <em>Mohamed Salah</em> unveiled at Trabzonspor under a laser show,
-              five words for a decade: <em>I am here to win</em>. A champion
-              reshapes, two days from Monaco and its first football home.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and the number that has stalled the whole summer edges toward its
+              answer. Reporting has Liverpool and Paris closing on the frame of a{" "}
+              <em>Bradley Barcola</em> deal near a hundred and twenty-eight
+              million, about a hundred and ten across five years, though{" "}
+              <em>Fabrizio Romano</em> cautions that nothing is signed and a fee
+              gap still holds: advanced, not done. Beneath it Andoni Iraola
+              counts a defence worn thin, <em>Frimpong</em> the only fit senior
+              right-back with Spurs' <em>Djed Spence</em> still floated,{" "}
+              <em>Jacquet</em> yet to train and a doubt as the back line pares to
+              Van Dijk. On the sell side <em>Curtis Jones</em> has set his sights
+              on Inter and Tottenham ready a fresh push for Gakpo. Tomorrow brings
+              the first football home, Monaco at Anfield and Iraola's opening
+              afternoon in the dugout, a champion reshaped and a season fifteen
+              days from Newcastle.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -439,10 +442,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              bid raised to a hundred million in Paris; a right-back surfacing at
-              Tottenham; a World Cup winner who cut his holiday short; a
-              farewell sealed east, unveiled in Trabzon; and the
-              first football back at Anfield on Sunday. Read them in order. The season
+              deal taking shape near a hundred and twenty-eight million in Paris;
+              a back line down to its captain; a champion who reported early and
+              may debut; a farewell long since sealed east; and the first
+              football back at Anfield tomorrow. Read them in order. The season
               opens at Newcastle on the twenty-third of August, and the summer
               has not been quiet once.
             </p>
@@ -3162,7 +3165,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A wall in Paris, beginning to bend."
+        "One number left between want and done."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

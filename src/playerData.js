@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Thu Aug 6 — the lone fit right-back, carrying a flank alone. Withdrawn against Leeds with what Iraola called overload rather than injury, Frimpong is expected available for Monaco, but the picture behind him has not improved: with Bradley still weeks from his knee and Gomez now given about a month, the Dutchman is effectively the only fit senior right-back before Newcastle, an academy full-back the sole cover. It is why a Zabarnyi offer and a possible Kounde swing keep the defensive files live. Fit, if managed, and badly short of competition", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Sat Aug 8 — expected to feature, and carrying the flank alone. Withdrawn against Leeds with what Iraola called overload rather than injury, Frimpong is set to play some part against Monaco, but the picture behind him has not improved: with Bradley still weeks from his knee and Gomez out into September, the Dutchman is effectively the only fit senior right-back before Newcastle, an academy full-back the sole cover. It is why Tottenham's Djed Spence has surfaced as an option around £35m. Fit, if managed, and badly short of competition", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 6, goals: 0, assists: 0, cleanSheets: 2, xG: 0.1, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.6, status: "doubtful", injuryNote: "Fri Aug 7 — a doubt for Monaco, and the squad can least afford it. Jacquet has still not rejoined training and has yet to play a minute of pre-season, two days before Monaco, the shoulder problem that ended his Rennes loan lingering after he was pulled from the Leeds squad for missing sessions. As Van Dijk's only fit senior centre-back partner with Gomez out and Leoni long-term, a doubt here stretches an already-bare back line, and if he cannot go Sunday Iraola leans on an eased-in captain and the academy's Ndukwe. It is why the Guehi file stays open even as Sky cool the Zabarnyi talk", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 6, goals: 0, assists: 0, cleanSheets: 2, xG: 0.1, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.6, status: "doubtful", injuryNote: "Sat Aug 8 — on the eve of Monaco, and still not on the grass. Jacquet has yet to rejoin training or play a minute of pre-season a day before the friendly, the shoulder problem that ended his Rennes loan lingering after he was pulled from the Leeds squad for missing sessions. As Van Dijk's only fit senior centre-back partner with Gomez out and Leoni long-term, a doubt here stretches an already-bare back line, and if he cannot go Sunday Iraola leans on an eased-in captain and the academy's Ndukwe. It is why the Guehi file stays open even as Sky cool the Zabarnyi talk", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -257,7 +257,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "fit", injuryNote: "Fri Aug 7 — home early, and already on the grass. The £34.7m winger and newly crowned World Cup champion with Spain has cut short his post-tournament break and reported to the AXA Centre this week rather than wait for the Como friendly, telling the club he wanted time to adapt and meet teammates first. The window's first and so far only signing, in since June on a six-year deal to 2032 after Liverpool met the €40m release clause at Osasuna, he gives the manager an early look on a right flank left thin by Salah's exit. Seven goals and five assists in LaLiga last season at 22. The stats below are his Liverpool record, which is why they are empty", image: "https://img.a.transfermarkt.technology/portrait/big/935231-1747037145.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "fit", injuryNote: "Sat Aug 8 — home early, and in line to debut. The £34.7m winger and newly crowned World Cup champion with Spain cut short his post-tournament break to report to the AXA Centre this week, and is set for his first Liverpool minutes when Monaco visit Anfield on Sunday. The window's first and so far only signing, in since June on a six-year deal to 2032 after Liverpool met the €40m release clause at Osasuna, he gives Iraola an early look on a right flank left thin by Salah's exit. Seven goals and five assists in LaLiga last season at 22. The stats below are his Liverpool record, which is why they are empty", image: "https://img.a.transfermarkt.technology/portrait/big/935231-1747037145.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -464,11 +464,11 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-08-07T11:00:00Z",
+  generatedAt: "2026-08-08T10:30:00Z",
   overview:
-    "The table stays frozen until Newcastle on August 23: these are 2025-26's final twenty rows, Arsenal champions on 85 and Liverpool fifth on 60, with ESPN's 2026-27 feed still reset to zero before the promoted sides swap in for the relegated three. The live story is the rebuild, and on Friday it turned on a number: Liverpool lifted their Barcola offer to about £100m, rejected by PSG but the first movement toward Paris's £145m, while Tottenham's Djed Spence surfaced as a right-back option and Sky cooled the Zabarnyi centre-back talk. Cody Gakpo can leave for £70m as Spurs press, Inter hold at about £35m for a Curtis Jones his manager wants to keep, and the farewell is sealed, Mohamed Salah unveiled at Trabzonspor on Thursday. The opener is sixteen days away.",
+    "The table stays frozen until Newcastle on August 23: these are 2025-26's final twenty rows, Arsenal champions on 85 and Liverpool fifth on 60, with ESPN's 2026-27 feed still reset to zero before the promoted trio swap in for the relegated three. The live story is the rebuild, and this weekend it nears an answer: reporting has Liverpool and PSG closing on the frame of a Barcola deal near €128m, cooled only by Romano's caution that nothing is signed. On Sunday Andoni Iraola takes his first Anfield afternoon against Monaco, Victor Munoz set to debut, the tour having ended on a 2-4 collapse at Leeds. Curtis Jones has set his sights on Inter and Tottenham are readying a fresh push for Gakpo. The opener is fifteen days away.",
   teams: {
-    "Liverpool": "Fifth on 60 and dark until August 23. The summer now turns on the Barcola bid, raised to about £100m and rejected by PSG; behind it a defence down to Van Dijk and the 20-year-old Jacquet, Frimpong the lone fit right-back with Spurs' Djed Spence the newest option, and the Zabarnyi offer cooled by Sky's 'no new defender' line.",
+    "Liverpool": "Fifth on 60 and dark until August 23. The summer now nears its pivot on the Barcola deal, reported near €128m but cooled by Romano; behind it a back line down to Van Dijk and a doubtful Jacquet, Frimpong the lone fit right-back with Spurs' Djed Spence the standing option, and the Zabarnyi talk cooled by Sky as the Guehi file stays open.",
     "Arsenal": "Champions on 85, and among the clubs Liverpool have moved ahead of in the race for Mainz's Kaishu Sano.",
     "Manchester City": "Second on 78, and the club that pulled clear of Liverpool for Lille's Ayyoub Bouaddi on a deal north of £85m.",
     "Manchester United": "Third on 71, back in the Champions League, and a rival to Liverpool for Sano this summer.",
@@ -490,130 +490,130 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "A Hundred Million, And Paris Still Says No.",
-    byline: "Yahoo Sports / L'Equipe",
-    dateline: "Paris · 7 August",
+    headline: "The Frame Of A Deal, And A Word Of Caution.",
+    byline: "Anfield Index / Fabrizio Romano",
+    dateline: "Paris · 8 August",
     category: "Transfers",
     body:
-      "For a fortnight the number would not move. On Thursday it did. Liverpool have lifted their offer for Bradley Barcola to about a hundred million, an initial verbal bid near a hundred and five million euros that L'Equipe say PSG turned down, the first shift off the opening eighty-six. It is not a breakthrough, more a crack in a wall Paris still price at a hundred and forty-five, but neither camp treats the deal as dead, and Moussa Sissoko, the agent, has a way of solving the hard ones in the last week of a window. The winger has done his part, refusing a new deal in the capital, asking for England. What is left between want and done is only the fee, and the fee, at last, is bending.",
+      "For a night it looked all but done. Reports carried Liverpool and Paris Saint-Germain toward the outline of a Bradley Barcola deal near €128m, close to £109.7m across five years, the winger's personal terms long since settled. Then Fabrizio Romano stepped on the brake: nothing signed, nothing at its final stages, a fee gap holding still. Both readings can be true at once. The clubs are nearer than at any point this window, the player is set, and Moussa Sissoko is working the middle with his usual late craft. A summer that has waited on a single number is closer to hearing it, if not quite tonight.",
   },
   {
     n: "02",
-    headline: "'I Am Here To Win.'",
-    byline: "Daily Sabah / Al Jazeera",
-    dateline: "Trabzon · 6 August",
-    category: "Farewells",
+    headline: "A New Manager, His First Afternoon At Home.",
+    byline: "This Is Anfield / ESPN",
+    dateline: "Anfield · 8 August",
+    category: "Football News",
     body:
-      "The goodbye became a light show. On Thursday evening his face was thrown across the Senol Gunes stadium in lasers before he walked out beside the president to a wall of noise, and Mohamed Salah, the most decorated number eleven Anfield has known, said five words that closed a chapter: I am here to win. The two-year deal to 2028 pays a guaranteed seventeen million a season, the richest, Turkish football says, it has ever written. A free agent since June, he leaves nine years, two hundred and fifty-seven goals, two titles and a European Cup, and finds his last stage on a coastline nobody drew when the summer began. The Kop will keep the songs. Trabzon has the man.",
+      "Sunday brings the first football home, and a first for the man in the dugout. Andoni Iraola takes charge at Anfield for the opening time when Monaco visit at half past two, three American friendlies behind him and a reshaped side in front. Victor Munoz, the World Cup winner in early off his break, is set to debut; Isak, Wirtz, Van Dijk and Alisson all take on more. Filipe Luis brings a Monaco stripped of Akliouche and freshly past Getafe. It is the clubs' first meeting since a group stage that ran on to Istanbul in 2005, a small ghost for a new beginning.",
   },
   {
     n: "03",
-    headline: "Two Days Out, And The Cupboard Is Bare.",
-    byline: "Liverpool.com / ESPN",
-    dateline: "AXA Centre · 7 August",
-    category: "Injuries",
+    headline: "The Half That Undid The Tour.",
+    byline: "Sky Sports / Yahoo Sports",
+    dateline: "Soldier Field · 2 August",
+    category: "Match Report",
     body:
-      "The nearest worry is not in Paris; it is on the training pitches at Kirkby. Jeremy Jacquet, the twenty-year-old left as Van Dijk's only fit senior centre-back partner, has not rejoined training and has yet to play a minute of pre-season, the shoulder trouble from his Rennes loan still lingering two days before Monaco. He was pulled from the Leeds squad after missing sessions. If he cannot go Sunday, Iraola leans on an eased-in captain and the academy's Ndukwe in the middle, with Gomez a month away and the opener already lost. A back line that reads thin on paper is thinner still on grass, and the market has not yet answered.",
+      "Liverpool were two goals up and cruising when the tour turned on them. Luke Chambers and a curled Florian Wirtz finish had the Reds 2-0 ahead of Leeds at the interval in Chicago; then Iraola emptied the bench and the game inverted, four unanswered second-half goals, two from Dominic Calvert-Lewin, and a long-throw routine no reset eleven could smother. It ended 2-4, the first defeat of the reign and the last act of a trip that had brought wins over Sunderland and Wrexham. A lesson, the manager called it, not a crisis. Monaco is the reply.",
   },
   {
     n: "04",
-    headline: "A New Name For The Right Flank.",
-    byline: "Football365 / Sky Sports",
-    dateline: "Kirkby · 7 August",
-    category: "Transfers",
+    headline: "A Back Line Down To Its Captain.",
+    byline: "Liverpool.com / BBC Sport",
+    dateline: "AXA Centre · 8 August",
+    category: "Injuries",
     body:
-      "One position has haunted the whole summer, and on Friday it grew a fresh name. Djed Spence, twenty-five and reported to have told Tottenham he wants to leave, has surfaced as a Liverpool right-back option, De Zerbi's side open to a sale around thirty-five million. He would answer a flank cut to Frimpong alone, Bradley and Gomez both gone until September, an England international who can be signed rather than negotiated into late August. The reporting is not unanimous, the Echo doubting a concrete move. At centre-back, meanwhile, Sky's Mark McAdam cooled the Zabarnyi talk with a single flat word when asked if a defender was coming: no. Make-do, then, until it cannot be made to do.",
+      "The defence that greets Monaco is barely a defence at all. Jeremy Jacquet, the lone senior partner Van Dijk has, still has not trained a day before kick-off, the shoulder from his Rennes loan lingering, and may not feature. Joe Gomez is out into September and misses the Newcastle opener; Giovanni Leoni remains on his ACL; Conor Bradley is weeks from his knee. That leaves an eased-in captain and an academy teenager, Ifeanyi Ndukwe, holding the middle. It is why the Guehi file will not close even as Sky cool the Zabarnyi talk, and why a body must arrive before the season begins.",
   },
   {
     n: "05",
-    headline: "The Football Comes Home, And So Does A Champion.",
-    byline: "This Is Anfield / Liverpool FC",
-    dateline: "Anfield · 7 August",
-    category: "Football News",
+    headline: "One Champion In, A Legend Gone: The Squad Remade.",
+    byline: "Liverpool FC / TeamTalk",
+    dateline: "Anfield · 8 August",
+    category: "Transfers",
     body:
-      "For the first time this summer L4 gets a game. Sunday brings Monaco for a half-two kick-off, Iraola's first afternoon in the home dugout after a tour that beat Sunderland and Wrexham before unravelling against Leeds, with Isak and Wirtz in line for more minutes and Van Dijk, Alisson and Gravenberch back from the World Cup. The visitors are old ghosts, unseen since the group stage of the season that ended in Istanbul, twenty-one years gone. One arrival is already among them: Victor Munoz, world champion with Spain a fortnight ago, cut short the holiday he was owed to report early and learn a new room. Como follows on the sixteenth. Then Newcastle, and the real thing.",
+      "The summer's ledger is being written at both ends. In comes Victor Munoz, the £34.7m winger who lifted the World Cup with Spain and cut his holiday short to report early, chasing rapport before rhythm. Out, at last, goes Mohamed Salah, a Trabzonspor player after nine years and 257 goals, unveiled on the Black Sea last week. Between the bookends the sell side stirs: Curtis Jones sets his sights on Inter, Tottenham ready a push for Gakpo, Chiesa auditions to stay. Iraola is not tidying a squad so much as rebuilding one, in real time, with the season fifteen days out.",
   },
 ];
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-08-07T11:00:00Z",
+  generatedAt: "2026-08-08T10:30:00Z",
   summary:
-    "Friday, and the marquee move finally carries a bigger number: Liverpool have raised their offer for Bradley Barcola to about £100m, up from the opening £86m, a bid PSG have rejected but that both camps still believe can be edged toward Paris's £145m valuation, with agent Moussa Sissoko working the middle. The defensive files took a twist overnight, Tottenham's Djed Spence emerging as a right-back option around £35m even as Sky Sports cooled the Zabarnyi talk, reporting Liverpool do not plan to sign a new defender this summer. Off the pitch the farewell is complete: Mohamed Salah was unveiled at Trabzonspor on Thursday to a laser show and a vow, 'I am here to win,' nine years at Anfield closed. Cody Gakpo can leave for £70m as Spurs press, Inter hold at about £35m for a Curtis Jones his manager has openly urged to stay, and World Cup winner Victor Munoz has cut his holiday short to report early. Monaco visit Anfield on Sunday for Iraola's first home dugout, the Newcastle opener now sixteen days out on August 23.",
+    "Saturday, on the eve of Anfield's first football of the season, and the marquee move has quietly climbed a rung: multiple outlets report Liverpool and Paris Saint-Germain have edged toward the frame of a Bradley Barcola deal near €128m, about £109.7m on a five-year contract, the France winger long since agreed on personal terms, though Fabrizio Romano cautions nothing is signed or at its final stages and a fee gap still holds. Andoni Iraola takes his first home dugout on Sunday against Monaco, a 2.30pm kick-off that hands Victor Munoz his debut and gives Alexander Isak and Florian Wirtz more minutes, the manager still nursing a back line pared to Van Dijk. The tour ended on a jolt, a two-goal lead surrendered to lose 2-4 at Leeds, and it is that collapse rather than the winger board Iraola must answer first. On the sell side Curtis Jones has set his sights on Inter, who hold near £30m against a £35m ask, while Tottenham ready a fresh push for a Cody Gakpo the club will not move for under a figure beyond £60m. Newcastle away opens the season on August 23, fifteen days out, with Joe Gomez already ruled out of it.",
   keyTopics: [
     {
-      title: "Liverpool Go To £100m For Barcola, And PSG Say No Again (Yahoo Sports / L'Equipe, today)",
+      title: "Barcola Deal Takes Shape Near €128m, But Romano Cools The 'Done' Talk (Anfield Index / Empire of the Kop / Fabrizio Romano, today)",
       detail:
-        "The statement signing has a new figure attached to it. Liverpool have lifted their offer for Bradley Barcola to about £100m, up from the £86m that opened talks, and L'Equipe report an initial verbal proposal near €105m was rejected by PSG on Thursday. Paris still want closer to £145m, but neither side treats the deal as dead: agent Moussa Sissoko, who has a habit of solving hard transfers late, keeps working the gap, and the France winger has refused a new deal in the capital to force the move. The number has moved for the first time in a fortnight; the question is how much further it can.",
+        "The signing that has defined the summer moved overnight, if not quite as far as some claimed. Multiple outlets reported Liverpool and PSG had found the outline of a Bradley Barcola deal worth about €128m, roughly £109.7m on a five-year contract, the France winger long since agreed on personal terms to 2032. Fabrizio Romano quickly cooled it, insisting nothing is signed or even at its final stages and that a fee gap persists between Liverpool's ceiling and Paris's ask. The truth sits in between: the player is set, the clubs are closer than at any point this window, and agent Moussa Sissoko keeps working the middle. Advanced, not done.",
       category: "transfers",
     },
     {
-      title: "Spence The Surprise: Spurs Right-Back Emerges As Liverpool Weigh The Bare Flank (Football365 / Yahoo Sports, today)",
+      title: "Iraola's First Anfield Afternoon: Monaco Visit Sunday, Munoz Set To Debut (Sports Mole / ESPN, today)",
       detail:
-        "A new name for the position that has haunted the summer. Tottenham's Djed Spence, 25 and reported to have told Spurs he wants to leave, has surfaced as a Liverpool right-back option, with De Zerbi's side willing to sanction a sale around £35m. The England international would answer a flank cut to Frimpong alone, with Bradley and Gomez both out into September. The reporting is not unanimous, the Liverpool Echo casting doubt on any concrete move, but with Iraola short a recognised full-back it is the freshest solution on a file that keeps demanding one.",
-      category: "transfers",
-    },
-    {
-      title: "Sky Pour Cold Water: 'No' New Defender This Summer, Says McAdam As Zabarnyi Cools (Sky Sports, today)",
-      detail:
-        "The double raid on Paris may be only half a raid. Sky Sports reporter Mark McAdam, asked directly whether Liverpool intend to strengthen at centre-back, answered flatly, 'No,' cooling days of talk after Illia Zabarnyi's camp offered the Ukraine defender Iraola coached at Bournemouth. It sits awkwardly against a back line reduced to Van Dijk and the 20-year-old Jacquet with Gomez sidelined, and against the club's own long chase of Marc Guehi. Either the manager trusts the bodies he has until Van Dijk is fully eased in, or the position is being kept quiet. The next fortnight tells which.",
-      category: "transfers",
-    },
-    {
-      title: "'I Am Here To Win': Salah Unveiled At Trabzonspor Under A Laser Show (Daily Sabah / Al Jazeera, 1d ago)",
-      detail:
-        "The goodbye became a spectacle above the Black Sea. Mohamed Salah was officially unveiled by Trabzonspor on Thursday, his image thrown across the Senol Gunes stadium in a laser show before he walked out beside president Ertugrul Dogan to deafening cheers and told the crowd, 'I am here to win.' The two-year deal to 2028 is worth a guaranteed €17m a season and, Turkish reporting says, the richest in the country's history. A free agent since June, the most decorated No. 11 Anfield has known closes nine years, 257 goals and 442 games with a coastline few pictured.",
-      category: "general",
-    },
-    {
-      title: "World Champion, Home Early: Munoz Cuts His Break Short To Report To Iraola (This Is Anfield / Liverpool.com, today)",
-      detail:
-        "The summer's one arrival is already on the grass. Victor Munoz, the £34.5m winger who lifted the World Cup with Spain in New Jersey, has cut short the holiday he was owed to report early to pre-season, telling the club he wanted time to adapt and meet teammates before the season begins. Iraola had flagged him and Mac Allister as the hardest returns to manage after a long tournament, but the 22-year-old, who wears 'Victor M.V.' on his shirt, chose the work over the rest. With the squad thin and a front line short of Salah, his early rapport with a reshaping attack is no small thing.",
-      category: "general",
-    },
-    {
-      title: "Gakpo For £70m: Liverpool Set A Price As Tottenham's Pursuit Enters Key Stages (Sports Mole / TeamTalk, today)",
-      detail:
-        "The stance has firmed into a figure. Liverpool are now reported willing to accept about £70m for Cody Gakpo as Tottenham press ahead, their talks said to be entering key stages after contact with the Dutchman's camp. It is a shift from the vaguer 'huge fee' framing of midweek to a concrete number a selling club can build around, though no bid has yet landed. Iraola still wants Gakpo tested on the left through the Anfield friendlies with Salah's flank vacant, which leaves the position, keep him and reshape around him, or cash a rare sellable asset to fund the Barcola swing.",
-      category: "transfers",
-    },
-    {
-      title: "Inter Hold At £35m For Jones As Iraola Makes A Public Case To Stay (Football Insider / Football365, today)",
-      detail:
-        "A tug-of-war with the manager on the other end of the rope. Inter Milan remain in for Curtis Jones, prepared to pay around €35m for a midfielder into the final year of his deal, with Cristian Chivu seeing him as a wide option as much as a central one. But Andoni Iraola has effectively invited Jones to renew, expressing faith in him even amid the Szoboszlai armband fallout. The 25-year-old must weigh a bigger role at San Siro against a manager who says he wants him, a decision that will shape a midfield still awaiting Mac Allister's return from the World Cup final.",
-      category: "transfers",
-    },
-    {
-      title: "Jacquet A Doubt For Monaco: Lone Senior Cover Yet To Train Two Days Out (Liverpool.com, today)",
-      detail:
-        "The defensive worry has a nearer edge than the transfer market. Jeremy Jacquet, the 20-year-old left as Van Dijk's only fit senior centre-back partner, has not returned to training and has yet to play a minute of pre-season, two days before Monaco visit Anfield, the shoulder injury from his Rennes loan spell still lingering. He was pulled from the Leeds squad after missing sessions. If he cannot feature Sunday, Iraola leans further on an eased-in Van Dijk and the academy's Ndukwe, and the case for a body before Newcastle sharpens again.",
-      category: "injuries",
-    },
-    {
-      title: "Anfield's First Football: Isak And Wirtz Line Up For More As Monaco Visit Sunday (Liverpool FC / ESPN, 1d ago)",
-      detail:
-        "The tour is done and the home stand begins. Liverpool host Monaco on Sunday, August 9, a 2.30pm kick-off and Andoni Iraola's first afternoon in the Anfield dugout, with Alexander Isak and Florian Wirtz in line for more minutes and Van Dijk, Alisson and Gravenberch back in the group after the World Cup. It is the clubs' first meeting since the 2004-05 group stage that ended in Istanbul, and the first of two home friendlies, Como following on August 16, before the season opens for real. Mac Allister is still on holiday until the final week; the shape settles from here.",
+        "The home stand begins, and a new man leads it out. Liverpool host Monaco on Sunday, a 2.30pm kick-off and Andoni Iraola's first afternoon in the Anfield dugout after three matches on the American tour. Victor Munoz, the £34.7m World Cup winner, is in line to make his debut, with Isak, Wirtz, Van Dijk and Alisson all due more minutes. Monaco arrive under Filipe Luis, a 1-0 win over Getafe behind them and Maghnes Akliouche gone to PSG. It is the clubs' first meeting since the 2004-05 group stage that ran on to Istanbul, and the first of two Anfield friendlies before Newcastle.",
       category: "matches",
     },
     {
-      title: "Newcastle Away Opens The Season On August 23, With Tributes Set For Kevin Keegan (Liverpool FC / Newcastle United, 2d ago)",
+      title: "Two Up, Then Four Down: The Leeds Collapse Iraola Must Answer (This Is Anfield / Sky Sports, 1d ago)",
       detail:
-        "The competitive countdown is on. Liverpool begin the 2026-27 Premier League season at St James' Park on Sunday, August 23, Iraola's first competitive match in charge, with both clubs set to pay tribute to the late Kevin Keegan, a legend on Tyneside and at Anfield alike. It is a hard opening for a squad still short a winger, likely a full-back, and perhaps a departing Jones, the shape of Iraola's Liverpool due to settle across two Anfield friendlies before it is tested for real.",
+        "The tour finale is the tape Iraola will freeze. Liverpool led Leeds 2-0 at the interval through Luke Chambers and a curled Florian Wirtz finish, only for a wholesale second-half change to unravel into a 2-4 defeat, all four Leeds goals scored by substitutes, two from Dominic Calvert-Lewin. The manager pointed to the reset elevens and the long throws his side could not handle, calling it a lesson rather than a crisis. With the seniors due to start against Monaco, Sunday is his chance to show the collapse was a fixture of pre-season depth, not of the team he means to pick.",
+      category: "tactics",
+    },
+    {
+      title: "Jones Sets His Sights On San Siro As Inter Circle At £30m (Football Insider, today)",
+      detail:
+        "The midfielder has made his own call. Curtis Jones is reported to have set his sights on a move to Inter Milan, who, twice rebuffed this summer, have returned with an offer near £30m against Liverpool's £35m asking price for a player into the final year of his deal. Cristian Chivu pictures him as a wide option as much as a central one. It leaves Andoni Iraola, who has publicly urged Jones to stay even amid the Szoboszlai armband fallout, pulling against the player's own preference, and a midfield still awaiting Mac Allister's return thinner still if it goes through.",
+      category: "transfers",
+    },
+    {
+      title: "Tottenham Ready To Step Up For Gakpo, But Only A Huge Fee Moves Liverpool (This Is Anfield / Fabrizio Romano, today)",
+      detail:
+        "Spurs are pressing, and Anfield is listening only at a price. Fabrizio Romano reports Tottenham plan to step up their pursuit of Cody Gakpo after contact with the forward's representatives, with Liverpool willing to sell only for a fee upwards of £60m and no bid yet lodged. The Dutchman is central to Iraola's reshaped front line with Salah's flank vacant, and the manager wants him tested on the left through the Anfield friendlies. The club face the summer's cleanest either-or: keep a proven scorer, or cash him to help fund the Barcola swing.",
+      category: "transfers",
+    },
+    {
+      title: "One Fit Right-Back, And A Spurs Name To Fix It: Spence Stays In The Frame (Football365 / Liverpool Echo, today)",
+      detail:
+        "The bare flank keeps demanding an answer. Jeremie Frimpong, withdrawn against Leeds with what Iraola called overload rather than injury, is expected to feature against Monaco, but he remains the only fit senior right-back with Conor Bradley weeks from his knee and Joe Gomez out into September. Tottenham's Djed Spence, 25 and said to want out, sits as an option around £35m, though the Liverpool Echo casts doubt on any concrete move. Behind Frimpong, an academy full-back is the sole cover. Something has to give before Newcastle.",
+      category: "transfers",
+    },
+    {
+      title: "Jacquet A Doubt On The Eve Of Monaco As The Back Line Thins (Liverpool.com, today)",
+      detail:
+        "The nearer worry is fitness, not the market. Jeremy Jacquet, the 20-year-old left as Van Dijk's only fit senior centre-back partner, has still not rejoined training and has yet to play a minute of pre-season a day before Monaco, the shoulder problem from his Rennes loan lingering after he was pulled from the Leeds squad. If he cannot go on Sunday, Iraola leans further on an eased-in Van Dijk and the academy's Ifeanyi Ndukwe, and the case for a defender before Newcastle sharpens again.",
+      category: "injuries",
+    },
+    {
+      title: "The Guehi File Stays Open Even As Sky Cool The Zabarnyi Talk (Sky Sports / BBC Sport, today)",
+      detail:
+        "Liverpool's centre-back search is being run quietly rather than closed. Sky Sports have played down the prospect of Illia Zabarnyi, the Ukraine defender Iraola coached at Bournemouth, moving to Anfield, suggesting the club do not plan to add at the back this summer, even as the long chase of Crystal Palace's Marc Guehi keeps the position live and Milan's Fikayo Tomori sits as the cheaper alternative. It reads awkwardly against a back line reduced to Van Dijk and a doubtful Jacquet. The next fortnight, and whether a body arrives before Newcastle, will settle which reading is right.",
+      category: "transfers",
+    },
+    {
+      title: "Gomez To Miss The Opener: Muscle Injury Runs Into September (Liverpool.com / Sky Sports, 1d ago)",
+      detail:
+        "The longest-serving defender is a September problem. Joe Gomez, hurt inside eight minutes of the Sunderland win, will be out for weeks with the muscle injury and is set to miss the August 23 trip to Newcastle, Iraola confirming a timeline counted in weeks rather than days. It lands with cruel timing, a back line already down Leoni to an ACL and only now easing Van Dijk back from a World Cup break, and it is the single clearest reason the full-back and centre-back files stay live deep into August.",
+      category: "injuries",
+    },
+    {
+      title: "Newcastle Away Opens The Season On August 23, Tributes Set For Keegan (Liverpool FC / Newcastle United, 2d ago)",
+      detail:
+        "The competitive countdown is on, fifteen days out. Liverpool begin the 2026-27 Premier League season at St James' Park on Sunday, August 23, Iraola's first competitive match in charge, with both clubs set to pay tribute to the late Kevin Keegan, a hero on Tyneside and at Anfield alike. It is a hard opening for a squad still short a winger, likely a full-back, and perhaps a departing Jones, the shape of Iraola's Liverpool due to settle across two Anfield friendlies before it is tested for real.",
       category: "matches",
     },
   ],
   sources: [
-    "Yahoo Sports",
-    "L'Equipe",
-    "Football365",
-    "Sky Sports",
-    "Daily Sabah",
-    "Al Jazeera",
-    "This Is Anfield",
-    "Liverpool.com",
+    "Anfield Index",
+    "Empire of the Kop",
+    "Fabrizio Romano",
     "Sports Mole",
-    "TeamTalk",
-    "Football Insider",
     "ESPN",
+    "This Is Anfield",
+    "Sky Sports",
+    "Football Insider",
+    "Football365",
+    "Liverpool Echo",
+    "Liverpool.com",
+    "BBC Sport",
     "Liverpool FC",
     "Newcastle United",
   ],
@@ -623,9 +623,9 @@ export const NEWS_DIGEST = {
 // heatTier: "hot" (≥65%) | "warm" (40-64%) | "cool" (<40%) | "done" | "dead"
 // sources[].tier: "S" (Romano-class) | "A" (major outlet) | "B" (beat) | "C" (aggregator)
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-08-07T11:00:00Z",
+  generatedAt: "2026-08-08T10:30:00Z",
   summary:
-    "Friday, and the winger board moves for the first time in a fortnight: Liverpool have raised their Barcola offer to about £100m, a bid PSG rejected but that agent Moussa Sissoko keeps nudging toward Paris's £145m ask. The right-back file grew a name of its own, Tottenham's Djed Spence surfacing around £35m for a flank down to Frimpong alone, even as Sky Sports cooled the centre-back talk, reporting Liverpool do not plan a new defender and leaving the Zabarnyi offer in limbo behind the longer Guehi chase and Milan's cut-price Tomori. On the sell side Liverpool will now take £70m for a Gakpo Tottenham are pressing hard, Inter hold at about £35m for a Curtis Jones his manager has publicly urged to stay, and Chiesa keeps auditioning his way out of a sale. Above it all, the window's defining line is inked at last: Mohamed Salah was unveiled at Trabzonspor on Thursday, 'I am here to win.'",
+    "Saturday, and the winger board firms toward a resolution: multiple outlets report Liverpool and PSG have found the frame of a Barcola deal near €128m, about £109.7m on a five-year contract, the France winger long agreed on personal terms, though Fabrizio Romano cautions nothing is signed and a fee gap still holds. The right-back file still leans on one fit senior in Frimpong, with Tottenham's Djed Spence the freshest name around £35m, while Sky have cooled the Zabarnyi centre-back talk and left Palace's Guehi the standing target ahead of Milan's cheaper Tomori. On the sell side Curtis Jones has set his sights on Inter at about £30m against a £35m ask, Tottenham are readying a fresh push for a £60m-plus Gakpo, and Chiesa keeps auditioning his way out of a sale. Above it all the farewell is long since inked: Mohamed Salah is a Trabzonspor player, unveiled last Thursday.",
   incoming: [
     {
       id: "barcola-2026",
@@ -638,23 +638,23 @@ export const TRANSFER_TARGETS = {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Barcola_asse_psg_2425.png/330px-Barcola_asse_psg_2425.png",
       currentClub: "Paris Saint-Germain",
       currentLeague: "Ligue 1",
-      feeMin: 100, feeMax: 145, feeCurrency: "£m",
+      feeMin: 100, feeMax: 128, feeCurrency: "£m",
       marketValue: 100,
       wageBand: "A",
       contractExpiry: "2028-06-30",
       releaseClause: null,
-      contractNote: "Contracted to PSG until 2028, the France international is the club's marquee saleable asset. He has ceased negotiations over a new deal despite a substantial pay rise offered in Paris, agreed personal terms with Liverpool on a contract to 2032, and told PSG he wants a Premier League move. Liverpool have now raised their club-to-club offer to around £100m (an initial verbal bid near €105m, per L'Equipe), up from the opening £85m-plus, though PSG rejected it and hold near €170m (about £145m). Both camps still believe the gap can close, with agent Moussa Sissoko working the middle. He is represented in the deal by Sissoko, known for completing difficult transfers late in the window.",
-      probability: 74,
+      contractNote: "Contracted to PSG until 2028, the France international is the club's marquee saleable asset. He has ceased negotiations over a new deal despite a substantial pay rise offered in Paris, agreed personal terms with Liverpool on a contract to 2032, and told PSG he wants a Premier League move. Reporting on Friday and overnight had Liverpool and PSG closing on the frame of a deal near €128m (about £109.7m), with add-on clauses said to be more achievable than earlier proposals, up from an opening bid around £86m. Fabrizio Romano cautions that nothing is signed or at its final stages and a fee gap still holds, PSG having pushed toward €150m. Both camps believe it can close, with agent Moussa Sissoko, known for completing difficult transfers late, working the middle.",
+      probability: 78,
       heatTier: "hot",
       sources: [
         { name: "Fabrizio Romano",    tier: "S" },
-        { name: "L'Equipe",           tier: "A" },
-        { name: "Yahoo Sports",       tier: "B" },
+        { name: "Anfield Index",      tier: "B" },
+        { name: "Empire of the Kop",  tier: "B" },
         { name: "This Is Anfield",    tier: "A" },
       ],
-      lastUpdated: "2026-08-07",
+      lastUpdated: "2026-08-08",
       rumorNote:
-        "Paris · 7 Aug — the number finally moves, and Paris still say no. Liverpool have lifted their offer to about £100m, an initial verbal proposal near €105m that L'Equipe report PSG rejected, the first shift after a fortnight stuck on the opening £86m. It is not a breakthrough but it is movement: PSG want closer to £145m, yet neither side treats the deal as dead, and Sissoko has a habit of solving hard ones late. The player has done his part, refusing a new deal in the capital and asking for England. Twenty-three, quick and direct, he remains the statement signing of the window, the fee the only thing left between want and done.",
+        "Paris · 8 Aug — the frame of a deal, and a note of caution over it. Multiple outlets report Liverpool and PSG have moved toward an agreement near €128m, about £109.7m on a five-year contract, the closest the clubs have been all window after a fortnight stuck on the opening numbers. Fabrizio Romano is quick to cool the 'done deal' framing, insisting nothing is signed or at its final stages and a fee gap persists. The player is set, terms long agreed, his refusal of a new Paris deal unchanged. What is left is the last stretch between clubs, and a summer that has waited on this one number is nearer its answer than at any point yet.",
       positionFit: {
         replaces: "Salah (departed, free agent)",
         competesWith: ["Mbaye (PSG fallback)", "Minteh (Brighton fallback)", "Gakpo", "Ngumoha"],
@@ -2067,18 +2067,18 @@ export const TRANSFER_TARGETS = {
       probability: 48,
       heatTier: "warm",
       sources: [{ name: "Football Insider", tier: "B" }, { name: "Football365", tier: "B" }, { name: "Goal", tier: "A" }, { name: "This Is Anfield", tier: "A" }],
-      note: "Fri 7 Aug — a tug-of-war, with the manager pulling the other way. Inter remain in for Curtis Jones and are prepared to pay around €35m for a midfielder into the final year of his deal, Cristian Chivu picturing him as a wide option as much as a central one. But Andoni Iraola has effectively invited Jones to renew, expressing public faith in him even amid the Szoboszlai armband fallout, so the 25-year-old must now weigh a bigger San Siro role against a boss who says he wants him. His decision shapes a midfield still awaiting Mac Allister's return from the World Cup final.",
+      note: "Sat 8 Aug — the player picks a side, and it is not the one urging him to stay. Curtis Jones is now reported to have set his sights on Inter, who, twice rebuffed this summer, have returned with an offer near £30m against Liverpool's £35m ask for a midfielder into the final year of his deal, Cristian Chivu picturing him wide as much as central. Andoni Iraola has publicly invited Jones to renew even amid the Szoboszlai armband fallout, but the 25-year-old's own preference has hardened toward San Siro. His decision shapes a midfield still awaiting Mac Allister's return from the World Cup final.",
     },
     {
       id: "gakpo-out",
       name: "Cody Gakpo",
       position: "FWD",
-      destination: "Tottenham (Liverpool will accept ~£70m; talks entering key stages)",
+      destination: "Tottenham (Liverpool will sell only for £60m-plus; Spurs to step up)",
       feeAsk: { min: 60, max: 70, currency: "£m" },
       probability: 38,
       heatTier: "warm",
-      sources: [{ name: "Sports Mole", tier: "B" }, { name: "TeamTalk", tier: "B" }, { name: "Yahoo Sports", tier: "B" }],
-      note: "Fri 7 Aug — the stance hardens into a price. Liverpool are now reported willing to accept about £70m for Cody Gakpo as Tottenham press ahead, their pursuit said to be entering key stages after contact with the Dutchman's camp. It is a shift from midweek's vaguer framing to a concrete number a selling club can build around, though no bid has yet landed. Iraola still wants Gakpo tested on the left through the Anfield friendlies with Salah's flank vacant, which leaves a genuine choice: keep and reshape around him, or cash a rare sellable asset to fund the Barcola swing. Nine goals and six assists in 39 last season.",
+      sources: [{ name: "This Is Anfield", tier: "A" }, { name: "Fabrizio Romano", tier: "S" }, { name: "TeamTalk", tier: "B" }],
+      note: "Sat 8 Aug — Spurs ready the push, Anfield names the price. Fabrizio Romano reports Tottenham plan to step up their pursuit of Cody Gakpo after contact with the Dutchman's representatives, though Liverpool will part with a forward central to Iraola's front line only for a fee upwards of £60m and no bid has yet landed. Iraola wants Gakpo tested on the left through the Anfield friendlies with Salah's flank vacant, which leaves the summer's cleanest either-or: keep and reshape around him, or cash a rare sellable asset to help fund the Barcola swing. Nine goals and six assists in 39 last season.",
     },
     {
       id: "macallister-out",
