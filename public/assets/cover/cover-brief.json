@@ -1,9 +1,9 @@
 {
-  "leadStory": "Liverpool have raised their offer for Bradley Barcola to about £100m, rejected by PSG but the first movement toward Paris's £145m valuation, as the marquee winger move finally bends; behind it the defence thins to one fit senior right-back with Spurs' Djed Spence surfacing and Sky cooling the Zabarnyi centre-back talk, while Salah, unveiled at Trabzonspor on Thursday, is now formally gone.",
-  "subject": "AS Monaco visit Anfield on Sunday for Andoni Iraola's first home game in charge, the first football back at Anfield this pre-season",
-  "prompt": "Cinematic editorial photograph, late afternoon at a historic English football stadium exterior, red brick and a modern stand, supporters arriving for a pre-season friendly, warm low sun, no on-image text, generous headroom at the top for a masthead headline",
+  "leadStory": "The football comes home: Andoni Iraola takes his first Anfield afternoon against Monaco today at 14:30, Victor Munoz fit to debut and Van Dijk the lone senior centre-back after a 2-4 tour collapse at Leeds. Behind the whistle the winger board has doubled, Liverpool leading the race for PSG's 18-year-old Ibrahim Mbaye while the marquee Barcola deal stalls near €145m; Ronald Araujo's loan from Barcelona is agreed but not registered in time to feature.",
+  "subject": "AS Monaco visit Anfield today for Andoni Iraola's first home afternoon in charge, the first football back at Anfield this pre-season",
+  "prompt": "Cinematic editorial photograph, mid-afternoon at a historic English football stadium exterior, red brick and a modern stand, supporters arriving for a pre-season friendly, warm light, no on-image text, generous headroom at the top for a masthead headline",
   "aspectRatio": "landscape",
-  "slug": "anfield-first-light",
-  "generatedAt": "2026-08-07T11:00:00Z",
-  "note": "Non-visual lead (a transfer bid/fee story); no image queued this edition. Fallback to pure-type cover."
+  "slug": "anfield-first-afternoon",
+  "generatedAt": "2026-08-09T09:00:00Z",
+  "note": "Non-visual lead (an unplayed match preview plus transfer talk); no image queued this edition. Fallback to pure-type cover."
 }
