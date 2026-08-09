@@ -357,23 +357,24 @@ export const COVER_IMAGE = {
   alt: "Pure-type edition cover.",
   focus: null,
   credit: null,
-  generatedAt: "2026-08-08T15:00:00Z",
+  generatedAt: "2026-08-09T09:00:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
-  // Today's lead is Ronald Araujo's agreed season-long loan from Barcelona (Romano 'here
-  // we go'; non-obligatory €55m option to buy; medical pending), a transfer story with no
-  // Liverpool still-photo moment yet, so no cover image was queued per the pipeline's "do
-  // not queue for fee/loan paperwork" rule; render falls back to the pure-type cover.
+  // Today's lead is matchday: Andoni Iraola's first Anfield afternoon against Monaco (today,
+  // 14:30), Victor Munoz fit to debut and Van Dijk the lone senior centre-back. The match is
+  // not yet played, so there is no still-photo hero moment to queue; per the pipeline's "do
+  // not queue for previews/fee talk" rule no cover image was queued and the render falls back
+  // to the pure-type cover.
   brief: {
     leadStory:
-      "Liverpool have agreed a season-long loan for Barcelona's Ronald Araujo, Romano calling it done with a non-obligatory €55m (about £47m) option to buy, senior cover across centre-back and right-back for a defence cut by Konate's exit and injuries; alongside it the Bradley Barcola winger deal nears a €128m frame, cooled by Romano's caution that nothing is signed, as Monaco visit Anfield on Sunday for Andoni Iraola's first home game.",
+      "The football comes home: Andoni Iraola takes his first Anfield afternoon against Monaco today at 14:30, Victor Munoz fit to debut and Van Dijk the lone senior centre-back after a 2-4 tour collapse at Leeds. Behind the whistle the winger board has doubled, Liverpool leading the race for PSG's 18-year-old Ibrahim Mbaye while the marquee Barcola deal stalls near €145m; Ronald Araujo's loan from Barcelona is agreed but not registered in time to feature.",
     subject:
-      "AS Monaco visit Anfield on Sunday for Andoni Iraola's first home game in charge, the first football back at Anfield this pre-season",
+      "AS Monaco visit Anfield today for Andoni Iraola's first home afternoon in charge, the first football back at Anfield this pre-season",
     prompt:
-      "Cinematic editorial photograph, late afternoon at a historic English football stadium exterior, red brick and a modern stand, supporters arriving for a pre-season friendly, warm low sun, no on-image text, generous headroom at the top for a masthead headline",
+      "Cinematic editorial photograph, mid-afternoon at a historic English football stadium exterior, red brick and a modern stand, supporters arriving for a pre-season friendly, warm light, no on-image text, generous headroom at the top for a masthead headline",
     aspectRatio: "landscape",
-    slug: "anfield-first-light",
-    generatedAt: "2026-08-08T10:30:00Z",
-    note: "Non-visual lead (a transfer deal/fee story); no image queued this edition. Fallback to pure-type cover.",
+    slug: "anfield-first-afternoon",
+    generatedAt: "2026-08-09T09:00:00Z",
+    note: "Non-visual lead (an unplayed match preview plus transfer talk); no image queued this edition. Fallback to pure-type cover.",
   },
 };
 
@@ -548,7 +549,7 @@ export const NEWS_DIGEST = {
       category: "matches",
     },
     {
-      title: "Araujo's Loan Lands, But He Cannot Register In Time For Monaco (Fabrizio Romano / Sky Sports, 1d ago)",
+      title: "Araujo's Loan Lands, But He Cannot Register In Time For Monaco (Fabrizio Romano / Sky Sports, 2d ago)",
       detail:
         "The signing that answered the summer's deepest problem is done, if not quite in time to play. Liverpool's season-long loan for Ronald Araujo, the Barcelona and Uruguay centre-back, was stamped by Fabrizio Romano on Friday with a non-obligatory €55m (about £47m) option to buy and the Reds covering his wage. The paperwork lands too late for this afternoon's friendly, so Van Dijk still stands as the lone senior centre-back against Monaco. Beyond the whistle, though, Araujo can play centre-back or right-back and eases two of the exact holes a season of injuries opened, the reinforcement the back line has wanted since Konate left for Madrid.",
       category: "transfers",

@@ -134,7 +134,7 @@ const LATEST_NEWS = [
   { source: "Yahoo Sports", title: "Monaco bring Eric Dier and an injured Takumi Minamino to Anfield under Filipe Luis", time: "today", category: "fan" },
   { source: "Football Insider", title: "Curtis Jones leans toward Inter as the Italians circle again near £30m", time: "today", category: "fan" },
   { source: "This Is Anfield", title: "Tottenham to step up their Gakpo pursuit, but Liverpool will sell only for a fee beyond £60m", time: "today", category: "fan" },
-  { source: "Fabrizio Romano", title: "Here we go, sealed Friday: Araujo's season-long loan lands, though he cannot be registered for Monaco", time: "1d ago", category: "major" },
+  { source: "Fabrizio Romano", title: "Here we go, sealed Friday: Araujo's season-long loan lands, though he cannot be registered for Monaco", time: "2d ago", category: "major" },
   { source: "TeamTalk", title: "Ferran Torres agrees terms with PSG, leaving Liverpool's winger focus on Mbaye and Barcola", time: "1d ago", category: "fan" },
   { source: "Liverpool.com", title: "Joe Gomez to miss the Newcastle opener as the muscle injury runs into September", time: "2d ago", category: "fan" },
   { source: "Sky Sports", title: "Liverpool 2-4 Leeds: Iraola's side collapse from two up as all four goals come from substitutes", time: "1w ago", category: "major" },
