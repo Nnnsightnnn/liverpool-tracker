@@ -23,12 +23,12 @@ export const FORMATIONS = {
     // fifth. This is not a matchday prediction but a SNAPSHOT of the XI that
     // closed the campaign, adjusted for the summer exits (Kerkez, Jacquet and
     // Ngumoha step in for Robertson, Konate and Salah). 4-3-3 is the backup
-    // look. Refreshed Sun Aug 9: the tour is over (a 2-4 Leeds finale after wins
-    // over Wrexham and Sunderland); next up is Como at Anfield on Sunday Aug 16 (Monaco beaten 2-3 on Aug 9),
-    // Iraola's first home dugout. Mac Allister back for Como
-    // (Aug 16); Ekitike, Leoni and Bradley take no part (rehab only); Gomez out for weeks
-    // and missing the season start, leaving Frimpong the only fit recognised right back
-    // and Jacquet the lone senior centre-back until Van Dijk is eased back. Liverpool are
+    // look. Refreshed Mon Aug 10: Monaco beaten 2-3 at Anfield on Aug 9 (Iraola's
+    // first home dugout, a second blown two-goal lead); next up is Como at Anfield on
+    // Sunday Aug 16. Mac Allister back for Como; Ekitike, Leoni and Bradley take no
+    // part (rehab only); Gomez out for weeks and missing the season start, leaving
+    // Frimpong the only fit recognised right back; Van Dijk is fit and captained Monaco,
+    // Jacquet (shoulder) missed it, Ndukwe covered and Araujo's loan is available from Como. Liverpool are
     // chasing a Barcola deal that stalls near €150m (L'Equipe: £98.5m formal bid lodged, PSG braced to reject), with PSG teenager Mbaye now led;
     // the centre-back non-negotiable stays Palace's Guehi with Milan's Tomori the cheaper alt,
     // Spurs' Djed Spence a new RB option and Sky cooling the Zabarnyi talk; Sano leads the six.
@@ -218,7 +218,7 @@ export const ALTERNATIVES = {
   GK:  [{ playerId: 2, reason: "Mamardashvili · led the goalkeeping group on the tour with Alisson on a post-World Cup break; Alisson back for the Anfield friendlies" }, { playerId: 27, reason: "Woodman · third-choice cover, trained day one" }],
   LB:  [{ playerId: 7, reason: "Kerkez · the first-choice left-back going forward now Robertson has left" }],
   LCB: [{ playerId: 5, reason: "Gomez · can shuffle infield to centre-back if his muscle injury clears" }],
-  RCB: [{ playerId: 11, reason: "Jacquet · the only senior centre-back Iraola can pick until Van Dijk is back; Leoni is long-term out" }],
+  RCB: [{ playerId: 11, reason: "Jacquet · doubtful with a shoulder problem, missed Monaco; Ndukwe covered beside a fit Van Dijk, with Araujo (loan) available from Como" }],
   RB:  [{ playerId: 9, reason: "Frimpong · the only fit recognised right-back; Bradley travelled for rehabilitation only and took no part in the tour" }, { playerId: 5, reason: "Gomez · emergency right-back cover once his muscle injury clears, Jones kept in midfield not at full-back" }],
   LDM: [{ playerId: 13, reason: "Mac Allister · could swap depths with Gravenberch in the double-pivot" }],
   RDM: [{ playerId: 14, reason: "Gravenberch · could swap depths with Szoboszlai" }],
