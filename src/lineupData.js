@@ -29,7 +29,7 @@ export const FORMATIONS = {
     // part (rehab only); Gomez out for weeks and missing the season start, leaving
     // Frimpong the only fit recognised right back; Van Dijk is fit and captained Monaco,
     // Jacquet (shoulder) missed it, Ndukwe covered and Araujo's loan is available from Como. Liverpool are
-    // chasing a Barcola deal that stalls near €150m (L'Equipe: £98.5m formal bid lodged, PSG braced to reject), with PSG teenager Mbaye now led;
+    // chasing a Barcola deal that stalls near €150m (Sky: deal difficult, Rayan and Minteh added to the board), with PSG teenager Mbaye now led;
     // the centre-back non-negotiable stays Palace's Guehi with Milan's Tomori the cheaper alt,
     // Spurs' Djed Spence a new RB option and Sky cooling the Zabarnyi talk; Sano leads the six.
     defaultXI: {
@@ -71,7 +71,7 @@ export const FORMATIONS = {
     // wins over Wrexham and Sunderland; Ekitike, Leoni and Bradley travelled for
     // rehabilitation only and take no part, and Gomez is out for weeks and misses the
     // season start; the winger board leads with Barcola, Liverpool
-    // now leading the race for PSG's Ibrahim Mbaye as the Barcola deal stalls near €150m (L'Equipe: £98.5m formal bid lodged, PSG braced to reject);
+    // now leading the race for PSG's Ibrahim Mbaye as the Barcola deal stalls near €150m (Sky: deal difficult, Rayan and Minteh added to the board);
     // the centre-back non-negotiable stays Palace's Guehi with Milan's Tomori the cheaper alt,
     // Spurs' Djed Spence a new RB option; Jacquet a doubt for Monaco until Van Dijk is eased back.
     defaultXI: {
@@ -132,7 +132,7 @@ export const FORMATIONS = {
 // Hand-curated from RESULTS array + injuryNote context as of 2026-08-09
 // (Sat: the tour is over, next up is Como at Anfield on Sunday Aug 16 (Monaco beaten 2-3 on Aug 9), Iraola's
 // first home dugout. Salah was unveiled at Trabzonspor on Thursday;
-// the Barcola deal stalls near €150m (L'Equipe: £98.5m formal bid lodged, PSG braced to reject), Mbaye now led;
+// the Barcola deal stalls near €150m (Sky: deal difficult, Rayan and Minteh added to the board), Mbaye now led;
 // Sky have cooled the Zabarnyi talk, leaving Palace's Guehi the standing centre-back target with Milan's Tomori
 // (~£25m) the cheaper route; Victor Munoz debuted vs Monaco (Aug 9); Inter come to £30m for
 // a Curtis Jones who has set his sights on the move (Chivu eyes him wide); Tottenham ready a fresh push for Gakpo but only a 'huge'
@@ -178,7 +178,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // occupant remains a first-choice starter into 2026-27 — LOW where the player
 // has left (Salah, Robertson, Konate) or whose future is open (Mac Allister).
 // (Refreshed Mon Aug 10: Monaco beaten 2-3 at Anfield on Aug 9 (Iraola's first
-// home dugout, a second blown two-goal lead), next up Como on Aug 16. Salah was unveiled at Trabzonspor on Thursday; the Barcola deal stalls near €150m (L'Equipe: £98.5m formal bid lodged, PSG braced to reject), Mbaye now led; Sky have cooled the Zabarnyi talk, leaving Palace's Guehi the standing
+// home dugout, a second blown two-goal lead), next up Como on Aug 16. Salah was unveiled at Trabzonspor on Thursday; the Barcola deal stalls near €150m (Sky: deal difficult, Rayan and Minteh added to the board), Mbaye now led; Sky have cooled the Zabarnyi talk, leaving Palace's Guehi the standing
 // centre-back target with Milan's Tomori (~£25m) the cheaper alternative; Munoz debuted vs Monaco (Aug 9); Inter come to £30m for Jones; Frimpong
 // the lone fit senior RB after his Leeds overload.)
 export const SLOT_CONFIDENCE = {
@@ -191,7 +191,7 @@ export const SLOT_CONFIDENCE = {
   RDM: "High",   // Szoboszlai · new five-year deal signed to 2031 · in day one
   LAM: "Medium", // Wirtz · injury-hit debut season · No. 10 role, played the Leeds finale
   CAM: "Low",    // Mac Allister · World Cup runner-up · misses the entire American tour, back for Como on Aug 16
-  RAM: "Low",    // Salah gone (Trabzonspor, unveiled) · Barcola deal stalls near €150m (L'Equipe: £98.5m formal bid lodged, PSG braced to reject), Mbaye now led · Ngumoha holds it by default
+  RAM: "Low",    // Salah gone (Trabzonspor, unveiled) · Barcola deal stalls near €150m (Sky: deal difficult, Rayan and Minteh added to the board), Mbaye now led · Ngumoha holds it by default
   ST:  "Medium", // Isak · injury-wrecked debut year · took first tour minutes vs Leeds
 };
 
