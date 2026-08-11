@@ -385,11 +385,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, and the worry has a shape. Liverpool led Monaco by two on
-          Sunday and lost 2-3, Andoni Iraola beaten on his Anfield bow, a second
-          two-goal lead surrendered inside a week after the collapse at Leeds.
-          Isak and Wirtz built it; a thin bench let it slip. Como close the
-          pre-season next Sunday, and Newcastle waits a fortnight out.
+          Tuesday, and the summer's largest story arrives from Wall Street. FSG
+          have agreed to sell roughly a third of the club to a consortium
+          carrying Jeff Bezos and Eduardo Saverin, a deal valuing Anfield near
+          four and a half billion. On the grass, Araujo is unveiled, the Barcola
+          chase turns difficult, and Como close the pre-season here on Sunday.
         </p>
 
         <StatStrip stats={stats} />
@@ -418,36 +418,34 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and the football has been home a day, long enough to leave a mark.
-              Andoni Iraola lost his first Anfield afternoon 2-3 to Monaco on
-              Sunday, <em>Isak</em> and <em>Wirtz</em> two goals to the good
-              before Golovin, Biereth and a late Paris Brunner turned it, the
-              second two-goal lead thrown away in a week after the collapse at
-              Leeds. <em>Ifeanyi Ndukwe</em>, the towering teenager, was the
-              day's revelation and cannot play a competitive minute until
-              January. Behind the whistle the rebuild moves anyway:{" "}
-              <em>Ronald Araujo</em> has passed his medical for a season-long
-              loan, and Liverpool have lodged a first formal bid near
-              ninety-nine million for <em>Bradley Barcola</em> that Paris are
-              braced to reject. <em>Ibrahim Mbaye</em> has made Anfield his
-              choice; <em>Cody Gakpo</em>, for now, is told he is staying. Como
-              close the pre-season next Sunday, then Newcastle, where the points
-              at last begin, and the depth Iraola keeps naming will have nowhere
-              left to hide.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and for once the loudest news is not a lineup but a ledger. FSG have
+              reached agreement to sell a strategic stake of about a third to a
+              consortium led by <em>Amit Bhatia</em> and carrying{" "}
+              <em>Jeff Bezos</em> and <em>Eduardo Saverin</em>, a deal valuing
+              the club near £4.4bn and framed, pointedly, as a path to control.
+              On the pitch the rebuild kept pace: <em>Ronald Araujo</em> was
+              unveiled in the number 33, vowing a title beside his role model{" "}
+              <em>Van Dijk</em>. The winger chase, meanwhile, hardened, Sky
+              calling the <em>Barcola</em> deal difficult as Paris hold near a
+              hundred and fifty million, so Rayan and Minteh join the board while{" "}
+              <em>Ibrahim Mbaye</em> becomes the Paris name Liverpool actually
+              lead for. <em>Curtis Jones</em> edges toward Inter; <em>Cody
+              Gakpo</em>, for now, is told he stays. Como close the pre-season
+              here on Sunday, then Newcastle, where the points at last begin.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings as they finished, and
-              five dispatches from the writers who never clock off. There is a
-              defender through his medical on loan from Barcelona; a winger race
-              narrowed to two Paris names in Barcola and Mbaye; a bench too thin
-              for the manager's liking; a farewell long since sealed east; and a
-              first home defeat to answer. Read them in order. The season opens
-              at Newcastle on the twenty-third of August, and the summer has not
-              been quiet once.
+              five dispatches from the writers who never clock off. There is an
+              ownership headline the size of the summer; a defender unveiled on
+              loan from Barcelona; a winger board widened past Paris to Rayan and
+              Minteh; a midfield reshaping around a new vice-captain; and a
+              farewell long since sealed east. Read them in order. The season
+              opens at Newcastle on the twenty-third of August, and the summer has
+              not been quiet once.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3165,7 +3163,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A lead is not yet a habit."
+        "Money changes hands; the Kop does not."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

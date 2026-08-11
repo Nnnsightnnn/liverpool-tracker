@@ -1,9 +1,9 @@
 {
-  "leadStory": "Liverpool threw away a two-goal lead to lose 2-3 to Monaco on Sunday, Andoni Iraola beaten on his Anfield bow and a second squandered two-goal lead in a week after the Leeds collapse; Isak and Wirtz scored before Golovin, Biereth and a late Paris Brunner turned it, exposing a thin bench and back line. Off the pitch Liverpool lodged a first formal £98.5m bid for Barcola (PSG braced to reject), made Mbaye a priority, saw Araujo pass his medical, and shut the door on a Gakpo sale.",
-  "subject": "Anfield after a 2-3 pre-season defeat to Monaco, Iraola on the touchline as a two-goal lead slips away, the Kop quiet",
-  "prompt": "Cinematic editorial photograph, dusk at a historic English football stadium interior, red seats and floodlights, a manager on the technical area watching a pre-season friendly slip away, muted mood, no on-image text, generous headroom at the top for a masthead headline",
+  "leadStory": "FSG have reached agreement to sell a strategic minority stake of about a third in Liverpool to a consortium led by Amit Bhatia and including Jeff Bezos and Eduardo Saverin, valuing the club near £4.4bn ($6bn) in a deal framed as a path to control, with an announcement expected within days. On the grass Ronald Araujo was officially unveiled on loan in the No. 33, the Barcola chase turned difficult near €150m (Rayan and Minteh added to the winger board), Mbaye is the Paris name Liverpool now lead for, and Curtis Jones nears an Inter exit.",
+  "subject": "Anfield exterior and the FSG boardroom era turning over, an ownership headline the size of the summer, no single hero moment",
+  "prompt": "Cinematic editorial photograph, exterior of a historic English football stadium at dusk, club crest and floodlights, a sense of institutional change and scale, muted and stately mood, no on-image text, generous headroom at the top for a masthead headline",
   "aspectRatio": "landscape",
-  "slug": "monaco-defeat-anfield",
-  "generatedAt": "2026-08-10T12:30:00Z",
-  "note": "Lead is a home defeat framed around squad depth, not a celebratory hero still; no image queued this edition. Fallback to pure-type cover."
+  "slug": "bezos-consortium-anfield",
+  "generatedAt": "2026-08-11T08:20:00Z",
+  "note": "Lead is an ownership/boardroom headline, abstract rather than a photographable hero still; no image queued this edition. Fallback to pure-type cover."
 }
