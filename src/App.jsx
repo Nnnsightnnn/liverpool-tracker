@@ -385,11 +385,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, and the summer's largest story arrives from Wall Street. FSG
-          have agreed to sell roughly a third of the club to a consortium
-          carrying Jeff Bezos and Eduardo Saverin, a deal valuing Anfield near
-          four and a half billion. On the grass, Araujo is unveiled, the Barcola
-          chase turns difficult, and Como close the pre-season here on Sunday.
+          Wednesday, and the club waits on a signature that would end fifteen
+          years of Fenway sole control. The Bezos-fronted consortium's purchase
+          of about a third of Liverpool, a valuation of some £4.4bn, is expected
+          to be announced any day, the keys kept at Fenway for now. On the pitch
+          the winger hunt sharpens as Arsenal move on Barcola, and Sunday brings
+          Como to Anfield with the opener a week beyond.
         </p>
 
         <StatStrip stats={stats} />
@@ -418,21 +419,25 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and for once the loudest news is not a lineup but a ledger. FSG have
-              reached agreement to sell a strategic stake of about a third to a
-              consortium led by <em>Amit Bhatia</em> and carrying{" "}
-              <em>Jeff Bezos</em> and <em>Eduardo Saverin</em>, a deal valuing
-              the club near £4.4bn and framed, pointedly, as a path to control.
-              On the pitch the rebuild kept pace: <em>Ronald Araujo</em> was
-              unveiled in the number 33, vowing a title beside his role model{" "}
-              <em>Van Dijk</em>. The winger chase, meanwhile, hardened, Sky
-              calling the <em>Barcola</em> deal difficult as Paris hold near a
-              hundred and fifty million, so Rayan and Minteh join the board while{" "}
-              <em>Ibrahim Mbaye</em> becomes the Paris name Liverpool actually
-              lead for. <em>Curtis Jones</em> edges toward Inter; <em>Cody
-              Gakpo</em>, for now, is told he stays. Como close the pre-season
-              here on Sunday, then Newcastle, where the points at last begin.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and still the season's biggest story is written in numbers no
+              scoreboard shows. FSG have agreed to sell a strategic stake of
+              about a third to a consortium fronted by <em>Amit Bhatia</em>, the
+              son-in-law of steel magnate Lakshmi Mittal, and carrying{" "}
+              <em>Jeff Bezos</em> and <em>Eduardo Saverin</em>; the announcement,
+              sources say, could come this week, though one cautioned it may
+              slip. Control stays at Fenway for now, and Al Jazeera reports the
+              Kop still seeking clarity on what a Bezos-backed balance sheet would
+              mean. On the pitch the summer's defining chase has reached its
+              crossroads: PSG hold <em>Barcola</em> near £145m and named him in
+              their Super Cup squad, <em>Arsenal</em> have moved to hijack the
+              deal after losing Vinicius to a new Madrid contract, and Liverpool
+              are said to have weighed walking away. <em>Ibrahim Mbaye</em> stays
+              the Paris winger they actually lead for; <em>Ronald Araujo</em>,
+              unveiled on loan, is available from Sunday. <em>Curtis Jones</em>'s
+              move to Inter has cooled, Romano calling it far from done. Como
+              visit for the last friendly this Sunday; then Newcastle away, and
+              the waiting ends.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3163,7 +3168,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Money changes hands; the Kop does not."
+        "Wait long enough, and the world buys in."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
