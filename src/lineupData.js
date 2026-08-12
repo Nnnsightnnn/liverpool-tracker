@@ -30,8 +30,8 @@ export const FORMATIONS = {
     // Frimpong the only fit recognised right back; Van Dijk is fit and captained Monaco,
     // Jacquet (shoulder) missed it, Ndukwe covered and Araujo's loan is available from Como. Liverpool are
     // chasing a Barcola deal that stalls near €150m (Sky: deal difficult, Rayan and Minteh added to the board), with PSG teenager Mbaye now led;
-    // the centre-back non-negotiable stays Palace's Guehi with Milan's Tomori the cheaper alt,
-    // Spurs' Djed Spence a new RB option and Sky cooling the Zabarnyi talk; Sano leads the six.
+    // the centre-back file is Milan's Tomori and PSG's Zabarnyi now Guehi is long gone (Man City, Jan 2026)
+    // and Spence is agreeing terms with Inter; Sano and a revived Wharton lead the six.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -72,7 +72,7 @@ export const FORMATIONS = {
     // and Gomez is out and racing for Forest on Aug 29; Jacquet is set for his pre-season debut vs Como;
     // the winger board has drawn Arsenal as a rival for Barcola near £145m, so Mbaye is the name
     // Liverpool most realistically land (Rayan and Minteh still on the board);
-    // the centre-back non-negotiable slides to Palace's Guehi as a longer-term want now Araujo's loan is in;
+    // the centre-back file falls to Tomori and Zabarnyi now Araujo's loan is in (Guehi went to Man City in January);
     // Curtis Jones's Inter move has cooled (Romano: far from done).
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
@@ -133,7 +133,7 @@ export const FORMATIONS = {
 // (Sat: the tour is over, next up is Como at Anfield on Sunday Aug 16 (Monaco beaten 2-3 on Aug 9), Iraola's
 // first home dugout. Salah was unveiled at Trabzonspor on Thursday;
 // the Barcola deal stalls near €150m (Sky: deal difficult, Rayan and Minteh added to the board), Mbaye now led;
-// Sky have cooled the Zabarnyi talk, leaving Palace's Guehi the standing centre-back target with Milan's Tomori
+// the centre-back board is Zabarnyi and Milan's Tomori (Guehi joined Man City back in January), with Tomori
 // (~£25m) the cheaper route; Victor Munoz debuted vs Monaco (Aug 9); Inter come to £30m for
 // a Curtis Jones who has set his sights on the move (Chivu eyes him wide); Tottenham ready a fresh push for Gakpo but only a 'huge'
 // fee moves the club; Frimpong the lone fit senior RB after his Leeds overload; Gomez given
@@ -185,7 +185,7 @@ export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · turned down Juventus · staying as No. 1
   LB:  "Low",    // Robertson gone free to Spurs · Kerkez inherits, back day one
   LCB: "Medium", // Van Dijk · 35 · Milan interest knocked back · eased back, first minutes vs Monaco Aug 9
-  RCB: "Low",    // Konate gone free to Madrid · Jacquet the only senior CB available · Zabarnyi offered, Guehi chased, Tomori the cheaper alt
+  RCB: "Low",    // Konate gone free to Madrid · Araujo in on loan, Jacquet back for Como · Zabarnyi and Tomori the live targets
   RB:  "Low",    // Frimpong the only recognised RB · Bradley weeks out, rehab only · Jones staying in midfield
   LDM: "High",   // Gravenberch · the season's most reliable midfielder
   RDM: "High",   // Szoboszlai · new five-year deal signed to 2031 · in day one
