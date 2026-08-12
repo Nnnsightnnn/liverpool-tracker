@@ -386,7 +386,7 @@ function CoverView({ onJump }) {
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
           Wednesday, and the club waits on a signature that would end fifteen
-          years of Fenway sole control. The Bezos-fronted consortium's purchase
+          years of Fenway sole ownership. The Bezos-fronted consortium's purchase
           of about a third of Liverpool, a valuation of some £4.4bn, is expected
           to be announced any day, the keys kept at Fenway for now. On the pitch
           the winger hunt sharpens as Arsenal move on Barcola, and Sunday brings

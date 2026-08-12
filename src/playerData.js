@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Tue Jul 21 — still on his post-World Cup break, not due until the second week of the tour. Brazil's campaign earned him the time, and it leaves Mamardashvili leading the goalkeeping group through Nashville and New York with Woodman behind him. Nothing has changed in the substance: he is the undisputed number one the moment he is back", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Wed Aug 12 — back from his break and settled as the No. 1 for the season start. Alisson returned from his post-World Cup rest during the American tour and is Iraola's first-choice keeper heading into Como on Sunday and the Newcastle opener on August 23. The Brazil captain remains the undisputed starter, Mamardashvili the deputy the club still prefer to protect with a loan than sell. Nothing here is in question", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Tue Jul 21 — leads the goalkeeping group across the Atlantic. With Alisson taking a post-World Cup break until the second week of the tour, the Georgian is Iraola's senior keeper through Nashville and New York, a stopgap that doubles as an audition. Liverpool still prefer to protect the asset with a loan rather than sell, and the longer-horizon thinking has not moved off him as a genuine number one somewhere", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Wed Aug 12 — back in the No. 2 role with the season upon us. The tour spell as senior keeper while Alisson rested is over, and with the Brazilian settled back in, the Georgian returns to deputy for Como and the Newcastle opener. Liverpool still prefer to protect the asset with a loan rather than sell, and the longer-horizon thinking has not moved off him as a genuine number one somewhere", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Tue Aug 11 — through Monaco, and now with real cover arriving. Frimpong featured against Monaco on Sunday, effectively the only fit senior right-back before Newcastle with Bradley still short of a knee return and Gomez out into September. That eases now: Ronald Araujo, officially unveiled on loan, can spell him at right-back from the Como game, softening the need that had Tottenham's Djed Spence floated around £35m. Fit if managed, still short of competition, but no longer carrying the flank entirely alone", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Tue Aug 11 — through Monaco, and now with real cover arriving. Frimpong featured against Monaco on Sunday, effectively the only fit senior right-back before Newcastle with Bradley still short of a knee return and Gomez out and racing for Forest on August 29. That eases now: Ronald Araujo, officially unveiled on loan, can spell him at right-back from the Como game, softening the need that had Tottenham's Djed Spence floated around £35m. Fit if managed, still short of competition, but no longer carrying the flank entirely alone", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -569,7 +569,7 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "Mbaye Stays The Paris Winger Liverpool Actually Lead For (This Is Anfield / Sky Sports, 1d ago)",
+      title: "With Barcola Contested, Mbaye Becomes The Deal Liverpool Can Close (This Is Anfield / Sky Sports, 1d ago)",
       detail:
         "If the marquee number will not move, the cheaper one still might. Liverpool continue to lead the race for PSG teenager Ibrahim Mbaye, the 18-year-old advised by Jorge Mendes who has told the champions he wants out and is giving priority to Anfield over Bayer Leverkusen. Valued between £34m and £43m into the final two years of his deal, he plays chiefly off the right, the flank Salah left bare. With Barcola now contested by Arsenal and stuck near £145m, Mbaye reads less like the junior alternative and more like the winger Liverpool can realistically close before the window shuts.",
       category: "transfers",
@@ -581,7 +581,7 @@ export const NEWS_DIGEST = {
       category: "tactics",
     },
     {
-      title: "The Injury Room: Gomez Racing For Forest, Leoni Nears Training (Sky Sports / Liverpool.com, 1d ago)",
+      title: "Gomez Chases An August 29 Return As The Medical Ledger Thins (Sky Sports / Liverpool.com, 1d ago)",
       detail:
         "The medical ledger still shapes the market. Joe Gomez misses the Newcastle opener with the muscle injury taken at Sunderland and is now racing to be fit for the first home game, against Nottingham Forest on August 29. Giovanni Leoni has entered the final stage of his ACL rehab and is expected back in team training within weeks, though the club will manage rather than rush him. Conor Bradley is still short after January knee surgery, and Hugo Ekitike's ruptured Achilles keeps him months away, hopeful of playing before the end of 2026. Every defensive move the club chase traces back to this room.",
       category: "injuries",
@@ -593,7 +593,7 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "The Door Stays Shut On Gakpo As Spurs Circle (This Is Anfield / Liverpool.com, 2d ago)",
+      title: "Reshaped, Not Sold: Gakpo Stays As Tottenham Are Turned Away (This Is Anfield / Liverpool.com, 2d ago)",
       detail:
         "One forward the club will not let walk. Liverpool continue to decline any sale of Cody Gakpo to Tottenham, a firmer line than last week's talk of listening at £60m-plus, for a player central to Iraola's front line with Salah's flank already vacant. Spurs made contact with the Dutchman's camp; Anfield pushed back. The manager wants Gakpo reshaped around on the left rather than cashed in, and only an offer the club consider unignorable would move the stance. Nine goals and six assists last season, and, with the winger board still unresolved, staying looks the plan rather than the compromise.",
       category: "transfers",

@@ -66,14 +66,14 @@ export const FORMATIONS = {
     // through the run-in, is shown as the first-choice XI Liverpool finished the
     // campaign with (adjusted for the summer exits), NOT as a prediction for a
     // coming fixture (the tour is over; next up is Como at Anfield on Sunday Aug 16 (Monaco beaten 2-3 on Aug 9)).
-    // Refreshed Mon Aug 10: Monaco beaten 2-3 on Aug 9 (Munoz debuted), and Mac Allister returns for Como
+    // Refreshed Wed Aug 12: Monaco beaten 2-3 on Aug 9 (Munoz debuted), and Mac Allister returns for Como
     // (Aug 16) after the World Cup final; the tour finished on a 2-4 Leeds loss after
-    // wins over Wrexham and Sunderland; Ekitike, Leoni and Bradley travelled for
-    // rehabilitation only and take no part, and Gomez is out for weeks and misses the
-    // season start; the winger board leads with Barcola, Liverpool
-    // now leading the race for PSG's Ibrahim Mbaye as the Barcola deal stalls near €150m (Sky: deal difficult, Rayan and Minteh added to the board);
-    // the centre-back non-negotiable stays Palace's Guehi with Milan's Tomori the cheaper alt,
-    // Spurs' Djed Spence a new RB option; Jacquet a doubt for Monaco until Van Dijk is eased back.
+    // wins over Wrexham and Sunderland; Ekitike, Leoni and Bradley take no part (rehab),
+    // and Gomez is out and racing for Forest on Aug 29; Jacquet is set for his pre-season debut vs Como;
+    // the winger board has drawn Arsenal as a rival for Barcola near £145m, so Mbaye is the name
+    // Liverpool most realistically land (Rayan and Minteh still on the board);
+    // the centre-back non-negotiable slides to Palace's Guehi as a longer-term want now Araujo's loan is in;
+    // Curtis Jones's Inter move has cooled (Romano: far from done).
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -104,9 +104,9 @@ export const FORMATIONS = {
       ST:  { x: 50, y: 14, role: "FWD" },
       RW:  { x: 78, y: 22, role: "FWD" },
     },
-    // Hypothetical 3-4-3 alternative, a shape Slot rarely used in 2025-26.
+    // Hypothetical 3-4-3 alternative, a shape rarely used in 2025-26.
     // Shown for completeness alongside the season-closing baseline. Refreshed
-    // Sun Aug 9: Joe Gomez, hurt inside eight minutes of the Sunderland win and
+    // Wed Aug 12: Joe Gomez, hurt inside eight minutes of the Sunderland win and
     // out for weeks (missing the opener), took no part in any of the three tour
     // games, so the academy's Ndukwe steps into the left of a bare back three
     // alongside a returning VVD and Jacquet; Kerkez and Jones as wing-backs,
