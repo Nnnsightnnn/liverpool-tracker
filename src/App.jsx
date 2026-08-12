@@ -210,6 +210,98 @@ function StatStrip({ stats }) {
   );
 }
 
+// ─── Transfer window countdown ─────────────────────────────────────────────
+// The 2026 summer window shuts for Premier League clubs at 23:00 BST on
+// Tuesday 1 September 2026 (22:00 UTC). Stored with an explicit offset so the
+// countdown is correct from any reader's timezone. After the deadline passes
+// the strip flips to a closed state rather than counting negative.
+export const WINDOW_DEADLINE = "2026-09-01T23:00:00+01:00";
+
+function useCountdown(target) {
+  const targetMs = useMemo(() => new Date(target).getTime(), [target]);
+  const [now, setNow] = useState(() => Date.now());
+
+  useEffect(() => {
+    const id = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(id);
+  }, []);
+
+  const remaining = targetMs - now;
+  if (remaining <= 0) return { closed: true, days: 0, hours: 0, minutes: 0, seconds: 0 };
+
+  const totalSeconds = Math.floor(remaining / 1000);
+  return {
+    closed: false,
+    days: Math.floor(totalSeconds / 86400),
+    hours: Math.floor((totalSeconds % 86400) / 3600),
+    minutes: Math.floor((totalSeconds % 3600) / 60),
+    seconds: totalSeconds % 60,
+  };
+}
+
+function WindowCountdown({ style = {} }) {
+  const { closed, days, hours, minutes, seconds } = useCountdown(WINDOW_DEADLINE);
+  const pad = (n) => String(n).padStart(2, "0");
+
+  const units = [
+    { value: days, label: days === 1 ? "Day" : "Days" },
+    { value: pad(hours), label: "Hrs" },
+    { value: pad(minutes), label: "Min" },
+    { value: pad(seconds), label: "Sec" },
+  ];
+
+  return (
+    <div className="window-countdown" style={{
+      borderTop: `1px solid ${T.rule}`, borderBottom: `1px solid ${T.rule}`,
+      padding: "16px 0", display: "flex", alignItems: "center",
+      justifyContent: "space-between", gap: 24, flexWrap: "wrap", ...style,
+    }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+        <span style={{ width: 22, height: 1, background: T.red, display: "inline-block" }} />
+        <SmallCaps color={T.ivoryDim}>
+          {closed ? "Transfer window closed" : "Window shuts in"}
+        </SmallCaps>
+      </div>
+
+      {closed ? (
+        <div style={{
+          fontFamily: T.serif, fontStyle: "italic", fontSize: 18, color: T.ivoryDim,
+        }}>
+          Deadline passed, 1 September.
+        </div>
+      ) : (
+        <div style={{ display: "flex", alignItems: "flex-end", gap: 20 }}>
+          {units.map((u) => (
+            <div key={u.label} style={{ textAlign: "center", minWidth: 44 }}>
+              <div style={{
+                fontFamily: T.serif, fontWeight: 500, fontSize: 30, lineHeight: 1,
+                color: T.ivory, fontVariantNumeric: "tabular-nums",
+                fontFeatureSettings: "\"tnum\"",
+              }}>
+                {u.value}
+              </div>
+              <div style={{
+                marginTop: 6, fontSize: 9, letterSpacing: "0.2em",
+                textTransform: "uppercase", color: T.ivoryFaint,
+                fontFamily: T.sans, fontWeight: 500,
+              }}>
+                {u.label}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      <div style={{
+        fontSize: 10, letterSpacing: "0.18em", textTransform: "uppercase",
+        color: T.ivoryFaint, fontFamily: T.sans,
+      }}>
+        Deadline · Tue 1 Sep, 23:00 BST
+      </div>
+    </div>
+  );
+}
+
 // ─── Masthead nav ──────────────────────────────────────────────────────────
 
 const NAV_ITEMS = [
@@ -394,6 +486,8 @@ function CoverView({ onJump }) {
         </p>
 
         <StatStrip stats={stats} />
+
+        <WindowCountdown style={{ marginTop: 20, borderTop: "none" }} />
 
         {coverSrc && heroOk && (COVER_IMAGE.focus || COVER_IMAGE.credit) && (
           <div className="cover-hero-caption" style={{
@@ -2645,6 +2739,9 @@ function TargetsView() {
         { label: "Sources cited", value: (TRANSFER_TARGETS.sources || []).length },
       ]} />
 
+      {/* Deadline countdown — the clock every entry on this page runs against */}
+      <WindowCountdown style={{ marginTop: 20, borderTop: "none" }} />
+
       {/* Editorial lede */}
       {TRANSFER_TARGETS.summary && (
         <p style={{
@@ -3237,6 +3334,10 @@ export default function LiverpoolTracker() {
           .cover-section-pad { padding: 48px 0 36px !important; }
           .cover-hero-media { left: -18px !important; right: -18px !important; }
           .cover-hero-caption { font-size: 9px !important; letter-spacing: 0.16em !important; }
+
+          /* Transfer-window countdown → stack label, clock, deadline */
+          .window-countdown { gap: 14px !important; }
+          .window-countdown > div:last-child { font-size: 9px !important; letter-spacing: 0.14em !important; }
 
           /* Cover "in this issue" 2-col → stack */
           .cover-issue-grid { grid-template-columns: 1fr !important; gap: 32px !important; }

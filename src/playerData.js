@@ -277,6 +277,14 @@ export const RSS_FEEDS = [
   { name: "Empire of the Kop", url: "https://www.empireofthekop.com/feed/", category: "fan", color: "#8B0000" },
   { name: "The Anfield Wrap", url: "https://www.theanfieldwrap.com/feed/", category: "fan", color: "#B22222" },
   { name: "ESPN FC - Liverpool", url: "https://www.espn.com/espn/rss/soccer/news", category: "major", color: "#CC0000" },
+  // Added Aug 12 2026 — broaden the wire beyond the original seven.
+  // NOTE: Transfermarkt is deliberately NOT here. Its /rss/news/verein/31 path
+  // returns a consent-wall HTML page, not a feed, so it would render as a dead
+  // source. Transfermarkt is used as a RESEARCH + VERIFICATION source by the
+  // update skill (target-board status sweep) rather than as a live feed.
+  { name: "Liverpool Echo", url: "https://www.liverpoolecho.co.uk/all-about/liverpool-fc?service=rss", category: "major", color: "#E03A3E" },
+  { name: "Liverpool.com", url: "https://www.liverpool.com/?service=rss", category: "fan", color: "#9B1B30" },
+  { name: "talkSPORT - Liverpool", url: "https://talksport.com/football/teams/liverpool/feed/", category: "major", color: "#E4002B" },
 ];
 
 // ─── Team Logos ────────────────────────────────────────────────────────────
@@ -337,6 +345,7 @@ export const TEAM_LOGOS = {
   "Roma":             "https://img.uefa.com/imgml/TP/teams/logos/50x50/50043.png",
   "AC Milan":         "https://img.uefa.com/imgml/TP/teams/logos/50x50/50058.png",
   "Ajax":             "https://img.uefa.com/imgml/TP/teams/logos/50x50/50094.png",
+  "Celtic":           "https://img.uefa.com/imgml/TP/teams/logos/50x50/50050.png",
 };
 
 // ─── Cover Image (edition hero — tied to the lead story) ────────────────────
@@ -557,6 +566,12 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
+      title: "One Off The Board: Hassan Passes A Celtic Medical (Sky Sports / Transfermarkt / FootballTransfers, today)",
+      detail:
+        "A target Liverpool watched for a month has been bought by somebody else. Haissem Hassan, the 24-year-old Egypt winger at Real Oviedo, has passed a medical in Glasgow after Celtic agreed a deal in principle worth just under £6m up front plus £3m in add-ons, with an official announcement expected within days. Liverpool spent July exploring a fee beneath his €12m release clause, the leverage being Oviedo's relegation to the Segunda, but never converted interest into a formal bid. Celtic, who opened at €4m in June, kept moving until it closed. Never a Salah replacement, only affordable width, but a reminder that the cheap end of the board moves too.",
+      category: "transfers",
+    },
+    {
       title: "Jacquet Set For His Pre-Season Debut Against Como (Goal / Liverpool.com, today)",
       detail:
         "A defence run to the bone gets a body back. Andoni Iraola has indicated Jeremy Jacquet, the £60m signing from Rennes managed with utmost caution after January shoulder surgery, should finally feature in Sunday's Como friendly, his first minutes of pre-season. He has trained or played none of it until now, which against Monaco left Van Dijk and the academy's Ndukwe as the only fit specialist centre-backs. His return, alongside Ronald Araujo's loan cover being available from the same game, eases a back line the club has spent all summer trying to reinforce, with Gomez out and Leoni still on his ACL.",
@@ -616,6 +631,7 @@ export const NEWS_DIGEST = {
     "Liverpool FC",
     "Liverpool.com",
     "Goal",
+    "Transfermarkt",
   ],
 };
 // ─── Transfer Targets (2026 summer window) ─────────────────────────────────
@@ -625,7 +641,7 @@ export const NEWS_DIGEST = {
 export const TRANSFER_TARGETS = {
   generatedAt: "2026-08-12T08:20:00Z",
   summary:
-    "Wednesday, and the summer's defining chase suddenly has a rival: Arsenal have moved to hijack the Bradley Barcola deal after losing Vinicius to a new Real Madrid contract, with PSG holding firm near £145m, naming the winger in their Super Cup squad, and Liverpool, whose £98.5m opener never closed the gap, reported to have weighed walking away. Ibrahim Mbaye, advised by Jorge Mendes, stays the cheaper Paris winger Liverpool lead for and the likeliest to land, with Bournemouth's Rayan (a £130m clause dormant until 2027) and Brighton's Yankuba Minteh (around £70m) still on the board. At the back the defender is done: Ronald Araujo, unveiled on loan from Barcelona in the No. 33, is available from Sunday's Como game, softening the long Guehi pursuit into a want rather than a must-have. On the sell side Liverpool hold firm on Gakpo, refusing Tottenham, while the Curtis Jones move to Inter has cooled, Romano calling it far from done and stuck on the fee. Above it all the farewell is long since inked: Mohamed Salah is a Trabzonspor player.",
+    "Wednesday, and the summer's defining chase suddenly has a rival: Arsenal have moved to hijack the Bradley Barcola deal after losing Vinicius to a new Real Madrid contract, with PSG holding firm near £145m, naming the winger in their Super Cup squad, and Liverpool, whose £98.5m opener never closed the gap, reported to have weighed walking away. Ibrahim Mbaye, advised by Jorge Mendes, stays the cheaper Paris winger Liverpool lead for and the likeliest to land, with Bournemouth's Rayan (a £130m clause dormant until 2027) and Brighton's Yankuba Minteh (around £70m) still on the board. At the back the defender is done: Ronald Araujo, unveiled on loan from Barcelona in the No. 33, is available from Sunday's Como game, softening the long Guehi pursuit into a want rather than a must-have. One name comes off the board entirely: Haissem Hassan, the cheap Oviedo winger Liverpool explored all July, has passed a medical at Celtic, who agreed just under £6m plus £3m in add-ons while Liverpool never tabled a formal offer. On the sell side Liverpool hold firm on Gakpo, refusing Tottenham, while the Curtis Jones move to Inter has cooled, Romano calling it far from done and stuck on the fee. Above it all the farewell is long since inked: Mohamed Salah is a Trabzonspor player.",
   incoming: [
     {
       name: "Ronald Araujo",
@@ -1045,29 +1061,29 @@ export const TRANSFER_TARGETS = {
       nationality: "🇪🇬 Egypt",
       foot: "Left",
       image: "https://r2.thesportsdb.com/images/media/player/cutout/hht3iz1762620398.png",
-      currentClub: "Real Oviedo",
-      currentLeague: "Segunda Division",
-      feeMin: 7, feeMax: 11, feeCurrency: "£m",
+      currentClub: "Celtic",
+      currentLeague: "Scottish Premiership",
+      feeMin: 6, feeMax: 9, feeCurrency: "£m",
       marketValue: 10,
       wageBand: "D",
       contractExpiry: "2027-06-30",
-      releaseClause: "€12m (£10.4m)",
-      contractNote: "Contracted to 2027 with a €12m release clause. Oviedo are directing suitors toward the clause; Liverpool are exploring terms below it, leaning on the relegation to the Segunda. Celtic are preparing a €7-8m package.",
-      probability: 66,
-      heatTier: "hot",
+      releaseClause: "€12m (£10.4m, now moot)",
+      contractNote: "Gone. Celtic and Real Oviedo agreed a deal in principle worth just under £6m up front with a further £3m in performance add-ons, and Hassan has passed his medical in Glasgow with personal terms verbally agreed, an official announcement expected imminently. Liverpool had explored a fee beneath the €12m release clause through July, leaning on Oviedo's relegation to the Segunda, but never converted the interest into a formal offer while Celtic moved from a €4m opener in June to a package that closed it.",
+      probability: 0,
+      heatTier: "dead",
       sources: [
-        { name: "El Gol Digital", tier: "B" },
-        { name: "Football365",    tier: "B" },
-        { name: "TeamTalk",       tier: "B" },
-        { name: "Anfield Index",  tier: "B" },
+        { name: "Sky Sports",          tier: "A" },
+        { name: "Transfermarkt",       tier: "A" },
+        { name: "FootballTransfers",   tier: "B" },
+        { name: "TeamTalk",            tier: "B" },
       ],
-      lastUpdated: "2026-07-19",
+      lastUpdated: "2026-08-12",
       rumorNote:
-        "Oviedo · 18 Jul — the relegation clause that solves a summer. El Gol Digital report Liverpool have accelerated and are confident of agreeing a fee under the 12m euro release clause, roughly £10.4m, the leverage being that Oviedo have just gone down to the Segunda and cannot hold out for a full clause payment forever. Celtic opened at 4m euros in June and are preparing to come back at seven or eight. Nobody is calling it a Salah replacement, least of all the club, and there is an obvious and slightly uncomfortable symmetry in replacing the greatest Egyptian in the club's history with a cheaper one. What it actually is: width, at a price a club with no chief executive of football can sign off without a board meeting.",
+        "Glasgow · 12 Aug — gone to Celtic, and Liverpool never made the offer. The Egypt winger has passed a medical in Glasgow after Celtic agreed a deal in principle with Real Oviedo worth just under £6m plus £3m in add-ons, with an announcement expected within days. Liverpool spent July confident of prising him out beneath the €12m release clause, the leverage being Oviedo's drop to the Segunda, and got as far as exploring terms without ever tabling one. Celtic, who opened at €4m in June, simply kept moving. He was never a Salah replacement, only width at a signable price, but he is the summer's clearest lesson in the difference between admiring a target and buying one.",
       positionFit: {
         replaces: "Salah (departed, free agent)",
         competesWith: "Ngumoha, Chiesa, Munoz",
-        depthAfter: "Squad width on the right rather than a first-choice starter",
+        depthAfter: "Would have been squad width on the right; now a Celtic player",
       },
       stats: {
         appearances: 33, goals: 8, assists: 6, xG: 6.9,
@@ -2265,6 +2281,8 @@ export const TRANSFER_TARGETS = {
     "Yahoo Sports",
     "Sports Mole",
     "BBC Sport",
+    "Transfermarkt",
+    "FootballTransfers",
   ],
 };
 
