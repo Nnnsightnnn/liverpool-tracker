@@ -477,12 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday, and the club waits on a signature that would end fifteen
-          years of Fenway sole ownership. The Bezos-fronted consortium's purchase
-          of about a third of Liverpool, a valuation of some £4.4bn, is expected
-          to be announced any day, the keys kept at Fenway for now. On the pitch
-          the winger hunt sharpens as Arsenal move on Barcola, and Sunday brings
-          Como to Anfield with the opener a week beyond.
+          Thursday, and the winger hunt has turned from want to nerve. Sky call
+          the Barcola deal difficult, Arsenal circling and the fee some £30m
+          apart, and the pivot to Mbaye grows the longer it drags. Off the pitch
+          a Bezos-fronted stake of about a third, valued near £4.4bn, still waits
+          on its announcement. Sunday brings Como to Anfield, the last friendly
+          before Newcastle away opens the league.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,25 +513,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and still the season's biggest story is written in numbers no
-              scoreboard shows. FSG have agreed to sell a strategic stake of
-              about a third to a consortium fronted by <em>Amit Bhatia</em>, the
-              son-in-law of steel magnate Lakshmi Mittal, and carrying{" "}
-              <em>Jeff Bezos</em> and <em>Eduardo Saverin</em>; the announcement,
-              sources say, could come this week, though one cautioned it may
-              slip. Control stays at Fenway for now, and Al Jazeera reports the
-              Kop still seeking clarity on what a Bezos-backed balance sheet would
-              mean. On the pitch the summer's defining chase has reached its
-              crossroads: PSG hold <em>Barcola</em> near £145m and named him in
-              their Super Cup squad, <em>Arsenal</em> have moved to hijack the
-              deal after losing Vinicius to a new Madrid contract, and Liverpool
-              are said to have weighed walking away. <em>Ibrahim Mbaye</em> stays
-              the Paris winger they actually lead for; <em>Ronald Araujo</em>,
-              unveiled on loan, is available from Sunday. <em>Curtis Jones</em>'s
-              move to Inter has cooled, Romano calling it far from done. Como
-              visit for the last friendly this Sunday; then Newcastle away, and
-              the waiting ends.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the summer's defining chase has narrowed to a question of
+              nerve. Sky call the <em>Barcola</em> deal difficult after the
+              latest talks, PSG holding near £145m and naming him in their Super
+              Cup squad, <em>Arsenal</em> trying to hijack it, and Liverpool.com's
+              Ian Doyle warning the club against an <em>extortionate</em> fee for
+              a player they rate some £30m lower. The pivot is already drawn:{" "}
+              <em>Ibrahim Mbaye</em>, keen on Anfield and cheaper, is the Paris
+              winger they can actually close, though Dortmund have now joined the
+              queue. Off the grass the ownership headline still hangs unsigned,
+              the Bezos-backed stake near £4.4bn expected any day. In the exits,
+              Romano says there is going to be movement on <em>Curtis Jones</em>{" "}
+              once Frattesi leaves Inter, and Liverpool have gone direct to Palace
+              for <em>Adam Wharton</em>. Como visit for the last friendly this
+              Sunday; then Newcastle away, and the waiting ends.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3265,7 +3261,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Wait long enough, and the world buys in."
+        "Some prices even want will not pay."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

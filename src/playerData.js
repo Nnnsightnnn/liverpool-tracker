@@ -142,7 +142,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Wed Aug 12 — the breakthrough that went quiet again. A day after Inter were reported to have found a breakthrough, Fabrizio Romano cools it: the deal is far from complete, at a standstill for weeks, Inter edging toward €35m and Liverpool holding near €40m with no fee agreed. The academy graduate, into the final year of his deal, still leans toward San Siro, and Chivu still pictures the 25-year-old wide as much as central, but Iraola has urged him to stay. Still needed in a midfield only getting Mac Allister back for Como, the mood reads unresolved rather than done", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Thu Aug 13 — warming again, on an Inter domino. Fabrizio Romano says there is 'going to be movement' in the final three weeks: Inter have held the academy graduate a priority since May and believe a deal can be done near €35m, but will not bid again until Davide Frattesi's exit clears the space, after which they intend to try before deadline day. Liverpool have wanted closer to €40m, and Iraola has urged the 25-year-old, into his final year, to stay. Still needed in a midfield only getting Mac Allister back for Como, the mood has turned from stalled to imminent-again", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -190,7 +190,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 39, goals: 9, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 6.8, status: "fit", injuryNote: "Mon Aug 10 — the door shut, not merely guarded. Liverpool have declined to sanction any sale of Gakpo to Tottenham, a firmer line than last week's talk of listening at £60m-plus, for a forward central to Iraola's front line. Spurs pushed after positive talks with the Dutchman's camp; Anfield refused to open the exit, with Salah's flank vacant and the manager wanting Gakpo reshaped around on the left. Nine goals and six assists in 39 appearances last season. Only an offer the club consider unignorable changes it", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 39, goals: 9, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 6.8, status: "fit", injuryNote: "Thu Aug 13 — a price now, not a flat no. Liverpool's stance on a Gakpo sale to Tottenham has softened from refusal to condition: reporting has the Dutchman himself open to the move and the club willing to talk above roughly £70m, and only once the wingers they want, Barcola and Mbaye the names cited, have landed. De Zerbi's interest is confirmed and no bid has been lodged, so nothing is close, but a door described as shut a week ago sits visibly ajar. Nine goals and six assists in 39 appearances last season, and a forward Iraola would still rather reshape around than cash in", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -477,12 +477,12 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-08-12T08:20:00Z",
+  generatedAt: "2026-08-13T08:20:00Z",
   overview:
-    "Eleven days from Newcastle, the Premier League table is still last season's: these are 2025-26's final twenty rows, Arsenal champions on 85 and Liverpool fifth on 60, with ESPN's 2026-27 feed reset to zero until the new campaign kicks off on August 23. Off the grass the summer's defining threads keep moving. FSG have agreed to sell a stake of about a third to a Bezos-backed consortium in a deal near £4.4bn, an announcement expected this week. And the winger chase that would refresh a fifth-placed attack has drawn a rival, Arsenal moving on Barcola while Liverpool weigh whether to walk away, with Ronald Araujo's loan already in to steady the back line. Fifth and a Champions League return is the platform; the opener at St James' Park is where the points at last resume.",
+    "Ten days from Newcastle, the Premier League table is still last season's: these are 2025-26's final twenty rows, Arsenal champions on 85 and Liverpool fifth on 60, with ESPN's 2026-27 feed reset to zero until the new campaign kicks off on August 23. The summer's threads keep moving off the grass. The winger chase that would refresh a fifth-placed attack has hardened into a choice, Sky calling the Barcola deal difficult and Liverpool.com's Ian Doyle warning against an extortionate fee, with Mbaye the cheaper pivot and Arsenal circling. Behind it the Bezos-backed stake near £4.4bn still waits on its announcement, and the exits stir, Romano expecting movement on Curtis Jones once Frattesi leaves Inter. Fifth and a Champions League return is the platform; the opener at St James' Park is where the points at last resume.",
   teams: {
-    "Liverpool": "Fifth on 60 and dark until August 23, with the summer's biggest news still off the pitch: FSG's agreed sale of about a third of the club to a Bezos-backed consortium, near £4.4bn, is expected to be announced this week. Ronald Araujo is in on loan and available from Sunday's Como friendly, cover for a back line cut by Konate's exit and injuries to Gomez and Leoni, with Jacquet due his pre-season debut too. In attack the Barcola chase has drawn Arsenal as a rival, so Mbaye leads the realistic options while a Gakpo sale to Spurs stays refused.",
-    "Arsenal": "Champions on 85, and now a direct rival to Liverpool for Barcola, moving on the PSG winger after losing Vinicius to a new Real Madrid deal.",
+    "Liverpool": "Fifth on 60 and dark until August 23, the summer defined by a winger chase now turned difficult: Sky call the Barcola deal hard to complete, Ian Doyle warns against an extortionate fee, and Mbaye reads as the cheaper pivot with Dortmund now competing. Ronald Araujo is in on loan and available from Sunday's Como double-header, cover for a back line cut by Konate's exit and Gomez's injury, with Jacquet due his bow. The Bezos-backed stake near £4.4bn still awaits its announcement, and Romano expects movement on Curtis Jones's exit to Inter.",
+    "Arsenal": "Champions on 85, and now a direct rival to Liverpool for Barcola, trying to hijack the PSG deal after losing Vinicius to a new Real Madrid contract.",
     "Manchester City": "Second on 78, and the club that pulled clear of Liverpool for Lille's Ayyoub Bouaddi on a deal north of £85m.",
     "Manchester United": "Third on 71, back in the Champions League, and a rival to Liverpool for Sano this summer.",
     "Aston Villa": "Fourth on 65, beat Liverpool 4-2 at Villa Park in May, and signed Joao Gomes after Liverpool declined him for a midfielder.",
@@ -492,8 +492,8 @@ export const STANDINGS_COMMENTARY = {
     "Sunderland": "Seventh on 54 in their first season back up, beaten 4-2 by Iraola's Liverpool in Nashville, where Joe Gomez limped off inside eight minutes.",
     "Leeds": "Fourteenth on 47, and the side that stunned Liverpool 4-2 in the Chicago tour finale, four unanswered second-half goals ending the Reds' summer trip on a jolt.",
     "Newcastle": "Twelfth on 49, hosts of the August 23 opener with Liverpool's defence stretched thin, both clubs set to remember Kevin Keegan beforehand.",
-    "Chelsea": "Tenth on 52, firming as the stronger name for Adam Wharton as Liverpool's move stays paused, and closing on Jordan Henderson from Brentford.",
-    "Crystal Palace": "Fifteenth on 45, and the club Liverpool made direct contact with on Wednesday over Adam Wharton, holding out near £100m with Manchester United also enquiring.",
+    "Chelsea": "Tenth on 52, and closing on former Liverpool captain Jordan Henderson from Brentford on a free.",
+    "Crystal Palace": "Fifteenth on 45, Conference League holders, and the club Liverpool made direct contact with over Adam Wharton, holding near £100m and keen to keep him with Manchester United also enquiring.",
     "Tottenham": "Seventeenth on 41, signed Robertson on a free, pressing hard for Gakpo at around £70m, and now weighing a sale of Djed Spence to the same Anfield club.",
     "West Ham": "Relegated on 39, and keeping Jarrod Bowen, who restructured rather than moved.",
     "Wolves": "Bottom on 20, relegated, and sending Joao Gomes to Villa rather than Anfield.",
@@ -503,135 +503,138 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Still The Whole City Waits On A Signature.",
-    byline: "Football365 / Al Jazeera",
-    dateline: "Anfield · 12 August",
-    category: "Football News",
+    headline: "The Chase Becomes A Test Of Nerve.",
+    byline: "Sky Sports / Liverpool.com",
+    dateline: "London · 13 August",
+    category: "Transfers",
     body:
-      "Three mornings now, and the biggest news in the club's modern history sits one signature short of real. FSG have agreed to sell a stake of about a third to a consortium fronted by Amit Bhatia, son-in-law of the steel magnate Lakshmi Mittal, and carrying Jeff Bezos and Eduardo Saverin, a deal valuing Liverpool near £4.4bn and read as a path to control rather than a passing cheque. Fenway keep the keys for now. An announcement is expected this week, though one source keeps warning it could slip. Al Jazeera says the Kop is seeking clarity, and that is the honest word for it: a headline this size, and nobody quite sure yet what it changes on a Tuesday night in L4.",
+      "Somewhere this week the Barcola pursuit stopped being about desire and started being about discipline. Sky, after the latest talks, call the deal difficult: PSG hold near £145m, have named the winger in their Super Cup squad, and feel no rush, while Arsenal, freed by Vinicius's new Madrid contract, try to gatecrash. Then Ian Doyle, in Liverpool.com's own pages, said the quiet part aloud, warning the club against an 'extortionate' fee for a 23-year-old they rate but will not overpay for. Personal terms were settled long ago. What remains is a £30m gap and a rival, and the growing sense that Ibrahim Mbaye, cheaper and keen, is the winger Liverpool actually sign.",
   },
   {
     n: "02",
-    headline: "For The First Time, Someone Else Is In The Room.",
-    byline: "Yahoo Sports / ESPN",
-    dateline: "London · 12 August",
-    category: "Transfers",
+    headline: "A Fourth Morning, And Still No Signature.",
+    byline: "Football365 / Al Jazeera",
+    dateline: "Anfield · 13 August",
+    category: "Football News",
     body:
-      "The chase that has defined the summer stopped being Liverpool's alone on Wednesday. With PSG holding Bradley Barcola near £145m and naming him in their Super Cup squad, Arsenal have moved to hijack the deal, freed to spend after Vinicius signed a new Real Madrid contract. Liverpool, whose £98.5m opener never bridged the gap, are said to have weighed walking away rather than be dragged to Paris's number. The player is still called top of their wishlist, still keen on Anfield. But a fortnight of window remains, a rival has arrived, and want, the thing Liverpool always had, no longer settles anything.",
+      "The biggest news in the club's modern history keeps arriving tomorrow. FSG have agreed to sell a stake of about a third to a consortium fronted by Amit Bhatia, son-in-law of the steel magnate Lakshmi Mittal, and carrying Jeff Bezos and Eduardo Saverin, a £1.35bn injection valuing Liverpool near £4.4bn and read as a path to control rather than a passing cheque. Fenway keep the keys for now. An announcement is expected any day, though one source keeps warning it could slip. Al Jazeera says the Kop is seeking clarity, and that is the honest word for it: a headline this size, and nobody yet sure what it changes on a Tuesday night in L4.",
   },
   {
     n: "03",
-    headline: "A Centre-Half, Finally, With Grass Under His Boots.",
-    byline: "Goal / Liverpool.com",
-    dateline: "Anfield · 12 August",
-    category: "Injuries",
+    headline: "With The Ins Stuck, The Outs Do The Work.",
+    byline: "Fabrizio Romano / Football Insider",
+    dateline: "Milan · 13 August",
+    category: "Transfers",
     body:
-      "Andoni Iraola spent a summer counting defenders he could not pick; on Sunday he gets one back. Jeremy Jacquet, the £60m signing from Rennes handled with almost surgical caution since January shoulder surgery, is set to make his pre-season debut against Como, his first minutes in red after training none of the tour. Against Monaco that absence left Van Dijk and the teenage Ndukwe as the only fit specialist centre-backs on the pitch. Add Ronald Araujo's loan cover, available from the same game, and a back line stretched by Gomez's injury and Leoni's ACL suddenly has bodies again. Not signings, exactly. Returns. Which, this August, feel like the same thing.",
+      "The busiest desk at Anfield this fortnight is the one marked departures. Fabrizio Romano says there is 'going to be movement' on Curtis Jones, Inter holding him a priority since May and eyeing a €35m deal, waiting only on Davide Frattesi's exit to clear the space before they bid again. Around him the clear-out gathers: Wataru Endo made available to Wolves, Fulham and West Ham; Harvey Elliott's move to RB Leipzig running hot near £40-50m; Giorgi Mamardashvili offered on loan to half of Serie A. Sell to buy, the club has said all summer. This is the selling, and it has finally started to move.",
   },
   {
     n: "04",
-    headline: "The Breakthrough That Went Quiet Again.",
-    byline: "Fabrizio Romano / Liverpool.com",
-    dateline: "Milan · 12 August",
+    headline: "A New Front Opens At Selhurst Park.",
+    byline: "The Kopite View / This Is Anfield",
+    dateline: "Selhurst Park · 13 August",
     category: "Transfers",
     body:
-      "A day is a long time in a transfer saga. Twenty-four hours after Inter were reported to have found a breakthrough for Curtis Jones, Fabrizio Romano cooled it to the bone: talks far from complete, at a standstill for weeks, Inter edging toward €35m and Liverpool holding near €40m with no fee agreed. The academy graduate, into his final year, still leans toward San Siro, and Chivu still sees him wide as much as central. But Iraola has urged him to stay, and for now the loudest thing about the deal is how little has actually moved. A midfield reshapes around the decision, and the decision has not been made.",
+      "A midfield search that went quiet in July has found a second wind. Liverpool made direct contact with Crystal Palace over Adam Wharton, Manchester United enquiring the same night, reviving a pursuit the Reds had abandoned when Palace kept lifting their number. The obstacle has only hardened. Buoyed by a Conference League trophy, Palace want to keep the 22-year-old and will listen only above a figure near £100m; United are capped nearer £70m, and Liverpool valued him £50-60m before signalling they would go past £70m. With Bouaddi lost to City and Sano contested by Leipzig, the base of the midfield now runs through a player his club would rather not sell.",
   },
   {
     n: "05",
-    headline: "One Friendly Left, And A Nod To Keegan.",
-    byline: "This Is Anfield / Liverpool FC",
-    dateline: "Anfield · 12 August",
+    headline: "One Friendly Left, Then Newcastle.",
+    byline: "Liverpool FC / Yahoo Sports",
+    dateline: "Anfield · 13 August",
     category: "Race for Europe",
     body:
-      "The rehearsals are almost done. Como visit Anfield on Sunday for the last friendly, Alexis Mac Allister back among a full contingent, the final look before the points begin. Behind it sits an uneasy pre-season, two two-goal leads thrown away in a week at Leeds and against Monaco, a press that thrills and a bench the manager does not yet trust. Then Newcastle away on August 23 opens the league, both clubs set to remember Kevin Keegan beforehand. Iraola has said, plainly, that he will 'recover players' by then. Somewhere in the fortnight a takeover lands, a winger is fought over, a defence is registered. A warning, he hopes, turned into a plan.",
+      "The last rehearsal comes twice. Como, Champions League qualifiers after a fourth-placed Serie A season, visit Anfield on Sunday for a behind-closed-doors game at half-eleven and the public friendly at six, a double-header on a single day. Iraola will name a full contingent for the first time, Mac Allister and world-champion Victor Munoz among the returners, the final look before the points begin. Behind it sits an uneasy pre-season, two two-goal leads thrown away in a week at Leeds and against Monaco. Then Newcastle away on August 23 opens the league, both clubs pausing first to remember Kevin Keegan. A fortnight to turn a warning into a plan.",
   },
 ];
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-08-12T08:20:00Z",
+  generatedAt: "2026-08-13T08:20:00Z",
   summary:
-    "Wednesday, and the club is still waiting on the announcement that would reshape its ownership for the first time in fifteen years: FSG have agreed to sell a strategic stake of around a third to a consortium fronted by Amit Bhatia, the son-in-law of steel magnate Lakshmi Mittal, and carrying Jeff Bezos and Eduardo Saverin, a deal valuing Liverpool near £4.4bn that keeps Fenway in control for now but is read as a path to it later. Sources say the unveiling could come this week, though one warned it may slip, and Al Jazeera reports Liverpool fans still seeking clarity on what a Bezos-backed balance sheet would actually mean. On the pitch the summer's defining chase has reached a crossroads: with PSG holding Bradley Barcola near £145m and naming him in their Super Cup squad, Arsenal have moved to hijack the deal after losing Vinicius to a new Real Madrid contract, and Liverpool are reported to have weighed walking away. Ibrahim Mbaye, advised by Jorge Mendes, stays the cheaper Paris winger Liverpool lead for, while Ronald Araujo, unveiled on loan, is available from Sunday's Como friendly and Jeremy Jacquet is set for a pre-season debut in the same game. Curtis Jones's Inter move has cooled, Romano calling it far from done. Como close the pre-season at Anfield on Sunday before Newcastle away opens the league on August 23.",
+    "Thursday, and the summer's defining chase has hardened into a choice. Sky call the Bradley Barcola deal difficult after talks, PSG holding near £145m and naming the winger in their Super Cup squad, Arsenal moving to hijack it, and Liverpool.com's Ian Doyle warning the club not to pay an 'extortionate' fee for a player they value some £30m lower. The pivot is already drawn: Ibrahim Mbaye, advised by Jorge Mendes and giving Anfield priority, is the Paris winger Liverpool can actually close, though Borussia Dortmund have now entered that race too. Off the grass the ownership headline still hangs unsigned, FSG's agreed sale of about a third to the Bhatia-led, Bezos-backed consortium near £4.4bn expected to be announced any day though one source keeps warning it could slip. In the exits, Fabrizio Romano says there is 'going to be movement' on Curtis Jones, Inter holding him a priority and eyeing a roughly €35m deal once Davide Frattesi leaves, while Liverpool made direct contact with Crystal Palace over Adam Wharton. Como close the pre-season at Anfield on Sunday, Mac Allister and Victor Munoz back in a full contingent, before Newcastle away opens the league on August 23.",
   keyTopics: [
     {
-      title: "FSG-Bezos Sale 'Announcement Imminent' As The Kop Seeks Clarity (Football365 / Al Jazeera / Sky Sports, today)",
+      title: "Barcola Deal 'Difficult' As Doyle Warns Against An 'Extortionate' Fee (Sky Sports / Liverpool.com, today)",
       detail:
-        "A third morning under the same enormous cloud, and still no signature. Reporting on Wednesday holds the line that FSG's agreement to sell a stake of about a third to the Bhatia-led, Bezos-backed consortium is imminent, an unveiling expected this week though one source again cautioned it could slip. The valuation sits near £4.4bn (about $6bn), among the richest in the sport, with Fenway retaining control and the arrangement framed as a path to it later. New threads today: Bhatia is the son-in-law of steel magnate Lakshmi Mittal, and reporting frames the injection as a potential transfer war chest, one outlet floating a '£1.5bn boost'. Al Jazeera, meanwhile, reports supporters seeking clarity on what any of it changes at Anfield.",
+        "The summer's marquee chase has become a decision rather than a pursuit. Sky Sports, after the latest round of talks, describe the Bradley Barcola deal as difficult to complete: PSG hold near £145m, have named the winger in their UEFA Super Cup squad, and are in no rush, while Liverpool's valuation sits some £30m lower and Arsenal, freed by Vinicius signing a new Real Madrid deal, have moved to hijack it. Liverpool.com's Ian Doyle sharpened the mood on Thursday, warning the club not to be dragged into an 'extortionate' fee for a 23-year-old they rate but will not overpay for. Personal terms were never the issue. The number, and now a rival, are.",
+      category: "transfers",
+    },
+    {
+      title: "The Pivot Grows Rivals: Dortmund Enter The Mbaye Race (This Is Anfield / TeamTalk, today)",
+      detail:
+        "If the marquee number will not move, the fallback is getting busier. Liverpool are said to have been given priority by Ibrahim Mbaye, the 18-year-old PSG winger now advised by Jorge Mendes, over Bayer Leverkusen, and he reads as the Paris wide man the club can realistically close, valued between £34m and £43m into the final two years of his deal. But the field has widened: reporting on Thursday puts Borussia Dortmund in a strong position too, alongside the German interest already logged. He plays chiefly off the right, the flank Salah vacated, and the longer Barcola drags, the more Mbaye looks like the move Liverpool make first.",
+      category: "transfers",
+    },
+    {
+      title: "FSG-Bezos Sale Still Waits On A Signature (Football365 / Al Jazeera, today)",
+      detail:
+        "A fourth morning under the same enormous cloud, and still no announcement. Reporting holds the line that FSG's agreement to sell a stake of about a third to the Bhatia-led, Bezos-backed consortium is close, an unveiling expected any day though one source keeps cautioning it could slip. The valuation sits near £4.4bn, the £1.35bn injection among the richest in the sport, with Fenway keeping control and the deal read as a path to it later. Bezos is worth north of £200bn, Saverin over £23bn, Bhatia the son-in-law of steel magnate Lakshmi Mittal. Al Jazeera still reports the Kop seeking clarity on what any of it changes on a Tuesday night in L4.",
       category: "general",
     },
     {
-      title: "Arsenal Move To Hijack Barcola As Liverpool Weigh Walking Away (Yahoo Sports / ESPN / Sky Sports, today)",
+      title: "Romano: 'Going To Be Movement' On Jones As Inter Wait On Frattesi (Fabrizio Romano / Empire of the Kop, today)",
       detail:
-        "The summer's defining chase has a new complication, and it wears red and white. With PSG holding firm near £145m and naming Bradley Barcola in their UEFA Super Cup squad on Wednesday, reporting has Arsenal moving to hijack the deal after missing out on Vinicius, who signed a new Real Madrid contract. Liverpool, whose £98.5m opener never closed the roughly £30m gap, are said to have mulled walking away rather than be dragged to PSG's number. The player is described as top of Liverpool's wishlist and keen on Anfield, but a fortnight of window remains and, for the first time, someone else is in the room.",
+        "The exit that has simmered all summer is warming again. Fabrizio Romano says there is 'going to be movement' on Curtis Jones in the final three weeks of the window, with Inter having held the academy graduate a priority since May and believing a deal can be done around €35m. The catch is a domino: Inter will not table a fresh bid until Davide Frattesi's own exit is settled, but intend to try again for Jones before deadline day once it is. Liverpool have wanted closer to €40m, and Iraola has urged the 25-year-old, into his final year, to stay. The mood has shifted from stalled to imminent-again.",
       category: "transfers",
     },
     {
-      title: "The Board Clears Out: Hassan To Celtic, Guimaraes To Arsenal, Bouaddi To City (Transfermarkt / Sky Sports / Fabrizio Romano, today)",
+      title: "Liverpool Make Direct Contact With Palace Over Wharton (The Kopite View / This Is Anfield, today)",
       detail:
-        "An audit of Liverpool's target board found rather a lot of it already sold. Haissem Hassan has passed a Celtic medical, the Scottish champions agreeing just under £6m plus £3m in add-ons for the Oviedo winger Liverpool explored all July without ever bidding. Bruno Guimaraes was registered as an Arsenal player on 8 August after a £75m move from Newcastle. Ayyoub Bouaddi has agreed personal terms with Manchester City on a deal reported near £85m. Djed Spence is finalising a move to Inter, Liverpool having made clear they would not pursue him. And Marc Guehi, framed for two windows as the marquee centre-back, has been a Manchester City player since January. Wanting, this summer keeps showing, is not the same as buying.",
+        "A midfield search that went quiet in July has a new front. Liverpool made direct contact with Crystal Palace over Adam Wharton, with Manchester United enquiring on the same night, reviving a pursuit the Reds had stepped back from when Palace kept raising their number. Palace, buoyed by their Conference League triumph, want to keep the 22-year-old and will only sell above a valuation reported near £100m; United are capped closer to £70m and Liverpool spent the summer valuing him £50-60m before signalling they would go past £70m. With Bouaddi lost to City and Sano contested by Leipzig, the base of midfield has narrowed to a race Liverpool have suddenly chosen to enter.",
       category: "transfers",
     },
     {
-      title: "Jacquet Set For His Pre-Season Debut Against Como (Goal / Liverpool.com, today)",
+      title: "Como Close The Pre-Season In An Anfield Double-Header (Liverpool FC / Yahoo Sports, today)",
       detail:
-        "A defence run to the bone gets a body back. Andoni Iraola has indicated Jeremy Jacquet, the £60m signing from Rennes managed with utmost caution after January shoulder surgery, should finally feature in Sunday's Como friendly, his first minutes of pre-season. He has trained or played none of it until now, which against Monaco left Van Dijk and the academy's Ndukwe as the only fit specialist centre-backs. His return, alongside Ronald Araujo's loan cover being available from the same game, eases a back line the club has spent all summer trying to reinforce, with Gomez out and Leoni still on his ACL.",
+        "The last rehearsal comes twice. Como 1907, Champions League qualifiers after finishing fourth in Serie A, visit Anfield on Sunday for a behind-closed-doors game at 11.30am and then the public friendly at 6pm, the third straight summer Liverpool have doubled up on a single day. It is the final hit-out before Newcastle away opens the league on August 23. Iraola will have a full contingent for the first time, Alexis Mac Allister and world-champion winger Victor Munoz back among a group that spent July split between a US tour and a World Cup final. A friendly run that twice threw away two-goal leads gets one more page to rewrite.",
+      category: "matches",
+    },
+    {
+      title: "The Medical Ledger: Gomez For Forest, Ekitike Eyes The Festive Games (Liverpool.com / Liverpool FC, 1d ago)",
+      detail:
+        "The treatment room still frames the market. Joe Gomez misses the Newcastle opener with the muscle injury taken inside ten minutes at Sunderland and is racing to be fit for the first home game, against Nottingham Forest on August 29. Iraola calls Giovanni Leoni the closest of the long-term absentees, back in team training within weeks after his ACL, while Conor Bradley and Hugo Ekitike are further off: Ekitike, months from his ruptured Achilles, is now reported to be targeting a return around the festive fixtures, a Boxing Day date floated. Every defensive and forward move the club weigh traces back to this room.",
       category: "injuries",
     },
     {
-      title: "Jones To Inter Cools: Romano Calls It 'Far From Complete' (Fabrizio Romano / Liverpool.com, today)",
+      title: "Bodies Back: Jacquet Due His Bow, Araujo Available From Sunday (Goal / ESPN, 1d ago)",
       detail:
-        "The exit that simmered all summer has gone quiet again. A day after talk of an Inter 'breakthrough', Fabrizio Romano reports the Curtis Jones deal is far from complete, with negotiations at a standstill for weeks: Inter prepared to raise their bid toward €35m, Liverpool holding closer to €40m, and no agreement on the fee. The 25-year-old academy graduate, into the final year of his deal, is understood to favour San Siro, and Chivu still pictures him wide as much as central, but Iraola has urged him to stay. For now the mood reads less 'imminent' than 'unresolved', a midfield decision as much the player's as the club's.",
-      category: "transfers",
-    },
-    {
-      title: "With Barcola Contested, Mbaye Becomes The Deal Liverpool Can Close (This Is Anfield / Sky Sports, 1d ago)",
-      detail:
-        "If the marquee number will not move, the cheaper one still might. Liverpool continue to lead the race for PSG teenager Ibrahim Mbaye, the 18-year-old advised by Jorge Mendes who has told the champions he wants out and is giving priority to Anfield over Bayer Leverkusen. Valued between £34m and £43m into the final two years of his deal, he plays chiefly off the right, the flank Salah left bare. With Barcola now contested by Arsenal and stuck near £145m, Mbaye reads less like the junior alternative and more like the winger Liverpool can realistically close before the window shuts.",
-      category: "transfers",
-    },
-    {
-      title: "Iraola: 'We Are Going To Recover Players' For Newcastle (Liverpool FC / Sky Sports, 1d ago)",
-      detail:
-        "The manager is counting bodies back in. Speaking around the pre-season run-in, Andoni Iraola stressed that the side that opens at Newcastle on August 23 will not be the one that finished a friendly the day before: 'we are going to recover players, definitely.' He has also praised how the younger players surprised him across the American tour, a note of optimism against a summer of injuries and a thin bench that twice let two-goal leads slip. Mac Allister returns for Como, Jacquet is due to feature, and the manager's message is that reinforcements, fit and signed, are still coming.",
-      category: "tactics",
-    },
-    {
-      title: "Gomez Chases An August 29 Return As The Medical Ledger Thins (Sky Sports / Liverpool.com, 1d ago)",
-      detail:
-        "The medical ledger still shapes the market. Joe Gomez misses the Newcastle opener with the muscle injury taken at Sunderland and is now racing to be fit for the first home game, against Nottingham Forest on August 29. Giovanni Leoni has entered the final stage of his ACL rehab and is expected back in team training within weeks, though the club will manage rather than rush him. Conor Bradley is still short after January knee surgery, and Hugo Ekitike's ruptured Achilles keeps him months away, hopeful of playing before the end of 2026. Every defensive move the club chase traces back to this room.",
+        "The back line stretched thin at Monaco is quietly restocking. Jeremy Jacquet, the Rennes signing handled with almost surgical caution since January shoulder surgery, is set for his first Liverpool minutes against Como after training none of the tour, his absence the reason Van Dijk and the teenage Ndukwe were the only fit specialist centre-backs at the weekend. Ronald Araujo, the season-long loan from Barcelona now wearing the No. 33, is available from the same game, cover at centre-back and, usefully, at right-back. Not signings, exactly. Returns, which this August feel like the same thing against a defence cut by Konate's exit and Gomez's injury.",
       category: "injuries",
     },
     {
-      title: "Araujo Settles In Ahead Of His Como Bow (Liverpool FC / ESPN, 1d ago)",
+      title: "The Club Turns Seller: Endo Made Available As Elliott's Exit Runs Hot (Football Insider / This Is Anfield, 1d ago)",
       detail:
-        "The defender the club actually landed is bedding in. Ronald Araujo, unveiled this week on a season-long loan from Barcelona in the No. 33, missed the Monaco friendly but is available from Sunday's Como game, senior cover at centre-back and, usefully, at right-back for a squad cut thin by Konate's free exit and a summer of injuries. The terms flatter Liverpool: no loan fee, the wage covered, a non-obligatory €55m option in 2027, the Uruguayan taking a pay cut to force it through. Surplus in Catalonia behind Cubarsi and Martin, he answers a crisis the marquee Guehi pursuit never quite solved.",
+        "With arrivals stuck, the departures are where the desk is busiest. Liverpool have made a number of clubs aware Wataru Endo is available and intend to accept an offer, Wolves, Fulham and West Ham the long-standing admirers of a 33-year-old behind the first-choice midfield. Harvey Elliott's move has taken on a life of its own, RB Leipzig favourites and reported to have agreed personal terms at a fee near £40-50m, with Leeds, Spurs and West Ham circling. Giorgi Mamardashvili has been offered on loan to a clutch of Italian clubs. Selling, this fortnight, is the part of the window Liverpool are actually completing.",
       category: "transfers",
     },
     {
-      title: "Reshaped, Not Sold: Gakpo Stays As Tottenham Are Turned Away (This Is Anfield / Liverpool.com, 2d ago)",
+      title: "Gakpo Stays A Condition, Not A Sale (Sky Sports / This Is Anfield, 2d ago)",
       detail:
-        "One forward the club will not let walk. Liverpool continue to decline any sale of Cody Gakpo to Tottenham, a firmer line than last week's talk of listening at £60m-plus, for a player central to Iraola's front line with Salah's flank already vacant. Spurs made contact with the Dutchman's camp; Anfield pushed back. The manager wants Gakpo reshaped around on the left rather than cashed in, and only an offer the club consider unignorable would move the stance. Nine goals and six assists last season, and, with the winger board still unresolved, staying looks the plan rather than the compromise.",
+        "One forward the club will part with only on their terms. Liverpool rebuffed Tottenham's first approach for Cody Gakpo, but the stance has softened from a flat refusal to a price: reporting has the Dutchman himself open to the move and Liverpool willing to talk above roughly £70m, and only once the wingers they want have landed, with Barcola and Mbaye the names cited. De Zerbi's interest is confirmed; no bid has been lodged. His deal runs to 2030, and with the winger board still unresolved, a door described as shut on Monday sits visibly ajar rather than open.",
       category: "transfers",
     },
     {
-      title: "Como On Sunday, Then Newcastle And A Nod To Keegan (This Is Anfield / Liverpool FC, 2d ago)",
+      title: "Then Newcastle, And A Nod To Keegan (This Is Anfield / Liverpool FC, 2d ago)",
       detail:
-        "The colour before the points. Como close the pre-season at Anfield this Sunday, August 16, the full contingent back including Alexis Mac Allister, the last rehearsal after a friendly run that twice threw away two-goal leads, at Leeds and then at home to Monaco. Then the real thing: Newcastle away on August 23 opens the league, both clubs set to remember Kevin Keegan beforehand. Somewhere in the fortnight between, a takeover headline is expected to land, a winger is chased against Arsenal, and a defender or two is registered. Iraola has that long to make the pattern read like rehearsal rather than prophecy.",
+        "Beyond Sunday, the real thing. Newcastle away on August 23 opens the Premier League season, both clubs set to remember Kevin Keegan beforehand, and Liverpool arrive with a defence still stretched and a winger still contested. It is the first competitive test of the Iraola project, ten months after Arne Slot's fifth-place finish and a summer that has already lost Salah to Trabzonspor, Konate to Real Madrid and Robertson to Spurs on frees. Somewhere in the fortnight a takeover is meant to land and a wide man is meant to sign. The manager has that long to turn a jittery pre-season into a plan.",
       category: "matches",
     },
   ],
   sources: [
     "Sky Sports",
-    "This Is Anfield",
-    "Al Jazeera",
-    "Football365",
-    "Yahoo Sports",
-    "ESPN",
-    "Fabrizio Romano",
-    "Liverpool FC",
     "Liverpool.com",
+    "This Is Anfield",
+    "Fabrizio Romano",
+    "Empire of the Kop",
+    "The Kopite View",
+    "Football365",
+    "Al Jazeera",
+    "Football Insider",
+    "TeamTalk",
+    "Yahoo Sports",
+    "Liverpool FC",
+    "ESPN",
     "Goal",
-    "Transfermarkt",
   ],
 };
 // ─── Transfer Targets (2026 summer window) ─────────────────────────────────
@@ -639,9 +642,9 @@ export const NEWS_DIGEST = {
 // heatTier: "hot" (≥65%) | "warm" (40-64%) | "cool" (<40%) | "done" | "dead"
 // sources[].tier: "S" (Romano-class) | "A" (major outlet) | "B" (beat) | "C" (aggregator)
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-08-12T08:20:00Z",
+  generatedAt: "2026-08-13T08:20:00Z",
   summary:
-    "Wednesday, and the summer's defining chase suddenly has a rival: Arsenal have moved to hijack the Bradley Barcola deal after losing Vinicius to a new Real Madrid contract, with PSG holding firm near £145m, naming the winger in their Super Cup squad, and Liverpool, whose £98.5m opener never closed the gap, reported to have weighed walking away. Ibrahim Mbaye, advised by Jorge Mendes, stays the cheaper Paris winger Liverpool lead for and the likeliest to land, with Bournemouth's Rayan (a £130m clause dormant until 2027) and Brighton's Yankuba Minteh (around £70m) still on the board. At the back the defender is done: Ronald Araujo, unveiled on loan from Barcelona in the No. 33, is available from Sunday's Como game, softening the long Guehi pursuit into a want rather than a must-have. A full audit of the board today also cleared a great deal of dead wood: Haissem Hassan has passed a medical at Celtic, Bruno Guimaraes is an Arsenal player, Ayyoub Bouaddi has agreed terms with Manchester City, Djed Spence is joining Inter with Liverpool having declined him, and Marc Guehi, chased across two windows, has in fact been at Manchester City since January. In midfield the answer narrows to Kaishu Sano and a suddenly revived Adam Wharton, Liverpool making direct contact with Crystal Palace on Wednesday over a player Palace value near £100m. On the sell side Liverpool hold firm on Gakpo, refusing Tottenham, while the Curtis Jones move to Inter has cooled, Romano calling it far from done and stuck on the fee. Above it all the farewell is long since inked: Mohamed Salah is a Trabzonspor player.",
+    "Thursday, and the marquee chase has turned from pursuit to decision: Sky call the Bradley Barcola deal difficult after talks, PSG holding near £145m and naming him in their Super Cup squad, Arsenal hijacking it, and Liverpool.com's Ian Doyle warning the club against an 'extortionate' fee for a player they rate some £30m lower. The pivot is Ibrahim Mbaye, the 18-year-old advised by Jorge Mendes who has given Anfield priority, though Borussia Dortmund have now joined Bayer Leverkusen in that race, with Bournemouth's Rayan (a £130m clause dormant until 2027) and Brighton's Yankuba Minteh (around £70m) the standing alternatives. In midfield Liverpool have made direct contact with Crystal Palace over Adam Wharton, a pursuit revived after going quiet in July, though Palace want near £100m and to keep him after their Conference League win; Kaishu Sano stays the other live No. 6, now contested by Leipzig. At the back the defender is in and bedding down: Ronald Araujo's season-long loan is available from Sunday's Como game. On the sell side the desk is busiest: Fabrizio Romano says there is 'going to be movement' on Curtis Jones once Frattesi leaves Inter, Wataru Endo has been made available to Wolves, Fulham and West Ham, Harvey Elliott's Leipzig exit runs hot near £40-50m, and Gakpo's flat no to Tottenham has softened to a price above £70m. Above it all the farewell is long since inked: Mohamed Salah is a Trabzonspor player.",
   incoming: [
     {
       name: "Ronald Araujo",
@@ -705,9 +708,9 @@ export const TRANSFER_TARGETS = {
         { name: "ESPN",               tier: "A" },
         { name: "This Is Anfield",    tier: "A" },
       ],
-      lastUpdated: "2026-08-12",
+      lastUpdated: "2026-08-13",
       rumorNote:
-        "London · 12 Aug — no longer a chase Liverpool run alone. With PSG holding near £145m and naming Barcola in their Super Cup squad, Arsenal have moved to hijack the deal, freed to spend after Vinicius signed a new Real Madrid contract, and Liverpool are said to have weighed walking away rather than be dragged to Paris's valuation. The £98.5m opener never bridged the roughly £30m gap; the Hughes-Campos channel and the player's preference for Anfield have not moved either. But a fortnight of window remains and a rival has arrived, so Rayan and Minteh stay on the board and Mbaye reads more and more like the winger Liverpool can actually close. Want, the thing Liverpool always had, no longer settles it.",
+        "London · 13 Aug — difficult, and now a question of nerve. Sky brand the deal hard to complete after the latest talks: PSG hold near £145m, have named Barcola in their Super Cup squad, and feel no urgency, while Liverpool.com's Ian Doyle openly warns the club against an 'extortionate' fee for a player they value some £30m lower. Arsenal, freed by Vinicius's new Real Madrid deal, are trying to hijack it. Personal terms were agreed long ago and the player still wants Anfield, but the number will not move and a rival is in the room, so Rayan and Minteh stay on the board and Mbaye reads more and more like the winger Liverpool actually sign. Want, the thing Liverpool always had, no longer settles it.",
       positionFit: {
         replaces: "Salah (departed, free agent)",
         competesWith: ["Mbaye (PSG teammate, alt/partner)", "Minteh (Brighton fallback)", "Gakpo", "Ngumoha"],
@@ -742,9 +745,9 @@ export const TRANSFER_TARGETS = {
         { name: "This Is Anfield",    tier: "A" },
         { name: "Goal",               tier: "A" },
       ],
-      lastUpdated: "2026-08-12",
+      lastUpdated: "2026-08-13",
       rumorNote:
-        "Paris · 12 Aug — the winger Liverpool can actually close. As Barcola turns contested, Arsenal in and PSG holding near £145m, Ibrahim Mbaye reads less like the junior alternative and more like the deal that gets done. Liverpool lead the race for the 18-year-old, advised now by Jorge Mendes, who is giving priority to Anfield over Bayer Leverkusen and has told PSG he wants out. Paris will let him go for somewhere between £34m and £43m into the final two years of his deal, and he plays chiefly off the right, the flank Salah left bare. A green light, and with the marquee number stuck, a bid on him now looks overdue.",
+        "Paris · 13 Aug — the winger Liverpool can actually close, and the queue is lengthening. As Barcola turns difficult, Ibrahim Mbaye reads less like the junior alternative and more like the deal that gets done. Liverpool are said to hold priority with the 18-year-old, advised now by Jorge Mendes, over Bayer Leverkusen, and Paris will let him go for somewhere between £34m and £43m into the final two years of his deal. What changed on Thursday is the field: Borussia Dortmund are now reported in a strong position too. He plays chiefly off the right, the flank Salah left bare, and with the marquee number stuck and rivals gathering, a bid on him now looks overdue rather than optional.",
       positionFit: {
         replaces: "Salah (departed, free agent)",
         competesWith: ["Barcola (PSG teammate, marquee target)", "Gakpo", "Ngumoha"],
@@ -1460,9 +1463,9 @@ export const TRANSFER_TARGETS = {
         { name: "Football365",         tier: "B" },
         { name: "This Is Anfield",     tier: "A" },
       ],
-      lastUpdated: "2026-08-12",
+      lastUpdated: "2026-08-13",
       rumorNote:
-        "Selhurst Park · 12 Aug — cooled all summer, and live again this morning. Liverpool made direct contact with Crystal Palace over Adam Wharton today, hours after Manchester United enquired, reviving a pursuit that had gone quiet in July when the Reds stepped back from a valuation Palace kept raising. The gap is still the story: Palace want about €100m, United are capped near £70m, and Liverpool spent the summer valuing him £50-60m before signalling they would go past £70m. Ben Jacobs doubted this one only weeks ago. With Bouaddi lost to City and Sano contested by Leipzig, the base of midfield has narrowed to a race Liverpool have suddenly chosen to enter properly.",
+        "Selhurst Park · 13 Aug — live again, and Palace in no mood to sell. Liverpool have made direct contact with Crystal Palace over Adam Wharton, Manchester United enquiring the same night, reviving a pursuit that went quiet in July when the Reds stepped back from a valuation Palace kept raising. The obstacle has hardened: buoyed by their Conference League triumph, Palace want to keep the 22-year-old and will only listen above a figure reported near £100m. United are capped closer to £70m; Liverpool valued him £50-60m before signalling they would go past £70m. With Bouaddi lost to City and Sano contested by Leipzig, the base of midfield has narrowed to a race Liverpool have chosen to enter properly, and a seller who does not want to sell.",
       positionFit: {
         replaces: "Endo (defensive midfield)",
         competesWith: ["Gravenberch", "Mac Allister"],
@@ -1779,12 +1782,12 @@ export const TRANSFER_TARGETS = {
       id: "jones-out",
       name: "Curtis Jones",
       position: "MID",
-      destination: "Inter (talks stalled near €35m; Chivu eyes him wide, but Iraola urges him to stay)",
+      destination: "Inter (Romano expects movement; new bid awaits Frattesi's exit, ~€35m)",
       feeAsk: { min: 35, max: 40, currency: "£m" },
-      probability: 46,
+      probability: 52,
       heatTier: "warm",
-      sources: [{ name: "Fabrizio Romano", tier: "S" }, { name: "Liverpool.com", tier: "B" }, { name: "This Is Anfield", tier: "A" }, { name: "Goal", tier: "A" }],
-      note: "Wed 12 Aug — the breakthrough that went quiet again. A day after talk of an Inter breakthrough, Fabrizio Romano cools it: the Curtis Jones deal is far from complete, at a standstill for weeks, Inter edging toward €35m and Liverpool holding near €40m with no fee agreed. The academy graduate, into his final year, still leans toward San Siro, and Chivu still sees him wide as much as central, but Iraola has urged him to stay. For now the mood reads unresolved rather than imminent, a midfield decision, with Mac Allister only back for Como, as much the player's as the club's.",
+      sources: [{ name: "Fabrizio Romano", tier: "S" }, { name: "Empire of the Kop", tier: "B" }, { name: "This Is Anfield", tier: "A" }, { name: "Goal", tier: "A" }],
+      note: "Thu 13 Aug — warming again, on a domino. Fabrizio Romano says there is 'going to be movement' on Curtis Jones in the final three weeks: Inter have held him a priority since May and believe a deal can be struck around €35m, but will not table a fresh bid until Davide Frattesi's own exit clears the space, after which they intend to try again before deadline day. Liverpool have wanted nearer €40m, and Iraola has urged the academy graduate, into his final year, to stay. A week ago this read stalled; today it reads imminent-again, a midfield decision as much the player's as the club's.",
     },
     {
       id: "gakpo-out",
@@ -1850,7 +1853,7 @@ export const TRANSFER_TARGETS = {
       probability: 68,
       heatTier: "warm",
       sources: [{ name: "Football Insider", tier: "B" }, { name: "The Hard Tackle", tier: "C" }],
-      note: "Mon 10 Aug — the club is now doing the selling. Football Insider report Liverpool have made a number of interested clubs aware Endo is available and intend to accept an offer, with Wolves, Fulham and West Ham the long-standing admirers and a growing expectation he leaves this month. The Besiktas thread that ran earlier in the summer has gone quiet. He played in the Monaco friendly on 9 August so he is fit and available, but at 33, retired from Japan duty and behind the first-choice midfield, this is a modest fee and a meaningful wage saved.",
+      note: "Thu 13 Aug — with arrivals stuck, the exits are where the desk works. Liverpool have made a number of clubs aware Endo is available and intend to accept an offer, Wolves, Fulham and West Ham the long-standing admirers, and the expectation he leaves before 1 September has hardened as the window's final fortnight opens. The Besiktas thread from earlier in the summer has gone quiet. He played in the Monaco friendly on 9 August so he is fit, but at 33, retired from Japan duty and behind the first-choice midfield, this is a modest fee and a meaningful wage cleared to fund the rebuild.",
     },
     {
       id: "tsimikas-out",
@@ -1900,16 +1903,16 @@ export const TRANSFER_TARGETS = {
   sources: [
     "Fabrizio Romano",
     "Sky Sports",
-    "Goal",
+    "Liverpool.com",
     "This Is Anfield",
-    "TeamTalk",
+    "The Kopite View",
     "Empire of the Kop",
+    "Football Insider",
+    "TeamTalk",
+    "Goal",
     "Football365",
     "Yahoo Sports",
-    "Sports Mole",
-    "BBC Sport",
     "Transfermarkt",
-    "FootballTransfers",
   ],
 };
 
