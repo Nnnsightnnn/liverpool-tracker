@@ -366,25 +366,24 @@ export const COVER_IMAGE = {
   alt: "Pure-type edition cover.",
   focus: null,
   credit: null,
-  generatedAt: "2026-08-12T08:20:00Z",
+  generatedAt: "2026-08-13T08:20:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
-  // Today's lead stays a boardroom story: FSG's agreed ~one-third stake sale to the Bezos-led
-  // consortium (Amit Bhatia, Eduardo Saverin) near £4.4bn, announcement now "imminent"/this week,
-  // with the fresh transfer angle being Arsenal moving to hijack the Barcola chase. Both are
-  // off-pitch/abstract headlines, not a single photographable hero/villain moment; per the
-  // pipeline's "only queue a genuinely visual moment" rule no cover image was queued and the
-  // render falls back to pure-type.
+  // Today's lead is a transfer-negotiation story: Sky call the Barcola deal difficult,
+  // Liverpool.com's Ian Doyle warns against an "extortionate" fee, and Mbaye is the cheaper
+  // pivot (Dortmund now in). That is fee/negotiation abstraction, not a single photographable
+  // hero/villain moment; per the pipeline's "only queue a genuinely visual moment" rule no
+  // cover image was queued and the render falls back to pure-type.
   brief: {
     leadStory:
-      "FSG's agreed sale of a strategic stake of about a third to the Bhatia-led, Bezos-backed consortium (Eduardo Saverin also involved) near a £4.4bn valuation is now expected to be announced this week, Fenway retaining control and Al Jazeera reporting fans seeking clarity. On the pitch the Barcola chase reached a crossroads: PSG hold near £145m and named him in their Super Cup squad, Arsenal moved to hijack after losing Vinicius to a new Madrid deal, and Liverpool weighed walking away, with Mbaye the Paris winger they now most realistically land. Araujo (loan) and Jacquet are set to feature against Como on Sunday.",
+      "The marquee winger chase has turned from pursuit to decision: Sky call the Bradley Barcola deal difficult after talks, PSG holding near £145m and naming him in their Super Cup squad, Arsenal trying to hijack it, and Liverpool.com's Ian Doyle warning the club against an 'extortionate' fee for a player they rate some £30m lower. The pivot is Ibrahim Mbaye, keen on Anfield and cheaper, though Dortmund have now joined the race. Off the grass the Bezos-backed stake near £4.4bn still waits on its announcement; in the exits Romano expects movement on Curtis Jones once Frattesi leaves Inter. Como close the pre-season at Anfield on Sunday before Newcastle away opens the league on August 23.",
     subject:
-      "Anfield exterior and the FSG boardroom era turning over, an ownership headline the size of the summer, no single hero moment",
+      "A transfer-window decision point, a marquee winger chase priced out of reach, no single photographable hero moment",
     prompt:
-      "Cinematic editorial photograph, exterior of a historic English football stadium at dusk, club crest and floodlights, a sense of institutional change and scale, muted and stately mood, no on-image text, generous headroom at the top for a masthead headline",
+      "Cinematic editorial photograph, exterior of a historic English football stadium at dusk, club crest and floodlights, a sense of institutional weight and a summer of decisions, muted and stately mood, no on-image text, generous headroom at the top for a masthead headline",
     aspectRatio: "landscape",
-    slug: "bezos-consortium-anfield",
-    generatedAt: "2026-08-12T08:20:00Z",
-    note: "Lead is an ownership/boardroom headline (with a transfer-hijack subplot), abstract rather than a photographable hero still; no image queued this edition. Fallback to pure-type cover.",
+    slug: "barcola-decision-anfield",
+    generatedAt: "2026-08-13T08:20:00Z",
+    note: "Lead is a transfer-negotiation headline (Barcola difficult, Doyle warning, Mbaye pivot), abstract rather than a photographable hero still; no image queued this edition. Fallback to pure-type cover.",
   },
 };
 

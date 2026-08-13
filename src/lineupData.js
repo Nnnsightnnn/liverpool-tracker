@@ -36,7 +36,7 @@ export const FORMATIONS = {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
       LCB: 3,   // Van Dijk (captain · contracted to 2027)
-      RCB: 11,  // Jacquet (unveiled Jul 1 · steps in for Madrid-bound Konaté)
+      RCB: 11,  // Jacquet (due his Como debut · Araujo loan covers CB/RB)
       RB: 9,    // Frimpong (only recognised RB · Bradley on tour for rehab only)
       LCM: 13,  // Mac Allister (midfield three)
       CM: 14,   // Gravenberch (control of midfield · most reliable MID)
