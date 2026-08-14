@@ -477,12 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday, and the winger hunt has turned from want to nerve. Sky call
-          the Barcola deal difficult, Arsenal circling and the fee some £30m
-          apart, and the pivot to Mbaye grows the longer it drags. Off the pitch
-          a Bezos-fronted stake of about a third, valued near £4.4bn, still waits
-          on its announcement. Sunday brings Como to Anfield, the last friendly
-          before Newcastle away opens the league.
+          Friday, and the most unsettling headline of the summer names one of
+          your own: Manchester City, planning for Rodri, list Mac Allister, and
+          his agent answers before the club has to, <em>Alexis will stay</em>. On
+          the winger board Liverpool cool on Mbaye and narrow to Barcola, still
+          £25m apart, Arsenal circling. Como close the pre-season at Anfield on
+          Sunday; then Newcastle away, and the waiting ends.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,21 +513,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and the summer's defining chase has narrowed to a question of
-              nerve. Sky call the <em>Barcola</em> deal difficult after the
-              latest talks, PSG holding near £145m and naming him in their Super
-              Cup squad, <em>Arsenal</em> trying to hijack it, and Liverpool.com's
-              Ian Doyle warning the club against an <em>extortionate</em> fee for
-              a player they rate some £30m lower. The pivot is already drawn:{" "}
-              <em>Ibrahim Mbaye</em>, keen on Anfield and cheaper, is the Paris
-              winger they can actually close, though Dortmund have now joined the
-              queue. Off the grass the ownership headline still hangs unsigned,
-              the Bezos-backed stake near £4.4bn expected any day. In the exits,
-              Romano says there is going to be movement on <em>Curtis Jones</em>{" "}
-              once Frattesi leaves Inter, and Liverpool have gone direct to Palace
-              for <em>Adam Wharton</em>. Como visit for the last friendly this
-              Sunday; then Newcastle away, and the waiting ends.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              and the threat this morning is to a starter, not a target.{" "}
+              <em>Manchester City</em>, bracing for Rodri's move to Barcelona,
+              have named <em>Alexis Mac Allister</em> on a midfield shortlist,
+              and the answer came before the club had to give one: his father and
+              agent ruled it out flat, <em>Alexis will stay at Liverpool</em>. On
+              the winger board the shape has shifted, Romano reporting the Reds
+              have cooled on <em>Mbaye</em> to narrow onto <em>Barcola</em>, still
+              £25m apart at £120m to PSG's £145m, Arsenal weighing a hijack. The
+              exits do the work: a reported breakthrough in Inter's pursuit of{" "}
+              <em>Curtis Jones</em>, and a double departure the club will sanction
+              on two conditions. Como visit for the last friendly this Sunday,
+              Fabregas' Champions League side; then Newcastle away, and the
+              waiting ends.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3261,7 +3260,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Some prices even want will not pay."
+        "Some names answer before you can ask."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

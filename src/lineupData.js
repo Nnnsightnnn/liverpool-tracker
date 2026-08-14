@@ -149,10 +149,10 @@ export const PLAYER_EVIDENCE = {
   10: "ACL · nearing training, Sept eyed",        // Leoni
   11: "Set for Como debut · shoulder eased",       // Jacquet
   12: "Starred vs Monaco · barred until Jan",     // Ndukwe
-  13: "WC runner-up · back for Como Aug 16",      // Mac Allister
+  13: "WC finalist · City link ruled out by agent", // Mac Allister
   14: "The fixed point at the base",              // Gravenberch
   15: "Deal to 2031 · vice-captaincy front-runner", // Szoboszlai
-  16: "Romano: movement coming · Inter await Frattesi", // Jones
+  16: "Inter 'breakthrough' reported · exit nears", // Jones
   17: "Made available · Wolves, Fulham, West Ham",  // Endo
   18: "Scored vs Monaco · best on the pitch",     // Wirtz
   19: "Building fitness · on the tour",           // Bajcetic
@@ -160,7 +160,7 @@ export const PLAYER_EVIDENCE = {
   22: "A price, not a no · Spurs above £70m",     // Gakpo
   23: "Opened scoring vs Monaco",                 // Isak
   24: "Achilles · festive return eyed",           // Ekitike
-  25: "Holds RW · Barcola difficult, Mbaye pivot", // Ngumoha
+  25: "Holds RW · Reds cool on Mbaye, narrow to Barcola", // Ngumoha
   26: "Back from illness · staying to fight",     // Chiesa
   27: "New deal · 3rd-choice GK",                 // Woodman
   28: "World champion · debuted vs Monaco",       // Munoz
@@ -205,8 +205,8 @@ export const SLOT_RATIONALE = {
   RDM: "Sat Jul 18 — settled, and expensively so. Szoboszlai has signed a new five-year contract running to 2031, three years on from arriving from Leipzig on a deal that ran only to 2028, with reported terms in the £200,000-£250,000 band. He was voted supporters' player of the season after a campaign spent filling in at right-back, at the eight and on the right wing. With Salah, Konate and Robertson all gone for nothing, this is the club choosing to keep rather than to replace.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
   CAM: "Mon Jul 20 — the biggest night of his career, and it ended a man short. Mac Allister played the whole of the World Cup final at MetLife and lost it in extra time, Argentina reduced to ten when Enzo Fernandez was sent off for a second yellow in the 93rd minute and Ferran Torres finished it on 106. Emi Martinez made a final-record eleven saves behind him. A club season in which he was among the most criticised players at Anfield has still been rewritten by five weeks in America. He misses the American tour in its entirety and is not expected in an Iraola side before the Como friendly on August 16, which makes this slot a placeholder rather than a selection.",
-  RAM: "Thu Aug 13 — the slot that defines the summer, and now a test of nerve. Sky call the Bradley Barcola deal difficult after talks, PSG holding near £145m, Arsenal trying to hijack it, and Liverpool.com's Ian Doyle openly warning the club against an 'extortionate' fee. So the realistic answer shifts to teammate Ibrahim Mbaye, keen on Anfield and cheaper, though Borussia Dortmund have now joined the race, with Bournemouth's Rayan and Brighton's Minteh still on the board. Below them Rio Ngumoha, seventeen, holds the post-Salah berth by default. Until a winger arrives it belongs to the academy.",
-  RB:  "Thu Aug 13 — a one-man department, with cover rather than competition. Jeremie Frimpong is the only fit recognised right-back: Conor Bradley is still short after January knee surgery and misses the opener, Joe Gomez out and racing to be fit for Forest on August 29. Ronald Araujo, in on loan, can spell the flank from Sunday's Como game, softening a need that had Tottenham's Djed Spence floated around £35m before he agreed terms with Inter. Curtis Jones, last season's emergency cover there, may yet leave, Romano expecting movement once Inter clear Frattesi's exit. Frimpong plays by elimination, for now.",
+  RAM: "Fri Aug 14 — the slot that defines the summer, and the board has just narrowed. Fabrizio Romano reports Liverpool have cooled on the cheaper fallback, PSG teenager Ibrahim Mbaye, to concentrate on Bradley Barcola, still the priority and still £25m apart at £120m to PSG's £145m, with Arsenal weighing a hijack and Bournemouth's Rayan and Brighton's Minteh the standing alternatives. Below them Rio Ngumoha, seventeen, holds the post-Salah berth by default. Until a winger arrives it belongs to the academy.",
+  RB:  "Fri Aug 14 — a one-man department, with cover rather than competition. Jeremie Frimpong is the only fit recognised right-back: Conor Bradley is still short after January knee surgery and misses the opener, Joe Gomez out and racing to be fit for Forest on August 29. Ronald Araujo, in on loan, can spell the flank from Sunday's Como game, softening a need that had Tottenham's Djed Spence floated around £35m before he agreed terms with Inter. Curtis Jones, last season's emergency cover there, edges nearer the exit, Liverpool.com reporting a 'breakthrough' in Inter's pursuit. Frimpong plays by elimination, for now.",
   ST:  "Mon Aug 10 — Alexander Isak opened the scoring in Sunday's 2-3 defeat to Monaco, lining up again with Wirtz and Gravenberch and giving the first half exactly the fluency Iraola's reset promised before a thin bench let the two-goal lead slip. An injury-wrecked debut season limited the £100m striker to a handful of starts and never let the front three settle; a clean run under Iraola is the reset the whole attack needs, and the goals are starting to come.",
 };
 
@@ -233,5 +233,5 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  reason: "Thu Aug 13 — the XI below stays a squad baseline rather than a matchday side, with Como still to come at Anfield on Sunday August 16 before the Newcastle opener on the 23rd. The summer's defining chase has hardened into a choice: Sky call the Barcola deal difficult, Liverpool.com's Ian Doyle warns against an 'extortionate' fee, and Mbaye reads as the cheaper pivot now Dortmund have joined the race. Off the pitch the Bezos-backed sale near £4.4bn still waits on its announcement. On the grass, the 2-3 defeat to Monaco framed the caution, a second blown two-goal lead in a week with a defence missing Jacquet (shoulder, but now set for a Como debut), Gomez (out, racing for Forest on August 29) and Leoni (ACL, nearing training). Ronald Araujo, in on a season-long loan, is available from Como and adds senior cover across centre-back and right-back, though as a loan arrival he is not yet in the PLAYERS-keyed XI. In the exits, Romano expects movement on Curtis Jones once Inter clear Frattesi. Next up: Como at Anfield on August 16."
+  reason: "Fri Aug 14 — the XI below stays a squad baseline rather than a matchday side, with Como still to come at Anfield on Sunday August 16 before the Newcastle opener on the 23rd. The week's noise is a rival's: Manchester City have named Alexis Mac Allister on a Rodri-replacement shortlist, only for his agent to rule it out and insist he stays. On the winger board Liverpool have cooled on Ibrahim Mbaye to narrow onto Bradley Barcola, still £25m apart with Arsenal circling. On the grass, the 2-3 defeat to Monaco framed the caution, a second blown two-goal lead in a week with a defence missing Jacquet (shoulder, but set for a Como debut), Gomez (out, racing for Forest on August 29) and Leoni (ACL, nearing training). Ronald Araujo, in on a season-long loan, is available from Como and adds senior cover across centre-back and right-back, though as a loan arrival he is not yet in the PLAYERS-keyed XI. In the exits, Liverpool.com report a breakthrough in Inter's pursuit of Curtis Jones. Next up: Como at Anfield on August 16."
 };
