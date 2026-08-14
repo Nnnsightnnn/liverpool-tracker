@@ -366,24 +366,24 @@ export const COVER_IMAGE = {
   alt: "Pure-type edition cover.",
   focus: null,
   credit: null,
-  generatedAt: "2026-08-13T08:20:00Z",
+  generatedAt: "2026-08-14T09:00:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
-  // Today's lead is a transfer-negotiation story: Sky call the Barcola deal difficult,
-  // Liverpool.com's Ian Doyle warns against an "extortionate" fee, and Mbaye is the cheaper
-  // pivot (Dortmund now in). That is fee/negotiation abstraction, not a single photographable
-  // hero/villain moment; per the pipeline's "only queue a genuinely visual moment" rule no
-  // cover image was queued and the render falls back to pure-type.
+  // Today's lead is a rival-interest story: Man City name Mac Allister on a Rodri-replacement
+  // shortlist and his agent rules it out ("Alexis will stay at Liverpool"). That is a
+  // negotiation/quote abstraction, not a single photographable hero/villain moment; per the
+  // pipeline's "only queue a genuinely visual moment" rule no cover image was queued and the
+  // render falls back to pure-type.
   brief: {
     leadStory:
-      "The marquee winger chase has turned from pursuit to decision: Sky call the Bradley Barcola deal difficult after talks, PSG holding near £145m and naming him in their Super Cup squad, Arsenal trying to hijack it, and Liverpool.com's Ian Doyle warning the club against an 'extortionate' fee for a player they rate some £30m lower. The pivot is Ibrahim Mbaye, keen on Anfield and cheaper, though Dortmund have now joined the race. Off the grass the Bezos-backed stake near £4.4bn still waits on its announcement; in the exits Romano expects movement on Curtis Jones once Frattesi leaves Inter. Como close the pre-season at Anfield on Sunday before Newcastle away opens the league on August 23.",
+      "The most unsettling headline of the summer names one of Liverpool's own: Manchester City, bracing for Rodri's move to Barcelona, have put Alexis Mac Allister on a midfield shortlist alongside Wharton and Enzo Fernandez, only for the World Cup finalist's father and agent to rule it out flatly, 'Alexis will stay at Liverpool.' On the winger board Fabrizio Romano reports Liverpool have cooled on Ibrahim Mbaye to narrow onto Bradley Barcola, still £25m apart at £120m to PSG's £145m with Arsenal weighing a hijack. In the exits Liverpool.com report a breakthrough in Inter's pursuit of Curtis Jones. Como close the pre-season at Anfield on Sunday before Newcastle away opens the league on August 23.",
     subject:
-      "A transfer-window decision point, a marquee winger chase priced out of reach, no single photographable hero moment",
+      "A rival's shortlist and a club's flat denial, a loyalty story rather than a single photographable hero moment",
     prompt:
-      "Cinematic editorial photograph, exterior of a historic English football stadium at dusk, club crest and floodlights, a sense of institutional weight and a summer of decisions, muted and stately mood, no on-image text, generous headroom at the top for a masthead headline",
+      "Cinematic editorial photograph, exterior of a historic English football stadium at dusk, club crest and floodlights, a sense of institutional weight and a squad closing ranks, muted and stately mood, no on-image text, generous headroom at the top for a masthead headline",
     aspectRatio: "landscape",
-    slug: "barcola-decision-anfield",
-    generatedAt: "2026-08-13T08:20:00Z",
-    note: "Lead is a transfer-negotiation headline (Barcola difficult, Doyle warning, Mbaye pivot), abstract rather than a photographable hero still; no image queued this edition. Fallback to pure-type cover.",
+    slug: "macallister-stays-anfield",
+    generatedAt: "2026-08-14T09:00:00Z",
+    note: "Lead is a rival-interest/quote headline (City name Mac Allister, agent rules it out), abstract rather than a photographable hero still; no image queued this edition. Fallback to pure-type cover.",
   },
 };
 
