@@ -477,12 +477,13 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday, and the most unsettling headline of the summer names one of
-          your own: Manchester City, planning for Rodri, list Mac Allister, and
-          his agent answers before the club has to, <em>Alexis will stay</em>. On
-          the winger board Liverpool cool on Mbaye and narrow to Barcola, still
-          £25m apart, Arsenal circling. Como close the pre-season at Anfield on
-          Sunday; then Newcastle away, and the waiting ends.
+          Saturday, and the cloud that hung over the summer has finally taken a
+          signature: <em>Fenway</em> have sold a minority stake, around a third,
+          to the Bezos and Bhatia consortium at a valuation near $7bn, control
+          kept, budgets untouched. On the grass the market rolls on, Barcola
+          talks now club-to-club and the Reds confident. Como close the
+          pre-season at Anfield tomorrow; then Newcastle away, and the waiting
+          ends.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,20 +514,18 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and the threat this morning is to a starter, not a target.{" "}
-              <em>Manchester City</em>, bracing for Rodri's move to Barcelona,
-              have named <em>Alexis Mac Allister</em> on a midfield shortlist,
-              and the answer came before the club had to give one: his father and
-              agent ruled it out flat, <em>Alexis will stay at Liverpool</em>. On
-              the winger board the shape has shifted, Romano reporting the Reds
-              have cooled on <em>Mbaye</em> to narrow onto <em>Barcola</em>, still
-              £25m apart at £120m to PSG's £145m, Arsenal weighing a hijack. The
-              exits do the work: a reported breakthrough in Inter's pursuit of{" "}
-              <em>Curtis Jones</em>, and a double departure the club will sanction
-              on two conditions. Como visit for the last friendly this Sunday,
-              Fabregas' Champions League side; then Newcastle away, and the
-              waiting ends.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and the largest story of the summer belongs to no player at all.{" "}
+              <em>Fenway Sports Group</em> have confirmed the sale of a strategic
+              minority stake, reported at around a third, to a consortium led by{" "}
+              <em>Amit Bhatia</em> and backed by <em>Jeff Bezos</em> and Eduardo
+              Saverin, a deal valuing the club near $7bn. Bhatia takes the
+              vice-chairmanship; Bezos, tellingly, takes no board seat, and
+              Fenway keep control. The club insists nothing changes about how the
+              market is worked, and it duly rolls on: <em>Barcola</em> talks have
+              gone club-to-club with the Reds confident, and Tottenham have
+              stepped up for <em>Gakpo</em>. Como close the pre-season at Anfield
+              tomorrow; then Newcastle away, and the waiting ends.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -534,12 +533,12 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is an
-              ownership headline the size of the summer; a defender unveiled on
-              loan from Barcelona; a winger board widened past Paris to Rayan and
-              Minteh; a midfield reshaping around a new vice-captain; and a
-              farewell long since sealed east. Read them in order. The season
-              opens at Newcastle on the twenty-third of August, and the summer has
-              not been quiet once.
+              ownership deal now signed and the size of the summer; a defender in
+              on loan from Barcelona; a winger board that runs through Paris to
+              Rayan and Minteh; a midfield reshaping around a new vice-captain;
+              and a farewell long since sealed east. Read them in order. The
+              season opens at Newcastle on the twenty-third of August, and the
+              summer has not been quiet once.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3260,7 +3259,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Some names answer before you can ask."
+        "The waiting ended with a signature."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

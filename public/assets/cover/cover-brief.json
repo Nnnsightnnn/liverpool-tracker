@@ -1,9 +1,9 @@
 {
-  "leadStory": "The most unsettling headline of the summer names one of Liverpool's own: Manchester City, bracing for Rodri's move to Barcelona, have put Alexis Mac Allister on a midfield shortlist alongside Wharton and Enzo Fernandez, only for the World Cup finalist's father and agent to rule it out flatly, 'Alexis will stay at Liverpool.' On the winger board Fabrizio Romano reports Liverpool have cooled on Ibrahim Mbaye to narrow onto Bradley Barcola, still £25m apart at £120m to PSG's £145m with Arsenal weighing a hijack. In the exits Liverpool.com report a breakthrough in Inter's pursuit of Curtis Jones. Como close the pre-season at Anfield on Sunday before Newcastle away opens the league on August 23.",
-  "subject": "A rival's shortlist and a club's flat denial, a loyalty story rather than a single photographable hero moment",
-  "prompt": "Cinematic editorial photograph, exterior of a historic English football stadium at dusk, club crest and floodlights, a sense of institutional weight and a squad closing ranks, muted and stately mood, no on-image text, generous headroom at the top for a masthead headline",
+  "leadStory": "The cloud that hung over the summer has finally taken a signature: Fenway Sports Group confirmed the sale of a strategic minority stake, reported at around a third of the club, to a consortium led by Amit Bhatia and backed by Jeff Bezos and Eduardo Saverin, a deal valuing Liverpool near $7bn. Bhatia becomes vice-chairman and joins an expanded board; Bezos takes no board seat, and FSG keep control with the group holding an option on more later. The club insists player budgets stay with the sporting operation. On the grass, Barcola talks have gone club-to-club with Liverpool 'confident', and Tottenham have stepped up for Cody Gakpo. Como close the pre-season at Anfield on Sunday before Newcastle away opens the league on August 23.",
+  "subject": "A confirmed boardroom deal and a valuation near $7bn, an institutional story rather than a single photographable hero moment",
+  "prompt": "Cinematic editorial photograph, exterior of a historic English football stadium at dusk, club crest and floodlights, a sense of institutional weight and a new era beginning, muted and stately mood, no on-image text, generous headroom at the top for a masthead headline",
   "aspectRatio": "landscape",
-  "slug": "macallister-stays-anfield",
-  "generatedAt": "2026-08-14T09:00:00Z",
-  "note": "Lead is a rival-interest/quote headline (City name Mac Allister, agent rules it out), abstract rather than a photographable hero still; no image queued this edition. Fallback to pure-type cover."
+  "slug": "fsg-bezos-bhatia-stake",
+  "generatedAt": "2026-08-15T09:00:00Z",
+  "note": "Lead is the confirmed FSG minority-stake sale to the Bezos/Bhatia consortium, a boardroom/financial story, abstract rather than a photographable hero still; no image queued this edition. Fallback to pure-type cover."
 }
