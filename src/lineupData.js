@@ -152,15 +152,15 @@ export const PLAYER_EVIDENCE = {
   13: "WC finalist · back training for Como",     // Mac Allister
   14: "The fixed point at the base",              // Gravenberch
   15: "Deal to 2031 · vice-captaincy front-runner", // Szoboszlai
-  16: "Trained this week · Inter haggle the fee", // Jones
+  16: "Price dropped to €35m · Frattesi block snags Inter", // Jones
   17: "Made available · Wolves, Fulham, West Ham",  // Endo
   18: "Scored vs Monaco · best on the pitch",     // Wirtz
   19: "Building fitness · on the tour",           // Bajcetic
   20: "Impressed on tour · Iraola audition",      // Nyoni
-  22: "Spurs bid £60m+ · talks now underway",     // Gakpo
+  22: "Spurs reach 'agreement in principle'",     // Gakpo
   23: "Opened scoring vs Monaco · building to 90", // Isak
   24: "Achilles · festive return eyed",           // Ekitike
-  25: "Holds RW · Barcola club-to-club, Mbaye off", // Ngumoha
+  25: "Holds RW · Barcola path clears as PSG buy cover", // Ngumoha
   26: "Back from illness · staying to fight",     // Chiesa
   27: "New deal · 3rd-choice GK",                 // Woodman
   28: "World champion · debuted vs Monaco",       // Munoz
@@ -193,7 +193,7 @@ export const SLOT_CONFIDENCE = {
   RDM: "High",   // Szoboszlai · new five-year deal signed to 2031 · in day one
   LAM: "Medium", // Wirtz · injury-hit debut season · No. 10 role, played the Leeds finale
   CAM: "Low",    // Mac Allister · World Cup runner-up · misses the entire American tour, back for Como on Aug 16
-  RAM: "Low",    // Salah gone (Trabzonspor, unveiled) · Barcola deal stalls near €150m (Sky: deal difficult, Rayan and Minteh added to the board), Mbaye now led · Ngumoha holds it by default
+  RAM: "Low",    // Salah gone (Trabzonspor, unveiled) · Barcola path clears as PSG buy Torres/Godts and drop their price · Minteh out injured, Ndiaye a newer name · Ngumoha holds it by default
   ST:  "Medium", // Isak · injury-wrecked debut year · took first tour minutes vs Leeds
 };
 
@@ -207,7 +207,7 @@ export const SLOT_RATIONALE = {
   RDM: "Sat Jul 18 — settled, and expensively so. Szoboszlai has signed a new five-year contract running to 2031, three years on from arriving from Leipzig on a deal that ran only to 2028, with reported terms in the £200,000-£250,000 band. He was voted supporters' player of the season after a campaign spent filling in at right-back, at the eight and on the right wing. With Salah, Konate and Robertson all gone for nothing, this is the club choosing to keep rather than to replace.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
   CAM: "Mon Jul 20 — the biggest night of his career, and it ended a man short. Mac Allister played the whole of the World Cup final at MetLife and lost it in extra time, Argentina reduced to ten when Enzo Fernandez was sent off for a second yellow in the 93rd minute and Ferran Torres finished it on 106. Emi Martinez made a final-record eleven saves behind him. A club season in which he was among the most criticised players at Anfield has still been rewritten by five weeks in America. He misses the American tour in its entirety and is not expected in an Iraola side before the Como friendly on August 16, which makes this slot a placeholder rather than a selection.",
-  RAM: "Fri Aug 15 — the slot that defines the summer, and the marquee move has momentum. Fabrizio Romano reports Barcola talks are now club-to-club, an approach over €100m tabled, and Liverpool 'confident' of closing it before deadline day, though PSG still hold near £145m. The cheaper fallback has gone the other way: a move for PSG teenager Ibrahim Mbaye is reported 'off' with Dortmund now ahead, leaving Bournemouth's Rayan and Brighton's Minteh as the wide alternatives. Below them Rio Ngumoha, seventeen, holds the post-Salah berth by default. Until a senior winger arrives it belongs to the academy.",
+  RAM: "Sun Aug 16 — the slot that defines the summer, and the marquee move has daylight at last. PSG spent the weekend buying Bradley Barcola's cover, Ferran Torres in from Barcelona for the No. 9 and a €55m package agreed with Ajax for Mika Godts, and are now reported willing to lower an asking price that had held near £145m. Liverpool must still climb toward the number, but the seller has begun to move. The safety net thinned as Brighton's Minteh went down injured for up to three months, narrowing the wide board to Rayan's dormant clause and Everton's Iliman Ndiaye. Below them Rio Ngumoha, seventeen, holds the post-Salah berth by default until a senior winger signs.",
   RB:  "Fri Aug 15 — a one-man department, with cover rather than competition. Jeremie Frimpong is the only fit recognised right-back: Conor Bradley is still short after January knee surgery and misses the opener, Joe Gomez out and racing to be fit for Forest on August 29. Ronald Araujo, in on loan and expected to make his Anfield bow against Como, can spell the flank from Sunday, softening a need that had Tottenham's Djed Spence floated around £35m before he agreed terms with Inter. Curtis Jones, last season's emergency cover there, was filmed back in training this week even as the Inter 'breakthrough' holds. Frimpong plays by elimination, for now.",
   ST:  "Mon Aug 10 — Alexander Isak opened the scoring in Sunday's 2-3 defeat to Monaco, lining up again with Wirtz and Gravenberch and giving the first half exactly the fluency Iraola's reset promised before a thin bench let the two-goal lead slip. An injury-wrecked debut season limited the £100m striker to a handful of starts and never let the front three settle; a clean run under Iraola is the reset the whole attack needs, and the goals are starting to come.",
 };
@@ -224,8 +224,8 @@ export const ALTERNATIVES = {
   RB:  [{ playerId: 9, reason: "Frimpong · the only fit recognised right-back; Bradley travelled for rehabilitation only and took no part in the tour" }, { playerId: 5, reason: "Gomez · emergency right-back cover once his muscle injury clears, Jones kept in midfield not at full-back" }],
   LDM: [{ playerId: 13, reason: "Mac Allister · could swap depths with Gravenberch in the double-pivot" }],
   RDM: [{ playerId: 14, reason: "Gravenberch · could swap depths with Szoboszlai" }],
-  LAM: [{ playerId: 22, reason: "Gakpo · a wide-left option · Spurs interest now priced above £70m once replacements land" }, { playerId: 25, reason: "Ngumoha · breakout teenager · rotation option on the left" }],
-  CAM: [{ playerId: 15, reason: "Szoboszlai · signed to 2031, vice-captaincy front-runner, can push into the No. 10 with another midfielder in the pivot" }, { playerId: 16, reason: "Curtis Jones · future open, Romano expecting movement once Inter settle Frattesi's exit" }],
+  LAM: [{ playerId: 22, reason: "Gakpo · a wide-left option · Spurs reach an agreement in principle at around £60m vs a £70m ask" }, { playerId: 25, reason: "Ngumoha · breakout teenager · rotation option on the left" }],
+  CAM: [{ playerId: 15, reason: "Szoboszlai · signed to 2031, vice-captaincy front-runner, can push into the No. 10 with another midfielder in the pivot" }, { playerId: 16, reason: "Curtis Jones · future open, price dropped to €35m but a blocked Frattesi sale stalls Inter" }],
   RAM: [{ playerId: 25, reason: "Ngumoha · holds the post-Salah right-sided berth until a winger signs" }, { playerId: 26, reason: "Chiesa · trained day one and staying to fight for a starting role" }],
   ST:  [{ playerId: 25, reason: "Ngumoha · led the line in Isak's absences late in the season" }, { playerId: 22, reason: "Gakpo · false-9 option used by Slot earlier in the year" }],
 };
@@ -235,5 +235,5 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  reason: "Sat Aug 15 — the XI below stays a squad baseline rather than a matchday side, with Como still to come at Anfield tomorrow before the Newcastle opener on the 23rd. The weekend's biggest news is off the pitch: FSG have confirmed the sale of a minority stake, around a third, to the Bezos and Bhatia-led consortium at a valuation near $7bn, the club insisting player budgets stay with the sporting operation. On the grass, the 2-3 defeat to Monaco framed the caution, a second blown two-goal lead in a week with a defence missing Gomez (out, racing for Forest on August 29) and Leoni (ACL, nearing training); Jacquet (knee) and Curtis Jones (over a hip complaint) were both filmed back in training. Ronald Araujo, in on a season-long loan, is expected to make his Anfield bow against Como and adds senior cover across centre-back and right-back, though as a loan arrival he is not yet in the PLAYERS-keyed XI. In the market, Barcola talks have gone club-to-club with Liverpool confident, while Tottenham have stepped up for Cody Gakpo. Next up: Como at Anfield on August 16."
+  reason: "Sun Aug 16 — the XI below stays a squad baseline rather than a matchday side, with Como's double-header at Anfield today, the pre-season finale, before the Newcastle opener on the 23rd. The window's biggest movement came over the weekend: PSG signed Ferran Torres and agreed a package for Mika Godts, the forwards meant to cover Bradley Barcola's exit, and are now reported willing to lower an asking price that had held near £145m, clearing the France winger's path to Anfield if Liverpool can bridge the fee. The fallback board thinned the same day, Brighton's Yankuba Minteh ruled out up to three months injured, with Everton's Iliman Ndiaye a newer, pricier name in the frame. On the grass the 2-3 defeat to Monaco framed the caution, a second blown two-goal lead in a week with a defence missing Gomez (out, racing for Forest on August 29) and Leoni (ACL, nearing training). Ronald Araujo, in on a season-long loan, is expected to take his Anfield bow against Como and adds senior cover across centre-back and right-back, though as a loan arrival he is not yet in the PLAYERS-keyed XI. On the sell side Tottenham have reached an agreement in principle for Cody Gakpo. Next up: Como at Anfield today, then Newcastle away on August 23."
 };

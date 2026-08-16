@@ -477,13 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday, and the cloud that hung over the summer has finally taken a
-          signature: <em>Fenway</em> have sold a minority stake, around a third,
-          to the Bezos and Bhatia consortium at a valuation near $7bn, control
-          kept, budgets untouched. On the grass the market rolls on, Barcola
-          talks now club-to-club and the Reds confident. Como close the
-          pre-season at Anfield tomorrow; then Newcastle away, and the waiting
-          ends.
+          Sunday, matchday, and the winger chase has its first clear sky in a
+          fortnight: <em>PSG</em> spent the weekend buying Barcola's cover, Torres
+          and Godts in, and are now said to be willing to lower their price. The
+          road to Anfield, not just the wish, is open. <em>Como</em> close the
+          pre-season here this evening, Araujo's bow among them; then Newcastle
+          away, seven days out, and the waiting ends.
         </p>
 
         <StatStrip stats={stats} />
@@ -514,18 +513,19 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and the largest story of the summer belongs to no player at all.{" "}
-              <em>Fenway Sports Group</em> have confirmed the sale of a strategic
-              minority stake, reported at around a third, to a consortium led by{" "}
-              <em>Amit Bhatia</em> and backed by <em>Jeff Bezos</em> and Eduardo
-              Saverin, a deal valuing the club near $7bn. Bhatia takes the
-              vice-chairmanship; Bezos, tellingly, takes no board seat, and
-              Fenway keep control. The club insists nothing changes about how the
-              market is worked, and it duly rolls on: <em>Barcola</em> talks have
-              gone club-to-club with the Reds confident, and Tottenham have
-              stepped up for <em>Gakpo</em>. Como close the pre-season at Anfield
-              tomorrow; then Newcastle away, and the waiting ends.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and after a fortnight of arithmetic the marquee move has found some
+              air. <em>PSG</em> spent the weekend signing the men meant to cover{" "}
+              <em>Barcola</em>, Ferran Torres in for the No. 9 and a package
+              agreed with Ajax for Mika Godts, and are now reported willing to
+              lower an asking price that had held near £145m. The France winger
+              has wanted Anfield all summer; for the first time the path is open,
+              not just the desire, though the last of the fee still has to be
+              climbed. The safety net thinned the same day, <em>Minteh</em> ruled
+              out three months injured, so the wide search narrows to one road
+              and a newer, pricier name in <em>Ndiaye</em>. Como close the
+              pre-season here this evening, Araujo set for his bow; then
+              Newcastle away, and the season at last.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -535,7 +535,7 @@ function CoverView({ onJump }) {
               five dispatches from the writers who never clock off. There is an
               ownership deal now signed and the size of the summer; a defender in
               on loan from Barcelona; a winger board that runs through Paris to
-              Rayan and Minteh; a midfield reshaping around a new vice-captain;
+              Rayan and Ndiaye; a midfield reshaping around a new vice-captain;
               and a farewell long since sealed east. Read them in order. The
               season opens at Newcastle on the twenty-third of August, and the
               summer has not been quiet once.
@@ -3259,7 +3259,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The waiting ended with a signature."
+        "Paris moved first; now the road is open."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
