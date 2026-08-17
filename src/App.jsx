@@ -477,12 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday, matchday, and the winger chase has its first clear sky in a
-          fortnight: <em>PSG</em> spent the weekend buying Barcola's cover, Torres
-          and Godts in, and are now said to be willing to lower their price. The
-          road to Anfield, not just the wish, is open. <em>Como</em> close the
-          pre-season here this evening, Araujo's bow among them; then Newcastle
-          away, seven days out, and the waiting ends.
+          Monday, and the rehearsals are done: <em>Como</em> beaten 2-0 here on
+          Sunday, Araujo's Anfield bow behind them, the summer's last friendly
+          spent. Six days now to <em>Newcastle</em> away, where Isak walks back
+          into St James' in red and the season, at last, stops being a
+          rehearsal. Underneath it the fee for <em>Barcola</em> still has to be
+          bridged, and the squad has to sell before it can buy.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,19 +513,17 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and after a fortnight of arithmetic the marquee move has found some
-              air. <em>PSG</em> spent the weekend signing the men meant to cover{" "}
-              <em>Barcola</em>, Ferran Torres in for the No. 9 and a package
-              agreed with Ajax for Mika Godts, and are now reported willing to
-              lower an asking price that had held near £145m. The France winger
-              has wanted Anfield all summer; for the first time the path is open,
-              not just the desire, though the last of the fee still has to be
-              climbed. The safety net thinned the same day, <em>Minteh</em> ruled
-              out three months injured, so the wide search narrows to one road
-              and a newer, pricier name in <em>Ndiaye</em>. Como close the
-              pre-season here this evening, Araujo set for his bow; then
-              Newcastle away, and the season at last.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and the rehearsals are finished. Liverpool closed the pre-season on
+              Sunday with a 2-0 win over <em>Como</em>, Gakpo and Jacquet
+              scoring, <em>Araujo</em> taking his Anfield bow, a calmer sign-off
+              than two friendlies thrown away from two goals up. What waits now is
+              the only thing that counts: <em>Newcastle</em> away next Sunday,
+              where Alexander Isak walks back into St James' Park in red and two
+              new managers begin. Underneath it the window has inverted, the
+              question no longer who arrives but who leaves, with a squad that
+              must sell before it can climb to the fee <em>Barcola</em> still
+              costs. There is one week left, and no more dress rehearsals.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3259,7 +3257,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Paris moved first; now the road is open."
+        "The rehearsals are over. Newcastle waits."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
