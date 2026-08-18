@@ -477,12 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, and the rehearsals are done: <em>Como</em> beaten 2-0 here on
-          Sunday, Araujo's Anfield bow behind them, the summer's last friendly
-          spent. Six days now to <em>Newcastle</em> away, where Isak walks back
-          into St James' in red and the season, at last, stops being a
-          rehearsal. Underneath it the fee for <em>Barcola</em> still has to be
-          bridged, and the squad has to sell before it can buy.
+          Tuesday, and the departures lounge is loud. <em>Gakpo</em> has told
+          the club he wants Tottenham, terms agreed and a first bid turned back;
+          <em>Jones</em> pushes for Inter; and only these sales free the fee for
+          Barcola in Paris. Five days now to <em>Newcastle</em> away, the season
+          at last stops rehearsing, and the summer's quiet rule holds: nobody
+          arrives until somebody goes.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,17 +513,17 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and the rehearsals are finished. Liverpool closed the pre-season on
-              Sunday with a 2-0 win over <em>Como</em>, Gakpo and Jacquet
-              scoring, <em>Araujo</em> taking his Anfield bow, a calmer sign-off
-              than two friendlies thrown away from two goals up. What waits now is
-              the only thing that counts: <em>Newcastle</em> away next Sunday,
-              where Alexander Isak walks back into St James' Park in red and two
-              new managers begin. Underneath it the window has inverted, the
-              question no longer who arrives but who leaves, with a squad that
-              must sell before it can climb to the fee <em>Barcola</em> still
-              costs. There is one week left, and no more dress rehearsals.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and the window has stopped waiting on arrivals and started spending
+              its own. <em>Cody Gakpo</em> has told Liverpool he wants Tottenham,
+              personal terms agreed to 2031 and a first bid of a little over £60m
+              sent back, the forward who scored on Sunday now asking for a door
+              out. <em>Curtis Jones</em> leans on the same door toward Inter. Both
+              sales are meant to buy one man: <em>Barcola</em>, whose pursuit
+              PSG's president finally confirmed on Monday with a guarded 'we'll
+              see'. Underneath it the defence travels light, Gomez out, and the
+              calendar tightens. Five days to Newcastle, and the summer's rule
+              holds to the end: nobody arrives until somebody goes.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3257,7 +3257,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The rehearsals are over. Newcastle waits."
+        "Nobody arrives until somebody goes."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
