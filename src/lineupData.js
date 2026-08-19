@@ -66,14 +66,12 @@ export const FORMATIONS = {
     // through the run-in, is shown as the first-choice XI Liverpool finished the
     // campaign with (adjusted for the summer exits), NOT as a prediction for a
     // coming fixture (the tour is over; next up is Como at Anfield on Sunday Aug 16 (Monaco beaten 2-3 on Aug 9)).
-    // Refreshed Wed Aug 12: Monaco beaten 2-3 on Aug 9 (Munoz debuted), and Mac Allister returns for Como
-    // (Aug 16) after the World Cup final; the tour finished on a 2-4 Leeds loss after
-    // wins over Wrexham and Sunderland; Ekitike, Leoni and Bradley take no part (rehab),
-    // and Gomez is out and racing for Forest on Aug 29; Jacquet is set for his pre-season debut vs Como;
-    // the winger board has drawn Arsenal as a rival for Barcola near £145m, so Mbaye is the name
-    // Liverpool most realistically land (Rayan and Minteh still on the board);
-    // the centre-back file falls to Tomori and Zabarnyi now Araujo's loan is in (Guehi went to Man City in January);
-    // Romano expects movement on Curtis Jones's Inter exit once Frattesi leaves.
+    // Refreshed Wed Aug 19: Como beaten 2-0 on Aug 16 (Gakpo, Jacquet), pre-season closed; next up
+    // Newcastle away on Aug 23. Mac Allister is back in the spine after the World Cup final;
+    // Ekitike and Bradley take no part (rehab), Gomez out and racing for Forest on Aug 29,
+    // Leoni closing on a September return; Jacquet fit again after scoring vs Como.
+    // The winger board: Liverpool no longer expect to sell Gakpo to fund Barcola, PSG hold near £130m
+    // and Arsenal now move to hijack; Curtis Jones is out with a hip issue as Inter ready a fresh bid.
     defaultXI: {
       GK: 1,    // Alisson (started the Brentford finale)
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
@@ -130,14 +128,12 @@ export const FORMATIONS = {
 
 // One-line evidence string per player, surfaced under the token on hover.
 // Hand-curated from RESULTS array + injuryNote context as of 2026-08-09
-// (Sat: the tour is over, next up is Como at Anfield on Sunday Aug 16 (Monaco beaten 2-3 on Aug 9), Iraola's
-// first home dugout. Salah was unveiled at Trabzonspor on Thursday;
-// the Barcola deal stalls near €150m (Sky: deal difficult, Rayan and Minteh added to the board), Mbaye now led;
-// the centre-back board is Zabarnyi and Milan's Tomori (Guehi joined Man City back in January), with Tomori
-// (~£25m) the cheaper route; Victor Munoz debuted vs Monaco (Aug 9); Inter come to £30m for
-// a Curtis Jones who has set his sights on the move (Chivu eyes him wide); Tottenham ready a fresh push for Gakpo but only a 'huge'
-// fee moves the club; Frimpong the lone fit senior RB after his Leeds overload; Gomez given
-// about a month and misses the opener; Ekitike, Leoni and Bradley play no part.)
+// (Wed Aug 19: pre-season over, next up is Newcastle away on Sunday Aug 23 (Como beaten 2-0 on Aug 16), Iraola's
+// first competitive match. Salah is a Trabzonspor player; the Barcola deal has PSG holding near £130m
+// (Echo: 'insane') with Arsenal now moving to hijack it; Liverpool no longer expect to sell Gakpo to Spurs,
+// the club warming to keeping him; Curtis Jones is out with a hip issue as Inter ready a fresh bid near €35m;
+// Frimpong the lone fit senior RB, Araujo's loan covering; Gomez out for the opener (Forest Aug 29);
+// Leoni closing on a September return from his ACL; Ekitike and Bradley play no part.)
 export const PLAYER_EVIDENCE = {
   1:  "No. 1 · pre-season done, Newcastle next",  // Alisson
   2:  "No. 2 · asset to loan, not sell",          // Mamardashvili

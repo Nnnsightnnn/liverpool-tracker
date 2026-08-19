@@ -368,23 +368,24 @@ export const COVER_IMAGE = {
   credit: null,
   generatedAt: "2026-08-19T11:30:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
-  // Today's lead is the sell side turning decisive: Cody Gakpo has told Liverpool he wants
-  // Tottenham with personal terms agreed and a £60m bid rejected, Jones is pushing for Inter,
-  // and those sales are meant to fund the Barcola deal PSG's Al-Khelaifi has now publicly
-  // confirmed as a 'negotiation'. That is a transfer-negotiation story, not a single
-  // photographable hero moment that has already happened, so per the pipeline's "only queue a
-  // genuinely visual moment" rule no cover image was queued and the render falls back to pure-type.
+  // Today's lead is the sell side reversing: Liverpool no longer expect to sell Cody Gakpo to
+  // Tottenham, the club impressed by his pre-season under Iraola, which cools the funding for a
+  // Barcola deal PSG hold near £130m and Arsenal are now moving to hijack; Curtis Jones is out
+  // with a hip issue as Inter ready a fresh bid. That is a transfer-negotiation story, not a
+  // single photographable hero moment that has already happened, so per the pipeline's "only
+  // queue a genuinely visual moment" rule no cover image was queued and the render falls back
+  // to pure-type.
   brief: {
     leadStory:
-      "Tuesday, and the departures lounge has gone from theory to fact. Cody Gakpo has told Liverpool he wants Tottenham, personal terms on a deal to 2031 agreed in principle, after Spurs' opening bid of a little over £60m was turned down and the Reds set their ask nearer £72m. Curtis Jones, terms long agreed with Inter, is 'doing everything he can' to force his own move. The exits are the engine now: only clearing room funds the marquee arrival, and PSG president Al-Khelaifi finally confirmed 'negotiations' over Bradley Barcola, a deal still split on price. Newcastle away on Sunday, August 23, is the first thing that actually counts.",
+      "Wednesday, and the summer's certainty has wobbled. Liverpool no longer expect Cody Gakpo to leave for Tottenham before the deadline, sources describing a hierarchy won over by his pre-season under Andoni Iraola, so the sale that was meant to bankroll the window is cooling toward a stay. That matters because the money it would have raised is chased elsewhere: PSG hold firm at a £130m for Bradley Barcola the Echo calls 'insane', and Arsenal have moved to hijack the deal. Curtis Jones, out of both Como friendlies with a hip issue, is the cleaner exit as Romano reports Inter readying a fresh bid near €35m. Newcastle away on Sunday, August 23, is the first thing that actually counts.",
     subject:
-      "A window living on its sell side: Gakpo asking to leave for Spurs and Jones pushing for Inter to fund a Barcola deal, a transfer-negotiation story rather than a single hero moment already photographed",
+      "A window that has stopped selling: Liverpool now expect to keep Gakpo, cooling the Barcola funding as Arsenal circle, a transfer-negotiation story rather than a single hero moment already photographed",
     prompt:
-      "Cinematic editorial photograph, exterior of a historic English football stadium at dusk five days before a new season, floodlights warming against a darkening sky, empty forecourt, a mood of restless anticipation, no on-image text, generous headroom at the top for a masthead headline",
+      "Cinematic editorial photograph, exterior of a historic English football stadium at dusk four days before a new season, floodlights warming against a darkening sky, empty forecourt, a mood of restless anticipation, no on-image text, generous headroom at the top for a masthead headline",
     aspectRatio: "landscape",
-    slug: "sell-to-buy-window",
+    slug: "window-stops-selling",
     generatedAt: "2026-08-19T11:30:00Z",
-    note: "Lead is the sell side turning decisive (Gakpo asks for Spurs with terms agreed and a £60m bid rejected, Jones pushing for Inter, funding the Al-Khelaifi-confirmed Barcola pursuit), a transfer-negotiation story rather than a photographable hero still; no image queued this edition. Fallback to pure-type cover.",
+    note: "Lead is the sell side reversing (Liverpool no longer expect to sell Gakpo to Spurs, cooling the funds for a Barcola deal PSG hold near £130m and Arsenal now move to hijack; Jones out with a hip issue), a transfer-negotiation story rather than a photographable hero still; no image queued this edition. Fallback to pure-type cover.",
   },
 };
 
