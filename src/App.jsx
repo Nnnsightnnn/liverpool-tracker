@@ -477,12 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, and the departures lounge is loud. <em>Gakpo</em> has told
-          the club he wants Tottenham, terms agreed and a first bid turned back;
-          <em>Jones</em> pushes for Inter; and only these sales free the fee for
-          Barcola in Paris. Five days now to <em>Newcastle</em> away, the season
-          at last stops rehearsing, and the summer's quiet rule holds: nobody
-          arrives until somebody goes.
+          Wednesday, and the summer's certainty has slipped. Liverpool no
+          longer expect to sell <em>Gakpo</em>, the sale that was to fund
+          <em>Barcola</em> cooling as <em>Arsenal</em> move to hijack the deal in
+          Paris. <em>Jones</em>, out with a hip, is the cleaner exit still. Four
+          days now to <em>Newcastle</em> away, and the window has turned from
+          selling to keeping.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,17 +513,19 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and the window has stopped waiting on arrivals and started spending
-              its own. <em>Cody Gakpo</em> has told Liverpool he wants Tottenham,
-              personal terms agreed to 2031 and a first bid of a little over £60m
-              sent back, the forward who scored on Sunday now asking for a door
-              out. <em>Curtis Jones</em> leans on the same door toward Inter. Both
-              sales are meant to buy one man: <em>Barcola</em>, whose pursuit
-              PSG's president finally confirmed on Monday with a guarded 'we'll
-              see'. Underneath it the defence travels light, Gomez out, and the
-              calendar tightens. Five days to Newcastle, and the summer's rule
-              holds to the end: nobody arrives until somebody goes.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and the window has stopped spending its own and started guarding
+              it. <em>Cody Gakpo</em> is no longer expected to leave for
+              Tottenham, a hierarchy won over by his pre-season under Iraola, and
+              with it the funding line for <em>Barcola</em> has thinned just as
+              Arsenal move to hijack the deal, PSG holding near £130m the Echo
+              calls insane. <em>Curtis Jones</em>, out of both Como friendlies
+              with a hip issue, is the cleaner exit, Inter readying a fresh bid.
+              Underneath it the defence travels light, Gomez out, though Leoni's
+              September return is one light coming on. Four days to Newcastle,
+              where <em>Isak</em> goes back to a ground that has not forgiven
+              him. The summer's rule has flipped to its end: now nobody leaves
+              until the club decides to let them.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3257,7 +3259,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Nobody arrives until somebody goes."
+        "August turned from selling to keeping."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

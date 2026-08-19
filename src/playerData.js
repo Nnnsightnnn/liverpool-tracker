@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "injured", outSince: "2026-07-25", injuryNote: "Sun Aug 16 — the summer closed with him still watching. Gomez took no part in the Como win, the muscle injury from the opening minutes at Sunderland ruling him out of the August 23 trip to Newcastle, with Iraola targeting the first home game against Nottingham Forest on August 29. With Leoni still on his ACL, the back line leans on Araujo's loan and a returning Jacquet. The longest-serving defender is a cover loss to absorb rather than a sale to chase. Weeks, not months, and every day counts toward that Forest date", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "injured", outSince: "2026-07-25", injuryNote: "Wed Aug 19 — four days from the opener, and the count is still short a defender. Gomez took no part in the Como win, the muscle injury from the opening minutes at Sunderland ruling him out of the August 23 trip to Newcastle, with Iraola targeting the first home game against Nottingham Forest on August 29. With Leoni closing on a September return from his ACL, the back line leans on Araujo's loan and a fit-again Jacquet. The longest-serving defender is a cover loss to absorb rather than a sale to chase. Weeks, not months, and every day counts toward that Forest date", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -142,7 +142,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "fit", injuryNote: "Tue Aug 18 — now the player is pushing too. Jones, whose personal terms with Inter have been settled for months, is described as 'doing everything he can' to force the move before deadline day, intermediaries telling Italian outlets the deal is 'almost there'. The block stays the fee: Liverpool hold firm at €40m and Inter, needing to sell first, have yet to reach it. Fit and available, he trained through the Como week but has made his wish plain. Into his final year and unlikely to extend, the only Scouser left in the first team edges toward a door he is now leaning on. Iraola wanted him to stay; the club will not gift him away", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
+    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "doubtful", injuryNote: "Wed Aug 19 — the exit and a niggle now run together. Jones sat out both Como friendlies and the Monaco trip with a hip issue, taking an individual session at the AXA rather than featuring, a precaution more than an alarm with the opener days off. Around him the move sharpens: Romano reports Inter are readying a fresh bid, the ask said to have eased toward €35m against Liverpool's higher valuation. Into the final year of his deal, the only Scouser left in the first team stays a wanted man, his fitness and his future the same conversation now. Iraola would keep him; the fee, and the hip, decide the fortnight", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -190,7 +190,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 39, goals: 9, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 6.8, status: "fit", injuryNote: "Tue Aug 18 — the forward asks to leave. Gakpo has told Liverpool he wants to join Tottenham and agreed personal terms in principle on a deal to 2031, his camp now speaking directly with the hierarchy. Spurs' opening bid of a little over £60m was rejected on Monday, Liverpool holding nearer £72m and expecting an improved offer to follow. He scored against Como on Sunday and signed fresh Anfield terms only last year, but is said to see no long-term future under Iraola. Nine goals and six assists in 39 appearances last term, now the summer's likeliest big sale and the funding line the Barcola pursuit has been waiting on", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 39, goals: 9, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 6.8, status: "fit", injuryNote: "Wed Aug 19 — the sale that led the summer has cooled. Liverpool no longer expect Gakpo to leave for Tottenham before the deadline, sources say the club impressed by a pre-season under Iraola in which he scored against Como. Spurs opened a little over £60m and were sent away, Liverpool nearer £72m, but the tone at Anfield has shifted from selling to keeping, personal terms notwithstanding. He signed fresh Anfield terms only last year, and the manager wants width and goals he can trust. Nine goals and six assists in 39 appearances last term, now more likely to start at Newcastle than to be sold before it", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -366,7 +366,7 @@ export const COVER_IMAGE = {
   alt: "Pure-type edition cover.",
   focus: null,
   credit: null,
-  generatedAt: "2026-08-18T08:30:00Z",
+  generatedAt: "2026-08-19T11:30:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
   // Today's lead is the sell side turning decisive: Cody Gakpo has told Liverpool he wants
   // Tottenham with personal terms agreed and a £60m bid rejected, Jones is pushing for Inter,
@@ -383,7 +383,7 @@ export const COVER_IMAGE = {
       "Cinematic editorial photograph, exterior of a historic English football stadium at dusk five days before a new season, floodlights warming against a darkening sky, empty forecourt, a mood of restless anticipation, no on-image text, generous headroom at the top for a masthead headline",
     aspectRatio: "landscape",
     slug: "sell-to-buy-window",
-    generatedAt: "2026-08-18T08:30:00Z",
+    generatedAt: "2026-08-19T11:30:00Z",
     note: "Lead is the sell side turning decisive (Gakpo asks for Spurs with terms agreed and a £60m bid rejected, Jones pushing for Inter, funding the Al-Khelaifi-confirmed Barcola pursuit), a transfer-negotiation story rather than a photographable hero still; no image queued this edition. Fallback to pure-type cover.",
   },
 };
@@ -478,12 +478,12 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-08-18T08:30:00Z",
+  generatedAt: "2026-08-19T11:30:00Z",
   overview:
-    "Five days from Newcastle, the table on screen is still last season's: 2025-26's final twenty rows, Arsenal champions on 85 and Liverpool fifth on 60, with ESPN's 2026-27 feed reset to zero until the campaign kicks off on August 23. The real story this week is not the standings but the ledger beneath them, a sell-to-buy scramble that has finally started to move: Cody Gakpo has asked to join Tottenham with terms agreed and a £60m bid rejected, Curtis Jones is pushing for Inter, and only those departures free the funds for a Barcola deal PSG's Al-Khelaifi now publicly calls a 'negotiation'. Fifth and a Champions League return is the platform Iraola inherits and must defend. What the frozen table gives way to on Sunday, with Gomez out and the back line thin, is the first thing that will actually count.",
+    "Four days from Newcastle, the table on screen is still last season's: 2025-26's final twenty rows, Arsenal champions on 85 and Liverpool fifth on 60, with ESPN's 2026-27 feed reset to zero until the campaign kicks off on August 23. The real story this week is not the standings but the ledger beneath them, where the sell-to-buy plan has just sprung a leak: Liverpool no longer expect to sell Cody Gakpo to Tottenham, cooling the sale that was meant to fund a Barcola deal PSG hold near £130m and Arsenal are now moving to hijack. Curtis Jones offers the cleaner exit, though a hip issue kept him out of both Como friendlies. Fifth and a Champions League return is the platform Iraola inherits and must defend. What the frozen table gives way to on Sunday, with Gomez out and the back line thin, is the first thing that will actually count.",
   teams: {
-    "Liverpool": "Fifth on 60 and dark until August 23, now living on the sell side: Gakpo has told the club he wants Tottenham (terms agreed, £60m bid rejected, Liverpool holding ~£72m) and Jones is 'doing everything he can' to force his Inter move. Both sales are meant to fund Barcola, whose pursuit PSG's Al-Khelaifi has confirmed. Gomez is out for the opener; the defence travels to Tyneside light.",
-    "Arsenal": "Champions on 85, one of the sides in for Everton's Iliman Ndiaye alongside Liverpool and United, their earlier Barcola flirtation now quietened.",
+    "Liverpool": "Fifth on 60 and dark until August 23, and the sell side has stalled at the top: Liverpool no longer expect to sell Gakpo to Tottenham, cooling the funding for a Barcola deal Arsenal are now moving to hijack. Jones (out with a hip issue) is the cleaner exit as Inter ready a fresh bid near €35m. Gomez is out for the opener; the defence travels to Tyneside light.",
+    "Arsenal": "Champions on 85, and now reported to be plotting a hijack of Liverpool's Barcola pursuit after missing other targets, still also among the sides in for Everton's Iliman Ndiaye.",
     "Manchester City": "Second on 78, planning for a possible Rodri exit, the club whose midweek Mac Allister shortlist was shut down at once by the Argentine's camp.",
     "Manchester United": "Third on 71, back in the Champions League, and a rival to Liverpool for Ndiaye this summer.",
     "Aston Villa": "Fourth on 65, beat Liverpool 4-2 at Villa Park in May, and signed Joao Gomes after Liverpool declined him for a midfielder.",
@@ -491,11 +491,11 @@ export const STANDINGS_COMMENTARY = {
     "Brighton": "Eighth on 53, and the source of a summer-long blow: winger target Yankuba Minteh is out up to three months with a leg injury, ending any move to Anfield.",
     "Sunderland": "Seventh on 54 in their first season back up, beaten 4-2 by Iraola's Liverpool in Nashville, where Joe Gomez limped off inside minutes, and now among the clubs linked with Harvey Elliott.",
     "Leeds": "Fourteenth on 47, the side that stunned Liverpool 4-2 in the Chicago tour finale, and another name in the Harvey Elliott conversation this summer.",
-    "Newcastle": "Twelfth on 49, hosts of the August 23 opener, with Alexander Isak set for a charged return in Liverpool red and both clubs expected to remember Kevin Keegan beforehand.",
+    "Newcastle": "Twelfth on 49, hosts of the August 23 opener, sweating on Joelinton, Livramento and Schar, with Alexander Isak set for a hostile return in Liverpool red and both clubs expected to remember Kevin Keegan beforehand.",
     "Everton": "Thirteenth on 49, and holding out for around £75m for Iliman Ndiaye, the winger Liverpool are said to hold interest in despite the rarity of any cross-Stanley-Park deal.",
     "Chelsea": "Tenth on 52, and closing on former Liverpool captain Jordan Henderson from Brentford on a free.",
     "Crystal Palace": "Fifteenth on 45, Conference League holders, and holding near £100m for Adam Wharton, reported willing to wait for Liverpool despite City having floated his name.",
-    "Tottenham": "Seventeenth on 41, signed Robertson on a free, and now pushing hard for Gakpo, who has agreed personal terms to 2031 with a £60m opening bid rejected against Liverpool's ~£72m ask.",
+    "Tottenham": "Seventeenth on 41, signed Robertson on a free, and had personal terms with Gakpo, but Liverpool now no longer expect to sell him, the Dutchman impressing under Iraola with the £60m opening bid long rejected.",
     "West Ham": "Relegated on 39, and keeping Jarrod Bowen, who restructured rather than moved.",
     "Wolves": "Bottom on 20, relegated, and sending Joao Gomes to Villa rather than Anfield.",
   },
@@ -504,131 +504,130 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Gakpo Knocks On The Door, And Names The Ground.",
-    byline: "TeamTalk / This Is Anfield",
-    dateline: "Anfield · 18 August",
+    headline: "The Sale Cools, And A Rival Circles The Prize.",
+    byline: "Liverpool.com / ESPN",
+    dateline: "Anfield · 19 August",
     category: "Transfers",
     body:
-      "The clearest voice in the departures lounge this week belongs to a forward who scored on Sunday. Cody Gakpo has told Liverpool he wants to join Tottenham, personal terms on a deal to 2031 agreed in principle, his representatives now sitting across the table from the hierarchy to make it plain. Spurs opened at a little over £60m and were sent away on Monday; Liverpool hold nearer £72m and expect a second, larger bid. He signed fresh Anfield terms only last summer, but under Iraola he no longer sees the years ahead in red. The Dutchman is not being pushed. He is asking, and the club must decide the price of yes.",
+      "The summer's firmest certainty turned soft this week. Liverpool no longer expect to sell Cody Gakpo to Tottenham, sources describing a hierarchy quietly won over by a pre-season under Iraola in which the Dutchman scored against Como. That reversal lands hard, because the Gakpo money was the plank under a Barcola deal that has just grown a rival: Arsenal are reported to be plotting a hijack, moving after missing other targets, while PSG hold near £130m for the France winger, a figure the Echo has called insane. What began as a queue of exits has become a fight to keep. The club that spent August selling now finds itself defending what it has, and the fee it wanted to raise has nowhere left to come from.",
   },
   {
     n: "02",
-    headline: "Jones Leans On A Door That Will Not Yet Open.",
-    byline: "This Is Anfield / The Hard Tackle",
-    dateline: "Anfield · 18 August",
-    category: "Transfers",
+    headline: "Isak Goes Back, And The Ground Remembers.",
+    byline: "Sky Sports",
+    dateline: "Tyneside · 19 August",
+    category: "Football News",
     body:
-      "The other exit has stopped being patient. Curtis Jones, his personal terms with Inter settled for months, is now described as doing everything he can to force the move before deadline day, intermediaries whispering to Milan that it is almost there. What holds is only the fee: Liverpool will not shift from €40m, and Inter, needing to sell before they buy, have not reached it. The last Scouser in the first team trained all through the Como week, fit and available, but the wish is out in the open now. Iraola wanted him to stay. A boyhood Red keeps leaning, and the summer keeps not quite letting him go.",
+      "There are homecomings, and there is this. Alexander Isak returns to St James' Park on Sunday in Liverpool red, his first visit since a British-record move that Newcastle supporters have not forgiven, the striker having downed tools last summer to force it. A hostile reception is guaranteed, though both clubs will pause first to remember Kevin Keegan. A debut season wrecked by injury, a broken leg among it, has cut his valuation nearer £72m against the £125m paid, and with Salah gone and Ekitike sidelined there is nowhere for him to hide in Iraola's attack. He wanted this stage. Now it wants an answer, and forty thousand voices will ask the question at once.",
   },
   {
     n: "03",
-    headline: "In Paris, The President Finally Uses The Word.",
-    byline: "Liverpool FC / This Is Anfield",
-    dateline: "Paris · 17 August",
-    category: "Transfers",
+    headline: "Iraola Likes What The Youngest Ones Showed Him.",
+    byline: "Liverpool FC",
+    dateline: "AXA Centre · 18 August",
+    category: "Manager",
     body:
-      "For a saga conducted mostly in silence, a rare sentence out loud. Nasser Al-Khelaifi confirmed 'negotiations' with Liverpool over Bradley Barcola, a guarded 'we'll see' that is the closest PSG have come to admitting the chase, and it arrives with Paris already buying Ferran Torres and Mika Godts to cover the winger's exit. The distance is still money: Liverpool near £98m, PSG asking as high as £145m, the number the whole window bends around. Personal terms to 2032 were agreed in June and the player has wanted this since. What has moved is the sell side, Gakpo and Jones edging out, the funds starting to gather. The Ligue 1 window shuts on the thirty-first.",
+      "For a manager inheriting a thin squad, the pre-season's happiest surprise came from the bottom of the team sheet. Andoni Iraola told reporters that a lot of players have surprised him, especially the younger ones he did not know before, and that they gave a very high level in the friendly games, the kind of remark that turns audition minutes into a plan. He was less fond of the month itself, admitting he dislikes August and looks forward to the first of September, when this is who we are and we build from here. Four days out, the fringe he has praised may yet decide how a stretched opener is filled.",
   },
   {
     n: "04",
-    headline: "The Back Line Counts Bodies, And A New Name.",
-    byline: "Liverpool.com / CaughtOffside",
-    dateline: "AXA Centre · 17 August",
+    headline: "One Light Comes On In A Thin Back Line.",
+    byline: "Liverpool.com",
+    dateline: "AXA Centre · 18 August",
     category: "Injuries",
     body:
-      "Liverpool travel to Tyneside light at the back and quietly shopping for more. Joe Gomez, hurt inside the opening minutes at Sunderland, misses the opener and races to be fit for Forest on the twenty-ninth, the muscle problem dated at about a month. Giovanni Leoni edges back from an ACL, Conor Bradley remains short after January's knee surgery, Hugo Ekitike sits months out. Jacquet's Como goal and Araujo's loan cover have eased it without ending it, and behind the scenes a new thread runs to Barcelona: Hector Fort, twenty, a right-back option with Dortmund also looking. The winger owns the headlines. The defence owns the worry.",
+      "The defensive briefing has read grim all summer, so a single forward step counts. Giovanni Leoni, recovering from the cruciate tear he suffered on his debut last autumn, is expected back in training within weeks and could be available in September, named by Iraola as the closest of the long absentees to returning. Around that flicker the room stays dark: Joe Gomez is out for the opener and racing for Forest on the twenty-ninth, Conor Bradley remains months from January's knee surgery, Hugo Ekitike further still. Araujo's loan and a fit-again Jacquet carry the load to Tyneside. The winger owns the headlines. The back four owns the worry, but at least one name is walking the right way now.",
   },
   {
     n: "05",
-    headline: "A Summer That Sells Before It Buys.",
-    byline: "Liverpool.com / TeamTalk",
-    dateline: "Anfield · 18 August",
+    headline: "A Window That Has Stopped Selling.",
+    byline: "This Is Anfield / Empire of the Kop",
+    dateline: "Anfield · 19 August",
     category: "Transfers",
     body:
-      "Strip the noise away and the shape of the fortnight is simple: nobody arrives until somebody leaves. Araujo's loan filled the last non-homegrown slot, so Iraola's staff have turned the desk over to outgoings, and the traffic is picking up. Gakpo asks for Spurs, Jones pushes for Inter, Harvey Elliott weighs a move against a World Cup place, and down the ladder Calum Scanlon has gone to Cardiff on loan, Endo and Tsimikas and Ramsay marked as inventory to shift. Each sale is a brick pulled from one wall to build another in Paris. The season opens at Newcastle on Sunday whether the winger has landed or not. The clock, for once, is louder than the money.",
+      "Turn the fortnight over and the shape has inverted. A summer built on sell-to-buy, Araujo's loan filling the last non-homegrown slot, has watched its biggest sale cool overnight, the club now minded to keep Gakpo rather than bank him. What remains is smaller and cleaner: Curtis Jones, sat out both Como friendlies with a hip issue, still edges toward Inter, who Romano says are readying a fresh bid near €35m. Down the ladder the quiet work goes on, Lucas Clarke, seventeen, signing his first pro terms after arriving from City. Each held player is a brick the club has decided not to sell, and a Barcola deal that needed those bricks is suddenly short of a wall. The season opens at Newcastle on Sunday, funded or not.",
   },
 ];
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-08-18T08:30:00Z",
+  generatedAt: "2026-08-19T11:30:00Z",
   summary:
-    "Tuesday, and the departures lounge has gone from theory to fact. Cody Gakpo has told Liverpool he wants to join Tottenham, personal terms on a deal to 2031 already agreed in principle, after Spurs' opening bid of a little over £60m was turned down and the Reds set their ask nearer £72m. He is not the only one straining at the door: Curtis Jones, terms long agreed with Inter and described as 'doing everything he can' to force the move, waits only on the Italians reaching Liverpool's €40m valuation. The exits are the engine now, because nothing arrives until they clear room: PSG chairman Nasser Al-Khelaifi finally confirmed 'negotiations' over Bradley Barcola on Monday, a public 'we'll see' that thawed a saga still split on price, Liverpool nearer £98m and Paris still asking up to £145m. Underneath the noise the calendar bites, Ligue 1 shutting on August 31 and the Premier League a day later, with Newcastle away on Sunday, August 23, the first thing that actually counts.",
+    "Wednesday, and the summer's certainty has wobbled. Liverpool no longer expect Cody Gakpo to leave for Tottenham before the deadline, sources describing a hierarchy won over by his pre-season under Andoni Iraola, so the sale that was meant to bankroll the window is cooling toward a stay. That matters because the money it would have raised is chased elsewhere: PSG hold firm at a £130m for Bradley Barcola that the Echo calls 'insane', and Arsenal have moved to hijack the deal. Curtis Jones, meanwhile, sat out both Como friendlies with a hip issue as Fabrizio Romano reports Inter readying a fresh bid near €35m. Four days from Newcastle away on Sunday, August 23, the window has stopped being a queue of exits and become a fight to keep what the club already has.",
   keyTopics: [
     {
-      title: "Gakpo Tells Liverpool He Wants Spurs: Terms Agreed, £60m Bid Rejected (TeamTalk / This Is Anfield, today)",
+      title: "Liverpool No Longer Expect Gakpo To Leave As The Spurs Sale Cools (Liverpool.com / ESPN, today)",
       detail:
-        "The summer's biggest sale took a decisive step overnight. Cody Gakpo has informed Liverpool he wants to join Tottenham and has agreed personal terms in principle on a contract to 2031, his representatives now speaking directly with the hierarchy to make his position clear. Spurs' opening offer, reported a little above £60m, was rejected on Monday, Liverpool holding out closer to £72m and expecting an improved bid to follow. The 27-year-old, who scored against Como on Sunday, signed fresh Anfield terms only last year but is said to see no long-term future under Iraola. Sold, he becomes the funding line the rest of the window has been waiting on.",
+        "The summer's leading storyline turned overnight. Reports on Tuesday said Liverpool no longer expect Cody Gakpo to join Tottenham before the deadline, sources describing a hierarchy impressed by his pre-season under Andoni Iraola, the forward who scored against Como now more likely to start at Newcastle than to be sold before it. Spurs' opening bid, a little over £60m, was rejected and personal terms had been spoken of, but the tone at Anfield has moved from selling to keeping. For a window built on sell-to-buy, the cooling of its biggest sale reshapes everything that was supposed to follow it.",
       category: "transfers",
     },
     {
-      title: "Jones 'Doing Everything He Can' To Force The Inter Move (This Is Anfield / The Hard Tackle, today)",
+      title: "Arsenal Move To Hijack Barcola As PSG Hold £130m The Echo Calls 'Insane' (ESPN / Anfield Watch, today)",
       detail:
-        "The other exit is being pushed from the player's side too. Curtis Jones, whose personal terms with Inter Milan have been settled for months, is now described as 'doing everything he can' to complete the switch before the deadline, intermediaries telling Italian outlets the deal is 'almost there'. The block remains the fee: Liverpool hold firm at €40m and Inter, needing to sell first, have yet to reach it. Jones, the only Scouser left in the first team and into the final year of his deal, kept training through the Como week but has made his wish plain. Iraola wanted him to stay; the club will not gift him away.",
+        "The winger the whole plan turns on has drawn a rival. Arsenal are reported to be plotting a hijack of Liverpool's pursuit of Bradley Barcola, having missed other targets, as PSG hold their valuation near £130m even after signing Ferran Torres and Ajax's Mika Godts to cover the exit. The Liverpool Echo branded the figure 'insane' and questioned whether the Reds can or should pay it, and with the Gakpo sale cooling the funds to bridge the gap are harder to find. Barcola, 23, has wanted Anfield since June, but Ligue 1 shuts on August 31 and the price has not moved.",
       category: "transfers",
     },
     {
-      title: "Al-Khelaifi Confirms Barcola 'Negotiations' As The Price Gap Holds (Liverpool FC / This Is Anfield, today)",
+      title: "Jones Sits Out With A Hip Issue As Romano Flags A Fresh Inter Bid (OneFootball / Empire of the Kop, today)",
       detail:
-        "The most guarded saga of the summer got a rare on-record word. PSG president Nasser Al-Khelaifi confirmed 'negotiations' with Liverpool over Bradley Barcola, a public 'we'll see' that follows Paris buying Ferran Torres and Mika Godts to cover the France winger's exit. The distance is still money: Liverpool's offer sits around £98m while PSG have priced him as high as £145m, the number the whole window turns on. Barcola, 23, has wanted Anfield since June and personal terms are not the obstacle. With the sales now moving, the funds to bridge the gap are the last piece, and the Ligue 1 window shuts on August 31.",
+        "The other exit gained a complication and a push in the same week. Curtis Jones missed both Como friendlies and the earlier Monaco trip with a hip problem, taking an individual session at the AXA rather than featuring, a precaution the club calls minor with the opener days away. On the deal, Fabrizio Romano reports Inter are readying a fresh attempt, the asking price said to have eased toward €35m against Liverpool's higher valuation. Into the final year of his contract, the only Scouser left in the first team is now a fitness question and a transfer question at once.",
       category: "transfers",
     },
     {
-      title: "Iraola Manages The Load: 'We Have To Recover Players' Before Newcastle (Liverpool FC, today)",
+      title: "Isak Braces For A Hostile St James' Return With A Keegan Tribute First (Sky Sports, today)",
       detail:
-        "With the opener five days out, the manager is thinking in rotation, not certainties. Andoni Iraola, whose Chicago tour left legs to nurse, told reporters 'we will recover players, it's not like if we play with the same 11... it wouldn't be a good thing for us against Newcastle', a first competitive read on how he intends to spread minutes. His template is familiar from Bournemouth: hard-working, intense, vertical. The Como win gave him the composure he wanted after Leeds and Monaco; now the planning turns to bodies, with Gomez out and the back line thin, and to who among the fringe survives a fortnight built around departures.",
+        "Sunday brings the fixture's charged subplot. Alexander Isak returns to St James' Park in Liverpool red for the first time since last summer's British-record move, a switch Newcastle supporters have not forgiven after he downed tools to force it, and a hostile reception is expected. Both clubs are set to remember Kevin Keegan before kick-off. An injury-wrecked debut season, a broken leg among it, has left Isak valued nearer £72m now against the £125m fee, and with Salah gone and Ekitike injured there is no hiding place for him in Iraola's attack. Kick-off is 4:30pm, live on Sky.",
+      category: "matches",
+    },
+    {
+      title: "Iraola On The Kids: 'A Lot Have Surprised Me, A Very High Level' (Liverpool FC, 1d ago)",
+      detail:
+        "The manager's clearest read of pre-season was about the youngest names on his sheet. Andoni Iraola told reporters that 'a lot of players have surprised me, especially the younger players that I didn't know before' and that they had given 'a very, very high level in these friendly games', a note of optimism as a thin senior squad braces for the opener. He was candid, too, about the calendar, admitting he dislikes August and enjoys the moment on September 1 when 'this is who we are and we build from here'. Four days from Newcastle, the audition minutes are close to being counted.",
       category: "tactics",
     },
     {
-      title: "Gomez Out For The Opener As The Defence Travels Light (Liverpool.com / Sports Mole, 1d ago)",
+      title: "Liverpool Confirm A First Pro Contract For Lucas Clarke, Signed From City (This Is Anfield, 1d ago)",
       detail:
-        "Liverpool go to Tyneside counting defenders. Joe Gomez, hurt inside the opening minutes at Sunderland, misses the Newcastle opener and is racing to be fit for Nottingham Forest on August 29, Iraola dating the muscle problem at about a month. Giovanni Leoni edges back from an ACL, Conor Bradley remains short after January knee surgery, and Hugo Ekitike sits months out with the Achilles. Jacquet's return to the Como scoresheet and Araujo's loan cover across centre-back and right-back are why the emergency has eased rather than ended. A permanent partner for Van Dijk stays on the wish list even as the winger dominates the headlines.",
+        "Beneath the marquee noise the academy business went on. Liverpool confirmed on Thursday that Lucas Clarke, a 17-year-old centre-back signed from Manchester City, has put pen to his first professional contract, tying him to the club into 2028. It is the quiet, developmental end of a busy summer, the loans and youth signings that reshape the roster while the back page argues about Barcola. Clarke joins a defensive academy group the club has leaned on this month, with Ndukwe already rules-benched into the senior picture.",
+      category: "general",
+    },
+    {
+      title: "Leoni Closes On A September Return As The Back Line Waits (Liverpool.com, 1d ago)",
+      detail:
+        "One of the injury threads finally points forward. Giovanni Leoni, recovering from the anterior cruciate ligament tear suffered on his debut last autumn, is expected to start training in the coming weeks and could be available for selection in September, Iraola having named him the closest of the long-term absentees to returning. That is the lone bright line in a defensive briefing that still reads thin: Gomez is out for the opener and racing for Forest on August 29, and Bradley remains months from his January knee surgery. Araujo's loan and a fit-again Jacquet carry the load to Tyneside.",
       category: "injuries",
     },
     {
-      title: "Hector Fort Emerges As A Right-Back Option With Bradley Short (Liverpool.com / CaughtOffside, 1d ago)",
+      title: "Newcastle Sweat On Joelinton, Livramento And Schar Before The Opener (Hayters, 2d ago)",
       detail:
-        "A new name surfaced behind the marquee pursuit. Liverpool are reported to have looked at Hector Fort, the 20-year-old Barcelona right-back, as depth in a position thinned by Bradley's recovery and Gomez's injury, with Borussia Dortmund also exploring the same deal. Araujo can spell there in an emergency and Frimpong is first choice, but the youth-and-value profile fits how the club has shopped all summer. It is early interest rather than an advanced move, one more strand in a window where the back line remains the quiet worry beneath the winger noise.",
-      category: "transfers",
-    },
-    {
-      title: "Scanlon Loaned To Cardiff As The Academy Clear-Out Continues (This Is Anfield / Liverpool FC, 1d ago)",
-      detail:
-        "The quieter side of the fortnight is the young players finding rooms of their own. Academy left-back Calum Scanlon has rejoined Cardiff City on a season-long loan for 2026-27 after signing a new long-term Anfield deal, a familiar pairing of commitment and development minutes. He is one of several fringe and youth names on the move as Iraola's staff trim a swollen roster, the loans and low-fee exits that rarely make the back page but clear the wage room a marquee signing needs. Endo, Tsimikas and Ramsay sit on the same senior ledger.",
-      category: "general",
+        "The hosts have a fitness list of their own. Newcastle head into Sunday's opener with Joelinton, Valentino Livramento and Fabian Schar all rated doubtful, though Eddie Howe can still call on Bruno Guimaraes, Anthony Gordon and Nick Woltemade, the spine that carried much of last season. For Liverpool the read is opportunity against a side rebuilding after Isak's exit, but St James' will be loud and pointed, and a young, thin Reds squad opens its campaign in one of the least forgiving away grounds on the map.",
+      category: "matches",
     },
     {
       title: "Everton Hold Near £75m For Ndiaye As The Wide Board Stays Thin (This Is Anfield / Football365, 2d ago)",
       detail:
-        "Behind Barcola the alternatives have not widened. Everton are reported to want around £75m for Iliman Ndiaye, the winger Liverpool are said to hold interest in, with Arsenal and Manchester United in the same conversation and the player minded to stay in England. The obstacle is as much history as money, business across Stanley Park close to unheard of, but with Brighton's Minteh out injured and Rayan's Bournemouth clause dormant to 2027, the fallback names remain few. The wait on Paris is what keeps a rare, awkward Everton deal even a conversation.",
+        "Behind Barcola the alternatives have not widened. Everton are reported to want around £75m for Iliman Ndiaye, with Arsenal and Manchester United also in the conversation and the player minded to stay in England, a rare cross-Stanley-Park deal kept alive only by how few fallbacks remain. Brighton's Yankuba Minteh is out injured, Rayan's Bournemouth clause is dormant to 2027, and with the Gakpo money no longer certain the whole wide search now waits on whether Liverpool spend big at all. It is the awkward corner of a window that has stopped selling.",
       category: "transfers",
     },
     {
-      title: "Elliott Weighs A Move Against A World Cup Place (FotMob / TeamTalk, 2d ago)",
+      title: "FSG's Bezos-Bhatia Stake Sale Settles Into The Background (Sky Sports / Bloomberg, 5d ago)",
       detail:
-        "One sell-side name is thinking about more than a fee. Harvey Elliott has said he 'needs to review' his Liverpool future with an eye on England's 2026 World Cup squad, minutes behind Wirtz hard to find. Liverpool want north of £30m for the 22-year-old, into the final year of his deal, with Sunderland and Leeds among those mentioned. It is the human edge of the clear-out: for the club a line on a ledger, for the player a career decision made against a tournament clock. Whether he goes is one more thread in a fortnight defined by who leaves.",
-      category: "transfers",
-    },
-    {
-      title: "FSG's Bezos-Bhatia Sale Settles Into The Background (Sky Sports / Bloomberg, 4d ago)",
-      detail:
-        "The largest number of the window has moved from headline to context. Fenway Sports Group confirmed last Friday the sale of a strategic minority stake, reported at roughly a third, to the 1892 Holdings group led by Amit Bhatia and carrying Jeff Bezos and Eduardo Saverin, a deal valuing Liverpool between $6bn and $7bn. Bhatia is vice-chairman; Bezos takes no board seat. FSG keep control, with an option for the group to move toward more in time, and insist player budgets stay inside the sporting operation. Days on, the practical question is unchanged: whether that budget stretches to Barcola before deadline day.",
+        "The window's largest number has moved from headline to context. Fenway Sports Group confirmed last week the sale of a strategic minority stake, reported at roughly a third, to the 1892 Holdings group led by Amit Bhatia and carrying Jeff Bezos and Eduardo Saverin, a deal valuing Liverpool between $6bn and $7bn. FSG keep control and insist player budgets stay inside the sporting operation. Days on, the practical question is the same one the Barcola saga keeps asking: whether that budget stretches to a marquee winger before deadline day, now that the sale meant to fund him has cooled.",
       category: "general",
     },
   ],
   sources: [
-    "This Is Anfield",
-    "Liverpool FC",
-    "TeamTalk",
-    "The Hard Tackle",
-    "CaughtOffside",
-    "Sky Sports",
     "Liverpool.com",
-    "Sports Mole",
+    "ESPN",
+    "Anfield Watch",
+    "OneFootball",
+    "Empire of the Kop",
+    "Sky Sports",
+    "Liverpool FC",
+    "This Is Anfield",
+    "Hayters",
     "Football365",
-    "FotMob",
     "Fabrizio Romano",
     "Bloomberg",
-    "ESPN",
   ],
 };
 // ─── Transfer Targets (2026 summer window) ─────────────────────────────────
@@ -636,9 +635,9 @@ export const NEWS_DIGEST = {
 // heatTier: "hot" (≥65%) | "warm" (40-64%) | "cool" (<40%) | "done" | "dead"
 // sources[].tier: "S" (Romano-class) | "A" (major outlet) | "B" (beat) | "C" (aggregator)
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-08-18T08:30:00Z",
+  generatedAt: "2026-08-19T11:30:00Z",
   summary:
-    "Tuesday, and the sell side is where the window now lives. Cody Gakpo has told Liverpool he wants Tottenham and agreed personal terms in principle to 2031, Spurs' opening bid a shade over £60m rejected as the Reds hold near £72m, the sale that would fund everything else. Curtis Jones, terms with Inter long settled and 'doing everything he can' to force it, waits only on the Italians reaching the €40m ask. Those departures are the toll on the marquee arrival: PSG president Al-Khelaifi confirmed 'negotiations' over Bradley Barcola on Monday, a rare public word on a deal still split on price, Liverpool near £98m and Paris asking up to £145m even after signing Ferran Torres and Mika Godts as cover. Behind Barcola the wide board stays thin, Brighton's Minteh injured, Rayan's clause dormant to 2027, Everton's Iliman Ndiaye a pricey £75m alternative. A new right-back thread runs to Barcelona's Hector Fort with Bradley short, and Harvey Elliott weighs Sunderland and Leeds against a World Cup place. Above it all the farewell is long since inked: Mohamed Salah is a Trabzonspor player.",
+    "Wednesday, and the sell-to-buy plan has sprung a leak at the top. Liverpool no longer expect to sell Cody Gakpo to Tottenham, sources describing a hierarchy won over by his pre-season under Iraola, cooling the biggest sale the summer's marquee move was built on. That leaves Bradley Barcola exposed: PSG hold near £130m, the Liverpool Echo calls the figure 'insane', and Arsenal have moved to hijack the deal. Curtis Jones now offers the cleaner exit, though he sat out both Como friendlies with a hip issue while Fabrizio Romano reports Inter readying a fresh bid toward €35m. Behind Barcola the wide board stays thin, Brighton's Minteh injured, Rayan's clause dormant to 2027, Everton's Iliman Ndiaye a pricey £75m alternative, and Harvey Elliott weighs Sunderland and Leeds against a World Cup place. Above it all the farewell is long since inked: Mohamed Salah is a Trabzonspor player.",
   incoming: [
     {
       name: "Ronald Araujo",
@@ -693,18 +692,18 @@ export const TRANSFER_TARGETS = {
       wageBand: "A",
       contractExpiry: "2028-06-30",
       releaseClause: null,
-      contractNote: "Contracted to PSG until 2028, the France international is the club's marquee saleable asset. He has ceased negotiations over a new deal despite a substantial pay rise offered in Paris and agreed personal terms with Liverpool on a contract to 2032. Liverpool's offer is reported around €115m (£98m); PSG have priced him as high as £145m. Paris made themselves more amenable by adding Ferran Torres (£42.75m from Barcelona) and Mika Godts to Luis Enrique's forward line, and on Monday president Nasser Al-Khelaifi confirmed 'negotiations' with Liverpool, a rare public 'we'll see'. Arsenal's earlier flirtation has quietened. The Hughes-Campos channel stays smooth and the player is keen on Anfield, so the argument is the fee and the funds to reach it, the sales of Gakpo and Jones the room-clearers; Bournemouth's Rayan (clause dormant to 2027) is the only wide fallback still standing after Minteh's injury, with Everton's Iliman Ndiaye a newer, pricier alternative. The Ligue 1 window shuts on 31 August.",
-      probability: 62,
+      contractNote: "Contracted to PSG until 2028, the France international is the club's marquee saleable asset. He has ceased negotiations over a new deal despite a substantial pay rise offered in Paris and agreed personal terms with Liverpool on a contract to 2032. Liverpool's offer is reported around €115m (£98m); PSG hold their valuation near £130m, a figure the Liverpool Echo branded 'insane' and questioned whether the Reds can or should pay. Paris made themselves more amenable by adding Ferran Torres (£42.75m from Barcelona) and Mika Godts to Luis Enrique's forward line, but the price has not moved, and Arsenal are now reported to be plotting a hijack after missing other targets. The Hughes-Campos channel stays smooth and the player is keen on Anfield, so the argument is the fee and the funds to reach it, funds thrown into doubt by the cooling of the Gakpo sale; Bournemouth's Rayan (clause dormant to 2027) is the only wide fallback still standing after Minteh's injury, with Everton's Iliman Ndiaye a newer, pricier alternative. The Ligue 1 window shuts on 31 August.",
+      probability: 54,
       heatTier: "warm",
       sources: [
-        { name: "Liverpool FC",        tier: "A" },
-        { name: "This Is Anfield",     tier: "A" },
+        { name: "ESPN",                tier: "A" },
+        { name: "Anfield Watch",       tier: "B" },
         { name: "Sky Sports",          tier: "A" },
         { name: "Fabrizio Romano",     tier: "S" },
       ],
-      lastUpdated: "2026-08-18",
+      lastUpdated: "2026-08-19",
       rumorNote:
-        "Paris · 18 Aug — the president says the word out loud. Nasser Al-Khelaifi confirmed 'negotiations' with Liverpool over Bradley Barcola on Monday, a public 'we'll see' that is the closest PSG have come to acknowledging the pursuit, and it lands with Paris already having bought Ferran Torres and Mika Godts to cover his departure. The distance that remains is money: Liverpool's offer sits near £98m, PSG's asking price has run as high as £145m, and the whole window turns on bridging it. Personal terms to 2032 were agreed long ago and the player has wanted Anfield since June. What has changed is on the sell side, Gakpo asking to leave and Jones pushing for Inter, the funds finally starting to move. The road is open; the toll is the two departures that pay for it.",
+        "Paris · 19 Aug — the prize has drawn a rival, and the money got harder. Arsenal are reported to be plotting a hijack of Liverpool's pursuit of Bradley Barcola, moving after missing other targets, while PSG hold their valuation near £130m, a number the Liverpool Echo has called 'insane'. The complication is on the sell side: Liverpool no longer expect to raise the funds through a Gakpo sale, the Dutchman's move to Tottenham cooling as the club warms to keeping him. Personal terms to 2032 were agreed long ago and the player has wanted Anfield since June, so the obstacle is not desire but cash, and a Gunners bid that could force the pace either way. The road is open; the toll just went up.",
       positionFit: {
         replaces: "Salah (departed, free agent)",
         competesWith: ["Ndiaye (Everton, newer target)", "Rayan (Bournemouth, clause to 2027)", "Gakpo", "Ngumoha"],
@@ -1776,23 +1775,23 @@ export const TRANSFER_TARGETS = {
       id: "jones-out",
       name: "Curtis Jones",
       position: "MID",
-      destination: "Inter (terms agreed; player pushing, Italians yet to meet €40m ask)",
-      feeAsk: { min: 34, max: 40, currency: "£m" },
-      probability: 62,
+      destination: "Inter (terms agreed; Romano reports fresh bid near €35m; Jones out with a hip issue)",
+      feeAsk: { min: 30, max: 40, currency: "£m" },
+      probability: 64,
       heatTier: "warm",
-      sources: [{ name: "This Is Anfield", tier: "A" }, { name: "The Hard Tackle", tier: "B" }, { name: "CaughtOffside", tier: "B" }, { name: "Fabrizio Romano", tier: "S" }],
-      note: "Tue 18 Aug — now the player is pushing too. Curtis Jones, whose personal terms with Inter have been settled for months, is described as 'doing everything he can' to force the move before the deadline, intermediaries telling Italian outlets the deal is 'almost there'. The block stays the fee: Liverpool hold firm at €40m and Inter, needing to sell first, have yet to reach it. Jones kept training through the Como week, fit and available, but has made his wish plain. Into the final year of his deal and unlikely to extend, the only Scouser left in the first team edges toward a door he is now leaning on. Iraola wanted him to stay; the club will not gift him away.",
+      sources: [{ name: "OneFootball", tier: "B" }, { name: "Empire of the Kop", tier: "B" }, { name: "Liverpool.com", tier: "A" }, { name: "Fabrizio Romano", tier: "S" }],
+      note: "Wed 19 Aug — the move and a niggle in the same breath. Curtis Jones sat out both Como friendlies and the Monaco trip with a hip issue, an individual session at the AXA rather than a shirt, a precaution the club calls minor. On the deal, Fabrizio Romano reports Inter are readying a fresh bid, the ask said to have eased toward €35m against Liverpool's higher valuation. Personal terms with Inter have been settled for months. Into the final year of his contract, the only Scouser left in the first team is a fitness question and a transfer question at once. Iraola would keep him; the fee, and the hip, decide the fortnight.",
     },
     {
       id: "gakpo-out",
       name: "Cody Gakpo",
       position: "FWD",
-      destination: "Tottenham (terms agreed to 2031; £60m+ bid rejected, Liverpool hold ~£72m)",
+      destination: "Tottenham (interest cooling; Liverpool now expect to keep him)",
       feeAsk: { min: 70, max: 80, currency: "£m" },
-      probability: 70,
-      heatTier: "hot",
-      sources: [{ name: "TeamTalk", tier: "A" }, { name: "This Is Anfield", tier: "A" }, { name: "CaughtOffside", tier: "B" }, { name: "Liverpool.com", tier: "A" }],
-      note: "Tue 18 Aug — the forward asks to go. Cody Gakpo has told Liverpool he wants to join Tottenham and agreed personal terms in principle on a deal to 2031, his camp now speaking directly with the hierarchy to make the position plain. Spurs' opening bid, reported a little over £60m, was rejected on Monday, Liverpool holding nearer £72m and expecting an improved offer to follow. He scored against Como on Sunday and signed fresh Anfield terms only last year, but is said to see no long-term future under Iraola. Contracted to 2030, he is now the summer's likeliest big sale and the funding line the Barcola pursuit has been waiting on.",
+      probability: 32,
+      heatTier: "cool",
+      sources: [{ name: "Liverpool.com", tier: "A" }, { name: "ESPN", tier: "A" }, { name: "This Is Anfield", tier: "A" }],
+      note: "Wed 19 Aug — the summer's likeliest sale has cooled. Liverpool no longer expect Cody Gakpo to join Tottenham before the deadline, sources describing a hierarchy impressed by his pre-season under Iraola, in which he scored against Como. Spurs opened a little over £60m and were sent away, personal terms had been spoken of, but the tone at Anfield has shifted from selling to keeping. He signed fresh Anfield terms only last year. Once the funding line the Barcola pursuit leaned on, he is now more likely to start at Newcastle than to be sold before it, a reversal that leaves the marquee winger deal short of cash.",
     },
     {
       id: "macallister-out",
