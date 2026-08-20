@@ -477,12 +477,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday, and the summer's certainty has slipped. Liverpool no
-          longer expect to sell <em>Gakpo</em>, the sale that was to fund
-          <em>Barcola</em> cooling as <em>Arsenal</em> move to hijack the deal in
-          Paris. <em>Jones</em>, out with a hip, is the cleaner exit still. Four
-          days now to <em>Newcastle</em> away, and the window has turned from
-          selling to keeping.
+          Thursday, and the summer's cleanest exit is all but done. Romano's
+          <em>here we go</em> landed overnight: Inter have agreed a deal for
+          <em>Curtis Jones</em>, a medical the last step. The near-£30m sale
+          funds the <em>Barcola</em> pursuit as PSG soften, and <em>Gakpo</em>
+          stays to start. Three days now to <em>Newcastle</em> away.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,19 +512,18 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and the window has stopped spending its own and started guarding
-              it. <em>Cody Gakpo</em> is no longer expected to leave for
-              Tottenham, a hierarchy won over by his pre-season under Iraola, and
-              with it the funding line for <em>Barcola</em> has thinned just as
-              Arsenal move to hijack the deal, PSG holding near £130m the Echo
-              calls insane. <em>Curtis Jones</em>, out of both Como friendlies
-              with a hip issue, is the cleaner exit, Inter readying a fresh bid.
-              Underneath it the defence travels light, Gomez out, though Leoni's
-              September return is one light coming on. Four days to Newcastle,
-              where <em>Isak</em> goes back to a ground that has not forgiven
-              him. The summer's rule has flipped to its end: now nobody leaves
-              until the club decides to let them.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the sell side has its clean break at last. <em>Curtis Jones</em>
+              is going to Inter, Romano's <em>here we go</em> confirming a package
+              near £30m with only a medical between the Scouser and San Siro, the
+              move the club always expected finally made. That sale, not a Gakpo
+              exit the hierarchy no longer wants, is what funds the marquee
+              chase: PSG have started to weigh Liverpool's near-£98m offer for
+              <em>Barcola</em> rather than dismiss it. Underneath, the defence
+              travels light to Tyneside, Gomez out until Forest, Ekitike pictured
+              on a cane and months away. Three days to Newcastle, where
+              <em>Isak</em> walks back into a ground that has not forgiven him.
+              Sell the one you were always going to lose; hold on to the rest.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3259,7 +3257,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "August turned from selling to keeping."
+        "The last Scouser goes to Milan."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

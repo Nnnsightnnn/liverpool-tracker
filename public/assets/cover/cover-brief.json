@@ -1,9 +1,9 @@
 {
-  "leadStory": "Wednesday, and the summer's certainty has wobbled. Liverpool no longer expect Cody Gakpo to leave for Tottenham before the deadline, sources describing a hierarchy won over by his pre-season under Andoni Iraola, so the sale that was meant to bankroll the window is cooling toward a stay. That matters because the money it would have raised is chased elsewhere: PSG hold firm at a £130m for Bradley Barcola the Echo calls 'insane', and Arsenal have moved to hijack the deal. Curtis Jones, out of both Como friendlies with a hip issue, is the cleaner exit as Romano reports Inter readying a fresh bid near €35m. Newcastle away on Sunday, August 23, is the first thing that actually counts.",
-  "subject": "A window that has stopped selling: Liverpool now expect to keep Gakpo, cooling the Barcola funding as Arsenal circle, a transfer-negotiation story rather than a single hero moment already photographed",
-  "prompt": "Cinematic editorial photograph, exterior of a historic English football stadium at dusk four days before a new season, floodlights warming against a darkening sky, empty forecourt, a mood of restless anticipation, no on-image text, generous headroom at the top for a masthead headline",
+  "leadStory": "Thursday, and the summer's cleanest exit is all but sealed. Fabrizio Romano's 'here we go' landed on Wednesday night: Inter have agreed a deal to sign Curtis Jones for a package near €35m, the player's terms settled and a medical the last step before a Serie A move completes in the coming days. His departure frees a window that has stopped selling elsewhere, Gakpo now expected to stay, and it quickens the Barcola pursuit as PSG soften on their ask. Three days from Newcastle away on Sunday, August 23, the club lets go of the one player it was always likeliest to lose.",
+  "subject": "The last Scouser goes to Milan: Inter agree a ~€35m deal for Curtis Jones (Romano 'here we go', medical planned), an agreed departure rather than a single hero moment already photographed",
+  "prompt": "Cinematic editorial photograph, exterior of a historic English football stadium at dusk three days before a new season, floodlights warming against a darkening sky, empty forecourt, a mood of restless anticipation, no on-image text, generous headroom at the top for a masthead headline",
   "aspectRatio": "landscape",
-  "slug": "window-stops-selling",
-  "generatedAt": "2026-08-19T11:30:00Z",
-  "note": "Lead is the sell side reversing (Liverpool no longer expect to sell Gakpo to Spurs, cooling the funds for a Barcola deal PSG hold near £130m and Arsenal now move to hijack; Jones out with a hip issue), a transfer-negotiation story rather than a photographable hero still; no image queued this edition. Fallback to pure-type cover."
+  "slug": "jones-to-inter",
+  "generatedAt": "2026-08-20T10:30:00Z",
+  "note": "Lead is Curtis Jones' agreed Inter move (Romano 'here we go', ~€35m, medical planned), an agreed transfer with no unveiling photo yet rather than a photographable hero still; no image queued this edition. Fallback to pure-type cover."
 }
