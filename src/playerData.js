@@ -482,7 +482,7 @@ export const STANDINGS_COMMENTARY = {
   overview:
     "Two days from Newcastle, the table on screen is still last season's: 2025-26's final twenty rows, Arsenal champions on 85 and Liverpool fifth on 60, with ESPN's 2026-27 feed reset to zero until the campaign kicks off on August 23. The story this week sits in the ledger beneath the table, where the marquee move has quickened: PSG have cut their Barcola ask toward £110m, an agreement reported in the talks as Liverpool ready a fresh offer, funded by a Curtis Jones sale that is a medical and a signature from complete. Iraola takes his first Premier League press conference on Friday before defending the fifth place and Champions League return, its league-phase draw due August 27, that he inherits. What the frozen table gives way to on Sunday, with Gomez out and the back line thin and Isak walking back into a hostile St James', is the first thing that will actually count.",
   teams: {
-    "Liverpool": "Fifth on 60 and dark until August 23, the desk busy underneath: PSG have cut the Barcola ask toward £110m as Liverpool ready a fresh offer, funded by Curtis Jones' near-£30m switch to Inter, his medical done and a signature away. Gomez is out for the opener, so the defence travels to Tyneside light behind Van Dijk, Jacquet and Araujo, with Iraola's first league press conference on Friday.",
+    "Liverpool": "Fifth on 60 and dark until August 23, the desk busy underneath: PSG have cut the Barcola ask toward £110m as Liverpool ready a fresh offer, funded by Curtis Jones' near-£30m switch to Inter, his medical underway and a signature away. Gomez is out for the opener, so the defence travels to Tyneside light behind Van Dijk, Jacquet and Araujo, with Iraola's first league press conference on Friday.",
     "Arsenal": "Champions on 85, and among the sides tracking Everton's Iliman Ndiaye as the wide market moves late in the window.",
     "Manchester City": "Second on 78, planning for a possible Rodri exit, the club whose midweek Mac Allister shortlist was shut down at once by the Argentine's camp.",
     "Manchester United": "Third on 71, back in the Champions League, and a rival to Liverpool for Ndiaye this summer.",
@@ -1814,7 +1814,7 @@ export const TRANSFER_TARGETS = {
       id: "salah-out",
       name: "Mohamed Salah",
       position: "FWD",
-      destination: "Trabzonspor (unveiled Thursday, two-year deal to 2028)",
+      destination: "Trabzonspor (unveiled Aug 6, two-year deal to 2028)",
       feeAsk: { min: 0, max: 0, currency: "€" },
       probability: 100,
       heatTier: "done",

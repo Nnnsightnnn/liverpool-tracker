@@ -126,9 +126,9 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Liverpool FC", title: "Watch: Andoni Iraola takes his first Premier League press conference before Newcastle", time: "today", category: "official" },
   { source: "Liverpool.com", title: "PSG cut the Barcola ask toward £110m as Liverpool ready a fresh offer inside the final fortnight", time: "today", category: "major" },
   { source: "Football Italia", title: "Curtis Jones given permission to fly for Inter medical, €30m plus €5m and a 10% sell-on", time: "today", category: "major" },
+  { source: "Liverpool FC", title: "Watch: Andoni Iraola takes his first Premier League press conference before Newcastle", time: "today", category: "official" },
   { source: "Empire of the Kop", title: "Liverpool pull the plug on James McConnell's Preston loan as Iraola promises him minutes", time: "today", category: "fan" },
   { source: "This Is Anfield", title: "Rio Ngumoha set to sign a new five-year deal once he turns 18 on August 29", time: "1d ago", category: "fan" },
   { source: "RMC Sport", title: "Barcola and Mbaye left out of PSG's squad against Lens as their futures stay unresolved", time: "1d ago", category: "major" },
