@@ -1,9 +1,9 @@
 {
-  "leadStory": "Thursday, and the summer's cleanest exit is all but sealed. Fabrizio Romano's 'here we go' landed on Wednesday night: Inter have agreed a deal to sign Curtis Jones for a package near €35m, the player's terms settled and a medical the last step before a Serie A move completes in the coming days. His departure frees a window that has stopped selling elsewhere, Gakpo now expected to stay, and it quickens the Barcola pursuit as PSG soften on their ask. Three days from Newcastle away on Sunday, August 23, the club lets go of the one player it was always likeliest to lose.",
-  "subject": "The last Scouser goes to Milan: Inter agree a ~€35m deal for Curtis Jones (Romano 'here we go', medical planned), an agreed departure rather than a single hero moment already photographed",
-  "prompt": "Cinematic editorial photograph, exterior of a historic English football stadium at dusk three days before a new season, floodlights warming against a darkening sky, empty forecourt, a mood of restless anticipation, no on-image text, generous headroom at the top for a masthead headline",
+  "leadStory": "Friday, and the marquee move has found its final gear. PSG have cut their Bradley Barcola valuation toward £110m, an agreement reported in the talks as Liverpool ready a fresh offer, the winger left out of the Paris squad at Lens with his future unresolved. The exit that funds it is nearly done: Curtis Jones flew to Italy for his Inter medical and is expected to sign this weekend. Iraola takes his first Premier League press conference before Sunday's opener at Newcastle, where a thin, young side meets Isak's hostile return in red.",
+  "subject": "Barcola deal advances as PSG cut the ask toward £110m and Liverpool ready a fresh offer, funded by Jones' near-done Inter move; a negotiation and medical beat, not a single hero moment already photographed",
+  "prompt": "Cinematic editorial photograph, exterior of a historic English football stadium at dusk two days before a new season, floodlights warming against a darkening sky, empty forecourt, a mood of restless anticipation, no on-image text, generous headroom at the top for a masthead headline",
   "aspectRatio": "landscape",
-  "slug": "jones-to-inter",
-  "generatedAt": "2026-08-20T10:30:00Z",
-  "note": "Lead is Curtis Jones' agreed Inter move (Romano 'here we go', ~€35m, medical planned), an agreed transfer with no unveiling photo yet rather than a photographable hero still; no image queued this edition. Fallback to pure-type cover."
+  "slug": "barcola-endgame",
+  "generatedAt": "2026-08-21T09:45:00Z",
+  "note": "Lead is the advancing Barcola deal (PSG cut the ask toward £110m, agreement in talks, fresh offer readied) funded by Jones' near-done Inter medical; both are negotiation/medical beats with no unveiling photo yet, not a photographable hero still, so no image queued this edition. Fallback to pure-type cover."
 }
