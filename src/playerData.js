@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "injured", outSince: "2026-07-25", injuryNote: "Fri Aug 21 — two days out, and the back line is still one short. Gomez remains sidelined by the muscle injury from the opening minutes at Sunderland, ruled out of Sunday's trip to Newcastle with Iraola targeting the first home game against Nottingham Forest on August 29. With Leoni closing on a return from his ACL and Bradley months from knee surgery, the defence leans on Araujo's loan and a fit-again Jacquet alongside Van Dijk. The longest-serving defender is a cover loss to absorb rather than a sale to chase. Weeks, not months, and every day counts toward that Forest date", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "injured", outSince: "2026-07-25", injuryNote: "Sat Aug 22 — named a vice-captain this week, and watching the opener from the treatment room. Gomez remains sidelined by the muscle injury from the opening minutes at Sunderland, ruled out of Sunday's trip to Newcastle with Iraola targeting the first home game against Nottingham Forest on August 29. With Leoni closing on a return from his ACL and Bradley months from knee surgery, the defence leans on Araujo's competitive debut and a fit-again Jacquet alongside Van Dijk. The longest-serving defender is a cover loss to absorb rather than a sale to chase. Weeks, not months, and every day counts toward that Forest date", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -142,7 +142,6 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 16, name: "Curtis Jones", number: 17, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 25, appearances: 28, goals: 2, assists: 4, cleanSheets: null, xG: 1.8, tacklesPer90: 1.5, passCompletion: 86, progressiveCarries: 3.9, form: 6.9, status: "doubtful", injuryNote: "Fri Aug 21 — on a plane, not a team sheet. Liverpool gave Jones permission to fly and he travelled to Italy on Thursday for his Inter medical, the fee a package near €35m structured as €30m plus €5m in add-ons with a ten-percent sell-on kept back. He is expected to pass, sign and be an Inter player by the weekend, and plays no part in the Newcastle plan. He was pictured in training earlier in the week before flying out, the minor hip issue that kept him from the Como friendlies no obstacle. The only Scouser left in the first team is a signature from San Siro", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p206915.png",
     physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
     career: [
       { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -366,25 +365,24 @@ export const COVER_IMAGE = {
   alt: "Pure-type edition cover.",
   focus: null,
   credit: null,
-  generatedAt: "2026-08-21T09:45:00Z",
+  generatedAt: "2026-08-22T09:30:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
-  // Today's lead is a transfer-negotiation beat: PSG have cut their Barcola ask toward £110m with
-  // an agreement reported in the talks as Liverpool ready a fresh offer, funded by a Curtis Jones
-  // sale that is a medical and a signature from complete. Both are negotiation/medical beats with
-  // no unveiling photo yet, not a single photographable hero moment that has already happened, so
-  // per the pipeline's "only queue a genuinely visual moment" rule no cover image was queued and
-  // the render falls back to pure-type.
+  // Today's lead is a confirmed departure (Curtis Jones to Inter) on the eve of the opener, with the
+  // Barcola pursuit sharpening (£115m offered, PSG down to £125m) still unconfirmed. A player leaving
+  // FOR a rival is not a Liverpool cover-hero moment, and the season opener has not been played, so per
+  // the pipeline's "only queue a genuinely visual moment" rule no cover image was queued this edition
+  // and the render falls back to pure-type.
   brief: {
     leadStory:
-      "Friday, and the marquee move has found its final gear. PSG have cut their Bradley Barcola valuation toward £110m, an agreement reported in the talks as Liverpool ready a fresh offer, the winger left out of the Paris squad at Lens with his future unresolved. The exit that funds it is nearly done: Curtis Jones flew to Italy for his Inter medical and is expected to sign this weekend. Iraola takes his first Premier League press conference before Sunday's opener at Newcastle, where a thin, young side meets Isak's hostile return in red.",
+      "Saturday, matchday eve, and the summer's cleanest exit is done: Inter Milan have confirmed Curtis Jones for €35m, the last Scouser gone to San Siro, the money now aimed at a Barcola deal Liverpool have backed with a £115m offer as PSG cut their ask toward £125m. Iraola has set his leadership group, Van Dijk captain with Alisson, Gomez and Szoboszlai as vice-captains, before Sunday's opener at Newcastle, where a thin, young side meets Isak's hostile return in red.",
     subject:
-      "Barcola deal advances as PSG cut the ask toward £110m and Liverpool ready a fresh offer, funded by Jones' near-done Inter move; a negotiation and medical beat, not a single hero moment already photographed",
+      "Curtis Jones sale to Inter confirmed and the Barcola pursuit sharpening on the eve of the opener; a departure and a still-unconfirmed negotiation, not a single Liverpool hero moment already photographed",
     prompt:
-      "Cinematic editorial photograph, exterior of a historic English football stadium at dusk two days before a new season, floodlights warming against a darkening sky, empty forecourt, a mood of restless anticipation, no on-image text, generous headroom at the top for a masthead headline",
+      "Cinematic editorial photograph, exterior of a historic English football stadium at dusk on the eve of a new season, floodlights warming against a darkening sky, empty forecourt, a mood of restless anticipation, no on-image text, generous headroom at the top for a masthead headline",
     aspectRatio: "landscape",
-    slug: "barcola-endgame",
-    generatedAt: "2026-08-21T09:45:00Z",
-    note: "Lead is the advancing Barcola deal (PSG cut the ask toward £110m, agreement in talks, fresh offer readied) funded by Jones' near-done Inter medical; both are negotiation/medical beats with no unveiling photo yet, not a photographable hero still, so no image queued this edition. Fallback to pure-type cover.",
+    slug: "opener-eve",
+    generatedAt: "2026-08-22T09:30:00Z",
+    note: "Lead is the confirmed Curtis Jones sale to Inter (€35m) plus the sharpening but unconfirmed Barcola pursuit (£115m offered, PSG down to £125m), on the eve of the opener. A departure to a rival is no cover-hero still and the opener is unplayed, so no image queued this edition. Fallback to pure-type cover.",
   },
 };
 
@@ -442,9 +440,11 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-07-21 — FINAL 2025-26 table retained (season complete, MW38). ESPN's endpoint now
-// returns the empty 2026-27 table (0 games played) in the deep off-season, so the meaningful final
-// standings are kept frozen until the new campaign provides live data in August.
+// Last refresh: 2026-08-22 — FINAL 2025-26 table retained (season complete, MW38). ESPN's live
+// 2026-27 feed has begun (MW1 underway) but returns promoted sides outside this squad's universe
+// (Hull, Ipswich, Coventry) with no crests and every fixture bar Arsenal's still at 0, so the
+// coherent final table is kept frozen for this edition until the new campaign produces a
+// universe-consistent, populated table. Do not paste the raw ESPN 2026-27 rows over this.
 export const STANDINGS = [
   { pos: 1, team: "Arsenal", p: 38, w: 26, d: 7, l: 5, gd: 44, pts: 85, qualification: "UCL" },
   { pos: 2, team: "Manchester City", p: 38, w: 23, d: 9, l: 6, gd: 42, pts: 78, qualification: "UCL" },
@@ -478,20 +478,20 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-08-21T09:45:00Z",
+  generatedAt: "2026-08-22T09:30:00Z",
   overview:
-    "Two days from Newcastle, the table on screen is still last season's: 2025-26's final twenty rows, Arsenal champions on 85 and Liverpool fifth on 60, with ESPN's 2026-27 feed reset to zero until the campaign kicks off on August 23. The story this week sits in the ledger beneath the table, where the marquee move has quickened: PSG have cut their Barcola ask toward £110m, an agreement reported in the talks as Liverpool ready a fresh offer, funded by a Curtis Jones sale that is a medical and a signature from complete. Iraola takes his first Premier League press conference on Friday before defending the fifth place and Champions League return, its league-phase draw due August 27, that he inherits. What the frozen table gives way to on Sunday, with Gomez out and the back line thin and Isak walking back into a hostile St James', is the first thing that will actually count.",
+    "Matchday eve, and the table on screen is still last season's: 2025-26's final twenty rows, Arsenal champions on 85 and Liverpool fifth on 60, held for one more edition while ESPN's live 2026-27 feed opens with promoted sides outside this squad's world and nearly every fixture still at zero. The story sits in the ledger beneath the table: Curtis Jones is an Inter player now, a €35m sale confirmed, the money aimed at a Barcola deal Liverpool have backed with an offer near £115m as PSG cut their ask toward £125m. Iraola has set his leadership group, Van Dijk captain with Alisson, Gomez and Szoboszlai his three vice-captains, and named the wing as the squad's one clear hole before Sunday. What the frozen table gives way to at Newcastle, Gomez injured and Araujo debuting and Isak walking back into a hostile St James', is the first thing that will actually count.",
   teams: {
-    "Liverpool": "Fifth on 60 and dark until August 23, the desk busy underneath: PSG have cut the Barcola ask toward £110m as Liverpool ready a fresh offer, funded by Curtis Jones' near-£30m switch to Inter, his medical underway and a signature away. Gomez is out for the opener, so the defence travels to Tyneside light behind Van Dijk, Jacquet and Araujo, with Iraola's first league press conference on Friday.",
+    "Liverpool": "Fifth on 60 and dark until Sunday's opener, the desk busy underneath: Curtis Jones is sold to Inter for a confirmed €35m, the money aimed at Barcola, for whom Liverpool have offered near £115m as PSG drop to £125m. Van Dijk is captain with Alisson, Gomez and Szoboszlai named vice-captains; Gomez is then out injured for the opener, so Araujo debuts and Jacquet is tipped for a Premier League bow beside Van Dijk at Newcastle.",
     "Arsenal": "Champions on 85, and among the sides tracking Everton's Iliman Ndiaye as the wide market moves late in the window.",
     "Manchester City": "Second on 78, planning for a possible Rodri exit, the club whose midweek Mac Allister shortlist was shut down at once by the Argentine's camp.",
     "Manchester United": "Third on 71, back in the Champions League, and a rival to Liverpool for Ndiaye this summer.",
     "Aston Villa": "Fourth on 65, beat Liverpool 4-2 at Villa Park in May, and signed Joao Gomes after Liverpool declined him for a midfielder.",
-    "Bournemouth": "Sixth on 57, the club Iraola left for Anfield in June, holder of Rayan's £86m clause (dormant to 2027), the last wide fallback left on Liverpool's board.",
+    "Bournemouth": "Sixth on 57, the club Iraola left for Anfield in June, holder of Rayan's £130m clause (dormant to 2027), the long-shot wide fallback left on Liverpool's board.",
     "Brighton": "Eighth on 53, and the source of a summer-long blow: winger target Yankuba Minteh is out up to three months with a leg injury, ending any move to Anfield.",
     "Sunderland": "Seventh on 54 in their first season back up, beaten 4-2 by Iraola's Liverpool in Nashville, where Joe Gomez limped off inside minutes, and now among the clubs linked with Harvey Elliott.",
     "Leeds": "Fourteenth on 47, the side that stunned Liverpool 4-2 in the Chicago tour finale, and another name in the Harvey Elliott conversation this summer.",
-    "Newcastle": "Twelfth on 49, hosts of the August 23 opener, now without Joelinton (ruled out) and sweating on Livramento and Schar, with Alexander Isak set for a hostile return in Liverpool red and both clubs expected to remember Kevin Keegan beforehand.",
+    "Newcastle": "Twelfth on 49, hosts of Sunday's 4:30 opener, without Joelinton and sweating on Schar and Livramento, bracing for Alexander Isak's hostile return in Liverpool red a year on from the record exit he forced, both clubs set to remember Kevin Keegan first.",
     "Everton": "Thirteenth on 49, and holding out for around £75m for Iliman Ndiaye, the winger Liverpool are said to hold interest in despite the rarity of any cross-Stanley-Park deal.",
     "Chelsea": "Tenth on 52, and closing on former Liverpool captain Jordan Henderson from Brentford on a free.",
     "Crystal Palace": "Fifteenth on 45, Conference League holders, and holding near £100m for Adam Wharton, reported willing to wait for Liverpool despite City having floated his name.",
@@ -504,135 +504,135 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Paris Names Its Price, And It Is A Price Liverpool Can Pay.",
-    byline: "Liverpool.com / Liverpool FC",
-    dateline: "Paris · 21 August",
+    headline: "Signed, Sealed, And The Room Loses Its Last Scouser.",
+    byline: "ESPN / Sky Sports",
+    dateline: "Milan · 21 August",
     category: "Transfers",
     body:
-      "The number that stalled the whole summer moved on Friday. PSG, who held Bradley Barcola as high as a hundred and forty-five million, have cut their ask toward a hundred and ten, the club channel calling it an agreement reached in the talks as Liverpool ready a fresh offer inside the window's last fortnight. The tell was a team sheet: Barcola was left out of the Paris squad at Lens, his future too unresolved to name him. Personal terms to 2032 were done in June, the will has never been in doubt, and with the Jones money banked the funds are there. Nothing is signed, and Arsenal still watch from the edge. But for the first time, the marquee signing looks like a plan and not a wish.",
+      "It is done now, not almost done. Inter Milan confirmed Curtis Jones on a five-year deal, a package around thirty-five million euros structured as thirty up front and five in add-ons, a tenth of any future sale kept back on Merseyside. He is the third England international to join Inter this window, after John Stones and Djed Spence, and the last Scouser in Liverpool's first team, two trophies and a hundred and sixty-odd starts of it. Liverpool wanted forty and took less rather than lose a homegrown boy for nothing next June. Some exits break a dressing room. This one, on the eve of the opener, only funds the one Liverpool most want to make.",
   },
   {
     n: "02",
-    headline: "A Passport, A Medical, And The Last Scouser Gone.",
-    byline: "Football Italia / This Is Anfield",
-    dateline: "Milan · 20 August",
+    headline: "The Numbers Finally Meet In The Middle.",
+    byline: "Football365 / Sky Sports",
+    dateline: "Paris · 22 August",
     category: "Transfers",
     body:
-      "He was in training on Wednesday and on a plane by Thursday. Liverpool gave Curtis Jones permission to fly and he travelled to Italy for his Inter medical, a package near thirty-five million euros structured as thirty plus five in add-ons, a tenth of any future sale kept back on Merseyside. He is expected to pass, sign, and be an Inter player by the weekend. Liverpool wanted forty and took less rather than lose a homegrown boy for nothing next June. The last Scouser in the first team, two trophies and a hundred and sixty starts of it, leaves quietly and usefully, the cash pointing straight at Paris. Some exits break a dressing room. This one only funds it.",
+      "For a month the two clubs shouted past each other. This weekend they are close enough to whisper. Liverpool have put an offer worth around a hundred and fifteen million in front of PSG for Bradley Barcola, and Paris, who held out as high as a hundred and forty-five, have cut their ask toward a hundred and twenty-five and are said to be willing to listen, the gap now small enough to bridge with add-ons. Personal terms to 2032 were done in June; the will has never been in doubt. The Jones money is banked, Sky still caution the deal is difficult, and Arsenal lurk for a late hijack. But the marquee signing, at last, reads like arithmetic rather than a wish. Ligue 1 shuts on the thirty-first.",
   },
   {
     n: "03",
-    headline: "The First Real Press Conference, And The Questions Get Sharper.",
+    headline: "A Captain Kept, Three Deputies Named, A Week That Smells Different.",
     byline: "Liverpool FC",
     dateline: "AXA Centre · 21 August",
     category: "Manager",
     body:
-      "Pre-season lets a manager talk about promise. Friday made him talk about points. Andoni Iraola took his first competitive pre-match press conference as Liverpool head coach, two days from a season opener at Newcastle, with a squad he has called thin but sortable and a clutch of fitness calls still open. He spoke of recovering bodies after Como and of academy graduates who caught his eye in the summer, Rio Ngumoha and Trey Nyoni among the names he means to lean on. There was no theatre in it, there never is; the same measured, specific voice that carried Bournemouth, now pointed at a bigger room. The talking is nearly over. Sunday, the answering starts.",
+      "Pre-season lets a manager talk about promise. Friday made him set his house in order. Andoni Iraola took his first competitive press conference and said the build-up 'smells different' to the friendlies, an atmosphere he can feel in the training ground. He kept Virgil van Dijk as captain and named three vice-captains, Alisson and Joe Gomez for the dressing room, Dominik Szoboszlai as the on-pitch heir. He would not name his eleven, insisting the players do not know it yet, but he named his one weakness plainly: 'especially now on the wing, we don't have enough players.' The same measured voice that carried Bournemouth, pointed at a far bigger room, and honest about what it still lacks.",
   },
   {
     n: "04",
-    headline: "The Loan That Was Killed To Keep A Kid Home.",
-    byline: "Empire of the Kop / Rushthekop",
-    dateline: "Deepdale · 20 August",
-    category: "Football News",
+    headline: "A Debut, A Bow, And A Back Line Held With Loan And Nerve.",
+    byline: "This Is Anfield / Sports Mole",
+    dateline: "Tyneside · 22 August",
+    category: "Tactics",
     body:
-      "Preston thought they had him. They did not. Liverpool pulled the plug on James McConnell's loan to Deepdale even as the Championship side believed the deal agreed, Iraola telling the twenty-one-year-old he is part of the first-team plan after a pre-season that changed the manager's mind. Swansea and Leicester had circled too, all offering the one thing a young midfielder craves, minutes. Instead he stays, and the reason is the same thin squad that keeps making the news: there is room now, at Anfield, for a boy who a fortnight ago was packing for the second tier. Development used to mean leaving. This season, under this manager, it might mean staying put.",
+      "Iraola will start his Liverpool life with a defence assembled out of what is left. Ronald Araujo, in on loan from Barcelona, is set for his competitive debut, and Jeremy Jacquet, the summer's quiet arrival, is tipped to make his Premier League bow beside Van Dijk, the two of them the only senior centre-backs standing with Gomez hurt and Leoni still months away. Alisson goes behind a spine of Frimpong, the captain, and Kerkez, the last centre-back slot the only open call. It is a rearguard of a debutant, a loanee and a talisman, sent to the loudest ground of the weekend to keep Alexander Isak quiet. Cover, not a crisis. But only just.",
   },
   {
     n: "05",
-    headline: "The Ground That Kept The Receipt.",
-    byline: "Sky Sports / Sports Mole",
-    dateline: "Tyneside · 20 August",
+    headline: "He Wanted The Stage. Sunday Hands Him The Bill.",
+    byline: "Sky Sports",
+    dateline: "Tyneside · 21 August",
     category: "Football News",
     body:
-      "There are returns, and then there is walking back into a grievance you caused. Alexander Isak goes to St James' Park on Sunday in Liverpool red, a year after he downed tools to force a record move, and the crowd that once sang his name has not misplaced the memory. Both clubs will pause to remember Kevin Keegan before the noise begins. The predicted teams put him at the point of the attack, exactly where the anger will be loudest, and with Salah gone and Ekitike on a cane there is nowhere in Iraola's front line to hide. Newcastle, without Joelinton and sweating on Schar, arrive wounded too. He wanted this stage. It has waited all summer to hand him the bill.",
+      "There are homecomings, and then there is walking back into a grievance you authored. Alexander Isak returns to St James' Park in Liverpool red, a year on from the British-record move he forced by downing tools, and the ground that once sang his name has kept every word of it. Both clubs will pause to remember Kevin Keegan before the noise starts. Iraola, asked, expects his striker to be 'very, very motivated,' as anyone would be on an opening day; the predicted teams put Isak at the point of the attack, exactly where the anger is loudest, with Salah gone and Ekitike on a cane and nowhere to hide. Newcastle arrive wounded too, without Joelinton, sweating on Schar. The season opens, and it opens on a reckoning.",
   },
 ];
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-08-21T09:45:00Z",
+  generatedAt: "2026-08-22T09:30:00Z",
   summary:
-    "Friday, and the marquee pursuit has found its final gear. PSG have cut their Bradley Barcola valuation from the £145m that stalled all month toward a figure nearer £110m, Liverpool.com and the club channel reporting an agreement in the talks and a fresh Anfield offer being readied inside the last fortnight, with Barcola left out of the Paris squad at Lens until his future is resolved. The exit that funds it is nearly over the line too: Curtis Jones flew to Italy on Thursday for his Inter medical, a €30m package plus €5m in add-ons and a ten-percent sell-on, and is expected to sign this weekend. Andoni Iraola takes his first Premier League press conference this afternoon before Sunday's opener at Newcastle, where a light, young squad, Gomez out until Forest and the back line leaning on Araujo, meets Alexander Isak's hostile return in red. Two days out, the season starts with a signing being chased and a Scouser waved off.",
+    "Saturday, and the summer's cleanest exit is finally formal. Inter Milan have confirmed the signing of Curtis Jones, a €35m package (€30m plus €5m in add-ons) with a ten-percent sell-on retained, the last Scouser in the first team gone to San Siro on a five-year deal and the third England international to join Inter this window after John Stones and Djed Spence. The cash points straight at Paris, where the marquee chase edges on: Liverpool have put around £115m in front of PSG for Bradley Barcola and Paris, who have cut their ask to nearer £125m, are said to be willing to listen, personal terms long since settled to 2032. Andoni Iraola, who says the week 'smells different,' names his first competitive team at Newcastle on Sunday with Van Dijk his captain and Alisson, Joe Gomez and Dominik Szoboszlai confirmed as his three vice-captains. Twenty-four hours out, with Gomez injured and the back line leaning on Araujo's debut, Alexander Isak walks back into a hostile St James' in red.",
   keyTopics: [
     {
-      title: "PSG Cut The Barcola Ask Toward £110m As Liverpool Ready A Fresh Offer (Liverpool.com / Liverpool FC, today)",
+      title: "Curtis Jones Completes His Inter Move: The Last Scouser Gone For €35m (ESPN / Sky Sports, today)",
       detail:
-        "The number that would not move has finally bent. Reporting on Friday has PSG lowering their Bradley Barcola valuation from as high as £145m toward a figure nearer £110m, the club channel framing it as an agreement reached in the talks, with Liverpool preparing a fresh offer inside the window's final fortnight. Barcola, 23, was left out of the Paris squad at Lens with his future unresolved and settled personal terms to 2032 in June, so the argument was only ever the fee. Ligue 1 shuts on August 31, and for the first time the marquee signing reads more like a plan than a hope. Nothing is signed, and Arsenal are still watching.",
+        "The summer's most expected exit is now formal. Inter Milan confirmed the signing of Curtis Jones on a five-year deal, a package worth around €35m structured as €30m up front plus €5m in add-ons, with a ten-percent sell-on retained on Merseyside. The 25-year-old, the last Scouser in the first team and a two-trophy, 160-plus-appearance homegrown asset, becomes the third England international to join Inter this window after John Stones and Djed Spence. Liverpool pushed toward €40m and took Inter's mark rather than run him into the final year of his deal, and the fee points straight at the Barcola pursuit. Confirmed on Friday; the goodbye lands on the eve of the opener.",
       category: "transfers",
     },
     {
-      title: "Jones Flies For His Inter Medical, Signing Expected This Weekend (Football Italia / This Is Anfield, today)",
+      title: "Liverpool Put £115m To PSG For Barcola As Paris Drop To £125m (Football365 / Sky Sports, today)",
       detail:
-        "The summer's cleanest exit is a day or two from formal. Football Italia report Liverpool gave Curtis Jones permission to travel and the midfielder flew to Italy on Thursday for his Inter medical, the fee a package near €35m, structured as €30m plus €5m in add-ons with a ten-percent sell-on retained. The 25-year-old, the last Scouser in the first team, was pictured in training this week before flying out and is expected to complete the Serie A move and sign over the weekend. Liverpool had pushed toward €40m and settled near Inter's mark rather than lose a homegrown asset for nothing next summer.",
+        "With the Jones money banked, the marquee move sharpens. Reporting on Friday and into Saturday has Liverpool tabling an offer worth around £115m for Bradley Barcola while PSG, who held out as high as £145m all month, have cut their ask toward £125m and are said to be willing to listen, the gap now bridgeable through add-ons. Personal terms to 2032 were agreed in June and the France winger wants Anfield, so the fee is the only argument left. Sky still frame the deal as difficult to complete before Ligue 1 shuts on August 31, and Arsenal are watching for a late hijack, but for the first time both clubs are talking the same numbers.",
       category: "transfers",
     },
     {
-      title: "Iraola Faces The Cameras For His First Premier League Press Conference (Liverpool FC, today)",
+      title: "Iraola Names His First Team As A Week That 'Smells Different' Arrives (Liverpool FC, today)",
       detail:
-        "The pre-season is over and the questions get sharper. Andoni Iraola holds his first competitive pre-match press conference as Liverpool head coach on Friday, two days before his opening league game at Newcastle, with a squad he has called thin but sortable and a set of fitness calls still to make. He has spoken of recovering bodies after the Como win and of academy graduates who impressed him in pre-season, with Rio Ngumoha and Trey Nyoni among those he expects to lean on. The tone is the same one that carried Bournemouth: measured, specific, unbothered by the noise around the window.",
+        "The pre-season talk is over. Andoni Iraola took his first competitive press conference before Sunday's opener and said the build-up 'smells different' to the friendlies, excited by an atmosphere he can feel in training. He declined to name the eleven, insisted 'the players don't know it' yet, and admitted the squad is short in one area above all: 'especially now on the wing, we don't have enough players specific to play in those positions,' the plainest public case yet for the Barcola chase. Measured, specific, unbothered, the same register that carried Bournemouth, now pointed at a far bigger room.",
       category: "tactics",
     },
     {
-      title: "Liverpool Pull The Plug On McConnell's Preston Loan And Promise Him Minutes (Empire of the Kop, today)",
+      title: "Van Dijk Keeps The Armband As Iraola Names Alisson, Gomez And Szoboszlai Vice-Captains (Liverpool FC, today)",
       detail:
-        "A loan that looked done has been quietly killed. Empire of the Kop and others report Liverpool have pulled James McConnell out of a Preston move that Deepdale believed was agreed, with Iraola telling the 21-year-old he is part of his first-team plans after impressing in training. Preston, Swansea and Leicester had all been in the conversation and had been promised regular game time; instead the midfielder stays, a marker of how thin the senior squad has run and how far Iraola intends to trust youth this season. Development by minutes at Anfield, not by exit.",
+        "The new manager set his leadership group before a ball is kicked. Iraola confirmed Virgil van Dijk stays captain and named three vice-captains for 2026-27: Alisson and Joe Gomez, whose roles lean on the dressing room and training ground after eight and eleven years of service, and Dominik Szoboszlai, cast as heir apparent after signing a new five-year deal in July. Iraola noted the rules that disadvantage a goalkeeper wearing the armband in-game, which is why Szoboszlai reads as the on-pitch deputy. A quiet, deliberate act of continuity from a coach still learning the room.",
       category: "general",
     },
     {
-      title: "Ngumoha Set For A New Five-Year Deal Once He Turns 18 On August 29 (This Is Anfield, 1d ago)",
+      title: "Araujo Set For His Competitive Debut As Jacquet Pushes For A First PL Start (This Is Anfield, today)",
       detail:
-        "The club is moving to tie down its brightest teenager. This Is Anfield report Rio Ngumoha is set to sign a new five-year contract with a significant pay rise once he turns 18 on August 29, the delay only a rule that caps under-18s at three-year terms. He made 29 appearances last season, nine of them starts, and scored against Newcastle and Fulham, and now reads as a first-team regular rather than a prospect. With McConnell kept and Nyoni in the picture, the academy is not a feeder this season so much as a source.",
-      category: "general",
-    },
-    {
-      title: "Mbaye's Double-Raid Thread Stays Open As PSG Freeze Both Wingers Out (RMC Sport / Sky Sports, 1d ago)",
-      detail:
-        "The Barcola chase has a younger shadow attached. RMC Sport report Liverpool have agreed personal terms in principle with Ibrahim Mbaye, the 18-year-old PSG winger valued between €40m and €50m, as the double raid on Paris keeps running in the background. Both Barcola and Mbaye were left out of the PSG squad at Lens with their futures unresolved. The reporting on Merseyside has cooled on Mbaye as everything is poured into the marquee move, Dortmund and Leverkusen still circling, but the file is not shut while the pair sit and wait.",
-      category: "transfers",
+        "The thin back line takes shape for Tyneside. With Gomez injured and Giovanni Leoni still a long-term absentee, Ronald Araujo is in line to make his competitive Liverpool debut at Newcastle and summer arrival Jeremy Jacquet is tipped to make his own Premier League bow, the pair the only senior centre-back options beside Van Dijk. Predicted teams have Alisson behind a Frimpong, Van Dijk, Kerkez spine with the second centre-back slot the last open call. Reported on Saturday, it is a defence assembled from loan cover and a debutant, and Isak the man it must contain first.",
+      category: "matches",
     },
     {
       title: "Isak Walks Back Into St James' In Red, A Year On From The Record Exit (Sky Sports, 1d ago)",
       detail:
-        "The fixture carries its own charge before a ball moves. Alexander Isak returns to Newcastle in Liverpool red on Sunday, a year after a British-record move he forced by downing tools, and the reception will be pointed. Both clubs will pause to remember Kevin Keegan first. An injury-wrecked debut year has left his valuation short of the fee paid, and with Salah gone and Ekitike sidelined there is no room for him to hide in Iraola's attack. Predicted teams have him leading the line at the very ground that once sang his name. He wanted this stage; on Sunday it asks him for an answer.",
+        "The fixture carries its charge before a ball moves. Alexander Isak returns to Newcastle in Liverpool red on Sunday, a year on from the British-record move he forced by downing tools, and the reception will be pointed; both clubs will pause to remember Kevin Keegan first. Iraola, asked about it, expects his striker to be 'very, very motivated,' as everyone is on an opening day. An injury-wrecked debut year has left Isak's valuation short of the fee paid, and with Salah gone and Ekitike sidelined there is nowhere in the attack for him to hide. He wanted this stage; Sunday asks him for an answer.",
       category: "matches",
     },
     {
-      title: "Newcastle Sweat On Schar And Livramento With Joelinton Already Out (This Is Anfield, 1d ago)",
+      title: "Newcastle Sweat On Schar And Livramento With Joelinton Ruled Out (Sports Mole, 1d ago)",
       detail:
-        "The hosts arrive with a fitness list of their own. Newcastle will be without Joelinton for Sunday's opener and are sweating on Fabian Schar and Valentino Livramento, thinning Eddie Howe's options even as Bruno Guimaraes and Anthony Gordon remain. For a young, stretched Liverpool it reads as a chance against a side still rebuilding after Isak's departure, though St James' promises the loudest and least forgiving welcome of the opening weekend. Two wounded squads, one very loud afternoon.",
+        "The hosts arrive with a fitness list of their own. Newcastle will be without Joelinton for the opener and are sweating on Fabian Schar and Valentino Livramento, thinning Eddie Howe's options even as Bruno Guimaraes and Anthony Gordon remain. For a young, stretched Liverpool it reads as a chance against a side still rebuilding after Isak's departure, though St James' promises the loudest and least forgiving welcome of the opening weekend. Two wounded squads, one very loud afternoon.",
       category: "matches",
     },
     {
-      title: "Gomez Out At Tyneside And Aiming For Forest As The Defence Travels Light (Liverpool.com, 2d ago)",
+      title: "Gomez Misses Tyneside And Aims For The Forest Home Opener (Liverpool.com, 2d ago)",
       detail:
-        "The defensive picture stays thin but has a date to aim at. Joe Gomez misses Sunday's opener with the muscle injury taken inside minutes at Sunderland and is racing to be fit for the first home game against Nottingham Forest on August 29, Iraola having ruled him out of Tyneside. With Giovanni Leoni closing on a return from his ACL and Conor Bradley still months from knee surgery, the back line leans on Araujo's loan and a fit-again Jacquet alongside Van Dijk. Cover, not a crisis, but only just.",
+        "One of the new vice-captains starts the season on the sideline. Joe Gomez misses Sunday's opener with the muscle injury taken inside minutes at Sunderland and is racing to be fit for the first home game against Nottingham Forest on August 29. With Leoni closing on a return from his ACL and Conor Bradley still short after knee surgery, the back line leans on Araujo's loan and a fit-again Jacquet alongside Van Dijk. Cover, not a crisis, but only just, and it thins the department the whole window has failed to reinforce.",
       category: "injuries",
     },
     {
-      title: "Ekitike On A Cane As The Longest Road Back Runs To Christmas (Liverpool.com, 3d ago)",
+      title: "Mbaye Thread Stays Open As Liverpool Weigh A Double Raid On Paris (Football365, 2d ago)",
       detail:
-        "The striker Liverpool most miss remains the furthest away. Hugo Ekitike, who ruptured his Achilles against PSG in April, has been pictured leaning on a cane to walk, a stark marker of how long the recovery still runs, with reporting pointing to a comeback around the festive period and the Boxing Day fixture the notional target. His 18 goals last season are the hole Isak and a thin front line must cover until then, and the timeline has not moved forward. Patience, in a season that will test it early.",
-      category: "injuries",
+        "The Barcola chase keeps a younger shadow attached. Liverpool have agreed personal terms in principle with Ibrahim Mbaye, the 18-year-old PSG winger valued between €40m and €50m, as talks over a possible double raid on Paris tick along in the background. Merseyside has cooled on the second deal while everything is poured into the marquee move, with Dortmund and Leverkusen still circling the teenager. If Barcola completes, this either follows as a genuine double or fades to the Bundesliga; for now it sits and waits on the bigger number resolving.",
+      category: "transfers",
     },
     {
-      title: "Champions League League-Phase Draw Falls On August 27 (UEFA / Liverpool FC, today)",
+      title: "Endo Edges Toward An Exit As The Midfield Trims After Jones (Football Insider, 2d ago)",
       detail:
-        "The European calendar arrives four days into the season. Liverpool enter the 2026-27 Champions League league phase as the fifth-placed English seed, with the draw set for August 27 in Monaco to map the eight-game group stage. It is the platform Iraola inherits and the reward for last season's fifth-place finish under the old regime, a return to the competition that will shape a demanding autumn. The opponents land next week; first, the small matter of Newcastle away.",
+        "One departure done, another warming. With Jones gone to Inter, Wataru Endo is the next name the desk is working, Liverpool having made clubs aware the 33-year-old is available and willing to accept an offer, with Wolves, Fulham and West Ham the long-standing admirers as the window's final fortnight opens. He featured in the Monaco friendly so is fit, but behind the first-choice midfield and retired from Japan duty, his is a modest fee and a meaningful wage to clear toward the rebuild. The Besiktas thread from earlier in the summer has gone quiet.",
+      category: "transfers",
+    },
+    {
+      title: "Champions League League-Phase Draw Falls On August 27 (UEFA, today)",
+      detail:
+        "The European calendar arrives four days into the season. Liverpool enter the 2026-27 Champions League league phase as the fifth-placed English seed, with the draw set for August 27 in Monaco to map the eight-game group stage. It is the platform Iraola inherits and the reward for last season's fifth-place finish under the old regime, a return that will shape a demanding autumn. The opponents land next week; first, the small matter of Newcastle away.",
       category: "general",
     },
   ],
   sources: [
     "Liverpool FC",
     "Liverpool.com",
-    "Football Italia",
-    "This Is Anfield",
-    "Empire of the Kop",
-    "RMC Sport",
+    "ESPN",
     "Sky Sports",
+    "This Is Anfield",
+    "Football Italia",
+    "Football365",
+    "Goal",
+    "Football Insider",
     "Sports Mole",
     "Fabrizio Romano",
-    "FotMob",
-    "Football365",
     "UEFA",
   ],
 };
@@ -641,9 +641,9 @@ export const NEWS_DIGEST = {
 // heatTier: "hot" (≥65%) | "warm" (40-64%) | "cool" (<40%) | "done" | "dead"
 // sources[].tier: "S" (Romano-class) | "A" (major outlet) | "B" (beat) | "C" (aggregator)
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-08-21T09:45:00Z",
+  generatedAt: "2026-08-22T09:30:00Z",
   summary:
-    "Friday, and the marquee move has quickened toward its endgame. PSG have cut their Bradley Barcola valuation from the £145m that stalled all month toward a figure nearer £110m, the club channel framing an agreement in the talks as Liverpool ready a fresh offer inside the final fortnight, the winger left out of the Paris squad at Lens with his future unresolved. The exit that funds it is nearly done: Curtis Jones flew to Italy on Thursday for his Inter medical, a €30m package plus €5m in add-ons and a ten-percent sell-on, and is expected to sign this weekend. Behind Barcola the double-raid thread stays open, personal terms agreed in principle with 18-year-old Ibrahim Mbaye though Merseyside has cooled on him, while the wide board keeps Rayan's clause dormant to 2027 and Everton's Iliman Ndiaye as a pricey £75m alternative, and Harvey Elliott and Wataru Endo edge toward exits. Above it all the farewell is long since inked: Mohamed Salah is a Trabzonspor player.",
+    "Saturday, and the exit that funds the summer is done. Inter Milan have confirmed the signing of Curtis Jones, a €35m package (€30m plus €5m in add-ons) with a ten-percent sell-on retained, the last Scouser in the first team gone to San Siro and the money now pointed squarely at Paris. There, Liverpool have put around £115m in front of PSG for Bradley Barcola and Paris, holding out as high as £145m all month, have cut their ask toward £125m and are said to be willing to listen, personal terms to 2032 long since agreed. Behind Barcola the double-raid thread stays open, terms agreed in principle with 18-year-old Ibrahim Mbaye though Merseyside has cooled on him, while the wide board keeps Rayan's clause dormant to 2027 and Everton's Iliman Ndiaye as a pricey £75m alternative, and Endo now edges toward the exit door Jones has just walked through. Above it all the farewell is long since inked: Mohamed Salah is a Trabzonspor player.",
   incoming: [
     {
       name: "Ronald Araujo",
@@ -693,13 +693,13 @@ export const TRANSFER_TARGETS = {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Barcola_asse_psg_2425.png/330px-Barcola_asse_psg_2425.png",
       currentClub: "Paris Saint-Germain",
       currentLeague: "Ligue 1",
-      feeMin: 98, feeMax: 110, feeCurrency: "£m",
+      feeMin: 115, feeMax: 125, feeCurrency: "£m",
       marketValue: 100,
       wageBand: "A",
       contractExpiry: "2028-06-30",
       releaseClause: null,
-      contractNote: "Contracted to PSG until 2028, the France international is the club's marquee saleable asset. He has ceased negotiations over a new deal despite a substantial pay rise offered in Paris and agreed personal terms with Liverpool on a contract to 2032. PSG have now cut their ask from as high as £145m toward a figure nearer £110m, with reporting on Friday framing an agreement reached in the talks as Liverpool prepare a fresh offer inside the final fortnight; Barcola was left out of the Paris squad at Lens with his future unresolved. Paris made themselves more amenable by adding Ferran Torres (£42.75m from Barcelona) and Mika Godts to Luis Enrique's forward line, and Arsenal are still reported to be watching for a hijack after missing other targets. The Hughes-Campos channel stays smooth and the player is keen on Anfield, and with Curtis Jones' near-£30m sale to Inter over the line the funds are in place; Bournemouth's Rayan (clause dormant to 2027) is the fallback, with Everton's Iliman Ndiaye a newer, pricier alternative. The Ligue 1 window shuts on 31 August.",
-      probability: 66,
+      contractNote: "Contracted to PSG until 2028, the France international is the club's marquee saleable asset. He has ceased negotiations over a new deal despite a substantial pay rise offered in Paris and agreed personal terms with Liverpool on a contract to 2032. Liverpool have now put an offer worth around £115m in front of PSG, who held out as high as £145m all month and have since cut their ask toward £125m, reported willing to listen with the gap bridgeable through add-ons; Sky still frame the deal as difficult to complete, but for the first time both clubs are talking the same numbers. Paris made themselves more amenable by adding Ferran Torres (£42.75m from Barcelona) and Mika Godts to Luis Enrique's forward line, and Arsenal are still reported to be watching for a late hijack. The Hughes-Campos channel stays smooth and the player is keen on Anfield, and with Curtis Jones' €35m sale to Inter now confirmed the funds are in place; Bournemouth's Rayan (clause dormant to 2027) is the fallback, with Everton's Iliman Ndiaye a newer, pricier alternative. The Ligue 1 window shuts on 31 August.",
+      probability: 68,
       heatTier: "hot",
       sources: [
         { name: "Liverpool.com",       tier: "B" },
@@ -707,9 +707,9 @@ export const TRANSFER_TARGETS = {
         { name: "Sky Sports",          tier: "A" },
         { name: "Fabrizio Romano",     tier: "S" },
       ],
-      lastUpdated: "2026-08-21",
+      lastUpdated: "2026-08-22",
       rumorNote:
-        "Paris · 21 Aug — the ask bends, and the deal finds its endgame. Reporting on Friday has PSG lowering their Barcola valuation from as high as £145m toward a figure nearer £110m, the Liverpool channel framing it as an agreement reached in the talks with a fresh Anfield offer being readied inside the window's last fortnight. Barcola was left out of the Paris squad at Lens with his future unresolved, a strong tell that both sides expect a resolution, and the Jones sale to Inter has put the funds in place. Personal terms to 2032 were settled in June and the player has wanted Anfield since, so the obstacle is a number that is finally moving. Nothing is signed and Arsenal still lurk, but for the first time the marquee signing reads like a plan. Ligue 1 shuts on August 31.",
+        "Paris · 22 Aug — the numbers converge, and the Jones money is in the bank. With Curtis Jones' €35m switch to Inter now confirmed, Liverpool have put an offer worth around £115m in front of PSG, who have cut their ask from as high as £145m toward £125m and are reported willing to listen, the gap now small enough to close through add-ons. Personal terms to 2032 were settled in June and the winger has wanted Anfield since, so the fee is the only argument left. Sky still caution the deal is difficult to complete and Arsenal lurk for a late hijack, but for the first time both clubs are talking the same language. Ligue 1 shuts on August 31.",
       positionFit: {
         replaces: "Salah (departed, free agent)",
         competesWith: ["Ndiaye (Everton, newer target)", "Rayan (Bournemouth, clause to 2027)", "Gakpo", "Ngumoha"],
@@ -1781,12 +1781,12 @@ export const TRANSFER_TARGETS = {
       id: "jones-out",
       name: "Curtis Jones",
       position: "MID",
-      destination: "Inter (medical underway; €30m plus €5m add-ons, 10% sell-on; signing this weekend)",
+      destination: "Inter (confirmed Aug 21; €35m as €30m plus €5m add-ons, 10% sell-on, 5-year deal)",
       feeAsk: { min: 30, max: 35, currency: "£m" },
-      probability: 97,
+      probability: 100,
       heatTier: "done",
-      sources: [{ name: "Football Italia", tier: "A" }, { name: "This Is Anfield", tier: "A" }, { name: "Fabrizio Romano", tier: "S" }, { name: "Empire of the Kop", tier: "B" }],
-      note: "Thu 20 Aug — passport out, medical booked. Liverpool have given Curtis Jones permission to fly and he travelled to Italy on Thursday for his Inter medical, the fee a package near €35m structured as €30m plus €5m in add-ons with a ten-percent sell-on retained. He was pictured in training earlier in the week before flying out and is expected to pass the tests and sign over the weekend. Liverpool pushed toward €40m and settled near Inter's mark rather than run a homegrown asset into the final year of his deal. The only Scouser left in the first team, two trophies and 160-plus starts of it, is a signature away from San Siro, the summer's cleanest and most expected exit all but complete.",
+      sources: [{ name: "ESPN", tier: "A" }, { name: "Sky Sports", tier: "A" }, { name: "Goal", tier: "A" }, { name: "Liverpool.com", tier: "A" }, { name: "Fabrizio Romano", tier: "S" }],
+      note: "Fri 21 Aug — signed, sealed, gone. Inter Milan confirmed the signing of Curtis Jones on a five-year deal, the fee a package around €35m structured as €30m up front plus €5m in add-ons with a ten-percent sell-on kept back on Merseyside. He passed his medical and put pen to paper, becoming the third England international to join Inter this window after John Stones and Djed Spence. Liverpool pushed toward €40m and took Inter's mark rather than run a homegrown asset into the final year of his deal. The only Scouser left in the first team, two trophies and 160-plus starts of it, leaves for San Siro on the eve of the opener, the summer's cleanest exit now the money that points the Barcola pursuit at Paris.",
     },
     {
       id: "gakpo-out",

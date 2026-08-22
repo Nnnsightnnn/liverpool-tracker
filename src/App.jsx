@@ -477,11 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday, and the marquee chase finds its endgame. PSG have cut the
-          <em>Barcola</em> ask toward £110m, an agreement in the talks and a
-          fresh offer readied, while <em>Curtis Jones</em> flies to Milan for
-          his Inter medical. <em>Iraola</em> takes his first league press
-          conference today. Two days now to <em>Newcastle</em> away.
+          Saturday, and the summer's cleanest exit is done. <em>Curtis Jones</em>{" "}
+          is an Inter player now, the last Scouser gone to San Siro, the money
+          aimed straight at <em>Barcola</em>, for whom Liverpool have offered
+          £115m as PSG drop toward £125m. <em>Iraola</em> has his captain and his
+          three deputies. One day now to <em>Newcastle</em>, where Isak walks
+          back into a ground that has not forgiven him.
         </p>
 
         <StatStrip stats={stats} />
@@ -512,18 +513,17 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and the number that stalled all summer has finally moved. PSG have
-              cut the <em>Barcola</em> ask toward £110m, the club reporting an
-              agreement in the talks as Liverpool ready a fresh offer and the
-              winger sits out the Paris squad, his future unresolved. The exit
-              that funds it is nearly done: <em>Curtis Jones</em> has flown to
-              Milan for his Inter medical and should sign this weekend. <em>Iraola</em>{" "}
-              takes his first league press conference this afternoon, a squad he
-              calls thin but sortable behind him, the defence travelling light to
-              Tyneside with Gomez out until Forest. Two days to Newcastle, where
-              <em>Isak</em> walks back into a ground that has not forgiven him.
-              Chase the one you want; wave off the one you were always going to lose.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and the room has lost its last Scouser. Inter have confirmed{" "}
+              <em>Curtis Jones</em> for €35m, the money now aimed squarely at{" "}
+              <em>Barcola</em>, for whom Liverpool have offered £115m as PSG cut
+              their ask toward £125m. <em>Iraola</em> has set his house before a
+              ball is kicked, Van Dijk his captain, Alisson, Gomez and Szoboszlai
+              his deputies, and named the wing as the one thing the squad still
+              lacks. Tomorrow the season opens at Newcastle, the back line thin
+              behind Araujo's debut with Gomez hurt, and <em>Isak</em> walks back
+              into a ground that kept every word of its grievance. Sign the one you
+              want; wave off the one you were always going to lose.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3257,7 +3257,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Two days, and the answering starts."
+        "The season opens on a reckoning."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
