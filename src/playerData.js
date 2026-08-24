@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Wed Aug 12 — back from his break and settled as the No. 1 for the season start. Alisson returned from his post-World Cup rest during the American tour and is Iraola's first-choice keeper heading into the Newcastle opener on August 23 with the pre-season closed. The Brazil captain remains the undisputed starter, Mamardashvili the deputy the club still prefer to protect with a loan than sell. Nothing here is in question", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Wed Aug 12 — back from his break and settled as the No. 1 for the season start. Alisson returned from his post-World Cup rest during the American tour and is Iraola's first-choice keeper who kept goal in Sunday's 2-2 draw at Newcastle. The Brazil captain remains the undisputed starter, Mamardashvili the deputy the club still prefer to protect with a loan than sell. Nothing here is in question", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Wed Aug 12 — back in the No. 2 role with the season upon us. The tour spell as senior keeper while Alisson rested is over, and with the Brazilian settled back in, the Georgian returns to deputy for the Newcastle opener. Liverpool still prefer to protect the asset with a loan rather than sell, and the longer-horizon thinking has not moved off him as a genuine number one somewhere", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Wed Aug 12 — back in the No. 2 role with the season upon us. The tour spell as senior keeper while Alisson rested is over, and with the Brazilian settled back in, the Georgian is back as deputy with the season underway. Liverpool still prefer to protect the asset with a loan rather than sell, and the longer-horizon thinking has not moved off him as a genuine number one somewhere", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Sun Aug 16 — the fixed point in a summer that finally sat still, briefly. Van Dijk captained the 2-3 defeat to Monaco and now has real cover around him: Araujo's loan is in and bowed against Como, Jacquet returned to the same game and scored, easing a back line thinned by Konate's free exit and injuries to Gomez and Leoni. Milan's interest, driven by Ibrahimovic, keeps being knocked back with no bid received. As the window turns from arrivals to exits and the Barcola fee still needs bridging, the 35-year-old captain is the constant a restless August keeps turning around, and the man who leads them out at Newcastle", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Sun Aug 16 — the fixed point in a summer that finally sat still, briefly. Van Dijk captained the 2-3 defeat to Monaco and now has real cover around him: Araujo's loan is in and bowed against Como, Jacquet returned to the same game and scored, easing a back line thinned by Konate's free exit and injuries to Gomez and Leoni. Milan's interest, driven by Ibrahimovic, keeps being knocked back with no bid received. As the window turns from arrivals to exits and the Barcola fee still needs bridging, the 35-year-old captain is the constant a restless August keeps turning around, and the man who led them out at Newcastle on Sunday", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "injured", outSince: "2026-07-25", injuryNote: "Sat Aug 22 — named a vice-captain this week, and watching the opener from the treatment room. Gomez remains sidelined by the muscle injury from the opening minutes at Sunderland, ruled out of Sunday's trip to Newcastle with Iraola targeting the first home game against Nottingham Forest on August 29. With Leoni closing on a return from his ACL and Bradley months from knee surgery, the defence leans on Araujo's competitive debut and a fit-again Jacquet alongside Van Dijk. The longest-serving defender is a cover loss to absorb rather than a sale to chase. Weeks, not months, and every day counts toward that Forest date", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "injured", outSince: "2026-07-25", injuryNote: "Mon Aug 24 — the opener passed him by, and Forest is the target now. Gomez sat out Sunday's 2-2 at Newcastle with the muscle injury taken in the opening minutes at Sunderland, and Iraola confirms the vice-captain is 'some weeks off,' adding it 'shouldn't be a lot more' than that. With Leoni edging back from his ACL and Bradley still months from a knee return, the defence that drew at St James' leaned on Araujo's loan debut beside Van Dijk. The longest-serving defender is a cover loss to absorb, not a sale to chase, and Friday's home game against Forest may still come a little too soon", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Sun Aug 16 — through the summer, and no longer alone on the flank. Frimpong remains the only fit senior right-back heading into Newcastle, with Bradley still short of a knee return and Gomez out and racing for Forest on August 29. But Araujo, in on loan and bowed against Como, can spell him at right-back, softening the need that had Tottenham's Djed Spence floated around £35m before Spence went elsewhere. Fit if managed, still short of competition, but carrying the flank with cover now rather than alone", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Sun Aug 16 — through the summer, and no longer alone on the flank. Frimpong remains the only fit senior right-back through the Newcastle draw, with Bradley still short of a knee return and Gomez out and racing for Forest on August 29. But Araujo, in on loan and bowed against Como, can spell him at right-back, softening the need that had Tottenham's Djed Spence floated around £35m before Spence went elsewhere. Fit if managed, still short of competition, but carrying the flank with cover now rather than alone", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sun Aug 16 — back, and on the scoresheet. Jacquet marked his return from the shoulder problem, managed with caution since January surgery, by scoring in Sunday's 2-0 win over Como, his first minutes after missing the entire tour and the Monaco game. That absence had left Van Dijk and the academy's Ndukwe as the only fit specialist centre-backs, and it is why Araujo's loan mattered. His return, alongside Araujo's cover, eases the crunch Gomez's injury deepened and hands Iraola a fit senior partner for Van Dijk heading into Newcastle. Eased back rather than thrown in, but available now", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sun Aug 16 — back, and on the scoresheet. Jacquet marked his return from the shoulder problem, managed with caution since January surgery, by scoring in Sunday's 2-0 win over Como, his first minutes after missing the entire tour and the Monaco game. That absence had left Van Dijk and the academy's Ndukwe as the only fit specialist centre-backs, and it is why Araujo's loan mattered. His return, alongside Araujo's cover, eases the crunch Gomez's injury deepened and hands Iraola a fit senior partner for Van Dijk through the Newcastle draw. Eased back rather than thrown in, but available now", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -113,7 +113,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sun Aug 16 — central, and folded back in for the opener. Iraola has held brief talks with Mac Allister about his role in the 2026-27 side, resisting the summer's Madrid whispers and a fleeting City shortlist rather than banking him as sell-to-buy fuel. It caps a strange arc: a runner-up who played the length of the World Cup final at MetLife and lost it in extra time, Argentina down to ten after Enzo Fernandez's 93rd-minute red and beaten by Ferran Torres on 106, five weeks that rewrote a club season in which he was among the most criticised at Anfield. Back in training after missing the American tour, he anchors the midfield Iraola is building around heading into Newcastle", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sun Aug 16 — central, and folded back in for the opener. Iraola has held brief talks with Mac Allister about his role in the 2026-27 side, resisting the summer's Madrid whispers and a fleeting City shortlist rather than banking him as sell-to-buy fuel. It caps a strange arc: a runner-up who played the length of the World Cup final at MetLife and lost it in extra time, Argentina down to ten after Enzo Fernandez's 93rd-minute red and beaten by Ferran Torres on 106, five weeks that rewrote a club season in which he was among the most criticised at Anfield. Back in training after missing the American tour, he anchors the midfield Iraola is building around through the Newcastle draw", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -132,7 +132,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 48, goals: 12, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.3, status: "fit", injuryNote: "Sun Jul 26 — the screamer that turned the opener. Szoboszlai lit the Sunderland win with a trademark long-range goal, the most senior available midfielder anchoring a young side with Mac Allister and Munoz absent all tour. He is also in the frame for the vacant armband, Iraola's search for a Van Dijk deputy narrowed to him and Chiesa per Paul Joyce. Fresh from an extension to 2031 and voted supporters' player of the season. Fit, and central to it", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Mon Aug 24 — the nerve that saved the opener. Szoboszlai buried a penalty in the ninth minute of stoppage time at Newcastle to rescue a 2-2 and hand Iraola a debut point, stepping up over Isak with Salah gone and the club's penalty order unsettled. A vice-captain under the new coach after his extension to 2031 and last season's supporters' player of the year, he is the composure the young side keeps leaning on. Fit, central, and now perhaps the man the manager simply names as his taker before the debate returns", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -189,7 +189,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 39, goals: 9, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 6.8, status: "fit", injuryNote: "Sat Aug 22 — kept, and in line to start the opener. Liverpool still do not expect Gakpo to leave for Tottenham before the deadline, the hierarchy won over by a pre-season under Iraola in which he scored against Como. Spurs opened a little over £60m and were sent away, Liverpool nearer £72m, and with Jones' sale to Inter now confirmed and funding the window the pressure to bank him has gone. He signed fresh Anfield terms only last year, and the manager wants width and goals he can trust. Nine goals and six assists in 39 appearances last term, and he is tipped to start on the right at Newcastle with Ngumoha pushing", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 40, goals: 10, assists: 6, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Mon Aug 24 — kept, and repaid the faith inside a week. The forward Tottenham chased all summer opened the Iraola era on the scoresheet, dragging Liverpool level at Newcastle in the 55th before Szoboszlai's late penalty rescued the 2-2. Liverpool never expected him to leave, Spurs' £60m-plus opener rejected against a valuation nearer £72m, and with the Jones money banked the pressure to sell has gone. He signed fresh Anfield terms only last year. On this evidence he is a starter Iraola trusts, not a line on the ledger, and Friday's Forest visit is his stage again", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -198,7 +198,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 18, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Sun Aug 16 — a homecoming with an edge to it. Isak, sharpening after an injury-wrecked debut year and among the scorers across the friendlies, now walks into the loudest fixture of the opening weekend: a return to St James' Park in red on August 23, a year after Liverpool paid £100m to take him off Tyneside. Paired again with Wirtz and Gravenberch, the Sweden striker gave the summer's football its fluency before thin benches undid two leads. A clean run under Iraola is the whole front line's reset, and the welcome on Tyneside will be anything but warm", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 18, goals: 9, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Mon Aug 24 — the homecoming that offered no release. Isak walked back into St James' in red on Sunday, a year after the £100m move he forced off Tyneside, and was met by a wall of jeers he could not answer: no goal, a difficult afternoon, and the penalty at the death handed to Szoboszlai rather than him, Iraola declining to say whether the striker would ordinarily take it. Paired with Wirtz and Gravenberch, the Sweden striker is fit and central to the front line, but a first goal of the Iraola era, ideally at Anfield on Friday, would quiet a loud few days", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -209,7 +209,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Sat Jul 25 — the striker Liverpool most miss, and cannot use. Iraola groups him with Bradley as the two furthest from fitness, the Achilles ruptured against PSG in April still tracking toward the festive period, close enough to the Boxing Day target he set himself to stop it being an argument and short of the twelve-month end of April's nine-to-twelve-month scan. He has flown to the United States to rehabilitate under the medical staff, taking no part in the three friendlies, and remains hopeful of playing again before the end of 2026", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Mon Aug 24 — 'still way off,' in the manager's own words. Iraola's first in-season bulletin offered no comfort on the striker Liverpool most miss: the Achilles ruptured against PSG in April keeps Ekitike sidelined, the coach 'talking about months and still a lot of time out' and conceding he may not feature again this calendar year. He continues his rehabilitation away from the group, took no part in pre-season, and is at best a hopeful festive-period return. The front line carries on without its most productive option from last term's 18 goals", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -220,7 +220,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Fri Aug 21 — tied down as the club rewards its brightest teenager. This Is Anfield report Ngumoha is set to sign a new five-year deal with a significant pay rise once he turns 18 on August 29, the delay only a rule capping under-18s at three-year terms. On the pitch the post-Salah shirt he held all summer passes to Gakpo, who stays and starts on the right, leaving the 17-year-old a rotation option at Newcastle rather than a default starter. Above it the marquee search has quickened, PSG cutting the Barcola ask toward £110m as Liverpool ready a fresh offer. Twenty-nine appearances last term and a goal against Newcastle; his minutes will come, but experience starts ahead of him for the opener", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Mon Aug 24 — a rotation role, and a new deal on the horizon. Ngumoha was a bench option at Newcastle as Gakpo held the right and scored, the teenager's minutes coming late in a young matchday squad. This Is Anfield still report a new five-year deal with a significant pay rise once he turns 18 on August 29, the delay only a rule capping under-18s at three-year terms. Above it the marquee search has cooled, PSG holding Barcola near £145m while Minteh's personal terms are agreed. Twenty-nine appearances last term and a goal against Newcastle a year ago; his minutes will come, but experience starts ahead of him for now", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -256,7 +256,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "fit", injuryNote: "Sun Aug 16 — through the pre-season, and building. The £34.7m winger and World Cup champion with Spain logged early minutes across the friendlies, his first Liverpool run-outs on a right flank left thin by Salah's exit, and came through the Como finale. In since June on a six-year deal to 2032 after Liverpool met the €40m release clause at Osasuna, he is fully fit and pushing for a place at Newcastle. Seven goals and five assists in LaLiga last season at 22. The stats below are his Liverpool record, which is why they are empty", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 0, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "fit", injuryNote: "Sun Aug 16 — through the pre-season, and building. The £34.7m winger and World Cup champion with Spain logged early minutes across the friendlies, his first Liverpool run-outs on a right flank left thin by Salah's exit, and came through the Como finale. In since June on a six-year deal to 2032 after Liverpool met the €40m release clause at Osasuna, he is fully fit and won the stoppage-time penalty at Newcastle as a substitute. Seven goals and five assists in LaLiga last season at 22. The stats below are his Liverpool record, which is why they are empty", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -365,42 +365,44 @@ export const COVER_IMAGE = {
   alt: "Pure-type edition cover.",
   focus: null,
   credit: null,
-  generatedAt: "2026-08-22T09:30:00Z",
+  generatedAt: "2026-08-24T10:30:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
-  // Today's lead is a confirmed departure (Curtis Jones to Inter) on the eve of the opener, with the
-  // Barcola pursuit sharpening (£115m offered, PSG down to £125m) still unconfirmed. A player leaving
-  // FOR a rival is not a Liverpool cover-hero moment, and the season opener has not been played, so per
-  // the pipeline's "only queue a genuinely visual moment" rule no cover image was queued this edition
-  // and the render falls back to pure-type.
+  // Today's lead IS a genuinely visual moment: Dominik Szoboszlai's penalty in the ninth minute of
+  // stoppage time at St James' Park rescued a 2-2 draw on Iraola's competitive debut. That is a
+  // single, photographable Liverpool hero still (the celebration after the spot-kick), so per the
+  // pipeline an image IS warranted this edition. The limn-editor-enhance queue step (~/Vault) is not
+  // reachable from the scheduled-task sandbox this run, so this brief is left for the Antigravity-side
+  // skill to consume directly from cover-brief.json; render falls back to pure-type until src is set.
   brief: {
     leadStory:
-      "Saturday, matchday eve, and the summer's cleanest exit is done: Inter Milan have confirmed Curtis Jones for €35m, the last Scouser gone to San Siro, the money now aimed at a Barcola deal Liverpool have backed with a £115m offer as PSG cut their ask toward £125m. Iraola has set his leadership group, Van Dijk captain with Alisson, Gomez and Szoboszlai as vice-captains, before Sunday's opener at Newcastle, where a thin, young side meets Isak's hostile return in red.",
+      "Sunday at St James' Park, and Dominik Szoboszlai buries a penalty in the ninth minute of stoppage time to rescue a 2-2 draw on Andoni Iraola's competitive Liverpool debut, cancelling strikes from Anthony Elanga and Joe Willock after Cody Gakpo had levelled, and stepping up over Alexander Isak with Salah gone and the penalty order unsettled.",
     subject:
-      "Curtis Jones sale to Inter confirmed and the Barcola pursuit sharpening on the eve of the opener; a departure and a still-unconfirmed negotiation, not a single Liverpool hero moment already photographed",
+      "Dominik Szoboszlai wheeling away in a red away shirt after scoring a stoppage-time penalty at St James' Park, arms wide, teammates converging behind him, a wall of Newcastle black-and-white in the stands, floodlit night",
     prompt:
-      "Cinematic editorial photograph, exterior of a historic English football stadium at dusk on the eve of a new season, floodlights warming against a darkening sky, empty forecourt, a mood of restless anticipation, no on-image text, generous headroom at the top for a masthead headline",
-    aspectRatio: "landscape",
-    slug: "opener-eve",
-    generatedAt: "2026-08-22T09:30:00Z",
-    note: "Lead is the confirmed Curtis Jones sale to Inter (€35m) plus the sharpening but unconfirmed Barcola pursuit (£115m offered, PSG down to £125m), on the eve of the opener. A departure to a rival is no cover-hero still and the opener is unplayed, so no image queued this edition. Fallback to pure-type cover.",
+      "Cinematic editorial sports photograph, a midfielder in a red away kit wheeling away in celebration immediately after scoring a late penalty, arms outstretched, raw elation, teammates rushing to join him, a packed floodlit English stadium behind in black-and-white home colours, shallow depth of field, motion energy, no on-image text, generous headroom at the top for a masthead headline",
+    aspectRatio: "portrait",
+    slug: "szoboszlai-penalty",
+    generatedAt: "2026-08-24T10:30:00Z",
+    note: "Lead is Szoboszlai's 99th-minute penalty rescuing a 2-2 at Newcastle on Iraola's debut, a genuine cover-hero still. Image warranted this edition; queued for the Antigravity generator via cover-brief.json (limn Vault path not reachable from the sandbox run). Fallback to pure-type until src is repointed.",
   },
 };
 
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
 export const NEXT_MATCH = {
-  opponent: "Newcastle",
-  shortName: "NEW",
-  home: false,
-  date: "2026-08-23T16:30:00",
+  opponent: "Nottingham Forest",
+  shortName: "NFO",
+  home: true,
+  date: "2026-08-29T15:00:00",
   competition: "PL",
-  venue: "St James' Park",
-  broadcast: "Sky Sports",
+  venue: "Anfield",
+  broadcast: "TNT Sports",
 };
 
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
 // result: "W" | "D" | "L"
 export const RESULTS = [
+  { date: "2026-08-23", opponent: "Newcastle",           home: false, score: "2-2", competition: "PL",  result: "D", scorers: "Gakpo 55', Szoboszlai 90+9' pen" },
   { date: "2026-08-16", opponent: "Como",               home: true,  score: "2-0", competition: "PSF", result: "W", scorers: "Gakpo, Jacquet" },
   { date: "2026-08-09", opponent: "Monaco",             home: true,  score: "2-3", competition: "PSF", result: "L", scorers: "Isak 16', Wirtz 29'" },
   { date: "2026-08-02", opponent: "Leeds United",       home: false, score: "2-4", competition: "PSF", result: "L", scorers: "Chambers, Wirtz" },
@@ -478,24 +480,25 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 38,
-  generatedAt: "2026-08-22T09:30:00Z",
+  generatedAt: "2026-08-24T10:30:00Z",
   overview:
-    "Matchday eve, and the table on screen is still last season's: 2025-26's final twenty rows, Arsenal champions on 85 and Liverpool fifth on 60, held for one more edition while ESPN's live 2026-27 feed opens with promoted sides outside this squad's world and nearly every fixture still at zero. The story sits in the ledger beneath the table: Curtis Jones is an Inter player now, a €35m sale confirmed, the money aimed at a Barcola deal Liverpool have backed with an offer near £115m as PSG cut their ask toward £125m. Iraola has set his leadership group, Van Dijk captain with Alisson, Gomez and Szoboszlai his three vice-captains, and named the wing as the squad's one clear hole before Sunday. What the frozen table gives way to at Newcastle, Gomez injured and Araujo debuting and Isak walking back into a hostile St James', is the first thing that will actually count.",
+    "The season has kicked off, but the table on screen is still last season's: 2025-26's final twenty rows, Arsenal champions on 85 and Liverpool fifth on 60, held for another edition while ESPN's live 2026-27 feed opens with promoted sides outside this squad's world and most fixtures still catching up. The football, though, has begun to speak. Liverpool opened the Iraola era at Newcastle on Sunday and drew 2-2, a point salvaged by Szoboszlai's penalty in the ninth minute of stoppage time after Elanga and Willock had twice put the hosts ahead of Gakpo's equaliser. A share of the spoils that leaves both sides level and unbeaten to start, and a manager grateful more than glowing. Beneath the frozen numbers the window still hums: Curtis Jones banked at Inter, Yankuba Minteh's terms agreed, the Barcola fee stalling, and Forest at Anfield on Friday the next thing that counts.",
   teams: {
-    "Liverpool": "Fifth on 60 and dark until Sunday's opener, the desk busy underneath: Curtis Jones is sold to Inter for a confirmed €35m, the money aimed at Barcola, for whom Liverpool have offered near £115m as PSG drop to £125m. Van Dijk is captain with Alisson, Gomez and Szoboszlai named vice-captains; Gomez is then out injured for the opener, so Araujo debuts and Jacquet is tipped for a Premier League bow beside Van Dijk at Newcastle.",
+    "Liverpool": "Fifth on last season's table, but the new campaign is live: a 2-2 draw at Newcastle on Sunday, rescued by Szoboszlai's stoppage-time penalty over Isak, opened the Iraola era with a point. Curtis Jones is sold to Inter, personal terms are agreed with Brighton's Minteh, and the Barcola pursuit has stalled with PSG near £145m. Forest visit Anfield on Friday for the first home night.",
     "Arsenal": "Champions on 85, and among the sides tracking Everton's Iliman Ndiaye as the wide market moves late in the window.",
     "Manchester City": "Second on 78, planning for a possible Rodri exit, the club whose midweek Mac Allister shortlist was shut down at once by the Argentine's camp.",
     "Manchester United": "Third on 71, back in the Champions League, and a rival to Liverpool for Ndiaye this summer.",
     "Aston Villa": "Fourth on 65, beat Liverpool 4-2 at Villa Park in May, and signed Joao Gomes after Liverpool declined him for a midfielder.",
     "Bournemouth": "Sixth on 57, the club Iraola left for Anfield in June, holder of Rayan's £130m clause (dormant to 2027), the long-shot wide fallback left on Liverpool's board.",
-    "Brighton": "Eighth on 53, and the source of a summer-long blow: winger target Yankuba Minteh is out up to three months with a leg injury, ending any move to Anfield.",
+    "Brighton": "Eighth on 53, and now digging in over Yankuba Minteh: two bids (£50m, £60m) rejected as Liverpool agree personal terms with the winger, the Seagulls holding nearer £70-80m despite his leg injury.",
     "Sunderland": "Seventh on 54 in their first season back up, beaten 4-2 by Iraola's Liverpool in Nashville, where Joe Gomez limped off inside minutes, and now among the clubs linked with Harvey Elliott.",
-    "Leeds": "Fourteenth on 47, the side that stunned Liverpool 4-2 in the Chicago tour finale, and another name in the Harvey Elliott conversation this summer.",
-    "Newcastle": "Twelfth on 49, hosts of Sunday's 4:30 opener, without Joelinton and sweating on Schar and Livramento, bracing for Alexander Isak's hostile return in Liverpool red a year on from the record exit he forced, both clubs set to remember Kevin Keegan first.",
+    "Leeds": "Fourteenth on 47, the side that stunned Liverpool 4-2 in the Chicago tour finale, and opened 2026-27 with a win at Nottingham Forest.",
+    "Newcastle": "Twelfth last season, and held to a 2-2 draw by Liverpool on the opening day: Elanga and Willock struck but Szoboszlai's last-gasp penalty denied Eddie Howe's men, who lived their own reckoning with Isak returning in red.",
     "Everton": "Thirteenth on 49, and holding out for around £75m for Iliman Ndiaye, the winger Liverpool are said to hold interest in despite the rarity of any cross-Stanley-Park deal.",
     "Chelsea": "Tenth on 52, and closing on former Liverpool captain Jordan Henderson from Brentford on a free.",
     "Crystal Palace": "Fifteenth on 45, Conference League holders, and holding near £100m for Adam Wharton, reported willing to wait for Liverpool despite City having floated his name.",
-    "Tottenham": "Seventeenth on 41, signed Robertson on a free, and had personal terms with Gakpo, but Liverpool no longer expect to sell him, the Dutchman impressing under Iraola with the £60m opening bid long rejected.",
+    "Tottenham": "Seventeenth on 41, signed Robertson on a free, and had personal terms with Gakpo, but Liverpool no longer expect to sell him, the Dutchman scoring at Newcastle with the £60m opening bid long rejected.",
+    "Nott'm Forest": "Sixteenth on 44 last season, beaten at home by Leeds under new boss Oliver Glasner to open the campaign, and Liverpool's Friday visitors at Anfield.",
     "West Ham": "Relegated on 39, and keeping Jarrod Bowen, who restructured rather than moved.",
     "Wolves": "Bottom on 20, relegated, and sending Joao Gomes to Villa rather than Anfield.",
   },
@@ -504,135 +507,136 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Signed, Sealed, And The Room Loses Its Last Scouser.",
-    byline: "ESPN / Sky Sports",
-    dateline: "Milan · 21 August",
-    category: "Transfers",
+    headline: "Ninety-Nine Minutes, One Kick, And Iraola Escapes With A Point.",
+    byline: "Sky Sports",
+    dateline: "St James' Park · 23 August",
+    category: "Match Report",
     body:
-      "It is done now, not almost done. Inter Milan confirmed Curtis Jones on a five-year deal, a package around thirty-five million euros structured as thirty up front and five in add-ons, a tenth of any future sale kept back on Merseyside. He is the third England international to join Inter this window, after John Stones and Djed Spence, and the last Scouser in Liverpool's first team, two trophies and a hundred and sixty-odd starts of it. Liverpool wanted forty and took less rather than lose a homegrown boy for nothing next June. Some exits break a dressing room. This one, on the eve of the opener, only funds the one Liverpool most want to make.",
+      "There is no gentle way to begin a reign, and Andoni Iraola was not offered one. Anthony Elanga struck early and Joe Willock, on for seconds, restored Newcastle's lead just after the hour, each blow answered only in part by Cody Gakpo's equaliser. Then came the ninth minute of stoppage time, Lewis Hall clipping the substitute Victor Munoz, the referee pointing, and Dominik Szoboszlai standing over a kick that would define the afternoon. He scored it. Newcastle 2-2 Liverpool, a debut point wrenched from the very last act, on a day the new manager's team looked ragged at the back and unbroken in nerve. Not a performance. A statement of stubbornness.",
   },
   {
     n: "02",
-    headline: "The Numbers Finally Meet In The Middle.",
-    byline: "Football365 / Sky Sports",
-    dateline: "Paris · 22 August",
-    category: "Transfers",
+    headline: "The Striker Watched. The Midfielder Took It.",
+    byline: "BBC Sport / OneFootball",
+    dateline: "Tyneside · 23 August",
+    category: "Tactics",
     body:
-      "For a month the two clubs shouted past each other. This weekend they are close enough to whisper. Liverpool have put an offer worth around a hundred and fifteen million in front of PSG for Bradley Barcola, and Paris, who held out as high as a hundred and forty-five, have cut their ask toward a hundred and twenty-five and are said to be willing to listen, the gap now small enough to bridge with add-ons. Personal terms to 2032 were done in June; the will has never been in doubt. The Jones money is banked, Sky still caution the deal is difficult, and Arsenal lurk for a late hijack. But the marquee signing, at last, reads like arithmetic rather than a wish. Ligue 1 shuts on the thirty-first.",
+      "The penalty that saved the day also opened a question Liverpool have not answered since May. Mohamed Salah took these kicks for years; Salah is a Trabzonspor player now, and when the whistle blew for the ninety-ninth-minute spot-kick it was Szoboszlai, not the £125m man Alexander Isak, who claimed the ball. Isak had endured a difficult, jeer-soaked afternoon at his old ground and looked short of certainty; Szoboszlai has scored penalties for this club before and did so again. Iraola, asked afterwards whether Isak would ordinarily take it, declined to be pinned. Fine, for one night. But a taker named in the moment and not on the team sheet is a debate on a timer, waiting for the next big kick.",
   },
   {
     n: "03",
-    headline: "A Captain Kept, Three Deputies Named, A Week That Smells Different.",
-    byline: "Liverpool FC",
-    dateline: "AXA Centre · 21 August",
-    category: "Manager",
+    headline: "A Week Dead, Minteh Is Suddenly Liverpool's Nearest Winger.",
+    byline: "Fabrizio Romano / Caught Offside",
+    dateline: "Merseyside · 24 August",
+    category: "Transfers",
     body:
-      "Pre-season lets a manager talk about promise. Friday made him set his house in order. Andoni Iraola took his first competitive press conference and said the build-up 'smells different' to the friendlies, an atmosphere he can feel in the training ground. He kept Virgil van Dijk as captain and named three vice-captains, Alisson and Joe Gomez for the dressing room, Dominik Szoboszlai as the on-pitch heir. He would not name his eleven, insisting the players do not know it yet, but he named his one weakness plainly: 'especially now on the wing, we don't have enough players.' The same measured voice that carried Bournemouth, pointed at a far bigger room, and honest about what it still lacks.",
+      "Seven days ago the Yankuba Minteh file read like an obituary, a scan, a leg injury, a fallback taken off the board. On Monday it reads like the club's most advanced wide move. Fabrizio Romano reports personal terms agreed with the Brighton winger on a five-year deal, the player dreaming of Anfield, and a bid worth around sixty million lodged after fifty was turned away. Brighton want nearer eighty and the clubs are apart, but talks are moving. It matters because the marquee pursuit has soured: PSG are back to holding Bradley Barcola near a hundred and forty-five million while Liverpool sit at a hundred and twenty, daily contact yielding little. Minteh, injury and all, is the hedge against a number that will not bend.",
   },
   {
     n: "04",
-    headline: "A Debut, A Bow, And A Back Line Held With Loan And Nerve.",
-    byline: "This Is Anfield / Sports Mole",
-    dateline: "Tyneside · 22 August",
-    category: "Tactics",
+    headline: "A Back Line Held Together With Loan, Youth And Prayer.",
+    byline: "Liverpool FC / This Is Anfield",
+    dateline: "AXA Centre · 24 August",
+    category: "Injuries",
     body:
-      "Iraola will start his Liverpool life with a defence assembled out of what is left. Ronald Araujo, in on loan from Barcelona, is set for his competitive debut, and Jeremy Jacquet, the summer's quiet arrival, is tipped to make his Premier League bow beside Van Dijk, the two of them the only senior centre-backs standing with Gomez hurt and Leoni still months away. Alisson goes behind a spine of Frimpong, the captain, and Kerkez, the last centre-back slot the only open call. It is a rearguard of a debutant, a loanee and a talisman, sent to the loudest ground of the weekend to keep Alexander Isak quiet. Cover, not a crisis. But only just.",
+      "Iraola's first injury bulletin offered no reinforcements, only arithmetic. Hugo Ekitike, Achilles ruptured against PSG in April, is 'still way off,' the manager talking in months and conceding the striker may not feature again this calendar year. Joe Gomez, hurt inside minutes of a pre-season friendly at Sunderland, is 'some weeks off.' Conor Bradley and Giovanni Leoni remain out with knees. So the defence that survived Newcastle, Ronald Araujo on loan beside Van Dijk, Jeremy Jacquet a summer arrival still learning the league, is the defence Liverpool have, four days before Forest arrive at Anfield. Cover, not a crisis, the club keeps saying. The season will test the distinction quickly.",
   },
   {
     n: "05",
-    headline: "He Wanted The Stage. Sunday Hands Him The Bill.",
-    byline: "Sky Sports",
-    dateline: "Tyneside · 21 August",
+    headline: "Four Days To The Draw, And A New Era Comes Home.",
+    byline: "Goal / UEFA",
+    dateline: "Anfield · 24 August",
     category: "Football News",
     body:
-      "There are homecomings, and then there is walking back into a grievance you authored. Alexander Isak returns to St James' Park in Liverpool red, a year on from the British-record move he forced by downing tools, and the ground that once sang his name has kept every word of it. Both clubs will pause to remember Kevin Keegan before the noise starts. Iraola, asked, expects his striker to be 'very, very motivated,' as anyone would be on an opening day; the predicted teams put Isak at the point of the attack, exactly where the anger is loudest, with Salah gone and Ekitike on a cane and nowhere to hide. Newcastle arrive wounded too, without Joelinton, sweating on Schar. The season opens, and it opens on a reckoning.",
+      "The calendar gives Iraola no room to exhale. Nottingham Forest, beaten at home by Leeds under Oliver Glasner, visit Anfield on Friday for the manager's first competitive home night, a familiar opponent and a friendly ground to chase a first win of a season begun with a point. Then, on the twenty-seventh, the Champions League league-phase draw in Monaco, Liverpool entering as the fifth English seed, the reward for a fifth-placed finish under the regime this one replaced. A home unveiling, then a European map, then the closing days of a window still holding its biggest question. The new era does not arrive gently either. It simply arrives.",
   },
 ];
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-08-22T09:30:00Z",
+  generatedAt: "2026-08-24T10:30:00Z",
   summary:
-    "Saturday, and the summer's cleanest exit is finally formal. Inter Milan have confirmed the signing of Curtis Jones, a €35m package (€30m plus €5m in add-ons) with a ten-percent sell-on retained, the last Scouser in the first team gone to San Siro on a five-year deal and the third England international to join Inter this window after John Stones and Djed Spence. The cash points straight at Paris, where the marquee chase edges on: Liverpool have put around £115m in front of PSG for Bradley Barcola and Paris, who have cut their ask to nearer £125m, are said to be willing to listen, personal terms long since settled to 2032. Andoni Iraola, who says the week 'smells different,' names his first competitive team at Newcastle on Sunday with Van Dijk his captain and Alisson, Joe Gomez and Dominik Szoboszlai confirmed as his three vice-captains. Twenty-four hours out, with Gomez injured and the back line leaning on Araujo's debut, Alexander Isak walks back into a hostile St James' in red.",
+    "Sunday gave the Iraola era its first ninety minutes, and its first argument. Newcastle 2-2 Liverpool, a point salvaged from the very last kick when Dominik Szoboszlai buried a penalty in the ninth minute of stoppage time after Lewis Hall upended substitute Victor Munoz, cancelling Anthony Elanga's early opener and Joe Willock's 57th-minute strike and answering Cody Gakpo's equaliser with drama nobody scripted. The subplot is already louder than the scoreline: Szoboszlai, not Alexander Isak, took the spot-kick, on a chastening afternoon where Isak's hostile St James' homecoming in red brought jeers rather than an answer, and the club's post-Salah penalty order is suddenly a live question. Off the grass the window quickens: Fabrizio Romano reports Liverpool have agreed personal terms with Brighton's Yankuba Minteh and lodged a bid worth around £60m, even as the winger nurses a leg injury, while the Barcola pursuit stalls with PSG holding near £145m and Liverpool valuing him closer to £120m. Nottingham Forest visit Anfield on Friday for Iraola's first home night, the back line still thin with Gomez weeks away and Ekitike 'still way off' on his Achilles.",
   keyTopics: [
     {
-      title: "Curtis Jones Completes His Inter Move: The Last Scouser Gone For €35m (ESPN / Sky Sports, today)",
+      title: "Szoboszlai's 99th-Minute Penalty Rescues Iraola On His Liverpool Bow: Newcastle 2-2 (Sky Sports, today)",
       detail:
-        "The summer's most expected exit is now formal. Inter Milan confirmed the signing of Curtis Jones on a five-year deal, a package worth around €35m structured as €30m up front plus €5m in add-ons, with a ten-percent sell-on retained on Merseyside. The 25-year-old, the last Scouser in the first team and a two-trophy, 160-plus-appearance homegrown asset, becomes the third England international to join Inter this window after John Stones and Djed Spence. Liverpool pushed toward €40m and took Inter's mark rather than run him into the final year of his deal, and the fee points straight at the Barcola pursuit. Confirmed on Friday; the goodbye lands on the eve of the opener.",
-      category: "transfers",
+        "Andoni Iraola's competitive Liverpool debut ended in a point wrenched from the last act. At a boiling St James' Park on Sunday, Anthony Elanga struck early and Joe Willock restored Newcastle's lead seconds after coming on in the 57th, either side of Cody Gakpo's equaliser, before Dominik Szoboszlai settled it from the spot in the ninth minute of added time, Lewis Hall penalised for hauling down substitute Victor Munoz. A frantic 2-2 that flatters neither defence but announces the season, and hands the new manager a debut he will take without loving.",
+      category: "matches",
     },
     {
-      title: "Liverpool Put £115m To PSG For Barcola As Paris Drop To £125m (Football365 / Sky Sports, today)",
+      title: "Szoboszlai Over Isak: The Penalty That Reopened Liverpool's Post-Salah Question (BBC Sport, today)",
       detail:
-        "With the Jones money banked, the marquee move sharpens. Reporting on Friday and into Saturday has Liverpool tabling an offer worth around £115m for Bradley Barcola while PSG, who held out as high as £145m all month, have cut their ask toward £125m and are said to be willing to listen, the gap now bridgeable through add-ons. Personal terms to 2032 were agreed in June and the France winger wants Anfield, so the fee is the only argument left. Sky still frame the deal as difficult to complete before Ligue 1 shuts on August 31, and Arsenal are watching for a late hijack, but for the first time both clubs are talking the same numbers.",
-      category: "transfers",
-    },
-    {
-      title: "Iraola Names His First Team As A Week That 'Smells Different' Arrives (Liverpool FC, today)",
-      detail:
-        "The pre-season talk is over. Andoni Iraola took his first competitive press conference before Sunday's opener and said the build-up 'smells different' to the friendlies, excited by an atmosphere he can feel in training. He declined to name the eleven, insisted 'the players don't know it' yet, and admitted the squad is short in one area above all: 'especially now on the wing, we don't have enough players specific to play in those positions,' the plainest public case yet for the Barcola chase. Measured, specific, unbothered, the same register that carried Bournemouth, now pointed at a far bigger room.",
+        "The moment carried a decision as loud as the goal. With Mohamed Salah gone and no settled penalty taker since May, it was Szoboszlai, not Alexander Isak, who stepped up for the 99th-minute leveller, the Hungarian composed where the striker had spent a hostile afternoon short of certainty. Iraola sidestepped whether Isak would ordinarily take it, noting Szoboszlai has scored from the spot for Liverpool before. Reported after the whistle on Sunday, it is a small selection puzzle with a large audience: name the taker through the team sheet, or watch this debate return the next time a big kick arrives.",
       category: "tactics",
     },
     {
-      title: "Van Dijk Keeps The Armband As Iraola Names Alisson, Gomez And Szoboszlai Vice-Captains (Liverpool FC, today)",
+      title: "Romano: Liverpool Agree Personal Terms With Minteh And Lodge A £60m Bid (Caught Offside, today)",
       detail:
-        "The new manager set his leadership group before a ball is kicked. Iraola confirmed Virgil van Dijk stays captain and named three vice-captains for 2026-27: Alisson and Joe Gomez, whose roles lean on the dressing room and training ground after eight and eleven years of service, and Dominik Szoboszlai, cast as heir apparent after signing a new five-year deal in July. Iraola noted the rules that disadvantage a goalkeeper wearing the armband in-game, which is why Szoboszlai reads as the on-pitch deputy. A quiet, deliberate act of continuity from a coach still learning the room.",
-      category: "general",
+        "A new name moved to the front of the queue. Fabrizio Romano reports Liverpool have agreed personal terms with Brighton's Yankuba Minteh, the 22-year-old Gambia winger on a five-year deal, and submitted a bid worth around £60m after an earlier £50m was turned down, with talks between the clubs described as advancing and the next 24 hours potentially decisive. The complication is fitness: Minteh is sidelined for up to a couple of months with a leg injury taken in pre-season, though the reporting says he 'dreams of joining' and the setback has not cooled Liverpool. A left-field answer to the wing gap Iraola keeps naming.",
+      category: "transfers",
     },
     {
-      title: "Araujo Set For His Competitive Debut As Jacquet Pushes For A First PL Start (This Is Anfield, today)",
+      title: "Isak's Homecoming Turns Sour As Gakpo Keeps Liverpool In It (This Is Anfield, today)",
       detail:
-        "The thin back line takes shape for Tyneside. With Gomez injured and Giovanni Leoni still a long-term absentee, Ronald Araujo is in line to make his competitive Liverpool debut at Newcastle and summer arrival Jeremy Jacquet is tipped to make his own Premier League bow, the pair the only senior centre-back options beside Van Dijk. Predicted teams have Alisson behind a Frimpong, Van Dijk, Kerkez spine with the second centre-back slot the last open call. Reported on Saturday, it is a defence assembled from loan cover and a debutant, and Isak the man it must contain first.",
+        "The billing promised a reckoning and Tyneside delivered one, in the wrong direction for the returning man. Alexander Isak walked back into St James' in Liverpool red a year on from the record move he forced, met by a wall of noise, and produced a display his manager could only describe as difficult, no goal, no release, the ground unforgiving to the last. It was Cody Gakpo, sharp again after his pre-season form, who dragged Liverpool level in the 55th before Szoboszlai's late spot-kick spared the wider night. Isak wanted the stage; Sunday sent him home with the bill.",
       category: "matches",
     },
     {
-      title: "Isak Walks Back Into St James' In Red, A Year On From The Record Exit (Sky Sports, 1d ago)",
+      title: "Barcola Talks Stall As PSG Hold Near £145m And Liverpool Sit At £120m (Liverpool.com, today)",
       detail:
-        "The fixture carries its charge before a ball moves. Alexander Isak returns to Newcastle in Liverpool red on Sunday, a year on from the British-record move he forced by downing tools, and the reception will be pointed; both clubs will pause to remember Kevin Keegan first. Iraola, asked about it, expects his striker to be 'very, very motivated,' as everyone is on an opening day. An injury-wrecked debut year has left Isak's valuation short of the fee paid, and with Salah gone and Ekitike sidelined there is nowhere in the attack for him to hide. He wanted this stage; Sunday asks him for an answer.",
-      category: "matches",
+        "The marquee move has cooled from converging to grinding. Reporting into Sunday and Monday has Liverpool and PSG in daily contact but making little progress, Paris standing firm on a valuation near £145m while Liverpool believe a deal worth up to around £120m is the level they will do business at. Personal terms with the France winger are long settled and his willingness is not in doubt, so the fee remains the only obstacle, and Sky continue to caution the deal is difficult to complete before Ligue 1 shuts on August 31. The Minteh agreement reads, in part, as insurance against exactly this stalemate.",
+      category: "transfers",
     },
     {
-      title: "Newcastle Sweat On Schar And Livramento With Joelinton Ruled Out (Sports Mole, 1d ago)",
+      title: "Injury Latest: Ekitike 'Still Way Off' On His Achilles, Gomez Weeks Away (Liverpool FC, today)",
       detail:
-        "The hosts arrive with a fitness list of their own. Newcastle will be without Joelinton for the opener and are sweating on Fabian Schar and Valentino Livramento, thinning Eddie Howe's options even as Bruno Guimaraes and Anthony Gordon remain. For a young, stretched Liverpool it reads as a chance against a side still rebuilding after Isak's departure, though St James' promises the loudest and least forgiving welcome of the opening weekend. Two wounded squads, one very loud afternoon.",
-      category: "matches",
-    },
-    {
-      title: "Gomez Misses Tyneside And Aims For The Forest Home Opener (Liverpool.com, 2d ago)",
-      detail:
-        "One of the new vice-captains starts the season on the sideline. Joe Gomez misses Sunday's opener with the muscle injury taken inside minutes at Sunderland and is racing to be fit for the first home game against Nottingham Forest on August 29. With Leoni closing on a return from his ACL and Conor Bradley still short after knee surgery, the back line leans on Araujo's loan and a fit-again Jacquet alongside Van Dijk. Cover, not a crisis, but only just, and it thins the department the whole window has failed to reinforce.",
+        "Iraola's first squad update carried no relief. The manager confirmed Hugo Ekitike, who ruptured his Achilles against PSG in April, is 'still way off,' talking in months rather than weeks and unlikely to feature again this calendar year, while Joe Gomez, hurt inside minutes at Sunderland in pre-season, is 'some weeks off' but should not be much longer than that. Conor Bradley (knee) and Giovanni Leoni (knee) remain long-term absentees, leaving Araujo's loan and a fit-again Jacquet as the spine's only fresh cover as the fixtures begin to stack.",
       category: "injuries",
     },
     {
-      title: "Mbaye Thread Stays Open As Liverpool Weigh A Double Raid On Paris (Football365, 2d ago)",
+      title: "New Era, First Home Night: Forest Visit Anfield On Friday (Goal, today)",
       detail:
-        "The Barcola chase keeps a younger shadow attached. Liverpool have agreed personal terms in principle with Ibrahim Mbaye, the 18-year-old PSG winger valued between €40m and €50m, as talks over a possible double raid on Paris tick along in the background. Merseyside has cooled on the second deal while everything is poured into the marquee move, with Dortmund and Leverkusen still circling the teenager. If Barcola completes, this either follows as a genuine double or fades to the Bundesliga; for now it sits and waits on the bigger number resolving.",
+        "The reset gets its Anfield unveiling four days after the opener. Nottingham Forest, beaten at home by Leeds under new boss Oliver Glasner, travel to Merseyside on Friday for Iraola's first competitive home match as Liverpool chase a first win of the campaign after the Newcastle draw. It is the fixture the injury-thinned back line and the still-forming attack most need to settle on, a familiar opponent, a friendly ground, and a manager still writing the room to his own hand.",
+      category: "matches",
+    },
+    {
+      title: "Iraola Ready To Approve Exits As Chiesa Weighs His Options (TeamTalk, 1d ago)",
+      detail:
+        "With Jones gone, the outgoing ledger stays busy into the final week. Reporting has Iraola willing to sanction several departures as the rebuild trims, Federico Chiesa among those considering his future and expected to leave any decision late, with the club balancing the books against the marquee spend still planned in attack. Wataru Endo and Darwin Nunez remain names the desk keeps warm, modest fees and meaningful wages to clear. Nothing is signed, but the shape of a slimmer squad is forming before August 31.",
       category: "transfers",
     },
     {
-      title: "Endo Edges Toward An Exit As The Midfield Trims After Jones (Football Insider, 2d ago)",
+      title: "Post-Match Fallout: Nicol Slams Iraola's 'Nonsense', Neville Faults A Liverpool Man (Rousing the Kop, 1d ago)",
       detail:
-        "One departure done, another warming. With Jones gone to Inter, Wataru Endo is the next name the desk is working, Liverpool having made clubs aware the 33-year-old is available and willing to accept an offer, with Wolves, Fulham and West Ham the long-standing admirers as the window's final fortnight opens. He featured in the Monaco friendly so is fit, but behind the first-choice midfield and retired from Japan duty, his is a modest fee and a meaningful wage to clear toward the rebuild. The Besiktas thread from earlier in the summer has gone quiet.",
-      category: "transfers",
-    },
-    {
-      title: "Champions League League-Phase Draw Falls On August 27 (UEFA, today)",
-      detail:
-        "The European calendar arrives four days into the season. Liverpool enter the 2026-27 Champions League league phase as the fifth-placed English seed, with the draw set for August 27 in Monaco to map the eight-game group stage. It is the platform Iraola inherits and the reward for last season's fifth-place finish under the old regime, a return that will shape a demanding autumn. The opponents land next week; first, the small matter of Newcastle away.",
+        "The draw left the studios busy. Steve Nicol took aim at what he called Iraola's 'nonsense' framing of the late penalty decision, while Gary Neville aired his frustration with one Liverpool player after the 2-2, the kind of opening-weekend noise a new manager inherits with the job. Aired on Sunday evening, it is froth more than crisis, but it sets the register for a season in which every Iraola call, on penalties, on selection, on the window, will be read twice.",
       category: "general",
+    },
+    {
+      title: "Champions League League-Phase Draw Falls On August 27 In Monaco (UEFA, today)",
+      detail:
+        "The European calendar lands mid-week. Liverpool enter the 2026-27 Champions League league phase as the fifth-placed English seed, with the draw set for August 27 in Monaco to map the eight-game group stage, the reward for last season's fifth-place finish and the platform Iraola inherits. The opponents arrive on Thursday; between now and then sit Forest at home and the closing days of a window that still has its biggest question unanswered.",
+      category: "general",
+    },
+    {
+      title: "Curtis Jones Settles At Inter As The €35m San Siro Move Beds In (ESPN, 2d ago)",
+      detail:
+        "The summer's cleanest exit is already receding into the record. Inter Milan's €35m signing of Curtis Jones, structured as €30m plus €5m in add-ons with a ten-percent sell-on retained, took the last Scouser from Liverpool's first team to San Siro on a five-year deal, the third England international to join Inter this window after John Stones and Djed Spence. Confirmed before the weekend, the fee is the war chest the club is now trying to spend, on Barcola if the price yields, on Minteh if it does not.",
+      category: "transfers",
     },
   ],
   sources: [
-    "Liverpool FC",
-    "Liverpool.com",
-    "ESPN",
     "Sky Sports",
+    "BBC Sport",
+    "Caught Offside",
     "This Is Anfield",
-    "Football Italia",
-    "Football365",
+    "Liverpool.com",
+    "Liverpool FC",
     "Goal",
-    "Football Insider",
-    "Sports Mole",
+    "TeamTalk",
+    "Rousing the Kop",
+    "Empire of the Kop",
     "Fabrizio Romano",
+    "ESPN",
     "UEFA",
   ],
 };
@@ -641,9 +645,9 @@ export const NEWS_DIGEST = {
 // heatTier: "hot" (≥65%) | "warm" (40-64%) | "cool" (<40%) | "done" | "dead"
 // sources[].tier: "S" (Romano-class) | "A" (major outlet) | "B" (beat) | "C" (aggregator)
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-08-22T09:30:00Z",
+  generatedAt: "2026-08-24T10:30:00Z",
   summary:
-    "Saturday, and the exit that funds the summer is done. Inter Milan have confirmed the signing of Curtis Jones, a €35m package (€30m plus €5m in add-ons) with a ten-percent sell-on retained, the last Scouser in the first team gone to San Siro and the money now pointed squarely at Paris. There, Liverpool have put around £115m in front of PSG for Bradley Barcola and Paris, holding out as high as £145m all month, have cut their ask toward £125m and are said to be willing to listen, personal terms to 2032 long since agreed. Behind Barcola the double-raid thread stays open, terms agreed in principle with 18-year-old Ibrahim Mbaye though Merseyside has cooled on him, while the wide board keeps Rayan's clause dormant to 2027 and Everton's Iliman Ndiaye as a pricey £75m alternative, and Endo now edges toward the exit door Jones has just walked through. Above it all the farewell is long since inked: Mohamed Salah is a Trabzonspor player.",
+    "Monday, and the wide board has a new name at the top. Fabrizio Romano reports Liverpool have agreed personal terms with Brighton's Yankuba Minteh, a five-year deal for the 22-year-old Gambia winger, and lodged a bid worth around £60m after a £50m opener was rejected, with talks advancing and the next day or two potentially decisive despite the leg injury keeping him out for a couple of months. The move reads, in part, as insurance: the marquee Barcola pursuit has cooled from converging to grinding, PSG holding firm near £145m while Liverpool value the France winger closer to £120m, and Sky still frame the deal as difficult before Ligue 1 shuts on August 31. Behind them the board thins to Rayan's dormant clause and Everton's pricey Ndiaye, while the Curtis Jones €35m sale to Inter now sits banked as the war chest, and the outgoing ledger keeps Chiesa, Endo and Nunez warm before deadline. Above it all the farewell is long since inked: Mohamed Salah is a Trabzonspor player.",
   incoming: [
     {
       name: "Ronald Araujo",
@@ -698,18 +702,18 @@ export const TRANSFER_TARGETS = {
       wageBand: "A",
       contractExpiry: "2028-06-30",
       releaseClause: null,
-      contractNote: "Contracted to PSG until 2028, the France international is the club's marquee saleable asset. He has ceased negotiations over a new deal despite a substantial pay rise offered in Paris and agreed personal terms with Liverpool on a contract to 2032. Liverpool have now put an offer worth around £115m in front of PSG, who held out as high as £145m all month and have since cut their ask toward £125m, reported willing to listen with the gap bridgeable through add-ons; Sky still frame the deal as difficult to complete, but for the first time both clubs are talking the same numbers. Paris made themselves more amenable by adding Ferran Torres (£42.75m from Barcelona) and Mika Godts to Luis Enrique's forward line, and Arsenal are still reported to be watching for a late hijack. The Hughes-Campos channel stays smooth and the player is keen on Anfield, and with Curtis Jones' €35m sale to Inter now confirmed the funds are in place; Bournemouth's Rayan (clause dormant to 2027) is the fallback, with Everton's Iliman Ndiaye a newer, pricier alternative. The Ligue 1 window shuts on 31 August.",
-      probability: 68,
-      heatTier: "hot",
+      contractNote: "Contracted to PSG until 2028, the France international is the club's marquee saleable asset. He has ceased negotiations over a new deal despite a substantial pay rise offered in Paris and agreed personal terms with Liverpool on a contract to 2032. Talks with PSG continue daily but have stalled: after a weekend when the numbers looked to be converging, Paris are again holding firm on a valuation near £145m while Liverpool believe a deal worth up to around £120m is their level, and Sky still frame the move as difficult to complete with little recent progress. Paris made themselves more amenable earlier by adding Ferran Torres (£42.75m from Barcelona) and Mika Godts to Luis Enrique's forward line, and Arsenal are still reported to be watching for a late hijack. The Hughes-Campos channel stays smooth and the player is keen on Anfield, and with Curtis Jones' €35m sale to Inter banked the funds are in place; the personal-terms agreement with Brighton's Yankuba Minteh now reads as the club's insurance if this fee never yields, with Bournemouth's Rayan (clause dormant to 2027) and Everton's Iliman Ndiaye the other wide options. The Ligue 1 window shuts on 31 August.",
+      probability: 55,
+      heatTier: "warm",
       sources: [
         { name: "Liverpool.com",       tier: "B" },
-        { name: "Liverpool FC",        tier: "B" },
         { name: "Sky Sports",          tier: "A" },
+        { name: "This Is Anfield",     tier: "A" },
         { name: "Fabrizio Romano",     tier: "S" },
       ],
-      lastUpdated: "2026-08-22",
+      lastUpdated: "2026-08-24",
       rumorNote:
-        "Paris · 22 Aug — the numbers converge, and the Jones money is in the bank. With Curtis Jones' €35m switch to Inter now confirmed, Liverpool have put an offer worth around £115m in front of PSG, who have cut their ask from as high as £145m toward £125m and are reported willing to listen, the gap now small enough to close through add-ons. Personal terms to 2032 were settled in June and the winger has wanted Anfield since, so the fee is the only argument left. Sky still caution the deal is difficult to complete and Arsenal lurk for a late hijack, but for the first time both clubs are talking the same language. Ligue 1 shuts on August 31.",
+        "Paris · 24 Aug — from converging back to grinding. A weekend that looked like agreement has hardened into a stand-off: reporting into Monday has Liverpool and PSG in daily contact but with little progress, Paris holding firm on a valuation near £145m while Liverpool believe a deal worth up to around £120m is the level they will do business at. Personal terms to 2032 are long settled and the winger's will has never wavered, so the fee is the whole argument, and Sky continue to caution the deal is difficult to complete. The Minteh agreement, sealed the same weekend, reads as the club's answer if this number never yields. Ligue 1 shuts on August 31.",
       positionFit: {
         replaces: "Salah (departed, free agent)",
         competesWith: ["Ndiaye (Everton, newer target)", "Rayan (Bournemouth, clause to 2027)", "Gakpo", "Ngumoha"],
@@ -1057,7 +1061,7 @@ export const TRANSFER_TARGETS = {
     {
       id: "minteh-2026",
       name: "Yankuba Minteh",
-      age: 21,
+      age: 22,
       position: "FWD",
       role: "Winger (right / left)",
       nationality: "🇬🇲 Gambia",
@@ -1065,22 +1069,23 @@ export const TRANSFER_TARGETS = {
       image: "https://r2.thesportsdb.com/images/media/player/cutout/1345u71756998901.png",
       currentClub: "Brighton",
       currentLeague: "Premier League",
-      feeMin: 70, feeMax: 80, feeCurrency: "£m",
-      marketValue: 55,
+      feeMin: 60, feeMax: 75, feeCurrency: "£m",
+      marketValue: 60,
       wageBand: "C",
       contractExpiry: "2029-06-30",
       releaseClause: null,
-      contractNote: "Under contract at Brighton to 2029; reports are split on a mooted £40m clause, but the Seagulls' working valuation is nearer £70-80m for a 21-year-old they rate among the league's brightest wide prospects.",
-      probability: 5,
-      heatTier: "dead",
+      contractNote: "Under contract at Brighton to 2029. The player side is settled: Fabrizio Romano reports Minteh has agreed personal terms with Liverpool on a five-year deal and 'dreams of joining' the Reds. The club-to-club fight is live, Brighton having rejected bids of £50m and £60m and holding out nearer £70-80m for a 22-year-old they rate among the league's brightest wide prospects, with talks reported to be advancing and the next 24-48 hours potentially decisive. The complication is fitness: Minteh is sidelined for up to a couple of months with a leg injury taken in pre-season against Roma, though it has not cooled Liverpool's pursuit.",
+      probability: 58,
+      heatTier: "warm",
       sources: [
-        { name: "This Is Anfield", tier: "A" },
-        { name: "Yahoo Sports",  tier: "B" },
+        { name: "Fabrizio Romano",   tier: "S" },
+        { name: "Caught Offside",    tier: "B" },
         { name: "Empire of the Kop", tier: "B" },
+        { name: "TeamTalk",          tier: "B" },
       ],
-      lastUpdated: "2026-08-16",
+      lastUpdated: "2026-08-24",
       rumorNote:
-        "Brighton · 16 Aug — the attainable one falls injured. All summer Minteh read as the half of Liverpool's alternative board they could actually close, Premier-League-proven, signable inside a fortnight. That ended over the weekend: the 21-year-old faces up to three months out with a leg injury, all but ruling out any move to Anfield before deadline day. It is a gutting blow to the fallback plan just as the marquee pursuit needed insurance most, thinning the wide options to Barcola, Rayan's dormant clause and the newer, pricier Ndiaye. Brighton's number never moved; the injury made it moot. A target the maths allowed, taken off the board by a scan.",
+        "Brighton · 24 Aug — back on the board, and near the top of it. The target that looked dead a week ago is suddenly Liverpool's most advanced wide move: Romano reports personal terms agreed with Minteh on a five-year deal, the winger dreaming of Anfield, and a bid worth around £60m lodged after £50m was turned away. Brighton are holding for nearer £70-80m and the clubs are still apart, but talks are described as advancing with the next day or two potentially decisive. The catch has not changed, a leg injury keeps him out a couple of months, yet Liverpool are undeterred, treating him as the answer to the wing gap Iraola keeps naming and the hedge against a Barcola number that will not yield. From a scan-ended fallback to the live alternative in seven days.",
       positionFit: {
         replaces: "Salah (wide forward)",
         competesWith: ["Barcola (primary target)", "Gakpo", "Munoz"],
@@ -1792,12 +1797,12 @@ export const TRANSFER_TARGETS = {
       id: "gakpo-out",
       name: "Cody Gakpo",
       position: "FWD",
-      destination: "Tottenham (expected to stay; in line to start at Newcastle)",
+      destination: "Tottenham (staying; started and scored at Newcastle)",
       feeAsk: { min: 70, max: 80, currency: "£m" },
-      probability: 22,
+      probability: 18,
       heatTier: "cool",
       sources: [{ name: "Liverpool.com", tier: "A" }, { name: "ESPN", tier: "A" }, { name: "This Is Anfield", tier: "A" }],
-      note: "Thu 20 Aug — settled into a stay, and a start. A day on from the reversal, Liverpool still do not expect Cody Gakpo to join Tottenham before the deadline, the hierarchy won over by a pre-season under Iraola in which he scored against Como. Spurs' opening bid, a little over £60m, was rejected against a valuation nearer £72m, and with Jones' sale to Inter now funding the window, the pressure to bank Gakpo has gone. He signed fresh Anfield terms only last year and is in line to start on the left at St James' Park, a forward the manager trusts rather than a line on the ledger.",
+      note: "Sun 23 Aug — the stay pays off inside a week. The forward Tottenham chased all summer opened the Iraola era on the scoresheet, Gakpo dragging Liverpool level at St James' in the 55th before Szoboszlai's late penalty rescued the 2-2. Liverpool never expected him to leave once the hierarchy warmed to his pre-season under Iraola, Spurs' opening bid of a little over £60m rejected against a valuation nearer £72m, and with the Jones money banked the pressure to sell him is gone. He signed fresh Anfield terms only last year; on this evidence he is a starter the manager trusts, not a line on the ledger.",
     },
     {
       id: "macallister-out",
@@ -1808,7 +1813,7 @@ export const TRANSFER_TARGETS = {
       probability: 15,
       heatTier: "cool",
       sources: [{ name: "Ben Jacobs / talkSPORT", tier: "A" }, { name: "This Is Anfield", tier: "A" }, { name: "Empire of the Kop", tier: "C" }],
-      note: "Sun 16 Aug — a shortlist that came to nothing. The midweek report that Manchester City, planning for Rodri's Barcelona move, had named Mac Allister among midfield options with Wharton and Enzo Fernandez never hardened into contact, and the Argentine's camp shut it down at once, ruling out any exit this summer. Two years left, no extension open, and Iraola's spine built around him: Liverpool never entertained a sale, and the story has settled exactly where the club wanted it. Back in training after the tour, he is folded into the midfield heading into Newcastle. A shortlist, in the end, was only ever that.",
+      note: "Sun 16 Aug — a shortlist that came to nothing. The midweek report that Manchester City, planning for Rodri's Barcelona move, had named Mac Allister among midfield options with Wharton and Enzo Fernandez never hardened into contact, and the Argentine's camp shut it down at once, ruling out any exit this summer. Two years left, no extension open, and Iraola's spine built around him: Liverpool never entertained a sale, and the story has settled exactly where the club wanted it. Back in training after the tour, he is folded into the midfield through the Newcastle draw. A shortlist, in the end, was only ever that.",
     },
     {
       id: "salah-out",
@@ -1836,12 +1841,12 @@ export const TRANSFER_TARGETS = {
       id: "chiesa-out",
       name: "Federico Chiesa",
       position: "FWD",
-      destination: "Staying (rejected Atletico, Roma, Napoli, Como, Fiorentina)",
+      destination: "Weighing his options as the final week opens",
       feeAsk: { min: 10, max: 15, currency: "€m" },
-      probability: 25,
+      probability: 30,
       heatTier: "cool",
-      sources: [{ name: "Football Italia", tier: "A" }, { name: "Footmercato", tier: "B" }, { name: "Goal", tier: "A" }],
-      note: "Sat 1 Aug — five approaches, five refusals. Football Italia, citing Footmercato, report Chiesa personally turned down Atletico Madrid, Roma, Napoli, Como and Fiorentina, with Atletico the most determined of them. After scoring off the bench in Nashville he said the only thing on his mind was Liverpool, and the stay-and-fight stance he took under Iraola has held all summer. Liverpool would still take around £10-15m and his deal runs to 2028, so with three weeks left it is cool rather than closed, but the player is the obstacle now.",
+      sources: [{ name: "TeamTalk", tier: "B" }, { name: "Liverpool.com", tier: "A" }, { name: "Goal", tier: "A" }],
+      note: "Mon 24 Aug — the decision Iraola is content to sanction. With the manager reported willing to approve several exits as the rebuild trims, Chiesa is among those weighing his future and expected to leave any call to the closing days of the window. He personally rebuffed Atletico, Roma, Napoli, Como and Fiorentina earlier in the summer and, after scoring off the bench in Nashville, said the only thing on his mind was Liverpool, so the stay-and-fight instinct is real. But the squad maths has shifted with the season underway, Liverpool would still take around £10-15m on a deal to 2028, and the player, once the obstacle, may yet become the mover before August 31.",
     },
     {
       id: "endo-out",

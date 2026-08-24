@@ -1,9 +1,9 @@
 {
-  "leadStory": "Saturday, matchday eve, and the summer's cleanest exit is done: Inter Milan have confirmed Curtis Jones for €35m, the last Scouser gone to San Siro, the money now aimed at a Barcola deal Liverpool have backed with a £115m offer as PSG cut their ask toward £125m. Iraola has set his leadership group, Van Dijk captain with Alisson, Gomez and Szoboszlai as vice-captains, before Sunday's opener at Newcastle, where a thin, young side meets Isak's hostile return in red.",
-  "subject": "Curtis Jones sale to Inter confirmed and the Barcola pursuit sharpening on the eve of the opener; a departure and a still-unconfirmed negotiation, not a single Liverpool hero moment already photographed",
-  "prompt": "Cinematic editorial photograph, exterior of a historic English football stadium at dusk on the eve of a new season, floodlights warming against a darkening sky, empty forecourt, a mood of restless anticipation, no on-image text, generous headroom at the top for a masthead headline",
-  "aspectRatio": "landscape",
-  "slug": "opener-eve",
-  "generatedAt": "2026-08-22T09:30:00Z",
-  "note": "Lead is the confirmed Curtis Jones sale to Inter (€35m) plus the sharpening but unconfirmed Barcola pursuit (£115m offered, PSG down to £125m), on the eve of the opener. A departure to a rival is no cover-hero still and the opener is unplayed, so no image queued this edition. Fallback to pure-type cover."
+  "leadStory": "Sunday at St James' Park, and Dominik Szoboszlai buries a penalty in the ninth minute of stoppage time to rescue a 2-2 draw on Andoni Iraola's competitive Liverpool debut, cancelling strikes from Anthony Elanga and Joe Willock after Cody Gakpo had levelled, and stepping up over Alexander Isak with Salah gone and the penalty order unsettled.",
+  "subject": "Dominik Szoboszlai wheeling away in a red away shirt after scoring a stoppage-time penalty at St James' Park, arms wide, teammates converging behind him, a wall of Newcastle black-and-white in the stands, floodlit night",
+  "prompt": "Cinematic editorial sports photograph, a midfielder in a red away kit wheeling away in celebration immediately after scoring a late penalty, arms outstretched, raw elation, teammates rushing to join him, a packed floodlit English stadium behind in black-and-white home colours, shallow depth of field, motion energy, no on-image text, generous headroom at the top for a masthead headline",
+  "aspectRatio": "portrait",
+  "slug": "szoboszlai-penalty",
+  "generatedAt": "2026-08-24T10:30:00Z",
+  "note": "Lead is Szoboszlai's 99th-minute penalty rescuing a 2-2 at Newcastle on Iraola's debut, a genuine cover-hero still. Image warranted this edition; queued for the Antigravity generator via cover-brief.json (limn Vault path not reachable from the sandbox run). Fallback to pure-type until src is repointed."
 }

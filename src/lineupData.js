@@ -21,8 +21,8 @@ export const FORMATIONS = {
     },
     // IDs from playerData.js. This 4-3-3 is the backup look; the default is the
     // 4-2-3-1 below. Refreshed Sat Aug 22: pre-season over (Como beaten 2-0 on
-    // Aug 16, Gakpo and Jacquet), next up is Newcastle away on Sunday Aug 23,
-    // Iraola's first competitive match. Mac Allister back in the spine; Ekitike
+    // Aug 16, Gakpo and Jacquet), next up is Nottingham Forest at home on Fri Aug 29,
+    // Iraola's first competitive HOME match (Newcastle away drawn 2-2 on Aug 23). Mac Allister back in the spine; Ekitike
     // (on a cane), Leoni and Bradley take no part; Gomez out for the opener and
     // racing for Forest on Aug 29, leaving Frimpong the only fit recognised right
     // back with Araujo's loan covering; Jacquet fit again and scored vs Como.
@@ -63,7 +63,7 @@ export const FORMATIONS = {
     // The 2025-26 season is COMPLETE. This 4-2-3-1, the shape Slot favoured
     // through the run-in, is shown as the first-choice XI Liverpool finished the
     // campaign with (adjusted for the summer exits), NOW pointed at the coming
-    // fixture: Newcastle away on Sunday Aug 23 (pre-season closed, Como beaten 2-0 on Aug 16).
+    // fixture: Nottingham Forest at home on Fri Aug 29 (Newcastle away drawn 2-2 on Aug 23).
     // Refreshed Sat Aug 22: Como beaten 2-0 on Aug 16 (Gakpo, Jacquet), pre-season closed; next up
     // Newcastle away on Aug 23. Mac Allister is back in the spine after the World Cup final;
     // Ekitike (on a cane) and Bradley take no part (rehab), Gomez out and racing for Forest on Aug 29,
@@ -126,43 +126,42 @@ export const FORMATIONS = {
 
 // One-line evidence string per player, surfaced under the token on hover.
 // Hand-curated from RESULTS array + injuryNote context as of 2026-08-22
-// (Sat Aug 22: pre-season over, next up is Newcastle away on Sunday Aug 23 (Como beaten 2-0 on Aug 16), Iraola's
+// (Sat Aug 22: pre-season over, next up is Nottingham Forest at home on Fri Aug 29 (Newcastle away drawn 2-2 on Aug 23), Iraola's
 // first competitive match. Salah is a Trabzonspor player; Curtis Jones' €35m move to Inter is confirmed and
 // he has left the squad; Liverpool no longer expect to sell Gakpo, now in line to start;
 // the Barcola pursuit has sharpened, Liverpool offering near £115m as PSG cut their ask toward £125m;
 // Frimpong the lone fit senior RB, Araujo's loan covering; Gomez out for the opener (Forest Aug 29);
 // Leoni closing on a September return from his ACL; Ekitike (on a cane) and Bradley play no part.)
 export const PLAYER_EVIDENCE = {
-  1:  "Vice-captain · No. 1 for the opener",       // Alisson
+  1:  "Started the 2-2 at Newcastle · No. 1",     // Alisson
   2:  "No. 2 · asset to loan, not sell",          // Mamardashvili
-  3:  "Captain · leads them out at Newcastle",    // Van Dijk
-  5:  "Vice-captain · out injured, Forest Aug 29", // Gomez
-  7:  "First-pick LB · Robertson gone to Spurs",  // Kerkez
-  8:  "Knee · misses opener, rehab only",         // Bradley
+  3:  "Captain · led the draw at Newcastle",      // Van Dijk
+  5:  "Muscle · missed opener, Forest too soon?", // Gomez
+  7:  "Started at Newcastle · first-pick LB",     // Kerkez
+  8:  "Knee · missed opener, rehab only",         // Bradley
   9:  "Lone fit senior RB · Araujo spells him",   // Frimpong
   10: "ACL · nearing training, Sept eyed",        // Leoni
-  11: "Scored vs Como · back and fit",            // Jacquet
+  11: "CB cover · Araujo (loan) also in the mix", // Jacquet
   12: "Starred vs Monaco · barred until Jan",     // Ndukwe
   13: "WC finalist · central, City link dead",    // Mac Allister
   14: "The fixed point at the base",              // Gravenberch
-  15: "Vice-captain · new five-year deal to 2031",  // Szoboszlai
+  15: "Scored the 99th-min penalty at Newcastle", // Szoboszlai
   17: "Made available · sell-to-buy exit",        // Endo
-  18: "Scored vs Monaco · the No. 10",            // Wirtz
+  18: "The No. 10 · started the opener",          // Wirtz
   19: "Building fitness · back with the group",   // Bajcetic
   20: "Impressed on tour · Iraola audition",      // Nyoni
-  22: "Staying · in line to start at Newcastle",  // Gakpo
-  23: "Returns to St James' in red · Aug 23",     // Isak
-  24: "Achilles · on a cane, festive return eyed", // Ekitike
-  25: "Rotation option · Gakpo starts ahead",     // Ngumoha
-  26: "Back from illness · staying to fight",     // Chiesa
+  22: "Scored the equaliser at Newcastle",        // Gakpo
+  23: "Hostile return, no goal at St James'",     // Isak
+  24: "Achilles · 'still way off,' months out",   // Ekitike
+  25: "Rotation option · came off the bench",     // Ngumoha
+  26: "Weighing his options in the final week",   // Chiesa
   27: "New deal · 3rd-choice GK",                 // Woodman
-  28: "World champion · debuted vs Monaco",       // Munoz
+  28: "Won the late penalty as a sub",            // Munoz
 };
 
 // Default formation when entering the view: the 4-2-3-1 Slot favoured through
 // the run-in, shown as the first-choice XI Liverpool finished the 2025-26
-// season with, now pointed at Newcastle away on Sunday Aug 23 (pre-season closed,
-// Como beaten 2-0 on Aug 16). It is a squad baseline, adjusted for team news.
+// season with, now pointed at Nottingham Forest at home on Fri Aug 29 (Newcastle away drawn 2-2 on Aug 23). It is a squad baseline, adjusted for team news.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────────────────────
@@ -170,8 +169,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys. With the season over these read as confidence that the slot's
 // occupant remains a first-choice starter into 2026-27 — LOW where the player
 // has left (Salah, Robertson, Konate) or whose future is open (Mac Allister).
-// (Refreshed Sat Aug 22: pre-season over (Como beaten 2-0 on Aug 16), next up Newcastle
-// away on Aug 23. Curtis Jones' €35m sale to Inter is confirmed and he leaves the squad;
+// (Refreshed Sat Aug 22: pre-season over (Como beaten 2-0 on Aug 16), next up Nottingham Forest at home on Aug 29 (Newcastle away drawn 2-2 on Aug 23). Curtis Jones' €35m sale to Inter is confirmed and he leaves the squad;
 // Liverpool no longer expect to sell Gakpo, now in line to start with Ngumoha to the bench; the
 // Barcola pursuit sharpens with Liverpool offering near £115m as PSG cut their ask toward £125m;
 // Araujo in on loan and bowed vs Como; Munoz debuted vs Monaco; Frimpong the lone fit senior RB.)
@@ -185,8 +183,8 @@ export const SLOT_CONFIDENCE = {
   RDM: "High",   // Szoboszlai · new five-year deal signed to 2031 · in day one
   LAM: "Medium", // Wirtz · injury-hit debut season · No. 10 role, scored vs Monaco
   CAM: "Medium", // Mac Allister · World Cup runner-up · back training after the tour, City link dead, central again
-  RAM: "Medium", // Salah gone (Trabzonspor) · Gakpo staying and expected to start until a senior winger (Barcola) signs
-  ST:  "Medium", // Isak · injury-wrecked debut year · returns to St James' in red on Aug 23
+  RAM: "Medium", // Salah gone (Trabzonspor) · Gakpo scored at Newcastle and holds the right until a senior winger signs
+  ST:  "Medium", // Isak · injury-wrecked debut year · blank on his hostile Newcastle return, seeks first goal vs Forest
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
@@ -194,14 +192,14 @@ export const SLOT_CONFIDENCE = {
 export const SLOT_RATIONALE = {
   LB:  "Tue Jun 2 — with Andy Robertson's free transfer to De Zerbi's Tottenham now done, the Liverpool left-back slot is unambiguously Milos Kerkez's after a tough first season at £45m. Nine years of cover at the position have walked out the door in a single window.",
   LCB: "Fri Jul 10 — a fresh voice for the defence: John Barnes has urged Liverpool to extend Van Dijk beyond his 2027 deal even at 35, as the AC Milan interest driven by Ibrahimović, Fenerbahce lurking, keeps being knocked back at Anfield, no bid received and none expected to move him. The captain is central to Iraola's plans and the slot a thinning back line is being rebuilt around, Jacquet, cleared by his surgeon to rejoin group training, the in-house cover behind him.",
-  RCB: "Sun Aug 16 — the slot has cover, and its returnee is fit and scoring. Ronald Araujo took his Anfield bow in the 2-0 win over Como, and Jeremy Jacquet, back from a shoulder problem, marked his return to the same game with a goal, easing a centre-back file that Konate's free exit and injuries had cut to Van Dijk alone against Monaco. Araujo can fill right-back too. With the emergency met and a fit senior partner beside Van Dijk again for Newcastle, a permanent centre-back (Milan's Tomori the value route) slides to a longer-term want rather than a must-have.",
+  RCB: "Sun Aug 16 — the slot has cover, and its returnee is fit and scoring. Ronald Araujo took his Anfield bow in the 2-0 win over Como, and Jeremy Jacquet, back from a shoulder problem, marked his return to the same game with a goal, easing a centre-back file that Konate's free exit and injuries had cut to Van Dijk alone against Monaco. Araujo can fill right-back too. With the emergency met and a fit senior partner beside Van Dijk through the Newcastle draw, a permanent centre-back (Milan's Tomori the value route) slides to a longer-term want rather than a must-have.",
   LDM: "Tue Jun 2 — Gravenberch finished the season as the most consistent midfielder Liverpool had and is in the Dutch World Cup squad; the obvious building block at the base of the 4-2-3-1 going into 2026-27.",
   RDM: "Sat Jul 18 — settled, and expensively so. Szoboszlai has signed a new five-year contract running to 2031, three years on from arriving from Leipzig on a deal that ran only to 2028, with reported terms in the £200,000-£250,000 band. He was voted supporters' player of the season after a campaign spent filling in at right-back, at the eight and on the right wing. With Salah, Konate and Robertson all gone for nothing, this is the club choosing to keep rather than to replace.",
   LAM: "Tue Jun 2 — Florian Wirtz ends an injury-disrupted, awkward first season at Liverpool — the £115m playmaker shared just 117 minutes on the pitch with Isak and Ekitike all year. The club is holding firm on keeping him; a clean pre-season is everything now.",
-  CAM: "Sun Aug 16 — back in the fold, and central to it. Mac Allister missed the American tour in its entirety after the World Cup final at MetLife, where Argentina lost in extra time reduced to ten after Enzo Fernandez's 93rd-minute red and Ferran Torres finished it on 106, but he is now training again and folded into Iraola's spine for the Newcastle opener. Iraola has resisted the summer's Madrid whispers and a fleeting City shortlist, keeping him rather than banking him as sell-to-buy fuel. A club season in which he was among the most criticised at Anfield was rewritten by five weeks in America; this slot is a selection again, not a placeholder.",
-  RAM: "Sat Aug 22 — the slot that defines the summer, held by the man the club chose to keep as the man it wants closes in. Liverpool no longer expect to sell Gakpo, and the forward impressed enough in pre-season to own the post-Salah berth for the opener, Rio Ngumoha pushing hard for a start off the back of his own pre-season. Above it the marquee search has sharpened: with Curtis Jones' €35m Inter sale now confirmed and the money banked, Liverpool have put an offer near £115m to PSG for Barcola as Paris cut their ask toward £125m, both clubs at last talking the same number. The fallback board stays thin, Rayan's clause dormant to 2027, Everton's Ndiaye a pricey £75m alternative. Until a senior winger signs, Gakpo owns the right and Ngumoha waits.",
-  RB:  "Sat Aug 22 — a one-man department, with cover rather than competition. Jeremie Frimpong is the only fit recognised right-back: Conor Bradley is still short after January knee surgery and misses the opener, Joe Gomez out and racing to be fit for Forest on August 29. Ronald Araujo, in on loan and set for his competitive debut, can spell the flank at Newcastle, softening a need that had Tottenham's Djed Spence floated around £35m before he went elsewhere. Curtis Jones, last season's emergency cover there, is now an Inter player, sold for €35m on the eve of the opener. Frimpong plays by elimination, for now.",
-  ST:  "Mon Aug 10 — Alexander Isak opened the scoring in Sunday's 2-3 defeat to Monaco, lining up again with Wirtz and Gravenberch and giving the first half exactly the fluency Iraola's reset promised before a thin bench let the two-goal lead slip. An injury-wrecked debut season limited the £100m striker to a handful of starts and never let the front three settle; a clean run under Iraola is the reset the whole attack needs, and the goals are starting to come.",
+  CAM: "Sun Aug 16 — back in the fold, and central to it. Mac Allister missed the American tour in its entirety after the World Cup final at MetLife, where Argentina lost in extra time reduced to ten after Enzo Fernandez's 93rd-minute red and Ferran Torres finished it on 106, but he is now training again and started the Newcastle draw in Iraola's spine. Iraola has resisted the summer's Madrid whispers and a fleeting City shortlist, keeping him rather than banking him as sell-to-buy fuel. A club season in which he was among the most criticised at Anfield was rewritten by five weeks in America; this slot is a selection again, not a placeholder.",
+  RAM: "Mon Aug 24 — the slot that defined the summer, repaid on the opening day. Kept against Tottenham's interest, Gakpo answered by dragging Liverpool level at Newcastle in the 55th, the post-Salah berth his on merit rather than by default, with Rio Ngumoha a bench option for now. Above it the marquee search has cooled from converging to grinding: PSG are back holding Barcola near £145m against Liverpool's £120m valuation, and the club's answer this week was to agree personal terms with Brighton's Yankuba Minteh and lodge a £60m bid. The fallback board keeps Rayan's clause dormant to 2027 and Everton's Ndiaye pricey. Until a senior winger signs, Gakpo owns the right, and on this evidence he may keep it regardless.",
+  RB:  "Mon Aug 24 — a one-man department, and it held. Jeremie Frimpong started the 2-2 at Newcastle as the only fit recognised right-back: Conor Bradley is still short after January knee surgery, Joe Gomez 'some weeks off' and possibly short for Friday's Forest visit. Ronald Araujo, in on loan and now with his competitive debut behind him, can spell the flank as the in-game cover, softening a need that had Tottenham's Djed Spence floated around £35m before he went elsewhere. Curtis Jones, last season's emergency cover there, is an Inter player now. Frimpong plays by elimination, and plays on.",
+  ST:  "Mon Aug 24 — Alexander Isak walked back into St James' in red on Sunday and found the loudest, coldest welcome of the weekend, no goal, a difficult afternoon, and the late penalty handed to Szoboszlai rather than him. Lined up again with Wirtz and Gravenberch behind him, the £100m striker's injury-wrecked debut year still shadows a front line that has not settled. A first goal of the Iraola era, ideally at Anfield against Forest on Friday, is the reset the whole attack, and the striker himself, most needs.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -226,6 +224,6 @@ export const ALTERNATIVES = {
 // Overall confidence chip shown above the pitch. Enriched with predictor
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
-  level: "Medium",
-  reason: "Sat Aug 22 — one day out, the XI below points at Newcastle away on August 23, Liverpool's league opener and Iraola's first competitive match, with a settling core but a genuine rotation caveat: the manager gave a settled group the full 90 against Como, said the week 'smells different,' and would not name his eleven, insisting the players do not know it yet. Jacquet is fit again beside Van Dijk and is tipped for a Premier League debut, with Araujo (loan) set for his own competitive bow and covering a defence still missing Gomez (out for the opener, racing for Forest on Aug 29), Leoni (ACL, eyeing September) and Bradley (knee). Isak returns to St James' in red, the fixture's marquee storyline. On the ledger: Curtis Jones' €35m sale to Inter is confirmed and he leaves the squad, while Gakpo starts with Ngumoha pushing; above it Liverpool have offered near £115m for Barcola as PSG cut their ask toward £125m. Iraola has named Van Dijk captain with Alisson, Gomez and Szoboszlai his vice-captains. Araujo, a loan arrival, is not yet in the PLAYERS-keyed XI. Next up: Newcastle away, August 23."
+  level: "High",
+  reason: "Mon Aug 24 — the XI below now points at Nottingham Forest at home on Friday, August 29, Iraola's first competitive night at Anfield, and confidence is high because we have a competitive team sheet to read: the group that drew 2-2 at Newcastle on Sunday started ten of the eleven shown here, Szoboszlai rescuing a debut point from a stoppage-time penalty and Gakpo taking the equaliser. Expect continuity. The defence stays thin, Gomez 'some weeks off' and possibly short for Friday, Leoni (ACL, eyeing September) and Bradley (knee) still out, so Frimpong holds the right with Araujo's loan the in-game cover and Jacquet beside Van Dijk. Isak leads the line seeking a first goal of the era after a hostile, blank afternoon on Tyneside. On the ledger the picture has shifted since the opener: personal terms are agreed with Brighton's Minteh (£60m bid lodged) while the Barcola pursuit has stalled, PSG holding near £145m against Liverpool's £120m. Araujo, a loan arrival, is not yet in the PLAYERS-keyed XI, so Jacquet fills RCB in the graphic. Next up: Nottingham Forest at home, August 29."
 };
