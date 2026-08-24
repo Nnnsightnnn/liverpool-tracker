@@ -512,7 +512,7 @@ export const DISPATCHES = [
     dateline: "St James' Park · 23 August",
     category: "Match Report",
     body:
-      "There is no gentle way to begin a reign, and Andoni Iraola was not offered one. Anthony Elanga struck early and Joe Willock, on for seconds, restored Newcastle's lead just after the hour, each blow answered only in part by Cody Gakpo's equaliser. Then came the ninth minute of stoppage time, Lewis Hall clipping the substitute Victor Munoz, the referee pointing, and Dominik Szoboszlai standing over a kick that would define the afternoon. He scored it. Newcastle 2-2 Liverpool, a debut point wrenched from the very last act, on a day the new manager's team looked ragged at the back and unbroken in nerve. Not a performance. A statement of stubbornness.",
+      "There is no gentle way to begin a reign, and Andoni Iraola was not offered one. Anthony Elanga struck early and Joe Willock, on for seconds, restored Newcastle's lead just before the hour, each blow answered only in part by Cody Gakpo's equaliser. Then came the ninth minute of stoppage time, Lewis Hall clipping the substitute Victor Munoz, the referee pointing, and Dominik Szoboszlai standing over a kick that would define the afternoon. He scored it. Newcastle 2-2 Liverpool, a debut point wrenched from the very last act, on a day the new manager's team looked ragged at the back and unbroken in nerve. Not a performance. A statement of stubbornness.",
   },
   {
     n: "02",
@@ -1791,7 +1791,7 @@ export const TRANSFER_TARGETS = {
       probability: 100,
       heatTier: "done",
       sources: [{ name: "ESPN", tier: "A" }, { name: "Sky Sports", tier: "A" }, { name: "Goal", tier: "A" }, { name: "Liverpool.com", tier: "A" }, { name: "Fabrizio Romano", tier: "S" }],
-      note: "Fri 21 Aug — signed, sealed, gone. Inter Milan confirmed the signing of Curtis Jones on a five-year deal, the fee a package around €35m structured as €30m up front plus €5m in add-ons with a ten-percent sell-on kept back on Merseyside. He passed his medical and put pen to paper, becoming the third England international to join Inter this window after John Stones and Djed Spence. Liverpool pushed toward €40m and took Inter's mark rather than run a homegrown asset into the final year of his deal. The only Scouser left in the first team, two trophies and 160-plus starts of it, leaves for San Siro on the eve of the opener, the summer's cleanest exit now the money that points the Barcola pursuit at Paris.",
+      note: "Fri 21 Aug — signed, sealed, gone. Inter Milan confirmed the signing of Curtis Jones on a five-year deal, the fee a package around €35m structured as €30m up front plus €5m in add-ons with a ten-percent sell-on kept back on Merseyside. He passed his medical and put pen to paper, becoming the third England international to join Inter this window after John Stones and Djed Spence. Liverpool pushed toward €40m and took Inter's mark rather than run a homegrown asset into the final year of his deal. The only Scouser left in the first team, two trophies and 160-plus starts of it, left for San Siro on the eve of an opening day he would not see, the summer's cleanest exit now the money that points the Barcola pursuit at Paris.",
     },
     {
       id: "gakpo-out",
