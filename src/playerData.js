@@ -142,14 +142,7 @@ export const PLAYERS = [
     ],
   },
   {
-    physical: { height: 182, weight: 74, pace: 72, acceleration: 74, sprintSpeed: 70 },
-    career: [
-      { years: "2010-2019", club: "Liverpool Academy", fee: null, type: "youth" },
-      { years: "2019-", club: "Liverpool", fee: null, type: "senior" },
-    ],
-  },
-  {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "doubtful", outSince: "2026-02-12", injuryNote: "Wed Jul 22 — named in the group building fitness, not featuring. Iraola's briefing placed Endo alongside Bajcetic and the long-term absentees as travelling to work rather than play, the February foot trouble behind him but a sale still expected before the window shuts. At 33, and retired from Japan duty in June, he is deep squad under a manager who has never selected him", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Wed Aug 26 — fit, available, and being pushed toward the door. The February foot trouble is long behind him and Endo trained through the American tour, but he has not featured under a manager who has never selected him, and Liverpool have made clubs aware he is available, driving a Premier League exit rather than merely fielding calls. Wolves, Fulham and West Ham are the standing admirers. At 33, retired from Japan duty since June, he is one of as many as eight departures FSG will sanction before Tuesday, and one of the few whose sale would actually clear wages", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -610,12 +603,6 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "Orozco Advances: A Delegation Flies To Colombia For An 18-Year-Old's \u20ac6m Clause (CaughtOffside / Sports Mole, 1d ago)",
-      detail:
-        "The quiet piece of business moved on Tuesday and held on Wednesday. Liverpool are reported to have agreed to meet the release clause of Matias Orozco, the 18-year-old Deportivo Cali midfielder, a figure given in Colombia as around \u20ac6m net and the largest fee the club has taken for an academy product. A Liverpool delegation travelled for the deal, with Cali's coach Rafael Dudamel confirming negotiations for a European move are advanced with details outstanding. Two goals in twenty-seven senior appearances at eighteen.",
-      category: "transfers",
-    },
-    {
       title: "Iraola Faces The Press On Thursday Lunchtime With Forest, And A Window, To Answer For (Liverpool FC, today)",
       detail:
         "The manager speaks at half past one on Thursday, previewing his first competitive home match. He will be asked about Nottingham Forest and about a right flank that has lost two candidates in a day, a combination that makes the Thursday briefing the most consequential of his short tenure. Liverpool took a point at Newcastle through Szoboszlai's ninety-ninth-minute penalty; Forest lost at home to Leeds to Anton Stach's free-kick and arrive at Anfield on Saturday still without a point.",
@@ -633,6 +620,12 @@ export const NEWS_DIGEST = {
         "The medical room offered no clean answer on Wednesday. Federico Chiesa, absent at Newcastle with a fitness problem believed minor, returned to light work but remains a doubt for Saturday, while Joe Gomez, hurt inside minutes at Sunderland on 25 July, has trained with the group without being cleared, some previews still listing him among the unavailable. Conor Bradley, Hugo Ekitike, Vitezslav Jaros and Giovanni Leoni are all definitively out. Iraola will settle it on Thursday.",
       category: "injuries",
     },
+    {
+      title: "Orozco Advances: A Delegation Flies To Colombia For An 18-Year-Old's \u20ac6m Clause (CaughtOffside / Sports Mole, 1d ago)",
+      detail:
+        "The quiet piece of business moved on Tuesday and held on Wednesday. Liverpool are reported to have agreed to meet the release clause of Matias Orozco, the 18-year-old Deportivo Cali midfielder, a figure given in Colombia as around \u20ac6m net and the largest fee the club has taken for an academy product. A Liverpool delegation travelled for the deal, with Cali's coach Rafael Dudamel confirming negotiations for a European move are advanced with details outstanding. Two goals in twenty-seven senior appearances at eighteen.",
+      category: "transfers",
+    },
   ],
   sources: [
     "TeamTalk",
@@ -646,7 +639,7 @@ export const NEWS_DIGEST = {
     "Liverpool.com",
     "Liverpool FC",
     "UEFA",
-    "Yahoo Sports",
+    "Goal",
   ],
 };
 // ─── Transfer Targets (2026 summer window) ─────────────────────────────────

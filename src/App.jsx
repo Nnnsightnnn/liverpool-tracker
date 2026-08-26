@@ -532,14 +532,14 @@ function CoverView({ onJump }) {
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings as they finished, and
-              five dispatches from the writers who never clock off. There is an
-              ownership deal now signed and the size of the summer; a defender in
-              on loan from Barcelona; a winger board topped by Barcola, agreed
-              with Paris, and thinning fast beneath him; a midfield reshaping
-              around a new vice-captain; and a farewell long since sealed east.
-              Read them in order. The season opened at Newcastle with a point on
-              the twenty-third of August, Forest come to Anfield on the
-              twenty-ninth, and the summer has not been quiet once.
+              five dispatches from the writers who never clock off. There is a
+              fee that was never Brighton's fee; an afternoon with Ismaila Sarr
+              and then none at all; a phone call to Lille after dark; a marquee
+              agreement in Paris that did not move, which is now the whole plan;
+              and a manager who takes the chair on Thursday with a window to
+              explain. Read them in order. The season opened at Newcastle with a
+              point on the twenty-third of August, Forest come to Anfield at half
+              twelve on the twenty-ninth, and the market shuts on the first.
             </p>
           </div>
           <div style={{ background: T.rule }} />
