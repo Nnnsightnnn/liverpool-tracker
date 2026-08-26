@@ -477,12 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, and the window quickens before the football resumes.{" "}
-          <em>Barcola</em>, left out in Paris a second week running, is a deal
-          Liverpool now hope to seal this week, a third bid already in for{" "}
-          <em>Minteh</em>. Behind sits a point at Newcastle; ahead, the first
-          home night, <em>Forest</em> at Anfield on Saturday, and a first win of
-          the Iraola era still owed.
+          Wednesday, and the wing takes shape before the football resumes.{" "}
+          <em>Minteh</em>, around seventy million agreed with Brighton, will heal
+          a leg before he plays; <em>Barcola</em>, told to train only until his
+          future clears, is a fee alone from following. Behind sits a point at
+          Newcastle; ahead, <em>Forest</em> at Anfield on Saturday, the first
+          home night and a first win of the Iraola era still owed.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,18 +513,18 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and the transfer window has found the gear the football has not.{" "}
-              <em>Barcola</em>, left out of PSG's squad for a second weekend, is a
-              deal Liverpool are suddenly hopeful of closing this week, an
-              improved offer readied to bridge a fee that had held near £145m; a
-              third bid worth around £68m is in for <em>Minteh</em>. At the other
-              end the exits open at once, up to eight to be sanctioned, Calvin{" "}
-              <em>Ramsay</em> loaned to St Mirren the first gone. Chiesa is a
-              fresh doubt, Gomez racing the clock, the back line thin as ever.
-              Forest come to Anfield on Saturday for the first home night of a new
-              age, two days after the Champions League draw in Monaco. Trim the
-              squad; land the winger; find the win.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and the wing rebuild finds its first firm line.{" "}
+              <em>Minteh</em>, around £70m agreed with Brighton, is a deal set to
+              complete, a signing who must heal a leg before he can play;{" "}
+              <em>Barcola</em>, told to train only until his future clears, is a
+              fee alone from Anfield, Liverpool edging toward a sub-€150m
+              compromise. At the other end the exits accelerate, <em>Endo</em>{" "}
+              pushed toward a move and Mamardashvili's loan shopped to Serie A,
+              up to eight to go. Chiesa is back in light training but doubtful,
+              Gomez fit again and pushing. Forest come to Anfield on Saturday for
+              the first home night of a new age, a day after the Champions League
+              draw in Monaco. Trim the squad; land the winger; find the win.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -533,8 +533,8 @@ function CoverView({ onJump }) {
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is an
               ownership deal now signed and the size of the summer; a defender in
-              on loan from Barcelona; a winger board that runs through Paris to
-              Minteh, Rayan and Ndiaye; a midfield reshaping around a new
+              on loan from Barcelona; a winger board topped now by Minteh,
+              agreed, and running on through Paris; a midfield reshaping around a new
               vice-captain; and a farewell long since sealed east. Read them in
               order. The season opened at Newcastle with a point on the
               twenty-third of August, Forest come to Anfield on the twenty-ninth,
@@ -3259,7 +3259,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The window moves before the football does."
+        "Some arrivals must heal before they play."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
