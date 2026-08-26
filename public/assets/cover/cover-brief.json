@@ -1,9 +1,10 @@
 {
-  "leadStory": "Sunday at St James' Park, and Dominik Szoboszlai buries a penalty in the ninth minute of stoppage time to rescue a 2-2 draw on Andoni Iraola's competitive Liverpool debut, cancelling strikes from Anthony Elanga and Joe Willock after Cody Gakpo had levelled, and stepping up over Alexander Isak with Salah gone and the penalty order unsettled.",
-  "subject": "Dominik Szoboszlai wheeling away in a red away shirt after scoring a stoppage-time penalty at St James' Park, arms wide, teammates converging behind him, a wall of Newcastle black-and-white in the stands, floodlit night",
-  "prompt": "Cinematic editorial sports photograph, a midfielder in a red away kit wheeling away in celebration immediately after scoring a late penalty, arms outstretched, raw elation, teammates rushing to join him, a packed floodlit English stadium behind in black-and-white home colours, shallow depth of field, motion energy, no on-image text, generous headroom at the top for a masthead headline",
+  "leadStory": "Tuesday, and the Barcola move quickens: left out of PSG's squad for a second weekend, the France winger is a deal Liverpool are hopeful of completing this week, with a third bid near £68m in for Brighton's Minteh and up to eight exits set to be sanctioned as Ramsay is loaned to St Mirren.",
+  "subject": "No cover-hero still this edition — the lead is transfer-market business (Barcola, Minteh, deadline-week exits), which the pipeline does not illustrate.",
+  "prompt": "n/a — image skipped this edition (transfer lead, not a single photographable moment).",
   "aspectRatio": "portrait",
-  "slug": "szoboszlai-penalty",
-  "generatedAt": "2026-08-24T10:30:00Z",
-  "note": "Lead is Szoboszlai's 99th-minute penalty rescuing a 2-2 at Newcastle on Iraola's debut, a genuine cover-hero still. Image warranted this edition; queued for the Antigravity generator via cover-brief.json (limn Vault path not reachable from the sandbox run). Fallback to pure-type until src is repointed."
+  "slug": "barcola-quickens",
+  "generatedAt": "2026-08-25T09:00:00Z",
+  "imageRequested": false,
+  "note": "Image SKIPPED — today's lead (Barcola deal gathering pace, Minteh third bid, deadline-week exits) is transfer-fee reporting, which STEP 7.5 explicitly excludes from cover-image queueing. Render falls back to pure-type; no cover-brief handoff to Antigravity this run."
 }

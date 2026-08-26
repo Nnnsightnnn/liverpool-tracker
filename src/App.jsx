@@ -477,12 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, and the new era has its first bruise and its first pulse.{" "}
-          <em>Newcastle 2-2 Liverpool</em>, a point clawed back by{" "}
-          <em>Szoboszlai</em> from a penalty in the ninth minute of stoppage
-          time, is the beginning <em>Iraola</em> gets rather than the one he
-          wanted. Forest come to Anfield on Friday, the back line thin, the
-          first win of the season still owed.
+          Tuesday, and the window quickens before the football resumes.{" "}
+          <em>Barcola</em>, left out in Paris a second week running, is a deal
+          Liverpool now hope to seal this week, a third bid already in for{" "}
+          <em>Minteh</em>. Behind sits a point at Newcastle; ahead, the first
+          home night, <em>Forest</em> at Anfield on Saturday, and a first win of
+          the Iraola era still owed.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,18 +513,18 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and the <em>Iraola</em> era has ninety-nine minutes on the clock
-              and a single point to show for them. Newcastle 2-2 Liverpool ended
-              on a <em>Szoboszlai</em> penalty deep into stoppage time, the
-              Hungarian, not <em>Isak</em>, standing over the kick that decided a
-              chaotic afternoon at St James'. Cody Gakpo found the first
-              equaliser; the striker the summer was built around walked back into
-              his old ground and found only jeers. Off the grass the window
-              quickens, <em>Minteh</em>'s personal terms agreed while the Barcola
-              number stalls near £145m, and an injury list that will not shorten.
-              Forest come to Anfield on Friday, the first home night of a new age.
-              Take the point; keep the nerve; find the win.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and the transfer window has found the gear the football has not.{" "}
+              <em>Barcola</em>, left out of PSG's squad for a second weekend, is a
+              deal Liverpool are suddenly hopeful of closing this week, an
+              improved offer readied to bridge a fee that had held near £145m; a
+              third bid worth around £68m is in for <em>Minteh</em>. At the other
+              end the exits open at once, up to eight to be sanctioned, Calvin{" "}
+              <em>Ramsay</em> loaned to St Mirren the first gone. Chiesa is a
+              fresh doubt, Gomez racing the clock, the back line thin as ever.
+              Forest come to Anfield on Saturday for the first home night of a new
+              age, two days after the Champions League draw in Monaco. Trim the
+              squad; land the winger; find the win.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3259,7 +3259,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The last kick kept us alive."
+        "The window moves before the football does."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
