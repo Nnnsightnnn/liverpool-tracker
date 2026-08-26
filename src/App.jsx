@@ -477,12 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday, and the summer's marquee move is all but done.{" "}
-          <em>Barcola</em>, agreed with PSG in a deal up to €150m, is a medical
-          from Anfield; <em>Minteh</em>, seventy million settled with Brighton,
-          follows once a leg heals. Behind sits a point at Newcastle; ahead,{" "}
-          <em>Forest</em> at Anfield on Saturday, the first home night and a
-          first win of the Iraola era still owed.
+          Wednesday evening, and the second winger is gone. Liverpool have
+          walked away from <em>Minteh</em> at Brighton's £80m, seen a £50m
+          approach for <em>Sarr</em> refused inside hours, and by dark were
+          calling Lille. Only <em>Barcola</em> holds still, agreed and unsigned.
+          Behind sits a point at Newcastle; ahead, <em>Forest</em> at Anfield on
+          Saturday lunchtime, with six days of the window left to save it.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,18 +513,19 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and the pursuit that ran all summer ends the way these things do,
-              in a single afternoon. <em>Barcola</em>, agreed with PSG in a deal
-              reported up to €150m and considered done by all parties, is a
-              medical from Anfield; <em>Minteh</em>, around £70m settled with
-              Brighton, is the second winger of the day, waiting only on a leg to
-              heal. At the other end the exits accelerate, <em>Endo</em> pushed
-              toward a move and Mamardashvili's loan shopped to Serie A, up to
-              eight to go. Gomez trained fully and pushes his case, Chiesa stays a
-              doubt. Forest come to Anfield on Saturday for the first home night
-              of a new age, a day after the Champions League draw in Monaco. The
-              window turned loud at the last.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>{" "}
+              began with two wingers and ended with none of them signed. Brighton
+              named £80m for <em>Minteh</em> and Liverpool, having already been
+              refused at £50m and £60m, withdrew; the talks went cold inside a
+              day. A £50m approach for <em>Sarr</em> at Palace was turned down
+              within hours of surfacing, and by evening a call had gone to Lille
+              about <em>Fernandez-Pardo</em>, with Newcastle chasing the same
+              name. Only <em>Barcola</em> did not move: agreed with PSG in excess
+              of £110m, personal terms long settled, final details unresolved,
+              the medical still not cleared. Beneath it the outbox keeps
+              emptying, <em>Bajcetic</em> close to Celta Vigo and Gakpo's exit
+              now shadowed by City. Forest come to Anfield on Saturday lunchtime.
+              The window has six days to stop looking improvised.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -533,12 +534,12 @@ function CoverView({ onJump }) {
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is an
               ownership deal now signed and the size of the summer; a defender in
-              on loan from Barcelona; a winger board topped now by Barcola,
-              agreed with Paris, and Minteh alongside him; a midfield reshaping around a new
-              vice-captain; and a farewell long since sealed east. Read them in
-              order. The season opened at Newcastle with a point on the
-              twenty-third of August, Forest come to Anfield on the twenty-ninth,
-              and the summer has not been quiet once.
+              on loan from Barcelona; a winger board topped by Barcola, agreed
+              with Paris, and thinning fast beneath him; a midfield reshaping
+              around a new vice-captain; and a farewell long since sealed east.
+              Read them in order. The season opened at Newcastle with a point on
+              the twenty-third of August, Forest come to Anfield on the
+              twenty-ninth, and the summer has not been quiet once.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3259,7 +3260,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A summer's chase, settled in an afternoon."
+        "Six days, and a board being redrawn."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

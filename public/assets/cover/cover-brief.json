@@ -1,10 +1,10 @@
 {
-  "leadStory": "Tuesday, and the Barcola move quickens: left out of PSG's squad for a second weekend, the France winger is a deal Liverpool are hopeful of completing this week, with a third bid near £68m in for Brighton's Minteh and up to eight exits set to be sanctioned as Ramsay is loaned to St Mirren.",
-  "subject": "No cover-hero still this edition — the lead is transfer-market business (Barcola, Minteh, deadline-week exits), which the pipeline does not illustrate.",
-  "prompt": "n/a — image skipped this edition (transfer lead, not a single photographable moment).",
+  "leadStory": "Wednesday evening, and the second winger is gone: Liverpool withdrew from Yankuba Minteh after Brighton set their price at 80m, saw a 50m approach for Ismaila Sarr rejected within hours, and ended the day enquiring at Lille about Matias Fernandez-Pardo, leaving Barcola's agreed-but-unsigned PSG deal as the only wide business standing six days from the deadline.",
+  "subject": "No cover-hero still this edition - the lead is a transfer that fell through, which has no photographable moment. Queue a hero shot once Barcola is unveiled in the shirt, or after Saturday's Anfield opener.",
+  "prompt": "n/a - image skipped this edition (a collapsed transfer; no unveiling, no on-pitch moment).",
   "aspectRatio": "portrait",
-  "slug": "barcola-quickens",
-  "generatedAt": "2026-08-25T09:00:00Z",
+  "slug": "minteh-withdrawn",
+  "generatedAt": "2026-08-26T22:10:00Z",
   "imageRequested": false,
-  "note": "Image SKIPPED — today's lead (Barcola deal gathering pace, Minteh third bid, deadline-week exits) is transfer-fee reporting, which STEP 7.5 explicitly excludes from cover-image queueing. Render falls back to pure-type; no cover-brief handoff to Antigravity this run."
+  "note": "Image SKIPPED - tonight's lead (Liverpool withdraw from Minteh at 80m; Sarr rejected; Lille enquiry) is transfer reporting about a deal NOT happening, excluded from cover-image queueing by STEP 7.5 on both counts. Render falls back to pure-type. Revisit when Barcola is officially unveiled, or after the Forest opener on Aug 29."
 }
