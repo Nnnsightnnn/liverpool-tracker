@@ -21,7 +21,7 @@ export const FORMATIONS = {
     },
     // IDs from playerData.js. This 4-3-3 is the backup look; the default is the
     // 4-2-3-1 below. Refreshed Sat Aug 22: pre-season over (Como beaten 2-0 on
-    // Aug 16, Gakpo and Jacquet), next up is Nottingham Forest at home on Fri Aug 29,
+    // Aug 16, Gakpo and Jacquet), next up is Nottingham Forest at home on Sat Aug 29,
     // Iraola's first competitive HOME match (Newcastle away drawn 2-2 on Aug 23). Mac Allister back in the spine; Ekitike
     // (on a cane), Leoni and Bradley take no part; Gomez out for the opener and
     // racing for Forest on Aug 29, leaving Frimpong the only fit recognised right
@@ -63,7 +63,7 @@ export const FORMATIONS = {
     // The 2025-26 season is COMPLETE. This 4-2-3-1, the shape Slot favoured
     // through the run-in, is shown as the first-choice XI Liverpool finished the
     // campaign with (adjusted for the summer exits), NOW pointed at the coming
-    // fixture: Nottingham Forest at home on Fri Aug 29 (Newcastle away drawn 2-2 on Aug 23).
+    // fixture: Nottingham Forest at home on Sat Aug 29 (Newcastle away drawn 2-2 on Aug 23).
     // Refreshed Sat Aug 22: Como beaten 2-0 on Aug 16 (Gakpo, Jacquet), pre-season closed; next up
     // Newcastle away on Aug 23. Mac Allister is back in the spine after the World Cup final;
     // Ekitike (on a cane) and Bradley take no part (rehab), Gomez out and racing for Forest on Aug 29,
@@ -126,7 +126,7 @@ export const FORMATIONS = {
 
 // One-line evidence string per player, surfaced under the token on hover.
 // Hand-curated from RESULTS array + injuryNote context as of 2026-08-22
-// (Sat Aug 22: pre-season over, next up is Nottingham Forest at home on Fri Aug 29 (Newcastle away drawn 2-2 on Aug 23), Iraola's
+// (Sat Aug 22: pre-season over, next up is Nottingham Forest at home on Sat Aug 29 (Newcastle away drawn 2-2 on Aug 23), Iraola's
 // first competitive match. Salah is a Trabzonspor player; Curtis Jones' €35m move to Inter is confirmed and
 // he has left the squad; Liverpool no longer expect to sell Gakpo, now in line to start;
 // the Barcola pursuit has sharpened, Liverpool hopeful of a deal this week after a second PSG squad omission;
@@ -161,7 +161,7 @@ export const PLAYER_EVIDENCE = {
 
 // Default formation when entering the view: the 4-2-3-1 Slot favoured through
 // the run-in, shown as the first-choice XI Liverpool finished the 2025-26
-// season with, now pointed at Nottingham Forest at home on Fri Aug 29 (Newcastle away drawn 2-2 on Aug 23). It is a squad baseline, adjusted for team news.
+// season with, now pointed at Nottingham Forest at home on Sat Aug 29 (Newcastle away drawn 2-2 on Aug 23). It is a squad baseline, adjusted for team news.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────────────────────
