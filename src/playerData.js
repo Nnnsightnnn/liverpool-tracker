@@ -220,7 +220,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Wed Aug 26 — a rotation role, and a new deal on his 18th birthday. Ngumoha was a bench option at Newcastle as Gakpo held the right and scored, the teenager's minutes coming late in a young matchday squad. This Is Anfield report a new five-year deal with a significant pay rise is set to follow when he turns 18 on August 29, the day Forest visit, the delay only a rule capping under-18s at three-year terms. Above it the wing rebuild took shape this week, Minteh's £70m agreed with Brighton and Barcola a fee alone from Anfield after decisive PSG talks. Twenty-nine appearances last term and a goal against Newcastle a year ago; his minutes will come, but experience starts ahead of him for now", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Wed Aug 26 — a rotation role, and a new deal on his 18th birthday. Ngumoha was a bench option at Newcastle as Gakpo held the right and scored, the teenager's minutes coming late in a young matchday squad. This Is Anfield report a new five-year deal with a significant pay rise is set to follow when he turns 18 on August 29, the day Forest visit, the delay only a rule capping under-18s at three-year terms. Above it the wing rebuild landed in a day, Barcola agreed with PSG (medical next) and Minteh's £70m settled with Brighton. Twenty-nine appearances last term and a goal against Newcastle a year ago; his minutes will come, but experience starts ahead of him for now", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -367,23 +367,24 @@ export const COVER_IMAGE = {
   credit: null,
   generatedAt: "2026-08-26T09:00:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
-  // Today's lead is a TRANSFER story: Liverpool have agreed around £70m with Brighton for Yankuba
-  // Minteh (deal set to complete, medical parked until his leg heals), held decisive talks with PSG
-  // over Barcola, and pushed Endo toward the exit. Per the STEP 7.5 pipeline rules, transfer-fee
-  // reporting is NOT queued for a cover image (no unveiling or on-pitch moment, nothing photographable
-  // as a single still), so NO image is requested this edition. Render stays on the pure-type fallback
-  // (src null). The brief below is retained only as the last visual moment on file; not an active request.
+  // Today's lead is a TRANSFER story: Liverpool have reached an agreement with PSG for Bradley Barcola
+  // (deal up to €150m inc add-ons, considered done by all parties, medical next), and agreed around £70m
+  // with Brighton for Yankuba Minteh alongside it. Per the STEP 7.5 pipeline rules, a transfer agreement
+  // with no unveiling / on-pitch moment yet (medical still pending, no kit shot) is NOT queued for a cover
+  // image, so NO image is requested this edition. Render stays on the pure-type fallback (src null). The
+  // brief below is retained only as the last visual moment on file; not an active request. NOTE: once
+  // Barcola is officially unveiled in a Liverpool shirt, that IS a photographable moment worth queueing.
   brief: {
     leadStory:
-      "Wednesday, and the wing rebuild has its first firm answer: Liverpool have agreed around £70m with Brighton for Yankuba Minteh, a deal set to complete once his leg heals, while decisive talks with PSG leave Barcola a fee alone from Anfield and Endo is pushed toward the exit.",
+      "Wednesday, and the marquee move is all but done: Liverpool have reached an agreement with PSG for Bradley Barcola in a deal up to €150m, medical next, and settled around £70m with Brighton for Yankuba Minteh alongside it, two wide forwards in a day as Endo is pushed toward the exit.",
     subject:
-      "No cover-hero still this edition — the lead is transfer-market business (Minteh agreed, Barcola talks, deadline-week exits), which the pipeline does not illustrate.",
+      "No cover-hero still this edition — the lead is a transfer agreement (Barcola agreed, medical pending; Minteh settled), not yet a photographable unveiling. Queue a hero shot once Barcola is unveiled in the shirt.",
     prompt:
-      "n/a — image skipped this edition (transfer lead, not a single photographable moment).",
+      "n/a — image skipped this edition (transfer agreement, medical pending, no unveiling shot yet).",
     aspectRatio: "portrait",
-    slug: "minteh-agreed",
+    slug: "barcola-agreed",
     generatedAt: "2026-08-26T09:00:00Z",
-    note: "Image SKIPPED — today's lead (Minteh fee agreed, Barcola decisive talks, deadline-week exits) is transfer-fee reporting, which STEP 7.5 explicitly excludes from cover-image queueing. Render falls back to pure-type; no cover-brief handoff to Antigravity this run.",
+    note: "Image SKIPPED — today's lead (Barcola agreement reached, medical next; Minteh settled) is transfer reporting without an unveiling or on-pitch still, which STEP 7.5 excludes from cover-image queueing. Render falls back to pure-type; no cover-brief handoff to Antigravity this run. Revisit when Barcola is officially unveiled.",
   },
 };
 
@@ -482,9 +483,9 @@ export const STANDINGS_COMMENTARY = {
   matchweek: 38,
   generatedAt: "2026-08-26T09:00:00Z",
   overview:
-    "The table on screen remains last season's, 2025-26's final twenty rows held for another edition, Arsenal champions on 85 and Liverpool fifth on 60, while ESPN's live 2026-27 feed still opens with promoted sides outside this squad's world and most fixtures yet to populate. The football has moved on regardless. Liverpool opened the Iraola era with a 2-2 draw at Newcastle, a point rescued by Szoboszlai's stoppage-time penalty, and now turn to their first home night, Nottingham Forest at Anfield on Saturday, chasing a first win. Beneath the frozen numbers the window is loudest of all this week: Liverpool have agreed around £70m with Brighton for Yankuba Minteh, held decisive talks with PSG over Bradley Barcola, and pushed Wataru Endo toward the exit as FSG line up as many as eight departures. Thursday brings the Champions League draw in Monaco, Liverpool a Pot 1 seed.",
+    "The table on screen remains last season's, 2025-26's final twenty rows held for another edition, Arsenal champions on 85 and Liverpool fifth on 60, while ESPN's live 2026-27 feed still opens with promoted sides outside this squad's world and most fixtures yet to populate. The football has moved on regardless. Liverpool opened the Iraola era with a 2-2 draw at Newcastle, a point rescued by Szoboszlai's stoppage-time penalty, and now turn to their first home night, Nottingham Forest at Anfield on Saturday, chasing a first win. Beneath the frozen numbers the window turned loud at the last: Liverpool have reached an agreement with PSG for Bradley Barcola in a deal up to €150m, medical next, and settled around £70m with Brighton for Yankuba Minteh alongside it, two wide forwards in a day as FSG line up as many as eight exits. Thursday brings the Champions League draw in Monaco, Liverpool a Pot 1 seed.",
   teams: {
-    "Liverpool": "Fifth on last season's frozen table, but the new campaign is live: a 2-2 draw at Newcastle rescued by Szoboszlai's stoppage-time penalty opened the Iraola era, and Forest visit Anfield on Saturday for the first home night. The window dominates the week, around £70m agreed with Brighton for Minteh, decisive talks held with PSG over Barcola, and up to eight exits lined up with Endo pushed toward a move. Pot 1 for Thursday's Champions League draw.",
+    "Liverpool": "Fifth on last season's frozen table, but the new campaign is live: a 2-2 draw at Newcastle rescued by Szoboszlai's stoppage-time penalty opened the Iraola era, and Forest visit Anfield on Saturday for the first home night. The window turned loud at the last, an agreement reached with PSG for Barcola (up to €150m, medical next) and around £70m settled with Brighton for Minteh, with up to eight exits lined up as Endo is pushed toward a move. Pot 1 for Thursday's Champions League draw.",
     "Arsenal": "Champions on 85, and among the sides tracking Everton's Iliman Ndiaye as the wide market moves late in the window.",
     "Manchester City": "Second on 78, planning for a possible Rodri exit, the club whose midweek Mac Allister shortlist was shut down at once by the Argentine's camp.",
     "Manchester United": "Third on 71, back in the Champions League, and a rival to Liverpool for Ndiaye this summer.",
@@ -507,21 +508,21 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Seventy Million, And A Signing Who Cannot Yet Kick A Ball.",
-    byline: "Fabrizio Romano / This Is Anfield",
-    dateline: "Merseyside · 26 August",
-    category: "Transfers",
-    body:
-      "The wing rebuild found its first firm answer on Wednesday, and it arrived on crutches. Liverpool have agreed a fee worth around seventy million with Brighton for Yankuba Minteh, the third offer meeting a mark that had turned away fifty and sixty, and the deal is set to be completed. Personal terms, a five-year contract, were settled a fortnight ago, and the twenty-two-year-old Gambian is said to dream of Anfield. The one oddity is that he cannot play: a leg injury taken against Roma in pre-season keeps the medical parked for weeks. Liverpool sign him hurt anyway, a measure of how squarely he answers the hole Iraola keeps naming.",
-  },
-  {
-    n: "02",
-    headline: "In Paris, A Player Told To Train Only Until His Future Clears.",
-    byline: "Sky Sports / Liverpool.com",
+    headline: "The Fee Stops Arguing, And Barcola Books His Medical.",
+    byline: "Fabrizio Romano / David Ornstein",
     dateline: "Paris · 26 August",
     category: "Transfers",
     body:
-      "Bradley Barcola has already left in every way but the paperwork. Liverpool and Paris Saint-Germain held decisive talks on Wednesday, and reporting says the France winger, committed to Anfield, has been told to train only until his move is resolved, the surest sign yet that both clubs expect it done. What remains is the fee, and only the fee: Liverpool are edging toward a compromise below a hundred and fifty million euros, unwilling to drop beneath the hundred and twenty the two have circled, personal terms to 2032 long since agreed. With Minteh's seventy million banked as the hedge landed early, Anfield now believes it can close both wide moves before the deadline.",
+      "The signing that defined Liverpool's summer is all but done. Liverpool and Paris Saint-Germain reached a full agreement on Wednesday for Bradley Barcola, David Ornstein and Fabrizio Romano reporting a deal worth up to a hundred and fifty million euros with add-ons, considered done by all parties, the France winger set to travel to England for his medical. Personal terms to 2032 were settled long ago and the player pushed for the move for weeks; only the fee had ever argued, and the clubs closed the last of the gap. Once the medical passes, the marquee end of the rebuild is complete. A pursuit measured in months ends, as these things do, in a single afternoon.",
+  },
+  {
+    n: "02",
+    headline: "And In The Same Breath, A Second Winger Who Cannot Yet Play.",
+    byline: "This Is Anfield / TeamTalk",
+    dateline: "Merseyside · 26 August",
+    category: "Transfers",
+    body:
+      "The board went two deep in a day. Alongside the Barcola agreement, Liverpool have settled a fee worth around seventy million with Brighton for Yankuba Minteh, the third offer meeting a mark that had turned away fifty and sixty, the deal set to be completed. Personal terms, a five-year contract, were agreed a fortnight ago, and the twenty-two-year-old Gambian is said to dream of Anfield. The one oddity is that he cannot play: a leg injury taken against Roma in pre-season keeps his medical parked for weeks. Liverpool sign him hurt anyway, a measure of how squarely he answers a hole Iraola kept naming, and how completely a patient window has, at the last, turned loud.",
   },
   {
     n: "03",
@@ -555,18 +556,18 @@ export const DISPATCHES = [
 export const NEWS_DIGEST = {
   generatedAt: "2026-08-26T09:00:00Z",
   summary:
-    "Wednesday, and the wing rebuild has its first firm answer. Liverpool have agreed a fee worth around £70m with Brighton for Yankuba Minteh, the third bid meeting the Seagulls' ask after £50m and £60m were turned away, with personal terms long settled and the deal set to be completed once the medical on a healing leg can be scheduled. The marquee file runs in parallel: Liverpool and Paris Saint-Germain held decisive talks over Bradley Barcola, a player committed to Anfield and told to train only until his future clears, with the fee, Liverpool edging toward a sub-€150m compromise, the last argument before the window shuts. Beneath the two wingers the exits accelerate, Wataru Endo pushed toward a Premier League move and Giorgi Mamardashvili's season-long loan shopped to Serie A among as many as eight departures FSG will sanction. Iraola shapes his first Anfield team for Saturday with Chiesa back in light training but still doubtful and Gomez now training fully, a day before Thursday's Champions League draw in Monaco names the eight opponents of the new campaign.",
+    "Wednesday, and the marquee signing is all but done. Liverpool have reached an agreement with Paris Saint-Germain for Bradley Barcola, a deal reported worth up to €150m including add-ons, with the France winger set to travel to England for a medical and the move considered done by all parties. It caps a pursuit in which personal terms to 2032 were long settled and only the fee still argued. The wing rebuild is suddenly two deep: Liverpool have also agreed around £70m with Brighton for Yankuba Minteh, that deal set to complete once a pre-season leg injury heals. Beneath the two wingers the exits accelerate, Wataru Endo pushed toward a Premier League move and Giorgi Mamardashvili's season-long loan shopped to Serie A among as many as eight departures FSG will sanction. Iraola shapes his first Anfield team for Saturday with Gomez now training fully and Chiesa a doubt, a day before Thursday's Champions League draw in Monaco names the eight opponents of the new campaign.",
   keyTopics: [
     {
-      title: "Here We Go: Liverpool Agree A Fee Around £70m With Brighton For Yankuba Minteh (Fabrizio Romano, today)",
+      title: "Here We Go: Liverpool And PSG Reach Agreement For Bradley Barcola, Medical Next (Fabrizio Romano / David Ornstein, today)",
       detail:
-        "The wing rebuild landed its first firm answer on Wednesday. Liverpool have agreed a fee worth around £70m with Brighton for Yankuba Minteh, the third bid finally meeting the Seagulls' asking price after £50m and £60m were rebuffed, with reporting describing the deal as set to be completed. Personal terms, a five-year contract, were struck a fortnight ago and the 22-year-old Gambia winger 'dreams of joining' the Reds, so only the formalities remain, the medical parked until a leg injury taken against Roma in pre-season heals over the coming weeks. The clearest hole in Iraola's squad now has its man.",
+        "The marquee move broke on Wednesday. Liverpool and Paris Saint-Germain have reached an agreement for Bradley Barcola, David Ornstein and Fabrizio Romano reporting a deal worth up to €150m including add-ons with the move considered done by all parties and the France winger set to travel to England for his medical. Personal terms to 2032 were long settled and the player pushed for the move for weeks, so the fee was the last argument, the two clubs closing a valuation gap that had held near €150m against Liverpool's earlier €120m. Subject only to the medical, the £100m-plus signing that has defined Liverpool's summer is all but done.",
       category: "transfers",
     },
     {
-      title: "Decisive Day For Barcola: Liverpool And PSG Talk As The Fee Alone Remains (Sky Sports, today)",
+      title: "Agreed Too: Liverpool Settle Around £70m With Brighton For Yankuba Minteh (This Is Anfield, today)",
       detail:
-        "The marquee move reached its critical stage on Wednesday. Liverpool and Paris Saint-Germain held decisive talks over Bradley Barcola, the France winger committed to Anfield and told to train only until his future is resolved, with reporting that Liverpool are edging toward a sub-€150m compromise having refused to go below the €120m the two clubs have circled. Personal terms to 2032 are long settled, so the fee is the last argument with the window shutting on September 1, and the club now look likely to land Barcola and Minteh both before the deadline.",
+        "The wing rebuild went two deep on Wednesday. Alongside Barcola, Liverpool have agreed a fee worth around £70m with Brighton for Yankuba Minteh, the third bid finally meeting the Seagulls' asking price after £50m and £60m were rebuffed, with reporting describing the deal as set to be completed. Personal terms, a five-year contract, were struck a fortnight ago and the 22-year-old Gambia winger 'dreams of joining' the Reds, so only the formalities remain, the medical parked until a leg injury taken against Roma in pre-season heals over the coming weeks. Two wide forwards in a single day, the clearest hole in Iraola's squad answered twice over.",
       category: "transfers",
     },
     {
@@ -625,9 +626,10 @@ export const NEWS_DIGEST = {
     },
   ],
   sources: [
+    "Fabrizio Romano",
+    "David Ornstein",
     "Sky Sports",
     "This Is Anfield",
-    "Fabrizio Romano",
     "TeamTalk",
     "Liverpool.com",
     "Liverpool FC",
@@ -645,7 +647,7 @@ export const NEWS_DIGEST = {
 export const TRANSFER_TARGETS = {
   generatedAt: "2026-08-26T09:00:00Z",
   summary:
-    "Wednesday, and the wing board has its first agreed piece. Liverpool have agreed a fee worth around £70m with Brighton for Yankuba Minteh, the third bid meeting the Seagulls' ask after £50m and £60m were rebuffed, personal terms long settled and the deal set to be completed once the medical on a healing leg can be scheduled. The marquee file moves in step: Liverpool and PSG held decisive talks over Bradley Barcola, a player committed to Anfield and told to train only until his future clears, with Liverpool edging toward a sub-€150m compromise on the one argument left, the fee. Beneath the wingers the exits accelerate, Wataru Endo pushed toward a Premier League move and Giorgi Mamardashvili's loan shopped to Serie A among as many as eight departures FSG will sanction, Calvin Ramsay's St Mirren loan already through the door and Chiesa, Elliott and Tsimikas still weighed. The Curtis Jones €35m sale to Inter sits banked as the war chest that points the whole window at Paris. Above it all the farewell is long since inked: Mohamed Salah is a Trabzonspor player.",
+    "Wednesday, and the marquee move is all but done. Liverpool have reached an agreement with PSG for Bradley Barcola, David Ornstein and Fabrizio Romano reporting a deal worth up to €150m including add-ons, the move considered done by all parties with the France winger set to travel for a medical, personal terms to 2032 long settled and only the fee having ever argued. The board went two deep in a day: Liverpool have also agreed around £70m with Brighton for Yankuba Minteh, that deal set to complete once a pre-season leg injury heals. Beneath the wingers the exits accelerate, Wataru Endo pushed toward a Premier League move and Giorgi Mamardashvili's loan shopped to Serie A among as many as eight departures FSG will sanction, Calvin Ramsay's St Mirren loan already through the door and Chiesa, Elliott and Tsimikas still weighed. The Curtis Jones €35m sale to Inter sits banked as the war chest that pointed the whole window at Paris. Above it all the farewell is long since inked: Mohamed Salah is a Trabzonspor player.",
   incoming: [
     {
       name: "Ronald Araujo",
@@ -695,23 +697,23 @@ export const TRANSFER_TARGETS = {
       image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Barcola_asse_psg_2425.png/330px-Barcola_asse_psg_2425.png",
       currentClub: "Paris Saint-Germain",
       currentLeague: "Ligue 1",
-      feeMin: 115, feeMax: 125, feeCurrency: "£m",
+      feeMin: 110, feeMax: 128, feeCurrency: "£m",
       marketValue: 100,
       wageBand: "A",
       contractExpiry: "2028-06-30",
       releaseClause: null,
-      contractNote: "Contracted to PSG until 2028, the France international is the club's marquee saleable asset. He has ceased negotiations over a new deal despite a substantial pay rise offered in Paris and agreed personal terms with Liverpool on a contract to 2032. The move has reached its decisive stage: Liverpool and PSG held key talks on Wednesday, the winger committed to Anfield and reported to have been told to train only until his future clears, with Liverpool edging toward a sub-€150m compromise having refused to drop below the €120m the clubs have circled. Paris made themselves more amenable earlier by adding Ferran Torres (£42.75m from Barcelona) and Mika Godts to Luis Enrique's forward line, and Arsenal's flirtation with a late hijack has faded. The Hughes-Campos channel stays smooth and the player is keen on Anfield, and with Curtis Jones' €35m sale to Inter banked the funds are in place; Brighton's Yankuba Minteh, his ~£70m now agreed as the wing hedge landed early, is the deal already done alongside this one, with Bournemouth's Rayan (clause dormant to 2027) and Everton's Iliman Ndiaye the other wide options. The Ligue 1 window shuts on 31 August.",
-      probability: 72,
+      contractNote: "Contracted to PSG until 2028, the France international was the club's marquee saleable asset, and the move is now all but done. He ceased negotiations over a new deal despite a substantial pay rise offered in Paris and agreed personal terms with Liverpool on a contract to 2032. On Wednesday the clubs reached a full agreement: David Ornstein and Fabrizio Romano report a deal worth up to €150m including add-ons, considered done by all parties, with Barcola set to travel to England for his medical. Paris made themselves more amenable earlier by adding Ferran Torres (£42.75m from Barcelona) and Mika Godts to Luis Enrique's forward line, and Arsenal's flirtation with a late hijack faded. The Hughes-Campos channel stayed smooth and the player pushed for Anfield for weeks; with Curtis Jones' €35m sale to Inter banked the funds were in place. Brighton's Yankuba Minteh, his ~£70m also agreed, lands as the second wide forward of the day, with Bournemouth's Rayan (clause dormant to 2027) and Everton's Iliman Ndiaye now moot. Only the medical stands between this and an official announcement.",
+      probability: 95,
       heatTier: "hot",
       sources: [
-        { name: "Sky Sports",          tier: "A" },
-        { name: "Liverpool.com",       tier: "B" },
-        { name: "This Is Anfield",     tier: "A" },
         { name: "Fabrizio Romano",     tier: "S" },
+        { name: "David Ornstein",      tier: "S" },
+        { name: "Sky Sports",          tier: "A" },
+        { name: "This Is Anfield",     tier: "A" },
       ],
       lastUpdated: "2026-08-26",
       rumorNote:
-        "Paris · 26 Aug — decisive talks, and the winger already gone in his own mind. Liverpool and PSG held key talks on Wednesday over Barcola, who is committed to Anfield and, reporting says, told to train only until his future is resolved. The fee is the last argument: Liverpool are edging toward a sub-€150m compromise having refused to drop below the €120m the clubs have circled, personal terms to 2032 long settled and Arsenal's flirtation with a hijack faded. With Minteh's £70m now agreed as the hedge landed early, the club look likely to close both wide moves before the September 1 deadline. Ligue 1 shuts on August 31.",
+        "Paris · 26 Aug — here we go, medical next. The stand-off is over: Liverpool and PSG reached a full agreement on Wednesday for Barcola, David Ornstein and Fabrizio Romano reporting a deal worth up to €150m including add-ons, considered done by all parties, with the France winger set to travel to England for his medical. Personal terms to 2032 were long settled and the player pushed for the move for weeks, so the fee was the only argument, the clubs closing a gap that had held near €150m against Liverpool's earlier €120m. Minteh's £70m is agreed alongside it, two wide forwards in a day. Only the medical now stands between this and an unveiling. Ligue 1 shuts on August 31.",
       positionFit: {
         replaces: "Salah (departed, free agent)",
         competesWith: ["Ndiaye (Everton, newer target)", "Rayan (Bournemouth, clause to 2027)", "Gakpo", "Ngumoha"],
