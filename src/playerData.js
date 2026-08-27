@@ -604,6 +604,12 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
+      title: "'Everyone Knows What They Need': The Kop Wants The Waiting To End (This Is Anfield, today)",
+      detail:
+        "The mood is impatience rather than fury now. Supporters who spent Wednesday despairing at a week of misses spent Thursday willing the Barcola medical over the line, the argument shifting from process to urgency: everyone knows the position Liverpool need filled, so every hour lost lets a selling club add to the price. A separate thread frames Iraola as a manager owed better by a squad whose depth failed at Newcastle. Five days to prove the summer was patient, not passive.",
+      category: "general",
+    },
+    {
       title: "Bajcetic Bound For Vigo, Done Bar The Signature (Fabrizio Romano / CaughtOffside, 1d ago)",
       detail:
         "The homecoming keeps advancing. Romano has Celta Vigo closing on personal terms with Stefan Bajcetic, the clubs at an understanding built on bonuses and a sell-on cut Liverpool retain rather than a fee, with a negotiated exit expected to unpick a deal that runs to 2027. The 21-year-old has not featured this calendar year and travelled to America in the rehab group. Three seasons wrecked by injury end where his football began, in Galicia.",
@@ -614,12 +620,6 @@ export const NEWS_DIGEST = {
       detail:
         "The other hole has a name and a prohibitive price. Multiple outlets place Bournemouth's Alex Scott at the top of Liverpool's defensive-midfield list, but the fee that would tempt a sale is mooted near £90m, beyond what the club will pay this window. The stated position holds, a winger before Tuesday and no midfielder on the agenda, which sits awkwardly against the gaps the Newcastle draw opened in front of the back four. A target for another window, most likely.",
       category: "transfers",
-    },
-    {
-      title: "'Everyone Knows What They Need': The Kop Wants The Waiting To End (This Is Anfield, today)",
-      detail:
-        "The mood is impatience rather than fury now. Supporters who spent Wednesday despairing at a week of misses spent Thursday willing the Barcola medical over the line, the argument shifting from process to urgency: everyone knows the position Liverpool need filled, so every hour lost lets a selling club add to the price. A separate thread frames Iraola as a manager owed better by a squad whose depth failed at Newcastle. Five days to prove the summer was patient, not passive.",
-      category: "general",
     },
     {
       title: "Orozco Advances: A €6m Clause Met For An 18-Year-Old In Cali (CaughtOffside / Sports Mole, 2d ago)",

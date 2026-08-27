@@ -481,8 +481,8 @@ function CoverView({ onJump }) {
           Romano has the <em>Barcola</em> agreement done in both clubs' eyes, PSG
           only to release him; <em>Gakpo</em>'s £72m exit to Spurs, days off, is
           the sale that pays for it. Iraola speaks at half one, the draw waits at
-          five, and <em>Forest</em> come to Anfield on Saturday, five days before
-          the window shuts.
+          five, and <em>Forest</em> come to Anfield on Saturday, with the window
+          shutting on Tuesday.
         </p>
 
         <StatStrip stats={stats} />
