@@ -477,12 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday evening, and the second winger is gone. Liverpool have
-          walked away from <em>Minteh</em> at Brighton's £80m, seen a £50m
-          approach for <em>Sarr</em> refused inside hours, and by dark were
-          calling Lille. Only <em>Barcola</em> holds still, agreed and unsigned.
-          Behind sits a point at Newcastle; ahead, <em>Forest</em> at Anfield on
-          Saturday lunchtime, with six days of the window left to save it.
+          Thursday, and the winger the whole window turns on is a medical away.
+          Romano has the <em>Barcola</em> agreement done in both clubs' eyes, PSG
+          only to release him; <em>Gakpo</em>'s £72m exit to Spurs, days off, is
+          the sale that pays for it. Iraola speaks at half one, the draw waits at
+          five, and <em>Forest</em> come to Anfield on Saturday, five days before
+          the window shuts.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,19 +513,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>{" "}
-              began with two wingers and ended with none of them signed. Brighton
-              named £80m for <em>Minteh</em> and Liverpool, having already been
-              refused at £50m and £60m, withdrew; the talks went cold inside a
-              day. A £50m approach for <em>Sarr</em> at Palace was turned down
-              within hours of surfacing, and by evening a call had gone to Lille
-              about <em>Fernandez-Pardo</em>, with Newcastle chasing the same
-              name. Only <em>Barcola</em> did not move: agreed with PSG in excess
-              of £110m, personal terms long settled, final details unresolved,
-              the medical still not cleared. Beneath it the outbox keeps
-              emptying, <em>Bajcetic</em> close to Celta Vigo and Gakpo's exit
-              now shadowed by City. Forest come to Anfield on Saturday lunchtime.
-              The window has six days to stop looking improvised.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>{" "}
+              begins with the deal the summer was arranged around finally close
+              enough to touch. Romano frames the <em>Barcola</em> agreement as
+              done in both clubs' eyes, in excess of £110m, personal terms long
+              settled, the last gate PSG releasing the France winger to travel
+              for a medical. Everything bends to it: <em>Gakpo</em>'s move to
+              Tottenham, days away at around £72m, is the sale that funds the
+              rest and waits on Barcola landing first, while Newcastle's final
+              bid for Lille's <em>Fernandez-Pardo</em> was turned down overnight
+              and left a fallback ajar. At half past one Iraola previews his
+              first home match with Forest and a thin flank to answer for, Gomez
+              ruled out for a month, Chiesa touch and go. At five the Champions
+              League draw in Monaco could send Liverpool to the Bernabeu and a
+              reunion with Trent Alexander-Arnold. Five days remain, and for the
+              first time this summer they read like momentum rather than
+              improvisation.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -533,13 +536,13 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings as they finished, and
               five dispatches from the writers who never clock off. There is a
-              fee that was never Brighton's fee; an afternoon with Ismaila Sarr
-              and then none at all; a phone call to Lille after dark; a marquee
-              agreement in Paris that did not move, which is now the whole plan;
-              and a manager who takes the chair on Thursday with a window to
-              explain. Read them in order. The season opened at Newcastle with a
-              point on the twenty-third of August, Forest come to Anfield at half
-              twelve on the twenty-ninth, and the market shuts on the first.
+              signing a medical from here we go; the sale that pays for it and
+              moves as its shadow; a door Newcastle left ajar at Lille; a manager
+              taking the chair with a first home day to set up; and five o'clock
+              in Monaco, a reunion waiting in Pot 1. Read them in order. The
+              season opened at Newcastle with a point on the twenty-third of
+              August, Forest come to Anfield at half twelve on the twenty-ninth,
+              and the market shuts on the first.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3260,7 +3263,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Six days, and a board being redrawn."
+        "A medical, and then here we go."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
