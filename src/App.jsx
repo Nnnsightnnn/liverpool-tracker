@@ -477,12 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday evening, and the two words arrived. Romano's here we go
-          landed on <em>Barcola</em>, agreed in principle at a reported £120m,
-          the paperwork with lawyers before a medical. Behind it the plan
-          changed shape: <em>Minteh</em> reopened above £70m as a second winger,
-          <em>Gakpo</em> no longer a certain sale. Atletico come to Anfield in
-          the draw; Forest come on Saturday at half twelve.
+          Friday, and the summer's biggest signing is down to a medical. PSG
+          are set to clear <em>Barcola</em>'s £120m move, a signature and
+          nothing more, while the right wing stays open: Palace said no to £50m
+          for <em>Sarr</em>. A point from the opener at Newcastle, Liverpool
+          host a pointless Forest tomorrow at half twelve, Iraola's first
+          Anfield, four days from the deadline.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,37 +513,35 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>{" "}
-              ended with the phrase this market treats as a signature, and it is
-              not one. Romano posted the here we go on <em>Barcola</em> in the
-              afternoon, an agreement in principle at a reported £120m with more
-              than £100m guaranteed, documents now passing between lawyers
-              before the France winger can travel for a medical. What moved
-              behind it is the day's real revision. The <em>Minteh</em> route,
-              buried on Wednesday, reopened: Brighton rejected a fresh offer,
-              named a figure above £70m, and Liverpool are weighing a third bid
-              for a winger they would take alongside Barcola rather than instead
-              of him. <em>Gakpo</em>, framed at breakfast as days from Tottenham
-              and as the sale that funded everything, is a certainty no longer;
-              the manager would guarantee nothing, and the club will not sell
-              without a replacement in the building. At five in Monaco the draw
-              sent Atletico, Porto, Villarreal and Lens to Anfield, Inter,
-              Brugge, Fenerbahce and LASK the other way, and left the reunion
-              everyone had rehearsed undrawn.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>{" "}
+              and Liverpool's summer has arrived at its last formality. Paris
+              Saint-Germain are expected to clear <em>Barcola</em> to fly, and
+              once the medical is passed the France winger signs to 2031, a
+              £120m move with more than £100m guaranteed, completed before
+              Tuesday's deadline. It is not signed, and Iraola, schooled by a
+              fortnight of this market, kept saying so. Behind the marquee
+              arrival the right flank stays bare: Palace rejected £50m for
+              <em>Sarr</em> and will not sell, Yan Diomande went to Real Madrid,
+              and <em>Minteh</em> is priced out at Brighton. The manager promised
+              at least one more before the window shuts, and hinted the
+              centre-back he has chased all month, with <em>Gomez</em> out around
+              a month, may yet arrive. <em>Gakpo</em>, framed on Wednesday as the
+              funding sale, is a forward he now says he simply hopes to keep.
+              Forest, still without a point, come to Anfield tomorrow at half
+              twelve, Iraola's first home match.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings as they finished, and
-              five dispatches from the writers who never clock off. There are the
-              two words that turned the summer; a tombstone at Brighton that got
-              up and walked; a manager declining to promise that a forward stays;
-              eight names out of Monaco and not one of them Madrid; and a defence
-              you can count on one hand. Read them in order. The season opened at
-              Newcastle with a point on the twenty-third of August, Forest come to
-              Anfield at half twelve on the twenty-ninth, and the market shuts on
-              the first.
+              five dispatches from the writers who never clock off. There is the
+              signing down to a medical; a manager counting days and promising
+              one more; a right wing that keeps hearing no; a defence you can
+              count on one hand; and a first home crowd waiting on a striker's
+              first goal. Read them in order. The season opened at Newcastle with
+              a point on the twenty-third of August, Forest come to Anfield at
+              half twelve on the twenty-ninth, and the market shuts on the first.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3264,7 +3262,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Paperwork is not a signature."
+        "One yes in Paris, one no in London."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
