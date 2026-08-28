@@ -477,12 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday, and the winger the whole window turns on is a medical away.
-          Romano has the <em>Barcola</em> agreement done in both clubs' eyes, PSG
-          only to release him; <em>Gakpo</em>'s £72m exit to Spurs, days off, is
-          the sale that pays for it. Iraola speaks at half one, the draw waits at
-          five, and <em>Forest</em> come to Anfield on Saturday, with the window
-          shutting on Tuesday.
+          Thursday evening, and the two words arrived. Romano's here we go
+          landed on <em>Barcola</em>, agreed in principle at a reported £120m,
+          the paperwork with lawyers before a medical. Behind it the plan
+          changed shape: <em>Minteh</em> reopened above £70m as a second winger,
+          <em>Gakpo</em> no longer a certain sale. Atletico come to Anfield in
+          the draw; Forest come on Saturday at half twelve.
         </p>
 
         <StatStrip stats={stats} />
@@ -514,35 +514,36 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>{" "}
-              begins with the deal the summer was arranged around finally close
-              enough to touch. Romano frames the <em>Barcola</em> agreement as
-              done in both clubs' eyes, in excess of £110m, personal terms long
-              settled, the last gate PSG releasing the France winger to travel
-              for a medical. Everything bends to it: <em>Gakpo</em>'s move to
-              Tottenham, days away at around £72m, is the sale that funds the
-              rest and waits on Barcola landing first, while Newcastle's final
-              bid for Lille's <em>Fernandez-Pardo</em> was turned down overnight
-              and left a fallback ajar. At half past one Iraola previews his
-              first home match with Forest and a thin flank to answer for, Gomez
-              ruled out for a month, Chiesa touch and go. At five the Champions
-              League draw in Monaco could send Liverpool to the Bernabeu and a
-              reunion with Trent Alexander-Arnold. Five days remain, and for the
-              first time this summer they read like momentum rather than
-              improvisation.
+              ended with the phrase this market treats as a signature, and it is
+              not one. Romano posted the here we go on <em>Barcola</em> in the
+              afternoon, an agreement in principle at a reported £120m with more
+              than £100m guaranteed, documents now passing between lawyers
+              before the France winger can travel for a medical. What moved
+              behind it is the day's real revision. The <em>Minteh</em> route,
+              buried on Wednesday, reopened: Brighton rejected a fresh offer,
+              named a figure above £70m, and Liverpool are weighing a third bid
+              for a winger they would take alongside Barcola rather than instead
+              of him. <em>Gakpo</em>, framed at breakfast as days from Tottenham
+              and as the sale that funded everything, is a certainty no longer;
+              the manager would guarantee nothing, and the club will not sell
+              without a replacement in the building. At five in Monaco the draw
+              sent Atletico, Porto, Villarreal and Lens to Anfield, Inter,
+              Brugge, Fenerbahce and LASK the other way, and left the reunion
+              everyone had rehearsed undrawn.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings as they finished, and
-              five dispatches from the writers who never clock off. There is a
-              signing a medical from here we go; the sale that pays for it and
-              moves as its shadow; a door Newcastle left ajar at Lille; a manager
-              taking the chair with a first home day to set up; and five o'clock
-              in Monaco, a reunion waiting in Pot 1. Read them in order. The
-              season opened at Newcastle with a point on the twenty-third of
-              August, Forest come to Anfield at half twelve on the twenty-ninth,
-              and the market shuts on the first.
+              five dispatches from the writers who never clock off. There are the
+              two words that turned the summer; a tombstone at Brighton that got
+              up and walked; a manager declining to promise that a forward stays;
+              eight names out of Monaco and not one of them Madrid; and a defence
+              you can count on one hand. Read them in order. The season opened at
+              Newcastle with a point on the twenty-third of August, Forest come to
+              Anfield at half twelve on the twenty-ninth, and the market shuts on
+              the first.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3263,7 +3264,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A medical, and then here we go."
+        "Paperwork is not a signature."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
