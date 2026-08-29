@@ -3427,7 +3427,7 @@ export default function LiverpoolTracker() {
           <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
             <SectionHead
               title="Lineup"
-              meta={<>Predicted XI<br />Manchester United · 3 May</>}
+              meta={<>Predicted XI<br />Nottingham Forest · 29 August</>}
             />
             <LineupView players={PLAYERS} nextMatch={NEXT_MATCH} />
           </section>

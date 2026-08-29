@@ -605,13 +605,13 @@ export const NEWS_DIGEST = {
       category: "matches",
     },
     {
-      title: "Bajcetic To Galicia: Celta Close On A Contract-Termination Return (Empire of the Kop / Fabrizio Romano, 1d ago)",
+      title: "Homeward Bound: Bajcetic's Celta Move Nears On A Mutual Termination (Empire of the Kop / Fabrizio Romano, 1d ago)",
       detail:
         "The outbox keeps moving faster than the inbox. Romano reports Celta Vigo closing on a personal-terms agreement with Stefan Bajcetic, the framework a mutual termination of a contract that runs to 2027 rather than a fee, Liverpool keeping a sell-on. The 21-year-old has not featured this calendar year and travelled to America in the rehab group, three seasons wrecked by injury behind him. A homecoming to the academy that raised him, expected to complete inside the final week alongside Tsimikas's move to Besiktas.",
       category: "transfers",
     },
     {
-      title: "Anfield Homecoming Unfinished: Isak Chasing A First Goal Of The Era (This Is Anfield, 2d ago)",
+      title: "The Record Buy About To Be Passed: Isak Still Waiting On A First Goal (This Is Anfield, 2d ago)",
       detail:
         "Alexander Isak walked back into St James' in red on the opening weekend, a year after forcing his £100m move off Tyneside, and met a wall of jeers he could not answer: no goal, a hard afternoon, and the late penalty handed to Szoboszlai rather than him. Fit and central behind Wirtz, the Sweden striker still waits for his first goal under Iraola, his own £125m fee about to be joined at the top of the club's chart by Barcola's £123m. A first home crowd of the season would be the place to answer.",
       category: "general",
