@@ -481,7 +481,7 @@ function CoverView({ onJump }) {
           instead of a first win. Forest led twice, <em>Isak</em> finally
           scored and <em>Munoz</em>, handed a debut, hit the equaliser off
           the underside of the bar. Two games, two 2-2 draws, not a minute
-          in front, and sixty hours until the window shuts on a squad the
+          in front, and three days until the window shuts on a squad the
           Kop spent the evening calling short.
         </p>
 
@@ -524,12 +524,13 @@ function CoverView({ onJump }) {
               the first half poor and would not be talked out of it. Two
               matches in, Liverpool have not led for a single minute, and only
               Sunderland have conceded more league goals on the counter since
-              last August. <em>Barcola</em>'s £123m passed its medical
-              somewhere across the city and was still unannounced by the final
-              whistle, his debut earmarked for Portman Road on Friday. What the
-              ground wanted to talk about afterwards was not the winger
-              arriving but the midfielder, the second winger and the striker
-              who have not, with sixty hours left to fetch them.
+              last August. <em>Barcola</em>'s £123m was not at the ground and not
+              yet examined, the medical booked rather than taken and the
+              announcement still waiting on it, his debut earmarked for
+              Portman Road on Friday. What Anfield wanted to talk about
+              afterwards was not the winger arriving but the midfielder, the
+              second winger and the striker who have not, with three days
+              left to fetch them.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
