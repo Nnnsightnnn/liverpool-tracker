@@ -477,12 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday, and the summer's biggest signing is down to a medical. PSG
-          are set to clear <em>Barcola</em>'s £120m move, a signature and
-          nothing more, while the right wing stays open: Palace said no to £50m
-          for <em>Sarr</em>. A point from the opener at Newcastle, Liverpool
-          host a pointless Forest tomorrow at half twelve, Iraola's first
-          Anfield, four days from the deadline.
+          Saturday, matchday, and the summer's biggest signing spends the
+          morning on a medical table: <em>Barcola</em>'s £123m move all but
+          done, the winger set to watch rather than play. At half twelve
+          Forest come to Anfield for Iraola's first home match, pointless but
+          awkward guests, and a young side, <em>Ngumoha</em> eighteen today,
+          goes looking for a first win three days from the deadline.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,35 +513,34 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>{" "}
-              and Liverpool's summer has arrived at its last formality. Paris
-              Saint-Germain are expected to clear <em>Barcola</em> to fly, and
-              once the medical is passed the France winger signs to 2031, a
-              £120m move with more than £100m guaranteed, completed before
-              Tuesday's deadline. It is not signed, and Iraola, schooled by a
-              fortnight of this market, kept saying so. Behind the marquee
-              arrival the right flank stays bare: Palace rejected £50m for
-              <em>Sarr</em> and will not sell, Yan Diomande went to Real Madrid,
-              and <em>Minteh</em> is priced out at Brighton. The manager promised
-              at least one more before the window shuts, and hinted the
-              centre-back he has chased all month, with <em>Gomez</em> out around
-              a month, may yet arrive. <em>Gakpo</em>, framed on Wednesday as the
-              funding sale, is a forward he now says he simply hopes to keep.
-              Forest, still without a point, come to Anfield tomorrow at half
-              twelve, Iraola's first home match.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>{" "}
+              and Liverpool's summer arrives at a medical table on the morning
+              of a match. <em>Barcola</em> flew in overnight and is being
+              examined before a £123m move from Paris Saint-Germain is
+              confirmed, £106m guaranteed and £17m in add-ons on Ornstein's
+              numbers, the second most expensive signing in the club's history,
+              with a debut earmarked for Ipswich rather than today. He will not
+              feature at half twelve, when Forest come to Anfield for Iraola's
+              first home match, a day the manager calls emotional and opens, on
+              <em>Ngumoha</em>'s eighteenth birthday, by handing the teenager a
+              start. Behind the marquee arrival the right flank stays bare,
+              Palace unmoved on <em>Sarr</em>, and with <em>Jones</em> gone to
+              Inter the midfield has become a late scramble around Camara and
+              Kone. <em>Gomez</em> is out around a month, the centre-back still
+              wanted, and the window shuts on Tuesday.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
-              Inside, the squad as a roster, the standings as they finished, and
-              five dispatches from the writers who never clock off. There is the
-              signing down to a medical; a manager counting days and promising
-              one more; a right wing that keeps hearing no; a defence you can
-              count on one hand; and a first home crowd waiting on a striker's
-              first goal. Read them in order. The season opened at Newcastle with
-              a point on the twenty-third of August, Forest come to Anfield at
-              half twelve on the twenty-ninth, and the market shuts on the first.
+              Inside, the squad as a roster, the standings live again, and five
+              dispatches from the writers who never clock off. There is the
+              signing on a medical table; a manager opening his Anfield with a
+              birthday start; a midfield turned late scramble; a centre-back
+              clock set in Munich; and the academy path a teenager keeps open.
+              Read them in order. The season opened at Newcastle with a point on
+              the twenty-third of August, Forest come to Anfield at half twelve
+              on the twenty-ninth, and the market shuts on the first.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3262,7 +3261,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "One yes in Paris, one no in London."
+        "A medical by morning, a match by noon."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
