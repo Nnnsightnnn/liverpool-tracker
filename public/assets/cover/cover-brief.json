@@ -1,9 +1,9 @@
 {
-  "leadStory": "Friday, and the summer's biggest signing is down to a medical: PSG are expected to clear Bradley Barcola to fly before he passes a medical and signs a £120m move to 2031, comfortably ahead of Tuesday's deadline, while the right flank behind him stays open with Palace refusing £50m for Sarr and Brighton pricing Liverpool out of Minteh.",
-  "subject": "No cover-hero still this edition — the lead is a transfer a medical away from completion but not yet signed or unveiled, with no photographable moment. Queue a hero shot once Barcola is unveiled in the shirt, or after Saturday's Anfield opener if it produces one.",
-  "prompt": "n/a — image skipped this edition (an agreed-but-unsigned transfer; no unveiling, no on-pitch moment).",
-  "aspectRatio": "portrait",
-  "slug": "barcola-here-we-go",
-  "generatedAt": "2026-08-28T11:40:00Z",
-  "note": "Image SKIPPED — Friday's lead (Barcola cleared to fly for a medical on a £120m move, still unsigned) is an agreed-not-signed transfer, which STEP 7.5 excludes from cover-image queueing. Render falls back to pure-type. Revisit when Barcola is unveiled or after the Forest opener on Aug 29."
+  "leadStory": "Liverpool 2-2 Nottingham Forest at Anfield, Andoni Iraola's first home match: Forest led twice through Dan Ndoye and a Morgan Gibbs-White penalty, Alexander Isak scored his first of the season from Cody Gakpo's cross on the hour, and Victor Munoz, handed a full Premier League debut ahead of the eighteen-year-old Rio Ngumoha, spun once and hit a rising drive off the underside of the crossbar eight minutes from time to rescue a second straight 2-2 draw.",
+  "subject": "Victor Munoz wheeling away toward the Kop after the equaliser, arms wide, red shirt, floodlit late-August Anfield behind him, Forest defenders in white turning away in the middle distance.",
+  "prompt": "Cinematic wide sports photograph, no text: a young winger in a red Liverpool shirt turning away in celebration after a long-range strike, arms flung wide, mouth open, motion still in his shoulders. Behind him a packed Anfield stand rising in blurred red, low late-afternoon August light raking across the pitch, a defender in white receding out of focus. Shallow depth of field, 200mm compression, warm natural colour, grain of a match-day photographer's frame. No lettering, no logos, no scoreboard.",
+  "aspectRatio": "landscape",
+  "slug": "munoz-equaliser",
+  "generatedAt": "2026-08-29T22:20:00Z",
+  "note": "Image QUEUED (munoz-equaliser) — the lead is a just-played Anfield match with an unmistakable hero moment, which STEP 7.5 explicitly includes. Requested via this brief and cover-brief.json because the limn-editor-enhance skill and the Vault image-requests queue are unreachable from the Cowork sandbox. Antigravity should generate a wide (~1600x900) text-free plate, save it to public/assets/cover/2026-08-29-munoz-equaliser.jpg, repoint COVER_IMAGE.src, set credit to 'Illustration · Antigravity' and re-stamp generatedAt."
 }

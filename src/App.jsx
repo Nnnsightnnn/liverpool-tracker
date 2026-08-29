@@ -477,12 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday, matchday, and the summer's biggest signing spends the
-          morning on a medical table: <em>Barcola</em>'s £123m move all but
-          done, the winger set to watch rather than play. At half twelve
-          Forest come to Anfield for Iraola's first home match, pointless but
-          awkward guests, and a young side, <em>Ngumoha</em> eighteen today,
-          goes looking for a first win three days from the deadline.
+          Saturday evening, and Anfield has given Iraola a second point
+          instead of a first win. Forest led twice, <em>Isak</em> finally
+          scored and <em>Munoz</em>, handed a debut, hit the equaliser off
+          the underside of the bar. Two games, two 2-2 draws, not a minute
+          in front, and sixty hours until the window shuts on a squad the
+          Kop spent the evening calling short.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,21 +513,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>{" "}
-              and Liverpool's summer arrives at a medical table on the morning
-              of a match. <em>Barcola</em> flew in overnight and is being
-              examined before a £123m move from Paris Saint-Germain is
-              confirmed, £106m guaranteed and £17m in add-ons on Ornstein's
-              numbers, the second most expensive signing in the club's history,
-              with a debut earmarked for Ipswich rather than today. He will not
-              feature at half twelve, when Forest come to Anfield for Iraola's
-              first home match, a day the manager calls emotional and opens, on
-              <em>Ngumoha</em>'s eighteenth birthday, by handing the teenager a
-              start. Behind the marquee arrival the right flank stays bare,
-              Palace unmoved on <em>Sarr</em>, and with <em>Jones</em> gone to
-              Inter the midfield has become a late scramble around Camara and
-              Kone. <em>Gomez</em> is out around a month, the centre-back still
-              wanted, and the window shuts on Tuesday.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>{" "}
+              the table says played two, drawn two, and the football says
+              rather more than that. Forest came to Anfield at half twelve and
+              led twice, through Ndoye and a Gibbs-White penalty, before
+              <em>Isak</em> turned in <em>Gakpo</em>'s cross for a first goal
+              of the season and <em>Munoz</em>, given a debut where the
+              eighteen-year-old <em>Ngumoha</em> had been expected, spun once
+              and hit a shot off the underside of the crossbar. Iraola called
+              the first half poor and would not be talked out of it. Two
+              matches in, Liverpool have not led for a single minute, and only
+              Sunderland have conceded more league goals on the counter since
+              last August. <em>Barcola</em>'s £123m passed its medical
+              somewhere across the city and was still unannounced by the final
+              whistle, his debut earmarked for Portman Road on Friday. What the
+              ground wanted to talk about afterwards was not the winger
+              arriving but the midfielder, the second winger and the striker
+              who have not, with sixty hours left to fetch them.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -535,12 +537,13 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and five
               dispatches from the writers who never clock off. There is the
-              signing on a medical table; a manager opening his Anfield with a
-              birthday start; a midfield turned late scramble; a centre-back
-              clock set in Munich; and the academy path a teenager keeps open.
-              Read them in order. The season opened at Newcastle with a point on
-              the twenty-third of August, Forest come to Anfield at half twelve
-              on the twenty-ninth, and the market shuts on the first.
+              match report and the debutant who rescued it; a manager refusing
+              the comfortable version; the counter-attack that keeps costing;
+              a crowd turning its attention to the boardroom; and the signing
+              who watched from somewhere else. Read them in order. The season
+              opened at Newcastle with a 2-2 on the twenty-third of August and
+              found another at Anfield on the twenty-ninth, Ipswich away comes
+              on Friday night, and the market shuts on the first.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3261,7 +3264,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A medical by morning, a match by noon."
+        "One touch, and the bar rang."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
@@ -3427,7 +3430,7 @@ export default function LiverpoolTracker() {
           <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
             <SectionHead
               title="Lineup"
-              meta={<>Predicted XI<br />Nottingham Forest · 29 August</>}
+              meta={<>Predicted XI<br />Ipswich Town · 4 September</>}
             />
             <LineupView players={PLAYERS} nextMatch={NEXT_MATCH} />
           </section>
