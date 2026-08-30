@@ -136,7 +136,7 @@ const LATEST_NEWS = [
   { source: "Fabrizio Romano", title: "Bajcetic closing on a Celta Vigo return via mutual termination, Liverpool keeping a sell-on", time: "1d ago", category: "major" },
   { source: "Sky Sports", title: "Liverpool 2-2 Nottingham Forest: Munoz's debut strike rescues a second straight draw at Anfield", time: "1d ago", category: "major" },
   { source: "ESPN", title: "Two games, two 2-2s: Iraola still without a first win and a side yet to lead a single minute", time: "1d ago", category: "major" },
-  { source: "Liverpool FC", title: "Chiesa sidelined by a small muscle injury as the senior unavailable list holds at five", time: "2d ago", category: "official" },
+  { source: "Liverpool FC", title: "Chiesa sidelined by a small muscle injury, four still out as Gomez returns to training", time: "2d ago", category: "official" },
   { source: "Rousing The Kop", title: "Araujo settled at centre-back as the loan that quietly solved the summer's defensive crisis", time: "3d ago", category: "fan" },
   { source: "ESPN", title: "Jones sealed to Inter for €35m, the sale that points the Barcola pursuit at Paris", time: "1w ago", category: "major" },
   { source: "Sky Sports", title: "Newcastle 2-2 Liverpool: Szoboszlai's stoppage-time penalty rescues Iraola's opener", time: "1w ago", category: "major" },

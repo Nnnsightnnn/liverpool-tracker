@@ -575,9 +575,9 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "Gomez Trains Fully And Pushes For Friday, As The Injury List Holds At Five (Liverpool.com / Rousing The Kop, today)",
+      title: "Gomez Trains Fully And Pushes For Friday, As The Injury List Thins To Four (Liverpool.com / Rousing The Kop, today)",
       detail:
-        "One name is close to coming back onto the sheet. Joe Gomez, whose muscle problem was set at around a month after he limped out at Sunderland, has trained fully with the group and is targeting the September 4 trip to Ipswich, which would ease a back line down to Van Dijk, Jacquet and the loanee Araujo. He is still one of five unavailable: Hugo Ekitike (Achilles, out to December), Conor Bradley (knee, eyeing November), Giovanni Leoni (ACL) and Federico Chiesa (a small muscle injury from the Como friendly) remain out. Alisson, the subject of midweek rumours Iraola dismissed, is fit.",
+        "One name is close to coming back onto the sheet. Joe Gomez, whose muscle problem was set at around a month after he limped out at Sunderland, has trained fully with the group and is targeting the September 4 trip to Ipswich, which would ease a back line down to Van Dijk, Jacquet and the loanee Araujo. That leaves four still out: Hugo Ekitike (Achilles, to December), Conor Bradley (knee, eyeing November), Giovanni Leoni (ACL) and Federico Chiesa (a small muscle injury from the Como friendly). Alisson, the subject of midweek rumours Iraola dismissed, is fit.",
       category: "injuries",
     },
     {
@@ -587,7 +587,7 @@ export const NEWS_DIGEST = {
       category: "general",
     },
     {
-      title: "The Besiktas Double: Tsimikas Terms Agreed, A €2m Loan Bid For Mamardashvili (TeamTalk, 1d ago)",
+      title: "Two More Toward The Exit: Besiktas Line Up Tsimikas And A Mamardashvili Loan (TeamTalk, 1d ago)",
       detail:
         "Two more exits are lining up behind the arrivals. Besiktas have a full agreement on personal terms with Kostas Tsimikas, on loan at Roma, and are weighing the Greek against Nuno Tavares, the structure still open between loan and permanent. In the same window the Turkish club have a loan offer worth around €2m in for Giorgi Mamardashvili, an initial six months for the goalkeeper Liverpool paid heavily to secure last year and who has sat behind Alisson ever since. The outbox, again, is moving faster than the inbox.",
       category: "transfers",
@@ -605,7 +605,7 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "Homeward, On A Termination: Bajcetic Closes On Celta Vigo (Fabrizio Romano / CaughtOffside, 1d ago)",
+      title: "Back To Where It Began: Bajcetic's Celta Return Runs Through A Termination (Fabrizio Romano / CaughtOffside, 2d ago)",
       detail:
         "The quietest exit is the most sentimental. Stefan Bajcetic has agreed terms to leave through a mutual termination of a deal running to 2027 rather than a fee, Liverpool keeping a sell-on, and the move takes the 21-year-old back to the Celta Vigo academy he left at sixteen. He has not played a competitive minute this calendar year and travelled to America in the rehabilitation group, three seasons broken by injury behind him. It is expected to complete in the window's final days alongside the Tsimikas and Mamardashvili departures.",
       category: "transfers",
