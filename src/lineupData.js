@@ -129,17 +129,20 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS + injuryNote context as of Sat Aug 29 (evening),
-// after Liverpool 2-2 Nottingham Forest at Anfield. Next up: Ipswich Town away,
-// Friday 4 September, 8pm at Portman Road. Munoz took the right flank ahead of
-// Ngumoha and scored the 82nd-minute equaliser on a full debut; Isak scored his
-// first of the season from Gakpo's cross; Mac Allister was recalled and
-// Gravenberch benched. Out: Ekitike (Achilles, to December), Bradley (knee,
+// Hand-curated from RESULTS + injuryNote context as of Sun Aug 30 (evening),
+// a day after Liverpool 2-2 Nottingham Forest at Anfield. Next up: Ipswich Town
+// away, Friday 4 September, 8pm at Portman Road. Munoz took the right flank
+// ahead of Ngumoha and scored the 82nd-minute equaliser on a full debut; Isak
+// scored his first of the season from Gakpo's cross; Mac Allister was recalled
+// and Gravenberch benched. Out: Ekitike (Achilles, to December), Bradley (knee,
 // eyeing November), Leoni (ACL), Chiesa (small muscle injury). Gomez has trained
-// fully and is pushing for Friday. Barcola is at his GBP123m medical this weekend, set to wear 29 with the
-// announcement expected within a day, his debut earmarked for Portman Road; he is
-// not PLAYERS-keyed. Salah is a Trabzonspor player and
-// Curtis Jones an Inter one.
+// fully and is pushing for Friday. Two market situations sit over this XI:
+// Gakpo agreed personal terms with Manchester City on Sunday evening (five
+// years, ~GBP85m) but cannot be sold until a second winger arrives, so he stays
+// selectable; and Barcola's GBP123m medical is complete while the signing
+// remained UNANNOUNCED on Sunday night, confirmation now expected Monday, so he
+// is still not PLAYERS-keyed. Salah is a Trabzonspor player and Curtis Jones an
+// Inter one.
 export const PLAYER_EVIDENCE = {
   1:  "Started vs Forest · no fresh setback",       // Alisson
   2:  "Besiktas lodge a EUR2m loan bid",            // Mamardashvili

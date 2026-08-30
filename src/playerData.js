@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 41, goals: 10, assists: 7, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Sun Aug 30 — he has chosen, and now Liverpool must. Gakpo agreed personal terms with Manchester City on Sunday evening and gave his green light to a five-year contract, the package reported at around £85m with the clubs in contact over the fee, City having come late and hard into a race Tottenham led from July. Liverpool have not consented and will not until a second winger arrives, which is why the last hours have gone to Neto, Rayan, Minteh and Sarr. Two days ago he spun his marker on the hour at Anfield and clipped in the cross Isak turned home. Contracted to 2030, an assist and an equaliser in two games, and three days for someone to blink", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 41, goals: 10, assists: 7, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Sun Aug 30 — he has chosen, and now Liverpool must. Gakpo agreed personal terms with Manchester City on Sunday evening and gave his green light to a five-year contract, the package reported at around £85m with the clubs in contact over the fee, City having come late and hard into a race Tottenham led from July. Liverpool have not consented and will not until a second winger arrives, which is why the last hours have gone to Neto, Rayan, Minteh and Sarr. Yesterday he spun his marker on the hour at Anfield and clipped in the cross Isak turned home for 2-1. Contracted to 2030, an assist and an equaliser in two games, and two days for someone to blink", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -485,12 +485,12 @@ export const STANDINGS_COMMENTARY = {
     "Hull": "Second on six, two wins from two on their return to the top flight, comfortably the story of the opening fortnight.",
     "Chelsea": "Third on six and unbeaten, sellers as well as buyers this week: Liverpool have contacted Pedro Neto's camp while Chelsea close on Monaco's Lamine Camara.",
     "Brentford": "Fourth on four and unbeaten, a plus-three difference the highest of anyone outside the top three.",
-    "Newcastle": "Fifth on four, the only side above Liverpool to have dropped a point, and they dropped it against them on the opening weekend.",
+    "Newcastle": "Fifth on four, and the only side above Liverpool to have dropped points to them, the 2-2 at St James' on the opening weekend.",
     "Ipswich": "Twelfth on three from two, a place and a point above Liverpool, and hosting them at Portman Road on Friday night in a fixture the table has quietly made awkward.",
     "Bournemouth": "Fourteenth on one, holding two Liverpool files at once: Rayan's £130m clause and a reported £90m valuation of Alex Scott.",
     "Nott'm Forest": "Fifteenth on one, the point taken at Anfield on Saturday the difference between this and nothing at all.",
     "Crystal Palace": "Nineteenth and pointless, which has not softened them on Ismaila Sarr: two Liverpool approaches rejected and no asking price named.",
-    "Tottenham": "Bottom on goal difference with two defeats from two, and beaten in the market as well after leading the Gakpo race since July only to see the player choose Manchester City.",
+    "Tottenham": "Bottom on goals scored with two defeats from two, and beaten in the market as well after leading the Gakpo race since July only to see the player choose Manchester City.",
     "Brighton": "Eighth on three, unmoved at £80m for Yankuba Minteh even as Liverpool reopen the conversation.",
   },
 };
@@ -503,7 +503,7 @@ export const DISPATCHES = [
     dateline: "Merseyside \u00b7 30 August",
     category: "Transfers",
     body:
-      "It arrived on a Sunday evening, in the way these things now do, as an exclusive posted to a timeline. Cody Gakpo has agreed personal terms with Manchester City and signed off on five years at the Etihad, the package put at around \u00a385m, the clubs in contact over the fee. Tottenham had led the race since July and lost it in a fortnight. Two days ago the Dutchman turned his marker on the hour at Anfield and made the goal that saved a point. Liverpool have not agreed to sell, and will not until a second winger arrives, which is a condition and also, in the hours that remain, something close to a wall.",
+      "It arrived on a Sunday evening, in the way these things now do, as an exclusive posted to a timeline. Cody Gakpo has agreed personal terms with Manchester City and signed off on five years at the Etihad, the package put at around \u00a385m, the clubs in contact over the fee. Tottenham had led the race since July and lost it in a fortnight. Yesterday the Dutchman turned his marker on the hour at Anfield and made the goal that started the recovery. Liverpool have not agreed to sell, and will not until a second winger arrives, which is a condition and also, in the hours that remain, something close to a wall.",
   },
   {
     n: "02",
@@ -546,7 +546,7 @@ export const DISPATCHES = [
 export const NEWS_DIGEST = {
   generatedAt: "2026-08-30T22:45:00Z",
   summary:
-    "Sunday night, and the biggest move of the day is one going out. Cody Gakpo has agreed personal terms with Manchester City and given his green light to a five-year contract, Fabrizio Romano putting the package at around \u00a385m with the clubs now in contact over the fee, and the Dutchman has chosen the Etihad over a Tottenham pursuit that had been running since July. Liverpool have set one condition and held it all week: nobody leaves the left flank until a replacement walks in the other door. That condition is why the last forty-eight hours have turned into a scramble, contact made with Pedro Neto\u2019s representatives at Chelsea, an enquiry lodged over Bournemouth\u2019s Rayan and the \u00a3130m clause that guards him, talks with Brighton over Yankuba Minteh reopened, and a fresh proposal being prepared for Ismaila Sarr after two rejections. Bradley Barcola, meanwhile, has done his medical and still has not been announced, with Ligue 1 shutting on Monday and the English window at eleven on Tuesday night. It all sits two days after a second straight 2-2, a side yet to lead a minute this season, and a table that now has Liverpool thirteenth, below Friday\u2019s opponents.",
+    "Sunday night, and the biggest move of the day is one going out. Cody Gakpo has agreed personal terms with Manchester City and given his green light to a five-year contract, Fabrizio Romano putting the package at around \u00a385m with the clubs now in contact over the fee, and the Dutchman has chosen the Etihad over a Tottenham pursuit that had been running since July. Liverpool have set one condition and held it all week: nobody leaves the left flank until a replacement walks in the other door. That condition is why the last forty-eight hours have turned into a scramble, contact made with Pedro Neto\u2019s representatives at Chelsea, an enquiry lodged over Bournemouth\u2019s Rayan and the \u00a3130m clause that guards him, talks with Brighton over Yankuba Minteh reopened, and a fresh proposal being prepared for Ismaila Sarr after two rejections. Bradley Barcola, meanwhile, has done his medical and still has not been announced, with Ligue 1 shutting on Monday and the English window at eleven on Tuesday night. It all sits a day after a second straight 2-2, a side yet to lead a minute this season, and a table that now has Liverpool thirteenth, below Friday\u2019s opponents.",
   keyTopics: [
     {
       title: "Gakpo Says Yes To City: Personal Terms Agreed, Five Years Signed Off, \u00a385m The Number (Fabrizio Romano / Sky Sports, tonight)",
@@ -573,12 +573,6 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "Elliott Chooses Valencia: Personal Terms Agreed, Club Talks Underway (Fabrizio Romano / Goal, 1d ago)",
-      detail:
-        "Another of the academy\u2019s own is going. Harvey Elliott has agreed personal terms with Valencia after positive talks, with negotiations now running between the clubs over the structure of a loan, and the 23-year-old chose Mestalla over interest from Napoli and Lazio. He had made his wish to leave plain after a difficult opening under the new regime, having barely featured in the first weeks of the season. It is a departure that thins an already reshaped middle third and sits alongside Chiesa, whom Liverpool are willing to listen on at around \u20ac20m.",
-      category: "transfers",
-    },
-    {
       title: "Minteh Reopened, Sarr Re-Attempted: The Two Doors Liverpool Keep Knocking On (Football365 / TeamTalk, today)",
       detail:
         "Both old files came back off the shelf this weekend. Talks with Brighton over Yankuba Minteh have been reactivated after being declared over when the Seagulls quoted \u00a380m, the internal discussions of the last few days driven by the shortage of viable alternatives. On the other door, Liverpool are preparing a new proposal for Ismaila Sarr, whose \u00a350m valuation Palace rejected twice and who is described as desperate for the move. Palace, pointless from two and bottom but for goal difference, still have not named a price. Two ready-made wingers, neither of them cheap, neither of them close.",
@@ -591,34 +585,40 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "\u201cI Cannot Guarantee Anything\u201d: Iraola Declines To Promise Gakpo Stays (Liverpool.com / Goal, 2d ago)",
-      detail:
-        "The manager was asked the direct question and gave the honest answer. Pressed on whether Gakpo would still be a Liverpool player after Tuesday, Andoni Iraola said he could not guarantee anything, while insisting in the same breath that the Dutchman has been one of his best players and praising his pre-season. Two days later the winger who spun his marker and made Isak\u2019s goal against Forest has agreed terms with the champions-elect. Reports that Gakpo has formally requested a move remain claims rather than confirmations, and nobody at the club has put that on the record.",
-      category: "general",
-    },
-    {
       title: "Thirteenth, And Below Friday\u2019s Opponents: The Table After Two Weekends (ESPN, today)",
       detail:
         "The standings have started to sting. Two draws from two leaves Liverpool thirteenth on two points with a goal difference of nothing, one place and one point behind Ipswich Town, the side they visit at Portman Road on Friday night. Manchester City lead on six with a promoted Hull alongside them and Chelsea third, which is the uncomfortable subtext to the Gakpo story: the club that wants him is the club at the top. Forest, who drew at Anfield, sit fifteenth. It is August, and none of it is settled, but nobody at Anfield is enjoying the view.",
       category: "matches",
     },
     {
-      title: "The Midfield Hole Nobody Will Fill: Scott Named Top Target, Bournemouth Unmoved (The Independent / GiveMeSport, 3d ago)",
+      title: "Elliott Chooses Valencia: Personal Terms Agreed, Club Talks Underway (Fabrizio Romano / Goal, 1d ago)",
       detail:
-        "The defensive midfielder Iraola wants has a name and a price nobody at Anfield likes. Miguel Delaney reported multiple sources identifying Bournemouth\u2019s Alex Scott as the top target for the role, and the complication is a purported \u00a390m valuation that Liverpool are not willing to meet, with a sense the pursuit gets deferred to next summer. Chelsea have weighed a late offer of their own and been given the same answer. Behind it, Manu Kone stays the preference Roma will not sell, and Monaco\u2019s Lamine Camara has gone the other way, to Chelsea.",
+        "Another of the academy\u2019s own is going. Harvey Elliott has agreed personal terms with Valencia after positive talks, with negotiations now running between the clubs over the structure of a loan, and the 23-year-old chose Mestalla over interest from Napoli and Lazio. He had made his wish to leave plain after a difficult opening under the new regime, having barely featured in the first weeks of the season. It is a departure that thins an already reshaped middle third and sits alongside Chiesa, whom Liverpool are willing to listen on at around \u20ac20m.",
       category: "transfers",
     },
     {
-      title: "The Outbox Keeps Filling: Endo Available, Bajcetic Homeward, Besiktas Circling (Sky Sports / TeamTalk, 1d ago)",
+      title: "A Right-Back And A Centre-Half In One Body: Gomez Aims At Portman Road (Liverpool FC / Rousing The Kop, 1d ago)",
+      detail:
+        "One piece of the week was straightforwardly good. Joe Gomez, whose muscle problem was set at roughly a month when he limped out at Sunderland in pre-season, has trained fully with the group and is aiming at Friday night, which would give Iraola a right-back and a centre-back in one body. Four remain out: Hugo Ekitike until December with the Achilles, Conor Bradley eyeing November on the knee, Giovanni Leoni on the long road back from an ACL, and Federico Chiesa with the small muscle injury picked up against Como. Alisson is fit and the midweek noise around him came to nothing.",
+      category: "injuries",
+    },
+    {
+      title: "\u201cI Cannot Guarantee Anything\u201d: Iraola Declines To Promise Gakpo Stays (Liverpool.com / Goal, 2d ago)",
+      detail:
+        "The manager was asked the direct question and gave the honest answer. Pressed on whether Gakpo would still be a Liverpool player after Tuesday, Andoni Iraola said he could not guarantee anything, while insisting in the same breath that the Dutchman has been one of his best players and praising his pre-season. Two days later the winger who spun his marker and made Isak\u2019s goal against Forest has agreed terms with the champions-elect. Reports that Gakpo has formally requested a move remain claims rather than confirmations, and nobody at the club has put that on the record.",
+      category: "general",
+    },
+    {
+      title: "Salah, Konate, Robertson, Jones And Five More: The Leaving Column Reads Nine (Sky Sports / TeamTalk, 2d ago)",
       detail:
         "Behind the marquee names the clearance continues. Wataru Endo has been made available at 33 and clubs have been told so, Bajcetic\u2019s return to the Celta Vigo academy he left at sixteen runs through a mutual termination with Liverpool keeping a sell-on, and Besiktas hold agreed personal terms with Kostas Tsimikas alongside a loan offer worth around \u20ac2m for Giorgi Mamardashvili. Add Elliott and, probably, Chiesa, and the leaving column for a single window reads Salah, Konate, Robertson, Jones and five more. The incoming column still reads three.",
       category: "transfers",
     },
     {
-      title: "The Injury Sheet Thins As Gomez Trains Fully (Liverpool FC / Rousing The Kop, 1d ago)",
+      title: "The Midfield Hole Nobody Will Fill: Scott Named Top Target, Bournemouth Unmoved (The Independent / GiveMeSport, 3d ago)",
       detail:
-        "One piece of the week was straightforwardly good. Joe Gomez, whose muscle problem was set at roughly a month when he limped out at Sunderland in pre-season, has trained fully with the group and is aiming at Friday night, which would give Iraola a right-back and a centre-back in one body. Four remain out: Hugo Ekitike until December with the Achilles, Conor Bradley eyeing November on the knee, Giovanni Leoni on the long road back from an ACL, and Federico Chiesa with the small muscle injury picked up against Como. Alisson is fit and the midweek noise around him came to nothing.",
-      category: "injuries",
+        "The defensive midfielder Iraola wants has a name and a price nobody at Anfield likes. Miguel Delaney reported multiple sources identifying Bournemouth\u2019s Alex Scott as the top target for the role, and the complication is a purported \u00a390m valuation that Liverpool are not willing to meet, with a sense the pursuit gets deferred to next summer. Chelsea have weighed a late offer of their own and been given the same answer. Behind it, Manu Kone stays the preference Roma will not sell, and Monaco\u2019s Lamine Camara has gone the other way, to Chelsea.",
+      category: "transfers",
     },
   ],
   sources: [
@@ -634,7 +634,6 @@ export const NEWS_DIGEST = {
     "Goal",
     "The Independent",
     "GiveMeSport",
-    "Empire of the Kop",
     "Rousing The Kop",
     "Liverpool FC",
   ],
