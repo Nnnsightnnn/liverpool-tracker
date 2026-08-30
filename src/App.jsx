@@ -477,11 +477,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday, and the £123m winger is finally in the building for his
-          medical. <em>Barcola</em> will wear 29, not Salah's 11, a number
-          he kept from a boyhood spent playing FIFA. Two draws behind,
-          <em>Ipswich</em> away on Friday ahead, and a squad still short of
-          a midfielder as the window closes on Tuesday night.
+          Sunday night, and the biggest move is one going out. <em>Gakpo</em>
+          has agreed personal terms with Manchester City, five years and some
+          £85m, and Liverpool will not let him go until a second winger walks
+          in. Two draws behind, thirteenth in the table, <em>Ipswich</em> away
+          on Friday, and forty-eight hours to find the man who unlocks it all.
         </p>
 
         <StatStrip stats={stats} />
@@ -512,21 +512,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>{" "}
-              and the noise has moved from the pitch to the training ground.
-              <em>Barcola</em> is being examined on Merseyside, the last step of a
-              £123m move that will make him the second most expensive player in
-              the club's history, and the detail everyone has seized on is the
-              smallest one: he will wear 29 rather than Mohamed Salah's vacated
-              11, a number he kept from playing FIFA's Alex Hunter career mode as
-              a boy and now calls non-negotiable. The announcement is expected
-              within a day, the debut earmarked for Ipswich on Friday. Behind the
-              marquee the window's last hours quicken, a fresh contact made over
-              Lille's <em>Fernandez-Pardo</em>, <em>Endo</em> made available, a
-              defensive midfielder still wanted and probably unattainable. It all
-              sits a day after a second straight 2-2, Iraola still without a first
-              win and a side yet to lead a single minute. The man arriving is not
-              being asked to replace the eleven, only to begin what comes next.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>{" "}
+              the news came the other way. <em>Cody Gakpo</em> has agreed
+              personal terms with Manchester City and put his name to five years
+              at the Etihad, a package reported at around £85m, the clubs in
+              contact over the fee, Tottenham beaten to a player they had chased
+              since July. Liverpool have not agreed to sell, and will not, until
+              a second winger arrives. That single condition has turned the last
+              hours of the window into a scramble: contact with <em>Pedro
+              Neto</em>'s camp at Chelsea, an enquiry to Bournemouth about
+              <em>Rayan</em> and the £130m clause that guards him, Brighton
+              reopened over Minteh, a third proposal drawn up for Sarr. Barcola
+              has done his medical and still has not been announced. Two days
+              ago the man now leaving turned his marker at Anfield and made the
+              goal that saved a point, which is the whole of it: the club is
+              selling the player who is playing well because the market has left
+              them nothing else to sell.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -534,13 +535,13 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and five
               dispatches from the writers who never clock off. There is the
-              record signing at his medical; the boy who kept his number from a
-              video game; the late scramble for a second winger; a manager asking
-              for foundations before names; and an outbox running faster than the
-              in. Read them in order. The season opened at Newcastle with a 2-2
-              on the twenty-third of August and found another at Anfield on the
-              twenty-ninth, Ipswich away comes on Friday night, and the market
-              shuts on the first.
+              winger who said yes to the champions; the four doors Liverpool are
+              knocking on to replace him; a record signing whose announcement
+              keeps slipping; Harvey Elliott choosing Mestalla; and a table that
+              has quietly put Friday's hosts above us. Read them in order. The
+              season opened at Newcastle with a 2-2 on the twenty-third of
+              August and found another at Anfield on the twenty-ninth, Ipswich
+              away comes on Friday night, and the market shuts on the first.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3261,7 +3262,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Not the eleven. The twenty-nine."
+        "He has chosen. We have not."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
