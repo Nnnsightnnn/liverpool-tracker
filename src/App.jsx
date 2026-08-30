@@ -477,12 +477,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday evening, and Anfield has given Iraola a second point
-          instead of a first win. Forest led twice, <em>Isak</em> finally
-          scored and <em>Munoz</em>, handed a debut, hit the equaliser off
-          the underside of the bar. Two games, two 2-2 draws, not a minute
-          in front, and three days until the window shuts on a squad the
-          Kop spent the evening calling short.
+          Sunday, and the £123m winger is finally in the building for his
+          medical. <em>Barcola</em> will wear 29, not Salah's 11, a number
+          he kept from a boyhood spent playing FIFA. Two draws behind,
+          <em>Ipswich</em> away on Friday ahead, and a squad still short of
+          a midfielder as the window closes on Tuesday night.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,24 +512,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>{" "}
-              the table says played two, drawn two, and the football says
-              rather more than that. Forest came to Anfield at half twelve and
-              led twice, through Ndoye and a Gibbs-White penalty, before
-              <em>Isak</em> turned in <em>Gakpo</em>'s cross for a first goal
-              of the season and <em>Munoz</em>, given a debut where the
-              eighteen-year-old <em>Ngumoha</em> had been expected, spun once
-              and hit a shot off the underside of the crossbar. Iraola called
-              the first half poor and would not be talked out of it. Two
-              matches in, Liverpool have not led for a single minute, and only
-              Sunderland have conceded more league goals on the counter since
-              last August. <em>Barcola</em>'s £123m was not at the ground and not
-              yet examined, the medical booked rather than taken and the
-              announcement still waiting on it, his debut earmarked for
-              Portman Road on Friday. What Anfield wanted to talk about
-              afterwards was not the winger arriving but the midfielder, the
-              second winger and the striker who have not, with three days
-              left to fetch them.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>{" "}
+              and the noise has moved from the pitch to the training ground.
+              <em>Barcola</em> is being examined on Merseyside, the last step of a
+              £123m move that will make him the second most expensive player in
+              the club's history, and the detail everyone has seized on is the
+              smallest one: he will wear 29 rather than Mohamed Salah's vacated
+              11, a number he kept from playing FIFA's Alex Hunter career mode as
+              a boy and now calls non-negotiable. The announcement is expected
+              within a day, the debut earmarked for Ipswich on Friday. Behind the
+              marquee the window's last hours quicken, a fresh contact made over
+              Lille's <em>Fernandez-Pardo</em>, <em>Endo</em> made available, a
+              defensive midfielder still wanted and probably unattainable. It all
+              sits a day after a second straight 2-2, Iraola still without a first
+              win and a side yet to lead a single minute. The man arriving is not
+              being asked to replace the eleven, only to begin what comes next.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -538,13 +534,13 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and five
               dispatches from the writers who never clock off. There is the
-              match report and the debutant who rescued it; a manager refusing
-              the comfortable version; the counter-attack that keeps costing;
-              a crowd turning its attention to the boardroom; and the signing
-              who watched from somewhere else. Read them in order. The season
-              opened at Newcastle with a 2-2 on the twenty-third of August and
-              found another at Anfield on the twenty-ninth, Ipswich away comes
-              on Friday night, and the market shuts on the first.
+              record signing at his medical; the boy who kept his number from a
+              video game; the late scramble for a second winger; a manager asking
+              for foundations before names; and an outbox running faster than the
+              in. Read them in order. The season opened at Newcastle with a 2-2
+              on the twenty-third of August and found another at Anfield on the
+              twenty-ninth, Ipswich away comes on Friday night, and the market
+              shuts on the first.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3265,7 +3261,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "One touch, and the bar rang."
+        "Not the eleven. The twenty-nine."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "doubtful", outSince: "2026-07-25", injuryNote: "Sat Aug 29 — watched from the treatment room while the defence conceded twice. Iraola has Gomez's muscle problem at around a month, and the Forest game came and went without him, as Newcastle did before it, all of it tracing back to the knock taken inside minutes at Sunderland on 25 July. The arithmetic behind him is stark: with Konate gone to Madrid, Leoni on ACL rehab and Ndukwe barred by a work permit until January, Van Dijk and Jacquet are the only fit senior centre-backs and Araujo's loan is the cover, which is why Upamecano and Tomori are suddenly names again. The longest-serving defender is a body to keep, not sell", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "doubtful", outSince: "2026-07-25", injuryNote: "Sun Aug 30 — back in full training, and racing for Portman Road. Iraola had Gomez's muscle problem at around a month after the knock taken inside minutes at Sunderland on 25 July, but he has trained fully with the group and is targeting Friday's trip to Ipswich, which would restore a right-back and a centre-back option to a defence that has conceded twice in two games. With Konate gone to Madrid, Leoni on ACL rehab and Ndukwe barred by a work permit until January, Van Dijk, Jacquet and the loanee Araujo carry the back line until he is back. The longest-serving defender is a body to keep, not sell", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -142,7 +142,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Fri Aug 28 — available for sale, briefly useful in defence. Liverpool have made clubs aware Endo can leave, Wolves, Fulham and West Ham the standing admirers, and at 33 he is among the departures FSG will sanction before Tuesday. But with Gomez out a month and the centre-back file down to Van Dijk and Jacquet, the makeshift cover he offers is worth more this week than the wages his sale would clear. The February foot trouble is long behind him; a manager who has never picked him may need him on the bench", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Sun Aug 30 — available for sale, and the clubs have been told. Liverpool have made a number of interested sides aware Endo can leave, Wolves, Fulham and West Ham the standing admirers, and at 33, following Jones out of a reshaped midfield, he is among the departures FSG will sanction before Tuesday. The makeshift centre-back cover he offers matters less now Gomez is back in training beside Van Dijk, Jacquet and Araujo. The February foot trouble is long behind him; a manager who has rarely picked him is content to let a wage clear toward the attack", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "injured", outSince: "2026-08-16", injuryNote: "Sat Aug 29 — named, and named as unavailable. Iraola put the doubt to rest at Thursday's press conference: in the pre-season game against Como the Italian felt something at the back of his leg, a small muscle injury, and he was not available for Forest. He is one of five out, alongside Ekitike, Bradley, Leoni and Gomez, with no return date offered. The timing does him no favours in a summer spent weighing his future: he scored off the bench in Nashville and insists his focus is Liverpool, yet he sits among the exits the club would sanction, and an injured forward is a hard thing to sell in three days", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "injured", outSince: "2026-08-16", injuryNote: "Sat Aug 29 — named, and named as unavailable. Iraola put the doubt to rest at Thursday's press conference: in the pre-season game against Como the Italian felt something at the back of his leg, a small muscle injury, and he was not available for Forest. He is one of four still out, alongside Ekitike, Bradley and Leoni, with Gomez now back in training and no return date offered for Chiesa himself. The timing does him no favours in a summer spent weighing his future: he scored off the bench in Nashville and insists his focus is Liverpool, yet he sits among the exits the club would sanction, and an injured forward is a hard thing to sell in three days", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -364,29 +364,24 @@ export const COVER_IMAGE = {
   alt: "Pure-type edition cover.",
   focus: null,
   credit: null,
-  generatedAt: "2026-08-29T22:20:00Z",
+  generatedAt: "2026-08-30T13:30:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
-  // Saturday evening: the lead is Liverpool 2-2 Nottingham Forest at Anfield, Iraola's
-  // first home match, with Victor Munoz's 82nd-minute equaliser on a full Premier League
-  // debut, a single touch, a 180-degree spin and a rising drive off the underside of the
-  // crossbar. That IS a photographable moment under STEP 7.5 (a just-played match with a
-  // clear hero), so a cover image IS requested this edition. The `limn-editor-enhance`
-  // skill and ~/Vault/Notes/image-requests.md are not reachable from the Cowork sandbox,
-  // so the request is handed off through this brief and public/assets/cover/cover-brief.json
-  // instead. Render stays on the pure-type fallback (src null) until Antigravity generates
-  // the plate and repoints COVER_IMAGE.src. Cap of ONE request per edition respected:
-  // Barcola's still-unexamined, unannounced move is the competing story and is deliberately dropped.
+  // Sunday: the lead is Bradley Barcola undergoing his GBP123m medical this weekend, set
+  // to wear 29 rather than Salah's 11, announcement expected within a day. Under STEP 7.5
+  // this is NOT a photographable moment: a pending medical and an as-yet-unannounced move,
+  // with no unveiling photo, kit shot or on-pitch hero. So NO cover image is requested this
+  // edition and the render stays on the pure-type fallback (src null). generatedAt is still
+  // re-stamped to today as the cache-buster required by COVER-00001. The previous edition's
+  // munoz-equaliser request stands on its own date; it is not re-queued here.
   brief: {
     leadStory:
-      "Liverpool 2-2 Nottingham Forest at Anfield, Andoni Iraola's first home match: Forest led twice through Dan Ndoye and a Morgan Gibbs-White penalty, Alexander Isak scored his first of the season from Cody Gakpo's cross on the hour, and Victor Munoz, handed a full Premier League debut ahead of the eighteen-year-old Rio Ngumoha, spun once and hit a rising drive off the underside of the crossbar eight minutes from time to rescue a second straight 2-2 draw.",
-    subject:
-      "Victor Munoz wheeling away toward the Kop after the equaliser, arms wide, red shirt, floodlit late-August Anfield behind him, Forest defenders in white turning away in the middle distance.",
-    prompt:
-      "Cinematic wide sports photograph, no text: a young winger in a red Liverpool shirt turning away in celebration after a long-range strike, arms flung wide, mouth open, motion still in his shoulders. Behind him a packed Anfield stand rising in blurred red, low late-afternoon August light raking across the pitch, a defender in white receding out of focus. Shallow depth of field, 200mm compression, warm natural colour, grain of a match-day photographer's frame. No lettering, no logos, no scoreboard.",
-    aspectRatio: "landscape",
-    slug: "munoz-equaliser",
-    generatedAt: "2026-08-29T22:20:00Z",
-    note: "Image QUEUED (munoz-equaliser) — the lead is a just-played Anfield match with an unmistakable hero moment, which STEP 7.5 explicitly includes. Requested via this brief and cover-brief.json because the limn-editor-enhance skill and the Vault image-requests queue are unreachable from the Cowork sandbox. Antigravity should generate a wide (~1600x900) text-free plate, save it to public/assets/cover/2026-08-29-munoz-equaliser.jpg, repoint COVER_IMAGE.src, set credit to 'Illustration · Antigravity' and re-stamp generatedAt.",
+      "Bradley Barcola is undergoing his Liverpool medical this weekend, the last step of a GBP123m move (GBP106m guaranteed plus GBP17m in add-ons) that makes him the club's second most expensive signing behind Isak. He will wear the No. 29 shirt rather than Salah's vacated 11, a number kept from FIFA's Alex Hunter career mode as a boy, with the announcement expected within a day and a debut earmarked for Ipswich away on Friday.",
+    subject: null,
+    prompt: null,
+    aspectRatio: "portrait",
+    slug: null,
+    generatedAt: "2026-08-30T13:30:00Z",
+    note: "Image SKIPPED — the lead is a pending medical and an unannounced transfer, which STEP 7.5 explicitly excludes (transfer chatter, no unveiling photo, no on-pitch hero). No request queued this edition. generatedAt re-stamped to today per COVER-00001; render stays on the pure-type fallback.",
   },
 };
 
@@ -446,11 +441,10 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-08-22 — FINAL 2025-26 table retained (season complete, MW38). ESPN's live
-// 2026-27 feed has begun (MW1 underway) but returns promoted sides outside this squad's universe
-// (Hull, Ipswich, Coventry) with no crests and every fixture bar Arsenal's still at 0, so the
-// coherent final table is kept frozen for this edition until the new campaign produces a
-// universe-consistent, populated table. Do not paste the raw ESPN 2026-27 rows over this.
+// Last refresh: 2026-08-30 — live 2026-27 table, matchweek 2. Matches ESPN's current feed
+// (some sides still on one game played until this weekend's fixtures catch up). Liverpool 11th
+// on 2 points from two draws. Table unchanged since Saturday's round; next Liverpool fixture is
+// Ipswich away on Friday 4 September, so no on-pitch movement this refresh.
 export const STANDINGS = [
   { pos: 1, team: "Manchester City", p: 2, w: 2, d: 0, l: 0, gd: 4, pts: 6, qualification: "UCL" },
   { pos: 2, team: "Hull", p: 2, w: 2, d: 0, l: 0, gd: 3, pts: 6, qualification: "UCL" },
@@ -484,20 +478,20 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 2,
-  generatedAt: "2026-08-29T22:20:00Z",
+  generatedAt: "2026-08-30T13:30:00Z",
   overview:
-    "Two rounds gone, and Liverpool's row reads the way the football has felt: played two, drawn two, scored four, conceded four, eleventh on a goal difference of nothing. Saturday's 2-2 with Forest was the second time in eight days Iraola's side have trailed, equalised, trailed and equalised again, and the table now records what the eye already knew, that they have not led a Premier League match for a single minute this season. Manchester City sit top on six and are joined there by a promoted Hull, which is the sort of sentence August produces and September usually deletes. Forest leave Anfield with their first point of the campaign and climb off the floor to thirteenth. Underneath, Tottenham, Crystal Palace and Coventry share the bottom three on nothing from two, and the European line is still drawn in pencil: two points would not have made the top ten last weekend, and they do not now.",
+    "The table sits still on a Sunday while the market does the moving. Manchester City lead on six, joined at the top by a promoted Hull, the sort of sentence August writes and September tends to erase, and Liverpool are eleventh, played two, drawn two, a goal difference of nothing and not a minute yet spent in front. That eleventh place is the frame for everything the club is doing off the pitch this weekend, a £123m winger at his medical and a squad still short in midfield, because two points from two is a start that flatters no one and demands the recruitment land. Forest, a point off Anfield, have climbed to thirteenth. At the bottom, Tottenham, Crystal Palace and Coventry share nothing from two, and the European line remains drawn in pencil until the games catch up with the noise.",
   teams: {
-    "Liverpool": "Eleventh on two points from two, both 2-2 draws, with Isak off the mark and Victor Munoz's debut rocket rescuing Saturday's. Iraola is still waiting on a first win and his side have not led all season. Portman Road on Friday night is the next chance, and Barcola, unannounced and still a medical away, is earmarked to debut there.",
+    "Liverpool": "Eleventh on two points from two, both 2-2 draws, still waiting on a first win under Iraola and yet to lead a minute all season. The table is the argument for the window: Barcola is at his medical and set to wear 29, with a debut earmarked for Ipswich away on Friday, the next chance to turn draws into wins.",
     "Manchester City": "Top on six, the only side with a maximum from two, and already four goals to the good on difference.",
     "Hull": "Second on six, two wins from two on their return to the top flight, the story of the opening fortnight and the sort of start nobody in the summer previews forecast.",
     "Newcastle": "Third on four, having taken a point off Liverpool on the opening weekend, and now the only side above them to have dropped any.",
     "Everton": "Fourth on four under their new roof, unbeaten and quietly the best-organised of the early risers.",
     "Brighton": "Fifth on three from a single game and a four-goal difference, the club that priced Liverpool out of Yankuba Minteh above £70m before the Reds turned to Sarr.",
-    "Chelsea": "Eighth on three under Xabi Alonso, and Liverpool's rival for Monaco's Lamine Camara in the window's closing hours.",
+    "Chelsea": "Eighth on three under Xabi Alonso, and now the likely home for Monaco's Lamine Camara, the midfielder offered to Liverpool too before Anfield settled on Kone.",
     "Ipswich": "Ninth on three and Liverpool's next opponent, Friday night at Portman Road, where a Barcola debut has been earmarked and where Iraola will look for a first win.",
     "Nott'm Forest": "Thirteenth on their first point of the season, taken at Anfield, where Ndoye and a Gibbs-White penalty twice put them in front before Munoz's late strike denied them a famous afternoon.",
-    "Crystal Palace": "Nineteenth on nothing from two, an ugly August for the Conference League holders, and still refusing to sell Ismaila Sarr, with new boss Pierre Sage insisting the winger is not for sale.",
+    "Crystal Palace": "Nineteenth on nothing from two, a bruising August for the Conference League holders, and holding firm on Ismaila Sarr, whose price they will not name after Liverpool's £50m was turned down.",
     "Tottenham": "Bottom on two defeats from two, a jolt for a side that took Robertson on a free and kept circling Gakpo, whom Liverpool now intend to keep.",
     "Coventry": "Eighteenth on two defeats, finding the step up steep, and the third promoted side to sit at either extreme of a table that means very little yet.",
   },
@@ -506,150 +500,150 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Twice Behind, Twice Level: Munoz Announces Himself And Anfield Settles For A Point.",
-    byline: "Sky Sports / This Is Anfield",
-    dateline: "Anfield · 29 August",
-    category: "Match Report",
+    headline: "At The Medical At Last: Barcola's £123m Reaches Its Final Step.",
+    byline: "This Is Anfield / Sky Sports",
+    dateline: "Merseyside · 30 August",
+    category: "Transfers",
     body:
-      "The new man on the right had waited seven weeks for a first Premier League start and needed one touch to justify it. Eight minutes from time, with Liverpool trailing for the second time, Victor Munoz spun through a hundred and eighty degrees and hit a rising drive across Matz Sels that came down off the underside of the crossbar. It made the score 2-2 and it made Andoni Iraola's first home afternoon survivable rather than successful. Dan Ndoye had put Forest ahead before the break, Alexander Isak levelled from four yards on the hour after Gakpo spun his marker, and Morgan Gibbs-White restored the lead from the spot. Two league games, two 2-2 draws, and not a minute in front.",
+      "The examination that would not happen on matchday is happening now. Bradley Barcola spent Sunday being assessed on Merseyside, the last formality of a £106m guaranteed deal, £17m more in add-ons, that has been all but agreed for a week and is expected to be announced within a day. He arrives as the second most expensive signing in the club's history, behind only the striker who leads the line ahead of him, on a contract to 2031. Ligue 1 shuts on Monday, which is why the paperwork has a clock on it, and his debut has been pencilled for Ipswich on Friday. A summer defined by one enormous number is about to put that number in a shirt.",
   },
   {
     n: "02",
-    headline: "'The First Half Has Been Poor': Iraola Finds Fight, And Not Much Else.",
-    byline: "Liverpool FC / 101 Great Goals",
-    dateline: "Anfield · 29 August",
-    category: "Manager",
+    headline: "Twenty-Nine, And The Boy Who Played FIFA.",
+    byline: "Liverpool.com / GiveMeSport",
+    dateline: "Merseyside · 30 August",
+    category: "Football News",
     body:
-      "He did not reach for the comfort available to him. The first half had been poor from their side, Iraola said afterwards, and the improvement in the second was not enough to have won a game they had already given away. Twice his team came from behind, which he liked; twice they had to, which he did not. Two matches into a job that began with a 2-2 at Newcastle and continued with a 2-2 at home, the Basque is still waiting on a first Liverpool win, and the lesson he wants learned is about intensity rather than personnel. The crowd he had called an emotional prospect stayed with him. The scoreline did not.",
+      "He could have taken the eleven. The shirt Mohamed Salah wore for nine years and 257 goals sat vacant and available, and Barcola, by every account, waved it away. He will wear 29 instead, unused at Anfield since Arthur Melo three seasons ago, and the reason is a small confession that has charmed a fanbase braced for a colder kind of superstar: as a boy he played the Alex Hunter career mode on FIFA, where 29 became his number, and promised himself that the day he turned professional he would keep it. It is fixed, he says, and non-negotiable. Not the man who replaces the eleven. The man who starts the next thing.",
   },
   {
     n: "03",
-    headline: "Fast And Flawed: The Counter-Attack Is Still Where This Team Bleeds.",
-    byline: "Richard Jolly, The Independent / This Is Anfield",
-    dateline: "Merseyside · 29 August",
-    category: "Tactics",
+    headline: "The Flank's Late Scramble: A Hijack Reopened, A Stalemate Unbroken.",
+    byline: "SportBible / This Is Anfield",
+    dateline: "Merseyside · 30 August",
+    category: "Transfers",
     body:
-      "The phrase belonged to Richard Jolly and it stuck because it fit. Liverpool are fast and flawed, entertaining going forward and open behind it, and the numbers underneath Saturday's draw are unkind: since the start of last season only Sunderland have conceded more Premier League goals on the counter-attack. Forest, promoted-side opponents without a point to their name, were full value for what they took. The reading across the Sunday copy was not that Iraola needs a better winger but that he needs sturdier foundations, and that a summer spent narrowing the recruitment onto one flank has left three other departments malfunctioning. A hundred and twenty-three million pounds does not fix a transition.",
+      "One winger does not close a wing. With Barcola through the door, the search for a second wide body has turned back to a name the board once walked away from: Lille's Matias Fernandez-Pardo, over whom Liverpool have made fresh contact in what would hijack Newcastle for a second time this window. Lille's €70m wall has not fallen, so it is contact, not a bid. The alternative, Crystal Palace's Ismaila Sarr, is the more ready and the less available, the player open to the move but the club refusing to price it after the rejected £50m. Two days, two doors, and a manager who keeps saying the hole he most wants filled is in midfield.",
   },
   {
     n: "04",
-    headline: "'Incredibly Short': The Kop Turns Its Attention From The Pitch To The Boardroom.",
-    byline: "This Is Anfield",
+    headline: "Foundations, Not Names: Iraola Sets The Terms For A Season.",
+    byline: "Liverpool FC / ESPN",
     dateline: "Anfield · 29 August",
-    category: "Football News",
+    category: "Manager",
     body:
-      "By full time the argument had moved indoors. Supporters spent Saturday evening counting the same three holes, a defensive midfielder, a right winger who is not Barcola, and somebody to stand behind Isak, and asking whether a club with three days left would fill any of them. The smartest men in the room, one widely shared post ran, have left the manager incredibly short. The approach has been called amateurish in more measured company too. Richard Hughes, whose move to Al-Hilal follows the window's close, will be judged on a summer that may end with one arrival, however expensive. The deadline is eleven o'clock on Tuesday night.",
+      "A day on from a second straight draw, the manager's line has hardened into a thesis. Two 2-2s, no first win, not a minute spent in front, and a counter-attack that only Sunderland have leaked more from since last August: the diagnosis Andoni Iraola offered was not a plea for a bigger cheque but a demand for structure. He wants intensity and shape before he wants new faces, which is a bracing thing to say in a week when the club is spending £123m on one. The crowd stayed with him through Saturday. The results have not yet followed, and the fixture list will not wait for the transfers to settle.",
   },
   {
     n: "05",
-    headline: "The Signing Who Watched: Barcola's £123m Waits On A Signature And A Friday Night.",
-    byline: "David Ornstein / Sky Sports",
-    dateline: "Merseyside · 29 August",
-    category: "Transfers",
+    headline: "The Outbox Runs Faster Than The In: Endo Freed, Bajcetic Homeward.",
+    byline: "Sky Sports / Fabrizio Romano",
+    dateline: "Merseyside · 30 August",
+    category: "Farewells",
     body:
-      "He was neither in the squad nor, yet, at the club. While the team he is joining drew again, Bradley Barcola's £123m move spent Saturday exactly where it had spent Friday, one medical short of real: David Ornstein put the examination inside twenty-four hours, This Is Anfield expected him to travel and be assessed on Sunday, and the terms have not moved, £106m guaranteed plus £17m in add-ons, a five-year contract to 2031, second place on the club's all-time list behind the striker who scored the first goal on Saturday. Nothing has been announced because nothing yet can be. His debut has been earmarked for Portman Road on Friday night. A summer of one enormous number, and a squad still waiting to see what else it buys.",
+      "For every arrival there are two goodbyes. Liverpool have made Wataru Endo available and are telling clubs so, Wolves, Fulham and West Ham the longest-standing admirers of a 33-year-old who has slipped behind a reshaped midfield. Stefan Bajcetic, meanwhile, is going home, a mutual termination returning the 21-year-old to the Celta Vigo academy he left at sixteen after three seasons broken by injury. Behind them Besiktas hold terms with Kostas Tsimikas and a €2m loan bid for Giorgi Mamardashvili. It is the shape of the whole summer in one column: Salah, Konate, Robertson, Jones already gone, and the leaving still outpacing the coming with two days to run.",
   },
 ];
 // ─── AI News Digest (generated via Claude + Perplexity) ─────────────────────
 export const NEWS_DIGEST = {
-  generatedAt: "2026-08-29T22:20:00Z",
+  generatedAt: "2026-08-30T13:30:00Z",
   summary:
-    "Saturday evening, and Anfield has handed Andoni Iraola a second point rather than a first win. Liverpool drew 2-2 with Nottingham Forest at half twelve, behind twice and level twice: Alexander Isak turned in Cody Gakpo's cross on the hour for his first goal of the season, and Victor Munoz, handed a full debut in place of the birthday boy Rio Ngumoha, spun and thrashed a shot off the underside of the bar eight minutes from time. Dan Ndoye and a Morgan Gibbs-White penalty had twice put Forest in front, and two league games in, Liverpool have not led for a single minute. Richard Jolly's verdict, fast and flawed, ran through the evening copy, and the counter-attack is still the wound: since the start of last season only Sunderland have conceded more Premier League goals on the break. Bradley Barcola's £123m move was still, through all of it, a medical away: David Ornstein had the examination booked inside twenty-four hours and This Is Anfield expected the winger to travel and be assessed on Sunday, with the announcement to follow and a debut earmarked for Portman Road on Friday. The louder noise after the whistle was about the players who have not arrived, with supporters asking whether a club that has left Iraola short at defensive midfield, on the right and behind Isak will act before eleven o'clock on Tuesday.",
+    "Sunday, and the £123m winger is finally in the building. Bradley Barcola is undergoing his Liverpool medical this weekend after the fee settled at £106m guaranteed plus £17m in add-ons, and the human detail is the one that has caught: he will wear 29 rather than Mohamed Salah's vacated 11, a number he fixed on as a boy playing FIFA's Alex Hunter story mode and now calls non-negotiable. The formal announcement is expected within a day, with a debut earmarked for Ipswich away on Friday. Behind the marquee, the window's closing hours have quickened: Liverpool have made contact over Lille's Matias Fernandez-Pardo, a move that would hijack Newcastle for a second wide man, while Wataru Endo has been made available with the deadline set at eleven o'clock on Tuesday. All of it sits a day after a 2-2 with Forest, Liverpool's second straight draw and a side still yet to lead a single minute of the season.",
   keyTopics: [
     {
-      title: "Liverpool 2-2 Nottingham Forest: Munoz's Debut Rocket Rescues A Second Straight Draw (Sky Sports / This Is Anfield, today)",
+      title: "Barcola In For His Medical: The £123m Winger Reaches The Last Step, Announcement Expected Within A Day (This Is Anfield / Sky Sports, today)",
       detail:
-        "Iraola's first competitive match at Anfield, played at 12.30 on Saturday, ended the way his first away match did. Dan Ndoye's low finish gave Forest a half-time lead, Isak levelled from four yards on the hour after Gakpo spun his marker and crossed, Morgan Gibbs-White restored the advantage from the penalty spot, and Victor Munoz, making a first Premier League start, took one touch, turned through a hundred and eighty degrees and hit a rising drive off the underside of the crossbar with eight minutes left. Two matches, two 2-2 draws, one point apiece, and no lead held at any stage of the season.",
-      category: "matches",
-    },
-    {
-      title: "Off The Mark At Last: Isak's Four-Yard Tap-In Is His First Of The Season (ESPN / Liverpool FC, today)",
-      detail:
-        "A week after a silent, hostile return to St James' Park, the £125m striker finally scored, and did it the simplest way available. Gakpo turned his man on the left and clipped a cross to the back post; Isak, who has been handed almost nothing resembling a tap-in in a Liverpool shirt, was standing exactly where he needed to be. It was good to take something from the game, he said afterwards, but they need to be better, which was the evening's consensus in one sentence. With Ekitike out until December, the goals have nowhere else to come from.",
-      category: "matches",
-    },
-    {
-      title: "Iraola After The Whistle: 'The First Half Has Been Poor From Our Side' (Liverpool FC / 101 Great Goals, today)",
-      detail:
-        "The manager declined the soft version. Asked about a comeback his side had to make twice, Iraola said the first half had been poor from their side, that the improvement after the interval was real, and that the opening forty-five minutes were why the game was not won. He wants more intensity rather than more names, and said there are lessons to learn. Two games, two points, no victory, and a first home crowd sent away in the sunshine wondering what exactly it had watched.",
-      category: "tactics",
-    },
-    {
-      title: "'Fast And Flawed': Only Sunderland Have Conceded More On The Counter Since Last August (Richard Jolly, The Independent / This Is Anfield, today)",
-      detail:
-        "The Independent's Richard Jolly supplied the phrase the rest of the coverage borrowed, and the underlying number gives it weight: since the start of last season only Sunderland have shipped more Premier League goals on the counter-attack than Liverpool. Forest, without a point before kick-off, were judged full value for the draw. The media consensus was not that the squad needs a more expensive winger, but that a recruitment summer narrowed almost entirely onto one flank has left the departments behind it exposed, and that Barcola's fee buys none of the structure the side keeps giving away.",
-      category: "tactics",
-    },
-    {
-      title: "Munoz In, Ngumoha Out: The Birthday Start That Was Not (This Is Anfield / Liverpool.com, today)",
-      detail:
-        "The previews had the eighteen-year-old starting on his birthday. The team sheet did not. Iraola made two changes and gave Victor Munoz, the £34.7m arrival from Osasuna, his first Premier League start on the right, with Ngumoha among the substitutes and Ryan Gravenberch also dropping to the bench as Mac Allister returned alongside Szoboszlai. Alisson started behind Frimpong, Jacquet, Van Dijk and Kerkez, Wirtz played as the ten, Gakpo took the left and Isak led the line. By full time the selection had answered itself.",
-      category: "tactics",
-    },
-    {
-      title: "'They Have Left Him Incredibly Short': The Deadline Anger Arrives Before The Deadline (This Is Anfield, today)",
-      detail:
-        "The loudest reaction to a drawn home game was aimed above the dugout. Supporters spent Saturday evening naming the same three gaps, a defensive midfielder, a right winger beyond Barcola, and cover behind Isak, and asking whether the club will act before Tuesday. The smartest men in the room have left the manager incredibly short, ran the line that travelled furthest; elsewhere the summer's approach was called amateurish. Richard Hughes, who is expected to leave for Al-Hilal once the window shuts, will be judged on whether a £123m winger turns out to be the whole of it.",
-      category: "general",
-    },
-    {
-      title: "Still Unannounced: Barcola's Medical Passes Quietly, Portman Road Earmarked (David Ornstein / Sky Sports, today)",
-      detail:
-        "The record-adjacent signing spent matchday being examined and ended it still, formally, a PSG player. Liverpool are paying £106m guaranteed and up to £17m in add-ons on Ornstein's figures, close to £123m, on a contract to 2031 that would make the France winger the second most expensive arrival in the club's history behind Isak. An announcement is expected within a day. He was never in Saturday's squad, and his debut has been earmarked for Ipswich away on Friday night rather than Anfield this weekend.",
+        "The examination that did not happen on matchday is happening this weekend. Liverpool's record-adjacent signing, £106m guaranteed and up to £17m in add-ons on a contract to 2031, is undergoing his medical on Merseyside with the announcement understood to follow within a day, making the France winger the second most expensive arrival in the club's history behind Alexander Isak. He was never in Saturday's squad against Forest, and his debut has been earmarked for Portman Road on Friday rather than a home bow. Ligue 1 shuts on Monday, the English window on Tuesday, so the paperwork has a clock on it.",
       category: "transfers",
     },
     {
-      title: "Kone Preferred, Camara Offered, Roma Not Selling (TeamTalk / Empire of the Kop, today)",
+      title: "Twenty-Nine, Not Eleven: The FIFA Number Barcola Calls Non-Negotiable (Liverpool.com / GiveMeSport, today)",
       detail:
-        "With Curtis Jones an Inter player the midfield remains the quiet second front, and the order of preference has clarified. Roma's Manu Kone is the target Liverpool actually want, which is precisely why little energy has gone into Monaco's Lamine Camara, offered to both Liverpool and Chelsea at around €50m as the principality club line up a replacement. The complication is that Roma have no intention of selling. Iraola said this week that no midfielder was on the agenda, a line the last seventy-two hours of a window routinely erases.",
+        "He is not taking Salah's shirt. Barcola is set to wear 29, unused at Liverpool since Arthur Melo in 2022-23, and the reason is disarmingly personal: as a boy he played FIFA's Alex Hunter career mode, where 29 became his number, and told himself that the day he turned professional he would keep it. By his own account the choice is fixed and non-negotiable. It is a small thing that says something larger, that the marquee arrival is not being asked to be the man who replaces the departed No. 11 so much as the man who begins the next thing.",
       category: "transfers",
     },
     {
-      title: "'Not For Sale': Palace's New Manager Shuts The Door On Sarr Again (Sky Sports / TeamTalk, today)",
+      title: "Hijacking Newcastle Again: Liverpool Make Contact Over Lille's Fernandez-Pardo (SportBible / TeamTalk, today)",
       detail:
-        "The right-wing file behind Barcola has not moved. Liverpool are still pursuing Ismaila Sarr, whose £50m valuation was rejected some time ago, but Crystal Palace's new manager Pierre Sage has repeated that the Senegal winger is not for sale, and Palace's own dismal start has hardened rather than softened the stance. Brighton priced the club out of Yankuba Minteh above £70m earlier in the window and PSG's Ibrahim Mbaye lingers as the cheaper alternative with personal-terms murmurs attached. Sixty hours remain to add a second wide body.",
+        "The flank behind Barcola has a new name, and it is one the board once walked away from. With Lille's asking price the obstacle all summer, reporting on Saturday has Liverpool making fresh contact over Matias Fernandez-Pardo, the 21-year-old Belgium international Newcastle are also chasing, in what would be a second raid on the Magpies' shortlist this window. Left-footed off the right and able to lead the line, he reads as a younger, cheaper second wide body if Sarr cannot be moved. Whether contact becomes a bid before Tuesday is the open question.",
       category: "transfers",
     },
     {
-      title: "Chiesa Ruled Out, And The Injury List Holds At Five (Liverpool FC / Rousing The Kop, 1d ago)",
+      title: "Endo Made Available: Liverpool Tell Clubs The 33-Year-Old Can Leave (Sky Sports / Yahoo, today)",
       detail:
-        "Iraola confirmed on Thursday that Federico Chiesa felt something in the back of his leg in the Como friendly, a small muscle injury, and was not available for Forest. He joins Hugo Ekitike (Achilles, out until December), Conor Bradley (knee, eyeing November), Giovanni Leoni (ACL rehab) and Joe Gomez, whose muscle problem is set at around a month, on a list of five that has not shortened in a fortnight. The manager also dismissed social-media rumours about Alisson, confirming no fresh setback for the goalkeeper, who duly started.",
+        "The outbox is doing the brisk business. Liverpool are open to letting Wataru Endo go before the window shuts and have made a number of interested clubs aware of his availability, with Premier League admirers among them for a midfielder who has slipped down a reshaped pecking order. His exit would follow Curtis Jones out of a middle third that keeps thinning even as Iraola insists his priority is foundations rather than fresh names. A sale would sharpen, not soften, the case for a defensive midfielder in the final seventy-two hours.",
+      category: "transfers",
+    },
+    {
+      title: "Gomez Trains Fully And Pushes For Friday, As The Injury List Holds At Five (Liverpool.com / Rousing The Kop, today)",
+      detail:
+        "One name is close to coming back onto the sheet. Joe Gomez, whose muscle problem was set at around a month after he limped out at Sunderland, has trained fully with the group and is targeting the September 4 trip to Ipswich, which would ease a back line down to Van Dijk, Jacquet and the loanee Araujo. He is still one of five unavailable: Hugo Ekitike (Achilles, out to December), Conor Bradley (knee, eyeing November), Giovanni Leoni (ACL) and Federico Chiesa (a small muscle injury from the Como friendly) remain out. Alisson, the subject of midweek rumours Iraola dismissed, is fit.",
       category: "injuries",
+    },
+    {
+      title: "The Loan That Quietly Solved It: Araujo Settles At The Back (Rousing The Kop / This Is Anfield, 2d ago)",
+      detail:
+        "Amid a summer defined by who has not arrived, the defender who did is bedding in without fuss. Ronald Araujo, on a season-long loan from Barcelona with a non-obligatory €55m option to 2027, has taken the No. 33 and started both league games at the heart of a back line stripped by injury and Ibrahima Konate's free-transfer exit to Real Madrid. Not the marquee centre-back chased for two windows in Marc Guehi, who went to Manchester City in January, but the one who actually filled the hole, and cover at right-back too while Bradley and Gomez heal.",
+      category: "general",
     },
     {
       title: "The Besiktas Double: Tsimikas Terms Agreed, A €2m Loan Bid For Mamardashvili (TeamTalk, 1d ago)",
       detail:
-        "The outbox keeps moving faster than the inbox. Besiktas have reached a full agreement on personal terms with Kostas Tsimikas, currently on loan at Roma, and are choosing between the Greek and Nuno Tavares inside the next day or two, with the structure, loan or permanent, still open. In the same conversation the Turkish club have lodged a loan offer worth around €2m for Giorgi Mamardashvili, an initial six months for a goalkeeper Liverpool paid heavily to secure and who has sat behind Alisson since.",
+        "Two more exits are lining up behind the arrivals. Besiktas have a full agreement on personal terms with Kostas Tsimikas, on loan at Roma, and are weighing the Greek against Nuno Tavares, the structure still open between loan and permanent. In the same window the Turkish club have a loan offer worth around €2m in for Giorgi Mamardashvili, an initial six months for the goalkeeper Liverpool paid heavily to secure last year and who has sat behind Alisson ever since. The outbox, again, is moving faster than the inbox.",
       category: "transfers",
     },
     {
-      title: "Homeward, On A Termination: Bajcetic Closes On Celta Vigo (Fabrizio Romano / CaughtOffside, 2d ago)",
+      title: "Kone The One They Want As Camara Drifts To Chelsea (Empire of the Kop / TeamTalk, today)",
       detail:
-        "Stefan Bajcetic has agreed terms to leave, and the mechanism is a mutual termination of a contract running to 2027 rather than a fee, with Liverpool retaining a sell-on. The 21-year-old has not played a competitive minute this calendar year and travelled to America in the rehabilitation group, three seasons broken by injury behind him. Celta Vigo raised him; the move takes him back to the academy he left at sixteen, and is expected to complete inside the window's final days alongside the Tsimikas and Mamardashvili exits.",
+        "The midfield preference has hardened even as it has stalled. Roma's Manu Kone remains the No. 8 Liverpool actually covet, which is why so little energy has gone into Monaco's Lamine Camara, offered around €50m to both Merseyside and Stamford Bridge, and the reporting now has a strong likelihood of Camara completing to Chelsea instead. The catch on Kone is unchanged and probably terminal, in that Roma have no intention of selling near the £51m being discussed, and Manchester United are in the same file. Preferred is not the same as attainable.",
       category: "transfers",
+    },
+    {
+      title: "Palace Immovable On Sarr, And The Flank Stays A Body Short (This Is Anfield / Football365, today)",
+      detail:
+        "The most realistic right-wing option remains the least available. Liverpool's £50m for Ismaila Sarr was rejected and Crystal Palace, now under Pierre Sage and pointless from two games, have shown no sign of naming a price, leaving a rejected approach flickering rather than dead. Sarr himself is described as open to the move, which keeps it alive into the final days, but the fee is Palace's to set and they have not set one. Minteh was long priced out by Brighton above £70m, which is why the Fernandez-Pardo lane has suddenly reopened.",
+      category: "transfers",
+    },
+    {
+      title: "Homeward, On A Termination: Bajcetic Closes On Celta Vigo (Fabrizio Romano / CaughtOffside, 1d ago)",
+      detail:
+        "The quietest exit is the most sentimental. Stefan Bajcetic has agreed terms to leave through a mutual termination of a deal running to 2027 rather than a fee, Liverpool keeping a sell-on, and the move takes the 21-year-old back to the Celta Vigo academy he left at sixteen. He has not played a competitive minute this calendar year and travelled to America in the rehabilitation group, three seasons broken by injury behind him. It is expected to complete in the window's final days alongside the Tsimikas and Mamardashvili departures.",
+      category: "transfers",
+    },
+    {
+      title: "One Day On From Forest: Two 2-2s, And Still No Lead All Season (Sky Sports / ESPN, 1d ago)",
+      detail:
+        "The table records what the football felt. Saturday's 2-2 with Nottingham Forest, Isak turning in Gakpo's cross for a first goal of the season and Victor Munoz's late strike off the underside of the bar, was Liverpool's second straight draw and left Iraola still without a first win. Two matches in, his side have not led for a single minute, and the counter-attack remains the wound: only Sunderland have conceded more Premier League goals on the break since the start of last season. The manager wants intensity and structure, not simply new names.",
+      category: "matches",
+    },
+    {
+      title: "The Deadline Mechanics: Ligue 1 Monday, England Tuesday, One Signing So Far (Liverpool.com, today)",
+      detail:
+        "The window has two clocks and Liverpool are racing both. Ligue 1 shuts on Monday, which is why the Barcola paperwork is being pushed through this weekend, and the English deadline follows at eleven on Tuesday night. Set against a summer of departures, Salah, Konate, Robertson, Jones and more, the incoming column reads thin: Isak and Munoz through the door, Araujo on loan, and Barcola about to make three, with a defensive midfielder and a second winger still unfilled and the supporters counting the hours as loudly as the pounds.",
+      category: "general",
     },
   ],
   sources: [
-    "Sky Sports",
     "This Is Anfield",
+    "Sky Sports",
     "ESPN",
-    "Liverpool FC",
-    "The Independent",
-    "David Ornstein",
+    "Liverpool.com",
+    "GiveMeSport",
+    "SportBible",
     "TeamTalk",
     "Empire of the Kop",
-    "Liverpool.com",
+    "Yahoo Sports",
     "Rousing The Kop",
     "Fabrizio Romano",
     "CaughtOffside",
-    "101 Great Goals",
+    "Football365",
   ],
 };
 
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-08-29T22:20:00Z",
+  generatedAt: "2026-08-30T13:30:00Z",
   summary:
-    "Saturday night, and the ledger has been overtaken by the football. A 2-2 draw with Forest, Liverpool's second in eight days and still without a lead all season, turned the deadline conversation from what is arriving to what is not: a defensive midfielder, a right winger who is not Barcola, and cover behind Isak, the three gaps supporters spent the evening naming while calling the summer's approach amateurish. Bradley Barcola's £123m is still, at the end of matchday, unexamined and unannounced: Ornstein has the medical inside twenty-four hours and This Is Anfield expects him to travel and be assessed on Sunday, with the terms unchanged at £106m guaranteed plus £17m in add-ons, a contract to 2031, and a debut earmarked for Portman Road on Friday. In midfield the preference has clarified rather than progressed: Roma's Manu Kone is the one Liverpool actually want, which is why Monaco's Lamine Camara, offered at around €50m to Liverpool and Chelsea both, has drawn little energy, and Roma have no intention of selling. On the flank Crystal Palace's new manager Pierre Sage has repeated that Ismaila Sarr is not for sale, with Minteh long priced out and PSG's Mbaye the cheaper name still attached. Out, the traffic is quicker than in: Besiktas have a full agreement with Tsimikas and a €2m loan bid in for Mamardashvili, and Bajcetic's Celta return runs through a contract termination. Three days, one enormous signature still unsigned, and a manager who says he needs foundations rather than names.",
+    "Sunday, and the record-adjacent winger is finally at the medical stage. Bradley Barcola is being examined on Merseyside this weekend, the fee settled at £106m guaranteed plus £17m in add-ons on a contract to 2031, with the announcement expected within a day and a debut earmarked for Ipswich on Friday. The detail that has travelled is the shirt: he will wear 29, not Salah's vacated 11, a FIFA career-mode number he calls non-negotiable. Behind him the flank has a fresh name, Lille's Matias Fernandez-Pardo, over whom Liverpool have made contact in a move that would hijack Newcastle for a second wide body if Ismaila Sarr, still priced beyond reach by an immovable Crystal Palace, cannot be freed. In midfield the preference is unchanged and unattainable: Manu Kone is the one they want, Roma will not sell, and Monaco's Lamine Camara now looks likely to complete to Chelsea rather than Anfield. Out, the traffic keeps moving faster than in: Wataru Endo has been made available, Besiktas hold a full agreement with Tsimikas and a €2m loan bid for Mamardashvili, and Bajcetic's Celta homecoming runs through a mutual termination. Two clocks now, Ligue 1 on Monday and England on Tuesday, and a squad still one midfielder and one winger short of settled.",
   incoming: [
     {
       name: "Ronald Araujo",
@@ -704,7 +698,7 @@ export const TRANSFER_TARGETS = {
       wageBand: "A",
       contractExpiry: "2028-06-30",
       releaseClause: null,
-      contractNote: "Contracted to PSG until 2028 and the club's marquee saleable asset, he stopped negotiating a new deal in Paris despite a substantial rise on the table and agreed personal terms with Liverpool on a long contract. Romano posted the here we go on Thursday; by Saturday the fee had settled on David Ornstein's numbers at \u00a3106m guaranteed plus \u00a317m in add-ons, close to \u00a3123m and the second most expensive signing in the club's history behind Isak. The medical is booked rather than done: Ornstein put it inside twenty-four hours of Saturday morning and This Is Anfield expected the winger to travel and be assessed on Sunday, with the announcement to follow it. Paris eased the path earlier by adding Ferran Torres (\u00a342.75m from Barcelona) and Mika Godts, Arsenal's flirtation with a hijack faded, and Curtis Jones' \u20ac35m sale to Inter banked the funds. Ligue 1 shuts on 31 August, the English window on 1 September.",
+      contractNote: "Contracted to PSG until 2028 and the club's marquee saleable asset, he stopped negotiating a new deal in Paris despite a substantial rise on the table and agreed personal terms with Liverpool on a long contract. Romano posted the here we go last week; the fee settled on David Ornstein's numbers at \u00a3106m guaranteed plus \u00a317m in add-ons, close to \u00a3123m and the second most expensive signing in the club's history behind Isak. The medical is being taken this weekend with the announcement expected within a day, and he is set to wear 29 rather than Salah's vacated 11, a number he fixed on as a boy in FIFA's Alex Hunter story mode and calls non-negotiable. Paris eased the path earlier by adding Ferran Torres (\u00a342.75m from Barcelona) and Mika Godts, Arsenal's flirtation with a hijack faded, and Curtis Jones' \u20ac35m sale to Inter banked the funds. Ligue 1 shuts on 31 August, the English window on 1 September.",
       probability: 99,
       heatTier: "hot",
       sources: [
@@ -713,9 +707,9 @@ export const TRANSFER_TARGETS = {
         { name: "Sky Sports",          tier: "A" },
         { name: "This Is Anfield",     tier: "A" },
       ],
-      lastUpdated: "2026-08-29",
+      lastUpdated: "2026-08-30",
       rumorNote:
-        "Merseyside · 29 Aug (evening) — a day of no news, which at this fee is its own kind of news. The medical did not happen on matchday: David Ornstein reported it booked for inside twenty-four hours, This Is Anfield expected the winger to travel and be assessed on Sunday, and the club said nothing all day. The structure is unchanged on David Ornstein's numbers, £106m guaranteed plus £17m in add-ons, close to £123m, a contract to 2031 and second place on the club's all-time list behind the striker who scored Saturday's first goal. Confirmation follows the examination, not the other way round, and his debut is earmarked for Portman Road on Friday night. He was never in the squad against Forest, and the 2-2 he did not play in made a louder argument for what still needs buying than for what has already been agreed.",
+        "Merseyside · 30 Aug — at the medical at last, and choosing a number that says something. The examination that skipped matchday is being taken this weekend, with the announcement understood to follow within a day and the terms unmoved: £106m guaranteed plus £17m in add-ons, close to £123m, a contract to 2031, second on the club's all-time list behind Isak. The detail everyone seized on is the shirt. He will wear 29, not Salah's vacated 11, a number he kept from FIFA's Alex Hunter career mode as a boy and now describes as fixed and non-negotiable. Ligue 1 shuts on Monday, which is why the paperwork is being pushed through now, and his debut is earmarked for Portman Road on Friday. The signing is all but here; what it buys the rest of the squad is the argument that will not quiet.",
       positionFit: {
         replaces: "Salah (departed, free agent)",
         competesWith: ["Ndiaye (Everton, newer target)", "Rayan (Bournemouth, clause to 2027)", "Gakpo", "Ngumoha"],
@@ -742,16 +736,17 @@ export const TRANSFER_TARGETS = {
       contractExpiry: "2029-06-30",
       releaseClause: null,
       contractNote: "Contracted at Lille to 2029, which gives the French club every reason to hold firm this late, and hold they have. The asking price now being reported is around \u20ac70m, and it has put off Liverpool, Newcastle and Manchester City alike rather than starting an auction. Liverpool's involvement never advanced beyond Wednesday's enquiry; no bid has been lodged. The profile remains attractive, a 21-year-old Belgium international, left-footed off the right, who arrived from Anderlecht and grew into a starter, and he can lead the line too. But with Barcola agreed and the Minteh lane reopened at a lower number, this reads as a file kept warm by habit rather than intent.",
-      probability: 8,
-      heatTier: "dead",
+      probability: 26,
+      heatTier: "cool",
       sources: [
-        { name: "FootballFanCast",    tier: "B" },
+        { name: "SportBible",         tier: "B" },
+        { name: "TeamTalk",           tier: "B" },
         { name: "Ben Jacobs",         tier: "A" },
         { name: "This Is Anfield",    tier: "A" },
       ],
-      lastUpdated: "2026-08-28",
+      lastUpdated: "2026-08-30",
       rumorNote:
-        "Lille · 28 Aug — priced out, and effectively closed. Lille's €70m valuation deterred Liverpool, Newcastle and Manchester City alike, and with Barcola agreed and the right-wing focus shifted to Sarr, Liverpool's interest never advanced past the Wednesday enquiry. Kept on the board a final edition as a tombstone; the lane is shut.",
+        "Lille · 30 Aug — back on the board, and back in a fight with Newcastle. The lane thought shut has reopened: with Sarr immovable at Palace, reporting on Saturday has Liverpool making fresh contact over the Belgium winger, a move that would hijack Newcastle's own pursuit for a second time this window after Barcola. Lille's €70m valuation was the wall all summer and has not fallen, so contact is not yet a bid, but a left-footed 21-year-old who cuts in from the right and can lead the line is exactly the cheaper second wide body the flank still lacks. Whether the interest hardens before Tuesday is the question.",
       positionFit: {
         replaces: "Salah (wide forward)",
         competesWith: ["Barcola", "Gakpo", "Munoz"],
@@ -786,9 +781,9 @@ export const TRANSFER_TARGETS = {
         { name: "This Is Anfield",   tier: "A" },
         { name: "Football365",       tier: "B" },
       ],
-      lastUpdated: "2026-08-29",
+      lastUpdated: "2026-08-30",
       rumorNote:
-        "Selhurst Park · 29 Aug (evening) — a new manager, the same answer. Pierre Sage, in the Palace job barely long enough to learn the training-ground gate code, has repeated publicly that Sarr is not for sale, and a club sitting on nothing from two games has less reason to sell, not more. Liverpool are described as still pursuing him after the £50m rejection, and Saturday's draw sharpened the argument for a second wide body behind Barcola. But the price is Palace's to name and they have not named one. Sixty hours, and the flank's most realistic option is the one least available.",
+        "Selhurst Park · 30 Aug — still open to Anfield, still priced beyond it. The player, by the reporting, would take the move; Palace, pointless from two and in no mood to weaken, simply will not put a number on the table after the £50m rejection. That gap is the whole file, and it has pushed Liverpool to reopen contact over Lille's Fernandez-Pardo as an alternative second winger with two days to run. Sarr remains the most Premier-League-ready option left on the right, and the least available. If Palace blink late, he is the plan; if they do not, the flank goes into the season one body short.",
       positionFit: {
         replaces: "Salah (wide forward)",
         competesWith: ["Barcola", "Gakpo", "Munoz"],
@@ -1085,9 +1080,9 @@ export const TRANSFER_TARGETS = {
         { name: "Anfield Index",   tier: "B" },
         { name: "The Kopite View", tier: "C" },
       ],
-      lastUpdated: "2026-08-29",
+      lastUpdated: "2026-08-30",
       rumorNote:
-        "Rome · 29 Aug (evening) — the one they actually want, and the one they cannot have. The reporting firmed up on Saturday: Kone is Liverpool's preferred midfield target, which is the stated reason no serious effort has gone into Monaco's cheaper, freely offered Camara. The obstacle is simple and probably terminal, in that Roma have no intention of selling at any figure being discussed, around £51m. He remains the athletic, ball-carrying No. 8 the middle has wanted since Fabinho, and Saturday's draw, with Gravenberch benched and the counter-attacks arriving through the middle, made the vacancy harder to ignore. Preferred is not the same as attainable.",
+        "Rome · 30 Aug — the one they want, as the alternative walks to Chelsea. Kone stays Liverpool's preferred midfield target, which is why so little was ever spent chasing Monaco's freely offered Camara, and the reporting now has a strong likelihood of Camara completing to Chelsea instead, closing the cheaper door for good. The obstacle on Kone is unchanged and probably terminal: Roma have no intention of selling near the £51m being floated, and Manchester United sit in the same queue. He remains the carrying, athletic No. 8 the middle has lacked since Fabinho, and an Endo exit would only widen the hole. Preferred, still, is not attainable.",
       positionFit: {
         replaces: "Endo (expected sale)",
         competesWith: "Gravenberch, Mac Allister, Jones",
@@ -1927,7 +1922,7 @@ export const TRANSFER_TARGETS = {
       probability: 93,
       heatTier: "hot",
       sources: [{ name: "Fabrizio Romano", tier: "S" }, { name: "CaughtOffside", tier: "B" }, { name: "This Is Anfield", tier: "A" }],
-      note: "Sat 29 Aug — terms agreed, and the paperwork is the only thing left. Romano's reporting has Bajcetic having agreed terms to leave, with the route a mutual termination of a deal running to 2027 rather than a transfer fee, Liverpool retaining a sell-on. Celta raised him and want him back. He has not played a competitive minute in 2026 and travelled to the United States in the rehabilitation group, which is the quiet end of three seasons broken by injury. One of three exits, alongside Tsimikas and Mamardashvili, that will outnumber the arrivals this window.",
+      note: "Sun 30 Aug — a homecoming waiting on a signature. The mechanism is settled: a mutual termination of a deal to 2027 rather than a fee, Liverpool keeping a sell-on, and the move returns the 21-year-old to the Celta Vigo academy he left at sixteen. He has not played a competitive minute this calendar year and travelled to the United States in the rehabilitation group, the quiet close of three seasons broken by injury. One of three exits, alongside Tsimikas and Mamardashvili, that will leave the outgoing column longer than the incoming this window.",
     },
     {
       id: "macallister-out",
@@ -1960,7 +1955,7 @@ export const TRANSFER_TARGETS = {
       probability: 15,
       heatTier: "cool",
       sources: [{ name: "Sky Sports", tier: "A" }, { name: "ESPN", tier: "A" }, { name: "The Athletic", tier: "A" }],
-      note: "Wed 26 Aug — staying, and now fit enough to matter. Gomez, who missed the August 23 opener with the muscle problem taken inside eight minutes at Sunderland, trained fully with the group on Wednesday and pushes his case to feature against Forest on the 29th. AC Milan and other Serie A interest never turned into a bid, and The Athletic report Liverpool are content to let his contract run to 2027 rather than force a sale. Against a back line still missing Leoni, a departure before 1 September reads close to impossible, and his return only hardens the point.",
+      note: "Sun 30 Aug — staying, and pushing for a return at Portman Road. Gomez, who missed the opening two league games with the muscle problem taken at Sunderland, has trained fully with the group and is targeting the September 4 trip to Ipswich, which would ease a back line down to Van Dijk, Jacquet and the loanee Araujo. AC Milan and other Serie A interest never hardened into a bid, and The Athletic report Liverpool are content to let his deal run to 2027 rather than force a sale. With Leoni also out, a deadline departure reads close to impossible, and his fitness only settles it.",
     },
     {
       id: "chiesa-out",
@@ -1979,10 +1974,10 @@ export const TRANSFER_TARGETS = {
       position: "MID",
       destination: "Open (Wolves / Fulham / West Ham admirers)",
       feeAsk: { min: 8, max: 12, currency: "€m" },
-      probability: 68,
+      probability: 70,
       heatTier: "warm",
-      sources: [{ name: "Football Insider", tier: "B" }, { name: "The Hard Tackle", tier: "C" }],
-      note: "Wed 26 Aug — the exit the desk is actively pushing. With the window in its final week, Liverpool are now driving Endo toward a Premier League move rather than merely fielding calls, Wolves, Fulham and West Ham the long-standing admirers, and the club intend to accept a workable offer before 1 September. The Besiktas thread from earlier in the summer has stayed quiet. He came through the Monaco friendly on 9 August so he is fit, but at 33, retired from Japan duty and behind the first-choice midfield, this is a modest fee and a meaningful wage cleared to fund the attack, one of as many as eight departures FSG will sanction.",
+      sources: [{ name: "Sky Sports", tier: "A" }, { name: "Yahoo Sports", tier: "B" }, { name: "Football Insider", tier: "B" }],
+      note: "Sun 30 Aug — made available, and the clubs are being told. Sources have Liverpool actively willing to let the 33-year-old go before Tuesday, informing a number of interested sides of his availability rather than waiting on calls, with Wolves, Fulham and West Ham the long-standing Premier League admirers. Behind a reshaped midfield and following Curtis Jones out of the middle third, his exit is one of as many as eight FSG will sanction and clears a wage toward the attack. The irony is not lost: a departing No. 6 as Kone stays wanted and unattainable, which is exactly why the sale, if it lands, sharpens the case for a late midfielder rather than settling it.",
     },
     {
       id: "tsimikas-out",
