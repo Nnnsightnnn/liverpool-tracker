@@ -477,12 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Deadline eve, and the club must answer its own captain.
-          <em>Van Dijk</em> has gone public to keep Cody Gakpo from Manchester
-          City, but Liverpool will sanction nothing until a second winger
-          arrives, and <em>Sarr</em> is suddenly the likeliest road there.
-          Thirteenth, two draws, <em>Ipswich</em> away on Friday, and thirty
-          hours to find the man who unlocks it all.
+          Monday evening, and the window finally moved twice.
+          <em>Barcola</em> was announced in the afternoon at a guaranteed £106m,
+          five years, the No. 29. By nightfall the sale it was meant to enable had
+          died: City's £80m for <em>Gakpo</em> rejected, the pursuit called off,
+          because no second winger ever came. Thirteenth, two draws,
+          <em>Ipswich</em> on Friday, and one day left.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,19 +513,19 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>{" "}
-              and the club is being lobbied by its own captain. <em>Virgil van
-              Dijk</em> has said out loud that Liverpool should keep their quality
-              players, that <em>Cody Gakpo</em> is a friend he wants to stay, and
-              that a sale to Manchester City would be a mistake, even as City ready
-              an offer worth up to a hundred million euros and the player lets
-              himself be tempted. Liverpool have not agreed to sell, and will not,
-              until a second winger arrives, and on deadline eve that man is
-              suddenly <em>Ismaila Sarr</em>, said to have given his yes while a
-              third proposal is drawn up for a Crystal Palace side that keeps
-              saying no. Barcola's £123m move is down to a signature and a clock.
-              It is the strangest kind of transfer week: the club selling the man
-              playing best, and its captain, in public, asking it not to.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>{" "}
+              the record signing is real and the record sale is not. Liverpool
+              announced <em>Bradley Barcola</em> on Monday afternoon, thirty-two
+              hours from the bell, a guaranteed £106m rising to £123m, five years,
+              and a No. 29 he chose as a boy playing FIFA and has never let go. By
+              evening David Ornstein reported the other half over: Manchester
+              City's £75m plus £5m for <em>Cody Gakpo</em> rejected, the pursuit
+              called off, the Dutchman staying. He stays not because he was
+              persuaded but because nobody could be bought to replace him, Palace
+              never meaning to sell Sarr, Brighton never moving off seventy for
+              Minteh. Underneath it the club quietly bought 2027 instead, two
+              teenagers and a sixteen-year-old announcing himself on Instagram.
+              A captain asked for this on Saturday and got it by arithmetic.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -533,10 +533,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and five
               dispatches from the writers who never clock off. There is the
-              captain who broke cover to keep him; the winger who finally said
-              yes to unlock it; a record signing down to a signature; Harvey
-              Elliott choosing Mestalla; and a table that has quietly put
-              Friday's hosts above us. Read them in order. The
+              signing that landed; the sale that died hours later; the two clubs
+              who would not sell and thereby decided everything; three teenagers
+              bought for the year after next; and a support backing the outcome
+              while calling the window farcical. Read them in order. The
               season opened at Newcastle with a 2-2 on the twenty-third of
               August and found another at Anfield on the twenty-ninth, Ipswich
               away comes on Friday night, and the market shuts on the first.
@@ -3260,7 +3260,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "We should keep our quality players."
+        "He stays, by arithmetic."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
