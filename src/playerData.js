@@ -1961,7 +1961,7 @@ export const TRANSFER_TARGETS = {
       probability: 45,
       heatTier: "warm",
       sources: [{ name: "TeamTalk", tier: "B" }, { name: "Liverpool.com", tier: "A" }, { name: "Goal", tier: "A" }],
-      note: "Wed 26 Aug — back in light training, and still weighing it. Chiesa returned to light work on Wednesday after the fitness issue that sat him out at Newcastle, but he stays a doubt for Saturday's Forest opener, an untimely complication for a forward already among the up-to-eight exits Iraola is reported willing to sanction. He personally rebuffed Atletico, Roma, Napoli, Como and Fiorentina earlier in the summer and, after scoring off the bench in Nashville, insisted his focus was Liverpool, so the stay-and-fight instinct is real. But the squad maths has shifted with the season underway, Liverpool would still take around £10-15m on a deal to 2028, and the player, once the obstacle, may yet become the mover before the Tuesday deadline.",
+      note: "Mon 31 Aug — injured, and a hard sell in the final hours. Chiesa is out with the small muscle injury he felt at the back of his leg in the Como friendly, one of four absentees Iraola confirmed, and there is no return date. He remains among the up-to-eight exits the club would sanction, having personally rebuffed Atletico, Roma, Napoli, Como and Fiorentina earlier in the summer before insisting his focus was Liverpool. But an injured forward is a hard thing to move with a day left: Liverpool would listen at around 20m euros on a deal to 2028, yet the likelier outcome is that the winger who was once the obstacle simply stays.",
     },
     {
       id: "endo-out",
