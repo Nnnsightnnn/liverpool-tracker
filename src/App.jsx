@@ -477,11 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday night, and the biggest move is one going out. <em>Gakpo</em>
-          has agreed personal terms with Manchester City, five years and some
-          £85m, and Liverpool will not let him go until a second winger walks
-          in. Two draws behind, thirteenth in the table, <em>Ipswich</em> away
-          on Friday, and forty-eight hours to find the man who unlocks it all.
+          Deadline eve, and the club must answer its own captain.
+          <em>Van Dijk</em> has gone public to keep Cody Gakpo from Manchester
+          City, but Liverpool will sanction nothing until a second winger
+          arrives, and <em>Sarr</em> is suddenly the likeliest road there.
+          Thirteenth, two draws, <em>Ipswich</em> away on Friday, and thirty
+          hours to find the man who unlocks it all.
         </p>
 
         <StatStrip stats={stats} />
@@ -512,22 +513,19 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>{" "}
-              the news came the other way. <em>Cody Gakpo</em> has agreed
-              personal terms with Manchester City and put his name to five years
-              at the Etihad, a package reported at around £85m, the clubs in
-              contact over the fee, Tottenham beaten to a player they had chased
-              since July. Liverpool have not agreed to sell, and will not, until
-              a second winger arrives. That single condition has turned the last
-              hours of the window into a scramble: contact with <em>Pedro
-              Neto</em>'s camp at Chelsea, an enquiry to Bournemouth about
-              <em>Rayan</em> and the £130m clause that guards him, Brighton
-              reopened over Minteh, a third proposal drawn up for Sarr. Barcola
-              has done his medical and still has not been announced. Two days
-              ago the man now leaving turned his marker at Anfield and made the
-              goal that saved a point, which is the whole of it: the club is
-              selling the player who is playing well because the market has left
-              them nothing else to sell.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>{" "}
+              and the club is being lobbied by its own captain. <em>Virgil van
+              Dijk</em> has said out loud that Liverpool should keep their quality
+              players, that <em>Cody Gakpo</em> is a friend he wants to stay, and
+              that a sale to Manchester City would be a mistake, even as City ready
+              an offer worth up to a hundred million euros and the player lets
+              himself be tempted. Liverpool have not agreed to sell, and will not,
+              until a second winger arrives, and on deadline eve that man is
+              suddenly <em>Ismaila Sarr</em>, said to have given his yes while a
+              third proposal is drawn up for a Crystal Palace side that keeps
+              saying no. Barcola's £123m move is down to a signature and a clock.
+              It is the strangest kind of transfer week: the club selling the man
+              playing best, and its captain, in public, asking it not to.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -535,10 +533,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and five
               dispatches from the writers who never clock off. There is the
-              winger who said yes to the champions; the four doors Liverpool are
-              knocking on to replace him; a record signing whose announcement
-              keeps slipping; Harvey Elliott choosing Mestalla; and a table that
-              has quietly put Friday's hosts above us. Read them in order. The
+              captain who broke cover to keep him; the winger who finally said
+              yes to unlock it; a record signing down to a signature; Harvey
+              Elliott choosing Mestalla; and a table that has quietly put
+              Friday's hosts above us. Read them in order. The
               season opened at Newcastle with a 2-2 on the twenty-third of
               August and found another at Anfield on the twenty-ninth, Ipswich
               away comes on Friday night, and the market shuts on the first.
@@ -3262,7 +3260,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "He has chosen. We have not."
+        "We should keep our quality players."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

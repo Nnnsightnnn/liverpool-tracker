@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Sun Aug 16 — the fixed point in a summer that finally sat still, briefly. Van Dijk captained the 2-3 defeat to Monaco and now has real cover around him: Araujo's loan is in and bowed against Como, Jacquet returned to the same game and scored, easing a back line thinned by Konate's free exit and injuries to Gomez and Leoni. Milan's interest, driven by Ibrahimovic, keeps being knocked back with no bid received. As the window turns from arrivals to exits and the Barcola fee still needs bridging, the 35-year-old captain is the constant a restless August keeps turning around, and the man who led them out at Newcastle on Sunday", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Mon Aug 31 — the captain uses his voice on deadline eve. Van Dijk has gone public to keep Cody Gakpo, calling him a quality player and a friend Liverpool would be wrong to sell to Manchester City, the clearest internal push yet against a move the player is tempted by. On his own future he says there is no deadline, his focus the pitch. At 35 he remains the fixed point Iraola builds around, the man who led them out at Newcastle and Anfield, with Araujo's loan and Jacquet's return finally giving him cover after Konate's free exit thinned the back line", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "doubtful", outSince: "2026-07-25", injuryNote: "Sun Aug 30 — back in full training, and racing for Portman Road. Iraola had Gomez's muscle problem at around a month after the knock taken inside minutes at Sunderland on 25 July, but he has trained fully with the group and is targeting Friday's trip to Ipswich, which would restore a right-back and a centre-back option to a defence that has conceded twice in two games. With Konate gone to Madrid, Leoni on ACL rehab and Ndukwe barred by a work permit until January, Van Dijk, Jacquet and the loanee Araujo carry the back line until he is back. The longest-serving defender is a body to keep, not sell", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "doubtful", outSince: "2026-07-25", injuryNote: "Mon Aug 31 — trained through the weekend, and closing on a first league minute of the season. Gomez, whose muscle problem from the Sunderland friendly was set at around a month, has come through full sessions with the group and is targeting Friday at Portman Road, which would hand Iraola a right-back and a centre-back in one body. With Konate gone to Madrid, Leoni on ACL rehab and Ndukwe barred by a work permit until January, Van Dijk, Jacquet and the loanee Araujo carry the back line until he is back. Serie A interest never became a bid; the longest-serving defender is a body to keep, not sell", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 41, goals: 10, assists: 7, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Sun Aug 30 — he has chosen, and now Liverpool must. Gakpo agreed personal terms with Manchester City on Sunday evening and gave his green light to a five-year contract, the package reported at around £85m with the clubs in contact over the fee, City having come late and hard into a race Tottenham led from July. Liverpool have not consented and will not until a second winger arrives, which is why the last hours have gone to Neto, Rayan, Minteh and Sarr. Yesterday he spun his marker on the hour at Anfield and clipped in the cross Isak turned home for 2-1. Contracted to 2030, an assist and an equaliser in two games, and two days for someone to blink", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 41, goals: 10, assists: 7, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Mon Aug 31 — deadline eve, and the tug-of-war has gone public. City are ready to lodge a formal offer worth up to 100m euros, Gakpo is drawn to the move, and Van Dijk has come out to say the club should keep its quality players and that he wants his friend to stay. Liverpool still will not sanction the exit until a second winger arrives, which is why Sarr, Minteh and Neto fill the final hours. Contracted to 2030, an assist and an equaliser-maker in two games, he spends the last day of the window as the piece nobody can move until the flank is refilled", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -364,18 +364,18 @@ export const COVER_IMAGE = {
   alt: "Pure-type edition cover.",
   focus: null,
   credit: null,
-  generatedAt: "2026-08-30T22:45:00Z",
+  generatedAt: "2026-08-31T09:30:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
-  // Sunday evening: the lead is Cody Gakpo agreeing personal terms and a five-year
-  // contract with Manchester City on a package reported around GBP85m, with Liverpool
-  // refusing to sanction the sale until a second winger arrives. Under STEP 7.5 this is
-  // NOT a photographable moment: an agreed set of personal terms with no bid lodged, no
-  // unveiling, no kit shot and no on-pitch hero. So NO cover image is requested this
-  // edition and the render stays on the pure-type fallback (src null). generatedAt is
-  // still re-stamped as the cache-buster required by COVER-00001.
+  // Monday, deadline eve: the lead is Virgil van Dijk going public to keep Cody Gakpo
+  // as Manchester City ready a formal offer worth up to EUR100m, with Liverpool refusing
+  // to sanction any sale until a second winger arrives and Sarr the likeliest. Under
+  // STEP 7.5 this is NOT a photographable moment: a captain's press-quote and agent-level
+  // transfer chatter, no bid lodged, no unveiling, no kit shot and no on-pitch hero. So
+  // NO cover image is requested this edition and the render stays on the pure-type
+  // fallback (src null). generatedAt is still re-stamped as the cache-buster (COVER-00001).
   brief: {
     leadStory:
-      "Cody Gakpo has agreed personal terms with Manchester City and given his green light to a five-year contract, with Fabrizio Romano putting the package at around GBP85m and the clubs in contact over the fee, choosing City over a Tottenham pursuit that had run since July. Liverpool have not agreed to sell and will not until a second winger arrives, which has sent them to Pedro Neto's camp at Chelsea, to Bournemouth over Rayan and his GBP130m clause, back to Brighton over Yankuba Minteh and toward a third proposal for Ismaila Sarr. Bradley Barcola completed his medical but the signing remained unannounced on Sunday night.",
+      "On deadline eve, Liverpool captain Virgil van Dijk has gone public to keep Cody Gakpo, saying the club should hold on to its quality players and that he wants his friend to stay, even as Manchester City ready a formal offer worth up to EUR100m and the Dutchman is tempted. Liverpool will not sanction the sale until a second winger arrives, and Ismaila Sarr, said to have agreed personal terms and pushing for the move, has become the live option ahead of Minteh and Neto. Bradley Barcola's GBP123m arrival is down to a signature as Ligue 1 shuts on Monday, still unannounced by the club.",
     subject: null,
     prompt: null,
     aspectRatio: "portrait",
@@ -476,174 +476,169 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 2,
-  generatedAt: "2026-08-30T22:45:00Z",
+  generatedAt: "2026-08-31T09:30:00Z",
   overview:
-    "Two weekends in and the table has arranged itself into an argument Liverpool would rather not have. Manchester City sit top on six, unbeaten and four goals to the good, which is the awkward music underneath Sunday night's news that Cody Gakpo has agreed personal terms at the Etihad: the club shopping at Anfield is the club setting the pace. A promoted Hull are alongside them on six, Chelsea third, and Liverpool are thirteenth on two points from two draws with a goal difference of exactly nothing, having not led for a single minute of the season. The detail that stings most is one place below: Ipswich Town, twelfth on three, are Friday night's hosts at Portman Road. At the bottom Coventry, Crystal Palace and Tottenham share nothing from two, and with Arsenal and Aston Villa a game short of everyone else the European line is not so much drawn in pencil as not drawn at all.",
+    "Deadline eve, and the table is the argument the transfer window keeps interrupting. Manchester City sit top on six, unbeaten and four to the good, the club chasing Liverpool's Cody Gakpo setting the pace while Anfield decides whether to sell. A promoted Hull are alongside them on six, Chelsea third, and Liverpool are thirteenth on two points from two 2-2 draws with a goal difference of nothing, not a minute of the season spent in front. The sting sits one place below: Ipswich Town, twelfth on three, host them at Portman Road on Friday. At the foot Coventry, Crystal Palace and Tottenham share nothing from two, and with Arsenal and Aston Villa a game short of the field the European line is not so much pencilled as unwritten.",
   teams: {
-    "Liverpool": "Thirteenth on two points from two 2-2 draws, still without a first win under Iraola and yet to lead a minute. Gakpo has agreed terms with Manchester City but will not be sold until a second winger arrives, and Barcola's medical is done with the announcement still pending.",
-    "Manchester City": "Top on six, the only side with a maximum and a plus-four difference, and now the club holding personal terms with Liverpool's left winger.",
+    "Liverpool": "Thirteenth on two points from two 2-2 draws, no first win under Iraola and yet to lead a minute. Van Dijk has gone public to keep Gakpo from City; the club will sanction no exit until a second winger lands, with Sarr the live one and Barcola's £123m arrival down to a signature.",
+    "Manchester City": "Top on six, the only maximum and a plus-four difference, and the club ready to lodge up to 100m euros for Liverpool's left winger before Tuesday.",
     "Hull": "Second on six, two wins from two on their return to the top flight, comfortably the story of the opening fortnight.",
-    "Chelsea": "Third on six and unbeaten, sellers as well as buyers this week: Liverpool have contacted Pedro Neto's camp while Chelsea close on Monaco's Lamine Camara.",
-    "Brentford": "Fourth on four and unbeaten, a plus-three difference the highest of anyone outside the top three.",
-    "Newcastle": "Fifth on four, and the only side above Liverpool to have dropped points to them, the 2-2 at St James' on the opening weekend.",
-    "Ipswich": "Twelfth on three from two, a place and a point above Liverpool, and hosting them at Portman Road on Friday night in a fixture the table has quietly made awkward.",
-    "Bournemouth": "Fourteenth on one, holding two Liverpool files at once: Rayan's £130m clause and a reported £90m valuation of Alex Scott.",
-    "Nott'm Forest": "Fifteenth on one, the point taken at Anfield on Saturday the difference between this and nothing at all.",
-    "Crystal Palace": "Nineteenth and pointless, which has not softened them on Ismaila Sarr: two Liverpool approaches rejected and no asking price named.",
-    "Tottenham": "Bottom on goals scored with two defeats from two, and beaten in the market as well after leading the Gakpo race since July only to see the player choose Manchester City.",
-    "Brighton": "Eighth on three, unmoved at £80m for Yankuba Minteh even as Liverpool reopen the conversation.",
+    "Chelsea": "Third on six and unbeaten, buyers and sellers at once: Liverpool have sounded Pedro Neto's camp while Chelsea landed Monaco's Lamine Camara.",
+    "Brentford": "Fourth on four and unbeaten, a plus-three difference bettered only by the top three.",
+    "Newcastle": "Fifth on four, and the only side above Liverpool to have dropped points to them, the 2-2 at St James' on opening weekend.",
+    "Ipswich": "Twelfth on three, a place and a point above Liverpool, and hosting them at Portman Road on Friday in a fixture the table has quietly made awkward.",
+    "Bournemouth": "Fourteenth on one, holding two Liverpool files: Rayan's £130m clause and a reported £90m valuation of Alex Scott.",
+    "Nott'm Forest": "Fifteenth on one, the point taken at Anfield on Saturday the difference between this and nothing.",
+    "Crystal Palace": "Nineteenth and pointless, and unmoved on Ismaila Sarr even as he pushes to leave: two Liverpool approaches turned down, no price named.",
+    "Tottenham": "Bottom on goals scored with two defeats from two, and beaten in the market as well, having led the Gakpo race since July only for the player to choose City.",
+    "Brighton": "Eighth on three, holding firm at £80m for Yankuba Minteh even as Liverpool reopen the conversation.",
   },
 };
 // ─── Dispatches (hand-curated long reads — separate from the wire feed) ────
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Gakpo Says Yes To The Champions, And Liverpool Say Not Yet.",
-    byline: "Fabrizio Romano / Sky Sports",
-    dateline: "Merseyside \u00b7 30 August",
+    headline: "The Captain Breaks Cover: Van Dijk Wants Gakpo Kept.",
+    byline: "Sky Sports / Empire of the Kop",
+    dateline: "Merseyside · 31 August",
     category: "Transfers",
     body:
-      "It arrived on a Sunday evening, in the way these things now do, as an exclusive posted to a timeline. Cody Gakpo has agreed personal terms with Manchester City and signed off on five years at the Etihad, the package put at around \u00a385m, the clubs in contact over the fee. Tottenham had led the race since July and lost it in a fortnight. Yesterday the Dutchman turned his marker on the hour at Anfield and made the goal that started the recovery. Liverpool have not agreed to sell, and will not until a second winger arrives, which is a condition and also, in the hours that remain, something close to a wall.",
+      "On deadline eve the loudest voice in the room finally used itself. Asked about Cody Gakpo, Virgil van Dijk said Liverpool should keep their quality players and made no secret of his own wish, that Gakpo is not only a fine footballer but a friend he believes will matter this season. It was the clearest internal push yet against a sale the player himself is drawn to, and it landed as Manchester City moved from admiring to acting, ready to lodge an offer worth up to 100m euros. Let us see what the next days bring, the captain added, which is the whole window folded into a sentence. Liverpool have not consented, and will not, until a second winger walks in.",
   },
   {
     n: "02",
-    headline: "Four Doors, Forty-Eight Hours: The Scramble To Replace A Man Not Yet Sold.",
-    byline: "CaughtOffside / TeamTalk",
-    dateline: "Merseyside \u00b7 30 August",
+    headline: "One Door Opens: Sarr Says Yes And Becomes The Unlock.",
+    byline: "TeamTalk / This Is Anfield",
+    dateline: "Merseyside · 31 August",
     category: "Transfers",
     body:
-      "The condition has produced a scramble. Contact has been made with Pedro Neto\u2019s representatives at Chelsea, a club willing to talk about a winger contracted to 2031. An enquiry has gone to Bournemouth about Rayan, the twenty-year-old Brazilian Iraola coached on the south coast, whose release clause reads \u00a3130m against the \u00a330m Bournemouth paid for him in June. Talks with Brighton over Yankuba Minteh have been reopened after being declared dead at \u00a380m, and a fresh proposal is being prepared for Ismaila Sarr, twice rejected. Four doors, and behind each one a club that knows exactly how little time is left.",
+      "Of the four wide doors Liverpool have been knocking on, one has given. Ismaila Sarr is reported to have agreed to the move and to be pushing for it, and the club have decided to draw up a third proposal after two rejections around £50m. He is the option that fits the clock: a Premier League winger who needs no bedding-in and no work permit, wanted and willing. Crystal Palace, pointless from two and naming no price, hold the leverage of a seller under no compulsion to sell. But the sense on Monday was that if a second signing comes, and with it Gakpo's release, it comes through the Senegalese and not through Brighton's immovable £80m for Minteh.",
   },
   {
     n: "03",
-    headline: "The Medical Is Done. The Announcement Is Not.",
-    byline: "This Is Anfield / ESPN",
-    dateline: "Merseyside \u00b7 30 August",
+    headline: "Down To A Signature: Barcola's £123m Move Meets The Clock.",
+    byline: "Sky Sports / ESPN",
+    dateline: "Merseyside · 31 August",
     category: "Transfers",
     body:
-      "By Sunday night the club had still not posted it. Bradley Barcola completed his examination on Merseyside, the final formality of \u00a3106m guaranteed and \u00a317m more in add-ons on a contract running to 2031, and the confirmation everyone had pencilled for the weekend slipped into Monday. There is a reason for the hurry beyond impatience: Ligue 1 shuts on Monday and the English window at eleven on Tuesday night, and a deal of this size does not enjoy being close to either. He will wear 29. His debut is earmarked for Portman Road on Friday. Until the announcement lands he remains, on paper, someone else\u2019s player.",
+      "The marquee arrival is now paperwork and patience. Liverpool agreed a fee with PSG worth £106m guaranteed and up to £123m with add-ons, the France winger set to sign to 2031, medical passed, the No. 29 chosen and by his own telling non-negotiable. With Ligue 1's window shutting on Monday the deal has to be lodged from the French end today, the club announcement expected to follow rather than lead, and until it posts he remains formally someone else's player. A debut at Portman Road on Friday is already pencilled in. The bigger question is what he unlocks at the other end of the squad, because it is his landing that has put Gakpo within City's reach.",
   },
   {
     n: "04",
-    headline: "Elliott Picks Mestalla, And Another Homegrown Light Goes Out.",
+    headline: "The Leaving Column Keeps Filling While The Window Runs Down.",
     byline: "Fabrizio Romano / Goal",
-    dateline: "Merseyside \u00b7 29 August",
+    dateline: "Merseyside · 30 August",
     category: "Farewells",
     body:
-      "He came at sixteen from Fulham and leaves at twenty-three with a European Cup medal and a sense of something unfinished. Harvey Elliott has agreed personal terms with Valencia after positive talks, negotiations now running club to club over the shape of a loan, and he chose Spain over Napoli and Lazio. He had asked to go. A difficult opening under the new regime, a bench he could not get off, a career that needs minutes more than it needs a badge. Behind him Federico Chiesa waits on an offer Liverpool would take at around \u20ac20m. The academy pathway is a road that runs both ways.",
+      "Behind the winger drama the clearance runs on. Harvey Elliott has agreed personal terms with Valencia and the clubs are shaping a loan, the 23-year-old choosing Mestalla over Napoli and Lazio after a bench he could not get off under the new coach. Wataru Endo, at 33, has been made available, Wolves, Fulham and West Ham told he can go. Stefan Bajcetic is closing on the Celta academy he left at sixteen, a mutual termination rather than a fee. Federico Chiesa, injured and listenable at around 20m euros, may make it another before Tuesday. The academy pathway, and the wage bill, are roads that run both ways.",
   },
   {
     n: "05",
-    headline: "Thirteenth, And Looking Up At Friday\u2019s Hosts.",
+    headline: "Thirteenth At The Deadline, And Below Friday's Hosts.",
     byline: "ESPN / Liverpool.com",
-    dateline: "Anfield \u00b7 30 August",
+    dateline: "Anfield · 31 August",
     category: "Race for Europe",
     body:
-      "The table after two weekends is not a crisis, but it is an argument. Two points from two, a goal difference of nothing, not a minute of the season spent in front, and Liverpool sit thirteenth, a place and a point below Ipswich Town, whom they visit on Friday night. Above them Manchester City have six from six, which is the awkward music under the Gakpo story, and a promoted Hull sit alongside them. Andoni Iraola has asked for structure before signings and been handed a window that will not stop moving. The football has to start answering soon, because the market shuts on Tuesday and the fixtures do not.",
+      "The table keeps the transfer noise honest. Two draws from two leave Liverpool thirteenth on two points with a goal difference of nothing, a place and a point beneath Ipswich Town, whom they visit at Portman Road on Friday. Above them Manchester City sit top on six alongside a promoted Hull, Chelsea third, which is the discomfort under the whole Gakpo affair: the club at the top is the club doing the shopping. Not one minute of the season has been spent in front. Andoni Iraola asked for structure before signings and was handed a window that will not stop moving, and the football has to start answering the day after it shuts.",
   },
 ];
 
 export const NEWS_DIGEST = {
-  generatedAt: "2026-08-30T22:45:00Z",
+  generatedAt: "2026-08-31T09:30:00Z",
   summary:
-    "Sunday night, and the biggest move of the day is one going out. Cody Gakpo has agreed personal terms with Manchester City and given his green light to a five-year contract, Fabrizio Romano putting the package at around \u00a385m with the clubs now in contact over the fee, and the Dutchman has chosen the Etihad over a Tottenham pursuit that had been running since July. Liverpool have set one condition and held it all week: nobody leaves the left flank until a replacement walks in the other door. That condition is why the last forty-eight hours have turned into a scramble, contact made with Pedro Neto\u2019s representatives at Chelsea, an enquiry lodged over Bournemouth\u2019s Rayan and the \u00a3130m clause that guards him, talks with Brighton over Yankuba Minteh reopened, and a fresh proposal being prepared for Ismaila Sarr after two rejections. Bradley Barcola, meanwhile, has done his medical and still has not been announced, with Ligue 1 shutting on Monday and the English window at eleven on Tuesday night. It all sits a day after a second straight 2-2, a side yet to lead a minute this season, and a table that now has Liverpool thirteenth, below Friday\u2019s opponents.",
+    "Monday, deadline eve, and the captain has gone public. Virgil van Dijk has told anyone listening that he wants Cody Gakpo kept, calling him a quality player and a friend Liverpool would be wrong to sell, even as Manchester City ready a formal offer worth up to 100m euros and the Dutchman's own preference points to the Etihad. The club's position has not shifted in a fortnight: nobody leaves the left flank until a replacement arrives, and with Bradley Barcola's £123m move now down to a signature as Ligue 1's window shuts tonight, the search for the second winger is where the deadline will be won or lost. Ismaila Sarr has become the live one, said to have given his yes and pushing hard while Liverpool weigh a third bid a pointless Crystal Palace have twice rebuffed; Brighton will not move off £80m for Yankuba Minteh, and Chelsea's £100m valuation of Pedro Neto reads as too steep for the hours that remain. Out, the traffic thickens with Elliott bound for Valencia, Endo made available and Bajcetic homeward to Celta. It all sits a place and a point below Ipswich, Friday's hosts, with the English window closing at eleven on Tuesday night.",
   keyTopics: [
     {
-      title: "Gakpo Says Yes To City: Personal Terms Agreed, Five Years Signed Off, \u00a385m The Number (Fabrizio Romano / Sky Sports, tonight)",
+      title: "'I Want Him To Stay': Van Dijk Goes Public To Keep Gakpo From City (Sky Sports / Empire of the Kop, today)",
       detail:
-        "The exclusive landed on Sunday evening and reframed the window. Cody Gakpo has agreed personal terms with Manchester City and given a green light to a five-year contract, with Romano putting the package at around \u00a385m and the two clubs in contact over the fee. City moved late and hard into a race Tottenham had led since July, having sold Savio and Omar Marmoush to Spurs and left themselves short in wide areas, and the player picked them. What has not happened yet is a formal bid, and what Liverpool have not done yet is agree to sell.",
-      category: "transfers",
-    },
-    {
-      title: "One Condition, Held All Week: No Sale Until A Second Winger Walks In (This Is Anfield / ESPN, tonight)",
-      detail:
-        "The club\u2019s answer to City has been the same sentence for days. Liverpool will sanction Gakpo\u2019s exit only once they have signed a replacement, and Barcola on his own does not count, because the plan was always two wide additions rather than one. It leaves the deal hostage to a market that has spent the week saying no: Brighton want \u00a380m, Crystal Palace want nothing at any price, and Lille have not moved off their valuation either. City are described as confident they can close it the moment Liverpool nod. Everything now hangs on whether a second winger can be found in the hours that are left.",
-      category: "transfers",
-    },
-    {
-      title: "Liverpool Go To Pedro Neto\u2019s Camp: Contact Made With The Chelsea Winger (CaughtOffside / FootballTransfers, today)",
-      detail:
-        "A new name entered the file on Sunday. Liverpool have made contact with the representatives of Pedro Neto, the 26-year-old contracted at Stamford Bridge until 2031, as they draw up the replacement that would unlock Gakpo\u2019s departure. Chelsea, having spent heavily again this summer, are described as open to negotiating, and Neto is said to be receptive if the proposal is right. He is the readiest of the options in the sense that matters most this week: a Premier League winger who needs no bedding-in and no work permit, available from a club willing to talk.",
-      category: "transfers",
-    },
-    {
-      title: "The \u00a3130m Clause At Iraola\u2019s Old Club: Liverpool Enquire About Rayan (TeamTalk / Football365, today)",
-      detail:
-        "The most romantic option is also the most expensive. Liverpool have made contact with Bournemouth over Rayan, the Brazil forward they had earmarked for next summer and whose release clause sits at \u00a3130m barely two months after he arrived from Vasco da Gama for around \u00a330m. Andoni Iraola coached him on the south coast, five goals and two assists in fifteen games, and knows the speed and the one-against-one appetite intimately. Bournemouth are expected to play hardball this late, which makes the enquiry a measure of how urgent the flank has become rather than a deal in motion.",
-      category: "transfers",
-    },
-    {
-      title: "Minteh Reopened, Sarr Re-Attempted: The Two Doors Liverpool Keep Knocking On (Football365 / TeamTalk, today)",
-      detail:
-        "Both old files came back off the shelf this weekend. Talks with Brighton over Yankuba Minteh have been reactivated after being declared over when the Seagulls quoted \u00a380m, the internal discussions of the last few days driven by the shortage of viable alternatives. On the other door, Liverpool are preparing a new proposal for Ismaila Sarr, whose \u00a350m valuation Palace rejected twice and who is described as desperate for the move. Palace, pointless from two and bottom but for goal difference, still have not named a price. Two ready-made wingers, neither of them cheap, neither of them close.",
-      category: "transfers",
-    },
-    {
-      title: "Barcola\u2019s Medical Is Done And The Announcement Still Is Not (Sky Sports / This Is Anfield, today)",
-      detail:
-        "The signature everyone expected on Sunday had not landed by Sunday night. Barcola completed his examination on Merseyside, the last formality of a \u00a3106m guaranteed deal with \u00a317m in add-ons and a contract to 2031, and the announcement is now understood to be a Monday matter rather than a weekend one. Ligue 1 closes on Monday and England on Tuesday, so the paperwork is running against two clocks at once. He will wear 29, a debut is earmarked for Portman Road on Friday, and until the club posts it he remains, formally, a PSG player.",
-      category: "transfers",
-    },
-    {
-      title: "Thirteenth, And Below Friday\u2019s Opponents: The Table After Two Weekends (ESPN, today)",
-      detail:
-        "The standings have started to sting. Two draws from two leaves Liverpool thirteenth on two points with a goal difference of nothing, one place and one point behind Ipswich Town, the side they visit at Portman Road on Friday night. Manchester City lead on six with a promoted Hull alongside them and Chelsea third, which is the uncomfortable subtext to the Gakpo story: the club that wants him is the club at the top. Forest, who drew at Anfield, sit fifteenth. It is August, and none of it is settled, but nobody at Anfield is enjoying the view.",
-      category: "matches",
-    },
-    {
-      title: "Elliott Chooses Valencia: Personal Terms Agreed, Club Talks Underway (Fabrizio Romano / Goal, 1d ago)",
-      detail:
-        "Another of the academy\u2019s own is going. Harvey Elliott has agreed personal terms with Valencia after positive talks, with negotiations now running between the clubs over the structure of a loan, and the 23-year-old chose Mestalla over interest from Napoli and Lazio. He had made his wish to leave plain after a difficult opening under the new regime, having barely featured in the first weeks of the season. It is a departure that thins an already reshaped middle third and sits alongside Chiesa, whom Liverpool are willing to listen on at around \u20ac20m.",
-      category: "transfers",
-    },
-    {
-      title: "A Right-Back And A Centre-Half In One Body: Gomez Aims At Portman Road (Liverpool FC / Rousing The Kop, 1d ago)",
-      detail:
-        "One piece of the week was straightforwardly good. Joe Gomez, whose muscle problem was set at roughly a month when he limped out at Sunderland in pre-season, has trained fully with the group and is aiming at Friday night, which would give Iraola a right-back and a centre-back in one body. Four remain out: Hugo Ekitike until December with the Achilles, Conor Bradley eyeing November on the knee, Giovanni Leoni on the long road back from an ACL, and Federico Chiesa with the small muscle injury picked up against Como. Alisson is fit and the midweek noise around him came to nothing.",
-      category: "injuries",
-    },
-    {
-      title: "\u201cI Cannot Guarantee Anything\u201d: Iraola Declines To Promise Gakpo Stays (Liverpool.com / Goal, 2d ago)",
-      detail:
-        "The manager was asked the direct question and gave the honest answer. Pressed on whether Gakpo would still be a Liverpool player after Tuesday, Andoni Iraola said he could not guarantee anything, while insisting in the same breath that the Dutchman has been one of his best players and praising his pre-season. Two days later the winger who spun his marker and made Isak\u2019s goal against Forest has agreed terms with the champions-elect. Reports that Gakpo has formally requested a move remain claims rather than confirmations, and nobody at the club has put that on the record.",
+        "The captain has broken cover on deadline eve. Asked about Cody Gakpo, Virgil van Dijk said Liverpool should keep their quality players and made his own wish plain, that Gakpo is not only a fine footballer but a friend he thinks will be important this season, and left no doubt he wants the sale blocked. It is the clearest internal voice yet against a move the player himself is drawn to, and it lands as City shift from admiring to acting. Let us see what the next three days bring, he added, which is the whole window in a sentence.",
       category: "general",
     },
     {
-      title: "Salah, Konate, Robertson, Jones And Five More: The Leaving Column Reads Nine (Sky Sports / TeamTalk, 2d ago)",
+      title: "City Ready A Formal Offer Worth Up To 100m Euros, Deadline Tuesday (ESPN / FootballTransfers, today)",
       detail:
-        "Behind the marquee names the clearance continues. Wataru Endo has been made available at 33 and clubs have been told so, Bajcetic\u2019s return to the Celta Vigo academy he left at sixteen runs through a mutual termination with Liverpool keeping a sell-on, and Besiktas hold agreed personal terms with Kostas Tsimikas alongside a loan offer worth around \u20ac2m for Giorgi Mamardashvili. Add Elliott and, probably, Chiesa, and the leaving column for a single window reads Salah, Konate, Robertson, Jones and five more. The incoming column still reads three.",
+        "Manchester City have moved from talks to intent. Enzo Maresca's side, short in wide areas after selling Savio and Omar Marmoush to Tottenham, are described as ready to lodge a formal offer worth up to 100m euros for Gakpo, and the player is keen to explore it. What has still not happened is a Liverpool yes. The champions-elect are said to be confident they can close it the instant Anfield consents, and Anfield will not consent until the flank is refilled, which is why Tuesday's eleven o'clock deadline belongs as much to the wingers coming in as to the one who wants out.",
       category: "transfers",
     },
     {
-      title: "The Midfield Hole Nobody Will Fill: Scott Named Top Target, Bournemouth Unmoved (The Independent / GiveMeSport, 3d ago)",
+      title: "Sarr Says Yes And Becomes The Live One: Liverpool Weigh A Third Bid (TeamTalk / This Is Anfield, today)",
       detail:
-        "The defensive midfielder Iraola wants has a name and a price nobody at Anfield likes. Miguel Delaney reported multiple sources identifying Bournemouth\u2019s Alex Scott as the top target for the role, and the complication is a purported \u00a390m valuation that Liverpool are not willing to meet, with a sense the pursuit gets deferred to next summer. Chelsea have weighed a late offer of their own and been given the same answer. Behind it, Manu Kone stays the preference Roma will not sell, and Monaco\u2019s Lamine Camara has gone the other way, to Chelsea.",
+        "Of the four doors, one has opened a crack. Ismaila Sarr is reported to have given his green light and to be pushing hard for the move, and Liverpool have decided to prepare a fresh proposal after two rejections from a Crystal Palace side that has still named no price. He is the reading that fits the clock: a Premier League winger, no work permit needed, wanted and willing. Palace, pointless from two, hold the leverage of a seller who does not have to sell, but the sense on Monday was that Sarr, not Minteh, is where the second signing most plausibly comes from.",
       category: "transfers",
+    },
+    {
+      title: "Barcola's £123m Move Down To A Signature As Ligue 1 Shuts Tonight (Sky Sports / ESPN, today)",
+      detail:
+        "The marquee arrival is now paperwork and a clock. Liverpool have agreed a fee with PSG worth £106m guaranteed and up to £123m with add-ons, the France winger set to sign to 2031, medical passed, the No. 29 chosen and, by his own telling, non-negotiable. With Ligue 1's window closing on Monday the deal has to be lodged from the French end today, and the club announcement is expected to follow rather than lead. Until it posts he remains, formally, a PSG player, but a debut at Portman Road on Friday is already being pencilled in.",
+      category: "transfers",
+    },
+    {
+      title: "£80m And £100m: The Two Doors Priced Beyond The Hours Left (Football365 / TeamTalk, today)",
+      detail:
+        "The alternatives to Sarr keep pricing themselves out. Brighton have not moved off the £80m they quoted for Yankuba Minteh, and Liverpool are not expected to return with a third bid unless it drops, the file reopened more from need than from progress. Pedro Neto, contracted at Chelsea to 2031, is gettable in theory but Chelsea's £100m valuation reads as too steep for a late scramble, and Bournemouth's Rayan, the romantic pick Iraola coached, is guarded by a £130m clause and deemed a next-summer thought. Two ready-made wingers, both admired, both too dear.",
+      category: "transfers",
+    },
+    {
+      title: "The Player Is Drawn To The Etihad, And His Team-Mates Would Rather He Wasn't (Liverpool.com / Goal, today)",
+      detail:
+        "For all the club's resistance, the pull is real. Gakpo, an assist and an equaliser-maker in his two games this season, is understood to be genuinely tempted by City's project under Maresca and the guarantee of a title race, even as Van Dijk lobbies to keep him and Iraola declines to promise anything. He is contracted to 2030 and under no obligation to force it, and no formal transfer request has been confirmed despite the noise. The next thirty hours decide whether the man who spun his marker at Anfield on Saturday is doing it in sky blue by the weekend.",
+      category: "general",
+    },
+    {
+      title: "Below Friday's Hosts, And Yet To Lead A Minute: The Table At Deadline (ESPN, today)",
+      detail:
+        "The standings keep the transfer noise honest. Two draws from two leave Liverpool thirteenth on two points with a goal difference of nothing, a place and a point beneath Ipswich Town, whom they visit at Portman Road on Friday. City lead on six alongside a promoted Hull, Chelsea third, which is the discomfort under the whole Gakpo affair: the club at the top is the club doing the shopping. Not a single minute of the season has been spent in front, and the fixtures resume the day after the window shuts.",
+      category: "matches",
+    },
+    {
+      title: "The Leaving Column Keeps Filling: Elliott To Valencia, Endo Available, Bajcetic Home (Fabrizio Romano / Sky Sports, 1d ago)",
+      detail:
+        "Behind the winger drama the clearance runs on. Harvey Elliott has agreed personal terms with Valencia and the clubs are shaping a loan, the 23-year-old choosing Mestalla over Napoli and Lazio after barely featuring under Iraola; Wataru Endo, at 33, has been made available with Wolves, Fulham and West Ham told he can go; and Stefan Bajcetic is closing on a return to the Celta academy he left at sixteen via a mutual termination. Chiesa, injured and listenable at around 20m euros, may make it a fifth exit before Tuesday. The incoming column still reads three.",
+      category: "transfers",
+    },
+    {
+      title: "One Clean Return In A Ragged Week: Gomez Trains Fully, Eyes Portman Road (Liverpool FC / Rousing The Kop, 1d ago)",
+      detail:
+        "The good news is quiet and defensive. Joe Gomez, whose muscle injury from the Sunderland friendly was set at about a month, has trained fully with the group and is targeting Friday, handing Iraola a right-back and a centre-back in one body. Four stay out: Ekitike until at least December with the ruptured Achilles, Bradley not due back before 2027 on the knee, Leoni deep in ACL rehab, and Chiesa with the muscle strain from Como. Alisson is fit and starts, the midweek noise around him having come to nothing.",
+      category: "injuries",
+    },
+    {
+      title: "The Midfield They Cannot Afford: Scott At £90m, Kone Unsold, Camara Gone (The Independent / GiveMeSport, 2d ago)",
+      detail:
+        "The defensive midfielder Iraola wants keeps slipping past. Bournemouth's Alex Scott remains the identified top target, but a purported £90m valuation is a number Liverpool will not meet, and the sense is the pursuit is deferred to next summer rather than forced now. Roma will not sell Manu Kone, the preference behind Scott, and Monaco's Lamine Camara has gone the other way to Chelsea. It leaves the base of the midfield as the hole the window looks likeliest to leave open, whatever happens on the flank.",
+      category: "transfers",
+    },
+    {
+      title: "'No Deadline On My Own Future': Van Dijk Speaks For Himself Too (Gulf News / ESPN, 2d ago)",
+      detail:
+        "The captain lobbying to keep others is in no rush about himself. Van Dijk, whose own situation has quietly ticked along in the background of a loud summer, said there is no deadline on deciding his Liverpool future and that his focus is the pitch, a small act of calm in a week the club has spent putting out fires. At 35 he remains the fixed point Iraola builds around, the man who led them out at Newcastle and Anfield and the one voice the dressing room still turns toward. Everything else moves; he does not.",
+      category: "general",
     },
   ],
   sources: [
-    "Fabrizio Romano",
     "Sky Sports",
     "ESPN",
-    "This Is Anfield",
-    "Liverpool.com",
-    "CaughtOffside",
     "FootballTransfers",
     "TeamTalk",
+    "This Is Anfield",
+    "Empire of the Kop",
     "Football365",
+    "Fabrizio Romano",
+    "Liverpool.com",
     "Goal",
     "The Independent",
     "GiveMeSport",
-    "Rousing The Kop",
+    "Gulf News",
     "Liverpool FC",
+    "Rousing The Kop",
   ],
 };
 
 
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-08-30T22:45:00Z",
+  generatedAt: "2026-08-31T09:30:00Z",
   summary:
-    "Sunday night, and the ledger has flipped: the biggest move on the board is an exit. Cody Gakpo has agreed personal terms with Manchester City and given his green light to five years at the Etihad, Fabrizio Romano putting the package at around \u00a385m with the clubs in contact over the fee, and the Dutchman has chosen City over the Tottenham pursuit that had run since July. Liverpool have not agreed to sell and will not until a second winger arrives, which has turned the last hours of the window into a scramble: contact made with Pedro Neto\u2019s camp at Chelsea, an enquiry to Bournemouth about Rayan and the \u00a3130m clause guarding him, Brighton talks over Yankuba Minteh reopened after being declared dead at \u00a380m, and a fresh proposal being prepared for Ismaila Sarr following two rejections from an immovable Crystal Palace. Bradley Barcola has completed his medical and is still, at the time of writing, unannounced, with the confirmation now expected Monday. In midfield the preference remains unattainable, Manu Kone unsold by Roma, Alex Scott priced at a reported \u00a390m by Bournemouth, and Lamine Camara gone to Chelsea. Out, the traffic thickens: Elliott has agreed terms with Valencia, Endo is available, Bajcetic is homeward to Celta, Besiktas hold terms with Tsimikas and a \u20ac2m loan bid for Mamardashvili, and Chiesa waits on an offer around \u20ac20m. Ligue 1 shuts Monday, England at eleven on Tuesday night.",
+    "Deadline eve, and the ledger's decisive move is the one Liverpool still have to make. The Gakpo exit that leads the noise, City ready to lodge up to 100m euros with the player tempted and Van Dijk lobbying publicly to keep him, is hostage to a single condition the club has held all week: nobody leaves the left flank until a replacement arrives. So the last hours belong to the winger coming in, and there Ismaila Sarr has become the live one, reported to have said yes and pushing while Liverpool ready a third bid a pointless Crystal Palace have twice rebuffed. Brighton will not move off £80m for Yankuba Minteh, and Chelsea's £100m valuation of Pedro Neto reads as too steep for the time that remains, with Bournemouth's Rayan and his £130m clause a next-summer thought. Bradley Barcola's £123m arrival is down to paperwork lodged against two clocks as Ligue 1 shuts on Monday. In midfield the preference stays out of reach, Manu Kone unsold by Roma, Alex Scott priced at a reported £90m, Lamine Camara gone to Chelsea. Out, the traffic thickens: Elliott to Valencia, Endo made available, Bajcetic home to Celta, Besiktas holding terms with Tsimikas and a 2m euro loan bid for Mamardashvili, Chiesa listenable at around 20m euros. Ligue 1 shuts Monday, England at eleven on Tuesday night.",
   incoming: [
     {
       name: "Ronald Araujo",
@@ -707,9 +702,9 @@ export const TRANSFER_TARGETS = {
         { name: "Sky Sports",          tier: "A" },
         { name: "This Is Anfield",     tier: "A" },
       ],
-      lastUpdated: "2026-08-30",
+      lastUpdated: "2026-08-31",
       rumorNote:
-        "Merseyside · 30 Aug (evening) — the medical is behind him, the announcement is not. Barcola completed his examination on Merseyside over the weekend and the club had still not posted the signing by Sunday night, pushing confirmation into Monday, with the terms unmoved: £106m guaranteed plus £17m in add-ons, close to £123m, a contract to 2031, second on the club's all-time list behind Isak. Two clocks are now running against the paperwork, Ligue 1 closing on Monday and the English window at eleven on Tuesday night, and until the post goes up he remains formally a PSG player. The debut stays earmarked for Portman Road on Friday. The bigger question this evening is what his arrival unlocks at the other end of the squad, because it is Barcola landing that has put Gakpo within reach of Manchester City.",
+        "Merseyside · 31 Aug — down to a signature and a deadline. With the medical passed and terms long agreed at £106m guaranteed plus £17m in add-ons on a contract to 2031, Barcola's move is now a matter of paperwork lodged against two clocks: Ligue 1 shuts on Monday, the English window at eleven on Tuesday night. The club announcement is expected to follow the French-end filing rather than precede it, and until it posts he remains formally a PSG player. The No. 29 is chosen and, by his own account, non-negotiable; the debut is earmarked for Portman Road on Friday. What his arrival unlocks matters as much as the arrival itself, because it is Barcola landing that has put Gakpo within City's reach.",
       positionFit: {
         replaces: "Salah (departed, free agent)",
         competesWith: ["Ndiaye (Everton, newer target)", "Rayan (Bournemouth, clause to 2027)", "Gakpo", "Ngumoha"],
@@ -774,16 +769,16 @@ export const TRANSFER_TARGETS = {
       releaseClause: null,
       contractNote:
         "Under contract at Selhurst Park to 2029, and Palace hold every card. Liverpool's £50m bid was rejected, and the insider Mick Brown reports the club have no intention of selling a player who scored 21 last season and won them the Conference League. Sarr himself is said to be open to Merseyside with a week to go, which keeps a rejected approach flickering rather than dead: Liverpool need a right-sided winger, Diomande and Minteh are gone, and Palace's stance is the only thing between the two clubs. Whether Liverpool return with an improved offer before Tuesday is the question the flank now turns on.",
-      probability: 31,
+      probability: 45,
       heatTier: "warm",
       sources: [
         { name: "Fabrizio Romano",   tier: "S" },
         { name: "This Is Anfield",   tier: "A" },
         { name: "Football365",       tier: "B" },
       ],
-      lastUpdated: "2026-08-30",
+      lastUpdated: "2026-08-31",
       rumorNote:
-        "Selhurst Park \u00b7 30 Aug \u2014 a third attempt is being drawn up. After two rejected approaches around \u00a350m, Liverpool are reported to be preparing a fresh proposal for Ismaila Sarr, the one wide option who is both ready-made and, by every account, desperate to come. Crystal Palace remain the problem and remain consistent: no plans to sell, no price named, a squad already pointless from two and in no mood to be thinned further. The Gakpo situation is what has revived it. If City are to get their winger, Liverpool need one first, and Sarr is the shortest road there.",
+        "Selhurst Park · 31 Aug — he has said yes, and become the live one. Sarr is reported to have given his green light and to be pushing hard for the move, and Liverpool have decided to prepare a third proposal after two rejections around £50m. Of the four wide doors it is the one that fits the clock: a Premier League winger, no work permit, wanted and willing. Crystal Palace remain the obstacle, pointless from two and naming no price, a seller under no obligation to sell. But on deadline eve the second signing, the one that would free Gakpo, looks likeliest to come through him.",
       positionFit: {
         replaces: "Salah (wide forward)",
         competesWith: ["Barcola", "Gakpo", "Munoz"],
@@ -1911,7 +1906,7 @@ export const TRANSFER_TARGETS = {
       probability: 68,
       heatTier: "hot",
       sources: [{ name: "Fabrizio Romano", tier: "S" }, { name: "Sky Sports", tier: "A" }, { name: "ESPN", tier: "A" }, { name: "This Is Anfield", tier: "A" }],
-      note: "Sun 30 Aug (evening) \u2014 he has chosen, and now the club must. Cody Gakpo agreed personal terms with Manchester City on Sunday and gave his green light to a five-year contract, Romano putting the package at around \u00a385m with the clubs in contact over the fee, City having moved late and decisively into a race Tottenham led from July. What has not happened is a formal bid, and what Liverpool have not done is consent: the sale is conditional on a second winger arriving, and Barcola alone does not satisfy it. So the Dutchman who spun his marker and made Isak\u2019s goal against Forest on Saturday spends the last days of the window as the most valuable piece on a board nobody can move yet. Contracted to 2030. Two clocks, and one condition.",
+      note: "Mon 31 Aug — deadline eve, and the club's own captain enters the argument. City are ready to lodge a formal offer worth up to 100m euros and Gakpo is tempted, but Van Dijk has said publicly that Liverpool should keep their quality players and that he wants his friend to stay. Nothing has changed in the club's position: no sale until a second winger arrives, and Barcola alone does not satisfy it, which is why Sarr, Minteh and Neto fill the final hours. Contracted to 2030, an assist and an equaliser-maker in two games, the most valuable piece on a board nobody can move until the flank is refilled. One condition, two clocks, one day left.",
     },
     {
       id: "bajcetic-out",
