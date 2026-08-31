@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Mon Aug 31 — the captain uses his voice on deadline eve. Van Dijk has gone public to keep Cody Gakpo, calling him a quality player and a friend Liverpool would be wrong to sell to Manchester City, the clearest internal push yet against a move the player is tempted by. On his own future he says there is no deadline, his focus the pitch. At 35 he remains the fixed point Iraola builds around, the man who led them out at Newcastle and Anfield, with Araujo's loan and Jacquet's return finally giving him cover after Konate's free exit thinned the back line", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Mon Aug 31 — the captain asked, and by evening he had it. Van Dijk went public on Saturday to keep Cody Gakpo, calling him a quality player and a friend Liverpool would be wrong to sell, and on Monday night the City move collapsed: their £75m plus £5m was rejected and the pursuit called off, though the reason was the failure to sign a replacement rather than the captain's lobbying. On his own future he says there is no deadline, his focus the pitch. At 35 he remains the fixed point Iraola builds around, with Araujo's loan and Jacquet's return finally giving him cover after Konate's free exit thinned the back line", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -481,7 +481,7 @@ export const STANDINGS_COMMENTARY = {
   matchweek: 2,
   generatedAt: "2026-08-31T22:15:00Z",
   overview:
-    "The table sat still on Monday while the market emptied itself around it. Manchester City remain top on six with Arsenal level and a promoted Hull third on the same points, which sharpens the evening's news rather than softening it: the club setting the pace is the club that spent the day trying to buy Cody Gakpo, and went home without him. Chelsea are fourth, also on six, and Brentford lead the chasing group on four. Liverpool are thirteenth on two points from two 2-2 draws, a goal difference of nothing, no lead held at any point this season, and a place and a point below Ipswich Town, who host them at Portman Road on Friday. At the bottom Coventry, Crystal Palace, Aston Villa and Tottenham have taken nothing from two, with Palace's refusal to sell all summer looking less like leverage than like need.",
+    "The table sat still on Monday while the market emptied itself around it. Manchester City remain top on six with Arsenal level and a promoted Hull third on the same points, which sharpens the evening's news rather than softening it: the club setting the pace is the club that spent the day trying to buy Cody Gakpo, and went home without him. Chelsea are fourth, also on six, and Brentford lead the chasing group on four. Liverpool are thirteenth on two points from two 2-2 draws, a goal difference of nothing, no lead held at any point this season, and a place and a point below Ipswich Town, who host them at Portman Road on Friday. At the bottom Fulham, Coventry, Crystal Palace, Aston Villa and Tottenham have taken nothing from two, with Palace's refusal to sell all summer looking less like leverage than like need.",
   teams: {
     "Liverpool": "Thirteenth on two points from two 2-2 draws, unbeaten and yet to lead a minute. Barcola was registered on Monday for a guaranteed £106m; Gakpo stays after City's £80m was rejected, and the search for a second winger ended in nothing.",
     "Manchester City": "Top on six with a maximum and a plus-four difference, and beaten in the market on deadline eve: their £75m plus £5m for Gakpo was turned down and the pursuit called off.",
@@ -494,7 +494,7 @@ export const STANDINGS_COMMENTARY = {
     "Nott'm Forest": "Fifteenth on one, the point taken at Anfield on Saturday the difference between this and nothing.",
     "Crystal Palace": "Eighteenth and pointless, and immovable on Ismaila Sarr all window despite the winger pushing to join Liverpool. Refusing to sell while losing twice is a hard fortnight to explain.",
     "Brighton": "Ninth on three, and unmoved at £70m for Yankuba Minteh while Liverpool would not go beyond £60m, which is how the Gakpo sale came to die.",
-    "Tottenham": "Bottom on goal difference with two defeats from two, and beaten twice over: they led the Gakpo race from July, lost the player's preference to City, and now he is staying anyway.",
+    "Tottenham": "Bottom on goals scored with two defeats from two, and beaten twice over: they led the Gakpo race from July, lost the player's preference to City, and now he is staying anyway.",
   },
 };
 // ─── Dispatches (hand-curated long reads — separate from the wire feed) ────
@@ -560,7 +560,7 @@ export const NEWS_DIGEST = {
     {
       title: "Ornstein: The Gakpo Saga Is Over, City's £80m Rejected, He Stays (David Ornstein / Football365, today)",
       detail:
-        "The reversal arrived on Monday evening. David Ornstein reported that Manchester City's offer, £75m guaranteed plus £5m in add-ons, was turned down and the pursuit called off through direct contact between all parties. Gakpo had been keen and personal terms had been agreed at the weekend, but Liverpool's condition never changed, no exit without a replacement, and no replacement came. The captain's Saturday intervention now reads as prophecy rather than lobbying. Twenty-seven years old, contracted to 2030, and staying at a club that spent the last fortnight quietly preparing to sell him.",
+        "The reversal arrived on Monday evening. David Ornstein reported that Manchester City's offer, £75m guaranteed plus £5m in add-ons, was turned down and the pursuit called off through direct contact between all parties. Gakpo had been keen and personal terms had been agreed at the weekend, but Liverpool's condition never changed, no exit without a replacement, and no replacement came. The captain's Saturday intervention now reads as prophecy rather than lobbying. Contracted to 2030, and staying at a club that spent the last fortnight quietly preparing to sell him.",
       category: "transfers",
     },
     {
@@ -600,6 +600,11 @@ export const NEWS_DIGEST = {
       category: "general",
     },
     {
+      title: "The Table Did Not Move While The Market Emptied Itself (ESPN, today)",
+      detail:
+        "The standings did not move while the market did. Two draws from two leave Liverpool thirteenth on two points with a goal difference of nothing and not one minute of the season spent in front, a place and a point beneath Friday's hosts. Manchester City lead on six, level with Arsenal and a promoted Hull, which is the sting under the whole Gakpo affair: the club at the top was the club doing the shopping, and it went home without him. Palace and Tottenham, both pointless, sit in the relegation places.",
+      category: "matches",
+    },    {
       title: "The Six They Are Not Signing: No Midfielder, And Nyoni Told To Step Up (This Is Anfield / Yahoo Sports, 1d ago)",
       detail:
         "The hole stays open by choice. Senior club sources maintained through Monday that Liverpool will not sign a central midfielder before the deadline despite the gaps the Newcastle draw exposed, the focus staying on wide areas throughout. Curtis Jones, sold to Inter in August for a package worth €35m, will not be replaced: the club regard teenager Trey Nyoni as ready for a larger role. Bournemouth's Alex Scott remains the identified long-term target, complicated now by a late Chelsea interest of their own.",
@@ -608,7 +613,7 @@ export const NEWS_DIGEST = {
     {
       title: "Portman Road, Friday: O'Neil's Ipswich Above Them, And A Debut To Decide (Liverpool FC / Brit Brief, 1d ago)",
       detail:
-        "The football resumes the day after the window shuts. Liverpool travel to Gary O'Neil's Ipswich Town on Friday night looking for a first win of the season, against hosts who sit twelfth on three points, a place and a point above them, and who were beaten 5-2 at Manchester United last time out. O'Neil is without Azor Matusiwa, Jack Taylor and Jaden Philogene-Bidace, and awaits news on striker Emersonn. Barcola, registered on Monday, now has a full week on the training ground before Iraola decides whether to start him.",
+        "The football resumes the day after the window shuts. Liverpool travel to Gary O'Neil's Ipswich Town on Friday night looking for a first win of the season, against hosts who sit twelfth on three points, a place and a point above them, and who were beaten 5-2 at Manchester United last time out. O'Neil is without Azor Matusiwa, Jack Taylor and Jaden Philogene-Bidace, and awaits news on striker Emersonn. Barcola, registered on Monday, now has four days on the training ground before Iraola decides whether to start him.",
       category: "matches",
     },
     {
@@ -617,12 +622,7 @@ export const NEWS_DIGEST = {
         "The succession has been postponed rather than cancelled. With Alisson staying, Liverpool moved to send Giorgi Mamardashvili out on loan rather than sell, a Besiktas proposal among those lodged, and the reporting around him on Monday was blunt: his Anfield career looks finished whether or not a deal completes before eleven on Tuesday. The Brughmans agreement, an eighteen-year-old goalkeeper contracted to arrive in 2027, suggests the club has already started answering the question a different way.",
       category: "general",
     },
-    {
-      title: "Thirteenth, Unbeaten, And Yet To Lead A Minute: The Table At The Deadline (ESPN, today)",
-      detail:
-        "The standings did not move while the market did. Two draws from two leave Liverpool thirteenth on two points with a goal difference of nothing and not one minute of the season spent in front, a place and a point beneath Friday's hosts. Manchester City lead on six, level with Arsenal and a promoted Hull, which is the sting under the whole Gakpo affair: the club at the top was the club doing the shopping, and it went home without him. Palace and Tottenham, both pointless, sit in the relegation places.",
-      category: "matches",
-    },
+
   ],
   sources: [
     "Sky Sports",

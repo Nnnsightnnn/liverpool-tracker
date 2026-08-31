@@ -27,7 +27,7 @@ export const FORMATIONS = {
     // ahead of Ngumoha and scored the equaliser, Mac Allister returned beside
     // Szoboszlai with Gravenberch benched, Isak scored his first of the season.
     // Out: Ekitike (Achilles, to December), Bradley (knee, eyeing November), Leoni
-    // (ACL), Gomez (muscle, ~a month), Chiesa (small muscle injury, ruled out).
+    // (ACL) and Chiesa (small muscle injury) out; Gomez back in full training.
     // Bradley Barcola was ANNOUNCED on Monday afternoon (guaranteed GBP106m rising to
     // GBP123m, five years, No. 29) and a debut is earmarked for Portman Road, but he is
     // not PLAYERS-keyed, so he cannot appear in the graphic. Gakpo STAYS: City's
@@ -37,7 +37,7 @@ export const FORMATIONS = {
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
       LCB: 3,   // Van Dijk (captain · contracted to 2027)
       RCB: 11,  // Jacquet (started vs Forest · Araujo loan covers CB/RB)
-      RB: 9,    // Frimpong (only fit recognised RB · Bradley on rehab, Gomez out ~a month)
+      RB: 9,    // Frimpong (only fit recognised RB · Bradley on rehab, Gomez pushing for Friday)
       LCM: 18,  // Wirtz (advanced eight · the No. 10 in the default shape)
       CM: 13,   // Mac Allister (recalled vs Forest, Gravenberch to the bench)
       RCM: 15,  // Szoboszlai (engine · vice-captain)
@@ -69,8 +69,8 @@ export const FORMATIONS = {
     // than a preview: Alisson behind Frimpong, Jacquet, Van Dijk and Kerkez;
     // Szoboszlai and Mac Allister in the pivot; Munoz right, Wirtz central, Gakpo
     // left; Isak alone up top. Ngumoha and Gravenberch started on the bench.
-    // Ekitike (Achilles, to December), Bradley (knee), Leoni (ACL), Gomez (muscle,
-    // ~a month) and Chiesa (small muscle injury) are all out. Barcola was ANNOUNCED
+    // Ekitike (Achilles, to December), Bradley (knee), Leoni (ACL) and Chiesa
+    // (small muscle injury) are out; Gomez has trained fully and pushes for Friday. Barcola was ANNOUNCED
     // on Monday afternoon (guaranteed GBP106m to GBP123m, five years, No. 29) and his
     // debut is earmarked for this fixture, but he is not PLAYERS-keyed. Gakpo STAYS:
     // City's GBP75m+5m was rejected Monday evening and the pursuit called off.
@@ -79,7 +79,7 @@ export const FORMATIONS = {
       LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
       LCB: 3,   // Van Dijk (captain · started vs Forest)
       RCB: 11,  // Jacquet (started vs Forest · Araujo loan also covers)
-      RB: 9,    // Frimpong (only fit recognised RB · Gomez out ~a month, Bradley rehab)
+      RB: 9,    // Frimpong (only fit recognised RB · Gomez pushing for Friday, Bradley rehab)
       LDM: 13,  // Mac Allister (recalled to the pivot vs Forest)
       RDM: 15,  // Szoboszlai (double-pivot · vice-captain)
       LAM: 22,  // Gakpo (left flank vs Forest · assisted the Isak equaliser)
@@ -106,8 +106,8 @@ export const FORMATIONS = {
     },
     // Hypothetical 3-4-3 alternative, a shape rarely used, shown for completeness.
     // Refreshed Mon Aug 31 (deadline eve): the back three is still genuinely bare. Ndukwe is
-    // barred by a post-Brexit work permit until at least January; Gomez remains out
-    // around a month; Araujo (loan) is not PLAYERS-keyed. That leaves Van Dijk and
+    // barred by a post-Brexit work permit until at least January; Gomez has only just
+    // returned to full training; Araujo (loan) is not PLAYERS-keyed. That leaves Van Dijk and
     // Jacquet as the only natural centre-backs, so Wataru Endo, fit and a familiar
     // emergency centre-half, fills the left of the three. Kerkez and Frimpong as
     // wing-backs, Wirtz and Mac Allister in midfield, and the Forest front three of
@@ -115,7 +115,7 @@ export const FORMATIONS = {
     // Default is 4-2-3-1 above.
     defaultXI: {
       GK: 1,    // Alisson (started the 2-2 vs Forest · No. 1)
-      LCB: 17,  // Endo (makeshift third CB: Gomez out ~a month, Ndukwe work-permit barred, Araujo not PLAYERS-keyed)
+      LCB: 17,  // Endo (makeshift third CB: Gomez only just back in training, Ndukwe work-permit barred, Araujo not PLAYERS-keyed)
       CCB: 3,   // Van Dijk (captain · anchors back three)
       RCB: 11,  // Jacquet (right of the back three · Araujo loan also covers)
       LWB: 7,   // Kerkez (LWB with Robertson gone to Spurs)
@@ -131,7 +131,7 @@ export const FORMATIONS = {
 
 // One-line evidence string per player, surfaced under the token on hover.
 // Hand-curated from RESULTS + injuryNote context as of Mon Aug 31 (deadline eve),
-// a day after Liverpool 2-2 Nottingham Forest at Anfield. Next up: Ipswich Town
+// two days after Liverpool 2-2 Nottingham Forest at Anfield. Next up: Ipswich Town
 // away, Friday 4 September, 8pm at Portman Road. Munoz took the right flank
 // ahead of Ngumoha and scored the 82nd-minute equaliser on a full debut; Isak
 // scored his first of the season from Gakpo's cross; Mac Allister was recalled
@@ -192,7 +192,7 @@ export const SLOT_CONFIDENCE = {
   LB:  "Low",    // Robertson gone free to Spurs · Kerkez inherits, back day one
   LCB: "Medium", // Van Dijk · 35 · Milan interest knocked back · eased back, first minutes vs Monaco Aug 9
   RCB: "Medium", // Konate gone free to Madrid · Araujo in on loan and bowed vs Como, Jacquet fit again
-  RB:  "Low",    // Frimpong the only fit recognised RB · Gomez out ~a month, Bradley weeks out · Jones sold to Inter
+  RB:  "Low",    // Frimpong the only fit recognised RB · Gomez has trained fully and pushes for Friday, Bradley eyeing November · Jones sold to Inter
   LDM: "Medium", // Mac Allister recalled here vs Forest, Gravenberch benched for the first time · the slot is now genuinely contested
   RDM: "High",   // Szoboszlai · new five-year deal signed to 2031 · in day one
   LAM: "High",   // Gakpo · the sale is off, City's GBP80m rejected Aug 31 and the pursuit called off · he stays, and starts
@@ -212,8 +212,8 @@ export const SLOT_RATIONALE = {
   RDM: "Sat Jul 18 — settled, and expensively so. Szoboszlai has signed a new five-year contract running to 2031, three years on from arriving from Leipzig on a deal that ran only to 2028, with reported terms in the £200,000-£250,000 band. He was voted supporters' player of the season after a campaign spent filling in at right-back, at the eight and on the right wing, and he has started both league games in the pivot. With Salah, Konate and Robertson all gone for nothing, this is the club choosing to keep rather than to replace.",
   LAM: "Mon Aug 31 — the argument ended, and he is still here. David Ornstein reported on Monday evening that Manchester City's offer of £75m plus £5m had been rejected and the pursuit called off. Gakpo wanted it and had agreed personal terms, but Liverpool never moved off the condition that nobody leaves the flank until a replacement lands, and with Palace refusing to sell Sarr and Brighton holding at £70m for Minteh, none did. He started the left against Forest and made Isak's goal. The slot is his, without an asterisk.",
   CAM: "Sat Aug 29 — the No. 10, in his position and still waiting on his season. Wirtz started centrally behind Isak against Forest, where Iraola wants him and where he was the best player on the pitch against Monaco in pre-season. An injury-hit first year at £115m gave him barely 117 minutes alongside Isak and Ekitike combined. Two league games have brought neither a goal nor an assist, and the creative burden runs through him again on Friday at Portman Road.",
-  RAM: "Mon Aug 31 — a debut goal still holding the shirt, and the arrival now official. Victor Munoz took the flank ahead of the eighteen-year-old Ngumoha against Forest and needed one touch to score, spinning through a hundred and eighty degrees and drilling off the underside of the bar for 2-2 on a first Premier League start. The complication landed on Monday afternoon: Barcola was announced at a guaranteed £106m rising to £123m on a five-year deal, and has a full week on the training ground before Friday. Munoz owns the slot until Iraola decides otherwise, and until the signing is PLAYERS-keyed and drawable.",
-  ST:  "Sat Aug 29 — off the mark, from four yards. Isak scored his first of the season on the hour against Forest, standing where a centre-forward stands when Gakpo turns his man and clips one to the back post, the closest thing to a tap-in he has been handed in a Liverpool shirt. It was good to take something from the game, he said, but they need to be better. With Ekitike out to December there is no alternative nine, and the £125m record he holds was joined at the top of the club's list on Monday by Barcola's £123m.",
+  RAM: "Mon Aug 31 — a debut goal still holding the shirt, and the arrival now official. Victor Munoz took the flank ahead of the eighteen-year-old Ngumoha against Forest and needed one touch to score, spinning through a hundred and eighty degrees and drilling off the underside of the bar for 2-2 on a first Premier League start. The complication landed on Monday afternoon: Barcola was announced at a guaranteed £106m rising to £123m on a five-year deal, and has four days on the training ground before Friday. Munoz owns the slot until Iraola decides otherwise, and until the signing is PLAYERS-keyed and drawable.",
+  ST:  "Sat Aug 29 — off the mark, from four yards. Isak scored his first of the season on the hour against Forest, standing where a centre-forward stands when Gakpo turns his man and clips one to the back post, the closest thing to a tap-in he has been handed in a Liverpool shirt. It was good to take something from the game, he said, but they need to be better. With Ekitike out to December there is no alternative nine, and the £125m record he holds survived Monday: Barcola's guaranteed £106m, rising to £123m, lands second on the club's list.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -225,7 +225,7 @@ export const ALTERNATIVES = {
   LB:  [{ playerId: 7, reason: "Kerkez · the only senior left-back at the club now Robertson has gone" }],
   LCB: [{ playerId: 11, reason: "Jacquet · started beside Van Dijk vs Forest; Araujo (loan) can also fill in" }],
   RCB: [{ playerId: 17, reason: "Endo · fit, a familiar emergency centre-half, and the third body if either senior CB goes down" }],
-  RB:  [{ playerId: 9, reason: "Frimpong · the only fit recognised right-back; Bradley is on rehab and eyed for November" }, { playerId: 11, reason: "Jacquet · Araujo (loan) is the actual in-game right-back cover with Gomez out ~a month" }],
+  RB:  [{ playerId: 9, reason: "Frimpong · the only fit recognised right-back; Bradley is on rehab and eyed for November" }, { playerId: 11, reason: "Jacquet · Araujo (loan) is the actual in-game right-back cover, with Gomez back in full training and pushing for Friday" }],
   LDM: [{ playerId: 14, reason: "Gravenberch · benched for the first time vs Forest, and the obvious route back into the pivot" }],
   RDM: [{ playerId: 14, reason: "Gravenberch · can take either side of the double-pivot" }],
   LAM: [{ playerId: 25, reason: "Ngumoha · eighteen and on the bench vs Forest; rotation option on either flank" }],
@@ -239,5 +239,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  reason: "Mon Aug 31, evening — the XI below is not a preview but the side Iraola actually named for Saturday's 2-2 with Nottingham Forest at Anfield, carried forward to Ipswich Town away on Friday 4 September, an 8pm kick-off at Portman Road. Alisson started behind Frimpong, Jacquet, Van Dijk and Kerkez; Mac Allister was recalled beside Szoboszlai with Gravenberch left out for the first time; Munoz was preferred to the eighteen-year-old Ngumoha on the right and answered with a spinning drive off the underside of the bar for 2-2; Wirtz played the ten and Gakpo the left, where he made Isak's first goal of the season. Both market questions hanging over this XI resolved on Monday, and they resolved in opposite directions. Cody Gakpo stays: David Ornstein reported on Monday evening that Manchester City's offer of £75m plus £5m had been rejected and the pursuit called off, because Crystal Palace never intended to sell Ismaila Sarr and Brighton would not come below £70m for Yankuba Minteh, so the replacement Liverpool made the sale conditional on never arrived. His left flank is therefore settled rather than provisional. Bradley Barcola, by contrast, is now a Liverpool player, announced on Monday afternoon at a guaranteed £106m rising to £123m on a five-year deal with the No. 29, which gives him a full week on the training ground before Friday and puts Munoz's right-hand slot genuinely at risk; he is not PLAYERS-keyed, so he cannot be drawn in the graphic even though he can now start. Confidence stays medium for that reason alone. The absences are settled: Ekitike (Achilles, to December), Bradley (knee, eyeing November), Leoni (ACL) and Chiesa (a small muscle injury from the Como friendly) are out, while Joe Gomez has trained fully and is pushing to return at Portman Road, which would restore a right-back and centre-back option in one body. Araujo, a loan arrival, is not PLAYERS-keyed, so Jacquet fills RCB in the graphic. Two league games, two 2-2 draws, not a minute spent in front, and thirteenth in the table behind Friday's hosts. Next up: Ipswich Town away, Friday 4 September, 8pm."
+  generated_at: "2026-08-31T22:15:00Z",
+  reason: "Mon Aug 31, evening — the XI below is not a preview but the side Iraola actually named for Saturday's 2-2 with Nottingham Forest at Anfield, carried forward to Ipswich Town away on Friday 4 September, an 8pm kick-off at Portman Road. Alisson started behind Frimpong, Jacquet, Van Dijk and Kerkez; Mac Allister was recalled beside Szoboszlai with Gravenberch left out for the first time; Munoz was preferred to the eighteen-year-old Ngumoha on the right and answered with a spinning drive off the underside of the bar for 2-2; Wirtz played the ten and Gakpo the left, where he made Isak's first goal of the season. Both market questions hanging over this XI resolved on Monday, and they resolved in opposite directions. Cody Gakpo stays: David Ornstein reported on Monday evening that Manchester City's offer of £75m plus £5m had been rejected and the pursuit called off, because Crystal Palace never intended to sell Ismaila Sarr and Brighton would not come below £70m for Yankuba Minteh, so the replacement Liverpool made the sale conditional on never arrived. His left flank is therefore settled rather than provisional. Bradley Barcola, by contrast, is now a Liverpool player, announced on Monday afternoon at a guaranteed £106m rising to £123m on a five-year deal with the No. 29, which gives him four days on the training ground before Friday and puts Munoz's right-hand slot genuinely at risk; he is not PLAYERS-keyed, so he cannot be drawn in the graphic even though he can now start. Confidence stays medium for that reason alone. The absences are settled: Ekitike (Achilles, to December), Bradley (knee, eyeing November), Leoni (ACL) and Chiesa (a small muscle injury from the Como friendly) are out, while Joe Gomez has trained fully and is pushing to return at Portman Road, which would restore a right-back and centre-back option in one body. Araujo, a loan arrival, is not PLAYERS-keyed, so Jacquet fills RCB in the graphic. Two league games, two 2-2 draws, not a minute spent in front, and thirteenth in the table behind Friday's hosts. Next up: Ipswich Town away, Friday 4 September, 8pm."
 };
