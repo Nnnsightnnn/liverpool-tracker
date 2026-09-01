@@ -470,19 +470,19 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 500, fontSize: 148,
           lineHeight: 0.92, letterSpacing: "-0.04em", marginBottom: 32, color: T.ivory,
         }}>
-          Anfield.<br /><em style={{ fontStyle: "italic", color: T.red }}>August 2026.</em>
+          Anfield.<br /><em style={{ fontStyle: "italic", color: T.red }}>September 2026.</em>
         </h1>
         <GoldRule style={{ marginBottom: 12 }} />
         <p className="cover-deck" style={{
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday evening, and the window finally moved twice.
-          <em>Barcola</em> was announced in the afternoon at a guaranteed £106m,
-          five years, the No. 29. By nightfall the sale it was meant to enable had
-          died: City's £80m for <em>Gakpo</em> rejected, the pursuit called off,
-          because no second winger ever came. Thirteenth, two draws,
-          <em>Ipswich</em> on Friday, and one day left.
+          Tuesday, deadline day, and the midfield the club swore it would
+          leave alone gets a body after all. <em>Arthur Melo</em> arrives on
+          loan from Juventus, four years after a thirteen-minute cameo nobody
+          remembers, the reinforcement Curtis Jones's sale was never meant to
+          have. Thirteenth, two draws, <em>Ipswich</em> on Friday, and the
+          window shuts at eleven tonight.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,19 +513,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>{" "}
-              the record signing is real and the record sale is not. Liverpool
-              announced <em>Bradley Barcola</em> on Monday afternoon, thirty-two
-              hours from the bell, a guaranteed £106m rising to £123m, five years,
-              and a No. 29 he chose as a boy playing FIFA and has never let go. By
-              evening David Ornstein reported the other half over: Manchester
-              City's £75m plus £5m for <em>Cody Gakpo</em> rejected, the pursuit
-              called off, the Dutchman staying. He stays not because he was
-              persuaded but because nobody could be bought to replace him, Palace
-              never meaning to sell Sarr, Brighton never moving off seventy for
-              Minteh. Underneath it the club quietly bought 2027 instead, two
-              teenagers and a sixteen-year-old announcing himself on Instagram.
-              A captain asked for this on Saturday and got it by arithmetic.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>{" "}
+              and the club that spent a fortnight insisting it needed no
+              midfielder signs one in the final hours. <em>Arthur Melo</em>,
+              thirty now, comes in on loan from Juventus for a fee near €4.5m
+              with no obligation to buy, a quiet answer to the hole Curtis Jones
+              left when Inter paid €35m for him in August. He arrives four years
+              after a first Liverpool loan that produced a single substitute
+              appearance and no memory of it, which is either sentiment or
+              need depending on the week you have had. Above him sits the record:
+              <em>Bradley Barcola</em>, £106m rising to £123m, registered on
+              Monday and in line for a debut at Portman Road on Friday. Cody
+              Gakpo stays, the sale to City having died for want of a replacement
+              that never came. Dayot Upamecano, the centre-back chased across two
+              windows, signed fresh terms at Bayern on Tuesday and took the last
+              defensive option off the table. The window shuts at eleven tonight,
+              and the squad that started thirteenth is more or less the squad
+              that finishes the summer.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -533,13 +537,13 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and five
               dispatches from the writers who never clock off. There is the
-              signing that landed; the sale that died hours later; the two clubs
-              who would not sell and thereby decided everything; three teenagers
-              bought for the year after next; and a support backing the outcome
-              while calling the window farcical. Read them in order. The
+              midfielder who arrived after the club said none would; the record
+              winger cleared to debut; the centre-back who got away at Bayern;
+              the goalkeeper who stays while the fringe leave; and a defence
+              still holding its breath on Joe Gomez. Read them in order. The
               season opened at Newcastle with a 2-2 on the twenty-third of
               August and found another at Anfield on the twenty-ninth, Ipswich
-              away comes on Friday night, and the market shuts on the first.
+              away comes on Friday night, and the market shuts tonight.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3260,7 +3264,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "He stays, by arithmetic."
+        "Deadline day never keeps its word."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

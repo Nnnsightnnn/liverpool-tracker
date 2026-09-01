@@ -1,9 +1,9 @@
 {
-  "leadStory": "Bradley Barcola is undergoing his Liverpool medical this weekend, the last step of a GBP123m move (GBP106m guaranteed plus GBP17m in add-ons) that makes him the club's second most expensive signing behind Isak. He will wear the No. 29 shirt rather than Salah's vacated 11, a number kept from FIFA's Alex Hunter career mode as a boy, with the announcement expected within a day and a debut earmarked for Ipswich away on Friday.",
+  "leadStory": "On deadline day Liverpool agreed a season-long loan for Juventus midfielder Arthur Melo, a fee reported around EUR4.5m with the buy option disputed, the thirty-year-old Brazilian passing a medical and signing to patch the hole Curtis Jones's EUR35m sale to Inter left. It ended a fortnight of senior sources insisting no central midfielder would arrive, and marks a strange return for a player who was on loan at Anfield in 2022 for a single thirteen-minute appearance. The window's other decisions came from deals that did not happen: Dayot Upamecano, the centre-back chased across two windows, signed fresh terms at Bayern, leaving a thin back line pinned to Joe Gomez's return at Ipswich on Friday. Giorgi Mamardashvili stays as Alisson's deputy, Ifeanyi Ndukwe went to Levante on loan, and Harvey Elliott's Valencia loan completed. Above it all the record still stands, Bradley Barcola registered on Monday and in line for a debut.",
   "subject": null,
   "prompt": null,
   "aspectRatio": "portrait",
   "slug": null,
-  "generatedAt": "2026-08-30T13:30:00Z",
-  "note": "Image SKIPPED — the lead is a pending medical and an unannounced transfer, which STEP 7.5 explicitly excludes (transfer chatter, no unveiling photo, no on-pitch hero). No request queued this edition. generatedAt re-stamped to today per COVER-00001; render stays on the pure-type fallback."
+  "generatedAt": "2026-09-01T16:00:00Z",
+  "note": "Image SKIPPED — the lead is a deadline-day loan agreement (Arthur Melo), which STEP 7.5 excludes: no unveiling, no kit shot, no on-pitch hero, and the Upamecano half is a target lost to a rival. No request queued this edition. generatedAt re-stamped per COVER-00001; render stays on the pure-type fallback."
 }

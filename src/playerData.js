@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Wed Aug 12 — back from his break and settled as the No. 1 for the season start. Alisson returned from his post-World Cup rest during the American tour and is Iraola's first-choice keeper who kept goal in Sunday's 2-2 draw at Newcastle. The Brazil captain remains the undisputed starter, Mamardashvili the deputy the club still prefer to protect with a loan than sell. Nothing here is in question", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Wed Aug 12 — back from his break and settled as the No. 1 for the season start. Alisson returned from his post-World Cup rest during the American tour and is Iraola's first-choice keeper who kept goal in both 2-2 draws to open the season. The Brazil captain remains the undisputed starter, and Mamardashvili, shopped for a loan all summer without a taker on terms, stays as his deputy after the deadline passed. Nothing here is in question", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "doubtful", outSince: "2026-07-25", injuryNote: "Mon Aug 31 — trained through the weekend, and closing on a first league minute of the season. Gomez, whose muscle problem from the Sunderland friendly was set at around a month, has come through full sessions with the group and is targeting Friday at Portman Road, which would hand Iraola a right-back and a centre-back in one body. With Konate gone to Madrid, Leoni on ACL rehab and Ndukwe barred by a work permit until January, Van Dijk, Jacquet and the loanee Araujo carry the back line until he is back. Serie A interest never became a bid; the longest-serving defender is a body to keep, not sell", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "doubtful", outSince: "2026-07-25", injuryNote: "Tue Sep 1 — the back line's whole September now leans on him. Gomez has trained fully with the group and is pushing to feature at Portman Road on Friday, his first league minutes of the season, which would give Iraola a fourth senior centre-back. With Dayot Upamecano signing fresh Bayern terms and no defender bought on deadline day, the cover behind Van Dijk, Jacquet and the loanee Araujo is him and little else, Leoni still on ACL rehab and Ndukwe gone to Levante on loan. Serie A interest never became a bid; the longest-serving defender was always a body to keep, and a thin summer settles it", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Sun Aug 16 — through the summer, and no longer alone on the flank. Frimpong remains the only fit senior right-back through the Newcastle draw, with Bradley still short of a knee return and Gomez out and racing for Forest on August 29. But Araujo, in on loan and bowed against Como, can spell him at right-back, softening the need that had Tottenham's Djed Spence floated around £35m before Spence went elsewhere. Fit if managed, still short of competition, but carrying the flank with cover now rather than alone", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Sun Aug 16 — through the summer, and no longer alone on the flank. Frimpong remains the only fit senior right-back through the opening two draws, with Bradley still short of a knee return and Gomez, back in full training, pushing to feature at Ipswich, where he can cover right-back too. Araujo, in on loan and bowed against Como, can also spell him there, softening the need that had Tottenham's Djed Spence floated around £35m before Spence went elsewhere. Fit if managed, still short of competition, but carrying the flank with cover now rather than alone", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sun Aug 16 — back, and on the scoresheet. Jacquet marked his return from the shoulder problem, managed with caution since January surgery, by scoring in Sunday's 2-0 win over Como, his first minutes after missing the entire tour and the Monaco game. That absence had left Van Dijk and the academy's Ndukwe as the only fit specialist centre-backs, and it is why Araujo's loan mattered. His return, alongside Araujo's cover, eases the crunch Gomez's injury deepened and hands Iraola a fit senior partner for Van Dijk through the Newcastle draw. Eased back rather than thrown in, but available now", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sun Aug 16 — back, and on the scoresheet. Jacquet marked his return from the shoulder problem, managed with caution since January surgery, by scoring in Sunday's 2-0 win over Como, his first minutes after missing the entire tour and the Monaco game. That absence had once left Van Dijk as the only fit specialist senior centre-back, which is why Araujo's loan mattered. His return, alongside Araujo's cover and Gomez back in full training, eases a crunch the window did nothing to relieve: no defender was bought, Upamecano stayed at Bayern, and Ndukwe has gone to Levante on loan. Eased back rather than thrown in, but the fit senior partner Van Dijk needed", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Mon Aug 10 — the revelation the rules bench. Ndukwe, six foot six and nineteen, started beside Van Dijk against Monaco and was Liverpool's standout defender, composed and commanding on his first senior look. But born in Austria and short of the points a post-Brexit work permit demands, he cannot play a competitive fixture until at least January, so the club intend to loan him out. A body that looks like a solution the club is not allowed to use this side of the new year", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Tue Sep 1 — out on loan, as the club always meant him to be. Ndukwe joined Levante on a season-long loan agreed on deadline day, the Spanish club covering his wage. Six foot six and nineteen, he was Liverpool's standout defender beside Van Dijk against Monaco in pre-season, but born in Austria and short of the points a post-Brexit work permit demands, he could not play a competitive fixture for Liverpool until at least January. A season abroad is the development the situation always called for: he goes to play now, rather than to wait", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -142,7 +142,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Sun Aug 30 — available for sale, and the clubs have been told. Liverpool have made a number of interested sides aware Endo can leave, Wolves, Fulham and West Ham the standing admirers, and at 33, following Jones out of a reshaped midfield, he is among the departures FSG will sanction before Tuesday. The makeshift centre-back cover he offers matters less now Gomez is back in training beside Van Dijk, Jacquet and Araujo. The February foot trouble is long behind him; a manager who has rarely picked him is content to let a wage clear toward the attack", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Tue Sep 1 — available to the last, and still at the club as the clock runs down. Liverpool spent the final hours willing to let the 33-year-old go, Wolves, Fulham and West Ham the standing admirers, but no agreement had surfaced by deadline day. Following Jones out of a reshaped midfield, he was among the exits FSG would sanction, and Arthur Melo's loan arrival only sharpens the case: a body has come into the middle, so an Endo sale now clears a wage rather than opening a hole. The February foot trouble is long behind him; a manager who rarely picks him is content to let it go", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 41, goals: 10, assists: 7, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Mon Aug 31 — he stays, and the argument is over. David Ornstein reported on Monday evening that Manchester City's offer of £75m plus £5m had been rejected and the pursuit called off by direct contact between the clubs. Gakpo had agreed personal terms at the weekend and wanted the move; Liverpool never budged from the condition that nobody leaves the flank until a replacement arrives, and with Palace refusing to sell Sarr and Brighton holding at £70m for Minteh, no replacement arrived. Van Dijk asked publicly on Saturday for exactly this outcome. Contracted to 2030, an assist and an equaliser-maker in two games, and available at Portman Road on Friday", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 41, goals: 10, assists: 7, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Tue Sep 1 — he stays, and now turns to Friday. Monday's collapse is settled: Manchester City's £75m plus £5m rejected, the pursuit called off, Liverpool refusing to sell without a replacement that Palace's stance on Sarr and Brighton's £70m for Minteh ensured never arrived. Van Dijk had asked publicly on Saturday for exactly this. Contracted to 2030, an assist and an equaliser-maker in his two league games, Gakpo goes into the window's close as one of the fittest attacking options Iraola carries to Portman Road, the man the season's shape now depends on staying sharp", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -366,19 +366,19 @@ export const COVER_IMAGE = {
   alt: "Pure-type edition cover.",
   focus: null,
   credit: null,
-  generatedAt: "2026-08-31T22:15:00Z",
+  generatedAt: "2026-09-01T16:00:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
-  // Monday EVENING re-lead: the lead is Bradley Barcola officially SIGNED and announced
-  // (guaranteed GBP106m rising to GBP123m, five years, No. 29), with the Cody Gakpo sale
-  // to Manchester City called off hours later after their GBP75m+5m was rejected. Under
-  // STEP 7.5 the announcement itself is text on a website, not a moment: there was no
-  // unveiling, no kit shot, no signing ceremony released and no on-pitch hero, and the
-  // Gakpo half is a rejected bid, which is by definition unphotographable. So NO cover
-  // image is requested this edition and the render stays on the pure-type fallback
-  // (src null). generatedAt is still re-stamped as the cache-buster (COVER-00001).
+  // Deadline-day lead: Arthur Melo signed on a season-long loan from Juventus, the central
+  // midfielder the club spent a fortnight insisting it would not sign, with Upamecano lost
+  // to fresh Bayern terms the day's biggest miss. Under STEP 7.5 a deadline-day loan
+  // agreement is text on a website, not a moment: no unveiling, no kit shot, no signing
+  // ceremony released and no on-pitch hero, and the Upamecano half is a target lost to a
+  // rival, which is by definition unphotographable. So NO cover image is requested this
+  // edition and the render stays on the pure-type fallback (src null). generatedAt is
+  // still re-stamped as the cache-buster (COVER-00001).
   brief: {
     leadStory:
-      "Liverpool officially announced Bradley Barcola on Monday afternoon, around thirty-two hours before the deadline: a guaranteed GBP106m rising to GBP123m with add-ons, a five-year contract and the No. 29 shirt, the second-largest fee in the club's history behind Isak. By Monday evening David Ornstein reported the Cody Gakpo saga over, Manchester City's GBP75m plus GBP5m rejected and the pursuit called off, because Palace would not sell Sarr and Brighton would not come below GBP70m for Minteh, so the replacement the sale was conditional on never arrived. Liverpool also agreed 2027 deals for Saint-Etienne's Djylian N'Guessan and Genk goalkeeper Lucca Brughmans, and signed 16-year-old Celtic centre-back Dara Jikiemi. Harvey Elliott flew to Valencia for a medical.",
+      "On deadline day Liverpool agreed a season-long loan for Juventus midfielder Arthur Melo, a fee reported around EUR4.5m with the buy option disputed, the thirty-year-old Brazilian passing a medical and signing to patch the hole Curtis Jones's EUR35m sale to Inter left. It ended a fortnight of senior sources insisting no central midfielder would arrive, and marks a strange return for a player who was on loan at Anfield in 2022 for a single thirteen-minute appearance. The window's other decisions came from deals that did not happen: Dayot Upamecano, the centre-back chased across two windows, signed fresh terms at Bayern, leaving a thin back line pinned to Joe Gomez's return at Ipswich on Friday. Giorgi Mamardashvili stays as Alisson's deputy, Ifeanyi Ndukwe went to Levante on loan, and Harvey Elliott's Valencia loan completed. Above it all the record still stands, Bradley Barcola registered on Monday and in line for a debut.",
     subject: null,
     prompt: null,
     aspectRatio: "portrait",
@@ -442,10 +442,9 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-08-30 — live 2026-27 table, matchweek 2. Matches ESPN's current feed
-// (some sides still on one game played until this weekend's fixtures catch up). Liverpool 11th
-// on 2 points from two draws. Table unchanged since Saturday's round; next Liverpool fixture is
-// Ipswich away on Friday 4 September, so no on-pitch movement this refresh.
+// Last refresh: 2026-09-01 — live 2026-27 table, matchweek 2. Matches ESPN's current feed.
+// Liverpool 13th on 2 points from two draws. Table unchanged since Saturday's round; next
+// Liverpool fixture is Ipswich away on Friday 4 September, so no on-pitch movement this refresh.
 export const STANDINGS = [
   { pos: 1, team: "Manchester City", p: 2, w: 2, d: 0, l: 0, gd: 4, pts: 6, qualification: "UCL" },
   { pos: 2, team: "Arsenal", p: 2, w: 2, d: 0, l: 0, gd: 4, pts: 6, qualification: "UCL" },
@@ -479,18 +478,18 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 2,
-  generatedAt: "2026-08-31T22:15:00Z",
+  generatedAt: "2026-09-01T16:00:00Z",
   overview:
-    "The table sat still on Monday while the market emptied itself around it. Manchester City remain top on six with Arsenal level and a promoted Hull third on the same points, which sharpens the evening's news rather than softening it: the club setting the pace is the club that spent the day trying to buy Cody Gakpo, and went home without him. Chelsea are fourth, also on six, and Brentford lead the chasing group on four. Liverpool are thirteenth on two points from two 2-2 draws, a goal difference of nothing, no lead held at any point this season, and a place and a point below Ipswich Town, who host them at Portman Road on Friday. At the bottom Fulham, Coventry, Crystal Palace, Aston Villa and Tottenham have taken nothing from two, with Palace's refusal to sell all summer looking less like leverage than like need.",
+    "The table is frozen through deadline day, no side having played since Saturday, and it holds until this weekend's fixtures land. Manchester City lead on six with Arsenal and a promoted Hull level on points, Chelsea fourth on the same six, and Brentford top of the chasing pack on four. Liverpool sit thirteenth on two points from two 2-2 draws, a goal difference of nothing and not a minute spent in front all season, a place and a point below Ipswich Town, who host them at Portman Road on Friday. At the foot Fulham, Coventry, Crystal Palace, Aston Villa and Tottenham have all taken nothing from two, three of them already in the relegation places on goal difference. Liverpool spent the day the table stood still signing Arthur Melo on loan, the midfielder that may yet decide whether thirteenth is a floor or a level.",
   teams: {
-    "Liverpool": "Thirteenth on two points from two 2-2 draws, unbeaten and yet to lead a minute. Barcola was registered on Monday for a guaranteed £106m; Gakpo stays after City's £80m was rejected, and the search for a second winger ended in nothing.",
+    "Liverpool": "Thirteenth on two points from two 2-2 draws, unbeaten and yet to lead a minute. Arthur Melo arrived on loan from Juventus on deadline day to patch the midfield; the £106m Barcola was registered Monday, and Gakpo stays after City's £80m was rejected.",
     "Manchester City": "Top on six with a maximum and a plus-four difference, and beaten in the market on deadline eve: their £75m plus £5m for Gakpo was turned down and the pursuit called off.",
     "Arsenal": "Second on six, level with City on points and goal difference, two wins from two and quietly the least-discussed perfect start in the division.",
     "Hull": "Third on six, two wins from two on their return to the top flight, comfortably the story of the opening fortnight.",
     "Chelsea": "Fourth on six and unbeaten, and a late complication in Liverpool's midfield planning after weighing an offer of their own for Bournemouth's Alex Scott.",
     "Brentford": "Fifth on four and unbeaten, a plus-three difference bettered only by the sides above them.",
     "Ipswich": "Twelfth on three, a place and a point above Liverpool and hosting them on Friday. Gary O'Neil was beaten 5-2 at Manchester United and is without Matusiwa, Taylor and Philogene-Bidace.",
-    "Bournemouth": "Fourteenth on one, still holding Rayan's £130m clause and Alex Scott, whom Liverpool have identified but deferred rather than bought.",
+    "Bournemouth": "Fourteenth on one, still holding Rayan's £130m clause and Alex Scott, the £90m midfielder Liverpool's deadline-day loan of Arthur Melo parks rather than solves.",
     "Nott'm Forest": "Fifteenth on one, the point taken at Anfield on Saturday the difference between this and nothing.",
     "Crystal Palace": "Eighteenth and pointless, and immovable on Ismaila Sarr all window despite the winger pushing to join Liverpool. Refusing to sell while losing twice is a hard fortnight to explain.",
     "Brighton": "Ninth on three, and unmoved at £70m for Yankuba Minteh while Liverpool would not go beyond £60m, which is how the Gakpo sale came to die.",
@@ -501,154 +500,192 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Thirty-Two Hours From The Bell, The Record Signing Lands.",
-    byline: "Sky Sports / Liverpool FC",
-    dateline: "Anfield · 31 August",
+    headline: "The Midfielder They Swore Would Not Come, Signed In The Last Hours.",
+    byline: "ESPN / Sky Sports",
+    dateline: "Merseyside · 1 September",
     category: "Transfers",
     body:
-      "It went up on a Monday afternoon, without ceremony, about thirty-two hours before the window closed: Bradley Barcola, twenty-three, of Paris Saint-Germain, on a five-year contract for a guaranteed £106m that add-ons can carry to £123m. Only Alexander Isak has cost Liverpool more. The number on his back is the story he wanted to tell first, No. 29, chosen years ago while playing FIFA as a boy and promised to himself for the day he turned professional. He said Anfield and Andoni Iraola made the decision easy, that the manager told him he was counted on. The paperwork closed a pursuit that had run most of the summer.",
+      "For a fortnight the line held: no central midfielder, the focus on the flanks, Trey Nyoni ready for the room Curtis Jones left. On deadline day it broke. Arthur Melo, thirty, arrives on a season-long loan from Juventus for a fee near €4.5m, medical passed and contract signed, with the reporting split on whether any option to buy sits underneath it. He has been here before, on loan in 2022, when he managed thirteen minutes off the bench at Napoli and never played again. This is a stranger homecoming than that one, a name recalled from a footnote to fill a gap the club insisted it did not have.",
   },
   {
     n: "02",
-    headline: "And Then, By Evening, The Sale That Was Supposed To Follow It Died.",
-    byline: "David Ornstein / Football365",
-    dateline: "Merseyside · 31 August",
+    headline: "The Centre-Back Chased For Two Windows Signs New Terms, At Bayern.",
+    byline: "TeamTalk / ESPN",
+    dateline: "Munich · 1 September",
     category: "Transfers",
     body:
-      "Cody Gakpo is staying. David Ornstein reported on Monday night that Manchester City's offer, £75m with £5m in add-ons, had been rejected and the conversation ended by direct contact between the clubs. The player had agreed personal terms at the weekend and wanted to go. Liverpool's condition never wavered across a fortnight of it: nobody leaves the flank until somebody arrives to fill it. Nobody arrived. So the man who spun his marker at Anfield on Saturday will be at Portman Road on Friday, and Virgil van Dijk, who asked publicly for exactly this outcome, got it for reasons that had nothing to do with him.",
+      "Some deadline days are decided by the deals that do not happen. Dayot Upamecano, long the defender Liverpool wanted and lately the free transfer they hoped to prepare for, agreed fresh terms with Bayern Munich on Tuesday and took himself off the market altogether. Liverpool, Chelsea and Tottenham were all sounded out on outline terms; all three were left with nothing. It closes a pursuit that had outlasted the Guehi one, and it leaves a back line that reads Van Dijk, Jacquet and the loanee Araujo staring at a season without the partner it spent two summers looking for. The relief, if there is one, wears a training bib and is called Joe Gomez.",
   },
   {
     n: "03",
-    headline: "Two Doors, Both Bolted: Palace Never Meant To Sell, Brighton Never Blinked.",
-    byline: "TeamTalk / FootballTransfers",
-    dateline: "Selhurst Park · 31 August",
-    category: "Transfers",
+    headline: "The Goalkeeper Stays, The Fringe Go: A Quiet Emptying Of The Bench.",
+    byline: "Fabrizio Romano / This Is Anfield",
+    dateline: "Merseyside · 1 September",
+    category: "Football News",
     body:
-      "The failure is worth naming precisely, because it decided everything else. Ismaila Sarr wanted the move and pushed for it, twenty-one goals in forty-five games behind him, and Crystal Palace were reported on Monday to have had no intention of selling at any stage of the window, a pointless side unwilling to be made worse in the last hours of it. Brighton, meanwhile, sat at £70m for Yankuba Minteh and watched Liverpool decline to go past £60m. Two negotiations, neither of which moved a pound in a fortnight. The winger who stays owes his shirt to the two who would not come.",
+      "The deadline sorted the edges of the squad rather than the middle of it. Giorgi Mamardashvili, shopped all summer as a loan and never taken, stays as Alisson's deputy for a year the club will spend deciding whether Lucca Brughmans is the succession. Ifeanyi Ndukwe goes the other way, a straight loan to Levante agreed with the Spanish side covering his wage, one more of the up-to-eight exits FSG sanctioned. Kostas Tsimikas waits on Besiktas in a window that runs past England's. None of it is glamorous. All of it is the housekeeping a summer of eleven departures still had left to do.",
   },
   {
     n: "04",
-    headline: "While The Front Page Argued, The Club Was Quietly Buying 2027.",
-    byline: "Fabrizio Romano / This Is Anfield",
-    dateline: "Merseyside · 31 August",
-    category: "Football News",
+    headline: "A Back Line Holding Its Breath On One Man's Hamstring.",
+    byline: "The Athletic / Liverpool.com",
+    dateline: "Kirkby · 1 September",
+    category: "Injuries",
     body:
-      "Underneath the noise, three teenagers. Djylian N'Guessan, eighteen on Sunday, was given the green light from Saint-Etienne at a fee reported around €5m and will be loaned straight back until the summer of 2027, a forward who can play centrally or wide with thirteen senior appearances already behind him. Lucca Brughmans, an eighteen-year-old goalkeeper at Genk, has an agreement and a medical cleared, also for 2027. And Dara Jikiemi, sixteen, a centre-back who captained Celtic's youth teams and played for Scotland at under-15 and under-16, announced himself by posting the photographs. None of them help on Friday. All of them were the plan.",
+      "With Upamecano gone and no defender bought, the season now leans on a recovery. Joe Gomez, who missed the opening two league games with the muscle problem taken at Sunderland, has trained fully with the group and is pushing to be involved at Portman Road on Friday, which would give Iraola a fourth senior centre-back for the first time this season. Behind him the cupboard is bare: Giovanni Leoni is out, the academy is years away, and Araujo is a loan that must last. A defence built on Van Dijk and a hope is a thin thing to carry into September, and everyone at Kirkby knows it.",
   },
   {
     n: "05",
-    headline: "Backing The Verdict, Distrusting The Trial: A Window Called Farcical.",
+    headline: "Eleven Out, A Record And A Loan In: The Summer Iraola Now Owns.",
     byline: "This Is Anfield / TeamTalk",
-    dateline: "Anfield · 31 August",
-    category: "Race for Europe",
+    dateline: "Anfield · 1 September",
+    category: "Manager",
     body:
-      "Supporters gathered on Monday to welcome the news and condemn the process that produced it. The word used most was farcical: a summer that sold Mohamed Salah, Ibrahima Konate, Andy Robertson and Curtis Jones, spent a club-record fee on one winger, and then spent a fortnight trying to buy a second so it could sell the one playing best. Jamie Carragher, in the same news cycle, told FSG to move Wataru Endo on and gently noted that a captain's loyalty is not a recruitment plan. Two draws, thirteenth, a goal difference of nothing, not a minute of the season spent in front. Friday is the answer to all of it.",
+      "It ends the way it was always going to, past eleven on a Tuesday night, and the ledger is stark. Out went Salah, Konate, Robertson and Jones from the title-winning core, plus Elliott to Valencia and a procession of the fringe. In came Munoz, Araujo on loan, a club-record £123m for Barcola, and, at the last, Arthur on a season's loan to patch the middle the club had said it would leave alone. Andoni Iraola inherits a squad remade around him and a table that reads thirteenth, two draws, not a minute spent in front. Friday at Ipswich is where the talking stops and the answering starts.",
   },
 ];
 
 export const NEWS_DIGEST = {
-  generatedAt: "2026-08-31T22:15:00Z",
+  generatedAt: "2026-09-01T16:00:00Z",
   summary:
-    "Monday evening, and the record signing is no longer a rumour. Liverpool announced Bradley Barcola on Monday afternoon, around thirty-two hours before the window shuts: a guaranteed £106m rising to £123m, a five-year deal, and the No. 29 the France winger says he chose as a teenager playing FIFA. Within hours the other half of the week collapsed the other way. David Ornstein reported the Cody Gakpo saga over, Manchester City's offer of £75m plus £5m rejected and the move called off, which grants Van Dijk's Saturday plea by accident rather than by argument: Liverpool could not land the second winger the sale was conditional on. Crystal Palace never intended to sell Ismaila Sarr, Brighton would not come below £70m for Yankuba Minteh against Liverpool's £60m, and when both doors shut the way out shut with them. Elsewhere the club spent the evening buying 2027, a Romano green light for Saint-Etienne's Djylian N'Guessan at a reported €5m with an immediate loan back, an agreement for Genk goalkeeper Lucca Brughmans, and sixteen-year-old Celtic centre-back Dara Jikiemi posting his own signing photographs. Harvey Elliott flew to Spain for a Valencia medical. Thirteenth on two points, Portman Road on Friday, and the English window closes at eleven on Tuesday night.",
+    "Deadline day, and the club that spent a fortnight insisting it needed no midfielder has signed one. Liverpool agreed a season-long loan for Juventus's Arthur Melo on Tuesday, a fee reported around €4.5m with the buy option disputed, the thirty-year-old Brazilian passing a medical and signing to patch the hole Curtis Jones left when Inter paid €35m for him in August. It is a curious homecoming: Arthur was here on loan in 2022 and managed thirteen minutes off the bench before disappearing from the picture. The window's other decisions were made by the deals that did not happen. Dayot Upamecano, the centre-back chased across two windows, agreed fresh terms at Bayern and took the last defensive option off the table, leaving a thin back line pinned to Joe Gomez's return at Ipswich on Friday. Giorgi Mamardashvili stays as Alisson's deputy after a summer of unwanted loan offers, Ifeanyi Ndukwe goes to Levante on loan, and Kostas Tsimikas waits on a Besiktas window that runs past England's. Above it all the record still stands, Bradley Barcola registered on Monday and in line for a debut. Thirteenth on two points, Portman Road on Friday, and the English window shuts at eleven tonight.",
   keyTopics: [
     {
-      title: "Signed: Barcola Announced At £106m Rising To £123m, Five Years, No. 29 (Sky Sports / Liverpool FC, today)",
+      title: "Signed: Arthur Melo Joins On Loan From Juventus, The Midfielder They Said Was Not Coming (ESPN / Sky Sports, today)",
       detail:
-        "It posted on Monday afternoon, roughly thirty-two hours before the deadline. Liverpool confirmed Bradley Barcola from Paris Saint-Germain for a guaranteed £106m with add-ons taking it to £123m, on a five-year contract, the second-largest fee in the club's history behind the £125m paid to Newcastle for Alexander Isak in 2025. He becomes Andoni Iraola's third major summer arrival after Victor Munoz and Ronald Araujo, and in his first interview credited Anfield and the manager with making the decision easy: Iraola, he said, told him his quality was a real plus and that he was counting on him.",
+        "The reversal landed on deadline day. Liverpool agreed a season-long loan for Arthur Melo, the thirty-year-old Brazil midfielder, a fee reported around €4.5m with the reporting divided on whether any option to buy sits underneath it. He passed a medical on Merseyside and signed, ending a fortnight in which senior sources insisted no central midfielder would arrive. The context is the hole Curtis Jones left when Inter paid €35m for him in August. Arthur has worn the shirt before, on loan in 2022, when he managed thirteen minutes off the bench at Napoli and never played again, which makes this less a signing than a second chance nobody had pencilled in.",
       category: "transfers",
     },
     {
-      title: "Ornstein: The Gakpo Saga Is Over, City's £80m Rejected, He Stays (David Ornstein / Football365, today)",
+      title: "Upamecano Signs Fresh Bayern Terms, And Liverpool's Two-Window Centre-Back Chase Ends With Nothing (TeamTalk / ESPN, today)",
       detail:
-        "The reversal arrived on Monday evening. David Ornstein reported that Manchester City's offer, £75m guaranteed plus £5m in add-ons, was turned down and the pursuit called off through direct contact between all parties. Gakpo had been keen and personal terms had been agreed at the weekend, but Liverpool's condition never changed, no exit without a replacement, and no replacement came. The captain's Saturday intervention now reads as prophecy rather than lobbying. Contracted to 2030, and staying at a club that spent the last fortnight quietly preparing to sell him.",
+        "The defender got away on Tuesday. Dayot Upamecano, long a Liverpool target and lately the free transfer they hoped to line up for next summer, agreed new terms with Bayern Munich and removed himself from the market. Liverpool, Chelsea and Tottenham were all given outline terms and all three left empty-handed. It closes a pursuit that outlasted the Guehi one and leaves the senior back line reading Van Dijk, Jacquet and the loanee Araujo, with no permanent defender bought all summer and the whole department now leaning on Joe Gomez's fitness.",
       category: "transfers",
     },
     {
-      title: "Why He Stays: Palace Never Meant To Sell Sarr, Brighton Never Came Off £70m (TeamTalk / FootballTransfers, today)",
+      title: "Gomez Back In Full Training, Targeting An Ipswich Return That The Defence Badly Needs (The Athletic / Liverpool.com, today)",
       detail:
-        "The sale died where the shopping died. Crystal Palace, reported on Monday to have had no intention of selling at any point, held their line on Ismaila Sarr despite the 28-year-old pushing hard for the move after twenty-one goals in forty-five games last season. Brighton stayed at £70m for Yankuba Minteh while Liverpool never went beyond £60m. Two rejected pursuits, one unsold winger, and a straight line from the failure of the first to the survival of the second.",
-      category: "transfers",
+        "The season leans on a hamstring. Joe Gomez, who missed both opening league games with the muscle problem taken at Sunderland, has trained fully with the group and is pushing to be involved at Portman Road on Friday. With Upamecano gone, Leoni out and no defender signed, his return would give Iraola a fourth senior centre-back for the first time this season. AC Milan interest never hardened into a bid and The Athletic report Liverpool are content to let his deal run to 2027 rather than force a sale, which a thin back line settles for them.",
+      category: "injuries",
     },
     {
-      title: "Here We Go, For 2027: N'Guessan Agreed At €5m And Loaned Straight Back (Fabrizio Romano / This Is Anfield, today)",
+      title: "Mamardashvili Stays As Alisson's Deputy After A Summer Of Unwanted Loan Offers (Rousing The Kop / This Is Anfield, today)",
       detail:
-        "Buying the year after next, on the eve of the deadline. Fabrizio Romano gave the green light on Monday for Djylian N'Guessan, the Saint-Etienne forward who turned eighteen on Sunday, at a fee James Pearce put at around €5m. Personal terms are agreed with the France U20 international, who can play centrally or off either flank and has already made thirteen senior appearances, and he will be loaned back to Saint-Etienne until the summer of 2027. It is the recruitment department working on a horizon the rest of the window has not had time for.",
-      category: "transfers",
-    },
-    {
-      title: "A Goalkeeper And A Sixteen-Year-Old: Brughmans And Jikiemi Fill The Quiet Column (Fabrizio Romano / DaveOCKOP, today)",
-      detail:
-        "Two more arrivals nobody was tracking. Romano also reported an agreement and a medical green light for Lucca Brughmans, the eighteen-year-old Genk goalkeeper, another signing earmarked for 2027 rather than now. And Dara Jikiemi, the sixteen-year-old centre-back who captained Celtic's youth sides and has represented Scotland at under-15 and under-16 level, confirmed the move himself on Monday by posting photographs of the signing, a deal first explored in December 2025 and stalled repeatedly since. The club announcement is expected imminently.",
-      category: "transfers",
-    },
-    {
-      title: "Elliott Flies To Spain: Valencia Medical, A Season Loan With No Option Until June (Goal / Liverpool.com, today)",
-      detail:
-        "The exit that had been coming all week got its aeroplane. Harvey Elliott travelled to Spain on Monday for a Valencia medical, the loan agreed in principle and running the length of 2026/27, structured without an option to buy before June. The 23-year-old chose Mestalla over interest from Napoli and Lazio after barely featuring under Iraola, and the wording of the deal, a loan with the purchase question deferred rather than answered, is the tell: neither club has yet decided whether this is a departure or a detour.",
-      category: "transfers",
-    },
-    {
-      title: "Carragher Turns On The Window: Move Endo On, And A Word About Van Dijk's Appeal (TeamTalk, today)",
-      detail:
-        "The pundit's verdict landed alongside the club's. Jamie Carragher used Monday to tell FSG they should be moving Wataru Endo on at 33, and responded to Van Dijk's weekend appeal over Gakpo with the observation a dressing room rarely makes out loud, that a captain's loyalty is a fine reason to want a team-mate kept but is not by itself a recruitment strategy. Endo has been made available with Wolves, Fulham and West Ham all told he can go, and no agreement had emerged by Monday night.",
+        "The goalkeeping question is deferred rather than answered. After shopping Giorgi Mamardashvili to Juventus, Inter, Fiorentina and Besiktas without a taker on terms it liked, Liverpool keep the Georgian as backup for a season, his Anfield career widely reported as effectively over even so. Alisson started again at Anfield on Saturday and the order is settled. The eighteen-year-old Genk goalkeeper Lucca Brughmans, agreed for 2027, is the real succession plan, which makes this year a holding pattern more than a competition.",
       category: "general",
     },
     {
-      title: "'Farcical': Supporters Back The Gakpo Call And Still Do Not Like The Window (This Is Anfield, today)",
+      title: "Ndukwe To Levante On Loan As FSG Keeps Emptying The Fringe (Fabrizio Romano, today)",
       detail:
-        "Relief, arriving with its arms folded. Fan reaction gathered on Monday found supporters largely welcoming the news that Gakpo will stay while describing the window that produced it as farcical, a summer in which the club sold Salah, Konate, Robertson and Jones, spent a record fee on one winger, then spent a fortnight failing to buy another so it could sell the one playing best. Backing the outcome and distrusting the process is a specific kind of August mood, and Anfield is in it.",
-      category: "general",
+        "The clear-out kept moving in the final hours. Fabrizio Romano reported Ifeanyi Ndukwe's loan to Levante agreed, a straight season loan with the Spanish club covering the young defender's wage, one more of the up-to-eight exits the club was willing to sanction. It follows Elliott to Valencia, Bajcetic's return to Celta and Ramsay to St Mirren, part of an outgoing column that has run far longer than the incoming one all window. Wataru Endo, made available to Wolves, Fulham and West Ham, remained without a mover as the day wore on.",
+      category: "transfers",
     },
     {
-      title: "The Table Did Not Move While The Market Emptied Itself (ESPN, today)",
+      title: "Alex Scott Parked: Arthur's Arrival Buys Time On The £90m Midfield Target (This Is Anfield / Yahoo Sports, today)",
       detail:
-        "The standings did not move while the market did. Two draws from two leave Liverpool thirteenth on two points with a goal difference of nothing and not one minute of the season spent in front, a place and a point beneath Friday's hosts. Manchester City lead on six, level with Arsenal and a promoted Hull, which is the sting under the whole Gakpo affair: the club at the top was the club doing the shopping, and it went home without him. Palace and Tottenham, both pointless, sit in the relegation places.",
-      category: "matches",
-    },    {
-      title: "The Six They Are Not Signing: No Midfielder, And Nyoni Told To Step Up (This Is Anfield / Yahoo Sports, 1d ago)",
-      detail:
-        "The hole stays open by choice. Senior club sources maintained through Monday that Liverpool will not sign a central midfielder before the deadline despite the gaps the Newcastle draw exposed, the focus staying on wide areas throughout. Curtis Jones, sold to Inter in August for a package worth €35m, will not be replaced: the club regard teenager Trey Nyoni as ready for a larger role. Bournemouth's Alex Scott remains the identified long-term target, complicated now by a late Chelsea interest of their own.",
+        "The loan quiets a longer question. Bournemouth's Alex Scott, named this window as Liverpool's top defensive-midfield target and priced near £90m the club could not pay, becomes a problem for a future window now that Arthur Melo covers the middle for a year. Bournemouth had already rejected a Chelsea bid near £85.6m and declined to value him, and Liverpool's own framing sat nearer £40m. Trey Nyoni, told earlier in the window he would step into Jones's room, now shares it with a thirty-year-old on loan instead.",
       category: "tactics",
     },
     {
-      title: "Portman Road, Friday: O'Neil's Ipswich Above Them, And A Debut To Decide (Liverpool FC / Brit Brief, 1d ago)",
+      title: "Barcola Registered And In Line For A Debut At Portman Road (Sky Sports / Liverpool FC, today)",
       detail:
-        "The football resumes the day after the window shuts. Liverpool travel to Gary O'Neil's Ipswich Town on Friday night looking for a first win of the season, against hosts who sit twelfth on three points, a place and a point above them, and who were beaten 5-2 at Manchester United last time out. O'Neil is without Azor Matusiwa, Jack Taylor and Jaden Philogene-Bidace, and awaits news on striker Emersonn. Barcola, registered on Monday, now has four days on the training ground before Iraola decides whether to start him.",
+        "The record signing waits on a first appearance. Bradley Barcola, confirmed on Monday for a guaranteed £106m rising to £123m on a five-year deal, was registered in time to feature at Ipswich on Friday, giving Iraola his marquee winger from the bench if not the start. He chose the No. 29 and, in his first interview, credited Anfield and the manager with making the move easy. Andoni Iraola's third major arrival after Victor Munoz and Ronald Araujo, and the £123m end of a rebuild that has otherwise leaned on loans.",
+      category: "transfers",
+    },
+    {
+      title: "The Table Held While The Window Emptied: Thirteenth, And Below Friday's Hosts (ESPN, today)",
+      detail:
+        "No football was played, and nothing moved. Two draws from two leave Liverpool thirteenth on two points with a goal difference of nothing and not one minute spent in front, a place and a point beneath Ipswich, who host them on Friday. Manchester City lead on six, level with Arsenal and a promoted Hull, the same City that spent deadline eve failing to buy Gakpo. Fulham, Coventry, Palace, Villa and Tottenham are all pointless, and the relegation places already have names in them.",
       category: "matches",
     },
     {
-      title: "Alisson Stays, Mamardashvili Goes Out: The Goalkeeping Question Deferred (TeamTalk / Rousing The Kop, 1d ago)",
+      title: "Eleven Out, A Record And A Loan In: The Shape Of Iraola's Window (This Is Anfield / TeamTalk, today)",
       detail:
-        "The succession has been postponed rather than cancelled. With Alisson staying, Liverpool moved to send Giorgi Mamardashvili out on loan rather than sell, a Besiktas proposal among those lodged, and the reporting around him on Monday was blunt: his Anfield career looks finished whether or not a deal completes before eleven on Tuesday. The Brughmans agreement, an eighteen-year-old goalkeeper contracted to arrive in 2027, suggests the club has already started answering the question a different way.",
+        "The summer's arithmetic is finally fixed. Out went Salah, Konate, Robertson and Jones from the title-winning core, Elliott to Valencia, Bajcetic to Celta and a run of the fringe. In came Victor Munoz, Ronald Araujo on loan, the club-record Barcola, and, at the last, Arthur to patch the middle. No permanent defender, no marquee midfielder, a lot of loans, and a captain in Van Dijk on a deal that still runs only to 2027. It is a squad remade around Andoni Iraola, and the table says thirteenth while it settles.",
       category: "general",
+    },
+    {
+      title: "Gakpo Stays And Turns To Friday After City's Bid Was Called Off (David Ornstein / Football365, 1d ago)",
+      detail:
+        "Monday's collapse now reads as settled. Manchester City's £75m plus £5m for Cody Gakpo was rejected and the pursuit called off, the Dutchman staying because Liverpool would not let him leave without a winger to replace him, and none arrived. Palace never meant to sell Ismaila Sarr and Brighton would not move off £70m for Yankuba Minteh. Contracted to 2030, Gakpo spun his marker to set up little on Saturday and is now among the fittest attacking options Iraola carries to Portman Road.",
+      category: "transfers",
+    },
+    {
+      title: "Portman Road, Friday: O'Neil's Ipswich A Place Above Them, And New Faces To Bed In (Liverpool FC / Brit Brief, 1d ago)",
+      detail:
+        "The football resumes the day after the window shuts. Liverpool travel to Gary O'Neil's Ipswich Town on Friday night looking for a first win of the season, against hosts twelfth on three points, a place and a point above them, beaten 5-2 at Manchester United last time out. O'Neil is without Azor Matusiwa, Jack Taylor and Jaden Philogene-Bidace and awaits news on striker Emersonn. Barcola and Arthur both arrive with days on the training ground rather than weeks, which is Iraola's first selection puzzle of the season.",
+      category: "matches",
+    },
+    {
+      title: "Elliott Completes Valencia Loan, The Purchase Question Deferred To June (Goal / Liverpool.com, 1d ago)",
+      detail:
+        "One of the summer's cleaner exits closed on the eve of the deadline. Harvey Elliott completed his move to Valencia on a loan running the length of 2026/27, deliberately structured without an option to buy before June, after flying to Spain for a medical. The 23-year-old chose Mestalla over Napoli and Lazio having barely featured under Iraola. The shape of the deal is the tell: a loan that puts off the decision rather than making it, leaving both clubs a year to work out whether this was a departure or a detour.",
+      category: "transfers",
     },
 
   ],
   sources: [
+    "ESPN",
     "Sky Sports",
+    "The Athletic",
+    "TeamTalk",
     "David Ornstein",
     "Football365",
     "Fabrizio Romano",
     "This Is Anfield",
-    "TeamTalk",
-    "FootballTransfers",
+    "Rousing The Kop",
     "Liverpool FC",
     "Liverpool.com",
     "Goal",
-    "DaveOCKOP",
-    "Rousing The Kop",
     "Yahoo Sports",
-    "ESPN",
     "Brit Brief",
   ],
 };
 
 
 export const TRANSFER_TARGETS = {
-  generatedAt: "2026-08-31T22:15:00Z",
+  generatedAt: "2026-09-01T16:00:00Z",
   summary:
-    "The ledger closed its biggest line on Monday afternoon and then watched the one beneath it collapse. Bradley Barcola is a Liverpool player, announced at a guaranteed £106m rising to £123m on a five-year deal with the No. 29, the second-largest fee in the club's history, and the entry moves to done after a summer at the top of this board. By Monday evening the sale it was supposed to enable had died: David Ornstein reported Manchester City's £75m plus £5m for Cody Gakpo rejected and the pursuit called off, because the second winger never came. Crystal Palace, it emerged, never intended to sell Ismaila Sarr at any point; Brighton did not move off £70m for Yankuba Minteh against Liverpool's £60m; Pedro Neto and Rayan were always priced for a different window. All four now read as tombstones rather than live files. What the club did buy instead was the year after next: Saint-Etienne's Djylian N'Guessan agreed at a reported €5m and loaned straight back until 2027, Genk goalkeeper Lucca Brughmans cleared for a medical, and sixteen-year-old Celtic centre-back Dara Jikiemi announcing himself on Instagram. Out, Harvey Elliott flew to Valencia for a medical on a season-long loan with no option before June, Endo remains available with no taker, Bajcetic is bound for Celta and Mamardashvili for a loan. No central midfielder is coming. Ligue 1 has shut; England closes at eleven on Tuesday night.",
+    "The board's last entry was the one it swore it would never write. On deadline day Liverpool agreed a season-long loan for Juventus midfielder Arthur Melo, a fee near €4.5m with the buy option disputed, ending a fortnight of senior sources insisting no central midfielder would come and quietly answering the hole Curtis Jones's €35m sale left. It joins the summer's headline, Bradley Barcola, a Liverpool player at a guaranteed £106m rising to £123m, at the top of a done column. The centre-back the club actually needed got away: Dayot Upamecano signed fresh terms at Bayern on Tuesday, closing a two-window chase and leaving a back line pinned to Joe Gomez's return. Out, Harvey Elliott's Valencia loan completed, Ifeanyi Ndukwe went to Levante, Bajcetic is bound for Celta, Endo is available with no taker, and Giorgi Mamardashvili stays as Alisson's deputy after a summer of loan offers nobody met on terms. Cody Gakpo stays, Manchester City's £80m rejected and the pursuit called off. Ligue 1 has shut; England closes at eleven on Tuesday night.",
   incoming: [
+    {
+      id: "arthur-2026",
+      name: "Arthur Melo",
+      age: 30,
+      position: "MID",
+      role: "Central / deep-lying midfielder",
+      nationality: "🇧🇷 Brazil",
+      foot: "Right",
+      image: null,
+      currentClub: "Juventus",
+      currentLeague: "Serie A",
+      feeMin: 4, feeMax: 5, feeCurrency: "€m",
+      marketValue: 8,
+      wageBand: "B",
+      contractExpiry: "2027-06-30",
+      releaseClause: null,
+      contractNote: "Signed, on loan. The deadline-day answer to a hole the club spent a fortnight saying it would not fill, a season-long loan from Juventus for a fee reported around €4.5m, with the reporting split on whether any option to buy sits underneath it (figures near €37.5m cited by some, no option by others). The thirty-year-old Brazil international is a deep-lying playmaker rather than the £90m Alex Scott the club actually rates, and he has been here before, on loan in 2022, when he made one thirteen-minute substitute appearance and never featured again. He patches the middle vacated by Curtis Jones's €35m sale to Inter for a year, and buys time on the longer search.",
+      probability: 100,
+      heatTier: "done",
+      sources: [
+        { name: "ESPN",           tier: "S" },
+        { name: "Sky Sports",     tier: "A" },
+        { name: "CBS Sports",     tier: "A" },
+        { name: "Fabrizio Romano", tier: "S" },
+      ],
+      lastUpdated: "2026-09-01",
+      rumorNote:
+        "Merseyside · 1 Sept — the U-turn, in the last hours. For a fortnight the message was fixed: no central midfielder, the money going on the flanks, Trey Nyoni ready for the room Jones left. On deadline day it changed. Arthur Melo passed a medical on Merseyside and signed a season-long loan from Juventus, a fee near €4.5m, the buy option disputed in the reporting. It is a stranger return than a signing, a name recalled from a 2022 loan that produced thirteen minutes and no more, brought back at thirty to cover a gap the club had insisted it did not have. He gives Iraola a body in the middle for Friday and little else that is certain.",
+      positionFit: {
+        replaces: "Jones (sold to Inter, €35m)",
+        competesWith: ["Gravenberch", "Mac Allister", "Szoboszlai", "Endo", "Nyoni"],
+        depthAfter: "A one-year loan to patch central midfield while the Alex Scott search waits",
+      },
+      stats: {
+        apps: 22, goals: 0, assists: 2,
+        tacklesPer90: 1.7, passCompletion: 89,
+      },
+    },
     {
       id: "nguessan-2027",
       name: "Djylian N'Guessan",
@@ -1045,7 +1082,7 @@ export const TRANSFER_TARGETS = {
       ],
       lastUpdated: "2026-08-28",
       rumorNote:
-        "San Siro · 28 Aug — the value name on a lengthening list. With Gomez out around a month and the senior back line down to Van Dijk and Jacquet, Liverpool's search for a centre-back has widened, and Tomori is the cheap, Premier-League-proven option beside a fresh link to Bayern's Dayot Upamecano. Milan would let him go for €15m to €20m on the year he has left. Talks remain early rather than advanced, but the need is now urgent enough that a body before Tuesday, permanent or loan, has become the club's quiet second priority behind the winger.",
+        "San Siro · 1 Sept — the value name the window left on the shelf. Liverpool widened their centre-back search all summer, and Tomori was the cheap, Premier-League-proven option beside the fresher Upamecano link, but the deadline closed with no defender bought and Upamecano signing fresh terms at Bayern instead. Milan would have taken €15m to €20m on his final year; Liverpool never moved past early contact. The back line goes into September reading Van Dijk, Jacquet and the loanee Araujo, its fourth body dependent on Joe Gomez's return rather than on anything the market delivered. A cool file at the bell, and now a summer's regret in miniature.",
       positionFit: {
         replaces: "Konate (departed, free)",
         competesWith: ["Van Dijk", "Jacquet", "Araujo (loan cover in situ)"],
@@ -1756,7 +1793,7 @@ export const TRANSFER_TARGETS = {
       wageBand: "C",
       contractExpiry: "2029-06-30",
       releaseClause: null,
-      contractNote: "Named on Wednesday by multiple sources as Liverpool's top defensive-midfield target, and priced out of reach in the same breath: the fee that would make Bournemouth consider a sale is put around £90m, which the reporting says Liverpool cannot currently pay. Bournemouth had already turned down a Chelsea bid near £85.6m, declined to place a valuation on him, and seen him reject a fresh contract carrying a release clause. Liverpool's own early framing sat nearer £40m. The club's stated stance has not moved either, wingers before the deadline and no midfielder on the agenda, which is what makes this a named target rather than a live pursuit.",
+      contractNote: "Named this window by multiple sources as Liverpool's top defensive-midfield target, and priced out of reach in the same breath: the fee that would make Bournemouth consider a sale is put around £90m, which the reporting says Liverpool cannot currently pay. Bournemouth had already turned down a Chelsea bid near £85.6m, declined to place a valuation on him, and seen him reject a fresh contract carrying a release clause. Liverpool's own early framing sat nearer £40m. The deadline-day loan of Arthur Melo parks this rather than solves it, a one-year patch that keeps Scott a target for a future window rather than a live pursuit in this one.",
       probability: 26,
       heatTier: "cool",
       sources: [
@@ -2090,7 +2127,7 @@ export const TRANSFER_TARGETS = {
       probability: 70,
       heatTier: "warm",
       sources: [{ name: "Sky Sports", tier: "A" }, { name: "Yahoo Sports", tier: "B" }, { name: "Football Insider", tier: "B" }],
-      note: "Sun 30 Aug — made available, and the clubs are being told. Sources have Liverpool actively willing to let the 33-year-old go before Tuesday, informing a number of interested sides of his availability rather than waiting on calls, with Wolves, Fulham and West Ham the long-standing Premier League admirers. Behind a reshaped midfield and following Curtis Jones out of the middle third, his exit is one of as many as eight FSG will sanction and clears a wage toward the attack. The irony is not lost: a departing No. 6 as Kone stays wanted and unattainable, which is exactly why the sale, if it lands, sharpens the case for a late midfielder rather than settling it.",
+      note: "Tue 1 Sept — available to the last, and still without a mover. Liverpool spent the final hours willing to let the 33-year-old go, Wolves, Fulham and West Ham the long-standing admirers, but no agreement had surfaced as the clock ran down. Behind a reshaped midfield and following Curtis Jones out of the middle third, his exit was one of as many as eight FSG would sanction. Arthur Melo's deadline loan complicates rather than clears it: a body has arrived in the middle, so an Endo sale now reads as trimming the wage bill more than opening a hole, and Carragher's public nudge to move him on still hangs over the decision.",
     },
     {
       id: "tsimikas-out",
@@ -2107,23 +2144,34 @@ export const TRANSFER_TARGETS = {
       id: "elliott-out",
       name: "Harvey Elliott",
       position: "MID",
-      destination: "Valencia (season-long loan; medical Aug 31, no option to buy before June)",
+      destination: "Valencia (season-long loan completed Sep 1; no option to buy before June)",
       feeAsk: { min: 30, max: 50, currency: "£m" },
-      probability: 95,
-      heatTier: "hot",
+      probability: 100,
+      heatTier: "done",
       sources: [{ name: "Fabrizio Romano", tier: "S" }, { name: "Goal", tier: "A" }, { name: "CaughtOffside", tier: "B" }, { name: "SportBible", tier: "C" }],
-      note: "Mon 31 Aug — wheels up for the medical. Elliott flew to Spain on Monday to complete a Valencia loan agreed in principle, running the length of 2026/27 and deliberately structured without an option to buy before June. He chose Mestalla over interest from Napoli and Lazio after barely featuring under Iraola. The shape of the deal is the story: a loan that defers the purchase question rather than answering it, which leaves both clubs a year to decide whether this was a departure or a detour.",
+      note: "Tue 1 Sept — done, and gone to Mestalla. Elliott's Valencia loan completed on deadline day after Monday's medical, running the length of 2026/27 and deliberately built without an option to buy before June. He chose Valencia over Napoli and Lazio having barely featured under Iraola. The shape of the deal is the story: a loan that defers the purchase question rather than answering it, leaving both clubs a year to decide whether this was a departure or a detour. One of the cleaner exits in a summer full of them.",
     },
     {
       id: "mamardashvili-out",
       name: "Giorgi Mamardashvili",
       position: "GK",
-      destination: "Loan (Besiktas proposal lodged; earlier offers to Juventus, Inter, Fiorentina)",
+      destination: "Staying (loan offers unmatched; remains Alisson's deputy for 2026/27)",
       feeAsk: { min: 0, max: 0, currency: "€" },
-      probability: 64,
-      heatTier: "warm",
-      sources: [{ name: "Nicolo Schira", tier: "A" }, { name: "Football Italia", tier: "A" }, { name: "This Is Anfield", tier: "A" }],
-      note: "Sat 29 Aug \u2014 half of a Besiktas double, and still only a proposal. The \u20ac2m loan offer for the Georgian sits alongside the Turkish club's agreement with Tsimikas, an initial six months rather than the full season Liverpool had shopped unsuccessfully to Juventus, Inter and Fiorentina. Alisson started again at Anfield on Saturday, Iraola having batted away midweek social-media noise about a fresh setback, which is the whole of the argument: the order is settled and the deputy is idle. Liverpool still prefer a loan that protects the asset. It will be settled late, as these always are.",
+      probability: 10,
+      heatTier: "dead",
+      sources: [{ name: "Rousing The Kop", tier: "B" }, { name: "Nicolo Schira", tier: "A" }, { name: "This Is Anfield", tier: "A" }],
+      note: "Tue 1 Sept \u2014 shopped all summer, and staying anyway. The loan Liverpool wanted never landed on terms it liked: offers to Juventus, Inter, Fiorentina and Besiktas came and went, none matching the full-season protection the club sought for the asset. So the Georgian stays as Alisson's deputy for a year his Anfield career is widely reported to be quietly ending in, the eighteen-year-old Genk goalkeeper Lucca Brughmans agreed for 2027 as the real succession. Alisson started again at Anfield on Saturday and the order was never in doubt. A window that emptied the fringe left this one where it began.",
+    },
+    {
+      id: "ndukwe-out",
+      name: "Ifeanyi Ndukwe",
+      position: "DEF",
+      destination: "Levante (season-long loan; agreed Sep 1, wage covered)",
+      feeAsk: { min: 0, max: 0, currency: "€" },
+      probability: 100,
+      heatTier: "done",
+      sources: [{ name: "Fabrizio Romano", tier: "S" }, { name: "This Is Anfield", tier: "A" }],
+      note: "Tue 1 Sept — out on loan, on the last day. Fabrizio Romano reported the young defender's move to Levante agreed and verbally done, a straight season-long loan with the Spanish club covering his wage. It is deadline-day housekeeping, one more of the up-to-eight exits FSG sanctioned this window, and it sends a fringe body somewhere he will actually play. Not a headline, but part of the same long emptying that has run the outgoing column well past the incoming one all summer.",
     },
     {
       id: "ramsay-out",
@@ -2150,6 +2198,8 @@ export const TRANSFER_TARGETS = {
     "Liverpool.com",
     "Yahoo Sports",
     "Sky Sports",
+    "CBS Sports",
+    "Rousing The Kop",
   ],
 };
 
