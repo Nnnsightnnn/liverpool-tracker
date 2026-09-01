@@ -477,12 +477,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, deadline day, and the midfield the club swore it would
-          leave alone gets a body after all. <em>Arthur Melo</em> arrives on
-          loan from Juventus, four years after a thirteen-minute cameo nobody
-          remembers, the reinforcement Curtis Jones's sale was never meant to
-          have. Thirteenth, two draws, <em>Ipswich</em> on Friday, and the
-          window shuts at eleven tonight.
+          Eleven o'clock has come and gone, and the whole of Liverpool's
+          deadline day is a six-foot-seven eighteen-year-old who stays in
+          Belgium until 2027. <em>Lucca Brughmans</em> in, on loan back to
+          Genk the same hour; a late approach for <em>Malo Gusto</em> refused.
+          Thirteenth, two draws, <em>Ipswich</em> on Friday, and nothing left
+          to buy until January.
         </p>
 
         <StatStrip stats={stats} />
@@ -513,23 +513,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>{" "}
-              and the club that spent a fortnight insisting it needed no
-              midfielder signs one in the final hours. <em>Arthur Melo</em>,
-              thirty now, comes in on loan from Juventus for a fee near €4.5m
-              with no obligation to buy, a quiet answer to the hole Curtis Jones
-              left when Inter paid €35m for him in August. He arrives four years
-              after a first Liverpool loan that produced a single substitute
-              appearance and no memory of it, which is either sentiment or
-              need depending on the week you have had. Above him sits the record:
-              <em>Bradley Barcola</em>, £106m rising to £123m, registered on
-              Monday and in line for a debut at Portman Road on Friday. Cody
-              Gakpo stays, the sale to City having died for want of a replacement
-              that never came. Dayot Upamecano, the centre-back chased across two
-              windows, signed fresh terms at Bayern on Tuesday and took the last
-              defensive option off the table. The window shuts at eleven tonight,
-              and the squad that started thirteenth is more or less the squad
-              that finishes the summer.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>{" "}
+              the window closed, and Liverpool's only deadline-day signing was a
+              goalkeeper who will not be here until 2027. <em>Lucca Brughmans</em>,
+              eighteen, six foot seven, already first choice at Genk, arrives on a
+              six-year contract for a package reported between £28m and £30m, and
+              goes back to Belgium for the season within the same announcement.
+              Arsenal and Real Madrid were beaten to him, which is a sentence the
+              club would rather you read than the next one: no midfielder came to
+              replace Curtis Jones, no winger, and no right-back, the last approach
+              of the summer a loan bid for Chelsea's <em>Malo Gusto</em> that
+              Chelsea refused because they would only sell him outright. On the
+              twenty-first of August Andoni Iraola told Jamie Carragher his squad
+              was thin and that he hoped for more than one arrival. He got one, and
+              he cannot pick him. Nottingham Forest's £30m for Trey Nyoni was
+              rejected, Cody Gakpo cleared the air with the owners and stays, and
+              the side that started the season thirteenth is precisely the side
+              that must climb out of it.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -537,13 +537,14 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and five
               dispatches from the writers who never clock off. There is the
-              midfielder who arrived after the club said none would; the record
-              winger cleared to debut; the centre-back who got away at Bayern;
-              the goalkeeper who stays while the fringe leave; and a defence
-              still holding its breath on Joe Gomez. Read them in order. The
-              season opened at Newcastle with a 2-2 on the twenty-third of
-              August and found another at Anfield on the twenty-ninth, Ipswich
-              away comes on Friday night, and the market shuts tonight.
+              teenage goalkeeper bought and immediately sent away; the phone call
+              to Chelsea that failed on grammar rather than money; the thirty
+              million Liverpool were glad to turn down; Gakpo and Chiesa both
+              talked into staying; and the ledger of a summer, eleven out and
+              five in. Read them in order. The season opened at Newcastle with a
+              2-2 on the twenty-third of August and found another at Anfield on
+              the twenty-ninth, Ipswich away comes on Friday night, and the
+              market is shut until January.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3264,7 +3265,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Deadline day never keeps its word."
+        "One signing. He isn't coming yet."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
