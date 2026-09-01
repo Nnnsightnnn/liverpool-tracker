@@ -479,10 +479,10 @@ function CoverView({ onJump }) {
         }}>
           Eleven o'clock has come and gone, and the whole of Liverpool's
           deadline day is a six-foot-seven eighteen-year-old who stays in
-          Belgium until 2027. <em>Lucca Brughmans</em> in, on loan back to
-          Genk the same hour; a late approach for <em>Malo Gusto</em> refused.
-          Thirteenth, two draws, <em>Ipswich</em> on Friday, and nothing left
-          to buy until January.
+          Belgium until 2027. <em>Lucca Brughmans</em> in, loaned back to Genk
+          the same hour; a late approach for <em>Malo Gusto</em> refused. Only
+          <em>Barcola</em>, £123m and registered, argues for the summer.
+          Thirteenth, two draws, <em>Ipswich</em> on Friday.
         </p>
 
         <StatStrip stats={stats} />

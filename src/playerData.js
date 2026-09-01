@@ -563,6 +563,12 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
+      title: "The Record Is Registered: Barcola Available At Portman Road On Friday (Sky Sports / Liverpool FC, today)",
+      detail:
+        "The one piece of the window that did work is now cleared to play. Bradley Barcola, announced on Monday for a guaranteed £106m rising to £123m on a five-year deal, was registered before the deadline and is in line to make his debut at Ipswich on Friday, giving Iraola his marquee winger from the bench if not the start. He chose the No. 29 and credited Anfield and the manager with making the move easy. It remains the largest fee Liverpool have ever paid for a winger and the second-largest in the club's history, behind Isak's £125m, which Manchester City matched for Enzo Fernandez before the window shut. Everything else this summer has to be read against it: one club-record signing, and almost nothing behind him.",
+      category: "transfers",
+    },
+    {
       title: "Gakpo Sits Down With The Owners To Clear The Air, And Stays (This Is Anfield, today)",
       detail:
         "The summer's most public tug-of-war ended in a meeting room. With City's approach dead and Tottenham long since out of it, Cody Gakpo held talks with the ownership to settle a saga that had run since July, and the outcome is that he remains a Liverpool player under contract to 2030. Supporters largely backed him through a window the same reporting called farcical. He is one of the fittest attacking options Iraola carries to Portman Road, and now one of the few whose future is not a question anybody is still asking.",
@@ -575,15 +581,9 @@ export const NEWS_DIGEST = {
       category: "transfers",
     },
     {
-      title: "Endo Reaches The Deadline Without A Mover, And The Squad Stays One Body Heavier Than Planned (Rousing The Kop, today)",
-      detail:
-        "Wolves looked, Fulham looked, West Ham looked, and nobody moved. Wataru Endo, thirty-three and rarely picked, was available to the final minute and is still a Liverpool player, which matters beyond sentiment: the non-homegrown quota was cited all day as the reason no further arrival could be squeezed in, and Rousing The Kop argued on Tuesday that the quota was an explanation being used as an excuse. A club that genuinely wanted a midfielder had a fortnight to clear the slot Endo occupies, and did not.",
-      category: "general",
-    },
-    {
       title: "No Midfielder Came: Jones Was Sold In August And Never Replaced (Rousing The Kop / Liverpool.com, today)",
       detail:
-        "The hole the club spent a fortnight insisting it did not have is the hole it finishes the window with. Curtis Jones went to Inter for £30m in August and no central midfielder arrived behind him, the deadline passing with what Rousing The Kop called little real effort to sign a defensive midfielder. Bournemouth's Alex Scott, the named priority, was priced near £90m and never seriously pursued. Trey Nyoni inherits the minutes by default. Iraola told Jamie Carragher on 21 August that the squad was thin and that he hoped for more than one signing; he got one, and it was a goalkeeper for 2027.",
+        "The hole the club spent a fortnight insisting it did not have is the hole it finishes the window with. Curtis Jones went to Inter for £30m in August and no central midfielder arrived behind him, the deadline passing with what Rousing The Kop called little real effort to sign a defensive midfielder. Bournemouth's Alex Scott, the named priority, was priced near £90m and never seriously pursued. Trey Nyoni inherits the minutes by default, and Wataru Endo, available to the final minute with Wolves, Fulham and West Ham all looking and none moving, stays as depth rather than surplus. Iraola told Jamie Carragher on 21 August that the squad was thin and that he hoped for more than one signing; he got one, and it was a goalkeeper for 2027.",
       category: "transfers",
     },
     {
