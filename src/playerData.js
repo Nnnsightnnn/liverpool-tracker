@@ -359,7 +359,7 @@ export const COVER_IMAGE = {
   credit: null,
   generatedAt: "2026-09-02T22:10:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
-  // Evening pass (Wed 2 September): no match played since Saturday. Lead is the first hard team
+  // Evening pass (Wed 2 September): no match played since Saturday's Forest draw. Lead is the first hard team
   // news of the season, Joe Gomez ruled out of Ipswich by Wednesday's previews (Sports Mole,
   // Evening Standard, Racing Post), with Chiesa a major doubt and Barcola expected on the bench.
   // Around it: Sky's GBP218.4m net-spend figure, the highest in the league, Carragher's and
@@ -434,7 +434,7 @@ export const RESULTS = [
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
 // Last refresh: 2026-09-02 (evening) — live 2026-27 table, matchweek 2. Matches ESPN's feed.
-// Liverpool 13th on 2 points from two draws. Still unchanged since Saturday's round: the next
+// Liverpool 13th on 2 points from two draws. Still unchanged since the weekend's round: the next
 // movement is Friday night at Portman Road, where a win takes Liverpool to five and above their
 // hosts. Regenerated from ESPN's endpoint this evening and byte-identical to the morning pull.
 export const STANDINGS = [
@@ -524,7 +524,7 @@ export const DISPATCHES = [
     dateline: "Portman Road \u00b7 2 September",
     category: "Football News",
     body:
-      "Ipswich's week has been mirror-image to Liverpool's. Emersonn, whose goal beat Sunderland on the opening day, came off at half-time at Old Trafford with a knee complaint and is doubtful for Friday; Zian Flemming, signed from Burnley as the club's fourteenth arrival of the summer with hours of the window left, is the Racing Post's pick to lead the line instead. Philogene and Taylor are out, Matusiwa and Luis are doubts. What survives intact is the flank that matters: Abdul Fatawu, who left Luke Shaw behind to make Leif Davis's goal on Saturday, twenty assists in two Championship seasons, and now a Friday night running at the only fit right-back Liverpool own.",
+      "Ipswich's week has been mirror-image to Liverpool's. Emersonn, whose goal beat Sunderland on the opening day, came off at half-time at Old Trafford with a knee complaint and is doubtful for Friday; Zian Flemming, signed from Burnley as the club's fourteenth arrival of the summer with hours of the window left, is the Racing Post's pick to lead the line instead. Philogene and Taylor are out, Matusiwa and Luis are doubts. What survives intact is the flank that matters: Abdul Fatawu, who left Luke Shaw behind to make Leif Davis's goal on Sunday, twenty assists in two Championship seasons, and now a Friday night running at the only fit right-back Liverpool own.",
   },
   {
     n: "05",
@@ -605,7 +605,7 @@ export const NEWS_DIGEST = {
     {
       title: "Thirteenth, Unchanged, And Now Two Days From Moving (ESPN, today)",
       detail:
-        "ESPN's table has not moved since Saturday and will not until Friday night. Manchester City, Arsenal, promoted Hull and Chelsea sit on six, Brentford lead the chasing pack on four, and Liverpool are thirteenth on two from two 2-2 draws, a place and a point below Ipswich. Fulham, Coventry, Palace, Villa and Tottenham are still to take a point. A win at Portman Road lifts Liverpool to five and above their hosts; anything less and the Champions League opener against Atletico Madrid next Wednesday arrives with the season still winless.",
+        "ESPN's table has not moved since the weekend and will not until Friday night. Manchester City, Arsenal, promoted Hull and Chelsea sit on six, Brentford lead the chasing pack on four, and Liverpool are thirteenth on two from two 2-2 draws, a place and a point below Ipswich. Fulham, Coventry, Palace, Villa and Tottenham are still to take a point. A win at Portman Road lifts Liverpool to five and above their hosts; anything less and the Champions League opener against Atletico Madrid next Wednesday arrives with the season still winless.",
       category: "matches",
     },
     {

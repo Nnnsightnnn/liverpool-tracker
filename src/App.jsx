@@ -529,14 +529,14 @@ function CoverView({ onJump }) {
               always put on it; Federico Chiesa is a major doubt with his back.
               So the defence that goes to Suffolk is the one that has let in four,
               Frimpong alone on the right against Abdul Fatawu, who left Luke Shaw
-              behind at Old Trafford on Saturday. The rest of the day was
+              behind at Old Trafford on Sunday. The rest of the day was
               accounting. Sky says Liverpool's net spend, £218.4m, was the highest
               in the country; Jamie Carragher says the money bought four left
               wingers and not one right one; James Pearce says the club will pay
               the price. <em>Bradley Barcola</em> waits on the bench. Ipswich may
               be without their striker. Two days out, the bookmakers make
               Liverpool 11-20, and a first win would take them above their hosts.
-              The table has not moved since Saturday. Friday is when it can.
+              The table has not moved since the weekend. Friday is when it can.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,

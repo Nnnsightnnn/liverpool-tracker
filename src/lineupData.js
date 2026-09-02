@@ -29,7 +29,7 @@ export const FORMATIONS = {
     // Out: Ekitike (Achilles, to December), Bradley (knee, eyeing November), Leoni
     // (ACL) and Chiesa (small muscle injury) out; Gomez ruled out of Ipswich.
     // Bradley Barcola was ANNOUNCED on Monday afternoon (guaranteed GBP106m rising to
-    // GBP123m, five years, No. 29) and a debut is earmarked for Portman Road, but he is
+    // GBP123m, five years, No. 29) and he is expected on the bench at Portman Road, but he is
     // not PLAYERS-keyed, so he cannot appear in the graphic. Gakpo STAYS: City's
     // GBP75m+5m was rejected on Monday evening and the pursuit called off.
     defaultXI: {
@@ -71,8 +71,8 @@ export const FORMATIONS = {
     // left; Isak alone up top. Ngumoha and Gravenberch started on the bench.
     // Ekitike (Achilles, to December), Bradley (knee), Leoni (ACL) and Chiesa
     // (small muscle injury) are out; Gomez is ruled out of Friday despite full training. Barcola was ANNOUNCED
-    // on Monday afternoon (guaranteed GBP106m to GBP123m, five years, No. 29) and his
-    // debut is earmarked for this fixture, but he is not PLAYERS-keyed. Gakpo STAYS:
+    // on Monday afternoon (guaranteed GBP106m to GBP123m, five years, No. 29);
+    // he is expected on the bench for this fixture, and is not PLAYERS-keyed. Gakpo STAYS:
     // City's GBP75m+5m was rejected Monday evening and the pursuit called off.
     defaultXI: {
       GK: 1,    // Alisson (started the 2-2 vs Forest · No. 1)
@@ -197,7 +197,7 @@ export const SLOT_CONFIDENCE = {
   RDM: "High",   // Szoboszlai · new five-year deal signed to 2031 · in day one
   LAM: "High",   // Gakpo · the sale is off, City's GBP80m rejected Aug 31 and the pursuit called off · he stays, and starts
   CAM: "Medium", // Wirtz · started centrally vs Forest, the creative axis, still short of a first goal contribution this season
-  RAM: "Low",    // Munoz took it on a debut and scored, but Barcola is now SIGNED and announced for this exact slot with a debut earmarked at Portman Road
+  RAM: "Low",    // Munoz took it on a debut and scored, but Barcola is now SIGNED and announced for this exact slot and expected among the substitutes at Portman Road
   ST:  "High",   // Isak · off the mark on the hour vs Forest, and with Ekitike out to December there is no alternative nine
 };
 
