@@ -484,12 +484,13 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          The market has been shut since Tuesday night, and now the schedule
-          speaks: five games in seventeen days, <em>Ipswich</em> away on Friday
-          first. Andoni Iraola calls the fixtures kind and says his side cannot
-          hide behind a quiet deadline day, from two 2-2 draws and not a minute
-          in front. <em>Barcola</em>, £123m, is registered. <em>Gomez</em>,
-          maybe. Thirteenth, and no help until January.
+          Joe Gomez will not play at <em>Ipswich</em> on Friday: by Wednesday
+          evening the previews had him among the injured, past the month his
+          manager put on the muscle, and Chiesa a doubt beside him. The same
+          twenty travel, <em>Barcola</em> among the substitutes. Around them
+          the reckoning: £218.4m net, the league's largest, for a squad
+          Carragher counts as four left wingers and no right one. Thirteenth,
+          two days out.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,21 +521,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and the transfer window is a day closed, which means the arguing
-              stops and the football starts. Liverpool play five times in seventeen
-              September days, beginning at <em>Ipswich</em> on Friday night, and
-              Andoni Iraola has called the run kind on paper while refusing his
-              squad the excuse of a quiet deadline day. He begins it waiting on one
-              man: Joe Gomez, back in full training and talked down by his own
-              manager, who still puts the muscle injury at about a month. Behind
-              Gomez there is no reinforcement and there will not be until January:
-              no midfielder to replace Curtis Jones, no right-back after Chelsea
-              refused to loan <em>Malo Gusto</em>, one club-record winger in
-              Bradley Barcola registered just in time to play. Two draws, four
-              goals conceded, not a minute spent in front, the numbers of a side
-              that does not lose and does not yet win. Thirteenth is not a verdict.
-              September is where it becomes one, or stops being one.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              a Wednesday two days from kick-off, the first hard team news of the
+              season has arrived without a press conference to deliver it. Joe Gomez is out of Friday's trip
+              to <em>Ipswich</em>, the previews say, five and a half weeks after a
+              muscle went in Nashville and a week past the month Andoni Iraola
+              always put on it; Federico Chiesa is a major doubt with his back.
+              So the defence that goes to Suffolk is the one that has let in four,
+              Frimpong alone on the right against Abdul Fatawu, who left Luke Shaw
+              behind at Old Trafford on Saturday. The rest of the day was
+              accounting. Sky says Liverpool's net spend, £218.4m, was the highest
+              in the country; Jamie Carragher says the money bought four left
+              wingers and not one right one; James Pearce says the club will pay
+              the price. <em>Bradley Barcola</em> waits on the bench. Ipswich may
+              be without their striker. Two days out, the bookmakers make
+              Liverpool 11-20, and a first win would take them above their hosts.
+              The table has not moved since Saturday. Friday is when it can.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -542,14 +544,14 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and five
               dispatches from the writers who never clock off. There is the
-              calendar that opened its mouth the moment the window shut; the
-              defender back in training and talked down by his own manager; the
-              academy boy now in the home dugout at Portman Road; the ledger of a
-              summer, eleven out and five in; and the twenty games unbeaten that
-              have not once included a lead. Read them in order. The season opened
-              at Newcastle with a 2-2 on the twenty-third of August and found
-              another at Anfield on the twenty-ninth, Ipswich away comes on Friday
-              night, and the market is shut until January.
+              answer that came without a press conference; the biggest bill in
+              England for the shortest squad at the top; two agents, one statement
+              and a phone call to Monaco; a striker lost at Portman Road and a new
+              one found in time; and the nine games Iraola once went without a win,
+              remembered by the bookmakers who think he has learned. Read them in
+              order. The season opened at Newcastle with a 2-2 on the twenty-third
+              of August and found another at Anfield on the twenty-ninth, Ipswich
+              away comes on Friday night, and the market is shut until January.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3758,7 +3760,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Twenty unbeaten, and not a minute ahead."
+        "The answer came without a press conference."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
