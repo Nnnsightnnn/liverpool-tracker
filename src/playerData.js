@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2025-26 Season · Updated May 24, 2026) ──────
+// ─── Liverpool FC Player Data (2026-27 Season · Updated 2 September 2026) ──────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -477,7 +477,7 @@ export const STANDINGS_COMMENTARY = {
   teams: {
     "Liverpool": "Thirteenth on two points from two 2-2 draws, unbeaten and yet to lead a minute. The squad is closed until January after one deadline-day arrival; the £123m Barcola is registered and available at Ipswich, Gakpo stays, and Joe Gomez is the one fitness question before Friday.",
     "Manchester City": "Top on six with a maximum and a plus-four difference, level with Arsenal at the summit. Matched Liverpool's club-record fee to agree £125m with Chelsea for Enzo Fernandez on deadline day.",
-    "Arsenal": "Second on six, level with City on points and goal difference, two wins from two, and beaten late by Liverpool to the Genk goalkeeper Lucca Brughmans.",
+    "Arsenal": "Second on six, level with Manchester City on points and goal difference, two wins from two, and among the early pace-setters at the top of the table.",
     "Hull": "Third on six, two wins from two on their return to the top flight, comfortably the story of the opening fortnight.",
     "Chelsea": "Fourth on six and unbeaten, and the club that closed Liverpool's window: they refused a deadline-day loan for Malo Gusto, insisting on a permanent sale or nothing.",
     "Brentford": "Fifth on four and unbeaten, a plus-three difference bettered only by the sides above them.",

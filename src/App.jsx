@@ -521,7 +521,7 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and the transfer window is two days closed, which means the arguing
+              and the transfer window is a day closed, which means the arguing
               stops and the football starts. Liverpool play five times in seventeen
               September days, beginning at <em>Ipswich</em> on Friday night, and
               Andoni Iraola has called the run kind on paper while refusing his
