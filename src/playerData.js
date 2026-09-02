@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "doubtful", outSince: "2026-07-25", injuryNote: "Tue Sep 1 — the back line's whole September now leans on him. Gomez has trained fully with the group and is pushing to feature at Portman Road on Friday, his first league minutes of the season, which would give Iraola a fourth senior centre-back. With Dayot Upamecano signing fresh Bayern terms and no defender bought on deadline day, the cover behind Van Dijk, Jacquet and the loanee Araujo is him and little else, Leoni still on ACL rehab and Ndukwe gone to Levante on loan. Serie A interest never became a bid; the longest-serving defender was always a body to keep, and a thin summer settles it", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "doubtful", outSince: "2026-07-25", injuryNote: "Wed Sep 2 — training fully, and talked down by his own manager. Gomez is back with the group and reported to have a chance of Portman Road on Friday, his first league minutes of the season and a fourth senior centre-back for Iraola, but the manager cooled it this week, repeating he puts a muscle problem of this kind at about a month and that Gomez is still some weeks short. With Upamecano staying at Bayern and no defender bought, the cover behind Van Dijk, Jacquet and the loanee Araujo is him and little else, Leoni on ACL rehab and Ndukwe gone to Levante. A body always meant to be kept, now the one a thin summer leans on", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Sun Aug 16 — through the summer, and no longer alone on the flank. Frimpong remains the only fit senior right-back through the opening two draws, with Bradley still short of a knee return and Gomez, back in full training, pushing to feature at Ipswich, where he can cover right-back too. Araujo, in on loan and bowed against Como, can also spell him there, softening the need that had Tottenham's Djed Spence floated around £35m before Spence went elsewhere. Fit if managed, still short of competition, but carrying the flank with cover now rather than alone", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Wed Sep 2 — carrying the flank, with the reinforcement still weeks off. Frimpong remains the only fit senior right-back through the opening two draws, Bradley short of a knee return and eyed for November, the deadline-day Malo Gusto loan refused. Joe Gomez, back in full training, has a chance of Ipswich and can cover right-back, though Iraola cooled the timeline this week. Araujo, in on loan and bowed against Como, is the other in-game option. Fit if managed, still short of competition, and the man the position cannot do without until January", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sun Aug 16 — back, and on the scoresheet. Jacquet marked his return from the shoulder problem, managed with caution since January surgery, by scoring in Sunday's 2-0 win over Como, his first minutes after missing the entire tour and the Monaco game. That absence had once left Van Dijk as the only fit specialist senior centre-back, which is why Araujo's loan mattered. His return, alongside Araujo's cover and Gomez back in full training, eases a crunch the window did nothing to relieve: no defender was bought, Upamecano stayed at Bayern, and Ndukwe has gone to Levante on loan. Eased back rather than thrown in, but the fit senior partner Van Dijk needed", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Wed Sep 2 — the fit senior partner, in a department the window left bare. Jacquet started beside Van Dijk against Forest, back from the shoulder problem managed with caution since January surgery, having scored on his return in the pre-season win over Como. That absence had once left Van Dijk as the only fit specialist senior centre-back, which is why Araujo's loan mattered. Behind the pair the cover stays thin: no defender bought, Upamecano staying at Bayern, Ndukwe at Levante, and Gomez back in full training but cooled by Iraola as still some weeks short. A crunch eased rather than solved", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -357,22 +357,20 @@ export const COVER_IMAGE = {
   alt: "Pure-type edition cover.",
   focus: null,
   credit: null,
-  generatedAt: "2026-09-01T22:20:00Z",
+  generatedAt: "2026-09-02T08:15:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
-  // Window-close lead (evening pass): the English window shut at 23:00 BST and Liverpool's
-  // only deadline-day arrival was Lucca Brughmans, an 18-year-old Genk goalkeeper announced
-  // at up to GBP30m and loaned straight back to Belgium until 2027. The late loan approach
-  // for Chelsea's Malo Gusto was refused, and Forest's GBP30m for Trey Nyoni was rejected.
-  // CORRECTION carried by this edition: the morning run led every surface on a Juventus
-  // midfielder loan that traces to a September 2022 archive article, not a 2026 deal. The
-  // claim has been purged repo-wide and a forbid rule added to docs/KNOWN-CORRECTIONS.md.
-  // Under STEP 7.5 none of tonight's beats is photographable: an announcement post for a
-  // player who is not here, a refused loan approach, and a rejected bid. So NO cover image
-  // is requested this edition and the render stays on the pure-type fallback (src null).
-  // generatedAt is still re-stamped as the cache-buster (COVER-00001).
+  // Morning pass (Wed 2 September): the window is shut and the football takes over. Lead is
+  // the schedule, five Liverpool matches in seventeen September days beginning at Ipswich on
+  // Friday, with Iraola calling the run kind on paper and refusing his side the excuse of a
+  // quiet deadline day. The one fresh team-news beat is Joe Gomez, back in full training but
+  // publicly cooled by his manager, who puts the muscle injury at about a month.
+  // Under STEP 7.5 none of this morning's beats is photographable: no match has been played
+  // since Saturday, so there is no hero moment, only a preview and a fitness caution. NO cover
+  // image is requested and the render stays on the pure-type fallback (src null). generatedAt
+  // is re-stamped as the cache-buster (COVER-00001).
   brief: {
     leadStory:
-      "The English transfer window shut at 23:00 BST on Tuesday 1 September and Liverpool's only deadline-day arrival was Lucca Brughmans, an eighteen-year-old goalkeeper from Genk announced on a six-year contract for a package reported between GBP28m and GBP30m with add-ons, then loaned straight back to Belgium for 2026/27. Arsenal and Real Madrid were beaten to him late. No midfielder arrived to replace Curtis Jones, sold to Inter for GBP30m in August, and the final live negotiation, a loan approach for Chelsea right-back Malo Gusto, was refused because Chelsea would only sell permanently. Nottingham Forest's GBP25m plus GBP5m for Trey Nyoni was rejected and new contract talks are expected instead. Cody Gakpo held clear-the-air talks with the owners and stays; Federico Chiesa's father publicly closed the Serie A story; Stefan Bajcetic joined Celta Vigo permanently for GBP1.3m with a buy-back; Harvey Elliott and Keyrol Figueroa left on loan. Liverpool sit thirteenth on two points and travel to Ipswich on Friday.",
+      "With the transfer window shut since Tuesday night, Liverpool's season proper begins in a rush: five matches in seventeen September days, opening at Ipswich away on Friday 4 September before Fulham, Bournemouth on the 20th and the first Champions League night crowd in. Andoni Iraola has called the fixtures kind on paper and said his side cannot use a quiet deadline day as an excuse, having opened with two 2-2 draws, four goals conceded and not a minute spent in front. Joe Gomez is back in full training with a chance of Ipswich, but Iraola has cooled it, repeating he puts the muscle injury at about a month. Bradley Barcola, the GBP123m club-record winger, is registered and in line for a debut at Portman Road. Liverpool sit thirteenth on two points, a place below Friday's hosts, with no reinforcement possible until January.",
     subject: null,
     prompt: null,
     aspectRatio: "portrait",
@@ -436,9 +434,10 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-09-01 — live 2026-27 table, matchweek 2. Matches ESPN's current feed.
-// Liverpool 13th on 2 points from two draws. Table unchanged since Saturday's round; next
-// Liverpool fixture is Ipswich away on Friday 4 September, so no on-pitch movement this refresh.
+// Last refresh: 2026-09-02 — live 2026-27 table, matchweek 2. Matches ESPN's current feed.
+// Liverpool 13th on 2 points from two draws. Table still unchanged: nobody has played since
+// Saturday and the market shut on Tuesday, so the next movement is Ipswich away on Friday 4
+// September. Regenerated from ESPN's endpoint this morning and byte-identical to yesterday.
 export const STANDINGS = [
   { pos: 1, team: "Manchester City", p: 2, w: 2, d: 0, l: 0, gd: 4, pts: 6, qualification: "UCL" },
   { pos: 2, team: "Arsenal", p: 2, w: 2, d: 0, l: 0, gd: 4, pts: 6, qualification: "UCL" },
@@ -472,165 +471,156 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 2,
-  generatedAt: "2026-09-01T22:20:00Z",
+  generatedAt: "2026-09-02T08:15:00Z",
   overview:
-    "This is the table every side now has to live with until January, because the market closed at eleven on Tuesday night and nobody has played since Saturday. Manchester City lead on six with Arsenal and a promoted Hull level on points and Chelsea fourth on the same total, Brentford heading the chasing pack on four. Liverpool sit thirteenth on two points from two 2-2 draws, a goal difference of nothing, not a minute spent in front all season, a place and a point below Ipswich Town, who host them at Portman Road on Friday. At the foot Fulham, Coventry, Crystal Palace, Aston Villa and Tottenham have taken nothing from two apiece, three of them already inside the relegation places on goal difference. Liverpool close the window with one arrival on deadline day, an eighteen-year-old goalkeeper who stays in Belgium until 2027, which makes thirteenth a position to be climbed out of with the squad already in the building.",
+    "Two rounds in, this is the table the football now has to move, because nobody has played since Saturday and the market shut on Tuesday. Manchester City lead on six from Arsenal, promoted Hull and Chelsea, all on the maximum, Brentford heading the chasing pack on four. Liverpool sit thirteenth on two points from two 2-2 draws, a goal difference of nothing and not a minute spent in front all season, a place and a point below Friday's hosts Ipswich Town. At the foot Fulham, Coventry, Crystal Palace, Aston Villa and Tottenham have taken nothing from two apiece, the last three inside the relegation places on goal difference. Andoni Iraola begins a September of five matches in seventeen days needing to turn draws into wins from a squad the window left him, and thirteenth is a position to climb rather than a verdict to accept.",
   teams: {
-    "Liverpool": "Thirteenth on two points from two 2-2 draws, unbeaten and yet to lead a minute. The window shut with Brughmans the only deadline-day arrival and no midfielder to replace Jones; the £106m Barcola is registered, Gakpo stays after clear-the-air talks.",
-    "Manchester City": "Top on six with a maximum and a plus-four difference. Failed to buy Gakpo from Liverpool on deadline eve, then agreed £125m with Chelsea for Enzo Fernandez, matching the record fee Liverpool paid for Isak.",
+    "Liverpool": "Thirteenth on two points from two 2-2 draws, unbeaten and yet to lead a minute. The squad is closed until January after one deadline-day arrival; the £123m Barcola is registered and available at Ipswich, Gakpo stays, and Joe Gomez is the one fitness question before Friday.",
+    "Manchester City": "Top on six with a maximum and a plus-four difference, level with Arsenal at the summit. Matched Liverpool's club-record fee to agree £125m with Chelsea for Enzo Fernandez on deadline day.",
     "Arsenal": "Second on six, level with City on points and goal difference, two wins from two, and beaten late by Liverpool to the Genk goalkeeper Lucca Brughmans.",
     "Hull": "Third on six, two wins from two on their return to the top flight, comfortably the story of the opening fortnight.",
-    "Chelsea": "Fourth on six and unbeaten, and the club that ended Liverpool's window: they refused a loan for Malo Gusto in the closing hours, insisting on a permanent sale or nothing.",
+    "Chelsea": "Fourth on six and unbeaten, and the club that closed Liverpool's window: they refused a deadline-day loan for Malo Gusto, insisting on a permanent sale or nothing.",
     "Brentford": "Fifth on four and unbeaten, a plus-three difference bettered only by the sides above them.",
-    "Ipswich": "Twelfth on three, a place and a point above Liverpool and hosting them on Friday. Gary O'Neil was beaten 5-2 at Manchester United and is without Matusiwa, Taylor and Philogene-Bidace.",
-    "Bournemouth": "Fourteenth on one, and they kept everything: Rayan's £130m clause intact and Alex Scott, the £90m midfielder Liverpool named as a priority and never seriously bid for.",
-    "Nott'm Forest": "Fifteenth on one. Spent deadline day chasing a midfielder to replace Elliot Anderson and had £25m plus £5m for Liverpool's Trey Nyoni rejected out of hand.",
-    "Crystal Palace": "Eighteenth and pointless, and immovable on Ismaila Sarr all window despite the winger pushing to join Liverpool. Refusing to sell while losing twice is a hard fortnight to explain.",
-    "Brighton": "Ninth on three. Held at £70m for Yankuba Minteh to the very end, which is why Liverpool never had the winger that would have released Gakpo, and why he is still an Anfield player tonight.",
-    "Tottenham": "Bottom on goals scored with two defeats from two, and they end the window with nothing to show for the summer's longest pursuit: first in for Gakpo back in July, passed over for City, and now watching him sign nothing at all.",
+    "Ipswich": "Twelfth on three, a place and a point above Liverpool and hosting them on Friday. Gary O'Neil, a former Liverpool academy coach, was beaten 5-2 at Manchester United and is without Matusiwa, Taylor and Philogene.",
+    "Bournemouth": "Fourteenth on one, and Liverpool's visitors-in-reverse on 20 September. Kept everything this summer, Alex Scott included, the midfielder Liverpool named a priority and never seriously bid for.",
+    "Nott'm Forest": "Fifteenth on one after drawing 2-2 at Anfield on Saturday. Had £25m plus £5m for Liverpool's Trey Nyoni rejected out of hand on deadline day.",
+    "Crystal Palace": "Eighteenth and pointless after two defeats, and immovable on Ismaila Sarr all window despite the winger pushing to join Liverpool.",
+    "Brighton": "Ninth on three. Held at £70m for Yankuba Minteh to the very end, which is why Liverpool never had the winger that would have released Gakpo, who stays regardless.",
+    "Tottenham": "Bottom on goals scored with two defeats from two, ending the window with nothing to show for a summer spent first chasing Gakpo and then watching him stay.",
   },
 };
 // ─── Dispatches (hand-curated long reads — separate from the wire feed) ────
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "One Signing, Six Foot Seven, And Not Due For Two Years.",
-    byline: "Sky Sports / Sports Mole",
-    dateline: "Merseyside \u00b7 1 September",
-    category: "Transfers",
+    headline: "The Window Shut, And The Calendar Opened Its Mouth.",
+    byline: "This Is Anfield",
+    dateline: "Anfield \u00b7 2 September",
+    category: "Manager",
     body:
-      "The summer ended at eleven o'clock with a photograph of a teenager who will spend the season in Belgium. Liverpool announced Lucca Brughmans on deadline day, an eighteen-year-old goalkeeper from Genk, a package reported between \u00a328m and \u00a330m with add-ons across a six-year contract, and confirmed in the same statement that he goes straight back on loan until 2027. TeamTalk had Arsenal and Real Madrid beaten late to reach him. He is six foot seven and already Genk's first choice. He is also, on a day when the manager wanted a midfielder, a right-back and a winger, the only thing the club bought.",
+      "Andoni Iraola spent the summer asking for players and now asks something harder of the ones he has. Five matches in seventeen days begin at Portman Road on Friday, a September This Is Anfield calls kind on paper and unforgiving in practice, Fulham and Bournemouth and the first Champions League night folded in behind it. The manager has said he is relieved to know exactly whom he can pick until January, and that his side cannot use a quiet deadline day as an excuse. Two draws have made a gentle-looking month the one where the season is corrected or quietly starts to slip.",
   },
   {
     n: "02",
-    headline: "The Last Phone Call: Chelsea Would Sell, Liverpool Would Only Borrow.",
-    byline: "Yahoo Sports / Liverpool.com",
-    dateline: "Stamford Bridge \u00b7 1 September",
-    category: "Transfers",
+    headline: "Gomez Trains, And His Manager Talks Him Down.",
+    byline: "Liverpool.com / Sports Mole",
+    dateline: "Kirkby \u00b7 2 September",
+    category: "Injuries",
     body:
-      "It failed on grammar rather than arithmetic. In the closing hours Liverpool went back for Malo Gusto, twenty-three, a right-back Chelsea valued near \u00a375m when Manchester City asked in the summer, and proposed a straight loan with no obligation to buy. Chelsea would discuss a permanent sale or nothing, and Xabi Alonso has been unusually public about how much he rates the Frenchman. The approach died before it became a bid. Conor Bradley is injured, Jeremie Frimpong is the only fit senior right-back in the building, and the position now has no reinforcement coming until January.",
+      "There are promising signs and there is a manager refusing to lean on them. Joe Gomez, out of both league games with the muscle injury he took in the Sunderland friendly on 26 July, is back in full training and reported to have a chance of Friday, and Iraola has spent the week cooling exactly that, repeating that he normally puts a problem like this at about a month and that Gomez is still some weeks short of himself. With Bradley on knee rehab into 2027 and no defender bought, one hamstring is the whole of Liverpool's flexibility.",
   },
   {
     n: "03",
-    headline: "Forest Offered Thirty Million For Nyoni. Liverpool Offered Him A Contract.",
-    byline: "The Times / This Is Anfield",
-    dateline: "Kirkby \u00b7 1 September",
+    headline: "A Homecoming In The Home Dugout, And A Warning In The Numbers.",
+    byline: "Goal.com",
+    dateline: "Portman Road \u00b7 2 September",
     category: "Football News",
     body:
-      "The one negotiation of the day Liverpool were happy to end. Paul Joyce reported Nottingham Forest tabling \u00a325m with a further \u00a35m in add-ons for Trey Nyoni, hunting a midfielder since Elliot Anderson went to Manchester City, and being told the teenager was not available at any price this late. The reasoning is not sentimental. Curtis Jones has gone to Inter, the room in front of Nyoni is real, and Iraola trusted him repeatedly through pre-season. Talks over improved terms are now expected. On a day of being refused, the club found something to refuse.",
+      "Gary O'Neil came up through Liverpool's academy before he was a manager, and on Friday he sends a promoted side at the club that raised him. Goal's preview led not on Liverpool's forwards but on their defence: four conceded in two games, no clean sheet, into an Ipswich team whose two matches have already produced ten goals. Abdul Fatawu has made three chances and taken an assist from the right, aimed straight at Liverpool's thinnest flank. Kind on paper, the fixture reads; awkward in fact, the same fixture reads underneath.",
   },
   {
     n: "04",
-    headline: "Gakpo Sat Down With The Owners, And Came Out A Liverpool Player.",
-    byline: "This Is Anfield",
+    headline: "The Ledger Is Closed, And It Reads Eleven To Five.",
+    byline: "Rousing The Kop",
     dateline: "Anfield \u00b7 1 September",
-    category: "Farewells",
+    category: "Transfers",
     body:
-      "The saga that ran from July finished in a meeting room rather than a medical. With City's approach dead and Tottenham long gone, Cody Gakpo held clear-the-air talks with the ownership and stays, contracted to 2030, in a window the same reporting has been calling farcical for a fortnight. Federico Chiesa's exit story died the same evening, and from an odder direction: his father Enrico said publicly that his son is not thinking of leaving. Both men finish the summer where they started it, one of them fit and wanted, the other injured and no longer for sale.",
+      "A summer's business fits in two columns now, and one is much longer than the other. In came Jacquet at \u00a360m, Munoz at \u00a334m, Araujo on loan, the club-record Barcola, and an eighteen-year-old goalkeeper loaned straight back to Belgium until 2027. Out went eleven senior men, Salah to Trabzonspor, Konate to Madrid, Robertson to Tottenham, Jones to Inter among them, with no midfielder to replace the last and no right-back after Chelsea refused a loan for Malo Gusto. Barcola registered in time for Friday is the one line the club will point to. The rest it must simply live with.",
   },
   {
     n: "05",
-    headline: "Eleven Out, Five In, And A Manager Who Asked For More In Public.",
-    byline: "Rousing The Kop / TeamTalk",
-    dateline: "Anfield \u00b7 1 September",
-    category: "Manager",
+    headline: "Twenty Games Unbeaten, And Not A Minute In Front.",
+    byline: "Opta Analyst / Squawka",
+    dateline: "Anfield \u00b7 2 September",
+    category: "Tactics",
     body:
-      "The ledger is now fixed and it reads badly for a side sitting thirteenth. In: Jacquet at \u00a360m, Munoz at \u00a334m, Araujo on loan from Barcelona, Barcola at a club-record \u00a3123m, and Brughmans for 2027. Out: Salah to Trabzonspor, Konate to Real Madrid, Robertson to Tottenham, Jones to Inter for \u00a330m, Bajcetic to Celta for \u00a31.3m, Elliott and Figueroa and Ndukwe and Ramsay and Pecsi on loan, Rhys Williams released. On 21 August Andoni Iraola told Jamie Carragher the squad was thin and that he hoped for more than one arrival. He got one, and it was a goalkeeper he cannot pick.",
+      "Two statistics sit awkwardly together at the top of Iraola's Liverpool. He has not lost a Premier League game in twenty, across two clubs, and his side has not held a lead for a single minute of this season. Both are true because both describe the same team: one that out-shoots opponents, falls behind early, and hauls itself level late, Szoboszlai's ninth-added-minute penalty at Newcastle the most vivid instance. It is a manager's imprint arriving before his results, thrilling once and unsustainable as a plan. September, kind and crowded, is where the draws are meant to become wins.",
   },
 ];
 
 export const NEWS_DIGEST = {
-  generatedAt: "2026-09-01T22:20:00Z",
+  generatedAt: "2026-09-02T08:15:00Z",
   summary:
-    "The window shut at eleven and Liverpool's only deadline-day arrival was an eighteen-year-old goalkeeper who will not be here until 2027. Lucca Brughmans was announced on Tuesday, a package reported between £28m and £30m with add-ons on a six-year contract, and loaned straight back to Genk for the season, with Arsenal and Real Madrid seen off to get him. No midfielder came to replace Curtis Jones, no right-back, no winger. The last live attempt was Chelsea's Malo Gusto, refused because Liverpool would take him only on loan and Chelsea would sell only permanently, so a defence leaning on Joe Gomez's hamstring finishes the summer as it started it. Nottingham Forest were told no in the other direction, their £25m plus £5m for Trey Nyoni rejected, with talks over a new contract for the teenager now expected. Cody Gakpo cleared the air with the owners and stays, Federico Chiesa's father shut down the Serie A talk, Wataru Endo found no mover, and Stefan Bajcetic went to Celta Vigo for £1.3m with a buy-back attached. Thirteenth on two points, Portman Road on Friday, and, in the club's own judgement, enough to last until January.",
+    "With the market shut since Tuesday night, the football takes over, and it arrives in a rush: five Liverpool matches in seventeen September days, beginning at Ipswich on Friday. Andoni Iraola has called the fixtures kind on paper and said plainly that his side cannot carry excuses after opening with two 2-2 draws and four goals conceded, and he must now find wins from a squad the window would not let him add to. Joe Gomez is the one fresh fitness question, back in full training but publicly cooled by a manager who still puts the muscle injury at around a month. Bradley Barcola, the £123m club-record winger, is registered and in line for a debut at Portman Road, the summer's single argument for itself. Thirteenth on two points, a place below Friday's hosts, and nothing to buy until January.",
   keyTopics: [
     {
-      title: "The Only Arrival: Brughmans Announced For Up To £30m, And Loaned Straight Back To Genk (Sky Sports / Sports Mole, today)",
+      title: "Five Games In Seventeen Days: Iraola's September Test Begins At Portman Road (This Is Anfield, today)",
       detail:
-        "Liverpool's entire deadline day was an eighteen-year-old goalkeeper they will not see for a year. Lucca Brughmans was announced on Tuesday, a package reported between £28m and £30m with add-ons on a six-year contract, and confirmed in the same breath as returning to Genk on loan for the whole of 2026/27. TeamTalk report Arsenal and Real Madrid were beaten to him late. He stands six foot seven, is already Genk's first choice with fifteen senior appearances behind him, and he buys nothing at all for Friday, which is rather the point of him.",
-      category: "transfers",
+        "The window is shut and the schedule takes its place. Liverpool play five times in seventeen days this month, a run This Is Anfield framed on Wednesday as favourable on paper but relentless in practice, and it opens with Ipswich away on Friday before Fulham, Bournemouth and a Carabao Cup tie crowd in. Iraola has welcomed knowing exactly who he can call on until January, and said his side cannot lean on the quiet deadline day as an excuse. Two draws to start have made a kind-looking September the month the season is either corrected or complicated.",
+      category: "matches",
     },
     {
-      title: "The Last Raid Fails: Chelsea Refuse A Loan And Liverpool End The Window Without A Right-Back (Yahoo Sports / Liverpool.com, today)",
+      title: "Iraola Cools The Gomez Talk Even As The Defender Trains: 'Around A Month' (Liverpool.com / Sports Mole, today)",
       detail:
-        "It came apart on structure, not money. In the closing hours Liverpool went back for Malo Gusto, the twenty-three-year-old Chelsea right-back valued near £75m when City asked in the summer, and proposed a straight loan with no obligation attached. Chelsea would sanction only a permanent sale and the conversation ended there. Xabi Alonso has been public about how much he rates the Frenchman, which never made a temporary exit likely. Liverpool wanted high-quality depth at a position where Conor Bradley is injured and Jeremie Frimpong is the only fit senior option, and they did not get it.",
-      category: "transfers",
-    },
-    {
-      title: "Forest Bid £30m For Trey Nyoni, Are Told No, And Liverpool Move To Open Contract Talks (The Times / This Is Anfield, today)",
-      detail:
-        "The one bid Liverpool were glad to reject. Paul Joyce reported Nottingham Forest tabling £25m plus £5m in add-ons for Nyoni late in the day, hunting a midfielder since selling Elliot Anderson to Manchester City, and being told the teenager is not for sale at any stage of this window. The reasoning is straightforward: with Jones gone to Inter there is room in front of him, and Iraola has trusted him through pre-season. Talks over an improved contract are now expected. A club that spent the day being refused spent the evening refusing.",
-      category: "transfers",
-    },
-    {
-      title: "The Record Is Registered: Barcola Available At Portman Road On Friday (Sky Sports / Liverpool FC, today)",
-      detail:
-        "The one piece of the window that did work is now cleared to play. Bradley Barcola, announced on Monday for a guaranteed £106m rising to £123m on a five-year deal, was registered before the deadline and is in line to make his debut at Ipswich on Friday, giving Iraola his marquee winger from the bench if not the start. He chose the No. 29 and credited Anfield and the manager with making the move easy. It remains the largest fee Liverpool have ever paid for a winger and the second-largest in the club's history, behind Isak's £125m, which Manchester City matched for Enzo Fernandez before the window shut. Everything else this summer has to be read against it: one club-record signing, and almost nothing behind him.",
-      category: "transfers",
-    },
-    {
-      title: "Gakpo Sits Down With The Owners To Clear The Air, And Stays (This Is Anfield, today)",
-      detail:
-        "The summer's most public tug-of-war ended in a meeting room. With City's approach dead and Tottenham long since out of it, Cody Gakpo held talks with the ownership to settle a saga that had run since July, and the outcome is that he remains a Liverpool player under contract to 2030. Supporters largely backed him through a window the same reporting called farcical. He is one of the fittest attacking options Iraola carries to Portman Road, and now one of the few whose future is not a question anybody is still asking.",
-      category: "general",
-    },
-    {
-      title: "Chiesa's Father Kills The Serie A Story On The Night Of The Deadline (This Is Anfield, today)",
-      detail:
-        "The denial came from the family, not the club. Enrico Chiesa said publicly that his son is not thinking about leaving, closing off a day of Italian speculation about a return, and Federico stays. It is a stranger outcome than it looks: he is out with the muscle problem he took at the back of his leg in the Como friendly, sat among the exits the club would have sanctioned, and was never a straightforward sale in that condition. He finishes the window still here, still injured, and with the winger ahead of him now costing £123m.",
-      category: "transfers",
-    },
-    {
-      title: "No Midfielder Came: Jones Was Sold In August And Never Replaced (Rousing The Kop / Liverpool.com, today)",
-      detail:
-        "The hole the club spent a fortnight insisting it did not have is the hole it finishes the window with. Curtis Jones went to Inter for £30m in August and no central midfielder arrived behind him, the deadline passing with what Rousing The Kop called little real effort to sign a defensive midfielder. Bournemouth's Alex Scott, the named priority, was priced near £90m and never seriously pursued. Trey Nyoni inherits the minutes by default, and Wataru Endo, available to the final minute with Wolves, Fulham and West Ham all looking and none moving, stays as depth rather than surplus. Iraola told Jamie Carragher on 21 August that the squad was thin and that he hoped for more than one signing; he got one, and it was a goalkeeper for 2027.",
-      category: "transfers",
-    },
-    {
-      title: "Elliott And Figueroa Go Out Together As The Loan Column Closes (TeamTalk, today)",
-      detail:
-        "The two departures Liverpool sanctioned on the final day were both loans. Harvey Elliott, a hundred and forty-nine appearances into a career that had stalled under Iraola, completed his season at Valencia after Monday's medical, structured deliberately without an option to buy before June. The young forward Keyrol Figueroa went to Port Vale. Set against one incoming teenager who stays in Belgium, that is the whole of deadline day, and it closes an outgoing column that has run far longer than the incoming one since June: eleven gone, five in, one of them on loan and one of them not due for two years.",
-      category: "transfers",
-    },
-    {
-      title: "Bajcetic Goes Home To Celta For £1.3m, Buy-Back Attached (Liverpool FC / This Is Anfield, today)",
-      detail:
-        "A permanent transfer, not the termination the earlier reporting expected. Liverpool confirmed Stefan Bajcetic's move to Celta Vigo for a fee around £1.3m, roughly €1.5m plus add-ons, on a three-year contract to 2029 with a buy-back clause retained. He leaves after more than five years at Anfield, having last played for the first team in May 2024, three seasons broken by injury behind him and a boyhood club in front. The buy-back is the club hedging on a player it could not keep fit and did not want to lose entirely.",
-      category: "transfers",
-    },
-    {
-      title: "Gomez Trains Fully And The Whole Back Line Waits On Him (The Athletic / Sports Mole, today)",
-      detail:
-        "One returning defender is now the entire plan. Joe Gomez, absent for both league games with the muscle injury taken at Sunderland in late July, has completed full training and is pushing for Portman Road on Friday. With Upamecano gone to a new Bayern contract, Leoni and Bradley still out and the Gusto loan refused, his availability would give Iraola a fourth senior centre-back for the first time this season. Ekitike, meanwhile, remains months from the Achilles rupture he suffered in April and may miss most of the campaign.",
+        "The one team-news thread moving before Friday tightened rather than cleared. Joe Gomez, out of both league games with the muscle injury taken in the Sunderland friendly on 26 July, is back in full training and reported to have a chance of featuring at Ipswich, but Iraola publicly cooled it this week, repeating that a muscle problem of this kind he normally puts at about a month and that the defender is still some weeks short of himself. With Bradley on knee rehab and eyed for November and no defender bought, his fitness is the whole of Liverpool's deadline-day flexibility.",
       category: "injuries",
     },
     {
-      title: "Thirteenth, And Nothing To Buy Until January (ESPN, today)",
+      title: "'Reds Continue To Leak Goals': The Ipswich Preview Reads As A Warning (Goal.com, today)",
       detail:
-        "The table did not move because nobody played, and now it has to be lived with. Two points from two 2-2 draws, a goal difference of nothing, thirteenth. Manchester City, Arsenal, promoted Hull and Chelsea all sit on six; Fulham, Coventry, Palace, Villa and Tottenham are yet to take a point between them. Liverpool's squad is closed until the winter window: Jacquet at £60m, Munoz at £34m, Araujo on loan, the club-record Barcola, and Brughmans for 2027. That is the whole of it, against eleven senior departures.",
+        "Goal.com's Wednesday preview led not on Liverpool's attack but on their defence, four conceded in two games and not a clean sheet in sight, against a promoted side whose two matches have already produced ten goals. Gary O'Neil, a former Liverpool academy coach who took Ipswich after Kieran McKenna stepped down, has a spirited team that beat Sunderland and then shipped five at Old Trafford. The read is a Friday night that is kind on paper and awkward in fact: Ipswich will give chances and take their own.",
       category: "matches",
     },
-
     {
-      title: "Ipswich Away, Friday Night: Twelfth Hosting Thirteenth, With Two New Faces To Place (Liverpool FC / Goal, 1d ago)",
+      title: "The Draw Habit: Iraola Twenty Unbeaten, And Twelve Of Them Level (Opta Analyst, today)",
       detail:
-        "Three days after the window shut, the football resumes at Portman Road. Gary O'Neil's Ipswich sit twelfth on three points, one place and one point above Liverpool, and arrive from a 5-2 beating at Old Trafford; he is without Azor Matusiwa, Jack Taylor and Jaden Philogene-Bidace. Liverpool have drawn both games 2-2 and have not led for a single minute of the season. Barcola is registered and available, Gomez is pushing to be involved, and Iraola takes an unreinforced squad into the first fixture of the closed-window season.",
+        "The record that flatters and the record that warns are the same record. Iraola is unbeaten in twenty Premier League matches across Bournemouth and Liverpool, Opta note, but eight wins to twelve draws is the shape of it, and both Liverpool games have followed the pattern: out-shot opponents, gone behind, drawn level late. It is a manager's imprint arriving faster than his results, a side that does not lose and does not yet win, and September is where the draws have to start turning into three points.",
+      category: "tactics",
+    },
+    {
+      title: "Not A Minute In Front: Two Games, Two Comebacks, And A Slow-Start Problem (Opta Analyst / Squawka, today)",
+      detail:
+        "Liverpool have not led for a single minute of the league season. They trailed inside the half-hour at Newcastle and again at Anfield, where Forest generated 1.29 first-half xG to Liverpool's 0.25 before Isak and Munoz retrieved it. Both points came from stoppage-time or late equalisers, Szoboszlai's ninth-minute-of-added-time penalty on Tyneside the most extreme. Chasing games is thrilling once and unsustainable as a plan, and the slow start is the first thing Iraola's favourable September has to fix.",
+      category: "tactics",
+    },
+    {
+      title: "Barcola Registered And In Line For A Debut, The Summer's One Argument For Itself (Sky Sports / Liverpool FC, 1d ago)",
+      detail:
+        "The piece of the window that worked is cleared to play. Bradley Barcola, the guaranteed £106m rising to £123m signed on a five-year deal, was registered before Tuesday's deadline and is in line to feature at Ipswich on Friday, giving Iraola his marquee winger from the bench if not the start. It stays the largest fee Liverpool have paid for a winger and the second-largest in their history behind Isak's £125m, which City matched for Enzo Fernandez on deadline day. Everything else this summer is read against it: one club-record arrival, and little behind him.",
+      category: "transfers",
+    },
+    {
+      title: "The Squad Is Closed Until January: Eleven Out, Five In, One Not Due For Two Years (Rousing The Kop, 1d ago)",
+      detail:
+        "The ledger is fixed now and it reads thin for a side sitting thirteenth. In: Jacquet at £60m, Munoz at £34m, Araujo on loan, the club-record Barcola, and the eighteen-year-old goalkeeper Lucca Brughmans, announced on deadline day for up to £30m and loaned straight back to Genk until 2027. Out: eleven senior bodies, Salah, Konate, Robertson and Jones among them. No midfielder replaced Jones, no right-back came after the Malo Gusto loan was refused, and Iraola takes what he has into the winter.",
+      category: "transfers",
+    },
+    {
+      title: "Gakpo Stays, And The Left Flank Is The One Question Nobody Is Still Asking (This Is Anfield, 1d ago)",
+      detail:
+        "The summer's longest saga ended in a meeting room rather than a medical. With City's approach dead and Tottenham long gone, Cody Gakpo settled his future with the ownership on deadline day and remains a Liverpool player to 2030. He started the left against Forest and made Isak's equaliser, and Barcola's arrival threatens the right flank rather than his. In a window the same reporting spent a fortnight calling farcical, he is one of the few whose future is no longer a live question on the team sheet.",
+      category: "general",
+    },
+    {
+      title: "Ekitike Still Months Away, And Isak Carries The Line Alone (Sports Mole / Liverpool.com, 1d ago)",
+      detail:
+        "The forward department is one fit senior striker deep. Hugo Ekitike remains months from the Achilles rupture suffered in April and is not expected before December, and with no forward signed this summer there is no alternative nine behind Alexander Isak, who scored his first of the season against Forest. Gakpo is the false-nine fallback if one is needed. It is the clearest reason the window's inactivity matters on the pitch rather than the balance sheet: a single injury up top would leave Iraola improvising.",
+      category: "injuries",
+    },
+    {
+      title: "Thirteenth, And The Table Now Has To Be Moved On Grass (ESPN, 1d ago)",
+      detail:
+        "Nobody has played since Saturday, so the table is the one the window left: two points from two 2-2 draws, a goal difference of nothing, thirteenth. Manchester City, Arsenal, promoted Hull and Chelsea all sit on the maximum six; Fulham, Coventry, Palace, Villa and Tottenham are yet to take a point between them. Ipswich, twelfth on three, are a place and a point above Liverpool and host them first. From here the only thing that changes the standings is a result, and Liverpool have not had one yet.",
+      category: "matches",
+    },
+    {
+      title: "Bournemouth On The Twentieth, And A Month That Folds Cups In Around The League (Liverpool FC / Sky Sports, 1d ago)",
+      detail:
+        "The September map is set. After Ipswich away on Friday comes Fulham at home, then Bournemouth away on Sunday 20 September at 2pm, confirmed for Sky, the visit to the club that kept Alex Scott and never sold. A Carabao Cup tie and the start of the Champions League phase fold in around them before the international break, which is where the five-in-seventeen count comes from. Iraola's return to the Vitality, the ground he made his name at, is the sentimental line in an otherwise unforgiving fortnight.",
       category: "matches",
     },
   ],
   sources: [
-    "Sky Sports",
-    "Yahoo Sports",
-    "Liverpool.com",
-    "The Times",
     "This Is Anfield",
-    "TeamTalk",
+    "Liverpool.com",
+    "Sports Mole",
+    "Goal",
+    "Opta Analyst",
+    "Squawka",
+    "Sky Sports",
+    "Liverpool FC",
     "Rousing The Kop",
     "ESPN",
-    "The Athletic",
-    "Sports Mole",
-    "Liverpool FC",
-    "Goal",
   ],
 };
 
@@ -652,7 +642,7 @@ export const NEWS_DIGEST = {
 // next edition and then into the auditor's blind spot.
 
 export const OPPOSITION = {
-  generatedAt: "2026-09-01T22:20:00Z",
+  generatedAt: "2026-09-02T08:15:00Z",
   opponent: "Ipswich Town",
   shortName: "IPS",
   fixture: {
@@ -666,9 +656,9 @@ export const OPPOSITION = {
   formation: "4-2-3-1",
   leaguePosition: 12,
   summary:
-    "A promoted side a place and a point above Liverpool, and a genuinely awkward one. Gary O'Neil has kept the 4-2-3-1 he built at Bournemouth and Wolves, and Ipswich have spent real money on it: Abdul Fatawu from Leicester for a reported £20m, Daizen Maeda from Celtic on the back of twenty league goal involvements, Issa Diop from Fulham, Sasa Lukic to sit in front of them. Their two games have produced ten goals, a 2-1 win over Sunderland and a 5-2 beating at Old Trafford in which Bruno Fernandes took a hat-trick off them. That is the read: they will give Liverpool chances, and they will take their own. Liverpool have not led a single minute of the season and have conceded four in two, which is the fixture in one sentence.",
+    "The kind of promoted side that reads as a gift and plays as a trap, and a former Anfield academy coach in the home dugout. Gary O'Neil, who came up through Liverpool's youth set-up before taking Ipswich when Kieran McKenna stepped down, has kept the 4-2-3-1 he built at Bournemouth and Wolves and spent real money on it: Abdul Fatawu from Leicester for a reported £20m, Daizen Maeda from Celtic on the back of twenty league goal involvements, Issa Diop from Fulham, Sasa Lukic to anchor it. Their two matches have already produced ten goals, a 2-1 win over Sunderland and a 5-2 loss at Old Trafford. Goal.com's preview led on the same fact Liverpool would rather ignore: the Reds keep leaking goals, four in two and no clean sheet, into a side that will give chances and take its own.",
   shape:
-    "4-2-3-1 with Lukic and Núñez as the double pivot, Fatawu and Maeda wide of Enciso, Emersonn alone up top. The full-backs, Davis on the left especially, push high, and Scherpen goes long early: Forest scored at Anfield off exactly that pattern eight days ago, a goalkeeper's long ball down the middle that Liverpool never dealt with.",
+    "4-2-3-1 with Lukic and Núñez as the double pivot, Fatawu and Maeda wide of Enciso and Emersonn alone up top. The full-backs push high, Davis on the left especially, and the six-foot-nine Scherpen goes long early. It is precisely the pattern that undid Liverpool at Anfield on Saturday: a goalkeeper's long ball down the middle, a first touch conceded, and Forest ahead inside twenty-four minutes before the game was retrieved.",
   keyPlayers: [
     {
       name: "Emersonn",
@@ -710,7 +700,7 @@ export const OPPOSITION = {
     { date: "2026-08-22", opponent: "Sunderland", home: true, score: "2-1", result: "W", note: "Emersonn and Jack Clarke scored on the opening weekend." },
   ],
   liverpoolAngle:
-    "Two things decide this. Ipswich attack the right side, where Conor Bradley is on knee rehab and Jeremie Frimpong is the only fit senior option, and the deadline-day loan approach for Malo Gusto was refused. And Liverpool have been second best in the underlying numbers already this season without paying for it. Forest out-created them at Anfield and drew; a promoted side with Fatawu and Maeda in behind will not be as forgiving of a first half spent at 0.25 xG.",
+    "The fixture turns on two documented Liverpool weaknesses. Fatawu runs at right-backs, and Liverpool's right-back department is one fit senior man: Frimpong alone, with Bradley on knee rehab and eyed for November, the Gusto loan refused, and Gomez still weeks short by Iraola's own account. And Liverpool have not led a minute of the season, generating just 0.25 first-half xG at Anfield on Saturday before rescuing a draw. A promoted side with Maeda on the last shoulder and Scherpen launching it long will not be as forgiving of another slow start as Forest were, which is why the favourable-on-paper reading and the leaking-goals reading are the same match.",
   modelLine: {
     source: "Squawka Signal",
     liverpool: 59,
@@ -722,11 +712,11 @@ export const OPPOSITION = {
 };
 
 export const FORM_TRENDS = {
-  generatedAt: "2026-09-01T22:20:00Z",
+  generatedAt: "2026-09-02T08:15:00Z",
   competition: "PL",
   played: 2,
   headline:
-    "Two 2-2 draws, not a minute spent in front, and underlying numbers that say the results have been kind rather than cruel. Liverpool have out-shot opponents heavily and still conceded four, and against Forest they were beaten on expected goals at Anfield. Andoni Iraola's unbeaten run reads well and means very little: twenty Premier League matches without defeat, eight wins and twelve draws, eighteen of them at Bournemouth. The pattern he has brought with him is a side that draws.",
+    "Into a favourable September, the underlying numbers say Liverpool have been rescued rather than robbed. Two 2-2 draws, four goals conceded, and not a minute spent in front: they out-shot both opponents and were still beaten on expected goals at Anfield by Forest, whose 1.29 first-half xG dwarfed Liverpool's 0.25. Iraola's twenty-match unbeaten run reads well and hides the shape underneath it, eight wins to twelve draws, a manager's imprint arriving before his results. The volume of chances is real and the quality is not, which is the number a kind fixture list has to start correcting on Friday.",
   diagnosis: [
     {
       label: "Slow starts",
@@ -794,17 +784,18 @@ export const FORM_TRENDS = {
     note: "xG against is a partial total: only the Forest figure (2.30) is confirmed, so no season aggregate is published. Goals for and against are complete.",
   },
   optaFacts: [
-    "Iraola is the 12th manager to go 20 consecutive Premier League matches unbeaten (W8 D12), and the first to do it across spells at two different clubs: 18 with Bournemouth, 2 with Liverpool.",
-    "Liverpool have failed to win either of their opening two Premier League games for only the second time in the last 14 seasons; the other was 2022-23.",
-    "Victor Munoz is the 11th different Spanish player to score for Liverpool in the Premier League, the joint-most of any club alongside Manchester City.",
+    "Liverpool have not held a lead for a single minute of the Premier League season, trailing inside the opening half-hour in both matches before drawing level.",
+    "Iraola is unbeaten in 20 consecutive Premier League matches (W8 D12), the first manager to reach 20 across spells at two different clubs: 18 with Bournemouth, 2 with Liverpool.",
+    "Liverpool have failed to win either of their opening two league games for only the second time in 14 seasons; the other was 2022-23.",
+    "Both Liverpool points have come from the 60th minute or later: Isak and Munoz retrieved the Forest draw, and Szoboszlai's penalty at Newcastle landed in the ninth minute of stoppage time.",
   ],
   sources: ["Opta Analyst", "Squawka", "NBC Sports", "ESPN"],
 };
 
 export const SQUAD_LOAD = {
-  generatedAt: "2026-09-01T22:20:00Z",
+  generatedAt: "2026-09-02T08:15:00Z",
   headline:
-    "The squad is now closed until January, which turns every absence into a arithmetic problem rather than a transfer one. Eleven senior players left this summer and five arrived, one of whom stays in Belgium until 2027. Iraola used 36 players across six pre-season games while saying publicly that the squad was thin; he goes into September with four first-teamers out and a back line waiting on one man's hamstring.",
+    "Closed until January, the squad turns every absence into arithmetic rather than a transfer, and it faces a September of five games in seventeen days. Eleven senior players left this summer and five arrived, one of them a goalkeeper who stays in Belgium until 2027. Iraola goes into a relentless month with four first-teamers out and a back line waiting on Joe Gomez, whom he has trained fully but publicly kept at arm's length, and no reinforcement possible whatever the pile-up costs.",
   minutesNote:
     "Premier League minutes are not published here yet. Only two league games have been played and no reliable per-player league minutes have been sourced, so this board tracks availability, starts and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   unavailable: [
@@ -814,7 +805,7 @@ export const SQUAD_LOAD = {
     { name: "Federico Chiesa", issue: "Muscle injury (Como friendly)", expected: "No return date given", note: "Stays at the club after his father publicly closed off the Serie A talk on deadline night.", source: "This Is Anfield / Squawka" },
   ],
   returning: [
-    { name: "Joe Gomez", issue: "Muscle (Sunderland, late July)", status: "Full training", note: "Pushing to be involved at Portman Road. Would give Iraola a fourth senior centre-back for the first time this season, and cover at right-back.", source: "The Athletic / Sports Mole" },
+    { name: "Joe Gomez", issue: "Muscle (Sunderland, 26 July)", status: "Full training", note: "Back in full training with a chance of featuring at Ipswich, but Iraola cooled it this week, repeating he puts a muscle problem of this kind at about a month and that Gomez is still some weeks short. His return would give Iraola a fourth senior centre-back and cover at right-back.", source: "Liverpool.com / Sports Mole" },
   ],
   startersLastMatch: {
     match: "Liverpool 2-2 Nott'm Forest, 29 August",
@@ -832,14 +823,14 @@ export const SQUAD_LOAD = {
 };
 
 export const SEASON_PROJECTION = {
-  generatedAt: "2026-09-01T22:20:00Z",
+  generatedAt: "2026-09-02T08:15:00Z",
   played: 2,
   points: 2,
   pointsPerGame: 1.0,
   projectedPoints: 38,
   projectedFinish: "Lower mid-table on current pace",
   headline:
-    "Two points from two is a 38-point season, which is a relegation-adjacent number rather than a European one. The sample is two games and means very little on its own, but it is worth stating plainly while it is still cheap to fix: Liverpool are averaging a point a game and have not led for a minute.",
+    "A point a game projects to 38, a survival number rather than a European one, and September is where a two-game pace stops being an excuse and starts being a trend. The sample is tiny and worth saying so, but it is cheap to fix now and expensive to fix in November: five matches in seventeen days, three of them against sides currently between twelfth and sixteenth, are the chance to convert draws into the wins the projection is missing.",
   thresholds: [
     { label: "Champions League (top 5)", points: 68, gap: 30, note: "Historical par for fifth place in recent seasons. Requires roughly 1.83 points per game from here." },
     { label: "Europa League", points: 60, gap: 22, note: "Roughly sixth place par. Requires about 1.61 points per game from here." },
@@ -850,13 +841,13 @@ export const SEASON_PROJECTION = {
     "Threshold points are historical norms for those finishing places, not predictions. They are shown to convert a points-per-game pace into something legible, and they move as the season's own table develops.",
   runIn: [
     { date: "2026-09-04", opponent: "Ipswich Town", home: false, competition: "PL", oppPosition: 12, difficulty: "medium" },
-    { date: "2026-09-12", opponent: "Fulham", home: true, competition: "PL", oppPosition: 16, difficulty: "medium" },
+    { date: "2026-09-12", opponent: "Fulham", home: true, competition: "PL", oppPosition: 16, difficulty: "easy" },
     { date: "2026-09-20", opponent: "Bournemouth", home: false, competition: "PL", oppPosition: 14, difficulty: "medium" },
     { date: "2026-10-11", opponent: "Manchester City", home: true, competition: "PL", oppPosition: 1, difficulty: "hard" },
     { date: "2026-10-17", opponent: "Brentford", home: false, competition: "PL", oppPosition: 5, difficulty: "hard" },
     { date: "2026-10-24", opponent: "Brighton", home: true, competition: "PL", oppPosition: 9, difficulty: "medium" },
   ],
   runInVerdict:
-    "The next three are the season's opening in miniature: Ipswich away, Fulham at home, Bournemouth away, all sides currently between twelfth and sixteenth. Nine points from those is a corrected start; four or fewer and the Manchester City visit on 11 October arrives with the table already looking wrong. Champions League football against Atletico Madrid and Villarreal, plus a Carabao Cup tie with Tottenham, are folded in around them.",
+    "Three winnable league games open the month and define it: Ipswich away, Fulham at home, Bournemouth away, all currently between twelfth and sixteenth. Nine points is the corrected start a favourable draw demands; four or fewer and the Manchester City visit on 11 October arrives with the table already looking wrong. The Champions League phase against Atletico Madrid and Villarreal, plus a Carabao Cup tie with Tottenham, are folded in around them, which is where five games in seventeen days comes from.",
   sources: ["ESPN", "Sky Sports", "NBC Sports", "Opta Analyst"],
 };

@@ -484,12 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Eleven o'clock has come and gone, and the whole of Liverpool's
-          deadline day is a six-foot-seven eighteen-year-old who stays in
-          Belgium until 2027. <em>Lucca Brughmans</em> in, loaned back to Genk
-          the same hour; a late approach for <em>Malo Gusto</em> refused. Only
-          <em>Barcola</em>, £123m and registered, argues for the summer.
-          Thirteenth, two draws, <em>Ipswich</em> on Friday.
+          The market has been shut since Tuesday night, and now the schedule
+          speaks: five games in seventeen days, <em>Ipswich</em> away on Friday
+          first. Andoni Iraola calls the fixtures kind and says his side cannot
+          hide behind a quiet deadline day, from two 2-2 draws and not a minute
+          in front. <em>Barcola</em>, £123m, is registered. <em>Gomez</em>,
+          maybe. Thirteenth, and no help until January.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,23 +520,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>{" "}
-              the window closed, and Liverpool's only deadline-day signing was a
-              goalkeeper who will not be here until 2027. <em>Lucca Brughmans</em>,
-              eighteen, six foot seven, already first choice at Genk, arrives on a
-              six-year contract for a package reported between £28m and £30m, and
-              goes back to Belgium for the season within the same announcement.
-              Arsenal and Real Madrid were beaten to him, which is a sentence the
-              club would rather you read than the next one: no midfielder came to
-              replace Curtis Jones, no winger, and no right-back, the last approach
-              of the summer a loan bid for Chelsea's <em>Malo Gusto</em> that
-              Chelsea refused because they would only sell him outright. On the
-              twenty-first of August Andoni Iraola told Jamie Carragher his squad
-              was thin and that he hoped for more than one arrival. He got one, and
-              he cannot pick him. Nottingham Forest's £30m for Trey Nyoni was
-              rejected, Cody Gakpo cleared the air with the owners and stays, and
-              the side that started the season thirteenth is precisely the side
-              that must climb out of it.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and the transfer window is two days closed, which means the arguing
+              stops and the football starts. Liverpool play five times in seventeen
+              September days, beginning at <em>Ipswich</em> on Friday night, and
+              Andoni Iraola has called the run kind on paper while refusing his
+              squad the excuse of a quiet deadline day. He begins it waiting on one
+              man: Joe Gomez, back in full training and talked down by his own
+              manager, who still puts the muscle injury at about a month. Behind
+              Gomez there is no reinforcement and there will not be until January:
+              no midfielder to replace Curtis Jones, no right-back after Chelsea
+              refused to loan <em>Malo Gusto</em>, one club-record winger in
+              Bradley Barcola registered just in time to play. Two draws, four
+              goals conceded, not a minute spent in front, the numbers of a side
+              that does not lose and does not yet win. Thirteenth is not a verdict.
+              September is where it becomes one, or stops being one.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -544,14 +542,14 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and five
               dispatches from the writers who never clock off. There is the
-              teenage goalkeeper bought and immediately sent away; the phone call
-              to Chelsea that failed on grammar rather than money; the thirty
-              million Liverpool were glad to turn down; Gakpo and Chiesa both
-              talked into staying; and the ledger of a summer, eleven out and
-              five in. Read them in order. The season opened at Newcastle with a
-              2-2 on the twenty-third of August and found another at Anfield on
-              the twenty-ninth, Ipswich away comes on Friday night, and the
-              market is shut until January.
+              calendar that opened its mouth the moment the window shut; the
+              defender back in training and talked down by his own manager; the
+              academy boy now in the home dugout at Portman Road; the ledger of a
+              summer, eleven out and five in; and the twenty games unbeaten that
+              have not once included a lead. Read them in order. The season opened
+              at Newcastle with a 2-2 on the twenty-third of August and found
+              another at Anfield on the twenty-ninth, Ipswich away comes on Friday
+              night, and the market is shut until January.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3760,7 +3758,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "One signing. He isn't coming yet."
+        "Twenty unbeaten, and not a minute ahead."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
