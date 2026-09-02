@@ -17,6 +17,8 @@ export default defineConfig({
         { from: './src/playerData.js', exportName: 'NEXT_MATCH',   resource: 'next-match' },
         { from: './src/playerData.js', exportName: 'STANDINGS',    resource: 'standings' },
         { from: './src/playerData.js', exportName: 'STANDINGS_COMMENTARY', resource: 'standings-commentary' },
+        { from: './src/playerData.js', exportName: 'OPPOSITION',   resource: 'opposition' },
+        { from: './src/playerData.js', exportName: ['FORM_TRENDS', 'SQUAD_LOAD', 'SEASON_PROJECTION'], resource: 'analysis' },
         { from: './src/lineupData.js', exportName: ['FORMATIONS', 'ALTERNATIVES', 'PREDICTION_NOTE', 'SLOT_CONFIDENCE', 'SLOT_RATIONALE', 'DEFAULT_FORMATION'], resource: 'lineup' },
       ],
     }),

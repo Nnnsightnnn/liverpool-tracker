@@ -48,6 +48,14 @@ const argOf = (flag, dflt = null) => {
 };
 const BASE = argOf("--base", "HEAD");
 const JSON_OUT = argv.includes("--json");
+// --structural: this commit changes CODE or INFRASTRUCTURE, not the edition's prose.
+// CHECK 9 (rotation) compares editorial copy against the previous commit and will
+// fail every such commit by design, because the copy is deliberately unchanged.
+// Passing this flag skips ONLY the rotation checks and prints a loud banner; every
+// factual, consistency, timestamp and regression check still runs. Do NOT use it to
+// ship an edition whose prose you simply did not rotate — that is the exact failure
+// the rotation checks exist to catch.
+const STRUCTURAL = process.argv.includes("--structural");
 const CHANGED_NAMES = (argOf("--changed-names", "") || "")
   .split(",").map((s) => s.trim()).filter(Boolean);
 
@@ -113,6 +121,19 @@ const cur = {
   root: readFileSync(join(REPO, ROOT_JSX), "utf8"),
 };
 
+// ─── window state ──────────────────────────────────────────────────────────
+// The transfer ledger moved to src/transferArchive.js when the summer window
+// shut on 1 Sep 2026. While `WINDOW.open` is false the transfer checks below are
+// skipped and the in-season analysis checks replace them. Flipping WINDOW.open
+// back to true in January re-arms every transfer check automatically, so this
+// script does not need editing twice a year.
+let ARCHIVE = null;
+try {
+  ARCHIVE = await import(pathToFileURL(join(REPO, "src/transferArchive.js")).href);
+} catch { /* archive absent — treat as window-open legacy layout */ }
+const WINDOW_OPEN = ARCHIVE ? (ARCHIVE.WINDOW?.open !== false) : true;
+const TT_SOURCE = ARCHIVE?.TRANSFER_TARGETS ?? cur.pd.TRANSFER_TARGETS;
+
 let base = null;
 try {
   const pdSrc = showAt(BASE, PD);
@@ -133,11 +154,17 @@ const TODAY = todayISO();
 {
   const stamps = [
     ["NEWS_DIGEST.generatedAt", cur.pd.NEWS_DIGEST?.generatedAt],
-    ["TRANSFER_TARGETS.generatedAt", cur.pd.TRANSFER_TARGETS?.generatedAt],
     ["STANDINGS_COMMENTARY.generatedAt", cur.pd.STANDINGS_COMMENTARY?.generatedAt],
     ["COVER_IMAGE.generatedAt", cur.pd.COVER_IMAGE?.generatedAt],
     ["PREDICTION_NOTE.generated_at", cur.ld.PREDICTION_NOTE?.generated_at],
+    // In-season analysis surfaces. These carry the same daily obligation the
+    // transfer ledger used to: if they are not re-stamped, they are not refreshed.
+    ["OPPOSITION.generatedAt", cur.pd.OPPOSITION?.generatedAt],
+    ["FORM_TRENDS.generatedAt", cur.pd.FORM_TRENDS?.generatedAt],
+    ["SQUAD_LOAD.generatedAt", cur.pd.SQUAD_LOAD?.generatedAt],
+    ["SEASON_PROJECTION.generatedAt", cur.pd.SEASON_PROJECTION?.generatedAt],
   ];
+  if (WINDOW_OPEN) stamps.push(["TRANSFER_TARGETS.generatedAt", TT_SOURCE?.generatedAt]);
   for (const [label, v] of stamps) {
     if (!v) fail("timestamps", `${label} is missing or null`);
     else if (!String(v).startsWith(TODAY)) fail("timestamps", `${label} = ${v}, expected ${TODAY}`);
@@ -207,8 +234,10 @@ const TODAY = todayISO();
 }
 
 // ─── CHECK 5 — transfer ledger schema + crests ─────────────────────────────
+// Schema is validated whenever a ledger exists (a malformed archive would break
+// January), but only the OPEN window makes it a daily obligation.
 {
-  const TT = cur.pd.TRANSFER_TARGETS ?? {};
+  const TT = TT_SOURCE ?? {};
   const tiers = new Set(["hot", "warm", "cool", "done", "dead"]);
   const stiers = new Set(["S", "A", "B", "C"]);
   for (const e of [...(TT.incoming ?? []), ...(TT.outgoing ?? [])]) {
@@ -220,11 +249,72 @@ const TODAY = todayISO();
       if (!stiers.has(s.tier)) fail("targets", `${e.name}: source "${s.name}" tier "${s.tier}" invalid`);
     }
   }
-  for (const e of TT.incoming ?? []) {
-    if (e.currentClub && !(cur.pd.TEAM_LOGOS ?? {})[e.currentClub]) {
-      fail("crests", `no TEAM_LOGOS crest for target club "${e.currentClub}" (${e.name})`);
+  if (WINDOW_OPEN) {
+    for (const e of TT.incoming ?? []) {
+      if (e.currentClub && !(cur.pd.TEAM_LOGOS ?? {})[e.currentClub]) {
+        fail("crests", `no TEAM_LOGOS crest for target club "${e.currentClub}" (${e.name})`);
+      }
     }
   }
+}
+
+// ─── CHECK 5b — in-season analysis coherence ───────────────────────────────
+// These replace the transfer checks while the window is shut. They are cheap and
+// they catch the two failure modes the analysis surfaces actually have: a
+// dossier left pointing at last week's opponent, and a projection that disagrees
+// with the live table it claims to be derived from.
+if (!WINDOW_OPEN) {
+  const OPP = cur.pd.OPPOSITION;
+  const NM = cur.pd.NEXT_MATCH;
+  if (!OPP) fail("analysis", "OPPOSITION export is missing while the window is shut");
+  else {
+    if (NM?.opponent && OPP.opponent !== NM.opponent) {
+      fail("analysis", `OPPOSITION.opponent "${OPP.opponent}" != NEXT_MATCH.opponent "${NM.opponent}"`);
+    }
+    if (NM?.date && OPP.fixture?.date && OPP.fixture.date !== NM.date) {
+      fail("analysis", `OPPOSITION.fixture.date ${OPP.fixture.date} != NEXT_MATCH.date ${NM.date}`);
+    }
+    if (!(OPP.keyPlayers ?? []).length) fail("analysis", "OPPOSITION.keyPlayers is empty");
+    if (!(OPP.predictedXI ?? []).length) warn("analysis", "OPPOSITION.predictedXI is empty");
+    else if (OPP.predictedXI.length !== 11) {
+      fail("analysis", `OPPOSITION.predictedXI has ${OPP.predictedXI.length} names, expected 11`);
+    }
+  }
+
+  const lfcRow = (cur.pd.STANDINGS ?? []).find((r) => r.highlight);
+  const SP = cur.pd.SEASON_PROJECTION;
+  if (!SP) fail("analysis", "SEASON_PROJECTION export is missing while the window is shut");
+  else if (lfcRow) {
+    if (SP.played !== lfcRow.p) fail("analysis", `SEASON_PROJECTION.played ${SP.played} != STANDINGS ${lfcRow.p}`);
+    if (SP.points !== lfcRow.pts) fail("analysis", `SEASON_PROJECTION.points ${SP.points} != STANDINGS ${lfcRow.pts}`);
+    const ppg = lfcRow.p ? lfcRow.pts / lfcRow.p : 0;
+    if (Math.abs((SP.pointsPerGame ?? 0) - ppg) > 0.01) {
+      fail("analysis", `SEASON_PROJECTION.pointsPerGame ${SP.pointsPerGame} != ${ppg.toFixed(2)} from STANDINGS`);
+    }
+    const proj = Math.round(ppg * 38);
+    if (Math.abs((SP.projectedPoints ?? 0) - proj) > 1) {
+      fail("analysis", `SEASON_PROJECTION.projectedPoints ${SP.projectedPoints} != ${proj} (ppg x 38)`);
+    }
+  }
+
+  const FT = cur.pd.FORM_TRENDS;
+  if (!FT) fail("analysis", "FORM_TRENDS export is missing while the window is shut");
+  else {
+    if (lfcRow && FT.played !== lfcRow.p) {
+      fail("analysis", `FORM_TRENDS.played ${FT.played} != STANDINGS ${lfcRow.p}`);
+    }
+    for (const m of FT.matches ?? []) {
+      for (const k of ["xgFor", "xgAgainst"]) {
+        const v = m[k];
+        if (v !== null && (typeof v !== "number" || v < 0 || v > 10)) {
+          fail("analysis", `FORM_TRENDS ${m.opponent}: ${k} = ${v} is not a plausible xG or null`);
+        }
+      }
+      if (!m.source) fail("analysis", `FORM_TRENDS ${m.opponent}: no source named for the numbers`);
+    }
+  }
+
+  if (!cur.pd.SQUAD_LOAD) fail("analysis", "SQUAD_LOAD export is missing while the window is shut");
 }
 
 // ─── CHECK 6 — the two data files agree ────────────────────────────────────
@@ -289,17 +379,30 @@ const TODAY = todayISO();
 }
 
 // ─── CHECK 9 — rotation / echo vs the base revision ────────────────────────
-if (base?.pd) {
+if (STRUCTURAL) {
+  note("rotation", "SKIPPED — --structural passed; this is a code/infrastructure commit, not an edition. Every other check still ran.");
+}
+if (!STRUCTURAL && base?.pd) {
   const a = cur.pd, b = base.pd;
 
   if (firstSentence(a.NEWS_DIGEST?.summary) === firstSentence(b.NEWS_DIGEST?.summary)) {
     fail("rotation", "NEWS_DIGEST.summary lead sentence is unchanged from the previous edition");
   }
-  if (norm(a.TRANSFER_TARGETS?.summary) === norm(b.TRANSFER_TARGETS?.summary)) {
-    fail("rotation", "TRANSFER_TARGETS.summary is unchanged from the previous edition");
-  }
-  if (a.TRANSFER_TARGETS?.generatedAt === b.TRANSFER_TARGETS?.generatedAt) {
-    fail("rotation", "TRANSFER_TARGETS.generatedAt was not re-stamped");
+  if (WINDOW_OPEN) {
+    if (norm(a.TRANSFER_TARGETS?.summary) === norm(b.TRANSFER_TARGETS?.summary)) {
+      fail("rotation", "TRANSFER_TARGETS.summary is unchanged from the previous edition");
+    }
+    if (a.TRANSFER_TARGETS?.generatedAt === b.TRANSFER_TARGETS?.generatedAt) {
+      fail("rotation", "TRANSFER_TARGETS.generatedAt was not re-stamped");
+    }
+  } else {
+    // The opposition dossier is the in-season equivalent: it must move whenever
+    // the fixture does. Rotating its prose between two runs on the SAME opponent
+    // is not required, so this only fires when the opponent itself has changed.
+    if (a.OPPOSITION?.opponent !== b.OPPOSITION?.opponent &&
+        norm(a.OPPOSITION?.summary) === norm(b.OPPOSITION?.summary)) {
+      fail("rotation", "OPPOSITION.opponent changed but OPPOSITION.summary did not");
+    }
   }
 
   const prevTitles = new Set((b.NEWS_DIGEST?.keyTopics ?? []).map((t) => firstWords(t.title, 6)));

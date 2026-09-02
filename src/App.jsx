@@ -5,8 +5,14 @@ import BrandCredit from "./components/BrandCredit.jsx";
 import {
   PLAYERS, RSS_FEEDS, RESULTS, NEXT_MATCH,
   NEWS_DIGEST, STANDINGS, STANDINGS_COMMENTARY, DISPATCHES, TEAM_LOGOS,
-  TRANSFER_TARGETS, TARGET_SCOUTING, COVER_IMAGE,
+  COVER_IMAGE,
+  OPPOSITION, FORM_TRENDS, SQUAD_LOAD, SEASON_PROJECTION,
 } from "./playerData.js";
+// Dormant for the season. The transfer ledger and its whole component family
+// (HeatPill through TargetsView) are kept intact but unrouted, so January is a
+// nav line and a route, not a rebuild. Vite tree-shakes them out of the bundle
+// while nothing renders TargetsView.
+import { TRANSFER_TARGETS, TARGET_SCOUTING } from "./transferArchive.js";
 import LineupView from "./LineupView.jsx";
 
 // ─── Editorial design tokens ────────────────────────────────────────────────
@@ -310,7 +316,8 @@ const NAV_ITEMS = [
   { key: "squad",      label: "Squad" },
   { key: "lineup",     label: "Lineup" },
   { key: "standings",  label: "Standings" },
-  { key: "targets",    label: "Targets" },
+  { key: "opposition", label: "Opposition" },
+  { key: "analysis",   label: "Analysis" },
   { key: "dispatches", label: "Dispatches" },
   { key: "news",       label: "News" },
 ];
@@ -416,7 +423,7 @@ function CoverView({ onJump }) {
       { label: "Goals For",       value: String(gf).padStart(2, "0") },
       { label: "Goals Against",   value: String(ga).padStart(2, "0") },
       { label: "Position",        value: lfc ? `${lfc.pos}${["st","nd","rd"][lfc.pos-1] || "th"}` : "—" },
-      { label: "Champions League", value: "Secured" },
+      { label: "Points/Game",     value: (lfc && lfc.p ? (lfc.pts / lfc.p) : 0).toFixed(2) },
     ];
   }, []);
 
@@ -2894,6 +2901,494 @@ function TargetsView() {
   );
 }
 
+// ─── OPPOSITION VIEW ───────────────────────────────────────────────────────
+// Replaced the Transfer Targets view on 1 Sep 2026, the night the window shut.
+// Same editorial furniture, pointed at the next opponent instead of the market.
+
+function DossierLabel({ children, style = {} }) {
+  return (
+    <div style={{
+      fontSize: 10, letterSpacing: "0.2em", textTransform: "uppercase",
+      color: T.ivoryFaint, fontFamily: T.sans, fontWeight: 600, marginBottom: 10, ...style,
+    }}>{children}</div>
+  );
+}
+
+function SeverityDot({ level }) {
+  const map = { critical: T.red, high: "#E8833A", medium: T.gold, low: T.ivoryFaint, positive: "#5FB98A" };
+  return (
+    <span style={{
+      display: "inline-block", width: 8, height: 8, borderRadius: "50%",
+      background: map[level] || T.ivoryFaint, marginRight: 10, flexShrink: 0,
+    }} />
+  );
+}
+
+function OppositionView() {
+  const o = OPPOSITION || {};
+  const fx = o.fixture || {};
+  const kickoff = fx.date
+    ? new Date(fx.date).toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" })
+    : null;
+  const refreshed = o.generatedAt
+    ? new Date(o.generatedAt).toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" })
+    : null;
+
+  return (
+    <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
+      <SectionHead
+        title="Opposition"
+        meta={<>{fx.competition === "PL" ? "Premier League" : fx.competition}<br />{kickoff}{refreshed ? <><br /><span style={{ color: T.ivoryFaint, fontSize: 11 }}>Refreshed {refreshed}</span></> : null}</>}
+      />
+
+      {/* Hero */}
+      <div style={{
+        display: "flex", alignItems: "center", gap: 28, flexWrap: "wrap",
+        paddingBottom: 28, borderBottom: `1px solid ${T.ruleStrong}`, marginBottom: 32,
+      }}>
+        <TeamCrest team={o.opponent} size={64} />
+        <div style={{ flex: "1 1 260px" }}>
+          <div style={{
+            fontFamily: T.serif, fontSize: 42, lineHeight: 1.05, color: T.ivory,
+            letterSpacing: "-0.02em", marginBottom: 8,
+          }}>{o.opponent}</div>
+          <SmallCaps>
+            {o.manager} · {o.formation} · {fx.home ? "Home" : "Away"} at {fx.venue}
+            {o.leaguePosition ? ` · ${o.leaguePosition}th` : ""}
+          </SmallCaps>
+        </div>
+        {o.modelLine && (
+          <div style={{ textAlign: "right", minWidth: 180 }}>
+            <DossierLabel style={{ marginBottom: 6 }}>{o.modelLine.source}</DossierLabel>
+            <div style={{
+              fontFamily: T.serif, fontSize: 30, color: T.ivory, lineHeight: 1,
+              fontVariantNumeric: "tabular-nums",
+            }}>
+              {o.modelLine.liverpool}<span style={{ fontSize: 16, color: T.ivoryFaint }}>% LFC</span>
+            </div>
+            <div style={{ fontSize: 11, color: T.ivoryFaint, fontFamily: T.sans, marginTop: 6 }}>
+              Draw {o.modelLine.draw}% · {o.shortName} {o.modelLine.opponent}%
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* Summary */}
+      {o.summary && (
+        <div style={{
+          display: "grid", gridTemplateColumns: "140px 1fr", gap: 32,
+          padding: "0 0 28px", marginBottom: 28, borderBottom: `1px solid ${T.rule}`,
+        }} className="standings-commentary">
+          <DossierLabel>The Read</DossierLabel>
+          <div style={{ fontFamily: T.serif, fontStyle: "italic", fontSize: 17, lineHeight: 1.55, color: T.ivoryDim, textWrap: "pretty" }}>
+            {o.summary}
+          </div>
+        </div>
+      )}
+
+      {/* Shape */}
+      {o.shape && (
+        <div style={{
+          display: "grid", gridTemplateColumns: "140px 1fr", gap: 32,
+          padding: "0 0 28px", marginBottom: 28, borderBottom: `1px solid ${T.rule}`,
+        }} className="standings-commentary">
+          <DossierLabel>Shape</DossierLabel>
+          <div style={{ fontFamily: T.serif, fontSize: 16, lineHeight: 1.6, color: T.ivoryDim, textWrap: "pretty" }}>
+            {o.shape}
+          </div>
+        </div>
+      )}
+
+      {/* Predicted XI */}
+      {(o.predictedXI || []).length > 0 && (
+        <div style={{ marginBottom: 36 }}>
+          <DossierLabel>Predicted XI · {o.formation}</DossierLabel>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
+            {o.predictedXI.map((n, i) => (
+              <div key={n} style={{
+                fontFamily: T.sans, fontSize: 12, color: T.ivory,
+                border: `1px solid ${T.rule}`, borderRadius: 2,
+                padding: "8px 12px", background: i === 0 ? "#F4EBD00A" : "transparent",
+              }}>
+                <span style={{ color: T.ivoryFaint, marginRight: 8, fontVariantNumeric: "tabular-nums" }}>
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                {n}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Key players */}
+      {(o.keyPlayers || []).length > 0 && (
+        <div style={{ marginBottom: 36 }}>
+          <DossierLabel>Danger</DossierLabel>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 24 }}>
+            {o.keyPlayers.map((p) => (
+              <div key={p.name} style={{ borderTop: `1px solid ${T.ruleStrong}`, paddingTop: 14 }}>
+                <div style={{ fontFamily: T.serif, fontSize: 21, color: T.ivory, marginBottom: 2 }}>{p.name}</div>
+                <SmallCaps style={{ fontSize: 10 }}>{p.role}</SmallCaps>
+                <div style={{ fontFamily: T.serif, fontSize: 15, lineHeight: 1.55, color: T.ivoryDim, marginTop: 10, textWrap: "pretty" }}>
+                  {p.threat}
+                </div>
+                {p.source && (
+                  <div style={{ fontSize: 10, color: T.ivoryFaint, fontFamily: T.sans, marginTop: 10, letterSpacing: "0.14em", textTransform: "uppercase" }}>
+                    {p.source}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Absentees + recent form */}
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 32, marginBottom: 36 }}>
+        {(o.absentees || []).length > 0 && (
+          <div>
+            <DossierLabel>Their absentees</DossierLabel>
+            {o.absentees.map((a) => (
+              <div key={a.name} style={{
+                display: "flex", justifyContent: "space-between", gap: 12,
+                padding: "10px 0", borderBottom: `1px solid ${T.rule}`,
+              }}>
+                <div>
+                  <div style={{ fontFamily: T.serif, fontSize: 16, color: T.ivory }}>{a.name}</div>
+                  <div style={{ fontSize: 11, color: T.ivoryFaint, fontFamily: T.sans, marginTop: 2 }}>{a.issue}</div>
+                </div>
+                <SmallCaps style={{ color: a.status === "Out" ? T.red : T.gold, whiteSpace: "nowrap" }}>{a.status}</SmallCaps>
+              </div>
+            ))}
+          </div>
+        )}
+        {(o.recentForm || []).length > 0 && (
+          <div>
+            <DossierLabel>Their form</DossierLabel>
+            {o.recentForm.map((r) => (
+              <div key={r.date} style={{ padding: "10px 0", borderBottom: `1px solid ${T.rule}` }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                  <span style={{
+                    width: 22, height: 22, borderRadius: "50%", flexShrink: 0,
+                    display: "grid", placeItems: "center", fontFamily: T.sans, fontSize: 10, fontWeight: 700,
+                    background: r.result === "W" ? "#5FB98A" : r.result === "D" ? T.gold : T.red,
+                    color: r.result === "D" ? T.ink : "#fff",
+                  }}>{r.result}</span>
+                  <span style={{ fontFamily: T.serif, fontSize: 16, color: T.ivory }}>
+                    {r.home ? "vs" : "at"} {r.opponent} {r.score}
+                  </span>
+                </div>
+                {r.note && (
+                  <div style={{ fontFamily: T.serif, fontStyle: "italic", fontSize: 14, color: T.ivoryDim, marginTop: 6 }}>
+                    {r.note}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* Liverpool angle */}
+      {o.liverpoolAngle && (
+        <div style={{
+          padding: "24px 0", borderTop: `1px solid ${T.ruleStrong}`, borderBottom: `1px solid ${T.ruleStrong}`,
+          display: "grid", gridTemplateColumns: "140px 1fr", gap: 32,
+        }} className="standings-commentary">
+          <DossierLabel style={{ color: T.red }}>The Liverpool<br />Angle</DossierLabel>
+          <div style={{ fontFamily: T.serif, fontStyle: "italic", fontSize: 17, lineHeight: 1.55, color: T.ivoryDim, textWrap: "pretty" }}>
+            {o.liverpoolAngle}
+          </div>
+        </div>
+      )}
+
+      {(o.sources || []).length > 0 && (
+        <div style={{ marginTop: 22, fontSize: 10, letterSpacing: "0.16em", textTransform: "uppercase", color: T.ivoryFaint, fontFamily: T.sans }}>
+          Sources · {o.sources.join(" · ")}
+        </div>
+      )}
+    </section>
+  );
+}
+
+// ─── ANALYSIS VIEW ─────────────────────────────────────────────────────────
+// Form and xG, squad availability, and points pace. Three chapters in one view
+// so the nav does not grow a tab per metric.
+
+function XgBar({ label, value, max = 3.5, color = T.ivory, pending = false }) {
+  const pct = value == null ? 0 : Math.max(2, Math.min(100, (value / max) * 100));
+  return (
+    <div style={{ marginBottom: 10 }}>
+      <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 4 }}>
+        <span style={{ fontSize: 11, fontFamily: T.sans, color: T.ivoryFaint, letterSpacing: "0.12em", textTransform: "uppercase" }}>{label}</span>
+        <span style={{ fontSize: 13, fontFamily: T.serif, color: value == null ? T.ivoryFaint : T.ivory, fontVariantNumeric: "tabular-nums" }}>
+          {value == null ? (pending ? "awaiting data" : "—") : value.toFixed(2)}
+        </span>
+      </div>
+      <div style={{ height: 4, background: "#F4EBD012", borderRadius: 2, overflow: "hidden" }}>
+        <div style={{ height: "100%", width: `${pct}%`, background: value == null ? "transparent" : color }} />
+      </div>
+    </div>
+  );
+}
+
+function AnalysisView() {
+  const f = FORM_TRENDS || {};
+  const l = SQUAD_LOAD || {};
+  const p = SEASON_PROJECTION || {};
+  const refreshed = f.generatedAt
+    ? new Date(f.generatedAt).toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" })
+    : null;
+
+  return (
+    <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
+      <SectionHead
+        title="Analysis"
+        meta={<>Form · Load · Pace<br />{f.played} league {f.played === 1 ? "match" : "matches"}{refreshed ? <><br /><span style={{ color: T.ivoryFaint, fontSize: 11 }}>Refreshed {refreshed}</span></> : null}</>}
+      />
+
+      {/* ── Form ── */}
+      {f.headline && (
+        <div style={{
+          display: "grid", gridTemplateColumns: "140px 1fr", gap: 32,
+          padding: "0 0 28px", marginBottom: 32, borderBottom: `1px solid ${T.ruleStrong}`,
+        }} className="standings-commentary">
+          <DossierLabel>Underlying<br />Numbers</DossierLabel>
+          <div style={{ fontFamily: T.serif, fontStyle: "italic", fontSize: 17, lineHeight: 1.55, color: T.ivoryDim, textWrap: "pretty" }}>
+            {f.headline}
+          </div>
+        </div>
+      )}
+
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 32, marginBottom: 36 }}>
+        {(f.matches || []).map((m) => (
+          <div key={m.date} style={{ borderTop: `1px solid ${T.ruleStrong}`, paddingTop: 16 }}>
+            <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 14 }}>
+              <TeamCrest team={m.opponent} size={22} />
+              <span style={{ fontFamily: T.serif, fontSize: 19, color: T.ivory }}>
+                {m.home ? "vs" : "at"} {m.opponent} {m.score}
+              </span>
+            </div>
+            <XgBar label="xG for" value={m.xgFor} color={T.gold} />
+            <XgBar label="xG against" value={m.xgAgainst} color={T.red} pending={m.pending} />
+            {m.xgFirstHalfFor != null && (
+              <div style={{ marginTop: 12, paddingTop: 12, borderTop: `1px solid ${T.rule}` }}>
+                <XgBar label="1st half for" value={m.xgFirstHalfFor} max={2} color={T.gold} />
+                <XgBar label="1st half against" value={m.xgFirstHalfAgainst} max={2} color={T.red} />
+              </div>
+            )}
+            {m.verdict && (
+              <div style={{ fontFamily: T.serif, fontStyle: "italic", fontSize: 14, lineHeight: 1.55, color: T.ivoryDim, marginTop: 14, textWrap: "pretty" }}>
+                {m.verdict}
+              </div>
+            )}
+            {m.source && (
+              <div style={{ fontSize: 10, color: T.ivoryFaint, fontFamily: T.sans, marginTop: 10, letterSpacing: "0.14em", textTransform: "uppercase" }}>
+                {m.source}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+
+      {(f.diagnosis || []).length > 0 && (
+        <div style={{ marginBottom: 36 }}>
+          <DossierLabel>Diagnosis</DossierLabel>
+          {f.diagnosis.map((d) => (
+            <div key={d.label} style={{ display: "flex", gap: 4, padding: "14px 0", borderBottom: `1px solid ${T.rule}` }}>
+              <div style={{ paddingTop: 7 }}><SeverityDot level={d.severity} /></div>
+              <div>
+                <div style={{ fontFamily: T.serif, fontSize: 18, color: T.ivory, marginBottom: 4 }}>{d.label}</div>
+                <div style={{ fontFamily: T.serif, fontSize: 15, lineHeight: 1.55, color: T.ivoryDim, textWrap: "pretty" }}>{d.detail}</div>
+                {d.source && (
+                  <div style={{ fontSize: 10, color: T.ivoryFaint, fontFamily: T.sans, marginTop: 8, letterSpacing: "0.14em", textTransform: "uppercase" }}>{d.source}</div>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {(f.optaFacts || []).length > 0 && (
+        <div style={{ marginBottom: 48, padding: "20px 0", borderTop: `1px solid ${T.rule}`, borderBottom: `1px solid ${T.rule}` }}>
+          <DossierLabel>For the record</DossierLabel>
+          {f.optaFacts.map((fact, i) => (
+            <div key={i} style={{ fontFamily: T.serif, fontSize: 15, lineHeight: 1.6, color: T.ivoryDim, marginBottom: 8, textWrap: "pretty" }}>
+              {fact}
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* ── Squad load ── */}
+      <Chapter style={{ fontSize: 34, marginBottom: 20 }}>Availability</Chapter>
+      {l.headline && (
+        <div style={{ fontFamily: T.serif, fontStyle: "italic", fontSize: 17, lineHeight: 1.55, color: T.ivoryDim, marginBottom: 24, maxWidth: "70ch", textWrap: "pretty" }}>
+          {l.headline}
+        </div>
+      )}
+      {l.minutesNote && (
+        <div style={{
+          fontFamily: T.sans, fontSize: 12, lineHeight: 1.6, color: T.ivoryFaint,
+          padding: "12px 16px", border: `1px solid ${T.rule}`, borderLeft: `2px solid ${T.gold}`,
+          marginBottom: 28, maxWidth: "70ch",
+        }}>
+          {l.minutesNote}
+        </div>
+      )}
+
+      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 32, marginBottom: 32 }}>
+        <div>
+          <DossierLabel style={{ color: T.red }}>Unavailable</DossierLabel>
+          {(l.unavailable || []).map((u) => (
+            <div key={u.name} style={{ padding: "12px 0", borderBottom: `1px solid ${T.rule}` }}>
+              <div style={{ display: "flex", justifyContent: "space-between", gap: 12 }}>
+                <span style={{ fontFamily: T.serif, fontSize: 17, color: T.ivory }}>{u.name}</span>
+                <SmallCaps style={{ whiteSpace: "nowrap", fontSize: 10 }}>{u.expected}</SmallCaps>
+              </div>
+              <div style={{ fontSize: 11, color: T.ivoryFaint, fontFamily: T.sans, marginTop: 3 }}>{u.issue}</div>
+              {u.note && (
+                <div style={{ fontFamily: T.serif, fontSize: 14, lineHeight: 1.5, color: T.ivoryDim, marginTop: 8, textWrap: "pretty" }}>{u.note}</div>
+              )}
+            </div>
+          ))}
+        </div>
+        <div>
+          <DossierLabel style={{ color: "#5FB98A" }}>Returning</DossierLabel>
+          {(l.returning || []).map((r) => (
+            <div key={r.name} style={{ padding: "12px 0", borderBottom: `1px solid ${T.rule}` }}>
+              <div style={{ display: "flex", justifyContent: "space-between", gap: 12 }}>
+                <span style={{ fontFamily: T.serif, fontSize: 17, color: T.ivory }}>{r.name}</span>
+                <SmallCaps style={{ whiteSpace: "nowrap", fontSize: 10, color: "#5FB98A" }}>{r.status}</SmallCaps>
+              </div>
+              <div style={{ fontSize: 11, color: T.ivoryFaint, fontFamily: T.sans, marginTop: 3 }}>{r.issue}</div>
+              {r.note && (
+                <div style={{ fontFamily: T.serif, fontSize: 14, lineHeight: 1.5, color: T.ivoryDim, marginTop: 8, textWrap: "pretty" }}>{r.note}</div>
+              )}
+            </div>
+          ))}
+          {l.startersLastMatch && (
+            <div style={{ marginTop: 22 }}>
+              <DossierLabel>Last XI</DossierLabel>
+              <div style={{ fontSize: 11, color: T.ivoryFaint, fontFamily: T.sans, marginBottom: 8 }}>{l.startersLastMatch.match}</div>
+              <div style={{ fontFamily: T.serif, fontSize: 15, lineHeight: 1.7, color: T.ivoryDim }}>
+                {(l.startersLastMatch.xi || []).join(" · ")}
+              </div>
+              {l.startersLastMatch.changes && (
+                <div style={{ fontFamily: T.serif, fontStyle: "italic", fontSize: 14, color: T.ivoryDim, marginTop: 8 }}>
+                  {l.startersLastMatch.changes}
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+      </div>
+
+      {(l.depthRisk || []).length > 0 && (
+        <div style={{ marginBottom: 48 }}>
+          <DossierLabel>Depth risk · squad closed until January</DossierLabel>
+          {l.depthRisk.map((d) => (
+            <div key={d.position} style={{ display: "flex", gap: 4, padding: "12px 0", borderBottom: `1px solid ${T.rule}` }}>
+              <div style={{ paddingTop: 6 }}><SeverityDot level={d.level} /></div>
+              <div>
+                <div style={{ fontFamily: T.serif, fontSize: 17, color: T.ivory }}>
+                  {d.position} <span style={{ fontSize: 12, color: T.ivoryFaint, fontFamily: T.sans, textTransform: "uppercase", letterSpacing: "0.14em" }}>{d.level}</span>
+                </div>
+                <div style={{ fontFamily: T.serif, fontSize: 15, lineHeight: 1.55, color: T.ivoryDim, marginTop: 4, textWrap: "pretty" }}>{d.detail}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* ── Projection ── */}
+      <Chapter style={{ fontSize: 34, marginBottom: 20 }}>Pace</Chapter>
+      <StatStrip stats={[
+        { label: "Played",          value: String(p.played ?? 0).padStart(2, "0") },
+        { label: "Points",          value: String(p.points ?? 0).padStart(2, "0") },
+        { label: "Per game",        value: (p.pointsPerGame ?? 0).toFixed(2) },
+        { label: "Projected",       value: String(p.projectedPoints ?? 0) },
+      ]} />
+      {p.headline && (
+        <div style={{ fontFamily: T.serif, fontStyle: "italic", fontSize: 17, lineHeight: 1.55, color: T.ivoryDim, margin: "24px 0 28px", maxWidth: "70ch", textWrap: "pretty" }}>
+          {p.headline}
+        </div>
+      )}
+
+      {(p.thresholds || []).length > 0 && (
+        <div style={{ marginBottom: 12 }}>
+          <DossierLabel>Points to the places that matter</DossierLabel>
+          {p.thresholds.map((t) => (
+            <div key={t.label} style={{
+              display: "grid", gridTemplateColumns: "1fr auto", gap: 16,
+              padding: "12px 0", borderBottom: `1px solid ${T.rule}`, alignItems: "baseline",
+            }}>
+              <div>
+                <div style={{ fontFamily: T.serif, fontSize: 17, color: t.gap === 0 ? T.red : T.ivory }}>{t.label}</div>
+                <div style={{ fontFamily: T.serif, fontSize: 14, lineHeight: 1.5, color: T.ivoryDim, marginTop: 4, textWrap: "pretty" }}>{t.note}</div>
+              </div>
+              <div style={{ textAlign: "right", whiteSpace: "nowrap" }}>
+                <span style={{ fontFamily: T.serif, fontSize: 26, color: T.ivory, fontVariantNumeric: "tabular-nums" }}>{t.points}</span>
+                <div style={{ fontSize: 10, color: T.ivoryFaint, fontFamily: T.sans, letterSpacing: "0.14em", textTransform: "uppercase", marginTop: 2 }}>
+                  {t.gap === 0 ? "at current pace" : `+${t.gap} on pace`}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+      {p.thresholdNote && (
+        <div style={{ fontSize: 11, color: T.ivoryFaint, fontFamily: T.sans, lineHeight: 1.6, marginBottom: 32, maxWidth: "70ch" }}>
+          {p.thresholdNote}
+        </div>
+      )}
+
+      {(p.runIn || []).length > 0 && (
+        <div style={{ marginBottom: 24 }}>
+          <DossierLabel>Next six in the league</DossierLabel>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))", gap: 12 }}>
+            {p.runIn.map((r) => (
+              <div key={r.date + r.opponent} style={{
+                border: `1px solid ${T.rule}`,
+                borderTop: `2px solid ${r.difficulty === "hard" ? T.red : r.difficulty === "medium" ? T.gold : "#5FB98A"}`,
+                padding: "12px 14px",
+              }}>
+                <div style={{ fontSize: 10, color: T.ivoryFaint, fontFamily: T.sans, letterSpacing: "0.14em", textTransform: "uppercase", marginBottom: 6 }}>
+                  {new Date(r.date).toLocaleDateString("en-GB", { day: "numeric", month: "short" })} · {r.home ? "H" : "A"}
+                </div>
+                <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                  <TeamCrest team={r.opponent} size={18} />
+                  <span style={{ fontFamily: T.serif, fontSize: 15, color: T.ivory }}>{r.opponent}</span>
+                </div>
+                {r.oppPosition && (
+                  <div style={{ fontSize: 11, color: T.ivoryFaint, fontFamily: T.sans, marginTop: 6 }}>
+                    {r.oppPosition}th
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+      {p.runInVerdict && (
+        <div style={{
+          padding: "20px 0", borderTop: `1px solid ${T.ruleStrong}`,
+          fontFamily: T.serif, fontStyle: "italic", fontSize: 17, lineHeight: 1.55,
+          color: T.ivoryDim, maxWidth: "72ch", textWrap: "pretty",
+        }}>
+          {p.runInVerdict}
+        </div>
+      )}
+
+      {(p.sources || []).length > 0 && (
+        <div style={{ marginTop: 20, fontSize: 10, letterSpacing: "0.16em", textTransform: "uppercase", color: T.ivoryFaint, fontFamily: T.sans }}>
+          Sources · {Array.from(new Set([...(f.sources || []), ...(l.sources || []), ...(p.sources || [])])).join(" · ")}
+        </div>
+      )}
+    </section>
+  );
+}
+
 // ─── DISPATCHES VIEW ───────────────────────────────────────────────────────
 
 function DispatchesView() {
@@ -3437,7 +3932,8 @@ export default function LiverpoolTracker() {
           </section>
         )}
         {view === "standings"  && <StandingsView />}
-        {view === "targets"    && <TargetsView />}
+        {view === "opposition" && <OppositionView />}
+        {view === "analysis"   && <AnalysisView />}
         {view === "dispatches" && <DispatchesView />}
         {view === "news"       && <NewsView />}
 
