@@ -484,13 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Joe Gomez will not play at <em>Ipswich</em> on Friday: by Wednesday
-          evening the previews had him among the injured, past the month his
-          manager put on the muscle, and Chiesa a doubt beside him. The same
-          twenty travel, <em>Barcola</em> among the substitutes. Around them
-          the reckoning: £218.4m net, the league's largest, for a squad
-          Carragher counts as four left wingers and no right one. Thirteenth,
-          two days out.
+          On Thursday morning Andoni Iraola faces the cameras, the eve of the
+          trip to <em>Ipswich</em>, a first win of the season the only line that
+          matters. <em>Barcola</em>, £123m and still to kick a ball, is in the
+          running to make his debut; Chiesa has edged back into contention;
+          Gomez alone stays behind, Frimpong out on the right without him.
+          Thirteenth, and Friday is when the table can move.
         </p>
 
         <StatStrip stats={stats} />
@@ -521,22 +520,19 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              a Wednesday two days from kick-off, the first hard team news of the
-              season has arrived without a press conference to deliver it. Joe Gomez is out of Friday's trip
-              to <em>Ipswich</em>, the previews say, five and a half weeks after a
-              muscle went in Nashville and a week past the month Andoni Iraola
-              always put on it; Federico Chiesa is a major doubt with his back.
-              So the defence that goes to Suffolk is the one that has let in four,
-              Frimpong alone on the right against Abdul Fatawu, who left Luke Shaw
-              behind at Old Trafford on Sunday. The rest of the day was
-              accounting. Sky says Liverpool's net spend, £218.4m, was the highest
-              in the country; Jamie Carragher says the money bought four left
-              wingers and not one right one; James Pearce says the club will pay
-              the price. <em>Bradley Barcola</em> waits on the bench. Ipswich may
-              be without their striker. Two days out, the bookmakers make
-              Liverpool 11-20, and a first win would take them above their hosts.
-              The table has not moved since the weekend. Friday is when it can.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the manager takes his seat before a game he needs more than he
+              will say. Two 2-2 draws, thirteenth in the table, the largest net
+              spend in England already hung round the club's neck, and now a
+              £123m debutant deciding whether Friday is his. <em>Bradley Barcola</em>
+              is in the running to start at <em>Ipswich</em>; Federico Chiesa has
+              edged from a major doubt into contention; Joe Gomez, the one settled
+              absence, watches Frimpong go out alone on the right again against
+              Abdul Fatawu. Cody Gakpo, whose move to Manchester City died on the
+              last day of the window, has cleared the air with the owners and
+              turned back to the football. The bookmakers make Liverpool 11-20,
+              and a first win would lift them above their hosts. The table has not
+              moved since the weekend. Friday night is when it can.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -544,11 +540,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and five
               dispatches from the writers who never clock off. There is the
-              answer that came without a press conference; the biggest bill in
-              England for the shortest squad at the top; two agents, one statement
-              and a phone call to Monaco; a striker lost at Portman Road and a new
-              one found in time; and the nine games Iraola once went without a win,
-              remembered by the bookmakers who think he has learned. Read them in
+              manager who faces the cameras before the squad faces Suffolk; the
+              forward who nearly left and now has to start; one doubt that softens
+              and one absence that hardens into a date; a promoted side that spent
+              like a settled one and may be without its striker; and the two draws
+              that give way, five days later, to Diego Simeone. Read them in
               order. The season opened at Newcastle with a 2-2 on the twenty-third
               of August and found another at Anfield on the twenty-ninth, Ipswich
               away comes on Friday night, and the market is shut until January.
@@ -3760,7 +3756,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The answer came without a press conference."
+        "Friday is where the waiting can end."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
