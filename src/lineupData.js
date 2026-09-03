@@ -155,7 +155,7 @@ export const PLAYER_EVIDENCE = {
   1:  "Started vs Forest · no fresh setback",       // Alisson
   2:  "Deputy · Brughmans bought as the successor", // Mamardashvili
   3:  "Captain · started the 2-2 vs Forest",        // Van Dijk
-  5:  "Team training next week · back before break", // Gomez
+  5:  "Team training next week · hoped for pre-break", // Gomez
   7:  "Started vs Forest · first-pick LB",          // Kerkez
   8:  "Knee · no date, 'will go later'",           // Bradley
   9:  "Lone fit RB · Szoboszlai the named cover",   // Frimpong

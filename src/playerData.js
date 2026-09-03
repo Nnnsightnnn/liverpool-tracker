@@ -704,7 +704,6 @@ export const OPPOSITION = {
     { name: "Jaden Philogene", issue: "Ankle ('a little too early this weekend')", status: "Out" },
     { name: "Jack Taylor", issue: "Knee", status: "Out" },
     { name: "Azor Matusiwa", issue: "Thigh", status: "Out" },
-    { name: "Florentino Luis", issue: "Calf", status: "Doubt" },
   ],
   recentForm: [
     { date: "2026-08-30", opponent: "Manchester United", home: false, score: "2-5", result: "L", note: "Led late in the first half through Leif Davis, set up by Fatawu; Bruno Fernandes hat-trick turned it. Emersonn off at half-time with a jarred knee, since cleared." },
