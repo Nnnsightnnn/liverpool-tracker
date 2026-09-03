@@ -484,12 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          On Thursday morning Andoni Iraola faces the cameras, the eve of the
-          trip to <em>Ipswich</em>, a first win of the season the only line that
-          matters. <em>Barcola</em>, £123m and still to kick a ball, is in the
-          running to make his debut; Chiesa has edged back into contention;
-          Gomez alone stays behind, Frimpong out on the right without him.
-          Thirteenth, and Friday is when the table can move.
+          Thursday evening, and the eve has answered its own questions. Chiesa
+          is out until the break and off the Champions League list with Endo;
+          <em>Barcola</em> is cleared, bench or start still the manager's to
+          call; Gomez trains again next week. <em>Ipswich</em> have their
+          striker back. Eight o'clock Friday, and thirteenth can finally move.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,19 +519,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and the manager takes his seat before a game he needs more than he
-              will say. Two 2-2 draws, thirteenth in the table, the largest net
-              spend in England already hung round the club's neck, and now a
-              £123m debutant deciding whether Friday is his. <em>Bradley Barcola</em>
-              is in the running to start at <em>Ipswich</em>; Federico Chiesa has
-              edged from a major doubt into contention; Joe Gomez, the one settled
-              absence, watches Frimpong go out alone on the right again against
-              Abdul Fatawu. Cody Gakpo, whose move to Manchester City died on the
-              last day of the window, has cleared the air with the owners and
-              turned back to the football. The bookmakers make Liverpool 11-20,
-              and a first win would lift them above their hosts. The table has not
-              moved since the weekend. Friday night is when it can.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the eve of Portman Road, and the day's press conference left the
+              squad smaller than the morning imagined. <em>Federico Chiesa</em>,
+              written into contention by the previews, will not rejoin the group
+              until the international break, and by evening his name was missing
+              from the Champions League list along with Wataru Endo's. Bradley
+              Barcola trained a third time and is available, definitely, though
+              whether he starts at <em>Ipswich</em> was, in Iraola's words, a good
+              question. Joe Gomez returns to the grass next week, hoped for before
+              the break rather than for Friday; Dominik Szoboszlai has been told
+              he may be the right-back if Frimpong needs relief. Across Suffolk,
+              Gary O'Neil has Emersonn fit and fully expects a result. Opta gives
+              Liverpool fifty-nine per cent and a six-game winless run to end. The
+              manager says his side has spent ninety per cent of the season's
+              minutes behind. He would like, just once, to start in front.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -540,11 +541,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and five
               dispatches from the writers who never clock off. There is the
-              manager who faces the cameras before the squad faces Suffolk; the
-              forward who nearly left and now has to start; one doubt that softens
-              and one absence that hardens into a date; a promoted side that spent
-              like a settled one and may be without its striker; and the two draws
-              that give way, five days later, to Diego Simeone. Read them in
+              winger who was edging back and is now out until the break; the
+              debutant who is available, definitely, and starting, a good
+              question; the ninety per cent of minutes spent behind; the striker
+              across Suffolk who jarred his knee and is fine; and the two lists
+              of twenty-five that say something about January. Read them in
               order. The season opened at Newcastle with a 2-2 on the twenty-third
               of August and found another at Anfield on the twenty-ninth, Ipswich
               away comes on Friday night, and the market is shut until January.
@@ -3756,7 +3757,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Friday is where the waiting can end."
+        "Start stronger, and everything looks easier."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
