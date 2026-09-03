@@ -359,17 +359,17 @@ export const COVER_IMAGE = {
   credit: null,
   generatedAt: "2026-09-03T08:30:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
-  // Evening pass (Wed 2 September): no match played since Saturday's Forest draw. Lead is the first hard team
-  // news of the season, Joe Gomez ruled out of Ipswich by Wednesday's previews (Sports Mole,
-  // Evening Standard, Racing Post), with Chiesa a major doubt and Barcola expected on the bench.
-  // Around it: Sky's GBP218.4m net-spend figure, the highest in the league, Carragher's and
-  // Pearce's verdicts, the Sarr/Camara agent statement, and Ipswich's own striker doubt.
-  // Under STEP 7.5 none of this is photographable: a ruling-out is not a moment, and the next
-  // kick-off is Friday. NO cover image is requested and the render stays on the pure-type
-  // fallback (src null). generatedAt is re-stamped as the cache-buster (COVER-00001).
+  // Morning pass (Thu 3 September): no match played since Saturday's Forest draw. Lead is Iraola's
+  // matchday-eve press conference before Ipswich, a first win sought, with Barcola in the running
+  // to make his debut, Chiesa edged from major doubt into contention, and Gomez the one settled
+  // absence. Around it: Gakpo's clear-the-air FSG talks after the collapsed GBP80m City move, the
+  // net-spend post-mortem, and the Atletico Champions League opener the Wednesday after.
+  // Under STEP 7.5 none of this is photographable: a press conference is not a moment, Barcola has
+  // yet to play, and the next kick-off is tomorrow. NO cover image is requested and the render
+  // stays on the pure-type fallback (src null). generatedAt is re-stamped as the cache-buster (COVER-00001).
   brief: {
     leadStory:
-      "Joe Gomez will not play at Ipswich on Friday: Wednesday evening's previews from Sports Mole, the Evening Standard and the Racing Post all list him among the injured, the muscle problem from 26 July now beyond the month Iraola put on it, and Federico Chiesa is a major doubt with a back issue. Bradley Barcola is expected on the bench. The day's other beats were the post-window reckoning: Sky put Liverpool's net spend at GBP218.4m, the highest in the Premier League, Carragher counted four left wingers and no right one, and The Athletic's James Pearce fears the club will pay the price. Ismaila Sarr's agent issued a statement, talkSPORT reported Liverpool phoned Monaco to hold Lamine Camara for January, and Ipswich may be without their striker Emersonn. Thirteenth on two points, two days from Portman Road.",
+      "Andoni Iraola faces the cameras on Thursday, the eve of Liverpool's trip to Ipswich, with a first win of the season the only line that matters and a GBP123m debut to weigh: Bradley Barcola, still to play a minute, is in the running to start at Portman Road rather than wait on the bench. Federico Chiesa has edged from major doubt into contention, in line to feature though Sports Mole keeps him a doubt, while Joe Gomez is the one settled absence, out with the muscle that has held since July. Cody Gakpo, whose GBP80m move to Manchester City collapsed on deadline day, has held clear-the-air talks with Fenway Sports Group and turned back to the football. The pivot is the one open selection call, and Thursday's previews lean to Gravenberch over Mac Allister. Thirteenth on two points, the table frozen until Friday night, and Atletico Madrid waiting in the Champions League the Wednesday after.",
     subject: null,
     prompt: null,
     aspectRatio: "portrait",

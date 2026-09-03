@@ -28,9 +28,9 @@ export const FORMATIONS = {
     // for Ipswich, Thursday's previews restore Gravenberch beside Szoboszlai and
     // drop Mac Allister to the bench, which is the one change from the Forest XI.
     // Out: Ekitike (Achilles, to December), Bradley (knee, eyeing November), Leoni
-    // (ACL) and Chiesa (small muscle injury) out; Gomez ruled out of Ipswich.
+    // (ACL) out, Chiesa (back) edged into contention; Gomez ruled out of Ipswich.
     // Bradley Barcola was ANNOUNCED on Monday afternoon (guaranteed GBP106m rising to
-    // GBP123m, five years, No. 29) and he is expected on the bench at Portman Road, but he is
+    // GBP123m, five years, No. 29) and he is in the running to start at Portman Road, but he is
     // not PLAYERS-keyed, so he cannot appear in the graphic. Gakpo STAYS: City's
     // GBP75m+5m was rejected on Monday evening and the pursuit called off.
     defaultXI: {
@@ -71,10 +71,10 @@ export const FORMATIONS = {
     // Szoboszlai and, per Thursday's previews, Gravenberch in the pivot for Ipswich;
     // Munoz right, Wirtz central, Gakpo left; Isak alone up top. Ngumoha and Mac
     // Allister among the substitutes.
-    // Ekitike (Achilles, to December), Bradley (knee), Leoni (ACL) and Chiesa
-    // (small muscle injury) are out; Gomez is ruled out of Friday despite full training. Barcola was ANNOUNCED
+    // Ekitike (Achilles, to December), Bradley (knee) and Leoni (ACL) are out, Chiesa
+    // (back) edged into contention; Gomez is ruled out of Friday. Barcola was ANNOUNCED
     // on Monday afternoon (guaranteed GBP106m to GBP123m, five years, No. 29);
-    // he is expected on the bench for this fixture, and is not PLAYERS-keyed. Gakpo STAYS:
+    // Thursday's previews have him in the running to start, and he is not PLAYERS-keyed. Gakpo STAYS:
     // City's GBP75m+5m was rejected Monday evening and the pursuit called off.
     defaultXI: {
       GK: 1,    // Alisson (started the 2-2 vs Forest · No. 1)
@@ -145,7 +145,7 @@ export const FORMATIONS = {
 // 82nd-minute equaliser on a full debut, Isak scored from Gakpo's cross, Mac Allister
 // was recalled and Gravenberch benched; for Ipswich, Thursday's previews reverse the
 // pivot, Gravenberch in and Mac Allister to the bench. Out: Ekitike (Achilles, to December), Bradley
-// (knee, eyeing November), Leoni (ACL), Chiesa (back issue, major doubt). Gomez has
+// (knee, eyeing November), Leoni (ACL), Chiesa (back, edged into contention). Gomez has
 // trained fully but was ruled out of Ipswich by Wednesday's previews. Barcola is announced
 // and registered but not yet PLAYERS-keyed, so he cannot be drawn.
 export const PLAYER_EVIDENCE = {
