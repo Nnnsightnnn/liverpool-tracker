@@ -20,7 +20,7 @@ export const FORMATIONS = {
       RW:  { x: 82, y: 22, role: "FWD" },
     },
     // IDs from playerData.js. This 4-3-3 is the backup look; the default is the
-    // 4-2-3-1 below. Refreshed Tue Sep 1, after the window closed, after Liverpool 2-2 Nottingham
+    // 4-2-3-1 below. Refreshed Fri Sep 4, after the window closed, after Liverpool 2-2 Nottingham
     // Forest at Anfield and pointed at Ipswich Town away on Friday 4 September,
     // 8pm at Portman Road. The XI below is the one Iraola actually picked against
     // Forest, which is the strongest signal available: Munoz took the right flank
@@ -67,7 +67,7 @@ export const FORMATIONS = {
     // The default shape, the 4-2-3-1 Iraola has used in both league games, now
     // pointed at Ipswich Town away on Friday 4 September, 8pm at Portman Road
     // (Nottingham Forest drawn 2-2 at Anfield on Aug 29; Newcastle drawn 2-2 away
-    // on Aug 23). Refreshed Tue Sep 1, after the window closed off the confirmed Forest XI rather
+    // on Aug 23). Refreshed Fri Sep 4, after the window closed off the confirmed Forest XI rather
     // than a preview: Alisson behind Frimpong, Jacquet, Van Dijk and Kerkez;
     // Szoboszlai and, per most Thursday previews, Gravenberch in the pivot for Ipswich;
     // Munoz right, Wirtz central, Gakpo left; Isak alone up top. Ngumoha and Mac
@@ -109,7 +109,7 @@ export const FORMATIONS = {
       RW:  { x: 78, y: 22, role: "FWD" },
     },
     // Hypothetical 3-4-3 alternative, a shape rarely used, shown for completeness.
-    // Refreshed Tue Sep 1, after the window closed: the back three is still genuinely bare. Ndukwe is
+    // Refreshed Fri Sep 4, after the window closed: the back three is still genuinely bare. Ndukwe is
     // barred by a post-Brexit work permit until at least January; Gomez does not rejoin
     // team training until next week; Araujo (loan) is not PLAYERS-keyed. That leaves Van Dijk and
     // Jacquet as the only natural centre-backs, so Wataru Endo, fit and a familiar
@@ -187,7 +187,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys. One match into the season these read as confidence that the slot's
 // occupant remains a first-choice starter into 2026-27 — LOW where the player
 // has left (Salah, Robertson, Konate) or whose future is open.
-// (Refreshed Mon Aug 31, EVENING. The XI is still the confirmed Forest side carried
+// (Refreshed Fri Sep 4, matchday. The XI is still the confirmed Forest side carried
 // to Ipswich away on Friday 4 September, and the left flank has now SETTLED: the
 // Gakpo sale to Manchester City is off, their GBP75m plus GBP5m rejected on Monday
 // evening after Palace refused to sell Sarr and Brighton held at GBP70m for Minteh,
