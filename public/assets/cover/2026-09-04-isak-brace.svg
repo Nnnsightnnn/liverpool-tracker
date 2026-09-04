@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Editorial plate: a floodlit away end under Suffolk night, a goal at the near post seen from the touchline, two balls in flight arcing low inside the same upright, the first win of the season">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070b12"/>
+      <stop offset="52%" stop-color="#121c2a"/>
+      <stop offset="100%" stop-color="#26130f"/>
+    </linearGradient>
+    <radialGradient id="flood" cx="0.5" cy="0.12" r="0.7">
+      <stop offset="0%" stop-color="#f2f6ff" stop-opacity="0.85"/>
+      <stop offset="36%" stop-color="#c9d6ee" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#c9d6ee" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pitch" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#203d2c"/>
+      <stop offset="100%" stop-color="#0c1710"/>
+    </linearGradient>
+    <radialGradient id="red" cx="0.22" cy="0.42" r="0.5">
+      <stop offset="0%" stop-color="#c8102e" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#c8102e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ballglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#ffe6c4" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffe6c4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- night over a low Suffolk ground -->
+  <rect x="0" y="0" width="1600" height="900" fill="url(#sky)"/>
+
+  <!-- the far stand, one block of it burning red: the away end -->
+  <rect x="0" y="170" width="1600" height="290" fill="#0d141c"/>
+  <rect x="0" y="190" width="420" height="250" fill="#3a0d16"/>
+  <ellipse cx="200" cy="330" rx="420" ry="260" fill="url(#red)"/>
+  <g fill="#e8b1b9" opacity="0.55">
+    <rect x="40" y="250" width="340" height="2"/>
+    <rect x="60" y="300" width="320" height="2"/>
+    <rect x="80" y="350" width="300" height="2"/>
+    <rect x="100" y="400" width="280" height="2"/>
+  </g>
+  <g fill="#3a4a60" opacity="0.45">
+    <rect x="500" y="250" width="1040" height="2"/>
+    <rect x="520" y="300" width="1000" height="2"/>
+    <rect x="540" y="350" width="960" height="2"/>
+    <rect x="560" y="400" width="920" height="2"/>
+  </g>
+
+  <!-- floodlights -->
+  <ellipse cx="800" cy="100" rx="960" ry="250" fill="url(#flood)"/>
+  <g fill="#f2f6ff" opacity="0.9">
+    <rect x="260" y="64" width="130" height="10" rx="3"/>
+    <rect x="735" y="46" width="130" height="10" rx="3"/>
+    <rect x="1210" y="64" width="130" height="10" rx="3"/>
+  </g>
+
+  <!-- the pitch -->
+  <path d="M0 470 L1600 470 L1600 900 L0 900 Z" fill="url(#pitch)"/>
+  <g opacity="0.13" fill="#eaf3ea">
+    <path d="M0 560 L1600 560 L1600 615 L0 615 Z"/>
+    <path d="M0 700 L1600 700 L1600 775 L0 775 Z"/>
+  </g>
+  <!-- byline and six-yard line, seen from the touchline -->
+  <rect x="0" y="520" width="1600" height="4" fill="#eaf3ea" opacity="0.5"/>
+  <path d="M1040 520 L1090 900" stroke="#eaf3ea" stroke-width="4" opacity="0.4" fill="none"/>
+
+  <!-- the goal, near post nearest the viewer -->
+  <g stroke="#f4f4f0" stroke-width="10" fill="none" stroke-linecap="square">
+    <path d="M1130 250 L1130 520"/>
+    <path d="M1130 250 L1480 250"/>
+    <path d="M1480 250 L1480 520"/>
+  </g>
+  <g stroke="#f4f4f0" stroke-width="1.2" opacity="0.28">
+    <path d="M1130 250 L1580 300 L1580 560 L1480 520"/>
+    <path d="M1140 290 L1590 335"/><path d="M1140 330 L1590 370"/><path d="M1140 370 L1590 405"/><path d="M1140 410 L1590 440"/><path d="M1140 450 L1590 475"/><path d="M1140 490 L1590 510"/>
+    <path d="M1180 250 L1180 520"/><path d="M1230 250 L1230 520"/><path d="M1280 250 L1280 520"/><path d="M1330 250 L1330 520"/><path d="M1380 250 L1380 520"/><path d="M1430 250 L1430 520"/>
+  </g>
+
+  <!-- two low arcs into the same near-post gap: the sixth minute and the ninth -->
+  <path d="M320 600 C 620 560, 900 520, 1150 470" stroke="#ffe6c4" stroke-width="3" opacity="0.55" fill="none" stroke-dasharray="14 12"/>
+  <path d="M260 660 C 560 640, 880 600, 1146 500" stroke="#ffe6c4" stroke-width="3" opacity="0.4" fill="none" stroke-dasharray="14 12"/>
+  <circle cx="1150" cy="470" r="60" fill="url(#ballglow)"/>
+  <circle cx="1150" cy="470" r="14" fill="#fffaf0"/>
+  <circle cx="1146" cy="500" r="44" fill="url(#ballglow)" opacity="0.8"/>
+  <circle cx="1146" cy="500" r="11" fill="#fffaf0" opacity="0.9"/>
+
+  <!-- the striker, already turning away toward the red corner -->
+  <g transform="translate(560 470)">
+    <ellipse cx="0" cy="330" rx="150" ry="18" fill="#000" opacity="0.4"/>
+    <path d="M-20 60 C -70 140, -90 230, -60 320 L -25 320 C -40 240, -20 170, 20 120 C 60 180, 80 250, 70 320 L 105 320 C 120 230, 90 150, 40 80 Z" fill="#c8102e"/>
+    <path d="M-20 60 C -10 20, 30 10, 50 40 L 40 80 L -20 60 Z" fill="#c8102e"/>
+    <path d="M40 80 C 90 60, 150 30, 200 -20" stroke="#c8102e" stroke-width="26" stroke-linecap="round" fill="none"/>
+    <path d="M-20 60 C -60 40, -110 40, -150 60" stroke="#c8102e" stroke-width="26" stroke-linecap="round" fill="none"/>
+    <circle cx="22" cy="-6" r="34" fill="#1a1412"/>
+  </g>
+
+  <!-- grain -->
+  <rect x="0" y="0" width="1600" height="900" fill="#000" opacity="0.06"/>
+</svg>
