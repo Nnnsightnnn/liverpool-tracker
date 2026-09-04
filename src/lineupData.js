@@ -20,32 +20,31 @@ export const FORMATIONS = {
       RW:  { x: 82, y: 22, role: "FWD" },
     },
     // IDs from playerData.js. This 4-3-3 is the backup look; the default is the
-    // 4-2-3-1 below. Refreshed Fri Sep 4, after the window closed, after Liverpool 2-2 Nottingham
-    // Forest at Anfield and pointed at Ipswich Town away on Friday 4 September,
-    // 8pm at Portman Road. The XI below is the one Iraola actually picked against
-    // Forest, which is the strongest signal available: Munoz took the right flank
-    // ahead of Ngumoha and scored the equaliser and Isak his first of the season;
-    // for Ipswich, most previews (Opta, Yahoo, The 4th Official) restore Gravenberch
-    // to the middle, Sports Mole alone keeps Mac Allister; Gravenberch is drawn here.
-    // Out per Iraola's Thursday presser: Ekitike (Achilles, no date), Bradley (knee,
-    // no date), Leoni (ACL, group training during the break), Chiesa (muscle, group
-    // training during the break, NOT in contention), Gomez (team training next week).
-    // Bradley Barcola was ANNOUNCED on Monday (guaranteed GBP106m rising to GBP123m,
-    // five years, No. 29); Iraola cleared him on Thursday, start or bench open, but he is
-    // not PLAYERS-keyed, so he cannot appear in the graphic. Gakpo STAYS: City's
-    // GBP75m+5m was rejected on Monday evening and the pursuit called off.
+    // 4-2-3-1 below. Refreshed Fri Sep 4 (evening), after Ipswich Town 0-2 Liverpool at
+    // Portman Road (Isak 6', 9', both from Gakpo; Araujo a first start at right-back,
+    // Frimpong unused; Barcola's debut from the bench at 64) and pointed at Atletico
+    // Madrid at Anfield on Wednesday 9 September, 8pm, the Champions League opener.
+    // The XI below is the confirmed Ipswich side in a 4-3-3 shape, the strongest signal
+    // available: Araujo keeps right-back after a 7.7 and SI's 'could become his regular
+    // position'; the pivot Iraola actually picked was Mac Allister and Szoboszlai, with
+    // Gravenberch on at 64, so Gravenberch is drawn here in the three and Mac Allister
+    // is the alternative. Out: Ekitike (Achilles, no date), Bradley (knee, no date),
+    // Leoni (ACL, group training during the break), Chiesa (muscle, group training during
+    // the break, not in the UCL squad), Gomez (team training next week, likely to miss
+    // Atletico). Araujo (29) and Barcola (30) are now PLAYERS-keyed and drawable; Endo is
+    // not in the Champions League squad, so he cannot be a European option.
     defaultXI: {
-      GK: 1,    // Alisson (started the 2-2 vs Forest · No. 1)
-      LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
-      LCB: 3,   // Van Dijk (captain · contracted to 2027)
-      RCB: 11,  // Jacquet (started vs Forest · Araujo loan covers CB/RB)
-      RB: 9,    // Frimpong (only fit recognised RB · Gomez trains next week, Bradley no date)
+      GK: 1,    // Alisson (five saves and a first clean sheet at Ipswich)
+      LB: 7,    // Kerkez (won the ball for the first goal · first-pick LB)
+      LCB: 3,   // Van Dijk (captain · started the pass for the second goal)
+      RCB: 11,  // Jacquet (third league start beside Van Dijk · booked)
+      RB: 29,   // Araujo (first start, at right-back · 7.7 · Frimpong unused)
       LCM: 18,  // Wirtz (advanced eight · the No. 10 in the default shape)
-      CM: 14,   // Gravenberch (Opta/Yahoo restore him; Sports Mole keeps Mac Allister)
-      RCM: 15,  // Szoboszlai (engine · vice-captain)
-      LW: 22,   // Gakpo (left flank vs Forest · assisted Isak)
-      ST: 23,   // Isak (No. 9 · off the mark on the hour vs Forest)
-      RW: 28,   // Munoz (full debut vs Forest · scored the 82nd-minute equaliser)
+      CM: 14,   // Gravenberch (on at 64 vs Ipswich · likeliest recall for Europe)
+      RCM: 15,  // Szoboszlai (150th app · three shots on target)
+      LW: 22,   // Gakpo (two assists at Ipswich · 8.9)
+      ST: 23,   // Isak (two goals in nine minutes · three in three)
+      RW: 28,   // Munoz (second successive start · off for Barcola at 64)
     },
   },
 
@@ -64,32 +63,30 @@ export const FORMATIONS = {
       RAM: { x: 78, y: 36, role: "MID" },
       ST:  { x: 50, y: 14, role: "FWD" },
     },
-    // The default shape, the 4-2-3-1 Iraola has used in both league games, now
-    // pointed at Ipswich Town away on Friday 4 September, 8pm at Portman Road
-    // (Nottingham Forest drawn 2-2 at Anfield on Aug 29; Newcastle drawn 2-2 away
-    // on Aug 23). Refreshed Fri Sep 4, after the window closed off the confirmed Forest XI rather
-    // than a preview: Alisson behind Frimpong, Jacquet, Van Dijk and Kerkez;
-    // Szoboszlai and, per most Thursday previews, Gravenberch in the pivot for Ipswich;
-    // Munoz right, Wirtz central, Gakpo left; Isak alone up top. Ngumoha and Mac
-    // Allister among the substitutes.
-    // Per Iraola's Thursday presser: Ekitike (Achilles) and Bradley (knee) have no date,
-    // Leoni (ACL) and Chiesa (muscle) rejoin group training during the September break,
-    // Gomez trains with the team next week; none is available for Friday. Barcola was
-    // ANNOUNCED on Monday (guaranteed GBP106m to GBP123m, five years, No. 29), was cleared
-    // on Thursday, start or bench open, and is not PLAYERS-keyed. Gakpo STAYS:
-    // City's GBP75m+5m was rejected Monday evening and the pursuit called off.
+    // The default shape, the 4-2-3-1 Iraola has used in all three league games, now
+    // pointed at Atletico Madrid at Anfield on Wednesday 9 September, 8pm, the Champions
+    // League opener (Ipswich beaten 2-0 away on Sep 4; Forest drawn 2-2 at Anfield on Aug 29;
+    // Newcastle drawn 2-2 away on Aug 23). Refreshed Fri Sep 4 (evening) off the confirmed
+    // Ipswich XI rather than a preview: Alisson behind Araujo, Jacquet, Van Dijk and Kerkez;
+    // Szoboszlai and Mac Allister in the pivot as picked; Munoz right, Wirtz central, Gakpo
+    // left; Isak alone up top. Frimpong, Gravenberch, Barcola, Nyoni and Koumas are the live
+    // alternatives after Friday's bench and substitutions.
+    // Out: Ekitike (Achilles) and Bradley (knee) with no date, Leoni (ACL) and Chiesa (muscle)
+    // back in group training during the September break, Gomez in team training next week
+    // and likely to miss Wednesday. Araujo (29) and Barcola (30) are now PLAYERS-keyed.
+    // Endo is not in the Champions League squad.
     defaultXI: {
-      GK: 1,    // Alisson (started the 2-2 vs Forest · No. 1)
-      LB: 7,    // Kerkez (first-pick LB with Robertson gone to Spurs)
-      LCB: 3,   // Van Dijk (captain · started vs Forest)
-      RCB: 11,  // Jacquet (started vs Forest · Araujo loan also covers)
-      RB: 9,    // Frimpong (only fit recognised RB · Szoboszlai/Araujo the named cover)
-      LDM: 14,  // Gravenberch (Opta/Yahoo restore him; Sports Mole keeps Mac Allister)
-      RDM: 15,  // Szoboszlai (double-pivot · vice-captain)
-      LAM: 22,  // Gakpo (left flank vs Forest · assisted the Isak equaliser)
-      CAM: 18,  // Wirtz (the No. 10 · started centrally vs Forest)
-      RAM: 28,  // Munoz (full debut and the 82nd-minute equaliser vs Forest)
-      ST: 23,   // Isak (No. 9 · first goal of the season vs Forest)
+      GK: 1,    // Alisson (first clean sheet of the season at Ipswich · No. 1)
+      LB: 7,    // Kerkez (first-pick LB · started the move for 1-0)
+      LCB: 3,   // Van Dijk (captain · started vs Ipswich)
+      RCB: 11,  // Jacquet (started vs Ipswich · booked, kept the sheet)
+      RB: 29,   // Araujo (first start, at right-back · Frimpong the alternative)
+      LDM: 13,  // Mac Allister (kept the pivot vs Ipswich · off at 84)
+      RDM: 15,  // Szoboszlai (double-pivot · 150th appearance)
+      LAM: 22,  // Gakpo (two assists vs Ipswich · best rating on the pitch)
+      CAM: 18,  // Wirtz (the No. 10 · most ground covered vs Ipswich)
+      RAM: 28,  // Munoz (started vs Ipswich · Barcola on for him at 64)
+      ST: 23,   // Isak (two goals in nine minutes · three in three)
     },
   },
 
@@ -109,77 +106,72 @@ export const FORMATIONS = {
       RW:  { x: 78, y: 22, role: "FWD" },
     },
     // Hypothetical 3-4-3 alternative, a shape rarely used, shown for completeness.
-    // Refreshed Fri Sep 4, after the window closed: the back three is still genuinely bare. Ndukwe is
-    // barred by a post-Brexit work permit until at least January; Gomez does not rejoin
-    // team training until next week; Araujo (loan) is not PLAYERS-keyed. That leaves Van Dijk and
-    // Jacquet as the only natural centre-backs, so Wataru Endo, fit and a familiar
-    // emergency centre-half, fills the left of the three. Kerkez and Frimpong as
-    // wing-backs, Wirtz and Gravenberch in midfield (Mac Allister benched per
-    // Thursday's previews), and the Forest front three of
-    // Gakpo, Isak and Munoz ahead of them. The thinnest of the three shapes.
+    // Refreshed Fri Sep 4 (evening): Araujo is now PLAYERS-keyed (29), so the back three
+    // finally has three natural centre-backs in it, Araujo, Van Dijk and Jacquet, with Endo
+    // no longer needed as the makeshift third (and not in the UCL squad anyway). Ndukwe is
+    // at Levante; Gomez trains next week; Leoni not with the group until the break. Kerkez
+    // and Frimpong as wing-backs, the latter back in because Araujo moves inside; Wirtz and
+    // Szoboszlai in midfield; the Ipswich front three of Gakpo, Isak and Munoz ahead of them.
     // Default is 4-2-3-1 above.
     defaultXI: {
-      GK: 1,    // Alisson (started the 2-2 vs Forest · No. 1)
-      LCB: 17,  // Endo (makeshift third CB: Gomez trains next week, Ndukwe work-permit barred, Araujo not PLAYERS-keyed)
+      GK: 1,    // Alisson (first clean sheet of the season · No. 1)
+      LCB: 29,  // Araujo (natural CB, moved inside from Friday's right-back berth)
       CCB: 3,   // Van Dijk (captain · anchors back three)
-      RCB: 11,  // Jacquet (right of the back three · Araujo loan also covers)
+      RCB: 11,  // Jacquet (right of the back three)
       LWB: 7,   // Kerkez (LWB with Robertson gone to Spurs)
       LCM: 18,  // Wirtz (deeper in this shape, the creative axis)
-      RCM: 14,  // Gravenberch (most Thursday previews restore him to the middle)
-      RWB: 9,   // Frimpong (only fit recognised RB · Bradley on rehab)
-      LW: 22,   // Gakpo (LW in the three-man attack, as vs Forest)
-      ST: 23,   // Isak (No. 9 · scored vs Forest)
-      RW: 28,   // Munoz (right of the front three after his debut goal)
+      RCM: 15,  // Szoboszlai (started every league game in the pivot)
+      RWB: 9,   // Frimpong (RWB · unused vs Ipswich, back in when Araujo moves inside)
+      LW: 22,   // Gakpo (LW · two assists vs Ipswich)
+      ST: 23,   // Isak (No. 9 · two goals vs Ipswich)
+      RW: 28,   // Munoz (right of the front three · started vs Ipswich)
     },
   },
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS + injuryNote context as of Tue Sep 1, AFTER the English
-// window closed at 23:00 BST, three days before Ipswich Town away on Friday 4
-// September, 8pm at Portman Road. The window changed nothing about this XI: the only
-// deadline-day arrival was Lucca Brughmans, an 18-year-old Genk goalkeeper loaned
-// straight back to Belgium until 2027, and the late loan approach for Chelsea's Malo
-// Gusto was refused, so there is no new right-back. No midfielder replaced Curtis
-// Jones. Forest's GBP30m for Nyoni was rejected; Gakpo and Chiesa both stay; Endo
-// found no mover; Bajcetic has left permanently for Celta and is no longer keyed here.
-// From the Forest 2-2: Munoz took the right flank ahead of Ngumoha and scored the
-// 82nd-minute equaliser on a full debut, Isak scored from Gakpo's cross, Mac Allister
-// was recalled and Gravenberch benched; for Ipswich, most Thursday previews restore
-// Gravenberch, Sports Mole keeps Mac Allister. Out per Iraola's Thursday presser: Ekitike
+// Hand-curated from RESULTS + injuryNote context as of Fri Sep 4 (evening), after Ipswich
+// Town 0-2 Liverpool at Portman Road and five days before Atletico Madrid at Anfield on
+// Wednesday 9 September, 8pm, the Champions League opener. From the Ipswich win: Isak
+// scored in the 6th and 9th minutes, both from Gakpo; Araujo made a first start, at
+// right-back, with Frimpong unused; Mac Allister kept the pivot with Szoboszlai;
+// Gravenberch (for Isak) and Barcola (for Munoz, a debut) came on at 64, Nyoni at 84,
+// Koumas at 90+1; Alisson kept a first clean sheet. No new injuries. Out: Ekitike
 // (Achilles, no date), Bradley (knee, no date), Leoni (ACL) and Chiesa (muscle), both back
-// in group training during the break, and Gomez, who rejoins team training next week.
-// Chiesa and Endo were left out of the Champions League squad on Thursday evening. Barcola
-// is announced, registered and cleared to play, but not PLAYERS-keyed, so he cannot be drawn.
+// in group training during the break, and Gomez, in team training next week and likely to
+// miss Wednesday. Araujo (29) and Barcola (30) are now PLAYERS-keyed and drawable. Endo
+// and Chiesa are not in the Champions League squad.
 export const PLAYER_EVIDENCE = {
-  1:  "Started vs Forest · no fresh setback",       // Alisson
-  2:  "Deputy · Brughmans bought as the successor", // Mamardashvili
-  3:  "Captain · started the 2-2 vs Forest",        // Van Dijk
-  5:  "Team training next week · hoped for pre-break", // Gomez
-  7:  "Started vs Forest · first-pick LB",          // Kerkez
-  8:  "Knee · no date, 'will go later'",           // Bradley
-  9:  "Lone fit RB · Szoboszlai the named cover",   // Frimpong
-  10: "ACL · rejoins group during the break",       // Leoni
-  11: "Starts beside Van Dijk · subbed twice",     // Jacquet
-  12: "Loaned to Levante for the season",           // Ndukwe
-  13: "Previews split · Sports Mole keeps him",      // Mac Allister
-  14: "Opta and Yahoo restore him to the pivot",     // Gravenberch
-  15: "150th app due · RB cover if needed",         // Szoboszlai
-  17: "Left out of the UCL squad · PL depth",        // Endo
-  18: "The No. 10 · started central vs Forest",     // Wirtz
-  20: "Forest's GBP30m refused · new deal due",     // Nyoni
-  22: "'Very happy to keep Cody' · starts left",   // Gakpo
-  23: "Scored on the hour · first of the season",   // Isak
-  24: "Achilles · no date, December earliest",      // Ekitike
-  25: "No contract news · bench again likely",      // Ngumoha
-  26: "Out until the break · off the UCL list",     // Chiesa
-  27: "New deal · 3rd-choice GK",                   // Woodman
-  28: "Debut rocket · 82nd-minute equaliser",       // Munoz
+  1:  "5 saves · first clean sheet at Ipswich",       // Alisson
+  2:  "Unused sub · Brughmans bought as successor",   // Mamardashvili
+  3:  "Captain · started the pass for 2-0",          // Van Dijk
+  5:  "Team training next week · likely misses ATM",  // Gomez
+  7:  "Won the ball for 1-0 · first-pick LB",         // Kerkez
+  8:  "Knee · no date, 'will go later'",             // Bradley
+  9:  "Fit, unused at Ipswich · Araujo preferred",    // Frimpong
+  10: "ACL · rejoins group during the break",         // Leoni
+  11: "Started vs Ipswich · booked, kept the sheet",  // Jacquet
+  12: "Loaned to Levante for the season",             // Ndukwe
+  13: "Kept the pivot vs Ipswich · off at 84",        // Mac Allister
+  14: "On at 64 vs Ipswich · UCL recall likely",      // Gravenberch
+  15: "150th app · 3 shots on target at Ipswich",     // Szoboszlai
+  17: "Not in the UCL squad · PL depth only",         // Endo
+  18: "Most ground covered · still no G/A",           // Wirtz
+  20: "On at 84 vs Ipswich · new deal due",           // Nyoni
+  22: "2 assists at Ipswich · FotMob 8.9",            // Gakpo
+  23: "Brace in 9 min at Ipswich · 3 in 3",           // Isak
+  24: "Achilles · no date, December earliest",        // Ekitike
+  25: "Unused sub vs Ipswich · cup tie next",         // Ngumoha
+  26: "Out until the break · off the UCL list",       // Chiesa
+  27: "New deal · 3rd-choice GK",                     // Woodman
+  28: "Started vs Ipswich · off for Barcola at 64",   // Munoz
+  29: "First start, at RB · FotMob 7.7",              // Araujo
+  30: "Debut off the bench · 12 touches",             // Barcola
 };
 
-// Default formation when entering the view: the 4-2-3-1 Iraola has used in both
-// league games, now pointed at Ipswich Town away on Friday 4 September (Forest
-// drawn 2-2 at Anfield on Aug 29). The XI is the confirmed Forest side.
+// Default formation when entering the view: the 4-2-3-1 Iraola has used in all three
+// league games, now pointed at Atletico Madrid at Anfield on Wednesday 9 September
+// (Ipswich beaten 2-0 away on Sep 4). The XI is the confirmed Ipswich side.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────────────────────
@@ -187,40 +179,39 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys. One match into the season these read as confidence that the slot's
 // occupant remains a first-choice starter into 2026-27 — LOW where the player
 // has left (Salah, Robertson, Konate) or whose future is open.
-// (Refreshed Fri Sep 4, matchday. The XI is still the confirmed Forest side carried
-// to Ipswich away on Friday 4 September, and the left flank has now SETTLED: the
-// Gakpo sale to Manchester City is off, their GBP75m plus GBP5m rejected on Monday
-// evening after Palace refused to sell Sarr and Brighton held at GBP70m for Minteh,
-// so he is a Liverpool player for Friday and beyond. Barcola was ANNOUNCED on Monday
-// and cleared on Thursday but is not PLAYERS-keyed, so he stays undrawable. Frimpong remains
-// the lone fit senior right-back; Gomez rejoins team training next week, per Iraola.)
+// (Refreshed Fri Sep 4, evening. The XI is the confirmed Ipswich side, the first Liverpool
+// win of the season, carried to Atletico Madrid at Anfield on Wednesday 9 September. The
+// one genuine change from the fortnight's assumptions is right-back: Araujo started there
+// and Frimpong sat, so the department has two available bodies and a live choice. Araujo
+// (29) and Barcola (30) are now PLAYERS-keyed. Gomez rejoins team training next week and is
+// likely to miss Wednesday.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · turned down Juventus · staying as No. 1
   LB:  "Low",    // Robertson gone free to Spurs · Kerkez inherits, back day one
   LCB: "Medium", // Van Dijk · 35 · Milan interest knocked back · eased back, first minutes vs Monaco Aug 9
-  RCB: "Medium", // Konate gone free to Madrid · Araujo in on loan and bowed vs Como, Jacquet fit again
-  RB:  "Low",    // Frimpong the only fit recognised RB · Gomez trains next week, Bradley no date · Szoboszlai/Araujo the named cover
-  LDM: "Medium", // Most Thursday previews restore Gravenberch, Sports Mole keeps Mac Allister · the one live selection call
+  RCB: "Medium", // Konate gone free to Madrid · Jacquet has started all three league games, Araujo now needed at RB
+  RB:  "Medium", // Araujo started there vs Ipswich (7.7) with Frimpong fit and unused · two bodies now, and a real choice for Wednesday
+  LDM: "Medium", // Mac Allister kept the pivot vs Ipswich against most previews · Gravenberch on at 64, the likeliest European recall
   RDM: "High",   // Szoboszlai · new five-year deal signed to 2031 · in day one
-  LAM: "High",   // Gakpo · the sale is off, City's GBP80m rejected Aug 31 and the pursuit called off · he stays, and starts
-  CAM: "Medium", // Wirtz · started centrally vs Forest, the creative axis, still short of a first goal contribution this season
-  RAM: "Low",    // Munoz took it on a debut and scored, but Barcola is cleared for Friday and Iraola would not rule out starting him
-  ST:  "High",   // Isak · off the mark on the hour vs Forest, and with Ekitike out to December there is no alternative nine
+  LAM: "High",   // Gakpo · two assists at Ipswich, all three of Isak's league goals set up by him · the sale is off and the shirt is his
+  CAM: "Medium", // Wirtz · started centrally in all three, covered the most ground at Ipswich, still without a goal contribution this season
+  RAM: "Low",    // Munoz has started two in a row, but Barcola debuted for him at 64 and is bought to start · the flank with the shortest lease
+  ST:  "High",   // Isak · three in three after the brace at Ipswich, and with Ekitike out to December there is no alternative nine
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
 // The editorial note shown beneath each slot. Refreshed by the daily run.
 export const SLOT_RATIONALE = {
-  LB:  "Sat Aug 29 — his, and only his, and now with ninety more minutes behind it. Kerkez started the 2-2 with Forest as he started the 2-2 at Newcastle, the unambiguous first choice at left-back after a difficult debut year at £45m. Robertson left for Tottenham on a free, taking nine years of cover with him, and with the window shutting on Tuesday and the recruitment aimed at the right flank there will be no senior body behind him. Portman Road on Friday will be his third start in thirteen days.",
-  LCB: "Sat Aug 29 — the captain, and the shape in front of him. Van Dijk started again at Anfield and watched his side concede on the break for the second time in eight days, which is not his indictment so much as the team's: since the start of last season only Sunderland have shipped more Premier League counter-attack goals. The AC Milan interest driven by Ibrahimovic keeps being knocked back with no bid received, the deal still runs only to 2027, and at 35 he is the fixed point of a defence being rebuilt around him rather than replaced.",
-  RCB: "Thu Sep 3 — a partner who is fit, and a bench whose return dates now come from the manager. Jacquet starts beside Van Dijk against Ipswich, back from the shoulder problem that cost him the tour, with Araujo's loan behind them able to cover centre-back and right-back both, and he needed registering for Europe on Thursday, the UEFA under-21 exemption being stricter than the Premier League's. The fourth senior body is still Joe Gomez, and Iraola put the date on him himself: team training next week, hoped for before the international break, not Friday. Leoni rejoins the group during the break. Konate left for Madrid on a free, Ndukwe is at Levante, no defender was bought.",
-  RB:  "Thu Sep 3 — a one-man department, and the manager said so out loud. 'We don't have Conor Bradley right now, we don't have Joe Gomez right now. Definitely we look thin,' Iraola said on Thursday, before naming the cover: Szoboszlai, who took the position for the final twenty minutes against Forest when Frimpong was withdrawn and is 'ready to do it', and Araujo. Gomez rejoins team training next week; Bradley has no date; the Gusto loan was refused; Isaac Mabaya, 21, was registered from the academy the same day. Frimpong starts by elimination, against Abdul Fatawu, Opta's leader for chances created and duels won in Ipswich's two games.",
-  LDM: "Thu Sep 3 — the one selection call still open, and Thursday's previews split it three ways. Against Forest, Mac Allister was recalled and Gravenberch left out of a Premier League XI for the first time under Iraola; for Ipswich, Yahoo and The 4th Official restore Gravenberch beside Szoboszlai, Opta's XI pairs Gravenberch with Mac Allister, and Sports Mole alone keeps Mac Allister and Szoboszlai. Gravenberch is drawn here as the likeliest. The manager's own line was that 'in midfield we have good numbers' and the next fortnight is for finding 'the combinations, who plays well with the other'. Endo, left out of the Champions League squad on Thursday, and Nyoni are the depth.",
-  RDM: "Thu Sep 3 — settled in the pivot, a 150th appearance due, and now the named cover for a position he does not play. Szoboszlai has started both league games beside the other pivot and scored the 98th-minute penalty that rescued the opener; on Thursday Iraola was asked about the twenty minutes he spent at right-back against Forest and answered that 'if we have to play him as a right winger, as a right-back, as a left-back, I think he's ready to do it'. The five-year contract to 2031 signed in July, in the £200,000-£250,000 band, is the club choosing to keep rather than replace, and the versatility is why: 'even in-game they allow me to change their positions.'",
-  LAM: "Thu Sep 3 — settled in a meeting room on Monday, and settled in a press conference on Thursday. 'I'm very happy to keep Cody because for me he's a very valuable player,' Iraola said, describing a forward who 'was always aware of the situations in the market' and is 'in a good place physically, mentally'. The £80m Manchester City move died on the last day of the window; he is contracted to 2030 and a Liverpool player until at least January. He scored at Newcastle, made Isak's goal against Forest, and keeps the left on Friday; Barcola, cleared to debut, is competition for the right first.",
-  CAM: "Sat Aug 29 — the No. 10, in his position and still waiting on his season. Wirtz started centrally behind Isak against Forest, where Iraola wants him and where he was the best player on the pitch against Monaco in pre-season. An injury-hit first year at £115m gave him barely 117 minutes alongside Isak and Ekitike combined. Two league games have brought neither a goal nor an assist, and the creative burden runs through him again on Friday at Portman Road.",
-  RAM: "Thu Sep 3 — a debut goal holding the shirt, and a £123m debut now officially cleared to challenge it. Victor Munoz took the flank ahead of Ngumoha against Forest and needed one touch to score, spinning and drilling off the underside of the bar for 2-2 on a first Premier League start. On Thursday Iraola confirmed Barcola 'will definitely be available' if the afternoon session went well, and would not say whether he starts: 'it's a good question', a player 'in a good place' who 'hasn't had the minutes in the pre-season games'. Sports Mole has him on the bench. He is not PLAYERS-keyed and cannot be drawn here even if picked, so Munoz holds the graphic; the team sheet may say otherwise.",
-  ST:  "Thu Sep 3 — off the mark, alone up there with no date behind him, and with a record at this ground. Opta's Thursday preview counts four goals in two games against Ipswich for Isak, all for Newcastle in 2024-25, three of them a hat-trick at Portman Road; his first for Liverpool came on the hour against Forest. Iraola put no timeframe on Ekitike on Thursday, 'especially Hugo will go later', and no forward was bought, so Gakpo is the false-nine fallback and Barcola, cleared to debut, is a winger not a nine. The £125m remains the club record, Manchester City having matched it for Enzo Fernandez, with Barcola's guaranteed £106m second on Liverpool's own list.",
+  LB:  "Fri Sep 4 — the tackle that began the season's first lead, and a fourth start in eighteen days coming. Kerkez won the ball around halfway in the sixth minute at Portman Road, found Gakpo, and Isak scored a moment later; SI credited the aggressive defending for the goal and marked him 6.7, the lowest of a back four that kept a first clean sheet. He is first choice by a distance with Robertson gone to Tottenham and Tsimikas unused on the bench. Wednesday brings Grimaldo overlapping and Giuliano Simeone running at him from Atletico's right.",
+  LCB: "Fri Sep 4 — the captain's pass started the second goal, and then he organised eighty-one minutes of holding a lead his side had never had. Van Dijk found Gakpo on the left in the ninth minute; FotMob gave him 7.7 and SI wrote that he looked more comfortable than in weeks. The first clean sheet since April came beside Jacquet with Araujo at right-back rather than behind them, which thins the cover here even as it thickens it there. The deal still runs only to 2027, the Milan interest was knocked back without a bid, and at 35 he is the fixed point, now with a win to build from.",
+  RCB: "Fri Sep 4 — a third league start beside Van Dijk, a first clean sheet, and a yellow card that Ipswich felt should have been two. Jacquet blocked Emersonn midway through the first half, was booked for a reckless challenge early in the second and survived a second foul on the same forward; FotMob's 7.4, SI's 'not thoroughly convincing'. With Araujo now starting at right-back, the twenty-year-old's own reserve is thinner than ever: Gomez trains next week and is likely to miss Wednesday, Leoni is not with the group until the break, Endo is not in the Champions League squad. One injury here and the shape changes.",
+  RB:  "Fri Sep 4 — the team sheet's one surprise, and the department's first real choice. Every preview had Frimpong by elimination; Iraola started Ronald Araujo, a first Liverpool appearance from the off, at right-back rather than centre-half, and left Frimpong unused with Tsimikas, Endo, Ngumoha and Mamardashvili. FotMob's 7.7, strong in the duels and the air, two first-half interventions the Sporting News picked out when Fatawu and Enciso were finding room; SI wrote that this 'could become his regular position' and that Frimpong 'ought to be worried'. Araujo is drawn here on the evidence of ninety minutes. Lookman on Wednesday is a quicker, inside-out winger, which is the argument for Frimpong's pace; Bradley has no date, Gomez trains next week, Mabaya is the registered academy name.",
+  LDM: "Fri Sep 4 — the manager kept the pivot the previews had broken up, and it held. Mac Allister started beside Szoboszlai at Portman Road after Yahoo, The 4th Official and Opta had all restored Gravenberch, played 84 minutes of it, tackled well, passed at 85 per cent, and headed a free chance from a corner straight at Scherpen early in the second half; FotMob's 7.5. Gravenberch came on at 64 as Liverpool went to a three to hold 2-0 and was tidy. The Champions League opener, with Baena dropping between the lines, is the obvious place for a change, and Gravenberch is the alternative drawn beside him.",
+  RDM: "Fri Sep 4 — a 150th appearance, three shots all on target, two chances created, and a penalty taken back by VAR. Szoboszlai roamed from the pivot at Portman Road, FotMob's 7.6, twice testing Scherpen from range before the break; midway through the second half he was upended by Davis in the box and the review found him offside before the contact. SI's caveat stands: Ipswich lacked open-play threat and he will not get that freedom every week. He was not needed at right-back this time, Araujo having started there. Barrios and Hjulmand are Wednesday's opposite numbers. Contracted to 2031.",
+  LAM: "Fri Sep 4 — two assists, the best rating on the pitch, and four days after the move to Manchester City died. Gakpo threaded Isak through in the sixth minute and found him with the outside of the right boot in the ninth, FotMob's 8.9, and has now set up all three of the striker's league goals. He finished the match at centre-forward when Isak came off, with Barcola, bought for this flank, sent on at the other. The Sporting News called the summer's flirtation with selling him 'all the more puzzling'; Iraola said on Thursday he was 'very happy to keep Cody'. Contracted to 2030, and the shirt is his on Wednesday.",
+  CAM: "Fri Sep 4 — the pass for a hat-trick that did not stand, and the most ground covered by anyone on the pitch. Wirtz's 33rd-minute cross was turned in by Isak and flagged; it would have been his first goal involvement of the season. FotMob's 7.2 was for the work rate SI singled out rather than the creation, which came from Gakpo on the left. Off for Koumas in stoppage time. Three league games without a goal or an assist, in a team that has now found other ways to score while it waits for him; Atletico's low block on Wednesday is exactly the kind of game his final ball is bought for.",
+  RAM: "Fri Sep 4 — a second successive start on the right, 64 minutes of it, and the shirt handed to Barcola for the last 26. Munoz showed the pace without adding the creativity, FotMob's 6.8, SI noting he is the third different starter on the right in three league games as Iraola sorts his attack. Barcola's debut was twelve touches in a game already won, and the manager's line was patience: 'he hasn't even played in a friendly, you always have to be careful, we want to find him in behind.' Munoz holds the graphic on the evidence of two starts; Barcola (now PLAYERS-keyed) and Ngumoha are the alternatives, and the lease on this flank is the shortest on the pitch.",
+  ST:  "Fri Sep 4 — six minutes, nine minutes, and the away end singing his name. Isak scored a near-post drive from Gakpo's threaded pass and then a left-footed finish after stepping inside Greaves, had a third flagged offside in the 33rd, and came off at 64 with the job done and nothing wrong. Three league goals in three games, level with his total for all of 2025-26; two shots on the night, both scored. 'When he's fit, he's going to make the numbers,' Iraola said, 'but most of my demands with him are not about the goals.' Ekitike still has no date behind him and Gakpo is the false-nine fallback, so he starts on Wednesday as a matter of course.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -228,24 +219,24 @@ export const SLOT_RATIONALE = {
 // initially. The UI shows these on hover as "Also considered". Keyed to
 // 4-2-3-1 (the season-closing baseline shape).
 export const ALTERNATIVES = {
-  GK:  [{ playerId: 2, reason: "Mamardashvili · stays as deputy after a summer of loan offers nobody met on terms" }, { playerId: 27, reason: "Woodman · third-choice cover on a new deal" }],
-  LB:  [{ playerId: 7, reason: "Kerkez · the only senior left-back at the club now Robertson has gone" }],
-  LCB: [{ playerId: 11, reason: "Jacquet · started beside Van Dijk vs Forest; Araujo (loan) can also fill in" }],
-  RCB: [{ playerId: 17, reason: "Endo · fit, a familiar emergency centre-half, and the third body if either senior CB goes down" }],
-  RB:  [{ playerId: 9, reason: "Frimpong · the only fit recognised right-back; Bradley is on rehab and eyed for November" }, { playerId: 15, reason: "Szoboszlai · finished the Forest game at right-back and named by Iraola on Thursday as cover, with Araujo (loan)" }],
-  LDM: [{ playerId: 13, reason: "Mac Allister · started the pivot vs Forest; Sports Mole keeps him for Ipswich, Opta pairs him with Gravenberch" }],
-  RDM: [{ playerId: 13, reason: "Mac Allister · the other senior pivot option, kept by Sports Mole, benched by Yahoo" }],
-  LAM: [{ playerId: 25, reason: "Ngumoha · eighteen and on the bench vs Forest; rotation option on either flank" }],
-  CAM: [{ playerId: 13, reason: "Mac Allister · recalled to the pivot vs Forest and can push forward into the ten" }, { playerId: 15, reason: "Szoboszlai · vice-captain, has played the ten before" }],
-  RAM: [{ playerId: 25, reason: "Ngumoha · the teenager Munoz was preferred to, still first in line if the debutant is rested" }, { playerId: 22, reason: "Gakpo · can switch across from the left, and the City sale being off makes him certain of it" }],
-  ST:  [{ playerId: 22, reason: "Gakpo · false-nine option with Ekitike out until December, and staying after deadline-day talks with the owners" }, { playerId: 25, reason: "Ngumoha · led the line in Isak's absences late last season" }],
+  GK:  [{ playerId: 2, reason: "Mamardashvili · unused at Ipswich, stays as deputy after a summer of loan offers nobody met on terms" }, { playerId: 27, reason: "Woodman · third-choice cover on a new deal" }],
+  LB:  [{ playerId: 7, reason: "Kerkez · the only senior left-back at the club now Robertson has gone; Tsimikas unused on Friday" }],
+  LCB: [{ playerId: 11, reason: "Jacquet · started beside Van Dijk in all three league games" }, { playerId: 29, reason: "Araujo · a natural centre-back if Iraola moves him back inside" }],
+  RCB: [{ playerId: 29, reason: "Araujo · the loanee's natural position, though Friday's evidence has him at right-back" }, { playerId: 17, reason: "Endo · the emergency centre-half in the league; not in the Champions League squad" }],
+  RB:  [{ playerId: 9, reason: "Frimpong · fit and unused at Ipswich after Araujo was preferred; his pace is the argument against Lookman" }, { playerId: 15, reason: "Szoboszlai · finished the Forest game at right-back and named by Iraola as in-game cover" }],
+  LDM: [{ playerId: 14, reason: "Gravenberch · on at 64 vs Ipswich after most previews had him starting; the likeliest recall for Atletico" }],
+  RDM: [{ playerId: 14, reason: "Gravenberch · the other senior pivot option, benched for a second successive league game" }],
+  LAM: [{ playerId: 30, reason: "Barcola · debuted on the right at Ipswich but was bought for this flank; Gakpo's two assists keep him waiting" }, { playerId: 25, reason: "Ngumoha · unused at Ipswich; rotation option on either flank" }],
+  CAM: [{ playerId: 13, reason: "Mac Allister · kept the pivot vs Ipswich and can push forward into the ten" }, { playerId: 15, reason: "Szoboszlai · vice-captain, has played the ten before" }],
+  RAM: [{ playerId: 30, reason: "Barcola · twelve touches on debut for Munoz at 64; 'we want to find him in behind'" }, { playerId: 25, reason: "Ngumoha · the teenager Munoz was preferred to, unused on Friday" }],
+  ST:  [{ playerId: 22, reason: "Gakpo · finished Friday's game at centre-forward once Isak came off; the false-nine fallback with Ekitike out until December" }, { playerId: 25, reason: "Ngumoha · led the line in Isak's absences late last season" }],
 };
 
 // ─── Prediction confidence & metadata ───────────────────────────────────────
 // Overall confidence chip shown above the pitch. Enriched with predictor
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
-  level: "Medium",
-  generated_at: "2026-09-04T08:20:00Z",
-  reason: "Fri Sep 4, matchday, Ipswich Town away, 8pm at Portman Road. The XI below is the Forest side carried into the fixture with the pivot restored to Gravenberch beside Mac Allister, which Yahoo, The 4th Official and Opta all make and Sports Mole alone does not. Alisson starts behind Frimpong, Jacquet, Van Dijk and Kerkez; Munoz keeps the right after his debut equaliser, Wirtz the ten, Gakpo the left, Isak alone up top. The absentee list is unchanged from the fortnight: Chiesa out to the international break and off the Champions League squad with Endo, Joe Gomez not back in team training until next week, Ekitike, Bradley and Leoni long-term. Bradley Barcola is available and travels but sits on the bench in every overnight preview; he is not PLAYERS-keyed and cannot be drawn here even if introduced. Araujo is likewise unkeyed, so Jacquet fills RCB and Endo is the emergency centre-half; Szoboszlai is the named in-game right-back cover. Confidence stays medium: nine of these eleven are near-certain, the pivot is a three-way split in the previews, and Barcola could feature without appearing on this pitch. Two league games, two 2-2 draws, not a minute in front, thirteenth a place below tonight's hosts, the squad closed until January. Next up: Ipswich Town away, tonight, 8pm.",
+  level: "High",
+  generated_at: "2026-09-04T22:20:00Z",
+  reason: "Fri Sep 4, evening, after Ipswich Town 0-2 Liverpool at Portman Road; next up Atletico Madrid at Anfield on Wednesday 9 September, 8pm, the Champions League opener. The XI below is the confirmed Ipswich side, the first win of the season: Alisson behind Araujo, Jacquet, Van Dijk and Kerkez; Mac Allister and Szoboszlai in the pivot as Iraola actually picked them; Munoz right, Wirtz the ten, Gakpo left; Isak, two goals in nine minutes, alone up top. All eleven started on Friday and none was hurt, which is why confidence rises to high. The two live questions are right-back, where Araujo's first start (7.7) makes Frimpong the alternative rather than the default, and the pivot, where Gravenberch came on at 64 and is the likeliest European recall. Barcola, twelve touches on debut, is the alternative on either flank; he and Araujo are now PLAYERS-keyed and drawable. The absentee list is unchanged: Ekitike and Bradley with no date, Leoni and Chiesa back with the group during the break, Gomez in team training next week and likely to miss Wednesday. Endo and Chiesa are not in the Champions League squad. Five points, fifth for the weekend, the squad closed until January.",
 };

@@ -484,11 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday, and the waiting is nearly done. Liverpool go to Portman Road
-          tonight thirteenth, two points from two draws, chasing a first win and
-          a first lead of any kind. Chiesa is out until the break; <em>Isak</em>,
-          a hat-trick scorer on this ground, leads the line; <em>Barcola</em>
-          waits on the bench. Eight o'clock, and the table can finally move.
+          Friday night, and the waiting is over. Ipswich 0, Liverpool 2, <em>Isak</em>
+          in the sixth minute and the ninth, both from Gakpo, a first win, a first
+          lead and a first clean sheet in one Suffolk evening. Araujo started at
+          right-back; <em>Barcola</em> came on. Fifth on five points, for a weekend
+          at least, and Atletico at Anfield on Wednesday.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,34 +519,35 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and the eve has become the day. Liverpool travel to Portman Road
-              tonight for an eight o'clock kick-off, thirteenth in the table, two
-              points from two draws, and still to lead a game for a single minute.
-              <em>Federico Chiesa</em> is out until the international break and off
-              the Champions League list; Joe Gomez is a week from training, not a
-              matchday; the five who have missed the fortnight miss this too.
-              <em>Alexander Isak</em>, who once scored a hat-trick on this ground,
-              leads a line the previews build around Gakpo, Wirtz and Victor
-              Munoz, with Bradley Barcola, the £123m debutant, most likely to
-              enter from the bench. Across Suffolk, Gary O'Neil has his forward
-              fit and expects a result. Opta calls it fifty-nine per cent
-              Liverpool; the manager asks only that his side, for once, scores
-              first.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              it took nine minutes. Kerkez won the ball, Gakpo threaded it, and
+              <em>Alexander Isak</em> drove it in at the near post; three minutes
+              later Van Dijk found Gakpo again and Isak stepped inside Greaves to
+              make it two. Ipswich 0, Liverpool 2, and a side that had not led for
+              a minute all season spent eighty-one of them protecting a lead. The
+              team sheet had carried the other story before kick-off: Ronald
+              Araujo at right-back, a first start, in the department the manager
+              had called thin the day before, and Frimpong on the bench.
+              <em>Bradley Barcola</em> arrived on sixty-four minutes, twelve
+              touches, a career begun. The hosts edged the expected goals and
+              Iraola said so himself, in his way: it was about managing to win,
+              not to suffer. Fifth on five points until the weekend takes it back.
+              Wednesday, Atletico.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is the eight
-              o'clock kick-off and the first win to chase; the manager's case for
-              scoring first; the ground that has been kindest to Isak; O'Neil's
-              runner aimed at the thin right; and the seventeen days that begin
-              tonight. Read them in order. The season opened at Newcastle with a
-              2-2 on the twenty-third of August and found another at Anfield on
-              the twenty-ninth; Ipswich away is tonight, and the market is shut
-              until January.
+              dispatches from the writers who never clock off. There is the match
+              itself, six minutes and nine; the manager who wanted the start more
+              than the goals; the Uruguayan at right-back; the twelve touches of
+              the most expensive substitution in English football; and the view
+              from fifth with Atletico five days away. Read them in order. The
+              season opened at Newcastle with a 2-2 on the twenty-third of
+              August, found another at Anfield on the twenty-ninth, and won for
+              the first time at Portman Road tonight; the market is shut until
+              January.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3755,7 +3756,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A first win, and a first lead."
+        "Six minutes. Nine minutes. Done."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
@@ -3921,7 +3922,7 @@ export default function LiverpoolTracker() {
           <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
             <SectionHead
               title="Lineup"
-              meta={<>Predicted XI<br />Ipswich Town · 4 September</>}
+              meta={<>Predicted XI<br />Atlético Madrid · 9 September</>}
             />
             <LineupView players={PLAYERS} nextMatch={NEXT_MATCH} />
           </section>
