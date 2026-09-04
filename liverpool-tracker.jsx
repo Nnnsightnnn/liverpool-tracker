@@ -124,21 +124,21 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Liverpool Offside", title: "Official: Chiesa and Endo left out of Liverpool's Champions League squad as injured Ekitike, Bradley and Leoni are registered", time: "today", category: "fan" },
-  { source: "Liverpool FC", title: "Injury news: Gomez to resume team training next week, Leoni and Chiesa pencilled for the international break, no date for Bradley or Ekitike", time: "today", category: "official" },
-  { source: "Liverpool FC", title: "Team news: Barcola 'will definitely be available' at Ipswich; Iraola calls a start 'a good question' for a player without minutes since July", time: "today", category: "official" },
-  { source: "BBC Sport", title: "Iraola on team fitness, Barcola and 'starting stronger': 'we've been basically losing 90 per cent of the minutes this season'", time: "today", category: "major" },
-  { source: "This Is Anfield", title: "Liverpool submit 25-man Premier League squad: Tsimikas and Barcola in, academy right-back Isaac Mabaya added", time: "today", category: "fan" },
-  { source: "Liverpool FC", title: "Iraola on Szoboszlai at right-back: 'definitely we look thin', but 'he's ready to do it' after finishing the Forest game there", time: "today", category: "official" },
-  { source: "East Anglian Daily Times", title: "Gary O'Neil 'fully expects' a result against Liverpool; Emersonn fit after knee scare, Matusiwa, Taylor and Philogene out", time: "today", category: "major" },
-  { source: "Opta Analyst", title: "Ipswich vs Liverpool prediction: supercomputer gives Reds 59.3%, but they are winless in six league games (D4 L2)", time: "today", category: "fan" },
-  { source: "Liverpool FC", title: "Iraola on Gakpo: 'I'm very happy to keep Cody because for me he's a very valuable player'", time: "today", category: "official" },
-  { source: "Liverpool.com", title: "Why Jacquet, Ngumoha and Leoni are not in Liverpool's Premier League squad, and what the Champions League list says about January", time: "today", category: "fan" },
-  { source: "Empire of the Kop", title: "Kevin Nolan: Liverpool 'haven't had a great window' but Barcola will be a 'huge success'", time: "today", category: "fan" },
-  { source: "Sports Mole", title: "Predicted Liverpool XI vs Ipswich: Mac Allister keeps the pivot, Barcola and Ngumoha on the bench", time: "today", category: "major" },
-  { source: "ESPN", title: "Harvey Elliott leaves Liverpool on loan for Valencia: no option to buy, contract runs to 2028", time: "1d ago", category: "major" },
-  { source: "This Is Anfield", title: "Liverpool's September: five games in 17 days as Iraola's first real test begins at Ipswich", time: "1d ago", category: "fan" },
-  { source: "Sky Sports", title: "Liverpool 2-2 Nottingham Forest: Munoz's debut strike rescues a second straight draw at Anfield", time: "5d ago", category: "major" },
+  { source: "Sky Sports", title: "Ipswich Town vs Liverpool: how to watch, kick-off 8pm at Portman Road as Iraola's side chase a first win of the season", time: "today", category: "major" },
+  { source: "Sports Mole", title: "Predicted Liverpool XI vs Ipswich: Isak leads the line, Munoz keeps the right, Barcola named among the substitutes", time: "today", category: "major" },
+  { source: "Opta Analyst", title: "Ipswich vs Liverpool prediction: model gives Reds 59.3%, but tips another 1-1 as the single likeliest score", time: "today", category: "fan" },
+  { source: "Yahoo Sports", title: "Ipswich vs Liverpool predicted lineups: Gravenberch restored to the pivot, Isak the lone striker at Portman Road", time: "today", category: "fan" },
+  { source: "East Anglian Daily Times", title: "Gary O'Neil plots Enciso as a false nine and Fatawu at Liverpool's thin right; Emersonn fit again", time: "today", category: "major" },
+  { source: "Opta Analyst", title: "Isak's Portman Road record: four Premier League goals against Ipswich, including a hat-trick at the ground", time: "today", category: "fan" },
+  { source: "This Is Anfield", title: "Five games in 17 days begin tonight: Atletico and a Spurs cup tie follow the trip to Ipswich", time: "today", category: "fan" },
+  { source: "Liverpool FC", title: "Team news: Chiesa ruled out to the international break and left off the Champions League squad with Endo", time: "1d ago", category: "official" },
+  { source: "Liverpool FC", title: "Injury update: Gomez to resume team training next week, no return date for Bradley or Ekitike", time: "1d ago", category: "official" },
+  { source: "BBC Sport", title: "Iraola wants his side to start stronger after early concessions left Liverpool chasing both league games", time: "1d ago", category: "major" },
+  { source: "This Is Anfield", title: "Liverpool submit 25-man Premier League squad: Tsimikas and Barcola in, academy right-back Isaac Mabaya added", time: "1d ago", category: "fan" },
+  { source: "Liverpool FC", title: "Iraola closes the Gakpo chapter: forward stays, in a good place, contracted to 2030", time: "1d ago", category: "official" },
+  { source: "Empire of the Kop", title: "Kevin Nolan: Liverpool 'haven't had a great window' but Barcola will be a 'huge success'", time: "2d ago", category: "fan" },
+  { source: "ESPN", title: "Harvey Elliott leaves Liverpool on loan for Valencia: no option to buy, contract runs to 2028", time: "2d ago", category: "major" },
+  { source: "Sky Sports", title: "Liverpool 2-2 Nottingham Forest: Munoz's debut strike rescues a second straight draw at Anfield", time: "6d ago", category: "major" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────

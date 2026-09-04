@@ -357,7 +357,7 @@ export const COVER_IMAGE = {
   alt: "Pure-type edition cover.",
   focus: null,
   credit: null,
-  generatedAt: "2026-09-03T22:10:00Z",
+  generatedAt: "2026-09-04T08:20:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
   // Evening pass (Thu 3 September): no match played since Saturday's Forest draw. Lead is what
   // Thursday's press conference and squad lists actually settled: Chiesa, in contention by the
@@ -470,11 +470,11 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 2,
-  generatedAt: "2026-09-03T22:10:00Z",
+  generatedAt: "2026-09-04T08:20:00Z",
   overview:
-    "The table is still exactly as the weekend left it, and by Thursday evening the only thing that has changed is what Liverpool will bring to the first match that can move it. Thirteenth on two points from two 2-2 draws, a place and a point below Friday's hosts, they go to Ipswich without Chiesa, whom the manager has now put back to the international break, and with Barcola available for a debut, bench or start. A win takes them to five and above the Tractor Boys, their first three points since April; a third draw would be a seventh league game without a win, something Liverpool have managed only once before. Above them, Manchester City, Arsenal, promoted Hull and Chelsea share the maximum on six, Brentford lead the chasing pack on four. At the foot, Fulham, Coventry, Crystal Palace, Aston Villa and Tottenham are still without a point, the last three in the drop zone on goals scored.",
+    "Friday night is the first chance to move a table that has sat still since the weekend, and it is Liverpool and Ipswich, thirteenth and twelfth, separated by a single point, who get to move it. A Liverpool win takes them to five and above their hosts, a first three points since April; a third straight draw is a seventh league game without a win, something the club has done only once before. Above them, Manchester City, Arsenal, promoted Hull and Chelsea share the maximum on six, Brentford the best of the rest on four. At the foot, Fulham, Coventry, Crystal Palace, Aston Villa and Tottenham are still pointless, the last three in the drop zone on goals scored, Spurs bottom despite the summer's third-largest net spend.",
   teams: {
-    "Liverpool": "Thirteenth on two points, unbeaten, winless, and yet to lead for a minute. Chiesa is out until the break, Gomez trains next week, Barcola is cleared for Friday. Opta gives the trip to Ipswich a 59.3 per cent chance of the first win.",
+    "Liverpool": "Thirteenth on two points, unbeaten, winless, and yet to lead for a minute this season. They go to Ipswich tonight with Isak leading the line and Barcola on the bench; Opta gives them a 59.3 per cent chance of a first win that would lift them to five points and clear of their hosts.",
     "Manchester City": "Top on six and plus-four, level with Arsenal, and the league's biggest gross spenders at £440.3m, with Enzo Fernandez's £125m the summer's last marquee deal.",
     "Arsenal": "Second on six, tied with City on points and goal difference after two wins from two, and fourth in the net-spend table on £136.6m.",
     "Hull": "Third on six, two from two on their return to the top flight, still the opening fortnight's outlier.",
@@ -492,140 +492,134 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "The Winger Who Was Edging Back Is Out Until The Break, And Off The European List.",
-    byline: "Liverpool FC / Liverpool Offside",
-    dateline: "Kirkby · 3 September",
-    category: "Injuries",
+    headline: "Eight O'Clock At Portman Road, And A First Win To Go Looking For.",
+    byline: "Sky Sports / Liverpool FC",
+    dateline: "Portman Road · 4 September",
+    category: "Football News",
     body:
-      "Thursday morning's previews had Federico Chiesa in contention. Thursday morning's manager did not. Asked for the injury picture, Andoni Iraola worked outward from the nearest return: Joe Gomez on the grass next week and hoped for before the international break, Giovanni Leoni rejoining the group during it, and 'even Fede should be around those dates.' That is five fixtures without him, Atletico Madrid among them. By the evening the Champions League list had gone to UEFA without his name, or Wataru Endo's, while three injured players kept theirs. A squad closed until January just got one body shorter on the right, and the club has said so twice in a day.",
+      "It arrives tonight, under lights in Suffolk, the first fixture since the weekend and the first that can lift Liverpool off thirteenth. Two matches, two draws, two points, and not a minute spent in front: the record is unbeaten and unsatisfying in equal measure. Iraola sends out the fortnight's familiar side, Isak alone at its tip, against a promoted host a point above and glad to see them. Opta likes the visitors and the bookmakers agree, but the model's favourite single score is the 1-1 Liverpool have already lived twice. A win changes the shape of September. A third draw makes it a subject.",
   },
   {
     n: "02",
-    headline: "Available, Definitely. Starting, A Good Question.",
-    byline: "Liverpool FC / Sports Mole",
-    dateline: "Kirkby · 3 September",
+    headline: "Score First, And Everything Reads Differently.",
+    byline: "BBC Sport / Opta Analyst",
+    dateline: "Kirkby · 4 September",
     category: "Manager",
     body:
-      "Bradley Barcola has now trained three times with the players he cost £123m to join, and on Thursday his manager confirmed the first half of the sentence everyone wanted. 'If everything goes well in today's training also, he will definitely be available for tomorrow.' The second half he would not give. 'It's a good question, it's a good question,' Iraola said twice, before laying out the case against: no minutes since France's third-place match on 18 July, no pre-season, a decision still to make. He was happier on the man than the minutes: a player who 'wanted Liverpool a lot' and arrives 'with the willingness to help'. Sports Mole has him on the bench beside Ngumoha. The team sheet at seven on Friday will settle it.",
+      "Andoni Iraola's brief for Portman Road is not tactical so much as temporal. His side has conceded early in both league games and then chased, and the fix he keeps returning to is the opening quarter of an hour, to be aggressive before the concession rather than after it. The numbers back the diagnosis: a quarter of an expected goal in the first half against Forest to the visitors' one and a third, both Newcastle goals from transition. Liverpool have out-created both opponents across ninety minutes and led neither for a second. Get in front once, the manager's logic runs, and a team that keeps drawing might start winning.",
   },
   {
     n: "03",
-    headline: "Ninety Per Cent Of The Minutes Behind.",
-    byline: "Liverpool FC / Opta Analyst",
-    dateline: "Kirkby · 3 September",
+    headline: "The Ground That Has Been Kindest To Alexander Isak.",
+    byline: "Opta Analyst",
+    dateline: "Portman Road · 4 September",
     category: "Tactics",
     body:
-      "The most honest line of the week came when Iraola was asked about four equalisers in two games. 'That's the positive side of the reaction,' he said, 'but I want to focus on trying to score first, because everything looks better.' Then the number: Liverpool have been 'basically losing 90 per cent of the minutes this season' because of the early goals conceded. When you are losing, he said, the same pattern that would look like control looks like nothing. Opta framed it from the other side on Thursday: six league games without a win, D4 L2, and two conceded in each of the first two, a start matched only by Rodgers in 2012. The instruction for Portman Road is short. Do not wait for the first goal to be aggressive.",
+      "Of all the venues Liverpool could visit chasing a first goal-scorer's lead, this is the one their striker knows how to attack. Isak has four Premier League goals in two games against Ipswich, all for Newcastle in 2024-25, three of them in a single afternoon here, a hat-trick at Portman Road. Liverpool have never lost a league game at the ground, unbeaten in six visits, and are unbeaten in twenty against promoted sides. Off the mark for his new club with the hour-mark equaliser against Forest, the £125m Swede returns to the pitch that made him look unstoppable, at a moment his team needs exactly that.",
   },
   {
     n: "04",
-    headline: "The Striker Who Jarred His Knee Is Fine, And His Manager Expects A Result.",
-    byline: "East Anglian Daily Times / Liverpool FC",
+    headline: "O'Neil Points His Best Runner At Liverpool's Thinnest Flank.",
+    byline: "East Anglian Daily Times / Opta Analyst",
     dateline: "Portman Road · 3 September",
-    category: "Football News",
+    category: "Tactics",
     body:
-      "Gary O'Neil's Thursday was easier than his opposite number's. Emersonn, taken off at half-time at Old Trafford, is 'fine, he's back, he's trained this week', the knee an 'extreme landing' that 'settled very, very quickly'. No fresh concerns; Matusiwa, Taylor and Philogene stay out. The former Liverpool academy coach then did something Iraola did not, which was describe his own game plan out loud: Enciso as a false nine to pull Van Dijk and Jacquet out of their duels, or 'two up against them' with Flemming and Emersonn and go direct. 'I'm sure they're thinking they've got a chance to add to their points tally,' he said, 'but so do we.' Ipswich are unbeaten in eighteen at home. Liverpool have never lost a Premier League game here.",
+      "The former Liverpool academy coach has read the visitors' one obvious seam. Abdul Fatawu, Ipswich's leader for chances created, passes into the box and duels won across their two league games, is aimed at a Liverpool right where Frimpong is the only fit senior full-back and Szoboszlai the in-game cover. It was Fatawu's run past Luke Shaw that made Leif Davis's goal at Old Trafford. Behind him, O'Neil has floated Enciso as a false nine to drag Van Dijk and Jacquet out of their duels, with Flemming the direct alternative alongside Emersonn. Ipswich are unbeaten in eighteen at home. The plan is to make that nineteen.",
   },
   {
     n: "05",
-    headline: "Two Lists, Twenty-Five Names Each, And What They Say About January.",
-    byline: "This Is Anfield / Liverpool.com",
-    dateline: "Anfield · 3 September",
-    category: "Transfers",
+    headline: "Seventeen Days, Five Games, And One Squad To Play Them All.",
+    byline: "This Is Anfield",
+    dateline: "Anfield · 4 September",
+    category: "Football News",
     body:
-      "Squad-list day is usually a formality. This one read like a memo. The Premier League 25 went in with room to spare, Barcola in, Tsimikas back from Roma as the second left-back, and Isaac Mabaya, twenty-one, registered as an academy right-back where Owen Beck used to be, a paper answer to a position Iraola conceded 'looks thin'. Jacquet, Ngumoha, Leoni and Nyoni did not need naming. The Champions League list was tighter and told more: McConnell over Endo, Chiesa out, and Ekitike, Bradley and Leoni kept despite their rehab because only three changes are allowed after the league phase. Elliott, loaned to Valencia with no option to buy, is on neither. The window shut on Tuesday; the sorting did not.",
+      "Portman Road is not a night in isolation; it is the door into the busiest stretch Iraola has faced at Liverpool. Atletico Madrid come to Anfield on Wednesday for a Champions League opener Chiesa and Endo are not registered for; Tottenham follow in the Carabao Cup on the fifteenth; then Fulham and Bournemouth in the league. Five fixtures in seventeen days, with a squad five men short of full and closed to reinforcement until January. The margin is the bench, and the bench is thin. A good fortnight turns two points into a base; a poor one turns a slow opening into the story of the autumn.",
   },
 ];
 
 export const NEWS_DIGEST = {
-  generatedAt: "2026-09-03T22:10:00Z",
+  generatedAt: "2026-09-04T08:20:00Z",
   summary:
-    "Federico Chiesa will not be back with the group until the international break, Andoni Iraola said on Thursday morning, and by the evening he and Wataru Endo had been left out of Liverpool's Champions League squad altogether: the two hardest lines of a press-conference day that otherwise cleared Bradley Barcola to make his £123m debut at Ipswich on Friday night. The morning's previews had Chiesa edging into contention; the manager's own timetable now has him rejoining training during the break alongside Giovanni Leoni, with Joe Gomez the nearest return, due back on the grass next week and hoped for before the break rather than for Portman Road. Barcola trained for a third day and 'will definitely be available' if Thursday's session passed, though Iraola would not say whether he starts, calling it 'a good question' for a player without a minute since 18 July. Across Suffolk, Gary O'Neil has Emersonn fit after the knee scare at Old Trafford and says he fully expects a result. Two squad lists, one press conference, a Szoboszlai-at-right-back contingency spoken aloud, and the table still frozen at thirteenth until eight o'clock on Friday.",
+    "Matchday, at last. Liverpool cross into Suffolk on Friday for an eight o'clock kick-off at Portman Road, the first fixture since the weekend that can lift them off thirteenth and the two points their two 2-2 draws have banked. Andoni Iraola travels without Federico Chiesa, ruled out to the international break and left off the Champions League list the evening before, and with the same five absentees that have framed the fortnight: Ekitike, Bradley and Leoni long-term, Joe Gomez back in training only next week. Alexander Isak, four goals against Ipswich and a hat-trick on this ground for Newcastle, leads a front line the previews build around Gakpo, Wirtz and Victor Munoz, with the £123m debutant Bradley Barcola expected among the substitutes rather than the eleven. Gary O'Neil's hosts sit twelfth, a point above, Emersonn fit again and only Matusiwa, Taylor and Philogene missing. Opta still makes Liverpool clear favourites at 59.3 per cent, yet its likeliest single score is another 1-1; the number the manager wants is the one that has escaped his side all season, the first goal.",
   keyTopics: [
     {
-      title: "Chiesa Out Until The Break, And Left Off The Champions League List With Endo (Liverpool FC / Liverpool Offside, today)",
+      title: "Matchday At Portman Road: Liverpool Chase A First Win Of The Season Under Friday Lights (Sky Sports / Liverpool FC, today)",
       detail:
-        "The morning's team-news softening was reversed inside a day. Asked for an injury update at Thursday's press conference, Iraola put Chiesa's return to group training 'around those dates' of the September international break, alongside Leoni, which rules him out of Ipswich, Atletico, Fulham, Tottenham and Bournemouth. By Thursday evening the 25-man Champions League list had been submitted without him and without Wataru Endo, an unused substitute in both league games, while the injured Ekitike, Bradley and Leoni were all registered. Liverpool Offside notes only three changes are allowed after the league phase, which is why the long-term absentees kept their places and the fit midfielder lost his.",
-      category: "injuries",
-    },
-    {
-      title: "Barcola Cleared To Debut At Portman Road; Bench Or Start Is, In Iraola's Words, 'A Good Question' (Liverpool FC, today)",
-      detail:
-        "The £123m winger has trained three times with the group since Monday's announcement and, Iraola said on Thursday morning, 'will definitely be available' for Friday if the afternoon session went to plan. Whether he starts is a decision the manager would not make in public: Barcola 'is in a good place' but 'hasn't had the minutes in the pre-season games', his last appearance France's World Cup third-place match on 18 July. The club's own team news frames the choice as start or substitute; Sports Mole's Thursday XI has him on the bench beside Ngumoha, with Munoz keeping the right.",
+        "It comes tonight. Kick-off is eight o'clock at Portman Road, live on Sky Sports, the first game since the weekend and the first chance to move off thirteenth and the two points two draws have left. Liverpool arrive unbeaten and winless, having led for not a single minute this season, against a promoted side a place and a point above them. Iraola names the fortnight's familiar side, Isak alone up top, and asks it for the thing it has not managed: to be ahead rather than chasing. Opta's model still likes the visitors, but the manager's own condition is simpler, and it is about the clock, not the odds.",
       category: "matches",
     },
     {
-      title: "Gomez Back On The Grass Next Week, Hoped For Before The Break; Bradley And Ekitike 'Will Go Later' (Liverpool FC / BBC Sport, today)",
+      title: "The Previews Settle On Isak Alone, Munoz Keeping The Right, And Barcola Named Among The Substitutes (Sports Mole / Yahoo / Opta, today)",
       detail:
-        "The clearest injury timetable Iraola has given. 'The closest one is Joe,' he said on Thursday, with Gomez, out since the Sunderland friendly in July, to 'start training with us next week' and hoped back 'before the break'. That is a fortnight, not a Friday, and it moves the target off the Fulham date the previews had pencilled. Leoni's plan is to rejoin the group during the break after nearly a year on ACL rehabilitation; Chiesa is put on the same dates; Bradley and 'especially Hugo' Ekitike have no timeframe at all. Until Gomez is back, the right-back cover remains Araujo and, as Iraola said aloud, Szoboszlai.",
-      category: "injuries",
-    },
-    {
-      title: "'We Have To Start Stronger': Iraola Says His Side Has Been Losing 90 Per Cent Of The Minutes (Liverpool FC / BBC Sport, today)",
-      detail:
-        "The tactical line of the presser was about the first quarter of an hour. 'We've been basically losing 90 per cent of the minutes this season because we conceded very early goals,' Iraola said on Thursday, and the instruction for Friday is not to 'wait until the first goal to be more aggressive'. He admitted the frustration of two draws plainly, 'I want to win, I need to win', and said the fortnight with the market open had felt 'virtual'; with it shut, 'we know who we are'. Opta's preview puts the number behind it: winless in six league games (D4 L2), the longest run since Houllier's eleven in 2002-03 if it reaches seven.",
-      category: "tactics",
-    },
-    {
-      title: "Szoboszlai At Right-Back Spoken Aloud, And Mabaya Registered As The Academy Cover (Liverpool FC / This Is Anfield, today)",
-      detail:
-        "Iraola did not pretend the right side is fine. 'We don't have Conor Bradley right now, we don't have Joe Gomez right now. Definitely we look thin,' he said on Thursday, before naming Szoboszlai and Araujo as the players who can cover it. The Hungarian, in line for his 150th Liverpool appearance, moved to right-back for the final twenty minutes against Forest when Frimpong was withdrawn, and Iraola said he is 'ready to do it'. The squad list submitted the same day adds a third option on paper: Isaac Mabaya, the 21-year-old academy right-back, registered as a homegrown senior for the first time, replacing the injured Owen Beck.",
-      category: "tactics",
-    },
-    {
-      title: "Two Lists Of Twenty-Five: Tsimikas And Chambers In, Jacquet, Ngumoha And Leoni Exempt Domestically (This Is Anfield / Liverpool.com, today)",
-      detail:
-        "Liverpool submitted their Premier League squad on Thursday, a full 25 with eight homegrown players, valid until the January window closes on 1 February. Barcola is in; so are Kostas Tsimikas, back from his Roma loan as Kerkez's cover, Luke Chambers, Vitezslav Jaros and James McConnell. Jacquet, Ngumoha, Leoni, Nyoni, Koumas and Danns did not need registering as under-21s. The Champions League list is stricter: Jacquet and Leoni had to be named there, McConnell was preferred to Endo, and Chiesa missed out. Liverpool.com reads the two lists together as a hint about who the club expects to move in January.",
-      category: "general",
-    },
-    {
-      title: "Emersonn Fit, Flemming In Reserve, And O'Neil 'Fully Expects' A Result (East Anglian Daily Times / Liverpool FC, today)",
-      detail:
-        "The doubt on the other side cleared. Gary O'Neil confirmed on Thursday that Emersonn, off at half-time at Old Trafford, is 'fine, he's back, he's trained this week', the knee an 'extreme landing' that 'settled very, very quickly', and that there are 'no fresh injury concerns' beyond Matusiwa, Taylor and Philogene. He talked through the options openly: Enciso as a false nine 'to take the physicality away' from Van Dijk and Jacquet, or 'two up against them' with Flemming and Emersonn. 'I'm sure they're thinking they've got a chance to add to their points tally, but so do we.' Fatawu, with 5 chances created and 14 duels won, is the threat Opta singles out.",
+        "Friday's predicted XIs converge on the Forest eleven carried forward: Alisson behind Frimpong, Jacquet, Van Dijk and Kerkez, Isak the lone striker, Wirtz at ten, Gakpo left and Victor Munoz keeping the right after his debut equaliser. The one live argument is the pivot, where Sports Mole keeps Mac Allister, while Yahoo, The 4th Official and Opta restore Gravenberch beside him. Barcola, without a competitive minute since 18 July, appears on the bench in every version published overnight, the debut most likely to arrive as a substitute.",
       category: "matches",
     },
     {
-      title: "Opta Gives Liverpool 59.3 Per Cent, And Isak Four Goals In Two Games Against Ipswich (Opta Analyst, today)",
+      title: "O'Neil's Plan For The Thin Right: Fatawu At Frimpong, Enciso Dropping In As A False Nine (East Anglian Daily Times / Opta Analyst, today)",
       detail:
-        "The supercomputer published on Thursday makes Liverpool clear favourites at 59.3 per cent to Ipswich's 19.7, the draw at 21.0, the likeliest scoreline a 1-2. The surrounding numbers cut both ways: Liverpool are unbeaten in twenty league games against promoted sides (W15 D5), unbeaten in six visits to Portman Road, and Isak scored four against Ipswich for Newcastle in 2024-25, three of them in a hat-trick at this ground. Against that, two goals conceded in each of the first two games has happened only once before, under Rodgers in 2012-13, and Wirtz has created just two chances all season, though only Bruno Fernandes has made more line-breaking passes.",
+        "Ipswich's predicted line-up, Scherpen; O'Shea, Diop, Greaves, Davis; Lukic, Nunez; Fatawu, Enciso, Maeda; Emersonn, points its sharpest edge at Liverpool's one fit senior right-back. Abdul Fatawu leads the hosts for chances created (5), passes into the box (9) and duels won (14) across their two league games, per Opta, and it was his run past Luke Shaw that made Leif Davis's goal at Old Trafford. O'Neil's stated alternative is Enciso as a false nine to pull Van Dijk and Jacquet out of the duels they win, with Flemming held back as the direct option alongside Emersonn.",
       category: "tactics",
     },
     {
-      title: "'Very Happy To Keep Cody': Iraola Closes The Gakpo Chapter In Public (Liverpool FC, today)",
+      title: "Isak's Portman Road Ledger: Four Goals Against Ipswich, A Hat-Trick On This Very Ground (Opta Analyst, today)",
       detail:
-        "Three days after the FSG meeting, the manager gave his version. Gakpo 'was always aware of the situations in the market, we were constantly talking with each other', Iraola said on Thursday, 'he's now in a good place physically, mentally, and I'm very happy to keep Cody because for me he's a very valuable player.' He also addressed the shape of the attack the window left him: no specialist right winger, but four wingers he expects to play both sides, Barcola included, who 'started actually more on the right side' at Lyon. Gakpo, who scored at Newcastle and assisted against Forest, keeps the left on Friday.",
-      category: "transfers",
+        "The one number that unambiguously favours Liverpool sits with their striker. Alexander Isak has scored four Premier League goals in two games against Ipswich, all for Newcastle in 2024-25, three of them in a hat-trick at Portman Road, per Opta. Liverpool have never lost a league game at the ground, unbeaten in all six visits, their best such record anywhere, and are unbeaten in twenty against newly promoted opposition (W15 D5). Off the mark for Liverpool with the hour-mark equaliser against Forest, Isak arrives at the venue that has been kindest to him.",
+      category: "matches",
     },
     {
-      title: "No News On A Ngumoha Contract, But A Manager Who Calls Him 'A Settled Football Player' At Eighteen (BBC Sport / Liverpool FC, today)",
+      title: "Opta Makes It 59.3 Per Cent, Yet Its Likeliest Single Score Is Another 1-1 (Opta Analyst / Forebet, today)",
       detail:
-        "Asked on Thursday about the five-year deal that has been waiting for Ngumoha's eighteenth birthday, Iraola said there was no news. What he offered instead was a defence of the winger's use on the right against Newcastle: 'because he hasn't been incredible in the first game we put him on the right, we cannot say he cannot play on the right anymore.' He wants the teenager to develop both flanks, called him 'incredible' for looking 'already like a settled football player in the Premier League', and expects him on the bench again on Friday with Barcola ahead of him in the queue.",
+        "The supercomputer gives Liverpool a 59.3 per cent win chance to Ipswich's 19.7, the draw 21.0, with the likeliest win a 1-2 (7.65%) and the single most probable scoreline a 1-1 (11.66%), the very result Liverpool have taken from both games so far. Squawka's model agrees at 59 per cent and tips 1-3. Forebet's numbers lean the same way while noting the draw's stubborn pull. All are probabilities rather than predictions of intent, and the bookmakers' price is a market, not a forecast.",
+      category: "tactics",
+    },
+    {
+      title: "Munoz, The One Clear Positive: Top For Shots, Dribbles And Duels Across The Opening Fortnight (Opta Analyst, today)",
+      detail:
+        "The £34.7m arrival from Osasuna has been the brightest thread of a slow start. Against Forest, Victor Munoz led the team in shots (4), attempted dribbles (6) and duels contested (17) and scored the 82nd-minute equaliser off the crossbar, having already won the stoppage-time penalty at Newcastle as a substitute the week before, per Opta. Preferred to Ngumoha on the right and likely to keep the shirt tonight, the 22-year-old World Cup winner is the answer to a flank the summer market did not solve.",
       category: "general",
     },
     {
-      title: "Nolan: 'Haven't Had A Great Window', But Barcola Will Be 'A Huge Success' (Empire of the Kop, today)",
+      title: "Wirtz's Two Chances, And The Line-Breaking Passes Underneath Them (Opta Analyst, today)",
       detail:
-        "The pundit verdicts kept arriving on Thursday. Kevin Nolan told Empire of the Kop he does not expect Liverpool to contend for the title and was underwhelmed by the window as a whole, while calling the £106m-rising-to-£123m Barcola a 'great signing' who will be a 'huge success'. It follows the Telegraph's fourteenth-of-twenty ranking and BBC Sport's note on the missing defensive midfielder, and it lands the same day the manager, asked whether he wanted more signings, answered that 'the club has decided those signings we've done are the ones that improved our team'.",
-      category: "general",
+        "The playmaker's early return reads oddly. Florian Wirtz has created only two chances in two league games, yet his 11 line-breaking passes are second in the division to Bruno Fernandes's 13, per Opta, which says the ball is arriving through the lines and dying in the final action rather than the supply drying up. On 27 shots for 2.73 expected goals at Newcastle and out-created only by Forest at Anfield, Liverpool's problem has looked like the last pass and the first fifteen minutes, not the volume in between.",
+      category: "tactics",
     },
     {
-      title: "Elliott's Valencia Loan Confirmed, No Option To Buy, Contract To 2028 (Liverpool FC / ESPN, 1d ago)",
+      title: "The Winless Run Reaches A Sixth Game, And The Fix Is The First Quarter Of An Hour (BBC Sport / Opta Analyst, today)",
       detail:
-        "The one piece of outgoing business still live after the English window shut on Tuesday night. Harvey Elliott has joined Valencia on loan for the rest of 2026-27, the Spanish window having stayed open past England's, with no purchase option in the deal; he remains contracted to Liverpool until 2028 and is expected back next summer. The 23-year-old arrived in Valencia on Monday evening to train under Carlos Corberán after a difficult two years, the last of them on loan at Aston Villa. He is not in either of Liverpool's 25-man lists.",
-      category: "transfers",
+        "Liverpool go to Ipswich winless in six league games (D4 L2) reaching back into last spring, a run that would, at seven, become only the second of its length in the club's Premier League history, after Houllier's eleven in 2002-03. The pattern behind it is early: 0.25 expected goals in the first half against Forest to Forest's 1.29, and a goal conceded inside 24 minutes. Iraola's brief for tonight, by every account of Thursday's briefing, is to press before the concession rather than after it.",
+      category: "tactics",
+    },
+    {
+      title: "Barcola In The Squad, The Start-Or-Bench Call Left To The Team Sheet (Liverpool FC / Sports Mole, today)",
+      detail:
+        "The £123m signing, three sessions into life at Kirkby, is available and travels. What remains open until the sheet lands at seven is whether the debut comes from the first whistle: no pre-season, no minutes since France's World Cup third-place game on 18 July, and a manager reluctant to commit in public. The previews are not: every overnight XI has him on the bench beside Ngumoha, with Munoz keeping the right. A first Liverpool appearance seems a question of when in the ninety, not whether.",
+      category: "matches",
+    },
+    {
+      title: "Frimpong Alone On The Right Again, With Szoboszlai The In-Game Answer And A 150th Cap In Sight (Liverpool FC / This Is Anfield, today)",
+      detail:
+        "For a third league game Jeremie Frimpong is the only fit senior right-back, Bradley without a return date and Gomez not back in team training until next week. The named cover is Dominik Szoboszlai, who finished the Forest game at right-back when Frimpong went off and stands on the edge of his 150th Liverpool appearance, with the loanee Araujo behind him and the 21-year-old academy full-back Isaac Mabaya newly registered as paper depth. It is the department Fatawu is built to attack.",
+      category: "tactics",
+    },
+    {
+      title: "Five Games In Seventeen Days Begin Tonight, With Atletico And A Spurs Cup Tie Next (This Is Anfield, today)",
+      detail:
+        "Portman Road opens the busiest stretch of Iraola's young tenure: Atletico Madrid at Anfield next Wednesday for the Champions League opener Chiesa and Endo are not registered for, Tottenham in the Carabao Cup on Tuesday 15 September, then Fulham and Bournemouth in the league. Five fixtures in seventeen days, played by the squad on this page and no other until January, begin with a side chasing its first win. A good week turns two points into a platform; a bad one turns a slow start into a theme.",
+      category: "matches",
     },
   ],
   sources: [
+    "Sky Sports",
     "Liverpool FC",
-    "Liverpool Offside",
+    "Sports Mole",
+    "Yahoo",
+    "Opta Analyst",
+    "East Anglian Daily Times",
+    "Forebet",
+    "Squawka",
     "BBC Sport",
     "This Is Anfield",
-    "Liverpool.com",
-    "Sports Mole",
-    "East Anglian Daily Times",
-    "Opta Analyst",
-    "ESPN",
-    "Empire of the Kop",
   ],
 };
 
@@ -647,7 +641,7 @@ export const NEWS_DIGEST = {
 // next edition and then into the auditor's blind spot.
 
 export const OPPOSITION = {
-  generatedAt: "2026-09-03T22:10:00Z",
+  generatedAt: "2026-09-04T08:20:00Z",
   opponent: "Ipswich Town",
   shortName: "IPS",
   fixture: {
@@ -661,7 +655,7 @@ export const OPPOSITION = {
   formation: "4-2-3-1",
   leaguePosition: 12,
   summary:
-    "Emersonn is fit, and that single Thursday sentence from Gary O'Neil reorganises the dossier: the opening-day scorer who went off at half-time at Old Trafford has 'trained this week' with 'no concerns', so Ipswich go into Friday twelfth, a place and a point above Liverpool, with their first-choice eleven minus three long-term absentees. O'Neil, the former Liverpool academy coach who replaced Kieran McKenna in the summer, made fourteen signings, Zian Flemming from Burnley the last of them, and Sky's figures put Ipswich second in the league for net spend at £190.7m. Two league games have produced ten goals: a 2-1 over Sunderland won by Jack Clarke's late goal, then a 5-2 at Old Trafford in which they led late in the first half through Leif Davis before Bruno Fernandes's hat-trick. Opta's numbers to hold are these: unbeaten in eighteen home league games, seventeen of them in the Championship, but one clean sheet in their last 36 Premier League matches and none in the last 21, and O'Neil himself has two in his last 35 as a manager. He said on Thursday he 'fully expects' a result.",
+    "Tonight it is Ipswich who host, twelfth and a point above Liverpool, and with Emersonn fit again they go into it at close to full strength, only Matusiwa, Taylor and Philogene missing. The opening-day scorer, off at half-time at Old Trafford with a jarred knee, trained all week and is available, which restores O'Neil's first-choice eleven. O'Neil, the former Liverpool academy coach who replaced Kieran McKenna in the summer, made fourteen signings, Zian Flemming from Burnley the last of them, and Sky's figures put Ipswich second in the league for net spend at £190.7m. Two league games have produced ten goals: a 2-1 over Sunderland won by Jack Clarke's late goal, then a 5-2 at Old Trafford in which they led late in the first half through Leif Davis before Bruno Fernandes's hat-trick. Opta's numbers to hold are these: unbeaten in eighteen home league games, seventeen of them in the Championship, but one clean sheet in their last 36 Premier League matches and none in the last 21, and O'Neil himself has two in his last 35 as a manager. He said on Thursday he 'fully expects' a result.",
   shape:
     "4-2-3-1 with Lukic and Núñez as the double pivot, Fatawu and Maeda wide of Enciso, and Emersonn alone up top now he is fit, Flemming the alternative. O'Neil described two variations on Thursday: Enciso dropping in as a false nine 'to take the physicality and duels away' from Van Dijk and Jacquet, or Flemming and Emersonn together and 'really direct'. The full-backs push high, Davis on the left especially, and it was Fatawu's run past Luke Shaw that made Davis's goal at United. The six-foot-nine Scherpen goes long early, the pattern that undid Liverpool inside twenty-four minutes against Forest.",
   keyPlayers: [
@@ -722,11 +716,11 @@ export const OPPOSITION = {
 };
 
 export const FORM_TRENDS = {
-  generatedAt: "2026-09-03T22:10:00Z",
+  generatedAt: "2026-09-04T08:20:00Z",
   competition: "PL",
   played: 2,
   headline:
-    "The manager put his own number on it on Thursday: Liverpool have been 'basically losing 90 per cent of the minutes this season', and the underlying figures say that is the whole diagnosis, not a symptom. On Tyneside they out-created Newcastle 2.73 to 1.43 from 27 shots and lost the game's two moments to fast breaks; at Anfield they were out-created 2.30 to 1.61 by Forest and chased it from the twenty-fourth minute. Season xG stands at 4.34 for and 3.73 against, a real if modest edge that has produced four goals each way and not a second in front. Opta's Thursday preview adds the historical shape: winless in six league games (D4 L2) back into last spring, two conceded in each of the first two, and yet twenty games unbeaten against promoted sides. A squad closed until January cannot buy a different first quarter of an hour. It has to play one.",
+    "Two games, two draws, and an expected-goals line that says Liverpool have been the better side without once leading. On Tyneside they out-created Newcastle 2.73 to 1.43 from 27 shots and lost the decisive moments to fast breaks; at Anfield they trailed Forest on xG, 1.61 to 2.30, and chased the game from the twenty-fourth minute. Season xG stands at 4.34 for and 3.73 against, a modest edge that has produced four goals each way and not a second in front. The fault line is early and specific: 0.25 first-half xG against Forest to Forest's 1.29, both Newcastle goals from transition. A squad closed until January cannot sign a better first quarter of an hour. It has to play one, and it can start at Portman Road tonight.",
   diagnosis: [
     {
       label: "Slow starts",
@@ -794,19 +788,19 @@ export const FORM_TRENDS = {
     note: "Both totals are complete: xG for is 2.73 (Newcastle) plus 1.61 (Forest); xG against is 1.43 (Newcastle) plus 2.30 (Forest), all Opta Analyst. First-half splits exist only for the Forest match and are not aggregated.",
   },
   optaFacts: [
-    "Liverpool are winless in their last six Premier League games (D4 L2), reaching back into last season under Slot. Only once before have they gone seven without a win in the competition: eleven matches from November 2002 to January 2003 under Houllier.",
-    "Two goals conceded in each of the first two league games of a season has happened to Liverpool only once before in the Premier League era, in Brendan Rodgers's first three matches in 2012-13.",
+    "Both of Liverpool's points this season have been rescued after the 82nd minute: Victor Munoz's crossbar drive at 82 against Forest, and Szoboszlai's penalty nine minutes into stoppage time at Newcastle. They have not led for a single minute in either match.",
+    "Alexander Isak has four Premier League goals in two games against Ipswich, all for Newcastle in 2024-25, three of them in a hat-trick at Portman Road; Liverpool are unbeaten in all six of their league visits there, their longest unbeaten away record at any ground.",
     "Liverpool are unbeaten in their last 20 Premier League games against newly promoted sides (W15 D5). The last promoted team to beat them was Gary O'Neil's Bournemouth, in March 2023.",
-    "Alexander Isak has four Premier League goals in two games against Ipswich, all for Newcastle in 2024-25, three of them in a hat-trick at Portman Road; Liverpool are unbeaten in all six of their away league games there, their longest unbeaten record at any ground.",
+    "Florian Wirtz has created only two chances in two league games, yet his 11 line-breaking passes are second in the division to Bruno Fernandes's 13, per Opta: the supply is reaching the final third and dying in the last action.",
   ],
   sources: ["Opta Analyst", "Liverpool FC", "Squawka", "ESPN"],
 };
 
 
 export const SQUAD_LOAD = {
-  generatedAt: "2026-09-03T22:10:00Z",
+  generatedAt: "2026-09-04T08:20:00Z",
   headline:
-    "Thursday's press conference redrew the board in one direction. Chiesa, written into contention by the morning previews, is now on the manager's own timetable for the international break and off the Champions League list; Gomez is the nearest return, on the grass next week and hoped for before the break; Leoni joins the group during it; Bradley and 'especially' Ekitike have no date. The one addition is Barcola, available if Thursday's session passed, start or bench still open. That leaves the back four one injury from Endo, the right side covered by Frimpong and then Szoboszlai or Araujo, both named by Iraola on Thursday, and Isak alone up front. Five games in seventeen days start at Portman Road with this and nothing else.",
+    "The board that goes to Portman Road tonight is the one the fortnight settled: five out, one back in the squad, nobody new until January. Ekitike, Bradley and Leoni remain long-term, Chiesa is on the manager's own timetable for the international break, and Gomez, the nearest return, does not rejoin team training until next week. The single addition is Barcola, fit and travelling, his debut a bench question. That leaves the back four one injury from Endo at centre-half, the right side covered by Frimpong and then Szoboszlai or Araujo, and Isak alone at the point of the attack. Five games in seventeen days start here with this squad and no other.",
   minutesNote:
     "Premier League minutes are not published here yet. Only two league games have been played and no reliable per-player league minutes have been sourced, so this board tracks availability, starts and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   unavailable: [
@@ -834,14 +828,14 @@ export const SQUAD_LOAD = {
 
 
 export const SEASON_PROJECTION = {
-  generatedAt: "2026-09-03T22:10:00Z",
+  generatedAt: "2026-09-04T08:20:00Z",
   played: 2,
   points: 2,
   pointsPerGame: 1.0,
   projectedPoints: 38,
   projectedFinish: "Lower mid-table on current pace",
   headline:
-    "Opta's Thursday preview puts the pace in its longest frame: winless in six league games back into last season, and one more without a win would be only the second such run in Liverpool's Premier League history. A point a game still projects to 38, the survival line, and two games is too small a sample to call that anything but a warning. What gives it weight is that the manager has now said in public that his side has been losing ninety per cent of the minutes, and that the squad he has to fix it with lost Chiesa to the break on Thursday and cannot add a body until January. Friday opens three league games against sides currently between twelfth and sixteenth, as gentle as the calendar gets before Manchester City in October.",
+    "A point a game after two matches projects to 38, the survival line, and two games is far too small a sample to read as a forecast rather than a warning. What gives the warning its edge is the fixture list on the other side of tonight: the squad is closed until January, Chiesa is gone to the break, and the pace has to turn on games like this one. Portman Road opens three league fixtures against sides currently between twelfth and sixteenth, about as gentle as the calendar gets before Manchester City arrive in October. Win them and the number climbs off the floor quickly; draw them and thirteenth stops looking like a slow start.",
   thresholds: [
     { label: "Champions League (top 5)", points: 68, gap: 30, note: "Historical par for fifth place in recent seasons. Requires roughly 1.83 points per game from here." },
     { label: "Europa League", points: 60, gap: 22, note: "Roughly sixth place par. Requires about 1.61 points per game from here." },
