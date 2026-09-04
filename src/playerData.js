@@ -493,13 +493,13 @@ export const STANDINGS_COMMENTARY = {
   matchweek: 2,
   generatedAt: "2026-09-04T22:20:00Z",
   overview:
-    "Liverpool moved the table on their own on Friday night, and moved eight places up it: the 2-0 at Portman Road, Isak twice inside nine minutes, lifts them from thirteenth to fifth on five points, with a game in hand on nobody and a game more played than everyone around them. The four sides on the maximum, Manchester City, Arsenal, promoted Hull and Chelsea, all play over the weekend and any win by any of them puts Liverpool back to sixth by Sunday night, so the number to hold is the points, not the place. Ipswich fall to thirteenth on three, their eighteen-game unbeaten home run in the league ended by the one visitor it had never been tested against. At the foot nothing has changed because nothing else has been played: Fulham, Coventry, Crystal Palace, Aston Villa and Tottenham remain pointless, the last three in the drop zone on goals scored.",
+    "Liverpool moved the table on their own on Friday night, and moved eight places up it: the 2-0 at Portman Road, Isak twice inside nine minutes, lifts them from thirteenth to fifth on five points, with a game in hand on nobody and a game more played than everyone around them. The four sides on the maximum, Manchester City, Arsenal, promoted Hull and Chelsea, all play over the weekend and any point for any of them puts Liverpool back to sixth by Sunday night, so the number to hold is the points, not the place. Ipswich fall to thirteenth on three, their eighteen-game unbeaten home run in the league ended by the one visitor it had never been tested against. At the foot nothing has changed because nothing else has been played: Fulham, Coventry, Crystal Palace, Aston Villa and Tottenham remain pointless, the last three in the drop zone on goals scored.",
   teams: {
     "Liverpool": "Fifth on five points, unbeaten, and finally with a win, a lead and a clean sheet to their name after Friday's 2-0 at Ipswich. Isak has three league goals, all set up by Gakpo. Atletico Madrid at Anfield on Wednesday next, then Fulham at home on the 12th.",
     "Manchester City": "Top on six and plus-four, level with Arsenal, and the league's biggest gross spenders at £440.3m. Play Saturday; a win restores the four-point cushion over Liverpool.",
-    "Arsenal": "Second on six, tied with City on points and goal difference after two wins from two. Play this weekend with the chance to go back above Liverpool by a point.",
+    "Arsenal": "Second on six, tied with City on points and goal difference after two wins from two, already a point above Liverpool with a game in hand; a win this weekend stretches it to four.",
     "Hull": "Third on six, two from two on their return to the top flight, and now the only promoted side in the top half, Ipswich having dropped to thirteenth.",
-    "Chelsea": "Fourth on six and perfect under Xabi Alonso, though the Liverpool win means a draw this weekend would drop them below the Reds on goal difference.",
+    "Chelsea": "Fourth on six and perfect under Xabi Alonso, a point above Liverpool with a game in hand; a win this weekend restores the four-point gap, and even a draw keeps them ahead.",
     "Brentford": "Sixth on four, pushed down a place by Liverpool's win. Host the Reds on 17 October.",
     "Ipswich": "Thirteenth on three after the 0-2 to Liverpool ended an eighteen-match unbeaten home league run. Gary O'Neil called his side excellent after the two early errors; FotMob had them ahead on expected goals, 0.73 to 0.66, and they have now conceded seven in two games.",
     "Bournemouth": "Fourteenth on one. Liverpool's opponents on 20 September, the last promoted side to beat Liverpool, under O'Neil, in March 2023.",
@@ -555,7 +555,7 @@ export const DISPATCHES = [
     dateline: "Anfield · 4 September",
     category: "Race for Europe",
     body:
-      "The table moved eight places in one night, and will move back over the weekend: Liverpool are fifth on five points with a game more played than anyone above them, and any win for City, Arsenal, Hull or Chelsea returns them to sixth. The points are the thing. What the win buys is a different tone for the busiest stretch of Iraola's tenure: Atletico Madrid at Anfield on Wednesday in the Champions League opener, Simeone's side fourth in Spain and unbeaten, Alvarez staying after the Barcelona saga but left out of the XI at Sevilla; then Fulham on the 12th, Tottenham in the cup on the 15th, Bournemouth on the 20th. A closed squad, five out, and now a striker on three and a keeper on a clean sheet. September looks different from fifth than it did from thirteenth."
+      "The table moved eight places in one night, and will move back over the weekend: Liverpool are fifth on five points with a game more played than anyone above them, and any point for City, Arsenal, Hull or Chelsea returns them to sixth. The points are the thing. What the win buys is a different tone for the busiest stretch of Iraola's tenure: Atletico Madrid at Anfield on Wednesday in the Champions League opener, Simeone's side fourth in Spain and unbeaten, Alvarez staying after the Barcelona saga but left out of the XI at Sevilla; then Fulham on the 12th, Tottenham in the cup on the 15th, Bournemouth on the 20th. A closed squad, five out, and now a striker on three and a keeper on a clean sheet. September looks different from fifth than it did from thirteenth."
   },
 ];
 
@@ -609,7 +609,7 @@ export const NEWS_DIGEST = {
     {
       title: "Fifth On Five Points, For A Weekend At Least (ESPN, today)",
       detail:
-        "ESPN's live table has Liverpool fifth on five points from three, up from thirteenth, with a game more played than any side above them. Manchester City, Arsenal, Hull and Chelsea, all on six from two, play Saturday and Sunday, and a win for any of them returns Liverpool to sixth; a Chelsea draw would leave the Reds above them on goal difference. Ipswich fall to thirteenth on three. The relegation zone is unchanged because nobody in it has played.",
+        "ESPN's live table has Liverpool fifth on five points from three, up from thirteenth, with a game more played than any side above them. Manchester City, Arsenal, Hull and Chelsea, all on six from two, play Saturday and Sunday, and any point for any of them returns Liverpool to sixth. Ipswich fall to thirteenth on three. The relegation zone is unchanged because nobody in it has played.",
       category: "matches",
     },
     {
@@ -699,12 +699,6 @@ export const OPPOSITION = {
       threat: "The €150m Real Madrid bid was rejected and he stayed, but he was jeered at home against Villarreal and left out of the starting XI at Sevilla. Four years left on his contract; Simeone says the club is supporting him through 'his own personal process'. Whether he starts at Anfield is unknown.",
       source: "Football Espana / ESPN / Goal",
     },
-    {
-      name: "Alejandro Grimaldo",
-      role: "Left-back",
-      threat: "Signed from Bayer Leverkusen this summer and straight into the XI at Sevilla. The overlapping full-back and set-piece taker; the flank he attacks is Kerkez's.",
-      source: "Liverpool FC / Sky Sports",
-    },
   ],
   predictedXI: [
     "Oblak", "Llorente", "Pubill", "Hancko", "Grimaldo",
@@ -717,7 +711,7 @@ export const OPPOSITION = {
     { date: "2026-08-19", opponent: "Málaga", home: true, score: "2-0", result: "W", note: "Lee Kang-in on debut and Baena, both in the second half, in the season opener." },
   ],
   liverpoolAngle:
-    "The match Liverpool just won is the one that frames this: they beat Ipswich by scoring first, then managed the game, and the underlying numbers (0.66 xG for to 0.73 against, per FotMob) say the management was the harder part. Atletico are built for the opposite script. They scored inside the first half in all three league games, defend a lead as well as anyone in Europe, and if Baena's drop into the false nine draws Van Dijk and Jacquet out, the runners behind him hit the transition seam that has cost Liverpool nine fast-break goals since last August, more than any Premier League side, per Opta. The second angle is the right flank: Friday's answer was Araujo, a centre-back, against a physical winger; Lookman is a different problem, quick and inside-out, and Frimpong's pace or Araujo's strength is the manager's call. The counterweight is real: a striker with three in three, a first clean sheet, a crowd, and a 3-2 over the same opponent at the same ground twelve months ago. The predicted XI is Atletico's Sevilla side, not a preview; no named team-news preview exists five days out with a La Liga fixture in between, and absentees will be filled after Sunday.",
+    "The match Liverpool just won is the one that frames this: they beat Ipswich by scoring first, then managed the game, and the underlying numbers (0.66 xG for to 0.73 against, per FotMob) say the management was the harder part. Atletico are built for the opposite script. They scored inside the first half in all three league games, defend a lead as well as anyone in Europe, and if Baena's drop into the false nine draws Van Dijk and Jacquet out, the runners behind him hit the transition seam that has cost Liverpool nine fast-break goals since last August, more than any Premier League side, per Opta. The second angle is the right flank: Friday's answer was Araujo, a centre-back, against a physical winger; Lookman is a different problem, quick and inside-out, and Frimpong's pace or Araujo's strength is the manager's call. The counterweight is real: a striker with three in three, a first clean sheet, a crowd, and a 3-2 over the same opponent at the same ground twelve months ago. The predicted XI is Atletico's Sevilla side, not a preview, and Grimaldo is left off the key-player list only because no sourced number for him exists yet; no named team-news preview exists five days out with a La Liga fixture in between, and absentees will be filled after Sunday.",
   modelLine: null,
   sources: ["Football Espana", "MARCA", "ESPN", "Sky Sports", "Liverpool FC", "Goal", "TNT Sports", "FotMob"],
 };
