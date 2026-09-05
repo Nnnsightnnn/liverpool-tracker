@@ -484,11 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday night, and the waiting is over. Ipswich 0, Liverpool 2, <em>Isak</em>
-          in the sixth minute and the ninth, both from Gakpo, a first win, a first
-          lead and a first clean sheet in one Suffolk evening. Araujo started at
-          right-back; <em>Barcola</em> came on. Fifth on five points, for a weekend
-          at least, and Atletico at Anfield on Wednesday.
+          Saturday, and the win is a day old but its one argument is not:
+          <em>Araujo</em> took right-back at Ipswich, kept a clean sheet, and left
+          Frimpong watching. Which of them meets Lookman when <em>Atletico</em>
+          come to Anfield on Wednesday is the question of the week. Fifth on five
+          points, for a weekend at least.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,35 +519,34 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              it took nine minutes. Kerkez won the ball, Gakpo threaded it, and
-              <em>Alexander Isak</em> drove it in at the near post; three minutes
-              later Van Dijk found Gakpo again and Isak stepped inside Greaves to
-              make it two. Ipswich 0, Liverpool 2, and a side that had not led for
-              a minute all season spent eighty-one of them protecting a lead. The
-              team sheet had carried the other story before kick-off: Ronald
-              Araujo at right-back, a first start, in the department the manager
-              had called thin the day before, and Frimpong on the bench.
-              <em>Bradley Barcola</em> arrived on sixty-four minutes, twelve
-              touches, a career begun. The hosts edged the expected goals and
-              Iraola said so himself, in his way: it was about managing to win,
-              not to suffer. Fifth on five points until the weekend takes it back.
-              Wednesday, Atletico.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and the team sheet is still talking. <em>Ronald Araujo</em>'s first
+              Liverpool start came at right-back, a 7.7 and a clean sheet, and
+              Jeremie Frimpong spent the ninety in a tracksuit; the morning after,
+              the city cannot agree whether that was a one-night answer to a
+              physical winger or the new shape of the back four. Wednesday will
+              decide it in public. Atletico bring <em>Ademola Lookman</em>, quick
+              and inside-out, the kind of runner a converted centre-back does not
+              naturally hold, and Iraola has four days and a trip to Bilbao to
+              weigh strength against pace. Joe Gomez edges back into team training
+              next week, too late for the opener. The win banked five points and a
+              first clean sheet since April; what it did not settle was who takes
+              the right.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is the match
-              itself, six minutes and nine; the manager who wanted the start more
-              than the goals; the Uruguayan at right-back; the twelve touches of
-              the most expensive substitution in English football; and the view
-              from fifth with Atletico five days away. Read them in order. The
-              season opened at Newcastle with a 2-2 on the twenty-third of
-              August, found another at Anfield on the twenty-ninth, and won for
-              the first time at Portman Road tonight; the market is shut until
-              January.
+              dispatches from the writers who never clock off. There is the
+              right-back the whole city is debating; the return that edges closer
+              in Joe Gomez; the side Simeone brings on Wednesday, built for the
+              opposite script; the striker answering an old question through the
+              nine; and the view from fifth with five games in seventeen days to
+              come. Read them in order. The season opened at Newcastle with a 2-2
+              on the twenty-third of August, found another at Anfield on the
+              twenty-ninth, and won for the first time at Portman Road on Friday;
+              the market is shut until January.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3756,7 +3755,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Six minutes. Nine minutes. Done."
+        "Two right-backs now, and one shirt."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

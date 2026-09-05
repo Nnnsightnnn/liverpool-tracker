@@ -375,10 +375,15 @@ export const TEAM_LOGOS = {
 export const COVER_IMAGE = {
   src: "/assets/cover/2026-09-04-isak-brace.svg",
   alt: "Editorial plate: a floodlit away end under Suffolk night, a goal at the near post seen from the touchline, two balls in flight arcing low inside the same upright.",
-  focus: "Ipswich 0-2 Liverpool: Isak twice inside nine minutes, Iraola's first win",
+  focus: "The right-back question after Ipswich: Araujo or Frimpong for the Champions League, and Atletico on Wednesday",
   credit: "Plate · Daily edition",
-  generatedAt: "2026-09-04T22:20:00Z",
+  generatedAt: "2026-09-05T09:00:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
+  // Morning pass (Sat 5 September): no match since Friday's win, so the plate carries over and only
+  // generatedAt is re-stamped as the cache-buster (COVER-00001). The lead this morning is the
+  // right-back debate Araujo's first start opened, framed by Atletico on Wednesday; it is a selection
+  // argument, not a photographable moment, so no new image was queued under STEP 7.5 and the standing
+  // Track 2 brief below (the Isak celebration from Portman Road) remains the open request for Antigravity.
   // Evening pass (Fri 4 September): a match was played. Ipswich 0-2 Liverpool at Portman Road,
   // Alexander Isak in the sixth and ninth minutes, both from Cody Gakpo through-balls, a first win,
   // a first lead and a first clean sheet of the season, Andoni Iraola off the mark at the third
@@ -491,11 +496,11 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 2,
-  generatedAt: "2026-09-04T22:20:00Z",
+  generatedAt: "2026-09-05T09:00:00Z",
   overview:
-    "Liverpool moved the table on their own on Friday night, and moved eight places up it: the 2-0 at Portman Road, Isak twice inside nine minutes, lifts them from thirteenth to fifth on five points, with a game in hand on nobody and a game more played than everyone around them. The four sides on the maximum, Manchester City, Arsenal, promoted Hull and Chelsea, all play over the weekend and any point for any of them puts Liverpool back to sixth by Sunday night, so the number to hold is the points, not the place. Ipswich fall to thirteenth on three, their eighteen-game unbeaten home run in the league ended by the one visitor it had never been tested against. At the foot nothing has changed because nothing else has been played: Fulham, Coventry, Crystal Palace, Aston Villa and Tottenham remain pointless, the last three in the drop zone on goals scored.",
+    "Nothing above Liverpool has kicked a ball since Friday, so the table this Saturday morning is the one their win at Ipswich left behind: fifth on five points, a game more played than the four sides on the maximum, and waiting to be pushed back to sixth the moment any of Manchester City, Arsenal, promoted Hull or Chelsea take a point this weekend. The number to hold is the points, not the place. Ipswich sit thirteenth on three, their eighteen-game unbeaten home league run ended by the one visitor it had never been tested against. At the foot nothing has changed because nothing else has been played: Fulham, Coventry, Crystal Palace, Aston Villa and Tottenham remain pointless, the last three in the drop zone on goals scored.",
   teams: {
-    "Liverpool": "Fifth on five points, unbeaten, and finally with a win, a lead and a clean sheet to their name after Friday's 2-0 at Ipswich. Isak has three league goals, all set up by Gakpo. Atletico Madrid at Anfield on Wednesday next, then Fulham at home on the 12th.",
+    "Liverpool": "Fifth on five points and unbeaten, watching the weekend from a game more played than anyone above: a point for any of the four perfect sides returns them to sixth by Sunday night. Friday's 2-0 at Ipswich banked a first lead and a first clean sheet, and Isak has three league goals, all made by Gakpo. Atletico Madrid at Anfield on Wednesday, then Fulham at home on the 12th.",
     "Manchester City": "Top on six and plus-four, level with Arsenal, and the league's biggest gross spenders at £440.3m. Play Saturday; a win restores the four-point cushion over Liverpool.",
     "Arsenal": "Second on six, tied with City on points and goal difference after two wins from two, already a point above Liverpool with a game in hand; a win this weekend stretches it to four.",
     "Hull": "Third on six, two from two on their return to the top flight, and now the only promoted side in the top half, Ipswich having dropped to thirteenth.",
@@ -514,134 +519,128 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Six Minutes, Nine Minutes, And The Season Turns Over.",
-    byline: "Sky Sports / Liverpool FC",
-    dateline: "Portman Road · 4 September",
-    category: "Match Report",
+    headline: "One Shirt, Two Right-Backs, And The Argument That Outlived The Win.",
+    byline: "rousingthekop / SI / FourFourTwo",
+    dateline: "AXA Training Centre · 5 September",
+    category: "Tactics",
     body:
-      "It took nine minutes to end a fortnight of talk about starting slowly. Kerkez won the ball around halfway, Gakpo turned inside and threaded it, and Isak drove past Scherpen at the near post in the sixth minute; three minutes later Van Dijk found Gakpo again, the outside of the right boot did the rest, and Isak stepped inside Greaves to finish left-footed. Ipswich 0, Liverpool 2, and it stayed that way for eighty-one minutes of management. A third was flagged offside on the half-hour, a penalty overturned for the same offence after the break, and Andoni Iraola had his first win, his side's first lead and its first clean sheet since April in one Friday night in Suffolk."
+      "A team sheet can start a conversation the result then refuses to end. Ronald Araujo's first Liverpool start came at right-back, rated 7.7, Jeremie Frimpong beside him in a tracksuit for the full ninety, and the morning after the clean sheet the fanbase is still turning it over. SI's reading is that it 'could become his regular position' and that Frimpong 'ought to be worried'; FourFourTwo framed it as Liverpool sorting a right-back fix for Champions League nights; rousingthekop found the support split down the middle. Wednesday sharpens it into a single question. Ademola Lookman is quick and inside-out, the kind of winger a centre-back does not naturally hold, and the choice between Araujo's strength and Frimpong's pace is Andoni Iraola's first real one of the season."
   },
   {
     n: "02",
-    headline: "'We Needed This One': The Manager Who Wanted The Start More Than The Goals.",
-    byline: "NBC Sports / Sporting News",
-    dateline: "Portman Road · 4 September",
-    category: "Manager",
+    headline: "The Closest One Is Joe: Gomez Nears The Group, Not The Team.",
+    byline: "This Is Anfield / Yahoo Sports",
+    dateline: "AXA Training Centre · 5 September",
+    category: "Injuries",
     body:
-      "Iraola did not talk about the finishing afterwards. He talked about the first quarter of an hour, the thing he had been asking for since Newcastle. 'We started really strong today and I think that was the key,' he said, and then, of the two goals: 'The goals are a consequence of those situations.' Opta counted seven possessions won in the attacking third before half-time and forty-eight more forward passes than the hosts; 'we were recovering very high,' the manager said, which is how a striker gets found that early. On Isak, a warning dressed as praise: the demands will not be about goals. On the substitutions: 'It was about managing to win the game, not to suffer.' A first win, taken the way he had described wanting it."
+      "Of the five men Iraola listed on Thursday, one keeps moving. Joe Gomez is expected to rejoin team training next week after the muscle trouble that has kept him out since a July friendly, with the reporting settling on Fulham on the 12th as his first realistic matchday and the Champions League opener against Atletico still a step too soon. The manager wants him before the international break, and his value now reads differently than it did a week ago: Friday's back four managed without him, Araujo filling right-back, so Gomez returns not to a hole but to a department that has learned to cover one. Behind him nothing has moved. Leoni and Chiesa are pencilled for group training during the window; Bradley and Ekitike still have no date."
   },
   {
     n: "03",
-    headline: "The Uruguayan At Right-Back, And The Department That Was A Man Short.",
-    byline: "Sporting News / SI",
-    dateline: "Portman Road · 4 September",
-    category: "Tactics",
+    headline: "Simeone Brings A Side Built For The Opposite Script To Anfield.",
+    byline: "Football Espana / MARCA",
+    dateline: "Madrid · 5 September",
+    category: "Football News",
     body:
-      "Every preview had Frimpong by elimination. The team sheet had Ronald Araujo, a centre-back on loan from Barcelona making his first Liverpool start in the position the manager had called thin twenty-four hours earlier, with Frimpong unused on the bench. It worked: FotMob scored him 7.7, strong in the air, sound in the duels, two important interventions in the first half when Fatawu and Enciso were finding room, and the right side of Araujo and Jacquet kept the first clean sheet of the season. Frimpong 'ought to be worried', SI wrote. Whether it is a one-off for a physical winger or the new shape of the back four is Wednesday's first question."
+      "Atletico Madrid arrive on Wednesday with a habit Liverpool will recognise as the mirror image of their own week. Diego Simeone's team scored inside the first half in all three La Liga games and then defended, most vividly a 3-1 at Sevilla on 29 August that was 3-0 at the break, Alex Baena scoring twice from between the lines. They are fourth in Spain and unbeaten, Cristian Romero, Alejandro Grimaldo and Morten Hjulmand all summer arrivals, and Julian Alvarez stayed through a rejected 150m-euro Real Madrid bid only to be jeered at home and left out of the XI at Sevilla. Athletic Bilbao away on Sunday comes first. Liverpool won last season's meeting between the sides 3-2 at the same ground."
   },
   {
     n: "04",
-    headline: "Twelve Touches, Twenty-Six Minutes, And The Most Expensive Substitution In English Football.",
-    byline: "SI / Sporting News",
+    headline: "Three In Three, And A Question Answered Through The Nine.",
+    byline: "SI",
     dateline: "Portman Road · 4 September",
     category: "Football News",
     body:
-      "Bradley Barcola's Liverpool career began in the sixty-fourth minute, for Munoz, at the same moment Isak came off for Gravenberch, which the Sporting News reckoned the most collectively expensive double change the English game has seen. He had twelve touches, a couple of them lovely, and looked, in Iraola's word, 'sprightly' rather than sharp: no pre-season, no minutes since France's third-place game on 18 July. 'You always have to be careful,' the manager said. 'We want to find him in behind.' Gakpo, whose two assists had won the match from the flank Barcola was bought for, finished it at centre-forward. The pecking order on the left is not the question it was on Monday."
+      "The debate all summer was how Liverpool would replace a departed winger's goals; the answer, three games in, is arriving down the middle. Alexander Isak's brace at Portman Road, two shots and two goals inside nine minutes on the ground where he once scored a hat-trick for Newcastle, takes him to three league goals in three, level already with his entire injured, unhappy 2025-26. FotMob gave him 8.8, some outlets a ten, and a serenade from the away end when he came off on 64 with the job done. SI's point is that the production may come through the centre-forward rather than the flanks, and that Liverpool have not carried a thirty-goal striker since Suarez. The nine is one man deep, and for now one man is enough."
   },
   {
     n: "05",
-    headline: "Five Points, Fifth Place, And Atletico On Wednesday.",
+    headline: "The View From Fifth, With Five Games In Seventeen Days Ahead.",
     byline: "ESPN / This Is Anfield",
-    dateline: "Anfield · 4 September",
+    dateline: "Anfield · 5 September",
     category: "Race for Europe",
     body:
-      "The table moved eight places in one night, and will move back over the weekend: Liverpool are fifth on five points with a game more played than anyone above them, and any point for City, Arsenal, Hull or Chelsea returns them to sixth. The points are the thing. What the win buys is a different tone for the busiest stretch of Iraola's tenure: Atletico Madrid at Anfield on Wednesday in the Champions League opener, Simeone's side fourth in Spain and unbeaten, Alvarez staying after the Barcelona saga but left out of the XI at Sevilla; then Fulham on the 12th, Tottenham in the cup on the 15th, Bournemouth on the 20th. A closed squad, five out, and now a striker on three and a keeper on a clean sheet. September looks different from fifth than it did from thirteenth."
+      "Fifth is a Saturday-morning number, and everyone in the tracker knows it. Any point for City, Arsenal, Hull or Chelsea this weekend nudges Liverpool back to sixth, so the table matters less than the calendar it feeds into: Atletico Madrid on Wednesday, Fulham on the 12th, Tottenham in the Carabao Cup on the 15th, Bournemouth away on the 20th, four games in nine days after a summer that closed with the squad shut until January. A fortnight ago that fixture pile read as a threat to a side that could not win; a first win, a first clean sheet and a striker in form reframe it as a chance to bank ground before the internationals. The points are kept whatever the weekend does to the placing."
   },
 ];
 
 export const NEWS_DIGEST = {
-  generatedAt: "2026-09-04T22:20:00Z",
+  generatedAt: "2026-09-05T09:00:00Z",
   summary:
-    "Ipswich 0, Liverpool 2, and Andoni Iraola has his first win: Alexander Isak scored in the sixth and ninth minutes at Portman Road on Friday night, both from Cody Gakpo through-balls, and a side that had not led for a minute all season led for eighty-one of them and kept its first clean sheet since April. The team sheet carried the evening's other story before a ball was kicked, Ronald Araujo starting at right-back ahead of Frimpong in the position the manager had called thin the day before, and Bradley Barcola's debut arrived from the bench on 64 minutes. FotMob had the hosts ahead on expected goals, 0.73 to 0.66, which is the caveat the manager himself supplied: 'it was about managing to win the game, not to suffer.' Liverpool go from thirteenth to fifth on five points, a position the weekend will take back but a total nobody can. Earlier on Friday the club confirmed a €5m deal for the 18-year-old Saint-Etienne forward Djylian N'Guessan, joining in January after a loan at Brest. Atletico Madrid come to Anfield on Wednesday for the Champions League opener.",
+    "Saturday morning, and the debate the team sheet started at Portman Road has outlived the result: does Ronald Araujo keep right-back for the Champions League, or does Jeremie Frimpong's pace answer Ademola Lookman better when Atletico Madrid come to Anfield on Wednesday? Twenty-four hours after a 7.7 on a first Liverpool start left Frimpong unused, the verdict has hardened rather than settled, SI writing that right-back 'could become his regular position' and rousingthekop finding the support split down the middle. Andoni Iraola has four days and a La Liga trip to Bilbao to weigh before he chooses, with Joe Gomez expected back in team training next week but still likely to miss the opener. Liverpool wake fifth on five points, a place the weekend's games for City, Arsenal, Hull and Chelsea will take back but a total the win banked for good. Atletico, fourth in Spain and unbeaten, are the first real test of whichever right-back he picks.",
   keyTopics: [
     {
-      title: "Ipswich 0-2 Liverpool: Isak Twice Inside Nine Minutes, Iraola's First Win, A First Lead And A First Clean Sheet (Sky Sports / Liverpool FC, today)",
+      title: "The Right-Back Question That Outlived The Result: Araujo Or Frimpong For The Champions League? (rousingthekop / SI, today)",
       detail:
-        "It ended on Friday night, the wait for all three. Kerkez won it near halfway, Gakpo threaded it, Isak drove in at the near post in the sixth minute; Van Dijk to Gakpo, the outside of the boot, Isak inside Greaves and a left-footed finish in the ninth. A hat-trick was flagged offside in the 33rd from Wirtz's cross, a second-half penalty for a Davis foul on Szoboszlai was overturned by VAR for an earlier offside, and Ipswich, unbeaten at home in eighteen league games, went down 2-0 to a side that had drawn its first two 2-2. Liverpool climb to fifth on five points; the games in hand above them are played this weekend.",
-      category: "matches",
-    },
-    {
-      title: "Araujo Starts At Right-Back, Frimpong Sits, And The Thin Department Finds A New Shape (SI / Sporting News, today)",
-      detail:
-        "The one selection nobody previewed. Twenty-four hours after saying the right side 'looks thin', Iraola put Ronald Araujo there for a first Liverpool start and left Frimpong among the unused substitutes with Tsimikas, Endo, Ngumoha and Mamardashvili. FotMob rated the Uruguayan 7.7, strong in his duels and in the air, with two first-half interventions the Sporting News picked out when Fatawu and Enciso were finding space; SI wrote that Frimpong 'ought to be worried' and that this 'could become his regular position'. Jacquet, 7.4, was booked for a reckless challenge early in the second half and was fortunate, in Ipswich's view, not to see a second.",
+        "Reported through Saturday: the selection Iraola made at Portman Road has become the week's argument. Ronald Araujo's first Liverpool start came at right-back, FotMob's 7.7, and Jeremie Frimpong watched all ninety; SI wrote that it 'could become his regular position', rousingthekop ran a fan verdict piece the morning after and found the support divided. Araujo is a centre-back by trade, strong and aerial; the counter-argument is that Atletico's Lookman is a quicker, inside-out winger who tests exactly the pace a converted centre-back lacks. The manager has four days and a La Liga fixture to decide, and it is the first genuine selection call of his Liverpool tenure.",
       category: "tactics",
     },
     {
-      title: "'We Started Really Strong Today And I Think That Was The Key': Iraola On The Win He Had Been Describing For A Fortnight (NBC Sports, today)",
+      title: "Frimpong Under Scrutiny After Two Openers And A Benching, With Pace The One Case For A Recall (FourFourTwo, today)",
       detail:
-        "'Feels good. We needed this one,' the manager said on Friday night. 'We were close on the other two and couldn't do it.' The praise went to the start, not the finishes: 'All the forwards can have the offensive numbers, goals, assists, but I'm most pleased that we started strong. The goals are a consequence of those situations.' On Isak: 'When he's fit, he's going to make the numbers, but most of my demands with him are not about the goals.' On the raft of changes: 'It was about managing to win the game, not to suffer, not to concede chances.' Opta counted 48 more forward passes than Ipswich and seven possessions won in the attacking third before half-time.",
-      category: "general",
-    },
-    {
-      title: "Gakpo's Two Assists, And The Sale That Nearly Happened On Monday (Sporting News / SI, today)",
-      detail:
-        "Four days after the Manchester City move died on deadline day, Cody Gakpo produced the two passes of the night, the first threaded from inside, the second with the outside of his right boot, and now has the assist for all three of Isak's league goals this season. FotMob's 8.9 made him the highest-rated player on the pitch. All three successful through-balls in the match were Liverpool's, per Opta, and most of them his. He finished the game at centre-forward once Isak went off, with Barcola, bought for his flank, on the other wing. The Sporting News called the summer's flirtation with selling him 'all the more puzzling'.",
-      category: "general",
-    },
-    {
-      title: "Barcola's Debut: Twelve Touches From The 64th Minute, 'We Want To Find Him In Behind' (SI / NBC Sports, today)",
-      detail:
-        "The £123m signing came on for Munoz on 64 minutes, his first competitive football since France's third-place game on 18 July, in the same double change that took Isak off for Gravenberch. Twelve touches, a rating of 6.0 from FotMob, a couple of touches the Sporting News called lovely, and a manager counselling patience: 'He hasn't even played in a friendly. He has been training well but you always have to be careful. He's at a good level. We want to find him in behind.' Nyoni (84) and Lewis Koumas (90+1) followed him on.",
-      category: "matches",
-    },
-    {
-      title: "The Underlying Numbers Say Ipswich Edged It: 0.73 To 0.66 On xG, 14 Shots To 10 (FotMob via SI, today)",
-      detail:
-        "The scoreline flatters the visitors and the caveat is worth carrying into Wednesday. FotMob's match figures give Ipswich 0.73 expected goals to Liverpool's 0.66, 14 shots to 10, though Liverpool put seven on target to five, and both sides managed just 0.43 combined after the interval. Isak took two shots and scored both. Gary O'Neil said his side were 'probably the better side for large parts' after the two early errors and 'cut through Liverpool many times' in the second half. Liverpool's first clean sheet of the season owed something to Alisson's five saves, FotMob's 8.2, and a Clarke shot late on that deflected off Diop and wide.",
+        "Emerging over the weekend: FourFourTwo framed Friday as Liverpool 'sorting a right-back fix for Champions League nights amid Jeremie Frimpong scrutiny', the Dutchman having been swapped out after two uneven league starts and then left unused as Araujo kept a clean sheet. Nothing is reported as physically wrong; this is form and selection. His way back in is the specific one Wednesday offers, a winger in Lookman who runs in behind rather than holding width, where his recovery speed is worth more than an aerial duel. Whether Iraola agrees is the graphic's live question at right-back.",
       category: "tactics",
     },
     {
-      title: "Isak's Three In Three, And A Number Already Level With Last Season (SI, today)",
+      title: "Gomez Expected Back In Team Training Next Week, Targeting Fulham, Still Likely To Miss Atletico (This Is Anfield / Yahoo Sports, today)",
       detail:
-        "Two goals in nine minutes on the ground where he scored a hat-trick for Newcastle, a third chalked off, and off after 64 minutes to a serenade from the away end, his first in Liverpool colours. Isak has three Premier League goals in three games, matching his total for the whole of an injured, unhappy 2025-26. FotMob gave him 8.8, other outlets 10. SI's reading is that the Salah replacement debate has been asking the wrong question: the production may come through the nine, not the wings. Liverpool have not had a thirty-goal striker since Suarez.",
-      category: "matches",
-    },
-    {
-      title: "Fifth On Five Points, For A Weekend At Least (ESPN, today)",
-      detail:
-        "ESPN's live table has Liverpool fifth on five points from three, up from thirteenth, with a game more played than any side above them. Manchester City, Arsenal, Hull and Chelsea, all on six from two, play Saturday and Sunday, and any point for any of them returns Liverpool to sixth. Ipswich fall to thirteenth on three. The relegation zone is unchanged because nobody in it has played.",
-      category: "matches",
-    },
-    {
-      title: "Liverpool Confirm €5m Deal For Djylian N'Guessan, 18, To Join In January After A Loan At Brest (ESPN / Liverpool.com, today)",
-      detail:
-        "Announced on Friday, three days after the window shut: the 18-year-old Saint-Etienne forward will become a Liverpool player in January on a pre-contract arrangement worth a guaranteed €5m, with Saint-Etienne keeping a sell-on clause. He spends the first half of the season on loan at Brest in Ligue 1. Thirteen senior appearances and one goal for Saint-Etienne since a January 2025 debut, seven games for France at the 2025 Under-20 World Cup. It is the one transfer-shaped item of the day, and it changes nothing before the New Year.",
-      category: "transfers",
-    },
-    {
-      title: "Atletico Madrid Next: Fourth In Spain, Unbeaten, Romero, Grimaldo And Hjulmand Signed, Alvarez Staying (Liverpool FC / Football Espana, today)",
-      detail:
-        "The Champions League opens at Anfield on Wednesday, 8pm on TNT Sports 1, against a Simeone side that beat Sevilla 3-1 away on 29 August, Baena twice and Lookman, and sits fourth in La Liga on seven points from three, unbeaten. The summer brought Cristian Romero, Alejandro Grimaldo and Morten Hjulmand; Julian Alvarez told the club he was staying after Barcelona and Arsenal interest and a rejected €150m Real Madrid bid, and was left out of the starting XI at Sevilla, Simeone speaking of 'his own personal process'. Atletico play Athletic Bilbao on Sunday before travelling. Liverpool won last season's meeting 3-2 at Anfield.",
-      category: "matches",
-    },
-    {
-      title: "The Absentee List Did Not Change On A Night Everything Else Did (Liverpool FC, today)",
-      detail:
-        "No fresh injury was reported from Portman Road. Isak came off at 64 with the job done, not hurt; Munoz, Mac Allister and Wirtz were tactical changes. The five remain the five: Ekitike and Bradley with no timeframe, Leoni and Chiesa back with the group during the September break, Joe Gomez due in team training next week and, per Friday's reporting, still likely to miss Atletico on Wednesday. Frimpong, fit and unused, is the new sub-plot rather than a casualty.",
+        "Firmed up in Saturday's injury round-ups: Joe Gomez, out since a July muscle problem, should rejoin team training next week, with Fulham on the 12th his first realistic matchday and the Champions League opener on Wednesday still a step too soon. Iraola called him 'the closest one' and hopes to have him before the international break. His return now reads differently: Friday's back four coped without him, Araujo at right-back, so he comes back to a department with cover rather than a hole, giving a fourth senior centre-back and a third right-back option in one body.",
       category: "injuries",
+    },
+    {
+      title: "Atletico At Anfield On Wednesday: Simeone's Unbeaten Side, With Bilbao Away To Come First On Sunday (Liverpool FC / Football Espana, today)",
+      detail:
+        "Building toward the opener: Diego Simeone brings Atletico Madrid to Anfield on Wednesday, 8pm on TNT Sports 1, fourth in La Liga on seven points from three and unbeaten, fresh from a 3-1 at Sevilla in which Alex Baena scored twice from between the lines. Summer arrivals Cristian Romero, Alejandro Grimaldo and Morten Hjulmand have bedded in; Julian Alvarez stayed through a rejected 150m-euro Real Madrid bid but was jeered at home and left out at Sevilla. They visit Athletic Bilbao on Sunday first. Liverpool won last season's meeting 3-2 at the same ground.",
+      category: "matches",
+    },
+    {
+      title: "The Striker Question Answered Through The Nine: Isak Carries Three In Three Into Europe (SI, today)",
+      detail:
+        "Revisited on Saturday: the summer worry about replacing a departed winger's goals is being answered down the middle. Alexander Isak's brace at Ipswich, two shots and two goals inside nine minutes, takes him to three league goals in three, already level with his whole injured 2025-26; FotMob gave him 8.8. SI's argument is that the output may come through the centre-forward rather than the flanks, and that Liverpool have not carried a thirty-goal striker since Suarez. With Ekitike given no return date, the nine is one man deep, and Gakpo the false-nine fallback who finished Friday's game there.",
+      category: "matches",
+    },
+    {
+      title: "Gakpo The Creator Again: All Three Of Isak's Goals, And A Sale That Reads Worse By The Week (Sporting News, today)",
+      detail:
+        "Still resonating the morning after: Cody Gakpo has now set up all three of Isak's league goals this season, both Friday assists the pick of the night, the first threaded from inside and the second with the outside of the right boot for an 8.9. The Sporting News called the summer's flirtation with selling him to Manchester City 'all the more puzzling', and Iraola's line on Thursday that he was 'very happy to keep Cody' has aged well in four days. He finished the match at centre-forward, with Barcola, bought for his flank, on the other wing; the left is his.",
+      category: "general",
+    },
+    {
+      title: "The Table Reads Fifth This Morning, And Will Read Sixth By Sunday Night (ESPN, today)",
+      detail:
+        "As of Saturday: ESPN's live table still shows Liverpool fifth on five points from three, a game more played than the four sides above them on the maximum. City, Arsenal, Hull and Chelsea all play across the weekend, and a single point for any of them returns Liverpool to sixth by Sunday night. Nothing at either end has moved because nobody around Liverpool has played. The points are banked regardless of what the placing does, which is the reading Iraola will prefer with a Champions League week beginning.",
+      category: "matches",
+    },
+    {
+      title: "Leoni And Chiesa Pencilled For A Training Return During The International Window (Liverpool FC, today)",
+      detail:
+        "The rest of the absentee board is unchanged into the weekend. Giovanni Leoni, nearly a year on from an ACL tear, and Federico Chiesa, out with a pre-season muscle injury, are both planned to rejoin group training during the September international window, per Iraola's Thursday timetable, neither with a matchday pencilled and Chiesa left off the Champions League squad. Behind them Conor Bradley and Hugo Ekitike still have no timeframe. None is in reach for Atletico on Wednesday, which keeps selection where it was: a first-choice XI with a live question only at right-back.",
+      category: "injuries",
+    },
+    {
+      title: "Five Games In Seventeen Days: The Fixture Pile A First Win Reframes (This Is Anfield, today)",
+      detail:
+        "The calendar behind the team news: Atletico on Wednesday opens a run of Fulham on the 12th, Tottenham in the Carabao Cup on the 15th and Bournemouth away on the 20th, four games in nine days for a squad shut until January. A fortnight ago, winless, that pile looked like a threat; a first win, a first clean sheet and a striker in form turn it into a chance to bank ground before the internationals. Rotation across the run is where Barcola's minutes, Nyoni's and Ngumoha's come from, and where the right-back question may resolve itself by trial.",
+      category: "general",
+    },
+    {
+      title: "N'Guessan Confirmed For January: The One Piece Of Business In A Shut Window (Liverpool.com, 1d ago)",
+      detail:
+        "Announced Friday and still the only transfer-shaped item on the board: the 18-year-old Saint-Etienne forward Djylian N'Guessan will become a Liverpool player in January on a pre-contract worth a guaranteed €5m, with a sell-on clause kept by the French club. He spends the first half of the season on loan at Brest in Ligue 1. Thirteen senior appearances and one goal since a January 2025 debut, seven games for France at the 2025 Under-20 World Cup. It changes nothing before the New Year and is filed here rather than in the archived ledger.",
+      category: "transfers",
     },
   ],
   sources: [
-    "Sky Sports",
-    "Liverpool FC",
+    "rousingthekop",
     "SI",
-    "Sporting News",
-    "NBC Sports",
-    "ESPN",
-    "FotMob",
-    "Liverpool.com",
+    "FourFourTwo",
+    "This Is Anfield",
+    "Yahoo Sports",
+    "Liverpool FC",
     "Football Espana",
-    "Opta",
+    "ESPN",
+    "Sporting News",
+    "Liverpool.com",
   ],
 };
 
@@ -663,7 +662,7 @@ export const NEWS_DIGEST = {
 // next edition and then into the auditor's blind spot.
 
 export const OPPOSITION = {
-  generatedAt: "2026-09-04T22:20:00Z",
+  generatedAt: "2026-09-05T09:00:00Z",
   opponent: "Atlético Madrid",
   shortName: "ATM",
   fixture: {
@@ -677,9 +676,9 @@ export const OPPOSITION = {
   formation: "4-4-2",
   leaguePosition: 4,
   summary:
-    "Wednesday brings Atletico Madrid to Anfield for the second September running, the Champions League league phase opening against Diego Simeone's fifteenth-season side, fourth in La Liga on seven points from three and unbeaten. The summer was busy in both directions: Cristian Romero, Alejandro Grimaldo and Morten Hjulmand arrived, Ademola Lookman is scoring, and Julian Alvarez, chased by Barcelona and Arsenal with a €150m Real Madrid bid rejected outright, told the club he was staying and has since been jeered by his own crowd and left out of the XI at Sevilla, Simeone speaking of 'his own personal process'. The results say a side finding its rhythm without him: 2-0 over Malaga on the opening night, a 2-2 with Villarreal in which Robin Le Normand was sent off, then 3-1 at Sevilla on 29 August, Alex Baena scoring twice in a first half that settled it and the World Cup winner now the team's reference point. They play Athletic Bilbao on Sunday before travelling. Liverpool won last season's opener between the sides 3-2 at Anfield.",
+    "Four days out, and the Champions League league phase opens at Anfield against Atletico Madrid for the second September running, Diego Simeone's fifteenth-season side sitting fourth in La Liga on seven points from three and unbeaten. The summer was busy in both directions: Cristian Romero, Alejandro Grimaldo and Morten Hjulmand arrived, Ademola Lookman is scoring, and Julian Alvarez, chased by Barcelona and Arsenal with a €150m Real Madrid bid rejected outright, told the club he was staying and has since been jeered by his own crowd and left out of the XI at Sevilla, Simeone speaking of 'his own personal process'. The results say a side finding its rhythm without him: 2-0 over Malaga on the opening night, a 2-2 with Villarreal in which Robin Le Normand was sent off, then 3-1 at Sevilla on 29 August, Alex Baena scoring twice in a first half that settled it and the World Cup winner now the team's reference point. They play Athletic Bilbao on Sunday before travelling. Liverpool won last season's opener between the sides 3-2 at Anfield.",
   shape:
-    "A 4-4-2 that becomes a 4-2-4 without the ball and something narrower with it: Barrios and Hjulmand the pivot, Giuliano Simeone and Lookman wide, Lee Kang-in and Baena a front two in name only, Baena dropping between the lines and at times into a false nine. Grimaldo, from Leverkusen, gives the left the overlap and the set-piece delivery Atletico have lacked; Llorente does the same on the right by running rather than crossing. They score early and then defend the lead, which at Sevilla meant 3-0 at half-time and a second half spent absorbing pressure, Simeone conceding they 'lost energy'.",
+    "Read it as a 4-4-2 on the sheet that splits into a 4-2-4 out of possession and pinches narrow in it: Barrios and Hjulmand the pivot, Giuliano Simeone and Lookman wide, Lee Kang-in and Baena a front two in name only, Baena dropping between the lines and at times into a false nine. Grimaldo, from Leverkusen, gives the left the overlap and the set-piece delivery Atletico have lacked; Llorente does the same on the right by running rather than crossing. They score early and then defend the lead, which at Sevilla meant 3-0 at half-time and a second half spent absorbing pressure, Simeone conceding they 'lost energy'.",
   keyPlayers: [
     {
       name: "Álex Baena",
@@ -711,17 +710,17 @@ export const OPPOSITION = {
     { date: "2026-08-19", opponent: "Málaga", home: true, score: "2-0", result: "W", note: "Lee Kang-in on debut and Baena, both in the second half, in the season opener." },
   ],
   liverpoolAngle:
-    "The match Liverpool just won is the one that frames this: they beat Ipswich by scoring first, then managed the game, and the underlying numbers (0.66 xG for to 0.73 against, per FotMob) say the management was the harder part. Atletico are built for the opposite script. They scored inside the first half in all three league games, defend a lead as well as anyone in Europe, and if Baena's drop into the false nine draws Van Dijk and Jacquet out, the runners behind him hit the transition seam that has cost Liverpool nine fast-break goals since last August, more than any Premier League side, per Opta. The second angle is the right flank: Friday's answer was Araujo, a centre-back, against a physical winger; Lookman is a different problem, quick and inside-out, and Frimpong's pace or Araujo's strength is the manager's call. The counterweight is real: a striker with three in three, a first clean sheet, a crowd, and a 3-2 over the same opponent at the same ground twelve months ago. The predicted XI is Atletico's Sevilla side, not a preview, and Grimaldo is left off the key-player list only because no sourced number for him exists yet; no named team-news preview exists five days out with a La Liga fixture in between, and absentees will be filled after Sunday.",
+    "Whichever right-back Iraola picks is where this tie is won or lost, and that is the argument Anfield woke up to on Saturday. They beat Ipswich by scoring first and then managing the game, and the underlying numbers (0.66 xG for to 0.73 against, per FotMob) say the managing was the harder half. Atletico are built for the opposite script. They scored inside the first half in all three league games, defend a lead as well as anyone in Europe, and if Baena's drop into the false nine draws Van Dijk and Jacquet out, the runners behind him hit the transition seam that has cost Liverpool nine fast-break goals since last August, more than any Premier League side, per Opta. The second angle is the right flank: Friday's answer was Araujo, a centre-back, against a physical winger; Lookman is a different problem, quick and inside-out, and Frimpong's pace or Araujo's strength is the manager's call. The counterweight is real: a striker with three in three, a first clean sheet, a crowd, and a 3-2 over the same opponent at the same ground twelve months ago. The predicted XI is Atletico's Sevilla side, not a preview, and Grimaldo is left off the key-player list only because no sourced number for him exists yet; no named team-news preview exists five days out with a La Liga fixture in between, and absentees will be filled after Sunday.",
   modelLine: null,
   sources: ["Football Espana", "MARCA", "ESPN", "Sky Sports", "Liverpool FC", "Goal", "TNT Sports", "FotMob"],
 };
 
 export const FORM_TRENDS = {
-  generatedAt: "2026-09-04T22:20:00Z",
+  generatedAt: "2026-09-05T09:00:00Z",
   competition: "PL",
   played: 3,
   headline:
-    "The first win came with the season's worst expected-goals line, and both halves of that sentence matter. At Portman Road Liverpool scored twice from two Isak shots inside nine minutes and were then out-created, 0.73 to 0.66 on FotMob's numbers, 14 shots to 10, which is the reverse of the opening fortnight, when they out-created Newcastle 2.73 to 1.43 and drew, and trailed Forest on xG and drew. Three games in, the season reads 5.00 expected goals for and 4.46 against on a mixed-source total, six scored and four conceded, and the pattern underneath it has flipped: the slow starts are gone for a night, replaced by a fast start and a long, deliberate hold. The manager wanted the start above everything and said so. What he has not yet had is a game his side dominated from first minute to last, and Atletico on Wednesday are the wrong opponent to expect one against.",
+    "Three games in, the pattern under the results has already flipped once, and the win is the odd one out. At Portman Road Liverpool scored twice from two Isak shots inside nine minutes and were then out-created, 0.73 to 0.66 on FotMob's numbers, 14 shots to 10, which is the reverse of the opening fortnight, when they out-created Newcastle 2.73 to 1.43 and drew, and trailed Forest on xG and drew. Three games in, the season reads 5.00 expected goals for and 4.46 against on a mixed-source total, six scored and four conceded, and the pattern underneath it has flipped: the slow starts are gone for a night, replaced by a fast start and a long, deliberate hold. The manager wanted the start above everything and said so. What he has not yet had is a game his side dominated from first minute to last, and Atletico on Wednesday are the wrong opponent to expect one against.",
   diagnosis: [
     {
       label: "The start, solved for a night",
@@ -814,9 +813,9 @@ export const FORM_TRENDS = {
 
 
 export const SQUAD_LOAD = {
-  generatedAt: "2026-09-04T22:20:00Z",
+  generatedAt: "2026-09-05T09:00:00Z",
   headline:
-    "Nobody was hurt at Portman Road, and one thing changed anyway: the right-back department has two names in it. Araujo started there, Frimpong sat, and the position Iraola called thin on Thursday looked, for one night, like a choice rather than a default. The five absentees are the same five, none nearer than Gomez, who trains with the group next week and is still likely to miss Atletico on Wednesday. Isak came off on 64 minutes with the job done, not injured; Barcola's twelve touches were his first competitive minutes since 18 July. Five games in seventeen days have started with a win and no new casualties, which is the best the closed squad could have asked of the first of them.",
+    "The closed squad came through the first of five games in seventeen days without a new casualty, and the one change the win brought is the one the week is now arguing over: right-back has two names in it. Araujo started there, Frimpong sat, and the position Iraola called thin on Thursday looks, for now, like a choice rather than a default. The five absentees are the same five, none nearer than Gomez, who is expected to train with the group next week and is still likely to miss Atletico on Wednesday. Isak came off on 64 minutes with the job done, not injured; Barcola's twelve touches were his first competitive minutes since 18 July. A win, a clean sheet and no new injury is the best the squad could have asked of the opener to the run.",
   minutesNote:
     "Premier League minutes are not published here yet. Three league games have been played and no reliable per-player league minutes have been sourced, so this board tracks availability, starts and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   unavailable: [
@@ -844,14 +843,14 @@ export const SQUAD_LOAD = {
 
 
 export const SEASON_PROJECTION = {
-  generatedAt: "2026-09-04T22:20:00Z",
+  generatedAt: "2026-09-05T09:00:00Z",
   played: 3,
   points: 5,
   pointsPerGame: 1.67,
   projectedPoints: 63,
   projectedFinish: "Europa League places on current pace",
   headline:
-    "One win moves the projection from 38 to 63, which says less about Liverpool than about how little three games can tell you. Five points from nine is a 1.67-a-game pace, roughly a sixth-place return over a full season, and the same arithmetic that had them on the survival line on Friday morning has them in Europe by Friday night. Treat it as a direction, not a destination. The next two league games are Fulham at home and Bournemouth away, sixteenth and fourteenth, either side of a Champions League opener and a cup tie; win both and the pace is a top-five one before the September break.",
+    "Five points from nine is a 1.67-a-game pace and a projected 63, a direction rather than a destination three games into a season. The number is worth the caveat it always carries this early: the same arithmetic sat on the survival line on Friday morning and reads sixth-place Europe by Saturday, which is the size of the sample talking, not the size of the improvement. Treat it as a direction, not a destination. The next two league games are Fulham at home and Bournemouth away, sixteenth and fourteenth, either side of a Champions League opener and a cup tie; win both and the pace is a top-five one before the September break.",
   thresholds: [
     { label: "Champions League (top 5)", points: 68, gap: 5, note: "Historical par for fifth place in recent seasons. Requires roughly 1.80 points per game from here." },
     { label: "Europa League", points: 60, gap: 0, note: "Roughly sixth place par, and where the current pace lands. Requires about 1.57 points per game from here." },

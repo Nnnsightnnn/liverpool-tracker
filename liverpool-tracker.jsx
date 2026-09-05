@@ -126,21 +126,21 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Sky Sports", title: "Ipswich 0-2 Liverpool: Isak strikes twice inside nine minutes as Iraola claims his first win and a first clean sheet", time: "today", category: "major" },
-  { source: "NBC Sports", title: "Iraola: 'Feels good, we needed this one. We started really strong today and I think that was the key'", time: "today", category: "major" },
-  { source: "SI", title: "Liverpool player ratings vs Ipswich: Gakpo 8.9 and Isak 8.8 lead, Araujo 7.7 on a first start at right-back, Barcola debuts", time: "today", category: "major" },
-  { source: "Sporting News", title: "The key number to delight Iraola: 48 more forward passes than Ipswich and seven attacking-third regains before half-time", time: "today", category: "major" },
-  { source: "Yahoo Sports", title: "O'Neil: 'I thought we were excellent' after two early mistakes were punished by world-class players", time: "today", category: "fan" },
-  { source: "ESPN", title: "Liverpool climb to fifth on five points; City, Arsenal, Hull and Chelsea play over the weekend", time: "today", category: "major" },
-  { source: "ESPN", title: "Liverpool sign Djylian N'Guessan, 18, from Saint-Etienne for €5m to join in January after a loan at Brest", time: "today", category: "major" },
-  { source: "Liverpool.com", title: "Who is Djylian N'Guessan? Liverpool confirm deal for attacking starlet three days after the deadline", time: "today", category: "fan" },
+  { source: "rousingthekop", title: "Fans split as Araujo makes the case to keep right-back for Champions League nights after the Ipswich experiment", time: "today", category: "fan" },
+  { source: "FourFourTwo", title: "Liverpool sort a right-back fix for Champions League nights amid Jeremie Frimpong scrutiny", time: "today", category: "major" },
+  { source: "This Is Anfield", title: "Gomez, Leoni and Chiesa latest: Iraola's return dates, with Fulham the target for Joe and Atletico too soon", time: "today", category: "major" },
+  { source: "SI", title: "'Could become his regular position': Araujo's shift to right-back reframes Liverpool's Champions League defence", time: "today", category: "fan" },
   { source: "Liverpool FC", title: "Liverpool v Atletico Madrid: Champions League opener at Anfield on Wednesday, 8pm, live on TNT Sports 1", time: "today", category: "official" },
-  { source: "Liverpool FC", title: "Team news: Chiesa ruled out to the international break and left off the Champions League squad with Endo", time: "1d ago", category: "official" },
+  { source: "Football Espana", title: "Atletico visit Athletic Bilbao on Sunday before Anfield; Simeone's side fourth in Spain and unbeaten", time: "today", category: "fan" },
+  { source: "Sky Sports", title: "Ipswich 0-2 Liverpool: Isak strikes twice inside nine minutes as Iraola claims his first win and a first clean sheet", time: "1d ago", category: "major" },
+  { source: "SI", title: "Liverpool player ratings vs Ipswich: Gakpo 8.9 and Isak 8.8 lead, Araujo 7.7 on a first start at right-back", time: "1d ago", category: "major" },
+  { source: "ESPN", title: "Liverpool climb to fifth on five points; City, Arsenal, Hull and Chelsea play over the weekend", time: "1d ago", category: "major" },
+  { source: "ESPN", title: "Liverpool sign Djylian N'Guessan, 18, from Saint-Etienne for €5m to join in January after a loan at Brest", time: "1d ago", category: "major" },
   { source: "Liverpool FC", title: "Injury update: Gomez to resume team training next week, no return date for Bradley or Ekitike", time: "1d ago", category: "official" },
   { source: "This Is Anfield", title: "Five games in 17 days: Atletico, Fulham, a Spurs cup tie and Bournemouth follow the trip to Ipswich", time: "1d ago", category: "fan" },
-  { source: "ESPN", title: "Harvey Elliott leaves Liverpool on loan for Valencia: no option to buy, contract runs to 2028", time: "2d ago", category: "major" },
-  { source: "Football Espana", title: "Baena brace fires Atletico Madrid to 3-1 win at Sevilla; Alvarez left out of the starting XI", time: "6d ago", category: "fan" },
-  { source: "Sky Sports", title: "Liverpool 2-2 Nottingham Forest: Munoz's debut strike rescues a second straight draw at Anfield", time: "6d ago", category: "major" },
+  { source: "ESPN", title: "Harvey Elliott leaves Liverpool on loan for Valencia: no option to buy, contract runs to 2028", time: "3d ago", category: "major" },
+  { source: "Football Espana", title: "Baena brace fires Atletico Madrid to 3-1 win at Sevilla; Alvarez left out of the starting XI", time: "1w ago", category: "fan" },
+  { source: "Sky Sports", title: "Liverpool 2-2 Nottingham Forest: Munoz's debut strike rescues a second straight draw at Anfield", time: "1w ago", category: "major" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
