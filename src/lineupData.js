@@ -131,7 +131,7 @@ export const FORMATIONS = {
 
 // One-line evidence string per player, surfaced under the token on hover.
 // Hand-curated from RESULTS + injuryNote context, reviewed Sat Sep 5 (morning), after Ipswich
-// Town 0-2 Liverpool at Portman Road and five days before Atletico Madrid at Anfield on
+// Town 0-2 Liverpool at Portman Road and four days before Atletico Madrid at Anfield on
 // Wednesday 9 September, 8pm, the Champions League opener. From the Ipswich win: Isak
 // scored in the 6th and 9th minutes, both from Gakpo; Araujo made a first start, at
 // right-back, with Frimpong unused; Mac Allister kept the pivot with Szoboszlai;
