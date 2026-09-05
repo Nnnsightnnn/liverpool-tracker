@@ -486,7 +486,7 @@ function CoverView({ onJump }) {
         }}>
           Saturday evening, and the sporting director has gone: <em>Richard
           Hughes</em> stepped down this afternoon, Al-Hilal expected, the squad he
-          closed on Monday left to a search Mike Gordon now runs. Across the water
+          closed this week left to a search Mike Gordon now runs. Across the water
           <em>Atletico</em> lost 3-0 in Bilbao; at home the table slid Liverpool to
           sixth without a ball kicked. Wednesday still comes.
         </p>

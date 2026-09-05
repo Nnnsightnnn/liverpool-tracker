@@ -200,7 +200,9 @@ export const SLOT_CONFIDENCE = {
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run.
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Sat Sep 5
+// (evening): only RB rotated, the other eight carry Friday's match-evidence datelines because no
+// lineup-relevant fact about those slots has changed since Portman Road.
 export const SLOT_RATIONALE = {
   LB:  "Fri Sep 4 — the tackle that began the season's first lead, and a fourth start in eighteen days coming. Kerkez won the ball around halfway in the sixth minute at Portman Road, found Gakpo, and Isak scored a moment later; SI credited the aggressive defending for the goal and marked him 6.7, the lowest of a back four that kept a first clean sheet. He is first choice by a distance with Robertson gone to Tottenham and Tsimikas unused on the bench. Wednesday brings Grimaldo overlapping and Giuliano Simeone running at him from Atletico's right.",
   LCB: "Fri Sep 4 — the captain's pass started the second goal, and then he organised eighty-one minutes of holding a lead his side had never had. Van Dijk found Gakpo on the left in the ninth minute; FotMob gave him 7.7 and SI wrote that he looked more comfortable than in weeks. The first clean sheet since April came beside Jacquet with Araujo at right-back rather than behind them, which thins the cover here even as it thickens it there. The deal still runs only to 2027, the Milan interest was knocked back without a bid, and at 35 he is the fixed point, now with a win to build from.",
