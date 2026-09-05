@@ -484,11 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday, and the win is a day old but its one argument is not:
-          <em>Araujo</em> took right-back at Ipswich, kept a clean sheet, and left
-          Frimpong watching. Which of them meets Lookman when <em>Atletico</em>
-          come to Anfield on Wednesday is the question of the week. Fifth on five
-          points, for a weekend at least.
+          Saturday evening, and the sporting director has gone: <em>Richard
+          Hughes</em> stepped down this afternoon, Al-Hilal expected, the squad he
+          closed on Monday left to a search Mike Gordon now runs. Across the water
+          <em>Atletico</em> lost 3-0 in Bilbao; at home the table slid Liverpool to
+          sixth without a ball kicked. Wednesday still comes.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,33 +519,33 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and the team sheet is still talking. <em>Ronald Araujo</em>'s first
-              Liverpool start came at right-back, a 7.7 and a clean sheet, and
-              Jeremie Frimpong spent the ninety in a tracksuit; the morning after,
-              the city cannot agree whether that was a one-night answer to a
-              physical winger or the new shape of the back four. Wednesday will
-              decide it in public. Atletico bring <em>Ademola Lookman</em>, quick
-              and inside-out, the kind of runner a converted centre-back does not
-              naturally hold, and Iraola has four days and a trip to Bilbao to
-              weigh strength against pace. Joe Gomez edges back into team training
-              next week, too late for the opener. The win banked five points and a
-              first clean sheet since April; what it did not settle was who takes
-              the right.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the club is a department short. <em>Richard Hughes</em>, the sporting
+              director who signed Isak, Wirtz and Barcola and left the right-back
+              unbought, stepped down on Saturday afternoon with Al-Hilal waiting, a
+              day after the first win of the side he assembled and four days before
+              a Champions League opener he will not sit through. Mike Gordon leads the
+              search and the first names are internal: Julian Ward, who has done the
+              job before, David Woodfine, Pedro Marques. Andoni Iraola, appointed by
+              the man who has just left, must now persuade the one who replaces him.
+              Atletico arrive on Wednesday from a 3-0 beating in Bilbao with a striker
+              their own crowd whistles, <em>Alvarez</em>, and a manager who will not
+              discuss him. The table moved without Liverpool: sixth on five. The
+              window is shut; the office above it is open.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is the
-              right-back the whole city is debating; the return that edges closer
-              in Joe Gomez; the side Simeone brings on Wednesday, built for the
-              opposite script; the striker answering an old question through the
-              nine; and the view from fifth with five games in seventeen days to
-              come. Read them in order. The season opened at Newcastle with a 2-2
-              on the twenty-third of August, found another at Anfield on the
-              twenty-ninth, and won for the first time at Portman Road on Friday;
+              dispatches from the writers who never clock off. There is the sporting
+              director's departure and the search that follows it; the side Simeone
+              brings on Wednesday, beaten in Bilbao; the table that slid to sixth
+              without a ball kicked; the winger they kept, counted by Opta and judged
+              by Carragher; and a treatment room that has not moved, now answering to
+              nobody in particular. Read them in order. The season opened at Newcastle
+              with a 2-2 on the twenty-third of August, found another at Anfield on
+              the twenty-ninth, and won for the first time at Portman Road on Friday;
               the market is shut until January.
             </p>
           </div>
@@ -3755,7 +3755,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Two right-backs now, and one shirt."
+        "The window shut; the office above it opened."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
