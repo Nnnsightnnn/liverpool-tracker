@@ -484,11 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday evening, and the sporting director has gone: <em>Richard
-          Hughes</em> stepped down this afternoon, Al-Hilal expected, the squad he
-          closed this week left to a search Mike Gordon now runs. Across the water
-          <em>Atletico</em> lost 3-0 in Bilbao; at home the table slid Liverpool to
-          sixth without a ball kicked. Wednesday still comes.
+          Sunday, and the search has a favourite before it has a name:{" "}
+          <em>Julian Ward</em>, who did the job once already, is the front-runner
+          to succeed Richard Hughes, Mike Gordon choosing and Michael Edwards
+          rebuilding around him. On the grass Iraola has settled his right-back;
+          <em>Atletico</em>, beaten in Bilbao, come to Anfield in three days.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,19 +519,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the club is a department short. <em>Richard Hughes</em>, the sporting
-              director who signed Isak, Wirtz and Barcola and left the right-back
-              unbought, stepped down on Saturday afternoon with Al-Hilal waiting, a
-              day after the first win of the side he assembled and four days before
-              a Champions League opener he will not sit through. Mike Gordon leads the
-              search and the first names are internal: Julian Ward, who has done the
-              job before, David Woodfine, Pedro Marques. Andoni Iraola, appointed by
-              the man who has just left, must now persuade the one who replaces him.
-              Atletico arrive on Wednesday from a 3-0 beating in Bilbao with a striker
-              their own crowd whistles, <em>Alvarez</em>, and a manager who will not
-              discuss him. The table moved without Liverpool: sixth on five. The
-              window is shut; the office above it is open.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and the club is looking for the man to replace the man who just left.
+              <em>Richard Hughes</em> is gone to Al-Hilal, and the search for a
+              sporting director already has a front-runner: Julian Ward, who held
+              the job for a season in 2022-23 and came back last year as FSG's
+              technical director, with David Woodfine and Pedro Marques alongside
+              him and Michael Edwards, returned this summer, rebuilding the
+              structure they would run. Mike Gordon is choosing. On the pitch the
+              argument is smaller and older: Ronald Araujo, nine duels won from ten
+              at Ipswich, has taken the right-back shirt from <em>Jeremie
+              Frimpong</em> three days before Atletico bring Ademola Lookman to it.
+              The visitors arrive wounded, beaten 3-0 in Bilbao and whistling their
+              own striker. September gives Iraola five games in seventeen days and
+              no way to buy a sixth option. The window is shut; the office above it
+              is still being filled.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -539,11 +541,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and five
               dispatches from the writers who never clock off. There is the sporting
-              director's departure and the search that follows it; the side Simeone
-              brings on Wednesday, beaten in Bilbao; the table that slid to sixth
-              without a ball kicked; the winger they kept, counted by Opta and judged
-              by Carragher; and a treatment room that has not moved, now answering to
-              nobody in particular. Read them in order. The season opened at Newcastle
+              director's chair and the front-runner the search has found; the
+              right-back Iraola has settled three days out; the side Simeone brings
+              on Wednesday, beaten in Bilbao; September's five games in seventeen
+              days; and the run of people who ran this club, and left. Read them in
+              order. The season opened at Newcastle
               with a 2-2 on the twenty-third of August, found another at Anfield on
               the twenty-ninth, and won for the first time at Portman Road on Friday;
               the market is shut until January.
@@ -3755,7 +3757,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The window shut; the office above it opened."
+        "Continuity, built from who left."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
