@@ -484,12 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday evening, three days from Anfield's first European night of the
-          season, and it is <em>Atletico</em> who may arrive in a different shape,
-          Simeone weighing a back three after Bilbao. The table moved without
-          Liverpool: Arsenal beat Chelsea, five sides sit on five, the Reds sixth
-          among them. A free agent's name, <em>Carvajal</em>, drifted through the
-          shut window. Wednesday is the first of three home games in seven days.
+          Monday, and Anfield's first European night of the season is two days
+          off. The visitor arrives bruised: <em>Atletico</em> were beaten 3-0 at
+          Bilbao, Simeone says they lost it in five minutes, and Julian Alvarez
+          is a question he has not yet answered. Liverpool sit sixth, one of five
+          sides on five, unbeaten. Wednesday opens three home games in seven days.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,31 +519,31 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the week is a fixture list and a sentence. Milos Kerkez supplied the
-              sentence: <em>now games come every three days</em>. The list is Atletico
-              on Wednesday, Fulham on Saturday, Tottenham in the cup the Tuesday
-              after, three home games across three competitions in seven days, with
-              a squad that cannot be added to and five names still in the treatment
-              room. The visitors come first and come uncertain: beaten 3-0 in Bilbao,
-              Simeone is reported to be reaching for a third centre-back, his striker
-              is being told by club legends to apologise with goals, and he has not
-              won at Anfield since 2020. Beneath all of it the table shifted while
-              Liverpool watched, Arsenal joining City on nine, five sides level on
-              five, and a free agent named <em>Carvajal</em> was floated for the
-              one position the club could still fill. The window is shut. The door
-              beside it, it turns out, is not.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and the week has a shape now. Anfield's first Champions League night
+              since the draw was made comes on Wednesday, Atletico Madrid the
+              visitors, and they travel wounded: three goals conceded in five
+              second-half minutes at Bilbao, a manager who called the defeat
+              deserved, a striker still whistled by his own support and still
+              without the promise of a start. Iraola calls it special to lead this
+              club out in Europe; the fixture list calls it the first of three home
+              games in seven days, Atletico then Fulham then Tottenham in the cup.
+              Beneath it the table sat still across an idle weekend for the Reds,
+              Liverpool sixth and unbeaten, one of five sides level on five, two
+              perfect records already pulling clear. Five names stay in the
+              treatment room and the squad cannot be added to until January. The
+              window is shut; the European nights are not.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is the shape
-              Simeone may bring on Wednesday; the free agent floated for right-back
-              and how little stands behind the line; Sunday's table, two perfect sides
-              and five on five; Kerkez's week in a sentence and the ninety minutes
-              Iraola made Jacquet suffer through; and the fourth sporting director
+              dispatches from the writers who never clock off. There is Simeone
+              taking the blame for Bilbao and the striker he will not yet name;
+              Iraola on the eve of a first European night as Liverpool manager; the
+              shape the visitors might bring and the runner it frees; the treatment
+              room the closed window cannot empty; and the fourth sporting director
               in as many years. Read them in order. The season opened at Newcastle
               with a 2-2 on the twenty-third of August, found another at Anfield on
               the twenty-ninth, and won for the first time at Portman Road on Friday;
@@ -3757,7 +3756,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Every three days, and onto the next."
+        "Two days out, and the lights come back."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

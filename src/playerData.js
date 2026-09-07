@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "injured", outSince: "2026-07-25", injuryNote: "Sun Sep 6, evening — nearest of the five, and now the answer to a question a free agent was floated for. Gomez rejoins team training this week per Iraola's timetable and remains likely to miss Wednesday's Champions League opener against Atletico, with Fulham on the 12th the first realistic matchday and the manager hoping to have him before the September break; DaveOCKOP's Sunday count of six absentees lists him as 'a significant doubt' for Wednesday rather than out. The Carvajal talk that surfaced on Sunday, a pundit's aside on TNT, is about the position he would deepen: with Araujo having started at right-back on Friday, his return gives a fourth senior centre-back and a third right-back in one body. The muscle recovery from the 26 July Sunderland friendly has gone to plan.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "injured", outSince: "2026-07-25", injuryNote: "Mon Sep 7 — two days from the opener and the nearest of the five to a return, though not in time for this one. Gomez rejoins team training this week per Iraola's timetable and remains likely to miss Wednesday's Champions League opener against Atletico, with Fulham on the 12th the first realistic matchday and the manager hoping to have him before the September break; DaveOCKOP's Sunday count of six absentees lists him as 'a significant doubt' for Wednesday rather than out. The Carvajal talk that surfaced on Sunday, a pundit's aside on TNT, is about the position he would deepen: with Araujo having started at right-back on Friday, his return gives a fourth senior centre-back and a third right-back in one body. The muscle recovery from the 26 July Sunderland friendly has gone to plan.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Sun Sep 6, evening — no date, and on Sunday a 34-year-old free agent's name was floated for the shirt he has not worn since January. Bradley continues rehabilitation on the knee injured against Arsenal, 'probably Conor will go later' being Iraola's Thursday placing of him behind Gomez, Leoni and Chiesa, with DaveOCKOP's Sunday round-up putting him beyond the September/October international break; the Dani Carvajal line on TNT Sports, unadvanced by any journalist, exists because of gaps like his. On Friday the shirt went to Ronald Araujo for a first start, nine duels won from ten, Frimpong unused, and the pair kept a clean sheet at Ipswich. Still registered in the Champions League squad because only three changes are allowed after the league phase", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Mon Sep 7 — no date, and the shirt he has not worn since January now settled on another man's back. Bradley continues rehabilitation on the knee injured against Arsenal, 'probably Conor will go later' being Iraola's Thursday placing of him behind Gomez, Leoni and Chiesa, with DaveOCKOP's Sunday round-up putting him beyond the September/October international break; the Dani Carvajal line on TNT Sports, unadvanced by any journalist, exists because of gaps like his. On Friday the shirt went to Ronald Araujo for a first start, nine duels won from ten, Frimpong unused, and the pair kept a clean sheet at Ipswich. Still registered in the Champions League squad because only three changes are allowed after the league phase", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 18, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-15", injuryNote: "Sun Sep 6, evening — a training date during the break, and a week of three home games he will watch from the treatment room. Leoni, nearly a year on from the ACL tear on his September 2025 debut, is planned to rejoin group training during the international window later this month, per Iraola's Thursday round-up and DaveOCKOP's Sunday count, the second of the returns after Gomez, with no matchday pencilled. Jacquet, the centre-back playing in his place, completed a first full ninety on Friday after Iraola chose to let him 'suffer' through a second-half wobble rather than replace him; the cover behind Van Dijk and Jacquet while Araujo plays right-back is Endo in the league and nobody senior in Europe. Named in the Champions League squad regardless, alongside Bradley and Ekitike", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 18, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-15", injuryNote: "Mon Sep 7 — a fortnight from a training date, and three home games in seven days he will watch from the treatment room. Leoni, nearly a year on from the ACL tear on his September 2025 debut, is planned to rejoin group training during the international window later this month, per Iraola's Thursday round-up and DaveOCKOP's Sunday count, the second of the returns after Gomez, with no matchday pencilled. Jacquet, the centre-back playing in his place, completed a first full ninety on Friday after Iraola chose to let him 'suffer' through a second-half wobble rather than replace him; the cover behind Van Dijk and Jacquet while Araujo plays right-back is Endo in the league and nobody senior in Europe. Named in the Champions League squad regardless, alongside Bradley and Ekitike", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -193,7 +193,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Sun Sep 6, evening — last in the queue, and the week ahead is the first to ask three times in seven days whether one striker is enough. Ekitike continues rehabilitation from the Achilles ruptured against PSG in April with no timeframe from Iraola, December the earliest anyone has mentioned, named after Gomez, Leoni, Chiesa and Bradley in the manager's order of returns and beyond the break per DaveOCKOP's Sunday count. Isak has three in three and, per Gakpo on Saturday, 'owes me a few assists now'; Gakpo himself finished Friday's game as the false-nine fallback. Atletico on Wednesday, Fulham on Saturday and Tottenham in the cup the Tuesday after is the stretch the rotation was built for and cannot yet include him. Registered in the Champions League squad regardless, Liverpool Offside noting only three changes are permitted after the league phase", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Mon Sep 7 — still last in the order of returns, on the eve of the week that asks most of the striker in front of him. Ekitike continues rehabilitation from the Achilles ruptured against PSG in April with no timeframe from Iraola, December the earliest anyone has mentioned, named after Gomez, Leoni, Chiesa and Bradley in the manager's order of returns and beyond the break per DaveOCKOP's Sunday count. Isak has three league goals in three, all supplied by Gakpo, who has himself been the false-nine fallback when Isak comes off. Atletico on Wednesday, Fulham on Saturday and Tottenham in the cup the Tuesday after is the stretch the rotation was built for and cannot yet include him. Registered in the Champions League squad regardless, Liverpool Offside noting only three changes are permitted after the league phase", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -212,7 +212,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "injured", outSince: "2026-08-16", injuryNote: "Sun Sep 6, evening — out until the break, off the European list, and now one of two Liverpool players who could not face Atletico even if fit. Chiesa's return to group training is set for 'around those dates' of the September international break, per Iraola's Thursday round-up, which rules him out of Atletico on Wednesday, Fulham, the Tottenham cup tie and Bournemouth; DaveOCKOP's Sunday count notes he and Endo were left off the 25-man Champions League squad, so the European bench is two names shorter than the league's. The muscle problem dates from the Como friendly. Barcola has since debuted on the right and Munoz started there, and Kerkez said on Sunday that the left side's understanding with Gakpo is 'a lot better' this year, so the flank queue he would join has lengthened at both ends. His father closed off the Serie A talk on deadline night, so he stays, and waits", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "injured", outSince: "2026-08-16", injuryNote: "Mon Sep 7 — off the European list, so ineligible for Wednesday whatever his fitness, and pointed at the international break. Chiesa's return to group training is set for 'around those dates' of the September international break, per Iraola's Thursday round-up, which rules him out of Atletico on Wednesday, Fulham, the Tottenham cup tie and Bournemouth; DaveOCKOP's Sunday count notes he and Endo were left off the 25-man Champions League squad, so the European bench is two names shorter than the league's. The muscle problem dates from the Como friendly. Barcola has since debuted on the right and Munoz started there, and Kerkez said on Sunday that the left side's understanding with Gakpo is 'a lot better' this year, so the flank queue he would join has lengthened at both ends. His father closed off the Serie A talk on deadline night, so he stays, and waits", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -375,10 +375,15 @@ export const TEAM_LOGOS = {
 export const COVER_IMAGE = {
   src: "/assets/cover/2026-09-05-hughes-exit.svg",
   alt: "Editorial plate: a training-ground office block at dusk, one upper window still lit with a single desk lamp behind the glass, and the red tail lights of a car leaving the gate along a wet drive.",
-  focus: "Richard Hughes steps down as sporting director, Al-Hilal expected; Atletico, beaten 3-0 in Bilbao, may change shape for Anfield on Wednesday",
+  focus: "Two days from Anfield's first European night: Simeone owns Atletico's 3-0 at Bilbao and leaves Alvarez a question, while Iraola prepares a first Champions League night as Liverpool manager",
   credit: "Plate · Daily edition",
-  generatedAt: "2026-09-06T22:45:00Z",
+  generatedAt: "2026-09-07T09:00:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
+  // Morning pass (Mon 7 September): quiet cycle, no match since Friday, no new injury, table static in a
+  // Champions League week. Lead rotated onto the Atletico build-up: Simeone taking the blame for the 3-0
+  // at Bilbao ('we lost it in five minutes') and leaving Alvarez unanswered, with Iraola's first European
+  // night as Liverpool manager framing it. None of it is a photographable moment under STEP 7.5, so no new
+  // Track 2 request was queued and the Hughes plate carries over; generatedAt re-stamped (COVER-00001).
   // Evening pass (Sun 6 September): quiet cycle, no match since Friday. Lead is the Atletico
   // week (Simeone weighing a back three, per El Desmarque) with the Carvajal free-agent line
   // and Sunday's table beneath it; none of it is a photographable moment, so the Hughes plate
@@ -459,12 +464,12 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-09-05 (evening) — live 2026-27 table after Saturday's six games; Arsenal v Chelsea
-// (Sunday 11:30) and Everton v Manchester United still to play. Liverpool did not play and dropped a place:
-// City beat Coventry 1-0 to go to nine, Hull drew 0-0 with Villa for seven, and Brentford's 1-1 at
-// Sunderland took them to five with a better goal difference (+3 to +2), so Liverpool are sixth on five.
-// Crystal Palace won 3-2 at Fulham for a first win; Forest 0-0 Spurs; Newcastle 2-2 Bournemouth;
-// Brighton 1-1 Leeds. Regenerated from ESPN's endpoint on Saturday evening.
+// Last refresh: 2026-09-07 (Monday morning) — re-fetched from ESPN's endpoint and byte-identical to
+// Sunday evening's table: no Premier League game has been played since (this is a Champions League week),
+// so the round-3 table stands. Manchester City and Arsenal both perfect on nine; Chelsea fourth on six
+// after Arsenal's 2-1 win at the Emirates; Brentford, Liverpool, Newcastle, Everton and Leeds all on five,
+// Liverpool sixth on plus two. Fulham (Anfield, the 12th) still pointless with Coventry and Tottenham in
+// the relegation stripe; Bournemouth (away, the 20th) fifteenth on two. Regenerated from ESPN on Monday.
 export const STANDINGS = [
   { pos: 1, team: "Manchester City", p: 3, w: 3, d: 0, l: 0, gd: 5, pts: 9, qualification: "UCL" },
   { pos: 2, team: "Arsenal", p: 3, w: 3, d: 0, l: 0, gd: 5, pts: 9, qualification: "UCL" },
@@ -498,9 +503,9 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 3,
-  generatedAt: "2026-09-06T22:45:00Z",
+  generatedAt: "2026-09-07T09:00:00Z",
   overview:
-    "Sunday settled the top and thickened the middle. Arsenal came from behind to beat Chelsea 2-1 at the Emirates, Havertz cancelling Rogers's 77th-second volley and Odegaard scoring the winner on 50 minutes, so the champions join Manchester City on nine with a perfect record and Chelsea drop to fourth on six, still a point above Liverpool. Everton's stoppage-time 2-2 with Manchester United, Maitland-Niles levelling on his debut in the 96th minute, drags a fifth side onto five points: Brentford, Liverpool, Newcastle, Everton and Leeds are now split by goal difference alone, Liverpool sixth on plus two behind Brentford's plus three. Every side has played three; the European line runs through this knot and will keep moving until it does not. At the foot, Fulham, at Anfield on the 12th, are still pointless with Coventry and Tottenham in the relegation stripe, and Bournemouth, the trip on the 20th, sit fifteenth on two.",
+    "The weekend's table carries into a Champions League week untouched, and it is the middle that reads as the story. Manchester City and Arsenal are both perfect on nine, the champions and the side that came from behind to beat Chelsea 2-1, and already four clear of a chasing pack that has knotted: Brentford, Liverpool, Newcastle, Everton and Leeds all on five, split by goal difference and, for Newcastle, by goals scored alone, Liverpool sixth on plus two. Chelsea sit fourth on six after a first defeat under Xabi Alonso, still a point above the Reds, and Hull, third on seven, remain the surprise of the opening month. At the foot, Fulham, at Anfield on the 12th, are still pointless alongside Coventry and Tottenham in the relegation stripe, and Bournemouth, the trip on the 20th, sit fifteenth on two. Every side has played three; the European line runs straight through the five-point knot and will not move again until the league resumes.",
   teams: {
     "Liverpool": "Sixth on five, unbeaten, one of five sides on the same total and separated from the rest by goal difference. Atletico at Anfield on Wednesday in the Champions League, then Fulham, nineteenth and pointless, on the 12th.",
     "Manchester City": "Top on nine and goal difference, level with Arsenal, the two perfect records left after three rounds. At Anfield on 11 October.",
@@ -522,133 +527,125 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Simeone Reaches For A Third Centre-Back.",
-    byline: "El Desmarque / El Gol Digital",
-    dateline: "Madrid · 6 September",
-    category: "Tactics",
+    headline: "The Manager Who Blamed Himself.",
+    byline: "Liverpool.com / Marca",
+    dateline: "Bilbao · 6 September",
+    category: "Manager",
     body:
-      "The team arriving at Anfield on Wednesday may not be the team that lost in Bilbao. El Desmarque reported on Sunday night that Diego Simeone is weighing a return to a back three for the Champions League opener, Cristian Romero, who made his Atletico debut from the bench at San Mames, coming in beside Marc Pubill and David Hancko, Marcos Llorente on the right and Alex Grimaldo either pushed up to wing-back or left on the bench, his defending the name most attached to Saturday's 3-0. It is not a departure so much as a habit: the Argentine has swapped between 4-4-2, 5-3-2 and 3-5-2 for years, by opponent and by who has the ball. El Gol Digital adds the context that ought to steady Liverpool. Simeone has not won at Anfield since March 2020, and Alexander Sorloth travels with a muscle contracture, if he travels at all."
+      "Diego Simeone did not reach for a grievance this time. Atletico had been the better side for forty-five minutes at San Mames, hit the woodwork twice, and then conceded to Nico Williams and Robert Navarro inside three minutes of the restart and to Oihan Sancet at the death; a 3-0 that Simeone called deserved and, more unusually, his own. 'We lost the match in five minutes,' he said, and did not soften it. Two days from Anfield the tone matters as much as the scoreline: a side that has spent almost a billion euros across two summers arrives at its Champions League opener having been undone by a lapse it cannot explain, from a manager in his fifteenth year who is, for once, taking the weight rather than passing it to a referee."
   },
   {
     n: "02",
-    headline: "A Free Agent Can Still Walk Through A Shut Window.",
-    byline: "Caught Offside / Liverpool.com",
-    dateline: "Anfield · 6 September",
-    category: "Transfers",
+    headline: "A First European Night, And A Shape To Read.",
+    byline: "Liverpool FC / The Redmen TV",
+    dateline: "Anfield · 7 September",
+    category: "Tactics",
     body:
-      "The window closed on Tuesday and the right-back conversation did not. On TNT Sports on Saturday night Joleon Lescott let slip that 'there's talk of Liverpool' for Dani Carvajal, the 34-year-old whose Real Madrid contract expired on 1 July and who, as a free agent, can sign anywhere at any time; David Ornstein, beside him, did not correct it. By Sunday morning Caught Offside had a story, Liverpool.com had a theory and Anfield Index had a pundit. Nobody has a negotiation. No transfer journalist has taken the line past Lescott's aside, and the club's own answer to the position, Ronald Araujo's nine duels from ten at Ipswich, was given on Friday. Six Champions League medals is a long CV for a rotational full-back. It is also, so far, a rumour with one source."
+      "Andoni Iraola called it special when the draw was made, an honour for him and his staff to lead Liverpool out in the Champions League, and on Wednesday the words meet the night. His homework is a moving target. El Desmarque still reports Simeone weighing a back three, Romero for Grimaldo, which would trade a wide runner for a spare centre-back and turn the game inside, toward Baena dropping off the front to pull Van Dijk or Jacquet out of the line. Iraola's own side barely needs choosing after Ipswich, the one live question whether Gravenberch returns to a pivot Mac Allister has held. The press that lasted half an hour at Portman Road will be asked to last against better players. Anfield, on a European night, has always helped it."
   },
   {
     n: "03",
-    headline: "Nine And Nine At The Top, Five Sides On Five Below.",
-    byline: "ESPN / NBC Sports",
-    dateline: "Emirates Stadium · 6 September",
-    category: "Race for Europe",
+    headline: "A Treatment Room The Closed Window Cannot Empty.",
+    byline: "DaveOCKOP / This Is Anfield",
+    dateline: "AXA Training Centre · 7 September",
+    category: "Injuries",
     body:
-      "Liverpool did not play on Sunday and still watched their week change. Morgan Rogers volleyed Chelsea ahead after 77 seconds at the Emirates; Kai Havertz, against his old club for the third time in the league, equalised midway through the half and then sold the dummy that opened the box for Martin Odegaard's winner on 50 minutes. Arsenal join Manchester City on nine, both perfect; Chelsea fall to fourth on six, still a point above the Reds. At the Hill Dickinson Stadium, Ainsley Maitland-Niles thrashed in a 96th-minute equaliser on his Everton debut to deny Manchester United, and that 2-2 made it five sides on five points, Brentford, Liverpool, Newcastle, Everton and Leeds, separated by goal difference alone. Sixth, unbeaten, and one goal from fifth: the table's verdict on August is that nothing has been decided, which is the most a slow start can ask."
+      "The list did not move over the weekend, which is its own kind of news when nothing can be bought until January. Joe Gomez is back in team training this week, the nearest of the absent, but is expected to watch Atletico from the stand with Fulham the first realistic return. Behind him the queue is unchanged: Ekitike and his ruptured Achilles with no date, Bradley's knee likewise, Leoni and Chiesa pencilled to rejoin the group during the international break. Chiesa and Endo were left off the 25-man European squad, so Wednesday's bench is two names shorter than Saturday's will be. Isak leads a forward line two men deep. The rotation Iraola built for three games in seven days must run through the bodies he has, because there are no others coming."
   },
   {
     n: "04",
-    headline: "Every Three Days.",
-    byline: "Liverpool FC / Liverpool.com",
-    dateline: "AXA Training Centre · 6 September",
-    category: "Football News",
-    body:
-      "Milos Kerkez gave the club website the week in a sentence on Sunday: 'We're happy but we can't celebrate too much, now games come every three days and it's onto the next.' The next is Atletico on Wednesday, then Fulham on Saturday, then Tottenham in the cup on the Tuesday after, three home games across three competitions in seven days. The left-back's account of Friday was of a press that can be sustained for 'the first 30 to 35 minutes' before the game becomes about staying compact, which is a fair description of how a 2-0 was held. Beside him Jeremy Jacquet played his first full ninety of the season, and Iraola admitted to a second-half doubt he chose to ignore: 'I think he has to suffer and go through those periods.' The manager let him. He finished."
-  },
-  {
-    n: "05",
-    headline: "A Fourth Sporting Director In As Many Years.",
-    byline: "Empire of the Kop / The Athletic",
+    headline: "The Search, And The Owners Who Ordered It.",
+    byline: "The Athletic / Bloomberg",
     dateline: "Anfield · 6 September",
     category: "Football News",
     body:
-      "Count the appointments and the search acquires a different weight. Michael Edwards in 2022, Julian Ward in 2023, Jorg Schmadtke in 2024, Richard Hughes now: whoever Mike Gordon picks will be Liverpool's fourth sporting director in as many years, and Empire of the Kop's Sunday reading of The Athletic's three internal names, Ward, David Woodfine and Pedro Marques, is that continuity is being sought because the alternative has been a revolving door. Hughes leaves a ledger that will take seasons to read: almost £700m spent across two summers, three £100m-plus signings in Wirtz, Isak and Barcola, extensions for Van Dijk, Gravenberch and Szoboszlai, and the two positions the crowd wanted filled, right-back and defensive midfield, left open. The Athletic called his exit 'the worst-kept secret in football'. The next one, the club would like, should be no secret at all."
+      "Richard Hughes stepped down on Saturday, Al-Hilal his expected destination, and the vacancy sits above a club whose ownership shifted three weeks earlier. In August Fenway Sports Group sold a minority stake of roughly thirty per cent to a consortium fronted by K5 Sports with Jeff Bezos as lead investor, the Mittal trusts and EE Capital alongside; FSG kept control, but the money changed the room. Whoever Mike Gordon appoints, the internal names are Julian Ward, David Woodfine and Pedro Marques, will be the fourth sporting director in four years, and the first to work under the new investors. Hughes leaves almost £700m spent and the two positions the Kop wanted, specialist right-back and a defensive midfielder, still open. Continuity is the stated aim. It has not, lately, been the record."
+  },
+  {
+    n: "05",
+    headline: "Two Perfect Records, And A Knot Of Five.",
+    byline: "ESPN / NBC Sports",
+    dateline: "Merseyside · 6 September",
+    category: "Race for Europe",
+    body:
+      "Nothing beneath Liverpool moved on Monday because nothing beneath them was played; the table is the one the weekend left, and it is instructive. Manchester City and Arsenal are both perfect on nine, the champions and the side that beat Chelsea already four clear of the chasing pack after three rounds. Below them a single knot: Brentford, Liverpool, Newcastle, Everton and Leeds, all on five, separated by goal difference and, in Newcastle's case, by goals scored alone. Liverpool are sixth of the five, unbeaten, a point back of the Champions League places and a goal off fifth. It is early enough that the arithmetic is almost meaningless and late enough that a fan can already see the shape of the fight: not for the title, most likely, but for the European line the middle of this division is going to spend the winter contesting."
   },
 ];
 
 export const NEWS_DIGEST = {
-  generatedAt: "2026-09-06T22:45:00Z",
+  generatedAt: "2026-09-07T09:00:00Z",
   summary:
-    "Sunday evening, three days from Anfield's first European night under Andoni Iraola, and it is the opponent who may change shape: after Saturday's 3-0 in Bilbao, El Desmarque reports that Diego Simeone is weighing a back three for Wednesday, Cristian Romero, who debuted at San Mames, coming in, Alex Grimaldo dropped or pushed to wing-back, with Alexander Sorloth carrying a muscle contracture and Arnau Ortiz suspended; Simeone has not won at Anfield since March 2020. At the other end of the pitch the right-back question found a new name, Dani Carvajal, a free agent since his Real Madrid deal expired on 1 July and therefore signable with the window shut, floated on TNT Sports by Joleon Lescott and picked up on Sunday by Caught Offside and Liverpool.com, though no journalist has advanced it past a pundit's aside. The table moved beneath an idle Liverpool: Arsenal beat Chelsea 2-1 at the Emirates to join Manchester City on nine, Everton's stoppage-time 2-2 with Manchester United put a fifth side on five points, and the Reds stay sixth on goal difference. Milos Kerkez's Sunday verdict on Ipswich was that 'now games come every three days', which is the week ahead in a sentence: Atletico, Fulham and Tottenham at Anfield inside seven days. The sporting director's chair stays open, Ward, Woodfine and Marques the internal names, no appointment made.",
+    "Monday morning, two days from Anfield's first European night of the season, and the visitors travel under a cloud of their own making: Diego Simeone has taken the blame for Atletico's 3-0 defeat at Athletic Bilbao, a result he called deserved and said was lost 'in five minutes' after the break, and the question of Julian Alvarez, whistled again by his own supporters on his return from illness, is one he has carried unanswered into the week. Andoni Iraola prepares for a first Champions League night as Liverpool manager, a fixture he has called special, with a settled side after Friday's 2-0 at Ipswich and only the opposition's shape in doubt: El Desmarque still reports Simeone weighing a back three, Cristian Romero in, Alex Grimaldo dropped or pushed wide. The Premier League table sat still over an idle weekend for the Reds, who stay sixth and unbeaten, one of five sides on five points and four behind the two perfect records of Manchester City and Arsenal. The injury room has not moved either: Joe Gomez rejoins team training this week but remains a doubt for Wednesday, Fulham on Saturday the more realistic return, while Ekitike, Bradley, Leoni and Chiesa stay out and Chiesa and Endo sit outside the 25-man European squad. Three home games in seven days begin with Atletico, and the side to face them cannot be added to until January.",
   keyTopics: [
     {
-      title: "Simeone Weighs A Back Three For Anfield: Romero In, Grimaldo Out Or Wide, After Bilbao Exposed The Defence (El Desmarque / El Gol Digital, today)",
+      title: "Simeone Takes The Blame For Bilbao And Leaves Alvarez A Question: 'We Lost It In Five Minutes' Before Anfield (Liverpool.com / DaveOCKOP, today)",
       detail:
-        "Reported Sunday night: El Desmarque says Saturday's 3-0 at San Mames has put a three-man defence back on Simeone's table for Wednesday's Champions League opener, Cristian Romero, who made his Atletico debut off the bench in Bilbao, joining Marc Pubill and David Hancko, Marcos Llorente on the right, Alex Grimaldo either at left wing-back or dropped, his defensive coverings the most-criticised part of the defeat. Simeone alternates between 4-4-2, 5-3-2 and 3-5-2 as a matter of habit. El Gol Digital notes he has not won at Anfield since March 2020, that Alexander Sorloth carries a muscle contracture, and that the side has seven goals for and six against in four league games.",
+        "Carried into Monday's build-up: Diego Simeone called Atletico's 3-0 defeat at Athletic Bilbao a deserved one and put it on himself, the game 'lost in five minutes' when Nico Williams and Robert Navarro struck within three of the restart, per Liverpool.com. Two days from the Champions League opener he has still not settled the Julian Alvarez question, the forward whistled again by his own supporters on his return from illness at San Mames; DaveOCKOP's Monday update has Simeone addressing the striker's standing rather than confirming him. Alexander Sorloth's muscle contracture and Arnau Ortiz's suspension are the firmer absences. The visitors arrive at Anfield the more unsettled of the two teams.",
+      category: "matches",
+    },
+    {
+      title: "A First European Night As Liverpool Manager: Iraola Calls The Champions League Opener 'Special' (Liverpool FC / Liverpool.com, today)",
+      detail:
+        "Framed on Monday ahead of Tuesday's pre-match press conference: Andoni Iraola, who described leading Liverpool out in the Champions League as 'special' and 'an honour for me and my staff' when the draw was made, reaches his first European night at Anfield on Wednesday off the back of a first win, Friday's 2-0 at Ipswich. The side that started at Portman Road is fit and, by Iraola's own reckoning, settling into his pressing style; the only open selection question is whether Gravenberch returns to the pivot for a game with a different rhythm. Atletico, beaten in Bilbao, are the first of three home fixtures in seven days.",
+      category: "general",
+    },
+    {
+      title: "El Desmarque Holds The Line On A Back Three: Romero In, Grimaldo Wide Or Out, To Meet Anfield's Width (El Desmarque / El Gol Digital, today)",
+      detail:
+        "Still standing on Monday: El Desmarque's report that Saturday's collapse has put a three-man defence back on Simeone's table for Wednesday, Cristian Romero, a debutant off the bench in Bilbao, alongside Marc Pubill and David Hancko, Marcos Llorente right, Alex Grimaldo pushed to left wing-back or left out, his defensive coverings the most-picked-over part of the defeat. Simeone has alternated 4-4-2, 5-3-2 and 3-5-2 for years. The variant trades a wide runner for a spare centre-back and asks Liverpool's full-backs to defend the overlap; either way the pattern that threatens is Baena dropping to pull a centre-back out. He has not won at Anfield since March 2020.",
       category: "tactics",
     },
     {
-      title: "Carvajal, Free Agent, Floated For Liverpool's Right-Back Gap: A Pundit's Aside, Not Yet A Negotiation (Caught Offside / Liverpool.com / Anfield Index, today)",
+      title: "Araujo, Not A Free Agent, Is Iraola's Answer At Right-Back For Europe After A 7.7 At Ipswich (FourFourTwo / Liverpool.com, today)",
       detail:
-        "Surfaced overnight into Sunday: Joleon Lescott, on TNT Sports, said 'there's talk of Liverpool' for Dani Carvajal, the 34-year-old right-back whose Real Madrid contract expired on 1 July, and David Ornstein alongside him did not demur. As a free agent Carvajal can sign outside the window, which is the whole reason the line has legs; Caught Offside notes Liverpool tried and failed to take Malo Gusto on loan before the deadline. Liverpool.com framed it as a theory ahead of January rather than a live talk, and no transfer journalist has reported contact. Six Champions League medals, 96 appearances in the competition, and a fitness record that has been the story of his last two years.",
-      category: "transfers",
+        "The reading that firmed over the weekend and holds into Monday: Ronald Araujo's first Liverpool start, at right-back rather than centre-half, brought a FotMob 7.7 and nine duels won from ten, and FourFourTwo frames Friday as Iraola settling his Champions League right-back rather than rotating one. Frimpong, fit and unused, keeps the case for his pace against Atletico's Lookman if Simeone stays with a four. The Dani Carvajal free-agent line that surfaced on TNT stays a pundit's aside, unadvanced by any transfer reporter, and belongs to January if it belongs anywhere; the position's real depth question is whether Gomez, back in training this week, gives a third senior body by Fulham.",
+      category: "tactics",
     },
     {
-      title: "Arsenal 2-1 Chelsea And Everton 2-2 United: Two Perfect Sides On Nine, Five Sides On Five, Liverpool Still Sixth (ESPN / NBC Sports, today)",
+      title: "The Table Holds Over An Idle Weekend: Two Perfect Sides On Nine, Five On Five, Liverpool Sixth (ESPN / NBC Sports, today)",
       detail:
-        "Played Sunday: Morgan Rogers volleyed Chelsea ahead after 77 seconds at the Emirates, Kai Havertz equalised midway through the half and dummied for Martin Odegaard's 50th-minute winner, so Arsenal join Manchester City on nine and Chelsea drop to fourth on six, a point above Liverpool. At the Hill Dickinson Stadium, Ainsley Maitland-Niles scored a 96th-minute equaliser on his Everton debut in a 2-2 with Manchester United, Mbeumo and Sesko having twice put the visitors ahead, which leaves Brentford, Liverpool, Newcastle, Everton and Leeds all on five, split only by goal difference. Every side has now played three.",
+        "Unchanged into Monday of a Champions League week: with no Premier League game for Liverpool since Friday, the table the Reds sit in is the one Sunday left, Manchester City and Arsenal both perfect on nine after Arsenal's 2-1 over Chelsea, and Brentford, Liverpool, Newcastle, Everton and Leeds all on five, separated by goal difference alone, Liverpool sixth on plus two. Everton's 96th-minute equaliser against Manchester United on debutant Ainsley Maitland-Niles drew the fifth side level. The next league test is Fulham, nineteenth and pointless, at Anfield on the 12th; the European line runs straight through the five-point knot.",
       category: "matches",
     },
     {
-      title: "Kerkez: 'Now Games Come Every Three Days', And Three Of Them Are At Anfield Inside A Week (Liverpool FC, today)",
+      title: "The Injury Room Stands Still Two Days Out: Gomez Trains But Doubts Wednesday, Four Others Out, Two Ineligible (DaveOCKOP / Liverpool FC, today)",
       detail:
-        "Published Sunday: Milos Kerkez told the club website the press Liverpool ran at Ipswich can be sustained 'for the first 30 to 35 minutes' before the game turns on staying compact, praised the defending of crosses and set pieces in a first clean sheet, and said Iraola's style is starting to show, 'everyone felt better on the pitch'. He then set the terms of the week: 'We can't celebrate too much, now games come every three days and it's onto the next.' Atletico on Wednesday, Fulham on Saturday and Tottenham in the Carabao Cup the following Tuesday are three home games across three competitions in seven days.",
-      category: "general",
-    },
-    {
-      title: "The Fourth Sporting Director In Four Years: Ward, Woodfine And Marques The Names, Continuity The Stated Aim (Empire of the Kop / The Athletic, today)",
-      detail:
-        "Written up Sunday afternoon: Empire of the Kop's reading of The Athletic's report is that Liverpool 'are expected to look at internal candidates' but 'are not ruling out a new appointment', with Julian Ward, David Woodfine and Pedro Marques the three named, and that whoever is chosen becomes the club's fourth sporting director in as many years after Edwards (2022), Ward (2023), Schmadtke (2024) and Hughes. Hughes's two-year ledger is set out beside the search: almost £700m across two windows, three £100m-plus signings, extensions for Van Dijk, Gravenberch and Szoboszlai, and no right-back or defensive midfielder signed this summer. Gregg Evans called the exit 'the worst-kept secret in football'. No appointment has been made.",
-      category: "general",
-    },
-    {
-      title: "Futre To Alvarez, 'Forgiveness Is Not With Words, It Is With Goals'; Sorloth A Doubt With A Contracture (El Gol Digital / Fútbol Mundial, today)",
-      detail:
-        "Carried into Sunday from Bilbao: Paulo Futre used a social video to tell Julian Alvarez that 'el perdon no es con palabras, es con goles' after the striker, who tried to leave for Barcelona in the summer, returned from illness as a substitute at San Mames, was whistled by Atletico's own supporters and managed one saved shot; El Gol Digital reports Simeone decides this week whether the episode has consequences for his place. Alexander Sorloth, meanwhile, is nursing a muscle contracture, and Fútbol Mundial notes Alvarez has still not scored this season. Atletico's front line arrives at Anfield unsettled in a way its defence, for once, is not the only story.",
-      category: "matches",
-    },
-    {
-      title: "The Injury List Does Not Move: Gomez Aimed At Fulham, Chiesa And Endo Ineligible In Europe, Jaros Out Until Late 2026 (DaveOCKOP / This Is Anfield, today)",
-      detail:
-        "Set out Sunday morning: DaveOCKOP counts six Liverpool absentees for Wednesday, Bradley (knee) and Ekitike (Achilles) beyond the international break per Iraola's 3 September round-up, Leoni (ACL) targeting group training during it, Chiesa (muscle) likewise, Gomez rejoining team training after Ipswich and 'a significant doubt' for Atletico with Fulham the realistic aim, and goalkeeper Vitezslav Jaros not expected back from knee surgery until late in the year. Chiesa and Endo are also outside the 25-man Champions League squad. For Atletico the confirmed concerns are Sorloth's muscle problem and Arnau Ortiz's suspension after a second yellow card.",
+        "Confirmed unchanged on Monday: Joe Gomez rejoins team training this week but is expected to miss the Atletico opener, Fulham on the 12th his first realistic matchday, per Iraola's timetable and DaveOCKOP's count. Ekitike (Achilles) and Bradley (knee) have no return date, Leoni (ACL) and Chiesa (muscle) are set to rejoin group training during the September international break, and Chiesa and Endo were left off the 25-man Champions League squad, so the European bench is two names shorter than the league's. No new injury emerged from the weekend. For the visitors, Ortiz is suspended and Sorloth a doubt with a contracture.",
       category: "injuries",
     },
     {
-      title: "'He Has To Suffer': Iraola Explains Why He Left Jacquet On For A First Full Ninety (Liverpool.com / Yahoo, yesterday)",
+      title: "Isak Arrives At His First Anfield European Night Three-For-Three, Ekitike Still Without A Date Behind Him (Sky Sports / Opta via Sports Mole, today)",
       detail:
-        "Reported Saturday: Iraola said he had 'a moment in the second half when I had a doubt' about Jeremy Jacquet at Portman Road, the 21-year-old booked on 52 minutes and lucky not to see a second yellow soon after, but decided 'he has to suffer and go through those periods' after the centre-back had failed to finish either of the first two league games. 'For any centre-back to play alongside Virgil is a lesson and a masterclass,' he added. Jacquet is still rebuilding from the shoulder surgery that ended his Rennes season; Wednesday, with Baena dropping between the lines, is the next test of the fitness the manager is deliberately stretching.",
-      category: "tactics",
-    },
-    {
-      title: "'He Owes Me A Few Now': Gakpo On Three Assists For Isak's Three Goals, And 'Beautiful Things Ahead' (Liverpool FC / Sky Sports, yesterday)",
-      detail:
-        "Published Saturday: Cody Gakpo told Sky Sports that Isak 'owes me a few assists now' after two forward passes made both goals at Ipswich, the third time in three league games the Dutchman has set up the Swede. 'Hopefully we can assist each other many times,' he said, and of the season under Iraola, 'hopefully beautiful things ahead, we had a good pre-season together and we have to build on that.' With Ekitike given no date, the pair remain most of the forward line until January, and the week asks them to do it three times in seven days.",
+        "The number the week leans on: Alexander Isak has scored in each of his three league games, his double at Ipswich taking him level with his entire 2025-26 return, and Cody Gakpo has supplied all three, four goal involvements that per Opta only Salah has bettered through a Liverpool opening three this century. Isak's own line after Portman Road, that 'it's still early, we still have a lot to learn', frames a forward line that is two men deep with Ekitike given no timeframe. Wednesday is his first Champions League night at Anfield, the first of three games in seven days that will ask whether one striker can start them all.",
       category: "matches",
     },
     {
-      title: "Loan Watch: Morrison Forces An Own Goal And Sets Up The Winner As Sheffield Wednesday Win At Peterborough (Liverpool FC / This Is Anfield, yesterday)",
+      title: "The Sporting Director's Chair Stays Open: Ward, Woodfine And Marques The Internal Names, No Appointment Yet (The Athletic / Empire of the Kop, yesterday)",
       detail:
-        "Reported Saturday evening: Kieran Morrison was involved in both goals as Sheffield Wednesday won 2-1 at Peterborough in League One, his dinked finish forcing Josh Feeney's own goal in the first half and his near-post corner headed in by Yan Valery for the winner after the hosts had levelled. The 19-year-old attacker, on a season-long loan, has two assists in five for the Owls. It is the kind of item a squad closed until January reads more carefully than it used to.",
+        "Reported over the weekend and unmoved on Monday: The Athletic's three internal candidates to succeed Richard Hughes, who stepped down on Saturday and is expected at Al-Hilal, are Julian Ward, David Woodfine and Pedro Marques, with Mike Gordon leading a search the club would like to keep in-house though it has not ruled out a new appointment. Whoever is chosen becomes Liverpool's fourth sporting director in four years. Hughes leaves almost £700m spent across two windows and the two positions the crowd wanted, specialist right-back and defensive midfield, unfilled. No successor has been named.",
+      category: "general",
+    },
+    {
+      title: "The Window Is Shut But The Ownership Story Is Not: FSG's Minority Sale To A Bezos-Backed Consortium Sits In The Background (Liverpool FC / Bloomberg, background)",
+      detail:
+        "Not new this week but the largest fact underneath the season: Fenway Sports Group's strategic minority sale, announced on 14 August, brought a consortium including K5 Sports with Jeff Bezos as lead investor, the Mittal family trusts and EE Capital into a roughly 30 per cent stake, with FSG keeping majority ownership and operational control. The money is framed around long-term growth on and off the pitch rather than the transfer market, which stayed Hughes's brief until Saturday. It is the context in which a fourth sporting director will be appointed, and the reason the search is being watched beyond Anfield.",
       category: "general",
     },
   ],
   sources: [
+    "Liverpool.com",
+    "DaveOCKOP",
+    "Liverpool FC",
     "El Desmarque",
     "El Gol Digital",
-    "Caught Offside",
-    "Liverpool.com",
-    "Anfield Index",
+    "FourFourTwo",
     "ESPN",
     "NBC Sports",
-    "Liverpool FC",
     "Sky Sports",
-    "Empire of the Kop",
+    "Sports Mole",
     "The Athletic",
-    "Yahoo",
-    "Fútbol Mundial",
-    "This Is Anfield",
-    "DaveOCKOP",
+    "Empire of the Kop",
+    "Bloomberg",
   ],
 };
 
@@ -670,7 +667,7 @@ export const NEWS_DIGEST = {
 // next edition and then into the auditor's blind spot.
 
 export const OPPOSITION = {
-  generatedAt: "2026-09-06T22:45:00Z",
+  generatedAt: "2026-09-07T09:00:00Z",
   opponent: "Atlético Madrid",
   shortName: "ATM",
   fixture: {
@@ -684,7 +681,7 @@ export const OPPOSITION = {
   formation: "4-4-2",
   leaguePosition: 4,
   summary:
-    "The shape may change before the opponent does. El Desmarque reported on Sunday night that Simeone is considering a back three at Anfield after Saturday's 3-0 at Athletic Bilbao, Cristian Romero, who made his Atletico debut from the bench at San Mames, alongside Marc Pubill and David Hancko, Marcos Llorente on the right and Alex Grimaldo either pushed to left wing-back or left out, his defensive coverings the part of Bilbao most picked over. The defeat itself was a game of two halves in the literal sense: Atletico were the better side before the break, Lee Kang-in hitting the post in the third minute and Pablo Barrios the woodwork, then conceded to Nico Williams in the 46th and Robert Navarro in the 48th before Oihan Sancet finished it in the 90th; 'in the second half we lost the match in just five minutes,' Simeone said. Julian Alvarez, back from illness as a substitute and whistled by his own travelling support, produced one saved shot and drew from his manager only 'Are you really asking this question?'; Paulo Futre has since told him publicly that forgiveness comes with goals, not words, and El Gol Digital reports Simeone decides this week whether the episode costs him his place. Alexander Sorloth carries a muscle contracture, Arnau Ortiz is suspended, and Jonathan David, the late loan from Juventus, missed Bilbao with a cervical contracture. They are fourth in La Liga on seven from four, with seven scored and six conceded, and Simeone has not won at Anfield since March 2020; last September's meeting here finished 3-2 to Liverpool, Llorente scoring twice and Van Dijk heading the winner in the 92nd minute.",
+    "They arrive with their manager taking the blame, which is not his habit. Simeone called Saturday's 3-0 at Athletic Bilbao a deserved defeat and put it on himself, 'we lost the match in just five minutes' after the break, and two days out from Anfield the mood is the story as much as the shape. The defeat was a game of two literal halves: Atletico the better side before the interval, Lee Kang-in hitting the post in the third minute and Pablo Barrios the woodwork, then Nico Williams in the 46th and Robert Navarro in the 48th before Oihan Sancet finished it in the 90th. El Desmarque still reports Simeone weighing a back three for Wednesday, Cristian Romero, a debutant off the bench at San Mames, alongside Marc Pubill and David Hancko, Marcos Llorente right and Alex Grimaldo pushed to left wing-back or left out, his defensive coverings the part of Bilbao most picked over. Julian Alvarez, whistled by his own travelling support on his return from illness, remains a question the manager has carried unanswered into the week; Paulo Futre told him publicly that forgiveness comes with goals, not words. Alexander Sorloth carries a muscle contracture, Arnau Ortiz is suspended, and Jonathan David, the late loan from Juventus, missed Bilbao with a cervical contracture. They are fourth in La Liga on seven from four, with seven scored and six conceded, and Simeone has not won at Anfield since March 2020; last September's meeting here finished 3-2 to Liverpool, Llorente scoring twice and Van Dijk heading the winner in the 92nd minute.",
   shape:
     "On paper a 4-4-2 that becomes a 4-2-4 without the ball and pinches narrow with it: Barrios and Hjulmand the pivot, Giuliano Simeone and Lookman wide, Lee Kang-in and Baena a front two in name only, Baena dropping between the lines and into a false nine. The Sunday reporting adds a second sheet: a 5-3-2 or 3-5-2 with Romero, Pubill and Hancko across the back, Llorente and Grimaldo as the wing-backs, which trades one of the wide runners for a spare centre-back and asks Liverpool's full-backs to defend the overlap rather than the winger. Either way the pattern that hurts is the same, Baena pulling a centre-back out and a runner going through the gap he leaves.",
   keyPlayers: [
@@ -729,17 +726,17 @@ export const OPPOSITION = {
     { date: "2026-08-19", opponent: "Málaga", home: true, score: "2-0", result: "W", note: "Lee Kang-in on debut and Baena, both in the second half, in the season opener." },
   ],
   liverpoolAngle:
-    "Prepare for two teams. If Simeone keeps the four, Wednesday is the game the right-back pick was made for: Lookman running at Araujo's strength or Frimpong's pace, Grimaldo overlapping Kerkez on the other side, and Baena dropping to pull Van Dijk or Jacquet out of the line. If he goes to three, the wide runners thin out, the wing-backs become the width, and the danger moves inside, where Liverpool's own record is worst: nine fast-break goals conceded since last August, the most in the Premier League per Opta, and both Newcastle goals from counters. Bilbao's lesson still applies in either shape. Atletico controlled the first half and lost the match in five minutes of the second, which is the ninety-minute version of what Liverpool have done to themselves all season, starting slowly in August and then, at Ipswich, starting fast and holding. FotMob had Ipswich ahead on pre-shot expected goals, 0.73 to 0.66, and Sofascore's post-shot model reversed it, 1.70 to 0.47; the finishing is what has separated Liverpool from a worse table, and Alisson, past Elisha Scott on Friday, is the other reason. Kerkez's own reading, that the press lasts thirty-five minutes before the game becomes about compactness, is the honest frame for a side that has led for eighty-four minutes all season. Sorloth's contracture and Alvarez's standing leave Atletico's front line the more unsettled of the two; Liverpool's is Isak and Gakpo and, per Gakpo, a debt of assists. The predicted XI stays the Sevilla side pending a named team-news preview; the back-three variant is reported, not confirmed. Ortiz is suspended; David and Sorloth are doubts.",
+    "A wounded, self-critical Atletico is not the same as a beaten one, and Liverpool must plan for two versions of it. If Simeone keeps the four, Wednesday is the game the right-back pick was made for: Lookman running at Araujo's strength or Frimpong's pace, Grimaldo overlapping Kerkez on the other side, and Baena dropping to pull Van Dijk or Jacquet out of the line. If he goes to three, the wide runners thin out, the wing-backs become the width, and the danger moves inside, where Liverpool's own record is worst: nine fast-break goals conceded since last August, the most in the Premier League per Opta, and both Newcastle goals from counters. Bilbao's lesson still applies in either shape. Atletico controlled the first half and lost the match in five minutes of the second, which is the ninety-minute version of what Liverpool have done to themselves all season, starting slowly in August and then, at Ipswich, starting fast and holding. FotMob had Ipswich ahead on pre-shot expected goals, 0.73 to 0.66, and Sofascore's post-shot model reversed it, 1.70 to 0.47; the finishing is what has separated Liverpool from a worse table, and Alisson, past Elisha Scott on Friday, is the other reason. Kerkez's own reading, that the press lasts thirty-five minutes before the game becomes about compactness, is the honest frame for a side that has led for eighty-four minutes all season. Sorloth's contracture and Alvarez's standing leave Atletico's front line the more unsettled of the two; Liverpool's is Isak and Gakpo and, per Gakpo, a debt of assists. The predicted XI stays the Sevilla side pending a named team-news preview; the back-three variant is reported, not confirmed. Ortiz is suspended; David and Sorloth are doubts.",
   modelLine: null,
   sources: ["El Desmarque", "El Gol Digital", "AFP", "Get Spanish Football News", "Fútbol Mundial", "COPE", "Football Espana", "MARCA", "ESPN", "DaveOCKOP", "Liverpool FC", "TNT Sports", "FotMob", "Sofascore", "Opta Analyst"],
 };
 
 export const FORM_TRENDS = {
-  generatedAt: "2026-09-06T22:45:00Z",
+  generatedAt: "2026-09-07T09:00:00Z",
   competition: "PL",
   played: 3,
   headline:
-    "Eighty-four minutes: that is how long Liverpool have led for across three league games, all of it at Portman Road, and it is the number the underlying figures keep circling. FotMob's pre-shot model had Ipswich ahead, 0.73 to 0.66 on 14 shots to 10; Sofascore's post-shot model had Liverpool 1.70 to 0.47; the difference is Isak putting two shots worth 0.21 of expected goals into the corners. Across the three games the mixed-source total reads 5.00 expected goals for and 4.46 against, six scored and four conceded, and the pattern is one game dominated and drawn, one out-created and drawn, one out-created and won. Kerkez's Sunday account, that the press holds 'for the first 30 to 35 minutes' and the rest is compactness, is a player describing what the numbers show: a side that can seize a game early and has not yet controlled one late. Atletico, who controlled a first half in Bilbao and lost the match in five minutes of the second, are the mirror image, and Opta Analyst's Ipswich figures, still unpublished, would settle which model to believe.",
+    "Two models still cannot agree on the win. FotMob's pre-shot expected goals had Ipswich ahead at Portman Road, 0.73 to 0.66 on 14 shots to 10, while Sofascore's post-shot model gave Liverpool 1.70 to 0.47, the whole gap almost exactly where Isak put his two shots. Across three league games the mixed-source total reads 5.00 expected goals for and 4.46 against, six scored and four conceded, one game dominated and drawn, one out-created and drawn, one out-created and won. Liverpool have led for eighty-four minutes all season and every one of them came on Friday, which is the shape of a side that can seize a game early and has not yet controlled one late. Atletico, who were the better team for a half in Bilbao and then lost the match in five minutes of the second, are the mirror image walking into Anfield. Opta's match tools are now on the club site but publish no single expected-goals figure to quote, so FotMob's and Sofascore's stand.",
   diagnosis: [
     {
       label: "The start, solved for a night",
@@ -779,8 +776,8 @@ export const FORM_TRENDS = {
       xgFirstHalfAgainst: null,
       shotsFor: 10,
       pending: true,
-      verdict: "Won on two Isak shots in the sixth and ninth minutes, both from Gakpo through-balls, then held. Out-created across the ninety on FotMob's pre-shot figures, 0.73 to 0.66, 14 shots to 10, though Liverpool had seven on target to five; Sofascore's post-shot model reverses it, 1.70 expected goals on target to 0.47, with 59 per cent possession, Isak at 0.21 xG and 0.33 xGOT for his two goals and Gakpo at 0.40 expected assists. A first lead and a first clean sheet of the season. Opta Analyst's match figures are still not published and will replace FotMob's when they are; first-half splits are not available.",
-      source: "FotMob via SI / Sofascore",
+      verdict: "Won on two Isak shots in the sixth and ninth minutes, both from Gakpo through-balls, then held. Out-created across the ninety on FotMob's pre-shot figures, 0.73 to 0.66, 14 shots to 10, though Liverpool had seven on target to five; Sofascore's post-shot model reverses it, 1.70 expected goals on target to 0.47, with 59 per cent possession, Isak at 0.21 xG and 0.33 xGOT for his two goals and Gakpo at 0.40 expected assists. A first lead and a first clean sheet of the season. Opta's match tools are now published on the club site but give no single expected-goals figure to quote, so the FotMob and Sofascore numbers stand; first-half splits are not available.",
+      source: "FotMob via SI / Sofascore / Liverpool FC (Opta tools)",
     },
     {
       date: "2026-08-29",
@@ -822,9 +819,9 @@ export const FORM_TRENDS = {
     note: "Mixed-source totals: xG for is 2.73 (Newcastle, Opta) plus 1.61 (Forest, Opta) plus 0.66 (Ipswich, FotMob); xG against is 1.43 plus 2.30 (Opta) plus 0.73 (FotMob). The Ipswich figures will be swapped for Opta Analyst's when published. First-half splits exist only for the Forest match and are not aggregated.",
   },
   optaFacts: [
-    "Liverpool have led for 84 minutes of the 270-plus played in the league this season, all of them at Portman Road from Isak's sixth-minute goal to the whistle; in both August games the first goal was the opponent's.",
-    "Gakpo has assisted all three of Isak's league goals, and his four goal involvements through three games are the most by a Liverpool player at that stage this century bar Salah's six, per Opta via Sports Mole; on Sunday he told Sky Sports the striker 'owes me a few assists now'.",
-    "Two models, two winners: FotMob's pre-shot expected goals gave Ipswich the edge, 0.73 to 0.66, and Sofascore's post-shot model gave Liverpool 1.70 to 0.47. The 1.04 gap on Liverpool's side is almost entirely where Isak's two shots went.",
+    "Gakpo has now supplied all three of Isak's league goals, four goal involvements through three games that per Opta via Sports Mole only Salah, with six, has bettered by a Liverpool player at that stage this century.",
+    "Isak has scored in each of his three league games, and his double at Ipswich took him level with his entire 2025-26 return; two shots on Friday, both scored, from 0.21 of expected goals per Sofascore.",
+    "Liverpool have led for 84 minutes of the 270-plus played in the league this season, all of them at Portman Road from Isak's sixth minute to the whistle; in both August games the first goal was the opponent's.",
     "Alisson's clean sheet at Ipswich was his 138th for the club in 336 appearances, per Liverpool FC, one past Elisha Scott and fourth all-time behind Reina (177), Grobbelaar (267) and Clemence (323).",
   ],
   sources: ["FotMob", "Sofascore", "SI", "Sporting News", "Opta Analyst", "Liverpool FC", "ESPN", "Sports Mole", "Sky Sports"],
@@ -832,9 +829,9 @@ export const FORM_TRENDS = {
 
 
 export const SQUAD_LOAD = {
-  generatedAt: "2026-09-06T22:45:00Z",
+  generatedAt: "2026-09-07T09:00:00Z",
   headline:
-    "Three home games in seven days, and a closed squad to play them with: Kerkez put it plainly on Sunday, 'now games come every three days', and the board below is what Iraola has to rotate through Atletico, Fulham and Tottenham, five absentees unchanged, Gomez the only one within reach and aimed at Fulham rather than Wednesday. The one door the shut window left ajar is the free-agent one, and Dani Carvajal's name went through it on Sunday, a pundit's aside on TNT rather than a negotiation, but a reminder that right-back is the position this board cannot fill from within: two fit bodies, Araujo and Frimpong, and nothing specialist behind them until Bradley has a date. The sporting director who would sign him does not yet exist; Ward, Woodfine and Marques run the department while Gordon chooses. Endo and Chiesa are outside the Champions League squad, so the European bench is two names shorter than the league's.",
+    "The squad that opens Europe on Wednesday is the squad that has to close it too: five absentees, none of them back for Atletico, and no market to reach for until January. Joe Gomez is the nearest, in team training this week but expected to wait for Fulham on Saturday; Ekitike and Bradley have no date, Leoni and Chiesa are pointed at the international break. The one position the closed window leaves genuinely thin is right-back, where Araujo's move across from centre-half on Friday gave Iraola a second body and Frimpong the other, with Gomez a notional third once he returns; the Carvajal free-agent line is a pundit's aside, not a plan, and the sporting director who might act on it has not been appointed. Endo and Chiesa are outside the 25-man Champions League squad, so the European bench Iraola rotates through three games in seven days is two names shorter than the league's.",
   minutesNote:
     "Premier League minutes are not published here yet. Three league games have been played and no reliable per-player league minutes have been sourced, so this board tracks availability, starts and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   unavailable: [
@@ -862,14 +859,14 @@ export const SQUAD_LOAD = {
 
 
 export const SEASON_PROJECTION = {
-  generatedAt: "2026-09-06T22:45:00Z",
+  generatedAt: "2026-09-07T09:00:00Z",
   played: 3,
   points: 5,
   pointsPerGame: 1.67,
   projectedPoints: 63,
   projectedFinish: "Europa League places on current pace",
   headline:
-    "The pace did not move on Sunday, 1.67 a game and a projected 63, but the company did: Arsenal's win over Chelsea leaves two perfect sides on nine, and Everton's late point makes it five teams on five, Liverpool sixth among them on goal difference. Three games remain a sample, and the same arithmetic had this side on the survival line on Friday morning. What the next fortnight offers is two league fixtures against the bottom six, Fulham at home and Bournemouth away, either side of the Champions League opener and a cup tie; six points from them is eleven from fifteen and a top-five rhythm into Manchester City on 11 October.",
+    "Five points from three, 1.67 a game and a projected 63, and a fortnight ahead that will bend the number one way or the other. The company is set: two perfect sides on nine, five on five, Liverpool sixth of them on goal difference. Three games is a sample small enough that the same arithmetic read as a survival pace a fortnight ago, so the honest frame is the fixtures rather than the forecast. Fulham at home and Bournemouth away, either side of the Champions League opener and a cup tie, are two league games against the bottom six; six points from them is eleven from fifteen and a top-five rhythm into Manchester City on 11 October.",
   thresholds: [
     { label: "Champions League (top 5)", points: 68, gap: 5, note: "Historical par for fifth place in recent seasons. Requires roughly 1.80 points per game from here." },
     { label: "Europa League", points: 60, gap: 0, note: "Roughly sixth place par, and where the current pace lands. Requires about 1.57 points per game from here." },
