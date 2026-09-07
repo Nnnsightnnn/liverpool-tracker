@@ -484,11 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, and Anfield's first European night of the season is two days
-          off. The visitor arrives bruised: <em>Atletico</em> were beaten 3-0 at
-          Bilbao, Simeone says they lost it in five minutes, and Julian Alvarez
-          is a question he has not yet answered. Liverpool sit sixth, one of five
-          sides on five, unbeaten. Wednesday opens three home games in seven days.
+          Monday evening, and the team news has started arriving from Madrid
+          before it arrives from Kirkby. <em>Atletico</em> come to Anfield on
+          Wednesday without Sorloth and without Ortiz, banned for a red card two
+          years old, while Julian Alvarez trained in the first eleven and stayed
+          behind to run. Three previews start Barcola. Iraola speaks at one on
+          Tuesday; the league table, sixth and unbeaten, waits for Saturday.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,34 +520,36 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and the week has a shape now. Anfield's first Champions League night
-              since the draw was made comes on Wednesday, Atletico Madrid the
-              visitors, and they travel wounded: three goals conceded in five
-              second-half minutes at Bilbao, a manager who called the defeat
-              deserved, a striker still whistled by his own support and still
-              without the promise of a start. Iraola calls it special to lead this
-              club out in Europe; the fixture list calls it the first of three home
-              games in seven days, Atletico then Fulham then Tottenham in the cup.
-              Beneath it the table sat still across an idle weekend for the Reds,
-              Liverpool sixth and unbeaten, one of five sides level on five, two
-              perfect records already pulling clear. Five names stay in the
-              treatment room and the squad cannot be added to until January. The
-              window is shut; the European nights are not.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the eve of the eve, the picture of Wednesday sharpened from the
+              other end. The Spanish papers confirmed what Anfield will not see:
+              Alexander Sorloth, still short of group training, and Arnau Ortiz,
+              serving a one-match ban for two yellow cards collected as a
+              substitute in a Polish club's qualifier in the summer of 2024, his
+              last European appearance until this one he will miss. What Anfield
+              may see instead is Julian Alvarez, whistled by his own people in
+              Bilbao on Saturday and on Monday placed in Simeone's first eleven in
+              training, then left on the grass to run. On this side the day
+              belonged to the previews, and for once they agreed: Barcola to start,
+              Gravenberch to the pivot, Munoz to the bench, with the manager's
+              own caution that his record signing is not yet fully fit hanging
+              over all three. Iraola speaks at one on Tuesday. The table, sixth
+              and unbeaten, cannot move until Saturday; the squad cannot move
+              until January. Between them sits a European night.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is Simeone
-              taking the blame for Bilbao and the striker he will not yet name;
-              Iraola on the eve of a first European night as Liverpool manager; the
-              shape the visitors might bring and the runner it frees; the treatment
-              room the closed window cannot empty; and the fourth sporting director
-              in as many years. Read them in order. The season opened at Newcastle
-              with a 2-2 on the twenty-third of August, found another at Anfield on
-              the twenty-ninth, and won for the first time at Portman Road on Friday;
+              dispatches from the writers who never clock off. There is a ban two
+              years in the post; the striker who stayed behind to run; three
+              previews, one name and a manager's caveat; one goal in thirteen
+              European nights for the man who has scored in every league game;
+              and a goalkeeper in Belgium answering his transfer like a boss. Read
+              them in order. The season opened at Newcastle with a 2-2 on the
+              twenty-third of August, found another at Anfield on the
+              twenty-ninth, and won for the first time at Portman Road on Friday;
               the market is shut until January, save for the men no one owns.
             </p>
           </div>
@@ -3756,7 +3759,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Two days out, and the lights come back."
+        "A ban two years in the post."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
