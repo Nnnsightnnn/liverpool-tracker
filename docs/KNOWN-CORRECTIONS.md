@@ -32,6 +32,8 @@ Everything outside a `forbid:` line is prose for humans and is ignored.
 - forbid: `record he holds was joined at the top` — Barcola's fee is a guaranteed £106m rising to £123m, so it sits **second** on the club's list behind Isak's £125m, it does not join it at the top.
 - forbid: `Arthur Melo` — there is no 2026 Arthur Melo transfer. Every "Liverpool sign Arthur Melo on loan from Juventus, €4.5m loan fee, option to buy €37.5m" article is the **September 2022** story (its own text names Klopp, Jordan Henderson's injury, Thiago and Naby Keita), and it ranks highly for deadline-day queries. In 2026-27 Arthur is on loan at Grêmio. The 1 Sep 2026 morning run led every front-page surface on it; the post-deadline ledgers (Rousing The Kop, ESPN, Sky) list Lucca Brughmans as Liverpool's ONLY deadline-day arrival and no midfielder at all. Corrected in the 1 Sep evening pass. **General lesson, not just this name: a search result with no date visible in the snippet is undated, not current. Before writing any signing as fact, confirm the report names the current manager (Iraola) and current squad-mates; if it names a previous era's staff or players, it is an archive article.**
 
+- forbid: `at Goodison` — Everton left Goodison Park in 2025; home games are at the Hill Dickinson Stadium. Written three times in the 6 Sep evening edition (Everton 2-2 Man United), caught by the staleness auditor.
+
 ## Retired rules
 
 Move an entry here (and delete its `forbid:` line) once the underlying

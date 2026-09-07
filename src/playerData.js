@@ -510,7 +510,7 @@ export const STANDINGS_COMMENTARY = {
     "Brentford": "Fifth on five, above Liverpool by a single goal of difference, plus three to plus two. Host Liverpool on 17 October.",
     "Newcastle": "Seventh on five, level with Liverpool on points and goal difference, behind on goals scored: the tightest pairing in the table.",
     "Everton": "Eighth on five after a 2-2 with Manchester United, Maitland-Niles scoring a 96th-minute equaliser on his debut. Level with Liverpool, one goal worse off.",
-    "Manchester United": "Eleventh on four after letting a 2-1 lead go at Goodison in stoppage time, Mbeumo and Sesko the scorers, Sesko's header two minutes from time.",
+    "Manchester United": "Eleventh on four after letting a 2-1 lead go at the Hill Dickinson Stadium in stoppage time, Mbeumo and Sesko the scorers, Sesko's late second from the bench.",
     "Ipswich": "Fourteenth on three after Friday's 0-2 to Liverpool, seven conceded in two games, level with Palace and behind on goals scored.",
     "Bournemouth": "Fifteenth on two, winless, Liverpool's opponents on Sunday 20 September in the rearranged 2pm fixture.",
     "Tottenham": "Eighteenth on one, in the relegation stripe on goals scored. At Anfield on 15 September in the Carabao Cup, the third of three home games in a week.",
@@ -545,7 +545,7 @@ export const DISPATCHES = [
     dateline: "Emirates Stadium · 6 September",
     category: "Race for Europe",
     body:
-      "Liverpool did not play on Sunday and still watched their week change. Morgan Rogers volleyed Chelsea ahead after 77 seconds at the Emirates; Kai Havertz, against his old club for the third time in the league, equalised midway through the half and then sold the dummy that opened the box for Martin Odegaard's winner on 50 minutes. Arsenal join Manchester City on nine, both perfect; Chelsea fall to fourth on six, still a point above the Reds. At Goodison, Ainsley Maitland-Niles thrashed in a 96th-minute equaliser on his Everton debut to deny Manchester United, and that 2-2 made it five sides on five points, Brentford, Liverpool, Newcastle, Everton and Leeds, separated by goal difference alone. Sixth, unbeaten, and one goal from fifth: the table's verdict on August is that nothing has been decided, which is the most a slow start can ask."
+      "Liverpool did not play on Sunday and still watched their week change. Morgan Rogers volleyed Chelsea ahead after 77 seconds at the Emirates; Kai Havertz, against his old club for the third time in the league, equalised midway through the half and then sold the dummy that opened the box for Martin Odegaard's winner on 50 minutes. Arsenal join Manchester City on nine, both perfect; Chelsea fall to fourth on six, still a point above the Reds. At the Hill Dickinson Stadium, Ainsley Maitland-Niles thrashed in a 96th-minute equaliser on his Everton debut to deny Manchester United, and that 2-2 made it five sides on five points, Brentford, Liverpool, Newcastle, Everton and Leeds, separated by goal difference alone. Sixth, unbeaten, and one goal from fifth: the table's verdict on August is that nothing has been decided, which is the most a slow start can ask."
   },
   {
     n: "04",
@@ -587,7 +587,7 @@ export const NEWS_DIGEST = {
     {
       title: "Arsenal 2-1 Chelsea And Everton 2-2 United: Two Perfect Sides On Nine, Five Sides On Five, Liverpool Still Sixth (ESPN / NBC Sports, today)",
       detail:
-        "Played Sunday: Morgan Rogers volleyed Chelsea ahead after 77 seconds at the Emirates, Kai Havertz equalised midway through the half and dummied for Martin Odegaard's 50th-minute winner, so Arsenal join Manchester City on nine and Chelsea drop to fourth on six, a point above Liverpool. At Goodison, Ainsley Maitland-Niles scored a 96th-minute equaliser on his Everton debut in a 2-2 with Manchester United, Mbeumo and Sesko having twice put the visitors ahead, which leaves Brentford, Liverpool, Newcastle, Everton and Leeds all on five, split only by goal difference. Every side has now played three.",
+        "Played Sunday: Morgan Rogers volleyed Chelsea ahead after 77 seconds at the Emirates, Kai Havertz equalised midway through the half and dummied for Martin Odegaard's 50th-minute winner, so Arsenal join Manchester City on nine and Chelsea drop to fourth on six, a point above Liverpool. At the Hill Dickinson Stadium, Ainsley Maitland-Niles scored a 96th-minute equaliser on his Everton debut in a 2-2 with Manchester United, Mbeumo and Sesko having twice put the visitors ahead, which leaves Brentford, Liverpool, Newcastle, Everton and Leeds all on five, split only by goal difference. Every side has now played three.",
       category: "matches",
     },
     {
