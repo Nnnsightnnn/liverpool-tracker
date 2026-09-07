@@ -20,7 +20,7 @@ export const FORMATIONS = {
       RW:  { x: 82, y: 22, role: "FWD" },
     },
     // IDs from playerData.js. This 4-3-3 is the backup look; the default is the
-    // 4-2-3-1 below. Reviewed Sun Sep 6, XI unchanged from Friday's win, after Ipswich Town 0-2 Liverpool at
+    // 4-2-3-1 below. Reviewed Sun Sep 6 (evening), XI unchanged from Friday's win, after Ipswich Town 0-2 Liverpool at
     // Portman Road (Isak 6', 9', both from Gakpo; Araujo a first start at right-back,
     // Frimpong unused; Barcola's debut from the bench at 64) and pointed at Atletico
     // Madrid at Anfield on Wednesday 9 September, 8pm, the Champions League opener.
@@ -66,7 +66,7 @@ export const FORMATIONS = {
     // The default shape, the 4-2-3-1 Iraola has used in all three league games, now
     // pointed at Atletico Madrid at Anfield on Wednesday 9 September, 8pm, the Champions
     // League opener (Ipswich beaten 2-0 away on Sep 4; Forest drawn 2-2 at Anfield on Aug 29;
-    // Newcastle drawn 2-2 away on Aug 23). Reviewed Sun Sep 6, XI unchanged from Friday's win off the confirmed
+    // Newcastle drawn 2-2 away on Aug 23). Reviewed Sun Sep 6 (evening), XI unchanged from Friday's win off the confirmed
     // Ipswich XI rather than a preview: Alisson behind Araujo, Jacquet, Van Dijk and Kerkez;
     // Szoboszlai and Mac Allister in the pivot as picked; Munoz right, Wirtz central, Gakpo
     // left; Isak alone up top. Frimpong, Gravenberch, Barcola, Nyoni and Koumas are the live
@@ -106,7 +106,7 @@ export const FORMATIONS = {
       RW:  { x: 78, y: 22, role: "FWD" },
     },
     // Hypothetical 3-4-3 alternative, a shape rarely used, shown for completeness.
-    // Reviewed Sun Sep 6, XI unchanged from Friday's win: Araujo is now PLAYERS-keyed (29), so the back three
+    // Reviewed Sun Sep 6 (evening), XI unchanged from Friday's win: Araujo is now PLAYERS-keyed (29), so the back three
     // finally has three natural centre-backs in it, Araujo, Van Dijk and Jacquet, with Endo
     // no longer needed as the makeshift third (and not in the UCL squad anyway). Ndukwe is
     // at Levante; Gomez trains this week; Leoni not with the group until the break. Kerkez
@@ -130,7 +130,7 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS + injuryNote context, reviewed Sun Sep 6, after Ipswich
+// Hand-curated from RESULTS + injuryNote context, reviewed Sun Sep 6 (evening), after Ipswich
 // Town 0-2 Liverpool at Portman Road and three days before Atletico Madrid at Anfield on
 // Wednesday 9 September, 8pm, the Champions League opener. From the Ipswich win: Isak
 // scored in the 6th and 9th minutes, both from Gakpo; Araujo made a first start, at
@@ -179,7 +179,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys. One match into the season these read as confidence that the slot's
 // occupant remains a first-choice starter into 2026-27 — LOW where the player
 // has left (Salah, Robertson, Konate) or whose future is open.
-// (Reviewed Sun Sep 6, XI unchanged from Friday's win. The XI is the confirmed Ipswich side, the first Liverpool
+// (Reviewed Sun Sep 6 (evening), XI unchanged from Friday's win. The XI is the confirmed Ipswich side, the first Liverpool
 // win of the season, carried to Atletico Madrid at Anfield on Wednesday 9 September. The
 // one genuine change from the fortnight's assumptions is right-back: Araujo started there
 // and Frimpong sat, so the department has two available bodies and a live choice. Araujo
@@ -200,14 +200,14 @@ export const SLOT_CONFIDENCE = {
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Sun Sep 6:
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Sun Sep 6, evening:
 // only RB rotated, the other eight carry Friday's match-evidence datelines because no
 // lineup-relevant fact about those slots has changed since Portman Road.
 export const SLOT_RATIONALE = {
-  LB:  "Fri Sep 4 — the tackle that began the season's first lead, and a fourth start in eighteen days coming. Kerkez won the ball around halfway in the sixth minute at Portman Road, found Gakpo, and Isak scored a moment later; SI credited the aggressive defending for the goal and marked him 6.7, the lowest of a back four that kept a first clean sheet. He is first choice by a distance with Robertson gone to Tottenham and Tsimikas unused on the bench. Wednesday brings Grimaldo overlapping and Giuliano Simeone running at him from Atletico's right.",
-  LCB: "Fri Sep 4 — the captain's pass started the second goal, and then he organised eighty-one minutes of holding a lead his side had never had. Van Dijk found Gakpo on the left in the ninth minute; FotMob gave him 7.7 and SI wrote that he looked more comfortable than in weeks. The first clean sheet since April came beside Jacquet with Araujo at right-back rather than behind them, which thins the cover here even as it thickens it there. The deal still runs only to 2027, the Milan interest was knocked back without a bid, and at 35 he is the fixed point, now with a win to build from.",
-  RCB: "Fri Sep 4 — a third league start beside Van Dijk, a first clean sheet, and a yellow card that Ipswich felt should have been two. Jacquet blocked Emersonn midway through the first half, was booked for a reckless challenge early in the second and survived a second foul on the same forward; FotMob's 7.4, SI's 'not thoroughly convincing'. With Araujo now starting at right-back, the twenty-year-old's own reserve is thinner than ever: Gomez trains this week and is likely to miss Wednesday, Leoni is not with the group until the break, Endo is not in the Champions League squad. One injury here and the shape changes.",
-  RB:  "Sun Sep 6 — the question looks answered three days out. Araujo kept a clean sheet on a first Liverpool start at right-back, FotMob's 7.7, nine duels won from ten and the most aerials on the pitch, with Frimpong dropped; FourFourTwo called it a settled Champions League fix and Liverpool.com read it as a message to the summer signing rather than a demotion. The one case for restoring Frimpong is a specific one: Atletico bring Ademola Lookman, quick and cutting in from the left, and the specialist's recovery pace is the natural answer to him. Araujo is drawn here on the strength of that one start; Iraola's Tuesday press conference is where it is confirmed. Bradley no date, Gomez back in training this week, Mabaya the registered academy name.",
+  LB:  "Sun Sep 6, evening — the left-back gave the week its sentence and his own game its shape. 'Now games come every three days and it's onto the next,' Kerkez told the club website on Sunday, adding that the press Liverpool ran at Portman Road can be held 'for the first 30 to 35 minutes' before it becomes about staying compact, and that the understanding with Gakpo in front of him is 'a lot better' this year. On Friday he won the ball in the sixth minute that led to Isak's opener, SI crediting the aggressive defending, and kept a first clean sheet in a back four marked 6.7. First choice by a distance with Robertson gone and Tsimikas unused. Wednesday brings Grimaldo overlapping if Simeone keeps a four, or Grimaldo as a wing-back if he does not.",
+  LCB: "Sun Sep 6, evening — the teacher, in the manager's word. 'For any centre-back to play alongside Virgil is a lesson and a masterclass,' Iraola said on Saturday, explaining why he let Jacquet suffer through a second-half doubt at Ipswich rather than change him. Van Dijk's own Friday began the second goal, his pass to Gakpo in the ninth minute, then eighty-one minutes organising a lead his side had never held this season; FotMob 7.7, SI 'more comfortable than in weeks'. A first clean sheet since April, beside Jacquet with Araujo at right-back rather than behind them, which thins the cover here even as it thickens it there. Deal to 2027, the Milan interest knocked back without a bid, and at 35 the fixed point across three home games in seven days.",
+  RCB: "Sun Sep 6, evening — the manager admitted the doubt and explained why he ignored it. 'There was a moment in the second half when I had a doubt, but I think he has to suffer and go through those periods,' Iraola said of Jacquet, who completed a first full ninety of the season at Ipswich after 69 and 76 minutes in August, booked on 52 and fortunate not to see a second yellow soon after; 'for any centre-back to play alongside Virgil is a lesson and a masterclass.' FotMob 7.4, SI 'not thoroughly convincing', a first clean sheet all the same. With Araujo at right-back the cover behind him is Endo in the league and nobody senior in Europe until Gomez, aimed at Fulham, is back. Baena dropping between the lines is Wednesday's examination.",
+  RB:  "Sun Sep 6, evening — the shirt is Araujo's and a free agent was floated for it anyway. Araujo kept a clean sheet on a first Liverpool start at right-back on Friday, FotMob's 7.7, nine duels won from ten and the most aerials on the pitch, Frimpong dropped; FourFourTwo called it a settled Champions League fix. On Sunday the position's thinness produced a name from outside: Dani Carvajal, free since his Real Madrid deal expired on 1 July and signable outside the window, 'there's talk of Liverpool' per Joleon Lescott on TNT, unadvanced by any journalist and framed by Liverpool.com as a January theory. The Wednesday case for Frimpong is Lookman's pace, and it weakens if Simeone goes to a back three and Lookman to the bench. Araujo is drawn here; Tuesday's press conference confirms it. Bradley no date, Gomez in training this week.",
   LDM: "Fri Sep 4 — the manager kept the pivot the previews had broken up, and it held. Mac Allister started beside Szoboszlai at Portman Road after Yahoo, The 4th Official and Opta had all restored Gravenberch, played 84 minutes of it, tackled well, passed at 85 per cent, and headed a free chance from a corner straight at Scherpen early in the second half; FotMob's 7.5. Gravenberch came on at 64 as Liverpool went to a three to hold 2-0 and was tidy. The Champions League opener, with Baena dropping between the lines, is the obvious place for a change, and Gravenberch is the alternative drawn beside him.",
   RDM: "Fri Sep 4 — a 150th appearance, three shots all on target, two chances created, and a penalty taken back by VAR. Szoboszlai roamed from the pivot at Portman Road, FotMob's 7.6, twice testing Scherpen from range before the break; midway through the second half he was upended by Davis in the box and the review found him offside before the contact. SI's caveat stands: Ipswich lacked open-play threat and he will not get that freedom every week. He was not needed at right-back this time, Araujo having started there. Barrios and Hjulmand are Wednesday's opposite numbers. Contracted to 2031.",
   LAM: "Fri Sep 4 — two assists, the best rating on the pitch, and four days after the move to Manchester City died. Gakpo threaded Isak through in the sixth minute and found him with the outside of the right boot in the ninth, FotMob's 8.9, and has now set up all three of the striker's league goals. He finished the match at centre-forward when Isak came off, with Barcola, bought for this flank, sent on at the other. The Sporting News called the summer's flirtation with selling him 'all the more puzzling'; Iraola said on Thursday he was 'very happy to keep Cody'. Contracted to 2030, and the shirt is his on Wednesday.",
@@ -239,6 +239,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "High",
-  generated_at: "2026-09-06T09:00:00Z",
-  reason: "Sun Sep 6 morning, two days after Ipswich Town 0-2 Liverpool at Portman Road and three days before Atletico Madrid at Anfield on Wednesday 9 September, 8pm, the Champions League opener. No match and no injury since Friday, so the XI is unchanged, the confirmed Ipswich side that gave Iraola his first win: Alisson behind Araujo, Jacquet, Van Dijk and Kerkez; Mac Allister and Szoboszlai in the pivot as he actually picked them; Munoz right, Wirtz the ten, Gakpo left; Isak, three league goals in three, alone up top. Confidence stays high because all eleven started on Friday and came through fit. What is moving is around the team rather than in it: with Richard Hughes gone to Al-Hilal, Julian Ward is the reported front-runner to succeed him as sporting director, and the reporting now reads Friday as Iraola leaning to Araujo at right-back, his nine duels from ten keeping Frimpong out. Right-back stays the one live selection question all the same, resolved only when Atletico's Lookman is on the teamsheet, and Tuesday's press conference is where it is confirmed; the pivot is the second, with Gravenberch the likeliest European recall. The absentee list is unchanged: Ekitike and Bradley with no date, Leoni and Chiesa back with the group during the break, Gomez in team training this week and likely to miss Wednesday. Endo and Chiesa are not in the Champions League squad."
+  generated_at: "2026-09-06T22:45:00Z",
+  reason: "Sun Sep 6 evening, two days after Ipswich Town 0-2 Liverpool at Portman Road and three days before Atletico Madrid at Anfield on Wednesday 9 September, 8pm, the Champions League opener. No match and no injury since Friday, so the XI is unchanged, the confirmed Ipswich side: Alisson behind Araujo, Jacquet, Van Dijk and Kerkez; Mac Allister and Szoboszlai in the pivot as Iraola actually picked them; Munoz right, Wirtz the ten, Gakpo left; Isak, three league goals in three, alone up top. Confidence stays high because all eleven started on Friday and came through fit, and Kerkez said on Sunday the side is settling into the manager's style. What moved on Sunday was the opposition and the calendar: El Desmarque reports Simeone weighing a back three at Anfield after the 3-0 in Bilbao, which would take Lookman off the right-back's plate and weaken the one case for restoring Frimpong, and this is the first of three home games in seven days, so rotation for Fulham on Saturday is likelier than rotation here. Gravenberch remains the likeliest European recall in the pivot. The Carvajal free-agent line is a pundit's aside, not a selection fact. The absentee list is unchanged: Ekitike and Bradley with no date, Leoni and Chiesa back with the group during the break, Gomez in team training this week and a significant doubt for Wednesday. Endo and Chiesa are not in the Champions League squad."
 };
