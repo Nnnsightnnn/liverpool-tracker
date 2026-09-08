@@ -523,7 +523,7 @@ function CoverView({ onJump }) {
               <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
               with Atletico asleep in a Liverpool hotel and the Champions League
               twenty-four hours away, the story the club did not want is the one
-              its vice-captain's deputy told in its own press room. Alexis Mac
+              its World Cup-winning midfielder told in its own press room. Alexis Mac
               Allister is very, very sad, in his words, that Liverpool are not
               in a position to offer him a new deal, and there were options to
               leave this summer, in his words too; Iraola, beside him, said there
