@@ -484,11 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, and the last quiet day before the noise. Iraola names his
-          first Champions League side at one this afternoon, and <em>Atletico</em>{" "}
-          come to Anfield on Wednesday, Szoboszlai's voice in the build-up
-          telling Gerrard the intensity that once won titles here has to come
-          back. Sixth and unbeaten, Liverpool wait for a European night.
+          Tuesday evening, and the eve of the European night has acquired a
+          subplot. Mac Allister told the Anfield press conference the club will
+          not renew him and that he had <em>options to leave</em> in the summer;
+          Gakpo missed training with a tight muscle; Gomez came back. Atletico
+          are in town, Alvarez on their bench by his manager's word, and
+          Liverpool, sixth and unbeaten, kick off at eight tomorrow.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,34 +520,35 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and the eve of a European night that will tell Andoni Iraola what
-              Anfield can be for him. He names his first Champions League side to
-              a press conference at one this afternoon, three games into the job,
-              a first win banked at Ipswich, the sporting director who signed him
-              already gone. The voice of the build-up is Dominik Szoboszlai's, in
-              a television chair opposite Steven Gerrard: last season's
-              surrendered title, he says, was a failure of intensity, and if the
-              side wants it more than the others, no one can stop them. Atletico
-              travel two attackers short, Sorloth injured and Ortiz suspended,
-              though Julian Alvarez scored in Tuesday's session and stayed to run,
-              so Simeone lands with his contested nine fit. Barcola, a hundred and
-              twenty-three million and twice a European champion, is tipped for a
-              first Anfield night in red. The table, sixth and unbeaten, cannot
-              move until Saturday; the squad cannot move until January. Between
-              them, the floodlights.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              with Atletico asleep in a Liverpool hotel and the Champions League
+              twenty-four hours away, the story the club did not want is the one
+              its vice-captain's deputy told in its own press room. Alexis Mac
+              Allister is very, very sad, in his words, that Liverpool are not
+              in a position to offer him a new deal, and there were options to
+              leave this summer, in his words too; Iraola, beside him, said there
+              is still a lot of time. An hour or so later the training report
+              arrived: Gakpo, the man behind every Isak goal this season, sat
+              out with a tight muscle as a precaution, and Gomez trained fully
+              for the first time since July. The manager would not name a side
+              his players do not know, but Barcola, he said, is ready for more
+              minutes. Simeone, on the pitch at dusk, said Alvarez is not ready
+              to start. Opta gives Liverpool fifty-three per cent. The shirt,
+              from next year, will say Turkish Airlines. Everything else says
+              Wednesday.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a manager
-              asked to be embraced; a vice-captain telling Gerrard it has to
-              change; a golazo in training and two attackers short in Madrid; a
-              hundred-and-twenty-three-million homecoming to the competition he
-              knows; and the riptide of a European night, and a 92nd minute nobody
-              at Anfield has forgotten. Read them in order. The season opened at
+              dispatches from the writers who never clock off. There is a
+              midfielder saying very, very sad in the club's own press room; a
+              tight muscle and a twenty-man group; a manager admitting to a dream
+              and then refusing to name a team; an Argentine who is getting
+              better and will not start; and fifty-three per cent, a shirt worth
+              three hundred million, and a home record that has never lost an
+              opener. Read them in order. The season opened at
               Newcastle with a 2-2 on the twenty-third of August, found another at
               Anfield on the twenty-ninth, and won for the first time at Portman
               Road on Friday; the market is shut until January, save for the men
@@ -3759,7 +3761,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The night the ground decides."
+        "Very, very sad, the day before."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
