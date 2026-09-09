@@ -484,12 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday evening, and the eve of the European night has acquired a
-          subplot. Mac Allister told the Anfield press conference the club will
-          not renew him and that he had <em>options to leave</em> in the summer;
-          Gakpo missed training with a tight muscle; Gomez came back. Atletico
-          are in town, Alvarez on their bench by his manager's word, and
-          Liverpool, sixth and unbeaten, kick off at eight tomorrow.
+          Wednesday, and Anfield readies its first European night under Iraola.
+          Atletico Madrid are in town for the Champions League opener at eight,
+          and the team news has firmed toward a first start for <em>Barcola</em>,
+          Gakpo shifted right, Isak leading a line without Salah for the first
+          time in a decade. Liverpool, sixth and unbeaten in the league, kick off
+          in hours.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,39 +520,38 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              with Atletico asleep in a Liverpool hotel and the Champions League
-              twenty-four hours away, the story the club did not want is the one
-              its World Cup-winning midfielder told in its own press room. Alexis Mac
-              Allister is very, very sad, in his words, that Liverpool are not
-              in a position to offer him a new deal, and there were options to
-              leave this summer, in his words too; Iraola, beside him, said there
-              is still a lot of time. An hour or so later the training report
-              arrived: Gakpo, the man behind every Isak goal this season, sat
-              out with a tight muscle as a precaution, and Gomez trained fully
-              for the first time since July. The manager would not name a side
-              his players do not know, but Barcola, he said, is ready for more
-              minutes. Simeone, on the pitch at dusk, said Alvarez is not ready
-              to start. Opta gives Liverpool fifty-three per cent. The shirt,
-              from next year, will say Turkish Airlines. Everything else says
-              Wednesday.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and the anthem Andoni Iraola imagined years ago, when he was
+              coaching in the lower reaches of Spanish football, finally plays
+              for him at Anfield, with Atletico Madrid the visitors for a
+              Champions League opener at eight. The team news has firmed rather
+              than settled: Bradley Barcola is tipped for a first Liverpool start
+              on the left, Cody Gakpo, back from a day's tightness, moves to the
+              right, and Alexander Isak leads a European line without Mohamed
+              Salah for the first time since 2014-15. The open questions belong
+              as much to the visitors, whose manager insists Julian Alvarez will
+              not start while the matchday previews recall him. Diego Simeone,
+              whom Iraola has faced four times and beaten never, brings a side
+              that has lost its last three to Liverpool in this competition and
+              arrives off a chastening night at Bilbao. Above all of it hums the
+              thing the club will not say aloud, that a manager three games in is
+              already called precarious, his sporting director gone to Saudi
+              Arabia. Ninety minutes, and the dream and the doubt share a
+              touchline.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a
-              midfielder saying very, very sad in the club's own press room; a
-              tight muscle and a twenty-man group; a manager admitting to a dream
-              and then refusing to name a team; an Argentine who is getting
-              better and will not start; and fifty-three per cent, a shirt worth
-              three hundred million, and a home record that has never lost an
-              opener. Read them in order. The season opened at
-              Newcastle with a 2-2 on the twenty-third of August, found another at
-              Anfield on the twenty-ninth, and won for the first time at Portman
-              Road on Friday; the market is shut until January, save for the men
-              no one owns.
+              dispatches from the writers who never clock off. There is a first
+              European night and the manager who dreamed it; a dream shadowed by
+              a deadline nobody hired him to meet; one defender back in training
+              and one forward holding his breath; a legend rebuilding on the
+              Black Sea; and the wound Atletico carry to Anfield. Read them in
+              order. The season opened with draws at Newcastle and Anfield, then
+              a first win under Iraola at Ipswich on Friday; the market is shut
+              until January, save for the men no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3761,7 +3760,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Very, very sad, the day before."
+        "The first anthem, at last."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
