@@ -642,10 +642,10 @@ export const NEWS_DIGEST = {
       category: "tactics",
     },
     {
-      title: "The Table Waits: Sixth On Five, And Three Points Off Fulham Would Take Liverpool To Eight (ESPN, today)",
+      title: "Three £100m Men On The Pitch Together, And Rafa Benitez In The Stands: The Night's Footnotes (The Independent, today)",
       detail:
-        "No Premier League game has been played since Sunday and ESPN's table is unchanged: Manchester City and Arsenal on nine, Hull on seven, Chelsea on six, then five sides on five with Liverpool sixth on plus two. Arsenal also won in Europe on Wednesday, 1-0 at Napoli. Beat Fulham on Saturday and Liverpool go to eight, two clear of Chelsea's current six, though every side around them plays the same weekend; the international break follows the Bournemouth trip on the 20th, and Manchester City come to Anfield on 11 October.",
-      category: "matches",
+        "The Independent's match report on Wednesday night noted a first for the club: Isak, Wirtz and Barcola, three £100m signings, on the pitch at the same time, and one move involving all three that ended with Wirtz's shot saved by Oblak and Isak flagged offside on the supply. Rafa Benitez, a Madrid native and a Champions League-winning Liverpool manager, watched from the stands. Mac Allister, the paper observed, has now scored against Real Madrid in 2024 and 2025 and Atletico in 2026. The table is unmoved at sixth on five; the next league points are Fulham's to give up on Saturday.",
+      category: "general",
     },
   ],
   sources: [
@@ -662,7 +662,6 @@ export const NEWS_DIGEST = {
     "This Is Anfield",
     "Yahoo",
     "WhoScored",
-    "ESPN",
   ],
 };
 
