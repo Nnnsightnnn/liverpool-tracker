@@ -484,12 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday, and Anfield readies its first European night under Iraola.
-          Atletico Madrid are in town for the Champions League opener at eight,
-          and the team news has firmed toward a first start for <em>Barcola</em>,
-          Gakpo shifted right, Isak leading a line without Salah for the first
-          time in a decade. Liverpool, sixth and unbeaten in the league, kick off
-          in hours.
+          Wednesday night, and Anfield has its first Champions League win under
+          Iraola: Atletico beaten 2-1 from behind, <em>Mac Allister</em> the
+          winner from twenty yards a day after saying the club will not renew
+          him, Szoboszlai the equaliser, Llorente the nemesis again. The table
+          is untouched, sixth on five; Fulham, pointless, come to Anfield at
+          three on Saturday.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,38 +520,36 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and the anthem Andoni Iraola imagined years ago, when he was
-              coaching in the lower reaches of Spanish football, finally plays
-              for him at Anfield, with Atletico Madrid the visitors for a
-              Champions League opener at eight. The team news has firmed rather
-              than settled: Bradley Barcola is tipped for a first Liverpool start
-              on the left, Cody Gakpo, back from a day's tightness, moves to the
-              right, and Alexander Isak leads a European line without Mohamed
-              Salah for the first time since 2014-15. The open questions belong
-              as much to the visitors, whose manager insists Julian Alvarez will
-              not start while the matchday previews recall him. Diego Simeone,
-              whom Iraola has faced four times and beaten never, brings a side
-              that has lost its last three to Liverpool in this competition and
-              arrives off a chastening night at Bilbao. Above all of it hums the
-              thing the club will not say aloud, that a manager three games in is
-              already called precarious, his sporting director gone to Saudi
-              Arabia. Ninety minutes, and the dream and the doubt share a
-              touchline.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday night</span>,{" "}
+              and the anthem has been sung and answered. Liverpool trailed
+              Atletico Madrid to a Marcos Llorente goal, his fifth here in three
+              visits, and won 2-1, Dominik Szoboszlai levelling from a backheel
+              Ronald Araujo may or may not have meant, Alexis Mac Allister
+              winning it with his left foot from twenty yards, twenty-four hours
+              after he stood in the same building and said he was very, very
+              sad. Andoni Iraola, a Champions League manager for the first time,
+              began his press conference with the atmosphere and moved quickly
+              to an apology: Atletico played a five and he had prepared for
+              something else. The cost was cramp, Barcola and Ngumoha both
+              pulling up on their first starts, and Cody Gakpo left out of the
+              squad altogether as a precaution, which is the week's first
+              problem with Fulham due at three on Saturday and Tottenham in the
+              cup on Tuesday. The table has not moved and could not. The
+              argument for a contract has.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a first
-              European night and the manager who dreamed it; a dream shadowed by
-              a deadline nobody hired him to meet; one defender back in training
-              and one forward holding his breath; a legend rebuilding on the
-              Black Sea; and the wound Atletico carry to Anfield. Read them in
-              order. The season opened with draws at Newcastle and Anfield, then
-              a first win under Iraola at Ipswich on Friday; the market is shut
-              until January, save for the men no one owns.
+              dispatches from the writers who never clock off. There is the
+              twenty-yard winner and the point it made; the back five the
+              manager did not see coming; the cramp that was not a calamity; a
+              nemesis with a dog named after the ground; and the wrong sort of
+              history Fulham carry to Anfield. Read them in order. The season
+              opened with draws at Newcastle and Anfield, a first win at Ipswich,
+              and now a first European win; the market is shut until January,
+              save for the men no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3760,7 +3758,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The first anthem, at last."
+        "Every footballer has a ground where he scores."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
