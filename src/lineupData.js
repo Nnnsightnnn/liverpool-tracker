@@ -232,7 +232,7 @@ export const ALTERNATIVES = {
   LDM: [{ playerId: 14, reason: "Gravenberch · SI pencils him for Fulham rather than Wednesday; the morning previews had him in for Mac Allister, who told Tuesday's presser the club will not renew him" }],
   RDM: [{ playerId: 14, reason: "Gravenberch · the other senior pivot option, benched for a second successive league game" }],
   LAM: [{ playerId: 22, reason: "Gakpo · the man Barcola displaces on the left, moved right by SI and Opta Analyst and a muscle doubt after missing Tuesday's session" }, { playerId: 25, reason: "Ngumoha · unused at Ipswich; rotation option on either flank" }],
-  CAM: [{ playerId: 13, reason: "Mac Allister · kept the pivot vs Ipswich and can push forward into the ten" }, { playerId: 15, reason: "Szoboszlai · vice-captain, has played the ten before" }],
+  CAM: [{ playerId: 13, reason: "Mac Allister · kept the pivot vs Ipswich and can push forward into the ten" }, { playerId: 15, reason: "Szoboszlai · new deal to 2031, has played the ten before" }],
   RAM: [{ playerId: 28, reason: "Munoz · two league starts on this flank and the obvious replacement if Gakpo's tightness keeps him out; Rush The Kop still expects Barcola on the bench" }, { playerId: 25, reason: "Ngumoha · the teenager Munoz was preferred to, unused on Friday and unnamed by any preview" }],
   ST:  [{ playerId: 22, reason: "Gakpo · finished Friday's game at centre-forward once Isak came off; the false-nine fallback, and himself a muscle doubt after missing Tuesday's training" }, { playerId: 25, reason: "Ngumoha · led the line in Isak's absences late last season" }],
 };
