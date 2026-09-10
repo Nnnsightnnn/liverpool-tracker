@@ -134,12 +134,12 @@ const LATEST_NEWS = [
   { source: "This Is Anfield", title: "Training notebook: Barcola made to do push-ups as a rondo forfeit; £300m Turkish Airlines shirt deal from 2027-28", time: "today", category: "fan" },
   { source: "Live Football On TV", title: "Fulham on Saturday is a 3pm and not televised in the UK; Tottenham in the Carabao Cup on Tuesday is ITV4 and Sky at 8pm", time: "today", category: "official" },
   { source: "Opta Analyst", title: "Two days on: the 2-1 over Atletico was the first Liverpool win earned on chances, 1.68 xG to 0.81, Iraola's first over Simeone", time: "1d ago", category: "fan" },
+  { source: "Liverpool.com", title: "Player ratings, revisited: Mac Allister a 9 and man of the match, Araujo an 8 for the backheel assist", time: "1d ago", category: "fan" },
   { source: "Fabrizio Romano", title: "Manchester United complete signing of 16-year-old Liverpool academy midfielder Isaac Konde", time: "2d ago", category: "major" },
   { source: "Empire of the Kop", title: "Ornstein holds the line: a change of ownership at Liverpool 'in the next year or two' with 1892 Holdings holding an option on control", time: "2d ago", category: "fan" },
-  { source: "Liverpool.com", title: "Player ratings, revisited: Mac Allister a 9 and man of the match, Araujo an 8 for the backheel assist", time: "1d ago", category: "fan" },
+  { source: "Liverpool.com", title: "Salah's Trabzonspor still without a manager after the Tekke exit and chasing Richarlison in the Turkish window", time: "2d ago", category: "fan" },
   { source: "Goal", title: "Fulham booed off after a third straight defeat; Arbeloa insists 'we didn't deserve to lose' but concedes 'very easy goals'", time: "4d ago", category: "major" },
   { source: "Sky Sports", title: "Fulham next: pointless and nineteenth under Arbeloa, winners at Anfield just twice in 32 league visits, at 3pm Saturday", time: "4d ago", category: "major" },
-  { source: "Liverpool.com", title: "Salah's Trabzonspor still without a manager after the Tekke exit and chasing Richarlison in the Turkish window", time: "2d ago", category: "fan" },
 ];
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
