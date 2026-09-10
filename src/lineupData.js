@@ -20,7 +20,7 @@ export const FORMATIONS = {
       RW:  { x: 82, y: 22, role: "FWD" },
     },
     // IDs from playerData.js. This 4-3-3 is the backup look; the default is the
-    // 4-2-3-1 below. Reviewed Wed Sep 9 (evening), after Liverpool 2-1 Atletico Madrid at
+    // 4-2-3-1 below. Reviewed Thu Sep 10 (morning), after Liverpool 2-1 Atletico Madrid at
     // Anfield (Llorente 17; Szoboszlai 40 from Araujo's flick; Mac Allister 50 from twenty
     // yards) and pointed at Fulham at Anfield on Saturday 12 September, 3pm, Premier League.
     // Wednesday's XI was Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Szoboszlai, Mac Allister;
@@ -63,7 +63,7 @@ export const FORMATIONS = {
     // The default shape, the 4-2-3-1 Iraola has used in all four competitive games, now
     // pointed at Fulham at Anfield on Saturday 12 September, 3pm (Atletico beaten 2-1 at
     // Anfield on Sep 9; Ipswich beaten 2-0 away on Sep 4; Forest drawn 2-2 at Anfield on
-    // Aug 29; Newcastle drawn 2-2 away on Aug 23). Reviewed Wed Sep 9 (evening): the XI is
+    // Aug 29; Newcastle drawn 2-2 away on Aug 23). Reviewed Thu Sep 10 (morning): the XI is
     // Wednesday's confirmed side with one change forced by the squad list, Gakpo back on
     // the left for Ngumoha if the precaution that kept him out of the European squad is
     // lifted. Barcola keeps the right after his first start; Ngumoha and Munoz are the
@@ -104,7 +104,7 @@ export const FORMATIONS = {
     },
     // Hypothetical 3-4-3 alternative, a shape rarely used, shown for completeness, and the
     // one Atletico beat Liverpool's preparation with on Wednesday (a 5-3-2 in Iraola's words).
-    // Reviewed Wed Sep 9 (evening): Araujo moves inside to make a back three of natural
+    // Reviewed Thu Sep 10 (morning): Araujo moves inside to make a back three of natural
     // centre-backs with Van Dijk and Jacquet; Kerkez and Frimpong, who came on and had a
     // goal disallowed, as wing-backs; Wirtz and Szoboszlai in midfield; Gakpo (a doubt),
     // Isak and Barcola across the front. Gomez trains; Leoni not with the group until the
@@ -126,7 +126,7 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS + injuryNote context, reviewed Wed Sep 9 (evening), after
+// Hand-curated from RESULTS + injuryNote context, reviewed Thu Sep 10 (morning), after
 // Liverpool 2-1 Atletico Madrid at Anfield and three days before Fulham at Anfield on
 // Saturday 12 September, 3pm. From the Atletico win: Llorente scored on 17 after beating
 // Kerkez to Alvarez's pass; Szoboszlai levelled on 40 from Araujo's backheel; Mac Allister
@@ -141,7 +141,7 @@ export const PLAYER_EVIDENCE = {
   2:  "Unused vs Atletico · Spurs cup tie his shot",    // Mamardashvili
   3:  "90 mins vs Atletico · a 5, loose early",         // Van Dijk
   5:  "Training fully · not in the UCL squad",          // Gomez
-  7:  "Lost Llorente (a 3) · won ball for 1-1",         // Kerkez
+  7:  "Cleared as tired · fit for Fulham · only senior LB",  // Kerkez
   8:  "Knee · no date · in UCL squad",                  // Bradley
   9:  "On at 59 · goal disallowed at 89",               // Frimpong
   10: "ACL · group training at the break",              // Leoni
@@ -151,9 +151,9 @@ export const PLAYER_EVIDENCE = {
   14: "A 4 off the bench · SI pencils him for Fulham",  // Gravenberch
   15: "Scored the equaliser · 8.5 · deal to 2031",      // Szoboszlai
   17: "Not in the UCL squad · PL depth only",           // Endo
-  18: "Set Barcola through · still 0 G/A",              // Wirtz
+  18: "Ran the game · still 0 G/A in four",             // Wirtz
   20: "Unused vs Atletico · deal still pending",        // Nyoni
-  22: "Left out as a precaution · doubt for Fulham",    // Gakpo
+  22: "Adductor niggles · doubt Iraola won't guarantee",  // Gakpo
   23: "Shot in 16 seconds · no goal · 3 in 3 in PL",    // Isak
   24: "Achilles · no date · in UCL squad regardless",   // Ekitike
   25: "First UCL start, left · cramp on the hour",      // Ngumoha
@@ -161,7 +161,7 @@ export const PLAYER_EVIDENCE = {
   27: "On the UCL bench as third GK · unused",          // Woodman
   28: "On for Ngumoha · shot saved by Oblak",           // Munoz
   29: "Second RB start · an 8 · backheel assist",       // Araujo
-  30: "First start, right · 2 misses · cramp at 59",    // Barcola
+  30: "Cleared, tired not hurt · right · fit for Fulham",  // Barcola
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in all four
@@ -175,7 +175,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys. Four games into the season these read as confidence that the slot's
 // occupant remains a first-choice starter into 2026-27 — LOW where the player
 // has left (Salah, Robertson, Konate) or whose availability is open.
-// (Reviewed Wed Sep 9, evening: after Liverpool 2-1 Atletico Madrid. The back four and the pivot
+// (Reviewed Thu Sep 10, morning: after Liverpool 2-1 Atletico Madrid. The back four and the pivot
 // held and scored; the flanks are the open question, Gakpo out of the European squad as a
 // precaution and both the wingers who replaced him cramping. Araujo's second start at right-back
 // settled that slot upward. Fulham at Anfield on Saturday 12 September, 3pm.)
@@ -194,19 +194,19 @@ export const SLOT_CONFIDENCE = {
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Wed Sep 9 (evening):
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Thu Sep 10 (morning):
 // every rationale rewritten after Liverpool 2-1 Atletico Madrid and pointed at Fulham on Saturday.
 export const SLOT_RATIONALE = {
-  LB:  "Wed Sep 9, evening — the worst mark on the pitch and the tackle that turned the game, in the same ninety. Kerkez was beaten to Alvarez's pass by Llorente for the 17th-minute opener, Rousing The Kop's 3, then won the ball from Lee around halfway for the move Szoboszlai finished on 40. Replaced by Tsimikas late on. With Robertson gone there is no senior alternative, so he starts against Fulham with Bobb and King running at him; the question is form, not selection.",
-  LCB: "Wed Sep 9, evening — ninety minutes again, a win, and a 5 from Rousing The Kop for a couple of loose first-half passes that are not like him. Van Dijk and Jacquet were beaten once as a pair, by Llorente's run behind Kerkez, and otherwise held a side that made 0.81 expected goals per Opta. Three games in seven days now, Fulham on Saturday and Tottenham in the cup on Tuesday, and at 35 he is the one centre-back the club would rather rest and cannot until Gomez is passed fit.",
-  RCB: "Wed Sep 9, evening — a Champions League debut, and the better of the two centre-backs by Rousing The Kop's reading, a 7 for one read of a cut-back in the box during a dangerous second-half move. Jacquet has started all four competitive games beside Van Dijk. Gomez has trained fully since Tuesday but was not in Wednesday's squad, so the first real competition for the shirt is a week away at the earliest; Fulham's Garcia and King are Saturday's examination.",
-  RB:  "Wed Sep 9, evening — the shirt is settled. Araujo's second start at right-back brought an 8 from Rousing The Kop, a full-length press that had Anfield on its feet and the through-the-legs flick that made Szoboszlai's equaliser; The 4th Official gave a 7 for the defensive work. Frimpong came on for Barcola at 59 in an advanced role and had a goal disallowed at 89, which is his role for now. Gomez is the third body once passed fit; Bradley has no date.",
-  LDM: "Wed Sep 9, evening — he said the club will not renew him on Tuesday and won the game from twenty yards on Wednesday, with his left foot, his name chorused as he came off. Mac Allister was Rousing The Kop's man of the match on an 8, a 9 from Liverpool.com, booked early and provoked for a second he did not give them; Opta counted no player winning more duels than his five. Every preview will start him against Fulham. SI's earlier pencilling of Gravenberch for this fixture now reads as rotation with the cup tie on Tuesday.",
-  RDM: "Wed Sep 9, evening — the equaliser on 40, rolled past Oblak after Araujo's backheel, and an 8.5 at the top of The 4th Official's ratings. Szoboszlai has ten Champions League goal involvements since the start of last season per Opta, double any other Liverpool player; Rousing The Kop's 6 marked the wrong options on the break. Signed to 2031 and started every game. Gravenberch, a 4 off the bench, is the alternative and the likelier starter in the cup.",
-  LAM: "Wed Sep 9, evening — drawn back in as a doubt, because the alternative cramped. Gakpo was left out of the Atletico squad as a precaution after Tuesday's tightness, and Ngumoha, who started the left in his place, came off around the hour; a goal and three assists in three league games per Opta, both Isak goals at Ipswich from his passes. If he is passed fit for Saturday's 3pm he starts here; if not, Ngumoha or Munoz does, with Tottenham in the cup three days later.",
-  CAM: "Wed Sep 9, evening — the pass of the night and no assist to show for it. Wirtz sent Barcola clean through four minutes into the second half and watched the finish roll wide, pressed and won the ball high in a way Rousing The Kop called underrated, ran the game for a spell and had his own shot saved by Oblak; a 7 from both fan sites. Four games without a goal or assist now. Fulham's mid-block on Saturday is the kind he was signed to unlock.",
-  RAM: "Wed Sep 9, evening — a first Liverpool start, on the right rather than the left the previews expected, two clear chances against Oblak missed, and off at 59 with cramp. Iraola said afterwards that the club is rushing a player with no pre-season, that it was just cramps, and that 'I want him there'. Drawn here for Saturday because the manager wants him there; Munoz, who came on and tested Oblak, is the rested alternative if a third game in nine days is too many.",
-  ST:  "Wed Sep 9, evening — a shot inside 16 seconds, no goal, and a European campaign that still waits for his first for the club. Isak led the line for the ninety against a back five, had an effort blocked by Le Normand and supplied Wirtz for a saved shot while offside himself; a 5 from Rousing The Kop, a 7 from The 4th Official. Three in three in the league. There is no other senior nine with Ekitike out, and the false-nine fallback, Gakpo, was not in the squad.",
+  LB:  "Thu Sep 10, morning — cleared to play, which for Liverpool's only senior left-back is the whole story. Iraola's fitness update grouped Kerkez with Barcola as tired rather than hurt after Wednesday, when he came off on 88 and afterwards tied the cramp to the pressing. On the night he was beaten by Llorente for the opener, Rousing The Kop's 3, then won the ball from Lee for the move Szoboszlai finished on 40. With Robertson gone there is no alternative, so he starts against Fulham with Bobb and King running at him; the question is form and legs, not selection.",
+  LCB: "Thu Sep 10, morning — ninety minutes again, a win, and a 5 from Rousing The Kop for a couple of loose first-half passes that are not like him. Van Dijk and Jacquet were beaten once as a pair, by Llorente's run behind Kerkez, and otherwise held a side that made 0.81 expected goals per Opta. Three games in seven days now, Fulham on Saturday and Tottenham in the cup on Tuesday, and at 35 he is the one centre-back the club would rather rest and cannot until Gomez is passed fit.",
+  RCB: "Thu Sep 10, morning — a Champions League debut, and the better of the two centre-backs by Rousing The Kop's reading, a 7 for one read of a cut-back in the box during a dangerous second-half move. Jacquet has started all four competitive games beside Van Dijk. Gomez has trained fully since Tuesday but was not in Wednesday's squad, so the first real competition for the shirt is a week away at the earliest; Fulham's Garcia and King are Saturday's examination.",
+  RB:  "Thu Sep 10, morning — the shirt is settled. Araujo's second start at right-back brought an 8 from Rousing The Kop, a full-length press that had Anfield on its feet and the through-the-legs flick that made Szoboszlai's equaliser; The 4th Official gave a 7 for the defensive work. Frimpong came on for Barcola at 59 in an advanced role and had a goal disallowed at 89, which is his role for now. Gomez is the third body once passed fit; Bradley has no date.",
+  LDM: "Thu Sep 10, morning — he said the club will not renew him on Tuesday and won the game from twenty yards on Wednesday, with his left foot, his name chorused as he came off. Mac Allister was Rousing The Kop's man of the match on an 8, a 9 from Liverpool.com, booked early and provoked for a second he did not give them; Opta counted no player winning more duels than his five. Every preview will start him against Fulham. SI's earlier pencilling of Gravenberch for this fixture now reads as rotation with the cup tie on Tuesday.",
+  RDM: "Thu Sep 10, morning — the equaliser on 40, rolled past Oblak after Araujo's backheel, and an 8.5 at the top of The 4th Official's ratings. Szoboszlai has ten Champions League goal involvements since the start of last season per Opta, double any other Liverpool player; Rousing The Kop's 6 marked the wrong options on the break. Signed to 2031 and started every game. Gravenberch, a 4 off the bench, is the alternative and the likelier starter in the cup.",
+  LAM: "Thu Sep 10, morning — drawn here on trust, not confirmation. Iraola said on Thursday he hopes to have Gakpo for Fulham but will not guarantee it, the winger carrying niggles in both adductors rather than a defined injury after being left out of the Atletico squad. A goal and three assists in three league games per Opta, both Isak goals at Ipswich from his passes, which is why the whole front line hangs on his fitness. If he is passed fit for Saturday's 3pm he starts here; if not, Ngumoha or Munoz does, with Tottenham in the cup three days later.",
+  CAM: "Thu Sep 10, morning — the pass of the night and no assist to show for it. Wirtz sent Barcola clean through four minutes into the second half and watched the finish roll wide, pressed and won the ball high in a way Rousing The Kop called underrated, ran the game for a spell and had his own shot saved by Oblak; a 7 from both fan sites. Four games without a goal or assist now. Fulham's mid-block on Saturday is the kind he was signed to unlock.",
+  RAM: "Thu Sep 10, morning — cleared and kept here, the cramp downgraded to fatigue. Iraola's Thursday update put Barcola and Kerkez together as tired rather than injured and expected them available, the manager tying it to a player pushed through with no pre-season and to the pressing load. On his first start against Atletico, on the right, he missed two clear chances against Oblak and went off at 59. Munoz, who came on and tested Oblak, is the rested alternative if a third involvement in nine days is judged too many with the cup tie Tuesday.",
+  ST:  "Thu Sep 10, morning — a shot inside 16 seconds, no goal, and a European campaign that still waits for his first for the club. Isak led the line for the ninety against a back five, had an effort blocked by Le Normand and supplied Wirtz for a saved shot while offside himself; a 5 from Rousing The Kop, a 7 from The 4th Official. Three in three in the league. There is no other senior nine with Ekitike out, and the false-nine fallback, Gakpo, was not in the squad.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -231,7 +231,7 @@ export const ALTERNATIVES = {
 // Overall confidence chip shown above the pitch. Enriched with predictor
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
-  level: "Low",
-  generated_at: "2026-09-09T22:30:00Z",
-  reason: "Wed Sep 9, evening, after Liverpool 2-1 Atletico Madrid, pointed at Fulham at Anfield on Saturday 12 September, 3pm. Ten of the eleven drawn here started on Wednesday: Alisson, Araujo, Jacquet, Van Dijk, Kerkez, Szoboszlai, Mac Allister, Wirtz, Barcola and Isak, with Gakpo drawn back in on the left for Ngumoha. Confidence is low rather than medium because the front three is the open question: Gakpo was left out of the European squad as a precaution and has not yet been passed fit, Barcola and Ngumoha both came off with cramp, and the Tottenham cup tie falls three days after Fulham, so Iraola may rest Barcola for a third game in nine days and start Munoz. Gomez is training fully but was not in Wednesday's squad; Ekitike, Bradley and Leoni have no date; Chiesa is out until the break. No Fulham preview naming a Liverpool XI has been published yet; this is the confirmed Atletico side adjusted for the squad list.",
+  level: "Medium",
+  generated_at: "2026-09-10T09:00:00Z",
+  reason: "Thu Sep 10, morning, before Fulham at Anfield on Saturday 12 September, 3pm. Thursday's fitness update lifts this from low to medium: Iraola cleared Barcola and Kerkez, the two who cramped against Atletico, as tired rather than injured and expected to be available, so ten of the eleven drawn here (Alisson, Araujo, Jacquet, Van Dijk, Kerkez, Szoboszlai, Mac Allister, Wirtz, Barcola and Isak) are both confirmed available and started Wednesday. The one genuine question is the left, where Gakpo is drawn as a doubt Iraola will not guarantee, adductor niggles rather than an injury; if he does not make it, Ngumoha or Munoz starts, and the Tottenham cup tie on Tuesday may yet see Barcola rested for a third involvement in nine days. Gomez is in full training and nearing a matchday squad; Ekitike, Bradley and Leoni have no date; Chiesa is out until the break. No Fulham preview naming a Liverpool XI has been published; this is the confirmed Atletico side adjusted for the squad list.",
 };

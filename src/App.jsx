@@ -484,12 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday night, and Anfield has its first Champions League win under
-          Iraola: Atletico beaten 2-1 from behind, <em>Mac Allister</em> the
-          winner from twenty yards a day after saying the club will not renew
-          him, Szoboszlai the equaliser, Llorente the nemesis again. The table
-          is untouched, sixth on five; Fulham, pointless, come to Anfield at
-          three on Saturday.
+          Thursday, and the week reduces to a headcount. Iraola's fitness
+          update has <em>Barcola</em> and Kerkez, both cramping against Atletico,
+          cleared as tired and likely for Fulham, while Gakpo, an adductor doubt,
+          the manager will not promise. The table cannot move until Saturday:
+          sixth on five, and pointless Fulham come to Anfield at three.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,22 +519,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday night</span>,{" "}
-              and the anthem has been sung and answered. Liverpool trailed
-              Atletico Madrid to a Marcos Llorente goal, his fifth here in three
-              visits, and won 2-1, Dominik Szoboszlai levelling from a backheel
-              Ronald Araujo may or may not have meant, Alexis Mac Allister
-              winning it with his left foot from twenty yards, twenty-four hours
-              after he stood in the same building and said he was very, very
-              sad. Andoni Iraola, a Champions League manager for the first time,
-              began his press conference with the atmosphere and moved quickly
-              to an apology: Atletico played a five and he had prepared for
-              something else. The cost was cramp, Barcola and Ngumoha both
-              pulling up on their first starts, and Cody Gakpo left out of the
-              squad altogether as a precaution, which is the week's first
-              problem with Fulham due at three on Saturday and Tottenham in the
-              cup on Tuesday. The table has not moved and could not. The
-              argument for a contract has.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and two days after the anthem the story is a treatment table.
+              Andoni Iraola's fitness update before Fulham reads as relief with
+              a caveat: Bradley Barcola and Milos Kerkez, both of whom cramped
+              against Atletico, are tired rather than hurt and expected to play,
+              while Cody Gakpo, carrying niggles in both adductors, is a doubt
+              the manager will only say he hopes to resolve. Kerkez put the
+              cramps down to the pressing itself, that it is hard to hold the
+              intensity for a whole ninety, which turns a fitness worry into a
+              tactical status report. Beneath it the market murmurs though it
+              cannot act: a January line to Manchester City for Rayan Ait-Nouri,
+              a standing want for Adam Wharton, and a club said to be unhappy
+              that Mac Allister aired his contract in public two days after he
+              settled a Champions League night. The table has not moved and
+              could not. The week is a question of who is fit to make it.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -543,10 +541,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and five
               dispatches from the writers who never clock off. There is the
-              twenty-yard winner and the point it made; the back five the
-              manager did not see coming; the cramp that was not a calamity; a
-              nemesis with a dog named after the ground; and the wrong sort of
-              history Fulham carry to Anfield. Read them in order. The season
+              front line counted again; a manager left without a net; a shut
+              window whose names will not stay quiet; the price the pressing
+              exacts in cramp; and the booed, pointless side bound for Anfield.
+              Read them in order. The season
               opened with draws at Newcastle and Anfield, a first win at Ipswich,
               and now a first European win; the market is shut until January,
               save for the men no one owns.
@@ -3758,7 +3756,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Every footballer has a ground where he scores."
+        "The press is a lung, still filling."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
