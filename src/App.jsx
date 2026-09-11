@@ -484,11 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday, and the week has shrunk to a single afternoon. Iraola's side,
-          sixth and unbeaten, go again <em>tomorrow</em> at three, one win from
-          the European places, Atletico and Ipswich already behind them. The team
-          news is nearly settled; only Gakpo, an adductor doubt, is left to name.
-          Pointless Fulham are the visitors.
+          Friday lunchtime, and the last question has been handed to a training
+          pitch. At noon Iraola cleared Barcola and sent Gakpo into the afternoon
+          session to decide Saturday or Tuesday; across London, Arbeloa answered
+          for a dressing room the reporting calls unsettled. Liverpool, sixth and
+          unbeaten, meet pointless Fulham at three <em>tomorrow</em>, a win from
+          the European places.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,19 +520,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and the anthem is a day away. Andoni Iraola takes an unbeaten side
-              into Saturday's three o'clock against a Fulham team that has not
-              taken a point, and the arithmetic is inviting: a third straight win
-              lifts Liverpool off the five-point knot and toward the Champions
-              League places they mean to reclaim. The team sheet is all but
-              written, the back four and the Mac Allister and Szoboszlai pivot
-              that beat Atletico intact, Isak alone up front and owed a first
-              Anfield goal in red. The one blank is the left, where Cody Gakpo's
-              adductor is a matter the manager will only say he hopes about, 'I
-              don't know. I hope so, but I don't know.' Beneath the football the
-              market waits on January and the boardroom waits on itself. For
-              ninety minutes tomorrow, none of it will matter but the result.
+              <span style={{ fontStyle: "italic", color: T.red }}>Noon</span>,{" "}
+              Friday, the AXA Training Centre, and a manager declining to decide.
+              Andoni Iraola said Barcola was cramp and nothing more, then said of
+              Cody Gakpo only that they would 'try today' and see whether he is
+              ready for tomorrow or waits for Tuesday, which is how a week of
+              worry about an adductor becomes an afternoon and a yes or no. An
+              hour earlier Alvaro Arbeloa, once of this parish, had spent his own
+              briefing on three monkeys' worth of Instagram caption and two
+              wiped feeds, insisting a pointless Fulham had trained with a very
+              positive attitude, all of them. Around the fixture the week left
+              smaller marks: a goalkeeper fined and then left at home by Brazil,
+              a loanee's right-back shirt declared permanent, a midfielder on a
+              six-year deal benched for a third game. Three o'clock tomorrow
+              settles none of that and all of it.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -539,10 +541,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and five
               dispatches from the writers who never clock off. There is the
-              matchday-eve wait on a fitness test; the coach the board did not
-              choose; one winger on whom the whole front line turns; the January
-              names kept on a shelf; and a third of the club passing into new
-              hands. Read them in order. The season
+              decision moved to the afternoon; the three monkeys of Motspur Park;
+              a goalkeeper's odd week; the full-back who was never meant to be
+              one; and three games on the bench against six years on a contract.
+              Read them in order. The season
               opened with draws at Newcastle and Anfield, a first win at Ipswich,
               and now a first European win; the market is shut until January,
               save for the men no one owns.
@@ -3754,7 +3756,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A doubt, and a table to climb."
+        "Ready for tomorrow, or wait."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
