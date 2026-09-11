@@ -484,12 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday lunchtime, and the last question has been handed to a training
-          pitch. At noon Iraola cleared Barcola and sent Gakpo into the afternoon
-          session to decide Saturday or Tuesday; across London, Arbeloa answered
-          for a dressing room the reporting calls unsettled. Liverpool, sixth and
-          unbeaten, meet pointless Fulham at three <em>tomorrow</em>, a win from
-          the European places.
+          Friday evening, and the day's firmest news concerns a striker who will
+          not play tomorrow: Iraola has put a January date, of sorts, on
+          Ekitike's Achilles. Gakpo's afternoon test went unreported, Arbeloa
+          promised a message, and Liverpool, sixth and unbeaten, meet pointless
+          Fulham at three <em>tomorrow</em>, one win from the European stripe.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,30 +519,30 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Noon</span>,{" "}
-              Friday, the AXA Training Centre, and a manager declining to decide.
-              Andoni Iraola said Barcola was cramp and nothing more, then said of
-              Cody Gakpo only that they would 'try today' and see whether he is
-              ready for tomorrow or waits for Tuesday, which is how a week of
-              worry about an adductor becomes an afternoon and a yes or no.
-              Earlier in the day Alvaro Arbeloa, once of this parish, had spent his own
-              briefing on three monkeys' worth of Instagram caption and two
-              wiped feeds, insisting a pointless Fulham had trained with a very
-              positive attitude, all of them. Around the fixture the week left
-              smaller marks: a goalkeeper fined and then left at home by Brazil,
-              a loanee's right-back shirt declared permanent, a midfielder on a
-              six-year deal benched for a third game. Three o'clock tomorrow
-              settles none of that and all of it.
+              <span style={{ fontStyle: "italic", color: T.red }}>Evening</span>,{" "}
+              Friday, and the training ground has gone quiet without saying what
+              it knows. Andoni Iraola spent part of his last briefing before Fulham
+              on a player who will not be in it, allowing that Hugo Ekitike has a
+              reasonable chance of the January Champions League games, the first
+              month anyone at the club has attached to an April Achilles; of Cody
+              Gakpo, whose afternoon session was to settle Saturday, nothing had
+              been published by dusk. In west London Alvaro Arbeloa told a pointless
+              Fulham that tomorrow is where a message gets sent, and named a
+              deadline-day centre-back fit to start. Alexander Isak, 332 minutes
+              into a season he has begun whole, asked only to keep the rhythm.
+              Opta notes that if Liverpool score exactly twice again it will be a
+              first in their history, four league games running, which is either
+              a pattern or a limit. Three o'clock tomorrow will say which.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is the
-              decision moved to the afternoon; the three monkeys of Motspur Park;
-              a goalkeeper's odd week; the full-back who was never meant to be
-              one; and three games on the bench against six years on a contract.
+              dispatches from the writers who never clock off. There is a date,
+              at last, for the man who is not here; a message to be sent from
+              Motspur Park; three defeats by a goal and a manager who rates them;
+              three hundred and thirty-two minutes; and exactly two.
               Read them in order. The season
               opened with draws at Newcastle and Anfield, a first win at Ipswich,
               and now a first European win; the market is shut until January,
@@ -3756,7 +3755,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Ready for tomorrow, or wait."
+        "A hope, and a realistic chance."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
