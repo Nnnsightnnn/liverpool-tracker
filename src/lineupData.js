@@ -20,7 +20,7 @@ export const FORMATIONS = {
       RW:  { x: 82, y: 22, role: "FWD" },
     },
     // IDs from playerData.js. This 4-3-3 is the backup look; the default is the
-    // 4-2-3-1 below. Reviewed Thu Sep 10 (morning), after Liverpool 2-1 Atletico Madrid at
+    // 4-2-3-1 below. Reviewed Fri Sep 11 (matchday-eve), after Liverpool 2-1 Atletico Madrid at
     // Anfield (Llorente 17; Szoboszlai 40 from Araujo's flick; Mac Allister 50 from twenty
     // yards) and pointed at Fulham at Anfield on Saturday 12 September, 3pm, Premier League.
     // Wednesday's XI was Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Szoboszlai, Mac Allister;
@@ -63,7 +63,7 @@ export const FORMATIONS = {
     // The default shape, the 4-2-3-1 Iraola has used in all four competitive games, now
     // pointed at Fulham at Anfield on Saturday 12 September, 3pm (Atletico beaten 2-1 at
     // Anfield on Sep 9; Ipswich beaten 2-0 away on Sep 4; Forest drawn 2-2 at Anfield on
-    // Aug 29; Newcastle drawn 2-2 away on Aug 23). Reviewed Thu Sep 10 (morning): the XI is
+    // Aug 29; Newcastle drawn 2-2 away on Aug 23). Reviewed Fri Sep 11 (matchday-eve): the XI is
     // Wednesday's confirmed side with one change forced by the squad list, Gakpo back on
     // the left for Ngumoha if the precaution that kept him out of the European squad is
     // lifted. Barcola keeps the right after his first start; Ngumoha and Munoz are the
@@ -104,7 +104,7 @@ export const FORMATIONS = {
     },
     // Hypothetical 3-4-3 alternative, a shape rarely used, shown for completeness, and the
     // one Atletico beat Liverpool's preparation with on Wednesday (a 5-3-2 in Iraola's words).
-    // Reviewed Thu Sep 10 (morning): Araujo moves inside to make a back three of natural
+    // Reviewed Fri Sep 11 (matchday-eve): Araujo moves inside to make a back three of natural
     // centre-backs with Van Dijk and Jacquet; Kerkez and Frimpong, who came on and had a
     // goal disallowed, as wing-backs; Wirtz and Szoboszlai in midfield; Gakpo (a doubt),
     // Isak and Barcola across the front. Gomez trains; Leoni not with the group until the
@@ -126,8 +126,8 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS + injuryNote context, reviewed Thu Sep 10 (morning), after
-// Liverpool 2-1 Atletico Madrid at Anfield and three days before Fulham at Anfield on
+// Hand-curated from RESULTS + injuryNote context, reviewed Fri Sep 11 (matchday-eve), after
+// Liverpool 2-1 Atletico Madrid at Anfield and the day before Fulham at Anfield on
 // Saturday 12 September, 3pm. From the Atletico win: Llorente scored on 17 after beating
 // Kerkez to Alvarez's pass; Szoboszlai levelled on 40 from Araujo's backheel; Mac Allister
 // won it on 50 from twenty yards. Barcola (first start, right) came off at 59 with cramp,
@@ -175,7 +175,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys. Four games into the season these read as confidence that the slot's
 // occupant remains a first-choice starter into 2026-27 — LOW where the player
 // has left (Salah, Robertson, Konate) or whose availability is open.
-// (Reviewed Thu Sep 10, morning: after Liverpool 2-1 Atletico Madrid. The back four and the pivot
+// (Reviewed Fri Sep 11, matchday-eve: after Liverpool 2-1 Atletico Madrid. The back four and the pivot
 // held and scored; the flanks are the open question, Gakpo out of the European squad as a
 // precaution and both the wingers who replaced him cramping. Araujo's second start at right-back
 // settled that slot upward. Fulham at Anfield on Saturday 12 September, 3pm.)
@@ -194,7 +194,7 @@ export const SLOT_CONFIDENCE = {
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Thu Sep 10 (morning):
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Fri Sep 11 (matchday-eve):
 // every rationale rewritten after Liverpool 2-1 Atletico Madrid and pointed at Fulham on Saturday.
 export const SLOT_RATIONALE = {
   LB:  "Fri Sep 11, matchday-eve — cleared to play, which for Liverpool's only senior left-back is the whole story. Iraola's fitness update grouped Kerkez with Barcola as tired rather than hurt after Wednesday, when he came off on 88 and afterwards tied the cramp to the pressing. On the night he was beaten by Llorente for the opener, Rousing The Kop's 3, then won the ball from Lee for the move Szoboszlai finished on 40. With Robertson gone there is no alternative, so he starts against Fulham with Bobb and King running at him; the question is form and legs, not selection.",
