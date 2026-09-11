@@ -484,11 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday, and the week reduces to a headcount. Iraola's fitness
-          update has <em>Barcola</em> and Kerkez, both cramping against Atletico,
-          cleared as tired and likely for Fulham, while Gakpo, an adductor doubt,
-          the manager will not promise. The table cannot move until Saturday:
-          sixth on five, and pointless Fulham come to Anfield at three.
+          Friday, and the week has shrunk to a single afternoon. Iraola's side,
+          sixth and unbeaten, go again <em>tomorrow</em> at three, one win from
+          the European places, Atletico and Ipswich already behind them. The team
+          news is nearly settled; only Gakpo, an adductor doubt, is left to name.
+          Pointless Fulham are the visitors.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,21 +519,19 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and two days after the anthem the story is a treatment table.
-              Andoni Iraola's fitness update before Fulham reads as relief with
-              a caveat: Bradley Barcola and Milos Kerkez, both of whom cramped
-              against Atletico, are tired rather than hurt and expected to play,
-              while Cody Gakpo, carrying niggles in both adductors, is a doubt
-              the manager will only say he hopes to resolve. Kerkez put the
-              cramps down to the pressing itself, that it is hard to hold the
-              intensity for a whole ninety, which turns a fitness worry into a
-              tactical status report. Beneath it the market murmurs though it
-              cannot act: a January line to Manchester City for Rayan Ait-Nouri,
-              a standing want for Adam Wharton, and a club said to be unhappy
-              that Mac Allister aired his contract in public two days after he
-              settled a Champions League night. The table has not moved and
-              could not. The week is a question of who is fit to make it.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              and the anthem is a day away. Andoni Iraola takes an unbeaten side
+              into Saturday's three o'clock against a Fulham team that has not
+              taken a point, and the arithmetic is inviting: a third straight win
+              lifts Liverpool off the five-point knot and toward the Champions
+              League places they mean to reclaim. The team sheet is all but
+              written, the back four and the Mac Allister and Szoboszlai pivot
+              that beat Atletico intact, Isak alone up front and owed a first
+              Anfield goal in red. The one blank is the left, where Cody Gakpo's
+              adductor is a matter the manager will only say he hopes about, 'I
+              don't know. I hope so, but I don't know.' Beneath the football the
+              market waits on January and the boardroom waits on itself. For
+              ninety minutes tomorrow, none of it will matter but the result.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -541,10 +539,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and five
               dispatches from the writers who never clock off. There is the
-              front line counted again; a manager left without a net; a shut
-              window whose names will not stay quiet; the price the pressing
-              exacts in cramp; and the booed, pointless side bound for Anfield.
-              Read them in order. The season
+              matchday-eve wait on a fitness test; the coach the board did not
+              choose; one winger on whom the whole front line turns; the January
+              names kept on a shelf; and a third of the club passing into new
+              hands. Read them in order. The season
               opened with draws at Newcastle and Anfield, a first win at Ipswich,
               and now a first European win; the market is shut until January,
               save for the men no one owns.
@@ -3756,7 +3754,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The press is a lung, still filling."
+        "A doubt, and a table to climb."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
