@@ -526,7 +526,7 @@ function CoverView({ onJump }) {
               reasonable chance of the January Champions League games, the first
               month anyone at the club has attached to an April Achilles; of Cody
               Gakpo, whose afternoon session was to settle Saturday, nothing had
-              been published by dusk. In west London Alvaro Arbeloa told a pointless
+              been published by dusk. At Motspur Park Alvaro Arbeloa told a pointless
               Fulham that tomorrow is where a message gets sent, and named a
               deadline-day centre-back fit to start. Alexander Isak, 332 minutes
               into a season he has begun whole, asked only to keep the rhythm.
@@ -646,9 +646,9 @@ function FormBlock({ results }) {
         color: T.ivoryDim, lineHeight: 1.6,
         borderTop: `1px solid ${T.rule}`, paddingTop: 14,
       }}>
-        Two wins on the bounce after a difficult European fortnight. The Palace performance
-        was the cleanest the side has looked since February — a side, finally, that
-        resembles its sum.
+        Two wins on the bounce, at Ipswich and over Atletico, after draws at Newcastle
+        and against Forest to open. Two goals in every game so far; the trick, Iraola
+        says, is to score the first one.
       </p>
     </div>
   );
