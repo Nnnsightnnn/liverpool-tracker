@@ -525,8 +525,8 @@ function CoverView({ onJump }) {
               Andoni Iraola said Barcola was cramp and nothing more, then said of
               Cody Gakpo only that they would 'try today' and see whether he is
               ready for tomorrow or waits for Tuesday, which is how a week of
-              worry about an adductor becomes an afternoon and a yes or no. An
-              hour earlier Alvaro Arbeloa, once of this parish, had spent his own
+              worry about an adductor becomes an afternoon and a yes or no.
+              Earlier in the day Alvaro Arbeloa, once of this parish, had spent his own
               briefing on three monkeys' worth of Instagram caption and two
               wiped feeds, insisting a pointless Fulham had trained with a very
               positive attitude, all of them. Around the fixture the week left
