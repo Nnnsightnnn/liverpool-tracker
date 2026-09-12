@@ -484,12 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday, and the day's story is the fixture at last. Liverpool, sixth
-          and unbeaten, have not won a league game at home this season, three
-          draws deep, and meet a pointless Fulham at three <em>this afternoon</em>.
-          Iraola wants a fast start and a first Anfield win of his tenure; the
-          models make the Reds heavy favourites, and the draw that Anfield cannot
-          shake is three games old.
+          Saturday evening, and the draw Anfield could not shake has become a
+          fourth. Liverpool 0-0 Fulham: the first blank of Iraola's tenure, a
+          goal-line clearance from Jacquet to keep even the point, and a manager
+          admitting to a lack of freshness he <em>cannot hide</em>. Sixth on six,
+          one win in four, and Tottenham, goalless themselves, arrive in the cup
+          on Tuesday night.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,34 +520,36 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and the waiting is nearly over. Liverpool go into the fourth weekend
-              of the season sixth and unbeaten, one win from breaking a five-point
-              knot, and yet without a league victory at their own ground, three
-              draws into a home run older than the manager. Andoni Iraola has spent
-              the week asking for a faster start, insisting the goals are there,
-              chasing a first Anfield league win against a Fulham side that has none
-              of anything, pointless after three. Alexander Isak can score in a
-              third straight league game for the first time in twenty months; Cody
-              Gakpo, the one doubt, waits on an adductor the club will not call
-              either way. Alvaro Arbeloa comes home to the stadium he defended for
-              two and a half years, now the visiting coach nobody expects to leave
-              with a point. Three o'clock will say whether the draw that Anfield
-              cannot shake makes it four, or whether the afternoon finally breaks.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the afternoon that was meant to break the run has extended it.
+              Liverpool drew 0-0 with a Fulham side that arrived without a point,
+              a fourth consecutive league draw at Anfield for the first time since
+              November 2011, and for the first time under Andoni Iraola they did
+              not score. The nearest thing to a goal belonged to the visitors:
+              Alisson passed short, Gravenberch lost it, and Jeremy Jacquet was on
+              the line to hook Garcia's shot away. Three changes were made and all
+              three had been undone by the hour, Tsimikas at half-time, the others
+              at sixty, which is the afternoon's uncomfortable finding about the
+              depth of a squad six hundred and seventy million pounds deep. Iraola
+              said the players were tired, sixty hours on from Atletico, and that
+              the reasons must be found inside the pitch. Alisson said a draw is
+              not something to celebrate in this shirt. Tuesday brings Tottenham,
+              who have not scored in four league games, in the cup at eight; the
+              question is which side remembers how first.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a win owed
-              at Anfield and a knot to break; another special day sought by the
-              youngest man to score here; twenty months and a striker's streak; an
-              old boy back as the enemy; and the draw the ground cannot shake.
-              Read them in order. The season
+              dispatches from the writers who never clock off. There is nil, nil,
+              and a line cleared; sixty hours and a manager who would not hide
+              behind them; three changes and three regrets; a goalkeeper who said
+              what needed saying; and two teams who cannot score, three days
+              before they meet. Read them in order. The season
               opened with draws at Newcastle and Anfield, a first win at Ipswich,
-              and a first European night; the market is shut until January,
-              save for the men no one owns.
+              a first European night, and now a second home draw; the market is
+              shut until January, save for the men no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -647,9 +649,9 @@ function FormBlock({ results }) {
         color: T.ivoryDim, lineHeight: 1.6,
         borderTop: `1px solid ${T.rule}`, paddingTop: 14,
       }}>
-        Two wins on the bounce, at Ipswich and over Atletico, after draws at Newcastle
-        and against Forest to open. Two goals in every game so far; the trick, Iraola
-        says, is to score the first one.
+        A goalless draw with Fulham ends the two-match winning run and makes it
+        three draws in four league games. The first blank under Iraola, and the
+        first time, he said, his side has struggled to create.
       </p>
     </div>
   );
@@ -661,6 +663,7 @@ function ResultsLedger({ results, compFilter, onCompChange }) {
     { key: "PL",  label: "PL" },
     { key: "UCL", label: "UCL" },
     { key: "FA",  label: "FA Cup" },
+    { key: "EFL", label: "Carabao Cup" },
   ];
   const filtered = compFilter === "All" ? results : results.filter(r => r.competition === compFilter);
   return (
@@ -833,7 +836,7 @@ function MatchdayView() {
             fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase",
             color: T.gold, marginBottom: 18, fontFamily: T.sans, fontWeight: 500,
           }}>
-            — {NEXT_MATCH.competition === "PL" ? "Premier League" : NEXT_MATCH.competition === "UCL" ? "Champions League" : NEXT_MATCH.competition === "FA" ? "FA Cup" : "Pre-Season Friendly · USA Tour"}
+            — {NEXT_MATCH.competition === "PL" ? "Premier League" : NEXT_MATCH.competition === "UCL" ? "Champions League" : NEXT_MATCH.competition === "FA" ? "FA Cup" : NEXT_MATCH.competition === "EFL" ? "Carabao Cup" : "Pre-Season Friendly · USA Tour"}
           </div>
           <div className="matchday-fixture" style={{
             fontFamily: T.serif, fontWeight: 500, fontSize: 64, lineHeight: 1,
@@ -3756,7 +3759,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The draw Anfield cannot shake."
+        "We cannot find the reasons outside."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

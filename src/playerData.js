@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2026-27 Season · Updated 7 September 2026 (evening)) ──────
+// ─── Liverpool FC Player Data (2026-27 Season · Updated 12 September 2026 (evening)) ──────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Sat Sep 12, matchday morning - Saturday's goalkeeper, and at home for the international break rather than on a plane. The FA's 8,000-pound fine for the tunnel misconduct after the Forest draw is settled with no ban, and Ancelotti left him out of Brazil's squad to 'prioritise the younger ones', so he stays on Merseyside through the window. Beaten once by Llorente on Wednesday, the Alvarez save the one that mattered. He starts against Fulham at three; Mamardashvili is the likelier keeper for Tuesday's cup tie", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Sat Sep 12, evening - a clean sheet, and the pass that nearly gave it away. Alisson's short ball to a marked Gravenberch in the twelfth minute was dispossessed, he escaped a penalty for the challenge on King and Jacquet cleared Garcia's shot off the line; he held his hand up. Later the good part: King's curler tipped wide on 76, a Bassey header gathered. A 5 from Rousing The Kop, 7.9 on FotMob. Told Sky afterwards that a draw is 'not something to celebrate too much with this shirt'. Mamardashvili is the likelier keeper for Tuesday's cup tie", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Sat Sep 12, matchday morning - the deputy waits for Tuesday. With Alisson fined, dropped by Brazil and kept in England through the break, the No. 1 is rested at the cup rather than the league, so Mamardashvili does not expect Fulham. The Carabao Cup tie against Tottenham at Anfield on Tuesday, 8pm, is his likeliest start of the month; he has not played since the summer tour", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Sat Sep 12, evening - unused again on Saturday, and Tuesday is now the obvious night. With Alisson having played the full 60-hour turnaround, the Carabao Cup tie against Tottenham at Anfield, 8pm, is Mamardashvili's likeliest start of the month; he has not played since the summer tour. The Bournemouth trip on the 20th belongs to the No. 1", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Sat Sep 12, matchday morning - the captain starts a run of three home games in seven days, with the rest he cannot yet take getting nearer as Gomez nears a first bench. Opta gave the partnership its number on Friday: Jacquet, beside him all four games, has won 18 of 25 duels, second in the league only to Tarkowski. Ninety minutes again in Wednesday's 2-1 over Atletico, a 5 from Rousing The Kop for loose early passes, beaten once as a pair by Llorente. Football Insider's rumour that he is 'tempted' by 2027 offers stays unconfirmed; the April 2025 contract is the settled fact", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Sat Sep 12, evening - ninety minutes for a fifth straight match, and the better part of a clean sheet. A 7.4 on FotMob, 'commanding in the centre of defence', timely tackles and interceptions on the Fulham counters, the King chance the one that got through the pair. Three games in seven days with no rest yet available while Gomez stays out of the squad; the cup tie on Tuesday is where one would come, if Iraola dares after Saturday's rotation. Football Insider's 'tempted' rumour stays unconfirmed", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "doubtful", outSince: "2026-07-25", injuryNote: "Sat Sep 12, matchday morning - matchday, and the reporting expects him on the bench at last. 3 Added Minutes has Gomez, in full training since Wednesday after July's Sunderland friendly injury, in line for a first squad of the season against Fulham, seven weeks on, though Sports Mole's list still files him out; Tuesday's cup tie is the likelier first minutes. He was not in Wednesday's European squad. A fit Gomez means a fourth senior centre-back and a third right-back option in one body, which is why the return matters more than one bench place", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "doubtful", outSince: "2026-07-25", injuryNote: "Sat Sep 12, evening - not in the squad after all. 3 Added Minutes had him in line for a first bench against Fulham; the confirmed nine read Mamardashvili, Endo, Kerkez, Mac Allister, Gakpo, Frimpong, Nyoni, Koumas and Ngumoha, and he was not among them. In full training since Wednesday after July's Sunderland friendly injury, seven weeks on, so Tuesday's cup tie is the next and likelier first involvement. A fourth senior centre-back and third right-back in one body is what Saturday's tired defence most needed", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -54,7 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Sat Sep 12, matchday morning - cleared and starting, the cramp of Wednesday now three days behind him. He came off on 88 against Atletico and tied the tightness to Iraola's pressing, an issue flagged in pre-season; Sports Mole's XI would rest him for Tsimikas with Tuesday's cup tie in mind, which nothing the manager said supports. Beaten by Llorente for the opener, a 3 from Rousing The Kop, then won the ball for the equaliser. With no senior deputy, Bobb and Robinson are his afternoon", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Sat Sep 12, evening - rested to the bench and back on at half-time, because the man who replaced him could not finish the half. Tsimikas misplaced 11 of 31 passes and was withdrawn; Kerkez came on to a 5 from Rousing The Kop, 'an improvement' without offering much, and 'yet more dreadful crossing' on the SI card. SI's verdict is that neither left-back is currently up to Iraola's standard. The only senior option still, and the cup tie is 72 hours away", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Sat Sep 12, matchday morning - a spectator again, and in no hurry to be rushed while Araujo excels in his shirt. The left knee ligament damage from January still carries no date; he stays in the Champions League squad, and Sports Mole pencils Manchester United on 21 November as the earliest. Two starts, a clean sheet and a backheel assist from the man deputising mean the department can wait", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Sat Sep 12, evening - a spectator for a goalless afternoon, and the department he would return to held up: Araujo started at right-back for a third straight match, a 6 from Rousing The Kop, and Frimpong replaced him on 72. The left knee ligament damage from January still carries no date; he stays in the Champions League squad, and Sports Mole pencils Manchester United on 21 November as the earliest", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Sat Sep 12, matchday morning - an impact option off the bench once more, with the starting right-back berth settled on Araujo. Iraola said on Friday the loanee has done very well in a position that is 'probably not his main', so Frimpong's route is the second half or the cup. He came on for Barcola at 59 on Wednesday, played the right, and had the ball in the net at 89 before the flag; a 5 from Rousing The Kop, better than of late. Tuesday's tie is his likelier ninety", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Sat Sep 12, evening - the better of the late changes, on for Araujo at 72 at right-back. A 6 from Rousing The Kop, 'offered a decent amount and was solid enough defensively', 6.9 on FotMob; his late ball across the box was the one Ngumoha fired wide. A start in Tuesday's cup tie is the likelier reward now than a league one, with Araujo having played three in seven days", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 18, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-15", injuryNote: "Sat Sep 12, matchday morning - another match to watch, the plan unchanged and the pair ahead of him settled. Leoni stays on Iraola's timetable, group training during the international break with no matchday attached, in the European squad but unused on Wednesday when Van Dijk and Jacquet went the ninety. His own reporting still guesses Manchester City on 11 October as the earliest", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 18, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-15", injuryNote: "Sat Sep 12, evening - another match watched, the pair ahead of him playing the ninety for a fifth straight game and Jacquet clearing off the line. Leoni stays on Iraola's timetable, group training during the international break with no matchday attached, in the European squad but unused. His own reporting still guesses Manchester City on 11 October as the earliest", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sat Sep 12, matchday morning - the number of the week is his: Opta's 18 of 25 Premier League duels won, 72 per cent, bettered only by Tarkowski among players with twenty or more, and fifth in the league for line-breaking passes. Jacquet has started all four competitive games beside Van Dijk and was the better of the two on his Champions League debut, a 7 from both fan sites. Gomez nears a first bench behind him; Garcia and King are Saturday's test", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sat Sep 12, evening - the reason there was a point. Read Garcia's twelfth-minute shot after Alisson's error and cleared it off the line, then was 'immaculate in just about everything he did': an 8 and man of the match from Rousing The Kop, 8.1 to top the FotMob card, SI calling him the steady partner Van Dijk needed after Konate's decline. Five starts in five beside the captain. Opta had him at 18 of 25 league duels before this one", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Sat Sep 12, matchday morning - out on loan, as the club always meant him to be. Ndukwe joined Levante on a season-long loan on deadline day, the Spanish club covering his wage. Six foot six and nineteen, Liverpool's standout defender against Monaco in pre-season, but born in Austria and short of the points a post-Brexit permit demands, he could not play a competitive fixture here this season. A year in La Liga is the plan", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Sat Sep 12, evening - out on loan, as the club always meant him to be. Ndukwe joined Levante on a season-long loan on deadline day, the Spanish club covering his wage. Six foot six and nineteen, Liverpool's standout defender against Monaco in pre-season, but born in Austria and short of the points a post-Brexit permit demands, he could not play a competitive fixture here this season. A year in La Liga is the plan", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -113,7 +113,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sat Sep 12, matchday morning - the man Sports Mole says keeps Gravenberch on the bench, and the scorer of Wednesday's winner from twenty yards. Iraola's first Champions League night was won on his left foot in the 50th, his name chorused as he came off; Rousing The Kop's man of the match on an 8, no player winning more duels than his five per Opta. He said on Tuesday the club will not renew him; the argument for a deal has not stopped since. Starts against Fulham", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sat Sep 12, evening - rested to the bench for the first hour, and the hour showed why he should not be. On for Gravenberch at 60, sat slightly deeper, 'much more effective in the press', set up Szoboszlai and had a drive parried by Leno: a 7 from Rousing The Kop, the best mark on a poor card, and the site's verdict that he is now undroppable. Four days after he said the club will not renew him. Starts Tuesday, on that evidence", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -122,7 +122,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Sat Sep 12, matchday morning - three games benched, and the subject of a Sports Mole feature asking why. It argues Iraola trusts Mac Allister's positioning over the Dutchman's physical tools after a 2025-26 the site calls his worst at the club, and that the six-year March deal makes him awkward to leave out for long; a 4 off the bench on Wednesday did not help. SI had pencilled him to start Fulham, but the pivot that scored both goals against Atletico makes that a rotation call, with Tuesday's cup tie likelier", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Sat Sep 12, evening - the start he had waited three games for, and it lasted an hour. Dispossessed by Alisson's short pass for the Garcia chance, 'all at sea far too often' by Rousing The Kop's reading, a 3, and replaced by Mac Allister at 60 with the side better for it; SI called it 'yet another undercooked performance'. The pivot with Szoboszlai won two of ten first-half ground duels. Tuesday's cup tie is now a harder case to make than it was on Friday", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -132,7 +132,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Sat Sep 12, matchday morning - half the pivot Sports Mole says keeps Gravenberch out, and the scorer of Wednesday's equaliser, rolled past Oblak on 40 after Araujo's flick through his own legs. An 8.5 at the top of The 4th Official's ratings; Opta counts ten Champions League goal involvements since the start of last season, double any Liverpool team-mate. Signed to 2031, started every game. Fulham at three, a fourth straight two-goal game the club-first Opta is watching for", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Sat Sep 12, evening - 'arguably worse' than Gravenberch by Rousing The Kop's account, a 3: loose passes early, pressed hard by Fulham, none of six first-half ground duels won, a swipe at King that nearly gave a penalty, and set-pieces that did not land until the corner Munoz headed onto the bar. SI's 6.8 was kinder. Signed to 2031 and started every game; the first bad one of the season came on the afternoon nobody could create", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -142,7 +142,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Sat Sep 12, matchday morning - a league-only squad option, ineligible for Europe and behind the fit pivot at home. Left off the 25-man Champions League list with McConnell preferred, Endo remains the emergency centre-half in the league and a candidate to start Tuesday's cup tie against Tottenham if Iraola rotates. Fulham on Saturday is a squad place at most", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Sat Sep 12, evening - unused on Saturday, and given his answer by the manager afterwards. 'Wata lost quite a lot of the pre-season,' Iraola said, 'he's still not at his best but he's training very well'; the problem is the queue, Gravenberch, Mac Allister and Szoboszlai ahead of him, 'but for sure he will have his moments'. Not in the European squad, so Tuesday's cup tie is the likeliest of them", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -154,7 +154,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Sat Sep 12, matchday morning - the creator Fulham's mid-block is built to frustrate and he was signed to unpick. Isak vouched for Barcola, the man Wirtz set clean through on Wednesday for a finish rolled wide, so the pass has the same target and still no assist against it. He ran the 2-1 for a spell, pressed and won the ball high in a way Rousing The Kop called underrated; a 7 from both sites, his own shot saved by Oblak. Four games now without a goal or assist", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Sat Sep 12, evening - the ten who did not unlock it. Two shots the wrong side of the right post and a scuffed third, a 4 from Rousing The Kop ('undercooked everything he touched'), a 7.4 on FotMob that noted fatigue after Wednesday and 'uncharacteristic technical errors'. Five competitive games without a goal or assist; Fulham's block was the kind he was signed to open. Tuesday is a chance to rest him or to fix it", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -163,7 +163,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", injuryNote: "Sat Sep 12, matchday morning - a name in Sports Mole's Gravenberch feature as a possible claimant on a midfield place while the Dutchman sits, but not for a 3pm league game. Unused on the European bench on Wednesday beside McConnell and Danns, his new contract still unsigned per the weekend reporting. The Carabao Cup tie against Tottenham on Tuesday is his likeliest minutes", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
+    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", injuryNote: "Sat Sep 12, evening - unused on a league bench for the first time this season, beside Endo, Koumas and Mamardashvili. With the pivot rated 3 and 3 and Iraola talking about a queue in midfield, the Carabao Cup tie against Tottenham on Tuesday is his likeliest minutes; the new contract is still unsigned per the weekend reporting", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
     physical: { height: 178, weight: 68, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Leicester City Academy", fee: null, type: "youth" },
@@ -173,7 +173,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "doubtful", injuryNote: "Sat Sep 12, matchday morning - the one selection question into kick-off, and the verdict is still not public. Friday afternoon's session was to decide Saturday or Tuesday; no club update had emerged by Saturday morning, and Sports Mole keeps him doubtful with the adductor niggles while SI's matchday XI simply starts Munoz. A goal and three assists in three league games per Opta, both Isak goals at Ipswich from his passes, so the front three's shape hangs on him; Munoz or Ngumoha starts on the left if he waits for the cup tie", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Sat Sep 12, evening - back, and quietly. Named on the bench after the week's adductor doubt, on for Munoz at 60 and used on the right, 'couldn't really get into the game' for a 5 from Rousing The Kop, 6.1 on FotMob. The point is that he played: a goal and three assists in three league games per Opta return to the pool, and whether he starts Tuesday's cup tie or is held for Bournemouth is the next question", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Sat Sep 12, matchday morning - the striker who can make a small piece of history at three o'clock. A goal against Fulham would be three straight league games scoring for the first time since January 2025, per Opta, when the run reached eight, and the Ipswich brace already equalled his injury-hit 2025-26 tally. Iraola said he 'looks free' and will not judge him on goals alone; 332 minutes into a season begun whole, with Ekitike a January hope and no other senior nine fit, the line is his. A first Anfield goal in red is still owed", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Sat Sep 12, evening - sixteen touches in ninety minutes, the second fewest for a Liverpool outfielder on record per the BBC, behind his own fourteen against Forest. Dragged the game's first chance wide from Barcola's pass, was twice denied by Leno, glanced a stoppage-time header wide from a Szoboszlai corner; a 5 from Rousing The Kop, 'looked sharp despite a lack of service'. The run of three straight league games with a goal ends at two. Still the only fit senior nine, three matches in seven days", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -193,7 +193,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Sat Sep 12, matchday morning - the man who is not here, with a month now attached at last. Iraola said on Friday there is 'a reasonable chance' Ekitike can help in the last two Champions League league-phase games, Inter on 19 January and Lens on 27 January by This Is Anfield's reading, the reason he was registered in Europe; a big part of the Achilles rehab is still to come. It is the first month the club has named for April's rupture, Sports Mole's late-November pencilling now optimistic. Until then Isak is the only fit senior nine", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Sat Sep 12, evening - the afternoon his absence was felt most: Isak touched the ball sixteen times and the fallback, Gakpo, came on as a right winger. Friday's press conference attached a month for the first time, 'a hope and a realistic chance that he could help us in January', the last two Champions League league-phase games the target per This Is Anfield, with 'a big part of the rehab still to meet'. Late November, pencilled by Sports Mole and 3 Added Minutes, now reads optimistic", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -204,7 +204,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Sat Sep 12, matchday morning - the youngest man to score at Anfield, and he did it here against Fulham last April; he told the club this week he wants 'another special day'. Whether it comes from the start depends on Gakpo's unresolved adductor: 3 Added Minutes' XI starts Ngumoha on the left, Sports Mole starts him too. He spoke of the squad's togetherness, of Iraola wanting him direct, and called Isak and Barcola two of the best in the world. His first European start on Wednesday ended in cramp on the hour", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Sat Sep 12, evening - rested to the bench and on for Barcola at 72, a cameo Rousing The Kop called poor, a 4: an overhit cross, a counter conceded, a shot fired wide from Frimpong's late ball across the box. The special day against the side he scored against last April did not come. Still a left-sided starting option for Tuesday if Barcola and Gakpo are managed", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -212,7 +212,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "injured", outSince: "2026-08-16", injuryNote: "Sat Sep 12, matchday morning - out until the break, and watching a third game from outside the squad. The back problem left him off the Champions League list and keeps him out of Fulham, Tuesday's cup tie and Bournemouth; Iraola has him rejoining group training during the September international break. Rush The Kop guesses Manchester City on 11 October as the earliest return", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "injured", outSince: "2026-08-16", injuryNote: "Sat Sep 12, evening - out until the break, and Saturday was the afternoon a fourth winger would have been used: Ngumoha and Munoz both drew a 4 in their outings, Barcola a 4 and a 6.6. Left off the Champions League list; Tottenham on Tuesday and Bournemouth on the 20th are the two before the group training he is due to rejoin", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -223,7 +223,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Sat Sep 12, matchday morning - third keeper, and the goalkeeping news of the week happened to the first: Alisson fined 8,000 pounds and left out by Brazil, which keeps the No. 1 at home through the break. Woodman was an unused European substitute on Wednesday; Tuesday's cup tie against Tottenham is the one fixture this month that might use a deputy", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Sat Sep 12, evening - third keeper, not on Saturday's bench, which carried Mamardashvili alone. With the deputy likelier to start Tuesday's cup tie, Woodman's next involvement is a bench place there at most", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -240,7 +240,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Sat Sep 12, matchday morning - a matchday XI candidate for the first time, with SI's Saturday lineup starting him if Gakpo does not make it. Sports Mole would use him on the right and rest Barcola; 3 Added Minutes keeps Barcola and leaves Munoz among the options for the left. Off the bench on Wednesday he tested Oblak after dancing through a challenge, a 6 from The 4th Official. The left flank, or the cup tie on Tuesday, is his most likely route to minutes", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Sat Sep 12, evening - the closest anyone came, and off on the hour. Started on the right with Barcola moved left, headed a corner against the bar on 22 with Leno getting a hand to it, and was otherwise 'a little headless' by Rousing The Kop's reading, a 4; SI's 6.7 called him the most natural of Iraola's right-wing options. Replaced by Gakpo at 60. The cup tie on Tuesday is his likelier start than Bournemouth", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -250,7 +250,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 0, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", injuryNote: "Sat Sep 12, matchday morning - the shirt is his, and Warnock told TEAMtalk on Friday the right-back move is permanent, Jacquet inside beside Van Dijk. Iraola said the real adjustment was the language before the position, that the move has helped 'a little bit mentally' after years at Barcelona, and that right-back 'probably is not his main position' though he has done very well in it. Two starts there, a clean sheet at Ipswich, an 8 and the backheel assist against Atletico; Bobb or Berge is Saturday's assignment", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
+    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 0, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", injuryNote: "Sat Sep 12, evening - a third straight start at right-back, 'solid, if unspectacular' for a 6 from Rousing The Kop, 6.9 on FotMob, at times isolated by Fulham's overloads through Robinson on his side. Replaced by Frimpong on 72. Iraola calls it a position probably not his main, done very well; Warnock told TEAMtalk on Friday the move is permanent. Three games in seven days, so Tuesday may be Frimpong's", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
     physical: { height: 188, weight: 79, pace: 78, acceleration: 74, sprintSpeed: 80 },
     career: [
       { years: "2016-2018", club: "Rentistas", fee: null, type: "youth" },
@@ -260,7 +260,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 1, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Sat Sep 12, matchday morning - cleared, and vouched for by the man he plays beside: Isak called him 'a big signing for us' this week, a great player who will make the team better. Iraola tied Wednesday's cramp to a player who 'hasn't had a proper pre-season' and said those with less preparation are not yet at their best. Sports Mole would rest him for Munoz; 3 Added Minutes starts him on the right. First start against Atletico, two clear chances missed, off at 59; Fulham would be a third involvement in nine days", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
+    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 1, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Sat Sep 12, evening - a first Premier League start, on the left this time, and a game that faded after the first minute. Set Isak up for the chance dragged wide, arrived well at the far post for a blocked shot, and was otherwise 'very much on the periphery': a 4 from Rousing The Kop, 6.6 on FotMob. Iraola said he played 'a little bit more even than three days ago', that the club is building his condition with games, and that all four wingers will play both sides all season", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
     physical: { height: 182, weight: 72, pace: 91, acceleration: 92, sprintSpeed: 90 },
     career: [
       { years: "2010-2020", club: "Lyon Academy", fee: null, type: "youth" },
@@ -373,107 +373,61 @@ export const TEAM_LOGOS = {
 //     and repoints `src` + `credit` + `generatedAt` at it.
 // `focus` is the one-line "most important focus of the latest edition."
 export const COVER_IMAGE = {
-  src: "/assets/cover/2026-09-09-mac-allister-strike.svg",
-  alt: "Editorial plate: a floodlit Anfield night, a lone midfielder in red mid-strike twenty yards out, the ball a streak toward the top corner, the Kop a wall of red and light behind the goal.",
-  focus: "Liverpool 2-1 Atletico Madrid: Mac Allister's left-footed drive from twenty yards wins Iraola's first Champions League night a day after he said the club will not renew him, Szoboszlai having levelled Llorente's opener",
+  src: "/assets/cover/2026-09-12-jacquet-clearance.svg",
+  alt: "Editorial plate: a grey Anfield afternoon, a defender in red stretched across the goal-line hooking the ball clear with the net behind him, a striker in white arriving too late, the goalkeeper stranded to one side.",
+  focus: "Liverpool 0-0 Fulham: Jacquet clears Garcia's shot off the line in the twelfth minute after Alisson's short pass, the moment that kept a point on an afternoon Liverpool failed to score for the first time under Iraola",
   credit: "Plate · Daily edition",
-  generatedAt: "2026-09-12T08:30:00Z",
+  generatedAt: "2026-09-12T22:20:00Z",
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
+  // Evening pass (Sat 12 September, 6pm ET / 11pm BST): a match was played. Liverpool 0-0 Fulham at Anfield,
+  // the first blank under Iraola and a fourth straight Anfield league draw, the first such run since November
+  // 2011 per Opta. Jacquet cleared Garcia's shot off the line on 12 after Alisson's short pass to a marked
+  // Gravenberch (King's penalty appeal waved away); Munoz headed a corner against the bar on 22; Leno saved
+  // from Isak and Mac Allister; Alisson tipped King's curler wide on 76; Muniz missed on 79. Opta: 1.13 xG from
+  // 14 shots to 0.71 from 10. Three changes (Tsimikas, Gravenberch, Munoz) all withdrawn by the hour; Gakpo back
+  // from the bench; Gomez not in the squad. Iraola: 'a lack of freshness, definitely, we cannot hide it'.
+  // The result leads every surface. Next: Tottenham, Carabao Cup third round, Anfield, Tuesday 8pm, ITV and
+  // Sky; NEXT_MATCH rolled forward and the OPPOSITION dossier rebuilt for De Zerbi's goalless side. A goal-line
+  // clearance IS a photographable moment under STEP 7.5, so a Track 1 plate was generated (the clearance, no
+  // text) and the Track 2 brief below is the open request for Antigravity (COVER-00001). The limn-editor-enhance
+  // skill was not present on this mount, so the request is recorded here and in cover-brief.json only.
   // Morning pass (Sat 12 September): MATCHDAY. Fulham at Anfield today at 3pm; no match or ruling-out
   // since Wednesday's Atletico win, table byte-identical from ESPN. Lead rotated off Friday evening's
-  // Ekitike-January anchor onto the fixture itself: Liverpool sixth and unbeaten chasing a first home
-  // league win of Iraola's tenure and a third win in eight days against pointless, nineteenth Fulham,
-  // Iraola wanting a fast start ('the team has goals in it'), Isak eyeing a third straight league game,
-  // Ngumoha's 'another special day' interview, the Anfield three-draw run and Arbeloa's homecoming
-  // beneath. Gakpo the lone doubt into matchday, Barcola and Kerkez cleared, Gomez in line for a first
-  // bench. A matchday preview is not a photographable moment under STEP 7.5, so no Track 2 request; the
-  // Mac Allister strike plate is carried and generatedAt re-stamped (COVER-00001).
-  // Evening pass (Fri 11 September, 6pm ET / 11pm BST): no match since Wednesday, table byte-identical from ESPN.
-  // The lead moved to the one new fact from Friday's briefing: Iraola put a January date, of sorts, on Ekitike's
-  // Achilles ('a reasonable chance' of the last two Champions League league-phase games, Inter 19 Jan and Lens
-  // 27 Jan per This Is Anfield; 'a hope and a realistic chance that he could help us in January'). Gakpo's
-  // afternoon session produced no published verdict by the evening. Beneath it: Arbeloa's 'send a message'
-  // (Evening Standard) with Affengruber fit to start, Iraola's full Q&A (Fulham 'lost their three games by one
-  // goal'), Isak's club interview (332 minutes, 'keep this rhythm'), Opta's pre-match notes (exactly two goals
-  // four times running would be a club first; Jacquet 18 of 25 duels) and the festive fixture changes. A press
-  // conference is not a photographable moment under STEP 7.5, so no Track 2 request; the Mac Allister strike
-  // plate is carried and generatedAt re-stamped (COVER-00001).
-  // Evening pass (Fri 11 September): no match since Wednesday, table byte-identical from ESPN. The lead
-  // moved at the noon press conference: Iraola pushed the Gakpo call to Friday afternoon's session ('we will
-  // try today and see if he is ready for tomorrow or if we need to wait until the next one') and cleared
-  // Barcola ('no injury'); beneath it Arbeloa reported no fresh Fulham injuries amid unrest reports (Kevin's
-  // 'no speak, no hear, no see'), Alisson was fined £8,000 by the FA and left out by Brazil, Warnock tipped
-  // Araujo for a permanent right-back role, and Gravenberch's third straight benching drew a Sports Mole
-  // feature. A deferred fitness test is not a photographable moment under STEP 7.5, so no Track 2 request;
-  // the Mac Allister strike plate is carried and generatedAt re-stamped (COVER-00001).
-  // Morning pass (Fri 11 September): matchday-eve, Fulham at Anfield tomorrow at 3pm. No match and no
-  // Liverpool ruling-out since Wednesday's Atletico win, table byte-identical from ESPN. Lead rotated off
-  // Thursday's fitness-update anchor onto the fixture itself: Liverpool one win from eighth to third-straight
-  // territory against pointless, nineteenth Fulham, with Gakpo the lone team-news doubt ('I don't know. I hope
-  // so, but I don't know', Iraola) and Barcola and Kerkez cleared. A matchday-eve build-up is not a
-  // photographable moment under STEP 7.5, so no Track 2 request; the Mac Allister strike plate is carried
-  // and generatedAt re-stamped (COVER-00001).
-  // Morning pass (Thu 10 September): no match and no Liverpool ruling-out since Wednesday, table
-  // byte-identical from ESPN. Lead rotated off the evening's Mac Allister-winner anchor onto the
-  // freshest confirmed item, Iraola's Thursday fitness update (Barcola and Kerkez cleared as tired,
-  // Gakpo an adductor doubt) ahead of Fulham, with the pressing-behind-the-cramps angle (Kerkez),
-  // January links (Ait-Nouri, Wharton) and the Mac Allister-comments follow-on beneath. A fitness
-  // update is not a photographable moment under STEP 7.5, so no Track 2 request; the Mac Allister
-  // strike plate is carried and generatedAt re-stamped (COVER-00001).
+  // Ekitike-January anchor onto the fixture itself; Gakpo the lone doubt into matchday, Barcola and Kerkez
+  // cleared, Gomez in line for a first bench. Mac Allister strike plate carried and re-stamped.
+  // Evening pass (Fri 11 September, 6pm ET / 11pm BST): no match since Wednesday. The lead moved to the one
+  // new fact from Friday's briefing: Iraola put a January date, of sorts, on Ekitike's Achilles. Plate carried.
   // Evening pass (Wed 9 September): a match was played. Liverpool 2-1 Atletico Madrid at Anfield, the Champions
-  // League opener and Iraola's first match in the competition as a manager: Llorente 17 (Alvarez the assist,
-  // Kerkez beaten), Szoboszlai 40 (Araujo's backheel flick), Mac Allister 50 (left foot, twenty yards, a day
-  // after saying the club will not renew him). Opta: 1.68 xG from 14 shots to 0.81 from 9. Barcola, a first
-  // start on the right, off at 59 with cramp ('we are kind of rushing him', Iraola); Ngumoha started on the
-  // left and cramped too; Gakpo left out of the squad as a precaution; Frimpong had a late third disallowed.
-  // Simeone started Alvarez after saying he would not and played a five, which Iraola said surprised him.
-  // The result leads every surface. Next: Fulham, Anfield, Saturday 3pm, not televised in the UK; NEXT_MATCH
-  // rolled forward and the OPPOSITION dossier rebuilt for Arbeloa's pointless side. A thunderbolt at the Kop
-  // end IS a photographable moment under STEP 7.5, so a Track 1 plate was generated (the strike, no text)
-  // and the Track 2 brief below is the open request for Antigravity (COVER-00001).
-  // Morning pass (Wed 9 September): matchday. Atletico at Anfield tonight, 8pm, Iraola's first Champions League
-  // match. No game and no Liverpool ruling-out since Friday, table byte-identical from ESPN. Lead rotated off
-  // the evening's Mac Allister-contract anchor onto the matchday itself: the Opta and SI previews landing the
-  // team news (Barcola tipped for a first start, Gakpo in form and shifted right), and the two live splits,
-  // right-back (Opta prefers Frimpong, SI keeps Araujo) and Atletico's nine (Simeone says Alvarez will not
-  // start; SI's matchday XI recalls him, Opta keeps Lee). A matchday preview is not a photographable moment
-  // under STEP 7.5, so no Track 2 request; plate carried and generatedAt re-stamped (COVER-00001).
-  // Evening pass (Tue 8 September): no match, no Liverpool ruling-out, table byte-identical from ESPN. The lead
-  // moved at the 1pm press conference: Mac Allister said the club is 'not in a position' to renew him, that he is
-  // 'very, very sad', that 'there were options to leave this summer' and that he has not spoken to Iraola about it;
-  // Iraola said there is 'still a lot of time'. Beneath it, Gakpo missed the afternoon session with muscle
-  // tightness (a precaution, per Joyce) while Gomez trained fully for the first time in a month; Iraola said
-  // Barcola is 'ready to play more minutes'; Simeone said Alvarez will not start; Opta's model gives Liverpool 53%;
-  // the club announced a £300m Turkish Airlines shirt deal from 2027-28. A press-conference admission is not a
-  // photographable moment under STEP 7.5, so no Track 2 request; the Hughes plate carries over, generatedAt re-stamped.
-  // Evening pass (Sat 5 September): Liverpool confirmed on Saturday afternoon that Richard Hughes has stepped
-  // down as sporting director, Al-Hilal his expected destination. Track 1 plate 2026-09-05-hughes-exit.svg.
+  // League opener: Llorente 17, Szoboszlai 40, Mac Allister 50. Opta: 1.68 xG from 14 shots to 0.81 from 9.
+  // Track 1 plate 2026-09-09-mac-allister-strike.svg.
+  // Evening pass (Sat 5 September): Richard Hughes stepped down as sporting director. Track 1 plate 2026-09-05-hughes-exit.svg.
   // Evening pass (Fri 4 September): Ipswich 0-2 Liverpool, Isak 6' and 9', Track 1 plate 2026-09-04-isak-brace.svg.
   brief: {
     leadStory:
-      "Liverpool beat Atletico Madrid 2-1 at Anfield on Wednesday night in the Champions League opener, Andoni Iraola's first match in the competition as a manager and his first win over Diego Simeone at the fifth attempt. Marcos Llorente put Atletico ahead in the 17th minute, a fifth goal at Anfield in three visits, after Julian Alvarez, whom Simeone had said would not start, split the defence; Dominik Szoboszlai levelled five minutes before half-time from Ronald Araujo's backheeled flick, and Alexis Mac Allister won it in the 50th with a left-footed drive from twenty yards, a day after saying he was 'very, very sad' that the club will not offer him a new contract. Opta had Liverpool 1.68 expected goals from 14 shots to Atletico's 0.81 from nine. Bradley Barcola, a first start on the right, missed two clear chances and went off at 59 with cramp; Rio Ngumoha started on the left; Cody Gakpo was left out as a precaution. Iraola said Atletico's back five surprised him and that he takes the blame for the start. Fulham, pointless and nineteenth, visit Anfield at 3pm on Saturday.",
-    subject: "Alexis Mac Allister, twenty yards out at the Kop end, body coiled through a left-footed strike, the ball a blur toward the top corner, Jan Oblak diving, the Kop rising behind the goal under floodlights",
-    prompt: "Cinematic wide still, 16:9, 1600x900, no text, no logos, no legible lettering. A midfielder in an all-red kit caught at the instant of a left-footed strike from outside the penalty area, body twisted through the shot, the ball a streak toward the top corner, a goalkeeper in dark colours at full stretch, a steep bank of red-clad supporters rising behind the goal under white floodlights, September night sky above the stand roof, shallow depth of field, photojournalistic, Getty-style sports photography, motion blur in the crowd, restrained colour grade with deep navy shadows and Liverpool red highlights.",
+      "Liverpool drew 0-0 with Fulham at Anfield on Saturday afternoon, the first match under Andoni Iraola without a goal and a fourth consecutive Premier League draw at Anfield, the first such run since November 2011 per Opta. Jeremy Jacquet cleared Gonzalo Garcia's shot off the line in the twelfth minute after Alisson's short pass to a marked Ryan Gravenberch was dispossessed and Josh King's penalty appeal waved away; Victor Munoz headed a corner against the bar on 22, Bernd Leno saved from Alexander Isak and Alexis Mac Allister, Alisson tipped King's curler wide on 76 and the substitute Rodrigo Muniz missed on 79. Opta had Liverpool 1.13 expected goals from 14 shots to Fulham's 0.71 from 10. Iraola's three changes, Kostas Tsimikas, Gravenberch and Munoz, were all withdrawn by the hour; Cody Gakpo returned from the bench. 'There is a lack of freshness, definitely, we cannot hide it,' Iraola said of a 60-hour turnaround. Fulham's first point under Alvaro Arbeloa. Tottenham, goalless in four league games, visit Anfield in the Carabao Cup on Tuesday at 8pm.",
+    subject: "Jeremy Jacquet, stretched full length across the Anfield goal-line under a grey September sky, hooking the ball clear inches from the net, a Fulham striker in white arriving a step too late, Alisson stranded to one side, the Kop behind the goal frozen mid-gasp",
+    prompt: "Cinematic wide still, 16:9, 1600x900, no text, no logos, no legible lettering. A young centre-back in an all-red kit stretched across a goal-line, one boot hooking a football clear a few inches in front of the net, the white net bulging behind him, a striker in an all-white kit arriving a step too late with arms raised in appeal, a goalkeeper in a dark kit stranded to one side of the six-yard box, a steep bank of red-clad supporters behind the goal under flat grey daylight, overcast September sky above the stand roof, shallow depth of field, photojournalistic, Getty-style sports photography, motion blur on the ball, restrained colour grade with cool grey shadows and Liverpool red highlights.",
     aspectRatio: "landscape",
-    slug: "mac-allister-strike",
+    slug: "jacquet-clearance",
   },
 };
 
 
 // ─── Next Fixture ──────────────────────────────────────────────────────────
 export const NEXT_MATCH = {
-  opponent: "Fulham",
-  shortName: "FUL",
+  opponent: "Tottenham",
+  shortName: "TOT",
   home: true,
-  date: "2026-09-12T15:00:00",
-  competition: "PL",
+  date: "2026-09-15T20:00:00",
+  competition: "EFL",
   venue: "Anfield",
-  broadcast: "Not televised in the UK (3pm)",
+  broadcast: "ITV and Sky Sports (8pm)",
 };
 
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
 // result: "W" | "D" | "L"
 export const RESULTS = [
+  { date: "2026-09-12", opponent: "Fulham",              home: true,  score: "0-0", competition: "PL",  result: "D", scorers: "" },
   { date: "2026-09-09", opponent: "Atlético Madrid",     home: true,  score: "2-1", competition: "UCL", result: "W", scorers: "Szoboszlai 40', Mac Allister 50'" },
   { date: "2026-09-04", opponent: "Ipswich Town",        home: false, score: "2-0", competition: "PL",  result: "W", scorers: "Isak 6', 9'" },
   { date: "2026-08-29", opponent: "Nott'm Forest",       home: true,  score: "2-2", competition: "PL",  result: "D", scorers: "Isak 60', Munoz 82'" },
@@ -517,32 +471,31 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-09-11 (Friday evening, 6pm ET) — re-fetched from ESPN's endpoint on the eve of Fulham and
-// byte-identical to every table since Wednesday's Atletico win: the Champions League does not touch it and no Premier League
-// game has been played since Sunday. Manchester City and Arsenal perfect on nine; Hull third on seven; Chelsea
-// fourth on six; Brentford, Liverpool, Newcastle, Everton and Leeds all on five, Liverpool sixth on plus two.
-// Fulham (Anfield, Saturday 3pm) still pointless with Coventry and Tottenham in the relegation stripe;
-// Bournemouth (away, the 20th) fifteenth on two.
+// Last refresh: 2026-09-12 (Saturday evening, 6pm ET) — re-fetched from ESPN's endpoint after the matchweek-four
+// Saturday games. Liverpool 0-0 Fulham leaves the Reds sixth on six from four (1W 3D), level with Everton and Ipswich and
+// a goal of difference behind Brentford's Europa stripe. Arsenal perfect on twelve; City on nine with the derby on Sunday;
+// Hull third on eight after a draw at Chelsea. Tottenham (Anfield, Carabao Cup, Tuesday 8pm) seventeenth on two and still
+// goalless; Fulham's first point lifts them to eighteenth, still in the stripe with Villa and pointless Coventry.
 export const STANDINGS = [
-  { pos: 1, team: "Manchester City", p: 3, w: 3, d: 0, l: 0, gd: 5, pts: 9, qualification: "UCL" },
-  { pos: 2, team: "Arsenal", p: 3, w: 3, d: 0, l: 0, gd: 5, pts: 9, qualification: "UCL" },
-  { pos: 3, team: "Hull", p: 3, w: 2, d: 1, l: 0, gd: 3, pts: 7, qualification: "UCL" },
-  { pos: 4, team: "Chelsea", p: 3, w: 2, d: 0, l: 1, gd: 1, pts: 6, qualification: "UCL" },
-  { pos: 5, team: "Brentford", p: 3, w: 1, d: 2, l: 0, gd: 3, pts: 5, qualification: "UEL" },
-  { pos: 6, team: "Liverpool", p: 3, w: 1, d: 2, l: 0, gd: 2, pts: 5, highlight: true },
-  { pos: 7, team: "Newcastle", p: 3, w: 1, d: 2, l: 0, gd: 2, pts: 5 },
-  { pos: 8, team: "Everton", p: 3, w: 1, d: 2, l: 0, gd: 2, pts: 5 },
-  { pos: 9, team: "Leeds", p: 3, w: 1, d: 2, l: 0, gd: 1, pts: 5 },
-  { pos: 10, team: "Brighton", p: 3, w: 1, d: 1, l: 1, gd: 3, pts: 4 },
-  { pos: 11, team: "Manchester United", p: 3, w: 1, d: 1, l: 1, gd: 1, pts: 4 },
-  { pos: 12, team: "Sunderland", p: 3, w: 1, d: 1, l: 1, gd: 0, pts: 4 },
-  { pos: 13, team: "Crystal Palace", p: 3, w: 1, d: 0, l: 2, gd: -4, pts: 3 },
-  { pos: 14, team: "Ipswich", p: 3, w: 1, d: 0, l: 2, gd: -4, pts: 3 },
-  { pos: 15, team: "Bournemouth", p: 3, w: 0, d: 2, l: 1, gd: -1, pts: 2 },
-  { pos: 16, team: "Nott'm Forest", p: 3, w: 0, d: 2, l: 1, gd: -1, pts: 2 },
-  { pos: 17, team: "Aston Villa", p: 3, w: 0, d: 1, l: 2, gd: -5, pts: 1 },
-  { pos: 18, team: "Tottenham", p: 3, w: 0, d: 1, l: 2, gd: -5, pts: 1, qualification: "REL" },
-  { pos: 19, team: "Fulham", p: 3, w: 0, d: 0, l: 3, gd: -3, pts: 0, qualification: "REL" },
+  { pos: 1, team: "Arsenal", p: 4, w: 4, d: 0, l: 0, gd: 7, pts: 12, qualification: "UCL" },
+  { pos: 2, team: "Manchester City", p: 3, w: 3, d: 0, l: 0, gd: 5, pts: 9, qualification: "UCL" },
+  { pos: 3, team: "Hull", p: 4, w: 2, d: 2, l: 0, gd: 3, pts: 8, qualification: "UCL" },
+  { pos: 4, team: "Chelsea", p: 4, w: 2, d: 1, l: 1, gd: 1, pts: 7, qualification: "UCL" },
+  { pos: 5, team: "Brentford", p: 4, w: 1, d: 3, l: 0, gd: 3, pts: 6, qualification: "UEL" },
+  { pos: 6, team: "Liverpool", p: 4, w: 1, d: 3, l: 0, gd: 2, pts: 6, highlight: true },
+  { pos: 7, team: "Everton", p: 4, w: 1, d: 3, l: 0, gd: 2, pts: 6 },
+  { pos: 8, team: "Ipswich", p: 4, w: 2, d: 0, l: 2, gd: -3, pts: 6 },
+  { pos: 9, team: "Newcastle", p: 3, w: 1, d: 2, l: 0, gd: 2, pts: 5 },
+  { pos: 10, team: "Leeds", p: 3, w: 1, d: 2, l: 0, gd: 1, pts: 5 },
+  { pos: 11, team: "Nott'm Forest", p: 4, w: 1, d: 2, l: 1, gd: 0, pts: 5 },
+  { pos: 12, team: "Brighton", p: 3, w: 1, d: 1, l: 1, gd: 3, pts: 4 },
+  { pos: 13, team: "Manchester United", p: 3, w: 1, d: 1, l: 1, gd: 1, pts: 4 },
+  { pos: 14, team: "Sunderland", p: 4, w: 1, d: 1, l: 2, gd: -2, pts: 4 },
+  { pos: 15, team: "Bournemouth", p: 4, w: 0, d: 3, l: 1, gd: -1, pts: 3 },
+  { pos: 16, team: "Crystal Palace", p: 4, w: 1, d: 0, l: 3, gd: -5, pts: 3 },
+  { pos: 17, team: "Tottenham", p: 4, w: 0, d: 2, l: 2, gd: -5, pts: 2 },
+  { pos: 18, team: "Fulham", p: 4, w: 0, d: 1, l: 3, gd: -3, pts: 1, qualification: "REL" },
+  { pos: 19, team: "Aston Villa", p: 4, w: 0, d: 1, l: 3, gd: -6, pts: 1, qualification: "REL" },
   { pos: 20, team: "Coventry", p: 3, w: 0, d: 0, l: 3, gd: -5, pts: 0, qualification: "REL" },
 ];
 
@@ -555,154 +508,158 @@ export const STANDINGS = [
 export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
-  matchweek: 3,
-  generatedAt: "2026-09-12T08:30:00Z",
+  matchweek: 4,
+  generatedAt: "2026-09-12T22:20:00Z",
   overview:
-    "Matchweek four begins with the table exactly as the last round of fixtures left it, every side on three games and a knot of five clubs level on five points that goals scored and goal difference are left to separate. Liverpool sit sixth inside it, unbeaten, and three o'clock at Anfield is the first chance to break out: beat Fulham, nineteenth and pointless, and the Reds go provisionally third on eight, above Chelsea and Hull, before Chelsea host Hull and Newcastle, Everton, Leeds and Brentford play out the weekend and reset the order. Above the knot Manchester City and Arsenal are perfect on nine, and promoted Hull are the story of the month at third on seven with a first real test at Stamford Bridge on Saturday. Below it Tottenham, eighteenth, visit Anfield in the Carabao Cup on Tuesday, and Bournemouth, fifteenth and winless, host on the 20th. At the foot Fulham and Coventry are the two pointless sides, Fulham beaten three times by a single goal apiece and yet to leave the relegation stripe under Alvaro Arbeloa.",
+    "The five-point knot is gone and Liverpool have not left it upward: Saturday's goalless draw with Fulham leaves them sixth on six points from four games, one win and three draws, level with Everton and Ipswich and a goal of difference behind Brentford, who wear ESPN's Europa stripe for it. The afternoon belonged to Arsenal, perfect on twelve after four and now three clear of Manchester City, who have a game in hand and a derby at Old Trafford on Sunday to play it in. Hull, held by Chelsea at Stamford Bridge, stay third on eight, a point ahead of the hosts. Below the middle, Tottenham's own 0-0 with Everton leaves them seventeenth on two and still without a league goal, three days before their Carabao Cup visit to Anfield, while Fulham's first point lifts them off the foot to eighteenth, still inside the relegation stripe with Aston Villa and a Coventry side yet to score or play their fourth game.",
   teams: {
-    "Liverpool": "Sixth on five, unbeaten, level with three others on points. Fulham at 3pm is the first chance to leave the five-point knot; a win lifts the Reds provisionally to third, and a fourth straight Anfield league draw would be a first since November 2011 per Opta.",
-    "Manchester City": "Top on nine, ahead of Arsenal on goals scored alone. Visit Anfield on 11 October.",
-    "Arsenal": "Second on nine, unbeaten and the only side to have beaten Chelsea. At Anfield on 1 November.",
-    "Hull": "Third on seven, promoted and unbeaten, the row nobody forecast. Chelsea away on Saturday is the first hard examination of it.",
-    "Chelsea": "Fourth on six, the total Liverpool would pass by beating Fulham. Host Hull at 3pm on Saturday.",
-    "Brentford": "Fifth on five, a goal of difference above Liverpool and wearing ESPN's Europa stripe for it. Host Liverpool on 17 October.",
-    "Newcastle": "Seventh on five, level with Liverpool on points and goal difference, behind on goals scored.",
-    "Bournemouth": "Fifteenth on two and winless; Liverpool visit the Vitality on Sunday 20 September.",
-    "Tottenham": "Eighteenth on one, in the relegation stripe, and at Anfield in the Carabao Cup on Tuesday, three days after Fulham leave it.",
-    "Fulham": "Nineteenth, pointless, three defeats by a single goal. Alvaro Arbeloa returns to Anfield, where he played 66 league games, for a first time back as a coach; one away league win in eleven in 2026.",
-    "Coventry": "Bottom, pointless, the only side yet to score, and by Opta's account unlucky to leave the Etihad with nothing.",
+    "Liverpool": "Sixth on six, one win in four and a fourth straight Anfield league draw. Level with Everton and Ipswich; the Europa stripe is one goal of difference away, and the Champions League line is Chelsea's seven.",
+    "Arsenal": "Top on twelve, the only perfect record left after four. At Anfield on 1 November.",
+    "Manchester City": "Second on nine from three, a game in hand on everyone above and around them, spent on Sunday's derby at Old Trafford. Visit Anfield on 11 October.",
+    "Hull": "Third on eight, promoted and unbeaten, a point taken at Stamford Bridge on Saturday to keep the row nobody forecast.",
+    "Chelsea": "Fourth on seven after a home draw with Hull; the total Liverpool would have passed with a win over Fulham.",
+    "Brentford": "Fifth on six, above Liverpool on goal difference alone and wearing the Europa stripe for it. Host Liverpool on 17 October.",
+    "Everton": "Seventh on six, level with Liverpool on points and goal difference after their 0-0 at Tottenham.",
+    "Ipswich": "Eighth on six, a second win of the season a week after losing 2-0 at home to Liverpool.",
+    "Bournemouth": "Fifteenth on three, still winless after a fourth draw; Liverpool visit the Vitality on Sunday 20 September.",
+    "Tottenham": "Seventeenth on two and the only side yet to score in the league, four games in. At Anfield in the Carabao Cup on Tuesday at 8pm.",
+    "Fulham": "Eighteenth on one, the point taken at Anfield on Saturday their first under Arbeloa; off the bottom, still in the relegation stripe.",
+    "Coventry": "Bottom, pointless and goalless from three games, the only side in the division yet to play a fourth.",
   },
 };
 // ─── Dispatches (hand-curated long reads — separate from the wire feed) ────
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "One Win From The Knot.",
-    byline: "This Is Anfield / Yahoo Sports",
+    headline: "Nil, Nil, And A Line Cleared.",
+    byline: "Opta Analyst / Sky Sports",
     dateline: "Anfield · 12 September",
-    category: "Football News",
+    category: "Match Report",
     body:
-      "Everything about Saturday is arithmetic waiting to be settled. Liverpool are sixth, unbeaten, one of five clubs on five points, and have not yet won a league game at their own ground this season, three draws into a home run older than the manager. Beat a Fulham side pointless after three and they go provisionally third, a third win inside eight days after Ipswich and Atletico. Iraola spent Friday insisting the goals are there. 'In all the games we've been dangerous, we've created chances,' he said, 'we scored two goals, we could have scored more.' The visitors are nineteenth and have lost three by a single goal. Three o'clock, no cameras, and a home win that has started to feel owed.",
+      "The afternoon that was supposed to end the draws produced another one, and the Kop's first real noise was a groan. Liverpool 0-0 Fulham: the first time in the club's history it has drawn both opening home league games, a fourth straight Anfield stalemate for the first time since Dalglish's autumn of 2011, and the first match under Andoni Iraola without a goal. It could have been worse. In the twelfth minute Alisson passed short to a marked Ryan Gravenberch, Josh King was tripped and not given a penalty, and Gonzalo Garcia's shot was on its way in until Jeremy Jacquet cleared it off the line. Victor Munoz hit the bar with a header. Leno saved from Isak and Mac Allister. Opta had it 1.13 expected goals to 0.71, a margin nobody in red would defend.",
   },
   {
     n: "02",
-    headline: "Another Special Day.",
-    byline: "Liverpool FC / Rousing The Kop",
-    dateline: "AXA Training Centre · 12 September",
-    category: "Football News",
-    body:
-      "Rio Ngumoha is eighteen and already has a sentence to his name: the youngest player ever to score at Anfield, which he did last April, in a 2-0 win over the side that visits again on Saturday. He would like, he told the club this week, another special day. He talked about a togetherness the coaching staff work to instal, about wanting to do something different this season, about learning to play minutes away from his natural side of the pitch. He called Isak and Barcola two of the best players in the world. Iraola wants him direct, at a defender quicker, a ball into the box, a shot away. The teenager sounded like a man in no hurry and in a great one at once.",
-  },
-  {
-    n: "03",
-    headline: "Twenty Months, And Counting.",
-    byline: "SI / CBS Sports",
-    dateline: "Anfield · 12 September",
-    category: "Football News",
-    body:
-      "Alexander Isak arrives at the one fixture on the calendar most likely to keep a striker's run alive. He has scored in his last two league games, the Ipswich brace enough to equal a whole injury-wrecked season, and a goal on Saturday would make it three in a row for the first time since January 2025, when it ran to eight. Fulham have conceded in every match and kept no clean sheet, which is the sort of defence a No. 9 remembers. With Ekitike a January hope and no other senior centre-forward fit, the load is his alone, 332 minutes in and no complaint offered. A first Anfield goal in red is the smaller record still outstanding.",
-  },
-  {
-    n: "04",
-    headline: "The Old Boy, Back As The Enemy.",
+    headline: "Sixty Hours.",
     byline: "Liverpool FC / BBC Sport",
     dateline: "Anfield · 12 September",
     category: "Manager",
     body:
-      "Alvaro Arbeloa played 66 league games in this stadium and won a fair few of them; on Saturday he walks back in as a head coach for the first time, in charge of the team everyone expects to lose. His reunion is with Iraola, a countryman who once chased the same Spain shirt. 'We were fighting more or less for the same position,' Iraola said, generously, 'but he was more successful in that he played more games than me.' The colder number belongs to Opta: former Liverpool players who have managed against the club in the Premier League are nought from five, Ince, Pellegrino, Gerrard. Arbeloa, pointless, makes six. Homecomings are rarely kind here.",
+      "Iraola did not reach for excuses, then offered the one everybody had already written down. 'There is a lack of freshness, definitely, we cannot hide it,' he said, calling the gap since Wednesday's win over Atletico 'the worst turnaround in terms of 60-something hours'. His side arrived late to the presses in the first half, he said, and controlled the second without scoring, which in a game like this means nothing. Asked whether Anfield itself had become the weight, he pushed back: he did not feel it three days ago, he prefers to play at home, and 'we cannot find the reasons outside, we have to find the reasons inside the pitch'. It was the first test of two games a week. Sky's man at the ground wrote that Liverpool did not pass it.",
   },
   {
-    n: "05",
-    headline: "The Draw Anfield Cannot Shake.",
-    byline: "Opta / Dimers",
+    n: "03",
+    headline: "Three Changes, Three Regrets.",
+    byline: "The Independent / Rousing The Kop",
     dateline: "Anfield · 12 September",
     category: "Tactics",
     body:
-      "There is one statistic the home crowd would like buried by five o'clock. Liverpool have drawn each of their last three league games at Anfield, the longest home winless run in the competition since the shut-gate spring of 2021, and a fourth would be a first since November 2011. Everything else argues against it: one prediction model makes Saturday about 62 per cent Liverpool, another closer to seventy, and Fulham have won a single away league game all calendar year. The reading of the afternoon is the collision between a number that says the draw is due and a gulf that says it cannot be. Iraola's answer, offered all week, is to start faster and settle it early.",
+      "Rotation was the plan and rotation was the problem. Kostas Tsimikas, Ryan Gravenberch and Victor Munoz came in for Kerkez, Mac Allister and Ngumoha; by the hour all three had gone back off, Tsimikas at half-time after misplacing eleven of thirty-one passes, the others on sixty. Rousing The Kop gave the left-back, Gravenberch and Szoboszlai a 3 each and counted the pivot winning two of ten ground duels before the break. Richard Jolly's line in The Independent was the uncomfortable one: a first attempt at squad rotation that 'could scarcely be deemed a success', which 'lends itself to the interpretation that Liverpool's squad is simply not strong enough', 670 million pounds later. Mac Allister came on and the game settled. The site called him undroppable.",
+  },
+  {
+    n: "04",
+    headline: "The Goalkeeper Speaks.",
+    byline: "Sky Sports / BBC Sport",
+    dateline: "Anfield · 12 September",
+    category: "Football News",
+    body:
+      "It fell to Alisson, who had started the scare with the pass of the day, to say what the manager would not. 'We are not happy at all with the draw. It is not something that should happen with Liverpool.' Unbeaten with three draws, he said, 'is not something to celebrate too much with this shirt'. He named the schedule, Wednesday, Saturday, Tuesday, and then named the thing behind it: 'We need to have the right mental state and that was not the case from what we showed. Inside we have it, but we have to just put it out.' The BBC found the number that matched the mood. Alexander Isak touched the ball sixteen times in ninety minutes, the second fewest for a Liverpool outfielder on record. The fewest, fourteen, was also his, against Forest.",
+  },
+  {
+    n: "05",
+    headline: "Two Teams Who Cannot Score.",
+    byline: "CBS Sports / Tottenham Hotspur",
+    dateline: "Tottenham Hotspur Stadium · 12 September",
+    category: "Football News",
+    body:
+      "Tuesday's cup opponents spent Saturday afternoon in the same silence. Tottenham 0-0 Everton, and Roberto De Zerbi's side have now gone four league games without a goal for the first time in their history, 0.64 expected goals from fourteen shots and a placard in the stands that read 'please score a goal'. 'If we unblock ourselves, I think the team is extremely strong,' the Italian said, having started work with the group 'two Thursdays ago'; his own joke was that in Italy two clean sheets would make him the best coach in the country. Andy Robertson started at left-back and comes back to Anfield in white at 8pm on Tuesday, Carabao Cup third round, ITV and Sky. Somebody, presumably, will score.",
   },
 ];
 
 export const NEWS_DIGEST = {
-  generatedAt: "2026-09-12T08:30:00Z",
+  generatedAt: "2026-09-12T22:20:00Z",
   summary:
-    "Saturday, and for once the day's biggest story is the fixture itself: Liverpool, sixth and unbeaten on five points, host a pointless Fulham at three o'clock, with Andoni Iraola chasing a first home league win of his tenure and a third victory in eight days. The manager, whose side have come from behind in three of four, has asked for a faster start and insists the team 'has goals in it', having scored exactly twice in every game so far. Alexander Isak, leading the line with Hugo Ekitike a January hope, can score in a third straight league game for the first time in twenty months against the division's leakiest defence, while Rio Ngumoha, the youngest man to score at Anfield, did it here against Fulham last April and wants 'another special day'. Cody Gakpo is the one team-news doubt, an adductor niggle unresolved into matchday, with Barcola and Kerkez cleared and Joe Gomez in line for a first bench of the season. Fulham, nineteenth and beaten three times by a single goal, bring Alvaro Arbeloa back to the club he played 66 league games for; the prediction models make Liverpool heavy favourites, and a fourth successive Anfield league draw would be a first since November 2011. Tottenham follow in the Carabao Cup on Tuesday.",
+    "Liverpool 0-0 Fulham, and Saturday evening belongs to the point the visitors took rather than the two the hosts dropped: Andoni Iraola's side, three changes made after Wednesday's European win, failed to score for the first time under him, drew a fourth consecutive Premier League game at Anfield for the first time since November 2011, and needed Jeremy Jacquet's goal-line clearance in the twelfth minute to avoid losing to a side that arrived pointless. 'There is a lack of freshness, definitely, we cannot hide it,' Iraola said of a 60-hour turnaround; Alisson told Sky the draw is 'not something to celebrate too much with this shirt'. Opta had it 1.13 expected goals to 0.71 and 14 shots to 10, with Victor Munoz's header against the bar the closest Liverpool came; Kostas Tsimikas, a first start of the season, was withdrawn at half-time and Ryan Gravenberch and Munoz followed on the hour, while Cody Gakpo returned from the bench. Fulham, first point under Alvaro Arbeloa, gave Affengruber a debut and had the clearer second-half chances through Josh King and the substitute Muniz. The table has Liverpool sixth on six from four, level with Everton and Ipswich, as Arsenal go clear on twelve. Tottenham, themselves goalless in four league games after a 0-0 with Everton, visit Anfield in the Carabao Cup on Tuesday, 8pm, before Bournemouth away on the 20th.",
   keyTopics: [
     {
-      title: "Matchday At Anfield: Iraola Chases A First Home League Win, And A Third In Eight Days, Against Pointless Fulham (This Is Anfield / Yahoo Sports, today)",
+      title: "Liverpool 0-0 Fulham: A Fourth Straight Anfield League Draw, A First Blank Under Iraola, And A Goal-Line Clearance That Kept The Point (Opta Analyst / Sky Sports / Liverpool FC, today)",
       detail:
-        "Three o'clock on Saturday, and the frame is simple. Liverpool are sixth and unbeaten, one win from breaking the five-point knot, and have not won a league game at Anfield yet this season, three draws deep in a home run that predates Iraola. He has made an unbeaten start and beaten Atletico in midweek; a Fulham side pointless after three would be a third win in eight days. 'I think the team has goals in it,' he said on Friday. 'In all the games we've been dangerous, we've created chances, we scored two goals, we could have scored more.' Fulham are nineteenth, beaten three times by a single goal.",
+        "The afternoon in one line: Liverpool drew a fourth consecutive Premier League game at Anfield for the first time since November 2011 under Kenny Dalglish, per Opta, and failed to score for the first time in Iraola's five matches. Alisson's short pass to a marked Gravenberch in the twelfth minute was dispossessed, Josh King's penalty appeal was waved away and Jacquet cleared Gonzalo Garcia's shot off the line; Munoz headed a corner against the bar on 22, Leno saved from Isak and Mac Allister, Alisson tipped King's curler wide on 76, and the substitute Muniz should have scored on 79. Opta: 1.13 expected goals to 0.71, 14 shots to 10, Fulham 24 touches in the box to 18. Fulham's first point under Arbeloa.",
       category: "matches",
     },
     {
-      title: "Twenty Months: Isak Can Score In Three Straight League Games For The First Time Since January 2025, Against The League's Leakiest Defence (This Is Anfield / SI / CBS Sports, today)",
+      title: "'A Lack Of Freshness, Definitely, We Cannot Hide It': Iraola On The 60-Hour Turnaround, Late Presses And Finding The Reasons 'Inside The Pitch' (Liverpool FC / Sky Sports, today)",
       detail:
-        "The individual story of the afternoon. Isak, who scored twice at Ipswich to equal his entire injury-hit 2025-26 league tally, can score in a third consecutive Premier League match for the first time since January 2025, when the run reached eight, per Opta. Fulham have kept no clean sheet and conceded in every game; This Is Anfield, SI and CBS all frame the visitors' defence as the encouragement. With Ekitike now a January hope and no other senior nine fit, Isak leads the line again; a first Anfield goal in a Liverpool shirt is still owed. Iraola said on Friday he will not judge him on goals alone.",
-      category: "general",
-    },
-    {
-      title: "Ngumoha Wants 'Another Special Day': The Youngest To Score At Anfield, Here Against Fulham Last April, On Togetherness And 'Two Of The Best In The World' (Liverpool FC / Rousing The Kop, today)",
-      detail:
-        "The club's Saturday-morning interview with the 18-year-old, who became the youngest player to score at Anfield in a 2-0 win over Fulham last April and is 'targeting another key contribution' against the same visitors. He spoke about a squad togetherness the staff, Iraola, Elphick, Cooper and De la Torre, work to instal, about wanting to do 'something special' this season, and about navigating minutes outside his natural position. Rousing The Kop pulled his line that Liverpool have two new players 'among the best in the world', Isak and Barcola. Iraola, he said, wants him direct: get at a man quicker, put a ball in the box, get a shot off.",
-      category: "general",
-    },
-    {
-      title: "Team News: Gakpo's Adductor Still Unresolved Into Matchday, Barcola And Kerkez Cleared, Munoz The Fallback (Sports Mole / SI, today)",
-      detail:
-        "The one open question at kick-off is the left. Gakpo, who did not train on Thursday and was tested in Friday afternoon's session, remains a doubt with an adductor niggle, and no verdict had emerged by Saturday morning; SI's matchday XI simply starts Victor Munoz, with Ngumoha the other option if Gakpo waits for Tuesday's cup tie. Barcola, withdrawn with cramp against Atletico, and Kerkez, off on 88 with the same, are both cleared as tired rather than hurt. Four are confirmed out, Ekitike, Bradley, Leoni and Chiesa, with up to eight first-teamers out or doubtful across the two team-news rounds.",
-      category: "matches",
-    },
-    {
-      title: "The Anfield Question: Three League Draws Running At Home, And The Models Still Make Liverpool Heavy Favourites (Opta / Dimers, today)",
-      detail:
-        "Liverpool have drawn their last three top-flight games at Anfield, per Opta, the longest home league winless run since the empty spring of 2021; a fourth in a row would be the first since November 2011. Set against that is the gulf in form and quality: one prediction model quoted on Saturday makes it about 62 per cent Liverpool, 21 per cent draw, 17 per cent Fulham, another goes nearer 70-17-13, and Fulham have won one of eleven away league games in 2026. Reported, not predicted; but the numbers say the draw run should end at three.",
-      category: "matches",
-    },
-    {
-      title: "Arbeloa Comes Home: A First Return To Anfield As A Coach, To The Club He Played 66 League Games For, And Ex-Reds Are Nought From Five In The Seat (Liverpool FC / BBC Sport, today)",
-      detail:
-        "Alvaro Arbeloa, two and a half years an Anfield player, returns on Saturday for a first time back as a head coach, a reunion with Iraola, against whom he once competed for the same Spain place. 'We were fighting more or less for the same position,' Iraola said, 'but I think he was more successful in that he played more games than me.' Opta's line is less sentimental: former Liverpool players managing against the club in the Premier League have lost all five meetings, Ince once, Pellegrino and Gerrard twice each, and Arbeloa, pointless after three, makes it a sixth attempt.",
-      category: "matches",
-    },
-    {
-      title: "'I Want To Impose Ourselves From The Beginning': Iraola On Ending The Slow Starts After Three Comebacks In Four (Yahoo Sports / LiveScore, today)",
-      detail:
-        "The tactical thread from Friday's briefing, carried into matchday. Iraola wants a fast start on Saturday to avoid a fourth game spent chasing, after his side conceded first in three of his opening four and came from behind against Newcastle, Forest and Atletico. 'I want to impose ourselves from the beginning,' he said, arguing games 'look much more comfortable' with an early goal and that the second halves have been the better ones. Against a Fulham mid-block built to sit and break, the first twenty minutes are the ones his own reading of the season keeps returning to.",
+        "The manager's reading, given within the hour of the final whistle. 'I think it's the first game since I'm here that we've had problems to create chances,' Iraola said, calling the Wednesday-to-Saturday gap 'the worst turnaround in terms of 60-something hours' and adding that 'this is going to happen more times' and the side must adapt. In the first half 'we were arriving late to the presses'; the second was better structured. Asked whether Anfield has become a burden, he said he did not feel it against Atletico and prefers home: 'We cannot find the reasons outside, we have to find the reasons inside the pitch.' Sky's Adam Bate framed it as the first test of two games a week, and one Liverpool did not pass.",
       category: "tactics",
     },
     {
-      title: "Fulham's Threat Runs Down The Flanks: Bobb, King And Robinson The Danger For A Side That Made 3.13 xG In Defeat To Palace (Squawka / Sky Sports, today)",
+      title: "The Rotation That Backfired: Tsimikas Off At Half-Time, Gravenberch And Munoz By The Hour, And The Independent's Case That The Squad Is Not Deep Enough (The Independent / Rousing The Kop / SI, today)",
       detail:
-        "Arbeloa's Fulham are not toothless, only leaky. Sky recorded 3.13 expected goals in the 3-2 home loss to Crystal Palace that sent them into this game, and the danger is wide: Oscar Bobb, 22 dribbles and 18 key passes since his January move from City per Squawka, cuts in from the right, Antonee Robinson overlaps hard from the left, and Josh King, two goals in three, drops off Gonzalo Garcia between the lines. Kerkez, beaten for Llorente's opener on Wednesday, is the man in Bobb's path; the collision is with Liverpool's own slow starts.",
+        "Iraola's first real attempt at rotation, three changes for Kerkez, Mac Allister and Ngumoha, was undone by the hour mark: Tsimikas, a first start of the season, misplaced 11 of 31 passes by FotMob's count and was replaced by Kerkez at half-time, Gravenberch and Munoz went off on 60. Rousing The Kop gave Tsimikas, Gravenberch and Szoboszlai a 3 apiece and noted the pivot won two of ten first-half ground duels, Szoboszlai none of six; Richard Jolly in The Independent wrote that it 'lends itself to the interpretation that Liverpool's squad is simply not strong enough' after a 670m-pound outlay in 16 months, and that Iraola has now drawn half of his last 42 league games.",
       category: "tactics",
     },
     {
-      title: "Gomez Nears A First Bench Seven Weeks On, Easing A Centre-Back And Right-Back Load That Was A Crisis A Fortnight Ago (3 Added Minutes / Liverpool Echo, today)",
+      title: "Jacquet, Man Of The Match On A Day Nobody Else Earned It: An 8, A Clearance Off The Line, And SI's 'Class' Verdict (Rousing The Kop / SI via FotMob, today)",
       detail:
-        "The quieter squad story. Joe Gomez, in full training since Wednesday after the muscle injury in July's Sunderland friendly, is in line for a first matchday squad of the season against Fulham, seven weeks on, per 3 Added Minutes, with the Tottenham cup tie on Tuesday the likelier first minutes. He gives Iraola a fourth senior centre-back behind Van Dijk and Jacquet, who have played every minute, and a third right-back option behind Araujo, whom the manager called a centre-back excelling out of position. Two months ago the right of the defence had one fit body.",
+        "The one performance both ratings pieces agreed on. Rousing The Kop gave the 21-year-old an 8 and the man-of-the-match tag for reading Garcia's twelfth-minute shot and clearing it off the line after Alisson's error, then being 'immaculate in just about everything he did'; FotMob's 8.1 topped the SI card, which called him the steady partner Van Dijk needed after Konate's decline and noted his repeated interventions on Fulham counters. Van Dijk took a 7.4 on the same card. Behind him, Rousing gave Alisson a 5 for the pass that started the scare, and SI recorded the goalkeeper nearly conceding a penalty in the aftermath.",
+      category: "general",
+    },
+    {
+      title: "Alisson: A Draw Is 'Not Something To Celebrate Too Much With This Shirt', And The Mental State 'Was Not The Case' (BBC Sport / Sky Sports, today)",
+      detail:
+        "The dressing-room line came from the goalkeeper rather than the manager. 'We are not happy at all with the draw,' Alisson told Sky. 'To be unbeaten, but with three draws, is not something to celebrate too much with this shirt.' He tied it to the schedule, 'we have to cope with playing a game Wednesday, Saturday and then Tuesday', and to application: 'We need to have the right mental state and that was not the case from what we showed. Inside we have it, but we have to just put it out.' The BBC's Aadam Patel added the number that stung: Isak had 16 touches in 90 minutes, the second fewest for a Liverpool outfielder on record, behind only his own 14 against Forest.",
+      category: "general",
+    },
+    {
+      title: "Next Up, A Side That Cannot Score Either: Tottenham Draw 0-0 With Everton, Four League Games Without A Goal, Before Tuesday's Cup Tie At Anfield (CBS Sports / Tottenham Hotspur, today)",
+      detail:
+        "Tuesday's Carabao Cup opponents produced the afternoon's other goalless draw. Roberto De Zerbi's Tottenham, 17th on two points after four hundred million dollars of summer spending, have now failed to score in each of their first four league games for the first time in the club's history, per CBS, ending 0-0 with Everton on 0.64 expected goals from 14 shots; a supporter held up a 'please score a goal' placard at the whistle. 'If we unblock ourselves, I think the team is extremely strong,' De Zerbi said, adding that he only began working with the group 'two Thursdays ago'. Andy Robertson started at left-back against Everton and returns to Anfield in white on Tuesday at 8pm, live on ITV and Sky Sports.",
+      category: "matches",
+    },
+    {
+      title: "Arbeloa's Point: 'Happy With The Point And More Happy With The Performance', Affengruber's Debut, And A Side That 'Found The Right Balance' (The Independent / Sky Sports, today)",
+      detail:
+        "The homecoming went the visitor's way. Arbeloa, back at the ground he played 66 league games at, left out Joachim Andersen and gave deadline-day centre-back David Affengruber a first start: 'He proved how good he is.' He told Sky the week since the Palace collapse had been spent on control of the transition, 'all teams here in England have quick players', and that his players 'believe in the way that we have been working'. Fulham ended with more shots on target, four to three, and more touches in the opposition box; Opta notes they have still won only one of their last twelve away league games, and had lost their first four of a top-flight season only twice before, both ending in relegation.",
+      category: "matches",
+    },
+    {
+      title: "Mac Allister Undroppable: Rousing The Kop On A Pivot That Only Settled When He Came On, And The Contract Question That Will Not Go Away (Rousing The Kop, today)",
+      detail:
+        "The evening's opinion lead. Rousing The Kop argued that Iraola 'can not afford to drop Mac Allister again for any meaningful matches' after watching the Gravenberch-Szoboszlai pivot lose its balance for an hour; the Argentine came on for Gravenberch at 60, sat slightly deeper, was 'much more effective in the press', set up Szoboszlai for a chance and had a drive parried by Leno, the site's 7 the best mark on a poor card. Four days after he said the club will not renew him, the piece calls him 'arguably their most important player' and says the afternoon 'will not quieten those desperate to see a new midfielder arrive in 2027'.",
+      category: "general",
+    },
+    {
+      title: "Barcola On The Left This Time, Isak's Sixteen Touches, And Wirtz Still Without A Goal: The 364m-Pound Front Three Start Together And Create Little (BBC Sport / The Independent / Liverpool FC, today)",
+      detail:
+        "Isak, Barcola and Wirtz started a league game together for the first time, and the BBC's verdict was that they 'created nowhere near enough'. Barcola, moved from the right to the left, made his first Premier League start and set Isak up for the game's first chance, dragged wide, then faded; Iraola said afterwards the four wingers 'will play on the right and play on the left' all season and that Barcola is 'building his physical condition' with games. Wirtz hit two shots the wrong side of the right post and scuffed another; Isak was twice denied by Leno and glanced a stoppage-time header wide from a Szoboszlai corner.",
+      category: "tactics",
+    },
+    {
+      title: "Gakpo Back From The Bench, Gomez Left Out Of The Squad Again, And No New Injury From A Third Match In Seven Days (Liverpool FC / SI, today)",
+      detail:
+        "The squad news from a match that produced no fresh casualty. Gakpo, the week's one doubt, was passed fit enough for the bench and came on for Munoz at 60 from the right, a 5 from Rousing The Kop and a 6.1 from FotMob without influencing the game; the adductor question is closed for now. Joe Gomez was not in the nine-man bench, which read Mamardashvili, Endo, Kerkez, Mac Allister, Gakpo, Frimpong, Nyoni, Koumas and Ngumoha, so his first squad of the season waits for Tuesday at the earliest. Frimpong replaced Araujo on 72 and was the better of the late changes, a 6.9 on FotMob. Iraola said Endo 'will have his moments' but is competing with three pivots ahead of him.",
       category: "injuries",
     },
     {
-      title: "Anfield, 3pm: Not Televised In The UK, Peacock In The US, And A Walton Breck Road Closure For Supporters (Liverpool FC, today)",
+      title: "The Table After Matchweek Four: Liverpool Sixth On Six, Level With Everton And Ipswich, As Arsenal Go Clear And The Derby Waits (ESPN / Opta Analyst, today)",
       detail:
-        "The practical notes for matchday. Liverpool against Fulham kicks off at three o'clock and falls inside the traditional Saturday 3pm blackout, so it is not broadcast live on television in the United Kingdom; in the United States it is on Peacock and NBCSN. The club repeated its Walton Breck Road closure advice for supporters heading to the ground. Tom Bramall referees. It is the first of three matches in seven days, Fulham on Saturday, Tottenham in the Carabao Cup on Tuesday and Bournemouth away the following Sunday.",
-      category: "general",
+        "Saturday's results left Liverpool sixth on six points from four games, one win and three draws, level with Everton and Ipswich and a goal of difference behind Brentford in the Europa stripe. Arsenal are top on twelve, perfect after four; Manchester City, on nine from three, play their derby at Old Trafford on Sunday. Hull, held by Chelsea, stay third on eight. Opta's context for the home run: before matchday four only Brighton and Chelsea had spent a lower share of their season in a drawing game state than Liverpool's 21 per cent, and the side had won four league games at Anfield in all of 2026 by The Independent's count, which is now still four.",
+      category: "matches",
     },
   ],
   sources: [
     "Liverpool FC",
-    "This Is Anfield",
-    "SI",
-    "CBS Sports",
-    "Yahoo Sports",
-    "Sports Mole",
+    "Opta Analyst",
+    "Sky Sports",
     "BBC Sport",
+    "The Independent",
     "Rousing The Kop",
-    "Squawka",
-    "Opta",
-    "Dimers",
-    "3 Added Minutes",
-    "Liverpool Echo",
-    "LiveScore",
+    "SI",
+    "FotMob",
+    "CBS Sports",
+    "Tottenham Hotspur",
+    "ESPN",
   ],
 };
 
@@ -724,107 +681,125 @@ export const NEWS_DIGEST = {
 // next edition and then into the auditor's blind spot.
 
 export const OPPOSITION = {
-  generatedAt: "2026-09-12T08:30:00Z",
-  opponent: "Fulham",
-  shortName: "FUL",
+  generatedAt: "2026-09-12T22:20:00Z",
+  opponent: "Tottenham",
+  shortName: "TOT",
   fixture: {
-    date: "2026-09-12T15:00:00",
+    date: "2026-09-15T20:00:00",
     venue: "Anfield",
     home: true,
-    competition: "PL",
-    broadcast: "Not televised in the UK (3pm)",
+    competition: "EFL",
+    broadcast: "ITV and Sky Sports (8pm)",
   },
-  manager: "Álvaro Arbeloa",
+  manager: "Roberto De Zerbi",
   formation: "4-2-3-1",
-  leaguePosition: 19,
+  leaguePosition: 17,
   summary:
-    "Matchday, and the week's question about Alvaro Arbeloa's dressing room gives way to the simpler one of whether his pointless side can hold out at Anfield. Fulham arrive nineteenth, beaten three times by a single goal each, booed off Craven Cottage after leading Crystal Palace twice and losing 3-2, and yet, by Iraola's Friday reading and their own underlying numbers, better than a bottom-two team: sixty-something per cent of the ball across the three defeats, 3.13 expected goals in the Palace loss on Sky's count, technically able players undone by what they concede. Arbeloa told the Evening Standard on Friday that Saturday is where a message gets sent and named deadline-day centre-back David Affengruber fit to start; his own homecoming, 66 league games an Anfield player, is a first return as a coach. This is a new project rather than an old one failing: Marco Silva left in the summer, Arbeloa arrived from Real Madrid's coaching ranks on a three-year deal, the board spending on his Madrid connections, Gonzalo Garcia for a record-equalling 34m pounds, Cesar Palacios alongside him, Shea Charles from Southampton for 26m, with Diop and Lukic sold to Ipswich. Chelsea scored after 31 seconds on the opening Monday and won 3-2; Sunderland took it 1-0 through a 75th-minute Isidor goal; Palace turned two Fulham leads into a Mitchell double and a Chilwell winner. Only twice before, in 1951-52 and 2020-21, have Fulham opened a top-flight season with three defeats, and both ended in relegation. Cairney and De Fougerolles, both knees, are out; the club's stats page adds that Fulham have won one of eleven away league games in 2026 and that ex-Liverpool managers are nought from five against the Reds.",
+    "Rebuilt on Saturday night for a cup tie between two sides that have just spent an afternoon failing to score. Tottenham arrive at Anfield on Tuesday, Carabao Cup third round, seventeenth in the league on two points and without a Premier League goal after four games, a first in the club's history per CBS Sports, after a 0-0 with Everton in which they took 14 shots worth 0.64 expected goals and did not test Pickford until Lucas Bergvall's 89th-minute effort. Roberto De Zerbi, appointed in the summer to a squad rebuilt for around four hundred million dollars, Savio from Manchester City for 75m pounds, Omar Marmoush, Jan Paul van Hecke, Mateus Fernandes, Andy Robertson on a free from Liverpool, says he began working with the group 'two Thursdays ago' and that 'if we unblock ourselves, I think the team is extremely strong'. The league sequence reads Brentford 0-3 away, Newcastle 0-2 at home, Forest 0-0 away, Everton 0-0 at home; the exception is this competition, where they beat Charlton 5-1 in the second round with Moore, Solanke, Danso, Savio and Davies scoring. Two clean sheets in a row are the improvement De Zerbi points to; the placard in the stands on Saturday read 'please score a goal'.",
   shape:
-    "Where Fulham hurt you is on the flanks, not through the middle: Arbeloa's side build patiently from the back in a 4-2-3-1 with Shea Charles and Alex Iwobi screening, and come alive when the flanks break, Oscar Bobb's burst to the byline made King's opener against Palace, and Antonee Robinson, 47 tackles in the league last season per Squawka, overlaps hard from left-back. Josh King plays as the ten and drops off Garcia to link. Out of possession it is a mid-block that presses when the ball enters central areas, and the problem, three games in, is what happens once it is breached: two leads thrown away against Palace, a goal conceded inside a minute against Chelsea, and a defence that has kept no clean sheet.",
+    "De Zerbi's Tottenham build slowly from the back through Van Hecke and Van de Ven, Kinsky in goal, and look to move the ball quickly once the opponent commits; with Tonali and Bentancur screening, Fernandes and Archie Gray took turns crashing the inside-right channel against Everton before the tempo fell away. The threat is wide and early rather than central and late: Savio receives in dangerous areas and, by CBS's account, too often does too little with it, Marmoush drifts in from the left, and Solanke went 63 minutes without a shot. Out of possession they were, per CBS, far less vulnerable than for most of the last two seasons, and the two straight clean sheets are real; the problem is a front line whose combined shots on Saturday, three, were fewer than the back four's five.",
   keyPlayers: [
     {
-      name: "Josh King",
-      role: "No. 10",
-      threat: "Two goals in three league games, one against Chelsea on the opening night and the 11th-minute opener against Palace, per Sky Sports and ESPN; Sky called him outstanding once again at Craven Cottage and his dummy on the left made the Palacios goal. The one Fulham player Liverpool's pivot must track between the lines.",
-      source: "Sky Sports / ESPN",
-    },
-    {
-      name: "Gonzalo García",
-      role: "Centre-forward",
-      threat: "The £34m record-equalling signing from Real Madrid, eight goals for Madrid in all competitions last season per Squawka, scored against Chelsea on his league debut. Denied by Henderson before the Palacios goal on Saturday, then failed to clear the ball for Mitchell's second.",
-      source: "Squawka / Sky Sports",
-    },
-    {
-      name: "Oscar Bobb",
+      name: "Savio",
       role: "Right winger",
-      threat: "22 successful dribbles and 18 key passes after his January move from Manchester City, per Squawka, who name him Fulham's primary creator; his run to the byline produced King's opener against Palace. Kerkez, marked down for the Llorente goal on Wednesday, is the man in his path.",
-      source: "Squawka / Sky Sports",
+      threat: "The 75m-pound signing from Manchester City scored and assisted on his debut in the 5-1 over Charlton in this competition, per Sky Sports, eleven minutes after coming on; missed the Newcastle defeat with muscular fatigue and has since started at Forest and against Everton without a league goal contribution.",
+      source: "Sky Sports / Evening Standard",
     },
     {
-      name: "César Palacios",
-      role: "Attacking midfielder",
-      threat: "Followed Arbeloa from Real Madrid this summer and scored his first Fulham goal, the 42nd-minute restoring of the lead against Palace, per Sky Sports, before being replaced on 62.",
-      source: "Sky Sports / Squawka",
+      name: "Lucas Bergvall",
+      role: "Midfielder / substitute",
+      threat: "Produced Tottenham's only real test of Pickford on Saturday, an 89th-minute shot bent toward the bottom corner, per CBS Sports; scored the winner against Liverpool in the 2025 Carabao Cup semi-final first leg. A likely starter in a rotated cup side.",
+      source: "CBS Sports",
+    },
+    {
+      name: "Dominic Solanke",
+      role: "Centre-forward",
+      threat: "Scored in the 5-1 over Charlton, per Sky Sports, and started his first league game of the season against Everton, where CBS counted no shots and no shot assists in 63 minutes and 11 completed passes worth 0.01 expected assists. The number that explains the goal drought.",
+      source: "Sky Sports / CBS Sports",
+    },
+    {
+      name: "Andy Robertson",
+      role: "Left-back",
+      threat: "Started against Everton and delivered the free-kick that produced Van Hecke's flick, the only Tottenham shot worth more than 0.1 expected goals on Saturday (0.14), per CBS Sports. Left Liverpool in July as a free agent; this is his first return to Anfield.",
+      source: "CBS Sports / This Is Anfield",
     },
   ],
   predictedXI: [
-    "Leno", "Castagne", "Andersen", "Bassey", "Robinson",
-    "Berge", "Charles", "Iwobi", "King", "Palacios", "García",
+    "Kinsky", "Gray", "Van Hecke", "Van de Ven", "Robertson",
+    "Tonali", "Bentancur", "Savio", "Fernandes", "Marmoush", "Solanke",
   ],
   absentees: [
-    { name: "Tom Cairney", issue: "Knee", status: "Out" },
-    { name: "Luc De Fougerolles", issue: "Knee", status: "Out" },
+    { name: "Xavi Simons", issue: "ACL (April)", status: "Out" },
+    { name: "Wilson Odobert", issue: "ACL", status: "Out" },
+    { name: "Dejan Kulusevski", issue: "Knee (patella), back in training", status: "Doubt" },
+    { name: "James Maddison", issue: "Shoulder fracture, on the bench against Everton", status: "Doubt" },
   ],
   recentForm: [
-    { date: "2026-09-05", opponent: "Crystal Palace", home: true, score: "2-3", result: "L", note: "King (11) and Palacios (42) gave Fulham the lead twice; Mitchell (35, 54) and Chilwell (77) turned it. Sky recorded Fulham's expected goals at 3.13. Booed off." },
-    { date: "2026-08-30", opponent: "Sunderland", home: false, score: "0-1", result: "L", note: "Beaten by Wilson Isidor's 75th-minute goal from the bench at the Stadium of Light." },
-    { date: "2026-08-24", opponent: "Chelsea", home: true, score: "2-3", result: "L", note: "Pedro after 31 seconds, then Palmer and Rogers; King and Garcia replied. Arbeloa's first match, the opening Monday night of the season." },
+    { date: "2026-09-12", opponent: "Everton", home: true, score: "0-0", result: "D", note: "0.64 expected goals from 14 shots per CBS; Pickford not tested until Bergvall on 89. A fourth league game without a goal, a club first. Booed off." },
+    { date: "2026-09-05", opponent: "Nott'm Forest", home: false, score: "0-0", result: "D", note: "A first point and a first clean sheet of the season at the City Ground." },
+    { date: "2026-08-30", opponent: "Newcastle", home: true, score: "0-2", result: "L", note: "Beaten in the home opener; Savio left out with muscular fatigue after his cup debut." },
+    { date: "2026-08-26", opponent: "Charlton", home: true, score: "5-1", result: "W", note: "Carabao Cup second round. Moore, Solanke, Danso, Savio and Davies; Savio scored and assisted within eleven minutes of coming on." },
   ],
   liverpoolAngle:
-    "The reading of the afternoon is a collision between form and a Liverpool habit. Fulham have lost all three by a single goal, kept sixty-something per cent of the ball and been beaten by what happens when they lose it; Arbeloa has spent the week, by his own account, on controlling the transition. That is aimed squarely at Liverpool's two highest-severity patterns in FORM_TRENDS.diagnosis, conceding first and the fast-break concession: Iraola conceded on Friday that his side are 'not starting the games too well' and that he wants to impose them from the beginning, and a side told to sit in a medium block and break is built to punish the slow start and the pass through the seam that Llorente exploited on Wednesday. Their threat runs wide, Bobb cutting in from the right, Robinson overlapping from the left, King dropping off Garcia between the lines, into Kerkez, who was beaten for the Llorente goal but is cleared and starts; SQUAD_LOAD.depthRisk still marks the wide-forward department high, with Gakpo's adductor unresolved into matchday and Munoz the fallback. The other reading is the gulf: no Fulham clean sheet, one away win in eleven this year, prediction models at roughly 62 to 70 per cent Liverpool, against a Reds side that has scored exactly twice in every game, has Isak on three in three chasing a fourth, and has Jacquet winning 18 of 25 duels behind it. The predicted XI is the Friday-into-Saturday consensus, Bassey and Berge into the Palace side, Affengruber the fit alternative at centre-back. Tom Bramall referees. Three o'clock, no television, and a fourth straight Anfield league draw would be the first since 2011.",
-  modelLine: { source: "Dimers / prediction models", liverpool: 62, draw: 21, opponent: 17, note: "A prediction model quoted on Saturday makes it about 62 per cent Liverpool, 21 per cent draw, 17 per cent Fulham; a second model cited by Topend Sports goes nearer 70-17-13. Reported, not a betting market presented as a forecast." },
-  sources: ["Evening Standard", "BBC Sport", "PA", "Sports Mole", "3 Added Minutes", "Sky Sports", "Squawka", "ESPN", "Liverpool FC", "Opta Analyst"],
+    "The reading is two goal droughts meeting, and the question of which side rotates harder. Liverpool have just drawn a fourth straight league game at Anfield, failed to score for the first time under Iraola, and heard the manager say the 60-hour turnaround cost them their freshness; Tuesday is 72 hours on, and the first of the three-in-seven that Alisson said the squad must learn to cope with. SQUAD_LOAD.depthRisk marks centre-forward and wide forward high, and Saturday showed why: the one attempt at resting Kerkez, Mac Allister and Ngumoha ended with all three replacements withdrawn by the hour, so the bench for the cup is the same bench that did not work. Against that, Tottenham have not scored in the league, took 0.64 expected goals from 14 shots on Saturday, and by CBS's count got fewer shots from their front three than their back four; FORM_TRENDS.diagnosis still lists the fast-break concession as Liverpool's highest-severity pattern, and a De Zerbi side that builds slowly and breaks quickly once the press is beaten is the shape that finds it, with Savio the one Tottenham player who has produced a goal and an assist in a game this season, in this competition. The other reading is that both managers have a bigger fixture on the weekend, Bournemouth away and, for De Zerbi, a home game he cannot afford to lose, so Tuesday may be decided by whichever XI is furthest from the one that drew on Saturday. The predicted XI is the side that started against Everton, from the club's confirmed team sheet; no cup-specific preview had been published by Saturday night, and De Zerbi rotated four for Charlton. Robertson returns to Anfield for the first time since leaving in July.",
+  modelLine: null,
+  sources: ["CBS Sports", "Tottenham Hotspur", "Sky Sports", "Evening Standard", "This Is Anfield", "Liverpool FC", "ESPN", "Opta Analyst"],
 };
 
 export const FORM_TRENDS = {
-  generatedAt: "2026-09-12T08:30:00Z",
+  generatedAt: "2026-09-12T22:20:00Z",
   competition: "PL",
-  played: 3,
+  played: 4,
   headline:
-    "Three games in, the pattern the results column hides is a row of twos: Liverpool have scored exactly twice in every match this season, league and Europe, and a fourth straight league two against Fulham on Saturday would be a club first per Opta. The other end is where Iraola keeps looking. His side have conceded first in three of four and come from behind three times; 'we are not starting the games too well,' he said, and he wants to impose the team from the beginning rather than chase a fourth game. The league sample is small, 5.00 expected goals for and 4.46 against on mixed sources, both Newcastle goals and Wednesday's opener from runs in behind; against that, Opta's 1.68 to 0.81 over Atletico was the first win earned on chances rather than in spite of them, and Isak's xG per shot has climbed from 0.16 to 0.25. Fulham made 3.13 expected goals in losing to Palace and have kept no clean sheet, which is the invitation; the models make Liverpool heavy favourites, which is the expectation.",
+    "Four league games in, the row of twos has become a nought, and the underlying numbers say Saturday was what it looked like: 1.13 expected goals from 14 shots against Fulham's 0.71 from 10, per Opta, the lowest Liverpool total of the season in either competition apart from the Ipswich win, with three shots on target to the visitors' four and 18 touches in the box to their 24. The league sample now reads 6.13 expected goals for and 5.17 against on mixed sources across four games, six scored and four conceded, and the pattern that the results column hides has changed shape: three of Iraola's four league games have been draws, four straight at Anfield across two managers, and Opta's note that Liverpool had spent only 21 per cent of the season in a drawing game state before kick-off is the measure of how much of Saturday was spent in one. The manager's own diagnosis was freshness and late presses; the ratings' diagnosis was the pivot, two of ten first-half ground duels won by Gravenberch and Szoboszlai per Rousing The Kop. Tottenham on Tuesday have scored no league goals at all.",
   diagnosis: [
     {
-      label: "Conceding first, again",
-      detail: "Four games, three times behind, and Iraola said it himself on Wednesday: three comebacks in four. Newcastle scored first, Forest scored first, Atletico scored first through Llorente on 17. The cause on Wednesday was a shape Liverpool had not prepared for, by the manager's admission, and a runner beating Kerkez in behind; the comebacks are a virtue the side would rather not need.",
+      label: "Chance creation collapses without the pivot",
+      detail: "Iraola said it was the first game under him in which his side struggled to create; the numbers agree, 1.13 expected goals and four big chances per FotMob, the best of them a header against the bar from a corner. Rousing The Kop counted the Gravenberch-Szoboszlai pivot winning two of ten first-half ground duels, Szoboszlai none of six, and Liverpool's control returned only when Mac Allister came on at 60. The creative supply, not the finishing, was the failure.",
       severity: "high",
-      source: "Hayters TV / Opta Analyst",
+      source: "Opta Analyst / FotMob via SI / Rousing The Kop",
     },
     {
       label: "Fast-break concession",
-      detail: "Both Newcastle goals came from fast breaks, Opta count nine conceded from such situations since the start of last season, most in the league, and Wednesday's opener was a pass through the seam behind a high line. The ninety minutes after it were the cleanest of the season, one Alvarez shot from 25 yards forced a save and little else, but the pattern has not gone.",
+      detail: "Unchanged as the season's standing risk, and Saturday's one clear chance came from a variation on it: a short goal-kick to a marked midfielder, a turnover, a penalty appeal and a shot cleared off the line. Both Newcastle goals came from fast breaks, Opta count nine such goals conceded since the start of last season, most in the league, and Fulham ended with more touches in the Liverpool box, 24 to 18, than the hosts managed at the other end.",
       severity: "high",
       source: "Opta Analyst / The Independent",
     },
     {
-      label: "Chances, at last, from open play",
-      detail: "1.68 expected goals from 14 shots per Opta, with Barcola twice through on Oblak, Isak shooting inside 16 seconds, Wirtz forcing a save and Frimpong scoring a disallowed third. Against Ipswich the total was 0.66. One European night does not fix a league problem, but it is the first match in which the chance creation matched the possession.",
-      severity: "positive",
-      source: "Opta Analyst",
+      label: "The home draw, now a pattern",
+      detail: "Four consecutive Premier League draws at Anfield, the first such run since November 2011 per Opta, and the first time in the club's history it has drawn both opening home league games of a season. The Forest draw a fortnight ago was a twice-from-behind comeback; Saturday was ninety minutes level against a side that arrived pointless, which is the difference between a habit and a problem. Iraola says the reasons are inside the pitch, not the ground.",
+      severity: "high",
+      source: "Opta Analyst / Liverpool FC",
     },
     {
-      label: "Midfield goals from distance",
-      detail: "Both Wednesday goals were scored by the double pivot, Szoboszlai from inside the box and Mac Allister from twenty yards; Opta notes five of the Argentine's 20 Liverpool goals have come from outside the area, second only to Szoboszlai's 12 since 2023. With Wirtz still without a league goal contribution, the pivot is carrying the scoring load the ten was signed for.",
+      label: "The striker's isolation",
+      detail: "Isak touched the ball 16 times in 90 minutes, the second-fewest for a Liverpool outfielder on record per the BBC, behind his own 14 against Forest; he dragged the game's first chance wide from Barcola's pass and glanced a stoppage-time header wide. Three goals in four league games is the return, but two of the four matches have left him starved, and Fulham's block was the kind he is supposed to punish.",
       severity: "medium",
-      source: "Opta Analyst",
+      source: "BBC Sport / Rousing The Kop",
     },
     {
-      label: "The right side holds",
-      detail: "Araujo's second start at right-back drew an 8 from Rousing The Kop and produced the assist for Szoboszlai; against Ipswich he won nine duels from ten. The department that had one fit body a fortnight ago now has a first choice playing well, with Frimpong an impact substitute who scored a disallowed goal on Wednesday.",
+      label: "The right centre-back holds",
+      detail: "Jacquet's goal-line clearance on 12 was the difference between a point and none; both ratings cards made him the best player on the pitch, an 8 from Rousing The Kop and an 8.1 on FotMob, and Fulham's counters were repeatedly broken by his recovery pace. Opta had him winning 18 of 25 league duels before this game. A clean sheet is the one thing the afternoon produced.",
       severity: "positive",
-      source: "Rousing The Kop / FotMob via SI",
+      source: "Rousing The Kop / FotMob via SI / Opta Analyst",
     },
   ],
   matches: [
+    {
+      date: "2026-09-12",
+      opponent: "Fulham",
+      home: true,
+      score: "0-0",
+      result: "D",
+      xgFor: 1.13,
+      xgAgainst: 0.71,
+      xgFirstHalfFor: null,
+      xgFirstHalfAgainst: null,
+      shotsFor: 14,
+      pending: false,
+      verdict: "Goalless, and the first blank under Iraola. Opta: 1.13 expected goals from 14 shots to 0.71 from 10, three on target to four, Fulham 24 touches in the box to 18. Jacquet cleared Garcia's shot off the line on 12 after Alisson's short pass; Munoz headed a corner against the bar on 22; Leno saved from Isak and Mac Allister; Alisson tipped King's curler wide on 76 and Muniz missed on 79. Tsimikas withdrawn at half-time, Gravenberch and Munoz on the hour. First-half splits not published.",
+      source: "Opta Analyst",
+    },
     {
       date: "2026-09-09",
       opponent: "Atlético Madrid",
@@ -888,86 +863,87 @@ export const FORM_TRENDS = {
     },
   ],
   totals: {
-    xgFor: 5.00,
-    xgAgainst: 4.46,
+    xgFor: 6.13,
+    xgAgainst: 5.17,
     goalsFor: 6,
     goalsAgainst: 4,
-    points: 5,
-    note: "Premier League only, three games. Mixed-source totals: xG for is 2.73 (Newcastle, Opta) plus 1.61 (Forest, Opta) plus 0.66 (Ipswich, FotMob); xG against is 1.43 plus 2.30 (Opta) plus 0.73 (FotMob). Wednesday's Champions League figures (1.68 for, 0.81 against, Opta) are shown on their own card and not aggregated. The Ipswich figures will be swapped for Opta Analyst's when published. First-half splits exist only for the Forest match and are not aggregated.",
+    points: 6,
+    note: "Premier League only, four games. Mixed-source totals: xG for is 2.73 (Newcastle, Opta) plus 1.61 (Forest, Opta) plus 0.66 (Ipswich, FotMob) plus 1.13 (Fulham, Opta); xG against is 1.43 plus 2.30 (Opta) plus 0.73 (FotMob) plus 0.71 (Opta). Wednesday's Champions League figures (1.68 for, 0.81 against, Opta) are shown on their own card and not aggregated. The Ipswich figures will be swapped for Opta Analyst's when published. First-half splits exist only for the Forest match and are not aggregated.",
   },
   optaFacts: [
-    "If Liverpool score exactly twice against Fulham it will be the first time in their history they have done so in each of the opening four league games of a season, per the club's Opta notes; they have scored exactly two in all four competitive matches so far, Europe included.",
-    "Alexander Isak can score in a third consecutive Premier League game for the first time since January 2025, when the run reached eight, per Opta; his two goals at Ipswich already equalled his injury-hit 2025-26 league tally, and his average shot value is up from 0.16 to 0.25 xG.",
-    "Liverpool have drawn each of their last three top-flight games at Anfield, per Opta, their longest home league winless run since December 2020 to March 2021; a fourth in a row would be a first since November 2011. Fulham have lost two of 33 previous league visits.",
-    "Former Liverpool players managing against the club in the Premier League have lost all five meetings, per Opta: Paul Ince once, Mauricio Pellegrino twice and Steven Gerrard twice. Alvaro Arbeloa, 66 league games an Anfield player, makes it a sixth attempt on Saturday.",
-    "Fulham made 3.13 expected goals on Sky's count in their 3-2 home defeat to Crystal Palace and have kept no clean sheet in three games; they have won one of eleven away league matches in 2026, the context behind prediction models that make Liverpool roughly 62 to 70 per cent favourites.",
+    "Liverpool have drawn four consecutive Premier League games at Anfield for the first time since November 2011 under Kenny Dalglish, per Opta; Saturday was also the first time in the club's history they have drawn both of their first two home league games of a season, and only the third time in 63 seasons they have failed to win both, after 2003-04 and 2012-13.",
+    "Before matchday four only Brighton (16.8 per cent) and Chelsea (18 per cent) had spent a lower share of the season in a drawing game state than Liverpool's 21 per cent, per Opta, a measure of how chaotic the Newcastle and Forest draws were; Saturday's was the opposite kind, ninety minutes level.",
+    "Alexander Isak had 16 touches in 90 minutes against Fulham, the second fewest for a Liverpool outfielder on record per the BBC; the fewest, 14, was also his, against Forest a fortnight earlier. He has three league goals in four games regardless.",
+    "Fulham's point was their first of the season and their first under Arbeloa, but they have still won only one of their last twelve away Premier League games (D5 L6), per Opta; they had lost their first four top-flight matches of a season only twice before, in 1951-52 and 2020-21, both ending in relegation.",
+    "Iraola has drawn half of his last 42 league matches across Bournemouth and Liverpool, per The Independent's Richard Jolly, and the last three, Newcastle, Forest and Fulham, all came against sides that finished in the bottom half last season.",
   ],
-  sources: ["Opta Analyst", "Liverpool FC", "The Independent", "Hayters TV", "Rousing The Kop", "FotMob", "Sofascore", "SI", "This Is Anfield", "ESPN"],
+  sources: ["Opta Analyst", "Liverpool FC", "The Independent", "BBC Sport", "Rousing The Kop", "FotMob", "Sofascore", "SI", "This Is Anfield", "Sky Sports", "ESPN"],
 };
 
 
 export const SQUAD_LOAD = {
-  generatedAt: "2026-09-12T08:30:00Z",
+  generatedAt: "2026-09-12T22:20:00Z",
   headline:
-    "Matchday, and the board is quieter than the fixture: no ruling-out since Wednesday, and the only live selection question is Gakpo, whose adductor niggle was tested on Friday afternoon without a published verdict and remains a doubt into kick-off, Munoz or Ngumoha the fallback on the left. Barcola and Kerkez, both withdrawn with cramp against Atletico, are cleared as tired rather than hurt and start; Gomez, in full training since Wednesday, is in line for a first bench of the season, easing a defence that had one fit right-sided body a fortnight ago. Isak leads the line alone with Ekitike a January hope and Chiesa out until the break. Leoni rejoins group work in the international break; Bradley has no date. The real strain is calendar, not treatment room: three matches in seven days from three o'clock, with a front line one senior nine deep.",
+    "Saturday night, and the board survived the third match in seven days without a new name on it, which is the good news; the bad is that the one attempt to use its depth failed inside an hour. Tsimikas, Gravenberch and Munoz came in for Kerkez, Mac Allister and Ngumoha and all three had been replaced by the sixtieth minute, Tsimikas at half-time, so the cup tie against Tottenham on Tuesday, 72 hours on, arrives with the same eleven tired starters and the same bench that did not work. Gakpo is back, thirty minutes from the bench closing the adductor question; Gomez was again left out of a nine-man bench, so his first squad of the season waits for Tuesday at the earliest. Isak, sixteen touches, leads the line alone with Ekitike a January hope and Chiesa out until the break; Iraola said Endo 'will have his moments' but is fourth in a queue of pivots. The strain is now the thing Alisson named on Sky: Wednesday, Saturday, Tuesday, and a squad that has to cope.",
   minutesNote:
-    "Premier League minutes are not published here yet. Three league games and one Champions League game have been played and no reliable per-player minutes have been sourced, so this board tracks availability, starts and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
+    "Premier League minutes are not published here yet. Four league games and one Champions League game have been played and no reliable per-player minutes have been sourced, so this board tracks availability, starts and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   unavailable: [
-    { name: "Hugo Ekitike", issue: "Achilles rupture (April, surgery)", expected: "January at the earliest: 'a reasonable chance' of the last two Champions League league-phase games (Inter 19 Jan, Lens 27 Jan per This Is Anfield); no league date", note: "Matchday, and the man who is not here now has a month attached. Friday's press conference was the first time the club named one. 'It's still very early,' Iraola said, 'a big part of the rehab is still to meet,' but the medical department's assessment before the European list was filed gave 'a hope and a realistic chance that he could help us in January'. Sports Mole and 3 Added Minutes had pencilled late November; that now reads optimistic. Isak remains the only fit senior nine across Fulham and Tuesday's cup tie.", source: "Liverpool FC / This Is Anfield / Hayters" },
-    { name: "Giovanni Leoni", issue: "ACL (September 2025)", expected: "Rejoins group training during the September international break", note: "Iraola's plan has him back with the squad during the break after nearly a year out; no matchday date. Named in the Champions League squad. Not needed on Wednesday, when Jacquet and Van Dijk played the ninety.", source: "Liverpool FC" },
-    { name: "Conor Bradley", issue: "Knee", expected: "No timeframe", note: "'Probably Conor will go later,' Iraola said last Thursday. Araujo's second start at right-back on Wednesday, an 8 from Rousing The Kop and the assist for Szoboszlai, has made his absence a smaller story than it was.", source: "Liverpool FC / Rousing The Kop" },
-    { name: "Federico Chiesa", issue: "Back (originally muscle, Como friendly, August)", expected: "Rejoins group training during the September international break", note: "Left off the Champions League list, so Wednesday was never in reach; Fulham, Tottenham and Bournemouth are all before the break he is due to train in.", source: "Liverpool FC / Liverpool Offside" },
+    { name: "Hugo Ekitike", issue: "Achilles rupture (April, surgery)", expected: "January at the earliest: 'a reasonable chance' of the last two Champions League league-phase games (Inter 19 Jan, Lens 27 Jan per This Is Anfield); no league date", note: "Saturday evening, and the afternoon Liverpool could not score in was the afternoon his absence was felt most: Isak touched the ball 16 times and the fallback, Gakpo as a false nine, came on as a right winger instead. Friday's press conference was the first time the club attached a month: 'a hope and a realistic chance that he could help us in January', with 'a big part of the rehab still to meet'. Sports Mole and 3 Added Minutes had pencilled late November; that reads optimistic.", source: "Liverpool FC / This Is Anfield / Hayters" },
+    { name: "Giovanni Leoni", issue: "ACL (September 2025)", expected: "Rejoins group training during the September international break", note: "Not needed on Saturday, when Jacquet and Van Dijk played the ninety again and Jacquet cleared off the line; Iraola's plan has him back with the squad during the break after nearly a year out, with no matchday date. Named in the Champions League squad.", source: "Liverpool FC" },
+    { name: "Conor Bradley", issue: "Knee", expected: "No timeframe", note: "'Probably Conor will go later,' Iraola said last Thursday. Araujo started at right-back for a third straight match on Saturday, a 6 from Rousing The Kop and a 6.9 on FotMob, isolated at times by Robinson's overloads, and Frimpong replaced him on 72.", source: "Liverpool FC / Rousing The Kop / SI" },
+    { name: "Federico Chiesa", issue: "Back (originally muscle, Como friendly, August)", expected: "Rejoins group training during the September international break", note: "Left off the Champions League list, so Wednesday was never in reach; Fulham has passed without him, Tottenham and Bournemouth are the two before the break he is due to train in.", source: "Liverpool FC / Liverpool Offside" },
   ],
   returning: [
-    { name: "Cody Gakpo", issue: "Niggles in both adductors, no defined injury", status: "Still a doubt into matchday morning: Friday afternoon's session produced no published verdict, and none had emerged by Saturday, so the left is unresolved with Tuesday's cup tie the fallback", note: "Matchday, and the verdict is still not public: the session that was to decide Saturday or Tuesday passed without a club update, and none had come by Saturday morning. Sports Mole keeps him doubtful and SI's matchday XI simply starts Munoz. A goal and three assists in three league games per Opta, both Isak goals at Ipswich from his passes, so the answer decides the shape of the front three as much as one place in it; Ngumoha (3 Added Minutes) or Munoz (Sports Mole) starts on the left if he waits.", source: "Liverpool FC / Sports Mole / 3 Added Minutes / Opta Analyst" },
-    { name: "Bradley Barcola", issue: "Cramp on his first start; tired rather than injured, per Iraola", status: "Cleared again on Friday: 'no injury', 'should be available if everything goes normal'", note: "Withdrawn at 59 against Atletico looking at his calf. Iraola on Thursday put him and Kerkez together as tired rather than hurt, an issue he ties to a player being rushed through with no pre-season and to the pressing load. Two clear chances missed against Oblak; the manager wants him in the side regardless.", source: "Liverpool FC / Yahoo Sports" },
-    { name: "Milos Kerkez", issue: "Cramp against Atletico, withdrawn on 88", status: "Cleared as tired, not injured; expected to face Fulham", note: "New to this list after Thursday's update. Kerkez came off late on Wednesday and tied the tightness to Iraola's pressing, saying it is hard to keep the intensity up for a full ninety, an issue the club flagged in pre-season. The only senior left-back, so his availability is not a rotation question but a necessity.", source: "Sports Illustrated / Liverpool FC" },
-    { name: "Rio Ngumoha", issue: "Cramp against Atletico, around the hour (first European start)", status: "Not an injury, per Iraola; a left-sided option if Gakpo does not make it", note: "Started on the left with Gakpo out and Barcola on the right, worked Llorente out over time per Rousing The Kop (a 6), and was replaced by Munoz. With Munoz, the fallback on the left for Saturday should Gakpo's adductor keep him out.", source: "Hayters TV / Rousing The Kop" },
-    { name: "Joe Gomez", issue: "Muscle (Sunderland, 25 July)", status: "In full training; on matchday 3 Added Minutes has him in line for a first bench of the season against Fulham", note: "The European bench carried Chambers, McConnell and Danns rather than Gomez, which reads as a return managed for the league rather than a setback. His availability gives a fourth senior centre-back and a third right-back option.", source: "WhoScored / Liverpool Echo / Liverpool FC" },
+    { name: "Cody Gakpo", issue: "Niggles in both adductors, no defined injury", status: "Back: named on the bench against Fulham and on for Munoz at 60, thirty minutes on the right", note: "The week's doubt is resolved the quiet way, a substitute appearance rather than a statement. Rousing The Kop gave him a 5 and FotMob a 6.1, 'unable to influence proceedings', but the point is that he played, and a goal and three assists in three league games per Opta are back in the pool for Tuesday. Whether he starts the cup tie or is kept for Bournemouth is the open question.", source: "Liverpool FC / Rousing The Kop / SI" },
+    { name: "Bradley Barcola", issue: "Cramp on his first start; tired rather than injured, per Iraola", status: "Started against Fulham, on the left, a first Premier League start; replaced by Ngumoha on 72", note: "A third involvement in nine days with no pre-season, and Iraola said afterwards he 'played a little bit more even than three days ago', that the club is 'building his physical condition' and that the four wingers will play both sides all season. Set up Isak's first-minute chance, then faded; a 4 from Rousing The Kop, 6.6 on FotMob.", source: "Liverpool FC / Rousing The Kop / SI" },
+    { name: "Milos Kerkez", issue: "Cramp against Atletico, withdrawn on 88", status: "Rested to the bench on Saturday, on for Tsimikas at half-time", note: "Rested by design and back by necessity: Tsimikas misplaced 11 of 31 passes and was withdrawn at the break, Kerkez took over and was 'an improvement' without offering much, a 5 from Rousing The Kop, 'yet more dreadful crossing' on the SI card. The only senior left-back still, and SI's verdict is that neither is currently up to Iraola's standards.", source: "SI / Rousing The Kop" },
+    { name: "Rio Ngumoha", issue: "Cramp against Atletico, around the hour (first European start)", status: "Rested to the bench on Saturday, on for Barcola at 72", note: "A poor cameo by Rousing The Kop's reading, a 4: an overhit cross, a counter conceded, and a shot fired wide from Frimpong's late ball across the box. Still the left-sided alternative for Tuesday if Barcola and Gakpo are managed.", source: "Rousing The Kop / SI" },
+    { name: "Joe Gomez", issue: "Muscle (Sunderland, 25 July)", status: "In full training; left out of Saturday's nine-man bench, so a first squad of the season waits for Tuesday at the earliest", note: "3 Added Minutes had him in line for a first bench against Fulham; the confirmed bench read Mamardashvili, Endo, Kerkez, Mac Allister, Gakpo, Frimpong, Nyoni, Koumas and Ngumoha, and he was not on it. The cup tie is the obvious place for a first involvement seven weeks on, and a fourth senior centre-back and third right-back in one body is what the board most needs.", source: "Liverpool FC / 3 Added Minutes" },
   ],
   startersLastMatch: {
-    match: "Liverpool 2-1 Atletico Madrid, 9 September (Champions League)",
-    xi: ["Alisson", "Araujo", "Jacquet", "Van Dijk", "Kerkez", "Szoboszlai", "Mac Allister", "Barcola", "Wirtz", "Ngumoha", "Isak"],
-    changes: "Two changes from the Ipswich side: Barcola in for Munoz, on the right, and Ngumoha in for Gakpo, who was left out of the squad as a precaution. Frimpong replaced Barcola at 59, Munoz replaced Ngumoha around the hour, Gravenberch, Koumas (a European debut) and Tsimikas (for Kerkez) followed. Unused: Mamardashvili, Woodman, Chambers, McConnell, Danns, Nyoni.",
-    source: "WhoScored / Rousing The Kop / The 4th Official",
+    match: "Liverpool 0-0 Fulham, 12 September (Premier League)",
+    xi: ["Alisson", "Araujo", "Jacquet", "Van Dijk", "Tsimikas", "Szoboszlai", "Gravenberch", "Munoz", "Wirtz", "Barcola", "Isak"],
+    changes: "Three changes from the Atletico side: Tsimikas for Kerkez, Gravenberch for Mac Allister and Munoz for Ngumoha, with Barcola moving from the right to the left and Munoz taking the right. Kerkez replaced Tsimikas at half-time; Mac Allister (for Gravenberch) and Gakpo (for Munoz) came on at 60; Ngumoha (for Barcola) and Frimpong (for Araujo) at 72. Unused: Mamardashvili, Endo, Nyoni, Koumas.",
+    source: "Liverpool FC / SI",
   },
   depthRisk: [
-    { position: "Wide forward", level: "high", detail: "Matchday, and the Gakpo verdict is still unpublished, so the department goes into kick-off with one first-choice winger unconfirmed, Barcola cleared but on his third involvement in nine days, and Chiesa off the European list and out until the break. If Gakpo makes it the department is stretched but functional; if not, it is Munoz, Ngumoha and an advanced Frimpong across Fulham and the Tottenham cup tie three days apart, with Barcola asked for a third start in nine days on no pre-season." },
-    { position: "Centre-forward", level: "high", detail: "Isak alone on matchday, 332 minutes in four starts and chasing a third straight league game with a goal, none yet in Europe, with Ekitike now given January as the earliest, 'a reasonable chance' of the last two Champions League league-phase games in Iraola's words on Friday. The fallback is Gakpo as a false nine, and Gakpo is a doubt; Koumas, whom Iraola said on Friday he decided to keep in his first week, is the only other forward to have sat on a bench. Three games in seven days is the first stretch that tests whether Isak starts all of them." },
-    { position: "Right-back", level: "medium", detail: "Down from high. Araujo has now started there twice, an 8 and an assist on Wednesday after a 7.7 at Ipswich, and Frimpong came on and scored a disallowed goal; Gomez, in full training, is the third body once passed fit. Bradley has no date. One injury still puts Szoboszlai in-game cover in play, and Endo is not in the European squad." },
-    { position: "Centre-back", level: "high", detail: "Gomez's likely return to the bench on Saturday, per 3 Added Minutes, is the first easing here since August. Van Dijk and Jacquet played the ninety again, the captain loose with a couple of first-half passes by Rousing The Kop's reading (a 5) and Jacquet the better of the two (a 7). Araujo is needed at right-back, Gomez is training but was not in Wednesday's squad, Leoni not with the group until the break. Until Gomez is passed fit, one injury and Endo plays centre-half in the league and nobody senior does in Europe." },
-    { position: "Central midfield", level: "low", detail: "Down from medium on the evidence of the night: Mac Allister and Szoboszlai scored both goals from the pivot, Gravenberch came on (a 4 from Rousing The Kop, sloppy in possession), Nyoni and McConnell were unused. The contract question has not moved; the football answered it for one night." },
+    { position: "Wide forward", level: "high", detail: "Saturday night, and the department is whole again but tired: Gakpo back with thirty minutes, Barcola on a third involvement in nine days with no pre-season, Ngumoha and Munoz both rated 4 by Rousing The Kop in their outings, and Chiesa still out until the break. Tuesday's cup tie is 72 hours on and Bournemouth follows five days later; the question is not who is fit but who has anything left, and Iraola's answer on Saturday, rotate, lasted an hour." },
+    { position: "Centre-forward", level: "high", detail: "Isak alone, and alone in a different sense on Saturday: 16 touches in 90 minutes, the second fewest for a Liverpool outfielder on record per the BBC. Ekitike is January at the earliest, Gakpo, the false-nine fallback, was used on the right, and Koumas sat on a bench for a fifth time. A third match in seven days made him start all three; the cup tie on Tuesday is where a rest would have to come, if it comes." },
+    { position: "Left-back", level: "high", detail: "New to the list, and up from unrated on the evidence of the afternoon: Tsimikas, a first start of the season, misplaced 11 of 31 passes and was withdrawn at half-time, a 3 from Rousing The Kop, and Kerkez came on to 'yet more dreadful crossing' by SI's account. Two senior left-backs and, per SI, neither currently up to the manager's standard; the rotation the position was supposed to allow has just been shown not to work." },
+    { position: "Central midfield", level: "medium", detail: "Up from low after one hour of Gravenberch and Szoboszlai together: two of ten first-half ground duels won, Szoboszlai none of six per Rousing The Kop, both rated 3, and the game settled only when Mac Allister came on. The Argentine, unrenewed by the club's own account, is now the one the site calls undroppable; Endo, Iraola said, 'will have his moments' but is fourth in the queue; Nyoni unused again." },
+    { position: "Centre-back", level: "high", detail: "Van Dijk and Jacquet played the ninety for a fifth straight match, Jacquet the best player on the pitch by both ratings cards and the reason there was a point. Gomez, in full training, was left out of the squad again, so the fourth senior body has still not been on a bench; Araujo is needed at right-back, Leoni not with the group until the break. Until Gomez is named, one injury and Endo plays centre-half in the league." },
+    { position: "Right-back", level: "medium", detail: "Araujo's third straight start, solid if isolated by Fulham's overloads through Robinson, a 6 and a 6.9; Frimpong came on at 72 and was 'solid enough defensively' with a 6 and a 6.9, the better of the late changes. Gomez remains the third body once he is finally named in a squad. Bradley has no date." },
   ],
-  sources: ["Liverpool FC", "This Is Anfield", "Hayters", "Sports Mole", "3 Added Minutes", "BBC Sport", "TEAMtalk", "WhoScored", "Rousing The Kop", "The 4th Official", "Yahoo Sports", "Opta Analyst", "Liverpool Echo", "SI", "FotMob"],
+  sources: ["Liverpool FC", "This Is Anfield", "Hayters", "Sports Mole", "3 Added Minutes", "BBC Sport", "SI", "FotMob", "Rousing The Kop", "The Independent", "Sky Sports", "Opta Analyst", "Liverpool Offside"],
 };
 
 
 export const SEASON_PROJECTION = {
-  generatedAt: "2026-09-12T08:30:00Z",
-  played: 3,
-  points: 5,
-  pointsPerGame: 1.67,
-  projectedPoints: 63,
-  projectedFinish: "Europa League places on current pace",
+  generatedAt: "2026-09-12T22:20:00Z",
+  played: 4,
+  points: 6,
+  pointsPerGame: 1.50,
+  projectedPoints: 57,
+  projectedFinish: "Conference League places on current pace",
   headline:
-    "Matchweek four, and the pace is still a three-game sample reading Europa League: five points, 1.67 a game, a projected 63. Saturday is the afternoon that can move it. Beat Fulham and the projection jumps to 76 for a day and Liverpool climb out of the five-point knot; draw and it slips to 57, a fourth straight Anfield stalemate the kind of result the underlying numbers say should not happen against a pointless side. The honest reading stays the same until Bournemouth on the 20th and Manchester City on 11 October give the season a spine: at three games, one result rewrites the whole line.",
+    "Four games, and the pace has dropped a tier: six points, 1.50 a game, a projected 57, which sits between the historical Conference League and Europa League lines rather than on the latter. One draw at home to a side that arrived pointless moved the projection by six points, which is still the sample talking, but the shape is now less flattering than the unbeaten record: one win in four, and three of the six points taken from stoppage-time and second-half comebacks. The honest reading remains that Bournemouth on the 20th and Manchester City on 11 October give the season its first real spine; the less comfortable one is that the fixtures the pace was supposed to be built on, Forest and Fulham at home, have already gone.",
   thresholds: [
-    { label: "Champions League (top 5)", points: 68, gap: 5, note: "Historical par for fifth place in recent seasons. Requires roughly 1.80 points per game from here." },
-    { label: "Europa League", points: 60, gap: 0, note: "Roughly sixth place par, and where the current pace lands. Requires about 1.57 points per game from here." },
-    { label: "Conference League", points: 55, gap: 0, note: "Seventh place par, often decided by cup outcomes as much as league finish." },
-    { label: "Safety", points: 38, gap: 0, note: "The conventional survival line, and where the pace sat before the Ipswich win. Twenty-five points of projection moved on one result, which is the size of the sample talking." },
+    { label: "Champions League (top 5)", points: 68, gap: 11, note: "Historical par for fifth place in recent seasons. Requires roughly 1.82 points per game from here." },
+    { label: "Europa League", points: 60, gap: 3, note: "Roughly sixth place par, and three points above where the current pace lands. Requires about 1.59 points per game from here." },
+    { label: "Conference League", points: 55, gap: 0, note: "Seventh place par, often decided by cup outcomes as much as league finish, and where the pace now sits." },
+    { label: "Safety", points: 38, gap: 0, note: "The conventional survival line, and where the pace sat before the Ipswich win. Nineteen points of projection now separate it from the pace, the size of the sample talking." },
   ],
   thresholdNote:
     "Threshold points are historical norms for those finishing places, not predictions. They are shown to convert a points-per-game pace into something legible, and they move as the season's own table develops.",
   runIn: [
-    { date: "2026-09-12", opponent: "Fulham", home: true, competition: "PL", oppPosition: 19, difficulty: "easy" },
     { date: "2026-09-20", opponent: "Bournemouth", home: false, competition: "PL", oppPosition: 15, difficulty: "medium" },
-    { date: "2026-10-11", opponent: "Manchester City", home: true, competition: "PL", oppPosition: 1, difficulty: "hard" },
+    { date: "2026-10-11", opponent: "Manchester City", home: true, competition: "PL", oppPosition: 2, difficulty: "hard" },
     { date: "2026-10-17", opponent: "Brentford", home: false, competition: "PL", oppPosition: 5, difficulty: "hard" },
-    { date: "2026-10-25", opponent: "Brighton", home: true, competition: "PL", oppPosition: 10, difficulty: "medium" },
-    { date: "2026-11-01", opponent: "Arsenal", home: true, competition: "PL", oppPosition: 2, difficulty: "hard" },
+    { date: "2026-10-25", opponent: "Brighton", home: true, competition: "PL", oppPosition: 12, difficulty: "medium" },
+    { date: "2026-11-01", opponent: "Arsenal", home: true, competition: "PL", oppPosition: 1, difficulty: "hard" },
+    { date: "2026-11-07", opponent: "Crystal Palace", home: false, competition: "PL", oppPosition: 16, difficulty: "easy" },
   ],
   runInVerdict:
-    "Six points sit there before the autumn hardens, Fulham at home on Saturday and Bournemouth away on the 20th, a pointless side and a winless one. Take both and Liverpool host Manchester City on eleven from five, a pace above 2.00, with Ekitike's January return on the horizon; take two and the projection sits in the fifties on the eve of City, Brentford and Arsenal, the three hardest of the next six. The Tottenham cup tie on Tuesday is the risk wedged between the league games, three matches in seven days for a front line with one fit senior nine and a winger, Gakpo, whose fitness is unresolved. The prediction models making Liverpool heavy favourites on Saturday are the reason to expect the six, and Iraola's own warning about slow starts is the reason not to count it early.",
-  sources: ["ESPN", "Opta Analyst", "Liverpool FC", "Sky Sports", "This Is Anfield", "NBC Sports"],
+    "One of the two soft fixtures is gone and it returned a point, so Bournemouth away on the 20th, winless and fifteenth after four draws of their own, is now the last easy-looking league game before Manchester City, Brentford and Arsenal arrive in a five-week block. Win at the Vitality and Liverpool go into the City game on nine from five, a pace of 1.80 and a projection back in the Europa band; draw again and the projection sits in the mid-fifties on the eve of the three hardest games of the autumn, with the unbeaten record the only thing the table would still say kindly. The Tottenham cup tie on Tuesday is the risk wedged in front of it, 72 hours after a match Iraola said his players were too tired for, with a front line one senior nine deep and a bench that has just been shown not to hold.",
+  sources: ["ESPN", "Opta Analyst", "Liverpool FC", "Sky Sports", "This Is Anfield", "BBC Sport"],
 };

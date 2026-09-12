@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Editorial plate: a grey Anfield afternoon, a defender in red stretched across the goal-line hooking the ball clear with the net behind him, a striker in white arriving a step too late, the goalkeeper stranded to one side.">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6d7380"/>
+      <stop offset="0.55" stop-color="#9aa0aa"/>
+      <stop offset="1" stop-color="#b7bcc3"/>
+    </linearGradient>
+    <linearGradient id="stand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5f1220"/>
+      <stop offset="1" stop-color="#8a1a2c"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f6b3d"/>
+      <stop offset="1" stop-color="#1c4527"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9dde3" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#d9dde3" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="net" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M0 0 L22 22 M22 0 L0 22" stroke="#f2f2f2" stroke-width="1.4" stroke-opacity="0.85"/>
+    </pattern>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0.18"/>
+      <stop offset="0.5" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect width="1600" height="900" fill="url(#sky)"/>
+
+  <!-- stand roof and crowd (the Kop, behind the goal) -->
+  <rect x="0" y="120" width="1600" height="70" fill="#2b2f38"/>
+  <rect x="0" y="190" width="1600" height="300" fill="url(#stand)"/>
+  <g fill="#c8102e" opacity="0.55">
+    <rect x="0" y="200" width="1600" height="12"/>
+    <rect x="0" y="250" width="1600" height="12"/>
+    <rect x="0" y="300" width="1600" height="12"/>
+    <rect x="0" y="350" width="1600" height="12"/>
+    <rect x="0" y="400" width="1600" height="12"/>
+    <rect x="0" y="450" width="1600" height="12"/>
+  </g>
+  <g fill="#f4d9dc" opacity="0.22">
+    <circle cx="90" cy="230" r="5"/><circle cx="240" cy="270" r="5"/><circle cx="410" cy="225" r="5"/><circle cx="560" cy="320" r="5"/>
+    <circle cx="720" cy="240" r="5"/><circle cx="880" cy="290" r="5"/><circle cx="1040" cy="235" r="5"/><circle cx="1200" cy="330" r="5"/>
+    <circle cx="1360" cy="260" r="5"/><circle cx="1500" cy="300" r="5"/><circle cx="160" cy="380" r="5"/><circle cx="330" cy="420" r="5"/>
+    <circle cx="650" cy="410" r="5"/><circle cx="960" cy="440" r="5"/><circle cx="1280" cy="400" r="5"/><circle cx="1440" cy="440" r="5"/>
+  </g>
+  <rect x="0" y="190" width="1600" height="300" fill="url(#haze)"/>
+
+  <!-- pitch -->
+  <rect x="0" y="490" width="1600" height="410" fill="url(#grass)"/>
+  <g fill="#000" opacity="0.06">
+    <rect x="0" y="540" width="1600" height="50"/>
+    <rect x="0" y="640" width="1600" height="50"/>
+    <rect x="0" y="740" width="1600" height="50"/>
+  </g>
+
+  <!-- goal frame and net, seen from the pitch, slightly off-centre -->
+  <g>
+    <rect x="300" y="300" width="1000" height="330" fill="url(#net)" opacity="0.7"/>
+    <rect x="300" y="300" width="1000" height="330" fill="#ffffff" opacity="0.06"/>
+    <rect x="288" y="288" width="1024" height="14" fill="#f5f5f5"/>
+    <rect x="288" y="288" width="14" height="350" fill="#f5f5f5"/>
+    <rect x="1298" y="288" width="14" height="350" fill="#f5f5f5"/>
+  </g>
+
+  <!-- goal-line -->
+  <rect x="0" y="632" width="1600" height="6" fill="#f2f2f2" opacity="0.9"/>
+  <!-- six-yard line hint -->
+  <rect x="0" y="790" width="1600" height="4" fill="#f2f2f2" opacity="0.45"/>
+
+  <!-- goalkeeper, stranded to the left, dark kit -->
+  <g transform="translate(430 560)">
+    <ellipse cx="0" cy="95" rx="70" ry="10" fill="#000" opacity="0.25"/>
+    <path d="M-12 -60 L14 -60 L22 10 L-20 10 Z" fill="#1d2a3a"/>
+    <circle cx="1" cy="-78" r="17" fill="#e8c4a6"/>
+    <path d="M-12 -52 L-70 -20 L-62 -8 L-8 -34 Z" fill="#1d2a3a"/>
+    <path d="M14 -52 L60 -75 L66 -63 L18 -38 Z" fill="#1d2a3a"/>
+    <path d="M-18 8 L-46 90 L-32 92 L-6 14 Z" fill="#111a26"/>
+    <path d="M12 8 L50 84 L36 92 L2 14 Z" fill="#111a26"/>
+  </g>
+
+  <!-- striker in white, arriving too late, arms raised in appeal -->
+  <g transform="translate(1120 555)">
+    <ellipse cx="0" cy="100" rx="66" ry="10" fill="#000" opacity="0.25"/>
+    <path d="M-16 -58 L16 -58 L22 12 L-22 12 Z" fill="#f7f7f7"/>
+    <circle cx="0" cy="-77" r="17" fill="#d9a983"/>
+    <path d="M-14 -50 L-44 -120 L-32 -126 L-2 -56 Z" fill="#f7f7f7"/>
+    <path d="M14 -50 L46 -118 L58 -112 L20 -54 Z" fill="#f7f7f7"/>
+    <path d="M-20 10 L-40 96 L-26 100 L-6 16 Z" fill="#f7f7f7"/>
+    <path d="M10 10 L38 92 L24 100 L0 16 Z" fill="#f7f7f7"/>
+  </g>
+
+  <!-- defender in red, stretched full length along the line, hooking the ball clear -->
+  <g transform="translate(790 600)">
+    <ellipse cx="0" cy="40" rx="190" ry="12" fill="#000" opacity="0.28"/>
+    <!-- torso, near horizontal -->
+    <path d="M-120 -8 L10 -30 L20 6 L-110 26 Z" fill="#c8102e"/>
+    <!-- head -->
+    <circle cx="-138" cy="4" r="18" fill="#b98262"/>
+    <!-- trailing arm, planted -->
+    <path d="M-60 6 L-70 42 L-56 46 L-40 12 Z" fill="#c8102e"/>
+    <!-- leading arm, reaching -->
+    <path d="M-10 -26 L-40 -62 L-30 -70 L4 -34 Z" fill="#c8102e"/>
+    <!-- planted leg -->
+    <path d="M14 -12 L60 22 L50 34 L6 4 Z" fill="#1a1a2e"/>
+    <!-- hooking leg, swept across the line -->
+    <path d="M16 0 L150 -34 L156 -18 L22 14 Z" fill="#1a1a2e"/>
+    <path d="M150 -36 L182 -44 L186 -30 L156 -20 Z" fill="#f2f2f2"/>
+  </g>
+
+  <!-- the ball, a blur, just clear of the line -->
+  <g transform="translate(1000 588)">
+    <ellipse cx="-40" cy="0" rx="70" ry="14" fill="#ffffff" opacity="0.28"/>
+    <ellipse cx="-90" cy="0" rx="60" ry="10" fill="#ffffff" opacity="0.16"/>
+    <circle cx="0" cy="0" r="16" fill="#f7f7f7"/>
+    <path d="M-8 -6 L0 -12 L8 -6 L5 4 L-5 4 Z" fill="#2b2f38" opacity="0.7"/>
+  </g>
+
+  <!-- flat daylight and vignette -->
+  <rect width="1600" height="900" fill="url(#vignette)"/>
+</svg>
