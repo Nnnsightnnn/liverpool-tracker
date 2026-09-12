@@ -484,11 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday evening, and the day's firmest news concerns a striker who will
-          not play tomorrow: Iraola has put a January date, of sorts, on
-          Ekitike's Achilles. Gakpo's afternoon test went unreported, Arbeloa
-          promised a message, and Liverpool, sixth and unbeaten, meet pointless
-          Fulham at three <em>tomorrow</em>, one win from the European stripe.
+          Saturday, and the day's story is the fixture at last. Liverpool, sixth
+          and unbeaten, have not won a league game at home this season, three
+          draws deep, and meet a pointless Fulham at three <em>this afternoon</em>.
+          Iraola wants a fast start and a first Anfield win of his tenure; the
+          models make the Reds heavy favourites, and the draw that Anfield cannot
+          shake is three games old.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,33 +520,33 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Evening</span>,{" "}
-              Friday, and the training ground has gone quiet without saying what
-              it knows. Andoni Iraola spent part of his last briefing before Fulham
-              on a player who will not be in it, allowing that Hugo Ekitike has a
-              reasonable chance of the January Champions League games, the first
-              month anyone at the club has attached to an April Achilles; of Cody
-              Gakpo, whose afternoon session was to settle Saturday, nothing had
-              been published by dusk. At Motspur Park Alvaro Arbeloa told a pointless
-              Fulham that tomorrow is where a message gets sent, and named a
-              deadline-day centre-back fit to start. Alexander Isak, 332 minutes
-              into a season he has begun whole, asked only to keep the rhythm.
-              Opta notes that if Liverpool score exactly twice again it will be a
-              first in their history, four league games running, which is either
-              a pattern or a limit. Three o'clock tomorrow will say which.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and the waiting is nearly over. Liverpool go into the fourth weekend
+              of the season sixth and unbeaten, one win from breaking a five-point
+              knot, and yet without a league victory at their own ground, three
+              draws into a home run older than the manager. Andoni Iraola has spent
+              the week asking for a faster start, insisting the goals are there,
+              chasing a first Anfield league win against a Fulham side that has none
+              of anything, pointless after three. Alexander Isak can score in a
+              third straight league game for the first time in twenty months; Cody
+              Gakpo, the one doubt, waits on an adductor the club will not call
+              either way. Alvaro Arbeloa comes home to the stadium he defended for
+              two and a half years, now the visiting coach nobody expects to leave
+              with a point. Three o'clock will say whether the draw that Anfield
+              cannot shake makes it four, or whether the afternoon finally breaks.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a date,
-              at last, for the man who is not here; a message to be sent from
-              Motspur Park; three defeats by a goal and a manager who rates them;
-              three hundred and thirty-two minutes; and exactly two.
+              dispatches from the writers who never clock off. There is a win owed
+              at Anfield and a knot to break; another special day sought by the
+              youngest man to score here; twenty months and a striker's streak; an
+              old boy back as the enemy; and the draw the ground cannot shake.
               Read them in order. The season
               opened with draws at Newcastle and Anfield, a first win at Ipswich,
-              and now a first European win; the market is shut until January,
+              and a first European night; the market is shut until January,
               save for the men no one owns.
             </p>
           </div>
@@ -3755,7 +3756,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A hope, and a realistic chance."
+        "The draw Anfield cannot shake."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
