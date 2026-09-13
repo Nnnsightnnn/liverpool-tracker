@@ -20,7 +20,7 @@ export const FORMATIONS = {
       RW:  { x: 82, y: 22, role: "FWD" },
     },
     // IDs from playerData.js. This 4-3-3 is the backup look; the default is the
-    // 4-2-3-1 below. Reviewed Sat Sep 12 (evening), after Liverpool 0-0 Fulham at Anfield
+    // 4-2-3-1 below. Reviewed Sun Sep 13 (morning), after Liverpool 0-0 Fulham at Anfield
     // (Jacquet cleared off the line on 12; Munoz hit the bar on 22; three changes all withdrawn
     // by the hour) and pointed at Tottenham at Anfield in the Carabao Cup on Tuesday 15 September,
     // 8pm. Saturday's XI was Alisson; Araujo, Jacquet, Van Dijk, Tsimikas; Szoboszlai, Gravenberch;
@@ -63,7 +63,7 @@ export const FORMATIONS = {
     // pointed at Tottenham at Anfield in the Carabao Cup on Tuesday 15 September, 8pm
     // (Fulham drawn 0-0 at Anfield on Sep 12; Atletico beaten 2-1 on Sep 9; Ipswich beaten
     // 2-0 away on Sep 4; Forest drawn 2-2 on Aug 29; Newcastle drawn 2-2 away on Aug 23).
-    // Reviewed Sat Sep 12 (evening): the XI is a CUP selection drawn at low confidence.
+    // Reviewed Sun Sep 13 (morning): the XI is a CUP selection drawn at low confidence.
     // Iraola rotated three for Fulham and withdrew all three by the hour, so the shape of
     // Tuesday's rotation is unknowable; this draws Mamardashvili in goal, Frimpong for
     // Araujo, Mac Allister restored to the pivot beside Szoboszlai, Gakpo (back, thirty
@@ -103,7 +103,7 @@ export const FORMATIONS = {
       RW:  { x: 78, y: 22, role: "FWD" },
     },
     // Hypothetical 3-4-3 alternative, a shape rarely used, shown for completeness.
-    // Reviewed Sat Sep 12 (evening, after Liverpool 0-0 Fulham, before Tottenham in the cup on
+    // Reviewed Sun Sep 13 (morning, after Liverpool 0-0 Fulham, before Tottenham in the cup on
     // Tuesday): Araujo moves inside to make a back three with Van Dijk and Jacquet; Kerkez and
     // Frimpong as wing-backs; Mac Allister and Szoboszlai in midfield; Gakpo, Isak and Ngumoha
     // across the front, Mamardashvili in goal. Gomez not yet in a squad; Leoni not with the
@@ -125,7 +125,7 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS + injuryNote context, reviewed Sat Sep 12 (evening), after
+// Hand-curated from RESULTS + injuryNote context, reviewed Sun Sep 13 (morning), after
 // Liverpool 0-0 Fulham at Anfield and three days before Tottenham at Anfield in the Carabao
 // Cup, Tuesday 15 September, 8pm. From the Fulham draw: Alisson's short pass on 12 was
 // dispossessed and Jacquet cleared Garcia's shot off the line; Munoz headed a corner against
@@ -176,7 +176,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // occupant STARTS TUESDAY'S CUP TIE, which is a lower bar of certainty than the league:
 // Iraola rotated three for Fulham and pulled all three by the hour, so nobody knows how
 // hard he rotates 72 hours later with Bournemouth five days after that.
-// (Reviewed Sat Sep 12, evening: after Liverpool 0-0 Fulham. Tottenham at Anfield,
+// (Reviewed Sun Sep 13, morning: after Liverpool 0-0 Fulham. Tottenham at Anfield,
 // Carabao Cup third round, Tuesday 15 September, 8pm.)
 export const SLOT_CONFIDENCE = {
   GK:  "Medium", // Mamardashvili · the cup is the deputy's competition · Alisson has played every minute
@@ -193,19 +193,19 @@ export const SLOT_CONFIDENCE = {
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Sat Sep 12 (evening):
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Sun Sep 13 (morning):
 // every rationale rewritten after Liverpool 0-0 Fulham and pointed at Tottenham in the Carabao Cup on Tuesday.
 export const SLOT_RATIONALE = {
-  LB:  "Sat Sep 12, evening - drawn here because the alternative was tried on Saturday and taken off at half-time. Tsimikas misplaced 11 of 31 passes in his first start of the season, a 3 from Rousing The Kop; Kerkez came on and was 'an improvement' with 'yet more dreadful crossing' by SI's account. Neither, SI says, is currently up to Iraola's standard, and there is nobody else senior. Bobb was Saturday's afternoon; Savio is Tuesday's.",
-  LCB: "Sat Sep 12, evening - a fifth straight ninety minutes, a 7.4 on FotMob and the better half of a clean sheet, with the rest he cannot yet take still waiting on Gomez being named in a squad. He was not on Saturday's bench. If Gomez is named on Tuesday, the captain is the centre-back Iraola would rest; until then he plays, at 35, a third match in seven days.",
-  RCB: "Sat Sep 12, evening - the one starter nobody would leave out. Cleared Garcia's shot off the line on 12 after Alisson's error, was 'immaculate in just about everything he did', an 8 and man of the match from Rousing The Kop, 8.1 to top the FotMob card. Five starts in five beside Van Dijk. Solanke and Marmoush are Tuesday's examination, if they start.",
-  RB:  "Sat Sep 12, evening - drawn ahead of Araujo on the cup logic: the loanee has started three in seven days, a 6 and a 6.9 on Saturday, isolated at times by Robinson's overloads, while Frimpong came on at 72 and was the better of the late changes, 'solid enough defensively'. Iraola calls the position probably not Araujo's main, done very well; Tuesday is the night to give him a rest and Frimpong a ninety.",
-  LDM: "Sat Sep 12, evening - rested for an hour on Saturday and the hour was the argument: Gravenberch and Szoboszlai won two of ten first-half ground duels, the side settled only when he came on at 60, a 7 from Rousing The Kop and the site's verdict that he is now undroppable. Four days after he said the club will not renew him. Starts Tuesday, on that evidence, whatever the rotation.",
-  RDM: "Sat Sep 12, evening - kept in on the thin logic that someone must partner Mac Allister: a 3 from Rousing The Kop on Saturday, none of six first-half duels won, pressed hard by Fulham, a swipe at King that nearly gave a penalty. Gravenberch, also a 3, is the alternative and the likelier if Iraola rotates the pivot for the cup; Endo, the manager said, 'will have his moments'.",
-  LAM: "Sat Sep 12, evening - back, with thirty minutes on the right from the bench, a 5 and a 6.1 without influencing the game; the adductor question is closed. Drawn on the left for the cup as the freshest of the four wingers, a goal and three assists in three league games per Opta, and the one the manager might prefer to hold for Bournemouth. Barcola, tired after three in nine days, is the alternative.",
-  CAM: "Sat Sep 12, evening - five games without a goal or assist, two shots wide of the right post and a scuffed third on Saturday, a 4 from Rousing The Kop and a 7.4 from FotMob that noted fatigue. Drawn here because there is no natural alternative at ten short of pushing Mac Allister forward; the cup tie is either a rest or the night the drought ends, and Iraola's rotation record says he will not rest the whole spine.",
-  RAM: "Sat Sep 12, evening - the lowest-confidence slot on the pitch. Ngumoha's cameo on Saturday drew a 4, an overhit cross, a counter conceded and a shot fired wide; Munoz hit the bar and was a 4 too; Barcola, a first Premier League start on the left, was 'very much on the periphery'. All four wingers will play both sides all season, Iraola said. Whoever is freshest starts; Ngumoha is the guess.",
-  ST:  "Sat Sep 12, evening - sixteen touches in ninety minutes on Saturday, the second fewest for a Liverpool outfielder on record, and the run of three straight league games with a goal ended at two. Ekitike is January at the earliest, so the only rest available is Gakpo as a false nine, which was not tried on Saturday. Three matches in seven days; Isak has started all of them, and the cup tie is the one he could sit.",
+  LB:  "Sun Sep 13, morning - drawn here because the alternative was tried on Saturday and taken off at half-time. Tsimikas misplaced 11 of 31 passes in his first start of the season, a 3 from Rousing The Kop; Kerkez came on and was 'an improvement' with 'yet more dreadful crossing' by SI's account. Neither, SI says, is currently up to Iraola's standard, and there is nobody else senior. Bobb was Saturday's afternoon; Savio is Tuesday's.",
+  LCB: "Sun Sep 13, morning - a fifth straight ninety minutes, a 7.4 on FotMob and the better half of a clean sheet, with the rest he cannot yet take still waiting on Gomez being named in a squad. He was not on Saturday's bench. If Gomez is named on Tuesday, the captain is the centre-back Iraola would rest; until then he plays, at 35, a third match in seven days.",
+  RCB: "Sun Sep 13, morning - the one starter nobody would leave out. Cleared Garcia's shot off the line on 12 after Alisson's error, was 'immaculate in just about everything he did', an 8 and man of the match from Rousing The Kop, 8.1 to top the FotMob card. Five starts in five beside Van Dijk. Solanke and Marmoush are Tuesday's examination, if they start.",
+  RB:  "Sun Sep 13, morning - drawn ahead of Araujo on the cup logic: the loanee has started three in seven days, a 6 and a 6.9 on Saturday, isolated at times by Robinson's overloads, while Frimpong came on at 72 and was the better of the late changes, 'solid enough defensively'. Iraola calls the position probably not Araujo's main, done very well; Tuesday is the night to give him a rest and Frimpong a ninety.",
+  LDM: "Sun Sep 13, morning - rested for an hour on Saturday and the hour was the argument: Gravenberch and Szoboszlai won two of ten first-half ground duels, the side settled only when he came on at 60, a 7 from Rousing The Kop and the site's verdict that he is now undroppable. Four days after he said the club will not renew him. Starts Tuesday, on that evidence, whatever the rotation.",
+  RDM: "Sun Sep 13, morning - kept in on the thin logic that someone must partner Mac Allister: a 3 from Rousing The Kop on Saturday, none of six first-half duels won, pressed hard by Fulham, a swipe at King that nearly gave a penalty. Gravenberch, also a 3, is the alternative and the likelier if Iraola rotates the pivot for the cup; Endo, the manager said, 'will have his moments'.",
+  LAM: "Sun Sep 13, morning - back, with thirty minutes on the right from the bench, a 5 and a 6.1 without influencing the game; the adductor question is closed. Drawn on the left for the cup as the freshest of the four wingers, a goal and three assists in three league games per Opta, and the one the manager might prefer to hold for Bournemouth. Barcola, tired after three in nine days, is the alternative.",
+  CAM: "Sun Sep 13, morning - five games without a goal or assist, two shots wide of the right post and a scuffed third on Saturday, a 4 from Rousing The Kop and a 7.4 from FotMob that noted fatigue. Drawn here because there is no natural alternative at ten short of pushing Mac Allister forward; the cup tie is either a rest or the night the drought ends, and Iraola's rotation record says he will not rest the whole spine.",
+  RAM: "Sun Sep 13, morning - the lowest-confidence slot on the pitch. Ngumoha's cameo on Saturday drew a 4, an overhit cross, a counter conceded and a shot fired wide; Munoz hit the bar and was a 4 too; Barcola, a first Premier League start on the left, was 'very much on the periphery'. All four wingers will play both sides all season, Iraola said. Whoever is freshest starts; Ngumoha is the guess.",
+  ST:  "Sun Sep 13, morning - sixteen touches in ninety minutes on Saturday, the second fewest for a Liverpool outfielder on record, and the run of three straight league games with a goal ended at two. Ekitike is January at the earliest, so the only rest available is Gakpo as a false nine, which was not tried on Saturday. Three matches in seven days; Isak has started all of them, and the cup tie is the one he could sit.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -231,6 +231,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  generated_at: "2026-09-12T22:20:00Z",
-  reason: "Sat Sep 12, evening, after Liverpool 0-0 Fulham and before Tottenham at Anfield in the Carabao Cup on Tuesday at 8pm, a cup tie 72 hours after a match Iraola said his players were too tired for. Rotation is certain and its shape is not: the three changes he made on Saturday (Tsimikas, Gravenberch, Munoz) were all withdrawn by the hour, so the bench for the cup is the same bench that did not work. This XI is drawn as a cup selection, Mamardashvili in goal, Frimpong for Araujo at right-back, Mac Allister restored after an hour that made him 'undroppable', Gakpo and Ngumoha on the flanks, with the spine (Van Dijk, Jacquet, Szoboszlai, Wirtz, Isak) kept because the alternatives are thinner than the fatigue. Six of the eleven started on Saturday. Gomez was not in Saturday's squad and is not drawn; Ekitike is a January hope, Bradley and Leoni have no date, Chiesa is out until the break. Tottenham have not scored in four league games.",
+  generated_at: "2026-09-13T08:30:00Z",
+  reason: "Sun Sep 13, morning, two days before Tottenham visit Anfield in the Carabao Cup on Tuesday at 8pm, a tie that falls 72 hours after a goalless Fulham draw and on a weekend the coverage has turned to whether Iraola is already under pressure. Rotation is expected, the reporting tipping Mac Allister and Szoboszlai to stay in midfield, but its full shape is unknowable: the three changes he made on Saturday (Tsimikas, Gravenberch, Munoz) were all withdrawn by the hour, so the bench for the cup is the same bench that did not work. This XI is drawn as a cup selection, Mamardashvili in goal, Frimpong for Araujo at right-back, Mac Allister restored after an hour that made him 'undroppable', Gakpo and Ngumoha on the flanks, with the spine (Van Dijk, Jacquet, Szoboszlai, Wirtz, Isak) kept because the alternatives are thinner than the fatigue. Six of the eleven started on Saturday. Gomez was not in Saturday's squad and is not drawn; Ekitike is a January hope, Bradley and Leoni have no date, Chiesa is out until the break. Tottenham have not scored in four league games.",
 };

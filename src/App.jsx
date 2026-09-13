@@ -484,12 +484,13 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday evening, and the draw Anfield could not shake has become a
-          fourth. Liverpool 0-0 Fulham: the first blank of Iraola's tenure, a
-          goal-line clearance from Jacquet to keep even the point, and a manager
-          admitting to a lack of freshness he <em>cannot hide</em>. Sixth on six,
-          one win in four, and Tottenham, goalless themselves, arrive in the cup
-          on Tuesday night.
+          Sunday, and the reckoning has outrun the result. One win in four, a
+          goalless afternoon at Anfield, and the weekend's columns already cast
+          Andoni Iraola as a head coach <em>under pressure</em>, the man who
+          appointed him departed and no successor yet named. Five games is
+          nothing to judge on, which is not the same as nobody judging. A Spurs
+          side that has not scored in the league comes in the cup on Tuesday,
+          the first reply he is handed.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,33 +521,33 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the afternoon that was meant to break the run has extended it.
-              Liverpool drew 0-0 with a Fulham side that arrived without a point,
-              a fourth consecutive league draw at Anfield for the first time since
-              November 2011, and for the first time under Andoni Iraola they did
-              not score. The nearest thing to a goal belonged to the visitors:
-              Alisson passed short, Gravenberch lost it, and Jeremy Jacquet was on
-              the line to hook Garcia's shot away. Three changes were made and all
-              three had been undone by the hour, Tsimikas at half-time, the others
-              at sixty, which is the afternoon's uncomfortable finding about the
-              depth of a squad six hundred and seventy million pounds deep. Iraola
-              said the players were tired, sixty hours on from Atletico, and that
-              the reasons must be found inside the pitch. Alisson said a draw is
-              not something to celebrate in this shirt. Tuesday brings Tottenham,
-              who have not scored in four league games, in the cup at eight; the
-              question is which side remembers how first.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and the football has gone quiet while the talk has not. Liverpool
+              sit sixth and unbeaten, and the morning's loudest story is whether
+              their manager is already in trouble: one win in four, a first home
+              game without a goal, and the sporting director who chose Andoni
+              Iraola long gone to Saudi Arabia, so that the next man in the
+              building will owe him nothing. He answered the only way a coach can,
+              by diagnosis rather than defence, saying what was lacking on
+              Saturday was quite clear and that a crowded calendar will ask the
+              same question more than once. There is a name being written down
+              for later, Pablo Barrios, an Atletico midfielder who passed through
+              Anfield on Wednesday and left a mark. And there is Tuesday:
+              Tottenham in the cup, a side that has not scored in the league all
+              season, a returning Andy Robertson in white, and a manager who
+              would like, very much, to be talked about for the right reasons
+              again.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is nil, nil,
-              and a line cleared; sixty hours and a manager who would not hide
-              behind them; three changes and three regrets; a goalkeeper who said
-              what needed saying; and two teams who cannot score, three days
-              before they meet. Read them in order. The season
+              dispatches from the writers who never clock off. There is the
+              pressure that arrived early, and a chair at the club nobody is yet
+              sitting in; a name noted for January; a full-back coming home in
+              white; and a defence of the striker everyone else wants to worry
+              about. Read them in order. The season
               opened with draws at Newcastle and Anfield, a first win at Ipswich,
               a first European night, and now a second home draw; the market is
               shut until January, save for the men no one owns.
@@ -3759,7 +3760,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "We cannot find the reasons outside."
+        "The pressure came before the patience."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
