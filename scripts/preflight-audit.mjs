@@ -435,6 +435,32 @@ if (!STRUCTURAL && base?.pd) {
     if (same.length === 3) fail("rotation", "top 3 LATEST_NEWS headlines are unchanged from the previous edition");
     else if (same.length) warn("rotation", `${same.length} of the top 3 LATEST_NEWS headlines repeat the previous edition`);
   }
+
+  // injuryNote BODY rotation. Added 13 Sep 2026 evening, after the staleness
+  // subagent found 20 of 25 notes byte-identical to the previous edition with
+  // only the leading date stamp changed — a ~48% recycling rate that every
+  // other rotation check here sailed past, because none of them looked at the
+  // notes. The rule: strip the "Day Mon DD, part - " stamp, compare what is
+  // left, and require a real share of the squad to have been re-written.
+  // Carry-over is legitimate for players whose situation genuinely has not
+  // moved, so the bar is deliberately generous; it exists to catch a run that
+  // re-dated the whole array and wrote nothing.
+  {
+    const STAMP = /^[A-Z][a-z]{2} [A-Z][a-z]{2} \d{1,2},\s*[a-z]+\s*[-–—]\s*/;
+    const notes = (src) => [...src.matchAll(/injuryNote: "((?:[^"\\]|\\.)*)"/g)]
+      .map((m) => norm(m[1].replace(STAMP, "")));
+    // Both sides must be RAW SOURCE, not the imported module: the parsed
+    // objects are already unescaped and the regex needs the file text.
+    const curPdSrc = readFileSync(join(REPO, PD), "utf8");
+    const basePdSrc = showAt(BASE, PD) ?? "";
+    const now = notes(curPdSrc), prev = new Set(notes(basePdSrc));
+    if (now.length && prev.size) {
+      const recycled = now.filter((n) => prev.has(n));
+      const pct = Math.round((recycled.length / now.length) * 100);
+      note("rotation", `injuryNote bodies carry-over ${pct}% (${recycled.length}/${now.length}); threshold 70%`);
+      if (pct > 70) fail("rotation", `${pct}% of injuryNote bodies are byte-identical to the previous edition once the date stamp is stripped; re-date is not rotation`);
+    }
+  }
 }
 
 // ─── CHECK 10 — THE STALE-BLOCK RULE (the one that caught the 31 Aug FAIL) ─

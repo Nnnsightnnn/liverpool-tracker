@@ -20,7 +20,7 @@ export const FORMATIONS = {
       RW:  { x: 82, y: 22, role: "FWD" },
     },
     // IDs from playerData.js. This 4-3-3 is the backup look; the default is the
-    // 4-2-3-1 below. Reviewed Sun Sep 13 (morning), after Liverpool 0-0 Fulham at Anfield
+    // 4-2-3-1 below. Reviewed Sun Sep 13 (evening), after Liverpool 0-0 Fulham at Anfield
     // (Jacquet cleared off the line on 12; Munoz hit the bar on 22; three changes all withdrawn
     // by the hour) and pointed at Tottenham at Anfield in the Carabao Cup on Tuesday 15 September,
     // 8pm. Saturday's XI was Alisson; Araujo, Jacquet, Van Dijk, Tsimikas; Szoboszlai, Gravenberch;
@@ -63,7 +63,7 @@ export const FORMATIONS = {
     // pointed at Tottenham at Anfield in the Carabao Cup on Tuesday 15 September, 8pm
     // (Fulham drawn 0-0 at Anfield on Sep 12; Atletico beaten 2-1 on Sep 9; Ipswich beaten
     // 2-0 away on Sep 4; Forest drawn 2-2 on Aug 29; Newcastle drawn 2-2 away on Aug 23).
-    // Reviewed Sun Sep 13 (morning): the XI is a CUP selection drawn at low confidence.
+    // Reviewed Sun Sep 13 (evening): the XI is a CUP selection drawn at low confidence.
     // Iraola rotated three for Fulham and withdrew all three by the hour, so the shape of
     // Tuesday's rotation is unknowable; this draws Mamardashvili in goal, Frimpong for
     // Araujo, Mac Allister restored to the pivot beside Szoboszlai, Gakpo (back, thirty
@@ -103,7 +103,7 @@ export const FORMATIONS = {
       RW:  { x: 78, y: 22, role: "FWD" },
     },
     // Hypothetical 3-4-3 alternative, a shape rarely used, shown for completeness.
-    // Reviewed Sun Sep 13 (morning, after Liverpool 0-0 Fulham, before Tottenham in the cup on
+    // Reviewed Sun Sep 13 (evening, after Liverpool 0-0 Fulham, before Tottenham in the cup on
     // Tuesday): Araujo moves inside to make a back three with Van Dijk and Jacquet; Kerkez and
     // Frimpong as wing-backs; Mac Allister and Szoboszlai in midfield; Gakpo, Isak and Ngumoha
     // across the front, Mamardashvili in goal. Gomez not yet in a squad; Leoni not with the
@@ -125,8 +125,8 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS + injuryNote context, reviewed Sun Sep 13 (morning), after
-// Liverpool 0-0 Fulham at Anfield and three days before Tottenham at Anfield in the Carabao
+// Hand-curated from RESULTS + injuryNote context, reviewed Sun Sep 13 (evening), after
+// Liverpool 0-0 Fulham at Anfield and two days before Tottenham at Anfield in the Carabao
 // Cup, Tuesday 15 September, 8pm. From the Fulham draw: Alisson's short pass on 12 was
 // dispossessed and Jacquet cleared Garcia's shot off the line; Munoz headed a corner against
 // the bar on 22; Leno saved from Isak and Mac Allister; Alisson tipped King's curler wide on
@@ -193,7 +193,7 @@ export const SLOT_CONFIDENCE = {
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Sun Sep 13 (morning):
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Sun Sep 13 (evening):
 // every rationale rewritten after Liverpool 0-0 Fulham and pointed at Tottenham in the Carabao Cup on Tuesday.
 export const SLOT_RATIONALE = {
   LB:  "Sun Sep 13, evening - drawn here because the alternative was tried on Saturday and taken off at half-time. Tsimikas misplaced 11 of 31 passes in his first start of the season, a 3 from Rousing The Kop; Kerkez came on and was 'an improvement' with 'yet more dreadful crossing' by SI's account. Neither, SI says, is currently up to Iraola's standard, and there is nobody else senior. Bobb was Saturday's afternoon; Savio is Tuesday's.",
