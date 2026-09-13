@@ -484,13 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday, and the reckoning has outrun the result. One win in four, a
-          goalless afternoon at Anfield, and the weekend's columns already cast
-          Andoni Iraola as a head coach <em>under pressure</em>, the man who
-          appointed him departed and no successor yet named. Five games is
-          nothing to judge on, which is not the same as nobody judging. A Spurs
-          side that has not scored in the league comes in the cup on Tuesday,
-          the first reply he is handed.
+          Sunday night, and the club has quietly declined to answer its oldest
+          question. Virgil van Dijk, thirty-five, every minute of every game so
+          far, will not be offered contract talks until 2027, with no decision
+          expected before April. He plays on regardless, because nobody else
+          can. Two nights from now Tottenham arrive in the cup without a league
+          goal to their name, and somebody, finally, has to score.
         </p>
 
         <StatStrip stats={stats} />
@@ -521,36 +520,36 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and the football has gone quiet while the talk has not. Liverpool
-              sit sixth and unbeaten, and the morning's loudest story is whether
-              their manager is already in trouble: one win in four, a first home
-              game without a goal, and the sporting director who chose Andoni
-              Iraola long gone to Saudi Arabia, so that the next man in the
-              building will owe him nothing. He answered the only way a coach can,
-              by diagnosis rather than defence, saying what was lacking on
-              Saturday was quite clear and that a crowded calendar will ask the
-              same question more than once. There is a name being written down
-              for later, Pablo Barrios, an Atletico midfielder who passed through
-              Anfield on Wednesday and left a mark. And there is Tuesday:
-              Tottenham in the cup, a side that has not scored in the league all
-              season, a returning Andy Robertson in white, and a manager who
-              would like, very much, to be talked about for the right reasons
-              again.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the most important contract at the club is the one nobody is
+              writing. Liverpool, it was reported on Friday and repeated all
+              weekend, will not sit down with Virgil van Dijk about his future
+              until 2027; the deal expires that summer, no decision is expected
+              before April, and a free transfer remains, technically, available
+              to everyone. The captain has meanwhile played every minute of
+              every competitive match this season, at thirty-five, because the
+              two men who might relieve him are one in the treatment room and
+              one who cannot get on a bench. Elsewhere the afternoon rearranged
+              the table without Liverpool's help: City won the Manchester derby
+              with ten men, Brighton put five past Coventry, and seventh is
+              where a side with three draws and no defeats now sits. Alisson,
+              asked to explain Saturday, said the team could not press, and
+              then said they had no time to waste. Tuesday is the next
+              instalment, and Andy Robertson comes back in white.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is the
-              pressure that arrived early, and a chair at the club nobody is yet
-              sitting in; a name noted for January; a full-back coming home in
-              white; and a defence of the striker everyone else wants to worry
-              about. Read them in order. The season
-              opened with draws at Newcastle and Anfield, a first win at Ipswich,
-              a first European night, and now a second home draw; the market is
-              shut until January, save for the men no one owns.
+              dispatches from the writers who never clock off. There is a
+              captain asked to wait; a goalkeeper who said the quiet part; a
+              season in Cyprus eight years ago that looks uncomfortably like
+              this one; two goal droughts meeting on Tuesday; and a search for a
+              right winger that keeps having to start over. Read them in order.
+              The season opened with draws at Newcastle and Anfield, a first win
+              at Ipswich, a first European night, and now a second home draw;
+              the market is shut until January, save for the men no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3760,7 +3759,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The pressure came before the patience."
+        "Ask him in April, they said."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
