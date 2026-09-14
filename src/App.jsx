@@ -484,12 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday night, and the club has quietly declined to answer its oldest
-          question. Virgil van Dijk, thirty-five, every minute of every game so
-          far, will not be offered contract talks until 2027, with no decision
-          expected before April. He plays on regardless, because nobody else
-          can. Two nights from now Tottenham arrive in the cup without a league
-          goal to their name, and somebody, finally, has to score.
+          Monday, the eve of a cup tie, and for once the team sheet is the
+          story. Iraola is expected to rest Virgil van Dijk, Alexander Isak
+          and Florian Wirtz against Tottenham tomorrow night, a rotation the
+          Fulham draw could not hold, made possible by Joe Gomez returning to
+          training after seven weeks out. The captain gets a night off; the
+          academy gets a night on. Somebody, still, has to score.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,33 +520,35 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the most important contract at the club is the one nobody is
-              writing. Liverpool, it was reported on Friday and repeated all
-              weekend, will not sit down with Virgil van Dijk about his future
-              until 2027; the deal expires that summer, no decision is expected
-              before April, and a free transfer remains, technically, available
-              to everyone. The captain has meanwhile played every minute of
-              every competitive match this season, at thirty-five, because the
-              two men who might relieve him are one in the treatment room and
-              one who cannot get on a bench. Elsewhere the afternoon rearranged
-              the table without Liverpool's help: City won the Manchester derby
-              with ten men, Brighton put five past Coventry, and seventh is
-              where a side with three draws and no defeats now sits. Alisson,
-              asked to explain Saturday, said the team could not press, and
-              then said they had no time to waste. Tuesday is the next
-              instalment, and Andy Robertson comes back in white.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and the most interesting decision at the club is one Andoni
+              Iraola has not announced. He is expected to make wholesale
+              changes for Tuesday's Carabao Cup tie with Tottenham, resting
+              Virgil van Dijk, Alexander Isak and Florian Wirtz and handing
+              the night to the likes of Lewis Koumas and Trey Nyoni, the
+              rotation Saturday's goalless draw was meant to allow and could
+              not survive. What makes it possible arrived at dawn, in a Sports
+              Mole bulletin: Joe Gomez, seven weeks out, is back in training
+              and in line for a first appearance of the season, the fourth
+              centre-back a two-man defence has waited on. The captain's
+              contract, still not up for discussion until 2027, becomes a
+              footnote to the rarer news that he might actually get a rest.
+              Tottenham arrive in the same condition, winless and goalless and
+              rotating too, De Zerbi promising to play with all his other
+              players. Andy Robertson comes back in white. Two teams under
+              pressure, one cup, and a manager who at last has a spare
+              defender to spend.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a
-              captain asked to wait; a goalkeeper who said the quiet part; a
-              season in Cyprus eight years ago that looks uncomfortably like
-              this one; two goal droughts meeting on Tuesday; and a search for a
-              right winger that keeps having to start over. Read them in order.
+              dispatches from the writers who never clock off. There is a team
+              sheet still unwritten; a defender back after seven weeks; an
+              opponent emptying his own bench; a winger who now comes with a
+              price; and an academy handed, for once, a night that counts. Read
+              them in order.
               The season opened with draws at Newcastle and Anfield, a first win
               at Ipswich, a first European night, and now a second home draw;
               the market is shut until January, save for the men no one owns.
@@ -3759,7 +3761,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Ask him in April, they said."
+        "For one night, the captain rests."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
