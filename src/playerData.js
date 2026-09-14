@@ -574,7 +574,7 @@ export const DISPATCHES = [
     dateline: "Hotspur Way · 13 September",
     category: "Football News",
     body:
-      "The visitors are in no better temper. Roberto De Zerbi, whose Tottenham have not scored a league goal all season, told Football.London he will 'play on Tuesday in Liverpool with all other players', which is a manager protecting the tired and, perhaps, hiding the out-of-form. Van de Ven and Solanke are hurt, Porro and Udogie are doubts, Maddison is back, and Richarlison, whose deadline move to Vasco da Gama fell through, is fit and available with a point to make. De Zerbi's own hope is that an away day against a side that pushes bodies forward might loosen his forwards. Two managers under a low autumn sky, meeting in the one cup either might still win.",
+      "The visitors are in no better temper. Roberto De Zerbi, whose Tottenham have not scored a league goal all season, told Football.London he will 'play on Tuesday in Liverpool with all other players', which is a manager protecting the tired and, perhaps, hiding the out-of-form. Van de Ven is hurt, Porro and Udogie are doubts, Maddison is back, Solanke starts against his old club, and Richarlison, whose deadline move to Vasco da Gama fell through, is fit and available with a point to make. De Zerbi's own hope is that an away day against a side that pushes bodies forward might loosen his forwards. Two managers under a low autumn sky, meeting in the one cup either might still win.",
   },
   {
     n: "04",
@@ -599,7 +599,7 @@ export const DISPATCHES = [
 export const NEWS_DIGEST = {
   generatedAt: "2026-09-14T08:30:00Z",
   summary:
-    "Monday morning, the day before a cup tie, and the story is the team sheet Iraola has not yet named. This Is Anfield reported over the weekend that he intends to make wholesale changes for Tuesday's Carabao Cup third round against Tottenham, with Virgil van Dijk, Alexander Isak and Florian Wirtz among those to be rested and Lewis Koumas in line to start, the rotation Saturday's draw was supposed to allow and did not survive. The change that makes it possible arrived overnight: Sports Mole's Monday bulletin has Joe Gomez, hampered by a muscle injury since July's Sunderland friendly, back in training and hopeful of a first appearance of the season in the backline, which is the fourth senior centre-back the depth chart has waited seven weeks for. Tottenham arrive in the same mood, De Zerbi confirming he will 'play with all other players' after a winless league start, without the injured Van de Ven and Solanke and doubtful over Porro and Udogie. Further out, Football Insider tie Liverpool to a club-record 130m-pound move for Bournemouth's Rayan once his release clause activates in 2027, the forward hunt acquiring a number. Liverpool sit seventh, six points from four games, the European line three points up the table.",
+    "Monday morning, the day before a cup tie, and the story is the team sheet Iraola has not yet named. This Is Anfield reported over the weekend that he intends to make wholesale changes for Tuesday's Carabao Cup third round against Tottenham, with Virgil van Dijk, Alexander Isak and Florian Wirtz among those to be rested and Lewis Koumas in line to start, the rotation Saturday's draw was supposed to allow and did not survive. The change that makes it possible arrived overnight: Sports Mole's Monday bulletin has Joe Gomez, hampered by a muscle injury since July's Sunderland friendly, back in training and hopeful of a first appearance of the season in the backline, which is the fourth senior centre-back the depth chart has waited seven weeks for. Tottenham arrive in the same mood, De Zerbi confirming he will 'play with all other players' after a winless league start, without the injured Van de Ven and doubtful over Porro and Udogie, though Solanke is fit to start against his old club. Further out, Football Insider tie Liverpool to a club-record 130m-pound move for Bournemouth's Rayan once his release clause activates in 2027, the forward hunt acquiring a number. Liverpool sit seventh, six points from four games, the European line three points up the table.",
   keyTopics: [
     {
       title: "Iraola To Ring The Changes For The Cup: Van Dijk, Isak And Wirtz Rested, Koumas In Line To Start (This Is Anfield, today)",
@@ -616,7 +616,7 @@ export const NEWS_DIGEST = {
     {
       title: "De Zerbi Will 'Play With All Other Players': Spurs Rotate Too, Without Van De Ven And Solanke, Porro And Udogie Doubtful (Spurs Web / Football.London / Sports Mole, today)",
       detail:
-        "The opponent arrives in the same frame of mind. Roberto De Zerbi told Football.London he will 'play on Tuesday in Liverpool with all other players' after a winless league start that has set a club record of four games without a goal, and Monday's team-news picture sharpened: Micky van de Ven and Dominic Solanke are both out with injuries carried since the Australia tour, James Maddison is back after a shoulder problem, and Pedro Porro and Destiny Udogie are major doubts with muscle issues. Mudryk (ankle), Simons, Odobert and Kulusevski (all knee) remain out. Richarlison, whose deadline-day move to Vasco da Gama collapsed, is eligible and available.",
+        "The opponent arrives in the same frame of mind. Roberto De Zerbi told Football.London he will 'play on Tuesday in Liverpool with all other players' after a winless league start that has set a club record of four games without a goal, and Monday's team-news picture sharpened: Micky van de Ven is out with an injury carried since the Australia tour, James Maddison is back after a shoulder problem, Dominic Solanke is fit and tipped to start against his former club, and Pedro Porro and Destiny Udogie are major doubts with muscle issues. Mudryk (ankle), Simons, Odobert and Kulusevski (all knee) remain out. Richarlison, whose deadline-day move to Vasco da Gama collapsed, is eligible and available.",
       category: "matches",
     },
     {
@@ -744,7 +744,7 @@ export const OPPOSITION = {
   absentees: [
     { name: "Pedro Porro", issue: "Muscle; left out at Everton, De Zerbi unwilling to risk him", status: "Doubt" },
     { name: "Destiny Udogie", issue: "Muscle; minutes managed, left out of the Everton squad", status: "Doubt" },
-    { name: "Micky van de Ven", issue: "Injury carried from the Australia tour; not in the previewed cup XI", status: "Doubt" },
+    { name: "Micky van de Ven", issue: "Injury carried from the Australia tour; not in the previewed cup XI", status: "Out" },
     { name: "Mykhailo Mudryk", issue: "Ankle (training); pencilled to return early November per Sports Mole", status: "Out" },
     { name: "Xavi Simons", issue: "ACL (April); no return anticipated before the new year", status: "Out" },
     { name: "Wilson Odobert", issue: "Knee (cruciate); no firm return timeline", status: "Out" },

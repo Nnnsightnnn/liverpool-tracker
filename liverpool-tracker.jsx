@@ -138,7 +138,7 @@ const LATEST_NEWS = [
   { source: "Sports Mole", title: "'We say Liverpool 3-1': Reds big favourites despite wholesale changes against a Spurs side that cannot score", time: "1d ago", category: "fan" },
   { source: "This Is Anfield", title: "Andy Robertson returns to Anfield in white for the first time after nine years and 350-plus games", time: "1d ago", category: "fan" },
   { source: "Sports Mole", title: "Pressure? De Zerbi responds to Spurs sack 'fears' after a club-record goalless start", time: "1d ago", category: "fan" },
-  { source: "Sky Sports", title: "Man Utd 0-1 Man City: Foden red on 23, Haaland's winner given on review, and Liverpool slip to seventh", time: "2d ago", category: "major" },
+  { source: "Sky Sports", title: "Man Utd 0-1 Man City: Foden red on 23, Haaland's winner given on review, and Liverpool slip to seventh", time: "1d ago", category: "major" },
   { source: "Squawka", title: "Premier League xG table: Tottenham nil from 2.94 expected goals, the division's worst finishing, before Anfield", time: "2d ago", category: "major" },
 ];
 

@@ -106,7 +106,7 @@ export const FORMATIONS = {
     },
     // Hypothetical 3-4-3 alternative, a shape rarely used, shown for completeness.
     // Reviewed Mon Sep 14 (morning), before Tottenham in the cup on Tuesday: a rested back
-    // line with the captain out, Araujo, Jacquet and a returning Gomez as the three, Kerkez
+    // line with the captain out, Araujo, Jacquet and Endo the makeshift third centre-half Sports Mole expects, Kerkez
     // and Frimpong as wing-backs, Mac Allister and Nyoni in midfield, Gakpo, Munoz and Barcola
     // across the front, Mamardashvili in goal. Gomez is a major doubt; if he cannot start,
     // Endo is the makeshift centre-half Sports Mole expects. Default is 4-2-3-1 above.
@@ -114,7 +114,7 @@ export const FORMATIONS = {
       GK: 2,    // Mamardashvili (cup selection)
       LCB: 29,  // Araujo (natural CB, moved inside · rests Van Dijk)
       CCB: 11,  // Jacquet (anchors the back three · man of the match Sat)
-      RCB: 5,   // Gomez (back in training · in line for a first appearance)
+      RCB: 17,  // Endo (makeshift centre-half Sports Mole expects if Gomez is not risked)
       LWB: 7,   // Kerkez (LWB · the only senior left-back)
       LCM: 13,  // Mac Allister ('undroppable')
       RCM: 20,  // Nyoni (17 · tipped to start the cup)
