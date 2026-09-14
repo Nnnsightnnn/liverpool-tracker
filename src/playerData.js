@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Mon Sep 14, morning - the day before a cup tie he is unlikely to play. This Is Anfield's read on Iraola's rotation has Alisson among those rested, Mamardashvili stepping into the competition he owns, and no wonder: the No. 1 has played every minute of a season now four league games and a European night old. Saturday was a clean sheet built on one error recovered and two saves, a 5 from Rousing The Kop against a 7.9 on FotMob. The Bournemouth trip next Sunday is his again.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Mon Sep 14, evening - confirmed out of the XI by omission. Iraola named only one starter on Monday and it was the other goalkeeper: 'there are little doubts with Ali, he's proven, he's playing very well,' the manager said, before handing Tuesday to Mamardashvili. Five competitive games, every minute, one clean sheet on Saturday built on a recovered error and two saves, a 5 from Rousing The Kop against a 7.9 on FotMob. The Bournemouth trip on Sunday is his again.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Mon Sep 14, morning - his night, if the previews are right. Every Tottenham and Liverpool preview has Mamardashvili starting Tuesday's third round, the deputy's competition and a first appearance since the summer tour with Alisson rested. Andy Madley referees, VAR in use, and the visitors arrive without a league goal all season. A clean sheet against a side that cannot score would be the quiet kind of statement a backup keeper waits for.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Mon Sep 14, evening - named, and not by a preview. Iraola settled it himself at Monday's press conference: 'he's going to start tomorrow, yes.' A first appearance of the 2026-27 season, in the competition a deputy inherits by custom, and with an unusual endorsement attached, the manager volunteering that he had tried to sign the Georgian for Bournemouth before he came here. Andrew Madley referees with no VAR in this round, and the visitors have not scored a league goal all season.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Mon Sep 14, morning - the rest, at last, and the contract still parked. This Is Anfield expect Iraola to leave the captain out of the cup tie, the first ninety he will have missed all season, made possible by Joe Gomez returning to training as a fourth senior centre-back. The longer question stands behind it: Liverpool will not open contract talks before 2027, no decision before April, the deal expiring that summer with a free transfer on the table and suitors in Saudi Arabia, Milan, Turkey and MLS. He has played every minute of all five games at 35 because nobody else could.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Mon Sep 14, evening - the rest the manager did not have to spell out. Iraola named Mamardashvili and nothing else, but every post-briefing preview leaves the captain out, and with Gomez now confirmed available the case for a night off no longer rests on a hope. He has played every minute of all five competitive games at 35 because nobody else could. Behind it the longer question is untouched: no contract talks before 2027, no decision before April, a deal expiring that summer with a free transfer on the table.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "doubtful", outSince: "2026-07-25", injuryNote: "Mon Sep 14, morning - the name that moved. Sports Mole's dawn injury bulletin has Gomez back in full training and hopeful of a first appearance of the season against Tottenham, a major doubt rather than a certainty but the first time in seven weeks he has been framed as available after July's Sunderland muscle injury. He is a fourth senior centre-back and a third right-back in one body, exactly the reinforcement that lets Iraola rest Van Dijk for the cup. Whether he starts or is eased onto the bench is the selection detail of the day.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Mon Sep 14, evening - available, in the manager's own word. 'Joe is training with the team and is available for tomorrow,' Iraola told reporters at the AXA on Monday. 'It's a matter of deciding how much he can play and what is the best thing to do.' That is the first indicative sentence about him since a muscle injury in the Sunderland friendly on 25 July. Rousing The Kop's post-briefing XI starts him at centre-back beside Endo; as one of the new vice-captains, he may take the armband if he does.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -54,7 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Mon Sep 14, morning - the unresolved position going into the cup. Saturday exposed the depth: Tsimikas, a first start of the season, misplaced 11 of 31 passes and was hooked at half-time, and Kerkez came on to 'yet more dreadful crossing' by SI, whose verdict is that neither left-back is currently up to Iraola's standard. Still the only senior option there, so the Tuesday call is a further look rather than a fix. A 5 from Rousing The Kop on Saturday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Mon Sep 14, evening - drawn out of the previews, which is its own verdict. Rousing The Kop's post-press-conference XI puts Tsimikas at left-back on Tuesday rather than Kerkez, three days after Tsimikas misplaced 11 of 31 passes and was withdrawn at half-time for him. SI's reading of the pair is that neither is currently up to Iraola's standard, and the Hungarian's own cameo drew a 5 and 'yet more dreadful crossing'. Two senior left-backs, and the cup offers a further look rather than a fix.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Mon Sep 14, morning - out until late November, and quietly replaced. Sports Mole's Monday round-up holds the knee injury from January at no club date, pencilling Manchester United on 21 November as the earliest, while Araujo has taken the right-back slot for three straight games and the reporting now tips the switch to be made permanent. Frimpong is the cup alternative; Gomez, if he features Tuesday, is a third body who has played there.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Mon Sep 14, evening - named on the out list again, and in the same breath as a small sign of life. Iraola confirmed on Monday that Bradley, along with Chiesa, Ekitike and Leoni, remains sidelined; the fuller briefing has him not close to training with the group but starting to touch a ball again, and it is still treated as a long-term absence from January's knee surgery. Sports Mole pencil Manchester United on 21 November as the earliest. Araujo has owned the right-back slot for three games in the interval.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Mon Sep 14, morning - the likeliest cup starter at right-back. With Iraola set to rotate and Araujo having played three games in seven days, the Dutchman is in line for a start on Tuesday. Saturday: the better of the late changes, on for Araujo at 72, 'solid enough defensively' by Rousing The Kop, a 6 and a 6.9 on FotMob. The reporting tipping Araujo's move inside to be made permanent only clears his route.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Mon Sep 14, evening - restored to the right-back slot by the evening previews. Rousing The Kop expect Frimpong to start Tuesday and describe it as a chance to earn the position back, Araujo having played three games in seven days. Saturday: on for Araujo at 72, the better of the late changes, 'solid enough defensively', a 6 and a 6.9 on FotMob. A full ninety in a cup tie is the most game time he has been offered since the opening weeks.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 18, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-15", injuryNote: "Mon Sep 14, morning - a date, finally. Sports Mole pencils 14 October as an availability target for the teenager a year on from the ACL he suffered on debut, with Iraola's own line more cautious, 'the plan is also to start training during the break, with the group'. Named in the Champions League squad, unused, and not part of Tuesday's calculation. His return is the one that would end the two-man centre-back rota for good.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 18, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-15", injuryNote: "Mon Sep 14, evening - still on the manager's out list, still the return that would settle the department. Iraola named Leoni among the four sidelined at Monday's briefing, a year on from the ACL he suffered on debut. The plan remains group training during the September international break, with Sports Mole pencilling 14 October as an availability target. Named in the Champions League squad, unused, and no part of Tuesday, which is why a teenage debutant is being discussed instead.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Mon Sep 14, morning - the ever-present who might, for once, sit. Five starts in five beside Van Dijk, and Saturday the goal-line clearance from Garcia that kept the point, an 8 and man of the match from Rousing The Kop, 8.1 to top the FotMob card. If Gomez is fit to start, the cup is a rare chance to rest Jacquet too; if not, he plays again, because the alternatives are a teenager and an converted midfielder. Opta had him at 18 of 25 league duels before Saturday.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Mon Sep 14, evening - endorsed from an unexpected quarter. John Aldridge used his Liverpool Echo column on Monday to call Jacquet 'the real deal' and argue he is already a better player than Ibrahima Konate, citing the eight duels Sofascore credit him with winning in a game Aldridge otherwise thought largely awful. The goal-line clearance from Garcia kept the point, an 8 and man of the match from Rousing The Kop. Five starts in five, and now a candidate to be rested for the first time.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Mon Sep 14, morning - out on loan, as the club always meant. Ndukwe joined Levante on a season-long loan on deadline day, the Spanish club covering his wage. Six foot six and nineteen, Liverpool's standout defender against Monaco in pre-season, but born in Austria and short of the points a post-Brexit permit demands, so a competitive fixture here this season was never possible. A year in La Liga is the plan.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Mon Sep 14, evening - away in Spain, and the loan is doing its job. Ndukwe joined Levante on deadline day on a season-long loan with the Spanish club covering his wage, the point of the move being eligibility rather than development alone: born in Austria and short of the points a post-Brexit permit demands, he could not have played a competitive game here this season. Six foot six and nineteen, and Liverpool's standout defender against Monaco in pre-season.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -113,7 +113,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Mon Sep 14, morning - the one nobody rotates out. Sports Mole's preview expects Mac Allister to anchor a changed cup midfield alongside seventeen-year-old Trey Nyoni, which is itself the point: the Argentine who says the club will not renew him is the player Iraola cannot leave out even in a rotation. On for Gravenberch at 60 on Saturday and the game settled, a 7 and 'undroppable' by Rousing The Kop. The recruitment staff scout Atletico's Pablo Barrios for a 2027 midfield he may not be in.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Mon Sep 14, evening - the one exception every rotation makes. Rousing The Kop's post-briefing XI leaves Mac Allister out entirely, which would be a first, though most other reads keep him; the honest position is that a manager resting eight or nine names has to spare somebody and nobody agrees who. What is not in dispute is Saturday: on for Gravenberch at 60, the game settled from that moment, a 7 and 'undroppable' by Rousing The Kop. The Argentine who says the club will not renew him remains the midfielder it cannot plan without.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -122,7 +122,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Mon Sep 14, morning - named in Monday's post-mortem, not the team sheet. Sports Mole's 'why the problem midfield was not addressed' piece puts the Fulham pivot at the centre of it: Gravenberch and Szoboszlai won two of ten first-half ground duels between them, both rated 3, and control returned only when Mac Allister came on. The start he waited three games for lasted an hour. Tuesday's cup place is a harder case to make than it was on Friday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Mon Sep 14, evening - kept in, on the logic that somebody senior has to be. Rousing The Kop's Monday-evening XI puts Gravenberch alongside Nyoni and McConnell precisely because the other two are 19 and 22, and frames it as a chance to play his way back into form rather than a reward. The hour he had against Fulham does not argue for him: two of ten first-half ground duels won between him and Szoboszlai, a 3, and control arriving only when he was withdrawn.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -132,7 +132,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Mon Sep 14, morning - the first bad game of a full season, and a thesis built on it. Monday's midfield inquest keeps returning to the hour he and Gravenberch spent as a pair against Fulham: none of six first-half ground duels won, a swipe at King that nearly gave a penalty, set-pieces that did not land until the corner Munoz headed onto the bar. A 3 from Rousing The Kop, SI's 6.8 kinder. Signed to 2031 and an ever-present; the rotation may reach even him for the cup.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Mon Sep 14, evening - left out of every cup XI published since the press conference. The Hungarian was one half of the pivot that has carried Monday's post-mortems, none of six first-half ground duels won against Fulham, a swipe at King that nearly conceded a penalty, a 3 from Rousing The Kop with SI's 6.8 kinder. Signed to 2031 and an ever-present until now; a rotation that reaches Van Dijk and Isak was always going to reach him, and 72 hours between games is the reason Iraola gave.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -142,7 +142,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Mon Sep 14, morning - the promise about to be kept. Sports Mole's preview expects Endo to make a first appearance of the season on Tuesday, probably as a makeshift centre-half if Gomez is not risked from the start, which is the exact scenario Iraola meant by 'for sure he will have his moments' and Carragher doubted. Nought minutes so far, fourth in the midfield queue and left off the European squad, so the Carabao Cup is the only realistic stage he has.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Mon Sep 14, evening - the moment, when it comes, will be at centre-back. Rousing The Kop's post-briefing XI starts Endo beside Gomez in defence rather than in midfield, which is the plainest statement yet of where the squad is thin: a 33-year-old holding midfielder is the fourth-choice centre-half, and behind him the alternative is an 18-year-old who has never played. Nought minutes this season, fourth in the midfield queue, left off the European squad. The cup is the only stage he has.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -154,7 +154,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Mon Sep 14, morning - defended on Monday, rested on Tuesday. Jermaine Pennant used a Sports Mole column to push back on the growing criticism of the German, who This Is Anfield expect Iraola to leave out of the cup tie after a fortnight's patience spent on one goalless afternoon. Fulham: two shots the wrong side of the post and a 4 from Rousing The Kop, a 7.4 on FotMob noting fatigue and 'uncharacteristic technical errors'. Five competitive games without a goal or assist; the reporting says the missing deep passer is not his fault alone.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Mon Sep 14, evening - rested, and the vacancy is the interesting part. With Wirtz left out of every published cup XI, Rousing The Kop fill the ten with James McConnell, noting there is no natural understudy for the German in the building. Five competitive games without a goal or an assist, two shots the wrong side of the post against Fulham, a 4 from Rousing The Kop and a 7.4 on FotMob that blamed fatigue. Jermaine Pennant spent Monday arguing the missing deep passer is not his fault alone.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -163,7 +163,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", injuryNote: "Mon Sep 14, morning - tipped to start. Sports Mole's preview has the seventeen-year-old coming into midfield for the cup, likely alongside Mac Allister, in the competition where Liverpool have always found their next players. Unused on Saturday's bench for the first time this season, and with Iraola describing the midfield as a queue, Tuesday is his clearest run at minutes. The new contract remains unsigned per the weekend reporting.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
+    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", injuryNote: "Mon Sep 14, evening - the closest thing to a certainty after the goalkeeper. Rousing The Kop call Nyoni the one near-lock of the changed midfield and frame Tuesday as his chance to cement a place rather than visit one, after a season of waiting that included an unused bench place on Saturday. Nineteen, and in a competition where this club has a long habit of discovering who comes next. The new contract is still unsigned per the weekend reporting.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
     physical: { height: 178, weight: 68, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Leicester City Academy", fee: null, type: "youth" },
@@ -173,7 +173,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Mon Sep 14, morning - a candidate to lead the line. With Isak set to be rested, Sports Mole's preview floats Gakpo as the false-nine against Tottenham, the role Iraola has used him in before and one that suits a night the only senior striker sits out. Fit now after last week's adductor doubt, thirty minutes off the bench against Fulham, and a goal and three assists in three league games per Opta back in the pool. The question is whether he starts the cup or is held for Bournemouth.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Mon Sep 14, evening - a rest of his own, on the evening reads. Where the morning previews had Gakpo leading the line as a false nine, Rousing The Kop's post-briefing XI leaves him out altogether, reasoning that a player only just back from an adductor niggle should not be asked to start 72 hours after thirty minutes off the bench. Koumas is given the centre-forward role instead. A goal and three assists in three league games per Opta are in the pool either way.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Mon Sep 14, morning - the rest that finally becomes possible. This Is Anfield expect Iraola to leave Isak out of the cup tie, the first time resting the only fit senior nine has been thinkable, with Gakpo the false-nine cover. Sixteen touches against Fulham, the second fewest for a Liverpool outfielder on record per the BBC; three league goals in four while starting every game. The counter-argument is that a striker short of touches needs games, not rest.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Mon Sep 14, evening - spared at last, and every preview agrees on it. Isak is absent from all the published cup elevens, which makes Tuesday the first match of the season he does not start. Sixteen touches against Fulham, the second fewest for a Liverpool outfielder on record per the BBC; three league goals in four. Iraola's Monday explanation covers him better than most: a schedule of game, two days, game, and a manager still learning who can take it.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -193,7 +193,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Mon Sep 14, morning - still the shape of the absence, no shorter. Sports Mole's Monday round-up carries no timeline beyond the club's, Iraola confirming 'Hugo will go later' than the international break and framing January as the hope, 'a reasonable chance he could help us', the last two Champions League league-phase games the target per This Is Anfield. His absence is why resting Isak means playing Gakpo up top; the Achilles rupture from April will cost most of the campaign.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Mon Sep 14, evening - named among the four still out, and no closer. Iraola listed Ekitike with Bradley, Chiesa and Leoni on Monday, which is where the April Achilles rupture has left him all season. January remains the framing rather than a date, 'a reasonable chance he could help us', with the last two Champions League league-phase games the target per This Is Anfield. His absence is the reason the only senior striker has started everything, and the reason Tuesday hands the role to a 20-year-old.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -204,7 +204,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Mon Sep 14, morning - in the cup rotation, and needing a better night. Rested to the bench against Fulham and on for Barcola at 72, a cameo Rousing The Kop called poor, a 4: an overhit cross, a counter conceded, a shot fired wide. Sports Mole's preview has him among the wide options for Tuesday as Iraola changes the front line, which is a chance to answer Saturday rather than repeat it.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Mon Sep 14, evening - handed the left wing by the evening previews. Rousing The Kop expect Ngumoha to start wide on Tuesday with Munoz on the opposite flank, arrived at largely by elimination: Barcola cannot start, Isak will not, Gakpo is only just back. Saturday's cameo, on for Barcola at 72, was poor enough to draw a 4, an overhit cross and a counter conceded, so this is a chance to answer that rather than repeat it.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -212,7 +212,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "injured", outSince: "2026-08-16", injuryNote: "Mon Sep 14, morning - a date in view. Sports Mole pencils 11 October as an availability target for the lower-back injury, with Iraola expecting him back in training around the international break. Left off the Champions League squad, so the autumn's European nights were never in reach; a mid-October return would give a stretched front line a fifth forward it has badly missed since a pre-season friendly at Como.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "injured", outSince: "2026-08-16", injuryNote: "Mon Sep 14, evening - confirmed sidelined by the manager, with a date holding. Iraola named Chiesa among the four out on Monday; the lower-back problem carried since the Como friendly is still expected to clear around the international break, with Sports Mole pencilling 11 October. Left off the Champions League squad, so the autumn's European nights were never available to him. A mid-October return would give a stretched front line a fifth forward it has missed since August.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -223,7 +223,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Mon Sep 14, morning - third keeper, and not in the picture. Woodman was not on Saturday's bench, which carried Mamardashvili alone, and with the deputy set to start the cup his next involvement is a bench place there at most. A settled, quiet role behind two senior goalkeepers.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Mon Sep 14, evening - the bench, at best, on a night the bench matters. With Mamardashvili confirmed as Tuesday's starter, the third goalkeeper's involvement is a place among the substitutes rather than anything more; he was not on Saturday's nine-man bench, which carried Mamardashvili alone. A settled and quiet role behind two senior goalkeepers, and one that will not be tested until a cup round somewhere further on.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -240,7 +240,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Mon Sep 14, morning - a likelier cup start than a league one. Sports Mole's preview names Munoz among the changed front line for Tuesday, a chance to build on Saturday's near-miss: started on the right, headed a corner against the bar on 22 with Leno getting a hand to it, then withdrawn on the hour, a 4 from Rousing The Kop but SI's 6.7 calling him the most natural of Iraola's right-wing options. One of four wingers for a role the club spent the weekend being told it has not filled.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Mon Sep 14, evening - a start on the right, by consensus. Rousing The Kop's post-briefing XI names Munoz among the front three with Koumas central and Ngumoha left, the second consecutive selection in which he has been the most natural of the wide options per SI. Saturday: a header against the bar on 22 with Leno getting a hand to it, withdrawn on the hour, a 4 from Rousing The Kop but a 6.7 from SI. Three appearances and one goal into a Liverpool career.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -250,7 +250,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 0, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", injuryNote: "Mon Sep 14, morning - the loan turning into a plan. CaughtOffside reported over the weekend that Liverpool are encouraged in keeping the Uruguayan, with Barcelona unable to guarantee him a role, and Football365 tipped Iraola to make the right-back switch permanent, a third straight start there against Fulham, a 6 and a 6.9, isolated at times by Robinson's overloads. Three games in seven days makes him the one most likely rested for the cup, with Frimpong and a returning Gomez the cover.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
+    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 0, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", injuryNote: "Mon Sep 14, evening - the clause, restored. Fabrizio Romano withdrew his podcast claim on Monday and confirmed the season-long loan from Barcelona does carry a purchase option: 55m euros, about 47m pounds, not obligatory and exercisable next summer. It arrives after three straight starts at right-back, a position that is not his, and with Barcelona unable to guarantee him a role. Rested for the cup in most reads, Frimpong taking the flank and Gomez the middle.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
     physical: { height: 188, weight: 79, pace: 78, acceleration: 74, sprintSpeed: 80 },
     career: [
       { years: "2016-2018", club: "Rentistas", fee: null, type: "youth" },
@@ -260,7 +260,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 1, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Mon Sep 14, morning - managed, not rested. Iraola said the club is 'building his physical condition' with games and that the four wingers will play both sides all season, so a cup involvement is likelier than a night off despite no pre-season. Saturday was a first Premier League start, on the left, fading after setting up Isak's first-minute chance, a 4 from Rousing The Kop and 6.6 on FotMob.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
+    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 1, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Mon Sep 14, evening - ruled out of the XI by the previews rather than by a physio. 'Bradley Barcola certainly won't be starting,' Rousing The Kop wrote on Monday evening, the reasoning being a player with no pre-season behind him who cramped on his first Premier League start. Iraola's own line is that the club is building his condition with games and that the four wingers will play both flanks all season, so a bench role on Tuesday is likelier than a night off entirely.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
     physical: { height: 182, weight: 72, pace: 91, acceleration: 92, sprintSpeed: 90 },
     career: [
       { years: "2010-2020", club: "Lyon Academy", fee: null, type: "youth" },
@@ -377,7 +377,18 @@ export const COVER_IMAGE = {
   alt: "Editorial plate: a grey Anfield afternoon, a defender in red stretched across the goal-line hooking the ball clear with the net behind him, a striker in white arriving too late, the goalkeeper stranded to one side.",
   focus: "Liverpool 0-0 Fulham: Jacquet clears Garcia's shot off the line in the twelfth minute after Alisson's short pass, the moment that kept a point on an afternoon Liverpool failed to score for the first time under Iraola",
   credit: "Plate · Daily edition",
-  generatedAt: "2026-09-14T08:30:00Z",
+  generatedAt: "2026-09-14T22:30:00Z",
+  // Evening pass (Mon 14 September, 6pm ET / 11pm BST): no match since Saturday, so the Jacquet plate is carried and
+  // generatedAt re-stamped only. The `focus` line and `brief` below still describe the Fulham clearance, which is now the
+  // third story on the page. The lead rotated to Iraola's Monday press conference at the AXA: Mamardashvili confirmed to
+  // start (a first appearance of the season, the manager volunteering that he tried to sign him for Bournemouth), Gomez
+  // upgraded from doubt to 'available for tomorrow', and the manager's own account of a schedule he called the worst
+  // scenario. A press conference has no single still photograph in it, so NO new image was queued under STEP 7.5 and the
+  // brief below is intentionally left at the last genuinely photographable moment; Antigravity should treat it as served.
+  // Also this pass: Tottenham's team news reversed the weekend's reading (Tonali out with a knock, Porro and Kulusevski
+  // out, Richarlison excluded from the squad entirely, Udogie back, Van de Ven in fact fit and a starter at Everton), and
+  // the table moved without Liverpool playing, Leeds beating Newcastle 4-1 at Elland Road to go third and Liverpool
+  // slipping from seventh to eighth on the same six points.
   // Machine-readable handoff written by the daily run, consumed by Antigravity.
   // Evening pass (Sat 12 September, 6pm ET / 11pm BST): a match was played. Liverpool 0-0 Fulham at Anfield,
   // the first blank under Iraola and a fourth straight Anfield league draw, the first such run since November
@@ -437,7 +448,7 @@ export const NEXT_MATCH = {
   date: "2026-09-15T20:00:00",
   competition: "EFL",
   venue: "Anfield",
-  broadcast: "ITV and Sky Sports (8pm)",
+  broadcast: "ITV4 and Sky Sports (8pm)",
 };
 
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
@@ -487,27 +498,29 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-09-14 (Monday morning, ~4am ET) — re-fetched from ESPN's endpoint and byte-identical to Sunday's
-// programme, no league game since. Manchester City and Arsenal are clear on twelve, both perfect from four, City having
-// won the derby 1-0 at Old Trafford with ten men from the 23rd minute (Foden red, Haaland's winner given on review) with
-// Manchester United thirteenth. Brighton's 5-0 at Coventry holds them fourth and in the Champions League stripe, Chelsea
-// on the Europa line and Brentford outside a stripe. LIVERPOOL SEVENTH on six from four (1W 3D), passed by Brentford on
-// goal difference and level with Everton. Coventry are bottom on nothing from four, no goal, minus ten. Tottenham (Anfield,
-// Carabao Cup, Tuesday 8pm) stay seventeenth on two and still without a league goal; Fulham eighteenth on one, in the
-// stripe with Villa and Coventry.
+// Last refresh: 2026-09-14 (Monday evening, ~6pm ET) — re-fetched from ESPN's endpoint AFTER Monday night's game, and it
+// moved without Liverpool kicking a ball. LEEDS BEAT NEWCASTLE 4-1 at Elland Road (Miley own goal 32, Bogle 34,
+// Calvert-Lewin 45+1, Okafor 59, per NBC Sports), the last two sides with a game in hand, which lifts Daniel Farke's
+// promoted team to THIRD on eight and drops Newcastle to twelfth. LIVERPOOL FALL TO EIGHTH on the same six points from
+// four (1W 3D), behind Brentford and Everton on goals scored and goal difference, and the Champions League stripe now sits
+// two places further away than it did this morning. Arsenal and Manchester City remain clear on twelve, both perfect from
+// four; the qualification stripes shift with the table, Leeds and Hull now inside the Champions League four, Brighton
+// alone on the Europa line and Chelsea outside a stripe. Tottenham (Anfield, Carabao Cup, Tuesday 8pm) stay seventeenth on
+// two and still without a league goal; Fulham eighteenth on one, in the relegation stripe with Villa and Coventry, who are
+// bottom on nothing, no goal scored, minus ten.
 export const STANDINGS = [
   { pos: 1, team: "Arsenal", p: 4, w: 4, d: 0, l: 0, gd: 7, pts: 12, qualification: "UCL" },
   { pos: 2, team: "Manchester City", p: 4, w: 4, d: 0, l: 0, gd: 6, pts: 12, qualification: "UCL" },
-  { pos: 3, team: "Hull", p: 4, w: 2, d: 2, l: 0, gd: 3, pts: 8, qualification: "UCL" },
-  { pos: 4, team: "Brighton", p: 4, w: 2, d: 1, l: 1, gd: 8, pts: 7, qualification: "UCL" },
-  { pos: 5, team: "Chelsea", p: 4, w: 2, d: 1, l: 1, gd: 1, pts: 7, qualification: "UEL" },
-  { pos: 6, team: "Brentford", p: 4, w: 1, d: 3, l: 0, gd: 3, pts: 6 },
-  { pos: 7, team: "Liverpool", p: 4, w: 1, d: 3, l: 0, gd: 2, pts: 6, highlight: true },
-  { pos: 8, team: "Everton", p: 4, w: 1, d: 3, l: 0, gd: 2, pts: 6 },
-  { pos: 9, team: "Ipswich", p: 4, w: 2, d: 0, l: 2, gd: -3, pts: 6 },
-  { pos: 10, team: "Newcastle", p: 3, w: 1, d: 2, l: 0, gd: 2, pts: 5 },
-  { pos: 11, team: "Leeds", p: 3, w: 1, d: 2, l: 0, gd: 1, pts: 5 },
-  { pos: 12, team: "Nott'm Forest", p: 4, w: 1, d: 2, l: 1, gd: 0, pts: 5 },
+  { pos: 3, team: "Leeds", p: 4, w: 2, d: 2, l: 0, gd: 4, pts: 8, qualification: "UCL" },
+  { pos: 4, team: "Hull", p: 4, w: 2, d: 2, l: 0, gd: 3, pts: 8, qualification: "UCL" },
+  { pos: 5, team: "Brighton", p: 4, w: 2, d: 1, l: 1, gd: 8, pts: 7, qualification: "UEL" },
+  { pos: 6, team: "Chelsea", p: 4, w: 2, d: 1, l: 1, gd: 1, pts: 7 },
+  { pos: 7, team: "Brentford", p: 4, w: 1, d: 3, l: 0, gd: 3, pts: 6 },
+  { pos: 8, team: "Liverpool", p: 4, w: 1, d: 3, l: 0, gd: 2, pts: 6, highlight: true },
+  { pos: 9, team: "Everton", p: 4, w: 1, d: 3, l: 0, gd: 2, pts: 6 },
+  { pos: 10, team: "Ipswich", p: 4, w: 2, d: 0, l: 2, gd: -3, pts: 6 },
+  { pos: 11, team: "Nott'm Forest", p: 4, w: 1, d: 2, l: 1, gd: 0, pts: 5 },
+  { pos: 12, team: "Newcastle", p: 4, w: 1, d: 2, l: 1, gd: -1, pts: 5 },
   { pos: 13, team: "Manchester United", p: 4, w: 1, d: 1, l: 2, gd: 0, pts: 4 },
   { pos: 14, team: "Sunderland", p: 4, w: 1, d: 1, l: 2, gd: -2, pts: 4 },
   { pos: 15, team: "Bournemouth", p: 4, w: 0, d: 3, l: 1, gd: -1, pts: 3 },
@@ -528,21 +541,23 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 4,
-  generatedAt: "2026-09-14T08:30:00Z",
+  generatedAt: "2026-09-14T22:30:00Z",
   overview:
-    "The weekend's damage is done and Monday's table is a settled thing, which for Liverpool means seventh on six points with the football this week happening in a cup rather than the league. Arsenal and Manchester City are clear at the top on twelve, both perfect from four, City having won the derby with ten men after Foden's early red; Brighton's 5-0 at Coventry lifted them into the Champions League places and stretched the top five away from the chasing pack. Liverpool sit level with Everton and a place behind Brentford on goal difference, the European line now three points up rather than one, the only side in the top half unbeaten on three draws. Tottenham, Tuesday's cup visitors, are seventeenth on two and still without a league goal in four games. Bournemouth, next Sunday's league opponent, are fifteenth and winless. Nothing in the table moves again until the weekend, so the week's verdict is the one Anfield delivers in the League Cup.",
+    "Monday night rearranged a table Liverpool had no part in, and the club that woke up seventh goes to bed eighth. Leeds beat Newcastle 4-1 at Elland Road in the last fixture of the round, the two sides with a game in hand meeting each other, and Daniel Farke's promoted team climbed into third while the visitors dropped to twelfth. Nothing about Liverpool changed except the company: still six points from four, still unbeaten on a win and three draws, now behind Brentford and Everton on goals and two places further from a Champions League stripe that Leeds and Hull, of all sides, currently occupy. Arsenal and Manchester City remain perfect on twelve and untroubled by any of it. Tottenham, who visit Anfield in the cup on Tuesday, are seventeenth and have still not scored a league goal; Bournemouth, the league fixture on Sunday, are fifteenth and winless. Nothing moves again until the weekend, which makes the week's only verdict a knockout one.",
   teams: {
-    "Liverpool": "Seventh on six, one win in four and unbeaten, level with Everton and behind Brentford on goal difference. Three points from Europe; the cup on Tuesday is the week's only football and the most decorated route to it.",
+    "Liverpool": "Eighth on six after Monday night pushed them down a place without a ball kicked, unbeaten on one win and three draws but behind Brentford and Everton on goals. The cup tie is the week's only football.",
     "Arsenal": "Joint top on twelve, four wins from four, ahead of City on goal difference. At Anfield on 1 November.",
-    "Manchester City": "Level on twelve after winning the derby with ten men from the 23rd minute, Foden sent off and Haaland's winner given on review. Visit Anfield on 11 October.",
-    "Hull": "Third on eight, promoted and still unbeaten, holding a place nobody forecast in August.",
-    "Brighton": "Fourth after a 5-0 at Coventry, five different scorers and Dunk's strike the pick; the weekend's biggest win and a jump into the Champions League stripe.",
-    "Chelsea": "Fifth on seven, the Europa stripe theirs by goal difference after Brighton's rout moved the line.",
-    "Brentford": "Sixth on six, above Liverpool on goal difference and unbeaten like them. Host Liverpool on 17 October.",
-    "Everton": "Eighth on six, level with Liverpool on points and goal difference, separated only by goals scored; goalless with Spurs on Saturday.",
+    "Manchester City": "Level on twelve after Sunday's derby win with ten men, Foden sent off on 23 and Haaland's winner given on review. Visit Anfield on 11 October.",
+    "Leeds": "Third on eight after a 4-1 rout of Newcastle at Elland Road, Miley's own goal and Bogle inside three minutes, Calvert-Lewin before the break and Okafor after it. The promoted side are unbeaten.",
+    "Hull": "Fourth on eight, promoted and still unbeaten, holding a Champions League place nobody forecast in August.",
+    "Brighton": "Fifth on seven and alone on the Europa line after Monday's reshuffle, the 5-0 at Coventry still the round's biggest win.",
+    "Chelsea": "Sixth on seven, outside a European stripe on goal difference, level on points with Brighton above them.",
+    "Brentford": "Seventh on six, above Liverpool on goals scored and unbeaten like them. Host Liverpool on 17 October.",
+    "Newcastle": "Twelfth on five after conceding four at Elland Road, the game in hand spent and the goal difference turned negative in ninety minutes.",
+    "Everton": "Ninth on six, level with Liverpool on points and goal difference and separated only by goals scored; goalless with Spurs on Saturday.",
     "Manchester United": "Thirteenth on four after the derby defeat, twice hitting the woodwork against ten men through Rashford and Mainoo.",
-    "Bournemouth": "Fifteenth on three, winless from three draws and a defeat under a new manager; Liverpool visit the Vitality next Sunday, 20 September.",
-    "Tottenham": "Seventeenth on two, four league games without a goal, a club first. At Anfield in the Carabao Cup on Tuesday at 8pm, De Zerbi set to rotate heavily.",
+    "Bournemouth": "Fifteenth on three, winless from three draws and a defeat under a new manager; Liverpool visit the Vitality on Sunday, 20 September.",
+    "Tottenham": "Seventeenth on two, four league games without a goal, a club first. At Anfield in the Carabao Cup on Tuesday at 8pm, De Zerbi rotating and without Tonali, Porro and Kulusevski.",
     "Fulham": "Eighteenth on one, the Anfield point still their only one; inside the relegation stripe.",
     "Coventry": "Bottom on nothing: four defeats, no goal scored, minus ten, and a red card for Awoniyi on Sunday.",
   },
@@ -551,128 +566,129 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "The Team He Has Not Named.",
-    byline: "This Is Anfield",
-    dateline: "Anfield · 14 September",
-    category: "Tactics",
+    headline: "One Name, Freely Given.",
+    byline: "Liverpool FC",
+    dateline: "AXA Training Centre · 14 September",
+    category: "Manager",
     body:
-      "On the eve of a cup tie the loudest thing at Liverpool is a team sheet still in a drawer. This Is Anfield's weekend read has Andoni Iraola planning wholesale changes for Tuesday's third round, Van Dijk, Isak and Wirtz among the names to be rested, Lewis Koumas among those to come in. It is the rotation he tried against Fulham and could not hold, when three of his changes were back off inside the hour, and the calendar has not softened since: Bournemouth away follows on Sunday. There is a version of this that looks bold and a version that looks forced, and the difference between them is whether the players he trusts less can do what the players he trusts could not, which was create.",
+      "Managers guard team sheets the way card players guard hands, so the interesting thing about Monday lunchtime was how readily Andoni Iraola put one card face up. Giorgi Mamardashvili starts. There were no conditions attached and no hedging afterwards, only a small confession that explained the warmth: 'I told him we tried to sign him for Bournemouth before I came here.' Everything else he left open, which is not evasion so much as honesty about a squad he is fourteen weeks into knowing. He called the fixture list the worst scenario, game and two days and game again, and said he is still learning who withstands it. The rest of Tuesday's eleven is a question he has not finished asking himself.",
   },
   {
     n: "02",
-    headline: "Gomez, Seven Weeks On.",
-    byline: "Sports Mole",
-    dateline: "Anfield · 14 September",
+    headline: "The Word Was Available.",
+    byline: "Liverpool Echo / Empire of the Kop",
+    dateline: "AXA Training Centre · 14 September",
     category: "Injuries",
     body:
-      "The most useful sentence of the morning arrived in a Sports Mole injury bulletin timed just after four o'clock. Joe Gomez, out since a muscle injury in the Sunderland friendly on the twenty-sixth of July, is back in full training and hopeful of an appearance on Tuesday. He is called a major doubt, not a certainty, and the club has learned to underpromise on him. But seven weeks is a long time to defend with two men, and Van Dijk and Jacquet have played every minute of every game because there was nobody else. A fourth senior centre-back, one who can also fill in at right-back, is not a headline signing. It is, this week, worth more than one.",
+      "Seven weeks of conditional tenses ended in a single indicative sentence. 'Joe is training with the team and is available for tomorrow,' Iraola said of Joe Gomez, and then, because nothing at this club is ever entirely settled, 'it's a matter of deciding how much he can play.' Gomez has not played since a muscle injury in a July friendly at Sunderland, and in the interval Virgil van Dijk and Jeremy Jacquet have played every minute of every match because the alternative was a converted midfielder. He is one of the new vice-captains; if he starts, the armband may travel with him. A fourth senior centre-back is not a signing. In a squad locked until January it is the nearest thing available.",
   },
   {
     n: "03",
-    headline: "De Zerbi Empties His Bench Too.",
-    byline: "Spurs Web / Football.London",
-    dateline: "Hotspur Way · 13 September",
+    headline: "What De Zerbi Left At Home.",
+    byline: "Sports Mole / Goal",
+    dateline: "Hotspur Way · 14 September",
     category: "Football News",
     body:
-      "The visitors are in no better temper. Roberto De Zerbi, whose Tottenham have not scored a league goal all season, told Football.London he will 'play on Tuesday in Liverpool with all other players', which is a manager protecting the tired and, perhaps, hiding the out-of-form. Van de Ven is hurt, Porro and Udogie are doubts, Maddison is back, Solanke starts against his old club, and Richarlison, whose deadline move to Vasco da Gama fell through, is fit and available with a point to make. De Zerbi's own hope is that an away day against a side that pushes bodies forward might loosen his forwards. Two managers under a low autumn sky, meeting in the one cup either might still win.",
+      "The visitors' injury list rearranged itself on Monday and mostly got worse. Sandro Tonali, a hundred-million-pound midfielder, took a knock and stays behind; Pedro Porro and Dejan Kulusevski were already gone. Destiny Udogie comes back, which De Zerbi offered as the good news, and Micky van de Ven, written off in the weekend's previews, in fact started against Everton and is fit. The most pointed absence is voluntary: Richarlison, whose deadline-day escape to Vasco da Gama collapsed, is eligible and will not be involved, the manager declining even to elaborate. 'The situation is the same,' he said. A squad rebuilt for close to three hundred and fifty million pounds, and a forward who is simply no longer part of it.",
   },
   {
     n: "04",
-    headline: "A Number On The Winger.",
-    byline: "Football Insider / Sports Mole",
+    headline: "The Clause He Said Did Not Exist.",
+    byline: "Fabrizio Romano via Empire of the Kop",
     dateline: "Anfield · 14 September",
     category: "Transfers",
     body:
-      "The search for a right winger has spent a fortnight changing its mind about names; overnight it acquired a price instead. Football Insider report that Liverpool admire Bournemouth's Rayan enough to consider a club-record move once his release clause, a hundred and thirty million pounds, activates in 2027. He is twenty, Brazilian, mostly a right winger, five goals in fifteen league games last season and none yet in four this. It is a summer idea rather than a January one, and the honesty of the reporting is in the caveat: a squad that spent past six hundred million pounds in sixteen months and did not buy a wide forward who scores is now being asked to spend that again to correct it.",
+      "Transfer reporting rarely files a correction, which is what made Monday's unusual. Fabrizio Romano had told a podcast audience that Liverpool's season-long loan for Ronald Araujo contained no option to buy; on Monday he withdrew it and confirmed the option is there, fifty-five million euros, about forty-seven million pounds, not obligatory, exercisable next summer. Araujo has spent three games at right-back, a position that is not his, and been among the better performers in a side that has drawn four of six. The club that spent past six hundred million pounds in sixteen months and still cannot name a fourth centre-back has, it turns out, already bought the right to fix that. It only has to decide whether to use it.",
   },
   {
     n: "05",
-    headline: "The Academy's Turn.",
-    byline: "This Is Anfield / Rousing The Kop",
-    dateline: "Kirkby · 14 September",
-    category: "Football News",
+    headline: "Eighth, Without Kicking A Ball.",
+    byline: "ESPN / NBC Sports",
+    dateline: "Elland Road · 14 September",
+    category: "Race for Europe",
     body:
-      "A rested first eleven is an opened door, and the names behind it have waited all season for one. If the reporting is right that Koumas starts, it is a first meaningful test for the forward Iraola has called willing and Firmino-shaped, a presser rather than a finisher. Trey Nyoni, seventeen and unused on Saturday's bench for the first time, has the quieter claim in a midfield the manager keeps describing as a queue. Even Wataru Endo, promised his moment and doubted by Carragher, has a competition designed for exactly this. The cup has always been where Liverpool find out who the next players are; Tuesday, for once, the manager may have no choice but to look.",
+      "There is a particular indignity in losing ground on a night off. Leeds and Newcastle, the two clubs still holding a game in hand, met on Monday and Leeds won 4-1: Lewis Miley turning one into his own net on thirty-two, Jayden Bogle two minutes later, Dominic Calvert-Lewin in stoppage time at the break, Noah Okafor after it. Daniel Farke's promoted side are third. Newcastle are twelfth. Liverpool, who did nothing at all, are eighth, six points from four, unbeaten and steadily overtaken, with Brentford and Everton ahead of them on goals scored. The Champions League places now contain Leeds and Hull. It is September, and none of it is a verdict, but the arithmetic is starting to notice.",
   },
 ];
 
 export const NEWS_DIGEST = {
-  generatedAt: "2026-09-14T08:30:00Z",
+  generatedAt: "2026-09-14T22:30:00Z",
   summary:
-    "Monday morning, the day before a cup tie, and the story is the team sheet Iraola has not yet named. This Is Anfield reported over the weekend that he intends to make wholesale changes for Tuesday's Carabao Cup third round against Tottenham, with Virgil van Dijk, Alexander Isak and Florian Wirtz among those to be rested and Lewis Koumas in line to start, the rotation Saturday's draw was supposed to allow and did not survive. The change that makes it possible arrived overnight: Sports Mole's Monday bulletin has Joe Gomez, hampered by a muscle injury since July's Sunderland friendly, back in training and hopeful of a first appearance of the season in the backline, which is the fourth senior centre-back the depth chart has waited seven weeks for. Tottenham arrive in the same mood, De Zerbi confirming he will 'play with all other players' after a winless league start, without the injured Van de Ven and doubtful over Porro and Udogie, though Solanke is fit to start against his old club. Further out, Football Insider tie Liverpool to a club-record 130m-pound move for Bournemouth's Rayan once his release clause activates in 2027, the forward hunt acquiring a number. Liverpool sit seventh, six points from four games, the European line three points up the table.",
+    "The team sheet nobody would name this morning acquired one certain line on Monday afternoon, and a second piece of good news besides. At the AXA Training Centre Andoni Iraola confirmed that Giorgi Mamardashvili starts in goal against Tottenham, a first appearance of the season for the deputy and a small story in itself given the manager admitted he tried to sign the Georgian for Bournemouth before he came here, and he upgraded Joe Gomez from hope to fact: 'Joe is training with the team and is available for tomorrow. It's a matter of deciding how much he can play.' The rest of the eleven he left deliberately open, but not the reasoning behind it, calling the schedule 'the worst scenario, game, two days, game, two days, game' and conceding he is still learning which of his players can survive it. Tottenham's picture moved the other way and against the weekend's reading: Sandro Tonali is out with a knock, Pedro Porro and Dejan Kulusevski remain unavailable, Richarlison is fit but not in De Zerbi's plans at all, while Destiny Udogie returns and Micky van de Ven, who started at Everton, is available. The table shifted too, without Liverpool playing: Leeds beat Newcastle 4-1 at Elland Road on Monday night to go third, and Liverpool slip to eighth on the same six points. There is no VAR in the third round and no extra time, so a level ninety goes straight to penalties.",
   keyTopics: [
     {
-      title: "Iraola To Ring The Changes For The Cup: Van Dijk, Isak And Wirtz Rested, Koumas In Line To Start (This Is Anfield, today)",
+      title: "Iraola Names The One Certainty: Mamardashvili Starts, And The Manager Admits He Tried To Sign Him For Bournemouth (Liverpool FC / This Is Anfield, today)",
       detail:
-        "The freshest thread of a quiet Monday, and the one the whole edition turns on. This Is Anfield's weekend debate piece reports that Iraola intends wholesale changes for Tuesday's third-round tie, with Van Dijk, Isak and Wirtz among the senior names expected to drop out and Lewis Koumas handed a start in attack. It is the rotation the manager reached for against Fulham and could not keep, when Tsimikas, Gravenberch and Munoz were all withdrawn inside the hour; the cup, 72 hours on and with Bournemouth away five days later, is where he has to trust the bench that did not hold. Whether he dares rest all three at once is the selection question of the week.",
+        "Confirmed at Monday lunchtime's pre-match press conference, and the first hard fact in a week of predicted elevens. Asked about his goalkeepers, Iraola said there are 'little doubts with Ali, he's proven, he's playing very well', then added the line that settles Tuesday: 'I also rate Giorgi very highly. I know him from his years also in Spain. I told him we tried to sign him for Bournemouth before I came here. For me, he's a very good keeper and he's going to start tomorrow, yes.' It is Mamardashvili's first appearance of the 2026-27 season and the only starter the manager was willing to name, the cup being the competition a deputy inherits by custom.",
       category: "tactics",
     },
     {
-      title: "Gomez Back In Training And In Line For A First Appearance Of The Season Against Spurs (Sports Mole, today)",
+      title: "'Available For Tomorrow': Gomez Upgraded From Doubt To Fact After Seven Weeks Out (Liverpool FC / Liverpool Echo / Empire of the Kop, today)",
       detail:
-        "Reported in Sports Mole's Monday-morning injury round-up, timestamped just after 4am UK. Joe Gomez, out since a muscle injury in the 4-2 friendly win over Sunderland on 26 July, has returned to full training and is 'hopeful of an appearance on Tuesday in the backline'. He is listed a major doubt rather than a certainty, but seven weeks on it is the first time the club has framed him as available, and the timing matters more than the caveat: he is the fourth senior centre-back and a third right-back in one body, exactly the reinforcement that would let Iraola rest Van Dijk without playing a teenager at the back.",
+        "The morning's most useful bulletin hardened into the afternoon's confirmation. Where Sports Mole's dawn round-up had Gomez as a major doubt, Iraola told reporters at the AXA plainly: 'Joe is training with the team and is available for tomorrow. It's a matter of deciding how much he can play and what is the best thing to do.' It is his first availability since a muscle injury in the Sunderland friendly on 25 July, and it is the single change to the squad's arithmetic that matters, because a fourth senior centre-back is what turns resting the 35-year-old captain from a gamble into a decision. Empire of the Kop note he is one of Iraola's new vice-captains and could wear the armband if he starts.",
       category: "injuries",
     },
     {
-      title: "De Zerbi Will 'Play With All Other Players': Spurs Rotate Too, Without Van De Ven And Solanke, Porro And Udogie Doubtful (Spurs Web / Football.London / Sports Mole, today)",
+      title: "'The Worst Scenario': Iraola On A Schedule Of Game, Two Days, Game, And Learning Who Can Survive It (Liverpool FC, today)",
       detail:
-        "The opponent arrives in the same frame of mind. Roberto De Zerbi told Football.London he will 'play on Tuesday in Liverpool with all other players' after a winless league start that has set a club record of four games without a goal, and Monday's team-news picture sharpened: Micky van de Ven is out with an injury carried since the Australia tour, James Maddison is back after a shoulder problem, Dominic Solanke is fit and tipped to start against his former club, and Pedro Porro and Destiny Udogie are major doubts with muscle issues. Mudryk (ankle), Simons, Odobert and Kulusevski (all knee) remain out. Richarlison, whose deadline-day move to Vasco da Gama collapsed, is eligible and available.",
+        "The fullest explanation yet of why the eleven will change, given on Monday and notable for how little it hides. 'I think it has to affect, definitely, because it's the third game. It's the worst scenario, it's game, two days, game, two days, game,' Iraola said, before the admission underneath it: 'We are in a process where I have to learn who is ready to play three or four games in a row every two or three days and who needs a rest so the performance level doesn't get affected. I think I have it in my mind quite clear with some of them but with others it's new even for them.' A manager fourteen weeks into the job, saying out loud that he does not yet know his own squad's limits.",
+      category: "tactics",
+    },
+    {
+      title: "Spurs Lose Tonali To A Knock And Leave Richarlison Behind Entirely; Udogie Returns, Van De Ven Fit (Liverpool FC / Sports Mole / Goal, today)",
+      detail:
+        "De Zerbi's own Monday briefing reversed several threads from the weekend's reporting. Sandro Tonali, a 100m-pound signing, picked up a knock and misses out; Pedro Porro is still unavailable with the muscle problem that kept him out at Everton, and Dejan Kulusevski remains sidelined. Destiny Udogie, absent on Saturday, is back. Richarlison, whose deadline-day move to Vasco da Gama collapsed, is eligible for the competition and will not play: 'Nothing has changed for the Carabao Cup or Premier League, the situation is the same. No.' And Micky van de Ven, listed out as recently as this morning, started the goalless draw with Everton and was named by De Zerbi among the centre-backs he is lucky to have.",
       category: "matches",
     },
     {
-      title: "The Forward Hunt Gets A Price: Liverpool Tied To A Club-Record 130m-Pound Move For Bournemouth's Rayan In 2027 (Football Insider / Sports Mole, today)",
+      title: "Liverpool Drop To Eighth As Leeds Hammer Newcastle 4-1 On Monday Night (ESPN / NBC Sports, today)",
       detail:
-        "Reconnaissance with the window shut, but now with a figure attached. Football Insider, carried by Sports Mole overnight, report that Liverpool strongly admire Bournemouth's Rayan and would consider breaking their transfer record to sign him once his 130m-pound release clause activates in 2027. The Brazilian is 20, predominantly a right winger, and scored five in fifteen league games last season after a January arrival; he has not yet scored or assisted in four this term under a new manager. The piece reads him as a summer project rather than a January fix, and frames the need in the same terms the reporting has all month: a wide forward who scores, still unsigned.",
+        "The one league result of the day involved neither Merseyside nor north London and cost Liverpool a place anyway. Leeds and Newcastle, the two sides still carrying a game in hand, met at Elland Road and Daniel Farke's promoted team won 4-1: a Lewis Miley own goal on 32, Jayden Bogle on 34, Dominic Calvert-Lewin in first-half stoppage time and Noah Okafor on 59. Leeds climb to third and into a Champions League stripe; Newcastle fall to twelfth with a negative goal difference. Liverpool, unbeaten and idle, are eighth on six points, behind Brentford and Everton on goals scored, with the top four now four places and two points away.",
+      category: "matches",
+    },
+    {
+      title: "No VAR, No Extra Time: The Third Round Goes Straight To Penalties If It Is Level (ESPN / EFL, today)",
+      detail:
+        "A detail worth knowing before kick-off and one that changes how a rotated side should play. ESPN's match preview confirms there is no VAR in the Carabao Cup third round, and that a tie level after ninety minutes proceeds directly to a shootout rather than extra time. Andrew Madley referees at Anfield with Wade Smith and Richard West on the lines and Andrew Kitchen as fourth official; kick-off is 8pm, free-to-air on ITV4 and also on Sky Sports Main Event and Sky Sports Football. For a Liverpool side that has drawn four consecutive league games at home, the absence of a safety net is not a neutral fact.",
+      category: "matches",
+    },
+    {
+      title: "Romano Corrects Himself: Liverpool Do Hold A 55m-Euro Buy Option On Araujo After All (Fabrizio Romano via Empire of the Kop / Barca Universal, today)",
+      detail:
+        "A rare public reversal on a clause that matters. Fabrizio Romano had claimed on a podcast that Liverpool's season-long loan for Ronald Araujo carried no purchase option; on Monday he walked it back and confirmed the deal does contain one, worth 55m euros, roughly 47m pounds, non-obligatory and exercisable next summer. Araujo has started the last three games at right-back and taken a 7.7 form rating in the tracker's own numbers, and the reporting reads the early returns as strong enough that Liverpool are already weighing it. For a club that spent past 600m pounds in sixteen months, a 47m centre-back who can play the flank is the cheapest defensive answer on the table.",
       category: "transfers",
     },
     {
-      title: "The Midfield Problem Nobody Fixed: Why Szoboszlai And Gravenberch Were Left Exposed (Sports Mole, today)",
+      title: "Nine Changes, A Teenager At The Back, And A Possible Debut: How The Previews Read The Cup XI (Rousing The Kop, today)",
       detail:
-        "Sunday's post-mortem hardened into a Monday thesis. Sports Mole's read on the Fulham draw is that the pivot Iraola trusted, Szoboszlai and Gravenberch, was exposed because the department behind them was never reinforced: Endo has not played a minute, Nyoni is seventeen, and Mac Allister, the man who steadied the game on his hour-mark entry, is the one player nobody will leave out. The two starters won two of ten first-half ground duels between them per Rousing The Kop and both were withdrawn or bypassed by the time the game settled. It is the argument for another change on Tuesday, and against Iraola's whole idea of who this midfield is.",
+        "Published at seven on Monday evening, after the press conference rather than before it, which makes it the freshest read on the night. Rousing The Kop expect nine changes: Mamardashvili in goal, Frimpong and Tsimikas as full-backs, Gomez starting at centre-back with Wataru Endo beside him, a midfield of Ryan Gravenberch, Trey Nyoni and James McConnell with McConnell pushed into the ten in Wirtz's absence, and a front three of Victor Munoz, Lewis Koumas and Rio Ngumoha. They also raise the possibility of an 18-year-old debut for the centre-back Mor Talla Ndiaye if Iraola declines both senior alternatives, which is how thin the department still is on the night it finally gets a fourth body back.",
       category: "tactics",
     },
     {
-      title: "Chiesa And Leoni Get Dates: Back In Training Over The Break, October Returns Pencilled (Sports Mole / Liverpool FC, today)",
+      title: "Aldridge On Jacquet: 'He Looks The Real Deal', And Already Better Than The Man He Replaced (Liverpool Echo / Empire of the Kop, today)",
       detail:
-        "The longer-term corner of the treatment room acquired firmer dates in Monday's round-up. Federico Chiesa (lower back) is pencilled to return around 11 October, with Iraola expecting him back in training during the international break; Giovanni Leoni, a year on from the ACL he suffered on debut, is tipped for 14 October and is due to rejoin group training this month, the manager saying 'the plan is also to start training during the break, with the group'. Neither helps on Tuesday, but both narrow a squad that has spent September down to two fit senior centre-backs and one fit senior nine.",
-      category: "injuries",
-    },
-    {
-      title: "The Rest The Captain Is Finally Getting, And The Contract He Is Still Waiting On (Football Insider / This Is Anfield, 1d ago)",
-      detail:
-        "The weekend's lead becomes Monday's subplot. Van Dijk has played every minute of all five competitive games at 35, and Friday's reporting that the club will not open contract talks until 2027, no decision before April, still stands behind him. What changes on Tuesday is the football: with Gomez in line to return, the cup tie is the first realistic chance to give the captain ninety minutes off since the season began. A rest is not a statement about a contract, but for a squad that could not previously spare him it is the more immediate news, and it is the reporting on the fourth centre-back that has made it possible.",
+        "The one performance from Saturday that has aged well got its endorsement on Monday. John Aldridge used his Liverpool Echo column to argue that Jeremy Jacquet is already a better player than Ibrahima Konate, pointing at the goal-line clearance from Gonzalo Garcia and the eight duels Sofascore credit him with winning in a game Aldridge otherwise called largely awful. Five starts in five beside Van Dijk, an eight and man of the match from Rousing The Kop, and the awkward corollary: the defender everyone wants rested is also the defender nobody currently wants to leave out.",
       category: "general",
     },
     {
-      title: "De Zerbi Answers The Sack Talk As Spurs' Goalless Record Grows (Sports Mole / Spurs Web, 1d ago)",
+      title: "De Zerbi Spreads His Own Load, And Robertson Waits For A Familiar Ground (Liverpool FC / Spurs Web, today)",
       detail:
-        "The pressure that follows Liverpool's manager around also travels north London. De Zerbi responded over the weekend to questions about his job after a start that has produced no league goals in four games, a club first, and only a 5-1 win over Charlton in this competition to point at. Spurs Web's account has fans openly worried about where goals come from; De Zerbi's own framing is that an away trip to a Liverpool side that commits bodies forward might free his players up. The subtext of Tuesday is two managers under scrutiny meeting in the one competition either can realistically win this autumn.",
+        "The visiting manager framed his rotation as abundance rather than necessity. 'The team selection is not difficult because I am lucky to have these players,' De Zerbi said, naming Lucas Bergvall and Mathys Tel as men who need minutes and insisting Ben Davies, Marcos Senesi and Tosin Adarabioyo are 'not less than' Van Hecke and Van de Ven. He would not commit on a senior debut for the academy forward Luca Williams-Barnett, saying only 'I don't know', and asked for the league's attitude in a cup: 'Many players need to play. Maybe not 90 minutes but 30 minutes. It is a real game.' Andy Robertson, nine years and 350-plus games a Liverpool player until the summer, could face them for the first time.",
       category: "general",
-    },
-    {
-      title: "Isak's Quiet Week, And The Rest That May Come In The Cup (BBC Sport / This Is Anfield, 1d ago)",
-      detail:
-        "The striker who cannot be supplied may finally be spared. Isak touched the ball sixteen times against Fulham, the second fewest for a Liverpool outfielder on record per the BBC, and has three league goals in four while starting every game of a congested opening. With Ekitike out until the new year and Koumas the false-nine option in reserve, resting Isak has been impossible; the cup tie, in This Is Anfield's reading of Iraola's rotation, is the first place it becomes thinkable. The counter-argument is that a striker short of touches needs games, not rest, which is the tension in every one of these calls.",
-      category: "tactics",
-    },
-    {
-      title: "Seventh, And The European Line Three Points Away After A Weekend Liverpool Sat Out (ESPN / Premier League, 1d ago)",
-      detail:
-        "The table Liverpool wake to on Monday is the one Sunday left them: seventh on six points, level with Everton and behind Brentford on goal difference, with Arsenal and Manchester City clear at the top on twelve and Brighton's 5-0 at Coventry having pushed the Champions League line further off. It is a snapshot, not a verdict, four games into a season, but it frames the cup tie usefully: the one route to European football that does not depend on chasing four points a week is the competition Liverpool have won more than anyone, and it starts on Tuesday against a side one place below them.",
-      category: "matches",
     },
   ],
   sources: [
+    "Liverpool FC",
+    "Liverpool Echo",
+    "Empire of the Kop",
+    "Rousing The Kop",
     "This Is Anfield",
     "Sports Mole",
-    "Football Insider",
     "Spurs Web",
-    "Football.London",
-    "Liverpool FC",
-    "BBC Sport",
     "ESPN",
-    "Premier League",
-    "Rousing The Kop",
+    "NBC Sports",
+    "Goal",
+    "Barca Universal",
   ],
 };
 
@@ -694,7 +710,7 @@ export const NEWS_DIGEST = {
 // next edition and then into the auditor's blind spot.
 
 export const OPPOSITION = {
-  generatedAt: "2026-09-14T08:30:00Z",
+  generatedAt: "2026-09-14T22:30:00Z",
   opponent: "Tottenham",
   shortName: "TOT",
   fixture: {
@@ -702,72 +718,73 @@ export const OPPOSITION = {
     venue: "Anfield",
     home: true,
     competition: "EFL",
-    broadcast: "ITV and Sky Sports (8pm)",
+    broadcast: "ITV4 and Sky Sports (8pm)",
   },
   manager: "Roberto De Zerbi",
   formation: "4-2-3-1",
   leaguePosition: 17,
   summary:
-    "A day out, and the dossier's central fact has been joined by a warning about how little of it will be tested. Roberto De Zerbi told Football.London he will travel to Anfield and 'play with all other players', a wholesale rotation from a side that has still not scored a Premier League goal this season, four games, a club record, and sits seventeenth on two points. The unchanged part is the failure to finish: nil from 2.94 expected goals through gameweek three per Squawka's Opta table, the largest shortfall in the division, and a fourth blank against Everton followed. De Zerbi, appointed in the summer to a squad rebuilt for close to 350m pounds, has two league clean sheets to point at and a Carabao Cup second round in which Charlton were beaten 5-1, Moore, Solanke, Danso, Savio and Davies scoring. The cup XI has its shape from the previews: Kinsky behind Gray, Van Hecke, Senesi and Andy Robertson, Fernandes and Tonali screening, Kudus, Gallagher and Savio behind Solanke, with Pedro Porro and Destiny Udogie doubtful and Van de Ven, Mudryk, Simons, Odobert and Kulusevski all out. Robertson returns to Anfield in white for the first time.",
+    "Monday's briefing rewrote this dossier more than any Liverpool news did, and most of it went against the visitors. Sandro Tonali, the 100m-pound midfielder who started Saturday's goalless draw with Everton, took a knock and is out; Pedro Porro and Dejan Kulusevski remain unavailable; Richarlison is eligible for the competition and, by his manager's flat refusal to elaborate, is simply not part of the squad. Against that, Destiny Udogie returns, and Micky van de Ven, whom the weekend previews had written off, in fact played ninety minutes against Everton and was named by De Zerbi among the centre-backs he is 'lucky' to have. The standing fact is unchanged and still the central one: Tottenham have not scored a Premier League goal this season, four games, a club record, nil from 2.94 expected goals through gameweek three per Squawka's Opta table, the division's largest shortfall, and they sit seventeenth on two points. De Zerbi is rotating too, naming Lucas Bergvall and Mathys Tel as men who need minutes and insisting Ben Davies, Marcos Senesi and Tosin Adarabioyo are 'not less than' his first-choice pair, while declining to say whether the academy forward Luca Williams-Barnett gets a senior debut. Andy Robertson, nine years a Liverpool player until the summer, could face them for the first time.",
   shape:
-    "De Zerbi's Tottenham build slowly from the back and look to release fast once the first line is drawn in, and a rotated side does not change the intent, only the personnel executing it. Against Everton, with a fuller team, Fernandes and Archie Gray took turns crashing the inside-right channel before the tempo fell away; the threat was wide and early rather than central and late, Savio receiving in dangerous areas and doing too little with it by CBS's account, and the front line's problem showing in a single number, three shots from the forwards against five from the back four. Out of possession they were, per CBS, far less porous than in the previous two seasons, and the two clean sheets are real. A cup team drawn from the bench may press less and space more, which is the opening a rested Liverpool side has to take early.",
+    "De Zerbi builds patiently from the goalkeeper and wants the first line drawn in before the ball goes forward quickly, and a rotated side will attempt the same idea with less practised feet. Against Everton, Mateus Fernandes and Archie Gray took turns attacking the inside-right channel until the tempo died, the danger arriving wide and early rather than centrally and late; CBS counted 0.64 expected goals from fourteen shots, three of them from the forwards against five from the back four, and Jordan Pickford was not properly tested until Bergvall bent one toward the corner on eighty-nine. Out of possession they are markedly less porous than in either of the previous two seasons, and two clean sheets in four is real evidence rather than luck. With Tonali gone the screen in front of the back four is likely Bergvall and Rodrigo Bentancur, which is younger and more adventurous, and a bench-drawn team that presses in bursts rather than continuously is precisely the kind that leaves a transition on for a home side willing to run.",
   keyPlayers: [
     {
       name: "Dominic Solanke",
       role: "Centre-forward",
-      threat: "Scored in the 5-1 over Charlton in this competition, per Sky Sports, and is tipped to start against his former club. Started the league game against Everton, where CBS counted no shots and no shot assists in 63 minutes and 11 completed passes worth 0.01 expected assists. The number that explains the drought.",
-      source: "Sky Sports / CBS Sports / Sports Mole",
-    },
-    {
-      name: "Savio",
-      role: "Winger",
-      threat: "The 75m-pound signing from Manchester City scored and assisted within eleven minutes of coming on in the 5-1 over Charlton, per Sky Sports; missed the Newcastle defeat with muscular fatigue and has started at Forest and against Everton since without a league goal contribution. Moved across the front line for the cup.",
-      source: "Sky Sports / Evening Standard",
-    },
-    {
-      name: "Andy Robertson",
-      role: "Left-back",
-      threat: "Delivered the free-kick that produced Van Hecke's flick against Everton, the only Tottenham shot worth more than 0.1 expected goals on Saturday (0.14), per CBS Sports. Left Liverpool in July as a free agent after nine years and 350-plus games; this is his first return to Anfield.",
-      source: "CBS Sports / This Is Anfield",
+      threat: "Scored in the 5-1 over Charlton in this competition per Sky Sports and started the Everton draw, where CBS counted no shots and no shot assists in 63 minutes and eleven completed passes worth 0.01 expected assists. Tipped for back-to-back starts against his former club. The number that explains the drought.",
+      source: "Sky Sports / CBS Sports / Spurs Web",
     },
     {
       name: "Lucas Bergvall",
       role: "Midfielder",
-      threat: "Produced Tottenham's only real test of Pickford on Saturday, an 89th-minute shot bent toward the bottom corner, per CBS Sports; scored the winner against Liverpool in the 2025 Carabao Cup semi-final first leg. A cup-tie specialist likely from the bench in the rotated side.",
-      source: "CBS Sports",
+      threat: "Named by De Zerbi on Monday as one of the players who needs minutes, and the likeliest beneficiary of Tonali's knock. Produced Tottenham's only real test of Pickford on Saturday, an 89th-minute shot bent toward the bottom corner per CBS Sports, and scored the winner against Liverpool in the 2025 Carabao Cup semi-final first leg.",
+      source: "CBS Sports / Liverpool FC",
+    },
+    {
+      name: "Mathys Tel",
+      role: "Forward",
+      threat: "The other name De Zerbi volunteered on Monday. Benched against Everton for Marmoush and expected back in by Spurs Web, who read Marmoush as the one being rested this midweek. A direct left-sided runner at a Liverpool defence likely to feature a teenager, a 33-year-old midfielder or a centre-back playing his first football since July.",
+      source: "Liverpool FC / Spurs Web",
+    },
+    {
+      name: "Andy Robertson",
+      role: "Left-back",
+      threat: "Delivered the free-kick that produced Van Hecke's flick against Everton, the only Tottenham shot worth more than 0.1 expected goals on Saturday at 0.14, per CBS Sports. Left Liverpool in July as a free agent after nine years and 350-plus games; Liverpool's own preview says he could face them for the first time, though Udogie's return may hold him to the bench.",
+      source: "CBS Sports / Liverpool FC",
     },
   ],
   predictedXI: [
-    "Kinsky", "Gray", "Van Hecke", "Senesi", "Robertson",
-    "Fernandes", "Tonali", "Kudus", "Gallagher", "Savio", "Solanke",
+    "Dubravka", "Adarabioyo", "Senesi", "Davies", "Udogie",
+    "Bergvall", "Bentancur", "Gallagher", "Kudus", "Solanke", "Tel",
   ],
   absentees: [
-    { name: "Pedro Porro", issue: "Muscle; left out at Everton, De Zerbi unwilling to risk him", status: "Doubt" },
-    { name: "Destiny Udogie", issue: "Muscle; minutes managed, left out of the Everton squad", status: "Doubt" },
-    { name: "Micky van de Ven", issue: "Injury carried from the Australia tour; not in the previewed cup XI", status: "Out" },
-    { name: "Mykhailo Mudryk", issue: "Ankle (training); pencilled to return early November per Sports Mole", status: "Out" },
+    { name: "Sandro Tonali", issue: "Knock picked up after Saturday's draw with Everton; confirmed out by De Zerbi on Monday", status: "Out" },
+    { name: "Pedro Porro", issue: "Muscle; missed the Everton draw and still not available", status: "Out" },
+    { name: "Dejan Kulusevski", issue: "Knee; confirmed not available in Monday's briefing", status: "Out" },
+    { name: "Richarlison", issue: "Fit and cup-eligible but out of De Zerbi's plans entirely: 'the situation is the same'", status: "Out" },
     { name: "Xavi Simons", issue: "ACL (April); no return anticipated before the new year", status: "Out" },
     { name: "Wilson Odobert", issue: "Knee (cruciate); no firm return timeline", status: "Out" },
-    { name: "Dejan Kulusevski", issue: "Knee; missed training in the last week per De Zerbi", status: "Out" },
+    { name: "Mykhailo Mudryk", issue: "Ankle; pencilled to return early November per Sports Mole", status: "Out" },
+    { name: "James Maddison", issue: "Back from a shoulder problem but minutes managed; Spurs Web expect Gallagher preferred", status: "Doubt" },
   ],
   recentForm: [
-    { date: "2026-09-12", opponent: "Everton", home: true, score: "0-0", result: "D", note: "0.64 expected goals from 14 shots per CBS; Pickford not tested until Bergvall on 89. A fourth league game without a goal, a club first. Booed off." },
+    { date: "2026-09-12", opponent: "Everton", home: true, score: "0-0", result: "D", note: "0.64 expected goals from 14 shots per CBS; Pickford untested until Bergvall on 89. A fourth league game without a goal, a club first. Booed off. Tonali started and finished, and took the knock that rules him out of Anfield." },
     { date: "2026-09-05", opponent: "Nott'm Forest", home: false, score: "0-0", result: "D", note: "A first point and a first clean sheet of the season at the City Ground; Udogie withdrawn after the hour." },
     { date: "2026-08-30", opponent: "Newcastle", home: true, score: "0-2", result: "L", note: "Beaten in the home opener; Savio left out with muscular fatigue after his cup debut." },
-    { date: "2026-08-26", opponent: "Charlton", home: true, score: "5-1", result: "W", note: "Carabao Cup second round. Moore, Solanke, Danso, Savio and Davies; Savio scored and assisted within eleven minutes of coming on." },
+    { date: "2026-08-26", opponent: "Charlton", home: true, score: "5-1", result: "W", note: "Carabao Cup second round, and still the only win of their season. Moore, Solanke, Danso, Savio and Davies; Savio scored and assisted within eleven minutes of coming on." },
   ],
   liverpoolAngle:
-    "This is a tie of two second strings, and the question is which manager's fringe can do what his first team could not. Iraola is expected to rest Van Dijk, Isak and Wirtz and hand starts to the likes of Koumas and Nyoni, per This Is Anfield and Sports Mole, which is the rotation the Fulham draw was meant to allow before three of his changes were withdrawn inside an hour. That matters against this opponent specifically: FORM_TRENDS.diagnosis still carries the fast-break concession as the highest-severity pattern on the page, and Savio, who scored and assisted inside eleven minutes of his cup debut, is exactly the runner a reshuffled defence leaves room for, even one strengthened by Joe Gomez's expected return. Against it runs Tottenham's own arithmetic: nil from 2.94 expected goals per Squawka's Opta table, three shots from the front three against Everton to the back four's five, Solanke 63 minutes without an attempt. SQUAD_LOAD.depthRisk marks centre-forward, wide forward and left-back high, so a rested Liverpool XI is not obviously stronger than a rested Spurs one; the edge is Anfield, and a home side that has drawn its last four league games there badly needs a night that ends in a result. Bournemouth away follows on Sunday.",
+    "Two half-teams meet, and the sharper question is which manager's fringe can do the thing his first eleven could not. Rousing The Kop's post-press-conference read expects nine Liverpool changes, with Joe Gomez starting his first football since July beside Wataru Endo, who has not played a minute all season, and raises an 18-year-old debut for Mor Talla Ndiaye as a live possibility behind them. That is the department SQUAD_LOAD.depthRisk still marks high, and it meets an opponent whose one convincing night this season was a 5-1 in which the goals came from everywhere. Set against it, FORM_TRENDS.diagnosis keeps fast-break concession as the season's highest-severity pattern, nine such goals conceded since the start of last season per Opta, the most in the league, and a bench-drawn back line pressing in bursts is exactly how those are conceded. The counterweight is Tottenham's own arithmetic: nil from 2.94 expected goals, three shots from the front three against Everton to the back four's five, Solanke sixty-three minutes without an attempt. There is no VAR in this round and no extra time, so a fourth consecutive goalless ninety at Anfield ends in penalties rather than in another point. Bournemouth away follows on Sunday.",
   modelLine: null,
-  sources: ["Sports Mole", "Spurs Web", "Football.London", "CBS Sports", "Squawka", "Opta Analyst", "Sky Sports", "This Is Anfield", "EFL"],
+  sources: ["Liverpool FC", "Sports Mole", "Spurs Web", "Goal", "CBS Sports", "Squawka", "Opta Analyst", "Sky Sports", "Rousing The Kop", "ESPN", "EFL"],
 };
 
 export const FORM_TRENDS = {
-  generatedAt: "2026-09-14T08:30:00Z",
+  generatedAt: "2026-09-14T22:30:00Z",
   competition: "PL",
   played: 4,
   headline:
-    "Monday, and with no league game since Saturday the numbers on this board hold while the argument around them turns to selection. The four-game Premier League sample stays at 6.00 expected goals for and 5.16 against, six scored and four conceded, all on Opta figures now that Squawka's gameweek-three table has replaced the Ipswich estimate, and the reading is unchanged: Liverpool are overperforming their chances rather than underperforming their luck, seventh for expected goals created on 4.97 and finishing 1.03 above it through three rounds. Only the Fulham afternoon, 1.13 from 14 shots to 0.71 from 10 per Opta, produced more chances than goals, and three of Iraola's four league games have ended level, four straight Anfield draws across two managers. The next data point is a cup tie against a Tottenham side that has scored nothing at all from 2.94, with both managers set to rotate, so Tuesday's numbers, when they land, will measure the benches more than the sides.",
+    "A league position was lost on Monday night without a single new number being added to this board, which is a useful reminder of what it does and does not measure. The four-game Premier League sample is still 6.00 expected goals for and 5.16 against, six scored and four conceded, Opta throughout now that Squawka's gameweek-three table has replaced the Ipswich estimate; Squawka's own figures have not been refreshed past that round, so nothing here moves until Liverpool play again in the league. The reading holds: this is a side overperforming its chances rather than underperforming its luck, six goals from 4.97 expected through three rounds, and only the Fulham afternoon, 1.13 from 14 shots to 0.71 from 10, produced meaningfully more chances than goals. Three of Iraola's four league games have ended level, four straight Anfield draws across two managers. Tuesday's cup tie adds a data point that belongs to neither total: a rotated Liverpool against a Tottenham side that has scored nothing at all from 2.94, with no VAR and penalties waiting if it stays level.",
   diagnosis: [
     {
       label: "Chance creation collapses without the pivot",
@@ -892,15 +909,16 @@ export const FORM_TRENDS = {
     "Through three gameweeks Liverpool had scored six goals from 4.97 expected, an overperformance of 1.03 and the seventh largest in the division, per Squawka's Opta-fed table; their chances created ranked seventh and the chances they conceded, 4.26, ranked eighth best.",
     "On Squawka's alternative table, where every match is settled by its rounded xG scoreline rather than its real one, Liverpool sat ninth after three rounds on four points, three places below their actual position, with the Ipswich win reading as a 1-1 draw.",
     "Liverpool are the most successful club in the League Cup with ten titles and enter the third round unbeaten in the competition since Tottenham's 2025 semi-final; a win on Tuesday would extend a record haul, per the EFL.",
+    "There is no VAR in the Carabao Cup third round and no extra time: a tie level after ninety minutes goes directly to penalties, per ESPN's match preview. Liverpool have drawn their last four Premier League games at Anfield, so the competition has removed the outcome this side has become best at.",
   ],
   sources: ["Opta Analyst", "Squawka", "Liverpool FC", "BBC Sport", "Rousing The Kop", "Sofascore", "Premier League", "Sky Sports", "ESPN", "Football365"],
 };
 
 
 export const SQUAD_LOAD = {
-  generatedAt: "2026-09-14T08:30:00Z",
+  generatedAt: "2026-09-14T22:30:00Z",
   headline:
-    "The board's numbers do not move on a Monday without a game, but its most important line just did: Joe Gomez is back in full training and, per Sports Mole's dawn bulletin, hopeful of a first appearance of the season on Tuesday, a major doubt rather than a certainty but the first time in seven weeks he has been framed as available. That matters because This Is Anfield expect Iraola to rest Van Dijk, Isak and Wirtz for the cup tie, the rotation Saturday's draw was supposed to allow before three changes were withdrawn inside an hour. A fourth senior centre-back is what makes resting the 35-year-old captain, still without contract talks scheduled before 2027, something other than a gamble. Chiesa and Leoni acquired October return dates in the same round-up. The squad is still closed until January, and the cup is where its thin edges get tested rather than reinforced.",
+    "One line on this board changed tense on Monday afternoon and it is the one that governs everything else. Joe Gomez is no longer hopeful or doubtful: 'Joe is training with the team and is available for tomorrow,' Iraola said at the AXA, 'it's a matter of deciding how much he can play.' That is a fourth senior centre-back arriving seven weeks after the department was reduced to two, and it is the permission slip for a rotation the manager described in unusually plain terms, a schedule of game and two days and game that he called the worst scenario while admitting he is still learning which players survive it. Mamardashvili is the one starter he named. Bradley, Chiesa, Ekitike and Leoni remain out, with October targets on the middle two. The squad is closed until January, so Tuesday is a test of the thin edges rather than a reinforcement of them, and a teenage centre-back may yet be part of it.",
   minutesNote:
     "Premier League minutes are not published here yet. Four league games and one Champions League game have been played and no reliable per-player minutes have been sourced, so this board tracks availability, starts and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   unavailable: [
@@ -910,7 +928,7 @@ export const SQUAD_LOAD = {
     { name: "Federico Chiesa", issue: "Lower back (originally muscle, Como friendly, August)", expected: "Back in training over the international break; Sports Mole pencils 11 October as an availability target", note: "The one on the unavailable list closest to the group. Left off the Champions League squad, so the autumn's European nights were never in reach, but Iraola expects him training around the break and Sports Mole reads a mid-October return, which would give a stretched front line a fifth forward.", source: "Liverpool FC / Sports Mole" },
   ],
   returning: [
-    { name: "Joe Gomez", issue: "Muscle (Sunderland, 25 July)", status: "In full training; a major doubt but hopeful of a first appearance of the season on Tuesday in the backline, per Sports Mole", note: "The morning's real news. Left out of Saturday's nine-man bench despite pre-match tips, Gomez is now framed by Monday's round-up as in contention for the cup tie seven weeks on, listed a major doubt rather than a lock. A fourth senior centre-back and a third right-back in one body is precisely what a tired, unrested defence needed, and precisely what lets Iraola rest Van Dijk if he dares.", source: "Sports Mole / Liverpool FC" },
+    { name: "Joe Gomez", issue: "Muscle (Sunderland, 25 July)", status: "Available: confirmed fit by Iraola on Monday, with only the length of his outing undecided", note: "Confirmed rather than hoped for. 'Joe is training with the team and is available for tomorrow,' the manager said at Monday's press conference, 'it's a matter of deciding how much he can play and what is the best thing to do.' Rousing The Kop's post-briefing preview starts him at centre-back alongside Endo. He is a fourth senior centre-back and a third right-back in one body, and one of Iraola's new vice-captains, so the armband may travel with him if he plays.", source: "Liverpool FC / Liverpool Echo / Rousing The Kop" },
     { name: "Cody Gakpo", issue: "Niggles in both adductors, no defined injury", status: "Fit: thirty minutes off the bench against Fulham; a candidate to lead the line in the cup", note: "The doubt resolved the quiet way a week ago is now a selection option: Sports Mole's preview floats Gakpo leading the attack on Tuesday with Isak rested. A goal and three assists in three league games per Opta are back in the pool, and the false-nine role Iraola has used him in before suits a night the club's only senior striker sits out.", source: "Liverpool FC / Sports Mole" },
     { name: "Bradley Barcola", issue: "Cramp on his first start; tired rather than injured, per Iraola", status: "Started against Fulham on the left, a first Premier League start; managed since with no pre-season", note: "Iraola said the club is 'building his physical condition' with games and that the four wingers will play both sides all season, so a cup-tie involvement is likely rather than a rest. Set up Isak's first-minute chance against Fulham, then faded; a 4 from Rousing The Kop, 6.6 on FotMob.", source: "Liverpool FC / Rousing The Kop / SI" },
     { name: "Milos Kerkez", issue: "Cramp against Atletico, withdrawn on 88", status: "On for Tsimikas at half-time on Saturday; the only senior left-back", note: "Tsimikas misplaced 11 of 31 passes and was withdrawn at the break; Kerkez came on to a 5 from Rousing The Kop and 'yet more dreadful crossing' by SI, whose verdict is that neither is currently up to Iraola's standard. The rotation the position was supposed to allow was shown on Saturday not to work, which sharpens the left-back call for the cup.", source: "SI / Rousing The Kop" },
@@ -923,7 +941,7 @@ export const SQUAD_LOAD = {
     source: "Liverpool FC / SI",
   },
   depthRisk: [
-    { position: "Centre-back", level: "high", detail: "The department the whole edition turns on, and the one Monday improved: Van Dijk and Jacquet have played every minute of five straight games because there was no fourth senior body, and Gomez being framed as available for the cup is the first relief in seven weeks. It does not lower the risk yet, only names a way out of it. Leoni is pencilled for mid-October, Araujo is needed at right-back, and until Gomez actually plays, one injury still means Endo at centre-half in the league, which the cup may now preview." },
+    { position: "Centre-back", level: "high", detail: "Improved on Monday and still the department the edition turns on. Gomez is confirmed available rather than merely training, which ends seven weeks in which Van Dijk and Jacquet played every minute of every game because there was no fourth senior body. The risk stays high because the relief is one man returning from a July muscle injury with no match sharpness: Rousing The Kop's preview pairs him with Endo, a 33-year-old midfielder, and floats an 18-year-old debut for Mor Talla Ndiaye behind them. Leoni is pencilled for mid-October and Araujo is still needed at right-back." },
     { position: "Centre-forward", level: "high", detail: "Isak alone, and likely to be rested for the first time on Tuesday with Gakpo tipped as the false-nine cover. Sixteen touches against Fulham, the second fewest for a Liverpool outfielder on record per the BBC; three league goals in four while starting every game. Ekitike is out until the new year and Koumas has yet to start, so resting the one fit senior nine is a cup-only luxury the schedule finally allows." },
     { position: "Wide forward", level: "high", detail: "Whole again but worn: Gakpo, Barcola, Munoz and Ngumoha are the four for two flanks, Chiesa is out until October, and Munoz and Ngumoha both drew a 4 from Rousing The Kop in their Fulham outings. The cup is where the rotation lands, which is a test of the depth as much as a rest for it, and the reporting still says the position the club most wants to buy is a right winger who scores." },
     { position: "Left-back", level: "high", detail: "Unchanged and unresolved after Saturday: Tsimikas, a first start of the season, misplaced 11 of 31 passes and was hooked at the break, a 3 from Rousing The Kop; Kerkez replaced him without improving the crossing. Two senior left-backs and, per SI, neither currently up to the manager's standard. The cup tie offers a further look rather than a solution." },
@@ -935,14 +953,14 @@ export const SQUAD_LOAD = {
 
 
 export const SEASON_PROJECTION = {
-  generatedAt: "2026-09-14T08:30:00Z",
+  generatedAt: "2026-09-14T22:30:00Z",
   played: 4,
   points: 6,
   pointsPerGame: 1.50,
   projectedPoints: 57,
   projectedFinish: "Conference League places on current pace",
   headline:
-    "No game since Saturday, so the pace is exactly where it was: six points from four is 1.50 a game and a projected 57, the sort of number four matches can move by ten either way and should not yet be read as a forecast. What has not changed is the composition, and it is worth saying plainly. One win, three draws, and the two home fixtures the pace was meant to be built on, Forest and Fulham, are already spent. Seventh, level with Everton, a place behind Brentford on goal difference, with the European line three points up the table and the run of top-six opponents about to begin. Tuesday's cup tie sits outside all of this arithmetic, which is its own kind of relief: a route to Europe that does not depend on chasing points.",
+    "The pace is untouched and the position is not, which is the peculiar arithmetic of a Monday night spent watching. Six points from four remains 1.50 a game and a projected 57, a number four matches can still move by ten in either direction and which nobody should yet read as a forecast. What moved is the company: Leeds beat Newcastle 4-1 and Liverpool are eighth, behind Brentford and Everton on goals scored, with the Champions League stripe now four places up rather than three. The composition of the six points is the part worth saying plainly. One win, three draws, and the two home fixtures the pace was meant to be built on, Forest and Fulham, are already spent. Tuesday's cup tie sits outside this column entirely, which is its own kind of relief: a route to Europe that does not require chasing four points a week.",
   thresholds: [
     { label: "Champions League (top 5)", points: 68, gap: 11, note: "Historical par for fifth place in recent seasons. Requires roughly 1.82 points per game from here." },
     { label: "Europa League", points: 60, gap: 3, note: "Roughly sixth place par, and three points above where the current pace lands. Requires about 1.59 points per game from here." },
@@ -954,12 +972,12 @@ export const SEASON_PROJECTION = {
   runIn: [
     { date: "2026-09-20", opponent: "Bournemouth", home: false, competition: "PL", oppPosition: 15, difficulty: "medium" },
     { date: "2026-10-11", opponent: "Manchester City", home: true, competition: "PL", oppPosition: 2, difficulty: "hard" },
-    { date: "2026-10-17", opponent: "Brentford", home: false, competition: "PL", oppPosition: 6, difficulty: "hard" },
-    { date: "2026-10-25", opponent: "Brighton", home: true, competition: "PL", oppPosition: 4, difficulty: "hard" },
+    { date: "2026-10-17", opponent: "Brentford", home: false, competition: "PL", oppPosition: 7, difficulty: "medium" },
+    { date: "2026-10-25", opponent: "Brighton", home: true, competition: "PL", oppPosition: 5, difficulty: "hard" },
     { date: "2026-11-01", opponent: "Arsenal", home: true, competition: "PL", oppPosition: 1, difficulty: "hard" },
     { date: "2026-11-07", opponent: "Crystal Palace", home: false, competition: "PL", oppPosition: 16, difficulty: "easy" },
   ],
   runInVerdict:
-    "The fixtures have not changed, only their menace has settled in. Bournemouth away on Sunday is the last league game outside the top half before the block that reads City, Brentford, Brighton, Arsenal, four top-six sides in four matches after Brighton's 5-0 climb. Win at the Vitality and Liverpool go into the City game on nine from five, a 1.80 pace and a projection back in the Europa band; draw a fourth and the projection sits in the mid-fifties with the autumn's hardest month ahead and only the unbeaten run to show. The cup tie is wedged in first, 72 hours after a game the side could not press in and with a half-changed team likely, so the honest read of Tuesday is that it decides nothing in this column and everything about the mood carried into Bournemouth.",
+    "The fixtures are the same six and Monday night reshuffled who they represent. Bournemouth away on Sunday is still the last league game against a bottom-half side before October's block, which now reads City at Anfield, Brentford away, Brighton at home and Arsenal at home, three of them current top-five opponents and Brentford, seventh and unbeaten, no easier for having slipped a place. Win at the Vitality and Liverpool go into the City game on nine from five, a 1.80 pace and a projection back in the Europa band; draw a fourth and the projection sits in the mid-fifties with the season's hardest month ahead and only the unbeaten line to show for September. The cup is wedged in first, with a half-changed team and no extra time if it finishes level, so Tuesday decides nothing in this column and a good deal about the mood carried to the Vitality.",
   sources: ["ESPN", "Opta Analyst", "Liverpool FC", "Sky Sports", "This Is Anfield", "BBC Sport"],
 };
