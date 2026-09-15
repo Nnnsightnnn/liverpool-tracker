@@ -484,12 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday night, and the manager has given away exactly one name.
-          Giorgi Mamardashvili starts against Tottenham tomorrow, Joe Gomez
-          is available at last, and the rest of the eleven Andoni Iraola left
-          where it was, in a schedule he called the worst scenario. Leeds beat
-          Newcastle while nobody at Anfield was playing, and Liverpool are
-          eighth. There is no VAR, and no extra time either.
+          Tuesday, and the waiting is nearly over. Tottenham come to Anfield
+          tonight for Andoni Iraola's first cup tie as Liverpool's manager, a
+          heavily changed side behind a returning Cody Gakpo, with Andy
+          Robertson coming home in the wrong colours. Liverpool sit eighth,
+          unbeaten, idle since Saturday. There is no safety net in this round:
+          level after ninety and the tie goes straight to penalties.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,34 +520,34 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              a team sheet with one line filled in. Andoni Iraola stood at the
-              AXA on Monday lunchtime, declined to name his eleven for
-              Tuesday's Carabao Cup tie with Tottenham, and then named its
-              goalkeeper anyway: Giorgi Mamardashvili starts, a first
-              appearance of the season, the manager adding, almost fondly,
-              that he had tried to sign him for Bournemouth before he came
-              here. The other sentence that mattered was about Joe Gomez, out
-              since July and now, in the indicative at last, available. Iraola
-              was unusually candid about why so much else will change, calling
-              the schedule the worst scenario, game and two days and game, and
-              admitting he is still learning which of his players can take it.
-              Tottenham arrive thinner than the weekend suggested, without
-              Sandro Tonali, without Pedro Porro, and without Richarlison, who
-              is fit and simply not wanted. Leeds beat Newcastle tonight and
-              Liverpool, idle, are eighth. No VAR, no extra time: level after
-              ninety and it goes straight to penalties.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and the team sheet is still mostly a question. Andoni Iraola
+              confirmed one starter on Monday, Giorgi Mamardashvili in goal,
+              and cleared Joe Gomez to feature after seven weeks out, then left
+              the other nine or ten deliberately open on a run of games he
+              called the hardest a squad can face. The morning previews fill
+              the gaps with youth: Lewis Koumas through the middle, the forward
+              Iraola was said to be desperate to keep, Cody Gakpo restored to
+              the line after an adductor scare, Rio Ngumoha wide, with Isak,
+              Van Dijk and Wirtz all rested. Tottenham come to Anfield
+              seventeenth and still without a Premier League goal in four
+              games, De Zerbi insisting he will not strip his side down. And
+              there is a subplot in white: Andy Robertson, nine years and every
+              medal a Liverpool player, walking back into Anfield in another
+              club's shirt. There is no VAR in this round and no extra time; a
+              level ninety goes straight to penalties, the one ending a side on
+              four consecutive home draws has quietly perfected.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a
-              goalkeeper named out loud; a defender cleared after seven weeks;
-              a visiting squad missing three it expected to have; a loan clause
-              that turns out to exist after all; and a league place lost on a
-              night off. Read them in order.
+              dispatches from the writers who never clock off. There is a first
+              cup night for a new manager; a twenty-year-old handed the
+              centre-forward's shirt; a returning full-back walking back into
+              Anfield; a visiting side four games without a goal; and a
+              competition record, ten deep, back on the line. Read them in order.
               The season opened with draws at Newcastle and Anfield, a first win
               at Ipswich, a first European night, and now a second home draw;
               the market is shut until January, save for the men no one owns.
@@ -3760,7 +3760,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "One name, and the rest unsaid."
+        "The cup finds out who comes next."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
