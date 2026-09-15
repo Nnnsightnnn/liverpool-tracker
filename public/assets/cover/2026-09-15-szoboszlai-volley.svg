@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Editorial plate: a floodlit night at Anfield, a midfielder in red striking a volley from thirty yards, the ball leaving his boot in a blur, a goalkeeper in the distance beginning to move the wrong way, a wall of supporters rising behind the goal.">
+  <defs>
+    <linearGradient id="nightsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0d16"/>
+      <stop offset="0.6" stop-color="#141a2a"/>
+      <stop offset="1" stop-color="#1e2536"/>
+    </linearGradient>
+    <linearGradient id="standNight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a0b14"/>
+      <stop offset="1" stop-color="#6d1322"/>
+    </linearGradient>
+    <linearGradient id="turf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c6a3c"/>
+      <stop offset="1" stop-color="#153a21"/>
+    </linearGradient>
+    <radialGradient id="flood" cx="0.5" cy="0.1" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.30"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="ballGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="trail" x1="1" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000000" stop-opacity="0.45"/>
+      <stop offset="0.4" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.55"/>
+    </linearGradient>
+    <pattern id="crowdNight" width="16" height="16" patternUnits="userSpaceOnUse">
+      <rect width="16" height="16" fill="none"/>
+      <circle cx="4" cy="5" r="2.2" fill="#c9ccd4" opacity="0.30"/>
+      <circle cx="12" cy="11" r="2.0" fill="#e8d9dc" opacity="0.22"/>
+      <circle cx="11" cy="3" r="1.7" fill="#9aa0ad" opacity="0.26"/>
+      <circle cx="3" cy="13" r="1.6" fill="#d8c2c6" opacity="0.18"/>
+    </pattern>
+    <pattern id="goalnet" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0 0 H20 M0 0 V20" stroke="#e9edf2" stroke-opacity="0.22" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#nightsky)"/>
+  <rect width="1600" height="900" fill="url(#flood)"/>
+
+  <g opacity="0.85">
+    <rect x="80" y="70" width="240" height="14" rx="4" fill="#f2f4f8" opacity="0.12"/>
+    <rect x="1280" y="70" width="240" height="14" rx="4" fill="#f2f4f8" opacity="0.12"/>
+    <rect x="560" y="52" width="480" height="12" rx="4" fill="#f2f4f8" opacity="0.10"/>
+  </g>
+
+  <path d="M0 210 H1600 V520 H0 Z" fill="url(#standNight)"/>
+  <rect x="0" y="228" width="1600" height="282" fill="url(#crowdNight)"/>
+  <path d="M0 200 H1600 V232 H0 Z" fill="#20080e" opacity="0.9"/>
+  <path d="M0 356 H1600" stroke="#2b0a12" stroke-width="10" opacity="0.7"/>
+
+  <path d="M0 520 H1600 V900 H0 Z" fill="url(#turf)"/>
+  <g opacity="0.16">
+    <rect x="0" y="520" width="1600" height="42" fill="#ffffff"/>
+    <rect x="0" y="604" width="1600" height="42" fill="#ffffff"/>
+    <rect x="0" y="688" width="1600" height="42" fill="#ffffff"/>
+    <rect x="0" y="772" width="1600" height="42" fill="#ffffff"/>
+  </g>
+  <path d="M0 556 H1600" stroke="#eef2f6" stroke-opacity="0.35" stroke-width="3"/>
+
+  <g transform="translate(1090 430)">
+    <rect x="0" y="0" width="330" height="150" fill="url(#goalnet)"/>
+    <path d="M0 0 H330 V150" fill="none" stroke="#eef2f6" stroke-opacity="0.75" stroke-width="5"/>
+    <path d="M0 0 V150" fill="none" stroke="#eef2f6" stroke-opacity="0.75" stroke-width="5"/>
+  </g>
+
+  <g transform="translate(1210 470)" opacity="0.95">
+    <ellipse cx="34" cy="116" rx="34" ry="7" fill="#000000" opacity="0.35"/>
+    <path d="M22 34 L16 78 L10 112" stroke="#1d2b4a" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M44 34 L54 76 L60 110" stroke="#1d2b4a" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <rect x="14" y="4" width="40" height="36" rx="10" fill="#22335a"/>
+    <path d="M14 14 L-22 -6" stroke="#22335a" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M54 14 L88 -8" stroke="#22335a" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <circle cx="34" cy="-10" r="13" fill="#d3a07c"/>
+  </g>
+
+  <g transform="translate(300 452)">
+    <ellipse cx="86" cy="236" rx="72" ry="12" fill="#000000" opacity="0.38"/>
+    <path d="M78 118 L44 190 L28 236" stroke="#b4142a" stroke-width="26" fill="none" stroke-linecap="round"/>
+    <path d="M96 116 L150 150 L196 154" stroke="#b4142a" stroke-width="26" fill="none" stroke-linecap="round"/>
+    <path d="M196 154 L228 146" stroke="#1a1d22" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <path d="M28 236 L14 244" stroke="#1a1d22" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <rect x="52" y="34" width="66" height="94" rx="20" fill="#c8182f"/>
+    <path d="M52 52 L4 26" stroke="#c8182f" stroke-width="24" fill="none" stroke-linecap="round"/>
+    <path d="M118 52 L170 22" stroke="#c8182f" stroke-width="24" fill="none" stroke-linecap="round"/>
+    <circle cx="85" cy="12" r="25" fill="#e0b28c"/>
+    <path d="M62 2 a23 23 0 0 1 46 0 a23 12 0 0 0 -46 0 Z" fill="#2d2118"/>
+  </g>
+
+  <g>
+    <path d="M540 588 L1140 512" stroke="url(#trail)" stroke-width="16" stroke-linecap="round" opacity="0.55"/>
+    <circle cx="1150" cy="510" r="44" fill="url(#ballGlow)"/>
+    <circle cx="1150" cy="510" r="19" fill="#f6f8fb"/>
+    <path d="M1136 502 L1150 494 L1164 502 L1159 518 L1141 518 Z" fill="#20242c" opacity="0.65"/>
+  </g>
+
+  <g opacity="0.5">
+    <circle cx="760" cy="486" r="6" fill="#ffffff" opacity="0.25"/>
+    <circle cx="905" cy="470" r="5" fill="#ffffff" opacity="0.2"/>
+    <circle cx="1030" cy="494" r="4" fill="#ffffff" opacity="0.18"/>
+  </g>
+
+  <rect width="1600" height="900" fill="url(#vignette)"/>
+</svg>

@@ -484,12 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, and the waiting is nearly over. Tottenham come to Anfield
-          tonight for Andoni Iraola's first cup tie as Liverpool's manager, a
-          heavily changed side behind a returning Cody Gakpo, with Andy
-          Robertson coming home in the wrong colours. Liverpool sit eighth,
-          unbeaten, idle since Saturday. There is no safety net in this round:
-          level after ninety and the tie goes straight to penalties.
+          Tuesday night, and the first win in eleven days arrives from the
+          team nobody had seen. Liverpool 3, Tottenham 1, ten changes, Joe
+          Gomez in the armband, a Szoboszlai volley from thirty yards to
+          finish it. The fourth round waits, and so, on Sunday afternoon at
+          the Vitality, does Andoni Iraola's first return to Bournemouth.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,37 +519,36 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and the team sheet is still mostly a question. Andoni Iraola
-              confirmed one starter on Monday, Giorgi Mamardashvili in goal,
-              and cleared Joe Gomez to feature after seven weeks out, then left
-              the other nine or ten deliberately open on a run of games he
-              called the hardest a squad can face. The morning previews fill
-              the gaps with youth: Lewis Koumas through the middle, the forward
-              Iraola was said to be desperate to keep, Cody Gakpo restored to
-              the line after an adductor scare, Rio Ngumoha wide, with Isak,
-              Van Dijk and Wirtz all rested. Tottenham come to Anfield
-              seventeenth and still without a Premier League goal in four
-              games, De Zerbi insisting he will not strip his side down. And
-              there is a subplot in white: Andy Robertson, nine years and every
-              medal a Liverpool player, walking back into Anfield in another
-              club's shirt. There is no VAR in this round and no extra time; a
-              level ninety goes straight to penalties, the one ending a side on
-              four consecutive home draws has quietly perfected.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the answer came from the players who had been waiting for it.
+              Ten changes, Joe Gomez captaining a first appearance since July,
+              Giorgi Mamardashvili in goal for the first time this season, and
+              Liverpool beat Tottenham 3-1 to reach the fourth round: Alexis
+              Mac Allister into the top corner on twenty-one, Cody Gakpo
+              shortly after the interval, Conor Gallagher's header to make the
+              last half-hour honest, and then a Dominik Szoboszlai volley from
+              around thirty yards that ended the argument in stoppage time.
+              Andy Robertson came on at fifty-seven and all four stands stood
+              up. Supporters noticed something else, too, small and telling:
+              Andoni Iraola passing his own match notes down the bench to the
+              boys about to be sent on. The reward is a draw on Wednesday and,
+              before that, Sunday at the Vitality, where the manager goes back
+              to the club he left in the summer.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a first
-              cup night for a new manager; a twenty-year-old handed the
-              centre-forward's shirt; a returning full-back walking back into
-              Anfield; a visiting side four games without a goal; and a
-              competition record, ten deep, back on the line. Read them in order.
-              The season opened with draws at Newcastle and Anfield, a first win
-              at Ipswich, a first European night, and now a second home draw;
-              the market is shut until January, save for the men no one owns.
+              dispatches from the writers who never clock off. There is a match
+              report with a thirty-yard full stop; an ovation for a man in the
+              wrong shirt; a manager passing notes down his own bench; a
+              Tottenham side that finally scored and lost anyway; and a road
+              that runs through the Vitality Stadium on Sunday. Read them in
+              order. The season opened with draws at Newcastle and Anfield, a
+              first win at Ipswich, a first European night, a goalless
+              Saturday, and now a cup night that produced three; the market is
+              shut until January, save for the men no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3760,7 +3758,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The cup finds out who comes next."
+        "Thirty yards, and no argument left."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
