@@ -511,7 +511,7 @@ export const RESULTS = [
 // moved without Liverpool kicking a ball. LEEDS BEAT NEWCASTLE 4-1 at Elland Road (Miley own goal 32, Bogle 34,
 // Calvert-Lewin 45+1, Okafor 59, per NBC Sports), the last two sides with a game in hand, which lifts Daniel Farke's
 // promoted team to THIRD on eight and drops Newcastle to twelfth. LIVERPOOL FALL TO EIGHTH on the same six points from
-// four (1W 3D), behind Brentford and Everton on goals scored and goal difference, and the Champions League stripe now sits
+// four (1W 3D), level on points with Brentford and Everton but behind Brentford on goal difference and ahead of Everton on goals scored, and the Champions League stripe now sits
 // two places further away than it did this morning. Arsenal and Manchester City remain clear on twelve, both perfect from
 // four; the qualification stripes shift with the table, Leeds and Hull now inside the Champions League four, Brighton
 // alone on the Europa line and Chelsea outside a stripe. Tottenham (Anfield, Carabao Cup, Tuesday 8pm) stay seventeenth on
@@ -552,9 +552,9 @@ export const STANDINGS_COMMENTARY = {
   matchweek: 4,
   generatedAt: "2026-09-15T08:30:00Z",
   overview:
-    "The league pauses for the cup and leaves the table where Monday set it, with Liverpool eighth on six points from four and idle until the weekend. They are unbeaten on a win and three draws, level on points and goal difference with Everton and Brentford above them and separated only by goals scored, and two places short of a Champions League stripe now held by Leeds and Hull. Arsenal and Manchester City remain perfect on twelve. Tonight's business is knockout, not league: Tottenham visit Anfield seventeenth on two points and without a Premier League goal all season, then Liverpool travel to a winless Bournemouth, fifteenth, on Sunday. Nothing in the division itself moves until then, which makes the week's only competitive verdict a cup one, played out under a set of rules with no VAR and penalties in place of extra time.",
+    "The league pauses for the cup and leaves the table where Monday set it, with Liverpool eighth on six points from four and idle until the weekend. They are unbeaten on a win and three draws, level on points with Brentford and Everton, behind Brentford on goal difference and ahead of Everton on goals scored, and four places short of a Champions League stripe now held by Leeds and Hull. Arsenal and Manchester City remain perfect on twelve. Tonight's business is knockout, not league: Tottenham visit Anfield seventeenth on two points and without a Premier League goal all season, then Liverpool travel to a winless Bournemouth, fifteenth, on Sunday. Nothing in the division itself moves until then, which makes the week's only competitive verdict a cup one, played out under a set of rules with no VAR and penalties in place of extra time.",
   teams: {
-    "Liverpool": "Eighth on six, idle this midweek while the cup takes over, unbeaten on one win and three draws but held below Everton and Brentford on goals scored. Tonight is knockout football; Bournemouth away on Sunday is the next league test.",
+    "Liverpool": "Eighth on six, idle this midweek while the cup takes over, unbeaten on one win and three draws, behind Brentford on goal difference and ahead of Everton on goals scored. Tonight is knockout football; Bournemouth away on Sunday is the next league test.",
     "Arsenal": "Joint top on twelve, four wins from four, ahead of City on goal difference. At Anfield on 1 November.",
     "Manchester City": "Level on twelve after Sunday's derby win with ten men, Foden sent off on 23 and Haaland's winner given on review. Visit Anfield on 11 October.",
     "Leeds": "Third on eight after a 4-1 rout of Newcastle at Elland Road, Miley's own goal and Bogle inside three minutes, Calvert-Lewin before the break and Okafor after it. The promoted side are unbeaten.",
@@ -682,7 +682,7 @@ export const NEWS_DIGEST = {
     {
       title: "Eighth And Idle: Liverpool Watch The Table Settle Before A Weekend At Bournemouth (ESPN / Sky Sports, today)",
       detail:
-        "The league takes a night off for the cup and leaves Liverpool where Monday put them, eighth on six points from four, unbeaten on a win and three draws but behind Brentford and Everton on goals scored after Leeds beat Newcastle 4-1 to climb to third. Arsenal and Manchester City remain perfect on twelve. Nothing in the division moves again until the weekend, when Liverpool travel to a winless Bournemouth on Sunday, the last league game against a bottom-half side before an October block of City, Brentford, Brighton and Arsenal. Tonight sits outside all of it, a knockout with its own arithmetic.",
+        "The league takes a night off for the cup and leaves Liverpool where Monday put them, eighth on six points from four, unbeaten on a win and three draws but behind Brentford on goal difference, and ahead of Everton only on goals scored, after Leeds beat Newcastle 4-1 to climb to third. Arsenal and Manchester City remain perfect on twelve. Nothing in the division moves again until the weekend, when Liverpool travel to a winless Bournemouth on Sunday, the last league game against a bottom-half side before an October block of City, Brentford, Brighton and Arsenal. Tonight sits outside all of it, a knockout with its own arithmetic.",
       category: "matches",
     },
   ],
@@ -972,7 +972,7 @@ export const SEASON_PROJECTION = {
   projectedPoints: 57,
   projectedFinish: "Conference League places on current pace",
   headline:
-    "Tonight adds nothing to this column, which is worth stating before the cup tie makes it feel otherwise. Six points from four is 1.50 a game and a projected 57, a number four matches can still swing by ten in either direction and which nobody should read as a forecast yet. Liverpool sit eighth, unbeaten, behind Brentford and Everton on goals scored, the Champions League stripe four places up. The composition is the part worth saying plainly: one win, three draws, and the two home fixtures the pace was meant to be built on, Forest and Fulham, already spent. The Carabao Cup is a separate route to Europe entirely, one that does not require chasing four points a week, which is its own quiet relief on a night the league takes off.",
+    "Tonight adds nothing to this column, which is worth stating before the cup tie makes it feel otherwise. Six points from four is 1.50 a game and a projected 57, a number four matches can still swing by ten in either direction and which nobody should read as a forecast yet. Liverpool sit eighth, unbeaten, behind Brentford on goal difference and ahead of Everton on goals scored, the Champions League stripe four places up. The composition is the part worth saying plainly: one win, three draws, and the two home fixtures the pace was meant to be built on, Forest and Fulham, already spent. The Carabao Cup is a separate route to Europe entirely, one that does not require chasing four points a week, which is its own quiet relief on a night the league takes off.",
   thresholds: [
     { label: "Champions League (top 5)", points: 68, gap: 11, note: "Historical par for fifth place in recent seasons. Requires roughly 1.82 points per game from here." },
     { label: "Europa League", points: 60, gap: 3, note: "Roughly sixth place par, and three points above where the current pace lands. Requires about 1.59 points per game from here." },
