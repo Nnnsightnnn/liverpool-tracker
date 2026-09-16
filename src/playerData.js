@@ -607,7 +607,7 @@ export const DISPATCHES = [
     dateline: "Liverpool · 16 September",
     category: "Manager",
     body:
-      "There is a symmetry to Sunday that Andoni Iraola will not enjoy. He returns to Bournemouth, the club he lifted into Europe and then left in June, as the manager of Liverpool and, in the reading of more than one outlet this week, a man already 'under serious pressure' fifteen games unbeaten. The pressure is not on the pitch, where a 3-1 in the cup extended a run without defeat. It is above it: Richard Hughes, who hired him, has gone to Al-Hilal, and the executive who replaces him will inherit a coach he did not choose. Homecomings are meant to be sentimental. This one is an audition.",
+      "There is a symmetry to Sunday that Andoni Iraola will not enjoy. He returns to Bournemouth, the club he lifted into Europe and then left in June, as the manager of Liverpool and, in the reading of more than one outlet this week, a man already 'under serious pressure' despite fifteen weeks unbeaten. The pressure is not on the pitch, where a 3-1 in the cup extended a run without defeat. It is above it: Richard Hughes, who hired him, has gone to Al-Hilal, and the executive who replaces him will inherit a coach he did not choose. Homecomings are meant to be sentimental. This one is an audition.",
   },
   {
     n: "02",
@@ -703,7 +703,7 @@ export const NEWS_DIGEST = {
     },
     {
       title:
-        "Eighth, Unchanged, Two Points From Fourth: What Sunday Is Actually Worth (ESPN, today)",
+        "Two Points From Fourth, And A Cup Win That Moves None Of It (ESPN, today)",
       detail:
         "A cup night moves nothing in the table, and it is worth saying on a morning that will feel like momentum. Liverpool are eighth on six points from four, unbeaten on one win and three draws, level with Everton and behind Brentford, with Arsenal and Manchester City perfect on twelve and the promoted pair Leeds and Hull holding the other Champions League places. The gap from eighth to fourth is two points and four positions. Bournemouth away is the last bottom-half fixture before an October block of City, Brentford, Brighton and Arsenal, which is what makes a modest Sunday the month's most consequential game.",
       category: "matches",
