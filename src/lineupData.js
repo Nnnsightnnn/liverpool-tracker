@@ -20,7 +20,7 @@ export const FORMATIONS = {
       RW:  { x: 82, y: 22, role: "FWD" },
     },
     // IDs from playerData.js. This 4-3-3 is the backup look; the default is the
-    // 4-2-3-1 below. Reviewed Tue Sep 15 (EVENING), after the 3-1 Carabao Cup win over
+    // 4-2-3-1 below. Reviewed Wed Sep 16 (morning), after the 3-1 Carabao Cup win over
     // Tottenham and pointed forward at Bournemouth away, Sunday 20 September, 2pm, Vitality
     // Stadium, Sky Sports Main Event. The cup XI is spent; this is a league XI, which means
     // the rested seniors return. Squawka's own preview for the fixture (published 14 Sep)
@@ -63,7 +63,7 @@ export const FORMATIONS = {
     // Bournemouth away on Sunday 20 September, 2pm, Vitality Stadium (Tottenham beaten 3-1 in
     // the Carabao Cup at Anfield on Sep 15 with ten changes; Fulham drawn 0-0 on Sep 12;
     // Atletico beaten 2-1 on Sep 9; Ipswich beaten 2-0 away on Sep 4; Forest drawn 2-2 on
-    // Aug 29; Newcastle drawn 2-2 away on Aug 23). Reviewed Tue Sep 15 (evening), after the cup
+    // Aug 29; Newcastle drawn 2-2 away on Aug 23). Reviewed Wed Sep 16 (morning), after the cup
     // tie. The seniors rested on Tuesday return: Squawka's fixture preview predicts Alisson;
     // Araujo, Van Dijk, Jacquet, Tsimikas; Gravenberch, Szoboszlai; Barcola, Wirtz, Munoz; Isak,
     // with Tsimikas outside the tracker's 26 and drawn as Kerkez. The live selection questions
@@ -100,7 +100,7 @@ export const FORMATIONS = {
       RW:  { x: 78, y: 22, role: "FWD" },
     },
     // Hypothetical 3-4-3 alternative, a shape rarely used, shown for completeness.
-    // Reviewed Tue Sep 15 (evening), pointed at Bournemouth away on Sunday. A back three is the
+    // Reviewed Wed Sep 16 (morning), pointed at Bournemouth away on Sunday. A back three is the
     // shape that would most directly answer the fixture's problem, because it removes the need
     // for a specialist right-back and lets Frimpong attack the flank as a wing-back with a
     // recognised centre-half inside him. Gomez, fit again after captaining the cup tie, takes
@@ -123,35 +123,35 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS + injuryNote context, reviewed Tue Sep 15 (evening), after the
+// Hand-curated from RESULTS + injuryNote context, reviewed Wed Sep 16 (morning), after the
 // 3-1 Carabao Cup win over Tottenham and pointed at Bournemouth away on Sunday 20 September.
 // Bradley, Chiesa, Ekitike and Leoni remain out; Gomez is fit, having started and captained
 // the cup tie on his first appearance since a July muscle injury.
 export const PLAYER_EVIDENCE = {
-  1:  "Back for the league · cup rest taken",    // Alisson
-  2:  "Cup 3-1 · the late save that held it",    // Mamardashvili
-  3:  "Rested Tuesday · restored for Sunday",    // Van Dijk
-  5:  "Captained the cup tie · fit again",       // Gomez
+  1:  "League keeper · rested for the cup",      // Alisson
+  2:  "Cup save held it · Alisson back Sun",     // Mamardashvili
+  3:  "Rested Tue · restored at the Vitality",   // Van Dijk
+  5:  "Back 90 + armband · a Sunday option",     // Gomez
   7:  "Drawn for Tsimikas, outside the 26",      // Kerkez
-  8:  "Knee · out · ~21 Nov",                    // Bradley
-  9:  "Cup right-back · the Sunday alternative", // Frimpong
-  10: "ACL · out · ~14 Oct target",              // Leoni
-  11: "Rested Tuesday · cleared one off the line", // Jacquet
-  12: "On loan at Levante for the season",       // Ndukwe
-  13: "Scored the cup opener on 21",             // Mac Allister
-  14: "Squawka's predicted pivot for Sunday",    // Gravenberch
-  15: "Off the bench, 30 yards, 3-1",            // Szoboszlai
-  17: "First minutes of the season in the cup",  // Endo
-  18: "Five games, no goal contribution",        // Wirtz
-  20: "19 · previews had him in the cup XI",     // Nyoni
-  22: "Scored the second · 2 goals, 3 assists",  // Gakpo
-  23: "Rested in the cup · 3 league goals",      // Isak
-  24: "Achilles · out · January hope",           // Ekitike
-  25: "18 · previews had him starting the cup",  // Ngumoha
-  26: "Back · out · ~11 Oct target",             // Chiesa
+  8:  "Knee · out until ~21 Nov",                // Bradley
+  9:  "Cup RB · live for the Sunday slot",       // Frimpong
+  10: "ACL · trains in the break · ~14 Oct",     // Leoni
+  11: "Rested Tue · restored Sunday",            // Jacquet
+  12: "On loan at Levante all season",           // Ndukwe
+  13: "Cup opener on 21 · the undroppable",      // Mac Allister
+  14: "Squawka's pivot pick for Sunday",         // Gravenberch
+  15: "'A great finisher' · 30-yard 3-1",        // Szoboszlai
+  17: "Cup minutes · emergency fifth CB",        // Endo
+  18: "5 games, no goal · Squawka's ten",        // Wirtz
+  20: "19 · cup cameo · contract unsigned",      // Nyoni
+  22: "Cup scorer · 2 goals, 3 assists",         // Gakpo
+  23: "Only senior 9 · Squawka's Sun scorer",    // Isak
+  24: "Achilles · out until January",            // Ekitike
+  25: "18 · wide rotation option",               // Ngumoha
+  26: "Back · trains in the break · ~11 Oct",    // Chiesa
   27: "Third keeper · bench at most",            // Woodman
   28: "Right wing · Squawka's Sunday pick",      // Munoz
-  29: "4th league start out of position at RB",  // Araujo
+  29: "3 league starts at RB, out of role",      // Araujo
   30: "No pre-season · built through games",     // Barcola
 };
 
@@ -169,7 +169,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // Sunday 20 September. Confidence is higher than it was for the cup tie, because a league
 // fixture after a rotated midweek is the most predictable selection a manager makes, but
 // Iraola has not yet spoken and the right-back slot is genuinely open.
-// (Reviewed Tue Sep 15, evening, after the 3-1 Carabao Cup win over Tottenham.)
+// (Reviewed Wed Sep 16, morning, after the 3-1 Carabao Cup win over Tottenham.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",   // Alisson · rested for the cup, first choice in the league all season
   LB:  "Low",    // Kerkez · Squawka predict Tsimikas, who sits outside the tracker squad
@@ -185,20 +185,20 @@ export const SLOT_CONFIDENCE = {
 };
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Tue Sep 15
-// (evening): every rationale reset against Sunday's league fixture at Bournemouth rather than
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Wed Sep 16
+// (morning): every rationale reset against Sunday's league fixture at Bournemouth rather than
 // against the cup tie that has now been played.
 export const SLOT_RATIONALE = {
-  LB:  "Tue Sep 15, evening - the position the tracker and the previews still cannot agree on. Squawka's fixture preview predicts Kostas Tsimikas at left-back on Sunday, four days after he misplaced 11 of 31 passes against Fulham and was withdrawn at half-time; he is outside the tracker's 26, so Kerkez, the man who replaced him that afternoon, is drawn here instead. SI's verdict on the pair is that neither is currently at Iraola's standard, and January is the earliest the market can offer an opinion of its own.",
-  LCB: "Tue Sep 15, evening - Van Dijk back, and the rest that made it possible now on the record. The captain sat out the cup tie among ten changes, the first competitive minutes he has missed all season, because Joe Gomez's return finally gave the department a fourth senior body. He faces a Bournemouth attack built on runners rather than a target man, which is the version of the fixture his recovery pace is least suited to and his positioning most.",
-  RCB: "Tue Sep 15, evening - Jacquet restored beside him, on the same logic. Rested for Tottenham after playing every league minute, and before that the author of the goal-line clearance on twelve minutes at Fulham that both ratings cards made the act of the afternoon, an 8 from Rousing The Kop and 8.1 on FotMob. Wataru Endo, who took the cup minutes at centre-back, remains the emergency fifth rather than a rival.",
-  RB:  "Tue Sep 15, evening - the open question of the week, and the one Bournemouth are built to punish. Araujo has started three straight league games at right-back because Conor Bradley's knee keeps him out until late November, and Squawka's preview expects a fourth. The complication is Justin Kluivert, who drifts inside from Bournemouth's left and leaves a runner attacking the space behind. Jeremie Frimpong played the position in the cup; Joe Gomez, fit again after captaining Tuesday, is the only specialist of the three.",
-  LDM: "Tue Sep 15, evening - Gravenberch returns to a pivot still under examination. Squawka's predicted XI pairs him with Szoboszlai, the same pairing that won two of ten first-half ground duels against Fulham before the game settled the moment Mac Allister arrived. Bournemouth press high and force turnovers in midfield by design, which makes Sunday a harder test of the same question than a rotated cup tie could be. Mac Allister, who scored on Tuesday, is the obvious alternative.",
-  RDM: "Tue Sep 15, evening - Szoboszlai comes back having made the strongest possible case from the bench. Rested for the cup after starting every competitive game, he entered with Tottenham pressing at 2-1 and volleyed the third from around thirty yards, a finish EPL Index called worthy of settling almost any contest. The criticism from Fulham, a 3 and no ground duels won from six, has not been answered so much as drowned out.",
-  LAM: "Tue Sep 15, evening - Barcola on the left in Squawka's preview, which is a selection about condition as much as form. Iraola has been consistent that the club is building his physical condition through games after he arrived without a pre-season, and that all four wide forwards will play both flanks this season. A Bournemouth defence that has conceded seven in four, several of them in transition, is the fixture that rewards a runner.",
-  CAM: "Tue Sep 15, evening - the slot with the strongest internal argument. Squawka keep Wirtz at the ten, where he has now gone five competitive games without a goal or an assist and was rested for the cup; Cody Gakpo, who scored on Tuesday and has two goals and three assists in five appearances, is the alternative with the better evidence. Whichever starts, this is the position from which Mac Allister scored on Tuesday by arriving late instead.",
-  RAM: "Tue Sep 15, evening - Munoz on the right, four appearances into a Liverpool career. Squawka's preview keeps him there, the same flank from which he headed a corner against the Fulham bar before being withdrawn on the hour, a 4 from Rousing The Kop against a 6.7 from SI. Rio Ngumoha, eighteen, is the alternative and the wide rotation is genuinely four players for two places.",
-  ST:  "Tue Sep 15, evening - Isak restored after the only rest he has had. Gakpo led the line in the cup and scored, which is the depth working as intended, but Isak is the one senior centre-forward while Ekitike remains out until January at the earliest. Three league goals in four, sixteen touches against Fulham, and Squawka's model makes him the likeliest scorer at the Vitality. The service, not the finishing, is the standing concern.",
+  LB:  "Wed Sep 16, morning - the position the tracker and the previews still cannot agree on. Squawka's fixture preview predicts Kostas Tsimikas at left-back on Sunday, four days after he misplaced 11 of 31 passes against Fulham and was withdrawn at half-time; he is outside the tracker's 26, so Kerkez, the man who replaced him that afternoon, is drawn here instead. SI's verdict on the pair is that neither is currently at Iraola's standard, and January is the earliest the market can offer an opinion of its own.",
+  LCB: "Wed Sep 16, morning - Van Dijk restored for the league four days out, the cup rest behind him. The captain sat out the cup tie among ten changes, the first competitive minutes he has missed all season, because Joe Gomez's return finally gave the department a fourth senior body. He faces a Bournemouth attack built on runners rather than a target man, which is the version of the fixture his recovery pace is least suited to and his positioning most.",
+  RCB: "Wed Sep 16, morning - Jacquet restored beside him, on the same logic. Rested for Tottenham after playing every league minute, and before that the author of the goal-line clearance on twelve minutes at Fulham that both ratings cards made the act of the afternoon, an 8 from Rousing The Kop and 8.1 on FotMob. Wataru Endo, who took the cup minutes at centre-back, remains the emergency fifth rather than a rival.",
+  RB:  "Wed Sep 16, morning - still the one genuinely open slot, and the one Bournemouth are built to punish. Araujo has started three straight league games at right-back because Conor Bradley's knee keeps him out until late November, and Squawka's preview expects a fourth. The complication is Justin Kluivert, who drifts inside from Bournemouth's left and leaves a runner attacking the space behind. Jeremie Frimpong played the position in the cup; Joe Gomez, fit again after captaining Tuesday, is the only specialist of the three.",
+  LDM: "Wed Sep 16, morning - Gravenberch returns to a pivot still under examination. Squawka's predicted XI pairs him with Szoboszlai, the same pairing that won two of ten first-half ground duels against Fulham before the game settled the moment Mac Allister arrived. Bournemouth press high and force turnovers in midfield by design, which makes Sunday a harder test of the same question than a rotated cup tie could be. Mac Allister, who scored on Tuesday, is the obvious alternative.",
+  RDM: "Wed Sep 16, morning - Szoboszlai comes back having made the strongest possible case from the bench. Rested for the cup after starting every competitive game, he entered with Tottenham pressing at 2-1 and volleyed the third from around thirty yards, a finish EPL Index called worthy of settling almost any contest. The criticism from Fulham, a 3 and no ground duels won from six, has not been answered so much as drowned out.",
+  LAM: "Wed Sep 16, morning - Barcola on the left in Squawka's preview, which is a selection about condition as much as form. Iraola has been consistent that the club is building his physical condition through games after he arrived without a pre-season, and that all four wide forwards will play both flanks this season. A Bournemouth defence that has conceded seven in four, several of them in transition, is the fixture that rewards a runner.",
+  CAM: "Wed Sep 16, morning - the slot with the strongest internal argument. Squawka keep Wirtz at the ten, where he has now gone five competitive games without a goal or an assist and was rested for the cup; Cody Gakpo, who scored on Tuesday and has two goals and three assists in five appearances, is the alternative with the better evidence. Whichever starts, this is the position from which Mac Allister scored on Tuesday by arriving late instead.",
+  RAM: "Wed Sep 16, morning - Munoz on the right, four appearances into a Liverpool career. Squawka's preview keeps him there, the same flank from which he headed a corner against the Fulham bar before being withdrawn on the hour, a 4 from Rousing The Kop against a 6.7 from SI. Rio Ngumoha, eighteen, is the alternative and the wide rotation is genuinely four players for two places.",
+  ST:  "Wed Sep 16, morning - Isak restored after the only rest he has had. Gakpo led the line in the cup and scored, which is the depth working as intended, but Isak is the one senior centre-forward while Ekitike remains out until January at the earliest. Three league goals in four, sixteen touches against Fulham, and Squawka's model makes him the likeliest scorer at the Vitality. The service, not the finishing, is the standing concern.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -224,6 +224,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-09-15T22:45:00Z",
-  reason: "Tue Sep 15, evening, hours after Liverpool beat Tottenham 3-1 in the Carabao Cup third round at Anfield with ten changes and Joe Gomez captaining. This draw looks forward to Bournemouth away on Sunday 20 September, 2pm at the Vitality Stadium, live on Sky Sports Main Event, and to Andoni Iraola's first return to the club he managed until the summer. Confidence rises from Low to Medium because a league fixture following a rotated midweek is the most predictable selection available: the seniors rested on Tuesday, Alisson, Van Dijk, Jacquet, Szoboszlai, Wirtz and Isak, all return. The draw follows Squawka's published fixture preview of 14 September, which predicts Alisson; Araujo, Van Dijk, Jacquet, Tsimikas; Gravenberch, Szoboszlai; Barcola, Wirtz, Munoz; Isak, with Tsimikas outside the tracker's 26 and replaced by Kerkez. It is not High for two reasons: Iraola has not yet given his team news, and the right-back slot is genuinely unsettled, with Araujo out of position, Frimpong fresh from playing there in the cup, and Gomez now match-fit and a specialist. Bradley (knee, ~21 Nov), Leoni (ACL, ~14 Oct), Chiesa (back, ~11 Oct) and Ekitike (Achilles, January) remain out. Bournemouth are fifteenth and winless under Marco Rose, the first side in Premier League history to lead in each of their opening four fixtures without winning any, and are without Julian Araujo, Eli Kroupi, Amine Adli and Veljko Milosavljevic.",
+  generated_at: "2026-09-16T08:30:00Z",
+  reason: "Wed Sep 16, morning, the day after the cup and four days before the league. This draw looks forward to Bournemouth away on Sunday 20 September, 2pm at the Vitality Stadium, live on Sky Sports Main Event, and to Andoni Iraola's first return to the club he managed until the summer. Confidence holds at Medium: a league fixture following a rotated midweek is among the most predictable selections a manager makes, with the rested seniors, Alisson, Van Dijk, Jacquet, Szoboszlai, Wirtz and Isak, all due back, but Iraola has not yet given his team news and the right-back slot is genuinely unsettled. The draw follows Squawka's published fixture preview, which predicts Alisson; Araujo, Van Dijk, Jacquet, Tsimikas; Gravenberch, Szoboszlai; Barcola, Wirtz, Munoz; Isak, with Tsimikas outside the tracker's 26 and replaced by Kerkez. The right-back question is the live one: Araujo out of position for a fourth league game, Frimpong fresh from playing there in the cup, and Joe Gomez now match-fit and the only specialist, ninety minutes and the armband behind him from Tuesday. Bradley (knee, ~21 Nov) and Ekitike (Achilles, January) stay out, with Chiesa (back, ~11 Oct) and Leoni (ACL, ~14 Oct) both pencilled to rejoin training over the coming international break. Bournemouth are fifteenth and winless under Marco Rose, the first side in Premier League history to lead in each of their opening four fixtures without winning any, and are without Julian Araujo, Eli Kroupi, Amine Adli and Veljko Milosavljevic.",
 };

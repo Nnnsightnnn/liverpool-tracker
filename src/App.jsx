@@ -484,11 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday night, and the first win in eleven days arrives from the
-          team nobody had seen. Liverpool 3, Tottenham 1, ten changes, Joe
-          Gomez in the armband, a Szoboszlai volley from thirty yards to
-          finish it. The fourth round waits, and so, on Sunday afternoon at
-          the Vitality, does Andoni Iraola's first return to Bournemouth.
+          Wednesday, and the win has already receded. Tonight the fourth-round
+          draw is made; on Sunday, Liverpool go to Bournemouth and Andoni
+          Iraola goes home, back to the club he left in June, unbeaten and yet,
+          in the papers this week, somehow under pressure. Eighth in the table,
+          two points from fourth, and one last game before the break.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,36 +519,35 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the answer came from the players who had been waiting for it.
-              Ten changes, Joe Gomez captaining a first appearance since July,
-              Giorgi Mamardashvili in goal for the first time this season, and
-              Liverpool beat Tottenham 3-1 to reach the fourth round: Alexis
-              Mac Allister into the top corner on twenty-one, Cody Gakpo
-              shortly after the interval, Conor Gallagher's header to make the
-              last half-hour honest, and then a Dominik Szoboszlai volley from
-              around thirty yards that ended the argument in stoppage time.
-              Andy Robertson came on at fifty-seven and all four stands stood
-              up. Supporters noticed something else, too, small and telling:
-              Andoni Iraola passing his own match notes down the bench to the
-              boys about to be sent on. The reward is a draw on Wednesday and,
-              before that, Sunday at the Vitality, where the manager goes back
-              to the club he left in the summer.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and the morning after belongs to the fixture ahead. Sunday takes
+              Liverpool to the south coast, to Bournemouth, where Andoni Iraola
+              returns to the club he carried into Europe and left in the summer,
+              unbeaten in fifteen weeks as Liverpool manager and, in the reading
+              of more than one outlet this week, under a pressure the results do
+              not obviously justify. Richard Hughes, the sporting director who
+              hired him, has gone to Al-Hilal; the man who succeeds him will
+              inherit a coach he did not choose. Before any of that there is
+              tonight, and the fourth-round draw that Tuesday's 3-1 earned. Joe
+              Gomez, ninety minutes and the armband behind him, is a genuine
+              option again; Federico Chiesa and Giovanni Leoni are due back in
+              training over the break that follows. A homecoming, a draw, and a
+              last game before the pause: the season pretending to rest.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a match
-              report with a thirty-yard full stop; an ovation for a man in the
-              wrong shirt; a manager passing notes down his own bench; a
-              Tottenham side that finally scored and lost anyway; and a road
-              that runs through the Vitality Stadium on Sunday. Read them in
-              order. The season opened with draws at Newcastle and Anfield, a
-              first win at Ipswich, a first European night, a goalless
-              Saturday, and now a cup night that produced three; the market is
-              shut until January, save for the men no one owns.
+              dispatches from the writers who never clock off. There is a
+              homecoming that reads more like an audition; a fourth-round draw
+              made tonight; a treatment room that is, for once, emptying; a
+              Bournemouth side that leads every week and wins nothing; and a
+              table in which eighth sits closer to fourth than it looks. Read
+              them in order. The season opened with draws at Newcastle and
+              Anfield, a first win at Ipswich, a first European night, a
+              goalless Saturday, and a cup night that produced three; the market
+              is shut until January, save for the men no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3758,7 +3757,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Thirty yards, and no argument left."
+        "A homecoming that feels like an audition."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
