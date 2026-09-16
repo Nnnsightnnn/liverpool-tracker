@@ -110,6 +110,15 @@ export const PLAYERS = [
       { years: "2025-", club: "Liverpool", fee: null, type: "senior" },
     ],
   },
+  {
+    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 1, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Wed Sep 16, morning - back from a season at Roma, and back in the argument at left-back. Tsimikas returned to Liverpool over the summer after a loan at Roma and is Squawka's predicted starter at Bournemouth on Sunday, though the reviews have been unkind: he misplaced 11 of 31 passes against Fulham on 12 September and was withdrawn at half-time for Kerkez, with SI and Rousing The Kop both marking the pair down. Two senior left-backs, neither yet at Iraola's standard, in a season where the market is shut until January.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
+    physical: { height: 178, weight: 76, pace: 79, acceleration: 80, sprintSpeed: 78 },
+    career: [
+      { years: "2017-2020", club: "Olympiacos", fee: null, type: "senior" },
+      { years: "2020-", club: "Liverpool", fee: "€13M", type: "senior" },
+      { years: "2025-26", club: "Roma", fee: null, type: "loan" },
+    ],
+  },
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
