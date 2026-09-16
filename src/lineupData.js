@@ -153,6 +153,7 @@ export const PLAYER_EVIDENCE = {
   28: "Right wing · Squawka's Sunday pick",      // Munoz
   29: "3 league starts at RB, out of role",      // Araujo
   30: "No pre-season · built through games",     // Barcola
+  31: "20 · started the cup through the middle", // Koumas
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -216,7 +217,7 @@ export const ALTERNATIVES = {
   LAM: [{ playerId: 25, reason: "Ngumoha · 18 · the previews had him starting the cup on this flank" }, { playerId: 22, reason: "Gakpo · scored on Tuesday and can play left, centre or right" }],
   CAM: [{ playerId: 22, reason: "Gakpo · two goals and three assists in five; the better evidence than the incumbent" }, { playerId: 15, reason: "Szoboszlai · has played the ten before; drawn deeper here" }],
   RAM: [{ playerId: 25, reason: "Ngumoha · the wide rotation is four players for two places and both flanks swap" }, { playerId: 9, reason: "Frimpong · played the right wing after coming on against Atletico" }],
-  ST:  [{ playerId: 22, reason: "Gakpo · led the line and scored in the cup; the only cover while Ekitike is out" }, { playerId: 25, reason: "Ngumoha · has led the line in Isak's absences" }],
+  ST:  [{ playerId: 22, reason: "Gakpo · led the line and scored in the cup; the first cover while Ekitike is out" }, { playerId: 31, reason: "Koumas · started the cup tie through the middle; the false-nine option" }],
 };
 
 // ─── Prediction confidence & metadata ───────────────────────────────────────

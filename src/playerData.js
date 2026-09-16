@@ -212,6 +212,16 @@ export const PLAYERS = [
     ],
   },
   {
+    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 20, appearances: 7, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Wed Sep 16, morning - the academy forward the cup finally started through the middle. Koumas, twenty, took a first competitive start centrally against Tottenham on Tuesday and was denied by Dubravka, having made his Premier League debut as a substitute in the 2-2 at Newcastle in August. Three loan spells, at Stoke, Birmingham and Hull, are behind him; this autumn he is the false-nine cover a squad with one senior centre-forward keeps needing. A winger and a number nine in one body, and a contract the club is keen to protect.", image: "",
+    physical: { height: 180, weight: 73, pace: 80, acceleration: 81, sprintSpeed: 79 },
+    career: [
+      { years: "2013-", club: "Liverpool", fee: null, type: "youth" },
+      { years: "2024-25", club: "Stoke City", fee: null, type: "loan" },
+      { years: "2025", club: "Birmingham City", fee: null, type: "loan" },
+      { years: "2025-26", club: "Hull City", fee: null, type: "loan" },
+    ],
+  },
+  {
     id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "injured", outSince: "2026-08-16", injuryNote: "Wed Sep 16, morning - due to train over the break, and closest of the four still out. Chiesa's lower back keeps him out, with Sports Mole pencilling 11 October as an availability target and Iraola expecting him training around the international break. He was left off the Champions League squad, so the autumn's European nights were never in reach. A fifth forward returning in mid-October would matter most on the flanks, where four players currently cover two positions.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
