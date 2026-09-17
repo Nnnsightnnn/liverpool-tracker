@@ -484,11 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday, and the win has already receded. Tonight the fourth-round
-          draw is made; on Sunday, Liverpool go to Bournemouth and Andoni
-          Iraola goes home, back to the club he left in June, unbeaten and yet,
-          in the papers this week, somehow under pressure. Eighth in the table,
-          two points from fourth, and one last game before the break.
+          Thursday, and October has a shape now. Chelsea come to Anfield in the
+          fourth round, which means Xabi Alonso comes back a third autumn
+          running with a third different club. First, Sunday at Bournemouth:
+          three days away, the last game before the break, and the last
+          bottom-half opponent before nine matches in twenty-nine days.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,31 +519,32 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and the morning after belongs to the fixture ahead. Sunday takes
-              Liverpool to the south coast, to Bournemouth, where Andoni Iraola
-              returns to the club he carried into Europe and left in the summer,
-              unbeaten in fifteen weeks as Liverpool manager and, in the reading
-              of more than one outlet this week, under a pressure the results do
-              not obviously justify. Richard Hughes, the sporting director who
-              hired him, has gone to Al-Hilal; the man who succeeds him will
-              inherit a coach he did not choose. Before any of that there is
-              tonight, and the fourth-round draw that Tuesday's 3-1 earned. Joe
-              Gomez, ninety minutes and the armband behind him, is a genuine
-              option again; Federico Chiesa and Giovanni Leoni are due back in
-              training over the break that follows. A homecoming, a draw, and a
-              last game before the pause: the season pretending to rest.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the balls came out late. Chelsea at Anfield in the fourth
+              round, in the last week of October, which brings Xabi Alonso back
+              to L4 for a third successive autumn with a third different club
+              and, this time, as the manager Liverpool weighed up and declined
+              to hire. Two corrections arrived with the morning. Joe Gomez
+              played forty-five minutes on Tuesday, not ninety, and came off at
+              the interval because Andoni Iraola had planned it that way. And
+              the data for the cup tie, published at last, shows a Liverpool
+              side out-created by Tottenham and winning anyway, which is the
+              third match running that sentence has been true of. Federico
+              Chiesa should be training inside a fortnight. Before all of it,
+              Bournemouth on Sunday: a homecoming, and the last quiet afternoon
+              of the autumn.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a
-              homecoming that reads more like an audition; a fourth-round draw
-              made tonight; a treatment room that is, for once, emptying; a
-              Bournemouth side that leads every week and wins nothing; and a
-              table in which eighth sits closer to fourth than it looks. Read
+              dispatches from the writers who never clock off. There is a cup
+              draw that hands Anfield an old midfielder in a new suit; a return
+              measured in three-quarters of an hour; a shot map that disagrees
+              with a scoreline; a nineteen-year-old making his case in numbers
+              rather than highlights; and a calendar that is about to stop being
+              kind. Read
               them in order. The season opened with draws at Newcastle and
               Anfield, a first win at Ipswich, a first European night, a
               goalless Saturday, and a cup night that produced three; the market
@@ -3757,7 +3758,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A homecoming that feels like an audition."
+        "The draw remembers what we chose."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
