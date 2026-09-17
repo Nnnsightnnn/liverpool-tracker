@@ -484,11 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday, and October has a shape now. Chelsea come to Anfield in the
-          fourth round, which means Xabi Alonso comes back a third autumn
-          running with a third different club. First, Sunday at Bournemouth:
-          three days away, the last game before the break, and the last
-          bottom-half opponent before nine matches in twenty-nine days.
+          Thursday night, and the first name has been crossed off. Wataru Endo,
+          six games into a new manager's first season, has been put up for sale
+          for January; Rio Ngumoha, eighteen, is the one they are hurrying to
+          keep. On the grass, no new injuries and twenty-five in the group.
+          Sunday takes them to Bournemouth, where Andoni Iraola used to work.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,36 +519,35 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and the balls came out late. Chelsea at Anfield in the fourth
-              round, in the last week of October, which brings Xabi Alonso back
-              to L4 for a third successive autumn with a third different club
-              and, this time, as the manager Liverpool weighed up and declined
-              to hire. Two corrections arrived with the morning. Joe Gomez
-              played forty-five minutes on Tuesday, not ninety, and came off at
-              the interval because Andoni Iraola had planned it that way. And
-              the data for the cup tie, published at last, shows a Liverpool
-              side out-created by Tottenham and winning anyway, which is the
-              third match running that sentence has been true of. Federico
-              Chiesa should be training inside a fortnight. Before all of it,
-              Bournemouth on Sunday: a homecoming, and the last quiet afternoon
-              of the autumn.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              a manager has made a decision his predecessor kept deferring.
+              Wataru Endo, thirty-three, Japan's captain and one of the last
+              players Jurgen Klopp bought for this club, is on the market for
+              January, six competitive fixtures into Andoni Iraola's first
+              season. The manager's own explanation was almost kind, and
+              devastating anyway: there are a lot of players in front of him,
+              he said, and the first one he named was a nineteen-year-old. At
+              the other end of the same building they are hurrying to get Rio
+              Ngumoha to sign, with Arsenal and Bayern both admiring from a
+              polite distance. Thursday's session brought no new injuries and
+              twenty-five men. Sunday brings Bournemouth, and a homecoming
+              nobody at the Vitality asked for.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a cup
-              draw that hands Anfield an old midfielder in a new suit; a return
-              measured in three-quarters of an hour; a shot map that disagrees
-              with a scoreline; a nineteen-year-old making his case in numbers
-              rather than highlights; and a calendar that is about to stop being
-              kind. Read
-              them in order. The season opened with draws at Newcastle and
-              Anfield, a first win at Ipswich, a first European night, a
-              goalless Saturday, and a cup night that produced three; the market
-              is shut until January, save for the men no one owns.
+              dispatches from the writers who never clock off. There is a player
+              told, in the politest available language, that the queue has moved
+              past him; a teenager the club is trying to sign twice; a clean
+              Thursday on the training grass, which counts for more than it
+              should; and forty-four names read out in Frankfurt by a man this
+              city still talks about. Read them in order. The season opened with
+              draws at Newcastle and Anfield, a first win at Ipswich, a first
+              European night, a goalless Saturday, and a cup night that produced
+              three; the market is shut until January, save for the men no one
+              owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3758,7 +3757,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The draw remembers what we chose."
+        "The queue moved. He did not."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
