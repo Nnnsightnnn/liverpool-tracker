@@ -606,20 +606,20 @@ export const STANDINGS_COMMENTARY = {
     "Two rounds of cup football have passed over this table without disturbing a single row, which is its own reminder of how little September has settled. Arsenal and Manchester City are still perfect on twelve, separated by a goal, and the two promoted sides, Leeds and Hull, still hold the remaining Champions League places on eight, which is the most interesting fact in English football at the moment and will probably not survive October. Liverpool are eighth on six, two points and four positions off that line, level with Everton and behind Brentford on goal difference. At the bottom, Coventry are still on nothing from four. Sunday takes Liverpool to fifteenth-placed Bournemouth, the last league game before the break and the last bottom-half opponent until November.",
   teams: {
     "Liverpool": "Eighth on six from four and unbeaten, one win and three draws, with nothing since Saturday to move it. Two points and four places off a Champions League stripe, and then nine matches in twenty-nine days from 11 October, three of them at Anfield around Halloween.",
-    "Arsenal": "Joint top on twelve and perfect from four, ahead of City only on goal difference. In the cup at Ipswich tonight; at Anfield on 1 November.",
-    "Manchester City": "Level on twelve, the derby won with ten men after Foden's dismissal. Their own cup tie, against Norwich, waits until Thursday. Visit Anfield on 11 October.",
+    "Arsenal": "Joint top on twelve and perfect from four, ahead of City only on goal difference. Through the cup tie at Ipswich and handed the lowest-ranked side left, League Two Fleetwood, in Wednesday night's fourth-round draw. At Anfield on 1 November.",
+    "Manchester City": "Level on twelve, the derby won with ten men after Foden's dismissal. Their own cup tie, against Norwich, is tonight, the last of the round, with Brighton waiting in the fourth round for whoever survives it. Visit Anfield on 11 October.",
     "Leeds": "Third on eight, unbeaten, the promoted side nobody has beaten yet. Their 4-1 of Newcastle on Monday was the week's statement before a ball was kicked in the cup.",
     "Hull": "Fourth on eight, promoted and unbeaten, holding a Champions League place that looked absurd in August and looks merely surprising now.",
-    "Brighton": "Fifth on seven and alone on the Europa line. At Old Trafford in the cup on Wednesday, then at Anfield on 25 October.",
-    "Chelsea": "Sixth on seven, outside a European stripe on goal difference alone, level on points with the Brighton side above them.",
+    "Brighton": "Fifth on seven and alone on the Europa line. Came from behind at Old Trafford on Wednesday to put Manchester United out, and face City or Norwich next. At Anfield on 25 October.",
+    "Chelsea": "Sixth on seven, outside a European stripe on goal difference alone. Drawn at Anfield in the fourth round of the cup, which brings Xabi Alonso back to L4 a third autumn running with a third different club.",
     "Brentford": "Seventh on six, unbeaten like Liverpool and a place above them on goal difference. Host Liverpool on 17 October.",
-    "Everton": "Ninth on six, level with Liverpool on points and goal difference, behind only on goals scored; Wolves visit Goodison in the cup on Wednesday.",
-    "Newcastle": "Twelfth on five, the four conceded at Elland Road still the heaviest bill of the round, and through to the cup's fourth round via Millwall.",
-    "Manchester United": "Thirteenth on four. Host Brighton on Wednesday, the tie after which the fourth-round draw is made.",
+    "Everton": "Ninth on six, level with Liverpool on points and goal difference, behind only on goals scored. Through the cup tie with Wolves and drawn at home to Newcastle, a fixture they then reverse in the league the following Monday.",
+    "Newcastle": "Twelfth on five, the four conceded at Elland Road still the heaviest bill of that round, and drawn away at Everton in the fourth round of the cup.",
+    "Manchester United": "Thirteenth on four, and out of the cup: Brighton came from behind at Old Trafford on Wednesday night, the result that closed the third round before the draw was made.",
     "Bournemouth": "Fifteenth on three, the only side in Premier League history to lead in all four of its openers and win none, though already into the cup's fourth round after 4-0 at Lincoln. Sunday brings Liverpool and Andoni Iraola back to the Vitality, to the club he built and left in June.",
     "Tottenham": "Seventeenth on two, out of the cup after Tuesday's 3-1 at Anfield, and still without a Premier League goal in four attempts. De Zerbi's side carry their own troubles home before Liverpool see them again at Anfield on 19 December.",
     "Fulham": "Eighteenth on one, the Anfield point still their only one; inside the relegation stripe.",
-    "Coventry": "Bottom on nothing: four defeats, no goal scored, minus ten, and Aston Villa at home in the cup on Wednesday.",
+    "Coventry": "Bottom on nothing: four defeats, no goal scored, minus ten, and out of the cup, with Aston Villa going through to a fourth-round trip to Bournemouth.",
   },
 };
 // ─── Dispatches (hand-curated long reads — separate from the wire feed) ────
@@ -813,7 +813,7 @@ export const OPPOSITION = {
     {
       name: "Evanilson",
       role: "Centre-forward",
-      threat: "Named by Squawka among the three Bournemouth players who define how the hosts attack, and led the line at Newcastle where he had chances and fired over. A runner rather than a target man, which suits a side whose best work is in transition, and a direct test of whether Liverpool restore Van Dijk and Jacquet after resting both in the cup.",
+      threat: "Named by Squawka among the three Bournemouth players who define how the hosts attack, and led the line at Newcastle where he had chances and fired over. A runner rather than a target man, which suits a side whose best work is in transition, and a direct test of whether Liverpool restore Van Dijk alongside Jacquet, who played the second half of the cup tie after Gomez was withdrawn as planned.",
       source: "Squawka / Yahoo Sports",
     },
     {

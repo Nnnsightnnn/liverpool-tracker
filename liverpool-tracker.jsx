@@ -136,12 +136,12 @@ const LATEST_NEWS = [
   { source: "The Transfer Hub", title: "Szoboszlai's volley valued at 0.03 xG as the shot map reads a proper cup tie", time: "today", category: "fan" },
   { source: "Empire of the Kop", title: "Nine matches in twenty-nine days await Liverpool from 11 October, three at Anfield around Halloween", time: "today", category: "fan" },
   { source: "Empire of the Kop", title: "'No chance' - Roy Keane shuts down Jamie Carragher's prediction for Bournemouth v Liverpool", time: "today", category: "fan" },
+  { source: "ESPN", title: "Eighth and unchanged: no league football since Saturday leaves fourth two points away", time: "today", category: "major" },
   { source: "Daily Mail", title: "Lewis Steele on Trey Nyoni after the cup tie: 'a Rolls-Royce in the making'", time: "1d ago", category: "major" },
   { source: "Sky Sports", title: "Ryan Christie hat-trick gives Marco Rose his first Bournemouth win, 4-0 against Lincoln in the cup", time: "1d ago", category: "major" },
   { source: "Empire of the Kop", title: "Romano and Ornstein address reported Arsenal interest in eighteen-year-old Rio Ngumoha", time: "1d ago", category: "major" },
   { source: "Empire of the Kop", title: "Christian Falk responds to talk of a 'shock move' to Bayern Munich for Florian Wirtz", time: "1d ago", category: "major" },
   { source: "Sky Sports", title: "Brighton come from behind at Old Trafford to knock Manchester United out before the draw", time: "1d ago", category: "major" },
-  { source: "ESPN", title: "Eighth and unchanged: no league football since Saturday leaves fourth two points away", time: "today", category: "major" },
 ];
 
 
