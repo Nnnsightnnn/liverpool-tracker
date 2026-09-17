@@ -34,6 +34,10 @@ Everything outside a `forbid:` line is prose for humans and is ignored.
 
 - forbid: `at Goodison` — Everton left Goodison Park in 2025; home games are at the Hill Dickinson Stadium. Written three times in the 6 Sep evening edition (Everton 2-2 Man United), caught by the staleness auditor.
 
+- forbid: `name: "Trey Nyoni".*age: (1[0-8]|[0-9])\b` — Nyoni was born 30 June 2007 and is **19** in the 2026-27 season. His PLAYERS `age` field sat at 17 in both data files for weeks while five separate prose surfaces (App.jsx cover letter, DISPATCHES, keyTopics, FORM_TRENDS, his own injuryNote) correctly described him as nineteen, so the object contradicted itself. Caught by the staleness auditor, 17 Sep evening. **General lesson: an academy player's `age` integer is set once and then never revisited, while the prose around him is rewritten daily. When a run writes a player's age in words, check it against the field in the same object.**
+
+- forbid: `Champions League \(top 5\)` — the live ESPN table this tracker rebuilds each run draws the Champions League stripe at **fourth**, with Europa at fifth. `SEASON_PROJECTION.thresholds` carried a "top 5" label for that band, so the projection was pacing toward a qualification line the table on the next tab did not show, and the Conference band was labelled for a seventh place the table did not stripe at all. Caught by the staleness auditor, 17 Sep evening. Threshold labels must follow the qualification stripes in the current STANDINGS array, which come from ESPN's `note.description` and are never hand-assigned. Retire this rule if ESPN begins striping five Champions League places.
+
 ## Retired rules
 
 Move an entry here (and delete its `forbid:` line) once the underlying

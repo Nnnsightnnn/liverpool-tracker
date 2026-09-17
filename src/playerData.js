@@ -172,7 +172,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 17, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", injuryNote: "Thu Sep 17, evening - nineteen, and named by his manager ahead of a thirty-three-year-old international captain. Asked on Thursday why Endo is not playing, Iraola listed Nyoni first among the midfielders taking minutes, two days after a cup start with 95 per cent passing, three of four ground duels won and ten defensive actions attempted. The contract is still unsigned. A Nottingham Forest bid was rejected in the summer, and This Is Anfield report a new deal in prospect.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
+    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", injuryNote: "Thu Sep 17, evening - nineteen, and named by his manager ahead of a thirty-three-year-old international captain. Asked on Thursday why Endo is not playing, Iraola listed Nyoni first among the midfielders taking minutes, two days after a cup start with 95 per cent passing, three of four ground duels won and ten defensive actions attempted. The contract is still unsigned. A Nottingham Forest bid was rejected in the summer, and This Is Anfield report a new deal in prospect.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
     physical: { height: 178, weight: 68, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Leicester City Academy", fee: null, type: "youth" },
@@ -394,8 +394,8 @@ export const TEAM_LOGOS = {
 export const COVER_IMAGE = {
   src: "/assets/cover/2026-09-15-szoboszlai-volley.svg",
   alt: "Editorial plate: a floodlit night at Anfield, a midfielder in red striking a volley from thirty yards, the ball leaving his boot in a blur, a goalkeeper in the distance beginning to move the wrong way, a wall of supporters rising behind the goal.",
-  focus: "Liverpool 3-1 Tottenham, Carabao Cup third round: Dominik Szoboszlai, on from the bench with Spurs pressing at 2-1, meets the ball around thirty yards out and volleys it past Martin Dubravka in stoppage time to settle the tie",
-  credit: "Plate · Daily edition",
+  focus: "Carried plate, not this edition's lead: Liverpool 3-1 Tottenham, Carabao Cup third round, 15 September, in which Dominik Szoboszlai came off the bench with Spurs pressing at 2-1, met the ball around thirty yards out and volleyed it past Martin Dubravka in stoppage time. It stands as the season's most recent photographable moment while the front page leads on a squad decision that has no single still",
+  credit: "Plate · carried from 15 September",
   generatedAt: "2026-09-17T22:30:00Z",
   // Evening pass (Thu 17 September, 6pm ET / 11pm BST): no match since Tuesday's cup tie, so the Szoboszlai
   // volley plate is carried and generatedAt re-stamped only. The lead rotated off the cup draw onto Thursday's
@@ -1055,9 +1055,9 @@ export const SEASON_PROJECTION = {
   headline:
     "One fixture remains before the season takes a fortnight off, and it is the last cheap one on the list. Six points from four is 1.50 a game and a projected 57, which lands in the Conference League band, though four matches is far too small a sample to forecast from and the next four could move that number by ten in either direction. What the pace does describe accurately is the shape of the risk: Liverpool are eighth, unbeaten, and two points and four places short of a Champions League stripe currently held by two promoted clubs. Win at the Vitality on Sunday and they go into the break on nine from five. Draw a fourth and the pace stays in the mid-fifties, with City, Brentford, Brighton and Arsenal the four league fixtures that follow it.",
   thresholds: [
-    { label: "Champions League (top 5)", points: 68, gap: 11, note: "Historical par for fifth place in recent seasons. Requires roughly 1.82 points per game from here." },
-    { label: "Europa League", points: 60, gap: 3, note: "Roughly sixth place par, and three points above where the current pace lands. Requires about 1.59 points per game from here." },
-    { label: "Conference League", points: 55, gap: 0, note: "Seventh place par, often decided by cup outcomes as much as league finish, and where the pace now sits." },
+    { label: "Champions League (top 4)", points: 68, gap: 11, note: "Historical par for the last Champions League place in recent seasons. The live ESPN table this tracker rebuilds each run draws that stripe at fourth, not fifth, so the label follows the table rather than the coefficient arithmetic. Requires roughly 1.82 points per game from here." },
+    { label: "Europa League (5th)", points: 60, gap: 3, note: "Fifth-place par, which is where the live table currently draws the Europa stripe, and three points above where the present pace lands. Requires about 1.59 points per game from here." },
+    { label: "Conference League (6th-7th)", points: 55, gap: 0, note: "Sixth to seventh place par, often decided by cup outcomes as much as by league finish, and where the pace now sits. The live table carries no Conference stripe this early, because the place is usually settled by a domestic cup." },
     { label: "Safety", points: 38, gap: 0, note: "The conventional survival line, and where the pace sat before the Ipswich win. Nineteen points of projection now separate it from the pace, the size of the sample talking." },
   ],
   thresholdNote:
