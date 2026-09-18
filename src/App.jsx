@@ -484,11 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday night, and the first name has been crossed off. Wataru Endo,
-          six games into a new manager's first season, has been put up for sale
-          for January; Rio Ngumoha, eighteen, is the one they are hurrying to
-          keep. On the grass, no new injuries and twenty-five in the group.
-          Sunday takes them to Bournemouth, where Andoni Iraola used to work.
+          Friday, and the week bends toward a homecoming. Andoni Iraola previews
+          his return to Bournemouth this afternoon, the club he took into Europe
+          and left in the summer, with the team news the day's first question and
+          a right-back nobody quite trusts its quiet worry. Behind it, a player
+          sold and a teenager kept. Sunday is the last fixture before the break.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,19 +519,19 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              a manager has made a decision his predecessor kept deferring.
-              Wataru Endo, thirty-three, Japan's captain and one of the last
-              players Jurgen Klopp bought for this club, is on the market for
-              January, six competitive fixtures into Andoni Iraola's first
-              season. The manager's own explanation was almost kind, and
-              devastating anyway: there are a lot of players in front of him,
-              he said, and the first one he named was a nineteen-year-old. At
-              the other end of the same building they are hurrying to get Rio
-              Ngumoha to sign, with Arsenal and Bayern both admiring from a
-              polite distance. Thursday's session brought no new injuries and
-              twenty-five men. Sunday brings Bournemouth, and a homecoming
-              nobody at the Vitality asked for.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              and a manager goes back to a place he used to run. Andoni Iraola
+              previews Bournemouth this afternoon, the club he took into Europe
+              before Liverpool came for him in the summer, and the reporters will
+              want him on more than the football. This was the week he made his
+              first cold call: Wataru Endo, thirty-three, one of the last players
+              Jurgen Klopp bought here, put up for sale for January, with the
+              manager's own explanation naming a nineteen-year-old first in the
+              queue ahead of him. At the other end of the same building they are
+              hurrying to keep Rio Ngumoha, eighteen, Arsenal and Bayern admiring
+              from a polite distance. Thursday's grass brought no new injuries and
+              twenty-five men. Sunday brings the Vitality, and a welcome nobody
+              there arranged.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3757,7 +3757,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The queue moved. He did not."
+        "Home is the hardest away game."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

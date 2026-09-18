@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Thu Sep 17, evening - back in the group on Thursday, and back in goal on Sunday. Alisson was among the twenty-five who trained at the AXA with no new injuries reported, three days after watching Mamardashvili take the cup tie from the stand. Five competitive starts, every minute, one clean sheet, at Fulham. The Vitality asks him to deal with a side that has scored first in all four of its league games and closed out none of them.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Fri Sep 18, morning - two days out, and the goal is his again by Sunday. Alisson trained through Thursday's session in a twenty-five-man group with no new injuries reported, and Iraola's team news at half past one this afternoon is expected to restore him after Mamardashvili took the cup tie. Five competitive starts, every minute, one clean sheet, the goalless afternoon against Fulham. The Vitality sends a side that has scored first in all four league games and closed out none of them.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Thu Sep 17, evening - a night that has already done its work, and a queue that has not changed. Mamardashvili's late save held the cup tie at 2-1 and his reward is the bench again, Alisson restored for the league. Thursday's session at the AXA carried no new injuries and a twenty-five-man group, so the order is what it was. The gap between the two keepers is now evidenced rather than assumed, which is the only thing a deputy can bank.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Fri Sep 18, morning - a night that has already done its work, and a queue that has not changed. Mamardashvili's late save held the cup tie at 2-1 and his reward is the bench again, Alisson restored for the league. Thursday's session at the AXA carried no new injuries and a twenty-five-man group, so the order is what it was. The gap between the two keepers is now evidenced rather than assumed, which is the only thing a deputy can bank.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Thu Sep 17, evening - back among the group, and back in the side. This Is Anfield's Thursday training report places Van Dijk, Wirtz and Tsimikas among the twenty-five at the AXA after their night off, and the captain is expected alongside Jacquet at the Vitality. He has played every league minute of the season at thirty-five, because for seven weeks there was no fourth centre-back. The contract question stays where it was: no talks before 2027, no decision before April.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Fri Sep 18, morning - back among the group in the week, and expected back in the side on Sunday. This Is Anfield's training pictures placed Van Dijk alongside Wirtz and Tsimikas after the night Iraola gave the three of them for the cup, and Empire of the Kop pencil him beside Jacquet at the Vitality. He has played every league minute at thirty-five, because for seven weeks there was no fourth centre-back. The contract question is unchanged: no talks before 2027, no decision before April.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Thu Sep 17, evening - cover rather than a starter, which is what a controlled return is supposed to produce. Gomez trained on Thursday with no new problem reported, three days after forty-five planned minutes and the armband against Tottenham. He is a fourth senior centre-back and a third right-back in one body, and every reading of Sunday puts him on the bench at the Vitality. Bradley's knee keeps that versatility valuable until late November at the earliest.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Fri Sep 18, morning - a bench seat, by every reading of the team news to come. Gomez came through Thursday's session with no fresh problem, and the previews put him among the substitutes at the Vitality rather than in the XI, a controlled step on from forty-five planned minutes and the armband against Tottenham. He is a fourth senior centre-back and a third right-back in one body, cover the squad values while Bradley's knee keeps him out to late November.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -54,7 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Thu Sep 17, evening - still second in a two-man argument nobody has won. Squawka's preview keeps Tsimikas at left-back for Sunday; Kerkez, who replaced him at half-time against Fulham and drew a 5 from Rousing The Kop, remains the alternative. Both trained on Thursday in a group of twenty-five with no new injuries reported. Bournemouth's danger runs at the opposite flank, which buys the position a week rather than settling it.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Fri Sep 18, morning - still second in a two-man argument nobody has won. Squawka's preview keeps Tsimikas at left-back for Sunday; Kerkez, who replaced him at half-time against Fulham and drew a 5 from Rousing The Kop, remains the alternative. Both trained on Thursday in a group of twenty-five with no new injuries reported. Bournemouth's danger runs at the opposite flank, which buys the position a week rather than settling it.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Thu Sep 17, evening - the ball work continues, and the calendar does not move for it. Bradley is training individually eight months after the knee injury against Arsenal, per Lewis Steele, with Sports Mole still pencilling Manchester United on 21 November as the earliest return. He was not among Thursday's twenty-five at the AXA. Until he is, the right-back is Araujo out of position, Frimpong, or Gomez, and Sunday's opponents attack precisely that space.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Fri Sep 18, morning - the ball work goes on, and the date does not come forward for it. Bradley is training individually eight months on from the knee injury at Arsenal, per Lewis Steele, with Sports Mole still pencilling Manchester United on 21 November as the earliest. He was outside Thursday's twenty-five. Until he is back, Sunday's right-back is Araujo out of position, and Bournemouth's clearest route to goal runs straight at that seam.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Thu Sep 17, evening - three imperfect answers at right-back, and the previews keep choosing one of the others. Frimpong trained on Thursday and played the position in the cup, but Empire of the Kop expect Araujo restored at the Vitality. The Dutchman is the alternative in a department with no specialist starter until Bradley returns. A back three would use him properly, and Iraola has not played one this season.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Fri Sep 18, morning - three imperfect answers at right-back, and the previews keep choosing one of the others. Frimpong trained on Thursday and played the position in the cup, but Empire of the Kop expect Araujo restored at the Vitality. The Dutchman is the alternative in a department with no specialist starter until Bradley returns. A back three would use him properly, and Iraola has not played one this season.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 18, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-15", injuryNote: "Thu Sep 17, evening - a year on, and the next step is a training pitch rather than a date. Leoni is stepping up his ACL rehabilitation per Lewis Steele, with Iraola's own plan to have him training with the group during the international break and Sports Mole pencilling availability around 14 October. He was not among Thursday's twenty-five. His return is the one that turns the centre-back rota back into a choice.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 18, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-15", injuryNote: "Fri Sep 18, morning - the next marker is the international break, not a matchday. Leoni is stepping up his ACL rehabilitation per Lewis Steele, with Iraola's plan to have him training with the group over the fortnight ahead and Sports Mole pencilling availability around 14 October. He was not among Thursday's twenty-five. His is the return that turns a two-man centre-back rota back into a selection, and the one the January sale of Endo quietly leans on.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Thu Sep 17, evening - the least debated name on Sunday's team sheet. Jacquet trained with the group on Thursday and is expected beside Van Dijk at the Vitality, three days after replacing Gomez at the interval and snuffing out the break that followed a Gravenberch giveaway. Before that, the goal-line clearance at Fulham that both ratings cards made the act of the afternoon. Against runners rather than a target man, his recovery pace is the whole point.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 20, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Fri Sep 18, morning - the least debated name on Sunday's team sheet. Jacquet trained with the group on Thursday and is expected beside Van Dijk at the Vitality, three days after replacing Gomez at the interval and snuffing out the break that followed a Gravenberch giveaway. Before that, the goal-line clearance at Fulham that both ratings cards made the act of the afternoon. Against runners rather than a target man, his recovery pace is the whole point.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Thu Sep 17, evening - Spain, and nothing here reaches him. Ndukwe is on loan at Levante for the season, outside the Champions League squad and outside Thursday's twenty-five at the AXA. Neither Sunday's preview nor the day's reporting on who Liverpool intend to sell in January involves him.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Fri Sep 18, morning - Spain, and nothing here reaches him. Ndukwe is on loan at Levante for the season, outside the Champions League squad and outside Thursday's twenty-five at the AXA. Neither Sunday's preview nor the day's reporting on who Liverpool intend to sell in January involves him.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -111,7 +111,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 1, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Thu Sep 17, evening - back in the group, and still the preview's pick over the ratings' objection. This Is Anfield place Tsimikas among the twenty-five who trained on Thursday after his night off, and Squawka predict him at left-back on Sunday. The Fulham evidence is unhelpful: 11 of 31 passes misplaced and a half-time withdrawal. Two senior left-backs, neither yet at Iraola's standard, and a market shut until January.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
+    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 1, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Fri Sep 18, morning - back in the group, and still the preview's pick over the ratings' objection. This Is Anfield place Tsimikas among the twenty-five who trained on Thursday after his night off, and Squawka predict him at left-back on Sunday. The Fulham evidence is unhelpful: 11 of 31 passes misplaced and a half-time withdrawal. Two senior left-backs, neither yet at Iraola's standard, and a market shut until January.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
     physical: { height: 178, weight: 76, pace: 79, acceleration: 80, sprintSpeed: 78 },
     career: [
       { years: "2017-2020", club: "Olympiacos", fee: null, type: "senior" },
@@ -122,7 +122,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Thu Sep 17, evening - named by his own manager as one of the reasons another midfielder is being sold. Explaining Endo's position on Thursday, Iraola listed the players taking the minutes: Nyoni, Gravenberch, Mac Allister, Szoboszlai. The Argentine has two goals in three competitive games, both struck first time from around the edge of the box after arriving beyond the midfield line. He is the one senior midfielder nobody is arguing about.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Fri Sep 18, morning - named by his own manager as one of the reasons another midfielder is being sold. Explaining Endo's position on Thursday, Iraola listed the players taking the minutes: Nyoni, Gravenberch, Mac Allister, Szoboszlai. The Argentine has two goals in three competitive games, both struck first time from around the edge of the box after arriving beyond the midfield line. He is the one senior midfielder nobody is arguing about.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Thu Sep 17, evening - in the manager's list of those getting minutes, which is its own verdict on the hour he had. Iraola named Gravenberch among the four ahead of Endo on Thursday, three days after a cup cameo the Transfer Hub's passing networks marked down for loose touches and a declined one-two that became a Tottenham counter. His duels and interceptions were better. Bournemouth force turnovers in midfield by design, which makes Sunday the more literal test.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Fri Sep 18, morning - in the manager's list of those getting minutes, which is its own verdict on the hour he had. Iraola named Gravenberch among the four ahead of Endo on Thursday, three days after a cup cameo the Transfer Hub's passing networks marked down for loose touches and a declined one-two that became a Tottenham counter. His duels and interceptions were better. Bournemouth force turnovers in midfield by design, which makes Sunday the more literal test.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Thu Sep 17, evening - the last word on Tuesday was his, and it was about somebody else. Asked about the win, Szoboszlai singled out Lewis Koumas for his timing and James McConnell for his running, said both deserve to play, and said they had made the choice 'hard' for the manager. His own contribution was the thirty-five-yard volley the Transfer Hub's shot map values at 0.03 expected goals. He trained on Thursday and starts on Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Fri Sep 18, morning - a starter on Sunday, and the man whose thirty-five-yard volley settled the cup. Szoboszlai trained on Thursday and is undisputed in the XI Squawka publish for the Vitality. His own read of Tuesday looked past himself, naming Lewis Koumas and James McConnell as two who deserve to play; the Transfer Hub's shot map valued his stoppage-time strike at 0.03 expected goals, which is another way of saying he made something out of nothing.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Thu Sep 17, evening - put up for sale, six games into a manager's first season. Multiple outlets reported on Thursday that Liverpool will allow Endo to leave in January, the last window in which a fee is recoverable on a contract expiring in 2027, with Ben Jacobs's reading that 'Iraola clearly doesn't fancy him' and that an exit is the best outcome for all parties. Iraola's own framing was gentler: 'The problem is, in front of him in his position, I have a lot of players,' he said, naming Nyoni, Gravenberch, Mac Allister and Szoboszlai, before adding that 'Wata is definitely a player that I like and for sure he will have his moments.' One appearance this season, in the cup, and none in the league.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Fri Sep 18, morning - available at the Vitality, and gone by the winter. The reporting that FSG will sanction a January exit hardened through Thursday and stands into Friday: the last window a fee is recoverable on a 2027 deal, with Ben Jacobs's reading that 'Iraola clearly doesn't fancy him'. Iraola's own account is that four midfielders sit in front of him, Nyoni, Gravenberch, Mac Allister and Szoboszlai, though 'Wata is definitely a player that I like'. One appearance this season, in the cup, none in the league, and a role as emergency fifth centre-back that expires with him.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -163,7 +163,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Thu Sep 17, evening - called up by the manager who used to pick him at club level. Jurgen Klopp named his first Germany squads on Thursday, forty-four players split across two groups for four Nations League fixtures, with Wirtz among the midfielders and likely to be limited to two of the four as Klopp spreads the workload and bloods sixteen uncapped players. Before any of that, Bournemouth away: five competitive games without a goal or an assist, and a defence that has conceded seven in four.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Fri Sep 18, morning - Bournemouth first, then a fortnight with the manager who used to pick him. Wirtz trained on Thursday and starts on Sunday still chasing a first goal or assist of the season in five competitive games; over the break Jurgen Klopp's first Germany squads, forty-four names split in two, have him among the midfielders and likely limited to two of four Nations League fixtures. The defence behind him has conceded seven in four, which is the number Sunday is really about.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -172,7 +172,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", injuryNote: "Thu Sep 17, evening - nineteen, and named by his manager ahead of a thirty-three-year-old international captain. Asked on Thursday why Endo is not playing, Iraola listed Nyoni first among the midfielders taking minutes, two days after a cup start with 95 per cent passing, three of four ground duels won and ten defensive actions attempted. The contract is still unsigned. A Nottingham Forest bid was rejected in the summer, and This Is Anfield report a new deal in prospect.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
+    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", injuryNote: "Fri Sep 18, morning - nineteen, and named by his own manager ahead of a national-team captain. Explaining Endo's exit, Iraola listed Nyoni first among the midfielders taking minutes, days on from a cup start with 95 per cent passing, three of four ground duels and ten defensive actions attempted. The contract is still unsigned, a summer Nottingham Forest bid rejected, and This Is Anfield report a new deal in prospect.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
     physical: { height: 178, weight: 68, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Leicester City Academy", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Thu Sep 17, evening - the squad's most useful answer to the question it keeps being asked. Gakpo trained on Thursday among the twenty-five and can play left, centre or right, which in a front line with one senior nine has stopped being a convenience and become a plan. Two goals and three assists in five appearances, the most recent lashed in against Tottenham with Isak rested. Isak returns on Sunday and the middle goes back to him.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Fri Sep 18, morning - the versatility that has become the plan, back on the flank for Sunday. Gakpo trained among the twenty-five and can fill left, centre or right, which in a front line with one senior nine has stopped being a luxury. Two goals and three assists in five, the most recent lashed in against Tottenham with Isak rested; Isak returns at the Vitality and the middle goes back to him, with Gakpo shifting wide.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Thu Sep 17, evening - restored for the league, with the service rather than the finishing still the argument. Isak trained on Thursday and returns at the Vitality after a cup rest, three league goals in four and Squawka's likeliest scorer on Sunday. The number that frames the autumn is sixteen touches against Fulham, the second fewest for a Liverpool outfielder on record per the BBC. Bournemouth have conceded seven in four and defend higher than Fulham did, which ought to help.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Fri Sep 18, morning - restored through the middle for the league, with the service still the argument rather than the finishing. Isak trained on Thursday and returns at the Vitality after a cup rest, three league goals in four and Squawka's likeliest scorer on Sunday. The figure that frames the autumn is sixteen touches against Fulham, the second fewest for a Liverpool outfielder on record per the BBC. Bournemouth have shipped seven in four and defend higher than Fulham did, which ought to give him more of the ball.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Thu Sep 17, evening - absent from the one department Thursday did not describe as crowded. Iraola spent the day listing four midfielders ahead of Endo; the forward line has no such queue. Ekitike's Achilles rupture and surgery leave January the earliest realistic return, the club's own hope being the last two Champions League league-phase games, Inter on 19 January and Lens on 27 January per This Is Anfield. Until then Isak is the only senior nine, with Gakpo and Koumas the cover.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Fri Sep 18, morning - absent from the one department Thursday did not describe as crowded. Iraola spent the day listing four midfielders ahead of Endo; the forward line has no such queue. Ekitike's Achilles rupture and surgery leave January the earliest realistic return, the club's own hope being the last two Champions League league-phase games, Inter on 19 January and Lens on 27 January per This Is Anfield. Until then Isak is the only senior nine, with Gakpo and Koumas the cover.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -213,7 +213,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Thu Sep 17, evening - the player Liverpool are trying to keep, on the day they decided which one to sell. The club regard Ngumoha as a future world-beater, intend to have a new long-term contract agreed inside a month and will entertain no offers, per Thursday's reporting. David Ornstein's line is the careful one: nothing is agreed as things stand, Arsenal and Bayern Munich are admirers, and there is no suggestion the eighteen-year-old is unhappy. He is, in the phrase doing the rounds, enjoying life at Anfield.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Fri Sep 18, morning - the signature the club wants finished before October. Liverpool regard the eighteen-year-old as a future world-beater, intend to have a new long-term deal agreed inside a month and will hear no offers, though David Ornstein's line stays the careful one: nothing is signed as things stand, and Arsenal and Bayern Munich are admirers. He is the keep on the day the sell was decided, and, in the phrase doing the rounds, there is no suggestion the boy is anything but happy at Anfield.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 20, appearances: 7, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Thu Sep 17, evening - praised by a senior international, which is a better week than most twenty-year-olds get. Szoboszlai named Koumas and James McConnell as the two who deserve to play after Tuesday, singling out the Welshman's timing and saying both had made the choice 'hard' for Iraola. Koumas took a first competitive start through the middle in that tie, was given the official player-of-the-match award and was denied by Dubravka. In a squad with one senior centre-forward, the claim carries further than it would elsewhere.", image: "",
+    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 20, appearances: 7, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Fri Sep 18, morning - praised by a senior international, which is a better week than most twenty-year-olds get. Szoboszlai named Koumas and James McConnell as the two who deserve to play after Tuesday, singling out the Welshman's timing and saying both had made the choice 'hard' for Iraola. Koumas took a first competitive start through the middle in that tie, was given the official player-of-the-match award and was denied by Dubravka. In a squad with one senior centre-forward, the claim carries further than it would elsewhere.", image: "",
     physical: { height: 180, weight: 73, pace: 80, acceleration: 81, sprintSpeed: 79 },
     career: [
       { years: "2013-", club: "Liverpool", fee: null, type: "youth" },
@@ -231,7 +231,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "injured", outSince: "2026-08-16", injuryNote: "Thu Sep 17, evening - a fortnight from a training pitch, and out of Thursday's twenty-five. Chiesa is aiming to resume training towards the end of this month, in the first week of the extended international window, per Lewis Steele, having not played since the muscle problem picked up in the Como friendly a month ago. Sports Mole pencils 11 October for availability. He was left off the Champions League squad, so Europe was never within reach this autumn.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "injured", outSince: "2026-08-16", injuryNote: "Fri Sep 18, morning - the training pitch is a fortnight away, and Sunday is not. Chiesa is aiming to resume work towards the end of this month, in the first week of the extended international window, per Lewis Steele, having not played since the Como friendly a month ago. Sports Mole pencils 11 October for availability. Left off the Champions League squad, he was never in reach this autumn; a fifth forward in mid-October would ease a front line stretched across two flanks.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -242,7 +242,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Thu Sep 17, evening - third of three, and the order survived the one night it might not have. Woodman was not required for the cup tie that went to Mamardashvili, which is the fixture a third goalkeeper is usually handed, and he trained on Thursday with both senior keepers fit and no new injuries reported. A bench season at most.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Fri Sep 18, morning - third of three, and the order survived the one night it might not have. Woodman was not required for the cup tie that went to Mamardashvili, which is the fixture a third goalkeeper is usually handed, and he trained on Thursday with both senior keepers fit and no new injuries reported. A bench season at most.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -259,7 +259,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Thu Sep 17, evening - Squawka's right winger for Sunday, and nobody else's. Munoz trained on Thursday among the twenty-five and is the preview's pick on the right, though none of the post-match accounts of the cup tie mention him, which in a 3-1 is its own kind of verdict. Four appearances into a Liverpool career, in a rotation that is four wide forwards for two places with both flanks interchangeable.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Fri Sep 18, morning - Squawka's right winger for Sunday, and nobody else's. Munoz trained on Thursday among the twenty-five and is the preview's pick on the right, though none of the post-match accounts of the cup tie mention him, which in a 3-1 is its own kind of verdict. Four appearances into a Liverpool career, in a rotation that is four wide forwards for two places with both flanks interchangeable.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -269,7 +269,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 0, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", injuryNote: "Thu Sep 17, evening - a fourth straight start in a position that is not his, by every reading of Sunday. Araujo trained on Thursday and Empire of the Kop expect him restored at right-back at the Vitality, because Bradley is out until late November and the alternatives are Frimpong and a Gomez the previews want on the bench. Bournemouth's clearest route to goal is Kluivert drifting infield and a runner attacking the space behind him. The 55m-euro buy option on his loan, confirmed by Romano, is a spring question.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
+    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 0, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", injuryNote: "Fri Sep 18, morning - a fourth straight start out of position, if the team news reads as expected. Araujo trained on Thursday and Empire of the Kop have him restored at right-back at the Vitality, because Bradley is out to late November and the alternatives are Frimpong and a Gomez the previews want benched. Bournemouth's sharpest pattern is Kluivert drifting infield and a runner attacking the space behind him, which is precisely the ground Araujo has to guard. The 55m-euro buy option on his loan, confirmed by Romano, is a spring question.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
     physical: { height: 188, weight: 79, pace: 78, acceleration: 74, sprintSpeed: 80 },
     career: [
       { years: "2016-2018", club: "Rentistas", fee: null, type: "youth" },
@@ -279,7 +279,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 1, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Thu Sep 17, evening - still being built through games, with the fixture that suits him next. Barcola trained on Thursday and is Squawka's pick on the left for Sunday, having featured in the cup tie without a pre-season behind him. Iraola's framing has been consistent: the condition comes through minutes, and all four wide forwards will play both flanks this season. A Bournemouth defence that concedes in transition rewards a runner more than a holder.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
+    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 1, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Fri Sep 18, morning - still being built through games, with the fixture that suits him next. Barcola trained on Thursday and is Squawka's pick on the left for Sunday, having featured in the cup tie without a pre-season behind him. Iraola's framing has been consistent: the condition comes through minutes, and all four wide forwards will play both flanks this season. A Bournemouth defence that concedes in transition rewards a runner more than a holder.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
     physical: { height: 182, weight: 72, pace: 91, acceleration: 92, sprintSpeed: 90 },
     career: [
       { years: "2010-2020", club: "Lyon Academy", fee: null, type: "youth" },
@@ -396,7 +396,12 @@ export const COVER_IMAGE = {
   alt: "Editorial plate: a floodlit night at Anfield, a midfielder in red striking a volley from thirty yards, the ball leaving his boot in a blur, a goalkeeper in the distance beginning to move the wrong way, a wall of supporters rising behind the goal.",
   focus: "Carried plate, not this edition's lead: Liverpool 3-1 Tottenham, Carabao Cup third round, 15 September, in which Dominik Szoboszlai came off the bench with Spurs pressing at 2-1, met the ball around thirty yards out and volleyed it past Martin Dubravka in stoppage time. It stands as the season's most recent photographable moment while the front page leads on a squad decision that has no single still",
   credit: "Plate · carried from 15 September",
-  generatedAt: "2026-09-17T22:30:00Z",
+  generatedAt: "2026-09-18T08:30:00Z",
+  // Morning pass (Fri 18 September, ~4am ET): no match since Tuesday's cup tie, so the Szoboszlai volley plate is
+  // carried and generatedAt re-stamped only. The lead rotated off Thursday's Endo sale onto Sunday: Iraola's homecoming
+  // to Bournemouth, previewed on the day of his 1.30pm press conference and the last fixture before the international
+  // break, with the Endo/Ngumoha business the backdrop. A homecoming preview is not a single photographable still, so
+  // NO new image was queued under STEP 7.5. Table byte-identical from ESPN, Liverpool eighth. All eight generatedAt stamps 08:30Z.
   // Evening pass (Thu 17 September, 6pm ET / 11pm BST): no match since Tuesday's cup tie, so the Szoboszlai
   // volley plate is carried and generatedAt re-stamped only. The lead rotated off the cup draw onto Thursday's
   // squad decision: Liverpool have put Wataru Endo up for sale for January, six competitive games into Iraola's
@@ -563,7 +568,7 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-09-16 (Wednesday morning, ~4am ET). Re-fetched from ESPN and byte-identical to the previous pull: no
+// Last refresh: 2026-09-18 (Friday morning, ~4am ET). Re-fetched from ESPN and byte-identical to the previous pull: no
 // league match has been played since Saturday (Tuesday was the Carabao Cup), so the table has not moved. History below.
 // 2026-09-14 (Monday evening) re-fetched from ESPN's endpoint AFTER Monday night's game, and it
 // moved without Liverpool kicking a ball. LEEDS BEAT NEWCASTLE 4-1 at Elland Road (Miley own goal 32, Bogle 34,
@@ -608,11 +613,11 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 4,
-  generatedAt: "2026-09-17T22:30:00Z",
+  generatedAt: "2026-09-18T08:30:00Z",
   overview:
-    "The table has now stood still for five days, and the weekend that ends the wait also ends September: four league fixtures, then a fortnight of international football, and everybody's autumn starts properly on the other side. Nothing here has moved since Saturday, which means Arsenal and Manchester City remain perfect on twelve and the two promoted sides, Leeds and Hull, still occupy the Champions League places behind them, an arrangement with a distinctly temporary look to it. Liverpool sit eighth on six, unbeaten, two points and four positions short of that line and separated from Brentford above and Everton below by nothing more than goals scored. The relegation stripe is doing its own strange work, with Fulham and Aston Villa on one point apiece and Coventry still without a goal, never mind a point. Sunday at the Vitality is the last of the round and the last bottom-half opponent Liverpool will face until November.",
+    "The wait ends this weekend, and it also ends September: four league fixtures, then a fortnight of international football, and everybody's autumn begins properly on the other side. Nothing has moved since Saturday, six days of stillness that leave Arsenal and Manchester City perfect on twelve and the two promoted sides, Leeds and Hull, still holding the Champions League places behind them, an arrangement that looks more temporary by the day. Liverpool sit eighth on six, unbeaten, two points and four positions short of that line and separated from Brentford above and Everton below by nothing more than goals scored. The relegation stripe does its own strange work, Fulham and Aston Villa on a point apiece and Coventry still without a goal, never mind a point. Sunday at the Vitality is the last of the round and the last bottom-half opponent Liverpool will face until November.",
   teams: {
-    "Liverpool": "Eighth on six, unbeaten, and now five days without a league fixture to change it. The season's first genuine road test of the autumn comes at fifteenth-placed Bournemouth on Sunday, after which the fixture list stops being generous entirely.",
+    "Liverpool": "Eighth on six, unbeaten, and six days without a league fixture to change it. The autumn's first genuine road test comes at fifteenth-placed Bournemouth on Sunday, Iraola back at his old club, after which the fixture list stops being generous entirely.",
     "Arsenal": "Top on twelve, perfect from four, ahead of City only on goals. The cheapest fourth-round tie in the competition awaits at League Two Fleetwood. They come to Anfield on 1 November, by which point Liverpool will have played City, Brentford and Brighton.",
     "Manchester City": "Second on twelve, and the last side into the cup's fourth round after beating Norwich 5-0 at the Etihad on Thursday night, a rout built on academy goals. Brighton away is their reward. Anfield on 11 October is the fixture that opens Liverpool's month.",
     "Leeds": "Third on eight and unbeaten, a promoted side holding a Champions League place four games in. The question is not whether it lasts but how long it takes to stop being funny.",
@@ -633,143 +638,143 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Six Games In, And The First Man Is Shown The Door.",
-    byline: "CaughtOffside / Football365",
-    dateline: "Anfield \u00b7 17 September",
-    category: "Transfers",
+    headline: "Back To The South Coast, Where The Job Used To Be His.",
+    byline: "Liverpool FC / Empire of the Kop",
+    dateline: "AXA Training Centre · 18 September",
+    category: "Manager",
     body:
-      "It took Andoni Iraola six competitive fixtures to make a decision his predecessor never quite got round to. Wataru Endo, thirty-three, Japan's captain and one of the last players Jurgen Klopp bought for this club, has been put on the market for January. The reporting is unanimous and it is Ben Jacobs's: FSG will sanction a sale, the contract expires in 2027 and this is the final window in which a fee can be recovered. He has played once this season, in a cup tie, and was left out of the Champions League squad entirely. 'Iraola clearly doesn't fancy him,' Jacobs said, 'and the best outcome for all parties looks to be an exit.'",
+      "At half past one this afternoon Andoni Iraola will preview a fixture he has previewed before from the other dugout. Bournemouth is the club he managed for three years and took into Europe, and Sunday is the first time he goes back. He arrives having just made the coldest call of his short Liverpool tenure, and the reporters will want him on that as much as on the game. What he can offer in return is a team sheet the previews have half-written for him: Araujo at right-back, Isak restored, Gomez on the bench. A homecoming, then, with the guest list already leaked.",
   },
   {
     n: "02",
-    headline: "The Manager's Own Version Is Kinder, And Says The Same Thing.",
-    byline: "Liverpool FC / GiveMeSport",
-    dateline: "AXA Training Centre \u00b7 17 September",
-    category: "Manager",
+    headline: "The Seam They Will Aim At, And The Centre-Half Guarding It.",
+    byline: "Squawka / Sky Sports",
+    dateline: "Liverpool · 18 September",
+    category: "Tactics",
     body:
-      "Asked to account for a senior international who has not played a league minute, Iraola did not reach for the word form. 'The problem is, in front of him in his position, I have a lot of players,' he said. 'He's competing against a lot of players because we are also giving minutes to Trey, Ryan, Alexis, Dom, players that I am selecting right now.' Then, because he is not a cruel man: 'Wata is definitely a player that I like and for sure he will have his moments.' Read plainly, that is a thirty-three-year-old placed behind a nineteen-year-old. The queue is the verdict.",
+      "Every Bournemouth goal this season has started the same way, Justin Kluivert peeling in off the left and a runner attacking the grass behind the full-back. The full-back Liverpool will put there is Ronald Araujo, a centre-half playing his fourth league game out of position, because Conor Bradley is not fit until late November and the specialists ran out in January. Frimpong played the slot in the cup and Gomez can fill it from the bench, but neither is the first answer. It is the one clear structural weakness on the team sheet, and the opponent is built precisely to find it.",
   },
   {
     n: "03",
-    headline: "At The Other End Of The Age Range, A Signature They Want Badly.",
-    byline: "Empire of the Kop / The Athletic",
-    dateline: "Liverpool \u00b7 17 September",
-    category: "Football News",
+    headline: "Three Long Absences Take A Step, And Still None Names A Day.",
+    byline: "Daily Mail / This Is Anfield",
+    dateline: "AXA Training Centre · 18 September",
+    category: "Injuries",
     body:
-      "The same day the club decided who to sell, it was reported to be pushing hard on who to keep. Liverpool regard Rio Ngumoha, eighteen, as a future world-beater, will entertain no offers, and intend to have a new long-term contract agreed inside a month. David Ornstein's version is the careful one: nothing is signed as things stand, a deal expected around his birthday in August did not materialise, and both Arsenal, short a left winger since Martinelli, and Bayern Munich are admirers. Ornstein adds the line that matters more than the rest of it. There is no suggestion the boy is unhappy.",
+      "Lewis Steele's midweek round-up moved the injury board without opening the door on it. Federico Chiesa is aiming to resume training at the end of this month, Giovanni Leoni is stepping up an ACL recovery and should rejoin the group over the international break, and Conor Bradley has begun individual ball work eight months after his knee. All three are progress; none is a return date. Hugo Ekitike's Achilles keeps January as the earliest realistic mark. For a squad the club has decided to shrink in January rather than grow, a fortnight of recovery over the break is the nearest thing to reinforcement available.",
   },
   {
     n: "04",
-    headline: "Twenty-Five On The Grass, And Nothing New On The Table.",
-    byline: "This Is Anfield",
-    dateline: "AXA Training Centre \u00b7 17 September",
-    category: "Injuries",
+    headline: "One Player Told To Pack, Another They Are Trying To Anchor.",
+    byline: "CaughtOffside / The Athletic",
+    dateline: "Liverpool · 18 September",
+    category: "Transfers",
     body:
-      "Thursday's session produced the most welcome sentence available three days before a fixture: no new injuries. Twenty-five trained, among them Virgil van Dijk, Florian Wirtz and Kostas Tsimikas, the three Iraola gave the night off when he made ten changes for Tottenham. Joe Gomez came through it too, forty-eight hours after forty-five planned minutes and the armband. Conor Bradley, Giovanni Leoni, Federico Chiesa and Hugo Ekitike remain outside the group. For a squad that has been described all month as thin in particular rooms rather than short overall, a clean Thursday is worth a signing it cannot make until January.",
+      "The week delivered its two verdicts at opposite ends of the age range. Wataru Endo, thirty-three and one of Klopp's last signings, is on the market for January, the last window a fee is recoverable on his deal, with Ben Jacobs's blunt gloss that the manager does not fancy him. Rio Ngumoha, eighteen, is the one the club will not sell at any price and want tied down inside a month, though Ornstein cautions that nothing is signed and that Arsenal and Bayern are watching. The same building, on the same day, decided who to move on and who to build around.",
   },
   {
     n: "05",
-    headline: "Klopp Picks Forty-Four, And One Of Them Is Liverpool's.",
-    byline: "beIN Sports / Associated Press",
-    dateline: "Frankfurt \u00b7 17 September",
+    headline: "A Return Wrapped In A Word The League Table Will Not Back.",
+    byline: "This Is Anfield / LiveScore",
+    dateline: "Liverpool · 18 September",
     category: "Football News",
     body:
-      "Jurgen Klopp named his first squads as Germany head coach on Thursday and did it in a manner nobody else would have chosen: forty-four players, split into two groups, sixteen of them uncapped, spread across four Nations League fixtures so that the established names play no more than two. Florian Wirtz is in the midfield, and will therefore be away from Liverpool for part of a break in which Chiesa is meant to resume training and Leoni is meant to rejoin the group. Klopp's stated aim was to reclaim the flag. His practical effect at Anfield is a reduced workload on a marquee signing who has not yet scored.",
+      "There is a version of Iraola's homecoming written in a harsher key. One win in four, a sporting director gone and the man who hired him with him, and a handful of columns reaching a fortnight in for the word pressure. It is a reach, and worth saying so plainly: this is a side unbeaten, conceding the fewest expected goals in the division, sitting eighth on a quiet start rather than a bad one. But a former club away is where a slow beginning either dissolves or hardens into a story. Win at the Vitality and the word goes away. Draw a fourth and it stays.",
   },
 ];
 
 export const NEWS_DIGEST = {
-  generatedAt: "2026-09-17T22:30:00Z",
+  generatedAt: "2026-09-18T08:30:00Z",
   summary:
-    "Liverpool have put Wataru Endo up for sale. Six competitive games into Andoni Iraola's first season, with the Japan captain yet to play a league minute and left out of the Champions League squad altogether, several outlets reported on Thursday that FSG will sanction a January departure, the last window in which a fee can be recovered on a contract that expires in 2027. Iraola's own account was gentler than the headlines: 'in front of him in his position, I have a lot of players', he said, naming Nyoni, Gravenberch, Mac Allister and Szoboszlai, before adding that 'Wata is definitely a player that I like'. At the other end of the age range the club is trying to hold on to somebody. Liverpool regard Rio Ngumoha as a future world-beater and intend to have a new long-term deal agreed inside a month, though David Ornstein reports nothing is signed and that Arsenal and Bayern Munich are both admirers. Thursday's training brought no new injuries and a twenty-five-man group, with Van Dijk, Wirtz and Tsimikas back among it after their night off, and Iraola faces the cameras at half past one on Friday. Bournemouth away on Sunday, his first return to the club he left in June, is the last fixture before the international break.",
+    "Friday, and the week narrows to a homecoming. Andoni Iraola previews Sunday's visit to Bournemouth at half past one this afternoon, his first game back at the club he took into Europe and left in the summer, and the last fixture before the international break. The team news is the immediate question: Empire of the Kop expect Ronald Araujo restored at right-back with Joe Gomez on the bench, Squawka keep Kostas Tsimikas at left-back, and Alexander Isak returns through the middle after his cup rest. Behind the fixture sit the two decisions that shaped the week. Liverpool have put Wataru Endo up for sale for January, the last window in which a fee is recoverable on a contract expiring in 2027, and are pushing to tie the eighteen-year-old Rio Ngumoha to a new long-term deal inside a month, though David Ornstein reports nothing is signed. Thursday's session brought no new injuries and a twenty-five-man group, with Van Dijk, Wirtz and Tsimikas back among it. Liverpool go to the Vitality eighth and unbeaten, two points off the Champions League places, against a side that has led in all four of its league games and won none.",
   keyTopics: [
     {
       title:
-        "Liverpool Put Wataru Endo Up For Sale, Six Games Into Iraola's First Season (CaughtOffside / Football365, today)",
+        "Iraola Previews A Homecoming At Half One, And The Team Sheet Is The First Question (Liverpool FC / Empire of the Kop, today)",
       detail:
-        "The day's decision, reported on Thursday and carried by CaughtOffside, Football365, TeamTalk, SportBible and Sportskeeda within hours of each other. Liverpool will allow Endo to leave in January, with the transfer correspondent Ben Jacobs the source underneath all of it: 'Iraola clearly doesn't fancy him, and the best outcome for all parties looks to be an exit in a few months' time.' The thirty-three-year-old has made one appearance this season, in Tuesday's cup tie, and none in the Premier League, and was omitted from the twenty-five-man Champions League squad. His contract runs to 2027, which makes January the final window in which the club can recover any fee at all.",
+        "The head coach faces the cameras at 1.30pm on Friday to preview his first game back at Bournemouth, the club he managed for three years, took into Europe and left in the summer. The reporting expects continuity in selection: Empire of the Kop have Ronald Araujo restored at right-back with Joe Gomez on the bench, Squawka keep Kostas Tsimikas at left-back, and Alexander Isak returns through the middle after being rested for the cup. It is the last fixture before the international break, and the first chance to ask Iraola directly about the Endo sale, the Ngumoha contract and a right-back department with no specialist fit until November.",
+      category: "matches",
+    },
+    {
+      title:
+        "The Last Soft Fixture Before The Break, And What Nine Points From Five Would Mean (BBC Sport / ESPN, today)",
+      detail:
+        "Sunday is the one gentle entry on a hardening list. Win at the Vitality and Liverpool go into the fortnight off on nine points from five, a 1.80 pace that puts the projection back inside the Europa band; draw a fourth and the pace stays in the mid-fifties with City at home, Brentford away, Brighton and Arsenal all inside the four weeks that follow. Eighth, unbeaten and two points off a Champions League place currently held by two promoted clubs, this is the fixture the table says they should win and the season so far says they should not assume.",
+      category: "matches",
+    },
+    {
+      title:
+        "Endo On The Market For January, With The Window The Only One That Recovers A Fee (CaughtOffside / Football365, today)",
+      detail:
+        "The decision that framed Thursday still frames Friday. Liverpool will allow Wataru Endo to leave in January, the last window in which a fee can be recovered on a contract running to 2027, with Ben Jacobs the source underneath the reporting: 'Iraola clearly doesn't fancy him, and the best outcome for all parties looks to be an exit.' The thirty-three-year-old has one appearance this season, in Tuesday's cup tie, none in the league, and was left out of the Champions League squad. Iraola's own framing is that four midfielders, Nyoni, Gravenberch, Mac Allister and Szoboszlai, are ahead of him.",
       category: "transfers",
     },
     {
       title:
-        "Iraola's Own Explanation Names Four Men, And One Of Them Is Nineteen (Liverpool FC / GiveMeSport, today)",
+        "Ngumoha The One They Hurry To Keep, And Ornstein Urges Caution (The Athletic / Empire of the Kop, today)",
       detail:
-        "The manager's framing, given this week and picked up alongside Thursday's reporting, was notably softer than the headlines it now sits under. 'The problem is, in front of him in his position, I have a lot of players,' Iraola said. 'He's competing against a lot of players because we are also giving minutes to Trey, Ryan, Alexis, Dom, players that I am selecting right now.' He then added that 'Wata is definitely a player that I like and for sure he will have his moments.' The four named are Nyoni, Gravenberch, Mac Allister and Szoboszlai. Listing a teenager first, ahead of a national-team captain, is the whole story in a clause.",
+        "The counterweight to the Endo story rather than a coincidence beside it. Liverpool view the eighteen-year-old winger as a future world-beater, will entertain no offers and intend to have a new long-term deal agreed within the month. David Ornstein's version is the careful one: a contract expected around his birthday at the end of August did not materialise, nothing is agreed as things stand, and Arsenal, still without a like-for-like left winger since Martinelli, and Bayern Munich are both admirers. Ornstein adds the line that matters most: there is no suggestion the boy is unhappy.",
       category: "general",
     },
     {
       title:
-        "The Club Want Ngumoha Signed Inside A Month, And Ornstein Says Nothing Is Agreed (Empire of the Kop / The Athletic, today)",
+        "A Clean Training Week, And Three Return Dates Inching Towards October (This Is Anfield / Sports Mole, today)",
       detail:
-        "Reported on Thursday, and the counterweight to the Endo story rather than a coincidence beside it. Liverpool view the eighteen-year-old winger as 'a future world-beater', are 'extremely keen' to extend him and will entertain no offers, with the intention of having a new long-term deal done within the next month. David Ornstein's reporting is more measured: a five-year contract had been expected around his birthday at the end of August and there is no agreement as things stand, while Arsenal, who replaced neither Martinelli nor Trossard with a like-for-like left winger, and Bayern Munich are both admirers. Ornstein adds that there is no suggestion Ngumoha is unhappy.",
-      category: "general",
-    },
-    {
-      title:
-        "No New Injuries As Twenty-Five Train, With Van Dijk, Wirtz And Tsimikas Back In (This Is Anfield, today)",
-      detail:
-        "Thursday's session at the AXA Training Centre produced a clean bill three days out. This Is Anfield's report of the training pictures counts a twenty-five-man group with no new problems, and places Van Dijk, Wirtz and Tsimikas among it, the three seniors given the night off when Iraola made ten changes for Tottenham. Gomez trained too, two days after forty-five planned minutes and the armband. Bradley, Leoni, Chiesa and Ekitike remain outside the group. For a squad closed until January, an uneventful Thursday counts for more than it usually would.",
+        "Thursday's AXA session produced the most welcome sentence available before a fixture, no new injuries, and twenty-five in the group with Van Dijk, Wirtz and Tsimikas back after their cup rest. The four long-term absences are unchanged but the recoverable ones moved this week per Lewis Steele: Chiesa aiming to resume training at the end of September, Leoni stepping up his ACL rehabilitation and due back with the group over the break, Bradley into individual ball work eight months on from the knee. Ekitike's Achilles keeps January as the earliest realistic return.",
       category: "injuries",
     },
     {
       title:
-        "Szoboszlai Names Koumas And McConnell As Two Who Deserve To Play (This Is Anfield / Empire of the Kop, today)",
+        "The Right-Back Nobody Wants Is The Space Bournemouth Aim For (Squawka / Sky Sports, today)",
       detail:
-        "The senior player's verdict on the academy night, given after Tuesday and carried on Thursday. Szoboszlai singled out Lewis Koumas, whose timing he praised and who took the official player-of-the-match award on a first competitive start through the middle, and James McConnell, whose running he picked out, saying both deserve to play and that they had made the choice 'hard' for the manager. It lands the same week Iraola justified leaving a thirty-three-year-old out by listing the young midfielders getting minutes ahead of him. The two stories are the same story told from opposite ends.",
-      category: "general",
-    },
-    {
-      title:
-        "Klopp's First Germany Squads Run To Forty-Four Names, And Wirtz Is In One (beIN Sports / Associated Press, today)",
-      detail:
-        "Announced on Thursday, and relevant to Liverpool in a way a national-team squad usually is not. Jurgen Klopp named forty-four players across two separate groups for Germany's four Nations League fixtures, sixteen of them uncapped, the first group facing the Netherlands in Amsterdam on 24 September and Greece in Augsburg three days later, the second Serbia in Munich on 1 October and Greece in Thessaloniki on 4 October. Wirtz is among the midfielders and, like Havertz, is expected to feature in no more than two of the four as Klopp manages workload. The break is also when Chiesa is due back in training and Leoni due back with the group.",
-      category: "general",
-    },
-    {
-      title:
-        "Iraola Faces The Cameras At Half One On Friday, Before Going Back To The Vitality (Liverpool FC, today)",
-      detail:
-        "The club confirmed on Thursday that the head coach will preview Sunday's visit to Bournemouth at 1.30pm on Friday, streamed live. It is his first press conference before facing the club he managed for three years and took into Europe, and the first opportunity anyone will have to ask him directly about the Endo reporting, the Ngumoha contract and a right-back department that has no specialist in it. Team news is the other unresolved item: Empire of the Kop expect Araujo restored on the right with Gomez on the bench, and Squawka's preview keeps Tsimikas at left-back.",
-      category: "matches",
-    },
-    {
-      title:
-        "Bournemouth's Casualty List Runs To Four, With Milosavljevic The First Back (NBC Sports / Sports Mole, today)",
-      detail:
-        "The hosts' own availability picture, updated this week and unhelpful for a side that has led in all four league games and won none. Julian Araujo's hamstring keeps him out until late November, Eli Kroupi's ankle until early November, and Amine Adli's calf leaves him around a month away. Veljko Milosavljevic's knee is the nearest to healing, with Marco Rose saying the plan is that 'Veljko is the first one who's coming back'. Tyler Adams has also appeared on the injury list this week, which if it holds removes one of the two holding midfielders Squawka's preview built the shape around.",
-      category: "matches",
-    },
-    {
-      title:
-        "The Alternative Table Reads Better Than The Real One: Fewest Expected Goals Against (Squawka, today)",
-      detail:
-        "A number worth putting beside eighth place. Liverpool concede the fewest expected goals per game in the Premier League this season, 1.29, which is exactly the 5.16 across four matches that this tracker's own Opta-sourced column already carries, arrived at independently. It is not a defence of the season so far, because 1.29 conceded per game is only good if you score more than 1.50, and Liverpool have managed six goals from 6.00 expected. But it does locate the problem. The team that has drawn three of four is not leaking chances. It is failing to convert its own, and failing to close out matches it leads.",
+        "The tactical knot of the weekend, and it sits at Liverpool's right. Bournemouth's most repeatable pattern is Justin Kluivert drifting infield from the left and a runner attacking the space behind the full-back, and that full-back has been Ronald Araujo, a converted centre-back, for three straight league games. Conor Bradley is out until late November, Jeremie Frimpong is the alternative who played there in the cup, and Joe Gomez, back and match-fit, is the third body and the only specialist. SQUAD_LOAD carries the position at high, above centre-back, for exactly this fixture.",
       category: "tactics",
     },
     {
       title:
-        "Genk's Sporting Director On The Thirty-Million Teenager: 'Never Saw That Coming' (Liverpool.com, 1d ago)",
+        "Six Goals From Six Expected: The Shortage Is Conversion, Not Chances Given Up (Squawka / BBC Sport, today)",
       detail:
-        "A postscript to a deal that closed a fortnight ago and has kept producing quotes since. Lucca Brughmans, eighteen, six foot seven, signed a six-year contract at Anfield at the start of September in a deal worth up to thirty million pounds with add-ons, making him the most expensive teenage goalkeeper in the game's history, and he stays at Genk on loan for this season before arriving in 2027. Genk's own sporting director admitted this week that the speed and scale of Liverpool's move took the club by surprise. Real Madrid were among those beaten to him. He has started all four of Genk's league games since.",
-      category: "transfers",
+        "A number worth setting beside eighth place. Liverpool concede the fewest expected goals per game in the Premier League, 1.29, which is exactly the 5.16 across four games the tracker's own Opta column arrives at independently. The problem is the other end: six goals from 6.00 expected, three draws, and a centre-forward increasingly isolated, Isak taking sixteen touches against Fulham, the second fewest for a Liverpool outfielder on record per the BBC. The defence is not leaking. The team is failing to convert what it makes and to close out what it leads.",
+      category: "general",
+    },
+    {
+      title:
+        "Wirtz Away With Klopp's Germany Over The Break, On A Managed Workload (beIN Sports / Associated Press, today)",
+      detail:
+        "Announced Thursday and relevant to Liverpool in a way a national-team squad usually is not. Jurgen Klopp named forty-four players across two groups for Germany's four Nations League fixtures, sixteen uncapped, and Wirtz is among the midfielders, expected to feature in no more than two as Klopp spreads the load. The German has five competitive games for Liverpool without a goal or assist. The break is also when Chiesa is due to resume training and Leoni to rejoin the group, so the fortnight is a recovery window as much as an international one.",
+      category: "general",
+    },
+    {
+      title:
+        "Rose's Bournemouth Have Led Every Game And Won None, With Five Now Absent (NBC Sports / Sports Mole, 1d ago)",
+      detail:
+        "The hosts are the first side in Premier League history to lead in each of their opening four fixtures and win none of them, a record that is the whole explanation for fifteenth place. Marco Rose collected a first win of any kind on Tuesday, 4-0 against Lincoln in the cup on a Ryan Christie hat-trick, though a rotated side settles little about Sunday. The casualty list has hardened to five: Julian Araujo out to late November, Eli Kroupi to early November, Amine Adli around a month away, Veljko Milosavljevic the nearest back, and Tyler Adams now on it too.",
+      category: "matches",
+    },
+    {
+      title:
+        "Iraola Goes Back Under A Little Scrutiny, One Win In Four And No Sporting Director (This Is Anfield / LiveScore, 1d ago)",
+      detail:
+        "The framing the homecoming carries, and it is media narrative rather than club briefing. One win in four league games, Richard Hughes gone as sporting director and the man who hired him no longer in the building, and columns at This Is Anfield, Yahoo and LiveScore reaching for the word pressure a fortnight into a first season. It is worth keeping the qualifier: Liverpool are unbeaten, concede the fewest expected goals in the league and have not lost under Iraola. A return to a former club is where a slow start either eases or gets a label, and Sunday decides which.",
+      category: "general",
     },
   ],
   sources: [
+    "Liverpool FC",
+    "Empire of the Kop",
     "CaughtOffside",
     "Football365",
-    "TeamTalk",
-    "Sportskeeda",
-    "Liverpool FC",
-    "GiveMeSport",
-    "Empire of the Kop",
     "The Athletic",
     "This Is Anfield",
+    "Sports Mole",
+    "Squawka",
+    "Sky Sports",
+    "BBC Sport",
+    "ESPN",
     "beIN Sports",
     "Associated Press",
     "NBC Sports",
-    "Sports Mole",
-    "Squawka",
-    "Liverpool.com",
+    "LiveScore",
   ],
 };
 
@@ -791,7 +796,7 @@ export const NEWS_DIGEST = {
 // next edition and then into the auditor's blind spot.
 
 export const OPPOSITION = {
-  generatedAt: "2026-09-17T22:30:00Z",
+  generatedAt: "2026-09-18T08:30:00Z",
   opponent: "Bournemouth",
   shortName: "BOU",
   fixture: {
@@ -805,7 +810,7 @@ export const OPPOSITION = {
   formation: "4-2-3-1",
   leaguePosition: 15,
   summary:
-    "Two and a half days out, and the hosts' problem is not the shape of their football but the last twenty minutes of it. Bournemouth are the first side in Premier League history to lead in each of their opening four fixtures and win none of them, a record that reads like a statistical curio until you notice it is the entire explanation for fifteenth place. Three draws and a defeat is three points, and every one of those results was a lead handed back. The most recent, a 2-2 with Brentford at the Vitality on 13 September, contained the whole pattern: Kevin Schade scored first, Justin Kluivert levelled, Marcus Tavernier turned it round after the interval, and a Djordje Petrovic error gave Schade his second, with Ben Gannon-Doak striking the woodwork in stoppage time. Marco Rose did collect a first win of any kind on Tuesday, 4-0 against Lincoln in the cup on a Ryan Christie hat-trick, though a rotated side against a lower-division opponent settles nothing about Sunday. The casualty list has hardened this week and it is long: Julian Araujo out to late November, Eli Kroupi to early November, Amine Adli around a month away, Veljko Milosavljevic the nearest to returning, and Tyler Adams now appearing on it too. Andoni Iraola, meanwhile, goes back for the first time to the club he managed for three years and took into Europe.",
+    "Two days out, and the hosts' problem is not the shape of their football but the last twenty minutes of it. Bournemouth are the first side in Premier League history to lead in each of their opening four fixtures and win none of them, a record that reads like a statistical curio until you notice it is the entire explanation for fifteenth place. Three draws and a defeat is three points, and every one of those results was a lead handed back. The most recent, a 2-2 with Brentford at the Vitality on 13 September, contained the whole pattern: Kevin Schade scored first, Justin Kluivert levelled, Marcus Tavernier turned it round after the interval, and a Djordje Petrovic error gave Schade his second, with Ben Gannon-Doak striking the woodwork in stoppage time. Marco Rose did collect a first win of any kind on Tuesday, 4-0 against Lincoln in the cup on a Ryan Christie hat-trick, though a rotated side against a lower-division opponent settles nothing about Sunday. The casualty list has hardened this week and it is long: Julian Araujo out to late November, Eli Kroupi to early November, Amine Adli around a month away, Veljko Milosavljevic the nearest to returning, and Tyler Adams now appearing on it too. Andoni Iraola, meanwhile, goes back for the first time to the club he managed for three years and took into Europe.",
   shape:
     "Rose has kept the high-tempo, heavy-pressing identity the Vitality inherited from Iraola rather than rebuilding it, and Squawka's preview reads the hosts as a 4-2-3-1 with a screening pair in front of the back four and Tavernier floating off the front. The complication this week is that Tyler Adams, half of that pair in the preview, has since appeared among the injured, which would leave Lewis Cook alongside Alex Scott. The threat comes through the inside-left and the transition after a turnover in Bournemouth's own half, Kluivert drifting infield and Evanilson running the channel, which is how they have manufactured a first goal in every match this season. The problem is the other end: seven conceded in four, and the late collapses at Newcastle and against Brentford both arrived from set-piece scrambles and goalkeeping error rather than from being outplayed. A side that scores first and then retreats is exactly the game Liverpool's season has not yet learned how to close out from either direction.",
   keyPlayers: [
@@ -859,11 +864,11 @@ export const OPPOSITION = {
 };
 
 export const FORM_TRENDS = {
-  generatedAt: "2026-09-17T22:30:00Z",
+  generatedAt: "2026-09-18T08:30:00Z",
   competition: "PL",
   played: 4,
   headline:
-    "Read one way, this is the meanest defence in the country. Liverpool concede the fewest expected goals per game in the Premier League, 1.29, and the arithmetic in the column below arrives at the identical figure from Opta's own match data without being asked to: 5.16 against across four games. Read the other way, the same four games have produced six goals from 6.00 expected, three draws, and a team sitting eighth. The thing this side is bad at is not preventing chances. It is converting its own and protecting a lead once it has one, and Tuesday's cup tie restated both while the scoreline said otherwise: a 3-1 win in which Tottenham created 2.30 expected goals to Liverpool's 1.53, and in which all three Liverpool goals were finishes rather than chances. That is now three matches running in which this team has been out-created and come away content, which is a pattern rather than a run of luck. The league columns themselves are untouched since 12 September, because the only football since has been a cup tie. Bournemouth on Sunday is the first fixture that will move any of it.",
+    "Begin with the flattering half. This is the meanest defence in the country: Liverpool concede the fewest expected goals per game in the Premier League, 1.29, and the arithmetic in the column below arrives at the identical figure from Opta's own match data without being asked to: 5.16 against across four games. Turn it over, and the same four games have produced six goals from 6.00 expected, three draws, and a team sitting eighth. The thing this side is bad at is not preventing chances. It is converting its own and protecting a lead once it has one, and Tuesday's cup tie restated both while the scoreline said otherwise: a 3-1 win in which Tottenham created 2.30 expected goals to Liverpool's 1.53, and in which all three Liverpool goals were finishes rather than chances. That is now three matches running in which this team has been out-created and come away content, which is a pattern rather than a run of luck. The league columns themselves are untouched since 12 September, because the only football since has been a cup tie. Bournemouth on Sunday is the first fixture that will move any of it.",
   diagnosis: [
     {
       label: "Closing out a lead",
@@ -1009,9 +1014,9 @@ export const FORM_TRENDS = {
 
 
 export const SQUAD_LOAD = {
-  generatedAt: "2026-09-17T22:30:00Z",
+  generatedAt: "2026-09-18T08:30:00Z",
   headline:
-    "The board's most important line on Thursday was a negative one: no new injuries. This Is Anfield's report of the AXA session counts twenty-five in the group, with Van Dijk, Wirtz and Tsimikas back among them after their night off and Gomez through a first session since his forty-five planned minutes. The four long-term absences are unchanged, though all three of the recoverable ones moved forward this week. The second story is a subtraction of a different kind. Liverpool have decided to sell Wataru Endo in January, which matters to this board specifically, because Endo is the emergency fifth centre-back it has been quietly counting on all autumn. A squad closed until January that is also planning to shrink in January is a squad betting on Giovanni Leoni's knee.",
+    "Two days out, the most important line on this board is still a negative one, carried over from Thursday: no new injuries. This Is Anfield's report of the AXA session counts twenty-five in the group, with Van Dijk, Wirtz and Tsimikas back among them after their night off and Gomez through a first session since his forty-five planned minutes. The four long-term absences are unchanged, though all three of the recoverable ones moved forward this week. The second story is a subtraction of a different kind. Liverpool have decided to sell Wataru Endo in January, which matters to this board specifically, because Endo is the emergency fifth centre-back it has been quietly counting on all autumn. A squad closed until January that is also planning to shrink in January is a squad betting on Giovanni Leoni's knee.",
   minutesNote:
     "Premier League minutes are not published here yet. Four league games and one Champions League game have been played and no reliable per-player minutes have been sourced, so this board tracks availability, starts and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   unavailable: [
@@ -1046,14 +1051,14 @@ export const SQUAD_LOAD = {
 
 
 export const SEASON_PROJECTION = {
-  generatedAt: "2026-09-17T22:30:00Z",
+  generatedAt: "2026-09-18T08:30:00Z",
   played: 4,
   points: 6,
   pointsPerGame: 1.50,
   projectedPoints: 57,
   projectedFinish: "Conference League places on current pace",
   headline:
-    "One fixture remains before the season takes a fortnight off, and it is the last cheap one on the list. Six points from four is 1.50 a game and a projected 57, which lands in the Conference League band, though four matches is far too small a sample to forecast from and the next four could move that number by ten in either direction. What the pace does describe accurately is the shape of the risk: Liverpool are eighth, unbeaten, and two points and four places short of a Champions League stripe currently held by two promoted clubs. Win at the Vitality on Sunday and they go into the break on nine from five. Draw a fourth and the pace stays in the mid-fifties, with City, Brentford, Brighton and Arsenal the four league fixtures that follow it.",
+    "Sunday is the last fixture before the season takes its fortnight off, and the only soft entry left on the sheet. Six points from four is 1.50 a game and a projected 57, which lands in the Conference League band, though four matches is far too small a sample to forecast from and the next four could move that number by ten in either direction. What the pace does describe accurately is the shape of the risk: Liverpool are eighth, unbeaten, and two points and four places short of a Champions League stripe currently held by two promoted clubs. Win at the Vitality on Sunday and they go into the break on nine from five. Draw a fourth and the pace stays in the mid-fifties, with City, Brentford, Brighton and Arsenal the four league fixtures that follow it.",
   thresholds: [
     { label: "Champions League (top 4)", points: 68, gap: 11, note: "Historical par for the last Champions League place in recent seasons. The live ESPN table this tracker rebuilds each run draws that stripe at fourth, not fifth, so the label follows the table rather than the coefficient arithmetic. Requires roughly 1.82 points per game from here." },
     { label: "Europa League (5th)", points: 60, gap: 3, note: "Fifth-place par, which is where the live table currently draws the Europa stripe, and three points above where the present pace lands. Requires about 1.59 points per game from here." },
