@@ -38,7 +38,7 @@ export const FORMATIONS = {
       RCB: 11,  // Jacquet (on at half-time in the cup; the goal-line clearance at Fulham before that)
       RB: 29,   // Araujo (a fourth straight league start out of position, Bradley out to Nov)
       LCM: 13,  // Mac Allister (a goal and an assist in the cup; the midfielder nobody now drops)
-      CM: 15,   // Szoboszlai (the thirty-five-yard volley off the bench earns the start back)
+      CM: 15,   // Szoboszlai (the thirty-yard volley off the bench earns the start back)
       RCM: 18,  // Wirtz (kept in the side by both previews; five games without a contribution)
       LW: 22,   // Gakpo (left, per Sports Illustrated's post-presser XI)
       ST: 23,   // Isak (four goal contributions in six; restored after a cup rest)
@@ -79,7 +79,7 @@ export const FORMATIONS = {
       LCB: 3,   // Van Dijk (rested Tuesday, restored here)
       RCB: 11,  // Jacquet (SI: "ridiculously composed for a 21-year-old")
       RB: 29,   // Araujo (out of position, and facing Kluivert cutting in from that side)
-      LDM: 15,  // Szoboszlai (rested Tuesday, then volleyed the third from thirty-five yards)
+      LDM: 15,  // Szoboszlai (rested Tuesday, then volleyed the third from thirty yards)
       RDM: 13,  // Mac Allister (a goal and an assist midweek; SI say he "simply must start")
       LAM: 22,  // Gakpo (left, per the post-press-conference previews)
       CAM: 18,  // Wirtz (kept at the ten; Iraola "rates him very highly", still no contribution)
@@ -146,8 +146,8 @@ export const PLAYER_EVIDENCE = {
   12: "Levante · outside every squad",        // Ndukwe
   13: "SI: 'simply must start'",              // Mac Allister
   14: "Named by Iraola, dropped by SI",       // Gravenberch
-  15: "0.03 xG, thirty-five yards, in",       // Szoboszlai
-  17: "Available Sunday · sold in January",   // Endo
+  15: "0.03 xG, thirty yards, in",       // Szoboszlai
+  17: "Available Sunday · January exit reported", // Endo
   18: "Iraola 'rates him very highly'",       // Wirtz
   20: "Confirmed cup starter at nineteen",    // Nyoni
   22: "Three positions · left on Sunday",     // Gakpo
@@ -203,7 +203,7 @@ export const SLOT_RATIONALE = {
   LCB:  "Fri Sep 18, evening - one night off in an entire season, and it is already over. Van Dijk was rested for the cup, where Araujo and Gomez took the middle between them, and both post-press-conference previews return him beside Jacquet at the Vitality. He is thirty-five and had played every league minute before Tuesday, a workload the reporting treats as squad arithmetic rather than a fitness question. Bournemouth attack with runners off the shoulder, Rayan and Evanilson, which asks more of his positioning than of his pace.",
   RCB:  "Fri Sep 18, evening - still the least argued-about name on the sheet, and Friday added a compliment to the file. Sports Illustrated call Jeremy Jacquet ridiculously composed for a twenty-one-year-old in a new country. He came on at half-time for Gomez in a pre-planned change on Tuesday and starts again on Sunday, five days after the goal-line clearance from Gonzalo Garcia that Opta's own match report named as one of two things keeping Liverpool level at Fulham. Behind him the fourth and fifth centre-backs are a right-back and a man for sale in January.",
   RB:   "Fri Sep 18, evening - the emergency is quietly becoming an arrangement, and the manager gave it away by talking about language. Iraola said on Friday he has been surprised by how quickly Ronald Araujo has absorbed the physical demands of full-back, and that his next target is English, so a back four can actually use the experience he brought from Barcelona. Read plainly, the slot is now his rather than a weekly improvisation. It is also the slot Bournemouth aim at: Kluivert scored on Thursday by arriving inside from exactly that flank. Frimpong played here in the cup; Bradley is out to late November.",
-  LDM:  "Fri Sep 18, evening - a volley from thirty-five yards is buying him a fortnight of selections. Szoboszlai came off the bench on Tuesday to settle the cup tie with a strike the Transfer Hub's shot map values at 0.03 expected goals, which is the numerical way of saying nobody else in the stadium was attempting it. Both evening previews put him in the pivot, Iraola named him among the four midfielders ahead of Wataru Endo, and Sports Illustrated want more of the same on the south coast. The Fulham criticism of this midfield has been drowned out rather than answered.",
+  LDM:  "Fri Sep 18, evening - a volley from thirty yards is buying him a fortnight of selections. Szoboszlai came off the bench on Tuesday to settle the cup tie with a strike the Transfer Hub's shot map values at 0.03 expected goals, which is the numerical way of saying nobody else in the stadium was attempting it. Both evening previews put him in the pivot, Iraola named him among the four midfielders ahead of Wataru Endo, and Sports Illustrated want more of the same on the south coast. The Fulham criticism of this midfield has been drowned out rather than answered.",
   RDM:  "Fri Sep 18, evening - the previews have stopped hedging about him, which took a month. Sports Illustrated's line is that Alexis Mac Allister simply must start after a goal and an assist in the cup, and that Liverpool had no control in midfield when Gravenberch was picked ahead of him at Fulham. He struck the opener against Tottenham from the edge of the box, the second such finish in three competitive games, and his manager named him among the four keeping Endo out of the side. Bournemouth force turnovers by design, which is the specific test of a passer in that position.",
   LAM:  "Fri Sep 18, evening - the most productive forward of the autumn, moved back to the flank he started on. Cody Gakpo led the line in the cup with Isak rested and lashed in the second from a tight angle, taking him to two goals and three assists across five appearances, and the club's published XI confirms he began that night through the middle beside Koumas. Both post-presser previews return him to the left. He can play three positions in a squad with one senior centre-forward, which stopped being a convenience some weeks ago and became the plan.",
   CAM:  "Fri Sep 18, evening - his manager was invited to rate him on Friday and declined to turn it into a verdict. Iraola said he rates Florian Wirtz very highly and judges him exactly as he judges every other player, which reads as reassurance or its absence depending on the week you are having. Five competitive games have produced no goal and no assist, and Opta's Fulham report has him putting two shots the wrong side of the near post. Both previews keep him here anyway, with Gakpo's evidence sitting on the bench behind him. Klopp's Germany squad awaits after the break.",
