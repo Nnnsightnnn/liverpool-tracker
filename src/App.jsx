@@ -484,11 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday, and the week bends toward a homecoming. Andoni Iraola previews
-          his return to Bournemouth this afternoon, the club he took into Europe
-          and left in the summer, with the team news the day's first question and
-          a right-back nobody quite trusts its quiet worry. Behind it, a player
-          sold and a teenager kept. Sunday is the last fixture before the break.
+          England called on Friday morning, and the boy the club is hurrying to
+          re-sign answered. Rio Ngumoha, eighteen, is in Tuchel's squad, the only
+          Liverpool name in it. By half past one his manager was calling it
+          deserved and promising to be ruthless at the ground he used to run.
+          Two days to Bournemouth, everyone fit, nothing else to hide behind.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,35 +519,34 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and a manager goes back to a place he used to run. Andoni Iraola
-              previews Bournemouth this afternoon, the club he took into Europe
-              before Liverpool came for him in the summer, and the reporters will
-              want him on more than the football. This was the week he made his
-              first cold call: Wataru Endo, thirty-three, one of the last players
-              Jurgen Klopp bought here, put up for sale for January, with the
-              manager's own explanation naming a nineteen-year-old first in the
-              queue ahead of him. At the other end of the same building they are
-              hurrying to keep Rio Ngumoha, eighteen, Arsenal and Bayern admiring
-              from a polite distance. Thursday's grass brought no new injuries and
-              twenty-five men. Sunday brings the Vitality, and a welcome nobody
-              there arranged.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the eighteen-year-old this club has spent a fortnight trying to tie
+              down is an England international with a plane to catch. Thomas
+              Tuchel named Rio Ngumoha in his squad on Friday morning, the only
+              Liverpool player in it, for four Nations League games beginning with
+              Spain. Andoni Iraola, asked about it hours later, said the boy
+              absolutely deserves it, then described the temperament that got him
+              there: he does not say where he would prefer to play, he asks what
+              the team needs. The same press conference held the calmest fitness
+              answer of the season, no, everyone is ready to go, and the least
+              sentimental homecoming line available, that Bournemouth are to be
+              beaten as ruthlessly as possible and the talking can wait. A club
+              trying to keep a teenager has just watched his price go up.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a player
-              told, in the politest available language, that the queue has moved
-              past him; a teenager the club is trying to sign twice; a clean
-              Thursday on the training grass, which counts for more than it
-              should; and forty-four names read out in Frankfurt by a man this
-              city still talks about. Read them in order. The season opened with
-              draws at Newcastle and Anfield, a first win at Ipswich, a first
-              European night, a goalless Saturday, and a cup night that produced
-              three; the market is shut until January, save for the men no one
-              owns.
+              dispatches from the writers who never clock off. There is a squad
+              list read out in London; a club that was minus seventeen points in
+              the fourth tier winning in San Sebastian; a team sheet everybody
+              reconstructed and nobody got right until the club simply printed
+              it; and a centre-half booking English lessons so a back four can
+              hear him. Read them in order. The season opened with draws at
+              Newcastle and Anfield, a first win at Ipswich, a first European
+              night, a goalless Saturday, and a cup night that produced three;
+              the market is shut until January, save for the men no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3757,7 +3756,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Home is the hardest away game."
+        "Ask what the team needs."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

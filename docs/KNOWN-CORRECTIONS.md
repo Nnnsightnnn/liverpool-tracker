@@ -38,6 +38,8 @@ Everything outside a `forbid:` line is prose for humans and is ignored.
 
 - forbid: `Champions League \(top 5\)` — the live ESPN table this tracker rebuilds each run draws the Champions League stripe at **fourth**, with Europa at fifth. `SEASON_PROJECTION.thresholds` carried a "top 5" label for that band, so the projection was pacing toward a qualification line the table on the next tab did not show, and the Conference band was labelled for a seventh place the table did not stripe at all. Caught by the staleness auditor, 17 Sep evening. Threshold labels must follow the qualification stripes in the current STANDINGS array, which come from ESPN's `note.description` and are never hand-assigned. Retire this rule if ESPN begins striping five Champions League places.
 
+- forbid: `Transfer Hub's passing networks place` — a passing-network graphic shows who touched the ball, not who kicked off, so it cannot establish a starting XI and it silently mixes in substitutes. The 15 Sep cup XI was reconstructed this way for three days and was wrong in two places: it listed Bradley Barcola as a starter when he did not start at all, and it had Ronald Araujo at right-back when Jeremie Frimpong played there and Araujo partnered Gomez in the middle for the full ninety. Liverpool's own team-news page published the eleven on 18 Sep and settled it. Caught in the 18 Sep evening pass. **General lesson: a starting XI is a published fact. Wait for the club, the league or a match report to print it rather than inferring it from a visualisation, and mark the record as partial until they do.**
+
 ## Retired rules
 
 Move an entry here (and delete its `forbid:` line) once the underlying
