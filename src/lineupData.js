@@ -27,7 +27,7 @@ export const FORMATIONS = {
     // Vitality Stadium, Sky Sports Main Event. The XI below follows the two previews published
     // AFTER Iraola spoke, at Sports Illustrated and Yahoo, which agree on all eleven names:
     // Alisson; Araujo, Van Dijk, Jacquet, Kerkez; Szoboszlai, Mac Allister; Barcola, Wirtz,
-    // Gakpo; Isak. That is three changes from this morning's Squawka-based draw, at left-back
+    // Gakpo; Isak. That is three changes from Friday's morning Squawka-based draw, at left-back
     // (Kerkez in for Tsimikas), in the pivot (Mac Allister in for Gravenberch) and on the right
     // (Barcola in for Munoz). Out: Ekitike (Achilles, January a hope), Bradley (knee, ~21 Nov),
     // Leoni (ACL, group work in the break) and Chiesa (back, aiming to train late September).
@@ -188,7 +188,7 @@ export const SLOT_CONFIDENCE = {
   RDM: "Medium",    // Mac Allister · both previews start him ahead of Gravenberch
   LAM: "Medium",    // Gakpo · moved to the left in the evening XIs; four wingers for two flanks
   CAM: "Low",       // Wirtz · five games without a contribution, and Gakpo carries the evidence
-  RAM: "Low",       // Barcola · picked over Munoz tonight, having not started the cup at all
+  RAM: "Low",       // Barcola · picked over Munoz in Friday's evening previews, having not started the cup
   ST:  "High",      // Isak · rested in the cup, the only senior centre-forward available
 };
 
@@ -207,7 +207,7 @@ export const SLOT_RATIONALE = {
   RDM:  "Sat Sep 19, morning - the previews have stopped hedging about him, which took a month. Sports Illustrated's line is that Alexis Mac Allister simply must start after a goal and an assist in the cup, and that Liverpool had no control in midfield when Gravenberch was picked ahead of him at Fulham. He struck the opener against Tottenham from the edge of the box, the second such finish in three competitive games, and his manager named him among the four keeping Endo out of the side. Bournemouth force turnovers by design, which is the specific test of a passer in that position.",
   LAM:  "Sat Sep 19, morning - the most productive forward of the autumn, moved back to the flank he started on. Cody Gakpo led the line in the cup with Isak rested and lashed in the second from a tight angle, taking him to two goals and three assists across five appearances, and the club's published XI confirms he began that night through the middle beside Koumas. Both post-presser previews return him to the left. He can play three positions in a squad with one senior centre-forward, which stopped being a convenience some weeks ago and became the plan.",
   CAM:  "Sat Sep 19, morning - his manager was invited to rate him on Friday and declined to turn it into a verdict. Iraola said he rates Florian Wirtz very highly and judges him exactly as he judges every other player, which reads as reassurance or its absence depending on the week you are having. Five competitive games have produced no goal and no assist, and Opta's Fulham report has him putting two shots the wrong side of the near post. Both previews keep him here anyway, with Gakpo's evidence sitting on the bench behind him. Klopp's Germany squad awaits after the break.",
-  RAM:  "Sat Sep 19, morning - the flank changed hands twice in twelve hours. Squawka had Victor Munoz here this morning; Sports Illustrated and Yahoo, published after the press conference, give the right to Bradley Barcola and leave Munoz out. The club's own cup team sheet, also published Friday, shows Barcola did not start that night at all, correcting three days of reconstruction from passing maps. Iraola's framing on all of it was cheerful: most weeks all four wide forwards play, and he called having them 'a luxury'.",
+  RAM:  "Sat Sep 19, morning - the flank changed hands twice across Friday, and a day on the later verdict still stands. Squawka's preview, written before the press conference, had Victor Munoz here; Sports Illustrated and Yahoo, published after Iraola spoke, give the right to Bradley Barcola and leave Munoz out. The club's own cup team sheet, also published Friday, shows Barcola did not start that night at all, correcting three days of reconstruction from passing maps. Iraola's framing on all of it was cheerful: most weeks all four wide forwards play, and he called having them 'a luxury'.",
   ST:   "Sat Sep 19, morning - he spent the week explaining himself and then got his place back. Alexander Isak told BBC Sport he has no regrets about the British-record move despite three league goals and a leg break that took December to April, and that promises made to him at Newcastle had been broken. He returns through the middle after one night off, with four goal contributions in six matches this season. The recurring number remains sixteen touches against Fulham, the second fewest by a Liverpool outfielder on record per the BBC, which describes the service rather than the finishing.",
 };
 
@@ -218,7 +218,7 @@ export const SLOT_RATIONALE = {
 // 4-2-3-1 (the season-closing baseline shape).
 export const ALTERNATIVES = {
   GK:  [{ playerId: 2, reason: "Mamardashvili · took the cup tie and made the save that held it, but Alisson is the league keeper" }, { playerId: 27, reason: "Woodman · third-choice, bench at most" }],
-  LB:  [{ playerId: 32, reason: "Tsimikas · this morning's predicted starter, displaced by the post-press-conference previews" }],
+  LB:  [{ playerId: 32, reason: "Tsimikas · Friday's pre-press-conference predicted starter, displaced by the previews after it" }],
   LCB: [{ playerId: 5, reason: "Gomez · captained the cup tie at centre-back; his next appearance is his 300th for the club" }, { playerId: 29, reason: "Araujo · played the full ninety here on Tuesday, and covers right-back instead on Sunday" }],
   RCB: [{ playerId: 5, reason: "Gomez · the fourth senior centre-back, whose return is what allowed Tuesday's rotation" }, { playerId: 17, reason: "Endo · the emergency fifth centre-half, and on the market from January" }],
   RB:  [{ playerId: 9, reason: "Frimpong · the club's published cup XI has him starting at right-back on Tuesday" }, { playerId: 5, reason: "Gomez · the only specialist right-back available with Bradley out until late November" }],
@@ -226,7 +226,7 @@ export const ALTERNATIVES = {
   RDM: [{ playerId: 14, reason: "Gravenberch · the incumbent at Fulham, and the man Mac Allister displaces here" }, { playerId: 17, reason: "Endo · a holding midfielder by trade, available Sunday and for sale in January" }],
   LAM: [{ playerId: 25, reason: "Ngumoha · 18 · started the cup tie and was called up by England on Friday morning" }, { playerId: 30, reason: "Barcola · the wide rotation swaps flanks; he takes the right in this draw" }],
   CAM: [{ playerId: 22, reason: "Gakpo · two goals and three assists in five; the better evidence than the incumbent" }, { playerId: 15, reason: "Szoboszlai · has played the ten before; drawn deeper here" }],
-  RAM: [{ playerId: 28, reason: "Munoz · Squawka's pick this morning, dropped from both post-press-conference XIs" }, { playerId: 25, reason: "Ngumoha · four wingers for two places, and both flanks swap" }],
+  RAM: [{ playerId: 28, reason: "Munoz · Squawka's pre-press-conference pick, dropped from both post-presser XIs" }, { playerId: 25, reason: "Ngumoha · four wingers for two places, and both flanks swap" }],
   ST:  [{ playerId: 22, reason: "Gakpo · led the line and scored in the cup; the first cover while Ekitike is out" }, { playerId: 31, reason: "Koumas · the club's XI confirms he started through the middle; the false-nine option" }],
 };
 
