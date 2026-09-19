@@ -132,7 +132,6 @@ const LATEST_NEWS = [
   { source: "Opta Analyst", title: "Brighton 3-0 Arsenal: champions stunned, and Anfield hosts the Seagulls in October", time: "today", category: "major" },
   { source: "Liverpool FC", title: "Chelsea at Anfield on 28 October: Carabao Cup fourth-round tie confirmed for 8pm", time: "today", category: "official" },
   { source: "Liverpool FC", title: "Champions League: LASK away on Wednesday 14 October, 5.45pm at the Raiffeisen Arena", time: "today", category: "official" },
-  { source: "Opta Analyst", title: "Supercomputer makes it Liverpool 44.2%, and Bournemouth a record-setting 56.5% draw rate", time: "today", category: "major" },
   { source: "Liverpool FC", title: "U21s 5-1 Brighton: Will Wright scores twice, Mabaya off injured inside five minutes", time: "today", category: "official" },
   { source: "Last Word on Football", title: "Gomez available at the Vitality, half-time withdrawal against Spurs was pre-planned", time: "today", category: "major" },
   { source: "TEAMtalk", title: "Liverpool scouts at Sunderland to watch AZ's Kees Smit ahead of a £51.5m January move", time: "today", category: "major" },
@@ -140,6 +139,7 @@ const LATEST_NEWS = [
   { source: "Liverpool FC", title: "Erik Farkas signs first professional contract, weeks after his brother Patrik", time: "1d ago", category: "official" },
   { source: "CaughtOffside", title: "Bournemouth warn Liverpool there is no Iraola discount on Rayan", time: "1d ago", category: "fan" },
   { source: "This Is Anfield", title: "Iraola left exposed by two of Richard Hughes's last decisions before leaving", time: "2d ago", category: "fan" },
+  { source: "Opta Analyst", title: "Supercomputer makes it Liverpool 44.2%, and Bournemouth a record-setting 56.5% draw rate", time: "2d ago", category: "major" },
   { source: "Sky Sports", title: "Real Sociedad 1-2 Bournemouth: the Cherries' first-ever European win", time: "2d ago", category: "major" },
   { source: "BBC Sport", title: "Isak on the record move: 'No, never. I would never think like that'", time: "2d ago", category: "major" },
 ];

@@ -523,8 +523,8 @@ function CoverView({ onJump }) {
               a squad in a hotel in Dorset can watch the league move without them.
               Five games were played on Saturday and every one of them shifted
               something: Brighton dismantled Arsenal 3-0 to end the champions'
-              perfect start, Everton and Newcastle won, Coventry took their first
-              point of the season and their first goals with it, and Tottenham
+              perfect start, Everton and Newcastle won, Coventry won at Forest for
+              their first points and first goal of the season, and Tottenham
               finally scored and lost anyway. Liverpool, who trained and travelled,
               are tenth rather than eighth, unbeaten still, three points short of
               both European lines. The game in hand is tomorrow at two, at the

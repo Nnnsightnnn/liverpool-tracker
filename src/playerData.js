@@ -401,7 +401,7 @@ export const COVER_IMAGE = {
   // Szoboszlai plate is carried and generatedAt re-stamped only. The lead rotated off the morning's homecoming-eve
   // preview onto Saturday's five Premier League results, which dropped Liverpool from eighth to tenth without them
   // playing: Brighton 3-0 Arsenal ended the champions' perfect start, Everton and Newcastle won, Coventry took a
-  // first point and first goals at Forest, and Tottenham scored for the first time and lost 3-2 to Villa anyway.
+  // first points and first goal at Forest, and Tottenham scored for the first time and lost 3-2 to Villa anyway.
   // The club also confirmed Chelsea at Anfield in the Carabao Cup fourth round on 28 October and the Champions
   // League trip to LASK on 14 October. A league table rearranging itself is not a single photographable still, so
   // NO new image was queued under STEP 7.5. All eight generatedAt stamps 22:30Z.
@@ -590,7 +590,7 @@ export const RESULTS = [
 // matchday-five fixtures were completed on Saturday: BRIGHTON 3-0 ARSENAL (Gross 31, Kostoulas 45, Chema Andres 58),
 // ending the champions' perfect start and lifting Brighton to third on ten with the division's best goal difference
 // (+11) and most goals (16); Everton 1-0 Ipswich; Newcastle 2-1 Hull, the promoted side's first defeat; Nottingham
-// Forest 0-1 Coventry, whose first point and first goals of the season arrived together; and Tottenham 2-3 Aston Villa,
+// Forest 0-1 Coventry, a first win, first points and first goal of the season in one afternoon; and Tottenham 2-3 Aston Villa,
 // in which Spurs scored their first league goals of the campaign and lost anyway. LIVERPOOL FALL FROM EIGHTH TO TENTH
 // on the same six points from four, now three points behind both the Champions League line (Brentford, fourth) and the
 // Europa line (Everton, fifth), with a game in hand on every club from second to ninth bar Leeds. Manchester City move
@@ -644,7 +644,7 @@ export const STANDINGS_COMMENTARY = {
   matchweek: 4,
   generatedAt: "2026-09-19T22:30:00Z",
   overview:
-    "Five games were played on Saturday and every one of them moved something, which is how a club that did not kick a ball spent the afternoon falling two places. Brighton beat Arsenal 3-0 at the Amex, Gross from twenty yards, Kostoulas from twenty-five and Chema Andres heading in a corner on his first Premier League start, ending the champions' perfect start and taking the Seagulls to third with the division's best goal difference and its most goals, sixteen. Everton beat Ipswich, Newcastle beat Hull to inflict a promoted side's first defeat, and two records fell together in the evening: Coventry, pointless and goalless through four, won 1-0 at Nottingham Forest, while Tottenham finally scored in the league and lost 3-2 to Aston Villa anyway. Liverpool are tenth on six, unbeaten, three points off both European lines with a game in hand on almost everyone above them. That game is Sunday at the Vitality, the last fixture of the round, and a win would land them level on nine with the clubs drawing the stripes.",
+    "Five games were played on Saturday and every one of them moved something, which is how a club that did not kick a ball spent the afternoon falling two places. Brighton beat Arsenal 3-0 at the Amex, Gross from twenty yards, Kostoulas from twenty-five and Chema Andres heading in a corner on his first Premier League start, ending the champions' perfect start and taking the Seagulls to third with the division's best goal difference and its most goals, sixteen. Everton beat Ipswich, Newcastle beat Hull to inflict a promoted side's first defeat, and two records fell together in the evening: Coventry, pointless and goalless through four, won 1-0 at Nottingham Forest to take their first points and score their first goal in the same afternoon, while Tottenham finally scored in the league and lost 3-2 to Aston Villa anyway. Liverpool are tenth on six, unbeaten, three points off both European lines with a game in hand on almost everyone above them. That game is Sunday at the Vitality, the last fixture of the round, and a win would land them level on nine with the clubs drawing the stripes.",
   teams: {
     "Liverpool": "Tenth on six and unbeaten, dropped two places on Saturday without playing, and three points off both the Champions League and Europa lines with a game in hand on every club between second and ninth bar Leeds. Bournemouth away on Sunday closes the round, and a win puts them level on nine with the sides in fourth and fifth.",
     "Manchester City": "Top on twelve, still perfect, and the only club in the division yet to drop a point. They come to Anfield on 11 October in the first fixture after the international break, which is a cruel way to restart a season.",
@@ -660,7 +660,7 @@ export const STANDINGS_COMMENTARY = {
     "Nott'm Forest": "Twelfth on five and beaten at home by a Coventry side that had not scored all season, which is the sort of afternoon that follows a manager around.",
     "Aston Villa": "Fifteenth on four with a first win of the season, 3-2 at Tottenham, ending a start that had them on course for a fourth winless opening five in the club's history.",
     "Bournemouth": "Sixteenth on three, the only side in the competition's history to have led all four of its opening fixtures and won none, and fresh from the first European win in the club's history on Thursday in San Sebastian. Iraola comes back on Sunday.",
-    "Coventry": "Eighteenth on three and off the mark at last, a 1-0 win at the City Ground ending a start of four defeats with no points and no goals. Still inside the relegation stripe, but no longer setting records in it.",
+    "Coventry": "Eighteenth on three and off the mark at last, a 1-0 win at the City Ground bringing their first points and their first goal of the season in the same afternoon, after four defeats with neither. Still inside the relegation stripe, but no longer setting records in it.",
     "Tottenham": "Nineteenth on two, and they scored, twice, for the first time in the league this season, and lost 3-2 to Villa anyway. Anfield beat them twice this month in two competitions.",
     "Fulham": "Bottom on one, the point earned at Anfield on 12 September still the only one they have, and they travel to Manchester United on Sunday.",
   },
@@ -717,7 +717,7 @@ export const DISPATCHES = [
 export const NEWS_DIGEST = {
   generatedAt: "2026-09-19T22:30:00Z",
   summary:
-    "Liverpool went to bed on Saturday two places lower than they woke up, having played nobody. Five Premier League games were completed while the squad travelled to Dorset, and the round rearranged itself overhead: Brighton took Arsenal apart 3-0 at the Amex to end the champions' perfect start, Everton and Newcastle won, and Coventry, four games without a point or a goal, won at Nottingham Forest on the same evening Tottenham finally scored in the league and lost anyway. Liverpool sit tenth on six, unbeaten, three points off both European lines, with a game in hand that is played at two o'clock on Sunday at the Vitality. The club also filled in its October on Saturday: Chelsea at Anfield in the Carabao Cup fourth round on Wednesday 28 October, and the Champions League trip to LASK in Linz on Wednesday 14 October. Nothing changed medically, Bradley, Chiesa, Ekitike and Leoni still the four out, and the only Liverpool body to go down all day was the under-21 right-back Isaac Mabaya, off inside five minutes at Kirkby in a 5-1 win.",
+    "Liverpool went to bed on Saturday two places lower than they woke up, having played nobody. Five Premier League games were completed while the squad travelled to Dorset, and the round rearranged itself overhead: Brighton took Arsenal apart 3-0 at the Amex to end the champions' perfect start, Everton and Newcastle won, and Coventry, four games without a point or a goal, won 1-0 at Nottingham Forest for their first points and first goal together, on the same evening Tottenham finally scored in the league and lost anyway. Liverpool sit tenth on six, unbeaten, three points off both European lines, with a game in hand that is played at two o'clock on Sunday at the Vitality. The club also filled in its October on Saturday: Chelsea at Anfield in the Carabao Cup fourth round on Wednesday 28 October, and the Champions League trip to LASK in Linz on Wednesday 14 October. Nothing changed medically, Bradley, Chiesa, Ekitike and Leoni still the four out, and the only Liverpool body to go down all day was the under-21 right-back Isaac Mabaya, off inside five minutes at Kirkby in a 5-1 win.",
   keyTopics: [
     {
       title:
@@ -739,13 +739,6 @@ export const NEWS_DIGEST = {
       detail:
         "The club confirmed two October dates on Saturday and between them they finish the shape of the autumn. The Carabao Cup fourth-round tie with Chelsea will be played at Anfield on Wednesday 28 October at 8pm, live on Sky Sports and ITV. Earlier in the month the Champions League takes Liverpool to LASK at the Raiffeisen Arena in Linz for a 5.45pm kick-off on Wednesday 14 October, with away ticket details published the same day. That slots between hosting Manchester City on the 11th and visiting Brentford on the 17th, which is three matches in six days to open the post-break schedule.",
       category: "general",
-    },
-    {
-      title:
-        "Opta Make It Liverpool At 44.2 Per Cent, And Bournemouth A Record Of Draws (Opta Analyst, today)",
-      detail:
-        "The supercomputer's read on Sunday, published with the matchday-five previews, gives Liverpool a 44.2 per cent chance, the draw 24.2 and Bournemouth 31.6. The supporting numbers are the interesting part. Bournemouth have lost fourteen of eighteen Premier League meetings with Liverpool, won three and drawn one, and every Liverpool defeat in the fixture has come away from home. They have also drawn thirteen of twenty-three league matches in calendar 2026, a ratio of 56.5 per cent, which Opta call the highest by any side in a single year in the history of the English top flight. The same model gave Arsenal 55.6 per cent at Brighton on Saturday.",
-      category: "matches",
     },
     {
       title:
@@ -788,6 +781,13 @@ export const NEWS_DIGEST = {
       detail:
         "Three league games unbeaten and the word attached to the manager is still pressure, which is a verdict on the summer rather than the football. Richard Hughes, the sporting director who hired Iraola, has gone, so the case for the appointment has to be made again to a successor who never staked anything on it. This Is Anfield add a second strand, that Hughes also handed Dominik Szoboszlai and Ryan Gravenberch new contracts before leaving, committing the club to an expensive midfield pair whose form has dipped under the new coach. None of it is an event. All of it is the frame Sunday will be read through.",
       category: "general",
+    },
+    {
+      title:
+        "Opta Make It Liverpool At 44.2 Per Cent, And Bournemouth A Record Of Draws (Opta Analyst, 2d ago)",
+      detail:
+        "The supercomputer's read on Sunday, published with the matchday-five previews on Thursday, gives Liverpool a 44.2 per cent chance, the draw 24.2 and Bournemouth 31.6. The supporting numbers are the interesting part. Bournemouth have lost fourteen of eighteen Premier League meetings with Liverpool, won three and drawn one, and every Liverpool defeat in the fixture has come away from home. They have also drawn thirteen of twenty-three league matches in calendar 2026, a ratio of 56.5 per cent, which Opta call the highest by any side in a single year in the history of the English top flight. The same model gave Arsenal 55.6 per cent at Brighton on Saturday.",
+      category: "matches",
     }
   ],
   sources: [
