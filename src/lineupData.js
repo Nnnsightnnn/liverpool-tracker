@@ -20,7 +20,7 @@ export const FORMATIONS = {
       RW:  { x: 82, y: 22, role: "FWD" },
     },
     // IDs from playerData.js. This 4-3-3 is the backup look; the default is the
-    // 4-2-3-1 below. Reviewed Fri Sep 18 (evening), after Andoni Iraola's 1.30pm press
+    // 4-2-3-1 below. Reviewed Sat Sep 19 (morning), after Andoni Iraola's 1.30pm press
     // conference: no new injuries ("everyone is ready to go"), the same four unavailable, and
     // a rest advantage he believes Liverpool hold because Bournemouth played in the Europa
     // League on Thursday night. Pointed at Bournemouth away, Sunday 20 September, 2pm,
@@ -65,7 +65,7 @@ export const FORMATIONS = {
     // Bournemouth away on Sunday 20 September, 2pm, Vitality Stadium (Tottenham beaten 3-1 in
     // the Carabao Cup at Anfield on Sep 15 with ten changes; Fulham drawn 0-0 on Sep 12;
     // Atletico beaten 2-1 on Sep 9; Ipswich beaten 2-0 away on Sep 4; Forest drawn 2-2 on
-    // Aug 29; Newcastle drawn 2-2 away on Aug 23). Reviewed Fri Sep 18 (evening), after the
+    // Aug 29; Newcastle drawn 2-2 away on Aug 23). Reviewed Sat Sep 19 (morning), after the
     // manager's press conference. Liverpool's own team-news page also published the full cup XI
     // on Friday, correcting what the passing networks had implied: Mamardashvili; Frimpong,
     // Araujo, Gomez, Kerkez; Nyoni, Mac Allister, Ngumoha, McConnell; Gakpo, Koumas. Frimpong
@@ -104,7 +104,7 @@ export const FORMATIONS = {
       RW:  { x: 78, y: 22, role: "FWD" },
     },
     // Hypothetical 3-4-3 alternative, a shape rarely used, shown for completeness.
-    // Reviewed Fri Sep 18 (evening), pointed at Bournemouth away on Sunday. This remains the
+    // Reviewed Sat Sep 19 (morning), pointed at Bournemouth away on Sunday. This remains the
     // shape that most directly answers the fixture's problem, because it removes the need for a
     // specialist right-back and lets Frimpong, who actually played the position in Tuesday's
     // cup tie per the club's published XI, attack the flank as a wing-back with a recognised
@@ -128,12 +128,12 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS + injuryNote context, reviewed Fri Sep 18 (evening), after Iraola's
+// Hand-curated from RESULTS + injuryNote context, reviewed Sat Sep 19 (morning), after Iraola's
 // press conference ("everyone is ready to go") and the club's publication of the full Tottenham
 // cup XI. Bradley, Chiesa, Ekitike and Leoni remain the four out. Pointed at Bournemouth away,
 // Sunday 20 September.
 export const PLAYER_EVIDENCE = {
-  1:  "Restored in goal for the league",      // Alisson
+  1:  "Back in goal at the Vitality",         // Alisson
   2:  "Took the cup · back to the bench",     // Mamardashvili
   3:  "One night off, then straight back",    // Van Dijk
   5:  "Next game is his 300th for the club",  // Gomez
@@ -156,9 +156,9 @@ export const PLAYER_EVIDENCE = {
   25: "Called up by Tuchel for England",      // Ngumoha
   26: "Aiming to train late September",       // Chiesa
   27: "Third of three · order unchanged",     // Woodman
-  28: "Picked this morning, dropped tonight", // Munoz
+  28: "Left out by the latest previews", // Munoz
   29: "Booked his own English lessons",       // Araujo
-  30: "Did not start the cup · right Sunday", // Barcola
+  30: "Right flank for tomorrow's league XI", // Barcola
   31: "Confirmed starter · cup player of the match", // Koumas
 };
 
@@ -177,7 +177,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // Sunday 20 September. Confidence rose across Friday, because the manager has now spoken and
 // two independent previews published afterwards name the same eleven. It is held short of
 // uniform High because three of those eleven changed between the morning and evening previews.
-// (Reviewed Fri Sep 18, evening, after the 1.30pm press conference.)
+// (Reviewed Sat Sep 19, morning, after the 1.30pm press conference.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",      // Alisson · rested for the cup, first choice in the league all season
   LB:  "Medium",    // Kerkez · restored post-presser, but this slot flipped once already today
@@ -194,21 +194,21 @@ export const SLOT_CONFIDENCE = {
 
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Fri Sep 18
-// (evening): every rationale carried against Andoni Iraola's 1.30pm press conference, the club's
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Sat Sep 19
+// (morning): every rationale carried against Andoni Iraola's 1.30pm press conference, the club's
 // publication of the full cup XI, and the two predicted XIs that followed. Sunday's league
 // fixture at Bournemouth remains the target.
 export const SLOT_RATIONALE = {
-  LB:   "Fri Sep 18, evening - the one slot on this pitch that changed sides during the day. Squawka's preview, written before the manager spoke, kept Tsimikas here; Sports Illustrated and Yahoo, published afterwards, restore Milos Kerkez and justify it in terms nobody would frame on a wall, that he is the only realistic starter at left-back this season regardless of form. The club's published cup XI confirms Kerkez started on Tuesday. Sunday returns him to the Vitality, and to the club Liverpool bought him from, which is its own small pressure on a player short of confidence.",
-  LCB:  "Fri Sep 18, evening - one night off in an entire season, and it is already over. Van Dijk was rested for the cup, where Araujo and Gomez took the middle between them, and both post-press-conference previews return him beside Jacquet at the Vitality. He is thirty-five and had played every league minute before Tuesday, a workload the reporting treats as squad arithmetic rather than a fitness question. Bournemouth attack with runners off the shoulder, Rayan and Evanilson, which asks more of his positioning than of his pace.",
-  RCB:  "Fri Sep 18, evening - still the least argued-about name on the sheet, and Friday added a compliment to the file. Sports Illustrated call Jeremy Jacquet ridiculously composed for a twenty-one-year-old in a new country. He came on at half-time for Gomez in a pre-planned change on Tuesday and starts again on Sunday, five days after the goal-line clearance from Gonzalo Garcia that Opta's own match report named as one of two things keeping Liverpool level at Fulham. Behind him the fourth and fifth centre-backs are a right-back and a man for sale in January.",
-  RB:   "Fri Sep 18, evening - the emergency is quietly becoming an arrangement, and the manager gave it away by talking about language. Iraola said on Friday he has been surprised by how quickly Ronald Araujo has absorbed the physical demands of full-back, and that his next target is English, so a back four can actually use the experience he brought from Barcelona. Read plainly, the slot is now his rather than a weekly improvisation. It is also the slot Bournemouth aim at: Kluivert scored on Thursday by arriving inside from exactly that flank. Frimpong played here in the cup; Bradley is out to late November.",
-  LDM:  "Fri Sep 18, evening - a volley from thirty yards is buying him a fortnight of selections. Szoboszlai came off the bench on Tuesday to settle the cup tie with a strike the Transfer Hub's shot map values at 0.03 expected goals, which is the numerical way of saying nobody else in the stadium was attempting it. Both evening previews put him in the pivot, Iraola named him among the four midfielders ahead of Wataru Endo, and Sports Illustrated want more of the same on the south coast. The Fulham criticism of this midfield has been drowned out rather than answered.",
-  RDM:  "Fri Sep 18, evening - the previews have stopped hedging about him, which took a month. Sports Illustrated's line is that Alexis Mac Allister simply must start after a goal and an assist in the cup, and that Liverpool had no control in midfield when Gravenberch was picked ahead of him at Fulham. He struck the opener against Tottenham from the edge of the box, the second such finish in three competitive games, and his manager named him among the four keeping Endo out of the side. Bournemouth force turnovers by design, which is the specific test of a passer in that position.",
-  LAM:  "Fri Sep 18, evening - the most productive forward of the autumn, moved back to the flank he started on. Cody Gakpo led the line in the cup with Isak rested and lashed in the second from a tight angle, taking him to two goals and three assists across five appearances, and the club's published XI confirms he began that night through the middle beside Koumas. Both post-presser previews return him to the left. He can play three positions in a squad with one senior centre-forward, which stopped being a convenience some weeks ago and became the plan.",
-  CAM:  "Fri Sep 18, evening - his manager was invited to rate him on Friday and declined to turn it into a verdict. Iraola said he rates Florian Wirtz very highly and judges him exactly as he judges every other player, which reads as reassurance or its absence depending on the week you are having. Five competitive games have produced no goal and no assist, and Opta's Fulham report has him putting two shots the wrong side of the near post. Both previews keep him here anyway, with Gakpo's evidence sitting on the bench behind him. Klopp's Germany squad awaits after the break.",
-  RAM:  "Fri Sep 18, evening - the flank changed hands twice in twelve hours. Squawka had Victor Munoz here this morning; Sports Illustrated and Yahoo, published after the press conference, give the right to Bradley Barcola and leave Munoz out. The club's own cup team sheet, also published Friday, shows Barcola did not start that night at all, correcting three days of reconstruction from passing maps. Iraola's framing on all of it was cheerful: most weeks all four wide forwards play, and he called having them 'a luxury'.",
-  ST:   "Fri Sep 18, evening - he spent the week explaining himself and then got his place back. Alexander Isak told BBC Sport he has no regrets about the British-record move despite three league goals and a leg break that took December to April, and that promises made to him at Newcastle had been broken. He returns through the middle after one night off, with four goal contributions in six matches this season. The recurring number remains sixteen touches against Fulham, the second fewest by a Liverpool outfielder on record per the BBC, which describes the service rather than the finishing.",
+  LB:   "Sat Sep 19, morning - the one slot on this pitch that changed sides during the day. Squawka's preview, written before the manager spoke, kept Tsimikas here; Sports Illustrated and Yahoo, published afterwards, restore Milos Kerkez and justify it in terms nobody would frame on a wall, that he is the only realistic starter at left-back this season regardless of form. The club's published cup XI confirms Kerkez started on Tuesday. Sunday returns him to the Vitality, and to the club Liverpool bought him from, which is its own small pressure on a player short of confidence.",
+  LCB:  "Sat Sep 19, morning - one night off in an entire season, and it is already over. Van Dijk was rested for the cup, where Araujo and Gomez took the middle between them, and both post-press-conference previews return him beside Jacquet at the Vitality. He is thirty-five and had played every league minute before Tuesday, a workload the reporting treats as squad arithmetic rather than a fitness question. Bournemouth attack with runners off the shoulder, Rayan and Evanilson, which asks more of his positioning than of his pace.",
+  RCB:  "Sat Sep 19, morning - still the least argued-about name on the sheet, and Friday added a compliment to the file. Sports Illustrated call Jeremy Jacquet ridiculously composed for a twenty-one-year-old in a new country. He came on at half-time for Gomez in a pre-planned change on Tuesday and starts again on Sunday, five days after the goal-line clearance from Gonzalo Garcia that Opta's own match report named as one of two things keeping Liverpool level at Fulham. Behind him the fourth and fifth centre-backs are a right-back and a man for sale in January.",
+  RB:   "Sat Sep 19, morning - the emergency is quietly becoming an arrangement, and the manager gave it away by talking about language. Iraola said on Friday he has been surprised by how quickly Ronald Araujo has absorbed the physical demands of full-back, and that his next target is English, so a back four can actually use the experience he brought from Barcelona. Read plainly, the slot is now his rather than a weekly improvisation. It is also the slot Bournemouth aim at: Kluivert scored on Thursday by arriving inside from exactly that flank. Frimpong played here in the cup; Bradley is out to late November.",
+  LDM:  "Sat Sep 19, morning - a volley from thirty yards is buying him a fortnight of selections. Szoboszlai came off the bench on Tuesday to settle the cup tie with a strike the Transfer Hub's shot map values at 0.03 expected goals, which is the numerical way of saying nobody else in the stadium was attempting it. Both evening previews put him in the pivot, Iraola named him among the four midfielders ahead of Wataru Endo, and Sports Illustrated want more of the same on the south coast. The Fulham criticism of this midfield has been drowned out rather than answered.",
+  RDM:  "Sat Sep 19, morning - the previews have stopped hedging about him, which took a month. Sports Illustrated's line is that Alexis Mac Allister simply must start after a goal and an assist in the cup, and that Liverpool had no control in midfield when Gravenberch was picked ahead of him at Fulham. He struck the opener against Tottenham from the edge of the box, the second such finish in three competitive games, and his manager named him among the four keeping Endo out of the side. Bournemouth force turnovers by design, which is the specific test of a passer in that position.",
+  LAM:  "Sat Sep 19, morning - the most productive forward of the autumn, moved back to the flank he started on. Cody Gakpo led the line in the cup with Isak rested and lashed in the second from a tight angle, taking him to two goals and three assists across five appearances, and the club's published XI confirms he began that night through the middle beside Koumas. Both post-presser previews return him to the left. He can play three positions in a squad with one senior centre-forward, which stopped being a convenience some weeks ago and became the plan.",
+  CAM:  "Sat Sep 19, morning - his manager was invited to rate him on Friday and declined to turn it into a verdict. Iraola said he rates Florian Wirtz very highly and judges him exactly as he judges every other player, which reads as reassurance or its absence depending on the week you are having. Five competitive games have produced no goal and no assist, and Opta's Fulham report has him putting two shots the wrong side of the near post. Both previews keep him here anyway, with Gakpo's evidence sitting on the bench behind him. Klopp's Germany squad awaits after the break.",
+  RAM:  "Sat Sep 19, morning - the flank changed hands twice in twelve hours. Squawka had Victor Munoz here this morning; Sports Illustrated and Yahoo, published after the press conference, give the right to Bradley Barcola and leave Munoz out. The club's own cup team sheet, also published Friday, shows Barcola did not start that night at all, correcting three days of reconstruction from passing maps. Iraola's framing on all of it was cheerful: most weeks all four wide forwards play, and he called having them 'a luxury'.",
+  ST:   "Sat Sep 19, morning - he spent the week explaining himself and then got his place back. Alexander Isak told BBC Sport he has no regrets about the British-record move despite three league goals and a leg break that took December to April, and that promises made to him at Newcastle had been broken. He returns through the middle after one night off, with four goal contributions in six matches this season. The recurring number remains sixteen touches against Fulham, the second fewest by a Liverpool outfielder on record per the BBC, which describes the service rather than the finishing.",
 };
 
 
@@ -235,6 +235,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-09-18T22:30:00Z",
-  reason: "Fri Sep 18, evening, two days before the league and a few hours after the manager finally spoke. This draw looks forward to Bournemouth away on Sunday 20 September, 2pm at the Vitality Stadium, live on Sky Sports Main Event, and to Andoni Iraola's first return to the club he managed for three years and left in June. Confidence holds at Medium, but for a different reason than this morning. The team news is now as clear as it gets: asked whether he had any fresh issues, Iraola said 'No, everyone is ready to go. We are in the same place we were, with the three long-term injuries plus Federico, and the others, nothing.' Two previews published after the press conference, at Sports Illustrated and Yahoo, name the same eleven: Alisson; Araujo, Van Dijk, Jacquet, Kerkez; Szoboszlai, Mac Allister; Barcola, Wirtz, Gakpo; Isak. What holds this short of High is that three of those eleven changed between the morning previews and the evening ones, at left-back, in the pivot and on the right wing, which is a lot of movement inside one news cycle. Liverpool also published Tuesday's full cup XI on Friday, correcting the record this file carried: Mamardashvili; Frimpong, Araujo, Gomez, Kerkez; Nyoni, Mac Allister, Ngumoha, McConnell; Gakpo, Koumas. Frimpong played right-back, Araujo the whole ninety inside, and Barcola did not start at all. Out: Bradley (knee, ~21 Nov, now doing individual ball work), Ekitike (Achilles, January at the earliest), Leoni (ACL, due to rejoin group training in the break) and Chiesa (aiming to resume training at the end of September). Rio Ngumoha was named in Thomas Tuchel's England squad on Friday morning, the only Liverpool player selected, and is available on Sunday before he travels. Bournemouth are fifteenth and winless in the league under Marco Rose, the first side in Premier League history to lead each of its opening four fixtures without winning any, but they beat Real Sociedad 2-1 away on Thursday in the first European tie in the club's history, with a full-strength side, which is why Iraola believes the fresher team on Sunday is his.",
+  generated_at: "2026-09-19T08:30:00Z",
+  reason: "Sat Sep 19, morning, a day before the league and on the eve of Andoni Iraola's first return to the club he managed for three years and left in June. This draw looks forward to Bournemouth away on Sunday 20 September, 2pm at the Vitality Stadium, live on Sky Sports Main Event. Confidence holds at Medium. The team news is as settled as it gets: asked whether he had any fresh issues, Iraola said 'No, everyone is ready to go. We are in the same place we were, with the three long-term injuries plus Federico, and the others, nothing.' Two previews published after the press conference, at Sports Illustrated and Yahoo, name the same eleven: Alisson; Araujo, Van Dijk, Jacquet, Kerkez; Szoboszlai, Mac Allister; Barcola, Wirtz, Gakpo; Isak. What holds this short of High is that three of those eleven changed between the morning previews and the evening ones, at left-back, in the pivot and on the right wing, which is a lot of movement inside one news cycle. Liverpool also published Tuesday's full cup XI on Friday, correcting the record this file carried: Mamardashvili; Frimpong, Araujo, Gomez, Kerkez; Nyoni, Mac Allister, Ngumoha, McConnell; Gakpo, Koumas. Frimpong played right-back, Araujo the whole ninety inside, and Barcola did not start at all. Out: Bradley (knee, ~21 Nov, now doing individual ball work), Ekitike (Achilles, January at the earliest), Leoni (ACL, due to rejoin group training in the break) and Chiesa (aiming to resume training at the end of September). Rio Ngumoha was named in Thomas Tuchel's England squad on Friday morning, the only Liverpool player selected, and is available on Sunday before he travels. Bournemouth are fifteenth and winless in the league under Marco Rose, the first side in Premier League history to lead each of its opening four fixtures without winning any, but they beat Real Sociedad 2-1 away on Thursday in the first European tie in the club's history, with a full-strength side, which is why Iraola believes the fresher team on Sunday is his.",
 };

@@ -484,11 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          England called on Friday morning, and the boy the club is hurrying to
-          re-sign answered. Rio Ngumoha, eighteen, is in Tuchel's squad, the only
-          Liverpool name in it. By half past one his manager was calling it
-          deserved and promising to be ruthless at the ground he used to run.
-          Two days to Bournemouth, everyone fit, nothing else to hide behind.
+          Saturday, and the team bus points south. Tomorrow Andoni Iraola goes
+          back to Bournemouth, the club he took into Europe and left in June,
+          with Liverpool eighth and unbeaten but drawn three times in four.
+          Everyone bar the four long-term absentees is fit. It is the last soft
+          afternoon before City, Brentford, Brighton and Arsenal arrive in a rush.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,34 +519,35 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the eighteen-year-old this club has spent a fortnight trying to tie
-              down is an England international with a plane to catch. Thomas
-              Tuchel named Rio Ngumoha in his squad on Friday morning, the only
-              Liverpool player in it, for four Nations League games beginning with
-              Spain. Andoni Iraola, asked about it hours later, said the boy
-              absolutely deserves it, then described the temperament that got him
-              there: he does not say where he would prefer to play, he asks what
-              the team needs. The same press conference held the calmest fitness
-              answer of the season, no, everyone is ready to go, and the least
-              sentimental homecoming line available, that Bournemouth are to be
-              beaten as ruthlessly as possible and the talking can wait. A club
-              trying to keep a teenager has just watched his price go up.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and the fixture that has sat circled on the calendar since June is a
+              day away. Andoni Iraola takes Liverpool to the Vitality Stadium
+              tomorrow afternoon, back to the club he carried into Europe and
+              walked away from in the summer, and he has spent the build-up
+              insisting the hug and the result are separate errands. He knows their
+              strengths and their weaknesses, he says, because he built most of
+              both. Liverpool arrive eighth and unbeaten, three draws in four, with
+              the last kind afternoon on the schedule before City, Brentford,
+              Brighton and Arsenal come in a fortnight's rush. The team news is the
+              calmest it has been all season, everyone fit but the four who have
+              been out for weeks. And around the manager, three games in and
+              unbeaten, the word that will not leave is pressure. A homecoming is
+              supposed to be the easy part.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a squad
-              list read out in London; a club that was minus seventeen points in
-              the fourth tier winning in San Sebastian; a team sheet everybody
-              reconstructed and nobody got right until the club simply printed
-              it; and a centre-half booking English lessons so a back four can
-              hear him. Read them in order. The season opened with draws at
+              dispatches from the writers who never clock off. There is a manager
+              on the eve of a homecoming he keeps trying to talk down; a club that
+              was minus seventeen points in the fourth tier arriving fresh from a
+              first European win; a run-in that turns cruel the moment this weekend
+              ends; and a teenager packing for England with his own contract still
+              unsigned. Read them in order. The season opened with draws at
               Newcastle and Anfield, a first win at Ipswich, a first European
-              night, a goalless Saturday, and a cup night that produced three;
-              the market is shut until January, save for the men no one owns.
+              night, a goalless afternoon against Fulham, and a cup night that
+              produced three; the market is shut until January, save for the men no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3756,7 +3757,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Ask what the team needs."
+        "He built them. Now he must beat them."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
