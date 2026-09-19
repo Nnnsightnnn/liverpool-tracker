@@ -484,11 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday, and the team bus points south. Tomorrow Andoni Iraola goes
-          back to Bournemouth, the club he took into Europe and left in June,
-          with Liverpool eighth and unbeaten but drawn three times in four.
-          Everyone bar the four long-term absentees is fit. It is the last soft
-          afternoon before City, Brentford, Brighton and Arsenal arrive in a rush.
+          Saturday evening, and a club that played nobody has lost two places.
+          Five results rearranged the round overhead, Brighton taking the
+          champions apart on the way, and Liverpool go to bed tenth, unbeaten,
+          three points from Europe with a game in hand. It is played tomorrow
+          at two o'clock, at Bournemouth, where the manager used to work.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,35 +519,33 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and the fixture that has sat circled on the calendar since June is a
-              day away. Andoni Iraola takes Liverpool to the Vitality Stadium
-              tomorrow afternoon, back to the club he carried into Europe and
-              walked away from in the summer, and he has spent the build-up
-              insisting the hug and the result are separate errands. He knows their
-              strengths and their weaknesses, he says, because he built most of
-              both. Liverpool arrive eighth and unbeaten, three draws in four, with
-              the last kind afternoon on the schedule before City, Brentford,
-              Brighton and Arsenal come in a fortnight's rush. The team news is the
-              calmest it has been all season, everyone fit but the four who have
-              been out for weeks. And around the manager, three games in and
-              unbeaten, the word that will not leave is pressure. A homecoming is
-              supposed to be the easy part.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              a squad in a hotel in Dorset can watch the league move without them.
+              Five games were played on Saturday and every one of them shifted
+              something: Brighton dismantled Arsenal 3-0 to end the champions'
+              perfect start, Everton and Newcastle won, Coventry took their first
+              point of the season and their first goals with it, and Tottenham
+              finally scored and lost anyway. Liverpool, who trained and travelled,
+              are tenth rather than eighth, unbeaten still, three points short of
+              both European lines. The game in hand is tomorrow at two, at the
+              Vitality, where Andoni Iraola worked for three years and will be
+              welcomed before he is judged. The consolation of a game in hand is
+              that you eventually have to play it.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a manager
-              on the eve of a homecoming he keeps trying to talk down; a club that
-              was minus seventeen points in the fourth tier arriving fresh from a
-              first European win; a run-in that turns cruel the moment this weekend
-              ends; and a teenager packing for England with his own contract still
-              unsigned. Read them in order. The season opened with draws at
-              Newcastle and Anfield, a first win at Ipswich, a first European
-              night, a goalless afternoon against Fulham, and a cup night that
-              produced three; the market is shut until January, save for the men no one owns.
+              dispatches from the writers who never clock off. There is a table
+              that moved while nobody from Liverpool was on a pitch; a champion
+              side taken apart by the club Anfield hosts in October; two fixture
+              dates confirmed that finish the shape of the autumn; a manager
+              talking about a loanee like a man who found money in a coat; and a
+              young right-back down inside five minutes at Kirkby. Read them in
+              order. The season opened with draws at Newcastle and Anfield, a first
+              win at Ipswich, a first European night, a goalless afternoon against
+              Fulham, and a cup night that produced three; the market is shut until January, save for the men no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3757,7 +3755,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "He built them. Now he must beat them."
+        "A game in hand is only a promise."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
