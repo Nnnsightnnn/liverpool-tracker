@@ -484,11 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday evening, and a club that played nobody has lost two places.
-          Five results rearranged the round overhead, Brighton taking the
-          champions apart on the way, and Liverpool go to bed tenth, unbeaten,
-          three points from Europe with a game in hand. It is played tomorrow
-          at two o'clock, at Bournemouth, where the manager used to work.
+          Sunday, and the game in hand is a game at last. Liverpool go to the
+          Vitality this afternoon tenth and unbeaten, three points from Europe,
+          for Andoni Iraola's first return to the club he managed and left in the
+          summer. The one doubt is Cody Gakpo, sore and unpromised; everything
+          else, the manager says, is ready.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,33 +519,33 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              a squad in a hotel in Dorset can watch the league move without them.
-              Five games were played on Saturday and every one of them shifted
-              something: Brighton dismantled Arsenal 3-0 to end the champions'
-              perfect start, Everton and Newcastle won, Coventry won at Forest for
-              their first points and first goal of the season, and Tottenham
-              finally scored and lost anyway. Liverpool, who trained and travelled,
-              are tenth rather than eighth, unbeaten still, three points short of
-              both European lines. The game in hand is tomorrow at two, at the
-              Vitality, where Andoni Iraola worked for three years and will be
-              welcomed before he is judged. The consolation of a game in hand is
-              that you eventually have to play it.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and the fixture Liverpool have carried as a cushion all week becomes,
+              at two o'clock, simply a fixture. They go to the Vitality tenth and
+              unbeaten, three points from both European lines, for Andoni Iraola's
+              first return to the club he took into Europe and left in June,
+              welcomed before he is judged. The team news arrives with a single
+              question on it: Cody Gakpo, the most productive forward of the autumn,
+              did not train on Saturday with sore adductors, and his manager would
+              not promise him. The rested seniors come back, Isak and Wirtz and
+              Barcola and the captain among them, and Rio Ngumoha waits on the left
+              in case a warm-up goes wrong, hours before he reports to England. The
+              consolation of a game in hand is that, eventually, you have to play it.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a table
-              that moved while nobody from Liverpool was on a pitch; a champion
-              side taken apart by the club Anfield hosts in October; two fixture
-              dates confirmed that finish the shape of the autumn; a manager
-              talking about a loanee like a man who found money in a coat; and a
-              young right-back down inside five minutes at Kirkby. Read them in
-              order. The season opened with draws at Newcastle and Anfield, a first
-              win at Ipswich, a first European night, a goalless afternoon against
-              Fulham, and a cup night that produced three; the market is shut until January, save for the men no one owns.
+              dispatches from the writers who never clock off. There is a manager
+              going home to Dorset in the wrong colours; a doubt over the one
+              forward Liverpool could least afford to lose; ten cup changes folding
+              back into a league side; a winless Bournemouth arriving off the first
+              European win in their history; and an eighteen-year-old reporting to
+              England the moment the whistle goes. Read them in order. The season
+              opened with draws at Newcastle and Anfield, a first win at Ipswich, a
+              first European night, a goalless afternoon against Fulham, and a cup
+              night that produced three; the market is shut until January, save for the men no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3755,7 +3755,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A game in hand is only a promise."
+        "A homecoming is still an away game."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
