@@ -64,3 +64,19 @@ the **same commit as the fix**. Two tests before adding:
 2. **Is the regex narrow enough to be wrong only when the claim is wrong?**
    Prefer anchoring on the specific false assertion
    (`bottom on goal difference`) over the subject (`Tottenham`).
+
+## 2026-09-20 (evening) — a goal tally has a competition attached to it
+
+**forbid:** stating that Alexander Isak's 2026-27 goal count has "surpassed"/"beaten"/"passed" *last season* without naming the competition.
+
+The Opta fact is narrower than the sentence it usually becomes: in five games (four goals) Isak has surpassed his **Premier League** tally for the entirety of last season (three goals in fourteen apps). Across **all competitions** he scored four last term, so today's fourth *equals* rather than beats it, which is exactly how Last Word on Football phrased it. The evening edition dropped the qualifier in nine places at once, including a DISPATCH headline, because the shortened version reads better.
+
+**General lesson:** a "more than all of last season" claim is only true inside the competition the source measured. Carry the competition through to every surface, or do not make the comparison.
+
+## 2026-09-20 (evening) — player ages drift, and the prose notices before the data does
+
+**forbid:** a `PLAYERS[].age` value that contradicts the age written in this repo's own prose for the same player.
+
+Jeremy Jacquet was born 13 July 2005. He was twenty at signing, which is the age Sky Sports used in the transfer reports the field was populated from, and he turned twenty-one in July 2026. The DISPATCHES card, the App.jsx editor's letter, FORM_TRENDS and SLOT_RATIONALE all correctly said twenty-one this edition while `PLAYERS[].age` still said 20 in both data files.
+
+**General lesson:** this is the Nyoni rule again (see above). An age is a fact with a birthday in it, and a birthday that has passed since a transfer window invalidates the number copied out of the announcement. When the prose and the field disagree, the field is usually the stale one. Check both data files.

@@ -541,7 +541,7 @@ function CoverView({ onJump }) {
               Inside, the squad as a roster, the standings live again, and five
               dispatches from the writers who never clock off. There is a goal
               worth one touch and three points; a record signing who has already
-              beaten his whole of last season; a twenty-one-year-old centre-half
+              beaten his whole of last league season; a twenty-one-year-old centre-half
               collecting his manager's warmest words; a goalkeeper reaching down
               on eighteen minutes to keep an afternoon alive; and three weeks of
               nothing, followed by Manchester City. Read them in order. The season

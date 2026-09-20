@@ -40,7 +40,7 @@ export const FORMATIONS = {
       CM: 15,   // Szoboszlai (two free-kicks narrowly wide, booked after the interval)
       RCM: 18,  // Wirtz (a 5, the lowest Liverpool rating; part of the goal without touching it cleanly)
       LW: 30,   // Barcola (played the left at the Vitality; Adam Smith largely contained him)
-      ST: 23,   // Isak (scored the winner on 57; four in five, more than all of last season)
+      ST: 23,   // Isak (scored the winner on 57; four league goals in five, past all of last league season)
       RW: 22,   // Gakpo (took the RIGHT this afternoon and made the goal from it)
     },
   },
@@ -82,7 +82,7 @@ export const FORMATIONS = {
       LAM: 30,  // Barcola (played the LEFT at the Vitality, against every preview)
       CAM: 18,  // Wirtz (a 5; six competitive games without a goal or an assist)
       RAM: 22,  // Gakpo (the RIGHT, three chances created, and the ball that became the goal)
-      ST: 23,   // Isak (scored on 57; four in five, already past all of last season)
+      ST: 23,   // Isak (scored on 57; four league goals in five, past all of last league season)
     },
   },
 
@@ -108,7 +108,7 @@ export const FORMATIONS = {
     // so the improvisation is now producing results rather than anxiety. It still removes the
     // need for a specialist right-back and lets Frimpong, who played the position in the cup,
     // attack the flank with a recognised centre-half inside him, which is the answer to Antoine
-    // Semenyo if one is wanted. Gomez takes the third centre-back slot; his next appearance in
+    // Semenyo, who attacks that side for Manchester City, if one is wanted. Gomez takes the third centre-back slot; his next appearance in
     // any shape is his 300th for the club. Default is the 4-2-3-1 above.
     defaultXI: {
       GK: 1,    // Alisson (restored for the league)
@@ -118,7 +118,7 @@ export const FORMATIONS = {
       LWB: 7,   // Kerkez (the evening previews' left-back, and the attacking option here)
       LCM: 13,  // Mac Allister (a goal and an assist in the cup · the midfielder nobody drops)
       RCM: 15,  // Szoboszlai (the other half of the previews' pivot)
-      RWB: 9,   // Frimpong (RWB · the shape that uses him properly against Kluivert)
+      RWB: 9,   // Frimpong (RWB · the shape that uses him properly against Semenyo)
       LW: 30,   // Barcola (left · the flank he actually took at the Vitality)
       ST: 23,   // Isak (the senior nine, and the only scorer this afternoon)
       RW: 22,   // Gakpo (right · where he created the goal)
@@ -209,7 +209,7 @@ export const SLOT_RATIONALE = {
   LAM:  "Sun Sep 20, evening - the flank every preview assigned to Gakpo went to Bradley Barcola, and a thirty-five-year-old largely closed it. Barcola cut inside from the left in the first half and forced Djordje Petrovic into a save with his legs from a deflected low curler, and was otherwise contained by Adam Smith on the veteran's 431st Bournemouth appearance. A six, with the standing caveat: it is still early days and Liverpool want more from their marquee summer signing. Munoz replaced him on seventy-two.",
   CAM:  "Sun Sep 20, evening - the lowest Liverpool rating on the sheet, and a hand in the goal he will take regardless. The BBC's verdict on Florian Wirtz was another day when the German struggled, though he deserves credit for playing a part: Gakpo's ball arrived, Wirtz reached for it under pressure from James Hill, and the block looped kindly for Isak. A five, and six competitive games now without a goal or an assist. He was withdrawn for Nyoni on seventy-two and reports to Germany for the break.",
   RAM:  "Sun Sep 20, evening - a doubt at breakfast, on the wrong wing by lunchtime, and decisive by teatime. Cody Gakpo passed a warm-up fitness test on two sore adductors, started on the right rather than the left, and on fifty-seven minutes went past Adrien Truffert and delivered the ball that became the winner. Opta: two shots, a joint-team-high three chances created, nine of sixteen duels won. Squawka: 57 per cent of Isak's Liverpool league goals have now been assisted by him. A seven, and the Netherlands next.",
-  ST:   "Sun Sep 20, evening - an hour of nothing, and then the one thing the position exists for. Isak ballooned a long-range effort into the stands and misjudged a cross before arriving where the blocked ball fell and turning it in from close range. Four goals in five league games, already more than the three he managed in fourteen appearances across the whole of last season, and only Erling Haaland has more in the division. The BBC's line is the one a striker would pick: in the right place at the right time, and no mistake with the finish.",
+  ST:   "Sun Sep 20, evening - an hour of nothing, and then the one thing the position exists for. Isak ballooned a long-range effort into the stands and misjudged a cross before arriving where the blocked ball fell and turning it in from close range. Four goals in five league games, already more than the three he managed in fourteen Premier League appearances across the whole of last season, and only Erling Haaland has more in the division. The BBC's line is the one a striker would pick: in the right place at the right time, and no mistake with the finish.",
 };
 
 
