@@ -176,11 +176,11 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // slot keys. These read as confidence that the slot's occupant STARTS AT BOURNEMOUTH on
 // Sunday 20 September. Confidence rose across Friday, because the manager has now spoken and
 // two independent previews published afterwards name the same eleven. It is held short of
-// uniform High because three of those eleven changed between the morning and evening previews.
-// (Reviewed Sun Sep 20, evening. Saturday added one complication: Last Word on Football's
-// lunchtime preview names Munoz on the right and Gravenberch in the pivot, disagreeing with the
-// two post-press-conference XIs this draw follows. No new information sits behind the change,
-// so the XI holds and the affected slots keep their lower confidence.)
+// uniform High, and on matchday morning the reason it cannot rise is a fitness doubt rather than a
+// preview disagreement. (Reviewed Sun Sep 20, morning. Cody Gakpo did not train on Saturday with
+// sore adductors and Iraola would not guarantee him, so the LAM slot drops to Low with Ngumoha the
+// ready replacement; the rest of the eleven is the Sunday consensus at Sports Illustrated, Yahoo and
+// The Hard Tackle, and the slots that changed between previews last week keep their lower confidence.)
 export const SLOT_CONFIDENCE = {
   GK:  "High",      // Alisson · rested for the cup, first choice in the league all season
   LB:  "Medium",    // Kerkez · restored post-presser, but this slot flipped once already today
@@ -198,9 +198,9 @@ export const SLOT_CONFIDENCE = {
 
 // ─── Per-slot rationale ─────────────────────────────────────────────────────
 // The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Sun Sep 20
-// (evening): carried against Iraola's Friday press conference, the club's publication of the full
-// cup XI, the two predicted XIs that followed, and Saturday's dissenting preview from Last Word on
-// Football. Tomorrow's league fixture at Bournemouth remains the target.
+// (morning): carried against Iraola's Friday press conference, the Sunday predicted XIs at Sports
+// Illustrated, Yahoo and The Hard Tackle, and Saturday's news of Gakpo's adductor doubt. Today's
+// league fixture at Bournemouth, 2pm at the Vitality, is the target.
 export const SLOT_RATIONALE = {
   LB:   "Sun Sep 20, morning - the slot that changed sides inside a single Friday, and has not changed back. Squawka's preview, written before the manager spoke, kept Tsimikas here; Sports Illustrated and Yahoo, published afterwards, restore Milos Kerkez and justify it in terms nobody would frame on a wall, that he is the only realistic starter at left-back this season regardless of form. The club's published cup XI confirms Kerkez started on Tuesday. Sunday returns him to the Vitality, and to the club Liverpool bought him from, which is its own small pressure on a player short of confidence.",
   LCB:  "Sun Sep 20, morning - one night off across an entire season, and the captain is back for the league this afternoon. Van Dijk was rested for the cup, where Araujo and Gomez took the middle between them, and both post-press-conference previews return him beside Jacquet at the Vitality. He is thirty-five and had played every league minute before Tuesday, a workload the reporting treats as squad arithmetic rather than a fitness question. Bournemouth attack with runners off the shoulder, Rayan and Evanilson, which asks more of his positioning than of his pace.",
