@@ -484,11 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday, and the game in hand is a game at last. Liverpool go to the
-          Vitality this afternoon tenth and unbeaten, three points from Europe,
-          for Andoni Iraola's first return to the club he managed and left in the
-          summer. The one doubt is Cody Gakpo, sore and unpromised; everything
-          else, the manager says, is ready.
+          Isak, on fifty-seven minutes, from six yards, and the homecoming is
+          settled. Liverpool won 1-0 at the Vitality this afternoon, a third
+          clean sheet in a row and a rise from tenth to sixth, and the season
+          now stops for three weeks. It restarts on the eleventh of October
+          against the only team in England yet to drop a point.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,33 +519,35 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and the fixture Liverpool have carried as a cushion all week becomes,
-              at two o'clock, simply a fixture. They go to the Vitality tenth and
-              unbeaten, three points from both European lines, for Andoni Iraola's
-              first return to the club he took into Europe and left in June,
-              welcomed before he is judged. The team news arrives with a single
-              question on it: Cody Gakpo, the most productive forward of the autumn,
-              did not train on Saturday with sore adductors, and his manager would
-              not promise him. The rested seniors come back, Isak and Wirtz and
-              Barcola and the captain among them, and Rio Ngumoha waits on the left
-              in case a warm-up goes wrong, hours before he reports to England. The
-              consolation of a game in hand is that, eventually, you have to play it.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              Andoni Iraola is the first man to go unbeaten in his opening five
+              league games as Liverpool manager since Joe Fagan in 1983, and he
+              spent the afternoon saying he was disappointed with the first
+              twenty-five minutes of it. Both things are true. Bournemouth were
+              beaten 1-0 on a ground where they had led every league game they
+              had played, by a blocked cross that fell to Alexander Isak, who had
+              been close to invisible until it did. Cody Gakpo, a doubt at
+              breakfast with two sore adductors, passed a warm-up, switched
+              flanks, and made the goal. Jeremy Jacquet, twenty-one and called up
+              by France this week, was the best player on the pitch. Liverpool go
+              into the international break sixth, level on points with fourth,
+              and outside Europe by a single goal. A team can be unconvincing and
+              unbeaten at the same time; the table only records one of them.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a manager
-              going home to Dorset in the wrong colours; a doubt over the one
-              forward Liverpool could least afford to lose; ten cup changes folding
-              back into a league side; a winless Bournemouth arriving off the first
-              European win in their history; and an eighteen-year-old reporting to
-              England the moment the whistle goes. Read them in order. The season
-              opened with draws at Newcastle and Anfield, a first win at Ipswich, a
-              first European night, a goalless afternoon against Fulham, and a cup
-              night that produced three; the market is shut until January, save for the men no one owns.
+              dispatches from the writers who never clock off. There is a goal
+              worth one touch and three points; a record signing who has already
+              beaten his whole of last season; a twenty-one-year-old centre-half
+              collecting his manager's warmest words; a goalkeeper reaching down
+              on eighteen minutes to keep an afternoon alive; and three weeks of
+              nothing, followed by Manchester City. Read them in order. The season
+              has produced draws at Newcastle and Anfield, wins at Ipswich and
+              Bournemouth, a European night, a goalless afternoon against Fulham
+              and a cup tie that gave up three; the market is shut until January, save for the men no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3755,7 +3757,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A homecoming is still an away game."
+        "One touch. Three points. Three weeks."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
