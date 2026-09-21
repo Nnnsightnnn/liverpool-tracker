@@ -484,11 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Isak, on fifty-seven minutes, from six yards, and the homecoming is
-          settled. Liverpool won 1-0 at the Vitality this afternoon, a third
-          clean sheet in a row and a rise from tenth to sixth, and the season
-          now stops for three weeks. It restarts on the eleventh of October
-          against the only team in England yet to drop a point.
+          The season pauses for three weeks, and Andoni Iraola will spend it
+          working. While the internationals scatter, the manager keeps a small
+          group at the AXA and builds the fortnight around two returns, Giovanni
+          Leoni and Federico Chiesa back in training, before the football
+          resumes on the eleventh of October against the only team in England
+          yet to drop a point.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,33 +520,34 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              Andoni Iraola is the first man to go unbeaten in his opening five
-              league games as Liverpool manager since Joe Fagan in 1983, and he
-              spent the afternoon saying he was disappointed with the first
-              twenty-five minutes of it. Both things are true. Bournemouth were
-              beaten 1-0 on a ground where they had led every league game they
-              had played, by a blocked cross that fell to Alexander Isak, who had
-              been close to invisible until it did. Cody Gakpo, a doubt at
-              breakfast with two sore adductors, passed a warm-up, switched
-              flanks, and made the goal. Jeremy Jacquet, twenty-one and called up
-              by France this week, was the best player on the pitch. Liverpool go
-              into the international break sixth, level on points with fourth,
-              and outside Europe by a single goal. A team can be unconvincing and
-              unbeaten at the same time; the table only records one of them.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and for the first time since August the calendar gives Liverpool
+              nothing to do. The Premier League has stopped for three weeks, most
+              of the squad has gone to its national teams, and Andoni Iraola,
+              unbeaten in his first five league games and unconvinced by most of
+              them, has decided the break is not a holiday but a rehearsal,
+              keeping a small group at the AXA to work on a start he keeps calling
+              untidy. The two names that matter are the ones walking back in:
+              Giovanni Leoni, a year on from the knee, and Federico Chiesa, due
+              back on the grass by month's end. Alexander Isak turns twenty-six
+              today, away with Sweden, four league goals into the argument he was
+              signed to win. Jeremy Jacquet has gone to France for the first
+              time. When the football returns it returns hard, Manchester City
+              first, perfect and three clear. A team can rest and brace at the
+              same time; this fortnight it does both.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a goal
-              worth one touch and three points; a record signing who has already
-              beaten his whole of last league season; a twenty-one-year-old centre-half
-              collecting his manager's warmest words; a goalkeeper reaching down
-              on eighteen minutes to keep an afternoon alive; and three weeks of
-              nothing, followed by Manchester City. Read them in order. The season
-              has produced draws at Newcastle and Anfield, wins at Ipswich and
+              dispatches from the writers who never clock off. There is a manager
+              who will not take the three weeks off; a defender back in training a
+              year after the knee; a striker turning twenty-six with the fee
+              starting to look right; a squad scattering to its nations while a
+              Frenchman leaves for the champions; and a fixture list waiting on
+              the far side that is not kind. Read them in order. The season has
+              produced draws at Newcastle and Anfield, wins at Ipswich and
               Bournemouth, a European night, a goalless afternoon against Fulham
               and a cup tie that gave up three; the market is shut until January, save for the men no one owns.
             </p>
@@ -3757,7 +3759,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "One touch. Three points. Three weeks."
+        "Even the pause is put to work."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
