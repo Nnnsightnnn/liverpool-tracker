@@ -484,12 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          The season pauses for three weeks, and Andoni Iraola will spend it
-          working. While the internationals scatter, the manager keeps a small
-          group at the AXA and builds the fortnight around two returns, Giovanni
-          Leoni and Federico Chiesa back in training, before the football
-          resumes on the eleventh of October against the only team in England
-          yet to drop a point.
+          The first evening without football produces two arguments the football
+          had been covering up. Alexis Mac Allister, from the Argentina camp,
+          says there is no firm decision on a contract Liverpool have declined to
+          extend; Jamie Carragher, from a podcast, says Florian Wirtz should not
+          be picked against Manchester City. Twenty days to settle both, and no
+          match in which to.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,36 +520,36 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and for the first time since August the calendar gives Liverpool
-              nothing to do. The Premier League has stopped for three weeks, most
-              of the squad has gone to its national teams, and Andoni Iraola,
-              unbeaten in his first five league games and unconvinced by most of
-              them, has decided the break is not a holiday but a rehearsal,
-              keeping a small group at the AXA to work on a start he keeps calling
-              untidy. The two names that matter are the ones walking back in:
-              Giovanni Leoni, a year on from the knee, and Federico Chiesa, due
-              back on the grass by month's end. Alexander Isak turns twenty-six
-              today, away with Sweden, four league goals into the argument he was
-              signed to win. Jeremy Jacquet has gone to France for the first
-              time. When the football returns it returns hard, Manchester City
-              first, perfect and three clear. A team can rest and brace at the
-              same time; this fortnight it does both.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              with the squad scattered across four continents and nothing to
+              watch, Liverpool's two loudest voices belong to a player at an
+              airport and a pundit at a microphone. Alexis Mac Allister, speaking
+              from Argentina, confirms that a contract the club told him this
+              month it would not open remains unopened, and that he intends to
+              spend whatever is left of it giving everything, which is both
+              gracious and pointed. Jamie Carragher, meanwhile, spends ten
+              minutes taking Florian Wirtz apart and arrives at a team sheet
+              rather than a review: Manchester City at home, and the German
+              cannot be in it. Alisson offers the defence of the defence, three
+              clean sheets and a figure only two clubs have bettered. It is a
+              strange condition, to be unbeaten and arguing. Twenty days of it
+              now, and the leaders at the end.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a manager
-              who will not take the three weeks off; a defender back in training a
-              year after the knee; a striker turning twenty-six with the fee
-              starting to look right; a squad scattering to its nations while a
-              Frenchman leaves for the champions; and a fixture list waiting on
-              the far side that is not kind. Read them in order. The season has
-              produced draws at Newcastle and Anfield, wins at Ipswich and
-              Bournemouth, a European night, a goalless afternoon against Fulham
-              and a cup tie that gave up three; the market is shut until January, save for the men no one owns.
+              dispatches from the writers who never clock off. There is a
+              midfielder with two years left and nobody calling; a pundit picking
+              a team and leaving out the number seven; a goalkeeper making the
+              case for the defence; a sporting director's chair that is empty
+              while the manager sits beneath it; and a release clause in San
+              Sebastian worth reading only because a centre-half keeps playing
+              right-back. Read them in order. The season has produced draws at
+              Newcastle and Anfield, wins at Ipswich and Bournemouth, a European
+              night, a goalless afternoon against Fulham and a cup tie that gave
+              up three; the market is shut until January, save for the men no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3759,7 +3759,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Even the pause is put to work."
+        "Unbeaten, and arguing anyway."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

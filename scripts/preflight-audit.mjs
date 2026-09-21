@@ -175,6 +175,11 @@ const TODAY = todayISO();
 {
   const rank = (t) => {
     const s = String(t);
+    // Evening pass (added 21 Sep 2026 evening): a story that broke after the
+    // morning edition is FRESHER than one tagged merely "today", so it must be
+    // allowed to lead. Without this tier every evening run that leads on a
+    // post-4am story trips CHECK 2, because "this evening" fell through to 99.
+    if (/,\s*(this evening|tonight)\)/i.test(s)) return -1;
     if (/,\s*today\)/.test(s)) return 0;
     const m = s.match(/(\d+)d ago\)/);
     if (m) return Number(m[1]);
