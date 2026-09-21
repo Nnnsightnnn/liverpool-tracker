@@ -138,9 +138,9 @@ const LATEST_NEWS = [
   { source: "Liverpool FC", title: "September internationals guide: when and where Liverpool's players are in action", time: "1d ago", category: "official" },
   { source: "ESPN", title: "Unbeaten and sixth: where Liverpool stand as the season pauses for three weeks", time: "1d ago", category: "major" },
   { source: "BBC Sport", title: "Bournemouth 0-1 Liverpool: Isak's winner sends Iraola into the break unbeaten", time: "1d ago", category: "major" },
+  { source: "Sky Sports", title: "Man City 5-3 Sunderland: Maresca's perfect leaders await Liverpool at Anfield", time: "1d ago", category: "major" },
   { source: "Yardbarker", title: "Joe Gomez back in full training after hamstring lay-off ahead of his 300th game", time: "2d ago", category: "fan" },
   { source: "This Is Anfield", title: "'We have to get used to not being able to train', admits Andoni Iraola", time: "2d ago", category: "fan" },
-  { source: "Sky Sports", title: "Man City 5-3 Sunderland: Maresca's perfect leaders await Liverpool at Anfield", time: "2d ago", category: "major" },
   { source: "Liverpool FC", title: "Chelsea at Anfield in the Carabao Cup fourth round, Wednesday 28 October, 8pm", time: "3d ago", category: "official" },
 ];
 

@@ -604,29 +604,14 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-09-19 (Saturday evening, ~6pm ET). THE TABLE MOVED, and Liverpool did not play in it. Five
-// matchday-five fixtures were completed on Saturday: BRIGHTON 3-0 ARSENAL (Gross 31, Kostoulas 45, Chema Andres 58),
-// ending the champions' perfect start and lifting Brighton to third on ten with the division's best goal difference
-// (+11) and most goals (16); Everton 1-0 Ipswich; Newcastle 2-1 Hull, the promoted side's first defeat; Nottingham
-// Forest 0-1 Coventry, a first win, first points and first goal of the season in one afternoon; and Tottenham 2-3 Aston Villa,
-// in which Spurs scored their first league goals of the campaign and lost anyway. LIVERPOOL FALL FROM EIGHTH TO TENTH
-// on the same six points from four, now three points behind both the Champions League line (Brentford, fourth) and the
-// Europa line (Everton, fifth), with a game in hand on every club from second to ninth bar Leeds. Manchester City move
-// to first on goal difference and Arsenal to second with their first defeat; Coventry climb off the bottom into
-// eighteenth and Fulham drop to twentieth. History below.
-// Earlier: 2026-09-18 (Friday morning, ~4am ET). Re-fetched from ESPN and byte-identical to the previous pull: no
-// league match had been played since Saturday (Tuesday was the Carabao Cup), so the table had not moved.
-// Re-fetched 2026-09-19 (Saturday, ~4am ET) and byte-identical again: the Saturday programme had not yet kicked off.
-// 2026-09-14 (Monday evening) re-fetched from ESPN's endpoint AFTER Monday night's game, and it
-// moved without Liverpool kicking a ball. LEEDS BEAT NEWCASTLE 4-1 at Elland Road (Miley own goal 32, Bogle 34,
-// Calvert-Lewin 45+1, Okafor 59, per NBC Sports), the last two sides with a game in hand, which lifts Daniel Farke's
-// promoted team to THIRD on eight and drops Newcastle to twelfth. LIVERPOOL FALL TO EIGHTH on the same six points from
-// four (1W 3D), level on points with Brentford and Everton but behind Brentford on goal difference and ahead of Everton on goals scored, and the Champions League stripe now sits
-// two places further away than it did this morning. Arsenal and Manchester City remain clear on twelve, both perfect from
-// four; the qualification stripes shift with the table, Leeds and Hull now inside the Champions League four, Brighton
-// alone on the Europa line and Chelsea outside a stripe. Tottenham (Anfield, Carabao Cup, Tuesday 8pm) stay seventeenth on
-// two and still without a league goal; Fulham eighteenth on one, in the relegation stripe with Villa and Coventry, who are
-// bottom on nothing, no goal scored, minus ten.
+// Last refresh: 2026-09-21 (Monday morning, ~4am ET). Re-fetched from ESPN and byte-identical to the previous pull:
+// the international break is now open and no league match has been played since Sunday, so the matchday-five table
+// stands. It reads: Manchester City first on fifteen, five wins from five; Arsenal second on twelve; Brighton third
+// on ten; then a bloc of four on nine, Brentford (fourth), Leeds (fifth), LIVERPOOL (sixth, highlighted) and Everton
+// (seventh), separated by goal difference alone, with Liverpool outside the Europa stripe only on goal difference.
+// The relegation stripe reads Coventry (18th), Fulham (19th) and Tottenham (20th). Prior state, 2026-09-20 evening,
+// AFTER Bournemouth 0-1 Liverpool: Isak's winner and a third clean sheet lifted Liverpool from tenth to sixth as the
+// round completed, City beating Sunderland 5-3 the same afternoon to go three clear. History condensed; the array below is current.
 export const STANDINGS = [
   { pos: 1, team: "Manchester City", p: 5, w: 5, d: 0, l: 0, gd: 8, pts: 15, qualification: "UCL" },
   { pos: 2, team: "Arsenal", p: 5, w: 4, d: 0, l: 1, gd: 4, pts: 12, qualification: "UCL" },
@@ -872,7 +857,7 @@ export const OPPOSITION = {
     {
       name: "Gianluigi Donnarumma",
       role: "Goalkeeper",
-      threat: "Conceded three at home to a promoted side last weekend, which is the only blemish on a five-win start and the reason City's goal difference is plus eight rather than something more intimidating. Liverpool's problem this season has been converting what they create rather than creating it: six goals from 6.00 expected across the first four league games before today. A goalkeeper behind a defence that has just shipped three is the most exploitable name on the sheet.",
+      threat: "Conceded three at home to a promoted side last weekend, which is the only blemish on a five-win start and the reason City's goal difference is plus eight rather than something more intimidating. Liverpool's problem this season has been converting what they create rather than creating it: six goals from 6.00 expected across the first four league games of the season. A goalkeeper behind a defence that has just shipped three is the most exploitable name on the sheet.",
       source: "ESPN / Opta Analyst",
     },
   ],
@@ -927,7 +912,7 @@ export const FORM_TRENDS = {
     },
     {
       label: "A defence assembled from the wrong parts, working anyway",
-      detail: "Three clean sheets in a row, the longest run since 2024, kept by a back four in which the right-back is a centre-half on loan and one centre-back is twenty-one and three months into English football. Jeremy Jeremy Jacquet took the BBC's highest rating on the field at the Vitality, eight, after an early foul on Evanilson that his own manager described as the sort of thing the player then answered. The caveat is the opposition: Ipswich, Fulham and a winless Bournemouth. City on 11 October is the first real examination of it.",
+      detail: "Three clean sheets in a row, the longest run since 2024, kept by a back four in which the right-back is a centre-half on loan and one centre-back is twenty-one and three months into English football. Jeremy Jacquet took the BBC's highest rating on the field at the Vitality, eight, after an early foul on Evanilson that his own manager described as the sort of thing the player then answered. The caveat is the opposition: Ipswich, Fulham and a winless Bournemouth. City on 11 October is the first real examination of it.",
       severity: "medium",
       source: "BBC Sport / Opta Analyst",
     }
