@@ -20,7 +20,7 @@ export const FORMATIONS = {
       RW:  { x: 82, y: 22, role: "FWD" },
     },
     // IDs from playerData.js. This 4-3-3 is the backup look; the default is the
-    // 4-2-3-1 below. Reviewed Mon Sep 21 (evening), after Bournemouth 0-1 Liverpool at the
+    // 4-2-3-1 below. Reviewed Tue Sep 22 (morning), after Bournemouth 0-1 Liverpool at the
     // Vitality, a third consecutive Premier League clean sheet and a rise from tenth to sixth.
     // Now pointed at Manchester City at home, Sunday 11 October, 4.30pm, Anfield, Sky Sports
     // Main Event, the first fixture after a three-week international break. The XI below is the
@@ -64,16 +64,16 @@ export const FORMATIONS = {
     // Manchester City at home on Sunday 11 October, 4.30pm at Anfield (Bournemouth beaten 1-0 away
     // on Sep 20 through Isak on 57; Tottenham beaten 3-1 in the Carabao Cup on Sep 15 with ten
     // changes; Fulham drawn 0-0 on Sep 12; Atletico beaten 2-1 on Sep 9; Ipswich beaten 2-0 away on
-    // Sep 4; Forest drawn 2-2 on Aug 29; Newcastle drawn 2-2 away on Aug 23). Reviewed Mon Sep 21
-    // (evening). The XI below is no longer a prediction assembled from previews: it is the eleven
+    // Sep 4; Forest drawn 2-2 on Aug 29; Newcastle drawn 2-2 away on Aug 23). Reviewed Tue Sep 22
+    // (morning). The XI below is no longer a prediction assembled from previews: it is the eleven
     // that started at Bournemouth, confirmed by ESPN and the BBC. The one thing every preview got
     // wrong was the front three, where Gakpo played the right and Barcola the left. Substitutions:
     // Munoz for Barcola and Nyoni for Wirtz on 72; Gravenberch for Szoboszlai and Koumas for Isak
     // on 81. Unused: Mamardashvili, Gomez, Tsimikas, Frimpong, Ngumoha. Three weeks of international
     // football now separate this sheet from the fixture it points at, so treat it as a baseline. One
-    // slot became contested this evening: Carragher argued publicly that Wirtz should not start at
-    // CAM against City, citing Opta's card of a team-low 70.3% passing accuracy and 16 losses of
-    // possession. Iraola has said nothing, so the slot holds pending team news in October.
+    // slot stays contested: Carragher argued Wirtz should not start at CAM against City, but Iraola
+    // has since defended him on Sky Sports and the player replied on Instagram, so the slot holds the
+    // incumbent pending October team news rather than flipping on a pundit's call.
     defaultXI: {
       GK: 1,    // Alisson (a 7, and the eighteenth-minute save that kept it goalless)
       LB: 7,    // Kerkez (ninety minutes at the club that sold him; a 6 for effort)
@@ -105,7 +105,7 @@ export const FORMATIONS = {
       RW:  { x: 78, y: 22, role: "FWD" },
     },
     // Hypothetical 3-4-3 alternative, a shape rarely used, shown for completeness.
-    // Reviewed Mon Sep 21 (evening), pointed at Manchester City at Anfield on 11 October. The
+    // Reviewed Tue Sep 22 (morning), pointed at Manchester City at Anfield on 11 October. The
     // argument for it has weakened rather than strengthened: Araujo has played a fifth consecutive
     // league game at right-back and Liverpool kept a third clean sheet in a row,
     // so the improvisation is now producing results rather than anxiety. It still removes the
@@ -130,7 +130,7 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS + injuryNote context, reviewed Mon Sep 21 (evening), after
+// Hand-curated from RESULTS + injuryNote context, reviewed Tue Sep 22 (morning), after
 // Bournemouth 0-1 Liverpool: Isak on 57 from a blocked Gakpo cross, a third consecutive clean
 // sheet, and a climb from tenth to sixth. Bradley, Chiesa, Ekitike and Leoni remain the four out.
 // Pointed at Manchester City at home, Sunday 11 October, after the international break.
@@ -141,7 +141,7 @@ export const PLAYER_EVIDENCE = {
   5:  "Stays at Kirkby \u00b7 300th next game",        // Gomez
   7:  "Hungary \u00b7 tackled his own winger",         // Kerkez
   32: "Unused sub \u00b7 no start since Fulham",   // Tsimikas
-  8:  "Knee \u00b7 club now scouting a RB clause",      // Bradley
+  8:  "Knee \u00b7 club scouting 2 young RBs abroad",      // Bradley
   9:  "NED \u00b7 named as the dropped man",     // Frimpong
   10: "ACL \u00b7 back with the group this week",       // Leoni
   11: "France \u00b7 6 recoveries, 3 of 4 duels",    // Jacquet
@@ -150,7 +150,7 @@ export const PLAYER_EVIDENCE = {
   14: "NED \u00b7 new deal, outside the pivot",         // Gravenberch
   15: "Hungary \u00b7 signed, unlike his partner",   // Szoboszlai
   17: "Kirkby \u00b7 sale sanctioned for January",       // Endo
-  18: "Carragher: 'can't be in the team'",          // Wirtz
+  18: "Iraola backs him; Carragher wants him out",          // Wirtz
   20: "AXA \u00b7 18 mins off the bench last out",               // Nyoni
   22: "NED \u00b7 57% of Isak's LFC goals",           // Gakpo
   23: "Sweden \u00b7 4 of LFC's 7 league goals",       // Isak
@@ -176,7 +176,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // ─── Per-slot confidence levels ─────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by the 4-2-3-1
 // slot keys. These read as confidence that the slot's occupant STARTS AGAINST MANCHESTER CITY at
-// Anfield on Sunday 11 October. (Reviewed Mon Sep 21, evening.) The basis has changed in kind: this
+// Anfield on Sunday 11 October. (Reviewed Tue Sep 22, morning.) The basis has changed in kind: this
 // is no longer a preview consensus, it is the eleven that started and won at Bournemouth
 // last time out. That raises confidence in the spine and lowers it nowhere except the front three,
 // because a three-week international break sits in between, Chiesa is due back inside it, and the
@@ -199,20 +199,20 @@ export const SLOT_CONFIDENCE = {
 
 
 // ─── Per-slot rationale ────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Mon Sep 21
-// (evening), against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Tue Sep 22
+// (morning), against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB:   "Mon Sep 21, evening - the shirt is his by default rather than by acclaim, and it stays that way for three weeks. Kerkez went the full ninety at the club that sold him, credited by the BBC for effort rather than quality after being targeted repeatedly over the top, and produced the one moment Carragher could not explain, a twentieth-minute tackle on his own number seven. Tsimikas did not leave the bench and is rated no higher. No market until January, and Semenyo attacks this flank when the season resumes.",
-  LCB:  "Mon Sep 21, evening - the compliment of the day was paid to his partner and belonged to him. Alisson, asked about Jacquet, replied that it is not the hardest job in the world to play alongside Virgil van Dijk, which is both a joke and the most accurate description of this back four available. A seven at Bournemouth, every league minute bar the cup night, three clean sheets running. Netherlands duty now; Haaland is the first name back.",
-  RCB:  "Mon Sep 21, evening - the numbers published today are better than the award he won. Opta has Jacquet winning possession six times at Bournemouth, level with Araujo and second only to Mac Allister, and taking three of his four duels, on top of a man-of-the-match performance and a third consecutive clean sheet. He is twenty-one, three months into English football, and away with France for the first time. The least complicated thing Liverpool bought in the summer.",
-  RB:   "Mon Sep 21, evening - credited today with fixing the defence, and charged in the same breath with the loosest ball-handling on the pitch. A Rousing The Kop reading of Iraola's first month names Araujo's installation here as one of two decisive calls; Opta has him losing possession twenty-four times at the Vitality, more than anyone in the game. Five consecutive league starts out of position, and Liverpool are now reported to be studying a Real Sociedad release clause rather than waiting on Bradley's knee.",
-  LDM:  "Mon Sep 21, evening - he has the contract his partner cannot get, which is the quiet subtext of every midfield line written tonight. On the pitch, purpose without payoff: two free-kicks narrowly wide, a booking after the interval, a withdrawal on eighty-one. Carragher's critique of the number ten included a defence of him, arguing that playing behind Wirtz forces Szoboszlai into a central-midfield role he is not built for. Hungary duty now.",
-  RDM:  "Mon Sep 21, evening - the best midfielder at the club and the only one nobody has offered a contract. Speaking to ESPN from the Argentina camp tonight, Mac Allister said there is no firm decision on a future Liverpool declined to open talks about, with two years left, while Szoboszlai and Gravenberch signed. He won possession seven times at the Vitality, more than any Liverpool player, and has started five of seven under Iraola. Undroppable and, apparently, unrenewable.",
-  LAM:  "Mon Sep 21, evening - the expensive forward who escaped the evening's criticism, which is not the same as earning the flank. Barcola took the left at the Vitality against every preview, forced one save from Petrovic with a deflected curler, and was otherwise handled by a thirty-five-year-old on his 431st appearance for the club. A six. The standing caveat travels with him to France: early days, and a 106m-pound forward without a league goal.",
-  CAM:  "Mon Sep 21, evening - the only slot on this board somebody has publicly demanded be changed. Carragher called Wirtz's afternoon the poorest he has seen from him in a Liverpool shirt and named the consequence, that he could not be in the team against Manchester City. Opta's card: a team-low 70.3 per cent passing accuracy, sixteen possessions lost, and a joint-game-high three chances created, which is the whole argument in one line. He reports late to Klopp's Germany and is in contention for Serbia on 1 October.",
-  RAM:  "Mon Sep 21, evening - the most reliable creator at the club, on loan to the Netherlands for three weeks. Gakpo passed a warm-up on two sore adductors, was switched to the right, and delivered the ball that became the goal, with three chances created per Opta and Squawka putting 57 per cent of Isak's Liverpool league goals down to his deliveries. He has played three positions in five games, which is why this slot is not higher than Medium.",
-  ST:   "Mon Sep 21, evening - four of Liverpool's seven league goals belong to this slot, which is a strength and an exposure in the same sentence. Isak was close to anonymous for an hour at the Vitality and then did the one thing the position exists for, arriving where the blocked ball fell. He is past the three he managed in fourteen Premier League appearances across all of last season, and only Haaland has more this year. Sweden duty; Koumas is the entire cover.",
+  LB:   "Tue Sep 22, morning - the shirt is his by default rather than by acclaim, and it stays that way for three weeks. Kerkez went the full ninety at the club that sold him, credited by the BBC for effort rather than quality after being targeted repeatedly over the top, and produced the one moment Carragher could not explain, a twentieth-minute tackle on his own number seven. Tsimikas did not leave the bench and is rated no higher. No market until January, and Semenyo attacks this flank when the season resumes.",
+  LCB:  "Tue Sep 22, morning - the compliment of the day was paid to his partner and belonged to him. Alisson, asked about Jacquet, replied that it is not the hardest job in the world to play alongside Virgil van Dijk, which is both a joke and the most accurate description of this back four available. A seven at Bournemouth, every league minute bar the cup night, three clean sheets running. Netherlands duty now; Haaland is the first name back.",
+  RCB:  "Tue Sep 22, morning - the numbers published today are better than the award he won. Opta has Jacquet winning possession six times at Bournemouth, level with Araujo and second only to Mac Allister, and taking three of his four duels, on top of a man-of-the-match performance and a third consecutive clean sheet. He is twenty-one, three months into English football, and away with France for the first time. The least complicated thing Liverpool bought in the summer.",
+  RB:   "Tue Sep 22, morning - credited with fixing the defence, and charged in the same breath with the loosest ball-handling on the pitch. A Rousing The Kop reading of Iraola's first month names Araujo's installation here as one of two decisive calls; Opta has him losing possession twenty-four times at the Vitality, more than anyone in the game. Five consecutive league starts out of position, and Liverpool are now reported to be scouting two young right-backs abroad, Benfica's Banjaqui and Feyenoord's Read, rather than waiting on Bradley's knee.",
+  LDM:  "Tue Sep 22, morning - he has the contract his partner cannot get, which is the quiet subtext of every midfield line this week. On the pitch, purpose without payoff: two free-kicks narrowly wide, a booking after the interval, a withdrawal on eighty-one. Carragher's critique of the number ten included a defence of him, arguing that playing behind a struggling Wirtz forces Szoboszlai into a central-midfield role he is not built for. Hungary duty now.",
+  RDM:  "Tue Sep 22, morning - the best midfielder at the club and the only one nobody has offered a contract. Speaking from the Argentina camp, Mac Allister said there is no firm decision on a future Liverpool declined to open talks about, with two years left, while Szoboszlai and Gravenberch signed. He won possession seven times at the Vitality, more than any Liverpool player, and has started five of seven under Iraola. Undroppable and, apparently, unrenewable.",
+  LAM:  "Tue Sep 22, morning - the expensive forward who escaped this week's criticism, which is not the same as earning the flank. Barcola took the left at the Vitality against every preview, forced one save from Petrovic with a deflected curler, and was otherwise handled by a thirty-five-year-old on his 431st appearance for the club. A six. The standing caveat travels with him to France: early days, and a 106m-pound forward without a league goal.",
+  CAM:  "Tue Sep 22, morning - the one slot on this board somebody has publicly demanded be changed, and the one its occupant answered back. Jamie Carragher called Wirtz's Bournemouth afternoon the poorest he has seen from him in a Liverpool shirt and said he could not start against City, citing Opta's team-low 70.3 per cent passing accuracy, sixteen possessions lost and three chances created. Andoni Iraola disagreed on Sky Sports, granting a slow start but saying he was much happier with the second half, and Wirtz answered on Instagram with a photograph and a flexed bicep. He reports late to Klopp's split Germany squad, in contention for Serbia on 1 October.",
+  RAM:  "Tue Sep 22, morning - the most reliable creator at the club, on loan to the Netherlands for three weeks. Gakpo passed a warm-up on two sore adductors, was switched to the right, and delivered the ball that became the goal, with three chances created per Opta and Squawka putting 57 per cent of Isak's Liverpool league goals down to his deliveries. He has played three positions in five games, which is why this slot is not higher than Medium.",
+  ST:   "Tue Sep 22, morning - four of Liverpool's seven league goals belong to this slot, which is a strength and an exposure in the same sentence. Isak was close to anonymous for an hour at the Vitality and then did the one thing the position exists for, arriving where the blocked ball fell. He is past the three he managed in fourteen Premier League appearances across all of last season, and only Haaland has more this year. Sweden duty; Koumas is the entire cover.",
 };
 
 
@@ -239,6 +239,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-09-21T22:30:00Z",
-  reason: "Mon Sep 21, evening. One slot on this board is now a public argument. The eleven below remains the side that started the last game, Bournemouth 0-1 Liverpool, held as the baseline for Manchester City at Anfield on Sunday 11 October at 4.30pm: a confirmed XI rather than a prediction, in a 4-2-3-1 of Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Szoboszlai; Gakpo, Wirtz, Barcola; Isak. What changed this evening is the number ten. Jamie Carragher, reviewing Opta's card on Florian Wirtz (a team-low 70.3 per cent passing accuracy, sixteen possessions lost, three chances created), said flatly that he would not pick him against City, which does not make it Iraola's view but does make the slot contested for the first time. Confidence stays Medium: three weeks and up to four international fixtures per player sit between this sheet and kickoff, Giovanni Leoni rejoins group training during the break and Federico Chiesa is aiming to resume work by the end of the month. Conor Bradley and Hugo Ekitike remain out, Bradley listed by FotMob for early January 2027 and Ekitike not expected before January.",
+  generated_at: "2026-09-22T08:30:00Z",
+  reason: "Tue Sep 22, morning. One slot on this board is now a public argument, and both sides of it spoke this week. The eleven below remains the side that started the last game, Bournemouth 0-1 Liverpool, held as the baseline for Manchester City at Anfield on Sunday 11 October at 4.30pm: a confirmed XI rather than a prediction, in a 4-2-3-1 of Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Szoboszlai; Gakpo, Wirtz, Barcola; Isak. The contested slot is the number ten. Jamie Carragher, reviewing Opta's card on Florian Wirtz (a team-low 70.3 per cent passing accuracy, sixteen possessions lost, three chances created), said he would not pick him against City; Andoni Iraola pushed back on Sky Sports, saying he was much happier with Wirtz's second half than his first, and the player answered the criticism himself on Instagram. That does not settle the slot, but it points to the manager keeping faith. Confidence stays Medium: three weeks and up to four international fixtures per player sit between this sheet and kickoff, Giovanni Leoni rejoins group training during the break and Federico Chiesa is aiming to resume work by the end of the month. Conor Bradley and Hugo Ekitike remain out, Bradley listed by FotMob for early January 2027 and Ekitike not expected before January.",
 };

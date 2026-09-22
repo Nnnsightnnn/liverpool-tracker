@@ -484,12 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          The first evening without football produces two arguments the football
-          had been covering up. Alexis Mac Allister, from the Argentina camp,
-          says there is no firm decision on a contract Liverpool have declined to
-          extend; Jamie Carragher, from a podcast, says Florian Wirtz should not
-          be picked against Manchester City. Twenty days to settle both, and no
-          match in which to.
+          Tuesday, and the international break's first argument is already the
+          loudest of the season: whether the most expensive player in the club's
+          history should start the game that matters most. Jamie Carragher says
+          no. Andoni Iraola, declining the team sheet, says he is happier with
+          Florian Wirtz's second half than his first. Nineteen days, and
+          Manchester City at the end of them.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,36 +520,35 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              with the squad scattered across four continents and nothing to
-              watch, Liverpool's two loudest voices belong to a player at an
-              airport and a pundit at a microphone. Alexis Mac Allister, speaking
-              from Argentina, confirms that a contract the club told him this
-              month it would not open remains unopened, and that he intends to
-              spend whatever is left of it giving everything, which is both
-              gracious and pointed. Jamie Carragher, meanwhile, spends ten
-              minutes taking Florian Wirtz apart and arrives at a team sheet
-              rather than a review: Manchester City at home, and the German
-              cannot be in it. Alisson offers the defence of the defence, three
-              clean sheets and a figure only two clubs have bettered. It is a
-              strange condition, to be unbeaten and arguing. Twenty days of it
-              now, and the leaders at the end.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and Liverpool are unbeaten, sixth, and spending the international
+              break arguing about a photograph. Florian Wirtz answered a week of
+              criticism with a flexed-bicep emoji and the words 'into the
+              international break with a win'; his manager answered Jamie
+              Carragher with a shrug and a second half he preferred to the first.
+              Behind the noise the club is quietly shopping for a right-back, two
+              names in a single morning, because a centre-half has held the
+              position for five games and nobody is coming to relieve him. Alexis
+              Mac Allister keeps running down a contract nobody has offered to
+              open. Giovanni Leoni and Federico Chiesa rejoin training this
+              fortnight, which is the only unambiguously good news on the page.
+              Nineteen days of this, and the leaders at the end of it.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a
-              midfielder with two years left and nobody calling; a pundit picking
-              a team and leaving out the number seven; a goalkeeper making the
-              case for the defence; a sporting director's chair that is empty
-              while the manager sits beneath it; and a release clause in San
-              Sebastian worth reading only because a centre-half keeps playing
-              right-back. Read them in order. The season has produced draws at
-              Newcastle and Anfield, wins at Ipswich and Bournemouth, a European
-              night, a goalless afternoon against Fulham and a cup tie that gave
-              up three; the market is shut until January, save for the men no one owns.
+              dispatches from the writers who never clock off. There is a manager
+              picking his player back up; a photograph and a flexed arm where a
+              sentence might have been; two right-backs chased in a single
+              morning for one unsolved position; a training ground quietly doing
+              the work the fixtures could not; and a head coach who has not lost
+              and is somehow still on trial. Read them in order. The season has
+              produced draws at Newcastle and Anfield, wins at Ipswich and
+              Bournemouth, a European night, a goalless afternoon against Fulham
+              and a cup tie that gave up three; the market is shut until January,
+              save for the men no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3759,7 +3758,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Unbeaten, and arguing anyway."
+        "Unbeaten, and still on trial."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
