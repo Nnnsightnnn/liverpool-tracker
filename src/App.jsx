@@ -484,12 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, and the international break's first argument is already the
-          loudest of the season: whether the most expensive player in the club's
-          history should start the game that matters most. Jamie Carragher says
-          no. Andoni Iraola, declining the team sheet, says he is happier with
-          Florian Wirtz's second half than his first. Nineteen days, and
-          Manchester City at the end of them.
+          Tuesday evening, and the decision that will shape Andoni Iraola's
+          season has moved upstairs. The Athletic reports that Julian Ward is
+          set to return as sporting director, the man who will inherit an
+          unbeaten head coach he did not choose. Liverpool are sixth, the break
+          has nineteen days left to run, and Manchester City arrive without
+          Phil Foden.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,31 +520,31 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and Liverpool are unbeaten, sixth, and spending the international
-              break arguing about a photograph. Florian Wirtz answered a week of
-              criticism with a flexed-bicep emoji and the words 'into the
-              international break with a win'; his manager answered Jamie
-              Carragher with a shrug and a second half he preferred to the first.
-              Behind the noise the club is quietly shopping for a right-back, two
-              names in a single morning, because a centre-half has held the
-              position for five games and nobody is coming to relieve him. Alexis
-              Mac Allister keeps running down a contract nobody has offered to
-              open. Giovanni Leoni and Federico Chiesa rejoin training this
-              fortnight, which is the only unambiguously good news on the page.
-              Nineteen days of this, and the leaders at the end of it.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the search for Richard Hughes's successor is reported to have
+              ended where it began, inside the building. Julian Ward, sporting
+              director once before and the owners' technical director since,
+              is The Athletic's name for the job, and nothing has been announced.
+              He helped sign Cody Gakpo and Alexis Mac Allister; the second of
+              them said today he is very sad not to have been offered a new
+              contract, and that two more years would be perfect anyway. Virgil
+              van Dijk, in the last year of his own deal, has just promised the
+              Netherlands two more. The head coach is unbeaten and answers,
+              from here, to a man who inherited him. In Rochdale, ten men in
+              red won on penalties, which was the evening's only uncomplicated
+              result.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a manager
-              picking his player back up; a photograph and a flexed arm where a
-              sentence might have been; two right-backs chased in a single
-              morning for one unsolved position; a training ground quietly doing
-              the work the fixtures could not; and a head coach who has not lost
-              and is somehow still on trial. Read them in order. The season has
+              dispatches from the writers who never clock off. There is an old
+              hand coming back for the key to the building; a midfielder sad and
+              perfectly willing to wait; a captain who has settled his country's
+              future and not his club's; a set of leaders who will arrive a man
+              short; and ten under-21s in Rochdale who went seven for seven
+              from the spot. Read them in order. The season has
               produced draws at Newcastle and Anfield, wins at Ipswich and
               Bournemouth, a European night, a goalless afternoon against Fulham
               and a cup tie that gave up three; the market is shut until January,
@@ -3758,7 +3758,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Unbeaten, and still on trial."
+        "A familiar face, and an unfamiliar question."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
