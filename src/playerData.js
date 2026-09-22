@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Tue Sep 22, evening - the man The Athletic expects to return as sporting director signed him. Julian Ward's first spell in the role, in 2022-23, brought Gakpo from PSV along with Luis Diaz and Darwin Nunez, and the winger is now the most reliable creator in Iraola's side: three chances created at the Vitality per Opta, and the delivery for Isak's winner. He is with the Netherlands, whose captain has just committed to two more years.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 25, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Tue Sep 22, evening - the man The Athletic expects to return as sporting director signed him. Julian Ward's first spell in the role, in 2022-23, brought Gakpo from PSV and Darwin Nunez from Benfica, and the winger is now the most reliable creator in Iraola's side: three chances created at the Vitality per Opta, and the delivery for Isak's winner. He is with the Netherlands, whose captain has just committed to two more years.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -674,8 +674,8 @@ export const STANDINGS_COMMENTARY = {
     "Manchester City": "Top on fifteen, five wins from five, and three clear. They come to Anfield on 11 October without Phil Foden, whose three-match ban for a derby red card ends with that game, and with twenty first-team players away on international duty until the week of it.",
     "Arsenal": "Second on twelve, idle this weekend, and now three behind having led the division a week ago. They visit Anfield on 1 November, after Liverpool have played City, Brentford and Brighton.",
     "Brighton": "Third on ten with the division's best goal difference and its most goals, sixteen, still on the back of a 3-0 over the champions at the Amex. They come to Anfield on 25 October.",
-    "Brentford": "Fourth on nine and the last club inside the Champions League stripe, unbeaten in five and level on points with Liverpool on goal difference. Liverpool visit on 17 October, three days after hosting City.",
-    "Leeds": "Fifth on nine and drawing the Europa stripe, a promoted side five games unbeaten with two wins and three draws. They hold the place ahead of Liverpool on a goal difference of plus four to plus three.",
+    "Brentford": "Fourth on nine and the last club inside the Champions League stripe, unbeaten in five and level on points with Liverpool on goal difference. Liverpool visit on 17 October, six days after hosting City.",
+    "Leeds": "Fifth on nine and drawing the Europa stripe, five games unbeaten with two wins and three draws. They hold the place ahead of Liverpool on a goal difference of plus four to plus three.",
     "Everton": "Seventh on nine, also unbeaten, also level with Liverpool, and separated from them by nothing except the order the table puts them in.",
     "Chelsea": "Tenth on seven. They are at Anfield on 28 October in the fourth round of the Carabao Cup, an eight o'clock kick-off on Sky and ITV.",
     "Sunderland": "Fourteenth on four after scoring three at the Etihad and losing anyway, Brian Brobbey taking a hat-trick out of a defeat.",
@@ -693,7 +693,7 @@ export const DISPATCHES = [
     dateline: "Anfield · 22 September",
     category: "Football News",
     body:
-      "The search ended, as these things at Liverpool often do, inside the building. The Athletic reports that Fenway Sports Group have settled on Julian Ward to replace Richard Hughes, the sporting director he once was, in 2022-23, before leaving after a single season. He is forty-five, thirteen years a Liverpool employee across two spells, and since 2024 the owners' technical director for the academy and the pathways. He signed Gakpo and helped finish Mac Allister. What he has never done is choose Andoni Iraola, and that is the whole of the story: the unbeaten head coach now answers to a man who inherits him.",
+      "The search appears to have ended, as these things at Liverpool often do, inside the building. The Athletic reports that Fenway Sports Group have settled on Julian Ward to replace Richard Hughes, the sporting director he once was, in 2022-23, before leaving after a single season. He is forty-five, thirteen years a Liverpool employee across two spells, and since 2024 the owners' technical director for the academy and the pathways. He signed Gakpo and helped finish Mac Allister. What he has never done is choose Andoni Iraola, and that is the whole of the story: if the appointment goes through, the unbeaten head coach will answer to a man who inherits him.",
   },
   {
     n: "02",
@@ -889,7 +889,7 @@ export const OPPOSITION = {
     {
       name: "Gianluigi Donnarumma",
       role: "Goalkeeper",
-      threat: "Conceded three at home to a promoted side last weekend, which is the only blemish on a five-win start and the reason City's goal difference is plus eight rather than something more intimidating. Liverpool's problem this season has been converting what they create rather than creating it: six goals from 6.00 expected across the first four league games of the season. A goalkeeper behind a defence that has just shipped three is the most exploitable name on the sheet.",
+      threat: "Conceded three at home to Sunderland last weekend, which is the only blemish on a five-win start and the reason City's goal difference is plus eight rather than something more intimidating. Liverpool's problem this season has been converting what they create rather than creating it: six goals from 6.00 expected across the first four league games of the season. A goalkeeper behind a defence that has just shipped three is the most exploitable name on the sheet.",
       source: "ESPN / Opta Analyst",
     },
   ],
@@ -980,7 +980,7 @@ export const FORM_TRENDS = {
       xgFirstHalfAgainst: null,
       shotsFor: 12,
       pending: false,
-      verdict: "Carabao Cup third round, not counted in the league totals, and now carried at published figures rather than nulls. Ten changes, Gomez captain, and a first win since Ipswich. Mac Allister struck the opener into the top corner on 21 after moving beyond the midfield line; Gakpo lashed in the second shortly after the interval; Gallagher headed Spurs back into it from a corner before the 70th; Mamardashvili, in his first appearance of the season, made a significant late save; Szoboszlai, off the bench, volleyed the third from around thirty yards in stoppage time. Bergvall had tested Mamardashvili early and Koumas was denied by Dubravka. The data, published since: 1.53 expected goals to Tottenham's 2.30, twelve shots to seventeen, five on target to six, two big chances to three, 44 per cent of the ball, with Liverpool's first-half figure 0.70. The Transfer Hub's shot map values Szoboszlai's volley at 0.03 and Gallagher's header at 0.9. The second-half split is not published and stays null.",
+      verdict: "Carabao Cup third round, not counted in the league totals, and now carried at published figures rather than nulls. Ten changes, Gomez captain, and a first domestic win since Ipswich. Mac Allister struck the opener into the top corner on 21 after moving beyond the midfield line; Gakpo lashed in the second shortly after the interval; Gallagher headed Spurs back into it from a corner before the 70th; Mamardashvili, in his first appearance of the season, made a significant late save; Szoboszlai, off the bench, volleyed the third from around thirty yards in stoppage time. Bergvall had tested Mamardashvili early and Koumas was denied by Dubravka. The data, published since: 1.53 expected goals to Tottenham's 2.30, twelve shots to seventeen, five on target to six, two big chances to three, 44 per cent of the ball, with Liverpool's first-half figure 0.70. The Transfer Hub's shot map values Szoboszlai's volley at 0.03 and Gallagher's header at 0.9. The second-half split is not published and stays null.",
       source: "This Is Anfield / The Transfer Hub (shot map and xG timeline) / Goal",
     },
     {
@@ -1074,7 +1074,7 @@ export const FORM_TRENDS = {
     "Alisson has the fifth-highest save percentage in the Premier League this season at 77.8 per cent, and Opta's expected-goals-on-target model credits him with 0.8 goals prevented. He has kept three clean sheets in a row behind a back four in which the right-back is a centre-half and one centre-back is twenty-one.",
     "Jeremy Jacquet won possession six times at Bournemouth, level with Ronald Araujo and behind only Alexis Mac Allister's seven, and won three of his four duels, per Opta. He was named player of the match and called up to a first senior France squad in the same week.",
   ],
-  sources: ["Opta Analyst", "beIN Sports", "Squawka", "Goal", "EPL Index", "Liverpool FC", "BBC Sport", "Sofascore", "Premier League", "Sky Sports", "ESPN"],
+  sources: ["Opta Analyst", "beIN Sports", "Squawka", "Goal", "This Is Anfield", "FotMob", "The Transfer Hub", "EPL Index", "Liverpool FC", "BBC Sport", "Sofascore", "Premier League", "Sky Sports", "ESPN"],
 };
 
 
@@ -1123,7 +1123,7 @@ export const SEASON_PROJECTION = {
   projectedPoints: 68,
   projectedFinish: "Champions League places on current pace",
   headline:
-    "Frozen until 11 October, and worth reading slowly for that reason. Nine points from five is 1.80 a game and projects to sixty-eight across thirty-eight, historically about the price of the last Champions League place; it is a description of five games and not a forecast of thirty-eight, and it is frozen until 11 October. The more useful number is the margin. Sixth, unbeaten, level on points with fourth, fifth and seventh, and out of the Europa place on a single goal of goal difference, which means the difference between a European season and a domestic one currently rests on one result anywhere in that cluster. The block that follows the break will test it hard: Manchester City, Brentford, Brighton and Arsenal inside five weeks, three of whom sit above Liverpool this morning.",
+    "Nothing here can move before City visit, which makes it worth reading slowly. Nine points from five is 1.80 a game and projects to sixty-eight across thirty-eight, historically about the price of the last Champions League place; it is a description of five games and not a forecast of thirty-eight, and it is frozen until 11 October. The more useful number is the margin. Sixth, unbeaten, level on points with fourth, fifth and seventh, and out of the Europa place on a single goal of goal difference, which means the difference between a European season and a domestic one currently rests on one result anywhere in that cluster. The block that follows the break will test it hard: Manchester City, Brentford, Brighton and Arsenal inside five weeks, three of whom sit above Liverpool this morning.",
   thresholds: [
     { label: "Champions League (top 4)", points: 68, gap: 0, note: "Historical par for the last Champions League place in recent seasons, and exactly where five games of pace now lands. The live ESPN table this tracker rebuilds each run draws that stripe at fourth, so the label follows the table rather than the coefficient arithmetic. Holding it requires maintaining 1.80 points per game against a run of fixtures markedly harder than the one that produced it." },
     { label: "Europa League (5th)", points: 60, gap: 0, note: "Fifth-place par, and where the live table currently draws the Europa stripe, at Leeds, who are level with Liverpool on points and one goal better off. The present pace clears this line by eight points, which is a cushion built on five games and no more than that." },

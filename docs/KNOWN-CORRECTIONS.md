@@ -42,6 +42,14 @@ Everything outside a `forbid:` line is prose for humans and is ignored.
 
 - forbid: `Transfer Hub's passing networks place` — a passing-network graphic shows who touched the ball, not who kicked off, so it cannot establish a starting XI and it silently mixes in substitutes. The 15 Sep cup XI was reconstructed this way for three days and was wrong in two places: it listed Bradley Barcola as a starter when he did not start at all, and it had Ronald Araujo at right-back when Jeremie Frimpong played there and Araujo partnered Gomez in the middle for the full ninety. Liverpool's own team-news page published the eleven on 18 Sep and settled it. Caught in the 18 Sep evening pass. **General lesson: a starting XI is a published fact. Wait for the club, the league or a match report to print it rather than inferring it from a visualisation, and mark the record as partial until they do.**
 
+- forbid: `a first win since Ipswich` — Liverpool beat Atletico Madrid 2-1 in the Champions League on 9 September, between Ipswich (4 Sep) and the Tottenham cup tie (15 Sep), so the cup win was the first **domestic** win since Ipswich. Caught by the staleness auditor, 22 Sep evening, on a FORM_TRENDS verdict that had survived a week. **General lesson: "first win since X" must be checked against RESULTS across every competition, not just the one the sentence is about.**
+
+- forbid: `(Leeds|Sunderland)[^.]{0,80}a promoted side|a promoted side[^.]{0,40}(Leeds|Sunderland)|at home to a promoted side last weekend` — Leeds and Sunderland came up in 2025 and are in their second Premier League season; the 2026 promoted sides are Coventry, Ipswich and Hull. Caught by the staleness auditor, 22 Sep evening, in STANDINGS_COMMENTARY and the OPPOSITION Donnarumma entry.
+
+- forbid: `three days after hosting City` — City at Anfield is Sunday 11 October and Brentford away is Saturday 17 October, six days apart. Caught 22 Sep evening. Day gaps must be computed from the fixture dates, never estimated.
+
+- forbid: `(announce|confirm)\w*[^.]{0,40}new (long-term )?contract for (Alisson|the goalkeeper Alisson)` — on 22 Sep syndicated headlines ('Deal confirmed: Liverpool officially announce new contract for Reds goalkeeper') were summarised by search tools as an Alisson renewal. The contract was **Matty Wright's**, an 18-year-old U18 keeper; Alisson remains on the option triggered in March, running to 2027. Caught before publication by reading the article body. **General lesson: a search-tool summary of a headline with an unnamed subject is not a fact; read the article before naming the player.**
+
 ## Retired rules
 
 Move an entry here (and delete its `forbid:` line) once the underlying

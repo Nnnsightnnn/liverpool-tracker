@@ -529,7 +529,7 @@ function CoverView({ onJump }) {
               them said today he is very sad not to have been offered a new
               contract, and that two more years would be perfect anyway. Virgil
               van Dijk, in the last year of his own deal, has just promised the
-              Netherlands two more. The head coach is unbeaten and answers,
+              Netherlands two more. The head coach is unbeaten and would answer,
               from here, to a man who inherited him. In Rochdale, ten men in
               red won on penalties, which was the evening's only uncomplicated
               result.
