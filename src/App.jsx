@@ -489,7 +489,7 @@ function CoverView({ onJump }) {
           from the knee, with Federico Chiesa close behind, and Andoni Iraola
           has a fortnight to coach a squad he can rarely train. Liverpool are
           sixth. Eighteen days out, Manchester City wait, and behind them
-          Brighton, Brentford and Arsenal.
+          Brentford, Brighton and Arsenal.
         </p>
 
         <StatStrip stats={stats} />
@@ -547,7 +547,7 @@ function CoverView({ onJump }) {
               come home to be sold. Read them in order. The season has
               produced draws at Newcastle and Anfield, wins at Ipswich and
               Bournemouth, a European night, a goalless afternoon against Fulham
-              and a cup tie that gave up three; the market is shut until January,
+              and a cup tie that produced three; the market is shut until January,
               save for the men no one owns.
             </p>
           </div>
