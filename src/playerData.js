@@ -231,7 +231,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "injured", outSince: "2026-08-16", injuryNote: "Wed Sep 23, evening - Leoni marks a year out today; Chiesa's own marker, group training before September is out, is a week away at most. Chiesa aims to resume group training by the end of the month, per Lewis Steele, having not played since the Como friendly in mid-August, with Sports Mole pencilling 11 October for availability. Left off the Champions League squad, so Europe was never in reach this autumn. With the number-ten position under public debate, a fifth forward by mid-October is worth more than it looked a week ago.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "injured", outSince: "2026-08-16", injuryNote: "Wed Sep 23, evening - Leoni marks a year out today; Chiesa's own marker, group training before September is out, is a week away at most. Chiesa aims to resume group training by the end of the month, per Lewis Steele, having not played since the Como friendly in mid-August, with Sports Mole pencilling 11 October for availability. Left off the Champions League squad, so Europe was never in reach this autumn. TEAMtalk and Sport Witness reported on Wednesday that he will be made available in January, at around 15m euros, unless he forces his way into the side, which turns the return to training into an audition.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -675,11 +675,11 @@ export const STANDINGS_COMMENTARY = {
   matchweek: 5,
   generatedAt: "2026-09-23T22:30:00Z",
   overview:
-    "Wednesday evening leaves the table untouched and changes how its summit reads: Opta's expected-points model now has Manchester City second rather than first, their fifteen points running 5.8 above what their chances warrant, although the real table has them three clear of Arsenal and perfect. The seam that matters to Liverpool is unchanged, four clubs on nine points, Brentford fourth, Leeds fifth, Liverpool sixth and Everton seventh, all inside three goals of goal difference, so one October scoreline will decide who wears a Champions League or Europa stripe and who wears none. Liverpool remain the only one of the four without a qualification colour, and the only one with three clean sheets in a row. Brentford, fourth, have a second reason to interest Liverpool this week: Sky reports their technical director, Lee Dykes, is among the names FSG have discussed. At the bottom Tottenham sit last on two.",
+    "Wednesday evening leaves the table untouched and changes how its summit reads: Opta's expected-points model now has Manchester City second rather than first, their fifteen points running 5.8 above what their chances warrant, although the real table has them three clear of Arsenal and perfect. The seam that matters to Liverpool is unchanged, four clubs on nine points, Brentford fourth, Leeds fifth, Liverpool sixth and Everton seventh, all inside three goals of goal difference, so one October scoreline will decide who wears a Champions League or Europa stripe and who wears none. Liverpool remain the only one of the four without a qualification colour, and the only one with three clean sheets in a row. Brentford, fourth, have a second reason to interest Liverpool this week: Sky reports their technical director, Lee Dykes, is among the names FSG have discussed. At the bottom Tottenham sit last on two, still without a league win.",
   teams: {
     "Liverpool": "Sixth on nine and unbeaten, a single goal of goal difference outside the Europa stripe, with three clean sheets in a row and the third-best expected goals against in the division per Opta. City first, on 11 October.",
     "Manchester City": "Top on fifteen and perfect, yet second on Opta's expected-points model, 5.8 points ahead of their chances. Sunderland's 3.57 xG at the Etihad was the third-highest by a losing side since 2013-14. At Anfield on 11 October, without Foden.",
-    "Arsenal": "Second on twelve, idle this weekend, and now three behind having led the division a week ago. They visit Anfield on 1 November, after Liverpool have played City, Brentford and Brighton.",
+    "Arsenal": "Second on twelve, three behind City, idle like everyone else through the break, having led the division a week ago. They visit Anfield on 1 November, after Liverpool have played City, Brentford and Brighton.",
     "Brighton": "Third on ten with the division's best goal difference and its most goals, sixteen, still on the back of a 3-0 over the champions at the Amex. They come to Anfield on 25 October.",
     "Brentford": "Fourth on nine, unbeaten in five, the last club inside the Champions League stripe, and briefly a Liverpool story off the pitch: Sky reports technical director Lee Dykes is among the names FSG have discussed. Liverpool visit on 17 October.",
     "Leeds": "Fifth on nine and drawing the Europa stripe, five games unbeaten with two wins and three draws. They hold the place ahead of Liverpool on a goal difference of plus four to plus three.",
@@ -688,7 +688,7 @@ export const STANDINGS_COMMENTARY = {
     "Sunderland": "Fourteenth on four after scoring three at the Etihad and losing anyway, Brian Brobbey taking a hat-trick out of a defeat.",
     "Bournemouth": "Seventeenth on three, and beaten at home by Liverpool without scoring. It is the ninth time in the club's history they have failed to win any of their opening five league games, and only under Iraola in 2023-24 have they endured a longer winless start in the Premier League.",
     "Fulham": "Nineteenth on two after a draw with Manchester United, still inside the relegation stripe, and still carrying the point taken at Anfield on 12 September as a third of their season's return.",
-    "Tottenham": "Bottom on two, beaten at Anfield twice this month in two competitions, and now at the foot of the division with a game played against everyone.",
+    "Tottenham": "Bottom on two after five league games without a win, and beaten at Anfield in the Carabao Cup on 15 September.",
   },
 };
 // ─── Dispatches (hand-curated long reads — separate from the wire feed) ────
@@ -714,7 +714,7 @@ export const DISPATCHES = [
   {
     n: "03",
     headline: "Three Hundred And Sixty-Five Days.",
-    byline: "Yahoo Sports / Empire of the Kop",
+    byline: "Yahoo Sports / Empire of the Kop / Sports Mole",
     dateline: "Kirkby · 23 September",
     category: "Injuries",
     body:
@@ -770,8 +770,15 @@ export const NEWS_DIGEST = {
       title:
         "Koumas, 'Contagious' In Red, Takes His Rise To Wales And Portugal (BBC Sport, today)",
       detail:
-        "BBC Sport Wales profiled Lewis Koumas today: more than 900 days between his first and second Liverpool appearances, three Championship loans, Iraola halting a fourth a week into the American tour, and a cup-night performance against Tottenham that won Anfield over. Barry Lewtas calls him a coach's dream; Craig Bellamy expects him to matter for Wales for years. Wales open their Nations League campaign in Lisbon on Thursday. For Liverpool the context is blunt: until Ekitike returns, he is the only cover behind Isak.",
+        "BBC Sport Wales profiled Lewis Koumas today: more than 900 days between his first and second Liverpool appearances, three Championship loans, Iraola halting a fourth a week into the American tour, and a cup-night performance against Tottenham that won Anfield over. Barry Lewtas calls him a coach's dream; Craig Bellamy expects him to matter for Wales for years. Wales open their Nations League campaign in Lisbon on Thursday. For Liverpool the context is blunt: until January, when Ekitike's Achilles may allow a return, he is the only cover behind Isak.",
       category: "general",
+    },
+    {
+      title:
+        "Chiesa To Be Put On The January Market At Around €15m, Per Reports (TEAMtalk / Sport Witness, today)",
+      detail:
+        "Reported on Wednesday: TEAMtalk and Sport Witness say Iraola has decided Federico Chiesa will be made available in January unless he forces his way into the side, with Liverpool looking to recoup at least 15m euros and Napoli and Inter among the Italian clubs watching. It lands in the same week Chiesa is due to resume group training after the back problem that has kept him out since the Como friendly. He has two Premier League starts in two seasons, and the summer arrivals of Barcola and Munoz pushed him further down the order. A report, not a club decision.",
+      category: "transfers",
     },
     {
       title:
@@ -808,6 +815,8 @@ export const NEWS_DIGEST = {
     "Sky Sports",
     "Read Man City",
     "Yahoo Sports",
+    "TEAMtalk",
+    "Sport Witness",
     "BBC Sport",
     "Liverpool.com",
     "Liverpool FC",
@@ -917,7 +926,7 @@ export const FORM_TRENDS = {
     },
     {
       label: "Fast-break concession, still unanswered",
-      detail: "The warning stays at high because the fixture that was supposed to test it did not. Bournemouth made 0.76 expected goals and two shots on target, and the one genuine chance they created, Evanilson's backheel flick on eighteen, came from a cross rather than a counter. Opta still count nine fast-break goals conceded by Liverpool since the start of last season, the most in the league, and the next side to attack that space is Manchester City, whose own high line and turnover behaviour let Sunderland score three at the Etihad last time out. Two teams with the same fault, one fixture, three weeks away.",
+      detail: "The warning stays at high because the fixture that was supposed to test it did not. Bournemouth made 0.76 expected goals and two shots on target, and the one genuine chance they created, Evanilson's backheel flick on eighteen, came from a cross rather than a counter. Opta still count nine fast-break goals conceded by Liverpool since the start of last season, the most in the league, and the next side to attack that space is Manchester City, whose own high line and turnover behaviour let Sunderland score three at the Etihad last time out. Two teams with the same fault, one fixture, eighteen days away.",
       severity: "high",
       source: "Opta Analyst / Squawka",
     },
@@ -1097,7 +1106,7 @@ export const SQUAD_LOAD = {
     { position: "Centre-forward", level: "high", detail: "Four of Liverpool's seven league goals belong to one man, which is a strength and a single point of failure at once. Isak scored his fourth in five league games and Liverpool's other routes to a goal at the Vitality were a deflected Barcola shot and two Szoboszlai free-kicks. Koumas is the false-nine cover the cup used. Ekitike's Achilles keeps January as the earliest realistic return, so a single hamstring still separates this squad from a genuine crisis, and the international break is three weeks of that hamstring being used by Sweden. Chiesa resuming training in the fortnight is the one bit of relief in view." },
     { position: "Centre-back", level: "medium", detail: "The least pressing question on this board today, with a longer-dated one attached: Van Dijk has committed to the Netherlands through Euro 2028 while his Liverpool contract ends in 2027 (ESPN / This Is Anfield). Van Dijk and Jacquet kept a third consecutive clean sheet together and Jacquet took the highest rating on the field, which makes the first-choice pair the least pressing question on this board. Behind them Gomez is fit and stays at the AXA over the break, Araujo covers at a pinch, and Leoni is due to rejoin group training during the international window with Sports Mole pencilling mid-October. The dated caveat is unchanged: Endo, the emergency fifth centre-half, is listed for sale in January." },
     { position: "Left-back", level: "high", detail: "Unchanged, and the last game supplied evidence rather than relief. Milos Kerkez started against the club that sold him and the BBC's report is that he struggled initially and was regularly targeted with the crossfield ball over his head, with effort rather than quality the thing worth praising. Tsimikas was an unused substitute. Two senior options, neither of whom the reporting believes is at the manager's standard, no market until January, and Semenyo attacking that side on 11 October." },
-    { position: "Wide forward", level: "medium", detail: "The department that won the last game, and the one whose most expensive occupant is being told in public to sit out the next. Gakpo, a fitness doubt until the warm-up, played the right rather than the left and created three chances, joint-most on the field per Opta; Barcola played the left and was largely contained. Munoz is the fourth option and away for none of the acclaim. Ngumoha is with England. Chiesa is due to resume training by the end of the month, which would make five wide forwards for two flanks by mid-October." },
+    { position: "Wide forward", level: "medium", detail: "The department that won the last game, and the one whose most expensive occupant is being told in public to sit out the next. Gakpo, a fitness doubt until the warm-up, played the right rather than the left and created three chances, joint-most on the field per Opta; Barcola played the left and was largely contained. Munoz is the fourth option and away for none of the acclaim. Ngumoha is with England. Chiesa is due to resume training by the end of the month, which would make five wide forwards for two flanks by mid-October, though TEAMtalk and Sport Witness report he will be put on the January market at around 15m euros unless he breaks into the side." },
     { position: "Central midfield", level: "medium", detail: "Held at medium on availability. The contract stand-off moved in tone on Tuesday, Mac Allister telling reporters he was very sad not to be offered terms but that two more years would be perfect, and Sports Mole and Goal reported the club still wants Inter's Aleksandar Stankovic after a summer refusal. Mac Allister and Szoboszlai started together and the BBC's reading was that Mac Allister found space to open the game up after a slow start while Szoboszlai played with purpose, was booked after half-time, and put two free-kicks narrowly wide. Gravenberch came on for the last nine minutes, the clearest signal yet of the order. Endo, available all season as the emergency fifth centre-back, is listed for a January exit, and Mac Allister is running down a deal the club has not offered to extend." },
   ],
   sources: ["Sports Mole", "Liverpool FC", "This Is Anfield", "EPL Index", "Goal", "SI", "Rousing The Kop", "Squawka", "Opta Analyst", "Daily Mail"],
@@ -1130,6 +1139,6 @@ export const SEASON_PROJECTION = {
     { date: "2026-11-22", opponent: "Manchester United", home: true, competition: "PL", oppPosition: 12, difficulty: "medium" },
   ],
   runInVerdict:
-    "The soft fixture has been played and banked, and what waits on the far side of the break is four of the top four inside five weeks. Manchester City come to Anfield on 11 October with a perfect record and a three-point lead; Brentford away, Brighton at home and Arsenal at home follow, and between them sit LASK in Linz on 14 October and Chelsea in the Carabao Cup on 28 October. Six points from those four league games would be a good return and would hold the pace near 1.60, a Europa-band season. Nine or more and the sixty-eight-point projection stops looking like an artefact of one afternoon at the Vitality. Three or fewer and the unbeaten start becomes the thing people remember rather than the thing that mattered. The genuine unknown is condition: most of this squad plays international football for three weeks and reassembles in the week of the hardest home fixture of the season.",
+    "The soft fixture has been played and banked, and what waits on the far side of the break is four of the top four inside five weeks. Manchester City come to Anfield on 11 October with a perfect record and a three-point lead; Brentford away, Brighton at home and Arsenal at home follow, and between them sit LASK in Linz on 14 October and Chelsea in the Carabao Cup on 28 October. Six points from those four league games would be a good return and would hold the pace near 1.67 (fifteen from nine), a Europa-band season. Nine or more and the sixty-eight-point projection stops looking like an artefact of one afternoon at the Vitality. Three or fewer and the unbeaten start becomes the thing people remember rather than the thing that mattered. The genuine unknown is condition: most of this squad plays international football for three weeks and reassembles in the week of the hardest home fixture of the season.",
   sources: ["ESPN", "Opta Analyst", "Liverpool FC", "Sky Sports", "BBC Sport", "Squawka"],
 };

@@ -49,6 +49,7 @@ Everything outside a `forbid:` line is prose for humans and is ignored.
 - forbid: `three days after hosting City` — City at Anfield is Sunday 11 October and Brentford away is Saturday 17 October, six days apart. Caught 22 Sep evening. Day gaps must be computed from the fixture dates, never estimated.
 
 - forbid: `(announce|confirm)\w*[^.]{0,40}new (long-term )?contract for (Alisson|the goalkeeper Alisson)` — on 22 Sep syndicated headlines ('Deal confirmed: Liverpool officially announce new contract for Reds goalkeeper') were summarised by search tools as an Alisson renewal. The contract was **Matty Wright's**, an 18-year-old U18 keeper; Alisson remains on the option triggered in March, running to 2027. Caught before publication by reading the article body. **General lesson: a search-tool summary of a headline with an unnamed subject is not a fact; read the article before naming the player.**
+- forbid: `beaten at Anfield twice this month` — Liverpool met Tottenham once in September 2026, the Carabao Cup third round on 15 September (3-1); there was no league meeting. The phrase sat in STANDINGS_COMMENTARY and the overview for several editions before the staleness auditor caught it, 23 Sep evening. **General lesson: a count of meetings must be read off RESULTS, not recalled.**
 
 ## Retired rules
 
