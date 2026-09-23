@@ -484,12 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday, and the news that matters is on the training pitch, not
-          above it. Giovanni Leoni is back in group work this week, a year on
-          from the knee, with Federico Chiesa close behind, and Andoni Iraola
-          has a fortnight to coach a squad he can rarely train. Liverpool are
-          sixth. Eighteen days out, Manchester City wait, and behind them
-          Brentford, Brighton and Arsenal.
+          Wednesday evening, and Liverpool are close to knowing who they
+          answer to. Julian Ward is expected back as sporting director, perhaps
+          with a partner from Brentford, a year to the day after Giovanni
+          Leoni's knee gave way. Liverpool are sixth and unbeaten, eighteen
+          days from Manchester City, whose perfect record Opta rates nearly six
+          points kinder than their chances.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,19 +520,19 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and for once the most important room at Liverpool is the training
-              pitch. Giovanni Leoni, a year removed from the cruciate injury
-              that took his first season whole, is expected back in a group
-              session this week, with Federico Chiesa due to follow before the
-              month ends. Neither will face Manchester City on the eleventh, but
-              both on the grass is the thing that changes what Andoni Iraola can
-              build in the one fortnight a season this crowded lets him build
-              anything. Above him, the sporting-director search has widened
-              rather than closed, Julian Ward's reported return now spoken of
-              alongside a second, external hire. The captain has promised his
-              country two more years and not yet his club. And somewhere in the
-              city an old iron sign, three words long, has come back to be sold.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the empty chair above Andoni Iraola is close to filled, and by a
+              man who has sat in it before. Julian Ward, The Athletic reports, is
+              expected to return as sporting director, a continuity hire at a
+              club that lost Michael Edwards in July and Richard Hughes this
+              month, and Sky suggests he may not sit alone, Brentford's Lee Dykes
+              among the names discussed as a partner. Nothing is announced. A
+              year ago today Giovanni Leoni's cruciate went on his debut; this
+              break he is due back among the group. The leaders who come to
+              Anfield on the eleventh have been told, by Opta, that five wins
+              from five flatters them by nearly six points. On Thursday the
+              internationals begin. The table stays frozen, but the building
+              around it has started to move.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -540,15 +540,14 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and five
               dispatches from the writers who never clock off. There is a
-              defender back on the grass a year after his knee; a manager with
-              two weeks to teach and four weeks to survive; a boardroom fitting
-              one chair, or two, above the head coach; the pacesetters, and the
-              month that waits behind them; and a sign, forty-six years gone,
-              come home to be sold. Read them in order. The season has
-              produced draws at Newcastle and Anfield, wins at Ipswich and
-              Bournemouth, a European night, a goalless afternoon against Fulham
-              and a cup tie that produced three; the market is shut until January,
-              save for the men no one owns.
+              boardroom reaching for the man who remembers where the drawings
+              are kept; the leaders, read against their own chances; a defender
+              a year from the night his knee went; a Welsh forward nine hundred
+              days between appearances; and an old full-back, talking. Read them
+              in order. The season has produced draws at Newcastle and Anfield,
+              wins at Ipswich and Bournemouth, a European night, a goalless
+              afternoon against Fulham and a cup tie that produced three; the
+              market is shut until January, save for the men no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3758,7 +3757,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Two weeks to teach. Four to survive."
+        "The man who remembers where things are."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
