@@ -484,12 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday evening, and the decision that will shape Andoni Iraola's
-          season has moved upstairs. The Athletic reports that Julian Ward is
-          set to return as sporting director, the man who will inherit an
-          unbeaten head coach he did not choose. Liverpool are sixth, the break
-          has nineteen days left to run, and Manchester City arrive without
-          Phil Foden.
+          Wednesday, and the news that matters is on the training pitch, not
+          above it. Giovanni Leoni is back in group work this week, a year on
+          from the knee, with Federico Chiesa close behind, and Andoni Iraola
+          has a fortnight to coach a squad he can rarely train. Liverpool are
+          sixth. Eighteen days out, Manchester City wait, and behind them
+          Brighton, Brentford and Arsenal.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,31 +520,31 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the search for Richard Hughes's successor is reported to have
-              ended where it began, inside the building. Julian Ward, sporting
-              director once before and the owners' technical director since,
-              is The Athletic's name for the job, and nothing has been announced.
-              He helped sign Cody Gakpo and Alexis Mac Allister; the second of
-              them said today he is very sad not to have been offered a new
-              contract, and that two more years would be perfect anyway. Virgil
-              van Dijk, in the last year of his own deal, has just promised the
-              Netherlands two more. The head coach is unbeaten and would answer,
-              from here, to a man who inherited him. In Rochdale, ten men in
-              red won on penalties, which was the evening's only uncomplicated
-              result.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and for once the most important room at Liverpool is the training
+              pitch. Giovanni Leoni, a year removed from the cruciate injury
+              that took his first season whole, is expected back in a group
+              session this week, with Federico Chiesa due to follow before the
+              month ends. Neither will face Manchester City on the eleventh, but
+              both on the grass is the thing that changes what Andoni Iraola can
+              build in the one fortnight a season this crowded lets him build
+              anything. Above him, the sporting-director search has widened
+              rather than closed, Julian Ward's reported return now spoken of
+              alongside a second, external hire. The captain has promised his
+              country two more years and not yet his club. And somewhere in the
+              city an old iron sign, three words long, has come back to be sold.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is an old
-              hand coming back for the key to the building; a midfielder sad and
-              perfectly willing to wait; a captain who has settled his country's
-              future and not his club's; a set of leaders who will arrive a man
-              short; and ten under-21s in Rochdale who went seven for seven
-              from the spot. Read them in order. The season has
+              dispatches from the writers who never clock off. There is a
+              defender back on the grass a year after his knee; a manager with
+              two weeks to teach and four weeks to survive; a boardroom fitting
+              one chair, or two, above the head coach; the pacesetters, and the
+              month that waits behind them; and a sign, forty-six years gone,
+              come home to be sold. Read them in order. The season has
               produced draws at Newcastle and Anfield, wins at Ipswich and
               Bournemouth, a European night, a goalless afternoon against Fulham
               and a cup tie that gave up three; the market is shut until January,
@@ -3758,7 +3758,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A familiar face, and an unfamiliar question."
+        "Two weeks to teach. Four to survive."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
