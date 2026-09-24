@@ -484,12 +484,13 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday evening, and Liverpool are close to knowing who they
-          answer to. Julian Ward is expected back as sporting director, perhaps
-          with a partner from Brentford, a year to the day after Giovanni
-          Leoni's knee gave way. Liverpool are sixth and unbeaten, eighteen
-          days from Manchester City, whose perfect record Opta rates nearly six
-          points kinder than their chances.
+          Thursday, and the season scatters before it resumes. Tonight in
+          Amsterdam, Virgil van Dijk's Netherlands meet Jurgen Klopp's Germany,
+          four Liverpool players among the travelling, the captain lately talked
+          out of retirement and into a horizon well past his own contract.
+          Liverpool are sixth and unbeaten, seventeen days from Manchester City,
+          whose perfect record Opta rates nearly six points kinder than their
+          chances.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,31 +521,34 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the empty chair above Andoni Iraola is close to filled, and by a
-              man who has sat in it before. Julian Ward, The Athletic reports, is
-              expected to return as sporting director, a continuity hire at a
-              club that lost Michael Edwards in July and Richard Hughes this
-              month, and Sky suggests he may not sit alone, Brentford's Lee Dykes
-              among the names discussed as a partner. Nothing is announced. A
-              year ago today Giovanni Leoni's cruciate went on his debut; this
-              break he is due back among the group. The leaders who come to
-              Anfield on the eleventh have been told, by Opta, that five wins
-              from five flatters them by nearly six points. On Thursday the
-              internationals begin. The table stays frozen, but the building
-              around it has started to move.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the international break stops being a rest. Tonight in
+              Amsterdam, Virgil van Dijk leads the Netherlands against a Germany
+              managed for the first time by Jurgen Klopp, the coach who made him,
+              and the captain has said he wants to spoil the debut. He arrives
+              having refused to retire, talked round by a new manager who flew to
+              Merseyside, and committed now to play on until at least
+              thirty-seven, two years past a Liverpool contract nobody has asked
+              him to extend. Off the pitch the succession firmed, Paul Joyce
+              joining David Ornstein in reporting Julian Ward's return as
+              sporting director, though still nothing is announced. The leaders
+              who come to Anfield on the eleventh have been told, by Opta, that
+              five wins from five flatters them by nearly six points. And a year
+              and a day on from the knee that ended his debut, Giovanni Leoni is
+              due back among the group. The table is frozen; the men who fill it
+              are anything but.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a
-              boardroom reaching for the man who remembers where the drawings
-              are kept; the leaders, read against their own chances; a defender
-              a year from the night his knee went; a Welsh forward nine hundred
-              days between appearances; and an old full-back, talking. Read them
-              in order. The season has produced draws at Newcastle and Anfield,
+              dispatches from the writers who never clock off. There is a captain
+              meeting his old coach on a foreign field; a boardroom story now
+              carried by two bylines instead of one; a treatment room, for once,
+              of arrivals; an argument over the club's most expensive player that
+              no rival abroad will join; and a man at thirty-five who has decided
+              not to leave. Read them in order. The season has produced draws at Newcastle and Anfield,
               wins at Ipswich and Bournemouth, a European night, a goalless
               afternoon against Fulham and a cup tie that produced three; the
               market is shut until January, save for the men no one owns.
@@ -3757,7 +3761,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The man who remembers where things are."
+        "Some players count down. He keeps adding."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
