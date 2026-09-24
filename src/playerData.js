@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Thu Sep 24, morning - recalled by the Netherlands after a spell out, and back in the competitive minutes his club role does not offer. Frimpong played right-back only in the cup and was unused at the Vitality, behind Araujo's improvised run there, and Liverpool's two January names, Banjaqui and Read, are both attacking full-backs of his profile. A vote of confidence from Koeman is not a vote from Iraola, but three weeks of football is three weeks of evidence.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Thu Sep 24, morning - recalled by the Netherlands after a spell out, and back in the competitive minutes his club role does not offer. Frimpong played right-back only in the cup and was unused at the Vitality, behind Araujo's improvised run there, and Liverpool's two January names, Banjaqui and Read, are both attacking full-backs of his profile. A vote of confidence from Xavi is not a vote from Iraola, but three weeks of football is three weeks of evidence.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -756,7 +756,7 @@ export const NEWS_DIGEST = {
       title:
         "Tonight In Amsterdam: Van Dijk's Netherlands Host Klopp's Germany (This Is Anfield / Yahoo Sports, today)",
       detail:
-        "The break stops being an abstraction at 7.45 this evening. Virgil van Dijk leads the Netherlands out against Jurgen Klopp's Germany at the Johan Cruijff Arena, the captain's first meeting with the manager who signed and remade him, and he has said plainly that he wants to spoil the debut. Four Liverpool players are in Ronald Koeman's squad, Van Dijk, Gravenberch and Gakpo joined by a recalled Jeremy Frimpong, with three more Dutch fixtures to follow before the club reassembles for City. For a squad already thin at the back it is three weeks of other people's football and the injury nobody can plan for.",
+        "The break stops being an abstraction at 7.45 this evening. Virgil van Dijk leads the Netherlands out against Jurgen Klopp's Germany at the Johan Cruijff Arena, the captain's first meeting with the manager who signed and remade him, and he has said plainly that he wants to spoil the debut. Four Liverpool players are in Xavi's Netherlands squad, Van Dijk, Gravenberch and Gakpo joined by a recalled Jeremy Frimpong, with three more Dutch fixtures to follow before the club reassembles for City. For a squad already thin at the back it is three weeks of other people's football and the injury nobody can plan for.",
       category: "matches",
     },
     {
