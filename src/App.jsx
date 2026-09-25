@@ -484,13 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday, and the break has already had its night. In Amsterdam, Cody
-          Gakpo's stoppage-time volley rescued a draw for the Netherlands,
-          denied Jurgen Klopp a winning start with Germany, and left Virgil van
-          Dijk calling the goal that had put his old coach ahead a disgrace.
-          Liverpool are sixth and unbeaten, sixteen days from Manchester City,
-          whose perfect record Opta still rates nearly six points kinder than
-          their chances.
+          Friday night, and the break finally sent Liverpool some good news.
+          Alexander Isak, the only senior nine at the club, scored for Sweden
+          in the week he and Jeremy Jacquet made the Premier League's September
+          shortlist. Liverpool are sixth and unbeaten, sixteen days from
+          Manchester City and from Antoine Semenyo, whose name sits on the
+          same list.
         </p>
 
         <StatStrip stats={stats} />
@@ -521,37 +520,37 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and the international break has stopped pretending to be a rest. In
-              Amsterdam on Thursday, Cody Gakpo met a Ruben van Bommel cross with
-              a stoppage-time volley, rescued a draw for the Netherlands, and
-              spoiled Jurgen Klopp's first night as Germany's coach. Virgil van
-              Dijk, his own header chalked off by VAR, led the protest at a
-              German goal scored while a Dutch forward lay hurt and called it a
-              disgrace; Klopp said he had no guilty conscience, and the two men
-              who spent a decade on the same side went home on opposite ones. At
-              Kirkby the mood is lighter, Andoni Iraola nominated for September's
-              Manager of the Month and handed a small mercy by Klopp, who kept
-              Florian Wirtz out of Germany's opening games. The treatment room,
-              for once, is filling: Giovanni Leoni back among the group a year on
-              from his knee, Federico Chiesa due before the month is out. Sixteen
-              days now until City, and the season is somewhere over the North
-              Sea, still arguing.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              and for once the international break has sent good news home. In
+              Solna Alexander Isak opened the scoring after twenty minutes of
+              Sweden's 2-1 win over Romania, the only senior centre-forward at
+              Liverpool doing for his country what he did at Bournemouth, in the
+              week he and Jeremy Jacquet were shortlisted for September's Player
+              of the Month. The rest of the ledger is minutes: Szoboszlai and
+              Kerkez played all of a Hungarian defeat, Barcola a quarter-hour of a
+              French win, and Mamardashvili, the goalkeeper who is actually away,
+              was beaten in Georgia's ninety-ninth minute. Alisson, left out by
+              Brazil, is at Kirkby with the group Iraola kept back. The losses were
+              small and a layer down, a sixteen-year-old to Manchester United and
+              an academy right-back to a groin injury, but they fell where this
+              squad is always thinnest. Sixteen days until City, and the one player
+              Liverpool could not afford to lose is, for another night, only
+              scoring.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a captain
-              who met his old coach on a foreign field and did not enjoy the
-              ending; a manager up for an award and drawn against a rival for it;
-              a treatment room, for once, of arrivals; a boardroom still deciding
-              who runs it; and a former Anfield manager quietly sparing the
-              club's most scrutinised player. Read them in order. The season has produced draws at Newcastle and Anfield,
-              wins at Ipswich and Bournemouth, a European night, a goalless
-              afternoon against Fulham and a cup tie that produced three; the
-              market is shut until January, save for the men no one owns.
+              dispatches from the writers who never clock off. There is a striker
+              scoring for Sweden; a shortlist that reads like Liverpool's October;
+              a right-back one layer down, hurt again; an academy midfielder gone
+              to Old Trafford at sixteen; and two goalkeepers who have swapped
+              places for a fortnight. Read them in order. The season has produced
+              draws at Newcastle and Anfield, wins at Ipswich and Bournemouth, a
+              European night, a goalless afternoon against Fulham and a cup tie
+              that produced three; the market is shut until January, save for the
+              men no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3761,7 +3760,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Old friends, opposite lines, a late equaliser."
+        "The only nine, and he scored elsewhere."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
