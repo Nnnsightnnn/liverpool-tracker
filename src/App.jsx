@@ -532,7 +532,7 @@ function CoverView({ onJump }) {
               was beaten in Georgia's ninety-ninth minute. Alisson, left out by
               Brazil, is at Kirkby with the group Iraola kept back. The losses were
               small and a layer down, a sixteen-year-old to Manchester United and
-              an academy right-back to a groin injury, but they fell where this
+              an Under-21 right-back to a groin injury, but they fell where this
               squad is always thinnest. Sixteen days until City, and the one player
               Liverpool could not afford to lose is, for another night, only
               scoring.
