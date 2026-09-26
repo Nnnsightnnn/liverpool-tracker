@@ -484,12 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday night, and the break finally sent Liverpool some good news.
-          Alexander Isak, the only senior nine at the club, scored for Sweden
-          in the week he and Jeremy Jacquet made the Premier League's September
-          shortlist. Liverpool are sixth and unbeaten, sixteen days from
-          Manchester City and from Antoine Semenyo, whose name sits on the
-          same list.
+          Saturday, and the biggest news of the break is the champions'.
+          Manchester City, the runaway leaders Liverpool visit next, were
+          reported overnight to have been found guilty of 114 of their 115
+          Premier League charges, sanction and appeal still to come. Liverpool
+          are sixth and unbeaten, fifteen days from City and from a fixture
+          whose meaning shifted overnight.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,37 +520,39 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              and for once the international break has sent good news home. In
-              Solna Alexander Isak opened the scoring after twenty minutes of
-              Sweden's 2-1 win over Romania, the only senior centre-forward at
-              Liverpool doing for his country what he did at Bournemouth, in the
-              week he and Jeremy Jacquet were shortlisted for September's Player
-              of the Month. The rest of the ledger is minutes: Szoboszlai and
-              Kerkez played all of a Hungarian defeat, Barcola a quarter-hour of a
-              French win, and Mamardashvili, the goalkeeper who is actually away,
-              was beaten in Georgia's ninety-ninth minute. Alisson, left out by
-              Brazil, is at Kirkby with the group Iraola kept back. The losses were
-              small and a layer down, a sixteen-year-old to Manchester United and
-              an Under-21 right-back to a groin injury, but they fell where this
-              squad is always thinnest. Sixteen days until City, and the one player
-              Liverpool could not afford to lose is, for another night, only
-              scoring.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and for once the loudest story of the international break belongs to
+              somebody else. Overnight the reports came that an independent
+              commission had found Manchester City, the leaders Liverpool visit
+              next, guilty of 114 of their 115 Premier League charges over the
+              club's finances, with no punishment yet set and an appeal to come.
+              City deny it and say the process is unfinished, and the table is
+              untouched, so the fixture on 11 October arrives with its backdrop
+              changed rather than its stakes. The Liverpool voice in it is an old
+              one, Andy Robertson, a Tottenham player now, telling a Scotland camp
+              that the men on the pitch are never the ones to blame. Around the
+              verdict the week is quiet: Isak scored again for Sweden and is
+              shortlisted for September, Alisson's contract talks are parked until
+              later in the year, and the squad scatters for a second matchday that
+              begins tonight with Rio Ngumoha against a club team-mate. Fifteen
+              days until City, and the first thing a returning fan reads is a
+              number with nothing to do with the football and everything to do
+              with the season.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a striker
-              scoring for Sweden; a shortlist that reads like Liverpool's October;
-              a right-back one layer down, hurt again; an academy midfielder gone
-              to Old Trafford at sixteen; and two goalkeepers who have swapped
-              places for a fortnight. Read them in order. The season has produced
-              draws at Newcastle and Anfield, wins at Ipswich and Bournemouth, a
-              European night, a goalless afternoon against Fulham and a cup tie
-              that produced three; the market is shut until January, save for the
-              men no one owns.
+              dispatches from the writers who never clock off. There is a verdict
+              hanging over the champions Liverpool play next; a former captain, in
+              another shirt, speaking for them; an injury board that for once reads
+              forward; a goalkeeper whose new deal can wait; and a squad scattering
+              across the international map. Read them in order. The season has
+              produced draws at Newcastle and Anfield, wins at Ipswich and
+              Bournemouth, a European night, a goalless afternoon against Fulham
+              and a cup tie that produced three; the market is shut until January,
+              save for the men no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3760,7 +3762,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The only nine, and he scored elsewhere."
+        "One hundred and fourteen, and the table waits."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
