@@ -408,7 +408,7 @@ export const COVER_IMAGE = {
   // found Manchester City guilty of 114 of 115 Premier League financial charges (2009-2018), no sanction set, appeal to come,
   // table untouched. City are Liverpool's next opponents (Anfield, 11 October) and title pace-setters; ex-captain Andy Robertson
   // (now Tottenham) defended City's players from the Scotland camp. Also fresh: Alisson contract talks parked until later in 2026
-  // (TeamTalk); Leoni into group work, Chiesa near the grass; Ngumoha v Munoz tonight in England U20 v Spain. NO new image queued
+  // (TeamTalk); Leoni into group work, Chiesa near the grass; Ngumoha and Munoz in England v Spain (later found to be the senior Wembley game, both left out). NO new image queued
   // (a courtroom verdict is not a Liverpool still). Szoboszlai plate carried, all 8 generatedAt 08:30Z.
   // Evening pass (Fri 25 September, ~6pm ET): NO MATCH, international break. The lead rotates off the morning's
   // Amsterdam fallout onto Friday night's internationals: Isak's 20th-minute opener in Sweden 2-1 Romania, in the week he and
@@ -706,7 +706,7 @@ export const STANDINGS_COMMENTARY = {
   matchweek: 5,
   generatedAt: "2026-09-26T22:30:00Z",
   overview:
-    "A table that has not moved since matchday five spent Saturday being argued about anyway. Manchester City, top on fifteen and perfect, had their chairman insist that nothing has changed after reports that an independent commission found them guilty on 114 of 115 Premier League charges; until a sanction is set, and one may be a long while coming, the order below is simply the order, three points to Arsenal and five to Brighton. Liverpool sit sixth on nine inside a four-way tie with Brentford, Leeds and Everton, and outside the Europa stripe only because Leeds are one goal better off. The grass resumes on 11 October, when City come to Anfield to begin a run of four straight fixtures against the sides above Liverpool. At the foot Tottenham remain last on two, still waiting for a first league win.",
+    "A table that has not moved since matchday five spent Saturday being argued about anyway. Manchester City, top on fifteen and perfect, had their chairman insist that nothing has changed after reports that an independent commission found them guilty on 114 of 115 Premier League charges; until a sanction is set, and one may be a long while coming, the order below is simply the order, three points to Arsenal and five to Brighton. Liverpool sit sixth on nine inside a four-way tie with Brentford, Leeds and Everton, and outside the Europa stripe only because Leeds are one goal better off. The grass resumes on 11 October, when City come to Anfield to begin a run of four straight league fixtures against the sides above Liverpool. At the foot Tottenham remain last on two, still waiting for a first league win.",
   teams: {
     "Liverpool": "Sixth on nine, unbeaten, a single goal outside the Europa stripe, and without a league goal conceded in September. The break has cost nothing but a Wembley team-sheet place for two wingers; City at Anfield on 11 October.",
     "Manchester City": "Top on fifteen and perfect, with a chairman saying nothing has changed after the reported 114-charge verdict, and two defenders, Guehi and O'Reilly, at fault in England's Wembley defeat. At Anfield on 11 October, without the suspended Foden.",
@@ -741,7 +741,7 @@ export const DISPATCHES = [
     dateline: "Wembley · 26 September",
     category: "Tactics",
     body:
-      "Read the report as a scout would and the result matters less than the authorship. Spain's first goal came from Marc Guehi's blunder in the second minute and their equaliser from a Nico O'Reilly mistake on the hour, two Manchester City defenders gifting the world champions a way back, and Elliot Anderson, a third City player, lost the ball to Yamal for Spain's best early chance. None of it is a verdict on a club side. All of it is footage Liverpool's analysts will have watched twice, a fortnight before City bring that high line to Anfield.",
+      "Read the report as a scout would and the result matters less than the authorship. Spain's first goal came from Marc Guehi's blunder in the second minute and their equaliser from a Nico O'Reilly mistake on the hour, two Manchester City defenders gifting the world champions a way back, and Elliot Anderson, a third City player, gave the ball away for the chance Ferran Torres sent wide on twenty-seven. None of it is a verdict on a club side. All of it is footage Liverpool's analysts will have watched twice, a fortnight before City bring that high line to Anfield.",
   },
   {
     n: "03",
@@ -788,7 +788,7 @@ export const NEWS_DIGEST = {
       title:
         "City's Guehi And O'Reilly At Fault In England's Defeat (CaughtOffside / Sky Sports, tonight)",
       detail:
-        "Sky Sports' report tonight put Spain's first two goals down to bad errors by Marc Guehi and Nico O'Reilly, both Manchester City defenders: Guehi's second-minute blunder let Yamal run through, and O'Reilly's mistake set up Baena's equaliser, though he also crossed for Kane's header. CaughtOffside rated the City pair England's worst; Elliot Anderson, another City player, had a pass intercepted by Yamal for Spain's best early chance. Guehi is in the XI previews expect at Anfield on 11 October.",
+        "Sky Sports' report tonight put Spain's first two goals down to bad errors by Marc Guehi and Nico O'Reilly, both Manchester City defenders: Guehi's second-minute blunder let Yamal run through, and O'Reilly's mistake set up Baena's equaliser, though he also crossed for Kane's header. CaughtOffside rated the City pair England's worst; Elliot Anderson, another City player, gave the ball away for the chance Ferran Torres sent wide on twenty-seven. Guehi is in the XI previews expect at Anfield on 11 October.",
       category: "tactics",
     },
     {
@@ -814,13 +814,6 @@ export const NEWS_DIGEST = {
     },
     {
       title:
-        "Iraola Gives Up A Free Sunday For The Women's Merseyside Derby (Liverpool FC, today)",
-      detail:
-        "Announced by the club on Saturday, the head coach will be at Anfield with his family for Sunday's Women's Super League derby against Everton, a 2pm kick-off. Gareth Taylor called it a really nice gesture and said he had expected Iraola to be on holiday during the break. Everton have won all five women's derbies played at Anfield since 2019, per the derby previews, which gives the head coach something to watch.",
-      category: "general",
-    },
-    {
-      title:
         "Algeria Send City's Ait-Nouri Home After He Refuses To Warm Up (Sports Mole, today)",
       detail:
         "Reported on Saturday, Rayan Ait-Nouri was released from the Algeria camp after refusing a second instruction to warm up during Friday's 3-1 win over Zambia and a heated exchange with the staff. The left-back has played only 105 minutes for City this season and not at all in the league, behind Gvardiol and O'Reilly, so he returns to Manchester early and unhappy, a small crack in the squad Liverpool meet next.",
@@ -842,6 +835,13 @@ export const NEWS_DIGEST = {
     },
     {
       title:
+        "Iraola Gives Up A Free Sunday For The Women's Merseyside Derby (The Athletic / Liverpool FC, 1d ago)",
+      detail:
+        "First reported on Friday by The Athletic's James Pearce and confirmed in the club's own coverage, the head coach will be at Anfield with his family for Sunday's Women's Super League derby against Everton, a 2pm kick-off. Gareth Taylor called it a really nice gesture and said he had expected Iraola to be on holiday during the break. Everton have won all five women's derbies played at Anfield since 2019, per the derby previews, which gives the head coach something to watch.",
+      category: "general",
+    },
+    {
+      title:
         "Isak's Vote Closes Monday, The Day He Plays Poland (Premier League / Liverpool FC, 1d ago)",
       detail:
         "The fan vote for September's Premier League Player of the Month closes at midday on Monday, hours before Sweden face Poland, and Friday's twentieth-minute opener against Romania, reported by Liverpool FC, arrived at the right moment for the campaign. Jacquet is on the same list and City's Antoine Semenyo, who attacks Liverpool's flank on 11 October, is the rival.",
@@ -851,7 +851,7 @@ export const NEWS_DIGEST = {
       title:
         "Alisson On The Premier League's Save Of The Month Shortlist (Liverpool FC, 2d ago)",
       detail:
-        "Announced by the club on Thursday, the goalkeeper is nominated for the league's Save of the Month, a month in which Liverpool did not concede a league goal. He spends the break at Kirkby after Brazil left him out, with TeamTalk reporting his contract talks parked until later in the year.",
+        "Announced by the club on Thursday, the goalkeeper is nominated for the league's Save of the Month, a month in which Liverpool did not concede a league goal. He spends the break at Kirkby after Brazil left him out, with TEAMtalk reporting his contract talks parked until later in the year.",
       category: "general",
     },
     {
@@ -872,11 +872,11 @@ export const NEWS_DIGEST = {
     "Al Jazeera",
     "Reuters",
     "Football Insider",
+    "The Athletic",
     "This Is Anfield",
     "Liverpool FC",
     "TEAMtalk",
     "Premier League",
-    "TeamTalk",
   ],
 };
 
@@ -912,7 +912,7 @@ export const OPPOSITION = {
   formation: "4-2-3-1",
   leaguePosition: 1,
   summary:
-    "Saturday night at Wembley was a scouting report Liverpool did not have to commission. Two of City's back line were at fault as England lost 3-2 to Spain, per Sky Sports: Marc Guehi's second-minute blunder let Lamine Yamal through for the opener, and Nico O'Reilly's error on the hour set up Alex Baena's equaliser, while Elliot Anderson had a pass intercepted by Yamal for Spain's best early chance. The same day the club's chairman, Khaldoon Al Mubarak, answered reports that an independent commission has found City guilty of 114 of the 115 Premier League charges over their 2009 to 2018 finances with a defiant 'nothing has changed', no sanction set and an appeal to come, and Algeria sent the unused left-back Rayan Ait-Nouri home after he refused to warm up. It changes the mood around this fixture, not the fixture itself. On the grass the argument is the one their record still refuses to admit: Opta's expected-points model, reported by Read Man City, has City second rather than first after five games, their fifteen points 5.8 more than the chances created and conceded would usually earn, with Sunderland's 3.57 expected goals at the Etihad the third-highest by a losing side since 2013-14. The mitigation is genuine, a league-high 52.5 per cent of minutes spent in front. Phil Foden serves the last game of a three-match domestic ban at Anfield, and Haaland, Dias and Khusanov are among Maresca's players away with their countries. City are otherwise whole, first on fifteen, five wins from five, three clear of Arsenal, in their first season since 2015-16 without Pep Guardiola, who resigned in the summer and was replaced on 29 June by Enzo Maresca. Last time out they beat Sunderland 5-3 at the Etihad after being pegged back twice inside the opening half-hour, and Maresca's verdict was that there were too many goals and he would prefer to win 1-0. Before that: a 1-0 at home to Coventry, a 4-1 at Crystal Palace, a 2-1 over Bournemouth, and the derby win at Old Trafford in which Foden was sent off. The record flatters a team not yet under control, and now a club found in breach on the fullest scale the league has charged.",
+    "Saturday night at Wembley was a scouting report Liverpool did not have to commission. Two of City's back line were at fault as England lost 3-2 to Spain, per Sky Sports: Marc Guehi's second-minute blunder let Lamine Yamal through for the opener, and Nico O'Reilly's error on the hour set up Alex Baena's equaliser, while Elliot Anderson gave the ball away for the chance Ferran Torres sent wide on twenty-seven. The same day the club's chairman, Khaldoon Al Mubarak, answered reports that an independent commission has found City guilty of 114 of the 115 Premier League charges over their 2009 to 2018 finances with a defiant 'nothing has changed', no sanction set and an appeal to come, and Algeria sent the unused left-back Rayan Ait-Nouri home after he refused to warm up. It changes the mood around this fixture, not the fixture itself. On the grass the argument is the one their record still refuses to admit: Opta's expected-points model, reported by Read Man City, has City second rather than first after five games, their fifteen points 5.8 more than the chances created and conceded would usually earn, with Sunderland's 3.57 expected goals at the Etihad the third-highest by a losing side since 2013-14. The mitigation is genuine, a league-high 52.5 per cent of minutes spent in front. Phil Foden serves the last game of a three-match domestic ban at Anfield, and Haaland, Dias and Khusanov are among Maresca's players away with their countries. City are otherwise whole, first on fifteen, five wins from five, three clear of Arsenal, in their first season since 2015-16 without Pep Guardiola, who resigned in the summer and was replaced on 29 June by Enzo Maresca. Last time out they beat Sunderland 5-3 at the Etihad after being pegged back twice inside the opening half-hour, and Maresca's verdict was that there were too many goals and he would prefer to win 1-0. Before that: a 1-0 at home to Coventry, a 4-1 at Crystal Palace, a 2-1 over Bournemouth, and the derby win at Old Trafford in which Foden was sent off. The record flatters a team not yet under control, and now a club found in breach on the fullest scale the league has charged.",
   shape:
     "Maresca has kept the possession spine and loosened everything in front of it, which is why City look like a scoring machine and a defensive argument at the same time. The back four sits high with Gvardiol at left-back stepping into midfield and Matheus Nunes giving width on the right; Enzo Fernandez and Elliot Anderson screen in a double pivot that is more about ball progression than protection. Rayan Cherki plays between the lines and carries, with Antoine Semenyo and Iliman Ndiaye on the flanks and Haaland pinning the centre-backs. The pattern that beat Sunderland twice over and nearly cost them the afternoon is the same one: when the ball turns over in City's half, the space between that high line and Donnarumma is enormous, and Sunderland needed very little invitation to run into it three times last weekend.",
   keyPlayers: [
