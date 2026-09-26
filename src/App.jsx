@@ -484,12 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday, and the biggest news of the break is the champions'.
-          Manchester City, the runaway leaders Liverpool visit next, were
-          reported overnight to have been found guilty of 114 of their 115
-          Premier League charges, sanction and appeal still to come. Liverpool
-          are sixth and unbeaten, fifteen days from City and from a fixture
-          whose meaning shifted overnight.
+          Saturday night, and Wembley told the evening's Liverpool story by
+          leaving Liverpool out of it. Rio Ngumoha and Victor Munoz, billed as
+          opponents, were both cut from their matchday squads, and Spain won
+          3-2 on two errors by Manchester City defenders. Liverpool are sixth
+          and unbeaten, fifteen days from City at Anfield.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,39 +519,36 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and for once the loudest story of the international break belongs to
-              somebody else. Overnight the reports came that an independent
-              commission had found Manchester City, the leaders Liverpool visit
-              next, guilty of 114 of their 115 Premier League charges over the
-              club's finances, with no punishment yet set and an appeal to come.
-              City deny it and say the process is unfinished, and the table is
-              untouched, so the fixture on 11 October arrives with its backdrop
-              changed rather than its stakes. The Liverpool voice in it is an old
-              one, Andy Robertson, a Tottenham player now, telling a Scotland camp
-              that the men on the pitch are never the ones to blame. Around the
-              verdict the week is quiet: Isak scored again for Sweden and is
-              shortlisted for September, Alisson's contract talks are parked until
-              later in the year, and the squad scatters for a second matchday that
-              begins tonight with Rio Ngumoha against a club team-mate. Fifteen
-              days until City, and the first thing a returning fan reads is a
-              number with nothing to do with the football and everything to do
-              with the season.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the Liverpool story at Wembley was an absence. Rio Ngumoha and
+              Victor Munoz had been billed all week as club team-mates made
+              opponents, and by breakfast the official squad lists had removed
+              them both, England and Spain each carrying one more player than
+              UEFA lets them name. So the two wingers watched Spain win 3-2, and
+              the detail worth keeping belonged to the side Liverpool play next:
+              Marc Guehi's blunder gave Yamal the opener inside two minutes, and a
+              Nico O'Reilly mistake let Baena equalise on the hour, two Manchester
+              City defenders undone. Their chairman
+              spent the day insisting nothing has changed after the reported
+              verdict on 114 charges. Elsewhere Szoboszlai and Kerkez were booked
+              in a brawl in Hungary's defeat, and Iraola, who might have been on
+              holiday, will sit at Anfield on Sunday for the women's derby. Fifteen
+              days until City, and tonight the scouting did itself.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a verdict
-              hanging over the champions Liverpool play next; a former captain, in
-              another shirt, speaking for them; an injury board that for once reads
-              forward; a goalkeeper whose new deal can wait; and a squad scattering
-              across the international map. Read them in order. The season has
-              produced draws at Newcastle and Anfield, wins at Ipswich and
-              Bournemouth, a European night, a goalless afternoon against Fulham
-              and a cup tie that produced three; the market is shut until January,
-              save for the men no one owns.
+              dispatches from the writers who never clock off. There are two
+              wingers who spent Wembley in the stand; the City defenders whose
+              mistakes decided it; a chairman who concedes nothing; a brawl in
+              Hungary and a Monday in Belfast; and an Atletico name on the
+              list. Read them in order. The season has produced draws at
+              Newcastle and Anfield, wins at Ipswich and Bournemouth, a European
+              night, a goalless afternoon against Fulham and a cup tie that
+              produced three; the market is shut until January, save for the men
+              no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3762,7 +3758,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "One hundred and fourteen, and the table waits."
+        "Two Reds watched, and City's defenders blinked."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
