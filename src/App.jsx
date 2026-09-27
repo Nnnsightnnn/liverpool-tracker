@@ -529,8 +529,8 @@ function CoverView({ onJump }) {
               for now, belongs to other flags: the Netherlands take four Reds to
               Belgrade this afternoon, and on Monday most of the squad plays before
               it reassembles. Manchester City come to Anfield in a fortnight, their
-              own week swallowed by the reported verdict on 114 charges and a
-              chairman who says nothing has changed. Sixth, unbeaten and quietly
+              own week swallowed by the reported verdict on 114 of 115 charges
+              and a chairman who says nothing has changed. Sixth, unbeaten and quietly
               decorated, Liverpool go into the pause with the ledger in credit and
               the hard month waiting on the other side of it.
             </p>
