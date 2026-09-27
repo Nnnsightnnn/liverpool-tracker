@@ -84,8 +84,8 @@ export const FORMATIONS = {
       RDM: 13,  // Mac Allister (the pivot partner the previews insisted on, and rightly)
       LAM: 30,  // Barcola (played the LEFT at the Vitality, against every preview)
       CAM: 18,  // Wirtz (a 5; six competitive games without a goal or an assist)
-      RAM: 22,  // Gakpo (the RIGHT, three chances created, and the ball that became the goal)
-      ST: 23,   // Isak (scored on 57; four league goals in five, past all of last league season)
+      RAM: 22,  // Gakpo (DOUBT: left ankle, forced off v Serbia 27 Sep, scan Monday; holds the slot pending it)
+      ST: 23,   // Isak (DOUBT: minor thigh problem, sent home from Sweden 27 Sep; expected back for City)
     },
   },
 
@@ -135,33 +135,33 @@ export const FORMATIONS = {
 // sheet, and a climb from tenth to sixth. Bradley, Chiesa, Ekitike and Leoni remain the four out.
 // Pointed at Manchester City at home, Sunday 11 October, after the international break.
 export const PLAYER_EVIDENCE = {
-  1:  "Kirkby · Save of the Month nominee",   // Alisson
-  2:  "Georgia · Ukraine in Tbilisi Mon",     // Mamardashvili
-  3:  "NED · at Serbia today",       // Van Dijk
-  5:  "Kirkby · 300th appearance next",        // Gomez
-  7:  "Booked in Hungary brawl · Belfast Mon",         // Kerkez
-  32: "Greece · assisted 95th-min winner",   // Tsimikas
+  1:  "Kirkby · rested · SotM nominee",   // Alisson
+  2:  "Georgia · Tbilisi on Monday",     // Mamardashvili
+  3:  "NED · a 5.5 in the Serbia win",       // Van Dijk
+  5:  "Kirkby · fit · 300th app next",        // Gomez
+  7:  "Hungary · Belfast tomorrow",         // Kerkez
+  32: "Greece · Kerkez's understudy",   // Tsimikas
   8:  "Knee · FotMob: early Jan 2027",      // Bradley
-  9:  "NED · at Serbia today",     // Frimpong
+  9:  "Cut from NED's 23 for Serbia",     // Frimpong
   10: "ACL · group work this break",       // Leoni
-  11: "On Sept POTM shortlist · France",    // Jacquet
+  11: "France · Brussels Mon · POTM list",    // Jacquet
   12: "On loan at Levante",           // Ndukwe
-  13: "ARG · renewal still unoffered",          // Mac Allister
-  14: "NED · at Serbia today · 9 mins last",         // Gravenberch
-  15: "Booked in Hungary brawl · Belfast Mon",   // Szoboszlai
+  13: "ARG · renewal now Ward's call",          // Mac Allister
+  14: "NED · started, off for Taylor",         // Gravenberch
+  15: "Hungary · Belfast tomorrow",   // Szoboszlai
   17: "Kirkby · January exit sanctioned",       // Endo
-  18: "GER · Serbia 1 Oct · debate runs",          // Wirtz
-  20: "Sees himself as a six · LFC feature",               // Nyoni
-  22: "Rescued NED v GER · at Serbia today",       // Gakpo
-  23: "POTM vote closes Mon · Poland",       // Isak
-  24: "Achilles · January at earliest",      // Ekitike
-  25: "Cut from England's Wembley 23",         // Ngumoha
-  26: "Group training by month's end",         // Chiesa
+  18: "GER · Serbia on Thursday",          // Wirtz
+  20: "U20s · the six in the cup",               // Nyoni
+  22: "Ankle · off 17' v Serbia · scan Mon",       // Gakpo
+  23: "Thigh · home from Sweden · doubt",       // Isak
+  24: "Achilles · months, not weeks",      // Ekitike
+  25: "England · 3 NL games left",         // Ngumoha
+  26: "Back · group training by 30 Sep",         // Chiesa
   27: "Third choice · Chelsea cup 28 Oct",       // Woodman
-  28: "Cut from Spain's Wembley 23",    // Munoz
-  29: "URU · Seoul Mon · 67 mins v Japan",   // Araujo
+  28: "Spain · cut at Wembley, fresh",    // Munoz
+  29: "URU · Seoul on Monday",   // Araujo
   30: "France · Brussels on Monday",          // Barcola
-  31: "Wales · Denmark at home today",         // Koumas
+  31: "Wales · sub in Copenhagen loss",         // Koumas
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -184,17 +184,17 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // Gakpo would take. Nothing here is a fitness doubt: every one of the eleven came through ninety
 // minutes or was withdrawn tactically.
 export const SLOT_CONFIDENCE = {
-  GK:  "High",      // Alisson · first choice in the league all season, three clean sheets running
-  LB:  "Sun Sep 27, morning - booked in Friday's Hungary brawl, Belfast on Monday still expected. The full ninety at Bournemouth, credited for effort over quality; Tsimikas is rated no higher.",    // Kerkez · started and struggled; Tsimikas is the only alternative and is rated no higher
-  LCB: "High",      // Van Dijk · every league minute this season,      // Van Dijk · every league minute this season
-  RCB: "Sun Sep 27, morning - shortlisted for September's Player of the Month and unused as France won in Turkiye, which is a fair summary of where a twenty-one-year-old stands: established at his club, queueing for his country. Jacquet won possession six times at Bournemouth per Opta and three of his four duels, was ever-present in a September back line that did not concede in the league, and is the obvious long-term answer beside whoever succeeds Van Dijk.",      // Jacquet · every league minute, and the best player on the pitch today,      // Jacquet · every league minute, and the best player on the pitch today
-  RB:  "High",      // Araujo · five consecutive league starts there, and Bradley is not close,      // Araujo · five consecutive league starts there, and Bradley is not close
-  LDM: "Sun Sep 27, morning - booked in the Hungary brawl, unrepentant, and still the settled half of the pivot; his deal is signed and his place is not in question.",    // Szoboszlai · started and was booked; Gravenberch came on for him,    // Szoboszlai · started and was booked; Gravenberch came on for him
-  RDM: "Medium",    // Mac Allister · the settled partner, but the pivot has rotated once already,    // Mac Allister · the settled partner, but the pivot has rotated once already
-  LAM: "Sun Sep 27, morning - a quarter-hour off the bench in France's 1-0 win in Turkiye, and the quiet around him holds. Barcola took the left at the Vitality against every preview, forced one save from Petrovic with a deflected curler, and was otherwise handled by a thirty-five-year-old on his 431st appearance for the club. A six. Early days, and a 106m-pound forward without a league goal.",       // Barcola · took the left today against every preview; Munoz replaced him on 72
-  CAM: "Low",       // Wirtz · a 5, six games without a contribution, and Gakpo's evidence behind him
-  RAM: "Medium",    // Gakpo · made the goal from the right, but he has now played three positions in five games
-  ST:  "Sun Sep 27, morning - the only senior nine at the club scored for Sweden on Friday, a twentieth-minute opener in a 2-1 win over Romania, in the week the Premier League shortlisted him for September. He is past the three he managed in fourteen Premier League appearances across all of last season, and only Haaland, also on four, has as many this year. Koumas is the entire cover.",      // Isak · the only senior centre-forward, and four goals in five
+  GK: "High",
+  LB: "Medium",
+  LCB: "High",
+  RCB: "High",
+  RB: "High",
+  LDM: "High",
+  RDM: "Medium",
+  LAM: "Medium",
+  CAM: "Low",
+  RAM: "Low",
+  ST: "Low",
 };
 
 
@@ -203,16 +203,16 @@ export const SLOT_CONFIDENCE = {
 // (evening), against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB:   "Sun Sep 27, morning - Belfast on Monday, a booking heavier after Friday's brawl, in which Kerkez threw Matviyenko to the floor per Football Insider; Keith Hackett expects federation charges rather than individual bans, so he is still expected to play. At the Vitality he went the full ninety at the club that sold him, credited by the BBC for effort rather than quality. Tsimikas, with Greece and a stoppage-time assist, is rated no higher. No market until January, and Semenyo attacks this flank at Anfield.",
-  LCB:  "Sun Sep 27, morning - the captain takes the Netherlands to Belgrade today, the Klopp reunion behind him after Gakpo rescued a 1-1 draw in Amsterdam. His Liverpool deal runs to 2027 with talks not due until next year, the Netherlands commitment to Euro 2028. On the pitch nothing is in doubt: every league minute bar the cup night, a seven at Bournemouth, three clean sheets running. Haaland is the first name back on 11 October.",
-  RCB:  "Sun Sep 27, morning - a year on from Leoni's knee, the man who arrived in his absence is on September's Player of the Month shortlist. Jacquet, twenty-one, won possession six times at Bournemouth per Opta and three of his four duels, held a September back line that did not concede a league goal, and is the obvious long-term answer beside whoever succeeds Van Dijk. The least complicated thing Liverpool bought in the summer.",
-  RB:   "Sun Sep 27, morning - with Uruguay in Seoul on Monday, and the slot the first brief any new recruitment chief reads. AnfieldWatch reports the club is weighing a permanent deal for Araujo, on loan from Barcelona, while Benfica's Banjaqui and Feyenoord's Read sit on the January list. Five straight league starts out of position and three clean sheets say he keeps it for City, with Semenyo the winger he must handle.",
-  LDM:  "Sun Sep 27, morning - Belfast on Monday, and unrepentant after Friday: football, he said, is all about fighting. Booked with Kerkez as Hungary lost 1-0 to Ukraine, with federation charges rather than bans expected. At the Vitality it was purpose without payoff, two free-kicks narrowly wide, a booking and a withdrawal on eighty-one. Nyoni, whom the club's own site calls a match for Iraola's style, is the young alternative.",
-  RDM:  "Sun Sep 27, morning - with Argentina, and the midfield file gained a name on Saturday: TEAMtalk has Liverpool exploring Atletico's Marcos Llorente, out of contract next summer. Mac Allister has said he was very sad not to be offered what Szoboszlai signed and that two more years would be perfect; the renewal waits on the sporting director's office. Seven possession wins at the Vitality, and undroppable on current evidence.",
-  LAM:  "Sun Sep 27, morning - France in Brussels on Monday, and the two men who might have pushed him spent Saturday out of the Wembley squads. Barcola took the left at the Vitality against every preview, forced one save from Petrovic, and was otherwise handled by a thirty-five-year-old on his 431st appearance. A six. Munoz and Ngumoha are the alternatives, and a 106m-pound forward still without a league goal is the caveat that travels with him.",
-  CAM:  "Sun Sep 27, morning - the drop-him debate runs on while the player waits on his country. Carragher called Wirtz's Bournemouth afternoon the poorest he has seen from him in a Liverpool shirt and said he cannot start against City, citing Opta's team-low 70.3 per cent passing accuracy and three chances created; Iraola disagreed on Sky Sports and Wirtz answered on Instagram. He reports late to Klopp's Germany, in line for Serbia on 1 October.",
-  RAM:  "Sun Sep 27, morning - the Netherlands he scored for in midweek go to Belgrade today. For the club he passed a warm-up on two sore adductors at Bournemouth, switched to the right, and delivered the ball that became Isak's winner, three chances created per Opta. He has played three positions in five games, which is why this slot is not higher than Medium.",
-  ST:   "Sun Sep 27, morning - the only senior nine is Sweden's until Monday, when they play Poland and his Player of the Month vote closes. Isak was close to anonymous for an hour at the Vitality and then did the one thing the position exists for, arriving where the blocked ball fell. Four in five leaves him level with Haaland at the top of the division. Koumas is the entire cover.",
+  LB: "Sun Sep 27, evening - Belfast tomorrow, the Friday booking carried rather than punished, with Keith Hackett expecting federation charges rather than individual bans. On a day that cost Liverpool two forwards, the hope for Kerkez is simply that he comes home in one piece. The club verdict from the Vitality stands, effort over quality, and Tsimikas is rated no higher. Semenyo attacks this flank at Anfield.",
+  LCB: "Sun Sep 27, evening - a 2-1 win in Belgrade for the captain's Netherlands and a 5.5 from Goal's reviewer, uneasy against Serbia's counters. He watched Gakpo go off inside twenty minutes. For Liverpool nothing is in doubt: every league minute bar the cup night, three clean sheets running, a deal to 2027. Haaland, who scored in Oslo on Sunday, is the first name back on 11 October.",
+  RCB: "Sun Sep 27, evening - Brussels on Monday with France, and a Player of the Month vote that closes the same day with his club-mate on the list and off the pitch. Jacquet, twenty-one, was ever-present in a September back line that did not concede a league goal. The least complicated thing Liverpool bought in the summer.",
+  RB: "Sun Sep 27, evening - Seoul on Monday with Uruguay, and a permanent deal for the loanee is now Julian Ward's decision. Frimpong, the cup alternative, watched the Dutch win from the stands after being cut from the 23. Five straight league starts out of position and three clean sheets say Araujo keeps it for City, with Semenyo the winger to handle.",
+  LDM: "Sun Sep 27, evening - Belfast tomorrow and unrepentant about Friday. Booked with Kerkez in the Hungary brawl, with charges rather than bans expected. His contract is signed and his place is not in question; the midfield has none of the forward line's injury problems this week.",
+  RDM: "Sun Sep 27, evening - with Argentina, and the renewal he has asked for now has a named decision-maker in Julian Ward, confirmed as sporting director on Saturday. Seven possession wins at the Vitality and undroppable on current evidence.",
+  LAM: "Sun Sep 27, evening - Brussels on Monday with France and fit, which on this Sunday counts for more than it did. If Gakpo's scan is bad, the flanks may need Munoz or Ngumoha, both cut from the Wembley squads, beside him. Still without a league goal.",
+  CAM: "Sun Sep 27, evening - Germany play Serbia on Thursday. The Carragher case against Wirtz starting against City rests on a team-low 70.3 per cent passing at Bournemouth; Iraola defended him. With two forwards being assessed, the case for dropping the most expensive creator weakens by the day.",
+  RAM: "Sun Sep 27, evening - Low now, not for form. Gakpo was forced off after seventeen minutes in Belgrade with a left-ankle injury from a late Sasa Lukic tackle, and Liverpool.com reports a scan on Monday; Xavi hopes it is not serious. He holds the slot pending that scan. Barcola, Munoz and Chiesa, if his back holds, are the alternatives.",
+  ST: "Sun Sep 27, evening - Low for fitness, not form. Isak is home from Sweden with a minor thigh problem, per Graham Potter, and will be assessed at the AXA; the club calls it minor and Sports Mole expects him back for City. He holds the slot on that reading. Koumas, a substitute in Copenhagen on Sunday, is the only other fit recognised striker.",
 };
 
 
@@ -230,15 +230,15 @@ export const ALTERNATIVES = {
   RDM: [{ playerId: 14, reason: "Gravenberch \u00b7 the man Mac Allister displaced at Fulham, now a closing substitute" }, { playerId: 17, reason: "Endo \u00b7 unused, available, and leaving in January" }],
   LAM: [{ playerId: 28, reason: "Munoz \u00b7 on for Barcola on 72 at the Vitality; cut from Spain's Wembley squad, still waiting on a start" }, { playerId: 25, reason: "Ngumoha \u00b7 18 \u00b7 left out of England's 23 against Spain; three Nations League games left" }],
   CAM: [{ playerId: 22, reason: "Gakpo \u00b7 three chances created from the right; the better evidence than the incumbent" }, { playerId: 15, reason: "Szoboszlai \u00b7 has played the ten before; drawn deeper in this shape" }],
-  RAM: [{ playerId: 30, reason: "Barcola \u00b7 the flanks swapped at Bournemouth and could swap back" }, { playerId: 26, reason: "Chiesa \u00b7 aiming to resume training by the end of September; Sports Mole pencils 11 October" }],
-  ST:  [{ playerId: 22, reason: "Gakpo \u00b7 led the line and scored in the cup; the first cover while Ekitike is out" }, { playerId: 31, reason: "Koumas \u00b7 on for Isak on 81; the false-nine option and the whole depth chart" }],
+  RAM: [{ playerId: 30, reason: "Barcola \u00b7 fit with France; the flanks swapped at Bournemouth and could swap back if Gakpo misses out" }, { playerId: 26, reason: "Chiesa \u00b7 aiming to resume training by the end of September; Sports Mole pencils 11 October" }],
+  ST:  [{ playerId: 31, reason: "Koumas \u00b7 on for Isak on 81 at Bournemouth; the only other fit recognised striker while Isak is assessed" }, { playerId: 22, reason: "Gakpo \u00b7 led the line in the cup, but now an ankle doubt himself" }],
 };
 
 // ─── Prediction confidence & metadata ───────────────────────────────────────
 // Overall confidence chip shown above the pitch. Enriched with predictor
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
-  level: "Medium",
-  generated_at: "2026-09-27T08:30:00Z",
-  reason: "Sun Sep 27, morning. The eleven holds: the side that started at Bournemouth remains the baseline for Manchester City at Anfield on Sunday 11 October at 4.30pm, a 4-2-3-1 of Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Szoboszlai; Gakpo, Wirtz, Barcola; Isak. No injury or selection news changed a name on it this weekend; September's shortlists, which named Iraola, Isak and Jacquet, reward the eleven rather than alter it. Monday, when most of them play abroad, is the risk day. Confidence stays Medium: fourteen days out and most of the side away. Bradley and Ekitike remain out.",
+  level: "Low",
+  generated_at: "2026-09-27T22:30:00Z",
+  reason: "Sun Sep 27, evening. Two names on the baseline eleven are now doubts: Isak, home from Sweden with a minor thigh problem, and Gakpo, forced off in Belgrade with an ankle injury and due a scan on Monday. Both hold their slots on the sheet for Manchester City at Anfield on Sunday 11 October because both injuries are described as minor, but the confidence drops to Low until the assessments are known. The 4-2-3-1 is otherwise the side that started at Bournemouth: Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Szoboszlai; Gakpo, Wirtz, Barcola; Isak. Koumas is the fallback at nine. Bradley and Ekitike remain out.",
 };

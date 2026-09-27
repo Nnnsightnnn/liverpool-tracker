@@ -484,11 +484,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday, and the league is on pause while the honours are counted.
-          Liverpool ran through September's Premier League shortlists: Iraola for
-          manager, Isak and Jacquet for player, Alisson for a save, the return on
-          an unbeaten month that conceded no league goal. They sit sixth, level
-          with three sides on nine, a fortnight from Manchester City at Anfield.
+          Sunday evening, and the international break has sent two of Liverpool's
+          forwards home damaged. Isak left Sweden with a minor thigh problem, Gakpo
+          left Belgrade on a hurt ankle with a scan to come, and Ekitike's Achilles
+          means the cover is Koumas. Sixth on nine, a fortnight from City at Anfield.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,35 +518,34 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and for once the Liverpool story is a list. The Premier League
-              published its September shortlists over the weekend and the club is
-              all over them: Andoni Iraola up for Manager of the Month in his first
-              month eligible, Alexander Isak and Jeremy Jacquet among the eight for
-              Player of the Month, Alisson nominated for a save, the reward for a
-              month in which Liverpool did not concede a league goal. The football,
-              for now, belongs to other flags: the Netherlands take four Reds to
-              Belgrade this afternoon, and on Monday most of the squad plays before
-              it reassembles. Manchester City come to Anfield in a fortnight, their
-              own week swallowed by the reported verdict on 114 of 115 charges
-              and a chairman who says nothing has changed. Sixth, unbeaten and quietly
-              decorated, Liverpool go into the pause with the ledger in credit and
-              the hard month waiting on the other side of it.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              on the Sunday the break began to send its bills. Alexander Isak came home
+              from Sweden in the morning with what the club called a minor injury, a
+              thigh by Graham Potter's account; by mid-afternoon Cody Gakpo had left
+              the field in Belgrade after seventeen minutes with his left ankle bound
+              for a scanner. Neither sounds serious, and the medical language is
+              careful to say so. But these are the man who has scored four of
+              Liverpool's seven league goals and the man who made the last one, in a
+              squad whose only other senior nine is months from playing. Elsewhere the
+              day was gentler: the Dutch won, the women beat Everton at Anfield with
+              Iraola watching, and Julian Ward sat down as sporting director for a
+              second time. City come in a fortnight, and the question has shifted from
+              how Liverpool stop them to who will be fit to try.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There are four
-              names on September's shortlists and a manager among them; four Reds
-              in the Dutch side at Belgrade; a head coach spending his free Sunday
-              in the Kop for the women's derby; the leaders whose week was a
-              courtroom rather than a pitch; and an Atletico midfielder edging onto
-              the January list. Read them in order. The season has produced draws
-              at Newcastle and Anfield, wins at Ipswich and Bournemouth, a European
-              night, a goalless afternoon against Fulham and a cup tie that produced
-              three; the market is shut until January, save for the men no one owns.
+              dispatches from the writers who never clock off. There are two
+              forwards lost to the break in a single Sunday; a Dutch win in Belgrade
+              with Liverpool footnotes; a head coach in the stand as the women broke
+              an Everton run at Anfield; a sporting director back at an old desk; and
+              the leaders' scorer finding the net in defeat in Oslo. Read them in
+              order. The season has produced draws at Newcastle and Anfield, wins at
+              Ipswich and Bournemouth, a European night, a goalless afternoon against
+              Fulham and a cup tie that produced three; the market is shut until
+              January, whatever the physios report.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3757,7 +3755,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "September counted its names in red."
+        "The break sends its bills home."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
