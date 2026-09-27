@@ -484,11 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday night, and Wembley told the evening's Liverpool story by
-          leaving Liverpool out of it. Rio Ngumoha and Victor Munoz, billed as
-          opponents, were both cut from their matchday squads, and Spain won
-          3-2 on two errors by Manchester City defenders. Liverpool are sixth
-          and unbeaten, fifteen days from City at Anfield.
+          Sunday, and the league is on pause while the honours are counted.
+          Liverpool ran through September's Premier League shortlists: Iraola for
+          manager, Isak and Jacquet for player, Alisson for a save, the return on
+          an unbeaten month that conceded no league goal. They sit sixth, level
+          with three sides on nine, a fortnight from Manchester City at Anfield.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,36 +519,35 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the Liverpool story at Wembley was an absence. Rio Ngumoha and
-              Victor Munoz had been billed all week as club team-mates made
-              opponents, and by breakfast the official squad lists had removed
-              them both, England and Spain each carrying one more player than
-              UEFA lets them name. So the two wingers watched Spain win 3-2, and
-              the detail worth keeping belonged to the side Liverpool play next:
-              Marc Guehi's blunder gave Yamal the opener inside two minutes, and a
-              Nico O'Reilly mistake let Baena equalise on the hour, two Manchester
-              City defenders undone. Their chairman
-              spent the day insisting nothing has changed after the reported
-              verdict on 114 charges. Elsewhere Szoboszlai and Kerkez were booked
-              in a brawl in Hungary's defeat, and Iraola, who might have been on
-              holiday, will sit at Anfield on Sunday for the women's derby. Fifteen
-              days until City, and tonight the scouting did itself.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and for once the Liverpool story is a list. The Premier League
+              published its September shortlists over the weekend and the club is
+              all over them: Andoni Iraola up for Manager of the Month in his first
+              month eligible, Alexander Isak and Jeremy Jacquet among the eight for
+              Player of the Month, Alisson nominated for a save, the reward for a
+              month in which Liverpool did not concede a league goal. The football,
+              for now, belongs to other flags: the Netherlands take four Reds to
+              Belgrade this afternoon, and on Monday most of the squad plays before
+              it reassembles. Manchester City come to Anfield in a fortnight, their
+              own week swallowed by the reported verdict on 114 charges and a
+              chairman who says nothing has changed. Sixth, unbeaten and quietly
+              decorated, Liverpool go into the pause with the ledger in credit and
+              the hard month waiting on the other side of it.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There are two
-              wingers who spent Wembley in the stand; the City defenders whose
-              mistakes decided it; a chairman who concedes nothing; a brawl in
-              Hungary and a Monday in Belfast; and an Atletico name on the
-              list. Read them in order. The season has produced draws at
-              Newcastle and Anfield, wins at Ipswich and Bournemouth, a European
-              night, a goalless afternoon against Fulham and a cup tie that
-              produced three; the market is shut until January, save for the men
-              no one owns.
+              dispatches from the writers who never clock off. There are four
+              names on September's shortlists and a manager among them; four Reds
+              in the Dutch side at Belgrade; a head coach spending his free Sunday
+              in the Kop for the women's derby; the leaders whose week was a
+              courtroom rather than a pitch; and an Atletico midfielder edging onto
+              the January list. Read them in order. The season has produced draws
+              at Newcastle and Anfield, wins at Ipswich and Bournemouth, a European
+              night, a goalless afternoon against Fulham and a cup tie that produced
+              three; the market is shut until January, save for the men no one owns.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3758,7 +3757,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Two Reds watched, and City's defenders blinked."
+        "September counted its names in red."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
