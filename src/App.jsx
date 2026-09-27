@@ -528,8 +528,8 @@ function CoverView({ onJump }) {
               Liverpool's seven league goals and the man who made the last one, in a
               squad whose only other senior nine is months from playing. Elsewhere the
               day was gentler: the Dutch won, the women beat Everton at Anfield with
-              Iraola watching, and Julian Ward sat down as sporting director for a
-              second time. City come in a fortnight, and the question has shifted from
+              Iraola watching, and a day earlier Julian Ward had sat down as sporting
+              director for a second time. City come in a fortnight, and the question has shifted from
               how Liverpool stop them to who will be fit to try.
             </p>
             <p className="cover-letter-body" style={{
