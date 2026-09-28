@@ -484,10 +484,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday evening, and the international break has sent two of Liverpool's
-          forwards home damaged. Isak left Sweden with a minor thigh problem, Gakpo
-          left Belgrade on a hurt ankle with a scan to come, and Ekitike's Achilles
-          means the cover is Koumas. Sixth on nine, a fortnight from City at Anfield.
+          Monday morning, and the fortnight before City has narrowed to a single
+          scan. Gakpo's ankle is assessed today, the difference between a fortnight
+          out and most of the autumn; Isak's thigh, Graham Potter says, is only
+          workload, and should clear in time. Ekitike is months away and Koumas is
+          the cover. Sixth on nine, thirteen days from City at Anfield.
         </p>
 
         <StatStrip stats={stats} />
@@ -518,34 +519,37 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              on the Sunday the break began to send its bills. Alexander Isak came home
-              from Sweden in the morning with what the club called a minor injury, a
-              thigh by Graham Potter's account; by mid-afternoon Cody Gakpo had left
-              the field in Belgrade after seventeen minutes with his left ankle bound
-              for a scanner. Neither sounds serious, and the medical language is
-              careful to say so. But these are the man who has scored four of
-              Liverpool's seven league goals and the man who made the last one, in a
-              squad whose only other senior nine is months from playing. Elsewhere the
-              day was gentler: the Dutch won, the women beat Everton at Anfield with
-              Iraola watching, and a day earlier Julian Ward had sat down as sporting
-              director for a second time. City come in a fortnight, and the question has shifted from
-              how Liverpool stop them to who will be fit to try.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and Liverpool's fortnight before Manchester City comes down to one
+              radiograph. Cody Gakpo, carried out of Belgrade on Sunday after seventeen
+              minutes, has his left ankle scanned today, and the grade of it decides
+              whether the club's most reliable creator this autumn is at Anfield on the
+              eleventh or watching into November. The morning's one softer note is
+              Alexander Isak, whose withdrawal from Sweden Graham Potter has now
+              explained as a precaution against a congested run rather than anything
+              torn; Sports Mole expects him back for City. It leaves Andoni Iraola with
+              a single number to wait for, a striker department already down to Koumas
+              behind the two men being assessed, and a break that keeps taking more
+              than it gives. Elsewhere the week is quieter than the last: Julian Ward
+              has settled into the sporting director's chair, the women have their
+              derby, and the awards vote that carries Isak's name closes at noon. City
+              come in thirteen days, and the only question that matters is who will be
+              fit to meet them.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There are two
-              forwards lost to the break in a single Sunday; a Dutch win in Belgrade
-              with Liverpool footnotes; a head coach in the stand as the women broke
-              an Everton run at Anfield; a sporting director back at an old desk; and
-              the leaders' scorer finding the net in defeat in Oslo. Read them in
-              order. The season has produced draws at Newcastle and Anfield, wins at
-              Ipswich and Bournemouth, a European night, a goalless afternoon against
-              Fulham and a cup tie that produced three; the market is shut until
-              January, whatever the physios report.
+              dispatches from the writers who never clock off. There is a fortnight
+              before City that turns on a single scan; a head coach whose free week
+              became a medical one; a sporting director opening with bulletins rather
+              than bids; a City side coming back whole; and a vote closing at noon on
+              a striker who cannot kick. Read them in order. The season has produced
+              draws at Newcastle and Anfield, wins at Ipswich and Bournemouth, a
+              European night, a goalless afternoon against Fulham and a cup tie that
+              produced three; the market is shut until January, whatever the physios
+              report.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3755,7 +3759,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The break sends its bills home."
+        "The whole autumn, waiting on a scan."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
