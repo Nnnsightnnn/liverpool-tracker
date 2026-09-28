@@ -138,8 +138,8 @@ const LATEST_NEWS = [
   { source: "Yahoo Sports", title: "Gakpo returns to Liverpool after injury with the Netherlands", time: "today", category: "major" },
   { source: "Rousing The Kop", title: "How Liverpool's attack could look vs City without Isak and Gakpo", time: "today", category: "fan" },
   { source: "Sports Mole", title: "Liverpool receive 'scan' update on Gakpo ahead of Man City clash", time: "today", category: "fan" },
+  { source: "Liverpool.com", title: "Iraola left with an unnecessary headache as the international break bites", time: "today", category: "major" },
   { source: "Sports Mole", title: "The scale of Florian Wirtz's Liverpool drop-off: 18 goal involvements in 55 games", time: "1d ago", category: "fan" },
-  { source: "Liverpool.com", title: "Iraola left with an unnecessary headache as the international break bites", time: "1d ago", category: "major" },
   { source: "Liverpool FC", title: "Julian Ward begins second spell as sporting director", time: "2d ago", category: "official" },
 ];
 

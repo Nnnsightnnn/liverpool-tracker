@@ -520,7 +520,7 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the verdict on Cody Gakpo's ankle is in, and it came in two halves. Liverpool
+              the first word on Cody Gakpo's ankle is in, and it came in two halves. Liverpool
               confirmed in the afternoon that he had left the Netherlands squad and
               would be assessed at the AXA; a Dutch reporter, Rik Elfrink, supplied
               the rest, several weeks, and with it the probable loss of the club's

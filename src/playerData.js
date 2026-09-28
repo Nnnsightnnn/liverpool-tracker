@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2026-27 Season · Updated 12 September 2026 (evening)) ──────
+// ─── Liverpool FC Player Data (2026-27 Season · Updated 28 September 2026 (evening)) ──────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -612,8 +612,8 @@ export const COVER_IMAGE = {
   // Evening pass (Fri 4 September): Ipswich 0-2 Liverpool, Isak 6' and 9', Track 1 plate 2026-09-04-isak-brace.svg.
   brief: {
     leadStory:
-      "Alexander Isak was sent home from Sweden on Sunday with what Liverpool called a minor injury and Graham Potter a minor thigh problem, and Cody Gakpo was forced off after seventeen minutes of the Netherlands' 2-1 win in Serbia with a left-ankle injury, a scan due Monday, a fortnight before Manchester City visit Anfield. Julian Ward was confirmed as sporting director on Saturday.",
-    subject: "No new plate requested this edition. The lead is a reported boardroom appointment with no single photographable moment, and the skill caps queueing at one genuinely visual moment per edition.",
+      "Liverpool confirmed on Monday that Cody Gakpo has withdrawn from the Netherlands squad with an ankle injury and will be assessed at the AXA; Dutch journalist Rik Elfrink reports he will be out for several weeks, likely missing Manchester City at Anfield on 11 October.",
+    subject: "No new plate requested this edition. The lead is an injury withdrawal from international duty with no single photographable moment, and the skill caps queueing at one genuinely visual moment per edition.",
     prompt: "NO ACTION. Antigravity should not generate an image for this edition. The standing candidate for a future edition is Jeremy Jacquet, twenty-one, taking the highest rating on the field on the afternoon France called him up for the first time.",
     aspectRatio: "landscape",
     slug: "none-this-edition",
@@ -791,7 +791,7 @@ export const DISPATCHES = [
 export const NEWS_DIGEST = {
   generatedAt: "2026-09-28T22:30:00Z",
   summary:
-    "Monday evening, and the scan's answer has arrived in the wrong direction. Liverpool confirmed on Monday that Cody Gakpo has withdrawn from the Netherlands squad with the ankle injury Sasa Lukic's tackle caused in Belgrade and returns to the AXA for further assessment, and Dutch journalist Rik Elfrink reports he will be out for several weeks, which Inside Futbol and Yahoo Sports read as the end of his chances for Manchester City on 11 October. The club has published no timeframe of its own, and Sports Mole's grading still frames the range, about two weeks for a mild sprain and three to six for a moderate one, long enough at the far end to take in LASK, Brentford and Villarreal. It leaves Isak's thigh, 'a small problem' in Graham Potter's words, as the one forward worry still leaning the right way, and Munoz, Ngumoha and Koumas as the names Rousing The Kop and Sports Mole now reach for. The rest of Monday went quietly well abroad: Jeremy Jacquet won his first France cap and kept a clean sheet in a 1-0 win in Brussels with Barcola alongside, Szoboszlai and Kerkez finished ninety minutes in Belfast unhurt, and Ronald Araujo played the whole of Uruguay's 4-1 win in Seoul.",
+    "Monday evening, and the first answer on Gakpo's ankle, from the Dutch camp rather than the club, points the wrong way. Liverpool confirmed on Monday that Cody Gakpo has withdrawn from the Netherlands squad with the ankle injury Sasa Lukic's tackle caused in Belgrade and returns to the AXA for further assessment, and Dutch journalist Rik Elfrink reports he will be out for several weeks, which Inside Futbol and Yahoo Sports read as the end of his chances for Manchester City on 11 October. The club has published no timeframe of its own, and Sports Mole's grading still frames the range, about two weeks for a mild sprain and three to six for a moderate one, long enough at the far end to take in LASK, Brentford and Villarreal. It leaves Isak's thigh, 'a small problem' in Graham Potter's words, as the one forward worry still leaning the right way, and Munoz, Ngumoha and Koumas as the names Rousing The Kop and Sports Mole now reach for. The rest of Monday went quietly well abroad: Jeremy Jacquet won his first France cap and kept a clean sheet in a 1-0 win in Brussels with Barcola alongside, Szoboszlai and Kerkez finished ninety minutes in Belfast unhurt, and Ronald Araujo played the whole of Uruguay's 4-1 win in Seoul.",
   keyTopics: [
     {
       title: "Gakpo Withdrawn By The Netherlands, Reported Out For Several Weeks (Liverpool FC / Inside Futbol, this evening)",
