@@ -394,7 +394,7 @@ export const TEAM_LOGOS = {
 export const COVER_IMAGE = {
   src: "/assets/cover/2026-09-15-szoboszlai-volley.svg",
   alt: "Editorial plate: a floodlit night at Anfield, a midfielder in red striking a volley from thirty yards, the ball leaving his boot in a blur, a goalkeeper in the distance beginning to move the wrong way, a wall of supporters rising behind the goal.",
-  focus: "Carried plate, not this edition's lead, which is Gakpo's ankle scan and a softening account of Isak's thigh a fortnight before City, a medical bulletin rather than a single Liverpool still: Liverpool 3-1 Tottenham, Carabao Cup third round",
+  focus: "Carried plate, not this edition's lead, which is Gakpo's ankle scan and a softening account of Isak's thigh thirteen days before City, a medical bulletin rather than a single Liverpool still: Liverpool 3-1 Tottenham, Carabao Cup third round",
   credit: "Plate · carried from 15 September",
   generatedAt: "2026-09-28T08:30:00Z",
   // Evening pass (Sun 27 September, ~6pm ET): NO MATCH, international break. The lead is injury news for the City week:

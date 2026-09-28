@@ -649,9 +649,10 @@ function FormBlock({ results }) {
         color: T.ivoryDim, lineHeight: 1.6,
         borderTop: `1px solid ${T.rule}`, paddingTop: 14,
       }}>
-        A goalless draw with Fulham ends the two-match winning run and makes it
-        three draws in four league games. The first blank under Iraola, and the
-        first time, he said, his side has struggled to create.
+        A first away league win of the season at Bournemouth, 1-0 through Isak,
+        keeps the unbeaten run going and makes it three clean sheets in a row. Four
+        wins and a draw across the last five in all competitions, the goalless
+        afternoon against Fulham the only game in the sequence Liverpool did not take.
       </p>
     </div>
   );
