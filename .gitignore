@@ -5,7 +5,7 @@ dist.*/
 .DS_Store
 .claude/
 *.local
-SKILL.md
+# SKILL.md is tracked (since 2026-09-29) so cloud scheduled runs can read the procedure
 CLAUDE.md
 src/lineupLog.json
 git-lock-rescue-SKILL.md
