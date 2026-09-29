@@ -522,8 +522,8 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              and the week's second story arrives from Madrid
-              rather than the treatment room. Mundo Deportivo
+              and the week's story has moved from the treatment
+              room to Madrid. Mundo Deportivo
               reports that Real Madrid are weighing a free
               transfer for Virgil van Dijk, whose contract
               runs out next summer with nothing yet offered to
