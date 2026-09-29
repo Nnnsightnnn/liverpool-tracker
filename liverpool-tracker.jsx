@@ -2,7 +2,7 @@ import { useState, useMemo } from "react";
 import _ from "lodash";
 
 // ─── Liverpool FC Player Tracker ────────────────────────────────────────────
-// Current 2025-26 squad data, form ratings, stats, and RSS news feeds
+// Current 2026-27 squad data, form ratings, stats, and RSS news feeds
 
 const LFC_RED = "#C8102E";
 const LFC_DARK = "#1a1a2e";
@@ -73,7 +73,7 @@ function PlayerAvatar({ player, size = 64 }) {
   );
 }
 
-// ─── Player Data (2025-26 Season · Updated June 11, 2026) ─────────────────
+// ─── Player Data (2026-27 Season · Updated 29 September 2026) ─────────────────
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
 // injuryNote: short description shown on card when not fit
 const PLAYERS = [
