@@ -484,11 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday evening, and the wait has an answer, the wrong one. Gakpo has
-          left the Dutch camp with an ankle reported to cost him several weeks,
-          which most likely takes Manchester City with it; Isak's thigh is still
-          called minor. Jacquet won a first France cap and a clean sheet. Sixth
-          on nine, thirteen days from City at Anfield.
+          Tuesday morning, and the wait has narrowed to a scan. Gakpo's ankle,
+          twisted by a scissor-tackle in Belgrade, has gone for imaging with no
+          grade set, the reporting spanning a fortnight to a possible surgery;
+          Isak's thigh is still called minor. Barcola holds the left, and the
+          right, the previews say, may fall to a teenager. Sixth on nine, twelve
+          days from City at Anfield.
         </p>
 
         <StatStrip stats={stats} />
@@ -519,34 +520,33 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the first word on Cody Gakpo's ankle is in, and it came in two halves. Liverpool
-              confirmed in the afternoon that he had left the Netherlands squad and
-              would be assessed at the AXA; a Dutch reporter, Rik Elfrink, supplied
-              the rest, several weeks, and with it the probable loss of the club's
-              most reliable creator for Manchester City at Anfield on the eleventh.
-              The club itself has not put a number on it. What remains is a front
-              line built around a striker whose thigh Graham Potter calls a small
-              problem, a 123m-pound winger still waiting on a league goal, and three
-              younger names the previews now reach for: Munoz, Ngumoha, Koumas. The
-              evening did return one thing. Jeremy Jacquet, twenty-one, won his first
-              France cap in Brussels and kept a clean sheet, and everyone else who
-              played on Monday came home whole. Thirteen days, and fewer forwards
-              than Iraola had on Sunday.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and the news on Cody Gakpo's ankle is a scan, not yet a number. Liverpool
+              sent the injury for imaging after the scissor-tackle Sasa Lukic left on
+              it in Belgrade, and set no grade of their own; the estimates run from a
+              two-week sprain to the high ankle sprain an injury analyst read into the
+              mechanism, the kind that at its worst means surgery and the far side of
+              November. The Dutch examination in Eindhoven had already offered several
+              weeks. Manchester City, twelve days away, looks beyond Gakpo whichever
+              way it falls, and the previews have turned to the shirt he leaves empty:
+              Barcola certain on the left, Ngumoha or Koumas on the other side, Isak's
+              own thigh still a question at the nine. The break cannot even be used to
+              drill the shape, because half the answers are away on international duty
+              until the weekend. Twelve days, and a front line Iraola cannot yet name.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is an ankle
-              that costs the City game; three ways to fill the shirt it leaves
-              empty; a first cap kept clean in Brussels; a Monday on which everyone
-              else came home whole; and a front line now measured in weeks. Read
-              them in order. The season has produced draws at Newcastle and Anfield,
-              wins at Ipswich and Bournemouth, a European night, a goalless afternoon
-              against Fulham and a cup tie that produced three; the market is shut
-              until January, whatever the physios report.
+              dispatches from the writers who never clock off. There is a scan that
+              will decide Gakpo's autumn; a right wing the previews hand to a
+              teenager; one defender walking back as two forwards go down; a headache
+              the calendar handed Iraola; and a leader arriving at Anfield with a
+              leak of its own. Read them in order. The season has produced draws at
+              Newcastle and Anfield, wins at Ipswich and Bournemouth, a European
+              night, a goalless afternoon against Fulham and a cup tie that produced
+              three; the market is shut until January, whatever the scan reports.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3757,7 +3757,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Several weeks, and City in thirteen days."
+        "A scan now, and a shirt to fill."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
