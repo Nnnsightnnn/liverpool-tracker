@@ -484,12 +484,13 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday morning, and the wait has narrowed to a scan. Gakpo's ankle,
-          twisted by a scissor-tackle in Belgrade, has gone for imaging with no
-          grade set, the reporting spanning a fortnight to a possible surgery;
-          Isak's thigh is still called minor. Barcola holds the left, and the
-          right, the previews say, may fall to a teenager. Sixth on nine, twelve
-          days from City at Anfield.
+          Tuesday evening, and the question has moved from the
+          treatment room to the contract drawer. Madrid, by
+          Spanish reports, are weighing Van Dijk on a free, his
+          deal ending next summer with nothing yet offered;
+          Gakpo's ankle still carries no grade, and City, twelve
+          days off, looks beyond him. Sixth on nine, and a
+          captain's future suddenly on the table.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,33 +521,46 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and the news on Cody Gakpo's ankle is a scan, not yet a number. Liverpool
-              sent the injury for imaging after the scissor-tackle Sasa Lukic left on
-              it in Belgrade, and set no grade of their own; the estimates run from a
-              two-week sprain to the high ankle sprain an injury analyst read into the
-              mechanism, the kind that at its worst means surgery and the far side of
-              November. The Dutch examination in Eindhoven had already offered several
-              weeks. Manchester City, twelve days away, looks beyond Gakpo whichever
-              way it falls, and the previews have turned to the shirt he leaves empty:
-              Barcola certain on the left, Ngumoha or Koumas on the other side, Isak's
-              own thigh still a question at the nine. The break cannot even be used to
-              drill the shape, because half the answers are away on international duty
-              until the weekend. Twelve days, and a front line Iraola cannot yet name.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              and the week's second story arrives from Madrid
+              rather than the treatment room. Mundo Deportivo
+              reports that Real Madrid are weighing a free
+              transfer for Virgil van Dijk, whose contract
+              runs out next summer with nothing yet offered to
+              extend it, and Sports Mole adds Milan,
+              Galatasaray and Inter Miami to the queue. It is
+              the road Ibrahima Konate took in the summer, and
+              from January the captain may sign to walk down
+              it. The timing is awkward in a way that matters:
+              the defence has been the part of the season that
+              works, and its best evidence this week is Jeremy
+              Jacquet, twenty-one, passing through the lines
+              as often as the man beside him. Up front the
+              news stays medical, Gakpo's ankle ungraded and
+              City beyond him, Isak's stamped foot expected to
+              clear. Twelve days before the leaders arrive,
+              the club is being asked about next summer's
+              defence as well as this month's attack.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
-              Inside, the squad as a roster, the standings live again, and five
-              dispatches from the writers who never clock off. There is a scan that
-              will decide Gakpo's autumn; a right wing the previews hand to a
-              teenager; one defender walking back as two forwards go down; a headache
-              the calendar handed Iraola; and a leader arriving at Anfield with a
-              leak of its own. Read them in order. The season has produced draws at
-              Newcastle and Anfield, wins at Ipswich and Bournemouth, a European
-              night, a goalless afternoon against Fulham and a cup tie that produced
-              three; the market is shut until January, whatever the scan reports.
+              Inside, the squad as a roster, the standings
+              live again, and five dispatches from the writers
+              who never clock off. There is a captain's
+              contract that has found a reader in Madrid;
+              three weeks read two ways at the AXA; a young
+              defender who passes like the old one; a door
+              Rummenigge would not close on Wirtz; and a
+              leader arriving at Anfield with only one name
+              missing. Read them in order. The season has
+              produced draws at Newcastle and Anfield, wins at
+              Ipswich and Bournemouth, a European night, a
+              goalless afternoon against Fulham and a cup tie
+              that produced three; the market is shut until
+              January, which is now also the month the captain
+              may start listening.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3757,7 +3771,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A scan now, and a shirt to fill."
+        "A captain's contract, and a Madrid postmark."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
