@@ -484,13 +484,13 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday evening, and the question has moved from the
-          treatment room to the contract drawer. Madrid, by
-          Spanish reports, are weighing Van Dijk on a free, his
-          deal ending next summer with nothing yet offered;
-          Gakpo's ankle still carries no grade, and City, twelve
-          days off, looks beyond him. Sixth on nine, and a
-          captain's future suddenly on the table.
+          Tuesday night, and the captain's future has acquired
+          a timetable. Galatasaray are reported ready to
+          approach in January, Madrid weigh a free transfer
+          for the summer, and Liverpool are said to be watching
+          Bastoni as the man to follow him. Sixth on nine,
+          Gakpo's ankle still ungraded, and City at Anfield
+          twelve days from now.
         </p>
 
         <StatStrip stats={stats} />
@@ -521,26 +521,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              and the week's story has moved from the treatment
-              room to Madrid. Mundo Deportivo
-              reports that Real Madrid are weighing a free
-              transfer for Virgil van Dijk, whose contract
-              runs out next summer with nothing yet offered to
-              extend it, and Sports Mole adds Milan,
-              Galatasaray and Inter Miami to the queue. It is
-              the road Ibrahima Konate took in the summer, and
-              from January the captain may sign to walk down
-              it. The timing is awkward in a way that matters:
-              the defence has been the part of the season that
-              works, and its best evidence this week is Jeremy
-              Jacquet, twenty-one, passing through the lines
-              as often as the man beside him. Up front the
-              news stays medical, Gakpo's ankle ungraded and
-              City beyond him, Isak's stamped foot expected to
-              clear. Twelve days before the leaders arrive,
-              the club is being asked about next summer's
-              defence as well as this month's attack.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              late, and the reporting on Virgil van Dijk has done
+              what reporting does when a contract runs down: it
+              has found dates. AnfieldWatch has Galatasaray ready
+              to approach in January, the first month the captain
+              may talk to a club abroad; Madrid Universal ties Real
+              Madrid's interest to Antonio Rudiger's deal ending
+              the same summer; and Liverpool, by the same
+              accounts, are already looking at Alessandro Bastoni
+              in Milan. Nobody has bid, and the club has said
+              nothing. Elsewhere the break is being unkind at a
+              distance, Wirtz marked four out of ten in Klopp's
+              first defeat and Gakpo's ankle still without a grade
+              at the AXA. Twelve days before City, the most settled
+              part of the team is the one the market has started
+              to price.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -548,13 +544,12 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings
               live again, and five dispatches from the writers
-              who never clock off. There is a captain's
-              contract that has found a reader in Madrid;
-              three weeks read two ways at the AXA; a young
-              defender who passes like the old one; a door
-              Rummenigge would not close on Wirtz; and a
-              leader arriving at Anfield with only one name
-              missing. Read them in order. The season has
+              who never clock off. There is a calendar
+              forming around the captain; twenty-five minutes
+              under Klopp; a month Chiesa aimed at that ends
+              tomorrow; ninety minutes against the old
+              manager; and six thousand tickets for a cup
+              night in October. Read them in order. The season has
               produced draws at Newcastle and Anfield, wins at
               Ipswich and Bournemouth, a European night, a
               goalless afternoon against Fulham and a cup tie
@@ -3771,7 +3766,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A captain's contract, and a Madrid postmark."
+        "A captain's future, now with dates attached."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

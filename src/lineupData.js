@@ -137,10 +137,10 @@ export const FORMATIONS = {
 export const PLAYER_EVIDENCE = {
   1:  "Kirkby · first choice for City",   // Alisson
   2:  "Georgia · clean sheet v Ukraine",     // Mamardashvili
-  3:  "NED · Madrid link, deal ends 2027",       // Van Dijk
+  3:  "NED · Gala, Madrid circle for 2027",       // Van Dijk
   5:  "Kirkby · 300th app next",        // Gomez
   7:  "HUN · 90 mins in Belfast 0-0",         // Kerkez
-  32: "Greece · Kerkez's cover",   // Tsimikas
+  32: "GRE · 90 mins, win over Germany",   // Tsimikas
   8:  "Knee · FotMob: early Jan 2027",      // Bradley
   9:  "NED squad · Araujo's understudy",     // Frimpong
   10: "ACL · group work this break",       // Leoni
@@ -150,13 +150,13 @@ export const PLAYER_EVIDENCE = {
   14: "NED · Taylor's sub in Belgrade",         // Gravenberch
   15: "HUN · 90 mins in Belfast 0-0",   // Szoboszlai
   17: "Kirkby · January exit sanctioned",       // Endo
-  18: "Rummenigge: 'I don't know'",          // Wirtz
+  18: "GER · Sport1 4/10 v Greece",          // Wirtz
   20: "Midfield depth · the six in cup",               // Nyoni
   22: "Ankle · ungraded, ~3 weeks",       // Gakpo
   23: "Stamped foot · minor, City aim",       // Isak
   24: "Achilles · January at earliest",      // Ekitike
   25: "England · right-side City option",         // Ngumoha
-  26: "Back · training by end of Sept",         // Chiesa
+  26: "Back · Sept target ends Weds",         // Chiesa
   27: "Third choice · Chelsea cup 28 Oct",       // Woodman
   28: "Spain · City option, either flank",    // Munoz
   29: "URU · home after 4-1 in Seoul",   // Araujo
@@ -186,13 +186,13 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 export const SLOT_CONFIDENCE = {
   GK: "High",
   LB: "Medium",
-  LCB: "High",
+  LCB: "Tue Sep 29, night - fit and certain for City. The reporting on Van Dijk now carries dates, Galatasaray said to be ready to approach in January and Madrid weighing a free transfer for 2027, none of which touches this slot on 11 October.",
   RCB: "High",
   RB: "High",
   LDM: "High",
   RDM: "Medium",
   LAM: "Medium",
-  CAM: "Low",
+  CAM: "Tue Sep 29, night - Sport1's four out of ten for Wirtz's twenty-five minutes against Greece is a German verdict, not an Anfield one; with Gakpo out, a front line this thin keeps its most expensive creator in the slot.",
   RAM: "Low",
   ST: "Low",
 };
@@ -203,16 +203,16 @@ export const SLOT_CONFIDENCE = {
 // (evening), against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Tue Sep 29, evening - Georgia in Budapest on Friday, then home. The slot holds on availability and on the absence of an alternative the reporting rates higher; City's wide runners will test it. Medium.",
-  LCB: "Tue Sep 29, evening - fit and certain for City; the week's Van Dijk news is about 2027, not 11 October. Spanish reports have Real Madrid weighing a free transfer as his contract runs down, which changes nothing about this slot and a great deal about next summer.",
-  RCB: "Tue Sep 29, evening - sixty-seven of seventy-three passes on his France debut and 16.4 line-breaking passes per ninety for Liverpool, a fraction ahead of his captain, per Empire of the Kop. High.",
-  RB: "Tue Sep 29, evening - home from Uruguay's win in Seoul after five straight league starts out of position; Semenyo or Ndiaye will test the flank. Frimpong remains the attacking alternative. High.",
-  LDM: "Tue Sep 29, evening - Hungary against Georgia on Friday is the last assignment before Kirkby. The pivot is his, and the vice-captaincy looks a little more consequential with the captain's contract in the news.",
-  RDM: "Tue Sep 29, evening - fit with Argentina and a contract of his own still unextended. Undroppable on the evidence; Medium only because the midfield may reshape around a thinner attack.",
-  LAM: "Tue Sep 29, evening - French media rated his Brussels outing messy, per Sports Mole. Without Gakpo he is the one fixed point of the front three regardless.",
-  CAM: "Tue Sep 29, evening - Rummenigge would not rule out a Bayern move at some point, per Sports Mole; Anfield's more immediate question is whether a front line this thin can leave its most expensive creator out. Holds the slot.",
-  RAM: "Tue Sep 29, evening - Gakpo's ankle is still ungraded and CaughtOffside's three-week reading rules him out of City. Munoz holds the slot on this sheet; Ngumoha is the preview favourite. Low.",
-  ST: "Tue Sep 29, evening - the reporting on Isak's foot keeps softening, a heavy stamp and a bloodied toe per Yahoo Sports, and he holds the slot. Low until he trains, with Koumas the fallback.",
+  LB: "Tue Sep 29, night - Georgia in Budapest on Friday, then home. The slot holds on availability and on the absence of an alternative the reporting rates higher; City's wide runners will test it. Medium.",
+  LCB: "Tue Sep 29, night - fit and certain for City; the week's Van Dijk news is about 2027, not 11 October. Spanish reports have Real Madrid weighing a free transfer as his contract runs down, which changes nothing about this slot and a great deal about next summer.",
+  RCB: "Tue Sep 29, night - sixty-seven of seventy-three passes on his France debut and 16.4 line-breaking passes per ninety for Liverpool, a fraction ahead of his captain, per Empire of the Kop. High.",
+  RB: "Tue Sep 29, night - home from Uruguay's win in Seoul after five straight league starts out of position; Semenyo or Ndiaye will test the flank. Frimpong remains the attacking alternative. High.",
+  LDM: "Tue Sep 29, night - Hungary against Georgia on Friday is the last assignment before Kirkby. The pivot is his, and the vice-captaincy looks a little more consequential with the captain's contract in the news.",
+  RDM: "Tue Sep 29, night - fit with Argentina and a contract of his own still unextended. Undroppable on the evidence; Medium only because the midfield may reshape around a thinner attack.",
+  LAM: "Tue Sep 29, night - French media rated his Brussels outing messy, per Sports Mole. Without Gakpo he is the one fixed point of the front three regardless.",
+  CAM: "Tue Sep 29, night - Rummenigge would not rule out a Bayern move at some point, per Sports Mole; Anfield's more immediate question is whether a front line this thin can leave its most expensive creator out. Holds the slot.",
+  RAM: "Tue Sep 29, night - Gakpo's ankle is still ungraded and CaughtOffside's three-week reading rules him out of City. Munoz holds the slot on this sheet; Ngumoha is the preview favourite. Low.",
+  ST: "Tue Sep 29, night - the reporting on Isak's foot keeps softening, a heavy stamp and a bloodied toe per Yahoo Sports, and he holds the slot. Low until he trains, with Koumas the fallback.",
 };
 
 
@@ -239,6 +239,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  generated_at: "2026-09-29T22:30:00Z",
-  reason: "Tue Sep 29, evening. No personnel change from the morning sheet for Manchester City at Anfield on Sunday 11 October: Gakpo, whose ankle is still ungraded and whom CaughtOffside's three-week reading rules out of City and LASK, is replaced on the right by Munoz, with Ngumoha the preview alternative; Isak holds the nine on reporting that describes a stamped foot rather than anything structural. The 4-2-3-1: Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Szoboszlai; Munoz, Wirtz, Barcola; Isak. Low until the internationals return and Isak trains.",
+  generated_at: "2026-09-29T23:45:00Z",
+  reason: "Tue Sep 29, night. The sheet for Manchester City at Anfield on Sunday 11 October is unchanged from the evening: Munoz on the right for the ungraded Gakpo, Ngumoha the preview alternative, and Isak at nine with the club still calling his foot injury minor. Wirtz holds the ten despite Sport1's four out of ten in Augsburg. The 4-2-3-1: Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Szoboszlai; Munoz, Wirtz, Barcola; Isak. Low until the internationals return and Isak trains.",
 };
