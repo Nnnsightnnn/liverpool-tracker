@@ -484,13 +484,13 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday night, and the captain's future has acquired
-          a timetable. Galatasaray are reported ready to
-          approach in January, Madrid weigh a free transfer
-          for the summer, and Liverpool are said to be watching
-          Bastoni as the man to follow him. Sixth on nine,
-          Gakpo's ankle still ungraded, and City at Anfield
-          twelve days from now.
+          Wednesday morning, and the right flank against City
+          has a new name in the conversation. Rio Ngumoha,
+          eighteen, became the third-youngest player to appear
+          for England in a competitive match in Prague last
+          night, on the side Gakpo's ankle has left empty.
+          Sixth on nine, Chiesa's September running out, and
+          City at Anfield eleven days from now.
         </p>
 
         <StatStrip stats={stats} />
@@ -521,22 +521,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              late, and the reporting on Virgil van Dijk has done
-              what reporting does when a contract runs down: it
-              has found dates. AnfieldWatch has Galatasaray ready
-              to approach in January, the first month the captain
-              may talk to a club abroad; Madrid Universal ties Real
-              Madrid's interest to Antonio Rudiger's deal ending
-              the same summer; and Liverpool, by the same
-              accounts, are already looking at Alessandro Bastoni
-              in Milan. Nobody has bid, and the club has said
-              nothing. Elsewhere the break is being unkind at a
-              distance, Wirtz marked four out of ten in Klopp's
-              first defeat and Gakpo's ankle still without a grade
-              at the AXA. Twelve days before City, the most settled
-              part of the team is the one the market has started
-              to price.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              early, and the most useful Liverpool minutes of the
+              international break were twenty of them in Prague.
+              Rio Ngumoha replaced Bukayo Saka with England two up
+              against ten men and became, at eighteen years and
+              thirty-one days, the third-youngest player to appear
+              for them in a competitive game, behind only Bellingham
+              and Rooney. Victor Munoz came on for Spain in Seville;
+              between them they are the two answers this tracker has
+              for the flank Cody Gakpo left when his ankle went against
+              Serbia. Federico Chiesa, who might have been the third,
+              reaches the end of the month he gave himself with no word
+              that he has trained, and with Inter reported to be
+              thinking about January. Manchester City bring their own
+              doubt, a swollen leg on Antoine Semenyo. Eleven days out,
+              Liverpool's cover on the right is eighteen and
+              twenty-two, and it has had a good week.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -544,13 +545,12 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings
               live again, and five dispatches from the writers
-              who never clock off. There is a calendar
-              forming around the captain; twenty-five minutes
-              under Klopp; a month Chiesa aimed at that ends
-              tomorrow; ninety minutes against the old
-              manager; and six thousand tickets for a cup
-              night in October. Read them in order. The season has
-              produced draws at Newcastle and Anfield, wins at
+              who never clock off. There is a record set in
+              Prague; the last day of Chiesa's September; what
+              Rummenigge expected of Wirtz; a swollen leg in
+              Manchester; and two centre-backs and a winger
+              priced for January. Read them in order. The season
+              has produced draws at Newcastle and Anfield, wins at
               Ipswich and Bournemouth, a European night, a
               goalless afternoon against Fulham and a cup tie
               that produced three; the market is shut until
@@ -3766,7 +3766,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A captain's future, now with dates attached."
+        "The youngest answer is on the right."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
