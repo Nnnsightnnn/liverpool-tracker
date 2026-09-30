@@ -553,7 +553,7 @@ function CoverView({ onJump }) {
               has produced draws at Newcastle and Anfield, wins at
               Ipswich and Bournemouth, a European night, a
               goalless afternoon against Fulham and a cup tie
-              that produced three; the market is shut until
+              that brought three Liverpool goals; the market is shut until
               January, which is now also the month the captain
               may start listening.
             </p>
