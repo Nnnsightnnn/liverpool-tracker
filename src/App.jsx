@@ -484,13 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday morning, and the right flank against City
-          has a new name in the conversation. Rio Ngumoha,
-          eighteen, became the third-youngest player to appear
-          for England in a competitive match in Prague last
-          night, on the side Gakpo's ankle has left empty.
-          Sixth on nine, Chiesa's September running out, and
-          City at Anfield eleven days from now.
+          Wednesday evening, and the Dutch verdict on Ryan
+          Gravenberch has arrived from home: not comfortable,
+          Ruud Gullit said, and it does not click. At Liverpool
+          he is already third in line. City bring a doubt of
+          their own at left-back, Liverpool are still sixth on
+          nine, and Anfield is eleven days away.
         </p>
 
         <StatStrip stats={stats} />
@@ -521,23 +520,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              early, and the most useful Liverpool minutes of the
-              international break were twenty of them in Prague.
-              Rio Ngumoha replaced Bukayo Saka with England two up
-              against ten men and became, at eighteen years and
-              thirty-one days, the third-youngest player to appear
-              for them in a competitive game, behind only Bellingham
-              and Rooney. Victor Munoz came on for Spain in Seville;
-              between them they are the two answers this tracker has
-              for the flank Cody Gakpo left when his ankle went against
-              Serbia. Federico Chiesa, who might have been the third,
-              reaches the end of the month he gave himself with no word
-              that he has trained, and with Inter reported to be
-              thinking about January. Manchester City bring their own
-              doubt, a swollen leg on Antoine Semenyo. Eleven days out,
-              Liverpool's cover on the right is eighteen and
-              twenty-two, and it has had a good week.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the harshest words about a Liverpool player came in
+              Dutch. Ruud Gullit watched the Netherlands beat Serbia
+              and said of Ryan Gravenberch that he is not comfortable
+              and that it just does not click; Voetbalzone gave him
+              five out of ten. It lands on a midfielder who has
+              started none of Liverpool's last three league games and
+              played nine minutes at Bournemouth. Behind him, the BBC
+              reported that Liverpool hold an interest in Alex Scott,
+              whom Bournemouth will not discuss before January. City's
+              list grew by a name, Nico O'Reilly, who missed England
+              training with what Tuchel called minor issues and was
+              left out of the Prague trip that made Rio Ngumoha's
+              night. Late on, Liverpool's women won 4-3 at Birmingham
+              with a goal in the ninety-third minute. A quiet
+              Wednesday, then, in which the only thing settled was
+              the order of a midfield.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -545,11 +544,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings
               live again, and five dispatches from the writers
-              who never clock off. There is a record set in
-              Prague; the last day of Chiesa's September; what
-              Rummenigge expected of Wirtz; a swollen leg in
-              Manchester; and two centre-backs and a winger
-              priced for January. Read them in order. The season
+              who never clock off. There is a Dutch verdict on
+              Gravenberch; a City left-back missing from Prague;
+              a Bournemouth midfielder the BBC says Liverpool
+              like; a ninety-third-minute winner at St Andrew's;
+              and a first international goal in Kingston. Read them in order. The season
               has produced draws at Newcastle and Anfield, wins at
               Ipswich and Bournemouth, a European night, a
               goalless afternoon against Fulham and a cup tie
@@ -3766,7 +3765,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The youngest answer is on the right."
+        "Third in line is still in line."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
