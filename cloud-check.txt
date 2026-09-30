@@ -1,0 +1,6 @@
+HEAD 6a6f7fcac60c57910afcf557498162fe135be322
+SKILL.md exists, 632 lines
+ preflight-audit — 2026-09-30, base=HEAD, changed-names=[none] ────────────────────────────────────────────────────────────────────────── 
+ESPN standings HTTP 200
+First WebSearch result for 'Liverpool FC news today': news football liverpool
+UTC 2026-09-30T01:28:05Z
