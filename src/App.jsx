@@ -525,9 +525,9 @@ function CoverView({ onJump }) {
               Dutch. Ruud Gullit watched the Netherlands beat Serbia
               and said of Ryan Gravenberch that he is not comfortable
               and that it just does not click; Voetbalzone gave him
-              five out of ten. It lands on a midfielder who has
-              started none of Liverpool's last three league games and
-              played nine minutes at Bournemouth. Behind him, the BBC
+              five out of ten. It lands on a midfielder left out of
+              Liverpool's starting side against Forest, Ipswich and
+              Bournemouth, where he played the last nine minutes. Behind him, the BBC
               reported that Liverpool hold an interest in Alex Scott,
               whom Bournemouth will not discuss before January. City's
               list grew by a name, Nico O'Reilly, who missed England
@@ -549,12 +549,11 @@ function CoverView({ onJump }) {
               a Bournemouth midfielder the BBC says Liverpool
               like; a ninety-third-minute winner at St Andrew's;
               and a first international goal in Kingston. Read them in order. The season
-              has produced draws at Newcastle and Anfield, wins at
-              Ipswich and Bournemouth, a European night, a
-              goalless afternoon against Fulham and a cup tie
-              that brought three Liverpool goals; the market is shut until
-              January, which is now also the month the captain
-              may start listening.
+              has five league games behind it, nine points and
+              no defeat, and the four ahead are against the
+              current top four; the market stays shut until
+              January, which is when every link on these pages
+              either becomes a bid or goes quiet.
             </p>
           </div>
           <div style={{ background: T.rule }} />

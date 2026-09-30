@@ -185,6 +185,24 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // several weeks, is replaced at RAM by Munoz; Isak (thigh, 'a small problem' per Potter) remains a fitness doubt at ST.
 export const SLOT_CONFIDENCE = {
   GK: "High",
+  LB: "Medium",
+  LCB: "High",
+  RCB: "High",
+  RB: "High",
+  LDM: "High",
+  RDM: "Medium",
+  LAM: "Medium",
+  CAM: "Medium",
+  RAM: "Low",
+  ST: "Low",
+};
+
+
+// ─── Per-slot rationale ────────────────────────────────────
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Wed Sep 30
+// (evening); originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
+// fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
+export const SLOT_RATIONALE = {
   LB: "Wed Sep 30, evening - Hungary's window ends in Budapest on Friday; nothing tonight challenged his place, and the Balde link is a January matter. Medium.",
   LCB: "Wed Sep 30, evening - the captain's contract produced no new line tonight, which suits a centre-back with City to prepare for. Certain.",
   RCB: "Wed Sep 30, evening - home with a France cap and a debut clean sheet; the best line-breaking passer in the back four against a City press. High.",
@@ -195,24 +213,6 @@ export const SLOT_CONFIDENCE = {
   CAM: "Wed Sep 30, evening - Serbia in Munich tomorrow is Wirtz's last international chance to change the week's reading; the ten stays his for City. Medium.",
   RAM: "Wed Sep 30, evening - Munoz holds it on this sheet; Ngumoha, whose Prague call-up came in O'Reilly's place, is the live alternative. Low until the squad reassembles.",
   ST: "Wed Sep 30, evening - still no bulletin on the foot and thigh; the reported target is City. Holds the slot at Low, Koumas the fallback.",
-};
-
-
-// ─── Per-slot rationale ────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Wed Sep 23
-// (evening), against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
-// fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
-export const SLOT_RATIONALE = {
-  LB: "Wed Sep 30, morning - Hungary finish in Budapest on Friday, then Kirkby. No challenger the reporting rates higher, and Balde's name in Wednesday's links is January talk. Medium.",
-  LCB: "Wed Sep 30, morning - certain for City. Branthwaite joined Bastoni in the successor reporting overnight, which is a 2027 question and not an 11 October one.",
-  RCB: "Wed Sep 30, morning - reported by AnfieldWatch to be moving ahead of Konate for France; for Liverpool, three clean sheets and the best line-breaking numbers in the back four. High.",
-  RB: "Wed Sep 30, morning - Araujo holds it on five straight league starts. Semenyo's swollen leg may decide who runs at him; Frimpong stays the attacking alternative. High.",
-  LDM: "Wed Sep 30, morning - Budapest on Friday, then back to a pivot that is his. The vice-captain's role carries more while the captain's future is in the news.",
-  RDM: "Wed Sep 30, morning - with Argentina, running down an unextended deal. Nobody displaces him on form; Medium only because a thinner attack could reshape the midfield.",
-  LAM: "Wed Sep 30, morning - Henry's warning about his start is a pundit's, not the manager's; with Gakpo out, Barcola is the one fixed point of the front three.",
-  CAM: "Wed Sep 30, morning - Rummenigge's surprise at the struggles, and his point about the promised ten, are the week's sharpest outside reading; the slot stays his because the attack cannot spare him. Medium.",
-  RAM: "Wed Sep 30, morning - Munoz came on in Spain's 4-1 win; Ngumoha made England history in Prague. Munoz holds the slot on this sheet, the gap between them narrower than yesterday. Low.",
-  ST: "Wed Sep 30, morning - no bulletin, which reads as progress; the club called the injury minor. Holds the slot, Low until he trains, Koumas the fallback.",
 };
 
 
