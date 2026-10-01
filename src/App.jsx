@@ -12,7 +12,7 @@ import {
 // (HeatPill through TargetsView) are kept intact but unrouted, so January is a
 // nav line and a route, not a rebuild. Vite tree-shakes them out of the bundle
 // while nothing renders TargetsView.
-import { TRANSFER_TARGETS, TARGET_SCOUTING } from "./transferArchive.js";
+import { TRANSFER_TARGETS, TARGET_SCOUTING, WINDOW } from "./transferArchive.js";
 import LineupView from "./LineupView.jsx";
 
 // ─── Editorial design tokens ────────────────────────────────────────────────
@@ -38,11 +38,25 @@ const fmtDateShort = (s) => {
   const d = new Date(s + "T12:00:00");
   return d.toLocaleDateString("en-GB", { day: "2-digit", month: "short" }).replace(/\s/g, " ");
 };
-const fmtDateLong = (iso) => {
-  const d = new Date(iso);
-  return d.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" });
+// Fixture times in the data files (NEXT_MATCH.date, OPPOSITION.fixture.date) are UK
+// wall-clock times with no offset. A bare "2026-10-11T16:30:00" is parsed by the browser
+// as the READER's local time, which put every countdown five hours out for a reader in
+// New York. ukIso() pins such a string to UK time (BST from the last Sunday of March to
+// the last Sunday of October, otherwise GMT); strings that already carry Z or an offset
+// pass through untouched.
+const ukOffset = (s) => {
+  const y = +s.slice(0, 4);
+  const lastSun = (m) => { const d = new Date(Date.UTC(y, m + 1, 0, 1)); d.setUTCDate(d.getUTCDate() - d.getUTCDay()); return d; };
+  const t = new Date(s.slice(0, 19) + "Z");
+  return t >= lastSun(2) && t < lastSun(9) ? "+01:00" : "+00:00";
 };
-const fmtClock = (iso) => new Date(iso).toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit" });
+const ukIso = (s) => (!s || !s.includes("T") || /([zZ]|[+-]\d\d:?\d\d)$/.test(s)) ? s : s + ukOffset(s);
+const ukZone = (s) => (s && s.includes("T") && ukOffset(s) === "+01:00") ? "BST" : "GMT";
+const fmtDateLong = (iso) => {
+  const d = new Date(ukIso(iso));
+  return d.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", timeZone: "Europe/London" });
+};
+const fmtClock = (iso) => new Date(ukIso(iso)).toLocaleTimeString("en-GB", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/London" });
 
 function timeAgo(dateStr) {
   const diff = Date.now() - new Date(dateStr).getTime();
@@ -308,6 +322,59 @@ function WindowCountdown({ style = {} }) {
   );
 }
 
+// ─── Next-match countdown (cover strip, in-season) ─────────────────────────
+// The cover used to carry the transfer-window clock, which after 1 September
+// could only ever say "Deadline passed". In-season the strip counts down to the
+// next fixture instead; WindowCountdown returns when WINDOW.open flips in January.
+function NextMatchCountdown({ style = {} }) {
+  const kick = ukIso(NEXT_MATCH.date);
+  const { closed, days, hours, minutes, seconds } = useCountdown(kick);
+  const pad = (n) => String(n).padStart(2, "0");
+  const units = [
+    { value: days, label: days === 1 ? "Day" : "Days" },
+    { value: pad(hours), label: "Hrs" },
+    { value: pad(minutes), label: "Min" },
+    { value: pad(seconds), label: "Sec" },
+  ];
+  const when = new Date(kick).toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short", timeZone: "Europe/London" });
+  return (
+    <div className="window-countdown" style={{
+      borderTop: `1px solid ${T.rule}`, borderBottom: `1px solid ${T.rule}`,
+      padding: "16px 0", display: "flex", alignItems: "center",
+      justifyContent: "space-between", gap: 24, flexWrap: "wrap", ...style,
+    }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+        <span style={{ width: 22, height: 1, background: T.red, display: "inline-block" }} />
+        <SmallCaps color={T.ivoryDim}>
+          {closed ? `${NEXT_MATCH.opponent} · kicked off` : `${NEXT_MATCH.opponent}${NEXT_MATCH.home ? " at Anfield" : " away"} in`}
+        </SmallCaps>
+      </div>
+      {!closed && (
+        <div style={{ display: "flex", alignItems: "flex-end", gap: 20 }}>
+          {units.map((u) => (
+            <div key={u.label} style={{ textAlign: "center", minWidth: 44 }}>
+              <div style={{
+                fontFamily: T.serif, fontWeight: 500, fontSize: 30, lineHeight: 1,
+                color: T.ivory, fontVariantNumeric: "tabular-nums", fontFeatureSettings: "\"tnum\"",
+              }}>{u.value}</div>
+              <div style={{
+                marginTop: 6, fontSize: 9, letterSpacing: "0.2em", textTransform: "uppercase",
+                color: T.ivoryFaint, fontFamily: T.sans, fontWeight: 500,
+              }}>{u.label}</div>
+            </div>
+          ))}
+        </div>
+      )}
+      <div style={{
+        fontSize: 10, letterSpacing: "0.18em", textTransform: "uppercase",
+        color: T.ivoryFaint, fontFamily: T.sans,
+      }}>
+        Kick-off · {when}, {fmtClock(NEXT_MATCH.date)} {ukZone(NEXT_MATCH.date)}
+      </div>
+    </div>
+  );
+}
+
 // ─── Masthead nav ──────────────────────────────────────────────────────────
 
 const NAV_ITEMS = [
@@ -412,8 +479,23 @@ function CoverView({ onJump }) {
     const won = RESULTS.filter(r => r.result === "W").length;
     const drawn = RESULTS.filter(r => r.result === "D").length;
     const lost = RESULTS.filter(r => r.result === "L").length;
-    const gf = RESULTS.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? h : a); }, 0);
-    const ga = RESULTS.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? a : h); }, 0);
+    // Goals for/against must describe the same thing as the rest of the strip: THIS
+    // season's Premier League. Summing every RESULTS row mixed in last season, the
+    // cups and pre-season friendlies, and the cover read 73 for, 46 against after
+    // five league games. The season starts from the earliest league fixture after
+    // 1 July of the current Premier League year. RESULTS scores are written
+    // Liverpool-first ("1-0" at Bournemouth is a Liverpool win), home or away, so the
+    // first number is always ours; the old home/away flip swapped every away score.
+    const lfcRow = STANDINGS.find(t => t.highlight);
+    const seasonStart = (() => {
+      const latest = RESULTS.find(r => r.competition === "PL")?.date ?? "2026-08-01";
+      const y = +latest.slice(0, 4) - (+latest.slice(5, 7) < 7 ? 1 : 0);
+      return `${y}-07-01`;
+    })();
+    const league = RESULTS.filter(r => r.competition === "PL" && r.date >= seasonStart)
+      .slice(0, lfcRow?.p ?? Infinity);
+    const gf = league.reduce((s, r) => { const [lfc] = r.score.split("-").map(Number); return s + lfc; }, 0);
+    const ga = league.reduce((s, r) => { const [, opp] = r.score.split("-").map(Number); return s + opp; }, 0);
     const lfc = STANDINGS.find(t => t.highlight);
     return [
       { label: "Played",          value: String(lfc?.p ?? RESULTS.length).padStart(2, "0") },
@@ -436,6 +518,10 @@ function CoverView({ onJump }) {
       }`
     : null;
   const [heroOk, setHeroOk] = useState(false);
+  // The hero month follows the edition's own timestamp, so it can never again read
+  // "September" on an October cover.
+  const editionMonth = new Date(NEWS_DIGEST?.generatedAt || Date.now())
+    .toLocaleDateString("en-GB", { month: "long", year: "numeric", timeZone: "Europe/London" });
 
   return (
     <section style={{ animation: `pageTurn .55s ${T.ease} both` }}>
@@ -477,7 +563,7 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 500, fontSize: 148,
           lineHeight: 0.92, letterSpacing: "-0.04em", marginBottom: 32, color: T.ivory,
         }}>
-          Anfield.<br /><em style={{ fontStyle: "italic", color: T.red }}>September 2026.</em>
+          Anfield.<br /><em style={{ fontStyle: "italic", color: T.red }}>{editionMonth}.</em>
         </h1>
         <GoldRule style={{ marginBottom: 12 }} />
         <p className="cover-deck" style={{
@@ -494,7 +580,9 @@ function CoverView({ onJump }) {
 
         <StatStrip stats={stats} />
 
-        <WindowCountdown style={{ marginTop: 20, borderTop: "none" }} />
+        {WINDOW.open
+          ? <WindowCountdown style={{ marginTop: 20, borderTop: "none" }} />
+          : <NextMatchCountdown style={{ marginTop: 20, borderTop: "none" }} />}
 
         {coverSrc && heroOk && (COVER_IMAGE.focus || COVER_IMAGE.credit) && (
           <div className="cover-hero-caption" style={{
@@ -811,8 +899,8 @@ function MatchdayView() {
 
   // 10-tile dashboard stats — rendered as a hairline stat strip
   const matchdayStats = useMemo(() => {
-    const gf = filteredResults.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? h : a); }, 0);
-    const ga = filteredResults.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? a : h); }, 0);
+    const gf = filteredResults.reduce((s, r) => { const [lfc] = r.score.split("-").map(Number); return s + lfc; }, 0);
+    const ga = filteredResults.reduce((s, r) => { const [, opp] = r.score.split("-").map(Number); return s + opp; }, 0);
     return [
       { label: "Played",        value: String(filteredResults.length).padStart(2, "0") },
       { label: "Won",           value: String(filteredResults.filter(r => r.result === "W").length).padStart(2, "0") },
@@ -829,7 +917,7 @@ function MatchdayView() {
 
   return (
     <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
-      <SectionHead title="Matchday" meta={<>{fmtDateLong(NEXT_MATCH.date)}<br />{NEXT_MATCH.venue} · {fmtClock(NEXT_MATCH.date)} BST</>} />
+      <SectionHead title="Matchday" meta={<>{fmtDateLong(NEXT_MATCH.date)}<br />{NEXT_MATCH.venue} · {fmtClock(NEXT_MATCH.date)} {ukZone(NEXT_MATCH.date)}</>} />
 
       <div style={{
         display: "grid", gridTemplateColumns: "1.3fr 1fr",
@@ -863,7 +951,7 @@ function MatchdayView() {
           }}>
             {[
               { label: "Venue", val: NEXT_MATCH.venue },
-              { label: "Kick-off", val: fmtClock(NEXT_MATCH.date) + " BST" },
+              { label: "Kick-off", val: fmtClock(NEXT_MATCH.date) + " " + ukZone(NEXT_MATCH.date) },
               { label: "Broadcast", val: NEXT_MATCH.broadcast },
               { label: "Referee", val: "TBC" },
             ].map((m) => (
@@ -878,7 +966,7 @@ function MatchdayView() {
               </div>
             ))}
           </div>
-          <Countdown targetIso={NEXT_MATCH.date} />
+          <Countdown targetIso={ukIso(NEXT_MATCH.date)} />
         </div>
 
         <FormBlock results={RESULTS} />
@@ -2932,7 +3020,7 @@ function OppositionView() {
   const o = OPPOSITION || {};
   const fx = o.fixture || {};
   const kickoff = fx.date
-    ? new Date(fx.date).toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" })
+    ? new Date(ukIso(fx.date)).toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", timeZone: "Europe/London" })
     : null;
   const refreshed = o.generatedAt
     ? new Date(o.generatedAt).toLocaleDateString("en-GB", { weekday: "short", day: "numeric", month: "short" })

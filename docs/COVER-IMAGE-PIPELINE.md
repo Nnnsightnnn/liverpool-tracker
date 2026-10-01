@@ -44,6 +44,11 @@ file fails to load. A subtle caption shows `focus · credit`.
 
 This guarantees the cover always has a visual, even in the deep off-season.
 
+**Plate rules (1 Oct 2026):** no people, faces or figures in a Track 1 plate; they read as
+clip art. Plates are architectural or abstract (light, pitch lines, stands, texture). The
+evergreen default is `2026-10-01-anfield-after-dark.svg`. `focus` is a short caption of what
+the picture shows, never a note about the edition.
+
 ## Track 2 — premium photographic image (Antigravity / "agy")
 
 When the lead is genuinely visual (a just-played match hero moment, a trophy lift,

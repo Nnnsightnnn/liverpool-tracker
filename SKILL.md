@@ -489,6 +489,13 @@ Call the skill with this minimum payload:
 | `aspectRatio` | `portrait` (default 1200×1600). Use `landscape` for stadium / crowd / squad shots. |
 | `slug` | Optional 2-3-word kebab — `salah-celebration`, `slot-touchline`. |
 
+### Cover plate and caption rules (added 1 Oct 2026 after Kenny called the cover "shit")
+
+- **Never draw people.** The hand-drawn SVG plates (a stick-figure keeper, a stick-figure striker) looked amateur on the most prominent surface of the site and are retired. A Track 1 SVG plate may show architecture, light, pitch markings, texture or abstract shapes, never a human figure, a face or a ball in flight. If a moment can only be shown with a person in it, that is a Track 2 (Antigravity) request, not an SVG.
+- **The standing plate is evergreen.** `2026-10-01-anfield-after-dark.svg` (an empty floodlit pitch in perspective) is the default. Cloud runs, which cannot queue images, leave `COVER_IMAGE.src` alone and only re-stamp `generatedAt`.
+- **`COVER_IMAGE.focus` is a caption, not a note.** Two to eight words naming what the picture shows (e.g. "Anfield, after dark"). Never write meta-commentary such as "Carried plate, not this edition's lead, which is..." into it: it renders on the cover in capitals. Edition reasoning belongs in the code comment above `COVER_IMAGE`.
+- **Do not close an open Track 2 request.** If `public/assets/cover/cover-brief.json` has `"status": "OPEN"` and `"action": "generate"`, leave its `prompt`, `slug` and `output` alone until Antigravity delivers; you may refresh `leadStory` only.
+
 **Cap at ONE queued request per run.** If two moments compete, queue the bigger one and drop the other.
 
 ### Report

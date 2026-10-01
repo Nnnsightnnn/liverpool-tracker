@@ -392,11 +392,15 @@ export const TEAM_LOGOS = {
 //     and repoints `src` + `credit` + `generatedAt` at it.
 // `focus` is the one-line "most important focus of the latest edition."
 export const COVER_IMAGE = {
-  src: "/assets/cover/2026-09-15-szoboszlai-volley.svg",
-  alt: "Editorial plate: a floodlit night at Anfield, a midfielder in red striking a volley from thirty yards, the ball leaving his boot in a blur, a goalkeeper in the distance beginning to move the wrong way, a wall of supporters rising behind the goal.",
-  focus: "Carried plate, not this edition's lead, which is Xavi weighing a move to the right for Van Dijk in Thessaloniki tonight, a team-sheet question rather than a single Anfield still: Liverpool 3-1 Tottenham, Carabao Cup third round",
-  credit: "Plate · carried from 15 September",
-  generatedAt: "2026-10-01T08:30:00Z",
+  src: "/assets/cover/2026-10-01-anfield-after-dark.svg",
+  alt: "Editorial plate: an empty pitch under floodlights seen from the gantry, the white lines drawn in perspective through a low mist, the stand beyond in shadow.",
+  focus: "Anfield, after dark",
+  credit: "Editorial plate",
+  generatedAt: "2026-10-01T12:00:00Z",
+  // Cover fix (Thu 1 October, midday, at Kenny's request): the hand-drawn figure plates (stick-figure keeper and striker)
+  // are retired. New Track 1 plate 2026-10-01-anfield-after-dark.svg: an empty floodlit pitch in perspective, no people.
+  // The caption is now a short title, not a note about which story the plate is not about. A real Track 2 request is
+  // open for Antigravity (brief below, cover-brief.json action: generate).
   // Morning pass (Thu 1 October, ~4am ET, cloud-scheduled): NO MATCH, international break, quiet cycle. Lead moves off the
   // Dutch verdict on Gravenberch onto tonight's internationals: Xavi may play Van Dijk on the right in Thessaloniki after
   // Van Hecke's foot injury (Goal), Tsimikas expected opposite; Wirtz expected to start in Munich, Koumas may face Haaland in
@@ -645,10 +649,10 @@ export const COVER_IMAGE = {
   brief: {
     leadStory:
       "As of Thursday morning, Xavi says Virgil van Dijk 'can play on the right side perfectly' if the Netherlands need him there against Greece in Thessaloniki tonight, after Jan Paul van Hecke left the camp with a foot injury (Goal), ten days before Manchester City at Anfield on 11 October.",
-    subject: "No new plate requested this edition. The lead is a coach's possible positional change for an international fixture, with no single photographable Liverpool moment, and the skill caps queueing at one genuinely visual moment per edition.",
-    prompt: "NO ACTION. Antigravity should not generate an image for this edition. The standing candidate for a future edition is Jeremy Jacquet, twenty-one, taking the highest rating on the field on the afternoon France called him up for the first time.",
+    subject: "Anfield at dusk, empty, floodlights on, mist over the pitch: an evergreen City-week cover to replace the hand-drawn plates.",
+    prompt: "Wide cinematic photograph, 1600x900 landscape, of Anfield at dusk with nobody in it: the stands empty, the floodlights just switched on, a thin mist lying over a freshly mown, striped pitch, deep red seats falling away into shadow. Low camera on the touchline near the halfway line, looking across toward the Kop. Moody and editorial, fine film grain, muted palette of ink black, deep red (#C8102E) and warm ivory (#F4EBD0) highlights. Keep the LEFT third dark, quiet negative space (night sky or a shadowed stand) because the masthead type sits there. NO text, NO legible logos, crests or sponsor boards, NO players, people or faces.",
     aspectRatio: "landscape",
-    slug: "none-this-edition",
+    slug: "anfield-dusk-city-week",
   },
 };
 

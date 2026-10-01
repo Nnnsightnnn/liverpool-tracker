@@ -861,8 +861,8 @@ export default function LiverpoolTracker() {
                 { label: "Won", value: RESULTS.filter(r => r.result === "W").length, color: "#28a745" },
                 { label: "Drawn", value: RESULTS.filter(r => r.result === "D").length, color: "#ffc107" },
                 { label: "Lost", value: RESULTS.filter(r => r.result === "L").length, color: "#dc3545" },
-                { label: "Goals For", value: RESULTS.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? h : a); }, 0), color: LFC_GOLD },
-                { label: "Goals Against", value: RESULTS.reduce((s, r) => { const [h, a] = r.score.split("-").map(Number); return s + (r.home ? a : h); }, 0), color: "#ff6b6b" },
+                { label: "Goals For", value: RESULTS.reduce((s, r) => { const [lfc] = r.score.split("-").map(Number); return s + lfc; }, 0), color: LFC_GOLD },
+                { label: "Goals Against", value: RESULTS.reduce((s, r) => { const [, opp] = r.score.split("-").map(Number); return s + opp; }, 0), color: "#ff6b6b" },
               ].map((s) => (
                 <div key={s.label} style={{ background: "#1e1e3a", borderRadius: 12, padding: "14px 12px", textAlign: "center" }}>
                   <div style={{ color: s.color, fontWeight: 800, fontSize: 20 }}>{s.value}</div>
