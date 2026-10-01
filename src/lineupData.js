@@ -28,7 +28,7 @@ export const FORMATIONS = {
     // Van Dijk, Kerkez; Mac Allister, Szoboszlai; Gakpo, Wirtz, Barcola; Isak. One deviation from
     // every published preview: Gakpo took the RIGHT flank and Barcola the left, not the reverse.
     // Out: Ekitike (Achilles, January at the earliest), Bradley (knee, no club date; FotMob now
-    // lists early January 2027), Leoni (ACL, rejoining group training during the break) and
+    // lists early January 2027), Leoni (ACL, group training planned for the break but unconfirmed) and
     // Chiesa (back, aiming to resume training by the end of September, Sports Mole pencils 11 Oct).
     defaultXI: {
       GK: 1,    // Alisson (the save from Evanilson on 18 that made the clean sheet possible)
@@ -224,7 +224,7 @@ export const ALTERNATIVES = {
   GK:  [{ playerId: 2, reason: "Mamardashvili \u00b7 unused at the Vitality; the Chelsea cup tie on 28 October is his likely next start" }, { playerId: 27, reason: "Woodman \u00b7 third-choice, not in at Bournemouth's squad" }],
   LB:  [{ playerId: 32, reason: "Tsimikas \u00b7 unused at the Vitality; in the Greek defence for Thursday's 2-2 with the Netherlands" }],
   LCB: [{ playerId: 5, reason: "Gomez \u00b7 unused at Bournemouth; his next appearance in any shape is his 300th for the club" }, { playerId: 29, reason: "Araujo \u00b7 a centre-half by trade, currently occupying right-back instead" }],
-  RCB: [{ playerId: 5, reason: "Gomez \u00b7 the fourth senior centre-back, on the bench for a third straight clean sheet" }, { playerId: 10, reason: "Leoni \u00b7 rejoining group training during the break; Sports Mole pencils mid-October" }],
+  RCB: [{ playerId: 5, reason: "Gomez \u00b7 the fourth senior centre-back, on the bench for a third straight clean sheet" }, { playerId: 10, reason: "Leoni \u00b7 group training planned for the break, not yet confirmed by the club; Sports Mole pencils mid-October" }],
   RB:  [{ playerId: 9, reason: "Frimpong \u00b7 played right-back in the cup, unused at the Vitality; the attacking alternative" }, { playerId: 5, reason: "Gomez \u00b7 the only specialist right-back available while Bradley's knee has no club date" }],
   LDM: [{ playerId: 14, reason: "Gravenberch \u00b7 nine minutes at Bournemouth; a half-time substitute in Greece on Thursday, a 6 from Goal" }, { playerId: 20, reason: "Nyoni \u00b7 19 \u00b7 sees himself as a six; set up a goal for England U20s against France" }],
   RDM: [{ playerId: 14, reason: "Gravenberch \u00b7 displaced at Fulham, a closing substitute since, and a 5/10 from Voetbalzone against Serbia" }, { playerId: 17, reason: "Endo \u00b7 unused, available, and leaving in January" }],
