@@ -484,12 +484,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday evening, and the Dutch verdict on Ryan
-          Gravenberch has arrived from home: not comfortable,
-          Ruud Gullit said, and it does not click. At Liverpool
-          he is already third in line. City bring a doubt of
-          their own at left-back, Liverpool are still sixth on
-          nine, and Anfield is eleven days away.
+          Thursday morning, and the captain may spend tonight on
+          the other side of a back four: Xavi says Van Dijk can
+          play on the right perfectly, with Van Hecke gone home
+          hurt. Wirtz and Koumas play at the same hour. Liverpool
+          are sixth on nine and unbeaten, and City come to Anfield
+          in ten days.
         </p>
 
         <StatStrip stats={stats} />
@@ -520,23 +520,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the harshest words about a Liverpool player came in
-              Dutch. Ruud Gullit watched the Netherlands beat Serbia
-              and said of Ryan Gravenberch that he is not comfortable
-              and that it just does not click; Voetbalzone gave him
-              five out of ten. It lands on a midfielder left out of
-              Liverpool's starting side against Forest, Ipswich and
-              Bournemouth, where he played the last nine minutes. Behind him, the BBC
-              reported that Liverpool hold an interest in Alex Scott,
-              whom Bournemouth will not discuss before January. City's
-              list grew by a name, Nico O'Reilly, who missed England
-              training with what Tuchel called minor issues and was
-              left out of the Prague trip that made Rio Ngumoha's
-              night. Late on, Liverpool's women won 4-3 at Birmingham
-              with a goal in the ninety-third minute. A quiet
-              Wednesday, then, in which the only thing settled was
-              the order of a midfield.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and three Liverpool players are due on the field at a
+              quarter to eight tonight, none of them at Anfield. In
+              Thessaloniki, Virgil van Dijk may move across to the
+              right of the Dutch defence because Jan Paul van Hecke
+              has gone home with a damaged foot; Xavi calls his
+              captain a warrior and says the right side is no
+              trouble, and Kostas Tsimikas is expected in the Greek
+              side against him. In Munich, Florian Wirtz is expected
+              to start for a Germany team still waiting for Klopp's
+              first win, under an armband rule settled by counting
+              caps. In Cardiff, Lewis Koumas may lead the Wales line
+              against Erling Haaland. At Kirkby, Alexander Isak is
+              being told by an old Swede not to hurry. The club's own
+              Opta review has Liverpool pressing higher than anyone in
+              the league. Ten days before City, the week's real work
+              is being done elsewhere, and Liverpool can only watch.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -544,11 +544,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings
               live again, and five dispatches from the writers
-              who never clock off. There is a Dutch verdict on
-              Gravenberch; a City left-back missing from Prague;
-              a Bournemouth midfielder the BBC says Liverpool
-              like; a ninety-third-minute winner at St Andrew's;
-              and a first international goal in Kingston. Read them in order. The season
+              who never clock off. There is a captain who may
+              play on the right in Thessaloniki; an armband
+              settled by counting caps in Munich; an old Swede's
+              advice to Isak; a Welsh rehearsal against Haaland;
+              and a contract clause in Manchester. Read them in order. The season
               has five league games behind it, nine points and
               no defeat, and the four ahead are against the
               current top four; the market stays shut until
@@ -3764,7 +3764,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Third in line is still in line."
+        "The captain, on the other side."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
