@@ -176,7 +176,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // ─── Per-slot confidence levels ─────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by the 4-2-3-1
 // slot keys. These read as confidence that the slot's occupant STARTS AGAINST MANCHESTER CITY at
-// Anfield on Sunday 11 October. (Reviewed Sat Sep 26, morning.) The basis has changed in kind: this
+// Anfield on Sunday 11 October. (Reviewed Thu Oct 1, morning; levels unchanged since Sat Sep 26.) The basis has changed in kind: this
 // is no longer a preview consensus, it is the eleven that started and won at Bournemouth
 // last time out. That raises confidence in the spine and lowers it nowhere except the front three,
 // because a three-week international break sits in between, Chiesa is due back inside it, and the
@@ -204,7 +204,7 @@ export const SLOT_CONFIDENCE = {
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
   LB: "Thu Oct 1, morning - Georgia on Friday and Ukraine on Monday close Kerkez's window; Tsimikas, the alternative, starts for Greece tonight. Medium.",
-  LCB: "Thu Oct 1, morning - Xavi may play him on the right for the Netherlands tonight; for Liverpool the left of the pair is his. Certain.",
+  LCB: "Thu Oct 1, morning - Xavi may play him on the right for the Netherlands tonight; for Liverpool the left of the pair is his. High.",
   RCB: "Thu Oct 1, morning - the club's Opta review puts him third in the league for aerial success and second for line-breaking passes into the final third. High.",
   RB: "Thu Oct 1, morning - Araujo's window ends with Uruguay on 6 October; Semenyo's leg decides how hard his flank is tested. Frimpong the alternative. High.",
   LDM: "Thu Oct 1, morning - the club's Opta review makes Liverpool the league's most aggressive press, and Szoboszlai sets it beside Mac Allister. High.",
@@ -230,7 +230,7 @@ export const ALTERNATIVES = {
   RDM: [{ playerId: 14, reason: "Gravenberch \u00b7 displaced at Fulham, a closing substitute since, and a 5/10 from Voetbalzone against Serbia" }, { playerId: 17, reason: "Endo \u00b7 unused, available, and leaving in January" }],
   LAM: [{ playerId: 25, reason: "Ngumoha \u00b7 18 \u00b7 either flank; Croatia and Czechia left with England" }, { playerId: 18, reason: "Wirtz \u00b7 Rousing The Kop's bold option moves him to the left of the attack" }],
   CAM: [{ playerId: 15, reason: "Szoboszlai \u00b7 has played the ten before; drawn deeper in this shape" }, { playerId: 14, reason: "Gravenberch \u00b7 would free Szoboszlai to push on if Iraola reshuffles" }],
-  RAM: [{ playerId: 25, reason: "Ngumoha \u00b7 18 \u00b7 on for Saka on the right in Prague, England's third-youngest competitive player" }, { playerId: 26, reason: "Chiesa \u00b7 his end-of-September training target falls due unconfirmed; Sports Mole pencils 11 October" }],
+  RAM: [{ playerId: 25, reason: "Ngumoha \u00b7 18 \u00b7 on for Saka on the right in Prague, England's third-youngest competitive player" }, { playerId: 26, reason: "Chiesa \u00b7 his end-of-September training target lapsed without confirmation; Sports Mole pencils 11 October" }],
   ST:  [{ playerId: 31, reason: "Koumas \u00b7 the only other recognised striker; a full league debut if Isak misses" }, { playerId: 28, reason: "Munoz \u00b7 Rousing The Kop's option to play him centrally" }],
 };
 

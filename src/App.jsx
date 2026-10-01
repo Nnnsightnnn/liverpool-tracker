@@ -521,14 +521,14 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and three Liverpool players are due on the field at a
+              and as many as five Liverpool players are due on the field at a
               quarter to eight tonight, none of them at Anfield. In
               Thessaloniki, Virgil van Dijk may move across to the
               right of the Dutch defence because Jan Paul van Hecke
-              has gone home with a damaged foot; Xavi calls his
-              captain a warrior and says the right side is no
-              trouble, and Kostas Tsimikas is expected in the Greek
-              side against him. In Munich, Florian Wirtz is expected
+              has gone home with a damaged foot; Xavi, calling Van
+              Hecke a warrior, says his captain can play the right
+              side perfectly, and Kostas Tsimikas is expected in the
+              Greek side against him. In Munich, Florian Wirtz is expected
               to start for a Germany team still waiting for Klopp's
               first win, under an armband rule settled by counting
               caps. In Cardiff, Lewis Koumas may lead the Wales line
