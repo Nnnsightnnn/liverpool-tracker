@@ -570,12 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday morning, and the captain may spend tonight on
-          the other side of a back four: Xavi says Van Dijk can
-          play on the right perfectly, with Van Hecke gone home
-          hurt. Wirtz and Koumas play at the same hour. Liverpool
-          are sixth on nine and unbeaten, and City come to Anfield
-          in ten days.
+          Thursday night, and Wirtz comes home from the break
+          with a goal: the post, then the finish, in Klopp's first
+          win for Germany. Van Dijk headed one in Greece and
+          Koumas led Wales past Norway. Liverpool are sixth on
+          nine and unbeaten, and City come to Anfield in ten days.
         </p>
 
         <StatStrip stats={stats} />
@@ -608,23 +607,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and as many as five Liverpool players are due on the field at a
-              quarter to eight tonight, none of them at Anfield. In
-              Thessaloniki, Virgil van Dijk may move across to the
-              right of the Dutch defence because Jan Paul van Hecke
-              has gone home with a damaged foot; Xavi, calling Van
-              Hecke a warrior, says his captain can play the right
-              side perfectly, and Kostas Tsimikas is expected in the
-              Greek side against him. In Munich, Florian Wirtz is expected
-              to start for a Germany team still waiting for Klopp's
-              first win, under an armband rule settled by counting
-              caps. In Cardiff, Lewis Koumas may lead the Wales line
-              against Erling Haaland. At Kirkby, Alexander Isak is
-              being told by an old Swede not to hurry. The club's own
-              Opta review has Liverpool pressing higher than anyone in
-              the league. Ten days before City, the week's real work
-              is being done elsewhere, and Liverpool can only watch.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              for once, the international break gave something back.
+              In Munich, Florian Wirtz struck the post for one German
+              goal and scored the other, slipping Srdjan Babic and
+              finishing low, and by the end of Jurgen Klopp's first
+              win he was wearing the armband. In Thessaloniki, Virgil
+              van Dijk stayed on the left, watched Greece go two up,
+              and headed the Netherlands back into a game they drew
+              on his ninety-ninth cap. In Cardiff, Lewis Koumas
+              started up front in a Welsh win while Erling Haaland,
+              ten days from Anfield, barely threatened. Nobody came
+              off hurt. Gakpo is still ungraded and Isak still
+              unseen, and a French paper says Ekitike may be back by
+              December. The ten Liverpool paid for came home with
+              the one thing a fortnight away could give him.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -632,11 +629,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings
               live again, and five dispatches from the writers
-              who never clock off. There is a captain who may
-              play on the right in Thessaloniki; an armband
-              settled by counting caps in Munich; an old Swede's
-              advice to Isak; a Welsh rehearsal against Haaland;
-              and a contract clause in Manchester. Read them in order. The season
+              who never clock off. There is a goal in Munich; a
+              header and a bad first half in Thessaloniki; a
+              Welsh evening against Haaland; a December date
+              from Paris; and an October that asks for six games
+              in seventeen days. Read them in order. The season
               has five league games behind it, nine points and
               no defeat, and the four ahead are against the
               current top four; the market stays shut until
@@ -3852,7 +3849,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The captain, on the other side."
+        "The post, then the goal."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

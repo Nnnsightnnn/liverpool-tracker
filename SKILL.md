@@ -457,6 +457,7 @@ The file src/lineupData.js exports:
 - Respect the slot's role — don't put a DEF into an LW slot, etc.
 - If uncertain about a specific slot, fall back to the previous starter for that slot unless news contradicts it
 - If a formation's XI truly has no sensible fit for a slot due to injuries (e.g., all natural RBs injured), pick the closest cover and note it in PLAYER_EVIDENCE
+- **`SLOT_CONFIDENCE` and `SLOT_RATIONALE` share the same keys (`LB:`, `ST:` ...) and `SLOT_CONFIDENCE` comes FIRST in the file.** A scripted find-and-replace on `\n  LB: "..."` hits the confidence levels, not the rationale (seen 30 Sep evening and again 1 Oct evening). Rewrite the rationale by slicing between `export const SLOT_RATIONALE = {` and its closing `};`, then confirm `SLOT_CONFIDENCE` still holds only `High` / `Medium` / `Low`.
 
 ## STEP 7.5: QUEUE A COVER IMAGE REQUEST (if today's lead is genuinely visual)
 
