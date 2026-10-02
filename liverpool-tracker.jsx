@@ -73,7 +73,7 @@ function PlayerAvatar({ player, size = 64 }) {
   );
 }
 
-// ─── Player Data (2026-27 Season · Updated 30 September 2026) ─────────────────
+// ─── Player Data (2026-27 Season · Updated 2 October 2026) ────────────────────
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
 // injuryNote: short description shown on card when not fit
 const PLAYERS = [
@@ -97,7 +97,7 @@ const PLAYERS = [
   { id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Fri Oct 2, morning - A day after a half-time cameo in Thessaloniki that earned a 6 from Goal. His Liverpool problem is unchanged: no start in the last three league games.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png" },
   { id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Fri Oct 2, morning - Hungary's main man in Sports Mole's preview for Georgia tonight, with Mamardashvili in the opposite goal. Ukraine on Monday, then home to set the press for City.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png" },
   { id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Fri Oct 2, morning - Working through the break at the AXA with no international duty and a January sale expected. Emergency centre-back cover; no role foreseen against City.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png" },
-  { id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Fri Oct 2, morning - Klopp after the Serbia win: 'I think everyone in Liverpool is very happy today. The boy is brimming with joy' (Bulinews). Greece, and Tsimikas, on Sunday.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png" },
+  { id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Fri Oct 2, morning - Klopp after the Serbia win: 'I think everyone in Liverpool is very happy today,' and 'The boy is brimming with the joy of playing and has worked incredibly hard' (Bulinews). Greece, and Tsimikas, on Sunday.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png" },
   { id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Fri Oct 2, morning - Back from England Under-20 duty with an assist against France to show for it. Pivot cover behind Mac Allister and Szoboszlai, queued with Gravenberch.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A" },
 
   // ── Forwards ──────────────────────────────────────────────────────────────
@@ -130,9 +130,9 @@ const RSS_FEEDS = [
 const LATEST_NEWS = [
   { source: "Sports Mole", title: "Preview: Hungary vs Georgia - prediction, team news, lineups", time: "today", category: "major" },
   { source: "Blood Red", title: "Alexander Isak and Cody Gakpo injury nightmares as Hugo Ekitike comeback boost revealed", time: "today", category: "fan" },
-  { source: "Bulinews", title: "'I think everyone in Liverpool is very happy today'", time: "today", category: "major" },
   { source: "Cyprus Mail", title: "Joy for Germany as Ronaldo-less Portugal win in Denmark", time: "today", category: "major" },
-  { source: "OneFootball", title: "Klopp hails Wirtz after Serbia win, thinks everyone at Liverpool is very happy today", time: "today", category: "major" },
+  { source: "Bulinews", title: "'I think everyone in Liverpool is very happy today'", time: "1d ago", category: "major" },
+  { source: "OneFootball", title: "Klopp hails Wirtz after Serbia win, thinks everyone at Liverpool is very happy today", time: "1d ago", category: "major" },
   { source: "OneFootball", title: "Germany player ratings vs Serbia: Wirtz shines in Klopp's first win", time: "1d ago", category: "major" },
   { source: "Al Jazeera", title: "France vs Italy: UEFA Nations League", time: "1d ago", category: "major" },
   { source: "Yahoo Sports", title: "Wirtz scores as Klopp clinches first Germany win", time: "1d ago", category: "major" },

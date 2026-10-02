@@ -573,8 +573,8 @@ function CoverView({ onJump }) {
           Friday, and the break turns in on itself: tonight in
           Budapest Szoboszlai and Kerkez line up against
           Mamardashvili, and in Saint-Denis Jacquet and Barcola are
-          expected to face Italy. Klopp says Liverpool should be
-          happy with Wirtz. Liverpool are sixth on nine and
+          expected to face Italy. Klopp thinks everyone in
+          Liverpool is very happy with Wirtz. Liverpool are sixth on nine and
           unbeaten; City come to Anfield in nine days.
         </p>
 
@@ -619,7 +619,7 @@ function CoverView({ onJump }) {
               Jeremy Jacquet at centre-back and Bradley Barcola on the
               left, shooting at Gianluigi Donnarumma, who keeps goal
               for City. In Munich, after Wirtz's goal, Jurgen Klopp
-              said everyone in Liverpool should be very happy. Gakpo is still ungraded and Isak still unseen,
+              said he thought everyone in Liverpool was very happy today. Gakpo is still ungraded and Isak still unseen,
               and the club has said nothing about either. The break is
               a fortnight of other people's football, and Liverpool
               are watching most of it.
@@ -3850,7 +3850,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The boy is brimming with joy."
+        "Brimming with the joy of playing."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

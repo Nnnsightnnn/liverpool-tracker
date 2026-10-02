@@ -29,12 +29,12 @@ export const FORMATIONS = {
     // every published preview: Gakpo took the RIGHT flank and Barcola the left, not the reverse.
     // Out: Ekitike (Achilles, January at the earliest), Bradley (knee, no club date; FotMob now
     // lists early January 2027), Leoni (ACL, group training planned for the break but unconfirmed) and
-    // Chiesa (back, aiming to resume training by the end of September, Sports Mole pencils 11 Oct).
+    // Chiesa (back, his end-of-September training target lapsed unconfirmed, Sports Mole pencils 11 Oct).
     defaultXI: {
       GK: 1,    // Alisson (the save from Evanilson on 18 that made the clean sheet possible)
       LB: 7,    // Kerkez (ninety minutes, targeted repeatedly over the top, a 6 from the BBC)
       LCB: 3,   // Van Dijk (a 7; third clean sheet in a row alongside Jacquet)
-      RCB: 11,  // Jacquet (an 8, the best rating on the field, and a first France call-up)
+      RCB: 11,  // Jacquet (an 8, the best rating on the field; now a France international)
       RB: 29,   // Araujo (a fifth straight league start out of position; Bradley has no club date)
       LCM: 13,  // Mac Allister (found the space that opened the game up after a slow start)
       CM: 15,   // Szoboszlai (two free-kicks narrowly wide, booked after the interval)
@@ -78,7 +78,7 @@ export const FORMATIONS = {
       GK: 1,    // Alisson (a 7, and the eighteenth-minute save that kept it goalless)
       LB: 7,    // Kerkez (ninety minutes at the club that sold him; a 6 for effort)
       LCB: 3,   // Van Dijk (a 7; a third clean sheet in a row)
-      RCB: 11,  // Jacquet (an 8 and the best on the field; France call-up this week)
+      RCB: 11,  // Jacquet (an 8 and the best on the field; capped by France since)
       RB: 29,   // Araujo (a fifth consecutive league start there; Semenyo attacks that side next)
       LDM: 15,  // Szoboszlai (booked after half-time, two free-kicks narrowly wide)
       RDM: 13,  // Mac Allister (the pivot partner the previews insisted on, and rightly)
@@ -114,8 +114,8 @@ export const FORMATIONS = {
     // Semenyo, who attacks that side for Manchester City, if one is wanted. Gomez takes the third centre-back slot; his next appearance in
     // any shape is his 300th for the club. Default is the 4-2-3-1 above.
     defaultXI: {
-      GK: 1,    // Alisson (restored for the league)
-      LCB: 3,   // Van Dijk (rested Tuesday, back here)
+      GK: 1,    // Alisson (first choice, rested through the break)
+      LCB: 3,   // Van Dijk (fit after the Netherlands' 2-2 in Greece)
       CCB: 11,  // Jacquet (central in a three, the recovery pace the shape wants)
       RCB: 5,   // Gomez (one appearance from 300 for the club; captained the cup tie)
       LWB: 7,   // Kerkez (the evening previews' left-back, and the attacking option here)
@@ -150,7 +150,7 @@ export const PLAYER_EVIDENCE = {
   14: "NED · 6/10 off the bench",         // Gravenberch
   15: "HUN · Georgia tonight, focal",   // Szoboszlai
   17: "AXA · January sale list",       // Endo
-  18: "GER · Klopp: 'brimming with joy'",          // Wirtz
+  18: "GER · scored, Klopp delighted",          // Wirtz
   20: "Pivot cover · U20 assist v FRA",               // Nyoni
   22: "Ankle · day six, ungraded",       // Gakpo
   23: "Doubt · still being assessed",       // Isak
@@ -180,7 +180,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // is no longer a preview consensus, it is the eleven that started and won at Bournemouth
 // last time out. That raises confidence in the spine and lowers it nowhere except the front three,
 // because a three-week international break sits in between, Chiesa is due back inside it, and the
-// one thing today proved about the wide positions is that the previews could not call which flank
+// one thing the Bournemouth game proved about the wide positions is that the previews could not call which flank
 // Gakpo would take. Updated Mon Sep 28 (evening): Gakpo, withdrawn from the Dutch squad and reported out for
 // several weeks, is replaced at RAM by Munoz; Isak (thigh, 'a small problem' per Potter) remains a fitness doubt at ST.
 export const SLOT_CONFIDENCE = {
@@ -210,7 +210,7 @@ export const SLOT_RATIONALE = {
   LDM: "Fri Oct 2, morning - Szoboszlai is Hungary's focal point against Georgia tonight in the previews, then Ukraine on Monday; back to set the press for City. High.",
   RDM: "Fri Oct 2, morning - Mac Allister returns from Argentina for the end of City week; Gravenberch, a 6/10 off the bench on Thursday, is the alternative. Medium only for tactical reshuffles.",
   LAM: "Fri Oct 2, morning - Barcola is on France's left in the predicted XI to face Italy and City's Donnarumma tonight; the left for City while Gakpo is out. Medium.",
-  CAM: "Fri Oct 2, morning - Wirtz scored against Serbia, finished with the armband and had Klopp saying everyone in Liverpool should be very happy; the ten is his. Medium.",
+  CAM: "Fri Oct 2, morning - Wirtz scored against Serbia, finished with the armband and had Klopp thinking everyone in Liverpool is very happy; the ten is his. Medium.",
   RAM: "Fri Oct 2, morning - Munoz on this sheet with Ngumoha the alternative; Gakpo still ungraded six days on. Low until the squad is back together.",
   ST: "Fri Oct 2, morning - Isak still being assessed with no bulletin; Koumas, a 7/10 against Norway, is in line if he is not fit (AnfieldWatch). Low.",
 };
@@ -221,14 +221,14 @@ export const SLOT_RATIONALE = {
 // initially. The UI shows these on hover as "Also considered". Keyed to
 // 4-2-3-1 (the season-closing baseline shape).
 export const ALTERNATIVES = {
-  GK:  [{ playerId: 2, reason: "Mamardashvili \u00b7 unused at the Vitality; the Chelsea cup tie on 28 October is his likely next start" }, { playerId: 27, reason: "Woodman \u00b7 third-choice, not in at Bournemouth's squad" }],
+  GK:  [{ playerId: 2, reason: "Mamardashvili \u00b7 unused at the Vitality; the Chelsea cup tie on 28 October is his likely next start" }, { playerId: 27, reason: "Woodman \u00b7 third-choice, not in the squad at Bournemouth" }],
   LB:  [{ playerId: 32, reason: "Tsimikas \u00b7 unused at the Vitality; in the Greek defence for Thursday's 2-2 with the Netherlands" }],
   LCB: [{ playerId: 5, reason: "Gomez \u00b7 unused at Bournemouth; his next appearance in any shape is his 300th for the club" }, { playerId: 29, reason: "Araujo \u00b7 a centre-half by trade, currently occupying right-back instead" }],
   RCB: [{ playerId: 5, reason: "Gomez \u00b7 the fourth senior centre-back, on the bench for a third straight clean sheet" }, { playerId: 10, reason: "Leoni \u00b7 group training planned for the break, not yet confirmed by the club; Sports Mole pencils mid-October" }],
-  RB:  [{ playerId: 9, reason: "Frimpong \u00b7 played right-back in the cup, unused at the Vitality; the attacking alternative" }, { playerId: 5, reason: "Gomez \u00b7 the only specialist right-back available while Bradley's knee has no club date" }],
+  RB:  [{ playerId: 9, reason: "Frimpong \u00b7 played right-back in the cup, unused at the Vitality; the attacking alternative" }, { playerId: 5, reason: "Gomez \u00b7 a specialist right-back alongside Frimpong while Bradley's knee has no club date" }],
   LDM: [{ playerId: 14, reason: "Gravenberch \u00b7 nine minutes at Bournemouth; a half-time substitute in Greece on Thursday, a 6 from Goal" }, { playerId: 20, reason: "Nyoni \u00b7 19 \u00b7 sees himself as a six; set up a goal for England U20s against France" }],
   RDM: [{ playerId: 14, reason: "Gravenberch \u00b7 displaced at Fulham, a closing substitute since, and a 5/10 from Voetbalzone against Serbia" }, { playerId: 17, reason: "Endo \u00b7 unused, available, and leaving in January" }],
-  LAM: [{ playerId: 25, reason: "Ngumoha \u00b7 18 \u00b7 either flank; Croatia and Czechia left with England" }, { playerId: 18, reason: "Wirtz \u00b7 Rousing The Kop's bold option moves him to the left of the attack" }],
+  LAM: [{ playerId: 25, reason: "Ngumoha \u00b7 18 \u00b7 either flank; made his England debut in Prague" }, { playerId: 18, reason: "Wirtz \u00b7 Rousing The Kop's bold option moves him to the left of the attack" }],
   CAM: [{ playerId: 15, reason: "Szoboszlai \u00b7 has played the ten before; drawn deeper in this shape" }, { playerId: 14, reason: "Gravenberch \u00b7 would free Szoboszlai to push on if Iraola reshuffles" }],
   RAM: [{ playerId: 25, reason: "Ngumoha \u00b7 18 \u00b7 on for Saka on the right in Prague, England's third-youngest competitive player" }, { playerId: 26, reason: "Chiesa \u00b7 his end-of-September training target lapsed without confirmation; Sports Mole pencils 11 October" }],
   ST:  [{ playerId: 31, reason: "Koumas \u00b7 the only other recognised striker; started Wales's 2-1 win over Norway on Thursday, a 7/10" }, { playerId: 28, reason: "Munoz \u00b7 Rousing The Kop's option to play him centrally" }],
