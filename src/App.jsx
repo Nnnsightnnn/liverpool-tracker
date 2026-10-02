@@ -570,11 +570,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday night, and Wirtz comes home from the break
-          with a goal: the post, then the finish, in Klopp's first
-          win for Germany. Van Dijk headed one in Greece and
-          Koumas led Wales past Norway. Liverpool are sixth on
-          nine and unbeaten, and City come to Anfield in ten days.
+          Friday, and the break turns in on itself: tonight in
+          Budapest Szoboszlai and Kerkez line up against
+          Mamardashvili, and in Saint-Denis Jacquet and Barcola are
+          expected to face Italy. Klopp says Liverpool should be
+          happy with Wirtz. Liverpool are sixth on nine and
+          unbeaten; City come to Anfield in nine days.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,38 +608,38 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              for once, the international break gave something back.
-              In Munich, Florian Wirtz struck the post for one German
-              goal and scored the other, slipping Srdjan Babic and
-              finishing low, and by the end of Jurgen Klopp's first
-              win he was wearing the armband. In Thessaloniki, Virgil
-              van Dijk stayed on the left, watched Greece go two up,
-              and headed the Netherlands back into a game they drew
-              on his ninety-ninth cap. In Cardiff, Lewis Koumas
-              started up front in a Welsh win while Erling Haaland,
-              ten days from Anfield, barely threatened. Nobody came
-              off hurt. Gakpo is still ungraded and Isak still
-              unseen, and a French paper says Ekitike may be back by
-              December. The ten Liverpool paid for came home with
-              the one thing a fortnight away could give him.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              and three Liverpool players will spend the evening
+              trying to beat one another. In Budapest, Dominik
+              Szoboszlai and Milos Kerkez are expected in a Hungary
+              side that has not yet won in this Nations League, and
+              Giorgi Mamardashvili will keep goal for Georgia,
+              guarding a point of his own. In Saint-Denis, France go
+              without Mbappe, and the side the previews expect has
+              Jeremy Jacquet at centre-back and Bradley Barcola on the
+              left, shooting at Gianluigi Donnarumma, who keeps goal
+              for City. In Munich, after Wirtz's goal, Jurgen Klopp
+              said everyone in Liverpool should be very happy. Gakpo is still ungraded and Isak still unseen,
+              and the club has said nothing about either. The break is
+              a fortnight of other people's football, and Liverpool
+              are watching most of it.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
-              Inside, the squad as a roster, the standings
-              live again, and five dispatches from the writers
-              who never clock off. There is a goal in Munich; a
-              header and a bad first half in Thessaloniki; a
-              Welsh evening against Haaland; a December date
-              from Paris; and an October that asks for six games
-              in seventeen days. Read them in order. The season
-              has five league games behind it, nine points and
-              no defeat, and the four ahead are against the
-              current top four; the market stays shut until
-              January, which is when every link on these pages
-              either becomes a bid or goes quiet.
+              Inside, the squad as a roster, the standings live
+              again, and five dispatches from the writers who
+              never clock off. There are three club-mates on one
+              pitch in Budapest; a coach in Munich who cannot stop
+              smiling about Liverpool's ten; a waiting room at
+              Kirkby; two wingers, one gone to Riyadh and one at
+              Brentford; and a French side without its captain.
+              Read them in order. The season has five league games
+              behind it, nine points and no defeat, and the four
+              ahead are against the current top four; the market
+              stays shut until January, which is when every link
+              on these pages either becomes a bid or goes quiet.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3849,7 +3850,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The post, then the goal."
+        "The boy is brimming with joy."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

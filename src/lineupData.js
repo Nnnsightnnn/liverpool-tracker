@@ -130,38 +130,38 @@ export const FORMATIONS = {
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS + injuryNote context, reviewed Thu Oct 1 (evening: Wirtz scored in Germany 2-0 Serbia, Van Dijk headed in Greece 2-2 Netherlands, Koumas started Wales 2-1 Norway; nobody hurt; Gakpo still ungraded), after
+// Hand-curated from RESULTS + injuryNote context, reviewed Fri Oct 2 (morning: Szoboszlai and Kerkez v Mamardashvili in Budapest tonight, Jacquet and Barcola in France's predicted XI v Italy; Gakpo still ungraded, Isak still being assessed), after
 // Bournemouth 0-1 Liverpool: Isak on 57 from a blocked Gakpo cross, a third consecutive clean
 // sheet, and a climb from tenth to sixth. Bradley, Chiesa, Ekitike, Leoni and now Gakpo (ankle) are the five out.
 // Pointed at Manchester City at home, Sunday 11 October, after the international break.
 export const PLAYER_EVIDENCE = {
-  1:  "Starts v City · rested all break",   // Alisson
-  2:  "GEO · Hungary tomorrow",     // Mamardashvili
-  3:  "NED · header on 99th cap",       // Van Dijk
-  5:  "Fit · RB cover, 300 waits",        // Gomez
-  7:  "HUN · Georgia tomorrow",         // Kerkez
-  32: "GRE · 2-2 v NED, top of group",   // Tsimikas
-  8:  "Knee · still no club date",      // Bradley
-  9:  "RB cover · at Kirkby",     // Frimpong
-  10: "ACL · group work unconfirmed",       // Leoni
-  11: "FRA v Italy tomorrow · 76.9%",    // Jacquet
-  12: "Levante loan · development",           // Ndukwe
-  13: "ARG · home for the last week",          // Mac Allister
-  14: "NED · half-time sub, 6/10",         // Gravenberch
-  15: "HUN · Georgia tomorrow",   // Szoboszlai
-  17: "Unused · January sale list",       // Endo
-  18: "GER · scored v Serbia, 90 mins",          // Wirtz
-  20: "Pivot cover · U20 assist",               // Nyoni
-  22: "Ankle · day five, ungraded",       // Gakpo
-  23: "Doubt · no bulletin yet",       // Isak
-  24: "Achilles · December target (rep.)",      // Ekitike
-  25: "ENG record · RAM alternative",         // Ngumoha
-  26: "Back · October, unconfirmed",         // Chiesa
-  27: "Third choice · cup tie next",       // Woodman
-  28: "RAM pick · covers Gakpo",    // Munoz
-  29: "RB · Uruguay 6 Oct",   // Araujo
-  30: "LAM · France v Italy tomorrow",          // Barcola
-  31: "WAL · started, 7/10 v Norway",         // Koumas
+  1:  "Starts v City · rested at Kirkby",   // Alisson
+  2:  "GEO · Hungary tonight, Budapest",     // Mamardashvili
+  3:  "NED · 2-2 in Greece, fit",       // Van Dijk
+  5:  "Fit · RB cover, 300th pending",        // Gomez
+  7:  "HUN · Georgia tonight",         // Kerkez
+  32: "GRE · Germany away Sunday",   // Tsimikas
+  8:  "Knee · no club date yet",      // Bradley
+  9:  "RB cover · stayed at Kirkby",     // Frimpong
+  10: "ACL · group return unconfirmed",       // Leoni
+  11: "FRA · predicted XI v Italy",    // Jacquet
+  12: "On loan · Levante",           // Ndukwe
+  13: "ARG · back for City week",          // Mac Allister
+  14: "NED · 6/10 off the bench",         // Gravenberch
+  15: "HUN · Georgia tonight, focal",   // Szoboszlai
+  17: "AXA · January sale list",       // Endo
+  18: "GER · Klopp: 'brimming with joy'",          // Wirtz
+  20: "Pivot cover · U20 assist v FRA",               // Nyoni
+  22: "Ankle · day six, ungraded",       // Gakpo
+  23: "Doubt · still being assessed",       // Isak
+  24: "Achilles · jogging, Dec target (rep.)",      // Ekitike
+  25: "ENG debut · RAM alternative",         // Ngumoha
+  26: "Back · group work unconfirmed",         // Chiesa
+  27: "Third choice · cup tie earliest",       // Woodman
+  28: "RAM pick · in for Gakpo",    // Munoz
+  29: "RB · Uruguay on 6 Oct",   // Araujo
+  30: "FRA · predicted on left v Italy",          // Barcola
+  31: "WAL · 7/10 v Norway, ST cover",         // Koumas
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -176,7 +176,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // ─── Per-slot confidence levels ─────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by the 4-2-3-1
 // slot keys. These read as confidence that the slot's occupant STARTS AGAINST MANCHESTER CITY at
-// Anfield on Sunday 11 October. (Reviewed Thu Oct 1, evening; levels unchanged since Sat Sep 26.) The basis has changed in kind: this
+// Anfield on Sunday 11 October. (Reviewed Fri Oct 2, morning; levels unchanged since Sat Sep 26.) The basis has changed in kind: this
 // is no longer a preview consensus, it is the eleven that started and won at Bournemouth
 // last time out. That raises confidence in the spine and lowers it nowhere except the front three,
 // because a three-week international break sits in between, Chiesa is due back inside it, and the
@@ -199,20 +199,20 @@ export const SLOT_CONFIDENCE = {
 
 
 // ─── Per-slot rationale ────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Thu Oct 1
-// (evening); originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Fri Oct 2
+// (morning); originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Thu Oct 1, evening - Kerkez's Hungary play Georgia tomorrow; Tsimikas, the alternative, came through a 2-2 with the Netherlands for Greece. Medium.",
-  LCB: "Thu Oct 1, evening - played the left for the Netherlands after all and headed their first goal on his 99th cap; the left of Liverpool's pair is his. High.",
-  RCB: "Thu Oct 1, evening - France v Italy tomorrow is his next game; for City he partners Van Dijk on the evidence of three straight clean sheets. High.",
-  RB: "Thu Oct 1, evening - Araujo finishes his window with Uruguay on 6 October; Frimpong, at Kirkby, is the attacking alternative. High.",
-  LDM: "Thu Oct 1, evening - Szoboszlai plays Georgia tomorrow and Ukraine on Monday, then returns to set the press beside Mac Allister. High.",
-  RDM: "Thu Oct 1, evening - Mac Allister is with Argentina until 6 October; Gravenberch, a half-time sub in Thessaloniki, is the alternative. Medium only for tactical reshuffles.",
-  LAM: "Thu Oct 1, evening - Barcola plays Italy tomorrow and returns to the left for City while Gakpo is out. Medium.",
-  CAM: "Thu Oct 1, evening - Wirtz scored and hit the post in Munich, ninety minutes and the armband by the end; the best case for the ten he could have brought home. Medium.",
-  RAM: "Thu Oct 1, evening - Munoz on this sheet, Ngumoha the alternative, Gakpo ungraded. Low until the squad is back together.",
-  ST: "Thu Oct 1, evening - no Isak bulletin; Koumas started for Wales in a 2-1 win over Norway, the rehearsal the fallback needed. Low.",
+  LB: "Fri Oct 2, morning - Kerkez is expected at left-back for Hungary against Georgia tonight, then Ukraine on Monday; Tsimikas goes to Germany on Sunday. Medium.",
+  LCB: "Fri Oct 2, morning - Van Dijk came through Thursday's 2-2 in Thessaloniki with a header on his 99th cap; the left of the pair is his. High.",
+  RCB: "Fri Oct 2, morning - Jacquet is in the predicted France side to face Italy tonight, a likely second cap; for City he partners Van Dijk on three straight clean sheets. High.",
+  RB: "Fri Oct 2, morning - Araujo's window ends with Uruguay on 6 October; Frimpong, who stayed at Kirkby, is the attacking alternative. High.",
+  LDM: "Fri Oct 2, morning - Szoboszlai is Hungary's focal point against Georgia tonight in the previews, then Ukraine on Monday; back to set the press for City. High.",
+  RDM: "Fri Oct 2, morning - Mac Allister returns from Argentina for the end of City week; Gravenberch, a 6/10 off the bench on Thursday, is the alternative. Medium only for tactical reshuffles.",
+  LAM: "Fri Oct 2, morning - Barcola is on France's left in the predicted XI to face Italy and City's Donnarumma tonight; the left for City while Gakpo is out. Medium.",
+  CAM: "Fri Oct 2, morning - Wirtz scored against Serbia, finished with the armband and had Klopp saying everyone in Liverpool should be very happy; the ten is his. Medium.",
+  RAM: "Fri Oct 2, morning - Munoz on this sheet with Ngumoha the alternative; Gakpo still ungraded six days on. Low until the squad is back together.",
+  ST: "Fri Oct 2, morning - Isak still being assessed with no bulletin; Koumas, a 7/10 against Norway, is in line if he is not fit (AnfieldWatch). Low.",
 };
 
 
@@ -239,6 +239,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  generated_at: "2026-10-01T22:30:00Z",
-  reason: "Thu Oct 1, evening. No personnel change for Manchester City at Anfield on Sunday 11 October: the 4-2-3-1 reads Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Szoboszlai; Munoz, Wirtz, Barcola; Isak. Thursday's internationals cost nobody: Wirtz scored in Germany's 2-0 win, Van Dijk headed in the 2-2 in Greece and Koumas started Wales's 2-1 win over Norway. Isak is still the doubt at nine and Gakpo is out, so Low until Isak trains.",
+  generated_at: "2026-10-02T08:30:00Z",
+  reason: "Fri Oct 2, morning. No personnel change for Manchester City at Anfield on Sunday 11 October: the 4-2-3-1 reads Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Szoboszlai; Munoz, Wirtz, Barcola; Isak. Four of that eleven play tonight: Szoboszlai and Kerkez for Hungary against Mamardashvili's Georgia, Jacquet and Barcola expected for France against Italy. Isak is still the doubt at nine and Gakpo is out, so Low until Isak trains.",
 };
