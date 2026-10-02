@@ -83,7 +83,7 @@ export const FORMATIONS = {
       LDM: 15,  // Szoboszlai (booked after half-time, two free-kicks narrowly wide)
       RDM: 13,  // Mac Allister (the pivot partner the previews insisted on, and rightly)
       LAM: 30,  // Barcola (played the LEFT at the Vitality, against every preview)
-      CAM: 18,  // Wirtz (a 5; six competitive games without a goal or an assist)
+      CAM: 18,  // Wirtz (a 5; no club goal or assist this season; scored for Germany on Thursday)
       RAM: 28,  // Munoz (in for Gakpo: ankle, withdrawn from the Dutch squad 28 Sep, reported out for several weeks)
       ST: 23,   // Isak (DOUBT: 'a small problem with his thigh' per Potter; holds the slot, Koumas the fallback)
     },
@@ -179,7 +179,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // Anfield on Sunday 11 October. (Reviewed Fri Oct 2, evening; levels unchanged since Sat Sep 26.) The basis has changed in kind: this
 // is no longer a preview consensus, it is the eleven that started and won at Bournemouth
 // last time out. That raises confidence in the spine and lowers it nowhere except the front three,
-// because a three-week international break sits in between, Chiesa is due back inside it, and the
+// because a three-week international break sits in between, Chiesa's return target has lapsed inside it, and the
 // one thing the Bournemouth game proved about the wide positions is that the previews could not call which flank
 // Gakpo would take. Updated Mon Sep 28 (evening): Gakpo, withdrawn from the Dutch squad and reported out for
 // several weeks, is replaced at RAM by Munoz; Isak (thigh, 'a small problem' per Potter) remains a fitness doubt at ST.
@@ -207,7 +207,7 @@ export const SLOT_RATIONALE = {
   LCB: "Fri Oct 2, evening - Van Dijk had no game on Friday; the 99th-cap header in Greece stands. The left of the pair is his. High.",
   RCB: "Fri Oct 2, evening - Jacquet played all ninety of France's 1-1 with Italy, a second cap, with Belgium on Monday; three straight clean sheets beside Van Dijk. High.",
   RB: "Fri Oct 2, evening - Araujo is with Uruguay until 6 October; Frimpong and Gomez are the specialists at Kirkby. High.",
-  LDM: "Fri Oct 2, evening - Szoboszlai captained Hungary's 1-0 win over Georgia for ninety minutes; Ukraine on Monday, then the press for City. High.",
+  LDM: "Fri Oct 2, evening - Szoboszlai captained Hungary for eighty minutes of the 1-0 win over Georgia; Ukraine on Monday, then the press for City. High.",
   RDM: "Fri Oct 2, evening - Mac Allister returns from Argentina after 6 October; Gravenberch, without a league start in three, is the alternative. Medium only for tactical reshuffles.",
   LAM: "Fri Oct 2, evening - Barcola came off the bench for France against Italy rather than starting; the left for City while Gakpo is out. Medium.",
   CAM: "Fri Oct 2, evening - Wirtz has Greece on Sunday after the Serbia goal; the ten is his for City. Medium.",
