@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-01T12:00:00Z",
   "status": "OPEN",
   "tracker": "liverpool",
-  "leadStory": "As of Friday morning, Dominik Szoboszlai and Milos Kerkez are expected to line up for Hungary against Giorgi Mamardashvili's Georgia in Budapest tonight (Sports Mole), with Jeremy Jacquet and Bradley Barcola in France's predicted XI to face Italy (Al Jazeera), nine days before Manchester City at Anfield on 11 October.",
+  "leadStory": "As of Friday night, Milos Kerkez has headed his first Hungary goal past his Liverpool team-mate Giorgi Mamardashvili in a 1-0 win over Georgia in Budapest (Liverpool FC), and Jeremy Jacquet has played all ninety of France's 1-1 draw with Italy, nine days before Manchester City at Anfield on 11 October.",
   "action": "generate",
   "note": "Kenny asked for a better cover than the hand-drawn SVG plates. Generate ONE image per the prompt, save it at `output`, then set COVER_IMAGE.src to it, credit 'Illustration · Antigravity', a fresh generatedAt, and set this file's status to CLOSED. Evergreen on purpose: it should still be right after the City result.",
   "currentPlate": "/assets/cover/2026-10-01-anfield-after-dark.svg",

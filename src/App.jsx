@@ -570,11 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday, and the break turns in on itself: tonight in
-          Budapest Szoboszlai and Kerkez line up against
-          Mamardashvili, and in Saint-Denis Jacquet and Barcola are
-          expected to face Italy. Klopp thinks everyone in
-          Liverpool is very happy with Wirtz. Liverpool are sixth on nine and
+          Friday night, and Milos Kerkez has his first goal for
+          Hungary, a header past his own club's second goalkeeper
+          in a 1-0 win in Budapest, and a booking that spares him
+          Monday's game against Ukraine. Jacquet played all ninety of
+          France's draw with Italy. Liverpool are sixth on nine and
           unbeaten; City come to Anfield in nine days.
         </p>
 
@@ -608,21 +608,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and three Liverpool players will spend the evening
-              trying to beat one another. In Budapest, Dominik
-              Szoboszlai and Milos Kerkez are expected in a Hungary
-              side that has not yet won in this Nations League, and
-              Giorgi Mamardashvili will keep goal for Georgia,
-              guarding a point of his own. In Saint-Denis, France go
-              without Mbappe, and the side the previews expect has
-              Jeremy Jacquet at centre-back and Bradley Barcola on the
-              left, shooting at Gianluigi Donnarumma, who keeps goal
-              for City. In Munich, after Wirtz's goal, Jurgen Klopp
-              said he thought everyone in Liverpool was very happy today. Gakpo is still ungraded and Isak still unseen,
-              and the club has said nothing about either. The break is
-              a fortnight of other people's football, and Liverpool
-              are watching most of it.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              a Liverpool left-back scored past a Liverpool goalkeeper,
+              and neither of them looked too unhappy about it. Milos
+              Kerkez headed in Daniel Lukacs's cross on thirty-five
+              minutes in Budapest, his first goal in thirty-five caps,
+              and Giorgi Mamardashvili, who made five saves, spent part
+              of the second half high-fiving Dominik Szoboszlai after
+              tipping over his captain's shot from twenty-five metres.
+              In Saint-Denis Jeremy Jacquet played the whole of France's
+              1-1 with Italy, while City's Donnarumma made the save of
+              the night at the other end. A booking on seventy-four means
+              Kerkez misses Monday, the kind of suspension a club is glad
+              of nine days before Manchester City. At Kirkby, The Athletic
+              has Leoni back this month; Gakpo and Isak have still had
+              no word. The break keeps sending Liverpool good news from
+              places where Liverpool cannot pick the team.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -630,14 +631,14 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live
               again, and five dispatches from the writers who
-              never clock off. There are three club-mates on one
-              pitch in Budapest; a coach in Munich who cannot stop
-              smiling about Liverpool's ten; a waiting room at
-              Kirkby; two wingers, one gone to Riyadh and one at
-              Brentford; and a French side without its captain.
-              Read them in order. The season has five league games
-              behind it, nine points and no defeat, and the four
-              ahead are against the current top four; the market
+              never clock off. A left-back who beat his own
+              goalkeeper; that goalkeeper's five saves and a
+              high-five for the captain; a draw in Paris and a
+              defender who stayed on for all of it; a month, at
+              last, for Leoni; and a Brighton winger on the January
+              list. Read them in order. The season has five league
+              games behind it, nine points and no defeat, and the
+              four ahead are against the current top four; the market
               stays shut until January, which is when every link
               on these pages either becomes a bid or goes quiet.
             </p>
@@ -3850,7 +3851,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Brimming with the joy of playing."
+        "Thirty-five caps, one header."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
