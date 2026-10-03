@@ -137,10 +137,10 @@ const LATEST_NEWS = [
   { source: "Liverpool Echo", title: "10 times Man City beat Liverpool to transfers while breaking Premier League financial rules", time: "today", category: "major" },
   { source: "Football365", title: "Manchester City owners might not match Liverpool's £5.5bn valuation in forced sale", time: "today", category: "major" },
   { source: "CaughtOffside", title: "Jurgen Klopp makes feelings clear on Liverpool being awarded Man City titles", time: "1d ago", category: "fan" },
-  { source: "Sky Sports", title: "Man City Premier League charges: Pep Guardiola sends message of support to former club", time: "1d ago", category: "major" },
   { source: "The Mirror", title: "Thierry Henry launches Bradley Barcola defence after slow start to Liverpool career", time: "1d ago", category: "major" },
   { source: "Liverpool Echo", title: "Giovanni Leoni looks so different one year on as Liverpool star out to make up for lost time", time: "1d ago", category: "major" },
   { source: "Liverpool FC", title: "Milos Kerkez scores first international goal with seven Liverpool players in action", time: "1d ago", category: "official" },
+  { source: "Sky Sports", title: "Man City Premier League charges: Pep Guardiola sends message of support to former club", time: "3d ago", category: "major" },
   { source: "Sky Sports", title: "Man City Premier League charges: Appeal process, punishment hearing and what happens now after guilty verdict", time: "3d ago", category: "major" },
 ];
 

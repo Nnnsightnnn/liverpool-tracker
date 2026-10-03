@@ -216,6 +216,9 @@ This is the in-season replacement for the transfer ledger, and it powers the **O
 - `modelLine`: `{ source, liverpool, draw, opponent, note }` when a model or market probability is available. Report it, do not invent it, and do not present a betting market as a prediction. Set to `null` when nothing credible is found.
 - `sources[]`: only publications actually used this run.
 
+### Opposition off-field sweep (added 3 Oct 2026)
+Every run, also run a NAME-AGNOSTIC search on the opponent itself (`"[opponent] news today"`, `"[opponent] statement"`), not just its team news. On 29 Sep 2026 Manchester City, the next opponent, were found guilty in the Premier League financial-breaches case and appealed on 1-2 Oct, and three consecutive editions never mentioned it because every search was Liverpool-shaped. Off-field news about the next opponent (rulings, sanctions, sackings, takeovers) belongs in `OPPOSITION.summary` and, when it outranks the Liverpool news of the day, in the lead.
+
 ### When the fixture has just been played
 Re-point the whole dossier at the NEW `NEXT_MATCH` opponent the same run. Do not leave a played fixture on the board.
 

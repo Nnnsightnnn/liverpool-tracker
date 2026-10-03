@@ -156,7 +156,7 @@ export const PLAYER_EVIDENCE = {
   23: "Doubt · second weekend, no update",       // Isak
   24: "Achilles · club says January",      // Ekitike
   25: "CIES · £53.6m, 11th in Europe",         // Ngumoha
-  26: "Back · Serie A trio circling",         // Chiesa
+  26: "Lower back · Serie A trio circling",         // Chiesa
   27: "Third choice · order unchanged",       // Woodman
   28: "RAM for City · Gakpo's stand-in",    // Munoz
   29: "URU till 6 Oct · RB starter",   // Araujo
