@@ -570,12 +570,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday night, and Milos Kerkez has his first goal for
-          Hungary, a header past his own club's second goalkeeper
-          in a 1-0 win in Budapest, and a booking that spares him
-          Monday's game against Ukraine. Jacquet played all ninety of
-          France's draw with Italy. Liverpool are sixth on nine and
-          unbeaten; City come to Anfield in nine days.
+          Saturday morning, and the side coming to Anfield in eight
+          days has spent the week being found guilty. Manchester City
+          lodged their appeal before Friday's deadline, calling the
+          verdict unsafe; no sanction lands until it is heard, so they
+          arrive top and perfect on fifteen. Liverpool, sixth and
+          unbeaten, wait on Isak and Gakpo.
         </p>
 
         <StatStrip stats={stats} />
@@ -608,22 +608,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              a Liverpool left-back scored past a Liverpool goalkeeper,
-              and neither of them looked too unhappy about it. Milos
-              Kerkez headed in Daniel Lukacs's cross on thirty-five
-              minutes in Budapest, his first goal in thirty-five caps,
-              and Giorgi Mamardashvili, who made five saves, spent part
-              of the second half high-fiving Dominik Szoboszlai after
-              tipping over his captain's shot from twenty-five metres.
-              In Saint-Denis Jeremy Jacquet played the whole of France's
-              1-1 with Italy, while City's Donnarumma made the save of
-              the night at the other end. A booking on seventy-four means
-              Kerkez misses Monday, the kind of suspension a club is glad
-              of nine days before Manchester City. At Kirkby, The Athletic
-              has Leoni back this month; Gakpo and Isak have still had
-              no word. The break keeps sending Liverpool good news from
-              places where Liverpool cannot pick the team.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and the week's biggest Liverpool story did not involve a
+              Liverpool player. An independent commission has found
+              Manchester City guilty of breaking the Premier League's
+              financial rules across nine seasons, and City answered before
+              Friday's deadline with an appeal calling the ruling unsafe.
+              Nothing will be decided before Anfield: the sanction waits on
+              the appeal, which the Guardian expects to run to the end of
+              January. So City come on the 11th as they are, first and
+              unbeaten, with Pep Guardiola telling them from a distance
+              that they will get through it together. Jurgen Klopp, who
+              once offered to ride on any bus parade, said this week he is
+              fine with what Liverpool achieved. In Paris, meanwhile, Zidane
+              called Jeremy Jacquet brave and said very good four times.
+              Some arguments are settled on grass; this one has moved
+              indoors, and the football will not wait for it.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -631,16 +631,15 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live
               again, and five dispatches from the writers who
-              never clock off. A left-back who beat his own
-              goalkeeper; that goalkeeper's five saves and a
-              high-five for the captain; a draw in Paris and a
-              defender who stayed on for all of it; a month, at
-              last, for Leoni; and a Brighton winger on the January
-              list. Read them in order. The season has five league
-              games behind it, nine points and no defeat, and the
-              four ahead are against the current top four; the market
-              stays shut until January, which is when every link
-              on these pages either becomes a bid or goes quiet.
+              never clock off. City's appeal and the word unsafe;
+              Klopp declining the parade; Zidane saying brave, and
+              very good four times; three Italian doors for Chiesa;
+              and the price written on Barcola's back. Read them in
+              order. The season has five league games behind it,
+              nine points and no defeat, and the four ahead are
+              against the current top four; the market stays shut
+              until January, which is when every link on these pages
+              either becomes a bid or goes quiet.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3851,7 +3850,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Thirty-five caps, one header."
+        "Guilty, appealed, and still top."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
