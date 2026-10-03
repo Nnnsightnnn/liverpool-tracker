@@ -634,7 +634,7 @@ function CoverView({ onJump }) {
               without a reply; seven in Rijeka, two of them City's
               business; Owen on the empty chair Curtis Jones left;
               day six without a grade on Gakpo's ankle; and City's
-              players reaching for lawyers. Read them in order. The
+              players reported to be weighing legal action. Read them in order. The
               season has five league games behind it, nine points
               and no defeat, and the four ahead are against the
               current top four; the market stays shut until January,

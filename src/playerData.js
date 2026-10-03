@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Sat Oct 3, evening - Hungary's captain has the weekend before Ukraine on Monday. For City he partners Mac Allister in the pivot that sets a press the club's Opta review ranks first in the league.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Sat Oct 3, evening - A free weekend for Hungary's captain, with Ukraine to come on Monday. For City he partners Mac Allister in the pivot that sets a press the club's Opta review ranks first in the league.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -259,7 +259,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Sat Oct 3, evening - Holds the right of the attack for City on this sheet while Gakpo's ankle waits for a grade; Ngumoha, on England's bench in Rijeka, is the alternative.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Sat Oct 3, evening - Gakpo's ankle still waits for a grade, so the right-sided berth against City stays his; Ngumoha, on England's bench in Rijeka, is the alternative.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -269,7 +269,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 0, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Sat Oct 3, evening - With Uruguay until 6 October, then a sixth straight league start at right-back if the sheet holds. Semenyo's leg is the variable on his flank.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
+    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 0, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Sat Oct 3, evening - A sixth straight league start at right-back awaits if the sheet holds, once Uruguay release him on 6 October. Semenyo's leg is the variable on his flank.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
     physical: { height: 188, weight: 79, pace: 78, acceleration: 74, sprintSpeed: 80 },
     career: [
       { years: "2016-2018", club: "Rentistas", fee: null, type: "youth" },
@@ -816,7 +816,7 @@ export const DISPATCHES = [
     dateline: "Manchester · 3 October",
     category: "Match Report",
     body:
-      "The only Liverpool side in club action this weekend was beaten before it had settled. Julia Zigiotti Olme, on her 250th club appearance (ESPN), scored for Manchester United on six minutes after a misplaced pass from Liverpool's goalkeeper, Keating, and the rest of the afternoon belonged to the near-miss. Olsson had an effort tipped onto the post, Kapocs went close, Clark headed at goal from a late set-piece, and United's goalkeeper made the saves that mattered; Park hit the bar at the other end (Liverpool FC). Gareth Taylor's side lose 1-0 and do not play again until Aston Villa away on 18 October, the week after the men meet City.",
+      "The only Liverpool side in club action this weekend was beaten before it had settled. Julia Zigiotti Olme scored, in United's 250th game since the club re-formed (ESPN), for Manchester United on six minutes after a misplaced pass from Liverpool's goalkeeper, Keating, and the rest of the afternoon belonged to the near-miss. Olsson had an effort tipped onto the post, Kapocs went close, Clark headed at goal from a late set-piece, and United's goalkeeper made the saves that mattered; Park hit the bar at the other end (Liverpool FC). Gareth Taylor's side lose 1-0 and do not play again until Aston Villa away on 18 October, the week after the men meet City.",
   },
   {
     n: "02",
@@ -863,7 +863,7 @@ export const NEWS_DIGEST = {
   keyTopics: [
     {
       title: "Liverpool Women Beaten 1-0 At Manchester United (Liverpool FC, today)",
-      detail: "Played on Saturday: Julia Zigiotti Olme scored on six minutes, on her 250th club appearance (ESPN), after a misplaced pass from Liverpool goalkeeper Keating. Olsson had an effort tipped onto the post and Clark headed at goal from a late set-piece; Park hit the bar for United (Liverpool FC). Gareth Taylor's side are next at Aston Villa on 18 October.",
+      detail: "Played on Saturday: Julia Zigiotti Olme scored on six minutes, in United's 250th game since re-forming (ESPN), after a misplaced pass from Liverpool goalkeeper Keating. Olsson had an effort tipped onto the post and Clark headed at goal from a late set-piece; Park hit the bar for United (Liverpool FC). Gareth Taylor's side are next at Aston Villa on 18 October.",
       category: "matches",
     },
     {
@@ -1022,7 +1022,7 @@ export const OPPOSITION = {
   liverpoolAngle:
     "The verdict changes nothing a tactics board can see, and that is the point to hold on to: City arrive with every point and every player the commission has not yet touched (the Guardian via City Xtra). Jacquet, praised four times over by Zidane after ninety minutes against Italy (Rousing The Kop), spent Friday in the same France side as Cherki, the City player who works the seam he will be asked to close on the 11th. Liverpool rank first in the league for high pressures in the opponent's half, per the club's Opta review, which is the weapon against a high line and a ball-playing pivot. The weakness has not moved either: nine fast-break goals conceded since the start of last season, the most in the league (Opta), with Araujo, a centre-half, at right-back on the side Semenyo attacks if his leg clears. Kerkez comes in rested by suspension; Gakpo does not come in at all.",
   modelLine: null,
-  sources: ["Opta Analyst", "Sky Sports", "ESPN", "BBC Sport", "Liverpool FC", "Premier League", "beIN Sports", "Express & Star", "Read Man City", "Goal", "CaughtOffside", "Yahoo Sports", "Empire of the Kop", "Sports Mole", "Liverpool Echo", "LiveScore", "FourFourTwo", "Live4Liverpool", "Football365", "Football Insider", "Sport Witness", "Y Clwb Pel-droed", "Al Jazeera", "Bulinews", "Football Italia", "AP", "CBS Sports", "City Xtra", "The Guardian", "Rousing The Kop", "England Football", "Football Insider", "The Hard Tackle"],
+  sources: ["Opta Analyst", "Sky Sports", "ESPN", "BBC Sport", "Liverpool FC", "Premier League", "beIN Sports", "Express & Star", "Read Man City", "Goal", "CaughtOffside", "Yahoo Sports", "Empire of the Kop", "Sports Mole", "Liverpool Echo", "LiveScore", "FourFourTwo", "Live4Liverpool", "Football365", "Football Insider", "Sport Witness", "Y Clwb Pel-droed", "Al Jazeera", "Bulinews", "Football Italia", "AP", "CBS Sports", "City Xtra", "The Guardian", "Rousing The Kop", "England Football", "The Hard Tackle"],
 };
 
 export const FORM_TRENDS = {
@@ -1224,7 +1224,7 @@ export const SQUAD_LOAD = {
     { position: "Wide forward", level: "critical", detail: "Critical, and Saturday's reporting thins it further on paper: Sports Mole has Inter, Atalanta and Lazio interested in Chiesa and Liverpool open to a January sale, so the one reinforcement in sight may yet be a departure. Gakpo's ankle, still ungraded, takes out the player who started on the right at Bournemouth and created three chances, leaving Barcola, Munoz and Ngumoha to cover both flanks against City, LASK and Brentford. Barcola came off the bench for France on Friday and drew a public defence from Thierry Henry, who said he 'did not choose his price' (Sports Mole); Ngumoha, named among England's substitutes for Saturday's 7-0 in Rijeka (England Football), was valued at £53.6m by the CIES Football Observatory this week (Liverpool Echo). No market until January." },
     { position: "Central midfield", level: "medium", detail: "Medium on availability. Szoboszlai captained Hungary for eighty minutes of Friday's 1-0 win over Georgia, replaced by Szucs (Yahoo Sports), and has Ukraine on Monday (Liverpool FC); Gravenberch came on at half-time in Thessaloniki on Thursday and has not started any of Liverpool's last three league games, with AnfieldWatch asking whether he suits anything but a midfield three (via LiveScore). Mac Allister and Szoboszlai are the pivot; Mac Allister, with Argentina until 6 October, is running down a deal TEAMtalk reports the club is cooling on extending, and Sports Mole and Goal report interest in Inter's Aleksandar Stankovic, with Bournemouth said to have rebuffed enquiries for Alex Scott (AnfieldWatch via LiveScore). Endo is listed for January and Nyoni, nineteen and just promoted to England's Under-21s, is the other cover." },
   ],
-  sources: ["Sports Mole", "Liverpool FC", "Liverpool Echo", "Rush The Kop", "This Is Anfield", "Liverpool.com", "Football Insider", "Nehanda Radio", "EPL Index", "Goal", "SI", "Rousing The Kop", "Squawka", "Opta Analyst", "Daily Mail", "Inside Futbol", "Yahoo Sports", "CaughtOffside", "FotMob", "LiveScore", "AnfieldWatch", "Sports Witness", "TEAMtalk", "Empire of the Kop", "Sport Witness", "The Hard Tackle", "101 Great Goals", "AP", "Y Clwb Pel-droed", "L'Equipe", "Al Jazeera", "Blood Red", "Origo", "The Athletic", "Sportsview", "BBC Sport", "Brit Brief", "Eurosport France", "World Today News", "England Football", "TEAMtalk"],
+  sources: ["Sports Mole", "Liverpool FC", "Liverpool Echo", "Rush The Kop", "This Is Anfield", "Liverpool.com", "Football Insider", "Nehanda Radio", "EPL Index", "Goal", "SI", "Rousing The Kop", "Squawka", "Opta Analyst", "Daily Mail", "Inside Futbol", "Yahoo Sports", "CaughtOffside", "FotMob", "LiveScore", "AnfieldWatch", "Sports Witness", "TEAMtalk", "Empire of the Kop", "Sport Witness", "The Hard Tackle", "101 Great Goals", "AP", "Y Clwb Pel-droed", "L'Equipe", "Al Jazeera", "Blood Red", "Origo", "The Athletic", "Sportsview", "BBC Sport", "Brit Brief", "Eurosport France", "World Today News", "England Football"],
 };
 
 
