@@ -570,12 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday morning, and the side coming to Anfield in eight
-          days has spent the week being found guilty. Manchester City
-          lodged their appeal before Friday's deadline, calling the
-          verdict unsafe; no sanction lands until it is heard, so they
-          arrive top and perfect on fifteen. Liverpool, sixth and
-          unbeaten, wait on Isak and Gakpo.
+          Saturday evening, and the one Liverpool side to play
+          came home beaten: the women lost 1-0 at Manchester United.
+          In Rijeka, England put seven past Croatia with two likely
+          City starters in their side and Ngumoha on the bench. Eight days to the leaders; Isak and Gakpo still
+          wait on a bulletin.
         </p>
 
         <StatStrip stats={stats} />
@@ -608,22 +607,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and the week's biggest Liverpool story did not involve a
-              Liverpool player. An independent commission has found
-              Manchester City guilty of breaking the Premier League's
-              financial rules across nine seasons, and City answered before
-              Friday's deadline with an appeal calling the ruling unsafe.
-              Nothing will be decided before Anfield: the sanction waits on
-              the appeal, which the Guardian expects to run to the end of
-              January. So City come on the 11th as they are, first and
-              unbeaten, with Pep Guardiola telling them from a distance
-              that they will get through it together. Jurgen Klopp, who
-              once offered to ride on any bus parade, said this week he is
-              fine with what Liverpool achieved. In Paris, meanwhile, Zidane
-              called Jeremy Jacquet brave and said very good four times.
-              Some arguments are settled on grass; this one has moved
-              indoors, and the football will not wait for it.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the international break did what it always does to a
+              club: it scattered the news across other people's shirts.
+              The one Liverpool team in action, the women, lost 1-0 at
+              Manchester United to a goal on six minutes that began with
+              a loose pass from their own goalkeeper, and the post kept
+              out Olsson's reply. In Rijeka, England beat Croatia 7-0,
+              and the white shirts included Elliot Anderson, who made one
+              of Kane's two, and Marc Guehi, both due at Anfield in sky
+              blue on the 11th. Rio Ngumoha, capped already this window,
+              watched from the bench. City's own week has moved from the
+              hearing room towards the dressing room, with Football
+              Insider reporting players weighing legal action over
+              bonuses. Liverpool still have no word on Isak's foot or
+              Gakpo's ankle. A break is a waiting room, and everyone in
+              it is reading somebody else's paper.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -631,15 +630,16 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live
               again, and five dispatches from the writers who
-              never clock off. City's appeal and the word unsafe;
-              Klopp declining the parade; Zidane saying brave, and
-              very good four times; three Italian doors for Chiesa;
-              and the price written on Barcola's back. Read them in
-              order. The season has five league games behind it,
-              nine points and no defeat, and the four ahead are
-              against the current top four; the market stays shut
-              until January, which is when every link on these pages
-              either becomes a bid or goes quiet.
+              never clock off. Six minutes in Manchester and ninety
+              without a reply; seven in Rijeka, two of them City's
+              business; Owen on the empty chair Curtis Jones left;
+              day six without a grade on Gakpo's ankle; and City's
+              players reaching for lawyers. Read them in order. The
+              season has five league games behind it, nine points
+              and no defeat, and the four ahead are against the
+              current top four; the market stays shut until January,
+              which is when every link on these pages either becomes
+              a bid or goes quiet.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3850,7 +3850,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Guilty, appealed, and still top."
+        "A week of other people's shirts."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
