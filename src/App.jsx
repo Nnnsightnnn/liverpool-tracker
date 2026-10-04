@@ -623,7 +623,7 @@ function CoverView({ onJump }) {
               the league, Gary Neville promises a reception like nothing
               they have seen, and the appeal means none of it touches
               the table before January. Liverpool still have no bulletin
-              on Isak's foot. The verdict on the 11th will be a football one.
+              on Isak's foot and thigh. On the 11th, only the football counts.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -3850,7 +3850,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The verdict on the eleventh is football's."
+        "Sentenced early, played on the day."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

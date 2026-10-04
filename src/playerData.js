@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Sun Oct 4, morning - Still training, still unused, still expected to go in January. The emergency fifth centre-back until then.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Sun Oct 4, morning - January is when the club expects to sell him; until then he trains with the senior group and stands as the emergency fifth centre-back.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Sun Oct 4, morning - Nothing new: the club says January, L'Equipe says November training and December squads, and neither moved over the weekend.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Sun Oct 4, morning - Two timelines, one patient: L'Equipe's November training and December squads against the club's January, with no update to either over the weekend.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -688,7 +688,7 @@ export const COVER_IMAGE = {
   // Evening pass (Fri 4 September): Ipswich 0-2 Liverpool, Isak 6' and 9', Track 1 plate 2026-09-04-isak-brace.svg.
   brief: {
     leadStory:
-      "As of Saturday evening, with the men's side on an international break and Manchester City at Anfield on 11 October, Liverpool Women lost 1-0 at Manchester United and England beat Croatia 7-0 with City's Elliot Anderson and Marc Guehi in their starting XI (Liverpool FC, Sky Sports).",
+      "As of Sunday morning, a week before Manchester City visit Anfield on 11 October, Alexis Mac Allister started Argentina's 7-0 friendly win over Burkina Faso and was replaced on sixty-nine minutes, with Gravenberch, Wirtz and Tsimikas on international duty later today (All Football, Sports Mole, The Hard Tackle).",
     subject: "Anfield at dusk, empty, floodlights on, mist over the pitch: an evergreen City-week cover to replace the hand-drawn plates.",
     prompt: "Wide cinematic photograph, 1600x900 landscape, of Anfield at dusk with nobody in it: the stands empty, the floodlights just switched on, a thin mist lying over a freshly mown, striped pitch, deep red seats falling away into shadow. Low camera on the touchline near the halfway line, looking across toward the Kop. Moody and editorial, fine film grain, muted palette of ink black, deep red (#C8102E) and warm ivory (#F4EBD0) highlights. Keep the LEFT third dark, quiet negative space (night sky or a shadowed stand) because the masthead type sits there. NO text, NO legible logos, crests or sponsor boards, NO players, people or faces.",
     aspectRatio: "landscape",
@@ -884,11 +884,6 @@ export const NEWS_DIGEST = {
       category: "general",
     },
     {
-      title: "Neville Promises City 'A Reception Like You Have Never Seen' (Man City News, today)",
-      detail: "Carried on Sunday by Man City News from Gary Neville's comments on The Overlap earlier in the week (Anfield Index via Yahoo Sports, 1 October): 'there may be banners, there'll certainly be chanting' and 'it will be a brutal day'. Anfield on the 11th is City's first away game since the verdict.",
-      category: "general",
-    },
-    {
       title: "Wirtz And Tsimikas On Opposite Sides In Greece Today (The Hard Tackle, 1d ago)",
       detail: "Previewed on Saturday: Tsimikas at left-back in Greece's predicted 4-4-2 and Wirtz at ten in Germany's 4-2-3-1, days after Anfield Watch called his goal and assist against Serbia 'the Wirtz show' (via Yahoo Sports). Greece won the reverse fixture 1-0 less than a week ago.",
       category: "matches",
@@ -907,6 +902,11 @@ export const NEWS_DIGEST = {
       title: "A Week On, Still No Grade For Gakpo Or Bulletin On Isak (World Today News, 1d ago)",
       detail: "Neither situation moved over the weekend: Gakpo is still being assessed after the tackle on 27 September, and Isak's return is still targeted at City with the problem described as relatively minor (World Today News). The club's last public word was Monday's withdrawal statement.",
       category: "injuries",
+    },
+    {
+      title: "Neville Promises City 'A Reception Like You Have Never Seen' (Man City News, 3d ago)",
+      detail: "Said on The Overlap earlier in the week (Anfield Index via Yahoo Sports, 1 October) and recirculated by Man City News on Sunday: 'there'll be a reception like you have never seen', 'there may be banners, there'll certainly be chanting' and 'it will be a brutal day'. Anfield on the 11th is City's first away game since the verdict.",
+      category: "general",
     },
     {
       title: "City Chase A Sixth Straight League Win At Anfield (Manchester City, 5d ago)",
