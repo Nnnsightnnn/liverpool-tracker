@@ -570,11 +570,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday evening, and the one Liverpool side to play
-          came home beaten: the women lost 1-0 at Manchester United.
-          In Rijeka, England put seven past Croatia with two likely
-          City starters in their side and Ngumoha on the bench. Eight days to the leaders; Isak and Gakpo still
-          wait on a bulletin.
+          Sunday morning, a week from City, and the news came
+          overnight from Buenos Aires: Mac Allister started
+          Argentina's 7-0 over Burkina Faso and was off after
+          sixty-nine minutes. Gravenberch, Wirtz and Tsimikas play
+          today; Isak and Gakpo still wait on a word. Seven days to
+          the leaders, and Anfield is already rehearsing its welcome.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,22 +608,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the international break did what it always does to a
-              club: it scattered the news across other people's shirts.
-              The one Liverpool team in action, the women, lost 1-0 at
-              Manchester United to a goal on six minutes that began with
-              a loose pass from their own goalkeeper, and the post kept
-              out Olsson's reply. In Rijeka, England beat Croatia 7-0,
-              and the white shirts included Elliot Anderson, who made one
-              of Kane's two, and Marc Guehi, both due at Anfield in sky
-              blue on the 11th. Rio Ngumoha, capped already this window,
-              watched from the bench. City's own week has moved from the
-              hearing room towards the dressing room, with Football
-              Insider reporting players weighing legal action over
-              bonuses. Liverpool still have no word on Isak's foot or
-              Gakpo's ankle. A break is a waiting room, and everyone in
-              it is reading somebody else's paper.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and a week to go. The overnight football came from
+              Buenos Aires, where Alexis Mac Allister started a 7-0
+              friendly against Burkina Faso, had a header kept out,
+              and was substituted on sixty-nine minutes with the result
+              long settled, which is the most a Liverpool supporter can
+              ask of an international at this stage of a break. Today
+              it is Gravenberch's turn in Eindhoven, against the Serbia
+              that ended Gakpo's window, and Wirtz and Tsimikas on
+              opposite sides in Greece. Manchester City, meanwhile, are
+              being sentenced in advance by everyone except the people
+              allowed to do it: Stan Collymore would throw them out of
+              the league, Gary Neville promises a reception like nothing
+              they have seen, and the appeal means none of it touches
+              the table before January. Liverpool still have no bulletin
+              on Isak's foot. The verdict on the 11th will be a football one.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -630,11 +631,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live
               again, and five dispatches from the writers who
-              never clock off. Six minutes in Manchester and ninety
-              without a reply; seven in Rijeka, two of them City's
-              business; Owen on the empty chair Curtis Jones left;
-              day six without a grade on Gakpo's ankle; and City's
-              players reported to be weighing legal action. Read them in order. The
+              never clock off. Sixty-nine minutes in Buenos Aires;
+              Serbia again, without Gakpo; Collymore and Neville
+              passing sentence early; a debut header at Kirkby; and
+              two club-mates on one pitch in Greece. Read them in order. The
               season has five league games behind it, nine points
               and no defeat, and the four ahead are against the
               current top four; the market stays shut until January,
@@ -3850,7 +3850,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A week of other people's shirts."
+        "The verdict on the eleventh is football's."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
