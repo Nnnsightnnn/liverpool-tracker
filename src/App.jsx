@@ -570,12 +570,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday morning, a week from City, and the news came
-          overnight from Buenos Aires: Mac Allister started
-          Argentina's 7-0 over Burkina Faso and was off after
-          sixty-nine minutes. Gravenberch, Wirtz and Tsimikas play
-          today; Isak and Gakpo still wait on a word. Seven days to
-          the leaders, and Anfield is already rehearsing its welcome.
+          Sunday night, and the evening belonged to the captain:
+          Van Dijk won his hundredth Netherlands cap in Eindhoven,
+          played on the right by Xavi, and led them past Serbia
+          2-1. Wirtz captained Germany to a goalless draw in
+          Greece; Kerkez is already home. City come to Anfield
+          next Sunday, and Isak's foot is still the question.
         </p>
 
         <StatStrip stats={stats} />
@@ -608,22 +608,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and a week to go. The overnight football came from
-              Buenos Aires, where Alexis Mac Allister started a 7-0
-              friendly against Burkina Faso, had a header kept out,
-              and was substituted on sixty-nine minutes with the result
-              long settled, which is the most a Liverpool supporter can
-              ask of an international at this stage of a break. Today
-              it is Gravenberch's turn in Eindhoven, against the Serbia
-              that ended Gakpo's window, and Wirtz and Tsimikas on
-              opposite sides in Greece. Manchester City, meanwhile, are
-              being sentenced in advance by everyone except the people
-              allowed to do it: Stan Collymore would throw them out of
-              the league, Gary Neville promises a reception like nothing
-              they have seen, and the appeal means none of it touches
-              the table before January. Liverpool still have no bulletin
-              on Isak's foot and thigh. On the 11th, only the football counts.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              in Eindhoven, Virgil van Dijk became the eleventh Dutchman
+              to win a hundred caps, and Xavi marked the occasion by
+              moving him to the right side of a back four he has commanded
+              from the left for most of a decade. He took it as captains
+              do, and the Netherlands beat Serbia 2-1. In Thessaloniki
+              Florian Wirtz wore Germany's armband for Jurgen Klopp and
+              was, by Goal's reckoning, the most dangerous player on a
+              pitch where nobody scored. Milos Kerkez is already home,
+              sent back by a suspension, and Lewis Koumas, who may yet
+              lead the line against City, was withdrawn after fifty-six
+              minutes of a Welsh defeat. Liverpool's own medical room has
+              said nothing new about Isak or Gakpo. The captain has his
+              century; the club still needs its striker.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -631,10 +629,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live
               again, and five dispatches from the writers who
-              never clock off. Sixty-nine minutes in Buenos Aires;
-              Serbia again, without Gakpo; Collymore and Neville
-              passing sentence early; a debut header at Kirkby; and
-              two club-mates on one pitch in Greece. Read them in order. The
+              never clock off. A hundredth cap on the unfamiliar
+              side; Klopp's captain and twenty-one shots without a
+              goal; Kerkez sent home early; fifty-six minutes for the
+              understudy; and City's left-back back for assessment. Read them in order. The
               season has five league games behind it, nine points
               and no defeat, and the four ahead are against the
               current top four; the market stays shut until January,
@@ -3850,7 +3848,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Sentenced early, played on the day."
+        "A century in Eindhoven, then the leaders."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

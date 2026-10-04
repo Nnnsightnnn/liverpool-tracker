@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-01T12:00:00Z",
   "status": "OPEN",
   "tracker": "liverpool",
-  "leadStory": "As of Sunday morning, a week before Manchester City visit Anfield on 11 October, Alexis Mac Allister started Argentina's 7-0 friendly win over Burkina Faso and was replaced on sixty-nine minutes, with Gravenberch, Wirtz and Tsimikas on international duty later today (All Football, Sports Mole, The Hard Tackle).",
+  "leadStory": "As of Sunday night, a week before Manchester City visit Anfield on 11 October, Virgil van Dijk won his hundredth Netherlands cap and captained them to a 2-1 win over Serbia in Eindhoven, while Florian Wirtz captained Germany to a 0-0 draw in Greece (Liverpool FC, Goal).",
   "action": "generate",
   "note": "Kenny asked for a better cover than the hand-drawn SVG plates. Generate ONE image per the prompt, save it at `output`, then set COVER_IMAGE.src to it, credit 'Illustration · Antigravity', a fresh generatedAt, and set this file's status to CLOSED. Evergreen on purpose: it should still be right after the City result.",
   "currentPlate": "/assets/cover/2026-10-01-anfield-after-dark.svg",
