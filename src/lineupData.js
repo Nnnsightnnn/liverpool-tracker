@@ -136,7 +136,7 @@ export const FORMATIONS = {
 // Pointed at Manchester City at home, Sunday 11 October, after the international break.
 export const PLAYER_EVIDENCE = {
   1:  "Starts v City · 3 clean sheets",   // Alisson
-  2:  "Backup · Georgia window done",     // Mamardashvili
+  2:  "Georgia duty · Chelsea cup next",     // Mamardashvili
   3:  "100th NED cap · LCB for City",       // Van Dijk
   5:  "Fit · 300th app next",        // Gomez
   7:  "Home early · LB for City",         // Kerkez

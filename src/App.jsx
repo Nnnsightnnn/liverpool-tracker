@@ -575,7 +575,7 @@ function CoverView({ onJump }) {
           played on the right by Xavi, and led them past Serbia
           2-1. Wirtz captained Germany to a goalless draw in
           Greece; Kerkez is already home. City come to Anfield
-          next Sunday, and Isak's foot is still the question.
+          next Sunday, and Isak's foot and thigh are still the question.
         </p>
 
         <StatStrip stats={stats} />
