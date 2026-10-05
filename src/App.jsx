@@ -570,12 +570,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday night, and the evening belonged to the captain:
-          Van Dijk won his hundredth Netherlands cap in Eindhoven,
-          played on the right by Xavi, and led them past Serbia
-          2-1. Wirtz captained Germany to a goalless draw in
-          Greece; Kerkez is already home. City come to Anfield
-          next Sunday, and Isak's foot and thigh are still the question.
+          Monday, six days out, and the first worrying bulletin of
+          City week belongs to City: Haaland limped off after
+          sixty-seven minutes in Portugal last night, tiredness by
+          Norway's account, with no word yet from Manchester. Liverpool,
+          still waiting on Isak and Gakpo, are reported open to keeping
+          Van Dijk beyond 2027.
         </p>
 
         <StatStrip stats={stats} />
@@ -608,20 +608,19 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              in Eindhoven, Virgil van Dijk became the eleventh Dutchman
-              to win a hundred caps, and Xavi marked the occasion by
-              moving him to the right side of a back four he has commanded
-              from the left for most of a decade. He took it as captains
-              do, and the Netherlands beat Serbia 2-1. In Thessaloniki
-              Florian Wirtz wore Germany's armband for Jurgen Klopp and
-              was, by Goal's reckoning, the most dangerous player on a
-              pitch where nobody scored. Milos Kerkez is already home,
-              sent back by a suspension, and Lewis Koumas, who may yet
-              lead the line against City, was withdrawn after fifty-six
-              minutes of a Welsh defeat. Liverpool's own medical room has
-              said nothing new about Isak or Gakpo. The captain has his
-              century; the club still needs its striker.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and the first injury scare of City week is City's. Erling
+              Haaland dragged a shot wide from a tight angle in Portugal last
+              night, waved to the bench, and walked off on sixty-seven
+              minutes with a limp and an embrace from Stale Solbakken, who
+              said by morning that it was fatigue, an hour agreed in advance
+              and stretched a little. Manchester has said nothing, and PSG
+              follow Anfield by three days. Liverpool's medical room has been
+              just as quiet about Isak and Gakpo. What moved on Merseyside
+              was the captain's contract: Football Insider reports the club
+              open to extending it, provided he keeps playing like this at
+              thirty-five. Everyone is tired in October; only some of them
+              say so.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -629,10 +628,10 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live
               again, and five dispatches from the writers who
-              never clock off. A hundredth cap on the unfamiliar
-              side; Klopp's captain and twenty-one shots without a
-              goal; Kerkez sent home early; fifty-six minutes for the
-              understudy; and City's left-back back for assessment. Read them in order. The
+              never clock off. A hobble in Portugal; a coach
+              who says tired and a club that says nothing; Klopp's
+              verdict on his captain; a contract left open; and a bat
+              in Kolkata. Read them in order. The
               season has five league games behind it, nine points
               and no defeat, and the four ahead are against the
               current top four; the market stays shut until January,
@@ -3848,7 +3847,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A century in Eindhoven, then the leaders."
+        "Tired is not injured, until Sunday."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
