@@ -20,12 +20,13 @@ export const FORMATIONS = {
       RW:  { x: 82, y: 22, role: "FWD" },
     },
     // IDs from playerData.js. This 4-3-3 is the backup look; the default is the
-    // 4-2-3-1 below. Reviewed Wed Sep 23 (evening), after Bournemouth 0-1 Liverpool at the
+    // 4-2-3-1 below. Reviewed Wed Sep 23 (evening; re-checked Mon Oct 5 evening), after Bournemouth 0-1 Liverpool at the
     // Vitality, a third consecutive Premier League clean sheet and a rise from tenth to sixth.
     // Now pointed at Manchester City at home, Sunday 11 October, 4.30pm, Anfield, Sky Sports
     // Main Event, the first fixture after a three-week international break. The XI below is the
     // side that actually started at Bournemouth, per ESPN and the BBC: Alisson; Araujo, Jacquet,
-    // Van Dijk, Kerkez; Mac Allister, Szoboszlai; Gakpo, Wirtz, Barcola; Isak. One deviation from
+    // Van Dijk, Kerkez; Mac Allister, Szoboszlai; Gakpo, Wirtz, Barcola; Isak (Munoz now replaces Gakpo; Jacquet a hamstring
+    // doubt since Mon Oct 5 evening). One deviation from
     // every published preview: Gakpo took the RIGHT flank and Barcola the left, not the reverse.
     // Out: Ekitike (Achilles, January at the earliest), Bradley (knee, no club date; FotMob now
     // lists early January 2027), Leoni (ACL, The Athletic reports a return later in October; group training unconfirmed) and
@@ -64,7 +65,7 @@ export const FORMATIONS = {
     // Manchester City at home on Sunday 11 October, 4.30pm at Anfield (Bournemouth beaten 1-0 away
     // on Sep 20 through Isak on 57; Tottenham beaten 3-1 in the Carabao Cup on Sep 15 with ten
     // changes; Fulham drawn 0-0 on Sep 12; Atletico beaten 2-1 on Sep 9; Ipswich beaten 2-0 away on
-    // Sep 4; Forest drawn 2-2 on Aug 29; Newcastle drawn 2-2 away on Aug 23). Reviewed Wed Sep 23
+    // Sep 4; Forest drawn 2-2 on Aug 29; Newcastle drawn 2-2 away on Aug 23). Reviewed Wed Sep 23 (re-checked Mon Oct 5 evening: Jacquet hamstring doubt)
     // (evening). The XI below is no longer a prediction assembled from previews: it is the eleven
     // that started at Bournemouth, confirmed by ESPN and the BBC. The one thing every preview got
     // wrong was the front three, where Gakpo played the right and Barcola the left. Substitutions:
@@ -105,7 +106,7 @@ export const FORMATIONS = {
       RW:  { x: 78, y: 22, role: "FWD" },
     },
     // Hypothetical 3-4-3 alternative, a shape rarely used, shown for completeness.
-    // Reviewed Wed Sep 23 (evening), pointed at Manchester City at Anfield on 11 October. The
+    // Reviewed Wed Sep 23 (evening; re-checked Mon Oct 5 evening), pointed at Manchester City at Anfield on 11 October. The
     // argument for it has weakened rather than strengthened: Araujo has played a fifth consecutive
     // league game at right-back and Liverpool kept a third clean sheet in a row,
     // so the improvisation is now producing results rather than anxiety. It still removes the
