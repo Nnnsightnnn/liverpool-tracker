@@ -570,12 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, six days out, and the first worrying bulletin of
-          City week belongs to City: Haaland limped off after
-          sixty-seven minutes in Portugal last night, tiredness by
-          Norway's account, with no word yet from Manchester. Liverpool,
-          still waiting on Isak and Gakpo, are reported open to keeping
-          Van Dijk beyond 2027.
+          Monday night, six days out, and the injury news swings back
+          to Liverpool: Jeremy Jacquet, rested by France with a
+          strained left hamstring, will be assessed at the AXA. City
+          still have no word on Haaland. Sunday may yet bring the
+          leaders a new centre-back pairing to run at.
         </p>
 
         <StatStrip stats={stats} />
@@ -608,19 +607,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and the first injury scare of City week is City's. Erling
-              Haaland dragged a shot wide from a tight angle in Portugal last
-              night, waved to the bench, and walked off on sixty-seven
-              minutes with a limp and an embrace from Stale Solbakken, who
-              said by morning that it was fatigue, an hour agreed in advance
-              and stretched a little. Manchester has said nothing, and PSG
-              follow Anfield by three days. Liverpool's medical room has been
-              just as quiet about Isak and Gakpo. What moved on Merseyside
-              was the captain's contract: Football Insider reports the club
-              open to extending it, provided he keeps playing like this at
-              thirty-five. Everyone is tired in October; only some of them
-              say so.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the injury that matters this week turns out to be ours.
+              A few hours before France played Belgium, Jeremy Jacquet felt
+              a tension in the back of his left thigh, and Zidane's staff
+              did the sensible thing and sat him down; Leny Yoro made his
+              debut instead, and France won 4-1 without either Liverpool
+              player on the pitch by the end, Barcola having gone off
+              after seventy-two minutes, before the goals. L'Equipe says
+              it is not serious. Liverpool have not said anything at all.
+              The twenty-one-year-old has started every one of three
+              straight clean sheets beside Van Dijk, and the alternatives
+              are a man one game from three hundred and a right-back who
+              is really a centre-half. Haaland's limp, meanwhile, is still
+              a limp. A hamstring keeps its own counsel until Friday.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -628,10 +628,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live
               again, and five dispatches from the writers who
-              never clock off. A hobble in Portugal; a coach
-              who says tired and a club that says nothing; Klopp's
-              verdict on Wirtz; a contract left open; and a bat
-              in Kolkata. Read them in order. The
+              never clock off. A hamstring felt before kick-off;
+              a France rout that waited for Barcola to leave; a
+              Hungary win in Trnava; the question of who stands
+              beside the captain; and January lists already being
+              written. Read them in order. The
               season has five league games behind it, nine points
               and no defeat, and the four ahead are against the
               current top four; the market stays shut until January,
@@ -3847,7 +3848,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Tired is not injured, until Sunday."
+        "Six days to trust a hamstring."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

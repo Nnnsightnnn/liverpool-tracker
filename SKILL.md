@@ -259,6 +259,7 @@ This step exists because hand-written copy in `~/liverpool-tracker/src/App.jsx` 
 - **Voice register: New Yorker / Granta.** Restrained, present tense for ongoing situations, comma-rich, no exclamation points, no all-caps, no emojis. Italic words used sparingly for emphasis.
 - **Length:** cover deck 2-4 sentences; editor's letter lead paragraph 5-8 sentences; footer quote ≤ 8 words.
 - **The first WORD of the editor's letter lead paragraph should be the day-of-week or moment anchor** (e.g., `Friday`, `Tuesday`, `Saturday`, `Tonight`), styled inside the existing `<span>` that gives it the red italic treatment. Do not remove or restyle the span — only swap the word inside it.
+- **Same-day evening pass: change that anchor word too** (added 5 Oct 2026). The preflight's `cover-letter-lead` rotation check reads only up to the first closing tag, i.e. the word inside the span, so a Monday-evening letter opening on `Monday` after a Monday-morning letter that also opened on `Monday` FAILS as "verbatim", however different the rest is. Use a moment anchor (`Tonight`, `Evening`) for the evening pass.
 
 ### How to write a fresh editor's letter when you're stuck:
 - Lead with the next match (day, venue, what's on the line)
