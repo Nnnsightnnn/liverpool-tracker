@@ -83,7 +83,7 @@ export const FORMATIONS = {
       LDM: 15,  // Szoboszlai (booked after half-time, two free-kicks narrowly wide)
       RDM: 13,  // Mac Allister (the pivot partner the previews insisted on, and rightly)
       LAM: 30,  // Barcola (played the LEFT at the Vitality, against every preview)
-      CAM: 18,  // Wirtz (a 5; no club goal or assist this season; scored for Germany on Thursday)
+      CAM: 18,  // Wirtz (a 5; no club goal or assist this season; scored for Germany earlier in this window)
       RAM: 28,  // Munoz (in for Gakpo: ankle, withdrawn from the Dutch squad 28 Sep, reported out for several weeks)
       ST: 23,   // Isak (DOUBT: 'a small problem with his thigh' per Potter; holds the slot, Koumas the fallback)
     },

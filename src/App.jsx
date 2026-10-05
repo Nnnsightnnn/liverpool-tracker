@@ -630,7 +630,7 @@ function CoverView({ onJump }) {
               again, and five dispatches from the writers who
               never clock off. A hobble in Portugal; a coach
               who says tired and a club that says nothing; Klopp's
-              verdict on his captain; a contract left open; and a bat
+              verdict on Wirtz; a contract left open; and a bat
               in Kolkata. Read them in order. The
               season has five league games behind it, nine points
               and no defeat, and the four ahead are against the
