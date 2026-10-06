@@ -609,18 +609,18 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Evening</span>,{" "}
-              and the fortnight ends on two continents at once. In Kolkata a
-              thunderstorm stopped Uruguay and India at one apiece; when play
-              resumed Uruguay scored five more, and Ronald Araujo, who has
-              played every league minute at right-back, watched all of it from
-              the bench. In Buenos Aires Alexis Mac Allister is with Argentina
-              for Lionel Messi's farewell, the last Liverpool international of
-              the window and the longest flight home. Between them the question
-              at Kirkby has softened: Zidane's word for Jeremy Jacquet was
-              slightly, and the reports since point toward Sunday, though the
-              club has not said so. Mamardashvili, for good measure, saved a
-              penalty in Belfast. A rested right-back, a lighter hamstring, and
-              a midfielder somewhere over the Atlantic.
+              and the question at Kirkby has softened. Zidane's word for
+              Jeremy Jacquet was slightly, and the reports since point toward
+              Sunday, though the club has not said so. The fortnight ends on
+              two continents at once. In Kolkata a thunderstorm stopped Uruguay
+              and India at one apiece; when play resumed Uruguay scored five
+              more, and Ronald Araujo, who has played every league minute at
+              right-back, watched all of it from the bench. In Buenos Aires
+              Alexis Mac Allister is with Argentina for Lionel Messi's farewell,
+              the last Liverpool international of the window and the longest
+              flight home. Mamardashvili, for good measure, saved a penalty in
+              Belfast. A lighter hamstring, a rested right-back, and a
+              midfielder somewhere over the Atlantic.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,

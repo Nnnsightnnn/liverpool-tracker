@@ -128,9 +128,9 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
+  { source: "Yahoo Sports", title: "Liverpool await news on Jeremy Jacquet hamstring strain ahead of Manchester City clash", time: "today", category: "major" },
   { source: "Yahoo Sports", title: "Isak, Gakpo, Jacquet, Leoni - Liverpool injury news and return dates ahead of Man City", time: "today", category: "major" },
   { source: "ESPN", title: "Thapa consolation not enough as Uruguay put six past India in comprehensive victory", time: "today", category: "major" },
-  { source: "Yahoo Sports", title: "Liverpool await news on Jeremy Jacquet hamstring strain ahead of Manchester City clash", time: "today", category: "major" },
   { source: "Sky Sports", title: "Liverpool vs Man City: How to watch, TV channel, live stream, NOW TV, team news and score prediction", time: "today", category: "major" },
   { source: "LiveScore", title: "Iraola handed Liverpool selection headache as 7 players return ahead of Man City clash", time: "today", category: "fan" },
   { source: "Pulse Sports", title: "Argentina vs Benin: Preview, Key Stats, Lineups, and Prediction for Messi's Farewell", time: "today", category: "fan" },
