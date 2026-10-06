@@ -233,7 +233,7 @@ export const ALTERNATIVES = {
   RDM: [{ playerId: 14, reason: "Gravenberch \u00b7 displaced at Fulham, a closing substitute since; started and played an hour of the Dutch 2-1 over Serbia on Sunday" }, { playerId: 17, reason: "Endo \u00b7 unused, available, and leaving in January" }],
   LAM: [{ playerId: 25, reason: "Ngumoha \u00b7 18 \u00b7 either flank; made his England debut in Prague" }, { playerId: 18, reason: "Wirtz \u00b7 Rousing The Kop's bold option moves him to the left of the attack" }],
   CAM: [{ playerId: 15, reason: "Szoboszlai \u00b7 has played the ten before; drawn deeper in this shape" }, { playerId: 14, reason: "Gravenberch \u00b7 would free Szoboszlai to push on if Iraola reshuffles" }],
-  RAM: [{ playerId: 25, reason: "Ngumoha \u00b7 18 \u00b7 on for Saka on the right in Prague; among the substitutes for the 7-0 in Rijeka on Saturday" }, { playerId: 26, reason: "Chiesa \u00b7 his end-of-September training target lapsed without confirmation; Sports Mole pencils 11 October" }],
+  RAM: [{ playerId: 25, reason: "Ngumoha \u00b7 18 \u00b7 on for Saka on the right in Prague; among the substitutes for the 7-0 in Rijeka on Saturday" }, { playerId: 31, reason: "Koumas \u00b7 two Wales starts this window; a forward who can take a flank if Iraola needs a body" }],
   ST:  [{ playerId: 31, reason: "Koumas \u00b7 the only other recognised striker; a 7/10 against Norway, then 56 minutes of a 1-0 defeat by Denmark on Sunday" }, { playerId: 28, reason: "Munoz \u00b7 Rousing The Kop's option to play him centrally" }],
 };
 

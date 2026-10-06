@@ -620,7 +620,7 @@ function CoverView({ onJump }) {
               four that has not conceded in three league games meets the
               leaders intact. City, meanwhile, arrive under a verdict their
               rivals say should cost them their place in the division. Five
-              days, one hamstring, and a crowd already promised extra police.
+              days, one hamstring, and a policing operation already promised.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
