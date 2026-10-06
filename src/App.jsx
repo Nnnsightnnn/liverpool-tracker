@@ -570,11 +570,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday night, six days out, and the injury news swings back
-          to Liverpool: Jeremy Jacquet, rested by France with a
-          strained left hamstring, will be assessed at the AXA. City
-          still have no word on Haaland. Sunday may yet bring the
-          leaders a new centre-back pairing to run at.
+          Tuesday, five days out, and City's striker turns out to have
+          been merely tired: The Times says Haaland's withdrawal in
+          Portugal was fatigue, not injury. Liverpool's own answer waits
+          at Kirkby, where Jacquet's hamstring is being assessed. Sixth on
+          nine against first on fifteen, and the season's first real
+          examination arrives on Sunday.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,20 +608,19 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the injury that matters this week turns out to be ours.
-              A few hours before France played Belgium, Jeremy Jacquet felt
-              a tension in the back of his left thigh, and Zidane's staff
-              did the sensible thing and sat him down; Leny Yoro made his
-              debut instead, and France won 4-1 without either Liverpool
-              player on the pitch by the end, Barcola having gone off
-              after seventy-two minutes, before the goals. L'Equipe says
-              it is not serious. Liverpool have not said anything at all.
-              The twenty-one-year-old has started every one of three
-              straight clean sheets beside Van Dijk, and the alternatives
-              are a man one game from three hundred and a right-back who
-              is really a centre-half. Haaland's limp, meanwhile, is still
-              a limp. A hamstring keeps its own counsel until Friday.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and the doubt has crossed to our side of the fixture. On
+              Sunday night Haaland walked off in Portugal with something in
+              his stride that looked like an injury; by this morning The
+              Times had called it fatigue, and Solbakken had already said he
+              left the Norway camp the moment the game was over. Liverpool's
+              uncertainty has gone the other way. The French federation sent
+              Jeremy Jacquet home with a strained left hamstring and no
+              timeline, and the assessment at Kirkby will decide whether the back
+              four that has not conceded in three league games meets the
+              leaders intact. City, meanwhile, arrive under a verdict their
+              rivals say should cost them their place in the division. Five
+              days, one hamstring, and a crowd already promised extra police.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -628,11 +628,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live
               again, and five dispatches from the writers who
-              never clock off. A hamstring felt before kick-off;
-              a France rout that waited for Barcola to leave; a
-              Hungary win in Trnava; the question of who stands
-              beside the captain; and January lists already being
-              written. Read them in order. The
+              never clock off. A striker who was only tired;
+              a hamstring handed back to Kirkby; a verdict that
+              follows City up the M62; a manager who waits until
+              Thursday to speak; and the nine passes before the
+              press. Read them in order. The
               season has five league games behind it, nine points
               and no defeat, and the four ahead are against the
               current top four; the market stays shut until January,
@@ -3848,7 +3848,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Six days to trust a hamstring."
+        "Tired is not the same as injured."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
