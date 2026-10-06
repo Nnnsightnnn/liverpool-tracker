@@ -570,12 +570,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, five days out, and City's striker turns out to have
-          been merely tired: The Times says Haaland's withdrawal in
-          Portugal was fatigue, not injury. Liverpool's own answer waits
-          at Kirkby, where Jacquet's hamstring is being assessed. Sixth on
-          nine against first on fifteen, and the season's first real
-          examination arrives on Sunday.
+          Tuesday evening, and the window closes with the doubt at
+          Kirkby a little smaller: Zidane called Jacquet only slightly
+          injured, and the reporting now leans toward Sunday. Araujo sat
+          unused through Uruguay's six in Kolkata; Mac Allister is in
+          Buenos Aires for Messi's farewell. Sixth on nine, City first on
+          fifteen, and Anfield in five days.
         </p>
 
         <StatStrip stats={stats} />
@@ -608,19 +608,19 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and the doubt has crossed to our side of the fixture. On
-              Sunday night Haaland walked off in Portugal with something in
-              his stride that looked like an injury; by this morning The
-              Times had called it fatigue, and Solbakken had already said he
-              left the Norway camp the moment the game was over. Liverpool's
-              uncertainty has gone the other way. The French federation sent
-              Jeremy Jacquet home with a strained left hamstring and no
-              timeline, and the assessment at Kirkby will decide whether the back
-              four that has not conceded in three league games meets the
-              leaders intact. City, meanwhile, arrive under a verdict their
-              rivals say should cost them their place in the division. Five
-              days, one hamstring, and a policing operation already promised.
+              <span style={{ fontStyle: "italic", color: T.red }}>Evening</span>,{" "}
+              and the fortnight ends on two continents at once. In Kolkata a
+              thunderstorm stopped Uruguay and India at one apiece; when play
+              resumed Uruguay scored five more, and Ronald Araujo, who has
+              played every league minute at right-back, watched all of it from
+              the bench. In Buenos Aires Alexis Mac Allister is with Argentina
+              for Lionel Messi's farewell, the last Liverpool international of
+              the window and the longest flight home. Between them the question
+              at Kirkby has softened: Zidane's word for Jeremy Jacquet was
+              slightly, and the reports since point toward Sunday, though the
+              club has not said so. Mamardashvili, for good measure, saved a
+              penalty in Belfast. A rested right-back, a lighter hamstring, and
+              a midfielder somewhere over the Atlantic.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -628,11 +628,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live
               again, and five dispatches from the writers who
-              never clock off. A striker who was only tired;
-              a hamstring handed back to Kirkby; a verdict that
-              follows City up the M62; a manager who waits until
-              Thursday to speak; and the nine passes before the
-              press. Read them in order. The
+              never clock off. A hamstring now called
+              slight; a right-back unused in a Kolkata storm;
+              a farewell at the Monumental; a penalty saved in
+              Belfast; and a goalkeeper's contract with a year
+              to run. Read them in order. The
               season has five league games behind it, nine points
               and no defeat, and the four ahead are against the
               current top four; the market stays shut until January,
@@ -3848,7 +3848,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Tired is not the same as injured."
+        "Rested in Kolkata, needed at Anfield."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
