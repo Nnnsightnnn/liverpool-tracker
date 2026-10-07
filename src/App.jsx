@@ -570,11 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday, and the window is finally shut: Mac Allister
-          played seventy-nine minutes of Messi's farewell in Buenos Aires
-          and is the last man flying home. Jacquet, Isak and Gakpo are
-          still waiting on a word from the club. Sixth on nine and
-          unbeaten, City first on fifteen, and Anfield in four days.
+          Wednesday evening, and the manager has finally spoken: Isak
+          and Gakpo are injured, neither is ruled out, and whether they
+          recover for Sunday is still an open question. Jacquet went
+          unmentioned. Sixth on nine and unbeaten, City first on
+          fifteen and perfect, and Anfield in four days.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,18 +607,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and the last of them is on his way back. Alexis Mac Allister
-              started Lionel Messi's farewell at the Monumental, watched him
-              make one goal, then another, then score a penalty of his own, and
-              came off on seventy-nine minutes, a supporting part on a night
-              that had only one lead. Four days from now he is due in the pivot against Manchester
-              City. The rest of the squad is already at Kirkby, and the
-              questions it brought home are still open: Jacquet's hamstring,
-              Isak's foot and thigh, Gakpo's ankle, none of them graded in public by the
-              club. City, meanwhile, have been handed a calendar, a hearing by
-              Christmas Eve and a verdict by late January. One side waits on
-              its physios, the other on its lawyers.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the first words. Andoni Iraola told the club's website that
+              Alexander Isak and Cody Gakpo both had to leave their national
+              teams injured, and that the only question now is whether they
+              recover in time for Manchester City on Sunday. It is less than a
+              bulletin and more than the silence that came before it: neither
+              is ruled out, which, for Gakpo, is a kinder tense than the
+              several weeks reported from the Netherlands. The name he did not
+              say was Jacquet's. City have won everything, he added, and
+              Liverpool have lost nothing, and to close that difference his
+              side will need to be very, very good. At the other end of the M62,
+              Maresca meets his players on Thursday to talk about a verdict
+              before a team sheet. Two dressing rooms, four days, and only one
+              of them is counting hamstrings.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -626,11 +628,12 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live
               again, and five dispatches from the writers who
-              never clock off. A farewell at the Monumental;
-              three injuries and no bulletin; a deadline for
-              City in January; a model that leans away from
-              Anfield; and a captain's contract back on the
-              table. Read them in order. The
+              never clock off. A manager's first word on two
+              forwards; the defender he did not name; rivals
+              who expect City gone if the appeal fails; the
+              first meeting in eleven years without Klopp or
+              Guardiola; and a seventeen-year-old in Tijuana.
+              Read them in order. The
               season has five league games behind it, nine points
               and no defeat, and the four ahead are against the
               current top four; the market stays shut until January,
@@ -3846,7 +3849,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The last flight home is the longest."
+        "Neither ruled in, nor ruled out."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
