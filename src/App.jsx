@@ -570,12 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday evening, and the window closes with the doubt at
-          Kirkby a little smaller: Zidane called Jacquet only slightly
-          injured, and the reporting now leans toward Sunday. Araujo sat
-          unused through Uruguay's six in Kolkata; Mac Allister is in
-          Buenos Aires for Messi's farewell. Sixth on nine, City first on
-          fifteen, and Anfield in five days.
+          Wednesday, and the window is finally shut: Mac Allister
+          played seventy-nine minutes of Messi's farewell in Buenos Aires
+          and is the last man flying home. Jacquet, Isak and Gakpo are
+          still waiting on a word from the club. Sixth on nine and
+          unbeaten, City first on fifteen, and Anfield in four days.
         </p>
 
         <StatStrip stats={stats} />
@@ -608,19 +607,18 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Evening</span>,{" "}
-              and the question at Kirkby has softened. Zidane's word for
-              Jeremy Jacquet was slightly, and the reports since point toward
-              Sunday, though the club has not said so. The fortnight ends on
-              two continents at once. In Kolkata a thunderstorm stopped Uruguay
-              and India at one apiece; when play resumed Uruguay scored five
-              more, and Ronald Araujo, who has played every league minute at
-              right-back, watched all of it from the bench. In Buenos Aires
-              Alexis Mac Allister is with Argentina for Lionel Messi's farewell,
-              the last Liverpool international of the window and the longest
-              flight home. Mamardashvili, for good measure, saved a penalty in
-              Belfast. A lighter hamstring, a rested right-back, and a
-              midfielder somewhere over the Atlantic.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and the last of them is on his way back. Alexis Mac Allister
+              started Lionel Messi's farewell at the Monumental, watched him
+              make one goal, then another, then score a penalty of his own, and
+              came off on seventy-nine minutes, a supporting part on a night
+              that had only one lead. Four days from now he is due in the pivot against Manchester
+              City. The rest of the squad is already at Kirkby, and the
+              questions it brought home are still open: Jacquet's hamstring,
+              Isak's foot, Gakpo's ankle, none of them graded in public by the
+              club. City, meanwhile, have been handed a calendar, a hearing by
+              Christmas Eve and a verdict by late January. One side waits on
+              its physios, the other on its lawyers.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -628,11 +626,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live
               again, and five dispatches from the writers who
-              never clock off. A hamstring now called
-              slight; a right-back unused in a Kolkata storm;
-              a farewell at the Monumental; a penalty saved in
-              Belfast; and a goalkeeper's contract with a year
-              to run. Read them in order. The
+              never clock off. A farewell at the Monumental;
+              three injuries and no bulletin; a deadline for
+              City in January; a model that leans away from
+              Anfield; and a captain's contract back on the
+              table. Read them in order. The
               season has five league games behind it, nine points
               and no defeat, and the four ahead are against the
               current top four; the market stays shut until January,
@@ -3848,7 +3846,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Rested in Kolkata, needed at Anfield."
+        "The last flight home is the longest."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
