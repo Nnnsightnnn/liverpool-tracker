@@ -615,7 +615,7 @@ function CoverView({ onJump }) {
               that had only one lead. Four days from now he is due in the pivot against Manchester
               City. The rest of the squad is already at Kirkby, and the
               questions it brought home are still open: Jacquet's hamstring,
-              Isak's foot, Gakpo's ankle, none of them graded in public by the
+              Isak's foot and thigh, Gakpo's ankle, none of them graded in public by the
               club. City, meanwhile, have been handed a calendar, a hearing by
               Christmas Eve and a verdict by late January. One side waits on
               its physios, the other on its lawyers.
