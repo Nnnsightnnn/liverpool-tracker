@@ -570,12 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday morning, three days from City, and the club's own
-          numbers have found the stake: an unbeaten Sunday would make
-          Iraola only the third permanent Liverpool manager, after
-          Paisley and Fagan, to start with six top-flight games
-          undefeated. Sixth on nine, City first on fifteen, and Isak
-          and Gakpo still injured.
+          Thursday evening, three days from City, and the first
+          session back has rearranged the front of the side: Isak
+          and Gakpo missed it, Jacquet and Chiesa did not. Sixth on
+          nine against City's fifteen, Koumas the likeliest nine,
+          and Iraola due to speak on Friday afternoon.
         </p>
 
         <StatStrip stats={stats} />
@@ -608,20 +607,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and a footnote has become a stake. Liverpool's stats preview
-              for Sunday notes that if Andoni Iraola avoids defeat against
-              Manchester City he will be only the third permanent manager in
-              the club's history, after Bob Paisley and Joe Fagan, to go
-              unbeaten through his first six top-flight matches. It is a record
-              built for a calmer week. This one has two forwards who are, in
-              the manager's plain phrase, right now both injured, and a
-              centre-back nobody has cleared. Iraola has also conceded that his
-              side lost a little of the fluidity it showed at Newcastle on the
-              first day, an awkward admission before the most prolific attack
-              in the league, and an honest one. He would rather win 4-3 than
-              1-0, he says, and would take the 1-0. History, on Sunday, would
-              settle for a draw.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the training ground has said what the manager would not.
+              Liverpool's first full session since the international break
+              went ahead on Thursday without Alexander Isak or Cody Gakpo,
+              and Paul Gorst of the Liverpool Echo, watching from the side,
+              called both major doubts for Sunday. The same session carried
+              the better news: Jeremy Jacquet back at work on his hamstring,
+              and Federico Chiesa, absent since a friendly in August, with the
+              group again. So the defence that kept three clean sheets in a
+              row is probably whole, and the attack that scored most of the
+              goals probably is not. Lewis Koumas, twenty-one, may lead the
+              line against the league leaders, or Florian Wirtz may drop into
+              the space as a false nine. Enzo Maresca says his players do not
+              care too much about the noise. Liverpool would settle for a
+              little less of it in the treatment room.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -629,11 +629,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live
               again, and five dispatches from the writers who
-              never clock off. A record only Paisley and Fagan
-              hold; two pressing numbers that cancel each other
-              out; a bulletin that has still not come; a buyback
-              clause in Leverkusen; and nine games in twenty-nine
-              days.
+              never clock off. A first session with two
+              forwards missing; a nine chosen by elimination; a
+              rival manager asked about everything but football; a
+              contract, a silence and a signature; and a Saturday
+              that could change the table before Liverpool play.
               Read them in order. The
               season has five league games behind it, nine points
               and no defeat, and the four ahead are against the
@@ -3850,7 +3850,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Paisley, Fagan, and a Sunday at Anfield."
+        "Two absent, two back, three days left."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
