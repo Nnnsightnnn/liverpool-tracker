@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-01T12:00:00Z",
   "status": "OPEN",
   "tracker": "liverpool",
-  "leadStory": "As of Wednesday evening, four days before Manchester City visit Anfield on 11 October, Andoni Iraola has said Alexander Isak and Cody Gakpo both had to leave their national teams injured and that it is now a matter of whether they recover in time; neither is ruled out, and Jeremy Jacquet went unmentioned.",
+  "leadStory": "As of Thursday morning, three days before Manchester City visit Anfield on 11 October, Liverpool's stats preview notes that an unbeaten Sunday would make Andoni Iraola only the third permanent Liverpool manager, after Bob Paisley and Joe Fagan, to go unbeaten in his first six top-flight matches; Isak and Gakpo remain injured and undecided.",
   "action": "generate",
   "note": "Kenny asked for a better cover than the hand-drawn SVG plates. Generate ONE image per the prompt, save it at `output`, then set COVER_IMAGE.src to it, credit 'Illustration · Antigravity', a fresh generatedAt, and set this file's status to CLOSED. Evergreen on purpose: it should still be right after the City result.",
   "currentPlate": "/assets/cover/2026-10-01-anfield-after-dark.svg",

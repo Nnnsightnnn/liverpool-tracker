@@ -570,11 +570,12 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday evening, and the manager has finally spoken: Isak
-          and Gakpo are injured, neither is ruled out, and whether they
-          recover for Sunday is still an open question. Jacquet went
-          unmentioned. Sixth on nine and unbeaten, City first on
-          fifteen and perfect, and Anfield in four days.
+          Thursday morning, three days from City, and the club's own
+          numbers have found the stake: an unbeaten Sunday would make
+          Iraola only the third permanent Liverpool manager, after
+          Paisley and Fagan, to start with six top-flight games
+          undefeated. Sixth on nine, City first on fifteen, and Isak
+          and Gakpo still injured.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,20 +608,20 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the first words. Andoni Iraola told the club's website that
-              Alexander Isak and Cody Gakpo both had to leave their national
-              teams injured, and that the only question now is whether they
-              recover in time for Manchester City on Sunday. It is less than a
-              bulletin and more than the silence that came before it: neither
-              is ruled out, which, for Gakpo, is a kinder tense than the
-              several weeks reported from the Netherlands. The name he did not
-              say was Jacquet's. City have won everything, he added, and
-              Liverpool have lost nothing, and to close that difference his
-              side will need to be very, very good. At the other end of the M62,
-              Maresca meets his players on Thursday to talk about a verdict
-              before a team sheet. Two dressing rooms, four days, and only one
-              of them is counting hamstrings.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and a footnote has become a stake. Liverpool's stats preview
+              for Sunday notes that if Andoni Iraola avoids defeat against
+              Manchester City he will be only the third permanent manager in
+              the club's history, after Bob Paisley and Joe Fagan, to go
+              unbeaten through his first six top-flight matches. It is a record
+              built for a calmer week. This one has two forwards who are, in
+              the manager's plain phrase, right now both injured, and a
+              centre-back nobody has cleared. Iraola has also conceded that his
+              side lost a little of the fluidity it showed at Newcastle on the
+              first day, an awkward admission before the most prolific attack
+              in the league, and an honest one. He would rather win 4-3 than
+              1-0, he says, and would take the 1-0. History, on Sunday, would
+              settle for a draw.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -628,11 +629,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live
               again, and five dispatches from the writers who
-              never clock off. A manager's first word on two
-              forwards; the defender he did not name; rivals
-              who expect City gone if the appeal fails; the
-              first meeting in eleven years without Klopp or
-              Guardiola; and a seventeen-year-old in Tijuana.
+              never clock off. A record only Paisley and Fagan
+              hold; two pressing numbers that cancel each other
+              out; a bulletin that has still not come; a buyback
+              clause in Leverkusen; and nine games in twenty-nine
+              days.
               Read them in order. The
               season has five league games behind it, nine points
               and no defeat, and the four ahead are against the
@@ -3849,7 +3850,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Neither ruled in, nor ruled out."
+        "Paisley, Fagan, and a Sunday at Anfield."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
