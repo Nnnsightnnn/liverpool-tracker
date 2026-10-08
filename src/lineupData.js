@@ -42,7 +42,7 @@ export const FORMATIONS = {
       RCM: 18,  // Wirtz (a 5, the lowest Liverpool rating; part of the goal without touching it cleanly)
       LW: 30,   // Barcola (played the left at the Vitality; Adam Smith largely contained him)
       ST: 23,   // Isak (scored the winner on 57; four league goals in five, past all of last league season)
-      RW: 28,   // Munoz (in for Gakpo, withdrawn by the Netherlands and reported out for several weeks)
+      RW: 28,   // Munoz (in for Gakpo: ankle, injured but not ruled out by Iraola on 7 Oct; a doubt)
     },
   },
 
@@ -85,7 +85,7 @@ export const FORMATIONS = {
       RDM: 13,  // Mac Allister (the pivot partner the previews insisted on, and rightly)
       LAM: 30,  // Barcola (played the LEFT at the Vitality, against every preview)
       CAM: 18,  // Wirtz (a 5; no club goal or assist this season; scored for Germany earlier in this window)
-      RAM: 28,  // Munoz (in for Gakpo: ankle, withdrawn from the Dutch squad 28 Sep, reported out for several weeks)
+      RAM: 28,  // Munoz (in for Gakpo: ankle, withdrawn from the Dutch squad 28 Sep, now a doubt, not ruled out by Iraola on 7 Oct)
       ST: 23,   // Isak (DOUBT: 'a small problem with his thigh' per Potter; holds the slot, Koumas the fallback)
     },
   },
@@ -119,13 +119,13 @@ export const FORMATIONS = {
       LCB: 3,   // Van Dijk (fit after the Netherlands' 2-2 in Greece)
       CCB: 11,  // Jacquet (DOUBT: hamstring strain, being assessed at Liverpool; a three is one answer if he is out)
       RCB: 5,   // Gomez (one appearance from 300 for the club; captained the cup tie)
-      LWB: 7,   // Kerkez (headed his first Hungary goal on Friday; the attacking option here)
+      LWB: 7,   // Kerkez (headed his first Hungary goal on 2 October; the attacking option here)
       LCM: 13,  // Mac Allister (a goal and an assist in the cup · the midfielder nobody drops)
       RCM: 15,  // Szoboszlai (the other half of the previews' pivot)
       RWB: 9,   // Frimpong (RWB · the shape that uses him properly against Semenyo)
       LW: 30,   // Barcola (left · the flank he actually took at the Vitality)
       ST: 23,   // Isak (the senior nine, and the only scorer at Bournemouth)
-      RW: 28,   // Munoz (right · Gakpo out for several weeks, reported)
+      RW: 28,   // Munoz (right · Gakpo injured, a doubt, not ruled out)
     },
   },
 };
@@ -230,14 +230,14 @@ export const SLOT_RATIONALE = {
 export const ALTERNATIVES = {
   GK:  [{ playerId: 2, reason: "Mamardashvili \u00b7 back from Georgia after an 84th-minute penalty save in Belfast; the Chelsea cup tie on 28 October is his likely next start" }, { playerId: 27, reason: "Woodman \u00b7 third-choice, not in the squad at Bournemouth" }],
   LB:  [{ playerId: 32, reason: "Tsimikas \u00b7 back from Greece after ninety minutes against Germany" }],
-  LCB: [{ playerId: 5, reason: "Gomez \u00b7 unused at Bournemouth; his next appearance in any shape is his 300th for the club" }, { playerId: 29, reason: "Araujo \u00b7 a centre-half by trade, at right-back for Liverpool and unused in Uruguay's 6-1 in Kolkata on Tuesday" }],
+  LCB: [{ playerId: 5, reason: "Gomez \u00b7 unused at Bournemouth; his next appearance in any shape is his 300th for the club" }, { playerId: 29, reason: "Araujo \u00b7 a centre-half by trade, at right-back for Liverpool and unused in Uruguay's 6-1 in Kolkata on 6 October" }],
   RCB: [{ playerId: 5, reason: "Gomez \u00b7 fit all break and the natural cover if Jacquet's hamstring rules him out of City" }, { playerId: 29, reason: "Araujo \u00b7 a centre-half by trade; Sportsview's option is to move him inside and play Frimpong or Gomez at right-back" }],
   RB:  [{ playerId: 9, reason: "Frimpong \u00b7 played right-back in the cup; an unused substitute for the Netherlands on 4 October" }, { playerId: 5, reason: "Gomez \u00b7 a specialist right-back alongside Frimpong while Bradley's knee has no club date" }],
-  LDM: [{ playerId: 14, reason: "Gravenberch \u00b7 nine minutes at Bournemouth; a half-time substitute in Greece on Thursday, a 6 from Goal" }, { playerId: 20, reason: "Nyoni \u00b7 19 \u00b7 sees himself as a six; promoted to England U21s after an U20 assist against France" }],
+  LDM: [{ playerId: 14, reason: "Gravenberch \u00b7 nine minutes at Bournemouth; a half-time substitute in Greece on 1 October, a 6 from Goal" }, { playerId: 20, reason: "Nyoni \u00b7 19 \u00b7 sees himself as a six; promoted to England U21s after an U20 assist against France" }],
   RDM: [{ playerId: 14, reason: "Gravenberch \u00b7 displaced at Fulham, a closing substitute since; the natural RDM if Mac Allister's long trip back from Buenos Aires tells" }, { playerId: 17, reason: "Endo \u00b7 unused, available, and leaving in January" }],
   LAM: [{ playerId: 25, reason: "Ngumoha \u00b7 18 \u00b7 either flank; made his England debut in Prague" }, { playerId: 18, reason: "Wirtz \u00b7 Rousing The Kop's bold option moves him to the left of the attack" }],
   CAM: [{ playerId: 15, reason: "Szoboszlai \u00b7 has played the ten before; drawn deeper in this shape" }, { playerId: 14, reason: "Gravenberch \u00b7 would free Szoboszlai to push on if Iraola reshuffles" }],
-  RAM: [{ playerId: 25, reason: "Ngumoha \u00b7 18 \u00b7 on for Saka on the right in Prague; among the substitutes for the 7-0 in Rijeka on Saturday" }, { playerId: 31, reason: "Koumas \u00b7 two Wales starts this window; a forward who can take a flank if Iraola needs a body" }],
+  RAM: [{ playerId: 25, reason: "Ngumoha \u00b7 18 \u00b7 on for Saka on the right in Prague; among the substitutes for the 7-0 in Rijeka on 3 October" }, { playerId: 31, reason: "Koumas \u00b7 two Wales starts this window; a forward who can take a flank if Iraola needs a body" }],
   ST:  [{ playerId: 31, reason: "Koumas \u00b7 the only other recognised striker; a 7/10 against Norway, then 56 minutes of a 1-0 defeat by Denmark on 4 October" }, { playerId: 28, reason: "Munoz \u00b7 Rousing The Kop's option to play him centrally" }],
 };
 

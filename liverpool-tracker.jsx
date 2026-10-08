@@ -129,12 +129,11 @@ const RSS_FEEDS = [
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
   { source: "Liverpool FC", title: "Liverpool v Man City stats preview: Tactics, goals and potential Iraola feat", time: "1d ago", category: "official" },
+  { source: "RTÉ", title: "Iraola casts doubt on Isak and Gakpo facing Man City", time: "1d ago", category: "major" },
   { source: "Squawka", title: "Liverpool vs Manchester City: Predictions, Picks, Odds & Lineups", time: "1d ago", category: "major" },
   { source: "Empire of the Kop", title: "'Movement already happening': Major Liverpool U-turn could be on after Sky reporter's update", time: "1d ago", category: "fan" },
   { source: "Empire of the Kop", title: "'I often get the impression...': Didi Hamann concerned by one thing he's seen from Florian Wirtz", time: "1d ago", category: "fan" },
   { source: "Empire of the Kop", title: "9 games in 29 days: Iraola's Liverpool reign is about to be turbo-charged after promising start", time: "1d ago", category: "fan" },
-  { source: "LiveScore / CaughtOffside", title: "Liverpool handed double injury boost as Iraola shares update ahead of Man City", time: "1d ago", category: "major" },
-  { source: "RTÉ", title: "Iraola casts doubt on Isak and Gakpo facing Man City", time: "1d ago", category: "major" },
   { source: "Empire of the Kop", title: "Report: Liverpool eyeing raid on Man City for 'complete' £30m wizard amid threat of relegation", time: "1d ago", category: "fan" },
   { source: "Liverpool FC", title: "Isak and Jacquet shortlisted for PFA Premier League Fans' Player of the Month", time: "1d ago", category: "official" },
   { source: "Liverpool FC", title: "Liverpool v Man City: Referee and match officials confirmed", time: "1d ago", category: "official" },
