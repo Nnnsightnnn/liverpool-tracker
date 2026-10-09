@@ -172,7 +172,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Fri Oct 9, evening - Pivot depth at nineteen; Iraola's four games in nine or ten days start on Sunday, which is where his minutes will come from.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
+    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Fri Oct 9, evening - Pivot depth at nineteen; Iraola's four games in ten days start on Sunday, which is where his minutes will come from.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
     physical: { height: 178, weight: 68, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Leicester City Academy", fee: null, type: "youth" },
@@ -920,7 +920,7 @@ export const DISPATCHES = [
     dateline: "Anfield · 9 October",
     category: "Race for Europe",
     body:
-      "Iraola framed Sunday as an exciting game rather than a must-not-lose one, and then pointed past it: four games in nine or ten days, he said, will show what this team is made of. The table explains the stakes. Liverpool are sixth on nine, unbeaten in five league games, and City are top on fifteen; a win cuts the gap to three, a defeat stretches it to nine. Arsenal, second on twelve, host Leeds on Saturday and can draw level with City before a ball is kicked at Anfield. The ESPN table has not moved since 20 September. By Sunday night it will have.",
+      "Iraola framed Sunday as an exciting game rather than a must-not-lose one, and then pointed past it: four games in ten days, he said, will show what this team is made of. The table explains the stakes. Liverpool are sixth on nine, unbeaten in five league games, and City are top on fifteen; a win cuts the gap to three, a defeat stretches it to nine. Arsenal, second on twelve, host Leeds on Saturday and can draw level with City before a ball is kicked at Anfield. The ESPN table has not moved since 20 September. By Sunday night it will have.",
   }
 ];
 
@@ -935,6 +935,11 @@ export const NEWS_DIGEST = {
       category: "injuries",
     },
     {
+      title: "Sports Mole Moves Barcola Up Front (Sports Mole, today)",
+      detail: "Published at 4.47pm on Friday and updated at 5.12pm, after the press conferences: Barcola as the striker with Ngumoha, Wirtz and Munoz behind him, Jacquet beside Van Dijk, and a 2-2 prediction. Their City side has Ndiaye, Cherki and Doku behind Haaland.",
+      category: "tactics",
+    },
+    {
       title: "Koumas, The Only No.9 Left (Roundtable Sports, today)",
       detail: "Said by Iraola on Friday afternoon: 'A No.9, we only have Koumas right now', and 'Koumas has our trust... he has already shown he is ready to go' (Anfield Index via Yahoo Sports). Wingers who have played up front are the other option, he added, naming Barcola as one who has played on the left and as a striker.",
       category: "tactics",
@@ -945,13 +950,8 @@ export const NEWS_DIGEST = {
       category: "injuries",
     },
     {
-      title: "Sports Mole Moves Barcola Up Front (Sports Mole, today)",
-      detail: "Published at 4.47pm on Friday and updated at 5.12pm, after the press conferences: Barcola as the striker with Ngumoha, Wirtz and Munoz behind him, Jacquet beside Van Dijk, and a 2-2 prediction. Their City side has Ndiaye, Cherki and Doku behind Haaland.",
-      category: "tactics",
-    },
-    {
       title: "Maresca: 'We Are Going To Win This Appeal' (Rush The Kop, today)",
-      detail: "Said at City's Friday morning press conference, his first before an Anfield trip as City manager: asked whether the club's titles are tainted, 'Absolutely not'; on the process, 'I completely trust the club'. He recalled that he was last at Anfield in the treble season.",
+      detail: "Said at City's Friday morning press conference, his first before an Anfield trip as City manager: asked whether the club's titles are tainted, 'Absolutely not'. He recalled that he was last at Anfield in the treble season.",
       category: "general",
     },
     {
@@ -1243,7 +1243,7 @@ export const SQUAD_LOAD = {
     { name: "Hugo Ekitike", issue: "Achilles rupture (April, surgery)", expected: "The Liverpool Echo now pencils in Hull away on 26 December, with L'Equipe reporting team training next month; club framing is January, with 'a reasonable chance' of the last two Champions League league-phase games (This Is Anfield)", note: "A Blood Red newsletter last week repeats the French timeline, and it is still a French timeline rather than the club's. L'Equipe reports, via CaughtOffside, that Ekitike travelled to the United States to see a specialist who confirmed his rehabilitation is on track, that he has reached light trotting on the pitch, and that November team training and December matchday squads are the targets. Iraola's public line has been 'a hope and a realistic chance that he could help us in January'. Until either date arrives, and with Isak ruled out of City on 9 October, Koumas, who started for Wales on 1 October, is the only natural nine Iraola has (Roundtable Sports).", source: "Liverpool FC / This Is Anfield / CaughtOffside / L'Equipe" },
     { name: "Giovanni Leoni", issue: "ACL (September 2025)", expected: "The Liverpool Echo hopes for a return to the main group by mid-October, with Chelsea at home on 28 October the potential comeback; The Athletic, via CaughtOffside, said the end of October. The club has not confirmed group training", note: "Not spotted at Thursday's session, the first after the break (Roundtable Sports via Yahoo Sports), so the mid-October target for group work has not yet been met in public. Juventus have made several loan approaches and plan to scout him once he trains, per Standard Sport and La Gazzetta dello Sport via DaveOCKOP on 4 October, and Liverpool will not let him go a year into a six-year contract; Liverpool.com on 5 October adds Chelsea to the race. The Athletic's end-of-October return points at the Chelsea cup tie on 28 October, not City.", source: "The Athletic / CaughtOffside / Standard Sport / La Gazzetta dello Sport / DaveOCKOP / Liverpool.com" },
     { name: "Conor Bradley", issue: "Knee", expected: "No club date. Iraola last month: 'I think he is not close to training with the team' (Liverpool Echo); Michael O'Neill does not expect him for November's internationals, and FotMob carries early January 2027", note: "Not spotted at Thursday's session (Roundtable Sports via Yahoo Sports), and the timeline has not shortened. A fifth consecutive league game has gone by without him and Araujo has made right-back his own, so Bradley returns to no obvious vacancy. Lewis Steele reported individual training and ball work resuming, eight months on from the January knee injury against Arsenal; FotMob lists early January 2027 and the club has said nothing beyond Iraola's 'probably Conor will go later'.", source: "Daily Mail / Liverpool FC / FotMob / Sports Mole" },
-    { name: "Alexander Isak", issue: "Thigh, a minor problem brought back from Sweden duty (after a stamp on the foot against Romania, 25 September)", expected: "Out of Manchester City on 11 October (Iraola, 9 October); 'they don't look like long-term injuries', but no return date was given", note: "Ruled out by Iraola on Friday: 'a small injury, but still an injury'. Four of Liverpool's seven league goals are his, and Liverpool's stats preview puts his 3.5 expected goals second in the league to Haaland. Koumas, whom Iraola called the only natural nine, is the cover; Sports Mole prefers Barcola through the middle.", source: "Anfield Index via Yahoo Sports / Roundtable Sports / Liverpool FC / Sports Mole" },
+    { name: "Alexander Isak", issue: "Thigh, a minor problem brought back from Sweden duty", expected: "Out of Manchester City on 11 October (Iraola, 9 October); 'they don't look like long-term injuries', but no return date was given", note: "Ruled out by Iraola on Friday: 'a small injury, but still an injury'. Four of Liverpool's seven league goals are his, and Liverpool's stats preview puts his 3.5 expected goals second in the league to Haaland. Koumas, whom Iraola called the only natural nine, is the cover; Sports Mole prefers Barcola through the middle.", source: "Anfield Index via Yahoo Sports / Roundtable Sports / Liverpool FC / Sports Mole" },
     { name: "Cody Gakpo", issue: "Left ankle, scissor-tackle by Sasa Lukic, Serbia 1-2 Netherlands (27 September)", expected: "Out of Manchester City on 11 October (Iraola, 9 October); training, and 'about dealing with the pain'; no return date given", note: "Iraola called the tackle 'really bad' and said the ankle has troubled him before in his career. Dutch reporting had put it at several weeks (Inside Futbol); the manager's view is that it is not long-term. Opta's preview credits him with six goal involvements in all competitions, the most at the club. Munoz has the right in this tracker's XI and Sports Mole's.", source: "Anfield Index via Yahoo Sports / Roundtable Sports / Opta Analyst / Inside Futbol / Sports Mole" },
   ],
   returning: [
@@ -1298,6 +1298,6 @@ export const SEASON_PROJECTION = {
     { date: "2026-11-22", opponent: "Manchester United", home: true, competition: "PL", oppPosition: 12, difficulty: "medium" },
   ],
   runInVerdict:
-    "Iraola's own frame on Friday was four games in nine or ten days that will show what this team is made of (Roundtable Sports), and four of the next five league fixtures are against the current top four. Four points from those four would leave thirteen from nine, about 1.44 a game and below the Europa par; seven would make sixteen from nine, 1.78, close to the Champions League pace. The first of them comes without the club's two leading attackers.",
+    "Iraola's own frame on Friday was four games in ten days that will show what this team is made of (Roundtable Sports), and four of the next five league fixtures are against the current top four. Four points from those four would leave thirteen from nine, about 1.44 a game and below the Europa par; seven would make sixteen from nine, 1.78, close to the Champions League pace. The first of them comes without the club's two leading attackers.",
   sources: ["ESPN", "Opta Analyst", "Liverpool FC", "Sky Sports", "BBC Sport", "Squawka", "This Is Anfield", "City Xtra", "The Guardian", "Manchester City", "The Times", "VAVEL", "Empire of the Kop", "Liverpool Echo", "DaveOCKOP", "Al Jazeera", "Opta supercomputer", "Roundtable Sports"],
 };
