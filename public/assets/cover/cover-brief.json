@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-01T12:00:00Z",
   "status": "OPEN",
   "tracker": "liverpool",
-  "leadStory": "As of Thursday evening, three days before Manchester City visit Anfield on 11 October, Alexander Isak and Cody Gakpo missed Liverpool's first full training session after the international break and are major doubts (Liverpool Echo), while Jeremy Jacquet and Federico Chiesa trained.",
+  "leadStory": "As of Friday morning, two days before Manchester City visit Anfield on 11 October, Opta's supercomputer makes City 40.7 per cent favourites in the first league meeting since 2015 with neither Klopp nor Guardiola in a dugout, while Isak and Gakpo remain major doubts before Iraola's 1.30pm press conference.",
   "action": "generate",
   "note": "Kenny asked for a better cover than the hand-drawn SVG plates. Generate ONE image per the prompt, save it at `output`, then set COVER_IMAGE.src to it, credit 'Illustration · Antigravity', a fresh generatedAt, and set this file's status to CLOSED. Evergreen on purpose: it should still be right after the City result.",
   "currentPlate": "/assets/cover/2026-10-01-anfield-after-dark.svg",

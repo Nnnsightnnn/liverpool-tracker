@@ -136,33 +136,33 @@ export const FORMATIONS = {
 // sheet, and a climb from tenth to sixth. Bradley, Chiesa, Ekitike and Leoni are out; Gakpo (ankle) moved from out to doubt on Wed Oct 7 evening after Iraola did not rule him out.
 // Pointed at Manchester City at home, Sunday 11 October, after the international break.
 export const PLAYER_EVIDENCE = {
-  1:  "Trained Thu · faces Haaland",   // Alisson
-  2:  "No.2 · Chelsea cup tie likelier",   // Mamardashvili
-  3:  "LCB · back four intact",   // Van Dijk
-  5:  "Trained · first CB cover",   // Gomez
-  7:  "LB · trained Thu",   // Kerkez
-  32: "LB cover · unnamed Thu",   // Tsimikas
-  8:  "Knee · not at Thu session",   // Bradley
-  9:  "Trained · bench for City",   // Frimpong
-  10: "ACL · not at Thu session",   // Leoni
-  11: "Trained Thu · expected to start",   // Jacquet
-  12: "Levante loan",   // Ndukwe
-  13: "Full training despite late return",   // Mac Allister
-  14: "Pivot if Wirtz goes false nine",   // Gravenberch
-  15: "Ten if Wirtz plays up top",   // Szoboszlai
-  17: "Trained · emergency CB",   // Endo
-  18: "CAM · TEAMtalk's false-nine pick",   // Wirtz
+  1:  "Starts · three clean sheets running",   // Alisson
+  2:  "Back-up · Chelsea cup tie likelier",   // Mamardashvili
+  3:  "LCB · captain v Haaland",   // Van Dijk
+  5:  "First CB cover · RotoWire's pick",   // Gomez
+  7:  "LB · unchanged from Bournemouth",   // Kerkez
+  32: "LB cover · ninety v Germany",   // Tsimikas
+  8:  "Knee · no club date",   // Bradley
+  9:  "RB/RWB option · bench v City",   // Frimpong
+  10: "ACL · not yet in group work",   // Leoni
+  11: "Full session Thu · likely starter",   // Jacquet
+  12: "On loan at Levante",   // Ndukwe
+  13: "Pivot · fit after late return",   // Mac Allister
+  14: "Pivot cover · false-nine option",   // Gravenberch
+  15: "Pivot · ten if Wirtz goes up",   // Szoboszlai
+  17: "Emergency CB · January exit",   // Endo
+  18: "CAM · 0.39 xA in 403 mins",   // Wirtz
   20: "Pivot depth · 19",   // Nyoni
-  22: "Missed Thu training · major doubt",   // Gakpo
-  23: "Missed Thu session · thigh doubt",   // Isak
-  24: "Achilles · December target",   // Ekitike
-  25: "Trained · right-side option",   // Ngumoha
-  26: "Back in training · no minutes yet",   // Chiesa
+  22: "Ankle · in kit, unseen on pitch",   // Gakpo
+  23: "Thigh · major doubt, in kit",   // Isak
+  24: "Achilles · Boxing Day target",   // Ekitike
+  25: "Either flank · AnfieldWatch pick",   // Ngumoha
+  26: "Training again · no minutes yet",   // Chiesa
   27: "Third choice",   // Woodman
-  28: "RAM · trained, Gakpo out of it",   // Munoz
-  29: "RB · trained, stays wide",   // Araujo
-  30: "LAM · trained Thu",   // Barcola
-  31: "Starts at nine if Isak misses",   // Koumas
+  28: "RAM · right side if Gakpo out",   // Munoz
+  29: "RB · 'very, very comfortable'",   // Araujo
+  30: "LAM · left in every preview",   // Barcola
+  31: "ST · second Iraola start likely",   // Koumas
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -196,7 +196,7 @@ export const SLOT_CONFIDENCE = {
   GK: "High",
   LB: "Medium",
   LCB: "High",
-  RCB: "High",
+  RCB: "Medium",
   RB: "High",
   LDM: "High",
   RDM: "Medium",
@@ -212,16 +212,16 @@ export const SLOT_CONFIDENCE = {
 // (evening); originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Thu Oct 8, evening - Kerkez trained on Thursday and is TEAMtalk's left-back; Semenyo, back in City training, is the likeliest test. Medium.",
-  LCB: "Thu Oct 8, evening - Van Dijk, with the partner from three straight clean sheets back beside him in training. High.",
-  RCB: "Thu Oct 8, evening - Jacquet trained on Thursday after the hamstring strain and TEAMtalk expects him to start; no club bulletin yet. High.",
-  RB: "Thu Oct 8, evening - Araujo stays wide now that Jacquet is back; Frimpong and Gomez both trained as cover. High.",
-  LDM: "Thu Oct 8, evening - Szoboszlai; if Wirtz goes up front he moves to the ten and Gravenberch comes in. High.",
-  RDM: "Thu Oct 8, evening - Mac Allister was back in full training despite the latest return of the window (Rush The Kop). Medium.",
-  LAM: "Thu Oct 8, evening - Barcola keeps the left in every TEAMtalk scenario and trained on Thursday. Medium.",
-  CAM: "Thu Oct 8, evening - Wirtz at the ten, or at nine if Iraola takes TEAMtalk's false-nine option. Medium.",
-  RAM: "Thu Oct 8, evening - Munoz, with Gakpo absent from Thursday's session and a major doubt; Ngumoha the alternative. Medium.",
-  ST: "Thu Oct 8, evening - Koumas, twenty-one, in for Isak, who missed Thursday's session; Iraola's Friday press conference may still change it. Low.",
+  LB: "Fri Oct 9, morning - Kerkez, unchanged from Bournemouth and in every preview's back four; Tsimikas the cover. Medium.",
+  LCB: "Fri Oct 9, morning - Van Dijk captains the back four that kept three league clean sheets in a row. High.",
+  RCB: "Fri Oct 9, morning - Jacquet appears to have taken Thursday's full session (Rousing The Kop); RotoWire still picks Gomez over hamstring tightness. Medium.",
+  RB: "Fri Oct 9, morning - Araujo, 'very, very comfortable' at the club (Liverpool Echo via Anfield Index) and settled at right-back. High.",
+  LDM: "Fri Oct 9, morning - Szoboszlai, unless a Wirtz false nine pushes him up to the ten. High.",
+  RDM: "Fri Oct 9, morning - Mac Allister, fit after the longest trip home of the window; Anderson is his assignment. Medium.",
+  LAM: "Fri Oct 9, morning - Barcola, on the left in this tracker's XI, RotoWire's and AnfieldWatch's. Medium.",
+  CAM: "Fri Oct 9, morning - Wirtz: 0.39 expected assists from nine chances in 403 league minutes (Opta Analyst). Medium.",
+  RAM: "Fri Oct 9, morning - Munoz while Gakpo is a major doubt; AnfieldWatch prefers Ngumoha. Medium.",
+  ST: "Fri Oct 9, morning - Koumas if Isak misses, as the Liverpool Echo's reporting suggests; RotoWire still has Isak. The 1.30pm press conference decides. Low.",
 };
 
 
@@ -233,14 +233,14 @@ export const ALTERNATIVES = {
   GK:  [{ playerId: 2, reason: "Mamardashvili \u00b7 back from Georgia after an 84th-minute penalty save in Belfast; the Chelsea cup tie on 28 October is his likely next start" }, { playerId: 27, reason: "Woodman \u00b7 third-choice, not in the squad at Bournemouth" }],
   LB:  [{ playerId: 32, reason: "Tsimikas \u00b7 back from Greece after ninety minutes against Germany" }],
   LCB: [{ playerId: 5, reason: "Gomez \u00b7 unused at Bournemouth; his next appearance in any shape is his 300th for the club" }, { playerId: 29, reason: "Araujo \u00b7 a centre-half by trade, at right-back for Liverpool and unused in Uruguay's 6-1 in Kolkata on 6 October" }],
-  RCB: [{ playerId: 5, reason: "Gomez \u00b7 trained on Thursday; the first cover if Jacquet's hamstring reacts" }, { playerId: 29, reason: "Araujo \u00b7 a centre-half by trade; would move inside with Frimpong at right-back" }],
+  RCB: [{ playerId: 5, reason: "Gomez \u00b7 RotoWire's pick if Jacquet's hamstring tightness lingers" }, { playerId: 29, reason: "Araujo \u00b7 a centre-half by trade; would move inside with Frimpong at right-back" }],
   RB:  [{ playerId: 9, reason: "Frimpong \u00b7 played right-back in the cup; an unused substitute for the Netherlands on 4 October" }, { playerId: 5, reason: "Gomez \u00b7 a specialist right-back alongside Frimpong while Bradley's knee has no club date" }],
   LDM: [{ playerId: 14, reason: "Gravenberch \u00b7 nine minutes at Bournemouth; a half-time substitute in Greece on 1 October, a 6 from Goal" }, { playerId: 20, reason: "Nyoni \u00b7 19 \u00b7 sees himself as a six; promoted to England U21s after an U20 assist against France" }],
   RDM: [{ playerId: 14, reason: "Gravenberch \u00b7 displaced at Fulham, a closing substitute since; the natural RDM if Mac Allister's long trip back from Buenos Aires tells" }, { playerId: 17, reason: "Endo \u00b7 unused, available, and leaving in January" }],
   LAM: [{ playerId: 25, reason: "Ngumoha \u00b7 18 \u00b7 either flank; made his England debut in Prague" }, { playerId: 18, reason: "Wirtz \u00b7 Rousing The Kop's bold option moves him to the left of the attack" }],
   CAM: [{ playerId: 15, reason: "Szoboszlai \u00b7 has played the ten before; drawn deeper in this shape" }, { playerId: 14, reason: "Gravenberch \u00b7 would free Szoboszlai to push on if Iraola reshuffles" }],
-  RAM: [{ playerId: 25, reason: "Ngumoha \u00b7 18 \u00b7 trained on Thursday; TEAMtalk's alternative on the right" }, { playerId: 26, reason: "Chiesa \u00b7 back in training on 8 October, but without a competitive minute this season" }],
-  ST:  [{ playerId: 23, reason: "Isak \u00b7 missed Thursday's session with the thigh problem; starts only if Friday brings better news" }, { playerId: 18, reason: "Wirtz \u00b7 TEAMtalk's false-nine option, with Szoboszlai at ten and Gravenberch into the pivot" }],
+  RAM: [{ playerId: 25, reason: "Ngumoha \u00b7 18 \u00b7 AnfieldWatch's choice in the front three" }, { playerId: 26, reason: "Chiesa \u00b7 back in training, without a competitive minute this season" }],
+  ST:  [{ playerId: 23, reason: "Isak \u00b7 RotoWire still expects him to start; in full kit in Thursday's Inside Training video (Rousing The Kop)" }, { playerId: 18, reason: "Wirtz \u00b7 TEAMtalk's false-nine option, with Szoboszlai at ten and Gravenberch into the pivot" }],
 };
 
 // ─── Prediction confidence & metadata ───────────────────────────────────────
@@ -248,6 +248,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-10-08T22:30:00Z",
-  reason: "Thu Oct 8, evening. One change for Manchester City at Anfield on Sunday 11 October: Koumas for Isak, who missed Thursday's first session after the break (Liverpool Echo). Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Szoboszlai; Munoz, Wirtz, Barcola; Koumas. Nine of the eleven started at Bournemouth, and Jacquet's return to training firms up the back four; Iraola's Friday press conference could still swap Koumas for a Wirtz false nine.",
+  generated_at: "2026-10-09T08:30:00Z",
+  reason: "Fri Oct 9, morning. Unchanged for Manchester City at Anfield on Sunday 11 October: Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Szoboszlai; Munoz, Wirtz, Barcola; Koumas. Nine of the eleven started at Bournemouth. Isak and Gakpo were not seen on the pitch on Thursday but were in kit in the club's footage, and the previews split: the Liverpool Echo's reporting points at Koumas, RotoWire picks Isak and Gomez. Iraola's 1.30pm press conference should settle it.",
 };

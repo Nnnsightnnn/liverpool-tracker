@@ -570,11 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday evening, three days from City, and the first
-          session back has rearranged the front of the side: Isak
-          and Gakpo missed it, Jacquet and Chiesa did not. Sixth on
-          nine against City's fifteen, Koumas the likeliest nine,
-          and Iraola due to speak on Friday afternoon.
+          Friday morning, two days from City, and Opta have run Sunday
+          ten thousand times: the leaders win 40.7 per cent of them.
+          Sixth on nine against fifteen, Isak and Gakpo unseen on the
+          training pitch but in kit off it, and Iraola due at half
+          past one.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,39 +607,34 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the training ground has said what the manager would not.
-              Liverpool's first full session since the international break
-              went ahead on Thursday without Alexander Isak or Cody Gakpo,
-              and Paul Gorst of the Liverpool Echo, watching from the side,
-              called both major doubts for Sunday. The same session carried
-              the better news: Jeremy Jacquet back at work on his hamstring,
-              and Federico Chiesa, absent since a friendly in August, with the
-              group again. So the defence that kept three clean sheets in a
-              row is probably whole, and the attack that scored most of the
-              goals probably is not. Lewis Koumas, twenty-one, may lead the
-              line against the league leaders, or Florian Wirtz may drop into
-              the space as a false nine. Enzo Maresca says his players do not
-              care too much about the noise. Liverpool would settle for a
-              little less of it in the treatment room.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              the numbers have arrived before the news. Opta's preview
+              went up in the morning with ten thousand simulations of
+              Sunday and a City win in 40.7 per cent of them, and a note
+              that this will be the first league meeting between the clubs
+              since 2015 with neither Jurgen Klopp nor Pep Guardiola in a
+              dugout. What the simulations cannot know is who plays.
+              Alexander Isak and Cody Gakpo were not seen on the training
+              pitch on Thursday, yet the club's own footage shows both
+              walking in wearing full kit, and the cameras stopped rolling
+              early. Andoni Iraola will be asked about it at half past
+              one. Enzo Maresca has already said he is very calm. One of
+              them is entitled to be.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
-              Inside, the squad as a roster, the standings live
-              again, and five dispatches from the writers who
-              never clock off. A first session with two
-              forwards missing; a nine chosen by elimination; a
-              rival manager asked about everything but football; a
-              contract, a silence and a signature; and a Saturday
-              that could change the table before Liverpool play.
-              Read them in order. The
-              season has five league games behind it, nine points
-              and no defeat, and the four ahead are against the
-              current top four; the market stays shut until January,
-              which is when every link on these pages either becomes
-              a bid or goes quiet.
+              Inside, the squad as a roster, the standings live again, and
+              five dispatches from the writers who never clock off. A
+              meeting without its two great managers; two forwards in kit
+              and out of shot; a rival manager who says he is calm; a
+              loanee who says he is comfortable; and a pundit's tiny
+              question mark. Read them in order. The season has five
+              league games behind it, nine points and no defeat, and the
+              four ahead are against the current top four; the market
+              stays shut until January, which is when every link on these
+              pages either becomes a bid or goes quiet.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3850,7 +3845,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Two absent, two back, three days left."
+        "Neither Klopp nor Guardiola. Just Sunday."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
