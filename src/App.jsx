@@ -570,11 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday morning, two days from City, and Opta have run Sunday
-          ten thousand times: the leaders win 40.7 per cent of them.
-          Sixth on nine against fifteen, Isak and Gakpo unseen on the
-          training pitch but in kit off it, and Iraola due at half
-          past one.
+          Friday evening, and the team sheet has lost two names: Iraola
+          has ruled Isak and Gakpo out of City, and Koumas, twenty-one,
+          is the only natural nine he has left. Jacquet is fit. Sixth
+          on nine against fifteen, with the leaders at Anfield on
+          Sunday afternoon.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,30 +607,28 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              the numbers have arrived before the news. Opta's preview
-              went up in the morning with ten thousand simulations of
-              Sunday and a City win in 40.7 per cent of them, and a note
-              that this will be the first league meeting between the clubs
-              since 2015 with neither Jurgen Klopp nor Pep Guardiola in a
-              dugout. What the simulations cannot know is who plays.
-              Alexander Isak and Cody Gakpo were not seen on the training
-              pitch on Thursday, yet the club's own footage shows both
-              walking in wearing full kit, and the cameras stopped rolling
-              early. Andoni Iraola will be asked about it at half past
-              one. Enzo Maresca has already said he is very calm. One of
-              them is entitled to be.
+              <span style={{ fontStyle: "italic", color: T.red }}>Evening</span>,{" "}
+              and the footage no longer needs reading. Andoni Iraola sat
+              down at half past one and said what Thursday's cameras had
+              avoided: Alexander Isak and Cody Gakpo will not play
+              Manchester City. A small injury in a thigh, an ankle that is
+              a matter of pain, neither of them long, both of them now.
+              The sentence that followed weighed more than it sounded.
+              Lewis Koumas, he said, has our trust, and as a nine he is
+              all there is. Along the M62, Enzo Maresca explained that
+              Haaland had spent the break playing golf. One manager spent
+              Friday subtracting; the other, resting.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off. A
-              meeting without its two great managers; two forwards in kit
-              and out of shot; a rival manager who says he is calm; a
-              loanee who says he is comfortable; and a pundit's tiny
-              question mark. Read them in order. The season has five
+              five dispatches from the writers who never clock off. Two
+              forwards struck off the team sheet; a twenty-one-year-old
+              trusted with the nine; a rival manager who says the titles
+              are clean; a centre-back fit and ready to go; and four games
+              in ten days. Read them in order. The season has five
               league games behind it, nine points and no defeat, and the
               four ahead are against the current top four; the market
               stays shut until January, which is when every link on these
@@ -3845,7 +3843,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Neither Klopp nor Guardiola. Just Sunday."
+        "Two names off. One nine left."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
