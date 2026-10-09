@@ -30,7 +30,7 @@ export const FORMATIONS = {
     // every published preview: Gakpo took the RIGHT flank and Barcola the left, not the reverse.
     // Out: Ekitike (Achilles, January at the earliest), Bradley (knee, no club date; FotMob now
     // lists early January 2027), Leoni (ACL, The Athletic reports a return later in October; group training unconfirmed) and
-    // Chiesa (back, his end-of-September training target lapsed unconfirmed, Sports Mole pencils 11 Oct).
+    // Chiesa is no longer out: back with the group on Thu 8 Oct (Liverpool Echo via RotoWire), status doubtful, no minutes yet.
     defaultXI: {
       GK: 1,    // Alisson (the save from Evanilson on 18 that made the clean sheet possible)
       LB: 7,    // Kerkez (ninety minutes, targeted repeatedly over the top, a 6 from the BBC)
@@ -125,13 +125,13 @@ export const FORMATIONS = {
       RWB: 9,   // Frimpong (RWB · the shape that uses him properly against Semenyo)
       LW: 30,   // Barcola (left · the flank he actually took at the Vitality)
       ST: 31,   // Koumas (Isak a major doubt after missing Thursday's session)
-      RW: 28,   // Munoz (right · Gakpo injured, a doubt, not ruled out)
+      RW: 28,   // Munoz (right · Gakpo doubtful, a major doubt per the Liverpool Echo)
     },
   },
 };
 
 // One-line evidence string per player, surfaced under the token on hover.
-// Hand-curated from RESULTS + injuryNote context, reviewed Thu Oct 8 (morning: club stats preview and Squawka figures; no status change). Earlier, Tue Oct 6 (evening: Zidane calls Jacquet slightly injured and reports lean towards Sunday, no club word; Araujo unused in Uruguay 6-1 India; Mac Allister with Argentina for Messi's farewell; Mamardashvili's penalty save in Belfast; Gakpo still ungraded, Isak still without a bulletin), after
+// Hand-curated from RESULTS + injuryNote context, reviewed Fri Oct 9 (morning: Opta Analyst preview, Rousing The Kop on Isak and Gakpo in kit, Araujo interview; no status change). Earlier, Thu Oct 8 (morning: club stats preview and Squawka figures; no status change). Earlier, Tue Oct 6 (evening: Zidane calls Jacquet slightly injured and reports lean towards Sunday, no club word; Araujo unused in Uruguay 6-1 India; Mac Allister with Argentina for Messi's farewell; Mamardashvili's penalty save in Belfast; Gakpo still ungraded, Isak still without a bulletin), after
 // Bournemouth 0-1 Liverpool: Isak on 57 from a blocked Gakpo cross, a third consecutive clean
 // sheet, and a climb from tenth to sixth. Bradley, Chiesa, Ekitike and Leoni are out; Gakpo (ankle) moved from out to doubt on Wed Oct 7 evening after Iraola did not rule him out.
 // Pointed at Manchester City at home, Sunday 11 October, after the international break.
@@ -175,6 +175,8 @@ export const PLAYER_EVIDENCE = {
 // Mon Oct 5 (evening): Jacquet (left hamstring strain with France) becomes a doubt at RCB; held pending assessment.
 // Tue Oct 6 (morning): no personnel change. The FFF sent Jacquet back with no timeline; Haaland reported fit for City.
 // Tue Oct 6 (evening): no personnel change. Jacquet's strain reported as slight (Zidane; Liverpool Echo via Yahoo), RCB raised Low to Medium.
+// Fri Oct 9 (morning): no personnel change. Isak and Gakpo in kit in the Inside Training video (Rousing The Kop) but still major doubts;
+//   RotoWire picks Isak and Gomez, held here pending Iraola's 1.30pm presser; RCB lowered High to Medium.
 // Thu Oct 8 (evening): ONE personnel change, Koumas for Isak at ST in all three shapes. Isak and Gakpo missed the first session after
 //   the break and are major doubts (Liverpool Echo); Jacquet trained (CaughtOffside), RCB raised to High; Chiesa back with the group.
 // Thu Oct 8 (morning): no personnel change. No overnight club word on Isak, Gakpo or Jacquet; Squawka picks Gakpo over Munoz, held here.
@@ -185,7 +187,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // ─── Per-slot confidence levels ─────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by the 4-2-3-1
 // slot keys. These read as confidence that the slot's occupant STARTS AGAINST MANCHESTER CITY at
-// Anfield on Sunday 11 October. (Reviewed Thu Oct 8, evening: RCB raised to High after Jacquet trained; RAM raised to Medium with Gakpo absent from training; ST stays Low with Koumas in. Thu Oct 8, morning: levels unchanged, no new bulletin. Wed Oct 7, evening: levels unchanged after Iraola's update on Isak and Gakpo. Wed Oct 7, morning: levels unchanged, no club bulletin on Jacquet, Isak or Gakpo. Tue Oct 6, evening: RCB raised from Low to Medium on reports that Jacquet's strain is slight, unconfirmed by the club. Tue Oct 6, morning: levels unchanged. Mon Oct 5, evening: RCB cut from High to Low after Jacquet's left hamstring strain in the France camp; other levels unchanged since Sat Sep 26.) The basis has changed in kind: this
+// Anfield on Sunday 11 October. (Reviewed Fri Oct 9, morning: RCB lowered from High to Medium because RotoWire still lists Jacquet's hamstring tightness and picks Gomez, against Rousing The Kop's report that he took the full session; other levels unchanged. Thu Oct 8, evening: RCB raised to High after Jacquet trained; RAM raised to Medium with Gakpo absent from training; ST stays Low with Koumas in. Thu Oct 8, morning: levels unchanged, no new bulletin. Wed Oct 7, evening: levels unchanged after Iraola's update on Isak and Gakpo. Wed Oct 7, morning: levels unchanged, no club bulletin on Jacquet, Isak or Gakpo. Tue Oct 6, evening: RCB raised from Low to Medium on reports that Jacquet's strain is slight, unconfirmed by the club. Tue Oct 6, morning: levels unchanged. Mon Oct 5, evening: RCB cut from High to Low after Jacquet's left hamstring strain in the France camp; other levels unchanged since Sat Sep 26.) The basis has changed in kind: this
 // is no longer a preview consensus, it is the eleven that started and won at Bournemouth
 // last time out. That raises confidence in the spine and lowers it nowhere except the front three,
 // because a three-week international break sits in between, Chiesa's return target has lapsed inside it, and the
