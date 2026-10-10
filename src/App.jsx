@@ -571,7 +571,7 @@ function CoverView({ onJump }) {
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
           Saturday, the eve of it, and the captain has begun to talk
-          about leaving: Van Dijk, to Sky Sports, calls ten years an
+          about leaving: Van Dijk, to Sky Sports, calls ten seasons an
           incredible journey whose end will be emotional. Tomorrow he
           leads a side without Isak or Gakpo, a winger at nine, against
           the leaders. Sixth on nine; City on fifteen.
@@ -615,7 +615,7 @@ function CoverView({ onJump }) {
               gone. He is thirty-five, in the last year of his contract, and
               tomorrow he will stand at the edge of his area with Erling
               Haaland at his shoulder. In front of him the shape is being
-              improvised. Isak and Gakpo will watch, and every preview has
+              improvised. Isak and Gakpo will watch, and the previews have
               settled on Bradley Barcola, a winger, as the nine. A captain
               counting seasons, a forward borrowed from the flank: Anfield
               has known worse eves, and better ones.

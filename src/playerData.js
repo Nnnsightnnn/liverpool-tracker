@@ -950,13 +950,13 @@ export const NEWS_DIGEST = {
       category: "tactics",
     },
     {
-      title: "Every Preview Picks Barcola At Nine (Sports Mole, Friday evening)",
+      title: "Three Previews Pick Barcola At Nine (Sports Mole, Friday evening)",
       detail: "Published at 4.59pm on Friday: Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Szoboszlai; Ngumoha, Wirtz, Munoz; Barcola. This Is Anfield's predicted XI has the same shape and asks whether Wirtz could go up front instead; Opta Analyst's preview also leads with Barcola. This Is Anfield calls Gravenberch out of sorts, so the pivot from Bournemouth stays.",
       category: "tactics",
     },
     {
       title: "'A Super-Valuable Player': Iraola On Barcola (Liverpool FC, Friday)",
-      detail: "Said at Friday's press conference and published by the club: 'He's a super-valuable player for us. I think he can cover the three positions up front.' On the nine: 'A full No.9, it's true that we probably only have Koumas right now. We have some wingers that have played up front in other teams.'",
+      detail: "Said at Friday's press conference and published by the club: 'He's a super-valuable player for us. I think he can cover the three positions up front.' On the nine, he pointed to wingers who have played up front for other teams.",
       category: "tactics",
     },
     {
@@ -1239,7 +1239,7 @@ export const FORM_TRENDS = {
     "Liverpool have failed to win any of their first three home league games of a season only seven times, and only twice since the First World War, in 1963-64 and 2012-13 (Opta Analyst).",
     "The away side has won two of the last three Premier League meetings, as many as in the previous thirty-two (Opta Analyst)."
   ],
-  sources: ["Opta Analyst", "beIN Sports", "Squawka", "Goal", "This Is Anfield", "FotMob", "The Transfer Hub", "EPL Index", "Liverpool FC", "BBC Sport", "Sofascore", "Premier League", "Sky Sports", "ESPN", "Inside Futbol", "Sports Mole", "Bulinews", "Al Jazeera", "The Football Faithful", "portugoal.net", "Foot Mercato", "DaveOCKOP", "TEAMtalk", "101 Great Goals", "Get French Football News", "Archyde", "Yahoo Sports", "Liverpool Echo", "The Football Faithful", "Rush The Kop", "Fantasy Football Scout", "Liverpool FC stats preview", "Liverpool Echo", "CaughtOffside", "Roundtable Sports", "Rousing The Kop", "Anfield Index", "Evening Standard", "This Is Anfield"],
+  sources: ["Opta Analyst", "beIN Sports", "Squawka", "Goal", "This Is Anfield", "FotMob", "The Transfer Hub", "EPL Index", "Liverpool FC", "BBC Sport", "Sofascore", "Premier League", "Sky Sports", "ESPN", "Inside Futbol", "Sports Mole", "Bulinews", "Al Jazeera", "The Football Faithful", "portugoal.net", "Foot Mercato", "DaveOCKOP", "TEAMtalk", "101 Great Goals", "Get French Football News", "Archyde", "Yahoo Sports", "Liverpool Echo", "The Football Faithful", "Rush The Kop", "Fantasy Football Scout", "Liverpool FC stats preview", "Liverpool Echo", "CaughtOffside", "Roundtable Sports", "Rousing The Kop", "Anfield Index", "Evening Standard"],
 };
 
 
