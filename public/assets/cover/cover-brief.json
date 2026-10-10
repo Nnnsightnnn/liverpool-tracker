@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-01T12:00:00Z",
   "status": "OPEN",
   "tracker": "liverpool",
-  "leadStory": "As of Friday evening, two days before Manchester City visit Anfield on 11 October, Andoni Iraola has ruled Alexander Isak and Cody Gakpo out of the game, leaving Lewis Koumas as the only natural nine, while Jeremy Jacquet is fit and Enzo Maresca says Haaland is ready.",
+  "leadStory": "As of Saturday morning, the eve of Manchester City at Anfield on 11 October, Virgil van Dijk has told Sky Sports that leaving Liverpool will be 'a very emotional day' and that 'before you know it, it's gone', while every preview checked starts Bradley Barcola at centre-forward in the absence of Isak and Gakpo.",
   "action": "generate",
   "note": "Kenny asked for a better cover than the hand-drawn SVG plates. Generate ONE image per the prompt, save it at `output`, then set COVER_IMAGE.src to it, credit 'Illustration · Antigravity', a fresh generatedAt, and set this file's status to CLOSED. Evergreen on purpose: it should still be right after the City result.",
   "currentPlate": "/assets/cover/2026-10-01-anfield-after-dark.svg",

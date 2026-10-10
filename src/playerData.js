@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Fri Oct 9, evening - Behind a back four Iraola confirmed intact on Friday; Maresca says Haaland, after golf in Marbella, is ready for Anfield (Evening Standard). Three straight league clean sheets to defend.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Sat Oct 10, morning - The last line behind a captain now talking openly about the end (Sky Sports via TEAMtalk); Haaland, five league goals and top of the chart, is the man he faces tomorrow (Opta Analyst).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Fri Oct 9, evening - Bench for City; neither Friday press conference touched the goalkeeping order, and the Chelsea cup tie on 28 October is still the likeliest start.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Sat Oct 10, morning - On the bench tomorrow; the goalkeeping order was untouched by the week's team news, and the Chelsea cup tie on 28 October remains his likeliest start.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Fri Oct 9, evening - Leads a side Iraola calls ready for 'an exciting game', not a must-not-lose one (Roundtable Sports); Jacquet beside him again after being passed fit.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Sat Oct 10, morning - 'Before you know it, it's gone,' he told Sky Sports (via TEAMtalk), calling his Liverpool years 'an incredible journey'. Leads the side out against City in the final year of his contract.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Fri Oct 9, evening - Back to first cover now Iraola has declared Jacquet fit; the three-hundredth appearance waits for the bench or a later week.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Sat Oct 10, morning - Bench and first cover at centre-back and right-back; none of the eve-of-match previews moves him into the XI.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -54,7 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Fri Oct 9, evening - Nowhere in Friday's injury news, which on a day of absences counts as good news; left-back in Sports Mole's evening XI and this tracker's.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Sat Oct 10, morning - Left-back in all three published XIs this tracker checked (Sports Mole, This Is Anfield, Opta Analyst); Tsimikas the cover.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Fri Oct 9, evening - Listed out for Sunday in Sports Mole's Friday preview; the knee has no club date and Araujo keeps the shirt.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Sat Oct 10, morning - The knee keeps him out of City and still has no club date; Araujo holds the right-back shirt.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Fri Oct 9, evening - Right-back or wing-back cover for City; Sports Mole's evening XI keeps Araujo wide, so the bench is where he starts.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 1, assists: 4, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Sat Oct 10, morning - Opta Analyst's preview, written before Jacquet was cleared, had him at right-back with Araujo inside; with Jacquet fit, the bench is likelier.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Fri Oct 9, evening - Out for Sunday per Sports Mole's preview and still not seen in group work; the Chelsea cup tie on 28 October remains the horizon.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Sat Oct 10, morning - Not part of tomorrow's plans; the ACL comeback is still aimed at late October, with the Chelsea cup tie on the 28th the horizon.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Fri Oct 9, evening - Cleared at 1.30pm: 'He is fit and ready to go,' Iraola said (Roundtable Sports via Yahoo Sports). The hamstring scare from the France camp ends in time for Haaland.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sat Oct 10, morning - Keeps his place in This Is Anfield's predicted backline after what it calls a minor injury scare; partners Van Dijk against Haaland tomorrow.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Fri Oct 9, evening - On loan at Levante, outside Friday's team news entirely.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Sat Oct 10, morning - On loan at Levante; no part of the City weekend.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -111,7 +111,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 1, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Fri Oct 9, evening - Cover for Kerkez again; Iraola's injury list on Friday ran to forwards only.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
+    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 1, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Sat Oct 10, morning - Left-back cover behind Kerkez, who starts in every preview checked this morning.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
     physical: { height: 178, weight: 76, pace: 79, acceleration: 80, sprintSpeed: 78 },
     career: [
       { years: "2017-2020", club: "Olympiacos", fee: null, type: "senior" },
@@ -122,7 +122,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Fri Oct 9, evening - In the pivot in Sports Mole's evening XI; with Isak and Gakpo out, more of the scoring falls to a midfielder who struck against Atletico and Spurs.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sat Oct 10, morning - Half of the pivot every preview keeps from Bournemouth; Elliot Anderson, Opta's leader among midfielders for line-breaking passes, is the player to stop.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Fri Oct 9, evening - Pivot cover on the bench; Iraola's answer to the absences on Friday was Koumas and the wingers, not a midfield reshuffle.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Sat Oct 10, morning - Out of sorts, in This Is Anfield's reading, so the Szoboszlai and Mac Allister pivot is expected to continue; the bench tomorrow.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Fri Oct 9, evening - His stoppage-time volley against Spurs was voted LFC Goal of the Month on Friday (Liverpool FC); beside Mac Allister on Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Sat Oct 10, morning - In the pivot beside Mac Allister in all three previews checked; with two forwards missing, his set pieces carry more of the scoring burden.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Fri Oct 9, evening - With Jacquet passed fit, back to emergency cover only; a January exit is still the expectation.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Sat Oct 10, morning - Emergency depth only for City; a January exit is still where his season points.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -163,7 +163,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Fri Oct 9, evening - The ten behind whoever leads the line now Isak is out; 0.39 expected assists in 403 league minutes (Opta Analyst) is the supply the attack depends on.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 6, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Sat Oct 10, morning - The ten in Sports Mole's and Opta's XIs, while This Is Anfield asks whether he could go up front instead; 0.39 expected assists in 403 league minutes (Opta Analyst).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -172,7 +172,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Fri Oct 9, evening - Pivot depth at nineteen; Iraola's four games in ten days start on Sunday, which is where his minutes will come from.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
+    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Sat Oct 10, morning - Pivot depth at nineteen; with four games in ten days from tomorrow, his minutes are likelier midweek than against City.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
     physical: { height: 178, weight: 68, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Leicester City Academy", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "injured", outSince: "2026-09-27", injuryNote: "Fri Oct 9, evening - Ruled out of City by Iraola: the ankle is 'about dealing with the pain' after 'a really bad tackle' (Anfield Index via Yahoo Sports). Training, but not ready; not thought long-term.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "injured", outSince: "2026-09-27", injuryNote: "Sat Oct 10, morning - Will watch City from the stand: the ankle hurt with the Netherlands is 'a matter of him dealing with the pain' (Iraola, via Brit Brief). Not thought long-term.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "injured", outSince: "2026-09-25", injuryNote: "Fri Oct 9, evening - Ruled out of City by Iraola: 'a small injury, but still an injury' in the thigh (Anfield Index via Yahoo Sports). Not long-term, the manager said, but not Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "injured", outSince: "2026-09-25", injuryNote: "Sat Oct 10, morning - Out of City; 'they are not going to arrive on Sunday,' Iraola said (Sports Mole). The thigh is 'a small injury but a muscle injury', not long-term.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Fri Oct 9, evening - One of the long-term absentees Iraola said on Friday he looks forward to having back; the Liverpool Echo's target is still Hull away on 26 December.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Sat Oct 10, morning - The third striker missing, and the long-term one; Boxing Day at Hull is still the Liverpool Echo's target.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -213,7 +213,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Fri Oct 9, evening - In Sports Mole's Friday evening front line, with Barcola moved through the middle; AnfieldWatch also has him in the three.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Sat Oct 10, morning - On the left in Sports Mole's and This Is Anfield's front three, with Barcola moved inside; now in this tracker's XI too.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Fri Oct 9, evening - 'Koumas has our trust,' Iraola said at 1.30pm, and 'a No.9, we only have Koumas right now' (Anfield Index via Yahoo Sports; Roundtable Sports). A second start under him is likely.", image: "",
+    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Sat Oct 10, morning - The only recognised nine, but the previews have moved past him: Sports Mole, This Is Anfield and Opta Analyst all start Barcola. Iraola's trust still stands; the bench is likelier.", image: "",
     physical: { height: 180, weight: 73, pace: 80, acceleration: 81, sprintSpeed: 79 },
     career: [
       { years: "2013-", club: "Liverpool", fee: null, type: "youth" },
@@ -231,7 +231,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "doubtful", injuryNote: "Fri Oct 9, evening - 'Maybe we will recover Chiesa, but he hasn't played any minutes,' Iraola said on Friday (Roundtable Sports). The bench, at most.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "doubtful", injuryNote: "Sat Oct 10, morning - Back in training, and 'maybe' recovered for the squad, Iraola said (BBC Sport); no competitive minute yet this season.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -242,7 +242,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Fri Oct 9, evening - Third goalkeeper; Friday's news changes nothing for him.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Sat Oct 10, morning - Third goalkeeper; nothing in the eve-of-match news reaches him.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -259,7 +259,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Fri Oct 9, evening - With Gakpo ruled out the right side is his in this tracker's XI and Sports Mole's; Anfield Index lists him among the attackers Iraola can turn to.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Sat Oct 10, morning - On the right in every preview checked this morning, in Gakpo's place; one goal from three appearances so far.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -269,7 +269,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 0, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Fri Oct 9, evening - A sixth straight league start at right-back in Sports Mole's evening XI; Semenyo or Doku, both in Friday's City previews, will be the man he faces.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
+    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 0, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Sat Oct 10, morning - Right-back again in Sports Mole's and This Is Anfield's XIs; Doku or Semenyo, whichever City play wide, will test a centre-half on the flank.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
     physical: { height: 188, weight: 79, pace: 78, acceleration: 74, sprintSpeed: 80 },
     career: [
       { years: "2016-2018", club: "Rentistas", fee: null, type: "youth" },
@@ -279,7 +279,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 3, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Fri Oct 9, evening - Iraola: he 'has played as a left winger and also as a striker' (Roundtable Sports), and Sports Mole now picks him up front in Isak's place.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
+    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 3, goals: 0, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Sat Oct 10, morning - The previews' nine: Sports Mole, This Is Anfield and Opta Analyst all pick him through the middle. 'He's a super-valuable player for us. I think he can cover the three positions up front' (Iraola, Liverpool FC).", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
     physical: { height: 182, weight: 72, pace: 91, acceleration: 92, sprintSpeed: 90 },
     career: [
       { years: "2010-2020", club: "Lyon Academy", fee: null, type: "youth" },
@@ -396,7 +396,12 @@ export const COVER_IMAGE = {
   alt: "Editorial plate: an empty pitch under floodlights seen from the gantry, the white lines drawn in perspective through a low mist, the stand beyond in shadow.",
   focus: "Anfield, after dark",
   credit: "Editorial plate",
-  generatedAt: "2026-10-09T22:30:00Z",
+  generatedAt: "2026-10-10T08:30:00Z",
+  // Morning pass (Sat 10 October, ~4am ET, cloud-scheduled): NO LIVERPOOL MATCH; City at Anfield tomorrow. Lead moves onto Van Dijk's
+  // Sky Sports interview: 'Before you know it, it's gone', 'an incredible journey', in the final year of his contract (TEAMtalk via
+  // LiveScore; This Is Anfield). Also: every preview checked (Sports Mole, This Is Anfield, Opta Analyst) starts Barcola at nine;
+  // Iraola calls him 'super-valuable' (Liverpool FC); Opta's 1953/1937 history; Arsenal v Leeds today. Plate carried, Track 2
+  // request still OPEN; only generatedAt and leadStory refreshed. NO new image queued (STEP 7.5 not runnable in cloud). All generatedAt 08:30Z.
   // Evening pass (Fri 9 October, ~6pm ET, cloud-scheduled): NO LIVERPOOL MATCH. Lead moves onto Iraola's 1.30pm press conference:
   // Isak (thigh) and Gakpo (ankle) RULED OUT of City, neither long-term; Koumas 'has our trust', the only natural nine; Jacquet
   // 'fit and ready to go' (Roundtable Sports, Anfield Index via Yahoo Sports). Also: Maresca on Haaland (golf in Marbella, ready),
@@ -820,7 +825,7 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-10-09 (Friday evening, ~6pm ET). Re-fetched from ESPN and byte-identical to the 6-9 October pulls: no league match since Sunday 20 September. Manchester City first on fifteen, five from five; Arsenal second
+// Last refresh: 2026-10-10 (Saturday morning, ~4am ET). Re-fetched from ESPN and byte-identical to the 6-9 October pulls (Arsenal v Leeds is today, unplayed): no league match since Sunday 20 September. Manchester City first on fifteen, five from five; Arsenal second
 // on twelve (Leeds on Saturday); Brighton third on ten; then four on nine, Brentford (fourth), Leeds (fifth), LIVERPOOL (sixth,
 // highlighted) and Everton (seventh), split by goal difference and goals scored. Relegation stripe: Coventry, Fulham, Tottenham.
 // Prior state, 2026-09-20 evening, AFTER Bournemouth 0-1 Liverpool: Isak's winner lifted Liverpool from tenth to sixth.
@@ -857,16 +862,16 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 5,
-  generatedAt: "2026-10-09T22:30:00Z",
+  generatedAt: "2026-10-10T08:30:00Z",
   overview:
-    "The table has not moved since 20 September; Friday changed what Sunday can do to it. Manchester City lead on fifteen from five and come to Anfield with Haaland declared ready by Maresca, while Liverpool, sixth on nine and unbeaten, will be without Isak and Gakpo, ruled out by Iraola at his press conference. Arsenal, three behind City, host Leeds on Saturday and can draw level first; Brighton are third on ten with the league's best goal difference, and Brentford, Leeds, Liverpool and Everton are bunched on nine, Leeds holding the Europa stripe. A Liverpool win cuts the gap to the top to three and a defeat stretches it to nine; Coventry, Fulham and Tottenham hold the relegation places.",
+    "Saturday is the table's last still morning before City come to Anfield: Arsenal host Leeds today and, with a win, draw level with Manchester City on fifteen before Sunday's game. Liverpool are sixth on nine and unbeaten in five, one of four sides on nine with Brentford, Leeds and Everton, separated by goal difference and goals scored; Brighton sit third on ten with the league's best goal difference. City, perfect from five, would stretch the gap to Liverpool to nine with a win at Anfield, where Opta note they have not won successive league games since 1953; a Liverpool win cuts it to three. Coventry, Fulham and Tottenham hold the relegation places, and ESPN's table has not changed since 20 September.",
   teams: {
-    "Liverpool": "Sixth on nine and unbeaten in five league games; without Isak and Gakpo for City, with Koumas the only natural nine (Iraola).",
-    "Manchester City": "Top on fifteen; Haaland ready for Anfield per Maresca, who says City will win their appeal.",
-    "Arsenal": "Second on twelve; host Leeds on Saturday and go level with City if they win. At Anfield on 1 November.",
+    "Liverpool": "Sixth on nine and unbeaten in five league games; the previews send Barcola, a winger, out as the nine against City.",
+    "Manchester City": "Top on fifteen and perfect; chasing successive league wins at Anfield for the first time since 1953 (Opta Analyst).",
+    "Arsenal": "Second on twelve; host Leeds today and go level with City on fifteen if they win. At Anfield on 1 November.",
     "Brighton": "Third on ten, and plus eleven is the best goal difference in the league; at Anfield on 25 October.",
     "Brentford": "Fourth and unbeaten on nine; Liverpool visit on 17 October, six days after City.",
-    "Leeds": "Fifth on nine and holding the Europa stripe; at Arsenal on Saturday.",
+    "Leeds": "Fifth on nine, unbeaten and holding the Europa stripe; at Arsenal today.",
     "Everton": "Seventh on nine, level with Liverpool on points and goal difference, behind on goals scored.",
     "Hull": "Eighth on eight, the highest of the promoted sides.",
     "Chelsea": "Tenth on seven; at Anfield in the Carabao Cup fourth round on 28 October.",
@@ -879,103 +884,108 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Two Names Off The Sheet.",
-    byline: "Liverpool FC / Anfield Index",
-    dateline: "Kirkby · 9 October",
-    category: "Manager",
+    headline: "Before You Know It.",
+    byline: "Sky Sports / TEAMtalk",
+    dateline: "Kirkby · 10 October",
+    category: "Farewells",
     body:
-      "It took Andoni Iraola one sentence to settle three days of reading training footage. 'Alex Isak and Cody Gakpo will not play the game,' he said at half past one on Friday. 'They are not ready.' The detail was almost reassuring: a thigh that is a small injury but still an injury, an ankle that is a matter of dealing with the pain after what he called a really bad tackle, and neither, in his view, long-term. The arithmetic is not reassuring at all. Isak has four of Liverpool's seven league goals and Gakpo the most goal involvements at the club. Both will watch the leaders arrive.",
+      "Virgil van Dijk has spent ten seasons not saying goodbye, and on the eve of Manchester City he came closer than he ever has. In a Sky Sports interview due to air before the game, he talked about a shirt that millions around the world love to wear, about showing up every three or four days, and then about the end: when he has to walk out of the club, it will be a very emotional day. 'Before you know it, it's gone,' he said. He is thirty-five and in the final year of his contract. Tomorrow he lines up beside Jacquet, with Haaland at his shoulder.",
   },
   {
     n: "02",
-    headline: "Our Trust.",
-    byline: "Roundtable Sports / Sports Mole",
+    headline: "The Winger At Nine.",
+    byline: "Liverpool FC / Sports Mole",
     dateline: "Kirkby · 9 October",
     category: "Tactics",
     body:
-      "'A No.9, we only have Koumas right now.' Iraola said it plainly, and then said what a manager says when the cupboard is this bare: that Lewis Koumas has the staff's trust, that he has always liked the player, that his selection would not be a big surprise. He left a door ajar for the wingers who have played through the middle, and named Bradley Barcola as one, a left winger who has also led a line. Sports Mole walked through it within hours, putting Barcola up front with Ngumoha and Munoz either side. Koumas is twenty-one. On Sunday he may be the first man in the league's most intense press.",
+      "Iraola never said Bradley Barcola would lead the line. He said enough. 'He's a super-valuable player for us,' he told the club's website. 'I think he can cover the three positions up front.' Within hours the previews had made the move for him: Sports Mole, This Is Anfield and Opta Analyst all start the Frenchman through the middle, Ngumoha and Munoz either side, Wirtz behind. Lewis Koumas, the only natural nine, keeps the manager's trust and loses the argument. Barcola has no league goal this season. What he has is speed, and City defend high.",
   },
   {
     n: "03",
-    headline: "Golf In Marbella.",
-    byline: "Evening Standard / Rush The Kop",
-    dateline: "Manchester · 9 October",
+    headline: "Baying For Blood.",
+    byline: "Evening Standard / The Overlap",
+    dateline: "London · 7 October",
     category: "Football News",
     body:
-      "Enzo Maresca's account of how Erling Haaland spent the end of the international break was the most relaxed sentence of City's week: Marbella, two or three days off, golf, recovery, ready for Anfield. The rest of his morning was harder going. Asked whether City's titles were tainted by the commission's verdict, he said absolutely not, recalling that the last time he had been at Anfield was in the treble season; asked about the appeal, he said City would win it. He expects the ground to be worse than usual because of the situation, and offered Enzo Fernandez, raised on Argentine away days, as proof that his players can stand it.",
+      "The pundits had settled the weather at Anfield before either manager spoke. On The Overlap, in comments the Evening Standard carried on Wednesday, Jamie Carragher said City would get a very hot reception, the same as always, and then sharpened it: everyone is baying for blood, so it will be very difficult for their players and manager to achieve anything. Gary Neville expected banners and was certain of chanting. The verdict behind it, a commission's guilty finding on City's financial charges, now under appeal, will not be on the pitch tomorrow. It will be in the stands, for ninety minutes, at full volume.",
   },
   {
     n: "04",
-    headline: "Fit And Ready To Go.",
-    byline: "Roundtable Sports / Yahoo Sports",
+    headline: "Not Arriving On Sunday.",
+    byline: "BBC Sport / Sports Mole",
     dateline: "Kirkby · 9 October",
     category: "Injuries",
     body:
-      "The good news came in six words. 'He is fit and ready to go,' Iraola said of Jeremy Jacquet, days after France sent the centre-back home from their camp with a hamstring problem before the win over Belgium. The manager praised his France debut and added, as managers do of young defenders, that he has a long way to go. What it means for Sunday is simple: the four who kept three successive league clean sheets can face Haaland together. Federico Chiesa is the other side of the ledger. Maybe, Iraola said, they will recover him, but he has not played a minute this season.",
+      "Iraola's phrasing on Friday was exact. Alexander Isak and Cody Gakpo are not going to arrive on Sunday; the thigh is a small injury but a muscle injury, and neither looks long-term. The BBC's Aadam Patel drew the consequence: with Ekitike also out, the manager must decide who leads the attack, and Iraola said he hopes the absences will not be felt too much in the coming weeks, which depends on others stepping up. Behind the senior options the next striker in the building is Will Wright of the under-21s, who hit the crossbar from long range at Doncaster on Tuesday night.",
   },
   {
     n: "05",
-    headline: "Four In Ten Days.",
-    byline: "Roundtable Sports / ESPN",
-    dateline: "Anfield · 9 October",
+    headline: "Since 1953.",
+    byline: "Opta Analyst / ESPN",
+    dateline: "Anfield · 10 October",
     category: "Race for Europe",
     body:
-      "Iraola framed Sunday as an exciting game rather than a must-not-lose one, and then pointed past it: four games in ten days, he said, will show what this team is made of. The table explains the stakes. Liverpool are sixth on nine, unbeaten in five league games, and City are top on fifteen; a win cuts the gap to three, a defeat stretches it to nine. Arsenal, second on twelve, host Leeds on Saturday and can draw level with City before a ball is kicked at Anfield. The ESPN table has not moved since 20 September. By Sunday night it will have.",
+      "Opta's history for tomorrow reads like a list of things that have not happened in a long time. City have not won successive league games at Liverpool since 1953. Liverpool lost both league meetings last season, their first back-to-back league defeats to City since March 1937. And Liverpool have failed to win their first three home league games of a season only twice since the First World War, in 1963-64 and 2012-13; Iraola's first two at Anfield were draws. The ESPN table supplies the present tense: sixth on nine against fifteen, with Arsenal hosting Leeds today and able to draw level at the top.",
   }
 ];
 
 export const NEWS_DIGEST = {
-  generatedAt: "2026-10-09T22:30:00Z",
+  generatedAt: "2026-10-10T08:30:00Z",
   summary:
-    "Friday evening, and the question the morning could only frame has an answer: Andoni Iraola confirmed at his 1.30pm press conference that Alexander Isak (thigh) and Cody Gakpo (ankle) will not play Manchester City on Sunday, 'not ready unfortunately for us', and that Lewis Koumas, the only natural nine left, 'has our trust' (Roundtable Sports via Yahoo Sports; Anfield Index). Neither injury looks long-term, he said, and the rest of the news was kinder: Jeremy Jacquet is 'fit and ready to go' after the hamstring scare with France, and Federico Chiesa may be recovered but has played no minutes. In Manchester, Enzo Maresca said Haaland had golf and recovery in Marbella and is 'ready for Anfield' (Evening Standard), answered 'absolutely not' when asked whether City's titles are tainted, and predicted 'we are going to win this appeal' (Rush The Kop). Sports Mole's evening preview now puts Barcola through the middle with Ngumoha and Munoz wide, and calls it 2-2; Opta's simulations, published before the team news, make City 40.7 per cent favourites.",
+    "Saturday morning, the eve of Manchester City at Anfield, and it is the captain who is talking about endings: in a Sky Sports interview due to air before the game, Virgil van Dijk said that when he has to walk out of the club 'it will be a very emotional day. It's been an incredible journey', and added, 'Before you know it, it's gone!' (TEAMtalk via LiveScore; This Is Anfield). He is thirty-five and in the final year of his contract, and tomorrow he leads a side without Alexander Isak or Cody Gakpo, both ruled out by Andoni Iraola on Friday. The previews have settled the nine in their absence: Sports Mole, This Is Anfield and Opta Analyst all start Bradley Barcola through the middle with Ngumoha and Munoz wide, and Iraola calls Barcola 'a super-valuable player' who 'can cover the three positions up front' (Liverpool FC), while the BBC frames it as a striker dilemma with Lewis Koumas the only natural nine. Opta's history is not kind to anyone: City have not won successive league games at Liverpool since 1953, and Liverpool have not failed to win their first three home league games of a season since 2012-13. Arsenal host Leeds today and can draw level with City on fifteen before a ball is kicked at Anfield.",
   keyTopics: [
     {
-      title: "Iraola Rules Out Isak And Gakpo (Liverpool FC press conference, today)",
-      detail: "Confirmed at Friday's 1.30pm press conference: 'Alex Isak and Cody Gakpo will not play the game. They are not ready.' Isak's is 'a small injury, but still an injury' in the thigh; Gakpo's ankle, hurt in 'a really bad tackle' with the Netherlands, is 'about dealing with the pain'. Neither looks long-term, Iraola said (Anfield Index via Yahoo Sports; Roundtable Sports).",
-      category: "injuries",
-    },
-    {
-      title: "Sports Mole Moves Barcola Up Front (Sports Mole, today)",
-      detail: "Published at 4.47pm on Friday and updated at 5.12pm, after the press conferences: Barcola as the striker with Ngumoha, Wirtz and Munoz behind him, Jacquet beside Van Dijk, and a 2-2 prediction. Their City side has Ndiaye, Cherki and Doku behind Haaland.",
-      category: "tactics",
-    },
-    {
-      title: "Koumas, The Only No.9 Left (Roundtable Sports, today)",
-      detail: "Said by Iraola on Friday afternoon: 'A No.9, we only have Koumas right now', and 'Koumas has our trust... he has already shown he is ready to go' (Anfield Index via Yahoo Sports). Wingers who have played up front are the other option, he added, naming Barcola as one who has played on the left and as a striker.",
-      category: "tactics",
-    },
-    {
-      title: "Jacquet Declared Fit (Roundtable Sports via Yahoo Sports, today)",
-      detail: "Stated by Iraola on Friday: 'He is fit and ready to go', after France sent him back before their last game of the window. The manager praised his France debut and said the defender 'has a long way to go'. The back four that kept three straight league clean sheets is intact.",
-      category: "injuries",
-    },
-    {
-      title: "Maresca: 'We Are Going To Win This Appeal' (Rush The Kop, today)",
-      detail: "Said at City's Friday morning press conference, his first before an Anfield trip as City manager: asked whether the club's titles are tainted, 'Absolutely not'. He recalled that he was last at Anfield in the treble season.",
+      title: "Van Dijk: 'Before You Know It, It's Gone' (TEAMtalk / This Is Anfield, today)",
+      detail: "Reported on Saturday morning from a Sky Sports interview due to air before the City game: 'Eventually, when I have to walk out of the club, it will be a very emotional day. It's been an incredible journey.' TEAMtalk calls it his biggest hint yet; he is thirty-five, in his tenth season, and his contract runs out at the end of this one. The same interview gave his 'bare minimum' for team-mates: 'hard work, never give up and be a good human being'.",
       category: "general",
     },
     {
-      title: "Haaland Golfed, Now 'Ready For Anfield' (Evening Standard, today)",
-      detail: "Maresca on Friday morning: Haaland 'went to Marbella, had two or three days off, played golf' after the knock with Norway and is 'ready for Anfield'. The Evening Standard lists Semenyo and O'Reilly as doubts, with Foden serving the last game of his ban.",
+      title: "Arsenal Can Go Level With City Today (ESPN / theScore, today)",
+      detail: "Arsenal, second on twelve, host Leeds, fifth on nine and unbeaten, this afternoon. A home win puts them level with City on fifteen before Liverpool and City meet at Anfield on Sunday; the ESPN table has not moved since 20 September.",
       category: "matches",
     },
     {
-      title: "Anfield 'Probably Will Be Worse' (Manchester City, today)",
-      detail: "Maresca, on City's own channel on Friday, expects the atmosphere to be harsher because of the situation, and pointed to Enzo Fernandez: 'In Argentina, it's almost every game to go to Anfield.' Iraola declined to judge the verdict, 'My opinion is not valid', and called Sunday an exciting game (Roundtable Sports).",
-      category: "general",
+      title: "The BBC's Striker Dilemma (BBC Sport via Yahoo Sports, Friday)",
+      detail: "Aadam Patel's report, published at 5.46pm on Friday, frames Sunday as a choice between Barcola centrally and a rare Koumas start. Iraola told him he hopes the absences of Isak and Gakpo will not be felt too much in the coming weeks, which depends on how others step up, and that Chiesa will 'maybe' be recovered without having played any minutes.",
+      category: "tactics",
     },
     {
-      title: "Szoboszlai's Spurs Volley Is Goal Of The Month (Liverpool FC, today)",
-      detail: "Announced by the club on Friday: the stoppage-time strike that sealed the 3-1 Carabao Cup win over Tottenham on 15 September took LFC's September Goal of the Month.",
-      category: "general",
+      title: "Every Preview Picks Barcola At Nine (Sports Mole, Friday evening)",
+      detail: "Published at 4.59pm on Friday: Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Szoboszlai; Ngumoha, Wirtz, Munoz; Barcola. This Is Anfield's predicted XI has the same shape and asks whether Wirtz could go up front instead; Opta Analyst's preview also leads with Barcola. This Is Anfield calls Gravenberch out of sorts, so the pivot from Bournemouth stays.",
+      category: "tactics",
     },
     {
-      title: "Opta's Numbers, Run Before The News (Opta Analyst, this morning)",
-      detail: "Published on Friday morning, before either press conference: 10,000 simulations give City 40.7 per cent, Liverpool 34.6 and the draw 24.7. They were run with Isak and Gakpo's status unknown; both are now out.",
+      title: "'A Super-Valuable Player': Iraola On Barcola (Liverpool FC, Friday)",
+      detail: "Said at Friday's press conference and published by the club: 'He's a super-valuable player for us. I think he can cover the three positions up front.' On the nine: 'A full No.9, it's true that we probably only have Koumas right now. We have some wingers that have played up front in other teams.'",
+      category: "tactics",
+    },
+    {
+      title: "Isak And Gakpo 'Not Going To Arrive' (Sports Mole, Friday)",
+      detail: "Iraola's fuller wording on Friday, carried by Sports Mole: 'they are not going to arrive on Sunday', with Isak's thigh 'a small injury but it's a muscle injury'. Brit Brief counts all three natural centre-forwards missing, Ekitike included, with Koumas not on the injury list.",
+      category: "injuries",
+    },
+    {
+      title: "Opta: City Chase A First Anfield Double Since 1953 (Opta Analyst, Friday)",
+      detail: "From Opta's Friday preview: City are seeking successive league wins at Liverpool for the first time since 1953, after Liverpool lost both league meetings last season, their first back-to-back league defeats to City since March 1937. The away side has won two of the last three Premier League meetings, as many as in the previous thirty-two.",
       category: "matches",
+    },
+    {
+      title: "The Home Record, A 1963-64 Problem (Opta Analyst, Friday)",
+      detail: "Also from Friday's preview: Iraola has not yet won a home league game, after draws with Forest and Fulham, and Liverpool have failed to win any of their first three home games of a season only seven times, twice since the First World War (1963-64 and 2012-13).",
+      category: "matches",
+    },
+    {
+      title: "Carragher: 'Everyone Is Baying For Blood' (Evening Standard via Yahoo Sports, Wednesday)",
+      detail: "Carried by the Evening Standard on Wednesday from The Overlap: 'They will get a very hot reception, but that is always the same when Man City come to Anfield. Everyone is baying for blood.' Gary Neville expected banners and 'certainly' chanting.",
+      category: "general",
+    },
+    {
+      title: "Will Wright Hits The Bar At Doncaster (Liverpool FC, Tuesday)",
+      detail: "The under-21s lost 1-0 at Doncaster in the Jersey Mike's Trophy on Tuesday night, Tommi O'Reilly scoring in first-half stoppage time. Wright, the academy striker behind Koumas, started up front, hit the crossbar from long range and curled another just wide (Liverpool FC). Football Insider counted five goals in his first four PL2 games of the season.",
+      category: "general",
     }
   ],
-  sources: ["Liverpool FC", "Roundtable Sports", "Yahoo Sports", "Anfield Index", "Sports Mole", "Rush The Kop", "Evening Standard", "Manchester City", "Opta Analyst"],
+  sources: ["TEAMtalk", "LiveScore", "This Is Anfield", "Sky Sports", "Sports Mole", "Liverpool FC", "BBC Sport", "Yahoo Sports", "Brit Brief", "Opta Analyst", "Evening Standard", "The Overlap", "Football Insider", "ESPN", "theScore"],
 };
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -996,7 +1006,7 @@ export const NEWS_DIGEST = {
 // next edition and then into the auditor's blind spot.
 
 export const OPPOSITION = {
-  generatedAt: "2026-10-09T22:30:00Z",
+  generatedAt: "2026-10-10T08:30:00Z",
   opponent: "Manchester City",
   shortName: "MCI",
   fixture: {
@@ -1010,7 +1020,7 @@ export const OPPOSITION = {
   formation: "4-2-3-1",
   leaguePosition: 1,
   summary:
-    "Manchester City come to Anfield with their centre-forward rested and their manager unbending: Maresca said on Friday that Haaland spent the end of the break in Marbella, golf and recovery included, and is ready for Anfield (Evening Standard), that City's titles are 'absolutely not' tainted, and that 'we are going to win this appeal' against the commission's verdict on 114 of 115 charges (Rush The Kop). They lead on fifteen from five, the only perfect record in the league, and Maresca can become the fourth manager to win his first six Premier League games at a club (Opta Analyst). Their last game was a 5-3 against Sunderland on 20 September, and Paris Saint-Germain come to the Etihad on Wednesday. The Evening Standard lists Semenyo and O'Reilly as doubts, Foden serves the last game of his ban, and Opta's pre-team-news simulations make City 40.7 per cent favourites.",
+    "Manchester City arrive at Anfield chasing something they have not done since 1953, successive league wins at Liverpool, having won both league meetings last season, Liverpool's first back-to-back league defeats to City since March 1937 (Opta Analyst). They lead on fifteen from five, the only perfect record in the league, and Maresca can become the fourth manager to win his first six Premier League games at a club. Off the pitch they were found guilty by an independent commission on the financial-breaches charges and have appealed, and Jamie Carragher expects 'everyone is baying for blood' at Anfield (Evening Standard). Their last game was a 5-3 against Sunderland on 20 September, Paris Saint-Germain come to the Etihad on Wednesday, Foden serves the last game of his ban, and Semenyo, Doku and O'Reilly are doubts. Opta's pre-team-news simulations make City 40.7 per cent favourites.",
   shape:
     "Maresca has kept the possession spine and loosened everything in front of it, which is why City look like a scoring machine and a defensive argument at the same time. The back four sits high with Gvardiol at left-back stepping into midfield and Matheus Nunes giving width on the right; Enzo Fernandez and Elliot Anderson screen in a double pivot that is more about ball progression than protection. Rayan Cherki plays between the lines and carries, with Antoine Semenyo and Iliman Ndiaye on the flanks and Haaland pinning the centre-backs. The pattern that beat Sunderland twice over and nearly cost them the afternoon is the same one: when the ball turns over in City's half, the space between that high line and Donnarumma is enormous, and Sunderland needed very little invitation to run into it three times on 20 September.",
   keyPlayers: [
@@ -1063,17 +1073,17 @@ export const OPPOSITION = {
     { date: "2026-08-23", opponent: "Bournemouth", home: true, score: "2-1", result: "W", note: "Maresca's first league game in charge and the start of the perfect run, against the club Liverpool beat on 20 September. Bournemouth led, which was the first instalment of the record they carried into September." },
   ],
   liverpoolAngle:
-    "Friday's team news changes which half of Opta's collision Liverpool can hope to win. The league's most intense press, high-intensity pressure on 48.9 per cent of opposition-half touches, against the league's best passers under pressure, City at 83.0 per cent (Opta Analyst), will now be led by Lewis Koumas or by Barcola, Iraola's two answers at nine after Isak and Gakpo were ruled out (Roundtable Sports). The attacking ceiling drops with them: Isak has four of Liverpool's seven league goals. That makes the other end decisive. Cherki and Semenyo are the league's two biggest overperformers of expected goals, Liverpool have conceded the most fast-break goals in the division since the start of last season (Opta), and Jacquet, declared fit and ready to go, rejoins the back four that has kept three straight clean sheets.",
+    "The previews' answer to Isak's absence turns Liverpool's attack into a test of City's high line rather than of their centre-backs. Barcola, the pick at nine for Sports Mole, This Is Anfield and Opta Analyst, is a winger who runs into space, and the space behind City is the weakness this dossier's shape note describes: Sunderland scored three at the Etihad on 20 September by running into it. The collision in midfield is unchanged, the league's most intense press, high-intensity pressure on 48.9 per cent of opposition-half touches, against the league's best passers under it, City at 83.0 per cent (Opta Analyst). At the other end Liverpool have conceded the most fast-break goals in the division since the start of last season (Opta), and Cherki and Semenyo are the league's two biggest overperformers of expected goals, against a back four with three straight league clean sheets.",
   modelLine: { source: "Opta supercomputer", liverpool: 34.6, draw: 24.7, opponent: 40.7, note: "Opta Analyst's 10,000 pre-match simulations, published 9 October; Squawka's Signal model had it 35-25-40 on 7 October. Reported, not endorsed." },
-  sources: ["Evening Standard", "TEAMtalk", "Opta Analyst", "Sky Sports", "ESPN", "BBC Sport", "Liverpool FC", "Premier League", "beIN Sports", "Express & Star", "Read Man City", "Goal", "CaughtOffside", "Yahoo Sports", "Empire of the Kop", "Sports Mole", "Liverpool Echo", "LiveScore", "FourFourTwo", "Live4Liverpool", "Football365", "Football Insider", "Sport Witness", "Y Clwb Pel-droed", "Al Jazeera", "Bulinews", "Football Italia", "AP", "CBS Sports", "City Xtra", "The Guardian", "Rousing The Kop", "England Football", "The Hard Tackle", "Anfield Index", "The Overlap", "Man City News", "Manchester City", "Yardbarker", "Esteemed Kompany", "portugoal.net", "SportsDunia", "Heavy", "beIN Sports", "101 Great Goals", "Foot Mercato", "RMC Sport", "Sportsview", "The Times", "Squawka", "Get French Football News", "Archyde", "Football365", "LiveScore", "Liverpool Echo", "Outlook India", "Hayters", "SI", "Man City Square", "VAVEL", "The False 9", "DaveOCKOP", "Daily Mail", "101 Great Goals", "Al Jazeera", "Liverpool Echo", "Roundtable Sports", "City Xtra", "RotoWire", "Rousing The Kop", "All Out Soccer", "Rush The Kop"],
+  sources: ["Evening Standard", "TEAMtalk", "Opta Analyst", "Sky Sports", "ESPN", "BBC Sport", "Liverpool FC", "Premier League", "beIN Sports", "Express & Star", "Read Man City", "Goal", "CaughtOffside", "Yahoo Sports", "Empire of the Kop", "Sports Mole", "Liverpool Echo", "LiveScore", "FourFourTwo", "Live4Liverpool", "Football365", "Football Insider", "Sport Witness", "Y Clwb Pel-droed", "Al Jazeera", "Bulinews", "Football Italia", "AP", "CBS Sports", "City Xtra", "The Guardian", "Rousing The Kop", "England Football", "The Hard Tackle", "Anfield Index", "The Overlap", "Man City News", "Manchester City", "Yardbarker", "Esteemed Kompany", "portugoal.net", "SportsDunia", "Heavy", "beIN Sports", "101 Great Goals", "Foot Mercato", "RMC Sport", "Sportsview", "The Times", "Squawka", "Get French Football News", "Archyde", "Football365", "LiveScore", "Liverpool Echo", "Outlook India", "Hayters", "SI", "Man City Square", "VAVEL", "The False 9", "DaveOCKOP", "Daily Mail", "101 Great Goals", "Al Jazeera", "Liverpool Echo", "Roundtable Sports", "City Xtra", "RotoWire", "Rousing The Kop", "All Out Soccer", "Rush The Kop", "This Is Anfield", "BBC Sport", "The Overlap"],
 };
 
 export const FORM_TRENDS = {
-  generatedAt: "2026-10-09T22:30:00Z",
+  generatedAt: "2026-10-10T08:30:00Z",
   competition: "PL",
   played: 5,
   headline:
-    "Friday's team news turns this board's central worry from a risk into a fact. The attack had worked through Isak, four of Liverpool's seven league goals and 3.5 expected goals, second in the league to Haaland (Liverpool FC), and Iraola has ruled him out of City along with Gakpo, the club's leader for goal involvements in all competitions (Opta Analyst). What remains to create is Wirtz, on 0.39 expected assists in 403 league minutes (Opta Analyst), and to finish, Koumas or Barcola, with no Premier League goal between them this season. Seven goals from 7.57 expected says the finishing has matched the chances; Sunday asks who makes them.",
+    "Saturday's previews answer the question this board ended on, who makes the chances, with a winger. Sports Mole, This Is Anfield and Opta Analyst all start Bradley Barcola through the middle, a forward with no league goal this season, with Wirtz behind him on 0.39 expected assists in 403 league minutes (Opta Analyst). Seven goals from 7.57 expected says Liverpool have scored roughly what they create, so the risk is volume rather than finishing. Against a City line that conceded three at home to Sunderland on 20 September, pace in behind may matter more than a natural nine's touch.",
   diagnosis: [
     {
       label: "Closing out a lead",
@@ -1083,19 +1093,19 @@ export const FORM_TRENDS = {
     },
     {
       label: "Fast-break concession, still unanswered",
-      detail: "The warning stays at high because the fixture that was supposed to test it did not. Bournemouth made 0.76 expected goals and two shots on target, and their one genuine chance, Evanilson's backheel flick on eighteen, came from a cross rather than a counter. Opta still count nine fast-break goals conceded by Liverpool since the start of last season, the most in the league, and Sunday's opponents complete 83 per cent of passes under high-intensity pressure (Liverpool FC), so the press that usually protects Liverpool from transitions is the thing most likely to be bypassed. Haaland and Semenyo, the two City forwards most suited to running into that space, both trained on Thursday (DaveOCKOP), and Maresca on Friday called Haaland ready for Anfield (Evening Standard). City's own high line let Sunderland score three at the Etihad on 20 September. Two teams with the same fault, one fixture, two days away.",
+      detail: "The warning stays at high because the fixture that was supposed to test it did not. Bournemouth made 0.76 expected goals and two shots on target, and their one genuine chance, Evanilson's backheel flick on eighteen, came from a cross rather than a counter. Opta still count nine fast-break goals conceded by Liverpool since the start of last season, the most in the league, and Sunday's opponents complete 83 per cent of passes under high-intensity pressure (Liverpool FC), so the press that usually protects Liverpool from transitions is the thing most likely to be bypassed. Haaland and Semenyo, the two City forwards most suited to running into that space, both trained on Thursday (DaveOCKOP), and Maresca on Friday called Haaland ready for Anfield (Evening Standard). City's own high line let Sunderland score three at the Etihad on 20 September. Two teams with the same fault, one fixture, tomorrow.",
       severity: "high",
       source: "Opta Analyst / Squawka / Liverpool FC / DaveOCKOP / Evening Standard",
     },
     {
       label: "The attack works, but only through one man",
-      detail: "Liverpool's stats preview gives the concentration a number: Isak's 3.5 expected goals is second in the league only to Haaland, and on Friday Iraola ruled him and Gakpo, credited by beIN with the side's leading returns in all competitions, four goals and six goal involvements respectively, out of the City game (Anfield Index via Yahoo Sports; Roundtable Sports). Seven goals from 7.57 expected is a side scoring roughly what it makes, and four of those seven belong to Isak, against three in fourteen Premier League appearances across the whole of last season. The concentration is the pattern, not the total. The number-ten position behind him has produced no league goal and no league assist in six competitive games, and Opta's Bournemouth card is the clearest illustration: Florian Wirtz created a joint-game-high three chances and returned a team-low 70.3 per cent passing accuracy from twenty-six of thirty-seven passes, with sixteen possessions lost; Opta's 9 October preview puts his season at 0.39 expected assists from nine chances in 403 minutes. The replacements on offer, Koumas, whom Iraola calls the only natural nine left, or Barcola, Sports Mole's pick through the middle, have no Premier League goal between them this season, per the scorers in this tracker's results.",
+      detail: "Liverpool's stats preview gives the concentration a number: Isak's 3.5 expected goals is second in the league only to Haaland, and on Friday Iraola ruled him and Gakpo, credited by beIN with the side's leading returns in all competitions, four goals and six goal involvements respectively, out of the City game (Anfield Index via Yahoo Sports; Roundtable Sports). Seven goals from 7.57 expected is a side scoring roughly what it makes, and four of those seven belong to Isak, against three in fourteen Premier League appearances across the whole of last season. The concentration is the pattern, not the total. The number-ten position behind him has produced no league goal and no league assist in six competitive games, and Opta's Bournemouth card is the clearest illustration: Florian Wirtz created a joint-game-high three chances and returned a team-low 70.3 per cent passing accuracy from twenty-six of thirty-seven passes, with sixteen possessions lost; Opta's 9 October preview puts his season at 0.39 expected assists from nine chances in 403 minutes. The replacement the previews have settled on is Barcola, picked at nine by Sports Mole, This Is Anfield and Opta Analyst, with Koumas, whom Iraola calls the only natural nine, the alternative; neither has a Premier League goal this season, per the scorers in this tracker's results.",
       severity: "high",
       source: "Opta Analyst / beIN Sports / Liverpool FC / Anfield Index / Roundtable Sports / Sports Mole",
     },
     {
       label: "The home draw, still the unresolved record",
-      detail: "The Bournemouth win came away, which does not touch it. Liverpool have drawn four consecutive Premier League games at Anfield, the first such run since November 2011 per Opta, and the first time in the club's history they have drawn both opening home league games of a season. The next three home league fixtures are Manchester City, Brighton and Arsenal, in that order, which is an unhelpful sequence in which to still be looking for a first home league win.",
+      detail: "The Bournemouth win came away, which does not touch it. Liverpool have drawn four consecutive Premier League games at Anfield, the first such run since November 2011 per Opta, and Iraola has yet to win a home league game. Opta add that Liverpool have failed to win any of their first three home games of a season only seven times, and only twice since the First World War, in 1963-64 and 2012-13. The next three home league fixtures are Manchester City, Brighton and Arsenal, in that order, which is an unhelpful sequence in which to still be looking for a first home league win.",
       severity: "high",
       source: "Opta Analyst / Liverpool FC",
     },
@@ -1224,19 +1234,19 @@ export const FORM_TRENDS = {
     note: "Premier League only, five games, Opta throughout. xG for is 2.73 (Newcastle) plus 1.61 (Forest) plus 0.53 (Ipswich) plus 1.13 (Fulham) plus 1.57 (Bournemouth); xG against is 1.43 plus 2.30 plus 0.72 plus 0.71 plus 0.76. Provenance caveat added 21 September: Opta's own published season figure for expected goals against, quoted by beIN Sports on 21 September, is 6.12 rather than the 5.92 these five per-match cards sum to. Both are Opta numbers and the tracker reports both rather than reconciling them, because the gap is a matter of which match-centre revision each was drawn from. The Champions League figures against Atletico (1.68 for, 0.81 against) and the Carabao Cup figures against Tottenham (1.53 for, 2.30 against) are shown on their own cards and are not aggregated here. First-half splits exist only for the Forest and Tottenham matches and are not aggregated."
   },
   optaFacts: [
-    "Erling Haaland has scored against all twenty-five Premier League clubs he has faced (Opta Analyst).",
-    "Liverpool have drawn four consecutive Premier League home games, their first such run since November 2011 (Opta Analyst).",
-    "Liverpool apply high-intensity pressure to 48.9 per cent of opposition-half touches, the league's highest rate; City complete 83.0 per cent of passes under it, the league's best (Opta Analyst).",
-    "Elliot Anderson leads Premier League midfielders with 105 line-breaking passes and 64 progressive carries (Opta Analyst)."
+    "City are seeking successive league wins at Liverpool for the first time since 1953 (Opta Analyst).",
+    "Liverpool lost both league meetings with City last season, their first back-to-back league defeats to City since March 1937 (Opta Analyst).",
+    "Liverpool have failed to win any of their first three home league games of a season only seven times, and only twice since the First World War, in 1963-64 and 2012-13 (Opta Analyst).",
+    "The away side has won two of the last three Premier League meetings, as many as in the previous thirty-two (Opta Analyst)."
   ],
-  sources: ["Opta Analyst", "beIN Sports", "Squawka", "Goal", "This Is Anfield", "FotMob", "The Transfer Hub", "EPL Index", "Liverpool FC", "BBC Sport", "Sofascore", "Premier League", "Sky Sports", "ESPN", "Inside Futbol", "Sports Mole", "Bulinews", "Al Jazeera", "The Football Faithful", "portugoal.net", "Foot Mercato", "DaveOCKOP", "TEAMtalk", "101 Great Goals", "Get French Football News", "Archyde", "Yahoo Sports", "Liverpool Echo", "The Football Faithful", "Rush The Kop", "Fantasy Football Scout", "Liverpool FC stats preview", "Liverpool Echo", "CaughtOffside", "Roundtable Sports", "Rousing The Kop", "Anfield Index", "Evening Standard"],
+  sources: ["Opta Analyst", "beIN Sports", "Squawka", "Goal", "This Is Anfield", "FotMob", "The Transfer Hub", "EPL Index", "Liverpool FC", "BBC Sport", "Sofascore", "Premier League", "Sky Sports", "ESPN", "Inside Futbol", "Sports Mole", "Bulinews", "Al Jazeera", "The Football Faithful", "portugoal.net", "Foot Mercato", "DaveOCKOP", "TEAMtalk", "101 Great Goals", "Get French Football News", "Archyde", "Yahoo Sports", "Liverpool Echo", "The Football Faithful", "Rush The Kop", "Fantasy Football Scout", "Liverpool FC stats preview", "Liverpool Echo", "CaughtOffside", "Roundtable Sports", "Rousing The Kop", "Anfield Index", "Evening Standard", "This Is Anfield"],
 };
 
 
 export const SQUAD_LOAD = {
-  generatedAt: "2026-10-09T22:30:00Z",
+  generatedAt: "2026-10-10T08:30:00Z",
   headline:
-    "Friday evening, and the doubts have become absences: Iraola ruled Isak (thigh) and Gakpo (ankle) out of City at his 1.30pm press conference, said neither looks long-term, and named Koumas the only natural nine available (Anfield Index via Yahoo Sports; Roundtable Sports). Jacquet is 'fit and ready to go', so the back four that kept three straight clean sheets is intact, and Chiesa may make the bench without a competitive minute this season. With Ekitike out until the winter, the squad is down to one senior centre-forward, and the market is shut until January.",
+    "Saturday morning, and the closed squad's answer to two absences is positional: the published previews (Sports Mole, This Is Anfield, Opta Analyst) move Barcola from the left wing to centre-forward and bring Ngumoha in, rather than start Koumas, the only natural nine. Iraola calls Barcola 'super-valuable' because he can cover all three forward positions (Liverpool FC). Behind them the cupboard is bare: Ekitike's target is Boxing Day, and the next striker in the building is the under-21s' Will Wright, who hit the bar at Doncaster on Tuesday (Liverpool FC). The market is shut until January.",
   minutesNote:
     "Premier League minutes are not published here yet. Five league games, one Champions League game and one Carabao Cup tie have been played and no reliable per-player minutes have been sourced, so this board tracks availability, starts and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   unavailable: [
@@ -1262,25 +1272,25 @@ export const SQUAD_LOAD = {
   },
   depthRisk: [
     { position: "Right-back", level: "high", detail: "High. Ronald Araujo, a centre-half on loan from Barcelona, is set for a sixth straight league start at right-back in Sports Mole's Friday XI. Bradley's knee has no club date; Frimpong and Gomez are the cover. Semenyo or Doku, both in Friday's City previews, will run at that side. No market until January." },
-    { position: "Centre-forward", level: "critical", detail: "Critical, and now tested. Iraola ruled Isak out of City on Friday and said 'a No.9, we only have Koumas right now' (Roundtable Sports). Koumas, twenty-one, has the staff's trust; Barcola, who has played as a striker, is Sports Mole's pick. Ekitike's target is Boxing Day (Liverpool Echo). No market until January." },
+    { position: "Centre-forward", level: "critical", detail: "Critical. Isak (thigh) and Gakpo (ankle) miss City and Ekitike's target is Boxing Day (Liverpool Echo). The previews pick Barcola, a winger, at nine, with Koumas, in Iraola's words probably the only full No.9 (Liverpool FC), the alternative; behind them is the under-21s' Will Wright. No market until January." },
     { position: "Centre-back", level: "medium", detail: "Medium. Jacquet was declared 'fit and ready to go' by Iraola on Friday (Roundtable Sports), so Van Dijk has his usual partner. Gomez is first cover, Araujo second; Leoni has not trained with the group and Endo, the emergency fifth, is listed for January. No market until January." },
     { position: "Left-back", level: "high", detail: "High in level, quiet in news. Kerkez is in Sports Mole's Friday XI and nowhere in Iraola's injury list; Tsimikas, ninety minutes against Germany on 4 October, is the understudy. Two senior options and no market until January." },
-    { position: "Wide forward", level: "critical", detail: "Critical. Gakpo is out of City with the ankle (Iraola, 9 October), so Sunday's wide men come from Barcola, Munoz and Ngumoha, all three in Sports Mole's Friday XI, with Chiesa at most a bench option after no competitive minutes this season. No market until January." },
+    { position: "Wide forward", level: "critical", detail: "Critical. With Gakpo out and Barcola moved inside in every preview checked, the wide berths fall to Ngumoha, eighteen, and Munoz, twenty-two, with Chiesa at most a bench option after no competitive minutes this season. No market until January." },
     { position: "Central midfield", level: "medium", detail: "Medium. Mac Allister and Szoboszlai are the pivot in Sports Mole's Friday XI, with Gravenberch the cover. Elliot Anderson, with 105 line-breaking passes (Opta Analyst), is the City midfielder they have to stop. Endo and Nyoni, nineteen, are the depth." }
   ],
-  sources: ["Sports Mole", "Liverpool FC", "Liverpool Echo", "Rush The Kop", "This Is Anfield", "Liverpool.com", "Football Insider", "Nehanda Radio", "EPL Index", "Goal", "SI", "Rousing The Kop", "Squawka", "Opta Analyst", "Daily Mail", "Inside Futbol", "Yahoo Sports", "CaughtOffside", "FotMob", "LiveScore", "AnfieldWatch", "Sports Witness", "TEAMtalk", "Empire of the Kop", "Sport Witness", "The Hard Tackle", "101 Great Goals", "AP", "Y Clwb Pel-droed", "L'Equipe", "Al Jazeera", "Blood Red", "Origo", "The Athletic", "Sportsview", "BBC Sport", "Brit Brief", "Eurosport France", "World Today News", "England Football", "All Football", "Greek City Times", "Foot Mercato", "RMC Sport", "Get French Football News", "Sportsview", "Olympics.com", "ESPN", "The Times", "Outlook India", "Football Muse", "AnfieldWatch via LiveScore", "VAVEL", "The False 9", "Man City Square", "beIN Sports", "dave.sport", "DaveOCKOP", "All Football", "Liverpool FC stats preview", "Roundtable Sports", "RotoWire", "Brit Brief", "Rousing The Kop", "Anfield Index", "City Xtra", "Anfield Index via Yahoo Sports", "Evening Standard"],
+  sources: ["Sports Mole", "Liverpool FC", "Liverpool Echo", "Rush The Kop", "This Is Anfield", "Liverpool.com", "Football Insider", "Nehanda Radio", "EPL Index", "Goal", "SI", "Rousing The Kop", "Squawka", "Opta Analyst", "Daily Mail", "Inside Futbol", "Yahoo Sports", "CaughtOffside", "FotMob", "LiveScore", "AnfieldWatch", "Sports Witness", "TEAMtalk", "Empire of the Kop", "Sport Witness", "The Hard Tackle", "101 Great Goals", "AP", "Y Clwb Pel-droed", "L'Equipe", "Al Jazeera", "Blood Red", "Origo", "The Athletic", "Sportsview", "BBC Sport", "Brit Brief", "Eurosport France", "World Today News", "England Football", "All Football", "Greek City Times", "Foot Mercato", "RMC Sport", "Get French Football News", "Sportsview", "Olympics.com", "ESPN", "The Times", "Outlook India", "Football Muse", "AnfieldWatch via LiveScore", "VAVEL", "The False 9", "Man City Square", "beIN Sports", "dave.sport", "DaveOCKOP", "All Football", "Liverpool FC stats preview", "Roundtable Sports", "RotoWire", "Brit Brief", "Rousing The Kop", "Anfield Index", "City Xtra", "Anfield Index via Yahoo Sports", "Evening Standard", "This Is Anfield", "BBC Sport"],
 };
 
 
 export const SEASON_PROJECTION = {
-  generatedAt: "2026-10-09T22:30:00Z",
+  generatedAt: "2026-10-10T08:30:00Z",
   played: 5,
   points: 9,
   pointsPerGame: 1.80,
   projectedPoints: 68,
   projectedFinish: "Champions League places on current pace",
   headline:
-    "Nine points from five, 1.80 a game and a sixty-eight-point pace, built mostly against the bottom half and still too small a sample to forecast from. Opta's 34.6 per cent chance of a Liverpool win on Sunday was published before Iraola ruled out Isak and Gakpo; three points would make twelve from six, two a game, and a defeat nine from six, 1.50.",
+    "Still nine points from five, 1.80 a game and a sixty-eight-point pace, and still too small a sample to forecast from. The number that frames tomorrow is historical: Liverpool have failed to win their first three home league games of a season only twice since the First World War (Opta Analyst), and anything but a win against City would make it a third. A win makes twelve from six, two a game; a defeat, nine from six and 1.50.",
   thresholds: [
     { label: "Champions League (top 4)", points: 68, gap: 0, note: "Historical par for the last Champions League place in recent seasons, and exactly where five games of pace now lands. The live ESPN table this tracker rebuilds each run draws that stripe at fourth, so the label follows the table rather than the coefficient arithmetic. Holding it requires maintaining 1.80 points per game against a run of fixtures markedly harder than the one that produced it." },
     { label: "Europa League (5th)", points: 60, gap: 0, note: "Fifth-place par, and where the live table currently draws the Europa stripe, at Leeds, who are level with Liverpool on points and one goal better off. The present pace clears this line by eight points, which is a cushion built on five games and no more than that." },
@@ -1298,6 +1308,6 @@ export const SEASON_PROJECTION = {
     { date: "2026-11-22", opponent: "Manchester United", home: true, competition: "PL", oppPosition: 12, difficulty: "medium" },
   ],
   runInVerdict:
-    "Iraola's own frame on Friday was four games in ten days that will show what this team is made of (Roundtable Sports), and four of the next five league fixtures are against the current top four. Four points from those four would leave thirteen from nine, about 1.44 a game and below the Europa par; seven would make sixteen from nine, 1.78, close to the Champions League pace. The first of them comes without the club's two leading attackers.",
+    "Arsenal host Leeds today and can draw level with City on fifteen before Liverpool kick off, and the next four league fixtures, City, Brentford, Brighton and Arsenal, are all against the current top four. Four points from those four would leave thirteen from nine, about 1.44 a game and below the Europa par; seven would make sixteen from nine, 1.78, close to the Champions League pace. Van Dijk, in the final year of his contract, will lead the side into all of them.",
   sources: ["ESPN", "Opta Analyst", "Liverpool FC", "Sky Sports", "BBC Sport", "Squawka", "This Is Anfield", "City Xtra", "The Guardian", "Manchester City", "The Times", "VAVEL", "Empire of the Kop", "Liverpool Echo", "DaveOCKOP", "Al Jazeera", "Opta supercomputer", "Roundtable Sports"],
 };
