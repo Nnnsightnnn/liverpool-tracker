@@ -216,8 +216,8 @@ export const SLOT_CONFIDENCE = {
 
 
 // ─── Per-slot rationale ────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Sat Oct 10
-// (morning); originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Sat Oct 10 (evening).
+// Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
   LB: "Sat Oct 10, evening - Kerkez, left-back again in Rousing The Kop's Saturday-evening XI; Tsimikas the cover. Medium.",
@@ -229,7 +229,7 @@ export const SLOT_RATIONALE = {
   LAM: "Sat Oct 10, evening - Ngumoha, as in Sports Mole's XI; Rousing The Kop gives the left to Wirtz instead. Medium.",
   CAM: "Sat Oct 10, evening - Wirtz at ten, though Carragher would drop him (Sky Sports) and Rousing The Kop moves him wide. Medium.",
   RAM: "Sat Oct 10, evening - Munoz on the right in Sports Mole's and Rousing The Kop's XIs. Medium.",
-  ST: "Sat Oct 10, evening - Barcola, every preview's nine, who said on Saturday he prefers the left (Rousing The Kop). Koumas the alternative. Medium.",
+  ST: "Sat Oct 10, evening - Barcola, the nine in most previews, who said on Saturday he prefers the left (Rousing The Kop). Koumas the alternative. Medium.",
 };
 
 
