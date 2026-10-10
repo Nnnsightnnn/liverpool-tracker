@@ -570,11 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday, the eve of it, and the captain has begun to talk
-          about leaving: Van Dijk, to Sky Sports, calls ten seasons an
-          incredible journey whose end will be emotional. Tomorrow he
-          leads a side without Isak or Gakpo, a winger at nine, against
-          the leaders. Sixth on nine; City on fifteen.
+          Saturday evening, and the table has moved without them:
+          Arsenal came back to draw level with City on fifteen, Chelsea
+          put five past Bournemouth, and Liverpool are seventh. Tomorrow
+          the leaders come to Anfield, and the forward asked to lead the
+          line has said, gently, that he prefers the left.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,29 +607,30 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and the man who will lead them out has begun, gently, to say
-              goodbye. Virgil van Dijk told Sky Sports that the day he walks
-              out of the club will be a very emotional one, and then said
-              the quieter, more unsettling thing: before you know it, it's
-              gone. He is thirty-five, in the last year of his contract, and
-              tomorrow he will stand at the edge of his area with Erling
-              Haaland at his shoulder. In front of him the shape is being
-              improvised. Isak and Gakpo will watch, and the previews have
-              settled on Bradley Barcola, a winger, as the nine. A captain
-              counting seasons, a forward borrowed from the flank: Anfield
-              has known worse eves, and better ones.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the night before, the forward Liverpool paid a reported £123m
+              for said the quiet part aloud. Bradley Barcola, picked at
+              centre-forward in nearly every preview, told an interview that
+              Iraola asks him only to play his usual game, and that he
+              prefers the left. The manager has said he wants him there when
+              the chances come. Around them the afternoon rearranged the
+              table: Arsenal, a goal down to Leeds, scored twice in eight
+              minutes to draw level with City, and Liverpool, who woke up
+              sixth, will go to bed seventh. City have won three of
+              twenty-nine league visits to Anfield. A winger who would rather
+              be wide, a nine who is not a nine: tomorrow decides which of
+              them was right.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off. A
-              captain rehearsing a farewell on television; a winger asked
-              to lead the line; two pundits expecting a brutal afternoon;
-              the absences and the boy behind them; and a fixture City have
-              not won twice running at Anfield since 1953. Read them in order. The season has five
+              five dispatches from the writers who never clock off. A winger
+              who would rather be on the left; a comeback at the Emirates
+              that leaves the top two level; the partnership Liverpool will
+              miss most; a manager unbeaten in twenty-six; and a word,
+              together, that City have chosen for the week. Read them in order. The season has five
               league games behind it, nine points and no defeat, and the
               four ahead are against the current top four; the market
               stays shut until January, which is when every link on these
@@ -3844,7 +3845,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Before you know it, it's gone."
+        "I prefer to play on the left."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
