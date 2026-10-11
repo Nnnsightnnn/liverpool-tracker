@@ -1118,7 +1118,7 @@ export const FORM_TRENDS = {
       label: "Ten men, then sixteen minutes",
       severity: "high",
       source: "Opta Analyst / Sky Sports / Sofascore / Sports Mole",
-      detail: "City had 0.16 expected goals when Gravenberch went off (Sky Sports) and 1.30 at full time (Sofascore), three goals in sixteen minutes, the first after 2:37 (Opta Analyst). Iraola's account was about the press: 'It's already difficult to press them when it's XI vs. XI, so with one less and with the players already tired, it becomes a different game. You cannot be as aggressive, you have to wait and defend lower' (Sports Mole). The fast-break warning this view has carried all season, nine such goals conceded since the start of last season by Opta's count, was not tested at eleven against eleven; at ten it was decisive.",
+      detail: "City had 0.17 expected goals when Gravenberch went off (Sports Mole; Sky Sports had 0.16) and 1.30 at full time (Sofascore), three goals in sixteen minutes, the first after 2:37 (Opta Analyst). Iraola's account was about the press: 'It's already difficult to press them when it's XI vs. XI, so with one less and with the players already tired, it becomes a different game. You cannot be as aggressive, you have to wait and defend lower' (Sports Mole). The fast-break warning this view has carried all season, nine such goals conceded since the start of last season by Opta's count, was not tested at eleven against eleven; at ten it was decisive.",
     },
     {
       label: "The home record is now a losing one",
@@ -1338,7 +1338,7 @@ export const SQUAD_LOAD = {
       name: "Federico Chiesa",
       issue: "Lower back (originally muscle, Como friendly, August)",
       status: "Played: first minutes of the season, on for Barcola on eighty-eight against City (ESPN)",
-      note: "Back in training since 8 October and now back on the pitch, if only for six minutes and stoppage time at 0-3. He is outside the Champions League squad, so Brentford on Saturday is the next chance to build on it. Sports Mole's 3 October report of Serie A interest and a possible January exit still stands.",
+      note: "Back in training since 8 October and now back on the pitch, if only for two minutes and stoppage time at 0-3. He is outside the Champions League squad, so Brentford on Saturday is the next chance to build on it. Sports Mole's 3 October report of Serie A interest and a possible January exit still stands.",
       source: "ESPN / Liverpool Echo / Sports Mole",
     },
     {
@@ -1373,7 +1373,7 @@ export const SQUAD_LOAD = {
       name: "Milos Kerkez",
       issue: "No injury; competing with Tsimikas at left-back",
       status: "Ninety minutes against City (ESPN)",
-      note: "Cleared off his own line from Ndiaye while the game was still goalless (NBC Sports), one of the moments that kept Liverpool level for an hour. Tsimikas was unused; with three away trips in the next eleven days, rotation is likely.",
+      note: "Cleared off his own line from Ndiaye while the game was still goalless (NBC Sports), one of the moments that kept Liverpool level for an hour. Tsimikas was unused; with two away trips in four days, rotation is likely.",
       source: "ESPN / NBC Sports",
     },
   ],

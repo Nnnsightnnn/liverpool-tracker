@@ -36,9 +36,9 @@ export const FORMATIONS = {
     // Sun 11 Oct (evening): City played, lost 0-3. Re-pointed at LASK Linz away (UCL, Wed 14 Oct). Baseline is the XI that started v City:
     //   Koumas ST, Barcola LW, Gravenberch in for Szoboszlai (tight hamstring, out). Rotation likely: four games in ten days (Iraola).
     defaultXI: {
-      GK: 1,    // Alisson (the save from Evanilson on 18 that made the clean sheet possible)
+      GK: 1,    // Alisson (started v City; beaten three times after the red card)
       LB: 7,    // Kerkez (ninety minutes, targeted repeatedly over the top, a 6 from the BBC)
-      LCB: 3,   // Van Dijk (a 7; third clean sheet in a row alongside Jacquet)
+      LCB: 3,   // Van Dijk (captain v City; booked in stoppage time)
       RCB: 11,  // Jacquet (started v City, off on 88 for Gomez)
       RB: 29,   // Araujo (started v City, booked on 8, off on 75 for Frimpong)
       LCM: 13,  // Mac Allister (ninety minutes v City; an early curler narrowly wide)
@@ -112,15 +112,10 @@ export const FORMATIONS = {
       ST:  { x: 50, y: 14, role: "FWD" },
       RW:  { x: 78, y: 22, role: "FWD" },
     },
-    // Hypothetical 3-4-3 alternative, a shape rarely used, shown for completeness.
-    // Reviewed Wed Sep 23 (evening; re-checked Tue Oct 6 morning), pointed at Manchester City at Anfield on 11 October. The
-    // argument for it has weakened rather than strengthened: Araujo has played a fifth consecutive
-    // league game at right-back and Liverpool kept a third clean sheet in a row,
-    // so the improvisation is now producing results rather than anxiety. It still removes the
-    // need for a specialist right-back and lets Frimpong, who played the position in the cup,
-    // attack the flank with a recognised centre-half inside him, which is the answer to Antoine
-    // Semenyo, who attacks that side for Manchester City, if one is wanted. Gomez takes the third centre-back slot; his next appearance in
-    // any shape is his 300th for the club. Default is the 4-2-3-1 above.
+    // Hypothetical 3-4-3 alternative, a shape rarely used, shown for completeness. Rewritten Sun Oct 11 (evening)
+    // after the 0-3 v City: Araujo was booked early and replaced by Frimpong, so a back three with Frimpong at
+    // right wing-back and Gomez inside is the obvious rotation look for a run of four games in ten days.
+    // Default is the 4-2-3-1 above.
     // Sun 11 Oct (evening): re-pointed at LASK Linz away (UCL, Wed 14 Oct), who play a back three themselves.
     defaultXI: {
       GK: 1,    // Alisson (first choice)
@@ -203,7 +198,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by the 4-2-3-1
-// slot keys. These read as confidence that the slot's occupant STARTS AGAINST MANCHESTER CITY at
+// slot keys. These read as confidence that the slot's occupant STARTS AGAINST LASK LINZ (Wed 14 Oct; previously Manchester City at
 // Anfield on Sunday 11 October, RE-POINTED Sun Oct 11 (evening) at LASK Linz away on Wed 14 October: RB lowered to Low (Frimpong rotation), RCB to Medium (Gomez), LDM now Gravenberch at Medium, RDM Mac Allister High. (Reviewed Sun Oct 11, morning: no level change, matchday previews agree. Sat Oct 10, morning: no level change; ST now Barcola and LAM Ngumoha, both Medium. Fri Oct 9, evening: RCB raised Medium to High after Iraola declared Jacquet 'fit and ready to go'; ST raised Low to Medium after Iraola ruled Isak out and named Koumas the only natural nine. Fri Oct 9, morning: RCB lowered from High to Medium because RotoWire still lists Jacquet's hamstring tightness and picks Gomez, against Rousing The Kop's report that he took the full session; other levels unchanged. Thu Oct 8, evening: RCB raised to High after Jacquet trained; RAM raised to Medium with Gakpo absent from training; ST stays Low with Koumas in. Thu Oct 8, morning: levels unchanged, no new bulletin. Wed Oct 7, evening: levels unchanged after Iraola's update on Isak and Gakpo. Wed Oct 7, morning: levels unchanged, no club bulletin on Jacquet, Isak or Gakpo. Tue Oct 6, evening: RCB raised from Low to Medium on reports that Jacquet's strain is slight, unconfirmed by the club. Tue Oct 6, morning: levels unchanged. Mon Oct 5, evening: RCB cut from High to Low after Jacquet's left hamstring strain in the France camp; other levels unchanged since Sat Sep 26.) The basis has changed in kind: this
 // is no longer a preview consensus, it is the eleven that started and won at Bournemouth
 // last time out. That raises confidence in the spine and lowers it nowhere except the front three,

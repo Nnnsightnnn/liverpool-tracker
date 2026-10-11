@@ -574,7 +574,7 @@ function CoverView({ onJump }) {
           side; then Gravenberch went, and the leaders scored three times
           in sixteen minutes. Iraola's unbeaten start is over, Liverpool are
           ninth, nine points behind City, and on Wednesday a squad without
-          Szoboszlai, Isak or Gakpo flies to Linz.
+          Szoboszlai, Isak or Gakpo plays in Linz.
         </p>
 
         <StatStrip stats={stats} />

@@ -141,7 +141,6 @@ const LATEST_NEWS = [
   { source: "Laola1", title: "Kühbauer nach Rapid: 'Von einem Sieg waren wir heute weit weg'", time: "today", category: "major" },
   { source: "Liverpool FC", title: "Dominik Szoboszlai injury update", time: "today", category: "official" },
   { source: "Sports Mole", title: "Liverpool games Dominik Szoboszlai could miss as Man City absence explained", time: "today", category: "major" },
-  { source: "Empire of the Kop", title: "'I am going for': Chris Sutton gives Liverpool v Man City prediction", time: "today", category: "fan" },
 ];
 
 
