@@ -570,11 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday, matchday, and the leaders come to Anfield at half
-          past four. Liverpool wake seventh, six points behind a City side
-          with five wins from five, without Isak or Gakpo, with a borrowed
-          centre-forward and four straight home draws behind them. The
-          pundits mostly say City. Anfield has its own opinion.
+          City 3, Liverpool 0. For an hour Liverpool were the better
+          side; then Gravenberch went, and the leaders scored three times
+          in sixteen minutes. Iraola's unbeaten start is over, Liverpool are
+          ninth, nine points behind City, and on Wednesday a squad without
+          Szoboszlai, Isak or Gakpo flies to Linz.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,18 +607,17 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and the morning belongs to the predictions. Chris Sutton is
-              going for City; he can picture Haaland grinning after the
-              winner, and he thinks the guilty finding has given Maresca's
-              side the oldest fuel in football, the belief that everyone
-              wants them to lose. Sky's man agrees, 2-1. Against that,
-              Liverpool have a manager who has not lost a league game and a
-              ground that has not seen a league win since April: four draws
-              at Anfield in a row. Iraola wants his side ready to help the
-              supporters, a modest way of describing what Anfield intends to
-              do. By early evening a siege mentality will have met an actual
-              siege.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the scoreline tells the least of it. Liverpool had twelve
+              shots to City's four when Ryan Gravenberch was sent off, his
+              first booking one his manager said was never a yellow, and two minutes
+              and thirty-seven seconds later Haaland had scored. Doku and
+              Cherki finished it. The pundits who went for City were right
+              about the result and wrong about the afternoon. What the red
+              card leaves behind is a midfield problem: Gravenberch banned
+              for Brentford, Szoboszlai nursing a hamstring nobody had
+              mentioned until the team sheet. Four games in ten days begin
+              in Austria. The siege, in the end, was ended by a whistle.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -626,11 +625,12 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and
               five dispatches from the writers who never clock off. The
-              pundits who went for City; a home record of four draws; a
-              manager asking the stands for help; a visiting manager who
-              expects worse; and the only nine left. Read them in order. The season has five
-              league games behind it, nine points and no defeat, and the
-              four ahead are against the current top four; the market
+              hour before the red card and the sixteen minutes after it; a
+              manager disputing a booking; a hamstring nobody saw coming; a
+              visiting manager learning to live with the noise; and the
+              Austrian champions waiting in Linz. Read them in order. The season has six
+              league games behind it, nine points and a first defeat, and
+              the next three league opponents all sit in the top four; the market
               stays shut until January, which is when every link on these
               pages either becomes a bid or goes quiet.
             </p>
@@ -732,10 +732,10 @@ function FormBlock({ results }) {
         color: T.ivoryDim, lineHeight: 1.6,
         borderTop: `1px solid ${T.rule}`, paddingTop: 14,
       }}>
-        A first away league win of the season at Bournemouth, 1-0 through Isak,
-        keeps the unbeaten run going and makes it three league clean sheets in a row. Four
-        wins and a draw across the last five in all competitions, the goalless
-        afternoon against Fulham the only game in the sequence Liverpool did not take.
+        Manchester City 3-0 at Anfield, the first league defeat of the season,
+        decided in the sixteen minutes after Gravenberch's red card. Three wins,
+        a draw and that defeat across the last five in all competitions, and
+        five home league games now without a win.
       </p>
     </div>
   );
@@ -3037,7 +3037,7 @@ function OppositionView() {
           }}>{o.opponent}</div>
           <SmallCaps>
             {o.manager} · {o.formation} · {fx.home ? "Home" : "Away"} at {fx.venue}
-            {o.leaguePosition ? ` · ${o.leaguePosition}th` : ""}
+            {o.leaguePosition ? ` · ${o.leaguePosition}${[11, 12, 13].includes(o.leaguePosition % 100) ? "th" : ({ 1: "st", 2: "nd", 3: "rd" }[o.leaguePosition % 10] || "th")} in their league` : ""}
           </SmallCaps>
         </div>
         {o.modelLine && (
@@ -3843,7 +3843,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A siege mentality, meeting an actual siege."
+        "An hour of Liverpool, then sixteen minutes of City."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
