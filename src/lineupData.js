@@ -138,33 +138,33 @@ export const FORMATIONS = {
 // sheet, and a climb from tenth to sixth. Bradley, Chiesa, Ekitike and Leoni are out; Gakpo (ankle) moved from out to doubt on Wed Oct 7 evening after Iraola did not rule him out.
 // Pointed at Manchester City at home, Sunday 11 October, after the international break.
 export const PLAYER_EVIDENCE = {
-  1:  "Starts · City 3 wins in 29 here",   // Alisson
-  2:  "Bench · Chelsea cup tie likelier",   // Mamardashvili
-  3:  "LCB · three league clean sheets",   // Van Dijk
-  5:  "Bench · CB and RB cover",   // Gomez
-  7:  "LB · in RTK's Saturday XI",   // Kerkez
-  32: "LB cover · no Saturday start",   // Tsimikas
-  8:  "Knee · no club date",   // Bradley
-  9:  "RB option · bench likelier",   // Frimpong
-  10: "ACL · late-October target",   // Leoni
-  11: "RCB · fit, beside Van Dijk",   // Jacquet
-  12: "On loan at Levante",   // Ndukwe
-  13: "Pivot · Sky's twin six",   // Mac Allister
-  14: "Bench · or in a 4-3-3 (RTK)",   // Gravenberch
-  15: "Pivot · the other twin six",   // Szoboszlai
-  17: "Depth · 7 games in 3 weeks",   // Endo
-  18: "CAM · RTK move him left",   // Wirtz
-  20: "Pivot depth · midweek minutes",   // Nyoni
-  22: "Ankle · 3 assists, all for Isak",   // Gakpo
-  23: "Thigh · 4 goals from 3.5 xG",   // Isak
-  24: "Achilles · Boxing Day target",   // Ekitike
-  25: "LAM · Sports Mole's left side",   // Ngumoha
-  26: "Bench at most · no minutes yet",   // Chiesa
-  27: "Third choice · unchanged",   // Woodman
-  28: "RAM · the right in RTK and SM",   // Munoz
-  29: "RB · Doku likely opposite",   // Araujo
-  30: "ST · 'I prefer the left'",   // Barcola
-  31: "Bench · the natural nine",   // Koumas
+  1:  "Starts · Haaland fit opposite",   // Alisson
+  2:  "Bench · cup start on 28 Oct",   // Mamardashvili
+  3:  "LCB · captain v Haaland",   // Van Dijk
+  5:  "Bench · first defensive cover",   // Gomez
+  7:  "LB · in both Sunday XIs",   // Kerkez
+  32: "LB cover · Kerkez's understudy",   // Tsimikas
+  8:  "Knee · no club date yet",   // Bradley
+  9:  "Bench · RB option",   // Frimpong
+  10: "ACL · Brighton date earliest",   // Leoni
+  11: "RCB · fit after France knock",   // Jacquet
+  12: "Levante loan · not involved",   // Ndukwe
+  13: "Pivot · LFC press 48.9%",   // Mac Allister
+  14: "Bench · 101GG start him",   // Gravenberch
+  15: "Pivot · 3 G/A in last 3 v City",   // Szoboszlai
+  17: "Depth · January exit likely",   // Endo
+  18: "CAM · behind Barcola",   // Wirtz
+  20: "Pivot depth · busy October",   // Nyoni
+  22: "Ankle · 'not for Sunday'",   // Gakpo
+  23: "Thigh · out, not long-term",   // Isak
+  24: "Achilles · 26 Dec target",   // Ekitike
+  25: "LAM · both Sunday XIs, 18",   // Ngumoha
+  26: "Bench option · first minutes?",   // Chiesa
+  27: "Third-choice keeper",   // Woodman
+  28: "RAM · both Sunday XIs",   // Munoz
+  29: "RB · Semenyo or Doku opposite",   // Araujo
+  30: "ST · G+A v City for PSG",   // Barcola
+  31: "Bench · no PL start yet",   // Koumas
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -188,12 +188,14 @@ export const PLAYER_EVIDENCE = {
 // Thu Oct 8 (morning): no personnel change. No overnight club word on Isak, Gakpo or Jacquet; Squawka picks Gakpo over Munoz, held here.
 // Wed Oct 7 (evening): no personnel change. Iraola: Isak and Gakpo injured, 'a matter of if they are going to recover in time'; Gakpo now a doubt, not out; Jacquet unmentioned.
 // Wed Oct 7 (morning): no personnel change. Window over, Mac Allister last home (79 minutes of Messi's farewell, VAVEL); still no club word on Jacquet, Isak or Gakpo.
+// Sun Oct 11 (morning, matchday): no personnel change. Both Sunday-morning previews (The Football Faithful; WithinNigeria) name this XI;
+//   101 Great Goals alone starts Koumas at nine with Barcola left. Kavanagh referees. No level change.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by the 4-2-3-1
 // slot keys. These read as confidence that the slot's occupant STARTS AGAINST MANCHESTER CITY at
-// Anfield on Sunday 11 October. (Reviewed Sat Oct 10, morning: no level change; ST now Barcola and LAM Ngumoha, both Medium. Fri Oct 9, evening: RCB raised Medium to High after Iraola declared Jacquet 'fit and ready to go'; ST raised Low to Medium after Iraola ruled Isak out and named Koumas the only natural nine. Fri Oct 9, morning: RCB lowered from High to Medium because RotoWire still lists Jacquet's hamstring tightness and picks Gomez, against Rousing The Kop's report that he took the full session; other levels unchanged. Thu Oct 8, evening: RCB raised to High after Jacquet trained; RAM raised to Medium with Gakpo absent from training; ST stays Low with Koumas in. Thu Oct 8, morning: levels unchanged, no new bulletin. Wed Oct 7, evening: levels unchanged after Iraola's update on Isak and Gakpo. Wed Oct 7, morning: levels unchanged, no club bulletin on Jacquet, Isak or Gakpo. Tue Oct 6, evening: RCB raised from Low to Medium on reports that Jacquet's strain is slight, unconfirmed by the club. Tue Oct 6, morning: levels unchanged. Mon Oct 5, evening: RCB cut from High to Low after Jacquet's left hamstring strain in the France camp; other levels unchanged since Sat Sep 26.) The basis has changed in kind: this
+// Anfield on Sunday 11 October. (Reviewed Sun Oct 11, morning: no level change, matchday previews agree. Sat Oct 10, morning: no level change; ST now Barcola and LAM Ngumoha, both Medium. Fri Oct 9, evening: RCB raised Medium to High after Iraola declared Jacquet 'fit and ready to go'; ST raised Low to Medium after Iraola ruled Isak out and named Koumas the only natural nine. Fri Oct 9, morning: RCB lowered from High to Medium because RotoWire still lists Jacquet's hamstring tightness and picks Gomez, against Rousing The Kop's report that he took the full session; other levels unchanged. Thu Oct 8, evening: RCB raised to High after Jacquet trained; RAM raised to Medium with Gakpo absent from training; ST stays Low with Koumas in. Thu Oct 8, morning: levels unchanged, no new bulletin. Wed Oct 7, evening: levels unchanged after Iraola's update on Isak and Gakpo. Wed Oct 7, morning: levels unchanged, no club bulletin on Jacquet, Isak or Gakpo. Tue Oct 6, evening: RCB raised from Low to Medium on reports that Jacquet's strain is slight, unconfirmed by the club. Tue Oct 6, morning: levels unchanged. Mon Oct 5, evening: RCB cut from High to Low after Jacquet's left hamstring strain in the France camp; other levels unchanged since Sat Sep 26.) The basis has changed in kind: this
 // is no longer a preview consensus, it is the eleven that started and won at Bournemouth
 // last time out. That raises confidence in the spine and lowers it nowhere except the front three,
 // because a three-week international break sits in between, Chiesa's return target has lapsed inside it, and the
@@ -216,20 +218,20 @@ export const SLOT_CONFIDENCE = {
 
 
 // ─── Per-slot rationale ────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Sat Oct 10 (evening).
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Sun Oct 11 (morning).
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Sat Oct 10, evening - Kerkez, left-back again in Rousing The Kop's Saturday-evening XI; Tsimikas the cover. Medium.",
-  LCB: "Sat Oct 10, evening - Van Dijk, captain of a defence on three straight league clean sheets (Sky Sports). High.",
-  RCB: "Sat Oct 10, evening - Jacquet, fit per Iraola (CaughtOffside) and beside Van Dijk in every Saturday XI; Gomez first cover. High.",
-  RB: "Sat Oct 10, evening - Araujo, right-back in Sports Mole's and Rousing The Kop's XIs; Doku likely opposite. High.",
-  LDM: "Sat Oct 10, evening - Szoboszlai, one of Sky Sports' twin sixes; Gravenberch comes in only if Iraola goes 4-3-3. High.",
-  RDM: "Sat Oct 10, evening - Mac Allister, the other twin six; three straight league clean sheets behind the pairing (Sky Sports). Medium.",
-  LAM: "Sat Oct 10, evening - Ngumoha, as in Sports Mole's XI; Rousing The Kop gives the left to Wirtz instead. Medium.",
-  CAM: "Sat Oct 10, evening - Wirtz at ten, though Carragher would drop him (Sky Sports) and Rousing The Kop moves him wide. Medium.",
-  RAM: "Sat Oct 10, evening - Munoz on the right in Sports Mole's and Rousing The Kop's XIs. Medium.",
-  ST: "Sat Oct 10, evening - Barcola, the nine in most previews, who said on Saturday he prefers the left (Rousing The Kop). Koumas the alternative. Medium.",
+  LB: "Sun Oct 11, morning - Kerkez, at left-back in both Sunday-morning previews (WithinNigeria; The Football Faithful); Tsimikas the cover. Medium.",
+  LCB: "Sun Oct 11, morning - Van Dijk, captain and Haaland's direct opponent; Sutton pictures the Norwegian scoring the winner. High.",
+  RCB: "Sun Oct 11, morning - Jacquet, fit after the knock with France and in both Sunday XIs checked. High.",
+  RB: "Sun Oct 11, morning - Araujo, right-back again in Sunday's previews; Semenyo has trained on the ankle (Esteemed Kompany). High.",
+  LDM: "Sun Oct 11, morning - Szoboszlai, three goal involvements in his last three league games against City (Liverpool FC). High.",
+  RDM: "Sun Oct 11, morning - Mac Allister, the other half of the pivot in both Sunday-morning XIs. Medium.",
+  LAM: "Sun Oct 11, morning - Ngumoha, on the left in both Sunday-morning previews; 101 Great Goals put Barcola there instead. Medium.",
+  CAM: "Sun Oct 11, morning - Wirtz, at ten behind Barcola in both Sunday-morning XIs. Medium.",
+  RAM: "Sun Oct 11, morning - Munoz, on the right in both Sunday-morning previews. Medium.",
+  ST: "Sun Oct 11, morning - Barcola, at nine in both Sunday-morning previews; Koumas, yet to start a Premier League game (Football365), is 101 Great Goals' pick. Medium.",
 };
 
 
@@ -256,6 +258,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-10-10T22:30:00Z",
-  reason: "Sat Oct 10, evening. XI unchanged from the morning for Manchester City at Anfield on Sunday 11 October: Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Szoboszlai; Ngumoha, Wirtz, Munoz; Barcola, as in Sports Mole's predicted XI. Nine of the eleven started at Bournemouth, the two changes forced by Isak and Gakpo. Two Saturday wrinkles keep it at Medium: Barcola said he prefers the left (Rousing The Kop), and Rousing The Kop's evening XI is a 4-3-3 with Gravenberch in and Wirtz on the left.",
+  generated_at: "2026-10-11T08:30:00Z",
+  reason: "Sun Oct 11, morning (matchday). XI unchanged for Manchester City at Anfield, 4.30pm: Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Szoboszlai; Ngumoha, Wirtz, Munoz; Barcola, the eleven both Sunday-morning previews checked name (The Football Faithful via Yahoo Sports; WithinNigeria). Nine of the eleven started at Bournemouth, the two changes forced by Isak and Gakpo. Medium, because 101 Great Goals start Koumas at nine with Barcola left and Gravenberch in, and confirmed teams arrive an hour before kick-off.",
 };

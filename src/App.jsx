@@ -570,11 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday evening, and the table has moved without them:
-          Arsenal came back to draw level with City on fifteen, Chelsea
-          put five past Bournemouth, and Liverpool are seventh. Tomorrow
-          the leaders come to Anfield, and the forward asked to lead the
-          line has said, gently, that he prefers the left.
+          Sunday, matchday, and the leaders come to Anfield at half
+          past four. Liverpool wake seventh, six points behind a City side
+          with five wins from five, without Isak or Gakpo, with a borrowed
+          centre-forward and four straight home draws behind them. The
+          pundits mostly say City. Anfield has its own opinion.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,30 +607,28 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the night before, the forward Liverpool paid a reported £123m
-              for said the quiet part aloud. Bradley Barcola, picked at
-              centre-forward in nearly every preview, told an interview that
-              Iraola asks him only to play his usual game, and that he
-              prefers the left. The manager has said he wants him there when
-              the chances come. Around them the afternoon rearranged the
-              table: Arsenal, a goal down to Leeds, scored twice in eight
-              minutes to draw level with City, and Liverpool, who woke up
-              sixth, will go to bed seventh. City have won three of
-              twenty-nine league visits to Anfield. A winger who would rather
-              be wide, a nine who is not a nine: tomorrow decides which of
-              them was right.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and the morning belongs to the predictions. Chris Sutton is
+              going for City; he can picture Haaland grinning after the
+              winner, and he thinks the guilty finding has given Maresca's
+              side the oldest fuel in football, the belief that everyone
+              wants them to lose. Sky's man agrees, 2-1. Against that,
+              Liverpool have a manager who has not lost a league game and a
+              ground that has not seen a league win since April: four draws
+              at Anfield in a row. Iraola wants his side ready to help the
+              supporters, a modest way of describing what Anfield intends to
+              do. By early evening a siege mentality will have met an actual
+              siege.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off. A winger
-              who would rather be on the left; a comeback at the Emirates
-              that leaves the top two level; the partnership Liverpool will
-              miss most; a manager unbeaten in twenty-six; and a word,
-              together, that City have chosen for the week. Read them in order. The season has five
+              five dispatches from the writers who never clock off. The
+              pundits who went for City; a home record of four draws; a
+              manager asking the stands for help; a visiting manager who
+              expects worse; and the only nine left. Read them in order. The season has five
               league games behind it, nine points and no defeat, and the
               four ahead are against the current top four; the market
               stays shut until January, which is when every link on these
@@ -3845,7 +3843,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "I prefer to play on the left."
+        "A siege mentality, meeting an actual siege."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-01T12:00:00Z",
   "status": "OPEN",
   "tracker": "liverpool",
-  "leadStory": "As of Saturday evening, the night before Manchester City visit Anfield on 11 October, Bradley Barcola, picked at centre-forward in the previews, has said he prefers to play on the left, while Arsenal's 2-1 comeback against Leeds has drawn them level with City on fifteen and pushed Liverpool down to seventh.",
+  "leadStory": "As of Sunday morning, matchday, with Manchester City at Anfield at 4.30pm, the pundits mostly lean City: Chris Sutton is 'going for City' because 'there will be this siege mentality now' (Empire of the Kop / BBC Sport), while Liverpool, seventh and unbeaten, have drawn their last four league games at Anfield.",
   "action": "generate",
   "note": "Kenny asked for a better cover than the hand-drawn SVG plates. Generate ONE image per the prompt, save it at `output`, then set COVER_IMAGE.src to it, credit 'Illustration · Antigravity', a fresh generatedAt, and set this file's status to CLOSED. Evergreen on purpose: it should still be right after the City result.",
   "currentPlate": "/assets/cover/2026-10-01-anfield-after-dark.svg",
