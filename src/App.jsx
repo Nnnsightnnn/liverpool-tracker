@@ -733,7 +733,7 @@ function FormBlock({ results }) {
         borderTop: `1px solid ${T.rule}`, paddingTop: 14,
       }}>
         A first away league win of the season at Bournemouth, 1-0 through Isak,
-        keeps the unbeaten run going and makes it three clean sheets in a row. Four
+        keeps the unbeaten run going and makes it three league clean sheets in a row. Four
         wins and a draw across the last five in all competitions, the goalless
         afternoon against Fulham the only game in the sequence Liverpool did not take.
       </p>
