@@ -573,8 +573,8 @@ function CoverView({ onJump }) {
           Monday, and the inquest has moved on from the referee to
           Florian Wirtz, whom Carragher would drop and Neville says looked
           like a little boy against City. Liverpool are ninth, nine points
-          behind the leaders, and fly to Linz on Tuesday without Szoboszlai,
-          Isak or Gakpo, to face champions who already call them miles ahead.
+          behind the leaders, and fly to Linz on Tuesday almost certainly without
+          Szoboszlai, Isak or Gakpo, to face champions who call them miles ahead.
         </p>
 
         <StatStrip stats={stats} />
@@ -610,8 +610,8 @@ function CoverView({ onJump }) {
               <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
               the day Iraola is said to save his words for. He spent
               Sunday's on the referee, and this morning Keith Hackett, once
-              the referees' chief, took his side, saying he did not see a foul
-              at all. The harder conversation is about Florian Wirtz.
+              the referees' chief, took his side on the first booking, saying
+              he did not see a foul at all. The harder conversation is about Florian Wirtz.
               Carragher, critical after Bournemouth, now says what Wirtz gives
               Liverpool is nowhere near enough and that he should not be in the
               team; Neville says he looked like a little boy. It is a cruel

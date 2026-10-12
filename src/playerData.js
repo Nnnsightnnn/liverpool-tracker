@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Mon Oct 12, morning - Hackett, the former referees' chief: 'Frankly, I did not see this as a foul' (Football Insider). The ban stands: out at Brentford, back for Brighton.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Mon Oct 12, morning - Hackett, the former referees' chief, on the first booking: 'Frankly, I did not see this as a foul' (Football Insider). The ban stands: out at Brentford, back for Brighton.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -777,7 +777,7 @@ export const COVER_IMAGE = {
   // Evening pass (Fri 4 September): Ipswich 0-2 Liverpool, Isak 6' and 9', Track 1 plate 2026-09-04-isak-brace.svg.
   brief: {
     leadStory:
-      "As of Sunday evening, Manchester City have won 3-0 at Anfield, scoring three times in sixteen minutes after Ryan Gravenberch's 62nd-minute red card; Liverpool, the better side for an hour, drop to ninth, with Szoboszlai injured and LASK Linz away in the Champions League on Wednesday.",
+      "As of Monday morning, the verdicts on Sunday's 3-0 defeat by Manchester City have turned on Florian Wirtz, whom Jamie Carragher says should be dropped, while Liverpool, ninth, prepare to fly to LASK Linz for Wednesday's Champions League game, with Szoboszlai, Isak and Gakpo all highly unlikely to travel.",
     subject: "Anfield at dusk, empty, floodlights on, mist over the pitch: an evergreen City-week cover to replace the hand-drawn plates.",
     prompt: "Wide cinematic photograph, 1600x900 landscape, of Anfield at dusk with nobody in it: the stands empty, the floodlights just switched on, a thin mist lying over a freshly mown, striped pitch, deep red seats falling away into shadow. Low camera on the touchline near the halfway line, looking across toward the Kop. Moody and editorial, fine film grain, muted palette of ink black, deep red (#C8102E) and warm ivory (#F4EBD0) highlights. Keep the LEFT third dark, quiet negative space (night sky or a shadowed stand) because the masthead type sits there. NO text, NO legible logos, crests or sponsor boards, NO players, people or faces.",
     aspectRatio: "landscape",
@@ -898,7 +898,7 @@ export const STANDINGS_COMMENTARY = {
     Brighton: "Third, with the league's best goal difference at plus thirteen; at Anfield on 25 October.",
     Brentford: "Fourth and unbeaten after six, four of them draws; Liverpool visit on Saturday.",
     Everton: "Fifth and on the Europa stripe, unbeaten in six; the derby away is on 29 November.",
-    Chelsea: "Sixth on ten; Liverpool's Carabao Cup hosts at Anfield on 28 October.",
+    Chelsea: "Sixth on ten; Liverpool's Carabao Cup visitors at Anfield on 28 October.",
     Hull: "Eighth on nine, level with Liverpool on points and ahead of them on goal difference.",
     Newcastle: "Eleventh on eight with a game in hand; at Coventry tonight, where a win lifts them above Liverpool.",
     "Crystal Palace": "Twelfth; Liverpool's hosts at Selhurst Park on 8 November.",
@@ -921,22 +921,22 @@ export const DISPATCHES = [
     n: "02",
     headline: "Off Balance.",
     byline: "Football Insider / Football365",
-    dateline: "Anfield · 11 October",
+    dateline: "Liverpool · 12 October",
     category: "Match Report",
-    body: "Monday brought the verdict that Liverpool can do nothing with. Keith Hackett, who once ran the referees' body, looked again at the dismissal and said, frankly, that he did not see a foul: the City player was off balance and already going to ground. The Sky studio had got there first. Daniel Sturridge called the first booking a joke and Micah Richards could not see how it was a yellow; only Stephen Warnock, on the radio, thought a card was probably deserved. None of it touches the ban. Gravenberch sits out Brentford on Saturday and returns for Brighton.",
+    body: "Monday brought the verdict that Liverpool can do nothing with. Keith Hackett, who once ran the referees' body, looked again at the first of Gravenberch's two bookings and said, frankly, that he did not see a foul: the City player was off balance and already going to ground. The Sky studio had got there first. Daniel Sturridge called the first booking a joke and Micah Richards could not see how it was a yellow; only Stephen Warnock, on the radio, thought a card was probably deserved. None of it touches the ban. Gravenberch sits out Brentford on Saturday and returns for Brighton.",
   },
   {
     n: "03",
     headline: "A Day Before Speaking.",
     byline: "Daily Mail / Express",
-    dateline: "Anfield · 11 October",
+    dateline: "Liverpool · 12 October",
     category: "Manager",
     body: "Andoni Iraola, by the account the Daily Mail gave and the Express repeated on Sunday evening, does not address his players at full-time. He waits a day, lets the dressing room cool and says what needs saying at the training ground. After the first league defeat of his Liverpool tenure, the wait is a statement of its own. His public words went on the referee, on the timing of the red card and, to the BBC, on being very proud of his players. The private ones, if the pattern holds, belong to this morning, a day before the flight to Austria.",
   },
   {
     n: "04",
     headline: "Three Names, One Answer.",
-    byline: "Sports Mole / Liverpool FC",
+    byline: "Liverpool FC / Sports Mole",
     dateline: "Anfield · 11 October",
     category: "Injuries",
     body: "Just before midnight on Sunday, Sports Mole put it plainly: Szoboszlai, Isak and Gakpo are all highly unlikely to make Wednesday. Iraola's version was gentler, two days being short and you never knowing, but the squad that flies to Linz has already taken its shape. Gravenberch is available, his ban being domestic, so Mac Allister has a partner for one more game. After that the pivot thins again, to Endo, listed for a January exit, and to Nyoni. Ekitike's Achilles is pencilled in for Boxing Day. Until then the forward line is Koumas, Barcola and whoever is left standing.",
@@ -952,17 +952,12 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   generatedAt: "2026-10-12T08:30:00Z",
-  summary: "Monday morning, and the inquest into Sunday's 3-0 defeat by Manchester City has found a second subject after the referee: Florian Wirtz. Jamie Carragher, already critical after Bournemouth, said what Wirtz 'is giving Liverpool right now is nowhere near enough' and 'He shouldn't be in the Liverpool team right now' (TEAMtalk), and Gary Neville said he 'looked like a little boy' (Gary Neville Podcast via FotMob). The red card has its own Monday verdict: Keith Hackett, the former PGMOL chief, said 'Frankly, I did not see this as a foul' (Football Insider), which changes nothing on the record, since Gravenberch still misses Saturday's trip to Brentford and returns for Brighton on 25 October (Anfield Index, citing Liverpool FC). First comes Wednesday in Linz, where LASK will be without the wing-back George Bello, whose muscle injury Dietmar Kühbauer said 'will definitely not' allow him to play (Laola1), and where Kühbauer has already said Liverpool are 'miles ahead' of the Rapid side that beat his team on Sunday (abseits.at). Liverpool go without Szoboszlai, Isak or Gakpo, all 'highly unlikely' for the game (Sports Mole), and sit ninth on nine points before Newcastle, one point behind them, play at Coventry tonight (ESPN; Football Web Pages).",
+  summary: "Monday morning, and the inquest into Sunday's 3-0 defeat by Manchester City has found a second subject after the referee: Florian Wirtz. Jamie Carragher, already critical after Bournemouth, said what Wirtz 'is giving Liverpool right now is nowhere near enough' and 'He shouldn't be in the Liverpool team right now' (TEAMtalk), and Gary Neville said he 'looked like a little boy' (Gary Neville Podcast via FotMob). The red card has its own Monday verdict: Keith Hackett, the former PGMOL chief, said of the first booking 'Frankly, I did not see this as a foul' (Football Insider), which changes nothing on the record, since Gravenberch still misses Saturday's trip to Brentford and returns for Brighton on 25 October (Anfield Index, citing Liverpool FC). First comes Wednesday in Linz, where LASK will be without the wing-back George Bello, whose muscle injury Dietmar Kühbauer said 'will definitely not' allow him to play (Laola1), and where Kühbauer has already said Liverpool are 'miles ahead' of the Rapid side that beat his team on Sunday (abseits.at). Liverpool go without Szoboszlai, Isak or Gakpo, all 'highly unlikely' for the game (Sports Mole), and sit ninth on nine points before Newcastle, one point behind them, play at Coventry tonight (ESPN; Football Web Pages).",
   keyTopics: [
     {
       title: "Carragher: Wirtz 'Shouldn't Be In The Team' (TEAMtalk, today)",
       category: "general",
       detail: "Published by TEAMtalk at 7.16am on Monday: Carragher, who had criticised Wirtz after Bournemouth, said 'what Florian Wirtz is giving Liverpool right now is nowhere near enough' and 'He shouldn't be in the Liverpool team right now.' Neville, on the Gary Neville Podcast (via FotMob): 'Wirtz is a problem... I thought Wirtz looked like a little boy.' Goal rated him 3.5, saying he was withdrawn after City's opener.",
-    },
-    {
-      title: "Hackett: 'I Did Not See This As A Foul' (Football Insider, today)",
-      category: "general",
-      detail: "Published by Football Insider at 5.30am on Monday: Keith Hackett, the former PGMOL chief and FIFA referee, on Gravenberch's game-changing dismissal: 'Frankly, I did not see this as a foul, as the Man City player was off balance and going to ground.' Liverpool FC had confirmed the one-match league ban on Sunday evening.",
     },
     {
       title: "Gravenberch Back For Brighton After Brentford Ban (Anfield Index, today)",
@@ -975,14 +970,14 @@ export const NEWS_DIGEST = {
       detail: "Published by abseits.at at 9.45am Austrian time on Monday, Kühbauer after the 2-0 home defeat by Rapid: 'Wir wissen genau, dass Liverpool noch einmal meilenweit vor Rapid ist', we know Liverpool are miles ahead of Rapid, and 'Das wird nicht reichen', that won't be enough. His consolation: 'Wenn du aggressiv bist und richtig im Spiel stehst, kannst du jedem Gegner wehtun', if you are aggressive and fully in the game you can hurt any opponent.",
     },
     {
+      title: "Hackett: 'I Did Not See This As A Foul' (Football Insider, today)",
+      category: "general",
+      detail: "Published by Football Insider at 5.30am on Monday: Keith Hackett, the former PGMOL chief and FIFA referee, on the first of Gravenberch's two bookings, which he said was 'wrongly issued': 'Frankly, I did not see this as a foul, as the Man City player was off balance and going to ground.' Liverpool FC had confirmed the one-match league ban on Sunday evening.",
+    },
+    {
       title: "Newcastle Can Pass Liverpool At Coventry Tonight (Football Web Pages / ESPN, today)",
       category: "matches",
       detail: "Football Web Pages lists one Premier League game today, Coventry v Newcastle at 8pm on Sky Sports, the last of matchweek six. Newcastle are eleventh on eight from five (ESPN); a win takes them to eleven, above Liverpool, who would drop to tenth. Coventry, nineteenth on three from five, would climb out of the bottom three with a win.",
-    },
-    {
-      title: "Bello Ruled Out Of Linz, Usor's Shoulder A Worry (Laola1, 1d ago)",
-      category: "injuries",
-      detail: "Reported by Laola1 at 8.45pm on Sunday: Kühbauer on George Bello, 'Beim George hat man eine Muskelverletzung gesehen. Das wird am Mittwoch garantiert nicht gehen', a muscle injury that rules him out on Wednesday; on Moses Usor, whose shoulder joint is 'etwas lädiert', somewhat damaged, 'Ich hoffe, dass es nicht zu lange dauert'. The captain Sascha Horvath, sent home from the Austria squad with a thigh problem, played ninety minutes against Rapid and is not expected to be a concern.",
     },
     {
       title: "Szoboszlai, Isak And Gakpo 'Highly Unlikely' For LASK (Sports Mole, 1d ago)",
@@ -990,19 +985,24 @@ export const NEWS_DIGEST = {
       detail: "Sports Mole's injury round-up, published at 11.50pm on Sunday, calls all three 'highly unlikely' to be fit for Wednesday. Iraola said the two days before the trip made it 'difficult', adding 'You never know.' Szoboszlai's tight hamstring, an 'overload' from Hungary duty, still has no return date.",
     },
     {
+      title: "Bello Ruled Out Of Linz, Usor's Shoulder A Worry (Laola1, 1d ago)",
+      category: "injuries",
+      detail: "Reported by Laola1 at 8.45pm on Sunday: Kühbauer on George Bello, 'Beim George hat man eine Muskelverletzung gesehen. Das wird am Mittwoch garantiert nicht gehen', a muscle injury that rules him out on Wednesday; on Moses Usor, whose shoulder joint is 'etwas lädiert', somewhat damaged, 'Ich hoffe, dass es nicht zu lange dauert'. The captain Sascha Horvath, sent home from the Austria squad with a thigh problem, played ninety minutes against Rapid and is not expected to be a concern.",
+    },
+    {
       title: "Iraola's Twenty-Four-Hour Rule (Express via AOL, 1d ago)",
       category: "general",
       detail: "The Express, citing the Daily Mail, reported on Sunday evening that Iraola often does not speak to his players at full-time and waits twenty-four hours before addressing the squad at the training ground, to let emotions settle. His only direct words in that piece came from BBC Sport: 'I am very proud of my players.'",
     },
     {
-      title: "Pundits Split On The First Yellow (Football365, 1d ago)",
-      category: "general",
-      detail: "Football365's round-up of the broadcast verdicts on Sunday evening: Daniel Sturridge on Sky, 'It's never been a yellow. The first one is a joke'; Micah Richards, 'How is that a yellow card? I don't understand'; Jamie Carragher, 'The red card was a big moment in the swing of this game.' Stephen Warnock on BBC Radio 5 Live was the dissenter: 'Does it warrant a yellow card? It probably does.'",
-    },
-    {
       title: "Goal's Ratings: Frimpong A 3, Koumas The Bright Spot (Goal, 1d ago)",
       category: "general",
       detail: "Goal's ratings, published on Sunday afternoon US time: Frimpong 3, beaten by Cherki before the third goal after coming on; Wirtz 3.5; Munoz 4, beaten by Doku for the second; Koumas 6 for relentless pressing on his first league start; Kerkez the highest at 6.5. Alisson, a 5, conceded three goals from four shots on target.",
+    },
+    {
+      title: "Pundits Split On The First Yellow (Football365, 1d ago)",
+      category: "general",
+      detail: "Football365's round-up of the broadcast verdicts on Sunday evening: Daniel Sturridge on Sky, 'It's never been a yellow. The first one is a joke'; Micah Richards, 'How is that a yellow card? I don't understand'; Jamie Carragher, 'The red card was a big moment in the swing of this game.' Stephen Warnock on BBC Radio 5 Live was the dissenter: 'Does it warrant a yellow card? It probably does.'",
     },
   ],
   sources: ["TEAMtalk", "Gary Neville Podcast", "FotMob", "Goal", "Football Insider", "Anfield Index", "Liverpool FC", "abseits.at", "Football Web Pages", "ESPN", "Laola1", "Sports Mole", "Express", "AOL", "Daily Mail", "BBC Sport", "Football365", "Sky", "BBC Radio 5 Live"],
@@ -1127,7 +1127,7 @@ export const FORM_TRENDS = {
   generatedAt: "2026-10-12T08:30:00Z",
   competition: "PL",
   played: 6,
-  headline: "The morning-after argument is about Florian Wirtz, but the numbers put the problem in a wider frame. At eleven against eleven Liverpool were not short of the ball in dangerous places, twelve shots to four and 0.79 expected goals to 0.17 before the red card (Sports Mole); what they lacked across the whole game was open-play quality, 0.38 of their 0.86 expected goals (Opta Analyst). Six league games have brought seven goals from 8.43 expected and seven conceded, and four of the seven were scored by Isak, who will not play on Wednesday. The pundits have found a person to blame; the data points at a department.",
+  headline: "The morning-after argument is about Florian Wirtz, but the numbers put the problem in a wider frame. At eleven against eleven Liverpool were not short of the ball in dangerous places, twelve shots to four and 0.79 expected goals to 0.17 before the red card (Sports Mole); what they lacked across the whole game was open-play quality, 0.38 of their 0.86 expected goals (Opta Analyst). Six league games have brought seven goals from 8.43 expected and seven conceded, and four of the seven were scored by Isak, who is highly unlikely to play on Wednesday (Sports Mole). The pundits have found a person to blame; the data points at a department.",
   diagnosis: [
     {
       label: "Ten men, then sixteen minutes",
@@ -1298,7 +1298,7 @@ export const FORM_TRENDS = {
     "Liverpool have now gone five successive Premier League home games without a win, four draws and a defeat (Opta Analyst).",
     "Sunday was LASK's first home league defeat by Rapid Vienna since 2021, three days before Liverpool visit (sport.ORF.at).",
   ],
-  sources: ["Opta Analyst", "Sofascore", "ESPN", "Sports Mole", "Sky Sports", "TEAMtalk", "Hayters", "Yahoo Sports", "Liverpool FC", "Squawka", "FotMob", "The Transfer Hub", "This Is Anfield", "Goal", "BBC Sport", "Premier League", "beIN Sports", "Goal", "sport.ORF.at"],
+  sources: ["Opta Analyst", "Sofascore", "ESPN", "Sports Mole", "Sky Sports", "TEAMtalk", "Hayters", "Yahoo Sports", "Liverpool FC", "Squawka", "FotMob", "The Transfer Hub", "This Is Anfield", "Goal", "BBC Sport", "Premier League", "sport.ORF.at"],
 };
 export const SQUAD_LOAD = {
   generatedAt: "2026-10-12T08:30:00Z",
@@ -1402,7 +1402,7 @@ export const SQUAD_LOAD = {
     {
       position: "Central midfield",
       level: "critical",
-      detail: "Critical, from medium this morning. Szoboszlai has a tight hamstring with no date (Liverpool FC) and Gravenberch is banned for Brentford on Saturday, so for that game Mac Allister's senior partner is Endo, listed for a January exit, or Nyoni, nineteen. Gravenberch is available for LASK, the ban being domestic. No market until January.",
+      detail: "Critical since Sunday, up from medium. Szoboszlai has a tight hamstring with no date (Liverpool FC) and Gravenberch is banned for Brentford on Saturday, so for that game Mac Allister's senior partner is Endo, listed for a January exit, or Nyoni, nineteen. Gravenberch is available for LASK, the ban being domestic. No market until January.",
     },
     {
       position: "Centre-forward",
@@ -1442,20 +1442,14 @@ export const SQUAD_LOAD = {
     "Liverpool Echo",
     "Roundtable Sports",
     "Anfield Index via Yahoo Sports",
-    "TEAMtalk",
     "The Athletic",
     "L'Equipe",
     "CaughtOffside",
     "FotMob",
     "Daily Mail",
     "Standard Sport",
-    "DaveOCKOP",
     "Liverpool.com",
     "Sky Sports",
-    "Origo",
-    "Rush The Kop",
-    "Football365",
-    "BBC Sport",
     "Anfield Index",
     "Laola1",
   ],
@@ -1473,7 +1467,7 @@ export const SEASON_PROJECTION = {
       label: "Champions League (top 4)",
       points: 68,
       gap: 11,
-      note: "Historical par for the last Champions League place in recent seasons. The pace that met it exactly this morning now falls eleven short, and closing that over thirty-two games means about 1.84 points a game from here. The live ESPN table draws the stripe at fourth, where Brentford sit one point above Liverpool.",
+      note: "Historical par for the last Champions League place in recent seasons. The pace that met it exactly before Sunday's defeat now falls eleven short, and closing that over thirty-two games means about 1.84 points a game from here. The live ESPN table draws the stripe at fourth, where Brentford sit one point above Liverpool.",
     },
     {
       label: "Europa League (5th)",

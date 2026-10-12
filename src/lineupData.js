@@ -232,7 +232,7 @@ export const SLOT_RATIONALE = {
   LCB: "Mon Oct 12, morning - Van Dijk, a 5.5 from Goal, excellent before the red card; the fixed point of any rotation in Linz. High.",
   RCB: "Mon Oct 12, morning - Jacquet, a 5 from Goal; Gomez, fully fit, is the obvious change with four games in ten days. Medium.",
   RB: "Mon Oct 12, morning - Araujo, a 4.5 from Goal after his early booking; Frimpong, rated 3, is the alternative against a LASK side without Bello. Low.",
-  LDM: "Mon Oct 12, morning - Gravenberch, banned for Brentford but free for Linz; Hackett says he 'did not see this as a foul' (Football Insider). Medium.",
+  LDM: "Mon Oct 12, morning - Gravenberch, banned for Brentford but free for Linz; Hackett says of the first booking 'I did not see this as a foul' (Football Insider). Medium.",
   RDM: "Mon Oct 12, morning - Mac Allister, a 6 from Goal; the one pivot player with no ban and no injury. High.",
   LAM: "Mon Oct 12, morning - Barcola, a 5 from Goal and faded late; Ngumoha the alternative. Medium.",
   CAM: "Mon Oct 12, morning - Wirtz, the morning's target: Carragher says he 'shouldn't be in the Liverpool team right now' (TEAMtalk); Nyoni, 19, is the alternative. Medium.",
