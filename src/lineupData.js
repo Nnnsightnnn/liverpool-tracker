@@ -39,7 +39,7 @@ export const FORMATIONS = {
       GK: 1,    // Alisson (the one place UEFA.com's Linz preview does not rotate)
       LB: 32,   // Tsimikas (in for Kerkez in UEFA.com's predicted XI, Mon 12 Oct)
       LCB: 3,   // Van Dijk (captain; the fixed point of the rotated back four)
-      RCB: 5,   // Gomez (in for Jacquet per UEFA.com; first start of the season)
+      RCB: 5,   // Gomez (in for Jacquet per UEFA.com; first UCL start of the season)
       RB: 9,    // Frimpong (in for Araujo per UEFA.com)
       LCM: 13,  // Mac Allister (ninety minutes v City; no cover but Nyoni, Endo not in UCL squad)
       CM: 14,   // Gravenberch (league ban only; available in Linz)
@@ -143,7 +143,7 @@ export const PLAYER_EVIDENCE = {
   1:   "Starts in Linz · no rotation",   // Alisson
   2:   "Bench in UEFA's Linz preview",   // Mamardashvili
   3:   "Captain · anchors the rotation",   // Van Dijk
-  5:   "UEFA XI · first start of season",   // Gomez
+  5:   "UEFA XI · first UCL start",   // Gomez
   7:   "Rested per UEFA · Brentford next",   // Kerkez
   32:  "UEFA's left-back for Linz",   // Tsimikas
   8:   "Knee · no club date",   // Bradley
@@ -235,7 +235,7 @@ export const SLOT_CONFIDENCE = {
 export const SLOT_RATIONALE = {
   LB: "Mon Oct 12, evening - Tsimikas, UEFA.com's pick for Linz after Kerkez's ninety minutes against City; Kerkez the alternative. Low.",
   LCB: "Mon Oct 12, evening - Van Dijk, the one defender every preview keeps; the captain anchors a rotated back four. High.",
-  RCB: "Mon Oct 12, evening - Gomez, in UEFA.com's predicted XI for his first start of the season; Jacquet if Iraola keeps Sunday's pair. Low.",
+  RCB: "Mon Oct 12, evening - Gomez, in UEFA.com's predicted XI for his first Champions League start of the season; Jacquet if Iraola keeps Sunday's pair. Low.",
   RB: "Mon Oct 12, evening - Frimpong, UEFA.com's right-back for Linz; Araujo, booked early against City, the alternative. Low.",
   LDM: "Mon Oct 12, evening - Gravenberch, free in Europe and named by UEFA.com; banned at Brentford on Saturday. Medium.",
   RDM: "Mon Oct 12, evening - Mac Allister, the constant; with Endo outside the Champions League squad, only Nyoni is behind the pair. High.",

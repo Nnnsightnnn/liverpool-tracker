@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Mon Oct 12, evening - UEFA.com's predicted XI moves him in beside Van Dijk for Linz, his first start of the season after two minutes against City.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Mon Oct 12, evening - UEFA.com's predicted XI moves him in beside Van Dijk for Linz, his first Champions League start of the season after two minutes against City.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -936,7 +936,7 @@ export const DISPATCHES = [
   {
     n: "03",
     headline: "A Half-Space Player.",
-    byline: "Sky Sports / Brit Brief",
+    byline: "Sky Sports",
     dateline: "Anfield · 11 October",
     category: "Tactics",
     body: "Not every former Liverpool player in the Sky studio wanted Wirtz out of the side. Daniel Sturridge, arguing with Jamie Carragher on Sunday evening, conceded the money had not yet been justified but made a positional case: Wirtz, he said, is a half-space player rather than a natural number ten with his back to goal, and stationed on the left he is an inside forward rather than a winger. It is the more useful argument for his manager, because it suggests a solution rather than a dropping. UEFA's preview for Linz keeps him at the ten. Wednesday will show whether Iraola agrees with the pundit or the position.",
@@ -1047,8 +1047,8 @@ export const OPPOSITION = {
     {
       name: "Christoph Lang",
       role: "Forward",
-      threat: "Five Austrian Bundesliga goals in eight appearances, LASK's top league scorer this season (VAVEL). Starts up front in ratingbet's predicted XI for Wednesday.",
-      source: "VAVEL / ratingbet",
+      threat: "Five Austrian Bundesliga goals in eight appearances, LASK's top league scorer this season (VAVEL). Starts up front in UEFA.com's predicted XI for Wednesday.",
+      source: "VAVEL / UEFA.com",
     },
     {
       name: "Samuel Adeniran",
@@ -1448,8 +1448,6 @@ export const SQUAD_LOAD = {
     "Liverpool.com",
     "Sky Sports",
     "Anfield Index",
-    "Laola1",
-    "Liverpool Echo",
     "UEFA.com",
     "3 Added Minutes",
   ],
