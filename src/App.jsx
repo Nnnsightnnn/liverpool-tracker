@@ -570,11 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          City 3, Liverpool 0. For an hour Liverpool were the better
-          side; then Gravenberch went, and the leaders scored three times
-          in sixteen minutes. Iraola's unbeaten start is over, Liverpool are
-          ninth, nine points behind City, and on Wednesday a squad without
-          Szoboszlai, Isak or Gakpo plays in Linz.
+          Monday, and the inquest has moved on from the referee to
+          Florian Wirtz, whom Carragher would drop and Neville says looked
+          like a little boy against City. Liverpool are ninth, nine points
+          behind the leaders, and fly to Linz on Tuesday without Szoboszlai,
+          Isak or Gakpo, to face champions who already call them miles ahead.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,32 +607,35 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the scoreline tells the least of it. Liverpool had twelve
-              shots to City's four when Ryan Gravenberch was sent off, his
-              first booking one his manager said was never a yellow, and two minutes
-              and thirty-seven seconds later Haaland had scored. Doku and
-              Cherki finished it. The pundits who went for City were right
-              about the result and wrong about the afternoon. What the red
-              card leaves behind is a midfield problem: Gravenberch banned
-              for Brentford, Szoboszlai nursing a hamstring nobody had
-              mentioned until the team sheet. Four games in ten days begin
-              in Austria. The siege, in the end, was ended by a whistle.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              the day Iraola is said to save his words for. He spent
+              Sunday's on the referee, and this morning Keith Hackett, once
+              the referees' chief, took his side, saying he did not see a foul
+              at all. The harder conversation is about Florian Wirtz.
+              Carragher, critical after Bournemouth, now says what Wirtz gives
+              Liverpool is nowhere near enough and that he should not be in the
+              team; Neville says he looked like a little boy. It is a cruel
+              verdict on a twenty-three-year-old and an awkward one for his
+              manager, because with Szoboszlai, Isak and Gakpo all unlikely for
+              Wednesday, the alternative is a nineteen-year-old. In Linz the
+              champions of Austria have lost their left wing-back and most of
+              their swagger. Liverpool need a result there, and something more
+              than that from the man everyone is watching.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off. The
-              hour before the red card and the sixteen minutes after it; a
-              manager disputing a booking; a hamstring nobody saw coming; a
-              visiting manager learning to live with the noise; and the
-              Austrian champions waiting in Linz. Read them in order. The season has six
-              league games behind it, nine points and a first defeat, and
-              the next three league opponents all sit in the top four; the market
-              stays shut until January, which is when every link on these
-              pages either becomes a bid or goes quiet.
+              five dispatches from the writers who never clock off. A
+              playmaker on trial in the studios; a red card examined again; a
+              manager who waits a day before he speaks; three absentees and
+              one answer; and a coach in Linz lowering the temperature. Read
+              them in order. The season has six league games behind it, nine
+              points and a first defeat, and the next three league opponents
+              all sit in the top four; the market stays shut until January,
+              which is when every link on these pages either becomes a bid or
+              goes quiet.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3843,7 +3846,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "An hour of Liverpool, then sixteen minutes of City."
+        "Miles ahead, says Linz. Nowhere near, says Carragher."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-01T12:00:00Z",
   "status": "OPEN",
   "tracker": "liverpool",
-  "leadStory": "As of Sunday evening, Manchester City have won 3-0 at Anfield, scoring three times in sixteen minutes after Ryan Gravenberch's 62nd-minute red card; Liverpool, the better side for an hour, drop to ninth, with Szoboszlai injured and LASK Linz away in the Champions League on Wednesday.",
+  "leadStory": "As of Monday morning, the verdicts on Sunday's 3-0 defeat by Manchester City have turned on Florian Wirtz, whom Jamie Carragher says should be dropped, while Liverpool, ninth, prepare to fly to LASK Linz for Wednesday's Champions League game without Szoboszlai, Isak or Gakpo.",
   "action": "generate",
   "note": "Kenny asked for a better cover than the hand-drawn SVG plates. Generate ONE image per the prompt, save it at `output`, then set COVER_IMAGE.src to it, credit 'Illustration · Antigravity', a fresh generatedAt, and set this file's status to CLOSED. Evergreen on purpose: it should still be right after the City result.",
   "currentPlate": "/assets/cover/2026-10-01-anfield-after-dark.svg",

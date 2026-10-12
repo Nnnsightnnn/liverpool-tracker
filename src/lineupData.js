@@ -139,33 +139,33 @@ export const FORMATIONS = {
 // sheet, and a climb from tenth to sixth. Bradley, Chiesa, Ekitike and Leoni are out; Gakpo (ankle) moved from out to doubt on Wed Oct 7 evening after Iraola did not rule him out.
 // Sun Oct 11 (evening): rewritten after Liverpool 0-3 Manchester City; now pointed at LASK Linz away, Wednesday 14 October.
 export const PLAYER_EVIDENCE = {
-  1:  "Started v City · beaten 3 after red",   // Alisson
-  2:  "Bench · rotation in Linz?",   // Mamardashvili
-  3:  "LCB · captain v City, booked",   // Van Dijk
-  5:  "Sub v City · CB/RB cover",   // Gomez
-  7:  "LB · line clearance v City",   // Kerkez
-  32: "LB cover · unused v City",   // Tsimikas
-  8:  "Knee · no club date yet",   // Bradley
-  9:  "Sub v City · RB rotation option",   // Frimpong
-  10: "ACL · Brighton date earliest",   // Leoni
-  11: "RCB · 88 mins v City",   // Jacquet
-  12: "Levante loan · not involved",   // Ndukwe
-  13: "Pivot · 90 mins v City",   // Mac Allister
-  14: "Red v City · PL ban, UCL OK",   // Gravenberch
-  15: "Tight hamstring · no date",   // Szoboszlai
-  17: "Depth · Brentford pivot cover",   // Endo
-  18: "CAM · a 4 v City, off 66",   // Wirtz
-  20: "Sub v City · pivot depth",   // Nyoni
-  22: "Ankle · not back for Linz",   // Gakpo
-  23: "Thigh · not back for Linz",   // Isak
-  24: "Achilles · 26 Dec target",   // Ekitike
-  25: "Sub v City · LAM option",   // Ngumoha
-  26: "First minutes v City · 88'",   // Chiesa
-  27: "Third-choice keeper",   // Woodman
-  28: "RAM · 90 mins v City",   // Munoz
-  29: "RB · booked 8' v City",   // Araujo
-  30: "LAM · started left v City",   // Barcola
-  31: "ST · first PL start v City",   // Koumas
+  1:   "Goal 5 v City · starts in Linz",   // Alisson
+  2:   "Bench · second start possible",   // Mamardashvili
+  3:   "Captain · Goal 5.5 v City",   // Van Dijk
+  5:   "CB/RB cover · 2 mins v City",   // Gomez
+  7:   "LB · Goal's top-rated 6.5 v City",   // Kerkez
+  32:  "LB cover · two trips in 4 days",   // Tsimikas
+  8:   "Knee · still no club date",   // Bradley
+  9:   "RB option · Goal 3 v City",   // Frimpong
+  10:  "ACL · Brighton the earliest",   // Leoni
+  11:  "RCB · Goal 5 v City",   // Jacquet
+  12:  "Levante loan · not involved",   // Ndukwe
+  13:  "Pivot · Goal 6 v City",   // Mac Allister
+  14:  "PL ban only · free for Linz",   // Gravenberch
+  15:  "Hamstring · 'highly unlikely'",   // Szoboszlai
+  17:  "Brentford pivot partner",   // Endo
+  18:  "CAM · Carragher: drop him",   // Wirtz
+  20:  "Wirtz alternative · 19",   // Nyoni
+  22:  "Ankle · 'highly unlikely'",   // Gakpo
+  23:  "Thigh · 'highly unlikely'",   // Isak
+  24:  "Achilles · 26 Dec target",   // Ekitike
+  25:  "Wide option · Goal 5 v City",   // Ngumoha
+  26:  "Not in UCL squad",   // Chiesa
+  27:  "Third-choice keeper",   // Woodman
+  28:  "RAM · LASK lack Bello",   // Munoz
+  29:  "RB · Goal 4.5 v City",   // Araujo
+  30:  "LAM · or nine if Koumas rests",   // Barcola
+  31:  "ST · Goal 6 for his pressing",   // Koumas
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -194,6 +194,8 @@ export const PLAYER_EVIDENCE = {
 // Sun Oct 11 (evening): City played, Liverpool lost 0-3. THREE personnel changes, all to match the XI that actually started (ESPN):
 //   Gravenberch for Szoboszlai (tight hamstring, now injured), Barcola back to LAM, Koumas to ST; Ngumoha to the bench. Re-pointed at
 //   LASK Linz away, Champions League, Wed 14 Oct. Gravenberch's ban is league-only. Overall level Medium to Low: rotation expected.
+// Mon Oct 12 (morning): no personnel change. No Liverpool XI published for Linz; Sports Mole call Szoboszlai, Isak and Gakpo 'highly
+//   unlikely'. Wirtz kept at CAM despite Carragher's call to drop him (TEAMtalk); LASK lose Bello (Laola1). No level change.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -222,20 +224,20 @@ export const SLOT_CONFIDENCE = {
 
 
 // ─── Per-slot rationale ────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Sun Oct 11 (evening), re-pointed at LASK Linz.
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Mon Oct 12 (morning) against LASK Linz.
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Sun Oct 11, evening - Kerkez, ninety minutes v City and a clearance off his own line (NBC Sports); Tsimikas the rotation option. Medium.",
-  LCB: "Sun Oct 11, evening - Van Dijk, captain at Anfield and booked in stoppage time; the fixed point of any rotation. High.",
-  RCB: "Sun Oct 11, evening - Jacquet, eighty-eight minutes v City; Gomez, who replaced him, is the obvious rotation with four games in ten days. Medium.",
-  RB: "Sun Oct 11, evening - Araujo, booked in the eighth minute and replaced by Frimpong on seventy-five (ESPN); Frimpong may well start in Linz. Low.",
-  LDM: "Sun Oct 11, evening - Gravenberch, sent off v City, but the ban is league-only (Liverpool FC); Szoboszlai's tight hamstring has no date. Medium.",
-  RDM: "Sun Oct 11, evening - Mac Allister, the only pivot player without a ban or an injury after Sunday. High.",
-  LAM: "Sun Oct 11, evening - Barcola, who started on the left v City rather than at nine; Ngumoha the alternative. Medium.",
-  CAM: "Sun Oct 11, evening - Wirtz, a 4 from the BBC v City and off on sixty-six; Nyoni or a reshuffle possible. Medium.",
-  RAM: "Sun Oct 11, evening - Munoz, ninety minutes on the right v City; Gakpo not expected back for Linz (Hayters). Medium.",
-  ST: "Sun Oct 11, evening - Koumas, a first Premier League start v City, off on seventy-five; Isak not expected back for Linz. Medium.",
+  LB: "Mon Oct 12, morning - Kerkez, Goal's top-rated player v City at 6.5 for a key intervention on Semenyo; Tsimikas the rotation option. Medium.",
+  LCB: "Mon Oct 12, morning - Van Dijk, a 5.5 from Goal, excellent before the red card; the fixed point of any rotation in Linz. High.",
+  RCB: "Mon Oct 12, morning - Jacquet, a 5 from Goal; Gomez, fully fit, is the obvious change with four games in ten days. Medium.",
+  RB: "Mon Oct 12, morning - Araujo, a 4.5 from Goal after his early booking; Frimpong, rated 3, is the alternative against a LASK side without Bello. Low.",
+  LDM: "Mon Oct 12, morning - Gravenberch, banned for Brentford but free for Linz; Hackett says he 'did not see this as a foul' (Football Insider). Medium.",
+  RDM: "Mon Oct 12, morning - Mac Allister, a 6 from Goal; the one pivot player with no ban and no injury. High.",
+  LAM: "Mon Oct 12, morning - Barcola, a 5 from Goal and faded late; Ngumoha the alternative. Medium.",
+  CAM: "Mon Oct 12, morning - Wirtz, the morning's target: Carragher says he 'shouldn't be in the Liverpool team right now' (TEAMtalk); Nyoni, 19, is the alternative. Medium.",
+  RAM: "Mon Oct 12, morning - Munoz, a 4 from Goal but promising early; LASK are without their left wing-back, Bello (Laola1). Medium.",
+  ST: "Mon Oct 12, morning - Koumas, a 6 from Goal for his pressing on a first league start; Isak 'highly unlikely' (Sports Mole). Medium.",
 };
 
 
@@ -262,6 +264,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  generated_at: "2026-10-11T22:30:00Z",
-  reason: "Sun Oct 11, evening. Re-pointed at LASK Linz away (Champions League, Wed 14 Oct, 5.45pm BST) after the 0-3 v City. Baseline is the XI that started on Sunday (ESPN): Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Gravenberch, Mac Allister; Barcola, Wirtz, Munoz; Koumas. Szoboszlai (hamstring) is out and Gravenberch's ban is league-only (Liverpool FC), but with four games in ten days and no returns expected (Hayters), rotation is likely and no reliable Liverpool XI has been published yet.",
+  generated_at: "2026-10-12T08:30:00Z",
+  reason: "Mon Oct 12, morning. For LASK Linz away (Champions League, Wed 14 Oct, 5.45pm BST). Unchanged from the XI that started against City (ESPN): Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Gravenberch, Mac Allister; Barcola, Wirtz, Munoz; Koumas. Gravenberch's ban is league-only; Szoboszlai, Isak and Gakpo are all 'highly unlikely' (Sports Mole). Carragher wants Wirtz dropped (TEAMtalk), and with four games in ten days rotation is likely, but no Liverpool XI has been published.",
 };
