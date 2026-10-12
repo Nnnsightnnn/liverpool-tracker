@@ -570,11 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, and the inquest has moved on from the referee to
-          Florian Wirtz, whom Carragher would drop and Neville says looked
-          like a little boy against City. Liverpool are ninth, nine points
-          behind the leaders, and fly to Linz on Tuesday almost certainly without
-          Szoboszlai, Isak or Gakpo, to face champions who call them miles ahead.
+          Monday evening, and the number that matters is fifteen: the senior
+          outfield players Liverpool can take to Linz, by the Liverpool Echo's
+          count, with Szoboszlai, Isak and Gakpo expected to miss out.
+          Coventry's four goals past Newcastle kept them ninth. On Wednesday
+          they meet Austrian champions who are now short of two starters of their own.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,35 +607,33 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              the day Iraola is said to save his words for. He spent
-              Sunday's on the referee, and this morning Keith Hackett, once
-              the referees' chief, took his side on the first booking, saying
-              he did not see a foul at all. The harder conversation is about Florian Wirtz.
-              Carragher, critical after Bournemouth, now says what Wirtz gives
-              Liverpool is nowhere near enough and that he should not be in the
-              team; Neville says he looked like a little boy. It is a cruel
-              verdict on a twenty-three-year-old and an awkward one for his
-              manager, because with Szoboszlai, Isak and Gakpo all unlikely for
-              Wednesday, the alternative is a nineteen-year-old. In Linz the
-              champions of Austria have lost their left wing-back and most of
-              their swagger. Liverpool need a result there, and something more
-              than that from the man everyone is watching.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the arithmetic of Linz. Take away Szoboszlai, Isak and Gakpo, and
+              the Liverpool Echo counts fifteen senior outfielders who have played
+              in the league this season, before you remember that Endo and Chiesa
+              were left off the Champions League list in September. UEFA allows one
+              swap for a long-term injury, but spending it on Ekitike now would leave
+              nothing for the winter. So the answer is rotation inside a small
+              circle: UEFA's own preview has Frimpong, Gomez and Tsimikas in the
+              back four and Ngumoha on a flank, with Wirtz kept at the ten that
+              Daniel Sturridge says was never quite his position. Sunday is not
+              finished with Anfield either, after ten arrests and a police officer
+              seriously hurt on the walk away from the ground. Coventry did
+              Liverpool a small favour tonight. A squad this thin needs every one going.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off. A
-              playmaker on trial in the studios; a red card examined again; a
-              manager who waits a day before he speaks; three absentees and
-              one answer; and a coach in Linz lowering the temperature. Read
-              them in order. The season has six league games behind it, nine
-              points and a first defeat, and the next three league opponents
-              all sit in the top four; the market stays shut until January,
-              which is when every link on these pages either becomes a bid or
-              goes quiet.
+              five dispatches from the writers who never clock off. A squad
+              counted down to fifteen; four goals in Coventry; a playmaker
+              defended as a half-space player; a goalkeeper's walk back and a
+              policeman hurt; and a numbers game in Linz. Read them in order.
+              The season has six league games behind it, nine points and a
+              first defeat, and the next three league opponents all sit in the
+              top four; the market stays shut until January, which is when every
+              link on these pages either becomes a bid or goes quiet.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3846,7 +3844,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Miles ahead, says Linz. Nowhere near, says Carragher."
+        "Fifteen men and a flight to Linz."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

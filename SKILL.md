@@ -461,6 +461,7 @@ The file src/lineupData.js exports:
 - Respect the slot's role — don't put a DEF into an LW slot, etc.
 - If uncertain about a specific slot, fall back to the previous starter for that slot unless news contradicts it
 - If a formation's XI truly has no sensible fit for a slot due to injuries (e.g., all natural RBs injured), pick the closest cover and note it in PLAYER_EVIDENCE
+- **Champions League fixtures use the UEFA list, not the Premier League squad** (added 12 Oct 2026). Endo and Chiesa were left off Liverpool's 2026-27 league-phase list (SI, 4 Sep); the 12 Oct morning edition still named Endo as midfield cover "in Linz", and UEFA.com's own predicted XI put Chiesa on the right. Before naming any player as a starter or as cover for a European game, check him against the registered list; a published preview is not proof of eligibility.
 - **`SLOT_CONFIDENCE` and `SLOT_RATIONALE` share the same keys (`LB:`, `ST:` ...) and `SLOT_CONFIDENCE` comes FIRST in the file.** A scripted find-and-replace on `\n  LB: "..."` hits the confidence levels, not the rationale (seen 30 Sep evening and again 1 Oct evening). Rewrite the rationale by slicing between `export const SLOT_RATIONALE = {` and its closing `};`, then confirm `SLOT_CONFIDENCE` still holds only `High` / `Medium` / `Low`.
 
 ## STEP 7.5: QUEUE A COVER IMAGE REQUEST (if today's lead is genuinely visual)
