@@ -265,7 +265,7 @@ export const ALTERNATIVES = {
   LCB: [{ playerId: 11, reason: "Jacquet · first in line if Van Dijk's calf rules him out" }, { playerId: 29, reason: "Araujo · a centre-half by trade" }],
   RCB: [{ playerId: 11, reason: "Jacquet · Sunday's starter, rotated out by UEFA.com" }, { playerId: 29, reason: "Araujo · would move inside" }],
   RB:  [{ playerId: 29, reason: "Araujo · started v City, booked on 8" }, { playerId: 5, reason: "Gomez · a specialist right-back while Bradley is out" }],
-  LDM: [{ playerId: 20, reason: "Nyoni · 19 · the only spare midfielder in Linz, Endo being outside the UCL squad" }],
+  LDM: [{ playerId: 20, reason: "Nyoni · 19 · one of two spare midfielders in Linz, with McConnell; Endo is outside the UCL squad" }],
   RDM: [{ playerId: 20, reason: "Nyoni · 19 · pivot depth in Europe" }, { playerId: 17, reason: "Endo · domestic only; the partner at Brentford" }],
   LAM: [{ playerId: 30, reason: "Barcola · on the left in the Evening Standard's XI" }],
   CAM: [{ playerId: 20, reason: "Nyoni · replaced Wirtz v City" }, { playerId: 30, reason: "Barcola · could move inside" }],
