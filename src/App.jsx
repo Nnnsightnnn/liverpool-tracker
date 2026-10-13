@@ -570,11 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday morning, and the question over Linz is the captain's
-          calf. Van Dijk left Anfield on Sunday with a knock he called pretty
-          painful and went home for treatment; every preview still names him.
-          Liverpool are ninth, Iraola speaks in Austria this afternoon, and a
-          LASK side without a win in four waits tomorrow evening.
+          Tuesday evening, and the team news has come without its missing
+          men. Szoboszlai, Isak and Gakpo stayed in England, and Iraola says
+          none of them has trained with the group; Van Dijk flew, one game from
+          two hundred as captain. Liverpool are ninth, and a LASK side without a
+          win in four waits tomorrow at a quarter to six.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,28 +607,27 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and the man every preview agrees on is the one nobody is sure of.
-              Van Dijk is thirty-five, he finished Sunday with a calf he described as
-              pretty painful, and he went home for treatment, because
-              he wants to be ready for Linz. The selection around him is a question of
-              which preview you believe: UEFA's rotates three of his partners, Sports
-              Mole's keeps them all and moves Barcola to the right to make room for
-              Ngumoha, and the Liverpool Echo thinks Nyoni, nineteen, may start his
-              first Champions League game. Iraola will answer some of it at half past
-              three. Jamie Carragher spent Monday night timing how long it took to get
-              Nyoni ready on Sunday, and found it too long. On a thin squad, the
-              seconds count as much as the names.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the squad is in Austria and the absences have a shape. Iraola left
+              Szoboszlai, Isak and Gakpo at home, said none of the three had trained
+              with the group, and warned that it would be difficult to name the same
+              eleven that lost to City. The captain made the trip, which is the most
+              anyone outside the building knows about his calf, and if he starts he
+              becomes the eighth Liverpool player to wear the armband two hundred times.
+              Behind him the party runs to two academy names, Sonni-Lambie and Lucky.
+              Kerkez spent his press conference praising the winger in front of him;
+              Kühbauer spent his telling LASK not to sulk. Seven times in ten, Opta
+              says, Liverpool win this. The other three are why every fit man is on
+              the plane.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off. A captain's
-              calf; fifty seconds on the touchline; a manager's afternoon in Linz;
-              ten goal contributions in Trabzon; and a night in Graz that Austria
-              still remembers. Read them in order. The season has six league games
+              five dispatches from the writers who never clock off. A manager's
+              not yet; a captain's two hundredth; a left-back on his winger; a
+              sensation, as Linz would have it; and seven chances in ten. Read them in order. The season has six league games
               behind it, nine points and a first defeat, and the next three league
               opponents all sit in the top four; the market stays shut until January,
               which is when every link on these pages either becomes a bid or goes quiet.
@@ -3842,7 +3841,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A captain's calf, and a thin circle."
+        "Twenty-three on the plane, three left behind."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
