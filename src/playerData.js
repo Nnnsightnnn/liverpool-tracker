@@ -1011,9 +1011,9 @@ export const NEWS_DIGEST = {
       detail: "Laola1, on Monday lunchtime, went back to August 2004, when Grazer AK won 1-0 at Anfield and still went out. Rene Aufhauser, who played that night, said of LASK: 'Ich traue ihnen zu, einen Punkt zu holen' (I believe they can take a point), given self-belief and a Sterntag. Heute, also on Monday, carried Kühbauer's worry over Usor: 'Der Moses hat starke Schulterschmerzen.'",
     },
     {
-      title: "Iraola's 24-Game League Run Is Over (Opta Analyst, 2d ago)",
+      title: "Iraola's First League Defeat In 24 Games (Opta Analyst, 2d ago)",
       category: "general",
-      detail: "Opta Analyst's stats page on Sunday's defeat: it ended a run of 24 league games without defeat for Iraola, ten wins and thirteen draws stretching back to January, and it was his fifth Premier League loss to Manchester City, his joint-most against any club. It also ranks the 3-0 among Liverpool's joint-heaviest home defeats in the competition.",
+      detail: "Opta Analyst's stats page on Sunday's defeat: it was Iraola's first league defeat in 24 games, ending a run of 23 unbeaten, ten wins and thirteen draws stretching back to January, and it was his fifth Premier League loss to Manchester City, his joint-most against any club. It also ranks the 3-0 among Liverpool's joint-heaviest home defeats in the competition.",
     },
     {
       title: "Salah's Ten In Seven (Al Jazeera, 2d ago)",
@@ -1130,7 +1130,7 @@ export const FORM_TRENDS = {
   generatedAt: "2026-10-13T08:30:00Z",
   competition: "PL",
   played: 6,
-  headline: "Sunday ended something the results table had hidden: Iraola's run of twenty-four league games without defeat, ten wins and thirteen draws going back to January (Opta Analyst), a run built far more on not losing than on winning. The underlying numbers had been warning of it, seven league goals from 8.43 expected over six games and seven conceded from 7.22, and the City game was the purest example: twelve shots to four and 0.79 expected goals to 0.17 at eleven against eleven (Sports Mole), then 0.38 from open play over the ninety (Opta Analyst). Wednesday is a different competition against weaker opposition, and Liverpool have never lost a competitive match in Austria, four wins and a draw (Sports Mole), but the forward line that made those numbers is the one going to Linz.",
+  headline: "Sunday ended something the results table had hidden: Iraola's run of twenty-three league games without defeat, ten wins and thirteen draws going back to January (Opta Analyst), a run built far more on not losing than on winning. The underlying numbers had been warning of it, seven league goals from 8.43 expected over six games and seven conceded from 7.22, and the City game was the purest example: twelve shots to four and 0.79 expected goals to 0.17 at eleven against eleven (Sports Mole), then 0.38 from open play over the ninety (Opta Analyst). Wednesday is a different competition against weaker opposition, and Liverpool have never lost a competitive match in Austria, four wins and a draw (Sports Mole), but the forward line that made those numbers is the one going to Linz.",
   diagnosis: [
     {
       label: "Ten men, then sixteen minutes",
@@ -1296,7 +1296,7 @@ export const FORM_TRENDS = {
     note: "Premier League only, six games. xG for is 2.73 (Newcastle) plus 1.61 (Forest) plus 0.53 (Ipswich) plus 1.13 (Fulham) plus 1.57 (Bournemouth) plus 0.86 (City); xG against is 1.43 plus 2.30 plus 0.72 plus 0.71 plus 0.76 plus 1.30. The City card's 0.86 is Opta's and its 1.30 is Sofascore's (whose Liverpool figure, 0.86, matches Opta's); Opta's own City figure has not been published in text and replaces it when it is. Provenance caveat from 21 September stands: Opta's published season expected-goals-against figure through five games was 6.12 rather than the 5.92 those per-match cards summed to. Champions League and Carabao Cup cards are shown but not aggregated. First-half splits exist only for Forest, Tottenham and City and are not aggregated.",
   },
   optaFacts: [
-    "Iraola's defeat on Sunday ended a run of 24 Premier League games unbeaten, W10 D13; it was his fifth league defeat by Manchester City, his joint-most against any club (Opta Analyst).",
+    "Sunday was Iraola's first Premier League defeat in 24 games, ending a run of 23 unbeaten, W10 D13; it was his fifth league defeat by Manchester City, his joint-most against any club (Opta Analyst).",
     "The 3-0 is Liverpool's joint-heaviest Premier League home defeat, level with 3-0 losses to West Ham (2015) and Nottingham Forest (2025) and 4-1 defeats by Chelsea (2005) and City (2021) (Opta Analyst).",
     "LASK have never beaten an English side in six meetings (D1 L5), and at home to English opposition have scored four and conceded eleven (Sports Mole).",
     "Liverpool have never lost a competitive match in Austria, four wins and one draw, and have lost one of ten against Austrian opposition (Sports Mole).",
@@ -1384,7 +1384,7 @@ export const SQUAD_LOAD = {
       name: "Wataru Endo",
       issue: "No injury; available domestically and expected to leave in January",
       status: "Unused substitute against City (ESPN); NOT in the Champions League squad (SI), so he stays out of Linz",
-      note: "Left off the league-phase list with Chiesa on 4 September (SI), which makes him irrelevant to Wednesday and central to Saturday: with Gravenberch banned for Brentford and Szoboszlai undated, the thirty-three-year-old the club has agreed to sell in January is the senior option beside Mac Allister. Nyoni, nineteen, is the alternative in both competitions.",
+      note: "Left off the league-phase list with Chiesa on 4 September (SI), which makes him irrelevant to Wednesday and central to Saturday: with Gravenberch banned for Brentford and Szoboszlai undated, the thirty-three-year-old expected to leave in January is the senior option beside Mac Allister. Nyoni, nineteen, is the alternative in both competitions.",
       source: "ESPN / SI / Liverpool FC / CaughtOffside",
     },
     {
@@ -1466,7 +1466,7 @@ export const SEASON_PROJECTION = {
   pointsPerGame: 1.5,
   projectedPoints: 57,
   projectedFinish: "Conference League places on current pace",
-  headline: "Nothing in the league moves until Saturday, so the pace stands where Sunday left it: nine points from six, 1.50 a game, fifty-seven over a season (ESPN). Sunday also ended Iraola's personal run of twenty-four league games unbeaten, which began at Bournemouth in January (Opta Analyst), and six games remain far too few to forecast from. Brentford away on Saturday is the first of three league games against the current top four.",
+  headline: "Nothing in the league moves until Saturday, so the pace stands where Sunday left it: nine points from six, 1.50 a game, fifty-seven over a season (ESPN). Sunday also ended Iraola's personal run of twenty-three league games unbeaten, which began at Bournemouth in January (Opta Analyst), and six games remain far too few to forecast from. Brentford away on Saturday is the first of three league games against the current top four.",
   thresholds: [
     {
       label: "Champions League (top 4)",
