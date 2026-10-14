@@ -39,14 +39,14 @@ export const FORMATIONS = {
       GK: 1,    // Alisson (the one place UEFA.com's Linz preview does not rotate)
       LB: 7,    // Kerkez (back in, Tue 13 Oct evening: spoke for the players in Linz; in the Standard's and Sports Mole's XIs)
       LCB: 3,   // Van Dijk (captain; calf knock v City, 'pretty painful', a doubt; Jacquet next)
-      RCB: 5,   // Gomez (in for Jacquet per UEFA.com; first UCL start of the season)
+      RCB: 11,  // Jacquet (Wed 14 Oct morning: beside Van Dijk in Sports Mole's and The 4th Official's XIs)
       RB: 9,    // Frimpong (in for Araujo per UEFA.com)
       LCM: 13,  // Mac Allister (ninety minutes v City; no cover but Nyoni, Endo not in UCL squad)
       CM: 14,   // Gravenberch (league ban only; available in Linz)
       RCM: 18,  // Wirtz (kept at the ten by UEFA.com despite Carragher)
       LW: 25,   // Ngumoha (UEFA.com's left-sided pick; Barcola to the bench)
       ST: 31,   // Koumas (the only natural nine available)
-      RW: 28,   // Munoz (UEFA.com names Chiesa here, but Chiesa is not in the UCL squad per SI)
+      RW: 30,   // Barcola (Wed 14 Oct morning: moved to the right in the latest previews)
     },
   },
 
@@ -86,13 +86,13 @@ export const FORMATIONS = {
       GK: 1,    // Alisson (unchanged in UEFA.com's Linz preview)
       LB: 7,    // Kerkez (Tue 13 Oct evening: Evening Standard and Sports Mole both start him; Tsimikas travelled as cover)
       LCB: 3,   // Van Dijk (captain v City)
-      RCB: 5,   // Gomez (UEFA.com: in for Jacquet)
+      RCB: 11,  // Jacquet (Wed 14 Oct morning: Sports Mole and The 4th Official both keep him beside Van Dijk)
       RB: 9,    // Frimpong (UEFA.com: in for Araujo)
       LDM: 14,  // Gravenberch (league ban only, so available in Linz; out for Brentford)
       RDM: 13,  // Mac Allister (no injury, no ban)
       LAM: 25,  // Ngumoha (UEFA.com: on the left; Barcola to the bench)
       CAM: 18,  // Wirtz (UEFA.com keeps him at the ten)
-      RAM: 28,  // Munoz (UEFA.com's Chiesa is ineligible, outside the UCL squad per SI)
+      RAM: 30,  // Barcola (Wed 14 Oct morning: switched to the right in Sports Mole's and The 4th Official's XIs)
       ST: 31,   // Koumas (Isak a doubt per UEFA.com, expected to miss out per the Liverpool Echo)
     },
   },
@@ -120,15 +120,15 @@ export const FORMATIONS = {
     defaultXI: {
       GK: 1,    // Alisson (first choice)
       LCB: 3,   // Van Dijk (captain)
-      CCB: 11,  // Jacquet (out of the back four in UEFA.com's XI; the middle of a three here)
-      RCB: 5,   // Gomez (UEFA.com's pick beside Van Dijk)
+      CCB: 11,  // Jacquet (back beside Van Dijk in Wednesday's previews; the middle of a three here)
+      RCB: 29,  // Araujo (Wed 14 Oct morning: Sports Mole's and The 4th Official's right-back, a centre-half by trade)
       LWB: 7,   // Kerkez (back in on Tue 13 Oct evening; Tsimikas the cover)
       LCM: 13,  // Mac Allister (the midfielder nobody drops)
       RCM: 14,  // Gravenberch (league ban does not apply in Europe)
       RWB: 9,   // Frimpong (UEFA.com's right-back; the shape that uses him properly)
       LW: 25,   // Ngumoha (UEFA.com's left-sided pick)
       ST: 31,   // Koumas (the only natural nine)
-      RW: 28,   // Munoz (right; Chiesa not in the UCL squad)
+      RW: 30,   // Barcola (moved to the right in Wednesday's previews)
     },
   },
 };
@@ -141,34 +141,35 @@ export const FORMATIONS = {
 // Mon Oct 12 (evening): all 27 refreshed against UEFA.com's Linz preview and the Liverpool Echo's fifteen-outfielder count.
 // Tue Oct 13 (morning): all 27 refreshed for Van Dijk's calf knock, Sports Mole's Tuesday XI and injury list, and the Echo's Nyoni call.
 // Tue Oct 13 (evening): all 27 refreshed for the 23-man travelling squad, Iraola's Linz presser and the Evening Standard's XI.
+// Wed Oct 14 (morning, matchday): all 27 refreshed for Sports Mole's and The 4th Official's XIs (Ngumoha left, Barcola right, Jacquet in).
 export const PLAYER_EVIDENCE = {
   1:   "In goal in every Linz XI",   // Alisson
-  2:   "Travelled · cup tie likelier",   // Mamardashvili
-  3:   "Travelled · 200th as captain?",   // Van Dijk
-  5:   "Standard's RCB for Linz",   // Gomez
-  7:   "Spoke in Linz · starts at LB",   // Kerkez
-  32:  "Travelled as Kerkez cover",   // Tsimikas
-  8:   "Knee · long-term list (LFC)",   // Bradley
-  9:   "Standard's RB for Linz",   // Frimpong
-  10:  "ACL · long-term list (LFC)",   // Leoni
-  11:  "Rested in Standard's XI",   // Jacquet
-  12:  "Levante loan · not in 23",   // Ndukwe
-  13:  "One of four mids in the 23",   // Mac Allister
-  14:  "Plays Linz · banned Saturday",   // Gravenberch
-  15:  "Hamstring · stayed home",   // Szoboszlai
-  17:  "Not in 23 · Brentford next",   // Endo
-  18:  "Backed by Iraola · at ten",   // Wirtz
-  20:  "In 23 · bench in Standard XI",   // Nyoni
-  22:  "Ankle · not training yet",   // Gakpo
-  23:  "Thigh · stayed in England",   // Isak
-  24:  "Achilles · Boxing Day target",   // Ekitike
-  25:  "In 23 · benched by Standard",   // Ngumoha
-  26:  "Not in 23 · ineligible",   // Chiesa
-  27:  "Third keeper · travelled",   // Woodman
-  28:  "Right flank in Standard XI",   // Munoz
-  29:  "CB cover if Frimpong at RB",   // Araujo
-  30:  "Left flank per Standard",   // Barcola
-  31:  "Only senior nine in the 23",   // Koumas
+  2:   "Pushing for a start (SM)",   // Mamardashvili
+  3:   "Calf · 'If I'm fit, I play'",   // Van Dijk
+  5:   "Bench in latest XIs",   // Gomez
+  7:   "LB in three Linz XIs",   // Kerkez
+  32:  "Kerkez cover · RTK's LB",   // Tsimikas
+  8:   "Knee · no club date",   // Bradley
+  9:   "RB in False 9 XI only",   // Frimpong
+  10:  "ACL · 1 Nov possible",   // Leoni
+  11:  "Back beside Van Dijk",   // Jacquet
+  12:  "Levante loan",   // Ndukwe
+  13:  "In every Linz XI",   // Mac Allister
+  14:  "Plays Linz · banned Sat",   // Gravenberch
+  15:  "Hamstring · in England",   // Szoboszlai
+  17:  "UCL-ineligible · Sat next",   // Endo
+  18:  "At ten · Madrid watched",   // Wirtz
+  20:  "Bench in two XIs",   // Nyoni
+  22:  "Ankle · no date",   // Gakpo
+  23:  "Thigh · no date",   // Isak
+  24:  "Achilles · Boxing Day?",   // Ekitike
+  25:  "Left flank · key change",   // Ngumoha
+  26:  "UCL-ineligible",   // Chiesa
+  27:  "Third keeper",   // Woodman
+  28:  "Bench as Barcola moves",   // Munoz
+  29:  "RB in SM/4th Official XIs",   // Araujo
+  30:  "Switched to the right",   // Barcola
+  31:  "Only senior nine",   // Koumas
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -210,6 +211,10 @@ export const PLAYER_EVIDENCE = {
 //   the Linz presser and starts in both the Evening Standard's and Sports Mole's Tuesday XIs; Tsimikas travelled as cover. Iraola:
 //   'difficult to put exactly the same starting XI tomorrow'. LB Low to Medium, LAM Medium to Low (Standard has Barcola left), ST
 //   Medium to High (Koumas the only senior nine in the 23). Overall Low to Medium: eight of City's starters in this XI.
+// Wed Oct 14 (morning, matchday): TWO personnel changes in all three shapes, following the two latest previews (Sports Mole,
+//   updated 9.13pm Tue; The 4th Official, Tue evening), which agree on one XI: Jacquet for Gomez at RCB and Barcola for Munoz on
+//   the right (3-4-3: Araujo for Gomez at RCB, Barcola at RW). Frimpong held at RB against both (they pick Araujo), on the Evening
+//   Standard's and The False 9's XIs. RCB, RAM and LAM Low to Medium; LB, LDM and CAM Medium to High. Overall stays Medium: nine of City's starters.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -224,15 +229,15 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // several weeks, is replaced at RAM by Munoz; Isak (thigh, 'a small problem' per Potter) remains a fitness doubt at ST.
 export const SLOT_CONFIDENCE = {
   GK: "High",
-  LB: "Medium",
+  LB: "High",
   LCB: "Medium",
-  RCB: "Low",
+  RCB: "Medium",
   RB: "Low",
-  LDM: "Medium",
+  LDM: "High",
   RDM: "High",
-  LAM: "Low",
-  CAM: "Medium",
-  RAM: "Low",
+  LAM: "Medium",
+  CAM: "High",
+  RAM: "Medium",
   ST: "High",
 };
 
@@ -242,16 +247,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Tue Oct 13, evening - Kerkez, who spoke for the players in Linz and starts in both the Evening Standard's and Sports Mole's XIs; Tsimikas travelled as cover. Medium, up from Low.",
-  LCB: "Tue Oct 13, evening - Van Dijk, who travelled and could captain the club for a two-hundredth time; no club word on the calf. Jacquet next. Medium.",
-  RCB: "Tue Oct 13, evening - Gomez, now in the Evening Standard's XI as well as UEFA.com's, with Jacquet rested. Low.",
-  RB: "Tue Oct 13, evening - Frimpong, the Evening Standard's pick and UEFA.com's; Sports Mole still has Araujo. Low.",
-  LDM: "Tue Oct 13, evening - Gravenberch; Aldridge expects him to play because he is banned at the weekend (Liverpool Echo). Medium.",
-  RDM: "Tue Oct 13, evening - Mac Allister, one of four midfielders in the 23 and in every published XI. High.",
-  LAM: "Tue Oct 13, evening - Ngumoha holds on UEFA.com's and Sports Mole's XIs, but the Evening Standard puts Barcola back on the left. Low, down from Medium.",
-  CAM: "Tue Oct 13, evening - Wirtz, backed by Iraola on Tuesday: 'better and worse games' (Roundtable Sports). Medium.",
-  RAM: "Tue Oct 13, evening - Munoz, on the right in UEFA.com's and the Evening Standard's XIs; Sports Mole moves Barcola there. Low.",
-  ST: "Tue Oct 13, evening - Koumas, the only senior centre-forward in the 23 for Linz. High, up from Medium.",
+  LB: "Wed Oct 14, morning - Kerkez, at left-back in Sports Mole's, The 4th Official's and The False 9's XIs; only Rush The Kop prefers Tsimikas. High, up from Medium.",
+  LCB: "Wed Oct 14, morning - Van Dijk, in every XI, with no club word on the calf on the morning of the game; Jacquet next. Medium.",
+  RCB: "Wed Oct 14, morning - Jacquet, beside the captain in the two latest XIs (Sports Mole; The 4th Official); Gomez to the bench. Medium, up from Low.",
+  RB: "Wed Oct 14, morning - Frimpong held on the Evening Standard's and The False 9's XIs, but Sports Mole and The 4th Official both pick Araujo. Low.",
+  LDM: "Wed Oct 14, morning - Gravenberch, in every XI; the ban is domestic and falls on Saturday. High, up from Medium.",
+  RDM: "Wed Oct 14, morning - Mac Allister, in every Linz XI. High.",
+  LAM: "Wed Oct 14, morning - Ngumoha, on the left in Sports Mole's, The 4th Official's and The False 9's XIs; Sports Mole calls it the key change. Medium, up from Low.",
+  CAM: "Wed Oct 14, morning - Wirtz, at the ten in every XI; Real Madrid's scouts watched him on Sunday (The Hard Tackle, via TEAMtalk). High, up from Medium.",
+  RAM: "Wed Oct 14, morning - Barcola, switched to the right by Sports Mole and The 4th Official; Munoz keeps it in The False 9's XI. Medium, up from Low.",
+  ST: "Wed Oct 14, morning - Koumas, the only senior centre-forward in the squad and up front in every XI. High.",
 };
 
 
@@ -263,13 +268,13 @@ export const ALTERNATIVES = {
   GK:  [{ playerId: 2, reason: "Mamardashvili · on the bench in UEFA.com's Linz preview; the Chelsea cup tie on 28 October is likelier" }, { playerId: 27, reason: "Woodman · third-choice" }],
   LB:  [{ playerId: 32, reason: "Tsimikas · travelled as cover; UEFA.com's Monday pick" }],
   LCB: [{ playerId: 11, reason: "Jacquet · first in line if Van Dijk's calf rules him out" }, { playerId: 29, reason: "Araujo · a centre-half by trade" }],
-  RCB: [{ playerId: 11, reason: "Jacquet · Sunday's starter, rotated out by UEFA.com" }, { playerId: 29, reason: "Araujo · would move inside" }],
+  RCB: [{ playerId: 5, reason: "Gomez · UEFA.com's and the Evening Standard's pick" }, { playerId: 29, reason: "Araujo · would move inside, as in The False 9's XI" }],
   RB:  [{ playerId: 29, reason: "Araujo · started v City, booked on 8" }, { playerId: 5, reason: "Gomez · a specialist right-back while Bradley is out" }],
   LDM: [{ playerId: 20, reason: "Nyoni · 19 · one of two spare midfielders in Linz, with McConnell; Endo is outside the UCL squad" }],
   RDM: [{ playerId: 20, reason: "Nyoni · 19 · pivot depth in Europe" }, { playerId: 17, reason: "Endo · domestic only; the partner at Brentford" }],
-  LAM: [{ playerId: 30, reason: "Barcola · on the left in the Evening Standard's XI" }],
+  LAM: [{ playerId: 30, reason: "Barcola · the left in the Evening Standard's XI" }, { playerId: 28, reason: "Munoz · either flank" }],
   CAM: [{ playerId: 20, reason: "Nyoni · replaced Wirtz v City" }, { playerId: 30, reason: "Barcola · could move inside" }],
-  RAM: [{ playerId: 30, reason: "Barcola · Sports Mole's right-sided pick for Linz" }, { playerId: 25, reason: "Ngumoha · either flank" }],
+  RAM: [{ playerId: 28, reason: "Munoz · on the right in The False 9's XI; benched by Sports Mole" }, { playerId: 25, reason: "Ngumoha · either flank" }],
   ST:  [{ playerId: 30, reason: "Barcola · the alternative nine" }, { playerId: 18, reason: "Wirtz · the false-nine option with Isak out" }],
 };
 
@@ -278,6 +283,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-10-13T22:30:00Z",
-  reason: "Tue Oct 13, evening. For LASK Linz away (Champions League, Wed 14 Oct, 5.45pm BST). One change: Kerkez back for Tsimikas at left-back, after speaking for the players in Linz and appearing in the Evening Standard's and Sports Mole's XIs. Alisson; Frimpong, Gomez, Van Dijk, Kerkez; Gravenberch, Mac Allister; Ngumoha, Wirtz, Munoz; Koumas, eight of City's starters. Iraola: 'difficult to put exactly the same starting XI tomorrow'. Van Dijk travelled; no word on his calf.",
+  generated_at: "2026-10-14T08:30:00Z",
+  reason: "Wed Oct 14, morning (matchday). For LASK Linz away (Champions League, tonight, 5.45pm BST). Two changes, following the two latest previews (Sports Mole; The 4th Official): Jacquet for Gomez at right centre-back and Barcola switched to the right for Munoz. Alisson; Frimpong, Jacquet, Van Dijk, Kerkez; Gravenberch, Mac Allister; Ngumoha, Wirtz, Barcola; Koumas, nine of City's starters. Both previews pick Araujo at right-back; Frimpong held on the Evening Standard's and The False 9's. Van Dijk's calf still unconfirmed.",
 };

@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-01T12:00:00Z",
   "status": "OPEN",
   "tracker": "liverpool",
-  "leadStory": "As of Tuesday evening, Liverpool are in Linz without Szoboszlai, Isak and Gakpo, none of whom has trained with the group, Iraola said, warning it would be 'difficult to put exactly the same starting XI tomorrow' (Liverpool FC); Van Dijk travelled and could captain the club for the 200th time.",
+  "leadStory": "Matchday in Linz: the latest previews put Ngumoha on the left and Barcola on the right, with Koumas the only senior nine (Sports Mole; The 4th Official), while Kühbauer may set LASK up with a back five (oe24).",
   "action": "generate",
   "note": "Kenny asked for a better cover than the hand-drawn SVG plates. Generate ONE image per the prompt, save it at `output`, then set COVER_IMAGE.src to it, credit 'Illustration · Antigravity', a fresh generatedAt, and set this file's status to CLOSED. Evergreen on purpose: it should still be right after the City result.",
   "currentPlate": "/assets/cover/2026-10-01-anfield-after-dark.svg",

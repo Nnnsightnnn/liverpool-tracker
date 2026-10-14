@@ -570,11 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday evening, and the team news has come without its missing
-          men. Szoboszlai, Isak and Gakpo stayed in England, and Iraola says
-          none of them has trained with the group; Van Dijk flew, one game from
-          two hundred as captain. Liverpool are ninth, and a LASK side without a
-          win in four waits tomorrow at a quarter to six.
+          Matchday in Linz, and the previews have found Liverpool a front
+          line: Ngumoha on the left, Barcola switched to the right, Koumas alone
+          through the middle. Kühbauer may answer with five at the back. Liverpool
+          are ninth, a quarter to six is the hour, and the side that wins here
+          takes something better than Sunday to Brentford.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,27 +607,26 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the squad is in Austria and the absences have a shape. Iraola left
-              Szoboszlai, Isak and Gakpo at home, said none of the three had trained
-              with the group, and warned that it would be difficult to name the same
-              eleven that lost to City. The captain made the trip, which is the most
-              anyone outside the building knows about his calf, and if he starts he
-              becomes the eighth Liverpool player to wear the armband two hundred times.
-              Behind him the party runs to two academy names, Sonni-Lambie and Lucky.
-              Kerkez spent his press conference praising the winger in front of him;
-              Kühbauer spent his telling LASK not to sulk. Seven times in ten, Opta
-              says, Liverpool win this. The other three are why every fit man is on
-              the plane.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and the guessing has narrowed to a shape. The last two previews
+              before kick-off agree on an eleven that moves Barcola to the right,
+              gives Ngumoha the left, puts Jacquet back beside the captain and asks
+              Koumas to lead the line alone, because the three who would usually
+              share it are in England. Van Dijk's calf is still a question nobody at
+              the club has answered. In Linz the papers did their own arithmetic,
+              about €538m against €38m, and noticed that no English reporter asked
+              Iraola a single thing about LASK. Kühbauer has noticed too. He may
+              defend with five, and he has told his players not to freeze at a name.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off. A manager's
-              not yet; a captain's two hundredth; a left-back on his winger; a
-              sensation, as Linz would have it; and seven chances in ten. Read them in order. The season has six league games
+              five dispatches from the writers who never clock off. A front line
+              redrawn; a back three that becomes five; twenty questions without
+              LASK in them; a shopping list for both flanks; and two kick-offs in
+              one Austrian afternoon. Read them in order. The season has six league games
               behind it, nine points and a first defeat, and the next three league
               opponents all sit in the top four; the market stays shut until January,
               which is when every link on these pages either becomes a bid or goes quiet.
@@ -3841,7 +3840,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Twenty-three on the plane, three left behind."
+        "A new front line, a quarter to six."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
