@@ -44,7 +44,7 @@ export const FORMATIONS = {
       LCM: 13,  // Mac Allister (ninety minutes v City; no cover but Nyoni, Endo not in UCL squad)
       CM: 14,   // Gravenberch (league ban only; available in Linz)
       RCM: 18,  // Wirtz (kept at the ten by UEFA.com despite Carragher)
-      LW: 25,   // Ngumoha (UEFA.com's left-sided pick; Barcola to the bench)
+      LW: 25,   // Ngumoha (left in UEFA.com's and Wednesday's previews; Barcola moves to RW)
       ST: 31,   // Koumas (the only natural nine available)
       RW: 30,   // Barcola (Wed 14 Oct morning: moved to the right in the latest previews)
     },
@@ -90,7 +90,7 @@ export const FORMATIONS = {
       RB: 9,    // Frimpong (UEFA.com: in for Araujo)
       LDM: 14,  // Gravenberch (league ban only, so available in Linz; out for Brentford)
       RDM: 13,  // Mac Allister (no injury, no ban)
-      LAM: 25,  // Ngumoha (UEFA.com: on the left; Barcola to the bench)
+      LAM: 25,  // Ngumoha (on the left in UEFA.com's and Wednesday's previews; Barcola moves to RAM)
       CAM: 18,  // Wirtz (UEFA.com keeps him at the ten)
       RAM: 30,  // Barcola (Wed 14 Oct morning: switched to the right in Sports Mole's and The 4th Official's XIs)
       ST: 31,   // Koumas (Isak a doubt per UEFA.com, expected to miss out per the Liverpool Echo)
@@ -150,7 +150,7 @@ export const PLAYER_EVIDENCE = {
   7:   "LB in three Linz XIs",   // Kerkez
   32:  "Kerkez cover · RTK's LB",   // Tsimikas
   8:   "Knee · no club date",   // Bradley
-  9:   "RB in False 9 XI only",   // Frimpong
+  9:   "RB in Standard/False 9 XIs",   // Frimpong
   10:  "ACL · 1 Nov possible",   // Leoni
   11:  "Back beside Van Dijk",   // Jacquet
   12:  "Levante loan",   // Ndukwe
@@ -271,7 +271,7 @@ export const ALTERNATIVES = {
   RCB: [{ playerId: 5, reason: "Gomez · UEFA.com's and the Evening Standard's pick" }, { playerId: 29, reason: "Araujo · would move inside, as in The False 9's XI" }],
   RB:  [{ playerId: 29, reason: "Araujo · started v City, booked on 8" }, { playerId: 5, reason: "Gomez · a specialist right-back while Bradley is out" }],
   LDM: [{ playerId: 20, reason: "Nyoni · 19 · one of two spare midfielders in Linz, with McConnell; Endo is outside the UCL squad" }],
-  RDM: [{ playerId: 20, reason: "Nyoni · 19 · pivot depth in Europe" }, { playerId: 17, reason: "Endo · domestic only; the partner at Brentford" }],
+  RDM: [{ playerId: 20, reason: "Nyoni · 19 · pivot depth in Europe" }],
   LAM: [{ playerId: 30, reason: "Barcola · the left in the Evening Standard's XI" }, { playerId: 28, reason: "Munoz · either flank" }],
   CAM: [{ playerId: 20, reason: "Nyoni · replaced Wirtz v City" }, { playerId: 30, reason: "Barcola · could move inside" }],
   RAM: [{ playerId: 28, reason: "Munoz · on the right in The False 9's XI; benched by Sports Mole" }, { playerId: 25, reason: "Ngumoha · either flank" }],

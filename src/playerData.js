@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Wed Oct 14, morning - On loan at Levante, so not part of the Champions League picture.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Wed Oct 14, morning - Levante loanee, outside the Champions League picture entirely.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Wed Oct 14, morning - Outside the Champions League list, so he watches Linz from afar; Saturday at Brentford, with Gravenberch banned, is his game.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Wed Oct 14, morning - Watches Linz from afar, left off the Champions League list; with Gravenberch banned, Saturday at Brentford is his game.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "injured", outSince: "2026-09-27", injuryNote: "Wed Oct 14, morning - Ankle; in England, not back in group training, no date (Liverpool FC).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "injured", outSince: "2026-09-27", injuryNote: "Wed Oct 14, morning - Ankle; no date, still not back in group training, and at home in England (Liverpool FC).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Wed Oct 14, morning - Achilles; long-term list (Liverpool FC), with Boxing Day at Hull the projection.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Wed Oct 14, morning - Achilles; Boxing Day at Hull is still the projection, and he stays on the club's long-term list (Liverpool FC).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -979,7 +979,7 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   generatedAt: "2026-10-14T08:30:00Z",
-  summary: "Matchday in Linz, and the latest previews have settled on a reshuffled front three for tonight's 5.45pm kick-off: Rio Ngumoha on the left, Bradley Barcola moved to the right, Wirtz at the ten and Koumas still the only senior nine, in both Sports Mole's XI, last updated at 9.13pm on Tuesday, and The 4th Official's (Sports Mole; The 4th Official). On the other bench, Dietmar Kühbauer may switch LASK to a back three that drops into five without the ball, Austria's oe24 reported at 8.30 this morning, with Samuel Adeniran fit again after a fractured cheekbone (oe24). Heute put the gap in money, Liverpool's expected eleven worth about €538m against LASK's €38m, and noted that LASK did not come up once in roughly twenty questions at Iraola's press conference (Heute); Kühbauer's answer, via the club's team news, was that 'It would be a shame if we were to freeze at the mere mention of their name' (Liverpool FC). Van Dijk's calf is still unconfirmed either way, and Liverpool go into the second of nine games in twenty-eight days ninth on nine, with Brentford on Saturday (Liverpool FC; ESPN).",
+  summary: "Matchday in Linz, and with Isak, Gakpo and Szoboszlai in England the latest previews have settled on a reshuffled front three for tonight's 5.45pm kick-off: Rio Ngumoha on the left, Bradley Barcola moved to the right, Wirtz at the ten and Koumas still the only senior nine, in both Sports Mole's XI, last updated at 9.13pm on Tuesday, and The 4th Official's (Sports Mole; The 4th Official). On the other bench, Dietmar Kühbauer may switch LASK to a back three that drops into five without the ball, Austria's oe24 reported at 8.30 this morning, with Samuel Adeniran fit again after a fractured cheekbone (oe24). Heute put the gap in money, Liverpool's expected eleven worth about €538m against LASK's €38m, and noted that LASK did not come up once in roughly twenty questions at Iraola's press conference (Heute); Kühbauer's answer, via the club's team news, was that 'It would be a shame if we were to freeze at the mere mention of their name' (Liverpool FC). Van Dijk's calf is still unconfirmed either way, and Liverpool go into the second of nine games in twenty-eight days ninth on nine, with Brentford on Saturday (Liverpool FC; ESPN).",
   keyTopics: [
     {
       title: "Matchday: The Previews Swap The Flanks (Sports Mole / The 4th Official, today)",
@@ -1125,7 +1125,7 @@ export const OPPOSITION = {
       date: "2026-09-13",
       opponent: "Sturm Graz",
       home: false,
-      score: "2-1",
+      score: "1-2",
       result: "L",
       note: "A league defeat in Graz five days after the Champions League opener (ESPN).",
     },
@@ -1133,7 +1133,7 @@ export const OPPOSITION = {
       date: "2026-09-08",
       opponent: "AEK Athens",
       home: false,
-      score: "1-0",
+      score: "0-1",
       result: "L",
       note: "Champions League opening night: Razvan Marin's 21st-minute free-kick into the top corner was the only goal (ESPN).",
     },
