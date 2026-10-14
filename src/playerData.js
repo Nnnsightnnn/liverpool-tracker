@@ -279,7 +279,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 3, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Wed Oct 14, evening - Hat-trick in Linz, on 24, 37 and 66, his first goals for the club in his seventh appearance; player of the match for UEFA and rated 9.7 by SI.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
+    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Wed Oct 14, evening - Hat-trick in Linz, on 24, 37 and 66, his first goals for the club in his seventh appearance; player of the match for UEFA and rated 9.7 by SI.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
     physical: { height: 182, weight: 72, pace: 91, acceleration: 92, sprintSpeed: 90 },
     career: [
       { years: "2010-2020", club: "Lyon Academy", fee: null, type: "youth" },
@@ -963,7 +963,7 @@ export const DISPATCHES = [
     byline: "SI / FotMob",
     dateline: "Linz · 14 October",
     category: "Tactics",
-    body: "On Wednesday morning the round-ups had Glen Johnson asking Liverpool to fix both full-back positions. By Wednesday night the two full-backs who played had a hand in four of the six. Tsimikas, in for Kerkez, delivered the corner for Araujo and the cross for Frimpong's header; Frimpong, given the right-back shirt Araujo had worn on Sunday, scored that header and made the fifth and sixth (SI; Sky Sports). FotMob rated them 9.0 and 8.8, behind only Barcola's 9.7 (FotMob). Neither played the last match in the league, and only one of them is likely to start the next.",
+    body: "On Wednesday morning the round-ups had Glen Johnson asking Liverpool to fix both full-back positions. By Wednesday night the two full-backs who played had a hand in four of the six. Tsimikas, in for Kerkez, delivered the corner for Araujo and the cross for Frimpong's header; Frimpong, given the right-back shirt Araujo had worn on Sunday, scored that header and made the fifth and sixth (SI; Sky Sports). FotMob and SI rated them 9.0 and 8.8, behind only Barcola's 9.7 (SI; FotMob). Neither started the last match in the league, and only one of them is likely to start the next.",
   },
   {
     n: "04",
@@ -1336,13 +1336,20 @@ export const FORM_TRENDS = {
     "Liverpool have created nine big chances in the Premier League this season, the joint-fewest in the division (Sky Sports; Brentford FC).",
     "Brentford and Liverpool are two of only four Premier League sides yet to concede from a set piece this season (Brentford FC).",
   ],
-  sources: ["Opta Analyst", "oe24", "Rush The Kop", "Sofascore", "ESPN", "Sports Mole", "Sky Sports", "Liverpool Echo", "Goal", "Liverpool FC", "Squawka", "FotMob", "This Is Anfield", "BBC Sport", "Premier League", "TEAMtalk", "Hayters", "Yahoo Sports", "The Transfer Hub", "SI"],
+  sources: ["Opta Analyst", "Sofascore", "ESPN", "Sports Mole", "Sky Sports", "Goal", "Liverpool FC", "Squawka", "FotMob", "This Is Anfield", "Premier League", "Hayters", "Yahoo Sports", "The Transfer Hub", "SI"],
 };
 export const SQUAD_LOAD = {
   generatedAt: "2026-10-14T22:30:00Z",
   headline: "Linz settled one question and set another. Van Dijk's calf is no bar: he came on for the last half-hour, as did Gomez, after Iraola rested him, Kerkez, Mac Allister and Munoz for Saturday (Sky Sports; beIN Sports). What it did not change is the list for Brentford: Gravenberch suspended, Szoboszlai, Isak and Gakpo still doubts, Ekitike, Bradley and Leoni in rehabilitation (DaveOCKOP). Three days separate the games, and the closed squad now has to find a midfield partner for Mac Allister at the Gtech.",
   minutesNote: "Premier League minutes are not published here yet. Six league games, one Champions League game and one Carabao Cup tie have been played and no reliable per-player minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   unavailable: [
+    {
+      name: "Ryan Gravenberch",
+      issue: "Suspension: one match, for the two bookings that sent him off against City",
+      expected: "Misses Brentford on 17 October only; available again for Villarreal in the Champions League and Brighton in the league (DaveOCKOP; dave.sport)",
+      note: "Played the full ninety in Linz, where the ban did not apply, hit the post and was rated 7.5 by SI. Endo or Nyoni replaces him beside Mac Allister.",
+      source: "DaveOCKOP / dave.sport / SI",
+    },
     {
       name: "Dominik Szoboszlai",
       issue: "Tight hamstring, an 'overload' brought back from Hungary duty",
@@ -1476,7 +1483,6 @@ export const SQUAD_LOAD = {
     "This Is Anfield",
     "Opta Analyst",
     "ESPN",
-    "NBC Sports",
     "Liverpool Echo",
     "Roundtable Sports",
     "Anfield Index via Yahoo Sports",
@@ -1491,16 +1497,11 @@ export const SQUAD_LOAD = {
     "Anfield Index",
     "UEFA.com",
     "3 Added Minutes",
-    "The Independent",
     "Goal",
     "Empire of the Kop",
-    "Rush The Kop",
     "Evening Standard",
     "DaveOCKOP",
     "beIN Sports",
-    "FotMob",
-    "SI",
-    "Sky Sports",
     "LiveScore",
     "dave.sport",
   ],
@@ -1512,7 +1513,7 @@ export const SEASON_PROJECTION = {
   pointsPerGame: 1.5,
   projectedPoints: 57,
   projectedFinish: "Conference League places on current pace",
-  headline: "Nine points from six games is 1.50 a game and fifty-seven over thirty-eight (ESPN), and six games is still too small a sample to call a forecast. Wednesday's six goals in Linz sit outside this board. Saturday at Brentford is the first of three league games against sides currently fourth, third and second, and the only one of them away from Anfield.",
+  headline: "Linz adds three Champions League points and nothing here: the league pace is still fifty-seven, from nine points in six games at 1.50 a game (ESPN), and a sample that small is a pace, not a forecast. Saturday at Brentford is the first of three league games against sides currently fourth, third and second, and the only one of them away from Anfield.",
   thresholds: [
     {
       label: "Champions League (top 4)",
