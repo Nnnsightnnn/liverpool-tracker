@@ -570,11 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Matchday in Linz, and the previews have found Liverpool a front
-          line: Ngumoha on the left, Barcola switched to the right, Koumas alone
-          through the middle. Kühbauer may answer with five at the back. Liverpool
-          are ninth, a quarter to six is the hour, and the side that wins here
-          takes something better than Sunday to Brentford.
+          Wednesday night in Linz, and Barcola finally scored for Liverpool,
+          three times, in a 6-3 win that turned untidy once Iraola changed both
+          centre-backs at 4-0 and LASK scored three in fourteen minutes. Six points
+          from two in Europe; ninth in the league, and on Saturday at three,
+          unbeaten Brentford, without Gravenberch.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,26 +607,28 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and the guessing has narrowed to a shape. The last two previews
-              before kick-off agree on an eleven that moves Barcola to the right,
-              gives Ngumoha the left, puts Jacquet back beside the captain and asks
-              Koumas to lead the line alone, because the three who would usually
-              share it are in England. Van Dijk's calf is still a question nobody at
-              the club has answered. In Linz the papers did their own arithmetic,
-              about €538m against €38m, and noticed that no English reporter asked
-              Iraola a single thing about LASK. Kühbauer has noticed too. He may
-              defend with five, and he has told his players not to freeze at a name.
+              <span style={{ fontStyle: "italic", color: T.red }}>Evening</span>,{" "}
+              and the forward who could not score has three. Barcola came from
+              Paris with two Champions League medals and went six games without a
+              goal or an assist; in Linz he scored on twenty-four, thirty-seven and
+              sixty-six minutes, the first of them ninety-six seconds after Araujo
+              had headed his own first for the club. Frimpong and Tsimikas, the
+              full-backs the morning papers wanted replaced, had a hand in four of
+              the six. Then, at 4-0, Iraola took off both centre-backs together; LASK
+              scored within a minute, and twice more once it was 6-1, and afterwards
+              he said it was not the right thing to do. It is a strange way to win by three, and a
+              useful one, because the lesson came cheap. Saturday at Brentford is
+              the other kind.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off. A front line
-              redrawn; a back three that becomes five; twenty questions without
-              LASK in them; a shopping list for both flanks; and two kick-offs in
-              one Austrian afternoon. Read them in order. The season has six league games
+              five dispatches from the writers who never clock off. A hat-trick
+              and a late collapse; a double substitution owned; two full-backs
+              answering back; seven names for the Gtech; and a Linz substitute who
+              scores whenever Liverpool come to town. Read them in order. The season has six league games
               behind it, nine points and a first defeat, and the next three league
               opponents all sit in the top four; the market stays shut until January,
               which is when every link on these pages either becomes a bid or goes quiet.
@@ -3840,7 +3842,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A new front line, a quarter to six."
+        "Three for Barcola, three for the lesson."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
