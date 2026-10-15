@@ -570,11 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday, two days from the Gtech, and the question is who stands beside
-          Mac Allister: the one preview to answer says Nyoni, nineteen, and Iraola
-          speaks at noon. Linz has meanwhile become records, the most goals in a
-          Liverpool European game since 2001 and a perfect ten for Barcola. Saturday
-          at three is plainer: ninth against unbeaten fourth.
+          Iraola has spoken, and said wait: Szoboszlai, Isak and Gakpo are not ruled
+          out, and Friday's training decides. Leoni, it turns out, is a month further
+          away than anyone hoped. Two previews now agree on Nyoni beside Mac Allister,
+          and Opta's model makes Saturday at the Gtech a coin toss leaning Brentford.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,27 +606,25 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and the question has moved to the Gtech. Gravenberch is banned,
-              Szoboszlai is still a doubt, and the one preview to name a partner for
-              Mac Allister names Nyoni, nineteen, for a Saturday start three days after his
-              first in Europe; Iraola speaks at noon. Behind him, the arithmetic of Linz has
-              come in. Opta Analyst counts nine goals, the most in a Liverpool European
-              game since the UEFA Cup final of 2001, Sofascore gave Barcola a perfect
-              ten, and Koumas, twenty-one, took a record that had been Steven
-              Gerrard's for a quarter of a century, a day after Gerrard said he played
-              like a man. None of it travels. Brentford have not lost all season, and
-              they are very good at making a fine week feel like a long one.
+              <span style={{ fontStyle: "italic", color: T.red }}>Evening</span>,{" "}
+              and the manager has given his answers, which are mostly questions. Szoboszlai,
+              Isak and Gakpo were not ready for Linz, Iraola said at midday, but he leaves
+              the chance open, and the decision belongs to Friday's session. The firm news
+              was the unwelcome kind: Giovanni Leoni will not train with the group until the
+              November break, a month lost to a knee that turned out to involve more than the
+              ligament. What he offered instead was faith in a teenager, Nyoni, very mature,
+              really smart, the name two previews now put beside Mac Allister. Opta gives
+              Brentford the slightest edge. The week has been generous to Liverpool; Saturday
+              will decide how much of it was a loan.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off. A press
-              conference at noon; the numbers from Linz; a record that was
-              Gerrard's; a defender nearly back; and a Brentford back line short
-              of bodies. Read them in order. The season has six league games
+              five dispatches from the writers who never clock off. A manager who
+              waits for Friday; a defender who lost a month; a teenager trusted; a
+              model that leans the other way; and a price tag answered. Read them in order. The season has six league games
               behind it, nine points and a first defeat, and the next three league
               opponents all sit in the top four; the market stays shut until January,
               which is when every link on these pages either becomes a bid or goes quiet.
@@ -3841,7 +3838,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Nine in Linz, one question at noon."
+        "Not ruled out. Not yet ruled in."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
