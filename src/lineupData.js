@@ -42,7 +42,7 @@ export const FORMATIONS = {
       RCB: 11,  // Jacquet (started v City and in Linz; Iraola regretted changing both centre-backs at once)
       RB: 9,    // Frimpong (a goal and two assists in Linz, rated 9.0)
       LCM: 13,  // Mac Allister (rested in Linz until 85; anchors with Gravenberch banned)
-      CM: 17,   // Endo (Wed 14 Oct evening: in for the suspended Gravenberch; PL-registered)
+      CM: 20,   // Nyoni (Thu 15 Oct morning: RotoWire's Brentford XI picks him over Endo for the banned Gravenberch)
       RCM: 18,  // Wirtz (rated 8.7 in Linz, an assist)
       LW: 30,   // Barcola (hat-trick in Linz, from the left)
       ST: 31,   // Koumas (scored in Linz; the only fit senior nine)
@@ -88,7 +88,7 @@ export const FORMATIONS = {
       LCB: 3,   // Van Dijk (rested at the start in Linz, on at sixty-two; calf no bar)
       RCB: 11,  // Jacquet (started v City and in Linz)
       RB: 9,    // Frimpong (a goal and two assists in Linz, 9.0 from FotMob)
-      LDM: 17,  // Endo (Wed 14 Oct evening: in for the suspended Gravenberch; Nyoni the alternative)
+      LDM: 20,  // Nyoni (Thu 15 Oct morning: RotoWire's XI, ahead of Endo, for the suspended Gravenberch)
       RDM: 13,  // Mac Allister (rested in Linz until 85)
       LAM: 30,  // Barcola (Wed 14 Oct evening: hat-trick in Linz from the left)
       CAM: 18,  // Wirtz (8.7 in Linz, an assist)
@@ -124,7 +124,7 @@ export const FORMATIONS = {
       RCB: 29,  // Araujo (headed his first Liverpool goal at centre-back in Linz)
       LWB: 7,   // Kerkez (rested in Linz)
       LCM: 13,  // Mac Allister
-      RCM: 17,  // Endo (Gravenberch suspended for Brentford)
+      RCM: 20,  // Nyoni (RotoWire's pick for Gravenberch's place)
       RWB: 9,   // Frimpong (the shape that uses him properly; a goal and two assists in Linz)
       LW: 30,   // Barcola (hat-trick in Linz)
       ST: 31,   // Koumas
@@ -144,33 +144,33 @@ export const FORMATIONS = {
 // Wed Oct 14 (morning, matchday): all 27 refreshed for Sports Mole's and The 4th Official's XIs (Ngumoha left, Barcola right, Jacquet in).
 // Wed Oct 14 (evening): all 27 refreshed after LASK 3-6 Liverpool (SI; FotMob; Sky Sports); re-pointed at Brentford away, Sat 17 Oct.
 export const PLAYER_EVIDENCE = {
-  1:   "Started v City and in Linz",   // Alisson
-  2:   "Unused in Linz",   // Mamardashvili
-  3:   "On at 62 in Linz · calf OK",   // Van Dijk
-  5:   "On at 62 in Linz · 6.1 (SI)",   // Gomez
-  7:   "Rested in Linz for Saturday",   // Kerkez
-  32:  "Two assists in Linz · 8.8",   // Tsimikas
-  8:   "Knee · rehab, no date",   // Bradley
-  9:   "Goal + 2 assists · 9.0",   // Frimpong
-  10:  "ACL · 1 Nov possible",   // Leoni
-  11:  "Started in Linz · off 62",   // Jacquet
+  1:   "In every Gtech preview",   // Alisson
+  2:   "Waiting on the Chelsea cup tie",   // Mamardashvili
+  3:   "Back in RotoWire's XI",   // Van Dijk
+  5:   "Cover after 30 min in Linz",   // Gomez
+  7:   "Restored at LB by RotoWire",   // Kerkez
+  32:  "6 chances created (Opta)",   // Tsimikas
+  8:   "Knee · training alone",   // Bradley
+  9:   "9.2 Sofascore · RB contest",   // Frimpong
+  10:  "ACL · full training soon?",   // Leoni
+  11:  "Kept beside Van Dijk",   // Jacquet
   12:  "Levante loan",   // Ndukwe
-  13:  "Rested in Linz · off bench 85",   // Mac Allister
-  14:  "Banned for Brentford",   // Gravenberch
-  15:  "Hamstring · Brentford doubt",   // Szoboszlai
-  17:  "In for banned Gravenberch",   // Endo
-  18:  "Assist in Linz · 8.7 (SI)",   // Wirtz
-  20:  "First UCL start · 7.3",   // Nyoni
-  22:  "Ankle · Brentford doubt",   // Gakpo
-  23:  "Thigh · Brentford doubt",   // Isak
-  24:  "Achilles · Boxing Day?",   // Ekitike
-  25:  "Started in Linz · 7.4 (SI)",   // Ngumoha
-  26:  "Available for Brentford",   // Chiesa
+  13:  "Fixed point of the pivot",   // Mac Allister
+  14:  "Banned for Brentford only",   // Gravenberch
+  15:  "Hamstring · still doubtful",   // Szoboszlai
+  17:  "Bench in RotoWire's XI",   // Endo
+  18:  "8.7 in Linz · certain starter",   // Wirtz
+  20:  "Tipped for first PL pivot start",   // Nyoni
+  22:  "Ankle · still doubtful",   // Gakpo
+  23:  "Thigh · still doubtful",   // Isak
+  24:  "Achilles · end of December",   // Ekitike
+  25:  "Bench behind Munoz",   // Ngumoha
+  26:  "League-eligible option",   // Chiesa
   27:  "Third keeper",   // Woodman
-  28:  "Rested in Linz · on at 73",   // Munoz
-  29:  "First LFC goal in Linz",   // Araujo
-  30:  "Hat-trick in Linz · 9.7",   // Barcola
-  31:  "UCL goal in Linz · only nine",   // Koumas
+  28:  "Back on the right (RotoWire)",   // Munoz
+  29:  "RB in RotoWire's XI",   // Araujo
+  30:  "Sofascore 10 · Linz hat-trick",   // Barcola
+  31:  "Record v LASK · only nine",   // Koumas
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -220,6 +220,9 @@ export const PLAYER_EVIDENCE = {
 //   Versus the morning sheet: Endo for Gravenberch (suspended, two bookings v City) at LDM, Barcola back to LAM where he scored
 //   his hat-trick, Munoz in at RAM after being rested; Van Dijk, Kerkez and Mac Allister, rested in Linz with Saturday in mind
 //   (beIN Sports), stay in. 3-4-3 brings Araujo back at RCB. No Liverpool preview for Brentford published yet; overall Medium.
+// Thu Oct 15 (morning): ONE personnel change in all three shapes, Nyoni for Endo at LDM/CM/RCM, following RotoWire's Brentford XI
+//   (published Wed 14 Oct), the first preview to name Liverpool's eleven. Frimpong held at RB against it (RotoWire picks Araujo).
+//   LDM Low to Medium. Overall stays Medium: Iraola's press conference is at noon on Thursday.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -238,7 +241,7 @@ export const SLOT_CONFIDENCE = {
   LCB: "High",
   RCB: "Medium",
   RB: "Medium",
-  LDM: "Low",
+  LDM: "Medium",
   RDM: "High",
   LAM: "High",
   CAM: "High",
@@ -252,16 +255,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Wed Oct 14, evening - Kerkez, rested in Linz with Brentford in mind (beIN Sports); Tsimikas made two goals there and pushes him. Medium, down from High.",
-  LCB: "Wed Oct 14, evening - Van Dijk, rested at the start in Linz and on for the last half-hour, so the calf is no bar. High, up from Medium.",
-  RCB: "Wed Oct 14, evening - Jacquet, beside Van Dijk against City; Iraola's regret at changing both centre-backs at once argues for continuity. Medium.",
-  RB: "Wed Oct 14, evening - Frimpong, a goal and two assists in Linz and 9.0 from FotMob; Araujo, who started there against City, is the alternative. Medium, up from Low.",
-  LDM: "Wed Oct 14, evening - Endo, with Gravenberch suspended; Nyoni started in Linz and played eighty-five minutes. Low until a preview names one.",
-  RDM: "Wed Oct 14, evening - Mac Allister, rested in Linz until the eighty-fifth minute. High.",
-  LAM: "Wed Oct 14, evening - Barcola, a hat-trick from the left in Linz and UEFA's player of the match (Goal). High, up from Medium.",
-  CAM: "Wed Oct 14, evening - Wirtz, an assist and 8.7 from SI in Linz; Iraola: 'amazing in possession' (Sky Sports). High.",
-  RAM: "Wed Oct 14, evening - Munoz, rested in Linz and on the right against City; Ngumoha, who started in Linz, is the alternative. Medium.",
-  ST: "Wed Oct 14, evening - Koumas, scorer in Linz and the only fit senior nine; Isak a doubt (DaveOCKOP). Medium, down from High while Isak's status is open.",
+  LB: "Thu Oct 15, morning - Kerkez, back in RotoWire's Brentford XI after his rest; Tsimikas's six chances created in Linz (Opta Analyst) keep it Medium.",
+  LCB: "Thu Oct 15, morning - Van Dijk, named in RotoWire's XI after his half-hour off the bench in Linz. High.",
+  RCB: "Thu Oct 15, morning - Jacquet, RotoWire's choice beside Van Dijk, the pairing that started against City. Medium.",
+  RB: "Thu Oct 15, morning - Frimpong on form (9.2 from Sofascore in Linz), though RotoWire picks Araujo here. Medium, a genuine split.",
+  LDM: "Thu Oct 15, morning - Nyoni, RotoWire's pick for the banned Gravenberch's place, ahead of Endo. Medium, up from Low, until Iraola's noon press conference.",
+  RDM: "Thu Oct 15, morning - Mac Allister, five minutes in Linz and in every Brentford midfield predicted. High.",
+  LAM: "Thu Oct 15, morning - Barcola, Sofascore's perfect 10 for the hat-trick in Linz and on the left in RotoWire's XI. High.",
+  CAM: "Thu Oct 15, morning - Wirtz, 8.7 from SI in Linz and in every preview. High.",
+  RAM: "Thu Oct 15, morning - Munoz, back on the right in RotoWire's XI after the rest in Linz. Medium.",
+  ST: "Thu Oct 15, morning - Koumas, the youngest Liverpool player to score and assist in a Champions League game (Opta Analyst); Isak still doubtful (RotoWire). Medium.",
 };
 
 
@@ -275,8 +278,8 @@ export const ALTERNATIVES = {
   LCB: [{ playerId: 29, reason: "Araujo · scored at centre-back in Linz" }, { playerId: 5, reason: "Gomez · on at 62 in Linz" }],
   RCB: [{ playerId: 29, reason: "Araujo · started there in Linz" }, { playerId: 5, reason: "Gomez · a specialist right-back too" }],
   RB:  [{ playerId: 29, reason: "Araujo · started at right-back v City" }, { playerId: 5, reason: "Gomez · cover while Bradley is out" }],
-  LDM: [{ playerId: 20, reason: "Nyoni · 19 · started in Linz, 7.3 (SI)" }],
-  RDM: [{ playerId: 20, reason: "Nyoni · 19 · pivot depth" }],
+  LDM: [{ playerId: 17, reason: "Endo · senior option, league-eligible" }],
+  RDM: [{ playerId: 17, reason: "Endo · pivot depth" }],
   LAM: [{ playerId: 25, reason: "Ngumoha · started in Linz, 7.4 (SI)" }, { playerId: 26, reason: "Chiesa · available in the league" }],
   CAM: [{ playerId: 20, reason: "Nyoni · replaced Wirtz v City" }, { playerId: 30, reason: "Barcola · could move inside" }],
   RAM: [{ playerId: 25, reason: "Ngumoha · either flank" }, { playerId: 26, reason: "Chiesa · eligible in the league" }],
@@ -288,6 +291,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-10-14T22:30:00Z",
-  reason: "Wed Oct 14, evening. LASK played: Liverpool won 6-3 in Linz (Sky Sports). Now for Brentford away (Premier League, Sat 17 Oct, 3pm). Endo for the suspended Gravenberch; Van Dijk, Kerkez, Mac Allister and Munoz, rested in Linz for this game (beIN Sports), return; Barcola back on the left after his hat-trick. Alisson; Frimpong, Jacquet, Van Dijk, Kerkez; Endo, Mac Allister; Munoz, Wirtz, Barcola; Koumas. Six of Wednesday's starters; no Liverpool preview for Brentford yet.",
+  generated_at: "2026-10-15T08:30:00Z",
+  reason: "Thu Oct 15, morning. Brentford away (Premier League, Sat 17 Oct, 3pm). Nyoni for the suspended Gravenberch, following RotoWire's XI; Van Dijk, Kerkez, Mac Allister and Munoz return after their rest in Linz. Alisson; Frimpong, Jacquet, Van Dijk, Kerkez; Nyoni, Mac Allister; Munoz, Wirtz, Barcola; Koumas. Ten of RotoWire's eleven (it has Araujo at right-back); Iraola speaks at noon.",
 };

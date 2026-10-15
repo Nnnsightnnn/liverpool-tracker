@@ -570,11 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday night in Linz, and Barcola finally scored for Liverpool,
-          three times, in a 6-3 win that turned untidy once Iraola changed both
-          centre-backs at 4-0 and LASK scored three in fourteen minutes. Six points
-          from two in Europe; ninth in the league, and on Saturday at three,
-          unbeaten Brentford, without Gravenberch.
+          Thursday, two days from the Gtech, and the question is who stands beside
+          Mac Allister: the one preview to answer says Nyoni, nineteen, and Iraola
+          speaks at noon. Linz has meanwhile become records, the most goals in a
+          Liverpool European game since 2001 and a perfect ten for Barcola. Saturday
+          at three is plainer: ninth against unbeaten fourth.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,28 +607,27 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Evening</span>,{" "}
-              and the forward who could not score has three. Barcola came from
-              Paris with two Champions League medals and went six games without a
-              goal or an assist; in Linz he scored on twenty-four, thirty-seven and
-              sixty-six minutes, the first of them ninety-six seconds after Araujo
-              had headed his own first for the club. Frimpong and Tsimikas, the
-              full-backs the morning papers wanted replaced, had a hand in four of
-              the six. Then, at 4-0, Iraola took off both centre-backs together; LASK
-              scored within a minute, and twice more once it was 6-1, and afterwards
-              he said it was not the right thing to do. It is a strange way to win by three, and a
-              useful one, because the lesson came cheap. Saturday at Brentford is
-              the other kind.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the question has moved to the Gtech. Gravenberch is banned,
+              Szoboszlai is still a doubt, and the one preview to name a partner for
+              Mac Allister names Nyoni, nineteen, three days after his first start in
+              Europe; Iraola speaks at noon. Behind him, the arithmetic of Linz has
+              come in. Opta Analyst counts nine goals, the most in a Liverpool European
+              game since the UEFA Cup final of 2001, Sofascore gave Barcola a perfect
+              ten, and Koumas, twenty-one, took a record that had been Steven
+              Gerrard's for a quarter of a century, a day after Gerrard said he played
+              like a man. None of it travels. Brentford have not lost all season, and
+              they are very good at making a fine week feel like a long one.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off. A hat-trick
-              and a late collapse; a double substitution owned; two full-backs
-              answering back; seven names for the Gtech; and a Linz substitute who
-              scores whenever Liverpool come to town. Read them in order. The season has six league games
+              five dispatches from the writers who never clock off. A press
+              conference at noon; the numbers from Linz; a record that was
+              Gerrard's; a defender nearly back; and a Brentford back line short
+              of bodies. Read them in order. The season has six league games
               behind it, nine points and a first defeat, and the next three league
               opponents all sit in the top four; the market stays shut until January,
               which is when every link on these pages either becomes a bid or goes quiet.
@@ -3842,7 +3841,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Three for Barcola, three for the lesson."
+        "Nine in Linz, one question at noon."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
