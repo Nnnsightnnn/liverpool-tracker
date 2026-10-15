@@ -610,8 +610,8 @@ function CoverView({ onJump }) {
               <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
               and the question has moved to the Gtech. Gravenberch is banned,
               Szoboszlai is still a doubt, and the one preview to name a partner for
-              Mac Allister names Nyoni, nineteen, three days after his first start in
-              Europe; Iraola speaks at noon. Behind him, the arithmetic of Linz has
+              Mac Allister names Nyoni, nineteen, for a Saturday start three days after his
+              first in Europe; Iraola speaks at noon. Behind him, the arithmetic of Linz has
               come in. Opta Analyst counts nine goals, the most in a Liverpool European
               game since the UEFA Cup final of 2001, Sofascore gave Barcola a perfect
               ten, and Koumas, twenty-one, took a record that had been Steven

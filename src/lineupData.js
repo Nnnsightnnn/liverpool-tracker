@@ -281,7 +281,7 @@ export const ALTERNATIVES = {
   LDM: [{ playerId: 17, reason: "Endo · senior option, league-eligible" }],
   RDM: [{ playerId: 17, reason: "Endo · pivot depth" }],
   LAM: [{ playerId: 25, reason: "Ngumoha · started in Linz, 7.4 (SI)" }, { playerId: 26, reason: "Chiesa · available in the league" }],
-  CAM: [{ playerId: 20, reason: "Nyoni · replaced Wirtz v City" }, { playerId: 30, reason: "Barcola · could move inside" }],
+  CAM: [{ playerId: 25, reason: "Ngumoha · could move inside" }, { playerId: 30, reason: "Barcola · could move inside" }],
   RAM: [{ playerId: 25, reason: "Ngumoha · either flank" }, { playerId: 26, reason: "Chiesa · eligible in the league" }],
   ST:  [{ playerId: 23, reason: "Isak · a doubt with the thigh" }, { playerId: 30, reason: "Barcola · the alternative nine" }],
 };

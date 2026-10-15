@@ -952,7 +952,7 @@ export const DISPATCHES = [
     byline: "Liverpool FC / RotoWire",
     dateline: "Kirkby · 15 October",
     category: "Manager",
-    body: "Iraola sits down at the AXA Training Centre at midday on Thursday, and the first question will not be about Linz (Liverpool FC). It will be about the space beside Mac Allister. Gravenberch is banned for Saturday, Szoboszlai is still a doubt, and the one preview to commit to an answer, RotoWire's, published on Wednesday, gives the place to Trey Nyoni, nineteen, three days after his first start in Europe, rather than to Endo, the senior man everyone expects to leave in January. The same XI brings back Van Dijk and Kerkez and moves Araujo to right-back. Whether Iraola agrees is the noon story.",
+    body: "Iraola sits down at the AXA Training Centre at midday on Thursday, and the first question will not be about Linz (Liverpool FC). It will be about the space beside Mac Allister. Gravenberch is banned for Saturday, Szoboszlai is still a doubt, and the one preview to commit to an answer, RotoWire's, published on Wednesday, gives the place to Trey Nyoni, nineteen, who would start on Saturday three days after his first start in Europe, rather than to Endo, the senior man everyone expects to leave in January. The same XI brings back Van Dijk and Kerkez and moves Araujo to right-back. Whether Iraola agrees is the noon story.",
   },
   {
     n: "02",
@@ -1037,7 +1037,7 @@ export const NEWS_DIGEST = {
       detail: "Reported on Monday: The Athletic expected Leoni back in full training this week, and the Evening Standard named the Chelsea cup tie on 28 October as a possible return. Bradley is training alone and has started touching the ball (Evening Standard). The club has not confirmed either.",
     },
   ],
-  sources: ["RotoWire", "Liverpool FC", "Opta Analyst", "Sofascore", "Goal", "FootMercato", "VAVEL", "DaveOCKOP", "Yahoo Sports", "Evening Standard", "The Athletic"],
+  sources: ["RotoWire", "Liverpool FC", "Opta Analyst", "Sofascore", "Goal", "FootMercato", "TEAMtalk", "VAVEL", "DaveOCKOP", "Yahoo Sports", "Evening Standard", "The Athletic"],
 };
 // ─────────────────────────────────────────────────────────────────────────────
 // IN-SEASON ANALYSIS
@@ -1337,7 +1337,7 @@ export const FORM_TRENDS = {
     "Lewis Koumas, 21 years and 25 days, is the youngest Liverpool player to score and assist in a Champions League game, beating Steven Gerrard's 21 years and 139 days against Dynamo Kyiv in 2001 (Opta Analyst).",
     "Barcola is Liverpool's first hat-trick scorer in any competition since Luis Diaz against Bayer Leverkusen in November 2024 (Opta Analyst).",
   ],
-  sources: ["Opta Analyst", "Sofascore", "ESPN", "Sports Mole", "Sky Sports", "Goal", "Liverpool FC", "Squawka", "FotMob", "This Is Anfield", "Premier League", "Hayters", "Yahoo Sports", "The Transfer Hub", "SI"],
+  sources: ["Opta Analyst", "Sofascore", "ESPN", "Sports Mole", "Sky Sports", "Goal", "Liverpool FC", "Squawka", "FotMob", "This Is Anfield", "Premier League", "Hayters", "Yahoo Sports", "The Transfer Hub", "SI", "DaveOCKOP", "RotoWire"],
 };
 export const SQUAD_LOAD = {
   generatedAt: "2026-10-15T08:30:00Z",
