@@ -973,7 +973,7 @@ export const DISPATCHES = [
     byline: "Liverpool FC / Sports Mole",
     dateline: "Kirkby · 15 October",
     category: "Tactics",
-    body: "Asked about Trey Nyoni, Iraola went further than managers usually do about a teenager. 'Being very young with not a lot of minutes in the first team, he's very mature,' he said, and 'tactically, I think he's really smart', before the caveat that he 'has to continue doing the steps in the right direction' (Liverpool FC). By Thursday afternoon a second preview, Sports Mole's, had joined RotoWire's in putting him beside Mac Allister for a first Premier League start, with Endo only the alternative (Sports Mole). Linz was his twenty-sixth senior appearance. Saturday at the Gtech would be the first that counts in the table.",
+    body: "Asked about Trey Nyoni, Iraola went further than managers usually do about a teenager. 'Being very young with not a lot of minutes in the first team, he's very mature,' he said, and 'tactically, I think he's really smart', before the caveat that he 'has to continue doing the steps in the right direction' (Liverpool FC). By Thursday afternoon a second preview, Sports Mole's, had joined RotoWire's in putting him beside Mac Allister for a first Premier League start, with Endo only the alternative (Sports Mole). Linz was his twenty-sixth senior appearance (Liverpool FC). Saturday at the Gtech would be the first that counts in the table.",
   },
   {
     n: "04",
@@ -989,7 +989,7 @@ export const DISPATCHES = [
     byline: "Tribal Football / Anfield Index",
     dateline: "Kirkby · 15 October",
     category: "Football News",
-    body: "Three days after the hat-trick, Iraola was asked about Bradley Barcola's fee, and answered with a shrug in sentence form: 'Football is like this. You win a game, you are incredible; you have a bad performance, you are a disaster' (Tribal Football). What matters, he said, is connection, 'the more he plays with his teammates, the better he will become.' The other question left over from Linz was quieter. Anfield Index noted on Thursday morning that Jeremy Jacquet looked uncomfortable after a sprint just past the hour before he was withdrawn; no injury has been reported, and both Thursday previews keep him beside Van Dijk (Anfield Index via Yahoo Sports; Sports Mole).",
+    body: "A day after the hat-trick, Iraola was asked about Bradley Barcola's fee, and answered with a shrug in sentence form: 'Football is like this. You win a game, you are incredible; you have a bad performance, you are a disaster' (Tribal Football). What matters, he said, is connection, 'the more he plays with his teammates, the better he will become.' The other question left over from Linz was quieter. Anfield Index noted on Thursday morning that Jeremy Jacquet looked uncomfortable after a sprint just past the hour before he was withdrawn; no injury has been reported, and both Thursday previews keep him beside Van Dijk (Anfield Index via Yahoo Sports; Sports Mole).",
   },
 ];
 export const NEWS_DIGEST = {
@@ -997,22 +997,22 @@ export const NEWS_DIGEST = {
   summary: "Iraola would not rule anyone out for Brentford on Thursday: Szoboszlai, Isak and Gakpo 'were not ready' for Linz, he said at his pre-Brentford press conference, but 'I leave the chance open this time', and Friday's training is the decider (Liverpool FC). The same session brought the day's setback, Giovanni Leoni's return to group training pushed back from the October break to November's, 'we've lost one month in the process' (Liverpool FC), and a public vote of confidence in Trey Nyoni, 'tactically, I think he's really smart', whom Sports Mole's XI, published on Thursday afternoon, joins RotoWire's in starting beside Mac Allister (Liverpool FC; Sports Mole). Opta's supercomputer makes Brentford narrow favourites, 37.9 per cent to Liverpool's 35.7, and Sky Sports' Jones Knows goes 2-1 to the hosts, citing nine Opta-defined big chances in six league games, the joint-fewest in the division (Opta Analyst; Sky Sports). Gravenberch serves his ban on Saturday, and Villarreal come to Anfield three days later, which Iraola says means changing the team again (Liverpool FC).",
   keyTopics: [
     {
-      title: "Iraola Leaves The Door Open For All Three (Liverpool FC, this evening)",
+      title: "Iraola Leaves The Door Open For All Three (Liverpool FC, today)",
       category: "injuries",
       detail: "From Iraola's pre-Brentford press conference on Thursday: Szoboszlai (hamstring), Isak (thigh) and Gakpo (ankle) 'were not ready' for Linz, and 'it's early for us to say, we have still tomorrow's training'. He did not rule any of them out, 'I leave the chance open this time, yes' (Liverpool FC). CaughtOffside, relaying the Liverpool Echo on Thursday evening, reads it the same way: none of the three injuries is long-term, and Friday's session decides.",
     },
     {
-      title: "Leoni Loses A Month (Liverpool FC / This Is Anfield, this evening)",
+      title: "Leoni Loses A Month (Liverpool FC / This Is Anfield, today)",
       category: "injuries",
       detail: "Confirmed by Iraola on Thursday: the plan for Leoni to rejoin group training in the October international break has slipped to November's. 'It's taking more time than we wanted, we've lost one month in the process,' he said, adding that 'a lot of things around the knee were involved apart from the ACL' (Liverpool FC). This Is Anfield calls it a delay; it overtakes Monday's reporting (The Athletic via the Evening Standard) that he would be in full training this week.",
     },
     {
-      title: "Iraola On Nyoni: 'I'm Confident With Him' (Liverpool FC / Sports Mole, this evening)",
+      title: "Iraola On Nyoni: 'I'm Confident With Him' (Liverpool FC / Sports Mole, today)",
       category: "tactics",
-      detail: "Asked on Thursday about the nineteen-year-old who started in Linz, Iraola said 'being very young with not a lot of minutes in the first team, he's very mature' and wants him ready to play as a six or an eight for a full game (Liverpool FC). Sports Mole's predicted XI, published on Thursday afternoon, now matches RotoWire's: Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Nyoni, Mac Allister; Munoz, Wirtz, Barcola; Koumas, with Endo named as the alternative (Sports Mole).",
+      detail: "Asked on Thursday about the nineteen-year-old who started in Linz, Iraola said 'being very young with not a lot of minutes in the first team, he's very mature' and wants him ready to play as a six or an eight for a full game: 'I'm confident with him' (Liverpool FC). Sports Mole's predicted XI, published on Thursday afternoon, now matches RotoWire's: Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Nyoni, Mac Allister; Munoz, Wirtz, Barcola; Koumas, with Endo named as the alternative (Sports Mole).",
     },
     {
-      title: "Change At The Weekend, Change For Villarreal (Liverpool FC / Goal, this evening)",
+      title: "Change At The Weekend, Change For Villarreal (Liverpool FC / Goal, today)",
       category: "general",
       detail: "Iraola's framing on Thursday was arithmetic: 'we are basically playing every three days', so 'we will need to change again at the weekend' and 'again when we face Villarreal in another three days' (Liverpool FC). Goal adds that Liverpool have fewer than 72 hours between the 6-3 in Linz and Saturday's 3pm kick-off; Villarreal are at Anfield on Tuesday 20 October.",
     },
@@ -1035,11 +1035,6 @@ export const NEWS_DIGEST = {
       title: "A Watch On Jacquet (Anfield Index via Yahoo Sports, today)",
       category: "injuries",
       detail: "Anfield Index noted on Thursday morning that Jacquet seemed uncomfortable after a sprint just past the hour in Linz before he was withdrawn; no injury has been reported by the club, and both Thursday previews keep him in the XI beside Van Dijk (Anfield Index via Yahoo Sports; Sports Mole).",
-    },
-    {
-      title: "Linz, Counted Again (Opta Analyst, 1d ago)",
-      category: "matches",
-      detail: "The Linz numbers that landed overnight on Wednesday still frame the week: six goals from 3.34 expected, LASK's three from 2.02, and the first Liverpool hat-trick in any competition since Luis Diaz's at Leverkusen in November 2024 (Opta Analyst).",
     },
   ],
   sources: ["Liverpool FC", "CaughtOffside", "Liverpool Echo", "This Is Anfield", "The Athletic", "Evening Standard", "Sports Mole", "RotoWire", "Goal", "Opta Analyst", "Sky Sports", "Tribal Football", "Anfield Index", "Yahoo Sports"],
@@ -1438,7 +1433,7 @@ export const SQUAD_LOAD = {
       name: "Wataru Endo",
       issue: "No injury; available domestically and expected to leave in January",
       status: "Unused substitute against City (ESPN); NOT in the Champions League squad (SI); the alternative, not the pick, in both RotoWire's and Sports Mole's Brentford XIs",
-      note: "Left off the league-phase list with Chiesa on 4 September (SI), so he watched Linz from afar. With Gravenberch suspended for Brentford and Szoboszlai a doubt (DaveOCKOP), the thirty-three-year-old expected to leave in January is the senior option beside Mac Allister; Nyoni, nineteen, started in Linz and is the alternative.",
+      note: "Left off the league-phase list with Chiesa on 4 September (SI), so he watched Linz from afar. With Gravenberch suspended for Brentford and Szoboszlai a doubt (DaveOCKOP), both Thursday previews (RotoWire; Sports Mole) pick Nyoni, nineteen, beside Mac Allister, which leaves the thirty-three-year-old expected to leave in January as the senior alternative.",
       source: "ESPN / SI / Liverpool FC / CaughtOffside",
     },
     {
@@ -1527,7 +1522,7 @@ export const SEASON_PROJECTION = {
   pointsPerGame: 1.5,
   projectedPoints: 57,
   projectedFinish: "Conference League places on current pace",
-  headline: "The pace is still 1.50 a game and fifty-seven over a season (ESPN), a six-game sample that describes October rather than predicting May. Opta's model gives Liverpool a 35.7 per cent chance of moving it upward at the Gtech on Saturday (Opta Analyst), the first of three league games against sides in today's top four.",
+  headline: "Six games, nine points, 1.50 a game, fifty-seven if nothing changes (ESPN): arithmetic, not a forecast, and it cannot move before Saturday. Opta's model gives Liverpool a 35.7 per cent chance of moving it upward at the Gtech on Saturday (Opta Analyst), the first of three league games against sides in today's top four.",
   thresholds: [
     {
       label: "Champions League (top 4)",
