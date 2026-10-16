@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday, and the captain says he will be ready: Van Dijk, still nursing
-          City's kick to the calf, expects to be fine for Saturday. Barcola carries a
-          European award to the Gtech, four previews have settled on one eleven, and
-          this morning's session decides whether Szoboszlai, Isak or Gakpo join it.
+          Friday evening, and the good news is further off than tomorrow: Bradley, out
+          since January, is not so far from training with the group. The session that
+          was meant to decide Szoboszlai, Isak and Gakpo has passed without a public
+          verdict, so the answer comes with the team sheet, an hour before three at the Gtech.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,26 +606,26 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              the day Iraola said would decide, and the first answer came from the captain
-              before the session began. Van Dijk is still recovering, he says, from the kick
-              he took against City, and thinks he will be fine for Saturday, which at the
-              Gtech means a thirty-five-year-old holding a back line whose cover has thinned
-              to Gomez, Araujo and Chambers. Barcola, meanwhile, has been voted the best
-              player of Europe's week, and the captain's verdict on him was tender rather than
-              tactical: introverted, and helped more than he will show. The previews have
-              stopped arguing, four of them naming the same eleven, Nyoni beside Mac Allister
-              and Koumas alone in front. The pundits have stopped arguing too, and they say
-              one each. What nobody can yet say is who else will be on the coach.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the most hopeful sentence out of Kirkby concerns a player who will not be at
+              the Gtech. Conor Bradley, nine months on from the knee he hurt against Arsenal,
+              is doing some things with the group, Iraola says, if not yet training with it,
+              and in a right-back department carried by Frimpong and Araujo, with Gomez
+              as cover, that is worth more than it sounds. Tomorrow's question is still open. Szoboszlai, Isak and
+              Gakpo were to be settled by today's session, and nobody has said how it went;
+              Iraola's own word was to wait and see. Across London, Andrews has Schade and
+              Schuster back on the grass, Collins and Damsgaard closer but not yet there. Iraola
+              has met Brentford seven times as a manager and never beaten them. The afternoon
+              will tell whether the eighth is the one, or simply the next.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off. A captain's
-              calf; a vote from Linz; one eleven, named four times; the pundits'
-              draw; and an under-19 comeback. Read them in order. The season has six league games
+              five dispatches from the writers who never clock off. A right-back
+              nearly back; a Friday without a verdict; Brentford's walking wounded;
+              a manager's unbeaten nemesis; and a referee with a habit. Read them in order. The season has six league games
               behind it, nine points and a first defeat, and the next three league
               opponents all sit in the top four; the market stays shut until January,
               which is when every link on these pages either becomes a bid or goes quiet.
@@ -3839,7 +3839,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "I think I'll be fine for Saturday."
+        "We have to wait and see."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
