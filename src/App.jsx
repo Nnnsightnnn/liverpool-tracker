@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Iraola has spoken, and said wait: Szoboszlai, Isak and Gakpo are not ruled
-          out, and Friday's training decides. Leoni, it turns out, is a month further
-          away than anyone hoped. Two previews now agree on Nyoni beside Mac Allister,
-          and Opta's model makes Saturday at the Gtech a coin toss leaning Brentford.
+          Friday, and the captain says he will be ready: Van Dijk, still nursing
+          City's kick to the calf, expects to be fine for Saturday. Barcola carries a
+          European award to the Gtech, four previews have settled on one eleven, and
+          this morning's session decides whether Szoboszlai, Isak or Gakpo join it.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,25 +606,26 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Evening</span>,{" "}
-              and the manager has given his answers, which are mostly questions. Szoboszlai,
-              Isak and Gakpo were not ready for Linz, Iraola said at midday, but he leaves
-              the chance open, and the decision belongs to Friday's session. The firm news
-              was the unwelcome kind: Giovanni Leoni will not train with the group until the
-              November break, a month lost to a knee that turned out to involve more than the
-              ligament. What he offered instead was faith in a teenager, Nyoni, very mature,
-              really smart, the name two previews now put beside Mac Allister. Opta gives
-              Brentford the slightest edge. The week has been generous to Liverpool; Saturday
-              will decide how much of it was a loan.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              the day Iraola said would decide, and the first answer came from the captain
+              before the session began. Van Dijk is still recovering, he says, from the kick
+              he took against City, and thinks he will be fine for Saturday, which at the
+              Gtech means a thirty-five-year-old holding a back line whose cover has thinned
+              to Gomez, Araujo and Chambers. Barcola, meanwhile, has been voted the best
+              player of Europe's week, and the captain's verdict on him was tender rather than
+              tactical: introverted, and helped more than he will show. The previews have
+              stopped arguing, four of them naming the same eleven, Nyoni beside Mac Allister
+              and Koumas alone in front. The pundits have stopped arguing too, and they say
+              one each. What nobody can yet say is who else will be on the coach.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off. A manager who
-              waits for Friday; a defender who lost a month; a teenager trusted; a
-              model that leans the other way; and a price tag answered. Read them in order. The season has six league games
+              five dispatches from the writers who never clock off. A captain's
+              calf; a vote from Linz; one eleven, named four times; the pundits'
+              draw; and an under-19 comeback. Read them in order. The season has six league games
               behind it, nine points and a first defeat, and the next three league
               opponents all sit in the top four; the market stays shut until January,
               which is when every link on these pages either becomes a bid or goes quiet.
@@ -3838,7 +3839,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Not ruled out. Not yet ruled in."
+        "I think I'll be fine for Saturday."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
