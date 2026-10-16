@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "injured", outSince: "2026-09-25", injuryNote: "Fri Oct 16, evening - Thigh; SI suggests the bench at most if he is fit, though he remains the only Liverpool player with more than one league goal (Brentford FC).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "injured", outSince: "2026-09-25", injuryNote: "Fri Oct 16, evening - Thigh; SI suggests the bench at most if he is fit, though his four league goals are more than any teammate has (Sports Mole; TSN).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -990,7 +990,7 @@ export const DISPATCHES = [
     byline: "Sports Mole / Brentford FC",
     dateline: "London · 15 October",
     category: "Tactics",
-    body: "There is a record Iraola brings to the Gtech that has nothing to do with Liverpool. Seven times he has managed against Brentford, and seven times he has failed to beat them: five draws, two defeats (Sports Mole). The same preview notes that each of the last six meetings has had at least two goals in it, and calls this one 2-2. Liverpool's half of the problem is narrower than it looks: Isak, still a doubt, is the only Liverpool player with more than one league goal this season (Brentford FC). Brentford, by contrast, have had nine different scorers. One side spreads the burden; the other is waiting on a thigh.",
+    body: "There is a record Iraola brings to the Gtech that has nothing to do with Liverpool. Seven times he has managed against Brentford, and seven times he has failed to beat them: five draws, two defeats (Sports Mole). The same preview notes that each of the last six meetings has had at least two goals in it, and calls this one 2-2. Liverpool's half of the problem is narrower than it looks: Isak, still a doubt, has four of Liverpool's seven league goals, two of them at Ipswich (Sports Mole; TSN), and nobody else has more than one. Brentford, by contrast, have had nine different scorers. One side spreads the burden; the other is waiting on a thigh.",
   },
   {
     n: "05",
@@ -1041,12 +1041,12 @@ export const NEWS_DIGEST = {
       detail: "From Sports Mole's preview, last updated on Thursday evening: in seven meetings as a manager Iraola has drawn five and lost two against Brentford, and each of the last six Brentford-Liverpool games has had at least two goals. Brentford are unbeaten in eight at home (W3 D5) but have not won any of their last eight away league games. Sports Mole's call is 2-2 (Sports Mole).",
     },
     {
-      title: "Isak Still Liverpool's Only Multiple League Scorer (Brentford FC, this week)",
+      title: "Isak Still Liverpool's Only Multiple League Scorer (Sports Mole / Brentford FC, this week)",
       category: "tactics",
-      detail: "Noted in Brentford FC's match preview this week: Isak, with three, is the only Liverpool player with more than one Premier League goal this season, while Brentford have had nine different league scorers. Andy Jones of The Athletic expects Iraola to stay with a 4-2-3-1, and Andrews says his side are 'in a really good place' despite their injuries (Brentford FC).",
+      detail: "Brentford FC's match preview this week makes Isak the only Liverpool player with more than one Premier League goal this season, though it gives him three; Liverpool's results have him on four, two of them in the 2-0 at Ipswich (Sports Mole; TSN). Brentford have had nine different league scorers. Andy Jones of The Athletic expects Iraola to stay with a 4-2-3-1, and Andrews says his side are 'in a really good place' despite their injuries (Brentford FC).",
     },
   ],
-  sources: ["Anfield Index", "Yahoo Sports", "SI", "RotoWire", "The False 9", "Promotions.hu", "Liverpool FC", "DaveOCKOP", "Brentford FC", "Rush The Kop", "LiveScore", "Evening Standard", "The72", "talkSPORT", "This Is Anfield", "Sports Mole"],
+  sources: ["Anfield Index", "Yahoo Sports", "SI", "RotoWire", "The False 9", "Promotions.hu", "Liverpool FC", "DaveOCKOP", "Brentford FC", "Rush The Kop", "LiveScore", "Evening Standard", "The72", "talkSPORT", "This Is Anfield", "Sports Mole", "TSN"],
 };
 // ─────────────────────────────────────────────────────────────────────────────
 // IN-SEASON ANALYSIS
@@ -1079,7 +1079,7 @@ export const OPPOSITION = {
   manager: "Keith Andrews",
   formation: "4-2-3-1",
   leaguePosition: 4,
-  summary: "Brentford end the week with their own injury list easing: Andrews says Schade and Schuster, both hurt at Villa Park, 'have been on the grass this week and we'll see what tomorrow brings', while Collins and Damsgaard are closer but still sidelined (Liverpool FC; DaveOCKOP). They are fourth on ten from six, unbeaten in the league and in all competitions, with a goal difference of +12 across them (ESPN; Brentford FC), and have not lost in eight home league games, three wins and five draws, though they have not won any of their last eight away (Sports Mole). The last outing was a 2-2 at Aston Villa, Ajer equalising McGinn's late goal (TSN), after a 3-0 home win over Chelsea before the break (Squawka). Iraola has managed against them seven times and never won (Sports Mole), and Opta's supercomputer makes Brentford narrow favourites, 37.9 per cent to 35.7 (Opta Analyst).",
+  summary: "Brentford end the week with their own injury list easing: Andrews says Schade and Schuster, both hurt at Villa Park, 'have been on the grass this week and we'll see what tomorrow brings', while Collins and Damsgaard are closer but still sidelined (Liverpool FC; DaveOCKOP). They are fourth on ten from six, unbeaten in the league (ESPN) and in all competitions, with a goal difference of +12 across every competition and +6 in the league (Brentford FC; ESPN), and have not lost in eight home league games, three wins and five draws, though they have not won any of their last eight away (Sports Mole). The last outing was a 2-2 at Aston Villa, Ajer equalising McGinn's late goal (TSN), after a 3-0 home win over Chelsea before the break (Squawka). Iraola has managed against them seven times and never won (Sports Mole), and Opta's supercomputer makes Brentford narrow favourites, 37.9 per cent to 35.7 (Opta Analyst).",
   shape: "Every published Brentford XI is a 4-2-3-1, with Thiago alone up front, Jensen behind him and Janelt and Yarmoliuk the double pivot (RotoWire; Sports Mole; The Hard Tackle); Sports Mole puts Ouattara and Anthony wide and Lewis-Potter at left-back. They concede the ball, 45.5 per cent possession, and take the contest instead, 116 duels a match and 0.50 expected goals a game from set pieces (The Hard Tackle). Nine different league scorers so far, second only to Brighton (Brentford FC), means there is no single runner to mark.",
   keyPlayers: [
     {
@@ -1151,7 +1151,7 @@ export const OPPOSITION = {
       note: "Held at home by Sunderland (Squawka).",
     },
   ],
-  liverpoolAngle: "Liverpool's problem is concentration, Brentford's is spread. Isak, a doubt, is Liverpool's only player with more than one league goal (Brentford FC), and if he is on the bench at most (SI) the scoring falls on Koumas, the only fit senior centre-forward in a department SQUAD_LOAD marks critical, against a defence that lets fewer than seven per cent of shots in. In midfield the same critical department meets Brentford's strength: Nyoni, nineteen, beside Mac Allister, who has been booked in three Premier League games under Saturday's referee, John Brooks (Rush The Kop), against a side making half an expected goal a game from dead balls (The Hard Tackle). One early card for Mac Allister would leave Liverpool's pivot a teenager and a thirty-three-year-old on the bench. Brentford's reshuffled centre-backs, with Collins out and van den Berg yet to play this season (Brentford FC), are where Liverpool can look for the opening.",
+  liverpoolAngle: "Liverpool's problem is concentration, Brentford's is spread. Isak, a doubt, has four of Liverpool's seven league goals (Sports Mole; TSN), and if he is on the bench at most (SI) the scoring falls on Koumas, the only fit senior centre-forward in a department SQUAD_LOAD marks critical, against a defence that lets fewer than seven per cent of shots in (Brentford FC). In midfield the same critical department meets Brentford's strength: Nyoni, nineteen, beside Mac Allister, who has been booked in three Premier League games under Saturday's referee, John Brooks (Rush The Kop), against a side making half an expected goal a game from dead balls (The Hard Tackle). One early card for Mac Allister would leave Liverpool's pivot a teenager and a thirty-three-year-old on the bench. Brentford's reshuffled centre-backs, with Collins out and van den Berg yet to play this season (Brentford FC), are where Liverpool can look for the opening.",
   modelLine: {
     source: "Opta supercomputer (Opta Analyst)",
     liverpool: 35.7,
@@ -1165,7 +1165,7 @@ export const FORM_TRENDS = {
   generatedAt: "2026-10-16T22:30:00Z",
   competition: "PL",
   played: 6,
-  headline: "Six league games have produced one Liverpool player with more than one goal, Isak with three (Brentford FC), and he is a doubt for Saturday. That is the number beneath Squawka's expected-goals table, which after gameweek six has Liverpool on 8.65 for and 7.27 against and eleventh on its alternative standings (Squawka), and beneath Brentford FC's count of nine big chances, the fewest in the division (Brentford FC, citing Sky Sports data). This page's own match-by-match sum, 8.43 and 7.22 (Opta Analyst; Sofascore), agrees: chances are being made at a mid-table rate and finished by too few people. No league match has been played since; the numbers wait on the Gtech.",
+  headline: "Six league games have produced one Liverpool player with more than one goal, Isak with four of the seven (Sports Mole; TSN), and he is a doubt for Saturday. That is the number beneath Squawka's expected-goals table, which after gameweek six has Liverpool on 8.65 for and 7.27 against and eleventh on its alternative standings (Squawka), and beneath Brentford FC's count of nine big chances, the fewest in the division (Brentford FC, citing Sky Sports data). This page's own match-by-match sum, 8.43 and 7.22 (Opta Analyst; Sofascore), agrees: chances are being made at a mid-table rate and finished by too few people. No league match has been played since; the numbers wait on the Gtech.",
   diagnosis: [
     {
       label: "Ten men, then sixteen minutes",
@@ -1347,12 +1347,12 @@ export const FORM_TRENDS = {
     note: "Premier League only, six games. xG for is 2.73 (Newcastle) plus 1.61 (Forest) plus 0.53 (Ipswich) plus 1.13 (Fulham) plus 1.57 (Bournemouth) plus 0.86 (City); xG against is 1.43 plus 2.30 plus 0.72 plus 0.71 plus 0.76 plus 1.30. The City card's 0.86 is Opta's and its 1.30 is Sofascore's (whose Liverpool figure, 0.86, matches Opta's); Opta's own City figure has not been published in text and replaces it when it is. Provenance caveat from 21 September stands: Opta's published season expected-goals-against figure through five games was 6.12 rather than the 5.92 those per-match cards summed to. Champions League and Carabao Cup cards are shown but not aggregated. First-half splits exist only for Forest, Tottenham and City and are not aggregated.",
   },
   optaFacts: [
-    "Isak, with three, is the only Liverpool player with more than one Premier League goal this season (Brentford FC).",
+    "Isak has four of Liverpool's seven Premier League goals, including both at Ipswich, and no teammate has more than one (Sports Mole; TSN).",
     "Iraola has managed against Brentford seven times without a win: five draws and two defeats (Sports Mole).",
     "Each of the last six Brentford-Liverpool meetings has produced at least two goals (Sports Mole).",
     "Kelleher has made ten saves from shots outside the box, the most in the Premier League this season (Brentford FC).",
   ],
-  sources: ["Opta Analyst", "Sofascore", "ESPN", "Sports Mole", "Sky Sports", "Goal", "Liverpool FC", "Squawka", "FotMob", "This Is Anfield", "Premier League", "Hayters", "Yahoo Sports", "The Transfer Hub", "SI", "RotoWire", "Brentford FC", "The Hard Tackle", "Evening Standard"],
+  sources: ["Opta Analyst", "Sofascore", "ESPN", "Sports Mole", "Sky Sports", "Goal", "Liverpool FC", "Squawka", "FotMob", "This Is Anfield", "Premier League", "Hayters", "Yahoo Sports", "The Transfer Hub", "SI", "RotoWire", "Brentford FC", "The Hard Tackle", "Evening Standard", "TSN", "Rush The Kop", "The False 9"],
 };
 export const SQUAD_LOAD = {
   generatedAt: "2026-10-16T22:30:00Z",
@@ -1391,7 +1391,7 @@ export const SQUAD_LOAD = {
       name: "Hugo Ekitike",
       issue: "Achilles rupture (April, surgery)",
       expected: "Boxing Day at Hull is the Liverpool Echo's and Sports Mole's projection; club framing is January, with 'a reasonable chance' of the last two Champions League league-phase games (This Is Anfield)",
-      note: "Iraola, Thursday: 'Hugo is a little bit behind that' (Bradley's progress), 'but that was always the plan' (Anfield Index). L'Equipe, via CaughtOffside, reported light trotting on the pitch, November team training and December matchday squads as the targets. Sunday's 0.38 open-play expected goals against City (Opta Analyst) is the clearest measure yet of what a forward line without him, Isak and Gakpo produces.",
+      note: "Iraola, Thursday: 'Hugo is a little bit behind that' (Bradley's progress), 'but that was always the plan' (Anfield Index). L'Equipe, via CaughtOffside, reported light trotting on the pitch, November team training and December matchday squads as the targets. The 0.38 open-play expected goals against City (Opta Analyst) is the clearest measure yet of what a forward line without him, Isak and Gakpo produces.",
       source: "Liverpool Echo / Sports Mole / This Is Anfield / CaughtOffside / L'Equipe / Opta Analyst / Anfield Index",
     },
     {
@@ -1405,7 +1405,7 @@ export const SQUAD_LOAD = {
       name: "Conor Bradley",
       issue: "Knee",
       expected: "No club date, but nearing group work. Iraola, Thursday: 'Conor is not so far from training with the group, not like full training but doing some things with the group' (Anfield Index; RotoWire). SI points to after the November break, Manchester United on 22 November the possible return",
-      note: "A sixth league game went by without him on Sunday, and when Araujo, booked in the eighth minute, came off on seventy-five it was Frimpong who replaced him (ESPN). Lewis Steele reported individual ball work resuming; the club has said nothing beyond Iraola's 'probably Conor will go later'.",
+      note: "A sixth league game went by without him against City on 11 October, and when Araujo, booked in the eighth minute, came off on seventy-five it was Frimpong who replaced him (ESPN). Lewis Steele reported individual ball work resuming; the club has said nothing beyond Iraola's 'probably Conor will go later'.",
       source: "Anfield Index / RotoWire / SI / Liverpool Echo / Daily Mail / ESPN",
     },
   ],
