@@ -128,12 +128,12 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
+  { source: "DaveOCKOP", title: "Virgil van Dijk provides fresh injury update ahead of Brentford clash", time: "1d ago", category: "fan" },
   { source: "Goal", title: "Virgil van Dijk backs 'introverted' Bradley Barcola to shine at Liverpool after Champions League hat-trick heroics", time: "today", category: "major" },
   { source: "The Hard Tackle", title: "Brentford vs Liverpool Preview: Prediction, Probable Lineups, Tactics, Team News & Stats", time: "today", category: "major" },
   { source: "LiveScore", title: "Brentford and Liverpool assess injury concerns before Gtech meeting", time: "today", category: "major" },
   { source: "Liverpool FC", title: "Bradley Barcola voted the Champions League's Player of the Week", time: "1d ago", category: "official" },
   { source: "BBC Sport", title: "Hat-trick is 'massive' for Barcola, says Van Dijk", time: "1d ago", category: "major" },
-  { source: "DaveOCKOP", title: "Virgil van Dijk provides fresh injury update ahead of Brentford clash", time: "1d ago", category: "fan" },
   { source: "Evening Standard", title: "Liverpool XI vs Brentford: Confirmed team news, predicted lineup and injury latest for Premier League", time: "1d ago", category: "major" },
   { source: "Empire of the Kop", title: "Keane and Gerrard agree on Brentford-Liverpool prediction", time: "1d ago", category: "fan" },
   { source: "Sky Sports", title: "Alex Scott transfer news: Bournemouth will consider offers in excess of £80m for England international", time: "1d ago", category: "major" },

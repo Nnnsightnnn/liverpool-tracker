@@ -1410,7 +1410,7 @@ export const SQUAD_LOAD = {
       name: "Virgil van Dijk",
       issue: "Calf, a kick taken against Manchester City (11 October)",
       status: "Expects to be fit for Brentford: 'I think I'll be fine for Saturday' (BBC Sport)",
-      note: "Rested from the start in Linz and brought on at sixty-two, which he said he did not expect: 'I didn't expect to come on whatsoever. It was a surprise.' He told BBC Sport on Thursday he is 'still recovering a bit'. Every published Brentford XI starts him at left centre-back.",
+      note: "Rested from the start in Linz and brought on at sixty-two, which he said he did not expect: 'I didn't expect to come on whatsoever. It was a surprise.' He told BBC Sport on Thursday he is 'still recovering a bit'. Every published Liverpool XI for Brentford starts him at left centre-back.",
       source: "BBC Sport via Yahoo Sports / DaveOCKOP / Goal",
     },
     {
@@ -1444,8 +1444,8 @@ export const SQUAD_LOAD = {
     {
       name: "Wataru Endo",
       issue: "No injury; available domestically and expected to leave in January",
-      status: "Unused substitute against City (ESPN); NOT in the Champions League squad (SI); the alternative, not the pick, in both RotoWire's and Sports Mole's Brentford XIs",
-      note: "Left off the league-phase list with Chiesa on 4 September (SI), so he watched Linz from afar. With Gravenberch suspended for Brentford and Szoboszlai a doubt (DaveOCKOP), both Thursday previews (RotoWire; Sports Mole) pick Nyoni, nineteen, beside Mac Allister, which leaves the thirty-three-year-old expected to leave in January as the senior alternative.",
+      status: "Unused substitute against City (ESPN); NOT in the Champions League squad (SI); the alternative, not the pick, in all four published Liverpool XIs for Brentford",
+      note: "Left off the league-phase list with Chiesa on 4 September (SI), so he watched Linz from afar. With Gravenberch suspended for Brentford and Szoboszlai a doubt (DaveOCKOP), all four published XIs (RotoWire; Sports Mole; Evening Standard; The Hard Tackle) pick Nyoni, nineteen, beside Mac Allister, which leaves the thirty-three-year-old expected to leave in January as the senior alternative.",
       source: "ESPN / SI / Liverpool FC / CaughtOffside",
     },
     {
@@ -1466,7 +1466,7 @@ export const SQUAD_LOAD = {
     {
       position: "Central midfield",
       level: "critical",
-      detail: "Critical. Gravenberch is banned for Brentford and Szoboszlai only 'not ruled out' (Liverpool FC); RotoWire's and Sports Mole's XIs both hand the place beside Mac Allister to Nyoni, nineteen, with Endo, expected to leave in January, the alternative. McConnell is the only other senior-squad option. No market until January.",
+      detail: "Critical. Gravenberch is banned for Brentford and Szoboszlai only 'not ruled out' (Liverpool FC); all four published XIs (RotoWire; Sports Mole; Evening Standard; The Hard Tackle) hand the place beside Mac Allister to Nyoni, nineteen, with Endo, expected to leave in January, the alternative. McConnell is the only other senior-squad option. No market until January.",
     },
     {
       position: "Centre-forward",
@@ -1541,7 +1541,7 @@ export const SEASON_PROJECTION = {
       label: "Champions League (top 4)",
       points: 68,
       gap: 11,
-      note: "Historical par for the last Champions League place in recent seasons. The pace that met it exactly before Sunday's defeat now falls eleven short, and closing that over thirty-two games means about 1.84 points a game from here. The live ESPN table draws the stripe at fourth, where Brentford sit one point above Liverpool.",
+      note: "Historical par for the last Champions League place in recent seasons. The pace that met it exactly before the City defeat now falls eleven short, and closing that over thirty-two games means about 1.84 points a game from here. The live ESPN table draws the stripe at fourth, where Brentford sit one point above Liverpool.",
     },
     {
       label: "Europa League (5th)",

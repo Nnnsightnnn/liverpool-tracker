@@ -256,7 +256,7 @@ export const SLOT_CONFIDENCE = {
 
 
 // ─── Per-slot rationale ────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Tue Oct 13 (morning) against Van Dijk's calf knock and Sports Mole's Tuesday XI.
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Fri Oct 16 (morning) against Van Dijk's calf update (BBC Sport) and The Hard Tackle's XI.
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
