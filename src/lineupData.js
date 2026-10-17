@@ -19,6 +19,7 @@ export const FORMATIONS = {
       ST:  { x: 50, y: 14, role: "FWD" },
       RW:  { x: 82, y: 22, role: "FWD" },
     },
+    // Sat 17 Oct (morning): all three shapes now point at BRENTFORD AWAY (PL, 3pm); the City/Linz notes below are history.
     // IDs from playerData.js. This 4-3-3 is the backup look; the default is the
     // 4-2-3-1 below. Reviewed Wed Sep 23 (evening; re-checked Wed Oct 7 morning), after Bournemouth 0-1 Liverpool at the
     // Vitality, a third consecutive Premier League clean sheet and a rise from tenth to sixth.
@@ -162,7 +163,7 @@ export const PLAYER_EVIDENCE = {
   14:  "Banned today · back Tuesday",   // Gravenberch
   15:  "Hamstring · late call, unlikely",   // Szoboszlai
   17:  "League-eligible pivot cover",   // Endo
-  18:  "Ten in most XIs · rest mooted",   // Wirtz
+  18:  "Ten in national XIs · rest mooted",   // Wirtz
   20:  "First league start in line",   // Nyoni
   22:  "Ankle · late check, unlikely",   // Gakpo
   23:  "Thigh · late fitness check",   // Isak

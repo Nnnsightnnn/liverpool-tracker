@@ -163,7 +163,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Sat Oct 17, morning - At the ten in most Saturday XIs; Paul Gorst keeps him there, while three of his Echo colleagues pick Szoboszlai and Mark Jones suggests a rest (Brit Brief).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Sat Oct 17, morning - At the ten in the national previews and one Echo XI; Paul Gorst keeps him there, while three of his Echo colleagues pick Szoboszlai and Mark Jones suggests a rest (Brit Brief).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -968,11 +968,11 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Four Elevens, One Winger.",
-    byline: "Liverpool Echo / Brit Brief",
-    dateline: "Liverpool · 17 October",
-    category: "Tactics",
-    body: "Before it was light on Saturday the Liverpool Echo had four of its writers pick a team, and on one position they did not argue. Paul Gorst, Ian Doyle, Mark Jones and Richard Garnett all start Rio Ngumoha on the right (Brit Brief). They part company in the middle: three of them trust Szoboszlai's hamstring enough to put him at the ten, only Gorst keeps Wirtz there, and only Garnett hands Isak the shirt ahead of Koumas. The national previews, Sports Mole's and The Football Faithful's, still keep Munoz on that flank. A quarrel over one wide position is, in its way, a measure of how settled the rest has become.",
+    headline: "Late Checks.",
+    byline: "The Football Faithful / Yahoo Sports",
+    dateline: "Kirkby · 17 October",
+    category: "Injuries",
+    body: "The week has run out of days. Iraola left the door open on Thursday, Friday's session passed without a public verdict, and on Saturday morning Szoboszlai, Isak and Gakpo are described exactly as before, as doubts. The Football Faithful, writing a little after five, judged none of the three likely to start even if fit; Playmakerstats had Isak and Gakpo down for late fitness checks (Yahoo Sports). Gravenberch serves his ban, and Ekitike, Bradley and Leoni are out. So Nyoni, nineteen, may make a first Premier League start in a midfield whose senior partner, Mac Allister, has a referee to keep in mind.",
   },
   {
     n: "02",
@@ -984,19 +984,19 @@ export const DISPATCHES = [
   },
   {
     n: "03",
-    headline: "Late Checks.",
-    byline: "The Football Faithful / Yahoo Sports",
-    dateline: "Kirkby · 17 October",
-    category: "Injuries",
-    body: "The week has run out of days. Iraola left the door open on Thursday, Friday's session passed without a public verdict, and on Saturday morning Szoboszlai, Isak and Gakpo are described exactly as before, as doubts. The Football Faithful, writing a little after five, judged none of the three likely to start even if fit; Playmakerstats had Isak and Gakpo down for late fitness checks (Yahoo Sports). Gravenberch serves his ban, and Ekitike, Bradley and Leoni are out. So Nyoni, nineteen, may make a first Premier League start in a midfield whose senior partner, Mac Allister, has a referee to keep in mind.",
+    headline: "Four Elevens, One Winger.",
+    byline: "Liverpool Echo / Brit Brief",
+    dateline: "Liverpool · 17 October",
+    category: "Tactics",
+    body: "Before it was light on Saturday the Liverpool Echo had four of its writers pick a team, and on one position they did not argue. Paul Gorst, Ian Doyle, Mark Jones and Richard Garnett all start Rio Ngumoha on the right (Brit Brief). They part company in the middle: three of them trust Szoboszlai's hamstring enough to put him at the ten, only Gorst keeps Wirtz there, and only Garnett hands Isak the shirt ahead of Koumas. The national previews, Sports Mole's and The Football Faithful's, still keep Munoz on that flank. A quarrel over one wide position is, in its way, a measure of how settled the rest has become.",
   },
   {
     n: "04",
     headline: "Black And Maroon.",
-    byline: "Rush The Kop / LiveScore",
-    dateline: "Brentford · 17 October",
+    byline: "Liverpool FC / Rush The Kop",
+    dateline: "Liverpool · 15 October",
     category: "Football News",
-    body: "Liverpool's home and away strips both clash with Brentford's colours, Rush The Kop reports, so the third kit, black and maroon, makes its first appearance at the Gtech (via LiveScore). It is a small thing to read anything into. The same outlet's other numbers are less small: two wins in five league visits to this ground, and last season's 3-2 defeat there the most recent of them. A new shirt, then, for a ground where the old ones have not travelled well. Superstition is available to anyone in the away end who wants it, and the team sheet arrives an hour before three.",
+    body: "Liverpool FC said on Thursday that the team would change kit at the Gtech, and Rush The Kop, via LiveScore, gives the reason: the home and away strips both clash with Brentford's colours, so the black and maroon third kit makes what the outlet calls its debut. It is a small thing to read anything into. The same outlet's other numbers are less small: two wins in five league visits to this ground, and last season's 3-2 defeat there the most recent of them. A new shirt, then, for a ground where the old ones have not travelled well. Superstition is available to anyone in the away end who wants it, and the team sheet arrives an hour before three.",
   },
   {
     n: "05",
@@ -1009,17 +1009,17 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   generatedAt: "2026-10-17T08:30:00Z",
-  summary: "Matchday at the Gtech, and on Saturday morning the selection questions are still where Friday left them: Szoboszlai, Isak and Gakpo go to late fitness checks (Playmakerstats via Yahoo Sports), and The Football Faithful's preview, published at 5.14am, judges none of the three likely to start even if fit. The newer wrinkle is on the right, where all four of the Liverpool Echo's predicted XIs, published before dawn, start Rio Ngumoha (Brit Brief), hours after Goal carried Iraola's verdict that the eighteen-year-old is 'elite at certain things' but 'not the finished product'. With Gravenberch banned, Nyoni, nineteen, is in line for a first Premier League start beside Mac Allister (The Football Faithful), and Liverpool will wear their black and maroon third kit for the first time because both other strips clash with Brentford's (Rush The Kop via LiveScore). The hosts are fourth, a point ahead, on their longest unbeaten league start since 2006-07, with Schade and Schuster still to be assessed; kick-off is 3pm and not live on UK television (The Football Faithful).",
+  summary: "Matchday at the Gtech, and on Saturday morning the selection questions are still where Friday left them: Szoboszlai, Isak and Gakpo go to late fitness checks (Playmakerstats via Yahoo Sports), and The Football Faithful's preview, published at 5.14am, judges none of the three likely to start even if fit. The newer wrinkle is on the right, where all four of the Liverpool Echo's predicted XIs, published before dawn, start Rio Ngumoha (Brit Brief), hours after Goal carried Iraola's verdict that the eighteen-year-old is 'elite at certain things' but 'not the finished product'. With Gravenberch banned, Nyoni, nineteen, is in line for a first Premier League start beside Mac Allister (The Football Faithful), and Liverpool change kit for the Gtech (Liverpool FC), the black and maroon third kit making what Rush The Kop calls its debut because both other strips clash with Brentford's (Rush The Kop via LiveScore). The hosts are fourth, a point ahead, on their longest unbeaten league start since 2006-07, with Schade and Schuster still to be assessed; kick-off is 3pm and not live on UK television (The Football Faithful).",
   keyTopics: [
-    {
-      title: "Echo's Four XIs All Start Ngumoha On The Right (Liverpool Echo via Brit Brief, today)",
-      category: "tactics",
-      detail: "Published at 4.49am on Saturday: four Liverpool Echo writers each pick a 4-2-3-1, and all four start Ngumoha on the right, with Alisson, Araujo, Jacquet, Van Dijk, Kerkez, Mac Allister, Nyoni and Barcola common to every one. They split on the rest: Paul Gorst has Wirtz at the ten while Ian Doyle, Mark Jones and Richard Garnett pick Szoboszlai, and only Garnett starts Isak ahead of Koumas (Brit Brief). Sports Mole and The Football Faithful keep Munoz on the right.",
-    },
     {
       title: "Trio To Late Checks, None Likely To Start (The Football Faithful / Playmakerstats, today)",
       category: "injuries",
       detail: "Reported on Saturday morning by The Football Faithful (via Yahoo Sports, 5.14am BST): Szoboszlai (hamstring), Isak (thigh) and Gakpo (ankle) remain doubts, and none is likely to start even if fit. Playmakerstats, also via Yahoo Sports, had Isak and Gakpo down for late fitness checks and Gakpo unlikely to start. Gravenberch serves his one-match ban; Ekitike, Bradley and Leoni are out.",
+    },
+    {
+      title: "Echo's Four XIs All Start Ngumoha On The Right (Liverpool Echo via Brit Brief, today)",
+      category: "tactics",
+      detail: "Published at 4.49am on Saturday: four Liverpool Echo writers each pick a 4-2-3-1, and all four start Ngumoha on the right, with Alisson, Araujo, Jacquet, Van Dijk, Kerkez, Mac Allister, Nyoni and Barcola common to every one. They split on the rest: Paul Gorst has Wirtz at the ten while Ian Doyle, Mark Jones and Richard Garnett pick Szoboszlai, and only Garnett starts Isak ahead of Koumas (Brit Brief). Sports Mole and The Football Faithful keep Munoz on the right.",
     },
     {
       title: "Iraola On Ngumoha: 'Not The Finished Product' (Goal, today)",
@@ -1030,11 +1030,6 @@ export const NEWS_DIGEST = {
       title: "Nyoni In Line For A First League Start (The Football Faithful, today)",
       category: "tactics",
       detail: "From Saturday's previews: with Gravenberch banned, Nyoni, nineteen, could make his first Premier League start beside Mac Allister (The Football Faithful), and every XI checked this morning, the Echo's four, Sports Mole's and The Football Faithful's, has him there. The Liverpool Offside's Friday XI preferred Szoboszlai, a pick that rests on a hamstring nobody has publicly cleared (The Liverpool Offside via Yahoo Sports).",
-    },
-    {
-      title: "Third Kit Debut Forced By A Colour Clash (Rush The Kop, today)",
-      category: "general",
-      detail: "In LiveScore's Saturday round-up: Rush The Kop reports Liverpool will wear their black and maroon third kit for the first time at the Gtech, because the home and away strips both clash with Brentford's colours. The same outlet counts two wins from five league trips to the Gtech, last season's 3-2 defeat the latest (Rush The Kop via LiveScore).",
     },
     {
       title: "Brentford's Longest Unbeaten Start Since 2006-07 (The Football Faithful, today)",
@@ -1051,8 +1046,13 @@ export const NEWS_DIGEST = {
       category: "matches",
       detail: "Published on Friday afternoon by The Liverpool Offside (via Yahoo Sports): Andrews said 'we'll have to do a lot of things really well and stop them playing', and Iraola called Brentford 'well-coached'. The piece adds that Brentford concede 14.5 shots a match but have let in fewer than seven per cent of them, and that they made 2.65 expected goals to Chelsea's 0.83 on 40 per cent of the ball in September's 3-0 (The Liverpool Offside).",
     },
+    {
+      title: "Liverpool Change Kit For The Gtech (Liverpool FC, 2d ago)",
+      category: "general",
+      detail: "Announced by Liverpool FC on Thursday: Liverpool will change kit for Saturday's game at Brentford, the club's image showing the third kit. Rush The Kop, in LiveScore's Saturday round-up, calls it the black and maroon third kit's debut, forced because the home and away strips clash with Brentford's colours, and counts two wins from five league trips to the Gtech, last season's 3-2 defeat the latest (Liverpool FC; Rush The Kop via LiveScore).",
+    },
   ],
-  sources: ["Liverpool Echo", "Brit Brief", "Playmakerstats", "Yahoo Sports", "The Football Faithful", "Goal", "Sports Mole", "LiveScore", "The Liverpool Offside", "Rush The Kop", "The Hard Tackle"],
+  sources: ["Liverpool FC", "Liverpool Echo", "Brit Brief", "Playmakerstats", "Yahoo Sports", "The Football Faithful", "Goal", "Sports Mole", "LiveScore", "The Liverpool Offside", "Rush The Kop", "The Hard Tackle"],
 };
 // ─────────────────────────────────────────────────────────────────────────────
 // IN-SEASON ANALYSIS
@@ -1086,7 +1086,7 @@ export const OPPOSITION = {
   formation: "4-2-3-1",
   leaguePosition: 4,
   summary: "On the morning of the game Brentford are fourth on ten, two wins and four draws making up their longest unbeaten league start since 2006-07 (The Football Faithful; ESPN). They have not lost in eight home league games, three wins and five draws, but have won none of their last eight away (Sports Mole), and they go into Liverpool's visit with Schade and Schuster, both hurt at Villa Park, trained but still to be assessed (The Football Faithful). The last two league games were a 2-2 at Aston Villa, Ajer answering McGinn late on (TSN), and a 3-0 over Chelsea in which they made 2.65 expected goals to 0.83 on 40 per cent of the ball (The Liverpool Offside). Andrews' brief for the afternoon is to 'stop them playing' (The Liverpool Offside), and Opta's supercomputer makes his side narrow favourites, 37.9 per cent to 35.7 (Opta Analyst).",
-  shape: "Saturday's published Brentford XIs agree on a 4-2-3-1: Thiago alone up front, Jensen behind him, Yarmoliuk and Janelt the double pivot, Anthony and Ouattara wide, and Lewis-Potter at left-back, with van den Berg in for Schuster if the ankle fails (The Football Faithful; Sports Mole). They give up the ball, 45.5 per cent possession, and take the contest instead, 116 duels a match and half an expected goal a game from set pieces (The Hard Tackle). Nine different league scorers (The Football Faithful) means there is no single runner to mark.",
+  shape: "Saturday's published Brentford XIs agree on a 4-2-3-1: Thiago alone up front, Jensen behind him, Yarmoliuk and Janelt the double pivot, Anthony and Ouattara wide, Lewis-Potter at left-back and van den Berg beside Ajer, starting in place of Schuster, whose ankle is still to be assessed (The Football Faithful; Sports Mole). They give up the ball, 45.5 per cent possession, and take the contest instead, 116 duels a match and half an expected goal a game from set pieces (The Hard Tackle). Nine different league scorers (The Football Faithful) means there is no single runner to mark.",
   keyPlayers: [
     {
       name: "Kevin Schade",
@@ -1411,8 +1411,8 @@ export const SQUAD_LOAD = {
       name: "Conor Bradley",
       issue: "Knee",
       expected: "No club date, but nearing group work. Iraola, Thursday: 'Conor is not so far from training with the group, not like full training but doing some things with the group' (Anfield Index; RotoWire). SI points to after the November break, Manchester United on 22 November the possible return",
-      note: "A sixth league game went by without him against City on 11 October, and when Araujo, booked in the eighth minute, came off on seventy-five it was Frimpong who replaced him (ESPN). Lewis Steele reported individual ball work resuming; the club has said nothing beyond Iraola's 'probably Conor will go later'.",
-      source: "Anfield Index / RotoWire / SI / Liverpool Echo / Daily Mail / ESPN",
+      note: "Brentford is the seventh league game he misses this season, and Saturday's previews list him out again (The Football Faithful); against City it was Frimpong, not a specialist, who replaced Araujo at right-back (ESPN). Lewis Steele reported individual ball work resuming; the club has said nothing beyond Iraola's 'probably Conor will go later'.",
+      source: "Anfield Index / RotoWire / SI / Liverpool Echo / Daily Mail / ESPN / The Football Faithful",
     },
   ],
   returning: [
@@ -1435,21 +1435,21 @@ export const SQUAD_LOAD = {
       issue: "Left hamstring strain, felt in the France camp before France 4-1 Belgium (5 October)",
       status: "Started in Linz beside Araujo and was replaced by Van Dijk on sixty-two (SI; FotMob)",
       note: "Declared fit on 9 October, eighty-eight minutes against City and sixty-two in Linz, rated 6.9 by SI. Iraola's admission that changing both centre-backs together was a mistake (Liverpool FC) suggests he will keep one of the pairing in place at Brentford.",
-      source: "ESPN / Roundtable Sports",
+      source: "ESPN / Roundtable Sports / SI / FotMob / Liverpool FC",
     },
     {
       name: "Joe Gomez",
       issue: "Muscle (Sunderland, 25 July)",
       status: "On for Araujo on sixty-two in Linz (SI; FotMob)",
       note: "Rated 6.1 by SI for the half-hour in which LASK scored three; Iraola took the blame for the timing (Liverpool FC). Still the specialist cover at right-back while Bradley is out.",
-      source: "ESPN / Hayters",
+      source: "ESPN / Hayters / SI / FotMob / Liverpool FC",
     },
     {
       name: "Giorgi Mamardashvili",
       issue: "No injury; behind Alisson all season",
       status: "Unused substitute in Linz (SI)",
       note: "One appearance this season, the cup tie against Tottenham. Alisson started both games since the break; the Chelsea cup tie on 28 October remains the natural place to rotate.",
-      source: "ESPN / Sky Sports / Liverpool FC",
+      source: "ESPN / Sky Sports / Liverpool FC / SI",
     },
     {
       name: "Wataru Endo",
@@ -1463,7 +1463,7 @@ export const SQUAD_LOAD = {
       issue: "No injury; competing with Tsimikas at left-back",
       status: "Rested in Linz, an unused substitute (SI); ninety minutes against City (ESPN)",
       note: "Tsimikas took his place in Linz and made two goals (Sky Sports), so Saturday's left-back is a real choice for the first time this season. Kerkez was rested with Brentford in mind (beIN Sports).",
-      source: "ESPN / Liverpool FC / Evening Standard / Sports Mole / Empire of the Kop",
+      source: "ESPN / Liverpool FC / Evening Standard / Sports Mole / Empire of the Kop / SI / Sky Sports / beIN Sports",
     },
   ],
   startersLastMatch: {
