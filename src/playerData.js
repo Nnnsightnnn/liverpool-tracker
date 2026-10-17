@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "injured", outSince: "2026-10-11", injuryNote: "Sat Oct 17, evening - Hamstring; started and lasted thirty-two minutes, Iraola saying 'he's still not healed' and expecting him out 'for some time' (Empire of the Kop; This Is Anfield).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "injured", outSince: "2026-10-17", injuryNote: "Sat Oct 17, evening - Hamstring; started and lasted thirty-two minutes, Iraola saying 'he's still not healed' and expecting him out 'for some time' (Empire of the Kop; This Is Anfield).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -973,7 +973,7 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Nine Men, Two Goals.",
+    headline: "Ten Men, Two Goals.",
     byline: "Sky Sports / Liverpool FC",
     dateline: "Brentford · 17 October",
     category: "Match Report",
@@ -1171,7 +1171,7 @@ export const FORM_TRENDS = {
   generatedAt: "2026-10-17T22:30:00Z",
   competition: "PL",
   played: 7,
-  headline: "The comeback at the Gtech was the second away league win, after Bournemouth, in which the shots and the expected goals agreed with the scoreline: twenty-one shots to ten and 1.51 expected goals to 0.85 (SI, FotMob's figures), most of it after Brentford went down to ten. Seven games in, Liverpool's match-by-match sum is 9.94 expected goals for and 8.07 against, from nine goals scored and eight conceded, so the season's finishing and defending are now running almost exactly to the model. Isak's fifth league goal in five appearances (Sky Sports) is more than half the total again. The caveat is the one Saturday's red cards impose: forty-five minutes of the sample were against ten men, and twenty against nine.",
+  headline: "The comeback at the Gtech was the second away league win, after Bournemouth, in which the shots and the expected goals agreed with the scoreline: twenty-one shots to ten and 1.51 expected goals to 0.85 (SI, FotMob's figures), most of it after Brentford went down to ten. Seven games in, Liverpool's match-by-match sum is 9.94 expected goals for and 8.07 against, from nine goals scored and eight conceded, so the season's finishing and defending are now running almost exactly to the model. Isak's fifth league goal in five appearances (Sky Sports) is more than half the total again. The caveat is the one Saturday's red cards impose: forty-five minutes of the sample were against ten men, and a few stoppage-time minutes against nine.",
   diagnosis: [
     {
       label: "Better against ten than against eleven",
@@ -1183,7 +1183,7 @@ export const FORM_TRENDS = {
       label: "The pivot, losing a man every game",
       severity: "high",
       source: "Empire of the Kop / SI / Liverpool FC",
-      detail: "Gravenberch's red card against City cost him Brentford; Szoboszlai, picked to cover, lasted thirty-two minutes with a hamstring Iraola says is 'still not healed' (Empire of the Kop). Nyoni, nineteen, played the last hour beside Mac Allister and was rated 6.9 by FotMob (SI). Gravenberch returns for Villarreal, but Endo cannot play in the Champions League (SI, 4 September), so Liverpool start the week with three senior central midfielders available.",
+      detail: "Gravenberch's red card against City cost him Brentford; Szoboszlai, picked to cover, lasted thirty-two minutes with a hamstring Iraola says is 'still not healed' (Empire of the Kop). Nyoni, nineteen, played the last hour beside Mac Allister and was rated 6.9 by FotMob (SI). Gravenberch returns for Villarreal, but Endo cannot play in the Champions League (SI, 4 September), so Liverpool start the week with two senior central midfielders available, Mac Allister and Gravenberch, with Nyoni and McConnell behind them.",
     },
     {
       label: "The right side, rebuilt twice in one afternoon",

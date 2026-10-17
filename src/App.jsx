@@ -571,7 +571,7 @@ function CoverView({ onJump }) {
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
           Saturday evening, and the comeback came with a bill. Muñoz and Isak turned a
-          half-time deficit at nine-man Brentford into a 2-1 win and fifth place, but
+          half-time deficit at ten-man Brentford into a 2-1 win and fifth place, but
           Szoboszlai and Frimpong left the field hurt and will be out for some time.
           Villarreal, coached by Iraola's old assistant, are at Anfield on Tuesday night.
         </p>
@@ -614,7 +614,7 @@ function CoverView({ onJump }) {
               points above the side whose unbeaten start they ended. Szoboszlai, picked on a
               hamstring that was still not healed, lasted half an hour; Frimpong lasted seven
               minutes. Iraola called it a very delicate situation, and on Tuesday he meets the
-              friend who once worked as his assistant. The points came cheap; the bodies did not.
+              friend who once worked as his assistant. The points were hard-won; the bodies cost more.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -622,7 +622,7 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and
               five dispatches from the writers who never clock off. A comeback
-              against nine men; two injuries that will last; a manager counting
+              against ten men; two injuries that will last; a manager counting
               recovery days; the space Wirtz found at the ten; and an old friend
               bringing Villarreal to Anfield. Read them in order. The season has seven league games
               behind it, twelve points and one defeat, and the next two league
