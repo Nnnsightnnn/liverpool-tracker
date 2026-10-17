@@ -147,33 +147,33 @@ export const FORMATIONS = {
 //   Araujo replaces Frimpong at RB in the 4-3-3 and 4-2-3-1, since RotoWire and Sports Mole both pick him.
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 export const PLAYER_EVIDENCE = {
-  1:   "Starts in every Friday XI",   // Alisson
-  2:   "Cup is his turn",   // Mamardashvili
-  3:   "Calf · fine for Saturday",   // Van Dijk
-  5:   "RB and CB reserve",   // Gomez
-  7:   "LB in The False 9's XI",   // Kerkez
-  32:  "Kerkez's alternative",   // Tsimikas
-  8:   "Knee · nearing group work",   // Bradley
-  9:   "Bench · first RB change",   // Frimpong
-  10:  "ACL · November target",   // Leoni
-  11:  "Five previews, five starts",   // Jacquet
+  1:   "Unchallenged at the Gtech",   // Alisson
+  2:   "Bench · Chelsea cup more likely",   // Mamardashvili
+  3:   "Captain · beside Jacquet",   // Van Dijk
+  5:   "RB and CB cover today",   // Gomez
+  7:   "LB in all four Echo XIs",   // Kerkez
+  32:  "Kerkez's understudy today",   // Tsimikas
+  8:   "Knee · out, 22 Nov target",   // Bradley
+  9:   "First change at right-back",   // Frimpong
+  10:  "ACL · November break target",   // Leoni
+  11:  "Every Saturday XI starts him",   // Jacquet
   12:  "Levante loan",   // Ndukwe
-  13:  "Pivot anchor · Brooks risk",   // Mac Allister
-  14:  "Suspended Sat · back Tue",   // Gravenberch
-  15:  "Hamstring · wait and see",   // Szoboszlai
-  17:  "Available again · pivot cover",   // Endo
-  18:  "Fixed at the ten",   // Wirtz
-  20:  "First league start likely",   // Nyoni
-  22:  "Ankle · no Friday word",   // Gakpo
-  23:  "Thigh · bench at most (SI)",   // Isak
-  24:  "Achilles · behind Bradley",   // Ekitike
-  25:  "Bench · Villarreal case",   // Ngumoha
-  26:  "Available again · bench",   // Chiesa
+  13:  "Certain starter · Brooks risk",   // Mac Allister
+  14:  "Banned today · back Tuesday",   // Gravenberch
+  15:  "Hamstring · late call, unlikely",   // Szoboszlai
+  17:  "League-eligible pivot cover",   // Endo
+  18:  "Ten in most XIs · rest mooted",   // Wirtz
+  20:  "First league start in line",   // Nyoni
+  22:  "Ankle · late check, unlikely",   // Gakpo
+  23:  "Thigh · late fitness check",   // Isak
+  24:  "Achilles · Boxing Day target",   // Ekitike
+  25:  "Right in all four Echo XIs",   // Ngumoha
+  26:  "Bench option on the right",   // Chiesa
   27:  "Third keeper",   // Woodman
-  28:  "Right of the three",   // Munoz
-  29:  "RB ahead of Frimpong",   // Araujo
-  30:  "Left of the three",   // Barcola
-  31:  "Only fit senior nine",   // Koumas
+  28:  "Right in national previews",   // Munoz
+  29:  "RB in every Saturday XI",   // Araujo
+  30:  "Left in every Saturday XI",   // Barcola
+  31:  "Up front unless Isak passes",   // Koumas
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -232,7 +232,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by the 4-2-3-1
-// slot keys. These read as confidence that the slot's occupant STARTS AGAINST BRENTFORD AWAY (Sat 17 Oct; re-pointed Wed 14 Oct evening after LASK 3-6 Liverpool; previously LASK Linz, and before that Manchester City at
+// slot keys. These read as confidence that the slot's occupant STARTS AGAINST BRENTFORD AWAY (Sat 17 Oct; Sat Oct 17 morning: CAM High to Medium, three Echo writers pick Szoboszlai there; RAM Medium to Low, all four Echo writers pick Ngumoha; re-pointed Wed 14 Oct evening after LASK 3-6 Liverpool; previously LASK Linz, and before that Manchester City at
 // Anfield on Sunday 11 October, RE-POINTED Sun Oct 11 (evening) at LASK Linz away on Wed 14 October: RB lowered to Low (Frimpong rotation), RCB to Medium (Gomez), LDM now Gravenberch at Medium, RDM Mac Allister High. (Reviewed Sun Oct 11, morning: no level change, matchday previews agree. Sat Oct 10, morning: no level change; ST now Barcola and LAM Ngumoha, both Medium. Fri Oct 9, evening: RCB raised Medium to High after Iraola declared Jacquet 'fit and ready to go'; ST raised Low to Medium after Iraola ruled Isak out and named Koumas the only natural nine. Fri Oct 9, morning: RCB lowered from High to Medium because RotoWire still lists Jacquet's hamstring tightness and picks Gomez, against Rousing The Kop's report that he took the full session; other levels unchanged. Thu Oct 8, evening: RCB raised to High after Jacquet trained; RAM raised to Medium with Gakpo absent from training; ST stays Low with Koumas in. Thu Oct 8, morning: levels unchanged, no new bulletin. Wed Oct 7, evening: levels unchanged after Iraola's update on Isak and Gakpo. Wed Oct 7, morning: levels unchanged, no club bulletin on Jacquet, Isak or Gakpo. Tue Oct 6, evening: RCB raised from Low to Medium on reports that Jacquet's strain is slight, unconfirmed by the club. Tue Oct 6, morning: levels unchanged. Mon Oct 5, evening: RCB cut from High to Low after Jacquet's left hamstring strain in the France camp; other levels unchanged since Sat Sep 26.) The basis has changed in kind: this
 // is no longer a preview consensus, it is the eleven that started and won at Bournemouth
 // last time out. That raises confidence in the spine and lowers it nowhere except the front three,
@@ -249,27 +249,27 @@ export const SLOT_CONFIDENCE = {
   LDM: "Medium",
   RDM: "High",
   LAM: "High",
-  CAM: "High",
-  RAM: "Medium",
+  CAM: "Medium",
+  RAM: "Low",
   ST: "Medium",
 };
 
 
 // ─── Per-slot rationale ────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Fri Oct 16 (evening) against Bradley's progress (Anfield Index), SI's Friday list and The False 9's XI.
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Sat Oct 17 (morning, matchday) against the Liverpool Echo's four XIs (Brit Brief) and The Football Faithful's preview.
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Fri Oct 16, evening - Kerkez, left-back in The False 9's Friday XI as in all the others; Tsimikas waits. Medium.",
-  LCB: "Fri Oct 16, evening - Van Dijk; nothing out of Friday has questioned his own verdict on the calf. High.",
-  RCB: "Fri Oct 16, evening - Jacquet, the fifth published XI to pair him with the captain. Medium.",
-  RB: "Fri Oct 16, evening - Araujo, with Frimpong the first change and Bradley, nearing group work, further off (Anfield Index). Medium.",
-  LDM: "Fri Oct 16, evening - Nyoni, still the pick on Friday evening with Szoboszlai unresolved; Endo available again (Liverpool FC). Medium.",
-  RDM: "Fri Oct 16, evening - Mac Allister, certain to start, under a referee who has booked him three times in the league (Rush The Kop). High.",
-  LAM: "Fri Oct 16, evening - Barcola on the left, as every preview has him. High.",
-  CAM: "Fri Oct 16, evening - Wirtz at the ten, unchanged. High.",
-  RAM: "Fri Oct 16, evening - Munoz; no word on Gakpo's Friday fitness test by the evening. Medium.",
-  ST: "Fri Oct 16, evening - Koumas; SI has Isak a bench option at most even if fit. Medium.",
+  LB: "Sat Oct 17, morning - Kerkez, left-back in all four Echo XIs and every national preview; Tsimikas on the bench. Medium.",
+  LCB: "Sat Oct 17, morning - Van Dijk, captain, with no report since Thursday questioning the calf. High.",
+  RCB: "Sat Oct 17, morning - Jacquet, in every Saturday XI beside the captain. Medium.",
+  RB: "Sat Oct 17, morning - Araujo, unanimous across the Echo's four and the national previews; Frimpong the first change. Medium.",
+  LDM: "Sat Oct 17, morning - Nyoni, in line for a first league start (The Football Faithful); Endo the senior alternative. Medium.",
+  RDM: "Sat Oct 17, morning - Mac Allister, the one certain starter in the pivot, under a referee who has booked him three times (Rush The Kop). High.",
+  LAM: "Sat Oct 17, morning - Barcola on the left in every Saturday XI. High.",
+  CAM: "Sat Oct 17, morning - Wirtz, though three of the Echo's four writers gamble on Szoboszlai here (Brit Brief). Medium.",
+  RAM: "Sat Oct 17, morning - Munoz per Sports Mole and The Football Faithful; all four Echo writers start Ngumoha instead (Brit Brief). Low.",
+  ST: "Sat Oct 17, morning - Koumas; Isak goes to a late fitness check and only one Echo writer starts him. Medium.",
 };
 
 
@@ -286,8 +286,8 @@ export const ALTERNATIVES = {
   LDM: [{ playerId: 17, reason: "Endo · senior option, league-eligible" }],
   RDM: [{ playerId: 17, reason: "Endo · pivot depth" }],
   LAM: [{ playerId: 25, reason: "Ngumoha · started in Linz, 7.4 (SI)" }, { playerId: 26, reason: "Chiesa · available in the league" }],
-  CAM: [{ playerId: 25, reason: "Ngumoha · could move inside" }, { playerId: 30, reason: "Barcola · could move inside" }],
-  RAM: [{ playerId: 25, reason: "Ngumoha · either flank" }, { playerId: 26, reason: "Chiesa · eligible in the league" }],
+  CAM: [{ playerId: 15, reason: "Szoboszlai · three Echo writers pick him, if fit" }, { playerId: 30, reason: "Barcola · could move inside" }],
+  RAM: [{ playerId: 25, reason: "Ngumoha · all four Echo XIs start him here" }, { playerId: 26, reason: "Chiesa · eligible in the league" }],
   ST:  [{ playerId: 23, reason: "Isak · a doubt with the thigh" }, { playerId: 30, reason: "Barcola · the alternative nine" }],
 };
 
@@ -296,6 +296,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-10-16T22:30:00Z",
-  reason: "Fri Oct 16, evening. Brentford away (Premier League, Sat 17 Oct, 3pm). No change: every published XI, The False 9's on Friday the latest, names Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Nyoni, Mac Allister; Munoz, Wirtz, Barcola; Koumas. Friday's session passed with no public verdict on Szoboszlai, Isak or Gakpo (SI), and Gravenberch is banned, which keeps this at Medium.",
+  generated_at: "2026-10-17T08:30:00Z",
+  reason: "Sat Oct 17, morning (matchday). Brentford away, Premier League, 3pm. Back five and pivot unanimous across the Echo's four XIs and the national previews (Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Nyoni, Mac Allister). Two slots split: all four Echo writers start Ngumoha on the right where Sports Mole and The Football Faithful keep Munoz, and three put Szoboszlai at the ten. Szoboszlai, Isak and Gakpo face late checks, none likely to start (The Football Faithful), so Medium.",
 };

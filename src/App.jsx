@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday evening, and the good news is further off than tomorrow: Bradley, out
-          since January, is not so far from training with the group. The session that
-          was meant to decide Szoboszlai, Isak and Gakpo has passed without a public
-          verdict, so the answer comes with the team sheet, an hour before three at the Gtech.
+          Saturday morning, matchday at the Gtech, and only the team sheet will settle it:
+          Szoboszlai, Isak and Gakpo go to late fitness checks, none thought likely to start.
+          Four Echo writers have already agreed on one thing, Ngumoha on the right. Liverpool
+          are ninth, a point behind Brentford, and the afternoon begins at three.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,26 +606,25 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the most hopeful sentence out of Kirkby concerns a player who will not be at
-              the Gtech. Conor Bradley, nine months on from the knee he hurt against Arsenal,
-              is doing some things with the group, Iraola says, if not yet training with it,
-              and in a right-back department carried by Frimpong and Araujo, with Gomez
-              as cover, that is worth more than it sounds. Tomorrow's question is still open. Szoboszlai, Isak and
-              Gakpo were to be settled by today's session, and nobody has said how it went;
-              Iraola's own word was to wait and see. Across London, Andrews has Schade and
-              Schuster back on the grass, Collins and Damsgaard closer but not yet there. Iraola
-              has met Brentford seven times as a manager and never beaten them. The afternoon
-              will tell whether the eighth is the one, or simply the next.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and the waiting has a deadline at last. An hour before three at the Gtech,
+              Iraola names the side that closes a week of open doors: whether Szoboszlai's
+              hamstring, Isak's thigh and Gakpo's ankle have come through, and whether Nyoni,
+              nineteen, starts his first league game beside Mac Allister with Gravenberch
+              banned. Overnight the manager's words on another teenager went round, Ngumoha
+              elite at certain things and not the finished product, and by dawn four Echo
+              writers had all put him on the right. Brentford are fourth, on their best start
+              in twenty years. Liverpool will wear black and maroon, a third kit for a ground
+              where the other two have not travelled well. The shirt is the morning's only certainty.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off. A right-back
-              nearly back; a Friday without a verdict; Brentford's walking wounded;
-              a manager's unbeaten nemesis; and a referee with a habit. Read them in order. The season has six league games
+              five dispatches from the writers who never clock off. Four elevens
+              and one winger; a manager on a teenager; the last of the late checks;
+              a shirt for a difficult ground; and the hosts' best start in twenty years. Read them in order. The season has six league games
               behind it, nine points and a first defeat, and the next three league
               opponents all sit in the top four; the market stays shut until January,
               which is when every link on these pages either becomes a bid or goes quiet.
@@ -3839,7 +3838,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "We have to wait and see."
+        "Not the finished product."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

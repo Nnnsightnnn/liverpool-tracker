@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Fri Oct 16, evening - Unchallenged in every predicted XI; Kelleher, his old understudy, has the most saves from outside the box in the league at the other end (Brentford FC).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Sat Oct 17, morning - Matchday at the Gtech, and the one Liverpool selection nobody is debating; Kelleher, his old understudy, is in goal at the other end in every Brentford XI (The Football Faithful).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Fri Oct 16, evening - Bench at the Gtech; the Chelsea cup tie on 28 October is still the obvious place for his second start of the season.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Sat Oct 17, morning - On the bench at Brentford; his next start is likelier in the Chelsea cup tie on 28 October.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Fri Oct 16, evening - Calf; nothing has emerged from Friday's session to undo his own 'fine for Saturday', and he leads the line of every published XI.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Sat Oct 17, morning - Captains the side at the Gtech, every Saturday XI starting him beside Jacquet; the calf he took from City has not resurfaced in any report since his own 'fine for Saturday'.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Fri Oct 16, evening - Still the reserve at right-back and centre-back; Bradley nearing group work (Anfield Index) is the first sign of relief on the right.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Sat Oct 17, morning - Back-up at right-back and centre-back for the afternoon, the senior cover while Bradley remains out (The Football Faithful).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -54,7 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Fri Oct 16, evening - Left-back again in The False 9's Friday XI, as in every other; Tsimikas the alternative after his two assists in Linz.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Sat Oct 17, morning - Left-back in all four Liverpool Echo XIs and in every national preview checked on Saturday; Tsimikas waits.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Fri Oct 16, evening - Knee; 'not so far from training with the group, not like full training but doing some things with the group', Iraola said (Anfield Index; SI). No timescale.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Sat Oct 17, morning - Knee; listed out again in Saturday's previews (The Football Faithful), with Manchester United on 22 November the date Playmakerstats points to.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Fri Oct 16, evening - The man most likely to come off the bench at right-back; no preview has moved him ahead of Araujo by Friday evening.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Sat Oct 17, morning - Bench at Brentford; every Saturday XI keeps Araujo at right-back, with Frimpong the first change.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Fri Oct 16, evening - ACL; 'it's taking more time than we wanted' (SI), with group training now aimed at the November break.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Sat Oct 17, morning - ACL; out for Brentford, group training aimed at the November break (Playmakerstats via Yahoo Sports).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Fri Oct 16, evening - Partners Van Dijk in The False 9's Friday XI, the fifth published eleven to do so.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sat Oct 17, morning - Starts beside Van Dijk in every Saturday XI, and warned of 'a battle all over the field' at the Gtech (Goal via LiveScore).", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Fri Oct 16, evening - On loan at Levante; no bearing on the Brentford squad.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Sat Oct 17, morning - Away on loan at Levante; outside the Brentford picture.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -111,7 +111,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Fri Oct 16, evening - Behind Kerkez for the Gtech in every preview; Villarreal on Tuesday is where his Linz form may count.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
+    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Sat Oct 17, morning - Behind Kerkez again in Saturday's previews; Villarreal on Tuesday is the likelier start.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
     physical: { height: 178, weight: 76, pace: 79, acceleration: 80, sprintSpeed: 78 },
     career: [
       { years: "2017-2020", club: "Olympiacos", fee: null, type: "senior" },
@@ -122,7 +122,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Fri Oct 16, evening - Certain to start, and Rush The Kop notes three Premier League bookings in games refereed by Brooks, who has Saturday's.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sat Oct 17, morning - The fixed point of the pivot at the Gtech, and the only senior midfielder certain to start with Gravenberch banned; Brooks refereeing remains the risk (Rush The Kop).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Fri Oct 16, evening - Suspended for Brentford only; back for Villarreal on Tuesday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Sat Oct 17, morning - Serving the one-match ban today for the two bookings against City; available for Villarreal on Tuesday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "injured", outSince: "2026-10-11", injuryNote: "Fri Oct 16, evening - Hamstring; Friday's session has come and gone without a public verdict, and Iraola's word was 'we have to wait and see' (SI).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "injured", outSince: "2026-10-11", injuryNote: "Sat Oct 17, morning - Hamstring; still a doubt on Saturday morning and judged unlikely to start even if fit (The Football Faithful), though three of the Echo's four writers put him at the ten.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Fri Oct 16, evening - Available again domestically after sitting out Linz (Liverpool FC); the senior alternative to Nyoni.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Sat Oct 17, morning - Domestically eligible and the senior cover in midfield; no Saturday XI starts him ahead of Nyoni.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -163,7 +163,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Fri Oct 16, evening - The constant at the ten; Liverpool have nine big chances in six league games, and most of the making falls to him.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Sat Oct 17, morning - At the ten in most Saturday XIs; Paul Gorst keeps him there, while three of his Echo colleagues pick Szoboszlai and Mark Jones suggests a rest (Brit Brief).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -172,7 +172,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Fri Oct 16, evening - Still in every predicted XI on Friday evening, The False 9's included, for a first Premier League start.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
+    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Sat Oct 17, morning - In line for a first Premier League start at nineteen, beside Mac Allister with Gravenberch banned (The Football Faithful).", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
     physical: { height: 178, weight: 68, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Leicester City Academy", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "injured", outSince: "2026-09-27", injuryNote: "Fri Oct 16, evening - Ankle; no report on Friday's fitness test by the evening, and no published XI includes him.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "injured", outSince: "2026-09-27", injuryNote: "Sat Oct 17, morning - Ankle; a late fitness check before the Gtech, and unlikely to start (Playmakerstats via Yahoo Sports).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "injured", outSince: "2026-09-25", injuryNote: "Fri Oct 16, evening - Thigh; SI suggests the bench at most if he is fit, though his four league goals are more than any teammate has (Sports Mole; TSN).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "injured", outSince: "2026-09-25", injuryNote: "Sat Oct 17, morning - Thigh; a late fitness check this morning (Playmakerstats via Yahoo Sports). Only Richard Garnett of the Echo's four writers starts him (Brit Brief).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Fri Oct 16, evening - Achilles; 'a little bit behind' Bradley, 'but that was always the plan', Iraola said (Anfield Index).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Sat Oct 17, morning - Achilles; out for Brentford, with Boxing Day at Hull the date Playmakerstats points to.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -213,7 +213,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Fri Oct 16, evening - A bench option on Saturday after eighty-five minutes in Linz; a starting case for Villarreal.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Sat Oct 17, morning - On the right in all four Liverpool Echo XIs (Brit Brief); Iraola calls him 'elite at certain things' but 'not the finished product' (Goal).", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Fri Oct 16, evening - The only fit senior centre-forward, and up front in The False 9's Friday XI as in every other.", image: "",
+    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Sat Oct 17, morning - Up front in three of the Echo's four XIs and in every national preview; Isak's late check decides whether that holds (Brit Brief; The Football Faithful).", image: "",
     physical: { height: 180, weight: 73, pace: 80, acceleration: 81, sprintSpeed: 79 },
     career: [
       { years: "2013-", club: "Liverpool", fee: null, type: "youth" },
@@ -231,7 +231,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Fri Oct 16, evening - Listed available again by Liverpool FC's Friday team news after sitting out Linz; a bench option on the right.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Sat Oct 17, morning - Available in the league and a bench option at the Gtech; not in any Saturday XI.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -242,7 +242,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Fri Oct 16, evening - Third goalkeeper, no change.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Sat Oct 17, morning - Third goalkeeper; no change for Brentford.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -259,7 +259,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Fri Oct 16, evening - Right of the three in The False 9's Friday XI, rested legs after starting on the bench in Linz.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Sat Oct 17, morning - Right of the three in Sports Mole's and The Football Faithful's XIs, but none of the Echo's four writers start him ahead of Ngumoha.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -269,7 +269,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Fri Oct 16, evening - Right-back again in Friday's previews, with Frimpong and, further off, Bradley behind him.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
+    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Sat Oct 17, morning - Right-back in every Saturday XI, Echo and national alike, with Frimpong behind him.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
     physical: { height: 188, weight: 79, pace: 78, acceleration: 74, sprintSpeed: 80 },
     career: [
       { years: "2016-2018", club: "Rentistas", fee: null, type: "youth" },
@@ -279,7 +279,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Fri Oct 16, evening - Left of the three in every Friday XI, the hat-trick in Linz still his only Liverpool goals.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
+    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Sat Oct 17, morning - On the left in every Saturday XI; the Linz hat-trick is still his only Liverpool goals.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
     physical: { height: 182, weight: 72, pace: 91, acceleration: 92, sprintSpeed: 90 },
     career: [
       { years: "2010-2020", club: "Lyon Academy", fee: null, type: "youth" },
@@ -397,7 +397,11 @@ export const COVER_IMAGE = {
   alt: "Editorial plate: an empty pitch under floodlights seen from the gantry, the white lines drawn in perspective through a low mist, the stand beyond in shadow.",
   focus: "Anfield, after dark",
   credit: "Editorial plate",
-  generatedAt: "2026-10-16T22:30:00Z",
+  generatedAt: "2026-10-17T08:30:00Z",
+  // Morning pass (Sat 17 October, ~4am ET, cloud-scheduled): MATCHDAY, Brentford away at 3pm BST, unplayed. Lead moves onto the
+  // morning's selection picture: Szoboszlai, Isak and Gakpo to late checks, none likely to start (The Football Faithful; Playmakerstats),
+  // all four Liverpool Echo XIs starting Ngumoha on the right (Brit Brief) after Iraola's 'not the finished product' (Goal). Plate
+  // carried, Track 2 request still OPEN; only generatedAt refreshed. NO new image queued (STEP 7.5 not runnable in cloud). All generatedAt 08:30Z.
   // Evening pass (Fri 16 October, ~6pm ET, cloud-scheduled): NO LIVERPOOL MATCH since the morning edition. Lead moves onto
   // Bradley 'not so far from training with the group' (Anfield Index; SI), with Friday's session passing without a reported verdict
   // on Szoboszlai, Isak and Gakpo ('we have to wait and see', SI) and Andrews' Schade/Schuster 'on the grass' (Liverpool FC). Plate
@@ -887,7 +891,8 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-10-16 (Friday morning, ~4am ET). Byte-identical; matchweek seven starts on Saturday.
+// Last refresh: 2026-10-17 (Saturday morning, ~4am ET, matchday). Byte-identical; Brentford v Liverpool kicks off at 3pm.
+// Prior refresh: 2026-10-16 (Friday morning, ~4am ET). Byte-identical; matchweek seven starts on Saturday.
 // Prior refresh: 2026-10-15 (Thursday evening, ~6pm ET). Byte-identical again; no league games until Saturday.
 // Prior refresh: 2026-10-15 (Thursday morning, ~4am ET). Byte-identical; no league games until Saturday.
 // Prior refresh: 2026-10-14 (Wednesday evening, ~6pm ET). Byte-identical; Liverpool's 6-3 in Linz is a Champions League result and moves nothing here.
@@ -939,114 +944,115 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 6,
-  generatedAt: "2026-10-16T22:30:00Z",
-  overview: "Nothing has moved since Monday night, and nothing will until Saturday's early kick-off (ESPN). Liverpool go to the Gtech ninth on nine, one point behind fourth-placed Brentford, so a win there would lift them above their hosts and, depending on the rest of the afternoon, into the top five. Manchester City lead on eighteen from six, Arsenal follow on fifteen and Brighton sit third on the division's best goal difference. Brentford's ten points have come from two wins and four draws, a side that has not lost but does not often win away, eight league trips without a victory by Sports Mole's count. Bournemouth, Tottenham and Fulham, all still winless, hold the relegation places.",
+  generatedAt: "2026-10-17T08:30:00Z",
+  overview: "The table goes into matchweek seven exactly as matchweek six left it (ESPN), and Liverpool's afternoon at the Gtech kicks off at 3pm. Ninth on nine, they sit a point behind fourth-placed Brentford, whose two wins and four draws make up the club's longest unbeaten league start since 2006-07 (The Football Faithful); a win would lift Liverpool above their hosts. Manchester City lead on eighteen with six wins from six, Arsenal follow on fifteen and Brighton are third on the best goal difference in the division. Below Liverpool, Ipswich are level on nine and Newcastle a point back, so defeat could cost places as well as ground. Bournemouth, Tottenham and Fulham, none of them yet a league winner, hold the relegation stripe.",
   teams: {
-    "Liverpool": "Ninth on nine and a point behind Brentford; a win at the Gtech would take them above their hosts.",
-    "Manchester City": "Top on eighteen, six wins from six, the only side to beat Liverpool in the league.",
-    "Arsenal": "Second on fifteen; at Anfield on 1 November, the last of three league games in a row against the top four.",
-    "Brighton": "Third, with the division's best goal difference; Liverpool's visitors on 25 October.",
-    "Brentford": "Fourth on ten, unbeaten in six league games and eight at home, but without a win in eight away (Sports Mole).",
-    "Everton": "Fifth on ten and holding the Europa stripe; the derby is 29 November.",
-    "Chelsea": "Sixth on ten, beaten 3-0 at Brentford in September; at Anfield in the Carabao Cup on 28 October.",
-    "Newcastle": "Eleventh, a point behind Liverpool.",
-    "Crystal Palace": "Twelfth on seven; Liverpool visit Selhurst Park on 8 November.",
+    "Liverpool": "Ninth on nine at kick-off, a point below their hosts; a win at the Gtech takes them above Brentford.",
+    "Manchester City": "Top on eighteen from six, the one side to have beaten Liverpool in the league this season.",
+    "Arsenal": "Second on fifteen; Liverpool's visitors on 1 November.",
+    "Brighton": "Third on the division's best goal difference; at Anfield next Saturday, 25 October.",
+    "Brentford": "Fourth and unbeaten, their longest unbeaten league start since 2006-07 (The Football Faithful); Liverpool's hosts today.",
+    "Everton": "Fifth on ten and on the Europa stripe; the derby is 29 November.",
+    "Chelsea": "Sixth on ten, beaten 3-0 at the Gtech in September; at Anfield in the Carabao Cup on 28 October.",
+    "Ipswich": "Tenth, level with Liverpool on nine and three goals worse off on goal difference.",
+    "Newcastle": "Eleventh on eight, a point behind Liverpool.",
+    "Crystal Palace": "Twelfth on seven; Liverpool go to Selhurst Park on 8 November.",
     "Manchester United": "Thirteenth on six; at Anfield on 22 November.",
-    "Aston Villa": "Sixteenth, and still without a home league win after Saturday's 2-2 with Brentford.",
-    "Bournemouth": "Eighteenth and winless; Sky Sports reports they would consider £80m-plus for Alex Scott in January, if safe.",
+    "Aston Villa": "Sixteenth, still waiting for a home league win after last Saturday's 2-2 with Brentford.",
+    "Bournemouth": "Eighteenth and without a league win.",
     "Tottenham": "Nineteenth on three from six.",
-    "Fulham": "Bottom on two, still without a league win.",
+    "Fulham": "Bottom on two, still winless.",
   },
 };
 // ─── Dispatches (hand-curated long reads — separate from the wire feed) ────
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "Not So Far.",
-    byline: "Anfield Index / SI",
-    dateline: "Kirkby · 15 October",
-    category: "Injuries",
-    body: "The line came near the end of Thursday's press conference, and by Friday it was the one being passed around. 'Conor is not so far from training with the group,' Iraola said, 'not like full training but doing some things with the group' (Anfield Index via Yahoo Sports). Bradley has not played since the knee gave way against Arsenal in January, and for most of the autumn the club's language about him has been careful to the point of silence. This was still careful, and Iraola would not put a timescale on it, but it was movement. Ekitike, he added, is 'a little bit behind that, but that was always the plan' (SI).",
+    headline: "Four Elevens, One Winger.",
+    byline: "Liverpool Echo / Brit Brief",
+    dateline: "Liverpool · 17 October",
+    category: "Tactics",
+    body: "Before it was light on Saturday the Liverpool Echo had four of its writers pick a team, and on one position they did not argue. Paul Gorst, Ian Doyle, Mark Jones and Richard Garnett all start Rio Ngumoha on the right (Brit Brief). They part company in the middle: three of them trust Szoboszlai's hamstring enough to put him at the ten, only Gorst keeps Wirtz there, and only Garnett hands Isak the shirt ahead of Koumas. The national previews, Sports Mole's and The Football Faithful's, still keep Munoz on that flank. A quarrel over one wide position is, in its way, a measure of how settled the rest has become.",
   },
   {
     n: "02",
-    headline: "Wait And See.",
-    byline: "SI / The False 9",
-    dateline: "Kirkby · 16 October",
+    headline: "Elite, Unfinished.",
+    byline: "Goal",
+    dateline: "Liverpool · 17 October",
     category: "Manager",
-    body: "Friday was meant to be the day of answers. Iraola had said so himself, that the session would decide Szoboszlai, Isak and Gakpo, and by Friday evening nobody outside Kirkby had reported how it went. What remains is his phrase, 'we have to wait and see' (SI), and a predicted eleven, The False 9's among them, that leaves all three out. SI's reading is that Isak, if he is fit at all, is a substitute rather than a starter. Hungarian reporting, Promotions.hu's on Friday morning, put Szoboszlai's case down to hamstring tightness and fatigue. The team sheet at two o'clock will say more than anyone has yet.",
+    body: "Iraola does not hand out praise in a heap. When he talks about Rio Ngumoha he sorts it, the gifts in one pile and the work in another. 'I think he knows that he is elite at certain things,' he said, in remarks Goal carried overnight, and 'if you want to put someone one versus one then Rio is one of the best players you would choose.' Then the other pile: 'There are areas he has to improve, especially without the ball.' Senior England minutes at eighteen are, he said, 'not something normal'. The last line was the manager's own: 'luckily for us he is not the finished product.'",
   },
   {
     n: "03",
-    headline: "On The Grass.",
-    byline: "Liverpool FC / DaveOCKOP",
-    dateline: "Brentford · 16 October",
-    category: "Football News",
-    body: "Keith Andrews has a treatment room of his own, and on Friday it began to empty a little. 'Jannik and Kev have been on the grass this week and we'll see what tomorrow brings in terms of how much they can do,' he said of Schuster and Schade, both hurt at Villa Park (Liverpool FC). Collins and Damsgaard are closer, in DaveOCKOP's account of the same briefing, but Liverpool's own team news still has both sidelined. Van den Berg is in the squad without a minute this season after a groin problem (Brentford FC). The Bees, Andrews insists, are 'in a really good place', and unbeaten in every competition, they have earned the phrase.",
+    headline: "Late Checks.",
+    byline: "The Football Faithful / Yahoo Sports",
+    dateline: "Kirkby · 17 October",
+    category: "Injuries",
+    body: "The week has run out of days. Iraola left the door open on Thursday, Friday's session passed without a public verdict, and on Saturday morning Szoboszlai, Isak and Gakpo are described exactly as before, as doubts. The Football Faithful, writing a little after five, judged none of the three likely to start even if fit; Playmakerstats had Isak and Gakpo down for late fitness checks (Yahoo Sports). Gravenberch serves his ban, and Ekitike, Bradley and Leoni are out. So Nyoni, nineteen, may make a first Premier League start in a midfield whose senior partner, Mac Allister, has a referee to keep in mind.",
   },
   {
     n: "04",
-    headline: "Seven Without A Win.",
-    byline: "Sports Mole / Brentford FC",
-    dateline: "London · 15 October",
-    category: "Tactics",
-    body: "There is a record Iraola brings to the Gtech that has nothing to do with Liverpool. Seven times he has managed against Brentford, and seven times he has failed to beat them: five draws, two defeats (Sports Mole). The same preview notes that each of the last six meetings has had at least two goals in it, and calls this one 2-2. Liverpool's half of the problem is narrower than it looks: Isak, still a doubt, has four of Liverpool's seven league goals, two of them at Ipswich (Sports Mole; TSN), and nobody else has more than one. Brentford, by contrast, have had nine different scorers. One side spreads the burden; the other is waiting on a thigh.",
+    headline: "Black And Maroon.",
+    byline: "Rush The Kop / LiveScore",
+    dateline: "Brentford · 17 October",
+    category: "Football News",
+    body: "Liverpool's home and away strips both clash with Brentford's colours, Rush The Kop reports, so the third kit, black and maroon, makes its first appearance at the Gtech (via LiveScore). It is a small thing to read anything into. The same outlet's other numbers are less small: two wins in five league visits to this ground, and last season's 3-2 defeat there the most recent of them. A new shirt, then, for a ground where the old ones have not travelled well. Superstition is available to anyone in the away end who wants it, and the team sheet arrives an hour before three.",
   },
   {
     n: "05",
-    headline: "A Referee With A Habit.",
-    byline: "Rush The Kop / LiveScore",
-    dateline: "Liverpool · 16 October",
-    category: "Football News",
-    body: "Of all the numbers attached to Saturday, the one about John Brooks may be the least comfortable. Rush The Kop counted the Premier League games he has refereed with Mac Allister on the pitch and found a booking in three of them: at Old Trafford in March 2024, against Chelsea that October, and at Tottenham last December. Brooks has shown thirty-four yellows and two reds in seven games this season. With Gravenberch banned and Szoboszlai unproven, Mac Allister is the one senior midfielder Liverpool are sure to have, and the last one they can afford to see walking on a card before half-time (LiveScore).",
+    headline: "The Best Start In Twenty Years.",
+    byline: "The Football Faithful / The Liverpool Offside",
+    dateline: "Brentford · 17 October",
+    category: "Race for Europe",
+    body: "Brentford have not been here for a long time. Two wins and four draws is their longest unbeaten start to a league season since 2006-07 (The Football Faithful), and it has them fourth, a point above Liverpool. Andrews' plan for the afternoon is plain: 'We'll have to do a lot of things really well and stop them playing' (The Liverpool Offside). Iraola, who has never beaten them, returned the courtesy: 'They are well-coached.' Brentford allow fourteen and a half shots a game and let in fewer than seven per cent of them. Liverpool will have the ball; what they make of it is the question.",
   },
 ];
 export const NEWS_DIGEST = {
-  generatedAt: "2026-10-16T22:30:00Z",
-  summary: "The brightest news out of Kirkby this week concerns a player who will not be at the Gtech: Conor Bradley, out since the knee injury against Arsenal in January, is 'not so far from training with the group, not like full training but doing some things with the group', Iraola said on Thursday, in remarks carried on Friday by Anfield Index, SI and RotoWire, with Ekitike 'a little bit behind that, but that was always the plan' (Anfield Index via Yahoo Sports; SI; RotoWire). As of Friday evening the session Iraola said would settle Szoboszlai, Isak and Gakpo has passed without any outlet reporting its outcome, his last word being 'we have to wait and see' (SI), so Saturday's team sheet will carry the answer. Brentford's picture moved instead: Andrews has Schade and Schuster 'on the grass', with Collins and Damsgaard closer but still sidelined in Liverpool FC's team news (Liverpool FC; DaveOCKOP). Two numbers frame the 3pm kick-off: Iraola has never beaten Brentford in seven meetings as a manager (Sports Mole), and Mac Allister has been booked in three Premier League games refereed by John Brooks, who takes this one (Rush The Kop).",
+  generatedAt: "2026-10-17T08:30:00Z",
+  summary: "Matchday at the Gtech, and on Saturday morning the selection questions are still where Friday left them: Szoboszlai, Isak and Gakpo go to late fitness checks (Playmakerstats via Yahoo Sports), and The Football Faithful's preview, published at 5.14am, judges none of the three likely to start even if fit. The newer wrinkle is on the right, where all four of the Liverpool Echo's predicted XIs, published before dawn, start Rio Ngumoha (Brit Brief), hours after Goal carried Iraola's verdict that the eighteen-year-old is 'elite at certain things' but 'not the finished product'. With Gravenberch banned, Nyoni, nineteen, is in line for a first Premier League start beside Mac Allister (The Football Faithful), and Liverpool will wear their black and maroon third kit for the first time because both other strips clash with Brentford's (Rush The Kop via LiveScore). The hosts are fourth, a point ahead, on their longest unbeaten league start since 2006-07, with Schade and Schuster still to be assessed; kick-off is 3pm and not live on UK television (The Football Faithful).",
   keyTopics: [
     {
-      title: "Bradley 'Not So Far' From Group Training (Anfield Index / SI, today)",
-      category: "injuries",
-      detail: "Said by Iraola at Thursday's press conference and reported on Friday by Anfield Index (via Yahoo Sports) and SI: 'Conor is not so far from training with the group, not like full training but doing some things with the group.' Ekitike is 'a little bit behind that, but that was always the plan', and Iraola would not give either a timescale. SI still points to the November break, with Manchester United on 22 November the possible return (SI; RotoWire).",
-    },
-    {
-      title: "Friday Passes Without A Verdict On The Trio (SI / The False 9, today)",
-      category: "injuries",
-      detail: "As of Friday evening no outlet had reported how Szoboszlai, Isak and Gakpo came through the session Iraola said would decide them. SI's Friday list carries his 'we have to wait and see' and suggests Isak could be used from the bench if fit; The False 9's predicted XI, updated on Friday morning, leaves all three out. Promotions.hu, also on Friday, put Szoboszlai's absence down to hamstring tightness and fatigue (SI; The False 9; Promotions.hu).",
-    },
-    {
-      title: "Andrews: Schade And Schuster Back On The Grass (Liverpool FC / DaveOCKOP, today)",
-      category: "injuries",
-      detail: "From Keith Andrews' pre-match briefing, reported on Friday: 'Jannik and Kev have been on the grass this week and we'll see what tomorrow brings in terms of how much they can do' (Liverpool FC). DaveOCKOP's account has Collins and Damsgaard 'closer'; Liverpool FC's own team news still lists both as sidelined, with Dasilva, Furo and Milambo out. Van den Berg is in the squad but yet to play this season after a groin injury (Brentford FC).",
-    },
-    {
-      title: "Mac Allister And The Brooks Pattern (Rush The Kop, today)",
-      category: "general",
-      detail: "Published on Friday: Rush The Kop lists three Premier League bookings for Mac Allister in games refereed by John Brooks, at Manchester United in March 2024, at home to Chelsea in October 2024 and at Tottenham last December, and counts 34 yellow cards and two reds from Brooks in seven matches this season. With Gravenberch banned, Mac Allister is Liverpool's only senior central midfielder certain to start (Rush The Kop; LiveScore).",
-    },
-    {
-      title: "Chiesa And Endo Back In The Reckoning (Liverpool FC, today)",
-      category: "general",
-      detail: "Liverpool FC's Brentford team news, published on Friday, lists Chiesa and Endo as available again after sitting out Linz, where neither is registered for the Champions League. Neither is in a published XI, but with Gravenberch suspended Endo is the senior alternative to Nyoni in midfield and Chiesa an option on the right (Liverpool FC; Evening Standard).",
-    },
-    {
-      title: "Gerrard Keen On Wrexham, Says talkSPORT (The72, today)",
-      category: "general",
-      detail: "Reported on Friday: The72, citing talkSPORT, says Steven Gerrard would be keen on the Wrexham job if Phil Parkinson leaves, with Scott Parker also considered. Wrexham are seventeenth in the Championship after ten games and host Preston on Saturday. Gerrard, who called Saturday's game 1-1 on Thursday, has not managed since leaving Al-Ettifaq; it is a link, not an approach (The72; This Is Anfield).",
-    },
-    {
-      title: "Iraola Has Never Beaten Brentford (Sports Mole, 1d ago)",
-      category: "matches",
-      detail: "From Sports Mole's preview, last updated on Thursday evening: in seven meetings as a manager Iraola has drawn five and lost two against Brentford, and each of the last six Brentford-Liverpool games has had at least two goals. Brentford are unbeaten in eight at home (W3 D5) but have not won any of their last eight away league games. Sports Mole's call is 2-2 (Sports Mole).",
-    },
-    {
-      title: "Isak Still Liverpool's Only Multiple League Scorer (Sports Mole / Brentford FC, this week)",
+      title: "Echo's Four XIs All Start Ngumoha On The Right (Liverpool Echo via Brit Brief, today)",
       category: "tactics",
-      detail: "Brentford FC's match preview this week makes Isak the only Liverpool player with more than one Premier League goal this season, though it gives him three; Liverpool's results have him on four, two of them in the 2-0 at Ipswich (Sports Mole; TSN). Brentford have had nine different league scorers. Andy Jones of The Athletic expects Iraola to stay with a 4-2-3-1, and Andrews says his side are 'in a really good place' despite their injuries (Brentford FC).",
+      detail: "Published at 4.49am on Saturday: four Liverpool Echo writers each pick a 4-2-3-1, and all four start Ngumoha on the right, with Alisson, Araujo, Jacquet, Van Dijk, Kerkez, Mac Allister, Nyoni and Barcola common to every one. They split on the rest: Paul Gorst has Wirtz at the ten while Ian Doyle, Mark Jones and Richard Garnett pick Szoboszlai, and only Garnett starts Isak ahead of Koumas (Brit Brief). Sports Mole and The Football Faithful keep Munoz on the right.",
+    },
+    {
+      title: "Trio To Late Checks, None Likely To Start (The Football Faithful / Playmakerstats, today)",
+      category: "injuries",
+      detail: "Reported on Saturday morning by The Football Faithful (via Yahoo Sports, 5.14am BST): Szoboszlai (hamstring), Isak (thigh) and Gakpo (ankle) remain doubts, and none is likely to start even if fit. Playmakerstats, also via Yahoo Sports, had Isak and Gakpo down for late fitness checks and Gakpo unlikely to start. Gravenberch serves his one-match ban; Ekitike, Bradley and Leoni are out.",
+    },
+    {
+      title: "Iraola On Ngumoha: 'Not The Finished Product' (Goal, today)",
+      category: "general",
+      detail: "Carried by Goal just before 6am UK time on Saturday: Iraola called Ngumoha 'elite at certain things' and said 'if you want to put someone one versus one then Rio is one of the best players you would choose', adding that 'there are areas he has to improve, especially without the ball'. Of the eighteen-year-old's senior England minutes: 'that is not something normal' (Goal). Sports Mole, in LiveScore's Saturday round-up, reports him open to a new contract if the first-team pathway is clear.",
+    },
+    {
+      title: "Nyoni In Line For A First League Start (The Football Faithful, today)",
+      category: "tactics",
+      detail: "From Saturday's previews: with Gravenberch banned, Nyoni, nineteen, could make his first Premier League start beside Mac Allister (The Football Faithful), and every XI checked this morning, the Echo's four, Sports Mole's and The Football Faithful's, has him there. The Liverpool Offside's Friday XI preferred Szoboszlai, a pick that rests on a hamstring nobody has publicly cleared (The Liverpool Offside via Yahoo Sports).",
+    },
+    {
+      title: "Third Kit Debut Forced By A Colour Clash (Rush The Kop, today)",
+      category: "general",
+      detail: "In LiveScore's Saturday round-up: Rush The Kop reports Liverpool will wear their black and maroon third kit for the first time at the Gtech, because the home and away strips both clash with Brentford's colours. The same outlet counts two wins from five league trips to the Gtech, last season's 3-2 defeat the latest (Rush The Kop via LiveScore).",
+    },
+    {
+      title: "Brentford's Longest Unbeaten Start Since 2006-07 (The Football Faithful, today)",
+      category: "matches",
+      detail: "From The Football Faithful's Saturday preview: two wins and four draws is Brentford's longest unbeaten start to a league season since 2006-07; they are unbeaten in eight at home (W3 D5), without a win in eight away, and have had nine different league scorers. Schade (shoulder) and Schuster (ankle) have trained and will be assessed, Collins and Damsgaard are doubtful but closer, and van den Berg may come in if Schuster misses out (The Football Faithful).",
+    },
+    {
+      title: "Three Clean Sheets, No Set-Piece Goals Conceded (The Football Faithful, today)",
+      category: "tactics",
+      detail: "Noted in The Football Faithful's preview on Saturday morning: Liverpool have kept three Premier League clean sheets in six games and have not conceded from a set piece. That is the part of their game that meets Brentford's strength, half an expected goal a game from dead balls by The Hard Tackle's count, with Mac Allister booked in three league games refereed by John Brooks, who has this one (Rush The Kop).",
+    },
+    {
+      title: "Andrews Wants To 'Stop Them Playing' (The Liverpool Offside, 1d ago)",
+      category: "matches",
+      detail: "Published on Friday afternoon by The Liverpool Offside (via Yahoo Sports): Andrews said 'we'll have to do a lot of things really well and stop them playing', and Iraola called Brentford 'well-coached'. The piece adds that Brentford concede 14.5 shots a match but have let in fewer than seven per cent of them, and that they made 2.65 expected goals to Chelsea's 0.83 on 40 per cent of the ball in September's 3-0 (The Liverpool Offside).",
     },
   ],
-  sources: ["Anfield Index", "Yahoo Sports", "SI", "RotoWire", "The False 9", "Promotions.hu", "Liverpool FC", "DaveOCKOP", "Brentford FC", "Rush The Kop", "LiveScore", "Evening Standard", "The72", "talkSPORT", "This Is Anfield", "Sports Mole", "TSN"],
+  sources: ["Liverpool Echo", "Brit Brief", "Playmakerstats", "Yahoo Sports", "The Football Faithful", "Goal", "Sports Mole", "LiveScore", "The Liverpool Offside", "Rush The Kop", "The Hard Tackle"],
 };
 // ─────────────────────────────────────────────────────────────────────────────
 // IN-SEASON ANALYSIS
@@ -1066,7 +1072,7 @@ export const NEWS_DIGEST = {
 // next edition and then into the auditor's blind spot.
 
 export const OPPOSITION = {
-  generatedAt: "2026-10-16T22:30:00Z",
+  generatedAt: "2026-10-17T08:30:00Z",
   opponent: "Brentford",
   shortName: "Brentford",
   fixture: {
@@ -1079,8 +1085,8 @@ export const OPPOSITION = {
   manager: "Keith Andrews",
   formation: "4-2-3-1",
   leaguePosition: 4,
-  summary: "Brentford end the week with their own injury list easing: Andrews says Schade and Schuster, both hurt at Villa Park, 'have been on the grass this week and we'll see what tomorrow brings', while Collins and Damsgaard are closer but still sidelined (Liverpool FC; DaveOCKOP). They are fourth on ten from six, unbeaten in the league (ESPN) and in all competitions, with a goal difference of +12 across every competition and +6 in the league (Brentford FC; ESPN), and have not lost in eight home league games, three wins and five draws, though they have not won any of their last eight away (Sports Mole). The last outing was a 2-2 at Aston Villa, Ajer equalising McGinn's late goal (TSN), after a 3-0 home win over Chelsea before the break (Squawka). Iraola has managed against them seven times and never won (Sports Mole), and Opta's supercomputer makes Brentford narrow favourites, 37.9 per cent to 35.7 (Opta Analyst).",
-  shape: "Every published Brentford XI is a 4-2-3-1, with Thiago alone up front, Jensen behind him and Janelt and Yarmoliuk the double pivot (RotoWire; Sports Mole; The Hard Tackle); Sports Mole puts Ouattara and Anthony wide and Lewis-Potter at left-back. They concede the ball, 45.5 per cent possession, and take the contest instead, 116 duels a match and 0.50 expected goals a game from set pieces (The Hard Tackle). Nine different league scorers so far, second only to Brighton (Brentford FC), means there is no single runner to mark.",
+  summary: "On the morning of the game Brentford are fourth on ten, two wins and four draws making up their longest unbeaten league start since 2006-07 (The Football Faithful; ESPN). They have not lost in eight home league games, three wins and five draws, but have won none of their last eight away (Sports Mole), and they go into Liverpool's visit with Schade and Schuster, both hurt at Villa Park, trained but still to be assessed (The Football Faithful). The last two league games were a 2-2 at Aston Villa, Ajer answering McGinn late on (TSN), and a 3-0 over Chelsea in which they made 2.65 expected goals to 0.83 on 40 per cent of the ball (The Liverpool Offside). Andrews' brief for the afternoon is to 'stop them playing' (The Liverpool Offside), and Opta's supercomputer makes his side narrow favourites, 37.9 per cent to 35.7 (Opta Analyst).",
+  shape: "Saturday's published Brentford XIs agree on a 4-2-3-1: Thiago alone up front, Jensen behind him, Yarmoliuk and Janelt the double pivot, Anthony and Ouattara wide, and Lewis-Potter at left-back, with van den Berg in for Schuster if the ankle fails (The Football Faithful; Sports Mole). They give up the ball, 45.5 per cent possession, and take the contest instead, 116 duels a match and half an expected goal a game from set pieces (The Hard Tackle). Nine different league scorers (The Football Faithful) means there is no single runner to mark.",
   keyPlayers: [
     {
       name: "Kevin Schade",
@@ -1107,15 +1113,15 @@ export const OPPOSITION = {
       source: "Brentford FC",
     },
   ],
-  predictedXI: ["Kelleher", "Kayode", "Ajer", "van den Berg", "Diouf", "Janelt", "Yarmoliuk", "Anthony", "Jensen", "Lewis-Potter", "Thiago"],
+  predictedXI: ["Kelleher", "Kayode", "van den Berg", "Ajer", "Lewis-Potter", "Yarmoliuk", "Janelt", "Anthony", "Jensen", "Ouattara", "Thiago"],
   absentees: [
-    {"name": "Josh Dasilva", "issue": "Thigh per Sports Mole; hamstring per dave.sport and Squawka.", "status": "Out"},
-    {"name": "Kaye Furo", "issue": "Foot surgery (dave.sport).", "status": "Out"},
-    {"name": "Antoni Milambo", "issue": "Fitness (dave.sport); listed injured by Squawka.", "status": "Out"},
-    {"name": "Kevin Schade", "issue": "Shoulder, forced off at Aston Villa; back on the grass this week, Andrews to decide on Saturday (Liverpool FC; DaveOCKOP).", "status": "Doubt"},
-    {"name": "Jannik Schuster", "issue": "Ankle, hurt at Villa Park; on the grass this week with Schade, 'different types of injuries', Andrews says (Brentford FC; Liverpool FC).", "status": "Doubt"},
-    {"name": "Nathan Collins", "issue": "Calf; 'closer' per Andrews (DaveOCKOP) but sidelined in Liverpool FC's Friday team news.", "status": "Out"},
-    {"name": "Mikkel Damsgaard", "issue": "Hurt on international duty; 'closer' (DaveOCKOP) but sidelined per Liverpool FC's team news.", "status": "Out"},
+    {"name": "Josh Dasilva", "issue": "Hamstring (The Football Faithful; Squawka); thigh per Sports Mole.", "status": "Out"},
+    {"name": "Kaye Furo", "issue": "Metatarsal (The Football Faithful); foot surgery per dave.sport.", "status": "Out"},
+    {"name": "Antoni Milambo", "issue": "Knee (The Football Faithful).", "status": "Out"},
+    {"name": "Kevin Schade", "issue": "Shoulder, forced off at Aston Villa; has trained this week and will be assessed on the day (The Football Faithful; Liverpool FC).", "status": "Doubt"},
+    {"name": "Jannik Schuster", "issue": "Ankle, hurt at Villa Park; trained this week, to be assessed, with van den Berg the replacement if he misses out (The Football Faithful).", "status": "Doubt"},
+    {"name": "Nathan Collins", "issue": "Calf; 'doubtful' but closer per The Football Faithful, unlikely to play per The Liverpool Offside.", "status": "Doubt"},
+    {"name": "Mikkel Damsgaard", "issue": "Ankle; doubtful but closer per The Football Faithful, unlikely to play per The Liverpool Offside.", "status": "Doubt"},
   ],
   recentForm: [
     {
@@ -1151,7 +1157,7 @@ export const OPPOSITION = {
       note: "Held at home by Sunderland (Squawka).",
     },
   ],
-  liverpoolAngle: "Liverpool's problem is concentration, Brentford's is spread. Isak, a doubt, has four of Liverpool's seven league goals (Sports Mole; TSN), and if he is on the bench at most (SI) the scoring falls on Koumas, the only fit senior centre-forward in a department SQUAD_LOAD marks critical, against a defence that lets fewer than seven per cent of shots in (Brentford FC). In midfield the same critical department meets Brentford's strength: Nyoni, nineteen, beside Mac Allister, who has been booked in three Premier League games under Saturday's referee, John Brooks (Rush The Kop), against a side making half an expected goal a game from dead balls (The Hard Tackle). One early card for Mac Allister would leave Liverpool's pivot a teenager and a thirty-three-year-old on the bench. Brentford's reshuffled centre-backs, with Collins out and van den Berg yet to play this season (Brentford FC), are where Liverpool can look for the opening.",
+  liverpoolAngle: "The contest Brentford want is at dead balls and in duels, and that is the one area where Liverpool's record is clean: three league clean sheets and no set-piece goal conceded in six games (The Football Faithful), against a side making half an expected goal a game from set plays (The Hard Tackle). The risk sits in the pivot, the department SQUAD_LOAD marks critical: Nyoni, nineteen, in line for a first league start beside Mac Allister, who has been booked in three Premier League games under Saturday's referee, John Brooks (Rush The Kop). Up front the scoring falls on Koumas while Isak goes to a late check (Playmakerstats via Yahoo Sports), against a defence that lets in fewer than seven per cent of the shots it faces (The Liverpool Offside). If Iraola follows the Echo's writers and starts Ngumoha on the right, the one-against-one Iraola calls elite runs at Lewis-Potter, a converted winger at left-back in every Brentford XI (Goal; The Football Faithful).",
   modelLine: {
     source: "Opta supercomputer (Opta Analyst)",
     liverpool: 35.7,
@@ -1159,13 +1165,13 @@ export const OPPOSITION = {
     opponent: 37.9,
     note: "Opta Analyst's matchweek-seven predictions, published Thursday 15 October. Opta states the two win probabilities; the draw figure here is the remainder to 100, not a number Opta printed. A model's estimate, not a betting market.",
   },
-  sources: ["Opta Analyst", "Sports Mole", "RotoWire", "The Hard Tackle", "ESPN", "Brentford FC", "TSN", "Squawka", "dave.sport", "DaveOCKOP", "Liverpool FC", "SI", "Rush The Kop"],
+  sources: ["Opta Analyst", "Sports Mole", "The Football Faithful", "The Liverpool Offside", "The Hard Tackle", "ESPN", "Brentford FC", "TSN", "Squawka", "dave.sport", "Liverpool FC", "Rush The Kop", "Playmakerstats", "Yahoo Sports", "Goal", "RotoWire"],
 };
 export const FORM_TRENDS = {
-  generatedAt: "2026-10-16T22:30:00Z",
+  generatedAt: "2026-10-17T08:30:00Z",
   competition: "PL",
   played: 6,
-  headline: "Six league games have produced one Liverpool player with more than one goal, Isak with four of the seven (Sports Mole; TSN), and he is a doubt for Saturday. That is the number beneath Squawka's expected-goals table, which after gameweek six has Liverpool on 8.65 for and 7.27 against and eleventh on its alternative standings (Squawka), and beneath Brentford FC's count of nine big chances, the fewest in the division (Brentford FC, citing Sky Sports data). This page's own match-by-match sum, 8.43 and 7.22 (Opta Analyst; Sofascore), agrees: chances are being made at a mid-table rate and finished by too few people. No league match has been played since; the numbers wait on the Gtech.",
+  headline: "The afternoon at the Gtech is the first league test of what Linz suggested, that the attack can function without Isak, who has four of Liverpool's seven league goals (Sports Mole; TSN) and goes to a late fitness check (Playmakerstats via Yahoo Sports). The defensive half of the season reads better than the attacking one: three league clean sheets and no set-piece goal conceded (The Football Faithful). Squawka's expected-goals table after six games has Liverpool on 8.65 for and 7.27 against, eleventh on its alternative standings (Squawka), and this page's match-by-match sum, 8.43 and 7.22 (Opta Analyst; Sofascore), agrees. Brentford made 2.65 expected goals against Chelsea on 40 per cent of the ball (The Liverpool Offside): a side that does not need possession to create.",
   diagnosis: [
     {
       label: "Ten men, then sixteen minutes",
@@ -1182,14 +1188,14 @@ export const FORM_TRENDS = {
     {
       label: "The attack without Isak",
       severity: "high",
-      source: "Opta Analyst / Goal / FotMob / SI / DaveOCKOP",
-      detail: "Against City Koumas made his first Premier League start at nine and Liverpool's 0.86 expected goals included only 0.38 from open play (Opta Analyst), with Wirtz rated 3.5 by Goal. In Linz the same front four minus Munoz, with Ngumoha in, made 3.34 from 26 shots against a LASK side that defended with five (FotMob), Barcola scoring three, Koumas one and Wirtz rated 8.7 (SI). One game against Austria's champions does not cancel six in the league: seven goals from 8.43 expected, four of them Isak's, and Isak is still a doubt for Brentford (DaveOCKOP).",
+      source: "Opta Analyst / Goal / FotMob / SI / Playmakerstats / Brit Brief",
+      detail: "Against City Koumas made his first Premier League start at nine and Liverpool's 0.86 expected goals included only 0.38 from open play (Opta Analyst), with Wirtz rated 3.5 by Goal. In Linz the same front line, Ngumoha in for Munoz, made 3.34 from 26 shots against a LASK side defending with five (FotMob), Barcola scoring three and Koumas one (SI). Six league games say otherwise: seven goals from 8.43 expected, four of them Isak's, and on Saturday morning Isak was still awaiting a late fitness check (Playmakerstats via Yahoo Sports), with only one of the Echo's four writers starting him (Brit Brief).",
     },
     {
       label: "The pivot, suddenly the thinnest department",
       severity: "high",
-      source: "SI / The False 9 / The Hard Tackle / Rush The Kop",
-      detail: "Gravenberch is banned for Brentford, and Friday's session, which Iraola said would decide Szoboszlai, had produced no public verdict by the evening; his word was 'we have to wait and see' (SI). Every published XI, The False 9's on Friday the latest, gives the place beside Mac Allister to Nyoni, nineteen, with Endo the senior alternative. Two things sharpen it: Brentford's 116 duels a match and half an expected goal a game from set pieces (The Hard Tackle), and a referee, John Brooks, who has booked Mac Allister in three Premier League games (Rush The Kop).",
+      source: "The Football Faithful / Brit Brief / The Hard Tackle / Rush The Kop",
+      detail: "Gravenberch serves his ban at the Gtech and Szoboszlai, still a doubt on Saturday morning, is judged unlikely to start even if fit (The Football Faithful), though three of the Echo's four writers gamble on him at the ten (Brit Brief). Every XI puts Nyoni, nineteen, beside Mac Allister for what would be a first league start. Two things sharpen it: Brentford's 116 duels a match and half an expected goal a game from set pieces (The Hard Tackle), and a referee, John Brooks, who has booked Mac Allister in three Premier League games (Rush The Kop).",
     },
     {
       label: "A level second half in Linz",
@@ -1347,16 +1353,16 @@ export const FORM_TRENDS = {
     note: "Premier League only, six games. xG for is 2.73 (Newcastle) plus 1.61 (Forest) plus 0.53 (Ipswich) plus 1.13 (Fulham) plus 1.57 (Bournemouth) plus 0.86 (City); xG against is 1.43 plus 2.30 plus 0.72 plus 0.71 plus 0.76 plus 1.30. The City card's 0.86 is Opta's and its 1.30 is Sofascore's (whose Liverpool figure, 0.86, matches Opta's); Opta's own City figure has not been published in text and replaces it when it is. Provenance caveat from 21 September stands: Opta's published season expected-goals-against figure through five games was 6.12 rather than the 5.92 those per-match cards summed to. Champions League and Carabao Cup cards are shown but not aggregated. First-half splits exist only for Forest, Tottenham and City and are not aggregated.",
   },
   optaFacts: [
-    "Isak has four of Liverpool's seven Premier League goals, including both at Ipswich, and no teammate has more than one (Sports Mole; TSN).",
-    "Iraola has managed against Brentford seven times without a win: five draws and two defeats (Sports Mole).",
-    "Each of the last six Brentford-Liverpool meetings has produced at least two goals (Sports Mole).",
-    "Kelleher has made ten saves from shots outside the box, the most in the Premier League this season (Brentford FC).",
+    "Liverpool have kept three Premier League clean sheets in six games and have not conceded from a set piece (The Football Faithful).",
+    "Brentford's six-game unbeaten opening is their longest unbeaten start to a league season since 2006-07 (The Football Faithful).",
+    "In September's 3-0 over Chelsea, Brentford made 2.65 expected goals to 0.83 with 40 per cent of the ball (The Liverpool Offside).",
+    "Brentford face 14.5 shots a match and fewer than seven per cent of them have gone in (The Liverpool Offside).",
   ],
-  sources: ["Opta Analyst", "Sofascore", "ESPN", "Sports Mole", "Sky Sports", "Goal", "Liverpool FC", "Squawka", "FotMob", "This Is Anfield", "Premier League", "Hayters", "Yahoo Sports", "The Transfer Hub", "SI", "RotoWire", "Brentford FC", "The Hard Tackle", "Evening Standard", "TSN", "Rush The Kop", "The False 9"],
+  sources: ["Opta Analyst", "Sofascore", "ESPN", "Sports Mole", "Sky Sports", "Goal", "Liverpool FC", "Squawka", "FotMob", "This Is Anfield", "Premier League", "Hayters", "Yahoo Sports", "The Transfer Hub", "SI", "RotoWire", "Brentford FC", "The Hard Tackle", "Evening Standard", "TSN", "Rush The Kop", "The False 9", "The Football Faithful", "The Liverpool Offside", "Playmakerstats", "Brit Brief"],
 };
 export const SQUAD_LOAD = {
-  generatedAt: "2026-10-16T22:30:00Z",
-  headline: "The best news of Friday was about the long term: Bradley is 'not so far from training with the group', Iraola says, the first movement in a right-back department that has leaned on Araujo and Frimpong all autumn (Anfield Index; SI). The short term is still unresolved, Friday's session having passed with no public word on Szoboszlai, Isak and Gakpo (SI; The False 9). Gravenberch is banned, Leoni a month behind schedule, and the eleven every preview names is close to the only one available, with Villarreal three days later.",
+  generatedAt: "2026-10-17T08:30:00Z",
+  headline: "Matchday has not produced a verdict on the walking wounded: Szoboszlai, Isak and Gakpo all go to late checks, and The Football Faithful judges none likely to start even if fit (Playmakerstats via Yahoo Sports; The Football Faithful). That leaves a teenager in each of the thinnest places, Nyoni beside Mac Allister and, if the Echo's four writers are right, Ngumoha on the right (Brit Brief). Gravenberch is banned, Bradley, Ekitike and Leoni are out, and Villarreal follow on Tuesday.",
   minutesNote: "Premier League minutes are not published here yet. Six league games, one Champions League game and one Carabao Cup tie have been played and no reliable per-player minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   unavailable: [
     {
@@ -1369,29 +1375,29 @@ export const SQUAD_LOAD = {
     {
       name: "Dominik Szoboszlai",
       issue: "Tight hamstring, an 'overload' brought back from Hungary duty",
-      expected: "Not ruled out for Brentford on 17 October; Friday's training was to decide and no outcome had been reported by the evening. Iraola: 'We have to wait and see' (Liverpool FC; SI)",
+      expected: "Still a doubt on matchday, judged unlikely to start at the Gtech even if fit (The Football Faithful); three of the Liverpool Echo's four writers nonetheless start him at the ten (Brit Brief)",
       note: "First reported before kick-off by The Athletic's James Pearce (SI). Iraola said he had been used as a floater in training to protect him 'but he was feeling something very small' (Hayters). His absence, with Gravenberch's ban, leaves Mac Allister without a regular senior partner at Brentford.",
-      source: "Liverpool FC / Goal / Liverpool Echo / UEFA.com / 3 Added Minutes / Hayters / SI",
+      source: "Liverpool FC / Goal / Liverpool Echo / UEFA.com / 3 Added Minutes / Hayters / SI / The Football Faithful / Brit Brief",
     },
     {
       name: "Alexander Isak",
       issue: "Thigh, a minor problem brought back from Sweden duty",
-      expected: "Not ruled out for Brentford; Friday's session was the test and no outcome had been reported by the evening. SI suggests the bench at most if fit (Liverpool FC; SI). Not described as a long-term injury (CaughtOffside, relaying the Liverpool Echo)",
+      expected: "A late fitness check on Saturday morning (Playmakerstats via Yahoo Sports); unlikely to start even if fit (The Football Faithful). Not described as a long-term injury (CaughtOffside, relaying the Liverpool Echo)",
       note: "Iraola's view on 9 October that these 'don't look like long-term injuries' still stands. Without him Liverpool made 0.38 open-play expected goals against City (Opta Analyst) and then 3.34 in Linz against LASK (FotMob), with Koumas scoring and Barcola taking a hat-trick. Isak's four goals are still more than half of Liverpool's league total.",
-      source: "Liverpool FC / Hayters / This Is Anfield / Opta Analyst",
+      source: "Liverpool FC / Hayters / This Is Anfield / Opta Analyst / Playmakerstats / The Football Faithful",
     },
     {
       name: "Cody Gakpo",
       issue: "Left ankle, scissor-tackle by Sasa Lukic, Serbia 1-2 Netherlands (27 September)",
-      expected: "Not ruled out for Brentford; Friday's session was the test, with no outcome reported by the evening, after 'they were not ready' for Linz (Liverpool FC; SI)",
+      expected: "A late fitness check before Brentford and unlikely to start (Playmakerstats via Yahoo Sports; The Football Faithful)",
       note: "Iraola called the tackle 'really bad' and the recovery 'about dealing with the pain'. Munoz played ninety minutes on the right in his place against City (ESPN).",
-      source: "Liverpool FC / Goal / Hayters / ESPN / Anfield Index via Yahoo Sports",
+      source: "Liverpool FC / Goal / Hayters / ESPN / Playmakerstats / The Football Faithful",
     },
     {
       name: "Hugo Ekitike",
       issue: "Achilles rupture (April, surgery)",
       expected: "Boxing Day at Hull is the Liverpool Echo's and Sports Mole's projection; club framing is January, with 'a reasonable chance' of the last two Champions League league-phase games (This Is Anfield)",
-      note: "Iraola, Thursday: 'Hugo is a little bit behind that' (Bradley's progress), 'but that was always the plan' (Anfield Index). L'Equipe, via CaughtOffside, reported light trotting on the pitch, November team training and December matchday squads as the targets. The 0.38 open-play expected goals against City (Opta Analyst) is the clearest measure yet of what a forward line without him, Isak and Gakpo produces.",
+      note: "Iraola, Thursday: 'Hugo is a little bit behind that' (Bradley's progress), 'but that was always the plan' (Anfield Index). L'Equipe, via CaughtOffside, reported light trotting on the pitch, November team training and December matchday squads as the targets. Listed out again in Saturday's previews (The Football Faithful), so the Gtech is another league game for a forward line that has had neither him nor, most likely, a fit Isak.",
       source: "Liverpool Echo / Sports Mole / This Is Anfield / CaughtOffside / L'Equipe / Opta Analyst / Anfield Index",
     },
     {
@@ -1448,9 +1454,9 @@ export const SQUAD_LOAD = {
     {
       name: "Wataru Endo",
       issue: "No injury; available domestically and expected to leave in January",
-      status: "Unused substitute against City (ESPN); NOT in the Champions League squad (SI); available again after Linz (Liverpool FC) and the alternative, not the pick, in every published Liverpool XI for Brentford",
-      note: "Left off the league-phase list with Chiesa on 4 September (SI), so he watched Linz from afar. With Gravenberch suspended for Brentford and Szoboszlai a doubt (DaveOCKOP), every published XI (RotoWire; Sports Mole; Evening Standard; The Hard Tackle; The False 9) picks Nyoni, nineteen, beside Mac Allister, which leaves the thirty-three-year-old expected to leave in January as the senior alternative.",
-      source: "ESPN / SI / Liverpool FC / CaughtOffside",
+      status: "Available in the league after sitting out Linz (Liverpool FC); NOT in the Champions League squad (SI). The senior alternative, not the pick, in every XI published on Saturday morning",
+      note: "Left off the league-phase list with Chiesa on 4 September (SI). With Gravenberch banned and Szoboszlai unlikely to start even if fit (The Football Faithful), every Saturday XI, the Echo's four included, picks Nyoni, nineteen, beside Mac Allister (Brit Brief), which leaves the thirty-three-year-old, expected to leave in January, on the bench.",
+      source: "ESPN / SI / Liverpool FC / CaughtOffside / The Football Faithful / Brit Brief",
     },
     {
       name: "Milos Kerkez",
@@ -1470,17 +1476,17 @@ export const SQUAD_LOAD = {
     {
       position: "Central midfield",
       level: "critical",
-      detail: "Critical. Gravenberch is banned for Brentford and Szoboszlai only 'not ruled out' (Liverpool FC); every published XI (RotoWire; Sports Mole; Evening Standard; The Hard Tackle; The False 9) hands the place beside Mac Allister to Nyoni, nineteen, with Endo, expected to leave in January, the alternative. McConnell is the only other senior-squad option. No market until January.",
+      detail: "Critical. Gravenberch is banned for Brentford and Szoboszlai, a doubt on matchday, is judged unlikely to start even if fit (The Football Faithful); every Saturday XI puts Nyoni, nineteen, beside Mac Allister for a first league start, with Endo, expected to leave in January, the alternative. McConnell is the only other senior-squad option. No market until January.",
     },
     {
       position: "Centre-forward",
       level: "critical",
-      detail: "Critical. Koumas is the only fit senior centre-forward; he scored in Linz and had two more ruled out (Sky Sports), but Isak remains a doubt for Brentford (DaveOCKOP) and Ekitike's target is Boxing Day. Danns and Sonni-Lambie were unused in Linz (SI). No market until January.",
+      detail: "Critical. Koumas is the only certainly fit senior centre-forward; Isak goes to a late fitness check on Saturday (Playmakerstats via Yahoo Sports) and only one of the Echo's four writers starts him (Brit Brief). Ekitike's target is Boxing Day. Danns and Sonni-Lambie were unused in Linz (SI). No market until January.",
     },
     {
       position: "Wide forward",
       level: "critical",
-      detail: "Critical in numbers, better in form. Barcola's hat-trick and Ngumoha's eighty-five minutes in Linz (SI) give Iraola two wide players in form and Munoz rested; Gakpo's ankle is still a doubt and Chiesa is short of minutes. No market until January.",
+      detail: "Critical in numbers, better in form. Barcola is on the left in every XI, and the right is a choice between Munoz (Sports Mole; The Football Faithful) and Ngumoha, whom all four Echo writers start (Brit Brief). Gakpo goes to a late check and is unlikely to start (Playmakerstats via Yahoo Sports); Chiesa is short of minutes. No market until January.",
     },
     {
       position: "Right-back",
@@ -1530,16 +1536,19 @@ export const SQUAD_LOAD = {
     "RotoWire",
     "BBC Sport",
     "The Hard Tackle",
+    "The Football Faithful",
+    "Playmakerstats",
+    "Brit Brief",
   ],
 };
 export const SEASON_PROJECTION = {
-  generatedAt: "2026-10-16T22:30:00Z",
+  generatedAt: "2026-10-17T08:30:00Z",
   played: 6,
   points: 9,
   pointsPerGame: 1.5,
   projectedPoints: 57,
   projectedFinish: "Conference League places on current pace",
-  headline: "The pace is 1.50 points a game, fifty-seven over a season (ESPN), and it stays frozen until 3pm on Saturday. Six games is too few to call a forecast; what the next three, Brentford, Brighton and Arsenal, will do is decide whether October reads as a wobble or a trend.",
+  headline: "Six games, nine points, 1.50 a game and a pace worth fifty-seven over a season (ESPN). The number moves for the first time in six days this afternoon, and six games is still too small a sample to call it a forecast; Brentford, Brighton and Arsenal, three of the current top four, are the run that will say whether October is a dip or a direction.",
   thresholds: [
     {
       label: "Champions League (top 4)",
@@ -1617,6 +1626,6 @@ export const SEASON_PROJECTION = {
       difficulty: "hard",
     },
   ],
-  runInVerdict: "A win at the Gtech would take the pace to 1.71 and Liverpool above Brentford; a draw leaves it at 1.43, a defeat at 1.29 (arithmetic on ESPN's table). Iraola has never beaten Brentford in seven attempts as a manager (Sports Mole), and Brighton and Arsenal follow at Anfield, where Liverpool have not won a league game in five (Opta Analyst). Palace away and United at home close the six, the games where a slow October would have to be repaired.",
-  sources: ["ESPN", "Opta Analyst"],
+  runInVerdict: "Arithmetic on ESPN's table: three points at the Gtech lift the pace to 1.71 and Liverpool above Brentford; a draw leaves 1.43 and a defeat 1.29. Brentford, unbeaten since May and on their best start since 2006-07 (The Football Faithful), have never lost to an Iraola side (Sports Mole), and the two league games after this one are Brighton and Arsenal at Anfield, where Liverpool have gone five without a league win (Opta Analyst). Palace away and United at home close the six, the fixtures where a slow start would have to be repaired.",
+  sources: ["ESPN", "Opta Analyst", "Sports Mole", "The Football Faithful"],
 };
