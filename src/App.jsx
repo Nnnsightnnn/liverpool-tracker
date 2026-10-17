@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday morning, matchday at the Gtech, and only the team sheet will settle it:
-          Szoboszlai, Isak and Gakpo go to late fitness checks, none thought likely to start.
-          Four Echo writers have already agreed on one thing, Ngumoha on the right. Liverpool
-          are ninth, a point behind Brentford, and the afternoon begins at three.
+          Saturday evening, and the comeback came with a bill. Muñoz and Isak turned a
+          half-time deficit at nine-man Brentford into a 2-1 win and fifth place, but
+          Szoboszlai and Frimpong left the field hurt and will be out for some time.
+          Villarreal, coached by Iraola's old assistant, are at Anfield on Tuesday night.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,27 +606,27 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and the waiting has a deadline at last. An hour before three at the Gtech,
-              Iraola names the side that closes a week of open doors: whether Szoboszlai's
-              hamstring, Isak's thigh and Gakpo's ankle have come through, and whether Nyoni,
-              nineteen, starts his first league game beside Mac Allister with Gravenberch
-              banned. Overnight the manager's words on another teenager went round, Ngumoha
-              elite at certain things and not the finished product, and by dawn four Echo
-              writers had all put him on the right. Brentford are fourth, on their best start
-              in twenty years. Liverpool will wear black and maroon, a third kit for a ground
-              where the other two have not travelled well. The shirt is the morning's only certainty.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the table and the treatment room tell different stories. At the Gtech
+              Liverpool went behind to a header just before half-time, watched Yarmoliuk
+              headbutt his way off the pitch, and then won it: Muñoz cutting in from the
+              right, Isak, back from his thigh, finishing from close range. Fifth, and two
+              points above the side whose unbeaten start they ended. Szoboszlai, picked on a
+              hamstring that was still not healed, lasted half an hour; Frimpong lasted seven
+              minutes. Iraola called it a very delicate situation, and on Tuesday he meets the
+              friend who once worked as his assistant. The points came cheap; the bodies did not.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off. Four elevens
-              and one winger; a manager on a teenager; the last of the late checks;
-              a shirt for a difficult ground; and the hosts' best start in twenty years. Read them in order. The season has six league games
-              behind it, nine points and a first defeat, and the next three league
-              opponents all sit in the top four; the market stays shut until January,
+              five dispatches from the writers who never clock off. A comeback
+              against nine men; two injuries that will last; a manager counting
+              recovery days; the space Wirtz found at the ten; and an old friend
+              bringing Villarreal to Anfield. Read them in order. The season has seven league games
+              behind it, twelve points and one defeat, and the next two league
+              opponents, Brighton and Arsenal, both sit in the top three; the market stays shut until January,
               which is when every link on these pages either becomes a bid or goes quiet.
             </p>
           </div>
@@ -3838,7 +3838,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Not the finished product."
+        "Still not healed."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

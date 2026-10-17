@@ -19,7 +19,9 @@ export const FORMATIONS = {
       ST:  { x: 50, y: 14, role: "FWD" },
       RW:  { x: 82, y: 22, role: "FWD" },
     },
-    // Sat 17 Oct (morning): all three shapes now point at BRENTFORD AWAY (PL, 3pm); the City/Linz notes below are history.
+    // Sat 17 Oct (evening): all three shapes now point at VILLARREAL AT HOME (UCL, Tue 20 Oct, 8pm) after Brentford 1-2 Liverpool.
+    //   Gravenberch in for the injured Szoboszlai, Isak in for Koumas; Frimpong injured. Endo and Chiesa are not UEFA-registered (SI, 4 Sep).
+    // Sat 17 Oct (morning): all three shapes pointed at BRENTFORD AWAY (PL, 3pm); the notes below are history.
     // IDs from playerData.js. This 4-3-3 is the backup look; the default is the
     // 4-2-3-1 below. Reviewed Wed Sep 23 (evening; re-checked Wed Oct 7 morning), after Bournemouth 0-1 Liverpool at the
     // Vitality, a third consecutive Premier League clean sheet and a rise from tenth to sixth.
@@ -37,17 +39,17 @@ export const FORMATIONS = {
     // Sun 11 Oct (evening): City played, lost 0-3. Re-pointed at LASK Linz away (UCL, Wed 14 Oct). Baseline is the XI that started v City:
     //   Koumas ST, Barcola LW, Gravenberch in for Szoboszlai (tight hamstring, out). Rotation likely: four games in ten days (Iraola).
     defaultXI: {
-      GK: 1,    // Alisson (started both games since the break)
-      LB: 7,    // Kerkez (Wed 14 Oct evening: rested in Linz with Brentford in mind, per beIN Sports; Tsimikas made two goals there)
-      LCB: 3,   // Van Dijk (rested at the start in Linz, then sixty-two onwards; the calf is no bar)
-      RCB: 11,  // Jacquet (started v City and in Linz; Iraola regretted changing both centre-backs at once)
-      RB: 29,   // Araujo (Thu 15 Oct evening: right-back in both RotoWire's and Sports Mole's XIs; Frimpong the alternative)
-      LCM: 13,  // Mac Allister (rested in Linz until 85; anchors with Gravenberch banned)
-      CM: 20,   // Nyoni (Thu 15 Oct morning: RotoWire's Brentford XI picks him over Endo for the banned Gravenberch)
-      RCM: 18,  // Wirtz (rated 8.7 in Linz, an assist)
-      LW: 30,   // Barcola (hat-trick in Linz, from the left)
-      ST: 31,   // Koumas (scored in Linz; the only fit senior nine)
-      RW: 28,   // Munoz (rested in Linz; started on the right v City)
+      GK: 1,   // Alisson (one save at the Gtech)
+      LB: 7,   // Kerkez (ninety minutes at Brentford; Tsimikas the rotation option)
+      LCB: 3,  // Van Dijk (ninety minutes at Brentford, calf no bar)
+      RCB: 11, // Jacquet (7.9 at the Gtech, per FotMob via SI)
+      RB: 29,  // Araujo (Sat 17 Oct evening: Frimpong injured, Bradley out; replaced at half-time at Brentford)
+      LCM: 13, // Mac Allister (8.4 at the Gtech)
+      CM: 14,  // Gravenberch (ban served; Szoboszlai injured again, Endo not UEFA-registered)
+      RCM: 18, // Wirtz (8.7 at the Gtech, nine chances created)
+      LW: 30,  // Barcola (assist for Isak's winner)
+      ST: 23,  // Isak (back from the thigh, scored the winner)
+      RW: 28,  // Munoz (scored the equaliser)
     },
   },
 
@@ -84,17 +86,17 @@ export const FORMATIONS = {
     // STARTED v City (ESPN): Gravenberch in the pivot for Szoboszlai (hamstring), Barcola left, Koumas at nine. Gravenberch's ban is
     // domestic (Liverpool FC), so he stays in for Linz; he must come OUT for Brentford on Sat 17 Oct.
     defaultXI: {
-      GK: 1,    // Alisson (started both games since the break)
-      LB: 7,    // Kerkez (Wed 14 Oct evening: rested in Linz for Saturday, per beIN Sports; Tsimikas the alternative after two assists)
-      LCB: 3,   // Van Dijk (rested at the start in Linz, on at sixty-two; calf no bar)
-      RCB: 11,  // Jacquet (started v City and in Linz)
-      RB: 29,   // Araujo (Thu 15 Oct evening: Sports Mole now agrees with RotoWire; Frimpong to the bench)
-      LDM: 20,  // Nyoni (Thu 15 Oct morning: RotoWire's XI, ahead of Endo, for the suspended Gravenberch)
-      RDM: 13,  // Mac Allister (rested in Linz until 85)
-      LAM: 30,  // Barcola (Wed 14 Oct evening: hat-trick in Linz from the left)
-      CAM: 18,  // Wirtz (8.7 in Linz, an assist)
-      RAM: 28,  // Munoz (Wed 14 Oct evening: rested in Linz; on the right v City)
-      ST: 31,   // Koumas (scored in Linz; Isak still a doubt)
+      GK: 1,   // Alisson (one save at the Gtech)
+      LB: 7,   // Kerkez (ninety minutes at Brentford; Tsimikas the rotation option)
+      LCB: 3,  // Van Dijk (ninety minutes at Brentford)
+      RCB: 11, // Jacquet (won his duel with Thiago)
+      RB: 29,  // Araujo (Sat 17 Oct evening: Frimpong injured, so the senior right-back by default; Gomez the alternative)
+      LDM: 14, // Gravenberch (Sat 17 Oct evening: back from suspension for Szoboszlai, hamstring)
+      RDM: 13, // Mac Allister (8.4 at the Gtech)
+      LAM: 30, // Barcola (assist for the winner)
+      CAM: 18, // Wirtz (8.7 at the Gtech)
+      RAM: 28, // Munoz (scored the equaliser)
+      ST: 23,  // Isak (Sat 17 Oct evening: back and scored; Koumas to the bench)
     },
   },
 
@@ -119,17 +121,17 @@ export const FORMATIONS = {
     // Default is the 4-2-3-1 above.
     // Sun 11 Oct (evening): re-pointed at LASK Linz away (UCL, Wed 14 Oct), who play a back three themselves.
     defaultXI: {
-      GK: 1,    // Alisson
-      LCB: 3,   // Van Dijk (back after a half-hour in Linz)
-      CCB: 11,  // Jacquet
-      RCB: 29,  // Araujo (headed his first Liverpool goal at centre-back in Linz)
-      LWB: 7,   // Kerkez (rested in Linz)
-      LCM: 13,  // Mac Allister
-      RCM: 20,  // Nyoni (RotoWire's pick for Gravenberch's place)
-      RWB: 9,   // Frimpong (the shape that uses him properly; a goal and two assists in Linz)
-      LW: 30,   // Barcola (hat-trick in Linz)
-      ST: 31,   // Koumas
-      RW: 28,   // Munoz (rested in Linz)
+      GK: 1,   // Alisson
+      LCB: 3,  // Van Dijk
+      CCB: 11, // Jacquet
+      RCB: 5,  // Gomez (Sat 17 Oct evening: Araujo moves to wing-back with Frimpong injured)
+      LWB: 7,  // Kerkez
+      LCM: 13, // Mac Allister
+      RCM: 14, // Gravenberch (back from suspension)
+      RWB: 29, // Araujo (the closest fit with Frimpong and Bradley out)
+      LW: 30,  // Barcola
+      ST: 23,  // Isak (scored the winner at Brentford)
+      RW: 28,  // Munoz (scored at Brentford)
     },
   },
 };
@@ -146,35 +148,36 @@ export const FORMATIONS = {
 // Wed Oct 14 (evening): all 27 refreshed after LASK 3-6 Liverpool (SI; FotMob; Sky Sports); re-pointed at Brentford away, Sat 17 Oct.
 // Thu Oct 15 (evening): all 27 refreshed for Iraola's pre-Brentford presser (trio not ruled out, Leoni to November) and Sports Mole's XI;
 //   Araujo replaces Frimpong at RB in the 4-3-3 and 4-2-3-1, since RotoWire and Sports Mole both pick him.
+// Sat Oct 17 (evening): all 27 refreshed after Brentford 1-2 Liverpool (Sky Sports; SI/FotMob ratings; Liverpool FC); re-pointed at Villarreal, UCL, Tue 20 Oct.
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 export const PLAYER_EVIDENCE = {
-  1:   "Unchallenged at the Gtech",   // Alisson
-  2:   "Bench · Chelsea cup more likely",   // Mamardashvili
-  3:   "Captain · beside Jacquet",   // Van Dijk
-  5:   "RB and CB cover today",   // Gomez
-  7:   "LB in all four Echo XIs",   // Kerkez
-  32:  "Kerkez's understudy today",   // Tsimikas
-  8:   "Knee · out, 22 Nov target",   // Bradley
-  9:   "First change at right-back",   // Frimpong
+  1:   "Villarreal next · one save at Brentford",   // Alisson
+  2:   "Bench · Chelsea cup tie likelier",   // Mamardashvili
+  3:   "Captain · 8.0 at the Gtech",   // Van Dijk
+  5:   "RB cover · on at 79 at Brentford",   // Gomez
+  7:   "LB · 7.7 at the Gtech",   // Kerkez
+  32:  "Unused · rotation option at LB",   // Tsimikas
+  8:   "Knee · November break at earliest",   // Bradley
+  9:   "Muscle · out 'for some time'",   // Frimpong
   10:  "ACL · November break target",   // Leoni
-  11:  "Every Saturday XI starts him",   // Jacquet
+  11:  "7.9 at the Gtech · headbutted",   // Jacquet
   12:  "Levante loan",   // Ndukwe
-  13:  "Certain starter · Brooks risk",   // Mac Allister
-  14:  "Banned today · back Tuesday",   // Gravenberch
-  15:  "Hamstring · late call, unlikely",   // Szoboszlai
-  17:  "League-eligible pivot cover",   // Endo
-  18:  "Ten in national XIs · rest mooted",   // Wirtz
-  20:  "First league start in line",   // Nyoni
-  22:  "Ankle · late check, unlikely",   // Gakpo
-  23:  "Thigh · late fitness check",   // Isak
+  13:  "Booked · 8.4, set up the winner",   // Mac Allister
+  14:  "Ban served · back in the pivot",   // Gravenberch
+  15:  "Hamstring · out 'for some time'",   // Szoboszlai
+  17:  "Not UEFA-registered",   // Endo
+  18:  "8.7 at the Gtech · nine chances",   // Wirtz
+  20:  "On at 32 · first midfield sub",   // Nyoni
+  22:  "Fit again · unused at Brentford",   // Gakpo
+  23:  "Scored the winner · fifth league goal",   // Isak
   24:  "Achilles · Boxing Day target",   // Ekitike
-  25:  "Right in all four Echo XIs",   // Ngumoha
-  26:  "Bench option on the right",   // Chiesa
+  25:  "On at 52 · won Janelt's red",   // Ngumoha
+  26:  "Not UEFA-registered",   // Chiesa
   27:  "Third keeper",   // Woodman
-  28:  "Right in national previews",   // Munoz
-  29:  "RB in every Saturday XI",   // Araujo
-  30:  "Left in every Saturday XI",   // Barcola
-  31:  "Up front unless Isak passes",   // Koumas
+  28:  "Scored at the Gtech · 8.1",   // Munoz
+  29:  "Hooked at half-time · senior RB",   // Araujo
+  30:  "Post, bar, and the assist",   // Barcola
+  31:  "On at 79 · Isak's understudy",   // Koumas
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -229,11 +232,15 @@ export const PLAYER_EVIDENCE = {
 //   LDM Low to Medium. Overall stays Medium: Iraola's press conference is at noon on Thursday.
 // Fri Oct 16 (morning): no personnel change. The Evening Standard (Thu evening) and The Hard Tackle (Fri morning) name the same XI
 //   as RotoWire and Sports Mole. Van Dijk: 'I think I'll be fine for Saturday' (BBC Sport), LCB stays High. No level change.
+// Sat Oct 17 (evening): Brentford played, Liverpool won 2-1 (Sky Sports). Re-pointed at Villarreal at Anfield, Champions League,
+//   Tue 20 Oct, 8pm. ONE personnel change from the eleven that started at the Gtech: Gravenberch (ban served) for Szoboszlai
+//   (hamstring, out 'for some time'); Isak keeps ST after scoring. Frimpong (injured) out of the 3-4-3,
+//   Araujo to RWB and Gomez to RCB there. Endo and Chiesa not UEFA-registered. No Liverpool preview published yet; overall Medium.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by the 4-2-3-1
-// slot keys. These read as confidence that the slot's occupant STARTS AGAINST BRENTFORD AWAY (Sat 17 Oct; Sat Oct 17 morning: CAM High to Medium, three Echo writers pick Szoboszlai there; RAM Medium to Low, all four Echo writers pick Ngumoha; re-pointed Wed 14 Oct evening after LASK 3-6 Liverpool; previously LASK Linz, and before that Manchester City at
+// slot keys. These read as confidence that the slot's occupant STARTS AGAINST VILLARREAL AT HOME (UCL, Tue 20 Oct; re-pointed Sat Oct 17 evening after Brentford 1-2 Liverpool: LDM Gravenberch High, CAM Wirtz High, RCB High, ST Isak Medium, RAM Medium. Previously Brentford away; Sat Oct 17 morning: CAM High to Medium, three Echo writers pick Szoboszlai there; RAM Medium to Low, all four Echo writers pick Ngumoha; re-pointed Wed 14 Oct evening after LASK 3-6 Liverpool; previously LASK Linz, and before that Manchester City at
 // Anfield on Sunday 11 October, RE-POINTED Sun Oct 11 (evening) at LASK Linz away on Wed 14 October: RB lowered to Low (Frimpong rotation), RCB to Medium (Gomez), LDM now Gravenberch at Medium, RDM Mac Allister High. (Reviewed Sun Oct 11, morning: no level change, matchday previews agree. Sat Oct 10, morning: no level change; ST now Barcola and LAM Ngumoha, both Medium. Fri Oct 9, evening: RCB raised Medium to High after Iraola declared Jacquet 'fit and ready to go'; ST raised Low to Medium after Iraola ruled Isak out and named Koumas the only natural nine. Fri Oct 9, morning: RCB lowered from High to Medium because RotoWire still lists Jacquet's hamstring tightness and picks Gomez, against Rousing The Kop's report that he took the full session; other levels unchanged. Thu Oct 8, evening: RCB raised to High after Jacquet trained; RAM raised to Medium with Gakpo absent from training; ST stays Low with Koumas in. Thu Oct 8, morning: levels unchanged, no new bulletin. Wed Oct 7, evening: levels unchanged after Iraola's update on Isak and Gakpo. Wed Oct 7, morning: levels unchanged, no club bulletin on Jacquet, Isak or Gakpo. Tue Oct 6, evening: RCB raised from Low to Medium on reports that Jacquet's strain is slight, unconfirmed by the club. Tue Oct 6, morning: levels unchanged. Mon Oct 5, evening: RCB cut from High to Low after Jacquet's left hamstring strain in the France camp; other levels unchanged since Sat Sep 26.) The basis has changed in kind: this
 // is no longer a preview consensus, it is the eleven that started and won at Bournemouth
 // last time out. That raises confidence in the spine and lowers it nowhere except the front three,
@@ -245,32 +252,32 @@ export const SLOT_CONFIDENCE = {
   GK: "High",
   LB: "Medium",
   LCB: "High",
-  RCB: "Medium",
+  RCB: "High",
   RB: "Medium",
-  LDM: "Medium",
+  LDM: "High",
   RDM: "High",
   LAM: "High",
-  CAM: "Medium",
-  RAM: "Low",
+  CAM: "High",
+  RAM: "Medium",
   ST: "Medium",
 };
 
 
 // ─── Per-slot rationale ────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Sat Oct 17 (morning, matchday) against the Liverpool Echo's four XIs (Brit Brief) and The Football Faithful's preview.
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Sat Oct 17 (evening), after Brentford 1-2 Liverpool, for Villarreal. Previously reviewed Sat Oct 17 (morning, matchday) against the Liverpool Echo's four XIs (Brit Brief) and The Football Faithful's preview.
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Sat Oct 17, morning - Kerkez, left-back in all four Echo XIs and every national preview; Tsimikas on the bench. Medium.",
-  LCB: "Sat Oct 17, morning - Van Dijk, captain, with no report since Thursday questioning the calf. High.",
-  RCB: "Sat Oct 17, morning - Jacquet, in every Saturday XI beside the captain. Medium.",
-  RB: "Sat Oct 17, morning - Araujo, unanimous across the Echo's four and the national previews; Frimpong the first change. Medium.",
-  LDM: "Sat Oct 17, morning - Nyoni, in line for a first league start (The Football Faithful); Endo the senior alternative. Medium.",
-  RDM: "Sat Oct 17, morning - Mac Allister, the one certain starter in the pivot, under a referee who has booked him three times (Rush The Kop). High.",
-  LAM: "Sat Oct 17, morning - Barcola on the left in every Saturday XI. High.",
-  CAM: "Sat Oct 17, morning - Wirtz, though three of the Echo's four writers gamble on Szoboszlai here (Brit Brief). Medium.",
-  RAM: "Sat Oct 17, morning - Munoz per Sports Mole and The Football Faithful; all four Echo writers start Ngumoha instead (Brit Brief). Low.",
-  ST: "Sat Oct 17, morning - Koumas; Isak goes to a late fitness check and only one Echo writer starts him. Medium.",
+  LB: "Sat Oct 17, evening - Kerkez, ninety minutes at the Gtech; Tsimikas could come in with three games in eight days. Medium.",
+  LCB: "Sat Oct 17, evening - Van Dijk, ninety minutes at Brentford and rated 8.0 by FotMob (SI). High.",
+  RCB: "Sat Oct 17, evening - Jacquet, 7.9 at the Gtech after winning his duel with Thiago (SI). High.",
+  RB: "Sat Oct 17, evening - Araujo, the only senior right-back left with Frimpong and Bradley injured, though replaced at half-time at Brentford (Goal); Gomez the alternative. Medium.",
+  LDM: "Sat Oct 17, evening - Gravenberch, back from his domestic ban; Szoboszlai is out 'for some time' (This Is Anfield). High.",
+  RDM: "Sat Oct 17, evening - Mac Allister, 8.4 at the Gtech and the provider for the winner (SI; Liverpool FC). High.",
+  LAM: "Sat Oct 17, evening - Barcola, the assist for Isak's winner after hitting post and bar (Sky Sports). High.",
+  CAM: "Sat Oct 17, evening - Wirtz, FotMob's best player at the Gtech on 8.7 (SI). High.",
+  RAM: "Sat Oct 17, evening - Munoz, scorer of the equaliser, though he needed treatment twice (ESPN); Ngumoha the alternative. Medium.",
+  ST: "Sat Oct 17, evening - Isak, back from the thigh and the scorer of the winner; withdrawn on seventy-nine, so Koumas is the rotation option. Medium.",
 };
 
 
@@ -280,16 +287,16 @@ export const SLOT_RATIONALE = {
 // 4-2-3-1 (the season-closing baseline shape).
 export const ALTERNATIVES = {
   GK:  [{ playerId: 2, reason: "Mamardashvili · the Chelsea cup tie on 28 October is likelier" }, { playerId: 27, reason: "Woodman · third-choice" }],
-  LB:  [{ playerId: 32, reason: "Tsimikas · two assists in Linz" }],
-  LCB: [{ playerId: 5, reason: "Gomez · on at 62 in Linz" }],
+  LB:  [{ playerId: 32, reason: "Tsimikas · two assists in Linz, unused at Brentford" }],
+  LCB: [{ playerId: 5, reason: "Gomez · senior centre-back cover" }],
   RCB: [{ playerId: 5, reason: "Gomez · senior cover with Leoni out to November" }],
-  RB:  [{ playerId: 9, reason: "Frimpong · a goal and two assists in Linz" }, { playerId: 5, reason: "Gomez · cover while Bradley is out" }],
-  LDM: [{ playerId: 17, reason: "Endo · senior option, league-eligible" }],
-  RDM: [{ playerId: 17, reason: "Endo · pivot depth" }],
-  LAM: [{ playerId: 25, reason: "Ngumoha · started in Linz, 7.4 (SI)" }, { playerId: 26, reason: "Chiesa · available in the league" }],
-  CAM: [{ playerId: 15, reason: "Szoboszlai · three Echo writers pick him, if fit" }, { playerId: 30, reason: "Barcola · could move inside" }],
-  RAM: [{ playerId: 25, reason: "Ngumoha · all four Echo XIs start him here" }, { playerId: 26, reason: "Chiesa · eligible in the league" }],
-  ST:  [{ playerId: 23, reason: "Isak · a doubt with the thigh" }, { playerId: 30, reason: "Barcola · the alternative nine" }],
+  RB:  [{ playerId: 5, reason: "Gomez · the only other fit right-back" }],
+  LDM: [{ playerId: 20, reason: "Nyoni · an hour at the Gtech; Endo is not UEFA-registered" }],
+  RDM: [{ playerId: 20, reason: "Nyoni · the one fit senior-squad cover" }],
+  LAM: [{ playerId: 25, reason: "Ngumoha · won Janelt's second booking" }, { playerId: 22, reason: "Gakpo · fit again, unused at Brentford" }],
+  CAM: [{ playerId: 30, reason: "Barcola · could move inside" }],
+  RAM: [{ playerId: 25, reason: "Ngumoha · finished the Gtech on the right" }, { playerId: 22, reason: "Gakpo · back on the bench" }],
+  ST:  [{ playerId: 31, reason: "Koumas · on for Isak at 79" }, { playerId: 30, reason: "Barcola · the alternative nine" }],
 };
 
 // ─── Prediction confidence & metadata ───────────────────────────────────────
@@ -297,6 +304,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-10-17T08:30:00Z",
-  reason: "Sat Oct 17, morning (matchday). Brentford away, Premier League, 3pm. Back five and pivot unanimous across the Echo's four XIs and the national previews (Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Nyoni, Mac Allister). Two slots split: all four Echo writers start Ngumoha on the right where Sports Mole and The Football Faithful keep Munoz, and three put Szoboszlai at the ten. Szoboszlai, Isak and Gakpo face late checks, none likely to start (The Football Faithful), so Medium.",
+  generated_at: "2026-10-17T22:30:00Z",
+  reason: "Sat Oct 17, evening. Villarreal at Anfield, Champions League, Tuesday 8pm. Ten of these eleven started the 2-1 at Brentford (Liverpool FC); the forced change is Gravenberch, back from suspension, for Szoboszlai (hamstring, out 'for some time'). Frimpong is also injured, Endo and Chiesa are not UEFA-registered, and Iraola called the squad's position 'very delicate' after a late return from Linz, so rotation is possible before Monday's press conference: Medium.",
 };
