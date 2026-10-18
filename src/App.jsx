@@ -608,8 +608,8 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the arguments are about who, not whether. Szoboszlai and Frimpong will not face
-              Villarreal, and Iraola, who called it a very delicate situation, has left the
+              the arguments are about who, not whether. Szoboszlai and Frimpong are not expected to
+              face Villarreal, and Iraola, who called it a very delicate situation, has left the
               previews to fill the gaps: Eurosport puts Araujo at right-back and Muñoz on the
               right, Sports Mole prefers Gomez and Gakpo, and both send Gravenberch back in
               beside Mac Allister. Brighton scored five on the south coast and Arsenal edged

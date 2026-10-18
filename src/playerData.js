@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Sun Oct 18, evening - ACL; nothing new on Sunday, and group training is still not expected before the November break (Liverpool FC).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Sun Oct 18, evening - ACL; no fresh update on Sunday, with Iraola's month-long delay putting his return to the group around the November break (Liverpool FC).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Sun Oct 18, evening - On loan at Levante; outside Liverpool's Villarreal week.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Sun Oct 18, evening - Levante loanee; no part in Tuesday's plans.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Sun Oct 18, evening - Not on the Champions League list (SI, 4 Sep); midfield cover only from Brighton on 25 October.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Sun Oct 18, evening - Misses Villarreal as an unregistered player for Europe (SI, 4 Sep); back in the reckoning for Brighton on 25 October.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -231,7 +231,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Sun Oct 18, evening - Not on the Champions League list (SI, 4 Sep); Inter, Lazio and Atalanta are monitoring him for January (Sports Mole, 5 Oct).", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Sun Oct 18, evening - Inter, Lazio and Atalanta are monitoring him for January (Sports Mole, 5 Oct); unregistered for Europe, so not involved on Tuesday.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -242,7 +242,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Sun Oct 18, evening - Third goalkeeper; unchanged.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Sun Oct 18, evening - Behind Alisson and Mamardashvili for Tuesday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -1007,7 +1007,7 @@ export const DISPATCHES = [
     byline: "theScore / NBC Sports",
     dateline: "Brighton · 18 October",
     category: "Race for Europe",
-    body: "Liverpool did not play on Sunday and still lost ground. Brighton were three up inside ten minutes against Crystal Palace, an own goal from Canvot, then Diego Gómez and Ayari, and finished 5-0 (theScore), which takes them third on sixteen and their goal difference to plus eighteen. At the City Ground, Arsenal had three-quarters of the ball at the City Ground and needed a Madueke shot that deflected off Cunha on eighty to win 1-0 (NBC Sports). Liverpool are fifth, four points below one of them and six below the other. Both are coming to Anfield in the next fortnight.",
+    body: "Liverpool did not play on Sunday and still lost ground. Brighton were three up inside ten minutes against Crystal Palace, an own goal from Canvot, then Diego Gómez and Ayari, and finished 5-0 (theScore), which takes them third on sixteen and their goal difference to plus eighteen. At the City Ground, Arsenal had three-quarters of the ball and needed a Madueke shot that deflected off Cunha on eighty to win 1-0 (NBC Sports). Liverpool are fifth, four points below one of them and six below the other. Both are coming to Anfield in the next fortnight.",
   },
   {
     n: "04",
@@ -1023,7 +1023,7 @@ export const DISPATCHES = [
     byline: "Football Insider / Sports Mole",
     dateline: "Merseyside · 18 October",
     category: "Transfers",
-    body: "Mick Brown, the former Manchester United scout who talks to Football Insider most weeks, put the weekend in a sentence on Sunday: he is 'very worried', and a club that wants major silverware needs 'a much deeper squad than they do at the moment'. The window does not open until January. When it does, the list is already forming: a midfielder, with Alex Scott the name linked since Szoboszlai's setback, and a door out for Chiesa, whom Inter, Lazio and Atalanta are monitoring, by Sports Mole's account earlier this month, and is not on the Champions League list. Depth is a January word. Tuesday is not January.",
+    body: "Mick Brown, the former Manchester United scout who talks to Football Insider most weeks, put the weekend in a sentence on Sunday: he is 'very worried', and a club that wants major silverware needs 'a much deeper squad than they do at the moment'. The window does not open until January. When it does, the list is already forming: a midfielder, with Alex Scott the name linked since Szoboszlai's setback, and a door out for Chiesa, whom Inter, Lazio and Atalanta are monitoring (Sports Mole, 5 October); he is not on the Champions League list. Depth is a January word. Tuesday is not January.",
   },
 ];
 export const NEWS_DIGEST = {
@@ -1196,13 +1196,13 @@ export const OPPOSITION = {
   ],
   liverpoolAngle: "Villarreal's full-backs are the threat, and Liverpool's right side is where they will find the least resistance. With Frimpong and Szoboszlai out 'for some time' (PA via Irish News) and Bradley possibly to December (Sports Mole), SQUAD_LOAD's two critical departments meet Romero's overlaps directly: the right-back will be Araujo, Eurosport's pick, or Gomez, Sports Mole's. In midfield, Endo is not on the UEFA list (SI), so Gravenberch and Mac Allister have only Nyoni behind them over three games in eight days. The counterweight is Villarreal's own history in England, nine straight defeats (Eurosport), and an attack that made 2.15 expected goals against Elche and scored none (Sofascore).",
   modelLine: null,
-  sources: ["Eurosport", "Sports Mole", "FútbolFantasy", "ESPN", "Football Italia", "UEFA.com", "Sofascore", "PA", "SI", "Official Press", "Actualidad Castellón"],
+  sources: ["Eurosport", "Sports Mole", "FútbolFantasy", "ESPN", "Football Italia", "UEFA.com", "Sofascore", "PA", "SI", "Actualidad Castellón"],
 };
 export const FORM_TRENDS = {
   generatedAt: "2026-10-18T22:30:00Z",
   competition: "PL",
   played: 7,
-  headline: "No league game was played on Sunday, so the useful number is the one the table hides: Liverpool's seven-game sum of 9.94 expected goals for and 8.07 against, from nine scored and eight conceded, says they are roughly the side their results describe and no better. Saturday's 1.51 to 0.85 at the Gtech, on FotMob's model via SI, was built largely against ten men. The two sides that moved above them on Sunday, Brighton with five against Palace (theScore) and Arsenal with 1.07 expected goals at Forest (NBC Sports), are the next two league visitors. The Brentford card stays on FotMob's figures until Opta Analyst publishes its own.",
+  headline: "Liverpool did not play on Sunday, so the useful number is the one the table hides: Liverpool's seven-game sum of 9.94 expected goals for and 8.07 against, from nine scored and eight conceded, says they are roughly the side their results describe and no better. Saturday's 1.51 to 0.85 at the Gtech, on FotMob's model via SI, was built largely against ten men. The two sides that moved above them on Sunday, Brighton with five against Palace (theScore) and Arsenal with 1.07 expected goals at Forest (NBC Sports), are the next two league visitors. The Brentford card stays on FotMob's figures until Opta Analyst publishes its own.",
   diagnosis: [
     {
       label: "Creation through the ten, finally",
