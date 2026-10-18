@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-01T12:00:00Z",
   "status": "OPEN",
   "tracker": "liverpool",
-  "leadStory": "Liverpool await scans on Szoboszlai and Frimpong, with Bradley's knee possibly running to December, two days before Villarreal at Anfield (Sports Mole; Fantasy Football Scout).",
+  "leadStory": "The Villarreal XI takes shape around Szoboszlai and Frimpong, with the previews split between Araujo and Gomez at right-back after Iraola's 'very delicate situation' (Eurosport; Sports Mole; PA).",
   "action": "generate",
   "note": "Kenny asked for a better cover than the hand-drawn SVG plates. Generate ONE image per the prompt, save it at `output`, then set COVER_IMAGE.src to it, credit 'Illustration · Antigravity', a fresh generatedAt, and set this file's status to CLOSED. Evergreen on purpose: it should still be right after the City result.",
   "currentPlate": "/assets/cover/2026-10-01-anfield-after-dark.svg",
