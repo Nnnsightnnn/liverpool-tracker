@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday evening, and the comeback came with a bill. Muñoz and Isak turned a
-          half-time deficit at ten-man Brentford into a 2-1 win and fifth place, but
-          Szoboszlai and Frimpong left the field hurt and will be out for some time.
-          Villarreal, coached by Iraola's old assistant, are at Anfield on Tuesday night.
+          Sunday morning, and the invoice from Brentford is still being itemised.
+          Szoboszlai and Frimpong go for scans, Bradley's knee may now run to December,
+          and Liverpool sit fifth on twelve with Wirtz's nine open-play chances, a league
+          high since 2021, to show for Saturday. Villarreal are at Anfield on Tuesday night.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,25 +606,27 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the table and the treatment room tell different stories. At the Gtech
-              Liverpool went behind to a header just before half-time, watched Yarmoliuk
-              headbutt his way off the pitch, and then won it: Muñoz cutting in from the
-              right, Isak, back from his thigh, finishing from close range. Fifth, and two
-              points above the side whose unbeaten start they ended. Szoboszlai, picked on a
-              hamstring that was still not healed, lasted half an hour; Frimpong lasted seven
-              minutes. Iraola called it a very delicate situation, and on Tuesday he meets the
-              friend who once worked as his assistant. The points were hard-won; the bodies cost more.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and the scanner has the next word. Szoboszlai and Frimpong will be examined
+              this week, both hamstrings by Sports Mole's account, and the same report has
+              Bradley's knee stretching to December, which leaves the right-back job with
+              Araujo, hooked at half-time on Saturday, and Muñoz, a winger who finished the
+              game there. The overnight numbers were kinder: nine chances from open play for
+              Wirtz, a figure nobody had reached in the league since Mané in 2021, and a first
+              away comeback since December 2023. Danny Murphy still thinks the side is too easy
+              to play against. On Tuesday Villarreal arrive, frustrated by a goalless draw they
+              should have won, to face a midfield two senior players deep. The wins are
+              coming; the bodies are not.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off. A comeback
-              against ten men; two injuries that will last; a manager counting
-              recovery days; the space Wirtz found at the ten; and an old friend
-              bringing Villarreal to Anfield. Read them in order. The season has seven league games
+              five dispatches from the writers who never clock off: two scans
+              and a knee; nine chances and the one precedent for them; a review
+              nobody wanted; a name for January; and a frustrated coach on his
+              way to Anfield. Read them in order. The season has seven league games
               behind it, twelve points and one defeat, and the next two league
               opponents, Brighton and Arsenal, both sit in the top three; the market stays shut until January,
               which is when every link on these pages either becomes a bid or goes quiet.
@@ -3838,7 +3840,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Still not healed."
+        "Nine chances, two scans, one Tuesday."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
