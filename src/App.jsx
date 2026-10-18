@@ -626,10 +626,10 @@ function CoverView({ onJump }) {
               five dispatches from the writers who never clock off: two scans
               and a knee; nine chances and the one precedent for them; a review
               nobody wanted; a name for January; and a frustrated coach on his
-              way to Anfield. Read them in order. The season has seven league games
-              behind it, twelve points and one defeat, and the next two league
-              opponents, Brighton and Arsenal, both sit in the top three; the market stays shut until January,
-              which is when every link on these pages either becomes a bid or goes quiet.
+              way to Anfield. Read them in order. Seven league games have brought
+              twelve points and a single defeat; Brighton and Arsenal, both in the
+              top three, are the next two league visitors, and until January the
+              only reinforcements available are the ones already on the treatment table.
             </p>
           </div>
           <div style={{ background: T.rule }} />

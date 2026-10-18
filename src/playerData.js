@@ -965,7 +965,7 @@ export const STANDINGS_COMMENTARY = {
     "Arsenal": "Second on fifteen and yet to play their seventh game; at Anfield on 1 November.",
     "Brighton": "Third on thirteen with a game in hand and the best goal difference in the division; at Anfield next Sunday.",
     "Chelsea": "Fourth on thirteen after Alonso's first league clean sheet, 2-0 at Everton (Sky Sports); Carabao Cup visitors on 28 October.",
-    "Brentford": "Sixth, and by Opta's count they had scored first in all seven league games before losing this one (Opta Analyst).",
+    "Brentford": "Sixth, and by Opta's count they have scored first in all seven league games, Saturday's defeat included (Opta Analyst).",
     "Everton": "Seventh on ten after the home defeat by Chelsea; the derby is 29 November.",
     "Crystal Palace": "Thirteenth on seven with a game to play; Liverpool are at Selhurst Park on 8 November.",
     "Manchester United": "Fourteenth on six from six; at Anfield on 22 November.",
@@ -1105,13 +1105,13 @@ export const OPPOSITION = {
   manager: "Iñigo Pérez",
   formation: "4-4-2",
   leaguePosition: 10,
-  summary: "Villarreal travel to Merseyside on the back of a frustration rather than a result: twenty shots, seven on target and 2.15 expected goals against Elche on Saturday, Dituro saving six, and a 0-0 (Sofascore). Iñigo Pérez said afterwards that they would have liked to travel after a win (Official Press), having said before it that everyone at the club was thinking about Liverpool except him (Alicante Plaza). Tuesday's 3-1 over Napoli was their first Champions League win in thirteen attempts, after a last league phase in which they finished 35th of 36 (Sports Mole; UEFA.com). They are tenth in La Liga on nine points from nine games (ESPN), and Pérez, once Iraola's teammate at Athletic Club and his assistant at Rayo Vallecano, took Rayo to a Conference League final before this job (UEFA.com). This leaguePosition is their La Liga place, not a Premier League one.",
+  summary: "Villarreal travel to Merseyside on the back of a frustration rather than a result: twenty shots, seven on target and 2.15 expected goals against Elche on Saturday, Dituro saving six, and a 0-0 (Sofascore). Iñigo Pérez said afterwards that they would have liked to travel after a win (Official Press), having said before it that everyone at the club was thinking about Liverpool except him (Alicante Plaza). Their 3-1 over Napoli on 13 October was their first Champions League win in thirteen attempts, after a last league phase in which they finished 35th of 36 (Sports Mole; UEFA.com). They are tenth in La Liga on nine points from nine games (ESPN), and Pérez, once Iraola's teammate at Athletic Club and his assistant at Rayo Vallecano, took Rayo to a Conference League final before this job (UEFA.com). This leaguePosition is their La Liga place, not a Premier League one.",
   shape: "Squawka lists a 4-4-2, Mikautadze and Gerard Moreno up front with Moleiro on the left, but the side that beat Napoli was set out by Football Italia with Veiga and Comesaña either side of a Saliba-Gueye middle, so the shape moves between a back four and a back three. What does not change is the volume: twenty shots against Elche and seventeen against Napoli (Sofascore; Football Italia), much of it from wide areas and from the second striker arriving late.",
   keyPlayers: [
     {
       name: "Georges Mikautadze",
       role: "Centre-forward",
-      threat: "Villarreal's top scorer last season with thirteen La Liga goals (UEFA.com); scored against Napoli on Tuesday (Football Italia) and at Dortmund on matchday one (ESPN).",
+      threat: "Villarreal's top scorer last season with thirteen La Liga goals (UEFA.com); scored against Napoli on 13 October (Football Italia) and at Dortmund on matchday one (ESPN).",
       source: "UEFA.com / Football Italia / ESPN",
     },
     {
@@ -1221,7 +1221,7 @@ export const FORM_TRENDS = {
       xgFirstHalfAgainst: null,
       shotsFor: 21,
       pending: false,
-      verdict: "A comeback against ten and then nine men. Brentford led through Lewis-Potter's header on forty-four; Yarmoliuk was sent off in stoppage time; Muñoz equalised on sixty-two and Isak won it on seventy (Sky Sports). Twenty-one shots to ten, five on target to two, 60 per cent of the ball and nine corners to three (ESPN), and 1.51 expected goals to 0.85 on FotMob's model as reported by SI. Opta Analyst's match page, published on Saturday, carries Opta facts but no expected-goals figures, so FotMob's stand until Opta's are published; first-half splits are not available and stay null.",
+      verdict: "A comeback against ten and then nine men. Brentford led through Lewis-Potter's header on forty-four; Yarmoliuk was sent off in first-half stoppage time (45+8); Muñoz equalised on sixty-two and Isak won it on seventy (Sky Sports). Twenty-one shots to ten, five on target to two, 60 per cent of the ball and nine corners to three (ESPN), and 1.51 expected goals to 0.85 on FotMob's model as reported by SI. Opta Analyst's match page, published on Saturday, carries Opta facts but no expected-goals figures, so FotMob's stand until Opta's are published; first-half splits are not available and stay null.",
       source: "SI (FotMob) / ESPN / Sky Sports / Opta Analyst",
     },
     {

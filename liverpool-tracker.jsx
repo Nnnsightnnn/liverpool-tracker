@@ -130,7 +130,7 @@ const RSS_FEEDS = [
 const LATEST_NEWS = [
   { source: "Sports Mole", title: "Liverpool injury news: Andoni Iraola confirms Dominik Szoboszlai and Jeremie Frimpong face spells out after Brentford win", time: "today", category: "major" },
   { source: "Fantasy Football Scout", title: "FPL notes: Szoboszlai + Frimpong injury latest, Thiago nears ban", time: "today", category: "fan" },
-  { source: "Anfield Index", title: "Liverpool star equals Premier League record with creative performance", time: "today", category: "fan" },
+  { source: "Liverpool FC", title: "Florian Wirtz achieves chance creation figure unseen in Premier League for 15 years", time: "today", category: "official" },
   { source: "LiveScore", title: "Liverpool beat Brentford but suffer Szoboszlai and Frimpong injury blow", time: "today", category: "major" },
   { source: "Official Press", title: "Iñigo Pérez lamenta la falta de gol del Villarreal ante el Elche y mira al Liverpool: 'Estoy frustrado'", time: "1d ago", category: "major" },
   { source: "Goal", title: "A major setback for Liverpool before the Villarreal clash in the Champions League", time: "1d ago", category: "major" },
