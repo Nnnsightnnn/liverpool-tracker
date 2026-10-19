@@ -178,7 +178,7 @@ export const PLAYER_EVIDENCE = {
   26:  "Not UEFA-registered · trained",
   27:  "Third keeper",
   28:  "Missed Monday training · doubt",
-  29:  "Tired legs · RB cover tonight",
+  29:  "Tired legs · RB cover Tuesday",
   30:  "Started Linz and Gtech · holds",
   31:  "Isak's cover · Danns behind",
   32:  "Fresh · Sports Mole's LB pick",
