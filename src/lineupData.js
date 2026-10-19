@@ -50,7 +50,7 @@ export const FORMATIONS = {
       RCM: 18, // Wirtz (8.7 at the Gtech, nine chances created)
       LW: 30,  // Barcola (assist for Isak's winner)
       ST: 23,  // Isak (back from the thigh, scored the winner)
-      RW: 22,  // Gakpo (Mon 19 Oct morning: in the front three of both overnight previews, Sports Mole and The Stats Zone; Munoz to the bench)
+      RW: 22,  // Gakpo (Mon 19 Oct morning: in the front three of both latest previews, Sports Mole and The Stats Zone; Munoz to the bench)
     },
   },
 
@@ -132,7 +132,7 @@ export const FORMATIONS = {
       RWB: 29, // Araujo (the closest fit with Frimpong and Bradley out)
       LW: 30,  // Barcola
       ST: 23,  // Isak (scored the winner at Brentford)
-      RW: 22,  // Gakpo (Mon 19 Oct morning: in both overnight XIs)
+      RW: 22,  // Gakpo (Mon 19 Oct morning: in both latest XIs)
     },
   },
 };
@@ -172,7 +172,7 @@ export const PLAYER_EVIDENCE = {
   17:  "Not UEFA-registered · Brighton next",   // Endo
   18:  "Assists v LASK and Brentford",   // Wirtz
   20:  "First midfield change off the bench",   // Nyoni
-  22:  "In both overnight XIs",   // Gakpo
+  22:  "In both latest XIs",   // Gakpo
   23:  "Leads the line in every XI",   // Isak
   24:  "Achilles · training next month?",   // Ekitike
   25:  "Contract 'with my agent now'",   // Ngumoha
@@ -180,7 +180,7 @@ export const PLAYER_EVIDENCE = {
   27:  "Third keeper",   // Woodman
   28:  "Bench · emergency right-back",   // Munoz
   29:  "Stats Zone's RB · closest call",   // Araujo
-  30:  "Wide in every overnight preview",   // Barcola
+  30:  "Wide in every latest preview",   // Barcola
   31:  "Cover for Isak again",   // Koumas
 };
 
@@ -280,15 +280,15 @@ export const SLOT_CONFIDENCE = {
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
   LB: "Mon Oct 19, morning - Kerkez, The Stats Zone's pick; Sports Mole's Monday XI rests him for Brighton and starts Tsimikas. Medium.",
-  LCB: "Mon Oct 19, morning - Van Dijk, called certain to start by Sports Mole and in every overnight XI. High.",
+  LCB: "Mon Oct 19, morning - Van Dijk, called certain to start by Sports Mole and in every latest XI. High.",
   RCB: "Mon Oct 19, morning - Jacquet, the other half of the pair Sports Mole calls certain; no one to rotate him with. High.",
   RB: "Mon Oct 19, morning - Araujo, The Stats Zone's pick; Sports Mole would save him for Brighton and start Gomez, and Munoz is the emergency option. Medium.",
   LDM: "Mon Oct 19, morning - Gravenberch, whose 'seniority will likely earn him a start' (Sports Mole); The Stats Zone agrees. High.",
-  RDM: "Mon Oct 19, morning - Mac Allister, in both overnight pivots; Nyoni is the only change with Szoboszlai out and Endo unregistered. High.",
-  LAM: "Mon Oct 19, morning - Barcola, wide in every overnight preview (Sports Mole; The Stats Zone; Squawka). High.",
+  RDM: "Mon Oct 19, morning - Mac Allister, in both latest pivots; Nyoni is the only change with Szoboszlai out and Endo unregistered. High.",
+  LAM: "Mon Oct 19, morning - Barcola, wide in every latest preview (Sports Mole; The Stats Zone; Squawka). High.",
   CAM: "Mon Oct 19, morning - Wirtz; Sports Mole says Iraola has trusted him regularly despite the criticism. High.",
-  RAM: "Mon Oct 19, morning - Gakpo, new this edition: both overnight previews start him in place of Munoz, though neither states the flank. Medium.",
-  ST: "Mon Oct 19, morning - Isak, leading the line in every overnight XI; Koumas the cover. Medium.",
+  RAM: "Mon Oct 19, morning - Gakpo, new this edition: both latest previews start him in place of Munoz, though neither states the flank. Medium.",
+  ST: "Mon Oct 19, morning - Isak, leading the line in every latest XI; Koumas the cover. Medium.",
 };
 
 
@@ -316,5 +316,5 @@ export const ALTERNATIVES = {
 export const PREDICTION_NOTE = {
   level: "Medium",
   generated_at: "2026-10-19T08:30:00Z",
-  reason: "Mon Oct 19, morning. Villarreal at Anfield, Champions League, Tuesday 8pm. One personnel change: Gakpo for Munoz in the front three, as in both overnight previews (Sports Mole, 4.34am Monday; The Stats Zone, Sunday evening). Nine of this XI started at Brentford; Gravenberch returns for Szoboszlai (hamstring, no timescale) and Gakpo for Munoz. Full-backs held at Araujo and Kerkez, The Stats Zone's choice; Sports Mole would rest both for Brighton and start Gomez and Tsimikas. Iraola's pre-match press conference is still to come.",
+  reason: "Mon Oct 19, morning. Villarreal at Anfield, Champions League, Tuesday 8pm. One personnel change: Gakpo for Munoz in the front three, as in both latest previews (Sports Mole, 4.34am Monday; The Stats Zone, Sunday evening). Nine of this XI started at Brentford; Gravenberch returns for Szoboszlai (hamstring, no timescale) and Gakpo for Munoz. Full-backs held at Araujo and Kerkez, The Stats Zone's choice; Sports Mole would rest both for Brighton and start Gomez and Tsimikas. Iraola's pre-match press conference is still to come.",
 };

@@ -570,7 +570,7 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday morning, and the overnight previews have put Gakpo back into the front
+          Monday morning, and the latest previews have put Gakpo back into the front
           three for Villarreal while still arguing over the full-backs, with Brighton's visit
           on Sunday shaping the argument. Szoboszlai and Frimpong are out for a spell still
           unmeasured, Liverpool sit fifth on twelve, and a thousand supporters from Vila-real
@@ -608,7 +608,7 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and the shape of Tuesday is settling one position at a time. The overnight previews
+              and the shape of Tuesday is settling one position at a time. The latest previews
               bring Gakpo back into the front three, which would be his first start since
               Bournemouth in September, beside a pivot of Gravenberch and Mac Allister, the only
               senior midfielders Liverpool have left for Europe. At full-back they still disagree,
