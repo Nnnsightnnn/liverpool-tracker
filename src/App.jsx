@@ -570,11 +570,11 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday evening, and the sheet for Villarreal is being written in pencil
-          around two gaps. Szoboszlai and Frimpong are out for a spell nobody has yet
-          measured, the previews split between Araujo and Gomez at right-back, and five goals
-          against Palace have taken Brighton, Liverpool's next league visitors, four points
-          clear of them in fifth. Tuesday night at Anfield comes first.
+          Monday morning, and the overnight previews have put Gakpo back into the front
+          three for Villarreal while still arguing over the full-backs, with Brighton's visit
+          on Sunday shaping the argument. Szoboszlai and Frimpong are out for a spell still
+          unmeasured, Liverpool sit fifth on twelve, and a thousand supporters from Vila-real
+          are on their way. Iraola speaks today; Anfield is tomorrow night.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,28 +607,30 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the arguments are about who, not whether. Szoboszlai and Frimpong are not expected to
-              face Villarreal, and Iraola, who called it a very delicate situation, has left the
-              previews to fill the gaps: Eurosport puts Araujo at right-back and Muñoz on the
-              right, Sports Mole prefers Gomez and Gakpo, and both send Gravenberch back in
-              beside Mac Allister. Brighton scored five on the south coast and Arsenal edged
-              Forest, so the next two sides to visit Anfield in the league now sit above
-              Liverpool by four and six points. Villarreal bring a record of nine straight
-              defeats against English clubs in this competition. Records, like midfields,
-              can run thin.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and the shape of Tuesday is settling one position at a time. The overnight previews
+              bring Gakpo back into the front three, which would be his first start since
+              Bournemouth in September, beside a pivot of Gravenberch and Mac Allister, the only
+              senior midfielders Liverpool have left for Europe. At full-back they still disagree,
+              and the disagreement is about Sunday: Sports Mole would rest Araujo and Kerkez for
+              Brighton, The Stats Zone would not. Szoboszlai and Frimpong have neither a scan
+              result nor a date. Villarreal bring a thousand supporters to Concert Square, a
+              goalkeeper who missed their last European game after an armed robbery at his home,
+              and nine straight defeats against English clubs. A squad this thin is picked twice:
+              once for the match, once for the week.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: a team sheet
-              drawn around two gaps; a manager's chosen word; five goals at the
-              Amex; a Spanish club's English problem; and the depth question,
-              asked again. Read them in order. Seven league games have brought
-              twelve points and a single defeat, and with the squad closed until
-              January, every answer on Tuesday's sheet has to come from inside it.
+              five dispatches from the writers who never clock off: Gakpo pencilled
+              back in; a Sunday hidden inside Tuesday; an injury list with two
+              names and no dates; a thousand visitors in Concert Square; and the
+              contracts that come before signings. Read them in order. Seven league
+              games have brought twelve points and a single defeat, and with the
+              squad closed until January, Tuesday's answers and Sunday's have to
+              come from the same short list.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3839,7 +3841,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Pencil, not ink, for Tuesday."
+        "Picked once for Tuesday, again for Sunday."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
