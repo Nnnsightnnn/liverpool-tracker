@@ -570,11 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday morning, and the latest previews have put Gakpo back into the front
-          three for Villarreal while still arguing over the full-backs, with Brighton's visit
-          on Sunday shaping the argument. Szoboszlai and Frimpong are out for a spell still
-          unmeasured, Liverpool sit fifth on twelve, and a thousand supporters from Vila-real
-          are on their way. Iraola speaks today; Anfield is tomorrow night.
+          The eve of Villarreal, and the right side has thinned again: Iraola has put Frimpong
+          out until after the November break, and Muñoz, who scored Saturday's equaliser and is
+          the improvised cover behind Araujo and Gomez, missed the final session without explanation. The XI, Iraola warned, may
+          not be the one anyone expects. Liverpool are fifth on twelve; Anfield, tomorrow at eight.
         </p>
 
         <StatStrip stats={stats} />
@@ -607,30 +606,29 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and the shape of Tuesday is settling one position at a time. The latest previews
-              bring Gakpo back into the front three, which would be his first start since
-              Bournemouth in September, beside a pivot of Gravenberch and Mac Allister, the only
-              senior midfielders Liverpool have left for Europe. At full-back they still disagree,
-              and the disagreement is about Sunday: Sports Mole would rest Araujo and Kerkez for
-              Brighton, The Stats Zone would not. Szoboszlai and Frimpong have neither a scan
-              result nor a date. Villarreal bring a thousand supporters to Concert Square, a
-              goalkeeper who missed their last European game after an armed robbery at his home,
-              and nine straight defeats against English clubs. A squad this thin is picked twice:
-              once for the match, once for the week.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the morning's unanswered questions have answers, and none of them is generous.
+              Frimpong's hamstring is new, Iraola said, and a return before the November break
+              will be difficult; Szoboszlai's is the old one, not healed, and needs patience. Then
+              the training photographs came out without Muñoz, who needed treatment twice at the
+              Gtech and played on both times; no reason has been given. Iraola, asked
+              about his team, said only that it might not be the one you think, because some are
+              not fresh enough. Across the room sits his oldest friend in football, Iñigo Pérez,
+              and a goalkeeper, Gulácsi, who spent five seasons on Liverpool's bench without a
+              competitive minute. The shortlist is now a list of the fresh.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: Gakpo pencilled
-              back in; a Sunday hidden inside Tuesday; an injury list with two
-              names and no dates; a thousand visitors in Concert Square; and the
-              contracts that come before signings. Read them in order. Seven league
-              games have brought twelve points and a single defeat, and with the
-              squad closed until January, Tuesday's answers and Sunday's have to
-              come from the same short list.
+              five dispatches from the writers who never clock off: a right flank
+              down to its last specialists; a manager choosing by freshness; a
+              friendship paused for ninety minutes; a goalkeeper who never played
+              here; and a table that moved tonight at the bottom. Read them in order.
+              Seven league games have brought twelve points and a single defeat, and
+              with the squad closed until January, Tuesday's answers and Sunday's
+              have to come from the same short list.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3841,7 +3839,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Picked once for Tuesday, again for Sunday."
+        "Not the one you think."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

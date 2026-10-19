@@ -44,7 +44,7 @@ export const FORMATIONS = {
       LB: 7,   // Kerkez (ninety minutes at Brentford; Tsimikas the rotation option)
       LCB: 3,  // Van Dijk (ninety minutes at Brentford, calf no bar)
       RCB: 11, // Jacquet (7.9 at the Gtech, per FotMob via SI)
-      RB: 29,  // Araujo (Sat 17 Oct evening: Frimpong injured, Bradley out; replaced at half-time at Brentford)
+      RB: 5,  // Araujo (Sat 17 Oct evening: Frimpong injured, Bradley out; replaced at half-time at Brentford)
       LCM: 13, // Mac Allister (8.4 at the Gtech)
       CM: 14,  // Gravenberch (ban served; Szoboszlai injured again, Endo not UEFA-registered)
       RCM: 18, // Wirtz (8.7 at the Gtech, nine chances created)
@@ -91,7 +91,7 @@ export const FORMATIONS = {
       LB: 7,   // Kerkez (ninety minutes at Brentford; Tsimikas the rotation option)
       LCB: 3,  // Van Dijk (ninety minutes at Brentford)
       RCB: 11, // Jacquet (won his duel with Thiago)
-      RB: 29,  // Araujo (Sat 17 Oct evening: Frimpong injured, so the senior right-back by default; Gomez the alternative)
+      RB: 5,  // Araujo (Sat 17 Oct evening: Frimpong injured, so the senior right-back by default; Gomez the alternative)
       LDM: 14, // Gravenberch (Sat 17 Oct evening: back from suspension for Szoboszlai, hamstring)
       RDM: 13, // Mac Allister (8.4 at the Gtech)
       LAM: 30, // Barcola (assist for the winner)
@@ -125,11 +125,11 @@ export const FORMATIONS = {
       GK: 1,   // Alisson
       LCB: 3,  // Van Dijk
       CCB: 11, // Jacquet
-      RCB: 5,  // Gomez (Sat 17 Oct evening: Araujo moves to wing-back with Frimpong injured)
+      RCB: 29,  // Gomez (Sat 17 Oct evening: Araujo moves to wing-back with Frimpong injured)
       LWB: 7,  // Kerkez
       LCM: 13, // Mac Allister
       RCM: 14, // Gravenberch (back from suspension)
-      RWB: 29, // Araujo (the closest fit with Frimpong and Bradley out)
+      RWB: 5, // Araujo (the closest fit with Frimpong and Bradley out)
       LW: 30,  // Barcola
       ST: 23,  // Isak (scored the winner at Brentford)
       RW: 22,  // Gakpo (Mon 19 Oct morning: in both latest XIs)
@@ -155,33 +155,33 @@ export const FORMATIONS = {
 // Sat Oct 17 (evening): all 27 refreshed after Brentford 1-2 Liverpool (Sky Sports; SI/FotMob ratings; Liverpool FC); re-pointed at Villarreal, UCL, Tue 20 Oct.
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 export const PLAYER_EVIDENCE = {
-  1:   "Starts in all four previews checked",   // Alisson
-  2:   "Bench · Chelsea cup tie on 28 Oct",   // Mamardashvili
-  3:   "150th PL game as captain",   // Van Dijk
-  5:   "Sports Mole's RB, Araujo rested",   // Gomez
-  7:   "Stats Zone's LB · Sports Mole rests him",   // Kerkez
-  32:  "Sports Mole's LB for Villarreal",   // Tsimikas
-  8:   "Knee · close to light training",   // Bradley
-  9:   "Hamstring · no scan result yet",   // Frimpong
-  10:  "ACL · group return in November",   // Leoni
-  11:  "'Certain to start' (Sports Mole)",   // Jacquet
-  12:  "On loan at Levante",   // Ndukwe
-  13:  "Ward's first contract priority",   // Mac Allister
-  14:  "Pivot start on 'seniority'",   // Gravenberch
-  15:  "Hamstring · no timescale",   // Szoboszlai
-  17:  "Not UEFA-registered · Brighton next",   // Endo
-  18:  "Assists v LASK and Brentford",   // Wirtz
-  20:  "First midfield change off the bench",   // Nyoni
-  22:  "In both latest XIs",   // Gakpo
-  23:  "Leads the line in every XI",   // Isak
-  24:  "Achilles · training next month?",   // Ekitike
-  25:  "Contract 'with my agent now'",   // Ngumoha
-  26:  "Not UEFA-registered",   // Chiesa
-  27:  "Third keeper",   // Woodman
-  28:  "Bench · emergency right-back",   // Munoz
-  29:  "Stats Zone's RB · closest call",   // Araujo
-  30:  "Wide in every latest preview",   // Barcola
-  31:  "Cover for Isak again",   // Koumas
+  1:   "Starts · keeper untouched by rotation",
+  2:   "Bench · Chelsea cup tie 28 Oct",
+  3:   "Starts · no CB to rest him with",
+  5:   "Fresh · starts at RB here",
+  7:   "Rested in Linz · starts at LB",
+  8:   "Knee · recovery programme",
+  9:   "Hamstring · out to the Nov break",
+  10:  "ACL · group return in November",
+  11:  "Starts · nobody free to rest him",
+  12:  "On loan at Levante",
+  13:  "Six UCL goals, all at Anfield",
+  14:  "Fresh after the ban · starts",
+  15:  "Same hamstring · 'more patient'",
+  17:  "Not UEFA-registered · missed training",
+  18:  "'I hope we can keep him there'",
+  20:  "First midfield change",
+  22:  "Fresh · starts on the right",
+  23:  "3 in 5 v Villarreal at Sociedad",
+  24:  "Achilles · Boxing Day target",
+  25:  "Fresh wide option off the bench",
+  26:  "Not UEFA-registered · trained",
+  27:  "Third keeper",
+  28:  "Missed Monday training · doubt",
+  29:  "Tired legs · RB cover tonight",
+  30:  "Started Linz and Gtech · holds",
+  31:  "Isak's cover · Danns behind",
+  32:  "Fresh · Sports Mole's LB pick",
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -247,6 +247,9 @@ export const PLAYER_EVIDENCE = {
 // Mon Oct 19 (morning): ONE personnel change, Gakpo for Munoz at RAM in all three shapes. Sports Mole's Monday XI (4.34am) and The Stats
 //   Zone's (Sun 5.22pm) both start Gakpo; they split on the full-backs (Sports Mole: Gomez and Tsimikas, rested for Brighton; The Stats
 //   Zone: Araujo and Kerkez), held here at Araujo and Kerkez. No scan result for Szoboszlai or Frimpong. Overall Medium.
+// Mon Oct 19 (evening): ONE personnel change, Gomez for Araujo at RB (3-4-3: Gomez to RWB, Araujo to RCB). Iraola: best XI 'maybe it is
+//   not the one you think because some are not fresh enough' (Rush The Kop); Araujo started Linz and the Gtech, Gomez neither, and Sports
+//   Mole's Monday XI starts Gomez. Europa Press still expects Araujo. Munoz missed Monday's training (Express via AOL). Overall Medium to Low.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -264,10 +267,10 @@ export const SLOT_CONFIDENCE = {
   LB: "Medium",
   LCB: "High",
   RCB: "High",
-  RB: "Medium",
+  RB: "Low",
   LDM: "High",
   RDM: "High",
-  LAM: "High",
+  LAM: "Medium",
   CAM: "High",
   RAM: "Medium",
   ST: "Medium",
@@ -279,16 +282,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Mon Oct 19, morning - Kerkez, The Stats Zone's pick; Sports Mole's Monday XI rests him for Brighton and starts Tsimikas. Medium.",
-  LCB: "Mon Oct 19, morning - Van Dijk, called certain to start by Sports Mole and in every latest XI. High.",
-  RCB: "Mon Oct 19, morning - Jacquet, the other half of the pair Sports Mole calls certain; no one to rotate him with. High.",
-  RB: "Mon Oct 19, morning - Araujo, The Stats Zone's pick; Sports Mole would save him for Brighton and start Gomez, and Munoz is the emergency option. Medium.",
-  LDM: "Mon Oct 19, morning - Gravenberch, whose 'seniority will likely earn him a start' (Sports Mole); The Stats Zone agrees. High.",
-  RDM: "Mon Oct 19, morning - Mac Allister, in both latest pivots; Nyoni is the only change with Szoboszlai out and Endo unregistered. High.",
-  LAM: "Mon Oct 19, morning - Barcola, wide in every latest preview (Sports Mole; The Stats Zone; Squawka). High.",
-  CAM: "Mon Oct 19, morning - Wirtz; Sports Mole says Iraola has trusted him regularly despite the criticism. High.",
-  RAM: "Mon Oct 19, morning - Gakpo, new this edition: both latest previews start him in place of Munoz, though neither states the flank. Medium.",
-  ST: "Mon Oct 19, morning - Isak, leading the line in every latest XI; Koumas the cover. Medium.",
+  LB: "Mon Oct 19, evening - Kerkez, rested in Linz and so not among Iraola's tired legs; Tsimikas, unused at the Gtech, is the fresher alternative. Medium.",
+  LCB: "Mon Oct 19, evening - Van Dijk, trained Monday; nobody senior to rotate him with. High.",
+  RCB: "Mon Oct 19, evening - Jacquet; Leoni is out to November and Gomez is needed wider, so nobody can rest him. High.",
+  RB: "Mon Oct 19, evening - Gomez, changed this edition: Iraola is picking for freshness, Araujo started the last two games and Sports Mole starts Gomez; Europa Press still expects Araujo. Low.",
+  LDM: "Mon Oct 19, evening - Gravenberch, freshest senior midfielder after his league ban. High.",
+  RDM: "Mon Oct 19, evening - Mac Allister; Szoboszlai has no date and Endo is unregistered and missed training. High.",
+  LAM: "Mon Oct 19, evening - Barcola, started Linz and the Gtech, so one of Iraola's freshness calls; Ngumoha the fresh alternative. Medium.",
+  CAM: "Mon Oct 19, evening - Wirtz; Iraola on his form: 'I hope we can keep him there'. High.",
+  RAM: "Mon Oct 19, evening - Gakpo, fresh after an unused Saturday; Munoz missed Monday's training. Medium.",
+  ST: "Mon Oct 19, evening - Isak, three in five against Villarreal for Sociedad; Koumas and Danns behind him. Medium.",
 };
 
 
@@ -301,12 +304,12 @@ export const ALTERNATIVES = {
   LB:  [{ playerId: 32, reason: "Tsimikas · Sports Mole's Monday pick" }],
   LCB: [{ playerId: 5, reason: "Gomez · senior centre-back cover" }],
   RCB: [{ playerId: 5, reason: "Gomez · senior cover with Leoni out to November" }],
-  RB:  [{ playerId: 5, reason: "Gomez · Sports Mole's Monday pick, Araujo rested" }, { playerId: 28, reason: "Munoz · the emergency right-back" }],
+  RB:  [{ playerId: 29, reason: "Araujo · Europa Press still expects him to start" }],
   LDM: [{ playerId: 20, reason: "Nyoni · an hour at the Gtech; Endo is not UEFA-registered" }],
   RDM: [{ playerId: 20, reason: "Nyoni · first cover, McConnell behind him" }],
-  LAM: [{ playerId: 25, reason: "Ngumoha · comfortable on both wings" }, { playerId: 28, reason: "Munoz · could switch flanks" }],
+  LAM: [{ playerId: 25, reason: "Ngumoha · the fresh alternative to Barcola" }],
   CAM: [{ playerId: 30, reason: "Barcola · could move inside" }],
-  RAM: [{ playerId: 28, reason: "Munoz · Eurosport's pick on the right" }, { playerId: 25, reason: "Ngumoha · in Squawka's XI" }],
+  RAM: [{ playerId: 25, reason: "Ngumoha · fresh, comfortable on either wing" }],
   ST:  [{ playerId: 31, reason: "Koumas · on for Isak at 79" }, { playerId: 30, reason: "Barcola · the alternative nine" }],
 };
 
@@ -314,7 +317,7 @@ export const ALTERNATIVES = {
 // Overall confidence chip shown above the pitch. Enriched with predictor
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
-  level: "Medium",
-  generated_at: "2026-10-19T08:30:00Z",
-  reason: "Mon Oct 19, morning. Villarreal at Anfield, Champions League, Tuesday 8pm. One personnel change: Gakpo for Munoz in the front three, as in both latest previews (Sports Mole, 4.34am Monday; The Stats Zone, Sunday evening). Nine of this XI started at Brentford; Gravenberch returns for Szoboszlai (hamstring, no timescale) and Gakpo for Munoz. Full-backs held at Araujo and Kerkez, The Stats Zone's choice; Sports Mole would rest both for Brighton and start Gomez and Tsimikas. Iraola's pre-match press conference is still to come.",
+  level: "Low",
+  generated_at: "2026-10-19T22:30:00Z",
+  reason: "Mon Oct 19, evening. Villarreal at Anfield, Champions League, Tuesday 8pm. One personnel change: Gomez for Araujo at right-back, after Iraola said his best XI 'maybe is not the one you think because some are not fresh enough' (Rush The Kop); Araujo started at Linz and the Gtech, Gomez at neither, and Sports Mole's Monday XI starts Gomez, though Europa Press still expects Araujo. Frimpong (out until the November break) and Szoboszlai (no date) are out; Munoz, not in this XI, missed Monday's training. Eight of this XI started at Brentford. Low: the manager has said openly that the obvious eleven may not play.",
 };
