@@ -52,7 +52,7 @@ export const FORMATIONS = {
       RCM: 18, // Wirtz (8.7 at the Gtech, nine chances created)
       LW: 30,  // Barcola (assist for Isak's winner)
       ST: 23,  // Isak (back from the thigh, scored the winner)
-      RW: 22,  // Gakpo (Mon 19 Oct morning: in the front three of both latest previews, Sports Mole and The Stats Zone; Munoz to the bench)
+      RW: 22,  // Gakpo (Tue 20 Oct morning: the Liverpool Offside's pick on the right; Munoz, SI's pick, in a knee brace)
     },
   },
 
@@ -98,7 +98,7 @@ export const FORMATIONS = {
       RDM: 13, // Mac Allister (8.4 at the Gtech)
       LAM: 30, // Barcola (assist for the winner)
       CAM: 18, // Wirtz (8.7 at the Gtech)
-      RAM: 22, // Gakpo (Mon 19 Oct morning: Sports Mole and The Stats Zone both start him; flank not stated, kept right with Barcola left)
+      RAM: 22, // Gakpo (Tue 20 Oct morning: the Liverpool Offside starts him right; SI starts Munoz, held out with the knee brace)
       ST: 23,  // Isak (Sat 17 Oct evening: back and scored; Koumas to the bench)
     },
   },
@@ -134,7 +134,7 @@ export const FORMATIONS = {
       RWB: 29, // Araujo (the closest fit with Frimpong and Bradley out, Munoz in a knee brace)
       LW: 30,  // Barcola
       ST: 23,  // Isak (scored the winner at Brentford)
-      RW: 22,  // Gakpo (Mon 19 Oct morning: in both latest XIs)
+      RW: 22,  // Gakpo (Tue 20 Oct morning: the Liverpool Offside's pick)
     },
   },
 };

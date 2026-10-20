@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Tue Oct 20, morning - Levante loan; no part in tonight's squad.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Tue Oct 20, morning - Still at Levante on loan, so not involved at Anfield.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -231,7 +231,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Tue Oct 20, morning - Not on the Champions League list (Brit Brief); Brighton on Sunday is the next game he can play.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Tue Oct 20, morning - Ineligible for Europe, Brit Brief lists him among tonight's absentees; also missed the Brentford squad. Sunday's Brighton game is open to him.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -1008,7 +1008,7 @@ export const DISPATCHES = [
     byline: "Sports Mole / Brit Brief",
     dateline: "Anfield · 20 October",
     category: "Injuries",
-    body: "Matchday began without an answer on Víctor Muñoz. Sports Mole reported at breakfast that he had been seen in a knee brace after the Gtech, where he needed treatment twice and played on both times, and in the same piece that there was no definitive sign he would miss the game. He did not train on Monday and the club has said nothing since. The previews could not settle it either: SI, publishing after midnight, put him on the right, while Sports Mole made Ngumoha his likeliest replacement. Brit Brief, at a quarter past seven, simply called him the main doubt.",
+    body: "Matchday began without an answer on Víctor Muñoz. Sports Mole reported at breakfast that he had been seen in a knee brace after the Gtech, where he needed treatment twice and played on both times, and in the same piece that there was no definitive sign he would miss the game. He did not train on Monday and the club has said nothing since. The previews could not settle it either: SI, publishing after midnight, put him on the right, while Sports Mole made Ngumoha his likeliest replacement. Brit Brief, at 7.12, simply called him the main doubt.",
   },
   {
     n: "02",
@@ -1070,7 +1070,7 @@ export const NEWS_DIGEST = {
     {
       title: "Thirteen Goals From 19.49 Expected (SI, citing Opta, today)",
       category: "tactics",
-      detail: "In its preview published at 1am on Tuesday, SI, citing Opta, reports that Villarreal's thirteen La Liga goals have come from 19.49 expected goals, the biggest underperformance in the division. They drew 0-0 with Elche on Saturday despite sixteen shots to five (Rush The Kop).",
+      detail: "In its preview published at 1am on Tuesday, SI, citing Opta, reports that Villarreal's thirteen La Liga goals have come from 19.49 expected goals, the biggest underperformance in the division. They drew 0-0 with Elche on Saturday despite sixteen shots to five on Rush The Kop's count (Sofascore has twenty to seven).",
     },
     {
       title: "Ngumoha Told To Be Patient Amid Bayern Links (Liverpool Echo via LiveScore, today)",
@@ -1095,7 +1095,7 @@ export const NEWS_DIGEST = {
     {
       title: "Wirtz's Back-To-Back Assists (Football365 / TEAMtalk via LiveScore, 1d ago)",
       category: "general",
-      detail: "Football365's preview, published on Monday, notes that Wirtz has five assists in thirteen Champions League appearances for Liverpool and assisted in consecutive games for the first time at Brentford. Tuesday's LiveScore round-up carries Jamie Carragher's praise for that Brentford assist (TEAMtalk).",
+      detail: "Football365's preview, published on Monday, notes that Wirtz has five assists in thirteen Champions League appearances for Liverpool and assisted in consecutive games for the first time at Brentford. Jamie Carragher has praised that Brentford assist (TEAMtalk via LiveScore).",
     },
   ],
   sources: [
@@ -1146,7 +1146,7 @@ export const OPPOSITION = {
   manager: "Iñigo Pérez",
   formation: "4-4-2",
   leaguePosition: 12,
-  summary: "Villarreal arrive as La Liga's most wasteful attack: thirteen league goals from chances worth 19.49, the biggest shortfall in the division on Opta's numbers (SI), and Saturday's goalless draw with Elche, sixteen shots to five, was the latest instance (Rush The Kop). They are twelfth, took their first Champions League points by beating Napoli 3-1 after losing 3-2 at Dortmund, and arrive under Iñigo Pérez, Iraola's former assistant at Rayo (Liverpool FC). Opta's supercomputer gives Liverpool 61.4 per cent (Opta Analyst), and the history is all one way: no wins in sixteen Champions League games against English clubs, five goals, nine straight defeats (Opta Analyst), six straight away defeats in the competition (Football365) and never a goal at Anfield (Europa Press). The leaguePosition here is their La Liga place.",
+  summary: "Villarreal arrive as La Liga's most wasteful attack: thirteen league goals from chances worth 19.49, the biggest shortfall in the division on Opta's numbers (SI), and Saturday's goalless draw with Elche, sixteen shots to five on Rush The Kop's count and twenty to seven on Sofascore's, was the latest instance. They are twelfth, took their first Champions League points by beating Napoli 3-1 after losing 3-2 at Dortmund, and arrive under Iñigo Pérez, Iraola's former assistant at Rayo (Liverpool FC). Opta's supercomputer gives Liverpool 61.4 per cent (Opta Analyst), and the history is all one way: no wins in sixteen Champions League games against English clubs, five goals, nine straight defeats (Opta Analyst), six straight away defeats in the competition (Football365) and never a goal at Anfield (Europa Press). The leaguePosition here is their La Liga place.",
   shape: "A 4-4-2 with the width in the full-backs, Mouriño on the right and Romero on the left, and Comesaña and Gueye arriving from midfield; the previews agree on that shape and on Moreno beside Mikautadze up front (FútbolFantasy; Football365; EFE via Infobae). They do not agree on the goalkeeper: FútbolFantasy gives Gulácsi a slight edge, SI picks Luiz Júnior, and Rush The Kop counts six starts for one and five for the other. The volume comes from midfielders arriving late, which is why the chances are many and the goals few.",
   keyPlayers: [
     {
@@ -1274,7 +1274,7 @@ export const FORM_TRENDS = {
       label: "Better against ten than against eleven",
       severity: "medium",
       source: "Opta Analyst / AFP via Flashscore",
-      detail: "The Brentford comeback came entirely after Yarmoliuk's dismissal, and Brentford's opener was the seventh time in seven league games that Liverpool have conceded first (Opta Analyst). Isak called it 'still lots to improve' (AFP via Flashscore). No split before and after the red card has been published, so the gap stays described, not measured.",
+      detail: "The Brentford comeback came entirely after Yarmoliuk's dismissal, and Brentford's opener was, per Opta Analyst, the seventh time in seven league games that Brentford had scored first. Isak called it 'still lots to improve' (AFP via Flashscore). No split before and after the red card has been published, so the gap stays described, not measured.",
     },
     {
       label: "The pivot with no third man",
@@ -1286,7 +1286,7 @@ export const FORM_TRENDS = {
       label: "Right-back by elimination",
       severity: "high",
       source: "Sports Mole / Brit Brief / SI",
-      detail: "Frimpong is out, Bradley is close to training but not in full training (Brit Brief), and Muñoz, who finished Saturday at right-back, was seen in a knee brace (Sports Mole). Every overnight XI found starts Araujo there (SI; Rush The Kop), a centre-back who has now been picked for the position because nobody else is left.",
+      detail: "Frimpong is out, Bradley is close to training but not in full training (Brit Brief), and Muñoz, who moved to right-back on Saturday before Gomez replaced him, was seen in a knee brace (Sports Mole). Every overnight XI found starts Araujo there (SI; Rush The Kop), a centre-back who has now been picked for the position because nobody else is left.",
     },
   ],
 
@@ -1546,9 +1546,9 @@ export const SQUAD_LOAD = {
     {
       name: "Cody Gakpo",
       issue: "Left ankle, the Lukic tackle in Serbia (27 September)",
-      status: "Unused on the bench at the Gtech (Liverpool FC); in the front three of both latest Villarreal previews (Sports Mole; The Stats Zone)",
+      status: "Unused on the bench at the Gtech (Liverpool FC); the Liverpool Offside starts him on the right, Rush The Kop has him on the bench",
       note: "Unused at the Gtech, so among the fresh players Iraola said on Monday he is picking for; a start would be his first since Bournemouth on 20 September.",
-      source: "Liverpool FC / Sports Mole / The Stats Zone / Eurosport",
+      source: "Liverpool FC / Liverpool Offside via Yahoo Sports / Rush The Kop",
     },
     {
       name: "Ryan Gravenberch",
@@ -1643,7 +1643,6 @@ export const SQUAD_LOAD = {
     "This Is Anfield",
     "Sports Mole",
     "Fantasy Football Scout",
-    "Football Insider",
     "Rush The Kop",
     "Goal",
     "SI",
@@ -1659,7 +1658,6 @@ export const SQUAD_LOAD = {
     "Brit Brief",
     "The Stats Zone",
     "Express via AOL",
-    "SI",
     "FútbolFantasy",
     "Football365",
     "Liverpool Offside via Yahoo Sports",
