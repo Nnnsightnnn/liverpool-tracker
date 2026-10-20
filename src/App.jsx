@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          The eve of Villarreal, and the right side has thinned again: Iraola has put Frimpong
-          out until after the November break, and Muñoz, who scored Saturday's equaliser and is
-          the improvised cover behind Araujo and Gomez, missed the final session without explanation. The XI, Iraola warned, may
-          not be the one anyone expects. Liverpool are fifth on twelve; Anfield, tomorrow at eight.
+          Matchday, and the morning brings a knee brace instead of a bulletin: Muñoz, seen in one
+          after the Gtech, is the last open question before Villarreal, with Frimpong and Szoboszlai
+          already gone. Every overnight eleven puts Araujo at right-back. Liverpool are fifth on
+          twelve; Anfield, tonight at eight, against a side that creates far more than it scores.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,29 +606,27 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the morning's unanswered questions have answers, and none of them is generous.
-              Frimpong's hamstring is new, Iraola said, and a return before the November break
-              will be difficult; Szoboszlai's is the old one, not healed, and needs patience. Then
-              the training photographs came out without Muñoz, who needed treatment twice at the
-              Gtech and played on both times; no reason has been given. Iraola, asked
-              about his team, said only that it might not be the one you think, because some are
-              not fresh enough. Across the room sits his oldest friend in football, Iñigo Pérez,
-              and a goalkeeper, Gulácsi, who spent five seasons on Liverpool's bench without a
-              competitive minute. The shortlist is now a list of the fresh.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and the question at Anfield is no longer who is hurt but how badly. Muñoz was seen
+              in a knee brace after Brentford, Sports Mole reported this morning, and nobody has
+              said whether it matters; the previews, published after midnight, split between him
+              and Ngumoha on the right and agree only that Araujo, who would rather be a
+              centre-back, will play right-back anyway. Opposite them is a Villarreal side that
+              Opta's numbers call wasteful rather than weak, thirteen league goals from chances
+              worth nineteen and a half. Rafa Benítez will be watching from a television studio.
+              The supercomputer gives Liverpool sixty-one per cent; the rest is a knee.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: a right flank
-              down to its last specialists; a manager choosing by freshness; a
-              friendship paused for ninety minutes; a goalkeeper who never played
-              here; and a table that moved tonight at the bottom. Read them in order.
-              Seven league games have brought twelve points and a single defeat, and
-              with the squad closed until January, Tuesday's answers and Sunday's
-              have to come from the same short list.
+              five dispatches from the writers who never clock off: a knee brace
+              without a bulletin; a visiting side that cannot finish; an old
+              manager in a studio; a teenager told to wait; and a rugby ball from
+              the flats. Read them in order. Seven league games have brought twelve
+              points and a single defeat, and with the squad closed until January,
+              tonight's answers and Sunday's have to come from the same short list.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3839,7 +3837,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Not the one you think."
+        "Sixty-one per cent, and a knee."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
