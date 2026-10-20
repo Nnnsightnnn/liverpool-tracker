@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Matchday, and the morning brings a knee brace instead of a bulletin: Muñoz, seen in one
-          after the Gtech, is the last open question before Villarreal, with Frimpong and Szoboszlai
-          already gone. Every overnight eleven puts Araujo at right-back. Liverpool are fifth on
-          twelve; Anfield, tonight at eight, against a side that creates far more than it scores.
+          Two down inside twenty-nine minutes, and then four goals: Liverpool beat Villarreal 4-3
+          at Anfield on Tuesday night, Mac Allister twice, Araujo and Wirtz, with an eighteen-year-old,
+          Rio Ngumoha, making two of them. Nine European points from nine. The league is less forgiving:
+          fifth on twelve, and Brighton, third with four league clean sheets running, come on Sunday at two.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,27 +606,27 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and the question at Anfield is no longer who is hurt but how badly. Muñoz was seen
-              in a knee brace after Brentford, Sports Mole reported this morning, and nobody has
-              said whether it matters; the previews, published after midnight, split between him
-              and Ngumoha on the right and agree only that Araujo, who would rather be a
-              centre-back, will play right-back anyway. Opposite them is a Villarreal side that
-              Opta's numbers call wasteful rather than weak, thirteen league goals from chances
-              worth nineteen and a half. Rafa Benítez will be watching from a television studio.
-              The supercomputer gives Liverpool sixty-one per cent; the rest is a knee.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              Anfield learned what this team does when it is behind, and how often it lets itself
+              get there. Van Dijk's header gave Villarreal the first goal after four minutes and
+              Cardona ran through for the second before half an hour, the earliest Liverpool have
+              trailed by two in Europe for a decade. Then the evening turned on a teenager: Ngumoha,
+              moved to the right, made the equaliser for Araujo and the lead for Mac Allister, and
+              Wirtz, rested until half-time, scored the fourth. Three conceded in each of the last
+              two European games is the price of the thrill, and Iraola said as much. Brighton, who
+              have not conceded in four league games, will not wait to be caught.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: a knee brace
-              without a bulletin; a visiting side that cannot finish; an old
-              manager in a studio; a teenager told to wait; and a rugby ball from
-              the flats. Read them in order. Seven league games have brought twelve
-              points and a single defeat, and with the squad closed until January,
-              tonight's answers and Sunday's have to come from the same short list.
+              five dispatches from the writers who never clock off: a night that
+              began two down; a teenager's record; a half-time change nobody saw
+              coming; a winger who watched from elsewhere; and the side that does
+              not concede. Read them in order. Seven league games have brought
+              twelve points and a single defeat, and with the squad closed until
+              January, Sunday's eleven comes from the same short list as tonight's.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3837,7 +3837,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Sixty-one per cent, and a knee."
+        "Two down, and then Rio."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
