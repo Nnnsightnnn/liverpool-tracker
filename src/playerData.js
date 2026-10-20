@@ -920,7 +920,8 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-10-20 (Tuesday morning, ~4am ET). Byte-identical to Monday evening; no league games until Saturday.
+// Last refresh: 2026-10-20 (Tuesday evening, ~6pm ET). Byte-identical to Tuesday morning; Villarreal was a Champions League game.
+// Prior refresh: 2026-10-20 (Tuesday morning, ~4am ET). Byte-identical to Monday evening; no league games until Saturday.
 // Prior refresh: 2026-10-19 (Monday morning, ~4am ET). Byte-identical to Sunday evening; Tottenham v Coventry closes matchweek seven tonight.
 // Prior refresh: 2026-10-18 (Sunday morning, ~4am ET). Byte-identical to Saturday evening; ten sides still have a seventh game to play.
 // Prior refresh: 2026-10-17 (Saturday evening, ~6pm ET). Re-fetched from ESPN after Brentford 1-2 Liverpool, City 3-2 Ipswich, Everton 0-2 Chelsea,
@@ -995,7 +996,7 @@ export const STANDINGS_COMMENTARY = {
     Chelsea: "Fourth on thirteen, the side Liverpool must pass; Carabao Cup at Anfield on 28 October.",
     Brentford: "Sixth on ten after losing at home to Liverpool on Saturday.",
     Everton: "Eighth on ten; the derby is on 29 November.",
-    "Crystal Palace": "Fourteenth on seven after Saturday's 5-0 at Brighton; Liverpool visit on 8 November.",
+    "Crystal Palace": "Fourteenth on seven after Sunday's 5-0 at Brighton; Liverpool visit on 8 November.",
     "Manchester United": "Thirteenth on seven; at Anfield on 22 November.",
     Coventry: "Seventeenth on six, a point clear of the bottom three.",
     Fulham: "Eighteenth on five, in the relegation places on goals.",
@@ -1043,7 +1044,7 @@ export const DISPATCHES = [
     byline: "Squawka / Sky Sports / The Hard Tackle",
     dateline: "Brighton · 20 October",
     category: "Race for Europe",
-    body: "Fabian Hürzeler's Brighton arrive at Anfield third in the table, having won their last four league games without conceding, the latest a 5-0 against Crystal Palace on Saturday that Sky Sports led on Diego Gómez's wondergoal. Squawka's model makes them 42 per cent favourites on Sunday, against 33 for Liverpool. Their manager, The Hard Tackle reported on Tuesday, is happy where he is despite Manchester United's interest. Iraola said after the Villarreal game that Brighton play a similar style. He has had five days' notice of the exam.",
+    body: "Fabian Hürzeler's Brighton arrive at Anfield third in the table, having won their last four league games without conceding, the latest a 5-0 against Crystal Palace on Sunday that Sky Sports led on Diego Gómez's wondergoal. Squawka's model makes them 42 per cent favourites on Sunday, against 33 for Liverpool. Their manager, The Hard Tackle reported on Tuesday, is happy where he is despite Manchester United's interest. Iraola said after the Villarreal game that Brighton play a similar style. He has had five days' notice of the exam.",
   },
 ];
 export const NEWS_DIGEST = {
@@ -1093,7 +1094,7 @@ export const NEWS_DIGEST = {
     {
       title: "Hürzeler Happy At Brighton Amid United Links (The Hard Tackle, today)",
       category: "general",
-      detail: "Reported on Tuesday: Sunday's opposing manager is said to be content at Brighton despite Manchester United's interest (The Hard Tackle). His side won 5-0 against Crystal Palace on Saturday (Sky Sports).",
+      detail: "Reported on Tuesday: Sunday's opposing manager is said to be content at Brighton despite Manchester United's interest (The Hard Tackle). His side won 5-0 against Crystal Palace on Sunday (Sky Sports).",
     },
     {
       title: "Brighton At Anfield, Sunday 2pm (Squawka / Liverpool FC, 1d ago)",
@@ -1150,13 +1151,13 @@ export const OPPOSITION = {
   manager: "Fabian Hürzeler",
   formation: "4-2-3-1",
   leaguePosition: 3,
-  summary: "Brighton are the form side Liverpool did not want five days after a European night: third on sixteen points with a goal difference of plus eighteen, the best in the league (ESPN), and four straight league wins without conceding, Coventry 0-5, Arsenal 3-0, Sunderland 0-2 and Crystal Palace 5-0 on Saturday (Squawka). They have also beaten Manchester United 3-2 in the Carabao Cup and Žalgiris 4-0 in the Conference League (Fox Sports). The off-field story is their manager: Fabian Hürzeler is reported to be happy at the club despite Manchester United's interest (The Hard Tackle, Tuesday). Squawka's model makes them 42 per cent favourites at Anfield.",
+  summary: "Brighton are the form side Liverpool did not want five days after a European night: third on sixteen points with a goal difference of plus eighteen, the best in the league (ESPN), and four straight league wins without conceding, Coventry 0-5, Arsenal 3-0, Sunderland 0-2 and Crystal Palace 5-0 on Sunday (Squawka). They have also beaten Manchester United 3-2 in the Carabao Cup and Žalgiris 4-0 in the Conference League (Fox Sports). The off-field story is their manager: Fabian Hürzeler is reported to be happy at the club despite Manchester United's interest (The Hard Tackle, Tuesday). Squawka's model makes them 42 per cent favourites at Anfield.",
   shape: "A 4-2-3-1 in Squawka's predicted line-up, with Pascal Gross and Chema Andrés as the pivot and Diego Gómez, Yasin Ayari and Maxim De Cuyper behind Charalampos Kostoulas. Iraola's own reading after Villarreal was that the two sides play a similar style, which means patient build-up, numbers in midfield and full-backs high (YSscores, translated). The threat to Liverpool is the overload that Villarreal used in the first half tonight, when they led the expected-goals count 1.12 to 0.83 (Sofascore).",
   keyPlayers: [
     {
       name: "Charalampos Kostoulas",
       role: "Centre-forward",
-      threat: "Three league goals from eighteen shots, seven on target, in 487 minutes (Squawka, Opta data); a goal and an assist in Saturday's 5-0 against Palace (Fox Sports).",
+      threat: "Three league goals from eighteen shots, seven on target, in 487 minutes (Squawka, Opta data); a goal and an assist in Sunday's 5-0 against Palace (Fox Sports).",
       source: "Squawka / Fox Sports",
     },
     {
@@ -1590,7 +1591,7 @@ export const SQUAD_LOAD = {
     {
       name: "Wataru Endo",
       issue: "No injury; not registered for the Champions League",
-      status: "Missed Monday's training (Brit Brief); eligible again for Brighton",
+      status: "Not involved Tuesday (not UEFA-registered); missed Monday's training, reason not given (Brit Brief); eligible again for Brighton",
       note: "A domestic option in midfield if Szoboszlai's absence and Gravenberch's right-back shift leave the pivot short.",
       source: "Brit Brief / SI",
     },
