@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday, and the talk is of keeping him: Liverpool are in active conversations with Rio
-          Ngumoha over a new long-term contract, Fabrizio Romano said this morning, a day after the
-          eighteen-year-old made two goals against Villarreal. Fifth on twelve, a point under the
-          Champions League line, Liverpool have four days before Brighton, third, come to Anfield.
+          Wednesday evening, and the contract under discussion is a different one: the Telegraph
+          reports Liverpool are in no rush to extend Alexis Mac Allister, a day after his two goals
+          beat Villarreal. Fifth on twelve and a point off the Champions League line, they have
+          Brighton, third, at Anfield on Sunday afternoon.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,16 +606,14 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              the morning after, belongs to the contract rather than the comeback. Fabrizio Romano
-              says Liverpool and Ngumoha are in active conversations over a long-term deal, his present
-              one running to 2028, and that in the summer he was never for sale.
-              Iraola, meanwhile, has explained the night's two oddest decisions: Araujo, scorer of the
-              equaliser, came off because he was struggling to follow his runner, not because he was
-              hurt, and Isak began on the bench because he is still coming back from a muscle injury.
-              Jamie Carragher counts five comebacks in eleven games, which speaks to character and,
-              read the other way, to how often this side falls behind. Brighton, who have conceded
-              five league goals all season, are the last team to fall behind against on Sunday.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the talk is of the midfielder rather than the boy. The Telegraph says Liverpool are not
+              in any rush to open talks with Mac Allister, whose deal runs to 2028 and who has four
+              goals already, and the player himself has offered a reading of the last two years:
+              something was not right in the group, he told Prime Video, and this manager changed it.
+              Van Dijk, more briefly, called Tuesday a bad day at the office. The afternoon injury list
+              was kinder, Muñoz's knee not thought serious, Leoni's return slipping a month. Sam Barrott
+              has Sunday's whistle. A club can be grateful to a player and still keep him waiting.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -623,11 +621,11 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and
               five dispatches from the writers who never clock off: a contract
-              conversation; a manager's two explanations; the injury list in dates;
-              an Under-19s afternoon against Pepe Reina; and a season of coming
-              from behind. Read them in order. Seven league games have brought
-              twelve points and a single defeat, and with the squad closed until
-              January, Sunday's eleven comes from the same short list as Tuesday's.
+              that can wait; a midfielder on the year that went wrong; an injury
+              list with one good line in it; a captain's bad night; and Brighton's
+              road through Jablonec. Seven league games have brought twelve points
+              and a single defeat, and with the squad closed until January, Sunday's
+              eleven comes from the same short list as Tuesday's.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3838,7 +3836,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Never for sale, and now the talks."
+        "This manager changed it."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
