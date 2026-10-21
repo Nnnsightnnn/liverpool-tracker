@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Wed Oct 21, evening - Rush The Kop's Wednesday list puts the knee at early December, a month later than Brit Brief's morning projection; still not in group work.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Wed Oct 21, evening - Back working on grass and close to joining some team sessions (Daily Mail via DaveOCKOP); Rush The Kop's Wednesday list still gives early December.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -1057,7 +1057,7 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   generatedAt: "2026-10-21T22:30:00Z",
-  summary: "As of Wednesday evening, the contract story at Liverpool is Alexis Mac Allister's: the Telegraph's Dominic King reports the club are 'not in any rush' to open talks with the midfielder he calls their most in-form player, a day after his two goals beat Villarreal; his deal runs to June 2028 (Football365; TEAMtalk; Empire of the Kop). Mac Allister himself told Prime Video that 'something wasn't right in the group' last season and that 'this manager changed it' (Empire of the Kop). Van Dijk called his own night 'a bad day at the office' (Empire of the Kop), while Rush The Kop's afternoon injury list says Muñoz's knee is not understood to be serious and that Leoni has suffered a setback. Sam Barrott will referee Sunday's 2pm game against Brighton, with Michael Oliver on VAR (Liverpool FC). Brighton, third, travel to Jablonec on Thursday with six players out (SussexWorld), and Romano's morning report of talks over a new Ngumoha deal still stands (Rush The Kop).",
+  summary: "As of Wednesday evening, the contract story at Liverpool is Alexis Mac Allister's: the Telegraph's Dominic King reports the club are 'not in any rush' to open talks with the midfielder he calls their most in-form player, a day after his two goals beat Villarreal; his deal runs to June 2028 (Football365; TEAMtalk; Empire of the Kop). Mac Allister himself told Prime Video that 'something wasn't right in the group' last season and that 'this manager changed it' (Empire of the Kop). Van Dijk called his own night 'a bad day at the office' (Empire of the Kop), while Rush The Kop's afternoon injury list says Muñoz's knee is not understood to be serious and that Leoni has suffered a setback. Sam Barrott will referee Sunday's 2pm game against Brighton, with Michael Oliver on VAR (Liverpool FC). Brighton go to Jablonec on Thursday with six players out (SussexWorld), and Liverpool Women lost 5-3 to Manchester United on Wednesday night (Liverpool FC).",
   keyTopics: [
     {
       title: "'Not In Any Rush': Liverpool Hold Off On Mac Allister Talks (Telegraph via Football365 / TEAMtalk, today)",
@@ -1065,14 +1065,9 @@ export const NEWS_DIGEST = {
       detail: "Reported on Wednesday morning by Dominic King of the Telegraph: Liverpool are 'not in any rush to start talking about new contracts' with Mac Allister despite calling him 'the most important cog and most in-form player' (Empire of the Kop; Football365). His contract runs to June 2028 (Football365; TEAMtalk). In September he said the club's position made him 'very, very sad' (AFP via eNCA).",
     },
     {
-      title: "Mac Allister: 'This Manager Changed It' (Prime Video via Empire of the Kop / Rush The Kop, today)",
+      title: "Women Beaten 5-3 By United; Elliott 'More Refined' At Valencia (Liverpool FC / Rush The Kop, today)",
       category: "general",
-      detail: "Picked up on Wednesday from his Prime Video interview after Villarreal: 'Something wasn't right in the group. This manager changed it, and that's really important,' and 'Last year was a really difficult year for all of us' (Empire of the Kop). He did not name Arne Slot; Rush The Kop read it as a swipe at the previous regime.",
-    },
-    {
-      title: "Van Dijk: 'A Bad Day At The Office Personally' (Empire of the Kop, today)",
-      category: "general",
-      detail: "Published on Wednesday afternoon: Van Dijk said of the header that led to Mikautadze's early goal, 'I tried but it was a bad day at the office personally', adding 'It's all about us.' The Liverpool Echo rated him five out of ten (Empire of the Kop).",
+      detail: "On Wednesday night at St Helens, Liverpool Women lost 5-3 to Manchester United in the Subway Players Cup despite a hat-trick from substitute Cornelia Kapocs; Gareth Taylor: 'We gave away too many goals' (Liverpool FC). In Spain, Valencia's Javier Aguirre said of the on-loan Harvey Elliott, 'I see him more refined' (Rush The Kop).",
     },
     {
       title: "Barrott To Referee Brighton, Oliver On VAR (Liverpool FC, today)",
@@ -1085,6 +1080,16 @@ export const NEWS_DIGEST = {
       detail: "Rush The Kop's injury list, published on Wednesday afternoon: Muñoz's knee 'is not understood to be serious' and he could be back on Sunday; Frimpong late November; Bradley early December; Ekitike and Leoni early January, Iraola saying of Leoni 'we've lost one month in the process'. Of Szoboszlai, Iraola said: 'He's not a new injury.'",
     },
     {
+      title: "Six In A Row Against Spanish Sides (Rush The Kop, today)",
+      category: "tactics",
+      detail: "Counted on Wednesday: Villarreal was Liverpool's sixth straight Champions League win over a LaLiga club, after Atlético Madrid, Real Madrid twice, Atlético again and Girona, five of the six at Anfield (Rush The Kop). Iraola made six changes for the game.",
+    },
+    {
+      title: "Van Dijk: 'A Bad Day At The Office Personally' (Empire of the Kop, today)",
+      category: "general",
+      detail: "Published on Wednesday afternoon: Van Dijk said of the header that led to Mikautadze's early goal, 'I tried but it was a bad day at the office personally', adding 'It's all about us.' The Liverpool Echo rated him five out of ten (Empire of the Kop).",
+    },
+    {
       title: "Brighton Go To Jablonec With Six Out (SussexWorld, today)",
       category: "matches",
       detail: "Reported on Wednesday lunchtime: Brighton play Jablonec in the Conference League at 5.45pm on Thursday without Ferguson, Tzimas, Mitoma, Yohanna, Minteh and Wieffer, the last two left out of the European squad; Wieffer could be an option at Anfield. Struijk (thigh) and Azeez are doubts (SussexWorld).",
@@ -1095,19 +1100,14 @@ export const NEWS_DIGEST = {
       detail: "In Wednesday's Brighton round-up: Chelsea and Galatasaray are tracking Yasin Ayari after his contract talks with Brighton stalled (TEAMtalk via LiveScore). Ayari scored in Sunday's 5-0 against Crystal Palace.",
     },
     {
-      title: "Six In A Row Against Spanish Sides (Rush The Kop, today)",
-      category: "tactics",
-      detail: "Counted on Wednesday: Villarreal was Liverpool's sixth straight Champions League win over a LaLiga club, after Atlético Madrid, Real Madrid twice, Atlético again and Girona, five of the six at Anfield (Rush The Kop). Iraola made six changes for the game.",
+      title: "Mac Allister: 'This Manager Changed It' (Prime Video via Empire of the Kop / Rush The Kop, today)",
+      category: "general",
+      detail: "Picked up on Wednesday from his Prime Video interview after Villarreal: 'Something wasn't right in the group. This manager changed it, and that's really important,' and 'Last year was a really difficult year for all of us' (Empire of the Kop). He did not name Arne Slot; Rush The Kop read it as a swipe at the previous regime.",
     },
     {
       title: "Nyoni: 'All Part Of The Process' (Liverpool FC, today)",
       category: "general",
       detail: "From the club's interview after his first Anfield Champions League start, published on Wednesday: 'I've had to wait but I feel like it's all part of the process,' Nyoni said, and of Mac Allister, 'He's one of the senior players that really pushes me' (Liverpool FC).",
-    },
-    {
-      title: "Women Beaten 5-3 By United; Elliott 'More Refined' At Valencia (Liverpool FC / Rush The Kop, today)",
-      category: "general",
-      detail: "On Wednesday night at St Helens, Liverpool Women lost 5-3 to Manchester United in the Subway Players Cup despite a hat-trick from substitute Cornelia Kapocs; Gareth Taylor: 'We gave away too many goals' (Liverpool FC). In Spain, Valencia's Javier Aguirre said of the on-loan Harvey Elliott, 'I see him more refined' (Rush The Kop).",
     },
   ],
   sources: [

@@ -173,7 +173,7 @@ export const PLAYER_EVIDENCE = {
   3:   "'Bad day at the office' · starts",
   5:   "Freshest defender · RB option",
   7:   "Rested Tue · back at LB",
-  8:   "Knee · early December",
+  8:   "Back on grass · early December",
   9:   "Hamstring · late November",
   10:  "ACL setback · early January",
   11:  "Fan XI of the week · RCB",
@@ -343,5 +343,5 @@ export const ALTERNATIVES = {
 export const PREDICTION_NOTE = {
   level: "Medium",
   generated_at: "2026-10-21T22:30:00Z",
-  reason: "Wed Oct 21, evening. No personnel change for Brighton at Anfield, Sunday 25 October, 2pm. No knock has been reported from Tuesday, and Rush The Kop's Wednesday list rates Munoz's knee not serious with Sunday possible; he stays out until the club says otherwise. The XI is Squawka's with Gravenberch for the injured Szoboszlai and Ngumoha for Munoz. Medium: one preview so far, and Iraola speaks before the game.",
+  reason: "Wed Oct 21, evening. No personnel change for Brighton at Anfield, Sunday 25 October, 2pm. No knock has been reported from Tuesday, and Rush The Kop's Wednesday list rates Munoz's knee not serious with Sunday possible; he stays out until the club says otherwise. The XI is Squawka's with Gravenberch for the injured Szoboszlai and Ngumoha for Munoz. Medium: two previews so far (Squawka; The False 9), split on Barcola or Gakpo on the left, and Iraola speaks before the game.",
 };
