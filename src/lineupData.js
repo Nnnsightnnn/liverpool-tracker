@@ -167,33 +167,33 @@ export const FORMATIONS = {
 // Tue Oct 20 (morning, matchday): all 27 refreshed for Munoz's knee brace (Sports Mole), Brit Brief's absentee list and the overnight XIs (SI; FutbolFantasy).
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 export const PLAYER_EVIDENCE = {
-  1:   "Starts · -0.94 prevented Tue",
+  1:   "Starts · no change after Tue",
   2:   "Bench · Chelsea cup tie 28 Oct",
-  3:   "Error for opener · starts",
-  5:   "On 74' Tue · RB and CB cover",
-  7:   "Rested Tue · back at LB",
-  8:   "Knee · not in full training",
-  9:   "Hamstring · out to Nov break",
-  10:  "ACL · training in November",
-  11:  "Started Tue · keeps RCB",
+  3:   "No knock reported · starts",
+  5:   "Fresh · the RB alternative",
+  7:   "Unused Tue · back at LB",
+  8:   "Knee · November at the earliest",
+  9:   "Hamstring · target 22 Nov",
+  10:  "ACL · slower than planned",
+  11:  "74 mins Tue · keeps RCB",
   12:  "On loan at Levante",
-  13:  "Two goals v Villarreal · 9.3",
-  14:  "Half at RB Tue · back in pivot",
-  15:  "Hamstring · two more games",
-  17:  "Eligible again · midfield cover",
-  18:  "Off the bench, scored · starts",
-  20:  "Started Tue · first mid sub",
+  13:  "'Doesn't panic' · in the pivot",
+  14:  "Can 'do both jobs' · pivot",
+  15:  "Hamstring · Arsenal earliest",
+  17:  "League cover · not UEFA-listed",
+  18:  "Rested, then scored · starts",
+  20:  "First midfield sub",
   22:  "90 mins Tue · bench Sunday",
-  23:  "Rested Tue · leads the line",
-  24:  "Achilles · turn of the year",
-  25:  "Two assists Tue · starts right",
+  23:  "Muscle, managed · leads line",
+  24:  "Achilles · December at best",
+  25:  "UEFA POTM · contract talks",
   26:  "Not in recent squads",
   27:  "Third keeper",
-  28:  "Not in Tue squad · doubt",
-  29:  "Scored, off at HT · starts RB",
-  30:  "Bench Tue · starts left",
-  31:  "Started Tue · Isak's cover",
-  32:  "Corner assist Tue · bench",
+  28:  "Knee · 50% for Sunday",
+  29:  "Not injured · starts at RB",
+  30:  "Rested Tue · starts left",
+  31:  "Isak's cover up front",
+  32:  "Made the opener Tue · bench",
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -268,11 +268,14 @@ export const PLAYER_EVIDENCE = {
 // Tue Oct 20 (evening): Villarreal played, Liverpool won 4-3 (Sky Sports). Re-pointed at Brighton at Anfield, Premier League, Sun 25 Oct,
 //   2pm GMT. Baseline is Squawka's Brighton XI (Mon 19 Oct), which predates Tuesday: Gravenberch for Szoboszlai (injured), Ngumoha for
 //   Munoz (not in Tuesday's squad, RotoWire). Isak, Wirtz, Barcola and Kerkez were benched or rested on Tuesday with Sunday in mind. Overall Medium.
+// Wed Oct 21 (morning): no personnel change. No new Brighton preview. Iraola's press conference confirmed Araujo was taken off for
+//   tactical reasons, not injury, and that Isak (muscle), Wirtz and Barcola (fatigue) were rested (Liverpool FC); Munoz being
+//   assessed, 50 per cent (Premier Injuries). Levels unchanged; overall Medium.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by the 4-2-3-1
-// slot keys. These read as confidence that the slot's occupant STARTS AGAINST BRIGHTON AT HOME (PL, Sun 25 Oct; re-pointed Tue Oct 20 evening after Liverpool 4-3 Villarreal. Previously Villarreal at home (UCL, Tue 20 Oct; re-pointed Sat Oct 17 evening after Brentford 1-2 Liverpool: LDM Gravenberch High, CAM Wirtz High, RCB High, ST Isak Medium, RAM Medium. Previously Brentford away; Sat Oct 17 morning: CAM High to Medium, three Echo writers pick Szoboszlai there; RAM Medium to Low, all four Echo writers pick Ngumoha; re-pointed Wed 14 Oct evening after LASK 3-6 Liverpool; previously LASK Linz, and before that Manchester City at
+// slot keys. These read as confidence that the slot's occupant STARTS AGAINST BRIGHTON AT HOME (PL, Sun 25 Oct; reviewed Wed Oct 21 morning, no level change; re-pointed Tue Oct 20 evening after Liverpool 4-3 Villarreal. Previously Villarreal at home (UCL, Tue 20 Oct; re-pointed Sat Oct 17 evening after Brentford 1-2 Liverpool: LDM Gravenberch High, CAM Wirtz High, RCB High, ST Isak Medium, RAM Medium. Previously Brentford away; Sat Oct 17 morning: CAM High to Medium, three Echo writers pick Szoboszlai there; RAM Medium to Low, all four Echo writers pick Ngumoha; re-pointed Wed 14 Oct evening after LASK 3-6 Liverpool; previously LASK Linz, and before that Manchester City at
 // Anfield on Sunday 11 October, RE-POINTED Sun Oct 11 (evening) at LASK Linz away on Wed 14 October: RB lowered to Low (Frimpong rotation), RCB to Medium (Gomez), LDM now Gravenberch at Medium, RDM Mac Allister High. (Reviewed Sun Oct 11, morning: no level change, matchday previews agree. Sat Oct 10, morning: no level change; ST now Barcola and LAM Ngumoha, both Medium. Fri Oct 9, evening: RCB raised Medium to High after Iraola declared Jacquet 'fit and ready to go'; ST raised Low to Medium after Iraola ruled Isak out and named Koumas the only natural nine. Fri Oct 9, morning: RCB lowered from High to Medium because RotoWire still lists Jacquet's hamstring tightness and picks Gomez, against Rousing The Kop's report that he took the full session; other levels unchanged. Thu Oct 8, evening: RCB raised to High after Jacquet trained; RAM raised to Medium with Gakpo absent from training; ST stays Low with Koumas in. Thu Oct 8, morning: levels unchanged, no new bulletin. Wed Oct 7, evening: levels unchanged after Iraola's update on Isak and Gakpo. Wed Oct 7, morning: levels unchanged, no club bulletin on Jacquet, Isak or Gakpo. Tue Oct 6, evening: RCB raised from Low to Medium on reports that Jacquet's strain is slight, unconfirmed by the club. Tue Oct 6, morning: levels unchanged. Mon Oct 5, evening: RCB cut from High to Low after Jacquet's left hamstring strain in the France camp; other levels unchanged since Sat Sep 26.) The basis has changed in kind: this
 // is no longer a preview consensus, it is the eleven that started and won at Bournemouth
 // last time out. That raises confidence in the spine and lowers it nowhere except the front three,
@@ -296,20 +299,20 @@ export const SLOT_CONFIDENCE = {
 
 
 // ─── Per-slot rationale ────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Tue Oct 20 (evening) for Brighton at home, after Liverpool 4-3 Villarreal, against Squawka's Brighton XI. Previously reviewed Mon Oct 19 (morning) for Villarreal against Sports Mole's Monday XI and The Stats Zone's preview. Previously reviewed Sun Oct 18 (evening) for Villarreal against Eurosport's and Sports Mole's evening XIs. Previously reviewed Sun Oct 18 (morning) for Villarreal. Previously reviewed Sat Oct 17 (evening), after Brentford 1-2 Liverpool, for Villarreal. Previously reviewed Sat Oct 17 (morning, matchday) against the Liverpool Echo's four XIs (Brit Brief) and The Football Faithful's preview.
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Wed Oct 21 (morning) for Brighton after Iraola's explanations of Tuesday's selection; no new preview. Previously reviewed Tue Oct 20 (evening) for Brighton at home, after Liverpool 4-3 Villarreal, against Squawka's Brighton XI. Previously reviewed Mon Oct 19 (morning) for Villarreal against Sports Mole's Monday XI and The Stats Zone's preview. Previously reviewed Sun Oct 18 (evening) for Villarreal against Eurosport's and Sports Mole's evening XIs. Previously reviewed Sun Oct 18 (morning) for Villarreal. Previously reviewed Sat Oct 17 (evening), after Brentford 1-2 Liverpool, for Villarreal. Previously reviewed Sat Oct 17 (morning, matchday) against the Liverpool Echo's four XIs (Brit Brief) and The Football Faithful's preview.
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Tue Oct 20, evening - Kerkez, rested on Tuesday while Tsimikas made the first goal from a corner; Squawka starts Kerkez. Medium.",
-  LCB: "Tue Oct 20, evening - Van Dijk, whose header gifted Villarreal the opener, but there is no senior centre-back to rest him with. High.",
-  RCB: "Tue Oct 20, evening - Jacquet, seventy-four minutes on Tuesday and Squawka's pick. High.",
-  RB: "Tue Oct 20, evening - Araujo, forty-five minutes on Tuesday before a tactical change, and Squawka's pick; Gomez is the alternative, Gravenberch the emergency. Medium.",
-  LDM: "Tue Oct 20, evening - Gravenberch, back in the pivot after his half at right-back; Szoboszlai, Squawka's pick, could miss two more games (Evening Standard). Medium.",
-  RDM: "Tue Oct 20, evening - Mac Allister, two goals and a FotMob 9.3 against Villarreal (SI). High.",
-  LAM: "Tue Oct 20, evening - Barcola, benched on Tuesday and Squawka's pick; Gakpo, ninety minutes on Tuesday, the alternative. Medium.",
-  CAM: "Tue Oct 20, evening - Wirtz, rested until half-time on Tuesday and then scored; Squawka's pick. High.",
-  RAM: "Tue Oct 20, evening - Ngumoha, two assists on the right on Tuesday; Squawka picked Munoz, who then missed the squad. Medium.",
-  ST: "Tue Oct 20, evening - Isak, benched on Tuesday to keep him for Brighton (Roundtable via Yahoo Sports). High.",
+  LB: "Wed Oct 21, morning - Kerkez, unused on Tuesday and Squawka's pick; Tsimikas, who made the first goal, is the cover. Medium.",
+  LCB: "Wed Oct 21, morning - Van Dijk, no knock reported after Tuesday and no senior centre-back to rest him with. High.",
+  RCB: "Wed Oct 21, morning - Jacquet, seventy-four minutes on Tuesday, no knock reported; Squawka's pick. High.",
+  RB: "Wed Oct 21, morning - Araujo, confirmed not injured; Iraola took him off for struggling to track runners (Liverpool FC), which keeps Gomez live. Medium.",
+  LDM: "Wed Oct 21, morning - Gravenberch, back in the pivot after his half at right-back; Szoboszlai is ruled out until Arsenal at the earliest (Premier Injuries). Medium.",
+  RDM: "Wed Oct 21, morning - Mac Allister, who 'doesn't panic, he organises' in Iraola's words (Liverpool FC). High.",
+  LAM: "Wed Oct 21, morning - Barcola, rested on Tuesday to avoid a fourth start in ten days (Liverpool FC); Gakpo the alternative. Medium.",
+  CAM: "Wed Oct 21, morning - Wirtz, rested for the same reason, then scored off the bench; Squawka's pick. High.",
+  RAM: "Wed Oct 21, morning - Ngumoha, UEFA's player of the match on Tuesday (TEAMtalk); Munoz, Squawka's pick, is a fifty-fifty (Premier Injuries). Medium.",
+  ST: "Wed Oct 21, morning - Isak, held back on Tuesday because he was coming from a muscle injury (Liverpool FC); kept for this game. High.",
 };
 
 
@@ -336,6 +339,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-10-20T22:30:00Z",
-  reason: "Tue Oct 20, evening. Re-pointed at Brighton at Anfield, Premier League, Sunday 25 October, 2pm, after Liverpool 4-3 Villarreal. Baseline is Squawka's Brighton XI with two forced changes: Gravenberch for the injured Szoboszlai and Ngumoha, two assists on Tuesday, for Munoz, who missed the squad. Seven of this XI started against Villarreal and the other four (Kerkez, Barcola, Wirtz, Isak) were benched with Sunday in mind. Medium: one preview, and Iraola's pre-match press conference is still to come.",
+  generated_at: "2026-10-21T08:30:00Z",
+  reason: "Wed Oct 21, morning. No personnel change for Brighton at Anfield, Sunday 25 October, 2pm. Iraola confirmed that Araujo's half-time withdrawal was tactical and that Isak, Wirtz and Barcola were rested for fitness reasons (Liverpool FC), which supports this XI: Squawka's eleven with Gravenberch for the injured Szoboszlai and Ngumoha for Munoz, who is fifty-fifty (Premier Injuries). Medium: one preview, and Iraola's pre-match press conference is still to come.",
 };

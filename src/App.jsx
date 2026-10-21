@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Two down inside twenty-nine minutes, and then four goals: Liverpool beat Villarreal 4-3
-          at Anfield on Tuesday night, Mac Allister twice, Araujo and Wirtz, with an eighteen-year-old,
-          Rio Ngumoha, making two of them. Nine European points from nine. The league is less forgiving:
-          fifth on twelve, and Brighton, third with four league clean sheets running, come on Sunday at two.
+          Wednesday, and the talk is of keeping him: Liverpool are in active conversations with Rio
+          Ngumoha over a new long-term contract, Fabrizio Romano said this morning, a day after the
+          eighteen-year-old made two goals against Villarreal. Fifth on twelve, a point under the
+          Champions League line, Liverpool have four days before Brighton, third, come to Anfield.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,27 +606,28 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              Anfield learned what this team does when it is behind, and how often it lets itself
-              get there. Van Dijk's header gave Villarreal the first goal after four minutes and
-              Cardona ran through for the second before half an hour, the earliest Liverpool have
-              trailed by two in Europe for a decade. Then the evening turned on a teenager: Ngumoha,
-              moved to the right, made the equaliser for Araujo and the lead for Mac Allister, and
-              Wirtz, rested until half-time, scored the fourth. Three conceded in each of the last
-              two European games is the price of the thrill, and Iraola said as much. Brighton, who
-              have not conceded in four league games, will not wait to be caught.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              the morning after, belongs to the contract rather than the comeback. Fabrizio Romano
+              says Liverpool and Ngumoha are in active conversations over a long-term deal, his present
+              one running to 2028, and that in the summer he was never for sale.
+              Iraola, meanwhile, has explained the night's two oddest decisions: Araujo, scorer of the
+              equaliser, came off because he was struggling to follow his runner, not because he was
+              hurt, and Isak began on the bench because he is still coming back from a muscle injury.
+              Jamie Carragher counts five comebacks in eleven games, which speaks to character and,
+              read the other way, to how often this side falls behind. Brighton, who have conceded
+              five league goals all season, are the last team to fall behind against on Sunday.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: a night that
-              began two down; a teenager's record; a half-time change nobody saw
-              coming; a winger who watched from elsewhere; and the side that does
-              not concede. Read them in order. Seven league games have brought
+              five dispatches from the writers who never clock off: a contract
+              conversation; a manager's two explanations; the injury list in dates;
+              an Under-19s afternoon against Pepe Reina; and a season of coming
+              from behind. Read them in order. Seven league games have brought
               twelve points and a single defeat, and with the squad closed until
-              January, Sunday's eleven comes from the same short list as tonight's.
+              January, Sunday's eleven comes from the same short list as Tuesday's.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3837,7 +3838,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Two down, and then Rio."
+        "Never for sale, now for keeps."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
