@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Wed Oct 21, morning - Iraola: 'we couldn't risk today because he was coming from a muscle injury' (Liverpool FC). Rested for this game; leads the line here.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Wed Oct 21, morning - Iraola: 'we couldn't risk today because he was coming from a muscle injury' (Liverpool FC). Held back after the muscle injury; leads the line here.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -1117,6 +1117,8 @@ export const NEWS_DIGEST = {
     "Brit Brief",
     "Premier Injuries",
     "Evening Standard",
+    "Ghanamma",
+    "Yardbarker",
     "This Is Anfield",
     "Anfield Index",
     "Yahoo Sports",
@@ -1239,7 +1241,7 @@ export const OPPOSITION = {
       note: "Still the only league defeat on Arsenal's record (Squawka; ESPN).",
     },
   ],
-  liverpoolAngle: "The right is still the seam, and Iraola's own words on Tuesday explain why. He took Araujo off at half-time because he was 'feeling uncomfortable following all the way' (Liverpool FC), the job Brighton's runners will set him on Sunday, and the fix was Gravenberch, a midfielder, who is needed in the pivot while Szoboszlai is out. Frimpong is out to November and Muñoz is a fifty-fifty (Premier Injuries), so the realistic choice is Araujo again or Gomez. The counterweight is fatigue on Brighton's side: a Thursday night in the Czech Republic before a Sunday lunchtime at Anfield, against a Liverpool side that rested Isak, Wirtz and Barcola for this game.",
+  liverpoolAngle: "The right is still the seam, and Iraola's own words on Tuesday explain why. He took Araujo off at half-time because he was 'feeling uncomfortable following all the way' (Liverpool FC), the job Brighton's runners will set him on Sunday, and the fix was Gravenberch, a midfielder, who is needed in the pivot while Szoboszlai is out. Frimpong is out to November and Muñoz is a fifty-fifty (Premier Injuries), so the realistic choice is Araujo again or Gomez. The counterweight is fatigue on Brighton's side: a Thursday night in the Czech Republic before a Sunday lunchtime at Anfield, against a Liverpool side that held Isak back after a muscle injury and rested Wirtz and Barcola.",
   modelLine: {
     source: "Squawka Signal",
     liverpool: 33,

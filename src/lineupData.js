@@ -53,7 +53,7 @@ export const FORMATIONS = {
       CM: 14,  // Gravenberch (back in midfield after his half at right-back)
       RCM: 18, // Wirtz (half-time sub, scored the fourth)
       LW: 30,  // Barcola (benched Tuesday, Squawka's pick)
-      ST: 23,  // Isak (rested Tuesday for this game)
+      ST: 23,  // Isak (held back Tuesday after a muscle injury)
       RW: 25,  // Ngumoha (two assists v Villarreal; Munoz a doubt)
     },
 
@@ -104,7 +104,7 @@ export const FORMATIONS = {
       LAM: 30, // Barcola (Squawka's pick)
       CAM: 18, // Wirtz (Squawka's pick; scored off the bench Tuesday)
       RAM: 25, // Ngumoha (two assists Tuesday; Squawka's pick Munoz missed the squad)
-      ST: 23,  // Isak (rested Tuesday for this game)
+      ST: 23,  // Isak (held back Tuesday after a muscle injury)
     },
 
   },
