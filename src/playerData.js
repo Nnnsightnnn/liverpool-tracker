@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "injured", outSince: "2026-10-17", injuryNote: "Thu Oct 22, evening - Sky Sports, Thursday: expected to miss one to three games, Brighton, Chelsea and Arsenal included, with Fenerbahce on 4 November or Palace on 8 November the possible return (DaveOCKOP). Iraola: 'It's not another injury, he's still not healed' (Brit Brief).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "injured", outSince: "2026-10-17", injuryNote: "Thu Oct 22, evening - Sky's Vinny O'Connor, Thursday: out for up to three more games (Empire of the Kop); Sky's fuller timeline has him missing Brighton, Chelsea and Arsenal, with Fenerbahce on 4 November or Palace on 8 November the possible return (DaveOCKOP). Iraola: 'It's not another injury, he's still not healed' (Brit Brief).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Thu Oct 22, evening - Back-up nine behind Isak; in the squad for Sunday, outside the predicted eleven.", image: "",
+    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Thu Oct 22, evening - Started Tuesday's win over Villarreal; Sunday's bench option if Isak needs relief, with the Chelsea cup tie a likelier start.", image: "",
     physical: { height: 180, weight: 73, pace: 80, acceleration: 81, sprintSpeed: 79 },
     career: [
       { years: "2013-", club: "Liverpool", fee: null, type: "youth" },
@@ -231,7 +231,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Thu Oct 22, evening - Outside the matchday squads; Thursday changes nothing.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Thu Oct 22, evening - Fit, but left off the Champions League list (SI, 4 Sep) and outside recent matchday squads; not part of Sunday's plans.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -242,7 +242,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Thu Oct 22, evening - Third goalkeeper; no change on Thursday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Thu Oct 22, evening - Behind Alisson and Mamardashvili; the cup tie with Chelsea is Mamardashvili's, so he waits.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -1044,7 +1044,7 @@ export const DISPATCHES = [
     byline: "The Telegraph via DaveOCKOP",
     dateline: "Brighton · 22 October",
     category: "Manager",
-    body: "It has been a strange few days to be Fabian Hürzeler. On Thursday evening, before the goalless draw in Jablonec had been digested, The Telegraph linked him with the Manchester United job (DaveOCKOP). He is thirty-three, signed a contract to June 2029 in May, and has no release clause, so any approach would cost a record in compensation; Brighton are said to be relaxed. Whatever happens in Manchester, the man in the away dugout on Sunday is third in the league and in demand, which is a kind of compliment Liverpool's own manager, four months into his job, is not yet being paid.",
+    body: "It has been a strange few days to be Fabian Hürzeler. On Thursday evening, before the goalless draw in Jablonec had been digested, a link with the Manchester United job that first surfaced last week was back, carried by The Telegraph (DaveOCKOP). He is thirty-three, signed a contract to June 2029 in May, and has no release clause, so any approach would cost a record in compensation; Brighton are said to be relaxed. Whatever happens in Manchester, the man in the away dugout on Sunday is third in the league and in demand, which is a kind of compliment Liverpool's own manager, four months into his job, is not yet being paid.",
   },
   {
     n: "04",
@@ -1065,7 +1065,7 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   generatedAt: "2026-10-22T22:15:00Z",
-  summary: "As of Thursday evening, Víctor Muñoz has missed Liverpool's team training again, still recovering from what Sky Sports' Vinny O'Connor called 'a bit of a knock on the knee', and Bradley Barcola worked alone in a session the Liverpool Echo's Paul Gorst says was 'only a precaution' (Sports Mole; CaughtOffside). Sky's timeline now has Szoboszlai missing one to three games, Brighton, Chelsea and Arsenal among them, with Fenerbahce on 4 November the earliest return, and Frimpong out for around four weeks (DaveOCKOP; Empire of the Kop). Brighton, Sunday's 2pm visitors, were held 0-0 in Jablonec after eight changes, twenty-six shots and 1.37 expected goals ending a six-match winning run (Sky Sports; Sofascore; Yahoo Sports), and The Telegraph links Hürzeler with Manchester United. Iraola speaks at 1.30pm on Friday (Liverpool FC); the Daily Mail's Lewis Steele says Liverpool are 'definitely interested' in Alex Scott and that Bradley is back on grass, and Klopp tells the club's new Diogo Jota biography that he is still not ready to talk about the loss.",
+  summary: "As of Thursday evening, Víctor Muñoz has missed Liverpool's team training again, still recovering from what Sky Sports' Vinny O'Connor called 'a bit of a knock on the knee', and Bradley Barcola worked alone in a session the Liverpool Echo's Paul Gorst says was 'only a precaution' (Sports Mole; CaughtOffside). Sky's Vinny O'Connor has Szoboszlai out for up to three more games, and Sky's fuller timeline has him missing Brighton, Chelsea and Arsenal, with Fenerbahce on 4 November the earliest return, and Frimpong out for around four weeks (DaveOCKOP; Empire of the Kop). Brighton, Sunday's 2pm visitors, were held 0-0 in Jablonec after eight changes, twenty-six shots and 1.37 expected goals ending a six-match winning run (Sky Sports; Sofascore; Yahoo Sports), and The Telegraph links Hürzeler with Manchester United. Iraola speaks at 1.30pm on Friday (Liverpool FC); the Daily Mail's Lewis Steele says Liverpool are 'definitely interested' in Alex Scott and that Bradley is back on grass, and Klopp tells the club's new Diogo Jota biography that he is still not ready to talk about the loss.",
   keyTopics: [
     {
       title: "Muñoz Misses Training Again; Barcola's Solo Session 'Only A Precaution' (Sky Sports / Liverpool Echo, this evening)",
@@ -1078,9 +1078,9 @@ export const NEWS_DIGEST = {
       detail: "Played on Thursday evening in the Conference League: Hürzeler, in his 100th game in charge, made eight changes from the 5-0 over Palace, keeping only Verbruggen, Boscagli and Gross (Sky Sports). Brighton had 72 per cent of the ball and twenty-six shots to nine but only four on target, and 1.37 expected goals to 0.73 (Sofascore); Yalcouyé had a goal ruled out for offside and Verbruggen saved late from Slama and Tchanturishvili (Playmakerstats via Yahoo Sports). A six-match winning run ends; the clean sheets run to five. The Comet's report has Hürzeler demanding more in attack.",
     },
     {
-      title: "Hürzeler Linked With Manchester United (The Telegraph via DaveOCKOP, this evening)",
+      title: "Hürzeler-Manchester United Link Resurfaces (The Telegraph via DaveOCKOP, this evening)",
       category: "general",
-      detail: "Reported on Thursday evening: The Telegraph links Sunday's opposing manager with the Manchester United job. DaveOCKOP's write-up adds that the thirty-three-year-old signed a contract to June 2029 in May with no release clause, so an approach would mean a record compensation fee, and that Brighton are relaxed about the reports.",
+      detail: "Back in the news on Thursday evening, a week after the link first surfaced: The Telegraph again connects Sunday's opposing manager with the Manchester United job. DaveOCKOP's write-up adds that the thirty-three-year-old signed a contract to June 2029 in May with no release clause, so an approach would mean a record compensation fee, and that Brighton are relaxed about the reports.",
     },
     {
       title: "Steele: Liverpool 'Definitely Interested' In Alex Scott (Daily Mail via Empire of the Kop, today)",
@@ -1248,7 +1248,7 @@ export const OPPOSITION = {
       note: "A third straight league clean sheet (Squawka).",
     },
   ],
-  liverpoolAngle: "The flank Brighton will aim at is still Liverpool's right, and Thursday made it thinner: Muñoz missed team training again with a knee knock (Sky Sports via Sports Mole), Frimpong is around four weeks away and Bradley still on grass (Empire of the Kop), so Araujo, a centre-back withdrawn on Tuesday because he was uncomfortable tracking runners (Liverpool FC), is the likeliest right-back. Liverpool's first halves are the other opening: Villarreal led 2-0 at 28:08 (Opta Analyst). Freshness is the counterweight, and only partly: eight of Brighton's Jablonec starters were changed (Sky Sports), but Gross and Boscagli played and go again within three days, while Isak, Wirtz and Kerkez were spared on Tuesday and Barcola's solo session on Thursday was a precaution (CaughtOffside).",
+  liverpoolAngle: "The flank Brighton will aim at is still Liverpool's right, and Thursday made it thinner: Muñoz missed team training again with a knee knock (Sky Sports via Sports Mole), Frimpong is around four weeks away and Bradley still on grass (Empire of the Kop), so Araujo, a centre-back withdrawn on Tuesday because he was uncomfortable tracking runners (Liverpool FC), is the likeliest right-back. Liverpool's first halves are the other opening: Villarreal led 2-0 at 28:08 (Opta Analyst). Freshness is the counterweight, and only partly: eight of Brighton's Jablonec starters were changed (Sky Sports), but Gross and Boscagli played and go again within three days, while Kerkez was rested on Tuesday and Isak and Wirtz played only off the bench and Barcola's solo session on Thursday was a precaution (CaughtOffside).",
   modelLine: {
     source: "Squawka Signal",
     liverpool: 33,
@@ -1509,7 +1509,6 @@ export const FORM_TRENDS = {
     "UEFA.com",
     "Yahoo Sports",
     "Playmakerstats",
-    "Sports Mole",
     "Opta Analyst",
     "Sofascore",
     "ESPN",
@@ -1562,7 +1561,7 @@ export const SQUAD_LOAD = {
     {
       name: "Dominik Szoboszlai",
       issue: "Hamstring, a recurrence of the problem he brought back from Hungary duty",
-      expected: "Sky Sports, Thursday: one to three games, missing Brighton, Chelsea and Arsenal, with Fenerbahce on 4 November or Palace on 8 November the possible return (DaveOCKOP)",
+      expected: "Sky Sports, Thursday: up to three more games (Empire of the Kop), on the fuller timeline Brighton, Chelsea and Arsenal, with Fenerbahce on 4 November or Palace on 8 November the possible return (DaveOCKOP)",
       note: "Absent from Thursday's training (Sports Mole). Iraola: 'It's not another injury, he's still not healed' (Brit Brief). Arsenal on 1 November, the previous aim, now looks too soon.",
       source: "Sky Sports via DaveOCKOP / Sports Mole / Brit Brief",
     },

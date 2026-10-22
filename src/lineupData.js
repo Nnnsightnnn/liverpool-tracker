@@ -181,7 +181,7 @@ export const PLAYER_EVIDENCE = {
   12:  "On loan · praised at Levante",
   13:  "Pivot · three games, eight days",
   14:  "Pivot · Szoboszlai out to Nov",
-  15:  "Out 1-3 games · Fenerbahce?",
+  15:  "Out up to 3 games · Fenerbahce?",
   17:  "League cover · cup minutes",
   18:  "Starts at ten · trained Thu",
   20:  "First midfield sub · cup start",
@@ -339,7 +339,7 @@ export const ALTERNATIVES = {
   RDM: [{ playerId: 20, reason: "Nyoni · first midfield cover" }],
   LAM: [{ playerId: 22, reason: "Gakpo · if Barcola's precaution holds him out" }],
   CAM: [{ playerId: 14, reason: "Gravenberch · started at ten Tuesday" }],
-  RAM: [{ playerId: 28, reason: "Munoz · missed Thursday training, knee" }, { playerId: 22, reason: "Gakpo · can play right" }],
+  RAM: [{ playerId: 22, reason: "Gakpo · can play right" }, { playerId: 28, reason: "Munoz · missed Thursday training, knee" }],
   ST:  [{ playerId: 31, reason: "Koumas · started Tuesday" }, { playerId: 30, reason: "Barcola · the alternative nine" }],
 };
 
