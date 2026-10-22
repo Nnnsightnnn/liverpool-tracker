@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday morning, and the contract talk has come back round to the teenager: the Daily
-          Mail's Lewis Steele writes that a new deal for Rio Ngumoha is a matter of when, not if.
-          Fifth on twelve and a point under the Champions League line, Liverpool wait three days for
-          Brighton, who play in the Czech Republic tonight.
+          Thursday evening, and the training ground has done the talking: Víctor Muñoz missed another
+          session with a sore knee, and Bradley Barcola worked alone, a precaution, the Echo says.
+          Fifth on twelve, Liverpool have three days until Brighton, who were held goalless in
+          Jablonec tonight with most of Sunday's eleven left at rest.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,26 +606,25 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and the story the club would most like to be true has a second source. Lewis Steele of
-              the Daily Mail says Rio Ngumoha's agent is in talks, that the teenager wants to commit
-              his future, and that the only question is when, with Arsenal and Bayern said to be
-              watching all the same. Brighton, Sunday's visitors, spend the evening in Jablonec, where
-              Hürzeler warned that for many opponents a game against his side is the game of their
-              lives; Djibril Cissé thinks they could do a Leicester. At Kirkby the questions are smaller
-              and more pressing: whether Wirtz takes the ten back from Gravenberch, and whether Muñoz's
-              knee, seventy-five per cent on the fantasy site, lets someone other than Araujo play
-              right-back. Three days is a long time in a short squad.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the injury list reads as a timetable. Sky Sports' man at the training ground counted
+              Muñoz out again with a knock on the knee and Barcola away from the group on a recovery
+              programme, and his colleagues now expect Szoboszlai to miss not only Brighton but Chelsea
+              and Arsenal too. In the Czech Republic, Brighton changed eight players, had twenty-six
+              shots and scored none, which ended a winning run and left their best eleven fresh for
+              Anfield. Their manager, meanwhile, is wanted in Manchester, or so The Telegraph says.
+              Iraola speaks on Friday afternoon, and the only question that matters is who plays
+              right-back. A short squad gets shorter in the evenings.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: a contract
-              that looks like a formality; Brighton's night in the Czech Republic;
-              the question of who plays at ten; an injury list read in percentages;
-              and an old striker's warning about Brighton. Seven league games have brought twelve points
+              five dispatches from the writers who never clock off: a knock and a
+              precaution at Kirkby; Brighton's goalless night in Jablonec; the other
+              manager's week; a midfielder Liverpool are interested in; and Klopp,
+              still not ready to talk about Diogo Jota. Seven league games have brought twelve points
               and a single defeat, and with the squad closed until January, Sunday's
               eleven comes from the same short list as Tuesday's.
             </p>
@@ -3838,7 +3837,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "When, not if."
+        "Twenty-six shots, nothing."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
