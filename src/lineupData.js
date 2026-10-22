@@ -310,7 +310,7 @@ export const SLOT_CONFIDENCE = {
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
   LB: "Thu Oct 22, morning - Kerkez, in both The False 9's XI and Squawka's after his Tuesday rest. Medium.",
-  LCB: "Thu Oct 22, morning - Van Dijk, with Gomez the only senior centre-back behind him. High.",
+  LCB: "Thu Oct 22, morning - Van Dijk, with Gomez the only fresh senior centre-back behind him. High.",
   RCB: "Thu Oct 22, morning - Jacquet, praised on Thursday as a player who 'has everything' (Liverpool.com). High.",
   RB: "Thu Oct 22, morning - Araujo in The False 9's XI; Munoz is 75 per cent on the official FPL site (The False 9), Gomez the other option. Medium.",
   LDM: "Thu Oct 22, morning - Gravenberch, back in the pivot as Brit Brief expects him to give the ten to Wirtz. Medium.",

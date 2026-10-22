@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Thu Oct 22, morning - Nothing in Thursday's previews touches his place; Brit Brief names him first choice in goal for Sunday.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Thu Oct 22, morning - Nothing in Thursday's previews touches his place; Brit Brief names him first choice in goal for Sunday.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Thu Oct 22, morning - Thursday brings no change: the Carabao Cup tie with Chelsea, 8pm on 28 October, is the start he is waiting for.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 26, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Thu Oct 22, morning - Thursday brings no change: the Carabao Cup tie with Chelsea, 8pm on 28 October, is the start he is waiting for.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Thu Oct 22, morning - Sunday's back four is built around him whatever Tuesday cost; Gomez is the only senior centre-back behind him.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Thu Oct 22, morning - Sunday's back four is built around him whatever Tuesday cost; Gomez is the only fresh senior centre-back behind him.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Thu Oct 22, morning - Spare at both right-back and centre-back for Sunday; the official FPL site's 75 per cent on Muñoz decides how much he is needed.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Thu Oct 22, morning - Spare at both right-back and centre-back for Sunday; the official FPL site's 75 per cent on Muñoz decides how much he is needed.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Thu Oct 22, morning - Knee, still at the grass stage; the official FPL site lists him at 0 per cent and The False 9 gives no date. Early December remains the target.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Thu Oct 22, morning - Knee, still at the grass stage; the official FPL site lists him at 0 per cent and The False 9 gives no date. Early December remains the target.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Thu Oct 22, morning - Zero per cent on the official FPL site (The False 9); Iraola called the hamstring 'difficult' before the November break, so Manchester United on 22 November is the earliest realistic date.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Thu Oct 22, morning - Zero per cent on the official FPL site (The False 9); Iraola: 'We will try but it's going to be difficult to have him' before the November break (Daily Cannon via Yahoo Sports), so Manchester United on 22 November is the earliest realistic date.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Thu Oct 22, morning - Brit Brief expects him to give the ten back to Wirtz and return to the pivot beside Mac Allister on Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Thu Oct 22, morning - Brit Brief expects him to give the ten back to Wirtz and return to the pivot beside Mac Allister on Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Thu Oct 22, morning - Leads the line in every Brighton XI published so far; Tuesday's short shift was the plan.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Thu Oct 22, morning - Leads the line in every Brighton XI published so far; Tuesday's short shift was the plan.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Thu Oct 22, morning - Achilles, 0 per cent on the official FPL site (The False 9); December to January the reported window.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Thu Oct 22, morning - Achilles, 0 per cent on the official FPL site (The False 9); December to January the reported window.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -998,7 +998,7 @@ export const STANDINGS_COMMENTARY = {
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 7,
   generatedAt: "2026-10-22T08:30:00Z",
-  overview: "Thursday morning's table is the same one Wednesday ended with, and the only side in it with a game before the weekend is Brighton, in Jablonec tonight. They are third on sixteen, the only team in the top five with a double-figure goal difference, and Djibril Cissé thinks they could do a Leicester (Brit Brief). Liverpool are fifth on twelve, a point below Chelsea on the last Champions League stripe and four below Sunday's visitors, so a win at Anfield would close that gap to a point. Manchester City, seven from seven, sit three clear of Arsenal. At the bottom Sunderland are last on four, a point behind Fulham and Forest.",
+  overview: "Thursday morning's table is the same one Wednesday ended with, and the only side in it with a game before the weekend is Brighton, in Jablonec tonight. They are third on sixteen, with the best goal difference in the league, plus eighteen, and Djibril Cissé thinks they could do a Leicester (Brit Brief). Liverpool are fifth on twelve, a point below Chelsea on the last Champions League stripe and four below Sunday's visitors, so a win at Anfield would close that gap to a point. Manchester City, seven from seven, sit three clear of Arsenal. At the bottom Sunderland are last on four, a point behind Fulham and Forest.",
   teams: {
     Liverpool: "Fifth on twelve, two clear of the three sides on ten; Brighton, four points better off, are Sunday's visitors.",
     "Manchester City": "Top on twenty-one, still perfect after seven.",
@@ -1032,7 +1032,7 @@ export const DISPATCHES = [
     byline: "BBC Sport via AOL / The Football Faithful",
     dateline: "Jablonec · 22 October",
     category: "Football News",
-    body: "Brighton wake up in the Czech Republic. Fabian Hürzeler told the BBC on Thursday morning that everything is fine with his squad and that, for a lot of opponents, playing Brighton might be the game of their lives (BBC Sport via AOL). Jablonec have beaten Rangers this season (BBC Sport via AOL). Kick-off is 5.45pm, and The Football Faithful expects rotation after the 5-0 over Palace, with Rutter, O'Riley, Hinshelwood and Osman pushing to start. Whatever eleven he picks tonight is the eleven he is least likely to pick at Anfield, seventy-two hours later.",
+    body: "Brighton wake up in the Czech Republic. Fabian Hürzeler told the BBC on Thursday morning that everything is fine with his squad and that, for a lot of opponents, playing Brighton might be the game of their lives (BBC Sport via AOL). Jablonec have beaten Rangers this season. Kick-off is 5.45pm, and The Football Faithful expects rotation after the 5-0 over Palace, with Rutter, O'Riley, Hinshelwood and Osman pushing to start. Whatever eleven he picks tonight is the eleven he is least likely to pick at Anfield three days later.",
   },
   {
     n: "03",
@@ -1297,8 +1297,8 @@ export const FORM_TRENDS = {
     {
       label: "Errors at the back",
       severity: "high",
-      source: "Empire of the Kop / Sofascore",
-      detail: "Van Dijk called Tuesday a bad day at the office; his backwards header made the opener, and Sofascore credits him with six of nine duels won (Empire of the Kop). Brighton have scored twenty-three league goals in seven (Squawka).",
+      source: "Empire of the Kop / Sofascore / Brit Brief",
+      detail: "Van Dijk called Tuesday a bad day at the office; his backwards header made the opener, and Sofascore credits him with six of nine duels won (Empire of the Kop). Brighton have scored twenty-three league goals in seven (Brit Brief).",
     },
     {
       label: "Right-back by elimination",
@@ -1570,7 +1570,7 @@ export const SQUAD_LOAD = {
       name: "Giovanni Leoni",
       issue: "ACL (September 2025)",
       expected: "Early January after a setback (Rush The Kop); Premier Injuries 2 January",
-      note: "Brit Brief expects him back in training during November's international break; a playing return stays in early January. Gomez remains the only senior centre-back cover.",
+      note: "Brit Brief expects him back in training during November's international break; a playing return stays in early January. Gomez remains the only fresh senior centre-back cover, Araujo occupied at right-back.",
       source: "Rush The Kop / Brit Brief / Premier Injuries",
     },
     {
@@ -1671,7 +1671,7 @@ export const SQUAD_LOAD = {
     {
       position: "Centre-back",
       level: "high",
-      detail: "High. Van Dijk and Jacquet, with Gomez the only senior cover; Leoni may train in November but plays in January at the earliest (Brit Brief; Rush The Kop).",
+      detail: "High. Van Dijk and Jacquet, with Gomez the only fresh senior cover while Araujo plays right-back; Leoni may train in November but plays in January at the earliest (Brit Brief; Rush The Kop).",
     },
     {
       position: "Centre-forward",
