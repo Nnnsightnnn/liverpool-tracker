@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday evening, and the contract under discussion is a different one: the Telegraph
-          reports Liverpool are in no rush to extend Alexis Mac Allister, a day after his two goals
-          beat Villarreal. Fifth on twelve and a point off the Champions League line, they have
-          Brighton, third, at Anfield on Sunday afternoon.
+          Thursday morning, and the contract talk has come back round to the teenager: the Daily
+          Mail's Lewis Steele writes that a new deal for Rio Ngumoha is a matter of when, not if.
+          Fifth on twelve and a point under the Champions League line, Liverpool wait three days for
+          Brighton, who play in the Czech Republic tonight.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,14 +606,16 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the talk is of the midfielder rather than the boy. The Telegraph says Liverpool are not
-              in any rush to open talks with Mac Allister, whose deal runs to 2028 and who has four
-              goals already, and the player himself has offered a reading of the last two years:
-              something was not right in the group, he told Prime Video, and this manager changed it.
-              Van Dijk, more briefly, called Tuesday a bad day at the office. The afternoon injury list
-              was kinder, Muñoz's knee not thought serious, Leoni's return slipping a month. Sam Barrott
-              has Sunday's whistle. A club can be grateful to a player and still keep him waiting.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the story the club would most like to be true has a second source. Lewis Steele of
+              the Daily Mail says Rio Ngumoha's agent is in talks, that the teenager wants to commit
+              his future, and that the only question is when, with Arsenal and Bayern said to be
+              watching all the same. Brighton, Sunday's visitors, spend the evening in Jablonec, where
+              Hürzeler warned that for many opponents a game against his side is the game of their
+              lives; Djibril Cissé thinks they could do a Leicester. At Kirkby the questions are smaller
+              and more pressing: whether Wirtz takes the ten back from Gravenberch, and whether Muñoz's
+              knee, seventy-five per cent on the fantasy site, lets someone other than Araujo play
+              right-back. Three days is a long time in a short squad.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -621,9 +623,9 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and
               five dispatches from the writers who never clock off: a contract
-              that can wait; a midfielder on the year that went wrong; an injury
-              list with one good line in it; a captain's bad night; and Brighton's
-              road through Jablonec. Seven league games have brought twelve points
+              that looks like a formality; Brighton's night in the Czech Republic;
+              the question of who plays at ten; an injury list read in percentages;
+              and an old striker's warning about Brighton. Seven league games have brought twelve points
               and a single defeat, and with the squad closed until January, Sunday's
               eleven comes from the same short list as Tuesday's.
             </p>
@@ -3836,7 +3838,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "This manager changed it."
+        "When, not if."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

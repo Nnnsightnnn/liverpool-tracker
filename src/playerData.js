@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Wed Oct 21, evening - Four days to put Tuesday's two first-half goals behind him; no fitness question raised in any Wednesday report, and he keeps goal for Brighton.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 33, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Thu Oct 22, morning - Nothing in Thursday's previews touches his place; Brit Brief names him first choice in goal for Sunday.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Wed Oct 21, evening - Nothing changes for him before Sunday; the Carabao Cup tie with Chelsea on 28 October remains his likeliest start.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 25, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Thu Oct 22, morning - Thursday brings no change: the Carabao Cup tie with Chelsea, 8pm on 28 October, is the start he is waiting for.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Wed Oct 21, evening - His own verdict on Tuesday: 'a bad day at the office personally' (Empire of the Kop), the Echo's 5/10 beside it. Fit, voted into the Fan Team of the Week for Brentford (Liverpool FC), and starts Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Thu Oct 22, morning - Sunday's back four is built around him whatever Tuesday cost; Gomez is the only senior centre-back behind him.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Wed Oct 21, evening - Unchanged as the spare man at right-back and centre-back; sixteen minutes on Tuesday leave him the freshest defender in the squad.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 28, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Thu Oct 22, morning - Spare at both right-back and centre-back for Sunday; the official FPL site's 75 per cent on Muñoz decides how much he is needed.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -54,7 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Wed Oct 21, evening - Left out on Tuesday with Sunday in mind; Rush The Kop's Wednesday injury list carries no knock, so he returns at left-back.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Thu Oct 22, morning - Back in the side for Brighton in both The False 9's XI and Squawka's; no knock listed anywhere on Thursday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Wed Oct 21, evening - Back working on grass and close to joining some team sessions (Daily Mail via DaveOCKOP); Rush The Kop's Wednesday list still gives early December.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 22, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Thu Oct 22, morning - Knee, still at the grass stage; the official FPL site lists him at 0 per cent and The False 9 gives no date. Early December remains the target.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Wed Oct 21, evening - 'A fresh hamstring injury', Rush The Kop's list calls it, with late November the possible return; Manchester United on 22 November is the realistic target.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 24, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Thu Oct 22, morning - Zero per cent on the official FPL site (The False 9); Iraola called the hamstring 'difficult' before the November break, so Manchester United on 22 November is the earliest realistic date.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Wed Oct 21, evening - A setback, Rush The Kop says; Iraola's line that 'we've lost one month in the process' moves the ACL return to early January on their list.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Thu Oct 22, morning - Brit Brief expects him back in training during November's international break, though the playing return sits in early January after his setback.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Wed Oct 21, evening - In the Premier League Fan Team of the Week for the win at the Gtech (Liverpool FC); stays beside Van Dijk for Brighton.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Thu Oct 22, morning - A former Liverpool player said on Thursday that he 'has everything' (Liverpool.com); for Sunday he simply stays beside Van Dijk.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Wed Oct 21, evening - Still at Levante on loan, outside the Brighton picture.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Thu Oct 22, morning - On loan at Levante; no part in Sunday's planning.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -111,7 +111,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Wed Oct 21, evening - Back to the bench after Tuesday's start; the left-back cover if Kerkez is not risked.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
+    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Thu Oct 22, morning - Rotated out again for Sunday; cover for Kerkez, whose Tuesday rest was planned with Brighton in mind.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
     physical: { height: 178, weight: 76, pace: 79, acceleration: 80, sprintSpeed: 78 },
     career: [
       { years: "2017-2020", club: "Olympiacos", fee: null, type: "senior" },
@@ -122,7 +122,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Wed Oct 21, evening - The Telegraph reports Liverpool are 'not in any rush' to open talks on a new deal, his current one to June 2028 (Football365; TEAMtalk). In the pivot on Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Thu Oct 22, morning - The contract story has moved to Ngumoha this morning; his own place in the pivot on Sunday is the least uncertain thing in midfield.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Wed Oct 21, evening - Midfield again for Brighton after his second half at right-back; no knock in any Wednesday report.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 23, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Thu Oct 22, morning - Brit Brief expects him to give the ten back to Wirtz and return to the pivot beside Mac Allister on Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "injured", outSince: "2026-10-17", injuryNote: "Wed Oct 21, evening - No new injury, Iraola insists (Rush The Kop), but the hamstring has no date on Wednesday's list; out of Brighton.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "injured", outSince: "2026-10-17", injuryNote: "Thu Oct 22, morning - Iraola: 'more or less in the same situation he was last week' (Daily Cannon via Yahoo Sports). Out of Brighton; Arsenal on 1 November is the aim.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Wed Oct 21, evening - The fourth senior midfielder in the league with Szoboszlai out; eligible on Sunday, not in Europe.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Thu Oct 22, morning - League-eligible cover in a four-man midfield group; not in any Thursday preview XI.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -163,7 +163,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Wed Oct 21, evening - One of four Liverpool players in the Premier League Fan Team of the Week (Liverpool FC); rested on Tuesday, starts at ten here.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Thu Oct 22, morning - Expected to take the ten back from Gravenberch (Brit Brief); Djibril Cissé called him 'magnificent' on Thursday.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -172,7 +172,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Wed Oct 21, evening - 'I've had to wait but I feel like it's all part of the process', he told the club after his first Anfield Champions League start (Liverpool FC). First midfield change on Sunday.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
+    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Thu Oct 22, morning - First midfield change if Iraola rotates; Tuesday's start against Villarreal made him the obvious one.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
     physical: { height: 178, weight: 68, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Leicester City Academy", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Wed Oct 21, evening - A full ninety minutes on Tuesday; Barcola returns on the left, so the bench for Brighton.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Thu Oct 22, morning - On the left in The False 9's XI, on the bench in Squawka's; the one genuine selection split for Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Wed Oct 21, evening - Fan Team of the Week for the Brentford winner (Liverpool FC); twenty-odd minutes on Tuesday by design, and leads the line here.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 26, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Thu Oct 22, morning - Leads the line in every Brighton XI published so far; Tuesday's short shift was the plan.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Wed Oct 21, evening - Achilles rehab continues; Rush The Kop's Wednesday list gives early January, and Iraola would not put a timescale on it.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 23, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Thu Oct 22, morning - Achilles, 0 per cent on the official FPL site (The False 9); December to January the reported window.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -213,7 +213,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Wed Oct 21, evening - Romano's tweet on Wednesday: Liverpool are 'working on new deal', and he was 'untouchable last summer' (Rush The Kop). Contract to 2028; starts on the right here.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Thu Oct 22, morning - The Daily Mail's Lewis Steele: a new deal is 'a matter of when, not if', the agent in talks (Empire of the Kop). Contract to June 2028; starts on the right in The False 9's XI.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Wed Oct 21, evening - Back behind Isak after sixty-seven minutes up front on Tuesday.", image: "",
+    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Thu Oct 22, morning - Back-up nine behind Isak; not in either preview XI.", image: "",
     physical: { height: 180, weight: 73, pace: 80, acceleration: 81, sprintSpeed: 79 },
     career: [
       { years: "2013-", club: "Liverpool", fee: null, type: "youth" },
@@ -231,7 +231,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Wed Oct 21, evening - Outside the matchday squads again; available for the league in name only.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Thu Oct 22, morning - Still outside the matchday squads; no change.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -242,7 +242,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Wed Oct 21, evening - Third goalkeeper, unused on Tuesday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Thu Oct 22, morning - Third goalkeeper; no change.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -259,7 +259,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "doubtful", injuryNote: "Wed Oct 21, evening - Knee, 'not understood to be serious', with Sunday as the possible return on Rush The Kop's Wednesday list. No club bulletin, so held out of this XI.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "doubtful", injuryNote: "Thu Oct 22, morning - Knee, now 75 per cent on the official FPL site (The False 9). Not yet in any preview XI; held out pending Iraola's Friday press conference.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -269,7 +269,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Wed Oct 21, evening - Fit after his tactical half-time withdrawal; Wednesday's injury lists do not mention him. Starts at right-back here, Gomez the alternative.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
+    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Thu Oct 22, morning - Starts at right-back in The False 9's XI, the default while Muñoz's knee is unconfirmed; his half-time withdrawal on Tuesday was tactical.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
     physical: { height: 188, weight: 79, pace: 78, acceleration: 74, sprintSpeed: 80 },
     career: [
       { years: "2016-2018", club: "Rentistas", fee: null, type: "youth" },
@@ -279,7 +279,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Wed Oct 21, evening - Rested on Tuesday and fresh for Sunday; starts on the left here.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
+    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Thu Oct 22, morning - In Squawka's XI on the left, out of The False 9's; fresh after Tuesday's rest.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
     physical: { height: 182, weight: 72, pace: 91, acceleration: 92, sprintSpeed: 90 },
     career: [
       { years: "2010-2020", club: "Lyon Academy", fee: null, type: "youth" },
@@ -398,7 +398,10 @@ export const COVER_IMAGE = {
   alt: "Editorial plate: an empty pitch under floodlights seen from the gantry, the white lines drawn in perspective through a low mist, the stand beyond in shadow.",
   focus: "Anfield, after dark",
   credit: "Editorial plate",
-  generatedAt: "2026-10-21T22:30:00Z",
+  generatedAt: "2026-10-22T08:30:00Z",
+  // Morning pass (Thu 22 October, ~4am ET, cloud-scheduled): NO MATCH since the evening edition. Lead moves onto the Daily Mail's
+  // Lewis Steele: a new Ngumoha contract is 'a matter of when, not if' (Empire of the Kop). Contract news, not a visual moment.
+  // Plate carried, Track 2 request still OPEN; only generatedAt refreshed. NO new image queued (STEP 7.5 not runnable in cloud). All generatedAt 08:30Z.
   // Morning pass (Wed 21 October, ~4am ET, cloud-scheduled): NO MATCH since the evening edition. Lead moves onto Romano's report of
   // 'active conversations' over a new long-term Ngumoha contract (Empire of the Kop; TEAMtalk; FootballTransfers). Plate carried,
   // Wed 21 Oct evening (cloud): lead is Mac Allister's contract (Telegraph) and his 'this manager changed it' line; not a visual moment.
@@ -925,7 +928,8 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-10-21 (Wednesday evening, ~6pm ET). Byte-identical to Wednesday morning; matchweek eight starts on Saturday.
+// Last refresh: 2026-10-22 (Thursday morning, ~4am ET). Byte-identical to Wednesday evening; matchweek eight starts on Saturday.
+// Prior refresh: 2026-10-21 (Wednesday evening, ~6pm ET). Byte-identical to Wednesday morning; matchweek eight starts on Saturday.
 // Prior refresh: 2026-10-21 (Wednesday morning, ~4am ET). Byte-identical to Tuesday evening; no league games until matchweek eight this weekend.
 // Prior refresh: 2026-10-20 (Tuesday evening, ~6pm ET). Byte-identical to Tuesday morning; Villarreal was a Champions League game.
 // Prior refresh: 2026-10-20 (Tuesday morning, ~4am ET). Byte-identical to Monday evening; no league games until Saturday.
@@ -993,134 +997,136 @@ export const STANDINGS_COMMENTARY = {
   source: "ESPN",
   sourceUrl: "https://www.espn.com/soccer/table/_/league/eng.1",
   matchweek: 7,
-  generatedAt: "2026-10-21T22:30:00Z",
-  overview: "Nothing has moved since Monday night and nothing will until Saturday, so Wednesday evening's table is read for its arithmetic. Liverpool are fifth on twelve, a point behind Chelsea on the last Champions League stripe and two clear of Brentford, Leeds and Everton, all on ten. Their Sunday visitors, Brighton, are third on sixteen with a goal difference of plus eighteen, the best in the league, and play in the Czech Republic on Thursday first. Manchester City, perfect from seven, lead Arsenal by three. At the bottom, Fulham, Forest and Sunderland hold the relegation places, with three sides on six a point above them.",
+  generatedAt: "2026-10-22T08:30:00Z",
+  overview: "Thursday morning's table is the same one Wednesday ended with, and the only side in it with a game before the weekend is Brighton, in Jablonec tonight. They are third on sixteen, the only team in the top five with a double-figure goal difference, and Djibril Cissé thinks they could do a Leicester (Brit Brief). Liverpool are fifth on twelve, a point below Chelsea on the last Champions League stripe and four below Sunday's visitors, so a win at Anfield would close that gap to a point. Manchester City, seven from seven, sit three clear of Arsenal. At the bottom Sunderland are last on four, a point behind Fulham and Forest.",
   teams: {
-    Liverpool: "Fifth on twelve: a point from fourth, two from sixth, and four from Brighton, who visit on Sunday.",
-    "Manchester City": "Twenty-one from seven, the only unbeaten record in the division.",
-    Arsenal: "Second, three behind City; Anfield's next league visitors after Brighton, on 1 November.",
-    Brighton: "Third on sixteen, plus eighteen on goal difference; at Jablonec on Thursday, then Anfield at 2pm on Sunday.",
-    Chelsea: "Fourth on thirteen, holding the stripe Liverpool want; at Anfield in the Carabao Cup next Wednesday.",
-    Brentford: "Sixth on ten, level with Leeds and Everton, two points under Liverpool.",
-    Leeds: "Seventh on ten; one defeat in seven.",
-    Everton: "Eighth on ten, the derby side on 29 November.",
-    "Crystal Palace": "Fourteenth on seven, still carrying the 5-0 at Brighton in their goal difference; Liverpool's hosts on 8 November.",
-    "Manchester United": "Thirteenth on seven; their women beat Liverpool's 5-3 in the Subway Players Cup on Wednesday night.",
-    Tottenham: "Sixteenth on six; at Anfield on Saturday 19 December, 5.30pm.",
-    Fulham: "Eighteenth on five, the first of the relegation places.",
+    Liverpool: "Fifth on twelve, two clear of the three sides on ten; Brighton, four points better off, are Sunday's visitors.",
+    "Manchester City": "Top on twenty-one, still perfect after seven.",
+    Arsenal: "Second on eighteen, three off City; at Anfield on 1 November.",
+    Brighton: "Third on sixteen, goal difference plus eighteen; Jablonec tonight at 5.45pm, Anfield at 2pm on Sunday.",
+    Chelsea: "Fourth on thirteen, the stripe Liverpool are chasing; Carabao Cup visitors to Anfield on 28 October.",
+    Brentford: "Sixth on ten on goal difference, the best of the three sides on ten.",
+    Leeds: "Seventh on ten.",
+    Everton: "Eighth on ten; the derby is 29 November.",
+    "Crystal Palace": "Fourteenth on seven, minus eight on goal difference after the 5-0 at Brighton; Liverpool go there on 8 November.",
+    "Manchester United": "Thirteenth on seven; at Anfield on 22 November.",
+    Tottenham: "Sixteenth on six.",
+    Fulham: "Eighteenth on five, top of the relegation places.",
     "Nott'm Forest": "Nineteenth on five.",
-    Sunderland: "Twentieth on four; Anfield on Wednesday 2 December, 7.30pm.",
+    Sunderland: "Bottom on four; at Anfield on 2 December.",
   },
 };
 // ─── Dispatches (hand-curated long reads — separate from the wire feed) ────
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "No Rush For The Best Player.",
-    byline: "The Telegraph via Football365 / TEAMtalk",
-    dateline: "Liverpool · 21 October",
+    headline: "When, Not If.",
+    byline: "Daily Mail via Empire of the Kop",
+    dateline: "Liverpool · 22 October",
     category: "Transfers",
-    body: "A day after Alexis Mac Allister scored twice to drag Liverpool back from two down, Dominic King of the Telegraph reported that the club are not in any rush to talk to him about a new contract, though he is, in King's words, their most important cog and most in-form player (Football365; TEAMtalk). The deal runs to June 2028. In September Mac Allister said the news that no extension was coming had made him very, very sad, and that there had been options to leave (AFP via eNCA). Szoboszlai and Gravenberch were extended in the summer. The midfielder is four goals into the season and, for now, nothing has changed on paper.",
+    body: "The second contract story of the week came back round to the teenager on Thursday morning. In his Liverpool Confidential column for the Daily Mail, Lewis Steele wrote that a new deal for Rio Ngumoha is a matter of when rather than if, that the eighteen-year-old's agent is in talks with the club, and that people close to him say he loves Liverpool and wants to commit his future (Empire of the Kop). Arsenal and Bayern Munich are named as interested. The current contract runs to June 2028. On Tuesday he made two goals against Villarreal; on Thursday the club's job is to make the paperwork look as easy.",
   },
   {
     n: "02",
-    headline: "Something Wasn't Right In The Group.",
-    byline: "Prime Video Sport via Empire of the Kop / Rush The Kop",
-    dateline: "Anfield · 20 October",
-    category: "Manager",
-    body: "Mac Allister had more to say on Tuesday night than the scoreline needed. Speaking to Prime Video, he described last season as a really difficult year for all of us, and admitted his own form had fallen with it. Then the line that travelled on Wednesday: something wasn't right in the group, and this manager changed it (Empire of the Kop). He did not name Arne Slot, sacked after fifth place, and he did not have to. Iraola has seven wins, three draws and one defeat from eleven games. Rush The Kop called it a swipe; it reads, as much, like a dressing room describing its own recovery.",
+    headline: "The Game Of Their Lives.",
+    byline: "BBC Sport via AOL / The Football Faithful",
+    dateline: "Jablonec · 22 October",
+    category: "Football News",
+    body: "Brighton wake up in the Czech Republic. Fabian Hürzeler told the BBC on Thursday morning that everything is fine with his squad and that, for a lot of opponents, playing Brighton might be the game of their lives (BBC Sport via AOL). Jablonec have beaten Rangers this season (BBC Sport via AOL). Kick-off is 5.45pm, and The Football Faithful expects rotation after the 5-0 over Palace, with Rutter, O'Riley, Hinshelwood and Osman pushing to start. Whatever eleven he picks tonight is the eleven he is least likely to pick at Anfield, seventy-two hours later.",
   },
   {
     n: "03",
-    headline: "Not Understood To Be Serious.",
-    byline: "Rush The Kop",
+    headline: "Who Plays At Ten.",
+    byline: "Brit Brief",
     dateline: "Kirkby · 21 October",
-    category: "Injuries",
-    body: "Wednesday afternoon's injury list was the gentlest the week has produced. Víctor Muñoz has a knee problem that is not understood to be serious, Rush The Kop reported, and could be back on Sunday. The rest is slower. Frimpong's fresh hamstring points to late November; Bradley's long knee issue to early December. Leoni has had a setback, and Iraola's arithmetic was blunt: we've lost one month in the process, which makes early January the date. Ekitike's Achilles is the same. Szoboszlai, Iraola insists, has no new injury, only the old one, and still no date. For Brighton, the list is what it was this morning.",
+    category: "Tactics",
+    body: "The selection question Iraola carries into Friday's press conference is smaller than the injury list and more interesting. Gravenberch started at ten against Villarreal, then spent the second half at right-back, and Brit Brief's late-Wednesday preview expects him to give the role back to Wirtz on Sunday, who came on at half-time and scored. That puts Gravenberch beside Mac Allister in the pivot and leaves Nyoni on the bench. Sunday is the fifth game in a run of nine in twenty-nine days, so the ten that starts against Brighton will probably not be the ten that starts against Chelsea on Wednesday.",
   },
   {
     n: "04",
-    headline: "A Bad Day At The Office.",
-    byline: "Empire of the Kop / Liverpool FC",
-    dateline: "Anfield · 20 October",
-    category: "Football News",
-    body: "Virgil van Dijk did not dress it up. The backwards header that let Georges Mikautadze in inside four minutes was his, and afterwards he called it a bad day at the office personally, before turning the question outwards: it's all about us (Empire of the Kop). The Echo gave him five. On Wednesday the Premier League's fan vote went the other way, putting him in its Team of the Week for the win at Brentford alongside Jacquet, Wirtz and Isak (Liverpool FC). The captain is thirty-five, his contract ends next summer, and the centre-back cover behind him is Joe Gomez. He starts on Sunday.",
+    headline: "Seventy-Five Per Cent.",
+    byline: "The False 9",
+    dateline: "Kirkby · 21 October",
+    category: "Injuries",
+    body: "The fantasy-football site is not a medical bulletin, but on a quiet week it is the nearest thing to one. The False 9's Wednesday table, built on the official FPL chance-of-playing figures, puts Víctor Muñoz's knee at 75 per cent for Sunday and everybody else on the list at nothing: Szoboszlai, Frimpong, Bradley, Ekitike, Leoni. Of Leoni, Iraola had already said that it is taking more time than we wanted. Muñoz missed Tuesday's squad. If he is fit, Araujo can stop being a right-back; if not, Araujo stays there.",
   },
   {
     n: "05",
-    headline: "Jablonec First, Then Anfield.",
-    byline: "SussexWorld / TEAMtalk via LiveScore / Liverpool FC",
-    dateline: "Brighton · 21 October",
+    headline: "Doing A Leicester.",
+    byline: "Brit Brief / Liverpool.com",
+    dateline: "Liverpool · 22 October",
     category: "Race for Europe",
-    body: "Brighton's week runs through the Czech Republic. They play Jablonec at 5.45pm on Thursday with six players out, SussexWorld reported, Mitoma, Ferguson, Tzimas, Minteh, Yohanna and Wieffer among them, though Wieffer, left out of the Conference League squad, could be an option at Anfield. Struijk has a thigh injury. Off the pitch, TEAMtalk says Yasin Ayari's contract talks have stalled, with Chelsea and Galatasaray watching. Sam Barrott referees on Sunday, with Michael Oliver on VAR (Liverpool FC). Brighton are third and four points better off than Liverpool. A win would close the gap to a point.",
+    body: "Djibril Cissé has a sense of occasion. In the early hours of Thursday he said there is a real opportunity for Liverpool this year, that anyone can beat anyone, and that Brighton, Sunday's visitors, could do a Leicester (Brit Brief; Liverpool.com). The numbers he was reaching for are real: six straight wins in all competitions, twenty-three league goals in seven, third on sixteen. Liverpool are four points behind them. Leicester in 2016 were a story about a season, not a Sunday, but a win at Anfield would close the gap to a point.",
   },
 ];
 export const NEWS_DIGEST = {
-  generatedAt: "2026-10-21T22:30:00Z",
-  summary: "As of Wednesday evening, the contract story at Liverpool is Alexis Mac Allister's: the Telegraph's Dominic King reports the club are 'not in any rush' to open talks with the midfielder he calls their most in-form player, a day after his two goals beat Villarreal; his deal runs to June 2028 (Football365; TEAMtalk; Empire of the Kop). Mac Allister himself told Prime Video that 'something wasn't right in the group' last season and that 'this manager changed it' (Empire of the Kop). Van Dijk called his own night 'a bad day at the office' (Empire of the Kop), while Rush The Kop's afternoon injury list says Muñoz's knee is not understood to be serious and that Leoni has suffered a setback. Sam Barrott will referee Sunday's 2pm game against Brighton, with Michael Oliver on VAR (Liverpool FC). Brighton go to Jablonec on Thursday with six players out (SussexWorld), and Liverpool Women lost 5-3 to Manchester United on Wednesday night (Liverpool FC).",
+  generatedAt: "2026-10-22T08:30:00Z",
+  summary: "As of Thursday morning, the Daily Mail's Lewis Steele says a new contract for Rio Ngumoha is 'a matter of when, not if', with the eighteen-year-old's agent in talks and sources close to him saying he 'loves the club and wants to commit his long-term future' despite interest from Arsenal and Bayern Munich; his deal runs to June 2028 (Empire of the Kop). Brighton, Sunday's 2pm visitors, play Jablonec in the Conference League at 5.45pm tonight, Fabian Hürzeler telling BBC Sport that 'for a lot of opponents, playing us might be the game of their lives', and The Football Faithful expects him to rotate. At Liverpool, Brit Brief expects Wirtz to take the ten back from Gravenberch, and the official FPL site rates Muñoz's knee at 75 per cent (The False 9). Djibril Cissé says Liverpool can win the title but warns that Brighton could 'do a Leicester' (Brit Brief), and the club have set Monday 26 October for All Red registration for home league games from January (Liverpool FC).",
   keyTopics: [
     {
-      title: "'Not In Any Rush': Liverpool Hold Off On Mac Allister Talks (Telegraph via Football365 / TEAMtalk, today)",
+      title: "'A Matter Of When, Not If': Steele On Ngumoha's New Deal (Daily Mail via Empire of the Kop, today)",
       category: "transfers",
-      detail: "Reported on Wednesday morning by Dominic King of the Telegraph: Liverpool are 'not in any rush to start talking about new contracts' with Mac Allister despite calling him 'the most important cog and most in-form player' (Empire of the Kop; Football365). His contract runs to June 2028 (Football365; TEAMtalk). In September he said the club's position made him 'very, very sad' (AFP via eNCA).",
+      detail: "Published early on Thursday from Lewis Steele's Liverpool Confidential Q&A in the Daily Mail: 'The 18-year-old's agent is in talks with Liverpool over renewing his contract and there is no reason for fans to worry' (Empire of the Kop). Arsenal and Bayern Munich are named as interested. His current deal runs to June 2028; Capology lists his wage at £35,000 a week, and Transfermarkt has him in nine of Liverpool's eleven games this season, five as a starter (Empire of the Kop).",
     },
     {
-      title: "Women Beaten 5-3 By United; Elliott 'More Refined' At Valencia (Liverpool FC / Rush The Kop, today)",
-      category: "general",
-      detail: "On Wednesday night at St Helens, Liverpool Women lost 5-3 to Manchester United in the Subway Players Cup despite a hat-trick from substitute Cornelia Kapocs; Gareth Taylor: 'We gave away too many goals' (Liverpool FC). In Spain, Valencia's Javier Aguirre said of the on-loan Harvey Elliott, 'I see him more refined' (Rush The Kop).",
-    },
-    {
-      title: "Barrott To Referee Brighton, Oliver On VAR (Liverpool FC, today)",
+      title: "Hürzeler: 'The Game Of Their Lives' Before Jablonec (BBC Sport via AOL, today)",
       category: "matches",
-      detail: "Confirmed on Wednesday evening: Sam Barrott referees Sunday's game at Anfield, assisted by Adam Nunn and Wade Smith, with David Webb fourth official and Michael Oliver on VAR, assisted by Lee Betts (Liverpool FC).",
+      detail: "Published at 7am UK time on Thursday: asked about his squad before tonight's 5.45pm Conference League game in Jablonec, Hürzeler said 'everything is fine' and 'We know we have to play at our highest level' (BBC Sport via AOL). The Football Faithful's Thursday-morning preview expects changes after the 5-0 over Palace, with Costinha, Svoboda, Hinshelwood, O'Riley, Osman and Rutter pushing to start (The Football Faithful via Yahoo Sports).",
     },
     {
-      title: "Muñoz 'Not Serious'; Leoni's Setback Costs A Month (Rush The Kop, today)",
-      category: "injuries",
-      detail: "Rush The Kop's injury list, published on Wednesday afternoon: Muñoz's knee 'is not understood to be serious' and he could be back on Sunday; Frimpong late November; Bradley early December; Ekitike and Leoni early January, Iraola saying of Leoni 'we've lost one month in the process'. Of Szoboszlai, Iraola said: 'He's not a new injury.'",
+      title: "Cissé: Liverpool Can Win It, But Brighton Could 'Do A Leicester' (Brit Brief, today)",
+      category: "general",
+      detail: "Published in the early hours of Thursday: Djibril Cissé said 'There's a real opportunity this year' and 'anyone can beat anyone', and warned that Brighton, six straight wins in all competitions and twenty-three league goals in seven, could mount a Leicester-style challenge (Brit Brief). Of Wirtz: 'he's a player you have to keep in your squad because he's magnificent'.",
     },
     {
-      title: "Six In A Row Against Spanish Sides (Rush The Kop, today)",
+      title: "Quansah's Leverkusen Stay 'Highly Unrealistic' (Bulinews via Sport Bild, today)",
+      category: "transfers",
+      detail: "Back on the wires on Thursday morning: Sport Bild calls Jarell Quansah staying at Leverkusen beyond next summer 'highly unrealistic', with Real Madrid now named alongside Chelsea, Arsenal and Liverpool (Bulinews). Liverpool sold him for €35 million in 2025 and hold a €70 million buy-back option next summer; Leverkusen turned down a €65 million Arsenal bid in the summer, and his contract runs to 2030.",
+    },
+    {
+      title: "Wirtz Back To Ten, Gravenberch Back To The Pivot (Brit Brief, last night)",
       category: "tactics",
-      detail: "Counted on Wednesday: Villarreal was Liverpool's sixth straight Champions League win over a LaLiga club, after Atlético Madrid, Real Madrid twice, Atlético again and Girona, five of the six at Anfield (Rush The Kop). Iraola made six changes for the game.",
+      detail: "Published late on Wednesday: Brit Brief expects Gravenberch, who started at ten against Villarreal, to give way there to Wirtz on Sunday, the fifth of nine games in twenty-nine days. The same preview lists Szoboszlai, Frimpong, Bradley and Ekitike out, Muñoz unconfirmed after missing Tuesday, and Leoni expected back in training during next month's international break.",
     },
     {
-      title: "Van Dijk: 'A Bad Day At The Office Personally' (Empire of the Kop, today)",
+      title: "Muñoz At 75 Per Cent On The Official FPL Site (The False 9, yesterday)",
+      category: "injuries",
+      detail: "Wednesday's Brighton injury table from The False 9, using the official FPL chance-of-playing figures: Muñoz (knee) 75 per cent; Szoboszlai, Frimpong, Bradley, Ekitike and Leoni 0 per cent. On Leoni, The False 9 carries Iraola's line 'It is taking more time than we wanted'. On Monday Iraola said Szoboszlai was 'more or less in the same situation he was last week' (Daily Cannon via Yahoo Sports).",
+    },
+    {
+      title: "Iraola On Ngumoha: 'Very Difficult To Stop' (DaveOCKOP, yesterday)",
+      category: "tactics",
+      detail: "Published on Wednesday: Iraola said 'There was a moment offensively where he was very difficult to stop', and Ngumoha said of becoming Liverpool's youngest Champions League assist-maker, 'for me to get that record is something special' (DaveOCKOP). AnfieldWatch, in LiveScore's Thursday round-up, argues that his direct running gives the right side the outlet Araujo's lack of overlap does not.",
+    },
+    {
+      title: "All Red Registration Opens Monday For January Onwards (Liverpool FC, yesterday)",
       category: "general",
-      detail: "Published on Wednesday afternoon: Van Dijk said of the header that led to Mikautadze's early goal, 'I tried but it was a bad day at the office personally', adding 'It's all about us.' The Liverpool Echo rated him five out of ten (Empire of the Kop).",
+      detail: "Confirmed on Wednesday: registration for home league games from January opens at 2pm GMT on Monday 26 October and closes at 10am on Monday 2 November; members on thirteen or more credits from last season skip it and go into the guaranteed sale in the week of 9 November (Liverpool FC).",
     },
     {
-      title: "Brighton Go To Jablonec With Six Out (SussexWorld, today)",
-      category: "matches",
-      detail: "Reported on Wednesday lunchtime: Brighton play Jablonec in the Conference League at 5.45pm on Thursday without Ferguson, Tzimas, Mitoma, Yohanna, Minteh and Wieffer, the last two left out of the European squad; Wieffer could be an option at Anfield. Struijk (thigh) and Azeez are doubts (SussexWorld).",
-    },
-    {
-      title: "Ayari's Brighton Contract Talks Stall (TEAMtalk via LiveScore, today)",
-      category: "matches",
-      detail: "In Wednesday's Brighton round-up: Chelsea and Galatasaray are tracking Yasin Ayari after his contract talks with Brighton stalled (TEAMtalk via LiveScore). Ayari scored in Sunday's 5-0 against Crystal Palace.",
-    },
-    {
-      title: "Mac Allister: 'This Manager Changed It' (Prime Video via Empire of the Kop / Rush The Kop, today)",
+      title: "Ramos Is Player Of The Month; Taylor: 'Angry Is Good' (Liverpool FC, yesterday)",
       category: "general",
-      detail: "Picked up on Wednesday from his Prime Video interview after Villarreal: 'Something wasn't right in the group. This manager changed it, and that's really important,' and 'Last year was a really difficult year for all of us' (Empire of the Kop). He did not name Arne Slot; Rush The Kop read it as a swipe at the previous regime.",
-    },
-    {
-      title: "Nyoni: 'All Part Of The Process' (Liverpool FC, today)",
-      category: "general",
-      detail: "From the club's interview after his first Anfield Champions League start, published on Wednesday: 'I've had to wait but I feel like it's all part of the process,' Nyoni said, and of Mac Allister, 'He's one of the senior players that really pushes me' (Liverpool FC).",
+      detail: "Announced on Wednesday: Natalia Ramos is LFC Women's Player of the Month for September after playing in all six games; 'I feel like home here,' she said. In his column before the cup defeat to United, Gareth Taylor wrote of the 2-1 loss at Aston Villa: 'The players were angry after the game and angry is good' (Liverpool FC).",
     },
   ],
   sources: [
-    "The Telegraph",
-    "Football365",
-    "TEAMtalk",
+    "Daily Mail",
     "Empire of the Kop",
-    "AFP",
-    "eNCA",
-    "Rush The Kop",
-    "Liverpool FC",
-    "SussexWorld",
+    "Capology",
+    "Transfermarkt",
+    "BBC Sport",
+    "AOL",
+    "The Football Faithful",
+    "Yahoo Sports",
+    "Brit Brief",
+    "Bulinews",
+    "Sport Bild",
+    "The False 9",
+    "Daily Cannon",
+    "DaveOCKOP",
+    "AnfieldWatch",
     "LiveScore",
+    "Liverpool FC",
   ],
 };
 // ─────────────────────────────────────────────────────────────────────────────
@@ -1141,7 +1147,7 @@ export const NEWS_DIGEST = {
 // next edition and then into the auditor's blind spot.
 
 export const OPPOSITION = {
-  generatedAt: "2026-10-21T22:30:00Z",
+  generatedAt: "2026-10-22T08:30:00Z",
   opponent: "Brighton",
   shortName: "Brighton",
   fixture: {
@@ -1154,8 +1160,8 @@ export const OPPOSITION = {
   manager: "Fabian Hürzeler",
   formation: "4-2-3-1",
   leaguePosition: 3,
-  summary: "Brighton's Wednesday was spent on their injury list and a contract: they go to Jablonec in the Conference League at 5.45pm on Thursday with six players out (SussexWorld), and TEAMtalk reports that Yasin Ayari's contract talks have stalled with Chelsea and Galatasaray tracking him (TEAMtalk via LiveScore). On the pitch they are third on sixteen with the league's best goal difference, plus eighteen (ESPN), after four league wins in a row without conceding. The last was Sunday's 5-0 against Crystal Palace, three up inside ten minutes, with Diego Gómez scoring from fifty-one yards and Ayari, Kostoulas and Hinshelwood also on the sheet (WeAreBrighton.com via LiveScore). Their European campaign began with a 4-0 over Žalgiris (VAVEL). Sam Barrott referees at Anfield, Michael Oliver on VAR (Liverpool FC).",
-  shape: "On Squawka's sheet it is a 4-2-3-1, but in possession the full-backs push high and Gross drops between or beside the centre-backs to start the play, leaving Chema Andrés to screen. Gómez floats off the left of Kostoulas while Ayari and De Cuyper attack the spaces outside him. The pattern that hurts Liverpool is the one Villarreal used in the first half on Tuesday: a third runner arriving behind the right-sided defenders while the first two hold them.",
+  summary: "Brighton spend Thursday in the Czech Republic: Hürzeler told BBC Sport that 'everything is fine' with his squad before tonight's 5.45pm Conference League game at Jablonec, and that for many opponents a game against Brighton 'might be the game of their lives' (BBC Sport via AOL). The Football Faithful expects him to rotate after the 5-0 over Palace, with Rutter, O'Riley, Hinshelwood and Osman pushing to start. They come to Anfield third on sixteen with the league's best goal difference, plus eighteen (ESPN), on six straight wins in all competitions and twenty-three league goals in seven (Brit Brief). Djibril Cissé thinks they could do a Leicester (Brit Brief). Their league defence has not conceded in four games (Squawka), and Sam Barrott referees on Sunday (Liverpool FC).",
+  shape: "Squawka's 4-2-3-1 becomes a two-man build in possession: Gross drops beside the centre-backs, Chema Andrés holds, and both full-backs go high. That is why tonight's rotation matters, because if Costinha and O'Riley start in Jablonec, the first-choice full-back and Gross are fresher for Anfield (The Football Faithful). Up front Gómez drifts inside from the left of Kostoulas and Ayari arrives late, and the run that hurts Liverpool is the third man behind the right-sided centre-back while the first two pin the full-back.",
   keyPlayers: [
     {
       name: "Charalampos Kostoulas",
@@ -1202,8 +1208,8 @@ export const OPPOSITION = {
     { name: "Yankuba Minteh", issue: "Leg injury, making progress; not in the Conference League squad (SussexWorld).", status: "Out" },
     { name: "Zadok Yohanna", issue: "Building fitness; not in the Conference League squad (SussexWorld).", status: "Out" },
     { name: "Mats Wieffer", issue: "Knee, from the defeat at Chelsea; left out of the Conference League squad, but Liverpool could be an option (SussexWorld).", status: "Doubt" },
-    { name: "Pascal Struijk", issue: "Thigh, missed the Palace win; a doubt for Thursday (SussexWorld).", status: "Doubt" },
-    { name: "Femi Azeez", issue: "'Getting closer', Hürzeler says; Thursday likely too soon (SussexWorld).", status: "Doubt" },
+    { name: "Pascal Struijk", issue: "Thigh, missed the Palace win; a minor problem, should be back soon (The Football Faithful).", status: "Doubt" },
+    { name: "Femi Azeez", issue: "Still being eased back (The Football Faithful); Hürzeler: 'No big issue' (Anfield Index via Yahoo Sports).", status: "Doubt" },
   ],
   recentForm: [
     {
@@ -1239,7 +1245,7 @@ export const OPPOSITION = {
       note: "Still the only league defeat on Arsenal's record (Squawka; ESPN).",
     },
   ],
-  liverpoolAngle: "Brighton's best route is Liverpool's least settled flank. Araujo was withdrawn on Tuesday for tracking problems, Frimpong is out to late November and Bradley to early December (Rush The Kop), so the right-back on Sunday will be Araujo, Gomez or, if his knee clears, Muñoz. Liverpool have also conceded first too often to be comfortable against a defence that has let in five league goals in seven (Squawka), and Van Dijk, by his own account, had a bad day at the office on Tuesday (Empire of the Kop). The counterweight is Brighton's Thursday night in the Czech Republic, against a Liverpool side that rested Isak, Wirtz, Barcola and Kerkez with this game in mind.",
+  liverpoolAngle: "The flank Brighton will aim at is still Liverpool's right. Frimpong is out to late November and Bradley to early December, Muñoz is rated 75 per cent on the official FPL site (The False 9), and Araujo, a centre-back by trade, was withdrawn on Tuesday because he was uncomfortable tracking runners (Liverpool FC). Liverpool's first halves are the other opening: they were two down by 28:08 against Villarreal (Opta Analyst). The counterweight is the calendar, Brighton in Jablonec tonight while Isak, Wirtz, Barcola and Kerkez were spared Tuesday for this game, and Ngumoha, if he starts on the right as The False 9 predicts, gives that side the outlet Araujo's lack of overlap does not (AnfieldWatch via LiveScore).",
   modelLine: {
     source: "Squawka Signal",
     liverpool: 33,
@@ -1260,19 +1266,27 @@ export const OPPOSITION = {
     "Liverpool FC",
     "Rush The Kop",
     "Empire of the Kop",
+    "BBC Sport",
+    "AOL",
+    "The Football Faithful",
+    "Brit Brief",
+    "The False 9",
+    "Opta Analyst",
+    "AnfieldWatch",
+    "Anfield Index",
   ],
 };
 export const FORM_TRENDS = {
-  generatedAt: "2026-10-21T22:30:00Z",
+  generatedAt: "2026-10-22T08:30:00Z",
   competition: "PL",
   played: 7,
-  headline: "Mac Allister is where the numbers and the reporting meet this evening: four goals this season, two of them on Tuesday (Empire of the Kop), and now the subject of a Telegraph report that Liverpool are in no hurry to extend him. Iraola's record from eleven games is seven wins, three draws and one defeat, and the Champions League run over Spanish sides is six straight (Rush The Kop). Under it, the league totals still read 9.94 expected goals for and 8.07 against from seven, a margin that is real but thin. Tuesday finished 2.37 to 1.58 (Opta Analyst), after a first half Liverpool lost 1.12 to 0.83 (Sofascore).",
+  headline: "Ngumoha is where this morning's reporting and the numbers meet: two assists against Villarreal, the youngest Liverpool player to assist in the Champions League and the third-youngest to make more than one in a game (DaveOCKOP), and now, says the Daily Mail, close to a new contract. The league picture he plays into is narrower than the European one: 9.94 expected goals for and 8.07 against from seven games, a positive margin but a thin one. Brighton arrive with twenty-three league goals in seven (Brit Brief), and Sunday is the fifth of nine games in twenty-nine days (Brit Brief), the kind of stretch in which Liverpool's first halves have already gone wrong.",
   diagnosis: [
     {
-      label: "Mac Allister carrying the midfield",
+      label: "Ngumoha giving the right side an outlet",
       severity: "positive",
-      source: "Empire of the Kop / Liverpool FC / Opta Analyst",
-      detail: "Two goals against Villarreal, both from midfield, take him to four for the season (Empire of the Kop); Nyoni, beside him, says he is one of the senior players who really pushes him (Liverpool FC). With Szoboszlai out, the pivot runs through him.",
+      source: "DaveOCKOP / AnfieldWatch via LiveScore",
+      detail: "Two assists against Villarreal, and Iraola's verdict that 'there was a moment offensively where he was very difficult to stop' (DaveOCKOP). AnfieldWatch argues his direct running supplies the width Araujo, a centre-back at right-back, does not (via LiveScore).",
     },
     {
       label: "First halves still the weak spell",
@@ -1289,8 +1303,8 @@ export const FORM_TRENDS = {
     {
       label: "Right-back by elimination",
       severity: "high",
-      source: "Rush The Kop / Liverpool FC",
-      detail: "Frimpong late November, Bradley early December (Rush The Kop), Araujo taken off for tracking problems on Tuesday (Liverpool FC), Muñoz's knee not serious but unconfirmed for Sunday (Rush The Kop).",
+      source: "The False 9 / Liverpool FC",
+      detail: "Frimpong and Bradley at 0 per cent and Muñoz at 75 on the official FPL site (The False 9); Araujo, taken off on Tuesday for tracking problems (Liverpool FC), is the default if Muñoz is not passed fit.",
     },
   ],
 
@@ -1475,11 +1489,12 @@ export const FORM_TRENDS = {
     note: "Premier League only, seven games. xG for is 2.73 (Newcastle) plus 1.61 (Forest) plus 0.53 (Ipswich) plus 1.13 (Fulham) plus 1.57 (Bournemouth) plus 0.86 (City) plus 1.51 (Brentford); xG against is 1.43 plus 2.30 plus 0.72 plus 0.71 plus 0.76 plus 1.30 plus 0.85. The Brentford figures are FotMob's, reported by SI, and the City card's 1.30 is Sofascore's; Opta's own figures replace them when published. Provenance caveat from 21 September stands: Opta's published season expected-goals-against figure through five games was 6.12 rather than the 5.92 those per-match cards summed to. Champions League and Carabao Cup cards are shown but not aggregated. First-half splits exist only for Forest, Tottenham and City and are not aggregated.",
   },
   optaFacts: [
-    "Villarreal was Liverpool's sixth straight Champions League win over a LaLiga side, five of them at Anfield (Rush The Kop).",
-    "Ngumoha is the youngest player to assist a Champions League goal for Liverpool, at eighteen years and fifty-two days (Rush The Kop).",
-    "Ngumoha won eight duels against Villarreal (BBC, via Empire of the Kop).",
-    "Iraola's first eleven games: seven wins, three draws, one defeat (Empire of the Kop; RESULTS).",
+    "Ngumoha is the third-youngest player to make more than one assist in a Champions League match, behind Zaïre-Emery and Walcott (DaveOCKOP).",
+    "Ngumoha has played in nine of Liverpool's eleven games this season and started five (Transfermarkt via Empire of the Kop).",
+    "Brighton have won six straight in all competitions and scored twenty-three league goals in seven (Brit Brief).",
+    "Sunday is the fifth game of nine in twenty-nine days (Brit Brief).",
   ],
+
   sources: [
     "Opta Analyst",
     "Sofascore",
@@ -1520,19 +1535,22 @@ export const FORM_TRENDS = {
     "FootballTransfers",
     "Yardbarker",
     "Premier Injuries",
+    "DaveOCKOP",
+    "Transfermarkt",
+    "The False 9",
   ],
 };
 export const SQUAD_LOAD = {
-  generatedAt: "2026-10-21T22:30:00Z",
-  headline: "Wednesday afternoon's news from the medical room was a nudge in the right direction and a step back elsewhere. Muñoz's knee is not understood to be serious and Sunday is possible (Rush The Kop), which would ease the right-back problem; Leoni, though, has had a setback that Iraola says cost a month, pushing him to early January. No new injury has been reported from Tuesday, and Isak, Wirtz, Barcola and Kerkez were rested with Brighton in mind.",
+  generatedAt: "2026-10-22T08:30:00Z",
+  headline: "No new injury has been reported since Tuesday, and Thursday's numbers are fantasy-site numbers: the official FPL chance-of-playing figures put Muñoz at 75 per cent and Szoboszlai, Frimpong, Bradley, Ekitike and Leoni at nothing (The False 9). Brit Brief expects Leoni back in training during next month's international break, which is a training date, not a playing one. With Sunday the fifth of nine games in twenty-nine days (Brit Brief), the question for the closed squad is how many of Tuesday's rested four Iraola can keep fresh for Chelsea on Wednesday.",
   minutesNote: "Premier League minutes are not published here yet. Seven league games, three Champions League games and one Carabao Cup tie have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   unavailable: [
     {
       name: "Dominik Szoboszlai",
       issue: "Hamstring, a recurrence of the problem he brought back from Hungary duty",
       expected: "Premier Injuries' tracker gives 1 November, the Arsenal game; Rush The Kop's Wednesday list gives no date",
-      note: "Missed Villarreal (SI). Iraola: 'He's not a new injury' (Rush The Kop), the old hamstring rather than a fresh one. Ruled out of Brighton (Premier Injuries).",
-      source: "Premier Injuries / Evening Standard via Ghanamma / SI",
+      note: "Missed Villarreal (SI); 0 per cent for Brighton on the official FPL site (The False 9). Iraola, Monday: 'more or less in the same situation he was last week' (Daily Cannon via Yahoo Sports). Arsenal on 1 November is the aim.",
+      source: "Premier Injuries / The False 9 / Daily Cannon via Yahoo Sports / SI",
     },
     {
       name: "Jeremie Frimpong",
@@ -1552,8 +1570,8 @@ export const SQUAD_LOAD = {
       name: "Giovanni Leoni",
       issue: "ACL (September 2025)",
       expected: "Early January after a setback (Rush The Kop); Premier Injuries 2 January",
-      note: "Iraola: 'we've lost one month in the process' (Rush The Kop). Gomez remains the only senior centre-back cover.",
-      source: "Liverpool FC / Brit Brief / Premier Injuries / Evening Standard",
+      note: "Brit Brief expects him back in training during November's international break; a playing return stays in early January. Gomez remains the only senior centre-back cover.",
+      source: "Rush The Kop / Brit Brief / Premier Injuries",
     },
     {
       name: "Conor Bradley",
@@ -1567,9 +1585,9 @@ export const SQUAD_LOAD = {
     {
       name: "Victor Munoz",
       issue: "Knee problem after several knocks at the Gtech",
-      status: "Knee 'not understood to be serious', Sunday a possible return (Rush The Kop); 50 per cent on Premier Injuries",
-      note: "Three trackers now point at Sunday (Rush The Kop; Brit Brief; Premier Injuries). No club bulletin; held out of the predicted XI until Iraola's Friday press conference.",
-      source: "Rush The Kop / Brit Brief / Premier Injuries",
+      status: "75 per cent on the official FPL site (The False 9); knee 'not understood to be serious' (Rush The Kop)",
+      note: "Not in The False 9's XI or Squawka's. No club bulletin; held out of the predicted XI until Iraola's Friday press conference.",
+      source: "The False 9 / Rush The Kop",
     },
     {
       name: "Alexander Isak",
@@ -1643,7 +1661,7 @@ export const SQUAD_LOAD = {
     {
       position: "Right-back",
       level: "critical",
-      detail: "Critical. Frimpong late November and Bradley early December (Rush The Kop); Muñoz's knee is not serious but unconfirmed for Sunday; Araujo is fit but was taken off on Tuesday for tracking problems (Liverpool FC); Gomez is the only other senior option. No market until January.",
+      detail: "Critical. Frimpong and Bradley 0 per cent, Muñoz 75 per cent on the official FPL site (The False 9); Araujo is fit but a centre-back by trade, withdrawn on Tuesday for tracking problems (Liverpool FC); Gomez the only other senior option. No market until January.",
     },
     {
       position: "Central midfield",
@@ -1653,7 +1671,7 @@ export const SQUAD_LOAD = {
     {
       position: "Centre-back",
       level: "high",
-      detail: "High. Van Dijk and Jacquet, with Gomez the only senior cover; Leoni's setback moves him to early January (Rush The Kop). Van Dijk's error made Villarreal's opener (Empire of the Kop).",
+      detail: "High. Van Dijk and Jacquet, with Gomez the only senior cover; Leoni may train in November but plays in January at the earliest (Brit Brief; Rush The Kop).",
     },
     {
       position: "Centre-forward",
@@ -1686,16 +1704,18 @@ export const SQUAD_LOAD = {
     "Roundtable via Yahoo Sports",
     "YSscores",
     "Squawka",
+    "The False 9",
+    "Daily Cannon via Yahoo Sports",
   ],
 };
 export const SEASON_PROJECTION = {
-  generatedAt: "2026-10-21T22:30:00Z",
+  generatedAt: "2026-10-22T08:30:00Z",
   played: 7,
   points: 12,
   pointsPerGame: 1.71,
   projectedPoints: 65,
   projectedFinish: "Europa League places on current pace",
-  headline: "The pace is unchanged on Wednesday evening, as it must be between league weekends: twelve points from seven, 1.71 a game, sixty-five over a season on ESPN's table. That is fifth-place form, and three points short of the usual Champions League par. Seven games is a small sample and this is a pace, not a forecast; Brighton on Sunday is the first of three fixtures that will move it.",
+  headline: "Thursday's arithmetic is Wednesday's: twelve points from seven on ESPN's table, 1.71 a game, a pace of sixty-five. That is three short of the usual Champions League par and five clear of the Europa line, and seven matches remain too few to call it more than a pace. Brighton, the team Cissé says could do a Leicester (Brit Brief), are the first of the three fixtures that will move it.",
   thresholds: [
     {
       label: "Champions League (top 4)",
@@ -1773,6 +1793,6 @@ export const SEASON_PROJECTION = {
       difficulty: "easy",
     },
   ],
-  runInVerdict: "Third, second, fourteenth: Brighton and Arsenal at Anfield, then Palace away. Seven points from those nine would lift the pace to about 1.90 a game and clear the fourth-place par; one point would drop it to about 1.30 and leave the Europa stripe exposed to the three sides on ten. The four players Iraola rested on Tuesday (Liverpool FC) were rested for the first of the three.",
+  runInVerdict: "Brighton third, Arsenal second, then Palace fourteenth, the first two at Anfield. A win on Sunday alone would lift the pace to about 1.88 a game and draw Liverpool to within a point of Brighton; defeat would leave them seven behind and exposed to the three sides on ten, any of whom would pass them with a win. The Chelsea cup tie sits between Brighton and Arsenal, which is why Iraola's rotation on Sunday matters as much as the result.",
   sources: ["ESPN", "Liverpool FC", "Empire of the Kop"],
 };
