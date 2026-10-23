@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday evening, and the training ground has done the talking: Víctor Muñoz missed another
-          session with a sore knee, and Bradley Barcola worked alone, a precaution, the Echo says.
-          Fifth on twelve, Liverpool have three days until Brighton, who were held goalless in
-          Jablonec tonight with most of Sunday's eleven left at rest.
+          Friday morning, and the numbers do the arguing: Liverpool have not won a league game
+          at Anfield since April, and Florian Wirtz, who has made more chances than anyone in the
+          league, plays in a side sixteenth for expected goals. Fifth on twelve, they meet
+          third-placed Brighton on Sunday afternoon, with Opta's computer still making them favourites.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,27 +606,27 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the injury list reads as a timetable. Sky Sports' man at the training ground counted
-              Muñoz out again with a knock on the knee and Barcola away from the group on a recovery
-              programme, and his colleagues now expect Szoboszlai to miss not only Brighton but Chelsea
-              and Arsenal too. In the Czech Republic, Brighton changed eight players, had twenty-six
-              shots and scored none, which ended a winning run and left their best eleven fresh for
-              Anfield. Their manager, meanwhile, is wanted in Manchester, or so The Telegraph says.
-              Iraola speaks on Friday afternoon, and the only question that matters is who plays
-              right-back. A short squad gets shorter in the evenings.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              and Anfield has a habit to break. Five league games there since the spring have brought
+              four draws and a defeat, a run Opta says has been worse only twice, and Brighton arrive
+              on Sunday having won four in a row by fifteen goals to none before their reserves stalled
+              in Jablonec. Sky Sports spent the small hours on Florian Wirtz, the £116 million playmaker
+              who leads the league for chances made and has yet to make many clear ones. The
+              supercomputer, unmoved, still makes Liverpool favourites. Iraola speaks at half past one,
+              and will be asked about Muñoz's knee and Barcola's precaution before anyone mentions the
+              ten. A home ground is only an advantage if it is used as one.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: a knock and a
-              precaution at Kirkby; Brighton's goalless night in Jablonec; the other
-              manager's week; a midfielder Liverpool are interested in; and Klopp,
-              still not ready to talk about Diogo Jota. Seven league games have brought twelve points
-              and a single defeat, and with the squad closed until January, Sunday's
-              eleven comes from the same short list as Tuesday's.
+              five dispatches from the writers who never clock off: the playmaker's
+              ledger; five home league games without a win; Hürzeler on the basics;
+              a contract nobody is rushing and an option that may be taken; and the
+              Friday question at Kirkby. Twelve points from seven league games, one defeat,
+              and no market until January: Sunday's eleven is chosen from the list
+              Iraola already has.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3837,7 +3837,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Twenty-six shots, nothing."
+        "Anfield, waiting since April."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
