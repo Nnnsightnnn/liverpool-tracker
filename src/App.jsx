@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday morning, and the numbers do the arguing: Liverpool have not won a league game
-          at Anfield since April, and Florian Wirtz, who has made more chances than anyone in the
-          league, plays in a side sixteenth for expected goals. Fifth on twelve, they meet
-          third-placed Brighton on Sunday afternoon, with Opta's computer still making them favourites.
+          Friday evening, and Iraola has done Sunday's arithmetic aloud: Barcola trained and is fine,
+          Szoboszlai is out, and Muñoz, in his manager's word, is difficult. Fifth on twelve and still
+          without a home league win this season, Liverpool meet third-placed Brighton at two o'clock,
+          with Gravenberch, Iraola says, able to do a job at right-back if he is needed there.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,27 +606,26 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and Anfield has a habit to break. Five league games there since the spring have brought
-              four draws and a defeat, a run Opta says has been worse only twice, and Brighton arrive
-              on Sunday having won four in a row by fifteen goals to none before their reserves stalled
-              in Jablonec. Sky Sports spent the small hours on Florian Wirtz, the £116 million playmaker
-              who leads the league for chances made and has yet to make many clear ones. The
-              supercomputer, unmoved, still makes Liverpool favourites. Iraola speaks at half past one,
-              and will be asked about Muñoz's knee and Barcola's precaution before anyone asks about
-              Wirtz. A home ground is only an advantage if it is used as one.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the list is shorter by one doubt and longer by one absence. Bradley Barcola, whose solo
+              session on Thursday had the previews hedging, trained normally on Friday and is, in
+              Iraola's words, fine with no problem; Dominik Szoboszlai is not, and misses Brighton with
+              the hamstring that has kept him from the group since Brentford. Víctor Muñoz is the maybe,
+              a knee his manager calls difficult and then admits he cannot read. Asked about Anfield,
+              Iraola did not argue: it is true, he said, that Liverpool have not won at home in the
+              league. In Sussex, Hürzeler was explaining that Wirtz is too good to be stopped by
+              one man. Sunday finds out whether he can be stopped by eleven.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: the playmaker's
-              ledger; five home league games without a win; Hürzeler on the basics;
-              a contract nobody is rushing and an option that may be taken; and the
-              Friday question at Kirkby. Twelve points from seven league games, one defeat,
-              and no market until January: Sunday's eleven is chosen from the list
-              Iraola already has.
+              five dispatches from the writers who never clock off: two answers and a
+              maybe at Kirkby; a midfielder at right-back; Hürzeler's plan for Wirtz;
+              the home win still missing; and January's short list. Twelve points from
+              seven league games and no market until January: Szoboszlai's place is
+              filled from inside the building.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3837,7 +3836,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Anfield, waiting since April."
+        "Stopped as a team, or not at all."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
