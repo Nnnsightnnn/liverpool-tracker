@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Fri Oct 23, evening - Named by Iraola on Friday as a senior player the youngsters should watch (Liverpool FC); five in his last five league games (Opta Analyst) and expected to start.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Fri Oct 23, evening - Named by Iraola on Friday as a senior player the youngsters should watch (Liverpool FC); five in his last five league appearances (Opta Analyst) and expected to start.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -934,7 +934,8 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-10-23 (Friday morning, ~4am ET). Byte-identical to Thursday evening; matchweek eight is still to start.
+// Last refresh: 2026-10-23 (Friday evening, ~6pm ET). Ipswich 1-1 Nott'm Forest (ESPN scoreboard) opened matchweek eight: Forest 19th to 16th, Coventry 17th to 18th (REL), Ipswich 10th to 9th.
+// Prior refresh: 2026-10-23 (Friday morning, ~4am ET). Byte-identical to Thursday evening; matchweek eight is still to start.
 // Prior refresh: 2026-10-22 (Thursday evening, ~6pm ET). Byte-identical to Thursday morning; Brighton's 0-0 in Jablonec was a Conference League game.
 // Prior refresh: 2026-10-22 (Thursday morning, ~4am ET). Byte-identical to Wednesday evening; matchweek eight starts on Saturday.
 // Prior refresh: 2026-10-21 (Wednesday evening, ~6pm ET). Byte-identical to Wednesday morning; matchweek eight starts on Saturday.
@@ -1010,7 +1011,7 @@ export const STANDINGS_COMMENTARY = {
   "teams": {
     "Liverpool": "Fifth on twelve, without a home league win this season, as Iraola conceded on Friday; Brighton at Anfield on Sunday.",
     "Manchester City": "Top on twenty-one, seven from seven.",
-    "Arsenal": "Second on eighteen; Liverpool's next home visitors on 1 November.",
+    "Arsenal": "Second on eighteen; Liverpool's next league visitors at Anfield, on 1 November.",
     "Brighton": "Third on sixteen with a plus-eighteen goal difference, the best in the league (ESPN); at Anfield on Sunday.",
     "Chelsea": "Fourth on thirteen; the Carabao Cup at Anfield on Wednesday.",
     "Ipswich": "Ninth on ten after Friday's 1-1 with Forest (ESPN).",
@@ -1250,7 +1251,7 @@ export const OPPOSITION = {
       note: "A third straight league clean sheet (Squawka).",
     },
   ],
-  liverpoolAngle: "Brighton's best pattern, the third man arriving behind Liverpool's right-sided centre-back, meets the department Iraola spent Friday improvising: Muñoz is 'going to be difficult' (Hayters via Yahoo Sports), Frimpong and Bradley are out, Araujo is a centre-back playing right-back, and Iraola now says Gravenberch 'can do a job' there (Dave.sport). Moving Gravenberch would thin a midfield already without Szoboszlai, ruled out on Friday. Liverpool's other soft spot is the opening half hour, Villarreal two up at 28:08 (Opta Analyst), and Iraola conceded the home league record himself. The counterweight is Isak, five in his last five league games (Opta Analyst), and Wirtz, the player Hürzeler says one defender cannot stop.",
+  liverpoolAngle: "Brighton's best pattern, the third man arriving behind Liverpool's right-sided centre-back, meets the department Iraola spent Friday improvising: Muñoz is 'going to be difficult' (Hayters via Yahoo Sports), Frimpong and Bradley are out, Araujo is a centre-back playing right-back, and Iraola now says Gravenberch 'can do a job' there (Dave.sport). Moving Gravenberch would thin a midfield already without Szoboszlai, ruled out on Friday. Liverpool's other soft spot is the opening half hour, Villarreal two up at 28:08 (Opta Analyst), and Iraola conceded the home league record himself. The counterweight is Isak, five in his last five league appearances (Opta Analyst), and Wirtz, the player Hürzeler says one defender cannot stop.",
   modelLine: {
     source: "Opta Analyst (Opta supercomputer)",
     liverpool: 46.8,
@@ -1298,7 +1299,7 @@ export const FORM_TRENDS = {
   generatedAt: "2026-10-23T22:30:00Z",
   competition: "PL",
   played: 7,
-  headline: "Iraola's Friday concession, that Liverpool have not won a home league game this season (GOAL via LiveScore), is the result the underlying numbers have been predicting. Across seven league games this page's sum is 9.94 expected goals for and 8.07 against, a margin of under two, and the three home games produced 1.61, 1.13 and 0.86, two draws and the City defeat. The creative volume is there, Wirtz with twenty chances, more than anyone (Sky Sports), but Hürzeler's plan to crowd him rather than mark him is aimed at exactly the player who supplies it. Brighton score more than anyone, so a thin margin at Anfield will not survive many quiet spells.",
+  headline: "Iraola's Friday concession, that Liverpool have not won a home league game this season (GOAL via LiveScore), is the result the underlying numbers have been predicting. Across seven league games this page's sum is 9.94 expected goals for and 8.07 against, a margin of under two, and the three home games produced 1.61, 1.13 and 0.86, two draws and the City defeat. The creative volume is there, Wirtz with twenty chances, more than anyone (Sky Sports), but Hürzeler's plan to crowd him rather than mark him is aimed at exactly the player who supplies it. Brighton are the league's top scorers with twenty-three (Opta Analyst), so a thin margin at Anfield will not survive many quiet spells.",
   diagnosis: [
     {
       label: "Ngumoha giving the right side an outlet",

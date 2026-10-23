@@ -325,7 +325,7 @@ export const SLOT_RATIONALE = {
   LAM: "Fri Oct 23, evening - Barcola, passed fit on Friday: 'trained today normally' (Hayters via Yahoo Sports). High.",
   CAM: "Fri Oct 23, evening - Wirtz, the player Hürzeler says must be stopped as a team (Football Muse via Yahoo Sports). High.",
   RAM: "Fri Oct 23, evening - Ngumoha, though Iraola would not confirm his start, citing rotation (GOAL via LiveScore). Medium.",
-  ST: "Fri Oct 23, evening - Isak, five in his last five league games (Opta Analyst). High.",
+  ST: "Fri Oct 23, evening - Isak, five in his last five league appearances (Opta Analyst). High.",
 };
 
 
