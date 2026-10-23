@@ -613,8 +613,8 @@ function CoverView({ onJump }) {
               in Jablonec. Sky Sports spent the small hours on Florian Wirtz, the £116 million playmaker
               who leads the league for chances made and has yet to make many clear ones. The
               supercomputer, unmoved, still makes Liverpool favourites. Iraola speaks at half past one,
-              and will be asked about Muñoz's knee and Barcola's precaution before anyone mentions the
-              ten. A home ground is only an advantage if it is used as one.
+              and will be asked about Muñoz's knee and Barcola's precaution before anyone asks about
+              Wirtz. A home ground is only an advantage if it is used as one.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,

@@ -1045,7 +1045,7 @@ export const DISPATCHES = [
     byline: "Hayters via Yahoo Sports / GOAL",
     dateline: "Jablonec · 22 October",
     category: "Manager",
-    body: "Fabian Hürzeler did not dress it up. Twenty-six shots in the Czech Republic had produced nothing, and afterwards he said his side needed to be brilliant at the basics and had not been good at them (Hayters via Yahoo Sports). To GOAL he added the arithmetic: if you finish 0-0, you did not create enough. It sounded like a manager talking to the eleven who did not play as much as to the eight reserves who did. Those regulars, rested in Jablonec, are expected back at Anfield, and none came home with a new injury.",
+    body: "Fabian Hürzeler did not dress it up. A goalless night in the Czech Republic had followed four straight wins, and afterwards he said his side needed to be brilliant at the basics and had not been good at them (Hayters via Yahoo Sports). To GOAL he added the arithmetic: if you finish 0-0, you did not create enough. It sounded like a manager talking to the eleven who did not play as much as to the eight reserves who did. Those regulars, rested in Jablonec, are expected back at Anfield, and none came home with a new injury.",
   },
   {
     n: "04",
@@ -1074,7 +1074,12 @@ export const NEWS_DIGEST = {
       detail: "Published just after midnight on Friday: Richard Morgan's analysis credits Wirtz with a goal or assist in each of Liverpool's last three games, nine open-play chances at Brentford, the most in a Premier League game since 2021, and twenty for the league season, more than anyone, though none rated big chances by Opta. Liverpool rank only sixteenth for expected goals, and Sky revisits Jamie Carragher's call, made on the Gary Neville podcast, that 'he needs to come out of the team'. Iraola: 'we analyse and over scrutinise everything.'",
     },
     {
-      title: "Mac Allister Contract: No Rush, Says The Telegraph (Sports Mole, today)",
+      title: "Muñoz And Barcola Wait On Iraola's 1.30pm Update (Read Liverpool / Evening Standard, today)",
+      category: "injuries",
+      detail: "Published at 6am on Friday: Read Liverpool says there is still no time frame on Muñoz's knee knock, which kept him out of the Villarreal squad, and that Szoboszlai has played only thirty-five minutes since the international break. The Evening Standard lists both Muñoz and Barcola as doubts, the latter ever-present in the league since his move from Paris, and Iraola addresses both at 1.30pm UK (Liverpool FC).",
+    },
+    {
+      title: "Mac Allister Contract: No Rush, Telegraph Line Resurfaces (Sports Mole, today)",
       category: "transfers",
       detail: "Carried at 1.24am on Friday from Wednesday's Telegraph report: Liverpool are 'not in a rush to offer a new deal' to Mac Allister, twenty-seven, whose terms run to 2028, having already tied down Gravenberch and Szoboszlai. He has four goals and an assist in eleven games this season, two of the goals against Villarreal on Tuesday (Sports Mole).",
     },
@@ -1089,11 +1094,6 @@ export const NEWS_DIGEST = {
       detail: "In Friday's LiveScore round-up: the Liverpool Echo reports that the club will meet Ndukwe's representatives about a possible January recall from Levante, where the nineteen-year-old centre-back has started the last three games. With Leoni not expected to play before January, the timing has an obvious logic.",
     },
     {
-      title: "Muñoz And Barcola Wait On Iraola's 1.30pm Update (Read Liverpool / Evening Standard, today)",
-      category: "injuries",
-      detail: "Published at 6am on Friday: Read Liverpool says there is still no time frame on Muñoz's knee knock, which kept him out of the Villarreal squad, and that Szoboszlai has played only thirty-five minutes since the international break. The Evening Standard lists both Muñoz and Barcola as doubts, the latter ever-present in the league since his move from Paris, and Iraola addresses both at 1.30pm UK (Liverpool FC).",
-    },
-    {
       title: "Hürzeler: Brighton 'Weren't Good At The Basics' (Hayters via Yahoo Sports / GOAL, 1d ago)",
       category: "matches",
       detail: "Said after Thursday night's 0-0 in Jablonec: 'we have to be brilliant at the basics, and we weren't good at the basics today' (Hayters via Yahoo Sports), and 'if you play 0-0, then you didn't create enough' (GOAL). GOAL expects the regulars rested in the Czech Republic to return at Anfield; no new Brighton injuries were reported from the match.",
@@ -1101,7 +1101,7 @@ export const NEWS_DIGEST = {
     {
       title: "Standard XI: Isak Back, Wirtz Recalled (Evening Standard via Yahoo Sports, 1d ago)",
       category: "tactics",
-      detail: "Published on Thursday evening: the Evening Standard's predicted XI is Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Gravenberch; Ngumoha, Wirtz, Barcola; Isak, with Isak replacing Koumas and Wirtz most likely coming in for Nyoni. Szoboszlai, Frimpong, Ekitike, Leoni and Bradley are listed as out.",
+      detail: "Published on Thursday evening: the Evening Standard's predicted XI is Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Gravenberch; Ngumoha, Wirtz, Barcola; Isak, four changes from Tuesday's starters: Kerkez for Tsimikas, Wirtz most likely for Nyoni, Barcola for Gakpo and Isak for Koumas. Szoboszlai, Frimpong, Ekitike, Leoni and Bradley are listed as out.",
     },
     {
       title: "Opta: Liverpool 46.8% Favourites Despite Five Home Games Without A League Win (Opta Analyst, 1d ago)",
@@ -1321,7 +1321,7 @@ export const FORM_TRENDS = {
     {
       label: "Right-back by elimination",
       severity: "high",
-      source: "Sports Mole / Empire of the Kop / Liverpool FC",
+      source: "Read Liverpool / Evening Standard / Liverpool FC / CaughtOffside via LiveScore",
       detail: "No time frame yet on Muñoz's knee (Read Liverpool), Frimpong out for about a month (Evening Standard) and Bradley still short of team training, so Araujo, withdrawn on Tuesday for tracking problems (Liverpool FC), is the default and Gravenberch the improvisation CaughtOffside floats (via LiveScore).",
     },
   ],
