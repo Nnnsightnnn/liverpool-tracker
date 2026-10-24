@@ -1032,7 +1032,7 @@ export const STANDINGS_COMMENTARY = {
     "Crystal Palace": "Sixteenth on seven; Liverpool visit on 8 November.",
     "Manchester United": "Fifteenth on seven; at Anfield on 22 November.",
     "Fulham": "Thirteenth on eight after winning 1-0 at Coventry (ESPN), out of the bottom three.",
-    "Nott'm Forest": "Eighteenth on six, back in the relegation stripe on goal difference.",
+    "Nott'm Forest": "Eighteenth on six, back in the relegation stripe below Bournemouth on goals scored (ESPN).",
     "Coventry": "Nineteenth on six after losing at home to Fulham (ESPN).",
     "Sunderland": "Bottom on four; at Anfield on 2 December."
   }
@@ -1318,7 +1318,7 @@ export const FORM_TRENDS = {
   generatedAt: "2026-10-24T22:30:00Z",
   competition: "PL",
   played: 7,
-  headline: "Saturday showed how quickly the top of a table can loosen, City beaten at Villa and Arsenal level with them (Sky Sports), and Liverpool's underlying numbers say why they are nine points back rather than three. Across seven league games they have 9.94 expected goals for and 8.07 against, a margin under two, and only 3.60 of the for column came in three home games. Wirtz has created more chances than anyone, twenty, eighteen from open play (Opta Analyst), but the big chances have not followed. Brighton, the league's top scorers, are the wrong side to meet with a margin this thin.",
+  headline: "Saturday showed how quickly the top of a table can loosen, City beaten at Villa and Arsenal level with them (Sky Sports), and Liverpool's underlying numbers say why they are nine points back rather than three. Across seven league games they have 9.94 expected goals for and 8.07 against, a margin under two (summed from the per-match Opta Analyst, Squawka, FotMob and Sofascore figures below), and only 3.60 of the for column came in three home games. Wirtz has created more chances than anyone, twenty, eighteen from open play (Opta Analyst), but the big chances have not followed. Brighton, the league's top scorers, are the wrong side to meet with a margin this thin.",
   diagnosis: [
     {
       label: "Isak in the side, defeats out of it",
@@ -1585,7 +1585,7 @@ export const FORM_TRENDS = {
 };
 export const SQUAD_LOAD = {
   generatedAt: "2026-10-24T22:30:00Z",
-  headline: "Saturday's question is weather rather than selection: a yellow wind warning over Merseyside until 9pm Sunday leaves Brighton to the Safety Advisory Group (DaveOCKOP). If it is played, Sports Mole's 2pm team news has the same eleven as the morning, Nyoni beside Mac Allister and Araujo at right-back, with Szoboszlai, Frimpong, Ekitike, Bradley and Leoni out and Muñoz still a doubt. Iraola wants 'full gas' regardless (The Argus via LiveScore), the fifth of nine games in twenty-nine days with Chelsea in the cup on Wednesday.",
+  headline: "Saturday's question is weather rather than selection: a yellow wind warning over Merseyside until 9pm Sunday leaves Brighton to the Safety Advisory Group (DaveOCKOP). If it is played, Sports Mole's 2pm team news has the same eleven as the morning, Nyoni beside Mac Allister and Araujo at right-back, with Szoboszlai, Frimpong, Ekitike, Bradley and Leoni out and Muñoz still a doubt. Iraola wants 'full gas' regardless (The Argus via LiveScore), the fifth of nine games in twenty-nine days (Brit Brief) with Chelsea in the cup on Wednesday.",
   minutesNote: "Premier League minutes are not published here yet. Seven league games, three Champions League games and one Carabao Cup tie have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   unavailable: [
     {
