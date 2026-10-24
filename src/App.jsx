@@ -623,8 +623,8 @@ function CoverView({ onJump }) {
               Inside, the squad as a roster, the standings live again, and
               five dispatches from the writers who never clock off: the fourth time in
               the book; Isak, feeling good; where Gross stands; a contract for a
-              coachable Ngumoha; and the side that scores more than anyone. Twelve points from seven league games and no market until
-              January: Szoboszlai's place is filled from inside the building.
+              coachable Ngumoha; and the side that scores more than anyone. Fifth on twelve, four points behind Brighton,
+              and one afternoon that could move the season either way.
             </p>
           </div>
           <div style={{ background: T.rule }} />

@@ -1076,9 +1076,9 @@ export const NEWS_DIGEST = {
   summary: "As of Saturday morning, the eve of Brighton at Anfield, Opta Analyst has put the stakes in the club's own history: a defeat would leave Liverpool without a league win in their first four home games of a season for only the fourth time, yet they have lost only one of their last thirteen home games against Brighton and won the last four (Opta Analyst), and the last home league win came on 25 April (VAVEL). Alexander Isak, back from a muscle injury, said 'I feel good' and that at home 'we have to go to win' (Liverpool FC via The False 9). The previews split on midfield, Sports Mole starting Trey Nyoni beside Mac Allister and The Hard Tackle and The False 9 preferring Gravenberch, with Araujo at right-back in all three, while Brit Brief reports Liverpool in talks over a new deal for Rio Ngumoha. Brighton arrive with twenty-three league goals in seven, a total only eight sides have reached (Opta Analyst), and NBC Sports predicts 1-1. Liverpool, fifth on twelve, host third-placed Brighton at 2pm tomorrow.",
   keyTopics: [
     {
-      title: "A Defeat Would Be The Fourth Such Start In Club History (Opta Analyst / VAVEL, today)",
+      title: "A Defeat Would Be The Fourth Such Start In Club History (VAVEL / Opta Analyst, today)",
       category: "matches",
-      detail: "From Opta's preview, published on Friday and carried into Saturday's coverage: lose and Liverpool go four home league games without a win at the start of a season for only the fourth time; they are winless in five home league games, a run bettered only in 2002-03 and 2020-21. The counter-record: one defeat in their last thirteen home games against Brighton, four straight wins there (Opta Analyst). VAVEL's Saturday analysis dates the last home league win to 25 April.",
+      detail: "From Opta's preview, published on Friday and carried into Saturday's coverage: lose and Liverpool go four home league games without a win at the start of a season for only the fourth time; they are winless in five home league games, a run worse only in 2002-03 and 2020-21. The counter-record: one defeat in their last thirteen home games against Brighton, four straight wins there (Opta Analyst). VAVEL's Saturday analysis dates the last home league win to 25 April.",
     },
     {
       title: "Isak: 'I Feel Good' Before Brighton (Liverpool FC via The False 9, today)",
@@ -1251,7 +1251,7 @@ export const OPPOSITION = {
       note: "A third straight league clean sheet (Squawka).",
     },
   ],
-  liverpoolAngle: "The Hard Tackle's reading puts Brighton's threat and Liverpool's best player in the same space: Wirtz receives between the lines, where Gross screens, so whoever wins that square shapes the afternoon. Behind it, Brighton's third-man runs meet a right-back department of one improvised centre-back, Araujo withdrawn at half-time in each of his last two starts there (Brit Brief), with Frimpong and Bradley out and Muñoz on a 25 per cent fantasy flag (The False 9). If Gravenberch is needed at right-back, the midfield without Szoboszlai becomes Mac Allister and a nineteen-year-old. Liverpool's case is Isak, unbeaten in his last fifteen games (Opta Analyst), and a home record against Brighton of one defeat in thirteen.",
+  liverpoolAngle: "The Hard Tackle's reading puts Brighton's threat and Liverpool's best player in the same space: Wirtz receives between the lines, where Gross screens, so whoever wins that square shapes the afternoon. Behind it, Brighton's third-man runs meet a right-back department of one improvised centre-back, Araujo withdrawn at half-time in each of his last two starts there (Brit Brief), with Frimpong and Bradley out and Muñoz on a 25 per cent fantasy flag (The False 9). If Gravenberch is needed at right-back, the midfield without Szoboszlai becomes Mac Allister and a nineteen-year-old. Liverpool's case is Isak, with the side unbeaten in his last fifteen games (Opta Analyst), and a home record against Brighton of one defeat in thirteen.",
   modelLine: {
     source: "Opta Analyst (Opta supercomputer)",
     liverpool: 46.8,
@@ -1307,7 +1307,7 @@ export const FORM_TRENDS = {
       label: "Isak in the side, defeats out of it",
       severity: "positive",
       source: "Opta Analyst",
-      detail: "Liverpool lost four of Isak's first five games but are unbeaten in his last fifteen, nine wins and six draws, and he has five goals in five league appearances (Opta Analyst).",
+      detail: "Liverpool lost four of Isak's first five games but are unbeaten in his last fifteen, nine wins and six draws, and he has five in his last five league appearances (Opta Analyst).",
     },
     {
       label: "First halves still the weak spell",
@@ -1568,7 +1568,7 @@ export const FORM_TRENDS = {
 };
 export const SQUAD_LOAD = {
   generatedAt: "2026-10-24T08:30:00Z",
-  headline: "Saturday's previews agree on nine of the eleven and argue about one: Sports Mole starts Nyoni beside Mac Allister, The Hard Tackle and The False 9 start Gravenberch, and Araujo is at right-back in all three. Isak says he feels good (Liverpool FC via The False 9), Muñoz is a 25 per cent fantasy flag (The False 9), and Szoboszlai, Frimpong, Ekitike, Bradley and Leoni are out. This is the fifth of nine games in twenty-nine days (Brit Brief), with Chelsea in the cup on Wednesday.",
+  headline: "Saturday's previews agree on ten of the eleven and argue about one: Sports Mole starts Nyoni beside Mac Allister, The Hard Tackle and The False 9 start Gravenberch, and Araujo is at right-back in all three. Isak says he feels good (Liverpool FC via The False 9), Muñoz is a 25 per cent fantasy flag (The False 9), and Szoboszlai, Frimpong, Ekitike, Bradley and Leoni are out. This is the fifth of nine games in twenty-nine days (Brit Brief), with Chelsea in the cup on Wednesday.",
   minutesNote: "Premier League minutes are not published here yet. Seven league games, three Champions League games and one Carabao Cup tie have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   unavailable: [
     {
@@ -1699,7 +1699,7 @@ export const SQUAD_LOAD = {
     {
       position: "Central midfield",
       level: "critical",
-      detail: "Critical. Szoboszlai out and training alone (Liverpool FC via The False 9); Mac Allister, Gravenberch, Nyoni and Endo, who has not played a minute this season (Brit Brief), cover Brighton, Chelsea and Arsenal in eight days, and the previews cannot agree which pair starts tomorrow.",
+      detail: "Critical. Szoboszlai out and training alone (Liverpool FC via The False 9); Mac Allister, Gravenberch, Nyoni and Endo, who has not played a minute this season (Brit Brief), cover Brighton and Chelsea at least, with Arsenal his earliest return, and the previews cannot agree which pair starts tomorrow.",
     },
     {
       position: "Centre-back",
