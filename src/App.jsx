@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday, the day before Brighton, and Opta has put the stakes in the club's own history:
-          lose at Anfield and Liverpool go four home league games without a win for only the fourth time
-          ever. Fifth on twelve, they meet third-placed Brighton at two o'clock tomorrow, the league's top
-          scorers against a side that has lost one of its last thirteen home games to them.
+          Saturday night, and the wind has a vote. Storm Boelo has put a yellow warning over Merseyside
+          until Sunday evening, and Brighton at Anfield is on only as things stand. If it is played,
+          the stakes rose this afternoon: City beaten at Villa, Arsenal level with them, Chelsea losing
+          at home, so a win takes Liverpool, fifth on twelve, into fourth.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,25 +606,25 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and the eve of a fixture that history and the table read differently. Brighton arrive third,
-              with twenty-three league goals in seven games, a total only eight sides have ever reached so
-              early; Liverpool have lost one of their last thirteen home meetings with them and won the last
-              four. Alexander Isak, back from the muscle injury that kept him to a cameo on Tuesday, says he
-              feels good and that at home Liverpool have to go to win. The supercomputer agrees, just,
-              at under one in two. Szoboszlai watches, Muñoz probably joins him, and the previews split on
-              who fills the midfield: Gravenberch, or Trey Nyoni, nineteen. Tomorrow decides which of the two records is the
-              one that holds.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the most important forecast for Liverpool's season comes from the Met Office. A yellow warning
+              runs across Merseyside until nine on Sunday night, gusts of fifty-five to sixty-five miles an hour,
+              and whether Brighton happens at all is for a committee of clubs, police and council to decide.
+              Everything else about the afternoon had already been settled by Saturday's results: City lost at
+              Villa Park, Arsenal drew level with them, Chelsea were beaten at home by Spurs, and fourth place
+              now sits one Liverpool win away. The eleven that would chase it is the morning's, Nyoni or Gravenberch
+              beside Mac Allister, Araujo at a right-back he did not choose for a club that has not yet chosen him.
+              The football is ready. It is waiting on the sky.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: the fourth time in
-              the book; Isak, feeling good; where Gross stands; a contract for a
-              coachable Ngumoha; and the side that scores more than anyone. Fifth on twelve, four points behind Brighton,
-              and one afternoon that could move the season either way.
+              five dispatches from the writers who never clock off: the wind having
+              a say; Villa Park ending the perfect start; Iraola at full gas; Araujo's
+              undecided future; and Hürzeler's maybe. Fifth on twelve with a game in hand,
+              and one afternoon, if it comes, that could put Liverpool fourth.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3835,7 +3835,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "We have to go to win."
+        "The sky picks the kick-off."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

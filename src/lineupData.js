@@ -170,32 +170,32 @@ export const FORMATIONS = {
 // Fri Oct 23 (evening): all 27 refreshed for Iraola's Friday presser (Barcola fit, Szoboszlai out, Munoz 'difficult', Gravenberch at RB) and Hurzeler's.
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 export const PLAYER_EVIDENCE = {
-  1:   "Starts · eve of Brighton",
+  1:   "Starts · storm permitting",
   2:   "Cup keeper · Chelsea Wed",
   3:   "Starts · beside Jacquet",
-  5:   "RB/CB cover · Muñoz doubt",
-  7:   "LB · in all three Sat XIs",
-  8:   "Knee · long-term list",
-  9:   "Thigh · after Nov break",
-  10:  "ACL · training in Nov",
-  11:  "RCB · every Sat XI",
-  12:  "Levante · recall talks",
-  13:  "Pivot · the certainty",
-  14:  "Pivot · previews split",
-  15:  "Hamstring · training alone",
+  5:   "Bench · first defensive sub",
+  7:   "LB · Sports Mole XI",
+  8:   "Knee · December target",
+  9:   "Hamstring · after Nov break",
+  10:  "Knee · January to play",
+  11:  "RCB · Sports Mole XI",
+  12:  "Levante · stays all season",
+  13:  "Pivot · Iraola's praise",
+  14:  "Pivot · Nyoni rival",
+  15:  "Hamstring · Arsenal earliest",
   17:  "No minutes yet this season",
-  18:  "Ten · 20 chances (Opta)",
-  20:  "Sports Mole's pivot pick",
-  22:  "Bench · left-side cover",
-  23:  "Starts · 'I feel good'",
+  18:  "Ten · backed by Iraola",
+  20:  "Sports Mole's pivot again",
+  22:  "Bench · fresher for Wed",
+  23:  "Starts · unbeaten in 15",
   24:  "Achilles · New Year",
-  25:  "Right · new deal talks",
+  25:  "Right · talks continue",
   26:  "One sub app this season",
   27:  "Third keeper",
-  28:  "Knee · 25% FPL flag",
-  29:  "RB · every Sat XI",
-  30:  "Left · fit after loads",
-  31:  "Bench · Isak back",
+  28:  "Knee · Sunday doubt",
+  29:  "RB · future undecided",
+  30:  "Left · trained normally",
+  31:  "Bench · cup start likelier",
   32:  "LB cover · cup option",
 };
 
@@ -316,16 +316,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Sat Oct 24, morning - Kerkez, at left-back in all three Saturday XIs (Sports Mole; The False 9; The Hard Tackle). Medium.",
-  LCB: "Sat Oct 24, morning - Van Dijk, with Isak-against-Dunk at the other end the duel The Hard Tackle picks out. High.",
-  RCB: "Sat Oct 24, morning - Jacquet, in every Saturday XI; Brighton's third man arrives behind him. High.",
-  RB: "Sat Oct 24, morning - Araujo, right-back in every Saturday XI, though off at half-time in his last two starts there (Brit Brief); Gomez and Gravenberch the cover. Medium.",
-  LDM: "Sat Oct 24, morning - Gravenberch, as The Hard Tackle and The False 9 have it; Sports Mole starts Nyoni here instead. Medium.",
-  RDM: "Sat Oct 24, morning - Mac Allister, the one midfielder every preview starts. High.",
-  LAM: "Sat Oct 24, morning - Barcola, fit after Thursday's load-managed session and on the left in every XI. High.",
-  CAM: "Sat Oct 24, morning - Wirtz, twenty chances created, eighteen from open play (Opta Analyst), receiving where Gross screens. High.",
-  RAM: "Sat Oct 24, morning - Ngumoha, on the right in all three Saturday XIs, with a new contract under discussion (Brit Brief). Medium.",
-  ST: "Sat Oct 24, morning - Isak, who says he feels good (Liverpool FC via The False 9); Liverpool unbeaten in his last fifteen (Opta Analyst). High.",
+  LB: "Sat Oct 24, evening - Kerkez, left-back in Sports Mole's 2pm team news, Tsimikas kept for the cup. Medium.",
+  LCB: "Sat Oct 24, evening - Van Dijk, the captain beside Jacquet; Kostoulas and Isak-against-Dunk the duels at either end. High.",
+  RCB: "Sat Oct 24, evening - Jacquet, unchanged in Sports Mole's Saturday XI; the late runner from Gómez or Ayari arrives behind him. High.",
+  RB: "Sat Oct 24, evening - Araujo, right-back again in Sports Mole's Saturday XI, his own future 'not entirely up to me' (Barça Universal via LiveScore); Gomez and Gravenberch the cover. Medium.",
+  LDM: "Sat Oct 24, evening - Gravenberch here; Sports Mole's Saturday-afternoon team news still prefers Nyoni, so this is the one open selection. Medium.",
+  RDM: "Sat Oct 24, evening - Mac Allister, whose influence on the recent run Iraola has praised (Liverpool Echo via LiveScore). High.",
+  LAM: "Sat Oct 24, evening - Barcola, who trained normally on Friday (The Argus via LiveScore). High.",
+  CAM: "Sat Oct 24, evening - Wirtz, backed by Iraola after the criticism (Liverpool Echo via LiveScore), with Gross detailed to shadow him. High.",
+  RAM: "Sat Oct 24, evening - Ngumoha, on the right in Sports Mole's team news while contract talks go on. Medium.",
+  ST: "Sat Oct 24, evening - Isak, up front in every XI; Liverpool have lost none of his last fifteen (Opta Analyst). High.",
 };
 
 
@@ -352,6 +352,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-10-24T08:30:00Z",
-  reason: "Sat Oct 24, morning. No personnel change for Brighton at Anfield, Sunday 25 October, 2pm: Saturday's three predicted XIs (Sports Mole; The False 9; The Hard Tackle) agree on ten of these eleven, and the one argument is midfield, where Sports Mole starts Nyoni for Gravenberch. Four changes from Tuesday's starters (Kerkez, Wirtz, Barcola and Isak for Tsimikas, Nyoni, Gakpo and Koumas). Medium, because that pivot and Araujo's place at right-back are Iraola's to settle.",
+  generated_at: "2026-10-24T22:30:00Z",
+  reason: "Sat Oct 24, evening. No personnel change for Brighton at Anfield, Sunday 25 October, 2pm, if Storm Boelo lets it be played: Sports Mole's Saturday-afternoon team news matches ten of these eleven, starting Nyoni rather than Gravenberch beside Mac Allister. Four changes from Tuesday's Villarreal XI (Kerkez, Wirtz, Barcola and Isak for Tsimikas, Nyoni, Gakpo and Koumas). Medium, because that pivot, Araujo at right-back and the weather are all still open.",
 };
