@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday evening, and Iraola has done Sunday's arithmetic aloud: Barcola trained and is fine,
-          Szoboszlai is out, and Muñoz, in his manager's word, is difficult. Fifth on twelve and still
-          without a home league win this season, Liverpool meet third-placed Brighton at two o'clock,
-          with Gravenberch, Iraola says, able to do a job at right-back if he is needed there.
+          Saturday, the day before Brighton, and Opta has put the stakes in the club's own history:
+          lose at Anfield and Liverpool go four home league games without a win for only the fourth time
+          ever. Fifth on twelve, they meet third-placed Brighton at two o'clock tomorrow, the league's top
+          scorers against a side that has lost one of its last thirteen home games to them.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,26 +606,25 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the list is shorter by one doubt and longer by one absence. Bradley Barcola, whose solo
-              session on Thursday had the previews hedging, trained normally on Friday and is, in
-              Iraola's words, fine with no problem; Dominik Szoboszlai is not, and misses Brighton with
-              the hamstring that has kept him from the group since Brentford. Víctor Muñoz is the maybe,
-              a knee his manager calls difficult and then admits he cannot read. Asked about Anfield,
-              Iraola did not argue: it is true, he said, that Liverpool have not won at home in the
-              league. In Sussex, Hürzeler was explaining that Wirtz is too good to be stopped by
-              one man. Sunday finds out whether he can be stopped by eleven.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and the eve of a fixture that history and the table read differently. Brighton arrive third,
+              with twenty-three league goals in seven games, a total only eight sides have ever reached so
+              early; Liverpool have lost one of their last thirteen home meetings with them and won the last
+              four. Alexander Isak, back from the muscle injury that kept him to a cameo on Tuesday, says he
+              feels good and that at home Liverpool have to go to win. The supercomputer agrees, just,
+              at under one in two. Szoboszlai watches, Muñoz probably joins him, and the previews split on
+              who fills the midfield: Gravenberch, or Trey Nyoni, nineteen. Tomorrow decides which of the two records is the
+              one that holds.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: two answers and a
-              maybe at Kirkby; a midfielder at right-back; Hürzeler's plan for Wirtz;
-              the home win still missing; and January's short list. Twelve points from
-              seven league games and no market until January: Szoboszlai's place is
-              filled from inside the building.
+              five dispatches from the writers who never clock off: the fourth time in
+              the book; Isak, feeling good; where Gross stands; a contract for a
+              coachable Ngumoha; and the side that scores more than anyone. Twelve points from seven league games and no market until
+              January: Szoboszlai's place is filled from inside the building.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3836,7 +3835,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Stopped as a team, or not at all."
+        "We have to go to win."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
