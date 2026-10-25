@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday night, and the wind has a vote. Storm Boelo has put a yellow warning over Merseyside
-          until Sunday evening, and Brighton at Anfield is on only as things stand. If it is played,
-          the stakes rose this afternoon: City beaten at Villa, Arsenal level with them, Chelsea losing
-          at home, so a win takes Liverpool, fifth on twelve, into fourth.
+          Sunday morning, matchday, and the storm is leaving more slowly than it came. Brighton at
+          Anfield is on for two o'clock as things stand, the amber warnings drawn further north and
+          Merseyside left under the yellow. Beat the league's top scorers and Liverpool, fifth on twelve,
+          go past Chelsea into fourth.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,25 +606,24 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the most important forecast for Liverpool's season comes from the Met Office. A yellow warning
-              runs across Merseyside until nine on Sunday night, gusts of fifty-five to sixty-five miles an hour,
-              and whether Brighton happens at all is for a committee of clubs, police and council to decide.
-              Everything else about the afternoon had already been settled by Saturday's results: City lost at
-              Villa Park, Arsenal drew level with them, Chelsea were beaten at home by Spurs, and fourth place
-              now sits one Liverpool win away. The eleven that would chase it is the morning's, Nyoni or Gravenberch
-              beside Mac Allister, Araujo at a right-back he did not choose for a club that has not yet chosen him.
-              The football is ready. It is waiting on the sky.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and the first team news of the day arrived as a weather forecast. Storm Boelo, the Met Office said
+              at four this morning, is slowly clearing away, and by breakfast the game was still on, the last word
+              still with the safety committee of clubs, police and council. The eleven that walks out at two will
+              probably be the one Liverpool.com named at six: Gravenberch rather than Nyoni beside Mac Allister,
+              Araujo once more at right-back, Szoboszlai and Muñoz absent. Brighton bring twenty-three league goals
+              to a ground that has kept one home clean sheet all season. Fourth place is a win away, and so is a reminder
+              of how thin the squad behind it has become. The wind may drop by kick-off; the margin will not.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: the wind having
-              a say; Villa Park ending the perfect start; Iraola at full gas; Araujo's
-              undecided future; and Hürzeler's maybe. Fifth on twelve with a game in hand,
-              and one afternoon, if it comes, that could put Liverpool fourth.
+              five dispatches from the writers who never clock off: a fixture still on,
+              for now; the one selection nobody agrees on; Brighton arriving with confidence;
+              a defender worth watching twice; and a Wednesday without Palmer. Fifth on twelve,
+              and one afternoon at Anfield that could put Liverpool fourth.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3835,7 +3834,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The sky picks the kick-off."
+        "The storm leaves. Brighton arrive."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
