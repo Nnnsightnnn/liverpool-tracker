@@ -1106,6 +1106,11 @@ export const NEWS_DIGEST = {
       detail: "From Brit Brief's matchday preview, published on Sunday morning: Liverpool have kept one clean sheet at Anfield in all competitions and conceded three in each of their last two home games, Manchester City and Villarreal. Brighton have twenty-three league goals and two 5-0 wins.",
     },
     {
+      title: "Five Games Today, With Fourth Place And The Top Two In Play (The False 9 / ESPN, today)",
+      category: "matches",
+      detail: "Checked at 5.37am on Sunday: Liverpool v Brighton, Manchester United v Bournemouth, Crystal Palace v Newcastle and Hull v Brentford at 2pm, Sunderland v Leeds at 4.30pm, none postponed (The False 9). On ESPN's table a Liverpool win lifts them past Chelsea into fourth, and a Brighton win takes them to nineteen, two behind City and Arsenal.",
+    },
+    {
       title: "Palmer Banned For Wednesday's Cup Tie At Anfield (Brit Brief, 1d ago)",
       category: "matches",
       detail: "Reported late on Saturday: Palmer's two bookings from Chris Kavanagh, for fouls on Mateus Fernandes and then Conor Gallagher, bring a one-match ban across domestic competitions, served in the Carabao Cup at Anfield on Wednesday; he is available for Manchester United next Saturday (Brit Brief; Dave.sport).",
@@ -1126,11 +1131,6 @@ export const NEWS_DIGEST = {
       detail: "Dave.sport's preview, published on Saturday morning, carries Iraola's assessment from the club's press conference that Liverpool must 'be at our very best' because Brighton 'now they are with confidence'. Its absentee list: Leoni, Bradley, Ekitike, Frimpong and Szoboszlai, with Muñoz doubtful and Barcola fit.",
     },
     {
-      title: "City And Arsenal Level, Liverpool Nine Back With A Game In Hand (Sky Sports, 1d ago)",
-      category: "matches",
-      detail: "Saturday's table: Villa's 2-1 over City (Sky Sports) and Arsenal's 2-0 over Everton left the top two on twenty-one, City ahead on goal difference (ESPN). Liverpool play their eighth game today; Arsenal, the joint leaders, are at Anfield next Sunday.",
-    },
-    {
       title: "Old Trafford On The Same Storm Watch (Football Insider via Yahoo Sports, 2d ago)",
       category: "general",
       detail: "Reported on Friday evening: Manchester United v Bournemouth, also at 2pm today, sits under the same yellow warning, both games 'pending inspection of the conditions on the day', and a postponement 'may well earn Michael Carrick another week in charge' (Football Insider via Yahoo Sports). United are at Anfield on 22 November.",
@@ -1149,7 +1149,6 @@ export const NEWS_DIGEST = {
     "Marca",
     "BBC Sport",
     "Football Insider",
-    "Sky Sports",
     "ESPN",
   ],
 };
