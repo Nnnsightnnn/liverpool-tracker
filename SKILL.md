@@ -313,6 +313,7 @@ def stat(stats, name):
     return ''
 NAME_MAP = {
     'Arsenal':'Arsenal','Man City':'Manchester City','Man United':'Manchester United',
+    'Man Utd':'Manchester United',  # ESPN's shortDisplayName from 25 Oct 2026
     'Aston Villa':'Aston Villa','Liverpool':'Liverpool','Bournemouth':'Bournemouth',
     'Brighton':'Brighton','Chelsea':'Chelsea','Brentford':'Brentford',
     'Sunderland':'Sunderland','Newcastle':'Newcastle','Everton':'Everton',

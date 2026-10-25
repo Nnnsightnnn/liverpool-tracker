@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday morning, matchday, and the storm is leaving more slowly than it came. Brighton at
-          Anfield is on for two o'clock as things stand, the amber warnings drawn further north and
-          Merseyside left under the yellow. Beat the league's top scorers and Liverpool, fifth on twelve,
-          go past Chelsea into fourth.
+          Sunday evening, and Brighton came to Anfield as the league's top scorers and left with one shot
+          on target. Two goals in four first-half minutes, Gross's deflection and Isak's finish, bought a first
+          home league win since April and fourth place, a point behind them. Wirtz's ankle is the price.
+          Chelsea come on Wednesday, Arsenal on Sunday.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,24 +606,24 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and the first team news of the day arrived as a weather forecast. Storm Boelo, the Met Office said
-              at four this morning, is slowly clearing away, and by breakfast the game was still on, the last word
-              still with the safety committee of clubs, police and council. The eleven that walks out at two will
-              probably be the one Liverpool.com named at six: Gravenberch rather than Nyoni beside Mac Allister,
-              Araujo once more at right-back, Szoboszlai and Muñoz absent. Brighton bring twenty-three league goals
-              to a ground that has kept one home clean sheet all season. Fourth place is a win away, and so is a reminder
-              of how thin the squad behind it has become. The wind may drop by kick-off; the margin will not.
+              <span style={{ fontStyle: "italic", color: T.red }}>Evening</span>,{" "}
+              and the result arrived before the performance did. By the twenty-first minute Liverpool were two up,
+              Wirtz's strike turned in by Gross and Barcola's charge-down converted by Isak, and for the hour
+              that followed Brighton had the ball, nearly two-thirds of it, and very little else: seventeen shots,
+              one on target, a post. It was the first league win at Anfield since April and it lifts Liverpool into
+              fourth. Then, just after the hour, Wirtz stretched into a tackle and turned his ankle, and Iraola spent
+              his press conference saying it did not look big while reminding everyone the games come every three
+              days. A clean sheet, a top-four place and a creator in doubt: the week has started early.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: a fixture still on,
-              for now; the one selection nobody agrees on; Brighton arriving with confidence;
-              a defender worth watching twice; and a Wednesday without Palmer. Fifth on twelve,
-              and one afternoon at Anfield that could put Liverpool fourth.
+              five dispatches from the writers who never clock off: two goals in four minutes;
+              a small twist of the ankle; the plan Iraola asked for; a loan defender who plays like
+              a fixture; and a young goalkeeper kept in the side for Anfield. Fourth on fifteen,
+              with Chelsea in the cup on Wednesday and Arsenal on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3834,7 +3834,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The storm leaves. Brighton arrive."
+        "Four minutes, then the long wait."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
