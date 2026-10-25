@@ -1117,11 +1117,7 @@ export const NEWS_DIGEST = {
       category: "matches",
       detail: "SI's FotMob-sourced ratings, published on Sunday: Araújo, Barcola and Isak 7.9, Van Dijk 7.6, Gakpo 7.5, Mac Allister 7.4. Kerkez is called 'erratic' and Nyoni, on for Wirtz, made a key defensive contribution before taking a knock; no club word on Nyoni, who is not on The False 9's injury list. ESPN's Beth Lindop: one defeat in twelve under Iraola, eight wins.",
     },
-    {
-      title: "Alonso Confirms Penders For Anfield (Chelsea FC / Dave.sport, today)",
-      category: "matches",
-      detail: "Reported on Sunday morning (Dave.sport, 10.52am): Alonso will start the twenty-one-year-old Penders against Liverpool after his own goal on his league debut against Spurs, 'we keep confidence in Mike and he will be in goal' (Chelsea FC). Martínez is out for weeks after jaw surgery and Palmer serves his one-match ban in this tie (Dave.sport).",
-    },
+
     {
       title: "Chelsea Cup Tie: Wirtz A Doubt, Palmer Banned (The False 9, today)",
       category: "matches",
@@ -1133,7 +1129,11 @@ export const NEWS_DIGEST = {
       detail: "Sunday's other results, from ESPN's scoreboard: Manchester United 0-3 Bournemouth, Crystal Palace 0-2 Newcastle, Hull 1-1 Brentford at 2pm, and Sunderland 0-0 Leeds at 4.30pm. Chelsea drop to fifth; United fall to sixteenth before visiting Anfield on 22 November.",
     },
     {
-      title: "Palmer Banned, But Only For The Cup (Dave.sport, today)",
+      title: "Alonso Confirms Penders For Anfield (Chelsea FC / Dave.sport, today)",
+      category: "matches",
+      detail: "Reported on Sunday morning (Dave.sport, 10.52am): Alonso will start the twenty-one-year-old Penders against Liverpool after his own goal on his league debut against Spurs, 'we keep confidence in Mike and he will be in goal' (Chelsea FC). Martínez is out for weeks after jaw surgery and Palmer serves his one-match ban in this tie (Dave.sport).",
+    },    {
+      title: "Palmer Back For Manchester United After Serving Ban At Anfield (Dave.sport, today)",
       category: "general",
       detail: "Clarified on Sunday: the Premier League confirmed Palmer's suspension for two bookings against Spurs applies to the Carabao Cup tie at Anfield only, so he is available for Manchester United at the weekend (Dave.sport). Chelsea also had 32 per cent of the ball and 0.46 expected goals in that 2-0 defeat (Goal).",
     },
@@ -1183,7 +1183,7 @@ export const OPPOSITION = {
   manager: "Xabi Alonso",
   formation: "3-4-2-1",
   leaguePosition: 5,
-  summary: "Chelsea arrive at Anfield on the back of a home defeat and a goalkeeping question their manager has already answered. Saturday's 0-2 against Spurs began with Mike Penders, twenty-one and on his first league start, punching a corner into his own net, and ended with Palmer sent off; Alonso has confirmed Penders will start on Wednesday all the same (Chelsea FC; Dave.sport). Fifth on thirteen from eight after Liverpool's win over Brighton, they have won two and lost two of their last four league games, beating Bournemouth 5-1 and Everton 2-0 either side of the defeats at Brentford and at home to Spurs (ESPN). In this competition they have beaten Luton 2-0 and Leeds 6-3 (ESPN). Martínez is out for weeks after jaw surgery, Palmer's one-match ban falls on this tie, and João Pedro, their top league scorer, awaits tests (Dave.sport; LiveScore).",
+  summary: "Chelsea arrive at Anfield on the back of a home defeat and a goalkeeping question their manager has already answered. Saturday's 0-2 against Spurs began with Mike Penders, twenty-one and on his first league start, punching a corner into his own net, and ended with Palmer sent off; Alonso has confirmed Penders will start on Wednesday all the same (Chelsea FC; Dave.sport). Fifth on thirteen from eight after Liverpool's win over Brighton, they have won two and lost two of their last four league games, beating Bournemouth 5-1 and Everton 2-0 between the defeats at Brentford and at home to Spurs (ESPN). In this competition they have beaten Luton 2-0 and Leeds 6-3 (ESPN). Martínez is out for weeks after jaw surgery, Palmer's one-match ban falls on this tie, and João Pedro, their top league scorer, awaits tests (Dave.sport; LiveScore).",
   shape: "The False 9 expects a 3-4-2-1, and Goal's ratings from the Spurs game describe the same frame: three centre-backs, wing-backs pushed on, two in midfield and a front three that had Palmer and Quenda behind Morgan Rogers as a makeshift nine. Without João Pedro the line had no focal point and Chelsea managed 32 per cent of the ball and 0.46 expected goals (Goal). The pattern that threatens Liverpool is the wing-back running beyond Liverpool's wide forward, Neto on Saturday, Chelsea's best player per Goal, into the space a right-back who is a centre-back by trade has to cover.",
   keyPlayers: [
     {
@@ -1573,7 +1573,7 @@ export const FORM_TRENDS = {
 export const SQUAD_LOAD = {
   generatedAt: "2026-10-25T22:30:00Z",
   headline: "The win over Brighton came with the one injury the closed squad can least afford: Wirtz, its chief creator, off on sixty-five with an ankle twist and a doubt for Chelsea on Wednesday (DAZN; Brit Brief). Szoboszlai and Frimpong are still out and Muñoz is at 25 per cent (The False 9), so the midfield and the right side are being run on the same few players. Chelsea, Arsenal and Fenerbahçe come in eight days (DAZN). Nyoni, who replaced Wirtz and took a knock of his own per SI, is now the first answer in two positions.",
-  minutesNote: "Premier League minutes are not published here yet. Seven league games, three Champions League games and one Carabao Cup tie have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
+  minutesNote: "Premier League minutes are not published here yet. Eight league games, three Champions League games and one Carabao Cup tie have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   unavailable: [
     {
       name: "Florian Wirtz",
@@ -1586,7 +1586,7 @@ export const SQUAD_LOAD = {
       name: "Dominik Szoboszlai",
       issue: "Hamstring, a recurrence of the problem he brought back from Hungary duty",
       expected: "Missed Brighton; 0 per cent for Chelsea on the FPL flag on Sunday evening (The False 9). Arsenal on 1 November is the date Sports Mole has in view; Sky's fuller timeline ran to Fenerbahce on 4 November (DaveOCKOP)",
-      note: "Iraola: 'he hasn't trained with the group still', and 'we will probably take one or two days more than we would last week'; 'He's in a good place' (Hayters via Yahoo Sports).",
+      note: "Iraola, on Friday: 'he hasn't trained with the group still', and 'we will probably take one or two days more than we would last week'; 'He's in a good place' (Hayters via Yahoo Sports).",
       source: "Hayters via Yahoo Sports / Sports Mole / Sky Sports via DaveOCKOP",
     },
     {
@@ -1775,7 +1775,7 @@ export const SEASON_PROJECTION = {
       "label": "Champions League (top 4)",
       "points": 68,
       "gap": 0,
-      "note": "Historical par for the last Champions League place in recent seasons. The pace now clears it by three; holding it means about 1.84 points a game from the remaining thirty. Liverpool hold fourth on the live table, two points above Chelsea."
+      "note": "Historical par for the last Champions League place in recent seasons. The pace now clears it by three; holding it means about 1.77 points a game from the remaining thirty. Liverpool hold fourth on the live table, two points above Chelsea."
     },
     {
       "label": "Europa League (5th)",
