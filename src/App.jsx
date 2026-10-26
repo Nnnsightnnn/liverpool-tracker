@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday evening, and Brighton came to Anfield as the league's top scorers and left with one shot
-          on target. Two goals in four first-half minutes, Gross's deflection and Isak's finish, bought a first
-          home league win since April and fourth place, a point behind them. Wirtz's ankle is the price.
-          Chelsea come on Wednesday, Arsenal on Sunday.
+          Monday, and the week is being decided in a treatment room. Wirtz says the ankle is not too bad;
+          Iraola says it does not look big, and waits like everyone else. Fourth on fifteen, a point behind
+          Brighton, Liverpool have Chelsea in the cup on Wednesday night and Arsenal, without Saka, at
+          Anfield on Sunday.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,24 +606,24 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Evening</span>,{" "}
-              and the result arrived before the performance did. By the twenty-first minute Liverpool were two up,
-              Wirtz's strike turned in by Gross and Barcola's charge-down converted by Isak, and for the hour
-              that followed Brighton had the ball, nearly two-thirds of it, and very little else: seventeen shots,
-              one on target, a post. It was the first league win at Anfield since April and it lifts Liverpool into
-              fourth. Then, just after the hour, Wirtz stretched into a tackle and turned his ankle, and Iraola spent
-              his press conference saying it did not look big while reminding everyone the games come every three
-              days. A clean sheet, a top-four place and a creator in doubt: the week has started early.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and two days before Chelsea the most hopeful word at Liverpool belongs to the player rather than the
+              manager. Florian Wirtz told the BBC his ankle was not too bad; Iraola, more carefully, said it did not
+              look big and that they would see, and the Echo says he will be checked day by day. Behind him the
+              queue is familiar: Szoboszlai without a date, Frimpong until the break, Muñoz perhaps close. Chelsea
+              will come without Palmer, very probably without João Pedro, and with a twenty-one-year-old in goal.
+              In Munich, meanwhile, Uli Hoeness has decided that Liverpool give Wirtz too little of the ball. On
+              Wednesday they would settle for being able to give him any of it.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: two goals in four minutes;
-              a small twist of the ankle; the plan Iraola asked for; a loan defender who plays like
-              a fixture; and a young goalkeeper kept in the side for Anfield. Fourth on fifteen,
-              with Chelsea in the cup on Wednesday and Arsenal on Sunday.
+              five dispatches from the writers who never clock off: an ankle and two verdicts on it;
+              half the goals on barely a third of the ball; a manager who enjoyed the fight; a Bayern
+              grandee with a grievance; and a Chelsea side without a nine. Fourth on fifteen, with the
+              cup on Wednesday night and Arsenal to follow.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3834,7 +3834,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Four minutes, then the long wait."
+        "Not too bad, he said. We'll see."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
