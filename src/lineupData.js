@@ -46,11 +46,11 @@ export const FORMATIONS = {
     // Sun 25 Oct (evening): Brighton played, Liverpool won 2-0 (ESPN). Re-pointed at CHELSEA AT HOME (Carabao Cup R4, Wed 28 Oct, 8pm GMT),
     //   following The False 9's Sunday-evening XI: Nyoni for Wirtz (ankle, doubt), Ngumoha left and Barcola right; Gakpo rested.
     defaultXI: {
-      GK: 1,  // Alisson (The False 9's pick)
+      GK: 2,  // Mamardashvili (Brit Brief; The False 9)
       LB: 7,  // Kerkez (The False 9)
       LCB: 3, // Van Dijk
       RCB: 11, // Jacquet
-      RB: 29, // Araujo (FotMob 7.9 v Brighton)
+      RB: 29, // Araujo (player of the match v Brighton)
       LCM: 13, // Mac Allister
       CM: 14, // Gravenberch
       RCM: 20, // Nyoni (on for Wirtz Sunday)
@@ -98,7 +98,7 @@ export const FORMATIONS = {
     // Sun 25 Oct (evening): Brighton played, Liverpool won 2-0 with Gakpo left and Barcola right (ESPN). Re-pointed at CHELSEA AT HOME
     //   (Carabao Cup R4, Wed 28 Oct, 8pm GMT) on The False 9's XI: Nyoni at ten for Wirtz (ankle, doubt), Ngumoha in for Gakpo.
     defaultXI: {
-      GK: 1,  // Alisson (The False 9)
+      GK: 2,  // Mamardashvili (both Monday previews)
       LB: 7,  // Kerkez
       LCB: 3, // Van Dijk
       RCB: 11, // Jacquet
@@ -136,7 +136,7 @@ export const FORMATIONS = {
     // Tue 20 Oct (evening): re-pointed at Brighton at home; Gomez inside, Araujo at wing-back, Ngumoha right.
     // Sun 25 Oct (evening): re-pointed at Chelsea at home (Carabao Cup); Gomez inside, Araujo at wing-back, Ngumoha left, Barcola right.
     defaultXI: {
-      GK: 1,  // Alisson
+      GK: 2,  // Mamardashvili
       LCB: 3, // Van Dijk
       CCB: 11, // Jacquet
       RCB: 5, // Gomez (unused Sunday, fresh)
@@ -177,33 +177,33 @@ export const FORMATIONS = {
 // Fri Oct 23 (evening): all 27 refreshed for Iraola's Friday presser (Barcola fit, Szoboszlai out, Munoz 'difficult', Gravenberch at RB) and Hurzeler's.
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 export const PLAYER_EVIDENCE = {
-  1:   "Four league clean sheets · in XI",
-  2:   "Cup keeper v Spurs · option",
-  3:   "Back line 'defended the box'",
-  5:   "Fresh · RB and CB cover",
-  7:   "LB · praised by Hürzeler",
-  8:   "Knee · near group training",
-  9:   "Hamstring · after the break",
-  10:  "Knee · training after break",
-  11:  "In cup XI · 6.8 v Brighton",
+  1:   "Rested for cup · Arsenal his",
+  2:   "Cup keeper · both previews",
+  3:   "Brit Brief starts him · cup",
+  5:   "Starts in The False 9's XI",
+  7:   "LB · Tsimikas the rotation",
+  8:   "Knee · after the break",
+  9:   "Hamstring · 22 Nov possible",
+  10:  "Knee · squad mid-December",
+  11:  "In both Monday cup XIs",
   12:  "Levante · whole season",
-  13:  "Pivot · may be spared Wed",
-  14:  "Pivot · Szoboszlai no date",
-  15:  "Hamstring · no return date",
-  17:  "No minutes yet · cup option",
-  18:  "Ankle · 'not too bad' · daily",
-  20:  "At ten if Wirtz misses",
-  22:  "Rested for cup · Arsenal next",
-  23:  "Half the league goals · starts",
-  24:  "Achilles · 'doing very well'",
-  25:  "Sterling comparison · cup start",
-  26:  "Unused Sunday · cup option",
+  13:  "Pivot · Endo may spare him",
+  14:  "Pivot · both Monday XIs",
+  15:  "Hamstring · training alone",
+  17:  "Pivot in The False 9's XI",
+  18:  "Ankle · 'for weeks' · v unlikely",
+  20:  "At ten · both previews",
+  22:  "Rested · kept for Arsenal",
+  23:  "'He will score' · Iraola",
+  24:  "Achilles · 'little bit behind'",
+  25:  "Left side · both cup XIs",
+  26:  "Cup squad option",
   27:  "Third keeper",
-  28:  "Knee · may be close (Brit Brief)",
-  29:  "RB · 'very good in the duels'",
-  30:  "Right side · cup XI",
-  31:  "Cover at nine",
-  32:  "LB cup option",
+  28:  "Knee · training this week?",
+  29:  "RB · 85% POTM vote",
+  30:  "Right side · both cup XIs",
+  31:  "Nine in The False 9's XI",
+  32:  "LB in The False 9's XI",
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -328,16 +328,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Mon Oct 26, morning - Kerkez, named by Hürzeler among the defenders who 'defended well' (Goal), in The False 9's XI; Tsimikas the cup alternative. Medium.",
-  LCB: "Mon Oct 26, morning - Van Dijk, whose back line Hürzeler said 'really defended the box well' on Sunday (Goal); not rotated. High.",
-  RCB: "Mon Oct 26, morning - Jacquet, in The False 9's XI after ninety minutes on Sunday; Gomez the fresh alternative. High.",
-  RB: "Mon Oct 26, morning - Araujo, 'very good in the duels' per Iraola (Brit Brief); Muñoz possibly close but not yet trusted with a start. High.",
-  LDM: "Mon Oct 26, morning - Gravenberch, with Szoboszlai still without a return date (Brit Brief); Endo the rotation option. Medium.",
-  RDM: "Mon Oct 26, morning - Mac Allister, in The False 9's XI, though Arsenal on Sunday makes a rest plausible. Medium.",
-  LAM: "Mon Oct 26, morning - Ngumoha for Gakpo in The False 9's cup XI; compared with Sterling this week (Football Insider via AnfieldWatch). Low.",
-  CAM: "Mon Oct 26, morning - Nyoni, while Wirtz is assessed day by day (Liverpool Echo via Azat TV); if Wirtz says 'not too bad' in training too, he could reclaim it. Low.",
-  RAM: "Mon Oct 26, morning - Barcola, kept on the right in The False 9's XI after making Isak's goal on Sunday. Medium.",
-  ST: "Mon Oct 26, morning - Isak, more than half of Liverpool's league goals (BBC Sport via MyJoyOnline), in The False 9's XI; Koumas the cup alternative. Medium.",
+  LB: "Mon Oct 26, evening - Kerkez in Brit Brief's Monday XI; The False 9 rests him for Tsimikas with Arsenal on Sunday. Medium.",
+  LCB: "Mon Oct 26, evening - Van Dijk in Brit Brief's XI; The False 9 has Gomez, so a rest is in play. High.",
+  RCB: "Mon Oct 26, evening - Jacquet, in both Monday previews (Brit Brief; The False 9). High.",
+  RB: "Mon Oct 26, evening - Araujo, player of the match on Sunday with 85 per cent of the vote (The False 9); Muñoz a major doubt (3 Added Minutes). High.",
+  LDM: "Mon Oct 26, evening - Gravenberch, in both Monday previews, while Szoboszlai trains alone (Evening Standard). Medium.",
+  RDM: "Mon Oct 26, evening - Mac Allister in Brit Brief's XI; Endo replaces him in The False 9's. Medium.",
+  LAM: "Mon Oct 26, evening - Ngumoha on the left in both Monday XIs, Gakpo kept for Arsenal. Low.",
+  CAM: "Mon Oct 26, evening - Nyoni, because Wirtz is very unlikely (3 Added Minutes) with an ankle he says has troubled him for weeks (Sport Witness). Low.",
+  RAM: "Mon Oct 26, evening - Barcola, on the right in both Monday previews. Medium.",
+  ST: "Mon Oct 26, evening - Isak in Brit Brief's XI; Koumas leads the line in The False 9's. Medium.",
 };
 
 
@@ -346,7 +346,7 @@ export const SLOT_RATIONALE = {
 // initially. The UI shows these on hover as "Also considered". Keyed to
 // 4-2-3-1 (the season-closing baseline shape).
 export const ALTERNATIVES = {
-  GK:  [{ playerId: 2, reason: "Mamardashvili · unused Sunday, cup keeper" }, { playerId: 27, reason: "Woodman · third-choice" }],
+  GK:  [{ playerId: 1, reason: "Alisson · Brighton clean sheet, Arsenal next" }, { playerId: 27, reason: "Woodman · third-choice" }],
   LB:  [{ playerId: 32, reason: "Tsimikas · on late v Brighton" }],
   LCB: [{ playerId: 5, reason: "Gomez · senior centre-back cover" }],
   RCB: [{ playerId: 5, reason: "Gomez · unused Sunday, fresh" }],
@@ -354,7 +354,7 @@ export const ALTERNATIVES = {
   LDM: [{ playerId: 17, reason: "Endo · unused Sunday, no minutes yet" }],
   RDM: [{ playerId: 17, reason: "Endo · rotation with Arsenal next" }],
   LAM: [{ playerId: 22, reason: "Gakpo · started v Brighton" }],
-  CAM: [{ playerId: 18, reason: "Wirtz · ankle, 75% on FPL flag" }],
+  CAM: [{ playerId: 18, reason: "Wirtz · ankle, very unlikely (3AM)" }],
   RAM: [{ playerId: 22, reason: "Gakpo · can play right" }, { playerId: 28, reason: "Munoz · knee, 25%" }],
   ST:  [{ playerId: 31, reason: "Koumas · on for Isak Sunday" }, { playerId: 30, reason: "Barcola · the alternative nine" }],
 };
@@ -364,6 +364,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  generated_at: "2026-10-26T08:45:00Z",
-  reason: "Mon Oct 26, morning. Chelsea at Anfield, Carabao Cup, Wed 28 Oct, 8pm. No new Liverpool preview since Sunday, so the sheet stays on The False 9's XI: nine of Sunday's starters, Nyoni for Wirtz (assessed daily, 'not too bad' in his own words) and Ngumoha for Gakpo. Low: a cup tie three days before Arsenal, with Wirtz and Muñoz both undecided.",
+  generated_at: "2026-10-26T22:30:00Z",
+  reason: "Mon Oct 26, evening. Chelsea at Anfield, Carabao Cup, Wed 28 Oct, 8pm. The sheet follows Brit Brief's Monday XI: nine of Sunday's starters, Mamardashvili for Alisson, Nyoni for Wirtz (very unlikely, per 3 Added Minutes) and Ngumoha for Gakpo. Low: The False 9 rotates four more (Gomez, Tsimikas, Endo, Koumas), and Iraola has not spoken since Sunday.",
 };

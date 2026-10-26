@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, and the week is being decided in a treatment room. Wirtz says the ankle is not too bad;
-          Iraola says it does not look big, and waits like everyone else. Fourth on fifteen, a point behind
-          Brighton, Liverpool have Chelsea in the cup on Wednesday night and Arsenal, without Saka, at
-          Anfield on Sunday.
+          Tonight the ankle turns out to have a history. Wirtz says he has been twisting it for weeks and had
+          not been tested; the previews have already written him out of Wednesday. Fourth on fifteen, Liverpool
+          meet Chelsea in the cup in two days, Arsenal at Anfield on Sunday, and Iraola speaks at half past
+          twelve tomorrow.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,24 +606,24 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and two days before Chelsea the most hopeful word at Liverpool belongs to the player rather than the
-              manager. Florian Wirtz told the BBC his ankle was not too bad; Iraola, more carefully, said it did not
-              look big and that they would see, and the Echo says he will be checked day by day. Behind him the
-              queue is familiar: Szoboszlai without a date, Frimpong until the break, Muñoz perhaps close. Chelsea
-              will come without Palmer, very probably without João Pedro, and with a twenty-one-year-old in goal.
-              In Munich, meanwhile, Uli Hoeness has decided that Liverpool give Wirtz too little of the ball. On
-              Wednesday they would settle for being able to give him any of it.
+              <span style={{ fontStyle: "italic", color: T.red }}>Evening</span>,{" "}
+              and the injury that was a twist on Sunday has become, in Florian Wirtz's own telling, a pattern. He told
+              German television he had been turning the ankle for weeks and needed to get it sorted, and that nobody
+              had yet tested it; by lunchtime one outlet had him very unlikely for Chelsea, and by teatime another had
+              moved him to Sunday. Iraola will be asked about it at half past twelve tomorrow. The previews have
+              already made their peace: Mamardashvili in goal, Nyoni at ten, Araújo, the supporters' choice by
+              eighty-five per cent, at right-back again. Chelsea have their own absentee, João Pedro, and their own
+              manager coming home. A cup tie, then, between two sides missing the men who make them go.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: an ankle and two verdicts on it;
-              half the goals on barely a third of the ball; a manager who enjoyed the fight; a Bayern
-              grandee with a grievance; and a Chelsea side without a nine. Fourth on fifteen, with the
-              cup on Wednesday night and Arsenal to follow.
+              five dispatches from the writers who never clock off: an ankle with a history;
+              a manager's Tuesday; right-backs already for January; five balls won high on a
+              third of the ball; and Alonso's return without his striker. Fourth on fifteen, with
+              the cup on Wednesday night and Arsenal to follow.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3834,7 +3834,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Not too bad, he said. We'll see."
+        "The ankle, it turns out, has a history."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
