@@ -1106,7 +1106,7 @@ export const NEWS_DIGEST = {
       detail: "Published at 6.04am on Monday: Brit Brief reports Iraola suggested Muñoz may be close to a return for Chelsea or Arsenal after more than a week out with the knee knock from Brentford. Szoboszlai has missed four matches and has no return date; Frimpong is 'difficult' before the November break; Bradley is 'not so far from training with the group'; Leoni is about a month behind schedule but on track for team training after the break.",
     },
     {
-      title: "João Pedro Out, Chavarria And Emegha Near Returns For Chelsea (Brit Brief, today)",
+      title: "João Pedro Listed Out, Chavarria And Emegha Near Returns For Chelsea (Brit Brief, today)",
       category: "matches",
       detail: "Published at 5.20am on Monday: Brit Brief lists João Pedro out, his scans delayed by fluid build-up; Alonso: 'We don't know yet because he has a lot of fluid.' Chavarria is back in partial training and Emegha is 'feeling better, but we need to wait', both possible for Wednesday. Gittens (ankle, England Under-21 duty) and Reece James (knee surgery, mid-January) are out alongside the suspended Palmer and Martínez.",
     },
@@ -1306,7 +1306,7 @@ export const FORM_TRENDS = {
         "label": "Winning without the ball",
         "severity": "medium",
         "source": "ESPN / SI (FotMob)",
-        "detail": "Against Brighton Liverpool had 35.6 per cent possession, 69 per cent pass accuracy and 35 clearances to Brighton's eighteen (ESPN; SI), and were out-created 1.35 to 0.87 on FotMob's model (SI). It worked because Brighton managed one shot on target; it is not a method that survives a sharper opponent, and Arsenal are next."
+        "detail": "Against Brighton Liverpool had 35.6 per cent possession, 69 per cent pass accuracy and 35 clearances to Brighton's eighteen (ESPN; SI), and were out-created 1.35 to 0.87 on FotMob's model (SI). It worked because Brighton managed one shot on target; it is not a method that survives a sharper opponent, and Arsenal are next in the league."
     },
     {
         "label": "The fast start, at last",
@@ -1730,7 +1730,7 @@ export const SQUAD_LOAD = {
     {
         "position": "Centre-back",
         "level": "high",
-        "detail": "High. Van Dijk and Jacquet, Gomez the only fresh senior cover while Araújo plays right-back; Leoni plays in January at the earliest (Rush The Kop)."
+        "detail": "High. Van Dijk and Jacquet, Gomez the only fresh senior cover while Araújo plays right-back; Leoni is on track for team training after the November break, with December possible for matches (Brit Brief)."
     },
     {
         "position": "Centre-forward",
