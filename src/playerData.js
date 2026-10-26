@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Mon Oct 26, evening - Knee: full training now expected during the November break and a matchday squad in mid-to-late December, barring setbacks (3 Added Minutes).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Mon Oct 26, evening - Knee: team training around the November break (during it per 3 Added Minutes, after it per Brit Brief), a matchday squad in December at the earliest.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -1692,7 +1692,7 @@ export const SQUAD_LOAD = {
       name: "Ryan Gravenberch",
       issue: "No injury",
       status: "Ninety minutes in the pivot against Brighton, FotMob 7.3, 'disciplined positionally' (SI)",
-      note: "Still the named emergency right-back; with Wirtz doubtful he is more likely to stay in midfield.",
+      note: "Still the named emergency right-back; with Wirtz very unlikely he is more likely to stay in midfield.",
       source: "SI",
     },
     {
@@ -1888,7 +1888,7 @@ export const SEASON_PROJECTION = {
       "difficulty": "hard"
     }
   ],
-  "runInVerdict": "Sunday's visit of Arsenal decides the shape of the six. They come without Saka and, on the FPL flags, Saliba (The False 9); a win leaves Liverpool three off the top, a defeat nine, before a softer stretch of Palace away, Manchester United and Sunderland at home and Everton away (ESPN; Empire of the Kop for the December dates). Chelsea away on 5 December closes it, a month after Wednesday's cup meeting.",
+  "runInVerdict": "Sunday's visit of Arsenal decides the shape of the six. They come without Saka and, on the FPL flags, Saliba (The False 9); a win leaves Liverpool three behind Arsenal, a defeat nine, before a softer stretch of Palace away, Manchester United and Sunderland at home and Everton away (ESPN; Empire of the Kop for the December dates). Chelsea away on 5 December closes it, a month after Wednesday's cup meeting.",
   "sources": [
     "ESPN",
     "SI",

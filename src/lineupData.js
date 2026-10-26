@@ -106,7 +106,7 @@ export const FORMATIONS = {
       LDM: 14, // Gravenberch
       RDM: 13, // Mac Allister
       LAM: 25, // Ngumoha (Gakpo rested)
-      CAM: 20, // Nyoni (Wirtz a doubt)
+      CAM: 20, // Nyoni (Wirtz very unlikely)
       RAM: 30, // Barcola
       ST: 23, // Isak
     },
