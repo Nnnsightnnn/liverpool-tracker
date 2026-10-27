@@ -570,10 +570,10 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tonight the ankle turns out to have a history. Wirtz says he has been twisting it for weeks and had
-          not been tested; the previews have already written him out of Wednesday. Fourth on fifteen, Liverpool
-          meet Chelsea in the cup in two days, Arsenal at Anfield on Sunday, and Iraola speaks at half past
-          twelve tomorrow.
+          This morning the question is about contracts, not ankles. Football Insider reports that Van Dijk
+          and Gomez are expected to leave for free next summer, and the club has said nothing either way.
+          Fourth on fifteen, Liverpool meet Chelsea in the cup tomorrow night and Arsenal on Sunday; Iraola
+          speaks at half past twelve today.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,24 +606,25 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Evening</span>,{" "}
-              and the injury that was a twist on Sunday has become, in Florian Wirtz's own telling, a pattern. He told
-              German television he had been turning the ankle for weeks and needed to get it sorted, and that nobody
-              had yet tested it; by lunchtime one outlet had him very unlikely for Chelsea, and by teatime another had
-              moved him to Sunday. Iraola will be asked about it at half past twelve tomorrow. The previews have
-              already made their peace: Mamardashvili in goal, Nyoni at ten, Araújo, the supporters' choice by
-              eighty-five per cent, at right-back again. Chelsea have their own absentee, João Pedro, and their own
-              manager coming home. A cup tie, then, between two sides missing the men who make them go.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and a report has put a date on something Anfield had been quietly counting towards. Football Insider
+              says Virgil van Dijk and Joe Gomez are expected to leave for free when their contracts run out next
+              summer; the club has said nothing, and a report is only a report. The captain is thirty-five and still
+              the fixed point of a back four built around absences, with a Barcelona loanee, shortlisted this week for
+              the league's player of the matchweek, at right-back in it. By breakfast one outlet's model had already
+              found his successor at Brighton. Iraola speaks at half past twelve, Wirtz a major doubt and Chelsea's
+              João Pedro expected to miss two games at least. Succession can wait for the summer; Chelsea will not
+              wait past Wednesday.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: an ankle with a history;
-              a manager's Tuesday; right-backs already for January; five balls won high on a
-              third of the ball; and Alonso's return without his striker. Fourth on fifteen, with
-              the cup on Wednesday night and Arsenal to follow.
+              five dispatches from the writers who never clock off: two contracts and one summer;
+              two press rooms on one Tuesday; seventy-five per cent of a ten; an old captain in
+              the other shirt; and a loanee on the league's shortlist. Fourth on fifteen, with
+              Chelsea in the cup tomorrow night and Arsenal on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3834,7 +3835,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The ankle, it turns out, has a history."
+        "Every captain's contract ends in a summer."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

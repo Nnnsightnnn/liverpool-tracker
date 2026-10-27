@@ -106,7 +106,7 @@ export const FORMATIONS = {
       LDM: 14, // Gravenberch
       RDM: 13, // Mac Allister
       LAM: 25, // Ngumoha (Gakpo rested)
-      CAM: 20, // Nyoni (Wirtz very unlikely)
+      CAM: 20, // Nyoni (Wirtz a major doubt)
       RAM: 30, // Barcola
       ST: 23, // Isak
     },
@@ -177,33 +177,33 @@ export const FORMATIONS = {
 // Fri Oct 23 (evening): all 27 refreshed for Iraola's Friday presser (Barcola fit, Szoboszlai out, Munoz 'difficult', Gravenberch at RB) and Hurzeler's.
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 export const PLAYER_EVIDENCE = {
-  1:   "Rested for cup · Arsenal his",
-  2:   "Cup keeper · both previews",
-  3:   "Brit Brief starts him · cup",
-  5:   "Starts in The False 9's XI",
-  7:   "LB · Tsimikas the rotation",
-  8:   "Knee · after the break",
-  9:   "Hamstring · 22 Nov possible",
-  10:  "Knee · squad mid-December",
-  11:  "In both Monday cup XIs",
-  12:  "Levante · whole season",
-  13:  "Pivot · Endo may spare him",
-  14:  "Pivot · both Monday XIs",
-  15:  "Hamstring · training alone",
-  17:  "Pivot in The False 9's XI",
-  18:  "Ankle · 'for weeks' · v unlikely",
-  20:  "At ten · both previews",
-  22:  "Rested · kept for Arsenal",
-  23:  "'He will score' · Iraola",
-  24:  "Achilles · 'little bit behind'",
-  25:  "Left side · both cup XIs",
-  26:  "Cup squad option",
-  27:  "Third keeper",
-  28:  "Knee · training this week?",
-  29:  "RB · 85% POTM vote",
-  30:  "Right side · both cup XIs",
-  31:  "Nine in The False 9's XI",
-  32:  "LB in The False 9's XI",
+  1:   "Rested in Sports Mole's cup XI",
+  2:   "Cup keeper · every preview",
+  3:   "Free exit next summer? (FI)",
+  5:   "CB in Sports Mole's XI",
+  7:   "LB · Sports Mole and Goal",
+  8:   "Knee · 22 Nov on Sports Mole",
+  9:   "Hamstring · end of November",
+  10:  "Knee · 'more time than we wanted'",
+  11:  "In every Chelsea XI found",
+  12:  "Levante loan · no change",
+  13:  "Pivot · every preview starts him",
+  14:  "Rested in Sports Mole's XI",
+  15:  "Hamstring · out of the cup",
+  17:  "Only The False 9 starts him",
+  18:  "Ankle · major doubt · FPL 75%",
+  20:  "Ten here · pivot for Sports Mole",
+  22:  "Left side in Sports Mole's XI",
+  23:  "Rested in Sports Mole's XI",
+  24:  "Achilles · 26 Dec possible",
+  25:  "Left in two previews",
+  26:  "In contention (Echo)",
+  27:  "Third keeper · no change",
+  28:  "Knee · still in pain",
+  29:  "RB · POTW shortlist",
+  30:  "Rested in Sports Mole's XI",
+  31:  "Nine in Sports Mole's XI",
+  32:  "LB in one preview only",
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -296,6 +296,9 @@ export const PLAYER_EVIDENCE = {
 // Sun Oct 25 (evening): Brighton played, Liverpool won 2-0 (ESPN). Re-pointed at Chelsea at home, Carabao Cup fourth round, Wed 28 Oct, 8pm.
 //   TWO personnel changes from the eleven that started v Brighton, following The False 9's Sunday-evening XI: Nyoni for Wirtz (ankle)
 //   and Ngumoha for Gakpo; Barcola stays on the right. Overall Low: a cup tie between two league games, Wirtz undecided.
+// Tue Oct 27 (morning): no personnel change. Sports Mole's XI (Mon 3.29pm) rotates heavily: Gomez, McConnell, Gakpo and Koumas
+//   start and Nyoni drops into the pivot; Goal's (Tue) keeps Alisson and Wirtz. Held at Brit Brief's Monday sheet
+//   until Iraola's 12.30pm presser. Wirtz a major doubt (Sports Mole). Overall Low.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -324,20 +327,20 @@ export const SLOT_CONFIDENCE = {
 
 
 // ─── Per-slot rationale ────────────────────────────────────
-// The editorial note shown beneath each slot. Refreshed by the daily run. Re-pointed Sun Oct 25 (evening) at Chelsea in the Carabao Cup after Liverpool 2-0 Brighton, against The False 9's XI. Previously reviewed Sun Oct 25 (morning, matchday) for Brighton against Liverpool.com's 6am XI and Dave.sport's preview. Previously reviewed Sat Oct 24 (morning) for Brighton against Saturday's three predicted XIs (Sports Mole; The False 9; The Hard Tackle). Previously reviewed Fri Oct 23 (evening) for Brighton against Iraola's Friday press conference. Previously reviewed Fri Oct 23 (morning) for Brighton against the Evening Standard's predicted XI. Previously reviewed Thu Oct 22 (evening) for Brighton against Thursday's training reports (Sky Sports; Liverpool Echo). Previously reviewed Thu Oct 22 (morning) for Brighton against Brit Brief's preview and The False 9's FPL figures. Previously reviewed Wed Oct 21 (evening) for Brighton against Rush The Kop's injury list; no new preview. Previously reviewed Wed Oct 21 (morning) for Brighton after Iraola's explanations of Tuesday's selection; no new preview. Previously reviewed Tue Oct 20 (evening) for Brighton at home, after Liverpool 4-3 Villarreal, against Squawka's Brighton XI. Previously reviewed Mon Oct 19 (morning) for Villarreal against Sports Mole's Monday XI and The Stats Zone's preview. Previously reviewed Sun Oct 18 (evening) for Villarreal against Eurosport's and Sports Mole's evening XIs. Previously reviewed Sun Oct 18 (morning) for Villarreal. Previously reviewed Sat Oct 17 (evening), after Brentford 1-2 Liverpool, for Villarreal. Previously reviewed Sat Oct 17 (morning, matchday) against the Liverpool Echo's four XIs (Brit Brief) and The Football Faithful's preview.
+// The editorial note shown beneath each slot. Refreshed by the daily run. Reviewed Tue Oct 27 (morning) for Chelsea against Sports Mole's and Goal's XIs; no personnel change. Re-pointed Sun Oct 25 (evening) at Chelsea in the Carabao Cup after Liverpool 2-0 Brighton, against The False 9's XI. Previously reviewed Sun Oct 25 (morning, matchday) for Brighton against Liverpool.com's 6am XI and Dave.sport's preview. Previously reviewed Sat Oct 24 (morning) for Brighton against Saturday's three predicted XIs (Sports Mole; The False 9; The Hard Tackle). Previously reviewed Fri Oct 23 (evening) for Brighton against Iraola's Friday press conference. Previously reviewed Fri Oct 23 (morning) for Brighton against the Evening Standard's predicted XI. Previously reviewed Thu Oct 22 (evening) for Brighton against Thursday's training reports (Sky Sports; Liverpool Echo). Previously reviewed Thu Oct 22 (morning) for Brighton against Brit Brief's preview and The False 9's FPL figures. Previously reviewed Wed Oct 21 (evening) for Brighton against Rush The Kop's injury list; no new preview. Previously reviewed Wed Oct 21 (morning) for Brighton after Iraola's explanations of Tuesday's selection; no new preview. Previously reviewed Tue Oct 20 (evening) for Brighton at home, after Liverpool 4-3 Villarreal, against Squawka's Brighton XI. Previously reviewed Mon Oct 19 (morning) for Villarreal against Sports Mole's Monday XI and The Stats Zone's preview. Previously reviewed Sun Oct 18 (evening) for Villarreal against Eurosport's and Sports Mole's evening XIs. Previously reviewed Sun Oct 18 (morning) for Villarreal. Previously reviewed Sat Oct 17 (evening), after Brentford 1-2 Liverpool, for Villarreal. Previously reviewed Sat Oct 17 (morning, matchday) against the Liverpool Echo's four XIs (Brit Brief) and The Football Faithful's preview.
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Mon Oct 26, evening - Kerkez in Brit Brief's Monday XI; The False 9 rests him for Tsimikas with Arsenal on Sunday. Medium.",
-  LCB: "Mon Oct 26, evening - Van Dijk in Brit Brief's XI; The False 9 has Gomez, so a rest is in play. High.",
-  RCB: "Mon Oct 26, evening - Jacquet, in both Monday previews (Brit Brief; The False 9). High.",
-  RB: "Mon Oct 26, evening - Araujo, player of the match on Sunday with 85 per cent of the vote (The False 9); Muñoz a major doubt (3 Added Minutes). High.",
-  LDM: "Mon Oct 26, evening - Gravenberch, in both Monday previews, while Szoboszlai trains alone (Evening Standard). Medium.",
-  RDM: "Mon Oct 26, evening - Mac Allister in Brit Brief's XI; Endo replaces him in The False 9's. Medium.",
-  LAM: "Mon Oct 26, evening - Ngumoha on the left in both Monday XIs, Gakpo kept for Arsenal. Low.",
-  CAM: "Mon Oct 26, evening - Nyoni, because Wirtz is very unlikely (3 Added Minutes) with an ankle he says has troubled him for weeks (Sport Witness). Low.",
-  RAM: "Mon Oct 26, evening - Barcola, on the right in both Monday previews. Medium.",
-  ST: "Mon Oct 26, evening - Isak in Brit Brief's XI; Koumas leads the line in The False 9's. Medium.",
+  LB: "Tue Oct 27, morning - Kerkez, at left-back in Sports Mole's and Goal's Chelsea XIs; Tsimikas only in The False 9's. Medium.",
+  LCB: "Tue Oct 27, morning - Van Dijk, kept here; Sports Mole rests him for Gomez, and Football Insider reports he is expected to leave for free next summer (via AnfieldWatch). High.",
+  RCB: "Tue Oct 27, morning - Jacquet, in every Chelsea XI found (Sports Mole; Goal; Brit Brief; The False 9). High.",
+  RB: "Tue Oct 27, morning - Araujo, right-back in every preview and shortlisted for the league's Player of the Matchweek (Liverpool FC); Muñoz still in pain (Rush The Kop). High.",
+  LDM: "Tue Oct 27, morning - Gravenberch, kept; Sports Mole uses Nyoni beside Mac Allister instead. Medium.",
+  RDM: "Tue Oct 27, morning - Mac Allister, the one midfielder every preview starts. Medium.",
+  LAM: "Tue Oct 27, morning - Ngumoha, on the left for Brit Brief and The False 9; Sports Mole starts Gakpo there. Low.",
+  CAM: "Tue Oct 27, morning - Nyoni, because Wirtz is a major doubt (Sports Mole); Sports Mole tries McConnell at ten. Low.",
+  RAM: "Tue Oct 27, morning - Barcola, on the right for Brit Brief, The False 9 and Goal; Sports Mole rests him. Medium.",
+  ST: "Tue Oct 27, morning - Isak, kept; Koumas leads the line for Sports Mole and The False 9. Medium.",
 };
 
 
@@ -354,7 +357,7 @@ export const ALTERNATIVES = {
   LDM: [{ playerId: 17, reason: "Endo · unused Sunday, no minutes yet" }],
   RDM: [{ playerId: 17, reason: "Endo · rotation with Arsenal next" }],
   LAM: [{ playerId: 22, reason: "Gakpo · started v Brighton" }],
-  CAM: [{ playerId: 18, reason: "Wirtz · ankle, very unlikely (3AM)" }],
+  CAM: [{ playerId: 18, reason: "Wirtz · ankle, major doubt (Sports Mole)" }],
   RAM: [{ playerId: 22, reason: "Gakpo · can play right" }, { playerId: 28, reason: "Munoz · knee, 25%" }],
   ST:  [{ playerId: 31, reason: "Koumas · on for Isak Sunday" }, { playerId: 30, reason: "Barcola · the alternative nine" }],
 };
@@ -364,6 +367,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  generated_at: "2026-10-26T22:30:00Z",
-  reason: "Mon Oct 26, evening. Chelsea at Anfield, Carabao Cup, Wed 28 Oct, 8pm. The sheet follows Brit Brief's Monday XI: nine of Sunday's starters, Mamardashvili for Alisson, Nyoni for Wirtz (very unlikely, per 3 Added Minutes) and Ngumoha for Gakpo. Low: The False 9 rotates four more (Gomez, Tsimikas, Endo, Koumas), and Iraola has not spoken since Sunday.",
+  generated_at: "2026-10-27T08:30:00Z",
+  reason: "Tue Oct 27, morning. Chelsea at Anfield, Carabao Cup, Wed 28 Oct, 8pm. Held at Brit Brief's Monday XI: nine of Sunday's starters, Mamardashvili for Alisson, Nyoni for Wirtz (a major doubt, Sports Mole) and Ngumoha for Gakpo. Low: Sports Mole's XI rotates five more (Gomez, Nyoni in the pivot, McConnell, Gakpo, Koumas), and Iraola speaks at 12.30pm today.",
 };

@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Mon Oct 26, evening - Brit Brief and The False 9 both rest him for the cup on Monday's previews; Arsenal on Sunday is his, after a fourth league clean sheet in eight.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Tue Oct 27, morning - Sports Mole's Monday-afternoon preview rests him for the cup with Arsenal on Sunday in view; Goal's alone keeps him in goal.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 26, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Mon Oct 26, evening - Named in goal for Chelsea by both Monday previews (Brit Brief; The False 9); kept the third-round win over Spurs in September.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 26, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Tue Oct 27, morning - In goal in Sports Mole's Chelsea XI as well as both Monday previews; his last start was the 3-1 over Spurs in this competition.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Mon Oct 26, evening - Starts in Brit Brief's cup XI, rested in The False 9's for Gomez; the fixed point of a back four still built around absences.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Tue Oct 27, morning - Football Insider, via AnfieldWatch on Monday evening, says he is expected to leave for free when his deal ends next summer; no club comment. Rested in Sports Mole's cup XI.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Mon Oct 26, evening - The False 9 starts him beside Jacquet on Wednesday; still the only senior cover at both right-back and centre-back.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Tue Oct 27, morning - Named with Van Dijk in Football Insider's claim of two free exits next summer (via AnfieldWatch); starts at centre-back in Sports Mole's Chelsea XI.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -54,7 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Mon Oct 26, evening - In Brit Brief's Chelsea XI, rested in The False 9's for Tsimikas; one of the defenders Hürzeler singled out on Sunday (Goal).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Tue Oct 27, morning - Keeps left-back in Sports Mole's and Goal's XIs for Chelsea; Tsimikas is the rotation if Iraola looks after Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Mon Oct 26, evening - Knee: progressing but not expected back in competitive football until after the November break (Evening Standard); December the likelier date.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Tue Oct 27, morning - Knee: Sports Mole's list gives Manchester United on 22 November as the possible return; Rush The Kop says December, or slightly earlier.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Mon Oct 26, evening - Hamstring: targeting a return after the November break, with Manchester United on 22 November a possibility (3 Added Minutes).", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Tue Oct 27, morning - Hamstring: out until the end of November on Rush The Kop's list; 22 November, United at home, on Sports Mole's.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Mon Oct 26, evening - Knee: team training around the November break (during it per 3 Added Minutes, after it per Brit Brief), a matchday squad in December at the earliest.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Tue Oct 27, morning - Knee: Iraola's 'taking more time than we wanted', quoted by Sports Mole, which lists 2 January at Coventry as the possible return.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Mon Oct 26, evening - In both Monday XIs for Chelsea (Brit Brief; The False 9) after ninety minutes against Brighton.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Tue Oct 27, morning - In every published Chelsea XI found (Sports Mole; Goal; Brit Brief; The False 9); Van Dijk praised him as 'a fantastic player' in the club's Monday Q&A (via The False 9).", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Mon Oct 26, evening - Levante loan for the season; nothing new.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Tue Oct 27, morning - Season-long loan at Levante; no change.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -111,7 +111,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Mon Oct 26, evening - Starts at left-back in The False 9's rotated cup XI; Brit Brief keeps Kerkez.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
+    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Tue Oct 27, morning - Left-back in The False 9's rotated XI only; Sports Mole and Goal keep Kerkez.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
     physical: { height: 178, weight: 76, pace: 79, acceleration: 80, sprintSpeed: 78 },
     career: [
       { years: "2017-2020", club: "Olympiacos", fee: null, type: "senior" },
@@ -122,7 +122,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Mon Oct 26, evening - Starts in Brit Brief's XI, rested for Endo in The False 9's; with Szoboszlai training alone, the senior midfielder the week leans on.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Tue Oct 27, morning - Partners Nyoni in Sports Mole's Chelsea XI; the one senior midfielder every preview starts.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Mon Oct 26, evening - In the pivot in both Monday previews; the emergency right-back idea stays shelved while Araújo plays there.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Tue Oct 27, morning - Rested in Sports Mole's Chelsea XI, which uses Nyoni and Mac Allister as the pivot; kept in it here.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "injured", outSince: "2026-10-17", injuryNote: "Mon Oct 26, evening - Hamstring: training alone and due to rejoin the group, Arsenal on Sunday the possible return (Evening Standard); expected to be rested midweek (3 Added Minutes).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "injured", outSince: "2026-10-17", injuryNote: "Tue Oct 27, morning - Hamstring: Sports Mole lists him out for the cup with Arsenal on 1 November the possible return; Rush The Kop says the problem is not worse but needs time.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Mon Oct 26, evening - Partners Gravenberch in The False 9's Chelsea XI, which would be his first minutes of the season.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Tue Oct 27, morning - Not in Sports Mole's or Goal's Chelsea XIs; The False 9 alone gives him a first start of the season.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -163,7 +163,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "doubtful", injuryNote: "Mon Oct 26, evening - Ankle: says he has been twisting it 'a bit over the last few weeks' and had not yet been tested (Sport Witness); very unlikely for Chelsea per 3 Added Minutes.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "doubtful", injuryNote: "Tue Oct 27, morning - Ankle: a major doubt with Arsenal on 1 November the possible return (Sports Mole), 'will be assessed' (Rush The Kop), 75 per cent on the FPL flag (Sky Sports via The False 9).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -172,7 +172,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Mon Oct 26, evening - At ten in both Monday previews for Chelsea (Brit Brief; The False 9), the job he took over from Wirtz on Sunday.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
+    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Tue Oct 27, morning - In the pivot in Sports Mole's Chelsea XI rather than at ten; the role here stays the ten if Wirtz is out.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
     physical: { height: 178, weight: 68, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Leicester City Academy", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Mon Oct 26, evening - Left out of both Monday cup XIs; Arsenal on Sunday is the game he is being kept for.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Tue Oct 27, morning - On the left in Sports Mole's Chelsea XI, against the Monday previews that kept him for Arsenal.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Mon Oct 26, evening - Iraola: 'he will score the goals' if the side gives him the crosses (News Wires); leads the line in Brit Brief's XI, rested in The False 9's.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Tue Oct 27, morning - Rested in Sports Mole's Chelsea XI, Koumas leading the line; scored in three league games running before the cup.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Mon Oct 26, evening - Achilles: Iraola says 'doing very well' but 'a little bit behind' (Evening Standard); the New Year remains the timeline.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Tue Oct 27, morning - Achilles: 26 December, Hull at home, the possible return on Sports Mole's list; December on Rush The Kop's.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -213,7 +213,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Mon Oct 26, evening - On the left in both Monday Chelsea XIs (Brit Brief; The False 9).", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Tue Oct 27, morning - On the left in Brit Brief's and The False 9's XIs, on the right side of Sports Mole's front three.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Mon Oct 26, evening - Leads the line in The False 9's rotated Chelsea XI; the cup is where his minutes are.", image: "",
+    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Tue Oct 27, morning - Up front in Sports Mole's Chelsea XI, the second preview to start him.", image: "",
     physical: { height: 180, weight: 73, pace: 80, acceleration: 81, sprintSpeed: 79 },
     career: [
       { years: "2013-", club: "Liverpool", fee: null, type: "youth" },
@@ -231,7 +231,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Mon Oct 26, evening - A domestic-cup squad option, not on the Champions League list; neither Monday preview starts him.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Tue Oct 27, morning - In contention for the cup, per the Liverpool Echo (via LiveScore); not in any published XI.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -242,7 +242,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Mon Oct 26, evening - Third-choice goalkeeper; no change.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Tue Oct 27, morning - Third-choice goalkeeper; no change.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -259,7 +259,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "doubtful", injuryNote: "Mon Oct 26, evening - Knee: a major doubt for Chelsea who should return to training this week (3 Added Minutes); held out of Wednesday's XI here.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "doubtful", injuryNote: "Tue Oct 27, morning - Knee: still in pain from the Brentford knock (Rush The Kop), a major doubt but not ruled out (Sports Mole); held out of the cup XI here.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -269,7 +269,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Mon Oct 26, evening - Player of the match against Brighton with 85 per cent of the vote, his second this season (The False 9); right-back again in both Monday previews.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
+    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Tue Oct 27, morning - Shortlisted for the Premier League's Player of the Matchweek for Brighton (Liverpool FC); right-back in every Chelsea XI found.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
     physical: { height: 188, weight: 79, pace: 78, acceleration: 74, sprintSpeed: 80 },
     career: [
       { years: "2016-2018", club: "Rentistas", fee: null, type: "youth" },
@@ -279,7 +279,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Mon Oct 26, evening - On the right in both Monday Chelsea XIs (Brit Brief; The False 9), after the cross for Isak's goal.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
+    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Tue Oct 27, morning - Rested in Sports Mole's Chelsea XI; on the right in Brit Brief's, The False 9's and Goal's.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
     physical: { height: 182, weight: 72, pace: 91, acceleration: 92, sprintSpeed: 90 },
     career: [
       { years: "2010-2020", club: "Lyon Academy", fee: null, type: "youth" },
@@ -398,7 +398,10 @@ export const COVER_IMAGE = {
   alt: "Editorial plate: an empty pitch under floodlights seen from the gantry, the white lines drawn in perspective through a low mist, the stand beyond in shadow.",
   focus: "Anfield, after dark",
   credit: "Editorial plate",
-  generatedAt: "2026-10-26T22:30:00Z",
+  generatedAt: "2026-10-27T08:30:00Z",
+  // Morning pass (Tue 27 October, ~4am ET, cloud-scheduled): NO LIVERPOOL MATCH. Lead moves to Football Insider's claim (via AnfieldWatch) that Van Dijk
+  // and Gomez are expected to leave for free next summer. A contract report, not a photographable moment. Plate carried, Track 2 request untouched
+  // apart from leadStory; NO image queued (STEP 7.5 not runnable in cloud).
   // Evening pass (Mon 26 October, ~6pm ET, cloud-scheduled): NO LIVERPOOL MATCH. Lead moves on: Wirtz says he has been twisting the ankle
   // for weeks and had not been tested (Sky Deutschland/Sport1 via Sport Witness); 3 Added Minutes calls him very unlikely for Chelsea. Fitness
   // news, not a photographable moment. Plate carried, Track 2 request untouched apart from leadStory; NO image queued (STEP 7.5 not runnable in cloud).
@@ -955,7 +958,8 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-10-26 (Monday evening, ~6pm ET). Re-fetched from ESPN, byte-identical to Sunday evening; no league game on Monday.
+// Last refresh: 2026-10-27 (Tuesday morning, ~4am ET). Re-fetched from ESPN, byte-identical to Monday evening; no league game until Sunday.
+// Prior refresh: 2026-10-26 (Monday evening, ~6pm ET). Re-fetched from ESPN, byte-identical to Sunday evening; no league game on Monday.
 // Prior refresh: 2026-10-25 (Sunday evening, ~6pm ET). Re-fetched from ESPN after Sunday's five games: LIVERPOOL 2-0 Brighton, Man Utd 0-3
 // Bournemouth, Palace 0-2 Newcastle, Hull 1-1 Brentford, Sunderland 0-0 Leeds. LIVERPOOL FOURTH (highlighted) on fifteen, on the Champions
 // League stripe, a point behind Brighton; Chelsea fifth. ESPN now abbreviates 'Man Utd', mapped back to 'Manchester United'.
@@ -1036,142 +1040,145 @@ export const STANDINGS_COMMENTARY = {
   "source": "ESPN",
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 8,
-  "generatedAt": "2026-10-26T22:30:00Z",
-  "overview": "Re-fetched on Monday evening and unchanged since Sunday night: Liverpool fourth on fifteen from eight, a point behind Brighton and two clear of Chelsea, with Manchester City and Arsenal level on twenty-one at the top (ESPN). The next league game brings Arsenal, joint top, to Anfield on Sunday, and it can move the table in a way Wednesday's cup tie cannot. Arsenal arrive short: The False 9's preview has Saka out and Saliba at zero per cent on the official FPL flags. Below the top five, four sides sit on eleven; at the bottom Sunderland are on five, a point behind Coventry and Forest (ESPN).",
+  "generatedAt": "2026-10-27T08:30:00Z",
+  "overview": "Nothing has moved since Sunday night, and nothing will until Chelsea host Manchester United on Saturday lunchtime (The False 9): Liverpool fourth on fifteen from eight, a point behind Brighton and two clear of Chelsea, with Manchester City ahead of Arsenal on goal difference, both on twenty-one (ESPN, re-fetched Tuesday morning). The week belongs to the Carabao Cup, where Arsenal visit Fleetwood tonight and City host Brighton tomorrow (SI), and none of it touches the table. Sunday does: Arsenal at Anfield, a game that ends with Liverpool either three behind them or nine. At the bottom Sunderland, on five, are a point adrift of Coventry and Forest (ESPN).",
   "teams": {
-    "Liverpool": "Fourth on fifteen and on the Champions League stripe; the league resumes with Arsenal at Anfield on Sunday after Chelsea in the cup.",
-    "Manchester City": "Top on goal difference, level with Arsenal on twenty-one; Brighton visit the Etihad twice in the coming week (NBC Sports).",
-    "Arsenal": "Level on twenty-one; at Anfield on Sunday without Saka and with Saliba at zero per cent on the FPL flags (The False 9).",
-    "Brighton": "Third on sixteen, a point above Liverpool, whom they lost to on Sunday; Carabao Cup at City this week (SI).",
-    "Chelsea": "Fifth on thirteen; at Anfield on Wednesday without the suspended Palmer, and João Pedro 'highly unlikely' (3 Added Minutes).",
-    "Brentford": "Sixth on eleven, top of a four-way tie on that total (ESPN).",
-    "Newcastle": "Eighth on eleven after winning 2-0 at Selhurst Park (ESPN).",
-    "Bournemouth": "Thirteenth on nine; won 3-0 at Old Trafford on Sunday (ESPN).",
-    "Manchester United": "Sixteenth on seven; Liverpool's opponents at Anfield on 22 November.",
-    "Crystal Palace": "Seventeenth on seven, a point above the stripe; Liverpool's next away league trip, on 8 November.",
-    "Sunderland": "Bottom on five; at Anfield on 2 December."
+    "Liverpool": "Fourth on fifteen; Chelsea in the cup tomorrow, then Arsenal at Anfield on Sunday, six points behind them.",
+    "Manchester City": "Top on goal difference; host Brighton in the Carabao Cup on Wednesday evening (SI).",
+    "Arsenal": "Level on twenty-one; at Fleetwood in the cup tonight, then Anfield on Sunday (SI).",
+    "Brighton": "Third on sixteen and the league's top scorers (SI); at the Etihad in the cup on Wednesday.",
+    "Chelsea": "Fifth on thirteen; João Pedro expected to miss Anfield and Manchester United 'as a minimum' (The Guardian via The False 9).",
+    "Brentford": "Sixth on eleven; at Sunderland in the cup on Wednesday (SI).",
+    "Newcastle": "Eighth on eleven; at Everton in the cup on Thursday (SI).",
+    "Bournemouth": "Thirteenth on nine; host Aston Villa in the cup on Wednesday (SI).",
+    "Manchester United": "Sixteenth on seven; at Stamford Bridge on Saturday, and at Anfield on 22 November.",
+    "Crystal Palace": "Seventeenth on seven; at Fulham in the cup this week, Liverpool's next away league opponents on 8 November.",
+    "Sunderland": "Bottom on five, a point from safety; at Anfield on 2 December."
   }
 };
 // ─── Dispatches (hand-curated long reads — separate from the wire feed) ────
 export const DISPATCHES = [
   {
     n: "01",
-    headline: "A Twist That Has Been Coming for Weeks.",
-    byline: "Sport Witness / 3 Added Minutes / Empire of the Kop",
-    dateline: "Kirkby · 26 October",
-    category: "Injuries",
-    body: "Florian Wirtz told the Germans what he had not quite told the English. To Sky Deutschland and Sport1 he said the ankle had been going for a while, 'I've been twisting my ankle a bit over the last few weeks', and that 'I need to get that sorted out somehow', adding that no tests had yet been done (Sport Witness). By lunchtime 3 Added Minutes had the tests booked for Monday and Wirtz very unlikely for Chelsea; by teatime Empire of the Kop had written him out of Wednesday and into Sunday. What nobody has yet published is the result.",
+    headline: "Two Contracts, One Summer.",
+    byline: "Football Insider via AnfieldWatch",
+    dateline: "Anfield · 26 October",
+    category: "Transfers",
+    body: "It arrived on Monday evening, between the Brighton win and the Chelsea preview, and it was about neither. Football Insider, relayed by AnfieldWatch, reports that Virgil van Dijk and Joe Gomez are 'expected to leave for free in the summer' when their contracts expire, two of seven first-team deals that end in 2027. The captain is thirty-five and, by the same report's admission, still playing at a very high level; Gomez has managed little more than a hundred minutes under Iraola. The club has not commented. It is a claim, not a farewell, and it changes nothing about Wednesday.",
   },
   {
     n: "02",
-    headline: "Tuesday, Half Past Twelve.",
-    byline: "Liverpool FC / News Wires",
-    dateline: "Kirkby · 26 October",
+    headline: "Half Past Twelve, and Then Alonso.",
+    byline: "Liverpool FC / The False 9 / Sports Mole",
+    dateline: "Kirkby · 27 October",
     category: "Manager",
-    body: "The next word on Wirtz will come from Iraola, at the AXA Training Centre, live from 12.30pm on Tuesday (Liverpool FC). On Sunday he called it 'a small twist of the ankle' and reached for the calendar rather than the medical report: 'we are playing every three days so we need to see where he is' (News Wires). He was more expansive about his striker. 'If we can put him in those positions, we can provide him good crosses, good situations, he will score the goals,' he said of Isak. Tomorrow's questions will be about who provides them if the man who leads the league for chances is in the stand.",
+    body: "Two managers speak on Tuesday, and only one of them has a happy record at Anfield. Iraola goes first, streamed from the AXA Training Centre at 12.30pm (Liverpool FC); Alonso follows from Cobham later in the day (The False 9). Sports Mole has done the arithmetic on the visitor: two previous trips to Anfield as a manager, a 4-0 with Leverkusen and a 1-0 with Real Madrid, five goals conceded and none scored. He returns as Chelsea's head coach without Palmer, banned, and, the Guardian's Jacob Steinberg expects, without João Pedro for this and Saturday's game at the very least.",
   },
   {
     n: "03",
-    headline: "Right-Backs, Already, for January.",
-    byline: "AnfieldWatch / TEAMtalk / Anfield Index",
-    dateline: "Lisbon · 26 October",
-    category: "Transfers",
-    body: "The window is two months away and the shortage has already found a name. TEAMtalk, via AnfieldWatch, reports that Iraola admires Daniel Banjaqui, Benfica's eighteen-year-old right-back, rated at around £30m and tied to Lisbon until 2031; the same report concedes he is more likely to stay put than move in January. A second TEAMtalk line, carried by Anfield Index, puts Liverpool among the clubs 'seriously interested' in Brighton's nineteen-year-old centre-back Luka Vušković, with any approach expected next summer. Both stories are about the same thing: a back four currently held together by a Barcelona centre-back on loan.",
+    headline: "Seventy-Five Per Cent of a Ten.",
+    byline: "Sports Mole / Sky Sports via The False 9 / Rush The Kop",
+    dateline: "Kirkby · 27 October",
+    category: "Injuries",
+    body: "The official fantasy game rates Florian Wirtz at seventy-five per cent, according to Sky Sports' figures relayed by The False 9, which in the language of the flags means more likely to play than not. The reporting reads less kindly. Sports Mole's overnight list calls him a major doubt and pencils Arsenal on Sunday as the return; Rush The Kop says only that he will be assessed. No scan result has been published. Iraola will be asked for one at lunchtime, and the honest answer may be the one he gave on Sunday, which is that the calendar decides.",
   },
   {
     n: "04",
-    headline: "Five Balls Won High, on a Third of the Ball.",
-    byline: "Sky Sports via The False 9",
-    dateline: "Anfield · 25 October",
-    category: "Tactics",
-    body: "Sky Sports' Nick Wright found the number that explains Sunday better than the possession figure does. Liverpool won the ball in the final third five times against Brighton, their second-highest total in a league game this season, while holding only 36 per cent of it (via The False 9). Isak described the first half as the thing they want to be, 'intensity, winning balls and countering', and Iraola admitted to Sky that 'I'm liking a lot of things'. Eight wins in ten, and a side that has learned to start games by taking the ball away rather than keeping it.",
+    headline: "The Old Captain in the Other Shirt.",
+    byline: "Liverpool Echo via LiveScore / Sports Mole",
+    dateline: "Liverpool · 27 October",
+    category: "Football News",
+    body: "Jordan Henderson may come back to Anfield on Wednesday in Chelsea blue. Sports Mole expects him in a three-man midfield unless Alonso prefers Barco, Caicedo and Lavia, and Goal's predicted eleven has him beside Caicedo. John Aldridge, writing for the Liverpool Echo, does not expect the ground to be warm about it, and thinks the club erred over its former captain (via LiveScore). A cup tie in October is an odd place for an old argument, but Anfield has never needed a final to remember.",
   },
   {
     n: "05",
-    headline: "Alonso Comes Back to Anfield Short of a Striker.",
-    byline: "3 Added Minutes / TribalFootball",
-    dateline: "Cobham · 26 October",
+    headline: "A Loanee on the League's Shortlist.",
+    byline: "Liverpool FC / TEAMtalk",
+    dateline: "Anfield · 26 October",
     category: "Football News",
-    body: "Xabi Alonso's first return to Anfield as Chelsea's manager (TribalFootball) will be made without the man who scores his goals. 3 Added Minutes reports João Pedro highly unlikely to play, the scans on his knee waiting until the swelling goes down, and Alonso has already made his peace with it: 'For sure, it's a disappointment, but we need to carry on.' Chavarría is back in light training and could sit on the bench; Gittens is unlikely, Martínez weeks away, Reece James out until January. Palmer's ban covers this tie and no other, which is the one piece of luck in it for Liverpool.",
+    body: "Ronald Araújo, a centre-back from Barcelona playing right-back because there is nobody else, is one of six names on the Premier League's Player of the Matchweek shortlist after Brighton, with Bobb, Mateus Fernandes, Gabriel, Nicolas Jackson and Rayan (Liverpool FC). His is a contract story too: Fabrizio Romano, quoted by TEAMtalk last week, says Liverpool 'will take their time' over the purchase option and that the salary, not only the fee, is the question. On a morning of exits, it is the one decision that would keep a defender.",
   },
 ];
 export const NEWS_DIGEST = {
-  generatedAt: "2026-10-26T22:30:00Z",
-  summary: "Monday evening, and Florian Wirtz has made Sunday's knock sound less like an accident than a habit: 'I've been twisting my ankle a bit over the last few weeks,' he told Sky Deutschland and Sport1, adding 'We haven't done any tests yet' (Sport Witness), and 3 Added Minutes now calls him very unlikely for Chelsea on Wednesday, with tests scheduled for Monday and no result yet reported. Iraola speaks at Kirkby at 12.30pm on Tuesday (Liverpool FC), and the previews already have Mamardashvili in goal and Nyoni at ten (Brit Brief; The False 9). Chelsea's João Pedro is 'highly unlikely' to play, scans to follow once the swelling goes down, Alonso calling it 'a disappointment, but we need to carry on' (3 Added Minutes). The evening's January talk is of defenders: TEAMtalk has Iraola an admirer of Benfica's eighteen-year-old right-back Daniel Banjaqui and Liverpool among the clubs chasing Brighton's Luka Vušković (via AnfieldWatch; Anfield Index). Fourth on fifteen; Chelsea at eight on Wednesday, Arsenal on Sunday.",
+  generatedAt: "2026-10-27T08:30:00Z",
+  summary: "Tuesday morning, and the contract question at the back of Liverpool's season has been asked out loud: Football Insider, relayed by AnfieldWatch on Monday evening, reports that Virgil van Dijk and Joe Gomez are 'expected to leave for free in the summer' when their deals expire, a claim the club has not addressed, with Van Dijk thirty-five and Gomez limited to little more than a hundred minutes under Iraola. AnfieldWatch's Value Adder model already has a successor in mind, Brighton's Luka Vušković, eighth among teenagers in Europe's top five leagues. Iraola speaks at Kirkby at 12.30pm today, the day before Chelsea, with Wirtz a major doubt and Arsenal on Sunday his possible return (Sports Mole); for the visitors, the Guardian's Jacob Steinberg expects João Pedro to miss Liverpool and Manchester United 'as a minimum' (via The False 9), and Darren England's reported appointment as referee has not gone down well with Chelsea supporters (The Chelsea Chronicle via LiveScore). Araújo is on the Premier League's Player of the Matchweek shortlist (Liverpool FC). Fourth on fifteen; Chelsea at eight tomorrow, Arsenal on Sunday.",
   keyTopics: [
     {
-      title: "Wirtz: 'I've Been Twisting My Ankle A Bit' For Weeks, Now Very Unlikely For Chelsea (Sport Witness / 3 Added Minutes, today)",
-      category: "injuries",
-      detail: "Reported on Monday morning (Sport Witness, 8.35am): Wirtz told Sky Deutschland and Sport1 'We haven't done any tests yet, but I think it's not too serious', and that the ankle has troubled him for weeks: 'I need to get that sorted out somehow.' At 12.16pm 3 Added Minutes said tests were scheduled for Monday and called him very unlikely for Chelsea, Arsenal uncertain; Empire of the Kop (4.35pm) also expects him to miss Wednesday. Brit Brief's preview still reports 'no major concern'. No test result has been published.",
-    },
-    {
-      title: "Iraola 'An Admirer' Of Benfica Right-Back Banjaqui (AnfieldWatch / TEAMtalk, today)",
-      category: "transfers",
-      detail: "Published on Monday evening (Yahoo Sports, 9.40pm): AnfieldWatch, citing TEAMtalk, reports that Iraola admires Benfica's eighteen-year-old right-back Daniel Banjaqui, rated at around £30m, with Chelsea also monitoring. He signed an extension to 2031 in April and has two league starts this season, and the report itself says he is more likely to stay at Benfica than move in January.",
-    },
-    {
-      title: "Liverpool Among The Clubs Chasing Brighton's Vušković (Anfield Index / TEAMtalk, today)",
-      category: "transfers",
-      detail: "Published at 6.20pm on Monday: Anfield Index, citing TEAMtalk, says Liverpool, Real Madrid and Barcelona are 'seriously interested' in Luka Vušković, the nineteen-year-old Croatia centre-back Brighton signed this summer in a deal worth up to £50m. He is under contract until 2031, no bid has been made, and any approach is expected next summer rather than in January.",
-    },
-    {
-      title: "Predicted XIs: Mamardashvili In Goal, Nyoni At Ten (Brit Brief / The False 9, today)",
-      category: "matches",
-      detail: "Published on Monday: Brit Brief's XI (1.01pm) is Mamardashvili; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Gravenberch; Ngumoha, Nyoni, Barcola; Isak. The False 9 rotates further, with Gomez, Tsimikas, Endo and Koumas in for Van Dijk, Kerkez, Mac Allister and Isak. Both have Mamardashvili, who kept goal in the third-round win over Spurs.",
-    },
-    {
-      title: "João Pedro 'Highly Unlikely'; Alonso: 'A Disappointment' (3 Added Minutes, today)",
-      category: "matches",
-      detail: "Published at 10.36am on Monday: 3 Added Minutes reports João Pedro is highly unlikely to face Liverpool, scans on his knee to follow once the swelling subsides; Alonso: 'For sure, it's a disappointment, but we need to carry on.' Chavarría is back in light training and could make the bench; Gittens is unlikely; Martínez is out for at least two to three more weeks and Reece James until January.",
-    },
-    {
-      title: "Iraola Previews Chelsea At 12.30pm On Tuesday (Liverpool FC, today)",
+      title: "Van Dijk And Gomez 'Expected To Leave For Free' Next Summer (Football Insider via AnfieldWatch, today)",
       category: "general",
-      detail: "Announced on Monday: Liverpool FC will stream Iraola's press conference at the AXA Training Centre from 12.30pm GMT on Tuesday, his first word since describing Wirtz's injury on Sunday as 'a small twist of the ankle' and warning 'we are playing every three days' (Liverpool FC; News Wires via Egyptian Gazette).",
+      detail: "Reported on Monday evening (AnfieldWatch, 7.30pm): Football Insider says Van Dijk and Gomez are 'expected to leave for free in the summer upon the expiry of their contracts', two of seven first-team deals that end in 2027. AnfieldWatch presents it as a claim, not a confirmed decision; Van Dijk's age, thirty-five, is called 'the big barrier', and Gomez has played just over a hundred minutes under Iraola. No club comment.",
     },
     {
-      title: "Iraola On Isak: 'He Will Score The Goals' (News Wires via Egyptian Gazette, today)",
-      category: "tactics",
-      detail: "Published on Monday morning by News Wires: Iraola, on what Isak needs from the side around him, 'If we can put him in those positions, we can provide him good crosses, good situations, he will score the goals.' Isak, to Sky Sports, called the wait for a home league win 'way too long' (via The False 9).",
+      title: "Value Adder Model Casts Vušković As The Successor (AnfieldWatch, today)",
+      category: "transfers",
+      detail: "Published at 7.30am on Tuesday: AnfieldWatch's Value Adder model ranks Brighton's Luka Vušković eighth among teenage players in Europe's top five leagues and eighteenth among all centre-backs, and presents him as a long-term successor to Van Dijk; Liverpool's interest, first reported by TEAMtalk, is 'said to be serious'. CaughtOffside, via LiveScore's Tuesday roundup, adds Bayern and Chelsea to the competition.",
     },
     {
-      title: "Araújo Wins Player Of The Match With 85 Per Cent (The False 9, today)",
-      category: "general",
-      detail: "Reported on Monday morning: Araújo won the Carlsberg Player of the Match vote against Brighton with 85 per cent of supporters' votes, his second of the season and the first time any Liverpool player has won it twice in 2026-27 (The False 9, citing the club).",
-    },
-    {
-      title: "Five Final-Third Regains On A Third Of The Ball (Sky Sports via The False 9, today)",
-      category: "tactics",
-      detail: "From Sky Sports' Nick Wright, relayed by The False 9 on Monday: Liverpool won the ball in the final third five times against Brighton, their second-highest league total this season, with 36 per cent possession, and have won eight of their last ten. Iraola, to Sky: 'I'm liking a lot of things.' Isak: the first half was 'intensity, winning balls and countering'.",
-    },
-    {
-      title: "Szoboszlai Training Alone, Arsenal The Target (Evening Standard, today)",
+      title: "Wirtz A Major Doubt, Arsenal His Possible Return (Sports Mole, today)",
       category: "injuries",
-      detail: "Published at 6.45am on Monday: the Standard says Szoboszlai, out for four matches with the hamstring, is training alone and will rejoin the group, with Arsenal on Sunday his possible return; Iraola had said before Brighton that he 'is not ready for this one'. 3 Added Minutes expects him rested midweek with Arsenal in view.",
+      detail: "From Sports Mole's injury list, published at 12.56am on Tuesday: Wirtz a major doubt for Chelsea with 1 November against Arsenal his possible return, Muñoz a major doubt but not ruled out, Szoboszlai out. Rush The Kop (6.45am) says Wirtz 'will be assessed'; the official FPL flag reads 75 per cent (Sky Sports via The False 9). No scan result has been published.",
     },
     {
-      title: "Arsenal Without Saka And Saliba, Calafiori A Doubt (The False 9, today)",
+      title: "João Pedro To Miss Liverpool And United 'As A Minimum' (The Guardian via The False 9, today)",
       category: "matches",
-      detail: "From The False 9's Arsenal preview on Monday, using official FPL data: Saka (thigh) out, Arteta saying 'I think it will be weeks'; Saliba (back) at 0 per cent with no return date; Calafiori (hip) at 75 per cent. Its Arsenal XI has Konsa beside Gabriel, and Opta had Arsenal out-creating Everton 1.77 expected goals to 0.48 (The Analyst via The False 9).",
+      detail: "From The False 9's Chelsea round-up, updated at 6.28am on Tuesday: the Guardian's Jacob Steinberg writes that 'the expectation is he will miss the Liverpool and Manchester United games as a minimum' after a training injury and a scan on Sunday. Chelsea have played two league games without him this season and lost both without scoring. Alonso is due to speak on Tuesday.",
+    },
+    {
+      title: "Darren England Reported As Referee; Chelsea Fans Unhappy (The Chelsea Chronicle via LiveScore, today)",
+      category: "matches",
+      detail: "From LiveScore's Tuesday Chelsea roundup: The Chelsea Chronicle reports Chelsea supporters reacted badly to Darren England's appointment for Wednesday's tie, citing past defeats he refereed. The same roundup has Alonso confirming Penders will keep goal after his own goal against Spurs (The Pride of London) and Emegha back in training (The Chelsea Chronicle).",
+    },
+    {
+      title: "Alonso Has Lost Both Visits To Anfield As A Manager (Sports Mole, today)",
+      category: "matches",
+      detail: "From Sports Mole's preview, published on Monday afternoon and current this morning: Alonso lost 4-0 at Anfield with Leverkusen and 1-0 with Real Madrid, five conceded and none scored. Its prediction is 3-2 to Liverpool, with Mamardashvili; Araujo, Jacquet, Gomez, Kerkez; Nyoni, Mac Allister; Ngumoha, McConnell, Gakpo; Koumas, and Welbeck, with five goals in twenty-eight games against Liverpool, expected to start for Chelsea.",
+    },
+    {
+      title: "SI Call It 1-1, Liverpool Through On Penalties (SI, today)",
+      category: "matches",
+      detail: "Published at 2am on Tuesday: SI's fourth-round predictions have Liverpool through on penalties after a 1-1, noting Chelsea have won only once at Anfield since their 2018 Carabao Cup visit. City host Brighton and Arsenal visit Fleetwood in the same round (SI).",
+    },
+    {
+      title: "Brit Brief: Field A Strong Side, Remember Palace (Brit Brief, today)",
+      category: "general",
+      detail: "Published at 4.15am on Tuesday: Brit Brief argues Liverpool must avoid last season's cup mistake, when a weakened side was beaten by Crystal Palace, because Chelsea, out of Europe, will bring their best available team. A win would put Liverpool in the quarter-finals.",
+    },
+    {
+      title: "Aldridge Expects No Warm Welcome For Henderson (Liverpool Echo via LiveScore, today)",
+      category: "general",
+      detail: "From LiveScore's Tuesday Liverpool roundup: John Aldridge, in the Liverpool Echo, says the club erred over Jordan Henderson and does not expect a warm reception if he plays for Chelsea on Wednesday. Sports Mole expects Henderson in a three-man midfield unless Alonso picks Barco, Caicedo and Lavia; Goal's XI has him beside Caicedo.",
+    },
+    {
+      title: "Van Dijk On Salah: 'No One Can Replicate That' (Goal / ESPN, today)",
+      category: "general",
+      detail: "Carried by Goal on Tuesday, first reported by ESPN: 'What Mo has done for so many years as a winger, I don't think anyone can replicate that,' Van Dijk said, adding 'at a club like Liverpool you have to do it every three or four days.' Goal frames it as a challenge to the new attack.",
+    },
+    {
+      title: "Araújo On The Premier League's Player Of The Matchweek Shortlist (Liverpool FC, today)",
+      category: "general",
+      detail: "Announced on Monday by the club: Araújo is shortlisted for his display against Brighton alongside Oscar Bobb, Mateus Fernandes, Gabriel Magalhães, Nicolas Jackson and Rayan. No Liverpool player made Alan Shearer's Team of the Week for matchweek eight (Premier League).",
     },
   ],
   sources: [
-    "Sport Witness",
-    "Sky Deutschland",
-    "Sport1",
-    "3 Added Minutes",
-    "Empire of the Kop",
-    "Brit Brief",
+    "Football Insider",
     "AnfieldWatch",
     "TEAMtalk",
-    "Yahoo Sports",
-    "Anfield Index",
-    "The False 9",
-    "Liverpool FC",
-    "News Wires via Egyptian Gazette",
+    "CaughtOffside",
+    "LiveScore",
+    "Sports Mole",
+    "Rush The Kop",
     "Sky Sports",
-    "Evening Standard",
-    "The Analyst",
+    "The False 9",
+    "The Guardian",
+    "The Chelsea Chronicle",
+    "The Pride of London",
+    "SI",
+    "Brit Brief",
+    "Liverpool Echo",
+    "Goal",
+    "ESPN",
+    "Liverpool FC",
+    "Premier League",
   ],
 };
 // ─────────────────────────────────────────────────────────────────────────────
@@ -1192,7 +1199,7 @@ export const NEWS_DIGEST = {
 // next edition and then into the auditor's blind spot.
 
 export const OPPOSITION = {
-  generatedAt: "2026-10-26T22:30:00Z",
+  generatedAt: "2026-10-27T08:30:00Z",
   opponent: "Chelsea",
   shortName: "Chelsea",
   fixture: {
@@ -1205,14 +1212,14 @@ export const OPPOSITION = {
   manager: "Xabi Alonso",
   formation: "3-4-2-1",
   leaguePosition: 5,
-  summary: "Xabi Alonso comes back to Anfield, the ground he graced as a Liverpool midfielder, for the first time as Chelsea's manager (TribalFootball), and he comes without his top league scorer: 3 Added Minutes reports João Pedro highly unlikely, the scans on his knee waiting for the swelling to subside, and Alonso calls it 'a disappointment, but we need to carry on'. Palmer is suspended for this tie only, Martínez (jaw) is weeks away, Reece James (knee) out until January and Gittens (ankle) unlikely; Chavarría is back in light training and could make the bench (3 Added Minutes). Fifth on thirteen from eight, Chelsea have won two and lost two of their last four league games, the 5-1 over Bournemouth and 2-0 at Everton coming between defeats at Brentford and at home to Spurs, and they reached this round by beating Luton 2-0 and Leeds 6-3 (ESPN). Penders, twenty-one, keeps goal after his own goal against Spurs (Chelsea FC; Dave.sport). Manchester United follow on Saturday, with Palmer back.",
-  shape: "The False 9 expects a 3-4-2-1, and Goal's ratings from the Spurs game describe the same frame: three centre-backs, wing-backs pushed on, two in midfield and a front three that had Palmer and Quenda behind Morgan Rogers as a makeshift nine. Without João Pedro the line had no focal point and Chelsea managed 32 per cent of the ball and 0.46 expected goals (Goal). The pattern that threatens Liverpool is the wing-back running beyond Liverpool's wide forward, Neto on Saturday, Chelsea's best player per Goal, into the space a right-back who is a centre-back by trade has to cover.",
+  summary: "Chelsea come to Anfield, the Guardian's Jacob Steinberg now expects, without João Pedro not only on Wednesday but for Saturday's visit of Manchester United as well, 'as a minimum' (via The False 9), and they have lost both league games he has missed this season without scoring. Palmer serves his one-match ban here, Martínez (jaw) and Reece James (knee) are long-term absentees and Gittens is out; Emegha has been seen training (The Chelsea Chronicle via LiveScore) and Chavarría is closer. Alonso, who lost both of his previous Anfield visits as a manager, 4-0 with Leverkusen and 1-0 with Real Madrid (Sports Mole), has backed Penders to keep goal after his own goal against Spurs (The Pride of London via LiveScore). Fifth on thirteen from eight, Chelsea have won two of their last four league games, the 5-1 over Bournemouth and 2-0 at Everton between defeats at Brentford and at home to Spurs, and beat Luton 2-0 and Leeds 6-3 to reach this round (ESPN). Darren England is reported to referee, to the displeasure of Chelsea supporters (The Chelsea Chronicle via LiveScore).",
+  shape: "The False 9 and Goal both expect a 3-4-2-1: three centre-backs, wing-backs high, two in midfield and two tens behind a nine, which is how Chelsea lined up against Spurs with Palmer and Quenda behind Morgan Rogers. Sports Mole sees a back four and a midfield three with Henderson in it if Alonso does not choose Barco, Caicedo and Lavia. Either way the threat is wide: against Spurs, without a focal point, Chelsea had 32 per cent of the ball and 0.46 expected goals (Goal), and their best moments came from Neto running beyond the full-back on the outside.",
   keyPlayers: [
     {
       name: "Danny Welbeck",
       role: "Centre-forward",
-      threat: "Scored twice in the 6-3 third-round win over Leeds and leads the line in The False 9's predicted XI, with João Pedro listed out by Brit Brief on Monday.",
-      source: "The False 9 / Brit Brief",
+      threat: "Five goals in twenty-eight appearances against Liverpool (Sports Mole) and two in the 6-3 third-round win over Leeds; the obvious starter with João Pedro out (The Chelsea Chronicle via LiveScore).",
+      source: "Sports Mole / The False 9 / LiveScore",
     },
     {
       name: "Morgan Rogers",
@@ -1250,10 +1257,10 @@ export const OPPOSITION = {
     { name: "Cole Palmer", issue: "Suspended: one-match ban for two bookings against Spurs, served in this tie only (Dave.sport).", status: "Out" },
     { name: "Emiliano Martínez", issue: "Fractured jaw, surgery; improving, back in a few weeks, mid-November at the earliest (Brit Brief).", status: "Out" },
     { name: "Reece James", issue: "Knee surgery, described by the club as minor; about three months, mid-January (Brit Brief).", status: "Out" },
-    { name: "Jamie Gittens", issue: "Ankle, from England Under-21 duty; unlikely for Liverpool, targeting early November (3 Added Minutes).", status: "Out" },
-    { name: "João Pedro", issue: "Knee, a training injury: 'highly unlikely' for Anfield per 3 Added Minutes on Monday, scans once the swelling subsides; Alonso: 'For sure, it's a disappointment'. No club diagnosis yet.", status: "Doubt" },
-    { name: "Pep Chavarria", issue: "Training knock; back in light training and could make the bench (3 Added Minutes).", status: "Doubt" },
-    { name: "Emmanuel Emegha", issue: "Hamstring and a later setback; Alonso: 'He's feeling better, but we need to wait' (Brit Brief).", status: "Doubt" },
+    { name: "Jamie Gittens", issue: "Ankle, from England Under-21 duty; out until at least the weekend (Rush The Kop).", status: "Out" },
+    { name: "João Pedro", issue: "Training injury, scanned on Sunday: 'the expectation is he will miss the Liverpool and Manchester United games as a minimum' (The Guardian via The False 9); Rush The Kop says he will not be available. No club diagnosis yet.", status: "Out" },
+    { name: "Pep Chavarria", issue: "Training setback before Everton; training more but availability unclear, Hato the likely left-back cover (Rush The Kop; Roundtable via Yahoo Sports).", status: "Doubt" },
+    { name: "Emmanuel Emegha", issue: "Yet to play for Chelsea; seen training before the tie (The Chelsea Chronicle via LiveScore), place in the squad unclear (Roundtable via Yahoo Sports).", status: "Doubt" },
   ],
   recentForm: [
     {
@@ -1289,32 +1296,36 @@ export const OPPOSITION = {
       note: "The heaviest of their three league defeats (ESPN).",
     },
   ],
-  liverpoolAngle: "Chelsea will be led by Welbeck rather than João Pedro, so their danger is wide, and Liverpool's right side is still borrowed. Araújo, voted player of the match by 85 per cent of supporters on Sunday (The False 9), is a centre-back playing right-back because Frimpong and Bradley are out and Muñoz is still a doubt (Evening Standard), and the Monday previews keep him there (Brit Brief; The False 9). Chelsea's wing-backs are their most productive outlet (Goal). The larger cost is in the middle: Wirtz, who leads the league for chances created, is very unlikely to play (3 Added Minutes), so Nyoni takes the ten. Against that, Chelsea's goalkeeper is twenty-one and their striker is thirty-five, and Liverpool's five final-third regains against Brighton (Sky Sports via The False 9) are the pressure Penders' distribution has to survive.",
+  liverpoolAngle: "With João Pedro out, Chelsea's goal threat moves to Welbeck, who has five goals in twenty-eight games against Liverpool (Sports Mole), and to the wing-backs, and that is exactly where Liverpool are improvising. Araújo, shortlisted for the league's Player of the Matchweek after Brighton (Liverpool FC), is a centre-back at right-back because Frimpong and Bradley are out and Muñoz is still in pain from the Brentford knock (Rush The Kop). Inside him, Sports Mole's XI pairs Jacquet, twenty-one, with Gomez, one of the two defenders Football Insider expects to leave for free next summer (via AnfieldWatch). In midfield Wirtz, the league's leading chance creator, is a major doubt (Sports Mole), so Nyoni or McConnell takes the ten. Chelsea's keeper is twenty-one and Liverpool's five final-third regains against Brighton (Sky Sports via The False 9) are the pressure his distribution has to survive.",
   modelLine: null,
   sources: [
     "Chelsea FC",
     "Dave.sport",
     "The False 9",
+    "The Guardian",
     "ESPN",
     "Goal",
     "LiveScore",
     "SI",
-    "Brit Brief",
-    "3 Added Minutes",
-    "TribalFootball",
+    "Sports Mole",
+    "Rush The Kop",
+    "The Chelsea Chronicle",
+    "The Pride of London",
+    "Roundtable via Yahoo Sports",
+    "Liverpool FC",
   ],
 };
 export const FORM_TRENDS = {
-  generatedAt: "2026-10-26T22:30:00Z",
+  generatedAt: "2026-10-27T08:30:00Z",
   competition: "PL",
   played: 8,
-  headline: "The number Sky Sports found in Sunday's win explains the low possession better than the possession does: five final-third regains, Liverpool's second-highest league total of the season, on 36 per cent of the ball (Sky Sports via The False 9). FotMob's model still had Brighton ahead on chances, 1.35 expected goals to 0.87 (SI), and across eight league games Liverpool have 10.81 expected goals for and 9.42 against, summed from the per-match Opta Analyst, Squawka, FotMob and Sofascore figures below. That margin of 1.39 is thinner than eleven goals for and eight against suggest, and the chance creation behind it now depends on an ankle Wirtz says he has been turning for weeks (Sport Witness).",
+  headline: "Sunday's 2-0 was Liverpool's first clean sheet in five matches (Sports Mole), and it came on the numbers FotMob's model scores against them: 0.87 expected goals to Brighton's 1.35 (SI). Across eight league games the summed per-match Opta Analyst, Squawka, FotMob and Sofascore figures give 10.81 expected goals for and 9.42 against, a margin of 1.39 that is a good deal thinner than eleven goals to eight. Four of the last five games in all competitions have gone over two and a half goals (Goal), so the clean sheet is the exception in a run that has mostly been won by outscoring people, with Wirtz, the chance creator, now a major doubt (Sports Mole).",
   diagnosis: [
     {
-        "label": "Winning without the ball",
+        "label": "A clean sheet that the model did not give them",
         "severity": "medium",
-        "source": "ESPN / SI (FotMob)",
-        "detail": "Against Brighton Liverpool had 35.6 per cent possession, 69 per cent pass accuracy and 35 clearances to Brighton's eighteen (ESPN; SI), and were out-created 1.35 to 0.87 on FotMob's model (SI). It worked because Brighton managed one shot on target; it is not a method that survives a sharper opponent, and Arsenal are next in the league."
+        "source": "Sports Mole / ESPN / SI (FotMob)",
+        "detail": "Brighton was the first clean sheet in five (Sports Mole), earned on 35.6 per cent possession and 35 clearances to eighteen (ESPN; SI) while conceding 1.35 expected goals to 0.87 on FotMob's model (SI). Brighton put one shot on target. Arsenal, next in the league, will not be as generous, and four of the last five games have had three goals or more (Goal)."
     },
     {
         "label": "The fast start, at last",
@@ -1331,8 +1342,8 @@ export const FORM_TRENDS = {
     {
         "label": "Wirtz's ankle, and who creates without him",
         "severity": "high",
-        "source": "Opta Analyst / Sport Witness / 3 Added Minutes",
-        "detail": "Wirtz leads the league for chances created (Opta Analyst) and has told German media he has been twisting the ankle 'a bit over the last few weeks' (Sky Deutschland and Sport1 via Sport Witness); 3 Added Minutes has him very unlikely for Chelsea. Nyoni is the like-for-like at ten; the volume of chances is what is most at risk if a recurring problem costs him Arsenal too."
+        "source": "Opta Analyst / Sports Mole / Sky Sports via The False 9",
+        "detail": "Wirtz leads the league for chances created (Opta Analyst) and is a major doubt for Chelsea with Arsenal his possible return (Sports Mole), though the FPL flag still reads 75 per cent (Sky Sports via The False 9). Nyoni is the like-for-like at ten and Sports Mole's preview tries McConnell there; what is at risk is the volume of chances, not the shape."
     },
     {
         "label": "Right-back by elimination",
@@ -1538,10 +1549,10 @@ export const FORM_TRENDS = {
     note: "Premier League only, eight games. xG for is 2.73 (Newcastle) plus 1.61 (Forest) plus 0.53 (Ipswich) plus 1.13 (Fulham) plus 1.57 (Bournemouth) plus 0.86 (City) plus 1.51 (Brentford) plus 0.87 (Brighton); xG against is 1.43 plus 2.30 plus 0.72 plus 0.71 plus 0.76 plus 1.30 plus 0.85 plus 1.35. The Brentford and Brighton figures are FotMob's, reported by SI, and the City card's 1.30 is Sofascore's; Opta's own figures replace them when published. Provenance caveat from 21 September stands: Opta's published season expected-goals-against figure through five games was 6.12 rather than the 5.92 those per-match cards summed to. Champions League and Carabao Cup cards are shown but not aggregated. First-half splits exist only for Forest, Tottenham and City and are not aggregated.",
   },
   optaFacts: [
-    "Liverpool won the ball in the final third five times against Brighton, their second-highest total in a Premier League game this season (Sky Sports via The False 9).",
-    "Liverpool have won eight of their last ten matches in all competitions, a run dating back to early September (Sky Sports via The False 9).",
-    "Wirtz had played 850 minutes this season before Sunday's injury, the fourth-most in Iraola's squad (Transfermarkt via Empire of the Kop).",
-    "Araújo's 85 per cent supporters' vote made him the first Liverpool player to win the club's Player of the Match award twice this season (The False 9)."
+    "Liverpool's 2-0 win over Brighton was their first clean sheet in five matches (Sports Mole).",
+    "Xabi Alonso has lost both of his previous visits to Anfield as a manager, 4-0 with Leverkusen and 1-0 with Real Madrid, conceding five without scoring (Sports Mole).",
+    "Chelsea have won only once at Anfield since their 2018 Carabao Cup visit (SI).",
+    "Four of Liverpool's last five matches in all competitions have produced more than two and a half goals (Goal).",
   ],
 
   sources: [
@@ -1605,21 +1616,21 @@ export const FORM_TRENDS = {
   ],
 };
 export const SQUAD_LOAD = {
-  generatedAt: "2026-10-26T22:30:00Z",
-  headline: "By Monday evening the question was no longer whether Wirtz's ankle is serious but whether it is new: he says he has been twisting it 'a bit over the last few weeks' and had not yet been tested (Sport Witness), and 3 Added Minutes calls him very unlikely for Chelsea. The rest of the closed squad has not moved: Szoboszlai training alone with Arsenal in view (Evening Standard), Frimpong out until after the November break, Muñoz a doubt. Chelsea, Arsenal and Fenerbahçe come in eight days (DAZN), and the Monday previews answer the first of them with Mamardashvili in goal and Nyoni at ten (Brit Brief; The False 9).",
+  generatedAt: "2026-10-27T08:30:00Z",
+  headline: "The closed squad's longest-range problem surfaced on Monday night: Football Insider, via AnfieldWatch, reports that Van Dijk and Gomez, two of the senior centre-backs available to him, are expected to leave for free when their contracts end next summer. The immediate one is unchanged: Wirtz is a major doubt for Chelsea with Arsenal his possible return (Sports Mole), Szoboszlai is out of the cup, Muñoz still in pain (Rush The Kop), and Frimpong, Bradley, Leoni and Ekitike are weeks or months away. Chelsea, Arsenal and Fenerbahçe come inside eight days (DAZN), and Sports Mole's cup XI answers the first of them with Gomez at centre-back and McConnell at ten.",
   minutesNote: "Premier League minutes are not published here yet. Eight league games, three Champions League games and one Carabao Cup tie have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   unavailable: [
     {
       name: "Florian Wirtz",
       issue: "Ankle, twisted in a challenge against Brighton; replaced by Nyoni on sixty-five",
-      expected: "Very unlikely for Chelsea on Wednesday, with tests scheduled for Monday and Arsenal on 1 November uncertain (3 Added Minutes); Empire of the Kop also expects him to miss Wednesday. No test result published",
-      note: "Wirtz, to Sky Deutschland and Sport1: 'We haven't done any tests yet, but I think it's not too serious', and 'I've been twisting my ankle a bit over the last few weeks' (Sport Witness). Iraola on Sunday: 'a small twist of the ankle' (News Wires).",
-      source: "Sport Witness / 3 Added Minutes / Empire of the Kop / News Wires via Egyptian Gazette",
+      expected: "A major doubt for Chelsea on Wednesday, Arsenal on 1 November the possible return (Sports Mole); 'will be assessed' (Rush The Kop). No scan result published",
+      note: "The FPL flag reads 75 per cent (Sky Sports via The False 9), more optimistic than the reporting; he has said the ankle has troubled him for weeks (Sport Witness). Iraola speaks at 12.30pm on Tuesday (Liverpool FC).",
+      source: "Sports Mole / Rush The Kop / Sky Sports via The False 9 / Sport Witness / Liverpool FC",
     },
     {
       name: "Dominik Szoboszlai",
       issue: "Hamstring, a recurrence of the problem he brought back from Hungary duty",
-      expected: "Training alone and due to rejoin the group, Arsenal on 1 November the possible return (Evening Standard); 3 Added Minutes expects him rested midweek. Sky's fuller timeline ran to Fenerbahce on 4 November or Palace on 8 November (via The False 9)",
+      expected: "Out of the cup; Arsenal on 1 November the possible return (Sports Mole). The injury is not worse but needs more time (Rush The Kop); Sky's fuller timeline ran to Fenerbahce on 4 November or Palace on 8 November (via The False 9)",
       note: "Iraola, on Friday: 'he hasn't trained with the group still', and 'we will probably take one or two days more than we would last week'; 'He's in a good place' (Hayters via Yahoo Sports).",
       source: "Evening Standard / 3 Added Minutes / Sky Sports via The False 9",
     },
@@ -1656,7 +1667,7 @@ export const SQUAD_LOAD = {
     {
       name: "Victor Munoz",
       issue: "Knee, a knock from the first half at Brentford",
-      status: "Missed Brighton; a major doubt for Chelsea who should return to training this week (3 Added Minutes); 25 per cent on the FPL flag (The False 9)",
+      status: "A major doubt for Chelsea but not ruled out (Sports Mole); still in pain from the Brentford knock (Rush The Kop); 25 per cent on the FPL flag (The False 9)",
       note: "Has not trained since the Brentford knock, per Friday's reporting (Sussex Express); held out of the Chelsea XI here.",
       source: "3 Added Minutes / The False 9 / Sussex Express",
     },
@@ -1692,15 +1703,15 @@ export const SQUAD_LOAD = {
       name: "Ryan Gravenberch",
       issue: "No injury",
       status: "Ninety minutes in the pivot against Brighton, FotMob 7.3, 'disciplined positionally' (SI)",
-      note: "Still the named emergency right-back; with Wirtz very unlikely he is more likely to stay in midfield.",
+      note: "Still the named emergency right-back; rested in Sports Mole's Chelsea XI, kept in the pivot here while Wirtz is a major doubt.",
       source: "SI",
     },
     {
       name: "Joe Gomez",
       issue: "No injury",
-      status: "Unused substitute against Brighton (ESPN)",
-      note: "Fresh, and the only senior cover at both centre-back and right-back.",
-      source: "ESPN",
+      status: "Unused substitute against Brighton (ESPN); at centre-back in Sports Mole's Chelsea XI",
+      note: "Fresh, and the only senior cover at both centre-back and right-back; Football Insider (via AnfieldWatch) reports he is expected to leave for free next summer.",
+      source: "ESPN / Sports Mole / AnfieldWatch",
     },
     {
       name: "Wataru Endo",
@@ -1732,7 +1743,7 @@ export const SQUAD_LOAD = {
     {
         "position": "Central midfield",
         "level": "critical",
-        "detail": "Critical. Szoboszlai is still training alone (Evening Standard) and Wirtz, the ten, is very unlikely for Chelsea with an ankle he says has troubled him for weeks (3 Added Minutes; Sport Witness), so Mac Allister and Gravenberch in the pivot and Nyoni at ten are the whole of it, with Endo, who has not played this season, and McConnell behind them."
+        "detail": "Critical. Szoboszlai is out of the cup and Wirtz, the ten, a major doubt (Sports Mole), so Mac Allister, Gravenberch and Nyoni are the whole of the fit first-choice midfield, with Endo, unused this season, and McConnell, at ten in Sports Mole's Chelsea XI, behind them."
     },
     {
         "position": "Right-back",
@@ -1742,7 +1753,7 @@ export const SQUAD_LOAD = {
     {
         "position": "Centre-back",
         "level": "high",
-        "detail": "High. Van Dijk and Jacquet, Gomez the only fresh senior cover while Araújo plays right-back; Leoni is on track for team training after the November break, with December possible for matches (Brit Brief)."
+        "detail": "High now, and a summer question too. Van Dijk and Jacquet, Gomez the only fresh senior cover while Araújo plays right-back; Leoni's recovery is 'taking more time than we wanted' (Iraola via Sports Mole). Football Insider reports Van Dijk and Gomez expected to leave for free when their deals end next summer (via AnfieldWatch), and AnfieldWatch links Brighton's Vušković."
     },
     {
         "position": "Centre-forward",
@@ -1801,16 +1812,19 @@ export const SQUAD_LOAD = {
     "Evening Standard",
     "News Wires via Egyptian Gazette",
     "TEAMtalk via AnfieldWatch",
+    "Sports Mole",
+    "Rush The Kop",
+    "Football Insider via AnfieldWatch",
   ],
 };
 export const SEASON_PROJECTION = {
-  "generatedAt": "2026-10-26T22:30:00Z",
+  "generatedAt": "2026-10-27T08:30:00Z",
   "played": 8,
   "points": 15,
   "pointsPerGame": 1.88,
   "projectedPoints": 71,
   "projectedFinish": "Champions League places on current pace",
-  "headline": "Seventy-one points is the pace after eight games, 1.88 a game and three above the usual Champions League par, with Liverpool fourth on Monday evening's table (ESPN). It is still a pace and not a forecast: eight games is a small sample, the method behind it has been winning without the ball (Sky Sports via The False 9), and the player who makes most of the chances, Wirtz, is nursing an ankle he says has been troubling him for weeks (Sport Witness).",
+  "headline": "On Tuesday morning's unchanged table Liverpool are fourth on fifteen from eight, 1.88 points a game and a seventy-one-point pace, three above the usual Champions League par (ESPN). Eight games is a small sample, and the side producing it has kept one clean sheet in its last five (Sports Mole) and may be without its chief creator, Wirtz, for the cup (Sports Mole). The pace is a description of the autumn so far, not a forecast of May.",
   "thresholds": [
     {
       "label": "Champions League (top 4)",
@@ -1888,7 +1902,7 @@ export const SEASON_PROJECTION = {
       "difficulty": "hard"
     }
   ],
-  "runInVerdict": "Sunday's visit of Arsenal decides the shape of the six. They come without Saka and, on the FPL flags, Saliba (The False 9); a win leaves Liverpool three behind Arsenal, a defeat nine, before a softer stretch of Palace away, Manchester United and Sunderland at home and Everton away (ESPN; Empire of the Kop for the December dates). Chelsea away on 5 December closes it, a month after Wednesday's cup meeting.",
+  "runInVerdict": "Arsenal at Anfield on Sunday is the hinge of the six: a win cuts their lead to three, a defeat stretches it to nine, and Arsenal arrive without Saka and, on the FPL flags, Saliba (The False 9). After that comes the gentler part, Palace away and Manchester United and Sunderland at home, with Everton away in between (ESPN; Empire of the Kop for the December dates), and Chelsea away on 5 December, five weeks after tomorrow's cup meeting.",
   "sources": [
     "ESPN",
     "SI",
