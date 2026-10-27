@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Tue Oct 27, evening - Knee: listed by the club as a long-term absentee for Chelsea (Liverpool FC); Sports Mole has 22 November as the possible return.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Tue Oct 27, evening - Knee: listed by the club as a long-term absentee for Chelsea (Liverpool FC); Sports Mole has 22 November as the possible return, Rush The Kop December.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Tue Oct 27, evening - Rested in both Tuesday previews, Koumas leading the line; six league goals in seven (ESPN).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Tue Oct 27, evening - Koumas starts at nine in both Tuesday previews, so he is rested; six league goals in seven (ESPN).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -242,7 +242,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Tue Oct 27, evening - Third-choice goalkeeper; unchanged.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Tue Oct 27, evening - No change: third-choice goalkeeper behind Alisson and Mamardashvili.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -1104,12 +1104,17 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   generatedAt: "2026-10-27T22:10:00Z",
-  summary: "Tuesday evening, and Iraola has moved the needle on Wirtz: 'I'm quite optimistic that he will be available,' he said at Kirkby at lunchtime, a day after the overnight injury lists had him a major doubt, while Szoboszlai and Muñoz are 'more difficult than Florian' (Brit Brief; Empire of the Kop). 'There will definitely be changes,' he added, and the club's own team news lists Frimpong, Bradley, Ekitike and Leoni out and warns that a booking for Araújo or Kerkez would rule either out of a quarter-final (Liverpool FC). Rush The Kop and The Hard Tackle both predict Mamardashvili, Gomez, Tsimikas and Koumas in the side, and both call it 2-1 to Liverpool. At Cobham, Alonso said João Pedro will be out for a few weeks, that Emegha may get a chance after ten days' training, and stood by Penders (Football London via AOL). Fourth on fifteen; Chelsea at Anfield at eight tomorrow, Arsenal on Sunday.",
+  summary: "Tuesday evening, and Iraola has moved the needle on Wirtz: 'I'm quite optimistic that he will be available,' he said at Kirkby at lunchtime, hours after the overnight injury lists had him a major doubt, while Szoboszlai and Muñoz are 'more difficult than Florian' (Brit Brief; Empire of the Kop). 'There will definitely be changes,' he added, and the club's own team news lists Frimpong, Bradley, Ekitike and Leoni out and warns that a booking for Araújo or Kerkez would rule either out of a quarter-final (Liverpool FC). Rush The Kop and The Hard Tackle both predict Mamardashvili, Gomez, Tsimikas and Koumas in the side, and both call it 2-1 to Liverpool. At Cobham, Alonso said João Pedro will be out for a few weeks, that Emegha may get a chance after ten days' training, and stood by Penders (Football London via AOL). Fourth on fifteen; Chelsea at Anfield at eight tomorrow, Arsenal on Sunday.",
   keyTopics: [
     {
       title: "Iraola 'Quite Optimistic' On Wirtz For Chelsea (Brit Brief, today)",
       category: "injuries",
       detail: "From Iraola's pre-match press conference at Kirkby on Tuesday lunchtime, reported by Brit Brief at 1.41pm: 'He was quite fine, Florian, I'm quite optimistic that he will be available.' Wirtz went off on sixty-four minutes against Brighton with the ankle (The False 9). ESPN reports the club optimistic too; Empire of the Kop thinks he may still start on the bench after a heavy run since the international break. It supersedes the overnight major-doubt listing (Sports Mole).",
+    },
+    {
+      title: "Standard's Chelsea XI: A Back Three In Front Of Penders (Evening Standard via AOL, today)",
+      category: "matches",
+      detail: "Updated at 4.12pm on Tuesday: the Evening Standard expects Penders; Acheampong, Colwill, Fofana; Gusto, Lavia, Caicedo, Palestra; Rogers, Estêvão; Welbeck. Martínez, Reece James, Gittens and João Pedro injured, Palmer suspended, Chavarría a doubt.",
     },
     {
       title: "Szoboszlai And Muñoz 'More Difficult Than Florian' (Empire of the Kop, today)",
@@ -1132,11 +1137,6 @@ export const NEWS_DIGEST = {
       detail: "From Alonso's Cobham press conference on Tuesday, reported by Football London: João Pedro's thigh will keep him out 'for a few weeks' and he is not ready for the next games; Emegha, training for about ten days, may get his chance; Estêvão and Welbeck are in the squad; and Penders has his manager's backing after Saturday's 2-0 home defeat to Spurs. Palmer, he said, 'knows the mistake he made'.",
     },
     {
-      title: "Standard's Chelsea XI: A Back Three In Front Of Penders (Evening Standard via AOL, today)",
-      category: "matches",
-      detail: "Updated at 4.12pm on Tuesday: the Evening Standard expects Penders; Acheampong, Colwill, Fofana; Gusto, Lavia, Caicedo, Palestra; Rogers, Estêvão; Welbeck. Martínez, Reece James, Gittens and João Pedro injured, Palmer suspended, Chavarría a doubt.",
-    },
-    {
       title: "Liverpool Reported Working On A Permanent Araújo Deal (TEAMtalk via LiveScore, today)",
       category: "transfers",
       detail: "From LiveScore's Tuesday Liverpool roundup: TEAMtalk reports Liverpool are working on a permanent deal for Araújo, on loan from Barcelona, with a £47m option in place. Not confirmed by either club; the same roundup has AnfieldWatch reporting interest in Benfica's right-back Daniel Banjaqui.",
@@ -1147,14 +1147,14 @@ export const NEWS_DIGEST = {
       detail: "From LiveScore's Tuesday roundup: AnfieldWatch reports Liverpool are set to bring back a dedicated European kit with Adidas next season, ending a gap of some twenty years.",
     },
     {
-      title: "Gakpo: 'We Feel That We Are Growing' (Liverpool FC via The False 9, 1d ago)",
-      category: "general",
-      detail: "From a club interview published on Monday and carried in The False 9's Tuesday roundup: Gakpo called Sunday's 2-0 over Brighton 'a real team win' and said the coach is pushing the side to keep going.",
-    },
-    {
       title: "Seven First-Team Contracts End In 2027 (AnfieldWatch via Yahoo Sports, 1d ago)",
       category: "general",
       detail: "Published on Monday evening (7.35pm UK), relaying Football Insider's report that Van Dijk and Gomez are heading for free exits: AnfieldWatch lists seven first-team players on track to leave at the end of the season, Alisson, Van Dijk, Gomez, Tsimikas, Endo, Luke Chambers and Harvey Davies, and allows that some extensions will be negotiated. No club comment.",
+    },
+    {
+      title: "Gakpo: 'We Feel That We Are Growing' (Liverpool FC via The False 9, 1d ago)",
+      category: "general",
+      detail: "From a club interview published on Monday and carried in The False 9's Tuesday roundup: Gakpo called Sunday's 2-0 over Brighton 'a real team win' and said the coach is pushing the side to keep going.",
     },
   ],
   sources: [
