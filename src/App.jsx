@@ -570,10 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          This morning the question is about contracts, not ankles. Football Insider reports that Van Dijk
-          and Gomez are expected to leave for free next summer, and the club has said nothing either way.
-          Fourth on fifteen, Liverpool meet Chelsea in the cup tomorrow night and Arsenal on Sunday; Iraola
-          speaks at half past twelve today.
+          This evening the ankle news is kinder than the morning's. Iraola is quite optimistic that Wirtz
+          will face Chelsea, less so about Szoboszlai and Muñoz, and promises changes either way. Six points
+          off the top, Liverpool host Chelsea in the cup at eight tomorrow night and Arsenal on Sunday.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,24 +605,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and a report has put a date on something Anfield had been quietly counting towards. Football Insider
-              says Virgil van Dijk and Joe Gomez are expected to leave for free when their contracts run out next
-              summer; the club has said nothing, and a report is only a report. The captain is thirty-five and still
-              the fixed point of a back four built around absences, with a Barcelona loanee, shortlisted this week for
-              the league's player of the matchweek, at right-back in it. By breakfast one outlet's model had already
-              found his successor at Brighton. Iraola speaks at half past twelve, Wirtz a major doubt and Chelsea's
-              João Pedro expected to miss two games at least. Succession can wait for the summer; Chelsea will not
-              wait past Wednesday.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              and the most useful word at Kirkby was a small one. Asked about Florian Wirtz, who left Sunday's win over
+              Brighton with a twisted ankle, Andoni Iraola called himself quite optimistic, which from a manager who had
+              opened by saying he could not help much amounted to good news. Szoboszlai and Muñoz were harder cases, not
+              ruled out, not expected. There will be changes against Chelsea, he said, as there were against Villarreal and
+              Brighton, and the previews have Gomez, Tsimikas and Koumas in the side. At Cobham Xabi Alonso counted his own
+              absences, João Pedro for weeks and Palmer for one night. A cup tie in October rarely settles much; this one
+              will settle who is fresh for Arsenal.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: two contracts and one summer;
-              two press rooms on one Tuesday; seventy-five per cent of a ten; an old captain in
-              the other shirt; and a loanee on the league's shortlist. Fourth on fifteen, with
+              five dispatches from the writers who never clock off: one manager's measured optimism;
+              seven changes, give or take; Cobham counting its absences; two who will probably wait;
+              and seven contracts with one decision begun early. Fourth in the league, with
               Chelsea in the cup tomorrow night and Arsenal on Sunday.
             </p>
           </div>
@@ -3835,7 +3833,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Every captain's contract ends in a summer."
+        "Quite fine, quite optimistic, quite enough."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
