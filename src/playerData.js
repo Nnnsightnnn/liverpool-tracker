@@ -1106,7 +1106,7 @@ export const NEWS_DIGEST = {
     {
       title: "Van Dijk And Gomez 'Expected To Leave For Free' Next Summer (Football Insider via AnfieldWatch, today)",
       category: "general",
-      detail: "Reported on Monday evening (AnfieldWatch, 7.30pm): Football Insider says Van Dijk and Gomez are 'expected to leave for free in the summer upon the expiry of their contracts', two of seven first-team deals that end in 2027. AnfieldWatch presents it as a claim, not a confirmed decision; Van Dijk's age, thirty-five, is called 'the big barrier', and Gomez has played just over a hundred minutes under Iraola. No club comment.",
+      detail: "Reported on Monday evening (AnfieldWatch, 7.30pm): Football Insider says Van Dijk and Gomez are 'expected to leave for free in the summer upon the expiry of their contracts', two of seven first-team deals that end in 2027. AnfieldWatch presents it as a claim, not a confirmed decision, and in early October the same outlet had reported a Van Dijk extension as still open, so this hardens its own line rather than reporting a club decision; Van Dijk's age, thirty-five, is called 'the big barrier', and Gomez has played just over a hundred minutes under Iraola. No club comment.",
     },
     {
       title: "Value Adder Model Casts Vušković As The Successor (AnfieldWatch, today)",
@@ -1129,11 +1129,6 @@ export const NEWS_DIGEST = {
       detail: "From LiveScore's Tuesday Chelsea roundup: The Chelsea Chronicle reports Chelsea supporters reacted badly to Darren England's appointment for Wednesday's tie, citing past defeats he refereed. The same roundup has Alonso confirming Penders will keep goal after his own goal against Spurs (The Pride of London) and Emegha back in training (The Chelsea Chronicle).",
     },
     {
-      title: "Alonso Has Lost Both Visits To Anfield As A Manager (Sports Mole, today)",
-      category: "matches",
-      detail: "From Sports Mole's preview, published on Monday afternoon and current this morning: Alonso lost 4-0 at Anfield with Leverkusen and 1-0 with Real Madrid, five conceded and none scored. Its prediction is 3-2 to Liverpool, with Mamardashvili; Araujo, Jacquet, Gomez, Kerkez; Nyoni, Mac Allister; Ngumoha, McConnell, Gakpo; Koumas, and Welbeck, with five goals in twenty-eight games against Liverpool, expected to start for Chelsea.",
-    },
-    {
       title: "SI Call It 1-1, Liverpool Through On Penalties (SI, today)",
       category: "matches",
       detail: "Published at 2am on Tuesday: SI's fourth-round predictions have Liverpool through on penalties after a 1-1, noting Chelsea have won only once at Anfield since their 2018 Carabao Cup visit. City host Brighton and Arsenal visit Fleetwood in the same round (SI).",
@@ -1154,7 +1149,12 @@ export const NEWS_DIGEST = {
       detail: "Carried by Goal on Tuesday, first reported by ESPN: 'What Mo has done for so many years as a winger, I don't think anyone can replicate that,' Van Dijk said, adding 'at a club like Liverpool you have to do it every three or four days.' Goal frames it as a challenge to the new attack.",
     },
     {
-      title: "Araújo On The Premier League's Player Of The Matchweek Shortlist (Liverpool FC, today)",
+      title: "Alonso Has Lost Both Visits To Anfield As A Manager (Sports Mole, 1d ago)",
+      category: "matches",
+      detail: "From Sports Mole's preview, published on Monday afternoon: Alonso lost 4-0 at Anfield with Leverkusen and 1-0 with Real Madrid, five conceded and none scored. Its prediction is 3-2 to Liverpool, with Mamardashvili; Araujo, Jacquet, Gomez, Kerkez; Nyoni, Mac Allister; Ngumoha, McConnell, Gakpo; Koumas, and Welbeck, with five goals in twenty-eight games against Liverpool, expected to start for Chelsea.",
+    },
+    {
+      title: "Araújo On The Premier League's Player Of The Matchweek Shortlist (Liverpool FC, 1d ago)",
       category: "general",
       detail: "Announced on Monday by the club: Araújo is shortlisted for his display against Brighton alongside Oscar Bobb, Mateus Fernandes, Gabriel Magalhães, Nicolas Jackson and Rayan. No Liverpool player made Alan Shearer's Team of the Week for matchweek eight (Premier League).",
     },
@@ -1632,7 +1632,7 @@ export const SQUAD_LOAD = {
       issue: "Hamstring, a recurrence of the problem he brought back from Hungary duty",
       expected: "Out of the cup; Arsenal on 1 November the possible return (Sports Mole). The injury is not worse but needs more time (Rush The Kop); Sky's fuller timeline ran to Fenerbahce on 4 November or Palace on 8 November (via The False 9)",
       note: "Iraola, on Friday: 'he hasn't trained with the group still', and 'we will probably take one or two days more than we would last week'; 'He's in a good place' (Hayters via Yahoo Sports).",
-      source: "Evening Standard / 3 Added Minutes / Sky Sports via The False 9",
+      source: "Sports Mole / Rush The Kop / Hayters via Yahoo Sports / Sky Sports via The False 9",
     },
     {
       name: "Jeremie Frimpong",
@@ -1783,7 +1783,6 @@ export const SQUAD_LOAD = {
     "LiveScore",
     "Sports Mole",
     "CaughtOffside",
-    "DaveOCKOP",
     "Yahoo Sports",
     "Liverpool FC",
     "Rush The Kop",
@@ -1809,12 +1808,10 @@ export const SQUAD_LOAD = {
     "Dave.sport",
     "Sport Witness",
     "3 Added Minutes",
-    "Evening Standard",
     "News Wires via Egyptian Gazette",
     "TEAMtalk via AnfieldWatch",
-    "Sports Mole",
-    "Rush The Kop",
     "Football Insider via AnfieldWatch",
+    "Hayters via Yahoo Sports",
   ],
 };
 export const SEASON_PROJECTION = {

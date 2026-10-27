@@ -368,5 +368,5 @@ export const ALTERNATIVES = {
 export const PREDICTION_NOTE = {
   level: "Low",
   generated_at: "2026-10-27T08:30:00Z",
-  reason: "Tue Oct 27, morning. Chelsea at Anfield, Carabao Cup, Wed 28 Oct, 8pm. Held at Brit Brief's Monday XI: nine of Sunday's starters, Mamardashvili for Alisson, Nyoni for Wirtz (a major doubt, Sports Mole) and Ngumoha for Gakpo. Low: Sports Mole's XI rotates five more (Gomez, Nyoni in the pivot, McConnell, Gakpo, Koumas), and Iraola speaks at 12.30pm today.",
+  reason: "Tue Oct 27, morning. Chelsea at Anfield, Carabao Cup, Wed 28 Oct, 8pm. Held at Brit Brief's Monday XI: eight of Sunday's starters, Mamardashvili for Alisson, Nyoni for Wirtz (a major doubt, Sports Mole) and Ngumoha for Gakpo. Low: Sports Mole's XI rotates five more (Gomez, Nyoni in the pivot, McConnell, Gakpo, Koumas), and Iraola speaks at 12.30pm today.",
 };
