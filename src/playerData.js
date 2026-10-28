@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Wed Oct 28, morning - On loan at Levante; no change this edition.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Wed Oct 28, morning - Spending the season in Spain with Levante; not part of tonight's squad.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -242,7 +242,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Wed Oct 28, morning - Third-choice goalkeeper behind Alisson and Mamardashvili; nothing new.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Wed Oct 28, morning - Not involved tonight unless Mamardashvili is hurt; the squad's third goalkeeper.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -964,7 +964,8 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-10-27 (Tuesday morning, ~4am ET). Re-fetched from ESPN, byte-identical to Monday evening; no league game until Sunday.
+// Last refresh: 2026-10-28 (Wednesday morning, ~4am ET). Re-fetched from ESPN, byte-identical to Tuesday evening; no league game until Sunday.
+// Prior refresh: 2026-10-27 (Tuesday morning, ~4am ET). Re-fetched from ESPN, byte-identical to Monday evening; no league game until Sunday.
 // Prior refresh: 2026-10-26 (Monday evening, ~6pm ET). Re-fetched from ESPN, byte-identical to Sunday evening; no league game on Monday.
 // Prior refresh: 2026-10-25 (Sunday evening, ~6pm ET). Re-fetched from ESPN after Sunday's five games: LIVERPOOL 2-0 Brighton, Man Utd 0-3
 // Bournemouth, Palace 0-2 Newcastle, Hull 1-1 Brentford, Sunderland 0-0 Leeds. LIVERPOOL FOURTH (highlighted) on fifteen, on the Champions
@@ -1207,7 +1208,7 @@ export const OPPOSITION = {
   manager: "Xabi Alonso",
   formation: "3-4-2-1",
   leaguePosition: 5,
-  summary: "Chelsea come to Anfield tonight on the back of a home defeat by Spurs, fifth on thirteen from eight (ESPN) and fourteenth in FotMob's expected-goals table at 10.3 (Planet Football), a side whose results have outrun its chances. Brit Brief's overnight count has six of them possibly missing: Palmer suspended, Martínez, Reece James and João Pedro out, Chavarría and Gittens major doubts. Alonso, who says he will celebrate if they score (Goal), has Welbeck, Estêvão and Emegha, yet to play for the club, all available (Roundtable via Yahoo Sports), and Jordan Henderson, Liverpool's captain for eight years, comes back with two league goals and an assist from four starts (Brit Brief). They have won only once at Anfield since their 2018 League Cup win there (SI), but they are unbeaten in three meetings with Liverpool and their cup ties over two seasons have produced thirty-one goals, the most of any side (Opta Analyst). Darren England referees (SI).",
+  summary: "Chelsea come to Anfield tonight on the back of a home defeat by Spurs, fifth on thirteen from eight (ESPN) and fourteenth in FotMob's expected-goals table at 10.3 (Planet Football), a side whose results have outrun its chances. Brit Brief's overnight count has six of them possibly missing: Palmer suspended, Martínez, Reece James and João Pedro out, Chavarría and Gittens major doubts. Alonso, who says he will celebrate if they score (Goal), has Welbeck and Estêvão available and Emegha, yet to play for the club, in the squad (Roundtable via Yahoo Sports), and Jordan Henderson, Liverpool's captain for eight years, comes back with two league goals and an assist from four starts (Brit Brief). They have won only once at Anfield since their 2018 League Cup win there (SI), but they are unbeaten in three meetings with Liverpool and their cup ties over two seasons have produced thirty-one goals, the most of any side (Opta Analyst). Darren England referees (SI).",
   shape: "Without Palmer or João Pedro, the Evening Standard expects a 3-4-2-1 built for running rather than holding: Acheampong, Colwill and Fofana in front of Penders, Gusto and Palestra as wing-backs, Lavia and Caicedo screening, Rogers and Estêvão between the lines behind Welbeck. Against Spurs Alonso tried Rogers as a false nine and it did not work, with 32 per cent of the ball (Goal; CaughtOffside), so a fixed nine in Welbeck is the likelier answer. The wing-backs are the outlet: Liverpool's full-backs will spend the night deciding whether to follow them.",
   keyPlayers: [
     {
@@ -1671,7 +1672,7 @@ export const SQUAD_LOAD = {
   returning: [
     {
       name: "Florian Wirtz",
-      issue: "Ankle, twisted in a challenge against Brighton; off on sixty-four",
+      issue: "Ankle, twisted in a challenge against Brighton; replaced by Nyoni on sixty-five (SI)",
       status: "Expected to be available for Chelsea, and so left off Brit Brief's list of twelve possible absentees; at ten in The Liverpool Offside's XI (via Yahoo Sports)",
       note: "Empire of the Kop expects him to start on the bench after a heavy run since the international break; held there here, Nyoni at ten, with Arsenal three days later.",
       source: "Brit Brief / The Liverpool Offside via Yahoo Sports / Empire of the Kop",

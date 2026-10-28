@@ -49,9 +49,9 @@ export const FORMATIONS = {
       GK: 2,  // Mamardashvili (every Tuesday preview)
       LB: 32, // Tsimikas (Brit Brief; Rush The Kop; The Hard Tackle)
       LCB: 5, // Gomez (expected run at the back, Brit Brief)
-      RCB: 11, // Jacquet (kept; both previews rest him, Endo the alternative)
+      RCB: 11, // Jacquet (The Liverpool Offside; The False 9)
       RB: 29, // Araujo (both previews)
-      LCM: 13, // Mac Allister
+      LCM: 17, // Endo (The False 9's pivot; Mac Allister rested)
       CM: 14, // Gravenberch (Rush The Kop)
       RCM: 20, // Nyoni (both previews)
       LW: 25, // Ngumoha (both previews)
@@ -104,7 +104,7 @@ export const FORMATIONS = {
       RCB: 11, // Jacquet (held; Endo in both previews)
       RB: 29, // Araujo
       LDM: 14, // Gravenberch
-      RDM: 13, // Mac Allister
+      RDM: 17, // Endo (The False 9; Mac Allister rested in both newer XIs)
       LAM: 25, // Ngumoha (both previews)
       CAM: 20, // Nyoni (Wirtz may start on the bench, Empire of the Kop)
       RAM: 22, // Gakpo (The Liverpool Offside via Yahoo Sports)
@@ -141,7 +141,7 @@ export const FORMATIONS = {
       CCB: 11, // Jacquet
       RCB: 17, // Endo (centre-back in both Tuesday previews)
       LWB: 32, // Tsimikas
-      LCM: 13, // Mac Allister
+      LCM: 20, // Nyoni (The Liverpool Offside's pivot; Mac Allister rested)
       RCM: 14, // Gravenberch
       RWB: 29, // Araujo
       LW: 25, // Ngumoha
@@ -187,10 +187,10 @@ export const PLAYER_EVIDENCE = {
   10:  "ACL · mid-November (Brit Brief)",
   11:  "CB in Offside and False 9 XIs",
   12:  "Levante loan · no change",
-  13:  "Rested · Madrid link, unconfirmed",
+  13:  "Rested in both newer previews",
   14:  "Pivot in every preview",
   15:  "Hamstring · on the twelve list",
-  17:  "Pivot in The False 9's XI",
+  17:  "Pivot here · The False 9's XI",
   18:  "Ankle · expected available",
   20:  "Pivot or ten · every preview",
   22:  "Right side · 10 EFL Cup goals",
@@ -305,7 +305,7 @@ export const PLAYER_EVIDENCE = {
 //   held at RCB against both (they use Endo; 3-4-3 adds Endo at RCB). Wirtz on the bench (Empire of the Kop), Nyoni at ten. Overall Low.
 // Wed Oct 28 (morning, matchday): ONE personnel change in all three shapes, Gakpo for Chiesa on the right (RAM/RW), following The
 //   Liverpool Offside's Tuesday 4.47pm XI (via Yahoo Sports) and Opta Analyst's note of his ten EFL Cup goals. The False 9 has Barcola
-//   there and Endo in the pivot. RCB and LDM raised to Medium (Jacquet and Gravenberch in both newer XIs), RDM lowered to Low. Overall Low.
+//   there and Endo in the pivot. Auditor fix: Endo for Mac Allister (RDM / LCM; Nyoni at LCM in 3-4-3), both newer XIs rest him. RCB and LDM raised to Medium (Jacquet and Gravenberch in both newer XIs), RDM lowered to Low. Overall Low.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -343,7 +343,7 @@ export const SLOT_RATIONALE = {
   RCB: "Wed Oct 28, morning - Jacquet, in both The Liverpool Offside's and The False 9's XIs; Endo the alternative in two Tuesday previews. Medium.",
   RB: "Wed Oct 28, morning - Araujo, wide in The False 9's XI and swapped with Gomez in The Liverpool Offside's; Frimpong and Bradley out, Muñoz expected to be rested. Medium.",
   LDM: "Wed Oct 28, morning - Gravenberch, starting in every preview found. Medium.",
-  RDM: "Wed Oct 28, morning - Mac Allister, held; The Liverpool Offside pairs Gravenberch with Nyoni and The False 9 with Endo, both resting him. Low.",
+  RDM: "Wed Oct 28, morning - Endo, beside Gravenberch in The False 9's XI; The Liverpool Offside uses Nyoni there. Mac Allister rested in both. Low.",
   LAM: "Wed Oct 28, morning - Ngumoha, on the left in The Liverpool Offside's and The False 9's XIs. Medium.",
   CAM: "Wed Oct 28, morning - Nyoni; The Liverpool Offside puts Wirtz at ten, Empire of the Kop expects him on the bench. Low.",
   RAM: "Wed Oct 28, morning - Gakpo, on the right in The Liverpool Offside's XI, ten EFL Cup goals since 2023-24 (Opta Analyst); Barcola in The False 9's, Chiesa in Rush The Kop's. Low.",
@@ -362,7 +362,7 @@ export const ALTERNATIVES = {
   RCB: [{ playerId: 17, reason: "Endo · centre-back in two Tuesday previews" }, { playerId: 29, reason: "Araujo · inside in The Liverpool Offside's XI" }],
   RB:  [{ playerId: 5, reason: "Gomez · right-back in The Liverpool Offside's XI" }, { playerId: 14, reason: "Gravenberch · the emergency option" }],
   LDM: [{ playerId: 20, reason: "Nyoni · pivot in The Liverpool Offside's XI" }],
-  RDM: [{ playerId: 17, reason: "Endo · pivot in The False 9's XI" }],
+  RDM: [{ playerId: 13, reason: "Mac Allister · rested in both newer XIs" }],
   LAM: [{ playerId: 30, reason: "Barcola · started v Brighton" }],
   CAM: [{ playerId: 18, reason: "Wirtz · ten in The Liverpool Offside's XI" }],
   RAM: [{ playerId: 30, reason: "Barcola · right side in The False 9's XI" }, { playerId: 26, reason: "Chiesa · right side in Rush The Kop's" }],
@@ -375,5 +375,5 @@ export const ALTERNATIVES = {
 export const PREDICTION_NOTE = {
   level: "Low",
   generated_at: "2026-10-28T08:30:00Z",
-  reason: "Wed Oct 28, morning. Chelsea at Anfield tonight, Carabao Cup fourth round, 8pm GMT. Five of Sunday's starters remain (Jacquet, Araujo, Gravenberch, Mac Allister, Gakpo, now on the right per The Liverpool Offside); Mamardashvili, Tsimikas, Gomez, Nyoni, Ngumoha and Koumas come in. Wirtz expected available but held on the bench (Empire of the Kop). Low: the previews agree on the keeper, the left-back and the nine, and split on the midfield and the right.",
+  reason: "Wed Oct 28, morning. Chelsea at Anfield tonight, Carabao Cup fourth round, 8pm GMT. Four of Sunday's starters remain (Jacquet, Araujo, Gravenberch and Gakpo, now on the right per The Liverpool Offside); Mamardashvili, Tsimikas, Gomez, Endo, Nyoni, Ngumoha and Koumas come in, Endo for Mac Allister per The False 9. Wirtz expected available but held on the bench (Empire of the Kop). Low: the previews agree on the keeper, the left-back and the nine, and split on the midfield and the right.",
 };
