@@ -56,7 +56,7 @@ export const FORMATIONS = {
       RCM: 20, // Nyoni (both previews)
       LW: 25, // Ngumoha (both previews)
       ST: 31, // Koumas (both previews)
-      RW: 26, // Chiesa (Rush The Kop)
+      RW: 22, // Gakpo (The Liverpool Offside via Yahoo Sports)
     },
 
   },
@@ -107,7 +107,7 @@ export const FORMATIONS = {
       RDM: 13, // Mac Allister
       LAM: 25, // Ngumoha (both previews)
       CAM: 20, // Nyoni (Wirtz may start on the bench, Empire of the Kop)
-      RAM: 26, // Chiesa (Rush The Kop)
+      RAM: 22, // Gakpo (The Liverpool Offside via Yahoo Sports)
       ST: 31, // Koumas (both previews)
     },
 
@@ -146,7 +146,7 @@ export const FORMATIONS = {
       RWB: 29, // Araujo
       LW: 25, // Ngumoha
       ST: 31, // Koumas
-      RW: 26, // Chiesa
+      RW: 22, // Gakpo
     },
 
   },
@@ -177,33 +177,33 @@ export const FORMATIONS = {
 // Fri Oct 23 (evening): all 27 refreshed for Iraola's Friday presser (Barcola fit, Szoboszlai out, Munoz 'difficult', Gravenberch at RB) and Hurzeler's.
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 export const PLAYER_EVIDENCE = {
-  1:   "Rested in both Tuesday previews",
-  2:   "Cup keeper · every Tuesday XI",
-  3:   "Rested · The Hard Tackle's XI",
-  5:   "Run at CB expected (Brit Brief)",
-  7:   "One booking from a QF ban (LFC)",
-  8:   "Knee · out for Chelsea (LFC)",
-  9:   "Muscle · out for several weeks",
-  10:  "ACL · long-term absentee",
-  11:  "Held here · rested in previews",
-  12:  "Levante loan · unchanged",
-  13:  "Pivot · The Hard Tackle's XI",
-  14:  "Midfield three · Rush The Kop",
-  15:  "Hamstring · 'more difficult'",
-  17:  "CB in both Tuesday previews",
-  18:  "Ankle · 'quite optimistic' (Iraola)",
-  20:  "Ten here · in both previews",
-  22:  "Fallback on the left (Hard Tackle)",
-  23:  "Rested · Koumas in both XIs",
-  24:  "Achilles · long-term absentee",
-  25:  "Starts v his old club (RTK)",
-  26:  "Right side · Rush The Kop's XI",
-  27:  "Third keeper · unchanged",
-  28:  "Knee · 'more difficult' (Iraola)",
-  29:  "RB · one booking from QF ban",
-  30:  "Rested in both Tuesday previews",
-  31:  "Nine in both Tuesday previews",
-  32:  "Run at LB expected (Brit Brief)",
+  1:   "Rested · Arsenal the likelier start",
+  2:   "Cup keeper in every preview",
+  3:   "Rested in tonight's previews",
+  5:   "RB or CB · starts in previews",
+  7:   "Rested · Tsimikas at left-back",
+  8:   "Knee · on Brit Brief's twelve",
+  9:   "Hamstring · back after Nov break",
+  10:  "ACL · mid-November (Brit Brief)",
+  11:  "CB in Offside and False 9 XIs",
+  12:  "Levante loan · no change",
+  13:  "Rested · Madrid link, unconfirmed",
+  14:  "Pivot in every preview",
+  15:  "Hamstring · on the twelve list",
+  17:  "Pivot in The False 9's XI",
+  18:  "Ankle · expected available",
+  20:  "Pivot or ten · every preview",
+  22:  "Right side · 10 EFL Cup goals",
+  23:  "Rested · second to Haaland",
+  24:  "Achilles · 2 January (PI)",
+  25:  "Left side v his old club",
+  26:  "Bench option · out of previews",
+  27:  "Third keeper · nothing new",
+  28:  "Knee · expected to be rested",
+  29:  "RB here · CB in Offside's XI",
+  30:  "Right in The False 9's XI",
+  31:  "Nine in tonight's previews",
+  32:  "LB in every preview",
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -303,6 +303,9 @@ export const PLAYER_EVIDENCE = {
 //   changes'; Wirtz 'quite optimistic'; Szoboszlai and Munoz 'more difficult', Brit Brief), following Rush The Kop's and The Hard
 //   Tackle's Tuesday XIs: Tsimikas for Kerkez (LB), Gomez for Van Dijk (LCB), Chiesa for Barcola (RAM), Koumas for Isak (ST). Jacquet
 //   held at RCB against both (they use Endo; 3-4-3 adds Endo at RCB). Wirtz on the bench (Empire of the Kop), Nyoni at ten. Overall Low.
+// Wed Oct 28 (morning, matchday): ONE personnel change in all three shapes, Gakpo for Chiesa on the right (RAM/RW), following The
+//   Liverpool Offside's Tuesday 4.47pm XI (via Yahoo Sports) and Opta Analyst's note of his ten EFL Cup goals. The False 9 has Barcola
+//   there and Endo in the pivot. RCB and LDM raised to Medium (Jacquet and Gravenberch in both newer XIs), RDM lowered to Low. Overall Low.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -319,10 +322,10 @@ export const SLOT_CONFIDENCE = {
   GK: "High",
   LB: "Medium",
   LCB: "Medium",
-  RCB: "Low",
+  RCB: "Medium",
   RB: "Medium",
-  LDM: "Low",
-  RDM: "Medium",
+  LDM: "Medium",
+  RDM: "Low",
   LAM: "Medium",
   CAM: "Low",
   RAM: "Low",
@@ -335,16 +338,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Tue Oct 27, evening - Tsimikas, expected to get a run (Brit Brief) and at left-back in both Tuesday previews; Kerkez is one booking from a quarter-final ban (Liverpool FC). Medium.",
-  LCB: "Tue Oct 27, evening - Gomez, for Van Dijk, who is rested in The Hard Tackle's XI; Brit Brief expects Gomez to get a run. Medium.",
-  RCB: "Tue Oct 27, evening - Jacquet, held; both Tuesday previews rest him and play Endo at centre-back (Rush The Kop; The Hard Tackle). Low.",
-  RB: "Tue Oct 27, evening - Araujo, in both previews; Frimpong and Bradley out (Liverpool FC) and Muñoz more difficult (Iraola via Brit Brief). Medium.",
-  LDM: "Tue Oct 27, evening - Gravenberch, in Rush The Kop's midfield three, not in The Hard Tackle's eleven. Low.",
-  RDM: "Tue Oct 27, evening - Mac Allister, in The Hard Tackle's pivot; Rush The Kop rests him. Medium.",
-  LAM: "Tue Oct 27, evening - Ngumoha, on the left in both previews, against his former club (Rush The Kop). Medium.",
-  CAM: "Tue Oct 27, evening - Nyoni, because Wirtz, 'quite optimistic' for availability (Iraola via Brit Brief), may start on the bench (Empire of the Kop); The Hard Tackle tries McConnell. Low.",
-  RAM: "Tue Oct 27, evening - Chiesa, on the right in Rush The Kop's front three; Barcola rested in both previews. Low.",
-  ST: "Tue Oct 27, evening - Koumas, leading the line in both Tuesday previews, Isak rested. Medium.",
+  LB: "Wed Oct 28, morning - Tsimikas, at left-back in every preview found, The Liverpool Offside's included; Kerkez rested. Medium.",
+  LCB: "Wed Oct 28, morning - Gomez, central in The False 9's XI; The Liverpool Offside plays him at right-back instead, Araujo inside. Medium.",
+  RCB: "Wed Oct 28, morning - Jacquet, in both The Liverpool Offside's and The False 9's XIs; Endo the alternative in two Tuesday previews. Medium.",
+  RB: "Wed Oct 28, morning - Araujo, wide in The False 9's XI and swapped with Gomez in The Liverpool Offside's; Frimpong and Bradley out, Muñoz expected to be rested. Medium.",
+  LDM: "Wed Oct 28, morning - Gravenberch, starting in every preview found. Medium.",
+  RDM: "Wed Oct 28, morning - Mac Allister, held; The Liverpool Offside pairs Gravenberch with Nyoni and The False 9 with Endo, both resting him. Low.",
+  LAM: "Wed Oct 28, morning - Ngumoha, on the left in The Liverpool Offside's and The False 9's XIs. Medium.",
+  CAM: "Wed Oct 28, morning - Nyoni; The Liverpool Offside puts Wirtz at ten, Empire of the Kop expects him on the bench. Low.",
+  RAM: "Wed Oct 28, morning - Gakpo, on the right in The Liverpool Offside's XI, ten EFL Cup goals since 2023-24 (Opta Analyst); Barcola in The False 9's, Chiesa in Rush The Kop's. Low.",
+  ST: "Wed Oct 28, morning - Koumas, leading the line in every preview found, Isak rested. Medium.",
 };
 
 
@@ -353,17 +356,17 @@ export const SLOT_RATIONALE = {
 // initially. The UI shows these on hover as "Also considered". Keyed to
 // 4-2-3-1 (the season-closing baseline shape).
 export const ALTERNATIVES = {
-  GK:  [{ playerId: 1, reason: "Alisson · rested in both previews, Arsenal next" }, { playerId: 27, reason: "Woodman · third-choice" }],
-  LB:  [{ playerId: 7, reason: "Kerkez · one booking from a QF ban" }],
-  LCB: [{ playerId: 3, reason: "Van Dijk · rested in The Hard Tackle's XI" }],
-  RCB: [{ playerId: 17, reason: "Endo · centre-back in both previews" }, { playerId: 3, reason: "Van Dijk · senior cover" }],
-  RB:  [{ playerId: 5, reason: "Gomez · the only other senior right-back" }, { playerId: 14, reason: "Gravenberch · 'can do a job' at RB (Iraola)" }],
-  LDM: [{ playerId: 20, reason: "Nyoni · midfield in both previews" }],
-  RDM: [{ playerId: 17, reason: "Endo · rotation with Arsenal next" }],
-  LAM: [{ playerId: 22, reason: "Gakpo · fallback on the left (The Hard Tackle)" }],
-  CAM: [{ playerId: 18, reason: "Wirtz · 'quite optimistic' (Iraola)" }],
-  RAM: [{ playerId: 30, reason: "Barcola · rested in both previews" }, { playerId: 28, reason: "Munoz · knee, 'more difficult'" }],
-  ST:  [{ playerId: 23, reason: "Isak · rested in both previews" }, { playerId: 30, reason: "Barcola · the alternative nine" }],
+  GK:  [{ playerId: 1, reason: "Alisson · Arsenal the likelier start" }, { playerId: 27, reason: "Woodman · third-choice" }],
+  LB:  [{ playerId: 7, reason: "Kerkez · rested in every preview" }],
+  LCB: [{ playerId: 3, reason: "Van Dijk · rested in tonight's previews" }],
+  RCB: [{ playerId: 17, reason: "Endo · centre-back in two Tuesday previews" }, { playerId: 29, reason: "Araujo · inside in The Liverpool Offside's XI" }],
+  RB:  [{ playerId: 5, reason: "Gomez · right-back in The Liverpool Offside's XI" }, { playerId: 14, reason: "Gravenberch · the emergency option" }],
+  LDM: [{ playerId: 20, reason: "Nyoni · pivot in The Liverpool Offside's XI" }],
+  RDM: [{ playerId: 17, reason: "Endo · pivot in The False 9's XI" }],
+  LAM: [{ playerId: 30, reason: "Barcola · started v Brighton" }],
+  CAM: [{ playerId: 18, reason: "Wirtz · ten in The Liverpool Offside's XI" }],
+  RAM: [{ playerId: 30, reason: "Barcola · right side in The False 9's XI" }, { playerId: 26, reason: "Chiesa · right side in Rush The Kop's" }],
+  ST:  [{ playerId: 23, reason: "Isak · rested in every preview" }, { playerId: 30, reason: "Barcola · the alternative nine" }],
 };
 
 // ─── Prediction confidence & metadata ───────────────────────────────────────
@@ -371,6 +374,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  generated_at: "2026-10-27T22:10:00Z",
-  reason: "Tue Oct 27, evening. Chelsea at Anfield, Carabao Cup, Wed 28 Oct, 8pm. Iraola: 'There will definitely be changes' (Liverpool FC). Four of Sunday's starters remain (Jacquet, Araujo, Gravenberch, Mac Allister); Mamardashvili, Tsimikas, Gomez, Nyoni, Ngumoha, Chiesa and Koumas come in, as in Rush The Kop's and The Hard Tackle's XIs. Wirtz 'quite optimistic' but held on the bench (Empire of the Kop). Low: heavy rotation, the two previews split on the midfield.",
+  generated_at: "2026-10-28T08:30:00Z",
+  reason: "Wed Oct 28, morning. Chelsea at Anfield tonight, Carabao Cup fourth round, 8pm GMT. Five of Sunday's starters remain (Jacquet, Araujo, Gravenberch, Mac Allister, Gakpo, now on the right per The Liverpool Offside); Mamardashvili, Tsimikas, Gomez, Nyoni, Ngumoha and Koumas come in. Wirtz expected available but held on the bench (Empire of the Kop). Low: the previews agree on the keeper, the left-back and the nine, and split on the midfield and the right.",
 };

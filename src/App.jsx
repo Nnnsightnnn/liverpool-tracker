@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          This evening the ankle news is kinder than the morning's. Iraola is quite optimistic that Wirtz
-          will face Chelsea, less so about Szoboszlai and Muñoz, and promises changes either way. Six points
-          off the top, Liverpool host Chelsea in the cup at eight tomorrow night and Arsenal on Sunday.
+          Wednesday, and the cup comes to Anfield at eight. Between them Liverpool and Chelsea may be
+          missing twelve players, Henderson returns in blue, and Arsenal, Sunday's visitors, went out at
+          Fleetwood last night. Fourth on fifteen, Liverpool are Opta's favourites tonight, by a little over half.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,24 +605,24 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              and the most useful word at Kirkby was a small one. Asked about Florian Wirtz, who left Sunday's win over
-              Brighton with a twisted ankle, Andoni Iraola called himself quite optimistic, which from a manager who had
-              opened by saying he could not help much amounted to good news. Szoboszlai and Muñoz were harder cases, not
-              ruled out, not expected. There will be changes against Chelsea, he said, as there were against Villarreal and
-              Brighton, and the previews have Gomez, Tsimikas and Koumas in the side. At Cobham Xabi Alonso counted his own
-              absences, João Pedro for weeks and Palmer for one night. A cup tie in October rarely settles much; this one
-              will settle who is fresh for Arsenal.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              matchday, and the list of who is not playing is longer than the list of who is in doubt. Brit Brief counts
+              twelve across the two clubs before dawn, Szoboszlai, Muñoz and Frimpong among Liverpool's six, Palmer, João
+              Pedro and Reece James among Chelsea's. Jordan Henderson is not on it. Eight years Liverpool's captain, he
+              comes back in Chelsea blue and says he will always be a Red; Xabi Alonso, another old Liverpool midfielder,
+              says he will celebrate if his side score. Then there is Fleetwood, where Arsenal, the champions and Sunday's
+              visitors, went out on penalties to a side from League Two, a sixteen-year-old sent off on the way. The cup was
+              meant to be the distraction this week; the league is watching it instead.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: one manager's measured optimism;
-              seven changes, give or take; Cobham counting its absences; two who will probably wait;
-              and seven contracts with one decision begun early. Fourth in the league, with
-              Chelsea in the cup tomorrow night and Arsenal on Sunday.
+              five dispatches from the writers who never clock off: twelve names short of a full house;
+              the champions undone at the other Highbury; an old captain in a visiting shirt; a manager
+              honest about celebrating; and Madrid's eye on 2027. Fourth in the league, with
+              Chelsea in the cup tonight and Arsenal on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3833,7 +3833,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Quite fine, quite optimistic, quite enough."
+        "Always a Red, tonight in blue."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
