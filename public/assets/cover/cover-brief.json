@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-01T12:00:00Z",
   "status": "OPEN",
   "tracker": "liverpool",
-  "leadStory": "Wednesday morning, matchday: Liverpool host Chelsea in the Carabao Cup fourth round at 8pm GMT with as many as twelve players missing between the sides (Brit Brief); Opta's supercomputer makes Liverpool 52.6 per cent to win in ninety minutes. Arsenal, Sunday's visitors, went out at Fleetwood on penalties last night.",
+  "leadStory": "Wednesday night: Liverpool beat Chelsea 6-5 on penalties after a 1-1 draw at Anfield to reach the Carabao Cup quarter-finals, Mamardashvili saving from Emegha and Joe Gomez scoring the winning kick (ESPN). Arsenal at Anfield on Sunday.",
   "action": "generate",
   "note": "Kenny asked for a better cover than the hand-drawn SVG plates. Generate ONE image per the prompt, save it at `output`, then set COVER_IMAGE.src to it, credit 'Illustration · Antigravity', a fresh generatedAt, and set this file's status to CLOSED. Evergreen on purpose: it should still be right after the City result.",
   "currentPlate": "/assets/cover/2026-10-01-anfield-after-dark.svg",

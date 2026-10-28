@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday, and the cup comes to Anfield at eight. Between them Liverpool and Chelsea may be
-          missing twelve players, Henderson returns in blue, and Arsenal, Sunday's visitors, went out at
-          Fleetwood last night. Fourth on fifteen, Liverpool are Opta's favourites tonight, by a little over half.
+          Wednesday night, and Liverpool are in the quarter-finals: 1-1 with Chelsea, two penalties in five
+          minutes, then 6-5 in a shootout that went to sudden death before Mamardashvili saved and Gomez scored.
+          Fourth on fifteen, with Arsenal, second, at Anfield on Sunday afternoon.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,24 +605,24 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              matchday, and the list of who is not playing is longer than the list of who is in doubt. Brit Brief counts
-              twelve across the two clubs before dawn, Szoboszlai, Muñoz and Frimpong among Liverpool's six, Palmer, João
-              Pedro and Reece James among Chelsea's. Jordan Henderson is not on it. Eight years Liverpool's captain, he
-              comes back in Chelsea blue and says he will always be a Red; Xabi Alonso, another old Liverpool midfielder,
-              says he will celebrate if his side score. Then there is Fleetwood, where Arsenal, the champions and Sunday's
-              visitors, went out on penalties to a side from League Two, a sixteen-year-old sent off on the way. The cup was
-              meant to be the distraction this week; the league is watching it instead.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the cup went to sixteen kicks. Liverpool and Chelsea drew 1-1 with two penalties inside five minutes, Rogers's
+              and Gakpo's, and then took fourteen more without separating, Tsimikas missing the one that would have ended it
+              and Henderson, back at Anfield in blue, scoring the one that kept Chelsea alive. It took Mamardashvili, the cup
+              keeper, to stop Emegha, and Joe Gomez, one of seven players out of contract next summer, to finish it. Wirtz
+              played the last half-hour on the ankle that had worried everyone and scored his kick. None of it counts on
+              Sunday, when Arsenal arrive level with City at the top and six points clear of Liverpool. A quarter-final makes
+              a good night; Sunday makes the week.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: twelve names short of a full house;
-              the champions undone at the other Highbury; an old captain in a visiting shirt; a manager
-              honest about celebrating; and Madrid's eye on 2027. Fourth in the league, with
-              Chelsea in the cup tonight and Arsenal on Sunday.
+              five dispatches from the writers who never clock off: six each, and then Gomez; seven
+              changes and a line about practice; an old captain taking the fifth; Arsenal short at
+              both ends; and the table Sunday will move. Fourth in the league, through to the last
+              eight of the cup, and Arsenal at Anfield on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3833,7 +3833,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Always a Red, tonight in blue."
+        "Sixteen kicks, then Gomez."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
