@@ -163,7 +163,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Wed Oct 28, evening - The ankle held: on for McConnell on fifty-nine and scored Liverpool's fourth kick, bottom right (ESPN), four days after twisting it against Brighton. At ten in both Arsenal previews found.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Wed Oct 28, evening - The ankle held: on for McConnell on fifty-nine and scored Liverpool's fourth kick, bottom right (ESPN), three days after twisting it against Brighton. At ten in both Arsenal previews found.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -1083,7 +1083,7 @@ export const DISPATCHES = [
     byline: "SSBCrack / Yahoo Sports / ESPN",
     dateline: "Anfield · 28 October",
     category: "Manager",
-    body: "Iraola said before kick-off that he trusted the players who had been waiting for this competition, and he picked seven of them: Mamardashvili, Gomez, Tsimikas, Nyoni, McConnell, Koumas and Ngumoha (SSBCrack; Yahoo Sports). Asked about penalties, he said they always practise, and noted that Fleetwood, who had put Arsenal out the night before, apparently had not. By the hour he had sent on Wirtz and Barcola, by eighty-two Mac Allister and Isak, and four of those substitutes scored in the shootout (ESPN). The rotation reached the quarter-final; the first team took the kicks.",
+    body: "Iraola said before kick-off that he trusted the players who had been waiting for this competition, and he picked seven of them: Mamardashvili, Gomez, Tsimikas, Nyoni, McConnell, Koumas and Ngumoha (SSBCrack; Yahoo Sports). Asked about penalties, he said they always practise, adding that he thought Fleetwood, who had put Arsenal out the night before, had not, 'and they were incredible' (SSBCrack). By the hour he had sent on Wirtz and Barcola, by eighty-two Mac Allister and Isak, and four of those substitutes scored in the shootout (ESPN). The rotated side got the tie to penalties; the shootout needed both halves of the squad.",
   },
   {
     n: "03",
@@ -1107,7 +1107,7 @@ export const DISPATCHES = [
     byline: "ESPN / Dave.sport",
     dateline: "Liverpool · 28 October",
     category: "Race for Europe",
-    body: "Nothing in the league moved on Wednesday, so the table is the one Sunday left: Manchester City and Arsenal on twenty-one, Brighton sixteen, Liverpool fifteen, Chelsea thirteen (ESPN). Sunday's game at 4.30pm is the one that does move it, a win leaving Liverpool three behind Arsenal and a defeat nine. Arsenal have won seven of their eight league games, the one defeat 3-0 at Brighton in September, and four in a row since (ESPN). City, who beat Brighton on penalties on Wednesday, stay top on goal difference. Andy Madley referees at Anfield (Dave.sport).",
+    body: "Nothing in the league moved on Wednesday, so the table is the one Sunday left: Manchester City and Arsenal on twenty-one, Brighton sixteen, Liverpool fifteen, Chelsea thirteen (ESPN). Sunday's game at 4.30pm is the one that does move it, a win leaving Liverpool three behind Arsenal and a defeat nine. Arsenal have won seven of their eight league games, the one defeat 3-0 at Brighton in September, and three in a row since (ESPN). City, who beat Brighton on penalties on Wednesday, stay top on goal difference. Andy Madley referees at Anfield (Dave.sport).",
   },
 ];
 export const NEWS_DIGEST = {
@@ -1132,7 +1132,7 @@ export const NEWS_DIGEST = {
     {
       title: "Wirtz Comes Through, Van Dijk Withdrawn (ESPN, this evening)",
       category: "injuries",
-      detail: "Wednesday night: Wirtz, four days after twisting his ankle against Brighton, replaced McConnell on fifty-nine and scored Liverpool's fourth kick (ESPN). Van Dijk was replaced by Jacquet on seventy-two; ESPN's commentary records no injury, and no explanation had been reported when this edition closed. Chelsea lost Lacroix to injury in first-half stoppage time and stopped play for Fofana on seventy-nine (ESPN).",
+      detail: "Wednesday night: Wirtz, three days after twisting his ankle against Brighton, replaced McConnell on fifty-nine and scored Liverpool's fourth kick (ESPN). Van Dijk was replaced by Jacquet on seventy-two; ESPN's commentary records no injury, and no explanation had been reported when this edition closed. Chelsea lost Lacroix to injury in first-half stoppage time and stopped play for Fofana on seventy-nine (ESPN).",
     },
     {
       title: "The Quarter-Final Draw, Due After The Whistle (Brit Brief / The Mag via Yahoo Sports, today)",
@@ -1207,7 +1207,7 @@ export const OPPOSITION = {
   "manager": "Mikel Arteta",
   "formation": "4-2-3-1",
   "leaguePosition": 2,
-  "summary": "Arsenal, the champions, are second on twenty-one from eight, level with Manchester City and behind only on goal difference (ESPN), with seven wins and one league defeat, 3-0 at Brighton on 19 September. Since then they have won four league games in a row, the last two 1-0 at Forest and 2-0 against Everton, and drawn 2-2 in Munich in the Champions League (ESPN). Then came Tuesday: 1-1 at League Two Fleetwood and out 5-3 on penalties, Max Dowman sent off and now suspended for Anfield, with Arsenal appealing the red card (ESPN; The False 9). They arrive with Saka, Saliba and Tzolis out and Rice, Madueke and Calafiori all doubts (Read Arsenal; Goal via LiveScore). An off-field sweep on the club found nothing beyond the injuries and the Dowman appeal.",
+  "summary": "Arsenal, the champions, are second on twenty-one from eight, level with Manchester City and behind only on goal difference (ESPN), with seven wins and one league defeat, 3-0 at Brighton on 19 September. Since then they have won three league games in a row, the last two 1-0 at Forest and 2-0 against Everton, and drawn 2-2 in Munich in the Champions League (ESPN). Then came Tuesday: 1-1 at League Two Fleetwood and out 5-3 on penalties, Max Dowman sent off and now suspended for Anfield, with Arsenal appealing the red card (ESPN; The False 9). They arrive with Saka, Saliba and Tzolis out and Rice, Madueke and Calafiori all doubts (Read Arsenal; Goal via LiveScore). An off-field sweep on the club found nothing beyond the injuries and the Dowman appeal.",
   "shape": "Both previews found expect a 4-2-3-1 (The False 9; OG): Raya behind White or Timber, Gabriel, Konsa and Lewis-Skelly, Rice with Merino or Bruno Guimarães in front of them, Madueke, Ødegaard and Eze behind Gyökeres. Without Saka the right loses its main outlet, the club's top league scorer with three and its leader in shots with seventeen (ESPN). The pattern that threatens is the dead ball: both goals against Everton came from defenders (OG), and The False 9, citing Opta Analyst, puts their set-piece expected goals in that game at 0.79.",
   "keyPlayers": [
     {

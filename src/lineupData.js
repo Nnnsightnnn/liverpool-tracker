@@ -383,5 +383,5 @@ export const ALTERNATIVES = {
 export const PREDICTION_NOTE = {
   level: "Medium",
   generated_at: "2026-10-28T22:45:00Z",
-  reason: "Wed Oct 28, evening. Re-pointed at Arsenal at Anfield, Premier League, Sun 1 Nov, 4.30pm GMT, after Liverpool 1-1 Chelsea (6-5 pens, ESPN). The XI is the eleven that started against Brighton, which The False 9 (Mon) and OG (Wed) both predict; Wirtz came through thirty-one minutes and a shootout kick on his ankle. Szoboszlai and Muñoz still out. Medium: both previews predate the cup tie, and Van Dijk's seventy-second-minute withdrawal is unexplained.",
+  reason: "Wed Oct 28, evening. Re-pointed at Arsenal at Anfield, Premier League, Sun 1 Nov, 4.30pm GMT, after Liverpool 1-1 Chelsea (6-5 pens, ESPN). The XI is the eleven that started against Brighton, which The False 9 (Mon) and OG (Wed) both predict; Wirtz came through thirty-one minutes and a shootout kick on his ankle. Szoboszlai out, Muñoz a doubt. Medium: both previews predate the cup tie, and Van Dijk's seventy-second-minute withdrawal is unexplained.",
 };
