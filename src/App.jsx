@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday, and the draw has given Iraola the one tie he asked not to have: Bournemouth, his old club,
-          at Anfield in December. First there is Sunday. Fourth on fifteen, six behind the champions, and Arsenal
-          coming to a ground where they have not won a league game since 2012.
+          Thursday evening, and Arsenal have lost their appeal: Dowman's ban stands, and it begins at Anfield.
+          Liverpool's own news was quieter and kinder, Van Dijk's early exit a matter of managed minutes and no new
+          injury from the cup. Fourth on fifteen, six behind, and three days until the champions arrive.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,23 +605,24 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and the cup has handed Andoni Iraola a reunion he said he did not want. Before the draw, he admitted afterwards,
-              he had named Bournemouth as the only side he hoped to avoid; the balls gave him Bournemouth, at Anfield, in the
-              week of 14 December. The morning also brought the arithmetic of Wednesday, and it is modest: about half of
-              Liverpool's expected goals came from one penalty, the rotated side kept level and the young ones, Nyoni above
-              all, earned their evening. Arsenal, meanwhile, have found Rice and Madueke and are waiting on a verdict for
-              Dowman. The cup can wait until the dark of December. Sunday cannot.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              and Arsenal have run out of appeals. An independent commission threw out both of their arguments on Thursday
+              afternoon, so Max Dowman, sixteen, begins a three-match ban at Anfield on Sunday. Liverpool's day was smaller
+              and kinder: the withdrawal of Van Dijk that nobody explained on Wednesday was a manager counting minutes, and
+              the cup tie left no fresh injury behind it. Szoboszlai is back on the grass, pushing, though no one writing
+              about Sunday expects him in the side. The right-back is still a centre-back. Arsenal's list of doubts is
+              longer than Liverpool's list of absentees, and for three days that will feel like an advantage. Then the
+              whistle goes.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: the one name he did not want;
-              first-team players, he told them; the numbers under a shootout; Arsenal finding two
-              players and waiting on a third; and a January name with the usual caveat. Fourth in the
-              league, Bournemouth in the last eight of the cup, and Arsenal at Anfield on Sunday.
+              five dispatches from the writers who never clock off: three matches, starting Sunday;
+              not an injury after all; back on the grass, not yet in the group; two left wings and
+              one right-back; and The Overlap's view of Arteta. Fourth in the league, Bournemouth in
+              the last eight of the cup, and Arsenal at Anfield on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3832,7 +3833,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The only team he didn't want."
+        "Three matches, and the first is here."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

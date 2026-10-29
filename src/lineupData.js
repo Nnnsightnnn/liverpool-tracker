@@ -47,10 +47,12 @@ export const FORMATIONS = {
     //   following The False 9's Sunday-evening XI: Nyoni for Wirtz (ankle, doubt), Ngumoha left and Barcola right; Gakpo rested.
     // Wed 28 Oct (evening): Chelsea played, Liverpool won 6-5 on penalties after 1-1 (ESPN). Re-pointed at ARSENAL AT HOME (PL, Sun 1 Nov,
     //   4.30pm GMT): the eleven that started v Brighton, which The False 9 (Mon) and OG (Wed) both predict.
+    // Thu 29 Oct (evening): unchanged. The False 9 (Thu) keeps the Brighton XI; the Evening Standard has Munoz for Gakpo at LW,
+    //   but calls him a doubt, so Gakpo stays. Van Dijk's 72nd-minute exit v Chelsea was managed minutes (Evening Standard via AOL).
     defaultXI: {
       GK: 1,  // Alisson (The False 9; OG)
       LB: 7, // Kerkez (both Arsenal previews)
-      LCB: 3, // Van Dijk (both previews; off on 72 v Chelsea, no injury recorded)
+      LCB: 3, // Van Dijk (both previews; off on 72 v Chelsea, managed minutes per Evening Standard)
       RCB: 11, // Jacquet (both previews)
       RB: 29, // Araujo (both previews)
       LCM: 13, // Mac Allister (both previews)
@@ -185,28 +187,28 @@ export const FORMATIONS = {
 export const PLAYER_EVIDENCE = {
   1:   "In goal in all three previews",
   2:   "7.8 on FotMob v Chelsea (SI)",
-  3:   "Off on 72 · still unexplained",
-  5:   "Shootout winner · 7.0 (SI)",
-  7:   "LB in all three previews",
+  3:   "Minutes managed v Chelsea",
+  5:   "In no Arsenal XI found",
+  7:   "Back on the left (Brit Brief)",
   8:   "Knee · 2 December (PI)",
   9:   "Hamstring · out (RotoWire)",
   10:  "ACL · team training in break",
-  11:  "CB beside Van Dijk (RotoWire)",
+  11:  "Reunited with Van Dijk",
   12:  "Levante loan",
-  13:  "Pivot v Arsenal (RotoWire)",
+  13:  "Pivot v Arsenal (Standard)",
   14:  "5.6 v Chelsea · keeps his place",
-  15:  "Hamstring · 'not far' · out Sun",
+  15:  "On the grass · not in group",
   17:  "No minutes yet this season",
-  18:  "Ankle 'doesn't look very big'",
+  18:  "Recovered from knock (Standard)",
   20:  "SI's winner v Chelsea · 7.1",
-  22:  "Left side v Arsenal · 7.6 (SI)",
+  22:  "Left side (The False 9)",
   23:  "Scored in last two PL games",
   24:  "Achilles · late Dec/2 Jan",
   25:  "6.9 on the left v Chelsea",
   26:  "Unused v Chelsea · bench",
   27:  "Third keeper",
-  28:  "Knee · game-time call",
-  29:  "7.8 at CB · RB v Arsenal",
+  28:  "Knee · Standard start him",
+  29:  "RB in every Arsenal XI",
   30:  "Right side v Arsenal",
   31:  "12 touches in an hour (SI)",
   32:  "Missed kick · 6.9 (SI)",
@@ -330,13 +332,13 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 export const SLOT_CONFIDENCE = {
   GK: "High",
   LB: "High",
-  LCB: "Medium",
+  LCB: "High",
   RCB: "High",
   RB: "Medium",
   LDM: "High",
   RDM: "Medium",
   LAM: "Medium",
-  CAM: "Medium",
+  CAM: "High",
   RAM: "Medium",
   ST: "High",
 };
@@ -347,16 +349,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Wed Oct 28, evening - Kerkez, outside the Chelsea squad and at left-back in both Arsenal previews found (The False 9; OG). High.",
-  LCB: "Thu Oct 29, morning - Van Dijk, at centre-back in all three previews including RotoWire's; the club's match report gives no reason for his exit on seventy-two against Chelsea (Liverpool FC). Medium until that is explained.",
-  RCB: "Wed Oct 28, evening - Jacquet, eighteen minutes off the bench on Wednesday and in both previews. High.",
-  RB: "Wed Oct 28, evening - Araujo, back to right-back in both previews after ninety minutes at centre-back against Chelsea; Gomez the alternative. Medium.",
-  LDM: "Wed Oct 28, evening - Gravenberch, in both previews despite the conceded penalty and the saved kick. High.",
-  RDM: "Wed Oct 28, evening - Mac Allister, nine minutes and a shootout goal on Wednesday, in both previews; Szoboszlai out (The False 9). Medium.",
-  LAM: "Wed Oct 28, evening - Gakpo, left against Brighton (ESPN); the previews list him and Barcola without settling the sides. Medium.",
-  CAM: "Wed Oct 28, evening - Wirtz, at ten in both previews; the ankle came through thirty-one minutes and a kick against Chelsea (ESPN). Medium.",
-  RAM: "Wed Oct 28, evening - Barcola, right against Brighton (ESPN); scored the sixth shootout kick. Medium.",
-  ST: "Wed Oct 28, evening - Isak, the nine in both previews, six league goals in seven (ESPN). High.",
+  LB: "Thu Oct 29, evening - Kerkez, rested against Chelsea and set to 'regain his spot on the left' (Brit Brief); in every Arsenal XI found. High.",
+  LCB: "Thu Oct 29, evening - Van Dijk: his exit on seventy-two against Chelsea was managed minutes, not an injury (Evening Standard via AOL), and every preview has him starting. High.",
+  RCB: "Thu Oct 29, evening - Jacquet, expected to be reunited with Van Dijk by the Evening Standard and Brit Brief. High.",
+  RB: "Thu Oct 29, evening - Araujo, right-back in every Arsenal XI found because Frimpong and Bradley are out (Evening Standard via AOL). Medium.",
+  LDM: "Thu Oct 29, evening - Gravenberch, in the Standard's and The False 9's pivot; This Is Anfield, per Origo, prefers Nyoni. High.",
+  RDM: "Thu Oct 29, evening - Mac Allister, restored in every Thursday XI; Szoboszlai on the grass but not expected (Origo). Medium.",
+  LAM: "Thu Oct 29, evening - Gakpo, on the left for The False 9; the Evening Standard starts Munoz there despite calling him a doubt. Medium.",
+  CAM: "Thu Oct 29, evening - Wirtz, recovered from the knock (Evening Standard via AOL) and at ten in every preview. High.",
+  RAM: "Thu Oct 29, evening - Barcola, on the right in the Standard's and The False 9's XIs. Medium.",
+  ST: "Thu Oct 29, evening - Isak, the nine in every Arsenal XI found ('Isak Starts', The False 9). High.",
 };
 
 
@@ -367,12 +369,12 @@ export const SLOT_RATIONALE = {
 export const ALTERNATIVES = {
   GK:  [{ playerId: 2, reason: "Mamardashvili · the cup keeper, a shootout save" }, { playerId: 27, reason: "Woodman · third-choice" }],
   LB:  [{ playerId: 32, reason: "Tsimikas · ninety minutes v Chelsea" }],
-  LCB: [{ playerId: 5, reason: "Gomez · if Van Dijk's withdrawal was a knock" }],
+  LCB: [{ playerId: 5, reason: "Gomez · the fresh senior centre-back cover" }],
   RCB: [{ playerId: 5, reason: "Gomez · the fresh senior cover" }],
   RB:  [{ playerId: 5, reason: "Gomez · right-back v Chelsea" }, { playerId: 14, reason: "Gravenberch · the emergency option" }],
   LDM: [{ playerId: 20, reason: "Nyoni · started v Chelsea" }],
   RDM: [{ playerId: 20, reason: "Nyoni · pivot cover" }, { playerId: 17, reason: "Endo · no minutes yet" }],
-  LAM: [{ playerId: 25, reason: "Ngumoha · started left v Chelsea" }],
+  LAM: [{ playerId: 28, reason: "Munoz · the Standard's pick, a doubt" }, { playerId: 25, reason: "Ngumoha · started left v Chelsea" }],
   CAM: [{ playerId: 20, reason: "Nyoni · ten if Wirtz is managed" }],
   RAM: [{ playerId: 26, reason: "Chiesa · unused v Chelsea" }, { playerId: 25, reason: "Ngumoha · either flank" }],
   ST:  [{ playerId: 22, reason: "Gakpo · led the line v Chelsea" }, { playerId: 31, reason: "Koumas · cup starter" }],
@@ -383,6 +385,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-10-29T09:15:00Z",
-  reason: "Thu Oct 29, morning. Arsenal at Anfield, Premier League, Sun 1 Nov, 4.30pm GMT. Unchanged: the Brighton XI, now named by a third preview, RotoWire's (Wed), as well as The False 9's and OG's, with Araújo at right-back and Wirtz at ten. Szoboszlai and Frimpong out, Muñoz a game-time decision. Medium: all three previews predate Iraola's pre-match press conference, and Van Dijk's withdrawal on seventy-two against Chelsea is still unexplained.",
+  generated_at: "2026-10-29T22:45:00Z",
+  reason: "Thu Oct 29, evening. Arsenal at Anfield, Premier League, Sun 1 Nov, 4.30pm GMT. Unchanged: the Brighton XI, which The False 9's Thursday prediction repeats, with Araújo at right-back; the Evening Standard has Muñoz for Gakpo on the left. Van Dijk's exit against Chelsea was managed minutes, not an injury (Evening Standard via AOL). Szoboszlai and Frimpong out, Muñoz a doubt. Medium: Iraola's pre-match press conference has not happened yet.",
 };
