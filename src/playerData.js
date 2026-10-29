@@ -1123,9 +1123,9 @@ export const NEWS_DIGEST = {
   "summary": "Thursday evening, and Arsenal's appeal has failed: an independent regulatory commission dismissed claims of wrongful dismissal and excessive punishment, so Max Dowman serves a three-match ban that begins at Anfield on Sunday (ESPN; Football365). The question Wednesday left open on Liverpool's side has an answer too: Van Dijk's withdrawal on seventy-two against Chelsea was managed minutes, and the cup tie brought no new injury concerns (Evening Standard via AOL; Brit Brief). Szoboszlai is back on the grass and pushing to be ready, the Daily Mail's Lewis Steele reports (DaveOCKOP), though no preview found expects him to start. Arsenal's own list is less settled than it looked at breakfast: Thursday's Evening Standard still has Rice, Calafiori, Madueke and Tzolis as doubts, with Saka and Saliba out. Kick-off is 4.30pm on Sunday, Liverpool fourth on fifteen and Arsenal second on twenty-one (ESPN).",
   "keyTopics": [
     {
-      "title": "Dowman Ban Stands: Arsenal's Appeal Rejected (ESPN / Football365, today)",
+      "title": "Dowman Ban Stands: Arsenal's Appeal Rejected (ESPN / Football365 / Sky Sports, today)",
       "category": "matches",
-      "detail": "Confirmed on Thursday afternoon: the FA said an independent Regulatory Commission 'has dismissed claims of both wrongful dismissal and excessive punishment', and Dowman 'will be suspended for three matches' (ESPN). Football365 lists them as Liverpool, Hull and Newcastle. The sixteen-year-old was sent off for kicking out at Fleetwood's Harrison Neal late in Tuesday's cup tie (ESPN)."
+      "detail": "Confirmed on Thursday afternoon: the FA said an independent Regulatory Commission 'has dismissed claims of both wrongful dismissal and excessive punishment', and Dowman 'will be suspended for three matches' (ESPN). Football365 lists them as Liverpool, Hull and Newcastle. The sixteen-year-old was sent off for kicking out at Fleetwood's Harrison Neal late in Tuesday's cup tie (ESPN). Sky Sports reported the verdict the same evening."
     },
     {
       "title": "Van Dijk's Minutes Were Managed, Not An Injury (Evening Standard via AOL / Brit Brief, today)",
@@ -1158,9 +1158,9 @@ export const NEWS_DIGEST = {
       "detail": "Confirmed in Thursday's previews: kick-off at 4.30pm GMT at Anfield, live on Sky Sports (Brit Brief; The False 9). Brit Brief also says Kerkez 'was rested against Chelsea and will regain his spot on the left'."
     },
     {
-      "title": "Wirtz Clear Of The Ankle (Liverpool FC / Evening Standard via AOL, 2d ago)",
+      "title": "Wirtz Clear Of The Ankle (Evening Standard via AOL / Liverpool FC, today)",
       "category": "injuries",
-      "detail": "Liverpool's own injury list, updated on Tuesday, carried Iraola's line 'I'm quite optimistic that he will be available'; he played half an hour against Chelsea, and Thursday's Evening Standard preview says he has recovered from the knock and starts at ten."
+      "detail": "Thursday's Evening Standard preview says he has recovered from the knock and starts at ten; Liverpool's own injury list, updated on Tuesday, had carried Iraola's line 'I'm quite optimistic that he will be available', and he played half an hour against Chelsea."
     }
   ],
   "sources": [
@@ -1673,29 +1673,29 @@ export const SQUAD_LOAD = {
       "name": "Jeremie Frimpong",
       "issue": "Hamstring, a new muscle injury two or three minutes after coming on at the Gtech",
       "expected": "Around four weeks, per Sky Sports' Vinny O'Connor on 22 October (Empire of the Kop); 22 November, Manchester United at home, on Premier Injuries' tracker",
-      "note": "Zero per cent for Arsenal on official FPL data (The False 9); Iraola said on 19 October that a return before the break would be difficult (CaughtOffside via Yardbarker).",
-      "source": "Sky Sports via Empire of the Kop / Premier Injuries / The False 9 / CaughtOffside via Yardbarker"
+      "note": "Listed injured for Arsenal by the Evening Standard and Brit Brief on Thursday; Iraola said on 19 October that a return before the break would be difficult (Liverpool FC).",
+      "source": "Sky Sports via Empire of the Kop / Premier Injuries / Evening Standard via AOL / Liverpool FC"
     },
     {
       "name": "Hugo Ekitike",
       "issue": "Achilles rupture (April, surgery)",
       "expected": "The New Year, per Sky Sports' Vinny O'Connor (Empire of the Kop); Premier Injuries' tracker says 2 January",
-      "note": "Iraola says he is 'doing very well' (Brit Brief). Koumas, booked and replaced on fifty-nine against Chelsea (ESPN), and Barcola remain the cover behind Isak.",
-      "source": "Sky Sports and Daily Mail via Empire of the Kop / Premier Injuries"
+      "note": "On the injured list in Thursday's previews (Evening Standard via AOL; Brit Brief). Koumas and Barcola remain the cover behind Isak.",
+      "source": "Sky Sports via Empire of the Kop / Premier Injuries / Evening Standard via AOL"
     },
     {
       "name": "Giovanni Leoni",
       "issue": "ACL (September 2025)",
       "expected": "Not expected back until mid-November on Brit Brief's Wednesday list, with team training planned for the international break; Premier Injuries' tracker still says 2 January",
-      "note": "Listed with the longer-term absentees in OG's Arsenal preview. O'Connor, earlier this month: 'We're expecting him to join in with first-team training during the next international break.' Gomez, at right-back on Wednesday, remains the fresh senior centre-back cover.",
-      "source": "Brit Brief / Sky Sports via Empire of the Kop / Premier Injuries"
+      "note": "Iraola, on the club's injury list: 'The plan now is he starts in the next break' (Liverpool FC). Gomez remains the fresh senior centre-back cover.",
+      "source": "Brit Brief / Liverpool FC / Premier Injuries"
     },
     {
       "name": "Conor Bradley",
       "issue": "Knee",
       "expected": "Early December on Rush The Kop's list; 2 December on Premier Injuries' tracker",
-      "note": "Among OG's longer-term absentees for Arsenal; Brit Brief on Monday called him 'not so far from training with the group', but a competitive return is unlikely before the November break. The return that would end the right-back improvisation.",
-      "source": "Brit Brief / Daily Mail via Empire of the Kop / Premier Injuries"
+      "note": "On the club's injury list after surgery on a 'significant knee injury' (Liverpool FC); listed injured in Thursday's previews. The return that would end the right-back improvisation.",
+      "source": "Liverpool FC / Evening Standard via AOL / Premier Injuries"
     }
   ],
   "returning": [
@@ -1717,43 +1717,43 @@ export const SQUAD_LOAD = {
       "name": "Trey Nyoni",
       "issue": "A knock late on against Brighton, per SI; no club word",
       "status": "Started in the pivot against Chelsea, replaced by Mac Allister on eighty-one (ESPN)",
-      "note": "Sunday's knock against Brighton did not keep him out; on the bench in both Arsenal previews found.",
-      "source": "ESPN / The False 9 / OG"
+      "note": "Starts in the pivot in This Is Anfield's Arsenal XI, as Origo reported it on Thursday; the Evening Standard and The False 9 have him on the bench.",
+      "source": "ESPN / Origo / The False 9 / Evening Standard via AOL"
     },
     {
       "name": "Alexander Isak",
       "issue": "Back from a muscle injury",
       "status": "On for Ngumoha on eighty-two against Chelsea and scored the second shootout kick (ESPN)",
-      "note": "Six league goals in seven appearances (ESPN); the nine in both Arsenal previews found.",
-      "source": "SI / ESPN"
+      "note": "Six league goals in seven appearances (ESPN); the nine in every Arsenal XI published on Thursday (The False 9; Evening Standard via AOL).",
+      "source": "ESPN / The False 9 / Evening Standard via AOL"
     },
     {
       "name": "Bradley Barcola",
-      "issue": "No injury; Thursday's session was load management",
+      "issue": "No injury",
       "status": "On for Koumas on fifty-nine against Chelsea, a shot saved by Penders, and scored the sixth shootout kick (ESPN)",
-      "note": "Two league assists (ESPN); wide in both Arsenal previews found.",
-      "source": "ESPN / The False 9 / OG"
+      "note": "On the right in the Evening Standard's and The False 9's Thursday XIs.",
+      "source": "ESPN / The False 9 / Evening Standard via AOL"
     },
     {
       "name": "Ronald Araujo",
       "issue": "No injury",
       "status": "Ninety minutes against Chelsea, at centre-back on ESPN's line-up, with a header saved on sixty-one (ESPN)",
-      "note": "Unbooked, so no quarter-final ban; at right-back in both Arsenal previews found (The False 9; OG).",
-      "source": "ESPN / The False 9 / OG"
+      "note": "Unbooked, so no quarter-final ban; right-back in every Thursday Arsenal XI because Frimpong and Bradley are out (Evening Standard via AOL).",
+      "source": "ESPN / Evening Standard via AOL"
     },
     {
       "name": "Ryan Gravenberch",
       "issue": "No injury",
       "status": "Ninety minutes against Chelsea; conceded the penalty on thirty-eight and had his shootout kick saved (ESPN)",
-      "note": "Still the named emergency right-back; beside Mac Allister in both Arsenal previews found.",
-      "source": "ESPN / 101 Great Goals / The False 9 / OG"
+      "note": "Still the named emergency right-back; beside Mac Allister in the Evening Standard's and The False 9's Thursday XIs.",
+      "source": "ESPN / 101 Great Goals / The False 9 / Evening Standard via AOL"
     },
     {
       "name": "Joe Gomez",
       "issue": "No injury",
       "status": "Ninety minutes against Chelsea, at right-back on ESPN's line-up, and scored the winning kick (ESPN)",
-      "note": "Out of both Arsenal previews found; one of seven first-team players out of contract next summer (AnfieldWatch via Yahoo Sports).",
-      "source": "ESPN / The False 9 / OG / AnfieldWatch via Yahoo Sports"
+      "note": "In no Arsenal XI published on Thursday; one of seven first-team players out of contract next summer (AnfieldWatch via Yahoo Sports).",
+      "source": "ESPN / The False 9 / Evening Standard via AOL / AnfieldWatch via Yahoo Sports"
     },
     {
       "name": "Wataru Endo",
