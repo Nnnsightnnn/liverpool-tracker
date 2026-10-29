@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Wed Oct 28, evening - Unused on the bench as Mamardashvili kept goal through the shootout against Chelsea (ESPN); both Arsenal previews found, The False 9's and OG's, have him back in goal on Sunday.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Thu Oct 29, morning - Rested for the cup and back for the league: Alisson was unused on Wednesday, and RotoWire's Arsenal XI, published on Wednesday, has him in goal on Sunday as The False 9 and OG did.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 26, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Wed Oct 28, evening - Saved Emegha's sudden-death kick, Chelsea's seventh, to set up Gomez's winner, after three saves in normal time from Rogers, Neto and Palestra (ESPN). The cup keeper now has a shootout to his name.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 26, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Thu Oct 29, morning - FotMob's 7.8, joint-top for Liverpool on SI's ratings, after the shootout save from Emegha; Iraola afterwards: 'I think Giorgi was close to stopping a lot of the shots. He did a very good job' (Goal via Yahoo Sports).", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Wed Oct 28, evening - Started at centre-back and was replaced by Jacquet on seventy-two, with no injury recorded in ESPN's commentary; both Arsenal previews found have him back in the middle on Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Thu Oct 29, morning - Still unexplained: the Liverpool FC match report lists only 'Van Dijk (Jacquet, 72)', and no post-match account found gives a reason. The Echo's Paul Gorst had been 'surprised Van Dijk starts' (Empire of the Kop). In RotoWire's Arsenal XI at centre-back.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Wed Oct 28, evening - Scored the winning kick, Liverpool's eighth, after Mamardashvili's save, having played ninety minutes at right-back on ESPN's line-up and crossed for Araujo's header on sixty-one. One of seven first-team players out of contract next summer (AnfieldWatch via Yahoo Sports).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Thu Oct 29, morning - The shootout winner was, by the Telegraph's count, the first time he has 'scored' at senior level for Liverpool; FotMob rated his ninety at right-back 7.0 (SI). Out of contract next summer (AnfieldWatch via Yahoo Sports) and outside the Arsenal previews.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -54,7 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Wed Oct 28, evening - Outside Wednesday's matchday squad (ESPN), so the cup-booking question never arose; at left-back in both Arsenal previews found (The False 9; OG).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Thu Oct 29, morning - Rested on Wednesday, back for Sunday: left-back in RotoWire's Arsenal XI, as in The False 9's and OG's.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Wed Oct 28, evening - Knee: absent again on Wednesday night; OG counts him among the longer-term absentees for Arsenal, and Rush The Kop's list still points to early December.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Thu Oct 29, morning - Knee: not yet training with the group; Premier Injuries' tracker still points to 2 December and Rush The Kop to early December, so Araújo stays the right-back for Arsenal.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Wed Oct 28, evening - Hamstring: The False 9's Arsenal table, from official FPL data, gives him no chance of playing on Sunday; Iraola said on 19 October that a return before the November break would be difficult (CaughtOffside via Yardbarker).", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Thu Oct 29, morning - Hamstring: RotoWire lists him out for Sunday, the third preview to do so; Iraola said on 19 October a return before the November break would be difficult (CaughtOffside via Yardbarker).", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Wed Oct 28, evening - ACL: listed with the longer-term absentees in OG's Arsenal preview; first-team training is still pencilled in for the November break (The False 9).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Thu Oct 29, morning - ACL: the next landmark is team training in the November international break (The False 9), with Brit Brief's list saying mid-November; not part of the Arsenal picture.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Wed Oct 28, evening - On for Van Dijk on seventy-two against Chelsea (ESPN); centre-back beside Van Dijk in both Arsenal previews found.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Thu Oct 29, morning - FotMob gave his eighteen minutes against Chelsea 6.1 (SI). Beside Van Dijk in RotoWire's Arsenal XI, the third preview to put him there.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Wed Oct 28, evening - On loan at Levante for the season; outside both of this week's domestic squads.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Thu Oct 29, morning - Levante loanee; nothing from Spain this week, and no part of Liverpool's domestic squads.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -111,7 +111,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Wed Oct 28, evening - Ninety minutes at left-back, but his shootout kick, Liverpool's fifth, went high and wide when scoring would have won the tie (ESPN). Another of the 2027 expiries (AnfieldWatch via Yahoo Sports).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
+    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Thu Oct 29, morning - The left-back who missed: FotMob still rated his ninety 6.9 (SI), and Liverpool's shootout record against Chelsea survived his kick, five wins from five (Sports Mole). Out of contract in 2027 (AnfieldWatch via Yahoo Sports).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
     physical: { height: 178, weight: 76, pace: 79, acceleration: 80, sprintSpeed: 78 },
     career: [
       { years: "2017-2020", club: "Olympiacos", fee: null, type: "senior" },
@@ -122,7 +122,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Wed Oct 28, evening - Off the bench for Nyoni on eighty-one and took the first kick of the shootout, top left corner (ESPN); beside Gravenberch in both Arsenal previews found.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Thu Oct 29, morning - Ten minutes and the first kick against Chelsea; RotoWire pairs him with Gravenberch for Arsenal. TEAMtalk, via LiveScore, ties a reported January interest in Monaco's Lamine Camara to uncertainty over his future, a report with no club comment.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Wed Oct 28, evening - A hard night in the pivot: conceded the penalty on thirty-eight with a foul on Caicedo and had his sudden-death kick saved by Penders before Mamardashvili and Gomez rescued it (ESPN; 101 Great Goals).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "fit", injuryNote: "Thu Oct 29, morning - SI's loser of the night at 5.6, the lowest of the starters, for the foul on Caicedo that gave Chelsea their penalty; he also had a sudden-death kick saved. Still in the pivot in every Arsenal preview found.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "injured", outSince: "2026-10-17", injuryNote: "Wed Oct 28, evening - Hamstring: missed a third straight game on Wednesday, and The False 9 expects him to miss Arsenal too, official FPL data giving him no chance of playing.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "injured", outSince: "2026-10-17", injuryNote: "Thu Oct 29, morning - Hamstring: RotoWire leaves him out of its Arsenal projection, recalling Iraola's 23 October line that 'I don't think he's far'; The False 9 and FPL still give him no chance for Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Wed Oct 28, evening - An unused substitute again on Wednesday (ESPN), still waiting for a first appearance of the season.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Thu Oct 29, morning - Twelve games, no minutes: unused again against Chelsea (Liverpool FC), and Endo remains the one fit senior midfielder Iraola has not used this season.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -163,7 +163,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Wed Oct 28, evening - The ankle held: on for McConnell on fifty-nine and scored Liverpool's fourth kick, bottom right (ESPN), three days after twisting it against Brighton. At ten in both Arsenal previews found.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Thu Oct 29, morning - Ankle answered, finishing less so: Football365 had him missing a big chance after coming on, and FotMob rated his half-hour 6.0 (SI), but RotoWire calls the ankle a question that 'doesn't look very big' and has him at ten.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -172,7 +172,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Wed Oct 28, evening - Started in the pivot against Chelsea and gave way to Mac Allister on eighty-one (ESPN); Sunday's knock from Brighton did not keep him out.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
+    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Thu Oct 29, morning - SI's winner of the night, 7.1 on FotMob, two days after telling the club's website 'there's just a real belief in the group' (Liverpool FC). Iraola: 'They showed us they had a very good level and they helped us a lot' (Goal via Yahoo Sports).", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
     physical: { height: 178, weight: 68, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Leicester City Academy", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Wed Oct 28, evening - Led the line against Chelsea, equalised from the spot on forty-three after Fofana's handball and scored again in the shootout (ESPN); Opta Analyst's pre-match count of ten EFL Cup goals since 2023-24 becomes eleven.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Thu Oct 29, morning - Penalty, then penalty again: FotMob had his ninety at 7.6, Liverpool's best outfield rating behind Araújo (SI). RotoWire puts him on the left against Arsenal.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Wed Oct 28, evening - On for Ngumoha on eighty-two and scored Liverpool's second kick (ESPN); the nine in both Arsenal previews found, six league goals in seven (ESPN).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Thu Oct 29, morning - Scored in each of Liverpool's last two league games (RotoWire) and took the second kick on Wednesday; the nine in every Arsenal preview found.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Wed Oct 28, evening - Achilles: the New Year is still the horizon, 2 January on Premier Injuries' tracker; not involved this week.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Thu Oct 29, morning - Achilles: RotoWire now says late December, Premier Injuries' tracker 2 January; no change this week.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -213,7 +213,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Wed Oct 28, evening - Started on the left against Chelsea, fouled by Neto near the box in the opening minutes (VAVEL), and replaced by Isak on eighty-two (ESPN).", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Thu Oct 29, morning - FotMob 6.9 for his start on the left (SI), one of the academy players Iraola said 'deserved the right to play' (Goal via Yahoo Sports). Replaced by Isak on eighty-two.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Wed Oct 28, evening - Booked on eleven minutes for a bad foul and replaced by Barcola on fifty-nine (ESPN), his cup start on the right of ESPN's line-up.", image: "",
+    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Thu Oct 29, morning - A hard night: SI's FotMob ratings give him 6.4 and note 'just 12 touches during his hour on the field'. Booked on eleven and replaced on fifty-nine (ESPN).", image: "",
     physical: { height: 180, weight: 73, pace: 80, acceleration: 81, sprintSpeed: 79 },
     career: [
       { years: "2013-", club: "Liverpool", fee: null, type: "youth" },
@@ -231,7 +231,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Wed Oct 28, evening - An unused substitute against Chelsea (ESPN); outside both Arsenal XIs found, which put Barcola and Gakpo wide.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Thu Oct 29, morning - Unused against Chelsea (Liverpool FC); RotoWire's Arsenal XI, like the others, uses Barcola and Gakpo wide.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -242,7 +242,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Wed Oct 28, evening - Outside Wednesday's matchday squad (ESPN), Alisson the reserve keeper; third choice.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Thu Oct 29, morning - Third choice; outside Wednesday's squad (ESPN). No change.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -259,7 +259,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "doubtful", injuryNote: "Wed Oct 28, evening - Knee: missed a third game on Wednesday; The False 9's Monday table, from official FPL data, made him 25 per cent for Arsenal.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "doubtful", injuryNote: "Thu Oct 29, morning - Knee: RotoWire calls him a game-time decision for Sunday; The False 9's FPL figure stays at 25 per cent. Held out of the XI here.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -269,7 +269,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Wed Oct 28, evening - Ninety minutes at centre-back on ESPN's line-up, first beside Van Dijk and then Jacquet, with a header saved by Penders on sixty-one. Unbooked, so no quarter-final ban; back at right-back in both Arsenal previews.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
+    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Thu Oct 29, morning - FotMob's 7.8 made him joint-top for Liverpool against Chelsea (SI), ninety at centre-back with a header saved. Every Arsenal preview found, RotoWire's the latest, moves him back to right-back.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
     physical: { height: 188, weight: 79, pace: 78, acceleration: 74, sprintSpeed: 80 },
     career: [
       { years: "2016-2018", club: "Rentistas", fee: null, type: "youth" },
@@ -279,7 +279,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Wed Oct 28, evening - On for Koumas on fifty-nine, had a shot saved by Penders on sixty-five and scored the sixth kick of the shootout (ESPN); wide in both Arsenal previews found.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
+    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Thu Oct 29, morning - Scored the sixth kick on Wednesday; wide on the right in RotoWire's Arsenal XI, as in The False 9's and OG's.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
     physical: { height: 182, weight: 72, pace: 91, acceleration: 92, sprintSpeed: 90 },
     career: [
       { years: "2010-2020", club: "Lyon Academy", fee: null, type: "youth" },
@@ -398,7 +398,10 @@ export const COVER_IMAGE = {
   alt: "Editorial plate: an empty pitch under floodlights seen from the gantry, the white lines drawn in perspective through a low mist, the stand beyond in shadow.",
   focus: "Anfield, after dark",
   credit: "Editorial plate",
-  generatedAt: "2026-10-28T22:45:00Z",
+  generatedAt: "2026-10-29T09:15:00Z",
+  // Morning pass (Thu 29 October, ~4am ET, cloud-scheduled): NO LIVERPOOL MATCH since the last edition. Lead is the quarter-final draw,
+  // Bournemouth at Anfield, Iraola's "the only team that I don't want" (ESPN). A press-room line, not a photograph. Plate carried;
+  // NO image queued (STEP 7.5 not runnable in cloud).
   // Evening pass (Wed 28 October, ~6pm ET, cloud-scheduled): MATCH PLAYED. Liverpool 1-1 Chelsea, 6-5 on penalties (ESPN), Gomez the
   // winning kick after Mamardashvili saved from Emegha; leads every surface. Re-pointed at Arsenal at home, Sun 1 Nov. Plate carried;
   // NO image queued (STEP 7.5 not runnable in cloud).
@@ -1020,6 +1023,7 @@ export const RESULTS = [
 // Tottenham up to sixteenth on six (first league win, goal difference -6 to -4), Coventry seventeenth. Every side on seven played.
 // Relegation stripe: Fulham, Forest, Sunderland. Top five unchanged; LIVERPOOL fifth (highlighted) on twelve.
 // Refresh 2026-10-28 (Wednesday evening, ~6pm ET). Re-fetched from ESPN after the Carabao Cup ties, unchanged; no league games played.
+// Refresh 2026-10-29 (Thursday morning, ~4am ET). Re-fetched from ESPN, byte-identical to Wednesday evening; matchweek nine starts on Saturday.
 export const STANDINGS = [
   { pos: 1, team: "Manchester City", p: 8, w: 7, d: 0, l: 1, gd: 11, pts: 21, qualification: "UCL" },
   { pos: 2, team: "Arsenal", p: 8, w: 7, d: 0, l: 1, gd: 8, pts: 21, qualification: "UCL" },
@@ -1052,129 +1056,130 @@ export const STANDINGS_COMMENTARY = {
   "source": "ESPN",
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 8,
-  "generatedAt": "2026-10-28T22:45:00Z",
-  "overview": "The table did not move on Wednesday night, re-fetched from ESPN after the cup ties: Manchester City and Arsenal on twenty-one, City ahead on goal difference, Brighton third on sixteen, Liverpool fourth on fifteen and Chelsea fifth on thirteen. The cup did the moving, Liverpool through against Chelsea on penalties, 1-1 and 6-5, and City past Brighton the same way after 2-2 (ESPN). Sunday at Anfield is the game that changes the top: a Liverpool win leaves them three behind Arsenal, a defeat nine. At the bottom Forest, Coventry and Sunderland are still a point apart, and Sunderland, bottom, knocked Brentford out of the cup 3-2 tonight (ESPN).",
+  "generatedAt": "2026-10-29T09:15:00Z",
+  "overview": "Matchweek nine has not begun, so the table re-fetched from ESPN on Thursday morning is the one the cup week left: Manchester City and Arsenal on twenty-one, City ahead on goal difference, Brighton third on sixteen, Liverpool fourth on fifteen and Chelsea fifth on thirteen. The gap that matters is six points, and Sunday at Anfield is the only game this weekend that can halve it or stretch it to nine. Below Liverpool, Chelsea play Manchester United at home on Saturday (ESPN), and six sides sit between eleven and ten points, so fourth is safer than it looks in one direction and nothing like settled in the other. At the bottom Forest, Coventry and Sunderland are a point apart, and Sunderland and Crystal Palace, drawn together in the cup quarter-finals, also meet in the league before it (SI).",
   "teams": {
-    "Liverpool": "Fourth on fifteen; into the cup quarter-finals on penalties against Chelsea tonight, Arsenal at Anfield at 4.30pm on Sunday.",
-    "Manchester City": "Top on goal difference; past Brighton 4-3 on penalties after 2-2 in the cup tonight, Cherki scoring the decisive kick (ESPN).",
-    "Arsenal": "Second on twenty-one, seven wins from eight; at Anfield on Sunday without Saka, Saliba and the suspended Dowman (Read Arsenal; The False 9).",
-    "Brighton": "Third on sixteen with the league's best goal difference, plus sixteen, and out of the cup on penalties at the Etihad (ESPN).",
-    "Chelsea": "Fifth on thirteen; out of the cup at Anfield, 6-5 on penalties, with Lacroix and Fofana both treated for injuries (ESPN).",
-    "Brentford": "Sixth on eleven; beaten 3-2 at Sunderland in the cup tonight (ESPN).",
-    "Bournemouth": "Thirteenth on nine; 3-0 winners over Aston Villa in the cup tonight (ESPN).",
-    "Crystal Palace": "Seventeenth on seven; won 1-0 at Fulham in the cup through Nketiah (ESPN), and Liverpool's next away league opponents, on 8 November.",
-    "Manchester United": "Sixteenth on seven; at Anfield on 22 November.",
-    "Sunderland": "Bottom on five, a point behind Forest and Coventry, but through to the cup quarter-finals; at Anfield on 2 December."
+    "Liverpool": "Fourth on fifteen; Arsenal at Anfield on Sunday, then Bournemouth at home in the cup quarter-finals in the week of 14 December (ESPN).",
+    "Manchester City": "Top on goal difference; drawn at home to League One Bradford in the cup quarter-finals (SI).",
+    "Arsenal": "Second on twenty-one; at Anfield on Sunday with Rice and Madueke expected fit (ArsenalNews.co.uk) and Dowman's appeal still pending (Sports Mole).",
+    "Brighton": "Third on sixteen with the league's best goal difference, plus sixteen.",
+    "Chelsea": "Fifth on thirteen; Alonso called the cup exit 'a small setback' and turned to Manchester United at home on Saturday (ESPN).",
+    "Bournemouth": "Thirteenth on nine; Liverpool's cup quarter-final opponents at Anfield, Iraola's former club (ESPN).",
+    "Crystal Palace": "Seventeenth on seven; Liverpool's next away league opponents on 8 November, and drawn against Sunderland in the cup (SI).",
+    "Manchester United": "Sixteenth on seven; at Chelsea on Saturday, at Anfield on 22 November.",
+    "Sunderland": "Bottom on five, a point behind Forest and Coventry; Palace next in the cup, Anfield on 2 December in the league."
   }
 };
 // ─── Dispatches (hand-curated long reads — separate from the wire feed) ────
 export const DISPATCHES = [
   {
-    n: "01",
-    headline: "Six Each, and Then Gomez.",
-    byline: "ESPN / 101 Great Goals / This Is Anfield",
-    dateline: "Anfield · 28 October",
-    category: "Match Report",
-    body: "Two penalties in five minutes made the ninety. Gravenberch slid into Caicedo and Rogers put the kick into the top corner on forty; Fofana handled from a corner and Gakpo drilled the reply low on forty-three (ESPN; 101 Great Goals). After that the evening belonged to the goalkeepers, Penders saving from Araújo and Barcola, Mamardashvili from Rogers, Neto and Palestra. The shootout ran fourteen kicks before it went anywhere. Tsimikas missed the one that would have ended it in the fifth round; Gravenberch was saved in the seventh. Then Mamardashvili read Emegha, Gomez scored, and Fofana's kick went over. Liverpool are in the last eight.",
+    "n": "01",
+    "headline": "The One Name He Did Not Want.",
+    "byline": "ESPN / Hayters / Sports Mole",
+    "dateline": "Anfield · 28 October",
+    "category": "Football News",
+    "body": "Before the draw, Iraola said afterwards, he had told people the only team he did not want was Bournemouth. Then the balls came out and it was Bournemouth, at Anfield, in the week of 14 December (ESPN). 'For me it's special,' he said afterwards, 'but they know me very well, they are playing very well lately' (Hayters). He counted the luck of the road so far, Spurs, then Chelsea, now his old club, and found it wanting. Then he said the sensible thing, that you have to earn the semi-finals, and hoped to do it at home again (Sports Mole)."
   },
   {
-    n: "02",
-    headline: "Seven Changes, and a Line About Practice.",
-    byline: "SSBCrack / Yahoo Sports / ESPN",
-    dateline: "Anfield · 28 October",
-    category: "Manager",
-    body: "Iraola said before kick-off that he trusted the players who had been waiting for this competition, and he picked seven of them: Mamardashvili, Gomez, Tsimikas, Nyoni, McConnell, Koumas and Ngumoha (SSBCrack; Yahoo Sports). Asked about penalties, he said they always practise, adding that he thought Fleetwood, who had put Arsenal out the night before, had not, 'and they were incredible' (SSBCrack). By the hour he had sent on Wirtz and Barcola, by eighty-two Mac Allister and Isak, and four of those substitutes scored in the shootout (ESPN). The rotated side got the tie to penalties; the shootout needed both halves of the squad.",
+    "n": "02",
+    "headline": "First-Team Players, He Told Them.",
+    "byline": "Goal via Yahoo Sports / SI",
+    "dateline": "Anfield · 28 October",
+    "category": "Manager",
+    "body": "Iraola had told the young players before the tie that they were first-team players, and afterwards he said so in public: 'They showed us they had a very good level and they helped us a lot' (Goal via Yahoo Sports). FotMob's ratings agreed about one of them in particular. Trey Nyoni, nineteen, was SI's winner of the night at 7.1; Ngumoha, eighteen, scored 6.9 on the left. Koumas was the counter-example, twelve touches in an hour by SI's count. Iraola called it 'quite a level game', and he was right, and then he looked past it: 'now we have the biggest one against Arsenal on Sunday.'"
   },
   {
-    n: "03",
-    headline: "An Old Captain Takes the Fifth.",
-    byline: "ESPN",
-    dateline: "Anfield · 28 October",
-    category: "Farewells",
-    body: "Jordan Henderson played every minute at Anfield on Wednesday, in a Chelsea midfield beside Caicedo and Lavia, and it was his cross from a corner that Colwill headed just wide twelve minutes from time (ESPN). When the shootout reached Chelsea's fifth kick, with Barco having hit the post and Tsimikas having missed, he had to score to keep his side alive, and he put it high into the middle of the goal. It bought Chelsea three more rounds. Eight years he wore the armband here; on the night he came back, he did his job, and lost.",
+    "n": "03",
+    "headline": "The Numbers Under a Shootout.",
+    "byline": "ESPN / Sports Mole",
+    "dateline": "Liverpool · 29 October",
+    "category": "Tactics",
+    "body": "ESPN's published numbers for Wednesday tell you why it went to penalties. Liverpool's expected goals came to 1.52 and Chelsea's to 1.21, but strip out the two spot-kicks and not much is left: 0.16 from open play and 0.57 from set pieces for Liverpool, 0.34 and 0.08 for Chelsea (ESPN). Eight shots to nine, four on target to three, one big chance in the whole match. It was a night of blocks and clearances, Chelsea making twenty-five of the latter. Then twelve yards decided it, as it always has between these two: five shootouts, five Liverpool wins (Sports Mole)."
   },
   {
-    n: "04",
-    headline: "Arsenal Arrive Short at Both Ends.",
-    byline: "Read Arsenal / The False 9 / Goal via LiveScore",
-    dateline: "London · 28 October",
-    category: "Injuries",
-    body: "Arsenal come to Anfield on Sunday without Saka, whose quadriceps needs another scan, and without Saliba, not expected before December (Read Arsenal). Dowman is suspended until 29 November on official FPL data, though Arsenal are appealing his red card (The False 9). Rice came off against Everton holding his hamstring, and Arteta said after Fleetwood that Declan 'was feeling a problem the other day', with Madueke out with an ankle and Calafiori missing too (Goal via LiveScore). Liverpool have their own list, Szoboszlai, Muñoz, Frimpong and Bradley, but Wirtz played the last half-hour tonight and scored in the shootout.",
+    "n": "04",
+    "headline": "Arsenal Find Two Players, Wait on a Third.",
+    "byline": "ArsenalNews.co.uk / Sports Mole / Yahoo Sports",
+    "dateline": "London · 29 October",
+    "category": "Injuries",
+    "body": "The Arsenal list shortened overnight. Rice and Madueke, both missing at Fleetwood, are expected to be fit for Anfield, ArsenalNews.co.uk reported early on Thursday, predicting eight changes from the cup side and a front line of Madueke, Ødegaard and Eze behind Gyökeres. Dowman is the open question: Arsenal's appeal papers were due by 1pm today, and the club hope for a verdict before Sunday (Yahoo Sports; Sports Mole). Dermot Gallagher, on Sky Sports News, thinks it 'will fail' (Football365). Saka and Saliba remain out, Saliba until 21 November on RotoWire's reckoning."
   },
   {
-    n: "05",
-    headline: "Fourth on Fifteen, Six Behind the Pair.",
-    byline: "ESPN / Dave.sport",
-    dateline: "Liverpool · 28 October",
-    category: "Race for Europe",
-    body: "Nothing in the league moved on Wednesday, so the table is the one Sunday left: Manchester City and Arsenal on twenty-one, Brighton sixteen, Liverpool fifteen, Chelsea thirteen (ESPN). Sunday's game at 4.30pm is the one that does move it, a win leaving Liverpool three behind Arsenal and a defeat nine. Arsenal have won seven of their eight league games, the one defeat 3-0 at Brighton in September, and three in a row since (ESPN). City, who beat Brighton on penalties on Wednesday, stay top on goal difference. Andy Madley referees at Anfield (Dave.sport).",
-  },
+    "n": "05",
+    "headline": "A January Name, and the Usual Caveat.",
+    "byline": "TEAMtalk via LiveScore / RotoWire",
+    "dateline": "Liverpool · 29 October",
+    "category": "Transfers",
+    "body": "The window is two months away and the midfield is already the subject. TEAMtalk, carried by LiveScore on Thursday, says Liverpool have stepped up interest in Monaco's Lamine Camara, valued at sixty million pounds, after Felix Nmecha proved difficult to land and with Mac Allister's future uncertain. There is no club comment, and nothing can happen before January. What is not speculative is the need behind it: Szoboszlai has missed three games, Endo has not played a minute, and RotoWire's Arsenal XI has Gravenberch and Mac Allister as the only midfield pair available."
+  }
 ];
 export const NEWS_DIGEST = {
-  generatedAt: "2026-10-28T22:45:00Z",
-  summary: "Liverpool are in the Carabao Cup quarter-finals: 1-1 with Chelsea at Anfield on Wednesday night, then 6-5 on penalties in sudden death, Mamardashvili saving Emegha's seventh kick, Joe Gomez scoring the eighth and Wesley Fofana putting Chelsea's last over the bar (ESPN; This Is Anfield). The ninety minutes came down to two penalties in five minutes, Rogers after Gravenberch fouled Caicedo on thirty-eight and Gakpo after Fofana handled on forty-three (ESPN; 101 Great Goals), and Iraola's seven changes (SSBCrack) let Wirtz test his ankle for the last half-hour and a shootout kick. Jordan Henderson, back at Anfield in blue, scored Chelsea's fifth after Tsimikas had missed the kick that would have won it, and Penders saved from Gravenberch before the rescue (ESPN). The quarter-final draw was due after the final whistle, with the ties in the week of 14 December (Brit Brief; The Mag via Yahoo Sports). Now Arsenal, at Anfield at 4.30pm on Sunday without Saka, Saliba and the suspended Dowman, Rice a doubt with his hamstring (The False 9; Read Arsenal): fourth on fifteen against second on twenty-one.",
-  keyTopics: [
+  "generatedAt": "2026-10-29T09:15:00Z",
+  "summary": "Thursday morning, and Liverpool know their quarter-final: Bournemouth at Anfield in the week of 14 December, drawn minutes after the shootout, the one side Iraola said he did not want. 'For me it's special, but they know me very well,' said the man who managed them until the summer (ESPN; Hayters). The tie that got them there, 1-1 and 6-5 on penalties against Chelsea, now has its numbers: 1.52 expected goals to 1.21, more than half of it from the two penalties (ESPN), with Nyoni FotMob's best young player at 7.1 (SI). Arsenal, here on Sunday at 4.30pm, are expected to have Rice and Madueke back (ArsenalNews.co.uk), while their appeal against Dowman's red card, lodged by 1pm today, waits on a verdict (Yahoo Sports; Sports Mole). Iraola, afterwards: 'now we have the biggest one against Arsenal on Sunday' (Goal via Yahoo Sports).",
+  "keyTopics": [
     {
-      title: "Through On Penalties: Liverpool 1-1 Chelsea, 6-5 In Sudden Death (ESPN / This Is Anfield, this evening)",
-      category: "matches",
-      detail: "Full time on Wednesday night, a little before 10pm GMT: Rogers scored from the spot on forty after Gravenberch's foul on Caicedo, Gakpo equalised from the spot on forty-three after Fofana's handball, and nothing else went in (ESPN). In the shootout Mac Allister, Isak, Gakpo, Wirtz, Barcola and Gomez scored, Tsimikas went high and wide and Penders saved from Gravenberch; for Chelsea Barco hit the post, Mamardashvili saved from Emegha and Fofana shot over (ESPN). This Is Anfield's verdict: Gomez's kick wins it.",
+      "title": "Bournemouth At Anfield: Iraola Draws His Old Club (ESPN / Hayters, today)",
+      "category": "matches",
+      "detail": "Reported overnight from the post-match press conference: 'I was talking before the draw and I said: the only team that I don't want is Bournemouth' (ESPN). The quarter-final is at Anfield in the week commencing 14 December; the other ties are Fleetwood against Everton or Newcastle, Manchester City against Bradford and Crystal Palace against Sunderland (ESPN; SI). 'We haven't been very lucky with the draws,' Iraola added, counting Spurs and Chelsea (Hayters)."
     },
     {
-      title: "Mamardashvili's Save, Gomez's Kick (ESPN, this evening)",
-      category: "general",
-      detail: "Reported at full time on Wednesday: with the shootout level at five and Gravenberch's seventh kick saved, Mamardashvili kept out Emegha, a sixty-eighth-minute substitute who had not played since his summer move from Strasbourg (Goal), and Gomez put the eighth in the top right corner (ESPN). Mamardashvili had already saved from Rogers, Neto and Palestra in normal time.",
+      "title": "Arsenal Expect Rice And Madueke For Anfield (ArsenalNews.co.uk, today)",
+      "category": "injuries",
+      "detail": "Published early on Thursday: ArsenalNews.co.uk says Rice and Madueke are expected to be fit after missing Fleetwood, and predicts Raya; Timber, Konsa, Gabriel, Lewis-Skelly; Rice, Guimarães; Madueke, Ødegaard, Eze; Gyökeres. The False 9 now lists Rice with no injury flag. Saka and Saliba stay out; RotoWire says neither before 21 November."
     },
     {
-      title: "Henderson Takes Chelsea's Fifth At Anfield (ESPN, this evening)",
-      category: "general",
-      detail: "From Wednesday night: Jordan Henderson played the whole match in Chelsea's midfield, crossed for Colwill's header that flew just wide on seventy-eight, and, with Chelsea a kick behind after Tsimikas's miss, converted their fifth penalty high into the middle of the goal (ESPN). Eight years Liverpool's captain; the night ended with his side out.",
+      "title": "Academy Night: 'They Are First-Team Players' (Goal via Yahoo Sports, today)",
+      "category": "general",
+      "detail": "Iraola to Sky Sports, carried on Thursday morning: 'We told them, they are first-team players and we are confident if they have to play.' On Mamardashvili: 'I think Giorgi was close to stopping a lot of the shots.' SI's FotMob ratings made Nyoni the winner of the night at 7.1 and Gravenberch, 5.6, the loser."
     },
     {
-      title: "Wirtz Comes Through, Van Dijk Withdrawn (ESPN, this evening)",
-      category: "injuries",
-      detail: "Wednesday night: Wirtz, three days after twisting his ankle against Brighton, replaced McConnell on fifty-nine and scored Liverpool's fourth kick (ESPN). Van Dijk was replaced by Jacquet on seventy-two; ESPN's commentary records no injury, and no explanation had been reported when this edition closed. Chelsea lost Lacroix to injury in first-half stoppage time and stopped play for Fofana on seventy-nine (ESPN).",
+      "title": "Chelsea's Tie In Numbers: 1.52 To 1.21, Half Of It Penalties (ESPN / Sports Mole, today)",
+      "category": "tactics",
+      "detail": "ESPN's team-stats page, read on Thursday, gives Liverpool 0.16 expected goals from open play and 0.57 from set pieces, Chelsea 0.34 and 0.08, the rest of each side's total being the penalty; eight shots to nine and one big chance in the match. Sports Mole adds the history: Liverpool have now won all five of their competitive shootouts against Chelsea."
     },
     {
-      title: "The Quarter-Final Draw, Due After The Whistle (Brit Brief / The Mag via Yahoo Sports, today)",
-      category: "matches",
-      detail: "Published on Wednesday: Brit Brief said the draw would follow the Anfield tie, from about 10.20pm on Sky Sports, with Bradford and Fleetwood already through; The Mag's ball list, via Yahoo Sports, gave the winner of Liverpool and Chelsea ball five and puts the round in the week commencing 14 December. Elsewhere on Wednesday City beat Brighton on penalties after 2-2, Bournemouth beat Aston Villa 3-0, Palace won 1-0 at Fulham and Sunderland beat Brentford 3-2 (ESPN).",
+      "title": "Dowman Appeal Papers Due By 1pm (Yahoo Sports / Football365, today)",
+      "category": "matches",
+      "detail": "Reported on Wednesday and live today: Arsenal must submit their appeal documents by 1pm on Thursday and want a decision before Sunday (Yahoo Sports). If it fails, Dowman misses Liverpool, Hull and Newcastle; Dermot Gallagher told Sky Sports News 'I think it will fail' (Football365)."
     },
     {
-      title: "Iraola Before Kick-Off: 'We Need Fresh Legs' (SSBCrack, today)",
-      category: "tactics",
-      detail: "Reported by SSBCrack at 3.34pm ET on Wednesday from Iraola's pre-match interview with Sky Sports: 'a lot of players are waiting for this competition to have their starts, their minutes', and on penalties, 'we always practice'. He made seven changes, Mamardashvili, Gomez, Tsimikas, Nyoni, McConnell, Koumas and Ngumoha coming in (SSBCrack; Yahoo Sports).",
+      "title": "Camara Link As Midfield Need Grows (TEAMtalk via LiveScore, today)",
+      "category": "transfers",
+      "detail": "Carried in LiveScore's Thursday digest: TEAMtalk claims Liverpool have stepped up interest in Monaco's Lamine Camara, valued at £60m, with Felix Nmecha difficult to land and Mac Allister's future uncertain. A January link only, unconfirmed by the club; the window is shut until then."
     },
     {
-      title: "Arsenal: Rice's Hamstring, Madueke's Ankle (Read Arsenal / Goal via LiveScore, today)",
-      category: "injuries",
-      detail: "Published at 12.46pm on Wednesday: Read Arsenal says Rice was replaced on eighty against Everton after grabbing his hamstring, Madueke was not seen in Monday's training, Calafiori has a slight issue, Saliba is unlikely back before December and Saka needs another scan on his quadriceps. Arteta, after Fleetwood: 'Declan was feeling a problem the other day, which is why I had to substitute him' (Goal via LiveScore).",
+      "title": "Van Dijk's Early Exit Still Unexplained (Liverpool FC / Empire of the Kop, 1d ago)",
+      "category": "injuries",
+      "detail": "Wednesday's official match report lists only 'Van Dijk (Jacquet, 72)', and none of the post-match accounts found gives a reason. Before kick-off the Echo's Paul Gorst said he was 'surprised Van Dijk starts' (Empire of the Kop). He is at centre-back in RotoWire's Arsenal XI."
     },
     {
-      title: "Dowman Suspended For Anfield, Arsenal Appealing (The False 9, today)",
-      category: "matches",
-      detail: "The False 9's TV guide, updated at 5.29am on Wednesday, says Max Dowman is suspended for Sunday, official FPL data listing him out until 29 November, 'though Arsenal are appealing the red card'. Kick-off 4.30pm GMT on Sky Sports; Andy Madley referees (Dave.sport).",
+      "title": "Alonso: 'A Small Setback' (ESPN / Telegraph via Yahoo Sports, 1d ago)",
+      "category": "general",
+      "detail": "Xabi Alonso after Wednesday's exit, his third defeat at Anfield as a manager: 'It is a small setback, probably the least important competition for us so we move on' (ESPN). The Telegraph's account dwelt on Fofana, who conceded the penalty and put Chelsea's eighth kick over the bar."
     },
     {
-      title: "Two Previews, One Liverpool XI For Arsenal (The False 9 / OG, 2d ago)",
-      category: "tactics",
-      detail: "The False 9's prediction, published on Monday, and OG's, with market data as of Wednesday, both name the eleven that beat Brighton: Alisson; Araújo, Jacquet, Van Dijk, Kerkez; Gravenberch, Mac Allister; Barcola, Wirtz, Gakpo; Isak. The False 9 predicts 1-2 to Arsenal, with Szoboszlai at zero per cent and Muñoz at 25 on FPL.",
-    },
+      "title": "RotoWire Calls Sunday 1-1 (RotoWire, 1d ago)",
+      "category": "tactics",
+      "detail": "Published on Wednesday: RotoWire predicts Liverpool 1-1 Arsenal with the Brighton XI, Araújo at right-back, and notes Arsenal have not won a league game at Anfield since September 2012. Andy Madley referees, Stuart Attwell on VAR."
+    }
   ],
-  sources: [
+  "sources": [
     "ESPN",
-    "This Is Anfield",
-    "101 Great Goals",
-    "SSBCrack",
-    "Goal",
-    "Brit Brief",
-    "The Mag",
-    "Yahoo Sports",
+    "Hayters",
+    "Sports Mole",
+    "SI",
+    "ArsenalNews.co.uk",
     "The False 9",
-    "Read Arsenal",
+    "RotoWire",
+    "Goal via Yahoo Sports",
+    "Yahoo Sports",
+    "Football365",
+    "TEAMtalk via LiveScore",
     "LiveScore",
-    "Dave.sport",
-    "OG",
-  ],
+    "Liverpool FC",
+    "Empire of the Kop",
+    "Telegraph via Yahoo Sports"
+  ]
 };
 // ─────────────────────────────────────────────────────────────────────────────
 // IN-SEASON ANALYSIS
@@ -1194,7 +1199,7 @@ export const NEWS_DIGEST = {
 // next edition and then into the auditor's blind spot.
 
 export const OPPOSITION = {
-  "generatedAt": "2026-10-28T22:45:00Z",
+  "generatedAt": "2026-10-29T09:15:00Z",
   "opponent": "Arsenal",
   "shortName": "Arsenal",
   "fixture": {
@@ -1207,14 +1212,14 @@ export const OPPOSITION = {
   "manager": "Mikel Arteta",
   "formation": "4-2-3-1",
   "leaguePosition": 2,
-  "summary": "Arsenal, the champions, are second on twenty-one from eight, level with Manchester City and behind only on goal difference (ESPN), with seven wins and one league defeat, 3-0 at Brighton on 19 September. Since then they have won three league games in a row, the last two 1-0 at Forest and 2-0 against Everton, and drawn 2-2 in Munich in the Champions League (ESPN). Then came Tuesday: 1-1 at League Two Fleetwood and out 5-3 on penalties, Max Dowman sent off and now suspended for Anfield, with Arsenal appealing the red card (ESPN; The False 9). They arrive with Saka, Saliba and Tzolis out and Rice, Madueke and Calafiori all doubts (Read Arsenal; Goal via LiveScore). An off-field sweep on the club found nothing beyond the injuries and the Dowman appeal.",
-  "shape": "Both previews found expect a 4-2-3-1 (The False 9; OG): Raya behind White or Timber, Gabriel, Konsa and Lewis-Skelly, Rice with Merino or Bruno Guimarães in front of them, Madueke, Ødegaard and Eze behind Gyökeres. Without Saka the right loses its main outlet, the club's top league scorer with three and its leader in shots with seventeen (ESPN). The pattern that threatens is the dead ball: both goals against Everton came from defenders (OG), and The False 9, citing Opta Analyst, puts their set-piece expected goals in that game at 0.79.",
+  "summary": "Arsenal, the champions, come to Anfield second on twenty-one from eight, level with Manchester City on points and behind them on goal difference (ESPN), and with their squad filling back up: Rice and Madueke, both absent at Fleetwood, are expected to be fit, ArsenalNews.co.uk reported on Thursday morning. The one league defeat was 3-0 at Brighton on 19 September; since then three straight league wins, 1-0 at Forest and 2-0 against Everton the latest (ESPN). Tuesday's 1-1 at Fleetwood, lost 5-3 on penalties, cost them Max Dowman to a red card, and the club's appeal papers were due by 1pm today, with a verdict hoped for before Sunday (Yahoo Sports; Sports Mole). History is on Liverpool's side at this ground: Arsenal have not won a league game at Anfield since September 2012 (RotoWire). An off-field sweep found nothing beyond the appeal and the injuries.",
+  "shape": "ArsenalNews.co.uk, RotoWire and The False 9 all expect a 4-2-3-1, Raya behind Timber, Gabriel, Konsa and Lewis-Skelly, Rice and Bruno Guimarães in the pivot, Madueke, Ødegaard and Eze behind a single striker, Gyökeres for ArsenalNews.co.uk and Havertz for RotoWire. Without Saka, their top league scorer with three (ESPN), the right side becomes Madueke's. The pattern that threatens is still the dead ball: both goals against Everton came from defenders (OG), and The False 9, citing Opta Analyst, put their set-piece expected goals in that game at 0.79.",
   "keyPlayers": [
     {
       "name": "Declan Rice",
       "role": "Defensive midfielder",
-      "threat": "Four league assists, the most in the squad, and 517 accurate passes, also the most (ESPN); taken off on eighty against Everton holding his hamstring (Read Arsenal) and 75 per cent on official FPL data (The False 9).",
-      "source": "ESPN / Read Arsenal / The False 9"
+      "threat": "Four league assists, the most in the squad, and 517 accurate passes, also the most (ESPN); after the hamstring scare against Everton, expected to be fit for Anfield (ArsenalNews.co.uk) and back to no injury flag on FPL (The False 9).",
+      "source": "ESPN / ArsenalNews.co.uk / The False 9"
     },
     {
       "name": "Martin Ødegaard",
@@ -1231,8 +1236,8 @@ export const OPPOSITION = {
     {
       "name": "Ben White",
       "role": "Right-back",
-      "threat": "Three league assists, second only to Rice (ESPN); at right-back in The False 9's predicted XI.",
-      "source": "ESPN / The False 9"
+      "threat": "Three league assists, second only to Rice (ESPN); Timber, not White, is the right-back in both ArsenalNews.co.uk's and RotoWire's predicted XIs.",
+      "source": "ESPN / ArsenalNews.co.uk / RotoWire"
     },
     {
       "name": "Kai Havertz",
@@ -1243,12 +1248,12 @@ export const OPPOSITION = {
   ],
   "predictedXI": [
     "Raya",
-    "White",
-    "Gabriel",
+    "Timber",
     "Konsa",
+    "Gabriel",
     "Lewis-Skelly",
     "Rice",
-    "Merino",
+    "Guimarães",
     "Madueke",
     "Ødegaard",
     "Eze",
@@ -1256,39 +1261,29 @@ export const OPPOSITION = {
   ],
   "absentees": [
     {
-      "name": "Bukayo Saka",
-      "issue": "Quadriceps, picked up against Bayern; another scan needed because of fluid around the area, out for weeks (Read Arsenal).",
-      "status": "Out"
+        "name": "Bukayo Saka",
+        "issue": "Quadriceps, from the Bayern game; RotoWire says no return before 21 November.",
+        "status": "Out"
     },
     {
-      "name": "William Saliba",
-      "issue": "Back; has not played this season and is unlikely to return until December (Read Arsenal).",
-      "status": "Out"
+        "name": "William Saliba",
+        "issue": "Back; has not played this season, out until 21 November on RotoWire's list.",
+        "status": "Out"
     },
     {
-      "name": "Max Dowman",
-      "issue": "Suspended after his red card at Fleetwood, until 29 November on official FPL data; Arsenal are appealing (The False 9).",
-      "status": "Out"
+        "name": "Max Dowman",
+        "issue": "Red card at Fleetwood; a three-match ban covering Liverpool, Hull and Newcastle unless the appeal, lodged by 1pm on Thursday, succeeds (Yahoo Sports; Football365).",
+        "status": "Out"
     },
     {
-      "name": "Christos Tzolis",
-      "issue": "Hamstring; ruled out for five games (Read Arsenal), though FPL lists 1 November as a return date (The False 9).",
-      "status": "Out"
+        "name": "Christos Tzolis",
+        "issue": "Hamstring; The False 9 has him expected back on 1 November, but no preview found includes him.",
+        "status": "Doubt"
     },
     {
-      "name": "Declan Rice",
-      "issue": "Hamstring, replaced on eighty against Everton; trained on Monday (Goal via LiveScore) and 75 per cent on FPL (The False 9).",
-      "status": "Doubt"
-    },
-    {
-      "name": "Noni Madueke",
-      "issue": "Ankle; missed Fleetwood and was not seen in Monday's training, with no return estimate from Arteta (Read Arsenal).",
-      "status": "Doubt"
-    },
-    {
-      "name": "Riccardo Calafiori",
-      "issue": "A slight issue that kept him out at Fleetwood; DaveOCKOP expects him to be available at Anfield (via Read Arsenal).",
-      "status": "Doubt"
+        "name": "Riccardo Calafiori",
+        "issue": "A 'slight issue', ribs on RotoWire's list and 75 per cent on FPL (The False 9).",
+        "status": "Doubt"
     }
   ],
   "recentForm": [
@@ -1325,28 +1320,33 @@ export const OPPOSITION = {
       "note": "A one-goal win at the City Ground (ESPN)."
     }
   ],
-  "liverpoolAngle": "Arsenal's goals are coming from set pieces and defenders, and Liverpool's centre-back department is where this week has been thinnest. Van Dijk was withdrawn on seventy-two on Wednesday with no injury recorded (ESPN), Leoni is not expected before mid-November, and Araújo, a centre-back, is still the right-back by elimination with Frimpong and Bradley out (OG; The False 9), which puts one of Liverpool's best headers of the ball on the flank just as Arsenal's corners arrive. The other way, Saliba's absence and the doubts over Rice and Calafiori weaken the zones Isak attacks, between and in front of the centre-backs: six league goals in seven appearances (ESPN). Both sides went to penalties in midweek, but Arsenal played on Tuesday and Liverpool on Wednesday, a day less to recover for the hosts.",
+  "liverpoolAngle": "The meeting point is the set piece. Arsenal's last league goals both came from defenders (OG), and Liverpool's own Wednesday night produced 0.57 expected goals from set pieces against 0.16 from open play (ESPN), so the dead ball is the likeliest route at both ends. The difficulty is personnel: Araújo, FotMob's joint-best Liverpool player against Chelsea at 7.8 (SI), is a centre-back who plays right-back in every Arsenal preview found because Frimpong and Bradley are out, and Van Dijk's seventy-second-minute exit on Wednesday has still not been explained (Liverpool FC). The other way, Saliba's absence and Dowman's ban thin the zone in front of Gabriel and Konsa where Isak, scorer in each of Liverpool's last two league games (RotoWire), does his work. Arsenal also had a day more to recover from their shootout.",
   "modelLine": null,
   "sources": [
     "ESPN",
+    "ArsenalNews.co.uk",
+    "RotoWire",
     "The False 9",
-    "Read Arsenal",
-    "Goal via LiveScore",
+    "Yahoo Sports",
+    "Sports Mole",
+    "Football365",
     "OG",
-    "Dave.sport"
+    "SI",
+    "Liverpool FC",
+    "Read Arsenal"
   ]
 };
 export const FORM_TRENDS = {
-  generatedAt: "2026-10-28T22:45:00Z",
+  generatedAt: "2026-10-29T09:15:00Z",
   competition: "PL",
   played: 8,
-  headline: "Wednesday's cup tie adds a card but not a number. Liverpool and Chelsea finished level on shots on target, four each, with ten attempts to eleven and 51.7 per cent of the ball (ESPN), the profile of a tie that went to penalties, and no expected-goals figure had been published when this edition closed. The league picture is unchanged: the per-match cards sum to 10.81 expected goals for and 9.42 against over eight games, FotMob's season table 12.1 and 9.6 (Planet Football), and both say the defence is further ahead of par than the attack. Arsenal on Sunday test the defence on its weakest ground, the dead ball: both of their goals against Everton came from defenders (OG).",
+  headline: "The cup tie has its number now, and it explains the shootout: ESPN's published figures give Liverpool 1.52 expected goals to Chelsea's 1.21, but only 0.73 of Liverpool's and 0.42 of Chelsea's came from anything other than the two penalties. Liverpool's open play produced 0.16, less than their set pieces at 0.57 (ESPN). The league picture is untouched by it: the eight league cards still sum to 10.81 expected goals for and 9.42 against, and FotMob's season table, 12.1 and 9.6 (Planet Football), says the same thing, a defence further ahead of par than the attack. Arsenal on Sunday arrive with the dead ball as their own best weapon.",
   diagnosis: [
     {
         "label": "Penalties at both ends, little from open play",
         "severity": "medium",
-        "source": "ESPN / 101 Great Goals",
-        "detail": "Both goals on Wednesday came from the spot inside five minutes, and the first half produced one shot on target between the sides besides them (101 Great Goals). The rotated eleven had ten shots, four on target, Penders saving from Gakpo, Araújo and Barcola (ESPN). A cup side that did not create from open play needed the shootout, and got through it."
+        "source": "ESPN (team stats)",
+        "detail": "The rotated eleven's 1.52 expected goals against Chelsea were about half one kick: open play produced 0.16 and set pieces 0.57 (ESPN). Chelsea's 0.34 from open play was barely better. Seven changes kept the tie level, but it is a reminder that Liverpool's chance creation leans on dead balls when the first-choice attack is not on the pitch."
     },
     {
         "label": "The fast start, at last",
@@ -1383,14 +1383,14 @@ export const FORM_TRENDS = {
       score: "1-1",
       result: "W",
       competition: "EFL",
-      xgFor: null,
-      xgAgainst: null,
+      xgFor: 1.52,
+      xgAgainst: 1.21,
       xgFirstHalfFor: null,
       xgFirstHalfAgainst: null,
-      shotsFor: 10,
-      pending: true,
-      verdict: "Carabao Cup, not counted in the league totals; won 6-5 on penalties. Both goals in ninety minutes were penalties, Rogers on forty after Gravenberch's foul on Caicedo and Gakpo on forty-three after Fofana's handball (ESPN). Ten shots to eleven, four on target each, 51.7 per cent of the ball and seven corners to five (ESPN). No expected-goals figure had been published at the time of writing; null until Opta Analyst's or FotMob's appears.",
-      source: "ESPN / 101 Great Goals",
+      shotsFor: 8,
+      pending: false,
+      verdict: "Carabao Cup, not counted in the league totals; won 6-5 on penalties. ESPN's team-stats page, read on Thursday, gives 1.52 expected goals to 1.21, of which Liverpool's open play was 0.16 and set pieces 0.57, Chelsea's 0.34 and 0.08; the balance of each total is the penalty, Gakpo's on forty-three and Rogers's on forty. Eight shots to nine, four on target to three, one big chance to none and 49 per cent of the ball on that page. ESPN's live commentary and Anfield Index counted ten shots to eleven, and 101 Great Goals carried a different model, 2.19 to 1.88; the card uses ESPN's team-stats figures throughout so the parts add up. First-half splits are not published and stay null.",
+      source: "ESPN (team stats) / 101 Great Goals / Anfield Index",
     },
     {
       date: "2026-10-25",
@@ -1586,10 +1586,10 @@ export const FORM_TRENDS = {
     note: "Premier League only, eight games. xG for is 2.73 (Newcastle) plus 1.61 (Forest) plus 0.53 (Ipswich) plus 1.13 (Fulham) plus 1.57 (Bournemouth) plus 0.86 (City) plus 1.51 (Brentford) plus 0.87 (Brighton); xG against is 1.43 plus 2.30 plus 0.72 plus 0.71 plus 0.76 plus 1.30 plus 0.85 plus 1.35. The Brentford and Brighton figures are FotMob's, reported by SI, and the City card's 1.30 is Sofascore's; Opta's own figures replace them when published. Provenance caveat from 21 September stands: Opta's published season expected-goals-against figure through five games was 6.12 rather than the 5.92 those per-match cards summed to. Champions League and Carabao Cup cards are shown but not aggregated. First-half splits exist only for Forest, Tottenham and City and are not aggregated. For comparison, FotMob's own season table after eight rounds gives 12.1 for and 9.6 against (Planet Football, 26 October); the gap is the mix of models, and these totals are not adjusted to match it.",
   },
   optaFacts: [
-    "Gakpo's penalty on Wednesday was his eleventh EFL Cup goal since 2023-24; Opta Analyst had him top of the competition with ten before kick-off.",
-    "Arsenal's two goals against Everton both came from defenders (OG), and The False 9, citing Opta Analyst, puts their set-piece expected goals in that game at 0.79.",
-    "The Anfield shootout ran to sixteen kicks, eight a side: two Liverpool misses, Tsimikas wide and Gravenberch saved, to Chelsea's three (ESPN).",
-    "Arsenal's top league scorer, Saka with three, misses Sunday; Isak has six in seven for Liverpool (ESPN; Read Arsenal).",
+    "Liverpool have now won all five of their competitive penalty shootouts against Chelsea, the first in 2007, when Xabi Alonso scored for Liverpool (Sports Mole).",
+    "ESPN's numbers for Wednesday: Chelsea made twenty-five clearances to Liverpool's twelve, and Liverpool twelve interceptions to Chelsea's three.",
+    "Arsenal have not won a league game at Anfield since 2 September 2012; the last five league meetings there produced three draws and two Liverpool wins (RotoWire).",
+    "Iraola after Wednesday: 'It's three in a row at home which is very important. We were struggling a little bit at home' (Goal via Yahoo Sports), Villarreal, Brighton and Chelsea in eight days."
   ],
 
   sources: [
@@ -1652,11 +1652,14 @@ export const FORM_TRENDS = {
     "Transfermarkt via Empire of the Kop",
     "Planet Football",
     "The Liverpool Offside via Yahoo Sports",
+    "101 Great Goals",
+    "RotoWire",
+    "Goal via Yahoo Sports",
   ],
 };
 export const SQUAD_LOAD = {
-  generatedAt: "2026-10-28T22:45:00Z",
-  headline: "The cup tie cost Liverpool nothing the reporting has yet recorded: Wirtz came through the last half-hour and a shootout kick on his ankle, and Van Dijk's withdrawal on seventy-two carried no injury in ESPN's commentary. Seven changes meant that of the eleven both previews expect against Arsenal, only Araújo, Gravenberch and Gakpo played the full ninety, and Van Dijk seventy-two (ESPN). The unavailable list for Sunday is unchanged, Szoboszlai, Frimpong, Bradley, Ekitike and Leoni out and Muñoz at 25 per cent on FPL (The False 9), and Arsenal arrive having played a day earlier.",
+  generatedAt: "2026-10-29T09:15:00Z",
+  headline: "A day after the shootout the cost is still nil on the record: no injury has been reported from Wednesday, and Van Dijk's seventy-second-minute exit remains unexplained in the club's own match report (Liverpool FC). The rotation did what it was for, Nyoni and Ngumoha FotMob's two best young players at 7.1 and 6.9 (SI), and of the eleven every Arsenal preview expects, only Araújo, Gravenberch and Gakpo played the full ninety (ESPN). The absentees for Sunday are unchanged, Szoboszlai, Frimpong, Bradley, Ekitike and Leoni out and Muñoz a game-time call (RotoWire).",
   minutesNote: "Premier League minutes are not published here yet. Eight league games, three Champions League games and two Carabao Cup ties have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   unavailable: [
     {
@@ -1699,14 +1702,14 @@ export const SQUAD_LOAD = {
     {
       name: "Florian Wirtz",
       issue: "Ankle, twisted in a challenge against Brighton; replaced by Nyoni on sixty-five (SI)",
-      status: "Came through Chelsea: on for McConnell on fifty-nine and scored Liverpool's fourth shootout kick (ESPN)",
-      note: "At ten in both Arsenal previews found (The False 9; OG); The False 9's Monday table had him at 75 per cent before the cup tie.",
-      source: "ESPN / The False 9 / OG",
+      status: "Came through Chelsea, on for McConnell and a scored shootout kick (ESPN); RotoWire calls the ankle a question that 'doesn't look very big'",
+      note: "At ten in all three Arsenal previews found (The False 9; OG; RotoWire); FotMob rated his half-hour 6.0 (SI).",
+      source: "ESPN / The False 9 / OG / RotoWire / SI",
     },
     {
       name: "Victor Munoz",
       issue: "Knee, a knock from the first half at Brentford",
-      status: "Missed a third game on Wednesday, outside the matchday squad (ESPN); 25 per cent for Arsenal on official FPL data (The False 9)",
+      status: "Missed a third game on Wednesday (ESPN); a game-time decision for Arsenal on RotoWire's list, 25 per cent on FPL (The False 9)",
       note: "The knee knock came in the first half at Brentford (EPL Index via Yahoo Sports). Held out of the Arsenal XI here.",
       source: "ESPN / The False 9 / EPL Index via Yahoo Sports",
     },
@@ -1792,7 +1795,7 @@ export const SQUAD_LOAD = {
     {
         "position": "Centre-back",
         "level": "high",
-        "detail": "High. Van Dijk was taken off on seventy-two on Wednesday with no injury recorded (ESPN), Jacquet replacing him. With Leoni not before mid-November and Araújo needed at right-back, the fit senior centre-backs for Arsenal's set pieces are Van Dijk, Jacquet and Gomez."
+        "detail": "High. Van Dijk was taken off on seventy-two on Wednesday and neither the club's match report nor any post-match account found gives a reason (Liverpool FC); the Echo's Paul Gorst had been surprised he started at all (Empire of the Kop). With Leoni not before mid-November and Araújo needed at right-back, the fit senior centre-backs for Arsenal's set pieces are Van Dijk, Jacquet and Gomez."
     },
     {
         "position": "Centre-forward",
@@ -1861,16 +1864,17 @@ export const SQUAD_LOAD = {
     "Liverpool FC via The False 9",
     "The Liverpool Offside via Yahoo Sports",
     "Get Spanish Football News via LiveScore",
+    "RotoWire",
   ],
 };
 export const SEASON_PROJECTION = {
-  "generatedAt": "2026-10-28T22:45:00Z",
+  "generatedAt": "2026-10-29T09:15:00Z",
   "played": 8,
   "points": 15,
   "pointsPerGame": 1.88,
   "projectedPoints": 71,
   "projectedFinish": "Champions League places on current pace",
-  "headline": "A quarter-final place on Wednesday night adds a fixture in December and not a point: fifteen from eight, 1.88 a game, still a seventy-one-point pace that clears the usual Champions League par by three (ESPN). Eight games is a small sample, and one result can move it a long way: a defeat by Arsenal on Sunday would take the pace to sixty-three, below that par, in a single afternoon.",
+  "headline": "Nothing in the league has moved since Sunday, so the arithmetic is unchanged: fifteen from eight, 1.88 a game, a seventy-one-point pace that sits three above the usual Champions League par (ESPN). The quarter-final against Bournemouth adds a fixture in December, not a point. Eight games is still a small sample, and the next one carries the most weight: a defeat by Arsenal would take the pace to sixty-three, a win to seventy-six.",
   "thresholds": [
     {
       "label": "Champions League (top 4)",
@@ -1948,7 +1952,7 @@ export const SEASON_PROJECTION = {
       "difficulty": "hard"
     }
   ],
-  "runInVerdict": "Arsenal on Sunday outweighs anything after it. They arrive second on twenty-one, seven wins from eight, but without Saka, Saliba and the suspended Dowman (Read Arsenal; The False 9), having gone to penalties at Fleetwood a day before Liverpool went to them against Chelsea. A win cuts the gap to three and a defeat stretches it to nine; Palace away and Manchester United at home, both in the bottom five, follow before Everton away, Sunderland at home and Chelsea away on 5 December.",
+  "runInVerdict": "Sunday is the fixture that sets the shape of November. A win over Arsenal, who have not won a league game at Anfield since 2012 (RotoWire), leaves Liverpool three points behind them; a defeat leaves them nine behind. After that the run is kind on paper, Palace away and Manchester United at home, both in the bottom five, then Everton away and Sunderland at home, before Chelsea away on 5 December and Bournemouth in the cup in the week of 14 December (ESPN).",
   "sources": [
     "ESPN",
     "SI",

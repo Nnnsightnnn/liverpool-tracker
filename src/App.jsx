@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday night, and Liverpool are in the quarter-finals: 1-1 with Chelsea, two penalties in five
-          minutes, then 6-5 in a shootout that went to sudden death before Mamardashvili saved and Gomez scored.
-          Fourth on fifteen, with Arsenal, second, at Anfield on Sunday afternoon.
+          Thursday, and the draw has given Iraola the one tie he asked not to have: Bournemouth, his old club,
+          at Anfield in December. First there is Sunday. Fourth on fifteen, six behind the champions, and Arsenal
+          coming to a ground where they have not won a league game since 2012.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,24 +605,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the cup went to sixteen kicks. Liverpool and Chelsea drew 1-1 with two penalties inside five minutes, Rogers's
-              and Gakpo's, and then took fourteen more without separating, Tsimikas missing the one that would have ended it
-              and Henderson, back at Anfield in blue, scoring the one that kept Chelsea alive. It took Mamardashvili, the cup
-              keeper, to stop Emegha, and Joe Gomez, one of seven players out of contract next summer, to finish it. Wirtz
-              played the last half-hour on the ankle that had worried everyone and scored his kick. None of it counts on
-              Sunday, when Arsenal arrive level with City at the top and six points clear of Liverpool. A quarter-final makes
-              a good night; Sunday makes the week.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the cup has handed Andoni Iraola a reunion he said he did not want. Before the draw, he admitted afterwards,
+              he had named Bournemouth as the only side he hoped to avoid; the balls gave him Bournemouth, at Anfield, in the
+              week of 14 December. The morning also brought the arithmetic of Wednesday, and it is modest: about half of
+              Liverpool's expected goals came from one penalty, the rotated side kept level and the young ones, Nyoni above
+              all, earned their evening. Arsenal, meanwhile, have found Rice and Madueke and are waiting on a verdict for
+              Dowman. The cup can wait until the dark of December. Sunday cannot.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: six each, and then Gomez; seven
-              changes and a line about practice; an old captain taking the fifth; Arsenal short at
-              both ends; and the table Sunday will move. Fourth in the league, through to the last
-              eight of the cup, and Arsenal at Anfield on Sunday.
+              five dispatches from the writers who never clock off: the one name he did not want;
+              first-team players, he told them; the numbers under a shootout; Arsenal finding two
+              players and waiting on a third; and a January name with the usual caveat. Fourth in the
+              league, Bournemouth in the last eight of the cup, and Arsenal at Anfield on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3833,7 +3832,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Sixteen kicks, then Gomez."
+        "The only team he didn't want."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
