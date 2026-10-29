@@ -153,7 +153,7 @@ const NEXT_MATCH = {
   date: "2026-11-01T16:30:00",
   competition: "PL",
   venue: "Anfield, Liverpool",
-  broadcast: "Premier League, matchweek nine (4.30pm GMT, 11.30am ET; Sky Sports Main Event and Sky Sports Premier League in the UK, per The False 9 and Dave.sport). Andy Madley referees (Dave.sport); Arsenal without the suspended Dowman (The False 9)",
+  broadcast: "Premier League, matchweek nine (4.30pm GMT, 11.30am ET; Sky Sports Main Event and Sky Sports Premier League in the UK, per The False 9 and Dave.sport). Andy Madley referees (Dave.sport); Dowman banned for Arsenal unless their appeal succeeds (The False 9; Yahoo Sports)",
 };
 
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────

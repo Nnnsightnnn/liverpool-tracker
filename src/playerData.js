@@ -914,7 +914,7 @@ export const NEXT_MATCH = {
   date: "2026-11-01T16:30:00",
   competition: "PL",
   venue: "Anfield, Liverpool",
-  broadcast: "Premier League, matchweek nine (4.30pm GMT, 11.30am ET; Sky Sports Main Event and Sky Sports Premier League in the UK, per The False 9 and Dave.sport). Andy Madley referees (Dave.sport); Arsenal without the suspended Dowman (The False 9)",
+  broadcast: "Premier League, matchweek nine (4.30pm GMT, 11.30am ET; Sky Sports Main Event and Sky Sports Premier League in the UK, per The False 9 and Dave.sport). Andy Madley referees (Dave.sport); Dowman banned for Arsenal unless their appeal succeeds (The False 9; Yahoo Sports)",
 };
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
 // result: "W" | "D" | "L"
@@ -1207,7 +1207,7 @@ export const OPPOSITION = {
     "venue": "Anfield, Liverpool",
     "home": true,
     "competition": "PL",
-    "broadcast": "Premier League, matchweek nine (4.30pm GMT, 11.30am ET; Sky Sports Main Event and Sky Sports Premier League in the UK, per The False 9 and Dave.sport). Andy Madley referees (Dave.sport); Arsenal without the suspended Dowman (The False 9)"
+    "broadcast": "Premier League, matchweek nine (4.30pm GMT, 11.30am ET; Sky Sports Main Event and Sky Sports Premier League in the UK, per The False 9 and Dave.sport). Andy Madley referees (Dave.sport); Dowman banned for Arsenal unless their appeal succeeds (The False 9; Yahoo Sports)"
   },
   "manager": "Mikel Arteta",
   "formation": "4-2-3-1",
@@ -1672,7 +1672,7 @@ export const SQUAD_LOAD = {
     {
       name: "Jeremie Frimpong",
       issue: "Hamstring, a new muscle injury two or three minutes after coming on at the Gtech",
-      expected: "Around four weeks, per Sky Sports' Vinny O'Connor on Thursday (Empire of the Kop); 22 November, Manchester United at home, on Premier Injuries' tracker",
+      expected: "Around four weeks, per Sky Sports' Vinny O'Connor on 22 October (Empire of the Kop); 22 November, Manchester United at home, on Premier Injuries' tracker",
       note: "Zero per cent for Arsenal on official FPL data (The False 9); Iraola said on 19 October that a return before the break would be difficult (CaughtOffside via Yardbarker).",
       source: "Sky Sports via Empire of the Kop / Premier Injuries / The False 9 / CaughtOffside via Yardbarker",
     },
