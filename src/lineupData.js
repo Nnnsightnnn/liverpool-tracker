@@ -203,7 +203,7 @@ export const PLAYER_EVIDENCE = {
   20:  "Covered the pivot · bench Sunday",
   22:  "Left side · Munoz a doubt",
   23:  "6 in last 6 PL games (Opta)",
-  24:  "Achilles · late December",
+  24:  "Achilles · New Year (PI)",
   25:  "No PL start since opening day",
   26:  "Bench · Barcola holds right",
   27:  "Third keeper",

@@ -1367,7 +1367,7 @@ export const FORM_TRENDS = {
       "label": "Isak in the side, defeats out of it",
       "severity": "positive",
       "source": "Opta Analyst / ESPN",
-      "detail": "Opta Analyst counted fifteen games unbeaten with Isak before Brighton; Sunday made it sixteen, with six league goals in seven appearances (ESPN). On Wednesday he played eight minutes and scored the second kick of the shootout, which counts for nothing in either column."
+      "detail": "Opta Analyst counted fifteen games unbeaten with Isak before Brighton; the 2-0 win on 25 October made it sixteen, with six league goals in seven appearances (ESPN). Against Chelsea three days later he played eight minutes and scored the second kick of the shootout, which counts for nothing in either column."
     },
     {
       "label": "Eighth for chances, fourth for prevention",
@@ -1596,7 +1596,7 @@ export const FORM_TRENDS = {
     "Liverpool have won only one of their last eight Premier League meetings with Arsenal, 1-0 at Anfield last season (Opta Analyst).",
     "Isak has scored six of Liverpool's nine league goals in his last six games, one every ninety-five minutes under Iraola (Opta Analyst).",
     "Van Dijk's thirty-eight headed clearances are the second most in the Premier League this season (Opta Analyst).",
-    "Mac Allister is one of three players to have featured in all twelve of Liverpool's games this season (Opta Analyst)."
+    "Iraola has lost two of twenty-seven Premier League games in 2026, the lowest calendar-year rate since Klopp's 2019 (Opta Analyst)."
   ],
   "sources": [
     "UEFA.com",
@@ -1791,7 +1791,7 @@ export const SQUAD_LOAD = {
     {
       "position": "Central midfield",
       "level": "critical",
-      "detail": "Critical. Szoboszlai has 'a chance' of facing Arsenal but no promise (Liverpool FC), so the senior pivot is Gravenberch, whom Iraola backed on Friday, and Mac Allister, who has played all twelve games (Opta Analyst). Behind them Nyoni and McConnell, who have covered Szoboszlai's absence (Evening Standard via AOL), and Endo, still without a minute."
+      "detail": "Critical. Szoboszlai has 'a chance' of facing Arsenal but no promise (Liverpool FC), so the senior pivot is Gravenberch, whom Iraola backed on Friday, and Mac Allister, one of three players to feature in every game this season (Opta Analyst). Behind them Nyoni and McConnell, who have covered Szoboszlai's absence (Evening Standard via AOL), and Endo, still without a minute."
     },
     {
       "position": "Right-back",
@@ -1895,7 +1895,7 @@ export const SEASON_PROJECTION = {
       "label": "Europa League (5th)",
       "points": 60,
       "gap": 0,
-      "note": "Fifth-place par, and the stripe Liverpool occupied on ESPN's table until Sunday. Cleared by eleven on current pace."
+      "note": "Fifth-place par, and the stripe Liverpool occupied on ESPN's table until the Brighton win on 25 October. Cleared by eleven on current pace."
     },
     {
       "label": "Conference League (6th-7th)",
