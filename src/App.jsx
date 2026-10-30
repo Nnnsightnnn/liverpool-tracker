@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday evening, and Arsenal have lost their appeal: Dowman's ban stands, and it begins at Anfield.
-          Liverpool's own news was quieter and kinder, Van Dijk's early exit a matter of managed minutes and no new
-          injury from the cup. Fourth on fifteen, six behind, and three days until the champions arrive.
+          Friday, and the argument has moved into midfield: Gravenberch's place is the call Iraola faces, Brit Brief
+          reports, with Nyoni pressing after the cup. The manager speaks at half past one, Szoboszlai the question.
+          Fourth on fifteen, six behind, and two days until Arsenal return to a ground where they have not won a league game since 2012.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,24 +605,24 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              and Arsenal have run out of appeals. An independent commission threw out both of their arguments on Thursday
-              afternoon, so Max Dowman, sixteen, begins a three-match ban at Anfield on Sunday. Liverpool's day was smaller
-              and kinder: the withdrawal of Van Dijk that nobody explained on Wednesday was a manager counting minutes, and
-              the cup tie left no fresh injury behind it. Szoboszlai is back on the grass, pushing, though no one writing
-              about Sunday expects him in the side. The right-back is still a centre-back. Arsenal's list of doubts is
-              longer than Liverpool's list of absentees, and for three days that will feel like an advantage. Then the
-              whistle goes.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              and the injury list has given way to a selection problem. Brit Brief, writing after midnight, says Iraola
+              faces a call over Gravenberch, poor against Chelsea on a night when Nyoni, twenty, was not. Every published
+              eleven still keeps the Dutchman, and the manager explains himself at half past one, when Szoboszlai's
+              hamstring gets its verdict too. Opta Analyst has done the history: thirteen league visits, no Arsenal win
+              since 2012-13. It has also done the danger, a side with 3.4 expected goals from corners against the only
+              defence in the league, with Brentford's, yet to concede a non-penalty set-piece goal. Two days, then, and a
+              pivot to choose.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: three matches, starting Sunday;
-              not an injury after all; back on the grass, not yet in the group; two left wings and
-              one right-back; and The Overlap's view of Arteta. Fourth in the league, Bournemouth in
-              the last eight of the cup, and Arsenal at Anfield on Sunday.
+              five dispatches from the writers who never clock off: the Gravenberch question;
+              thirteen visits, no win; where the corners go; a team again, the jury says; and six to
+              eight weeks for Saka. Fourth in the league, Bournemouth in the last eight of the cup,
+              and Arsenal at Anfield on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3833,7 +3833,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Three matches, and the first is here."
+        "Thirteen visits. Two days. One pivot."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

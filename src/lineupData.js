@@ -185,33 +185,33 @@ export const FORMATIONS = {
 // Thu Oct 29 (morning): all 27 refreshed for SI's FotMob ratings from Chelsea and RotoWire's Arsenal preview; XIs unchanged.
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 export const PLAYER_EVIDENCE = {
-  1:   "In goal in all three previews",
-  2:   "7.8 on FotMob v Chelsea (SI)",
-  3:   "Minutes managed v Chelsea",
-  5:   "In no Arsenal XI found",
-  7:   "Back on the left (Brit Brief)",
+  1:   "Starts in every Sunday XI found",
+  2:   "Cup keeper · back to the bench",
+  3:   "38 headed clearances (Opta)",
+  5:   "Cup captain · winning kick",
+  7:   "LB in every Sunday XI",
   8:   "Knee · 2 December (PI)",
-  9:   "Hamstring · out (RotoWire)",
+  9:   "Hamstring · after the break",
   10:  "ACL · team training in break",
-  11:  "Reunited with Van Dijk",
+  11:  "Back beside Van Dijk (Brit Brief)",
   12:  "Levante loan",
-  13:  "Pivot v Arsenal (Standard)",
-  14:  "5.6 v Chelsea · keeps his place",
-  15:  "On the grass · not in group",
+  13:  "All 12 games this season (Opta)",
+  14:  "Selection call (Brit Brief)",
+  15:  "Hamstring · word due at 1.30pm",
   17:  "No minutes yet this season",
-  18:  "Recovered from knock (Standard)",
-  20:  "SI's winner v Chelsea · 7.1",
-  22:  "Left side (The False 9)",
-  23:  "Scored in last two PL games",
-  24:  "Achilles · late Dec/2 Jan",
-  25:  "6.9 on the left v Chelsea",
-  26:  "Unused v Chelsea · bench",
+  18:  "1G 2A in last four (Opta)",
+  20:  "Impressed v Chelsea · pushing",
+  22:  "Left side (NBC Sports)",
+  23:  "6 in last 6 PL games (Opta)",
+  24:  "Achilles · late December",
+  25:  "No PL start since opening day",
+  26:  "Bench · Barcola holds right",
   27:  "Third keeper",
-  28:  "Knee · Standard start him",
-  29:  "RB in every Arsenal XI",
-  30:  "Right side v Arsenal",
-  31:  "12 touches in an hour (SI)",
-  32:  "Missed kick · 6.9 (SI)",
+  28:  "Knee · touch and go (PLNN)",
+  29:  "RB in every Sunday XI",
+  30:  "3G 2A in last four (Opta)",
+  31:  "Cover behind Isak",
+  32:  "Bench · Kerkez restored",
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -317,6 +317,9 @@ export const PLAYER_EVIDENCE = {
 // Wed Oct 28 (evening): Chelsea played, Liverpool won 6-5 on penalties after 1-1 (ESPN). Re-pointed at Arsenal at Anfield, PL, Sun 1 Nov,
 //   4.30pm GMT. The Brighton XI restored in all three shapes, as in The False 9's (Mon) and OG's (Wed) previews: Alisson, Kerkez, Van Dijk,
 //   Jacquet, Mac Allister, Wirtz, Barcola and Isak back in. Overall Medium.
+// Fri Oct 30 (morning): no personnel change. Brit Brief's overnight preview makes Gravenberch a selection call after Chelsea, Nyoni
+//   pressing; every published XI keeps him, so LDM stays Gravenberch, lowered High to Medium. Szoboszlai awaits the 1.30pm presser.
+
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -335,7 +338,7 @@ export const SLOT_CONFIDENCE = {
   LCB: "High",
   RCB: "High",
   RB: "Medium",
-  LDM: "High",
+  LDM: "Medium",
   RDM: "Medium",
   LAM: "Medium",
   CAM: "High",
@@ -349,16 +352,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Thu Oct 29, evening - Kerkez, rested against Chelsea and set to 'regain his spot on the left' (Brit Brief); in every Arsenal XI found. High.",
-  LCB: "Thu Oct 29, evening - Van Dijk: his exit on seventy-two against Chelsea was managed minutes, not an injury (Evening Standard via AOL), and every preview has him starting. High.",
-  RCB: "Thu Oct 29, evening - Jacquet, expected to be reunited with Van Dijk by the Evening Standard and Brit Brief. High.",
-  RB: "Thu Oct 29, evening - Araujo, right-back in every Arsenal XI found because Frimpong and Bradley are out (Evening Standard via AOL). Medium.",
-  LDM: "Thu Oct 29, evening - Gravenberch, in the Standard's and The False 9's pivot; This Is Anfield, per Origo, prefers Nyoni. High.",
-  RDM: "Thu Oct 29, evening - Mac Allister, restored in every Thursday XI; Szoboszlai on the grass but not expected (Origo). Medium.",
-  LAM: "Thu Oct 29, evening - Gakpo, on the left for The False 9; the Evening Standard starts Munoz there despite calling him a doubt. Medium.",
-  CAM: "Thu Oct 29, evening - Wirtz, recovered from the knock (Evening Standard via AOL) and at ten in every preview. High.",
-  RAM: "Thu Oct 29, evening - Barcola, on the right in the Standard's and The False 9's XIs. Medium.",
-  ST: "Thu Oct 29, evening - Isak, the nine in every Arsenal XI found ('Isak Starts', The False 9). High.",
+  LB: "Fri Oct 30, morning - Kerkez, at left-back in Premier League News Now's and NBC Sports' XIs. High.",
+  LCB: "Fri Oct 30, morning - Van Dijk, thirty-eight headed clearances this season (Opta Analyst) and in every Sunday XI found. High.",
+  RCB: "Fri Oct 30, morning - Jacquet, 'poised to regain his place' beside Van Dijk (Brit Brief). High.",
+  RB: "Fri Oct 30, morning - Araujo, the only right-back any preview names with Frimpong out until after the break (Brit Brief). Medium.",
+  LDM: "Fri Oct 30, morning - Gravenberch, kept in every published XI, but Brit Brief calls his place a selection call after a poor game on Wednesday, with Nyoni pressing. Lowered High to Medium.",
+  RDM: "Fri Oct 30, morning - Mac Allister, in all twelve games this season (Opta Analyst); Szoboszlai's status is due at the 1.30pm presser. Medium.",
+  LAM: "Fri Oct 30, morning - Gakpo, on the left in NBC Sports' XI; Munoz 'touch and go' (Premier League News Now). Medium.",
+  CAM: "Fri Oct 30, morning - Wirtz, one goal and two assists in his last four (Opta Analyst). High.",
+  RAM: "Fri Oct 30, morning - Barcola, three goals and two assists in his last four (Opta Analyst), in both Friday XIs found. Medium.",
+  ST: "Fri Oct 30, morning - Isak, six in his last six league games (Opta Analyst). High.",
 };
 
 
@@ -372,8 +375,8 @@ export const ALTERNATIVES = {
   LCB: [{ playerId: 5, reason: "Gomez · the fresh senior centre-back cover" }],
   RCB: [{ playerId: 5, reason: "Gomez · the fresh senior cover" }],
   RB:  [{ playerId: 5, reason: "Gomez · right-back v Chelsea" }, { playerId: 14, reason: "Gravenberch · the emergency option" }],
-  LDM: [{ playerId: 20, reason: "Nyoni · started v Chelsea" }],
-  RDM: [{ playerId: 20, reason: "Nyoni · pivot cover" }, { playerId: 17, reason: "Endo · no minutes yet" }],
+  LDM: [{ playerId: 20, reason: "Nyoni · impressed v Chelsea (Brit Brief)" }],
+  RDM: [{ playerId: 20, reason: "Nyoni · NBC says he could start" }, { playerId: 17, reason: "Endo · no minutes yet" }],
   LAM: [{ playerId: 28, reason: "Munoz · the Standard's pick, a doubt" }, { playerId: 25, reason: "Ngumoha · started left v Chelsea" }],
   CAM: [{ playerId: 20, reason: "Nyoni · ten if Wirtz is managed" }],
   RAM: [{ playerId: 26, reason: "Chiesa · unused v Chelsea" }, { playerId: 25, reason: "Ngumoha · either flank" }],
@@ -385,6 +388,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-10-29T22:45:00Z",
-  reason: "Thu Oct 29, evening. Arsenal at Anfield, Premier League, Sun 1 Nov, 4.30pm GMT. Unchanged: the Brighton XI, which The False 9's Thursday prediction repeats, with Araújo at right-back; the Evening Standard has Muñoz for Gakpo on the left. Van Dijk's exit against Chelsea was managed minutes, not an injury (Evening Standard via AOL). Szoboszlai and Frimpong out, Muñoz a doubt. Medium: Iraola's pre-match press conference has not happened yet.",
+  generated_at: "2026-10-30T08:45:00Z",
+  reason: "Fri Oct 30, morning. Arsenal at Anfield, Premier League, Sun 1 Nov, 4.30pm GMT. Unchanged: the Brighton XI, which Premier League News Now's and NBC Sports' predictions repeat, with Araújo at right-back. The live question is the pivot: Brit Brief says Iraola faces a Gravenberch call after a poor game against Chelsea, with Nyoni impressing. Szoboszlai's status is due at Iraola's 1.30pm press conference; Frimpong out until after the break, Muñoz touch and go. Medium.",
 };
