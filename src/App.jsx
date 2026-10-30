@@ -607,7 +607,7 @@ function CoverView({ onJump }) {
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
               and the injury list has given way to a selection problem. Brit Brief, writing after midnight, says Iraola
-              faces a call over Gravenberch, poor against Chelsea on a night when Nyoni, twenty, was not. Every published
+              faces a call over Gravenberch, poor against Chelsea on a night when Nyoni, a teenager, was not. Every published
               eleven still keeps the Dutchman, and the manager explains himself at half past one, when Szoboszlai's
               hamstring gets its verdict too. Opta Analyst has done the history: thirteen league visits, no Arsenal win
               since 2012-13. It has also done the danger, a side with 3.4 expected goals from corners against the only

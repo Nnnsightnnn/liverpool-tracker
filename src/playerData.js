@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Fri Oct 30, morning - Levante loan; nothing new from Spain this cycle, and outside Liverpool's domestic squads.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Fri Oct 30, morning - Away in Spain with Levante for the season; no report from there found this cycle, and not registered in Liverpool's domestic squads.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -242,7 +242,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Fri Oct 30, morning - Third goalkeeper; outside Wednesday's squad (ESPN). No change.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Fri Oct 30, morning - Behind Alisson, back for Sunday per Brit Brief, and Mamardashvili in the order; third choice.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -1087,7 +1087,7 @@ export const DISPATCHES = [
     "byline": "Brit Brief / Premier League News Now",
     "dateline": "Kirkby · 30 October",
     "category": "Tactics",
-    "body": "The cup tie answered nothing about the goalkeeper or the centre-backs, who were always coming back, and one thing about the pivot. Brit Brief, writing after midnight, put it plainly: Gravenberch had a poor game on Wednesday, Nyoni impressed, and Iraola faces a call. Every published eleven still names Gravenberch beside Mac Allister. But a twenty-year-old who started in the pivot on Wednesday and was named among the best of the night is a different kind of pressure from an injury list, and Iraola, who speaks at half past one, will be asked about it."
+    "body": "The cup tie answered nothing about the goalkeeper or the centre-backs, who were always coming back, and one thing about the pivot. Brit Brief, writing after midnight, put it plainly: Gravenberch had a poor game on Wednesday, Nyoni impressed, and Iraola faces a call. Every published eleven still names Gravenberch beside Mac Allister. But a nineteen-year-old who started in the pivot on Wednesday and was named among the best of the night is a different kind of pressure from an injury list, and Iraola, who speaks at half past one, will be asked about it."
   },
   {
     "n": "02",
