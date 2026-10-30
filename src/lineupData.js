@@ -185,7 +185,7 @@ export const FORMATIONS = {
 // Thu Oct 29 (morning): all 27 refreshed for SI's FotMob ratings from Chelsea and RotoWire's Arsenal preview; XIs unchanged.
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 export const PLAYER_EVIDENCE = {
-  1:   "Starts in every Sunday XI found",
+  1:   "Starts Sunday · out of Brazil squad",
   2:   "Cup keeper · back to the bench",
   3:   "38 headed clearances (Opta)",
   5:   "Cup captain · winning kick",
@@ -195,19 +195,19 @@ export const PLAYER_EVIDENCE = {
   10:  "ACL · team training in break",
   11:  "Back beside Van Dijk (Brit Brief)",
   12:  "Levante loan",
-  13:  "All 12 games this season (Opta)",
-  14:  "Selection call (Brit Brief)",
-  15:  "Hamstring · word due at 1.30pm",
+  13:  "'Back to his best' (Standard)",
+  14:  "'We trust him' (Iraola)",
+  15:  "Hamstring · 'has a chance'",
   17:  "No minutes yet this season",
   18:  "1G 2A in last four (Opta)",
-  20:  "Impressed v Chelsea · pushing",
-  22:  "Left side (NBC Sports)",
+  20:  "Covered the pivot · bench Sunday",
+  22:  "Left side · Munoz a doubt",
   23:  "6 in last 6 PL games (Opta)",
   24:  "Achilles · late December",
   25:  "No PL start since opening day",
   26:  "Bench · Barcola holds right",
   27:  "Third keeper",
-  28:  "Knee · touch and go (PLNN)",
+  28:  "Knee · 'has a chance' (Iraola)",
   29:  "RB in every Sunday XI",
   30:  "3G 2A in last four (Opta)",
   31:  "Cover behind Isak",
@@ -319,6 +319,8 @@ export const PLAYER_EVIDENCE = {
 //   Jacquet, Mac Allister, Wirtz, Barcola and Isak back in. Overall Medium.
 // Fri Oct 30 (morning): no personnel change. Brit Brief's overnight preview makes Gravenberch a selection call after Chelsea, Nyoni
 //   pressing; every published XI keeps him, so LDM stays Gravenberch, lowered High to Medium. Szoboszlai awaits the 1.30pm presser.
+// Fri Oct 30 (evening): no personnel change. Iraola's afternoon presser: Gravenberch 'we trust him', LDM raised Medium to High;
+//   Szoboszlai and Munoz 'have a chance' but 'I don't know for sure if they will be involved', both held out (Liverpool FC).
 
 export const DEFAULT_FORMATION = "4-2-3-1";
 
@@ -338,7 +340,7 @@ export const SLOT_CONFIDENCE = {
   LCB: "High",
   RCB: "High",
   RB: "Medium",
-  LDM: "Medium",
+  LDM: "High",
   RDM: "Medium",
   LAM: "Medium",
   CAM: "High",
@@ -352,16 +354,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Fri Oct 30, morning - Kerkez, at left-back in Premier League News Now's and NBC Sports' XIs. High.",
-  LCB: "Fri Oct 30, morning - Van Dijk, thirty-eight headed clearances this season (Opta Analyst) and in every Sunday XI found. High.",
-  RCB: "Fri Oct 30, morning - Jacquet, 'poised to regain his place' beside Van Dijk (Brit Brief). High.",
-  RB: "Fri Oct 30, morning - Araujo, the only right-back any preview names with Frimpong out until after the break (Brit Brief). Medium.",
-  LDM: "Fri Oct 30, morning - Gravenberch, kept in every published XI, but Brit Brief calls his place a selection call after a poor game on Wednesday, with Nyoni pressing. Lowered High to Medium.",
-  RDM: "Fri Oct 30, morning - Mac Allister, in all twelve games this season (Opta Analyst); Szoboszlai's status is due at the 1.30pm presser. Medium.",
-  LAM: "Fri Oct 30, morning - Gakpo, on the left in NBC Sports' XI; Munoz 'touch and go' (Premier League News Now). Medium.",
-  CAM: "Fri Oct 30, morning - Wirtz, one goal and two assists in his last four (Opta Analyst). High.",
-  RAM: "Fri Oct 30, morning - Barcola, three goals and two assists in his last four (Opta Analyst), in both Friday XIs found. Medium.",
-  ST: "Fri Oct 30, morning - Isak, six in his last six league games (Opta Analyst). High.",
+  LB: "Fri Oct 30, evening - Kerkez, back at left-back in every Sunday preview after resting for the cup. High.",
+  LCB: "Fri Oct 30, evening - Van Dijk, for a game Iraola says turns on 'winning the aerial duels' (Liverpool FC). High.",
+  RCB: "Fri Oct 30, evening - Jacquet, expected back beside Van Dijk (Brit Brief). High.",
+  RB: "Fri Oct 30, evening - Araujo, with Frimpong out until after the break (Brit Brief) and no change from Iraola on Friday. Medium.",
+  LDM: "Fri Oct 30, evening - Gravenberch, backed on Friday: 'We trust him. We know what he can produce' (Liverpool FC). Raised Medium to High.",
+  RDM: "Fri Oct 30, evening - Mac Allister, 'back to his best' (Evening Standard via AOL); Szoboszlai 'has a chance' but no promise. Medium.",
+  LAM: "Fri Oct 30, evening - Gakpo, the left-sided starter while Munoz 'has a chance' of being involved at all (Liverpool FC). Medium.",
+  CAM: "Fri Oct 30, evening - Wirtz, no new problem raised on Friday; one goal and two assists in his last four (Opta Analyst). High.",
+  RAM: "Fri Oct 30, evening - Barcola, on the right in every Sunday XI found. Medium.",
+  ST: "Fri Oct 30, evening - Isak, six of Liverpool's nine league goals in his last six games (Opta Analyst). High.",
 };
 
 
@@ -388,6 +390,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-10-30T08:45:00Z",
-  reason: "Fri Oct 30, morning. Arsenal at Anfield, Premier League, Sun 1 Nov, 4.30pm GMT. Unchanged: the Brighton XI, which Premier League News Now's and NBC Sports' predictions repeat, with Araújo at right-back. The live question is the pivot: Brit Brief says Iraola faces a Gravenberch call after a poor game against Chelsea, with Nyoni impressing. Szoboszlai's status is due at Iraola's 1.30pm press conference; Frimpong out until after the break, Muñoz touch and go. Medium.",
+  generated_at: "2026-10-30T22:15:00Z",
+  reason: "Fri Oct 30, evening. Arsenal at Anfield, Premier League, Sun 1 Nov, 4.30pm GMT. No personnel change: the Brighton XI, with Araújo at right-back. Iraola settled the pivot at his afternoon press conference, backing Gravenberch ('We trust him', Liverpool FC), and left two doubts open, Szoboszlai and Muñoz, who 'have a chance' without a promise; both held out. Frimpong out until after the break. Medium.",
 };

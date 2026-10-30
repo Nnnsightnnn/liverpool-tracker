@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday, and the argument has moved into midfield: Gravenberch's place is the call Iraola faces, Brit Brief
-          reports, with Nyoni pressing after the cup. The manager speaks at half past one, Szoboszlai the question.
-          Fourth on fifteen, six behind, and two days until Arsenal return to a ground where they have not won a league game since 2012.
+          Friday evening, and the answers came back as chances. Szoboszlai and Muñoz may face Arsenal, Iraola said,
+          though he could promise neither; Gravenberch, questioned at breakfast, was trusted by lunch. Arsenal get Rice and
+          Calafiori back. Fourth on fifteen, six behind, and Sunday at half past four to make it three.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,23 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and the injury list has given way to a selection problem. Brit Brief, writing after midnight, says Iraola
-              faces a call over Gravenberch, poor against Chelsea on a night when Nyoni, a teenager, was not. Every published
-              eleven still keeps the Dutchman, and the manager explains himself at half past one, when Szoboszlai's
-              hamstring gets its verdict too. Opta Analyst has done the history: thirteen league visits, no Arsenal win
-              since 2012-13. It has also done the danger, a side with 3.4 expected goals from corners against the only
-              defence in the league, with Brentford's, yet to concede a non-penalty set-piece goal. Two days, then, and a
-              pivot to choose.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              and Iraola has answered half of what was asked of him. Gravenberch, put in doubt overnight, was backed in
+              three words, 'we trust him', which settles the pivot as far as a manager ever settles anything. Szoboszlai and
+              Muñoz were given chances rather than places, the Hungarian still training on his own this week. Across the
+              country Arteta found three players he had feared losing, Rice, Calafiori and Tzolis, all back on the grass.
+              Alisson, left out of Brazil's squad again, will at least spend the break at home. Iraola called Arsenal the
+              actual champions and asked for duels, running and headers. Two days, then, and a chance is not a place.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: the Gravenberch question;
-              thirteen visits, no win; where the corners go; a team again, the jury says; and six to
-              eight weeks for Saka. Fourth in the league, Bournemouth in the last eight of the cup,
+              five dispatches from the writers who never clock off: two chances, no promises;
+              trust, stated plainly; Arsenal get three back; best goalkeeper, stays home; and duels,
+              running, headers. Fourth in the league, Bournemouth in the last eight of the cup,
               and Arsenal at Anfield on Sunday.
             </p>
           </div>
@@ -3833,7 +3832,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Thirteen visits. Two days. One pivot."
+        "A chance is not a place."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

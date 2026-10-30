@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-01T12:00:00Z",
   "status": "OPEN",
   "tracker": "liverpool",
-  "leadStory": "Thursday evening: Arsenal's appeal against Max Dowman's red card was rejected, so he serves a three-match ban starting at Anfield on Sunday (ESPN; Football365); Van Dijk's exit against Chelsea was managed minutes (Evening Standard). Arsenal at Anfield on Sunday.",
+  "leadStory": "Friday evening: Iraola says Szoboszlai and Munoz 'have a chance' of facing Arsenal but could not promise either, and backed Gravenberch, 'We trust him' (Liverpool FC); Arteta expects Rice, Calafiori and Tzolis to be available (Sports Mole). Arsenal at Anfield on Sunday.",
   "action": "generate",
   "note": "Kenny asked for a better cover than the hand-drawn SVG plates. Generate ONE image per the prompt, save it at `output`, then set COVER_IMAGE.src to it, credit 'Illustration · Antigravity', a fresh generatedAt, and set this file's status to CLOSED. Evergreen on purpose: it should still be right after the City result.",
   "currentPlate": "/assets/cover/2026-10-01-anfield-after-dark.svg",
