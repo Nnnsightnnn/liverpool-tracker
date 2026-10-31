@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday evening, and the answers came back as chances. Szoboszlai and Muñoz may face Arsenal, Iraola said,
-          though he could promise neither; Gravenberch, questioned at breakfast, was trusted by lunch. Arsenal get Rice and
-          Calafiori back. Fourth on fifteen, six behind, and Sunday at half past four to make it three.
+          Saturday, and the previews have stopped arguing. Experience over form, one of them called it overnight:
+          Gravenberch ahead of Nyoni, Araújo again at right-back, the Brighton eleven intact. Arsenal's last doubt,
+          Madueke, has a session to finish today. Fourth against second, six points apart, and tomorrow at four-thirty.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,23 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              and Iraola has answered half of what was asked of him. Gravenberch, put in doubt overnight, was backed in
-              three words, 'we trust him', which settles the pivot as far as a manager ever settles anything. Szoboszlai and
-              Muñoz were given chances rather than places, the Hungarian still training on his own this week. Across the
-              country Arteta found three players he had feared losing, Rice, Calafiori and Tzolis, all back on the grass.
-              Alisson, left out of Brazil's squad again, will at least spend the break at home. Iraola called Arsenal the
-              actual champions and asked for duels, running and headers. Two days, then, and a chance is not a place.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and the argument has moved from the press room to the page. The writers who filed overnight agree on the
+              eleven Iraola will send out against Arsenal, and one of them gave the agreement a name, experience over form,
+              which is a polite way of saying Gravenberch stays and Nyoni waits. AnfieldWatch, up early, is not persuaded:
+              twenty-two completed passes at Chelsea, it counts, against the teenager's sixty-five. In London Madueke has a
+              training session to finish before Arteta decides. The bookmakers lean towards Arsenal, the previews towards a
+              draw, and Arsenal have not won a league game at Anfield since 2012. One more night, then, and form gets its say.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: two chances, no promises;
-              trust, stated plainly; Arsenal get three back; best goalkeeper, stays home; and duels,
-              running, headers. Fourth in the league, Bournemouth in the last eight of the cup,
-              and Arsenal at Anfield on Sunday.
+              five dispatches from the writers who never clock off: one eleven, overnight; a session
+              to finish; twenty-two passes; zero, and twenty-five; and the line through Saturday. Fourth
+              in the league, Bournemouth in the last eight of the cup, and Arsenal at Anfield tomorrow.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3832,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "A chance is not a place."
+        "Experience picks the side. Form gets Sunday."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
