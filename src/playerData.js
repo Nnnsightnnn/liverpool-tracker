@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Sat Oct 31, evening - Six goals in his last six league games, six of Liverpool's nine in that run, one every ninety-five minutes under Iraola (Opta Analyst).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Sat Oct 31, evening - Six goals in his last six league appearances, six of the nine Liverpool scored in them, one every ninety-five minutes under Iraola (Opta Analyst).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -1143,7 +1143,7 @@ export const NEWS_DIGEST = {
   "summary": "Saturday's results pushed Liverpool down to fifth before they have kicked a ball this weekend: Chelsea beat ten-man Manchester United 2-0 at lunchtime, Rogers and a Palmer penalty after Martínez's red card (ESPN), and Brighton won 1-0 at the Etihad through Ayari, so Arsenal arrive at Anfield on Sunday able to go top alone with a draw (dave.sport). The Opta supercomputer makes Arsenal favourites, 41.8% to Liverpool's 32.7% with the draw at 25.5% (Opta Analyst), and Madueke was still at 50% on the Premier League's availability list at 1.30pm, his Saturday session the deciding test (The False 9). Van Dijk, in comments published on Saturday morning, said Iraola's side must 'go all-in and take that risk' when pressing (Goal via Yahoo Sports). Rush The Kop's afternoon XI keeps Gravenberch over Nyoni and judges Szoboszlai 'highly unlikely' to start. Further ahead, Mateta's straight red at Tottenham rules him out of Palace's game against Liverpool on 8 November (DaveOCKOP).",
   "keyTopics": [
     {
-      "title": "Chelsea And Brighton Win, And Liverpool Wake Up Fifth (ESPN / dave.sport, this evening)",
+      "title": "Chelsea And Brighton Win, And Liverpool Start Sunday Fifth (ESPN / dave.sport, this evening)",
       "category": "matches",
       "detail": "Saturday's results: Chelsea 2-0 Manchester United (Rogers 50', Palmer pen 64', Martínez sent off 63'; ESPN) and Manchester City 0-1 Brighton (Ayari 11'; dave.sport). Liverpool drop to fifth on fifteen, a point behind Chelsea, and a draw at Anfield would put Arsenal top on their own."
     },
@@ -1153,7 +1153,7 @@ export const NEWS_DIGEST = {
       "detail": "Shown a straight red on thirteen minutes at Tottenham on Saturday, the yellow upgraded after VAR (beIN Sports). RotoWire expects a three-match domestic ban; DaveOCKOP, writing at 5.56pm, says the first game he misses is Liverpool's visit on Sunday 8 November, unless Palace appeal successfully."
     },
     {
-      "title": "Madueke Had A Session To Finish, And No Word Yet (The False 9 / now.arsenal, this evening)",
+      "title": "Madueke At Fifty Per Cent, Unresolved By Nightfall (The False 9 / now.arsenal, this evening)",
       "category": "injuries",
       "detail": "The False 9's check of the official FPL list at 1.30pm on Saturday: Madueke 50%, 'known after Saturday's session'; Rice, Calafiori and Tzolis 75%; Saka and Saliba 0%. now.arsenal, filing late on Saturday, still calls him 'the least clear case'. No outcome from the session had been reported by the evening."
     },
@@ -1185,7 +1185,7 @@ export const NEWS_DIGEST = {
     {
       "title": "Isak's Share Of The Goals (Opta Analyst, 1d ago)",
       "category": "general",
-      "detail": "Opta counts six of Liverpool's nine league goals in the last six games as Isak's, one every ninety-five minutes under Iraola; Iraola himself has lost two of twenty-seven league games in 2026 (Opta Analyst)."
+      "detail": "Opta counts six goals for Isak in his last six league appearances, six of the nine Liverpool scored in those games, one every ninety-five minutes under Iraola; Iraola himself has lost two of twenty-seven league games in 2026 (Opta Analyst)."
     }
   ],
   "sources": [
@@ -1234,7 +1234,7 @@ export const OPPOSITION = {
   "manager": "Mikel Arteta",
   "formation": "4-2-3-1",
   "leaguePosition": 2,
-  "summary": "Saturday's results handed Arsenal the chance to go top on their own: Brighton beat Manchester City 1-0 at the Etihad, so a draw at Anfield lifts Arteta's side clear of City, level on twenty-one with a game in hand (dave.sport; ESPN). Opta's supercomputer makes them favourites, 41.8% to 32.7% (Opta Analyst). Their season so far is seven wins from eight in the league, with the joint-most clean sheets, the fewest shots on target and the lowest expected goals against in the division (Opta Analyst), and Tuesday's shootout defeat at Fleetwood is the only loss in their last four. Madueke's ankle was still at 50% on the Premier League's list on Saturday afternoon (The False 9), Saka and Saliba are out and Dowman's ban starts here. Arsenal are winless in thirteen league visits to Liverpool since 2012-13 (Opta Analyst).",
+  "summary": "Saturday's results handed Arsenal the chance to go top on their own: Brighton beat Manchester City 1-0 at the Etihad, so a draw at Anfield takes Arteta's side to twenty-two, a point clear of City, who have played a game more (dave.sport; ESPN). Opta's supercomputer makes them favourites, 41.8% to 32.7% (Opta Analyst). Their season so far is seven wins from eight in the league, with the joint-most clean sheets, the fewest shots on target and the lowest expected goals against in the division (Opta Analyst), and Tuesday's shootout defeat at Fleetwood is the only loss in their last four. Madueke's ankle was still at 50% on the Premier League's list on Saturday afternoon (The False 9), Saka and Saliba are out and Dowman's ban starts here. Arsenal are winless in thirteen league visits to Liverpool since 2012-13 (Opta Analyst).",
   "shape": "A 4-2-3-1, with the back four the least settled part of it: Opta and Sports Mole start White at right-back, Brit Brief Timber, and Opta has Lewis-Skelly on the left where Sports Mole has Calafiori. The build-up runs through Rice and Ødegaard, first and second in the league for line-breaking passes ending in the final third (Opta Analyst), and the threat that lands is the corner, 3.4 expected goals this season (Opta Analyst), with Gabriel the target. Without Saka, Eze is the one senior winger certain to start; Madueke's fitness decides who plays opposite him.",
   "keyPlayers": [
     {
@@ -1337,7 +1337,7 @@ export const OPPOSITION = {
       "note": "A one-goal win at the City Ground (ESPN)."
     }
   ],
-  "liverpoolAngle": "Arsenal's defence is the best in the league by Opta's measures, twenty-four shots on target and 6.2 expected goals against in eight games (Opta Analyst), and Liverpool's attack has leaned on one man: Isak has six of their nine league goals across the last six games. Van Dijk's 'go all-in' press is the plan for prising that open, and its risk is Rice and Ødegaard playing through it. On Liverpool's right, Araújo, a centre-back, is the right-back again because Frimpong and Bradley are out, the department the depth board rates critical, and whoever Arsenal field on their left, Calafiori or Lewis-Skelly, will push on him. At corners, Arsenal's 3.4 expected goals meet a Liverpool side yet to concede a non-penalty set-piece goal (Opta Analyst).",
+  "liverpoolAngle": "Arsenal's defence is the best in the league by Opta's measures, twenty-four shots on target and 6.2 expected goals against in eight games (Opta Analyst), and Liverpool's attack has leaned on one man: Isak scored six of the nine goals in his last six league appearances (Opta Analyst). Van Dijk's 'go all-in' press is the plan for prising that open, and its risk is Rice and Ødegaard playing through it. On Liverpool's right, Araújo, a centre-back, is the right-back again because Frimpong and Bradley are out, the department the depth board rates critical, and whoever Arsenal field on their left, Calafiori or Lewis-Skelly, will push on him. At corners, Arsenal's 3.4 expected goals meet a Liverpool side yet to concede a non-penalty set-piece goal (Opta Analyst).",
   "modelLine": {
     "source": "Opta Analyst (supercomputer, published 30 October)",
     "liverpool": 32.7,
@@ -1362,7 +1362,7 @@ export const FORM_TRENDS = {
   "generatedAt": "2026-10-31T22:30:00Z",
   "competition": "PL",
   "played": 8,
-  "headline": "Opta's model reads Sunday the way Liverpool's own numbers would: Arsenal 41.8% favourites (Opta Analyst), because the league's best defence by expected goals against, 6.2 in eight games, meets an attack whose output has narrowed to one forward, Isak scoring six of the last nine league goals. Liverpool's eight league games add up to 10.81 expected goals for and 9.42 against on the published per-match figures, the margin of a decent side rather than a dominant one. Their own defence has kept four clean sheets in six league games since the start of September (Opta Analyst). Saturday's results raise the price of a bad afternoon: fifth already, a defeat would leave them nine behind Arsenal.",
+  "headline": "Opta's model reads Sunday the way Liverpool's own numbers would: Arsenal 41.8% favourites (Opta Analyst), because the league's best defence by expected goals against, 6.2 in eight games, meets an attack whose output has narrowed to one forward, Isak scoring six of the nine goals in his last six league appearances (Opta Analyst). Liverpool's eight league games add up to 10.81 expected goals for and 9.42 against on the published per-match figures, the margin of a decent side rather than a dominant one. Their own defence has kept four clean sheets in six league games since the start of September (Opta Analyst). Saturday's results raise the price of a bad afternoon: fifth already, a defeat would leave them nine behind Arsenal.",
   "diagnosis": [
     {
       "label": "No set-piece goals conceded, a year after twenty",
@@ -1380,7 +1380,7 @@ export const FORM_TRENDS = {
       "label": "One forward carrying the goals",
       "severity": "positive",
       "source": "Opta Analyst / ESPN",
-      "detail": "Isak has six of Liverpool's nine league goals across the last six games, one every ninety-five minutes under Iraola (Opta Analyst), and Liverpool were unbeaten in the sixteen games he had played before Chelsea. With Ekitike out until the New Year, Koumas and Barcola are the cover (Premier Injuries)."
+      "detail": "Isak has six goals in his last six league appearances, six of the nine Liverpool scored in those games, one every ninety-five minutes under Iraola (Opta Analyst), and Liverpool were unbeaten in the sixteen games he had played before Chelsea. With Ekitike out until the New Year, Koumas and Barcola are the cover (Premier Injuries)."
     },
     {
       "label": "Eighth for chances, fourth for prevention",
@@ -1680,7 +1680,7 @@ export const FORM_TRENDS = {
 };
 export const SQUAD_LOAD = {
   "generatedAt": "2026-10-31T22:30:00Z",
-  "headline": "The table moved on Saturday and the squad did not: Liverpool are fifth, and the side that goes out to recover it is the one every preview has named since Thursday, Araújo at right-back because Frimpong and Bradley are out, Gravenberch in the pivot because Szoboszlai is 'highly unlikely' to start (Rush The Kop). Muñoz, Rush The Kop says, will 'at best' be on the bench. Isak has scored six of the last nine league goals and has no senior striker behind him until Ekitike returns. With the squad shut until January, Sunday's options from the bench are Nyoni, Gomez, Ngumoha, Chiesa and Koumas.",
+  "headline": "The table moved on Saturday and the squad did not: Liverpool are fifth, and the side that goes out to recover it is the one every preview has named since Thursday, Araújo at right-back because Frimpong and Bradley are out, Gravenberch in the pivot because Szoboszlai is 'highly unlikely' to start (Rush The Kop). Muñoz, Rush The Kop says, will 'at best' be on the bench. Isak has six goals in his last six league appearances (Opta Analyst) and has no senior striker behind him until Ekitike returns. With the squad shut until January, Sunday's options from the bench are Nyoni, Gomez, Ngumoha, Chiesa and Koumas.",
   "minutesNote": "Premier League minutes are not published here yet. Eight league games, three Champions League games and two Carabao Cup ties have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   "unavailable": [
     {
@@ -1724,7 +1724,7 @@ export const SQUAD_LOAD = {
       "name": "Florian Wirtz",
       "issue": "Ankle, twisted in a challenge against Brighton; replaced by Nyoni on sixty-five (SI)",
       "status": "Came through Chelsea, on for McConnell and a scored shootout kick (ESPN); RotoWire calls the ankle a question that 'doesn't look very big'",
-      "note": "Thirty-one minutes against Chelsea on the ankle (OneFPL); at ten in all five Saturday XIs read.",
+      "note": "Thirty-one minutes against Chelsea on the ankle (OneFPL); at ten in every Saturday XI read, Opta and Rush The Kop included.",
       "source": "ESPN / OneFPL / Premier League News Now"
     },
     {
@@ -1752,28 +1752,28 @@ export const SQUAD_LOAD = {
       "name": "Bradley Barcola",
       "issue": "No injury",
       "status": "On for Koumas on fifty-nine against Chelsea, a shot saved by Penders, and scored the sixth shootout kick (ESPN)",
-      "note": "Three goals and two assists in his last four games (Opta Analyst; ArsenalCore); left in four of the five Saturday previews, right in Premier League News Now's.",
+      "note": "Three goals and two assists in his last four games (Opta Analyst; ArsenalCore); left in most Saturday previews, right in Premier League News Now's and Rush The Kop's.",
       "source": "Opta Analyst / ESPN / Premier League News Now / NBC Sports"
     },
     {
       "name": "Ronald Araujo",
       "issue": "No injury",
       "status": "Ninety minutes against Chelsea, at centre-back on ESPN's line-up, with a header saved on sixty-one (ESPN)",
-      "note": "Unbooked, so no quarter-final ban; right-back in all five Saturday Arsenal previews because Frimpong, Bradley and Leoni are out (Premier League News Now).",
+      "note": "Unbooked, so no quarter-final ban; right-back in every Saturday Arsenal preview read, Rush The Kop and Opta included, because Frimpong and Bradley are out (Rush The Kop).",
       "source": "ESPN / Evening Standard via AOL"
     },
     {
       "name": "Ryan Gravenberch",
       "issue": "No injury",
       "status": "Ninety minutes against Chelsea, a poor game per Brit Brief; conceded the penalty on thirty-eight and had his shootout kick saved (ESPN)",
-      "note": "In the pivot in all five Saturday previews (Premier League News Now); AnfieldWatch counts twenty-two completed passes for him at Chelsea against Nyoni's sixty-five. Also the named emergency right-back.",
+      "note": "In the pivot in every Saturday preview read, kept over Nyoni by Rush The Kop; AnfieldWatch counts twenty-two completed passes for him at Chelsea against Nyoni's sixty-five. Also the named emergency right-back.",
       "source": "Premier League News Now / AnfieldWatch / ESPN"
     },
     {
       "name": "Joe Gomez",
       "issue": "No injury",
       "status": "Ninety minutes against Chelsea, at right-back on ESPN's line-up, and scored the winning kick (ESPN)",
-      "note": "In none of the five Saturday Arsenal previews (Premier League News Now); one of seven first-team players out of contract next summer (AnfieldWatch via Yahoo Sports).",
+      "note": "In none of the Saturday Arsenal previews read (Rush The Kop; Premier League News Now); one of seven first-team players out of contract next summer (AnfieldWatch via Yahoo Sports).",
       "source": "ESPN / The False 9 / Evening Standard via AOL / AnfieldWatch via Yahoo Sports"
     },
     {
@@ -1821,7 +1821,7 @@ export const SQUAD_LOAD = {
     {
       "position": "Centre-forward",
       "level": "high",
-      "detail": "High. Isak has six of the last nine league goals (Opta Analyst) and played eight minutes on Wednesday; Koumas and Barcola are the alternatives until Ekitike's listed return on 2 January (Premier Injuries)."
+      "detail": "High. Isak has six goals in his last six league appearances (Opta Analyst) and played eight minutes on Wednesday; Koumas and Barcola are the alternatives until Ekitike's listed return on 2 January (Premier Injuries)."
     },
     {
       "position": "Wide forward",

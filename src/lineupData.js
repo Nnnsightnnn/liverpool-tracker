@@ -51,16 +51,16 @@ export const FORMATIONS = {
     //   but calls him a doubt, so Gakpo stays. Van Dijk's 72nd-minute exit v Chelsea was managed minutes (Evening Standard via AOL).
     defaultXI: {
       GK: 1,  // Alisson (The False 9; OG)
-      LB: 7, // Kerkez (all five Saturday previews)
-      LCB: 3, // Van Dijk (all five Saturday previews; off on 72 v Chelsea, managed minutes per Evening Standard)
-      RCB: 11, // Jacquet (all five Saturday previews)
-      RB: 29, // Araujo (all five Saturday previews)
-      LCM: 13, // Mac Allister (all five Saturday previews)
-      CM: 14, // Gravenberch (all five Saturday previews)
-      RCM: 18, // Wirtz (ten in all five Saturday previews; ankle came through Chelsea)
-      LW: 30, // Barcola (left in four of five Saturday previews: ArsenalCore, Khel Now, RotoWire, The False 9)
-      ST: 23, // Isak (all five Saturday previews)
-      RW: 22, // Gakpo (right in four of five Saturday previews; PLNN alone has him left)
+      LB: 7, // Kerkez (all seven previews read)
+      LCB: 3, // Van Dijk (all seven previews read; off on 72 v Chelsea, managed minutes per Evening Standard)
+      RCB: 11, // Jacquet (all seven previews read)
+      RB: 29, // Araujo (all seven previews read)
+      LCM: 13, // Mac Allister (all seven previews read)
+      CM: 14, // Gravenberch (all seven previews read)
+      RCM: 18, // Wirtz (ten in all seven previews read; ankle came through Chelsea)
+      LW: 30, // Barcola (left in five of seven previews read; PLNN and Rush The Kop have him right)
+      ST: 23, // Isak (all seven previews read)
+      RW: 22, // Gakpo (right in five of seven previews read; PLNN and Rush The Kop have him left)
     },
 
   },
@@ -104,15 +104,15 @@ export const FORMATIONS = {
     // Wed 28 Oct (evening): re-pointed at Arsenal at home after the Chelsea shootout; the Brighton XI, as in both previews found.
     defaultXI: {
       GK: 1,  // Alisson (The False 9; OG)
-      LB: 7, // Kerkez (all five Saturday previews)
-      LCB: 3, // Van Dijk (all five Saturday previews)
-      RCB: 11, // Jacquet (all five Saturday previews)
-      RB: 29, // Araujo (all five Saturday previews)
+      LB: 7, // Kerkez (all seven previews read)
+      LCB: 3, // Van Dijk (all seven previews read)
+      RCB: 11, // Jacquet (all seven previews read)
+      RB: 29, // Araujo (all seven previews read)
       LDM: 14, // Gravenberch
       RDM: 13, // Mac Allister
-      LAM: 30, // Barcola (left in four of five Saturday previews)
-      CAM: 18, // Wirtz (ten in all five Saturday previews)
-      RAM: 22, // Gakpo (right in four of five Saturday previews)
+      LAM: 30, // Barcola (left in five of seven previews read)
+      CAM: 18, // Wirtz (ten in all seven previews read)
+      RAM: 22, // Gakpo (right in five of seven previews read)
       ST: 23, // Isak
     },
 
@@ -202,7 +202,7 @@ export const PLAYER_EVIDENCE = {
   18:  "Ten · Opta and RTK",
   20:  "Fans' pick · bench (RTK)",
   22:  "Left for RTK · starts",
-  23:  "6 of last 9 PL goals (Opta)",
+  23:  "6 in last 6 PL apps (Opta)",
   24:  "Achilles · 2 Jan (PI)",
   25:  "Bench · either flank",
   26:  "Bench · wide cover",
@@ -210,7 +210,7 @@ export const PLAYER_EVIDENCE = {
   28:  "Knee · 'at best' bench",
   29:  "RB in Opta's XI",
   30:  "Right for RTK · starts",
-  31:  "Cover behind Isak",
+  31:  "Behind Isak · no start",
   32:  "Bench · Kerkez starts",
 };
 
@@ -367,7 +367,7 @@ export const SLOT_RATIONALE = {
   LAM: "Sat Oct 31, evening - Barcola, left in most previews; Rush The Kop's Saturday XI has him right and Gakpo left. Medium.",
   CAM: "Sat Oct 31, evening - Wirtz, at ten for Opta Analyst and Rush The Kop. High.",
   RAM: "Sat Oct 31, evening - Gakpo, right in most previews; left in Rush The Kop's and Premier League News Now's. Medium.",
-  ST: "Sat Oct 31, evening - Isak, six of Liverpool's last nine league goals (Opta Analyst). High.",
+  ST: "Sat Oct 31, evening - Isak, six goals in his last six league appearances (Opta Analyst). High.",
 };
 
 
