@@ -51,16 +51,16 @@ export const FORMATIONS = {
     //   but calls him a doubt, so Gakpo stays. Van Dijk's 72nd-minute exit v Chelsea was managed minutes (Evening Standard via AOL).
     defaultXI: {
       GK: 1,  // Alisson (The False 9; OG)
-      LB: 7, // Kerkez (both Arsenal previews)
-      LCB: 3, // Van Dijk (both previews; off on 72 v Chelsea, managed minutes per Evening Standard)
-      RCB: 11, // Jacquet (both previews)
-      RB: 29, // Araujo (both previews)
-      LCM: 13, // Mac Allister (both previews)
-      CM: 14, // Gravenberch (both previews)
-      RCM: 18, // Wirtz (ten in both previews; ankle came through Chelsea)
-      LW: 22, // Gakpo (left v Brighton, ESPN)
-      ST: 23, // Isak (both previews)
-      RW: 30, // Barcola (right v Brighton, ESPN)
+      LB: 7, // Kerkez (all five Saturday previews)
+      LCB: 3, // Van Dijk (all five Saturday previews; off on 72 v Chelsea, managed minutes per Evening Standard)
+      RCB: 11, // Jacquet (all five Saturday previews)
+      RB: 29, // Araujo (all five Saturday previews)
+      LCM: 13, // Mac Allister (all five Saturday previews)
+      CM: 14, // Gravenberch (all five Saturday previews)
+      RCM: 18, // Wirtz (ten in all five Saturday previews; ankle came through Chelsea)
+      LW: 30, // Barcola (left in four of five Saturday previews: ArsenalCore, Khel Now, RotoWire, The False 9)
+      ST: 23, // Isak (all five Saturday previews)
+      RW: 22, // Gakpo (right in four of five Saturday previews; PLNN alone has him left)
     },
 
   },
@@ -104,15 +104,15 @@ export const FORMATIONS = {
     // Wed 28 Oct (evening): re-pointed at Arsenal at home after the Chelsea shootout; the Brighton XI, as in both previews found.
     defaultXI: {
       GK: 1,  // Alisson (The False 9; OG)
-      LB: 7, // Kerkez (both Arsenal previews)
-      LCB: 3, // Van Dijk (both previews)
-      RCB: 11, // Jacquet (both previews)
-      RB: 29, // Araujo (both previews)
+      LB: 7, // Kerkez (all five Saturday previews)
+      LCB: 3, // Van Dijk (all five Saturday previews)
+      RCB: 11, // Jacquet (all five Saturday previews)
+      RB: 29, // Araujo (all five Saturday previews)
       LDM: 14, // Gravenberch
       RDM: 13, // Mac Allister
-      LAM: 22, // Gakpo (left v Brighton)
-      CAM: 18, // Wirtz (ten in both previews)
-      RAM: 30, // Barcola (right v Brighton)
+      LAM: 30, // Barcola (left in four of five Saturday previews)
+      CAM: 18, // Wirtz (ten in all five Saturday previews)
+      RAM: 22, // Gakpo (right in four of five Saturday previews)
       ST: 23, // Isak
     },
 
@@ -150,9 +150,9 @@ export const FORMATIONS = {
       LCM: 13, // Mac Allister
       RCM: 14, // Gravenberch
       RWB: 29, // Araujo
-      LW: 22, // Gakpo
+      LW: 30, // Barcola
       ST: 23, // Isak
-      RW: 30, // Barcola
+      RW: 22, // Gakpo
     },
 
   },
@@ -203,7 +203,7 @@ export const PLAYER_EVIDENCE = {
   20:  "65 passes v Chelsea · bench",
   22:  "Left or right · starts",
   23:  "6 in last 6 PL (ArsenalCore)",
-  24:  "Achilles · late December",
+  24:  "Achilles · late Dec to 2 Jan",
   25:  "Bench · either flank",
   26:  "Bench · wide cover",
   27:  "Third keeper",
@@ -322,7 +322,7 @@ export const PLAYER_EVIDENCE = {
 // Fri Oct 30 (evening): no personnel change. Iraola's afternoon presser: Gravenberch 'we trust him', LDM raised Medium to High;
 //   Szoboszlai and Munoz 'have a chance' but 'I don't know for sure if they will be involved', both held out (Liverpool FC).
 // Sat Oct 31 (morning): no personnel change. Five previews read (Premier League News Now 00:10 Sat; ArsenalCore; Khel Now; RotoWire; The False 9)
-//   all start the Brighton XI; RB raised Medium to High. Szoboszlai and Munoz held out (FPL 0% and 25% on Thu, per The False 9).
+//   all start the Brighton XI's players; RB raised Medium to High. Auditor fix: Barcola left and Gakpo right in all three shapes, as in four of the five. Szoboszlai and Munoz held out (FPL 0% and 25% on Thu, per The False 9).
 
 export const DEFAULT_FORMATION = "4-2-3-1";
 
@@ -362,9 +362,9 @@ export const SLOT_RATIONALE = {
   RB: "Sat Oct 31, morning - Araujo, a centre-back at right-back in all five Saturday XIs, Frimpong, Bradley and Leoni out (Premier League News Now). Raised Medium to High.",
   LDM: "Sat Oct 31, morning - Gravenberch, 'experience over form' in Premier League News Now's overnight XI, despite AnfieldWatch's pass count. High.",
   RDM: "Sat Oct 31, morning - Mac Allister, beside Gravenberch in every preview; Szoboszlai was 0% on FPL's tracker on Thursday (The False 9). Medium.",
-  LAM: "Sat Oct 31, morning - Gakpo, on the left in Premier League News Now's XI, the right in ArsenalCore's, RotoWire's and Khel Now's. Medium.",
+  LAM: "Sat Oct 31, morning - Barcola, on the left in four of the five Saturday previews (ArsenalCore; Khel Now; RotoWire; The False 9); Premier League News Now alone has him right. Medium.",
   CAM: "Sat Oct 31, morning - Wirtz, at ten in all five Saturday previews, the ankle through thirty-one minutes v Chelsea (OneFPL). High.",
-  RAM: "Sat Oct 31, morning - Barcola, three goals and two assists in his last four (ArsenalCore); flank varies by preview. Medium.",
+  RAM: "Sat Oct 31, morning - Gakpo, on the right in four of the five Saturday previews; Premier League News Now alone has him left. Medium.",
   ST: "Sat Oct 31, morning - Isak, six goals in his last six league games (ArsenalCore). High.",
 };
 
@@ -393,5 +393,5 @@ export const ALTERNATIVES = {
 export const PREDICTION_NOTE = {
   level: "Medium",
   generated_at: "2026-10-31T08:30:00Z",
-  reason: "Sat Oct 31, morning. Arsenal at Anfield, Premier League, Sun 1 Nov, 4.30pm GMT. No personnel change: the Brighton XI, which all five previews read on Saturday also pick (Premier League News Now; ArsenalCore; Khel Now; RotoWire; The False 9), Gravenberch in the pivot and Araújo at right-back. Szoboszlai and Muñoz stay held out as doubts. The only disagreement is which flank Gakpo and Barcola take. Medium, for the two doubts and an hour-before team sheet.",
+  reason: "Sat Oct 31, morning. Arsenal at Anfield, Premier League, Sun 1 Nov, 4.30pm GMT. No personnel change: the Brighton XI, which all five previews read on Saturday also pick (Premier League News Now; ArsenalCore; Khel Now; RotoWire; The False 9), Gravenberch in the pivot and Araújo at right-back. Szoboszlai and Muñoz stay held out as doubts. Barcola left and Gakpo right, as in four of the five; Premier League News Now swaps them. Medium, for the two doubts and an hour-before team sheet.",
 };

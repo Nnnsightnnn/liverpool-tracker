@@ -983,7 +983,7 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-10-28 (Wednesday morning, ~4am ET). Re-fetched from ESPN, byte-identical to Tuesday evening; no league game until Sunday.
+// Last refresh: 2026-10-31 (Saturday morning, ~4am ET); see the dated log below. Earlier: 2026-10-28 (Wednesday morning, ~4am ET). Re-fetched from ESPN, byte-identical to Tuesday evening; no league game until Sunday.
 // Prior refresh: 2026-10-27 (Tuesday morning, ~4am ET). Re-fetched from ESPN, byte-identical to Monday evening; no league game until Sunday.
 // Prior refresh: 2026-10-26 (Monday evening, ~6pm ET). Re-fetched from ESPN, byte-identical to Sunday evening; no league game on Monday.
 // Prior refresh: 2026-10-25 (Sunday evening, ~6pm ET). Re-fetched from ESPN after Sunday's five games: LIVERPOOL 2-0 Brighton, Man Utd 0-3
@@ -1037,6 +1037,8 @@ export const RESULTS = [
 // Refresh 2026-10-28 (Wednesday evening, ~6pm ET). Re-fetched from ESPN after the Carabao Cup ties, unchanged; no league games played.
 // Refresh 2026-10-29 (Thursday morning, ~4am ET). Re-fetched from ESPN, byte-identical to Wednesday evening; matchweek nine starts on Saturday.
 // Refresh 2026-10-30 (Friday morning, ~4am ET). Re-fetched from ESPN, byte-identical to Thursday; matchweek nine starts on Saturday.
+// Refresh 2026-10-30 (Friday evening, ~6pm ET). Re-fetched from ESPN, unchanged.
+// Refresh 2026-10-31 (Saturday morning, ~4am ET). Re-fetched from ESPN, byte-identical to Friday evening; Chelsea v Manchester United later today.
 export const STANDINGS = [
   { pos: 1, team: "Manchester City", p: 8, w: 7, d: 0, l: 1, gd: 11, pts: 21, qualification: "UCL" },
   { pos: 2, team: "Arsenal", p: 8, w: 7, d: 0, l: 1, gd: 8, pts: 21, qualification: "UCL" },
@@ -1093,7 +1095,7 @@ export const DISPATCHES = [
     "byline": "Premier League News Now / ArsenalCore",
     "dateline": "Liverpool · 31 October",
     "category": "Manager",
-    "body": "By the time Liverpool woke on Saturday the argument had been written up and, on paper, settled. Premier League News Now filed at ten past midnight and called its two big calls experience over form: Gravenberch ahead of Nyoni, Araújo ahead of anyone at right-back. ArsenalCore and Khel Now had reached the same eleven a few hours earlier, and the only quarrel among the five previews read is which flank Gakpo takes. Iraola has given away less than any of them. He will name the side an hour before kick-off, and until then the consensus is only a consensus."
+    "body": "By the time Liverpool woke on Saturday the argument had been written up and, on paper, settled. Premier League News Now filed at ten past midnight and called its two big calls experience over form: Gravenberch ahead of Nyoni, Araújo ahead of anyone at right-back. ArsenalCore had reached the same eleven forty minutes earlier, late on Friday night, Khel Now on Friday afternoon, and the only quarrel among the five previews read is which flank Gakpo takes. Iraola has given away less than any of them. He will name the side an hour before kick-off, and until then the consensus is only a consensus."
   },
   {
     "n": "02",
@@ -1148,7 +1150,7 @@ export const NEWS_DIGEST = {
       "detail": "Published at 7.30am on Saturday: playing as an eight against Chelsea, Gravenberch 'only completed 22 passes' while Nyoni 'completed 65 in 10 fewer minutes', and the writer argues 'Gravenberch doesn't have an obvious other role' (AnfieldWatch). It is the case against the selection every preview has already made."
     },
     {
-      "title": "Gyökeres Or Havertz, White Or Timber: Arsenal's XI Is The Open Page (ArsenalCore / RotoWire, today)",
+      "title": "Gyökeres Or Havertz, White Or Timber: Arsenal's XI Is The Open Page (ArsenalCore, today)",
       "category": "tactics",
       "detail": "Saturday's ArsenalCore XI: Raya; White, Konsa, Gabriel, Calafiori; Rice, Guimarães; Madueke, Ødegaard, Eze; Gyökeres. RotoWire, on Friday, keeps Havertz up front and Timber at right-back; Khel Now has Zubimendi and Merino in midfield. No two previews read agree on all eleven."
     },
@@ -1188,7 +1190,8 @@ export const NEWS_DIGEST = {
     "RotoWire",
     "The False 9",
     "Liverpool FC",
-    "bet365 via RotoWire"
+    "bet365 via RotoWire",
+    "OddsJam"
   ]
 };
 // ─────────────────────────────────────────────────────────────────────────────
@@ -1735,14 +1738,14 @@ export const SQUAD_LOAD = {
       "name": "Bradley Barcola",
       "issue": "No injury",
       "status": "On for Koumas on fifty-nine against Chelsea, a shot saved by Penders, and scored the sixth shootout kick (ESPN)",
-      "note": "Three goals and two assists in his last four games (Opta Analyst); in Premier League News Now's and NBC Sports' XIs.",
+      "note": "Three goals and two assists in his last four games (Opta Analyst; ArsenalCore); left in four of the five Saturday previews, right in Premier League News Now's.",
       "source": "Opta Analyst / ESPN / Premier League News Now / NBC Sports"
     },
     {
       "name": "Ronald Araujo",
       "issue": "No injury",
       "status": "Ninety minutes against Chelsea, at centre-back on ESPN's line-up, with a header saved on sixty-one (ESPN)",
-      "note": "Unbooked, so no quarter-final ban; right-back in every Thursday Arsenal XI because Frimpong and Bradley are out (Evening Standard via AOL).",
+      "note": "Unbooked, so no quarter-final ban; right-back in all five Saturday Arsenal previews because Frimpong, Bradley and Leoni are out (Premier League News Now).",
       "source": "ESPN / Evening Standard via AOL"
     },
     {
@@ -1756,7 +1759,7 @@ export const SQUAD_LOAD = {
       "name": "Joe Gomez",
       "issue": "No injury",
       "status": "Ninety minutes against Chelsea, at right-back on ESPN's line-up, and scored the winning kick (ESPN)",
-      "note": "In no Arsenal XI published on Thursday; one of seven first-team players out of contract next summer (AnfieldWatch via Yahoo Sports).",
+      "note": "In none of the five Saturday Arsenal previews (Premier League News Now); one of seven first-team players out of contract next summer (AnfieldWatch via Yahoo Sports).",
       "source": "ESPN / The False 9 / Evening Standard via AOL / AnfieldWatch via Yahoo Sports"
     },
     {
@@ -1962,7 +1965,7 @@ export const SEASON_PROJECTION = {
       "difficulty": "hard"
     }
   ],
-  "runInVerdict": "The run-in starts with the hardest game in it: Arsenal at home, then Crystal Palace away and Manchester United at home, both in the bottom five on ESPN's table. Four points from those three would hold the pace; seven would put Liverpool on course for the high seventies. Everton away and Sunderland at home close November's league programme before Chelsea away on 5 December (ESPN).",
+  "runInVerdict": "The run-in starts with the hardest game in it: Arsenal at home, then Crystal Palace away and Manchester United at home, both in the bottom five on ESPN's table. Six points from those three would hold the current pace; seven would lift it to about seventy-six. Everton away closes November's league programme, then Sunderland at home on 2 December and Chelsea away on 5 December (ESPN).",
   "sources": [
     "ESPN",
     "SI",
