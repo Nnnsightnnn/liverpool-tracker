@@ -185,31 +185,31 @@ export const FORMATIONS = {
 // Thu Oct 29 (morning): all 27 refreshed for SI's FotMob ratings from Chelsea and RotoWire's Arsenal preview; XIs unchanged.
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 export const PLAYER_EVIDENCE = {
-  1:   "Starts in all five previews",
-  2:   "Bench · cup keeper",
-  3:   "Gabriel at corners (PLNN)",
-  5:   "Bench · CB and RB cover",
-  7:   "LB · likely faces Madueke",
+  1:   "In goal for Opta and RTK",
+  2:   "Bench · Alisson starts",
+  3:   "'Go all-in' (Goal)",
+  5:   "Bench · Araujo moves out",
+  7:   "LB · Madueke 50% (Sat)",
   8:   "Knee · 2 December (PI)",
-  9:   "Hamstring · not back in time",
+  9:   "Hamstring · after the break",
   10:  "ACL · break the target",
-  11:  "RCB in all five previews",
+  11:  "RCB · Opta and RTK XIs",
   12:  "Levante loan",
-  13:  "Pivot partner · every XI",
-  14:  "'Experience over form' (PLNN)",
-  15:  "Hamstring · 0% on FPL (Thu)",
+  13:  "Pivot v Rice and Odegaard",
+  14:  "Kept over Nyoni (RTK)",
+  15:  "Hamstring · start unlikely",
   17:  "No minutes yet this season",
-  18:  "Ten in all five previews",
-  20:  "65 passes v Chelsea · bench",
-  22:  "Left or right · starts",
-  23:  "6 in last 6 PL (ArsenalCore)",
-  24:  "Achilles · late Dec to 2 Jan",
+  18:  "Ten · Opta and RTK",
+  20:  "Fans' pick · bench (RTK)",
+  22:  "Left for RTK · starts",
+  23:  "6 of last 9 PL goals (Opta)",
+  24:  "Achilles · 2 Jan (PI)",
   25:  "Bench · either flank",
   26:  "Bench · wide cover",
   27:  "Third keeper",
-  28:  "Knee · 25% on FPL (Thu)",
-  29:  "RB again · five previews",
-  30:  "3G 2A in last four",
+  28:  "Knee · 'at best' bench",
+  29:  "RB in Opta's XI",
+  30:  "Right for RTK · starts",
   31:  "Cover behind Isak",
   32:  "Bench · Kerkez starts",
 };
@@ -323,6 +323,8 @@ export const PLAYER_EVIDENCE = {
 //   Szoboszlai and Munoz 'have a chance' but 'I don't know for sure if they will be involved', both held out (Liverpool FC).
 // Sat Oct 31 (morning): no personnel change. Five previews read (Premier League News Now 00:10 Sat; ArsenalCore; Khel Now; RotoWire; The False 9)
 //   all start the Brighton XI's players; RB raised Medium to High. Auditor fix: Barcola left and Gakpo right in all three shapes, as in four of the five. Szoboszlai and Munoz held out (FPL 0% and 25% on Thu, per The False 9).
+// Sat Oct 31 (evening): no personnel change. Rush The Kop (3.41pm Sat) and Opta Analyst (Fri) name the same eleven; Rush The Kop has Barcola
+//   right and Gakpo left, held at the majority. Szoboszlai 'highly unlikely', Munoz 'at best' bench (Rush The Kop), both held out. Levels unchanged.
 
 export const DEFAULT_FORMATION = "4-2-3-1";
 
@@ -356,16 +358,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Sat Oct 31, morning - Kerkez, left-back in every Saturday preview and the likeliest to meet Madueke if he is passed (ArsenalCore). High.",
-  LCB: "Sat Oct 31, morning - Van Dijk, for the corners where Gabriel is Arsenal's target (Premier League News Now). High.",
-  RCB: "Sat Oct 31, morning - Jacquet, at right centre-back in all five Saturday XIs read. High.",
-  RB: "Sat Oct 31, morning - Araujo, a centre-back at right-back in all five Saturday XIs, Frimpong, Bradley and Leoni out (Premier League News Now). Raised Medium to High.",
-  LDM: "Sat Oct 31, morning - Gravenberch, 'experience over form' in Premier League News Now's overnight XI, despite AnfieldWatch's pass count. High.",
-  RDM: "Sat Oct 31, morning - Mac Allister, beside Gravenberch in every preview; Szoboszlai was 0% on FPL's tracker on Thursday (The False 9). Medium.",
-  LAM: "Sat Oct 31, morning - Barcola, on the left in four of the five Saturday previews (ArsenalCore; Khel Now; RotoWire; The False 9); Premier League News Now alone has him right. Medium.",
-  CAM: "Sat Oct 31, morning - Wirtz, at ten in all five Saturday previews, the ankle through thirty-one minutes v Chelsea (OneFPL). High.",
-  RAM: "Sat Oct 31, morning - Gakpo, on the right in four of the five Saturday previews; Premier League News Now alone has him left. Medium.",
-  ST: "Sat Oct 31, morning - Isak, six goals in his last six league games (ArsenalCore). High.",
+  LB: "Sat Oct 31, evening - Kerkez, on the left for Opta Analyst and Rush The Kop; Madueke, his likely opponent, was 50% on Saturday afternoon (The False 9). High.",
+  LCB: "Sat Oct 31, evening - Van Dijk, who wants the press to 'go all-in' (Goal via Yahoo Sports), and Gabriel's marker at corners. High.",
+  RCB: "Sat Oct 31, evening - Jacquet, Van Dijk's partner in Opta's and Rush The Kop's Saturday XIs. High.",
+  RB: "Sat Oct 31, evening - Araujo, the right-back again for Opta and Rush The Kop, Frimpong and Bradley out. High.",
+  LDM: "Sat Oct 31, evening - Gravenberch, kept over Nyoni in Rush The Kop's Saturday-afternoon XI despite the fans' calls. High.",
+  RDM: "Sat Oct 31, evening - Mac Allister, beside Gravenberch; Szoboszlai 'highly unlikely' to start (Rush The Kop). Medium.",
+  LAM: "Sat Oct 31, evening - Barcola, left in most previews; Rush The Kop's Saturday XI has him right and Gakpo left. Medium.",
+  CAM: "Sat Oct 31, evening - Wirtz, at ten for Opta Analyst and Rush The Kop. High.",
+  RAM: "Sat Oct 31, evening - Gakpo, right in most previews; left in Rush The Kop's and Premier League News Now's. Medium.",
+  ST: "Sat Oct 31, evening - Isak, six of Liverpool's last nine league goals (Opta Analyst). High.",
 };
 
 
@@ -392,6 +394,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-10-31T08:30:00Z",
-  reason: "Sat Oct 31, morning. Arsenal at Anfield, Premier League, Sun 1 Nov, 4.30pm GMT. No personnel change: the Brighton XI, which all five previews read on Saturday also pick (Premier League News Now; ArsenalCore; Khel Now; RotoWire; The False 9), Gravenberch in the pivot and Araújo at right-back. Szoboszlai and Muñoz stay held out as doubts. Barcola left and Gakpo right, as in four of the five; Premier League News Now swaps them. Medium, for the two doubts and an hour-before team sheet.",
+  generated_at: "2026-10-31T22:30:00Z",
+  reason: "Sat Oct 31, evening. Arsenal at Anfield, Premier League, Sun 1 Nov, 4.30pm GMT. No personnel change: the Brighton XI, as in Rush The Kop's Saturday-afternoon and Opta Analyst's predicted XIs, Gravenberch in the pivot and Araujo at right-back. Szoboszlai 'highly unlikely' and Munoz 'at best' on the bench (Rush The Kop), both held out. Rush The Kop swaps Barcola and Gakpo; held at the majority. Medium, for the flanks and an hour-before team sheet.",
 };

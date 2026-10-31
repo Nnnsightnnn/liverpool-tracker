@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday, and the previews have stopped arguing. Experience over form, one of them called it overnight:
-          Gravenberch ahead of Nyoni, Araújo again at right-back, the Brighton eleven intact. Arsenal's last doubt,
-          Madueke, has a session to finish today. Fourth against second, six points apart, and tomorrow at four-thirty.
+          Saturday night, and Liverpool are fifth without having played. Chelsea beat ten-man United, Brighton won at
+          the Etihad, and Arsenal come to Anfield tomorrow knowing a draw would put them top on their own. A win puts
+          Liverpool back in fourth; anything less and the gap to the places starts to open. Four-thirty, and one result to make.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and the argument has moved from the press room to the page. The writers who filed overnight agree on the
-              eleven Iraola will send out against Arsenal, and one of them gave the agreement a name, experience over form,
-              which is a polite way of saying Gravenberch stays and Nyoni waits. AnfieldWatch, up early, is not persuaded:
-              twenty-two completed passes at Chelsea, it counts, against the teenager's sixty-five. In London Madueke has a
-              training session to finish before Arteta decides. The bookmakers lean towards Arsenal, the previews towards a
-              draw, and Arsenal have not won a league game at Anfield since 2012. One more night, then, and form gets its say.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the table looks different from the one Liverpool woke up to. Rogers and Palmer beat Manchester United at
+              Stamford Bridge after Martínez was sent off, Ayari scored the only goal at the Etihad, and by early evening Iraola's
+              side had slipped to fifth without touching a ball. The same results have done Arsenal a favour: City lost, so a
+              draw tomorrow takes Arteta's side clear at the top. Opta's model gives them the better of it, forty-two in a
+              hundred against thirty-three. Van Dijk's answer, given in the morning, is to go all-in and take the risk.
+              Thirteen visits without a league win say Arsenal know what that feels like here.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: one eleven, overnight; a session
-              to finish; twenty-two passes; zero, and twenty-five; and the line through Saturday. Fourth
-              in the league, Bournemouth in the last eight of the cup, and Arsenal at Anfield tomorrow.
+              five dispatches from the writers who never clock off: fifth, without playing; eleven
+              minutes at the Etihad; all-in, says the captain; fifty per cent, still; and a red at thirteen
+              minutes. Fifth in the league, Bournemouth in the last eight of the cup, and Arsenal at Anfield tomorrow.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3831,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Experience picks the side. Form gets Sunday."
+        "Win, and the table puts itself back."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
