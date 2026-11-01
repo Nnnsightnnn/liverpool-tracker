@@ -73,7 +73,7 @@ function PlayerAvatar({ player, size = 64 }) {
   );
 }
 
-// ─── Player Data (2026-27 Season · Updated 27 October 2026 (evening)) ────────────────────
+// ─── Player Data (2026-27 Season · Updated 1 November 2026 (morning)) ────────────────────
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
 // injuryNote: short description shown on card when not fit
 const PLAYERS = [
@@ -128,6 +128,7 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
+  { source: "LiveScore", title: "Arsenal boosted for Anfield trip as team news emerges", time: "today", category: "fan" },
   { source: "Evening Standard via AOL", title: "How to watch Liverpool vs Arsenal: TV channel and live stream for Premier League today", time: "today", category: "major" },
   { source: "Football Muse via Yahoo Sports", title: "Mikel Arteta reveals Arsenal's plan to stop Alexander Isak at Liverpool", time: "today", category: "fan" },
   { source: "CaughtOffside", title: "Double Liverpool exit: Major squad changes with two senior players heading out", time: "today", category: "fan" },
@@ -136,7 +137,6 @@ const LATEST_NEWS = [
   { source: "Brit Brief", title: "Arteta targets first Anfield win as Arsenal boss", time: "today", category: "major" },
   { source: "The Football Faithful via Yahoo Sports", title: "Liverpool vs Arsenal: Predicted lineup and team news", time: "today", category: "fan" },
   { source: "Football London via AOL", title: "Mikel Arteta sent clear Liverpool message as fresh Max Dowman Arsenal statement made", time: "today", category: "major" },
-  { source: "LiveScore", title: "Arsenal boosted for Anfield trip as team news emerges", time: "today", category: "fan" },
   { source: "Pain in the Arsenal via LiveScore", title: "Liverpool vs Arsenal injury news as 7 ruled out and 6 doubts", time: "1d ago", category: "fan" },
   { source: "Al Jazeera", title: "Wounded Arsenal seek redemption in Anfield test against Liverpool", time: "1d ago", category: "major" },
   { source: "ESPN", title: "Liverpool vs Arsenal: TV channel, kick-off time, team news, referee, predicted line-ups", time: "1d ago", category: "major" },

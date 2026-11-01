@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2026-27 Season · Updated 27 October 2026 (evening)) ──────
+// ─── Liverpool FC Player Data (2026-27 Season · Updated 1 November 2026 (morning)) ──────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -1083,7 +1083,7 @@ export const STANDINGS_COMMENTARY = {
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 9,
   "generatedAt": "2026-11-01T09:30:00Z",
-  "overview": "Nothing moved overnight, so the table Liverpool take into Sunday afternoon is the one Saturday left: fifth on fifteen, a point behind Chelsea and four behind Brighton, with Manchester City top on goal difference from Arsenal on twenty-one (ESPN). City have played nine and Arsenal eight, which is why Anfield is the hinge of the weekend: an Arsenal draw takes them to twenty-two and clear, an Arsenal win to twenty-four. A Liverpool win does more for Liverpool than for anyone, eighteen points and fourth, a point behind Brighton with the game in hand still to come at Selhurst Park next Sunday. Newcastle and Everton, the other two sides on eight games, also play today; at the bottom, Sunderland are still last on five.",
+  "overview": "Nothing moved overnight, so the table Liverpool take into Sunday afternoon is the one Saturday left: fifth on fifteen, a point behind Chelsea and four behind Brighton, with Manchester City top on goal difference from Arsenal on twenty-one (ESPN). City have played nine and Arsenal eight, which is why Anfield is the hinge of the weekend: an Arsenal draw takes them to twenty-two and clear, an Arsenal win to twenty-four. A Liverpool win does more for Liverpool than for anyone, eighteen points and fourth, a point behind Brighton, with Crystal Palace away next Sunday. Newcastle and Everton, the other two sides on eight games, also play today; at the bottom, Sunderland are still last on five.",
   "teams": {
     "Liverpool": "Fifth on fifteen going into Arsenal at 4.30pm GMT; a win takes them to eighteen and fourth, a draw to sixteen and level with Chelsea (ESPN).",
     "Manchester City": "Top only on goal difference after Brighton's 1-0 at the Etihad, their second straight league defeat after Villa (dave.sport).",
@@ -1395,7 +1395,7 @@ export const FORM_TRENDS = {
       "label": "Right-back by elimination",
       "severity": "high",
       "source": "Rush The Kop / Opta Analyst / ESPN / Sports Mole",
-      "detail": "Rush The Kop's Saturday-afternoon XI and Opta Analyst's both put Araújo, a centre-back, at right-back, Frimpong and Bradley still absent. Against Chelsea ESPN's line-up had Gomez there instead; either way a centre-back covers the flank, against an Arsenal left of Calafiori or Lewis-Skelly depending on the preview (Sports Mole; Opta Analyst)."
+      "detail": "The Football Faithful's 5am Sunday XI, like Al Jazeera's and Opta Analyst's, puts Araújo, a centre-back, at right-back, Frimpong and Bradley still absent. Against Chelsea ESPN's line-up had Gomez there instead; either way a centre-back covers the flank, against an Arsenal left of Calafiori or Lewis-Skelly depending on the preview (Sports Mole; Opta Analyst)."
     }
   ],
   "matches": [
@@ -1741,7 +1741,7 @@ export const SQUAD_LOAD = {
       "name": "Trey Nyoni",
       "issue": "A knock late on against Brighton, per SI; no club word",
       "status": "Started in the pivot against Chelsea and impressed, per Brit Brief; replaced by Mac Allister on eighty-one (ESPN)",
-      "note": "Sixty-five completed passes at Chelsea (AnfieldWatch), and the fans' choice to start per Rush The Kop, but on the bench in every Saturday XI read.",
+      "note": "Sixty-five completed passes at Chelsea (AnfieldWatch), and the fans' choice to start per Rush The Kop, but on the bench in every Sunday XI read (The Football Faithful; Al Jazeera).",
       "source": "AnfieldWatch / Rush The Kop / ESPN"
     },
     {
@@ -1755,28 +1755,28 @@ export const SQUAD_LOAD = {
       "name": "Bradley Barcola",
       "issue": "No injury",
       "status": "On for Koumas on fifty-nine against Chelsea, a shot saved by Penders, and scored the sixth shootout kick (ESPN)",
-      "note": "Three goals and two assists in his last four games (Opta Analyst; ArsenalCore); left in most Saturday previews, right in Premier League News Now's and Rush The Kop's.",
+      "note": "Three goals and two assists in his last four games (Opta Analyst; ArsenalCore); left in The Football Faithful's and Al Jazeera's Sunday listings, right in Premier League News Now's and Rush The Kop's.",
       "source": "Opta Analyst / ESPN / Premier League News Now / NBC Sports"
     },
     {
       "name": "Ronald Araujo",
       "issue": "No injury",
       "status": "Ninety minutes against Chelsea, at centre-back on ESPN's line-up, with a header saved on sixty-one (ESPN)",
-      "note": "Unbooked, so no quarter-final ban; right-back in every Saturday Arsenal preview read, Rush The Kop and Opta included, because Frimpong and Bradley are out (Rush The Kop).",
+      "note": "Unbooked, so no quarter-final ban; right-back in The Football Faithful's 5am Sunday XI and Al Jazeera's, because Frimpong and Bradley are out.",
       "source": "ESPN / Evening Standard via AOL"
     },
     {
       "name": "Ryan Gravenberch",
       "issue": "No injury",
       "status": "Ninety minutes against Chelsea, a poor game per Brit Brief; conceded the penalty on thirty-eight and had his shootout kick saved (ESPN)",
-      "note": "In the pivot in every Saturday preview read, kept over Nyoni by Rush The Kop; AnfieldWatch counts twenty-two completed passes for him at Chelsea against Nyoni's sixty-five. Also the named emergency right-back.",
+      "note": "In the pivot in The Football Faithful's and Al Jazeera's Sunday XIs, kept over Nyoni; AnfieldWatch counts twenty-two completed passes for him at Chelsea against Nyoni's sixty-five. Also the named emergency right-back.",
       "source": "Premier League News Now / AnfieldWatch / ESPN"
     },
     {
       "name": "Joe Gomez",
       "issue": "No injury",
       "status": "Ninety minutes against Chelsea, at right-back on ESPN's line-up, and scored the winning kick (ESPN)",
-      "note": "In none of the Saturday Arsenal previews read (Rush The Kop; Premier League News Now); one of seven first-team players out of contract next summer (AnfieldWatch via Yahoo Sports).",
+      "note": "In none of the Sunday XIs read (The Football Faithful; Al Jazeera); one of seven first-team players out of contract next summer (AnfieldWatch via Yahoo Sports).",
       "source": "ESPN / The False 9 / Evening Standard via AOL / AnfieldWatch via Yahoo Sports"
     },
     {

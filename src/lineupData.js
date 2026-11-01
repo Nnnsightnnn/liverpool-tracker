@@ -50,17 +50,17 @@ export const FORMATIONS = {
     // Thu 29 Oct (evening): unchanged. The False 9 (Thu) keeps the Brighton XI; the Evening Standard has Munoz for Gakpo at LW,
     //   but calls him a doubt, so Gakpo stays. Van Dijk's 72nd-minute exit v Chelsea was managed minutes (Evening Standard via AOL).
     defaultXI: {
-      GK: 1,  // Alisson (The False 9; OG)
-      LB: 7, // Kerkez (all seven previews read)
-      LCB: 3, // Van Dijk (all seven previews read; off on 72 v Chelsea, managed minutes per Evening Standard)
-      RCB: 11, // Jacquet (all seven previews read)
-      RB: 29, // Araujo (all seven previews read)
-      LCM: 13, // Mac Allister (all seven previews read)
-      CM: 14, // Gravenberch (all seven previews read)
-      RCM: 18, // Wirtz (ten in all seven previews read; ankle came through Chelsea)
-      LW: 30, // Barcola (left in five of seven previews read; PLNN and Rush The Kop have him right)
-      ST: 23, // Isak (all seven previews read)
-      RW: 22, // Gakpo (right in five of seven previews read; PLNN and Rush The Kop have him left)
+      GK: 1,  // Alisson (every preview read, The Football Faithful's 5am Sunday XI included)
+      LB: 7, // Kerkez (every preview read, Sunday's included)
+      LCB: 3, // Van Dijk (every preview read, Sunday's included; off on 72 v Chelsea, managed minutes per Evening Standard)
+      RCB: 11, // Jacquet (every preview read, Sunday's included)
+      RB: 29, // Araujo (every preview read, Sunday's included)
+      LCM: 13, // Mac Allister (every preview read, Sunday's included)
+      CM: 14, // Gravenberch (every preview read, Sunday's included)
+      RCM: 18, // Wirtz (ten in every preview read; ankle came through Chelsea)
+      LW: 30, // Barcola (left in most previews read; PLNN and Rush The Kop have him right)
+      ST: 23, // Isak (every preview read, Sunday's included)
+      RW: 22, // Gakpo (right in most previews read; PLNN and Rush The Kop have him left)
     },
 
   },
@@ -103,16 +103,16 @@ export const FORMATIONS = {
     //   (Carabao Cup R4, Wed 28 Oct, 8pm GMT) on The False 9's XI: Nyoni at ten for Wirtz (ankle, doubt), Ngumoha in for Gakpo.
     // Wed 28 Oct (evening): re-pointed at Arsenal at home after the Chelsea shootout; the Brighton XI, as in both previews found.
     defaultXI: {
-      GK: 1,  // Alisson (The False 9; OG)
-      LB: 7, // Kerkez (all seven previews read)
-      LCB: 3, // Van Dijk (all seven previews read)
-      RCB: 11, // Jacquet (all seven previews read)
-      RB: 29, // Araujo (all seven previews read)
+      GK: 1,  // Alisson (every preview read, The Football Faithful's 5am Sunday XI included)
+      LB: 7, // Kerkez (every preview read, Sunday's included)
+      LCB: 3, // Van Dijk (every preview read, Sunday's included)
+      RCB: 11, // Jacquet (every preview read, Sunday's included)
+      RB: 29, // Araujo (every preview read, Sunday's included)
       LDM: 14, // Gravenberch
       RDM: 13, // Mac Allister
-      LAM: 30, // Barcola (left in five of seven previews read)
-      CAM: 18, // Wirtz (ten in all seven previews read)
-      RAM: 22, // Gakpo (right in five of seven previews read)
+      LAM: 30, // Barcola (left in most previews read)
+      CAM: 18, // Wirtz (ten in every preview read)
+      RAM: 22, // Gakpo (right in most previews read)
       ST: 23, // Isak
     },
 
@@ -384,7 +384,7 @@ export const ALTERNATIVES = {
   RB:  [{ playerId: 5, reason: "Gomez · right-back v Chelsea" }, { playerId: 14, reason: "Gravenberch · the emergency option" }],
   LDM: [{ playerId: 20, reason: "Nyoni · impressed v Chelsea (Brit Brief)" }],
   RDM: [{ playerId: 20, reason: "Nyoni · NBC says he could start" }, { playerId: 17, reason: "Endo · no minutes yet" }],
-  LAM: [{ playerId: 28, reason: "Munoz · the Standard's pick, a doubt" }, { playerId: 25, reason: "Ngumoha · started left v Chelsea" }],
+  LAM: [{ playerId: 28, reason: "Munoz · a doubt with 'a chance'" }, { playerId: 25, reason: "Ngumoha · started left v Chelsea" }],
   CAM: [{ playerId: 20, reason: "Nyoni · ten if Wirtz is managed" }],
   RAM: [{ playerId: 26, reason: "Chiesa · unused v Chelsea" }, { playerId: 25, reason: "Ngumoha · either flank" }],
   ST:  [{ playerId: 22, reason: "Gakpo · led the line v Chelsea" }, { playerId: 31, reason: "Koumas · cup starter" }],
