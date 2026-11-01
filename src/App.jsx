@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday, matchday, and the champions arrive with their wounded mended. Rice, Madueke, Calafiori and Tzolis
-          are due back in Arsenal's squad, Arteta wants Isak kept as far from goal as possible, and a draw would put
-          his side top alone. Liverpool are fifth on fifteen; a win this afternoon lifts them to fourth.
+          Sunday, and the long Anfield wait ended for the wrong side. Havertz scored on sixteen minutes, Arsenal
+          went top, and Liverpool, with most of the ball and no shot on target, stay fifth on fifteen, nine points
+          adrift. Fenerbahçe and Dirk Kuyt are next, in Istanbul on Wednesday evening.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and Arsenal come to Anfield after thirteen league visits without a win, none since 2012. The overnight news was
-              theirs: the Evening Standard has Rice, Madueke, Calafiori and Tzolis all due back in the squad, and Arteta,
-              asked how to stop Isak, said by keeping him as far from the goal as possible. Liverpool's own sheet has not
-              moved since Thursday, Araújo at right-back, Gravenberch beside Mac Allister, Szoboszlai and Muñoz given a chance
-              and little more. Isak has six league goals and nobody behind him. The champions have mended in time; the
-              question at half past four is whether Liverpool's one forward can find the room Arteta means to deny him.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              and the record that lasted fourteen years is gone. Arsenal won a league game at Anfield for the first time
+              since 2012, one goal from Havertz after Alisson's short pass was cut out, and went top of the table. Iraola
+              had picked Trey Nyoni, nineteen, over Gravenberch, and he will be argued about all week; he was more animated
+              about Isak's shirt and a penalty nobody gave. Liverpool had fifty-six per cent of the ball and did not test
+              Raya once. Szoboszlai and Muñoz are back, which helps. Four home league goals in five games is the number that
+              will not go away, and an old Anfield favourite is waiting in Istanbul to see if it is catching.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: the walking wounded walk back;
-              as far from goal as possible; fourteen years and a speaker; the same eleven, a fourth morning; and two
-              exits pencilled for 2027. Fifth in the league, Bournemouth in the last eight of the cup, and Arsenal at Anfield this afternoon.
+              five dispatches from the writers who never clock off: fourteen years, sixteen minutes;
+              the shirt, and the dive; nineteen, and trusted; two returns, no casualties; and an old friend in
+              Kadıköy. Fifth in the league, nine behind Arsenal, and Fenerbahçe away on Wednesday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3831,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "As far from the goal as possible."
+        "We have to tell our players to dive."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
