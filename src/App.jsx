@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday night, and Liverpool are fifth without having played. Chelsea beat ten-man United, Brighton won at
-          the Etihad, and Arsenal come to Anfield tomorrow knowing a draw would put them top on their own. A win puts
-          Liverpool back in fourth; anything less and the gap to the places starts to open. Four-thirty, and one result to make.
+          Sunday, matchday, and the champions arrive with their wounded mended. Rice, Madueke, Calafiori and Tzolis
+          are due back in Arsenal's squad, Arteta wants Isak kept as far from goal as possible, and a draw would put
+          his side top alone. Liverpool are fifth on fifteen; a win this afternoon lifts them to fourth.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the table looks different from the one Liverpool woke up to. Rogers and Palmer beat Manchester United at
-              Stamford Bridge after Martínez was sent off, Ayari scored the only goal at the Etihad, and by early evening Iraola's
-              side had slipped to fifth without touching a ball. The same results have done Arsenal a favour: City lost, so a
-              draw tomorrow takes Arteta's side clear at the top. Opta's model gives them the better of it, forty-two in a
-              hundred against thirty-three. Van Dijk's answer, given in the morning, is to go all-in and take the risk.
-              Thirteen visits without a league win say Arsenal know what that feels like here.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and Arsenal come to Anfield after thirteen league visits without a win, none since 2012. The overnight news was
+              theirs: the Evening Standard has Rice, Madueke, Calafiori and Tzolis all due back in the squad, and Arteta,
+              asked how to stop Isak, said by keeping him as far from the goal as possible. Liverpool's own sheet has not
+              moved since Thursday, Araújo at right-back, Gravenberch beside Mac Allister, Szoboszlai and Muñoz given a chance
+              and little more. Isak has six league goals and nobody behind him. The champions have mended in time; the
+              question at half past four is whether Liverpool's one forward can find the room Arteta means to deny him.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: fifth, without playing; eleven
-              minutes at the Etihad; all-in, says the captain; fifty per cent, still; and a red at thirteen
-              minutes. Fifth in the league, Bournemouth in the last eight of the cup, and Arsenal at Anfield tomorrow.
+              five dispatches from the writers who never clock off: the walking wounded walk back;
+              as far from goal as possible; fourteen years and a speaker; the same eleven, a fourth morning; and two
+              exits pencilled for 2027. Fifth in the league, Bournemouth in the last eight of the cup, and Arsenal at Anfield this afternoon.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3831,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Fifth tonight. Fourth, with a win."
+        "Keep him far from goal, if you can."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
