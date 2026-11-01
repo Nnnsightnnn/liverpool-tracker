@@ -269,7 +269,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Sun Nov 1, morning - Right-back again in The Football Faithful's 5am XI, a centre-back on the flank while Frimpong and Bradley are out.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
+    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Sun Nov 1, evening - Right-back for eighty-two minutes, off for Munoz (LFC); Goal says caught out for the goal, NBC calls him 'physically effective'.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
     physical: { height: 188, weight: 79, pace: 78, acceleration: 74, sprintSpeed: 80 },
     career: [
       { years: "2016-2018", club: "Rentistas", fee: null, type: "youth" },
@@ -1090,7 +1090,7 @@ export const STANDINGS_COMMENTARY = {
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 9,
   "generatedAt": "2026-11-01T23:30:00Z",
-  "overview": "Arsenal's 1-0 at Anfield on Sunday settled the top of the table for now: they are first on twenty-four, three clear of Manchester City, who have played the same nine, and five clear of Brighton (ESPN; AP). Liverpool stay fifth on fifteen, nine behind the leaders, a point behind Chelsea in the last Champions League place and a point ahead of Brentford; the defeat cut their goal difference to two. That fifth place sits on the Europa League stripe for now, and the next three league games are against sides in the bottom four or near it, Crystal Palace away next Sunday and Manchester United at home after the break. Newcastle and Everton still have a game in hand on nine played; at the bottom Palace, Forest and Sunderland hold the relegation places.",
+  "overview": "Arsenal's 1-0 at Anfield on Sunday settled the top of the table for now: they are first on twenty-four, three clear of Manchester City, who have played the same nine, and five clear of Brighton (ESPN; AP). Liverpool stay fifth on fifteen, nine behind the leaders, a point behind Chelsea in the last Champions League place and a point ahead of Brentford; the defeat cut their goal difference to two. That fifth place sits on the Europa League stripe for now, and two of the next three league games are against sides in the bottom four, Crystal Palace away next Sunday and Manchester United at home after the break, before Everton, fourteenth, away. Newcastle and Everton still have a game in hand on nine played; at the bottom Palace, Forest and Sunderland hold the relegation places.",
   "teams": {
     "Liverpool": "Fifth on fifteen after losing 1-0 to Arsenal, nine off the top and a point behind Chelsea in fourth (ESPN).",
     "Arsenal": "Top on twenty-four after Havertz's winner at Anfield, their first league win there since 2012 (AP).",
@@ -1098,7 +1098,7 @@ export const STANDINGS_COMMENTARY = {
     "Brighton": "Third on nineteen, five behind Arsenal (AP); the best goal difference in the league at +17 (ESPN).",
     "Chelsea": "Fourth on sixteen, the last Champions League place, a point ahead of Liverpool; Liverpool visit on 5 December.",
     "Brentford": "Sixth on fourteen, a point behind Liverpool with five draws and one defeat in nine (ESPN).",
-    "Crystal Palace": "Eighteenth on seven and Liverpool's next league opponents, on Sunday at 2pm, without Mateta, banned for three games (LiveScore).",
+    "Crystal Palace": "Eighteenth on seven and Liverpool's next league opponents, next Sunday (8 November) at 2pm, without Mateta, banned for three games (LiveScore).",
     "Manchester United": "Seventeenth on seven; at Anfield on 22 November, after the international break.",
     "Everton": "Fourteenth on ten with a game in hand; Liverpool go there for the derby on 29 November.",
     "Sunderland": "Bottom on five; at Anfield on 2 December."
@@ -1375,7 +1375,7 @@ export const FORM_TRENDS = {
   "generatedAt": "2026-11-01T23:30:00Z",
   "competition": "PL",
   "played": 9,
-  "headline": "Sunday's numbers say Liverpool were the better side by a little and the worse one by the only measure that counts: 1.15 expected goals to Arsenal's 0.96 on LiveScore's figures, 56 per cent of the ball, and not one shot on target (LiveScore; AP). That is the season's home problem in miniature, four league goals in five games at Anfield, level with the club's worst start since 1913-14 (OptaJoe via Sports Mole). Across nine league games the published per-match figures now add up to 11.96 expected goals for and 10.38 against, still a winning side's margin on paper. Isak, the whole of the recent scoring, was held to nothing and rated 4.5 by NBC.",
+  "headline": "Sunday's numbers say Liverpool were the better side by a little and the worse one by the only measure that counts: 1.15 expected goals to Arsenal's 0.96 on LiveScore's figures, 56 per cent of the ball, and not one shot on target (LiveScore; AP). That is the season's home problem in miniature, four league goals in five games at Anfield, the joint-fewest after five home games of a top-flight season, level with 1913-14 and 2012-13 (OptaJoe via Sports Mole). Across nine league games the published per-match figures now add up to 11.96 expected goals for and 10.38 against, still a winning side's margin on paper. Isak, who had scored six in his previous six league games (Opta Analyst), was held to nothing and rated 4.5 by NBC.",
   "diagnosis": [
     {
       "label": "Possession without penetration at home",
@@ -1922,7 +1922,7 @@ export const SEASON_PROJECTION = {
   "pointsPerGame": 1.67,
   "projectedPoints": 63,
   "projectedFinish": "Europa League places on current pace",
-  "headline": "Nine games, fifteen points, 1.67 a game: the defeat cuts the pace from seventy-one to sixty-three, five below the usual Champions League par. Nine games is still a small sample, and the next three league fixtures are against sides currently in the bottom four or close to it; win all three and the pace is back to seventy-six.",
+  "headline": "Nine games, fifteen points, 1.67 a game: the defeat cuts the pace from seventy-one to sixty-three, five below the usual Champions League par. Nine games is still a small sample, and two of the next three league fixtures are against sides in the bottom four, the third Everton, fourteenth; win all three and the pace is back to seventy-six.",
   "thresholds": [
     {
       "label": "Champions League (top 4)",
