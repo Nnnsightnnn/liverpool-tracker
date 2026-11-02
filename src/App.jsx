@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday, and the long Anfield wait ended for the wrong side. Havertz scored on sixteen minutes, Arsenal
-          went top, and Liverpool, with most of the ball and no shot on target, stay fifth on fifteen, nine points
-          adrift. Fenerbahçe and Dirk Kuyt are next, in Istanbul on Wednesday evening.
+          Monday, and the replays have outlasted the result. Timber's hand in Isak's shirt is the image of the
+          morning, Van Dijk counting the cameras and the Telegraph hearing of a possible apology, while the table stays
+          where Sunday left it: fifth, fifteen points, nine behind Arsenal. Fenerbahçe, without Oppong, wait in Istanbul on Wednesday.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              and the record that lasted fourteen years is gone. Arsenal won a league game at Anfield for the first time
-              since 2012, one goal from Havertz after Alisson's short pass was cut out, and went top of the table. Iraola
-              had picked Trey Nyoni, nineteen, over Gravenberch, and he will be argued about all week; he was more animated
-              about Isak's shirt and a penalty nobody gave. Liverpool had fifty-six per cent of the ball and did not test
-              Raya once. Szoboszlai and Muñoz are back, which helps. Four home league goals in five games is the number that
-              will not go away, and an old Anfield favourite is waiting in Istanbul to see if it is catching.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and Anfield is still arguing with a replay. Jurriën Timber held Isak's shirt in the box, Isak stayed on his
+              feet, and nobody with a whistle or a monitor did anything about it; Van Dijk has counted the cameras and
+              Carragher has told VAR to do its job. Iraola, asked whether he would now coach his striker to fall, said yes,
+              definitely, which is not a sentence he will enjoy reading back. The quieter story is a teenager in the pivot and a
+              senior man on the bench, and Wednesday will say whether that was a plan or a one-off. Fenerbahçe have lost Oppong
+              and may regain Greenwood. A defeat on Sunday becomes a grievance by Monday; Istanbul is the chance to make it a footnote.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: fourteen years, sixteen minutes;
-              the shirt, and the dive; nineteen, and trusted; two returns, no casualties; and an old friend in
-              Kadıköy. Fifth in the league, nine behind Arsenal, and Fenerbahçe away on Wednesday.
+              five dispatches from the writers who never clock off: fifty cameras, one shirt;
+              yes, definitely; two dates, one asterisk; eighty-seven million, on the bench; and flu, and a muscle,
+              in Kadıköy. Fifth in the league, nine behind Arsenal, and Fenerbahçe away on Wednesday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3831,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "We have to tell our players to dive."
+        "There are 50 cameras."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

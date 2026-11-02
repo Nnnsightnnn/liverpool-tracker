@@ -188,33 +188,33 @@ export const FORMATIONS = {
 // Sun Nov 1 (evening): all 27 refreshed after Liverpool 0-1 Arsenal (Liverpool FC; AP; Goal; NBC; LiveScore); re-pointed at Fenerbahçe, UCL, Wed 4 Nov.
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 export const PLAYER_EVIDENCE = {
-  1:   "Short pass led to the goal (AP)",
-  2:   "Unused v Arsenal",
-  3:   "Booked late \u00b7 NBC 7",
-  5:   "Unused \u00b7 fresh for Istanbul",
-  7:   "LiveScore's 8 \u00b7 booked",
-  8:   "Knee \u00b7 early January (FotMob)",
-  9:   "Hamstring \u00b7 mid-November",
-  10:  "ACL \u00b7 late November (FotMob)",
-  11:  "NBC's best, 7.5",
-  12:  "Levante loan",
-  13:  "Header over unmarked \u00b7 booked",
-  14:  "Unused sub \u00b7 Nyoni preferred",
-  15:  "Back \u00b7 on for Nyoni, 58'",
-  17:  "Not UEFA-registered",
-  18:  "Free kick off the bar",
-  20:  "Full PL debut v Arsenal",
-  22:  "Off on 67 \u00b7 no end product",
-  23:  "Shirt-pull, no penalty \u00b7 4.5",
-  24:  "Achilles \u00b7 early January",
-  25:  "On for Gakpo, 67'",
-  26:  "Not UEFA-registered",
-  27:  "Third keeper",
-  28:  "Back \u00b7 on for Araujo, 82'",
-  29:  "RB again \u00b7 off on 82",
-  30:  "12 box touches (NBC) \u00b7 booked",
-  31:  "On for Wirtz, 82'",
-  32:  "On for Kerkez, 82'",
+  1:  "Short goal kick led to the goal",
+  2:  "No Istanbul rotation reported",
+  3:  "'We have 50 cameras' (Telegraph)",
+  5:  "Fresh RB cover for Istanbul",
+  7:  "Booked v Arsenal · rest candidate",
+  8:  "Knee · not in team training yet",
+  9:  "Hamstring · 22 Nov possible",
+  10: "ACL · 2 Jan possible (S. Mole)",
+  11: "90 mins v Arsenal · NBC 7.5",
+  12: "Levante loan",
+  13: "Booked after Madueke clash",
+  14: "'Soured' on? (AnfieldWatch)",
+  15: "One sub app since hamstring",
+  17: "Not UEFA-registered",
+  18: "82 mins · free kick off bar",
+  20: "First PL start · 58 mins",
+  22: "'Sustained holding' (Iraola)",
+  23: "Timber shirt-pull · no penalty",
+  24: "Achilles · 26 Dec possible",
+  25: "On for Gakpo, 67'",
+  26: "Not UEFA-registered",
+  27: "Third keeper",
+  28: "Back · RB option for Istanbul",
+  29: "RB until 22 Nov at least",
+  30: "His cross, Timber's tug",
+  31: "Only senior nine behind Isak",
+  32: "Fit · LB rotation option",
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -332,6 +332,7 @@ export const PLAYER_EVIDENCE = {
 // Sun Nov 1 (morning, matchday): no personnel change. The Football Faithful (5am) and Al Jazeera name this XI; no level change.
 // Sun Nov 1 (evening): Arsenal played, Liverpool lost 0-1 (AP). Re-pointed at Fenerbahçe away, Champions League, Wed 4 Nov, 5.45pm GMT.
 //   ONE personnel change, to match the XI that started (Liverpool FC): Nyoni for Gravenberch at LDM. No Istanbul preview yet; overall Low.
+// Mon Nov 2 (morning): no personnel change. No Istanbul preview yet (Sports Mole's Monday piece is injuries only); levels unchanged, overall Low.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -364,16 +365,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Sun Nov 1, evening - Kerkez, LiveScore's best Liverpool player at Anfield; Tsimikas the rotation option. Medium.",
-  LCB: "Sun Nov 1, evening - Van Dijk, ninety minutes and a late booking v Arsenal (Sports Mole). High.",
-  RCB: "Sun Nov 1, evening - Jacquet, five tackles in NBC's count; Gomez, unused, is fresher. Medium.",
-  RB: "Sun Nov 1, evening - Araujo, eighty-two minutes v Arsenal; Gomez or Munoz if he is rested. Medium.",
-  LDM: "Sun Nov 1, evening - Nyoni kept from the Anfield XI; Gravenberch and Szoboszlai both in contention, no preview yet. Low.",
-  RDM: "Sun Nov 1, evening - Mac Allister, ninety minutes beside Nyoni (Liverpool FC). High.",
-  LAM: "Sun Nov 1, evening - Barcola, booked, twelve box touches and no goal (NBC). Medium.",
-  CAM: "Sun Nov 1, evening - Wirtz, a free kick off the bar on Sunday (AP). High.",
-  RAM: "Sun Nov 1, evening - Gakpo held from Sunday; Munoz back and Ngumoha on for him. Low.",
-  ST: "Sun Nov 1, evening - Isak, the only senior nine fit; Koumas the alternative. High.",
+  LB: "Mon Nov 2, morning - Kerkez, booked on Sunday; Tsimikas fit and the rotation option before Palace. Medium.",
+  LCB: "Mon Nov 2, morning - Van Dijk, Monday's loudest voice on VAR and ninety minutes v Arsenal. High.",
+  RCB: "Mon Nov 2, morning - Jacquet held; Gomez, unused on Sunday, the fresh alternative. Medium.",
+  RB: "Mon Nov 2, morning - Araujo, with Frimpong and Bradley not before 22 November (Sports Mole); Gomez or Munoz if rested. Medium.",
+  LDM: "Mon Nov 2, morning - Nyoni kept; AnfieldWatch says Iraola has 'soured' on Gravenberch, but no Istanbul preview yet. Low.",
+  RDM: "Mon Nov 2, morning - Mac Allister, booked after the Madueke clash, ninety minutes on Sunday. High.",
+  LAM: "Mon Nov 2, morning - Barcola, whose cross Timber's tug denied Isak (Empire of the Kop). Medium.",
+  CAM: "Mon Nov 2, morning - Wirtz, eighty-two minutes and a free kick off the bar. High.",
+  RAM: "Mon Nov 2, morning - Gakpo held; Munoz and Ngumoha both fit to rotate in. Low.",
+  ST: "Mon Nov 2, morning - Isak, the only senior nine fit; Ekitike not before 26 December (Sports Mole). High.",
 };
 
 
@@ -400,6 +401,6 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  generated_at: "2026-11-01T23:30:00Z",
-  reason: "Sun Nov 1, evening. Fenerbahçe away, Champions League, Wed 4 Nov, 5.45pm GMT. Baseline is the eleven that lost 0-1 to Arsenal (Liverpool FC), Nyoni in for Gravenberch. No Istanbul preview yet, Palace away follows on Sunday and Szoboszlai and Munoz are back, so rotation is likely; Endo and Chiesa are not UEFA-registered. Low.",
+  generated_at: "2026-11-02T09:30:00Z",
+  reason: "Mon Nov 2, morning. Fenerbahçe away, Champions League, Wed 4 Nov, 5.45pm GMT. No Liverpool preview for Istanbul found by Monday morning, so the baseline is still the eleven that lost 0-1 to Arsenal (Liverpool FC); Sports Mole's Monday list has no new injury and no suspension. Palace on Sunday makes rotation likely, and Endo and Chiesa are not UEFA-registered. Low.",
 };
