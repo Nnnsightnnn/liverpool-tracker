@@ -52,7 +52,7 @@ export const FORMATIONS = {
     // Sun 1 Nov (evening): Arsenal played, Liverpool lost 0-1 (AP). Re-pointed at Fenerbahçe away, UCL, Wed 4 Nov, 5.45pm GMT. Baseline is the
     //   eleven that started at Anfield (Liverpool FC): Nyoni for Gravenberch. No preview for Istanbul yet; Endo and Chiesa not UEFA-registered.
     defaultXI: {
-      GK: 1,  // Alisson (Anfield XI v Arsenal, held for Fenerbahçe; no Istanbul preview yet, Mon 2 Nov)
+      GK: 1,  // Alisson (Anfield XI v Arsenal, held for Fenerbahçe; held Mon 2 Nov evening; Khel Now's unsourced XI not followed)
       LB: 7, // Kerkez (Anfield XI v Arsenal, held for Fenerbahçe)
       LCB: 3, // Van Dijk (Anfield XI v Arsenal, held for Fenerbahçe; off on 72 v Chelsea, managed minutes per Evening Standard)
       RCB: 11, // Jacquet (Anfield XI v Arsenal, held for Fenerbahçe)
@@ -105,7 +105,7 @@ export const FORMATIONS = {
     //   (Carabao Cup R4, Wed 28 Oct, 8pm GMT) on The False 9's XI: Nyoni at ten for Wirtz (ankle, doubt), Ngumoha in for Gakpo.
     // Wed 28 Oct (evening): re-pointed at Arsenal at home after the Chelsea shootout; the Brighton XI, as in both previews found.
     defaultXI: {
-      GK: 1,  // Alisson (Anfield XI v Arsenal, held for Fenerbahçe; no Istanbul preview yet, Mon 2 Nov)
+      GK: 1,  // Alisson (Anfield XI v Arsenal, held for Fenerbahçe; held Mon 2 Nov evening; Khel Now's unsourced XI not followed)
       LB: 7, // Kerkez (Anfield XI v Arsenal, held for Fenerbahçe)
       LCB: 3, // Van Dijk (Anfield XI v Arsenal, held for Fenerbahçe)
       RCB: 11, // Jacquet (Anfield XI v Arsenal, held for Fenerbahçe)
@@ -113,7 +113,7 @@ export const FORMATIONS = {
       LDM: 20, // Nyoni (started v Arsenal; Liverpool FC)
       RDM: 13, // Mac Allister
       LAM: 30, // Barcola (left in most previews read)
-      CAM: 18, // Wirtz (ten in every preview read)
+      CAM: 18, // Wirtz (Anfield XI v Arsenal, held; Khel Now has Gravenberch at the ten, unsourced)
       RAM: 22, // Gakpo (right in most previews read)
       ST: 23, // Isak
     },

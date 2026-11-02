@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Mon Nov 2, evening - 'Did I come back too soon? It stays secret' (Read Liverpool); thirty-two minutes on Sunday, his first since Brentford. Read Liverpool sees him at the ten or wide, not in the pivot.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Mon Nov 2, evening - 'Did I come back too soon? It stays secret' (Read Liverpool); on for Nyoni at fifty-eight on Sunday (LFC), his first minutes since Brentford. Read Liverpool sees him at the ten or wide, not in the pivot.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -1000,7 +1000,7 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-10-31 (Saturday morning, ~4am ET); see the dated log below. Earlier: 2026-10-28 (Wednesday morning, ~4am ET). Re-fetched from ESPN, byte-identical to Tuesday evening; no league game until Sunday.
+// Last refresh: 2026-11-02 (Monday evening, ~6pm ET): Everton won at Newcastle on Monday night, Everton 14th to 7th, Newcastle 12th to 13th; see the dated log below. Earlier: 2026-10-28 (Wednesday morning, ~4am ET). Re-fetched from ESPN, byte-identical to Tuesday evening; no league game until Sunday.
 // Prior refresh: 2026-10-27 (Tuesday morning, ~4am ET). Re-fetched from ESPN, byte-identical to Monday evening; no league game until Sunday.
 // Prior refresh: 2026-10-26 (Monday evening, ~6pm ET). Re-fetched from ESPN, byte-identical to Sunday evening; no league game on Monday.
 // Prior refresh: 2026-10-25 (Sunday evening, ~6pm ET). Re-fetched from ESPN after Sunday's five games: LIVERPOOL 2-0 Brighton, Man Utd 0-3
@@ -1119,7 +1119,7 @@ export const DISPATCHES = [
     "byline": "Read Liverpool",
     "dateline": "Liverpool · 2 November",
     "category": "Injuries",
-    "body": "Footballers are asked whether they came back too soon about as often as they are asked how they feel, and they usually say fine. Dominik Szoboszlai, asked this week, chose a different answer: 'Did I come back too soon? It stays secret.' Then, more candidly than the question required, he said the worst thing was watching from the stands, and that he sometimes listens 'to my heart and not my body'. He had thirty-two minutes against Arsenal, his first since Brentford. Wednesday asks whether the body has caught up with the heart, and a midfield without Endo in Europe cannot afford the wrong answer."
+    "body": "Footballers are asked whether they came back too soon about as often as they are asked how they feel, and they usually say fine. Dominik Szoboszlai, asked after Sunday's game, chose a different answer: 'Did I come back too soon? It stays secret.' Then, more candidly than the question required, he said the worst thing was watching from the stands, and that he sometimes listens 'to my heart and not my body'. He had the last half-hour against Arsenal, on for Nyoni at fifty-eight (Liverpool FC), his first minutes since Brentford. Wednesday asks whether the body has caught up with the heart, and a midfield without Endo in Europe cannot afford the wrong answer."
   },
   {
     "n": "02",
@@ -1156,12 +1156,12 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   "generatedAt": "2026-11-02T23:30:00Z",
-  "summary": "On Monday evening the admission that matters for Wednesday came from Dominik Szoboszlai: asked whether he had come back too soon from his hamstring, he said 'It stays secret', and that he had listened 'to my heart and not my body', Read Liverpool reported on Monday afternoon, a day after his thirty-two minutes against Arsenal. In Istanbul, Mason Greenwood, ill for the Göztepe defeat, trained in full with Fenerbahçe on Monday (A Spor; NTV), while NTV confirms Kojo Oppong cannot play and names three candidates to partner Škriniar. The Isak penalty row has passed from players to former officials: Keith Hackett told Football Insider that Andy Madley should sit out the next round and Brit Brief carries his view that Timber should have been sent off, while Steven Gerrard called the VAR miss 'an absolute embarrassment' (Anfield Index). No statement from PGMOL or the Premier League had been found by this edition, and Iraola has said the resolution is '10 or 12 days' away (Brit Brief). Everton won at Newcastle on Monday night and climb to seventh, two points behind Liverpool, who stay fifth on fifteen (ESPN).",
+  "summary": "Two days after the 1-0 defeat by Arsenal, the admission that matters for Wednesday is Dominik Szoboszlai's: asked after the game whether he had come back too soon from his hamstring, he said 'It stays secret', and that he had listened 'to my heart and not my body', Read Liverpool reported on Monday afternoon, after he came on for the last half-hour on Sunday (Liverpool FC). In Istanbul, Mason Greenwood, ill for the Göztepe defeat, trained in full with Fenerbahçe on Monday (A Spor; NTV), while NTV confirms Kojo Oppong cannot play and names three candidates to partner Škriniar. The Isak penalty row has passed from players to former officials: Keith Hackett told Football Insider that Andy Madley should sit out the next round and Brit Brief carries his view that Timber should have been sent off, while Steven Gerrard called the VAR miss 'an absolute embarrassment' (Anfield Index). No statement from PGMOL or the Premier League had been found by this edition, and Iraola has said the resolution is '10 or 12 days' away (Brit Brief). Everton won at Newcastle on Monday night and climb to seventh, two points behind Liverpool, who stay fifth on fifteen (ESPN).",
   "keyTopics": [
     {
       "title": "Szoboszlai: 'It Stays Secret' (Read Liverpool, today)",
       "category": "injuries",
-      "detail": "Published on Monday afternoon: asked whether he returned too soon from the hamstring he first felt on international duty, Szoboszlai said 'Did I come back too soon? It stays secret. It's very hard, you know', and that 'The worst thing is to be injured and watch the guys from the stands or on TV.' He came on for Nyoni against Arsenal, his first minutes since being forced off after about half an hour at Brentford on 17 October. Read Liverpool argues he fits better at the ten or wide than in the double pivot, and expects rotation in Istanbul."
+      "detail": "Published on Monday afternoon, from his post-match comments: asked whether he returned too soon from the hamstring he first felt on international duty, Szoboszlai said 'Did I come back too soon? It stays secret. It's very hard, you know', and that 'The worst thing is to be injured and watch the guys from the stands or on TV.' He came on for Nyoni against Arsenal, his first minutes since being forced off after about half an hour at Brentford on 17 October. Read Liverpool argues he fits better at the ten or wide than in the double pivot, and expects rotation in Istanbul."
     },
     {
       "title": "Everton Climb To Seventh (ESPN, today)",
@@ -1790,9 +1790,9 @@ export const SQUAD_LOAD = {
     {
       "name": "Alexander Isak",
       "issue": "No injury",
-      "status": "Ninety minutes against Arsenal, no goal; Timber's shirt-pull in the box went unpunished, and the Telegraph says Ref Pro may apologise retrospectively",
-      "note": "Iraola, asked whether he would tell Isak to go down: 'Yes, definitely' (Telegraph via Yahoo Sports). Six goals in eight league appearances this season (Sports Mole).",
-      "source": "Empire of the Kop / Telegraph via Yahoo Sports / Sports Mole"
+      "status": "Ninety minutes against Arsenal, no goal; Timber's hold on his shirt in the box went unpunished, and Hackett says it was a red card (Brit Brief)",
+      "note": "Iraola expects the panel's resolution in '10 or 12 days' (Brit Brief); no PGMOL or Premier League statement found by Monday evening. Six league goals this season (Sports Mole).",
+      "source": "Brit Brief / Liverpool FC / Sports Mole"
     },
     {
       "name": "Florian Wirtz",
@@ -2013,7 +2013,7 @@ export const SEASON_PROJECTION = {
       "opponent": "Leeds",
       "home": true,
       "competition": "PL",
-      "oppPosition": 11,
+      "oppPosition": 12,
       "difficulty": "medium"
     }
   ],
