@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, and the replays have outlasted the result. Timber's hand in Isak's shirt is the image of the
-          morning, Van Dijk counting the cameras and the Telegraph hearing of a possible apology, while the table stays
-          where Sunday left it: fifth, fifteen points, nine behind Arsenal. Fenerbahçe, without Oppong, wait in Istanbul on Wednesday.
+          Tonight the question has moved from a shirt to a hamstring. Szoboszlai, asked whether he came back too
+          soon, says it stays secret; Greenwood has trained in full in Istanbul; Hackett and Gerrard have joined the case
+          against the officials. The table is still fifth, fifteen points, with Everton now two behind. Fenerbahçe away is on Wednesday evening.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and Anfield is still arguing with a replay. Jurriën Timber held Isak's shirt in the box, Isak stayed on his
-              feet, and nobody with a whistle or a monitor did anything about it; Van Dijk has counted the cameras and
-              Carragher has told VAR to do its job. Iraola, asked whether he would now coach his striker to fall, said yes,
-              definitely, which is not a sentence he will enjoy reading back. The quieter story is a teenager in the pivot and a
-              senior man on the bench, and Wednesday will say whether that was a plan or a one-off. Fenerbahçe have lost Oppong
-              and may regain Greenwood. A defeat on Sunday becomes a grievance by Monday; Istanbul is the chance to make it a footnote.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the subject is no longer a shirt but a hamstring. Dominik Szoboszlai, asked whether he hurried back, said only
+              that it stays secret, an answer that tells you everything and nothing. He admitted to listening to his heart over
+              his body, and Liverpool, with Endo off the European list and Gravenberch out of favour, need the body. In Istanbul
+              Mason Greenwood trained in full, while Kuyt looks for a centre-back to stand beside Škriniar. The officials remain on
+              trial in the court of former officials, Hackett asking for Madley to sit out and Gerrard calling it an embarrassment,
+              but the only verdict that counts is ten or twelve days off. Wednesday comes sooner.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: fifty cameras, one shirt;
-              yes, definitely; two dates, one asterisk; eighty-seven million, on the bench; and flu, and a muscle,
-              in Kadıköy. Fifth in the league, nine behind Arsenal, and Fenerbahçe away on Wednesday.
+              five dispatches from the writers who never clock off: it stays secret;
+              the ex-referee and the ex-captain; groundwork, in Monaco; not very far, not yet back; and Greenwood
+              back on the grass. Still fifth, nine behind Arsenal, with Istanbul on Wednesday evening.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3831,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "There are 50 cameras."
+        "It stays secret."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
