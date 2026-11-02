@@ -52,16 +52,16 @@ export const FORMATIONS = {
     // Sun 1 Nov (evening): Arsenal played, Liverpool lost 0-1 (AP). Re-pointed at Fenerbahçe away, UCL, Wed 4 Nov, 5.45pm GMT. Baseline is the
     //   eleven that started at Anfield (Liverpool FC): Nyoni for Gravenberch. No preview for Istanbul yet; Endo and Chiesa not UEFA-registered.
     defaultXI: {
-      GK: 1,  // Alisson (every preview read, The Football Faithful's 5am Sunday XI included)
-      LB: 7, // Kerkez (every preview read, Sunday's included)
-      LCB: 3, // Van Dijk (every preview read, Sunday's included; off on 72 v Chelsea, managed minutes per Evening Standard)
-      RCB: 11, // Jacquet (every preview read, Sunday's included)
-      RB: 29, // Araujo (every preview read, Sunday's included)
-      LCM: 13, // Mac Allister (every preview read, Sunday's included)
+      GK: 1,  // Alisson (Anfield XI v Arsenal, held for Fenerbahçe; no Istanbul preview yet, Mon 2 Nov)
+      LB: 7, // Kerkez (Anfield XI v Arsenal, held for Fenerbahçe)
+      LCB: 3, // Van Dijk (Anfield XI v Arsenal, held for Fenerbahçe; off on 72 v Chelsea, managed minutes per Evening Standard)
+      RCB: 11, // Jacquet (Anfield XI v Arsenal, held for Fenerbahçe)
+      RB: 29, // Araujo (Anfield XI v Arsenal, held for Fenerbahçe)
+      LCM: 13, // Mac Allister (Anfield XI v Arsenal, held for Fenerbahçe)
       CM: 20, // Nyoni (started v Arsenal, his full league debut; Liverpool FC)
       RCM: 18, // Wirtz (ten in every preview read; ankle came through Chelsea)
       LW: 30, // Barcola (left in most previews read; PLNN and Rush The Kop have him right)
-      ST: 23, // Isak (every preview read, Sunday's included)
+      ST: 23, // Isak (Anfield XI v Arsenal, held for Fenerbahçe)
       RW: 22, // Gakpo (right in most previews read; PLNN and Rush The Kop have him left)
     },
 
@@ -105,11 +105,11 @@ export const FORMATIONS = {
     //   (Carabao Cup R4, Wed 28 Oct, 8pm GMT) on The False 9's XI: Nyoni at ten for Wirtz (ankle, doubt), Ngumoha in for Gakpo.
     // Wed 28 Oct (evening): re-pointed at Arsenal at home after the Chelsea shootout; the Brighton XI, as in both previews found.
     defaultXI: {
-      GK: 1,  // Alisson (every preview read, The Football Faithful's 5am Sunday XI included)
-      LB: 7, // Kerkez (every preview read, Sunday's included)
-      LCB: 3, // Van Dijk (every preview read, Sunday's included)
-      RCB: 11, // Jacquet (every preview read, Sunday's included)
-      RB: 29, // Araujo (every preview read, Sunday's included)
+      GK: 1,  // Alisson (Anfield XI v Arsenal, held for Fenerbahçe; no Istanbul preview yet, Mon 2 Nov)
+      LB: 7, // Kerkez (Anfield XI v Arsenal, held for Fenerbahçe)
+      LCB: 3, // Van Dijk (Anfield XI v Arsenal, held for Fenerbahçe)
+      RCB: 11, // Jacquet (Anfield XI v Arsenal, held for Fenerbahçe)
+      RB: 29, // Araujo (Anfield XI v Arsenal, held for Fenerbahçe)
       LDM: 20, // Nyoni (started v Arsenal; Liverpool FC)
       RDM: 13, // Mac Allister
       LAM: 30, // Barcola (left in most previews read)

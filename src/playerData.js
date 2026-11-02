@@ -1113,7 +1113,7 @@ export const DISPATCHES = [
     "n": "01",
     "headline": "Fifty Cameras, One Shirt.",
     "byline": "Telegraph via Yahoo Sports / Empire of the Kop",
-    "dateline": "Anfield · 1 November",
+    "dateline": "Liverpool · 2 November",
     "category": "Match Report",
     "body": "By Monday the replays had done their work. Timber's hand is in Isak's shirt as Barcola's cross comes over, and Isak, staying on his feet, goes for the ball rather than the floor (Empire of the Kop). Neither Andy Madley nor Stuart Attwell, on VAR, intervened. Van Dijk found the arithmetic hard to accept: 'We have 50 cameras. Why does he have to complain when there are so many cameras?' The Telegraph's Dominic King reported that Ref Pro may yet issue a retrospective apology, though Stockley Park's officials were said to doubt there was enough contact. An apology, if it comes, will be worth nothing in the table."
   },
@@ -1172,7 +1172,7 @@ export const NEWS_DIGEST = {
     {
       "title": "Oppong Ruled Out, Greenwood Expected Back (Fanatik / Sporx, today)",
       "category": "matches",
-      "detail": "Reported on Monday morning in Istanbul: Fanatik says Oppong's absence is now certain after he went off on eighty-four against Göztepe, joining Aké, Asensio and Oosterwolde; turkish-football.com calls it a serious muscular injury. Greenwood missed Saturday with flu; Kuyt said then, 'Our only aim is to make him better and play him in the Liverpool match' (Sporx, translated), and Sporx, citing Fanatik, now expects him ready."
+      "detail": "Reported on Monday morning in Istanbul: Fanatik says Oppong's absence is now certain after he went off on eighty-four against Göztepe, joining Aké, Asensio and Oosterwolde; turkish-football.com calls it a serious muscular injury. Greenwood missed Saturday with flu; Kuyt said then, 'Our only aim is to make him better and play him in the Liverpool match' (Sporx, translated), and Sporx, citing Fanatik, reported on Sunday that he is expected to be ready."
     },
     {
       "title": "Bradley Has Not Joined Team Training (Sports Mole, today)",
@@ -1381,7 +1381,7 @@ export const FORM_TRENDS = {
   "generatedAt": "2026-11-02T09:30:00Z",
   "competition": "PL",
   "played": 9,
-  "headline": "Monday's reading of Sunday is the same numbers with a grievance attached: seventeen attempts by Anfield Index's count, 1.15 expected goals to Arsenal's 0.96 on LiveScore's figures, and no shot on target (LiveScore), while the one moment that might have changed it, Timber's hold on Isak, was never given (Telegraph via Yahoo Sports). Expected goals do not include penalties nobody awarded. Across nine league games the published per-match figures add up to 11.96 for and 10.38 against, a margin that still describes a better side than fifth. The home column is the part that does not fit: four league goals in five games at Anfield (OptaJoe via Sports Mole).",
+  "headline": "Monday's reading of Sunday is the same numbers with a grievance attached: seventeen attempts by Anfield Index's count (Goal has eighteen), 1.15 expected goals to Arsenal's 0.96 on LiveScore's figures, and no shot on target (LiveScore), while the one moment that might have changed it, Timber's hold on Isak, was never given (Telegraph via Yahoo Sports). Expected goals do not include penalties nobody awarded. Across nine league games the published per-match figures add up to 11.96 for and 10.38 against, a margin that still describes a better side than fifth. The home column is the part that does not fit: four league goals in five games at Anfield (OptaJoe via Sports Mole).",
   "diagnosis": [
     {
       "label": "Possession without penetration at home",
@@ -1393,7 +1393,7 @@ export const FORM_TRENDS = {
       "label": "One forward, now marked out",
       "severity": "high",
       "source": "NBC Sports / Opta Analyst / Football Muse via Yahoo Sports",
-      "detail": "Arteta said he would keep Isak 'as far from the goal as possible' (Football Muse via Yahoo Sports) and did: NBC rated him 4.5, Liverpool's lowest, after six goals in the previous six league games (Opta Analyst). Ekitike is out until the New Year, so the alternative is still Koumas."
+      "detail": "Arteta said he would keep Isak 'as far from the goal as possible' (Football Muse via Yahoo Sports) and did: NBC rated him 4.5, Liverpool's lowest, after six goals in his previous six league appearances (Opta Analyst). Ekitike is out until the New Year, so the alternative is still Koumas."
     },
     {
       "label": "Build-up from the goalkeeper, punished",
@@ -1411,7 +1411,7 @@ export const FORM_TRENDS = {
       "label": "Right-back by elimination",
       "severity": "high",
       "source": "Liverpool FC / Goal",
-      "detail": "Araújo played eighty-two minutes there before Muñoz replaced him (Liverpool FC), Frimpong and Bradley out; Goal says he was caught out for the goal. The flank stays a centre-back's until mid-November at the earliest."
+      "detail": "Araújo played eighty-two minutes there before Muñoz replaced him (Liverpool FC), Frimpong and Bradley out; Goal says he was caught out for the goal. The flank stays a centre-back's until 22 November at the earliest, the possible return for Frimpong and Bradley on Sports Mole's Monday list."
     }
   ],
   "matches": [
