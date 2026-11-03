@@ -1167,9 +1167,9 @@ export const NEWS_DIGEST = {
       "detail": "Confirmed on Tuesday afternoon at the pre-Fenerbahçe press conference: 'It's a fracture of the heel. It's about the pain. He has been with some discomfort,' Iraola said, adding that Gravenberch warmed up against Arsenal 'not fully confident' and 'hasn't improved since then'. No timeframe: 'I don't know, it's a day-to-day thing.' On Palace: 'If he can be available for the weekend, lovely... But I cannot tell you right now' (Liverpool FC; Sports Mole). The club's morning statement had him staying at the AXA Training Centre for treatment."
     },
     {
-      "title": "Twenty-Two For Istanbul (Liverpool FC, today)",
-      "category": "matches",
-      "detail": "Named on Tuesday morning before the flight from John Lennon Airport: Alisson, Mamardashvili, Woodman; Van Dijk, Jacquet, Gomez, Araújo, Kerkez, Tsimikas, Muñoz, Chambers; Mac Allister, Szoboszlai, Nyoni, Wirtz, McConnell; Isak, Gakpo, Barcola, Koumas, Ngumoha, Danns. Gravenberch (heel) stays home; Endo and Chiesa are not on the league-phase 'A' list; Frimpong (muscle), Bradley, Ekitike and Leoni are still recovering (Liverpool FC)."
+      "title": "Chiesa Edges Towards Serie A (Anfield Index, today)",
+      "category": "transfers",
+      "detail": "Reported on Tuesday evening: Anfield Index, citing Dean Jones for Flashscore, says a January return to Serie A is emerging as a serious possibility for Chiesa, with Lazio, Inter and Roma named. He was fit but left out of the squad against Arsenal, and is not on the Champions League list."
     },
     {
       "title": "Iraola: 'Kill The Confidence' (Goal via Yahoo Sports, today)",
@@ -1187,9 +1187,9 @@ export const NEWS_DIGEST = {
       "detail": "Iraola on Tuesday: 'He is in a very good place', and 'he is playing most of the games, or even all the games lately, so we trust him' (Liverpool FC). The club's team news expects Nyoni to continue in Gravenberch's absence; Sports Mole's Tuesday XI, updated at 3.10pm, picks Szoboszlai beside Mac Allister instead."
     },
     {
-      "title": "Kuyt: 'I'm Not Here For Myself' (dpa via Yahoo Sports, today)",
-      "category": "matches",
-      "detail": "Fenerbahçe's interim coach on Tuesday afternoon: 'Of course, tomorrow will be a very special occasion for me but at the stage we're in, I'm not here for myself', and 'if we and the fans can show up tomorrow, then Europe will really see how big Fenerbahce is' (dpa via Yahoo Sports; AFP via theScore). Fenerbahçe have one win in five in all competitions, including the 6-0 at Aston Villa."
+      "title": "Ekitike 'Doing Very Well' (Brit Brief, today)",
+      "category": "injuries",
+      "detail": "In Tuesday's injury round-up Brit Brief quotes Iraola on Ekitike, 'He is still doing very well according to the plan', with L'Équipe reporting a possible return to training later this month and Boxing Day the target. On Bradley: 'Conor is not so far from training with the group, not like full training but doing some things with the group.'"
     },
     {
       "title": "Oppong's Clean Scan (NTV / Sporx, today)",
@@ -1197,9 +1197,9 @@ export const NEWS_DIGEST = {
       "detail": "Reversing Monday's reports that he would miss the game, NTV said on Tuesday that Kojo Oppong's scan was clean and his pain had gone, and expects him beside Škriniar with Archie Brown at left-back; Sporx, citing A Spor, says he trained fully and will be in the squad. Liverpool FC's own preview still calls him a doubt."
     },
     {
-      "title": "Ekitike 'Doing Very Well' (Brit Brief, today)",
-      "category": "injuries",
-      "detail": "In Tuesday's injury round-up Brit Brief quotes Iraola on Ekitike, 'He is still doing very well according to the plan', with L'Équipe reporting a possible return to training later this month and Boxing Day the target. On Bradley: 'Conor is not so far from training with the group, not like full training but doing some things with the group.'"
+      "title": "Kuyt: 'I'm Not Here For Myself' (dpa via Yahoo Sports, today)",
+      "category": "matches",
+      "detail": "Fenerbahçe's interim coach on Tuesday afternoon: 'Of course, tomorrow will be a very special occasion for me but at the stage we're in, I'm not here for myself', and 'if we and the fans can show up tomorrow, then Europe will really see how big Fenerbahce is' (dpa via Yahoo Sports; AFP via theScore). Fenerbahçe have one win in five in all competitions, including the 6-0 at Aston Villa."
     },
     {
       "title": "Opta: 59 Per Cent, And A Turkish Hoodoo (Opta Analyst, today)",
@@ -1207,9 +1207,9 @@ export const NEWS_DIGEST = {
       "detail": "Published on Tuesday: the Opta supercomputer gives Liverpool a 59.0 per cent chance of winning, Fenerbahçe 19.5 and the draw 21.5. Against that, Liverpool have never won away at a Turkish side in the European Cup or Champions League in six attempts and lost their last four trips. Twelve goals from three games is their best start since 1980-81."
     },
     {
-      "title": "Chiesa Edges Towards Serie A (Anfield Index, today)",
-      "category": "transfers",
-      "detail": "Reported on Tuesday evening: Anfield Index, citing Dean Jones for Flashscore, says a January return to Serie A is emerging as a serious possibility for Chiesa, with Lazio, Inter and Roma named. He was fit but left out of the squad against Arsenal, and is not on the Champions League list."
+      "title": "Twenty-Two For Istanbul (Liverpool FC, today)",
+      "category": "matches",
+      "detail": "Named on Tuesday morning before the flight from John Lennon Airport: Alisson, Mamardashvili, Woodman; Van Dijk, Jacquet, Gomez, Araújo, Kerkez, Tsimikas, Muñoz, Chambers; Mac Allister, Szoboszlai, Nyoni, Wirtz, McConnell; Isak, Gakpo, Barcola, Koumas, Ngumoha, Danns. Gravenberch (heel) stays home; Endo and Chiesa are not on the league-phase 'A' list; Frimpong (muscle), Bradley, Ekitike and Leoni are still recovering (Liverpool FC)."
     }
   ],
   "sources": [
@@ -1413,7 +1413,7 @@ export const FORM_TRENDS = {
       "label": "One forward, now marked out",
       "severity": "high",
       "source": "NBC Sports / Opta Analyst / Football Muse via Yahoo Sports",
-      "detail": "Arteta said he would keep Isak 'as far from the goal as possible' (Football Muse via Yahoo Sports) and did: NBC rated him 4.5, Liverpool's lowest, after six goals in his previous six league appearances (Opta Analyst). Ekitike is out until the New Year, so the alternative is still Koumas."
+      "detail": "Arteta said he would keep Isak 'as far from the goal as possible' (Football Muse via Yahoo Sports) and did: NBC rated him 4.5, Liverpool's lowest, after six goals in his previous six league appearances (Opta Analyst). Ekitike is out until late December at the earliest, so the alternative is still Koumas."
     },
     {
       "label": "Build-up from the goalkeeper, punished",

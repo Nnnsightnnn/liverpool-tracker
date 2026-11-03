@@ -609,7 +609,7 @@ function CoverView({ onJump }) {
               the word was fracture. The club's morning statement said heel and treatment; Iraola, in Istanbul by the afternoon,
               said a fracture of the heel and then, almost apologising for it, that it was about the pain. So Ryan Gravenberch,
               the midfielder Liverpool had stopped starting, becomes the one they cannot start, and the case for Trey Nyoni,
-              nineteen and trusted, makes itself. Endo and Chiesa are not on the European list, and Szoboszlai is three days
+              nineteen and trusted, makes itself. Endo and Chiesa are not on the European list, and Szoboszlai is two days
               back. In Kadıköy Dirk Kuyt said he was not there for himself, which is what managers say when an evening is
               entirely about them. Opta makes Liverpool favourites; six trips to Turkish sides without a win say otherwise.
               Wednesday will choose.
