@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tonight the question has moved from a shirt to a hamstring. Szoboszlai, asked whether he came back too
-          soon, says it stays secret; Greenwood has trained in full in Istanbul; Hackett and Gerrard have joined the case
-          against the officials. The table is still fifth, fifteen points, with Everton now two behind. Fenerbahçe away is on Wednesday evening.
+          Tuesday turned a heel injury into a fracture. Gravenberch stays on Merseyside, day to day; Nyoni, nineteen,
+          is trusted with his place; Kuyt says he is not there for himself. Liverpool are fifth on fifteen, a point off the
+          Champions League line, and tomorrow evening in Istanbul they meet a side still without a win in the league phase.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the subject is no longer a shirt but a hamstring. Dominik Szoboszlai, asked whether he hurried back, said only
-              that it stays secret, an answer that tells you everything and nothing. He admitted to listening to his heart over
-              his body, and Liverpool, with Endo off the European list and Gravenberch out of favour, need the body. In Istanbul
-              Mason Greenwood trained in full, while Kuyt looks for a centre-back to stand beside Škriniar. The officials remain on
-              trial in the court of former officials, Hackett asking for Madley to sit out and Gerrard calling it an embarrassment,
-              but the only verdict that counts is ten or twelve days off. Wednesday comes sooner.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              the word was fracture. The club's morning statement said heel and treatment; Iraola, in Istanbul by the afternoon,
+              said a fracture of the heel and then, almost apologising for it, that it was about the pain. So Ryan Gravenberch,
+              the midfielder Liverpool had stopped starting, becomes the one they cannot start, and the case for Trey Nyoni,
+              nineteen and trusted, makes itself. Endo and Chiesa are not on the European list, and Szoboszlai is three days
+              back. In Kadıköy Dirk Kuyt said he was not there for himself, which is what managers say when an evening is
+              entirely about them. Opta makes Liverpool favourites; six trips to Turkish sides without a win say otherwise.
+              Wednesday will choose.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: it stays secret;
-              the ex-referee and the ex-captain; groundwork, in Monaco; not very far, not yet back; and Greenwood
-              back on the grass. Still fifth, nine behind Arsenal, with Istanbul on Wednesday evening.
+              five dispatches from the writers who never clock off: a fracture, day to day;
+              kill the confidence; nineteen, and trusted; the road back to Serie A; and the old number eighteen.
+              Still fifth, nine behind Arsenal, with Istanbul tomorrow evening.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3831,7 +3832,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "It stays secret."
+        "It’s about the pain."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
