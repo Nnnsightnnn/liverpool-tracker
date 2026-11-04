@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday turned a heel injury into a fracture. Gravenberch stays on Merseyside, day to day; Nyoni, nineteen,
-          is trusted with his place; Kuyt says he is not there for himself. Liverpool are fifth on fifteen, a point off the
-          Champions League line, and tomorrow evening in Istanbul they meet a side still without a win in the league phase.
+          Matchday in Istanbul, and Liverpool go into it a midfielder short: Gravenberch's fractured heel kept him on
+          Merseyside, and Nyoni, nineteen, is expected to take his place. Three European wins from three, fifth in the league on
+          fifteen, and tonight a country where they have never won in this competition, with an old Anfield favourite in the other dugout.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,23 +605,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              the word was fracture. The club's morning statement said heel and treatment; Iraola, in Istanbul by the afternoon,
-              said a fracture of the heel and then, almost apologising for it, that it was about the pain. So Ryan Gravenberch,
-              the midfielder Liverpool had stopped starting, becomes the one they cannot start, and the case for Trey Nyoni,
-              nineteen and trusted, makes itself. Endo and Chiesa are not on the European list, and Szoboszlai is two days
-              back. In Kadıköy Dirk Kuyt said he was not there for himself, which is what managers say when an evening is
-              entirely about them. Opta makes Liverpool favourites; six trips to Turkish sides without a win say otherwise.
-              Wednesday will choose.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and nothing is left to announce. The twenty-two were named, the fracture explained, the questions answered, and
+              what remains is a quarter to six in London and a quarter to nine on the Asian shore. Iraola's last instruction was
+              the plainest: be good in the press. Dirk Kuyt, who scored seventy-one goals at Anfield, says he has a good plan and
+              needs his players to believe in it; Gakpo, who says he watched quite a bit of him, says Liverpool are nine points from the top
+              and working on consistency. Gravenberch watches from Merseyside. Nyoni, nineteen, is expected to stand where he
+              would have stood. Liverpool have never won in Turkey in this competition, and they have not scored this freely in it
+              since 1980-81. One of those records gives way tonight.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: a fracture, day to day;
-              kill the confidence; nineteen, and trusted; the road back to Serie A; and the old number eighteen.
-              Still fifth, nine behind Arsenal, with Istanbul tomorrow evening.
+              five dispatches from the writers who never clock off: matchday, without the engine;
+              a plan, and a belief in it; nine points, and counting; the other game in Pendik; and noon on the twenty-ninth.
+              Still fifth, nine behind Arsenal, with Fenerbahçe tonight and Palace on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3832,7 +3832,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "It’s about the pain."
+        "Good in our press."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
