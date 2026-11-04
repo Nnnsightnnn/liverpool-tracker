@@ -54,7 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Wed Nov 4 - Likely rested for Palace: the published XIs prefer Tsimikas on the left in Istanbul (Sports Mole; Football365).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Wed Nov 4 - Rested tonight, kept for Palace: the published XIs prefer Tsimikas on the left in Istanbul (Sports Mole; Football365).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -1102,7 +1102,7 @@ export const STANDINGS_COMMENTARY = {
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 9,
   "generatedAt": "2026-11-04T05:45:00Z",
-  "overview": "Matchday in Europe leaves the league table exactly where Monday night put it: nine games each, Arsenal top on twenty-four, three clear of Manchester City, with Brighton third and Chelsea fourth on sixteen (ESPN). Liverpool sit fifth on fifteen, one point outside the Champions League places and one ahead of Brentford, so Wednesday's game in Istanbul changes their European standing but not this table. The next league movement comes on Sunday at Crystal Palace, eighteenth on seven, and the Merseyside derby at Everton, seventh and two behind, is now fixed for noon on 29 November (Liverpool FC). Palace, Nottingham Forest and Sunderland occupy the relegation places.",
+  "overview": "Matchday in Europe leaves the league table exactly where Monday night put it: nine games each, Arsenal top on twenty-four, three clear of Manchester City, with Brighton third on nineteen and Chelsea fourth on sixteen (ESPN). Liverpool sit fifth on fifteen, one point outside the Champions League places and one ahead of Brentford, so Wednesday's game in Istanbul changes their European standing but not this table. The next league movement comes on Sunday at Crystal Palace, eighteenth on seven, and the Merseyside derby at Everton, seventh and two behind, is now fixed for noon on 29 November (Liverpool FC). Palace, Nottingham Forest and Sunderland occupy the relegation places.",
   "teams": {
     "Liverpool": "Fifth on fifteen and idle in the league until Palace on Sunday; Istanbul tonight is Champions League only (ESPN).",
     "Arsenal": "Top on twenty-four, nine clear of Liverpool, the gap Gakpo named on Tuesday (Liverpool FC).",
@@ -1124,8 +1124,8 @@ export const DISPATCHES = [
     "headline": "Matchday, Without The Engine.",
     "byline": "Liverpool FC",
     "dateline": "Istanbul · 4 November",
-    "category": "Match Report",
-    "body": "Liverpool woke in Istanbul on Wednesday a midfielder short and with nothing left to announce. The squad is the twenty-two named on Tuesday; Gravenberch is on Merseyside with his heel; Endo and Chiesa were never on this list. What remains is the game: 5.45pm in London, 20:45 on the Asian shore, three wins from three behind them and a country where they have never won in this competition. Iraola's instruction was the shortest thing he said all week. Be good in the press. In a stadium built to make visitors hurry, that is less a tactic than a temperament."
+    "category": "Football News",
+    "body": "Liverpool woke in Istanbul on Wednesday a midfielder short and with nothing left to announce. The squad is the twenty-two named on Tuesday; Gravenberch is on Merseyside with his heel; Endo and Chiesa were never on this list. What remains is the game: 5.45pm in London, 20:45 on the Asian shore, three wins from three behind them and a city where Liverpool have never beaten a Turkish side away in this competition. Iraola's instruction was the shortest thing he said all week. Be good in the press. In a stadium built to make visitors hurry, that is less a tactic than a temperament."
   },
   {
     "n": "02",
@@ -1148,7 +1148,7 @@ export const DISPATCHES = [
     "headline": "The Other Game In Pendik.",
     "byline": "Liverpool FC",
     "dateline": "Pendik · 4 November",
-    "category": "Injuries",
+    "category": "Football News",
     "body": "Before the seniors play, the Under-19s do. Liverpool's fourth UEFA Youth League game of the league phase kicks off at 11am GMT at Pendik Stadium, on the far side of the city, and the club is streaming it. It is the quieter side of a squad stretched thin: with Gravenberch's heel fractured and Frimpong, Bradley, Ekitike and Leoni all missing, Nyoni, nineteen, is expected to start the evening game. At home, the Under-18s captain Finn Inglethorpe reached ten goals for the season with a hat-trick in Saturday's 7-0 win over Sunderland. The pipeline is being asked questions earlier than planned."
   },
   {
@@ -1395,7 +1395,7 @@ export const FORM_TRENDS = {
   "generatedAt": "2026-11-04T05:45:00Z",
   "competition": "PL",
   "played": 9,
-  "headline": "The European numbers go on trial tonight. Twelve goals in three Champions League games is Liverpool's best start since 1980-81 (Opta Analyst), and thirty-three high turnovers are second only to Arsenal's in the competition, which is why Iraola's one instruction was to be good in the press (Liverpool FC). The league story is the opposite: eleven goals from 11.96 expected goals and only four in five at Anfield (OptaJoe via Sports Mole), and no shot on target against Arsenal on Sunday (Opta Analyst). Fenerbahçe, with the oldest XI in the competition, are the test of whether the pressing travels.",
+  "headline": "The European numbers go on trial tonight. Twelve goals in three Champions League games is Liverpool's best start since 1980-81 (Opta Analyst), and thirty-three high turnovers are second only to Arsenal's in the competition, which is why Iraola's one instruction was to be good in the press (Liverpool FC). The league story is the opposite: eleven goals from 11.96 expected goals on the tracker's sum of per-match figures (see totals), and only four in five at Anfield (OptaJoe via Sports Mole), and no shot on target against Arsenal on Sunday (Opta Analyst). Fenerbahçe, with the oldest XI in the competition, are the test of whether the pressing travels.",
   "diagnosis": [
     {
       "label": "Possession without penetration at home",

@@ -572,7 +572,7 @@ function CoverView({ onJump }) {
         }}>
           Matchday in Istanbul, and Liverpool go into it a midfielder short: Gravenberch's fractured heel kept him on
           Merseyside, and Nyoni, nineteen, is expected to take his place. Three European wins from three, fifth in the league on
-          fifteen, and tonight a country where they have never won in this competition, with an old Anfield favourite in the other dugout.
+          fifteen, and tonight a country where they have never beaten a Turkish side away in this competition, with an old Anfield favourite in the other dugout.
         </p>
 
         <StatStrip stats={stats} />
@@ -608,11 +608,11 @@ function CoverView({ onJump }) {
               <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
               and nothing is left to announce. The twenty-two were named, the fracture explained, the questions answered, and
               what remains is a quarter to six in London and a quarter to nine on the Asian shore. Iraola's last instruction was
-              the plainest: be good in the press. Dirk Kuyt, who scored seventy-one goals at Anfield, says he has a good plan and
+              the plainest: be good in the press. Dirk Kuyt, who scored seventy-one goals for Liverpool, says he has a good plan and
               needs his players to believe in it; Gakpo, who says he watched quite a bit of him, says Liverpool are nine points from the top
               and working on consistency. Gravenberch watches from Merseyside. Nyoni, nineteen, is expected to stand where he
-              would have stood. Liverpool have never won in Turkey in this competition, and they have not scored this freely in it
-              since 1980-81. One of those records gives way tonight.
+              would have stood. Liverpool have never won away at a Turkish side in this competition, and they have not scored this freely in it
+              since 1980-81. One of those records could give way tonight.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -721,10 +721,10 @@ function FormBlock({ results }) {
         color: T.ivoryDim, lineHeight: 1.6,
         borderTop: `1px solid ${T.rule}`, paddingTop: 14,
       }}>
-        Manchester City 3-0 at Anfield, the first league defeat of the season,
-        decided in the sixteen minutes after Gravenberch's red card. Three wins,
-        a draw and that defeat across the last five in all competitions, and
-        five home league games now without a win.
+        Arsenal 1-0 at Anfield on Sunday, the second league defeat of the season,
+        and not a shot on target (Opta Analyst). Four wins and that defeat across
+        the last five in all competitions, the Carabao Cup tie with Chelsea
+        settled on penalties.
       </p>
     </div>
   );

@@ -193,7 +193,7 @@ export const PLAYER_EVIDENCE = {
   2:  "Bench in Istanbul · No. 2",
   3:  "Captain · every XI",
   5:  "Spare senior defender",
-  7:  "Likely rested for Palace",
+  7:  "Rested tonight, kept for Palace",
   8:  "Knee · nearing group work",
   9:  "Muscle · after the break",
   10: "ACL · long-term",
