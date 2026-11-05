@@ -52,13 +52,13 @@ export const FORMATIONS = {
     // Sun 1 Nov (evening): Arsenal played, Liverpool lost 0-1 (AP). Re-pointed at Fenerbahçe away, UCL, Wed 4 Nov, 5.45pm GMT. Baseline is the
     //   eleven that started at Anfield (Liverpool FC): Nyoni for Gravenberch. No preview for Istanbul yet; Endo and Chiesa not UEFA-registered.
     defaultXI: {
-      GK: 1,  // Alisson (Thu Nov 5; Palace away, the Arsenal XI as baseline)
+      GK: 1,  // Alisson (Thu Nov 5 morning; Palace away, The False 9's XI)
       LB: 7,  // Kerkez (on about ten minutes after the 66' changes in Istanbul; started v Arsenal)
       LCB: 3, // Van Dijk
       RCB: 11, // Jacquet
       RB: 29, // Araujo (rested in Istanbul; Frimpong and Bradley out)
       LCM: 13, // Mac Allister
-      CM: 20, // Nyoni (scored in Istanbul; Gravenberch day to day, heel fracture)
+      CM: 15, // Szoboszlai (The False 9's Palace XI, Wed evening; Nyoni the alternative)
       RCM: 18, // Wirtz (rested in Istanbul)
       LW: 30, // Barcola (Iraola: better wide)
       ST: 23, // Isak (thirty minutes in Istanbul, scored)
@@ -105,12 +105,12 @@ export const FORMATIONS = {
     //   (Carabao Cup R4, Wed 28 Oct, 8pm GMT) on The False 9's XI: Nyoni at ten for Wirtz (ankle, doubt), Ngumoha in for Gakpo.
     // Wed 28 Oct (evening): re-pointed at Arsenal at home after the Chelsea shootout; the Brighton XI, as in both previews found.
     defaultXI: {
-      GK: 1,  // Alisson (Thu Nov 5; Palace away, the Arsenal XI as baseline)
+      GK: 1,  // Alisson (Thu Nov 5 morning; Palace away, The False 9's XI)
       LB: 7,  // Kerkez
       LCB: 3, // Van Dijk
       RCB: 11, // Jacquet
       RB: 29, // Araujo (rested in Istanbul)
-      LDM: 20, // Nyoni (Gravenberch day to day); Szoboszlai or Endo the alternatives
+      LDM: 15, // Szoboszlai (The False 9's Palace XI); Nyoni or Endo the alternatives, Gravenberch a late check
       RDM: 13, // Mac Allister
       LAM: 30, // Barcola (back wide after leading the line in Istanbul)
       CAM: 18, // Wirtz (rested in Istanbul)
@@ -150,7 +150,7 @@ export const FORMATIONS = {
       RCB: 5, // Gomez (back-three cover)
       LWB: 7, // Kerkez
       LCM: 13, // Mac Allister
-      RCM: 20, // Nyoni (Gravenberch out, heel fracture)
+      RCM: 15, // Szoboszlai (The False 9; Gravenberch a late check)
       RWB: 29, // Araujo
       LW: 30, // Barcola
       ST: 23, // Isak
@@ -189,33 +189,33 @@ export const FORMATIONS = {
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 // Mon Nov 2 (evening): 12 refreshed for Szoboszlai's 'It stays secret' (Read Liverpool), Iraola on Bradley (Anfield Index via Yahoo Sports) and Khel Now's XI; XIs unchanged.
 export const PLAYER_EVIDENCE = {
-  1:  "Beaten by three set pieces",
-  2:  "Bench in Istanbul · No. 2",
-  3:  "Captain · 90 in Istanbul",
-  5:  "Right-back in Istanbul",
-  7:  "Rested, back for Palace",
+  1:  "FotMob 6.6 in Istanbul",
+  2:  "No. 2 again for Palace",
+  3:  "Denied twice by Ederson",
+  5:  "False 9's RB pick",
+  7:  "Back at LB for Palace",
   8:  "Knee · no return date",
-  9:  "Muscle · after the break",
-  10: "ACL · long-term",
-  11: "90 in Istanbul · deflection",
+  9:  "Muscle · FPL 0%",
+  10: "ACL · break training",
+  11: "FotMob 5.9 · Muriqi header",
   12: "On loan at Levante",
-  13: "Ever-present · booked",
-  14: "Heel fracture · day to day",
-  15: "First start back · 90 mins",
-  17: "Eligible again for Palace",
-  18: "Rested · on at 66'",
-  20: "First goal · aged 19",
-  22: "Assist for Isak · 24 mins",
-  23: "Scored 2:46 after coming on",
-  24: "Achilles · Boxing Day target",
-  25: "7/10 dribbles in Istanbul",
-  26: "Eligible again for Palace",
+  13: "Beside Szoboszlai Sunday",
+  14: "Heel · late check Sunday",
+  15: "Back in the pivot",
+  17: "League-eligible, fresh",
+  18: "Back at ten for Palace",
+  20: "FotMob 8.2 · bench?",
+  22: "Right side · False 9 XI",
+  23: "Leads the line Sunday",
+  24: "Achilles · Boxing Day",
+  25: "Four UCL starts from four",
+  26: "League-eligible again",
   27: "Third keeper",
-  28: "Started in Istanbul",
-  29: "Rested · likely right-back",
-  30: "Led the line in Istanbul",
-  31: "On at 85' in Istanbul",
-  32: "Started at left-back",
+  28: "Bench for Palace",
+  29: "Rested · RB alternative",
+  30: "Back to the left",
+  31: "Bench nine",
+  32: "FotMob 6.8 · Kerkez back",
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -338,6 +338,8 @@ export const PLAYER_EVIDENCE = {
 // Thu Nov 5 (evening pass of Wed Nov 4, run after midnight UTC): Fenerbahçe played, Liverpool lost 2-3 (ESPN). Re-pointed at Crystal Palace away,
 //   PL, Sun 8 Nov, 2pm GMT. The Arsenal XI restored in all three shapes, with Barcola left and Gakpo right: Kerkez, Araujo, Wirtz, Gakpo and Isak,
 //   rested or benched in Istanbul, back in; Nyoni keeps LDM with Gravenberch day to day. No Palace preview naming Liverpool's XI found; overall Low.
+// Thu Nov 5 (morning): ONE personnel change in all three shapes, Szoboszlai for Nyoni in midfield, following The False 9's Wednesday-evening
+//   Palace XI, the first published. It also starts Gomez at right-back; held at Araujo, rested in Istanbul, with Gomez the first alternative. Overall Low.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -355,7 +357,7 @@ export const SLOT_CONFIDENCE = {
   LB: "Medium",
   LCB: "High",
   RCB: "High",
-  RB: "Medium",
+  RB: "Low",
   LDM: "Low",
   RDM: "High",
   LAM: "Medium",
@@ -370,16 +372,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Thu Nov 5 - Kerkez, rested for most of Istanbul after starting against Arsenal; Tsimikas started there on Wednesday. Medium.",
-  LCB: "Thu Nov 5 - Van Dijk, ninety minutes in Istanbul and captain. High.",
-  RCB: "Thu Nov 5 - Jacquet, beside Van Dijk in every big league game. High.",
-  RB: "Thu Nov 5 - Araújo, rested in Istanbul while Gomez played there; Frimpong and Bradley still out. Medium.",
-  LDM: "Thu Nov 5 - Nyoni, scorer in Istanbul, with Gravenberch's heel day to day; Szoboszlai or a first Endo minute the alternatives. Low.",
-  RDM: "Thu Nov 5 - Mac Allister, the one midfielder every XI keeps. High.",
-  LAM: "Thu Nov 5 - Barcola back wide, where Iraola says he has been better. Medium.",
-  CAM: "Thu Nov 5 - Wirtz, rested for an hour in Istanbul. Medium.",
-  RAM: "Thu Nov 5 - Gakpo, assist for Isak off the bench in Istanbul. Medium.",
-  ST: "Thu Nov 5 - Isak, kept to thirty minutes on Wednesday by design (Liverpool FC). High.",
+  LB: "Thu Nov 5, morning - Kerkez, back in The False 9's XI after a cameo in Istanbul. Medium.",
+  LCB: "Thu Nov 5, morning - Van Dijk, twice denied by Ederson in Istanbul, captain. High.",
+  RCB: "Thu Nov 5, morning - Jacquet, kept in every XI despite FotMob's 5.9 in Istanbul. High.",
+  RB: "Thu Nov 5, morning - Araújo held; The False 9 picks Gomez, who started there in Istanbul. Low.",
+  LDM: "Thu Nov 5, morning - Szoboszlai, as in The False 9's XI; Nyoni, rated 8.2 in Istanbul, the alternative. Low.",
+  RDM: "Thu Nov 5, morning - Mac Allister, in every XI. High.",
+  LAM: "Thu Nov 5, morning - Barcola, back on the left in The False 9's XI. Medium.",
+  CAM: "Thu Nov 5, morning - Wirtz, back at ten after a bench evening. Medium.",
+  RAM: "Thu Nov 5, morning - Gakpo, right side in The False 9's XI. Medium.",
+  ST: "Thu Nov 5, morning - Isak, the preview's headline pick. High.",
 };
 
 
@@ -393,10 +395,10 @@ export const ALTERNATIVES = {
   LCB: [{ playerId: 5, reason: "Gomez · senior cover" }],
   RCB: [{ playerId: 5, reason: "Gomez · senior cover" }],
   RB:  [{ playerId: 5, reason: "Gomez · right-back in Istanbul" }, { playerId: 28, reason: "Munoz · finished there v Arsenal" }],
-  LDM: [{ playerId: 15, reason: "Szoboszlai · 90 in Istanbul" }, { playerId: 17, reason: "Endo · eligible, fresh" }],
-  RDM: [{ playerId: 15, reason: "Szoboszlai · back from the hamstring" }],
+  LDM: [{ playerId: 20, reason: "Nyoni · FotMob 8.2 in Istanbul" }, { playerId: 17, reason: "Endo · eligible, fresh" }],
+  RDM: [{ playerId: 20, reason: "Nyoni · started both recent games" }],
   LAM: [{ playerId: 25, reason: "Ngumoha · started in Istanbul" }, { playerId: 28, reason: "Munoz · started in Istanbul" }],
-  CAM: [{ playerId: 15, reason: "Szoboszlai · ten if Wirtz is rested" }],
+  CAM: [{ playerId: 20, reason: "Nyoni · if Szoboszlai is rested" }],
   RAM: [{ playerId: 25, reason: "Ngumoha · either flank" }, { playerId: 28, reason: "Munoz · wide option" }],
   ST:  [{ playerId: 30, reason: "Barcola · led the line in Istanbul" }, { playerId: 31, reason: "Koumas · bench nine" }],
 };
@@ -406,6 +408,7 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Low",
-  generated_at: "2026-11-05T01:05:00Z",
-  reason: "Thu Nov 5. Crystal Palace away, Premier League, Sun 8 Nov, 2pm GMT. After the 3-2 defeat in Istanbul, where Iraola made five changes (ESPN), the sheet restores the Arsenal XI: Kerkez, Araújo, Wirtz, Gakpo and Isak back, Nyoni kept in the pivot with Gravenberch day to day (Premier League News Now). No Palace preview naming Liverpool's XI has been found yet. Low.",
+  generated_at: "2026-11-05T13:45:00Z",
+  reason: "Thu Nov 5, morning. Crystal Palace away, Premier League, Sun 8 Nov, 2pm GMT. Nine of the Arsenal XI, with Szoboszlai for Gravenberch (heel, late check) in the pivot, following The False 9's Wednesday-evening preview, the only one published; it also has Gomez at right-back, held here at Araújo. Low until Iraola's Friday press conference.",
 };
+

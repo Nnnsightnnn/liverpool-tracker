@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Twice ahead in Istanbul and beaten 3-2, all three Fenerbahçe goals from set pieces, Liverpool's first Champions League
-          defeat under Iraola. Nyoni, nineteen, scored his first goal for the club; it did not survive the evening. Fifth in the league
-          on fifteen, two defeats running, and on Sunday afternoon Selhurst Park, against a Palace side without Mateta.
+          Thursday, and Istanbul has been reduced to one header: Muriqi rising above three Liverpool shirts for the winner, the kind
+          of defending Iraola says must be better. Fifth on fifteen after two defeats, Liverpool have three days to fix a set-piece habit
+          before Selhurst Park, where a Palace side without Mateta play Hoffenheim first, tonight.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,21 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and the noise Iraola could not shout through is still the story. Liverpool led in Kadıköy through a nineteen-year-old
-              and then through Isak, and lost to a free kick through the wall, a corner flicked on in front of Alisson and a long throw
-              that Muriqi won against three defenders. Cheap goals, the manager called them, messy goals, from the one phase his side had
-              been defending well. Kuyt called it a miracle and, the BBC reports, walked away from the dugout with it. Liverpool have now
-              conceded three in three European games running, which Opta says has never happened before. Sunday is Palace, eighteenth,
-              short of their striker. Nobody was hurt in Istanbul; the habit is what needs mending.
+              <span style={{ fontStyle: "italic", color: T.red }}>Morning</span>,{" "}
+              and the inquest has found its picture: a long throw, a lofted cross from Archie Brown, and Vedat Muriqi climbing above
+              Jacquet, Nyoni and Mac Allister, the three the Express names, for the header that beat Liverpool. Iraola defended the rotation
+              that put a nineteen-year-old in that cluster, four, five, six, seven changes for every midweek game this season, and did not
+              defend the marking. The first preview of Sunday brings Isak back and puts Szoboszlai beside Mac Allister, which would leave
+              Nyoni, Liverpool's best-rated player in Istanbul, on the bench. Gravenberch's heel gets a late check; Frimpong's muscle does
+              not get one at all. Palace go first, at home to Hoffenheim tonight, under a manager who says the responsibility is his.
+              The cure for a dead ball is rarely a new eleven. It is the same eleven, standing closer.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: twice ahead, and still beaten;
-              cheap goals, messy goals; another miracle, the other way; five changes, four days; and Selhurst, short of its striker.
+              five dispatches from the writers who never clock off: three shirts, and Muriqi above them; four, five, six, seven;
+              zero per cent, and a late check; a midfielder for the winter; and Palace, first, against Hoffenheim.
               Still fifth, nine behind Arsenal, with Crystal Palace away on Sunday.
             </p>
           </div>
@@ -3830,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Cheap goals. Messy goals."
+        "Three shirts, one header."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
