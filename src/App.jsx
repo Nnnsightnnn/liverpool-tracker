@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Matchday in Istanbul, and Liverpool go into it a midfielder short: Gravenberch's fractured heel kept him on
-          Merseyside, and Nyoni, nineteen, is expected to take his place. Three European wins from three, fifth in the league on
-          fifteen, and tonight a country where they have never beaten a Turkish side away in this competition, with an old Anfield favourite in the other dugout.
+          Twice ahead in Istanbul and beaten 3-2, all three Fenerbahçe goals from set pieces, Liverpool's first Champions League
+          defeat under Iraola. Nyoni, nineteen, scored his first goal for the club; it did not survive the evening. Fifth in the league
+          on fifteen, two defeats running, and on Sunday afternoon Selhurst Park, against a Palace side without Mateta.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,23 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and nothing is left to announce. The twenty-two were named, the fracture explained, the questions answered, and
-              what remains is a quarter to six in London and a quarter to nine on the Asian shore. Iraola's last instruction was
-              the plainest: be good in the press. Dirk Kuyt, who scored seventy-one goals for Liverpool, says he has a good plan and
-              needs his players to believe in it; Gakpo, who says he watched quite a bit of him, says Liverpool are nine points from the top
-              and working on consistency. Gravenberch watches from Merseyside. Nyoni, nineteen, is expected to stand where he
-              would have stood. Liverpool have never won away at a Turkish side in this competition, and they have not scored this freely in it
-              since 1980-81. One of those records could give way tonight.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the noise Iraola could not shout through is still the story. Liverpool led in Kadıköy through a nineteen-year-old
+              and then through Isak, and lost to a free kick through the wall, a corner flicked on in front of Alisson and a long throw
+              that Muriqi won against three defenders. Cheap goals, the manager called them, messy goals, from the one phase his side had
+              been defending well. Kuyt called it a miracle and, the BBC reports, walked away from the dugout with it. Liverpool have now
+              conceded three in three European games running, which Opta says has never happened before. Sunday is Palace, eighteenth,
+              short of their striker. Nobody was hurt in Istanbul; the habit is what needs mending.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: matchday, without the engine;
-              a plan, and a belief in it; nine points, and counting; the other game in Pendik; and noon on the twenty-ninth.
-              Still fifth, nine behind Arsenal, with Fenerbahçe tonight and Palace on Sunday.
+              five dispatches from the writers who never clock off: twice ahead, and still beaten;
+              cheap goals, messy goals; another miracle, the other way; five changes, four days; and Selhurst, short of its striker.
+              Still fifth, nine behind Arsenal, with Crystal Palace away on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3832,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Good in our press."
+        "Cheap goals. Messy goals."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
