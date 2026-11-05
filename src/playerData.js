@@ -54,7 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Thu Nov 5 - Came on for Tsimikas midway through the second half in Istanbul (VAVEL); expected back at left-back for Palace.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Thu Nov 5 - Came on for Tsimikas about ten minutes after the triple change on sixty-six in Istanbul (VAVEL); expected back at left-back for Palace.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -1131,7 +1131,7 @@ export const DISPATCHES = [
     "byline": "Opta Analyst",
     "dateline": "Istanbul · 4 November",
     "category": "Match Report",
-    "body": "Liverpool led in Kadıköy twice and left with nothing. Trey Nyoni, nineteen, volleyed the first on twenty-five minutes, and Greenwood's free kick, deflected off Jacquet, cancelled it four minutes later. Isak came on and headed in Gakpo's cross two minutes and forty-six seconds into his evening. Then a corner fell to Archie Brown on seventy-three, and the substitute Muriqi rose above three defenders on seventy-nine. Opta counts it the latest Liverpool have ever led a major European game and lost, and only the third time they have gone ahead twice and still been beaten. Fenerbahçe 3, Liverpool 2."
+    "body": "Liverpool led in Kadıköy twice and left with nothing. Trey Nyoni, nineteen, scored the first on twenty-five minutes via a deflection, and Greenwood's free kick, deflected off Jacquet, cancelled it four minutes later. Isak came on and headed in Gakpo's cross two minutes and forty-six seconds into his evening. Then a corner fell to Archie Brown on seventy-three, and the substitute Muriqi rose above three defenders on seventy-nine. Opta counts it the latest Liverpool have ever led a major European game and lost, and only the third time they have gone ahead twice and still been beaten. Fenerbahçe 3, Liverpool 2."
   },
   {
     "n": "02",
@@ -1395,7 +1395,7 @@ export const FORM_TRENDS = {
   "generatedAt": "2026-11-05T01:05:00Z",
   "competition": "PL",
   "played": 9,
-  "headline": "Istanbul turned the season's one clean defensive record into a question. Liverpool had not conceded a set-piece goal all season; on Wednesday all three Fenerbahçe goals came from one, a free kick, a corner and a long throw (BBC Sport via Yahoo Sports; Liverpool FC). The open-play numbers were close, 1.55 expected goals to 1.70 on ESPN's model with 68 per cent of the ball, and Liverpool have now conceded three or more in three European games running for the first time (Opta Analyst). In the league the picture is unchanged since Arsenal: eleven goals from 11.96 expected on the tracker's sum of per-match figures (see totals), and Palace on Sunday the first chance to show Istanbul was a European problem.",
+  "headline": "Istanbul turned the season's one clean defensive record into a question. Liverpool had not conceded a set-piece goal in the league all season; on Wednesday all three Fenerbahçe goals came from one, a free kick, a corner and a long throw (BBC Sport via Yahoo Sports; Liverpool FC). The open-play numbers were close, 1.55 expected goals to 1.70 on ESPN's model with 68 per cent of the ball, and Liverpool have now conceded three or more in three European games running for the first time (Opta Analyst). In the league the picture is unchanged since Arsenal: eleven goals from 11.96 expected on the tracker's sum of per-match figures (see totals), and Palace on Sunday the first chance to show Istanbul was a European problem.",
   "diagnosis": [
     {
       "label": "Possession without penetration at home",
@@ -1977,7 +1977,7 @@ export const SEASON_PROJECTION = {
       "label": "Europa League (5th)",
       "points": 60,
       "gap": 0,
-      "note": "Fifth-place par, and the stripe Liverpool occupy on ESPN's table. Cleared by three on current pace, a thinner margin than before Sunday."
+      "note": "Fifth-place par, and the stripe Liverpool occupy on ESPN's table. Cleared by three on current pace, a margin Sunday at Palace can widen or erase."
     },
     {
       "label": "Conference League (6th-7th)",

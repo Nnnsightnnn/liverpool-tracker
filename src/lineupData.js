@@ -53,7 +53,7 @@ export const FORMATIONS = {
     //   eleven that started at Anfield (Liverpool FC): Nyoni for Gravenberch. No preview for Istanbul yet; Endo and Chiesa not UEFA-registered.
     defaultXI: {
       GK: 1,  // Alisson (Thu Nov 5; Palace away, the Arsenal XI as baseline)
-      LB: 7,  // Kerkez (rested to 20-odd minutes in Istanbul; started v Arsenal)
+      LB: 7,  // Kerkez (on about ten minutes after the 66' changes in Istanbul; started v Arsenal)
       LCB: 3, // Van Dijk
       RCB: 11, // Jacquet
       RB: 29, // Araujo (rested in Istanbul; Frimpong and Bradley out)

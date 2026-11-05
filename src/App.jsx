@@ -720,10 +720,9 @@ function FormBlock({ results }) {
         color: T.ivoryDim, lineHeight: 1.6,
         borderTop: `1px solid ${T.rule}`, paddingTop: 14,
       }}>
-        Arsenal 1-0 at Anfield on Sunday, the second league defeat of the season,
-        and not a shot on target (Opta Analyst). Four wins and that defeat across
-        the last five in all competitions, the Carabao Cup tie with Chelsea
-        settled on penalties.
+        Fenerbahçe 3-2 in Istanbul on Wednesday, twice ahead and undone by three
+        set pieces, four days after Arsenal 1-0 at Anfield (ESPN; Opta Analyst).
+        Three wins and two defeats across the last five in all competitions.
       </p>
     </div>
   );
