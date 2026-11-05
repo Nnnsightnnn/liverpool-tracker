@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Thu Nov 5, morning - SI's FotMob rating of 6.6 in Istanbul, left 'flat-footed' by the deflected free kick (Opta Analyst); starts at Palace.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Thu Nov 5, evening - Starts in the Evening Standard's Palace XI (via Yahoo), which also says he is 'under some scrutiny' after Istanbul.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 26, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Thu Nov 5, morning - No change: the No. 2 again for Palace after an unused evening on the bench in Istanbul (VAVEL).", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 26, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Thu Nov 5, evening - Bench again on Sunday; neither Thursday preview moves him into the XI.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Thu Nov 5, morning - Twice denied by Ederson from headers in Istanbul (Opta Analyst); captain and ever-present at centre-back for Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Thu Nov 5, evening - 'It's definitely not sustainable,' the captain said of the defending (BBC via Yahoo); calls Palace 'massive' and starts.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Thu Nov 5, morning - The False 9's pick at right-back for Palace after starting there in Istanbul, where FotMob rated him 6.9 (SI).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Thu Nov 5, evening - Back to cover: the Evening Standard's XI has Araújo at right-back, where Gomez started in Istanbul.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -54,7 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Thu Nov 5, morning - Back at left-back in The False 9's Palace XI after fourteen minutes off the bench in Istanbul (SI).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Thu Nov 5, evening - Left-back in both Thursday previews (Evening Standard; The False 9) after his cameo in Istanbul.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Thu Nov 5, morning - Knee: 'still working back from the knee injury he suffered in January', no return date (The False 9).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Thu Nov 5, evening - Knee: listed out for Palace by the Evening Standard and Brit Brief, no date yet for full training.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Thu Nov 5, morning - Muscle: 0 per cent chance of playing on the official FPL site, no return date given (The False 9).", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Thu Nov 5, evening - Hamstring: out of Sunday on every list read tonight (Evening Standard; Lente Desportiva); United on the 22nd is the earliest target.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Thu Nov 5, morning - ACL: no change, team training still pencilled in for the November break (Brit Brief).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Thu Nov 5, evening - ACL: on Thursday's absentee lists again (Brit Brief); group work in the international break is still the plan.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Thu Nov 5, morning - FotMob's lowest Liverpool rating in Istanbul, 5.9 (SI); the Express names him among the three Muriqi beat for the winner.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Thu Nov 5, evening - Kept at centre-back in the Evening Standard's XI despite the Istanbul header; twenty-one and learning in public.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Thu Nov 5, morning - On loan at Levante; nothing new from Spain this morning.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Thu Nov 5, evening - On loan at Levante; nothing from Spain tonight.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -111,7 +111,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Thu Nov 5, morning - Rated 6.8 by FotMob in Istanbul (SI), perhaps fortunate not to concede a penalty for hands in Greenwood's back (Opta Analyst); Kerkez expected back.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
+    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Thu Nov 5, evening - Bench on Sunday, with Kerkez back at left-back in both previews; started in Istanbul.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
     physical: { height: 178, weight: 76, pace: 79, acceleration: 80, sprintSpeed: 78 },
     career: [
       { years: "2017-2020", club: "Olympiacos", fee: null, type: "senior" },
@@ -122,7 +122,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Thu Nov 5, morning - Named by the Express among the three beaten by Muriqi's header; still in every Palace XI, beside Szoboszlai in The False 9's.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Thu Nov 5, evening - Beside Szoboszlai in the Evening Standard's pivot; the senior of the three Muriqi beat, and unmoved in every XI.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "injured", outSince: "2026-11-03", injuryNote: "Thu Nov 5, morning - Heel fracture: 'faces a late check before Sunday' (The False 9); missed Istanbul.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "injured", outSince: "2026-11-03", injuryNote: "Thu Nov 5, evening - Heel fracture: a doubt on the Evening Standard's list, Nyoni named as the replacement if he misses out.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Thu Nov 5, morning - Back in the pivot in The False 9's Palace XI after ninety minutes in Istanbul, rated 6.7 by FotMob (SI).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Thu Nov 5, evening - In the pivot on the Evening Standard's XI as on The False 9's: two previews, one answer.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Thu Nov 5, morning - League-eligible again for Sunday, still without a minute this season; the fresh option if midfield legs run out.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Thu Nov 5, evening - No preview picks him for Palace; still the only fresh senior holding midfielder.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -163,7 +163,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Thu Nov 5, morning - Back at ten in The False 9's Palace XI after twenty-four minutes off the bench in Istanbul (SI).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Thu Nov 5, evening - Number ten in both Thursday previews after resting for most of Istanbul.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -172,7 +172,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Thu Nov 5, morning - FotMob's top-rated player in Istanbul at 8.2 (SI), yet 'pushing for another start' rather than picked in The False 9's Palace XI.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
+    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Thu Nov 5, evening - David Lynch called him 'superb' (Anfield Index): 83 passes, nine recoveries, three interceptions in Istanbul, the most of any Liverpool player.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
     physical: { height: 178, weight: 68, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Leicester City Academy", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Thu Nov 5, morning - Right side in The False 9's Palace XI; SI says his defensive header gifted Fenerbahçe their second.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Thu Nov 5, evening - One of the three behind Isak in the Evening Standard's 4-2-3-1 at Selhurst.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Thu Nov 5, morning - Leads the line in The False 9's Palace XI, the preview's headline, after scoring off the bench in Istanbul.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Thu Nov 5, evening - The Evening Standard's nine as well as The False 9's; Palace's defence comes off a Thursday night with ten men.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Thu Nov 5, morning - Achilles: unchanged, Boxing Day the target reported by L'Équipe (via Brit Brief).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Thu Nov 5, evening - Achilles: still on the Palace absentee list (Brit Brief); Boxing Day remains the reported target.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -213,7 +213,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Thu Nov 5, morning - Youngest English player to start his side's first four Champions League games of a campaign (Opta Analyst); to the bench for Palace, per The False 9.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Thu Nov 5, evening - Not in the Evening Standard's XI; the bench after four Champions League starts.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Thu Nov 5, morning - Five minutes in Istanbul (SI); bench cover at nine behind Isak on Sunday.", image: "",
+    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Thu Nov 5, evening - Bench cover; Isak, then Barcola, are the nines in Thursday's previews.", image: "",
     physical: { height: 180, weight: 73, pace: 80, acceleration: 81, sprintSpeed: 79 },
     career: [
       { years: "2013-", club: "Liverpool", fee: null, type: "youth" },
@@ -231,7 +231,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Thu Nov 5, morning - Premier League-eligible for Palace after missing Istanbul, off the UEFA list; no minutes to build on.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Thu Nov 5, evening - League-eligible, unpicked in either Thursday preview.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -242,7 +242,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Thu Nov 5, morning - Third goalkeeper, unchanged.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Thu Nov 5, evening - Third goalkeeper; no change tonight.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -259,7 +259,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Thu Nov 5, morning - Bench for Palace in The False 9's XI after his sixty-six minutes in Istanbul, rated 6.3 (SI).", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Thu Nov 5, evening - Bench in both Thursday previews after starting in Istanbul.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -269,7 +269,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Thu Nov 5, morning - Rested in Istanbul; The False 9 picks Gomez at right-back for Palace, so Araújo is now the alternative.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
+    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Thu Nov 5, evening - Back at right-back in the Evening Standard's XI (via Yahoo), where this sheet already had him; Gomez the alternative.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
     physical: { height: 188, weight: 79, pace: 78, acceleration: 74, sprintSpeed: 80 },
     career: [
       { years: "2016-2018", club: "Rentistas", fee: null, type: "youth" },
@@ -279,7 +279,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Thu Nov 5, morning - Moves back to the left in The False 9's Palace XI after leading the line in Istanbul (FotMob 6.6, SI).", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
+    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Thu Nov 5, evening - Wide in the Evening Standard's front three, the role Iraola prefers for him.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
     physical: { height: 182, weight: 72, pace: 91, acceleration: 92, sprintSpeed: 90 },
     career: [
       { years: "2010-2020", club: "Lyon Academy", fee: null, type: "youth" },
@@ -399,7 +399,8 @@ export const COVER_IMAGE = {
   alt: "Editorial plate: an empty pitch under floodlights seen from the gantry, the white lines drawn in perspective through a low mist, the stand beyond in shadow.",
   focus: "Anfield, after dark",
   credit: "Editorial plate",
-  generatedAt: "2026-11-05T13:45:00Z",
+  generatedAt: "2026-11-05T23:20:00Z",
+  // Evening pass (Thu 5 November, cloud): NO LIVERPOOL MATCH, Tier 3; lead is Van Dijk's "not sustainable" plus Palace 1-1 Hoffenheim. Plate kept (STEP 7.5 not runnable in cloud).
   // Morning pass (Thu 5 November, cloud-scheduled): NO LIVERPOOL MATCH since the evening edition, Tier 3. Lead is the Istanbul inquest
   // narrowing to Muriqi's header over three Liverpool players (Express via AOL) and the first Palace preview (The False 9). Not a
   // photograph Liverpool would want; plate carried; Track 2 request untouched; NO image queued (STEP 7.5 not runnable in cloud).
@@ -954,7 +955,7 @@ export const NEXT_MATCH = {
   date: "2026-11-08T14:00:00",
   competition: "PL",
   venue: "Selhurst Park, London",
-  broadcast: "Premier League, matchday ten, Sunday 8 November, 2pm GMT (9am ET), Selhurst Park (ESPN fixtures). USA Network and Peacock in the US (DocSports); UK broadcaster not confirmed in the sources read this run",
+  broadcast: "Premier League, matchday ten, Sunday 8 November, 2pm GMT (9am ET), Selhurst Park (ESPN fixtures). Sky Sports in the UK (Evening Standard via Yahoo); USA Network and Peacock in the US (DocSports)",
 };
 // ─── Match Results (sourced from ESPN, BBC, PL) ────────────────────────────
 // result: "W" | "D" | "L"
@@ -1078,6 +1079,7 @@ export const RESULTS = [
 // on twenty-one, Brighton third, Chelsea fourth, LIVERPOOL fifth (highlighted) on fifteen, goal difference down to two. Relegation stripe unchanged.
 // Refresh 2026-11-04 (Wednesday evening pass, run after midnight UTC on Thu 5). Re-fetched from ESPN, unchanged: Fenerbahçe 3-2 Liverpool was
 // Champions League only. Liverpool fifth on fifteen; Palace eighteenth on seven before Sunday's game at Selhurst Park.
+// Refresh 2026-11-05 (Thursday evening, ~6pm ET). Re-fetched from ESPN, byte-identical; Palace 1-1 Hoffenheim was Europa League only.
 export const STANDINGS = [
   { pos: 1, team: "Arsenal", p: 9, w: 8, d: 0, l: 1, gd: 9, pts: 24, qualification: "UCL" },
   { pos: 2, team: "Manchester City", p: 9, w: 7, d: 0, l: 2, gd: 10, pts: 21, qualification: "UCL" },
@@ -1110,18 +1112,18 @@ export const STANDINGS_COMMENTARY = {
   "source": "ESPN",
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 9,
-  "generatedAt": "2026-11-05T13:45:00Z",
-  "overview": "Nothing has been played in the Premier League since Monday, so the table Liverpool take to Selhurst Park is the one they left Anfield with: Arsenal top on twenty-four, Manchester City second on twenty-one, Brighton third on nineteen and Chelsea fourth on sixteen, nine games each (ESPN). Liverpool are fifth on fifteen, a point below the Champions League line and a point above Brentford, with Everton two further back in seventh. Crystal Palace, their hosts on Sunday, are eighteenth on seven with the second-worst goal difference in the division, -12, and play Hoffenheim in Europe tonight. Manchester United, Liverpool's visitors after the international break, are seventeenth on seven, and Nottingham Forest and Sunderland sit below Palace.",
+  "generatedAt": "2026-11-05T23:20:00Z",
+  "overview": "Re-fetched from ESPN on Thursday evening and still the table of Monday night, because the only games since have been European. Arsenal lead on twenty-four, three clear of Manchester City, with Brighton third on nineteen and Chelsea holding the last Champions League place on sixteen, nine games each (ESPN). Liverpool are fifth on fifteen, a point below that line, with Brentford a point behind them and Everton two. Crystal Palace, Sunday's hosts, are eighteenth on seven with a -12 goal difference, and drew 1-1 with Hoffenheim in the Europa League tonight with ten men (ESPN). Manchester United are seventeenth on seven, Forest and Sunderland below Palace.",
   "teams": {
-    "Liverpool": "Fifth on fifteen, +2, a point off Chelsea in fourth; Palace away on Sunday is the first league game since the Arsenal defeat (ESPN).",
+    "Liverpool": "Fifth on fifteen, +2, a point under Chelsea; Palace on Sunday is the first league game since Arsenal (ESPN).",
     "Arsenal": "Top on twenty-four, nine clear of Liverpool with nine games played (ESPN).",
     "Manchester City": "Second on twenty-one, level on games with Arsenal now that every side has played nine (ESPN).",
     "Brighton": "Third on nineteen with the best goal difference in the league, +17 (ESPN).",
-    "Chelsea": "Fourth on sixteen, +4, holding the last Champions League place by a point from Liverpool (ESPN).",
+    "Chelsea": "Fourth on sixteen, the last Champions League place, a point clear of Liverpool (ESPN).",
     "Brentford": "Sixth on fourteen, a point behind Liverpool with five draws and one defeat in nine (ESPN).",
     "Everton": "Seventh on thirteen, two behind Liverpool; the derby at Hill Dickinson Stadium is noon on 29 November (Liverpool FC).",
     "Newcastle": "Thirteenth on eleven after Monday's home defeat by Everton (ESPN).",
-    "Crystal Palace": "Eighteenth on seven with a -12 goal difference, three straight league defeats; Hoffenheim tonight, Liverpool on Sunday without Mateta (ESPN).",
+    "Crystal Palace": "Eighteenth on seven, -12, three league defeats running; drew 1-1 with Hoffenheim on Thursday after Wharton's red (ESPN).",
     "Manchester United": "Seventeenth on seven; at Anfield on 22 November, after the international break.",
     "Sunderland": "Bottom on five; at Anfield on 2 December."
   }
@@ -1130,117 +1132,113 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     "n": "01",
-    "headline": "Three Shirts, And Muriqi Above Them.",
-    "byline": "Express",
-    "dateline": "London · 5 November",
+    "headline": "Not Sustainable, Said The Captain.",
+    "byline": "BBC Sport",
+    "dateline": "Istanbul · 4 November",
     "category": "Tactics",
-    "body": "The goal that beat Liverpool took a long throw, a lofted cross from Archie Brown and one leap. By Thursday morning the Express had named the three men it was made over: Jacquet, twenty-one, Nyoni, nineteen, and Mac Allister, the senior of them, booked earlier and still on. Vedat Muriqi, on as a substitute, scored his first Champions League goal in his ninth appearance in the competition (Opta Analyst). Iraola did not name anyone. He said the ball was won 'against three of our defenders' and left the arithmetic to others. On Sunday at Selhurst the cross will come again, from somebody."
+    "body": "Van Dijk has spent nine years being the answer to the question of how Liverpool defend, so it mattered when he said, plainly, that the answer had stopped working. 'It's definitely not sustainable,' he told the BBC, whose account ran on Thursday evening: ten goals conceded in four Champions League games, three of them from dead balls in one night. He did not hide behind the opponent, though he gave Fenerbahçe their due. He called Sunday 'massive' and Palace 'always tough'. Captains rarely say the obvious out loud. When they do, it is usually a message for the dressing room."
   },
   {
     "n": "02",
-    "headline": "Four, Five, Six, Seven.",
-    "byline": "Express",
-    "dateline": "Istanbul · 4 November",
-    "category": "Manager",
-    "body": "Iraola's defence of the five changes was a count. 'I think we've been changing at least four, five, six, seven players,' he said, every midweek, all season; with this schedule it is impossible to keep the same eleven. He thought the men who had not played at the weekend had played well, and he wanted the conversation moved to how the goals went in. Goal's account, translated from the Daily Mail, has the sharper line: they knew set pieces were Fenerbahçe's strength. Knowing is the uncomfortable part. Palace are the next side with nothing much to lose and a dead ball to aim."
+    "headline": "Ten Men, And Kamada At The Death.",
+    "byline": "ESPN",
+    "dateline": "Selhurst Park · 5 November",
+    "category": "Match Report",
+    "body": "Crystal Palace went behind after seven minutes to a goal from Prass and spent most of the evening behind. Hoffenheim had six shots by half-time, Palace none (VAVEL). Sage changed it on the hour, Nketiah and Mingueza on for Timber and Khalaili, and then lost Adam Wharton to a second yellow card on seventy-seven, a leading arm into Wouter Burger in the air. In the first minute of stoppage time Daichi Kamada equalised. The numbers called it even, 1.1 expected goals to 1.22 (101 Great Goals). The legs will be the question at the same ground on Sunday."
   },
   {
     "n": "03",
-    "headline": "Zero Per Cent, And A Late Check.",
-    "byline": "The False 9",
-    "dateline": "Liverpool · 4 November",
+    "headline": "Two Previews, One Eleven.",
+    "byline": "Evening Standard",
+    "dateline": "London · 5 November",
     "category": "Injuries",
-    "body": "The official fantasy site, which has no stake in sentiment, gives Jeremie Frimpong no chance of playing on Sunday and no return date. Gravenberch's fractured heel will be looked at late, The False 9 says, and Bradley is still working back from January's knee. Their first Palace XI brings Isak back to lead the line after twenty-four minutes and a goal in Istanbul, and puts Szoboszlai beside Mac Allister, Iraola going with experience. That would send Nyoni, man of the match on FotMob's ratings at 8.2 (SI), back to the bench, which is how a nineteen-year-old learns what a winner costs."
+    "body": "By Thursday afternoon there were two previews of Sunday and they agreed on everything. The Evening Standard and Brit Brief both pick Alisson behind Araújo, Jacquet, Van Dijk and Kerkez, Szoboszlai and Mac Allister in the pivot, Gakpo, Wirtz and Barcola behind Isak. Both have Frimpong, Bradley, Leoni and Ekitike out, Gravenberch a doubt. The Standard adds one thing the other does not: that Alisson is under some scrutiny after Istanbul. If Gravenberch's heel says no, the replacement it names is Nyoni, which is how Wednesday's best player might start on Sunday after all."
   },
   {
     "n": "04",
-    "headline": "A Midfielder For The Winter.",
-    "byline": "Sports Mole",
+    "headline": "Trent, Third Choice, And A Call.",
+    "byline": "Anfield Index",
     "dateline": "London · 5 November",
     "category": "Transfers",
-    "body": "Sports Mole filed its verdict a little after one on Thursday morning: Nyoni was arguably the best player on the pitch, and Liverpool must buy a midfielder in January anyway. The name attached is Lamine Camara, twenty-two, of Monaco, nearly a Chelsea player on deadline day. TEAMtalk reported on Monday that Monaco are ready to sell for £60m; Football365 had a €50m offer prepared. Fabrizio Romano's line, quoted by Football365, is the measured one: midfield will '100% be an area of focus for Liverpool in 2027', January or summer depending on the opportunity. With Gravenberch's heel, the opportunity is already visible."
+    "body": "The story that will not stay down came back on Thursday. Anfield Index, citing the Spanish radio station Cadena SER, reports that Liverpool have made initial contact about Trent Alexander-Arnold, said to be third choice at Real Madrid, with a January loan the likeliest shape. The obstacles are older than the story: his wage, Madrid's reluctance, and Guillem Balague's flat answer last month, 'No, not in January' (Football365). Liverpool have two senior right-backs injured and a centre-back playing there. That explains why the link keeps returning. It does not make it happen."
   },
   {
     "n": "05",
-    "headline": "Palace, First, Against Hoffenheim.",
-    "byline": "Read Crystal Palace",
-    "dateline": "London · 4 November",
-    "category": "Race for Europe",
-    "body": "Pierre Sage took the questions on Wednesday night as a man three league defeats into a bad run and spoke like one. 'The responsibility is on me,' he said. He had three sessions, one more than usual, and used them on attack: how to build, how to get behind a back line, because his side had defended a lot and attacked 'not in the way that we decided before the game'. Palace host Hoffenheim at 5.45pm on Thursday, their eighth game in twenty-five days, with Timber and Strand Larsen back. Liverpool come to Selhurst three days later. Whichever Palace turns up will have been tested first."
+    "headline": "Nyoni, Counted.",
+    "byline": "Anfield Index",
+    "dateline": "Liverpool · 5 November",
+    "category": "Football News",
+    "body": "The numbers from Istanbul, collected by Anfield Index on Thursday night, are a midfielder's numbers, not a teenager's: 83 passes, nine recoveries, three interceptions, the most of any Liverpool player in all three, and a first senior goal, deflected in on twenty-five minutes. David Lynch, on the Media Matters podcast, called him 'superb'. The same article reports advanced talks on a new contract. The Standard's Sunday eleven leaves him on the bench unless Gravenberch is ruled out. Nineteen-year-olds who play like this tend not to stay there for long."
   }
 ];
 export const NEWS_DIGEST = {
-  "generatedAt": "2026-11-05T13:45:00Z",
-  "summary": "Thursday morning, three days before Selhurst Park, the Istanbul inquest has narrowed to one header: the Express names Jérémy Jacquet, Trey Nyoni and Alexis Mac Allister as the three Liverpool players Vedat Muriqi beat to Archie Brown's cross for Fenerbahçe's winner, and Iraola called it 'something that definitely we have to defend better' (Express via AOL). He defended the rotation around it, 'at least four, five, six, seven players' changed for midweek games all season, and Goal's account has him admitting Liverpool knew set pieces were Fenerbahçe's strength (Goal via Yardbarker). The first preview of Sunday, The False 9's, restores Isak at nine and pairs Szoboszlai with Mac Allister, with Gravenberch facing a late check on his fractured heel. Crystal Palace play first, at home to Hoffenheim in the Europa League at 5.45pm GMT tonight, their eighth game in twenty-five days, with Timber and Strand Larsen back and Pierre Sage saying 'the responsibility is on me' (Dave.sport; Read Crystal Palace). Liverpool are fifth on fifteen, a point behind Chelsea, after two defeats running (ESPN).",
+  "generatedAt": "2026-11-05T23:20:00Z",
+  "summary": "Thursday evening, Virgil van Dijk has put the captain's name to the Istanbul verdict: 'It's definitely not sustainable,' he said of Liverpool's defending, ten goals conceded in four Champions League games, and called Sunday at Crystal Palace 'massive' (BBC via Yahoo). He conceded that a side 'very good at defending set-pieces' had not been against Fenerbahçe (Independent via Yahoo). Palace, meanwhile, needed Daichi Kamada's equaliser in the first minute of stoppage time to draw 1-1 with Hoffenheim at Selhurst Park tonight, after Adam Wharton was sent off for a second yellow card on seventy-seven minutes (ESPN; 101 Great Goals). The two Thursday previews of Sunday, the Evening Standard's and Brit Brief's, agree on Liverpool's eleven, with Araújo at right-back and Gravenberch a doubt, and the game is on Sky Sports at 2pm (Evening Standard via Yahoo). Liverpool are fifth on fifteen, a point behind Chelsea (ESPN).",
   "keyTopics": [
     {
-      "title": "Three Shirts, One Header (Express via AOL, today)",
+      "title": "'Definitely Not Sustainable' (BBC via Yahoo, this evening)",
       "category": "tactics",
-      "detail": "Updated at 7.51am on Thursday: the Express names Jacquet, Nyoni and Mac Allister as the three Muriqi beat to Brown's lofted cross for the 79th-minute winner. Iraola on the free kick: 'the wall, I don't think we set it properly' (Express via AOL)."
+      "detail": "Published at 5.09pm GMT on Thursday: Van Dijk on the defending after Istanbul, 'It's definitely not sustainable,' and 'We cannot lose in the manner we did. But we did and it is down to Fenerbahce as well.' The BBC notes ten goals conceded in four Champions League games (BBC via Yahoo)."
     },
     {
-      "title": "Iraola Stands By The Rotation (Express via AOL, today)",
+      "title": "Palace 1-1 Hoffenheim, Kamada At The Death (ESPN, tonight)",
+      "category": "matches",
+      "detail": "Played at Selhurst Park on Thursday night: Prass scored for Hoffenheim on seven minutes, Wharton went off for a second yellow on seventy-seven and Kamada equalised in the first minute of stoppage time (ESPN). 101 Great Goals has the expected goals at 1.1 to 1.22, five shots on target each."
+    },
+    {
+      "title": "Set Pieces, In The Captain's Words (Independent via Yahoo, this evening)",
+      "category": "tactics",
+      "detail": "Filed at 5.44pm GMT on Thursday: 'We have been very good at defending set-pieces but (against Fenerbahce) we haven't,' Van Dijk said, with the focus moving to Sunday's trip to Palace (Independent via Yahoo). All three Fenerbahçe goals came from dead balls."
+    },
+    {
+      "title": "The Standard's Palace XI: Araújo At Right-Back (Evening Standard via Yahoo, today)",
+      "category": "matches",
+      "detail": "Published at 3.56pm GMT on Thursday: Alisson; Araújo, Jacquet, Van Dijk, Kerkez; Szoboszlai, Mac Allister; Gakpo, Wirtz, Barcola; Isak, with Gravenberch a doubt and Nyoni the man to replace him. Brit Brief's preview, filed at 3.08pm, names the same eleven."
+    },
+    {
+      "title": "Lynch On Nyoni: 'Superb' (Anfield Index, today)",
       "category": "general",
-      "detail": "Reported on Thursday morning: 'We've done this not just today. We've been doing it all season and all the games we've played midweek,' Iraola said of the five changes, adding that it is 'impossible to maintain with always the [same] starting XI' (Express via AOL)."
+      "detail": "Reported on Thursday evening: David Lynch, on the Media Matters podcast, praised Nyoni after Istanbul, where he made 83 passes, nine recoveries and three interceptions, the most of any Liverpool player in each (Anfield Index)."
     },
     {
-      "title": "'We Knew It Was One Of Their Strengths' (Goal, today)",
-      "category": "tactics",
-      "detail": "Published at 4.05am ET on Thursday: 'We knew it was one of Fenerbahce's strengths. We conceded a goal from a free kick, a corner, and even from a long throw-in at the end' (Goal via Yardbarker). Goal notes a third straight Champions League game with three conceded."
+      "title": "'I Trust The Squad' (Lente Desportiva, today)",
+      "category": "general",
+      "detail": "Published on Thursday night: Iraola's diagnosis after Istanbul rests on the three set pieces, and his line on what follows is short: 'I trust the squad' (Lente Desportiva). Palace, it notes, arrive with three straight league defeats and a -12 goal difference."
     },
     {
-      "title": "Palace Host Hoffenheim Tonight (Dave.sport, today)",
-      "category": "matches",
-      "detail": "Thursday, 5.45pm GMT at Selhurst Park: Palace's eighth game in twenty-five days, Timber and Strand Larsen available again but neither confirmed as a starter (Dave.sport). Sage, on Wednesday night: 'The responsibility is on me and I have to deal with this kind of thing' (Read Crystal Palace)."
-    },
-    {
-      "title": "Sports Mole: A Midfielder In January (Sports Mole, today)",
+      "title": "Trent, A Phone Call From Home (Anfield Index, today)",
       "category": "transfers",
-      "detail": "Filed at 1.26am on Thursday: Sports Mole calls Nyoni 'arguably the best player on the pitch' and argues Liverpool 'must look to bring in a new midfielder in the winter transfer window', naming Monaco's Lamine Camara as strongly linked (Sports Mole)."
+      "detail": "Reported on Thursday: citing Cadena SER, Anfield Index says Liverpool have made initial contact about Alexander-Arnold, reportedly third choice at Real Madrid, most likely as a January loan. Guillem Balague's answer on 26 October was 'No, not in January' (Football365). A link, contested."
     },
     {
-      "title": "Isak Back At Nine, On The First Preview (The False 9, 1d ago)",
-      "category": "matches",
-      "detail": "Published on Wednesday evening: Alisson; Gomez, Jacquet, Van Dijk, Kerkez; Szoboszlai, Mac Allister; Barcola, Wirtz, Gakpo; Isak, with Nyoni 'pushing for another start' and Ngumoha and Muñoz to the bench (The False 9)."
-    },
-    {
-      "title": "Frimpong At Zero Per Cent (The False 9, 1d ago)",
+      "title": "Gravenberch, Still A Doubt (Brit Brief, today)",
       "category": "injuries",
-      "detail": "Updated on Wednesday evening: Frimpong carries a 0 per cent chance of playing on the official FPL site and no return date; Gravenberch 'faces a late check before Sunday' and Bradley is 'still working back from the knee injury he suffered in January' (The False 9)."
+      "detail": "Listed on Thursday afternoon: Gravenberch is the one doubt for Palace, with Frimpong, Bradley, Leoni and Ekitike out (Brit Brief; Evening Standard via Yahoo). The False 9 said on Wednesday he faces a late check on the heel."
     },
     {
-      "title": "Nyoni 8.2, Jacquet 5.9 (SI, 1d ago)",
-      "category": "matches",
-      "detail": "Published on Wednesday night: SI's FotMob ratings put Nyoni top on 8.2 and Jacquet bottom on 5.9, 'hardly covered himself in glory for two of Fenerbahçe's goals'. FotMob's model has the game 1.57 expected goals to 1.70, with four big chances each (SI)."
+      "title": "Muriqi's Header, The Morning After (Express via AOL, today)",
+      "category": "tactics",
+      "detail": "From Thursday morning: the Express named the three Liverpool players the winning header was won over, Jacquet, Nyoni and Mac Allister, the youngest of them nineteen. Van Dijk's verdict, published later in the day, did not name anyone either."
     },
     {
-      "title": "Ngumoha, Four Starts From Four (Opta Analyst, 1d ago)",
-      "category": "general",
-      "detail": "From Wednesday's stats page: Ngumoha is the youngest English player, and the youngest for an English club, to start each of his side's first four games of a Champions League campaign; he completed seven of ten dribbles in Istanbul (Opta Analyst)."
-    },
-    {
-      "title": "Two Englishmen Score Against An English Side (Opta Analyst, 1d ago)",
-      "category": "general",
-      "detail": "Noted on Wednesday night: Greenwood and Brown made it only the second Champions League game in which two English players scored against an English team, after Lampard and Bridge for Chelsea at Arsenal in April 2004 (Opta Analyst)."
-    },
-    {
-      "title": "Camara: Monaco's Green Light (TEAMtalk, 3d ago)",
+      "title": "Camara, And Monaco's Price (TEAMtalk, 3d ago)",
       "category": "transfers",
-      "detail": "Reported on Monday: Monaco are 'ready to agree' Camara's sale in January, per Football Insider, with the price raised to £60m (TEAMtalk); Football365 had Liverpool preparing a €50m (£42m) offer, citing Tuttomercatoweb. A January link, not a deal."
+      "detail": "Reported on Monday: Monaco are ready to sell Lamine Camara in January for £60m (TEAMtalk, citing Football Insider), with Football365 reporting a €50m offer prepared. Still a January link, revived by Gravenberch's heel."
     }
   ],
   "sources": [
-    "Express via AOL",
-    "Goal via Yardbarker",
-    "The False 9",
-    "Dave.sport",
-    "Read Crystal Palace",
-    "Sports Mole",
-    "SI",
-    "Opta Analyst",
-    "TEAMtalk",
+    "BBC via Yahoo",
+    "Independent via Yahoo",
+    "ESPN",
+    "101 Great Goals",
+    "Evening Standard via Yahoo",
+    "Brit Brief",
+    "Anfield Index",
+    "Lente Desportiva",
     "Football365",
-    "ESPN"
+    "The False 9",
+    "Express via AOL",
+    "TEAMtalk"
   ]
 };
 // ─────────────────────────────────────────────────────────────────────────────
@@ -1261,7 +1259,7 @@ export const NEWS_DIGEST = {
 // next edition and then into the auditor's blind spot.
 
 export const OPPOSITION = {
-  "generatedAt": "2026-11-05T13:45:00Z",
+  "generatedAt": "2026-11-05T23:20:00Z",
   "opponent": "Crystal Palace",
   "shortName": "Palace",
   "fixture": {
@@ -1269,18 +1267,18 @@ export const OPPOSITION = {
     "venue": "Selhurst Park, London",
     "home": false,
     "competition": "PL",
-    "broadcast": "Premier League, matchday ten, Sunday 8 November, 2pm GMT (9am ET), Selhurst Park (ESPN fixtures). USA Network and Peacock in the US (DocSports); UK broadcaster not confirmed in the sources read this run"
+    "broadcast": "Premier League, matchday ten, Sunday 8 November, 2pm GMT (9am ET), Selhurst Park (ESPN fixtures). Sky Sports in the UK (Evening Standard via Yahoo); USA Network and Peacock in the US (DocSports)"
   },
   "manager": "Pierre Sage",
   "formation": "3-4-2-1",
   "leaguePosition": 18,
-  "summary": "Before they face Liverpool, Crystal Palace host Hoffenheim in the Europa League tonight at 5.45pm GMT, their eighth game in twenty-five days (Dave.sport), with four points from three league-phase games and a manager who says 'the responsibility is on me' (Read Crystal Palace). In the Premier League they are eighteenth on seven, three defeats running without a goal, the first such run since March 2023 (beIN SPORTS), and Football Insider reported that defeat at Tottenham would have sealed Pierre Sage's future; they lost 2-0 with ten men and he is still in charge. Mateta's three-match ban stood on Wednesday, so he misses Liverpool, Coventry and Hull (ESPN; beIN SPORTS). Their one recent win was 1-0 at Fulham in the Carabao Cup, Nketiah scoring (Read Crystal Palace), and Sunday is their second game in four days, as it is Liverpool's.",
-  "shape": "A 3-4-2-1 in their last league start, Richards, Disasi and Canvot across the back with Mingueza and Mitchell as wing-backs, Wharton and Kamada in the middle, McNeil and Pino behind the striker (mylineups). Without the ball it drops into five; at Tottenham it became a 5-3-1 shell for over an hour (Read Crystal Palace). Sage spent this week's extra session on attack, on building through midfield and running beyond the last line, because in the last two games his side 'defended a lot' but did not attack as planned (Read Crystal Palace). Nketiah is the expected nine without Mateta, and Football Insider and EPL Index both suggest Strand Larsen may be kept fresh for the league.",
+  "summary": "Crystal Palace come into Sunday off a 1-1 draw with Hoffenheim at Selhurst Park on Thursday night, rescued by Daichi Kamada's equaliser in the first minute of stoppage time after Prass's seventh-minute opener and Adam Wharton's dismissal for a second yellow on seventy-seven (ESPN). It was their eighth game in twenty-five days (Dave.sport) and left them on five points from four in the Europa League's league phase (ESPN). In the Premier League they are eighteenth on seven, three defeats running without a goal (beIN SPORTS), and Football Insider had reported that defeat at Tottenham would seal Pierre Sage's future; he is still in charge, and Sky Sports framed Thursday's point as easing the pressure on him. Mateta played on Thursday but his three-match domestic ban stands, so he misses Liverpool, Coventry and Hull (ESPN; beIN SPORTS).",
+  "shape": "A 3-4-2-1 in their last league start, Richards, Disasi and Canvot across the back with Mingueza and Mitchell as wing-backs, Wharton and Kamada in the middle, McNeil and Pino behind the striker (mylineups). Without the ball it drops into five; at Tottenham it became a 5-3-1 shell for over an hour (Read Crystal Palace). On Thursday Sage changed it on the hour, Nketiah and Mingueza on for Timber and Khalaili (ESPN), and finished with ten men after Wharton's red. Wharton's dismissal came in UEFA competition, and none of the reports read says it affects Sunday; Nketiah remains the expected nine without Mateta.",
   "keyPlayers": [
     {
       "name": "Daichi Kamada",
       "role": "Central midfielder",
-      "threat": "One goal and three assists in nine league games, Palace's most assists, from seven shots (ESPN).",
+      "threat": "One goal and three assists in nine league games, Palace's most assists, from seven shots (ESPN); scored the stoppage-time equaliser against Hoffenheim on Thursday (ESPN).",
       "source": "ESPN"
     },
     {
@@ -1355,6 +1353,14 @@ export const OPPOSITION = {
   ],
   "recentForm": [
     {
+      "date": "2026-11-05",
+      "opponent": "Hoffenheim",
+      "home": true,
+      "score": "1-1",
+      "result": "D",
+      "note": "Europa League league phase: Prass 7', Kamada 90+1'; Wharton sent off on seventy-seven for a second yellow (ESPN). 1.1 expected goals to 1.22, thirteen shots to fifteen (101 Great Goals)."
+    },
+    {
       "date": "2026-10-31",
       "opponent": "Tottenham",
       "home": false,
@@ -1377,17 +1383,9 @@ export const OPPOSITION = {
       "score": "0-2",
       "result": "L",
       "note": "Premier League, a second straight league defeat (ESPN)."
-    },
-    {
-      "date": "2026-10-22",
-      "opponent": "Beşiktaş",
-      "home": false,
-      "score": "2-2",
-      "result": "D",
-      "note": "Europa League league phase, the game in which Timber and Strand Larsen were last fit (ESPN; DaveOCKOP)."
     }
   ],
-  "liverpoolAngle": "The join that matters is the one Istanbul made obvious: three goals from three set pieces, the last a header won over Jacquet, Nyoni and Mac Allister (Express via AOL), against a side Iraola admits Liverpool knew were strong at them (Goal via Yardbarker). Palace have nine league goals in nine and none in three, and a team that low on confidence and without its striker is most likely to score from a dead ball or from wide. Mitchell, a wing-back, is their top league scorer with two and Kamada has three assists (ESPN), and they arrive down the flank where Liverpool field a centre-back at right-back while Frimpong and Bradley are out, the department the depth board marks critical. Palace play on Thursday, a day after Liverpool did, so Sunday tests Liverpool's legs less than Palace's.",
+  "liverpoolAngle": "Van Dijk's own word for the problem is 'not sustainable' (BBC via Yahoo), and the problem is specific: three goals from three set pieces in Istanbul, from a side that had been 'very good at defending set-pieces' (Independent via Yahoo). Palace have not scored in three league games and are without their striker, so a dead ball or a wing-back arriving late is their likeliest route. Mitchell, a wing-back, is their top league scorer with two, and Kamada, with three league assists, has just scored a stoppage-time equaliser (ESPN). They arrive down the flank where Liverpool field a centre-back at right-back while Frimpong and Bradley are out, the department the depth board marks critical. Palace played on Thursday, a day after Liverpool, and finished with ten men, so Sunday tests their legs more than Liverpool's.",
   "modelLine": null,
   "sources": [
     "ESPN",
@@ -1403,14 +1401,19 @@ export const OPPOSITION = {
     "mylineups",
     "DocSports",
     "Express via AOL",
-    "Goal via Yardbarker"
+    "Goal via Yardbarker",
+    "BBC via Yahoo",
+    "Independent via Yahoo",
+    "Sky Sports",
+    "Evening Standard via Yahoo",
+    "VAVEL"
   ]
 };
 export const FORM_TRENDS = {
-  "generatedAt": "2026-11-05T13:45:00Z",
+  "generatedAt": "2026-11-05T23:20:00Z",
   "competition": "PL",
   "played": 9,
-  "headline": "A second and third model now agree with ESPN that Istanbul was close in open play: FotMob had it 1.57 expected goals to 1.70 with four big chances each (SI), against ESPN's 1.55 to 1.70, so the defeat came from the set-piece share, 0.71 of Fenerbahçe's total on ESPN's split. In the league the defence has not had that problem; the attack has. xGscore's model for Arsenal is 1.05 to 1.00 with no shot on target, the third model to make it a near-even game Liverpool lost, and the tracker's league sum stays eleven goals from 11.96 expected (see totals). Palace on Sunday have not scored in three league games, so a dead ball is the likeliest way they hurt anyone.",
+  "headline": "Van Dijk's 'not sustainable' (BBC via Yahoo) is a verdict on Europe more than on the league: ten conceded in four Champions League games (BBC via Yahoo), against a league defence that has not yet let in a set-piece goal. The models agree Istanbul was close in open play, ESPN's 1.55 expected goals to 1.70 and FotMob's 1.57 to 1.70 (SI), so the margin was the dead balls. In the league the problem is the other end: eleven goals from 11.96 expected in the tracker's sum (see totals), and none at home against Arsenal, City or Fulham. Palace, Sunday's hosts, drew 1-1 with Hoffenheim on Thursday on 1.1 expected goals to 1.22 (101 Great Goals) and have not scored in three league games.",
   "diagnosis": [
     {
       "label": "Possession without penetration at home",
@@ -1685,10 +1688,10 @@ export const FORM_TRENDS = {
     "note": "Premier League only, nine games. xG for is 2.73 (Newcastle) plus 1.61 (Forest) plus 0.53 (Ipswich) plus 1.13 (Fulham) plus 1.57 (Bournemouth) plus 0.86 (City) plus 1.51 (Brentford) plus 0.87 (Brighton) plus 1.15 (Arsenal); xG against is 1.43 plus 2.30 plus 0.72 plus 0.71 plus 0.76 plus 1.30 plus 0.85 plus 1.35 plus 0.96. The Brentford and Brighton figures are FotMob's, reported by SI, the City card's 1.30 is Sofascore's and the Arsenal card is LiveScore's (Goal has 1.31 for Liverpool); Opta's own figures replace them when published. Provenance caveat from 21 September stands: Opta's published season expected-goals-against figure through five games was 6.12 rather than the 5.92 those per-match cards summed to. Champions League and Carabao Cup cards are shown but not aggregated. First-half splits exist only for Forest, Tottenham and City and are not aggregated."
   },
   "optaFacts": [
-    "Ngumoha is the youngest English player, and the youngest for an English club, to start each of his side's first four games of a Champions League campaign (Opta Analyst).",
-    "Greenwood and Brown made Fenerbahçe 3-2 Liverpool only the second Champions League game in which two English players scored against an English side, after Lampard and Bridge in April 2004 (Opta Analyst).",
-    "Muriqi's winner was his first Champions League goal, in his ninth appearance in the competition (Opta Analyst).",
-    "Fenerbahçe had gone ten Champions League games without a win, their longest run in the competition, and had not won one since 2008-09 (Opta Analyst)."
+    "Liverpool have conceded ten goals in four Champions League games this season (BBC via Yahoo).",
+    "Nyoni made 83 passes, nine recoveries and three interceptions in Istanbul, the most of any Liverpool player in each (Anfield Index).",
+    "Palace's 1-1 with Hoffenheim was 1.1 expected goals to 1.22, five shots on target each, on 101 Great Goals' numbers.",
+    "Fenerbahçe had gone ten Champions League games without a win, their longest run in the competition, before beating Liverpool (Opta Analyst)."
   ],
   "sources": [
     "UEFA.com",
@@ -1760,12 +1763,13 @@ export const FORM_TRENDS = {
     "Telegraph via Yahoo Sports",
     "BBC Sport via Yahoo Sports",
     "xGscore",
-    "Goal via Yardbarker"
+    "Goal via Yardbarker",
+    "BBC via Yahoo"
   ]
 };
 export const SQUAD_LOAD = {
-  "generatedAt": "2026-11-05T13:45:00Z",
-  "headline": "Three days out from Palace the only fresh fitness word is the absence of any: no Liverpool player was reported hurt in Istanbul (ESPN), Frimpong is rated at zero per cent on the official FPL site, and Gravenberch faces a late check on his fractured heel (The False 9). The first preview puts Szoboszlai back in the pivot after ninety minutes on Wednesday, so the midfield question is whether a player just back from a hamstring can start twice in four days, or whether Nyoni, top-rated in Istanbul at 8.2 (SI), keeps his place. Right-back is still a centre-back's job.",
+  "generatedAt": "2026-11-05T23:20:00Z",
+  "headline": "Thursday's two previews settle the eleven the way this sheet had it: Araújo at right-back, Szoboszlai with Mac Allister, Isak at nine, with Frimpong, Bradley, Leoni and Ekitike out and Gravenberch the only doubt (Evening Standard via Yahoo; Brit Brief). No new Liverpool injury was reported on Thursday. If the heel says no, the Standard's replacement is Nyoni, whose 83 passes and nine recoveries led the side in Istanbul (Anfield Index). Right-back is still a centre-back's job.",
   "minutesNote": "Premier League minutes are not published here yet. Nine league games, four Champions League games and two Carabao Cup ties have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   "unavailable": [
     {
@@ -1877,12 +1881,12 @@ export const SQUAD_LOAD = {
     {
       "position": "Right-back",
       "level": "critical",
-      "detail": "Critical. Frimpong (0 per cent on the FPL site, The False 9) and Bradley (knee) still out; Gomez started there in Istanbul and is The False 9's Palace pick, Araújo, rested on Wednesday, the alternative. Palace's top league scorer, Mitchell, is a left wing-back (ESPN)."
+      "detail": "Critical. Frimpong and Bradley are out of Sunday on both Thursday previews (Evening Standard via Yahoo; Brit Brief), so Araújo, a centre-back, plays there with Gomez the alternative. Palace's top league scorer, Mitchell, is a left wing-back (ESPN). A Trent loan is a link, not a plan (Anfield Index; Football365)."
     },
     {
       "position": "Central midfield",
       "level": "critical",
-      "detail": "Critical. Gravenberch faces a late check on his heel fracture (The False 9). Mac Allister and Szoboszlai played ninety minutes in Istanbul and Nyoni eighty-five (VAVEL); Endo, eligible again in the league, is the only fresh senior holding midfielder, and Sports Mole is already arguing for a January signing."
+      "detail": "Critical. Gravenberch is a doubt with a heel fracture (Evening Standard via Yahoo); Mac Allister and Szoboszlai played ninety minutes in Istanbul and are both in Sunday's predicted pivot. Nyoni is the named replacement and Endo, league-eligible, the only fresh senior holding midfielder."
     },
     {
       "position": "Centre-forward",
@@ -1972,17 +1976,18 @@ export const SQUAD_LOAD = {
     "The Liverpool Offside via Yahoo Sports",
     "VAVEL",
     "Yahoo Sports",
-    "YSscores"
+    "YSscores",
+    "Evening Standard via Yahoo"
   ]
 };
 export const SEASON_PROJECTION = {
-  "generatedAt": "2026-11-05T13:45:00Z",
+  "generatedAt": "2026-11-05T23:20:00Z",
   "played": 9,
   "points": 15,
   "pointsPerGame": 1.67,
   "projectedPoints": 63,
   "projectedFinish": "Europa League places on current pace",
-  "headline": "Unchanged since Sunday because the league has not moved: fifteen points from nine, 1.67 a game, a pace of sixty-three (ESPN). That is five short of the usual Champions League par and three above fifth, and Selhurst Park on Sunday is the first chance to move it in a week. Nine games is still a small sample.",
+  "headline": "Still fifteen points from nine on ESPN's table, 1.67 a game, a pace of sixty-three. That is five below the usual Champions League par and three above fifth, and it cannot move until Sunday at Selhurst Park. Nine games remain a small sample.",
   "thresholds": [
     {
       "label": "Champions League (top 4)",
@@ -2060,7 +2065,7 @@ export const SEASON_PROJECTION = {
       "difficulty": "medium"
     }
   ],
-  "runInVerdict": "Crystal Palace, eighteenth, and Manchester United, seventeenth, come first, then Everton, seventh, on ESPN's table. Seven points from those three keeps the sixty-eight par in reach; three or fewer drags the pace under the fifth-place line. Palace are without the banned Mateta (ESPN) and play Hoffenheim tonight, three days before Liverpool arrive.",
+  "runInVerdict": "Palace, eighteenth, and Manchester United, seventeenth, come first, then Everton, seventh (ESPN). Seven points from those three keeps the sixty-eight par in reach; three or fewer drags the pace under the fifth-place line. Palace played Hoffenheim on Thursday and finished with ten men (ESPN), and Mateta is banned for Sunday.",
   "sources": [
     "ESPN",
     "SI",

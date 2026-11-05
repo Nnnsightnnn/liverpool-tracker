@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday, and Istanbul has been reduced to one header: Muriqi rising above three Liverpool shirts for the winner, the kind
-          of defending Iraola says must be better. Fifth on fifteen after two defeats, Liverpool have three days to fix a set-piece habit
-          before Selhurst Park. Palace play Hoffenheim first, tonight, and then face Liverpool without the banned Mateta.
+          Thursday night, and the captain has said it: Liverpool's defending, ten goals in four European games, is not sustainable.
+          Fifth on fifteen after two defeats, they go to Selhurst Park on Sunday, a game Van Dijk calls massive. Palace got there first,
+          a stoppage-time draw with Hoffenheim and ten men, and will face Liverpool on three days' rest without the banned Mateta.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Morning</span>,{" "}
-              and the inquest has found its picture: a long throw, a lofted cross from Archie Brown, and Vedat Muriqi climbing above
-              Jacquet, Nyoni and Mac Allister, the three the Express names, for the header that beat Liverpool. Iraola defended the rotation
-              that put a nineteen-year-old in that cluster, four, five, six, seven changes for every midweek game this season, and did not
-              defend the marking. The first preview of Sunday brings Isak back and puts Szoboszlai beside Mac Allister, which would leave
-              Nyoni, Liverpool's best-rated player in Istanbul, on the bench. Gravenberch's heel gets a late check; Frimpong's muscle does
-              not get one at all. Palace go first, at home to Hoffenheim tonight, under a manager who says the responsibility is his.
-              The cure for a dead ball is rarely a new eleven. It is the same eleven, standing closer.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the word came from the man least given to drama. Virgil van Dijk, asked about Istanbul, said the defending was definitely
+              not sustainable, and that a side very good at set pieces had not been, and he did not blame the rotation or the noise. At
+              Selhurst Park, a few hours later, Crystal Palace went a goal down to Hoffenheim, lost Adam Wharton to a second yellow card and
+              found an equaliser from Daichi Kamada in stoppage time. Two previews of Sunday now name the same Liverpool eleven, Araújo at
+              right-back, Szoboszlai with Mac Allister, and only Gravenberch's heel unsettled. Palace will have had three days and a red
+              card to recover. Liverpool will have had four and their captain's verdict.
+              A sentence from the captain carries further than a speech from anyone else.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: three shirts, and Muriqi above them; four, five, six, seven;
-              zero per cent, and a late check; a midfielder for the winter; and Palace, first, against Hoffenheim.
+              five dispatches from the writers who never clock off: not sustainable, said the captain; ten men, and Kamada at the death;
+              two previews, one eleven; Trent, third choice, and a call; and Nyoni, counted.
               Still fifth, nine behind Arsenal, with Crystal Palace away on Sunday.
             </p>
           </div>
@@ -3831,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Three shirts, one header."
+        "Not sustainable, said the captain."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

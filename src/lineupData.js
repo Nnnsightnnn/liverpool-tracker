@@ -51,12 +51,13 @@ export const FORMATIONS = {
     //   but calls him a doubt, so Gakpo stays. Van Dijk's 72nd-minute exit v Chelsea was managed minutes (Evening Standard via AOL).
     // Sun 1 Nov (evening): Arsenal played, Liverpool lost 0-1 (AP). Re-pointed at Fenerbahçe away, UCL, Wed 4 Nov, 5.45pm GMT. Baseline is the
     //   eleven that started at Anfield (Liverpool FC): Nyoni for Gravenberch. No preview for Istanbul yet; Endo and Chiesa not UEFA-registered.
+    // Thu 5 Nov (evening): unchanged in all three shapes. The Evening Standard (via Yahoo, 3.56pm) and Brit Brief (3.08pm) both publish this eleven.
     defaultXI: {
-      GK: 1,  // Alisson (Thu Nov 5 morning; Palace away, The False 9's XI)
+      GK: 1,  // Alisson (Thu Nov 5 evening; Palace away, Evening Standard and Brit Brief XIs agree with this one)
       LB: 7,  // Kerkez (on about ten minutes after the 66' changes in Istanbul; started v Arsenal)
       LCB: 3, // Van Dijk
       RCB: 11, // Jacquet
-      RB: 29, // Araujo (rested in Istanbul; Frimpong and Bradley out)
+      RB: 29, // Araujo (Evening Standard's pick, Thu; Frimpong and Bradley out)
       LCM: 13, // Mac Allister
       CM: 15, // Szoboszlai (The False 9's Palace XI, Wed evening; Nyoni the alternative)
       RCM: 18, // Wirtz (rested in Istanbul)
@@ -105,7 +106,7 @@ export const FORMATIONS = {
     //   (Carabao Cup R4, Wed 28 Oct, 8pm GMT) on The False 9's XI: Nyoni at ten for Wirtz (ankle, doubt), Ngumoha in for Gakpo.
     // Wed 28 Oct (evening): re-pointed at Arsenal at home after the Chelsea shootout; the Brighton XI, as in both previews found.
     defaultXI: {
-      GK: 1,  // Alisson (Thu Nov 5 morning; Palace away, The False 9's XI)
+      GK: 1,  // Alisson (Thu Nov 5 evening; Palace away, Evening Standard and Brit Brief XIs agree with this one)
       LB: 7,  // Kerkez
       LCB: 3, // Van Dijk
       RCB: 11, // Jacquet
@@ -189,33 +190,33 @@ export const FORMATIONS = {
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 // Mon Nov 2 (evening): 12 refreshed for Szoboszlai's 'It stays secret' (Read Liverpool), Iraola on Bradley (Anfield Index via Yahoo Sports) and Khel Now's XI; XIs unchanged.
 export const PLAYER_EVIDENCE = {
-  1:  "FotMob 6.6 in Istanbul",
-  2:  "No. 2 again for Palace",
-  3:  "Denied twice by Ederson",
-  5:  "False 9's RB pick",
-  7:  "Back at LB for Palace",
-  8:  "Knee · no return date",
-  9:  "Muscle · FPL 0%",
-  10: "ACL · break training",
-  11: "FotMob 5.9 · Muriqi header",
+  1:  "Standard XI · 'scrutiny'",
+  2:  "Bench again Sunday",
+  3:  "'Not sustainable' · starts",
+  5:  "Cover · Araújo at RB",
+  7:  "LB in both previews",
+  8:  "Knee · out of Palace",
+  9:  "Hamstring · out Sunday",
+  10: "ACL · out of Palace",
+  11: "Kept at CB by Standard",
   12: "On loan at Levante",
-  13: "Beside Szoboszlai Sunday",
-  14: "Heel · late check Sunday",
-  15: "Back in the pivot",
-  17: "League-eligible, fresh",
-  18: "Back at ten for Palace",
-  20: "FotMob 8.2 · bench?",
-  22: "Right side · False 9 XI",
-  23: "Leads the line Sunday",
+  13: "Pivot in both previews",
+  14: "Heel · doubt for Palace",
+  15: "Pivot · two previews agree",
+  17: "Fresh, unpicked",
+  18: "Ten in both previews",
+  20: "83 passes · 'superb'",
+  22: "Standard's front three",
+  23: "Nine in both previews",
   24: "Achilles · Boxing Day",
-  25: "Four UCL starts from four",
-  26: "League-eligible again",
+  25: "Bench for Palace",
+  26: "Eligible, unpicked",
   27: "Third keeper",
-  28: "Bench for Palace",
-  29: "Rested · RB alternative",
-  30: "Back to the left",
+  28: "Bench in both previews",
+  29: "RB in Standard's XI",
+  30: "Wide in Standard's XI",
   31: "Bench nine",
-  32: "FotMob 6.8 · Kerkez back",
+  32: "Bench · Kerkez back",
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -357,7 +358,7 @@ export const SLOT_CONFIDENCE = {
   LB: "Medium",
   LCB: "High",
   RCB: "High",
-  RB: "Low",
+  RB: "Medium",
   LDM: "Low",
   RDM: "High",
   LAM: "Medium",
@@ -372,16 +373,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Thu Nov 5, morning - Kerkez, back in The False 9's XI after a cameo in Istanbul. Medium.",
-  LCB: "Thu Nov 5, morning - Van Dijk, twice denied by Ederson in Istanbul, captain. High.",
-  RCB: "Thu Nov 5, morning - Jacquet, kept in every XI despite FotMob's 5.9 in Istanbul. High.",
-  RB: "Thu Nov 5, morning - Araújo held; The False 9 picks Gomez, who started there in Istanbul. Low.",
-  LDM: "Thu Nov 5, morning - Szoboszlai, as in The False 9's XI; Nyoni, rated 8.2 in Istanbul, the alternative. Low.",
-  RDM: "Thu Nov 5, morning - Mac Allister, in every XI. High.",
-  LAM: "Thu Nov 5, morning - Barcola, back on the left in The False 9's XI. Medium.",
-  CAM: "Thu Nov 5, morning - Wirtz, back at ten after a bench evening. Medium.",
-  RAM: "Thu Nov 5, morning - Gakpo, right side in The False 9's XI. Medium.",
-  ST: "Thu Nov 5, morning - Isak, the preview's headline pick. High.",
+  LB: "Thu Nov 5, evening - Kerkez, left-back in both Thursday previews. Medium.",
+  LCB: "Thu Nov 5, evening - Van Dijk, who called the defending 'not sustainable'; captain. High.",
+  RCB: "Thu Nov 5, evening - Jacquet, kept by the Evening Standard and Brit Brief. High.",
+  RB: "Thu Nov 5, evening - Araújo, now the Evening Standard's pick too; Gomez the alternative. Medium.",
+  LDM: "Thu Nov 5, evening - Szoboszlai, in both previews; Nyoni if Gravenberch is out and changes are made. Low.",
+  RDM: "Thu Nov 5, evening - Mac Allister, unmoved in every XI. High.",
+  LAM: "Thu Nov 5, evening - Barcola, wide in the Standard's front three. Medium.",
+  CAM: "Thu Nov 5, evening - Wirtz, the ten in both previews. Medium.",
+  RAM: "Thu Nov 5, evening - Gakpo, in the Standard's three behind Isak. Medium.",
+  ST: "Thu Nov 5, evening - Isak, the nine in both previews. High.",
 };
 
 
@@ -407,8 +408,8 @@ export const ALTERNATIVES = {
 // Overall confidence chip shown above the pitch. Enriched with predictor
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
-  level: "Low",
-  generated_at: "2026-11-05T13:45:00Z",
-  reason: "Thu Nov 5, morning. Crystal Palace away, Premier League, Sun 8 Nov, 2pm GMT. Nine of the Arsenal XI, with Szoboszlai for Gravenberch (heel, late check) in the pivot, following The False 9's Wednesday-evening preview, the only one published; it also has Gomez at right-back, held here at Araújo. Low until Iraola's Friday press conference.",
+  level: "Medium",
+  generated_at: "2026-11-05T23:20:00Z",
+  reason: "Thu Nov 5, evening. Crystal Palace away, Premier League, Sun 8 Nov, 2pm GMT, Sky Sports. Nine of the Arsenal XI with Szoboszlai for Gravenberch (heel, doubt); the Evening Standard and Brit Brief published the same eleven on Thursday afternoon, Araújo at right-back. Medium until Iraola's pre-match press conference.",
 };
 
