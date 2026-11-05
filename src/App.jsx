@@ -572,7 +572,7 @@ function CoverView({ onJump }) {
         }}>
           Thursday, and Istanbul has been reduced to one header: Muriqi rising above three Liverpool shirts for the winner, the kind
           of defending Iraola says must be better. Fifth on fifteen after two defeats, Liverpool have three days to fix a set-piece habit
-          before Selhurst Park, where a Palace side without Mateta play Hoffenheim first, tonight.
+          before Selhurst Park. Palace play Hoffenheim first, tonight, and then face Liverpool without the banned Mateta.
         </p>
 
         <StatStrip stats={stats} />
@@ -722,7 +722,7 @@ function FormBlock({ results }) {
         borderTop: `1px solid ${T.rule}`, paddingTop: 14,
       }}>
         Fenerbahçe 3-2 in Istanbul on Wednesday, twice ahead and undone by three
-        set pieces, four days after Arsenal 1-0 at Anfield (ESPN; Opta Analyst).
+        set pieces, three days after Arsenal 1-0 at Anfield (ESPN; Opta Analyst).
         Three wins and two defeats across the last five in all competitions.
       </p>
     </div>

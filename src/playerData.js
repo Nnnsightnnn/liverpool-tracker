@@ -1132,7 +1132,7 @@ export const DISPATCHES = [
     "n": "01",
     "headline": "Three Shirts, And Muriqi Above Them.",
     "byline": "Express",
-    "dateline": "Istanbul · 4 November",
+    "dateline": "London · 5 November",
     "category": "Tactics",
     "body": "The goal that beat Liverpool took a long throw, a lofted cross from Archie Brown and one leap. By Thursday morning the Express had named the three men it was made over: Jacquet, twenty-one, Nyoni, nineteen, and Mac Allister, the senior of them, booked earlier and still on. Vedat Muriqi, on as a substitute, scored his first Champions League goal in his ninth appearance in the competition (Opta Analyst). Iraola did not name anyone. He said the ball was won 'against three of our defenders' and left the arithmetic to others. On Sunday at Selhurst the cross will come again, from somebody."
   },
