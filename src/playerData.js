@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Fri Nov 6, evening - Muscle: on every list published after Iraola's press conference (Brit Brief; DaveOCKOP; Anfield Index via Yahoo), so the Thursday-night report that he could play is not borne out; 22 November remains the target.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Fri Nov 6, evening - Muscle: out on Brit Brief's pre-presser list and on DaveOCKOP's and Anfield Index's after it, so the Thursday-night report that he could play is not borne out; 22 November remains the target.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -1015,7 +1015,7 @@ export const RESULTS = [
 // `qualification` is derived from ESPN's note.description field:
 //   "UCL" = Champions League, "UEL" = Europa League, "UECL" = Conference League,
 //   "REL" = Relegation. Liverpool's row is flagged with `highlight: true`.
-// Last refresh: 2026-11-02 (Monday evening, ~6pm ET): Everton won at Newcastle on Monday night, Everton 14th to 7th, Newcastle 12th to 13th; see the dated log below. Earlier: 2026-10-28 (Wednesday morning, ~4am ET). Re-fetched from ESPN, byte-identical to Tuesday evening; no league game until Sunday.
+// Last refresh: 2026-11-06 (Friday evening, ~6pm ET): Everton 3-1 Coventry, Everton fifth, Liverpool sixth; see the dated log below. Earlier: 2026-11-02 (Monday evening, ~6pm ET): Everton won at Newcastle on Monday night, Everton 14th to 7th, Newcastle 12th to 13th; see the dated log below. Earlier: 2026-10-28 (Wednesday morning, ~4am ET). Re-fetched from ESPN, byte-identical to Tuesday evening; no league game until Sunday.
 // Prior refresh: 2026-10-27 (Tuesday morning, ~4am ET). Re-fetched from ESPN, byte-identical to Monday evening; no league game until Sunday.
 // Prior refresh: 2026-10-26 (Monday evening, ~6pm ET). Re-fetched from ESPN, byte-identical to Sunday evening; no league game on Monday.
 // Prior refresh: 2026-10-25 (Sunday evening, ~6pm ET). Re-fetched from ESPN after Sunday's five games: LIVERPOOL 2-0 Brighton, Man Utd 0-3
@@ -1079,9 +1079,11 @@ export const RESULTS = [
 // Refresh 2026-11-01 (Sunday evening, ~6pm ET). Re-fetched from ESPN after LIVERPOOL 0-1 Arsenal: Arsenal first on twenty-four, City second
 // on twenty-one, Brighton third, Chelsea fourth, LIVERPOOL fifth (highlighted) on fifteen, goal difference down to two. Relegation stripe unchanged.
 // Refresh 2026-11-04 (Wednesday evening pass, run after midnight UTC on Thu 5). Re-fetched from ESPN, unchanged: Fenerbahçe 3-2 Liverpool was
-// Champions League only. Liverpool sixth on fifteen after Everton beat Coventry on Friday night; Palace eighteenth on seven.
+// Champions League only. Liverpool fifth on fifteen; Palace eighteenth on seven before Sunday's game at Selhurst Park.
 // Refresh 2026-11-05 (Thursday evening, ~6pm ET). Re-fetched from ESPN, byte-identical; Palace 1-1 Hoffenheim was Europa League only.
 // Refresh 2026-11-06 (Friday morning pass, cloud). Re-fetched from ESPN, byte-identical; matchweek ten starts on Saturday.
+// Refresh 2026-11-06 (Friday evening pass, cloud). Re-fetched from ESPN after Everton 3-1 Coventry on Friday night: Everton seventh to fifth on
+// sixteen (UEL stripe), LIVERPOOL sixth (highlighted) on fifteen, Brentford seventh; Coventry sixteenth on nine from ten.
 export const STANDINGS = [
   { pos: 1, team: "Arsenal", p: 9, w: 8, d: 0, l: 1, gd: 9, pts: 24, qualification: "UCL" },
   { pos: 2, team: "Manchester City", p: 9, w: 7, d: 0, l: 2, gd: 10, pts: 21, qualification: "UCL" },
@@ -1146,7 +1148,7 @@ export const DISPATCHES = [
     "byline": "Liverpool FC",
     "dateline": "Kirkby · 6 November",
     "category": "Injuries",
-    "body": "Iraola's injury news came in one sentence and one name. 'The only doubt we will have is Ryan.' Gravenberch's heel, which kept him out of Istanbul and out of the Netherlands squad, is now, in the manager's word, a matter of pain, to be judged day by day. Everyone else is as they were, which is the less comforting half of the answer: Frimpong, reported on Thursday night to be close, appears on every list published after the press conference beside Ekitike, Bradley and Leoni. Araújo will play right-back. Nyoni or Szoboszlai will play in midfield."
+    "body": "Iraola's injury news came in one sentence and one name. 'The only doubt we will have is Ryan.' Gravenberch's heel, which kept him out of Istanbul and out of the Netherlands squad, is now, in the manager's word, a matter of pain, to be judged day by day. Everyone else is as they were, which is the less comforting half of the answer: Frimpong, reported on Thursday night to be close, appears on every list published on Friday beside Ekitike, Bradley and Leoni. Araújo will play right-back. Nyoni or Szoboszlai will play in midfield."
   },
   {
     "n": "03",
@@ -1175,7 +1177,7 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   "generatedAt": "2026-11-06T23:40:00Z",
-  "summary": "Friday evening, Iraola has narrowed Sunday's doubts to one: 'The only doubt we will have is Ryan,' he said of Gravenberch's heel, 'a matter of pain' (Liverpool FC), and the lists published after his 1.30pm press conference put Frimpong among four players definitely out with Ekitike, Bradley and Leoni (Brit Brief; DaveOCKOP), so Thursday night's report that he could be rushed back is not borne out and Araújo stays at right-back. His wider message was proportion: 'We are not as bad as we look today, we were not as good as we looked one week ago' (Anfield Index via Yahoo). Tonight Everton beat Coventry 3-1 and went fifth on sixteen (ESPN; VAVEL), so Liverpool, sixth on fifteen with a game in hand, go to Selhurst Park on Sunday at 2pm a place below the European line. Opta's supercomputer still makes them favourites, 47.1% to Palace's 28.5% (Opta Analyst), with Strand Larsen fit for an hour in place of the banned Mateta (Hayters via Yahoo). Rio Ngumoha was named in Thomas Tuchel's England squad this morning (The FA).",
+  "summary": "Friday evening, Iraola has narrowed Sunday's doubts to one: 'The only doubt we will have is Ryan,' he said of Gravenberch's heel, 'a matter of pain' (Liverpool FC), and the lists published either side of his 1.30pm press conference put Frimpong among four players definitely out with Ekitike, Bradley and Leoni (Brit Brief; DaveOCKOP), so Thursday night's report that he could be rushed back is not borne out and Araújo stays at right-back. His wider message was proportion: 'We are not as bad as we look today, we were not as good as we looked one week ago' (Anfield Index via Yahoo). Tonight Everton beat Coventry 3-1 and went fifth on sixteen (ESPN; VAVEL), so Liverpool, sixth on fifteen with a game in hand, go to Selhurst Park on Sunday at 2pm a place below the European line. Opta's supercomputer still makes them favourites, 47.1% to Palace's 28.5% (Opta Analyst), with Strand Larsen fit for an hour in place of the banned Mateta (Hayters via Yahoo). Rio Ngumoha was named in Thomas Tuchel's England squad this morning (The FA).",
   "keyTopics": [
     {
       "title": "'Not As Bad As We Look' (Anfield Index via Yahoo, this evening)",
@@ -1188,21 +1190,6 @@ export const NEWS_DIGEST = {
       "detail": "Played on Friday night: Everton 3-1 Coventry, Thierno Barry scoring twice in a comeback (VAVEL). ESPN's table now has Everton fifth on sixteen from ten games and Liverpool sixth on fifteen from nine, a place below the Europa League line, before Sunday's game at Selhurst Park."
     },
     {
-      "title": "One Doubt, And It Is Ryan (Liverpool FC, today)",
-      "category": "injuries",
-      "detail": "Said at the 1.30pm GMT press conference on Friday: 'The Ryan Gravenberch thing is a day-to-day thing, it's a matter of pain. Let's see if he can deal with the pain and he can help us. The others will be the same as we have been' (Liverpool FC). He was also left out of the Netherlands squad (Anfield Index via Yahoo, 4.20pm)."
-    },
-    {
-      "title": "Frimpong Out After All (Brit Brief, today)",
-      "category": "injuries",
-      "detail": "Published at 12.35pm GMT on Friday and confirmed by DaveOCKOP at 1.54pm after the press conference: Liverpool will definitely be without Frimpong, Ekitike, Bradley and Leoni this weekend. That overrides Thursday night's Daily Mail report, carried in this morning's edition, that Frimpong could play if needed. Araújo stays at right-back."
-    },
-    {
-      "title": "Isak 'Close To A Guarantee', Barcola A Winger (Liverpool FC, today)",
-      "category": "tactics",
-      "detail": "From Friday's press conference: 'Alex is a top goalscorer... It's not a guarantee but it's the closest thing to a guarantee almost.' On Barcola, after Istanbul: 'He is a winger and he will be mostly, 90 per cent of the time, used as a winger' (Liverpool FC). Isak has six league goals in eight games, a total only Haaland's nine beats (Opta Analyst)."
-    },
-    {
       "title": "'If I Were A Fan I Would Do The Same' (Goal, today)",
       "category": "general",
       "detail": "Published by Goal at 5.12pm GMT on Friday: Iraola on the anger after two defeats, 'When we lose a match everyone becomes angry... I understand that completely', and on his side, 'We are an honest group, indeed too honest at times.' He also questioned the lack of an explanation for Isak's penalty claim in Istanbul."
@@ -1211,6 +1198,21 @@ export const NEWS_DIGEST = {
       "title": "Strand Larsen Good For An Hour (Hayters via Yahoo, today)",
       "category": "matches",
       "detail": "Sage's Friday press conference, filed at 2.27pm GMT: Strand Larsen 'is able to play 60, 75 minutes', Sarr 'will come back after the international break'. Mateta's three-match ban stands after the appeal failed, and Timber is back in the squad (Dave.sport, 4.52pm). 101 Great Goals and South London News both name Wharton available."
+    },
+    {
+      "title": "One Doubt, And It Is Ryan (Liverpool FC, today)",
+      "category": "injuries",
+      "detail": "Said at the 1.30pm GMT press conference on Friday: 'The Ryan Gravenberch thing is a day-to-day thing, it's a matter of pain. Let's see if he can deal with the pain and he can help us. The others will be the same as we have been' (Liverpool FC). He was also left out of the Netherlands squad (Anfield Index via Yahoo, 4.20pm)."
+    },
+    {
+      "title": "Isak 'Close To A Guarantee', Barcola A Winger (Liverpool FC, today)",
+      "category": "tactics",
+      "detail": "From Friday's press conference: 'Alex is a top goalscorer... It's not a guarantee but it's the closest thing to a guarantee almost.' On Barcola, after Istanbul: 'He is a winger and he will be mostly, 90 per cent of the time, used as a winger' (Liverpool FC). Isak has six league goals in eight games, a total only Haaland's nine beats (Opta Analyst)."
+    },
+    {
+      "title": "Frimpong Out After All (Brit Brief, today)",
+      "category": "injuries",
+      "detail": "Published by Brit Brief at 12.35pm GMT on Friday, before the press conference, and repeated after it by DaveOCKOP at 1.54pm and Anfield Index at 4.20pm: Liverpool will definitely be without Frimpong, Ekitike, Bradley and Leoni this weekend. That overrides Thursday night's Daily Mail report, carried in this morning's edition, that Frimpong could play if needed. Araújo stays at right-back."
     },
     {
       "title": "Opta Makes Liverpool Favourites (Opta Analyst, today)",
@@ -1436,7 +1438,7 @@ export const FORM_TRENDS = {
       "label": "Right-back by elimination",
       "severity": "high",
       "source": "VAVEL / Liverpool FC / Brit Brief / DaveOCKOP",
-      "detail": "Gomez played right-back in Istanbul and was replaced by Wirtz on sixty-six (VAVEL); Araújo, who played eighty-two minutes there against Arsenal (Liverpool FC), was rested and returns. Friday's post-presser lists have Frimpong and Bradley among four definitely out (Brit Brief; DaveOCKOP), so the flank stays a centre-back's until 22 November at the earliest."
+      "detail": "Gomez played right-back in Istanbul and was replaced by Wirtz on sixty-six (VAVEL); Araújo, who played eighty-two minutes there against Arsenal (Liverpool FC), was rested and returns. Friday's lists, before and after the press conference, have Frimpong and Bradley among four definitely out (Brit Brief; DaveOCKOP), so the flank stays a centre-back's until 22 November at the earliest."
     }
   ],
   "matches": [
@@ -1762,14 +1764,14 @@ export const FORM_TRENDS = {
 };
 export const SQUAD_LOAD = {
   "generatedAt": "2026-11-06T23:40:00Z",
-  "headline": "Iraola reduced the doubts to one on Friday, Gravenberch, whose heel is 'a matter of pain' to be judged day by day (Liverpool FC), and the lists published after his press conference settled the other question: Frimpong is out with Ekitike, Bradley and Leoni (Brit Brief; DaveOCKOP). So right-back stays a centre-back's job and midfield turns on whether Gravenberch can manage the pain, with Szoboszlai 'back available' (Anfield Index via Yahoo) and Nyoni the other option. Ngumoha joins England after Sunday (The FA), so the international break takes a winger rather than a midfielder.",
+  "headline": "Iraola reduced the doubts to one on Friday, Gravenberch, whose heel is 'a matter of pain' to be judged day by day (Liverpool FC), and the lists published either side of his press conference settled the other question: Frimpong is out with Ekitike, Bradley and Leoni (Brit Brief; DaveOCKOP). So right-back stays a centre-back's job and midfield turns on whether Gravenberch can manage the pain, with Szoboszlai 'back available' (Anfield Index via Yahoo) and Nyoni the other option. Ngumoha joins England after Sunday (The FA), so the international break takes a winger rather than a midfielder.",
   "minutesNote": "Premier League minutes are not published here yet. Nine league games, four Champions League games and two Carabao Cup ties have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   "unavailable": [
     {
       "name": "Jeremie Frimpong",
       "issue": "Muscle injury, picked up two or three minutes after coming on at Brentford on 17 October",
       "expected": "22 November, Manchester United at home, on Sports Mole's list and Premier Injuries' tracker",
-      "note": "Listed among four players definitely out for Palace after Friday's press conference (Brit Brief; DaveOCKOP; Anfield Index via Yahoo), overriding Thursday night's Daily Mail report that he could feature if needed.",
+      "note": "Listed among four players definitely out for Palace on Friday, before the press conference by Brit Brief and after it by DaveOCKOP and Anfield Index via Yahoo, overriding Thursday night's Daily Mail report that he could feature if needed.",
       "source": "Brit Brief / DaveOCKOP / Anfield Index via Yahoo / Sports Mole / Premier Injuries"
     },
     {
@@ -1997,7 +1999,7 @@ export const SEASON_PROJECTION = {
       "label": "Europa League (5th)",
       "points": 60,
       "gap": 0,
-      "note": "Fifth-place par, and the stripe Liverpool occupy on ESPN's table. Cleared by three on current pace, a margin Sunday at Palace can widen or erase."
+      "note": "Fifth-place par, the Europa League stripe on ESPN's table, held by Everton since their Friday win with Liverpool a place below. Cleared by three on current pace, a margin Sunday at Palace can widen or erase."
     },
     {
       "label": "Conference League (6th-7th)",

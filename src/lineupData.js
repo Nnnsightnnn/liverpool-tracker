@@ -344,7 +344,7 @@ export const PLAYER_EVIDENCE = {
 //   Palace XI, the first published. It also starts Gomez at right-back; held at Araujo, rested in Istanbul, with Gomez the first alternative. Overall Low.
 // Fri Nov 6 (morning): no personnel change. The Liverpool Echo (1am, via Yahoo) and Brit Brief (12.48am) name this eleven; Frimpong reported 'all-but fit'
 //   but not rushed (Daily Mail via DaveOCKOP), held out. Levels unchanged; Iraola's presser is at 1.30pm GMT.
-// Fri Nov 6 (evening): no personnel change. Iraola: Gravenberch 'the only doubt'; Frimpong confirmed out on post-presser lists (Brit Brief; DaveOCKOP), so RB
+// Fri Nov 6 (evening): no personnel change. Iraola: Gravenberch 'the only doubt'; Frimpong out on Friday's lists either side of the presser (Brit Brief; DaveOCKOP), so RB
 //   rises to High. 101 Great Goals starts Nyoni for Szoboszlai; held at Szoboszlai (Echo, Brit Brief), LDM stays Low. Overall Medium.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
@@ -381,7 +381,7 @@ export const SLOT_RATIONALE = {
   LB: "Fri Nov 6, evening - Kerkez, left-back in 101 Great Goals' Friday XI. Medium.",
   LCB: "Fri Nov 6, evening - Van Dijk, captain; Iraola wants the set plays corrected. High.",
   RCB: "Fri Nov 6, evening - Jacquet, beside Van Dijk in 101 Great Goals' XI. High.",
-  RB: "Fri Nov 6, evening - Araújo, with Frimpong on every post-presser list of the absent (Brit Brief; DaveOCKOP). High.",
+  RB: "Fri Nov 6, evening - Araújo, with Frimpong on every Friday list of the absent (Brit Brief; DaveOCKOP). High.",
   LDM: "Fri Nov 6, evening - Szoboszlai, 'back available' (Anfield Index via Yahoo); 101 Great Goals picks Nyoni. Low.",
   RDM: "Fri Nov 6, evening - Mac Allister, in every XI. High.",
   LAM: "Fri Nov 6, evening - Barcola, a winger '90 per cent of the time' (Iraola, Liverpool FC). Medium.",

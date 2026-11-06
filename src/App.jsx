@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday night, and Everton have gone fifth, so Liverpool will begin Sunday sixth without having kicked a ball. Iraola has
-          one doubt, Gravenberch's heel, and a sense of proportion: not as bad as they look, not as good as they looked. Selhurst Park
-          at two on Sunday, against the most outshot side in the division.
+          Friday night, and Iraola has one doubt, Gravenberch's heel, and a sense of proportion: not as bad as they look, not as
+          good as they looked. Everton have since gone fifth, so Liverpool will begin Sunday sixth without having kicked a ball.
+          Selhurst Park at two, against the most outshot side in the division.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,10 +606,10 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the table moved without them. Everton beat Coventry 3-1 and went fifth, so Liverpool, sixth on fifteen with a game in
-              hand, travel to Selhurst Park on Sunday a place below the European line. Andoni Iraola spent the afternoon narrowing
-              the doubts to one, Ryan Gravenberch, whose heel, he says, is now a matter of pain. Frimpong, for all of Thursday's
-              optimism, is on every list of the absent, so Ronald Araújo plays right-back again. The manager asked for proportion:
+              Andoni Iraola's afternoon has narrowed Sunday's doubts to one, Ryan Gravenberch, whose heel, he says, is now a matter
+              of pain. Frimpong, for all of Thursday's optimism, is on every list of the absent, so Ronald Araújo plays right-back
+              again. Then the table moved without them: Everton beat Coventry 3-1 and went fifth, so Liverpool, sixth on fifteen with
+              a game in hand, travel to Selhurst Park a place below the European line. The manager asked for proportion:
               two defeats do not make a bad side, he said, any more than five wins made a great one. Opta gives them a little under
               half. Perspective holds until Sunday at two.
             </p>
