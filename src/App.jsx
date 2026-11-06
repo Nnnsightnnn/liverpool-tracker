@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday morning, and the right-back Liverpool most need is reported all but fit and is being left alone, so a centre-back
-          plays there again. Fifth on fifteen after two defeats, a point under the Champions League line, they go to Selhurst Park on
-          Sunday afternoon, against the side that concedes the most chances in the league. Iraola speaks at half past one.
+          Friday night, and Everton have gone fifth, so Liverpool will begin Sunday sixth without having kicked a ball. Iraola has
+          one doubt, Gravenberch's heel, and a sense of proportion: not as bad as they look, not as good as they looked. Selhurst Park
+          at two on Sunday, against the most outshot side in the division.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and the news about Jeremie Frimpong is good in the way that changes nothing. He is all but fit, the Daily Mail reports,
-              and could play at Crystal Palace if he had to, and Liverpool have decided he does not have to. So Ronald Araújo, a
-              centre-back, will play right-back again, and Szoboszlai, who the Echo says does not look fully right,
-              will probably play beside Mac Allister while Gravenberch's heel heals. Behind them, Alisson has spent the morning hearing
-              a former Liverpool full-back say his silence cost a goal in Istanbul. Pierre Sage calls Liverpool a crazy team with really
-              good players. On the numbers, his own side concede more chances than anyone. Caution is a decision too.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the table moved without them. Everton beat Coventry 3-1 and went fifth, so Liverpool, sixth on fifteen with a game in
+              hand, travel to Selhurst Park on Sunday a place below the European line. Andoni Iraola spent the afternoon narrowing
+              the doubts to one, Ryan Gravenberch, whose heel, he says, is now a matter of pain. Frimpong, for all of Thursday's
+              optimism, is on every list of the absent, so Ronald Araújo plays right-back again. The manager asked for proportion:
+              two defeats do not make a bad side, he said, any more than five wins made a great one. Opta gives them a little under
+              half. Perspective holds until Sunday at two.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: all but fit, and left alone; the shout that never came; a crazy
-              team, said Sage; left-backs, wanted later; and a third start in a week.
-              Still fifth, nine behind Arsenal, with Crystal Palace away on Sunday.
+              five dispatches from the writers who never clock off: not as bad, not as good; a doubt made of pain; Everton step over
+              them; Tuchel calls Ngumoha again; and an hour of Strand Larsen.
+              Sixth now, nine behind Arsenal, with Crystal Palace away on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Nearly fit is not the same as ready."
+        "Not as bad, not as good."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

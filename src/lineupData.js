@@ -191,31 +191,31 @@ export const FORMATIONS = {
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 // Mon Nov 2 (evening): 12 refreshed for Szoboszlai's 'It stays secret' (Read Liverpool), Iraola on Bradley (Anfield Index via Yahoo Sports) and Khel Now's XI; XIs unchanged.
 export const PLAYER_EVIDENCE = {
-  1:  "Echo XI · Warnock critique",
-  2:  "Bench · no preview change",
-  3:  "Captain · every Friday XI",
-  5:  "RB alternative (Echo)",
-  7:  "'Almost certainly' LB",
-  8:  "Knee · back 22 Nov at best",
-  9:  "'All-but fit' · not rushed",
-  10: "ACL · 2 Jan target",
-  11: "Beside Van Dijk (Echo)",
+  1:  "In goal · no GK doubt",
+  2:  "Bench · Alisson stays",
+  3:  "Captain · fix set plays",
+  5:  "Cover RB/CB · fit",
+  7:  "LB in 101GG's XI",
+  8:  "Knee · out (Brit Brief)",
+  9:  "Muscle · out, not rushed",
+  10: "ACL · out this weekend",
+  11: "Beside VVD again",
   12: "On loan at Levante",
-  13: "Pivot · the constant",
-  14: "Heel · 'likely too soon'",
-  15: "Pivot · 'not 100%' (Echo)",
-  17: "Fresh · not in previews",
-  18: "'Recalled at No.10'",
-  20: "Third start in a week?",
-  22: "'Restored' on the wing",
-  23: "Nine in every preview",
-  24: "Achilles · 26 Dec target",
-  25: "Bench · Iraola 'happy'",
+  13: "Pivot · in every XI",
+  14: "Heel · the only doubt",
+  15: "'Back available' · LDM",
+  17: "Fresh · unmentioned",
+  18: "No.10 in 101GG's XI",
+  20: "101GG starts him",
+  22: "Left wing in 101GG XI",
+  23: "'Closest to a guarantee'",
+  24: "Achilles · Boxing Day",
+  25: "England call-up Fri",
   26: "Eligible · unpicked",
   27: "Third keeper",
-  28: "Bench option",
-  29: "RB again · Frimpong held",
-  30: "'Probably' starts wide",
+  28: "Wide bench option",
+  29: "RB · Frimpong out",
+  30: "Winger '90%' of time",
   31: "Bench nine",
   32: "Bench · Kerkez starts",
 };
@@ -344,6 +344,8 @@ export const PLAYER_EVIDENCE = {
 //   Palace XI, the first published. It also starts Gomez at right-back; held at Araujo, rested in Istanbul, with Gomez the first alternative. Overall Low.
 // Fri Nov 6 (morning): no personnel change. The Liverpool Echo (1am, via Yahoo) and Brit Brief (12.48am) name this eleven; Frimpong reported 'all-but fit'
 //   but not rushed (Daily Mail via DaveOCKOP), held out. Levels unchanged; Iraola's presser is at 1.30pm GMT.
+// Fri Nov 6 (evening): no personnel change. Iraola: Gravenberch 'the only doubt'; Frimpong confirmed out on post-presser lists (Brit Brief; DaveOCKOP), so RB
+//   rises to High. 101 Great Goals starts Nyoni for Szoboszlai; held at Szoboszlai (Echo, Brit Brief), LDM stays Low. Overall Medium.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -361,7 +363,7 @@ export const SLOT_CONFIDENCE = {
   LB: "Medium",
   LCB: "High",
   RCB: "High",
-  RB: "Medium",
+  RB: "High",
   LDM: "Low",
   RDM: "High",
   LAM: "Medium",
@@ -376,16 +378,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Fri Nov 6, morning - Kerkez, 'almost certainly' the left-back on Brit Brief's Friday preview. Medium.",
-  LCB: "Fri Nov 6, morning - Van Dijk, in every Friday preview read. High.",
-  RCB: "Fri Nov 6, morning - Jacquet, beside Van Dijk in the Echo's Friday XI. High.",
-  RB: "Fri Nov 6, morning - Araújo, again, with Frimpong reported close but not rushed (Daily Mail via DaveOCKOP). Medium.",
-  LDM: "Fri Nov 6, morning - Szoboszlai, the Echo's pick though he 'doesn't look 100%'; Nyoni the alternative. Low.",
-  RDM: "Fri Nov 6, morning - Mac Allister, the constant. High.",
-  LAM: "Fri Nov 6, morning - Barcola, 'probably still expected to start' (Brit Brief). Medium.",
-  CAM: "Fri Nov 6, morning - Wirtz, 'recalled at No.10' (Brit Brief). Medium.",
-  RAM: "Fri Nov 6, morning - Gakpo, 'restored' in the Echo's XI, swapping wings with Barcola. Medium.",
-  ST: "Fri Nov 6, morning - Isak, the nine in every Friday preview. High.",
+  LB: "Fri Nov 6, evening - Kerkez, left-back in 101 Great Goals' Friday XI. Medium.",
+  LCB: "Fri Nov 6, evening - Van Dijk, captain; Iraola wants the set plays corrected. High.",
+  RCB: "Fri Nov 6, evening - Jacquet, beside Van Dijk in 101 Great Goals' XI. High.",
+  RB: "Fri Nov 6, evening - Araújo, with Frimpong on every post-presser list of the absent (Brit Brief; DaveOCKOP). High.",
+  LDM: "Fri Nov 6, evening - Szoboszlai, 'back available' (Anfield Index via Yahoo); 101 Great Goals picks Nyoni. Low.",
+  RDM: "Fri Nov 6, evening - Mac Allister, in every XI. High.",
+  LAM: "Fri Nov 6, evening - Barcola, a winger '90 per cent of the time' (Iraola, Liverpool FC). Medium.",
+  CAM: "Fri Nov 6, evening - Wirtz, at No.10 in 101 Great Goals' XI. Medium.",
+  RAM: "Fri Nov 6, evening - Gakpo, swapping flanks with Barcola. Medium.",
+  ST: "Fri Nov 6, evening - Isak, 'the closest thing to a guarantee almost' (Iraola). High.",
 };
 
 
@@ -412,7 +414,7 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-11-06T13:05:00Z",
-  reason: "Fri Nov 6, morning. Crystal Palace away, Premier League, Sun 8 Nov, 2pm GMT, Sky Sports. Unchanged: the Liverpool Echo's and Brit Brief's Friday previews name this eleven, Araújo at right-back with Frimpong reported close but not rushed (Daily Mail via DaveOCKOP), Szoboszlai for Gravenberch (heel). Medium until Iraola's 1.30pm press conference.",
+  generated_at: "2026-11-06T23:40:00Z",
+  reason: "Fri Nov 6, evening. Crystal Palace away, Premier League, Sun 8 Nov, 2pm GMT, Sky Sports. Unchanged after Iraola's press conference: Gravenberch 'the only doubt', Frimpong confirmed out (Brit Brief; DaveOCKOP), so Araújo stays at right-back; the open slot is beside Mac Allister, Szoboszlai (the Echo) or Nyoni (101 Great Goals).",
 };
 
