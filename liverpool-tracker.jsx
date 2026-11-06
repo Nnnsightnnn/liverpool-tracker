@@ -142,7 +142,7 @@ const LATEST_NEWS = [
   { source: "101 Great Goals", title: "Pierre Sage warns Crystal Palace that Liverpool are a 'crazy team' after Europa League draw", time: "1d ago", category: "fan" },
   { source: "BBC via Yahoo", title: "Crystal Palace 1-1 Hoffenheim: What Sage and Kamada said", time: "1d ago", category: "major" },
   { source: "DaveOCKOP", title: "Fresh Jeremie Frimpong injury update provided ahead of Crystal Palace clash", time: "1d ago", category: "fan" },
-  { source: "Planet Football", title: "Premier League xG rankings: Who are 2026-27's unluckiest side?", time: "4d ago", category: "major" },
+  { source: "Planet Football", title: "Premier League xG table 2026-27: Arsenal still brilliant, Man Utd increasingly awful", time: "4d ago", category: "major" },
 ];
 
 

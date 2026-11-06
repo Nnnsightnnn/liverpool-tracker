@@ -1175,7 +1175,7 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   "generatedAt": "2026-11-06T13:05:00Z",
-  "summary": "Friday morning, the right-back Liverpool most need is, on one report, nearly ready and being left alone: Jeremie Frimpong is 'all-but fit' and could feature at Crystal Palace 'if required', but Liverpool have decided against rushing him back (Daily Mail via DaveOCKOP; Anfield Index), while Sports Mole's Friday list still has him out until Manchester United on 22 November. So Araújo stays at right-back in the Liverpool Echo's and Brit Brief's Friday previews, with Szoboszlai, who 'doesn't look 100%', beside Mac Allister and Gravenberch's heel 'likely' to keep him out (Liverpool Echo via Yahoo). Alisson is the other story of the morning: Stephen Warnock said on Match of the Day that Archie Brown's equaliser in Istanbul was 'a lack of concentration from the goalkeeper, and it has cost his side' (BBC via Anfield Index). Pierre Sage, after Palace's 1-1 with Hoffenheim, called Liverpool 'a crazy team with really good players' and said Axel Disasi would be available (BBC via Yahoo). Iraola speaks at 1.30pm GMT today (Liverpool FC); Liverpool are fifth on fifteen, a point behind Chelsea, before Sunday's 2pm kick-off (ESPN).",
+  "summary": "Friday morning, the right-back Liverpool most need is, on one report, nearly ready and being left alone: Jeremie Frimpong is 'all-but fit' and could feature at Crystal Palace 'if required', but Liverpool have decided against rushing him back (Daily Mail via DaveOCKOP; Anfield Index), while Sports Mole's Friday list still has him out until Manchester United on 22 November. So Araújo stays at right-back in the Liverpool Echo's and Brit Brief's Friday previews, with Szoboszlai, who 'doesn't look 100%', beside Mac Allister and Gravenberch's heel 'likely' to keep him out (Liverpool Echo via Yahoo). Alisson is the other story of the morning: Stephen Warnock said on Match of the Day that Archie Brown's equaliser in Istanbul was 'a lack of concentration from the goalkeeper, and it has cost his side' (BBC via Anfield Index). Pierre Sage, after Palace's 1-1 with Hoffenheim, called Liverpool 'a crazy team with really good players' and said Axel Disasi would be available (101 Great Goals; BBC via Yahoo). Iraola speaks at 1.30pm GMT today (Liverpool FC); Liverpool are fifth on fifteen, a point behind Chelsea, before Sunday's 2pm kick-off (ESPN).",
   "keyTopics": [
     {
       "title": "Frimpong 'All-But Fit', And Not Rushed (Anfield Index, today)",
@@ -1183,14 +1183,24 @@ export const NEWS_DIGEST = {
       "detail": "Published at 9.50am GMT on Friday, following the Daily Mail's report carried by DaveOCKOP on Thursday evening: Frimpong is 'all-but fit and could feature this weekend if required', but Liverpool have decided against rushing him given his recent injury problems. Sports Mole's Friday list still has him out, possible return 22 November. Contested, and on either reading Araújo plays right-back on Sunday."
     },
     {
+      "title": "Diouf, A Left-Back Link (Anfield Index, today)",
+      "category": "transfers",
+      "detail": "Published at 11.50am GMT on Friday, citing Khadim Diakhate's report of 2 November: Liverpool and Chelsea have contacted the agent of Brentford's El Hadji Malick Diouf ahead of next summer's window, with Brentford expected to want at least the £40m they paid. LiveScore's roundup also credits CaughtOffside with Liverpool interest in Fenerbahçe's Archie Brown. Links, not bids."
+    },
+    {
       "title": "Alisson, 'It Has Cost His Side' (Anfield Index, today)",
       "category": "general",
       "detail": "Published at 10.50am GMT on Friday: Stephen Warnock, on the BBC's Champions League Match of the Day, on Brown's equaliser in Istanbul, 'there was definitely no shout... that's a lack of concentration from the goalkeeper' (Anfield Index). LiveScore's Friday roundup also credits Sports Mole with a report that Flamengo are weighing a move for Alisson, whose contract runs to 2027."
     },
     {
-      "title": "Diouf, A Left-Back Link (Anfield Index, today)",
-      "category": "transfers",
-      "detail": "Published at 11.50am GMT on Friday, citing Khadim Diakhate's report of 2 November: Liverpool and Chelsea have contacted the agent of Brentford's El Hadji Malick Diouf ahead of next summer's window, with Brentford expected to want at least the £40m they paid. LiveScore's roundup also credits CaughtOffside with Liverpool interest in Fenerbahçe's Archie Brown. Links, not bids."
+      "title": "'Sobering', Says The Fans' Jury (Liverpool Echo via Yahoo, today)",
+      "category": "general",
+      "detail": "Published at 5am GMT on Friday: the Echo's Fans' Jury on two defeats in four days. James Noble: 'A relatively sobering few days. Potentially, they'll count among the most useful of Andoni Iraola's time at Anfield.' Matthew Whitty: 'We're making football look harder than it should be.'"
+    },
+    {
+      "title": "Gravenberch, 'Likely To Come Too Soon' (Sports Mole, today)",
+      "category": "injuries",
+      "detail": "Sports Mole's list, posted at 3.58am GMT on Friday, has Gravenberch out with a heel injury and Sunday a possible return; the Echo thinks the game 'is likely to come too soon'. No Liverpool player is suspended (Sports Mole)."
     },
     {
       "title": "Third Start In A Week? (Liverpool Echo via Yahoo, today)",
@@ -1203,19 +1213,9 @@ export const NEWS_DIGEST = {
       "detail": "From the Echo's Friday preview: Szoboszlai 'doesn't look 100% after a recent hamstring issue but the options are thinning out'. LiveScore's roundup credits Football365 with David Lynch's verdict that he was 'dreadful' in Istanbul, and CaughtOffside with footage of him remonstrating with Tsimikas."
     },
     {
-      "title": "Gravenberch, 'Likely To Come Too Soon' (Sports Mole, today)",
-      "category": "injuries",
-      "detail": "Sports Mole's list, posted at 3.58am GMT on Friday, has Gravenberch out with a heel injury and Sunday a possible return; the Echo thinks the game 'is likely to come too soon'. No Liverpool player is suspended (Sports Mole)."
-    },
-    {
       "title": "Iraola At 1.30pm (Liverpool FC, today)",
       "category": "general",
       "detail": "The club confirmed on Thursday evening that Iraola's pre-Palace press conference is live at 1.30pm GMT on Friday from the AXA Training Centre (Liverpool FC). Frimpong, Gravenberch and the goalkeeper are the questions it will be asked; this edition went to press before it."
-    },
-    {
-      "title": "'Sobering', Says The Fans' Jury (Liverpool Echo via Yahoo, today)",
-      "category": "general",
-      "detail": "Published at 5am GMT on Friday: the Echo's Fans' Jury on two defeats in four days. James Noble: 'A relatively sobering few days. Potentially, they'll count among the most useful of Andoni Iraola's time at Anfield.' Matthew Whitty: 'We're making football look harder than it should be.'"
     },
     {
       "title": "Sage: 'A Crazy Team With Really Good Players' (101 Great Goals, 1d ago)",
