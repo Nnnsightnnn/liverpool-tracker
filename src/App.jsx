@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday night, and the captain has said it: Liverpool's defending, ten goals in four European games, is not sustainable.
-          Fifth on fifteen after two defeats, they go to Selhurst Park on Sunday, a game Van Dijk calls massive. Palace got there first,
-          a stoppage-time draw with Hoffenheim and ten men, and will face Liverpool on three days' rest without the banned Mateta.
+          Friday morning, and the right-back Liverpool most need is reported all but fit and is being left alone, so a centre-back
+          plays there again. Fifth on fifteen after two defeats, a point under the Champions League line, they go to Selhurst Park on
+          Sunday afternoon, against the side that concedes the most chances in the league. Iraola speaks at half past one.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the word came from the man least given to drama. Virgil van Dijk, asked about Istanbul, said the defending was definitely
-              not sustainable, and that a side very good at set pieces had not been, and he did not blame the rotation or the noise. At
-              Selhurst Park, a few hours later, Crystal Palace went a goal down to Hoffenheim, lost Adam Wharton to a second yellow card and
-              found an equaliser from Daichi Kamada in stoppage time. Two previews of Sunday now name the same Liverpool eleven, Araújo at
-              right-back, Szoboszlai with Mac Allister, and only Gravenberch's heel unsettled. Palace will have had three days and a red
-              card to recover. Liverpool will have had four and their captain's verdict.
-              A sentence from the captain carries further than a speech from anyone else.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              and the news about Jeremie Frimpong is good in the way that changes nothing. He is all but fit, the Daily Mail reports,
+              and could play at Crystal Palace if he had to, and Liverpool have decided he does not have to. So Ronald Araújo, a
+              centre-back, will play right-back again, and Szoboszlai, who the Echo says does not look fully right,
+              will probably play beside Mac Allister while Gravenberch's heel heals. Behind them, Alisson has spent the morning hearing
+              a former Liverpool full-back say his silence cost a goal in Istanbul. Pierre Sage calls Liverpool a crazy team with really
+              good players. On the numbers, his own side concede more chances than anyone. Caution is a decision too.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: not sustainable, said the captain; ten men, and Kamada at the death;
-              two previews, one eleven; Trent, third choice, and a call; and Nyoni, counted.
+              five dispatches from the writers who never clock off: all but fit, and left alone; the shout that never came; a crazy
+              team, said Sage; left-backs, wanted later; and a third start in a week.
               Still fifth, nine behind Arsenal, with Crystal Palace away on Sunday.
             </p>
           </div>
@@ -3831,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Not sustainable, said the captain."
+        "Nearly fit is not the same as ready."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
