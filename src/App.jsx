@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday night, and Iraola has one doubt, Gravenberch's heel, and a sense of proportion: not as bad as they look, not as
-          good as they looked. Everton have since gone fifth, so Liverpool will begin Sunday sixth without having kicked a ball.
-          Selhurst Park at two, against the most outshot side in the division.
+          Saturday, and the previews have stopped arguing: Szoboszlai beside Mac Allister, and Araújo, October's player of the
+          month, at right-back again. Liverpool are sixth, a point under the European line, and go to Selhurst Park tomorrow at
+          two, where the man in the other dugout may be coaching for his job.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              Andoni Iraola's afternoon has narrowed Sunday's doubts to one, Ryan Gravenberch, whose heel, he says, is now a matter
-              of pain. Frimpong, for all of Thursday's optimism, is on every list of the absent, so Ronald Araújo plays right-back
-              again. Then the table moved without them: Everton beat Coventry 3-1 and went fifth, so Liverpool, sixth on fifteen with
-              a game in hand, travel to Selhurst Park a place below the European line. The manager asked for proportion:
-              two defeats do not make a bad side, he said, any more than five wins made a great one. Opta gives them a little under
-              half. Perspective holds until Sunday at two.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and the selection Friday left open has closed in the overnight previews: Dominik Szoboszlai beside Alexis Mac Allister,
+              Trey Nyoni rested, Ryan Gravenberch's heel left to the morning. Ronald Araújo, the supporters' landslide choice as
+              October's player of the month, plays right-back again, a centre-back in a job no fit full-back is left to take. At
+              Selhurst the weight is on the other bench: Thomas Tuchel says he is not surprised Palace want his assistant, and Pierre
+              Sage meets Liverpool with his job reported to be on the line. From Saudi Arabia comes word that Jeremie Frimpong is open
+              to leaving, which nobody has confirmed. Tomorrow at two, a side that has lost twice meets one that has lost three league games running.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: not as bad, not as good; a doubt made of pain; Everton step over
-              them; Tuchel calls Ngumoha again; and an hour of Strand Larsen.
-              Sixth now, nine behind Arsenal, with Crystal Palace away on Sunday.
+              five dispatches from the writers who never clock off: two in the middle; a landslide for Araújo; coaching for his job;
+              offered to Riyadh; and Arsenal without Saka.
+              Sixth, nine behind Arsenal, with Crystal Palace away tomorrow.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Not as bad, not as good."
+        "Two in the middle, a bench on trial."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
