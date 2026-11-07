@@ -202,12 +202,12 @@ export const PLAYER_EVIDENCE = {
   11: "With VVD in every XI",
   12: "Loan · Levante",
   13: "Pivot · every XI",
-  14: "Heel · in no Sat XI",
+  14: "Heel · in no predicted XI",
   15: "Pivot with Mac Allister",
   17: "Holding option · unpicked",
   18: "'Certain' No.10",
   20: "Rested at 19 (PLNN)",
-  22: "Flank · every Sat XI",
+  22: "Flank · every predicted XI",
   23: "Leads line · 6 PL goals",
   24: "Achilles · Boxing Day",
   25: "Bench, then England",
@@ -380,7 +380,7 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Sat Nov 7, morning - Kerkez, back for Tsimikas in Sports Mole's Saturday XI. Medium.",
+  LB: "Sat Nov 7, morning - Kerkez, back for Tsimikas in Sports Mole's predicted XI. Medium.",
   LCB: "Sat Nov 7, morning - Van Dijk, captain, with the set plays to fix. High.",
   RCB: "Sat Nov 7, morning - Jacquet, his partner in every Saturday preview. High.",
   RB: "Sat Nov 7, morning - Araújo, October's player of the month (Liverpool FC); Frimpong unlikely, Bradley out. High.",
@@ -388,7 +388,7 @@ export const SLOT_RATIONALE = {
   RDM: "Sat Nov 7, morning - Mac Allister, the constant in every XI. High.",
   LAM: "Sat Nov 7, morning - Barcola, back on the wing after leading the line in Istanbul. Medium.",
   CAM: "Sat Nov 7, morning - Wirtz, 'a certain inclusion' at No.10 (Sports Mole). Medium.",
-  RAM: "Sat Nov 7, morning - Gakpo, the other flank in every Saturday XI. Medium.",
+  RAM: "Sat Nov 7, morning - Gakpo, the other flank in every predicted XI. Medium.",
   ST: "Sat Nov 7, morning - Isak, the nine in every preview; six league goals (Opta Analyst). High.",
 };
 
@@ -417,6 +417,6 @@ export const ALTERNATIVES = {
 export const PREDICTION_NOTE = {
   level: "Medium",
   generated_at: "2026-11-07T09:55:00Z",
-  reason: "Sat Nov 7, morning. Crystal Palace away, Premier League, Sun 8 Nov, 2pm GMT, Sky Sports. Unchanged, and now matching Sports Mole's Saturday XI and Premier League News Now's: Szoboszlai beside Mac Allister with Nyoni rested, Kerkez and Araújo back for Tsimikas and Gomez; six of the eleven started in Istanbul, so the confidence stays Medium until the team sheet.",
+  reason: "Sat Nov 7, morning. Crystal Palace away, Premier League, Sun 8 Nov, 2pm GMT, Sky Sports. Unchanged, and now matching Sports Mole's predicted XI and Premier League News Now's: Szoboszlai beside Mac Allister with Nyoni rested, Kerkez and Araújo back for Tsimikas and Gomez; six of the eleven started in Istanbul, so the confidence stays Medium until the team sheet.",
 };
 

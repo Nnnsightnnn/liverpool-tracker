@@ -607,7 +607,7 @@ function CoverView({ onJump }) {
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
               and the selection Friday left open has closed in the overnight previews: Dominik Szoboszlai beside Alexis Mac Allister,
-              Trey Nyoni rested, Ryan Gravenberch's heel left to the morning. Ronald Araújo, the supporters' landslide choice as
+              Trey Nyoni rested, Ryan Gravenberch's heel left to a late fitness call. Ronald Araújo, the supporters' landslide choice as
               October's player of the month, plays right-back again, a centre-back in a job no fit full-back is left to take. At
               Selhurst the weight is on the other bench: Thomas Tuchel says he is not surprised Palace want his assistant, and Pierre
               Sage meets Liverpool with his job reported to be on the line. From Saudi Arabia comes word that Jeremie Frimpong is open
