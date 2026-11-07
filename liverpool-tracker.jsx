@@ -73,7 +73,7 @@ function PlayerAvatar({ player, size = 64 }) {
   );
 }
 
-// ─── Player Data (2026-27 Season · Updated 1 November 2026 (morning)) ────────────────────
+// ─── Player Data (2026-27 Season · Updated 7 November 2026 (evening)) ────────────────────
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
 // injuryNote: short description shown on card when not fit
 const PLAYERS = [
@@ -129,13 +129,13 @@ const RSS_FEEDS = [
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
   { source: "VAVEL", title: "Nottingham Forest 3-1 Manchester City, Liam Delap brace seals crucial home win", time: "today", category: "major" },
-  { source: "Goal", title: "'It's something I wanted to try!' Andoni Iraola opens up on Bradley Barcola's new central role", time: "today", category: "major" },
   { source: "Euronews", title: "Liverpool FC targets counterfeit pro-Palestinian shirts using altered club crest", time: "today", category: "major" },
   { source: "Premier League News Now", title: "Strand Larsen for Mateta, Nketiah at No.10: Crystal Palace predicted lineup vs Liverpool", time: "today", category: "fan" },
   { source: "Last Word On Football", title: "Crystal Palace vs Liverpool: Team News and Predicted Lineups", time: "today", category: "fan" },
   { source: "ESPN", title: "If Arsenal find attacking spark, they could run away with the Premier League", time: "today", category: "major" },
   { source: "Opta Analyst", title: "Arsenal 1-0 Hull Stats: Martin Ødegaard Strikes as Champions Win By One Goal Again", time: "today", category: "major" },
   { source: "Anfield Index", title: "Liverpool tracking Nnamdi Collins as £29m Eintracht Frankfurt defender emerges on right-back shortlist", time: "today", category: "fan" },
+  { source: "Goal", title: "'It's something I wanted to try!' Andoni Iraola opens up on Bradley Barcola's new central role", time: "today", category: "major" },
   { source: "South London News", title: "Pierre Sage targets Liverpool game to build Palace's spirit", time: "today", category: "fan" },
   { source: "Sports Mole", title: "Crystal Palace vs. Liverpool: Andoni Iraola makes referee admission ahead of Selhurst Park visit", time: "today", category: "major" },
   { source: "LFC Globe", title: "Match Preview, Kickoff Time, TV Channel, Team News & Prediction: Crystal Palace vs Liverpool", time: "today", category: "fan" },

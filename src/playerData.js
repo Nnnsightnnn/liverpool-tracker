@@ -1087,7 +1087,7 @@ export const RESULTS = [
 // Refresh 2026-11-06 (Friday evening pass, cloud). Re-fetched from ESPN after Everton 3-1 Coventry on Friday night: Everton seventh to fifth on
 // sixteen (UEL stripe), LIVERPOOL sixth (highlighted) on fifteen, Brentford seventh; Coventry sixteenth on nine from ten.
 // Refresh 2026-11-07 (Saturday evening pass, cloud). Re-fetched from ESPN after Arsenal 1-0 Hull (Opta Analyst), Nottm Forest 3-1 Man City (VAVEL),
-// Leeds 1-0 Tottenham (Sky Sports) and Newcastle v Fulham drawn: Arsenal twenty-seven, City twenty-one, LIVERPOOL sixth (highlighted) on fifteen, Leeds eighth,
+// Leeds 1-0 Tottenham (Sky Sports) and Fulham v Newcastle drawn: Arsenal twenty-seven, City twenty-one, LIVERPOOL sixth (highlighted) on fifteen, Leeds eighth,
 // Forest sixteenth. Relegation stripe: Manchester United, Palace, Sunderland.
 export const STANDINGS = [
   { pos: 1, team: "Arsenal", p: 10, w: 9, d: 0, l: 1, gd: 10, pts: 27, qualification: "UCL" },
@@ -1122,9 +1122,9 @@ export const STANDINGS_COMMENTARY = {
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 10,
   "generatedAt": "2026-11-07T23:15:00Z",
-  "overview": "Saturday rearranged the top of the table: Nottingham Forest beat Manchester City 3-1, Liam Delap scoring twice (VAVEL), City's third defeat in a row (Sky Sports), and Arsenal's 1-0 against Hull, Ødegaard's goal (Opta Analyst), puts the leaders six clear of City and twelve clear of Liverpool (ESPN). Liverpool are still sixth on fifteen from nine, a point under Everton and Chelsea, and a win at Selhurst Park tomorrow would take them to eighteen and fourth, three behind City. Leeds' 1-0 over Tottenham (Sky Sports) lifts them to eighth, and Forest's win drops Crystal Palace to nineteenth, Liverpool's hosts now below Manchester United on goal difference.",
+  "overview": "Saturday rearranged the top of the table: Nottingham Forest beat Manchester City 3-1, Liam Delap scoring twice (VAVEL), City's third defeat in a row (Sky Sports), and Arsenal's 1-0 against Hull, Ødegaard's goal (Opta Analyst), puts the leaders six clear of City and twelve clear of Liverpool (ESPN). Liverpool are still sixth on fifteen from nine, a point under Everton and Chelsea, and a win at Selhurst Park tomorrow would take them to eighteen and, as the table stands tonight, fourth, three behind City. Leeds' 1-0 over Tottenham (Sky Sports) lifts them to eighth, and Forest's win drops Crystal Palace to nineteenth, Liverpool's hosts now below Manchester United on goal difference.",
   "teams": {
-    "Liverpool": "Sixth on fifteen from nine; a win at Palace tomorrow at 2pm GMT would mean fourth, three behind City (ESPN).",
+    "Liverpool": "Sixth on fifteen from nine; a win at Palace tomorrow at 2pm GMT would mean fourth as the table stands tonight, three behind City (ESPN).",
     "Arsenal": "Top on twenty-seven after beating Hull 1-0, seven clean sheets in ten (Opta Analyst); twelve clear of Liverpool.",
     "Manchester City": "Second on twenty-one, but beaten 3-1 at Forest, a third straight defeat (Sky Sports; VAVEL).",
     "Brighton": "Third on nineteen with a game in hand on the top two and the league's best goal difference, +17 (ESPN).",
@@ -1153,7 +1153,7 @@ export const DISPATCHES = [
     "byline": "Sports Mole",
     "dateline": "Kirkby · 7 November",
     "category": "Manager",
-    "body": "Iraola was asked about referees and gave an answer that sounded like a complaint and a compliment at once. 'I think we are quite an honest group. Sometimes too honest,' he said, Sports Mole reported on Saturday from his Sky Sports interview. The week before he had joked about telling his players to go down when they are held, after Alexander Isak stayed on his feet against Arsenal. An official had congratulated Liverpool on their behaviour, he said. 'You cannot fake things.' Opta's figure behind it: only two Premier League sides have been awarded fewer fouls."
+    "body": "Iraola was asked about referees and gave an answer that sounded like a complaint and a compliment at once. 'I think we are quite an honest group. Sometimes too honest,' he said, Sports Mole reported on Saturday from his Sky Sports interview, a line first carried on Friday. The week before he had joked about telling his players to go down when they are held, after Alexander Isak stayed on his feet against Arsenal. An official had congratulated Liverpool on their behaviour, he said. 'You cannot fake things.' Opta's figure behind it: only two Premier League sides have been awarded fewer fouls."
   },
   {
     "n": "03",
@@ -1161,7 +1161,7 @@ export const DISPATCHES = [
     "byline": "Goal",
     "dateline": "Kirkby · 6 November",
     "category": "Tactics",
-    "body": "Bradley Barcola led the line in Istanbul, and Iraola has explained why without promising it again. 'Bradley is a winger,' he said, in remarks Goal carried late on Saturday. Against Fenerbahçe's centre-backs he thought Barcola 'could be a threat, especially in behind'. He will be used wide 'mostly, 90 per cent of the time', and Iraola reached back to Cody Gakpo's evening through the middle against Chelsea as the precedent. It is a small admission of something larger: with Ekitike out until the winter, Isak is the only senior nine, and the alternatives are experiments."
+    "body": "Bradley Barcola led the line in Istanbul, and Iraola has explained why without promising it again. 'Bradley is a winger,' he said, at Friday's press conference, Goal reported on Saturday. Against Fenerbahçe's centre-backs he thought Barcola 'could be a threat, especially in behind'. He will be used wide 'mostly, 90 per cent of the time', and Iraola reached back to Cody Gakpo's evening through the middle against Chelsea as the precedent. It is a small admission of something larger: with Ekitike out until the winter, Isak is the only senior nine, and the alternatives are experiments."
   },
   {
     "n": "04",
@@ -1182,22 +1182,17 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   "generatedAt": "2026-11-07T23:15:00Z",
-  "summary": "Saturday evening, the table moved for Liverpool without them kicking a ball: Nottingham Forest beat Manchester City 3-1, City's third straight defeat (Sky Sports; VAVEL), and Arsenal's 1-0 over Hull leaves the leaders on twenty-seven, twelve clear (Opta Analyst; ESPN), so victory at Selhurst Park tomorrow would lift Liverpool to fourth, three points behind second place. Iraola's line of the day was about referees, his side 'quite an honest group. Sometimes too honest' (Sports Mole), and about Barcola, who will be a winger 'mostly, 90 per cent of the time' after leading the line in Istanbul (Goal). Last Word On Football's Saturday XI matches the expected eleven save for Nyoni beside Mac Allister, while Premier League News Now has Palace pairing Strand Larsen and Nketiah without the banned Mateta. Pierre Sage, nineteenth now, says football 'is not a hard job' (South London News). Off the pitch the club is acting against counterfeit pro-Palestinian shirts bearing an altered crest (Euronews), and a Frankfurt right-back, Nnamdi Collins, is reported to be on a January list (Anfield Index). Kick-off is 2pm GMT on Sunday.",
+  "summary": "Saturday evening, the table moved for Liverpool without them kicking a ball: Nottingham Forest beat Manchester City 3-1, City's third straight defeat (Sky Sports; VAVEL), and Arsenal's 1-0 over Hull leaves the leaders on twenty-seven, twelve clear (Opta Analyst; ESPN), so, as the table stands tonight, victory at Selhurst Park tomorrow would lift Liverpool to fourth, three points behind second place. Iraola's Friday remarks, repeated in Saturday's coverage, were about referees, his side 'quite an honest group. Sometimes too honest' (Sports Mole), and about Barcola, who will be a winger 'mostly, 90 per cent of the time' after leading the line in Istanbul (Goal). Last Word On Football's Saturday XI matches the expected eleven save for Nyoni beside Mac Allister, while Premier League News Now has Palace pairing Strand Larsen and Nketiah without the banned Mateta. Pierre Sage, nineteenth now, says football 'is not a hard job' (South London News). Off the pitch the club is acting against counterfeit pro-Palestinian shirts bearing an altered crest (Euronews), and a Frankfurt right-back, Nnamdi Collins, is reported to be on a January list (Anfield Index). Kick-off is 2pm GMT on Sunday.",
   "keyTopics": [
     {
       "title": "Forest Beat City, Arsenal Twelve Clear (VAVEL, this evening)",
       "category": "matches",
-      "detail": "Played on Saturday evening: Nottingham Forest 3-1 Manchester City, Liam Delap scoring twice (VAVEL), City's third defeat in a row (Sky Sports). With Arsenal's afternoon win over Hull, the table reads Arsenal twenty-seven, City twenty-one, Liverpool fifteen with Palace to play (ESPN): a win tomorrow would put Liverpool fourth, three behind second."
-    },
-    {
-      "title": "Barcola 'A Winger, 90 Per Cent' (Goal, this evening)",
-      "category": "tactics",
-      "detail": "Published late on Saturday from Iraola's pre-Palace press conference: 'Bradley is a winger,' he said of the Istanbul experiment up front, chosen because 'against their centre-backs he could be a threat, especially in behind'. He cited Gakpo's central role against Chelsea as the precedent and said Barcola will be wide 'mostly, 90 per cent of the time' (Goal)."
+      "detail": "Played on Saturday evening: Nottingham Forest 3-1 Manchester City, Liam Delap scoring twice (VAVEL), City's third defeat in a row (Sky Sports). With Arsenal's afternoon win over Hull, the table reads Arsenal twenty-seven, City twenty-one, Liverpool fifteen with Palace to play (ESPN): as the table stands tonight, a win tomorrow would put Liverpool fourth, three behind second."
     },
     {
       "title": "Counterfeit Shirts With An Altered Crest (Euronews, this evening)",
       "category": "general",
-      "detail": "Reported at 9.21pm GMT on Saturday: Liverpool are acting against unauthorised shirts carrying pro-Palestinian messages and a modified club crest, sold via the website From Palestine to the World, and have reported listings to site operators and social networks, with further action planned (Euronews). UK Lawyers for Israel alerted four Premier League clubs on 26 October."
+      "detail": "Reported at 9.21pm GMT on Saturday: Liverpool are acting against unauthorised shirts carrying pro-Palestinian messages and a modified club crest, sold via the website From Palestine to the World, and have reported listings to site operators and social networks, with further action planned (Euronews). The story was first reported by Jewish News on Thursday; UK Lawyers for Israel alerted four Premier League clubs on 26 October."
     },
     {
       "title": "Strand Larsen And Nketiah Together (Premier League News Now, this evening)",
@@ -1220,6 +1215,11 @@ export const NEWS_DIGEST = {
       "detail": "Published at 4.50pm GMT on Saturday, built on a Fussball News report from 4 November: Liverpool, Manchester United and Chelsea are said to be watching Frankfurt's 22-year-old Nnamdi Collins, valued at about £29m (Anfield Index). Nothing can happen before January."
     },
     {
+      "title": "Barcola 'A Winger, 90 Per Cent' (Goal, today)",
+      "category": "tactics",
+      "detail": "Published on Saturday afternoon from Iraola's Friday press conference: 'Bradley is a winger,' he said of the Istanbul experiment up front, chosen because 'against their centre-backs he could be a threat, especially in behind'. He cited Gakpo's central role against Chelsea as the precedent and said Barcola will be wide 'mostly, 90 per cent of the time' (Goal)."
+    },
+    {
       "title": "Sage: 'Not A Hard Job' (South London News, today)",
       "category": "general",
       "detail": "Updated at 2.46pm GMT on Saturday: Sage rejected the idea that the Palace job is hard: 'I don't save lives. I don't work in a mine.' His players 'play for their club, for our club', he said; the report names Sean Dyche, Anthony Barry and Thomas Frank as possible successors."
@@ -1227,7 +1227,7 @@ export const NEWS_DIGEST = {
     {
       "title": "Iraola: 'Sometimes Too Honest' (Sports Mole, today)",
       "category": "general",
-      "detail": "Published at 12.24pm GMT on Saturday, from Iraola's Sky Sports interview: 'I think we are quite an honest group. Sometimes too honest.' A referee had congratulated Liverpool on their behaviour, he said; Sports Mole notes only two Premier League sides have been awarded fewer fouls (Opta)."
+      "detail": "Published at 12.24pm GMT on Saturday, from Iraola's Sky Sports interview and repeating a line Goal first carried on Friday: 'I think we are quite an honest group. Sometimes too honest.' A referee had congratulated Liverpool on their behaviour, he said; Sports Mole notes only two Premier League sides have been awarded fewer fouls (Opta)."
     }
   ],
   "sources": [

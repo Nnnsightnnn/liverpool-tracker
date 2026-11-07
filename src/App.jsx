@@ -572,7 +572,7 @@ function CoverView({ onJump }) {
         }}>
           Saturday night, and the table has moved without them: Forest beat Manchester City 3-1, City's third defeat running, and
           Arsenal edged Hull to go twelve clear. Liverpool, sixth on fifteen, go to Selhurst Park tomorrow at two knowing a win
-          would lift them to fourth, three points from second, against a side now nineteenth.
+          would, as things stand, lift them to fourth, three points from second, against a side now nineteenth.
         </p>
 
         <StatStrip stats={stats} />
