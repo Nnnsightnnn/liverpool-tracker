@@ -191,33 +191,33 @@ export const FORMATIONS = {
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 // Mon Nov 2 (evening): 12 refreshed for Szoboszlai's 'It stays secret' (Read Liverpool), Iraola on Bradley (Anfield Index via Yahoo Sports) and Khel Now's XI; XIs unchanged.
 export const PLAYER_EVIDENCE = {
-  1:  "In goal · 'not responsible'",
-  2:  "Bench · Alisson starts",
-  3:  "Captain · beside Jacquet",
-  5:  "Bench · Araújo restored",
-  7:  "LB · back for Tsimikas",
-  8:  "Knee · long-term out",
-  9:  "Muscle · unlikely Sunday",
-  10: "ACL · long-term out",
-  11: "With VVD in every XI",
+  1:  "Starts · every Saturday XI",
+  2:  "No.2 at Selhurst",
+  3:  "Captain · set plays to fix",
+  5:  "RB/CB cover · bench",
+  7:  "LB · LWOS XI too",
+  8:  "Knee · long-term",
+  9:  "Muscle · 'too soon'",
+  10: "ACL · no change",
+  11: "Third XI with VVD",
   12: "Loan · Levante",
-  13: "Pivot · every XI",
-  14: "Heel · in no predicted XI",
-  15: "Pivot with Mac Allister",
-  17: "Holding option · unpicked",
-  18: "'Certain' No.10",
-  20: "Rested at 19 (PLNN)",
-  22: "Flank · every predicted XI",
-  23: "Leads line · 6 PL goals",
-  24: "Achilles · Boxing Day",
+  13: "Fixed point in midfield",
+  14: "Heel · only doubt",
+  15: "Pivot? LWOS picks Nyoni",
+  17: "Back in training · unpicked",
+  18: "No.10 · LWOS and Mole",
+  20: "In LWOS XI · split call",
+  22: "Wide · Iraola's precedent",
+  23: "Leads line · LWOS XI",
+  24: "Achilles · long-term",
   25: "Bench, then England",
-  26: "Eligible · unpicked",
+  26: "League-eligible · unpicked",
   27: "Third keeper",
-  28: "Wide cover · bench",
-  29: "POTM · RB again",
-  30: "Back on the wing",
-  31: "Bench nine",
-  32: "Bench · Kerkez back",
+  28: "Knock cleared · cover",
+  29: "RB · every Saturday XI",
+  30: "'Winger 90 per cent'",
+  31: "Reserve nine",
+  32: "Bench · Kerkez starts",
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -348,6 +348,8 @@ export const PLAYER_EVIDENCE = {
 //   rises to High. 101 Great Goals starts Nyoni for Szoboszlai; held at Szoboszlai (Echo, Brit Brief), LDM stays Low. Overall Medium.
 // Sat Nov 7 (morning): no personnel change. Sports Mole (12.49am) and Premier League News Now (Fri 11.08pm) both publish this eleven, Szoboszlai
 //   beside Mac Allister with Nyoni rested, so LDM rises to Medium. All 27 evidence strings and all ten rationales refreshed. Overall Medium.
+// Sat Nov 7 (evening): no personnel change. Last Word On Football (3.15pm ET) names ten of these eleven, Nyoni for Szoboszlai at LDM, so LDM falls
+//   Medium to Low. Iraola on Barcola: 'a winger, 90 per cent of the time' (Goal). All 27 evidence strings and ten rationales refreshed. Overall Medium.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -366,7 +368,7 @@ export const SLOT_CONFIDENCE = {
   LCB: "High",
   RCB: "High",
   RB: "High",
-  LDM: "Medium",
+  LDM: "Low",
   RDM: "High",
   LAM: "Medium",
   CAM: "Medium",
@@ -380,16 +382,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Sat Nov 7, morning - Kerkez, back for Tsimikas in Sports Mole's predicted XI. Medium.",
-  LCB: "Sat Nov 7, morning - Van Dijk, captain, with the set plays to fix. High.",
-  RCB: "Sat Nov 7, morning - Jacquet, his partner in every Saturday preview. High.",
-  RB: "Sat Nov 7, morning - Araújo, October's player of the month (Liverpool FC); Frimpong unlikely, Bradley out. High.",
-  LDM: "Sat Nov 7, morning - Szoboszlai, Sports Mole's and the Evening Standard's pick beside Mac Allister; Nyoni rested (Premier League News Now). Medium.",
-  RDM: "Sat Nov 7, morning - Mac Allister, the constant in every XI. High.",
-  LAM: "Sat Nov 7, morning - Barcola, back on the wing after leading the line in Istanbul. Medium.",
-  CAM: "Sat Nov 7, morning - Wirtz, 'a certain inclusion' at No.10 (Sports Mole). Medium.",
-  RAM: "Sat Nov 7, morning - Gakpo, the other flank in every predicted XI. Medium.",
-  ST: "Sat Nov 7, morning - Isak, the nine in every preview; six league goals (Opta Analyst). High.",
+  LB: "Sat Nov 7, evening - Kerkez, also Last Word On Football's left-back on Saturday. Medium.",
+  LCB: "Sat Nov 7, evening - Van Dijk, captain of a side Iraola calls 'sometimes too honest' (Sports Mole). High.",
+  RCB: "Sat Nov 7, evening - Jacquet, the third Saturday preview to pair him with Van Dijk. High.",
+  RB: "Sat Nov 7, evening - Araújo, in every Saturday XI; Frimpong 'too soon', Bradley out (Liverpool FC). High.",
+  LDM: "Sat Nov 7, evening - Szoboszlai, Sports Mole's pick; Last Word On Football names Nyoni instead, so the slot is split. Low.",
+  RDM: "Sat Nov 7, evening - Mac Allister, in every XI whichever partner. High.",
+  LAM: "Sat Nov 7, evening - Barcola, 'a winger, 90 per cent of the time' (Iraola via Goal). Medium.",
+  CAM: "Sat Nov 7, evening - Wirtz, at ten in Saturday's previews. Medium.",
+  RAM: "Sat Nov 7, evening - Gakpo, the other flank. Medium.",
+  ST: "Sat Nov 7, evening - Isak, the nine in every Saturday preview. High.",
 };
 
 
@@ -416,7 +418,7 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-11-07T09:55:00Z",
-  reason: "Sat Nov 7, morning. Crystal Palace away, Premier League, Sun 8 Nov, 2pm GMT, Sky Sports. Unchanged, and now matching Sports Mole's predicted XI and Premier League News Now's: Szoboszlai beside Mac Allister with Nyoni rested, Kerkez and Araújo back for Tsimikas and Gomez; six of the eleven started in Istanbul, so the confidence stays Medium until the team sheet.",
+  generated_at: "2026-11-07T23:15:00Z",
+  reason: "Sat Nov 7, evening. Crystal Palace away, Premier League, Sun 8 Nov, 2pm GMT, Sky Sports. No personnel change: ten of the eleven appear in Last Word On Football's Saturday-evening XI too, which differs only in starting Nyoni for Szoboszlai beside Mac Allister; Gravenberch remains 'the only doubt' (Liverpool FC). Medium until the team sheet.",
 };
 

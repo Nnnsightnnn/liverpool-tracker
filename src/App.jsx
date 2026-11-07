@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday, and the previews have stopped arguing: Szoboszlai beside Mac Allister, and Araújo, October's player of the
-          month, at right-back again. Liverpool are sixth, a point under the European line, and go to Selhurst Park tomorrow at
-          two, where the man in the other dugout may be coaching for his job.
+          Saturday night, and the table has moved without them: Forest beat Manchester City 3-1, City's third defeat running, and
+          Arsenal edged Hull to go twelve clear. Liverpool, sixth on fifteen, go to Selhurst Park tomorrow at two knowing a win
+          would lift them to fourth, three points from second, against a side now nineteenth.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and the selection Friday left open has closed in the overnight previews: Dominik Szoboszlai beside Alexis Mac Allister,
-              Trey Nyoni rested, Ryan Gravenberch's heel left to a late fitness call. Ronald Araújo, the supporters' landslide choice as
-              October's player of the month, plays right-back again, a centre-back in a job no fit full-back is left to take. At
-              Selhurst the weight is on the other bench: Thomas Tuchel says he is not surprised Palace want his assistant, and Pierre
-              Sage meets Liverpool with his job reported to be on the line. From Saudi Arabia comes word that Jeremie Frimpong is open
-              to leaving, which nobody has confirmed. Tomorrow at two, a side that has lost twice meets one that has lost three league games running.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the rest of the league did Liverpool's arithmetic for them. Manchester City lost 3-1 at the City Ground, their third defeat
+              in a row, and Arsenal won 1-0 at home to Hull to sit twelve points clear of the side they beat at Anfield a week ago. Second
+              place is suddenly six points away, not a world. Andoni Iraola, asked about referees, said his players are "quite an honest
+              group. Sometimes too honest", and on Bradley Barcola's night up front in Istanbul said simply that he is a winger, nine
+              times in ten. Across London, Pierre Sage insists football is not a hard job; his team is nineteenth and his striker
+              banned. A small sample, a closed squad, and for once a door left open.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: two in the middle; a landslide for Araújo; coaching for his job;
-              offered to Riyadh; and Arsenal without Saka.
-              Sixth, nine behind Arsenal, with Crystal Palace away tomorrow.
+              five dispatches from the writers who never clock off: three on the bounce; sometimes too honest; a winger, mostly;
+              not a hard job; and the crest, altered.
+              Sixth, twelve behind Arsenal, with Crystal Palace away tomorrow.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Two in the middle, a bench on trial."
+        "Other people's defeats, our open door."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
