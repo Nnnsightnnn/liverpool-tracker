@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Matchday at Selhurst Park, two o'clock, and the last league game before the break. Liverpool are sixth on fifteen
-          from nine, exactly where last season's side stood a year ago, and a win against a Palace team nineteenth, without
-          Mateta and with three straight defeats behind them, would lift them as high as fourth, depending on Chelsea.
+          Three goals at Selhurst Park, then one Liverpool did not want, and the break begins with them fourth. Mac Allister
+          headed the first, Wirtz scored his first league goal in 197 days, Isak the third; Nketiah's penalty came with the
+          last kick. Palace are bottom, their manager reportedly on his way out, and Manchester United come to Anfield in a fortnight.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,23 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and Andoni Iraola has reduced the afternoon to a single sentence: go there, do the job, win the game. It is a
-              plainer line than the week deserved. Liverpool have lost twice in five days, to Arsenal at Anfield and in Istanbul,
-              and they arrive at Selhurst with fifteen points from nine, the same as Arne Slot's side at this stage last season. The
-              numbers underneath are kinder, four clean sheets and nothing conceded from a set piece in the league, and Palace,
-              nineteenth, have conceded more than anyone. The only argument left in the team is who stands beside Mac Allister,
-              Szoboszlai or the nineteen-year-old Nyoni. Somewhere in the background, the club is already looking for Alisson's
-              successor. The present still has to be won first.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              Liverpool are fourth, and for most of the afternoon it looked simpler than that. Mac Allister rose unmarked for
+              Szoboszlai's free kick, Wirtz ended 197 days without a league goal, and Isak's shot found its way over Henderson
+              with a minute left. Then the penalty, in the ninety-fifth minute, which Iraola called a reason to be very upset
+              and which was, by any measure, the least of the day. Palace hit the bar, had a goal ruled out and needed Alisson's
+              six saves to be beaten by only two. Szoboszlai went off with a knee he says is fine and Iraola is not sure of, on
+              the eve of a fortnight with Hungary. A win, a worry, and two weeks to sit with both.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: go there, do the job; fifteen, like last year; two previews
-              each; a keeper for later; and Nketiah, alone.
-              Sixth, twelve behind Arsenal, with Crystal Palace away this afternoon.
+              five dispatches from the writers who never clock off: three, then one; not cheap, a clean sheet; a knee, then
+              Hungary; bottom, and then the call; and fourth, with a fortnight.
+              Fourth, nine behind Arsenal, with Manchester United at Anfield on 22 November.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3831,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The same fifteen points, a different year."
+        "Three, then the break."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
