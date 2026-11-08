@@ -191,33 +191,33 @@ export const FORMATIONS = {
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 // Mon Nov 2 (evening): 12 refreshed for Szoboszlai's 'It stays secret' (Read Liverpool), Iraola on Bradley (Anfield Index via Yahoo Sports) and Khel Now's XI; XIs unchanged.
 export const PLAYER_EVIDENCE = {
-  1:  "Starts · every Saturday XI",
-  2:  "No.2 at Selhurst",
-  3:  "Captain · set plays to fix",
-  5:  "RB/CB cover · bench",
-  7:  "LB · LWOS XI too",
-  8:  "Knee · long-term",
-  9:  "Muscle · 'too soon'",
-  10: "ACL · no change",
-  11: "Third XI with VVD",
+  1:  "Starts · all four Sunday XIs",
+  2:  "No.2 · heir talk elsewhere",
+  3:  "Captain · 4 league clean sheets",
+  5:  "Bench · RB/CB cover",
+  7:  "LB · every Sunday XI",
+  8:  "Knee · not yet training",
+  9:  "Muscle · sixth game missed",
+  10: "ACL · 2 Jan on Mole list",
+  11: "CB · all four Sunday XIs",
   12: "Loan · Levante",
-  13: "Fixed point in midfield",
-  14: "Heel · only doubt",
-  15: "Pivot? LWOS picks Nyoni",
-  17: "Back in training · unpicked",
-  18: "No.10 · LWOS and Mole",
-  20: "In LWOS XI · split call",
-  22: "Wide · Iraola's precedent",
-  23: "Leads line · LWOS XI",
-  24: "Achilles · long-term",
-  25: "Bench, then England",
-  26: "League-eligible · unpicked",
+  13: "Fixed in every XI",
+  14: "Heel · bench at most",
+  15: "Pivot · LFC Globe, Mole",
+  17: "Training · off bench list",
+  18: "No.10 · all four XIs",
+  20: "Pivot · SI, 101GG",
+  22: "Wide · three of four XIs",
+  23: "Lone nine · six league goals",
+  24: "Achilles · Boxing Day aim",
+  25: "LFC Globe starts him",
+  26: "Bench list · unpicked",
   27: "Third keeper",
-  28: "Knock cleared · cover",
-  29: "RB · every Saturday XI",
-  30: "'Winger 90 per cent'",
-  31: "Reserve nine",
-  32: "Bench · Kerkez starts",
+  28: "Wide cover · no XI",
+  29: "RB · every Sunday XI",
+  30: "Wide · right per LFC Globe",
+  31: "Bench nine",
+  32: "Bench after Istanbul start",
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -354,7 +354,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by the 4-2-3-1
-// slot keys. These read as confidence that the slot's occupant STARTS AT CRYSTAL PALACE AWAY (PL, Sun 8 Nov; reviewed Sat Nov 7 evening, LDM Medium to Low. Previously Fenerbahçe away, UCL, Wed 4 Nov; re-pointed Sun Nov 1 evening after Liverpool 0-1 Arsenal: baseline is the Anfield XI, rotation for Palace on Sunday expected, so GK, LB, RCB, RB, LAM Medium and LDM, RAM Low. Previously Arsenal at home, PL, Sun 1 Nov; re-pointed Wed Oct 28 evening after Liverpool 1-1 Chelsea, 6-5 pens: GK, LB, RCB, LDM, ST High, the rest Medium. Previously Chelsea at home, Carabao Cup, Wed 28 Oct; re-pointed Sun Oct 25 evening after Liverpool 2-0 Brighton: CAM and LAM Low, GK, LB, ST Medium for cup rotation. Previously Brighton at home, PL, Sun 25 Oct; reviewed Sun Oct 25 morning, no level change; reviewed Sat Oct 24 morning, no level change; reviewed Thu Oct 22 evening, no level change; reviewed Thu Oct 22 morning, no level change; reviewed Wed Oct 21 evening, no level change; reviewed Wed Oct 21 morning, no level change; re-pointed Tue Oct 20 evening after Liverpool 4-3 Villarreal. Previously Villarreal at home (UCL, Tue 20 Oct; re-pointed Sat Oct 17 evening after Brentford 1-2 Liverpool: LDM Gravenberch High, CAM Wirtz High, RCB High, ST Isak Medium, RAM Medium. Previously Brentford away; Sat Oct 17 morning: CAM High to Medium, three Echo writers pick Szoboszlai there; RAM Medium to Low, all four Echo writers pick Ngumoha; re-pointed Wed 14 Oct evening after LASK 3-6 Liverpool; previously LASK Linz, and before that Manchester City at
+// slot keys. These read as confidence that the slot's occupant STARTS AT CRYSTAL PALACE AWAY (PL, Sun 8 Nov; reviewed Sun Nov 8 morning, no level change, previews split two-two at LDM; reviewed Sat Nov 7 evening, LDM Medium to Low. Previously Fenerbahçe away, UCL, Wed 4 Nov; re-pointed Sun Nov 1 evening after Liverpool 0-1 Arsenal: baseline is the Anfield XI, rotation for Palace on Sunday expected, so GK, LB, RCB, RB, LAM Medium and LDM, RAM Low. Previously Arsenal at home, PL, Sun 1 Nov; re-pointed Wed Oct 28 evening after Liverpool 1-1 Chelsea, 6-5 pens: GK, LB, RCB, LDM, ST High, the rest Medium. Previously Chelsea at home, Carabao Cup, Wed 28 Oct; re-pointed Sun Oct 25 evening after Liverpool 2-0 Brighton: CAM and LAM Low, GK, LB, ST Medium for cup rotation. Previously Brighton at home, PL, Sun 25 Oct; reviewed Sun Oct 25 morning, no level change; reviewed Sat Oct 24 morning, no level change; reviewed Thu Oct 22 evening, no level change; reviewed Thu Oct 22 morning, no level change; reviewed Wed Oct 21 evening, no level change; reviewed Wed Oct 21 morning, no level change; re-pointed Tue Oct 20 evening after Liverpool 4-3 Villarreal. Previously Villarreal at home (UCL, Tue 20 Oct; re-pointed Sat Oct 17 evening after Brentford 1-2 Liverpool: LDM Gravenberch High, CAM Wirtz High, RCB High, ST Isak Medium, RAM Medium. Previously Brentford away; Sat Oct 17 morning: CAM High to Medium, three Echo writers pick Szoboszlai there; RAM Medium to Low, all four Echo writers pick Ngumoha; re-pointed Wed 14 Oct evening after LASK 3-6 Liverpool; previously LASK Linz, and before that Manchester City at
 // Anfield on Sunday 11 October, RE-POINTED Sun Oct 11 (evening) at LASK Linz away on Wed 14 October: RB lowered to Low (Frimpong rotation), RCB to Medium (Gomez), LDM now Gravenberch at Medium, RDM Mac Allister High. (Reviewed Sun Oct 11, morning: no level change, matchday previews agree. Sat Oct 10, morning: no level change; ST now Barcola and LAM Ngumoha, both Medium. Fri Oct 9, evening: RCB raised Medium to High after Iraola declared Jacquet 'fit and ready to go'; ST raised Low to Medium after Iraola ruled Isak out and named Koumas the only natural nine. Fri Oct 9, morning: RCB lowered from High to Medium because RotoWire still lists Jacquet's hamstring tightness and picks Gomez, against Rousing The Kop's report that he took the full session; other levels unchanged. Thu Oct 8, evening: RCB raised to High after Jacquet trained; RAM raised to Medium with Gakpo absent from training; ST stays Low with Koumas in. Thu Oct 8, morning: levels unchanged, no new bulletin. Wed Oct 7, evening: levels unchanged after Iraola's update on Isak and Gakpo. Wed Oct 7, morning: levels unchanged, no club bulletin on Jacquet, Isak or Gakpo. Tue Oct 6, evening: RCB raised from Low to Medium on reports that Jacquet's strain is slight, unconfirmed by the club. Tue Oct 6, morning: levels unchanged. Mon Oct 5, evening: RCB cut from High to Low after Jacquet's left hamstring strain in the France camp; other levels unchanged since Sat Sep 26.) The basis has changed in kind: this
 // is no longer a preview consensus, it is the eleven that started and won at Bournemouth
 // last time out. That raises confidence in the spine and lowers it nowhere except the front three,
@@ -382,16 +382,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Sat Nov 7, evening - Kerkez, also Last Word On Football's left-back on Saturday. Medium.",
-  LCB: "Sat Nov 7, evening - Van Dijk, captain of a side Iraola calls 'sometimes too honest' (Sports Mole). High.",
-  RCB: "Sat Nov 7, evening - Jacquet, the third Saturday preview to pair him with Van Dijk. High.",
-  RB: "Sat Nov 7, evening - Araújo, in every Saturday XI; Frimpong 'too soon', Bradley out (Liverpool FC). High.",
-  LDM: "Sat Nov 7, evening - Szoboszlai, Sports Mole's pick; Last Word On Football names Nyoni instead, so the slot is split. Low.",
-  RDM: "Sat Nov 7, evening - Mac Allister, in every XI whichever partner. High.",
-  LAM: "Sat Nov 7, evening - Barcola, 'a winger, 90 per cent of the time' (Iraola via Goal). Medium.",
-  CAM: "Sat Nov 7, evening - Wirtz, at ten in Saturday's previews. Medium.",
-  RAM: "Sat Nov 7, evening - Gakpo, the other flank. Medium.",
-  ST: "Sat Nov 7, evening - Isak, the nine in every Saturday preview. High.",
+  LB: "Sun Nov 8, morning - Kerkez, left-back in all four Sunday XIs despite Football Insider's 'few concerns' (Football365). Medium.",
+  LCB: "Sun Nov 8, morning - Van Dijk, captain of a side yet to concede a league set-piece goal (Sports Mole). High.",
+  RCB: "Sun Nov 8, morning - Jacquet, beside Van Dijk in every Sunday preview, LFC Globe's included. High.",
+  RB: "Sun Nov 8, morning - Araújo, in every Sunday XI; Frimpong misses a sixth game, Bradley out (Liverpool FC). High.",
+  LDM: "Sun Nov 8, morning - Szoboszlai, as LFC Globe and Sports Mole pick; SI and 101 Great Goals start Nyoni. Two-two. Low.",
+  RDM: "Sun Nov 8, morning - Mac Allister, the one midfielder every preview names. High.",
+  LAM: "Sun Nov 8, morning - Barcola, wide in every XI; LFC Globe moves him right and starts Ngumoha. Medium.",
+  CAM: "Sun Nov 8, morning - Wirtz, at ten in all four Sunday XIs. Medium.",
+  RAM: "Sun Nov 8, morning - Gakpo, in three of four Sunday XIs; LFC Globe alone leaves him out, no injury reported. Medium.",
+  ST: "Sun Nov 8, morning - Isak, the only senior nine, in every preview. High.",
 };
 
 
@@ -418,7 +418,7 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-11-07T23:15:00Z",
-  reason: "Sat Nov 7, evening. Crystal Palace away, Premier League, Sun 8 Nov, 2pm GMT, Sky Sports. No personnel change: ten of the eleven appear in Last Word On Football's Saturday-evening XI too, which differs only in starting Nyoni for Szoboszlai beside Mac Allister; Gravenberch remains 'the only doubt' (Liverpool FC). Medium until the team sheet.",
+  generated_at: "2026-11-08T09:45:00Z",
+  reason: "Sun Nov 8, morning, matchday. Crystal Palace away, Premier League, 2pm GMT, Sky Sports. No personnel change: four published XIs (Sports Mole; SI; 101 Great Goals; LFC Globe) agree on the back five, Mac Allister, Wirtz, Barcola and Isak, split two-two on Szoboszlai or Nyoni, and three of four start Gakpo; Gravenberch is a bench option at most. Medium until the team sheet at 1pm.",
 };
 

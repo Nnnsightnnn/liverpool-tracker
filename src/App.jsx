@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday night, and the table has moved without them: Forest beat Manchester City 3-1, City's third defeat running, and
-          Arsenal edged Hull to go twelve clear. Liverpool, sixth on fifteen, go to Selhurst Park tomorrow at two knowing a win
-          would, as things stand, lift them to fourth, three points from second, against a side now nineteenth.
+          Matchday at Selhurst Park, two o'clock, and the last league game before the break. Liverpool are sixth on fifteen
+          from nine, exactly where last season's side stood a year ago, and a win against a Palace team nineteenth, without
+          Mateta and with three straight defeats behind them, would lift them as high as fourth, depending on Chelsea.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the rest of the league did Liverpool's arithmetic for them. Manchester City lost 3-1 at the City Ground, their third defeat
-              in a row, and Arsenal won 1-0 at home to Hull to sit twelve points clear of the side they beat at Anfield a week ago. Second
-              place is suddenly six points away, not a world. Andoni Iraola, asked about referees, said his players are "quite an honest
-              group. Sometimes too honest", and on Bradley Barcola's night up front in Istanbul said simply that he is a winger, nine
-              times in ten. Across London, Pierre Sage insists football is not a hard job; his team is nineteenth and his striker
-              banned. A small sample, a closed squad, and for once a door left open.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and Andoni Iraola has reduced the afternoon to a single sentence: go there, do the job, win the game. It is a
+              plainer line than the week deserved. Liverpool have lost twice in five days, to Arsenal at Anfield and in Istanbul,
+              and they arrive at Selhurst with fifteen points from nine, the same as Arne Slot's side at this stage last season. The
+              numbers underneath are kinder, four clean sheets and nothing conceded from a set piece in the league, and Palace,
+              nineteenth, have conceded more than anyone. The only argument left in the team is who stands beside Mac Allister,
+              Szoboszlai or the nineteen-year-old Nyoni. Somewhere in the background, the club is already looking for Alisson's
+              successor. The present still has to be won first.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: three on the bounce; sometimes too honest; a winger, mostly;
-              not a hard job; and the crest, altered.
-              Sixth, twelve behind Arsenal, with Crystal Palace away tomorrow.
+              five dispatches from the writers who never clock off: go there, do the job; fifteen, like last year; two previews
+              each; a keeper for later; and Nketiah, alone.
+              Sixth, twelve behind Arsenal, with Crystal Palace away this afternoon.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Other people's defeats, our open door."
+        "The same fifteen points, a different year."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
