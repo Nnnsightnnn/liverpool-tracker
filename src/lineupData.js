@@ -57,15 +57,15 @@ export const FORMATIONS = {
     //   4.30pm GMT, Sky Sports). No personnel change; Szoboszlai (knee, 'not 100%', ESPN) held in with Nyoni the first alternative.
     defaultXI: {
       GK: 1,  // Alisson (six saves at Selhurst, Sky Sports; United at home next)
-      LB: 7,  // Kerkez (on about ten minutes after the 66' changes in Istanbul; started v Arsenal)
+      LB: 7,  // Kerkez (ninety-five minutes at Selhurst)
       LCB: 3, // Van Dijk
       RCB: 11, // Jacquet
-      RB: 29, // Araujo (Evening Standard's pick, Thu; Frimpong and Bradley out)
+      RB: 29, // Araujo (started at Selhurst; Frimpong and Bradley out)
       LCM: 13, // Mac Allister
       CM: 15, // Szoboszlai (started at Selhurst; knee knock, Nyoni the alternative)
-      RCM: 18, // Wirtz (rested in Istanbul)
+      RCM: 18, // Wirtz (scored at Selhurst)
       LW: 30, // Barcola (Iraola: better wide)
-      ST: 23, // Isak (thirty minutes in Istanbul, scored)
+      ST: 23, // Isak (scored at Selhurst)
       RW: 22, // Gakpo
     },
 
@@ -114,13 +114,13 @@ export const FORMATIONS = {
       LB: 7,  // Kerkez
       LCB: 3, // Van Dijk
       RCB: 11, // Jacquet
-      RB: 29, // Araujo (rested in Istanbul)
+      RB: 29, // Araujo (started at Selhurst)
       LDM: 15, // Szoboszlai (started at Selhurst, knee knock, ESPN); Nyoni or Endo the alternatives, Gravenberch out of the squad
       RDM: 13, // Mac Allister
-      LAM: 30, // Barcola (back wide after leading the line in Istanbul)
-      CAM: 18, // Wirtz (rested in Istanbul)
+      LAM: 30, // Barcola (set up Wirtz at Selhurst)
+      CAM: 18, // Wirtz (scored at Selhurst)
       RAM: 22, // Gakpo
-      ST: 23, // Isak (rested in Istanbul, scored off the bench)
+      ST: 23, // Isak (scored at Selhurst)
     },
 
   },
@@ -150,13 +150,13 @@ export const FORMATIONS = {
     // Wed 28 Oct (evening): re-pointed at Arsenal at home; Gomez into the back three, Araujo at wing-back, Wirtz to the bench.
     // Sun 8 Nov (evening): re-pointed at Manchester United at home; unchanged, Gomez inside, Araujo at wing-back.
     defaultXI: {
-      GK: 1,  // Alisson (Thu Nov 5)
+      GK: 1,  // Alisson (six saves at Selhurst)
       LCB: 3, // Van Dijk
       CCB: 11, // Jacquet
       RCB: 5, // Gomez (back-three cover)
       LWB: 7, // Kerkez
       LCM: 13, // Mac Allister
-      RCM: 15, // Szoboszlai (The False 9; Gravenberch a late check)
+      RCM: 15, // Szoboszlai (knee knock at Selhurst; Gravenberch out of the squad)
       RWB: 29, // Araujo
       LW: 30, // Barcola
       ST: 23, // Isak

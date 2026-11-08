@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Sun Nov 8, evening - Six saves at Selhurst (Sky Sports), the first-half stop and a late one-on-one with Pino among them, and a clean sheet lost only to the ninety-fifth-minute penalty; FotMob 8.2 (SI), The False 9's nine.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Sun Nov 8, evening - Six saves at Selhurst (Sky Sports), the first-half stop and a late one-on-one among them, and a clean sheet lost only to the ninety-fifth-minute penalty; FotMob 8.2 (SI), The False 9's nine.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -122,7 +122,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sun Nov 8, evening - Headed in Szoboszlai's free kick on forty, unmarked (ESPN), his fifth league goal of the season (Sky Sports); booked late. FotMob 8.4 (SI).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sun Nov 8, evening - Headed in Szoboszlai's free kick on forty, unmarked (ESPN), his fifth goal of the season in all competitions; booked late. FotMob 8.4 (SI).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -1153,7 +1153,7 @@ export const DISPATCHES = [
     "byline": "Sky Sports",
     "dateline": "London · 8 November",
     "category": "Match Report",
-    "body": "For eighty-nine minutes it went the way Iraola had asked. Alexis Mac Allister, unmarked, headed in Szoboszlai's free kick on forty; Florian Wirtz finished Bradley Barcola's low cross on a counter fourteen minutes into the second half; Alexander Isak's deflected shot looped over Dean Henderson with a minute left (ESPN). Palace had chances too, Pino's header against the bar and a Strand Larsen goal ruled offside, and Alisson made six saves (Sky Sports). Then, with the last kick, Eddie Nketiah scored a penalty after Kerkez and Osorio clashed heads. Three goals, one clean sheet lost, and fourth place."
+    "body": "For eighty-nine minutes it went the way Iraola had asked. Alexis Mac Allister, unmarked, headed in Szoboszlai's free kick on forty; Florian Wirtz finished Bradley Barcola's low cross on a counter nine minutes into the second half; Alexander Isak's deflected shot looped over Dean Henderson with a minute left (ESPN). Palace had chances too, Pino's header against the bar and a Strand Larsen goal ruled offside, and Alisson made six saves (Sky Sports). Then, with the last kick, Eddie Nketiah scored a penalty after Kerkez and Osorio clashed heads. Three goals, one clean sheet lost, and fourth place."
   },
   {
     "n": "02",

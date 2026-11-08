@@ -78,7 +78,7 @@ function PlayerAvatar({ player, size = 64 }) {
 // injuryNote: short description shown on card when not fit
 const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
-  { id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Sun Nov 8, evening - Six saves at Selhurst (Sky Sports), the first-half stop and a late one-on-one with Pino among them, and a clean sheet lost only to the ninety-fifth-minute penalty; FotMob 8.2 (SI), The False 9's nine.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png" },
+  { id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Sun Nov 8, evening - Six saves at Selhurst (Sky Sports), the first-half stop and a late one-on-one among them, and a clean sheet lost only to the ninety-fifth-minute penalty; FotMob 8.2 (SI), The False 9's nine.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png" },
   { id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 26, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Sun Nov 8, evening - An unused substitute in the 3-1 at Palace (ESPN); the No. 2 through a break in which Georgia, not Liverpool, decide his minutes.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png" },
 
   // ── Defenders ─────────────────────────────────────────────────────────────
@@ -93,7 +93,7 @@ const PLAYERS = [
   { id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Sun Nov 8, evening - Unused at Selhurst (ESPN), with Kerkez playing every minute at left-back.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png" },
 
   // ── Midfielders ───────────────────────────────────────────────────────────
-  { id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sun Nov 8, evening - Headed in Szoboszlai's free kick on forty, unmarked (ESPN), his fifth league goal of the season (Sky Sports); booked late. FotMob 8.4 (SI).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png" },
+  { id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sun Nov 8, evening - Headed in Szoboszlai's free kick on forty, unmarked (ESPN), his fifth goal of the season in all competitions; booked late. FotMob 8.4 (SI).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png" },
   { id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "doubtful", outSince: "2026-11-03", injuryNote: "Sun Nov 8, evening - Heel: not in the matchday squad at Palace (ESPN); the international break is now the recovery window Iraola hoped would not be needed.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png" },
   { id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "doubtful", injuryNote: "Sun Nov 8, evening - Knee: 'extended the knee a little bit... not 100%,' Iraola said (ESPN), after taking the free kick for the opener and going off on sixty-nine; Hungary want him this week.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png" },
   { id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Sun Nov 8, evening - Named on the bench at Selhurst and unused (ESPN); a league squad place, still no minutes.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png" },
@@ -129,9 +129,9 @@ const RSS_FEEDS = [
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
   { source: "Sky Sports", title: "Crystal Palace 1-3 Liverpool: Pierre Sage in big trouble as Eagles hit rock-bottom in Premier League", time: "today", category: "major" },
+  { source: "ESPN", title: "Andoni Iraola: Liverpool 'needed' win over Crystal Palace after difficult week", time: "today", category: "major" },
   { source: "Yahoo Sports", title: "Crystal Palace set to sack Pierre Sage after less than five months in charge", time: "today", category: "major" },
   { source: "GiveMeSport", title: "Crystal Palace Set To Sack Pierre Sage", time: "today", category: "fan" },
-  { source: "ESPN", title: "Andoni Iraola: Liverpool 'needed' win over Crystal Palace after difficult week", time: "today", category: "major" },
   { source: "SoccerNews", title: "Iraola 'very upset' with Palace penalty that cost Liverpool clean sheet", time: "today", category: "fan" },
   { source: "ESPN", title: "Man United rescue 4-4 draw vs. Aston Villa but remain in relegation zone", time: "today", category: "major" },
   { source: "SI", title: "Liverpool Player Ratings vs. Crystal Palace: Wirtz Shines to Avoid 200-Day Drought", time: "today", category: "major" },
@@ -142,7 +142,6 @@ const LATEST_NEWS = [
   { source: "NBC Sports", title: "Crystal Palace 1-3 Liverpool live updates: Recap, manager reaction, video highlights, analysis", time: "today", category: "major" },
   { source: "VAVEL", title: "Crystal Palace 1-3 Liverpool FC, Wirtz and Isak seal Premier League win in London", time: "today", category: "fan" },
   { source: "ESPN", title: "Crystal Palace 1-3 Liverpool: Clinical visitors leave Pierre Sage on the brink", time: "today", category: "major" },
-  { source: "Opta Analyst", title: "Crystal Palace vs Liverpool Prediction: Premier League Preview", time: "2d ago", category: "major" },
 ];
 
 

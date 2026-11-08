@@ -610,7 +610,7 @@ function CoverView({ onJump }) {
               Szoboszlai's free kick, Wirtz ended 197 days without a league goal, and Isak's shot found its way over Henderson
               with a minute left. Then the penalty, in the ninety-fifth minute, which Iraola called a reason to be very upset
               and which was, by any measure, the least of the day. Palace hit the bar, had a goal ruled out and needed Alisson's
-              six saves to be beaten by only two. Szoboszlai went off with a knee he says is fine and Iraola is not sure of, on
+              six saves to be beaten by only two. Szoboszlai went off with a knee Iraola calls fine but not a hundred per cent, on
               the eve of a fortnight with Hungary. A win, a worry, and two weeks to sit with both.
             </p>
             <p className="cover-letter-body" style={{
