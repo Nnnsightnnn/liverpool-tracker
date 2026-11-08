@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2026-27 Season · Updated 1 November 2026 (morning)) ──────
+// ─── Liverpool FC Player Data (2026-27 Season · Updated 8 November 2026 (morning)) ──────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -1147,7 +1147,7 @@ export const DISPATCHES = [
     "byline": "Liverpool Echo",
     "dateline": "London · 8 November",
     "category": "Manager",
-    "body": "By two o'clock the talking will be over, and Iraola has kept his to a minimum. 'We need the win against Palace away and we've been, I think, in similar situations,' he said, the Liverpool Echo's Mark Jones reported early on Sunday. 'So, we have to go there and do the job and win the game.' He named the midfielders he respects, Wharton, Kamada, Pino and Timber, and the ground he does not trust, 'not the biggest pitch'. Liverpool have lost two in a row, to Arsenal and in Istanbul. Palace have lost three league games running. One of those sequences ends today."
+    "body": "By two o'clock the talking will be over, and Iraola kept his to a minimum. 'We need the win against Palace away and we've been, I think, in similar situations,' he said at Friday's press conference, a line the Liverpool Echo's Mark Jones returned to early on Sunday. 'So, we have to go there and do the job and win the game.' He named the midfielders he respects, Wharton, Kamada, Pino and Timber, and the ground he does not trust, 'not the biggest pitch'. Liverpool have lost two in a row, to Arsenal and in Istanbul. Palace have lost three league games running. One of those sequences ends today."
   },
   {
     "n": "02",
@@ -1155,7 +1155,7 @@ export const DISPATCHES = [
     "byline": "Sports Mole",
     "dateline": "Liverpool · 7 November",
     "category": "Race for Europe",
-    "body": "The comparison was always coming, and Sports Mole made it late on Saturday night. After nine games Liverpool have fifteen points, the same as Arne Slot's side at the same stage last season, a side that finished fifth. The differences are underneath: four league clean sheets, third-most, and not one goal conceded from a set piece in the league. Iraola has lost three of his fifteen games and is contracted to 2028. A win at Selhurst would be his tenth in fourteen. The same number, in other words, is being reached by a different road."
+    "body": "The comparison was always coming, and Sports Mole made it late on Saturday night. After nine games Liverpool have fifteen points, the same as Arne Slot's side at the same stage last season, a side that finished fifth. The differences are underneath: four league clean sheets, third-most, and not one goal conceded from a set piece in the league. Iraola is contracted to 2028, and Sports Mole frames Selhurst as a test of his tenure. The same number, in other words, is being reached by a different road."
   },
   {
     "n": "03",
@@ -1184,12 +1184,12 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   "generatedAt": "2026-11-08T09:45:00Z",
-  "summary": "Sunday is matchday at Selhurst Park, 2pm GMT, and Iraola's message, carried by the Liverpool Echo this morning, is the plainest of the week: 'We have to go there and do the job and win the game.' Late on Saturday Sports Mole set the stakes, noting that fifteen points from nine is exactly Arne Slot's total at this stage last season, while a win today would be Iraola's tenth in fourteen. Four published Liverpool XIs agree on ten names and split two-two on Szoboszlai or Nyoni beside Mac Allister (LFC Globe; Sports Mole; SI; 101 Great Goals); Palace, per The Football Faithful and SportsView, start Nketiah alone with Mateta banned and Sarr injured. Off the pitch, Football Insider's report that Liverpool are looking at Brighton's Bart Verbruggen as Alisson's successor ran in Sports Mole and BBC Sport's gossip column overnight, and Football365 carried Pete O'Rourke's 'few concerns' about Kerkez. Gravenberch, with a heel fracture, remains the only doubt.",
+  "summary": "Sunday is matchday at Selhurst Park, 2pm GMT, and Iraola's message from Friday, re-run by the Liverpool Echo this morning, is the plainest of the week: 'We have to go there and do the job and win the game.' Late on Saturday Sports Mole set the stakes, noting that fifteen points from nine is exactly Arne Slot's total at this stage last season, and called today a key test of Iraola's tenure. Four published Liverpool XIs agree on ten names and split two-two on Szoboszlai or Nyoni beside Mac Allister (LFC Globe; Sports Mole; SI; 101 Great Goals); Palace, per The Football Faithful and SportsView, start Nketiah alone with Mateta banned and Sarr injured. Off the pitch, Football Insider's report that Liverpool are looking at Brighton's Bart Verbruggen as Alisson's successor ran in Sports Mole and BBC Sport's gossip column overnight, and Football365 carried Pete O'Rourke's 'few concerns' about Kerkez. Gravenberch, with a heel fracture, remains the only doubt.",
   "keyTopics": [
     {
       "title": "Iraola: 'Do The Job And Win The Game' (Liverpool Echo, today)",
       "category": "general",
-      "detail": "Published at 5am GMT on Sunday by the Liverpool Echo's Mark Jones, from Iraola's pre-match remarks: 'We need the win against Palace away and we've been, I think, in similar situations. So, we have to go there and do the job and win the game.' He named Wharton, Kamada, Pino and Timber as Palace's quality in the middle and called Selhurst 'not the biggest pitch' (Liverpool Echo via Yahoo)."
+      "detail": "Re-run at 5am GMT on Sunday by the Liverpool Echo's Mark Jones from Iraola's Friday press conference: 'We need the win against Palace away and we've been, I think, in similar situations. So, we have to go there and do the job and win the game.' He named Wharton, Kamada, Pino and Timber as Palace's quality in the middle and called Selhurst 'not the biggest pitch' (Liverpool Echo via Yahoo)."
     },
     {
       "title": "Pivot Split Two-Two On Matchday (LFC Globe, today)",
@@ -1209,17 +1209,12 @@ export const NEWS_DIGEST = {
     {
       "title": "Fifteen From Nine, Same As Slot (Sports Mole, 1d ago)",
       "category": "general",
-      "detail": "Published at 11.24pm GMT on Saturday: Sports Mole's Lewis Nolan notes Liverpool's fifteen points after nine games equal the total of Slot's side, which finished fifth, at the same stage of 2025-26. Iraola has lost three of fifteen games, is contracted to 2028, and has four league clean sheets, third-most; a win at Palace would be his tenth in fourteen."
+      "detail": "Published at 11.24pm GMT on Saturday: Sports Mole's Lewis Nolan notes Liverpool's fifteen points after nine games equal the total of Slot's side, which finished fifth, at the same stage of 2025-26. Iraola is contracted to 2028, and his side has four league clean sheets, third-most."
     },
     {
       "title": "Verbruggen As Alisson's Successor (Sports Mole, 1d ago)",
       "category": "transfers",
       "detail": "Published at 11.05pm GMT on Saturday, after BBC Sport's Sunday gossip column (10.06pm): Football Insider reports Liverpool turning to Brighton's Bart Verbruggen, twenty-four, with eleven clean sheets in fourteen games this season and a Transfermarkt value of £33.4m (Sports Mole). Alisson's contract ends in the summer; Real Madrid are also said to be interested. A summer story, not a January one."
-    },
-    {
-      "title": "City's Third Defeat, Revisited (VAVEL, 1d ago)",
-      "category": "matches",
-      "detail": "Played on Saturday evening and still the frame for today: Nottingham Forest 3-1 Manchester City, Delap with two (VAVEL). It leaves second place on twenty-one, six points above Liverpool before kick-off (ESPN), and Chelsea, a point ahead, have yet to play this round."
     },
     {
       "title": "O'Rourke's 'Few Concerns' On Kerkez (Football365, 1d ago)",
@@ -1242,8 +1237,6 @@ export const NEWS_DIGEST = {
     "SportsView",
     "BBC Sport",
     "Football365",
-    "VAVEL",
-    "ESPN",
     "Liverpool FC",
     "LiveScore"
   ]

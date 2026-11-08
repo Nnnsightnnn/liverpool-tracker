@@ -215,7 +215,7 @@ export const PLAYER_EVIDENCE = {
   27: "Third keeper",
   28: "Wide cover · no XI",
   29: "RB · every Sunday XI",
-  30: "Wide · right per LFC Globe",
+  30: "Wide · left in 3 of 4 XIs",
   31: "Bench nine",
   32: "Bench after Istanbul start",
 };
