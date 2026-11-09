@@ -196,33 +196,34 @@ export const FORMATIONS = {
 // Mon Nov 2 (evening): 12 refreshed for Szoboszlai's 'It stays secret' (Read Liverpool), Iraola on Bradley (Anfield Index via Yahoo Sports) and Khel Now's XI; XIs unchanged.
 // Sun Nov 8 (evening): all 27 refreshed after Crystal Palace 1-3 Liverpool (ESPN line-ups; SI/FotMob ratings; Sky Sports); re-pointed at Manchester United, PL, Sun 22 Nov.
 // Mon Nov 9 (morning): all 27 refreshed for the Szoboszlai-Hungary talks (Read Liverpool; Brit Brief), Henderson's penalty admission and LiveScore's round-up; XIs unchanged.
+// Mon Nov 9 (evening): all 26 refreshed for Van Dijk's withdrawal from the Netherlands squad (Liverpool FC; Dutch FA), Hungary's Szoboszlai tests (Evening Standard via Yahoo) and The False 9's international-duty table; XIs unchanged.
 export const PLAYER_EVIDENCE = {
-  1:  "Praised by Iraola · six saves",
-  2:  "No.2 · Georgia v Hungary",
-  3:  "Captain · deal runs to 2027",
-  5:  "Spare RB and CB",
-  7:  "Starts · 'probably not' a pen",
-  8:  "Knee · not yet fully fit",
-  9:  "Muscle · break is his window",
-  10: "ACL · training planned",
-  11: "Started v Palace · Van Dijk pair",
+  1:  "Not picked by Brazil · rests",
+  2:  "Georgia · faces Hungary 14th",
+  3:  "Out of Dutch squad · fitness",
+  5:  "First CB and RB cover",
+  7:  "Hungary duty · Georgia, NI",
+  8:  "Knee · not yet with group",
+  9:  "Muscle · no return date",
+  10: "ACL · break training due",
+  11: "France duty · senior fit CB",
   12: "Loan · Levante",
-  13: "Fit · only certain midfielder",
-  14: "Heel · still listed",
-  15: "Knee · Hungary call due",
-  17: "Unused · no minutes yet",
-  18: "Sofascore 8.3 · 'unlucky'",
-  20: "Next in if Szoboszlai out",
-  22: "76 mins at Selhurst",
-  23: "Seven goals · only senior 9",
-  24: "Achilles · Boxing Day aim",
-  25: "England duty · Bayern rebuffed",
-  26: "Outside the twenty",
-  27: "Third keeper",
-  28: "Schwarzer: 'made a difference'",
-  29: "RB · £47m call waits",
-  30: "Assist v Palace · rested legs",
-  31: "Reserve nine",
+  13: "Argentina · v Uruguay 13th",
+  14: "Heel · not with Netherlands",
+  15: "Knee tests · Hungary update due",
+  17: "No call-up · no minutes yet",
+  18: "Germany · v Dutch on 16th",
+  20: "Next in at LDM for United",
+  22: "Netherlands · Greece, Germany",
+  23: "Sweden duty · only senior 9",
+  24: "Achilles · training this month?",
+  25: "England · Croatia, Spain",
+  26: "No call-up · fringe",
+  27: "Third keeper · no call-up",
+  28: "Late Spain call-up",
+  29: "Uruguay duty · RB on return",
+  30: "France duty · with Jacquet",
+  31: "Wales duty · reserve nine",
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -360,6 +361,8 @@ export const PLAYER_EVIDENCE = {
 //   eleven of eleven started the last match, but a two-week break and no United preview yet.
 // Mon Nov 9 (morning): no personnel change. Liverpool and Hungary to talk about Szoboszlai's knee within 48 hours (Read Liverpool); held at LDM, Low,
 //   with Nyoni the first alternative. No United preview yet. Overall Medium.
+// Mon Nov 9 (evening): no personnel change. Van Dijk withdrawn from the Netherlands squad with an undiagnosed fitness issue (Liverpool FC); held at LCB,
+//   which drops High to Medium, with Gomez the alternative. Szoboszlai tested by Hungary, no result; LDM stays Low. Overall Medium.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -375,7 +378,7 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 export const SLOT_CONFIDENCE = {
   GK: "High",
   LB: "Medium",
-  LCB: "High",
+  LCB: "Medium",
   RCB: "High",
   RB: "Medium",
   LDM: "Low",
@@ -392,16 +395,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Mon Nov 9, morning - Kerkez, fit, and cleared by Palace's own goalkeeper of the late penalty, 'probably not' one (Liverpool Echo via Yahoo). Medium.",
-  LCB: "Mon Nov 9, morning - Van Dijk, the captain, with his contract to 2027 the background to Monday's Colwill reports (LiveScore). High.",
-  RCB: "Mon Nov 9, morning - Jacquet, paired with Van Dijk at Selhurst (ESPN) and no reported issue in the break. High.",
-  RB: "Mon Nov 9, morning - Araújo by elimination, his £47m option reportedly left until summer (LiveScore); Bradley still short of full fitness (Read Liverpool). Medium.",
-  LDM: "Mon Nov 9, morning - Szoboszlai, pending the club's talks with Hungary on his knee (Read Liverpool); Nyoni if he is ruled out. Low.",
-  RDM: "Mon Nov 9, morning - Mac Allister, the scorer at Selhurst and the only certain senior midfielder for United. High.",
-  LAM: "Mon Nov 9, morning - Barcola, the assist for Wirtz and off on sixty-nine (Sky Sports; ESPN). Medium.",
-  CAM: "Mon Nov 9, morning - Wirtz, 'very unlucky in the Premier League' before Sunday, Iraola said (Hayters); Sofascore 8.3. High.",
-  RAM: "Mon Nov 9, morning - Gakpo, seventy-six minutes at Selhurst; Ngumoha, with England, the alternative. Medium.",
-  ST: "Mon Nov 9, morning - Isak, seven this season (NBC Sports) and the only fit senior nine. High.",
+  LB: "Mon Nov 9, evening - Kerkez, with Hungary for Georgia and Northern Ireland (The False 9) and the first-choice left-back on return. Medium.",
+  LCB: "Mon Nov 9, evening - Van Dijk, held, but out of the Netherlands squad after he 'did not return fit' from Selhurst (Liverpool FC); no diagnosis yet. Gomez if he is not right. Medium.",
+  RCB: "Mon Nov 9, evening - Jacquet, with France this week (The False 9) and now the one centre-back with no question over him. High.",
+  RB: "Mon Nov 9, evening - Araújo, with Uruguay (The False 9); Frimpong has no return date and Bradley is not yet training with the group. Medium.",
+  LDM: "Mon Nov 9, evening - Szoboszlai, tested by Hungary on Monday with an update promised 'as soon as possible' (BBC via Yahoo); Nyoni if not. Low.",
+  RDM: "Mon Nov 9, evening - Mac Allister, with Argentina for Uruguay and Costa Rica (The False 9). High.",
+  LAM: "Mon Nov 9, evening - Barcola, away with France alongside Jacquet (The False 9). Medium.",
+  CAM: "Mon Nov 9, evening - Wirtz, whose Germany meet the Netherlands on the 16th (The False 9). High.",
+  RAM: "Mon Nov 9, evening - Gakpo, now the senior Liverpool player in the Dutch camp; Ngumoha the alternative. Medium.",
+  ST: "Mon Nov 9, evening - Isak, with Sweden, the break that cost him last month (Brit Brief); Koumas the cover. High.",
 };
 
 
@@ -412,7 +415,7 @@ export const SLOT_RATIONALE = {
 export const ALTERNATIVES = {
   GK:  [{ playerId: 2, reason: "Mamardashvili · No. 2" }, { playerId: 27, reason: "Woodman · third-choice" }],
   LB:  [{ playerId: 32, reason: "Tsimikas · unused at Selhurst" }],
-  LCB: [{ playerId: 5, reason: "Gomez · senior cover" }],
+  LCB: [{ playerId: 5, reason: "Gomez · if Van Dijk is not fit" }],
   RCB: [{ playerId: 5, reason: "Gomez · senior cover" }],
   RB:  [{ playerId: 5, reason: "Gomez · on for Araújo at Selhurst" }, { playerId: 9, reason: "Frimpong · if fit after the break" }],
   LDM: [{ playerId: 20, reason: "Nyoni · on for Szoboszlai at Selhurst" }, { playerId: 17, reason: "Endo · unused, fresh" }],
@@ -428,7 +431,7 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-11-09T09:40:00Z",
-  reason: "Mon Nov 9, morning. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. Unchanged from the eleven that won 3-1 at Selhurst (ESPN). Medium, because Liverpool and Hungary are still to decide on Szoboszlai's knee (Read Liverpool) and no United preview is published.",
+  generated_at: "2026-11-09T23:10:00Z",
+  reason: "Mon Nov 9, evening. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. Still the eleven that won 3-1 at Selhurst (ESPN), but two of it are now in doubt: Van Dijk, withdrawn from the Netherlands squad with an undiagnosed fitness issue (Liverpool FC), and Szoboszlai, whose Hungary knee tests have no published result. Medium.",
 };
 

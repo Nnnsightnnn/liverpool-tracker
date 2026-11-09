@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, and the first question of the break is a knee. Liverpool and Hungary will decide within two days whether
-          Szoboszlai travels, while the 3-1 at Selhurst keeps them fourth, nine behind Arsenal. Thirteen days remain before
-          Manchester United, eighteenth and still led by a manager who says he deserves to stay, come to Anfield.
+          Monday evening, and the captain is not going to Amsterdam. Van Dijk's withdrawal from the Dutch squad, a fitness
+          issue with no name or date attached, turns a quiet break into a watch on two players, with Szoboszlai's Hungary
+          tests still unanswered. Liverpool are fourth, nine behind Arsenal, and United come to Anfield a week on Sunday.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,21 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and the break opens on a negotiation. Liverpool's doctors will speak to Hungary's within forty-eight hours about
-              the knee Szoboszlai bent at Selhurst, and Iraola, who lost three players to the last international fortnight, has
-              said he knows what he wants and accepts it is not only his to decide. Overnight, Dean Henderson, the goalkeeper
-              who conceded three, allowed that Palace's late penalty was probably not one, an admission that changes
-              nothing on the scoresheet. Palace have still not said whether Sage stays; United's Carrick says he should.
-              Liverpool sit fourth and wait, which in November is its own kind of work.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the break has its first worry, and it is the one Liverpool can least afford. Virgil van Dijk did not return fit
+              from Selhurst, the Dutch said on Monday, and will miss Greece and Germany; nobody has named the problem or put a
+              date on it, and the club will watch him before United. Szoboszlai sat his tests in Hungary under what the
+              federation called the usual protocol, and the answer has not come. Behind the captain stand Jacquet, who is
+              twenty-one, and Gomez, the only senior spare, with Leoni still waiting to train. Iraola said on Sunday that the
+              last thing he needed was to lose players in the international games. The first scare of the fortnight arrived
+              before a ball was kicked in it.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: forty-eight hours; the other goalkeeper agrees; unlucky,
-              until Sunday; two dugouts, one fortnight; and the option can wait.
+              five dispatches from the writers who never clock off: the captain stays home; praying, out loud; the usual
+              protocol; Sunderland, twice over; and an understanding, not an announcement.
               Fourth, nine behind Arsenal, with Manchester United at Anfield on 22 November.
             </p>
           </div>
@@ -3830,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Forty-eight hours, then Hungary."
+        "The captain did not return fit."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
