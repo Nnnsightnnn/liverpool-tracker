@@ -195,34 +195,34 @@ export const FORMATIONS = {
 // Fri Oct 16 (morning): all 27 refreshed for Van Dijk's calf update (BBC Sport), Barcola's Player of the Week award and The Hard Tackle's XI.
 // Mon Nov 2 (evening): 12 refreshed for Szoboszlai's 'It stays secret' (Read Liverpool), Iraola on Bradley (Anfield Index via Yahoo Sports) and Khel Now's XI; XIs unchanged.
 // Sun Nov 8 (evening): all 27 refreshed after Crystal Palace 1-3 Liverpool (ESPN line-ups; SI/FotMob ratings; Sky Sports); re-pointed at Manchester United, PL, Sun 22 Nov.
+// Mon Nov 9 (morning): all 27 refreshed for the Szoboszlai-Hungary talks (Read Liverpool; Brit Brief), Henderson's penalty admission and LiveScore's round-up; XIs unchanged.
 export const PLAYER_EVIDENCE = {
-  1:  "Six saves at Selhurst · FotMob 8.2",
-  2:  "Unused at Selhurst · No.2",
-  3:  "Started v Palace · FotMob 7.6",
-  5:  "On 90+1 for Araújo at Selhurst",
-  7:  "Started v Palace · late pen given",
-  8:  "Knee · not yet training",
-  9:  "Muscle · seventh game missed",
-  10: "ACL · break is training window",
-  11: "Started v Palace · FotMob 8.0",
+  1:  "Praised by Iraola · six saves",
+  2:  "No.2 · Georgia v Hungary",
+  3:  "Captain · deal runs to 2027",
+  5:  "Spare RB and CB",
+  7:  "Starts · 'probably not' a pen",
+  8:  "Knee · not yet fully fit",
+  9:  "Muscle · break is his window",
+  10: "ACL · training planned",
+  11: "Started v Palace · Van Dijk pair",
   12: "Loan · Levante",
-  13: "Scored v Palace · FotMob 8.4",
-  14: "Heel · not in Palace squad",
-  15: "Knee knock · off 69' v Palace",
-  17: "Unused sub at Selhurst",
-  18: "Scored v Palace · FotMob 8.8",
-  20: "On 69' for Szoboszlai · Palace",
-  22: "Started v Palace · off 76'",
-  23: "Scored v Palace · 7th of season",
+  13: "Fit · only certain midfielder",
+  14: "Heel · still listed",
+  15: "Knee · Hungary call due",
+  17: "Unused · no minutes yet",
+  18: "Sofascore 8.3 · 'unlucky'",
+  20: "Next in if Szoboszlai out",
+  22: "76 mins at Selhurst",
+  23: "Seven goals · only senior 9",
   24: "Achilles · Boxing Day aim",
-  25: "On 76' v Palace · England duty",
-  26: "Not in the Palace squad",
-  27: "Third keeper · not in squad",
-  28: "On 69' v Palace · booked",
-  29: "Started at RB v Palace · booked",
-  30: "Set up Wirtz v Palace · 7.9",
-  31: "On 90' for Isak at Selhurst",
-  32: "Unused sub at Selhurst",
+  25: "England duty · Bayern rebuffed",
+  26: "Outside the twenty",
+  27: "Third keeper",
+  28: "Schwarzer: 'made a difference'",
+  29: "RB · £47m call waits",
+  30: "Assist v Palace · rested legs",
+  31: "Reserve nine",
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -358,6 +358,8 @@ export const PLAYER_EVIDENCE = {
 // Sun Nov 8 (evening): Palace played, Liverpool won 3-1 (ESPN) with this exact eleven. Re-pointed at Manchester United at Anfield, PL, Sun 22 Nov,
 //   4.30pm GMT. No personnel change. Szoboszlai's knee (Iraola: 'not 100%', ESPN) drops LDM to Low; CAM up to High after Wirtz's goal. Overall Medium:
 //   eleven of eleven started the last match, but a two-week break and no United preview yet.
+// Mon Nov 9 (morning): no personnel change. Liverpool and Hungary to talk about Szoboszlai's knee within 48 hours (Read Liverpool); held at LDM, Low,
+//   with Nyoni the first alternative. No United preview yet. Overall Medium.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -390,16 +392,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Sun Nov 8, evening - Kerkez, ninety-five minutes at Selhurst; the late penalty came from a clash of heads with Osorio (ESPN). Medium.",
-  LCB: "Sun Nov 8, evening - Van Dijk, FotMob 7.6 at Selhurst (SI), the captain of the league's set-piece record at the back. High.",
-  RCB: "Sun Nov 8, evening - Jacquet, FotMob 8.0 at Palace (SI) and graded A- by GiveMeSport. High.",
-  RB: "Sun Nov 8, evening - Araújo, booked and replaced late at Palace (ESPN); Frimpong may be back for United, Bradley not training. Medium.",
-  LDM: "Sun Nov 8, evening - Szoboszlai, who took the free kick for the opener but 'extended the knee' (ESPN); Nyoni came on for him. Low.",
-  RDM: "Sun Nov 8, evening - Mac Allister, scorer of the first goal and FotMob 8.4 at Selhurst (SI). High.",
-  LAM: "Sun Nov 8, evening - Barcola, who set up Wirtz with a low cross (Sky Sports) and was off on sixty-nine. Medium.",
-  CAM: "Sun Nov 8, evening - Wirtz, first league goal for 197 days and FotMob 8.8 (SI). High.",
-  RAM: "Sun Nov 8, evening - Gakpo, seventy-six minutes and FotMob 6.9 at Palace (SI); Ngumoha replaced him. Medium.",
-  ST: "Sun Nov 8, evening - Isak, the third goal at Selhurst, his seventh of the season (NBC Sports); the only senior nine. High.",
+  LB: "Mon Nov 9, morning - Kerkez, fit, and cleared by Palace's own goalkeeper of the late penalty, 'probably not' one (Liverpool Echo via Yahoo). Medium.",
+  LCB: "Mon Nov 9, morning - Van Dijk, the captain, with his contract to 2027 the background to Monday's Colwill reports (LiveScore). High.",
+  RCB: "Mon Nov 9, morning - Jacquet, paired with Van Dijk at Selhurst (ESPN) and no reported issue in the break. High.",
+  RB: "Mon Nov 9, morning - Araújo by elimination, his £47m option reportedly left until summer (LiveScore); Bradley still short of full fitness (Read Liverpool). Medium.",
+  LDM: "Mon Nov 9, morning - Szoboszlai, pending the club's talks with Hungary on his knee (Read Liverpool); Nyoni if he is ruled out. Low.",
+  RDM: "Mon Nov 9, morning - Mac Allister, the scorer at Selhurst and the only certain senior midfielder for United. High.",
+  LAM: "Mon Nov 9, morning - Barcola, the assist for Wirtz and off on sixty-nine (Sky Sports; ESPN). Medium.",
+  CAM: "Mon Nov 9, morning - Wirtz, 'very unlucky in the Premier League' before Sunday, Iraola said (Hayters); Sofascore 8.3. High.",
+  RAM: "Mon Nov 9, morning - Gakpo, seventy-six minutes at Selhurst; Ngumoha, with England, the alternative. Medium.",
+  ST: "Mon Nov 9, morning - Isak, seven this season (NBC Sports) and the only fit senior nine. High.",
 };
 
 
@@ -426,7 +428,7 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-11-08T23:16:00Z",
-  reason: "Sun Nov 8, evening. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. No personnel change: eleven of eleven started the 3-1 at Palace (ESPN). Medium, not High, because a fortnight of international football comes first, no United preview is published, and Szoboszlai's knee is 'not 100%' (ESPN).",
+  generated_at: "2026-11-09T09:40:00Z",
+  reason: "Mon Nov 9, morning. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. Unchanged from the eleven that won 3-1 at Selhurst (ESPN). Medium, because Liverpool and Hungary are still to decide on Szoboszlai's knee (Read Liverpool) and no United preview is published.",
 };
 

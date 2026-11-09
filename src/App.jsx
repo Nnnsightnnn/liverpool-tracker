@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Three goals at Selhurst Park, then one Liverpool did not want, and the break begins with them fourth. Mac Allister
-          headed the first, Wirtz scored his first league goal in 197 days, Isak the third; Nketiah's penalty came with the
-          last kick. Palace are bottom, their manager reportedly on his way out, and Manchester United come to Anfield in a fortnight.
+          Monday, and the first question of the break is a knee. Liverpool and Hungary will decide within two days whether
+          Szoboszlai travels, while the 3-1 at Selhurst keeps them fourth, nine behind Arsenal. Thirteen days remain before
+          Manchester United, eighteenth and still led by a manager who says he deserves to stay, come to Anfield.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,21 +605,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              Liverpool are fourth, and for most of the afternoon it looked simpler than that. Mac Allister rose unmarked for
-              Szoboszlai's free kick, Wirtz ended 197 days without a league goal, and Isak's shot found its way over Henderson
-              with a minute left. Then the penalty, in the ninety-fifth minute, which Iraola called a reason to be very upset
-              and which was, by any measure, the least of the day. Palace hit the bar, had a goal ruled out and needed Alisson's
-              six saves to be beaten by only two. Szoboszlai went off with a knee Iraola calls fine but not a hundred per cent, on
-              the eve of a fortnight with Hungary. A win, a worry, and two weeks to sit with both.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and the break opens on a negotiation. Liverpool's doctors will speak to Hungary's within forty-eight hours about
+              the knee Szoboszlai bent at Selhurst, and Iraola, who lost three players to the last international fortnight, has
+              said he knows what he wants and accepts it is not only his to decide. Overnight, Dean Henderson, the goalkeeper
+              who conceded three, allowed that Palace's late penalty was probably not one, which restores Liverpool's clean
+              sheet everywhere except the table. Palace have still not said whether Sage stays; United's Carrick says he should.
+              Liverpool sit fourth and wait, which in November is its own kind of work.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: three, then one; not cheap, a clean sheet; a knee, then
-              Hungary; bottom, and then the call; and fourth, with a fortnight.
+              five dispatches from the writers who never clock off: forty-eight hours; the other goalkeeper agrees; unlucky,
+              until Sunday; two dugouts, one fortnight; and the option can wait.
               Fourth, nine behind Arsenal, with Manchester United at Anfield on 22 November.
             </p>
           </div>
@@ -3830,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Three, then the break."
+        "Forty-eight hours, then Hungary."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
