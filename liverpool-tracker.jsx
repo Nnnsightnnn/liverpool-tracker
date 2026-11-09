@@ -128,15 +128,14 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Read Liverpool", title: "Liverpool Handed Key International Break Relief as Van Dijk Pulls Out of Netherlands Games", time: "today", category: "fan" },
   { source: "Liverpool FC", title: "Virgil van Dijk withdraws from Netherlands squad", time: "today", category: "official" },
+  { source: "Read Liverpool", title: "Liverpool Handed Key International Break Relief as Van Dijk Pulls Out of Netherlands Games", time: "today", category: "fan" },
   { source: "The Liverpool Offside", title: "Szoboszlai Doubtful for International Duty", time: "today", category: "fan" },
   { source: "Evening Standard", title: "Virgil van Dijk injury: Liverpool dealt new fitness scare ahead of Manchester United showdown", time: "today", category: "major" },
   { source: "The False 9", title: "Liverpool on International Duty: Szoboszlai Doubt, Van Dijk Out (9 November)", time: "today", category: "fan" },
   { source: "The False 9", title: "Van Dijk Injury Update and Return Date: Out of Netherlands Squad", time: "today", category: "fan" },
   { source: "Anfield Index", title: "Virgil van Dijk pulls out of international duty with injury issue", time: "today", category: "fan" },
   { source: "The Independent", title: "Liverpool and Netherlands hit with injury blow as Virgil van Dijk withdraws from international duty", time: "today", category: "major" },
-  { source: "Roundtable Sports", title: "Crystal Palace Sack Pierre Sage With Club Bottom Of Premier League Table", time: "today", category: "fan" },
   { source: "Liverpool Echo", title: "Virgil van Dijk injury latest as official statement released after Liverpool skipper suffers fitness blow", time: "today", category: "major" },
   { source: "BBC Sport", title: "Szoboszlai a doubt for Nations League conclusion", time: "today", category: "major" },
   { source: "Evening Standard", title: "Liverpool sent new Dominik Szoboszlai injury update as statement issued", time: "today", category: "major" },

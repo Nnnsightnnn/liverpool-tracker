@@ -606,12 +606,12 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the break has its first worry, and it is the one Liverpool can least afford. Virgil van Dijk did not return fit
+              the break has its second worry, and it is the bigger one. Virgil van Dijk did not return fit
               from Selhurst, the Dutch said on Monday, and will miss Greece and Germany; nobody has named the problem or put a
               date on it, and the club will watch him before United. Szoboszlai sat his tests in Hungary under what the
               federation called the usual protocol, and the answer has not come. Behind the captain stand Jacquet, who is
               twenty-one, and Gomez, the only senior spare, with Leoni still waiting to train. Iraola said on Sunday that the
-              last thing he needed was to lose players in the international games. The first scare of the fortnight arrived
+              last thing he needed was to lose players in the international games. Both scares of the fortnight have arrived
               before a ball was kicked in it.
             </p>
             <p className="cover-letter-body" style={{
@@ -3831,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The captain did not return fit."
+        "The captain stayed home."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
