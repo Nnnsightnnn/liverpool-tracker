@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Mon Nov 9, morning - 'Very pleased with Alisson's performance,' Iraola said (Anfield Index, Monday), after the saves from Wharton, Kamada and Timber that kept Palace to a stoppage-time penalty.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Mon Nov 9, morning - 'Very pleased with Alisson's performance,' Iraola said (Anfield Index, Monday), after the six saves (Sky Sports) that kept Palace to a stoppage-time penalty.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -54,7 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Mon Nov 9, morning - Henderson, Palace's goalkeeper, said on Monday that Osorio's contact on Kerkez was 'probably not a penalty' (Liverpool Echo via Yahoo); the first-choice left-back again for United.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Mon Nov 9, morning - Henderson, Palace's goalkeeper, said on Monday that the Kerkez-Osorio contact was 'probably not a penalty' (Liverpool Echo via Yahoo); the first-choice left-back again for United.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -1193,17 +1193,12 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   "generatedAt": "2026-11-09T09:40:00Z",
-  "summary": "Liverpool's first decision of the international break is Dominik Szoboszlai's: the club's medical staff are to speak to Hungary's within forty-eight hours of Sunday's 3-1 win at Selhurst Park, and Iraola is quoted overnight as saying he knows what he wants but has to understand the national teams, with Georgia and Northern Ireland next for Hungary (Read Liverpool; Brit Brief). On Monday morning Palace's goalkeeper Dean Henderson conceded that the stoppage-time award for Osorio's contact on Kerkez was 'probably not a penalty', the decision Iraola had complained about on Sunday (Liverpool Echo via Yahoo Sports). Palace had made no announcement on Pierre Sage by Monday morning, with Thomas Frank named the leading candidate if he goes (Premier League News Now), while Michael Carrick, whose Manchester United side come to Anfield on 22 November, says he deserves to keep his job '100%' (ESPN). Liverpool are fourth on eighteen, nine behind Arsenal, with a fortnight to wait.",
+  "summary": "Liverpool's first decision of the international break is Dominik Szoboszlai's: the club's medical staff are to speak to Hungary's within forty-eight hours of Sunday's 3-1 win at Selhurst Park, and Iraola is quoted overnight as saying he knows what he wants but has to understand the national teams, with Georgia and Northern Ireland next for Hungary (Read Liverpool; Brit Brief). On Monday morning Palace's goalkeeper Dean Henderson conceded that the stoppage-time award for the Kerkez-Osorio contact was 'probably not a penalty', the decision Iraola had complained about on Sunday (Liverpool Echo via Yahoo Sports). Palace had made no announcement on Pierre Sage by Monday morning, with Thomas Frank named the leading candidate if he goes (Premier League News Now), while Michael Carrick, whose Manchester United side come to Anfield on 22 November, says he deserves to keep his job '100%' (ESPN). Liverpool are fourth on eighteen, nine behind Arsenal, with a fortnight to wait.",
   "keyTopics": [
     {
       "title": "The Hungary Call, Within 48 Hours (Read Liverpool; Brit Brief, today)",
       "category": "injuries",
       "detail": "Read Liverpool reported at 9.07pm on Sunday that the club's medical staff will liaise with Hungary over the next forty-eight hours on Szoboszlai's knee; Brit Brief, at 12.26am on Monday, quotes Iraola: 'I know what I want, but I have to understand the international teams.' Hungary play Georgia and Northern Ireland."
-    },
-    {
-      "title": "Henderson: 'Probably Not A Penalty' (Liverpool Echo, today)",
-      "category": "matches",
-      "detail": "Published at 6am on Monday via Yahoo Sports: Palace's goalkeeper told Sky Sports the late award for Osorio's contact on Kerkez was 'probably not a penalty', and said Palace came in at half-time 'the better team by far'."
     },
     {
       "title": "Sage: No Announcement Yet, Frank Leads The List (Premier League News Now, today)",
@@ -1213,22 +1208,27 @@ export const NEWS_DIGEST = {
     {
       "title": "Iraola 'Very Pleased' With Alisson (Anfield Index, today)",
       "category": "matches",
-      "detail": "Published at 7.50am on Monday: Anfield Index credits Alisson with saves from Wharton, Kamada and Timber at Selhurst and quotes Iraola: 'I'm very pleased with Alisson's performance.'"
+      "detail": "Published at 7.50am on Monday: Anfield Index singles out Alisson's saves at Selhurst, six by Sky Sports' count, and quotes Iraola: 'I'm very pleased with Alisson's performance.'"
     },
     {
-      "title": "Araújo's £47m Option Left Until Summer (LiveScore, today)",
-      "category": "transfers",
-      "detail": "LiveScore's Monday round-up relays a report that Liverpool will wait until the end of the season before deciding on the £47m permanent deal for the loanee, the right-back by elimination this autumn. The same round-up carries a report naming Levi Colwill, at £65m to £75m, as a possible successor to Van Dijk."
-    },
-    {
-      "title": "Maguire Expected Back For Anfield (LiveScore, today)",
-      "category": "general",
-      "detail": "Also in LiveScore's Monday round-up: Carrick expects Harry Maguire to recover from a back spasm in time for United's visit to Anfield on 22 November. Maguire did not come out for the second half against Villa on Sunday (Premier League News Now)."
+      "title": "Henderson: 'Probably Not A Penalty' (Liverpool Echo, today)",
+      "category": "matches",
+      "detail": "Published at 6am on Monday via Yahoo Sports: Palace's goalkeeper told Sky Sports the late award for the Kerkez-Osorio contact was 'probably not a penalty', and said Palace came in at half-time 'the better team by far'."
     },
     {
       "title": "'Nice One': The Club's Christmas Campaign (Ministry of Sport, today)",
       "category": "general",
       "detail": "Published at 2.32am on Monday: Liverpool's 'Nice One' Christmas campaign, built around a film called 'Dear Reds' featuring Van Dijk, Szoboszlai, Wirtz, Alisson and Mac Allister, runs across twenty-four cities in sixteen countries, with PayPal, Carlsberg and Expedia as partners."
+    },
+    {
+      "title": "Araújo's £47m Option Left Until Summer (LiveScore, today)",
+      "category": "transfers",
+      "detail": "LiveScore's undated Monday round-up relays a report that Liverpool will wait until the end of the season before deciding on the £47m permanent deal for the loanee, the right-back by elimination this autumn. The same round-up carries a report naming Levi Colwill, at £65m to £75m, as a possible successor to Van Dijk."
+    },
+    {
+      "title": "Maguire Expected Back For Anfield (LiveScore, today)",
+      "category": "general",
+      "detail": "Also in LiveScore's Monday round-up: Carrick expects Harry Maguire to recover from a back spasm in time for United's visit to Anfield on 22 November. Maguire did not come out for the second half against Villa on Sunday (Premier League News Now)."
     },
     {
       "title": "Carrick: 'That's Not Going To Happen' (ESPN, 1d ago)",
@@ -1376,7 +1376,7 @@ export const OPPOSITION = {
       "note": "Premier League (ESPN)."
     }
   ],
-  "liverpoolAngle": "United have not kept a clean sheet in eleven games (Premier League News Now) and conceded twice inside four minutes on Sunday (ESPN), which is the kind of start Liverpool's twenty shots at Selhurst (ESPN) were built to exploit. The danger is the right-hand side of Liverpool's defence: Frimpong has missed seven games and Bradley is still working back to fitness (Read Liverpool), so right-back is Araújo, a centre-back, with Gomez behind. And the midfield that has to stop Fernandes and Tielemans may be missing Szoboszlai, whose knee is being discussed with Hungary this week (Read Liverpool), with Gravenberch's heel also unresolved. If both are out, Mac Allister and Nyoni are the pivot against a side whose last two goals on Sunday came from substitutes and a corner (ESPN).",
+  "liverpoolAngle": "United have not kept a clean sheet in eleven games (Premier League News Now) and conceded twice inside four minutes on Sunday (ESPN), which is the kind of start Liverpool's twenty shots at Selhurst (ESPN) were built to exploit. The danger is the right-hand side of Liverpool's defence: Frimpong has missed the six games since Brentford and Bradley is still working back to fitness (Read Liverpool), so right-back is Araújo, a centre-back, with Gomez behind. And the midfield that has to stop Fernandes and Tielemans may be missing Szoboszlai, whose knee is being discussed with Hungary this week (Read Liverpool), with Gravenberch's heel also unresolved. If both are out, Mac Allister and Nyoni are the pivot against a side whose last two goals on Sunday came from substitutes and a corner (ESPN).",
   "modelLine": null,
   "sources": [
     "ESPN",
@@ -1422,8 +1422,8 @@ export const FORM_TRENDS = {
     {
       "label": "Right-back by elimination",
       "severity": "high",
-      "source": "ESPN / Liverpool FC",
-      "detail": "Araújo started there again and was booked on twenty-four, replaced by Gomez in stoppage time (ESPN). Frimpong has now missed seven games and Bradley is not yet training (Liverpool FC)."
+      "source": "ESPN / Read Liverpool",
+      "detail": "Araújo started there again and was booked on twenty-four, replaced by Gomez in stoppage time (ESPN). Frimpong has missed the six games since Brentford and Bradley is still working back to full fitness (Read Liverpool)."
     }
   ],
   "matches": [
@@ -1749,7 +1749,6 @@ export const FORM_TRENDS = {
     "Planet Football",
     "The Liverpool Offside via Yahoo Sports",
     "101 Great Goals",
-    "RotoWire",
     "Goal via Yahoo Sports",
     "ArsenalCore",
     "Premier League News Now",
@@ -1773,7 +1772,7 @@ export const SQUAD_LOAD = {
       "name": "Jeremie Frimpong",
       "issue": "Muscle injury, picked up two or three minutes after coming on at Brentford on 17 October",
       "expected": "22 November, Manchester United at home, on Sports Mole's list and Premier Injuries' tracker",
-      "note": "No Monday bulletin; seven games missed (ESPN), and the fortnight without a fixture is the window Iraola pointed to for his return (Liverpool Echo via Yahoo).",
+      "note": "No Monday bulletin; six games missed since the Brentford injury (RESULTS: ESPN), and the fortnight without a fixture is the window Iraola pointed to for his return (Liverpool Echo via Yahoo).",
       "source": "ESPN; Liverpool Echo via Yahoo; Sports Mole; BBC Sport"
     },
     {

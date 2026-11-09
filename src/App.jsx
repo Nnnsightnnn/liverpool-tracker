@@ -609,8 +609,8 @@ function CoverView({ onJump }) {
               and the break opens on a negotiation. Liverpool's doctors will speak to Hungary's within forty-eight hours about
               the knee Szoboszlai bent at Selhurst, and Iraola, who lost three players to the last international fortnight, has
               said he knows what he wants and accepts it is not only his to decide. Overnight, Dean Henderson, the goalkeeper
-              who conceded three, allowed that Palace's late penalty was probably not one, which restores Liverpool's clean
-              sheet everywhere except the table. Palace have still not said whether Sage stays; United's Carrick says he should.
+              who conceded three, allowed that Palace's late penalty was probably not one, an admission that changes
+              nothing on the scoresheet. Palace have still not said whether Sage stays; United's Carrick says he should.
               Liverpool sit fourth and wait, which in November is its own kind of work.
             </p>
             <p className="cover-letter-body" style={{
