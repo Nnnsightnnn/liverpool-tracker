@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, and the question has crossed to the other dressing room. Manchester United, at Anfield in twelve days,
-          may arrive with a new manager or with Carrick on borrowed time, depending on which report you believe. Liverpool
-          are fourth, nine behind Arsenal, waiting on two verdicts of their own: the captain's fitness and Szoboszlai's knee.
+          Tuesday evening, and one of Liverpool's verdicts has half arrived. Hungary have kept Szoboszlai after their tests,
+          which is not the same as clearing him, while Manchester United's executives prepare to discuss Carrick with Sir Jim
+          Ratcliffe in Monaco. Liverpool are fourth, nine behind Arsenal, and United come to Anfield in twelve days.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and the uncertainty has moved down the M62. Manchester United, Liverpool's first opponents after the
-              break, are either preparing to replace Michael Carrick before Anfield or holding off until after it, depending on
-              whether you read The Athletic or Sky; the club says nothing is decided. At Kirkby the questions are quieter and
-              closer to home. Alisson says his will is to stay and leaves the talking to his agent; Gerrard wants Mac Allister
-              tied down; Van Dijk's problem has been called minor by one outlet and named by nobody. Szoboszlai's knee still
-              waits on Hungary. Twelve days out, Liverpool know the colour of the opponent's shirt and little else about the
-              afternoon.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              Szoboszlai is still in Hungary, which is the first thing this break has told Liverpool for certain about
+              him. The federation ran its tests, kept him in the squad and would not say whether he plays in Georgia on
+              Saturday; that decision, Sports Mole was told, comes at the last minute. It reads better than a flight home and
+              worse than a clean bill. At Kirkby the right side may be mending, with Frimpong expected back for United after six
+              games out, while Van Dijk's problem remains a withdrawal without a name. Across the M62 the story moved the other
+              way: AFP has Carrick set to be sacked, Sky has his bosses meeting Ratcliffe in Monaco on Wednesday. Liverpool may
+              know their own team before they know the other manager.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: somebody else's fortnight; the goalkeeper declares;
-              a midfielder, valued aloud; minor, says one report; and still expected, still there.
+              five dispatches from the writers who never clock off: kept, not cleared; a meeting in Monaco;
+              the right side, perhaps restored; outside the twenty; and the men who might say no.
               Fourth, nine behind Arsenal, with Manchester United at Anfield on 22 November.
             </p>
           </div>
@@ -3831,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Whose bench will Anfield face?"
+        "Kept by Hungary, not yet cleared."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
