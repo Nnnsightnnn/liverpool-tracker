@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-01T12:00:00Z",
   "status": "OPEN",
   "tracker": "liverpool",
-  "leadStory": "Monday 9 November, evening: Virgil van Dijk withdrawn from the Netherlands squad after he 'did not return fit' from Selhurst, no diagnosis or return date (Liverpool FC; Liverpool Echo), with Szoboszlai's Hungary tests unresolved and Manchester United at Anfield on 22 November.",
+  "leadStory": "Tuesday 10 November, morning: Manchester United, Liverpool's next opponents at Anfield on 22 November, undecided on Michael Carrick's future, The Athletic (via The Mag) reporting a replacement is being lined up and Goal/Sky saying the decision is held off; Alisson says 'my will is to stay'.",
   "action": "generate",
   "note": "Kenny asked for a better cover than the hand-drawn SVG plates. Generate ONE image per the prompt, save it at `output`, then set COVER_IMAGE.src to it, credit 'Illustration · Antigravity', a fresh generatedAt, and set this file's status to CLOSED. Evergreen on purpose: it should still be right after the City result.",
   "currentPlate": "/assets/cover/2026-10-01-anfield-after-dark.svg",

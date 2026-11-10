@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday evening, and the captain is not going to Amsterdam. Van Dijk's withdrawal from the Dutch squad, a fitness
-          issue with no name or date attached, turns a quiet break into a watch on two players, with Szoboszlai's Hungary
-          tests still unanswered. Liverpool are fourth, nine behind Arsenal, and United come to Anfield a week on Sunday.
+          Tuesday, and the question has crossed to the other dressing room. Manchester United, at Anfield in twelve days,
+          may arrive with a new manager or with Carrick on borrowed time, depending on which report you believe. Liverpool
+          are fourth, nine behind Arsenal, waiting on two verdicts of their own: the captain's fitness and Szoboszlai's knee.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the break has its second worry, and it is the bigger one. Virgil van Dijk did not return fit
-              from Selhurst, the Dutch said on Monday, and will miss Greece and Germany; nobody has named the problem or put a
-              date on it, and the club will watch him before United. Szoboszlai sat his tests in Hungary under what the
-              federation called the usual protocol, and the answer has not come. Behind the captain stand Jacquet, who is
-              twenty-one, and Gomez, the only senior spare, with Leoni still waiting to train. Iraola said on Sunday that the
-              last thing he needed was to lose players in the international games. Both scares of the fortnight have arrived
-              before a ball was kicked in it.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and the uncertainty has moved down the M62. Manchester United, Liverpool's first opponents after the
+              break, are either preparing to replace Michael Carrick before Anfield or holding off until after it, depending on
+              whether you read The Athletic or Sky; the club says nothing is decided. At Kirkby the questions are quieter and
+              closer to home. Alisson says his will is to stay and leaves the talking to his agent; Gerrard wants Mac Allister
+              tied down; Van Dijk's problem has been called minor by one outlet and named by nobody. Szoboszlai's knee still
+              waits on Hungary. Twelve days out, Liverpool know the colour of the opponent's shirt and little else about the
+              afternoon.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: the captain stays home; praying, out loud; the usual
-              protocol; Sunderland, twice over; and an understanding, not an announcement.
+              five dispatches from the writers who never clock off: somebody else's fortnight; the goalkeeper declares;
+              a midfielder, valued aloud; minor, says one report; and still expected, still there.
               Fourth, nine behind Arsenal, with Manchester United at Anfield on 22 November.
             </p>
           </div>
@@ -3831,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The captain stayed home."
+        "Whose bench will Anfield face?"
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
