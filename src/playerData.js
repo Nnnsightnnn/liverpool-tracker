@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Tue Nov 10, morning - With Sweden for Bosnia and Herzegovina and Poland (The False 9); seven goals this season (NBC Sports) and the only fit senior nine.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Tue Nov 10, morning - With Sweden for Bosnia and Herzegovina and Poland (The False 9); seven league goals, two behind Haaland (NBC Sports), and the only fit senior nine.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -1201,22 +1201,22 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   "generatedAt": "2026-11-10T09:10:00Z",
-  "summary": "Tuesday morning's story is about the other dugout: Manchester United, Liverpool's first opponents after the break, have not settled Michael Carrick's future, with The Mag, relaying The Athletic, reporting that senior staff are working to appoint a replacement before the trip to Anfield on 22 November, while Goal, citing Sky Sports, says the club have held off and will use the fortnight to evaluate (The Mag via Yahoo Sports; Goal). United publicly insist no decision has been taken, and the Seoul Economic Daily, relaying the BBC, puts Carrick on three wins in fifteen games. At Liverpool the contract talk is about the goalkeeper and a midfielder: Alisson said on Monday that 'my will is to stay' with his agent talking to the club, and Steven Gerrard has urged a new deal for Mac Allister (BBC Sport via Yahoo; ESPN; Anfield Index). Van Dijk's withdrawal from Dutch duty is called minor by LiveScore alone, with no diagnosis given, and Szoboszlai's Hungary result was still unpublished on Tuesday morning (The False 9; SB Nation via Yahoo Sports). Liverpool sit fourth on eighteen, nine behind Arsenal.",
+  "summary": "Tuesday morning's story is about the other dugout: Manchester United, Liverpool's first opponents after the break, have not settled Michael Carrick's future, with The Mag, relaying The Athletic, reporting that senior staff are working to appoint a replacement before the trip to Anfield on 22 November, while Goal, citing Sky Sports, says the club have held off and will use the fortnight to evaluate (The Mag via Yahoo Sports; Goal). United publicly insist no decision has been taken, though the Seoul Economic Daily, relaying the BBC, says chief executive Omar Berrada and Jason Wilcox have leaned toward recommending a change to the owners, with Carrick on three wins in fifteen games. At Liverpool the contract talk is about the goalkeeper and a midfielder: Alisson said on Monday that 'my will is to stay' with his agent talking to the club, and Steven Gerrard has urged a new deal for Mac Allister (BBC Sport via Yahoo; ESPN; Anfield Index). Van Dijk's withdrawal from Dutch duty is called minor by LiveScore alone, with no diagnosis given, and Szoboszlai's Hungary result was still unpublished on Tuesday morning (The False 9; SB Nation via Yahoo Sports). Liverpool sit fourth on eighteen, nine behind Arsenal.",
   "keyTopics": [
     {
       "title": "Carrick's Future Undecided Before Anfield (The Mag; Goal, today)",
       "category": "general",
-      "detail": "Reported on Tuesday morning: The Mag, via Yahoo at 8.14am, relays The Athletic's report that United's senior staff are working to appoint a replacement before the Anfield game, naming Eddie Howe, Julian Nagelsmann and Mauricio Pochettino, while noting that 'publicly Manchester United are still insisting no decision has been taken'. Goal, citing Sky Sports, says United 'have opted against relieving Michael Carrick of his duties' for now. Nothing is confirmed."
-    },
-    {
-      "title": "Palace Still 'Expected' To Replace Sage (Read Crystal Palace, today)",
-      "category": "general",
-      "detail": "Published at 4.28am on Tuesday: Read Crystal Palace says Sage 'is expected to lose his job', with Thomas Frank the frontrunner and Sean Dyche and Vitor Pereira also considered. No announcement from the club by Tuesday morning; Palace are bottom on seven after Sunday's 3-1 defeat by Liverpool."
+      "detail": "Reported on Tuesday morning: The Mag, via Yahoo at 8.14am, relays The Athletic's report that United's senior staff are working to appoint a replacement before the Anfield game, naming Eddie Howe, Julian Nagelsmann and Mauricio Pochettino, while noting that 'publicly Manchester United are still insisting no decision has been taken'. Goal, citing Sky Sports, says United 'have opted against relieving Michael Carrick of his duties' for now, while the Seoul Economic Daily, relaying the BBC, has Berrada and Wilcox leaning toward recommending a change. Nothing is confirmed."
     },
     {
       "title": "Gerrard Wants Mac Allister Tied Down (Anfield Index, today)",
       "category": "transfers",
       "detail": "Published at 7.50am on Tuesday: Anfield Index carries Gerrard's verdict from The Overlap after Selhurst, 'I wouldn't want Liverpool to lose him now', about a midfielder contracted to June 2028 whom he called really key to the midfield settling."
+    },
+    {
+      "title": "Palace Still 'Expected' To Replace Sage (Read Crystal Palace, today)",
+      "category": "general",
+      "detail": "Published at 4.28am on Tuesday: Read Crystal Palace says Sage 'is expected to lose his job', with Thomas Frank the frontrunner and Sean Dyche and Vitor Pereira also considered. No announcement from the club by Tuesday morning; Palace are bottom on seven after Sunday's 3-1 defeat by Liverpool."
     },
     {
       "title": "Verbruggen Linked As Alisson's Long-Term Heir (CaughtOffside, today)",
@@ -1399,7 +1399,7 @@ export const FORM_TRENDS = {
   "generatedAt": "2026-11-10T09:10:00Z",
   "competition": "PL",
   "played": 10,
-  "headline": "Nothing has been played since Sunday, so the ten-game sums stand: 14.61 expected goals for and 12.77 against on the tracker's mixed-provider count, fourteen scored and ten conceded. Read together, the attack has scored almost exactly what its chances were worth and the defence has conceded fewer than its chances allowed, which is the part of the record most exposed if Van Dijk, who has played every league minute, is missing. The first sample after the break comes against a United side without a clean sheet in eleven games (Premier League News Now). Opta Analyst's Palace figures are still unfound, so that card stays pending.",
+  "headline": "Nothing has been played since Sunday, so the ten-game sums stand: 14.61 expected goals for and 12.77 against on the tracker's mixed-provider count, fourteen scored and ten conceded. Read together, the attack has scored almost exactly what its chances were worth and the defence has conceded fewer than its chances allowed, which is the part of the record most exposed if Van Dijk, who has played every league minute (Liverpool Echo via Yahoo Sports), is missing. The first sample after the break comes against a United side without a clean sheet in eleven games (Premier League News Now). Opta Analyst's Palace figures are still unfound, so that card stays pending.",
   "diagnosis": [
     {
       "label": "Space, not possession",

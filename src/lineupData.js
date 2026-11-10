@@ -215,7 +215,7 @@ export const PLAYER_EVIDENCE = {
   18: "Germany · scored at Selhurst",
   20: "LDM cover for United",
   22: "Dutch camp · RAM starter",
-  23: "Sweden · seven this season",
+  23: "Sweden · seven league goals",
   24: "Achilles · Boxing Day target",
   25: "England · RAM alternative",
   26: "No call-up · fifth wide man",
@@ -406,7 +406,7 @@ export const SLOT_RATIONALE = {
   LAM: "Tue Nov 10, morning - Barcola, who set up Wirtz's goal at Selhurst; Munoz the alternative. Medium.",
   CAM: "Tue Nov 10, morning - Wirtz, scorer at Selhurst and with Germany this week (The False 9). High.",
   RAM: "Tue Nov 10, morning - Gakpo, with the Netherlands; Ngumoha, with England, the alternative. Medium.",
-  ST: "Tue Nov 10, morning - Isak, seven this season (NBC Sports) and the only fit senior nine; Koumas behind him. High.",
+  ST: "Tue Nov 10, morning - Isak, seven league goals (NBC Sports) and the only fit senior nine; Koumas behind him. High.",
 };
 
 

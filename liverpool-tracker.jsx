@@ -102,7 +102,7 @@ const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   { id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Tue Nov 10, morning - With a Dutch squad now without Van Dijk for Greece and Germany (The False 9); fit, and the right-sided starter on return.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png" },
-  { id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Tue Nov 10, morning - With Sweden for Bosnia and Herzegovina and Poland (The False 9); seven goals this season (NBC Sports) and the only fit senior nine.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png" },
+  { id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Tue Nov 10, morning - With Sweden for Bosnia and Herzegovina and Poland (The False 9); seven league goals, two behind Haaland (NBC Sports), and the only fit senior nine.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png" },
   { id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Tue Nov 10, morning - Achilles: Boxing Day at Hull is still the first match date on Sports Mole's list; L'Equipe reported a return to training later this month (Brit Brief).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png" },
   { id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", injuryNote: "Tue Nov 10, morning - England play Croatia on Thursday and Spain on Sunday (The False 9); came on for Gakpo at Selhurst (ESPN).", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png" },
   { id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Tue Nov 10, morning - Wales play Norway on Saturday and Portugal on the 17th (The False 9); came on for Isak at Selhurst (ESPN).", image: "" },
@@ -128,7 +128,9 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
+  { source: "LBC", title: "Michael Carrick future uncertain as he arrives at Man Utd's training ground", time: "today", category: "major" },
   { source: "Goal", title: "Breathing space! Man Utd hold off Carrick decision despite relegation danger", time: "today", category: "major" },
+  { source: "LiveScore", title: "Wilcox locks onto Eddie Howe after telling Man Utd owners Michael Carrick is done (TEAMtalk)", time: "today", category: "major" },
   { source: "The Mag", title: "Now made public Manchester United set to sack Michael Carrick", time: "today", category: "fan" },
   { source: "Seoul Economic Daily", title: "Manchester United Weighs Sacking Carrick After 3 Wins in 15 Games", time: "today", category: "major" },
   { source: "Anfield Index", title: "Steven Gerrard tells Liverpool to make huge transfer decision", time: "today", category: "fan" },
@@ -139,7 +141,6 @@ const LATEST_NEWS = [
   { source: "Flashscore", title: "Man Utd to use break to shape Carrick decision, Mainoo deal and transfer plans", time: "today", category: "major" },
   { source: "ESPN", title: "Alisson in talks over new Liverpool contract: 'I'm happy to stay'", time: "1d ago", category: "major" },
   { source: "BBC Sport", title: "Alisson hopes for Liverpool stay", time: "1d ago", category: "major" },
-  { source: "Dave.sport", title: "Alisson wants new Liverpool contract as agent opens talks", time: "1d ago", category: "fan" },
   { source: "All Out Soccer", title: "Netherlands provide injury update on Liverpool captain Virgil van Dijk", time: "1d ago", category: "fan" },
   { source: "The Independent", title: "Liverpool face anxious Dominik Szoboszlai wait after knee injury", time: "1d ago", category: "major" },
 ];
