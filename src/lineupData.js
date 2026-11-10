@@ -197,6 +197,7 @@ export const FORMATIONS = {
 // Sun Nov 8 (evening): all 27 refreshed after Crystal Palace 1-3 Liverpool (ESPN line-ups; SI/FotMob ratings; Sky Sports); re-pointed at Manchester United, PL, Sun 22 Nov.
 // Mon Nov 9 (morning): all 27 refreshed for the Szoboszlai-Hungary talks (Read Liverpool; Brit Brief), Henderson's penalty admission and LiveScore's round-up; XIs unchanged.
 // Mon Nov 9 (evening): all 26 refreshed for Van Dijk's withdrawal from the Netherlands squad (Liverpool FC; Dutch FA), Hungary's Szoboszlai tests (Evening Standard via Yahoo) and The False 9's international-duty table; XIs unchanged.
+// Evidence strings refreshed Tue Nov 10 (evening) against Tuesday's reporting (Sports Mole; All Out Soccer via Yahoo; Anfield Index).
 export const PLAYER_EVIDENCE = {
   1:  "Contract talk via agent",
   2:  "Georgia host Hungary Saturday",

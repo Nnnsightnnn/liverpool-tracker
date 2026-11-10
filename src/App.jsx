@@ -621,7 +621,7 @@ function CoverView({ onJump }) {
               Inside, the squad as a roster, the standings live again, and
               five dispatches from the writers who never clock off: kept, not cleared; a meeting in Monaco;
               the right side, perhaps restored; outside the twenty; and the men who might say no.
-              Fourth, nine behind Arsenal, with Manchester United at Anfield on 22 November.
+              Twelve days to United, fourth in the table, nine points from the top.
             </p>
           </div>
           <div style={{ background: T.rule }} />

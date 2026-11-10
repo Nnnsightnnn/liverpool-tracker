@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2026-27 Season · Updated 9 November 2026 (morning)) ──────
+// ─── Liverpool FC Player Data (2026-27 Season · Updated 10 November 2026 (evening)) ──────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Tue Nov 10, evening - Knee: not yet reported back in group training on Tuesday; Anfield Index's evening round-up still has him short of team work, Sports Mole's list United as the earliest date.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Tue Nov 10, evening - Knee: second in the right-back queue now Frimpong is expected back; no report of group training yet, and Sports Mole's earliest date is still United.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Tue Nov 10, evening - Achilles: Anfield Index's Tuesday evening round-up still targets December; Boxing Day at Hull remains the first match date on Sports Mole's list.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Tue Nov 10, evening - Achilles: December is the target in Anfield Index's Tuesday evening round-up, with Sports Mole's earliest fixture the trip to Hull on 26 December.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -1182,7 +1182,7 @@ export const DISPATCHES = [
     "byline": "All Out Soccer",
     "dateline": "Liverpool · 10 November",
     "category": "Tactics",
-    "body": "For six games Liverpool have played Ronald Araújo at right-back because there was nobody else, and on Tuesday the reason began to lapse. All Out Soccer, via Yahoo, reported that Jeremie Frimpong is expected to be available for United after his muscle injury at Brentford; Brit Brief had Iraola weighing a recall. If it holds, Araújo can move back inside, which matters more than it sounds: Van Dijk's problem still has no name, and a fit right-back frees the only senior centre-back cover Liverpool have."
+    "body": "For six games Liverpool have played Ronald Araújo at right-back because there was nobody else, and on Tuesday the reason began to lapse. All Out Soccer, via Yahoo, reported that Jeremie Frimpong is expected to be available for United after his muscle injury at Brentford; Brit Brief had Iraola weighing a recall. If it holds, Araújo can move back inside, which matters more than it sounds: Van Dijk's problem still has no name, and a fit right-back frees a second senior centre-back alongside Gomez."
   },
   {
     "n": "04",
@@ -1198,7 +1198,7 @@ export const DISPATCHES = [
     "byline": "Sky Sports",
     "dateline": "London · 10 November",
     "category": "Football News",
-    "body": "Two of the bottom three spent Tuesday looking for managers, and the candidates were in no hurry. Sky Sports' paper review carried The Sun's report that Eddie Howe had recently turned down an approach from Crystal Palace, whose own change from Pierre Sage was still unannounced, while Pochettino was said to be willing to consider United. Liverpool have beaten Palace already and play United next. Whoever takes either job inherits a squad Liverpool have seen up close, and a table that leaves them very little time."
+    "body": "Two of the bottom three spent Tuesday with their managers' futures in the papers, and the names linked were in no hurry. Sky Sports' paper review carried The Sun's report that Eddie Howe had recently turned down an approach from Crystal Palace, who had made no announcement on Pierre Sage, while Pochettino was said to be willing to consider United. Liverpool have beaten Palace already and play United next. Whoever ends up in either dugout inherits a squad Liverpool have seen up close, and a table that leaves them very little time."
   }
 ];
 export const NEWS_DIGEST = {
