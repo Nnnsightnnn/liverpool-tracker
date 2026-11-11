@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-01T12:00:00Z",
   "status": "OPEN",
   "tracker": "liverpool",
-  "leadStory": "Tuesday 10 November, morning: Manchester United, Liverpool's next opponents at Anfield on 22 November, undecided on Michael Carrick's future, The Athletic (via The Mag) reporting a replacement is being lined up and Goal/Sky saying the decision is held off; Alisson says 'my will is to stay'.",
+  "leadStory": "Wednesday 11 November, morning: The Athletic's David Ornstein reports Manchester United, Liverpool's next opponents at Anfield on 22 November, are finalising a deal to appoint Mauricio Pochettino if the decision to replace Michael Carrick is made; not confirmed.",
   "action": "generate",
   "note": "Kenny asked for a better cover than the hand-drawn SVG plates. Generate ONE image per the prompt, save it at `output`, then set COVER_IMAGE.src to it, credit 'Illustration · Antigravity', a fresh generatedAt, and set this file's status to CLOSED. Evergreen on purpose: it should still be right after the City result.",
   "currentPlate": "/assets/cover/2026-10-01-anfield-after-dark.svg",

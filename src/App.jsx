@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday evening, and one of Liverpool's verdicts has half arrived. Hungary have kept Szoboszlai after their tests,
-          which is not the same as clearing him, while Manchester United's executives prepare to discuss Carrick with Sir Jim
-          Ratcliffe in Monaco. Liverpool are fourth, nine behind Arsenal, and United come to Anfield in twelve days.
+          Wednesday morning, and Liverpool's next opponent may be changing its author. The Athletic reports Manchester United
+          are finalising terms with Mauricio Pochettino should they remove Michael Carrick, a decision being taken in Monaco today.
+          Liverpool are fourth, nine behind Arsenal, and United come to Anfield in eleven days.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,23 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              Szoboszlai is still in Hungary, which is the first thing this break has told Liverpool for certain about
-              him. The federation ran its tests, kept him in the squad and would not say whether he plays in Georgia on
-              Saturday; that decision, Sports Mole was told, comes at the last minute. It reads better than a flight home and
-              worse than a clean bill. At Kirkby the right side may be mending, with Frimpong expected back for United after six
-              games out, while Van Dijk's problem remains a withdrawal without a name. Across the M62 the story moved the other
-              way: AFP has Carrick set to be sacked, Sky has his bosses meeting Ratcliffe in Monaco on Wednesday. Liverpool may
-              know their own team before they know the other manager.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and the side Liverpool play next is negotiating with a man it has not hired to replace one it has not sacked.
+              Ornstein's sentence was built with care: United are finalising a deal for Pochettino if the ultimate decision is
+              made on Carrick, and Ben Jacobs says Carrick had not yet been told. The deciding happens in Monaco. At Kirkby the
+              news is slower and kinder: the Echo has Bradley close to light training, and Iraola concedes that Leoni's knee is
+              taking longer than anyone wanted. Szoboszlai's sprain is still Hungary's to manage. In eleven days Anfield may host a
+              debut, and Liverpool will have spent a fortnight studying someone else's team.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: kept, not cleared; a meeting in Monaco;
-              the right side, perhaps restored; outside the twenty; and the men who might say no.
-              Twelve days to United, fourth in the table, nine points from the top.
+              five dispatches from the writers who never clock off: terms, conditionally; longer than anyone
+              wanted; six chances, then the strapping; ten million dollars and a break clause; and the treatment
+              room across the M62. Eleven days to United, fourth in the table, nine points from the top.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3831,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Kept by Hungary, not yet cleared."
+        "Perhaps a new man in the away dugout."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
