@@ -572,7 +572,7 @@ function CoverView({ onJump }) {
         }}>
           Wednesday morning, and Liverpool's next opponent may be changing its author. The Athletic reports Manchester United
           are finalising terms with Mauricio Pochettino should they remove Michael Carrick, a decision being taken in Monaco today.
-          Liverpool are fourth, nine behind Arsenal, and United come to Anfield in eleven days.
+          Eleven days remain before that team, whoever leads it, walks out at Anfield against a Liverpool side fourth in the table.
         </p>
 
         <StatStrip stats={stats} />
@@ -620,7 +620,7 @@ function CoverView({ onJump }) {
               Inside, the squad as a roster, the standings live again, and
               five dispatches from the writers who never clock off: terms, conditionally; longer than anyone
               wanted; six chances, then the strapping; ten million dollars and a break clause; and the treatment
-              room across the M62. Eleven days to United, fourth in the table, nine points from the top.
+              room across the M62. A table that has not moved since Sunday, and an opponent that might.
             </p>
           </div>
           <div style={{ background: T.rule }} />

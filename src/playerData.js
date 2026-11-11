@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Wed Nov 11, morning - Iraola on the ACL: 'It's taking more time than we wanted' (Liverpool Echo via Yahoo, Wednesday 6am); the plan now is to train with the team in the next break.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Wed Nov 11, morning - Iraola on the ACL, quoted in Wednesday's Liverpool Echo (via Yahoo, 6am): 'It's taking more time than we wanted'; the plan now is to train with the team in the next break.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -1148,7 +1148,7 @@ export const STANDINGS_COMMENTARY = {
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 10,
   "generatedAt": "2026-11-11T09:40:00Z",
-  "overview": "The table has not moved since Sunday, every side still on ten games, but its eighteenth row may change hands before it does: The Athletic reports Manchester United are finalising terms with Pochettino should they remove Carrick (CaughtOffside). Arsenal lead on twenty-seven, five clear of Brighton and six of City. Liverpool hold the last Champions League place on eighteen, two ahead of Chelsea and Everton, with three of their next four league games against sides in or around the bottom three. Palace, bottom on seven, have still announced nothing on Sage.",
+  "overview": "The table has not moved since Sunday, every side still on ten games, but its eighteenth row may change hands before it does: The Athletic reports Manchester United are finalising terms with Pochettino should they remove Carrick (CaughtOffside). Arsenal lead on twenty-seven, five clear of Brighton and six of City. Liverpool hold the last Champions League place on eighteen, two ahead of Chelsea and Everton, with two of their next four league games against sides in the bottom three. Palace, bottom on seven, have still announced nothing on Sage.",
   "teams": {
     "Liverpool": "Fourth on eighteen, two clear of fifth; United, Everton and Sunderland come next, and the Echo has Bradley close to light training.",
     "Arsenal": "Twenty-seven from ten and the only nine-win record; five points the gap to second (ESPN).",
@@ -1178,7 +1178,7 @@ export const DISPATCHES = [
     "byline": "Liverpool Echo",
     "dateline": "Kirkby · 11 November",
     "category": "Injuries",
-    "body": "Giovanni Leoni tore his ligament on his debut, in September of last year, and the date on which he trains with the first team keeps sliding by one international break at a time. On Wednesday Iraola said it plainly: it is taking more time than they wanted. The Echo's round-up carried better news further down. Conor Bradley, out since January, is close to light training, and Hugo Ekitike, by French accounts, is hoping for the festive period. None of them will face United. All of them are the January squad Liverpool cannot buy."
+    "body": "Giovanni Leoni tore his ligament on his debut, in September of last year, and the date on which he trains with the first team keeps sliding by one international break at a time. Wednesday's Echo carried Iraola saying it plainly: it is taking more time than they wanted. The Echo's round-up carried better news further down. Conor Bradley, out since January, is close to light training, and Hugo Ekitike, by French accounts, is hoping for the festive period. None of them will face United. All of them are the January squad Liverpool cannot buy."
   },
   {
     "n": "03",
@@ -1243,11 +1243,6 @@ export const NEWS_DIGEST = {
       "title": "Pochettino's Clause, Carrick's Break Clause (ESPN; Football365, yesterday)",
       "category": "general",
       "detail": "Reported on Tuesday: ESPN's Mark Ogden and Rob Dawson put Pochettino's US escape clause at about ten million dollars and name Howe, Nagelsmann and McKenna as alternatives; Football365 says Carrick's own contract contains a break clause."
-    },
-    {
-      "title": "Two Wins Each In The Last Six (futboltotal, this week)",
-      "category": "matches",
-      "detail": "The fixture page for 22 November, updated this week on API-Sports data, has Liverpool and United level over their last six meetings, two wins apiece and two draws, the latest United's 3-2 win in May."
     }
   ],
   "sources": [
@@ -1259,8 +1254,7 @@ export const NEWS_DIGEST = {
     "Liverpool Echo",
     "RotoWire",
     "ESPN",
-    "Football365",
-    "futboltotal"
+    "Football365"
   ]
 };
 // ─────────────────────────────────────────────────────────────────────────────
@@ -1709,7 +1703,6 @@ export const FORM_TRENDS = {
   "optaFacts": [
     "Szoboszlai made an assist and created six chances at Selhurst before coming off on sixty-nine minutes (RotoWire).",
     "Manchester United have conceded the joint-most goals in all competitions of any side in Europe's top five leagues (Anfield Index).",
-    "Liverpool and United have won two each of their last six meetings, with two draws; the latest was United's 3-2 in May (futboltotal, API-Sports data).",
     "Luke Shaw last played ninety minutes for United against Tottenham on 10 October and has missed seven matches since (Daily Mail via Anfield Index)."
   ],
   "sources": [
@@ -1790,7 +1783,6 @@ export const FORM_TRENDS = {
     "Seoul Economic Daily",
     "AFP via Yahoo Sports",
     "All Out Soccer via Yahoo Sports",
-    "futboltotal",
     "Daily Mail via Anfield Index"
   ]
 };
@@ -1817,7 +1809,7 @@ export const SQUAD_LOAD = {
       "name": "Giovanni Leoni",
       "issue": "ACL (September 2025)",
       "expected": "Training with the team in the next international break, per Iraola (Liverpool Echo via Yahoo Sports); 2 January, Coventry, as a possible return on Sports Mole's list",
-      "note": "Iraola on Wednesday: 'It's taking more time than we wanted' (Liverpool Echo). Out since tearing his ACL on his debut in September 2025.",
+      "note": "Iraola, quoted in Wednesday's Liverpool Echo: 'It's taking more time than we wanted'. Out since tearing his ACL on his debut in September 2025.",
       "source": "Liverpool Echo via Yahoo Sports / Sports Mole"
     },
     {
