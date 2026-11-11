@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday morning, and Liverpool's next opponent may be changing its author. The Athletic reports Manchester United
-          are finalising terms with Mauricio Pochettino should they remove Michael Carrick, a decision being taken in Monaco today.
-          Eleven days remain before that team, whoever leads it, walks out at Anfield against a Liverpool side fourth in the table.
+          Wednesday night, and the conditional has become a decision. Manchester United have resolved to sack Michael Carrick,
+          who is to be told on Thursday, and Sky Sports reports a verbal agreement with Mauricio Pochettino; nothing is official yet.
+          Liverpool, fourth, meet whatever is left of that week at Anfield in eleven days.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and the side Liverpool play next is negotiating with a man it has not hired to replace one it has not sacked.
-              Ornstein's sentence was built with care: United are finalising a deal for Pochettino if the ultimate decision is
-              made on Carrick, and Ben Jacobs says Carrick had not yet been told. The deciding happens in Monaco. At Kirkby the
-              news is slower and kinder: the Echo has Bradley close to light training, and Iraola concedes that Leoni's knee is
-              taking longer than anyone wanted. Szoboszlai's sprain is still Hungary's to manage. In eleven days Anfield may host a
-              debut, and Liverpool will have spent a fortnight studying someone else's team.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the word "if" has gone out of the United story. Ben Jacobs reports the decision to sack Carrick is made and that he
+              will be told face to face on Thursday; Sky Sports has Pochettino agreeing terms in principle, with the American
+              federation now formally contacted and two games against Haiti still on his calendar. Goal thinks he could be in the
+              Anfield dugout on the 22nd. Liverpool's own Wednesday was a verdict of a different kind: the independent panel ruled,
+              four votes to one, that Isak should have had a penalty against Arsenal. It changes nothing in the table. A point
+              recovered on paper is still a point lost.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: terms, conditionally; longer than anyone
-              wanted; six chances, then the strapping; ten million dollars and a break clause; and the treatment
-              room across the M62. A table that has not moved since Sunday, and an opponent that might.
+              five dispatches from the writers who never clock off: the Thursday conversation; four votes to one;
+              the case for pulling him out; the goalkeepers after Alisson; and a buyout in two currencies. A table
+              that has not moved since Sunday, and an opponent about to change hands.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Perhaps a new man in the away dugout."
+        "The decision made, the paperwork pending."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
