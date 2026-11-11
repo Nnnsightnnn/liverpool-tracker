@@ -138,7 +138,7 @@ const LATEST_NEWS = [
   { source: "Sky Sports", title: "Liverpool incorrectly denied penalty for Jurrien Timber pull on Alexander Isak vs Arsenal, rules independent panel", time: "today", category: "major" },
   { source: "Anfield Index", title: "Liverpool set to reignite interest in Portuguese star", time: "today", category: "fan" },
   { source: "Anfield Index", title: "Liverpool interested in move for Bundesliga star", time: "today", category: "fan" },
-  { source: "CaughtOffside", title: "David Ornstein says Man United \"finalising deal\" for Pochettino - but here's why it's not a done deal yet", time: "today", category: "major" },
+  { source: "CaughtOffside", title: "David Ornstein says Man United \"finalising deal\" for Pochettino - but here's why it's not a done deal yet", time: "this morning", category: "major" },
   { source: "Liverpool Echo", title: "Andoni Iraola could soon get his wish as Liverpool wait for confirmation of big injury boost", time: "today", category: "major" },
   { source: "Inside World Football", title: "Michael Carrick expected to depart Manchester United", time: "1d ago", category: "major" },
   { source: "Sports Mole", title: "Liverpool receive new Dominik Szoboszlai injury update as Hungary issue social media statement", time: "2d ago", category: "major" },

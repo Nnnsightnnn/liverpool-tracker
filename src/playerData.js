@@ -1174,7 +1174,7 @@ export const DISPATCHES = [
     "byline": "CaughtOffside",
     "dateline": "Manchester · 11 November",
     "category": "Manager",
-    "body": "By Wednesday evening the conditional clause had been struck out. Ben Jacobs reported that Manchester United have decided to sack Michael Carrick and that he will be told on Thursday, face to face, which is the only decent way left to do it. Until then he remains the head coach, due to take Thursday's session with the players who stayed behind during the break. The club has said nothing. The next match on his calendar is at Anfield, and the people who made the decision have already chosen whom they would rather send there."
+    "body": "By Wednesday evening the conditional clause had been struck out. Ben Jacobs reported that Manchester United have decided to sack Michael Carrick and that he will be told on Thursday, face to face, which is the only decent way left to do it. Until then he remains the head coach, Sky Sports notes, and he took Wednesday's session with the players who stayed behind during the break. The club has said nothing. The next match on his calendar is at Anfield, and the people who made the decision have already chosen whom they would rather send there."
   },
   {
     "n": "02",
@@ -1211,17 +1211,17 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   "generatedAt": "2026-11-11T23:20:00Z",
-  "summary": "Wednesday night's lead is Liverpool's next opponent, and the conditional has gone: Ben Jacobs reports Manchester United have decided to sack Michael Carrick, who is expected to be told face to face on Thursday (CaughtOffside, 7.50pm; The Peoples Person via Yahoo Sports), and Sky Sports reports a verbal agreement in principle with Mauricio Pochettino, with a £7m buyout and backroom-staff terms still to settle with US Soccer, which United have now formally contacted. Nothing is official: Carrick remains in post and is due to take Thursday's session, and Goal says Pochettino could be in the Anfield dugout on 22 November once the USA's two games against Haiti are done. Liverpool's own Wednesday brought a ruling rather than a result: the Key Match Incidents panel voted four to one that Isak should have had a penalty for Timber's pull in the 1-0 defeat to Arsenal (Sky Sports). John Aldridge, meanwhile, says the club should have pulled Szoboszlai out of Hungary duty (Anfield Index). Liverpool are fourth on eighteen (ESPN).",
+  "summary": "Wednesday night's lead is Liverpool's next opponent, and the conditional has gone: Ben Jacobs reports Manchester United have decided to sack Michael Carrick, who is expected to be told face to face on Thursday (CaughtOffside, 7.50pm; The Peoples Person via Yahoo Sports), and Sky Sports reports a verbal agreement in principle with Mauricio Pochettino, with a £7m buyout and backroom-staff terms still to settle with US Soccer, which United have now formally contacted. Nothing is official: Carrick remains in post (Sky Sports) and, per The Peoples Person, is due to take Thursday's session; Goal says Pochettino could be in the Anfield dugout on 22 November once the USA's two games against Haiti are done. Liverpool's own Wednesday brought a ruling rather than a result: the Key Match Incidents panel voted four to one that Isak should have had a penalty for Timber's pull in the 1-0 defeat to Arsenal (Sky Sports). John Aldridge, meanwhile, says the club should have pulled Szoboszlai out of Hungary duty (Anfield Index). Liverpool are fourth on eighteen (ESPN).",
   "keyTopics": [
-    {
-      "title": "United Decide To Sack Carrick, Told Thursday (CaughtOffside; Yahoo Sports, tonight)",
-      "category": "general",
-      "detail": "Reported on Wednesday evening (CaughtOffside, 7.50pm, citing Ben Jacobs; The Peoples Person via Yahoo Sports, later in the evening): the decision is made and Carrick is expected to be informed face to face on Thursday. United have announced nothing, and he is due to take Thursday's training session."
-    },
     {
       "title": "Sky: Verbal Agreement With Pochettino (Sky Sports, tonight)",
       "category": "general",
       "detail": "Reported late on Wednesday: Sky Sports says United and Pochettino have a verbal agreement in principle, with the £7m buyout and backroom-staff terms still to agree with US Soccer; The Peoples Person (via Yahoo) says the federation has now been formally contacted. He is likely to stay with the USA for their two games against Haiti."
+    },
+    {
+      "title": "United Decide To Sack Carrick, Told Thursday (CaughtOffside; Yahoo Sports, tonight)",
+      "category": "general",
+      "detail": "Reported on Wednesday evening (CaughtOffside, 7.50pm, citing Ben Jacobs; The Peoples Person via Yahoo Sports, later in the evening): the decision is made and Carrick is expected to be informed face to face on Thursday. United have announced nothing; Sky Sports says he officially remains head coach."
     },
     {
       "title": "Aldridge: Pull Szoboszlai Out (Anfield Index, tonight)",
@@ -1229,14 +1229,14 @@ export const NEWS_DIGEST = {
       "detail": "Published at 7.50pm on Wednesday: John Aldridge says Liverpool should have been stronger with Hungary over Szoboszlai, who joined up after the Selhurst injury: 'Any other club would pull them out of international duty.' Hungary's call on Georgia on Saturday is still to come."
     },
     {
-      "title": "Panel: Isak Should Have Had A Penalty (Sky Sports, today)",
-      "category": "matches",
-      "detail": "Published on Wednesday (Sky Sports, late morning; Anfield Index, 6.50pm): the Key Match Incidents panel voted 4-1 that Timber's pull on Isak in the 1-0 defeat to Arsenal on 1 November was a penalty, and 3-2 that VAR should have intervened. Iraola told the BBC at the time: 'There is a clear grab of the shirt.'"
-    },
-    {
       "title": "Could Pochettino Be At Anfield? (Goal, today)",
       "category": "matches",
       "detail": "Goal's Wednesday piece, last updated at 12.17pm, says he could join after the Haiti games, with 'a chance of being present' for the Liverpool fixture on Sunday 22 November. Sky adds that most of United's internationals are back by next Thursday."
+    },
+    {
+      "title": "Panel: Isak Should Have Had A Penalty (Sky Sports, today)",
+      "category": "matches",
+      "detail": "Published on Wednesday (Sky Sports, late morning; Anfield Index, 6.50pm): the Key Match Incidents panel voted 4-1 that Timber's pull on Isak in the 1-0 defeat to Arsenal on 1 November was a penalty, and 3-2 that VAR should have intervened. Iraola told the BBC at the time: 'There is a clear grab of the shirt.'"
     },
     {
       "title": "Diogo Costa Interest Revived (Anfield Watch via Anfield Index, today)",
@@ -1297,7 +1297,7 @@ export const OPPOSITION = {
   "manager": "Michael Carrick",
   "formation": "4-2-3-1",
   "leaguePosition": 18,
-  "summary": "By Wednesday night Manchester United's question was no longer whether but when: Ben Jacobs reports the decision to sack Carrick has been made and that he will be told face to face on Thursday (CaughtOffside), while Sky Sports reports a verbal agreement in principle with Pochettino, subject to a £7m buyout and staff terms with US Soccer, which United have formally contacted (The Peoples Person via Yahoo Sports). Nothing is official, and Carrick is due to take Thursday's session. Goal says Pochettino could be at Anfield on the 22nd after the USA's two games against Haiti. United are eighteenth on eight with one league win from ten (ESPN); Sunday's 4-4 with Villa needed stoppage-time goals from Zirkzee and Dorgu, and Luke Shaw is targeting Anfield after seven games out (Daily Mail via Anfield Index).",
+  "summary": "By Wednesday night Manchester United's question was no longer whether but when: Ben Jacobs reports the decision to sack Carrick has been made and that he will be told face to face on Thursday (CaughtOffside), while Sky Sports reports a verbal agreement in principle with Pochettino, subject to a £7m buyout and staff terms with US Soccer, which United have formally contacted (The Peoples Person via Yahoo Sports). Nothing is official, and The Peoples Person (via Yahoo) has Carrick taking Thursday's session. Goal says Pochettino could be at Anfield on the 22nd after the USA's two games against Haiti. United are eighteenth on eight with one league win from ten (ESPN); Sunday's 4-4 with Villa needed stoppage-time goals from Zirkzee and Dorgu, and Luke Shaw is targeting Anfield after seven games out (Daily Mail via Anfield Index).",
   "shape": "ESPN's line-up for the Villa game is the only evidence so far: a 4-2-3-1 with Lammens in goal, Mazraoui, Yoro, Maguire and Dalot across the back, Mainoo and Tielemans in the pivot, and Amad, Fernandes and Cunha behind Mbeumo. Chasing the game it produced twenty-six shots and 56 per cent of the ball (ESPN); the version that starts at Anfield will sit deeper. No preview of the fixture is out, so the eleven below is Sunday's starting side, not a prediction.",
   "keyPlayers": [
     {
@@ -1804,28 +1804,28 @@ export const SQUAD_LOAD = {
       "name": "Jeremie Frimpong",
       "issue": "Muscle injury, picked up two or three minutes after coming on at Brentford on 17 October",
       "expected": "22 November, Manchester United at home: All Out Soccer (via Yahoo Sports, Tue 2.09pm) says he is expected to be available; Sports Mole's list and Premier Injuries' tracker agree on the date",
-      "note": "Out for six fixtures since Brentford. All Out Soccer expects him for United, while the Echo's Wednesday round-up still lists him among the absentees; he stays here until he trains or is named.",
+      "note": "Six fixtures missed since Brentford. Held here until he trains or is named: All Out Soccer expects him for United, the Echo still lists him out.",
       "source": "All Out Soccer via Yahoo Sports; Liverpool Echo via Yahoo Sports; Sports Mole; ESPN"
     },
     {
       "name": "Hugo Ekitike",
       "issue": "Achilles rupture (April, surgery)",
       "expected": "26 December, Hull away, as a possible return on Sports Mole's list; the New Year per Sky Sports' Vinny O'Connor (Empire of the Kop); 2 January on Premier Injuries' tracker",
-      "note": "French reports, carried by the Liverpool Echo on Wednesday, have him hoping to return over the festive period; Boxing Day at Hull remains the earliest match date Sports Mole lists.",
+      "note": "Boxing Day at Hull is the earliest match date Sports Mole lists; the festive-period hope comes from French reports carried by the Echo.",
       "source": "Sports Mole / Premier Injuries / Liverpool Echo via Yahoo Sports"
     },
     {
       "name": "Giovanni Leoni",
       "issue": "ACL (September 2025)",
       "expected": "Training with the team in the next international break, per Iraola (Liverpool Echo via Yahoo Sports); 2 January, Coventry, as a possible return on Sports Mole's list",
-      "note": "Iraola, quoted in Wednesday's Liverpool Echo: 'It's taking more time than we wanted'. Out since tearing his ACL on his debut in September 2025.",
+      "note": "Out since tearing the ACL on his debut in September 2025; Iraola's target, per Wednesday's Echo, is training with the team in the next international break, later than the club had hoped.",
       "source": "Liverpool Echo via Yahoo Sports / Sports Mole"
     },
     {
       "name": "Conor Bradley",
       "issue": "Knee",
       "expected": "22 November, Manchester United at home, as a possible return on Sports Mole's list, though he has not yet joined team training; early January on FotMob",
-      "note": "Close to light training, the Liverpool Echo reports on Wednesday; behind Frimpong in the right-back queue and not expected for United.",
+      "note": "Not yet in team training; the Echo has him close to light work, which puts United out of reach and Frimpong ahead of him.",
       "source": "Liverpool Echo via Yahoo Sports / Sports Mole / FotMob"
     }
   ],

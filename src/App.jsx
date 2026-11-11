@@ -619,7 +619,7 @@ function CoverView({ onJump }) {
             }}>
               Inside, the squad as a roster, the standings live again, and
               five dispatches from the writers who never clock off: the Thursday conversation; four votes to one;
-              the case for pulling him out; the goalkeepers after Alisson; and a buyout in two currencies. A table
+              the case for keeping him home; the goalkeepers after Alisson; and a buyout in three currencies. A table
               that has not moved since Sunday, and an opponent about to change hands.
             </p>
           </div>
