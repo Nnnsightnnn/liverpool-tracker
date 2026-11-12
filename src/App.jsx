@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday night, and the conditional has become a decision. Manchester United have resolved to sack Michael Carrick,
-          who is to be told on Thursday, and Sky Sports reports a verbal agreement with Mauricio Pochettino; nothing is official yet.
-          Liverpool, fourth, meet whatever is left of that week at Anfield in eleven days.
+          Thursday morning, and Michael Carrick drove into Carrington at ten to eight to hear, by every report, that he is finished.
+          United had still confirmed nothing by breakfast; Pochettino is expected to follow. Liverpool, fourth and idle,
+          will be the first club to find out what that change looks like, at Anfield in ten days.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the word "if" has gone out of the United story. Ben Jacobs reports the decision to sack Carrick is made and that he
-              will be told face to face on Thursday; Sky Sports has Pochettino agreeing terms in principle, with the American
-              federation now formally contacted and two games against Haiti still on his calendar. Goal thinks he could be in the
-              Anfield dugout on the 22nd. Liverpool's own Wednesday was a verdict of a different kind: the independent panel ruled,
-              four votes to one, that Isak should have had a penalty against Arsenal. It changes nothing in the table. A point
-              recovered on paper is still a point lost.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the meeting everyone was told about is under way. Brit Brief had Carrick arriving at Carrington at 7.50am for what
+              it calls his final day, with the club expected to confirm the sacking before the day is out; as this edition closes, it
+              has not. Pochettino, meanwhile, is due to face the press in America on Friday before the first of two games against Haiti
+              (AFP). Liverpool's own morning is quieter and more domestic: Goal expects a new contract to be put to Van Dijk in the
+              coming days, and the captain's own fitness, after his withdrawal from Dutch duty, is still unexplained. One club is
+              changing its manager; the other is trying to keep its spine.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: the Thursday conversation; four votes to one;
-              the case for keeping him home; the goalkeepers after Alisson; and a buyout in three currencies. A table
-              that has not moved since Sunday, and an opponent about to change hands.
+              five dispatches from the writers who never clock off: ten to eight at Carrington; an offer for the captain;
+              the last-minute call; who stays in goal; and nobody is for sale. A table
+              still frozen since Sunday, and an opponent between managers.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The decision made, the paperwork pending."
+        "One last drive into Carrington."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

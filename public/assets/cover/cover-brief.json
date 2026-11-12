@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-01T12:00:00Z",
   "status": "OPEN",
   "tracker": "liverpool",
-  "leadStory": "Wednesday 11 November, evening: Manchester United, Liverpool's next opponents at Anfield on 22 November, have decided to sack Michael Carrick, who is to be told on Thursday (Ben Jacobs via CaughtOffside), and have a verbal agreement with Mauricio Pochettino (Sky Sports); not yet official.",
+  "leadStory": "Thursday 12 November, morning: Michael Carrick arrived at Carrington at 7.50am to be sacked by Manchester United, Liverpool's next opponents at Anfield on 22 November, with the club expected to confirm it today and Pochettino lined up (Brit Brief); not yet official.",
   "action": "generate",
   "note": "Kenny asked for a better cover than the hand-drawn SVG plates. Generate ONE image per the prompt, save it at `output`, then set COVER_IMAGE.src to it, credit 'Illustration · Antigravity', a fresh generatedAt, and set this file's status to CLOSED. Evergreen on purpose: it should still be right after the City result.",
   "currentPlate": "/assets/cover/2026-10-01-anfield-after-dark.svg",
