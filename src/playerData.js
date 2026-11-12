@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Thu Nov 12, evening - On loan at Levante; the Carrick news does not reach him.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Thu Nov 12, evening - Thursday's manager news in Manchester is a world away from his Levante loan.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "doubtful", injuryNote: "Thu Nov 12, evening - Former Hungary captain Csank has criticised him for playing on at Selhurst (Anfield Index); Hungary decide on Georgia at the last minute.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "doubtful", injuryNote: "Thu Nov 12, evening - Csank, quoted by Anfield Index, has criticised Iraola for leaving him on at Selhurst; Hungary decide on Georgia at the last minute.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -163,7 +163,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Thu Nov 12, evening - With Germany and fit; the ten Pochettino's first United side, if he is in post, will have to account for at Anfield.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Thu Nov 12, evening - With Germany and fit; the No. 10 that Pochettino's first United side, if he is in post, must account for at Anfield.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -1205,7 +1205,7 @@ export const DISPATCHES = [
     "byline": "Anfield Index",
     "dateline": "Budapest · 12 November",
     "category": "Injuries",
-    "body": "Hungary have still not said whether Dominik Szoboszlai plays Georgia on Saturday; the decision, their federation repeats, will almost certainly come at the last minute. What arrived on Thursday instead was blame. Anfield Index reports that Csank, a former Hungary captain, has criticised Iraola for leaving Szoboszlai on at Selhurst after the knee went, the manager having called him 'fine, but not 100 per cent'. At Kirkby, the official FPL site has Van Dijk at 75 per cent for United (The False 9). Ten days out, half of Liverpool's spine is a percentage."
+    "body": "Hungary have still not said whether Dominik Szoboszlai plays Georgia on Saturday; the decision, their federation repeats, will almost certainly come at the last minute. What arrived on Thursday instead was blame. Anfield Index reports that Csank, a Hungarian former international it calls an ex-captain, has criticised Iraola for leaving Szoboszlai on at Selhurst after the knee went, the manager having called him 'fine, but not 100 per cent'. At Kirkby, the official FPL site has Van Dijk at 75 per cent for United (The False 9). Ten days out, half of Liverpool's spine is a percentage."
   },
   {
     "n": "05",
@@ -1253,7 +1253,7 @@ export const NEWS_DIGEST = {
     {
       "title": "Szoboszlai's Knee And A Former Captain's Complaint (Anfield Index, today)",
       "category": "injuries",
-      "detail": "Reported on Thursday: ex-Hungary captain Csank criticised Iraola for playing him on at Selhurst; Hungary still say the Georgia decision will come at the last minute."
+      "detail": "Reported on Thursday: Csank, described by Anfield Index as a former Hungary captain, criticised Iraola for playing him on at Selhurst; Hungary still say the Georgia decision will come at the last minute."
     },
     {
       "title": "Pochettino's Nineteen Games Against Liverpool (Brit Brief, Wednesday)",
@@ -1849,7 +1849,7 @@ export const SQUAD_LOAD = {
     {
       "name": "Conor Bradley",
       "issue": "Knee",
-      "expected": "22 November, Manchester United at home, as a possible return on Sports Mole's list, though he has not yet joined team training; early January on FotMob",
+      "expected": "Sunderland at home on 2 December at the earliest (Brit Brief); Sports Mole's list once named 22 November, but he has not yet joined team training; early January on FotMob",
       "note": "Iraola: 'not very far from starting doing things with us' (Football360). United is out of reach; Frimpong is ahead of him at right-back.",
       "source": "Liverpool Echo via Yahoo Sports / Sports Mole / FotMob"
     }
@@ -1866,7 +1866,7 @@ export const SQUAD_LOAD = {
       "name": "Dominik Szoboszlai",
       "issue": "Knee sprain (RotoWire) late in the first half at Selhurst, after a hamstring problem earlier in the autumn",
       "status": "Doubt; staying with Hungary for treatment, Georgia on Saturday undecided, Northern Ireland on the 17th (RotoWire)",
-      "note": "Ex-Hungary captain Csank has criticised Iraola for playing him on at Selhurst (Anfield Index); Hungary's call on Georgia comes at the last minute.",
+      "note": "Csank has criticised Iraola for playing him on at Selhurst (Anfield Index); Hungary's call on Georgia comes at the last minute.",
       "source": "RotoWire / Anfield Index / Sports Mole"
     },
     {
