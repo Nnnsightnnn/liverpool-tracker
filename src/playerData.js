@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2026-27 Season · Updated 10 November 2026 (evening)) ──────
+// ─── Liverpool FC Player Data (2026-27 Season · Updated 13 November 2026 (morning)) ──────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -54,7 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Fri Nov 13, morning - Hungary meet Georgia on Saturday, Northern Ireland on the 17th; fit, and still the left-back for United.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Fri Nov 13, morning - No knock reported on Hungary duty; Georgia away on Saturday comes first, then Northern Ireland.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Fri Nov 13, morning - No new word overnight; the last from Iraola, 'not very far from starting doing things with us' (Football360), still stands, and United is too soon.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Fri Nov 13, morning - No change overnight: the knee keeps him out of United, and he has not yet joined team training (Football360).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "doubtful", outSince: "2026-11-03", injuryNote: "Fri Nov 13, morning - Not with the Netherlands, still nursing the heel Iraola called 'a matter of pain' (Football360); nine days to see if it eases.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "doubtful", outSince: "2026-11-03", injuryNote: "Fri Nov 13, morning - The heel fracture is still being managed by pain tolerance; not on Dutch duty, and United is nine days away.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Fri Nov 13, morning - On Netherlands duty with nothing reported overnight; the right side against United.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Fri Nov 13, morning - The Dutch camp has reported nothing about him overnight; Liverpool's right-sided starter for United.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Fri Nov 13, morning - With Sweden, no knock reported; still the only fit senior centre-forward.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Fri Nov 13, morning - Nothing reported from Sweden's camp; Koumas apart, the squad has no other senior centre-forward.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Fri Nov 13, morning - Achilles: no change; L'Equipe's Boxing Day target (via Brit Brief) is the latest guide.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Fri Nov 13, morning - No change: the Achilles rupture still points to the turn of the year, Boxing Day the earliest target reported (L'Equipe via Brit Brief).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -1216,7 +1216,7 @@ export const DISPATCHES = [
     "headline": "Recognition Away From The Pitch.",
     "byline": "Anfield Index",
     "dateline": "Liverpool · 13 November",
-    "category": "Transfers",
+    "category": "Football News",
     "body": "Jeremie Frimpong cannot play at the moment, but he has been shortlisted for FIFPRO's 2026 Merit Award, in the Player Voice category, for his Pathways initiative, Anfield Index reported on Friday. It is a strange season to be honoured in: eight appearances in all competitions, a goal and two assists, a muscle injury, and talk of Al Hilal that the same piece leaves unsourced. LiveScore's round-up, meanwhile, led on Van Dijk's contract, which ends on 30 June. The window is shut; the conversations about who stays are not."
   }
 ];
@@ -1228,6 +1228,11 @@ export const NEWS_DIGEST = {
       "title": "Pochettino Agrees Terms, Announcement Expected Today (ESPN; Sky Sports, today)",
       "category": "general",
       "detail": "Reported late on Thursday by Sky Sports and at 7.56am on Friday by ESPN: two and a half years, to the summer of 2029; a $10m (£7.5m) clause to U.S. Soccer and about $2m for staff including Jesus Perez. Not yet official."
+    },
+    {
+      "title": "Wednesday Or Thursday: Pochettino's Arrival (ESPN; GOAL via LiveScore, today)",
+      "category": "general",
+      "detail": "Reported on Friday: ESPN's sources expect him at Carrington on Wednesday; GOAL, in LiveScore's round-up, says he takes charge next Thursday, three days before Anfield."
     },
     {
       "title": "Leoni Expected In Full Training After The Break (Anfield Index, today)",
@@ -1248,11 +1253,6 @@ export const NEWS_DIGEST = {
       "title": "Frimpong Shortlisted For A FIFPRO Merit Award (Anfield Index, today)",
       "category": "general",
       "detail": "Published at 7.50am on Friday: the Player Voice category, for his Pathways initiative. Eight appearances this season, one goal, two assists; still out injured."
-    },
-    {
-      "title": "Wednesday Or Thursday: Pochettino's Arrival (ESPN; GOAL via LiveScore, today)",
-      "category": "general",
-      "detail": "Reported on Friday: ESPN's sources expect him at Carrington on Wednesday; GOAL, in LiveScore's round-up, says he takes charge next Thursday, three days before Anfield."
     },
     {
       "title": "Szoboszlai Still Undecided For Georgia (The False 9, today)",
@@ -1932,12 +1932,12 @@ export const SQUAD_LOAD = {
     {
       "position": "Right-back",
       "level": "critical",
-      "detail": "Critical while Frimpong is listed out 'some time' (Brit Brief). Araujo covers out of position, Bradley is not yet training, and TeamTalk's Gusto link (via Anfield Index) is January's answer at the earliest."
+      "detail": "Critical while Frimpong is out: All Out Soccer (via Yahoo Sports) expects him back for United, Brit Brief still lists him out 'some time'. Araujo covers out of position, Bradley is not yet training, and TeamTalk's Gusto link (via Anfield Index) is January's answer at the earliest."
     },
     {
       "position": "Central midfield",
       "level": "critical",
-      "detail": "Critical. Szoboszlai's knee is Hungary's last-minute call (Anfield Index); Gravenberch's heel is 'a matter of pain' (Football360); Mac Allister is one booking from a derby ban (LiveScore). Nyoni first cover, Endo behind him."
+      "detail": "Critical. Szoboszlai's knee is Hungary's last-minute call (The False 9); Gravenberch's heel is 'a matter of pain' (Football360); Mac Allister is one booking from a derby ban (LiveScore). Nyoni first cover, Endo behind him."
     },
     {
       "position": "Centre-forward",
