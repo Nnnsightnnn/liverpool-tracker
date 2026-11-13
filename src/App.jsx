@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday morning, and United's next manager is waiting only on a press release: Pochettino has agreed a deal to 2029,
-          the announcement expected today. Liverpool, fourth and nine days from his first game, spent the night watching their
-          players scatter across Europe, Barcola bright in a French defeat in Milan, Szoboszlai's knee still undecided.
+          Friday evening, and the press release has landed: Manchester United have named Pochettino head coach, and his
+          first match is at Anfield nine days from now. Liverpool, fourth on eighteen, end the day with no new injury and the
+          same three questions: Van Dijk, Szoboszlai's knee and a right-back.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and the paperwork in Manchester is nearly done. Sky and ESPN say Pochettino has agreed two and a half years, with the
-              announcement due today and a release clause to be paid to American soccer; where they differ is the day he walks into
-              Carrington, Wednesday by ESPN's account, Thursday by GOAL's. Either way he meets his players in the week of Anfield,
-              after two games against Haiti. Liverpool spent the night counting minutes abroad: Barcola lively in defeat at San Siro,
-              Ngumoha on for thirteen against Croatia, and from Kirkby the first hopeful word on Leoni in weeks. Szoboszlai's knee still
-              waits on Hungary. A manager is arriving in a hurry; Liverpool's worry is the players who cannot.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              Manchester United have a head coach, in their own careful phrase, and Liverpool have an opponent with a face.
+              SB Nation reports the club's announcement; Goal puts the deal at two and a half years and the bill at twelve million
+              dollars, staff included. He will not stand on a training pitch in Manchester until the 18th or the 19th, depending on
+              whom you read, which leaves three or four sessions before Anfield. Liverpool's own Friday was quieter: no new knock from
+              the internationals, Milan and Juventus reported to be watching Van Dijk's contract run down, Milner the first name for a
+              legends game in March. Szoboszlai's knee still waits on Hungary. A new manager is promised a honeymoon; his first fixture
+              rarely offers one.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: until the summer of 2029; Wednesday, or perhaps Thursday;
-              lively in defeat at San Siro; a defender Mancini is waiting for; and recognition away from the pitch. A table
-              unmoved since Sunday, and an opponent with a manager in all but name.
+              five dispatches from the writers who never clock off: head coach, in quotation marks; ten million, and two more;
+              a first draft of United; Milan and Turin are watching; and Milner signs up for March. A table unmoved since
+              Sunday, and an opponent whose manager is now official.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Four sessions to learn a dressing room."
+        "The honeymoon begins at Anfield."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
