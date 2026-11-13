@@ -130,7 +130,6 @@ const RSS_FEEDS = [
 const LATEST_NEWS = [
   { source: "Goal", title: "Mauricio Pochettino named Manchester United manager as USMNT exit confirmed just months after signing new contract", time: "today", category: "major" },
   { source: "Yahoo Sports", title: "Man Utd announce Pochettino as club's new manager", time: "today", category: "major" },
-  { source: "Yahoo Sports", title: "Official: Mauricio Pochettino named Manchester United \"Head Coach\"", time: "today", category: "major" },
   { source: "CNN", title: "Manchester United hires Mauricio Pochettino as its new head coach, US set to begin search for replacement", time: "today", category: "major" },
   { source: "Yahoo Sports", title: "How Mauricio Pochettino's Man United could line up against Liverpool", time: "today", category: "major" },
   { source: "Anfield Index", title: "\"It's still in my mind\" - Liverpool star reflects on historic Premier League moment", time: "today", category: "fan" },

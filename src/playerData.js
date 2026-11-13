@@ -406,7 +406,7 @@ export const COVER_IMAGE = {
   focus: "Anfield, after dark",
   credit: "Editorial plate",
   generatedAt: "2026-11-13T23:15:00Z",
-  // Evening pass (Fri 13 November, cloud): NO MATCH, Tier 3; lead is United confirming Pochettino as head coach (Goal; SB Nation via Yahoo Sports).
+  // Evening pass (Fri 13 November, cloud): NO MATCH, Tier 1 for the opponent; lead is United confirming Pochettino as head coach (Goal; SB Nation via Yahoo Sports).
   // Not a photograph; plate carried, generatedAt re-stamped (STEP 7.5 not runnable in cloud).
   // Morning pass (Fri 13 November, cloud): NO MATCH, Tier 3; lead is Pochettino agreeing a deal to 2029 with United, announcement expected today (ESPN; Sky Sports); not yet official.
   // Not a photograph; plate carried, generatedAt re-stamped (STEP 7.5 not runnable in cloud).
@@ -1244,16 +1244,6 @@ export const NEWS_DIGEST = {
       "detail": "Published on Friday: a 4-2-3-1 with Maguire beside Yoro and Diallo, Fernandes and Cunha behind Mbeumo, plus a 3-4-3 option with Dalot and Dorgu as wing-backs. Shaw listed injured."
     },
     {
-      "title": "Milan And Juventus Monitoring Van Dijk (BBC Sport via CaughtOffside, this evening)",
-      "category": "transfers",
-      "detail": "Reported at 12.28pm on Friday: his contract ends next summer, so overseas clubs can talk to him from January; Brighton's Vuskovic named as a possible successor."
-    },
-    {
-      "title": "Milner First Name For Legends v Inter (Anfield Index, this evening)",
-      "category": "general",
-      "detail": "Published at 11.50am on Friday: the game is at Anfield on Saturday 27 March, 3pm; Milner said he was 'delighted to be the first to sign up'."
-    },
-    {
       "title": "Ngumoha Looks Back On His First Goal (Anfield Index, this evening)",
       "category": "general",
       "detail": "Published on Friday evening, a feature built on an earlier club interview: 'That goal, it's still in my mind, to be fair', on his Newcastle goal of August 2025."
@@ -1264,9 +1254,19 @@ export const NEWS_DIGEST = {
       "detail": "Reported on Friday: JT Batson and Dan Helfrich lead the search for Pochettino's successor; Steve Cherundolo takes the December camp."
     },
     {
+      "title": "Milan And Juventus Monitoring Van Dijk (BBC Sport via CaughtOffside, today)",
+      "category": "transfers",
+      "detail": "Reported at 12.28pm on Friday: his contract ends next summer, so overseas clubs can talk to him from January; Brighton's Vuskovic named as a possible successor."
+    },
+    {
+      "title": "Milner First Name For Legends v Inter (Anfield Index, today)",
+      "category": "general",
+      "detail": "Published at 11.50am on Friday: the game is at Anfield on Saturday 27 March, 3pm; Milner said he was 'delighted to be the first to sign up'."
+    },
+    {
       "title": "Hungary's Szoboszlai Call Still Due Saturday (The False 9, today)",
       "category": "injuries",
-      "detail": "Updated early on Friday and unchanged by the evening: the knee decision for Georgia will 'almost certainly only be made at the last minute'; Iraola said he was 'not 100%' at Selhurst."
+      "detail": "Updated early on Friday and unchanged by the evening: Hungary will decide on the knee only shortly before Georgia; Iraola said he was 'not 100%' at Selhurst."
     }
   ],
   "sources": [
@@ -2128,7 +2128,7 @@ export const SEASON_PROJECTION = {
       "difficulty": "medium"
     }
   ],
-  "runInVerdict": "Read off ESPN's table, the next three are United at home (eighteenth), Everton away (sixth) and Sunderland at home (nineteenth). Seven points keeps pace with the fourth-place par; four or fewer would invite Chelsea, two behind, to pass before Stamford Bridge on 5 December. The first is Pochettino's debut, three or four sessions after he starts on the 18th or 19th (The Football Faithful via Yahoo Sports; SB Nation): a new manager rarely changes much in that time, but nobody has tape on what he will try.",
+  "runInVerdict": "Read off ESPN's table, the next three are United at home (eighteenth), Everton away (sixth) and Sunderland at home (nineteenth). Six points keeps pace with the fourth-place par and seven beats it; four or fewer would invite Chelsea, two behind, to pass before Stamford Bridge on 5 December. The first is Pochettino's debut, three or four sessions after he starts on the 18th or 19th (The Football Faithful via Yahoo Sports; SB Nation): a new manager rarely changes much in that time, but nobody has tape on what he will try.",
   "sources": [
     "ESPN",
     "SI",
