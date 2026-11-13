@@ -197,34 +197,35 @@ export const FORMATIONS = {
 // Sun Nov 8 (evening): all 27 refreshed after Crystal Palace 1-3 Liverpool (ESPN line-ups; SI/FotMob ratings; Sky Sports); re-pointed at Manchester United, PL, Sun 22 Nov.
 // Mon Nov 9 (morning): all 27 refreshed for the Szoboszlai-Hungary talks (Read Liverpool; Brit Brief), Henderson's penalty admission and LiveScore's round-up; XIs unchanged.
 // Mon Nov 9 (evening): all 26 refreshed for Van Dijk's withdrawal from the Netherlands squad (Liverpool FC; Dutch FA), Hungary's Szoboszlai tests (Evening Standard via Yahoo) and The False 9's international-duty table; XIs unchanged.
-// Evidence strings refreshed Thu Nov 12 (evening) against Thursday evening's reporting (ESPN; BBC via Yahoo; Anfield Index; The False 9; Brit Brief; Football360).
+// Evidence strings refreshed Fri Nov 13 (morning) against Friday morning's reporting (ESPN; Sky Sports; Anfield Index; Liverpool Offside via Yahoo; The False 9).
 export const PLAYER_EVIDENCE = {
-  1:  "Starts v a United in flux",
-  2:  "Georgia v Hungary Saturday",
-  3:  "FPL 75% · no diagnosis",
-  5:  "CB cover · Lynch: exit due",
-  7:  "Hungary · fit, LB starter",
-  8:  "Knee · near training",
-  9:  "Out 'some time' · not trained",
-  10: "ACL · next break",
-  11: "France · certain at CB",
-  12: "Levante loan",
-  13: "One booking from ban",
-  14: "Heel · 'a matter of pain'",
-  15: "Knee · Hungary to decide",
-  17: "Cover · Lynch: exit due",
-  18: "Germany · the ten",
-  20: "First in for Szoboszlai",
-  22: "Netherlands · right side",
-  23: "Sweden · lone senior nine",
+  1:  "Starts v Pochettino's United",
+  2:  "Georgia face Hungary Sat",
+  3:  "No diagnosis · contract talk",
+  5:  "CB cover if VVD not right",
+  7:  "Hungary · LB starter",
+  8:  "Knee · no new word",
+  9:  "Injured · FIFPRO shortlist",
+  10: "ACL · training after break",
+  11: "France · lost in Milan",
+  12: "On loan at Levante",
+  13: "One yellow from derby ban",
+  14: "Heel · day to day",
+  15: "Knee · Georgia call pending",
+  17: "Midfield cover",
+  18: "Germany · No. 10",
+  20: "Next in at LDM",
+  22: "Netherlands · RAM",
+  23: "Sweden · only senior nine",
   24: "Achilles · Boxing Day aim",
-  25: "England · wide reserve",
-  26: "Lynch: sale or loan",
+  25: "13 mins v Croatia",
+  26: "Outside the twenty",
   27: "Third keeper",
-  28: "Spain · left alternate",
-  29: "RB while Frimpong is out",
-  30: "France · LAM starter",
-  31: "Wales · second nine",
+  28: "Unused v Czechia",
+  29: "RB until Frimpong trains",
+  30: "Live wire at San Siro",
+  31: "Bellamy's praise · No. 9 cover",
+  32: "Greece · LB deputy",
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -408,16 +409,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Thu Nov 12, evening - Kerkez, fit with Hungary for Georgia and Northern Ireland; Tsimikas, whom Lynch expects to leave next summer, covers. Medium.",
-  LCB: "Thu Nov 12, evening - Van Dijk, held at 75 per cent on the official FPL site (The False 9) with no club diagnosis; Gomez if he is not right. Medium.",
-  RCB: "Thu Nov 12, evening - Jacquet, on France duty with nothing reported, the one centre-back certain to start. High.",
-  RB: "Thu Nov 12, evening - Araujo, while Frimpong is listed out 'some time' (Brit Brief). Medium.",
-  LDM: "Thu Nov 12, evening - Szoboszlai, held with a knee Hungary will rule on at the last minute (Anfield Index); Nyoni next. Low.",
-  RDM: "Thu Nov 12, evening - Mac Allister, the surest midfield starter, one booking from a derby ban. High.",
-  LAM: "Thu Nov 12, evening - Barcola, no knock reported with France; Munoz the alternate. Medium.",
-  CAM: "Thu Nov 12, evening - Wirtz, fit with Germany. High.",
-  RAM: "Thu Nov 12, evening - Gakpo, fit with the Netherlands; Ngumoha the reserve. Medium.",
-  ST: "Thu Nov 12, evening - Isak, on Sweden duty with no knock reported and the only senior nine. High.",
+  LB: "Fri Nov 13, morning - Kerkez, with Hungary for Georgia on Saturday and Northern Ireland on the 17th, nothing reported; Tsimikas covers. Medium.",
+  LCB: "Fri Nov 13, morning - Van Dijk, still without a club diagnosis after the Dutch withdrawal; Gomez partners Jacquet if he is not right. Medium.",
+  RCB: "Fri Nov 13, morning - Jacquet, through France's defeat in Milan with nothing reported (Liverpool.com); the surest centre-back. High.",
+  RB: "Fri Nov 13, morning - Araujo, while Frimpong stays out; Gomez the alternative. Medium.",
+  LDM: "Fri Nov 13, morning - Szoboszlai, if the knee Hungary are still assessing before Georgia allows (The False 9); Nyoni otherwise. Low.",
+  RDM: "Fri Nov 13, morning - Mac Allister, fit and the steadiest starter, one booking from a derby ban. High.",
+  LAM: "Fri Nov 13, morning - Barcola, a live wire for France at San Siro (Liverpool Offside via Yahoo); Munoz the alternate. Medium.",
+  CAM: "Fri Nov 13, morning - Wirtz, on Germany duty, no knock. High.",
+  RAM: "Fri Nov 13, morning - Gakpo, with the Netherlands, nothing reported; Ngumoha, thirteen minutes for England, the reserve. Medium.",
+  ST: "Fri Nov 13, morning - Isak, with Sweden and fit; the only senior nine. High.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -443,7 +444,7 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-11-12T23:11:00Z",
-  reason: "Thu Nov 12, evening. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. No personnel change: the eleven that won 3-1 at Selhurst (ESPN). Van Dijk 75 per cent on FPL (The False 9); Szoboszlai a last-minute Hungary call (Anfield Index); Araujo at right-back while Frimpong is out. United confirmed Carrick's departure on Thursday (ESPN); Pochettino expected, not yet appointed. Medium.",
+  generated_at: "2026-11-13T09:15:00Z",
+  reason: "Fri Nov 13, morning. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. No personnel change: the eleven that won 3-1 at Selhurst (ESPN). Van Dijk without a club diagnosis; Szoboszlai undecided for Hungary v Georgia (The False 9); Araujo at right-back while Frimpong is out. Pochettino has agreed terms with United, announcement expected today (ESPN; Sky Sports). Medium.",
 };
 

@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Thu Nov 12, evening - A quiet evening for the keeper after the morning's Ward debate; United's change of manager means Anfield will face a side reshaped in days, not weeks.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Fri Nov 13, morning - The first Liverpool keeper Pochettino's United will face, if Friday's expected announcement comes; Sky Sports has the deal at two and a half years.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 26, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Thu Nov 12, evening - Georgia's game in Hungary on Saturday is the one Liverpool will watch twice: Szoboszlai's knee on the other side is still a last-minute call (Anfield Index).", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 26, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Fri Nov 13, morning - Georgia play Hungary on Saturday with Szoboszlai's place on the other side still undecided (The False 9); the No. 2 at Kirkby either way.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "doubtful", injuryNote: "Thu Nov 12, evening - The official FPL site had him at 75 per cent for United when The False 9 last checked; still no club diagnosis after the Dutch withdrawal.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "doubtful", injuryNote: "Fri Nov 13, morning - LiveScore's Friday round-up leads on his future, the contract running out on 30 June; on fitness, still no club diagnosis since the Dutch withdrawal.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Thu Nov 12, evening - David Lynch (via Anfield Index) names him among five with bleak futures under Iraola, expected to leave next summer; for now, the centre-back cover for United.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Fri Nov 13, morning - If Van Dijk is not right, the senior partner for Jacquet against a United side whose new manager will have had days, not weeks.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -54,7 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Thu Nov 12, evening - Fit with Hungary, who play Georgia on Saturday and Northern Ireland on the 17th; Tsimikas is still his deputy.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Fri Nov 13, morning - Hungary meet Georgia on Saturday, Northern Ireland on the 17th; fit, and still the left-back for United.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Thu Nov 12, evening - Iraola's last word, 'not very far from starting doing things with us' (Football360), still describes him; United comes too soon.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Fri Nov 13, morning - No new word overnight; the last from Iraola, 'not very far from starting doing things with us' (Football360), still stands, and United is too soon.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Thu Nov 12, evening - Brit Brief's injury list still has him out 'some time' with the muscle injury; TeamTalk's Gusto report (via Anfield Index) shows how thin right-back is.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Fri Nov 13, morning - Shortlisted for FIFPRO's 2026 Merit Award for his Pathways initiative (Anfield Index, Friday); the muscle injury still keeps him out.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Thu Nov 12, evening - Brit Brief lists the ACL and wider knee damage with his return pushed to the next international break; nothing new on Thursday.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Fri Nov 13, morning - Anfield Index reported on Friday that he is expected back in full training after the break, carefully managed; Italy's Mancini calls him a future 'great defender'.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Thu Nov 12, evening - France duty without incident; with Van Dijk at 75 per cent on FPL (The False 9), the one centre-back certain for United.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Fri Nov 13, morning - Named in Liverpool.com's round-up of France's defeat to Italy in Milan; the one centre-back sure to start against United.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Thu Nov 12, evening - Thursday's manager news in Manchester is a world away from his Levante loan.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Fri Nov 13, morning - Out on loan at Levante; Friday's news in Manchester and Milan passes him by.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -111,7 +111,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Thu Nov 12, evening - David Lynch (via Anfield Index) expects Liverpool to let his contract expire next summer; with Greece this week.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
+    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Fri Nov 13, morning - With Greece this week; Kerkez's deputy at left-back and, by Lynch's account, out of contract next summer.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
     physical: { height: 178, weight: 76, pace: 79, acceleration: 80, sprintSpeed: 78 },
     career: [
       { years: "2017-2020", club: "Olympiacos", fee: null, type: "senior" },
@@ -122,7 +122,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Thu Nov 12, evening - One booking from a ban that would cover the Everton derby (LiveScore); a United side under new management comes first.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Fri Nov 13, morning - Booking-watch continues: one more and the Everton derby is gone (LiveScore); first, United under a new manager.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "doubtful", outSince: "2026-11-03", injuryNote: "Thu Nov 12, evening - Iraola framed the heel as 'a matter of pain' (Football360); not with the Netherlands, still day to day for United.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "doubtful", outSince: "2026-11-03", injuryNote: "Fri Nov 13, morning - Not with the Netherlands, still nursing the heel Iraola called 'a matter of pain' (Football360); nine days to see if it eases.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "doubtful", injuryNote: "Thu Nov 12, evening - Csank, quoted by Anfield Index, has criticised Iraola for leaving him on at Selhurst; Hungary decide on Georgia at the last minute.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "doubtful", injuryNote: "Fri Nov 13, morning - Hungary play Georgia on Saturday and, as of Friday morning, have still not said whether the knee lets him (The False 9).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Thu Nov 12, evening - Lynch (via Anfield Index) expects him to leave at season's end; midfield cover behind Nyoni until then.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Fri Nov 13, morning - Behind Nyoni in the queue if Szoboszlai is ruled out; no change overnight.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -163,7 +163,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Thu Nov 12, evening - With Germany and fit; the No. 10 that Pochettino's first United side, if he is in post, must account for at Anfield.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Fri Nov 13, morning - With Germany, nothing reported; the creative player any first United plan at Anfield has to stop.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -172,7 +172,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Thu Nov 12, evening - First in if Szoboszlai's knee does not settle; the improved deal reported on Thursday morning (GiveMeSport) awaits an announcement.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
+    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Fri Nov 13, morning - Nine days to be ready for United if Szoboszlai's knee says no; the improved contract is still to be announced.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
     physical: { height: 178, weight: 68, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Leicester City Academy", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Thu Nov 12, evening - Netherlands duty, fit; the right-sided starter for United, whoever is in the away dugout.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Fri Nov 13, morning - On Netherlands duty with nothing reported overnight; the right side against United.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Thu Nov 12, evening - Sweden duty with no knock reported; the only fit senior nine for United.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Fri Nov 13, morning - With Sweden, no knock reported; still the only fit senior centre-forward.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Thu Nov 12, evening - Brit Brief, citing L'Equipe: back in training possibly later this month, with Boxing Day the target.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Fri Nov 13, morning - Achilles: no change; L'Equipe's Boxing Day target (via Brit Brief) is the latest guide.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -213,7 +213,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Thu Nov 12, evening - With England's squad; the wide reserve on either flank.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Fri Nov 13, morning - Thirteen minutes off the bench in England's 2-1 win over Croatia (Liverpool Offside via Yahoo Sports); a wide option for United.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Thu Nov 12, evening - Wales play Norway on Saturday; the second nine behind Isak.", image: "",
+    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Fri Nov 13, morning - Wales manager Craig Bellamy: 'I like what Liverpool have done with him' (BBC via The False 9); Norway on Saturday, then the second nine.", image: "",
     physical: { height: 180, weight: 73, pace: 80, acceleration: 81, sprintSpeed: 79 },
     career: [
       { years: "2013-", club: "Liverpool", fee: null, type: "youth" },
@@ -231,7 +231,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Thu Nov 12, evening - David Lynch (via Anfield Index) expects him to be sold or loaned out; outside the twenty.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Fri Nov 13, morning - Outside the twenty for United; Lynch's sale-or-loan view (Anfield Index) is the standing story.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -242,7 +242,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Thu Nov 12, evening - Third keeper at Kirkby; no part in Thursday's news.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Fri Nov 13, morning - Third goalkeeper; nothing new.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -259,7 +259,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Thu Nov 12, evening - Spain play Czechia on Thursday night and England on Sunday; Barcola's alternate on the left.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Fri Nov 13, morning - An unused substitute in Spain's 2-0 win over Czechia (Liverpool Offside via Yahoo Sports); England on Sunday, then Barcola's alternate.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -269,7 +269,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Thu Nov 12, evening - Right-back for United until Frimpong trains; TeamTalk's Gusto report (via Anfield Index) underlines how thin the department is.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
+    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Fri Nov 13, morning - Still Iraola's right-back while Frimpong is out; nothing new overnight.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
     physical: { height: 188, weight: 79, pace: 78, acceleration: 74, sprintSpeed: 80 },
     career: [
       { years: "2016-2018", club: "Rentistas", fee: null, type: "youth" },
@@ -279,7 +279,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Thu Nov 12, evening - France duty, no knock reported; the left side for United is still his.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
+    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Fri Nov 13, morning - A live wire in France's defeat to Italy at San Siro on Thursday, by Liverpool Offside's account (via Yahoo Sports); fit, and the left side for United.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
     physical: { height: 182, weight: 72, pace: 91, acceleration: 92, sprintSpeed: 90 },
     career: [
       { years: "2010-2020", club: "Lyon Academy", fee: null, type: "youth" },
@@ -405,7 +405,9 @@ export const COVER_IMAGE = {
   alt: "Editorial plate: an empty pitch under floodlights seen from the gantry, the white lines drawn in perspective through a low mist, the stand beyond in shadow.",
   focus: "Anfield, after dark",
   credit: "Editorial plate",
-  generatedAt: "2026-11-12T23:11:00Z",
+  generatedAt: "2026-11-13T09:15:00Z",
+  // Morning pass (Fri 13 November, cloud): NO MATCH, Tier 3; lead is Pochettino agreeing a deal to 2029 with United, announcement expected today (ESPN; Sky Sports); not yet official.
+  // Not a photograph; plate carried, generatedAt re-stamped (STEP 7.5 not runnable in cloud).
   // Evening pass (Thu 12 November, cloud): NO MATCH, Tier 1 for the opponent; lead is United confirming Carrick's departure (ESPN; Sky Sports). Plate carried (STEP 7.5 not runnable in cloud).
   // Morning pass (Thu 12 November, cloud): NO MATCH, Tier 3; lead is Carrick arriving at Carrington to be sacked, confirmation expected today (Brit Brief); not yet official.
   // Not a photograph; plate carried, generatedAt re-stamped (STEP 7.5 not runnable in cloud).
@@ -1126,6 +1128,8 @@ export const RESULTS = [
 // LIVERPOOL fourth (highlighted, UCL stripe) on eighteen.
 // Refresh 2026-11-12 (Thursday evening pass, cloud). Re-fetched from ESPN: no league games since Sunday, table unchanged, every side on ten,
 // LIVERPOOL fourth (highlighted, UCL stripe) on eighteen; Manchester United eighteenth, Carrick's departure confirmed Thursday.
+// Refresh 2026-11-13 (Friday morning pass, cloud). Re-fetched from ESPN: no league games since Sunday, table unchanged, every side on ten,
+// LIVERPOOL fourth (highlighted, UCL stripe) on eighteen; Pochettino agreed terms with United overnight, announcement expected Friday.
 export const STANDINGS = [
   { pos: 1, team: "Arsenal", p: 10, w: 9, d: 0, l: 1, gd: 10, pts: 27, qualification: "UCL" },
   { pos: 2, team: "Brighton", p: 10, w: 7, d: 1, l: 2, gd: 19, pts: 22, qualification: "UCL" },
@@ -1158,123 +1162,126 @@ export const STANDINGS_COMMENTARY = {
   "source": "ESPN",
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 10,
-  "generatedAt": "2026-11-12T23:11:00Z",
-  "overview": "The table did not move on Thursday, but the side in eighteenth changed its manager: United confirmed that Carrick 'has departed his role' (ESPN), one league win from ten games, and arrive at Anfield on 22 November with Pochettino expected but not yet appointed. Everything else is as Sunday left it. Liverpool are fourth on eighteen, two above Chelsea and Everton and three behind City, with Arsenal five clear at the top on twenty-seven. Fourth is the last Champions League place on ESPN's stripe, and two of Liverpool's next three league opponents sit below the relegation line.",
+  "generatedAt": "2026-11-13T09:15:00Z",
+  "overview": "Five days without a league game have left ESPN's table exactly where Sunday put it, so the movement is in the dugouts: the side in eighteenth has agreed a two-and-a-half-year deal with Mauricio Pochettino (Sky Sports; ESPN), with an announcement expected on Friday, and his first match is at Anfield. Liverpool are fourth on eighteen, the last Champions League place on the stripe, two points clear of Chelsea and Everton and three behind City. Arsenal lead on twenty-seven with nine wins from ten. Below the line, United, Sunderland and Palace are separated by a single point, and Liverpool play two of the three before December is a week old.",
   "teams": {
-    "Liverpool": "Fourth on eighteen and holding the last Champions League place; the first game back is against a United side between managers.",
-    "Arsenal": "Top on twenty-seven, nine ahead of Liverpool, with nine wins from ten (ESPN).",
-    "Brighton": "Second on twenty-two; plus nineteen is the best goal difference in the league (ESPN).",
-    "Manchester City": "Third on twenty-one, a win ahead of Liverpool (ESPN).",
-    "Chelsea": "Fifth on sixteen; Liverpool's visit to Stamford Bridge is on 5 December.",
-    "Everton": "Sixth on sixteen on goal difference behind Chelsea; Liverpool visit them on 29 November, the second league game back.",
-    "Tottenham": "Eleventh on twelve, minus one on goal difference; the 19 December visit to Anfield closes the six-game run-in board.",
-    "Manchester United": "Eighteenth on eight; Carrick's departure confirmed on Thursday (ESPN; Sky Sports), Pochettino expected but not yet appointed.",
-    "Sunderland": "Nineteenth on eight; at Anfield on 2 December.",
-    "Crystal Palace": "Bottom on seven with a goal difference of minus fourteen, the league's worst (ESPN)."
+    "Liverpool": "Fourth on eighteen; the first game after the break is Pochettino's United debut, if the announcement lands as expected.",
+    "Arsenal": "Twenty-seven from ten, nine clear of Liverpool and five clear of second (ESPN).",
+    "Brighton": "Second on twenty-two with plus nineteen, the league's best goal difference (ESPN).",
+    "Manchester City": "Third on twenty-one, three points and a win ahead of Liverpool.",
+    "Chelsea": "Fifth on sixteen, two behind Liverpool; Stamford Bridge on 5 December.",
+    "Everton": "Sixth on sixteen, level with Chelsea; Liverpool visit for the derby on 29 November, Mac Allister one booking from missing it.",
+    "Tottenham": "Eleventh on twelve; at Anfield on 19 December, the last of the six fixtures on the run-in board.",
+    "Manchester United": "Eighteenth on eight; Pochettino has agreed a deal to 2029 (Sky Sports), announcement expected Friday.",
+    "Sunderland": "Nineteenth on eight, level on points with United; at Anfield on 2 December.",
+    "Crystal Palace": "Bottom on seven, a point behind the two sides above them, with the league's worst goal difference (ESPN)."
   }
 };
 // ─── Dispatches (hand-curated long reads — separate from the wire feed) ────
 export const DISPATCHES = [
   {
     "n": "01",
-    "headline": "The Statement At Last.",
-    "byline": "ESPN",
-    "dateline": "Carrington · 12 November",
+    "headline": "Until The Summer Of 2029.",
+    "byline": "Sky Sports",
+    "dateline": "Manchester · 12 November",
     "category": "Manager",
-    "body": "By the end of Thursday morning the reporting had become a sentence from the club: Michael Carrick 'has departed his role as men's first-team head coach', United said, after the board reached 'the extremely difficult conclusion that a change is necessary' (ESPN). He leaves with one league win from ten and a side in eighteenth. No caretaker was named. The statement says only that a permanent successor will be appointed as quickly as possible, which is another way of saying who United hope will be in the away dugout at Anfield."
+    "body": "Late on Thursday night, hours after the club said Carrick had gone, Sky Sports reported the length of what comes next: Mauricio Pochettino has agreed two and a half years, to the summer of 2029, with the formal announcement expected on Friday. ESPN's sources filled in the rest by morning. United will pay the $10m clause to U.S. Soccer and about $2m more to bring his staff, Jesus Perez among them. Only one coach from Carrick's set-up is said to remain. The first fixture on the new contract is at Anfield."
   },
   {
     "n": "02",
-    "headline": "Paperwork In Two Countries.",
-    "byline": "BBC Sport",
-    "dateline": "Manchester · 12 November",
+    "headline": "Wednesday, Or Perhaps Thursday.",
+    "byline": "ESPN",
+    "dateline": "Carrington · 13 November",
     "category": "Manager",
-    "body": "The BBC described the Pochettino deal on Thursday afternoon as being finalised rather than finished. Omar Berrada has made official contact with American officials over the £7m release clause, and the expectation is that Pochettino takes the USA's two games against Haiti before arriving to take training on 18 or 19 November. ESPN's sources are in more of a hurry, expecting him at Carrington by Wednesday at the latest. Either way, the first week of Pochettino's United, if it happens, will be three or four sessions long, and it ends at Anfield."
+    "body": "The one detail nobody agrees on is the day he arrives. Pochettino first takes the USA through two games against Haiti; after that, ESPN's sources expect him at Carrington on Wednesday, while GOAL, quoted in LiveScore's Friday round-up, says Thursday, which would leave three days before Anfield. The Evening Standard says only that he travels once the Haiti games are done. The difference is a training session or two. For a manager whose sides like to press from the front, that is most of the week."
   },
   {
     "n": "03",
-    "headline": "Nineteen Meetings, Three Wins.",
-    "byline": "Brit Brief",
-    "dateline": "Anfield · 11 November",
+    "headline": "Lively In Defeat At San Siro.",
+    "byline": "Liverpool Offside via Yahoo Sports",
+    "dateline": "Milan · 12 November",
     "category": "Football News",
-    "body": "Brit Brief has counted Pochettino's history with Liverpool: nineteen matches, eleven Liverpool wins, five draws and three for his sides, the last of them in 2017. Anfield would be his twentieth. The record binds nobody, and most of it was made by a Tottenham team against Klopp's Liverpool, but it is the only shared evidence either dressing room has. Liverpool's own record at home this season is less comforting, as Empire of the Kop pointed out on Thursday: Iraola has already lost there to Manchester City and to Arsenal."
+    "body": "France lost to Italy at San Siro on Thursday night, and the Liverpool reading of it was kinder than the result: Bradley Barcola, by Liverpool Offside's account, was a live wire, and Liverpool.com's round-up named Jacquet among the beaten. Elsewhere the minutes were small. Rio Ngumoha came off the bench for thirteen in England's 2-1 win over Croatia, and Victor Munoz sat unused as Spain beat Czechia 2-0. Small is what Liverpool want from this week: players who come home tired of travelling rather than of football."
   },
   {
     "n": "04",
-    "headline": "A Sprain And A Former Captain.",
+    "headline": "A Defender Mancini Is Waiting For.",
     "byline": "Anfield Index",
-    "dateline": "Budapest · 12 November",
+    "dateline": "Kirkby · 13 November",
     "category": "Injuries",
-    "body": "Hungary have still not said whether Dominik Szoboszlai plays Georgia on Saturday; the decision, their federation repeats, will almost certainly come at the last minute. What arrived on Thursday instead was blame. Anfield Index reports that Csank, a Hungarian former international it calls an ex-captain, has criticised Iraola for leaving Szoboszlai on at Selhurst after the knee went, the manager having called him 'fine, but not 100 per cent'. At Kirkby, the official FPL site has Van Dijk at 75 per cent for United (The False 9). Ten days out, half of Liverpool's spine is a percentage."
+    "body": "Giovanni Leoni has not played since the night of his debut against Southampton in September 2025, and his comeback has already slipped twice. On Friday morning Anfield Index reported that he is expected back in full training after this break, carefully managed, and Italy's Roberto Mancini added a verdict of his own: Palma, Leoni and Ahanor, he said, will all be great defenders for him. None of it puts Leoni in the twenty for United. It does, for the first time this autumn, put a date near his name."
   },
   {
     "n": "05",
-    "headline": "Five Exits And A Shortlist.",
+    "headline": "Recognition Away From The Pitch.",
     "byline": "Anfield Index",
-    "dateline": "Liverpool · 12 November",
+    "dateline": "Liverpool · 13 November",
     "category": "Transfers",
-    "body": "Thursday evening brought the season's first serious talk of who goes. David Lynch, on his YouTube channel, named five: Tsimikas, Gomez and Endo to leave when their deals run out, Chiesa and Elliott to be sold or loaned. Ninety minutes later Florian Plettenberg put Luka Vuskovic, nineteen and valued by Brighton at about €100m, on Liverpool's list for next summer, and TeamTalk had Malo Gusto open to leaving Chelsea in January. The squad is closed until then, but the outline of the next one is being drawn in public."
+    "body": "Jeremie Frimpong cannot play at the moment, but he has been shortlisted for FIFPRO's 2026 Merit Award, in the Player Voice category, for his Pathways initiative, Anfield Index reported on Friday. It is a strange season to be honoured in: eight appearances in all competitions, a goal and two assists, a muscle injury, and talk of Al Hilal that the same piece leaves unsourced. LiveScore's round-up, meanwhile, led on Van Dijk's contract, which ends on 30 June. The window is shut; the conversations about who stays are not."
   }
 ];
 export const NEWS_DIGEST = {
-  "generatedAt": "2026-11-12T23:11:00Z",
-  "summary": "Thursday evening's lead is confirmed at last: Manchester United announced that Michael Carrick 'has departed his role as men's first-team head coach' (ESPN; Sky Sports), ten days before they visit Anfield, and named no caretaker. Mauricio Pochettino is not yet appointed: the BBC (via Yahoo Sports) says United are finalising the deal, with Omar Berrada in official contact with US officials over the £7m release clause, and expects him to take the USA's games against Haiti before arriving for training on 18 or 19 November, while ESPN's sources expect him at Carrington by Wednesday and in charge at Anfield. Liverpool's evening brought exit talk rather than injuries: David Lynch (via Anfield Index) names Tsimikas, Gomez, Endo, Chiesa and Elliott as likely departures, and Florian Plettenberg puts Luka Vuskovic on a shortlist for next summer. No new injury emerged: Szoboszlai remains a last-minute call for Hungary and Van Dijk still has no published diagnosis. Liverpool are fourth on eighteen (ESPN).",
+  "generatedAt": "2026-11-13T09:15:00Z",
+  "summary": "Friday morning's lead is an appointment that is agreed but not yet announced: Mauricio Pochettino will become Manchester United's manager on a two-and-a-half-year deal to the summer of 2029, Sky Sports and ESPN report, with the announcement expected today (Brit Brief), and ESPN adds that United will pay a $10m (£7.5m) release clause plus about $2m for his staff, Jesus Perez among them. He takes the USA through two games against Haiti first, so the open question is when he reaches Carrington: ESPN's sources say Wednesday, GOAL (via LiveScore) says Thursday, and the Evening Standard via Yahoo Sports says only that he travels after the Haiti games; either way, his first match is at Anfield on 22 November. Liverpool's own overnight news came from the international fixtures and Kirkby: Barcola was a live wire as France lost to Italy in Milan (Liverpool Offside via Yahoo Sports), Ngumoha played thirteen minutes in England's 2-1 win over Croatia, and Anfield Index reports Leoni is expected back in full training after the break. Szoboszlai is still undecided for Hungary's game with Georgia on Saturday (The False 9). Liverpool are fourth on eighteen (ESPN).",
   "keyTopics": [
     {
-      "title": "United Confirm Carrick Has Departed (ESPN; Sky Sports, today)",
+      "title": "Pochettino Agrees Terms, Announcement Expected Today (ESPN; Sky Sports, today)",
       "category": "general",
-      "detail": "Confirmed on Thursday: the club statement says Carrick 'has departed his role as men's first-team head coach' and that 'a change is necessary' (ESPN). One league win in ten, eighteenth; no interim named. Pochettino is expected, not appointed."
+      "detail": "Reported late on Thursday by Sky Sports and at 7.56am on Friday by ESPN: two and a half years, to the summer of 2029; a $10m (£7.5m) clause to U.S. Soccer and about $2m for staff including Jesus Perez. Not yet official."
     },
     {
-      "title": "Vuskovic On Next Summer's List (Plettenberg via Anfield Index, today)",
-      "category": "transfers",
-      "detail": "Published at 7.20pm on Thursday: Florian Plettenberg says Liverpool have the nineteen-year-old defender on their shortlist; Brighton value him at about €100m, contract to 2031. A summer link only."
+      "title": "Leoni Expected In Full Training After The Break (Anfield Index, today)",
+      "category": "injuries",
+      "detail": "Published at 8.50am on Friday: the ACL comeback, already slipped twice, now points to full training after the November break, carefully managed. Italy's Mancini: 'Palma will be a great defender for me, as will Leoni'."
     },
     {
-      "title": "Lynch Names Five Likely Exits (Anfield Index, today)",
-      "category": "transfers",
-      "detail": "Published at 5.50pm on Thursday: David Lynch expects Tsimikas, Gomez and Endo to leave when their contracts end, with Chiesa and Elliott sold or loaned. Opinion, not club confirmation."
-    },
-    {
-      "title": "United's Possible XI For Anfield (Evening Standard via AOL, today)",
+      "title": "Barcola A Live Wire As France Lose In Milan (Liverpool Offside via Yahoo Sports, today)",
       "category": "matches",
-      "detail": "Updated at 3.15pm on Thursday: the Standard sketches a 4-2-3-1 for Pochettino's first game, Lammens; Dalot, Yoro, Martinez, Dorgu; Tielemans, Mainoo; Amad, Fernandes, Cunha; Mbeumo, with Baleba and Sesko ruled out. Speculative."
+      "detail": "Published on Friday morning about Thursday night's Nations League game at San Siro; Liverpool.com's round-up names Jacquet as well. No injury reported to either."
     },
     {
-      "title": "Gusto Open To A January Exit (TeamTalk via Anfield Index, today)",
+      "title": "Ngumoha's Thirteen Minutes, Munoz Unused (Liverpool Offside via Yahoo Sports, today)",
+      "category": "matches",
+      "detail": "From Thursday night's games, reported on Friday: Ngumoha came off the bench in England's 2-1 win over Croatia; Munoz did not get on in Spain's 2-0 win over Czechia."
+    },
+    {
+      "title": "Frimpong Shortlisted For A FIFPRO Merit Award (Anfield Index, today)",
+      "category": "general",
+      "detail": "Published at 7.50am on Friday: the Player Voice category, for his Pathways initiative. Eight appearances this season, one goal, two assists; still out injured."
+    },
+    {
+      "title": "Wednesday Or Thursday: Pochettino's Arrival (ESPN; GOAL via LiveScore, today)",
+      "category": "general",
+      "detail": "Reported on Friday: ESPN's sources expect him at Carrington on Wednesday; GOAL, in LiveScore's round-up, says he takes charge next Thursday, three days before Anfield."
+    },
+    {
+      "title": "Szoboszlai Still Undecided For Georgia (The False 9, today)",
+      "category": "injuries",
+      "detail": "Updated at 5.24am on Friday: the knee is still a doubt and Hungary say the decision will 'almost certainly only be made at the last minute'; Georgia is on Saturday."
+    },
+    {
+      "title": "Bellamy On Koumas (BBC via The False 9, today)",
+      "category": "general",
+      "detail": "Reported on Friday: the Wales manager said 'I like what Liverpool have done with him' before Saturday's game in Norway."
+    },
+    {
+      "title": "Van Dijk's Contract Leads LiveScore's Round-Up (LiveScore, today)",
       "category": "transfers",
-      "detail": "Published at 2.50pm on Thursday: TeamTalk says Chelsea's right-back is prepared to leave in January and Liverpool want a right-back; the piece itself calls it 'one to watch closely rather than one nearing completion'."
-    },
-    {
-      "title": "Pochettino Deal Being Finalised (BBC via Yahoo Sports, today)",
-      "category": "general",
-      "detail": "Reported at 1.47pm on Thursday: Berrada has made official contact with US officials over the £7m clause; Pochettino is expected to take training on 18 or 19 November, after the USA's games with Haiti."
-    },
-    {
-      "title": "Szoboszlai's Knee And A Former Captain's Complaint (Anfield Index, today)",
-      "category": "injuries",
-      "detail": "Reported on Thursday: Csank, described by Anfield Index as a former Hungary captain, criticised Iraola for playing him on at Selhurst; Hungary still say the Georgia decision will come at the last minute."
-    },
-    {
-      "title": "Pochettino's Nineteen Games Against Liverpool (Brit Brief, Wednesday)",
-      "category": "general",
-      "detail": "Published on Wednesday afternoon: eleven Liverpool wins, five draws, three for Pochettino's sides, the last in 2017. Anfield on 22 November would be the twentieth."
-    },
-    {
-      "title": "Van Dijk At 75 Per Cent On FPL (The False 9, Monday)",
-      "category": "injuries",
-      "detail": "Reported on Monday night and still the latest figure: the official FPL site flags an unspecified injury with a 75 per cent chance of playing United. No club diagnosis since."
+      "detail": "Friday's LiveScore round-up leads on his future, with his deal expiring on 30 June; the quotes it carries are second-hand (MilanReports), so treat them as talk, not news."
     }
   ],
   "sources": [
     "ESPN",
     "Sky Sports",
-    "BBC via Yahoo Sports",
-    "Anfield Index",
-    "Evening Standard via AOL",
-    "TeamTalk via Anfield Index",
     "Brit Brief",
-    "The False 9"
+    "GOAL via LiveScore",
+    "LiveScore",
+    "Evening Standard via Yahoo Sports",
+    "Liverpool Offside via Yahoo Sports",
+    "Liverpool.com",
+    "Anfield Index",
+    "The False 9",
+    "BBC via The False 9"
   ]
 };
 // ─────────────────────────────────────────────────────────────────────────────
@@ -1295,7 +1302,7 @@ export const NEWS_DIGEST = {
 // next edition and then into the auditor's blind spot.
 
 export const OPPOSITION = {
-  "generatedAt": "2026-11-12T23:11:00Z",
+  "generatedAt": "2026-11-13T09:15:00Z",
   "opponent": "Manchester United",
   "shortName": "Man Utd",
   "fixture": {
@@ -1305,10 +1312,10 @@ export const OPPOSITION = {
     "competition": "PL",
     "broadcast": "Premier League, matchday eleven, Sunday 22 November, 4.30pm GMT (11.30am ET), Anfield (ESPN fixtures). Sky Sports in the UK (Liverpool FC; LiveScore)"
   },
-  "manager": "Vacant: Carrick departed 12 Nov; Pochettino expected, not yet appointed",
+  "manager": "Vacant: Carrick departed 12 Nov; Pochettino has agreed terms to 2029, announcement expected 13 Nov (ESPN; Sky Sports)",
   "formation": "4-2-3-1",
   "leaguePosition": 18,
-  "summary": "Manchester United confirmed on Thursday that Michael Carrick 'has departed his role as men's first-team head coach', the board having reached 'the extremely difficult conclusion that a change is necessary' (ESPN); no caretaker was named. Mauricio Pochettino is expected but not appointed: the BBC (via Yahoo Sports) says the deal is being finalised, with Omar Berrada in official contact with US officials over a £7m release clause and Pochettino due to take training on 18 or 19 November after the USA's games against Haiti, while ESPN's sources expect him at Carrington by Wednesday and in charge at Anfield. United are eighteenth on eight with one league win from ten (ESPN); Sky Sports counts three wins in fifteen in all competitions this season. Their last league game was Sunday's 4-4 with Villa, rescued by stoppage-time goals from Zirkzee and Dorgu (ESPN).",
+  "summary": "Manchester United have a manager in all but the announcement: Mauricio Pochettino has agreed a two-and-a-half-year deal to the summer of 2029 (Sky Sports; ESPN), with the formal statement expected on Friday (Brit Brief). ESPN's sources say United will pay U.S. Soccer a $10m (£7.5m) release clause and about $2m more for his staff, Jesus Perez included, and expect him at Carrington on Wednesday after two USA games against Haiti; GOAL (via LiveScore) says Thursday. He inherits a side that sacked Carrick on Thursday with one league win from ten, eighteenth on eight (ESPN), and only one coach from the old staff is said to remain (Sky Sports). Their last league game was Sunday's 4-4 with Villa, rescued by stoppage-time goals from Zirkzee and Dorgu (ESPN).",
   "shape": "Carrick's last side was a 4-2-3-1 (ESPN's Villa line-up), and the Evening Standard expects Pochettino's first to keep the shape: Mainoo and Tielemans as the pivot, Amad, Fernandes and Cunha behind Mbeumo, with Dorgu at left-back and Martinez beside Yoro. Pochettino's teams press high and push both full-backs on, but with three or four sessions before Anfield the likelier version is Carrick's personnel with a new voice. The eleven below is the Standard's speculative XI, not a confirmed one.",
   "keyPlayers": [
     {
@@ -1410,7 +1417,7 @@ export const OPPOSITION = {
       "note": "Premier League (ESPN)."
     }
   ],
-  "liverpoolAngle": "If the BBC's timetable holds, Pochettino has three or four sessions before Anfield, and a new manager's first away game is usually a cautious one: a deeper United block asks Liverpool to unpick it rather than run into space, the work Szoboszlai's passing does best and the work his knee, still a last-minute call for Hungary (Anfield Index), puts in doubt. Behind that, the question is Van Dijk, 75 per cent on the official FPL site (The False 9), so Gomez may partner Jacquet; Araujo stays at right-back until Frimpong trains. United's surest route is the set piece: Fernandes's ninety-seventh-minute corner saved the Villa game (ESPN). Brit Brief's count of Pochettino's record against Liverpool, three wins in nineteen, is history, not a forecast.",
+  "liverpoolAngle": "Whether Pochettino lands on Wednesday, as ESPN's sources say, or Thursday, as GOAL has it, he will have between three and four sessions before Anfield, and a new manager's first away game is usually a cautious one: a deeper United block asks Liverpool to unpick it rather than run into space, the work Szoboszlai's passing does best and the work his knee, still undecided for Hungary on Saturday (The False 9), puts in doubt. Behind that sits Van Dijk, with no club diagnosis since his Dutch withdrawal, so Gomez may partner Jacquet; Araujo stays at right-back until Frimpong trains. United's surest route is the set piece: Fernandes's ninety-seventh-minute corner saved the Villa game (ESPN).",
   "modelLine": null,
   "sources": [
     "ESPN",
@@ -1440,10 +1447,10 @@ export const OPPOSITION = {
   ]
 };
 export const FORM_TRENDS = {
-  "generatedAt": "2026-11-12T23:11:00Z",
+  "generatedAt": "2026-11-13T09:15:00Z",
   "competition": "PL",
   "played": 10,
-  "headline": "Nothing on the pitch since Sunday, so the numbers hold where Palace left them: 14.61 expected goals for and 12.77 against across ten league games, from mixed providers listed in the totals note, against fourteen scored and ten conceded. The gap worth watching is the second one: Liverpool allowed 2.39 at Selhurst on The Transfer Hub's figures, the highest of the ten league cards (Forest's 2.30 is next), and United arrive at Anfield having taken twenty-six shots against Villa (ESPN). The Palace card stays pending until Opta Analyst's own figures are read.",
+  "headline": "The underlying numbers are frozen with the fixtures: across ten league games Liverpool have produced 14.61 expected goals and allowed 12.77, from the mixed providers listed in the totals note, against fourteen scored and ten conceded. Read plainly, the finishing has been roughly fair and the defending a little lucky. The worst single card is still Selhurst, 2.39 against on The Transfer Hub's figures (Forest's 2.30 is next), and that card stays pending until Opta Analyst's own numbers are read. United's last outing was twenty-six shots against Villa (ESPN), so the first test after the break is not a quiet one.",
   "diagnosis": [
     {
       "label": "Space, not possession",
@@ -1733,9 +1740,9 @@ export const FORM_TRENDS = {
     "note": "Premier League only, ten games. xG for is 2.73 (Newcastle) plus 1.61 (Forest) plus 0.53 (Ipswich) plus 1.13 (Fulham) plus 1.57 (Bournemouth) plus 0.86 (City) plus 1.51 (Brentford) plus 0.87 (Brighton) plus 1.15 (Arsenal) plus 2.65 (Palace); xG against is 1.43 plus 2.30 plus 0.72 plus 0.71 plus 0.76 plus 1.30 plus 0.85 plus 1.35 plus 0.96 plus 2.39. The Palace figures are The Transfer Hub's (2.39 being its 1.60 non-penalty figure plus its 0.79 for the penalty), the Brentford and Brighton figures are FotMob's, reported by SI, the City card's 1.30 is Sofascore's and the Arsenal card is LiveScore's; Opta's own figures replace them when published. Provenance caveat from 21 September stands: Opta's published season expected-goals-against figure through five games was 6.12 rather than the 5.92 those per-match cards summed to. Champions League and Carabao Cup cards are shown but not aggregated. First-half splits exist only for Forest, Tottenham and City and are not aggregated."
   },
   "optaFacts": [
-    "Michael Carrick leaves United with three wins in fifteen games in all competitions this season, and fifteen in thirty-two since his permanent appointment (Sky Sports).",
-    "Pochettino's sides have won three of nineteen meetings with Liverpool, the last in 2017; Liverpool have won eleven (Brit Brief).",
-    "Manchester United went two goals down to Villa in three minutes and forty-two seconds on Sunday, a club record, then drew 4-4 (ESPN)."
+    "Pochettino's United contract runs two and a half years, to the summer of 2029, and his first game under it is at Anfield (Sky Sports).",
+    "United will pay a $10m (£7.5m) clause to release Pochettino from U.S. Soccer, and about $2m more for his staff (ESPN).",
+    "Carrick left with one league win from ten games; United are eighteenth on eight (ESPN)."
   ],
   "sources": [
     "UEFA.com",
@@ -1821,15 +1828,15 @@ export const FORM_TRENDS = {
   ]
 };
 export const SQUAD_LOAD = {
-  "generatedAt": "2026-11-12T23:11:00Z",
-  "headline": "Thursday ended without a new Liverpool injury, which in a closed squad counts as news. The open questions are the same three: Van Dijk at 75 per cent on the official FPL site with no club diagnosis (The False 9), Szoboszlai's knee a last-minute call for Hungary (Anfield Index), and Frimpong, still listed out 'some time' (Brit Brief), so Araujo stays at right-back. The evening's other squad story was about next summer, David Lynch naming Tsimikas, Gomez, Endo, Chiesa and Elliott as likely exits (Anfield Index).",
+  "generatedAt": "2026-11-13T09:15:00Z",
+  "headline": "Friday brought one hopeful line from the treatment room and no new injury from the international games. Anfield Index reports Leoni is expected back in full training after the break, too late for United but the first firm direction on him this autumn. Barcola, Jacquet, Ngumoha and Munoz came through Thursday night's fixtures with nothing reported (Liverpool Offside via Yahoo Sports; Liverpool.com). The three questions for United are unchanged: Van Dijk with no club diagnosis, Szoboszlai's knee still undecided for Hungary (The False 9), and Frimpong out, so Araujo stays at right-back.",
   "minutesNote": "Premier League minutes are not published here yet. Ten league games, four Champions League games and two Carabao Cup ties have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   "unavailable": [
     {
       "name": "Jeremie Frimpong",
       "issue": "Muscle injury, picked up two or three minutes after coming on at Brentford on 17 October",
       "expected": "22 November, Manchester United at home: All Out Soccer (via Yahoo Sports, Tue 2.09pm) says he is expected to be available; Sports Mole's list and Premier Injuries' tracker agree on the date",
-      "note": "Brit Brief's list still has him out 'some time' and Iraola called the timeline 'difficult to predict'; held here until he trains or is named.",
+      "note": "Still listed out; on Friday Anfield Index reported his FIFPRO Merit Award shortlisting, not a fitness update. Held here until he trains or is named.",
       "source": "All Out Soccer via Yahoo Sports; Liverpool Echo via Yahoo Sports; Sports Mole; ESPN"
     },
     {
@@ -1842,9 +1849,9 @@ export const SQUAD_LOAD = {
     {
       "name": "Giovanni Leoni",
       "issue": "ACL (September 2025)",
-      "expected": "Training with the team in the next international break, per Iraola (Liverpool Echo via Yahoo Sports); 2 January, Coventry, as a possible return on Sports Mole's list",
-      "note": "Brit Brief lists ACL and wider knee damage, with the return pushed to the next international break.",
-      "source": "Liverpool Echo via Yahoo Sports / Sports Mole"
+      "expected": "Full training after the November break, carefully managed (Anfield Index, 13 Nov); 2 January, Coventry, as a possible return on Sports Mole's list",
+      "note": "Anfield Index (Friday) says the comeback has already slipped from late September and mid-October; Italy's Mancini counts him among future 'great' defenders. Not a candidate for United.",
+      "source": "Anfield Index / Liverpool Echo via Yahoo Sports / Sports Mole"
     },
     {
       "name": "Conor Bradley",
@@ -1887,8 +1894,8 @@ export const SQUAD_LOAD = {
       "name": "Victor Munoz",
       "issue": "No injury reported",
       "status": "On for Barcola on sixty-nine, booked on eighty-two (ESPN)",
-      "note": "Added to Spain's squad after first being left out (The False 9); Czechia on the 12th, England on the 15th.",
-      "source": "ESPN / The False 9"
+      "note": "Unused as Spain beat Czechia 2-0 on Thursday (Liverpool Offside via Yahoo Sports); England on the 15th.",
+      "source": "ESPN / Liverpool Offside via Yahoo Sports"
     },
     {
       "name": "Joe Gomez",
@@ -1920,7 +1927,7 @@ export const SQUAD_LOAD = {
     {
       "position": "Centre-back",
       "level": "critical",
-      "detail": "Critical. Van Dijk is 75 per cent on FPL (The False 9) with no club diagnosis; Jacquet is the one certain starter, Gomez the only senior cover, and Leoni is out until the next break."
+      "detail": "Critical. Van Dijk has no club diagnosis since his Dutch withdrawal; Jacquet is the one certain starter and Gomez the only senior cover. Leoni is expected in full training after this break (Anfield Index), not before United."
     },
     {
       "position": "Right-back",
@@ -2038,13 +2045,13 @@ export const SQUAD_LOAD = {
   ]
 };
 export const SEASON_PROJECTION = {
-  "generatedAt": "2026-11-12T23:11:00Z",
+  "generatedAt": "2026-11-13T09:15:00Z",
   "played": 10,
   "points": 18,
   "pointsPerGame": 1.8,
   "projectedPoints": 68,
   "projectedFinish": "Champions League par on current pace, with nothing to spare",
-  "headline": "Eighteen points from ten, 1.80 a game, a sixty-eight-point pace: par for fourth on historical norms and nothing to spare. Twenty-eight games remain, so this is a rate and not a forecast. It resumes on 22 November against a United side that confirmed a change of manager on Thursday.",
+  "headline": "Ten games, eighteen points, 1.80 a game: a pace that projects to sixty-eight, which is par for fourth on historical norms with nothing to spare. With twenty-eight to play it is a rate, not a forecast. The run resumes on 22 November against a United side that has agreed terms with Pochettino and expects to announce him on Friday (ESPN).",
   "thresholds": [
     {
       "label": "Champions League (top 4)",
@@ -2122,7 +2129,7 @@ export const SEASON_PROJECTION = {
       "difficulty": "medium"
     }
   ],
-  "runInVerdict": "ESPN's table makes the next three United at home (eighteenth), Everton away (sixth) and Sunderland at home (nineteenth). Seven points from those keeps pace with the fourth-place par; four or fewer invites Chelsea, two behind, to pass before Stamford Bridge on 5 December. United confirmed Carrick's departure on Thursday (ESPN), so the first of the three comes against a side in its first days under a new manager, Pochettino if the deal the BBC says is being finalised is done in time.",
+  "runInVerdict": "On ESPN's table the next three are United at home (eighteenth), Everton away (sixth) and Sunderland at home (nineteenth). Seven points from those holds the fourth-place par; four or fewer invites Chelsea, two behind, to pass before Stamford Bridge on 5 December. The first of the three is Pochettino's debut, after perhaps three or four sessions with his new players (ESPN; GOAL via LiveScore), which cuts both ways: little time to coach, and no tape on what he will change.",
   "sources": [
     "ESPN",
     "SI",

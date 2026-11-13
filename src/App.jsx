@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday evening, and the reports have become a statement: Manchester United confirm that Michael Carrick has departed,
-          one league win from ten. Pochettino is expected, not yet appointed. Liverpool, fourth and still idle, will be his first
-          opponent if the paperwork is done in time, at Anfield in ten days.
+          Friday morning, and United's next manager is waiting only on a press release: Pochettino has agreed a deal to 2029,
+          the announcement expected today. Liverpool, fourth and nine days from his first game, spent the night watching their
+          players scatter across Europe, Barcola bright in a French defeat in Milan, Szoboszlai's knee still undecided.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              United have said it themselves. The club's statement that Carrick 'has departed his role' (ESPN) ended a morning spent
-              watching cars arrive at Carrington, and the BBC spent the afternoon describing Pochettino's deal as being finalised, with
-              training to begin on the 18th or 19th. That would leave a manager perhaps four sessions old at Anfield on the 22nd.
-              Liverpool's evening was about a longer future: David Lynch named five players he expects to leave, and Plettenberg a
-              nineteen-year-old defender they would like next summer. Neither list finds Iraola a fit centre-back, right-back or
-              midfielder for United. A new manager has ten days; Liverpool have ten days and the same injuries.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              and the paperwork in Manchester is nearly done. Sky and ESPN say Pochettino has agreed two and a half years, with the
+              announcement due today and a release clause to be paid to American soccer; where they differ is the day he walks into
+              Carrington, Wednesday by ESPN's account, Thursday by GOAL's. Either way he meets his players in the week of Anfield,
+              after two games against Haiti. Liverpool spent the night counting minutes abroad: Barcola lively in defeat at San Siro,
+              Ngumoha on for thirteen against Croatia, and from Kirkby the first hopeful word on Leoni in weeks. Szoboszlai's knee still
+              waits on Hungary. A manager is arriving in a hurry; Liverpool's worry is the players who cannot.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: the statement at last; paperwork in two countries;
-              nineteen meetings, three wins; a sprain and a former captain; and five exits and a shortlist. A table
-              unmoved since Sunday, and an opponent without a manager.
+              five dispatches from the writers who never clock off: until the summer of 2029; Wednesday, or perhaps Thursday;
+              lively in defeat at San Siro; a defender Mancini is waiting for; and recognition away from the pitch. A table
+              unmoved since Sunday, and an opponent with a manager in all but name.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Departed, the statement said."
+        "Nine days to learn a dressing room."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
