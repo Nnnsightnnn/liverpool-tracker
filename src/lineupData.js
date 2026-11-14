@@ -199,34 +199,35 @@ export const FORMATIONS = {
 // Mon Nov 9 (evening): all 26 refreshed for Van Dijk's withdrawal from the Netherlands squad (Liverpool FC; Dutch FA), Hungary's Szoboszlai tests (Evening Standard via Yahoo) and The False 9's international-duty table; XIs unchanged.
 // Evidence strings refreshed Fri Nov 13 (morning) against Friday morning's reporting (ESPN; Sky Sports; Anfield Index; Liverpool Offside via Yahoo; The False 9).
 // Evidence strings refreshed Fri Nov 13 (evening) against Friday's reporting (Goal; SB Nation via Yahoo; BBC Sport via CaughtOffside; Anfield Index; The False 9).
+// Evidence strings refreshed Sat Nov 14 (morning) against Saturday morning's reporting (Liverpool FC; The L Files; Anfield Index; Sports Mole; Liverpool Echo via Yahoo; LiveScore).
 export const PLAYER_EVIDENCE = {
-  1:  "Fit · starts v United",
-  2:  "Georgia v Hungary Sat",
-  3:  "Milan, Juve watching · no diag.",
-  5:  "Next CB in if VVD out",
-  7:  "Hungary · fit LB",
-  8:  "Knee · 2 Dec earliest",
-  9:  "Muscle · not yet training",
-  10: "ACL · full training after break",
-  11: "France · fit for United",
-  12: "Levante loan",
-  13: "A booking from a derby ban",
-  14: "Heel · pain-managed",
-  15: "Knee · Hungary call Sat",
-  17: "Third in line at LDM",
-  18: "Germany · fit No. 10",
-  20: "First in if Szoboszlai out",
-  22: "Dutch duty · fit RAM",
-  23: "Sweden · fit, sole nine",
-  24: "Achilles · Boxing Day earliest",
-  25: "England · wide option",
-  26: "Not in United plans",
-  27: "No. 3 keeper",
-  28: "Barcola's alternate",
-  29: "RB while Frimpong out",
-  30: "Unhurt at San Siro",
-  31: "Wales v Norway Sat",
-  32: "Greece · Kerkez cover",
+  1:  "Lovren backs new deal · starts",
+  2:  "Georgia v Hungary today",
+  3:  "Missed Dutch 7-0 · no diagnosis",
+  5:  "First in if VVD not cleared",
+  7:  "Back from ban for Hungary",
+  8:  "Knee · not in team training",
+  9:  "Muscle · no training report",
+  10: "ACL · full training next week",
+  11: "Started France loss · fit",
+  12: "On loan at Levante",
+  13: "No talks yet, per his father",
+  14: "Heel · managed by pain",
+  15: "Knee · Hungary v Georgia 5pm",
+  17: "No minutes yet this season",
+  18: "Scored for Germany · 81 mins",
+  20: "England U21 debut Friday",
+  22: "An hour in Dutch 7-0 · fit",
+  23: "Sweden · only senior nine",
+  24: "Achilles · Boxing Day target",
+  25: "Sub in England win · wide",
+  26: "Outside United plans",
+  27: "Third goalkeeper",
+  28: "Unused by Spain · LW option",
+  29: "RB while Frimpong is out",
+  30: "Started in Milan · fit LW",
+  31: "Wales v Norway today",
+  32: "Full 90 in Greece's 7-0 loss",
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -380,6 +381,8 @@ export const PLAYER_EVIDENCE = {
 //   (The False 9), LCB Medium; Szoboszlai a last-minute Hungary call, LDM Low; Frimpong out 'some time' (Brit Brief), RB Medium. All 26 evidence strings and ten rationales refreshed. Overall Medium.
 // Fri Nov 13 (evening): no personnel change. United confirm Pochettino as head coach (Goal); Van Dijk undiagnosed, Milan and Juventus watching (BBC Sport via
 //   CaughtOffside), LCB Medium; Szoboszlai's Hungary call Saturday, LDM Low; Frimpong not training, RB Medium. All 27 evidence strings and ten rationales refreshed. Overall Medium.
+// Sat Nov 14 (morning): no personnel change. Wirtz scored for Germany (81 minutes) and Gakpo played an hour of the Dutch 7-0, no knocks (Liverpool FC); Szoboszlai in Sports
+//   Mole's Hungary XI for Georgia today, LDM stays Low; Van Dijk undiagnosed, LCB Medium; Frimpong not training, RB Medium. All 27 evidence strings and ten rationales refreshed. Overall Medium.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -412,16 +415,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Fri Nov 13, evening - Kerkez, fit on Hungary duty with Georgia next; Tsimikas the deputy. Medium.",
-  LCB: "Fri Nov 13, evening - Van Dijk, still undiagnosed after the Dutch withdrawal; Friday's news was Milan and Juventus (BBC Sport via CaughtOffside), not fitness. Gomez if not. Medium.",
-  RCB: "Fri Nov 13, evening - Jacquet, home from Milan without a knock; the fixed point of the back four. High.",
-  RB: "Fri Nov 13, evening - Araujo, with Frimpong not yet training; Gomez the alternative. Medium.",
-  LDM: "Fri Nov 13, evening - Szoboszlai if Hungary's Saturday call and his knee allow; Nyoni starts otherwise. Low.",
-  RDM: "Fri Nov 13, evening - Mac Allister, fit, one yellow from the derby. High.",
-  LAM: "Fri Nov 13, evening - Barcola, unhurt at San Siro; Munoz the alternate. Medium.",
-  CAM: "Fri Nov 13, evening - Wirtz, fit with Germany; the player Pochettino's first plan must stop. High.",
-  RAM: "Fri Nov 13, evening - Gakpo, fit with the Netherlands; Ngumoha the reserve. Medium.",
-  ST: "Fri Nov 13, evening - Isak, fit with Sweden; Koumas the only cover. High.",
+  LB: "Sat Nov 14, morning - Kerkez, back from suspension for Hungary in Tbilisi today (Sports Mole); Tsimikas, who played ninety for Greece, the deputy. Medium.",
+  LCB: "Sat Nov 14, morning - Van Dijk, absent from the Dutch 7-0 and still without a club diagnosis; Gomez if he is not cleared. Medium.",
+  RCB: "Sat Nov 14, morning - Jacquet, who started France's defeat by Italy and reported nothing; the fixed point. High.",
+  RB: "Sat Nov 14, morning - Araujo; Frimpong has no training report eight days out, Gomez the alternative. Medium.",
+  LDM: "Sat Nov 14, morning - Szoboszlai if his knee passes Hungary's last-minute test today; Nyoni, fresh from an Under-21 debut, otherwise. Low.",
+  RDM: "Sat Nov 14, morning - Mac Allister, fit; no contract talks yet by his father's account (Goal via LiveScore). High.",
+  LAM: "Sat Nov 14, morning - Barcola, who started in Milan; Munoz, unused by Spain, the alternate. Medium.",
+  CAM: "Sat Nov 14, morning - Wirtz, who scored for Germany in Belgrade and played 81 minutes (Liverpool FC). High.",
+  RAM: "Sat Nov 14, morning - Gakpo, an hour in Amsterdam and no knock; Ngumoha the reserve. Medium.",
+  ST: "Sat Nov 14, morning - Isak with Sweden, no report either way; Koumas the only cover. High.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -447,7 +450,7 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-11-13T23:15:00Z",
-  reason: "Fri Nov 13, evening. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. No personnel change: the eleven that won 3-1 at Selhurst (ESPN). United confirmed Pochettino as head coach on Friday (Goal; SB Nation via Yahoo Sports). Van Dijk undiagnosed; Szoboszlai's Hungary call due Saturday (The False 9); Araujo at right-back while Frimpong is out. Medium.",
+  generated_at: "2026-11-14T09:30:00Z",
+  reason: "Sat Nov 14, morning. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. No personnel change: the eleven that won 3-1 at Selhurst (ESPN). Wirtz scored for Germany and Gakpo played an hour for the Netherlands on Friday, both unhurt (Liverpool FC); Szoboszlai's Hungary call is today; Van Dijk undiagnosed; Araujo at right-back while Frimpong is out. Medium.",
 };
 

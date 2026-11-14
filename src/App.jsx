@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday evening, and the press release has landed: Manchester United have named Pochettino head coach, and his
-          first match is at Anfield nine days from now. Liverpool, fourth on eighteen, end the day with no new injury and the
-          same three questions: Van Dijk, Szoboszlai's knee and a right-back.
+          Saturday morning, eight days from Anfield, and Friday night's internationals came through whole: Wirtz scored in
+          Belgrade, Gakpo played an hour in Amsterdam, Nyoni made his Under-21 debut. United's news ran the other way, Dorgu
+          sent home by Denmark. Liverpool, fourth on eighteen, wait now on Szoboszlai in Tbilisi at five.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,23 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              Manchester United have a head coach, in their own careful phrase, and Liverpool have an opponent with a face.
-              SB Nation reports the club's announcement; Goal puts the deal at two and a half years and the bill at twelve million
-              dollars, staff included. He will not stand on a training pitch in Manchester until the 18th or the 19th, depending on
-              whom you read, which leaves three or four sessions before Anfield. Liverpool's own Friday was quieter: no new knock from
-              the internationals, Milan and Juventus reported to be watching Van Dijk's contract run down, Milner the first name for a
-              legends game in March. Szoboszlai's knee still waits on Hungary. A new manager is promised a honeymoon; his first fixture
-              rarely offers one.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and for once the international break has been kind to Liverpool. Florian Wirtz followed in a rebound in Belgrade and
+              Germany beat Serbia 3-1; Cody Gakpo had an hour of a 7-0 in Amsterdam and walked off whole; Trey Nyoni, nineteen,
+              pulled on an England Under-21 shirt for the first time. The new man at Old Trafford has had a harder morning. Denmark
+              have sent Patrick Dorgu home to rehabilitate, which takes a wing-back from a coach who does not start work until
+              Wednesday. This afternoon Hungary decide, at the last minute as promised, whether Szoboszlai's knee can face Georgia.
+              A break is supposed to be a rest; for Liverpool it has become a week of counting.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: head coach, in quotation marks; ten million, and two more;
-              a first draft of United; Milan and Turin are watching; and Milner signs up for March. A table unmoved since
-              Sunday, and an opponent whose manager is now official.
+              five dispatches from the writers who never clock off: Wirtz, from the rebound; seven, and ninety minutes of it;
+              Dorgu goes home; Mona Lisa, aged thirty-four; and six past Salford. A table unmoved for a week, and an opponent
+              a wing-back lighter.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3831,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The honeymoon begins at Anfield."
+        "Eight days to count to eleven."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
