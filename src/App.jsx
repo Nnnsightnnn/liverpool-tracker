@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday morning, eight days from Anfield, and Friday night's internationals came through whole: Wirtz scored in
-          Belgrade, Gakpo played an hour in Amsterdam, Nyoni made his Under-21 debut. United's news ran the other way, Dorgu
-          sent home by Denmark. Liverpool, fourth on eighteen, wait now on Szoboszlai in Tbilisi at five.
+          Saturday evening, and the morning's question has its answer: Szoboszlai played ninety minutes in Tbilisi and laid on
+          Hungary's second. The worry has moved to Araujo, who left Buenos Aires walking with difficulty while Frimpong is still
+          out. Liverpool, fourth on eighteen, are eight days from Pochettino's first match.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and for once the international break has been kind to Liverpool. Florian Wirtz followed in a rebound in Belgrade and
-              Germany beat Serbia 3-1; Cody Gakpo had an hour of a 7-0 in Amsterdam and walked off whole; Trey Nyoni, nineteen,
-              pulled on an England Under-21 shirt for the first time. The new man at Old Trafford has had a harder morning. Denmark
-              have sent Patrick Dorgu home to rehabilitate, which takes a wing-back from a coach who does not start work until
-              Wednesday. This afternoon Hungary decide, at the last minute as promised, whether Szoboszlai's knee can face Georgia.
-              A break is supposed to be a rest; for Liverpool it has become a week of counting.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the knee held. Dominik Szoboszlai, still strapped in training on Friday, played all ninety minutes in Tbilisi and set
+              up Barnabas Varga's goal as Hungary won 2-0; Milos Kerkez went the distance behind him. Liverpool had barely exhaled
+              before the next file opened. Ronald Araujo, the centre-back who has become their right-back by elimination, finished
+              Friday's win over Argentina at La Bombonera walking with difficulty, Uruguayan reporters said, and nobody has yet said
+              why. In Solna, Alexander Isak played eighty-one minutes and had a goal taken away by VAR. An international break is a
+              fortnight of other people's decisions; Liverpool are reading them one physio's report at a time.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: Wirtz, from the rebound; seven, and ninety minutes of it;
-              Dorgu goes home; Mona Lisa, aged thirty-four; and six past Salford. A table unmoved for a week, and an opponent
-              a wing-back lighter.
+              five dispatches from the writers who never clock off: ninety minutes, and the pass; La Bombonera, walking slowly;
+              promoted, not scoring; Pochettino's medical room; and Olsson, twice, at the Amex. A table unmoved since Selhurst,
+              and an opponent counting its absentees.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Eight days to count to eleven."
+        "Tbilisi answered. Buenos Aires asked."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
