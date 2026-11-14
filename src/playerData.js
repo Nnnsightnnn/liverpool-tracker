@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sat Nov 14, evening - Home from France duty with no knock reported; the one centre-back whose place is not in question.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sat Nov 14, evening - Still with France after starting in Milan, no knock reported (Liverpool FC); the one centre-back whose place is not in question.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -172,7 +172,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Sat Nov 14, evening - Szoboszlai's full match for Hungary means he returns to Kirkby as midfield cover rather than the likely starter.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
+    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Sat Nov 14, evening - Szoboszlai's full match for Hungary makes him midfield cover rather than the likely starter; still with the Under-21s.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
     physical: { height: 178, weight: 68, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Leicester City Academy", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Sat Nov 14, evening - Boxing Day remains L'Equipe's target (via Brit Brief), with a possible return to training later this month.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Sat Nov 14, evening - Still pointed at Boxing Day: L'Equipe (via Brit Brief) has a return to training possible before the month is out.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -213,7 +213,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Sat Nov 14, evening - Back from England duty after his cameo against Croatia; the reserve on either flank.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Sat Nov 14, evening - Still with England, who play Spain on Sunday, after his cameo against Croatia; the reserve on either flank.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -279,7 +279,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Sat Nov 14, evening - Home from France duty with nothing reported; the left side of the attack.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
+    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Sat Nov 14, evening - Still with France after starting in Milan, nothing reported; the left side of the attack for United.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
     physical: { height: 182, weight: 72, pace: 91, acceleration: 92, sprintSpeed: 90 },
     career: [
       { years: "2010-2020", club: "Lyon Academy", fee: null, type: "youth" },
@@ -1240,11 +1240,6 @@ export const NEWS_DIGEST = {
       "detail": "Reported this evening: Hungary won 2-0 in Georgia, Dvali's own goal on 73 and Varga on 85 from Szoboszlai's pass (SportzCraazy). RotoWire says he was still training with his knee strapped on Friday. Kerkez also played the full match; Northern Ireland are next on Tuesday."
     },
     {
-      "title": "Araujo Ends Buenos Aires Walking With Difficulty (Anfield Index; Stretty News, today)",
-      "category": "injuries",
-      "detail": "Published from Saturday lunchtime: El Observador's ratings say he finished Friday's 2-1 win over Argentina at La Bombonera hurting after a late tackle on Alvarez (DaveOCKOP). No diagnosis, no word from club or country; Uruguay play the Dominican Republic on Tuesday."
-    },
-    {
       "title": "Isak Plays 81 As Sweden Win Promotion (Liverpool FC; Flashscore, today)",
       "category": "general",
       "detail": "Saturday evening in Solna: Sweden beat Bosnia and Herzegovina 3-2 with two Gyokeres penalties; Isak had a goal from Gyokeres's cut-back ruled out by VAR (Flashscore) and played 81 minutes (Liverpool FC)."
@@ -1253,6 +1248,11 @@ export const NEWS_DIGEST = {
       "title": "Liverpool Women Win 3-0 At The Amex (Liverpool FC, today)",
       "category": "matches",
       "detail": "Saturday evening's WSL match: Olsson inside four minutes and again on 78, Kapocs early in the second half, per the club's match report."
+    },
+    {
+      "title": "Araujo Ends Buenos Aires Walking With Difficulty (Anfield Index; Stretty News, today)",
+      "category": "injuries",
+      "detail": "Published from Saturday lunchtime: El Observador's ratings say he finished Friday's 2-1 win over Argentina at La Bombonera hurting after a late tackle on Alvarez (DaveOCKOP). No diagnosis, no word from club or country; Uruguay play the Dominican Republic on Tuesday."
     },
     {
       "title": "Koumas Starts In Oslo As Wales Lose 3-1 (Liverpool FC; The False 9, today)",
@@ -1267,17 +1267,12 @@ export const NEWS_DIGEST = {
     {
       "title": "United's List Lengthens: Ugarte, Sesko, Baleba (Brit Brief, today)",
       "category": "injuries",
-      "detail": "Published on Saturday morning: Ugarte has a serious knee injury, Sesko's shin trouble keeps him out until January and Baleba faces an extended spell out; Shaw aims for Anfield, Rashford's hip is assessed day by day."
+      "detail": "Published on Saturday morning: Ugarte has a serious knee injury, Sesko's shin trouble keeps him out until January and Baleba faces an extended spell out; Shaw aims for Anfield. LiveScore's United round-up, via Sports Mole, adds that Dorgu left Denmark after failing tests on a hamstring issue."
     },
     {
       "title": "Van Dijk's Niggle, And Appearance 390 (The False 9, today)",
       "category": "injuries",
       "detail": "Saturday's round-up calls it a 'little niggle' that kept him out of the Dutch window; if fit for United it would be his 390th Liverpool appearance. His contract ends next summer."
-    },
-    {
-      "title": "Dorgu Home From Denmark (LiveScore; Anfield Index, today)",
-      "category": "injuries",
-      "detail": "LiveScore's Saturday United round-up, citing Sports Mole, says he failed medical tests on a hamstring issue; first reported by Anfield Index on Saturday morning. Shaw is still out and Dalot covers at left-back."
     }
   ],
   "sources": [
