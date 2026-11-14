@@ -133,13 +133,13 @@ const LATEST_NEWS = [
   { source: "Yahoo Sports", title: "Liverpool told to make Alisson offer to avoid unwanted sight - 'you know you are in Paris'", time: "today", category: "major" },
   { source: "LiveScore", title: "Liverpool await Mac Allister talks as Van Dijk future draws interest", time: "today", category: "major" },
   { source: "The L Files", title: "Liverpool Daily Brief: Wirtz scores for Germany as U18s hit Salford for six", time: "today", category: "fan" },
-  { source: "ABC News", title: "Manchester United hire tearful US coach Mauricio Pochettino", time: "today", category: "major" },
+  { source: "ABC News", title: "Manchester United hire tearful US coach Mauricio Pochettino", time: "1d ago", category: "major" },
   { source: "Sports Mole", title: "Preview: Georgia vs Hungary - prediction, team news, lineups", time: "1d ago", category: "major" },
   { source: "Rush The Kop", title: "Brighton vs Liverpool: WSL preview, predictions, team news and TV info", time: "1d ago", category: "fan" },
   { source: "Goal", title: "Mauricio Pochettino named Manchester United manager as USMNT exit confirmed just months after signing new contract", time: "1d ago", category: "major" },
   { source: "Yahoo Sports", title: "How Mauricio Pochettino's Man United could line up against Liverpool", time: "1d ago", category: "major" },
   { source: "CaughtOffside", title: "Two major clubs monitoring Liverpool star's situation ahead of January transfer opportunity", time: "1d ago", category: "fan" },
-  { source: "Liverpool.com", title: "Liverpool international round-up: Barcola and Jacquet suffer France defeat as Ngumoha features for England", time: "2d ago", category: "major" },
+  { source: "Liverpool.com", title: "Liverpool international round-up: Barcola and Jacquet suffer France defeat as Ngumoha features for England", time: "1d ago", category: "major" },
   { source: "The False 9", title: "Van Dijk Injury Update: Out for Netherlands, No Return Date", time: "2d ago", category: "fan" },
 ];
 

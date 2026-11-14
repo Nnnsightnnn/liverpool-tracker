@@ -1318,7 +1318,7 @@ export const OPPOSITION = {
     "competition": "PL",
     "broadcast": "Premier League, matchday eleven, Sunday 22 November, 4.30pm GMT (11.30am ET), Anfield (ESPN fixtures). Sky Sports in the UK (Liverpool FC; LiveScore)"
   },
-  "manager": "Mauricio Pochettino (head coach, confirmed 13 Nov; starts 18 or 19 Nov) (Goal; SB Nation via Yahoo Sports)",
+  "manager": "Mauricio Pochettino (head coach, confirmed 13 Nov; starts 18 Nov) (Goal; AP via ABC)",
   "formation": "4-2-3-1",
   "leaguePosition": 18,
   "summary": "Manchester United's first news of the Pochettino era is an injury: Anfield Index reported on Saturday morning that Denmark have sent Patrick Dorgu home for rehabilitation, the federation saying he 'will not be fully fit in time', with Shaw still out and Dalot covering at left-back. Pochettino, confirmed on Friday on a two-and-a-half-year deal (Goal), starts on 18 November after the USA's two games with Haiti (AP via ABC), so Anfield on the 22nd is his first match. The club's statement calls him 'renowned for his high-intensity, attacking style of football' (AP via ABC). He inherits a side eighteenth on eight with one league win in ten (ESPN), whose last outing was Sunday's 4-4 with Villa, saved by stoppage-time goals from Zirkzee and Dorgu (ESPN).",
@@ -1465,7 +1465,7 @@ export const FORM_TRENDS = {
   "generatedAt": "2026-11-14T09:30:00Z",
   "competition": "PL",
   "played": 10,
-  "headline": "The break has added nothing to the ledger, so the reading holds: across ten league games Liverpool have created 14.61 expected goals and allowed 12.77, on the mixed providers listed in the totals note, while scoring fourteen and conceding ten. The gap between those last two numbers, a side conceding less than it allows, is the part most likely to close. Selhurst's 2.39 against (The Transfer Hub) stays pending until Opta Analyst's figures are read. The next card is United at Anfield on the 22nd.",
+  "headline": "Read the season as two pairs of numbers. Goals: fourteen scored, ten conceded. Expected goals: about fourteen and a half created, about twelve and three-quarters allowed, on the mixed providers the totals note lists. The attack is scoring roughly what it makes; the defence is conceding a little under what it gives away, and that is the margin a ten-game sample tends to take back. The Palace card is still waiting on Opta Analyst, and the next one to be filled is United at Anfield on the 22nd.",
   "diagnosis": [
     {
       "label": "Space, not possession",
