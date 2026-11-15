@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Sun Nov 15, morning - Northern Ireland in Budapest on Tuesday is the last hurdle of the window (Liverpool FC guide), the knee having held for ninety minutes on Saturday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "doubtful", injuryNote: "Sun Nov 15, morning - Nearly pulled out in the warm-up in Tbilisi after feeling it on a shot, he told M4 Sport (DaveOCKOP); 'now the treatment starts all over again' (Nemzeti Sport via Empire of the Kop). Northern Ireland on Tuesday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -406,7 +406,7 @@ export const COVER_IMAGE = {
   focus: "Anfield, after dark",
   credit: "Editorial plate",
   generatedAt: "2026-11-15T09:30:00Z",
-  // Morning pass (Sun 15 November, cloud): NO MATCH, Tier 3; lead is Tuchel weighing a first senior England start for Ngumoha in Madrid tonight (Brit Brief; The Football Faithful via Yahoo Sports).
+  // Morning pass (Sun 15 November, cloud): NO MATCH, Tier 3; lead (after auditor fix) is Szoboszlai's warm-up admission and restarted treatment (DaveOCKOP; Empire of the Kop; Sports Mole), Ngumoha's possible England start second.
   // Not a photograph; plate carried, generatedAt re-stamped (STEP 7.5 not runnable in cloud).
   // Evening pass (Sat 14 November, cloud): NO MATCH, Tier 3; lead is Szoboszlai's full ninety and assist in Hungary's 2-0 win in Tbilisi (Liverpool FC; RotoWire), with Araujo's Buenos Aires scare (Anfield Index) second.
   // Not a photograph; plate carried, generatedAt re-stamped (STEP 7.5 not runnable in cloud).
@@ -1195,19 +1195,19 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     "n": "01",
+    "headline": "The Warm-Up, And The Doubt.",
+    "byline": "DaveOCKOP",
+    "dateline": "Tbilisi · 14 November",
+    "category": "Injuries",
+    "body": "On Saturday evening it looked like an answer: ninety minutes and an assist. By Sunday morning Dominik Szoboszlai had complicated it himself. In the warm-up, he told M4 Sport (via DaveOCKOP), he felt it on one of his shots and came close to saying no; the doctors, he told Nemzeti Sport (via Empire of the Kop), had been less sure than he was. He played because he had come that far. 'Now the treatment starts all over again,' he said, with Northern Ireland on Tuesday and United six days after that."
+  },
+  {
+    "n": "02",
     "headline": "A First Start, Perhaps, In Madrid.",
     "byline": "Brit Brief",
     "dateline": "Madrid · 15 November",
     "category": "Football News",
     "body": "Thomas Tuchel has a decision to make on the right of England's attack, and it has a Liverpool name in it. Brit Brief's Sunday-morning preview names Rio Ngumoha as the alternative to Morgan Rogers, a first senior start for the teenager if Tuchel wants one; The Football Faithful frames it as the same open question. Spain at the Metropolitano, 7.45pm, is a hard place to begin. Victor Munoz is in Spain's squad, though no preview picks him. One of Liverpool's two wide reserves could be starting against the other's country tonight."
-  },
-  {
-    "n": "02",
-    "headline": "The Rest Of The Fortnight.",
-    "byline": "Liverpool FC",
-    "dateline": "Kirkby · 15 November",
-    "category": "Football News",
-    "body": "The club's own schedule for the window reads like a timetable for worry. Jacquet and Barcola play for France against Turkiye in Bordeaux tonight. On Monday, Wirtz and Gakpo are on opposite sides in Berlin, Tsimikas plays in Volos and Nyoni at Bristol for the Under-21s. Tuesday is the long one: Szoboszlai and Kerkez in Budapest, Isak in Wroclaw, Koumas in Cardiff, Mac Allister in Cordoba, and finally Araujo, at 11.30pm GMT in Maldonado. Nothing is listed after that. Then they all come home."
   },
   {
     "n": "03",
@@ -1231,13 +1231,18 @@ export const DISPATCHES = [
     "byline": "Stretty News",
     "dateline": "Buenos Aires · 14 November",
     "category": "Injuries",
-    "body": "Two days after Uruguay's win over Argentina, the only account of Ronald Araujo's knock is still the one in El Observador's player ratings, Stretty News pointed out on Saturday evening: struggling to walk at the final whistle after his tackle on Julian Alvarez. Liverpool have said nothing, and neither have Uruguay. The club's site ran a lighter story the same day, Araujo and Mac Allister meeting in the friendly. Uruguay play the Dominican Republic on Tuesday night; whether he plays will be the first real evidence either way."
+    "body": "The only account of Ronald Araujo's knock is still the one in El Observador's player ratings, as Stretty News pointed out on Saturday evening, a day after the game: struggling to walk at the final whistle after his tackle on Julian Alvarez. Liverpool have said nothing, and neither have Uruguay. The club's site ran a lighter story the same day, Araujo and Mac Allister meeting in the friendly. Uruguay play the Dominican Republic on Tuesday night; whether he plays will be the first real evidence either way."
   }
 ];
 export const NEWS_DIGEST = {
   "generatedAt": "2026-11-15T09:30:00Z",
-  "summary": "Sunday morning's lead is a decision in Madrid: Thomas Tuchel is weighing whether to give Rio Ngumoha his first senior England start against Spain at the Metropolitano tonight, 7.45pm GMT, with Brit Brief naming him as the alternative to Morgan Rogers on the right (Brit Brief; The Football Faithful via Yahoo Sports). Victor Munoz is with Spain, and at the same hour Jeremy Jacquet and Bradley Barcola play for France against Turkiye in Bordeaux (Liverpool FC). Overnight brought no update on Ronald Araujo, whose knock in Buenos Aires is still known only through El Observador's ratings (Stretty News). CaughtOffside reported early on Sunday, citing Christian Falk, that Liverpool have scouted Stuttgart's Finn Jeltsch, a centre-back who also plays right-back, while Mohamed Salah's seventieth Egypt goal on Friday made him his country's record scorer (Al Jazeera). Liverpool are fourth on eighteen, a week before United come to Anfield (ESPN).",
+  "summary": "Sunday morning's lead is a step back on the midfield: Dominik Szoboszlai has said he nearly pulled out of Hungary's win in Georgia during the warm-up after feeling his leg on a shot, that the doctors were less sure than he was, and that 'now the treatment starts all over again' before Tuesday's game with Northern Ireland (Nemzeti Sport via Empire of the Kop; M4 Sport via DaveOCKOP; Sports Mole). Overnight brought no update on Ronald Araujo, whose knock in Buenos Aires is still known only through El Observador's ratings (Stretty News). Tonight Thomas Tuchel is weighing a first senior England start for Rio Ngumoha against Spain in Madrid, 7.45pm GMT (Brit Brief; The Football Faithful via Yahoo Sports), while Jeremy Jacquet and Bradley Barcola play for France against Turkiye (Liverpool FC). CaughtOffside reported early on Sunday, citing Christian Falk, that Liverpool have scouted Stuttgart's Finn Jeltsch, a centre-back who also plays right-back, and Mohamed Salah's seventieth Egypt goal on Friday made him his country's record scorer (Al Jazeera). Liverpool are fourth on eighteen, a week before United come to Anfield (ESPN).",
   "keyTopics": [
+    {
+      "title": "Szoboszlai: Nearly Pulled Out, Treatment Starts Again (Empire of the Kop; DaveOCKOP; Sports Mole, today)",
+      "category": "injuries",
+      "detail": "Reported overnight and this morning from his post-match interviews (Nemzeti Sport; M4 Sport): he felt his leg on a shot in the warm-up and was close to cancelling, 'the doctors were less sure' he could play, and he must now be ready again by Tuesday against Northern Ireland. Sports Mole (Sat 11.27pm) says Liverpool will want him to sit that one out."
+    },
     {
       "title": "Tuchel Weighs A First England Start For Ngumoha (Brit Brief; The Football Faithful, today)",
       "category": "general",
@@ -1279,12 +1284,16 @@ export const NEWS_DIGEST = {
       "detail": "Reported on Thursday, citing the Daily Mail: United are hopeful Rashford will be available after a specialist visit in Dublin, his hip problem having spread to the groin. Sports Mole adds that he has seven goals in twenty appearances against Liverpool; 'neither player's return is guaranteed', it says of him and Shaw."
     },
     {
-      "title": "An Offer For Van Dijk Expected (Goal, citing Mundo Deportivo, 4d ago)",
+      "title": "An Offer For Van Dijk Expected (Goal, citing Mundo Deportivo, 3d ago)",
       "category": "transfers",
       "detail": "Reported midweek: Liverpool are expected to table a new offer in the coming days, Iraola and the board believing the team still needs its captain. Van Dijk's own line: 'We'll see. I'm not worried.' His deal ends next summer."
     }
   ],
   "sources": [
+    "Empire of the Kop",
+    "Nemzeti Sport",
+    "M4 Sport",
+    "DaveOCKOP",
     "Brit Brief",
     "The Football Faithful",
     "Yahoo Sports",
@@ -1441,7 +1450,7 @@ export const OPPOSITION = {
       "note": "Premier League (ESPN)."
     }
   ],
-  "liverpoolAngle": "The flank to watch is still Liverpool's right, and it is still a question about Liverpool rather than United. Araujo, the centre-back playing right-back, has an undiagnosed knock from Buenos Aires (Stretty News), Frimpong has no training report and Bradley is not yet in team training, so Gomez may be the right-back against Cunha's side of the pitch. United's own left is short: Dalot has covered there (Anfield Index via Yahoo Sports) with Dorgu and Shaw both uncertain. In midfield Szoboszlai's ninety minutes for Hungary help Liverpool against Mainoo and Tielemans. Fernandes's set pieces, which saved the Villa game (ESPN), are the threat a new coach cannot remove in four sessions.",
+  "liverpoolAngle": "The flank to watch is still Liverpool's right, and it is still a question about Liverpool rather than United. Araujo, the centre-back playing right-back, has an undiagnosed knock from Buenos Aires (Stretty News), Frimpong has no training report and Bradley is not yet in team training, so Gomez may be the right-back against Cunha's side of the pitch. United's own left is short: Dalot has covered there (Anfield Index via Yahoo Sports) with Dorgu and Shaw both uncertain. In midfield, Szoboszlai's admission that his treatment 'starts all over again' (Empire of the Kop) leaves Mac Allister's partner against Mainoo and Tielemans uncertain, with Nyoni next. Fernandes's set pieces, which saved the Villa game (ESPN), are the threat a new coach cannot remove in four sessions.",
   "modelLine": null,
   "sources": [
     "ESPN",
@@ -1481,7 +1490,7 @@ export const FORM_TRENDS = {
   "generatedAt": "2026-11-15T09:30:00Z",
   "competition": "PL",
   "played": 10,
-  "headline": "A week from United, the figures are where Selhurst left them, and they still describe two different teams. In attack, fourteen league goals from about fourteen and a half expected is finishing almost exactly at par. In defence, ten conceded from about twelve and three-quarters expected says the goals against have been kinder than the chances. Palace's card is still waiting on Opta Analyst's own numbers. United, who concede more than almost anyone in Europe's big five leagues (Anfield Index via Yahoo Sports), will test the attacking half first.",
+  "headline": "Ten league games in, Liverpool's results and their underlying numbers tell the same story at one end and a kinder one at the other. Fourteen goals against roughly fourteen and a half expected is an attack doing what its chances deserve; ten conceded against nearly thirteen expected is a defence that has been spared about three. The Selhurst card still uses The Transfer Hub's figures in place of Opta's. United, who concede more than almost anyone in Europe's big five leagues (Anfield Index via Yahoo Sports), are the next sample.",
   "diagnosis": [
     {
       "label": "Space, not possession",
@@ -1865,7 +1874,7 @@ export const FORM_TRENDS = {
 };
 export const SQUAD_LOAD = {
   "generatedAt": "2026-11-15T09:30:00Z",
-  "headline": "Nobody has been added to the list overnight, which on an international Sunday is the news. Araujo's knock from Buenos Aires is still undiagnosed and reported only by the Uruguayan press (Stretty News); Frimpong, a week from the date All Out Soccer gave for his return, has no training report. Five Liverpool players are on duty tonight, Ngumoha possibly starting for England in Madrid (Brit Brief), and eleven more play before Tuesday is out (Liverpool FC guide).",
+  "headline": "Nobody new has been added to the injury list overnight, but one name has slipped back. Araujo's knock from Buenos Aires is still undiagnosed and reported only by the Uruguayan press (Stretty News); Frimpong, a week from the date All Out Soccer gave for his return, has no training report. The one reversal is Szoboszlai, who now says he nearly pulled out in the warm-up in Tbilisi and that his treatment starts again (DaveOCKOP; Empire of the Kop). Four Liverpool players are on duty tonight, Ngumoha possibly starting for England in Madrid (Brit Brief).",
   "minutesNote": "Premier League minutes are not published here yet. Ten league games, four Champions League games and two Carabao Cup ties have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   "unavailable": [
     {
@@ -1915,9 +1924,9 @@ export const SQUAD_LOAD = {
     {
       "name": "Dominik Szoboszlai",
       "issue": "Knee sprain (RotoWire) late in the first half at Selhurst, after a hamstring problem earlier in the autumn",
-      "status": "Fit: played the full ninety and assisted Varga's goal as Hungary beat Georgia 2-0 on Saturday (RotoWire; Liverpool FC)",
-      "note": "Still training with a knee strap on Friday (RotoWire); Northern Ireland follow on Tuesday. Kerkez also played ninety.",
-      "source": "RotoWire / Liverpool FC / SportzCraazy"
+      "status": "Doubt again: played the full ninety and assisted on Saturday (RotoWire), but nearly withdrew in the warm-up and says treatment 'starts all over again' (Empire of the Kop; DaveOCKOP)",
+      "note": "He felt it on a shot in the warm-up (M4 Sport via DaveOCKOP); the doctors were 'less sure' he could play (Nemzeti Sport via Empire of the Kop). Sports Mole says Liverpool will want him to miss Tuesday's Northern Ireland game.",
+      "source": "RotoWire / Liverpool FC / Empire of the Kop / DaveOCKOP / Sports Mole"
     },
     {
       "name": "Ryan Gravenberch",
@@ -1979,8 +1988,8 @@ export const SQUAD_LOAD = {
     },
     {
       "position": "Central midfield",
-      "level": "high",
-      "detail": "High, down from critical. Szoboszlai's ninety minutes and an assist in Tbilisi (RotoWire) answer the knee question; Gravenberch's heel is still 'a matter of pain' (Football360) and Mac Allister is one booking from a derby ban. Nyoni is first cover."
+      "level": "critical",
+      "detail": "Critical again. Szoboszlai played ninety in Tbilisi but says his treatment starts all over again after nearly pulling out in the warm-up (Empire of the Kop; DaveOCKOP); Gravenberch's heel is still 'a matter of pain' (Football360); Mac Allister is one booking from a derby ban. Nyoni is first cover."
     },
     {
       "position": "Centre-forward",
@@ -2089,7 +2098,10 @@ export const SQUAD_LOAD = {
     "Stretty News",
     "SportzCraazy",
     "Flashscore",
-    "The Football Faithful via Yahoo Sports"
+    "The Football Faithful via Yahoo Sports",
+    "Empire of the Kop via Yahoo Sports",
+    "Nemzeti Sport via Empire of the Kop",
+    "M4 Sport via DaveOCKOP"
   ]
 };
 export const SEASON_PROJECTION = {

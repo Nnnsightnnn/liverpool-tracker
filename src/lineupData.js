@@ -215,7 +215,7 @@ export const PLAYER_EVIDENCE = {
   12: "On loan at Levante",
   13: "Costa Rica Tuesday · 1 booking",
   14: "Heel · 'a matter of pain'",
-  15: "Held up for 90 in Tbilisi",
+  15: "Nearly withdrew · treatment again",
   17: "Unused this season",
   18: "Germany v Dutch Monday",
   20: "England U21s v France Mon",
@@ -390,6 +390,7 @@ export const PLAYER_EVIDENCE = {
 //   All 27 evidence strings and ten rationales refreshed. Overall Medium.
 // Sun Nov 15 (morning): no personnel change. No update overnight on Araujo's knock (Stretty News), held at RB, Low, with Gomez the alternative; Ngumoha may start
 //   for England tonight (Brit Brief); Van Dijk undiagnosed, LCB Medium. All 27 evidence strings and ten rationales refreshed. Overall Medium.
+//   Auditor fix: Szoboszlai's warm-up admission (M4 Sport via DaveOCKOP; Nemzeti Sport via Empire of the Kop), status fit to doubtful, LDM Medium to Low; held in the XI, Nyoni the alternative.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -408,7 +409,7 @@ export const SLOT_CONFIDENCE = {
   LCB: "Medium",
   RCB: "High",
   RB: "Low",
-  LDM: "Medium",
+  LDM: "Low",
   RDM: "High",
   LAM: "Medium",
   CAM: "High",
@@ -426,7 +427,7 @@ export const SLOT_RATIONALE = {
   LCB: "Sun Nov 15, morning - Van Dijk, if the niggle that kept him out of the Dutch window clears; no club diagnosis yet. Gomez otherwise. Medium.",
   RCB: "Sun Nov 15, morning - Jacquet, who plays for France against Turkiye tonight; the fixed point of the back four. High.",
   RB: "Sun Nov 15, morning - Araujo, held here, but the Buenos Aires knock is still undiagnosed and known only from El Observador (Stretty News); Gomez the alternative. Low.",
-  LDM: "Sun Nov 15, morning - Szoboszlai, whose knee held for ninety minutes on Saturday; Budapest on Tuesday is the last test. Nyoni the cover. Medium.",
+  LDM: "Sun Nov 15, morning - Szoboszlai, held here, but he nearly pulled out in the warm-up in Tbilisi and says treatment starts again (DaveOCKOP; Empire of the Kop); Nyoni the cover. Low.",
   RDM: "Sun Nov 15, morning - Mac Allister, Costa Rica on Tuesday and then home, one booking short of a derby ban. High.",
   LAM: "Sun Nov 15, morning - Barcola, with France in Bordeaux tonight; Munoz and Ngumoha the alternates. Medium.",
   CAM: "Sun Nov 15, morning - Wirtz, scorer in Belgrade, facing Gakpo's Netherlands on Monday. High.",
@@ -458,6 +459,6 @@ export const ALTERNATIVES = {
 export const PREDICTION_NOTE = {
   level: "Medium",
   generated_at: "2026-11-15T09:30:00Z",
-  reason: "Sun Nov 15, morning. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. No personnel change: the eleven that won 3-1 at Selhurst (ESPN). Araujo is held at right-back, but his knock from Friday in Buenos Aires is still undiagnosed and reported only by the Uruguayan press (Stretty News), Gomez the alternative; Szoboszlai's knee held for ninety in Tbilisi; Van Dijk still without a club diagnosis. Medium.",
+  reason: "Sun Nov 15, morning. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. No personnel change: the eleven that won 3-1 at Selhurst (ESPN). Araujo is held at right-back, but his knock from Friday in Buenos Aires is still undiagnosed and reported only by the Uruguayan press (Stretty News), Gomez the alternative; Szoboszlai, held at LDM, now says he nearly pulled out in the warm-up in Tbilisi and that treatment starts again (DaveOCKOP; Empire of the Kop), so LDM falls to Low; Van Dijk still without a club diagnosis. Medium.",
 };
 

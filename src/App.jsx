@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday morning, and the fortnight turns towards Madrid, where Rio Ngumoha may be handed a first senior England start
-          tonight. Araujo's knock from Buenos Aires still has no name, and Frimpong still no training report. Liverpool, fourth
-          on eighteen, are a week from Pochettino's first match at Anfield.
+          Sunday morning, and Saturday's good news has a footnote: Szoboszlai says he nearly pulled out in the warm-up in Tbilisi,
+          and that his treatment now starts again. Araujo's knock from Buenos Aires still has no name. Seven days remain before
+          United, and Ngumoha may start for England in Madrid tonight.
         </p>
 
         <StatStrip stats={stats} />
@@ -606,21 +606,21 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and the decision that matters most to Liverpool tonight is Thomas Tuchel's. Rio Ngumoha, eighteen, is the alternative
-              to Morgan Rogers on England's right in Madrid, and the morning previews cannot say which way it will go. Across the
-              pitch is Spain, with Victor Munoz in their squad; in Bordeaux, at the same hour, Jacquet and Barcola play for France.
-              The other story has gone quiet in the wrong way. Ronald Araujo left Buenos Aires hurting on Friday, and two days later
-              there is still only a newspaper's player ratings to say so. A squad this thin at right-back would like to know which
-              kind of silence this is.
+              and the ninety minutes look different in daylight. Dominik Szoboszlai, who played the whole of Hungary's win in Tbilisi
+              and made the second goal, has told Hungarian reporters he felt his leg on a shot in the warm-up and came close to
+              withdrawing, that the doctors were less sure than he was, and that the treatment now starts all over again. Tuesday
+              brings Northern Ireland; next Sunday, United. Ronald Araujo's knock from Buenos Aires is still known only from a
+              newspaper's player ratings. Tonight Rio Ngumoha may start for England in Madrid. A midfield and a right flank are
+              waiting on other people's physios, which is what an international break is for.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: a first start, perhaps, in Madrid; the rest of the fortnight;
-              scouting the problem position; seventy, and counting; and no word from Uruguay. A table unmoved since Selhurst,
-              and a week to Anfield.
+              five dispatches from the writers who never clock off: the warm-up, and the doubt; a first start, perhaps, in Madrid;
+              scouting the problem position; seventy, and counting; and no word from Uruguay. The same ESPN table for a second
+              weekend, and seven days to United.
             </p>
           </div>
           <div style={{ background: T.rule }} />
