@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2026-27 Season · Updated 14 November 2026 (morning)) ──────
+// ─── Liverpool FC Player Data (2026-27 Season · Updated 15 November 2026 (morning)) ──────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Sat Nov 14, evening - A rest fortnight by Brazil's choice; fit, and the No. 1 for United at Anfield next Sunday.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Sun Nov 15, morning - Not called up by Brazil this window, so the fortnight is rest; the starting goalkeeper for United a week today.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 26, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Sat Nov 14, evening - Played the full match in goal as Georgia lost 2-0 to Hungary, beaten by Szoboszlai's pass for Varga (Liverpool FC).", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 26, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Sun Nov 15, morning - Back in goal for Georgia in Kosice on Tuesday against Ukraine (Liverpool FC guide), after Saturday's defeat by Hungary.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "doubtful", injuryNote: "Sat Nov 14, evening - A 'little niggle', The False 9 calls it; if fit against United it would be his 390th Liverpool appearance. Still no club diagnosis.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "doubtful", injuryNote: "Sun Nov 15, morning - The contract story runs alongside the fitness one: Mundo Deportivo (via Goal) expects an offer soon; he says 'I'm not worried'. The niggle still has no club diagnosis.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Sat Nov 14, evening - The cover twice over now: centre-back if Van Dijk is not cleared, right-back if Araujo's Buenos Aires knock keeps him out.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Sun Nov 15, morning - Two possible jobs against United: right-back if Araujo's knock is real, centre-back if Van Dijk is not cleared. Not on international duty.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -54,7 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Sat Nov 14, evening - Played the full ninety as Hungary won 2-0 in Tbilisi (Liverpool FC); back from suspension and unhurt.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Sun Nov 15, morning - Hungary's last game of the window is Northern Ireland in Budapest on Tuesday (Liverpool FC guide); unhurt after ninety in Tbilisi.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Sat Nov 14, evening - Not yet in team training; Brit Brief's earliest date is still Sunderland on 2 December, after United and the derby.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Sun Nov 15, morning - No change overnight: knee, not in team training, and 2 December at Anfield still Brit Brief's earliest date.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Sat Nov 14, evening - Araujo's scare makes his return the week's most important unknown; All Out Soccer's United date is still unconfirmed by any training report.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Sun Nov 15, morning - Seven days from United with no training report yet; All Out Soccer's expected-available line (10 Nov) still unconfirmed.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Sat Nov 14, evening - Waiting for the squad to come home before full training (Anfield Index); not a United option.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Sun Nov 15, morning - Due to step up once the internationals return to Kirkby (Anfield Index); no part in the United plans.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sat Nov 14, evening - Still with France after starting in Milan, no knock reported (Liverpool FC); the one centre-back whose place is not in question.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sun Nov 15, morning - France meet Turkiye in Bordeaux tonight at 7.45pm GMT (Liverpool FC guide); no knock reported from Milan.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Sat Nov 14, evening - On loan at Levante; the break leaves the arrangement as it was.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Sun Nov 15, morning - The Levante loan carries on as arranged; nothing new over the weekend.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -111,7 +111,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Sat Nov 14, evening - Kerkez's full ninety in Tbilisi keeps him second at left-back.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
+    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Sun Nov 15, morning - Greece play Serbia in Volos on Monday (Liverpool FC guide); behind Kerkez at left-back.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
     physical: { height: 178, weight: 76, pace: 79, acceleration: 80, sprintSpeed: 78 },
     career: [
       { years: "2017-2020", club: "Olympiacos", fee: null, type: "senior" },
@@ -122,7 +122,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sat Nov 14, evening - Argentina lost 2-1 to Uruguay at La Bombonera on Friday (DaveOCKOP); still one booking from a derby ban.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sun Nov 15, morning - Met Araujo in Friday's friendly in Buenos Aires (Liverpool FC); Costa Rica in Cordoba on Tuesday, still one booking from a derby ban.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "doubtful", outSince: "2026-11-03", injuryNote: "Sat Nov 14, evening - Still a heel managed by pain, in Iraola's phrase (Football360); The False 9's FPL table has him at 75 per cent.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "doubtful", outSince: "2026-11-03", injuryNote: "Sun Nov 15, morning - No new word on the heel over the weekend; Iraola's 'matter of pain' (Football360) is still the last club line.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Sat Nov 14, evening - Ninety minutes and the assist for Varga's goal in Hungary's 2-0 win in Georgia (RotoWire); strapped in Friday training, unhurt on Saturday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Sun Nov 15, morning - Northern Ireland in Budapest on Tuesday is the last hurdle of the window (Liverpool FC guide), the knee having held for ninety minutes on Saturday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Sat Nov 14, evening - Szoboszlai's ninety in Tbilisi pushes him further down the midfield order; no minutes yet this season.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Sun Nov 15, morning - Unused all season and not on international duty; behind Szoboszlai and Nyoni in the order.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -163,7 +163,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Sat Nov 14, evening - A goal in Belgrade on Friday, 81 minutes and no knock (Liverpool FC); the ten for United.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Sun Nov 15, morning - Germany host the Netherlands in Berlin on Monday, Wirtz against Gakpo (Liverpool FC guide); fit after his goal in Belgrade.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -172,7 +172,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Sat Nov 14, evening - Szoboszlai's full match for Hungary makes him midfield cover rather than the likely starter; still with the Under-21s.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
+    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-09-15"], injuryNote: "Sun Nov 15, morning - England Under-21s play France in Bristol on Monday night (Liverpool FC guide); midfield cover for United.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
     physical: { height: 178, weight: 68, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Leicester City Academy", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Sat Nov 14, evening - No knock from the Dutch 7-0 on Friday (Liverpool FC); the right side of the attack for United.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Sun Nov 15, morning - Faces Wirtz in Berlin on Monday (Liverpool FC guide); came through Friday's 7-0 untouched.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Sat Nov 14, evening - Played 81 minutes of Sweden's promotion-clinching 3-2 over Bosnia, a goal ruled out by VAR (Liverpool FC; Flashscore).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Sun Nov 15, morning - Poland in Wroclaw on Tuesday is his last Sweden game (Liverpool FC guide); the only fit senior nine.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Sat Nov 14, evening - Still pointed at Boxing Day: L'Equipe (via Brit Brief) has a return to training possible before the month is out.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Sun Nov 15, morning - No new bulletin; Boxing Day at Hull remains the target and a return to training before December the hope (Brit Brief, citing L'Equipe).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -213,7 +213,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Sat Nov 14, evening - Still with England, who play Spain on Sunday, after his cameo against Croatia; the reserve on either flank.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Sun Nov 15, morning - Tuchel is weighing a first senior England start for him in Madrid tonight (Brit Brief; The Football Faithful via Yahoo Sports).", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Sat Nov 14, evening - Started for Wales and played just over an hour of a 3-1 defeat in Oslo (Liverpool FC); Bellamy likes 'what Liverpool have done with him' (The False 9).", image: "",
+    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Sun Nov 15, morning - Wales host Portugal in Cardiff on Tuesday (Liverpool FC guide); the only senior cover for Isak.", image: "",
     physical: { height: 180, weight: 73, pace: 80, acceleration: 81, sprintSpeed: 79 },
     career: [
       { years: "2013-", club: "Liverpool", fee: null, type: "youth" },
@@ -231,7 +231,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Sat Nov 14, evening - Short of fitness by Mancini's account (Anfield Index); outside the United plans.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Sun Nov 15, morning - Not with Italy and not in the United picture; fitness still the issue (Anfield Index).", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -242,7 +242,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Sat Nov 14, evening - Third choice; Mamardashvili's ninety in Tbilisi leaves the order unchanged.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Sun Nov 15, morning - Third choice behind Alisson and Mamardashvili; not on international duty.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -259,7 +259,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Sat Nov 14, evening - Spain play England on Sunday (Liverpool Offside via Yahoo Sports); the alternate on the left.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Sun Nov 15, morning - On the other side from Ngumoha in Madrid tonight, if Spain use him; absent from The Football Faithful's preview.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -269,7 +269,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "doubtful", recentPlayedDates: ["2026-09-15"], injuryNote: "Sat Nov 14, evening - Finished Uruguay's 2-1 win over Argentina at La Bombonera on Friday 'walking with difficulty' after a late tackle, El Observador reported (DaveOCKOP); no diagnosis, a doubt for United.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
+    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "doubtful", recentPlayedDates: ["2026-09-15"], injuryNote: "Sun Nov 15, morning - Still no diagnosis two days on; the only account of the knock is El Observador's, Stretty News notes. Uruguay play the Dominican Republic on Tuesday night.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
     physical: { height: 188, weight: 79, pace: 78, acceleration: 74, sprintSpeed: 80 },
     career: [
       { years: "2016-2018", club: "Rentistas", fee: null, type: "youth" },
@@ -279,7 +279,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Sat Nov 14, evening - Still with France after starting in Milan, nothing reported; the left side of the attack for United.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
+    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Sun Nov 15, morning - Lines up with Jacquet for France against Turkiye in Bordeaux tonight (Liverpool FC guide); the left of the attack for United.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
     physical: { height: 182, weight: 72, pace: 91, acceleration: 92, sprintSpeed: 90 },
     career: [
       { years: "2010-2020", club: "Lyon Academy", fee: null, type: "youth" },
@@ -405,7 +405,9 @@ export const COVER_IMAGE = {
   alt: "Editorial plate: an empty pitch under floodlights seen from the gantry, the white lines drawn in perspective through a low mist, the stand beyond in shadow.",
   focus: "Anfield, after dark",
   credit: "Editorial plate",
-  generatedAt: "2026-11-14T23:15:00Z",
+  generatedAt: "2026-11-15T09:30:00Z",
+  // Morning pass (Sun 15 November, cloud): NO MATCH, Tier 3; lead is Tuchel weighing a first senior England start for Ngumoha in Madrid tonight (Brit Brief; The Football Faithful via Yahoo Sports).
+  // Not a photograph; plate carried, generatedAt re-stamped (STEP 7.5 not runnable in cloud).
   // Evening pass (Sat 14 November, cloud): NO MATCH, Tier 3; lead is Szoboszlai's full ninety and assist in Hungary's 2-0 win in Tbilisi (Liverpool FC; RotoWire), with Araujo's Buenos Aires scare (Anfield Index) second.
   // Not a photograph; plate carried, generatedAt re-stamped (STEP 7.5 not runnable in cloud).
   // Morning pass (Sat 14 November, cloud): NO MATCH, Tier 3; lead is a clean Friday night for the internationals, Wirtz scoring for Germany (Liverpool FC), with Dorgu sent home by Denmark (Anfield Index).
@@ -1140,6 +1142,8 @@ export const RESULTS = [
 // LIVERPOOL fourth (highlighted, UCL stripe) on eighteen; United confirmed Pochettino as head coach on Friday.
 // Refresh 2026-11-14 (Saturday morning pass, cloud). Re-fetched from ESPN: table unchanged, every side on ten,
 // LIVERPOOL fourth (highlighted, UCL stripe) on eighteen; Denmark sent United's Dorgu home on Saturday.
+// Refresh 2026-11-15 (Sunday morning pass, cloud). Re-fetched from ESPN: table unchanged, every side on ten,
+// LIVERPOOL fourth (highlighted, UCL stripe) on eighteen; United at Anfield in a week.
 export const STANDINGS = [
   { pos: 1, team: "Arsenal", p: 10, w: 9, d: 0, l: 1, gd: 10, pts: 27, qualification: "UCL" },
   { pos: 2, team: "Brighton", p: 10, w: 7, d: 1, l: 2, gd: 19, pts: 22, qualification: "UCL" },
@@ -1172,120 +1176,125 @@ export const STANDINGS_COMMENTARY = {
   "source": "ESPN",
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 10,
-  "generatedAt": "2026-11-14T23:15:00Z",
-  "overview": "A second international weekend leaves ESPN's table exactly as Selhurst left it: Arsenal twenty-seven, Brighton twenty-two, City twenty-one, Liverpool fourth on eighteen. The Champions League line runs directly beneath Liverpool, with Chelsea and Everton both on sixteen, a two-point cushion that one Liverpool slip and one Chelsea win would erase. Saturday's news touched both ends of next weekend's fixture: Szoboszlai came through ninety minutes for Hungary (RotoWire), while eighteenth-placed United's medical list now runs to Ugarte, Sesko and Baleba (Brit Brief). Two of Liverpool's next three league games are against sides in the bottom three.",
+  "generatedAt": "2026-11-15T09:30:00Z",
+  "overview": "An international Sunday leaves nothing to move on ESPN's table, so it reads as it has for a week: ten games each, Arsenal five clear on twenty-seven, Brighton and City behind them, Liverpool fourth on eighteen. The Champions League line is the live storyline, and it sits two points beneath Liverpool, with Chelsea and Everton on sixteen. Liverpool's next two league games are against sides at opposite ends of that picture: eighteenth-placed United at Anfield next Sunday, then Everton, sixth, at their ground. The bottom three, United, Sunderland and Palace, are separated by a single point.",
   "teams": {
-    "Liverpool": "Fourth on eighteen, two clear of fifth; United at Anfield next Sunday, Pochettino's first match.",
-    "Arsenal": "Leaders on twenty-seven, nine wins from ten, five points clear (ESPN).",
-    "Brighton": "Second on twenty-two with the division's best goal difference, plus nineteen.",
-    "Manchester City": "Third on twenty-one, three points above Liverpool.",
-    "Chelsea": "Fifth on sixteen, the Europa League stripe; Liverpool go to Stamford Bridge on 5 December.",
-    "Everton": "Sixth on sixteen, level with Chelsea; the derby at their ground is on 29 November.",
-    "Tottenham": "Eleventh on twelve, the last of Liverpool's next six league opponents (19 December).",
-    "Manchester United": "Eighteenth on eight, one league win in ten; Brit Brief now lists Ugarte, Sesko and Baleba out.",
-    "Sunderland": "Nineteenth on eight, at Anfield on 2 December.",
-    "Crystal Palace": "Bottom on seven, minus fourteen, the side Liverpool beat last time out (ESPN)."
+    "Liverpool": "Fourth on eighteen, two points above the Europa League stripe; United at Anfield in a week (ESPN).",
+    "Arsenal": "Top on twenty-seven, the only side to have lost once in ten (ESPN).",
+    "Brighton": "Second on twenty-two; plus nineteen is the best goal difference in the division.",
+    "Manchester City": "Third on twenty-one, seven wins and three defeats.",
+    "Chelsea": "Fifth on sixteen, the first side outside the Champions League places; Liverpool visit on 5 December.",
+    "Everton": "Sixth on sixteen, four wins, four draws and two defeats; the derby is on 29 November.",
+    "Tottenham": "Eleventh on twelve; at Anfield on 19 December.",
+    "Manchester United": "Eighteenth on eight with one win; Pochettino takes his first session on Wednesday.",
+    "Sunderland": "Nineteenth on eight, level with United; Liverpool's opponents on 2 December.",
+    "Crystal Palace": "Twentieth on seven, minus fourteen, beaten 3-1 by Liverpool last time out."
   }
 };
 // ─── Dispatches (hand-curated long reads — separate from the wire feed) ────
 export const DISPATCHES = [
   {
     "n": "01",
-    "headline": "Ninety Minutes, And The Pass.",
-    "byline": "Liverpool FC",
-    "dateline": "Tbilisi · 14 November",
-    "category": "Injuries",
-    "body": "All week the question was whether the knee would let him start. On Saturday Dominik Szoboszlai answered it by finishing. RotoWire had him still training with a strap on Friday; in Tbilisi he played the full ninety minutes of Hungary's 2-0 win over Georgia and, with five minutes left, set up Barnabas Varga for the second goal (Liverpool FC). Milos Kerkez went the distance behind him. Liverpool's midfield has spent the autumn one injury from improvisation, and this was the evening it got a little less thin."
+    "headline": "A First Start, Perhaps, In Madrid.",
+    "byline": "Brit Brief",
+    "dateline": "Madrid · 15 November",
+    "category": "Football News",
+    "body": "Thomas Tuchel has a decision to make on the right of England's attack, and it has a Liverpool name in it. Brit Brief's Sunday-morning preview names Rio Ngumoha as the alternative to Morgan Rogers, a first senior start for the teenager if Tuchel wants one; The Football Faithful frames it as the same open question. Spain at the Metropolitano, 7.45pm, is a hard place to begin. Victor Munoz is in Spain's squad, though no preview picks him. One of Liverpool's two wide reserves could be starting against the other's country tonight."
   },
   {
     "n": "02",
-    "headline": "La Bombonera, Walking Slowly.",
-    "byline": "Anfield Index",
-    "dateline": "Buenos Aires · 13 November",
-    "category": "Injuries",
-    "body": "Uruguay won 2-1 at La Bombonera on Friday night and Ronald Araujo helped make the first goal, winning the header that led to Balerdi's own goal (DaveOCKOP). The trouble came later. After a late challenge on Julian Alvarez, El Observador reported, he finished the match walking with difficulty, and by Saturday lunchtime Anfield Index was calling it a scare. Nobody has named an injury; neither Liverpool nor Uruguay has said a word. For a centre-back playing right-back because Frimpong and Bradley cannot, silence is not yet reassurance."
+    "headline": "The Rest Of The Fortnight.",
+    "byline": "Liverpool FC",
+    "dateline": "Kirkby · 15 November",
+    "category": "Football News",
+    "body": "The club's own schedule for the window reads like a timetable for worry. Jacquet and Barcola play for France against Turkiye in Bordeaux tonight. On Monday, Wirtz and Gakpo are on opposite sides in Berlin, Tsimikas plays in Volos and Nyoni at Bristol for the Under-21s. Tuesday is the long one: Szoboszlai and Kerkez in Budapest, Isak in Wroclaw, Koumas in Cardiff, Mac Allister in Cordoba, and finally Araujo, at 11.30pm GMT in Maldonado. Nothing is listed after that. Then they all come home."
   },
   {
     "n": "03",
-    "headline": "Promoted, Not Scoring.",
-    "byline": "Flashscore",
-    "dateline": "Solna · 14 November",
-    "category": "Football News",
-    "body": "Sweden were three up before half-time on Saturday and then spent the second half hanging on, Bosnia and Herzegovina pulling two back before the 3-2 that took the Swedes into League A. Viktor Gyokeres scored twice from the spot. Alexander Isak's evening was the near miss: Gyokeres cut the ball back for him, the finish went in, and VAR took it away, Flashscore reported, for a run timed a fraction early. He played eighty-one minutes and came off whole, which for Liverpool's only fit senior nine is the result that counts."
+    "headline": "Scouting The Problem Position.",
+    "byline": "CaughtOffside",
+    "dateline": "Stuttgart · 15 November",
+    "category": "Transfers",
+    "body": "Nothing can be bought until January, but Liverpool's scouts are reading the squad's weak points the same way everyone else is. CaughtOffside reported early on Sunday, citing Christian Falk, that they have watched Finn Jeltsch, Stuttgart's 20-year-old centre-back, who can also play at right-back and is under contract until 2030. Falk does not expect a quick move, and Bayern are interested too. The detail that matters is the second position: right-back is where Liverpool are currently playing a centre-back out of necessity."
   },
   {
     "n": "04",
-    "headline": "Pochettino's Medical Room.",
-    "byline": "Brit Brief",
-    "dateline": "Manchester · 14 November",
-    "category": "Manager",
-    "body": "Mauricio Pochettino starts at Carrington on Wednesday and the first file on his desk is a list of the unavailable. Brit Brief's Saturday inventory runs long: Manuel Ugarte with a serious knee injury, Benjamin Sesko unlikely before January with persistent shin trouble, Carlos Baleba facing an extended spell out, Patrick Dorgu back from Denmark with a knock. Luke Shaw is aiming for Anfield and Marcus Rashford's hip is being assessed day by day. Three or four sessions, then Liverpool away: it is a hard way to meet a squad."
+    "headline": "Seventy, And Counting.",
+    "byline": "Al Jazeera",
+    "dateline": "Cairo · 13 November",
+    "category": "Football News",
+    "body": "It took until the eighty-fourth minute, a header at the far post, and then a penalty five minutes into added time. With those two goals in Egypt's 5-0 win over Malawi on Friday, Mohamed Salah reached seventy for his country and passed Hossam Hassan, AFP reported via Al Jazeera, a week after Hassan was dismissed as Egypt's coach. Liverpool's website marked it on Saturday. Anfield spent nine seasons watching him take records one at a time; this one he took in Cairo."
   },
   {
     "n": "05",
-    "headline": "Olsson, Twice, At The Amex.",
-    "byline": "Liverpool FC",
-    "dateline": "Brighton · 14 November",
-    "category": "Match Report",
-    "body": "The best Liverpool result of the weekend was not played by the men. At the Amex on Saturday evening Liverpool Women beat Brighton 3-0, Beata Olsson scoring inside four minutes, Cornelia Kapocs adding a second early in the second half and Olsson finishing it on seventy-eight, the club's match report said. Earlier in the day Josh Abe came off the bench to score the clinching goal of England Under-17s' 2-0 win over Poland, his second in two games. The academy and the women's side are filling a quiet fortnight."
+    "headline": "No Word From Uruguay.",
+    "byline": "Stretty News",
+    "dateline": "Buenos Aires · 14 November",
+    "category": "Injuries",
+    "body": "Two days after Uruguay's win over Argentina, the only account of Ronald Araujo's knock is still the one in El Observador's player ratings, Stretty News pointed out on Saturday evening: struggling to walk at the final whistle after his tackle on Julian Alvarez. Liverpool have said nothing, and neither have Uruguay. The club's site ran a lighter story the same day, Araujo and Mac Allister meeting in the friendly. Uruguay play the Dominican Republic on Tuesday night; whether he plays will be the first real evidence either way."
   }
 ];
 export const NEWS_DIGEST = {
-  "generatedAt": "2026-11-14T23:15:00Z",
-  "summary": "Saturday evening's lead is the morning's open question, answered: Dominik Szoboszlai played the full ninety minutes of Hungary's 2-0 win over Georgia in Tbilisi and set up Barnabas Varga's second goal, with Milos Kerkez also completing the match (Liverpool FC; RotoWire). The day's new worry is Ronald Araujo, Liverpool's stand-in right-back, who finished Uruguay's 2-1 friendly win over Argentina in Buenos Aires on Friday night walking with difficulty after a late tackle, El Observador reported; there is no diagnosis and neither Liverpool nor Uruguay has commented (Anfield Index; Stretty News; DaveOCKOP). Alexander Isak played 81 minutes of Sweden's 3-2 promotion-clinching win over Bosnia and Herzegovina, a goal ruled out by VAR (Liverpool FC; Flashscore), and Lewis Koumas had just over an hour of Wales' 3-1 defeat in Oslo. Liverpool Women won 3-0 at Brighton, Beata Olsson scoring twice (Liverpool FC), while United's injury list now runs to Ugarte, Sesko and Baleba (Brit Brief). Liverpool are fourth on eighteen, eight days before Pochettino's first match at Anfield (ESPN).",
+  "generatedAt": "2026-11-15T09:30:00Z",
+  "summary": "Sunday morning's lead is a decision in Madrid: Thomas Tuchel is weighing whether to give Rio Ngumoha his first senior England start against Spain at the Metropolitano tonight, 7.45pm GMT, with Brit Brief naming him as the alternative to Morgan Rogers on the right (Brit Brief; The Football Faithful via Yahoo Sports). Victor Munoz is with Spain, and at the same hour Jeremy Jacquet and Bradley Barcola play for France against Turkiye in Bordeaux (Liverpool FC). Overnight brought no update on Ronald Araujo, whose knock in Buenos Aires is still known only through El Observador's ratings (Stretty News). CaughtOffside reported early on Sunday, citing Christian Falk, that Liverpool have scouted Stuttgart's Finn Jeltsch, a centre-back who also plays right-back, while Mohamed Salah's seventieth Egypt goal on Friday made him his country's record scorer (Al Jazeera). Liverpool are fourth on eighteen, a week before United come to Anfield (ESPN).",
   "keyTopics": [
     {
-      "title": "Szoboszlai Plays Ninety And Assists In Tbilisi (Liverpool FC; RotoWire, today)",
-      "category": "injuries",
-      "detail": "Reported this evening: Hungary won 2-0 in Georgia, Dvali's own goal on 73 and Varga on 85 from Szoboszlai's pass (SportzCraazy). RotoWire says he was still training with his knee strapped on Friday. Kerkez also played the full match; Northern Ireland are next on Tuesday."
-    },
-    {
-      "title": "Isak Plays 81 As Sweden Win Promotion (Liverpool FC; Flashscore, today)",
+      "title": "Tuchel Weighs A First England Start For Ngumoha (Brit Brief; The Football Faithful, today)",
       "category": "general",
-      "detail": "Saturday evening in Solna: Sweden beat Bosnia and Herzegovina 3-2 with two Gyokeres penalties; Isak had a goal from Gyokeres's cut-back ruled out by VAR (Flashscore) and played 81 minutes (Liverpool FC)."
+      "detail": "Published this morning: Brit Brief (8.06am) names him as the alternative to Rogers on the right against Spain in Madrid tonight; The Football Faithful's 5.49am preview, via Yahoo Sports, says Tuchel is weighing his full debut. Neither puts him in its XI."
     },
     {
-      "title": "Liverpool Women Win 3-0 At The Amex (Liverpool FC, today)",
+      "title": "Jacquet And Barcola Face Turkiye In Bordeaux (Liverpool FC, today)",
       "category": "matches",
-      "detail": "Saturday evening's WSL match: Olsson inside four minutes and again on 78, Kapocs early in the second half, per the club's match report."
+      "detail": "Sunday's other Liverpool fixture: France v Turkiye, 7.45pm GMT, per the club's international guide. Munoz is with Spain for England at the same hour; no preview found names him in Spain's eleven."
     },
     {
-      "title": "Araujo Ends Buenos Aires Walking With Difficulty (Anfield Index; Stretty News, today)",
+      "title": "Liverpool Scouts Watch Stuttgart's Jeltsch (CaughtOffside, today)",
+      "category": "transfers",
+      "detail": "Reported at 5.31am, citing Christian Falk: the 20-year-old centre-back, who can also play right-back, is under contract until 2030 and Bayern are also tracking him. Falk does not expect a quick Premier League move; nothing can be signed before January."
+    },
+    {
+      "title": "Araujo: Still No Diagnosis, Still Only El Observador (Stretty News; Liverpool FC, 1d ago)",
       "category": "injuries",
-      "detail": "Published from Saturday lunchtime: El Observador's ratings say he finished Friday's 2-1 win over Argentina at La Bombonera hurting after a late tackle on Alvarez (DaveOCKOP). No diagnosis, no word from club or country; Uruguay play the Dominican Republic on Tuesday."
+      "detail": "Saturday evening's Stretty News piece says the only account of his condition is the Uruguayan press; neither club nor country has commented. The club's own site ran a lighter Saturday story on Araujo and Mac Allister meeting in the friendly. Uruguay play the Dominican Republic on Tuesday."
     },
     {
-      "title": "Koumas Starts In Oslo As Wales Lose 3-1 (Liverpool FC; The False 9, today)",
+      "title": "De Cuyper Linked With Liverpool And Arsenal (Liverpool FC Media Watch, 1d ago)",
+      "category": "transfers",
+      "detail": "Saturday's Media Watch on the club site carried a report of interest in the 60 million euro Brighton defender Maxim De Cuyper; the window does not reopen until January."
+    },
+    {
+      "title": "Salah Becomes Egypt's Record Scorer (Al Jazeera; Liverpool FC, 2d ago)",
       "category": "general",
-      "detail": "Played just over an hour on Saturday; before kick-off The False 9 carried Bellamy's line, 'I like what Liverpool have done with him'."
+      "detail": "Friday in Cairo: a far-post header on 84 and an added-time penalty in a 5-0 win over Malawi took him to seventy goals, past Hossam Hassan, AFP reported via Al Jazeera. Liverpool's site marked it on Saturday."
     },
     {
-      "title": "Abe Scores Again For England Under-17s (Liverpool FC, today)",
-      "category": "general",
-      "detail": "Saturday: off the bench to clinch a 2-0 win over Poland in European qualifying, his second goal in two games; Will Wright came on at half-time of the Under-19s' 5-0 over Belarus."
+      "title": "Ipswich Drawn In The FA Youth Cup Third Round (Liverpool FC, 2d ago)",
+      "category": "matches",
+      "detail": "Announced late in the week on the club site: Liverpool will face Ipswich Town in the third round. The Under-18s also beat Salford City 6-1 in a friendly."
     },
     {
-      "title": "United's List Lengthens: Ugarte, Sesko, Baleba (Brit Brief, today)",
+      "title": "Rashford's Hip, A Dublin Specialist, And Anfield (Sports Mole, 3d ago)",
       "category": "injuries",
-      "detail": "Published on Saturday morning: Ugarte has a serious knee injury, Sesko's shin trouble keeps him out until January and Baleba faces an extended spell out; Shaw aims for Anfield. LiveScore's United round-up, via Sports Mole, adds that Dorgu left Denmark after failing tests on a hamstring issue."
+      "detail": "Reported on Thursday, citing the Daily Mail: United are hopeful Rashford will be available after a specialist visit in Dublin, his hip problem having spread to the groin. Sports Mole adds that he has seven goals in twenty appearances against Liverpool; 'neither player's return is guaranteed', it says of him and Shaw."
     },
     {
-      "title": "Van Dijk's Niggle, And Appearance 390 (The False 9, today)",
-      "category": "injuries",
-      "detail": "Saturday's round-up calls it a 'little niggle' that kept him out of the Dutch window; if fit for United it would be his 390th Liverpool appearance. His contract ends next summer."
+      "title": "An Offer For Van Dijk Expected (Goal, citing Mundo Deportivo, 4d ago)",
+      "category": "transfers",
+      "detail": "Reported midweek: Liverpool are expected to table a new offer in the coming days, Iraola and the board believing the team still needs its captain. Van Dijk's own line: 'We'll see. I'm not worried.' His deal ends next summer."
     }
   ],
   "sources": [
-    "Liverpool FC",
-    "RotoWire",
-    "SportzCraazy",
-    "Anfield Index",
-    "Stretty News",
-    "DaveOCKOP",
-    "Flashscore",
-    "The False 9",
     "Brit Brief",
-    "LiveScore",
+    "The Football Faithful",
+    "Yahoo Sports",
+    "Liverpool FC",
+    "Stretty News",
+    "CaughtOffside",
+    "Al Jazeera",
+    "Sports Mole",
+    "Goal",
+    "Mundo Deportivo",
     "ESPN"
   ]
 };
@@ -1307,7 +1316,7 @@ export const NEWS_DIGEST = {
 // next edition and then into the auditor's blind spot.
 
 export const OPPOSITION = {
-  "generatedAt": "2026-11-14T23:15:00Z",
+  "generatedAt": "2026-11-15T09:30:00Z",
   "opponent": "Manchester United",
   "shortName": "Man Utd",
   "fixture": {
@@ -1320,7 +1329,7 @@ export const OPPOSITION = {
   "manager": "Mauricio Pochettino (head coach, confirmed 13 Nov; starts 18 Nov) (Goal; AP via ABC)",
   "formation": "4-2-3-1",
   "leaguePosition": 18,
-  "summary": "Manchester United's medical room is now the story of Pochettino's first week: Brit Brief's Saturday list has Ugarte out with a serious knee injury, Sesko unlikely before January with persistent shin problems and Baleba facing an extended absence, with Dorgu back from Denmark after failing tests on a hamstring issue (LiveScore, citing Sports Mole). Shaw is aiming for Anfield and Rashford's hip is assessed day by day (Brit Brief). Pochettino, confirmed on Friday on a two-and-a-half-year deal (Goal), takes his first session on 18 November after the USA's two games with Haiti (AP via ABC). He inherits a side eighteenth on eight with one league win in ten (ESPN), whose last outing was the 4-4 with Villa rescued by stoppage-time goals from Zirkzee and Dorgu (ESPN).",
+  "summary": "Manchester United have the quietest weekend of anyone involved next Sunday and the longest list to show for it. Pochettino, confirmed on Friday on a two-and-a-half-year deal (Goal), takes his first session on 18 November (AP via ABC), four days before Anfield. The inventory he inherits: Ugarte, Sesko and Baleba out (Brit Brief), Dorgu sent home by Denmark for more rehabilitation (Anfield Index via Yahoo Sports), Maguire's back and Shaw's muscle both pointed at the Liverpool game without any guarantee (Evening Standard via Yahoo Sports), and Rashford on a new treatment plan after a Dublin specialist (Sports Mole, citing the Daily Mail). They are eighteenth on eight with one league win in ten (ESPN), last seen drawing 4-4 with Villa.",
   "shape": "Expect Carrick's 4-2-3-1 with a new voice rather than a new system: three or four sessions do not build a back three, and The Independent's first sketch (via Yahoo Sports) keeps Mainoo and Tielemans in the pivot, Diallo, Fernandes and Cunha behind Mbeumo. Its 3-4-3 alternative needed Dorgu at wing-back, and his hamstring (LiveScore) makes that harder to staff with Dalot already at left-back while Shaw is out. The eleven below is The Independent's Friday guess, published before Dorgu left the Denmark camp.",
   "keyPlayers": [
     {
@@ -1432,7 +1441,7 @@ export const OPPOSITION = {
       "note": "Premier League (ESPN)."
     }
   ],
-  "liverpoolAngle": "Araujo's scare reopens the question on Liverpool's right. He has been the right-back by elimination while Frimpong and Bradley are out, and if Friday's knock in Buenos Aires is real (Anfield Index), Gomez moves across and the centre-back cover thins with Van Dijk still undiagnosed. United's left is Dalot again with Dorgu doubtful, which takes some of the running out of that flank. The midfield contest looks better than it did this morning: Szoboszlai played ninety minutes in Tbilisi (RotoWire) to face Mainoo and Tielemans beside Mac Allister. Fernandes's set pieces, which rescued the Villa game (ESPN), remain United's surest route.",
+  "liverpoolAngle": "The flank to watch is still Liverpool's right, and it is still a question about Liverpool rather than United. Araujo, the centre-back playing right-back, has an undiagnosed knock from Buenos Aires (Stretty News), Frimpong has no training report and Bradley is not yet in team training, so Gomez may be the right-back against Cunha's side of the pitch. United's own left is short: Dalot has covered there (Anfield Index via Yahoo Sports) with Dorgu and Shaw both uncertain. In midfield Szoboszlai's ninety minutes for Hungary help Liverpool against Mainoo and Tielemans. Fernandes's set pieces, which saved the Villa game (ESPN), are the threat a new coach cannot remove in four sessions.",
   "modelLine": null,
   "sources": [
     "ESPN",
@@ -1463,14 +1472,16 @@ export const OPPOSITION = {
     "The Football Faithful via Yahoo Sports",
     "The Independent via Yahoo Sports",
     "AP via ABC",
-    "Stretty News"
+    "Stretty News",
+    "Evening Standard via Yahoo Sports",
+    "Anfield Index via Yahoo Sports"
   ]
 };
 export const FORM_TRENDS = {
-  "generatedAt": "2026-11-14T23:15:00Z",
+  "generatedAt": "2026-11-15T09:30:00Z",
   "competition": "PL",
   "played": 10,
-  "headline": "The underlying numbers have not moved since Selhurst, so read them as a standing brief for United. Ten league games have produced fourteen goals from about fourteen and a half expected, which says the attack is finishing at par, and ten conceded from about twelve and three-quarters expected, which says the defence has been a little lucky. Palace's card is still waiting on Opta Analyst. The next figures belong to a United side with a new head coach and a long injury list.",
+  "headline": "A week from United, the figures are where Selhurst left them, and they still describe two different teams. In attack, fourteen league goals from about fourteen and a half expected is finishing almost exactly at par. In defence, ten conceded from about twelve and three-quarters expected says the goals against have been kinder than the chances. Palace's card is still waiting on Opta Analyst's own numbers. United, who concede more than almost anyone in Europe's big five leagues (Anfield Index via Yahoo Sports), will test the attacking half first.",
   "diagnosis": [
     {
       "label": "Space, not possession",
@@ -1760,9 +1771,9 @@ export const FORM_TRENDS = {
     "note": "Premier League only, ten games. xG for is 2.73 (Newcastle) plus 1.61 (Forest) plus 0.53 (Ipswich) plus 1.13 (Fulham) plus 1.57 (Bournemouth) plus 0.86 (City) plus 1.51 (Brentford) plus 0.87 (Brighton) plus 1.15 (Arsenal) plus 2.65 (Palace); xG against is 1.43 plus 2.30 plus 0.72 plus 0.71 plus 0.76 plus 1.30 plus 0.85 plus 1.35 plus 0.96 plus 2.39. The Palace figures are The Transfer Hub's (2.39 being its 1.60 non-penalty figure plus its 0.79 for the penalty), the Brentford and Brighton figures are FotMob's, reported by SI, the City card's 1.30 is Sofascore's and the Arsenal card is LiveScore's; Opta's own figures replace them when published. Provenance caveat from 21 September stands: Opta's published season expected-goals-against figure through five games was 6.12 rather than the 5.92 those per-match cards summed to. Champions League and Carabao Cup cards are shown but not aggregated. First-half splits exist only for Forest, Tottenham and City and are not aggregated."
   },
   "optaFacts": [
-    "Szoboszlai played the full ninety and assisted Hungary's second goal in a 2-0 win over Georgia, a week after a knee sprain (RotoWire).",
-    "Sweden's 3-2 win over Bosnia and Herzegovina secured promotion to League A; Gyokeres scored two penalties and Isak had a goal ruled out by VAR (Flashscore).",
-    "A KMI panel voted 4-1 that Isak should have had a penalty for Timber's shirt grab against Arsenal, and 3-2 that VAR should have intervened (The False 9)."
+    "Manchester United have conceded the joint-most goals in all competitions of any club in Europe's top five leagues this season (Anfield Index via Yahoo Sports).",
+    "Marcus Rashford has seven goals in twenty appearances against Liverpool (Sports Mole).",
+    "Josh Abe came off the bench to score England Under-17s' clinching goal for the second match in a row (Liverpool FC)."
   ],
   "sources": [
     "UEFA.com",
@@ -1848,19 +1859,20 @@ export const FORM_TRENDS = {
     "AP via ABC",
     "The L Files",
     "Stretty News",
-    "SportzCraazy"
+    "SportzCraazy",
+    "Anfield Index via Yahoo Sports"
   ]
 };
 export const SQUAD_LOAD = {
-  "generatedAt": "2026-11-14T23:15:00Z",
-  "headline": "Saturday settled one midfield question and opened a defensive one. Szoboszlai played the full ninety and assisted in Tbilisi (RotoWire), so the knee that kept the morning edition guessing has passed its test; Kerkez played the whole match beside him. Araujo, the right-back while Frimpong is out, finished Friday's game in Buenos Aires walking with difficulty (Anfield Index), with no diagnosis. Isak played 81 minutes for Sweden and Koumas an hour for Wales, both unhurt (Liverpool FC).",
+  "generatedAt": "2026-11-15T09:30:00Z",
+  "headline": "Nobody has been added to the list overnight, which on an international Sunday is the news. Araujo's knock from Buenos Aires is still undiagnosed and reported only by the Uruguayan press (Stretty News); Frimpong, a week from the date All Out Soccer gave for his return, has no training report. Five Liverpool players are on duty tonight, Ngumoha possibly starting for England in Madrid (Brit Brief), and eleven more play before Tuesday is out (Liverpool FC guide).",
   "minutesNote": "Premier League minutes are not published here yet. Ten league games, four Champions League games and two Carabao Cup ties have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   "unavailable": [
     {
       "name": "Jeremie Frimpong",
       "issue": "Muscle injury, picked up two or three minutes after coming on at Brentford on 17 October",
       "expected": "22 November, Manchester United at home: All Out Soccer (via Yahoo Sports, Tue 2.09pm) says he is expected to be available; Sports Mole's list and Premier Injuries' tracker agree on the date",
-      "note": "Still no return to training reported on Saturday evening. All Out Soccer's United date is eight days off and unconfirmed, and with Araujo now a doubt his return is the week's most important unknown.",
+      "note": "A week from United and still no report of him in training. All Out Soccer's expected-available line (10 Nov, via Yahoo Sports) is the only date anyone has put on it, and with Araujo a doubt his return matters more than any other.",
       "source": "All Out Soccer via Yahoo Sports; Liverpool Echo via Yahoo Sports; Sports Mole; ESPN"
     },
     {
@@ -1897,7 +1909,7 @@ export const SQUAD_LOAD = {
       "name": "Ronald Araujo",
       "issue": "Unspecified knock after a late tackle on Alvarez in Uruguay's 2-1 win over Argentina, Friday 13 November",
       "status": "Doubt; finished the match walking with difficulty per El Observador, no diagnosis (Anfield Index; DaveOCKOP)",
-      "note": "Neither Liverpool nor Uruguay has commented (Stretty News); Uruguay play the Dominican Republic on Tuesday. Gomez is the right-back alternative.",
+      "note": "Two days on, the only account is El Observador's (Stretty News); neither Liverpool nor Uruguay has said anything. Uruguay play the Dominican Republic in Maldonado at 11.30pm GMT on Tuesday (Liverpool FC guide). Gomez is the right-back alternative.",
       "source": "Anfield Index / Stretty News / DaveOCKOP"
     },
     {
@@ -1918,14 +1930,14 @@ export const SQUAD_LOAD = {
       "name": "Trey Nyoni",
       "issue": "No injury",
       "status": "On for Szoboszlai on sixty-nine at Selhurst (ESPN)",
-      "note": "Made his England Under-21 debut on Friday, the last half-hour of a 1-0 defeat by Portugal (Liverpool FC); first in at the base of midfield if Szoboszlai's knee is not right.",
+      "note": "England Under-21s play France in Bristol on Monday (Liverpool FC guide); first in at the base of midfield if Szoboszlai's knee reacts.",
       "source": "ESPN / Liverpool FC"
     },
     {
       "name": "Victor Munoz",
       "issue": "No injury reported",
       "status": "On for Barcola on sixty-nine, booked on eighty-two (ESPN)",
-      "note": "Unused as Spain beat Czechia 2-0 on Thursday (Liverpool Offside via Yahoo Sports); England on the 15th.",
+      "note": "With Spain for England in Madrid tonight; The Football Faithful's preview does not name him in Spain's XI.",
       "source": "ESPN / Liverpool Offside via Yahoo Sports"
     },
     {
@@ -1958,12 +1970,12 @@ export const SQUAD_LOAD = {
     {
       "position": "Centre-back",
       "level": "critical",
-      "detail": "Critical. Van Dijk's 'little niggle' (The False 9) still has no club diagnosis; Jacquet is the certain starter, Gomez the only senior cover and now possibly needed at right-back too, and Leoni trains fully only after this break (Anfield Index)."
+      "detail": "Critical. Jacquet plays for France tonight and is the certain starter; Van Dijk's niggle still has no club diagnosis; Gomez is the only senior cover and may be needed at right-back; Leoni steps up only once the internationals return (Anfield Index)."
     },
     {
       "position": "Right-back",
       "level": "critical",
-      "detail": "Critical. Frimpong is out with no training report, Bradley is not yet in team training, and Araujo, the centre-back covering there, finished Friday's game in Buenos Aires walking with difficulty (Anfield Index). Gomez is the only other option."
+      "detail": "Critical. Araujo's knock from Buenos Aires is undiagnosed and reported only by the Uruguayan press (Stretty News); Frimpong has no training report and Bradley is not in team training. Gomez is the only other senior option."
     },
     {
       "position": "Central midfield",
@@ -1978,7 +1990,7 @@ export const SQUAD_LOAD = {
     {
       "position": "Wide forward",
       "level": "medium",
-      "detail": "Medium. Gakpo came through an hour in Amsterdam and Barcola started in Milan (Liverpool FC); Ngumoha and Munoz are still away, and Chiesa is short of fitness by Mancini's account (Anfield Index)."
+      "detail": "Medium. Barcola plays for France tonight and Ngumoha may start for England in Madrid (Brit Brief); Gakpo faces Germany on Monday; Chiesa is short of fitness (Anfield Index)."
     },
     {
       "position": "Left-back",
@@ -2076,17 +2088,18 @@ export const SQUAD_LOAD = {
     "AP via ABC",
     "Stretty News",
     "SportzCraazy",
-    "Flashscore"
+    "Flashscore",
+    "The Football Faithful via Yahoo Sports"
   ]
 };
 export const SEASON_PROJECTION = {
-  "generatedAt": "2026-11-14T23:15:00Z",
+  "generatedAt": "2026-11-15T09:30:00Z",
   "played": 10,
   "points": 18,
   "pointsPerGame": 1.8,
   "projectedPoints": 68,
   "projectedFinish": "Champions League par on current pace, with nothing to spare",
-  "headline": "Ten games, eighteen points: 1.80 a game and a pace of sixty-eight, which is the historical par for fourth to the point. Twenty-eight games remain, so treat it as a rate. The break has improved the midfield's odds of sustaining it, Szoboszlai coming through ninety minutes for Hungary (RotoWire), and put a question over the right-back who has made it possible, Araujo (Anfield Index).",
+  "headline": "Eighteen points from ten is 1.80 a game, a sixty-eight-point pace, and sixty-eight is the historical par for fourth. With twenty-eight games left that is a rate, not a forecast. What has held it up is a right-back by elimination, Araujo, whose Buenos Aires knock is still undiagnosed (Stretty News).",
   "thresholds": [
     {
       "label": "Champions League (top 4)",
@@ -2164,7 +2177,7 @@ export const SEASON_PROJECTION = {
       "difficulty": "medium"
     }
   ],
-  "runInVerdict": "United (eighteenth), Everton away (sixth) and Sunderland (nineteenth) come first on ESPN's table. Seven points from those three would put Liverpool ahead of the fourth-place pace, six keeps it, and four or fewer gives Chelsea, two behind, room to pass before Stamford Bridge on 5 December. United arrive with Ugarte, Sesko and Baleba out (Brit Brief); the derby is the hard one.",
+  "runInVerdict": "The next three are United at home (eighteenth), Everton away (sixth) and Sunderland at home (nineteenth), per ESPN. Seven points or more moves Liverpool above the fourth-place pace; six holds it; four or fewer would let Chelsea, two points behind, pass them before the trip to Stamford Bridge on 5 December. United's injury list (Brit Brief) makes next Sunday the one to bank.",
   "sources": [
     "ESPN",
     "SI",
@@ -2188,6 +2201,7 @@ export const SEASON_PROJECTION = {
     "Liverpool FC",
     "BBC via Yahoo Sports",
     "AP via ABC",
-    "Anfield Index"
+    "Anfield Index",
+    "Stretty News"
   ]
 };

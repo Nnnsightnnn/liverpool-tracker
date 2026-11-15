@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday evening, and the morning's question has its answer: Szoboszlai played ninety minutes in Tbilisi and laid on
-          Hungary's second. The worry has moved to Araujo, who left Buenos Aires walking with difficulty while Frimpong is still
-          out. Liverpool, fourth on eighteen, are eight days from Pochettino's first match.
+          Sunday morning, and the fortnight turns towards Madrid, where Rio Ngumoha may be handed a first senior England start
+          tonight. Araujo's knock from Buenos Aires still has no name, and Frimpong still no training report. Liverpool, fourth
+          on eighteen, are a week from Pochettino's first match at Anfield.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the knee held. Dominik Szoboszlai, still strapped in training on Friday, played all ninety minutes in Tbilisi and set
-              up Barnabas Varga's goal as Hungary won 2-0; Milos Kerkez went the distance behind him. Liverpool had barely exhaled
-              before the next file opened. Ronald Araujo, the centre-back who has become their right-back by elimination, finished
-              Friday's win over Argentina at La Bombonera walking with difficulty, Uruguayan reporters said, and nobody has yet said
-              why. In Solna, Alexander Isak played eighty-one minutes and had a goal taken away by VAR. An international break is a
-              fortnight of other people's decisions; Liverpool are reading them one physio's report at a time.
+              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
+              and the decision that matters most to Liverpool tonight is Thomas Tuchel's. Rio Ngumoha, eighteen, is the alternative
+              to Morgan Rogers on England's right in Madrid, and the morning previews cannot say which way it will go. Across the
+              pitch is Spain, with Victor Munoz in their squad; in Bordeaux, at the same hour, Jacquet and Barcola play for France.
+              The other story has gone quiet in the wrong way. Ronald Araujo left Buenos Aires hurting on Friday, and two days later
+              there is still only a newspaper's player ratings to say so. A squad this thin at right-back would like to know which
+              kind of silence this is.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: ninety minutes, and the pass; La Bombonera, walking slowly;
-              promoted, not scoring; Pochettino's medical room; and Olsson, twice, at the Amex. A table unmoved since Selhurst,
-              and an opponent counting its absentees.
+              five dispatches from the writers who never clock off: a first start, perhaps, in Madrid; the rest of the fortnight;
+              scouting the problem position; seventy, and counting; and no word from Uruguay. A table unmoved since Selhurst,
+              and a week to Anfield.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Tbilisi answered. Buenos Aires asked."
+        "Madrid tonight. Anfield in a week."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
