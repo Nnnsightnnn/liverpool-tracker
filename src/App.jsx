@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday morning, and Saturday's good news has a footnote: Szoboszlai says he nearly pulled out in the warm-up in Tbilisi,
-          and that his treatment now starts again. Araujo's knock from Buenos Aires still has no name. Seven days remain before
-          United, and Ngumoha may start for England in Madrid tonight.
+          Sunday night, and the Liverpool players came back from two big internationals unmarked: Jacquet played all of France's
+          win in Bordeaux, Ngumoha watched England beat Spain from the bench. Fourth on eighteen, two clear of Chelsea. A week
+          from now United arrive at Anfield with a new head coach, and Liverpool's own questions are a knee and a right flank.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Sunday</span>,{" "}
-              and the ninety minutes look different in daylight. Dominik Szoboszlai, who played the whole of Hungary's win in Tbilisi
-              and made the second goal, has told Hungarian reporters he felt his leg on a shot in the warm-up and came close to
-              withdrawing, that the doctors were less sure than he was, and that the treatment now starts all over again. Tuesday
-              brings Northern Ireland; next Sunday, United. Ronald Araujo's knock from Buenos Aires is still known only from a
-              newspaper's player ratings. Tonight Rio Ngumoha may start for England in Madrid. A midfield and a right flank are
-              waiting on other people's physios, which is what an international break is for.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              one young defender's full ninety and one teenager's patience. Jeremy Jacquet played every minute of France's
+              2-1 win over Turkiye in Bordeaux, the opener coming off his deflection, and walked off with France top of the group.
+              In Madrid, Rio Ngumoha's first England start did not arrive; he sat on the bench while England won 3-2 and Spain's long
+              unbeaten run ended, with Victor Munoz unused on the other side. None of it touches the two questions that matter for
+              next Sunday. Szoboszlai's knee has Northern Ireland to survive on Tuesday, and Araujo's knock a Uruguay game the same
+              night. United come to Anfield in seven days, and the medical staff will learn more on Wednesday than anyone did tonight.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: the warm-up, and the doubt; a first start, perhaps, in Madrid;
-              scouting the problem position; seventy, and counting; and no word from Uruguay. The same ESPN table for a second
-              weekend, and seven days to United.
+              five dispatches from the writers who never clock off: ninety minutes in Bordeaux; a bench in Madrid; Isak, looking back
+              at the Emirates; Tuesday in Budapest; and a scouting story cooled. The table has not moved since Selhurst, and
+              United are a week away.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Madrid tonight. Anfield in a week."
+        "Back unmarked. The knee can wait till Tuesday."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

@@ -203,7 +203,7 @@ export const FORMATIONS = {
 // Evidence strings refreshed Sat Nov 14 (evening) against Saturday's reporting (Liverpool FC; RotoWire; Anfield Index; Stretty News; DaveOCKOP; Flashscore; The False 9).
 // Evidence strings refreshed Sun Nov 15 (morning) against the club's international guide, Sunday's England previews (Brit Brief; The Football Faithful) and Stretty News.
 export const PLAYER_EVIDENCE = {
-  1:  "Rested by Brazil · the No. 1",
+  1:  "Rested by Brazil · starts United",
   2:  "Georgia v Ukraine Tuesday",
   3:  "Niggle · contract offer due",
   5:  "RB or CB cover for United",
@@ -211,23 +211,23 @@ export const PLAYER_EVIDENCE = {
   8:  "Knee · not in team training",
   9:  "Muscle · no training report",
   10: "ACL · steps up after break",
-  11: "France v Turkiye tonight",
+  11: "Full 90 for France v Turkiye",
   12: "On loan at Levante",
   13: "Costa Rica Tuesday · 1 booking",
   14: "Heel · 'a matter of pain'",
-  15: "Nearly withdrew · treatment again",
+  15: "Knee · N. Ireland Tuesday",
   17: "Unused this season",
   18: "Germany v Dutch Monday",
   20: "England U21s v France Mon",
   22: "Faces Wirtz in Berlin Monday",
-  23: "Poland away Tuesday · fit",
+  23: "Sweden v Poland Tuesday · fit",
   24: "Achilles · Boxing Day target",
-  25: "Possible England start tonight",
+  25: "Unused sub in England's win",
   26: "Short of fitness",
   27: "Third goalkeeper",
-  28: "In Spain squad tonight",
-  29: "Knock undiagnosed · doubt",
-  30: "France v Turkiye tonight",
+  28: "Unused sub for Spain",
+  29: "Knock undiagnosed · Uruguay Tue",
+  30: "Off 63' v Turkiye · no knock",
   31: "Wales v Portugal Tuesday",
   32: "Greece v Serbia Monday",
 };
@@ -423,16 +423,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Sun Nov 15, morning - Kerkez, unhurt after ninety in Tbilisi, with Northern Ireland on Tuesday still to come; Tsimikas the deputy. Medium.",
-  LCB: "Sun Nov 15, morning - Van Dijk, if the niggle that kept him out of the Dutch window clears; no club diagnosis yet. Gomez otherwise. Medium.",
-  RCB: "Sun Nov 15, morning - Jacquet, who plays for France against Turkiye tonight; the fixed point of the back four. High.",
-  RB: "Sun Nov 15, morning - Araujo, held here, but the Buenos Aires knock is still undiagnosed and known only from El Observador (Stretty News); Gomez the alternative. Low.",
-  LDM: "Sun Nov 15, morning - Szoboszlai, held here, but he nearly pulled out in the warm-up in Tbilisi and says treatment starts again (DaveOCKOP; Empire of the Kop); Nyoni the cover. Low.",
-  RDM: "Sun Nov 15, morning - Mac Allister, Costa Rica on Tuesday and then home, one booking short of a derby ban. High.",
-  LAM: "Sun Nov 15, morning - Barcola, with France in Bordeaux tonight; Munoz and Ngumoha the alternates. Medium.",
-  CAM: "Sun Nov 15, morning - Wirtz, scorer in Belgrade, facing Gakpo's Netherlands on Monday. High.",
-  RAM: "Sun Nov 15, morning - Gakpo, with Ngumoha the reserve; the teenager may start for England in Madrid tonight (Brit Brief). Medium.",
-  ST: "Sun Nov 15, morning - Isak, fit after 81 minutes on Saturday, Poland away on Tuesday; Koumas the only cover. High.",
+  LB: "Sun Nov 15, evening - Kerkez, with one more Hungary game on Tuesday to come through; Tsimikas behind him. Medium.",
+  LCB: "Sun Nov 15, evening - Van Dijk if the niggle that cost him the Dutch window settles; still no club word on it. Gomez otherwise. Medium.",
+  RCB: "Sun Nov 15, evening - Jacquet, who played the whole of France's 2-1 win over Turkiye tonight (Gioscore). High.",
+  RB: "Sun Nov 15, evening - Araujo, held, though the Buenos Aires knock is still known only from El Observador (Anfield Index); Gomez if not. Low.",
+  LDM: "Sun Nov 15, evening - Szoboszlai, held, with Northern Ireland on Tuesday and a warm-up scare behind him (Anfield Index via Yahoo Sports); Nyoni next. Low.",
+  RDM: "Sun Nov 15, evening - Mac Allister, back after Costa Rica on Tuesday; a booking from a derby suspension. High.",
+  LAM: "Sun Nov 15, evening - Barcola, an hour for France tonight and off on sixty-three with no knock reported (Gioscore). Munoz, unused for Spain, the alternate. Medium.",
+  CAM: "Sun Nov 15, evening - Wirtz, Germany against the Netherlands on Monday after his goal in Belgrade. High.",
+  RAM: "Sun Nov 15, evening - Gakpo, Berlin on Monday; Ngumoha, an unused substitute in Madrid tonight (The Telegraph via Yahoo Sports), the reserve. Medium.",
+  ST: "Sun Nov 15, evening - Isak, Sweden in Poland on Tuesday after 81 minutes against Bosnia; Koumas the only cover. High.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -458,7 +458,7 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-11-15T09:30:00Z",
-  reason: "Sun Nov 15, morning. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. No personnel change: the eleven that won 3-1 at Selhurst (ESPN). Araujo is held at right-back, but his knock from Friday in Buenos Aires is still undiagnosed and reported only by the Uruguayan press (Stretty News), Gomez the alternative; Szoboszlai, held at LDM, now says he nearly pulled out in the warm-up in Tbilisi and that treatment starts again (DaveOCKOP; Empire of the Kop), so LDM falls to Low; Van Dijk still without a club diagnosis. Medium.",
+  generated_at: "2026-11-15T22:30:00Z",
+  reason: "Sun Nov 15, evening. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. Unchanged from the eleven that won 3-1 at Selhurst (ESPN). Sunday night added nothing to the doubts: Jacquet played ninety for France and Barcola sixty-three (Gioscore). The two holds are still Araujo at right-back, knock undiagnosed (Anfield Index), and Szoboszlai at LDM, who plays Northern Ireland on Tuesday after nearly withdrawing in Tbilisi (Anfield Index via Yahoo Sports); Van Dijk has no club diagnosis. Medium.",
 };
 
