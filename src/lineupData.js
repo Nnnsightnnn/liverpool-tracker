@@ -459,6 +459,6 @@ export const ALTERNATIVES = {
 export const PREDICTION_NOTE = {
   level: "Medium",
   generated_at: "2026-11-15T22:30:00Z",
-  reason: "Sun Nov 15, evening. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. Unchanged from the eleven that won 3-1 at Selhurst (ESPN). Sunday night added nothing to the doubts: Jacquet played ninety for France and Barcola sixty-three (Gioscore). The two holds are still Araujo at right-back, knock undiagnosed (Anfield Index), and Szoboszlai at LDM, who plays Northern Ireland on Tuesday after nearly withdrawing in Tbilisi (Anfield Index via Yahoo Sports); Van Dijk has no club diagnosis. Medium.",
+  reason: "Sun Nov 15, evening. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. Unchanged from the eleven that won 3-1 at Selhurst (ESPN). Sunday night added nothing to the doubts: Jacquet played ninety for France and Barcola sixty-three (Gioscore). The two holds are still Araujo at right-back, knock undiagnosed (Anfield Index), and Szoboszlai at LDM, due to face Northern Ireland on Tuesday after nearly withdrawing in Tbilisi (Anfield Index via Yahoo Sports); Van Dijk has no club diagnosis. Medium.",
 };
 

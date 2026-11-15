@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "doubtful", injuryNote: "Sun Nov 15, evening - Sunday brought nothing on the knee, from Liverpool or the Dutch federation; the new-contract offer Goal reported midweek is still expected.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "doubtful", injuryNote: "Sun Nov 15, evening - Sunday brought nothing on the niggle, from Liverpool or the Dutch federation; the new-contract offer Goal reported midweek is still expected.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Sun Nov 15, evening - Hamstring: four weeks on the calendar since Brentford, and still no training-ground sighting with United seven days off.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Sun Nov 15, evening - Muscle injury: four weeks on the calendar since Brentford, and still no training-ground sighting with United seven days off.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -269,7 +269,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "doubtful", recentPlayedDates: ["2026-09-15"], injuryNote: "Sun Nov 15, evening - Three days after Buenos Aires there is still only El Observador's 'walking with difficulty' to go on (Anfield Index). Dominican Republic in Maldonado on Tuesday is the test.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
+    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "doubtful", recentPlayedDates: ["2026-09-15"], injuryNote: "Sun Nov 15, evening - Two days after Buenos Aires there is still only El Observador's 'walking with difficulty' to go on (Anfield Index). Dominican Republic in Maldonado on Tuesday is the test.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
     physical: { height: 188, weight: 79, pace: 78, acceleration: 74, sprintSpeed: 80 },
     career: [
       { years: "2016-2018", club: "Rentistas", fee: null, type: "youth" },
@@ -1181,7 +1181,7 @@ export const STANDINGS_COMMENTARY = {
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 10,
   "generatedAt": "2026-11-15T22:30:00Z",
-  "overview": "Sunday night's football was all international, so ESPN's table is the one the league left behind eight days ago: ten played each, Liverpool fourth on eighteen, nine behind Arsenal and three behind City in third. The more useful number is the two-point cushion over Chelsea and Everton, the sides sitting on the Europa League stripe and just below it. That cushion meets two awkward tests in eight days once the league resumes, United at Anfield and then the derby. At the bottom, United's eight points are the same as Sunderland's and one more than Palace's, which is the table their new head coach inherits.",
+  "overview": "Sunday night's football was all international, so ESPN's table is the one the league left behind a week ago: ten played each, Liverpool fourth on eighteen, nine behind Arsenal and three behind City in third. The more useful number is the two-point cushion over Chelsea and Everton, the sides sitting on the Europa League stripe and just below it. That cushion meets two awkward tests a week apart once the league resumes, United at Anfield and then the derby. At the bottom, United's eight points are the same as Sunderland's and one more than Palace's, which is the table their new head coach inherits.",
   "teams": {
     "Liverpool": "Fourth on eighteen with a plus-four goal difference; two clear of fifth before United come to Anfield on Sunday (ESPN).",
     "Arsenal": "Twenty-seven from ten, nine wins; their one defeat is still the only blemish (ESPN).",
@@ -1508,7 +1508,7 @@ export const FORM_TRENDS = {
       "label": "One forward, scoring again",
       "severity": "medium",
       "source": "NBC Sports / Opta Analyst",
-      "detail": "Isak's deflected third was his seventh of the season, two behind Haaland (NBC Sports), after six in his first eight league games (Opta Analyst). He is still the only fit senior nine, and Iraola praised his movement for Wirtz's goal (Liverpool FC)."
+      "detail": "Isak's deflected third was his seventh league goal of the season, two behind Haaland (NBC Sports), after six in his first eight league games (Opta Analyst). He is still the only fit senior nine, and Iraola praised his movement for Wirtz's goal (Liverpool FC)."
     },
     {
       "label": "Right-back by elimination",
@@ -1912,7 +1912,7 @@ export const SQUAD_LOAD = {
       "name": "Ronald Araujo",
       "issue": "Unspecified knock after a late tackle on Alvarez in Uruguay's 2-1 win over Argentina, Friday 13 November",
       "status": "Doubt; finished the match walking with difficulty per El Observador, no diagnosis (Anfield Index; DaveOCKOP)",
-      "note": "Three days on, the only account is still El Observador's (Anfield Index; Stretty News); neither Liverpool nor Uruguay has said anything. Uruguay play the Dominican Republic in Maldonado at 11.30pm GMT on Tuesday (Liverpool FC guide). Gomez is the right-back alternative.",
+      "note": "Two days on, the only account is still El Observador's (Anfield Index; Stretty News); neither Liverpool nor Uruguay has said anything. Uruguay play the Dominican Republic in Maldonado at 11.30pm GMT on Tuesday (Liverpool FC guide). Gomez is the right-back alternative.",
       "source": "Anfield Index / Stretty News / DaveOCKOP"
     },
     {
@@ -2105,7 +2105,7 @@ export const SEASON_PROJECTION = {
   "pointsPerGame": 1.8,
   "projectedPoints": 68,
   "projectedFinish": "Champions League par on current pace, with nothing to spare",
-  "headline": "Ten games, eighteen points, 1.80 a game: a sixty-eight-point pace that sits exactly on the historical par for fourth. Twenty-eight matches remain, so treat it as a rate. The pace has been built with a centre-back at right-back, and Araujo's Buenos Aires knock is still unexplained three days later (Anfield Index).",
+  "headline": "Ten games, eighteen points, 1.80 a game: a sixty-eight-point pace that sits exactly on the historical par for fourth. Twenty-eight matches remain, so treat it as a rate. The pace has been built with a centre-back at right-back, and Araujo's Buenos Aires knock is still unexplained two days later (Anfield Index).",
   "thresholds": [
     {
       "label": "Champions League (top 4)",
