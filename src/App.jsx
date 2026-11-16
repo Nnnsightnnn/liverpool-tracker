@@ -610,7 +610,7 @@ function CoverView({ onJump }) {
               outside the area on the hour, a volley off the underside of the bar eleven minutes later, and Jurgen Klopp's Germany
               beat the Netherlands 5-0 to top their group. Cody Gakpo started for the Dutch, who still go through, and was spared
               the last quarter of an hour. Virgil van Dijk was not there at all, listed as injured, and that absence travels home
-              with Liverpool more heavily than any of the goals. In Budapest, Hungary's coach says the doctors call Dominik
+              with Liverpool more heavily than any of the goals. From Hungary's camp, the coach says the doctors call Dominik
               Szoboszlai fine. Six days from United, the club has one forward in form and a captain it cannot yet account for.
             </p>
             <p className="cover-letter-body" style={{

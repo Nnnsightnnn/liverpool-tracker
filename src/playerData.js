@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2026-27 Season · Updated 15 November 2026 (morning)) ──────
+// ─── Liverpool FC Player Data (2026-27 Season · Updated 16 November 2026 (evening)) ──────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -1188,7 +1188,7 @@ export const STANDINGS_COMMENTARY = {
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 10,
   "generatedAt": "2026-11-16T22:30:00Z",
-  "overview": "The table is the same one ESPN has shown for eight days, and the most telling line on it is the shortest gap: Liverpool, fourth on eighteen, have only two points on Chelsea and Everton below them. Arsenal's lead at the top is nine, which makes the fourth Champions League place, not the title, the race Liverpool are realistically in. United arrive at Anfield on Sunday eighteenth, on eight points, level with Sunderland and one above Palace, with a head coach whose staff landed on Saturday and who starts on Wednesday (All Out Soccer via Yahoo Sports). Nothing moved on Monday because nothing could: the league resumes on Saturday.",
+  "overview": "The table is the same one ESPN has shown for eight days, and the most telling line on it is the shortest gap: Liverpool, fourth on eighteen, have only two points on Chelsea and Everton below them. Arsenal's lead at the top is nine, which makes the fourth Champions League place, not the title, the race Liverpool are realistically in. United, eighteenth on eight points and level with Sunderland, arrive at Anfield on Sunday and one above Palace, with a head coach whose staff landed on Saturday and who starts on Wednesday (All Out Soccer via Yahoo Sports). Nothing moved on Monday because nothing could: the league resumes on Saturday.",
   "teams": {
     "Liverpool": "Fourth on eighteen, two clear of fifth; United at Anfield on Sunday (ESPN).",
     "Arsenal": "Twenty-seven points from ten, nine clear of Liverpool.",
@@ -1246,7 +1246,7 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   "generatedAt": "2026-11-16T22:30:00Z",
-  "summary": "Monday night in Berlin belonged to Florian Wirtz, who scored twice, a left-footed strike from outside the area on the hour and a volley eleven minutes later, as Jurgen Klopp's Germany beat the Netherlands 5-0 to top their Nations League group (Liverpool FC; ESPN). Cody Gakpo started for the Dutch and came off late; Al Jazeera called it their heaviest defeat in sixty-seven years, but they still reach March's quarter-finals on goal difference, while Kostas Tsimikas played all ninety of Greece's 1-0 win over Serbia and went out on head-to-head. Virgil van Dijk was listed as out injured in 101 Great Goals' line-ups, and Trey Nyoni made his first England Under-21 start in a 3-2 win over France. Earlier on Monday, Hungary's Marco Rossi said the doctors consider Dominik Szoboszlai fine and ready to play (Anfield Index), and Mauricio Pochettino's staff were reported to have landed in Manchester ahead of his 18 November start (All Out Soccer via Yahoo Sports). Liverpool are fourth on eighteen, six days from United at Anfield (ESPN).",
+  "summary": "Monday night in Berlin belonged to Florian Wirtz, who scored twice, a left-footed strike from outside the area on the hour and a volley eleven minutes later, as Jurgen Klopp's Germany beat the Netherlands 5-0 to top their Nations League group (Liverpool FC; ESPN). Cody Gakpo started for the Dutch and came off late; Al Jazeera called it their heaviest defeat in sixty-seven years, but they still reach March's quarter-finals on goal difference, while Kostas Tsimikas played all ninety of Greece's 1-0 win over Serbia and went out on head-to-head. Virgil van Dijk was listed as out injured in 101 Great Goals' line-ups, and Trey Nyoni made his first England Under-21 start in a 3-2 win over France. Earlier on Monday, Hungary's Marco Rossi said the doctors consider Dominik Szoboszlai fine and ready to play (Anfield Index), and Mauricio Pochettino's staff were reported to have landed in Manchester ahead of his 18 November start (All Out Soccer via Yahoo Sports). Sunday's opponents are eighteenth, ten points below Liverpool's fourth place (ESPN).",
   "keyTopics": [
     {
       "title": "Wirtz Scores Twice As Germany Beat The Netherlands 5-0 (Liverpool FC; ESPN, tonight)",
@@ -1342,7 +1342,7 @@ export const OPPOSITION = {
   "formation": "4-2-3-1",
   "leaguePosition": 18,
   "summary": "United's new regime is arriving in instalments. Pochettino's assistants Jesus Perez and Toni Jimenez, with his son Sebastiano, landed in the north-west on Saturday, and the club statement gives his own start as 18 November (All Out Soccer via Yahoo Sports); he finishes with the USA against Haiti on Tuesday night first (101 Great Goals). He says he does not need 'too much preparation' for Liverpool because he has known every player for more than two years (101 Great Goals), though Man Utd News counts only three wins in his nineteen meetings with them. Ugarte, Sesko and Baleba are ruled out (Brit Brief; Evening Standard via AOL), Dorgu came home from Denmark with his hamstring (Sports Mole), and Shaw, Maguire and Rashford are all aiming at Sunday. United are eighteenth on eight points with one league win in ten (ESPN), their worst start in four decades per All Out Soccer, and their last game was the 4-4 with Villa.",
-  "shape": "Expect Carrick's 4-2-3-1 with a new voice rather than a new system: three or four sessions do not build a back three, and The Independent's first sketch (via Yahoo Sports) keeps Mainoo and Tielemans in the pivot, Diallo, Fernandes and Cunha behind Mbeumo. Its 3-4-3 alternative needed Dorgu at wing-back, and his hamstring (LiveScore) makes that harder to staff with Dalot already at left-back while Shaw is out. The eleven below is The Independent's Friday guess, published before Dorgu left the Denmark camp.",
+  "shape": "Expect Carrick's 4-2-3-1 with a new voice rather than a new system: three or four sessions do not build a back three, and The Independent's first sketch (via Yahoo Sports) keeps Mainoo and Tielemans in the pivot, Diallo, Fernandes and Cunha behind Mbeumo. Its 3-4-3 alternative needed Dorgu at wing-back, and his hamstring (LiveScore) makes that harder to staff with Dalot needed at full-back while Shaw is out. The eleven below is The Independent's Friday guess, published before Dorgu left the Denmark camp.",
   "keyPlayers": [
     {
       "name": "Bruno Fernandes",
