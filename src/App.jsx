@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday night, and the Liverpool players came back from two big internationals unmarked: Jacquet played all of France's
-          win in Bordeaux, Ngumoha watched England beat Spain from the bench. Fourth on eighteen, two clear of Chelsea. A week
-          from now United arrive at Anfield with a new head coach, and Liverpool's own questions are a knee and a right flank.
+          Monday, and the old manager has the evening's best seat: Klopp's Germany need to beat the Netherlands in Berlin, with
+          Wirtz in white and Gakpo in orange. Liverpool sit fourth on eighteen, six days from United, and the questions
+          at Kirkby are unchanged by any of it: a midfielder's knee, a right-back's knock, a calendar running short.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              one young defender's full ninety and one teenager's patience. Jeremy Jacquet played every minute of France's
-              2-1 win over Turkiye in Bordeaux, the opener coming off his deflection, and walked off with France top of the group.
-              In Madrid, Rio Ngumoha's first England start did not arrive; he sat on the bench while England won 3-2 and Spain's long
-              unbeaten run ended, with Victor Munoz unused on the other side. None of it touches the two questions that matter for
-              next Sunday. Szoboszlai's knee has Northern Ireland to survive on Tuesday, and Araujo's knock a Uruguay game the same
-              night. United come to Anfield in seven days, and the medical staff will learn more on Wednesday than anyone did tonight.
+              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
+              and a fixture in Berlin that could have been written at Anfield. Jurgen Klopp's Germany, third and level with Greece,
+              need to beat Xavi's Netherlands at the Olympiastadion tonight, and Florian Wirtz, who scored in Belgrade on Friday, is
+              expected to start against Cody Gakpo. The weekend left a quieter thread behind it: Fabrizio Romano says Liverpool
+              will not decide on making Ronald Araujo's loan permanent in January, the conversation pushed into 2027, while the
+              knock he took in Buenos Aires still has no diagnosis. Dominik Szoboszlai insists he needs to be ready for Tuesday.
+              Liverpool would rather he were ready for Sunday, and the two are not quite the same thing.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: ninety minutes in Bordeaux; a bench in Madrid; Isak, looking back
-              at the Emirates; Tuesday in Budapest; and a scouting story cooled. The table has not moved since Selhurst, and
-              United are a week away.
+              five dispatches from the writers who never clock off: Klopp's night in Berlin; a loan decision deferred; four days
+              for Pochettino; a captain's Tuesday; and a teenager who says he is still learning. The table has not moved since
+              Selhurst, and United are six days away.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Back unmarked. The knee can wait till Tuesday."
+        "Klopp in Berlin. Liverpool, still counting knees."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

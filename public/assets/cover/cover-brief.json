@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-01T12:00:00Z",
   "status": "OPEN",
   "tracker": "liverpool",
-  "leadStory": "Sunday 15 November, evening: Jacquet played the whole of France's 2-1 win over Turkiye in Bordeaux (Gioscore; FotMob); Ngumoha an unused substitute as England won 3-2 in Madrid (The Telegraph via Yahoo Sports).",
+  "leadStory": "Monday 16 November, morning: Wirtz and Gakpo on opposite sides as Klopp's Germany need to beat the Netherlands in Berlin tonight (Al Jazeera; Sports Mole); Romano says no Araujo permanent decision in January (Football365 via LiveScore).",
   "action": "generate",
   "note": "Kenny asked for a better cover than the hand-drawn SVG plates. Generate ONE image per the prompt, save it at `output`, then set COVER_IMAGE.src to it, credit 'Illustration · Antigravity', a fresh generatedAt, and set this file's status to CLOSED. Evergreen on purpose: it should still be right after the City result.",
   "currentPlate": "/assets/cover/2026-10-01-anfield-after-dark.svg",
