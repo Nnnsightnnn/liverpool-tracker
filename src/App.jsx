@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, and the old manager has the evening's best seat: Klopp's Germany need to beat the Netherlands in Berlin, with
-          Wirtz in white and Gakpo in orange. Liverpool sit fourth on eighteen, six days from United, and the questions
-          at Kirkby are unchanged by any of it: a midfielder's knee, a right-back's knock, a calendar running short.
+          Tonight Wirtz scored twice in Berlin as Klopp's Germany took the Netherlands apart, five without reply, with Gakpo
+          on the losing side and Van Dijk absent injured. Liverpool are fourth on eighteen and United come to Anfield on
+          Sunday, so the useful news is that both forwards came off late and whole.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and a fixture in Berlin that could have been written at Anfield. Jurgen Klopp's Germany, third and level with Greece,
-              need to beat Xavi's Netherlands at the Olympiastadion tonight, and Florian Wirtz, who scored in Belgrade on Friday, is
-              expected to start against Cody Gakpo. The weekend left a quieter thread behind it: Fabrizio Romano says Liverpool
-              will not decide on making Ronald Araujo's loan permanent in January, the conversation pushed into 2027, while the
-              knock he took in Buenos Aires still has no diagnosis. Dominik Szoboszlai insists he needs to be ready for Tuesday.
-              Liverpool would rather he were ready for Sunday, and the two are not quite the same thing.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              in the Olympiastadion, Florian Wirtz did the thing Liverpool bought him to do, twice: a left-footed strike from
+              outside the area on the hour, a volley off the underside of the bar eleven minutes later, and Jurgen Klopp's Germany
+              beat the Netherlands 5-0 to top their group. Cody Gakpo started for the Dutch, who still go through, and was spared
+              the last quarter of an hour. Virgil van Dijk was not there at all, listed as injured, and that absence travels home
+              with Liverpool more heavily than any of the goals. In Budapest, Hungary's coach says the doctors call Dominik
+              Szoboszlai fine. Six days from United, the club has one forward in form and a captain it cannot yet account for.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: Klopp's night in Berlin; a loan decision deferred; four days
-              for Pochettino; a captain's Tuesday; and a teenager who says he is still learning. The table has not moved since
-              Selhurst, and United are six days away.
+              five dispatches from the writers who never clock off: two for Wirtz in Berlin; Gakpo on the wrong end; a coach's
+              word on a knee; a first start in Bristol; and Pochettino's staff arriving ahead of him. The table has not moved
+              since Selhurst, and United are six days away.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Klopp in Berlin. Liverpool, still counting knees."
+        "Two in Berlin. Sunday next."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

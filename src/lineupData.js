@@ -203,9 +203,9 @@ export const FORMATIONS = {
 // Evidence strings refreshed Sat Nov 14 (evening) against Saturday's reporting (Liverpool FC; RotoWire; Anfield Index; Stretty News; DaveOCKOP; Flashscore; The False 9).
 // Evidence strings refreshed Sun Nov 15 (morning) against the club's international guide, Sunday's England previews (Brit Brief; The Football Faithful) and Stretty News.
 export const PLAYER_EVIDENCE = {
-  1:  "Rested by Brazil · starts United",
+  1:  "Contract's final year · starts",
   2:  "Georgia v Ukraine Tuesday",
-  3:  "'Physical discomfort' · no word",
+  3:  "Out injured for Dutch · no diagnosis",
   5:  "Set to stay · RB or CB cover",
   7:  "Hungary v N. Ireland Tuesday",
   8:  "Knee · not in team training",
@@ -214,22 +214,22 @@ export const PLAYER_EVIDENCE = {
   11: "Back from France · 90 in Bordeaux",
   12: "Levante loan · Ndukwe plan",
   13: "Costa Rica Tuesday · 1 booking",
-  14: "Heel · 'a matter of pain'",
-  15: "Knee · 'ready for Tuesday'",
+  14: "Heel · Lynch: 'absolutely need'",
+  15: "Knee · 'doctors say he's fine'",
   17: "Unused this season",
-  18: "Klopp's Germany tonight",
-  20: "England U21s v France tonight",
-  22: "Faces Wirtz in Berlin tonight",
+  18: "Two goals v Netherlands · fit",
+  20: "First England U21 start · 3-2 win",
+  22: "Started in Berlin · off late",
   23: "Sweden v Poland Tuesday · fit",
   24: "Achilles · Boxing Day target",
   25: "'Still learning' · new deal",
   26: "Lazio ready to talk · loan",
   27: "Third goalkeeper",
-  28: "Unused sub for Spain",
+  28: "Home from Spain · no knock",
   29: "No diagnosis · future to 2027",
   30: "Done with France · no knock",
   31: "Wales v Portugal Tuesday",
-  32: "Greece v Serbia tonight",
+  32: "90 mins v Serbia · Greece out",
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -423,16 +423,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Mon Nov 16, morning - Kerkez, Budapest on Tuesday and then home; Tsimikas, with Greece tonight, the deputy. Medium.",
-  LCB: "Mon Nov 16, morning - Van Dijk if the 'physical discomfort' Sports Mole describes has cleared; no club word yet. Gomez otherwise. Medium.",
-  RCB: "Mon Nov 16, morning - Jacquet, back from a full ninety in Bordeaux and the one centre-back with no question attached. High.",
-  RB: "Mon Nov 16, morning - Araujo, still held, three days from a knock nobody has diagnosed and a day from Uruguay's next game; Gomez if not. Low.",
-  LDM: "Mon Nov 16, morning - Szoboszlai, held, though he says he needs to be ready for Tuesday (AfricaSoccer); Nyoni is next. Low.",
-  RDM: "Mon Nov 16, morning - Mac Allister after Argentina's friendly on Tuesday; the derby-ban booking count still at one away. High.",
-  LAM: "Mon Nov 16, morning - Barcola, finished with France after an hour against Turkiye; Munoz, unused in Madrid, the alternate. Medium.",
-  CAM: "Mon Nov 16, morning - Wirtz, in Klopp's predicted eleven for Berlin tonight (Al Jazeera; Sports Mole). High.",
-  RAM: "Mon Nov 16, morning - Gakpo, in the Dutch predicted eleven for Berlin tonight (Sports Mole); Ngumoha the reserve. Medium.",
-  ST: "Mon Nov 16, morning - Isak, one Sweden game left, in Wroclaw on Tuesday; Koumas the only cover. High.",
+  LB: "Mon Nov 16, evening - Kerkez, one Hungary game left on Tuesday; Tsimikas, ninety minutes for Greece tonight, the deputy. Medium.",
+  LCB: "Mon Nov 16, evening - Van Dijk only if the injury that kept him out of Berlin has cleared (101 Great Goals); no club diagnosis. Gomez otherwise. Medium.",
+  RCB: "Mon Nov 16, evening - Jacquet, the one centre-back with a clean bill and a full ninety for France behind him. High.",
+  RB: "Mon Nov 16, evening - Araujo, held pending a diagnosis on the Buenos Aires knock and Uruguay's game on Tuesday; Gomez if not. Low.",
+  LDM: "Mon Nov 16, evening - Szoboszlai, held; Rossi says the doctors call him fine (Anfield Index), but Northern Ireland come first. Nyoni next. Low.",
+  RDM: "Mon Nov 16, evening - Mac Allister, after Costa Rica in Cordoba on Tuesday, one booking from a derby ban. High.",
+  LAM: "Mon Nov 16, evening - Barcola, rested since Sunday's hour for France; Munoz, home without minutes, the alternate. Medium.",
+  CAM: "Mon Nov 16, evening - Wirtz, two goals in Germany's 5-0 win tonight and off with fifteen minutes left (Liverpool FC). High.",
+  RAM: "Mon Nov 16, evening - Gakpo, started and came off late in Berlin with no reported knock (Liverpool FC); Ngumoha the reserve. Medium.",
+  ST: "Mon Nov 16, evening - Isak, one Sweden game left, in Wroclaw on Tuesday; Koumas the only cover. High.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -458,7 +458,7 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-11-16T08:30:00Z",
-  reason: "Mon Nov 16, morning. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. Still the eleven that won 3-1 at Selhurst (ESPN). Wirtz and Gakpo play each other in Berlin tonight, both in the predicted elevens (Sports Mole). The holds are unchanged: Araujo at right-back with an undiagnosed knock and Uruguay on Tuesday, Szoboszlai at LDM saying he needs to be ready for Hungary's decider the same night (AfricaSoccer), and Van Dijk with no club diagnosis. Medium.",
+  generated_at: "2026-11-16T22:30:00Z",
+  reason: "Mon Nov 16, evening. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. Still the eleven that won 3-1 at Selhurst (ESPN). Wirtz scored twice in Germany's 5-0 win over Gakpo's Netherlands tonight and both came off late (Liverpool FC). The holds are unchanged: Van Dijk, listed out injured by the Dutch (101 Great Goals), Araujo at right-back with an undiagnosed knock, and Szoboszlai at LDM, whom Hungary's coach calls fine before Tuesday's decider (Anfield Index). Medium.",
 };
 
