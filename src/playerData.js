@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "doubtful", outSince: "2026-11-03", injuryNote: "Mon Nov 16, morning - Heel: no Netherlands call, no update from the club, and Iraola's 'a matter of pain' still the last word (Football360).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "doubtful", outSince: "2026-11-03", injuryNote: "Mon Nov 16, morning - Heel fracture: no Netherlands call, no update from the club, and Iraola's 'a matter of pain' still the last word (Football360).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -1207,7 +1207,7 @@ export const DISPATCHES = [
     "byline": "Al Jazeera",
     "dateline": "Berlin · 16 November",
     "category": "Football News",
-    "body": "There is a version of tonight that only Liverpool supporters will fully enjoy. Jurgen Klopp's Germany, third in their Nations League group and level on eight points with Greece, need to beat the Netherlands at the Olympiastadion at 7.45pm to go through (Al Jazeera; Sports Mole). Both previews put Florian Wirtz in Klopp's eleven, three days after he scored in a 3-1 win in Belgrade, and Cody Gakpo in the attack of Xavi's side, which already leads the group. Virgil van Dijk, who would have captained the Dutch, is at home with what Sports Mole calls physical discomfort. Liverpool will want both their forwards back on Wednesday, preferably unbruised."
+    "body": "There is a version of tonight that only Liverpool supporters will fully enjoy. Jurgen Klopp's Germany, third in their Nations League group and level on eight points with Greece, need to beat the Netherlands at the Olympiastadion at 7.45pm to go through (Al Jazeera; Sports Mole). Both previews put Florian Wirtz in Klopp's eleven, three days after he scored in a 3-1 win in Belgrade, and Cody Gakpo in the attack of Xavi's side, which already leads the group. Virgil van Dijk, who would have captained the Dutch, is at home with what Sports Mole calls physical discomfort. Liverpool will want both players back on Wednesday, preferably unbruised."
   },
   {
     "n": "02",
@@ -1244,7 +1244,7 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   "generatedAt": "2026-11-16T08:30:00Z",
-  "summary": "Monday's Liverpool-shaped fixture is in Berlin: Jurgen Klopp's Germany, third and level on eight points with Greece, need to beat the group-leading Netherlands at the Olympiastadion at 7.45pm GMT, and both previews have Florian Wirtz and Cody Gakpo starting on opposite sides (Al Jazeera; Sports Mole). Greece, with Kostas Tsimikas, play Serbia the same night, and Trey Nyoni's England Under-21s face France in Bristol. Over the weekend Fabrizio Romano said Liverpool will not decide on a permanent deal for Ronald Araujo in January, with talks pushed to 2027 (Football365, via LiveScore), while the knock Araujo took in Buenos Aires is still undiagnosed. Dominik Szoboszlai says he needs to be ready for Hungary's decider on Tuesday (AfricaSoccer), and Rio Ngumoha says he is still learning (SABC Sport). Liverpool are fourth on eighteen, six days from United at Anfield (ESPN).",
+  "summary": "Monday's Liverpool-shaped fixture is in Berlin: Jurgen Klopp's Germany, third and level on eight points with Greece, need to beat the group-leading Netherlands at the Olympiastadion at 7.45pm GMT, and both previews have Florian Wirtz and Cody Gakpo starting on opposite sides (Al Jazeera; Sports Mole). Greece, with Kostas Tsimikas, play Serbia the same night, and Trey Nyoni's England Under-21s face France in Bristol. Over the weekend Fabrizio Romano said Liverpool will not decide on a permanent deal for Ronald Araujo in January, with talks pushed to 2027 (Football365, via LiveScore), while the knock Araujo took in Buenos Aires is still undiagnosed. Dominik Szoboszlai, who says his treatment has started over again after nearly withdrawing in Tbilisi, still insists he needs to be ready for Hungary's decider on Tuesday (AfricaSoccer), and Rio Ngumoha says he is still learning (SABC Sport). Liverpool are fourth on eighteen, six days from United at Anfield (ESPN).",
   "keyTopics": [
     {
       "title": "Wirtz And Gakpo On Opposite Sides In Berlin (Al Jazeera; Sports Mole, tonight)",
@@ -1883,7 +1883,7 @@ export const SQUAD_LOAD = {
       "name": "Jeremie Frimpong",
       "issue": "Muscle injury, picked up two or three minutes after coming on at Brentford on 17 October",
       "expected": "22 November, Manchester United at home: All Out Soccer (via Yahoo Sports, Tue 2.09pm) says he is expected to be available; Sports Mole's list and Premier Injuries' tracker agree on the date",
-      "note": "A week from United and still no report of him in training. All Out Soccer's expected-available line (10 Nov, via Yahoo Sports) is the only date anyone has put on it, and with Araujo a doubt his return matters more than any other.",
+      "note": "Six days from United and still no report of him in training. All Out Soccer's expected-available line (10 Nov, via Yahoo Sports) is the only date anyone has put on it, and with Araujo a doubt his return matters more than any other.",
       "source": "All Out Soccer via Yahoo Sports; Liverpool Echo via Yahoo Sports; Sports Mole; ESPN"
     },
     {
