@@ -122,7 +122,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Tue Nov 17, morning - Contract talks are expected to open this week; his father: 'we hope that will happen this week' (Anfield Index). Still one league booking from a derby ban.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Tue Nov 17, morning - Contract talks are expected to open this week; his father: 'we hope that will happen this week' (Anfield Index). Still one league booking from a derby ban (LiveScore).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -1202,7 +1202,7 @@ export const STANDINGS_COMMENTARY = {
     "Everton": "Sixth on sixteen, level with Chelsea, and the derby comes a week after United.",
     "Manchester United": "Eighteenth on eight; Opta's precedent puts sides on that total after ten at a 41.5 per cent relegation rate (Sports Mole).",
     "Sunderland": "Nineteenth on eight, level with United; at Anfield on 2 December.",
-    "Crystal Palace": "Bottom on seven, three weeks after losing to Liverpool at Selhurst."
+    "Crystal Palace": "Bottom on seven, nine days after losing to Liverpool at Selhurst."
   }
 };
 // ─── Dispatches (hand-curated long reads — separate from the wire feed) ────
@@ -1907,7 +1907,7 @@ export const SQUAD_LOAD = {
     {
       "name": "Jeremie Frimpong",
       "issue": "Muscle injury, picked up two or three minutes after coming on at Brentford on 17 October",
-      "expected": "22 November, Manchester United at home: All Out Soccer (via Yahoo Sports, Tue 2.09pm) says he is expected to be available; Sports Mole's list and Premier Injuries' tracker agree on the date",
+      "expected": "22 November, Manchester United at home: All Out Soccer (via Yahoo Sports, Tue 10 Nov, 2.09pm) says he is expected to be available; Sports Mole's list and Premier Injuries' tracker agree on the date",
       "note": "Five days from United, still no report of him in team training. The 10 November expected-to-return line (All Out Soccer via Yahoo Sports) is the only date in print, and with Araujo playing on a knock tonight his return matters more than anyone's.",
       "source": "All Out Soccer via Yahoo Sports; Liverpool Echo via Yahoo Sports; Sports Mole; ESPN"
     },
@@ -2016,7 +2016,7 @@ export const SQUAD_LOAD = {
     {
       "position": "Central midfield",
       "level": "critical",
-      "detail": "Critical. Szoboszlai plays Northern Ireland tonight on a sprained knee; the Echo's Gorst rates neither him nor Gravenberch fully fit for Sunday (via Yahoo Sports); Mac Allister is one booking from a derby ban. Nyoni is first cover."
+      "detail": "Critical. Szoboszlai plays Northern Ireland tonight on a sprained knee; the Echo's Gorst rates neither him nor Gravenberch fully fit for Sunday (via Yahoo Sports); Mac Allister is one booking from a derby ban (LiveScore). Nyoni is first cover."
     },
     {
       "position": "Centre-forward",
