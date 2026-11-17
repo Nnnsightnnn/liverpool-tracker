@@ -606,8 +606,8 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the last of the international fixtures that mattered to Liverpool ended in a draw that changed nothing for them
-              and everything for Hungary. Dominik Szoboszlai, who nearly withdrew in the warm-up at Selhurst, struck the post
+              the last of the European fixtures that mattered to Liverpool ended in a draw that changed nothing for them
+              and everything for Hungary. Dominik Szoboszlai, who nearly withdrew in the warm-up in Tbilisi, struck the post
               inside five minutes against Northern Ireland, watched Justin Devenny send the visitors up, and walked off sound.
               Liverpool will take that trade. The morning's talk of contract talks became, by evening, a report that they had
               begun, though nobody at the club has said so. Ronald Araujo plays later still, half a world away, on a knee no one

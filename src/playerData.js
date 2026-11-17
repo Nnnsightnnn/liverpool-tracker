@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Tue Nov 17, evening - Four days from United and the break closes with no training report; Iraola called the muscle injury 'difficult to predict' (Brit Brief), and the 10 November return line is still the only date.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "injured", outSince: "2026-10-17", injuryNote: "Tue Nov 17, evening - Five days from United and the break closes with no training report; Iraola called the muscle injury 'difficult to predict' (Brit Brief), and the 10 November return line is still the only date.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "doubtful", injuryNote: "Tue Nov 17, evening - Hit the post inside five minutes as Hungary drew 1-1 with Northern Ireland (Hungarian Conservative; Sky Sports), and Liverpool.com reports he came through the game: a boost for Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "doubtful", injuryNote: "Tue Nov 17, evening - Hit the post inside five minutes as Hungary drew 1-1 with Northern Ireland (Hungarian Conservative; Sky Sports), and no injury was reported from the game (Sky Sports): a boost for Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -1194,7 +1194,7 @@ export const STANDINGS_COMMENTARY = {
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 10,
   "generatedAt": "2026-11-17T23:15:00Z",
-  "overview": "The internationals end tonight and the table has not moved since the eighth: every side on ten games, Arsenal nine points clear on twenty-seven (ESPN). Liverpool sit fourth on eighteen, the last Champions League stripe, with Chelsea and Everton two behind on sixteen and both still to come in the next four league games. Sunday's visitors are eighteenth on eight, one win in ten (ESPN), and arrive under a head coach who will have had three sessions with them. Three points would put Liverpool thirteen clear of United and keep the gap to fifth at a minimum of two, whatever Chelsea and Everton do.",
+  "overview": "The internationals end tonight and the table has not moved since the eighth: every side on ten games, Arsenal on twenty-seven, five clear of Brighton and nine ahead of Liverpool (ESPN). Liverpool sit fourth on eighteen, the last Champions League stripe, with Chelsea and Everton two behind on sixteen and both still to come in the next four league games. Sunday's visitors are eighteenth on eight, one win in ten (ESPN), and arrive under a head coach who will have had three sessions with them. Three points would put Liverpool thirteen clear of United and keep the gap to fifth at a minimum of two, whatever Chelsea and Everton do.",
   "teams": {
     "Liverpool": "Fourth on eighteen, the final Champions League place, two clear of fifth (ESPN).",
     "Arsenal": "Twenty-seven from thirty, the league's only nine-win side.",
@@ -1212,10 +1212,10 @@ export const DISPATCHES = [
   {
     "n": "01",
     "headline": "Through Budapest In One Piece.",
-    "byline": "Sky Sports",
+    "byline": "Hungarian Conservative / Sky Sports",
     "dateline": "Budapest · 17 November",
     "category": "Injuries",
-    "body": "Liverpool spent the week asking one question of the Puskas Arena, and the answer came back quietly. Dominik Szoboszlai, managing the knee he sprained at Selhurst, hit the post inside five minutes against Northern Ireland, from Bendeguz Bolla's low cross (Hungarian Conservative). Barnabas Varga put Hungary ahead on thirty-five; Justin Devenny's strike on sixty-five made it 1-1 and sent Northern Ireland up to the top tier, leaving Hungary to a spring play-off (Sky Sports). No injuries were reported from the night, and Liverpool.com called his evening an injury boost. The case for Nyoni beside Mac Allister on Sunday just got thinner."
+    "body": "Liverpool spent the week asking one question of the Puskas Arena, and the answer came back quietly. Dominik Szoboszlai, managing the knee he sprained at Selhurst, hit the post inside five minutes against Northern Ireland, from Bendeguz Bolla's low cross (Hungarian Conservative). Barnabas Varga put Hungary ahead on thirty-five; Justin Devenny's strike on sixty-five made it 1-1 and sent Northern Ireland up to the top tier, leaving Hungary to a spring play-off (Sky Sports). No injuries were reported from the night (Sky Sports), and Liverpool.com framed it as an injury boost. The case for Nyoni beside Mac Allister on Sunday just got thinner."
   },
   {
     "n": "02",
@@ -1247,17 +1247,17 @@ export const DISPATCHES = [
     "byline": "The National",
     "dateline": "Manchester · 17 November",
     "category": "Manager",
-    "body": "Mauricio Pochettino's first match as United's head coach is the hardest available, The National's preview observes: Anfield, Sunday, with United eighteenth on eight points and one league win in ten. His staff are already at Carrington preparing for his arrival on Wednesday (The National).'For me it is not difficult, we are well prepared to switch quickly,' he told reporters (Brit Brief). Liverpool fans will remember Maguire's late winner there in October 2025 (The National). They will also remember the 7-0."
+    "body": "Mauricio Pochettino's first match as United's head coach is the hardest available, The National's preview observes: Anfield, Sunday, with United eighteenth on eight points and one league win in ten. His staff are already at Carrington preparing for his arrival on Wednesday (The National). 'For me it is not difficult, we are well prepared to switch quickly,' he told reporters (Brit Brief). Liverpool fans will remember Maguire's late winner there in October 2025 (The National). They will also remember the 7-0."
   }
 ];
 export const NEWS_DIGEST = {
   "generatedAt": "2026-11-17T23:15:00Z",
-  "summary": "Tuesday evening's Liverpool news came out of Budapest: Dominik Szoboszlai, nursing the knee he sprained at Selhurst, hit the post early as Hungary drew 1-1 with Northern Ireland, who were promoted to the Nations League's top tier while Hungary go to a spring play-off (Sky Sports; Hungarian Conservative), and Liverpool.com reports he came through without a setback. The morning's contract story moved on too: Tribuna's Cesar Luis Merlo says Liverpool have now opened talks with Alexis Mac Allister, with no agreement or terms yet (via Anfield Index; Sport Witness). Bayern Munich have contacted Rio Ngumoha's representatives, TEAMtalk reports, and Liverpool are answering with an improved contract (via CaughtOffside), while James Pearce says the club see 'no glaring hole' for January but still like Monaco's Lamine Camara (via CaughtOffside). Ronald Araujo's Uruguay play the Dominican Republic after this edition, at 11.30pm GMT (Khel Now). Pochettino's United, eighteenth on eight points, are at Anfield on Sunday (ESPN; The National).",
+  "summary": "Tuesday evening's Liverpool news came out of Budapest: Dominik Szoboszlai, nursing the knee he sprained at Selhurst, hit the post early as Hungary drew 1-1 with Northern Ireland, who were promoted to the Nations League's top tier while Hungary go to a spring play-off (Sky Sports; Hungarian Conservative), and Sky Sports reported no injuries from the game. The morning's contract story moved on too: Tribuna's Cesar Luis Merlo says Liverpool have now opened talks with Alexis Mac Allister, with no agreement or terms yet (via Anfield Index; Sport Witness). Bayern Munich have contacted Rio Ngumoha's representatives, TEAMtalk reports, and Liverpool are answering with an improved contract (via CaughtOffside), while James Pearce says the club see 'no glaring hole' for January but still like Monaco's Lamine Camara (via CaughtOffside). Ronald Araujo's Uruguay play the Dominican Republic after this edition, at 11.30pm GMT (Khel Now). Pochettino's United, eighteenth on eight points, are at Anfield on Sunday (ESPN; The National).",
   "keyTopics": [
     {
-      "title": "Szoboszlai Comes Through Budapest As Hungary Draw 1-1 (Sky Sports; Liverpool.com, tonight)",
+      "title": "Szoboszlai Comes Through Budapest As Hungary Draw 1-1 (Sky Sports; Hungarian Conservative, tonight)",
       "category": "injuries",
-      "detail": "Played tonight: Szoboszlai hit the post inside five minutes (Hungarian Conservative); Varga scored on 35, Devenny equalised on 65, and no injuries were reported (Sky Sports). Liverpool.com reports him through without a setback."
+      "detail": "Played tonight: Szoboszlai hit the post inside five minutes (Hungarian Conservative); Varga scored on 35, Devenny equalised on 65, and no injuries were reported (Sky Sports). Sky Sports reported no injuries from the game."
     },
     {
       "title": "Merlo: Liverpool Have Opened Mac Allister Talks (Anfield Index; Sport Witness, this evening)",
@@ -1308,7 +1308,6 @@ export const NEWS_DIGEST = {
   "sources": [
     "Sky Sports",
     "Hungarian Conservative",
-    "Liverpool.com",
     "Anfield Index",
     "Sport Witness",
     "CaughtOffside",
@@ -1462,7 +1461,7 @@ export const OPPOSITION = {
       "note": "Premier League (ESPN)."
     }
   ],
-  "liverpoolAngle": "Szoboszlai's clean night in Budapest (Liverpool.com; Sky Sports) changes the midfield sum: if he starts beside Mac Allister, Liverpool get his set-piece delivery, which made the opener at Selhurst (ESPN), against a United side that conceded four to Villa. The exposed flank remains Liverpool's right, where Araujo plays for Uruguay late tonight on an undiagnosed knock and Frimpong has no training report, against Cunha drifting in from United's left. Liverpool's four home league goals all season (Dave.sport) are the number United will lean on; their nineteen conceded in ten (The Independent via Yahoo Sports) is the one Liverpool should.",
+  "liverpoolAngle": "Szoboszlai's clean night in Budapest (Sky Sports) changes the midfield sum: if he starts beside Mac Allister, Liverpool get his set-piece delivery, which made the opener at Selhurst (ESPN), against a United side that conceded four to Villa. The exposed flank remains Liverpool's right, where Araujo plays for Uruguay late tonight on an undiagnosed knock and Frimpong has no training report, against Cunha drifting in from United's left. Liverpool's four home league goals all season (Dave.sport) are the number United will lean on; their nineteen conceded in ten (The Independent via Yahoo Sports) is the one Liverpool should.",
   "modelLine": null,
   "sources": [
     "ESPN",
@@ -1516,7 +1515,7 @@ export const FORM_TRENDS = {
   "generatedAt": "2026-11-17T23:15:00Z",
   "competition": "PL",
   "played": 10,
-  "headline": "Nothing new has been played since Selhurst, so the numbers hold still and the question moves to who delivers them on Sunday. The set-piece goal that opened the Palace win came from Szoboszlai's free kick (ESPN), and he came through Hungary's 1-1 tonight (Liverpool.com). The home record is the weakness: four league goals at Anfield all season (Dave.sport), and four from 7.6 expected after nine games on Statz's model, an attack creating more at home than it converts. The defence has conceded fewer than its chances suggest, ten against roughly 12.8 expected across all ten league games.",
+  "headline": "Nothing new has been played since Selhurst, so the numbers hold still and the question moves to who delivers them on Sunday. The set-piece goal that opened the Palace win came from Szoboszlai's free kick (ESPN), and he finished Hungary's 1-1 tonight with no injury reported (Sky Sports). The home record is the weakness: four league goals at Anfield all season (Dave.sport), and four from 7.6 expected after nine games on Statz's model, an attack creating more at home than it converts. The defence has conceded fewer than its chances suggest, ten against roughly 12.8 expected across all ten league games.",
   "diagnosis": [
     {
       "label": "Space, not possession",
@@ -1905,14 +1904,14 @@ export const FORM_TRENDS = {
 };
 export const SQUAD_LOAD = {
   "generatedAt": "2026-11-17T23:15:00Z",
-  "headline": "The international window closes tonight with the most worrying of Liverpool's travellers home in one piece: Szoboszlai hit the post and finished Hungary's 1-1 with Northern Ireland with no injury reported (Sky Sports; Liverpool.com). One risk remains open, Araujo, whose Uruguay play at 11.30pm GMT, after this edition (Khel Now). Van Dijk and Gravenberch return to Kirkby still without a published diagnosis or date, and Frimpong without a training report, so the right side of the defence is still the thinnest part of the squad.",
+  "headline": "The international window closes tonight with the most worrying of Liverpool's travellers home in one piece: Szoboszlai hit the post and finished Hungary's 1-1 with Northern Ireland with no injury reported (Sky Sports). One risk remains open, Araujo, whose Uruguay play at 11.30pm GMT, after this edition (Khel Now). Van Dijk and Gravenberch return to Kirkby still without a published diagnosis or date, and Frimpong without a training report, so the right side of the defence is still the thinnest part of the squad.",
   "minutesNote": "Premier League minutes are not published here yet. Ten league games, four Champions League games and two Carabao Cup ties have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   "unavailable": [
     {
       "name": "Jeremie Frimpong",
       "issue": "Muscle injury, picked up two or three minutes after coming on at Brentford on 17 October",
       "expected": "22 November, Manchester United at home: All Out Soccer (via Yahoo Sports, Tue 10 Nov, 2.09pm) says he is expected to be available; Sports Mole's list and Premier Injuries' tracker agree on the date",
-      "note": "Four days from United and the break ends with no report of him in team training; Iraola called the injury 'difficult to predict' (Brit Brief, 16 Nov). The 10 November expected-to-return line (All Out Soccer via Yahoo Sports) is still the only date in print.",
+      "note": "Five days from United and the break ends with no report of him in team training; Iraola called the injury 'difficult to predict' (Brit Brief, 16 Nov). The 10 November expected-to-return line (All Out Soccer via Yahoo Sports) is still the only date in print.",
       "source": "All Out Soccer via Yahoo Sports; Brit Brief; Sports Mole; ESPN"
     },
     {
@@ -1956,7 +1955,7 @@ export const SQUAD_LOAD = {
       "name": "Dominik Szoboszlai",
       "issue": "Knee sprain (RotoWire) late in the first half at Selhurst, after a hamstring problem earlier in the autumn",
       "status": "Doubt, easing: played for Hungary in tonight's 1-1 with Northern Ireland and hit the post early (Hungarian Conservative); no injury reported (Sky Sports)",
-      "note": "Liverpool.com reports he came through the game, a boost for Sunday. The Echo's Gorst had picked Nyoni partly because he rated neither Szoboszlai nor Gravenberch fully fit (via Yahoo Sports).",
+      "note": "Sky Sports reported no injuries from the game, a boost for Sunday. The Echo's Gorst had picked Nyoni partly because he rated neither Szoboszlai nor Gravenberch fully fit (via Yahoo Sports).",
       "source": "Sky Sports / Hungarian Conservative / Liverpool.com / Liverpool Echo via Yahoo Sports"
     },
     {
@@ -2020,7 +2019,7 @@ export const SQUAD_LOAD = {
     {
       "position": "Central midfield",
       "level": "high",
-      "detail": "High, down from critical. Szoboszlai came through Hungary's 1-1 with no injury reported (Sky Sports; Liverpool.com); Gravenberch's heel is still 'day-to-day' (Brit Brief); Mac Allister is one booking from a derby ban (LiveScore). Nyoni is first cover."
+      "detail": "High, down from critical. Szoboszlai came through Hungary's 1-1 with no injury reported (Sky Sports); Gravenberch's heel is still 'day-to-day' (Brit Brief); Mac Allister is one booking from a derby ban (LiveScore). Nyoni is first cover."
     },
     {
       "position": "Centre-forward",

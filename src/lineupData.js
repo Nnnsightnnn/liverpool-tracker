@@ -393,8 +393,8 @@ export const PLAYER_EVIDENCE = {
 //   Auditor fix: Szoboszlai's warm-up admission (M4 Sport via DaveOCKOP; Nemzeti Sport via Empire of the Kop), status fit to doubtful, LDM Medium to Low; held in the XI, Nyoni the alternative.
 // Tue Nov 17 (morning): no personnel change. The Liverpool Echo's two XIs (5am, via Yahoo Sports) split on LDM, Doyle Szoboszlai and Gorst Nyoni; held at
 //   Szoboszlai, LDM stays Low, Nyoni the alternative. Araujo plays Uruguay late tonight, RB Low; Van Dijk undiagnosed, LCB Medium. All 27 evidence strings and ten rationales refreshed. Overall Medium.
-// Tue Nov 17 (evening): no personnel change. Szoboszlai hit the post and came through Hungary 1-1 Northern Ireland (Hungarian Conservative; Sky Sports;
-//   Liverpool.com), LDM raised Low to Medium; Araujo's Uruguay game falls after the edition, RB Low; Van Dijk undiagnosed, LCB Medium. All 27 evidence strings and ten rationales refreshed. Overall Medium.
+// Tue Nov 17 (evening): no personnel change. Szoboszlai hit the post and came through Hungary 1-1 Northern Ireland (Hungarian Conservative;
+//   Sky Sports), LDM raised Low to Medium; Araujo's Uruguay game falls after the edition, RB Low; Van Dijk undiagnosed, LCB Medium. All 27 evidence strings and ten rationales refreshed. Overall Medium.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -431,7 +431,7 @@ export const SLOT_RATIONALE = {
   LCB: "Tue Nov 17, evening - Van Dijk if fit, and the break ends without a club diagnosis; Gomez otherwise. Medium.",
   RCB: "Tue Nov 17, evening - Jacquet, back from France with no knock and nothing in doubt. High.",
   RB: "Tue Nov 17, evening - Araujo, whose Uruguay game starts after this edition, still undiagnosed; Gomez next. Low.",
-  LDM: "Tue Nov 17, evening - Szoboszlai, raised from Low: he hit the post and came through Budapest (Hungarian Conservative; Liverpool.com). Nyoni next. Medium.",
+  LDM: "Tue Nov 17, evening - Szoboszlai, raised from Low: he hit the post and came through Budapest, no injury reported (Hungarian Conservative; Sky Sports). Nyoni next. Medium.",
   RDM: "Tue Nov 17, evening - Mac Allister, certain to start, with talks on a new deal now reported open (Merlo via Anfield Index). High.",
   LAM: "Tue Nov 17, evening - Barcola, rested and on the left in the Echo's predicted attack; Munoz the alternate. Medium.",
   CAM: "Tue Nov 17, evening - Wirtz, the fixed No. 10 in every preview read this week. High.",
@@ -463,6 +463,6 @@ export const ALTERNATIVES = {
 export const PREDICTION_NOTE = {
   level: "Medium",
   generated_at: "2026-11-17T23:15:00Z",
-  reason: "Tue Nov 17, evening. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. Still the eleven that won 3-1 at Selhurst (ESPN). Szoboszlai hit the post and came through Hungary's 1-1 with Northern Ireland (Hungarian Conservative; Liverpool.com), so LDM rises to Medium. Van Dijk (no club diagnosis) and Araujo (Uruguay after this edition, on an undiagnosed knock) remain the holds. Medium.",
+  reason: "Tue Nov 17, evening. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. Still the eleven that won 3-1 at Selhurst (ESPN). Szoboszlai hit the post and came through Hungary's 1-1 with Northern Ireland (Hungarian Conservative; Sky Sports), so LDM rises to Medium. Van Dijk (no club diagnosis) and Araujo (Uruguay after this edition, on an undiagnosed knock) remain the holds. Medium.",
 };
 
