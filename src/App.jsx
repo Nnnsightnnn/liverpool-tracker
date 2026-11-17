@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, and the first Liverpool story of the morning is a contract: talks on a new deal for Mac Allister are
-          expected to open this week. Szoboszlai and Kerkez play for promotion in Budapest tonight, Araujo later still, and
-          by Wednesday Pochettino is at Carrington. Liverpool are fourth on eighteen; United, eighteenth, come on Sunday.
+          Tuesday night, and the knee Liverpool feared for came home intact: Szoboszlai hit the post in Budapest and
+          finished Hungary's 1-1 with Northern Ireland without a setback. By evening Mac Allister's contract talks were
+          reported open. Liverpool are fourth on eighteen, and on Sunday United, eighteenth, bring Pochettino to Anfield.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,23 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and the player nobody is worried about is the one with the open question. Alexis Mac Allister is fit, one booking
-              from a derby ban, the first name in every Liverpool midfield written this week, and still without a new contract;
-              his father says the club has not called yet, and hopes it will within days. Around him the pieces move. The Echo's
-              two writers cannot agree whether Trey Nyoni or a strapped Dominik Szoboszlai should stand beside him against United,
-              and Szoboszlai settles nothing by playing for promotion in Budapest tonight. Mauricio Pochettino coaches his last
-              American game at midnight and is at Carrington by morning. Five days out, the steadiest thing in the side is the
-              thing it has not yet signed.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the last of the international fixtures that mattered to Liverpool ended in a draw that changed nothing for them
+              and everything for Hungary. Dominik Szoboszlai, who nearly withdrew in the warm-up at Selhurst, struck the post
+              inside five minutes against Northern Ireland, watched Justin Devenny send the visitors up, and walked off sound.
+              Liverpool will take that trade. The morning's talk of contract talks became, by evening, a report that they had
+              begun, though nobody at the club has said so. Ronald Araujo plays later still, half a world away, on a knee no one
+              has named. Five days before United, the anxiety has narrowed to one flank.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: a contract before a knee; the Echo's argument over the pivot;
-              a promotion night in Budapest; Pochettino's people and his private jet; and the arithmetic of United's eight points.
-              The table has not moved since Selhurst, and United are five days away.
+              five dispatches from the writers who never clock off: Szoboszlai through Budapest; talks begun, reportedly, with
+              Mac Allister; Bayern's call about Ngumoha; a January with no glaring hole; and Pochettino's three sessions before Anfield.
+              The table has not moved since Selhurst, and United are on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3831,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "The one we are sure of, unsigned."
+        "The post rang. The knee held."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
