@@ -203,33 +203,33 @@ export const FORMATIONS = {
 // Evidence strings refreshed Sat Nov 14 (evening) against Saturday's reporting (Liverpool FC; RotoWire; Anfield Index; Stretty News; DaveOCKOP; Flashscore; The False 9).
 // Evidence strings refreshed Sun Nov 15 (morning) against the club's international guide, Sunday's England previews (Brit Brief; The Football Faithful) and Stretty News.
 export const PLAYER_EVIDENCE = {
-  1:  "Contract's final year · starts",
-  2:  "Georgia v Ukraine Tuesday",
-  3:  "Out injured for Dutch · no diagnosis",
-  5:  "Set to stay · RB or CB cover",
-  7:  "Hungary v N. Ireland Tuesday",
-  8:  "Knee · not in team training",
-  9:  "Muscle · no training report",
-  10: "ACL · steps up after break",
-  11: "Back from France · 90 in Bordeaux",
-  12: "Levante loan · Ndukwe plan",
-  13: "Costa Rica Tuesday · 1 booking",
-  14: "Heel · Lynch: 'absolutely need'",
-  15: "Knee · 'doctors say he's fine'",
-  17: "Unused this season",
-  18: "Two goals v Netherlands · fit",
-  20: "First England U21 start · 3-2 win",
-  22: "Started in Berlin · off late",
-  23: "Sweden v Poland Tuesday · fit",
+  1:  "Starts · contract final year",
+  2:  "Georgia v Ukraine tonight",
+  3:  "No diagnosis · contract to 2027",
+  5:  "RB or CB cover · fresh",
+  7:  "Hungary decider tonight · LB",
+  8:  "Knee · 2 Dec earliest",
+  9:  "Muscle · not in team training",
+  10: "ACL · full training after break",
+  11: "Starts · 90 in Bordeaux",
+  12: "Levante loan",
+  13: "Talks this week · 1 booking",
+  14: "Heel · impact sub at best (Echo)",
+  15: "N. Ireland tonight · Echo split",
+  17: "Not UEFA-listed · unused",
+  18: "Echo's No. 10 · two v Dutch",
+  20: "Gorst's pick beside Mac Allister",
+  22: "Back from Berlin · no knock",
+  23: "Sweden v Poland tonight",
   24: "Achilles · Boxing Day target",
-  25: "'Still learning' · new deal",
-  26: "Lazio ready to talk · loan",
+  25: "Bench option · new deal talk",
+  26: "Unfit · Lazio talk for Jan",
   27: "Third goalkeeper",
-  28: "Home from Spain · no knock",
-  29: "No diagnosis · future to 2027",
-  30: "Done with France · no knock",
-  31: "Wales v Portugal Tuesday",
-  32: "90 mins v Serbia · Greece out",
+  28: "Unused by Spain · bench",
+  29: "Uruguay late tonight · knock",
+  30: "Rested · Echo's left-sider",
+  31: "Wales v Portugal tonight",
+  32: "Deputy LB · Greece done",
 };
 
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
@@ -391,6 +391,8 @@ export const PLAYER_EVIDENCE = {
 // Sun Nov 15 (morning): no personnel change. No update overnight on Araujo's knock (Stretty News), held at RB, Low, with Gomez the alternative; Ngumoha may start
 //   for England tonight (Brit Brief); Van Dijk undiagnosed, LCB Medium. All 27 evidence strings and ten rationales refreshed. Overall Medium.
 //   Auditor fix: Szoboszlai's warm-up admission (M4 Sport via DaveOCKOP; Nemzeti Sport via Empire of the Kop), status fit to doubtful, LDM Medium to Low; held in the XI, Nyoni the alternative.
+// Tue Nov 17 (morning): no personnel change. The Liverpool Echo's two XIs (5am, via Yahoo Sports) split on LDM, Doyle Szoboszlai and Gorst Nyoni; held at
+//   Szoboszlai, LDM stays Low, Nyoni the alternative. Araujo plays Uruguay late tonight, RB Low; Van Dijk undiagnosed, LCB Medium. All 27 evidence strings and ten rationales refreshed. Overall Medium.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -423,16 +425,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Mon Nov 16, evening - Kerkez, one Hungary game left on Tuesday; Tsimikas, ninety minutes for Greece tonight, the deputy. Medium.",
-  LCB: "Mon Nov 16, evening - Van Dijk only if the injury that kept him out of Berlin has cleared (101 Great Goals); no club diagnosis. Gomez otherwise. Medium.",
-  RCB: "Mon Nov 16, evening - Jacquet, the one centre-back with a clean bill and a full ninety for France behind him. High.",
-  RB: "Mon Nov 16, evening - Araujo, held pending a diagnosis on the Buenos Aires knock and Uruguay's game on Tuesday; Gomez if not. Low.",
-  LDM: "Mon Nov 16, evening - Szoboszlai, held; Rossi says the doctors call him fine (Anfield Index), but Northern Ireland come first. Nyoni next. Low.",
-  RDM: "Mon Nov 16, evening - Mac Allister, after Costa Rica in Cordoba on Tuesday, one booking from a derby ban. High.",
-  LAM: "Mon Nov 16, evening - Barcola, rested since Sunday's hour for France; Munoz, home without minutes, the alternate. Medium.",
-  CAM: "Mon Nov 16, evening - Wirtz, two goals in Germany's 5-0 win tonight and off with fifteen minutes left (Liverpool FC). High.",
-  RAM: "Mon Nov 16, evening - Gakpo, started and came off late in Berlin with no reported knock (Liverpool FC); Ngumoha the reserve. Medium.",
-  ST: "Mon Nov 16, evening - Isak, one Sweden game left, in Wroclaw on Tuesday; Koumas the only cover. High.",
+  LB: "Tue Nov 17, morning - Kerkez, left-back for Hungary in Budapest tonight (Sports Mole); Tsimikas, done with Greece, the cover. Medium.",
+  LCB: "Tue Nov 17, morning - Van Dijk, if fit: still no diagnosis on the issue that cost him the Dutch window. Gomez otherwise. Medium.",
+  RCB: "Tue Nov 17, morning - Jacquet, unchanged in the Echo's back four (via Yahoo Sports) and the one centre-back with no question over him. High.",
+  RB: "Tue Nov 17, morning - Araujo, playing for Uruguay at 11.30pm GMT tonight (Khel Now) on an undiagnosed knock; Gomez next. Low.",
+  LDM: "Tue Nov 17, morning - Szoboszlai, held; the Echo splits, Doyle for him and Gorst for Nyoni (via Yahoo Sports). Hungary first, tonight. Low.",
+  RDM: "Tue Nov 17, morning - Mac Allister, the Echo's one certain midfielder, with contract talks expected this week (Anfield Index). High.",
+  LAM: "Tue Nov 17, morning - Barcola, rested since Sunday and in the Echo's unchanged attack; Munoz the alternate. Medium.",
+  CAM: "Tue Nov 17, morning - Wirtz, the No. 10 in both Echo writers' sheets after two goals for Germany. High.",
+  RAM: "Tue Nov 17, morning - Gakpo, home from Berlin with no knock reported; Ngumoha the reserve. Medium.",
+  ST: "Tue Nov 17, morning - Isak, Sweden's last game tonight in Wroclaw; Koumas the only senior cover. High.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -458,7 +460,7 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-11-16T22:30:00Z",
-  reason: "Mon Nov 16, evening. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. Still the eleven that won 3-1 at Selhurst (ESPN). Wirtz scored twice in Germany's 5-0 win over Gakpo's Netherlands tonight and both came off late (Liverpool FC). The holds are unchanged: Van Dijk, listed out injured by the Dutch (101 Great Goals), Araujo at right-back with an undiagnosed knock, and Szoboszlai at LDM, whom Hungary's coach calls fine before Tuesday's decider (Anfield Index). Medium.",
+  generated_at: "2026-11-17T09:30:00Z",
+  reason: "Tue Nov 17, morning. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. Still the eleven that won 3-1 at Selhurst (ESPN). The Liverpool Echo's two writers (via Yahoo Sports) keep the same defence and attack and split only on Mac Allister's partner: Doyle picks Szoboszlai, Gorst picks Nyoni; held here at Szoboszlai, who plays Northern Ireland tonight. Van Dijk (no diagnosis) and Araujo (Uruguay late tonight on an undiagnosed knock) are the other holds. Medium.",
 };
 

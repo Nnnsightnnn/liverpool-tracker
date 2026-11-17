@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tonight Wirtz scored twice in Berlin as Klopp's Germany took the Netherlands apart, five without reply, with Gakpo
-          on the losing side and Van Dijk absent injured. Liverpool are fourth on eighteen and United come to Anfield on
-          Sunday, so the useful news is that both forwards came off late and whole.
+          Tuesday, and the first Liverpool story of the morning is a contract: talks on a new deal for Mac Allister are
+          expected to open this week. Szoboszlai and Kerkez play for promotion in Budapest tonight, Araujo later still, and
+          by Wednesday Pochettino is at Carrington. Liverpool are fourth on eighteen; United, eighteenth, come on Sunday.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              in the Olympiastadion, Florian Wirtz did the thing Liverpool bought him to do, twice: a left-footed strike from
-              outside the area on the hour, a volley off the underside of the bar eleven minutes later, and Jurgen Klopp's Germany
-              beat the Netherlands 5-0 to top their group. Cody Gakpo started for the Dutch, who still go through, and was spared
-              the last quarter of an hour. Virgil van Dijk was not there at all, listed as injured, and that absence travels home
-              with Liverpool more heavily than any of the goals. From Hungary's camp, the coach says the doctors call Dominik
-              Szoboszlai fine. Six days from United, the club has one forward in form and a captain it cannot yet account for.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and the player nobody is worried about is the one with the open question. Alexis Mac Allister is fit, one booking
+              from a derby ban, the first name in every Liverpool midfield written this week, and still without a new contract;
+              his father says the club has not called yet, and hopes it will within days. Around him the pieces move. The Echo's
+              two writers cannot agree whether Trey Nyoni or a strapped Dominik Szoboszlai should stand beside him against United,
+              and Szoboszlai settles nothing by playing for promotion in Budapest tonight. Mauricio Pochettino coaches his last
+              American game at midnight and is at Carrington by morning. Five days out, the steadiest thing in the side is the
+              thing it has not yet signed.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: two for Wirtz in Berlin; Gakpo on the wrong end; a coach's
-              word on a knee; a first start in Bristol; and Pochettino's staff arriving ahead of him. The table has not moved
-              since Selhurst, and United are six days away.
+              five dispatches from the writers who never clock off: a contract before a knee; the Echo's argument over the pivot;
+              a promotion night in Budapest; Pochettino's people and his private jet; and the arithmetic of United's eight points.
+              The table has not moved since Selhurst, and United are five days away.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Two in Berlin. Sunday next."
+        "The one we are sure of, unsigned."
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
