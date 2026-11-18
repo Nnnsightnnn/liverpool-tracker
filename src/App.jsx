@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday morning, and the last of Liverpool's travellers has played: Araujo came off the bench in Uruguay's
-          5-0 win in Maldonado, knock and all. Pochettino reaches Carrington today with seven names on United's injury list.
-          Liverpool are fourth on eighteen, and on Sunday at Anfield they can open a thirteen-point gap on his side.
+          Wednesday evening, and two faces long missing from the grass at Kirkby are back on it: Conor Bradley and
+          Giovanni Leoni have rejoined first-team training, though neither is close to Sunday. Pochettino pulled into
+          Carrington at lunchtime with three sessions to prepare. Liverpool, fourth on eighteen, host his United in four days.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and for the first time in a fortnight nobody Liverpool worries about is playing for anybody else. The last of
-              them, Ronald Araujo, came off the bench in Maldonado as Uruguay put five past the Dominican Republic, and whatever
-              the knock from Buenos Aires was, it did not keep him in his tracksuit. The man who will try to stop Liverpool on
-              Sunday spent the same night in Cincinnati, winning his last game for the United States and promising a television
-              studio that Manchester would not always be blue. He reaches Carrington today with four days and a long list
-              of the injured. Liverpool's own list is shorter and slower, and Glen Johnson asks that nobody hurry it. Sunday asks
-              only who is fit now.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the right-back Liverpool have been missing since January is training with the men he will one day compete
+              with again. Conor Bradley and Giovanni Leoni are back in first-team work, The Times and The Athletic report, ten
+              months and fourteen months after their knees gave way. Nobody pretends either will face United; the reporting
+              speaks of weeks of conditioning, and Leoni's return has already slipped twice. Across the Pennines, Pochettino
+              arrived at Carrington just before half past twelve and will take his first session tomorrow, three in all before
+              Anfield. Szoboszlai, meanwhile, played ninety minutes for Hungary with his right knee strapped. Some recoveries
+              are measured in months, and some in the days before a Sunday.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: Araujo off the bench in Maldonado; Pochettino's 'give me
-              time'; seven names on United's clipboard; the case for patience with the long-term injured; and a January list drafted by others.
+              five dispatches from the writers who never clock off: Bradley and Leoni back on the grass; Pochettino at the
+              Carrington gate; Szoboszlai's strapped knee; Rashford and Shaw racing the clock; and the December date Ekitike is chasing.
               The table has not moved since Selhurst, and United are on Sunday.
             </p>
           </div>
@@ -3831,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        "Give me time," said the visitor.
+        Back on the grass, not yet the teamsheet.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

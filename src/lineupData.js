@@ -204,35 +204,34 @@ export const FORMATIONS = {
 // Evidence strings refreshed Sun Nov 15 (morning) against the club's international guide, Sunday's England previews (Brit Brief; The Football Faithful) and Stretty News.
 // Evidence strings refreshed Wed Nov 18 (morning) against Gulf News (Uruguay 5-0), the club's Tuesday round-up and the Echo's Glen Johnson piece.
 export const PLAYER_EVIDENCE = {
-  1:  "Starts · Sunday's fixed point",
-  2:  "Started v Ukraine · No. 2",
-  3:  "No diagnosis · break over",
-  5:  "Ready for RB or CB",
-  7:  "90 mins in Budapest · starts",
-  8:  "Knee · Johnson: don't rush",
-  9:  "Muscle · no training yet",
-  10: "ACL · 'silly gamble' to rush",
+  1:  "Starts v United · no doubt",
+  2:  "Back from Georgia · No. 2",
+  3:  "Availability unannounced",
+  5:  "RB or CB cover for Sunday",
+  7:  "Left-back · starts Sunday",
+  8:  "Knee · back in team training",
+  9:  "Muscle · doubt for United",
+  10: "ACL · back in team training",
   11: "Certain at centre-back",
-  12: "Levante loan · no news",
-  13: "Talks open · 1 booking off ban",
-  14: "Heel · no update",
-  15: "Captained Hungary · no knock",
-  17: "Midfield depth · fresh",
-  18: "Starts at ten · 2 for Germany",
-  20: "Next in midfield",
-  22: "Starts right · no knock",
-  23: "Starts · only fit No. 9",
-  24: "Achilles · eyes New Year",
-  25: "Reserve winger · Bayern keen",
-  26: "Short of fitness · Jan loan talk",
+  12: "Levante loan · CB pipeline",
+  13: "Starts · talks, no terms",
+  14: "Heel · managed day-to-day",
+  15: "90 mins, knee strapped",
+  17: "Third in midfield queue",
+  18: "Starts at ten · fit",
+  20: "First in if LDM breaks",
+  22: "Starts right · fit",
+  23: "Starts · lone fit No. 9",
+  24: "Achilles · December target",
+  25: "Bench · either flank",
+  26: "Short of fitness · Lazio talk",
   27: "Third goalkeeper",
   28: "Bench · wide reserve",
-  29: "Off bench in 5-0 · RB",
-  30: "Starts left · fresh",
-  31: "Late sub v Portugal · cover",
-  32: "Kerkez's deputy",
+  29: "Starts RB · knock undiagnosed",
+  30: "Starts left · rested window",
+  31: "Isak's only senior cover",
+  32: "Kerkez's deputy, unchanged",
 };
-
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
 // now pointed at Manchester City at home on Sunday 11 October, 4.30pm at Anfield. This is no
 // longer a predicted XI assembled from previews. It is the eleven that beat Bournemouth 1-0 on 20 September, confirmed by ESPN and the BBC: Alisson in goal, Van Dijk and Jacquet at centre-back,
@@ -398,6 +397,8 @@ export const PLAYER_EVIDENCE = {
 //   Sky Sports), LDM raised Low to Medium; Araujo's Uruguay game falls after the edition, RB Low; Van Dijk undiagnosed, LCB Medium. All 27 evidence strings and ten rationales refreshed. Overall Medium.
 // Wed Nov 18 (morning): no personnel change. Araujo came off the bench in Uruguay's 5-0 win over the Dominican Republic (Gulf News), so RB rises Low to
 //   Medium with Gomez the alternative; Szoboszlai captained Hungary (Liverpool FC), LDM Medium; Van Dijk undiagnosed, LCB Medium. All 27 evidence strings and ten rationales refreshed. Overall Medium.
+// Wed Nov 18 (evening): no personnel change. Bradley and Leoni back in first-team training (The Times; The Athletic) but not in contention; Szoboszlai's
+//   ninety with a strapped knee (Brit Brief) keeps LDM Medium; Van Dijk unannounced, LCB Medium. All 27 evidence strings and ten rationales refreshed. Overall Medium.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -430,16 +431,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Wed Nov 18, morning - Kerkez, ninety minutes for Hungary in Budapest (Liverpool FC); Tsimikas the cover. Medium.",
-  LCB: "Wed Nov 18, morning - Van Dijk if fit; Liverpool regroup with his issue still unnamed. Gomez otherwise. Medium.",
-  RCB: "Wed Nov 18, morning - Jacquet, the settled half of the pair, with no question over him. High.",
-  RB: "Wed Nov 18, morning - Araujo, raised from Low: he came off the bench in Uruguay's 5-0 (Gulf News), knock undiagnosed. Gomez next. Medium.",
-  LDM: "Wed Nov 18, morning - Szoboszlai, who captained Hungary through the 1-1 (Liverpool FC) with no injury reported. Nyoni next. Medium.",
-  RDM: "Wed Nov 18, morning - Mac Allister, certain to start while his contract talks run (LiveScore). High.",
-  LAM: "Wed Nov 18, morning - Barcola, fresh after a rested window; Munoz the alternate. Medium.",
-  CAM: "Wed Nov 18, morning - Wirtz, back from Germany duty with two goals against the Netherlands. High.",
-  RAM: "Wed Nov 18, morning - Gakpo, back from the Dutch camp without a reported knock; Ngumoha the reserve. Medium.",
-  ST: "Wed Nov 18, morning - Isak, the only fit senior nine; Koumas, a late sub for Wales, the cover. High.",
+  LB: "Wed Nov 18, evening - Kerkez, with no knock reported since Budapest; Tsimikas behind him. Medium.",
+  LCB: "Wed Nov 18, evening - Van Dijk, held, though the club has not said he is available (Dave.sport). Gomez if not. Medium.",
+  RCB: "Wed Nov 18, evening - Jacquet; Leoni's return to team training (The Times) is depth for December, not a rival now. High.",
+  RB: "Wed Nov 18, evening - Araujo; Bradley is back in team training but weeks away (SI), Frimpong a doubt. Gomez next. Medium.",
+  LDM: "Wed Nov 18, evening - Szoboszlai, ninety for Hungary with the right knee strapped (Brit Brief). Nyoni next. Medium.",
+  RDM: "Wed Nov 18, evening - Mac Allister, scorer for Argentina against Costa Rica (Brit Brief). High.",
+  LAM: "Wed Nov 18, evening - Barcola on the left, as at Selhurst; Munoz the alternative. Medium.",
+  CAM: "Wed Nov 18, evening - Wirtz, unchanged since Selhurst and fit. High.",
+  RAM: "Wed Nov 18, evening - Gakpo on the right; Ngumoha is the bench option on either flank. Medium.",
+  ST: "Wed Nov 18, evening - Isak, alone until Ekitike's December target (The Athletic via SI). High.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -465,7 +466,7 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-11-18T08:30:00Z",
-  reason: "Wed Nov 18, morning. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. Still the eleven that won 3-1 at Selhurst (ESPN). Araujo came off the bench in Uruguay's 5-0 win in Maldonado (Gulf News), so RB rises from Low to Medium; Szoboszlai captained Hungary (Liverpool FC). Van Dijk, with no club diagnosis, is the remaining hold. Medium.",
+  generated_at: "2026-11-18T22:30:00Z",
+  reason: "Wed Nov 18, evening. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. 11 of 11 started the 3-1 at Selhurst (ESPN). Bradley and Leoni are back in team training but not in contention (SI); Szoboszlai played ninety for Hungary with his knee strapped (Brit Brief), and Van Dijk's availability is unannounced (Dave.sport). Medium.",
 };
 
