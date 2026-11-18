@@ -610,7 +610,7 @@ function CoverView({ onJump }) {
               them, Ronald Araujo, came off the bench in Maldonado as Uruguay put five past the Dominican Republic, and whatever
               the knock from Buenos Aires was, it did not keep him in his tracksuit. The man who will try to stop Liverpool on
               Sunday spent the same night in Cincinnati, winning his last game for the United States and promising a television
-              studio that Manchester would not always be blue. He reaches Carrington this morning with four days and a long list
+              studio that Manchester would not always be blue. He reaches Carrington today with four days and a long list
               of the injured. Liverpool's own list is shorter and slower, and Glen Johnson asks that nobody hurry it. Sunday asks
               only who is fit now.
             </p>

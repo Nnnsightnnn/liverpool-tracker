@@ -1274,6 +1274,11 @@ export const NEWS_DIGEST = {
       "detail": "Published at 5.43am today: Sesko out until the new year, Ugarte recovering from cruciate surgery, Baleba 'weeks out'; Maguire (back), Dorgu (hamstring), Shaw (muscle) and Rashford (hip) all doubts for Sunday."
     },
     {
+      "title": "Pochettino Brings Two New Rules, Details Undisclosed (Brit Brief, today)",
+      "category": "general",
+      "detail": "Published at 7.21am today: Pochettino has reportedly introduced two new rules for his players; Brit Brief says the details have not been disclosed."
+    },
+    {
       "title": "Johnson: Rushing Leoni, Bradley Or Ekitike Would Be 'A Silly Gamble' (Liverpool Echo via Yahoo Sports, today)",
       "category": "injuries",
       "detail": "Published at 5am today: the former Liverpool full-back thinks it could be too much to expect all three back to their best this season; Ekitike has said he wants to return before the New Year."
@@ -1292,11 +1297,6 @@ export const NEWS_DIGEST = {
       "title": "Carragher Wants A Full-Back And A Midfielder In January (FootballTransfers via LiveScore, today)",
       "category": "transfers",
       "detail": "Summarised this morning: Carragher urged Iraola to strengthen in January, with full-back and midfield the priorities, a day after James Pearce reported the club see no glaring hole."
-    },
-    {
-      "title": "Pochettino Brings Two New Rules, Details Undisclosed (Brit Brief, today)",
-      "category": "general",
-      "detail": "Published at 7.21am today: Pochettino has reportedly introduced two new rules for his players; Brit Brief says the details have not been disclosed."
     },
     {
       "title": "Eleven Liverpool Players In Action On Tuesday (Liverpool FC, 1d ago)",
@@ -1558,8 +1558,8 @@ export const FORM_TRENDS = {
     {
       "label": "Right-back by elimination",
       "severity": "high",
-      "source": "ESPN / Read Liverpool / Anfield Index",
-      "detail": "Araujo started there again at Selhurst and was booked on twenty-four, replaced by Gomez in stoppage time (ESPN). Frimpong has missed the six games since Brentford, Bradley is still working back (Read Liverpool), and Araujo finished Uruguay's win in Buenos Aires walking with difficulty (Anfield Index)."
+      "source": "ESPN / Read Liverpool / Anfield Index / Gulf News",
+      "detail": "Araujo started there again at Selhurst and was booked on twenty-four, replaced by Gomez in stoppage time (ESPN). Frimpong has missed the six games since Brentford, Bradley is still working back (Read Liverpool), and Araujo, who finished Uruguay's win in Buenos Aires walking with difficulty (Anfield Index), came off the bench in their 5-0 over the Dominican Republic on 17 November (Gulf News)."
     }
   ],
   "matches": [
@@ -1976,7 +1976,7 @@ export const SQUAD_LOAD = {
     {
       "name": "Ryan Gravenberch",
       "issue": "Fracture of the heel",
-      "status": "Not in the matchday squad at Selhurst (ESPN)",
+      "status": "Doubt; not in the matchday squad at Selhurst (ESPN), no update as Liverpool regroup on 18 November",
       "note": "Iraola: 'The Ryan Gravenberch thing is a day-to-day thing' (Brit Brief, 16 Nov); no update as the break closes.",
       "source": "ESPN / Brit Brief / Liverpool Echo via Yahoo Sports"
     },
@@ -2163,7 +2163,7 @@ export const SEASON_PROJECTION = {
   "pointsPerGame": 1.8,
   "projectedPoints": 68,
   "projectedFinish": "Champions League par on current pace, with nothing to spare",
-  "headline": "Ten games, eighteen points, 1.80 a game: a sixty-eight point pace that sits on fourth-place par to the point (ESPN). Nothing moves it until Sunday, when Pochettino's United, eighteenth, open a stretch with three Anfield league games in six. It is a rate drawn from ten matches, not a forecast.",
+  "headline": "Ten games, eighteen points, 1.80 a game: a sixty-eight point pace that sits on fourth-place par to the point (ESPN). Nothing moves it until Sunday, when Pochettino's United, eighteenth, open a stretch with four Anfield league games in six. It is a rate drawn from ten matches, not a forecast.",
   "thresholds": [
     {
       "label": "Champions League (top 4)",

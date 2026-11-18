@@ -224,7 +224,7 @@ export const PLAYER_EVIDENCE = {
   23: "Starts · only fit No. 9",
   24: "Achilles · eyes New Year",
   25: "Reserve winger · Bayern keen",
-  26: "Unfit · January loan talk",
+  26: "Short of fitness · Jan loan talk",
   27: "Third goalkeeper",
   28: "Bench · wide reserve",
   29: "Off bench in 5-0 · RB",
