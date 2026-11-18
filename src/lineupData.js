@@ -206,7 +206,7 @@ export const FORMATIONS = {
 export const PLAYER_EVIDENCE = {
   1:  "Starts v United · no doubt",
   2:  "Back from Georgia · No. 2",
-  3:  "Availability unannounced",
+  3:  "Expected fit · unconfirmed",
   5:  "RB or CB cover for Sunday",
   7:  "Left-back · starts Sunday",
   8:  "Knee · back in team training",
@@ -432,7 +432,7 @@ export const SLOT_CONFIDENCE = {
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
   LB: "Wed Nov 18, evening - Kerkez, with no knock reported since Budapest; Tsimikas behind him. Medium.",
-  LCB: "Wed Nov 18, evening - Van Dijk, held, though the club has not said he is available (Dave.sport). Gomez if not. Medium.",
+  LCB: "Wed Nov 18, evening - Van Dijk, reported expected to be fit (Brit Brief), unconfirmed by the club. Gomez if not. Medium.",
   RCB: "Wed Nov 18, evening - Jacquet; Leoni's return to team training (The Times) is depth for December, not a rival now. High.",
   RB: "Wed Nov 18, evening - Araujo; Bradley is back in team training but weeks away (SI), Frimpong a doubt. Gomez next. Medium.",
   LDM: "Wed Nov 18, evening - Szoboszlai, ninety for Hungary with the right knee strapped (Brit Brief). Nyoni next. Medium.",

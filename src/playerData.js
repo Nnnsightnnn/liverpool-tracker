@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "doubtful", injuryNote: "Wed Nov 18, evening - Liverpool have not said whether he is available for Sunday (Dave.sport); Pearce had him playing through a minor problem before the Dutch FA withdrew him (Sports Mole).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "doubtful", injuryNote: "Wed Nov 18, evening - Expected to be fit after what he called 'a little niggle the last couple of weeks' (Brit Brief), though Liverpool have not confirmed his availability (Dave.sport).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -1237,7 +1237,7 @@ export const DISPATCHES = [
     "byline": "Brit Brief / Dave.sport",
     "dateline": "Budapest · 17 November",
     "category": "Injuries",
-    "body": "Dominik Szoboszlai left Selhurst Park on sixty-nine minutes with a large bandage round his knee and Andoni Iraola saying he 'definitely wasn't 100%' (Sports Mole). Ten days later he captained Hungary for the whole of the 1-1 with Northern Ireland, the right knee strapped (Brit Brief; Dave.sport). Before the Georgia game he had admitted that 'the treatment process starts all over again' (Sports Mole). Liverpool would have preferred he sat out Budapest. He did not, and he came through, which is either the best news of the week or a debt that has not yet been called in. Sunday will say which."
+    "body": "Dominik Szoboszlai left Selhurst Park on sixty-nine minutes with a large bandage round his knee and Andoni Iraola saying he 'definitely wasn't 100%' (Sports Mole). Nine days later he captained Hungary for the whole of the 1-1 with Northern Ireland, the right knee strapped (Brit Brief; Dave.sport). Before the Georgia game he had admitted that 'the treatment process starts all over again' (Sports Mole). Liverpool would have preferred he sat out Budapest. He did not, and he came through, which is either the best news of the week or a debt that has not yet been called in. Sunday will say which."
   },
   {
     "n": "04",
@@ -1286,19 +1286,14 @@ export const NEWS_DIGEST = {
       "detail": "Published at 10.23am today: The Times reportedly gives Sunday as a possible return for Rashford after six games out; Shaw, out since 10 October, is also aiming for it, and Lisandro Martinez is available after suspension."
     },
     {
-      "title": "Van Dijk Still Without A Published Diagnosis (Dave.sport, today)",
+      "title": "Van Dijk Expected To Be Fit, Club Yet To Confirm (Brit Brief / Dave.sport, today)",
       "category": "injuries",
-      "detail": "Noted again today: Liverpool have not said whether the captain, withdrawn by the Netherlands with what the Dutch FA called a fitness issue, is available for Sunday. Pearce had reported him playing through a minor problem (Sports Mole, 10 Nov)."
+      "detail": "Reported today: Brit Brief says the captain, withdrawn by the Netherlands, is expected to be fit, after he described 'a little niggle the last couple of weeks'; Dave.sport notes Liverpool have not confirmed his availability. He stays a doubt until the club says otherwise."
     },
     {
       "title": "Leoni's Return Was Held Back For Strengthening (Anfield Index, today)",
       "category": "injuries",
       "detail": "Detailed in this evening's piece: the 19-year-old had hoped to resume training in October, but the medical department wanted more strengthening work first. He joined from Parma for an initial £26 million (Anfield Index via Yahoo Sports)."
-    },
-    {
-      "title": "Liverpool Opened Mac Allister Talks, LiveScore Digest Repeats (LiveScore, today)",
-      "category": "transfers",
-      "detail": "Wednesday's digest leads on it, citing Cesar Luis Merlo via Sport Witness; no terms have been published, and Sports Mole (11 Nov) had reported no offer on the table a week earlier."
     },
     {
       "title": "United's Three-Day Head Start Under Pochettino's Staff (The People's Person, 2d ago)",
@@ -1309,6 +1304,11 @@ export const NEWS_DIGEST = {
       "title": "Liverpool Have Conceded Two Fast-Break Goals (Opta via SI, 3d ago)",
       "category": "tactics",
       "detail": "Cited on Sunday in SI's case for a counter-attacking United under Pochettino, built around Mbeumo's running: Opta has Liverpool conceding two goals from fast breaks this season."
+    },
+    {
+      "title": "Mac Allister Talks Still Without Terms (LiveScore, ongoing since 17 Nov)",
+      "category": "transfers",
+      "detail": "Wednesday's digest leads on it, citing Cesar Luis Merlo via Sport Witness; no terms have been published, and Sports Mole (11 Nov) had reported no offer on the table a week earlier."
     }
   ],
   "sources": [
@@ -1937,7 +1937,7 @@ export const SQUAD_LOAD = {
     {
       "name": "Jeremie Frimpong",
       "issue": "Muscle injury, picked up two or three minutes after coming on at Brentford on 17 October",
-      "expected": "22 November, Manchester United at home: All Out Soccer (via Yahoo Sports, Tue 10 Nov, 2.09pm) says he is expected to be available; Sports Mole's list and Premier Injuries' tracker agree on the date",
+      "expected": "Doubt for 22 November, Manchester United at home (Rush The Kop via LiveScore); All Out Soccer (via Yahoo Sports, 10 Nov) had expected him available, but no return to training has been reported since",
       "note": "Wednesday's reports of Bradley and Leoni rejoining the group did not name him; Rush The Kop (via LiveScore) lists him among four Liverpool doubts, and Iraola called the injury 'difficult to predict' (Brit Brief, 16 Nov).",
       "source": "All Out Soccer via Yahoo Sports; Brit Brief; Rush The Kop via LiveScore; ESPN"
     },
@@ -1968,7 +1968,7 @@ export const SQUAD_LOAD = {
       "name": "Virgil van Dijk",
       "issue": "Unspecified fitness issue after ninety minutes at Selhurst",
       "status": "Doubt; absent all window, listed 'out injured' in the Netherlands' Berlin line-ups (101 Great Goals); no club diagnosis",
-      "note": "Liverpool have not said whether he is available for Sunday (Dave.sport, 18 Nov). Pearce reported him playing through a minor problem in recent weeks, and he had started fourteen of fifteen appearances before the break (Sports Mole).",
+      "note": "Brit Brief (18 Nov) says he is expected to be fit, quoting him on 'a little niggle the last couple of weeks'; the club has not confirmed it (Dave.sport). Pearce reported him playing through a minor problem in recent weeks, and he had started fourteen of fifteen appearances before the break (Sports Mole).",
       "source": "Dave.sport / Sports Mole / 101 Great Goals / The False 9"
     },
     {
