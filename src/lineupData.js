@@ -60,7 +60,7 @@ export const FORMATIONS = {
       LB: 7,  // Kerkez (ninety-five minutes at Selhurst)
       LCB: 3, // Van Dijk
       RCB: 11, // Jacquet
-      RB: 29, // Araujo (started at Selhurst; Frimpong and Bradley out)
+      RB: 29, // Araujo (started at Selhurst; Frimpong back in training, bench at best; Bradley out)
       LCM: 13, // Mac Allister
       CM: 15, // Szoboszlai (started at Selhurst; knee knock, Nyoni the alternative)
       RCM: 18, // Wirtz (scored at Selhurst)
@@ -203,34 +203,35 @@ export const FORMATIONS = {
 // Evidence strings refreshed Sat Nov 14 (evening) against Saturday's reporting (Liverpool FC; RotoWire; Anfield Index; Stretty News; DaveOCKOP; Flashscore; The False 9).
 // Evidence strings refreshed Sun Nov 15 (morning) against the club's international guide, Sunday's England previews (Brit Brief; The Football Faithful) and Stretty News.
 // Evidence strings refreshed Wed Nov 18 (morning) against Gulf News (Uruguay 5-0), the club's Tuesday round-up and the Echo's Glen Johnson piece.
+// Evidence strings refreshed Thu Nov 19 (morning) against Brit Brief, Premier League News Now and the Evening Standard (via AOL).
 export const PLAYER_EVIDENCE = {
-  1:  "Starts v United · no doubt",
-  2:  "Back from Georgia · No. 2",
-  3:  "Expected fit · unconfirmed",
-  5:  "RB or CB cover for Sunday",
-  7:  "Left-back · starts Sunday",
-  8:  "Knee · back in team training",
-  9:  "Muscle · doubt for United",
-  10: "ACL · back in team training",
-  11: "Certain at centre-back",
+  1:  "Starts v United · fit",
+  2:  "No. 2 · bench Sunday",
+  3:  "Likely, not certain · Fri update",
+  5:  "Bench · RB and CB cover",
+  7:  "Starts at left-back",
+  8:  "Knee · 2 Dec possible return",
+  9:  "Back training · bench at best",
+  10: "ACL · 12 Dec possible return",
+  11: "Starts · fixed at CB",
   12: "Levante loan · CB pipeline",
-  13: "Starts · talks, no terms",
-  14: "Heel · managed day-to-day",
-  15: "90 mins, knee strapped",
-  17: "Third in midfield queue",
-  18: "Starts at ten · fit",
-  20: "First in if LDM breaks",
-  22: "Starts right · fit",
-  23: "Starts · lone fit No. 9",
-  24: "Achilles · December target",
+  13: "Starts · deal to 2028",
+  14: "Heel · not in training photos",
+  15: "Should be available · LDM",
+  17: "Fourth in midfield queue",
+  18: "Starts at ten",
+  20: "First in for midfield",
+  22: "Starts on the right",
+  23: "Starts · rested by Sweden",
+  24: "Achilles · Boxing Day target",
   25: "Bench · either flank",
-  26: "Short of fitness · Lazio talk",
+  26: "Short of fitness",
   27: "Third goalkeeper",
-  28: "Bench · wide reserve",
-  29: "Starts RB · knock undiagnosed",
-  30: "Starts left · rested window",
-  31: "Isak's only senior cover",
-  32: "Kerkez's deputy, unchanged",
+  28: "Bench · wide cover",
+  29: "Starts RB · loan to summer",
+  30: "Starts on the left",
+  31: "Isak's senior cover",
+  32: "Behind Kerkez at LB",
 };
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
 // now pointed at Manchester City at home on Sunday 11 October, 4.30pm at Anfield. This is no
@@ -399,6 +400,8 @@ export const PLAYER_EVIDENCE = {
 //   Medium with Gomez the alternative; Szoboszlai captained Hungary (Liverpool FC), LDM Medium; Van Dijk undiagnosed, LCB Medium. All 27 evidence strings and ten rationales refreshed. Overall Medium.
 // Wed Nov 18 (evening): no personnel change. Bradley and Leoni back in first-team training (The Times; The Athletic) but not in contention; Szoboszlai's
 //   ninety with a strapped knee (Brit Brief) keeps LDM Medium; Van Dijk unannounced, LCB Medium. All 27 evidence strings and ten rationales refreshed. Overall Medium.
+// Thu Nov 19 (morning): no personnel change. Frimpong pictured back in training (Brit Brief), bench at best (Premier League News Now), RB stays Medium with Araujo;
+//   Van Dijk 'likely, but not certain', LCB Medium; Szoboszlai 'should be available' (Evening Standard via AOL), LDM Medium. All 27 evidence strings and ten rationales refreshed. Overall Medium.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -431,16 +434,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Wed Nov 18, evening - Kerkez, with no knock reported since Budapest; Tsimikas behind him. Medium.",
-  LCB: "Wed Nov 18, evening - Van Dijk, reported expected to be fit (Brit Brief), unconfirmed by the club. Gomez if not. Medium.",
-  RCB: "Wed Nov 18, evening - Jacquet; Leoni's return to team training (The Times) is depth for December, not a rival now. High.",
-  RB: "Wed Nov 18, evening - Araujo; Bradley is back in team training but weeks away (SI), Frimpong a doubt. Gomez next. Medium.",
-  LDM: "Wed Nov 18, evening - Szoboszlai, ninety for Hungary with the right knee strapped (Brit Brief). Nyoni next. Medium.",
-  RDM: "Wed Nov 18, evening - Mac Allister, scorer for Argentina against Costa Rica (Brit Brief). High.",
-  LAM: "Wed Nov 18, evening - Barcola on the left, as at Selhurst; Munoz the alternative. Medium.",
-  CAM: "Wed Nov 18, evening - Wirtz, unchanged since Selhurst and fit. High.",
-  RAM: "Wed Nov 18, evening - Gakpo on the right; Ngumoha is the bench option on either flank. Medium.",
-  ST: "Wed Nov 18, evening - Isak, alone until Ekitike's December target (The Athletic via SI). High.",
+  LB: "Thu Nov 19, morning - Kerkez, back from Hungary with nothing reported; Tsimikas behind. Medium.",
+  LCB: "Thu Nov 19, morning - Van Dijk, 'likely, but not certain' (Premier League News Now) until Iraola's Friday update. Gomez if not. Medium.",
+  RCB: "Thu Nov 19, morning - Jacquet, the one centre-back with no question attached. High.",
+  RB: "Thu Nov 19, morning - Araujo; Frimpong is back in training but the bench is the likelier first step (Premier League News Now). Gomez next. Medium.",
+  LDM: "Thu Nov 19, morning - Szoboszlai, who should be available (Evening Standard via AOL). Nyoni next. Medium.",
+  RDM: "Thu Nov 19, morning - Mac Allister, talks under way, one booking from a derby ban. High.",
+  LAM: "Thu Nov 19, morning - Barcola on the left; Munoz and Ngumoha the alternatives. Medium.",
+  CAM: "Thu Nov 19, morning - Wirtz at ten, as at Selhurst. High.",
+  RAM: "Thu Nov 19, morning - Gakpo on the right; Ngumoha the bench option. Medium.",
+  ST: "Thu Nov 19, morning - Isak, rested by Sweden and fresh (Evening Standard via AOL). High.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -452,7 +455,7 @@ export const ALTERNATIVES = {
   LB:  [{ playerId: 32, reason: "Tsimikas · unused at Selhurst" }],
   LCB: [{ playerId: 5, reason: "Gomez · if Van Dijk is not fit" }],
   RCB: [{ playerId: 5, reason: "Gomez · senior cover" }],
-  RB:  [{ playerId: 5, reason: "Gomez · on for Araújo at Selhurst" }, { playerId: 9, reason: "Frimpong · if fit after the break" }],
+  RB:  [{ playerId: 5, reason: "Gomez · on for Araújo at Selhurst" }, { playerId: 9, reason: "Frimpong · back in training, bench at best" }],
   LDM: [{ playerId: 20, reason: "Nyoni · on for Szoboszlai at Selhurst" }, { playerId: 17, reason: "Endo · unused, fresh" }],
   RDM: [{ playerId: 20, reason: "Nyoni · midfield cover" }],
   LAM: [{ playerId: 28, reason: "Munoz · on for Barcola at Selhurst" }, { playerId: 25, reason: "Ngumoha · either flank" }],
@@ -466,7 +469,7 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-11-18T22:30:00Z",
-  reason: "Wed Nov 18, evening. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. 11 of 11 started the 3-1 at Selhurst (ESPN). Bradley and Leoni are back in team training but not in contention (SI); Szoboszlai played ninety for Hungary with his knee strapped (Brit Brief), and Van Dijk's availability is unannounced (Dave.sport). Medium.",
+  generated_at: "2026-11-19T09:30:00Z",
+  reason: "Thu Nov 19, morning. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. 11 of 11 started the 3-1 at Selhurst (ESPN). Frimpong is back in training but the bench is the likelier first step; Van Dijk is 'likely, but not certain' until Iraola's Friday update (Premier League News Now); Gravenberch was absent from the training photographs (Brit Brief). Medium.",
 };
 

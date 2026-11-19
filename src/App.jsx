@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday evening, and two faces long missing from the grass at Kirkby are back on it: Conor Bradley and
-          Giovanni Leoni have rejoined first-team training, though neither is close to Sunday. Pochettino pulled into
-          Carrington at lunchtime with three sessions to prepare. Liverpool, fourth on eighteen, host his United in four days.
+          Thursday morning, and Jeremie Frimpong is back in the training photographs after five weeks away, a bench
+          place against United the likeliest first step. Gravenberch is not in them, and the captain's fitness waits on
+          Iraola's Friday briefing. Pochettino takes his first United session today. Liverpool, fourth on eighteen, host them on Sunday.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,23 +605,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the right-back Liverpool have been missing since January is training with the men he will one day compete
-              with again. Conor Bradley and Giovanni Leoni are back in first-team work, The Times and The Athletic report, ten
-              months and fourteen months after their knees gave way. Nobody pretends either will face United; the reporting
-              speaks of weeks of conditioning, and Leoni's return has already slipped twice. Across the Pennines, Pochettino
-              arrived at Carrington just before half past twelve and will take his first session tomorrow, three in all before
-              Anfield. Szoboszlai, meanwhile, played ninety minutes for Hungary with his right knee strapped. Some recoveries
-              are measured in months, and some in the days before a Sunday.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the photographs from Kirkby are being read like a teamsheet. Jeremie Frimpong is in them, back in training
+              after five weeks and six missed games, though the sober reading is a seat on the bench rather than the right-back
+              slot Araujo has filled by necessity. Ryan Gravenberch is not in them, and nobody has said more than that his heel
+              is managed day to day. Virgil van Dijk is likely, not certain, until Iraola speaks on Friday. Along the M62,
+              Mauricio Pochettino takes his first United session this morning, with a side that has won once in the league
+              since August and a weekend to make it his. Liverpool have had a season with their manager; United have had a
+              Wednesday of paperwork. On Sunday the difference will either show or it will not.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: Bradley and Leoni back on the grass; Pochettino at the
-              Carrington gate; Szoboszlai's strapped knee; Rashford and Shaw racing the clock; and the December date Ekitike is chasing.
-              The table has not moved since Selhurst, and United are on Sunday.
+              five dispatches from the writers who never clock off: Frimpong's photograph; Pochettino's first morning;
+              Gravenberch's absence from the pictures; United's thinning list; and Araujo's question held over to summer.
+              The table has not moved since Selhurst, and United come on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3831,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        Back on the grass, not yet the teamsheet.
+        A photograph is not a fitness test.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

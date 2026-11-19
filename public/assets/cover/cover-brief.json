@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-01T12:00:00Z",
   "status": "OPEN",
   "tracker": "liverpool",
-  "leadStory": "Wednesday 18 November, evening: Conor Bradley and Giovanni Leoni back in Liverpool first-team training (The Times; The Athletic); Pochettino arrives at Carrington (All Out Soccer via Yahoo Sports).",
+  "leadStory": "Thursday 19 November, morning: Jeremie Frimpong pictured back in Liverpool training, a bench place the likely first step for United (Brit Brief; Premier League News Now); Pochettino's first United session today (Goal via Yahoo Sports).",
   "action": "generate",
   "note": "Kenny asked for a better cover than the hand-drawn SVG plates. Generate ONE image per the prompt, save it at `output`, then set COVER_IMAGE.src to it, credit 'Illustration · Antigravity', a fresh generatedAt, and set this file's status to CLOSED. Evergreen on purpose: it should still be right after the City result.",
   "currentPlate": "/assets/cover/2026-10-01-anfield-after-dark.svg",
