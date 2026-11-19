@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday morning, and Jeremie Frimpong is back in the training photographs after five weeks away, a bench
-          place against United the likeliest first step. Gravenberch is not in them, and the captain's fitness waits on
-          Iraola's Friday briefing. Pochettino takes his first United session today. Liverpool, fourth on eighteen, host them on Sunday.
+          Thursday evening, and the four who mattered all trained at the AXA: Van Dijk, Gravenberch, Szoboszlai with his
+          knee strapped, and a rested Isak, with no fresh knocks from the internationals. Iraola gives his verdict on Friday.
+          Liverpool, fourth on eighteen, host Pochettino's United on Sunday afternoon.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and the photographs from Kirkby are being read like a teamsheet. Jeremie Frimpong is in them, back in training
-              after five weeks and six missed games, though the sober reading is a seat on the bench rather than the right-back
-              slot Araujo has filled by necessity. Ryan Gravenberch is not in them, and nobody has said more than that his heel
-              is managed day to day. Virgil van Dijk is likely, not certain, until Iraola speaks on Friday. Along the M62,
-              Mauricio Pochettino takes his first United session this morning, with a side that has won once in the league
-              since August and a weekend to make it his. Liverpool have had a season with their manager; United have had a
-              Wednesday of paperwork. On Sunday the difference will either show or it will not.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the worry list is shorter than it was at breakfast. Sky Sports watched Virgil van Dijk, Ryan Gravenberch, Dominik
+              Szoboszlai and Alexander Isak train on Thursday, and Empire of the Kop added Araujo, Mac Allister and Frimpong to the
+              session, with no new injury from the international fortnight. Training is not selection, and Iraola will say what it
+              means at half past one on Friday. Along the M62, Pochettino's first session was filmed from above by a fan with a drone,
+              which is one way to learn that nothing at United stays private for long. He told his players it was a mistake to look
+              at the situation rather than the potential. Sunday will offer him a great deal of situation.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: Frimpong's photograph; Pochettino's first morning;
-              Gravenberch's absence from the pictures; United's thinning list; and Araujo's question held over to summer.
+              five dispatches from the writers who never clock off: a full Thursday session; a drone over Carrington;
+              Iraola's chaos, assessed; Maguire and Dorgu back on the grass; and the three who still cannot play.
               The table has not moved since Selhurst, and United come on Sunday.
             </p>
           </div>
@@ -3831,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        A photograph is not a fitness test.
+        Training is not selection.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
