@@ -73,7 +73,7 @@ function PlayerAvatar({ player, size = 64 }) {
   );
 }
 
-// ─── Player Data (2026-27 Season · Updated 19 November 2026 (morning))) ────────────────────
+// ─── Player Data (2026-27 Season · Updated 19 November 2026, morning)────────────────────
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
 // injuryNote: short description shown on card when not fit
 const PLAYERS = [
@@ -128,8 +128,8 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
+  { source: "Premier League News Now", title: "Van Dijk and Gravenberch race to be fit for Man United, as Frimpong returns to Liverpool training", time: "today", category: "major" },
   { source: "Brit Brief", title: "13 players could miss Liverpool vs Man United as injury updates imminent", time: "today", category: "major" },
-  { source: "Premier League News Now", title: "Van Dijk and Gravenberch race to be fit for Man United, as Frimpong returns to Liverpool training", time: "today", category: "fan" },
   { source: "SB Nation", title: "Bradley, Frimpong, and Leoni Back in Training for Liverpool", time: "today", category: "major" },
   { source: "Evening Standard", title: "Liverpool injury update: Virgil van Dijk, Giovanni Leoni, Jeremie Frimpong latest news and return dates", time: "today", category: "major" },
   { source: "LiveScore", title: "Liverpool open Mac Allister talks as Leoni returns", time: "today", category: "major" },

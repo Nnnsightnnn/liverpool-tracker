@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2026-27 Season · Updated 18 November 2026 (morning)) ──────
+// ─── Liverpool FC Player Data (2026-27 Season · Updated 19 November 2026 (morning)) ──────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -1307,7 +1307,7 @@ export const NEWS_DIGEST = {
     {
       "title": "United Without A League Win Since 30 August (AfricaSoccer, today)",
       "category": "general",
-      "detail": "Published early on Thursday: eighty days without a Premier League win, eight points from ten, ten behind the top four, and possibly bottom by Sunday if Palace and Sunderland both win."
+      "detail": "Published early on Thursday: no Premier League win since 30 August, eight points from ten, ten behind the top four, and possibly bottom by Sunday if Palace and Sunderland both win."
     },
     {
       "title": "Rashford And Shaw Could Play 'For The First Time In Over A Month' (UTD Report via LiveScore, 1d ago)",
@@ -1540,7 +1540,7 @@ export const FORM_TRENDS = {
   "generatedAt": "2026-11-19T09:30:00Z",
   "competition": "PL",
   "played": 10,
-  "headline": "Ten league games in, the ledger splits the same way it did before the break: fourteen goals from roughly 14.6 expected and ten conceded from roughly 12.8 on the per-match cards below, an attack finishing about to its chances and a defence living a little above its means. What Sunday tests is the counter, where Opta has Liverpool conceding two fast-break goals (via SI), against a United side that last won a league game on 30 August (AfricaSoccer). The weak column is still home scoring: four league goals at Anfield (Dave.sport) against 7.6 expected on Statz's model.",
+  "headline": "Ten league games in, the ledger splits the same way it did before the break: fourteen goals from roughly 14.6 expected and ten conceded from roughly 12.8 on the per-match cards below, an attack finishing about to its chances and a defence living a little above its means. What Sunday tests is the counter, where Opta has Liverpool conceding two fast-break goals (via SI), against a United side that last won a league game on 30 August (AfricaSoccer). The weak column is still home scoring: four league goals at Anfield (Dave.sport) against 7.6 expected on Statz's model, a different model from the cards below, whose five home games sum to 5.62.",
   "diagnosis": [
     {
       "label": "Space, not possession",
@@ -1831,7 +1831,7 @@ export const FORM_TRENDS = {
   },
   "optaFacts": [
     "Liverpool have conceded two goals from fast breaks in the league this season (Opta via SI).",
-    "United's last Premier League win came on 30 August, eighty days before Pochettino's first session (AfricaSoccer).",
+    "United's last Premier League win came on 30 August, almost three months before Pochettino's first session (AfricaSoccer).",
     "Rashford has seven goals in twenty appearances against Liverpool (Lente Desportiva).",
     "United had conceded thirty goals in all competitions by 13 November, the most in Europe's top five leagues (Lente Desportiva)."
   ],
@@ -2017,7 +2017,7 @@ export const SQUAD_LOAD = {
       "issue": "No injury",
       "status": "On for Araújo in stoppage time (ESPN)",
       "note": "Centre-back cover if Van Dijk is not right; David Lynch (via Anfield Index) expects him to leave when his deal ends.",
-      "source": "ESPN / Liverpool FC"
+      "source": "ESPN / Liverpool FC / Anfield Index"
     }
   ],
   "startersLastMatch": {
@@ -2263,7 +2263,7 @@ export const SEASON_PROJECTION = {
       "difficulty": "medium"
     }
   ],
-  "runInVerdict": "Three of the next four league games are against the bottom three or at Anfield: United at home, Everton away, Sunderland at home (ESPN). Seven points from those three would put Liverpool on twenty-five from thirteen, comfortably above fourth-place par before Stamford Bridge on 5 December; four or fewer would leave them chasing it, with Chelsea and Everton two points behind today. Club Brugge in the Champions League on 25 November sits between United and the derby (Sports Mole).",
+  "runInVerdict": "Two of the next three league games are bottom-three sides at Anfield, with the Everton derby between them: United at home, Everton away, Sunderland at home (ESPN). Seven points from those three would put Liverpool on twenty-five from thirteen, comfortably above fourth-place par before Stamford Bridge on 5 December; four or fewer would leave them chasing it, with Chelsea and Everton two points behind today. Club Brugge in the Champions League on 25 November sits between United and the derby (Sports Mole).",
   "sources": [
     "ESPN",
     "SI",
