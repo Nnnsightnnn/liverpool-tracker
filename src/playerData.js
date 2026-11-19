@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "fit", injuryNote: "Thu Nov 19, evening - On the right for United; Thursday's lists carry no concern.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "doubtful", injuryNote: "Thu Nov 19, evening - Missing from the main outdoor group on Thursday, possibly working indoors, no reason given (DaveOCKOP; This Is Anfield); held on the right pending Iraola's Friday update.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -1266,7 +1266,7 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   "generatedAt": "2026-11-19T23:15:00Z",
-  "summary": "Thursday evening, and the four doubts that shaped the week all trained: Sky Sports watched Virgil van Dijk, Ryan Gravenberch, Dominik Szoboszlai and Alexander Isak at the AXA Training Centre (Read Liverpool; Anfield Index via Yahoo Sports), Szoboszlai with his knee strapped and no fresh injury from the internationals (Empire of the Kop). Andoni Iraola still has to decide at Friday's 1.30pm press conference whether the captain starts. In Manchester, Maguire and Dorgu trained under Mauricio Pochettino (Sports Mole), whose first session was filmed from outside Carrington by a fan's drone (BBC Sport via Yahoo Sports). Bradley, Leoni and Ekitike are the only definite Liverpool absentees. Liverpool, fourth on eighteen, host United at 4.30pm on Sunday (ESPN).",
+  "summary": "Thursday evening, and the four doubts that shaped the week all trained: Sky Sports watched Virgil van Dijk, Ryan Gravenberch, Dominik Szoboszlai and Alexander Isak at the AXA Training Centre (Read Liverpool; Anfield Index via Yahoo Sports), Szoboszlai with his knee strapped and no fresh injury from the internationals (Empire of the Kop). Andoni Iraola still has to decide at Friday's 1.30pm press conference whether the captain starts. In Manchester, Maguire and Dorgu trained under Mauricio Pochettino (Sports Mole), whose first session was filmed from outside Carrington by a fan's drone (BBC Sport via Yahoo Sports). Bradley, Leoni and Ekitike are the only definite Liverpool absentees, though Cody Gakpo was missing from the main group (DaveOCKOP; This Is Anfield). Liverpool, fourth on eighteen, host United at 4.30pm on Sunday (ESPN).",
   "keyTopics": [
     {
       "title": "Van Dijk, Gravenberch, Szoboszlai And Isak Train (Sky Sports via Read Liverpool, tonight)",
@@ -1276,7 +1276,7 @@ export const NEWS_DIGEST = {
     {
       "title": "Maguire And Dorgu Train For Pochettino (Sports Mole, tonight)",
       "category": "matches",
-      "detail": "Published at 18.59 on Thursday: both trained, United confirming Dorgu; Shaw 'appears unlikely', Rashford to be assessed for a hip problem, Sesko, Baleba and Ugarte 'definitely out'."
+      "detail": "Published at 18.59 on Thursday: both trained, United confirming Dorgu; Shaw 'appears unlikely', Rashford to be assessed for a hip problem, and Sesko, Baleba and Ugarte all ruled out."
     },
     {
       "title": "Pochettino's First Session Filmed By A Drone (BBC Sport via Yahoo Sports, tonight)",
@@ -1332,6 +1332,8 @@ export const NEWS_DIGEST = {
     "Football Muse via Yahoo Sports",
     "All Out Soccer via Yahoo Sports",
     "CaughtOffside",
+    "DaveOCKOP",
+    "This Is Anfield",
     "ESPN"
   ]
 };
@@ -1945,7 +1947,7 @@ export const FORM_TRENDS = {
 };
 export const SQUAD_LOAD = {
   "generatedAt": "2026-11-19T23:15:00Z",
-  "headline": "Thursday took most of the question marks off the list: Van Dijk, Gravenberch, Szoboszlai and Isak all trained (Read Liverpool, citing Sky Sports), with Araujo, Mac Allister and Frimpong in the session too and no fresh knocks from the internationals (Empire of the Kop). Iraola still decides on Friday whether the captain starts. Bradley, Leoni and Ekitike are the only definite absentees, and Frimpong remains short of a return to the matchday squad by most accounts.",
+  "headline": "Thursday took most of the question marks off the list: Van Dijk, Gravenberch, Szoboszlai and Isak all trained (Read Liverpool, citing Sky Sports), with Araujo, Mac Allister and Frimpong in the session too and no fresh knocks from the internationals (Empire of the Kop). Iraola still decides on Friday whether the captain starts. Bradley, Leoni and Ekitike are the only definite absentees; Cody Gakpo, missing from the main outdoor group with no reason given (DaveOCKOP; This Is Anfield), is the new question, and Frimpong remains short of the matchday squad by most accounts.",
   "minutesNote": "Premier League minutes are not published here yet. Ten league games, four Champions League games and two Carabao Cup ties have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   "unavailable": [
     {
@@ -2070,7 +2072,7 @@ export const SQUAD_LOAD = {
     {
       "position": "Wide forward",
       "level": "medium",
-      "detail": "Medium. Gakpo and Barcola are back without reported knocks; Ngumoha is the reserve on either flank; Chiesa is short of fitness."
+      "detail": "Medium. Gakpo missed the main session on Thursday, reason unstated (DaveOCKOP); Barcola is fine; Ngumoha is the reserve on either flank; Chiesa is short of fitness."
     },
     {
       "position": "Left-back",

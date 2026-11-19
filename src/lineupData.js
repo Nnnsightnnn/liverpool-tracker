@@ -115,7 +115,7 @@ export const FORMATIONS = {
       LCB: 3, // Van Dijk
       RCB: 11, // Jacquet
       RB: 29, // Araujo (started at Selhurst)
-      LDM: 15, // Szoboszlai (started at Selhurst, knee knock, ESPN); Nyoni or Endo the alternatives, Gravenberch out of the squad
+      LDM: 15, // Szoboszlai (started at Selhurst, knee knock, ESPN); Nyoni or Endo the alternatives, Gravenberch trained Thu, day-to-day
       RDM: 13, // Mac Allister
       LAM: 30, // Barcola (set up Wirtz at Selhurst)
       CAM: 18, // Wirtz (scored at Selhurst)
@@ -156,7 +156,7 @@ export const FORMATIONS = {
       RCB: 5, // Gomez (back-three cover)
       LWB: 7, // Kerkez
       LCM: 13, // Mac Allister
-      RCM: 15, // Szoboszlai (knee knock at Selhurst; Gravenberch out of the squad)
+      RCM: 15, // Szoboszlai (knee knock at Selhurst; Gravenberch trained Thu, day-to-day)
       RWB: 29, // Araujo
       LW: 30, // Barcola
       ST: 23, // Isak
@@ -222,7 +222,7 @@ export const PLAYER_EVIDENCE = {
   17: "Behind Nyoni in midfield",
   18: "Starts at ten",
   20: "First midfield cover",
-  22: "Starts on the right",
+  22: "Missed main session Thu",
   23: "Trained Thu · starts at nine",
   24: "Achilles · December target",
   25: "Bench · either flank",
@@ -406,6 +406,7 @@ export const PLAYER_EVIDENCE = {
 // Thu Nov 19 (evening): no personnel change. Van Dijk, Gravenberch, Szoboszlai (knee strapped) and Isak trained on Thursday (Read Liverpool, citing Sky Sports),
 //   with Araujo and Mac Allister too (Empire of the Kop); Van Dijk's start waits on Iraola's Friday presser, LCB stays Medium. Frimpong trained by some accounts
 //   but is not expected to feature (Anfield Index via Yahoo Sports), held out. All 27 evidence strings and ten rationales refreshed. Overall Medium.
+//   Auditor fix: Gakpo missing from Thursday's main group, reason unstated (DaveOCKOP; This Is Anfield); status fit to doubtful, held at RAM, Medium to Low, Ngumoha next.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -428,7 +429,7 @@ export const SLOT_CONFIDENCE = {
   RDM: "High",
   LAM: "Medium",
   CAM: "High",
-  RAM: "Medium",
+  RAM: "Low",
   ST: "High",
 };
 
@@ -446,7 +447,7 @@ export const SLOT_RATIONALE = {
   RDM: "Thu Nov 19, evening - Mac Allister, in Thursday's session; one booking from a derby ban. High.",
   LAM: "Thu Nov 19, evening - Barcola on the left; Ngumoha and Munoz the alternatives. Medium.",
   CAM: "Thu Nov 19, evening - Wirtz at ten, unchanged since Selhurst. High.",
-  RAM: "Thu Nov 19, evening - Gakpo on the right; Ngumoha the bench option. Medium.",
+  RAM: "Thu Nov 19, evening - Gakpo, held, though he was missing from the main group on Thursday (DaveOCKOP; This Is Anfield). Ngumoha next. Low.",
   ST: "Thu Nov 19, evening - Isak, who trained on Thursday after Sweden rested him (Read Liverpool). High.",
 };
 
@@ -474,6 +475,6 @@ export const ALTERNATIVES = {
 export const PREDICTION_NOTE = {
   level: "Medium",
   generated_at: "2026-11-19T23:15:00Z",
-  reason: "Thu Nov 19, evening. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. 11 of 11 started the 3-1 at Selhurst (ESPN). Van Dijk, Gravenberch, Szoboszlai and Isak trained on Thursday (Read Liverpool, citing Sky Sports), but Iraola decides on the captain at Friday's 1.30pm press conference. Medium.",
+  reason: "Thu Nov 19, evening. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. 11 of 11 started the 3-1 at Selhurst (ESPN). Van Dijk, Gravenberch, Szoboszlai and Isak trained on Thursday (Read Liverpool, citing Sky Sports), but Iraola decides on the captain at Friday's 1.30pm press conference, and Gakpo was missing from the main group (DaveOCKOP). Medium.",
 };
 

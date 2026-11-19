@@ -608,7 +608,7 @@ function CoverView({ onJump }) {
               <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
               the worry list is shorter than it was at breakfast. Sky Sports watched Virgil van Dijk, Ryan Gravenberch, Dominik
               Szoboszlai and Alexander Isak train on Thursday, and Empire of the Kop added Araujo, Mac Allister and Frimpong to the
-              session, with no new injury from the international fortnight. Training is not selection, and Iraola will say what it
+              session, with no new injury from the international fortnight; only Gakpo was missing from the main group. A session is not a teamsheet, and Iraola will say what it
               means at half past one on Friday. Along the M62, Pochettino's first session was filmed from above by a fan with a drone,
               which is one way to learn that nothing at United stays private for long. He told his players it was a mistake to look
               at the situation rather than the potential. Sunday will offer him a great deal of situation.
