@@ -1259,7 +1259,7 @@ export const DISPATCHES = [
     "byline": "Roundtable via Yahoo Sports / Liverpool FC",
     "dateline": "Kirkby · 20 November",
     "category": "Tactics",
-    "body": "Asked about Trey Nyoni, the nineteen-year-old who was the morning's answer to Gravenberch's heel, Iraola chose a line that will outlast the week: 'If we need him, he is going to be giving me solutions, not dilemmas' (Roundtable via Yahoo Sports). The club's own report adds that Nyoni can play several midfield roles (Liverpool FC). If Gravenberch is fit, the teenager may not be needed on Sunday, and Premier League News Now's evening XI keeps him on the bench behind Mac Allister and Szoboszlai. But with nine games in twenty-eight days, solutions will be in demand."
+    "body": "Asked about Trey Nyoni, the nineteen-year-old who was the morning's answer to Gravenberch's heel, Iraola chose a line that will outlast the week: 'If we need him, he is going to be giving me solutions, not dilemmas' (Roundtable via Yahoo Sports). The club's own report adds that Nyoni can play several midfield roles (Liverpool FC). If Gravenberch is fit, the teenager may not be needed on Sunday, and Premier League News Now's evening XI keeps him on the bench behind Mac Allister and Szoboszlai. But with Club Brugge and Everton to follow within a week, solutions will be in demand."
   },
   {
     "n": "05",
@@ -1275,24 +1275,14 @@ export const NEWS_DIGEST = {
   "summary": "Friday evening, and Andoni Iraola has talked the morning's doubts down: 'if everything goes to plan, they should all be available,' he said of Van Dijk, Gravenberch and Frimpong, Gravenberch's heel 'a matter of pain' he has trained through for two days, and Szoboszlai 'not strapped today' (DaveOCKOP; beIN Sports). He gave no update on Cody Gakpo, absent from Thursday's main group (DaveOCKOP), though Premier League News Now's evening XI still starts him. Iraola said the drone footage of Pochettino's first session 'shouldn't be legal' and conceded United a 'small advantage' because Liverpool have no reference point (BBC Sport via Yahoo Sports). Pochettino, on three or four hours' sleep a night (Goal), named 'some injured players and another player that we need to assess' and will know more on Saturday (Man Utd News). Liverpool are fourth on eighteen, United eighteenth on eight (ESPN), and kick-off at Anfield is 4.30pm on Sunday.",
   "keyTopics": [
     {
-      "title": "Pochettino: 'Some Injured Players And Another We Need To Assess' (Man Utd News, this evening)",
+      "title": "Iraola: Van Dijk, Gravenberch And Frimpong 'Should All Be Available' (BBC Sport via Yahoo Sports, this evening)",
       "category": "injuries",
-      "detail": "Published at 7.13pm on Friday: Pochettino told club media he will have a better idea on Saturday; Martinez is back from suspension, Maguire and Dorgu trained, Shaw and Rashford unclear."
-    },
-    {
-      "title": "Evening XI: Van Dijk Back Beside Jacquet, Gravenberch And Frimpong On The Bench (Premier League News Now, this evening)",
-      "category": "matches",
-      "detail": "Published on Friday evening: Szoboszlai and Mac Allister in the pivot, Gakpo on the right; Liverpool have thirteen away points, the league's most, and five at Anfield. Prediction 2-1."
+      "detail": "Published at 3.33pm on Friday: Gravenberch has trained the last two days, Frimpong is recovering and Van Dijk is 'fine to go'; Bradley and Leoni 'still not available'."
     },
     {
       "title": "Szoboszlai 'Not Strapped Today', Gakpo Still Without An Update (DaveOCKOP, this evening)",
       "category": "injuries",
       "detail": "Published at 5.20pm on Friday: Iraola said Szoboszlai 'trained normally'; DaveOCKOP notes no word on Gakpo after Thursday, and calls Ekitike the only long-term concern."
-    },
-    {
-      "title": "Iraola: Van Dijk, Gravenberch And Frimpong 'Should All Be Available' (BBC Sport via Yahoo Sports, this evening)",
-      "category": "injuries",
-      "detail": "Published at 3.33pm on Friday: Gravenberch has trained the last two days, Frimpong is recovering and Van Dijk is 'fine to go'; Bradley and Leoni 'still not available'."
     },
     {
       "title": "Iraola On The Drone Footage: 'It Shouldn't Be Legal' (The Independent via Yahoo Sports, this evening)",
@@ -1305,14 +1295,24 @@ export const NEWS_DIGEST = {
       "detail": "Published at 2.38pm on Friday: Iraola also said 'we need to be better at home' and that Van Dijk, the club captain, proposed the squad's museum visit."
     },
     {
-      "title": "Pochettino: 'My First Target Is To Sleep' (Goal, this evening)",
+      "title": "Evening XI: Van Dijk Back Beside Jacquet, Gravenberch And Frimpong On The Bench (Premier League News Now, this evening)",
       "category": "matches",
-      "detail": "Reported on Friday afternoon: three or four hours' sleep a night since Wednesday, a 'race' to be competitive at Anfield; Goal notes he is winless in his last eight against Liverpool."
+      "detail": "Published on Friday evening: Szoboszlai and Mac Allister in the pivot, Gakpo on the right; Liverpool have thirteen away points, the league's most, and five at Anfield. Prediction 2-1."
+    },
+    {
+      "title": "Pochettino: 'Some Injured Players And Another We Need To Assess' (Man Utd News, this evening)",
+      "category": "injuries",
+      "detail": "Published at 7.13pm on Friday: Pochettino told club media he will have a better idea on Saturday; Martinez is back from suspension, Maguire and Dorgu trained, Shaw and Rashford unclear."
     },
     {
       "title": "Liverpool Weigh €20m Gladbach Teenager Wael Mohya (Anfield Index, this evening)",
       "category": "transfers",
       "detail": "Published at 7.50pm on Friday, citing Bild: a seventeen-year-old attacking midfielder, 'a situation to watch rather than a deal at an advanced stage'."
+    },
+    {
+      "title": "Pochettino: 'My First Target Is To Sleep' (Goal, today)",
+      "category": "matches",
+      "detail": "Reported on Friday afternoon: three or four hours' sleep a night since Wednesday, a 'race' to be competitive at Anfield; Goal notes he is winless in his last eight against Liverpool."
     },
     {
       "title": "No Liverpool Suspensions For United (LiveScore, today)",

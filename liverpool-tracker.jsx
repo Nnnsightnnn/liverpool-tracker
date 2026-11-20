@@ -128,14 +128,14 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
-  { source: "Man Utd News", title: "'Some injured players': Mauricio Pochettino delivers Man United team news ahead of Liverpool clash", time: "today", category: "fan" },
-  { source: "Premier League News Now", title: "Liverpool vs Man United preview, team news and prediction", time: "today", category: "fan" },
-  { source: "DaveOCKOP", title: "Mauricio Pochettino provides Manchester United team news ahead of Liverpool tie", time: "today", category: "fan" },
-  { source: "DaveOCKOP", title: "Dominik Szoboszlai fitness update provided ahead of Manchester United clash", time: "today", category: "fan" },
   { source: "BBC Sport", title: "Iraola on team news, drones and a 'small advantage' for Man Utd", time: "today", category: "major" },
+  { source: "DaveOCKOP", title: "Dominik Szoboszlai fitness update provided ahead of Manchester United clash", time: "today", category: "fan" },
   { source: "The Independent", title: "Liverpool boss Andoni Iraola speaks out on Man Utd drone incident", time: "today", category: "major" },
   { source: "Roundtable", title: "Iraola Speaks About Facing Manchester United, Fitness Update & More", time: "today", category: "fan" },
   { source: "Liverpool FC", title: "Andoni Iraola Manchester United press conference: 'You don't find bigger games than this - I feel lucky'", time: "today", category: "official" },
+  { source: "Man Utd News", title: "'Some injured players': Mauricio Pochettino delivers Man United team news ahead of Liverpool clash", time: "today", category: "fan" },
+  { source: "Premier League News Now", title: "Liverpool vs Man United preview, team news and prediction", time: "today", category: "fan" },
+  { source: "DaveOCKOP", title: "Mauricio Pochettino provides Manchester United team news ahead of Liverpool tie", time: "today", category: "fan" },
   { source: "beIN Sports", title: "Reds boss Iraola relishing Manchester United clash", time: "today", category: "major" },
   { source: "Goal", title: "Sleepless in Carrington! Pochettino faces 'race' against time to wake up 18th-placed Man Utd for Anfield acid test", time: "today", category: "major" },
   { source: "USA Today", title: "Mauricio Pochettino press conference: Manchester United coach speaks for first time", time: "today", category: "major" },

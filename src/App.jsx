@@ -609,7 +609,7 @@ function CoverView({ onJump }) {
               the doubts have mostly been talked down. At Kirkby this afternoon Andoni Iraola said Van Dijk was fine to go, that
               Gravenberch's heel was a matter of pain he has trained through for two days, that Frimpong should be available too,
               and that Szoboszlai's knee was no longer strapped. He did not mention Gakpo, and nobody has yet explained Thursday's
-              absence. Across the Pennines, Pochettino admitted to three or four hours' sleep a night and promised a better idea of
+              absence. At Carrington, Pochettino admitted to three or four hours' sleep a night and promised a better idea of
               his squad on Saturday. Iraola, who had seen the drone footage of his rival's first session, said it should not be
               legal, and conceded that United hold a small advantage: nobody knows what they will look like. Liverpool, at least,
               will look like themselves.
