@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday evening, and the four who mattered all trained at the AXA: Van Dijk, Gravenberch, Szoboszlai with his
-          knee strapped, and a rested Isak, with no fresh knocks from the internationals. Iraola gives his verdict on Friday.
-          Liverpool, fourth on eighteen, host Pochettino's United on Sunday afternoon.
+          Friday morning, and the list Thursday shortened has lengthened by one: James Pearce doubts that Gravenberch
+          will be ready for United, and Gakpo's absence from the training pictures is still unexplained. Iraola speaks at
+          half past one, Pochettino at two. Liverpool, fourth on eighteen, host United on Sunday afternoon.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,21 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the worry list is shorter than it was at breakfast. Sky Sports watched Virgil van Dijk, Ryan Gravenberch, Dominik
-              Szoboszlai and Alexander Isak train on Thursday, and Empire of the Kop added Araujo, Mac Allister and Frimpong to the
-              session, with no new injury from the international fortnight; only Gakpo was missing from the main group. A session is not a teamsheet, and Iraola will say what it
-              means at half past one on Friday. Along the M62, Pochettino's first session was filmed from above by a fan with a drone,
-              which is one way to learn that nothing at United stays private for long. He told his players it was a mistake to look
-              at the situation rather than the potential. Sunday will offer him a great deal of situation.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              and the morning has put a name back on the list. James Pearce, on the Walk On podcast, does not think Ryan
+              Gravenberch will be ready for Manchester United, Thursday's session notwithstanding, and if he is right the place
+              beside Mac Allister falls to a Szoboszlai with his knee strapped or to Trey Nyoni, who is nineteen. Gakpo's absence
+              from the training pictures is still unexplained, and Ngumoha is the name pencilled in behind him. Iraola speaks at
+              half past one; Pochettino, granted thirty minutes' grace by the Premier League, at two. The Opta supercomputer gives
+              Liverpool fifty-seven per cent. The Liverpool Echo's panel answers that they have not beaten United in a league game
+              at Anfield since the 7-0. Sunday will decide which of the two was the more honest witness.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: a full Thursday session; a drone over Carrington;
-              Iraola's chaos, assessed; Maguire and Dorgu back on the grass; and the three who still cannot play.
+              five dispatches from the writers who never clock off: a heel reconsidered; thirty minutes' grace for Pochettino;
+              the supercomputer's number; Bayern knocking for Ngumoha; and nine games in twenty-eight days.
               The table has not moved since Selhurst, and United come on Sunday.
             </p>
           </div>
@@ -3830,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        Training is not selection.
+        Numbers forecast. Memory keeps score.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

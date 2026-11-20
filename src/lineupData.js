@@ -205,34 +205,35 @@ export const FORMATIONS = {
 // Evidence strings refreshed Wed Nov 18 (morning) against Gulf News (Uruguay 5-0), the club's Tuesday round-up and the Echo's Glen Johnson piece.
 // Evidence strings refreshed Thu Nov 19 (morning) against Brit Brief, Premier League News Now and the Evening Standard (via AOL).
 // Evidence strings refreshed Thu Nov 19 (evening) against Thursday's training reports (Sky Sports via Read Liverpool; Anfield Index; Empire of the Kop).
+// Evidence strings refreshed Fri Nov 20 (morning) against Premier League News Now's overnight XI, Anfield Index (Pearce) and LiveScore's round-up.
 export const PLAYER_EVIDENCE = {
-  1:  "Starts v United · trained Thu",
-  2:  "Bench · No. 2 for Sunday",
-  3:  "Trained Thu · start decided Fri",
-  5:  "Bench · cover at RB and CB",
-  7:  "Starts LB · no issue reported",
-  8:  "Knee · light training, not fit",
-  9:  "Trained Thu · not expected Sun",
-  10: "ACL · light training, not fit",
-  11: "Starts RCB · no question",
-  12: "Levante loan",
-  13: "Trained Thu · starts RDM",
-  14: "Heel · trained Thu, day-to-day",
-  15: "Trained Thu · knee strapped",
-  17: "Behind Nyoni in midfield",
-  18: "Starts at ten",
-  20: "First midfield cover",
-  22: "Missed main session Thu",
-  23: "Trained Thu · starts at nine",
-  24: "Achilles · December target",
-  25: "Bench · either flank",
+  1:  "Starts v United · in goal",
+  2:  "Bench · named No. 2",
+  3:  "In line to start · PLNN",
+  5:  "Bench · RB and CB cover",
+  7:  "Starts LB · every Friday XI",
+  8:  "Knee · December target",
+  9:  "Bench at best · month out",
+  10: "ACL · not fit, January",
+  11: "Starts RCB · settled",
+  12: "On loan at Levante",
+  13: "Starts RDM · no ban yet",
+  14: "Heel · Pearce: not ready",
+  15: "Starts LDM · knee strapped",
+  17: "Not in PLNN's bench",
+  18: "Starts at ten · Germany double",
+  20: "Pearce's Gravenberch cover",
+  22: "Doubtful · no reason given",
+  23: "Starts at nine · only senior 9",
+  24: "Achilles · out of United",
+  25: "Gakpo's named replacement",
   26: "Short of fitness",
   27: "Third goalkeeper",
   28: "Bench · wide cover",
-  29: "Trained Thu · starts at RB",
+  29: "Starts RB · Deco open to deal",
   30: "Starts on the left",
   31: "Backup to Isak",
-  32: "Kerkez's deputy at LB",
+  32: "Kerkez's deputy · bench",
 };
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
 // now pointed at Manchester City at home on Sunday 11 October, 4.30pm at Anfield. This is no
@@ -407,6 +408,9 @@ export const PLAYER_EVIDENCE = {
 //   with Araujo and Mac Allister too (Empire of the Kop); Van Dijk's start waits on Iraola's Friday presser, LCB stays Medium. Frimpong trained by some accounts
 //   but is not expected to feature (Anfield Index via Yahoo Sports), held out. All 27 evidence strings and ten rationales refreshed. Overall Medium.
 //   Auditor fix: Gakpo missing from Thursday's main group, reason unstated (DaveOCKOP; This Is Anfield); status fit to doubtful, held at RAM, Medium to Low, Ngumoha next.
+// Fri Nov 20 (morning): no personnel change. Premier League News Now's overnight XI (1.30am) is identical to this sheet, Gravenberch on the bench;
+//   James Pearce doubts Gravenberch will be ready at all (Anfield Index), which leaves LDM with Szoboszlai, Medium. Gakpo doubtful, held at RAM, Low,
+//   Ngumoha the named replacement. All 27 evidence strings and ten rationales refreshed. Overall Medium until Iraola's 1.30pm presser.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────
@@ -439,16 +443,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Thu Nov 19, evening - Kerkez; nothing in Thursday's reports. Tsimikas the deputy. Medium.",
-  LCB: "Thu Nov 19, evening - Van Dijk trained on Thursday (Read Liverpool, citing Sky Sports); whether he starts is Iraola's call on Friday. Gomez otherwise. Medium.",
-  RCB: "Thu Nov 19, evening - Jacquet, untroubled through the break. High.",
-  RB: "Thu Nov 19, evening - Araujo, who trained after Uruguay duty (Empire of the Kop); Frimpong not expected to feature (Anfield Index via Yahoo Sports). Gomez next. Medium.",
-  LDM: "Thu Nov 19, evening - Szoboszlai, training with his knee strapped (Empire of the Kop); Gravenberch also trained. Nyoni next. Medium.",
-  RDM: "Thu Nov 19, evening - Mac Allister, in Thursday's session; one booking from a derby ban. High.",
-  LAM: "Thu Nov 19, evening - Barcola on the left; Ngumoha and Munoz the alternatives. Medium.",
-  CAM: "Thu Nov 19, evening - Wirtz at ten, unchanged since Selhurst. High.",
-  RAM: "Thu Nov 19, evening - Gakpo, held, though he was missing from the main group on Thursday (DaveOCKOP; This Is Anfield). Ngumoha next. Low.",
-  ST: "Thu Nov 19, evening - Isak, who trained on Thursday after Sweden rested him (Read Liverpool). High.",
+  LB: "Fri Nov 20, morning - Kerkez, in every Friday-morning XI (Premier League News Now). Tsimikas on the bench. Medium.",
+  LCB: "Fri Nov 20, morning - Van Dijk, in line to start after Thursday's session (Premier League News Now); Iraola confirms at 1.30pm. Gomez otherwise. Medium.",
+  RCB: "Fri Nov 20, morning - Jacquet, the one settled centre-back. High.",
+  RB: "Fri Nov 20, morning - Araujo; Frimpong on the bench at best after a month out (Premier League News Now). Gomez next. Medium.",
+  LDM: "Fri Nov 20, morning - Szoboszlai, knee strapped; James Pearce does not think Gravenberch will be ready (Anfield Index). Nyoni next. Medium.",
+  RDM: "Fri Nov 20, morning - Mac Allister; Sports Mole reports no suspensions, but one more booking means a derby ban. High.",
+  LAM: "Fri Nov 20, morning - Barcola on the left in the overnight XI. Munoz the alternative. Medium.",
+  CAM: "Fri Nov 20, morning - Wirtz at ten, back from a Germany double. High.",
+  RAM: "Fri Nov 20, morning - Gakpo, held, but doubtful after missing Thursday's pictures (Premier League News Now). Ngumoha the named replacement. Low.",
+  ST: "Fri Nov 20, morning - Isak, the only senior nine available. High.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -460,12 +464,12 @@ export const ALTERNATIVES = {
   LB:  [{ playerId: 32, reason: "Tsimikas · unused at Selhurst" }],
   LCB: [{ playerId: 5, reason: "Gomez · if Van Dijk is not fit" }],
   RCB: [{ playerId: 5, reason: "Gomez · senior cover" }],
-  RB:  [{ playerId: 5, reason: "Gomez · on for Araújo at Selhurst" }, { playerId: 9, reason: "Frimpong · trained Thu, not expected" }],
+  RB:  [{ playerId: 5, reason: "Gomez · on for Araújo at Selhurst" }, { playerId: 9, reason: "Frimpong · bench at best" }],
   LDM: [{ playerId: 20, reason: "Nyoni · on for Szoboszlai at Selhurst" }, { playerId: 17, reason: "Endo · unused, fresh" }],
   RDM: [{ playerId: 20, reason: "Nyoni · midfield cover" }],
   LAM: [{ playerId: 28, reason: "Munoz · on for Barcola at Selhurst" }, { playerId: 25, reason: "Ngumoha · either flank" }],
   CAM: [{ playerId: 20, reason: "Nyoni · if Wirtz is rested" }],
-  RAM: [{ playerId: 25, reason: "Ngumoha · on for Gakpo at Selhurst" }, { playerId: 28, reason: "Munoz · wide option" }],
+  RAM: [{ playerId: 25, reason: "Ngumoha · named Gakpo cover (PLNN)" }, { playerId: 28, reason: "Munoz · wide option" }],
   ST:  [{ playerId: 30, reason: "Barcola · led the line in Istanbul" }, { playerId: 31, reason: "Koumas · on for Isak at Selhurst" }],
 };
 
@@ -474,7 +478,7 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-11-19T23:15:00Z",
-  reason: "Thu Nov 19, evening. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. 11 of 11 started the 3-1 at Selhurst (ESPN). Van Dijk, Gravenberch, Szoboszlai and Isak trained on Thursday (Read Liverpool, citing Sky Sports), but Iraola decides on the captain at Friday's 1.30pm press conference, and Gakpo was missing from the main group (DaveOCKOP). Medium.",
+  generated_at: "2026-11-20T09:30:00Z",
+  reason: "Fri Nov 20, morning. Manchester United at home, Premier League, Sun 22 Nov, 4.30pm GMT, Sky Sports. 11 of 11 started the 3-1 at Selhurst (ESPN), and Premier League News Now's overnight XI is the same eleven. James Pearce doubts Gravenberch will be ready (Anfield Index) and Gakpo is doubtful, Ngumoha the cover; Iraola speaks at 1.30pm. Medium.",
 };
 
