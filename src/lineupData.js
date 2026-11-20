@@ -115,7 +115,7 @@ export const FORMATIONS = {
       LCB: 3, // Van Dijk
       RCB: 11, // Jacquet
       RB: 29, // Araujo (started at Selhurst)
-      LDM: 15, // Szoboszlai (started at Selhurst, knee knock, ESPN); Nyoni or Endo the alternatives, Gravenberch trained Thu, day-to-day
+      LDM: 15, // Szoboszlai (started at Selhurst, knee knock, ESPN); Nyoni the alternative; Pearce doubts Gravenberch will be ready (Anfield Index)
       RDM: 13, // Mac Allister
       LAM: 30, // Barcola (set up Wirtz at Selhurst)
       CAM: 18, // Wirtz (scored at Selhurst)
@@ -156,7 +156,7 @@ export const FORMATIONS = {
       RCB: 5, // Gomez (back-three cover)
       LWB: 7, // Kerkez
       LCM: 13, // Mac Allister
-      RCM: 15, // Szoboszlai (knee knock at Selhurst; Gravenberch trained Thu, day-to-day)
+      RCM: 15, // Szoboszlai (knee knock at Selhurst; Pearce doubts Gravenberch will be ready)
       RWB: 29, // Araujo
       LW: 30, // Barcola
       ST: 23, // Isak
@@ -411,6 +411,7 @@ export const PLAYER_EVIDENCE = {
 // Fri Nov 20 (morning): no personnel change. Premier League News Now's overnight XI (1.30am) is identical to this sheet, Gravenberch on the bench;
 //   James Pearce doubts Gravenberch will be ready at all (Anfield Index), which leaves LDM with Szoboszlai, Medium. Gakpo doubtful, held at RAM, Low,
 //   Ngumoha the named replacement. All 27 evidence strings and ten rationales refreshed. Overall Medium until Iraola's 1.30pm presser.
+//   Auditor fix: inline Gravenberch comments in the 4-2-3-1 and 4-3-3 sheets brought up to the Pearce line.
 export const DEFAULT_FORMATION = "4-2-3-1";
 
 // ─── Per-slot confidence levels ─────────────────────────────

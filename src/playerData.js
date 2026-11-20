@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "doubtful", outSince: "2026-11-03", injuryNote: "Fri Nov 20, morning - Heel: James Pearce, on the Walk On podcast, does not think he 'will be ready' for United, despite Thursday's session (Anfield Index); Premier League News Now has him on the bench. Iraola updates at 1.30pm.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "doubtful", outSince: "2026-11-03", injuryNote: "Fri Nov 20, morning - Heel: James Pearce, on the Walk On podcast, does not think he 'will be ready' for United (Anfield Index), whatever Thursday's training reports said; Premier League News Now has him on the bench. Iraola updates at 1.30pm.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -1233,7 +1233,7 @@ export const DISPATCHES = [
     "byline": "Anfield Index",
     "dateline": "Kirkby · 20 November",
     "category": "Injuries",
-    "body": "Thursday's good news lasted until breakfast. Ryan Gravenberch trained with the group, but James Pearce, speaking on the Walk On podcast and quoted by Anfield Index on Friday morning, put it plainly: he does not think the midfielder will be ready for United. A few days earlier Pearce had called it touch and go. The heel that kept Gravenberch out of the last two games and away from the Netherlands is, in Iraola's own phrase from a fortnight ago, a matter of pain, and pain does not read the training reports. If Pearce is right, the place beside Mac Allister goes to Szoboszlai, strapped, or to Trey Nyoni."
+    "body": "Thursday's good news lasted until breakfast. Ryan Gravenberch trained with the group by Sky Sports' account, though DaveOCKOP had him absent, and James Pearce, speaking on the Walk On podcast and quoted by Anfield Index on Friday morning, put it plainly: he does not think the midfielder will be ready for United. A few days earlier Pearce had called it touch and go. The heel that kept Gravenberch out of the last two games and away from the Netherlands is, in Iraola's own phrase from a fortnight ago, a matter of pain, and pain does not read the training reports. If Pearce is right, the place beside Mac Allister goes to Szoboszlai, strapped, or to Trey Nyoni."
   },
   {
     "n": "02",
@@ -1249,7 +1249,7 @@ export const DISPATCHES = [
     "byline": "beIN Sports / Legit.ng",
     "dateline": "London · 19 November",
     "category": "Football News",
-    "body": "The Opta supercomputer published its weekend numbers on Thursday and gave Liverpool a 57.3 per cent chance of beating United at Anfield, 22.2 per cent for a draw and 20.5 for the visitors (beIN Sports; Legit.ng, citing Opta Analyst). History offered a counterweight. Only one of United's last nine managers, caretakers included, lost his first Premier League game in charge, Erik ten Hag at Brighton in 2022 (beIN Sports). Pochettino's own record against Liverpool is three wins, eight draws and eleven defeats in nineteen meetings, per Legit.ng's figures. A model can weigh form; it cannot weigh three days of new instructions."
+    "body": "The Opta supercomputer published its weekend numbers on Thursday and gave Liverpool a 57.3 per cent chance of beating United at Anfield, 22.2 per cent for a draw and 20.5 for the visitors (beIN Sports; Legit.ng, citing Opta Analyst). History offered a counterweight. Only one of United's last nine managers, caretakers included, lost his first Premier League game in charge, Erik ten Hag at Brighton in 2022 (beIN Sports). Pochettino's own record against Liverpool, by Legit.ng's count, runs to three wins and eleven defeats. A model can weigh form; it cannot weigh three days of new instructions."
   },
   {
     "n": "04",
@@ -1278,9 +1278,9 @@ export const NEWS_DIGEST = {
       "detail": "Published at 8.50am on Friday: James Pearce told the Walk On podcast 'I don't think Gravenberch will be ready', having called it touch and go days earlier; Szoboszlai or Nyoni would fill the gap."
     },
     {
-      "title": "Gakpo The Open Question In The Overnight XI (Premier League News Now, today)",
-      "category": "injuries",
-      "detail": "Published at 1.30am on Friday: Gakpo doubtful after missing Thursday's training pictures, Ngumoha the named replacement; Van Dijk in line to start, Gravenberch and Frimpong on the bench."
+      "title": "Alex Scott Watch Resumes Before January (Anfield Index, today)",
+      "category": "transfers",
+      "detail": "Published at 7.50am on Friday: the Bournemouth midfielder, who played under Iraola, has eighteen months left; Marco Rose says 'he likes to be a Bournemouth player'."
     },
     {
       "title": "Reds Jury: Nine Games In Twenty-Eight Days, Starting With United (Liverpool Echo via Yahoo Sports, today)",
@@ -1298,14 +1298,14 @@ export const NEWS_DIGEST = {
       "detail": "Reported on Friday morning: Barcelona's sporting director says the club would be happy for Liverpool to make the loan permanent if terms are agreed."
     },
     {
-      "title": "Alex Scott Watch Resumes Before January (Anfield Index, today)",
-      "category": "transfers",
-      "detail": "Published at 7.50am on Friday: the Bournemouth midfielder, who played under Iraola, has eighteen months left; Marco Rose says 'he likes to be a Bournemouth player'."
-    },
-    {
       "title": "Nyoni Names Odegaard His Toughest Opponent (Arsenal Station via LiveScore, today)",
       "category": "general",
       "detail": "Picked up in Friday's round-up: the teenager, Pearce's alternative to Gravenberch, said the Arsenal captain is 'constantly moving'."
+    },
+    {
+      "title": "Gakpo The Open Question In The Overnight XI (Premier League News Now, today)",
+      "category": "injuries",
+      "detail": "Published at 1.30am on Friday: Gakpo doubtful after missing Thursday's training pictures, Ngumoha the named replacement; Van Dijk in line to start, Gravenberch and Frimpong on the bench."
     },
     {
       "title": "Opta Supercomputer: Liverpool 57.3, Draw 22.2, United 20.5 (beIN Sports, 1d ago)",
@@ -1318,9 +1318,9 @@ export const NEWS_DIGEST = {
       "detail": "Reported at 4.41pm on Thursday, citing the Manchester Evening News: the Premier League agreed a thirty-minute exemption (Goal); 'We need to be ready to compete on Sunday.'"
     },
     {
-      "title": "Pochettino Against Liverpool: Three Wins In Nineteen (Legit.ng, 1d ago)",
+      "title": "Pochettino Against Liverpool: Three Wins, Eleven Defeats (Legit.ng, 1d ago)",
       "category": "matches",
-      "detail": "Published on Thursday afternoon: three wins, eight draws and eleven defeats, per Legit.ng's figures, before his first United game at Anfield."
+      "detail": "Published on Thursday afternoon: Legit.ng counts three wins and eleven defeats against Liverpool before his first United game at Anfield."
     }
   ],
   "sources": [
@@ -1368,7 +1368,7 @@ export const OPPOSITION = {
   "manager": "Mauricio Pochettino (first press conference moved to 2pm on Friday 20 November under a Premier League exemption, per Goal and All Out Soccer via Yahoo Sports)",
   "formation": "4-2-3-1",
   "leaguePosition": 18,
-  "summary": "United come to Anfield after what SuperSport (via LiveScore) calls their worst ten-game start in forty years: eighteenth on eight (ESPN), one league win in ten (Sports Mole), and a manager who landed on Wednesday. The Premier League has let Pochettino hold his first press conference half an hour late, at 2pm on Friday (Goal; All Out Soccer via Yahoo Sports), and his record against Liverpool is three wins in nineteen (Legit.ng). Maguire and Dorgu trained on Thursday and Martinez is back from suspension (Sports Mole); Shaw is unlikely, Rashford needs assessing, and Sesko, Baleba and Ugarte are out (Heavy via Yahoo Sports). Their last game was the 4-4 with Villa on 8 November.",
+  "summary": "United come to Anfield after what SuperSport (via LiveScore) calls their worst ten-game start in forty years: eighteenth on eight (ESPN), one league win in ten (Sports Mole), and a manager who landed on Wednesday. The Premier League has let Pochettino hold his first press conference half an hour late, at 2pm on Friday (Goal; All Out Soccer via Yahoo Sports), and he has beaten Liverpool three times while losing eleven (Legit.ng). Maguire and Dorgu trained on Thursday and Martinez is back from suspension (Sports Mole); Shaw is unlikely, Rashford needs assessing, and Sesko, Baleba and Ugarte are out (Heavy via Yahoo Sports). Their last game was the 4-4 with Villa on 8 November.",
   "shape": "Both published projections, Khel Now's (16 Nov) and The Independent's (via LiveScore), keep Carrick's 4-2-3-1: Tielemans and Mainoo in the pivot, Diallo, Fernandes and Cunha behind Mbeumo. The Independent's alternative is a 3-4-3 with Martinez back in a three beside Yoro and Maguire and Dalot and Dorgu as wing-backs, which SI (15 Nov) also floated. Whichever it is, SI's case is for runners on the break, aimed at a Liverpool side Opta has conceding two fast-break goals this season.",
   "keyPlayers": [
     {
@@ -1851,7 +1851,7 @@ export const FORM_TRENDS = {
   "optaFacts": [
     "The Opta supercomputer gives Liverpool a 57.3 per cent chance of beating United, 22.2 per cent for a draw and 20.5 for United (beIN Sports).",
     "Only one of United's last nine managers, caretakers included, lost his first Premier League game in charge: Erik ten Hag, 1-2 to Brighton in 2022 (beIN Sports, citing Opta).",
-    "Pochettino has won three of his nineteen meetings with Liverpool, drawn eight and lost eleven (Legit.ng).",
+    "Pochettino has won three of his meetings with Liverpool and lost eleven (Legit.ng).",
     "Liverpool have conceded two goals from fast breaks in the league this season (Opta via SI)."
   ],
   "sources": [
@@ -1973,7 +1973,7 @@ export const SQUAD_LOAD = {
       "name": "Giovanni Leoni",
       "issue": "ACL (September 2025)",
       "expected": "Leeds at home on 12 December as a possible return (Evening Standard via AOL); 'around January time' per Rush The Kop (via LiveScore)",
-      "note": "Back in light team training this week but 'neither of them is close to being fully match fit' (Read Liverpool, citing Sky Sports); one of three definite absentees for Sunday (Empire of the Kop).",
+      "note": "Back in team training this week (AnfieldWatch via LiveScore), though Heavy reports a setback in his recovery; 'neither of them is close to being fully match fit' (Read Liverpool, citing Sky Sports); one of three definite absentees for Sunday (Empire of the Kop).",
       "source": "Evening Standard via AOL / Read Liverpool / Empire of the Kop / Rush The Kop via LiveScore"
     },
     {
@@ -2016,7 +2016,7 @@ export const SQUAD_LOAD = {
     {
       "name": "Ryan Gravenberch",
       "issue": "Fracture of the heel",
-      "status": "Doubt, worsening: trained on Thursday, but James Pearce does not think he 'will be ready' for United (Anfield Index); on the bench in Premier League News Now's XI",
+      "status": "Doubt, worsening: trained on Thursday by Sky Sports' account (DaveOCKOP reported him absent), but James Pearce does not think he 'will be ready' for United (Anfield Index); on the bench in Premier League News Now's XI",
       "note": "Missed the last two games with the heel problem (Anfield Index via Yahoo Sports); Heavy still calls him day-to-day, depending on pain management. Whether he starts is Friday's question.",
       "source": "Anfield Index / Premier League News Now / Read Liverpool / Heavy"
     },
