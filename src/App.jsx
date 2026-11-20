@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday morning, and the list Thursday shortened has lengthened by one: James Pearce doubts that Gravenberch
-          will be ready for United, and Gakpo's absence from the training pictures is still unexplained. Iraola speaks at
-          half past one, Pochettino at two. Liverpool, fourth on eighteen, host United on Sunday afternoon.
+          Friday evening, and Iraola has answered the morning's doubt: if everything goes to plan, he said, Van Dijk,
+          Gravenberch and Frimpong should all be available, and Szoboszlai trained without the strapping. Only Gakpo went
+          unmentioned. Liverpool, fourth on eighteen, meet Pochettino's United at Anfield on Sunday afternoon.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and the morning has put a name back on the list. James Pearce, on the Walk On podcast, does not think Ryan
-              Gravenberch will be ready for Manchester United, Thursday's session notwithstanding, and if he is right the place
-              beside Mac Allister falls to a Szoboszlai with his knee strapped or to Trey Nyoni, who is nineteen. Gakpo's absence
-              from the training pictures is still unexplained, and Ngumoha is the name pencilled in behind him. Iraola speaks at
-              half past one; Pochettino, granted thirty minutes' grace by the Premier League, at two. The Opta supercomputer gives
-              Liverpool fifty-seven per cent. The Liverpool Echo's panel answers that they have not beaten United in a league game
-              at Anfield since the 7-0. Sunday will decide which of the two was the more honest witness.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the doubts have mostly been talked down. At Kirkby this afternoon Andoni Iraola said Van Dijk was fine to go, that
+              Gravenberch's heel was a matter of pain he has trained through for two days, that Frimpong should be available too,
+              and that Szoboszlai's knee was no longer strapped. He did not mention Gakpo, and nobody has yet explained Thursday's
+              absence. Across the Pennines, Pochettino admitted to three or four hours' sleep a night and promised a better idea of
+              his squad on Saturday. Iraola, who had seen the drone footage of his rival's first session, said it should not be
+              legal, and conceded that United hold a small advantage: nobody knows what they will look like. Liverpool, at least,
+              will look like themselves.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: a heel reconsidered; thirty minutes' grace for Pochettino;
-              the supercomputer's number; Bayern knocking for Ngumoha; and nine games in twenty-eight days.
+              five dispatches from the writers who never clock off: a plan that has to go right; a manager who cannot sleep;
+              a drone over Carrington; a teenager who solves problems; and Anfield's home form, which needs solving.
               The table has not moved since Selhurst, and United come on Sunday.
             </p>
           </div>
@@ -3831,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        Numbers forecast. Memory keeps score.
+        If everything goes to plan.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
