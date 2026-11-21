@@ -131,7 +131,6 @@ const LATEST_NEWS = [
   { source: "Afrik-Foot", title: "Liverpool vs Manchester United: Preview, team news, tips & H2H", time: "today", category: "fan" },
   { source: "K24", title: "Manchester United receive injury boost ahead of Liverpool showdown", time: "today", category: "major" },
   { source: "Read Man Utd", title: "Liverpool vs Man Utd: Preview, key stats, team news & where to watch", time: "today", category: "fan" },
-  { source: "LiveScore", title: "Liverpool wait on Van Dijk call before Man Utd", time: "today", category: "major" },
   { source: "LiveScore", title: "Manchester United face scrutiny as Pochettino begins", time: "today", category: "major" },
   { source: "The Peoples Person", title: "Mauricio Pochettino's first Man United XI to include a couple of surprise changes", time: "1d ago", category: "fan" },
   { source: "Premier League News Now", title: "Liverpool vs Man United: Iraola admits Pochettino gives United an edge nobody at Anfield can prepare for", time: "1d ago", category: "fan" },

@@ -1269,7 +1269,7 @@ export const DISPATCHES = [
     "byline": "Sports Mole / ESPN",
     "dateline": "Anfield · 21 November",
     "category": "Race for Europe",
-    "body": "Twenty-eight per cent of Liverpool's league points have come at home, the lowest share of any side in the division (Sports Mole). They are fourth all the same, three behind City and two clear of Chelsea and Everton (ESPN), which says as much about the road form as about the table. A win on Sunday would draw them level with City. A draw would leave the gap where it is and the home record where it is, and then comes Club Brugge on Wednesday and Everton on Saturday. The season has given Liverpool a week to change the number."
+    "body": "Twenty-eight per cent of Liverpool's league points have come at home, the lowest share of any side in the division (Sports Mole). They are fourth all the same, three behind City and two clear of Chelsea and Everton (ESPN), which says as much about the road form as about the table. A win on Sunday would draw them level with City. A draw would leave the gap where it is and the home record where it is, and then comes Club Brugge on Wednesday and Everton the Sunday after. The season has given Liverpool a week to change the number."
   }
 ];
 export const NEWS_DIGEST = {
@@ -1541,7 +1541,6 @@ export const OPPOSITION = {
     "Man Utd News",
     "NewsHub",
     "Football360",
-    "beIN Sports",
     "Khel Now",
     "Dave.sport",
     "Football Insider via Yahoo Sports",
@@ -2203,9 +2202,7 @@ export const SQUAD_LOAD = {
     "Empire of the Kop via Yahoo Sports",
     "Nemzeti Sport via Empire of the Kop",
     "M4 Sport via DaveOCKOP",
-    "AfricaSoccer",
     "Football365 via LiveScore",
-    "AnfieldWatch via LiveScore",
     "Khel Now",
     "Football Italia via LiveScore",
     "Hungarian Conservative",
@@ -2230,7 +2227,7 @@ export const SEASON_PROJECTION = {
   "pointsPerGame": 1.8,
   "projectedPoints": 68,
   "projectedFinish": "Champions League par on current pace, with nothing to spare",
-  "headline": "Ten games, eighteen points, 1.80 a game and a pace of sixty-eight, exactly fourth-place par (ESPN), from a sample still too small to be a forecast. The weakness inside the pace is home form, 28 per cent of the points (Sports Mole). A win over United would take the pace to about 1.91 a game and draw Liverpool level with City.",
+  "headline": "Ten games, eighteen points, 1.80 a game and a pace of sixty-eight, exactly the historical fourth-place par on this board, from a sample still too small to be a forecast. The weakness inside the pace is home form, 28 per cent of the points (Sports Mole). A win over United would take the pace to about 1.91 a game and draw Liverpool level with City.",
   "thresholds": [
     {
       "label": "Champions League (top 4)",
