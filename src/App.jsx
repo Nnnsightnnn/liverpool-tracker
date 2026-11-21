@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday evening, and Iraola has answered the morning's doubt: if everything goes to plan, he said, Van Dijk,
-          Gravenberch and Frimpong should all be available, and Szoboszlai trained without the strapping. Only Gakpo went
-          unmentioned. Liverpool, fourth on eighteen, meet Pochettino's United at Anfield on Sunday afternoon.
+          Saturday, and Liverpool's eleven has written itself: every preview names the side that won at Selhurst,
+          Gakpo included, while no two versions of Pochettino's United agree on a back four. Liverpool, fourth on eighteen,
+          have scored four league goals at Anfield all season. United come tomorrow, at half past four.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,23 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the doubts have mostly been talked down. At Kirkby this afternoon Andoni Iraola said Van Dijk was fine to go, that
-              Gravenberch's heel was a matter of pain he has trained through for two days, that Frimpong should be available too,
-              and that Szoboszlai's knee was no longer strapped. He did not mention Gakpo, and nobody has yet explained Thursday's
-              absence. At Carrington, Pochettino admitted to three or four hours' sleep a night and promised a better idea of
-              his squad on Saturday. Iraola, who had seen the drone footage of his rival's first session, said it should not be
-              legal, and conceded that United hold a small advantage: nobody knows what they will look like. Liverpool, at least,
-              will look like themselves.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and for once the uncertainty belongs to the visitors. Every Liverpool preview published since Friday afternoon
+              names the same eleven, the side that won at Selhurst a fortnight ago, and the club's own team news has Frimpong
+              and Gravenberch in contention behind it. Only Gakpo's Thursday absence is still unexplained. United are harder to
+              draw: half a dozen predicted elevens, no two back fours alike, and a manager who promised to know more today.
+              Pochettino has beaten Liverpool three times in nineteen attempts. Liverpool have scored four league goals at Anfield
+              from chances worth nearly twice that. Tomorrow, one of those numbers has to give.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: a plan that has to go right; a manager who cannot sleep;
-              a drone over Carrington; a teenager who solves problems; and Anfield's home form, which needs solving.
-              The table has not moved since Selhurst, and United come on Sunday.
+              five dispatches from the writers who never clock off: an eleven everyone agrees on; a squad still being counted
+              at Carrington; three wins in nineteen; four goals from seven point six; and the twenty-eight per cent.
+              The table has not moved since Selhurst, and United come tomorrow.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3831,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        If everything goes to plan.
+        Four goals from seven point six.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
