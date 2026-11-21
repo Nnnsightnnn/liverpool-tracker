@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday, and Liverpool's eleven has written itself: every preview names the side that won at Selhurst,
-          Gakpo included, while no two versions of Pochettino's United agree on a back four. Liverpool, fourth on eighteen,
-          have scored four league goals at Anfield all season. United come tomorrow, at half past four.
+          Saturday night, and Liverpool are fifth without having played: Bournemouth's ninth win in a row has lifted them
+          above on the tie-break, while Arsenal and City both dropped points. The game in hand is tomorrow, United at Anfield
+          at half past four, and three points would put Liverpool back in fourth, a point off second.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
-              and for once the uncertainty belongs to the visitors. Every Liverpool preview published since Friday afternoon
-              names the same eleven, the side that won at Selhurst a fortnight ago, and the club's own team news has Frimpong
-              and Gravenberch in contention behind it. Only Gakpo's Thursday absence is still unexplained. United are harder to
-              draw: half a dozen predicted elevens, no two back fours alike, and a manager who promised to know more today.
-              Pochettino has beaten Liverpool three times in nineteen attempts. Liverpool have scored four league goals at Anfield
-              from chances worth nearly twice that. Tomorrow, one of those numbers has to give.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the table looks worse than the day did. Liverpool sat out Saturday and slipped to fifth, overtaken on the tie-break
+              by Bournemouth, the club Iraola used to manage, who have now won nine in a row. Everything else went their way:
+              Arsenal twice let a lead go at Newcastle and lost Raya to an arm injury, City were held by Fulham, Chelsea were
+              beaten at home by Leeds. United arrive nineteenth, reportedly without Rashford, and Van Dijk is set for a fiftieth
+              league start in a row. Liverpool have spent the season winning away and stalling at home. Tomorrow the home game
+              is the game in hand.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: an eleven everyone agrees on; a squad still being counted
-              at Carrington; three wins in nineteen; four goals from seven point six; and the twenty-eight per cent.
-              The table has not moved since Selhurst, and United come tomorrow.
+              five dispatches from the writers who never clock off: fifth without kicking a ball; two Arsenal leads and a
+              goalkeeper off; Pochettino on data and context; seventeen big chances and thirty-three; and fifty starts in a row.
+              Saturday moved the table, and United come tomorrow.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        Four goals from seven point six.
+        Fifth tonight. The game in hand is tomorrow.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
