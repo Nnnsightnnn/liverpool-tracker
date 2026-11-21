@@ -1185,7 +1185,7 @@ export const RESULTS = [
 // LIVERPOOL fourth (highlighted, UCL stripe) on eighteen; United at Anfield on Sunday.
 // Refresh 2026-11-20 (Friday evening pass, cloud). Re-fetched from ESPN: table unchanged, every side on ten,
 // LIVERPOOL fourth (highlighted, UCL stripe) on eighteen; both managers spoke on Friday afternoon.
-// Refresh 2026-11-21 (Saturday evening pass, cloud). Re-fetched from ESPN after Saturday's eight games: Arsenal 2-2 at
+// Refresh 2026-11-21 (Saturday evening pass, cloud). Re-fetched from ESPN after Saturday's seven games: Arsenal 2-2 at
 // Newcastle, City 1-1 Fulham, Bournemouth 2-0 Forest; LIVERPOOL fifth (highlighted, UEL stripe) on eighteen, a game in hand.
 export const STANDINGS = [
   { pos: 1, team: "Arsenal", p: 11, w: 9, d: 1, l: 1, gd: 10, pts: 28, qualification: "UCL" },
@@ -1220,7 +1220,7 @@ export const STANDINGS_COMMENTARY = {
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 11,
   "generatedAt": "2026-11-21T23:15:00Z",
-  "overview": "Saturday's eight games moved almost everything except the top. Arsenal stay first on twenty-eight after a 2-2 at Newcastle in which they twice gave up the lead (Reuters via TimesLIVE), City were held 1-1 by Fulham and sit third on twenty-two, level with Brighton, who have a game in hand (ESPN). Bournemouth's 2-0 win over Forest, a ninth straight win in all competitions (101 Great Goals), lifts them to fourth and pushes Liverpool down to fifth, level on eighteen points and plus-four, with a game in hand of their own. Leeds won 4-1 at Stamford Bridge (NBC Sports) to go sixth, and Chelsea drop to eighth. At the bottom, Sunderland's goalless draw at Villa takes them above United, who are now nineteenth on eight (ESPN).",
+  "overview": "Saturday's seven games moved almost everything except the top. Arsenal stay first on twenty-eight after a 2-2 at Newcastle in which they twice gave up the lead (Reuters via TimesLIVE), City were held 1-1 by Fulham and sit third on twenty-two, level with Brighton, who have a game in hand (ESPN). Bournemouth's 2-0 win over Forest, a ninth straight win in all competitions (101 Great Goals), lifts them to fourth and pushes Liverpool down to fifth, level on eighteen points and plus-four, with a game in hand of their own. Leeds won 4-1 at Stamford Bridge (NBC Sports) to go sixth, and Chelsea drop to eighth. At the bottom, Sunderland's goalless draw at Villa takes them above United, who are now nineteenth on eight (ESPN).",
   "teams": {
     "Liverpool": "Fifth on eighteen with a game in hand; beat United on Sunday and they go fourth, a point behind City and Brighton (ESPN).",
     "Arsenal": "Top on twenty-eight after twice surrendering the lead at Newcastle; Raya went off with an arm injury (Reuters via TimesLIVE).",
@@ -1266,7 +1266,7 @@ export const DISPATCHES = [
     "n": "04",
     "headline": "Seventeen And Thirty-Three.",
     "byline": "Opta Analyst",
-    "dateline": "Anfield · 21 November",
+    "dateline": "Anfield · 20 November",
     "category": "Tactics",
     "body": "Two numbers from Opta Analyst's preview sit awkwardly beside each other. Liverpool have taken 160 league shots, the fourth-most in the division, and turned them into only seventeen big chances. United have conceded thirty-three. They also allow the highest expected goals per shot in the league, 0.14, and have not kept a clean sheet in ten league games, the first time since 1986-87 (Opta Analyst). The problem at Anfield has been the quality of the chance as much as the finishing of it. Sunday brings the defence most likely to hand Liverpool better ones."
   },
@@ -1378,8 +1378,8 @@ export const OPPOSITION = {
   "manager": "Mauricio Pochettino (appointed November 2026; first game in charge; three wins in nineteen against Liverpool, per Read Man Utd)",
   "formation": "4-2-3-1",
   "leaguePosition": 19,
-  "summary": "United arrive nineteenth, a place lower than they woke up: Sunderland's goalless draw at Villa on Saturday lifted them above Pochettino's side, who have eight points and one league win in ten (ESPN). On Saturday night talkSPORT's Alex Crook reported that Rashford, still struggling with his hip, is not expected in the squad (via DaveOCKOP), while Shaw trained on Thursday and Friday and could start at left-back (Roundtable via Yahoo Sports). Opta Analyst counts eight top-flight games without a win and no clean sheet in ten league games, a first since 1986-87, and no away league win this season. FotMob's model, as published by Planet Football on 9 November, gave them 13 expected points against their actual eight, which suggests a side playing worse in the table than in the chances. Martinez is available again after his Chelsea red card, Maguire trained through a back spasm and Dorgu completed a full session; Sesko, Baleba and Ugarte are out, Shaw unlikely and Rashford to be assessed (RotoWire). Pochettino, who has never lost a first game at a new club (Football365), said on the eve that 'we cannot talk about data without context' (Al Jazeera). Their last game was the 4-4 with Villa on 8 November.",
-  "shape": "Saturday's previews still agree on the spine, a 4-2-3-1 with Lammens in goal, Mainoo in the pivot and Fernandes at ten, and Opta Analyst and Al Jazeera add Diallo on the right; otherwise almost all put Mbeumo through the middle with Cunha and Amad wide (RotoWire; SI; Afrik-Foot). The back four is still where they part: Opta Analyst has Yoro, De Ligt, Martinez and Dalot, Al Jazeera Yoro, Martinez, Maguire and Dalot, and Roundtable has Shaw at left-back with Dalot moved to the right. Fernandes is the creative hub, twenty-three chances created this season, the fourth-most in the league (Opta Analyst).",
+  "summary": "United arrive nineteenth, a place lower than they woke up: Sunderland's goalless draw at Villa on Saturday lifted them above Pochettino's side, who have eight points and one league win in ten (ESPN). On Saturday night talkSPORT's Alex Crook reported that Rashford, still struggling with his hip, is not expected in the squad (via DaveOCKOP), while Shaw trained on Thursday and Friday and could start at left-back (Roundtable via Yahoo Sports). Opta Analyst counts eight top-flight games without a win and no clean sheet in ten league games, a first since 1986-87, and no away league win this season. FotMob's model, as published by Planet Football on 9 November, gave them 13 expected points against their actual eight, which suggests a side playing worse in the table than in the chances. Martinez is available again after his Chelsea red card, Maguire trained through a back spasm and Dorgu completed a full session; Sesko, Baleba and Ugarte are out (RotoWire). Pochettino, who has never lost a first game at a new club (Football365), said on the eve that 'we cannot talk about data without context' (Al Jazeera). Their last game was the 4-4 with Villa on 8 November.",
+  "shape": "Saturday's previews still agree on the spine, a 4-2-3-1 with Lammens in goal, Mainoo in the pivot and Fernandes at ten, and almost all put Mbeumo through the middle with Cunha and Amad Diallo wide (RotoWire; SI; Afrik-Foot). The back four is still where they part: Opta Analyst has Yoro, De Ligt, Martinez and Dalot, Al Jazeera, whose eleven this board uses, Yoro, Martinez, Maguire and Dalot, and Roundtable has Shaw at left-back with Dalot moved to the right. Fernandes is the creative hub, twenty-three chances created this season, the fourth-most in the league (Opta Analyst).",
   "keyPlayers": [
     {
       "name": "Bruno Fernandes",
@@ -1408,13 +1408,13 @@ export const OPPOSITION = {
   ],
   "predictedXI": [
     "Lammens",
-    "Mazraoui",
     "Yoro",
+    "Martinez",
     "Maguire",
     "Dalot",
-    "Mainoo",
     "Tielemans",
-    "Amad",
+    "Mainoo",
+    "Diallo",
     "Fernandes",
     "Cunha",
     "Mbeumo"
@@ -2086,7 +2086,7 @@ export const SQUAD_LOAD = {
     {
       "position": "Centre-back",
       "level": "critical",
-      "detail": "Critical. Van Dijk, 35, has started fifty league games in a row (Liverpool FC) and Jacquet partners him; Gomez is the only fit senior cover, Leoni not available on Sunday (Al Jazeera)."
+      "detail": "Critical. Van Dijk, 35, is set for a fiftieth consecutive league start (Liverpool FC) and Jacquet partners him; Gomez is the only fit senior cover, Leoni not available on Sunday (Al Jazeera)."
     },
     {
       "position": "Right-back",

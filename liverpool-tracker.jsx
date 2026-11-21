@@ -128,13 +128,13 @@ const RSS_FEEDS = [
 
 // ─── Latest News (sourced from LFC, BBC, Sky, TIA, EOTK, TAW) ─────────────
 const LATEST_NEWS = [
+  { source: "ESPN", title: "Bournemouth 2-0 Nottm Forest: Game Analysis", time: "today", category: "major" },
   { source: "101 Great Goals", title: "Premier League results today: Reports, full scores and latest highlights from Tottenham vs Ipswich, Bournemouth vs Forest, Coventry vs Palace and Villa vs Sunderland", time: "today", category: "fan" },
   { source: "DaveOCKOP", title: "Manchester United suffer fresh setback before Liverpool clash", time: "today", category: "fan" },
   { source: "TimesLIVE", title: "Arsenal squander two leads as Newcastle fight back for a point", time: "today", category: "major" },
   { source: "Al Jazeera", title: "Liverpool vs Manchester United: Premier League teams, prediction, lineups", time: "today", category: "major" },
   { source: "NBC Sports", title: "Chelsea 1-4 Leeds: Xabi Alonso's Blues 'in a fragile moment' as Leeds get 1st Stamford Bridge win since 1999", time: "today", category: "major" },
   { source: "ESPN", title: "Man City 1-1 Fulham: Game Analysis", time: "today", category: "major" },
-  { source: "ESPN", title: "Bournemouth 2-0 Nottm Forest: Game Analysis", time: "today", category: "major" },
   { source: "Football365", title: "Liverpool vs Man Utd prediction: Pochettino to suffer debut defeat at Anfield", time: "today", category: "major" },
   { source: "Liverpool FC", title: "Liverpool v Manchester United: 13 stats to know ahead of Anfield clash", time: "today", category: "official" },
   { source: "Yahoo Sports", title: "Pochettino Starts £193.1m Attacking Quartet: Man Utd Predicted XI vs Liverpool", time: "today", category: "fan" },
