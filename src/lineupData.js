@@ -55,8 +55,10 @@ export const FORMATIONS = {
     // Fri 6 Nov (morning): unchanged; the Liverpool Echo's Friday XI (via Yahoo) matches.
     // Sun 8 Nov (evening): Palace played, Liverpool won 3-1 (ESPN) with exactly this eleven. Re-pointed at MANCHESTER UNITED AT HOME (PL, Sun 22 Nov,
     //   4.30pm GMT, Sky Sports). No personnel change; Szoboszlai (knee, 'not 100%', ESPN) held in with Nyoni the first alternative.
+    // Sun 22 Nov (evening): United played, Liverpool won 4-0 (ESPN). Re-pointed at CLUB BRUGGE AWAY (UCL, Wed 25 Nov, 8pm GMT). Baseline is the eleven
+    //   that started v United (Liverpool FC): Ngumoha left and Barcola right for the injured Gakpo. Endo and Chiesa not UEFA-registered (SI).
     defaultXI: {
-      GK: 1,  // Alisson (six saves at Selhurst, Sky Sports; United at home next)
+      GK: 1,  // Alisson (clean sheet v United, late save from Fernandes)
       LB: 7,  // Kerkez (ninety-five minutes at Selhurst)
       LCB: 3, // Van Dijk
       RCB: 11, // Jacquet
@@ -64,9 +66,9 @@ export const FORMATIONS = {
       LCM: 13, // Mac Allister
       CM: 15, // Szoboszlai (started at Selhurst; knee knock, Nyoni the alternative)
       RCM: 18, // Wirtz (scored at Selhurst)
-      LW: 30, // Barcola (Iraola: better wide)
+      LW: 25, // Ngumoha (scored and assisted v United, on the left per Liverpool FC)
       ST: 23, // Isak (scored at Selhurst)
-      RW: 22, // Gakpo
+      RW: 30, // Barcola (assisted Ngumoha v United; Gakpo out, soleus)
     },
 
   },
@@ -109,17 +111,18 @@ export const FORMATIONS = {
     //   (Carabao Cup R4, Wed 28 Oct, 8pm GMT) on The False 9's XI: Nyoni at ten for Wirtz (ankle, doubt), Ngumoha in for Gakpo.
     // Wed 28 Oct (evening): re-pointed at Arsenal at home after the Chelsea shootout; the Brighton XI, as in both previews found.
     // Sun 8 Nov (evening): re-pointed at Manchester United at home after Crystal Palace 1-3 Liverpool; the eleven that started at Selhurst (ESPN).
+    // Sun 22 Nov (evening): re-pointed at Club Brugge away (UCL, Wed 25 Nov) after Liverpool 4-0 United; the eleven that started (Liverpool FC).
     defaultXI: {
-      GK: 1,  // Alisson (six saves at Selhurst, Sky Sports; United at home next)
+      GK: 1,  // Alisson (clean sheet v United)
       LB: 7,  // Kerkez
       LCB: 3, // Van Dijk
       RCB: 11, // Jacquet
       RB: 29, // Araujo (started at Selhurst)
-      LDM: 15, // Szoboszlai (started at Selhurst, knee knock, ESPN); Nyoni the alternative; Iraola: unstrapped and fine (DaveOCKOP), Gravenberch should be available from the bench
+      LDM: 15, // Szoboszlai (scored the free kick v United, seven shots, Opta Analyst); Nyoni the alternative, Gravenberch day to day
       RDM: 13, // Mac Allister
-      LAM: 30, // Barcola (set up Wirtz at Selhurst)
+      LAM: 25, // Ngumoha (goal and assist v United, the left side per Liverpool FC)
       CAM: 18, // Wirtz (scored at Selhurst)
-      RAM: 22, // Gakpo
+      RAM: 30, // Barcola (assisted Ngumoha v United; Gakpo out, soleus)
       ST: 23, // Isak (scored at Selhurst)
     },
 
@@ -149,8 +152,9 @@ export const FORMATIONS = {
     // Sun 25 Oct (evening): re-pointed at Chelsea at home (Carabao Cup); Gomez inside, Araujo at wing-back, Ngumoha left, Barcola right.
     // Wed 28 Oct (evening): re-pointed at Arsenal at home; Gomez into the back three, Araujo at wing-back, Wirtz to the bench.
     // Sun 8 Nov (evening): re-pointed at Manchester United at home; unchanged, Gomez inside, Araujo at wing-back.
+    // Sun 22 Nov (evening): re-pointed at Club Brugge away; Ngumoha left, Barcola right for the injured Gakpo.
     defaultXI: {
-      GK: 1,  // Alisson (six saves at Selhurst)
+      GK: 1,  // Alisson (clean sheet v United)
       LCB: 3, // Van Dijk
       CCB: 11, // Jacquet
       RCB: 5, // Gomez (back-three cover)
@@ -158,9 +162,9 @@ export const FORMATIONS = {
       LCM: 13, // Mac Allister
       RCM: 15, // Szoboszlai (knee no longer strapped, Iraola 20 Nov; Gravenberch should be available)
       RWB: 29, // Araujo
-      LW: 30, // Barcola
+      LW: 25, // Ngumoha
       ST: 23, // Isak
-      RW: 22, // Gakpo
+      RW: 30, // Barcola (Gakpo out)
     },
 
   },
@@ -208,34 +212,35 @@ export const FORMATIONS = {
 // Evidence strings refreshed Fri Nov 20 (evening) against Iraola's press conference (DaveOCKOP; BBC Sport) and Premier League News Now's evening XI.
 // Evidence strings refreshed Sat Nov 21 (morning) against the Saturday previews (Afrik-Foot; SI; Sports Mole; RotoWire; Evening Standard via AOL) and the club's team news.
 // Evidence strings refreshed Sun Nov 22 (morning, matchday) against the Sunday previews (The Football Faithful via Yahoo Sports; Heavy; Last Word On Sports).
+// Sun Nov 22 (evening): all 27 refreshed after Liverpool 4-0 Manchester United (Liverpool FC; ESPN; Opta Analyst; The Independent); re-pointed at Club Brugge, UCL, Wed 25 Nov.
 export const PLAYER_EVIDENCE = {
-  1:  "Starts · every Sunday XI",
-  2:  "Bench · No. 2",
-  3:  "Starts LCB · 50th straight today",
-  5:  "Bench · senior CB cover",
-  7:  "Starts LB · 50th LFC start today",
-  8:  "Knee · 'not ready'",
-  9:  "Bench · in contention (Heavy)",
-  10: "ACL · 'not ready'",
-  11: "Starts RCB · beside Van Dijk",
+  1:  "Clean sheet v United · late save",
+  2:  "Unused v United",
+  3:  "90 mins v United · 50th straight",
+  5:  "On 85' v United · CB/RB cover",
+  7:  "90 mins at LB v United",
+  8:  "Knee · weeks away",
+  9:  "Back · on 77' v United",
+  10: "ACL · not before new year",
+  11: "90 mins v United · clean sheet",
   12: "On loan at Levante",
-  13: "Starts RDM · yellow = derby ban",
-  14: "Bench · heel, hoping",
-  15: "Starts LDM · 'guaranteed'",
-  17: "Outside matchday previews",
-  18: "Starts at ten · 2G 3A in 8",
-  20: "LWOS starts him · bench",
-  22: "Starts RAM · 5 PL goals v Utd",
-  23: "Starts at nine · only fit 9",
-  24: "Achilles · January target",
-  25: "Bench · Gakpo cover",
-  26: "Building fitness",
+  13: "Off 72' v United · Nyoni on",
+  14: "Heel · day to day",
+  15: "Free-kick goal v United",
+  17: "Not on UCL list (SI)",
+  18: "Goal + assist v United · POTM",
+  20: "On 72' v United · rated 7",
+  22: "Soleus · out of Brugge",
+  23: "Drew Yoro's red · off 85'",
+  24: "Achilles · out rest of 2026",
+  25: "Goal + assist v United · 10/10",
+  26: "Not on UCL list (SI)",
   27: "Third goalkeeper",
-  28: "Bench · wide option",
-  29: "Starts RB · faces Cunha",
-  30: "Starts left · 3G 3A in 8",
-  31: "Bench · cover at nine",
-  32: "Bench · Kerkez's deputy",
+  28: "Off bench, scored v United",
+  29: "85 mins at RB v United",
+  30: "Assist v United · off 72'",
+  31: "On 85' v United · cover at nine",
+  32: "Unused v United · LB deputy",
 };
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
 // now pointed at Manchester City at home on Sunday 11 October, 4.30pm at Anfield. This is no
@@ -423,6 +428,9 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 //   Levels unchanged. All 27 evidence strings and ten rationales refreshed. Overall Medium.
 // Sun Nov 22 (morning, matchday): no personnel change. Two Sunday-morning XIs (The Football Faithful via Yahoo Sports; Heavy) match this sheet; Last Word On Sports
 //   starts Nyoni for Mac Allister, held at Mac Allister. Levels unchanged. All 27 evidence strings and ten rationales refreshed. Overall Medium.
+// Sun Nov 22 (evening): United played, Liverpool won 4-0 (ESPN). Re-pointed at Club Brugge away, Champions League, Wed 25 Nov, 8pm GMT. TWO slot changes to match
+//   the eleven that started (Liverpool FC): Ngumoha LAM, Barcola RAM, Gakpo out (soleus, Sports Mole). No Liverpool XI for Bruges published by a named preview yet,
+//   and the derby follows on Sunday, so RB, RDM and the wide slots drop a level. Overall Medium to Low.
 // ─── Per-slot confidence levels ─────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by the 4-2-3-1
 // slot keys. These read as confidence that the slot's occupant STARTS AGAINST MANCHESTER UNITED AT HOME (PL, Sun 22 Nov; re-pointed Sun Nov 8 evening after Crystal Palace 1-3 Liverpool: RB High to Medium with Frimpong possibly back, CAM Medium to High, LDM stays Low on Szoboszlai's knee. Previously Crystal Palace away, PL, Sun 8 Nov; reviewed Sun Nov 8 morning, no level change, previews split two-two at LDM; reviewed Sat Nov 7 evening, LDM Medium to Low. Previously Fenerbahçe away, UCL, Wed 4 Nov; re-pointed Sun Nov 1 evening after Liverpool 0-1 Arsenal: baseline is the Anfield XI, rotation for Palace on Sunday expected, so GK, LB, RCB, RB, LAM Medium and LDM, RAM Low. Previously Arsenal at home, PL, Sun 1 Nov; re-pointed Wed Oct 28 evening after Liverpool 1-1 Chelsea, 6-5 pens: GK, LB, RCB, LDM, ST High, the rest Medium. Previously Chelsea at home, Carabao Cup, Wed 28 Oct; re-pointed Sun Oct 25 evening after Liverpool 2-0 Brighton: CAM and LAM Low, GK, LB, ST Medium for cup rotation. Previously Brighton at home, PL, Sun 25 Oct; reviewed Sun Oct 25 morning, no level change; reviewed Sat Oct 24 morning, no level change; reviewed Thu Oct 22 evening, no level change; reviewed Thu Oct 22 morning, no level change; reviewed Wed Oct 21 evening, no level change; reviewed Wed Oct 21 morning, no level change; re-pointed Tue Oct 20 evening after Liverpool 4-3 Villarreal. Previously Villarreal at home (UCL, Tue 20 Oct; re-pointed Sat Oct 17 evening after Brentford 1-2 Liverpool: LDM Gravenberch High, CAM Wirtz High, RCB High, ST Isak Medium, RAM Medium. Previously Brentford away; Sat Oct 17 morning: CAM High to Medium, three Echo writers pick Szoboszlai there; RAM Medium to Low, all four Echo writers pick Ngumoha; re-pointed Wed 14 Oct evening after LASK 3-6 Liverpool; previously LASK Linz, and before that Manchester City at
@@ -437,10 +445,10 @@ export const SLOT_CONFIDENCE = {
   GK: "High",
   LB: "Medium",
   LCB: "High",
-  RCB: "High",
-  RB: "Medium",
+  RCB: "Medium",
+  RB: "Low",
   LDM: "Medium",
-  RDM: "High",
+  RDM: "Medium",
   LAM: "Medium",
   CAM: "High",
   RAM: "Medium",
@@ -453,16 +461,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Sun Nov 22, morning - Kerkez in every Sunday XI, a start from fifty for the club (Liverpool FC). Tsimikas behind. Medium.",
-  LCB: "Sun Nov 22, morning - Van Dijk, 'guaranteed to feature' (The Football Faithful via Yahoo Sports), for a fiftieth league start in a row. High.",
-  RCB: "Sun Nov 22, morning - Jacquet beside Van Dijk in every matchday XI read (Heavy). Gomez the cover. High.",
-  RB: "Sun Nov 22, morning - Araujo in every Sunday XI; Frimpong 'expected to be in contention' (Heavy) from the bench. Medium.",
-  LDM: "Sun Nov 22, morning - Szoboszlai, 'guaranteed to feature' (The Football Faithful via Yahoo Sports). Gravenberch bench at best. Medium.",
-  RDM: "Sun Nov 22, morning - Mac Allister in all but Last Word On Sports' XI (Nyoni there); a booking costs him the derby. High.",
-  LAM: "Sun Nov 22, morning - Barcola on the left in every Sunday XI; three goals and three assists in his last eight (Opta Analyst). Medium.",
-  CAM: "Sun Nov 22, morning - Wirtz at ten everywhere, two goals and three assists in his last eight (Opta Analyst). High.",
-  RAM: "Sun Nov 22, morning - Gakpo in every Sunday XI, five league goals against United (The Football Faithful via Yahoo Sports); Thursday still unexplained. Medium.",
-  ST: "Sun Nov 22, morning - Isak, the only fit senior nine, in every XI; seven league goals in nine (Evening Standard via AOL). High.",
+  LB: "Sun Nov 22, evening - Kerkez played ninety v United; Tsimikas, unused, is the rotation option for Bruges. Medium.",
+  LCB: "Sun Nov 22, evening - Van Dijk, a fiftieth league start in a row and a clean sheet; no senior alternative but Gomez. High.",
+  RCB: "Sun Nov 22, evening - Jacquet, ninety v United and rated 7 (ESPN); Gomez could start in Europe. Medium.",
+  RB: "Sun Nov 22, evening - Araujo started and went off on eighty-five; Frimpong back from the bench, Gomez too. Low.",
+  LDM: "Sun Nov 22, evening - Szoboszlai, the free-kick goal and seven shots v United (Opta Analyst); Gravenberch day to day. Medium.",
+  RDM: "Sun Nov 22, evening - Mac Allister off on seventy-two for Nyoni (Liverpool FC); rotation before the derby is plausible. Medium.",
+  LAM: "Sun Nov 22, evening - Ngumoha, a goal and an assist v United on the left (Liverpool FC); Munoz the alternative. Medium.",
+  CAM: "Sun Nov 22, evening - Wirtz, Player of the Match, ten chances created v United (Opta Analyst). High.",
+  RAM: "Sun Nov 22, evening - Barcola, who set up Ngumoha (ESPN); Gakpo out with a soleus injury (Sports Mole). Medium.",
+  ST: "Sun Nov 22, evening - Isak, the only fit senior nine; drew the red card v United, off on eighty-five for Koumas. High.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -471,24 +479,24 @@ export const SLOT_RATIONALE = {
 // 4-2-3-1 (the season-closing baseline shape).
 export const ALTERNATIVES = {
   GK:  [{ playerId: 2, reason: "Mamardashvili · No. 2" }, { playerId: 27, reason: "Woodman · third-choice" }],
-  LB:  [{ playerId: 32, reason: "Tsimikas · unused at Selhurst" }],
-  LCB: [{ playerId: 5, reason: "Gomez · if Van Dijk is not fit" }],
+  LB:  [{ playerId: 32, reason: "Tsimikas · unused v United" }],
+  LCB: [{ playerId: 5, reason: "Gomez · if Van Dijk is rested" }],
   RCB: [{ playerId: 5, reason: "Gomez · senior cover" }],
-  RB:  [{ playerId: 5, reason: "Gomez · on for Araújo at Selhurst" }, { playerId: 9, reason: "Frimpong · bench at best" }],
-  LDM: [{ playerId: 20, reason: "Nyoni · on for Szoboszlai at Selhurst" }, { playerId: 17, reason: "Endo · unused, fresh" }],
+  RB:  [{ playerId: 9, reason: "Frimpong · back, on 77' v United" }, { playerId: 5, reason: "Gomez · on for Araujo v United" }],
+  LDM: [{ playerId: 20, reason: "Nyoni · on 72' v United" }, { playerId: 14, reason: "Gravenberch · if the heel allows" }],
   RDM: [{ playerId: 20, reason: "Nyoni · midfield cover" }],
-  LAM: [{ playerId: 28, reason: "Munoz · on for Barcola at Selhurst" }, { playerId: 25, reason: "Ngumoha · either flank" }],
+  LAM: [{ playerId: 28, reason: "Munoz · scored off the bench v United" }],
   CAM: [{ playerId: 20, reason: "Nyoni · if Wirtz is rested" }],
-  RAM: [{ playerId: 25, reason: "Ngumoha · named Gakpo cover (PLNN)" }, { playerId: 28, reason: "Munoz · wide option" }],
-  ST:  [{ playerId: 30, reason: "Barcola · led the line in Istanbul" }, { playerId: 31, reason: "Koumas · on for Isak at Selhurst" }],
+  RAM: [{ playerId: 28, reason: "Munoz · wide option" }],
+  ST:  [{ playerId: 31, reason: "Koumas · on for Isak v United" }, { playerId: 30, reason: "Barcola · led the line in Istanbul" }],
 };
 
 // ─── Prediction confidence & metadata ───────────────────────────────────────
 // Overall confidence chip shown above the pitch. Enriched with predictor
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
-  level: "Medium",
-  generated_at: "2026-11-22T09:45:00Z",
-  reason: "Sun Nov 22, morning (matchday). Manchester United at home, Premier League, today 4.30pm GMT, Sky Sports. 11 of 11 started the 3-1 at Selhurst (ESPN), and the Sunday-morning XIs (The Football Faithful via Yahoo Sports; Heavy) name the same eleven; Last Word On Sports alone starts Nyoni for Mac Allister. Van Dijk and Szoboszlai guaranteed, Gravenberch and Frimpong bench at best. Medium.",
+  level: "Low",
+  generated_at: "2026-11-22T23:20:00Z",
+  reason: "Sun Nov 22, evening. Club Brugge away, Champions League, Wednesday 8pm GMT. The baseline is the eleven that beat United 4-0 (Liverpool FC), with Ngumoha in for Gakpo, who is out with a soleus injury (Sports Mole). No named preview has published Liverpool's XI for Bruges, Endo and Chiesa are not on the UEFA list, and the derby at Everton follows on Sunday, so rotation is likely. Low.",
 };
 

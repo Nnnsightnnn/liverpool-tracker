@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Sunday, and the game in hand is this afternoon. United arrive nineteenth and without Rashford, ruled out of
-          Pochettino's first squad overnight, while the morning's previews name the same Liverpool eleven that won at Selhurst.
-          Win at half past four and Liverpool climb from fifth to fourth, a point behind Brighton and City.
+          Sunday night, and the game in hand became a four-goal afternoon. United were down to ten after eight minutes,
+          Szoboszlai and Wirtz scored inside the next five, and Ngumoha, eighteen, scored one and made another. Liverpool are
+          fourth, a point behind Brighton and City, and the next test is Club Brugge, level with them in Europe, on Wednesday.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Matchday</span>,{" "}
-              at last, and the overnight news came from the other dressing room. Rashford is out of Pochettino's first United
-              squad with the hip that has troubled him since the Atletico game, while Maguire and Dorgu are expected to be
-              involved and Martinez is back from suspension. Liverpool's own sheet has barely moved in a week: Van Dijk fit for a
-              fiftieth league start in a row, Szoboszlai cleared, Gravenberch and Frimpong hoping for the bench. United have taken
-              more league shots than anyone and hit the target with few of them; Liverpool have four Anfield goals in five games.
-              One of those habits ends at half past four.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the table finally looks the way the underlying numbers kept promising. Liverpool beat Manchester United 4-0 at
+              Anfield, a match decided when Yoro brought Isak down and was sent off in the eighth minute, and finished it with
+              4.38 expected goals to 0.64. Wirtz made ten chances, more than the visitors managed between them; Ngumoha, in only
+              because Gakpo's calf kept him out, scored one and made one. The sterner reading is that ten men flatter everybody,
+              and that Brugge, level with Liverpool on nine Champions League points, will have eleven. Gakpo is expected to miss
+              Wednesday too. Four goals at home, at last, and the hard part starts again in three days.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: Rashford left out of the first squad; seven million and a
-              captain; a hundred and ninety-three shots; the contract nobody has signed; and the game in hand, at last.
-              Kick-off is at half past four.
+              five dispatches from the writers who never clock off: eight minutes, then nothing left to decide; the youngest
+              name on the sheet; a first game and a record of the wrong kind; the calf that kept Gakpo out; and level at the
+              top of the chasing pack. Brugge kick off at eight on Wednesday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        One habit ends at half past four.
+        Eight minutes, and the afternoon was ours.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
