@@ -572,7 +572,7 @@ function CoverView({ onJump }) {
         }}>
           Sunday, and the game in hand is this afternoon. United arrive nineteenth and without Rashford, ruled out of
           Pochettino's first squad overnight, while the morning's previews name the same Liverpool eleven that won at Selhurst.
-          Win at half past four and Liverpool climb from fifth to fourth, a point behind City.
+          Win at half past four and Liverpool climb from fifth to fourth, a point behind Brighton and City.
         </p>
 
         <StatStrip stats={stats} />

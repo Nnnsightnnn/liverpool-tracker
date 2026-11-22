@@ -1224,7 +1224,7 @@ export const STANDINGS_COMMENTARY = {
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 11,
   "generatedAt": "2026-11-22T09:45:00Z",
-  "overview": "Sunday morning, and the table is the one Saturday left: Arsenal six clear on twenty-eight, Brighton and City level on twenty-two, and Bournemouth fourth on eighteen, level with Liverpool on points and goal difference and ahead on ESPN's tie-break (ESPN). Two of the six sides with a game in hand play today, Brighton at Hull and Liverpool at home to United. A Liverpool win makes it twenty-one and fourth, a point behind City; a draw leaves them fifth, still level with Bournemouth. At the foot, United are nineteenth on eight and in the bottom three at this point of a season for the first time in forty years (Sky Sports).",
+  "overview": "Sunday morning, and the table is the one Saturday left: Arsenal six clear on twenty-eight, Brighton and City level on twenty-two, and Bournemouth fourth on eighteen, level with Liverpool on points and goal difference and ahead on ESPN's tie-break (ESPN). Four of the six sides with a game in hand play today, in two games: Hull against Brighton and Liverpool against United. A Liverpool win makes it twenty-one and fourth, a point behind City; a draw leaves them fifth, still level with Bournemouth. At the foot, United are nineteenth on eight and in the bottom three at this point of a season for the first time in forty years (Sky Sports).",
   "teams": {
     "Liverpool": "Fifth on eighteen, a game in hand; United at 4.30pm today, and a win means fourth (ESPN).",
     "Arsenal": "Six points clear after Saturday's 2-2 at Newcastle (Reuters via TimesLIVE).",
@@ -1279,12 +1279,12 @@ export const DISPATCHES = [
     "byline": "ESPN / Sky Sports",
     "dateline": "Anfield · 22 November",
     "category": "Race for Europe",
-    "body": "Liverpool wake up fifth, level with Bournemouth on eighteen points and on goal difference, with the one fixture nobody else has left (ESPN). Three points this afternoon take them to twenty-one and fourth, a point behind City and Brighton, who play at Hull today. United have eight, and are in the bottom three at this point of a season for the first time in forty years (Sky Sports). The fixture list after this is unforgiving, Brugge on Wednesday and Everton next Sunday. The table has waited a day for Liverpool. It will not wait longer."
+    "body": "Liverpool wake up fifth, level with Bournemouth on eighteen points and on goal difference, with a game in hand, as Brighton have (ESPN). Three points this afternoon take them to twenty-one and fourth, a point behind City and Brighton, who play at Hull today. United have eight, and are in the bottom three at this point of a season for the first time in forty years (Sky Sports). The fixture list after this is unforgiving, Brugge on Wednesday and Everton next Sunday. The table has waited a day for Liverpool. It will not wait longer."
   }
 ];
 export const NEWS_DIGEST = {
   "generatedAt": "2026-11-22T09:45:00Z",
-  "summary": "Matchday at Anfield, and the overnight news came from the visitors: Rashford is ruled out of Pochettino's first United squad with the hip problem that has kept him out since the Atletico game (Evening Standard via Yahoo Sports; CaughtOffside, citing GIVEMESPORT), while Maguire and Dorgu are back in training and expected to be included (Sports Mole). Liverpool's own sheet has not moved: the Sunday-morning previews name the eleven that won at Selhurst, Van Dijk and Szoboszlai 'guaranteed to feature' and Gravenberch and Frimpong hoping for the bench (The Football Faithful via Yahoo Sports; Heavy), with Last Word On Sports alone starting Nyoni for Mac Allister. Liverpool begin the day fifth on Bournemouth's tie-break with a game in hand, and a win at 4.30pm would lift them to fourth, a point behind City. United, nineteenth, have taken more league shots than anyone, 193, but put only 28 per cent of them on target (Opta Analyst).",
+  "summary": "Matchday at Anfield, and the overnight news came from the visitors: Rashford is ruled out of Pochettino's first United squad with the hip problem that has kept him out since the Atletico game (Evening Standard via Yahoo Sports; CaughtOffside, citing GIVEMESPORT), while Maguire and Dorgu are back in training and expected to be included (Sports Mole). Liverpool's own sheet has not moved: the Sunday-morning previews name the eleven that won at Selhurst, Van Dijk and Szoboszlai 'guaranteed to feature' and Gravenberch and Frimpong hoping for the bench (The Football Faithful via Yahoo Sports; Heavy), with Last Word On Sports alone starting Nyoni for Mac Allister. Liverpool begin the day fifth on Bournemouth's tie-break with a game in hand, and a win at 4.30pm would lift them to fourth, a point behind Brighton and City. United, nineteenth, have taken more league shots than anyone, 193, but put only 28 per cent of them on target (Opta Analyst).",
   "keyTopics": [
     {
       "title": "Rashford Ruled Out Of Pochettino's First Squad (CaughtOffside, today)",
@@ -1441,8 +1441,8 @@ export const OPPOSITION = {
     },
     {
       "name": "Luke Shaw",
-      "issue": "Muscle; 'unavailable' to the Evening Standard (via Yahoo Sports) and a doubt to SI, though Last Word On Sports says he 'appears to be fit'.",
-      "status": "Doubt"
+      "issue": "Muscle; on the club's own list of United absentees (Liverpool FC) and 'unavailable' to the Evening Standard (via Yahoo Sports), though Last Word On Sports says he 'appears to be fit'.",
+      "status": "Out"
     },
     {
       "name": "Marcus Rashford",
@@ -1611,7 +1611,7 @@ export const FORM_TRENDS = {
       "label": "One forward, scoring again",
       "severity": "medium",
       "source": "NBC Sports / Opta Analyst",
-      "detail": "Isak's deflected third was his seventh league goal of the season, two behind Haaland (NBC Sports), after six in his first eight league games (Opta Analyst). He is still the only fit senior nine, and Iraola praised his movement for Wirtz's goal (Liverpool FC)."
+      "detail": "Isak's deflected third was his seventh league goal of the season (NBC Sports), after six in his first eight league games (Opta Analyst). He is still the only fit senior nine, and Iraola praised his movement for Wirtz's goal (Liverpool FC)."
     },
     {
       "label": "Right-back by elimination",
@@ -2025,14 +2025,14 @@ export const SQUAD_LOAD = {
       "name": "Virgil van Dijk",
       "issue": "Unspecified fitness issue after ninety minutes at Selhurst",
       "status": "Fit, per the club's team news (Liverpool FC)",
-      "note": "Set for a fiftieth consecutive Premier League start (Liverpool FC); at centre-back in every Saturday XI read.",
+      "note": "Set for a fiftieth consecutive Premier League start (Liverpool FC); at centre-back in every Sunday XI read (The Football Faithful via Yahoo Sports; Heavy).",
       "source": "Liverpool FC / SI / Sports Mole / RotoWire"
     },
     {
       "name": "Ronald Araujo",
       "issue": "Unspecified knock after a late tackle on Alvarez in Uruguay's 2-1 win over Argentina, Friday 13 November",
       "status": "Doubt, easing: trained on Thursday after South American duty (Empire of the Kop), having come off the bench in Maldonado on 17 November (Gulf News)",
-      "note": "Right-back in all seven previews read (SI; Sports Mole; RotoWire); no diagnosis of the Buenos Aires knock was ever published.",
+      "note": "Right-back in every Sunday XI read (The Football Faithful via Yahoo Sports; Heavy); no diagnosis of the Buenos Aires knock was ever published.",
       "source": "SI / Sports Mole / RotoWire / Empire of the Kop / Gulf News"
     },
     {
@@ -2250,13 +2250,13 @@ export const SEASON_PROJECTION = {
       "label": "Champions League (top 4)",
       "points": 68,
       "gap": 0,
-      "note": "Historical par for the last Champions League place in recent seasons. The current pace meets it exactly; Bournemouth hold fourth tonight, level with Liverpool on points and goal difference (ESPN)."
+      "note": "Historical par for the last Champions League place in recent seasons. The current pace meets it exactly; Bournemouth hold fourth this morning, level with Liverpool on points and goal difference (ESPN)."
     },
     {
       "label": "Europa League (5th)",
       "points": 60,
       "gap": 0,
-      "note": "Fifth-place par, the Europa League stripe on ESPN's table, where Liverpool sit tonight. Cleared by eight on current pace."
+      "note": "Fifth-place par, the Europa League stripe on ESPN's table, where Liverpool sit this morning. Cleared by eight on current pace."
     },
     {
       "label": "Conference League (6th-7th)",
@@ -2322,7 +2322,7 @@ export const SEASON_PROJECTION = {
       "difficulty": "medium"
     }
   ],
-  "runInVerdict": "Three of the next six league games are at Anfield in the next fortnight's spine: United today, nineteenth, and Sunderland, eighteenth, on 2 December, with the derby at Everton, seventh, between them (ESPN). Seven points from those three would make twenty-five from thirteen and keep the pace above fourth-place par; four or fewer would leave Liverpool behind Bournemouth as well as City. Club Brugge away on Wednesday is the Champions League game in between.",
+  "runInVerdict": "Two of the next three league games are at Anfield: United today, nineteenth, and Sunderland, eighteenth, on 2 December, with the derby at Everton, seventh, between them (ESPN). Seven points from those three would make twenty-five from thirteen and keep the pace above fourth-place par; four or fewer would leave Liverpool behind Bournemouth as well as City. Club Brugge away on Wednesday is the Champions League game in between.",
   "sources": [
     "ESPN",
     "SI",
