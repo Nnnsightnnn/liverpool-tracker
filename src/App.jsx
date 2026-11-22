@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Saturday night, and Liverpool are fifth without having played: Bournemouth's ninth win in a row has lifted them
-          above on the tie-break, while Arsenal and City both dropped points. The game in hand is tomorrow, United at Anfield
-          at half past four, and three points would put Liverpool back in fourth, a point off second.
+          Sunday, and the game in hand is this afternoon. United arrive nineteenth and without Rashford, ruled out of
+          Pochettino's first squad overnight, while the morning's previews name the same Liverpool eleven that won at Selhurst.
+          Win at half past four and Liverpool climb from fifth to fourth, a point behind City.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the table looks worse than the day did. Liverpool sat out Saturday and slipped to fifth, overtaken on the tie-break
-              by Bournemouth, the club Iraola used to manage, who have now won nine in a row. Everything else went their way:
-              Arsenal twice let a lead go at Newcastle and lost Raya to an arm injury, City were held by Fulham, Chelsea were
-              beaten at home by Leeds. United arrive nineteenth, reportedly without Rashford, and Van Dijk is set for a fiftieth
-              league start in a row. Liverpool have spent the season winning away and stalling at home. Tomorrow the home game
-              is the game in hand.
+              <span style={{ fontStyle: "italic", color: T.red }}>Matchday</span>,{" "}
+              at last, and the overnight news came from the other dressing room. Rashford is out of Pochettino's first United
+              squad with the hip that has troubled him since the Atletico game, while Maguire and Dorgu are expected to be
+              involved and Martinez is back from suspension. Liverpool's own sheet has barely moved in a week: Van Dijk fit for a
+              fiftieth league start in a row, Szoboszlai cleared, Gravenberch and Frimpong hoping for the bench. United have taken
+              more league shots than anyone and hit the target with few of them; Liverpool have four Anfield goals in five games.
+              One of those habits ends at half past four.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: fifth without kicking a ball; two Arsenal leads and a
-              goalkeeper off; Pochettino on data and context; seventeen big chances and thirty-three; and fifty starts in a row.
-              Saturday moved the table, and United come tomorrow.
+              five dispatches from the writers who never clock off: Rashford left out of the first squad; seven million and a
+              captain; a hundred and ninety-three shots; the contract nobody has signed; and the game in hand, at last.
+              Kick-off is at half past four.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        Fifth tonight. The game in hand is tomorrow.
+        One habit ends at half past four.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
