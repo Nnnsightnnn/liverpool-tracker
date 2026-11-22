@@ -122,7 +122,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sun Nov 22, evening - Off for Nyoni on seventy-two (Liverpool FC); the club's report records no booking for him, so the derby question is still unanswered rather than settled.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Sun Nov 22, evening - Off for Nyoni on seventy-two (Liverpool FC); Barcola took Liverpool's only booking (Sports Mole), so he is still one yellow from a derby ban.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -213,7 +213,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Sun Nov 22, evening - Scored and assisted against United, rated 10 by ESPN, the youngest to do both for Liverpool since Michael Owen in 1997 (Opta Analyst).", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-11-22", "2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Sun Nov 22, evening - Scored and assisted against United, rated 10 by ESPN, the youngest to do both for Liverpool since Michael Owen in 1997 (Opta Analyst).", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -1284,7 +1284,7 @@ export const DISPATCHES = [
     "byline": "ESPN / Fox Sports",
     "dateline": "Bruges · 22 November",
     "category": "Race for Europe",
-    "body": "The game in hand has been played and spent well. Liverpool are fourth on twenty-one, a point behind Brighton and City, who lost at Hull, and seven off Arsenal (ESPN). The next table is a different one. In the Champions League Liverpool and Club Brugge both have nine points from four games and the same goal difference, eighth and ninth (Fox Sports; Sports Mole), and Brugge arrive in form, 5-1 winners at Mechelen on Saturday (DaveOCKOP). Wednesday in Bruges, then the derby at Everton on Sunday."
+    "body": "The game in hand has been played and spent well. Liverpool are fourth on twenty-one, a point behind Brighton, who lost at Hull, and City, and seven off Arsenal (ESPN). The next table is a different one. In the Champions League Liverpool and Club Brugge both have nine points from four games and the same goal difference, eighth and ninth (Fox Sports; Sports Mole), and Brugge arrive in form, 5-1 winners at Mechelen on Saturday (DaveOCKOP). Wednesday in Bruges, then the derby at Everton on Sunday."
   }
 ];
 export const NEWS_DIGEST = {
@@ -1317,7 +1317,7 @@ export const NEWS_DIGEST = {
       "detail": "Iraola's pre-match update on Sunday: the heel still hurts, he has been training, and he was not ruled out of Wednesday's Champions League game."
     },
     {
-      "title": "Iraola: 'We Owe Them' At Anfield (Liverpool FC, today)",
+      "title": "Iraola Wants To Fix The Home Form (Liverpool FC, today)",
       "category": "general",
       "detail": "In his post-match press conference on Sunday he said 'we've had much better results away than at home and we want to solve this', and called Yoro's challenge 'a clear foul'."
     },
@@ -1993,7 +1993,7 @@ export const SQUAD_LOAD = {
       "Barcola",
       "Isak"
     ],
-    "changes": "One change from Selhurst (Liverpool FC): Ngumoha in for the injured Gakpo. Substitutions: Nyoni for Mac Allister and Munoz for Barcola on seventy-two, Frimpong for Ngumoha on seventy-seven, Koumas for Isak and Gomez for Araujo on eighty-five. Unused: Mamardashvili, Chiesa, Tsimikas, McConnell (Liverpool FC). ESPN's team stats record one Liverpool booking; the club's report names none.",
+    "changes": "One change from Selhurst (Liverpool FC): Ngumoha in for the injured Gakpo. Substitutions: Nyoni for Mac Allister and Munoz for Barcola on seventy-two, Frimpong for Ngumoha on seventy-seven, Koumas for Isak and Gomez for Araujo on eighty-five. Unused: Mamardashvili, Chiesa, Tsimikas, McConnell (Liverpool FC). Booked: Barcola on sixty-two, Liverpool's only card (Sports Mole; ESPN).",
     "source": "Liverpool FC / VAVEL / ESPN"
   },
   "depthRisk": [

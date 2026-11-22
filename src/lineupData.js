@@ -59,15 +59,15 @@ export const FORMATIONS = {
     //   that started v United (Liverpool FC): Ngumoha left and Barcola right for the injured Gakpo. Endo and Chiesa not UEFA-registered (SI).
     defaultXI: {
       GK: 1,  // Alisson (clean sheet v United, late save from Fernandes)
-      LB: 7,  // Kerkez (ninety-five minutes at Selhurst)
+      LB: 7,  // Kerkez (ninety minutes v United)
       LCB: 3, // Van Dijk
       RCB: 11, // Jacquet
-      RB: 29, // Araujo (started at Selhurst; Frimpong back in training, bench at best; Bradley out)
+      RB: 29, // Araujo (started v United; Frimpong back off the bench on 77; Bradley out)
       LCM: 13, // Mac Allister
-      CM: 15, // Szoboszlai (started at Selhurst; knee knock, Nyoni the alternative)
-      RCM: 18, // Wirtz (scored at Selhurst)
+      CM: 15, // Szoboszlai (free-kick goal v United; Nyoni the alternative)
+      RCM: 18, // Wirtz (goal and assist v United)
       LW: 25, // Ngumoha (scored and assisted v United, on the left per Liverpool FC)
-      ST: 23, // Isak (scored at Selhurst)
+      ST: 23, // Isak (drew Yoro's red v United)
       RW: 30, // Barcola (assisted Ngumoha v United; Gakpo out, soleus)
     },
 
@@ -160,7 +160,7 @@ export const FORMATIONS = {
       RCB: 5, // Gomez (back-three cover)
       LWB: 7, // Kerkez
       LCM: 13, // Mac Allister
-      RCM: 15, // Szoboszlai (knee no longer strapped, Iraola 20 Nov; Gravenberch should be available)
+      RCM: 15, // Szoboszlai (scored v United; Gravenberch day to day with the heel)
       RWB: 29, // Araujo
       LW: 25, // Ngumoha
       ST: 23, // Isak
