@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday, and the week turns to Bruges. Gakpo will miss Wednesday, Gravenberch's heel is still a question, and Club Brugge,
-          level with Liverpool on nine points in Europe, have lost Virgili. Sunday's four goals left Liverpool fourth, a point off
-          second; Everton, the derby opponents, play at Brentford tonight. Bruges is two days away.
+          Monday night, and the derby changed shape in west London. Everton lost 4-0 at Brentford, slipped to ninth, and lost
+          Tarkowski to a red card that keeps him out on Sunday. Liverpool stay fourth, a point off second, with Bruges first:
+          Wednesday at eight, Gakpo out, Gravenberch a doubt, and UEFA's eleven with Tsimikas at left-back.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and the week belongs to Bruges. Liverpool travel without Gakpo and perhaps without Gravenberch, with three wide
-              forwards for two places and a derby four days later; Brugge have lost Virgili to a muscle injury, have gone eleven
-              games unbeaten, and have a coach who says he has not thought about Wednesday for a single second. Behind all that,
-              the arguments about Sunday go on without Liverpool. Neville blamed De Ligt, two former players on the BBC called the
-              red card lucky, and Mainoo said it does not define United; everyone knows the 4.38 expected goals were made against
-              ten men. Somewhere in between, Mac Allister's people have started talking about 2028. A quiet morning is what a good result buys.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the week's second fixture announced itself early. James Tarkowski was sent off at Brentford for a studs-up challenge,
+              Everton lost 4-0, and the side Liverpool meet on Sunday will be without a centre-back who had gone more than three
+              hundred and fifty Premier League games without a red card. That is for later. Wednesday comes first, in Bruges, where
+              UEFA's predicted eleven gives Tsimikas the left-back place and Belgian writers have spent the day naming dangers, Wirtz
+              first among them. Jamie Carragher named him too, taking back his Sunday verdict on Ngumoha. For once, Liverpool have
+              spent a Monday watching someone else's trouble.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: three wide men, and a heel still sore; the morning after,
-              argued over; a coach who will not say the name; Mac Allister, and the first conversation; and Everton, watched
-              from a distance. Brugge kick off at eight on Wednesday.
+              five dispatches from the writers who never clock off: a red card at Brentford, and a derby changed; Moyes,
+              outlasted by his own record; eleven names, and one nobody else had; what they fear in Flanders; and the best
+              player on the pitch, corrected. Brugge kick off at eight on Wednesday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        The noise is elsewhere; the work is Bruges.
+        Sunday got easier; Wednesday did not.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

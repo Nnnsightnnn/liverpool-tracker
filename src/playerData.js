@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Mon Nov 23, morning - Kept United to three shots on target on Sunday (ESPN); Brugge arrive averaging 2.8 goals a game in the Champions League (Fox Sports).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Mon Nov 23, evening - UEFA.com's Brugge XI keeps him in goal; Brugge have lost nine of ten Champions League games against English sides (ESPN).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 26, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Mon Nov 23, morning - No goalkeeping change has been reported for Bruges; unused on Sunday, the number two if Iraola rotates before the derby.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 26, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Mon Nov 23, evening - With Jaros listed out with a shin injury by UEFA.com, he is the clear number two for Bruges.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Mon Nov 23, morning - Next up is Tresoldi, five Champions League goals on Fox Sports' team-leaders panel; Sunday's clean sheet was the first at Anfield since 25 October.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Mon Nov 23, evening - Voetbalkrant names his heading from Szoboszlai's set pieces as one of Liverpool's three dangers; in UEFA.com's eleven for Wednesday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Mon Nov 23, morning - With Leoni on Sunday night's absentee list (Sports Mole), he is the only fit senior centre-back behind Van Dijk and Jacquet.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Mon Nov 23, evening - ESPN's Brugge XI starts him at right-back; UEFA.com's keeps Araujo there, leaving him the senior centre-back cover.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -54,7 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Mon Nov 23, morning - Sixty-four per cent of the ball on Sunday (ESPN) kept him high; Tsimikas, three Champions League assists (Fox Sports), is the alternative in Bruges.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Mon Nov 23, evening - UEFA.com's Brugge XI rests him for Tsimikas; Khel Now's keeps him, so Sunday's derby looks the likelier start.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Mon Nov 23, morning - Knee: on Sunday night's Brugge absentee list with Ekitike and Leoni (Sports Mole), which gives 2 January; the Evening Standard (via AOL) had mentioned Sunderland on 2 December.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Mon Nov 23, evening - Knee: listed out by UEFA.com for Wednesday; Khel Now calls him back in training, Sports Mole gives 2 January.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Mon Nov 23, morning - A quarter of an hour on Sunday after five weeks out (Liverpool FC); a start in Bruges would be his first since Brentford in October.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Mon Nov 23, evening - On no Brugge absentee list after his return, but neither UEFA.com nor ESPN starts him; Araujo and Gomez are preferred.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Mon Nov 23, morning - ACL: listed out for Brugge on Sunday night (Sports Mole), and not expected back before the new year.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Mon Nov 23, evening - ACL: out for Brugge on every list (ESPN; UEFA.com); nothing expected before the new year.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Mon Nov 23, morning - Pochettino argued he had fouled Mbeumo before Yoro's red (Stretty News); ninety minutes and a clean sheet on Sunday, in line for Bruges.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Mon Nov 23, evening - In both UEFA.com's and ESPN's Brugge XIs; Vanhaezebrouck says Liverpool lack pace at the back (VoetbalFocus).", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Mon Nov 23, morning - Still on loan at Levante; nothing new on Monday.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Mon Nov 23, evening - On loan at Levante; no change on Monday evening.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -111,7 +111,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Mon Nov 23, morning - Three Champions League assists, Liverpool's leader on Fox Sports' panel; unused on Sunday and a rotation option in Bruges.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
+    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Mon Nov 23, evening - UEFA.com and ESPN both start him at left-back in Bruges, with Kerkez kept for the derby.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
     physical: { height: 178, weight: 76, pace: 79, acceleration: 80, sprintSpeed: 78 },
     career: [
       { years: "2017-2020", club: "Olympiacos", fee: null, type: "senior" },
@@ -122,7 +122,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Mon Nov 23, morning - Preliminary contract talks with his representatives reported on Monday morning (CaughtOffside, citing Football Insider); his deal runs to 2028.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Mon Nov 23, evening - The Athletic's view, via Anfield Index: a new deal 'now feels like a priority', with about eighteen months left on his contract.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "doubtful", outSince: "2026-11-03", injuryNote: "Mon Nov 23, morning - Heel: a major doubt for Brugge on Sunday night's injury list (Sports Mole); he has trained, but the pain has not gone.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "doubtful", outSince: "2026-11-03", injuryNote: "Mon Nov 23, evening - Heel: 'we are going day to day', Iraola's line as carried by The Sports Bank; doubtful on UEFA.com's list for Wednesday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Mon Nov 23, morning - His free kick started the earliest two-goal lead Liverpool have had over United in the Premier League, 2-0 at twelve minutes forty (Sports Mole).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Mon Nov 23, evening - His set pieces are one of Voetbalkrant's three Liverpool dangers; in every Brugge XI read on Monday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Mon Nov 23, morning - Not on the UEFA list (SI), so Wednesday is a week off; the derby on Sunday is his next chance of a squad place.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Mon Nov 23, evening - Not registered for Europe (SI), so he trains through Wednesday; Everton, ninth after Monday night (ESPN), are next.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -163,7 +163,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Mon Nov 23, morning - Ten chances on Sunday, the most in a Premier League match since David Silva in 2015 (Sports Mole); five goals and two assists in his last four (SoccerNews).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Mon Nov 23, evening - Carragher now calls him Sunday's best player (Liverpool.com via Yahoo Sports); thirty-three chances, the most in the league.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -172,7 +172,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-11-22", "2026-09-15"], injuryNote: "Mon Nov 23, morning - The first midfield alternative if Gravenberch misses Brugge, as Sunday night's list suggests he may (Sports Mole).", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
+    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-11-22", "2026-09-15"], injuryNote: "Mon Nov 23, evening - Gravenberch doubtful on UEFA.com's list, so he is the first midfield alternative behind Mac Allister and Szoboszlai.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
     physical: { height: 178, weight: 68, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Leicester City Academy", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "injured", outSince: "2026-11-22", injuryNote: "Mon Nov 23, morning - Soleus: confirmed out of Brugge on Sunday night's list (Sports Mole); Everton on Sunday depends on how mild the strain proves.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "injured", outSince: "2026-11-22", injuryNote: "Mon Nov 23, evening - Calf: out on UEFA.com's and ESPN's Brugge lists; Iraola said he had not trained since the Netherlands injury (The Sports Bank).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Mon Nov 23, morning - Still the only fit senior nine with Ekitike out for the rest of 2026 (Sports Mole); Koumas is the cover in Bruges.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Mon Nov 23, evening - Voetbalkrant names the ball in behind to him as a Brugge worry; the only senior nine, in every Brugge XI read.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Mon Nov 23, morning - Achilles: on Sunday night's Brugge absentee list (Sports Mole); January remains the aim.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Mon Nov 23, evening - Achilles: out for Brugge on every list (UEFA.com; ESPN); still aiming at January.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -213,7 +213,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-11-22", "2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Mon Nov 23, morning - Eighteen years and eighty-five days, the youngest Liverpool scorer in this fixture (Stretty News); Iraola wants him to 'make some numbers' (Anfield Index).", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-11-22", "2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Mon Nov 23, evening - Carragher moved his best-player verdict to Wirtz on Monday; still in UEFA.com's and ESPN's Brugge XIs.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Mon Nov 23, morning - Five minutes on Sunday; with Isak the only senior nine, the striker's place on the bench in Bruges is his.", image: "",
+    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Mon Nov 23, evening - Bench cover for Isak in Bruges; no Brugge preview read starts him.", image: "",
     physical: { height: 180, weight: 73, pace: 80, acceleration: 81, sprintSpeed: 79 },
     career: [
       { years: "2013-", club: "Liverpool", fee: null, type: "youth" },
@@ -231,7 +231,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Mon Nov 23, morning - Not UEFA-registered (SI), so out of Wednesday; the derby is his next chance of minutes.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Mon Nov 23, evening - Not UEFA-registered (SI); the derby at Everton, now without Tarkowski (AFP via Yahoo Sports), is next.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -242,7 +242,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Mon Nov 23, morning - Third goalkeeper; no change on Monday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Mon Nov 23, evening - Third goalkeeper; UEFA.com lists Jaros out with a shin injury, which leaves him as the extra cover.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -259,7 +259,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Mon Nov 23, morning - SoccerNews thinks he could be handed a full recall in Bruges after scoring off the bench on Sunday.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "fit", injuryNote: "Mon Nov 23, evening - ESPN's Brugge XI starts him wide; UEFA.com's and Khel Now's keep Barcola.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -269,7 +269,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-11-22", "2026-09-15"], injuryNote: "Mon Nov 23, morning - Eighty-five minutes at right-back on Sunday (Liverpool FC); Frimpong's return gives Iraola a real choice for Wednesday.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
+    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-11-22", "2026-09-15"], injuryNote: "Mon Nov 23, evening - UEFA.com and Khel Now start him at right-back in Bruges; ESPN prefers Gomez.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
     physical: { height: 188, weight: 79, pace: 78, acceleration: 74, sprintSpeed: 80 },
     career: [
       { years: "2016-2018", club: "Rentistas", fee: null, type: "youth" },
@@ -279,7 +279,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Mon Nov 23, morning - Booked on sixty-two on Sunday, Liverpool's only card (Sports Mole); Munoz, tipped for a recall (SoccerNews), is the rival on the right.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
+    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Mon Nov 23, evening - In UEFA.com's and Khel Now's Brugge XIs; ESPN has Munoz instead.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
     physical: { height: 182, weight: 72, pace: 91, acceleration: 92, sprintSpeed: 90 },
     career: [
       { years: "2010-2020", club: "Lyon Academy", fee: null, type: "youth" },
@@ -421,7 +421,9 @@ export const COVER_IMAGE = {
   alt: "Editorial plate: an empty pitch under floodlights seen from the gantry, the white lines drawn in perspective through a low mist, the stand beyond in shadow.",
   focus: "Anfield, after dark",
   credit: "Editorial plate",
-  generatedAt: "2026-11-23T09:20:00Z",
+  generatedAt: "2026-11-23T23:30:00Z",
+  // Evening pass (Mon 23 November, cloud): NO LIVERPOOL MATCH, Tier 3; lead is Brentford 4-0 Everton and Tarkowski's red card, which bans him for Sunday's derby
+  // (Goal; AFP via Yahoo Sports), with UEFA.com's Brugge XI second. Not a Liverpool still; plate carried, generatedAt re-stamped (STEP 7.5 not runnable in cloud).
   // Morning pass (Mon 23 November, cloud): NO MATCH since the evening edition, Tier 3; lead is the Brugge team news (Gakpo out, Gravenberch a major doubt,
   // no suspensions, Sports Mole via LiveScore; Virgili out for Brugge, SoccerNews). Not a photograph; plate carried, generatedAt re-stamped (STEP 7.5 not runnable in cloud).
   // Evening pass (Wed 18 November, cloud): NO MATCH, Tier 3; lead is Bradley and Leoni back in first-team training (The Times; The Athletic) and Pochettino at Carrington.
@@ -1200,17 +1202,19 @@ export const RESULTS = [
 // LIVERPOOL fourth (highlighted, UCL stripe) on twenty-one, a point behind Brighton and City; United nineteenth on eight.
 // Refresh 2026-11-23 (Monday morning pass, cloud). Re-fetched from ESPN: byte-identical to Sunday evening; Brentford v Everton tonight
 // closes matchweek eleven. LIVERPOOL fourth (highlighted, UCL stripe) on twenty-one.
+// Refresh 2026-11-23 (Monday evening pass, cloud). Re-fetched from ESPN after Brentford 4-0 Everton closed matchweek eleven:
+// Brentford tenth to sixth on seventeen, Everton seventh to ninth on sixteen; every side on eleven. LIVERPOOL fourth (highlighted, UCL stripe) on twenty-one.
 export const STANDINGS = [
   { pos: 1, team: "Arsenal", p: 11, w: 9, d: 1, l: 1, gd: 10, pts: 28, qualification: "UCL" },
   { pos: 2, team: "Brighton", p: 11, w: 7, d: 1, l: 3, gd: 17, pts: 22, qualification: "UCL" },
   { pos: 3, team: "Manchester City", p: 11, w: 7, d: 1, l: 3, gd: 8, pts: 22, qualification: "UCL" },
   { pos: 4, team: "Liverpool", p: 11, w: 6, d: 3, l: 2, gd: 8, pts: 21, qualification: "UCL", highlight: true },
   { pos: 5, team: "Bournemouth", p: 11, w: 5, d: 3, l: 3, gd: 4, pts: 18, qualification: "UEL" },
-  { pos: 6, team: "Leeds", p: 11, w: 4, d: 5, l: 2, gd: 5, pts: 17 },
-  { pos: 7, team: "Everton", p: 10, w: 4, d: 4, l: 2, gd: 2, pts: 16 },
+  { pos: 6, team: "Brentford", p: 11, w: 4, d: 5, l: 2, gd: 9, pts: 17 },
+  { pos: 7, team: "Leeds", p: 11, w: 4, d: 5, l: 2, gd: 5, pts: 17 },
   { pos: 8, team: "Chelsea", p: 11, w: 5, d: 1, l: 5, gd: 0, pts: 16 },
-  { pos: 9, team: "Tottenham", p: 11, w: 4, d: 3, l: 4, gd: 1, pts: 15 },
-  { pos: 10, team: "Brentford", p: 10, w: 3, d: 5, l: 2, gd: 5, pts: 14 },
+  { pos: 9, team: "Everton", p: 11, w: 4, d: 4, l: 3, gd: -2, pts: 16 },
+  { pos: 10, team: "Tottenham", p: 11, w: 4, d: 3, l: 4, gd: 1, pts: 15 },
   { pos: 11, team: "Hull", p: 11, w: 3, d: 5, l: 3, gd: 2, pts: 14 },
   { pos: 12, team: "Aston Villa", p: 11, w: 3, d: 5, l: 3, gd: -3, pts: 14 },
   { pos: 13, team: "Newcastle", p: 11, w: 3, d: 4, l: 4, gd: -3, pts: 13 },
@@ -1232,19 +1236,20 @@ export const STANDINGS_COMMENTARY = {
   "source": "ESPN",
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 11,
-  "generatedAt": "2026-11-23T09:20:00Z",
-  "overview": "Matchweek eleven has one game left: Brentford host Everton tonight, the only two sides still on ten played (Brentford FC; ESPN). Everton, Liverpool's derby opponents on Sunday, would go fifth on nineteen with a win, two behind Liverpool and a point above Bournemouth. Above that, nothing moved overnight: Arsenal lead on twenty-eight, Brighton and City share twenty-two, and Liverpool are fourth on twenty-one after Sunday's 4-0 (ESPN). Three points cover second to fifth, which is why the next three league games, Everton, Sunderland and Chelsea, matter more than the gap to the top.",
+  "generatedAt": "2026-11-23T23:30:00Z",
+  "overview": "Matchweek eleven closed on Monday night with Brentford 4-0 Everton, and every side has now played eleven (ESPN). The result lifts Brentford from tenth to sixth on seventeen, level with Leeds and a point behind Bournemouth, and drops Everton from seventh to ninth on sixteen, with Tarkowski sent off and banned for Sunday's derby (Goal; AFP via Yahoo Sports). Nothing above moved: Arsenal lead on twenty-eight, Brighton and City have twenty-two, and Liverpool are fourth on twenty-one. Bournemouth, three points back in fifth, are now the nearest side to the last Champions League place, with Brentford and Leeds a point further away.",
   "teams": {
-    "Liverpool": "Fourth on twenty-one, a point off second; Brugge in Europe on Wednesday, then Everton away (ESPN).",
-    "Arsenal": "Six points clear on twenty-eight after eleven games.",
-    "Brighton": "Second on goal difference, level on twenty-two with City.",
-    "Manchester City": "Third on twenty-two, a point above Liverpool.",
-    "Bournemouth": "Fifth on eighteen; Everton can pass them tonight.",
-    "Everton": "Seventh on sixteen, away at Brentford tonight before the derby (Brentford FC).",
-    "Brentford": "Tenth on fourteen with a game in hand, at home to Everton tonight (Brentford FC).",
-    "Manchester United": "Nineteenth on eight after Sunday; Brentford at Old Trafford next (Stretty News).",
+    "Liverpool": "Fourth on twenty-one after eleven; Brugge in Europe on Wednesday, then an Everton side without Tarkowski on Sunday (ESPN; AFP).",
+    "Arsenal": "Six clear on twenty-eight, the matchweek over.",
+    "Brighton": "Second on twenty-two, ahead of City on goal difference.",
+    "Manchester City": "Third on twenty-two, one above Liverpool.",
+    "Bournemouth": "Fifth on eighteen, three behind Liverpool and a point clear of Brentford.",
+    "Brentford": "Sixth after Monday's 4-0 over Everton, Lewis-Potter scoring twice (Goal).",
+    "Leeds": "Seventh on seventeen, level with Brentford, a point off fifth.",
+    "Everton": "Ninth on sixteen after losing 4-0 at Brentford; Tarkowski banned for the derby (AFP via Yahoo Sports).",
+    "Manchester United": "Nineteenth on eight; Brentford, now sixth, visit Old Trafford next (Stretty News).",
     "Sunderland": "Eighteenth on nine; at Anfield on 2 December.",
-    "Crystal Palace": "Bottom on seven."
+    "Crystal Palace": "Bottom on seven, a point below United."
   }
 };
 
@@ -1252,116 +1257,115 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     "n": "01",
-    "headline": "Three Wide Men, And A Heel Still Sore.",
-    "byline": "Sports Mole / SoccerNews",
-    "dateline": "Kirkby · 23 November",
-    "category": "Injuries",
-    "body": "Sunday night's list for Bruges, carried in Monday's round-ups, is short and specific. Gakpo misses the trip with the soleus injury he brought back from the Netherlands, Gravenberch is a major doubt with his heel, and Ekitike, Leoni and Bradley remain out; nobody is suspended (Sports Mole via LiveScore). That leaves Ngumoha, Barcola and Munoz for two wide places, and SoccerNews thinks Munoz, the scorer off the bench on Sunday, could be handed a full recall. Brugge have their own hole to fill. Jan Virgili, injured at PSV, is out, and Joel Ordonez is still recovering from a foot problem (SoccerNews)."
+    "headline": "A Red Card At Brentford, And A Derby Changed.",
+    "byline": "Goal / AFP",
+    "dateline": "Brentford · 23 November",
+    "category": "Football News",
+    "body": "Everton had the chance to go fifth on Monday night (AFP). They went home ninth. Keane Lewis-Potter scored twice inside two minutes, both shots deflected, Vitaly Janelt struck the third from twenty-five yards and Fabio Carvalho added a fourth in stoppage time (Goal). In between, on forty minutes, James Tarkowski caught Yehor Yarmoliuk on the shin; Craig Pawson's yellow became a red after a VAR review, for serious foul play (Goal). It was the first Premier League red of his career (Dave.sport), and it takes him out of Sunday's derby against Liverpool (AFP via Yahoo Sports)."
   },
   {
     "n": "02",
-    "headline": "The Morning After, Argued Over.",
-    "byline": "Goal / BBC Sport",
-    "dateline": "Anfield · 23 November",
-    "category": "Football News",
-    "body": "The reaction to the 4-0 has been mostly about the visitors. Gary Neville went after Matthijs de Ligt, whose errors began the move that ended in Yoro's dismissal (Goal via LiveScore); Danny Murphy and Ashley Young suggested Liverpool may have been lucky with the card (BBC Sport via LiveScore). Kobbie Mainoo said it 'doesn't define us' (GiveMeSport), and Pochettino, who argued that Jacquet had fouled Mbeumo first (Stretty News), admitted 'we feel the pain' (The Guardian). Senne Lammens made seven saves. Without him, the score would have been worse."
+    "headline": "Moyes, Outlasted By His Own Record.",
+    "byline": "The Independent / Goal",
+    "dateline": "Brentford · 23 November",
+    "category": "Manager",
+    "body": "It was meant to be David Moyes's night. His 593rd game in charge of Everton passed the total Harry Catterick set across the 1960s and 1970s (The Independent via Yahoo Sports). What it gave him instead was a hole in the middle of his defence for the one fixture Goodison's successors care about most. Jack Grealish came on at half-time, his first minutes since 17 October after a month out of favour for skipping training, having apologised for 'not being able to help the team the last few weeks' (Goal). Moyes has six days to rebuild the back line."
   },
   {
     "n": "03",
-    "headline": "A Coach Who Will Not Say The Name.",
-    "byline": "Voetbalkrant / VoetbalPrimeur",
-    "dateline": "Mechelen · 21 November",
-    "category": "Manager",
-    "body": "Ivan Leko insists Liverpool have not come up. 'I haven't thought about Wednesday for a single second,' he said after the 5-1 at Mechelen, and the word, he added, had not been spoken in the group until then (Voetbalkrant). His substitutions said otherwise: several starters were rested, and Tresoldi, two goals and denied a hat-trick, walked off visibly unhappy (VoetbalPrimeur). Leko has also frozen out Mamadou Diakhon after he left training angrily, telling reporters that his status 'is no longer the same' (Voetbalkrant), and told Sporza that Lemarechal may start (VoetbalFocus)."
+    "headline": "Eleven Names, And One Nobody Else Had.",
+    "byline": "UEFA.com / ESPN",
+    "dateline": "Bruges · 23 November",
+    "category": "Injuries",
+    "body": "UEFA's predicted line-ups for matchday five, published on Monday afternoon, name an eleven for Bruges that differs from Sunday's in one place: Tsimikas, Liverpool's Champions League assist leader, at left-back instead of Kerkez. They list Gakpo out with a calf problem and Gravenberch doubtful, and add a name no other preview carried, the goalkeeper Vitezslav Jaros, out with a shin injury (UEFA.com). ESPN's version rotates further, Gomez at right-back and Munoz on a wing (ESPN). Both expect the same Brugge side, Lemarechal on the left where Virgili would have played."
   },
   {
     "n": "04",
-    "headline": "Mac Allister, And The First Conversation.",
-    "byline": "CaughtOffside / FootballTransfers",
-    "dateline": "Anfield · 23 November",
-    "category": "Transfers",
-    "body": "The contract question that has followed Alexis Mac Allister since the summer has reached the talking stage. CaughtOffside, citing Football Insider, reported on Monday morning that Liverpool have opened preliminary discussions with his representatives; his deal runs to 2028. Fabrizio Romano had already called it 'still early stages', and recalled that Real Madrid explored a move at the end of May (CaughtOffside, 18 November). FootballTransfers says Liverpool are in no rush. Mac Allister, earlier this month, was calmer than anyone: 'The fans don't need to worry.'"
+    "headline": "What They Fear In Flanders.",
+    "byline": "Voetbalkrant / VoetbalFocus",
+    "dateline": "Bruges · 23 November",
+    "category": "Tactics",
+    "body": "Belgium spent Monday listing the problem. Voetbalkrant named three dangers: Wirtz given time between the lines, the long ball to Isak that undid United, and Szoboszlai's dead balls with Van Dijk attacking them, which leaves Sabbe and Seys facing a hard night. Hein Vanhaezebrouck, a former Brugge coach, preferred to look for the opening. United's defending on Sunday was, he told Het Nieuwsblad, unworthy of the Premier League, and Liverpool are vulnerable in transition and short of pace at the back (VoetbalFocus). Score first, he said, and Brugge can win."
   },
   {
     "n": "05",
-    "headline": "Everton, Watched From A Distance.",
-    "byline": "Brentford FC / ESPN",
-    "dateline": "Brentford · 23 November",
-    "category": "Race for Europe",
-    "body": "The last game of matchweek eleven is tonight, and it involves Sunday's opponents. Everton, seventh on sixteen, go to Brentford, the only other side still on ten games (Brentford FC; ESPN). A win would take them to nineteen, fifth, two points behind Liverpool, and make Sunday's derby a meeting of two sides inside the European places. Liverpool will be watching from a training ground with Bruges on its mind: eighth in the Champions League table, a place above Brugge on the same nine points (Fox Sports)."
+    "headline": "The Best Player On The Pitch, Corrected.",
+    "byline": "Liverpool.com / Anfield Index",
+    "dateline": "Anfield · 23 November",
+    "category": "Football News",
+    "body": "On Sunday Jamie Carragher gave the afternoon to Rio Ngumoha. By Monday he had changed his mind: 'I got it wrong when I said Rio was the best player on the pitch today because it's actually Wirtz' (Liverpool.com via Yahoo Sports). The numbers had made the argument for him; Wirtz now leads the Premier League with thirty-three chances created. The midfielder behind him is the week's other conversation. The Athletic's assessment, carried by Anfield Index, is that a new contract for Mac Allister, about eighteen months from the end of his deal, 'now feels like a priority'."
   }
 ];
 export const NEWS_DIGEST = {
-  "generatedAt": "2026-11-23T09:20:00Z",
-  "summary": "Liverpool's week turned to Bruges on Monday morning: Gakpo will miss Wednesday's Champions League game and Gravenberch is a major doubt with his heel, but nobody is suspended (Sports Mole via LiveScore), while Club Brugge are without Jan Virgili, injured at PSV (SoccerNews). Sunday's 4-0 over ten-man Manchester United is still being argued over, with Gary Neville blaming De Ligt for the move that led to Yoro's red card (Goal via LiveScore) and Danny Murphy and Ashley Young calling Liverpool lucky with the decision (BBC Sport via LiveScore). CaughtOffside, citing Football Insider, reports that preliminary contract talks have begun with Alexis Mac Allister's representatives, his deal running to 2028. In the table Liverpool stay fourth on twenty-one, a point behind Brighton and City, and Everton, their derby opponents on Sunday, close matchweek eleven at Brentford tonight (Brentford FC; ESPN).",
+  "generatedAt": "2026-11-23T23:30:00Z",
+  "summary": "Everton will face Liverpool on Sunday without James Tarkowski: booked on forty minutes of Monday night's 4-0 defeat at Brentford, he was sent off after a VAR review for serious foul play and is banned for the derby (Goal; AFP via Yahoo Sports), the first of three games Dave.sport says he will miss unless the card is overturned. The result dropped Everton from seventh to ninth on sixteen and lifted Brentford to sixth (ESPN), so Liverpool stay fourth on twenty-one with Bournemouth, three points back, the nearest side below them. Bruges comes first, on Wednesday, and UEFA.com's predicted line-ups, published on Monday afternoon, start Tsimikas at left-back, list Gakpo (calf) and the goalkeeper Jaros (shin) out and Gravenberch doubtful. Monday also brought Jamie Carragher's retraction that Wirtz, not Ngumoha, had been the best player against United (Liverpool.com via Yahoo Sports), and The Athletic's view that a new Mac Allister deal 'now feels like a priority' (Anfield Index via Yahoo Sports).",
   "keyTopics": [
     {
-      "title": "Brugge Team News: Gakpo Out, Gravenberch A Major Doubt, Nobody Banned (LiveScore, today)",
-      "category": "injuries",
-      "detail": "Sports Mole's Brugge injury list, published late on Sunday and carried in Monday's LiveScore round-up: Gakpo misses the trip, Gravenberch is a major doubt, Ekitike, Leoni and Bradley are out, and there are no suspensions."
-    },
-    {
-      "title": "Mac Allister Contract Talks Under Way (CaughtOffside, today)",
-      "category": "transfers",
-      "detail": "Reported at 6.50am on Monday, citing Football Insider: preliminary talks with his representatives; he is contracted to 2028, and Real Madrid explored a deal in late May (CaughtOffside)."
-    },
-    {
-      "title": "Neville Blames De Ligt; Murphy And Young Call Liverpool Lucky (Goal, today)",
+      "title": "Tarkowski Sent Off At Brentford, Banned For The Derby (Goal, tonight)",
       "category": "matches",
-      "detail": "Monday's round-up: Neville criticised De Ligt, whose errors began the move that led to Yoro's dismissal (Goal via LiveScore); Murphy and Young said Liverpool may have been 'lucky' with the red card (BBC Sport via LiveScore)."
+      "detail": "Reported on Monday night: booked on forty minutes for a challenge on Yarmoliuk, then sent off after a VAR review, Pawson citing studs on the shin (Goal); AFP says he is banned for Sunday's derby, Dave.sport that the ban runs three games unless overturned. His first Premier League red (Dave.sport)."
     },
     {
-      "title": "Mainoo: The Red Card 'Doesn't Define Us' (GiveMeSport, today)",
+      "title": "Brentford 4-0 Everton: The Derby Opponents Drop To Ninth (ESPN, tonight)",
+      "category": "matches",
+      "detail": "Monday night's result: Lewis-Potter twice inside two minutes, Janelt from twenty-five yards and Carvalho in stoppage time (Goal). Everton ninth on sixteen, Brentford sixth on seventeen (ESPN); it was Moyes's 593rd game in charge, an Everton record (The Independent via Yahoo Sports)."
+    },
+    {
+      "title": "Grealish Back For Everton After A Month Out Of Favour (Goal, tonight)",
       "category": "general",
-      "detail": "The United midfielder's response, reported on Monday; Pochettino, who argued Jacquet had fouled Mbeumo first (Stretty News), said 'we feel the pain' (The Guardian)."
+      "detail": "On at half-time on Monday night, his first minutes since 17 October after being dropped for skipping training; he had apologised on Instagram for 'not being able to help the team the last few weeks' (Goal)."
     },
     {
-      "title": "Wirtz's Ten Chances, Most In A League Game Since David Silva In 2015 (Sports Mole, today)",
+      "title": "UEFA's Brugge XI: Tsimikas At Left-Back, Jaros Out (UEFA.com, today)",
+      "category": "injuries",
+      "detail": "Published on Monday afternoon: Alisson; Araujo, Jacquet, Van Dijk, Tsimikas; Mac Allister, Szoboszlai; Barcola, Wirtz, Ngumoha; Isak. Gakpo (calf) and Jaros (shin) out, Gravenberch doubtful; Brugge without Virgili and Ordonez."
+    },
+    {
+      "title": "Carragher: 'It's Actually Wirtz' (Liverpool.com, today)",
+      "category": "general",
+      "detail": "Published on Monday afternoon via Yahoo Sports: 'I got it wrong when I said Rio was the best player on the pitch today because it's actually Wirtz.' Wirtz now leads the Premier League with thirty-three chances created."
+    },
+    {
+      "title": "Voetbalkrant Names Liverpool's Three Dangers (Voetbalkrant, today)",
       "category": "tactics",
-      "detail": "Reported overnight; Sports Mole also notes Liverpool led 2-0 after twelve minutes forty, their earliest two-goal lead over United in the Premier League."
+      "detail": "Monday lunchtime in Belgium: Wirtz given time between the lines, the long ball to Isak that undid United, and Szoboszlai's dead balls for Van Dijk's head; Sabbe and Seys are warned of a hard night."
     },
     {
-      "title": "Iraola On Ngumoha: 'Trying To Encourage Him' (Anfield Index, today)",
-      "category": "general",
-      "detail": "Published on Monday morning from the club's press conference: 'We are trying to encourage him so he can make some numbers, apart from his strengths.' Stretty News puts him at eighteen years and eighty-five days."
+      "title": "Vanhaezebrouck: Liverpool Vulnerable In Transition (VoetbalFocus, today)",
+      "category": "tactics",
+      "detail": "Monday evening, citing Het Nieuwsblad: the former Brugge coach says Liverpool lack pace at the back and that Brugge can win if they score first; he called United's defending on Sunday unworthy of the Premier League."
     },
     {
-      "title": "Everton At Brentford Tonight Before The Derby (Brentford FC, today)",
+      "title": "ESPN: Brugge Have Lost Nine Of Ten Against English Sides (ESPN, today)",
       "category": "matches",
-      "detail": "The last game of matchweek eleven, on Monday night; Everton, seventh on sixteen, would go fifth with a win, two behind Liverpool (ESPN)."
+      "detail": "Monday morning's preview: Tresoldi's five goals are already a Brugge record for a Champions League season; ESPN's own Liverpool XI starts Gomez at right-back and Munoz wide."
     },
     {
-      "title": "Brugge Lose Virgili To A Muscle Injury (SoccerNews, 1d ago)",
-      "category": "injuries",
-      "detail": "Reported on Sunday: Virgili hurt at PSV, Ordonez still out with a foot problem; Brugge are unbeaten in eleven, ten of them wins."
+      "title": "The Athletic On Mac Allister: A New Deal 'Now Feels Like A Priority' (Anfield Index, today)",
+      "category": "transfers",
+      "detail": "Published on Monday morning via Yahoo Sports: an assessment, not confirmation of advanced talks, with about eighteen months left on his contract."
     },
     {
-      "title": "Tresoldi Unhappy At Being Taken Off, Leko Rests Starters (VoetbalPrimeur, 2d ago)",
-      "category": "matches",
-      "detail": "Saturday evening at Mechelen: two goals, no hat-trick, and a visible complaint; Leko said he understood but rested several players with Liverpool on Wednesday."
-    },
-    {
-      "title": "Leko: 'Not A Single Second' On Wednesday (Voetbalkrant, 2d ago)",
+      "title": "Vanaken: 'Een Verandering Van Status' (Sporza, 1d ago)",
       "category": "general",
-      "detail": "Said after the 5-1 on Saturday night, in Dutch: 'Ik heb geen enkele seconde aan woensdag gedacht.' Vanaken said much the same."
+      "detail": "Sunday morning, after the 5-1 at Mechelen: the Brugge captain called Liverpool 'gewoon een match zoals een andere', just another match, while conceding that Brugge's standing in Europe has changed."
     }
   ],
   "sources": [
-    "Sports Mole",
-    "LiveScore",
-    "SoccerNews",
     "Goal",
-    "BBC Sport",
-    "CaughtOffside",
-    "Football Insider",
-    "GiveMeSport",
-    "Stretty News",
-    "The Guardian",
-    "Anfield Index",
-    "Brentford FC",
+    "AFP",
+    "Yahoo Sports",
+    "Dave.sport",
     "ESPN",
-    "VoetbalPrimeur",
-    "Voetbalkrant"
+    "The Independent",
+    "UEFA.com",
+    "Liverpool.com",
+    "Anfield Index",
+    "The Athletic",
+    "Voetbalkrant",
+    "VoetbalFocus",
+    "Het Nieuwsblad",
+    "Sporza"
   ]
 };
 // ─────────────────────────────────────────────────────────────────────────────
@@ -1382,7 +1386,7 @@ export const NEWS_DIGEST = {
 // next edition and then into the auditor's blind spot.
 
 export const OPPOSITION = {
-  "generatedAt": "2026-11-23T09:20:00Z",
+  "generatedAt": "2026-11-23T23:30:00Z",
   "opponent": "Club Brugge",
   "shortName": "Brugge",
   "fixture": {
@@ -1395,14 +1399,14 @@ export const OPPOSITION = {
   "manager": "Ivan Leko (DaveOCKOP)",
   "formation": "4-2-3-1",
   "leaguePosition": 9,
-  "summary": "Club Brugge arrive unbeaten in eleven, ten of them wins (SoccerNews), and level with Liverpool on nine Champions League points, ninth to Liverpool's eighth (Fox Sports). Their run includes 4-3 at Inter and 2-1 at PSV, but it has cost them: Jan Virgili is out with a muscle injury from the PSV game and Joel Ordonez is still recovering from a foot problem (SoccerNews), and Leko said before the weekend that Mechele had played with a broken nose and Vanaken with a badly damaged ankle (Het Nieuwsblad via Voetbalkrant). Saturday's 5-1 at Mechelen was managed with Wednesday in mind, several starters rested and Tresoldi withdrawn short of a hat-trick (VoetbalPrimeur), however much Leko insists he gave Liverpool 'not a single second' (Voetbalkrant). Off the pitch, the only story is internal: Mamadou Diakhon has been disciplined after walking out of training (Voetbalkrant). The leaguePosition field here is the Champions League table, since Brugge are not in the Premier League STANDINGS.",
-  "shape": "A 4-2-3-1 (MyLineups) built on Potts as the screen and Vanaken arriving late. With Virgili out, Leko told Sporza that Lemarechal, a midfielder by trade who scored first at Mechelen, may start on the left (VoetbalFocus), which narrows that flank and pushes Seys, two assists in the competition (Fox Sports), into the space outside him. Brugge average 56 per cent of the ball and 11.3 shots a game in Europe (Fox Sports), so they will not simply sit.",
+  "summary": "Club Brugge have lost nine of their ten Champions League matches against English clubs (ESPN), but they come into Wednesday ninth in the league phase on nine points, level with eighth-placed Liverpool and behind only on goals scored (Football Whispers), and unbeaten in eleven, ten of them wins (SoccerNews). Their one defeat in this competition was to Aston Villa on matchday one (ESPN). Virgili's groin injury from the PSV game has him out on UEFA.com's list and doubtful on ESPN's, and Ordonez is out with a metatarsal fracture (UEFA.com). The captain, Hans Vanaken, called Liverpool just another match on Sunday while conceding that Brugge's standing in Europe has changed (Sporza). Off the pitch the only story remains internal: Diakhon is still out of favour after walking out of training, Leko telling Het Nieuwsblad he must work hard to win back his trust (VoetbalNieuws). The leaguePosition field here is the Champions League table, since Brugge are not in the Premier League STANDINGS.",
+  "shape": "A 4-2-3-1 (MyLineups), and ESPN and UEFA.com name the same eleven: Potts the single screen, Vanaken arriving late, Lemarechal on the left for the injured Virgili and Forbs on the right (UEFA.com; ESPN). Their former coach Hein Vanhaezebrouck describes a man-marking defence that leaves space behind it (VoetbalFocus, citing Het Nieuwsblad), which is the space Isak ran into on Sunday. Brugge average 56 per cent of the ball and 11.3 shots a game in Europe (Fox Sports), so they will not simply sit.",
   "keyPlayers": [
     {
       "name": "Nicolo Tresoldi",
       "role": "Centre-forward",
-      "threat": "Five Champions League goals and eight shots on target, Brugge's leader on Fox Sports' panel; two more at Mechelen on Saturday (VoetbalPrimeur).",
-      "source": "Fox Sports / VoetbalPrimeur"
+      "threat": "Five Champions League goals, already a Brugge record for a single season (ESPN); two more at Mechelen on Saturday (VoetbalPrimeur).",
+      "source": "ESPN / VoetbalPrimeur"
     },
     {
       "name": "Carlos Forbs",
@@ -1426,30 +1430,30 @@ export const OPPOSITION = {
   "predictedXI": [
     "Sommer",
     "Sabbe",
-    "Mechele",
     "Spileers",
+    "Mechele",
     "Seys",
     "Potts",
     "Vanaken",
-    "Forbs",
-    "Vetlesen",
     "Lemarechal",
+    "Vetlesen",
+    "Forbs",
     "Tresoldi"
   ],
   "absentees": [
     {
       "name": "Jan Virgili",
-      "issue": "Muscle injury from the PSV game (SoccerNews)",
+      "issue": "Groin injury from the PSV game: out on UEFA.com's list, a doubt on ESPN's and VoetbalNieuws'",
       "status": "Out"
     },
     {
       "name": "Joel Ordonez",
-      "issue": "Long-term foot problem (SoccerNews)",
+      "issue": "Metatarsal fracture (UEFA.com)",
       "status": "Out"
     },
     {
       "name": "Mamadou Diakhon",
-      "issue": "Disciplinary: left training angrily after being told he would not start; Leko says his status 'is no longer the same' (Voetbalkrant)",
+      "issue": "Disciplinary: left training angrily; almost no chance of starting (VoetbalNieuws)",
       "status": "Doubt"
     }
   ],
@@ -1487,8 +1491,14 @@ export const OPPOSITION = {
       "note": "Pro League (Fox Sports)."
     }
   ],
-  "liverpoolAngle": "Brugge's threat is direct and through the middle: Tresoldi in the box and Vanaken arriving late, against the department SQUAD_LOAD rates critical, Van Dijk and Jacquet with only Gomez behind them, and a Liverpool side conceding 2.5 goals a game in this competition (Fox Sports). The other side of the ledger is stark. Liverpool average 18.5 shots and 2.0 expected goals a game in Europe to Brugge's 11.3 and 1.7 (Fox Sports), and Brugge's one holding midfielder, Potts, has Szoboszlai and Wirtz to track, Wirtz having made ten chances on Sunday (Sports Mole). The weak point is Liverpool's width: Gakpo is out (Sports Mole via LiveScore), Chiesa is not registered (SI), and the three wide forwards left must also cover the derby four days later.",
-  "modelLine": null,
+  "liverpoolAngle": "Voetbalkrant's three dangers for Brugge are Liverpool's three strengths: Wirtz between the lines, Isak running behind, and Szoboszlai's set pieces for Van Dijk. The reverse threat is Tresoldi, a club-record five Champions League goals this season (ESPN), against the department SQUAD_LOAD rates critical, Van Dijk and Jacquet with only Gomez behind them, in a competition where Liverpool have conceded ten in four games (ESPN). Vanhaezebrouck's case for Brugge rests on the same weakness: Liverpool are vulnerable in transition and short of pace at the back, so score first and Brugge can win (VoetbalFocus). The thin line remains the wide forwards, with Gakpo out (UEFA.com) and Chiesa unregistered (SI).",
+  "modelLine": {
+    "source": "Google, via The Sports Bank",
+    "liverpool": 57,
+    "draw": 21,
+    "opponent": 22,
+    "note": "Google's result probability as carried by The Sports Bank on Monday evening; reported, not this page's forecast, and not a betting price."
+  },
   "sources": [
     "DaveOCKOP",
     "Fox Sports",
@@ -1501,14 +1511,21 @@ export const OPPOSITION = {
     "Sports Mole via LiveScore",
     "Sports Mole",
     "SI",
-    "Football365"
+    "Football365",
+    "ESPN",
+    "UEFA.com",
+    "Football Whispers",
+    "Sporza",
+    "VoetbalNieuws",
+    "The Sports Bank",
+    "Het Nieuwsblad"
   ]
 };
 export const FORM_TRENDS = {
-  "generatedAt": "2026-11-23T09:20:00Z",
+  "generatedAt": "2026-11-23T23:30:00Z",
   "competition": "PL",
   "played": 11,
-  "headline": "A day on, the 4-0 reads as a game decided by speed rather than volume: 2-0 after twelve minutes forty, the earliest two-goal lead Liverpool have had over United in the Premier League (Sports Mole), and everything after that came against ten men. The league totals stand at eighteen goals from about 19.0 expected and ten conceded from about 13.4 (Opta Analyst and others, see note), so the finishing has caught up with the chances rather than run ahead of them. Wednesday is a different table: in the Champions League Liverpool average 2.0 expected goals a game but concede 2.5 goals (Fox Sports), and that defence is the number to watch in Bruges.",
+  "headline": "Wednesday's numbers are the European ones, and they are lopsided: fourteen scored and ten conceded in four Champions League games (ESPN), against a Brugge side whose centre-forward, Tresoldi, already has a club-record five goals in the competition (ESPN). In the league the totals stand at eighteen goals from about 19.0 expected and ten conceded from about 13.4 (Opta Analyst and others, see note), so Liverpool's finishing is roughly where the chances say it should be. The most recent card, 4.38 to 0.64 against ten men, is a ceiling rather than a trend.",
   "diagnosis": [
     {
       "label": "A home side, finally",
@@ -1532,7 +1549,7 @@ export const FORM_TRENDS = {
       "label": "Too much allowed in open games",
       "severity": "high",
       "source": "ESPN / The Transfer Hub / Fox Sports",
-      "detail": "Ten goals conceded in four Champions League games, 2.5 a game (Fox Sports), and nineteen shots allowed at Palace, the last eleven-a-side league game (ESPN), with 1.60 non-penalty expected goals (The Transfer Hub). United's 0.64 came with a man fewer and says little about Brugge."
+      "detail": "Ten goals conceded in four Champions League games, against fourteen scored (ESPN), and nineteen shots allowed at Palace, the last eleven-a-side league game (ESPN), with 1.60 non-penalty expected goals (The Transfer Hub). United's 0.64 came with a man fewer and says little about Brugge."
     },
     {
       "label": "One forward still carries the line",
@@ -1813,10 +1830,10 @@ export const FORM_TRENDS = {
     "note": "Premier League only, eleven games. xG for is 4.38 (United, Opta Analyst) plus 2.73 (Newcastle) plus 1.61 (Forest) plus 0.53 (Ipswich) plus 1.13 (Fulham) plus 1.57 (Bournemouth) plus 0.86 (City) plus 1.51 (Brentford) plus 0.87 (Brighton) plus 1.15 (Arsenal) plus 2.65 (Palace); xG against is 0.64 plus 1.43 plus 2.30 plus 0.72 plus 0.71 plus 0.76 plus 1.30 plus 0.85 plus 1.35 plus 0.96 plus 2.39. The Palace figures are The Transfer Hub's (2.39 being its 1.60 non-penalty figure plus its 0.79 for the penalty), the Brentford and Brighton figures are FotMob's, reported by SI, the City card's 1.30 is Sofascore's and the Arsenal card is LiveScore's; Opta's own figures replace them when published. Provenance caveat from 21 September stands: Opta's published season expected-goals-against figure through five games was 6.12 rather than the 5.92 those per-match cards summed to. Champions League and Carabao Cup cards are shown but not aggregated. First-half splits exist only for Forest, Tottenham and City and are not aggregated."
   },
   "optaFacts": [
-    "Liverpool were 2-0 up after twelve minutes and forty seconds on Sunday, their earliest two-goal lead over Manchester United in the Premier League (Sports Mole).",
-    "Wirtz's ten chances created were the most by a player in a Premier League match since David Silva in 2015 (Sports Mole).",
-    "Rio Ngumoha, eighteen years and eighty-five days, is the youngest Liverpool player to score against United (Stretty News).",
-    "In the Champions League Liverpool average 18.5 shots and 2.0 expected goals a game; Club Brugge average 11.3 and 1.7 (Fox Sports)."
+    "Wirtz leads the Premier League with thirty-three chances created (Liverpool.com via Yahoo Sports).",
+    "Club Brugge have lost nine of their ten Champions League matches against English sides (ESPN).",
+    "Tresoldi's five goals are already a Brugge record for a single Champions League season (ESPN).",
+    "In the Champions League Liverpool average 18.5 shots a game to Club Brugge's 11.3 (Fox Sports)."
   ],
   "sources": [
     "beIN Sports",
@@ -1921,20 +1938,21 @@ export const FORM_TRENDS = {
     "Heavy",
     "Read Man Utd",
     "Fox Sports",
-    "SoccerNews"
+    "SoccerNews",
+    "Liverpool.com via Yahoo Sports"
   ]
 };
 export const SQUAD_LOAD = {
-  "generatedAt": "2026-11-23T09:20:00Z",
-  "headline": "Sunday night's Brugge list settles most of the week's questions: Gakpo misses the trip, Gravenberch is a major doubt, Ekitike, Leoni and Bradley are out, and nobody is suspended (Sports Mole via LiveScore). The cost is concentrated in two places, the wide forwards, where three senior players remain for the Champions League with Chiesa unregistered (SI), and central midfield, where Nyoni is the only fit alternative to Mac Allister and Szoboszlai. Frimpong's fifteen minutes on Sunday are the one addition since the weekend.",
+  "generatedAt": "2026-11-23T23:30:00Z",
+  "headline": "UEFA.com's matchday-five preview, published on Monday afternoon, agrees with Sunday night's list: Gakpo out with a calf injury and Gravenberch doubtful, and it adds the goalkeeper Jaros, out with a shin problem (UEFA.com). Its eleven changes one player from Sunday, Tsimikas for Kerkez, which is about as much rotation as a closed squad allows four days before a derby. The thin places are unchanged: three wide forwards for two places with Chiesa unregistered (SI), and Nyoni the only fit midfield alternative.",
   "minutesNote": "Premier League minutes are not published here yet. Eleven league games, four Champions League games and two Carabao Cup ties have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   "unavailable": [
     {
       "name": "Cody Gakpo",
       "issue": "Soleus (calf) injury on Netherlands duty",
-      "expected": "Out of Brugge on Wednesday (Sports Mole via LiveScore); Everton on 29 November possible only if the strain is mild (Sports Mole)",
-      "note": "Confirmed on Sunday night's Brugge list (Sports Mole); no grade published. James Pearce reported he avoided a serious issue (via Sports Mole).",
-      "source": "Sports Mole via LiveScore / Sports Mole"
+      "expected": "Out of Brugge on Wednesday (UEFA.com; ESPN); Everton on 29 November possible only if the strain is mild (Sports Mole)",
+      "note": "Listed with a calf injury by UEFA.com; Iraola said he had not trained since the Netherlands injury (The Sports Bank). No grade published.",
+      "source": "UEFA.com / ESPN / Sports Mole / The Sports Bank"
     },
     {
       "name": "Hugo Ekitike",
@@ -1963,15 +1981,15 @@ export const SQUAD_LOAD = {
       "name": "Jeremie Frimpong",
       "issue": "Muscle injury at Brentford on 17 October",
       "status": "Back: on for Ngumoha on seventy-seven against United (Liverpool FC)",
-      "note": "His first minutes since October; a candidate to start at right-back in Bruges, with Araujo having played eighty-five on Sunday.",
-      "source": "Liverpool FC / The Independent"
+      "note": "On no Brugge absentee list; none of the Monday XIs read starts him (UEFA.com; ESPN; Khel Now), Araujo and Gomez preferred at right-back.",
+      "source": "Liverpool FC / UEFA.com / ESPN"
     },
     {
       "name": "Ryan Gravenberch",
       "issue": "Fracture of the heel",
-      "status": "Major doubt for Brugge (Sports Mole via LiveScore)",
-      "note": "Heel; has trained, still in pain, outside the United squad on Sunday (Liverpool FC).",
-      "source": "Sports Mole via LiveScore / Liverpool FC"
+      "status": "Doubtful for Brugge (UEFA.com); a major doubt on Sunday night's list (Sports Mole via LiveScore)",
+      "note": "Heel: 'we are going day to day', Iraola's line as carried by The Sports Bank on Monday; outside the United squad on Sunday (Liverpool FC).",
+      "source": "UEFA.com / Sports Mole via LiveScore / The Sports Bank"
     },
     {
       "name": "Ronald Araujo",
@@ -2043,7 +2061,7 @@ export const SQUAD_LOAD = {
     {
       "position": "Wide forward",
       "level": "high",
-      "detail": "High. Gakpo out of Brugge (Sports Mole via LiveScore); Ngumoha, Barcola and Munoz for two places, Chiesa not on the Champions League list (SI)."
+      "detail": "High. Gakpo out of Brugge (UEFA.com); Ngumoha, Barcola and Munoz for two places, Chiesa not on the Champions League list (SI)."
     },
     {
       "position": "Right-back",
@@ -2063,7 +2081,7 @@ export const SQUAD_LOAD = {
     {
       "position": "Left-back",
       "level": "low",
-      "detail": "Low. Kerkez ninety minutes, Tsimikas unused on the bench."
+      "detail": "Low. Kerkez ninety minutes on Sunday; UEFA.com's and ESPN's Brugge XIs start Tsimikas, so the two are being rotated rather than stretched."
     }
   ],
   "sources": [
@@ -2181,29 +2199,31 @@ export const SQUAD_LOAD = {
     "Last Word On Sports",
     "Heavy",
     "The Independent",
-    "SoccerNews"
+    "SoccerNews",
+    "UEFA.com",
+    "The Sports Bank"
   ]
 };
 export const SEASON_PROJECTION = {
-  "generatedAt": "2026-11-23T09:20:00Z",
+  "generatedAt": "2026-11-23T23:30:00Z",
   "played": 11,
   "points": 21,
   "pointsPerGame": 1.91,
   "projectedPoints": 73,
-  "projectedFinish": "Above Champions League par on current pace, and fourth in the table this morning",
-  "headline": "Twenty-one points from eleven, 1.91 a game, a pace worth seventy-three over a season: five above fourth-place par and unchanged overnight. The sample is still small, and the run of fixtures that will test it starts on Sunday at Everton, whose own game at Brentford tonight decides whether they arrive fifth.",
+  "projectedFinish": "Above Champions League par on current pace, and fourth in the table tonight",
+  "headline": "Twenty-one from eleven, 1.91 a game, a pace worth seventy-three: unchanged by Monday's game, which closed the matchweek, but the gap below has a new shape, Bournemouth three behind and Brentford and Leeds four (ESPN). Eleven games is still a small sample; the next three league fixtures will say more than the pace does.",
   "thresholds": [
     {
       "label": "Champions League (top 4)",
       "points": 68,
       "gap": 0,
-      "note": "Historical par for the last Champions League place in recent seasons. Cleared by five on current pace; Liverpool are fourth this morning (ESPN)."
+      "note": "Historical par for the last Champions League place in recent seasons. Cleared by five on current pace; Liverpool are fourth tonight with every side on eleven played (ESPN)."
     },
     {
       "label": "Europa League (5th)",
       "points": 60,
       "gap": 0,
-      "note": "Fifth-place par, where Bournemouth now sit. Cleared by thirteen on current pace."
+      "note": "Fifth-place par, where Bournemouth sit on eighteen. Cleared by thirteen on current pace."
     },
     {
       "label": "Conference League (6th-7th)",
@@ -2225,7 +2245,7 @@ export const SEASON_PROJECTION = {
       "opponent": "Everton",
       "home": false,
       "competition": "PL",
-      "oppPosition": 7,
+      "oppPosition": 9,
       "difficulty": "medium"
     },
     {
@@ -2249,15 +2269,15 @@ export const SEASON_PROJECTION = {
       "opponent": "Leeds",
       "home": true,
       "competition": "PL",
-      "oppPosition": 6,
-      "difficulty": "hard"
+      "oppPosition": 7,
+      "difficulty": "medium"
     },
     {
       "date": "2026-12-19",
       "opponent": "Tottenham",
       "home": true,
       "competition": "PL",
-      "oppPosition": 9,
+      "oppPosition": 10,
       "difficulty": "medium"
     },
     {
@@ -2269,7 +2289,7 @@ export const SEASON_PROJECTION = {
       "difficulty": "medium"
     }
   ],
-  "runInVerdict": "Everton away, Sunderland at home and Chelsea away come next (ESPN), and Everton play Brentford tonight before the derby (Brentford FC). Seven points from those three would make twenty-eight from fourteen and keep the pace above seventy; three or fewer would hand fourth to whichever of Brighton, City or Bournemouth wins more. The Champions League trip to Club Brugge on Wednesday comes first.",
+  "runInVerdict": "Everton away on Sunday, now ninth after losing 4-0 at Brentford and without the suspended Tarkowski (AFP via Yahoo Sports), then Sunderland at home and Chelsea away (ESPN). Seven points from those three would make twenty-eight from fourteen and keep the pace above seventy; three or fewer would let Bournemouth, three behind, or Brentford and Leeds, four behind, close in. Bruges comes first, on Wednesday.",
   "sources": [
     "ESPN",
     "SI",
@@ -2302,6 +2322,7 @@ export const SEASON_PROJECTION = {
     "beIN Sports",
     "Liverpool Echo via Yahoo Sports",
     "Statz",
-    "Brentford FC"
+    "Brentford FC",
+    "AFP via Yahoo Sports"
   ]
 };
