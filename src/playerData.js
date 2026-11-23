@@ -1277,7 +1277,7 @@ export const DISPATCHES = [
     "byline": "UEFA.com / ESPN",
     "dateline": "Bruges · 23 November",
     "category": "Injuries",
-    "body": "UEFA's predicted line-ups for matchday five, published on Monday afternoon, name an eleven for Bruges that differs from Sunday's in one place: Tsimikas, Liverpool's Champions League assist leader, at left-back instead of Kerkez. They list Gakpo out with a calf problem and Gravenberch doubtful, and add a name no other preview carried, the goalkeeper Vitezslav Jaros, out with a shin injury (UEFA.com). ESPN's version rotates further, Gomez at right-back and Munoz on a wing (ESPN). Both expect the same Brugge side, Lemarechal on the left where Virgili would have played."
+    "body": "UEFA's predicted line-ups for matchday five, published on Monday afternoon, name an eleven for Bruges that differs from Sunday's in one place: Tsimikas, Liverpool's Champions League assist leader (Fox Sports), at left-back instead of Kerkez. They list Gakpo out with a calf problem and Gravenberch doubtful, and add a name no other preview carried, the goalkeeper Vitezslav Jaros, out with a shin injury (UEFA.com). ESPN's version rotates further, Gomez at right-back and Munoz on a wing (ESPN). Both expect the same Brugge side, Lemarechal on the left where Virgili would have played."
   },
   {
     "n": "04",
@@ -1316,6 +1316,11 @@ export const NEWS_DIGEST = {
       "detail": "On at half-time on Monday night, his first minutes since 17 October after being dropped for skipping training; he had apologised on Instagram for 'not being able to help the team the last few weeks' (Goal)."
     },
     {
+      "title": "Vanhaezebrouck: Liverpool Vulnerable In Transition (VoetbalFocus, today)",
+      "category": "tactics",
+      "detail": "Monday evening, citing Het Nieuwsblad: the former Brugge coach says Liverpool lack pace at the back and that Brugge can win if they score first; he called United's defending on Sunday unworthy of the Premier League."
+    },
+    {
       "title": "UEFA's Brugge XI: Tsimikas At Left-Back, Jaros Out (UEFA.com, today)",
       "category": "injuries",
       "detail": "Published on Monday afternoon: Alisson; Araujo, Jacquet, Van Dijk, Tsimikas; Mac Allister, Szoboszlai; Barcola, Wirtz, Ngumoha; Isak. Gakpo (calf) and Jaros (shin) out, Gravenberch doubtful; Brugge without Virgili and Ordonez."
@@ -1329,11 +1334,6 @@ export const NEWS_DIGEST = {
       "title": "Voetbalkrant Names Liverpool's Three Dangers (Voetbalkrant, today)",
       "category": "tactics",
       "detail": "Monday lunchtime in Belgium: Wirtz given time between the lines, the long ball to Isak that undid United, and Szoboszlai's dead balls for Van Dijk's head; Sabbe and Seys are warned of a hard night."
-    },
-    {
-      "title": "Vanhaezebrouck: Liverpool Vulnerable In Transition (VoetbalFocus, today)",
-      "category": "tactics",
-      "detail": "Monday evening, citing Het Nieuwsblad: the former Brugge coach says Liverpool lack pace at the back and that Brugge can win if they score first; he called United's defending on Sunday unworthy of the Premier League."
     },
     {
       "title": "ESPN: Brugge Have Lost Nine Of Ten Against English Sides (ESPN, today)",

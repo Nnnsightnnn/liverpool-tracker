@@ -608,7 +608,7 @@ function CoverView({ onJump }) {
               <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
               the week's second fixture announced itself early. James Tarkowski was sent off at Brentford for a studs-up challenge,
               Everton lost 4-0, and the side Liverpool meet on Sunday will be without a centre-back who had gone more than three
-              hundred and fifty Premier League games without a red card. That is for later. Wednesday comes first, in Bruges, where
+              hundred and fifty Premier League games without a red card (Dave.sport). That is for later. Wednesday comes first, in Bruges, where
               UEFA's predicted eleven gives Tsimikas the left-back place and Belgian writers have spent the day naming dangers, Wirtz
               first among them. Jamie Carragher named him too, taking back his Sunday verdict on Ngumoha. For once, Liverpool have
               spent a Monday watching someone else's trouble.
