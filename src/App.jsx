@@ -606,12 +606,12 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Monday</span>,{" "}
-              and the arguments about Sunday have started without Liverpool. Neville blamed De Ligt, two former players on the BBC
-              called the red card lucky, and Mainoo said it does not define United; everyone knows the 4.38 expected goals were made
-              against ten men. The more useful facts are in Bruges. Brugge have lost Virgili to a muscle injury, have gone eleven
-              games unbeaten, and have a coach who says he has not thought about Wednesday for a single second. Liverpool travel
-              without Gakpo and perhaps without Gravenberch, with three wide forwards for two places and a derby four days later.
-              Somewhere in between, Mac Allister's people have started talking about 2028. A quiet morning is what a good result buys.
+              and the week belongs to Bruges. Liverpool travel without Gakpo and perhaps without Gravenberch, with three wide
+              forwards for two places and a derby four days later; Brugge have lost Virgili to a muscle injury, have gone eleven
+              games unbeaten, and have a coach who says he has not thought about Wednesday for a single second. Behind all that,
+              the arguments about Sunday go on without Liverpool. Neville blamed De Ligt, two former players on the BBC called the
+              red card lucky, and Mainoo said it does not define United; everyone knows the 4.38 expected goals were made against
+              ten men. Somewhere in between, Mac Allister's people have started talking about 2028. A quiet morning is what a good result buys.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
@@ -720,8 +720,8 @@ function FormBlock({ results }) {
         color: T.ivoryDim, lineHeight: 1.6,
         borderTop: `1px solid ${T.rule}`, paddingTop: 14,
       }}>
-        Fenerbahçe 3-2 in Istanbul on Wednesday, twice ahead and undone by three
-        set pieces, three days after Arsenal 1-0 at Anfield (ESPN; Opta Analyst).
+        Manchester United 4-0 at Anfield on Sunday, after Yoro's eighth-minute red card,
+        and 3-1 at Selhurst Park before the break (ESPN; Opta Analyst).
         Three wins and two defeats across the last five in all competitions.
       </p>
     </div>

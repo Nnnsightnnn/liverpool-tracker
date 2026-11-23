@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2026-27 Season · Updated 22 November 2026 (evening)) ──────
+// ─── Liverpool FC Player Data (2026-27 Season · Updated 23 November 2026 (morning)) ──────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Mon Nov 23, morning - With Leoni on Monday's absentee list (Sports Mole via LiveScore), he is the only fit senior centre-back behind Van Dijk and Jacquet.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Mon Nov 23, morning - With Leoni on Sunday night's absentee list (Sports Mole), he is the only fit senior centre-back behind Van Dijk and Jacquet.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Mon Nov 23, morning - Knee: on Monday's Brugge absentee list with Ekitike and Leoni (Sports Mole via LiveScore); Sunderland on 2 December is still the earliest return mentioned.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Mon Nov 23, morning - Knee: on Sunday night's Brugge absentee list with Ekitike and Leoni (Sports Mole), which gives 2 January; the Evening Standard (via AOL) had mentioned Sunderland on 2 December.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Mon Nov 23, morning - ACL: listed out for Brugge on Monday (Sports Mole via LiveScore), and not expected back before the new year.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Mon Nov 23, morning - ACL: listed out for Brugge on Sunday night (Sports Mole), and not expected back before the new year.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "doubtful", outSince: "2026-11-03", injuryNote: "Mon Nov 23, morning - Heel: a major doubt for Brugge on Monday's injury list (Sports Mole via LiveScore); he has trained, but the pain has not gone.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "doubtful", outSince: "2026-11-03", injuryNote: "Mon Nov 23, morning - Heel: a major doubt for Brugge on Sunday night's injury list (Sports Mole); he has trained, but the pain has not gone.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -172,7 +172,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-11-22", "2026-09-15"], injuryNote: "Mon Nov 23, morning - The first midfield alternative if Gravenberch misses Brugge, as Monday's list suggests he may (Sports Mole via LiveScore).", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
+    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-11-22", "2026-09-15"], injuryNote: "Mon Nov 23, morning - The first midfield alternative if Gravenberch misses Brugge, as Sunday night's list suggests he may (Sports Mole).", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
     physical: { height: 178, weight: 68, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Leicester City Academy", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "injured", outSince: "2026-11-22", injuryNote: "Mon Nov 23, morning - Soleus: confirmed out of Brugge on Monday's list (Sports Mole via LiveScore); Everton on Sunday depends on how mild the strain proves.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "injured", outSince: "2026-11-22", injuryNote: "Mon Nov 23, morning - Soleus: confirmed out of Brugge on Sunday night's list (Sports Mole); Everton on Sunday depends on how mild the strain proves.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Mon Nov 23, morning - Achilles: on Monday's Brugge absentee list (Sports Mole via LiveScore); January remains the aim.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Mon Nov 23, morning - Achilles: on Sunday night's Brugge absentee list (Sports Mole); January remains the aim.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -1256,7 +1256,7 @@ export const DISPATCHES = [
     "byline": "Sports Mole / SoccerNews",
     "dateline": "Kirkby · 23 November",
     "category": "Injuries",
-    "body": "Monday's list for Bruges is short and specific. Gakpo misses the trip with the soleus injury he brought back from the Netherlands, Gravenberch is a major doubt with his heel, and Ekitike, Leoni and Bradley remain out; nobody is suspended (Sports Mole via LiveScore). That leaves Ngumoha, Barcola and Munoz for two wide places, and SoccerNews thinks Munoz, the scorer off the bench on Sunday, could be handed a full recall. Brugge have their own hole to fill. Jan Virgili, injured at PSV, is out, and Joel Ordonez is still recovering from a foot problem (SoccerNews)."
+    "body": "Sunday night's list for Bruges, carried in Monday's round-ups, is short and specific. Gakpo misses the trip with the soleus injury he brought back from the Netherlands, Gravenberch is a major doubt with his heel, and Ekitike, Leoni and Bradley remain out; nobody is suspended (Sports Mole via LiveScore). That leaves Ngumoha, Barcola and Munoz for two wide places, and SoccerNews thinks Munoz, the scorer off the bench on Sunday, could be handed a full recall. Brugge have their own hole to fill. Jan Virgili, injured at PSV, is out, and Joel Ordonez is still recovering from a foot problem (SoccerNews)."
   },
   {
     "n": "02",
@@ -1296,9 +1296,9 @@ export const NEWS_DIGEST = {
   "summary": "Liverpool's week turned to Bruges on Monday morning: Gakpo will miss Wednesday's Champions League game and Gravenberch is a major doubt with his heel, but nobody is suspended (Sports Mole via LiveScore), while Club Brugge are without Jan Virgili, injured at PSV (SoccerNews). Sunday's 4-0 over ten-man Manchester United is still being argued over, with Gary Neville blaming De Ligt for the move that led to Yoro's red card (Goal via LiveScore) and Danny Murphy and Ashley Young calling Liverpool lucky with the decision (BBC Sport via LiveScore). CaughtOffside, citing Football Insider, reports that preliminary contract talks have begun with Alexis Mac Allister's representatives, his deal running to 2028. In the table Liverpool stay fourth on twenty-one, a point behind Brighton and City, and Everton, their derby opponents on Sunday, close matchweek eleven at Brentford tonight (Brentford FC; ESPN).",
   "keyTopics": [
     {
-      "title": "Brugge Team News: Gakpo Out, Gravenberch A Major Doubt, Nobody Banned (Sports Mole, today)",
+      "title": "Brugge Team News: Gakpo Out, Gravenberch A Major Doubt, Nobody Banned (LiveScore, today)",
       "category": "injuries",
-      "detail": "Sports Mole's Brugge injury list, carried in Monday's LiveScore round-up: Gakpo misses the trip, Gravenberch is a major doubt, Ekitike, Leoni and Bradley are out, and there are no suspensions."
+      "detail": "Sports Mole's Brugge injury list, published late on Sunday and carried in Monday's LiveScore round-up: Gakpo misses the trip, Gravenberch is a major doubt, Ekitike, Leoni and Bradley are out, and there are no suspensions."
     },
     {
       "title": "Mac Allister Contract Talks Under Way (CaughtOffside, today)",
@@ -1926,35 +1926,35 @@ export const FORM_TRENDS = {
 };
 export const SQUAD_LOAD = {
   "generatedAt": "2026-11-23T09:20:00Z",
-  "headline": "Monday's Brugge list settles most of the week's questions: Gakpo misses the trip, Gravenberch is a major doubt, Ekitike, Leoni and Bradley are out, and nobody is suspended (Sports Mole via LiveScore). The cost is concentrated in two places, the wide forwards, where three senior players remain for the Champions League with Chiesa unregistered (SI), and central midfield, where Nyoni is the only fit alternative to Mac Allister and Szoboszlai. Frimpong's fifteen minutes on Sunday are the one addition since the weekend.",
+  "headline": "Sunday night's Brugge list settles most of the week's questions: Gakpo misses the trip, Gravenberch is a major doubt, Ekitike, Leoni and Bradley are out, and nobody is suspended (Sports Mole via LiveScore). The cost is concentrated in two places, the wide forwards, where three senior players remain for the Champions League with Chiesa unregistered (SI), and central midfield, where Nyoni is the only fit alternative to Mac Allister and Szoboszlai. Frimpong's fifteen minutes on Sunday are the one addition since the weekend.",
   "minutesNote": "Premier League minutes are not published here yet. Eleven league games, four Champions League games and two Carabao Cup ties have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   "unavailable": [
     {
       "name": "Cody Gakpo",
       "issue": "Soleus (calf) injury on Netherlands duty",
       "expected": "Out of Brugge on Wednesday (Sports Mole via LiveScore); Everton on 29 November possible only if the strain is mild (Sports Mole)",
-      "note": "Confirmed on Monday's Brugge list; no grade published. James Pearce reported he avoided a serious issue (via Sports Mole).",
+      "note": "Confirmed on Sunday night's Brugge list (Sports Mole); no grade published. James Pearce reported he avoided a serious issue (via Sports Mole).",
       "source": "Sports Mole via LiveScore / Sports Mole"
     },
     {
       "name": "Hugo Ekitike",
       "issue": "Achilles rupture (April, surgery)",
       "expected": "Expected to miss the rest of 2026 (Sports Mole); Boxing Day at Hull the earliest target mentioned (Premier League News Now)",
-      "note": "On Monday's Brugge absentee list (Sports Mole via LiveScore); Iraola has said January remains the aim (Sports Mole via LiveScore).",
+      "note": "On Sunday night's Brugge absentee list (Sports Mole); Iraola has said January remains the aim (Sports Mole via LiveScore).",
       "source": "Sports Mole / Premier League News Now"
     },
     {
       "name": "Giovanni Leoni",
       "issue": "ACL (September 2025)",
       "expected": "A comeback before the new year 'incredibly unlikely' (Sports Mole)",
-      "note": "Training, but on Monday's Brugge absentee list (Sports Mole via LiveScore).",
+      "note": "Training, but on Sunday night's Brugge absentee list (Sports Mole).",
       "source": "Sports Mole / Liverpool FC"
     },
     {
       "name": "Conor Bradley",
       "issue": "Knee (surgery on bone and ligament damage, January)",
       "expected": "'A few more weeks' before selection (Sports Mole); Sunderland on 2 December the earliest return mentioned (Evening Standard via AOL)",
-      "note": "Training with the group; listed out for Brugge on Monday (Sports Mole via LiveScore).",
+      "note": "Training with the group; listed out for Brugge on Sunday night by Sports Mole, which gives 2 January as his return date.",
       "source": "Sports Mole / Liverpool FC / Evening Standard via AOL"
     }
   ],

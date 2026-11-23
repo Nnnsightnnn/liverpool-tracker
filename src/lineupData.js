@@ -117,13 +117,13 @@ export const FORMATIONS = {
       LB: 7,  // Kerkez
       LCB: 3, // Van Dijk
       RCB: 11, // Jacquet
-      RB: 29, // Araujo (started at Selhurst)
+      RB: 29, // Araujo (eighty-five minutes v United; Frimpong back)
       LDM: 15, // Szoboszlai (scored the free kick v United, seven shots, Opta Analyst); Nyoni the alternative, Gravenberch day to day
       RDM: 13, // Mac Allister
       LAM: 25, // Ngumoha (goal and assist v United, the left side per Liverpool FC)
-      CAM: 18, // Wirtz (scored at Selhurst)
+      CAM: 18, // Wirtz (goal and ten chances v United)
       RAM: 30, // Barcola (assisted Ngumoha v United; Gakpo out, soleus)
-      ST: 23, // Isak (scored at Selhurst)
+      ST: 23, // Isak (drew Yoro's red v United; the only fit senior nine)
     },
 
   },
@@ -213,7 +213,7 @@ export const FORMATIONS = {
 // Evidence strings refreshed Sat Nov 21 (morning) against the Saturday previews (Afrik-Foot; SI; Sports Mole; RotoWire; Evening Standard via AOL) and the club's team news.
 // Evidence strings refreshed Sun Nov 22 (morning, matchday) against the Sunday previews (The Football Faithful via Yahoo Sports; Heavy; Last Word On Sports).
 // Sun Nov 22 (evening): all 27 refreshed after Liverpool 4-0 Manchester United (Liverpool FC; ESPN; Opta Analyst; The Independent); re-pointed at Club Brugge, UCL, Wed 25 Nov.
-// Mon Nov 23 (morning): all 27 refreshed for Monday's Brugge list (Sports Mole via LiveScore), SoccerNews' preview and Fox Sports' Champions League panel.
+// Mon Nov 23 (morning): all 27 refreshed for Sunday night's Brugge list (Sports Mole), SoccerNews' preview and Fox Sports' Champions League panel.
 export const PLAYER_EVIDENCE = {
   1:  "Clean sheet v United · Brugge next",
   2:  "Unused v United · No. 2",
@@ -432,11 +432,11 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // Sun Nov 22 (evening): United played, Liverpool won 4-0 (ESPN). Re-pointed at Club Brugge away, Champions League, Wed 25 Nov, 8pm GMT. TWO slot changes to match
 //   the eleven that started (Liverpool FC): Ngumoha LAM, Barcola RAM, Gakpo out (soleus, Sports Mole). No Liverpool XI for Bruges published by a named preview yet,
 //   and the derby follows on Sunday, so RB, RDM and the wide slots drop a level. Overall Medium to Low.
-// Mon Nov 23 (morning): no personnel change. Monday's list (Sports Mole via LiveScore): Gakpo out, Gravenberch a major doubt, no suspensions; SoccerNews alone
+// Mon Nov 23 (morning): no personnel change. Sunday night's list (Sports Mole): Gakpo out, Gravenberch a major doubt, no suspensions; SoccerNews alone
 //   tips Munoz for a recall, held at Barcola with Munoz the alternative. Levels unchanged. All 27 evidence strings and ten rationales refreshed. Overall Low.
 // ─── Per-slot confidence levels ─────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by the 4-2-3-1
-// slot keys. These read as confidence that the slot's occupant STARTS AGAINST MANCHESTER UNITED AT HOME (PL, Sun 22 Nov; re-pointed Sun Nov 8 evening after Crystal Palace 1-3 Liverpool: RB High to Medium with Frimpong possibly back, CAM Medium to High, LDM stays Low on Szoboszlai's knee. Previously Crystal Palace away, PL, Sun 8 Nov; reviewed Sun Nov 8 morning, no level change, previews split two-two at LDM; reviewed Sat Nov 7 evening, LDM Medium to Low. Previously Fenerbahçe away, UCL, Wed 4 Nov; re-pointed Sun Nov 1 evening after Liverpool 0-1 Arsenal: baseline is the Anfield XI, rotation for Palace on Sunday expected, so GK, LB, RCB, RB, LAM Medium and LDM, RAM Low. Previously Arsenal at home, PL, Sun 1 Nov; re-pointed Wed Oct 28 evening after Liverpool 1-1 Chelsea, 6-5 pens: GK, LB, RCB, LDM, ST High, the rest Medium. Previously Chelsea at home, Carabao Cup, Wed 28 Oct; re-pointed Sun Oct 25 evening after Liverpool 2-0 Brighton: CAM and LAM Low, GK, LB, ST Medium for cup rotation. Previously Brighton at home, PL, Sun 25 Oct; reviewed Sun Oct 25 morning, no level change; reviewed Sat Oct 24 morning, no level change; reviewed Thu Oct 22 evening, no level change; reviewed Thu Oct 22 morning, no level change; reviewed Wed Oct 21 evening, no level change; reviewed Wed Oct 21 morning, no level change; re-pointed Tue Oct 20 evening after Liverpool 4-3 Villarreal. Previously Villarreal at home (UCL, Tue 20 Oct; re-pointed Sat Oct 17 evening after Brentford 1-2 Liverpool: LDM Gravenberch High, CAM Wirtz High, RCB High, ST Isak Medium, RAM Medium. Previously Brentford away; Sat Oct 17 morning: CAM High to Medium, three Echo writers pick Szoboszlai there; RAM Medium to Low, all four Echo writers pick Ngumoha; re-pointed Wed 14 Oct evening after LASK 3-6 Liverpool; previously LASK Linz, and before that Manchester City at
+// slot keys. These read as confidence that the slot's occupant STARTS AGAINST CLUB BRUGGE AWAY (UCL, Wed 25 Nov; re-pointed Sun Nov 22 evening after Liverpool 4-0 Manchester United. Previously Manchester United at home, PL, Sun 22 Nov; re-pointed Sun Nov 8 evening after Crystal Palace 1-3 Liverpool: RB High to Medium with Frimpong possibly back, CAM Medium to High, LDM stays Low on Szoboszlai's knee. Previously Crystal Palace away, PL, Sun 8 Nov; reviewed Sun Nov 8 morning, no level change, previews split two-two at LDM; reviewed Sat Nov 7 evening, LDM Medium to Low. Previously Fenerbahçe away, UCL, Wed 4 Nov; re-pointed Sun Nov 1 evening after Liverpool 0-1 Arsenal: baseline is the Anfield XI, rotation for Palace on Sunday expected, so GK, LB, RCB, RB, LAM Medium and LDM, RAM Low. Previously Arsenal at home, PL, Sun 1 Nov; re-pointed Wed Oct 28 evening after Liverpool 1-1 Chelsea, 6-5 pens: GK, LB, RCB, LDM, ST High, the rest Medium. Previously Chelsea at home, Carabao Cup, Wed 28 Oct; re-pointed Sun Oct 25 evening after Liverpool 2-0 Brighton: CAM and LAM Low, GK, LB, ST Medium for cup rotation. Previously Brighton at home, PL, Sun 25 Oct; reviewed Sun Oct 25 morning, no level change; reviewed Sat Oct 24 morning, no level change; reviewed Thu Oct 22 evening, no level change; reviewed Thu Oct 22 morning, no level change; reviewed Wed Oct 21 evening, no level change; reviewed Wed Oct 21 morning, no level change; re-pointed Tue Oct 20 evening after Liverpool 4-3 Villarreal. Previously Villarreal at home (UCL, Tue 20 Oct; re-pointed Sat Oct 17 evening after Brentford 1-2 Liverpool: LDM Gravenberch High, CAM Wirtz High, RCB High, ST Isak Medium, RAM Medium. Previously Brentford away; Sat Oct 17 morning: CAM High to Medium, three Echo writers pick Szoboszlai there; RAM Medium to Low, all four Echo writers pick Ngumoha; re-pointed Wed 14 Oct evening after LASK 3-6 Liverpool; previously LASK Linz, and before that Manchester City at
 // Anfield on Sunday 11 October, RE-POINTED Sun Oct 11 (evening) at LASK Linz away on Wed 14 October: RB lowered to Low (Frimpong rotation), RCB to Medium (Gomez), LDM now Gravenberch at Medium, RDM Mac Allister High. (Reviewed Sun Oct 11, morning: no level change, matchday previews agree. Sat Oct 10, morning: no level change; ST now Barcola and LAM Ngumoha, both Medium. Fri Oct 9, evening: RCB raised Medium to High after Iraola declared Jacquet 'fit and ready to go'; ST raised Low to Medium after Iraola ruled Isak out and named Koumas the only natural nine. Fri Oct 9, morning: RCB lowered from High to Medium because RotoWire still lists Jacquet's hamstring tightness and picks Gomez, against Rousing The Kop's report that he took the full session; other levels unchanged. Thu Oct 8, evening: RCB raised to High after Jacquet trained; RAM raised to Medium with Gakpo absent from training; ST stays Low with Koumas in. Thu Oct 8, morning: levels unchanged, no new bulletin. Wed Oct 7, evening: levels unchanged after Iraola's update on Isak and Gakpo. Wed Oct 7, morning: levels unchanged, no club bulletin on Jacquet, Isak or Gakpo. Tue Oct 6, evening: RCB raised from Low to Medium on reports that Jacquet's strain is slight, unconfirmed by the club. Tue Oct 6, morning: levels unchanged. Mon Oct 5, evening: RCB cut from High to Low after Jacquet's left hamstring strain in the France camp; other levels unchanged since Sat Sep 26.) The basis has changed in kind: this
 // is no longer a preview consensus, it is the eleven that started and won at Bournemouth
 // last time out. That raises confidence in the spine and lowers it nowhere except the front three,
@@ -465,14 +465,14 @@ export const SLOT_CONFIDENCE = {
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
   LB: "Mon Nov 23, morning - Kerkez, ninety minutes v United; Tsimikas, Liverpool's Champions League assist leader (Fox Sports), the rotation call. Medium.",
-  LCB: "Mon Nov 23, morning - Van Dijk; with Leoni out (Sports Mole via LiveScore), Gomez is the only senior alternative. High.",
+  LCB: "Mon Nov 23, morning - Van Dijk; with Leoni out (Sports Mole), Gomez is the only senior alternative. High.",
   RCB: "Mon Nov 23, morning - Jacquet, a clean sheet on Sunday; Gomez the European rotation option. Medium.",
   RB: "Mon Nov 23, morning - Araujo held after eighty-five minutes v United; Frimpong, fifteen minutes back, could start. Low.",
-  LDM: "Mon Nov 23, morning - Szoboszlai; Gravenberch a major doubt (Sports Mole via LiveScore), so Nyoni is the cover. Medium.",
+  LDM: "Mon Nov 23, morning - Szoboszlai; Gravenberch a major doubt (Sports Mole), so Nyoni is the cover. Medium.",
   RDM: "Mon Nov 23, morning - Mac Allister, contract talks reported (CaughtOffside); Nyoni if he is rested before the derby. Medium.",
   LAM: "Mon Nov 23, morning - Ngumoha, the youngest Liverpool scorer against United (Stretty News); Munoz pressing. Medium.",
   CAM: "Mon Nov 23, morning - Wirtz, ten chances on Sunday, the most since David Silva in 2015 (Sports Mole). High.",
-  RAM: "Mon Nov 23, morning - Barcola held; SoccerNews tips Munoz for a recall, Gakpo out (Sports Mole via LiveScore). Medium.",
+  RAM: "Mon Nov 23, morning - Barcola held; SoccerNews tips Munoz for a recall, Gakpo out (Sports Mole). Medium.",
   ST: "Mon Nov 23, morning - Isak, the only fit senior nine; Koumas the cover. High.",
 };
 
@@ -500,6 +500,6 @@ export const ALTERNATIVES = {
 export const PREDICTION_NOTE = {
   level: "Low",
   generated_at: "2026-11-23T09:20:00Z",
-  reason: "Mon Nov 23, morning. Club Brugge away, Champions League, Wednesday 8pm GMT. Baseline still the eleven that beat United 4-0 (Liverpool FC). Monday's list rules out Gakpo and makes Gravenberch a major doubt, with no suspensions (Sports Mole via LiveScore); SoccerNews tips Munoz for a recall, held at Barcola. No named preview has published Liverpool's XI and the derby follows on Sunday. Low.",
+  reason: "Mon Nov 23, morning. Club Brugge away, Champions League, Wednesday 8pm GMT. Baseline still the eleven that beat United 4-0 (Liverpool FC). Sunday night's list rules out Gakpo and makes Gravenberch a major doubt, with no suspensions (Sports Mole via LiveScore); SoccerNews tips Munoz for a recall, held at Barcola. No named preview has published Liverpool's XI and the derby follows on Sunday. Low.",
 };
 
