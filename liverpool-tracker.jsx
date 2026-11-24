@@ -73,7 +73,7 @@ function PlayerAvatar({ player, size = 64 }) {
   );
 }
 
-// ─── Player Data (2026-27 Season · Updated 23 November 2026, morning)────────────────────
+// ─── Player Data (2026-27 Season · Updated 24 November 2026, evening)────────────────────
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
 // injuryNote: short description shown on card when not fit
 const PLAYERS = [
@@ -89,7 +89,7 @@ const PLAYERS = [
   { id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Tue Nov 24, evening - Travelled (Liverpool FC); Iraola's 'we've kind of been rotating the squad a lot' keeps him in the conversation at right-back.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png" },
   { id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Tue Nov 24, evening - Knee: not among the travellers (Liverpool FC); Premier League News Now still points to the new year.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png" }, /* Leoni - TheSportsDB cutout */
   { id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Tue Nov 24, evening - One of three senior centre-backs in the travelling party (Liverpool FC), with no rest likely while Leoni is out.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png" },
-  { id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Tue Nov 24, evening - Still on loan at Levante; no part in Tuesday's European business.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png" },
+  { id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Tue Nov 24, evening - Still on loan at Levante; no part in Wednesday's European business.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png" },
   { id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Tue Nov 24, evening - Travelled (Liverpool FC); the rotation option at left-back if Iraola protects Kerkez for Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png" },
 
   // ── Midfielders ───────────────────────────────────────────────────────────

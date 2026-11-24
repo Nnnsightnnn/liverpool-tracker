@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2026-27 Season · Updated 24 November 2026 (morning)) ──────
+// ─── Liverpool FC Player Data (2026-27 Season · Updated 24 November 2026 (evening)) ──────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Tue Nov 24, evening - Still on loan at Levante; no part in Tuesday's European business.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Tue Nov 24, evening - Still on loan at Levante; no part in Wednesday's European business.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -1305,7 +1305,7 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   "generatedAt": "2026-11-24T22:30:00Z",
-  "summary": "Ryan Gravenberch did not fly: the 22-man squad Liverpool took to Bruges on Tuesday leaves him out with the heel that has sidelined him since early November, omitted 'due to persistent discomfort, according to the club' (Liverpool FC; RotoWire), and Cody Gakpo stays behind too (Liverpool FC; Brit Brief). That leaves Mac Allister, Szoboszlai and Nyoni as the senior central midfielders for Wednesday's 8pm GMT kick-off. At the Jan Breydel on Tuesday afternoon Florian Wirtz said he is 'in the best form since I arrived' and that Iraola is 'bringing me back' to the player of two years ago (Liverpool FC), while Iraola warned that Liverpool 'will have to be at a very, very good level' (Liverpool FC). Ivan Leko gave Brugge perhaps two wins in ten (Walfoot), with Jan Virgili back in his squad (VoetbalPrimeur). Liverpool are fourth on twenty-one, Everton away on Sunday, and the Alisson talks reported this morning (Sports Mole) have produced nothing signed.",
+  "summary": "Ryan Gravenberch did not fly: the 22-man squad Liverpool took to Bruges on Tuesday leaves him out with the heel that has sidelined him since early November, omitted 'due to persistent discomfort, according to the club' (RotoWire), and Cody Gakpo stays behind too (Liverpool FC; Brit Brief). That leaves Mac Allister, Szoboszlai and Nyoni as the senior central midfielders for Wednesday's 8pm GMT kick-off. At the Jan Breydel on Tuesday afternoon Florian Wirtz said he is 'in the best form since I arrived' and that Iraola is 'bringing me back' to the player of two years ago (Liverpool FC), while Iraola warned that Liverpool 'will have to be at a very, very good level' (Liverpool FC). Ivan Leko gave Brugge perhaps two wins in ten (Walfoot), with Jan Virgili back in his squad (VoetbalPrimeur). Liverpool are fourth on twenty-one, Everton away on Sunday, and the Alisson talks reported this morning (Sports Mole) have produced nothing signed.",
   "keyTopics": [
     {
       "title": "Gravenberch And Gakpo Left Out Of The Brugge Squad (Liverpool FC, this evening)",
@@ -1955,7 +1955,7 @@ export const FORM_TRENDS = {
 };
 export const SQUAD_LOAD = {
   "generatedAt": "2026-11-24T22:30:00Z",
-  "headline": "Gravenberch did not travel: the 22 for Bruges leave him at home with the heel, for 'persistent discomfort, according to the club' (RotoWire; Liverpool FC), and Gakpo stays behind too. That makes central midfield three senior players deep, Mac Allister, Szoboszlai and Nyoni, with McConnell the academy option on the plane (Liverpool FC). Iraola's line on rotation, 'everyone should be ready to start or come from the bench, or even not play' (Liverpool FC), is the only hint that Sunday's derby will shape Wednesday's team.",
+  "headline": "Gravenberch did not travel: the 22 for Bruges leave him at home with the heel, for 'persistent discomfort, according to the club' (RotoWire), and Gakpo stays behind too. That makes central midfield three senior players deep, Mac Allister, Szoboszlai and Nyoni, with McConnell the academy option on the plane (Liverpool FC). Iraola's line on rotation, 'everyone should be ready to start or come from the bench, or even not play' (Liverpool FC), is the only hint that Sunday's derby will shape Wednesday's team.",
   "minutesNote": "Premier League minutes are not published here yet. Eleven league games, four Champions League games and two Carabao Cup ties have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   "unavailable": [
     {
@@ -2221,14 +2221,14 @@ export const SEASON_PROJECTION = {
   "points": 21,
   "pointsPerGame": 1.91,
   "projectedPoints": 73,
-  "projectedFinish": "Above Champions League par on current pace, and fourth in the table this morning",
+  "projectedFinish": "Above Champions League par on current pace, and fourth in the table tonight",
   "headline": "Twenty-one from eleven, 1.91 a game, a pace worth seventy-three, and nothing moves until Sunday's derby (ESPN). The pace sits above the historical par for fourth, though eleven games is a small sample and Bournemouth are three behind. Bruges does not count here; what it costs in legs does.",
   "thresholds": [
     {
       "label": "Champions League (top 4)",
       "points": 68,
       "gap": 0,
-      "note": "Historical par for the last Champions League place in recent seasons. Cleared by five on current pace; Liverpool are fourth this morning with every side on eleven played (ESPN)."
+      "note": "Historical par for the last Champions League place in recent seasons. Cleared by five on current pace; Liverpool are fourth tonight with every side on eleven played (ESPN)."
     },
     {
       "label": "Europa League (5th)",
