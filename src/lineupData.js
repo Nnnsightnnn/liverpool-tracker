@@ -482,7 +482,7 @@ export const SLOT_RATIONALE = {
   LAM: "Tue Nov 24, morning - Ngumoha in every Tuesday XI; Iraola wants 'some numbers' from him (Premier League News Now). Medium.",
   CAM: "Tue Nov 24, morning - Wirtz, Carragher's 'best by a mile' against United (Anfield Index). High.",
   RAM: "Tue Nov 24, morning - Barcola in most XIs; Racing Post and Football Talk use Munoz. Medium.",
-  ST: "Tue Nov 24, morning - Isak in every named XI; Sports Mole tips Koumas (LiveScore). High.",
+  ST: "Tue Nov 24, morning - Isak in every named XI bar Sports Mole's, which tips Koumas (LiveScore). High.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────

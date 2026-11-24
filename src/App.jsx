@@ -570,8 +570,8 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, the day before Bruges, and the morning's story is a goalkeeper's future. Liverpool have opened talks with
-          Alisson, who is said to want a contract to 2029, his current one ending this summer. They sit fourth on twenty-one,
+          Tuesday, the day before Bruges, and the morning's story is a goalkeeper's future. Liverpool's talks with
+          Alisson are under way, and he is said to want a contract to 2029, his current one ending next June. They sit fourth on twenty-one,
           a point off second; tomorrow night it is Brugge, Gakpo out, and the eleven that beat United expected again.
         </p>
 
@@ -606,8 +606,8 @@ function CoverView({ onJump }) {
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
               <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and the news arrived before the squad flew. Nicolo Schira reported overnight that Liverpool have opened talks with
-              Alisson, and that the goalkeeper, thirty-four and two games short of three hundred and fifty for the club, would like
+              and the news firmed up before the squad flew. Nicolo Schira reports that Liverpool's talks with Alisson are
+              under way, and that the goalkeeper, thirty-four and two games short of three hundred and fifty for the club, would like
               to stay until 2029 (Sports Mole). His deal ends in June; from January he may listen to clubs abroad (DaveOCKOP).
               Bruges is a day away, and the previews have mostly agreed that Iraola will pick the side that beat United, Kerkez
               back on the left. Iraola speaks at a quarter past four. The goalkeeper's question will keep longer than the team sheet.

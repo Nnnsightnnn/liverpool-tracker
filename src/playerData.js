@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Tue Nov 24, morning - Knee: Football Talk reports him in full training; Premier League News Now still says out until the new year.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Tue Nov 24, morning - Knee: Football Talk's report of full training is contested; Premier League News Now still says out until the new year.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Tue Nov 24, morning - Sports Mole tips him to lead the line in Bruges (LiveScore); every named XI still starts Isak.", image: "",
+    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Tue Nov 24, morning - Sports Mole tips him to lead the line in Bruges (LiveScore); every other named XI starts Isak.", image: "",
     physical: { height: 180, weight: 73, pace: 80, acceleration: 81, sprintSpeed: 79 },
     career: [
       { years: "2013-", club: "Liverpool", fee: null, type: "youth" },
@@ -1265,7 +1265,7 @@ export const DISPATCHES = [
     "byline": "Sports Mole / DaveOCKOP",
     "dateline": "Kirkby · 24 November",
     "category": "Transfers",
-    "body": "The news came overnight, as contract news tends to, through Nicolo Schira: Liverpool have opened talks with Alisson, and the goalkeeper would like to stay until 2029 (Sports Mole). He is thirty-four, two games short of three hundred and fifty for the club by Sports Mole's count, and the twelve-month option Liverpool took up last year runs out this summer (DaveOCKOP). Juventus and Flamengo wanted him in the summer and were told he was not for sale (Football365). From January he may talk to clubs abroad (DaveOCKOP). Nothing has been signed. The conversation, at least, has started."
+    "body": "The story firmed up overnight, as contract stories tend to, through Nicolo Schira: talks with Alisson are under way, and the goalkeeper would like to stay until 2029 (Sports Mole). He is thirty-four, two games short of three hundred and fifty for the club by Sports Mole's count, and the twelve-month option Liverpool took up last year runs out this summer (DaveOCKOP). Juventus and Flamengo wanted him in the summer and were told he was not for sale (Football365). From January he may talk to clubs abroad (DaveOCKOP). Nothing has been signed. The conversation, at least, has started."
   },
   {
     "n": "02",
@@ -1302,12 +1302,12 @@ export const DISPATCHES = [
 ];
 export const NEWS_DIGEST = {
   "generatedAt": "2026-11-24T09:15:00Z",
-  "summary": "Liverpool have opened talks on a new contract for Alisson, Nicolo Schira reported overnight, and the goalkeeper is said to want a deal to 2029 (Sports Mole; BBC Sport's Tuesday gossip column via Yahoo Sports). It matters because his current contract, already extended by a twelve-month option, ends this summer, and from January he can talk to clubs abroad (DaveOCKOP). Bruges is tomorrow night, and Tuesday's previews have mostly settled on the eleven that beat United, Kerkez back at left-back, with Gakpo out and Gravenberch still managing a heel (RotoWire; Evening Standard via AOL; The Sports Bank), though Sports Mole tips Nyoni and Koumas to start (LiveScore). Iraola speaks in Belgium at 4.15pm GMT (Liverpool FC); Liverpool are fourth on twenty-one, with Everton away on Sunday.",
+  "summary": "Liverpool's contract talks with Alisson are under way, Nicolo Schira reports, and the goalkeeper is said to want a deal to 2029 (Sports Mole; BBC Sport's Tuesday gossip column via Yahoo Sports). It matters because his current contract, already extended by a twelve-month option, ends this summer, and from January he can talk to clubs abroad (DaveOCKOP). Bruges is tomorrow night, and Tuesday's previews have mostly settled on the eleven that beat United, Kerkez back at left-back, with Gakpo out and Gravenberch still managing a heel (RotoWire; Evening Standard via AOL; The Sports Bank), though Sports Mole tips Nyoni and Koumas to start (LiveScore). Iraola speaks in Belgium at 4.15pm GMT (Liverpool FC); Liverpool are fourth on twenty-one, with Everton away on Sunday.",
   "keyTopics": [
     {
       "title": "Liverpool Open Alisson Contract Talks, Deal To 2029 Sought (Sports Mole, today)",
       "category": "transfers",
-      "detail": "Reported overnight, at 1.20am GMT on Tuesday: Schira says talks have opened and that Alisson is open to staying until 2029; Sports Mole has him two games from 350 for the club. BBC Sport's gossip column carried it on Tuesday morning (via Yahoo Sports)."
+      "detail": "Sports Mole, 1.20am GMT on Tuesday, after Monday reports from DaveOCKOP and FootballTransfers: Schira says talks have opened and that Alisson is open to staying until 2029; Sports Mole has him two games from 350 for the club. BBC Sport's gossip column carried it on Tuesday morning (via Yahoo Sports)."
     },
     {
       "title": "Iraola Speaks In Belgium At 4.15pm (Liverpool FC, today)",
@@ -1332,7 +1332,7 @@ export const NEWS_DIGEST = {
     {
       "title": "The Overnight XIs: The United Eleven Again (Evening Standard, 1d ago)",
       "category": "injuries",
-      "detail": "Published late on Monday: RotoWire, the Evening Standard (via AOL) and Premier League News Now all name Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Szoboszlai; Ngumoha, Wirtz, Barcola; Isak. Racing Post alone rotates, with Frimpong, Tsimikas, Nyoni and Munoz."
+      "detail": "Published late on Monday: RotoWire, the Evening Standard (via AOL) and Premier League News Now all name Alisson; Araujo, Jacquet, Van Dijk, Kerkez; Mac Allister, Szoboszlai; Ngumoha, Wirtz, Barcola; Isak. Racing Post and Sports Mole rotate, Racing Post with Frimpong, Tsimikas, Nyoni and Munoz."
     },
     {
       "title": "Gravenberch 'Still Is Managing The Pain' (The Sports Bank, 1d ago)",
@@ -1406,7 +1406,7 @@ export const OPPOSITION = {
   "manager": "Ivan Leko (DaveOCKOP)",
   "formation": "4-2-3-1",
   "leaguePosition": 9,
-  "summary": "Brugge come into Wednesday unbeaten in eleven and second in the Pro League with thirty-one points from twelve games (Football Talk), and ninth in the league phase on nine points, level with Liverpool (Football Whispers). The underlying numbers are harsher: their expected-goal difference of -2.1 ranks twenty-sixth in the competition, and their goalkeepers' twenty-seven saves are the most made by any side (Racing Post). They won at PSV with thirty-eight per cent of the ball and 1.11 expected goals (The Hard Tackle). Ordonez (foot) is out and Virgili (groin) a doubt at best (RotoWire; Racing Post). Off the pitch, the story is Tresoldi's audience: Barcelona, Milan and Bayern Munich are reported to be scouting him on Wednesday (Tribuna). The leaguePosition field here is the Champions League table, since Brugge are not in the Premier League STANDINGS.",
+  "summary": "Brugge come into Wednesday unbeaten in eleven and second in the Pro League with thirty-one points from twelve games (Football Talk), and ninth in the league phase on nine points, level with Liverpool (Football Whispers). The underlying numbers are harsher: their expected-goal difference of -2.1 ranks twenty-sixth in the competition, and their goalkeepers' twenty-seven saves are the most made by any side (Racing Post). They won at PSV with thirty-eight per cent of the ball and 1.11 expected goals (The Hard Tackle). Ordonez (foot) is out, and Virgili (groin) is ruled out by Racing Post and The Hard Tackle, a doubt on RotoWire's list. Off the pitch, the story is Tresoldi's audience: Barcelona, Milan and Bayern Munich are reported to be scouting him on Wednesday (Tribuna). The leaguePosition field here is the Champions League table, since Brugge are not in the Premier League STANDINGS.",
   "shape": "RotoWire and Football Talk draw a 4-2-3-1, Racing Post and The Hard Tackle a 4-1-4-1, and the difference is Vanaken: beside Potts in the first, pushed up alongside Vetlesen in the second. Either way Forbs holds the right and Lemarechal the left in Virgili's absence (RotoWire). At PSV they won with thirty-eight per cent of the ball (The Hard Tackle), so the 56 per cent they average in Europe (Fox Sports) is not the only way they play; they can sit and break.",
   "keyPlayers": [
     {
@@ -1971,7 +1971,7 @@ export const SQUAD_LOAD = {
       "name": "Giovanni Leoni",
       "issue": "ACL (September 2025)",
       "expected": "A comeback before the new year 'incredibly unlikely' (Sports Mole)",
-      "note": "Reported in full training by Football Talk on Tuesday; Premier League News Now still says out until the new year.",
+      "note": "Football Talk reports him in full training, a lone claim; Premier League News Now and Sports Mole still say not before the new year.",
       "source": "Football Talk / Premier League News Now / Sports Mole"
     },
     {
@@ -2223,7 +2223,7 @@ export const SEASON_PROJECTION = {
       "label": "Champions League (top 4)",
       "points": 68,
       "gap": 0,
-      "note": "Historical par for the last Champions League place in recent seasons. Cleared by five on current pace; Liverpool are fourth tonight with every side on eleven played (ESPN)."
+      "note": "Historical par for the last Champions League place in recent seasons. Cleared by five on current pace; Liverpool are fourth this morning with every side on eleven played (ESPN)."
     },
     {
       "label": "Europa League (5th)",
