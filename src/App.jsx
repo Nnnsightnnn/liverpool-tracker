@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Monday night, and the derby changed shape in west London. Everton lost 4-0 at Brentford, slipped to ninth, and lost
-          Tarkowski to a red card that keeps him out on Sunday. Liverpool stay fourth, a point off second, with Bruges first:
-          Wednesday at eight, Gakpo out, Gravenberch a doubt, and UEFA's eleven with Tsimikas at left-back.
+          Tuesday, the day before Bruges, and the morning's story is a goalkeeper's future. Liverpool have opened talks with
+          Alisson, who is said to want a contract to 2029, his current one ending this summer. They sit fourth on twenty-one,
+          a point off second; tomorrow night it is Brugge, Gakpo out, and the eleven that beat United expected again.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the week's second fixture announced itself early. James Tarkowski was sent off at Brentford for a studs-up challenge,
-              Everton lost 4-0, and the side Liverpool meet on Sunday will be without a centre-back who had gone more than three
-              hundred and fifty Premier League games without a red card (Dave.sport). That is for later. Wednesday comes first, in Bruges, where
-              UEFA's predicted eleven gives Tsimikas the left-back place and Belgian writers have spent the day naming dangers, Wirtz
-              first among them. Jamie Carragher named him too, taking back his Sunday verdict on Ngumoha. For once, Liverpool have
-              spent a Monday watching someone else's trouble.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
+              and the news arrived before the squad flew. Nicolo Schira reported overnight that Liverpool have opened talks with
+              Alisson, and that the goalkeeper, thirty-four and two games short of three hundred and fifty for the club, would like
+              to stay until 2029 (Sports Mole). His deal ends in June; from January he may listen to clubs abroad (DaveOCKOP).
+              Bruges is a day away, and the previews have mostly agreed that Iraola will pick the side that beat United, Kerkez
+              back on the left. Iraola speaks at a quarter past four. The goalkeeper's question will keep longer than the team sheet.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: a red card at Brentford, and a derby changed; Moyes,
-              outlasted by his own record; eleven names, and one nobody else had; what they fear in Flanders; and the best
-              player on the pitch, corrected. Brugge kick off at eight on Wednesday.
+              five dispatches from the writers who never clock off: the goalkeeper asks for two more years; managing the pain,
+              and the selection; same eleven, different week; the striker everyone is coming to watch; and seven hundred, and a
+              Maguire argument. Brugge kick off at eight on Wednesday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3829,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        Sunday got easier; Wednesday did not.
+        A keeper asks for two more years.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
