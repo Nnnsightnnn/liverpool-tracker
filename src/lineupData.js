@@ -218,33 +218,33 @@ export const FORMATIONS = {
 // Mon Nov 23 (evening): all 27 refreshed for UEFA.com's matchday-five XIs, ESPN's and Khel Now's previews, Carragher on Wirtz and Tarkowski's derby ban.
 // Tue Nov 24 (morning): all 27 refreshed for the Alisson talks (Sports Mole), Tuesday's Brugge XIs (RotoWire; Evening Standard; Racing Post) and Carragher via Anfield Index.
 export const PLAYER_EVIDENCE = {
-  1:  "Talks opened · wants 2029 (Schira)",
-  2:  "No. 2 · 'complicated' (Romano)",
-  3:  "In every Tuesday Brugge XI",
-  5:  "Bench in 4th Official's XI",
-  7:  "LB in RotoWire and Standard XIs",
-  8:  "Knee · full training (Football Talk)",
-  9:  "RB in Racing Post's XI",
-  10: "Knee · training, not yet selectable",
-  11: "In every Brugge XI bar one",
-  12: "On loan at Levante",
-  13: "Contract to 2028 (Football365)",
-  14: "Heel · managing the pain",
-  15: "In every Tuesday Brugge XI",
-  17: "Off UCL list · derby next",
-  18: "'Best by a mile' (Carragher)",
-  20: "Tipped to start (Sports Mole)",
-  22: "Soleus · return date TBD",
-  23: "Only senior nine · every XI",
-  24: "Achilles · January at best",
-  25: "In every Tuesday Brugge XI",
-  26: "Off UCL list · Everton next",
-  27: "Third goalkeeper",
-  28: "Wide in Racing Post's XI",
-  29: "RB in RotoWire's Brugge XI",
-  30: "'Absolutely electric' (Carragher)",
-  31: "Tipped to lead line (Sports Mole)",
-  32: "LB in Racing Post's XI only",
+  1:  "Travelled · contract talks open",
+  2:  "Travelled · No. 2",
+  3:  "One of three senior CBs on plane",
+  5:  "Travelled · senior CB cover",
+  7:  "Travelled · LB in morning XIs",
+  8:  "Knee · not in Brugge squad",
+  9:  "Travelled · RB rotation option",
+  10: "Knee · not in Brugge squad",
+  11: "Travelled · no CB rest likely",
+  12: "On loan at Levante · no change",
+  13: "One of three senior CMs on plane",
+  14: "Heel · left out of Brugge squad",
+  15: "Travelled · more minutes, no Gravenberch",
+  17: "Off UCL list · not travelling",
+  18: "'Best form since I arrived'",
+  20: "Only fit senior CM alternative",
+  22: "Soleus · not in Brugge squad",
+  23: "Travelled · 'ready to start or not'",
+  24: "Achilles · not travelling",
+  25: "'We cannot rush it' (Iraola)",
+  26: "Ineligible for UCL · Everton next",
+  27: "Third GK · in the 22",
+  28: "Travelled · wide option",
+  29: "Travelled · RB in most previews",
+  30: "Travelled · one of three wide men",
+  31: "Travelled · back-up nine",
+  32: "Travelled · LB rotation option",
 };
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
 // now pointed at Manchester City at home on Sunday 11 October, 4.30pm at Anfield. This is no
@@ -443,6 +443,8 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 // Tue Nov 24 (morning): ONE personnel change in all three shapes, Kerkez back for Tsimikas at LB/LWB. RotoWire, the Evening Standard (via AOL),
 //   Premier League News Now, The Hard Tackle and Mix Vale all name the eleven that started v United; Racing Post alone rotates (Frimpong, Tsimikas,
 //   Nyoni, Munoz) and Sports Mole tips Nyoni and Koumas (LiveScore). LB stays Medium. Overall Medium; Iraola's presser is at 4.15pm GMT.
+// Tue Nov 24 (evening): no personnel change. The 22-man travelling squad (Liverpool FC) omits Gravenberch (heel, 'persistent discomfort', RotoWire)
+//   and Gakpo; Gravenberch dropped from the LDM alternatives. Iraola's presser named no XI. All levels unchanged, overall Medium.
 // ─── Per-slot confidence levels ─────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by the 4-2-3-1
 // slot keys. These read as confidence that the slot's occupant STARTS AGAINST CLUB BRUGGE AWAY (UCL, Wed 25 Nov; re-pointed Sun Nov 22 evening after Liverpool 4-0 Manchester United. Previously Manchester United at home, PL, Sun 22 Nov; re-pointed Sun Nov 8 evening after Crystal Palace 1-3 Liverpool: RB High to Medium with Frimpong possibly back, CAM Medium to High, LDM stays Low on Szoboszlai's knee. Previously Crystal Palace away, PL, Sun 8 Nov; reviewed Sun Nov 8 morning, no level change, previews split two-two at LDM; reviewed Sat Nov 7 evening, LDM Medium to Low. Previously Fenerbahçe away, UCL, Wed 4 Nov; re-pointed Sun Nov 1 evening after Liverpool 0-1 Arsenal: baseline is the Anfield XI, rotation for Palace on Sunday expected, so GK, LB, RCB, RB, LAM Medium and LDM, RAM Low. Previously Arsenal at home, PL, Sun 1 Nov; re-pointed Wed Oct 28 evening after Liverpool 1-1 Chelsea, 6-5 pens: GK, LB, RCB, LDM, ST High, the rest Medium. Previously Chelsea at home, Carabao Cup, Wed 28 Oct; re-pointed Sun Oct 25 evening after Liverpool 2-0 Brighton: CAM and LAM Low, GK, LB, ST Medium for cup rotation. Previously Brighton at home, PL, Sun 25 Oct; reviewed Sun Oct 25 morning, no level change; reviewed Sat Oct 24 morning, no level change; reviewed Thu Oct 22 evening, no level change; reviewed Thu Oct 22 morning, no level change; reviewed Wed Oct 21 evening, no level change; reviewed Wed Oct 21 morning, no level change; re-pointed Tue Oct 20 evening after Liverpool 4-3 Villarreal. Previously Villarreal at home (UCL, Tue 20 Oct; re-pointed Sat Oct 17 evening after Brentford 1-2 Liverpool: LDM Gravenberch High, CAM Wirtz High, RCB High, ST Isak Medium, RAM Medium. Previously Brentford away; Sat Oct 17 morning: CAM High to Medium, three Echo writers pick Szoboszlai there; RAM Medium to Low, all four Echo writers pick Ngumoha; re-pointed Wed 14 Oct evening after LASK 3-6 Liverpool; previously LASK Linz, and before that Manchester City at
@@ -473,16 +475,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Tue Nov 24, morning - Kerkez, back in RotoWire's, the Standard's and Premier League News Now's XIs; Racing Post alone picks Tsimikas. Medium.",
-  LCB: "Tue Nov 24, morning - Van Dijk, in every Brugge XI read on Tuesday; Gomez the only senior cover. High.",
-  RCB: "Tue Nov 24, morning - Jacquet, in every XI read bar The 4th Official's; Gomez the rotation option. Medium.",
-  RB: "Tue Nov 24, morning - Araujo in RotoWire's and the Standard's XIs; Racing Post starts Frimpong. Medium.",
-  LDM: "Tue Nov 24, morning - Szoboszlai in every XI read; Gravenberch 'still is managing the pain' (The Sports Bank). Medium.",
-  RDM: "Tue Nov 24, morning - Mac Allister in most XIs; Racing Post and Sports Mole start Nyoni instead. Medium.",
-  LAM: "Tue Nov 24, morning - Ngumoha in every Tuesday XI; Iraola wants 'some numbers' from him (Premier League News Now). Medium.",
-  CAM: "Tue Nov 24, morning - Wirtz, Carragher's 'best by a mile' against United (Anfield Index). High.",
-  RAM: "Tue Nov 24, morning - Barcola in most XIs; Racing Post and Football Talk use Munoz. Medium.",
-  ST: "Tue Nov 24, morning - Isak in every named XI bar Sports Mole's, which tips Koumas (LiveScore). High.",
+  LB: "Tue Nov 24, evening - Kerkez, on the plane with Tsimikas (Liverpool FC); nothing since the presser changes the morning call. Medium.",
+  LCB: "Tue Nov 24, evening - Van Dijk, one of three senior centre-backs in the 22 (Liverpool FC). High.",
+  RCB: "Tue Nov 24, evening - Jacquet, with Gomez the only alternative in the travelling squad (Liverpool FC). Medium.",
+  RB: "Tue Nov 24, evening - Araujo, as in most previews; Frimpong travelled and Iraola has 'been rotating the squad a lot' (Liverpool FC). Medium.",
+  LDM: "Tue Nov 24, evening - Szoboszlai; Gravenberch left out of the squad with the heel (RotoWire), so Nyoni is the only senior alternative. Medium.",
+  RDM: "Tue Nov 24, evening - Mac Allister; RotoWire expects him and Szoboszlai to take the midfield minutes. Medium.",
+  LAM: "Tue Nov 24, evening - Ngumoha; Iraola: 'We cannot rush it, it wouldn't be fair with him' (Liverpool FC). Medium.",
+  CAM: "Tue Nov 24, evening - Wirtz, at the presser in 'the best form since I arrived' (Liverpool FC). High.",
+  RAM: "Tue Nov 24, evening - Barcola, with Munoz the alternative and Gakpo at home (Liverpool FC). Medium.",
+  ST: "Tue Nov 24, evening - Isak; Iraola: 'everyone should be ready to start or come from the bench, or even not play' (Liverpool FC). High.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -495,7 +497,7 @@ export const ALTERNATIVES = {
   LCB: [{ playerId: 5, reason: "Gomez · if Van Dijk is rested" }],
   RCB: [{ playerId: 5, reason: "Gomez · senior cover" }],
   RB:  [{ playerId: 9, reason: "Frimpong · RB in Racing Post's XI" }, { playerId: 5, reason: "Gomez · senior cover" }],
-  LDM: [{ playerId: 20, reason: "Nyoni · on 72' v United" }, { playerId: 14, reason: "Gravenberch · if the heel allows" }],
+  LDM: [{ playerId: 20, reason: "Nyoni · the only senior alternative" }],
   RDM: [{ playerId: 20, reason: "Nyoni · midfield cover" }],
   LAM: [{ playerId: 28, reason: "Munoz · scored off the bench v United" }],
   CAM: [{ playerId: 20, reason: "Nyoni · if Wirtz is rested" }],
@@ -508,7 +510,7 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-11-24T09:15:00Z",
-  reason: "Tue Nov 24, morning. Club Brugge away, Champions League, Wednesday 8pm GMT. RotoWire, the Evening Standard and Premier League News Now name the eleven that started v United, Kerkez back for Tsimikas; Racing Post rotates four and Sports Mole tips Nyoni and Koumas. Gakpo out, Gravenberch doubtful. Medium.",
+  generated_at: "2026-11-24T22:30:00Z",
+  reason: "Tue Nov 24, evening. Club Brugge away, Champions League, Wednesday 8pm GMT. No personnel change: the eleven that started v United, Kerkez at left-back. Gravenberch and Gakpo left out of the 22-man squad (Liverpool FC); Iraola says everyone 'should be ready to start or come from the bench' (Liverpool FC). Medium.",
 };
 

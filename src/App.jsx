@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday, the day before Bruges, and the morning's story is a goalkeeper's future. Liverpool's talks with
-          Alisson are under way, and he is said to want a contract to 2029, his current one ending next June. They sit fourth on twenty-one,
-          a point off second; tomorrow night it is Brugge, Gakpo out, and the eleven that beat United expected again.
+          Tuesday night, the eve of Bruges, and the story is who stayed behind. Gravenberch's heel kept him off the plane and
+          Gakpo's calf did the same, so Mac Allister, Szoboszlai and Nyoni are the midfield for tomorrow. Liverpool are fourth on
+          twenty-one, a point off second; Brugge, level with them on nine points in Europe, kick off at eight.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,21 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tuesday</span>,{" "}
-              and the news firmed up before the squad flew. Nicolo Schira reports that Liverpool's talks with Alisson are
-              under way, and that the goalkeeper, thirty-four and two games short of three hundred and fifty for the club, would like
-              to stay until 2029 (Sports Mole). His deal ends in June; from January he may listen to clubs abroad (DaveOCKOP).
-              Bruges is a day away, and the previews have mostly agreed that Iraola will pick the side that beat United, Kerkez
-              back on the left. Iraola speaks at a quarter past four. The goalkeeper's question will keep longer than the team sheet.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              and the squad list said more than the press conference did. Twenty-two flew from John Lennon Airport before lunch,
+              and Ryan Gravenberch was not among them, left behind, RotoWire reports, for persistent discomfort in the heel; Cody
+              Gakpo stayed too (Liverpool FC). In Bruges, Florian Wirtz sat beside Iraola and called this the best form of his time
+              at the club, his coach bringing him back to the player of two years ago. Across town Ivan Leko gave his side two wins
+              in ten (Walfoot). Iraola, for his part, found nothing boring about Brugge. The midfield is three men deep now, and
+              one of them is a teenager.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: the goalkeeper asks for two more years; managing the pain,
-              and the selection; same eleven, different week; the striker everyone is coming to watch; and seven hundred, and a
-              Maguire argument. Brugge kick off at eight on Wednesday.
+              five dispatches from the writers who never clock off: the midfielder who stayed behind; nothing boring about
+              Brugge; two years back, and forward; two in ten, and one good punch; and the paperwork behind the plane. Brugge
+              kick off at eight on Wednesday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3829,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        A keeper asks for two more years.
+        Twenty-two on the plane, three in midfield.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
