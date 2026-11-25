@@ -611,8 +611,8 @@ function CoverView({ onJump }) {
               with three to play (Dave.sport). The weekend has already intruded. Cody Gakpo's calf will keep him out of Sunday's
               derby too, Iraola said, and of Ryan Gravenberch he offered only that he is having pain and it is difficult to solve
               (GOAL via Yahoo Sports). The previews cannot agree on the nine, Koumas or Isak. ESPN's history says Brugge have lost
-              nine of ten to English sides; its other number says Liverpool have never conceded more at this stage. Both cannot
-              hold tonight.
+              nine of ten to English sides; its other number says Liverpool have never conceded more at this stage. Tonight decides
+              which one travels home.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,

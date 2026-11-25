@@ -121,12 +121,12 @@ export const FORMATIONS = {
       LCB: 3, // Van Dijk
       RCB: 11, // Jacquet
       RB: 9, // Frimpong (Sports Mole and The Football Faithful XIs; Bradley not in the squad)
-      LDM: 15, // Szoboszlai (scored the free kick v United, seven shots, Opta Analyst); Nyoni the alternative, Gravenberch day to day
+      LDM: 15, // Szoboszlai (scored the free kick v United, seven shots, Opta Analyst); Nyoni the alternative, Gravenberch out (heel)
       RDM: 13, // Mac Allister
       LAM: 25, // Ngumoha (goal and assist v United, the left side per Liverpool FC)
       CAM: 18, // Wirtz (goal and ten chances v United)
       RAM: 30, // Barcola (assisted Ngumoha v United; Gakpo out, soleus)
-      ST: 23, // Isak (drew Yoro's red v United; the only fit senior nine)
+      ST: 23, // Isak (drew Yoro's red v United; Koumas the alternative)
     },
 
   },
@@ -163,7 +163,7 @@ export const FORMATIONS = {
       RCB: 5, // Gomez (back-three cover)
       LWB: 32, // Tsimikas (every Wednesday-morning XI found)
       LCM: 13, // Mac Allister
-      RCM: 15, // Szoboszlai (scored v United; Gravenberch day to day with the heel)
+      RCM: 15, // Szoboszlai (scored v United; Gravenberch out, heel)
       RWB: 9, // Frimpong (Sports Mole; The Football Faithful)
       LW: 25, // Ngumoha
       ST: 23, // Isak

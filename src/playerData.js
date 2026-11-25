@@ -1293,7 +1293,7 @@ export const DISPATCHES = [
     "n": "04",
     "headline": "Ten Chances And A Long Shadow.",
     "byline": "Sports Mole / ESPN / LiveScore",
-    "dateline": "Liverpool · 24 November",
+    "dateline": "Liverpool · 25 November",
     "category": "Football News",
     "body": "Sports Mole had to go back to David Silva to find a comparison. Florian Wirtz created ten chances from open play against United on Sunday, the most by anyone in a Premier League match since Silva in March 2015, and ESPN counts five goals and two assists in his last four games for club and country. LiveScore's Wednesday round-up leads on the same subject. The shadow across those numbers belongs to Rio Ngumoha, who had twenty touches in the opposition box in the same game (AnfieldWatch, via LiveScore) and is still being handled, by his manager's own account, with care."
   },
@@ -1328,7 +1328,7 @@ export const NEWS_DIGEST = {
     {
       "title": "Ngumoha's Twenty Touches In The Box (LiveScore, today)",
       "category": "general",
-      "detail": "Wednesday's LiveScore round-up, citing AnfieldWatch: Ngumoha had twenty touches in the opposition box against United on Sunday, with a goal and an assist. The same round-up credits Wirtz with five goals in four games for club and country, a figure it attributes to The Guardian."
+      "detail": "Wednesday's LiveScore round-up, citing AnfieldWatch: Ngumoha had twenty touches in the opposition box against United on Sunday, with a goal and an assist."
     },
     {
       "title": "Musiala Monitored, Gray Linked (LiveScore, today)",
@@ -1375,7 +1375,6 @@ export const NEWS_DIGEST = {
     "LiveScore",
     "AnfieldWatch",
     "CaughtOffside",
-    "The Guardian",
     "Anfield Index"
   ]
 };
@@ -1539,7 +1538,7 @@ export const FORM_TRENDS = {
   "generatedAt": "2026-11-25T08:30:00Z",
   "competition": "PL",
   "played": 11,
-  "headline": "Liverpool's league numbers need no defence this morning: fourth for expected-goal difference at +6.4 in Planet Football's tables, and eighteen goals from about 19.0 expected in eleven games (Opta Analyst and others, see note). Europe is the outlier. ESPN counts fourteen scored and ten conceded in four Champions League games, both Liverpool's most at this stage, the profile of open games rather than controlled ones. Sunday's United performance added the season's sharpest single number, ten open-play chances created by Wirtz, the most in a Premier League match since David Silva in March 2015 (Sports Mole).",
+  "headline": "Liverpool's league numbers need no defence this morning: fourth for expected-goal difference at +6.4 in Planet Football's tables, and eighteen goals from about 19.0 expected in eleven games (a composite of Opta Analyst, FotMob, The Transfer Hub, Sofascore and LiveScore figures, see note). Europe is the outlier. ESPN counts fourteen scored and ten conceded in four Champions League games, both Liverpool's most at this stage, the profile of open games rather than controlled ones. Sunday's United performance added the season's sharpest single number, ten open-play chances created by Wirtz, the most in a Premier League match since David Silva in March 2015 (Sports Mole).",
   "diagnosis": [
     {
       "label": "A home side, finally",
@@ -2083,7 +2082,7 @@ export const SQUAD_LOAD = {
     {
       "position": "Right-back",
       "level": "high",
-      "detail": "High. Frimpong in Sports Mole's XI, a centre-back in others; Bradley back in team training (Sports Mole) but not in the squad (Liverpool FC)."
+      "detail": "High. Frimpong in Sports Mole's XI, Gomez in ESPN's; Bradley back in team training (Sports Mole) but not in the squad (Liverpool FC)."
     },
     {
       "position": "Central midfield",
@@ -2234,7 +2233,7 @@ export const SEASON_PROJECTION = {
       "label": "Champions League (top 4)",
       "points": 68,
       "gap": 0,
-      "note": "Historical par for the last Champions League place in recent seasons. Cleared by five on current pace; Liverpool are fourth tonight with every side on eleven played (ESPN)."
+      "note": "Historical par for the last Champions League place in recent seasons. Cleared by five on current pace; Liverpool are fourth this morning with every side on eleven played (ESPN)."
     },
     {
       "label": "Europa League (5th)",
