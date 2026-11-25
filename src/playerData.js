@@ -1502,7 +1502,7 @@ export const FORM_TRENDS = {
   "generatedAt": "2026-11-25T23:15:00Z",
   "competition": "PL",
   "played": 11,
-  "headline": "Two clean sheets in four days, and for the first time under Iraola back to back (Opta Analyst): Bruges was won 3-0 on 1.97 expected goals to 1.15 (Opta Analyst), the profile of a controlled away night rather than the open games of the first four rounds, in which ESPN counted ten conceded. The league column is unchanged at eleven games, eighteen goals from about 19.0 expected (a composite of named models, see note), fourth for expected-goal difference at +6.4 in Planet Football's tables. Wednesday's cost sits outside these numbers: Munoz went off with a knee injury on forty-two (Liverpool FC).",
+  "headline": "Two clean sheets in four days, and for the first time under Iraola back to back (Opta Analyst): Bruges was won 3-0 on 1.97 expected goals to 1.15 (Opta Analyst), the profile of a controlled away night rather than the open games of the first four rounds, in which ESPN counted ten conceded. Nothing in the Premier League column moves until Sunday: eleven games, eighteen scored and ten conceded, with the per-match expected-goals sources listed in the totals note. Wednesday's cost sits outside these numbers: Munoz went off with a knee injury on forty-two (Liverpool FC).",
   "diagnosis": [
     {
       "label": "Clean sheets, back to back",
@@ -1526,7 +1526,7 @@ export const FORM_TRENDS = {
       "label": "Open games, not yet a closed case",
       "severity": "medium",
       "source": "ESPN / Opta Analyst",
-      "detail": "Ten conceded in the first four Champions League games (ESPN), nineteen shots allowed at Palace in the last eleven-a-side league game (ESPN), then none in Bruges from seventeen attempts as Opta Analyst's figures read. One controlled night against a side that had scored 2.75 a game in Europe this year (Opta Analyst) is a start, not a trend."
+      "detail": "Ten conceded in the first four Champions League games (ESPN), nineteen shots allowed at Palace in the last eleven-a-side league game (ESPN), then none in Bruges against 1.15 expected goals (Opta Analyst). One controlled night against a side that had scored 2.75 a game in Europe this year (Opta Analyst) is a start, not a trend."
     },
     {
       "label": "The wings keep losing players",
@@ -2210,7 +2210,7 @@ export const SEASON_PROJECTION = {
   "pointsPerGame": 1.91,
   "projectedPoints": 73,
   "projectedFinish": "Above Champions League par on current pace, and fourth in the table tonight",
-  "headline": "Twenty-one points from eleven, 1.91 a game, a pace worth seventy-three (ESPN), and nothing in Bruges touches it. The pace sits above the historical par for fourth on a sample still too small to be a forecast. Sunday's derby is the next entry in this column, the first league game since the United win.",
+  "headline": "A European win leaves this column where Sunday left it: seventy-three on current pace, from twenty-one points in eleven league games (ESPN). That clears the usual mark for fourth, though eleven games is a thin base for any projection. The derby at Everton is the next entry, and the first league fixture since United.",
   "thresholds": [
     {
       "label": "Champions League (top 4)",

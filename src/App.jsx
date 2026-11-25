@@ -720,8 +720,8 @@ function FormBlock({ results }) {
         color: T.ivoryDim, lineHeight: 1.6,
         borderTop: `1px solid ${T.rule}`, paddingTop: 14,
       }}>
-        Manchester United 4-0 at Anfield on Sunday, after Yoro's eighth-minute red card,
-        and 3-1 at Selhurst Park before the break (ESPN; Opta Analyst).
+        Club Brugge 3-0 in Bruges on Wednesday, Isak twice and Wirtz, a second clean sheet
+        in four days after Manchester United 4-0 at Anfield on Sunday (ESPN; Opta Analyst).
         Three wins and two defeats across the last five in all competitions.
       </p>
     </div>
@@ -3996,7 +3996,7 @@ export default function LiverpoolTracker() {
           <section style={{ animation: `pageTurn .55s ${T.ease} both`, padding: "72px 0", borderBottom: `1px solid ${T.rule}` }}>
             <SectionHead
               title="Lineup"
-              meta={<>Predicted XI<br />Club Brugge · 25 November</>}
+              meta={<>Predicted XI<br />Everton · 29 November</>}
             />
             <LineupView players={PLAYERS} nextMatch={NEXT_MATCH} />
           </section>
