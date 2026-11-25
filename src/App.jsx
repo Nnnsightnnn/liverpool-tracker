@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Tuesday night, the eve of Bruges, and the story is who stayed behind. Gravenberch's heel kept him off the plane and
-          Gakpo's calf did the same, so Mac Allister, Szoboszlai and Nyoni are the midfield for tomorrow. Liverpool are fourth on
-          twenty-one, a point off second; Brugge, level with them on nine points in Europe, kick off at eight.
+          Wednesday, matchday in Bruges, eighth against ninth on nine points each, and the first meeting of these clubs since
+          Wembley in 1978. Kick-off is at eight tonight. Iraola goes in knowing Gakpo will miss Sunday's derby as well, and
+          that Gravenberch's heel, in his words, is not in a good place. Liverpool are fourth in the league on twenty-one.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              and the squad list said more than the press conference did. Twenty-two flew from John Lennon Airport before lunch,
-              and Ryan Gravenberch was not among them, left behind, RotoWire reports, for persistent discomfort in the heel; Cody
-              Gakpo stayed too (Liverpool FC). In Bruges, Florian Wirtz sat beside Iraola and called this the best form of his time
-              at the club, his coach bringing him back to the player of two years ago. Across town Ivan Leko gave his side two wins
-              in ten (Walfoot). Iraola, for his part, found nothing boring about Brugge. The midfield is three men deep now, and
-              one of them is a teenager.
+              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
+              and the league phase arrives at its hinge in a small Flemish city. Liverpool and Club Brugge stand level on nine
+              points and on goal difference, separated only by goals scored (Football Faithful), and a win takes either to twelve
+              with three to play (Dave.sport). The weekend has already intruded. Cody Gakpo's calf will keep him out of Sunday's
+              derby too, Iraola said, and of Ryan Gravenberch he offered only that he is having pain and it is difficult to solve
+              (GOAL via Yahoo Sports). The previews cannot agree on the nine, Koumas or Isak. ESPN's history says Brugge have lost
+              nine of ten to English sides; its other number says Liverpool have never conceded more at this stage. Both cannot
+              hold tonight.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: the midfielder who stayed behind; nothing boring about
-              Brugge; two years back, and forward; two in ten, and one good punch; and the paperwork behind the plane. Brugge
-              kick off at eight on Wednesday.
+              five dispatches from the writers who never clock off: eighth and ninth, forty-eight years on; a week without two
+              Dutchmen; Koumas or Isak, and who rests; ten chances and a long shadow; and the January list grows longer. Brugge
+              kick off at eight tonight.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        Twenty-two on the plane, three in midfield.
+        Nine points each, and one night.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

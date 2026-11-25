@@ -3,7 +3,7 @@
   "generatedAt": "2026-10-01T12:00:00Z",
   "status": "OPEN",
   "tracker": "liverpool",
-  "leadStory": "Tuesday 24 November, evening: Gravenberch and Gakpo left out of Liverpool's 22-man squad for Club Brugge (Liverpool FC; RotoWire); Wirtz says he is in his best form since arriving (Liverpool FC).",
+  "leadStory": "Wednesday 25 November, morning: matchday in Bruges, Liverpool and Club Brugge level on nine points in the league phase (The Football Faithful; Dave.sport); Iraola rules Gakpo out of Sunday's derby too (All Out Soccer via Yahoo Sports).",
   "action": "generate",
   "note": "Kenny asked for a better cover than the hand-drawn SVG plates. Generate ONE image per the prompt, save it at `output`, then set COVER_IMAGE.src to it, credit 'Illustration · Antigravity', a fresh generatedAt, and set this file's status to CLOSED. Evergreen on purpose: it should still be right after the City result.",
   "currentPlate": "/assets/cover/2026-10-01-anfield-after-dark.svg",
