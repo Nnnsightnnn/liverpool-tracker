@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday, matchday in Bruges, eighth against ninth on nine points each, and the first meeting of these clubs since
-          Wembley in 1978. Kick-off is at eight tonight. Iraola goes in knowing Gakpo will miss Sunday's derby as well, and
-          that Gravenberch's heel, in his words, is not in a good place. Liverpool are fourth in the league on twenty-one.
+          Wednesday night, and the answer came from Isak. Two goals in Bruges with Wirtz's between them, a 3-0 win and a
+          first Champions League clean sheet of the season, and Liverpool go fifth in the league phase on twelve. The price
+          was Munoz's knee, to be assessed on Thursday. Everton, without their captain, are next, at noon on Sunday.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,23 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Wednesday</span>,{" "}
-              and the league phase arrives at its hinge in a small Flemish city. Liverpool and Club Brugge stand level on nine
-              points and on goal difference, separated only by goals scored (Football Faithful), and a win takes either to twelve
-              with three to play (Dave.sport). The weekend has already intruded. Cody Gakpo's calf will keep him out of Sunday's
-              derby too, Iraola said, and of Ryan Gravenberch he offered only that he is having pain and it is difficult to solve
-              (GOAL via Yahoo Sports). The previews cannot agree on the nine, Koumas or Isak. ESPN's history says Brugge have lost
-              nine of ten to English sides; its other number says Liverpool have never conceded more at this stage. Tonight decides
-              which one travels home.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              Bruges kept its history and Liverpool kept their goal. Isak scored inside thirteen minutes, Wirtz and Isak again in
+              the last quarter of an hour, and the Jan Breydel emptied on a 3-0 win, twelve points and fifth place in the league
+              phase (ESPN; Opta Analyst). It was, Opta Analyst notes, the first time Iraola's side have kept clean sheets in
+              consecutive games. Szoboszlai wore the armband; Van Dijk watched from the bench, saved for Sunday. The cost came
+              three minutes before half-time, when Munoz left holding his knee and, in Iraola's words, in a lot of pain. Everton
+              wait at noon on Sunday without Tarkowski. The derby will ask who is left on the wings.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: eighth and ninth, forty-eight years on; a week without two
-              Dutchmen; Koumas or Isak, and who rests; ten chances and a long shadow; and the January list grows longer. Brugge
-              kick off at eight tonight.
+              five dispatches from the writers who never clock off: Isak twice, and nothing behind; the worst part of the game;
+              an armband, and a rested captain; fifth, with three to play; and Everton, without their captain. The derby kicks off
+              at noon on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3831,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        Nine points each, and one night.
+        Two clean sheets, and a limp.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
