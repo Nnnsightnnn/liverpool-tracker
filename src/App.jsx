@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday morning, and the derby waits on a knee. Victor Munoz is assessed today, with nothing published beyond
-          Iraola's very early to tell. Liverpool are fourth on twenty-one, three clear of Bournemouth, the clean sheet in
-          Bruges a day old. Everton, without Tarkowski, are three days away, at noon on Sunday.
+          Thursday night, and the knee sounds better than it did. The pain has subsided, Sports Mole reports, though
+          Victor Munoz remains a major doubt and Iraola speaks at half past one tomorrow. Liverpool are fourth on
+          twenty-one, the only side unbeaten away from home. Everton, reshuffled and without Tarkowski, wait on Sunday at noon.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,23 +605,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
-              and the first word belongs to the medical staff. Munoz's knee, hurt three minutes before half-time in Bruges, is
-              assessed today, and nothing has been published since Iraola said it was very early to tell (Read Liverpool).
-              Whatever the answer, the right flank may already have its tenant: Ngumoha moved across on Wednesday, found Wirtz,
-              and The False 9 has him starting at Everton regardless. The longer view is kinder. Bradley is back in full
-              training, Leoni is in and out of the group, and the Echo circles 16 December for both. Everton, for their part,
-              have failed to score in three of their last six (Read Everton). Sunday asks whether a squad that is mending
-              slowly can still win quickly.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the news from Kirkby is a shade softer, and still not an answer. Sports Mole's afternoon list says the pain in
+              Munoz's knee has subsided; it also calls him a major doubt, and Liverpool have published no scan. Friday at half
+              past one, Iraola will be asked about him, about Gravenberch, now listed as a doubt rather than a lost cause, and
+              about a bench that has Chiesa as its only senior winger. Across the park, Everton are expected to change three
+              things, Grealish and Dibling recalled, O'Brien moved inside (Goodison News). Michael Ball, who knows the fixture,
+              says the man he fears is an eighteen-year-old on the right. Liverpool go there as the only team in the league
+              still unbeaten on the road, which is a record, and also a thing to lose.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: a knee, on the morning after; Ngumoha moves across; three
-              comebacks, one calendar; January, from both ends of the park; and Everton, by the numbers. The derby kicks off at
-              noon on Sunday.
+              five dispatches from the writers who never clock off: the pain subsides, the doubt remains; Friday, half past one;
+              Moyes reaches for Grealish; the last unbeaten travellers; and twelve points, with the top eight in view. The derby
+              kicks off at noon on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3831,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        A knee, a flank, three days.
+        Better, not yet fit.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
