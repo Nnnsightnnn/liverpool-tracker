@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Wednesday night, and the answer came from Isak. Two goals in Bruges with Wirtz's between them, a 3-0 win and a
-          first Champions League clean sheet of the season, and Liverpool go fifth in the league phase on twelve. The price
-          was Munoz's knee, to be assessed on Thursday. Everton, without their captain, are next, at noon on Sunday.
+          Thursday morning, and the derby waits on a knee. Victor Munoz is assessed today, with nothing published beyond
+          Iraola's very early to tell. Liverpool are fourth on twenty-one, three clear of Bournemouth, the clean sheet in
+          Bruges a day old. Everton, without Tarkowski, are three days away, at noon on Sunday.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,22 +605,23 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              Bruges kept its history and Liverpool kept their goal. Isak scored inside thirteen minutes, Wirtz and Isak again in
-              the last quarter of an hour, and the Jan Breydel emptied on a 3-0 win, twelve points and fifth place in the league
-              phase (ESPN; Opta Analyst). It was, Opta Analyst notes, the first time Iraola's side have kept clean sheets in
-              consecutive games. Szoboszlai wore the armband; Van Dijk watched from the bench, saved for Sunday. The cost came
-              three minutes before half-time, when Munoz left holding his knee and, in Iraola's words, in a lot of pain. Everton
-              wait at noon on Sunday without Tarkowski. The derby will ask who is left on the wings.
+              <span style={{ fontStyle: "italic", color: T.red }}>Thursday</span>,{" "}
+              and the first word belongs to the medical staff. Munoz's knee, hurt three minutes before half-time in Bruges, is
+              assessed today, and nothing has been published since Iraola said it was very early to tell (Read Liverpool).
+              Whatever the answer, the right flank may already have its tenant: Ngumoha moved across on Wednesday, found Wirtz,
+              and The False 9 has him starting at Everton regardless. The longer view is kinder. Bradley is back in full
+              training, Leoni is in and out of the group, and the Echo circles 16 December for both. Everton, for their part,
+              have failed to score in three of their last six (Read Everton). Sunday asks whether a squad that is mending
+              slowly can still win quickly.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: Isak twice, and nothing behind; the worst part of the game;
-              an armband, and a rested captain; fifth, with three to play; and Everton, without their captain. The derby kicks off
-              at noon on Sunday.
+              five dispatches from the writers who never clock off: a knee, on the morning after; Ngumoha moves across; three
+              comebacks, one calendar; January, from both ends of the park; and Everton, by the numbers. The derby kicks off at
+              noon on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3830,7 +3831,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        Two clean sheets, and a limp.
+        A knee, a flank, three days.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

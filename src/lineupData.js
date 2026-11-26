@@ -62,6 +62,8 @@ export const FORMATIONS = {
     //   (Sports Mole; The Football Faithful). Szoboszlai and Isak held, as in ESPN's XI; Sports Mole and The Football Faithful prefer Nyoni and Koumas.
     // Wed 25 Nov (evening): Club Brugge played, Liverpool won 3-0 (ESPN). Re-pointed at EVERTON AWAY (PL, Sun 29 Nov, 12pm GMT) on Read Everton's
     //   derby XI (24 Nov): Kerkez, Van Dijk, Mac Allister and Ngumoha in; Munoz (knee, assessed Thursday) and Gakpo (soleus) out.
+    // Thu 26 Nov (morning): flanks swapped in all three shapes, Barcola left and Ngumoha right, as Read Everton lists them and as Ngumoha played
+    //   after Munoz went off in Bruges (Read Liverpool); The False 9 expects Ngumoha to start whatever Munoz's assessment shows. No personnel change.
     defaultXI: {
       GK: 1,  // Alisson (clean sheet in Bruges)
       LB: 7, // Kerkez (started in Bruges; Read Everton's derby XI)
@@ -71,9 +73,9 @@ export const FORMATIONS = {
       LCM: 13, // Mac Allister (rested in Bruges)
       CM: 15, // Szoboszlai (captain in Bruges)
       RCM: 18, // Wirtz (scored v Brugge)
-      LW: 25, // Ngumoha (assist v Brugge off the bench)
+      LW: 30, // Barcola (left in Read Everton's derby XI)
       ST: 23, // Isak (two v Brugge)
-      RW: 30, // Barcola (Munoz knee, Gakpo soleus)
+      RW: 25, // Ngumoha (moved to the right in Bruges; Munoz knee, Gakpo soleus)
     },
 
   },
@@ -118,6 +120,7 @@ export const FORMATIONS = {
     // Sun 8 Nov (evening): re-pointed at Manchester United at home after Crystal Palace 1-3 Liverpool; the eleven that started at Selhurst (ESPN).
     // Sun 22 Nov (evening): re-pointed at Club Brugge away (UCL, Wed 25 Nov) after Liverpool 4-0 United; the eleven that started (Liverpool FC).
     // Wed 25 Nov (evening): re-pointed at Everton away (PL, Sun 29 Nov, 12pm GMT) after Club Brugge 0-3 Liverpool, on Read Everton's derby XI.
+    // Thu 26 Nov (morning): Barcola LAM and Ngumoha RAM, the flanks Read Everton gives them; Munoz's knee assessed today, no verdict published.
     defaultXI: {
       GK: 1,  // Alisson (clean sheet in Bruges)
       LB: 7, // Kerkez (started in Bruges; Read Everton's derby XI)
@@ -126,9 +129,9 @@ export const FORMATIONS = {
       RB: 9, // Frimpong (started in Bruges; Read Everton)
       LDM: 15, // Szoboszlai (captain in Bruges); Nyoni the alternative, Gravenberch out (heel)
       RDM: 13, // Mac Allister (rested in Bruges)
-      LAM: 25, // Ngumoha (set up Wirtz v Brugge)
+      LAM: 30, // Barcola (left in Read Everton's derby XI)
       CAM: 18, // Wirtz (scored v Brugge, third game running)
-      RAM: 30, // Barcola (Munoz knee, assessed Thursday; Gakpo out)
+      RAM: 25, // Ngumoha (on the right in Bruges; The False 9 tips him to start)
       ST: 23, // Isak (two v Brugge; Koumas the alternative)
     },
 
@@ -160,6 +163,7 @@ export const FORMATIONS = {
     // Sun 8 Nov (evening): re-pointed at Manchester United at home; unchanged, Gomez inside, Araujo at wing-back.
     // Sun 22 Nov (evening): re-pointed at Club Brugge away; Ngumoha left, Barcola right for the injured Gakpo.
     // Wed 25 Nov (evening): re-pointed at Everton away; Araujo at RCB as in Bruges, Kerkez at LWB, Munoz (knee) out.
+    // Thu 26 Nov (morning): Barcola left, Ngumoha right, matching the back-four shapes.
     defaultXI: {
       GK: 1,  // Alisson (clean sheet in Bruges)
       LCB: 3, // Van Dijk
@@ -169,9 +173,9 @@ export const FORMATIONS = {
       LCM: 13, // Mac Allister
       RCM: 15, // Szoboszlai
       RWB: 9, // Frimpong
-      LW: 25, // Ngumoha
+      LW: 30, // Barcola
       ST: 23, // Isak
-      RW: 30, // Barcola (Munoz and Gakpo out)
+      RW: 25, // Ngumoha (Munoz assessed, Gakpo out)
     },
 
   },
@@ -224,34 +228,35 @@ export const FORMATIONS = {
 // Mon Nov 23 (evening): all 27 refreshed for UEFA.com's matchday-five XIs, ESPN's and Khel Now's previews, Carragher on Wirtz and Tarkowski's derby ban.
 // Tue Nov 24 (morning): all 27 refreshed for the Alisson talks (Sports Mole), Tuesday's Brugge XIs (RotoWire; Evening Standard; Racing Post) and Carragher via Anfield Index.
 // Wed Nov 25 (evening): all 27 refreshed after Club Brugge 0-3 Liverpool (ESPN; Opta Analyst; Liverpool FC; Read Liverpool); re-pointed at Everton, PL, Sun 29 Nov.
+// Thu Nov 26 (morning): all 27 refreshed for Munoz's assessment day (Read Everton), the Echo's return dates (via Yahoo Sports) and The False 9's Ngumoha call.
 export const PLAYER_EVIDENCE = {
-  1:  "Clean sheet in Bruges",
-  2:  "Bench in Bruges · No. 2",
-  3:  "Rested in Bruges · derby starter",
-  5:  "Bench in Bruges · CB/RB cover",
-  7:  "Started in Bruges · clean sheet",
-  8:  "Knee · Sunderland earliest",
-  9:  "Started at RB in Bruges",
-  10: "Knee · new year unlikely",
-  11: "Clean sheet in Bruges",
-  12: "On loan at Levante",
-  13: "Rested in Bruges · derby return",
-  14: "Heel · no return date",
-  15: "Captain in Bruges · set up Isak",
-  17: "Off UCL list · derby option",
-  18: "Scored v Brugge · third in a row",
-  20: "Started in Bruges",
-  22: "Soleus · out of the derby",
-  23: "Two goals v Brugge",
-  24: "Achilles · out for 2026",
-  25: "Assist off the bench v Brugge",
-  26: "UCL-ineligible · derby option",
-  27: "Third GK",
-  28: "Knee · assessed Thursday",
-  29: "Started at CB in Bruges",
-  30: "Started in Bruges",
-  31: "Bench in Bruges · backup nine",
-  32: "Bench in Bruges · LB cover",
+  1:  "Assist and five saves in Bruges",
+  2:  "Unused in Bruges · No. 2",
+  3:  "Fresh for the derby · LCB",
+  5:  "Unused in Bruges · senior cover",
+  7:  "Derby LB in Read Everton's XI",
+  8:  "Full training · 16 Dec target",
+  9:  "Derby RB in Read Everton's XI",
+  10: "On and off the group · 16 Dec",
+  11: "Partners Van Dijk on Sunday",
+  12: "Five apps on loan at Levante",
+  13: "Back in midfield for the derby",
+  14: "Heel · 'not in a good place'",
+  15: "Pivot beside Mac Allister",
+  17: "Domestic midfield option",
+  18: "Three in a row · derby ten",
+  20: "Started in Bruges · bench next",
+  22: "Soleus · back 2 Dec (FPL)",
+  23: "Seven league goals · 4 of 5 away",
+  24: "Achilles · plan is January",
+  25: "Moved right in Bruges · assist",
+  26: "Derby bench option",
+  27: "Third GK · unused",
+  28: "Knee · assessed today",
+  29: "Bench for the derby (Read Everton)",
+  30: "Left flank in Read Everton XI",
+  31: "Isak's understudy",
+  32: "LB cover · unused in Bruges",
 };
 // Default formation when entering the view: the 4-2-3-1 Iraola has used in every league game,
 // now pointed at Manchester City at home on Sunday 11 October, 4.30pm at Anfield. This is no
@@ -452,6 +457,8 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 //   Nyoni, Munoz) and Sports Mole tips Nyoni and Koumas (LiveScore). LB stays Medium. Overall Medium; Iraola's presser is at 4.15pm GMT.
 // Tue Nov 24 (evening): no personnel change. The 22-man travelling squad (Liverpool FC) omits Gravenberch (heel, 'persistent discomfort', RotoWire)
 //   and Gakpo; Gravenberch dropped from the LDM alternatives. Iraola's presser named no XI. All levels unchanged, overall Medium.
+// Thu Nov 26 (morning): no personnel change; Barcola and Ngumoha swap flanks (LAM/RAM) to match Read Everton's derby XI and Ngumoha's move to the right in Bruges
+//   (Read Liverpool). Munoz assessed today, no verdict. RAM stays Medium, LAM stays Medium. Overall Medium.
 // ─── Per-slot confidence levels ─────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by the 4-2-3-1
 // slot keys. These read as confidence that the slot's occupant STARTS AGAINST EVERTON AWAY (PL, Sun 29 Nov, 12pm GMT; re-pointed Wed Nov 25 evening after Club Brugge 0-3 Liverpool. Previously Club Brugge away, UCL, Wed 25 Nov; re-pointed Sun Nov 22 evening after Liverpool 4-0 Manchester United. Previously Manchester United at home, PL, Sun 22 Nov; re-pointed Sun Nov 8 evening after Crystal Palace 1-3 Liverpool: RB High to Medium with Frimpong possibly back, CAM Medium to High, LDM stays Low on Szoboszlai's knee. Previously Crystal Palace away, PL, Sun 8 Nov; reviewed Sun Nov 8 morning, no level change, previews split two-two at LDM; reviewed Sat Nov 7 evening, LDM Medium to Low. Previously Fenerbahçe away, UCL, Wed 4 Nov; re-pointed Sun Nov 1 evening after Liverpool 0-1 Arsenal: baseline is the Anfield XI, rotation for Palace on Sunday expected, so GK, LB, RCB, RB, LAM Medium and LDM, RAM Low. Previously Arsenal at home, PL, Sun 1 Nov; re-pointed Wed Oct 28 evening after Liverpool 1-1 Chelsea, 6-5 pens: GK, LB, RCB, LDM, ST High, the rest Medium. Previously Chelsea at home, Carabao Cup, Wed 28 Oct; re-pointed Sun Oct 25 evening after Liverpool 2-0 Brighton: CAM and LAM Low, GK, LB, ST Medium for cup rotation. Previously Brighton at home, PL, Sun 25 Oct; reviewed Sun Oct 25 morning, no level change; reviewed Sat Oct 24 morning, no level change; reviewed Thu Oct 22 evening, no level change; reviewed Thu Oct 22 morning, no level change; reviewed Wed Oct 21 evening, no level change; reviewed Wed Oct 21 morning, no level change; re-pointed Tue Oct 20 evening after Liverpool 4-3 Villarreal. Previously Villarreal at home (UCL, Tue 20 Oct; re-pointed Sat Oct 17 evening after Brentford 1-2 Liverpool: LDM Gravenberch High, CAM Wirtz High, RCB High, ST Isak Medium, RAM Medium. Previously Brentford away; Sat Oct 17 morning: CAM High to Medium, three Echo writers pick Szoboszlai there; RAM Medium to Low, all four Echo writers pick Ngumoha; re-pointed Wed 14 Oct evening after LASK 3-6 Liverpool; previously LASK Linz, and before that Manchester City at
@@ -482,16 +489,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Wed Nov 25, evening - Kerkez, who started and kept a clean sheet in Bruges (Read Liverpool) and is in Read Everton's derby XI; Tsimikas the cover. Medium.",
-  LCB: "Wed Nov 25, evening - Van Dijk, rested in Bruges with Sunday in mind (Liverpool FC). High.",
-  RCB: "Wed Nov 25, evening - Jacquet, a clean sheet beside Araujo in Bruges (Read Liverpool); Araujo the alternative. Medium.",
-  RB: "Wed Nov 25, evening - Frimpong, who started in Bruges and is in Read Everton's XI; Araujo played there against United. Medium.",
-  LDM: "Wed Nov 25, evening - Szoboszlai, captain in Bruges (Read Liverpool); Nyoni the alternative after starting there. Medium.",
-  RDM: "Wed Nov 25, evening - Mac Allister, rested in Bruges and back for the derby in Read Everton's XI. High.",
-  LAM: "Wed Nov 25, evening - Ngumoha, who set up Wirtz off the bench in Bruges (Opta Analyst). Medium.",
-  CAM: "Wed Nov 25, evening - Wirtz, scoring for a third game running (Opta Analyst). High.",
-  RAM: "Wed Nov 25, evening - Barcola; with Munoz's knee being assessed and Gakpo out, Chiesa is the domestic alternative. Medium.",
-  ST: "Wed Nov 25, evening - Isak, two goals in Bruges and ten for the season (ESPN). High.",
+  LB: "Thu Nov 26, morning - Kerkez, in Read Everton's derby XI after a clean sheet in Bruges; Tsimikas the cover. Medium.",
+  LCB: "Thu Nov 26, morning - Van Dijk, fresh after a night on the bench in Bruges and paired with Jacquet by Read Everton. High.",
+  RCB: "Thu Nov 26, morning - Jacquet, beside Van Dijk in Read Everton's XI; Araujo, who started there in Bruges, the alternative. Medium.",
+  RB: "Thu Nov 26, morning - Frimpong, Read Everton's right-back; Araujo and Gomez the cover, Bradley not before 16 December (Liverpool Echo via Yahoo Sports). Medium.",
+  LDM: "Thu Nov 26, morning - Szoboszlai, beside Mac Allister in Read Everton's XI; Nyoni the alternative. Medium.",
+  RDM: "Thu Nov 26, morning - Mac Allister, back after being rested in Bruges (Read Everton). High.",
+  LAM: "Thu Nov 26, morning - Barcola, on the left in Read Everton's derby XI. Medium.",
+  CAM: "Thu Nov 26, morning - Wirtz, goals in three straight appearances (Opta Analyst) and the ten in every derby XI found. High.",
+  RAM: "Thu Nov 26, morning - Ngumoha, who moved to the right in Bruges and set up Wirtz (Read Liverpool); The False 9 expects him to start whatever Munoz's assessment shows. Medium.",
+  ST: "Thu Nov 26, morning - Isak, seven league goals and scorer in four of five league away games (Read Everton). High.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -506,9 +513,9 @@ export const ALTERNATIVES = {
   RB:  [{ playerId: 29, reason: "Araujo · started at RB v United" }, { playerId: 5, reason: "Gomez · cover" }],
   LDM: [{ playerId: 20, reason: "Nyoni · started in Bruges" }],
   RDM: [{ playerId: 20, reason: "Nyoni · midfield cover" }, { playerId: 17, reason: "Endo · domestic option" }],
-  LAM: [{ playerId: 26, reason: "Chiesa · domestic option with Munoz hurt" }],
+  LAM: [{ playerId: 25, reason: "Ngumoha · played left before Bruges" }, { playerId: 26, reason: "Chiesa · domestic option" }],
   CAM: [{ playerId: 20, reason: "Nyoni · if Wirtz is rested" }],
-  RAM: [{ playerId: 26, reason: "Chiesa · Munoz knee, Gakpo out" }],
+  RAM: [{ playerId: 26, reason: "Chiesa · Munoz assessed, Gakpo out" }, { playerId: 28, reason: "Munoz · if the knee is cleared" }],
   ST:  [{ playerId: 31, reason: "Koumas · the other senior nine" }],
 };
 
@@ -517,7 +524,7 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-11-25T23:15:00Z",
-  reason: "Wed Nov 25, evening. Everton away, Premier League, Sunday 12pm GMT. Read Everton's derby XI (24 Nov), which brings back Van Dijk, Mac Allister and Ngumoha after Bruges and keeps Frimpong and Kerkez; Munoz a doubt (knee, assessed Thursday) and left out, Gakpo (soleus) and Gravenberch (heel) out. Eight of these eleven started the 3-0 at Club Brugge (Liverpool FC).",
+  generated_at: "2026-11-26T09:15:00Z",
+  reason: "Thu Nov 26, morning. Everton away, Premier League, Sunday 12pm GMT. Read Everton's derby XI (24 Nov) with Barcola left and Ngumoha right, the side Ngumoha took in Bruges (Read Liverpool); Munoz's knee is assessed today with no verdict published, Gakpo (soleus) and Gravenberch (heel) out. Eight of these eleven started the 3-0 at Club Brugge (Liverpool FC).",
 };
 
