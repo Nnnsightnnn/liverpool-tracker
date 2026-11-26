@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "injured", outSince: "2026-11-03", injuryNote: "Thu Nov 26, evening - Heel: Sports Mole lists him a major doubt rather than out for Sunday; Iraola's word on Tuesday was 'difficult to say' (Yahoo Sports).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "injured", outSince: "2026-11-03", injuryNote: "Thu Nov 26, evening - Heel: Sports Mole lists him a major doubt for Sunday, but with no club date and Iraola's 'difficult to say' (Yahoo Sports) he stays listed out here.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -1264,7 +1264,7 @@ export const STANDINGS_COMMENTARY = {
     "Brighton": "Second on twenty-two, with the best goal difference in the division, plus seventeen.",
     "Manchester City": "Third on twenty-two on goal difference behind Brighton, a point above Liverpool.",
     "Bournemouth": "Fifth on eighteen, three points below the Champions League line.",
-    "Brentford": "Sixth on seventeen, four days after putting four past Everton.",
+    "Brentford": "Sixth on seventeen, three days after putting four past Everton.",
     "Leeds": "Seventh on seventeen; Liverpool's visitors on 12 December.",
     "Chelsea": "Eighth on sixteen; Liverpool go to Stamford Bridge on 5 December.",
     "Everton": "Ninth on sixteen; three changes expected for the derby (Goodison News), Tarkowski suspended.",
@@ -1565,7 +1565,7 @@ export const FORM_TRENDS = {
     {
       "label": "The wings keep losing players",
       "severity": "high",
-      "source": "Read Everton / Last Word On Sports",
+      "source": "Sports Mole / Last Word On Sports",
       "detail": "Munoz is a major doubt, the pain eased but no scan result published (Sports Mole), Gakpo is out of the derby (Iraola, via Last Word On Sports): Barcola, Ngumoha and, domestically, Chiesa are what remains for two places."
     }
   ],
@@ -1854,7 +1854,7 @@ export const FORM_TRENDS = {
     "goalsFor": 18,
     "goalsAgainst": 10,
     "points": 21,
-    "note": "Premier League only, eleven games. xG for is 4.38 (United, Opta Analyst) plus 2.73 (Newcastle) plus 1.61 (Forest) plus 0.53 (Ipswich) plus 1.13 (Fulham) plus 1.57 (Bournemouth) plus 0.86 (City) plus 1.51 (Brentford) plus 0.87 (Brighton) plus 1.15 (Arsenal) plus 2.65 (Palace); xG against is 0.64 plus 1.43 plus 2.30 plus 0.72 plus 0.71 plus 0.76 plus 1.30 plus 0.85 plus 1.35 plus 0.96 plus 2.39. The Palace figures are The Transfer Hub's (2.39 being its 1.60 non-penalty figure plus its 0.79 for the penalty), the Brentford and Brighton figures are FotMob's, reported by SI, the City card's 1.30 is Sofascore's and the Arsenal card is LiveScore's; Opta's own figures replace them when published. Provenance caveat from 21 September stands: Opta's published season expected-goals-against figure through five games was 6.12 rather than the 5.92 those per-match cards summed to. Champions League and Carabao Cup cards are shown but not aggregated. First-half splits exist only for Forest, Tottenham and City and are not aggregated."
+    "note": "Premier League only, eleven games. xG for is 4.38 (United, Opta Analyst) plus 2.73 (Newcastle) plus 1.61 (Forest) plus 0.53 (Ipswich) plus 1.13 (Fulham) plus 1.57 (Bournemouth) plus 0.86 (City) plus 1.51 (Brentford) plus 0.87 (Brighton) plus 1.15 (Arsenal) plus 2.65 (Palace); xG against is 0.64 plus 1.43 plus 2.30 plus 0.72 plus 0.71 plus 0.76 plus 1.30 plus 0.85 plus 1.35 plus 0.96 plus 2.39. The Palace figures are The Transfer Hub's (2.39 being its 1.60 non-penalty figure plus its 0.79 for the penalty), the Brentford and Brighton figures are FotMob's, reported by SI, the City card's 1.30 is Sofascore's and the Arsenal card is LiveScore's; Opta's own figures replace them when published. Provenance caveat from 21 September stands: Opta's published season expected-goals-against figure through five games was 6.12 rather than the 5.92 those per-match cards summed to. Champions League and Carabao Cup cards are shown but not aggregated. First-half splits exist only for Forest and City among the league cards (and for the Tottenham Carabao Cup card) and are not aggregated."
   },
   "optaFacts": [
     "Liverpool are the only side in the Premier League still unbeaten away from home, four wins and a draw (Dave.sport).",
@@ -1988,7 +1988,7 @@ export const SQUAD_LOAD = {
     },
     {
       "name": "Ryan Gravenberch",
-      "issue": "Fracture of the heel (early November)",
+      "issue": "Heel problem (early November)",
       "expected": "No return date from the club; Sports Mole lists him a major doubt for Everton, Iraola says 'With Ryan, it's difficult to say' (Yahoo Sports)",
       "note": "Has not played for nearly a month (Premier League News Now).",
       "source": "Sports Mole / Yahoo Sports / Premier League News Now"
