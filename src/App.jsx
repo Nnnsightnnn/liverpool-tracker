@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday morning, and the first news from the scans is kind. Marca reports no structural ligament damage in
-          Victor Munoz's knee, only a heavy knock, though nobody has confirmed it and Iraola speaks at half past one.
-          Liverpool are fourth on twenty-one. Everton, without Tarkowski, are two days away, at noon on Sunday.
+          Friday evening, and Iraola has said it himself: no disruption in Munoz's knee, only a big knock, and he
+          wants to train tomorrow. Gakpo is definitely out, Gravenberch will be difficult. Liverpool are fourth on
+          twenty-one, and the derby at Everton is a day and a half away, at noon on Sunday.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,21 +605,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
-              and the derby has narrowed to one knee and one afternoon. The overnight reports, Marca's relayed by CaughtOffside,
-              say the tests on Munoz found no ligament damage; they also warn that a bad bruise can keep a winger out of a Sunday
-              as surely as a tear. Iraola will be asked at half past one, and asked about Gravenberch's heel, now described as
-              pain in the fascia. The captain, meanwhile, has been talking about the summer: no formal talks yet, the Mail reports,
-              and Van Dijk says that if no extension comes he will say his goodbyes. Roy Keane expects 2-1, Ian Wright 3-0. Michael Oliver has refereed
-              four league derbies and all four finished level, which is the kind of fact that means nothing until it means everything.
+              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
+              the rumour has become a sentence from the manager. Everything is fine in the knee, Iraola said at Kirkby this
+              afternoon, but it is a big knock; Munoz did not train today and wants to try tomorrow, and nobody, the head coach
+              included, can yet say whether he plays. Gakpo will not, two or three weeks with the muscle he hurt against Germany.
+              Gravenberch is the hard one: Iraola could not say no, only that he must come back without pain. Across the park
+              Moyes chooses between Keane, O'Brien and Maitland-Niles for Tarkowski's place. Opta's supercomputer gives Liverpool
+              42.7 per cent and Everton thirty-two, which is a derby's way of saying it has not decided either.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: a knock, not a tear; the captain and the summer; Araujo on
-              the right again; four derbies, four draws; and Wirtz, through the frame. The derby kicks off at noon on Sunday.
+              five dispatches from the writers who never clock off: everything is fine, but; two or three weeks, and a heel;
+              Keane, O'Brien or Maitland-Niles; two wins in thirty-one; and a letter from the lawyers. The derby kicks off at noon on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3829,7 +3829,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        A knock, not a tear.
+        He wants to try tomorrow.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

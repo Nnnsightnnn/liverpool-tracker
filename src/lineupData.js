@@ -66,6 +66,7 @@ export const FORMATIONS = {
     //   after Munoz went off in Bruges (Read Liverpool); The False 9 expects Ngumoha to start whatever Munoz's assessment shows. No personnel change.
     // Fri 27 Nov (morning): ONE change in the back-four shapes, Araujo for Frimpong at RB, as in RotoWire's and The Stats Zone's derby XIs (both 26 Nov,
     //   newer than Read Everton's); the 3-4-3 already has both. Munoz: no structural ligament damage reported (Marca via CaughtOffside), still held out.
+    // Fri 27 Nov (evening): no personnel change; Opta Analyst, SI and Khel Now name this eleven. Munoz 'a big knock' (Iraola), not trained Friday, held out.
     defaultXI: {
       GK: 1,  // Alisson (clean sheet in Bruges)
       LB: 7, // Kerkez (started in Bruges; Read Everton's derby XI)
@@ -235,31 +236,31 @@ export const FORMATIONS = {
 // Thu Nov 26 (morning): all 27 refreshed for Munoz's assessment day (Read Everton), the Echo's return dates (via Yahoo Sports) and The False 9's Ngumoha call.
 // Fri Nov 27 (morning): all 27 refreshed for Marca's Munoz report (via CaughtOffside), RotoWire's and The Stats Zone's derby XIs and the Van Dijk contract report.
 export const PLAYER_EVIDENCE = {
-  1:  "Derby GK · every XI read",
-  2:  "Bench for the derby",
-  3:  "No contract talks yet (Mail)",
-  5:  "CB cover · not in derby XIs",
-  7:  "Derby LB · both Thursday XIs",
-  8:  "Knee · SM: 2 Jan possible",
-  9:  "Bruges RB · now the alternative",
-  10: "Knee · SM: 2 Jan earliest",
-  11: "Derby RCB · 'stability' (AW)",
+  1:  "Derby GK · all three Friday XIs",
+  2:  "Bench again for the derby",
+  3:  "One loss in 15 at Everton (Opta)",
+  5:  "Only senior CB on the bench",
+  7:  "Derby LB · Opta, SI, Khel Now",
+  8:  "Knee · training, not competitive",
+  9:  "RB alternative to Araujo",
+  10: "Knee · training, not ready (SI)",
+  11: "Beside Van Dijk · every XI",
   12: "Levante loan",
-  13: "Derby pivot · RotoWire XI",
-  14: "Heel · fascia pain, likely out",
-  15: "Derby pivot · every XI read",
-  17: "Domestic midfield depth",
-  18: "Last four goals via the frame",
-  20: "92% passing in Bruges",
-  22: "Soleus · Sunderland return",
-  23: "Lone nine · double figures",
-  24: "Achilles · SM: 2 Jan possible",
-  25: "Derby RW · both Thursday XIs",
-  26: "January exit 'realistic' (Mail)",
+  13: "Back in the pivot · Friday XIs",
+  14: "Heel · 'going to be difficult'",
+  15: "13 set-piece chances (Opta)",
+  17: "Midfield depth, Gravenberch out",
+  18: "29 open-play chances (Opta)",
+  20: "Bench · pivot alternative",
+  22: "Muscle · out 2-3 weeks (Iraola)",
+  23: "Lone nine · all Friday XIs",
+  24: "Achilles · out (SI)",
+  25: "Derby RW · Opta, SI, Khel Now",
+  26: "Senior wide cover on the bench",
   27: "Third goalkeeper",
-  28: "Knee · no ligament damage (rpt)",
-  29: "Derby RB in RotoWire, Stats Zone",
-  30: "Derby LW · both Thursday XIs",
+  28: "Knee · 'big knock', trying Sat",
+  29: "Derby RB · three Friday XIs",
+  30: "Derby LW · three Friday XIs",
   31: "Back-up nine",
   32: "LB cover behind Kerkez",
 };
@@ -468,6 +469,8 @@ export const DEFAULT_FORMATION = "4-2-3-1";
 //   Everton changes (Hackney, Grealish, Dibling). Levels unchanged. All 27 evidence strings and ten rationales refreshed. Overall Medium until Friday's 1.30pm presser.
 // Fri Nov 27 (morning): ONE personnel change in the back-four shapes, Araujo for Frimpong at RB, following RotoWire's and The Stats Zone's derby XIs (26 Nov);
 //   RB Medium to Low, Frimpong the alternative. Munoz reportedly clear of ligament damage (Marca via CaughtOffside), held out until Iraola's 1.30pm presser. Overall Medium.
+// Fri Nov 27 (evening): no personnel change. Opta Analyst, SI and Khel Now all name this eleven; RB Low to Medium. Iraola: Gakpo out, Gravenberch 'difficult',
+//   Munoz 'a big knock', trying to train Saturday (Liverpool FC), so Ngumoha held at RAM. Overall Medium.
 // ─── Per-slot confidence levels ─────────────────────────────
 // Populated by the lineup predictor; hand-set initially. Keyed by the 4-2-3-1
 // slot keys. These read as confidence that the slot's occupant STARTS AGAINST EVERTON AWAY (PL, Sun 29 Nov, 12pm GMT; re-pointed Wed Nov 25 evening after Club Brugge 0-3 Liverpool. Previously Club Brugge away, UCL, Wed 25 Nov; re-pointed Sun Nov 22 evening after Liverpool 4-0 Manchester United. Previously Manchester United at home, PL, Sun 22 Nov; re-pointed Sun Nov 8 evening after Crystal Palace 1-3 Liverpool: RB High to Medium with Frimpong possibly back, CAM Medium to High, LDM stays Low on Szoboszlai's knee. Previously Crystal Palace away, PL, Sun 8 Nov; reviewed Sun Nov 8 morning, no level change, previews split two-two at LDM; reviewed Sat Nov 7 evening, LDM Medium to Low. Previously Fenerbahçe away, UCL, Wed 4 Nov; re-pointed Sun Nov 1 evening after Liverpool 0-1 Arsenal: baseline is the Anfield XI, rotation for Palace on Sunday expected, so GK, LB, RCB, RB, LAM Medium and LDM, RAM Low. Previously Arsenal at home, PL, Sun 1 Nov; re-pointed Wed Oct 28 evening after Liverpool 1-1 Chelsea, 6-5 pens: GK, LB, RCB, LDM, ST High, the rest Medium. Previously Chelsea at home, Carabao Cup, Wed 28 Oct; re-pointed Sun Oct 25 evening after Liverpool 2-0 Brighton: CAM and LAM Low, GK, LB, ST Medium for cup rotation. Previously Brighton at home, PL, Sun 25 Oct; reviewed Sun Oct 25 morning, no level change; reviewed Sat Oct 24 morning, no level change; reviewed Thu Oct 22 evening, no level change; reviewed Thu Oct 22 morning, no level change; reviewed Wed Oct 21 evening, no level change; reviewed Wed Oct 21 morning, no level change; re-pointed Tue Oct 20 evening after Liverpool 4-3 Villarreal. Previously Villarreal at home (UCL, Tue 20 Oct; re-pointed Sat Oct 17 evening after Brentford 1-2 Liverpool: LDM Gravenberch High, CAM Wirtz High, RCB High, ST Isak Medium, RAM Medium. Previously Brentford away; Sat Oct 17 morning: CAM High to Medium, three Echo writers pick Szoboszlai there; RAM Medium to Low, all four Echo writers pick Ngumoha; re-pointed Wed 14 Oct evening after LASK 3-6 Liverpool; previously LASK Linz, and before that Manchester City at
@@ -483,7 +486,7 @@ export const SLOT_CONFIDENCE = {
   LB: "Medium",
   LCB: "High",
   RCB: "Medium",
-  RB: "Low",
+  RB: "Medium",
   LDM: "Medium",
   RDM: "High",
   LAM: "Medium",
@@ -498,16 +501,16 @@ export const SLOT_CONFIDENCE = {
 // Originally set Wed Sep 23 (evening) against the confirmed XI and player ratings from Bournemouth 0-1 Liverpool. The next
 // fixture, Manchester City at Anfield on Sunday 11 October at 4.30pm, is the target.
 export const SLOT_RATIONALE = {
-  LB: "Fri Nov 27, morning - Kerkez, left-back in RotoWire's and The Stats Zone's derby XIs; Tsimikas the cover. Medium.",
-  LCB: "Fri Nov 27, morning - Van Dijk, in every derby XI read, with his contract still unopened (Daily Mail via Anfield Index). High.",
-  RCB: "Fri Nov 27, morning - Jacquet, whose form is 'giving stability at the back' (AnfieldWatch via LiveScore). Medium.",
-  RB: "Fri Nov 27, morning - Araujo, the right-back in both Thursday XIs (RotoWire; The Stats Zone); Frimpong, who started in Bruges and is in Read Everton's XI, the alternative. Low.",
-  LDM: "Fri Nov 27, morning - Szoboszlai, beside Mac Allister in every XI read; Nyoni the alternative, Gravenberch's fascia pain (Sports News Blitz) keeps him out. Medium.",
-  RDM: "Fri Nov 27, morning - Mac Allister, named in the pivot by RotoWire and The Stats Zone. High.",
-  LAM: "Fri Nov 27, morning - Barcola, on the left in both Thursday derby XIs. Medium.",
-  CAM: "Fri Nov 27, morning - Wirtz, whose last four goals all went in via the frame (Liverpool Echo via Yahoo Sports). High.",
-  RAM: "Fri Nov 27, morning - Ngumoha, on the right in both Thursday XIs; Munoz reportedly free of ligament damage (Marca via CaughtOffside) but still a doubt. Medium.",
-  ST: "Fri Nov 27, morning - Isak, the lone nine in every derby XI read. High.",
+  LB: "Fri Nov 27, evening - Kerkez, left-back in Opta Analyst's, SI's and Khel Now's Friday XIs; Tsimikas the cover. Medium.",
+  LCB: "Fri Nov 27, evening - Van Dijk; Liverpool have lost once in their last fifteen league visits to Everton (Opta Analyst). High.",
+  RCB: "Fri Nov 27, evening - Jacquet, beside Van Dijk in every Friday XI, with Barry, ten goals this season (Opta Analyst), to manage. Medium.",
+  RB: "Fri Nov 27, evening - Araujo, the right-back in all three Friday XIs (Opta Analyst; SI; Khel Now); Frimpong the alternative. Raised Low to Medium.",
+  LDM: "Fri Nov 27, evening - Szoboszlai, thirteen set-piece chances created, a league high (Opta Analyst); Nyoni the alternative with Gravenberch likely unavailable (Liverpool FC). Medium.",
+  RDM: "Fri Nov 27, evening - Mac Allister, back in the pivot in every Friday XI. High.",
+  LAM: "Fri Nov 27, evening - Barcola, on the left in all three Friday XIs, likely facing O'Brien or Röhl. Medium.",
+  CAM: "Fri Nov 27, evening - Wirtz, twenty-nine open-play chances, a league high (Opta Analyst). High.",
+  RAM: "Fri Nov 27, evening - Ngumoha, on the right in every Friday XI; Munoz has 'a big knock', did not train Friday and will try Saturday (Liverpool FC). Medium.",
+  ST: "Fri Nov 27, evening - Isak, the lone nine in Opta Analyst's, SI's and Khel Now's XIs. High.",
 };
 
 // ─── Alternatives per slot ──────────────────────────────────────────────────
@@ -524,7 +527,7 @@ export const ALTERNATIVES = {
   RDM: [{ playerId: 20, reason: "Nyoni · midfield cover" }, { playerId: 17, reason: "Endo · domestic option" }],
   LAM: [{ playerId: 25, reason: "Ngumoha · played left before Bruges" }, { playerId: 26, reason: "Chiesa · domestic option" }],
   CAM: [{ playerId: 20, reason: "Nyoni · if Wirtz is rested" }],
-  RAM: [{ playerId: 26, reason: "Chiesa · senior wide cover" }, { playerId: 28, reason: "Munoz · no ligament damage reported" }],
+  RAM: [{ playerId: 26, reason: "Chiesa · senior wide cover" }, { playerId: 28, reason: "Munoz · big knock, trying Saturday" }],
   ST:  [{ playerId: 31, reason: "Koumas · the other senior nine" }],
 };
 
@@ -533,7 +536,7 @@ export const ALTERNATIVES = {
 // metadata when generated by lineupPredictor.js.
 export const PREDICTION_NOTE = {
   level: "Medium",
-  generated_at: "2026-11-27T09:30:00Z",
-  reason: "Fri Nov 27, morning. Everton away, Premier League, Sunday 12pm GMT. One change: Araujo for Frimpong at right-back, as in RotoWire's and The Stats Zone's derby XIs. Munoz's first tests reportedly show no ligament damage (Marca via CaughtOffside) but he stays out pending Iraola's 1.30pm presser; Gakpo (soleus) and Gravenberch (heel) out. Eight of these eleven started the 3-0 at Club Brugge (Liverpool FC).",
+  generated_at: "2026-11-27T23:10:00Z",
+  reason: "Fri Nov 27, evening. Everton away, Premier League, Sunday 12pm GMT. No personnel change: Opta Analyst, SI and Khel Now all name this eleven, Araujo at right-back. Iraola ruled Gakpo out, called Gravenberch 'difficult' and said Munoz has a big knock and will try to train on Saturday (Liverpool FC), so Ngumoha stays on the right. Eight of these eleven started the 3-0 at Club Brugge (Liverpool FC).",
 };
 
