@@ -609,8 +609,8 @@ function CoverView({ onJump }) {
               and the derby has narrowed to one knee and one afternoon. The overnight reports, Marca's relayed by CaughtOffside,
               say the tests on Munoz found no ligament damage; they also warn that a bad bruise can keep a winger out of a Sunday
               as surely as a tear. Iraola will be asked at half past one, and asked about Gravenberch's heel, now described as
-              pain in the fascia. The captain, meanwhile, has been talking about the summer: no formal talks, Van Dijk says, and
-              if no extension comes he will say his goodbyes. Roy Keane expects 2-1, Ian Wright 3-0. Michael Oliver has refereed
+              pain in the fascia. The captain, meanwhile, has been talking about the summer: no formal talks yet, the Mail reports,
+              and Van Dijk says that if no extension comes he will say his goodbyes. Roy Keane expects 2-1, Ian Wright 3-0. Michael Oliver has refereed
               four league derbies and all four finished level, which is the kind of fact that means nothing until it means everything.
             </p>
             <p className="cover-letter-body" style={{

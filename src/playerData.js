@@ -1271,7 +1271,7 @@ export const STANDINGS_COMMENTARY = {
     "Leeds": "Seventh on seventeen; at Anfield on 12 December.",
     "Chelsea": "Eighth on sixteen; Liverpool visit Stamford Bridge on Saturday 5 December.",
     "Everton": "Ninth on sixteen, without the suspended Tarkowski for the derby, and winless in four league derbies (The Stats Zone).",
-    "Sunderland": "Eighteenth on nine, a point from safety; at Anfield on Wednesday.",
+    "Sunderland": "Eighteenth on nine, level on points with seventeenth-placed Forest but behind on goal difference; at Anfield on Wednesday.",
     "Manchester United": "Nineteenth on eight.",
     "Crystal Palace": "Bottom on seven."
   }
@@ -1317,7 +1317,7 @@ export const DISPATCHES = [
     "byline": "Liverpool Echo / LiveScore",
     "dateline": "Bruges · 25 November",
     "category": "Match Report",
-    "body": "Florian Wirtz's last four goals, for Liverpool and Germany, have one thing in common, Mark Jones wrote in Friday's Liverpool Echo: each went in off the frame of the goal. It reads like luck and is really precision, the ball struck to the very edge of the target. The goal in Bruges was the third, after Isak's two had already settled things; Isak is now into double figures for the season (Liverpool Echo via Yahoo Sports). Behind them Trey Nyoni, nineteen, completed ninety-two per cent of his passes (AnfieldWatch via LiveScore). The trick now is to carry it across Stanley Park."
+    "body": "Florian Wirtz's last four goals, for Liverpool and Germany, have one thing in common, Mark Jones wrote in Friday's Liverpool Echo: each went in off the frame of the goal. It reads like luck and is really precision, the ball struck to the very edge of the target. In Bruges he made it two on seventy-nine before Isak's second settled it; Isak is now into double figures for the season (Liverpool Echo via Yahoo Sports). Behind them Trey Nyoni, nineteen, completed ninety-two per cent of his passes (AnfieldWatch via LiveScore). The trick now is to carry it across Stanley Park."
   }
 ];
 export const NEWS_DIGEST = {
@@ -2264,14 +2264,14 @@ export const SEASON_PROJECTION = {
   "points": 21,
   "pointsPerGame": 1.91,
   "projectedPoints": 73,
-  "projectedFinish": "Above Champions League par on current pace, and fourth in the table this evening",
+  "projectedFinish": "Above Champions League par on current pace, and fourth in the table as of Friday morning",
   "headline": "The pace is still seventy-three: twenty-one points from eleven games, multiplied out over thirty-eight (ESPN). It is the same figure as on Monday and will stay so until Sunday's noon kick-off, which puts Liverpool on the pitch before anyone else this matchweek. Eleven games is a small sample, and this is a pace, not a prediction.",
   "thresholds": [
     {
       "label": "Champions League (top 4)",
       "points": 68,
       "gap": 0,
-      "note": "Historical par for the last Champions League place in recent seasons. Cleared by five on current pace; Liverpool are fourth this evening with every side on eleven played (ESPN)."
+      "note": "Historical par for the last Champions League place in recent seasons. Cleared by five on current pace; Liverpool are fourth as of Friday morning with every side on eleven played (ESPN)."
     },
     {
       "label": "Europa League (5th)",
