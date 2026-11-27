@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Fri Nov 27, evening - Knee: back in team training but not yet competitive, SI says; Sports Mole's possible return stays 2 January at Coventry.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Fri Nov 27, evening - Knee: back in team training but not yet competitive, SI says; the Echo names 16 December at Bournemouth as a potential return.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -213,7 +213,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-11-22", "2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Fri Nov 27, evening - On the right in Opta Analyst's, SI's and Khel Now's derby XIs, with Munoz unlikely to have trained.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-11-22", "2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Fri Nov 27, evening - On the right in Opta Analyst's, SI's and Khel Now's derby XIs, with Munoz, who did not train on Friday, a doubt.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -1263,7 +1263,7 @@ export const STANDINGS_COMMENTARY = {
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 11,
   "generatedAt": "2026-11-27T23:10:00Z",
-  "overview": "Matchweek twelve opened on Friday night at the City Ground, where Nottingham Forest beat Chelsea 3-2 with two goals from Morgan Gibbs-White, a result Sky Sports says heaps pressure on Xabi Alonso. Forest climb from seventeenth to fourteenth on twelve, leaving Sunderland, Liverpool's visitors on Wednesday, eighteenth and two points from safety, and Chelsea stay eighth on sixteen having played a game more than everyone else (ESPN). At the top nothing moved: Arsenal are six clear on twenty-eight, Brighton and City are on twenty-two and Liverpool fourth on twenty-one. Liverpool's noon kick-off at ninth-placed Everton on Sunday comes before every other side above them has played.",
+  "overview": "Matchweek twelve opened on Friday night at the City Ground, where Nottingham Forest beat Chelsea 3-2 with two goals from Morgan Gibbs-White, a result Sky Sports says heaps pressure on Xabi Alonso. Forest climb from seventeenth to fourteenth on twelve, leaving Sunderland, Liverpool's visitors on Wednesday, eighteenth and two points from safety, and Chelsea stay eighth on sixteen having played twelve, like Forest, a game more than the rest (ESPN). At the top nothing moved: Arsenal are six clear on twenty-eight, Brighton and City are on twenty-two and Liverpool fourth on twenty-one. Liverpool's noon kick-off at ninth-placed Everton on Sunday comes before every other side above them has played.",
   "teams": {
     "Liverpool": "Fourth on twenty-one, a point off second; Everton away at noon on Sunday, Sunderland at Anfield on Wednesday.",
     "Arsenal": "Twenty-eight points from eleven games, six clear at the top.",
@@ -1556,8 +1556,8 @@ export const FORM_TRENDS = {
     {
       "label": "Isak is finishing again",
       "severity": "positive",
-      "source": "ESPN / Sky Sports",
-      "detail": "Two in Bruges take him to ten for the season (ESPN), and he has scored in six consecutive away outings (Sky Sports)."
+      "source": "ESPN",
+      "detail": "Two in Bruges take him to ten for the season (ESPN), and he has scored in each of his last three league away games, at Bournemouth, Brentford and Palace (ESPN)."
     },
     {
       "label": "The supply line runs Ngumoha to Wirtz",

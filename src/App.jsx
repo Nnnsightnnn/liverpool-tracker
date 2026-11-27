@@ -571,7 +571,7 @@ function CoverView({ onJump }) {
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
           Friday evening, and Iraola has said it himself: no disruption in Munoz's knee, only a big knock, and he
-          wants to train tomorrow. Gakpo is definitely out, Gravenberch will be difficult. Liverpool are fourth on
+          wants to try tomorrow. Gakpo is definitely out, Gravenberch will be difficult. Liverpool are fourth on
           twenty-one, and the derby at Everton is a day and a half away, at noon on Sunday.
         </p>
 
