@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Thursday night, and the knee sounds better than it did. The pain has subsided, Sports Mole reports, though
-          Victor Munoz remains a major doubt and Iraola speaks at half past one tomorrow. Liverpool are fourth on
-          twenty-one, the only side unbeaten away from home. Everton, reshuffled and without Tarkowski, wait on Sunday at noon.
+          Friday morning, and the first news from the scans is kind. Marca reports no structural ligament damage in
+          Victor Munoz's knee, only a heavy knock, though nobody has confirmed it and Iraola speaks at half past one.
+          Liverpool are fourth on twenty-one. Everton, without Tarkowski, are two days away, at noon on Sunday.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,23 +605,21 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the news from Kirkby is a shade softer, and still not an answer. Sports Mole's afternoon list says the pain in
-              Munoz's knee has subsided; it also calls him a major doubt, and Liverpool have published no scan. Friday at half
-              past one, Iraola will be asked about him, about Gravenberch, now listed as a doubt rather than a lost cause, and
-              about a bench that has Chiesa as its only senior winger. Across the park, Everton are expected to change three
-              things, Grealish and Dibling recalled, O'Brien moved inside (Goodison News). Michael Ball, who knows the fixture,
-              says the man he fears is an eighteen-year-old on the right. Liverpool go there as the only team in the league
-              still unbeaten on the road, which is a record, and also a thing to lose.
+              <span style={{ fontStyle: "italic", color: T.red }}>Friday</span>,{" "}
+              and the derby has narrowed to one knee and one afternoon. The overnight reports, Marca's relayed by CaughtOffside,
+              say the tests on Munoz found no ligament damage; they also warn that a bad bruise can keep a winger out of a Sunday
+              as surely as a tear. Iraola will be asked at half past one, and asked about Gravenberch's heel, now described as
+              pain in the fascia. The captain, meanwhile, has been talking about the summer: no formal talks, Van Dijk says, and
+              if no extension comes he will say his goodbyes. Roy Keane expects 2-1, Ian Wright 3-0. Michael Oliver has refereed
+              four league derbies and all four finished level, which is the kind of fact that means nothing until it means everything.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: the pain subsides, the doubt remains; Friday, half past one;
-              Moyes reaches for Grealish; the last unbeaten travellers; and twelve points, with the top eight in view. The derby
-              kicks off at noon on Sunday.
+              five dispatches from the writers who never clock off: a knock, not a tear; the captain and the summer; Araujo on
+              the right again; four derbies, four draws; and Wirtz, through the frame. The derby kicks off at noon on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3831,7 +3829,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        Better, not yet fit.
+        A knock, not a tear.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",

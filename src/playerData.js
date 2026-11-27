@@ -14,7 +14,7 @@
 export const PLAYERS = [
   // ── Goalkeepers ───────────────────────────────────────────────────────────
   {
-    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Thu Nov 26, evening - Empire of the Kop says he made Champions League history in Bruges; the derby goal is his, behind a back four unbeaten in five away league games.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
+    id: 1, name: "Alisson Becker", number: 1, position: "GK", nationality: "🇧🇷 Brazil", age: 34, appearances: 32, goals: 0, assists: 0, cleanSheets: 10, xG: 0, tacklesPer90: 0, passCompletion: 82, progressiveCarries: 0.2, form: 6.5, status: "fit", injuryNote: "Fri Nov 27, morning - The derby starter in every Friday XI read (RotoWire; The Stats Zone), while TEAMtalk (via LiveScore) reports Liverpool weighing Risser and Diogo Costa as eventual successors.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8amq961757087569.png",
     physical: { height: 191, weight: 91, pace: 48, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2008-2013", club: "Internacional", fee: null, type: "youth" },
@@ -24,7 +24,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 26, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Thu Nov 26, evening - No change for Sunday: the bench, with Alisson expected to start at the Hill Dickinson.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
+    id: 2, name: "Giorgi Mamardashvili", number: 25, position: "GK", nationality: "🇬🇪 Georgia", age: 26, appearances: 19, goals: 0, assists: 0, cleanSheets: 5, xG: 0, tacklesPer90: 0, passCompletion: 76, progressiveCarries: 0.1, form: 6.2, status: "fit", injuryNote: "Fri Nov 27, morning - Bench again on Sunday; TEAMtalk's goalkeeper-succession report (via LiveScore) names Risser and Diogo Costa, not him.", image: "https://r2.thesportsdb.com/images/media/player/cutout/3yoja81757088527.png",
     physical: { height: 197, weight: 93, pace: 42, acceleration: 40, sprintSpeed: 44 },
     career: [
       { years: "2017-2021", club: "Dinamo Tbilisi", fee: null, type: "youth" },
@@ -36,7 +36,7 @@ export const PLAYERS = [
 
   // ── Defenders ─────────────────────────────────────────────────────────────
   {
-    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Thu Nov 26, evening - Rested in Bruges and due back for the derby, where Barry, six league goals, is the man to manage (Read Everton).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
+    id: 3, name: "Virgil van Dijk", number: 4, position: "DEF", nationality: "🇳🇱 Netherlands", age: 35, appearances: 43, goals: 6, assists: 1, cleanSheets: 11, xG: 3.2, tacklesPer90: 1.2, passCompletion: 92, progressiveCarries: 0.8, form: 7.4, status: "fit", injuryNote: "Fri Nov 27, morning - No formal contract talks yet (Daily Mail via Anfield Index); he told Sky Sports he will 'say goodbyes in the summer' if no extension comes. Back in both derby XIs read.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p97032.png",
     physical: { height: 193, weight: 92, pace: 72, acceleration: 68, sprintSpeed: 75 },
     career: [
       { years: "2011-2013", club: "Groningen", fee: null, type: "youth" },
@@ -46,7 +46,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Thu Nov 26, evening - One of only two senior centre-backs behind the starting pair, with Araujo, in a department this page calls critical.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
+    id: 5, name: "Joe Gomez", number: 2, position: "DEF", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 19, goals: 0, assists: 1, cleanSheets: 5, xG: 0.2, tacklesPer90: 1.3, passCompletion: 88, progressiveCarries: 1.5, form: 5.9, status: "fit", injuryNote: "Fri Nov 27, morning - Absent from RotoWire's and The Stats Zone's derby XIs; senior cover in a centre-back department this page rates critical.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p171287.png",
     physical: { height: 188, weight: 80, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2012-2015", club: "Charlton Athletic", fee: null, type: "youth" },
@@ -54,7 +54,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Thu Nov 26, evening - Likely to meet Dibling, predicted on Everton's right by Goodison News, after a clean sheet in Bruges.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
+    id: 7, name: "Milos Kerkez", number: 6, position: "DEF", nationality: "🇭🇺 Hungary", age: 22, appearances: 38, goals: 2, assists: 2, cleanSheets: 7, xG: 0.4, tacklesPer90: 2.0, passCompletion: 80, progressiveCarries: 4.8, form: 6.8, status: "fit", injuryNote: "Fri Nov 27, morning - Left-back in both Thursday XIs read (RotoWire; The Stats Zone), with Everton's right side still unsettled.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p544877.png",
     physical: { height: 185, weight: 78, pace: 82, acceleration: 84, sprintSpeed: 80 },
     career: [
       { years: "2018-2021", club: "Györ", fee: null, type: "youth" },
@@ -65,7 +65,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Thu Nov 26, evening - Knee: Sports Mole lists him out with a January return, a later date than the Liverpool Echo's 16 December target (via Yahoo Sports).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
+    id: 8, name: "Conor Bradley", number: 12, position: "DEF", nationality: "🇬🇧 N. Ireland", age: 23, appearances: 16, goals: 0, assists: 2, cleanSheets: 4, xG: 0.8, tacklesPer90: 2.6, passCompletion: 84, progressiveCarries: 5.1, form: 7.3, status: "injured", outSince: "2026-01-09", injuryNote: "Fri Nov 27, morning - Knee: back training but 'a few more weeks' from selection, Sports Mole says, with 2 January at Coventry its possible return.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p492777.png",
     physical: { height: 180, weight: 72, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2019-2022", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -74,7 +74,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Thu Nov 26, evening - Expected at right-back on Sunday, facing Grealish if Goodison News's predicted Everton XI is right.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
+    id: 9, name: "Jeremie Frimpong", number: 30, position: "DEF", nationality: "🇳🇱 Netherlands", age: 25, appearances: 35, goals: 2, assists: 6, cleanSheets: 7, xG: 0.9, tacklesPer90: 2.2, passCompletion: 83, progressiveCarries: 3.8, form: 6.4, status: "fit", injuryNote: "Fri Nov 27, morning - Started at right-back in Bruges, but RotoWire and The Stats Zone both prefer Araujo there for the derby.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ehf7fi1757088020.png",
     physical: { height: 171, weight: 66, pace: 91, acceleration: 93, sprintSpeed: 89 },
     career: [
       { years: "2017-2019", club: "Manchester City Academy", fee: null, type: "youth" },
@@ -84,7 +84,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Thu Nov 26, evening - Knee: Sports Mole calls a January return 'incredibly unlikely', against the Echo's 16 December target; not available for the derby.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
+    id: 10, name: "Giovanni Leoni", number: 15, position: "DEF", nationality: "🇮🇹 Italy", age: 19, appearances: 1, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 0, status: "injured", outSince: "2025-09-23", injuryNote: "Fri Nov 27, morning - Knee: Sports Mole now pencils 2 January at Coventry as the earliest possible return; back in team training, not in contention.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8aws9t1766829004.png",
     physical: { height: 190, weight: 82, pace: 70, acceleration: 68, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Padova", fee: null, type: "youth" },
@@ -94,7 +94,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Thu Nov 26, evening - Expected beside Van Dijk on Sunday against an Everton side that may move O'Brien inside (Goodison News).", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
+    id: 11, name: "Jérémy Jacquet", number: 23, position: "DEF", nationality: "🇫🇷 France", age: 21, appearances: 7, goals: 1, assists: 0, cleanSheets: 3, xG: 0.2, tacklesPer90: 1.6, passCompletion: 86, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Fri Nov 27, morning - His form 'giving stability at the back' (AnfieldWatch via LiveScore); in both derby XIs read, beside Van Dijk.", image: "https://r2.thesportsdb.com/images/media/player/cutout/d6qx171766136993.png",
     physical: { height: 184, weight: 76, pace: 74, acceleration: 72, sprintSpeed: 75 },
     career: [
       { years: "2019-2024", club: "Rennes Academy", fee: null, type: "youth" },
@@ -103,7 +103,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Thu Nov 26, evening - On loan at Levante; no change to report since the morning.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
+    id: 12, name: "Ifeanyi Ndukwe", number: 53, position: "DEF", nationality: "🇳🇬 Nigeria", age: 19, appearances: 2, goals: 0, assists: 0, cleanSheets: 1, xG: 0, tacklesPer90: 1.2, passCompletion: 82, progressiveCarries: 0.8, form: 6.3, status: "fit", injuryNote: "Fri Nov 27, morning - On loan at Levante; nothing new overnight.", image: "https://r2.thesportsdb.com/images/media/player/cutout/iagott1769030864.png",
     physical: { height: 186, weight: 78, pace: 72, acceleration: 70, sprintSpeed: 73 },
     career: [
       { years: "2021-2025", club: "Liverpool Academy", fee: null, type: "youth" },
@@ -111,7 +111,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Thu Nov 26, evening - The left-back cover again on Sunday, with Kerkez the expected starter.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
+    id: 32, name: "Kostas Tsimikas", number: 21, position: "DEF", nationality: "🇬🇷 Greece", age: 30, appearances: 6, goals: 0, assists: 3, cleanSheets: 1, xG: 0.2, tacklesPer90: 1.7, passCompletion: 79, progressiveCarries: 3.1, form: 5.8, status: "fit", injuryNote: "Fri Nov 27, morning - Still the left-back cover behind Kerkez for Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p214285.png",
     physical: { height: 178, weight: 76, pace: 79, acceleration: 80, sprintSpeed: 78 },
     career: [
       { years: "2017-2020", club: "Olympiacos", fee: null, type: "senior" },
@@ -122,7 +122,7 @@ export const PLAYERS = [
 
   // ── Midfielders ───────────────────────────────────────────────────────────
   {
-    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Thu Nov 26, evening - Fresh after watching Bruges from the bench, expected back in midfield for the derby.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
+    id: 13, name: "Alexis Mac Allister", number: 10, position: "MID", nationality: "🇦🇷 Argentina", age: 27, appearances: 41, goals: 2, assists: 4, cleanSheets: null, xG: 1.9, tacklesPer90: 1.9, passCompletion: 90, progressiveCarries: 1.4, form: 6.7, status: "fit", injuryNote: "Fri Nov 27, morning - Named in the derby pivot by RotoWire and The Stats Zone after a night on the bench in Bruges.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243016.png",
     physical: { height: 174, weight: 72, pace: 68, acceleration: 70, sprintSpeed: 66 },
     career: [
       { years: "2013-2019", club: "Argentinos Juniors", fee: null, type: "youth" },
@@ -131,7 +131,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "injured", outSince: "2026-11-03", injuryNote: "Thu Nov 26, evening - Heel: Sports Mole lists him a major doubt for Sunday, but with no club date and Iraola's 'difficult to say' (Yahoo Sports) he stays listed out here.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
+    id: 14, name: "Ryan Gravenberch", number: 38, position: "MID", nationality: "🇳🇱 Netherlands", age: 24, appearances: 41, goals: 6, assists: 5, cleanSheets: null, xG: 3.1, tacklesPer90: 2.8, passCompletion: 91, progressiveCarries: 3.2, form: 7.2, status: "injured", outSince: "2026-11-03", injuryNote: "Fri Nov 27, morning - Heel: described as pain in the fascia (Sports News Blitz); RotoWire says he most likely misses the derby. Kept out here.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p441266.png",
     physical: { height: 190, weight: 80, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2010-2018", club: "Ajax Academy", fee: null, type: "youth" },
@@ -141,7 +141,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Thu Nov 26, evening - Captained the side in Bruges; expected to partner Mac Allister at Everton with Gravenberch a major doubt.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
+    id: 15, name: "Dominik Szoboszlai", number: 8, position: "MID", nationality: "🇭🇺 Hungary", age: 25, appearances: 49, goals: 13, assists: 9, cleanSheets: null, xG: 6.2, tacklesPer90: 2.1, passCompletion: 86, progressiveCarries: 2.8, form: 7.6, status: "fit", injuryNote: "Fri Nov 27, morning - In every derby XI read beside Mac Allister (RotoWire; The Stats Zone).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p424876.png",
     physical: { height: 186, weight: 79, pace: 76, acceleration: 78, sprintSpeed: 74 },
     career: [
       { years: "2015-2018", club: "Liefering", fee: null, type: "youth" },
@@ -151,7 +151,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Thu Nov 26, evening - The domestic midfield cover if Gravenberch, a major doubt (Sports Mole), misses the derby.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
+    id: 17, name: "Wataru Endo", number: 3, position: "MID", nationality: "🇯🇵 Japan", age: 33, appearances: 14, goals: 0, assists: 1, cleanSheets: null, xG: 0.3, tacklesPer90: 3.1, passCompletion: 87, progressiveCarries: 1.2, form: 6.2, status: "fit", injuryNote: "Fri Nov 27, morning - Domestic midfield depth if Gravenberch's fascia pain keeps him out again.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p158983.png",
     physical: { height: 178, weight: 76, pace: 60, acceleration: 58, sprintSpeed: 62 },
     career: [
       { years: "2010-2012", club: "Yokohama F. Marinos", fee: null, type: "youth" },
@@ -163,7 +163,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Thu Nov 26, evening - 'Oozing with confidence', in Chris Sutton's words (CaughtOffside via LiveScore), after another goal in Bruges.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
+    id: 18, name: "Florian Wirtz", number: 7, position: "MID", nationality: "🇩🇪 Germany", age: 23, appearances: 33, goals: 6, assists: 7, cleanSheets: null, xG: 4.9, tacklesPer90: 1.0, passCompletion: 87, progressiveCarries: 4.1, form: 7.1, status: "fit", injuryNote: "Fri Nov 27, morning - His last four goals for club and country all went in via the frame of the goal, the Liverpool Echo notes (via Yahoo Sports).", image: "https://r2.thesportsdb.com/images/media/player/cutout/8t6bzo1757088899.png",
     physical: { height: 176, weight: 70, pace: 78, acceleration: 82, sprintSpeed: 75 },
     career: [
       { years: "2015-2020", club: "1. FC Köln Academy", fee: null, type: "youth" },
@@ -172,7 +172,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-11-22", "2026-09-15"], injuryNote: "Thu Nov 26, evening - Started in Bruges; behind Mac Allister and Szoboszlai for Sunday.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
+    id: 20, name: "Trey Nyoni", number: 42, position: "MID", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 19, appearances: 5, goals: 0, assists: 0, cleanSheets: null, xG: 0.2, tacklesPer90: 1.0, passCompletion: 84, progressiveCarries: 2.8, form: 6.0, status: "fit", recentPlayedDates: ["2026-11-22", "2026-09-15"], injuryNote: "Fri Nov 27, morning - Completed 92 per cent of his passes in Bruges (AnfieldWatch via LiveScore); bench for the derby in the XIs read.", image: "https://backend.liverpoolfc.com/sites/default/files/styles/xs/public/2025-08/trey-nyoni-2025-26-bodyshot_c04372ac9100f85a5647a0cd12e323c0.webp?itok=nTrwzG0A",
     physical: { height: 178, weight: 68, pace: 74, acceleration: 76, sprintSpeed: 72 },
     career: [
       { years: "2020-2023", club: "Leicester City Academy", fee: null, type: "youth" },
@@ -182,7 +182,7 @@ export const PLAYERS = [
 
   // ── Forwards ──────────────────────────────────────────────────────────────
   {
-    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "injured", outSince: "2026-11-22", injuryNote: "Thu Nov 26, evening - Soleus: out of the derby, with Sports Mole giving Sunderland on 2 December as the possible return (it calls the injury a calf problem).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
+    id: 22, name: "Cody Gakpo", number: 18, position: "FWD", nationality: "🇳🇱 Netherlands", age: 27, appearances: 42, goals: 10, assists: 9, cleanSheets: null, xG: 7.1, tacklesPer90: 0.8, passCompletion: 81, progressiveCarries: 2.5, form: 7.0, status: "injured", outSince: "2026-11-22", injuryNote: "Fri Nov 27, morning - Soleus: still out of the derby in RotoWire's and The Sports Bank's team news; Sunderland on 2 December the likeliest return.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p243298.png",
     physical: { height: 189, weight: 82, pace: 80, acceleration: 82, sprintSpeed: 78 },
     career: [
       { years: "2007-2018", club: "PSV Academy", fee: null, type: "youth" },
@@ -191,7 +191,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Thu Nov 26, evening - Ten goals in all competitions after the Bruges brace (BBC Sport via LiveScore); Dave.sport's derby preview asks whether Everton can stop him.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
+    id: 23, name: "Alexander Isak", number: 9, position: "FWD", nationality: "🇸🇪 Sweden", age: 27, appearances: 20, goals: 12, assists: 2, cleanSheets: null, xG: 9.6, tacklesPer90: 0.4, passCompletion: 76, progressiveCarries: 3.2, form: 7.5, status: "fit", injuryNote: "Fri Nov 27, morning - The lone striker in every derby XI read; the Echo puts him 'into double figures' for the season (via Yahoo Sports).", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p219168.png",
     physical: { height: 192, weight: 80, pace: 82, acceleration: 80, sprintSpeed: 84 },
     career: [
       { years: "2014-2017", club: "AIK", fee: null, type: "youth" },
@@ -202,7 +202,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Thu Nov 26, evening - Achilles: Sports Mole expects him to miss the rest of 2026, consistent with Iraola's January plan.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
+    id: 24, name: "Hugo Ekitike", number: 22, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 41, goals: 18, assists: 5, cleanSheets: null, xG: 14.2, tacklesPer90: 0.4, passCompletion: 78, progressiveCarries: 2.1, form: 7.3, status: "injured", outSince: "2026-04-15", injuryNote: "Fri Nov 27, morning - Achilles: Sports Mole's possible return is 2 January at Coventry, after the rest of 2026.", image: "https://r2.thesportsdb.com/images/media/player/cutout/8za47v1757087851.png",
     physical: { height: 190, weight: 78, pace: 83, acceleration: 85, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Reims Academy", fee: null, type: "youth" },
@@ -213,7 +213,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-11-22", "2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Thu Nov 26, evening - The Liverpool player who worries former Everton defender Michael Ball most (Read Everton); expected on the right on Sunday.", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
+    id: 25, name: "Rio Ngumoha", number: 48, position: "FWD", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 18, appearances: 13, goals: 2, assists: 2, cleanSheets: null, xG: 1.4, tacklesPer90: 0.3, passCompletion: 78, progressiveCarries: 3.5, form: 7.3, status: "fit", recentPlayedDates: ["2026-11-22", "2026-04-25", "2026-05-03", "2026-05-09", "2026-05-15"], injuryNote: "Fri Nov 27, morning - On the right in both Thursday derby XIs read (RotoWire; The Stats Zone).", image: "https://r2.thesportsdb.com/images/media/player/cutout/ay5j761773955893.png",
     physical: { height: 175, weight: 68, pace: 85, acceleration: 88, sprintSpeed: 83 },
     career: [
       { years: "2019-2024", club: "Chelsea Academy", fee: null, type: "youth" },
@@ -221,7 +221,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Thu Nov 26, evening - Still Isak's only senior understudy, with Ekitike out until January.", image: "",
+    id: 31, name: "Lewis Koumas", number: 67, position: "FWD", nationality: "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales", age: 21, appearances: 7, goals: 2, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.3, passCompletion: 77, progressiveCarries: 1.8, form: 6.3, status: "fit", injuryNote: "Fri Nov 27, morning - The only senior back-up nine; no Friday preview starts him.", image: "",
     physical: { height: 180, weight: 73, pace: 80, acceleration: 81, sprintSpeed: 79 },
     career: [
       { years: "2013-", club: "Liverpool", fee: null, type: "youth" },
@@ -231,7 +231,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Thu Nov 26, evening - Available for the derby and likely the only senior wide forward on the bench, with Gakpo out and Munoz a major doubt.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
+    id: 26, name: "Federico Chiesa", number: 14, position: "FWD", nationality: "🇮🇹 Italy", age: 28, appearances: 12, goals: 1, assists: 1, cleanSheets: null, xG: 1.5, tacklesPer90: 0.6, passCompletion: 80, progressiveCarries: 2.2, form: 6.0, status: "fit", injuryNote: "Fri Nov 27, morning - An exit before or during January is a realistic possibility, the Daily Mail reports (via Anfield Index); available for Sunday.", image: "https://r2.thesportsdb.com/images/media/player/cutout/idecla1757087689.png",
     physical: { height: 175, weight: 70, pace: 84, acceleration: 86, sprintSpeed: 82 },
     career: [
       { years: "2016-2020", club: "Fiorentina", fee: null, type: "senior" },
@@ -242,7 +242,7 @@ export const PLAYERS = [
 
   // ── Late additions ────────────────────────────────────────────────────────
   {
-    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Thu Nov 26, evening - Third goalkeeper; no change for Sunday.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
+    id: 27, name: "Freddie Woodman", number: 28, position: "GK", nationality: "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England", age: 29, appearances: 2, goals: 0, assists: 0, cleanSheets: 0, xG: 0, tacklesPer90: 0, passCompletion: 78, progressiveCarries: 0.1, form: 7.4, status: "fit", recentPlayedDates: ["2026-04-25", "2026-05-03"], injuryNote: "Fri Nov 27, morning - Third goalkeeper; nothing new for the derby.", image: "https://resources.premierleague.com/premierleague/photos/players/110x140/p155503.png",
     physical: { height: 188, weight: 82, pace: 47, acceleration: 45, sprintSpeed: 50 },
     career: [
       { years: "2009-2013", club: "Crystal Palace Academy", fee: null, type: "youth" },
@@ -259,7 +259,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "doubtful", injuryNote: "Thu Nov 26, evening - Knee: the initial pain had subsided, Sports Mole reported on Thursday afternoon, but he is still a major doubt for Everton; no scan result published, Iraola speaks at 1.30pm on Friday (Liverpool FC).", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "doubtful", injuryNote: "Fri Nov 27, morning - Knee: initial tests reportedly show no structural ligament damage, a heavy impact knock (Marca via CaughtOffside), final confirmation pending; still a doubt for Sunday, Iraola speaks at 1.30pm today.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -269,7 +269,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-11-22", "2026-09-15"], injuryNote: "Thu Nov 26, evening - Senior cover at centre-back and right-back for Sunday after his clean sheet in Bruges.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
+    id: 29, name: "Ronald Araujo", number: 33, position: "DEF", nationality: "🇺🇾 Uruguay", age: 27, appearances: 3, goals: 1, assists: 0, cleanSheets: 1, xG: 0.1, tacklesPer90: 1.8, passCompletion: 87, progressiveCarries: 1.1, form: 7.7, status: "fit", recentPlayedDates: ["2026-11-22", "2026-09-15"], injuryNote: "Fri Nov 27, morning - RotoWire and The Stats Zone both start him at right-back for the derby, ahead of Frimpong.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg/330px-FC_Red_Bull_Salzburg_gegen_CF_Barcelona_%28Testspiel_4._August_2021%29_45_%28cropped%29.jpg",
     physical: { height: 188, weight: 79, pace: 78, acceleration: 74, sprintSpeed: 80 },
     career: [
       { years: "2016-2018", club: "Rentistas", fee: null, type: "youth" },
@@ -279,7 +279,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Thu Nov 26, evening - Expected on the left on Sunday, running at an Everton right side Goodison News expects to be reshuffled.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
+    id: 30, name: "Bradley Barcola", number: 29, position: "FWD", nationality: "🇫🇷 France", age: 24, appearances: 7, goals: 3, assists: 0, cleanSheets: null, xG: 0, tacklesPer90: 0, passCompletion: 0, progressiveCarries: 0, form: 6.0, status: "fit", injuryNote: "Fri Nov 27, morning - On the left in both Thursday derby XIs read (RotoWire; The Stats Zone).", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg/330px-Bradley_Barcola_France_v_Spain_7.24.26-112_%28cropped%29.jpg",
     physical: { height: 182, weight: 72, pace: 91, acceleration: 92, sprintSpeed: 90 },
     career: [
       { years: "2010-2020", club: "Lyon Academy", fee: null, type: "youth" },
@@ -423,7 +423,9 @@ export const COVER_IMAGE = {
   alt: "Editorial plate: an empty pitch under floodlights seen from the gantry, the white lines drawn in perspective through a low mist, the stand beyond in shadow.",
   focus: "Anfield, after dark",
   credit: "Editorial plate",
-  generatedAt: "2026-11-26T23:15:00Z",
+  generatedAt: "2026-11-27T09:30:00Z",
+  // Morning pass (Fri 27 November, cloud): NO MATCH since the evening edition, Tier 3; lead is Marca's report (via CaughtOffside) that Munoz's first tests show no
+  // structural ligament damage, before Iraola's 1.30pm presser. Not a photograph; plate carried, generatedAt re-stamped (STEP 7.5 not runnable in cloud).
   // Evening pass (Thu 26 November, cloud): NO MATCH since the morning edition, Tier 3; lead is Munoz's pain subsiding but a major doubt (Sports Mole), with Iraola's
   // press conference at 1.30pm on Friday (Liverpool FC). Not a photograph; plate carried, generatedAt re-stamped (STEP 7.5 not runnable in cloud).
   // Morning pass (Thu 26 November, cloud): NO MATCH since the evening edition, Tier 3; lead is Munoz's knee assessed today with no verdict published
@@ -1224,6 +1226,7 @@ export const RESULTS = [
 // Refresh 2026-11-25 (Wednesday evening pass, cloud). Re-fetched from ESPN: byte-identical; Club Brugge 0-3 Liverpool was Champions League only. LIVERPOOL fourth on twenty-one.
 // Refresh 2026-11-26 (Thursday morning pass, cloud). Re-fetched from ESPN: byte-identical; nothing moves before Sunday. LIVERPOOL fourth on twenty-one.
 // Refresh 2026-11-26 (Thursday evening pass, cloud). Re-fetched from ESPN: byte-identical; no league football until Sunday's derby. LIVERPOOL fourth on twenty-one.
+// Refresh 2026-11-27 (Friday morning pass, cloud). Re-fetched from ESPN: byte-identical; the derby on Sunday is the next league game. LIVERPOOL fourth on twenty-one.
 export const STANDINGS = [
   { pos: 1, team: "Arsenal", p: 11, w: 9, d: 1, l: 1, gd: 10, pts: 28, qualification: "UCL" },
   { pos: 2, team: "Brighton", p: 11, w: 7, d: 1, l: 3, gd: 17, pts: 22, qualification: "UCL" },
@@ -1256,21 +1259,21 @@ export const STANDINGS_COMMENTARY = {
   "source": "ESPN",
   "sourceUrl": "https://www.espn.com/soccer/table/_/league/eng.1",
   "matchweek": 11,
-  "generatedAt": "2026-11-26T23:15:00Z",
-  "overview": "The table has stood still since Monday night, and the weekend's first big test of it comes at noon on Sunday across Stanley Park. Arsenal lead on twenty-eight, Brighton and City are on twenty-two, and Liverpool are fourth on twenty-one, the division's only side unbeaten away from home (ESPN; Dave.sport). Bournemouth in fifth, three points back, are the first team outside the Champions League places, with Brentford and Leeds a point behind them. Everton, ninth on sixteen and with three wins from five at home (Dave.sport), would close to within two points of Liverpool with a derby win. At the foot, Palace, United and Sunderland hold the relegation places on seven, eight and nine.",
+  "generatedAt": "2026-11-27T09:30:00Z",
+  "overview": "Eleven games in, the table is a single leader and a crowd. Arsenal are six clear on twenty-eight, and the four places below them are separated by four points: Brighton and City on twenty-two, Liverpool on twenty-one, Bournemouth on eighteen (ESPN). Liverpool's noon kick-off at Everton on Sunday puts them on the pitch first this matchweek, with three points enough to go level with Brighton and City until they play. Everton are ninth on sixteen and have lost their last three Premier League derbies (The Stats Zone). Palace, United and Sunderland remain in the bottom three on seven, eight and nine.",
   "teams": {
-    "Liverpool": "Fourth on twenty-one, the only unbeaten away record in the league (Dave.sport); Everton at noon on Sunday.",
-    "Arsenal": "Top on twenty-eight, six points clear of the pack.",
-    "Brighton": "Second on twenty-two, with the best goal difference in the division, plus seventeen.",
-    "Manchester City": "Third on twenty-two on goal difference behind Brighton, a point above Liverpool.",
-    "Bournemouth": "Fifth on eighteen, three points below the Champions League line.",
-    "Brentford": "Sixth on seventeen, three days after putting four past Everton.",
-    "Leeds": "Seventh on seventeen; Liverpool's visitors on 12 December.",
-    "Chelsea": "Eighth on sixteen; Liverpool go to Stamford Bridge on 5 December.",
-    "Everton": "Ninth on sixteen; three changes expected for the derby (Goodison News), Tarkowski suspended.",
-    "Sunderland": "Eighteenth on nine; at Anfield on Wednesday 2 December.",
-    "Manchester United": "Nineteenth on eight, a point clear of the bottom.",
-    "Crystal Palace": "Bottom on seven, two points from safety."
+    "Liverpool": "Fourth on twenty-one, a point off second; Everton away at noon on Sunday, then Sunderland at home on Wednesday.",
+    "Arsenal": "Twenty-eight points, six clear at the top after eleven games.",
+    "Brighton": "Second on twenty-two, plus seventeen on goal difference, the best in the league.",
+    "Manchester City": "Third on twenty-two, behind Brighton only on goal difference.",
+    "Bournemouth": "Fifth on eighteen, the first side outside the Champions League places.",
+    "Brentford": "Sixth on seventeen after the 4-0 over Everton on Monday.",
+    "Leeds": "Seventh on seventeen; at Anfield on 12 December.",
+    "Chelsea": "Eighth on sixteen; Liverpool visit Stamford Bridge on Saturday 5 December.",
+    "Everton": "Ninth on sixteen, without the suspended Tarkowski for the derby, and winless in four league derbies (The Stats Zone).",
+    "Sunderland": "Eighteenth on nine, a point from safety; at Anfield on Wednesday.",
+    "Manchester United": "Nineteenth on eight.",
+    "Crystal Palace": "Bottom on seven."
   }
 };
 
@@ -1278,119 +1281,124 @@ export const STANDINGS_COMMENTARY = {
 export const DISPATCHES = [
   {
     "n": "01",
-    "headline": "The Pain Subsides, The Doubt Remains.",
-    "byline": "Sports Mole / Liverpool FC",
+    "headline": "A Knock, Not A Tear.",
+    "byline": "CaughtOffside / Marca",
     "dateline": "Kirkby · 26 November",
     "category": "Injuries",
-    "body": "By Thursday afternoon the story of Victor Munoz's knee had softened without quite resolving. Sports Mole's injury list, updated at 1.18pm, said the initial pain had subsided, and still filed him under major doubt for Sunday. The club had added nothing to Iraola's words from Bruges, where he described a winger who left the pitch in a lot of pain and was, after the game, a lot more positive (Liverpool FC). No scan result has been published. The Spaniard has three appearances and a goal against United to his name, and a derby he may yet be fit to play."
+    "body": "The first word from the scans arrived late on Thursday and from Madrid. Marca, relayed by CaughtOffside, reported that the initial tests on Victor Munoz's knee had found no structural ligament damage, a heavy impact knock from his collision with Jorne Spileers rather than a tear. Nobody at Liverpool has confirmed it, and the same report warns that a severe bone bruise could still cost him Sunday. LiveScore's Friday round-up calls the club hopeful. Iraola's own description, from the night in Bruges, was more cautious: a knock, and now we have to assess him (Liverpool FC)."
   },
   {
     "n": "02",
-    "headline": "Friday, Half Past One.",
-    "byline": "Liverpool FC / Empire of the Kop",
-    "dateline": "Liverpool · 26 November",
-    "category": "Manager",
-    "body": "The answers have a time slot now. Andoni Iraola will preview the visit to Everton at 1.30pm GMT on Friday, the club announced on Thursday, and three names will dominate it: Munoz, Gravenberch and Gakpo. On Wednesday night he called the Munoz injury the worst part of the game, definitely (Liverpool FC), and told reporters he had spoken to the player (Empire of the Kop). Gakpo, he has already said, has a soleus problem and misses Sunday. Gravenberch is the one he cannot call: with Ryan, he said, it is difficult to say (Yahoo Sports)."
+    "headline": "The Captain And The Summer.",
+    "byline": "Daily Mail / Anfield Index",
+    "dateline": "Liverpool · 27 November",
+    "category": "Transfers",
+    "body": "Virgil van Dijk is thirty-five, his contract runs out in the summer, and there have been no formal talks about a new one, the Daily Mail reported on Friday morning (via Anfield Index). He sounds untroubled. He feels good, he told Sky Sports, and still has many more years in him; if the deal is extended, we will see, and if not, he will say his goodbyes. Milan's interest has been mentioned. He watched most of Bruges from the bench, came on for the last fifteen minutes and called the whole team outstanding (Anfield Index). On Sunday he is expected back."
   },
   {
     "n": "03",
-    "headline": "Moyes Reaches For Grealish.",
-    "byline": "Goodison News / Read Everton",
-    "dateline": "Finch Farm · 26 November",
+    "headline": "Araujo On The Right Again?",
+    "byline": "RotoWire / The Stats Zone",
+    "dateline": "Hill Dickinson Stadium · 26 November",
     "category": "Tactics",
-    "body": "Everton's answer to the 4-0 at Brentford may be three changes. Goodison News expects Hayden Hackney to replace Harrison Armstrong beside Garner, Jake O'Brien to move into the middle for the suspended Tarkowski with Röhl at right-back, and Jack Grealish and Tyler Dibling to start wide of Dewsbury-Hall. Grealish has not started since what the site calls behind-the-scenes issues at the start of November. Michael Ball, the former Everton defender, wants wholesale changes, Grealish among them, and admits he is worried about one Liverpool player in particular: Rio Ngumoha (Read Everton)."
+    "body": "Two of Thursday's previews made the same call at right-back. RotoWire and The Stats Zone both start Ronald Araujo there for the derby, the role he held against United, rather than Jeremie Frimpong, who started in Bruges. Both expect Mac Allister and Szoboszlai in the pivot, Barcola left, Ngumoha right and Isak alone up front. On Everton's side they agree on Michael Keane beside Branthwaite in place of the banned Tarkowski, with O'Brien at right-back, and differ on the wings: RotoWire has Röhl and Grealish, The Stats Zone has Johnson and George. Iraola's team news at half past one may settle some of it."
   },
   {
     "n": "04",
-    "headline": "The Last Unbeaten Travellers.",
-    "byline": "Dave.sport",
-    "dateline": "Hill Dickinson Stadium · 26 November",
+    "headline": "Four Derbies, Four Draws.",
+    "byline": "The Stats Zone / Goodison News",
+    "dateline": "Finch Farm · 27 November",
     "category": "Football News",
-    "body": "Liverpool go across the park as the only side in the division yet to lose away from home: four wins and a draw, Dave.sport notes. Everton's home record is nearly as good, three wins, a draw and a defeat in five. History leans one way. Liverpool won 2-1 at the Hill Dickinson in April, and Everton's last derby win came in April 2024, at their old ground. The hosts will be without James Tarkowski, sent off at Brentford when a high follow-through caught Yarmoliuk and a yellow became a red on review. Alexander Isak, two goals in Bruges, is the problem they have to solve."
+    "body": "Michael Oliver has refereed four Premier League Merseyside derbies and every one finished level, The Stats Zone notes. Everton would take another. They lost 4-0 at Brentford on Monday, their heaviest defeat of Moyes's second spell, and have not won a league derby since April 2024, at their old ground. On The Overlap, Ian Wright went for 3-0 to Liverpool and Roy Keane would not have it: Everton, at home, after a hiding, without a goal in them? He said 2-1 (Goodison News). In the matchday programme Kiernan Dewsbury-Hall remembered what Everton's staff told him on arrival: as long as we beat Liverpool (Read Everton)."
   },
   {
     "n": "05",
-    "headline": "Twelve Points, And The Top Eight.",
-    "byline": "Empire of the Kop / LiveScore",
+    "headline": "Through The Frame.",
+    "byline": "Liverpool Echo / LiveScore",
     "dateline": "Bruges · 25 November",
-    "category": "Race for Europe",
-    "body": "The Champions League table looked different on Thursday morning. The 3-0 in Bruges lifted Liverpool to fifth in the league phase on twelve points, per Opta (via LiveScore), and Empire of the Kop now reckons them nicely on course for a top-eight finish and a direct place in the last sixteen. Isak's two goals took him to ten for the season (BBC Sport via LiveScore). Chris Sutton, watching Wirtz, found a player oozing with confidence (CaughtOffside via LiveScore). Three league-phase games remain, and the margin over ninth is no longer a question of goal difference."
+    "category": "Match Report",
+    "body": "Florian Wirtz's last four goals, for Liverpool and Germany, have one thing in common, Mark Jones wrote in Friday's Liverpool Echo: each went in off the frame of the goal. It reads like luck and is really precision, the ball struck to the very edge of the target. The goal in Bruges was the third, after Isak's two had already settled things; Isak is now into double figures for the season (Liverpool Echo via Yahoo Sports). Behind them Trey Nyoni, nineteen, completed ninety-two per cent of his passes (AnfieldWatch via LiveScore). The trick now is to carry it across Stanley Park."
   }
 ];
 export const NEWS_DIGEST = {
-  "generatedAt": "2026-11-26T23:15:00Z",
-  "summary": "Thursday closed without a scan verdict on Victor Munoz, but the afternoon reading was kinder than the morning's: Sports Mole's injury list, updated at 1.18pm, says the pain in the knee he hurt in Bruges had subsided, while still calling him a major doubt for Sunday's noon derby at the Hill Dickinson. The answer is now due at Iraola's press conference, at 1.30pm GMT on Friday (Liverpool FC). Sports Mole lists Gravenberch as a major doubt rather than out, while Gakpo is expected back for Sunderland on 2 December. Across the park, Goodison News expects Moyes to make three changes after the 4-0 at Brentford, with Hackney for Armstrong, O'Brien moving inside for the banned Tarkowski, and Grealish and Dibling wide. As of Thursday evening Liverpool are fourth on twenty-one and the league's only unbeaten away side (Dave.sport; ESPN).",
+  "generatedAt": "2026-11-27T09:30:00Z",
+  "summary": "Friday morning brings the most encouraging word yet on Victor Munoz: Marca, relayed overnight by CaughtOffside, reports that the first tests on the knee he hurt in Bruges found no structural ligament damage, a heavy impact knock with final confirmation still pending, though even a bad bone bruise could rule him out of Sunday's noon derby. Iraola is due to give the official word at 1.30pm GMT today (Liverpool FC), with Gravenberch's heel, described by Sports News Blitz as pain in the fascia, the other question. Van Dijk has held no formal contract talks, the Daily Mail reports via Anfield Index, and told Sky Sports he will say his goodbyes in the summer if no extension comes. Thursday's previews from RotoWire and The Stats Zone both start Araujo at right-back and expect Michael Keane to replace the banned Tarkowski. As of Friday morning Liverpool are fourth on twenty-one, five points above ninth-placed Everton (ESPN).",
   "keyTopics": [
     {
-      "title": "Munoz's Pain Has Subsided, Still A Major Doubt (Sports Mole, today)",
+      "title": "Munoz Reportedly Clear Of Ligament Damage (Marca via CaughtOffside, today)",
       "category": "injuries",
-      "detail": "Updated at 1.18pm on Thursday: Sports Mole says the initial pain in Munoz's knee had subsided but lists him a major doubt for Everton. Liverpool have published no scan result; Iraola's only words remain the post-match 'a lot more positive' (Liverpool FC)."
+      "detail": "Reported overnight: initial tests on Munoz's knee suggest no structural ligament damage, a heavy impact knock, with final confirmation pending (Marca via CaughtOffside). The same report warns a severe bone bruise could still rule him out of Sunday; LiveScore's Friday round-up calls Liverpool hopeful."
     },
     {
-      "title": "Iraola's Derby Presser Set For 1.30pm Friday (Liverpool FC, today)",
+      "title": "Van Dijk: No Formal Talks Yet (Daily Mail via Anfield Index, today)",
       "category": "general",
-      "detail": "Announced on Thursday afternoon: the club will stream Iraola's pre-derby press conference live from 1.30pm GMT on Friday, the first chance for an official word on Munoz, Gravenberch and Gakpo."
+      "detail": "Published on Friday morning: the captain, 35, has not held formal contract talks. He told Sky Sports: 'If it's getting extended, we'll see then. If not, then I'm going to say goodbyes in the summer.' Milan's interest has been mentioned."
     },
     {
-      "title": "Gravenberch Filed Under 'Major Doubt' (Sports Mole, today)",
-      "category": "injuries",
-      "detail": "In Thursday's injury list Sports Mole lists Gravenberch as a major doubt with Sunday as a possible return, a step short of ruling him out; Iraola's own line on Tuesday was 'With Ryan, it's difficult to say' (Yahoo Sports)."
+      "title": "Chiesa's January Exit 'Realistic' (Daily Mail via Anfield Index, today)",
+      "category": "transfers",
+      "detail": "Reported on Friday: an exit before or during January is a realistic possibility for Chiesa, left off the Champions League list and tied to Liverpool until June 2028; Serie A is the most natural destination, Anfield Index suggests."
     },
     {
-      "title": "Leoni's Timeline Disputed (Sports Mole, today)",
-      "category": "injuries",
-      "detail": "Published on Thursday: Sports Mole calls a January return for Leoni 'incredibly unlikely', a harder line than the Liverpool Echo's 16 December target from Wednesday (via Yahoo Sports). Bradley is listed out with a January return."
-    },
-    {
-      "title": "Three Everton Changes Predicted (Goodison News, today)",
-      "category": "matches",
-      "detail": "Posted at 4pm on Thursday: Goodison News expects Hackney for Armstrong, O'Brien to centre-back for the banned Tarkowski with Röhl at right-back, and Grealish and Dibling to start wide."
-    },
-    {
-      "title": "Michael Ball Worried By Ngumoha (Read Everton, today)",
+      "title": "Wirtz's Goals Through The Frame (Liverpool Echo via Yahoo Sports, today)",
       "category": "tactics",
-      "detail": "In Read Everton's Thursday night round-up, published at 7pm, the former Everton defender Michael Ball calls for wholesale changes, Grealish recalled among them, and names Ngumoha as the Liverpool winger who concerns him."
+      "detail": "In Friday's Liverpool Echo, Mark Jones notes that Wirtz's last four goals for club and country all went in via the frame of the goal, and that Isak is now into double figures for the season."
     },
     {
-      "title": "The League's Only Unbeaten Away Side (Dave.sport, today)",
+      "title": "Keane Says 2-1, Wright Says 3-0 (Goodison News, today)",
       "category": "matches",
-      "detail": "From Thursday afternoon's preview: Liverpool have four wins and a draw on the road, the only unbeaten away record in the division, while Everton have won three of five at home (Dave.sport)."
+      "detail": "Published at 7am on Friday: on The Overlap, Ian Wright predicts 3-0 to Liverpool and Roy Keane disagrees, 'You don't think Everton have got a goal in them?', settling on 2-1."
     },
     {
-      "title": "On Course For The Top Eight (Empire of the Kop, today)",
-      "category": "general",
-      "detail": "Published on Thursday morning: Empire of the Kop runs the maths after Bruges and finds Liverpool 'nicely on course' for a direct last-sixteen place; Opta has them fifth on twelve points (via LiveScore)."
-    },
-    {
-      "title": "Isak Reaches Ten For The Season (BBC Sport via LiveScore, today)",
+      "title": "Dewsbury-Hall On The Derby (Read Everton, today)",
       "category": "matches",
-      "detail": "Reported on Thursday: the Bruges brace took Isak to ten goals in all competitions (BBC Sport via LiveScore), with Gakpo out and Ekitike pointed at January."
+      "detail": "From Friday morning's Read Everton, taken from the matchday programme: Dewsbury-Hall recalls Everton staff telling him 'As long as we beat Liverpool!' and says the gap between the clubs is narrowing."
     },
     {
-      "title": "Sutton On Wirtz's Confidence (CaughtOffside via LiveScore, today)",
+      "title": "Goalkeeper Succession Links (TEAMtalk via LiveScore, today)",
+      "category": "transfers",
+      "detail": "In Friday's LiveScore round-up: TEAMtalk reports Liverpool weighing Robin Risser and Diogo Costa as eventual Alisson successors, with Football365 saying Porto would sell Costa below his release clause. January speculation, not a bid."
+    },
+    {
+      "title": "Nyoni's 92 Per Cent In Bruges (AnfieldWatch via LiveScore, today)",
       "category": "tactics",
-      "detail": "In Thursday's round-up: Chris Sutton says Wirtz is 'oozing with confidence' after another goal in Bruges (CaughtOffside via LiveScore)."
+      "detail": "Noted in Friday's round-up: Nyoni completed 92 per cent of his passes in the 3-0 at Club Brugge, and Jacquet's form is credited with giving stability at the back (AnfieldWatch via LiveScore)."
     },
     {
-      "title": "Gakpo Pencilled In For Sunderland (Sports Mole, today)",
+      "title": "Araujo Tipped For Right-Back (RotoWire; The Stats Zone, 1d ago)",
+      "category": "tactics",
+      "detail": "Published on Thursday: both previews start Araujo at right-back ahead of Frimpong, and both expect Michael Keane beside Branthwaite for Everton with Tarkowski banned."
+    },
+    {
+      "title": "Michael Oliver's Four Drawn Derbies (The Stats Zone, 1d ago)",
+      "category": "matches",
+      "detail": "From Thursday's preview: Oliver has refereed four Premier League Merseyside derbies, all drawn; Everton are winless in four league derbies and lost 4-0 at Brentford, their heaviest defeat of Moyes's second spell."
+    },
+    {
+      "title": "Gravenberch's Pain 'In The Fascia' (Sports News Blitz, 1d ago)",
       "category": "injuries",
-      "detail": "Thursday's list gives Gakpo a possible return against Sunderland on 2 December. Sports Mole calls it a calf problem; Iraola's own description was a soleus, 'a muscle injury' (Yahoo Sports)."
+      "detail": "Thursday's derby preview describes Gravenberch's problem as pain in the fascia; RotoWire says he most likely misses Sunday, and Gakpo (soleus) is out."
     }
   ],
   "sources": [
-    "Sports Mole",
+    "CaughtOffside",
+    "Marca",
+    "LiveScore",
     "Liverpool FC",
-    "Yahoo Sports",
+    "Sports News Blitz",
+    "Daily Mail",
+    "Anfield Index",
+    "Sky Sports",
+    "RotoWire",
+    "The Stats Zone",
+    "ESPN",
     "Liverpool Echo",
+    "Yahoo Sports",
     "Goodison News",
     "Read Everton",
-    "Dave.sport",
-    "ESPN",
-    "Empire of the Kop",
-    "Opta",
-    "LiveScore",
-    "BBC Sport",
-    "CaughtOffside"
+    "TEAMtalk",
+    "Football365",
+    "AnfieldWatch"
   ]
 };
 // ─────────────────────────────────────────────────────────────────────────────
@@ -1411,7 +1419,7 @@ export const NEWS_DIGEST = {
 // next edition and then into the auditor's blind spot.
 
 export const OPPOSITION = {
-  "generatedAt": "2026-11-26T23:15:00Z",
+  "generatedAt": "2026-11-27T09:30:00Z",
   "opponent": "Everton",
   "shortName": "Everton",
   "fixture": {
@@ -1424,8 +1432,8 @@ export const OPPOSITION = {
   "manager": "David Moyes (ToffeeWeb; Wikipedia)",
   "formation": "4-2-3-1",
   "leaguePosition": 9,
-  "summary": "Everton come into the derby looking for a reaction, and Thursday's previews expect one: Goodison News predicts three changes after the 4-0 at Brentford, Hackney for Armstrong, Grealish and Dibling recalled wide, and O'Brien moving inside for the suspended Tarkowski. They are ninth on sixteen, five behind Liverpool (ESPN), and much better at home than away, three wins, a draw and a defeat from five (Dave.sport). Tarkowski's red came after a high follow-through on Yarmoliuk, a yellow upgraded on review with Brentford already two up (Dave.sport). Former Everton defender Michael Ball wants wholesale changes and names Ngumoha as the Liverpool player who worries him (Read Everton). The one blemish on Liverpool's side of the history is distant: Everton's last derby win came in April 2024, before the move to the Hill Dickinson (Dave.sport).",
-  "shape": "Goodison News, the freshest preview found, keeps Moyes's 4-2-3-1 but reshuffles it: Röhl at right-back, O'Brien beside Branthwaite, Hackney and Garner as the pivot, Dibling and Grealish either side of Dewsbury-Hall, Barry alone up front. Read Everton's earlier XI had Armstrong in the pivot, Keane at centre-back and Röhl wide, so the right side of Everton's defence is the least settled part of the team. Grealish has not started since early November (Goodison News).",
+  "summary": "Everton's week has been about reaction, and Friday brought more voices than answers: Roy Keane expects them to score at home after the 4-0 at Brentford, which The Stats Zone calls their heaviest defeat of Moyes's second spell, and Dewsbury-Hall says the gap to Liverpool is narrowing (Goodison News; Read Everton). They are ninth on sixteen, five behind Liverpool (ESPN), and have not won a Premier League derby since April 2024, at their old ground, four without a win (The Stats Zone). Tarkowski is banned after his red at Brentford, and RotoWire and The Stats Zone both expect Michael Keane to replace him, not O'Brien moving inside as Goodison News had it. Their home form is better than their away form, three wins from five (Dave.sport). Michael Oliver referees; his four league derbies have all been drawn (The Stats Zone).",
+  "shape": "RotoWire's 4-2-3-1 is the most recent full XI read: O'Brien at right-back, Keane and Branthwaite inside, Armstrong and Garner as the pivot, Röhl, Dewsbury-Hall and Grealish behind Barry. The previews disagree on the wide players (The Stats Zone has Johnson and George, Goodison News Dibling and Grealish) and on whether Hackney replaces Armstrong, so Everton's attacking line is the least predictable part of the side. Keane for Tarkowski is the one change they agree on.",
   "keyPlayers": [
     {
       "name": "Thierno Barry",
@@ -1454,13 +1462,13 @@ export const OPPOSITION = {
   ],
   "predictedXI": [
     "Pickford",
-    "Röhl",
     "O'Brien",
+    "Keane",
     "Branthwaite",
     "Mykolenko",
-    "Hackney",
+    "Armstrong",
     "Garner",
-    "Dibling",
+    "Röhl",
     "Dewsbury-Hall",
     "Grealish",
     "Barry"
@@ -1506,15 +1514,17 @@ export const OPPOSITION = {
       "note": "Premier League (ESPN)."
     }
   ],
-  "liverpoolAngle": "If Goodison News is right, Everton's right side is new for Sunday: Röhl at full-back and O'Brien moved inside, with Dibling ahead of them, and that is exactly where Barcola, Liverpool's likely left winger, will run. Ball's fear of Ngumoha (Read Everton) points at the other flank, where Mykolenko and Grealish meet him. Barry is still the threat Van Dijk and Jacquet have to manage, and SQUAD_LOAD still calls centre-back critical, with Araujo and Gomez the only senior cover. The vulnerability is Liverpool's bench: Gakpo is out and Munoz a major doubt (Sports Mole), so a winger injured early would leave Chiesa as the only senior wide replacement. Liverpool's away record, four wins and a draw (Dave.sport), says they have handled this kind of afternoon before.",
+  "liverpoolAngle": "With Keane in for Tarkowski, Everton's back four loses its captain and its most experienced organiser, and Barcola on the left will run at O'Brien, a centre-back by trade, at right-back (RotoWire). On Liverpool's side the open question is right-back: two previews start Araujo, Read Everton started Frimpong, and whoever plays will meet Grealish if he starts. Barry, six league goals (Read Everton), is the threat Van Dijk and Jacquet must manage with SQUAD_LOAD still rating centre-back critical, Araujo and Gomez the only senior cover. The bench is thin out wide: Gakpo is out and Munoz, even with no ligament damage reported (Marca via CaughtOffside), may not make it, leaving Chiesa as the senior wide replacement.",
   "modelLine": {
     "source": "Google result probability, as reported by The Sports Bank",
     "liverpool": 54,
     "draw": 24,
     "opponent": 22,
-    "note": "Reported on 26 November by The Sports Bank as Google's result probability; the underlying model is not named, so treat it as a rough guide rather than a forecast."
+    "note": "Reported on 26 November by The Sports Bank as Google's result probability; the underlying model is not named, so read it as a rough guide. RotoWire, The Stats Zone and Read Everton all predict a Liverpool win, 2-1 in RotoWire's and Read Everton's case."
   },
   "sources": [
+    "RotoWire",
+    "The Stats Zone",
     "Goodison News",
     "Read Everton",
     "Dave.sport",
@@ -1523,14 +1533,14 @@ export const OPPOSITION = {
     "FotMob",
     "TEAMtalk via LiveScore",
     "The Sports Bank",
-    "Sports Mole"
+    "Marca via CaughtOffside"
   ]
 };
 export const FORM_TRENDS = {
-  "generatedAt": "2026-11-26T23:15:00Z",
+  "generatedAt": "2026-11-27T09:30:00Z",
   "competition": "PL",
   "played": 11,
-  "headline": "The away column is where this season's Liverpool look most like a top-four side: four wins and a draw from five league trips, the only unbeaten record on the road in the division (Dave.sport), with ten goals (Read Everton). The composite here, summed from per-match sources, still has Liverpool making more than they concede (18.99 expected goals for, 13.41 against), broadly in line with FotMob's 20.2 and 13.8 (Planet Football, 23 November). The real column has not moved since Sunday: eleven games, eighteen scored, ten conceded. Sunday's trip is to the side FotMob ranks seventeenth for expected goals (Planet Football).",
+  "headline": "Nothing in the league numbers has moved since Sunday, so the useful reading this morning is of shape rather than sum. Liverpool have conceded ten in eleven, and the composite here, built from per-match sources, puts them at 18.99 expected goals for and 13.41 against, close to FotMob's 20.2 and 13.8 (Planet Football, 23 November). Five league trips have brought four wins and a draw (Dave.sport), and Liverpool have won the last three Premier League derbies (The Stats Zone). Everton, Sunday's hosts, are ranked seventeenth for expected goals by FotMob (Planet Football).",
   "diagnosis": [
     {
       "label": "Clean sheets, back to back",
@@ -1565,8 +1575,8 @@ export const FORM_TRENDS = {
     {
       "label": "The wings keep losing players",
       "severity": "high",
-      "source": "Sports Mole / Last Word On Sports",
-      "detail": "Munoz is a major doubt, the pain eased but no scan result published (Sports Mole), Gakpo is out of the derby (Iraola, via Last Word On Sports): Barcola, Ngumoha and, domestically, Chiesa are what remains for two places."
+      "source": "Marca via CaughtOffside / RotoWire",
+      "detail": "Munoz's first tests reportedly show no ligament damage but he may still miss Sunday (Marca via CaughtOffside), and Gakpo is out (RotoWire): Barcola, Ngumoha and, domestically, Chiesa are what remains for two places."
     }
   ],
   "matches": [
@@ -1857,12 +1867,17 @@ export const FORM_TRENDS = {
     "note": "Premier League only, eleven games. xG for is 4.38 (United, Opta Analyst) plus 2.73 (Newcastle) plus 1.61 (Forest) plus 0.53 (Ipswich) plus 1.13 (Fulham) plus 1.57 (Bournemouth) plus 0.86 (City) plus 1.51 (Brentford) plus 0.87 (Brighton) plus 1.15 (Arsenal) plus 2.65 (Palace); xG against is 0.64 plus 1.43 plus 2.30 plus 0.72 plus 0.71 plus 0.76 plus 1.30 plus 0.85 plus 1.35 plus 0.96 plus 2.39. The Palace figures are The Transfer Hub's (2.39 being its 1.60 non-penalty figure plus its 0.79 for the penalty), the Brentford and Brighton figures are FotMob's, reported by SI, the City card's 1.30 is Sofascore's and the Arsenal card is LiveScore's; Opta's own figures replace them when published. Provenance caveat from 21 September stands: Opta's published season expected-goals-against figure through five games was 6.12 rather than the 5.92 those per-match cards summed to. Champions League and Carabao Cup cards are shown but not aggregated. First-half splits exist only for Forest and City among the league cards (and for the Tottenham Carabao Cup card) and are not aggregated."
   },
   "optaFacts": [
-    "Liverpool are the only side in the Premier League still unbeaten away from home, four wins and a draw (Dave.sport).",
-    "Everton have not beaten Liverpool since April 2024, at their old ground; Liverpool won 2-1 at the Hill Dickinson in April (Dave.sport).",
-    "Isak's two goals in Bruges took him to ten for the season in all competitions (BBC Sport via LiveScore).",
-    "The Bruges win lifted Liverpool to fifth in the Champions League league phase on twelve points (Opta via LiveScore)."
+    "Michael Oliver has refereed four Premier League Merseyside derbies, and all four were drawn (The Stats Zone).",
+    "Everton's 4-0 at Brentford on Monday was their heaviest defeat of David Moyes's second spell (The Stats Zone).",
+    "Wirtz's last four goals for club and country all went in via the frame of the goal (Liverpool Echo via Yahoo Sports).",
+    "Nyoni completed 92 per cent of his passes in the 3-0 at Club Brugge (AnfieldWatch via LiveScore)."
   ],
   "sources": [
+    "The Stats Zone",
+    "Marca via CaughtOffside",
+    "RotoWire",
+    "AnfieldWatch via LiveScore",
+    "Liverpool Echo via Yahoo Sports",
     "beIN Sports",
     "Legit.ng",
     "Opta via SI",
@@ -1975,23 +1990,23 @@ export const FORM_TRENDS = {
   ]
 };
 export const SQUAD_LOAD = {
-  "generatedAt": "2026-11-26T23:15:00Z",
-  "headline": "The Munoz question narrowed on Thursday without closing: Sports Mole says the pain in his knee had subsided and calls him a major doubt, and Liverpool have published no scan result, so Iraola's 1.30pm press conference on Friday is the next official word (Liverpool FC). Sports Mole also lists Gravenberch as a major doubt rather than out, and expects Gakpo back for Sunderland. If Munoz misses out, Ngumoha is the expected starter on the right and Chiesa the only senior wide player on the bench.",
+  "generatedAt": "2026-11-27T09:30:00Z",
+  "headline": "The overnight news on Munoz is the best of the week: initial tests reportedly show no structural ligament damage, only a heavy knock (Marca via CaughtOffside), though nothing is confirmed and a bad bruise could still keep him out on Sunday. Iraola's 1.30pm press conference today is the first chance for the club's word. Gravenberch's heel, described as pain in the fascia (Sports News Blitz), looks likely to keep him out (RotoWire), and Gakpo misses the derby. The two newest previews start Araujo at right-back, which would leave Frimpong, Gomez and Chiesa among the senior options on the bench.",
   "minutesNote": "Premier League minutes are not published here yet. Eleven league games, five Champions League games and two Carabao Cup ties have been played and no reliable per-player season minutes have been sourced, so this board tracks availability, starts, substitution times and return timelines instead, and will fill with minutes as the season accumulates them. Nothing in this object is estimated.",
   "unavailable": [
     {
       "name": "Victor Munoz",
       "issue": "Knee: a blow in a collision with Spileers in Bruges, off on forty-two (Liverpool FC; Opta Analyst)",
-      "expected": "A major doubt for Everton; Sports Mole says the initial pain had subsided, with no scan result published by Thursday evening",
-      "note": "Iraola after Bruges: he was 'a lot more positive' once the game was over (Liverpool FC). Listed here as a doubt; PLAYERS status doubtful; Friday's 1.30pm press conference is the next update.",
-      "source": "Sports Mole / Liverpool FC"
+      "expected": "A doubt for Everton; initial tests reportedly show no structural ligament damage, a heavy impact knock, final confirmation pending (Marca via CaughtOffside)",
+      "note": "Even a severe bone bruise could rule him out of the derby (CaughtOffside). PLAYERS status doubtful; Iraola's 1.30pm press conference today is the next update (Liverpool FC).",
+      "source": "Marca via CaughtOffside / Liverpool FC"
     },
     {
       "name": "Ryan Gravenberch",
-      "issue": "Heel problem (early November)",
-      "expected": "No return date from the club; Sports Mole lists him a major doubt for Everton, Iraola says 'With Ryan, it's difficult to say' (Yahoo Sports)",
+      "issue": "Heel problem (early November), described as pain in the fascia (Sports News Blitz)",
+      "expected": "No return date from the club; RotoWire says he most likely misses the derby, Sports Mole lists him a major doubt",
       "note": "Has not played for nearly a month (Premier League News Now).",
-      "source": "Sports Mole / Yahoo Sports / Premier League News Now"
+      "source": "Sports News Blitz / RotoWire / Sports Mole"
     },
     {
       "name": "Cody Gakpo",
@@ -2003,14 +2018,14 @@ export const SQUAD_LOAD = {
     {
       "name": "Hugo Ekitike",
       "issue": "Achilles rupture (April, surgery)",
-      "expected": "'The plan has always been January' (Iraola); Lens at Anfield on 27 January named as a potential return (Liverpool Echo via Yahoo Sports)",
+      "expected": "'The plan has always been January' (Iraola); Sports Mole's possible return is 2 January at Coventry, the Echo names Lens on 27 January",
       "note": "Achilles ruptured against PSG in April.",
       "source": "Liverpool Echo via Yahoo Sports"
     },
     {
       "name": "Giovanni Leoni",
       "issue": "ACL (September 2025)",
-      "expected": "Bournemouth in the Carabao Cup on 16 December named as a potential return (Liverpool Echo via Yahoo Sports); Sports Mole calls a January return 'incredibly unlikely'",
+      "expected": "Bournemouth in the Carabao Cup on 16 December named as a potential return (Liverpool Echo via Yahoo Sports); Sports Mole's possible return is 2 January at Coventry",
       "note": "Back in team training, 'two weeks on and off the group' (Iraola, via the Liverpool Echo); not available for the derby.",
       "source": "Liverpool Echo via Yahoo Sports"
     },
@@ -2018,7 +2033,7 @@ export const SQUAD_LOAD = {
       "name": "Conor Bradley",
       "issue": "Knee (surgery on bone and ligament damage, January)",
       "expected": "Bournemouth in the Carabao Cup on 16 December named as a potential return (Liverpool Echo via Yahoo Sports); the Evening Standard had earlier mentioned Sunderland on 2 December",
-      "note": "Back in full training (Liverpool Echo via Yahoo Sports); not available for the derby.",
+      "note": "Back in training but 'a few more weeks' from selection (Sports Mole); not available for the derby.",
       "source": "Liverpool Echo via Yahoo Sports / Evening Standard via AOL"
     }
   ],
@@ -2027,7 +2042,7 @@ export const SQUAD_LOAD = {
       "name": "Jeremie Frimpong",
       "issue": "Muscle injury at Brentford on 17 October",
       "status": "Started at right-back in Bruges (Liverpool FC)",
-      "note": "Part of the clean sheet; in Read Everton's derby XI.",
+      "note": "Part of the clean sheet; Read Everton starts him on Sunday, RotoWire and The Stats Zone prefer Araujo.",
       "source": "Liverpool FC / Read Everton"
     },
     {
@@ -2048,7 +2063,7 @@ export const SQUAD_LOAD = {
       "name": "Virgil van Dijk",
       "issue": "Unspecified fitness issue in the international break",
       "status": "Rested to the bench in Bruges (Liverpool FC)",
-      "note": "Back in Read Everton's derby XI.",
+      "note": "Back in every derby XI read; no formal contract talks yet (Daily Mail via Anfield Index).",
       "source": "Liverpool FC / Read Everton"
     },
     {
@@ -2088,22 +2103,22 @@ export const SQUAD_LOAD = {
     {
       "position": "Centre-back",
       "level": "critical",
-      "detail": "Critical. Van Dijk and Jacquet the likely derby pair against Barry (Read Everton), Araujo and Gomez the cover; Leoni back on and off with the group but not before 16 December (Liverpool Echo via Yahoo Sports)."
+      "detail": "Critical. Van Dijk and Jacquet the derby pair in every XI read; if Araujo plays right-back, Gomez is the only senior centre-back on the bench. Leoni not before 16 December at the earliest (Liverpool Echo via Yahoo Sports)."
     },
     {
       "position": "Wide forward",
       "level": "high",
-      "detail": "High. Munoz a major doubt with no scan result published (Sports Mole), Gakpo out until Sunderland: Barcola and Ngumoha the likely pair, Chiesa the only senior cover."
+      "detail": "High. Munoz reportedly free of ligament damage but still a derby doubt (Marca via CaughtOffside), Gakpo out until Sunderland: Barcola and Ngumoha the likely pair, Chiesa the senior cover."
     },
     {
       "position": "Right-back",
       "level": "high",
-      "detail": "High. Frimpong the starter in Read Everton's XI, Araujo and Gomez the cover; Bradley back in full training, 16 December the potential return (Liverpool Echo via Yahoo Sports)."
+      "detail": "High. Araujo the starter in RotoWire's and The Stats Zone's XIs, Frimpong in Read Everton's; Bradley 'a few more weeks' from selection (Sports Mole)."
     },
     {
       "position": "Central midfield",
       "level": "high",
-      "detail": "High. Gravenberch a major doubt rather than out in Sports Mole's list, but with no club date; Mac Allister and Szoboszlai the expected pair, Nyoni and Endo behind them."
+      "detail": "High. Gravenberch's fascia pain likely keeps him out (Sports News Blitz; RotoWire); Mac Allister and Szoboszlai the expected pair, Nyoni and Endo behind them."
     },
     {
       "position": "Centre-forward",
@@ -2117,6 +2132,11 @@ export const SQUAD_LOAD = {
     }
   ],
   "sources": [
+    "Marca via CaughtOffside",
+    "Sports News Blitz",
+    "RotoWire",
+    "The Stats Zone",
+    "Daily Mail via Anfield Index",
     "101 Great Goals",
     "3 Added Minutes",
     "Anfield Index",
@@ -2239,13 +2259,13 @@ export const SQUAD_LOAD = {
   ]
 };
 export const SEASON_PROJECTION = {
-  "generatedAt": "2026-11-26T23:15:00Z",
+  "generatedAt": "2026-11-27T09:30:00Z",
   "played": 11,
   "points": 21,
   "pointsPerGame": 1.91,
   "projectedPoints": 73,
   "projectedFinish": "Above Champions League par on current pace, and fourth in the table this evening",
-  "headline": "Twenty-one points from eleven league games is a pace of seventy-three (ESPN), and nothing changes it before Sunday's derby. Thirteen of those points have come away from home, from the division's only unbeaten away record (Dave.sport). Eleven games is still a small sample, and the projection should be read as a pace, not a forecast.",
+  "headline": "The pace is still seventy-three: twenty-one points from eleven games, multiplied out over thirty-eight (ESPN). It is the same figure as on Monday and will stay so until Sunday's noon kick-off, which puts Liverpool on the pitch before anyone else this matchweek. Eleven games is a small sample, and this is a pace, not a prediction.",
   "thresholds": [
     {
       "label": "Champions League (top 4)",
@@ -2323,7 +2343,7 @@ export const SEASON_PROJECTION = {
       "difficulty": "medium"
     }
   ],
-  "runInVerdict": "The next week is Everton away on Sunday, Sunderland at home on Wednesday and Chelsea away on Saturday 5 December (ESPN): ninth, eighteenth and eighth. Two of the three are away, which suits the side with the league's only unbeaten road record (Dave.sport), but the derby comes without Gakpo and probably without Munoz, a major doubt (Sports Mole). Seven points would take Liverpool to twenty-eight from fourteen and keep the pace above seventy; three or fewer would invite Bournemouth, Brentford and Leeds back into the top-four picture.",
+  "runInVerdict": "Three games in seven days decide the shape of December: Everton away on Sunday, Sunderland at home on Wednesday, Chelsea away on Saturday 5 December (ESPN), against the sides ninth, eighteenth and eighth. A win at the Hill Dickinson would put Liverpool level on points with Brighton and City until they play. Seven points from the three would mean twenty-eight from fourteen; two defeats would leave Bournemouth, Brentford and Leeds within reach of fourth.",
   "sources": [
     "ESPN",
     "SI",
