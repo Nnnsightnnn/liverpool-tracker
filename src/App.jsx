@@ -570,9 +570,9 @@ function CoverView({ onJump }) {
           fontFamily: T.serif, fontWeight: 400, fontSize: 24, lineHeight: 1.4,
           color: T.ivoryDim, maxWidth: "62ch", marginBottom: 48,
         }}>
-          Friday evening, and Iraola has said it himself: no disruption in Munoz's knee, only a big knock, and he
-          wants to try tomorrow. Gakpo is definitely out, Gravenberch will be difficult. Liverpool are fourth on
-          twenty-one, and the derby at Everton is a day and a half away, at noon on Sunday.
+          Saturday, derby eve, and the eleven is all but written: Ngumoha on the right, Araujo at right-back, Isak
+          alone up front, with Munoz a late call on a knocked knee. Liverpool are fourth on twenty-one, Brighton play
+          this afternoon, and Everton wait at noon tomorrow without their captain.
         </p>
 
         <StatStrip stats={stats} />
@@ -605,21 +605,22 @@ function CoverView({ onJump }) {
               fontFamily: T.serif, fontSize: 22, lineHeight: 1.5, color: T.ivory,
               fontWeight: 400, marginBottom: 24, textWrap: "pretty",
             }}>
-              <span style={{ fontStyle: "italic", color: T.red }}>Tonight</span>,{" "}
-              the rumour has become a sentence from the manager. Everything is fine in the knee, Iraola said at Kirkby this
-              afternoon, but it is a big knock; Munoz did not train today and wants to try tomorrow, and nobody, the head coach
-              included, can yet say whether he plays. Gakpo will not, two or three weeks with the muscle he hurt against Germany.
-              Gravenberch is the hard one: Iraola could not say no, only that he must come back without pain. Across the park
-              Moyes chooses between Keane, O'Brien and Maitland-Niles for Tarkowski's place. Opta's supercomputer gives Liverpool
-              42.7 per cent and Everton thirty-two, which is a derby's way of saying it has not decided either.
+              <span style={{ fontStyle: "italic", color: T.red }}>Saturday</span>,{" "}
+              and the derby has narrowed to a single knee. Munoz missed Friday's session and was due to try again this morning;
+              RotoWire calls it a late fitness decision, and by breakfast nobody had reported how it went. The previews have
+              stopped waiting for him. RotoWire, The False 9 and FotMob all start Ngumoha on the right, and on the other side all
+              three now start Grealish, with Keane in for the banned Tarkowski. Moyes says his captain will be missed for his
+              leadership; Chris Sutton thinks that absence is what swings it. Further off, a call from deadline day is still
+              ringing: Liverpool, Ben Jacobs reports, remain keen on Lamine Camara for January. Tomorrow at noon, the only
+              forecast that counts is the one that kicks off.
             </p>
             <p className="cover-letter-body" style={{
               fontFamily: T.serif, fontSize: 18, lineHeight: 1.6, color: T.ivoryDim,
               fontWeight: 400, textWrap: "pretty",
             }}>
               Inside, the squad as a roster, the standings live again, and
-              five dispatches from the writers who never clock off: everything is fine, but; two or three weeks, and a heel;
-              Keane, O'Brien or Maitland-Niles; two wins in thirty-one; and a letter from the lawyers. The derby kicks off at noon on Sunday.
+              five dispatches from the writers who never clock off: the last training session; Grealish, after all; a phone
+              call on deadline day; five away, none lost; and three o'clock at the Amex. The derby kicks off at noon on Sunday.
             </p>
           </div>
           <div style={{ background: T.rule }} />
@@ -3829,7 +3830,7 @@ function Footer() {
         fontSize: 32, lineHeight: 1.2, color: T.ivory, maxWidth: "30ch",
         letterSpacing: "-0.01em",
       }}>
-        He wants to try tomorrow.
+        One knee, one morning, one derby.
       </div>
       <div style={{
         fontSize: 10, letterSpacing: "0.22em", textTransform: "uppercase",
