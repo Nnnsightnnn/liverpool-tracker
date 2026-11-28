@@ -1,4 +1,4 @@
-// ─── Liverpool FC Player Data (2026-27 Season · Updated 26 November 2026 (evening)) ──────
+// ─── Liverpool FC Player Data (2026-27 Season · Updated 28 November 2026 (morning)) ──────
 // Extracted from App.jsx — single source of truth for player, news, and RSS data
 
 // Statuses: "fit" | "injured" | "doubtful" | "recovering"
@@ -259,7 +259,7 @@ export const PLAYERS = [
     ],
   },
   {
-    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "doubtful", injuryNote: "Sat Nov 28, morning - Knee: a late fitness decision after missing Friday's session, his second knee problem of the season (RotoWire); no structural damage, Particle's Saturday summary says.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
+    id: 28, name: "Victor Munoz", number: 21, position: "FWD", nationality: "🇪🇸 Spain", age: 22, appearances: 3, goals: 1, assists: 0, cleanSheets: null, xG: 0.3, tacklesPer90: 0.7, passCompletion: 79, progressiveCarries: 2.6, form: 7.6, status: "doubtful", injuryNote: "Sat Nov 28, morning - Knee: a late fitness decision after missing Friday's session, his second knee problem of the season (RotoWire); 'no disruption in the knee', Iraola said on Friday (Liverpool FC).", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg/330px-Victor_Munoz_Argentina_v_Spain_19_July_2026-020.jpg",
     physical: { height: 178, weight: 71, pace: 86, acceleration: 88, sprintSpeed: 84 },
     career: [
       { years: "2018-2023", club: "Osasuna Academy", fee: null, type: "youth" },
@@ -1291,7 +1291,7 @@ export const DISPATCHES = [
     "byline": "Particle / RotoWire",
     "dateline": "Kirkby · 28 November",
     "category": "Injuries",
-    "body": "Saturday is the day the question gets answered, and by breakfast nobody had answered it. Victor Munoz missed Friday's session with the knee he hurt colliding with Spileers in Bruges, and Iraola's words were that he wanted to try today. RotoWire calls it a late fitness decision and notes it is his second knee problem of the season, after a knock at Brentford in October. Particle's early-morning summary says the club found no structural damage. If he cannot go, every preview already has the answer: Rio Ngumoha on the right, where he finished the night in Belgium."
+    "body": "Saturday is the day the question gets answered, and by breakfast nobody had answered it. Victor Munoz missed Friday's session with the knee he hurt colliding with Spileers in Bruges, and Iraola's words were that he wanted to try today. RotoWire calls it a late fitness decision and notes it is his second knee problem of the season, after a knock at Brentford in October. There is no disruption in the knee, Iraola said on Friday, only a big knock (Liverpool FC). If he cannot go, every preview already has the answer: Rio Ngumoha on the right, where he finished the night in Belgium."
   },
   {
     "n": "02",
@@ -1333,7 +1333,7 @@ export const NEWS_DIGEST = {
     {
       "title": "Derby Eve: A Late Call On Munoz (Particle, today)",
       "category": "injuries",
-      "detail": "Summarised early on Saturday: Liverpool will make a late call on Victor Munoz, whose knee showed no structural damage, while Gakpo misses out for two to three weeks. RotoWire, updated on Friday, notes it is his second knee problem of the season after a knock at Brentford in October; no Saturday session had been reported by this edition."
+      "detail": "Summarised early on Saturday by Particle: Liverpool will make a late call on Victor Munoz, whose knee Iraola said has 'no disruption' (Liverpool FC), while Gakpo misses out for two to three weeks. RotoWire, updated on Friday, notes it is his second knee problem of the season after a knock at Brentford in October; no Saturday session had been reported by this edition."
     },
     {
       "title": "Camara Still Wanted For January (Anfield Index, today)",
@@ -1928,13 +1928,11 @@ export const FORM_TRENDS = {
     "NBC Sports",
     "Rush The Kop",
     "AnfieldWatch",
-    "The Stats Zone",
     "Brit Brief",
     "Roundtable via Yahoo Sports",
     "Express via AOL",
     "Football365",
     "TEAMtalk via LiveScore",
-    "RotoWire",
     "Evening Standard",
     "YSscores",
     "Empire of the Kop",
@@ -1970,7 +1968,6 @@ export const FORM_TRENDS = {
     "BBC via Yahoo",
     "SportsView",
     "The Mag",
-    "Liverpool Echo via Yahoo Sports",
     "BBC via Yahoo Sports",
     "Seoul Economic Daily",
     "AFP via Yahoo Sports",
@@ -2015,7 +2012,7 @@ export const SQUAD_LOAD = {
       "name": "Victor Munoz",
       "issue": "Knee: a big knock from a collision with Spileers in Bruges, off on forty-two (Liverpool FC; Opta Analyst)",
       "expected": "A late fitness decision for Everton (RotoWire); missed Friday's session and was due to try on Saturday (Liverpool FC)",
-      "note": "No structural damage, Particle's Saturday summary says; RotoWire notes his second knee problem of the season after an October knock at Brentford. PLAYERS status doubtful.",
+      "note": "'No disruption in the knee', Iraola said on Friday (Liverpool FC); RotoWire notes his second knee problem of the season after an October knock at Brentford. PLAYERS status doubtful.",
       "source": "RotoWire / Particle / Liverpool FC"
     },
     {
